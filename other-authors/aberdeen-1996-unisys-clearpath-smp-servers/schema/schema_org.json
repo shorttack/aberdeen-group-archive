@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Unisys Corporation - ClearPath SMP Servers",
+  "description": "Aberdeen Group profiles Unisys Corporation's ClearPath SMP Server product line following Unisys's 1995 reorganization into three business groups. The study examines Unisys's strategy of providing 'full-service' computing to enterprises overwhelmed by open systems complexity, covering entry-level (SMP5200/5400), mid-range (SMP61000), and high-end server offerings, clustering via Veritas Vx Reliant, and the balance between Unix openness and proprietary ClearPath reliability/availability/security (RAS) requirements.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Unisys",
+    "ClearPath",
+    "SMP",
+    "enterprise servers",
+    "Unix",
+    "Intel Pentium Pro",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1995/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "market-data",
+    "framework-factor"
+  ]
+}

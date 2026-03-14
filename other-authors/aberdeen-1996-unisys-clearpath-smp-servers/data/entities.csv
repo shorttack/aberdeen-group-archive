@@ -1,0 +1,11 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+unisys,Unisys Corporation,company,enterprise-computing,active,,1986-present,aberdeen-1996-unisys-clearpath-smp-servers,Formed 1986 from merger of Sperry and Burroughs; reorganized 1995 into three groups; ClearPath Forward still active 2026
+intel,Intel Corporation,company,semiconductor,active,,1968-present,aberdeen-1996-unisys-clearpath-smp-servers,Key Unisys hardware partner; Figure 1 shows Unisys/Intel cooperation; Pentium and Pentium Pro CPUs in SMP servers
+sequent-computer,Sequent Computer Systems,company,enterprise-servers,acquired,IBM (1999),1983-1999,aberdeen-1996-unisys-clearpath-smp-servers,OEM supplier for Unisys high-end SMP servers; acquired by IBM in 1999
+oracle,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-unisys-clearpath-smp-servers,Unisys is the largest reseller of Oracle; Oracle Parallel Server (OPS) supported on Unisys clusters
+informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,aberdeen-1996-unisys-clearpath-smp-servers,RDBMS partner for Unisys decision support solutions; acquired by IBM 2001
+veritas-software,Veritas Software,company,storage-software,acquired,Symantec (2005),1983-2005,aberdeen-1996-unisys-clearpath-smp-servers,Provider of Vx Reliant clustering software for Unisys SMP servers; Symantec acquired Veritas 2005
+pyramid-technology,Pyramid Technology Corporation,company,enterprise-servers,acquired,Siemens Nixdorf -> Fujitsu,1981-1996,aberdeen-1996-unisys-clearpath-smp-servers,Creator of Reliant clustering software licensed by Veritas; acquired by Siemens Nixdorf
+usoft,USoft Inc.,company,software,dissolved,Unisys absorbed,1988-2000,aberdeen-1996-unisys-clearpath-smp-servers,Unisys subsidiary providing client-server development tools; brand dissolved into Unisys
+red-brick-systems,Red Brick Systems,company,data-warehousing,acquired,Informix -> IBM,1988-1999,aberdeen-1996-unisys-clearpath-smp-servers,Data warehouse RDBMS partner for Unisys decision support solutions
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Aberdeen Strategy & Research,1988-2001,aberdeen-1996-unisys-clearpath-smp-servers,Author of this Profile

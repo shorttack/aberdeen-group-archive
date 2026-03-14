@@ -1,0 +1,109 @@
+{
+  "name": "aberdeen-1996-dec-manageworks-22",
+  "title": "ManageWORKS 2.2 Market Profile",
+  "description": "Aberdeen Group product profile evaluating Digital Equipment Corporation's ManageWORKS 2.2 LAN management platform (March 1996). Assesses architecture, partner ecosystem, and competitive positioning.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

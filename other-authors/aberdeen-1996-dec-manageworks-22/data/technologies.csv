@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+manageworks-22,ManageWORKS 2.2,application,Digital Equipment Corporation,1994-1998,mature,obsolete,aberdeen-1996-dec-manageworks-22,LAN management platform for multi-NOS environments; discontinued after DEC acquired by Compaq
+novell-netware,Novell NetWare,platform,Novell,1983-2000,mature,obsolete,aberdeen-1996-dec-manageworks-22,NetWare 3.x and 4.x managed by ManageWORKS; market share collapsed in late 1990s
+windows-nt,Microsoft Windows NT,platform,Microsoft,1993-2000,emerging,obsolete,aberdeen-1996-dec-manageworks-22,ManageWORKS ran on Windows 3.1/95/NT; NT partial management supported
+snmp,Simple Network Management Protocol (SNMP),protocol,IETF,1988-present,emerging,active,aberdeen-1996-dec-manageworks-22,Core protocol underlying ManageWORKS management architecture
+polycenter,POLYCENTER Manager on NetView,application,Digital Equipment Corporation,1990-1998,mature,obsolete,aberdeen-1996-dec-manageworks-22,Higher-end enterprise SNMP platform; ManageWORKS acted as mid-level manager feeding POLYCENTER
+hp-openview,HP OpenView,application,Hewlett-Packard,1988-2010,mature,obsolete,aberdeen-1996-dec-manageworks-22,Enterprise SNMP management platform; ManageWORKS could forward traps to OpenView
+intel-landesk,Intel LANDesk,application,Intel,1992-present,emerging,active,aberdeen-1996-dec-manageworks-22,Desktop management partner integrated with ManageWORKS; later became LANDESK Software (now Ivanti)
+digital-pathworks,Digital PATHWORKS,platform,Digital Equipment Corporation,1987-1998,mature,obsolete,aberdeen-1996-dec-manageworks-22,DEC network OS for VAX/Alpha environments; managed by ManageWORKS

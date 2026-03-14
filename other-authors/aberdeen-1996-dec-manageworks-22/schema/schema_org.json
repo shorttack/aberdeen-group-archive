@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ManageWORKS 2.2 Market Profile",
+  "description": "Aberdeen Group product profile evaluating Digital Equipment Corporation's ManageWORKS 2.2 LAN management platform (March 1996).",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "LAN management",
+    "network management",
+    "ManageWORKS",
+    "Digital Equipment Corporation",
+    "SNMP",
+    "multi-NOS",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "expert-opinion"
+  ]
+}

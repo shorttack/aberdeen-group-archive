@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Impacts: Technology Briefings 1997",
+  "description": "This document is an index and abstract listing of Aberdeen Group's 'Impacts' research briefings published across 1997, covering networking, telecommunications, ERP, and IT-infrastructure vendors. Each entry summarizes a one-to-two page rapid-analysis product assessing specific vendor announcements or technology developments. The listing spans approximately 35 individual impact reports from February through January 1998.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Aberdeen Group Impacts",
+    "1997",
+    "networking",
+    "ERP",
+    "telecommunications",
+    "technology briefings"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

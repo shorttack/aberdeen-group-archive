@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+mvl-dsl,Paradyne MVL (Multiple Virtual Line) DSL Technology,protocol,Paradyne,1997-2002,emerging,obsolete,aberdeen-1997-aberdeen-group-impacts,Early DSL variant for home/SOHO high-speed access
+dsl-lite,DSL Lite / ADSL Lite,protocol,ADSL Forum,1997-2005,emerging,obsolete,aberdeen-1997-aberdeen-group-impacts,Standardization push in early 1998 noted
+atm-networking,ATM (Asynchronous Transfer Mode) Networking,protocol,various,1988-2005,mature,obsolete,aberdeen-1997-aberdeen-group-impacts,FORE Systems and Cabletron using ATM; lost to Ethernet/IP
+novell-nds,Novell Directory Services (NDS),application,Novell,1993-2016,mature,legacy-supported,aberdeen-1997-aberdeen-group-impacts,Evolved into eDirectory; still supported in limited contexts
+isdn,ISDN (Integrated Services Digital Network),protocol,various telcos,1986-2005,mature,obsolete,aberdeen-1997-aberdeen-group-impacts,Widely deployed in 1997; displaced by DSL and cable broadband

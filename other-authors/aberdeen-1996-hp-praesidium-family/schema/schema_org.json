@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Hewlett-Packard's Praesidium: A Family of Products To make Business on the Net A Reality",
+  "description": "This Aberdeen Group profile, dated September 9, 1996, evaluates Hewlett-Packard's Praesidium security framework for enterprise Internet and Intranet transaction security. The study examines HP's VirtualVault trusted gateway, Praesidium Authorization Server, ImagineCard smart card authentication, and the International Cryptography Framework (ICF), positioning them as a comprehensive solution for moving enterprises from pilot electronic commerce projects to production-grade deployments.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-09-09",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Internet security",
+    "e-commerce",
+    "VirtualVault",
+    "authorization",
+    "RBAC",
+    "cryptography",
+    "HP Praesidium",
+    "enterprise security",
+    "X.509"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "actual-outcome"
+  ],
+  "isBasedOn": "https://web.archive.org/web/19961023162641/http://www.aberdeen.com:80/secure/profiles/hp_praes/hp.htm"
+}

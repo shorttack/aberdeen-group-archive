@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Data General's Cybershield: Security Solutions for Advancing Business on the Net",
+  "description": "Aberdeen Group profiles Data General's Cybershield security platform, an integrated suite built on the B2-level secure DG/UX operating system (B2SO), designed to protect enterprise Intranets and electronic commerce applications. The study documents IS executives' concerns about network security and the inadequacy of standalone firewalls, then validates Cybershield's ability to segregate users, applications, and data with minimal performance impact. Aberdeen recommends Cybershield as a superior alternative to component-based point solutions for IS executives deploying Internet-facing business applications.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Data General",
+    "Cybershield",
+    "B2SO",
+    "internet security",
+    "intranet",
+    "electronic commerce",
+    "firewall",
+    "B2 security",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1996/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "expert-opinion"
+  ]
+}

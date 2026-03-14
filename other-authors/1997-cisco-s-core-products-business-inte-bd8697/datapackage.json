@@ -1,0 +1,52 @@
+{
+  "name": "1997-cisco-s-core-products-business-inte-bd8697",
+  "title": "Cisco's Core Products Business Integrates Routing and Switching",
+  "description": "Aberdeen Group Company Profile (January 1997) of Cisco Systems analyzing how Cisco evolved from router-only vendor to end-to-end networking solutions provider through acquisitions (StrataCom), IOS investment protection, NetFlow Switching, Tag Switching (precursor to MPLS), and the Gigabit Switch Router (GSR 12000 series).",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Company Profile, January 1997",
+      "path": "https://web.archive.org/web/19970604113114/http://www.aberdeen.com:80/secure/profiles/1997/cisco/body.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

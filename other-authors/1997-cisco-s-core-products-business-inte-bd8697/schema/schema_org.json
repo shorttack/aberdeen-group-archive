@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Cisco's Core Products Business Integrates Routing and Switching",
+  "description": "Aberdeen Group Company Profile (January 1997) of Cisco Systems analyzing IOS, NetFlow Switching, Tag Switching (MPLS precursor), GSR 12000 Series, and Cisco's strategy for maintaining leadership during the routing-to-switching technology transition.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Cisco Systems",
+    "IOS",
+    "NetFlow",
+    "Tag Switching",
+    "MPLS",
+    "GSR",
+    "Gigabit Switch Router",
+    "StrataCom",
+    "enterprise networking",
+    "ISP",
+    "routing",
+    "switching",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

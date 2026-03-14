@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP's Andover Working Group Makes Significant Headway in Establishing Interoperability in Healthcare Computing",
+  "description": "This April 1997 Aberdeen Group announcement profile assesses HP's Andover Working Group for Healthcare Interoperability, an initiative HP spearheaded in March 1996. Aberdeen documents the group's first-year achievements: alpha HL7 Enterprise Communication Framework (ECF) software delivered to 18 core members, membership growth from 12 to 200+, and new standards initiatives for DICOM and IEEE MIB in 1997. The report positions HP as a uniquely capable total healthcare solutions provider combining medical devices, enterprise computing, and standards leadership \u2014 and predicts the ECF will achieve commercial availability by end-1997 with full embedding in healthcare applications by 1998.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-04-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "HP Andover Working Group",
+    "HL7",
+    "DICOM",
+    "healthcare interoperability",
+    "Enterprise Communication Framework",
+    "Hewlett-Packard",
+    "healthcare IT",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

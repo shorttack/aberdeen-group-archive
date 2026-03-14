@@ -1,0 +1,10 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+3com,3Com Corporation,company,networking-hardware,acquired,HP/HPE (acquired 2010),1979-2010,aberdeen-1995-3com-lanplex-2500,"Headquarters: Santa Clara, CA. Switching Division in Boxborough, MA. Acquired Synernetics 1993."
+cisco-systems,Cisco Systems,company,networking-hardware,active,,1984-present,aberdeen-1995-3com-lanplex-2500,Primary competitor in Ethernet/FDDI switching market at time of study.
+alantec,ALANTEC Corporation,company,networking-hardware,acquired,"Fore Systems (1996), then Marconi, then Ericsson",1992-1996,aberdeen-1995-3com-lanplex-2500,LAN switching competitor cited in competitive table. Acquired by Fore Systems 1996.
+bay-networks,Bay Networks,company,networking-hardware,acquired,Nortel Networks (acquired 1998),1994-1998,aberdeen-1995-3com-lanplex-2500,Formed from merger of SynOptics and Wellfleet Communications in 1994.
+synernetics,"Synernetics, Inc.",company,networking-hardware,acquired,3Com Corporation (acquired 1993),1990-1993,aberdeen-1995-3com-lanplex-2500,Fast-moving LAN switching startup; expertise in high-performance FDDI backbone switching. Formed core of 3Com Switching Division.
+aberdeen-group,"Aberdeen Group, Inc.",firm,market-research,acquired,Harte-Hanks (acquired 2001); brand later acquired by Aberdeen Strategy & Research,1988-2001,aberdeen-1995-3com-lanplex-2500,"One Boston Place, Boston MA 02108. Contact: Chris Stevenson."
+hp,Hewlett-Packard Company,company,technology,active,HP Inc. / HPE (split 2015),1939-present,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
+sun-microsystems,Sun Microsystems,company,technology,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
+ibm,IBM,company,technology,active,,1911-present,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.

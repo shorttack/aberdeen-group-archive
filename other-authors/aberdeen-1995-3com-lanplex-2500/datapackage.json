@@ -1,0 +1,138 @@
+{
+  "name": "aberdeen-1995-3com-lanplex-2500",
+  "title": "3Com's LANplex 2500: Profiling the Consummate Ethernet/FDDI Workgroup Switch",
+  "description": "This Aberdeen Group product profile, published September 1995, evaluates 3Com's LANplex 2500 Ethernet/FDDI workgroup switch approximately nine months after its December 1994 market introduction. Using primary user research across hospitals, financial institutions, universities, and manufacturing firms, combined with competitive analysis against Cisco Systems, Bay Networks, and ALANTEC, Aberdeen assessed the 2500's technical architecture, ISE-chip ASIC performance (565K pps forwarding rate), management capabilities (RMON, Transcend Enterprise Manager), and investment-protection roadmap. Key findings confirm the LANplex 2500 as the market's most capable Ethernet/FDDI workgroup switch at its price point, outperforming competitors on switching performance, feature set, and modular design while leveraging 3Com's established LANplex 6000 installed base. The study predicts that Fast Ethernet (100BaseTX) and OC-3 ATM uplink cards will ship in Q1 1996, that FDDI backbones will remain prominent in enterprise planning through the mid-1990s, and that 3Com's 6-to-9-month competitive lead is under pressure as rivals intensify development efforts. The report frames these findings within 3Com's three-stage High-Performance Scalable Networking (HPSN) vision, positioning the LANplex 2500 as Stage 2 of a migration path from collapsed backbones through distributed LAN switching toward eventual ATM adoption.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "LAN switching",
+    "FDDI",
+    "Ethernet",
+    "ATM",
+    "3Com",
+    "LANplex 2500",
+    "workgroup networking",
+    "ASIC",
+    "network infrastructure",
+    "1995"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "study_id",      "type": "string", "description": "Unique study identifier"},
+          {"name": "title",         "type": "string", "description": "Full title of the study"},
+          {"name": "author",        "type": "string", "description": "Primary author(s)"},
+          {"name": "date",          "type": "date",   "description": "Publication date (ISO 8601)"},
+          {"name": "type",          "type": "string", "description": "Study type"},
+          {"name": "subject_domain","type": "string", "description": "Primary domain"},
+          {"name": "methodology",   "type": "string", "description": "Comma-separated research methods"},
+          {"name": "source_file",   "type": "string", "description": "Original source filename"},
+          {"name": "abstract",      "type": "string", "description": "300-500 word abstract"},
+          {"name": "license",       "type": "string", "description": "License identifier"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "entity_id",    "type": "string", "description": "Canonical lowercase hyphenated identifier"},
+          {"name": "entity_name",  "type": "string", "description": "Display name"},
+          {"name": "entity_type",  "type": "string", "description": "company, firm, institution, agency, person"},
+          {"name": "sector",       "type": "string", "description": "Industry sector"},
+          {"name": "status",       "type": "string", "description": "Current status: active, acquired, dissolved, merged, bankrupt"},
+          {"name": "successor",    "type": "string", "description": "Successor entity if applicable"},
+          {"name": "years_active", "type": "string", "description": "Approximate years active"},
+          {"name": "study_id",     "type": "string", "description": "FK to studies.csv"},
+          {"name": "notes",        "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "tech_id",             "type": "string", "description": "Canonical lowercase hyphenated identifier"},
+          {"name": "tech_name",           "type": "string", "description": "Display name"},
+          {"name": "category",            "type": "string", "description": "platform, application, protocol, language, framework"},
+          {"name": "vendor",              "type": "string", "description": "Primary vendor or standards body"},
+          {"name": "era",                 "type": "string", "description": "Approximate active era"},
+          {"name": "lifecycle_at_study",  "type": "string", "description": "Lifecycle status at time of study"},
+          {"name": "lifecycle_current",   "type": "string", "description": "Lifecycle status today"},
+          {"name": "study_id",            "type": "string", "description": "FK to studies.csv"},
+          {"name": "notes",               "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "obs_id",            "type": "string", "description": "Unique observation ID: {study_id}-OBS-{NNN}"},
+          {"name": "study_id",          "type": "string", "description": "FK to studies.csv"},
+          {"name": "entity_id",         "type": "string", "description": "FK to entities.csv (nullable)"},
+          {"name": "tech_id",           "type": "string", "description": "FK to technologies.csv (nullable)"},
+          {"name": "observation_type",  "type": "string", "description": "FK to codes.csv observation_type"},
+          {"name": "year_observed",     "type": "year",   "description": "Year the observation applies to"},
+          {"name": "metric_name",       "type": "string", "description": "What is being measured or claimed"},
+          {"name": "metric_value",      "type": "string", "description": "The value or classification"},
+          {"name": "confidence",        "type": "string", "description": "FK to codes.csv confidence"},
+          {"name": "methodology_code",  "type": "string", "description": "FK to codes.csv methodology"},
+          {"name": "source_page",       "type": "string", "description": "Page/section reference in original document"},
+          {"name": "notes",             "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {"fields": ["study_id"],   "reference": {"resource": "studies",      "fields": ["study_id"]}},
+          {"fields": ["entity_id"],  "reference": {"resource": "entities",     "fields": ["entity_id"]}},
+          {"fields": ["tech_id"],    "reference": {"resource": "technologies", "fields": ["tech_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "code_id",   "type": "string", "description": "The code string used in observations.csv"},
+          {"name": "code_type", "type": "string", "description": "observation_type, methodology, confidence, lifecycle"},
+          {"name": "label",     "type": "string", "description": "Human-readable label"},
+          {"name": "definition","type": "string", "description": "Clear definition"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

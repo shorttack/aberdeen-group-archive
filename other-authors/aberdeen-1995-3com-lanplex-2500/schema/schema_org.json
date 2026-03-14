@@ -1,0 +1,105 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "3Com's LANplex 2500: Profiling the Consummate Ethernet/FDDI Workgroup Switch",
+  "description": "This Aberdeen Group product profile, published September 1995, evaluates 3Com's LANplex 2500 Ethernet/FDDI workgroup switch approximately nine months after its December 1994 market introduction. Using primary user research across hospitals, financial institutions, universities, and manufacturing firms, combined with competitive analysis against Cisco Systems, Bay Networks, and ALANTEC, Aberdeen assessed the 2500's technical architecture, ISE-chip ASIC performance (565K pps forwarding rate), management capabilities (RMON, Transcend Enterprise Manager), and investment-protection roadmap. Key findings confirm the LANplex 2500 as the market's most capable Ethernet/FDDI workgroup switch at its price point, outperforming competitors on switching performance, feature set, and modular design while leveraging 3Com's established LANplex 6000 installed base.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1995-09-01",
+  "dateCreated": "2026-03-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970108191610/http://www.aberdeen.com:80/secure/profiles/3com/index.htm",
+  "keywords": [
+    "LAN switching",
+    "FDDI",
+    "Ethernet",
+    "ATM",
+    "3Com",
+    "LANplex 2500",
+    "workgroup networking",
+    "ASIC",
+    "ISE-chip",
+    "HPSN",
+    "network infrastructure",
+    "Cisco Systems",
+    "Bay Networks",
+    "ALANTEC",
+    "1995",
+    "product profile",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1994/1996",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations data"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities data"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies data"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "datapackage.json",
+      "name": "Frictionless Data Package descriptor"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "strategy-classification",
+      "description": "Categorization of an entity's business strategy"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "viability-prediction",
+      "description": "Expert prediction of entity's or technology's future state"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "technology-assessment",
+      "description": "Evaluation of a technology's maturity or fitness for purpose"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "benchmark-result",
+      "description": "Quantitative or qualitative comparison against peers or standards"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "market-data",
+      "description": "Quantitative or factual market statistic or position"
+    }
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Research Archive"
+  },
+  "isAccessibleForFree": true,
+  "measurementTechnique": [
+    "product-profiling",
+    "user-research",
+    "competitive-analysis"
+  ]
+}

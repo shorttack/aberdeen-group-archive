@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ISS: The Foundation for Network Security",
+  "description": "Aberdeen Group profiles Internet Security Systems (ISS) and its SAFEsuite product family, which identifies, measures, analyzes, and prioritizes security risks in networked computing environments. The study covers ISS's scanning/analysis technology, products including Intranet Scanner, Firewall Scanner, Web Security Scanner, System Security Scanner, and RealSecure intrusion monitoring. Aberdeen recommends IS organizations building web-based e-commerce applications evaluate SAFEsuite as the foundation for a comprehensive enterprise security program.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "network-security",
+    "Aberdeen Group",
+    "1996",
+    "IT research"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

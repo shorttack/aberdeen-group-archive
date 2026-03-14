@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+internet-security-systems,Internet Security Systems (ISS),company,network-security,acquired,IBM Security (2006),1994-2006,aberdeen-1996-iss-internet-security-systems,Founded 1994 by Christopher Klaus; acquired by IBM for $1.93B (including Japanese subsidiary) in October 2006; integrated into IBM Security Systems Division
+ncsa-national-computer-security,National Computer Security Association (NCSA),institution,security-certification,merged,"ICSA Labs (acquired by TruSecure, later Verizon Business)",1989-2000,aberdeen-1996-iss-internet-security-systems,Used ISS Firewall Scanner as core part of firewall accreditation program; became ICSA Labs
+ernst-young,Ernst & Young,firm,professional-services,active,,1989-present,aberdeen-1996-iss-internet-security-systems,IT consulting firm partner with ISS for distribution
+price-waterhouse,Price Waterhouse,firm,professional-services,merged,PricewaterhouseCoopers (1998),1849-1998,aberdeen-1996-iss-internet-security-systems,IT consulting partner with ISS for distribution
+qualix-group,Qualix Group,company,network-security,acquired,Legato Systems (1999),1990-1999,aberdeen-1996-iss-internet-security-systems,Competitor; NetProbe product; users report easy to configure but skimpy coverage
+bellcore,Bellcore (Bell Communications Research),institution,telecommunications-research,active,Telcordia (1999) -> iconectiv (2016),1984-present,aberdeen-1996-iss-internet-security-systems,PingWare product competitor; users report easy to use but misses common vulnerabilities
+ibm,IBM Corporation,company,computer-hardware-software,active,,1911-present,aberdeen-1996-iss-internet-security-systems,ISS customer and later acquirer; SAFEsuite covers IBM AIX platforms
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research,acquired,Harte-Hanks (2001),1988-present,aberdeen-1996-iss-internet-security-systems,Boston-based IT research firm; publisher

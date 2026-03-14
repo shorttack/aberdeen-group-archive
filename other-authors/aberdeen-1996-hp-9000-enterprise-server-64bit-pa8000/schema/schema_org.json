@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP 9000 Enterprise Server Performance Leadership Again: The 64-bit PA-8000 Has Arrived",
+  "description": "Aberdeen Group evaluates HP's September 1996 announcement of PA-8000-based HP 9000 enterprise servers, documenting benchmark performance results (K460 at 12,321 tpmC \u2014 a 2.5x improvement over its PA-7200 predecessor) and positioning HP's PRISM framework as the standard for Unix enterprise server selection. The study asserts HP's competitive superiority over IBM, Sun, and Digital in the Unix server market, and outlines HP's roadmap through PA-8200, PA-8500, and eventual Merced processor transitions.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-09-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112011513/http://www.aberdeen.com:80/secure/profiles/hp9000/hp9000.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "HP 9000",
+    "PA-8000",
+    "TPC-C",
+    "Unix enterprise server",
+    "Hewlett-Packard",
+    "Aberdeen Group",
+    "1996",
+    "benchmark"
+  ],
+  "temporalCoverage": "1996"
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Upgrading To ISV Methodology For Enterprise Application Development",
+  "description": "Aberdeen examines ADM's SCRUM methodology — a codification of ISV best practices for enterprise application development — and argues that in-house IS organizations should adopt ISV-style rapid iterative development over traditional waterfall planning-heavy methods. The study details SCRUM's three phases (Planning, Sprints, Closure) and ADM's Product Management Facility implementation, concluding that IS teams must adopt sprint-based methods with small teams, short cycles, and flexible toolsets to compete with the speed of the best ISVs.",
+  "url": "https://aberdeenarchive.bluebridgegrp.com/datasets/aberdeen-1995-upgrading-isv-methodology-enterprise-application-development",
+  "identifier": "aberdeen-1995-upgrading-isv-methodology-enterprise-application-development",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BlueBridge Group"
+  },
+  "datePublished": "1995-12-07",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Aberdeen Group",
+    "1995",
+    "practice-viewpoint",
+    "enterprise application development methodology",
+    "market research",
+    "archival"
+  ],
+  "temporalCoverage": "1995",
+  "inLanguage": "en",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "WebPage",
+    "url": "https://web.archive.org/web/19970112010805/http://www.aberdeen.com:80/secure/viewpnts/v8n17/v8n17.htm",
+    "name": "Original document archived by Wayback Machine"
+  }
+}

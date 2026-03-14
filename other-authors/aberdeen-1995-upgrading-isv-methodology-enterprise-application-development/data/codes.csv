@@ -1,0 +1,12 @@
+code_id,code_type,description
+USER-INTERVIEWS,methodology,Interviews with IS buyers and users conducted by Aberdeen analysts
+PRODUCT-EVAL,methodology,Direct evaluation of vendor product capabilities
+ANALYST-ASSESSMENT,methodology,Aberdeen analyst expert assessment and opinion
+WEB-RESEARCH,methodology,Post-publication web research to verify outcomes
+DOCUMENT,methodology,Factual data extracted directly from the study document
+strategy-classification,observation_type,Classification of entity competitive or business strategy
+viability-prediction,observation_type,Forward-looking prediction about market or technology viability
+actual-outcome,observation_type,Verified post-publication actual outcome of a prediction or trend
+technology-assessment,observation_type,"Assessment of a technology capability, state, or characteristic"
+expert-opinion,observation_type,Expert analyst opinion not constituting a formal prediction
+market-data,observation_type,"Factual market data, sizing, or share information"

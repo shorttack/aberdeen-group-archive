@@ -1,0 +1,3 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-ADM,"ADM (Advanced Development Methods, Inc.)",vendor,software-methodology,inactive,Scrum.org holds ADM trademark portfolio,1993-2005,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,ADM was co-founded by Ken Schwaber and Jeff Sutherland who co-created SCRUM; ADM trademarks now held by Scrum.org. Company is no longer independently active.
+ENT-MSFT-WIN95,Microsoft Corporation (Windows 95),vendor,software,active,,1975-present,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,"Windows 95 beta program (400,000 beta users) used as ISV example of iterative development with early user involvement."

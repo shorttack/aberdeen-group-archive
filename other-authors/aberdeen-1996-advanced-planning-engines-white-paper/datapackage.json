@@ -1,0 +1,18 @@
+{
+  "name": "aberdeen-1996-advanced-planning-engines-white-paper",
+  "title": "Advanced Planning Engine Technologies: Can Capital-Generating Technology Change the Face of Manufacturing?",
+  "description": "Aberdeen Group executive white paper (February 1996) examining APET/supply chain planning. Profiles seven vendors with ROI cases and technical criteria. Archival Frictionless Data Package v13.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "author"}],
+  "keywords": ["APET", "supply chain", "i2 Technologies", "Red Pepper", "Manugistics", "MRP", "manufacturing", "1996"],
+  "created": "2026-03-14",
+  "sources": [{"title": "Wayback Machine", "path": "https://web.archive.org/web/19970112010942/http://www.aberdeen.com:80/secure/whtpaper/apet/apet.htm"}],
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

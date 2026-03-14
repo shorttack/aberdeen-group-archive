@@ -1,0 +1,56 @@
+{
+  "name": "1997-bay-networks--concentrating-on-remo-06bdd8",
+  "title": "Bay Networks: Concentrating on Remote Access",
+  "description": "This Aberdeen Announcement Profile examines Bay Networks' two new remote access concentrator products: the 5399 (high-density, modular, for service providers and large enterprises) and the Model 8000 (stand-alone, for smaller ISPs and enterprises). Both feature BayDSP modem technology from Bay's acquisition of Penril Datability Networks. Aberdeen evaluates the emerging 56K modem market and how Bay's solutions address high-density remote access requirements.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Virginia Brooks",
+      "role": "author"
+    },
+    {
+      "title": "Aberdeen Group",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Announcement Profile, 1997",
+      "path": "https://web.archive.org/web/19981207060107/http://www.aberdeen.com:80/research/abstract/97100184.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

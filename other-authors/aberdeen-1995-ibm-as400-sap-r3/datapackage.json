@@ -1,0 +1,161 @@
+{
+  "id": "aberdeen-1995-ibm-as400-sap-r3",
+  "name": "aberdeen-1995-ibm-as400-sap-r3",
+  "title": "IBM's AS/400 and SAP's R/3: Making the Complex and Slow Both Simple and Fast",
+  "description": "Frictionless Data Package archiving Aberdeen Group's September 1995 product profile evaluating the IBM AS/400 Advanced Series and SAP R/3 v3.0 partnership as a platform for enterprise reengineering. Includes full entity registry with current-status annotations, technology lifecycle tracking, AS/400 model specifications from Table 1, SAP R/3 module inventory from Table 2, and market/financial observations.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-BY",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IBM's AS/400 and SAP's R/3: Making the Complex and Slow Both Simple and Fast",
+      "author": "Aberdeen Group",
+      "date": "1995-09-01",
+      "path": "https://web.archive.org/web/19970604114147/http://www.aberdeen.com:80/secure/profiles/ibm_sap/ibm_sap.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "AS/400",
+    "SAP R/3",
+    "IBM",
+    "SAP AG",
+    "ERP",
+    "enterprise computing",
+    "client-server",
+    "PowerPC AS",
+    "midrange computing",
+    "enterprise reengineering",
+    "1995",
+    "Aberdeen Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Registry of Aberdeen Group research studies in this archive",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique study identifier (slug)"},
+          {"name": "study_num", "type": "integer", "description": "Sequential study number in archive"},
+          {"name": "title", "type": "string", "constraints": {"required": true}, "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Authoring organization"},
+          {"name": "date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
+          {"name": "study_type", "type": "string", "description": "Study type code (FK -> codes.code_value where code_type=study_type)"},
+          {"name": "domain", "type": "string", "description": "Primary domain code"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes"},
+          {"name": "abstract", "type": "string", "description": "Short abstract describing study focus"},
+          {"name": "source_url", "type": "string", "format": "uri", "description": "Archived source URL"},
+          {"name": "pdf_filename", "type": "string", "description": "Original PDF filename"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Organizations mentioned in the study with current status annotations as of 2026",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique entity identifier (slug)"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK -> studies.study_id"},
+          {"name": "entity_name", "type": "string", "constraints": {"required": true}, "description": "Full entity name as referenced in study"},
+          {"name": "entity_type", "type": "string", "description": "Entity type code (FK -> codes: entity_type)"},
+          {"name": "entity_status", "type": "string", "description": "Current status code (FK -> codes: entity_status)"},
+          {"name": "status_note", "type": "string", "description": "Human-readable explanation of current status"},
+          {"name": "hq_location", "type": "string", "description": "Headquarters location"},
+          {"name": "founded_year", "type": "integer", "description": "Year founded"},
+          {"name": "as_of_study_date", "type": "integer", "description": "Year of study publication"},
+          {"name": "successor_entity", "type": "string", "description": "Successor organization name if applicable"},
+          {"name": "notes", "type": "string", "description": "Additional context notes"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies and products mentioned in the study with lifecycle status",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique technology identifier (slug)"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK -> studies.study_id"},
+          {"name": "tech_name", "type": "string", "constraints": {"required": true}, "description": "Technology or product name"},
+          {"name": "tech_category", "type": "string", "description": "Technology category code (FK -> codes: tech_category)"},
+          {"name": "vendor_entity_id", "type": "string", "description": "FK -> entities.entity_id of the vendor"},
+          {"name": "version_in_study", "type": "string", "description": "Version referenced in the study"},
+          {"name": "tech_status", "type": "string", "description": "Current lifecycle status code (FK -> codes: tech_status)"},
+          {"name": "status_note", "type": "string", "description": "Current status explanation"},
+          {"name": "successor_tech", "type": "string", "description": "Successor technology name if applicable"},
+          {"name": "notes", "type": "string", "description": "Additional context notes"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}},
+          {"fields": ["vendor_entity_id"], "reference": {"resource": "entities", "fields": ["entity_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "All quantitative and qualitative observations extracted from the study, including product specs, financial metrics, market data, and module lists",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK -> studies.study_id"},
+          {"name": "obs_type", "type": "string", "description": "Observation type code (FK -> codes: obs_type)"},
+          {"name": "subject_entity_id", "type": "string", "description": "FK -> entities.entity_id (subject of observation)"},
+          {"name": "subject_tech_id", "type": "string", "description": "FK -> technologies.tech_id (technology subject)"},
+          {"name": "metric_name", "type": "string", "description": "Name or label of the metric or attribute"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric (string to accommodate ranges and labels)"},
+          {"name": "metric_unit", "type": "string", "description": "Unit of measurement"},
+          {"name": "period", "type": "string", "description": "Time period the observation applies to"},
+          {"name": "source_table", "type": "string", "description": "Source table in the original document if applicable"},
+          {"name": "page_num", "type": "integer", "description": "Page number in the PDF"},
+          {"name": "verbatim_quote", "type": "string", "description": "Verbatim text from the document supporting this observation"},
+          {"name": "notes", "type": "string", "description": "Additional context or methodology notes"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}},
+          {"fields": ["subject_entity_id"], "reference": {"resource": "entities", "fields": ["entity_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Codes",
+      "description": "Controlled vocabulary codes used across all tables in this data package",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique code identifier (type__value)"},
+          {"name": "code_type", "type": "string", "constraints": {"required": true}, "description": "Code type namespace"},
+          {"name": "code_value", "type": "string", "constraints": {"required": true}, "description": "Code value"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "description", "type": "string", "description": "Full description of the code"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

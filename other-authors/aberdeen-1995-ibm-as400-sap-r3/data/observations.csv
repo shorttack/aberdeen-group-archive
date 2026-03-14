@@ -1,0 +1,107 @@
+obs_id,study_id,obs_type,subject_entity_id,subject_tech_id,metric_name,metric_value,metric_unit,period,source_table,page_num,verbatim_quote,notes
+obs-01,aberdeen-1995-ibm-as400-sap-r3,financial-metric,ibm-as400-division,,revenue,13,billion USD,1994,,1,"1994 revenues were approximately $13 billion","IBM AS/400 Division 1994 annual revenue"
+obs-02,aberdeen-1995-ibm-as400-sap-r3,financial-metric,ibm-as400-division,,pct_ibm_profits,35,percent of IBM total,1994,,1,"its profits represented nearly 35% of all of IBM's divisions","AS/400 Division share of total IBM profits"
+obs-03,aberdeen-1995-ibm-as400-sap-r3,market-share,ibm-as400-division,as400-advanced-series,systems_shipped,325000,units,cumulative to 1995,,1,"IBM has shipped over 325,000 systems worldwide","Cumulative AS/400 systems shipped worldwide since launch"
+obs-04,aberdeen-1995-ibm-as400-sap-r3,financial-metric,ibm-as400-division,as400-advanced-series,revenue_growth,25,percent YoY,last year prior to 1995,,1,"its revenue grew 25% during the last year","AS/400 revenue growth rate in the year prior to publication"
+obs-05,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-ag,,revenue,1,billion USD,single year prior to 1995,,1,"the first packaged-application supplier to capture $1 billion in revenue in a single year","SAP first to reach $1B in annual revenue as packaged-app vendor"
+obs-06,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-america,,revenue_growth,100,percent YoY,annual,, 1,"SAP America, the company's US subsidiary, continues to show nearly 100% growth every year","SAP America near-100% annual revenue growth"
+obs-07,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-ag,,r3_pct_global_revenues,67,percent,1995,,1,"R/3 sales have grown astronomically and now account for two-thirds of SAP's worldwide revenues","R/3 share of SAP worldwide revenues"
+obs-08,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-america,,r3_pct_north_america_revenues,85,percent,1995,,1,"over 85% of North American revenues","R/3 share of SAP North American revenues"
+obs-09,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-ag,,r_and_d_pct_revenues,20,percent (low end),annual,,1,"allocating between 20% and 25% of its annual revenues ... to ongoing engineering and development efforts","SAP R&D spending as percentage of revenues (low)"
+obs-10,aberdeen-1995-ibm-as400-sap-r3,financial-metric,sap-ag,,r_and_d_pct_revenues_high,25,percent (high end),annual,,1,"allocating between 20% and 25% of its annual revenues","SAP R&D spending as percentage of revenues (high)"
+obs-11,aberdeen-1995-ibm-as400-sap-r3,performance-claim,ibm-as400-division,powerpc-as,users_multiplier_vs_32bit,2,multiple (>2x),1995,,2,"support more than twice the current number of users","64-bit RISC AS/400 vs equivalent non-64-bit system"
+obs-12,aberdeen-1995-ibm-as400-sap-r3,performance-claim,ibm-as400-division,powerpc-as,transaction_workload_multiplier,5,multiple (up to 5x),1995,,2,"handle up to five times (5x) the transaction workload","64-bit RISC AS/400 vs equivalent non-64-bit system"
+obs-13,aberdeen-1995-ibm-as400-sap-r3,performance-claim,ibm-as400-division,powerpc-as,database_size_capability,orders_of_magnitude_greater,,1995,,2,"efficiently address databases orders-of-magnitude greater in size","64-bit RISC AS/400 vs equivalent non-64-bit system"
+obs-14,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,40S,,,Table 1,2,,AS/400 Advanced Server - entry model
+obs-15,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_40S,1,count,,Table 1,2,,Model 40S processor count
+obs-16,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_40S,32,MB,,Table 1,2,,Model 40S minimum memory
+obs-17,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_40S,224,MB,,Table 1,2,,Model 40S maximum memory
+obs-18,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_40S,2,GB,,Table 1,2,,Model 40S minimum disk storage
+obs-19,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_40S,24,GB,,Table 1,2,,Model 40S maximum disk storage
+obs-20,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,estimated_tpm_model_40S,400,TPm,,Table 1,2,,Model 40S estimated transactions per minute
+obs-21,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,50S,,,Table 1,2,,AS/400 Advanced Server - mid-entry model
+obs-22,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_50S,1,count,,Table 1,2,,Model 50S processor count
+obs-23,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_50S,64,MB,,Table 1,2,,Model 50S minimum memory
+obs-24,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_50S,1024,MB,,Table 1,2,,Model 50S maximum memory (1GB)
+obs-25,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_50S,2,GB,,Table 1,2,,Model 50S minimum disk storage
+obs-26,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_50S,318,GB,,Table 1,2,,Model 50S maximum disk storage
+obs-27,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_50S,650,TPm,,Table 1,2,,Model 50S minimum estimated TPm
+obs-28,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_50S,925,TPm,,Table 1,2,,Model 50S maximum estimated TPm
+obs-29,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,53S,,,Table 1,2,,AS/400 Advanced Server - high-end model
+obs-30,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_53S,"1,2,4",count,,Table 1,2,,Model 53S processor count (up to 4-way SMP)
+obs-31,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_53S,512,MB,,Table 1,2,,Model 53S minimum memory
+obs-32,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_53S,4096,MB,,Table 1,2,,Model 53S maximum memory (4GB)
+obs-33,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_53S,2,GB,,Table 1,2,,Model 53S minimum disk storage
+obs-34,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_53S,520,GB,,Table 1,2,,Model 53S maximum disk storage
+obs-35,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_53S,1440,TPm,,Table 1,2,,Model 53S minimum estimated TPm
+obs-36,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_53S,3360,TPm,,Table 1,2,,Model 53S maximum estimated TPm
+obs-37,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,400,,,Table 1,2,,AS/400 Advanced System - entry model
+obs-38,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_400,1,count,,Table 1,2,,Model 400 processor count
+obs-39,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_400,32,MB,,Table 1,2,,Model 400 minimum memory
+obs-40,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_400,224,MB,,Table 1,2,,Model 400 maximum memory
+obs-41,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_400,2,GB,,Table 1,2,,Model 400 minimum disk storage
+obs-42,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_400,24,GB,,Table 1,2,,Model 400 maximum disk storage
+obs-43,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_min_model_400,125,estimated users (IBM RampC),,Table 1,2,,Model 400 minimum estimated users
+obs-44,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_max_model_400,325,estimated users (IBM RampC),,Table 1,2,,Model 400 maximum estimated users
+obs-45,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_400,120,TPm,,Table 1,2,,Model 400 minimum estimated TPm
+obs-46,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_400,400,TPm,,Table 1,2,,Model 400 maximum estimated TPm
+obs-47,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,500,,,Table 1,2,,AS/400 Advanced System - model 500
+obs-48,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_500,1,count,,Table 1,2,,Model 500 processor count
+obs-49,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_500,64,MB,,Table 1,2,,Model 500 minimum memory
+obs-50,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_500,1024,MB,,Table 1,2,,Model 500 maximum memory (1GB)
+obs-51,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_500,2,GB,,Table 1,2,,Model 500 minimum disk storage
+obs-52,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_500,150,GB,,Table 1,2,,Model 500 maximum disk storage
+obs-53,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_min_model_500,250,estimated users (IBM RampC),,Table 1,2,,Model 500 minimum estimated users
+obs-54,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_max_model_500,375,estimated users (IBM RampC),,Table 1,2,,Model 500 maximum estimated users
+obs-55,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_500,180,TPm,,Table 1,2,,Model 500 minimum estimated TPm
+obs-56,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_500,420,TPm,,Table 1,2,,Model 500 maximum estimated TPm
+obs-57,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,510,,,Table 1,2,,AS/400 Advanced System - model 510
+obs-58,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_510,1,count,,Table 1,2,,Model 510 processor count
+obs-59,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_510,256,MB,,Table 1,2,,Model 510 minimum memory
+obs-60,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_510,1024,MB,,Table 1,2,,Model 510 maximum memory (1GB)
+obs-61,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_510,2,GB,,Table 1,2,,Model 510 minimum disk storage
+obs-62,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_510,318,GB,,Table 1,2,,Model 510 maximum disk storage
+obs-63,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_min_model_510,648,estimated users (IBM RampC),,Table 1,2,,Model 510 minimum estimated users
+obs-64,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_max_model_510,855,estimated users (IBM RampC),,Table 1,2,,Model 510 maximum estimated users
+obs-65,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_510,650,TPm,,Table 1,2,,Model 510 minimum estimated TPm
+obs-66,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_510,925,TPm,,Table 1,2,,Model 510 maximum estimated TPm
+obs-67,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,model,530,,,Table 1,2,,AS/400 Advanced System - high-end model
+obs-68,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,processors_model_530,"1,2,4",count,,Table 1,2,,Model 530 processor count (up to 4-way SMP)
+obs-69,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_min_model_530,512,MB,,Table 1,2,,Model 530 minimum memory
+obs-70,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,memory_max_model_530,4096,MB,,Table 1,2,,Model 530 maximum memory (4GB)
+obs-71,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_min_model_530,2,GB,,Table 1,2,,Model 530 minimum disk storage
+obs-72,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,disk_max_model_530,520,GB,,Table 1,2,,Model 530 maximum disk storage
+obs-73,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_min_model_530,1160,estimated users (IBM RampC),,Table 1,2,,Model 530 minimum estimated users
+obs-74,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,users_max_model_530,3220,estimated users (IBM RampC),,Table 1,2,,Model 530 maximum estimated users
+obs-75,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_min_model_530,1100,TPm,,Table 1,2,,Model 530 minimum estimated TPm
+obs-76,aberdeen-1995-ibm-as400-sap-r3,product-spec,ibm-as400-division,as400-advanced-series,tpm_max_model_530,3360,TPm,,Table 1,2,,Model 530 maximum estimated TPm
+obs-77,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Financial Accounting,,,Table 2,3,,SAP R/3 Accounting module: Financial Accounting
+obs-78,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Asset Management,,,Table 2,3,,SAP R/3 Accounting module: Asset Management
+obs-79,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Management Accounting,,,Table 2,3,,SAP R/3 Accounting module: Management Accounting
+obs-80,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Project Accounting,,,Table 2,3,,SAP R/3 Accounting module: Project Accounting
+obs-81,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Quality Assurance,,,Table 2,3,,SAP R/3 Accounting module: Quality Assurance
+obs-82,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Sales & Distribution,,,Table 2,3,,SAP R/3 Logistics module: Sales & Distribution
+obs-83,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Product Planning & Control,,,Table 2,3,,SAP R/3 Logistics module: Product Planning & Control
+obs-84,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Materials Management,,,Table 2,3,,SAP R/3 Logistics module: Materials Management
+obs-85,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Plant Maintenance,,,Table 2,3,,SAP R/3 Logistics module: Plant Maintenance
+obs-86,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Time Tracking,,,Table 2,3,,SAP R/3 Logistics module: Time Tracking
+obs-87,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Payroll,,,Table 2,3,,SAP R/3 Human Resources module: Payroll
+obs-88,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Benefits Administration,,,Table 2,3,,SAP R/3 Human Resources module: Benefits Administration
+obs-89,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Personnel Development,,,Table 2,3,,SAP R/3 Human Resources module: Personnel Development
+obs-90,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Applicant Tracking,,,Table 2,3,,SAP R/3 Human Resources module: Applicant Tracking
+obs-91,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Consumer Packaged Goods / Retail,,,Table 2,3,,SAP R/3 Industry Solution: Consumer Packaged Goods / Retail
+obs-92,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,High Technology / Electronics,,,Table 2,3,,SAP R/3 Industry Solution: High Technology / Electronics
+obs-93,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Process Industries,,,Table 2,3,,SAP R/3 Industry Solution: Process Industries
+obs-94,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Oil & Gas / Energy,,,Table 2,3,,SAP R/3 Industry Solution: Oil & Gas / Energy
+obs-95,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Telecommunications,,,Table 2,3,,SAP R/3 Industry Solution: Telecommunications
+obs-96,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Automotive,,,Table 2,3,,SAP R/3 Industry Solution: Automotive
+obs-97,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Insurance & Banking,,,Table 2,3,,SAP R/3 Industry Solution: Insurance & Banking
+obs-98,aberdeen-1995-ibm-as400-sap-r3,product-module,sap-ag,sap-r3,r3_module,Publishing,,,Table 2,3,,SAP R/3 Industry Solution: Publishing
+obs-99,aberdeen-1995-ibm-as400-sap-r3,partnership,ibm-as400-division,sap-r3,partnership_announced,September 1995,date,September 1995,,1,"IBM and SAP announced in September 1995 that SAP's R/3 version 3.0 ... would soon be shipping on the RISC processor-powered AS/400 Advanced Series models","Official IBM-SAP R/3 partnership announcement date"
+obs-100,aberdeen-1995-ibm-as400-sap-r3,market-data,sap-ag,,target_enterprise_revenue_min,300,million USD,1995,,3,"SAP markets its products primarily to large, $300 million and up, enterprises","Minimum revenue of SAP's primary target customer enterprises"
+obs-101,aberdeen-1995-ibm-as400-sap-r3,market-data,ibm-as400-division,,target_volume_market_revenue_min,50,million USD,1995,,3,"the vast expanse of midrange companies -- $50 to $500 million","Lower bound of future volume market for AS/400 solutions"
+obs-102,aberdeen-1995-ibm-as400-sap-r3,market-data,ibm-as400-division,,target_volume_market_revenue_max,500,million USD,1995,,3,"$50 to $500 million","Upper bound of future volume market for AS/400 solutions"
+obs-103,aberdeen-1995-ibm-as400-sap-r3,customer-data,ibm-as400-division,as400-advanced-series,global_100_adoption,nearly_all,,1995,,1,"AS/400 systems are used by almost all Global 100 enterprises in some capacity","Penetration of AS/400 into Global 100 enterprises"
+obs-104,aberdeen-1995-ibm-as400-sap-r3,competitive-claim,ibm-as400-division,as400-advanced-series,analyst_recommendation,include_in_r3_evaluation,,1995,,3,"those that do not include the AS/400 as a highly qualified platform of choice could well be making a critical oversight","Aberdeen recommendation to include AS/400 in R/3 platform evaluations"
+obs-105,aberdeen-1995-ibm-as400-sap-r3,customer-data,ibm-as400-division,sap-r3,beta_demand,surpassed_all_previous,,1995,,3,"existing AS/400 customer requests to participate in early-release R/3 trials have surpassed all previous demand levels in the division's history","Demand for early R/3 on AS/400 trial participation"
+obs-106,aberdeen-1995-ibm-as400-sap-r3,market-data,sap-ag,,icoe_industries,8,count,1995,,1,"Currently ICOEs are in place for the following vertical industries: chemical; pharmaceutical; oil & gas; consumer packaged goods; high technology/electronics; health care; insurance; banking and utilities","Number of Industry Centers of Excellence established by SAP"

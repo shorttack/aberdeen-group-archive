@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-ibm-as400-sap-r3",
+  "name": "IBM's AS/400 and SAP's R/3: Making the Complex and Slow Both Simple and Fast",
+  "alternateName": "Aberdeen Group AS/400 SAP R/3 Product Profile (1995)",
+  "description": "Frictionless Data Package archiving Aberdeen Group's September 1995 product profile examining the IBM AS/400 Advanced Series and SAP R/3 v3.0 partnership as an enterprise reengineering platform. Contains structured data extracted from the original PDF: entity registry with current-status annotations, technology lifecycle records, AS/400 model specifications (Table 1), SAP R/3 module inventory (Table 2), and 106 market, financial, and product observations.",
+  "url": "https://web.archive.org/web/19970604114147/http://www.aberdeen.com:80/secure/profiles/ibm_sap/ibm_sap.htm",
+  "identifier": "aberdeen-1995-ibm-as400-sap-r3",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-13",
+  "datePublished": "1995-09-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group Inc.",
+    "url": "https://www.aberdeen.com"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "IBM AS/400 Advanced Series",
+      "description": "IBM midrange computing platform powered by PowerPC AS 64-bit RISC processors"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SAP R/3",
+      "softwareVersion": "3.0",
+      "applicationCategory": "Enterprise Resource Planning",
+      "operatingSystem": "OS/400 V3R6, Unix, Windows NT",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SAP AG"
+      }
+    }
+  ],
+  "keywords": [
+    "AS/400",
+    "SAP R/3",
+    "IBM",
+    "SAP AG",
+    "ERP",
+    "enterprise resource planning",
+    "client-server",
+    "PowerPC AS",
+    "midrange computing",
+    "enterprise reengineering",
+    "OS/400",
+    "DB2/400",
+    "ABAP/4",
+    "1995",
+    "Aberdeen Group",
+    "product profile",
+    "benchmarking"
+  ],
+  "temporalCoverage": "1995",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global (with focus on North American market)"
+  },
+  "measurementTechnique": [
+    "Industry analysis",
+    "Competitive profiling",
+    "Benchmarking",
+    "Market sizing"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "AS/400 Systems Shipped",
+      "value": "325000",
+      "unitText": "systems"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IBM AS/400 Division Revenue (1994)",
+      "value": "13",
+      "unitText": "billion USD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IBM AS/400 Division Share of IBM Profits (1994)",
+      "value": "35",
+      "unitText": "percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SAP Annual Revenue",
+      "value": "1",
+      "unitText": "billion USD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SAP America Revenue Growth",
+      "value": "100",
+      "unitText": "percent YoY"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "IBM's AS/400 and SAP's R/3: Making the Complex and Slow Both Simple and Fast",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-09-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group Inc."
+    },
+    "url": "https://web.archive.org/web/19970604114147/http://www.aberdeen.com:80/secure/profiles/ibm_sap/ibm_sap.htm"
+  }
+}

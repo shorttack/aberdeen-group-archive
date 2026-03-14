@@ -1,0 +1,19 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business or technology strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of technology adoption or market outcome
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for a prediction
+technology-assessment,observation_type,Technology Assessment,"Evaluation of a technology's maturity, capabilities, or fitness"
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment from Aberdeen analysts
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources

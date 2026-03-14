@@ -1,0 +1,47 @@
+{
+  "name": "aberdeen-1996-computer-telephony-integration",
+  "title": "Internet Architecture: Prescription For Success",
+  "description": "Aberdeen Group prescribes an enterprise Internet/Intranet architecture for 1996, arguing that long-term value lies in the Intranet rather than public Internet. The study recommends a scalable architecture combining TP-monitor-like middleware, 64-bit VLM server hardware, parallel-scalable RDBMSs, and second-generation CADEs. Aberdeen dismisses Java as immature and warns that enterprises without proper architectural foundations will find that short-term Internet success blocks long-term success.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wayback Machine",
+      "path": "https://web.archive.org/web/19970112010334/http://www.aberdeen.com:80/secure/viewpnts/v9n8/v9n8.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

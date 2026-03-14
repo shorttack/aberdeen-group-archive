@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Internet Architecture: Prescription For Success",
+  "description": "Aberdeen Group prescribes an enterprise Internet/Intranet architecture for 1996, arguing that long-term value lies in the Intranet rather than public Internet. The study recommends a scalable architecture combining TP-monitor-like middleware, 64-bit VLM server hardware, parallel-scalable RDBMSs, and second-generation CADEs. Aberdeen dismisses Java as immature and warns that enterprises without proper architectural foundations will find that short-term Internet success blocks long-term success.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Internet architecture",
+    "Intranet",
+    "middleware",
+    "TP monitor",
+    "Java",
+    "CADE",
+    "e-commerce",
+    "RDBMS",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "framework-factor"
+  ]
+}

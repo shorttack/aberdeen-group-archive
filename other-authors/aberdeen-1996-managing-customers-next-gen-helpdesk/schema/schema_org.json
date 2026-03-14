@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Managing Customers with Next-Generation Software Applications: 1996 Edition",
+  "description": "Aberdeen Group's second report on the Customer Interaction Software (CIS) market defines the category encompassing sales force automation, helpdesk, field service, telemarketing, and related technologies. The study profiles over 40 CIS suppliers, identifies market dynamics, and advises IS executives that CIS is the key to building long-term profitable customer relationships while warning that most of the hundreds of suppliers will not survive long-term.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19961023152936/http://www.aberdeen.com:80/cisrpt.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "CRM",
+    "customer-interaction-software",
+    "CIS",
+    "helpdesk",
+    "Siebel",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Managing Customers with Next-Generation Software Applications: 1996 Edition",
+    "datePublished": "1996-10-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  }
+}

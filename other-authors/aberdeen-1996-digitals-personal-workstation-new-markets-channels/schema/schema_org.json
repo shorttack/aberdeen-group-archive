@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital's Personal Workstation: New Markets, New Products, New Channels",
+  "description": "Aberdeen Group profile (April 1996) on Digital's Personal Workstation competitive positioning vs Unix workstations.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Digital Equipment Corporation",
+    "Windows NT workstation",
+    "Unix workstation",
+    "Alpha processor",
+    "Pro/Engineer",
+    "VAR channels",
+    "1996"
+  ],
+  "temporalCoverage": "1996/2000",
+  "variableMeasured": [
+    "benchmark-result",
+    "viability-prediction",
+    "strategy-classification",
+    "framework-factor"
+  ]
+}

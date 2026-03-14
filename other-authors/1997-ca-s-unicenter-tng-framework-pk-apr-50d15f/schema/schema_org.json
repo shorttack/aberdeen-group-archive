@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "CA's Unicenter TNG Framework: Entry-Level for the Industry's Best Enterprise Management Software Solution",
+  "description": "Aberdeen Group analyst Peter S. Kastner profiles Computer Associates International's Unicenter TNG Framework, a free/bundled subset of Unicenter TNG announced July 14, 1997 at the CA World conference. The Framework provides auto-discovery, an object repository, 2D/3D mapping, event management, scheduling, and virus scanning\u2014enabling 10-minute enterprise network discovery. Kastner analyzes CA's strategic shift to a 'razor/razor-blade' distribution model, bundling the Framework with server hardware from nine partners including HP and Digital Equipment, to establish it as a de facto enterprise management standard against IBM Tivoli, HP OpenView, and Sun Solstice.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-07-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Computer Associates",
+    "CA",
+    "Unicenter TNG",
+    "Unicenter TNG Framework",
+    "enterprise management",
+    "IBM Tivoli",
+    "HP OpenView",
+    "systems management",
+    "Peter Kastner",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

@@ -53,3 +53,10 @@ methodology,benchmarking,Benchmarking,Comparison of performance metrics against 
 confidence,high,High Confidence,Directly stated in source document; factual claim
 confidence,medium,Medium Confidence,Inferred or projected from stated evidence; forecast
 confidence,low,Low Confidence,Estimated or indirectly implied; requires validation
+observation_type,actual-outcome,Actual Outcome,Verified post-publication outcome for a prior prediction
+observation_type,expert-opinion,Expert Opinion,"Analyst assessment, recommendation, or expert judgment"
+observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or strategic positioning
+observation_type,viability-prediction,Viability Prediction,Forward-looking prediction about technology or market trajectory
+methodology_code,document-review,Document Review,"Analysis of published documents, product specs, and archival materials"
+methodology_code,qualitative-analysis,Qualitative Analysis,Non-quantitative analytical assessment
+methodology_code,survey,Survey,Structured data collection from multiple respondents

@@ -25,3 +25,4 @@ declining,lifecycle,Declining,Technology losing market share; being superseded b
 obsolete,lifecycle,Obsolete,Technology no longer in active commercial use or development
 legacy-supported,lifecycle,Legacy-Supported,Technology no longer evolving but still maintained for backward compatibility
 active,lifecycle,Active,Technology in active development and broad current deployment
+expert-opinion,methodology_code,Expert Opinion,Methodology: expert-opinion

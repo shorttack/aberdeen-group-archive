@@ -1,29 +1,44 @@
-"code_id","scheme","code","label","description"
-"code-ot-01","observation_type","market-definition","Market Definition","Aberdeen defines a market category or concept"
-"code-ot-02","observation_type","competitive-assessment","Competitive Assessment","Aberdeen's assessment of a named competitor or competitive product"
-"code-ot-03","observation_type","product-feature","Product Feature","A specific capability or technical feature of a named product"
-"code-ot-04","observation_type","market-finding","Market Finding","An empirical or analytical finding about the market"
-"code-ot-05","observation_type","analyst-recommendation","Analyst Recommendation","A strategic recommendation from Aberdeen to enterprise buyers"
-"code-ot-06","observation_type","technology-landscape","Technology Landscape","Characterization of the broader technology environment"
-"code-ot-07","observation_type","analyst-assessment","Analyst Assessment","Aberdeen's evaluative judgment about a vendor or product"
-"code-ot-08","observation_type","product-context","Product Context","Contextual details about a product's positioning or presence"
-"code-et-01","entity_type","organization","Organization","A company, consortium, or standards body"
-"code-er-01","entity_role","primary-vendor","Primary Vendor","The vendor whose product is the subject of the study"
-"code-er-02","entity_role","research-author","Research Author","The organization that authored the study"
-"code-er-03","entity_role","competitor-referenced","Competitor Referenced","A competitor referenced for comparison"
-"code-er-04","entity_role","technology-partner","Technology Partner","A vendor whose technology the primary product integrates with"
-"code-er-05","entity_role","technology-partner-planned","Planned Technology Partner","Integration planned but not yet available at time of study"
-"code-er-06","entity_role","platform-vendor-referenced","Platform Vendor Referenced","Vendor whose platform is mentioned as supported"
-"code-es-01","entity_status","active","Active","Entity operating independently as of the study date"
-"code-es-02","entity_status","acquired","Acquired","Entity was acquired by another organization after the study"
-"code-es-03","entity_status","rebranded","Rebranded","Entity underwent a name/brand change"
-"code-tl-01","tech_lifecycle","obsolete","Obsolete","Product/technology discontinued, no active maintenance"
-"code-tl-02","tech_lifecycle","evolved","Evolved","Technology transformed into or replaced by a named successor"
-"code-tl-03","tech_lifecycle","active","Active","Technology still in mainstream active use as of 2026"
-"code-tl-04","tech_lifecycle","superseded","Superseded","Technology replaced by alternative approaches; original largely unused"
-"code-tl-05","tech_lifecycle","active-niche","Active (Niche)","Technology still actively used but in niche or legacy contexts"
-"code-st-01","study_type","product-profile","Product Profile","In-depth evaluation of a specific vendor product"
-"code-dm-01","domain","groupware-internet-collaboration","Groupware & Internet Collaboration","Collaborative software, workflow, and Internet-enabled business communication"
-"code-meth-01","methodology","industry-analysis","Industry Analysis","Analysis of market dynamics and industry trends"
-"code-meth-02","methodology","competitive-profiling","Competitive Profiling","Structured comparison of competing products or vendors"
-"code-meth-03","methodology","field-research","Field Research","Primary research with enterprise customers or end-users"
+code_id,code_type,code_value,label,description
+code-ot-01,observation_type,market-definition,Market Definition,Aberdeen defines a market category or concept
+code-ot-02,observation_type,competitive-assessment,Competitive Assessment,Aberdeen's assessment of a named competitor or competitive product
+code-ot-03,observation_type,product-feature,Product Feature,A specific capability or technical feature of a named product
+code-ot-04,observation_type,market-finding,Market Finding,An empirical or analytical finding about the market
+code-ot-05,observation_type,analyst-recommendation,Analyst Recommendation,A strategic recommendation from Aberdeen to enterprise buyers
+code-ot-06,observation_type,technology-landscape,Technology Landscape,Characterization of the broader technology environment
+code-ot-07,observation_type,analyst-assessment,Analyst Assessment,Aberdeen's evaluative judgment about a vendor or product
+code-ot-08,observation_type,product-context,Product Context,Contextual details about a product's positioning or presence
+code-et-01,entity_type,organization,Organization,"A company, consortium, or standards body"
+code-er-01,entity_role,primary-vendor,Primary Vendor,The vendor whose product is the subject of the study
+code-er-02,entity_role,research-author,Research Author,The organization that authored the study
+code-er-03,entity_role,competitor-referenced,Competitor Referenced,A competitor referenced for comparison
+code-er-04,entity_role,technology-partner,Technology Partner,A vendor whose technology the primary product integrates with
+code-er-05,entity_role,technology-partner-planned,Planned Technology Partner,Integration planned but not yet available at time of study
+code-er-06,entity_role,platform-vendor-referenced,Platform Vendor Referenced,Vendor whose platform is mentioned as supported
+code-es-01,entity_status,active,Active,Entity operating independently as of the study date
+code-es-02,entity_status,acquired,Acquired,Entity was acquired by another organization after the study
+code-es-03,entity_status,rebranded,Rebranded,Entity underwent a name/brand change
+code-tl-01,tech_lifecycle,obsolete,Obsolete,"Product/technology discontinued, no active maintenance"
+code-tl-02,tech_lifecycle,evolved,Evolved,Technology transformed into or replaced by a named successor
+code-tl-03,tech_lifecycle,active,Active,Technology still in mainstream active use as of 2026
+code-tl-04,tech_lifecycle,superseded,Superseded,Technology replaced by alternative approaches; original largely unused
+code-tl-05,tech_lifecycle,active-niche,Active (Niche),Technology still actively used but in niche or legacy contexts
+code-st-01,study_type,product-profile,Product Profile,In-depth evaluation of a specific vendor product
+code-dm-01,domain,groupware-internet-collaboration,Groupware & Internet Collaboration,"Collaborative software, workflow, and Internet-enabled business communication"
+code-meth-01,methodology,industry-analysis,Industry Analysis,Analysis of market dynamics and industry trends
+code-meth-02,methodology,competitive-profiling,Competitive Profiling,Structured comparison of competing products or vendors
+code-meth-03,methodology,field-research,Field Research,Primary research with enterprise customers or end-users
+strategy-classification,observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or competitive positioning
+viability-prediction,observation_type,viability-prediction,Viability Prediction,Expert prediction of entity's long-term survival or market trajectory
+actual-outcome,observation_type,actual-outcome,Actual Outcome,Verified historical outcome for an entity or prediction
+technology-assessment,observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's maturity, fitness, or competitive positioning"
+benchmark-result,observation_type,benchmark-result,Benchmark Result,Quantitative performance comparison against peers or industry standards
+framework-factor,observation_type,framework-factor,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,market-data,Market Data,"Quantitative market statistic such as revenue, share, or growth rate"
+expert-opinion,observation_type,expert-opinion,Expert Opinion,Qualitative professional judgment or analytical finding
+method-document-review,methodology,document-review,Document Review,"Analysis of existing documents, reports, and published records"
+method-benchmarking,methodology,benchmarking,Benchmarking,"Comparison against industry standards, peers, or prior periods"
+method-revenue-benchmark,methodology,revenue-benchmark,Revenue Benchmarking,Measurement and comparison of entity revenues against market total
+conf-high,confidence,high,High Confidence,Strong evidentiary basis; multiple corroborating sources or explicit supplier data
+conf-medium,confidence,medium,Medium Confidence,Reasonable basis but data is estimated or partially corroborated
+conf-low,confidence,low,Low Confidence,Directional judgment with limited evidence; Aberdeen estimate only
+conf-verified,confidence,verified,Verified,"Confirmed by subsequent events, independent sources, or official records"

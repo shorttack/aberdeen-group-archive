@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Commercial Messaging: The Keystone Of Strategic Long-Term Distributed Computing",
+  "description": "This 1995 Aberdeen Group white paper examines Commercial Messaging—store-and-forward messaging middleware—as a foundational component of enterprise distributed computing architecture, arguing that IS organizations are underutilizing the technology despite its growing presence in products like IBM MQSeries, Lotus Notes, and second-generation client-server application development environments (CADEs). Using industry analysis and market assessment, Aberdeen surveys the emerging Commercial Messaging market (estimated below $100 million standalone, embedded in billion-dollar e-mail and groupware markets), evaluates leading products including IBM MQSeries, HP OpenMail, and CADE tools from Forte and Seer Technologies, and finds that IBM MQSeries leads on flexibility, scalability, and programmability. Key findings include that data-warehouse databases are growing 6-7x in 18 months, that CORBA and Microsoft distributed-object platforms will not deliver Commercial Messaging capabilities in the near term, and that failure to adopt Commercial Messaging will create a growing mass of legacy networking-limited applications requiring costly retrofits; Aberdeen recommends that IS buyers immediately incorporate Commercial Messaging—particularly IBM MQSeries—into enterprise infrastructure strategy.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1995-10-01",
+  "dateModified": "2026-03-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Codes"
+    }
+  ],
+  "keywords": [
+    "commercial messaging",
+    "store-and-forward messaging",
+    "message-oriented middleware",
+    "IBM MQSeries",
+    "enterprise architecture",
+    "distributed computing",
+    "client-server computing",
+    "message queuing",
+    "publish-and-subscribe",
+    "middleware",
+    "enterprise infrastructure",
+    "1990s technology",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1995/1995",
+  "spatialCoverage": "Global",
+  "variableMeasured": [
+    "market-data",
+    "technology-assessment",
+    "viability-prediction",
+    "actual-outcome",
+    "benchmark-result",
+    "strategy-classification",
+    "framework-factor",
+    "expert-opinion"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Commercial Messaging",
+      "description": "Store-and-forward middleware for program-to-program communication in distributed computing"
+    },
+    {
+      "@type": "Thing",
+      "name": "IBM MQSeries",
+      "description": "IBM's leading Commercial Messaging product; later renamed IBM MQ"
+    }
+  ],
+  "citation": "Aberdeen Group. (1995, October). Commercial Messaging: The Keystone Of Strategic Long-Term Distributed Computing. Aberdeen Group.",
+  "identifier": "aberdeen-1995-commercial-messaging",
+  "inLanguage": "en"
+}

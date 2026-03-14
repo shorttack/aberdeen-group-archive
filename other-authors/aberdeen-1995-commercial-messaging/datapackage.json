@@ -1,0 +1,329 @@
+{
+  "name": "aberdeen-1995-commercial-messaging",
+  "title": "Commercial Messaging: The Keystone Of Strategic Long-Term Distributed Computing",
+  "description": "This 1995 Aberdeen Group white paper examines Commercial Messaging—store-and-forward messaging middleware—as a foundational component of enterprise distributed computing architecture, arguing that IS organizations are underutilizing the technology despite its growing presence in products like IBM MQSeries, Lotus Notes, and second-generation client-server application development environments (CADEs). Using industry analysis and market assessment, Aberdeen surveys the emerging Commercial Messaging market (estimated below $100 million standalone, embedded in billion-dollar e-mail and groupware markets), evaluates leading products including IBM MQSeries, HP OpenMail, and CADE tools from Forte and Seer Technologies, and finds that IBM MQSeries leads on flexibility, scalability, and programmability. Key findings include that data-warehouse databases are growing 6-7x in 18 months, that CORBA and Microsoft distributed-object platforms will not deliver Commercial Messaging capabilities in the near term, and that failure to adopt Commercial Messaging will create a growing mass of legacy networking-limited applications requiring costly retrofits; Aberdeen recommends that IS buyers immediately incorporate Commercial Messaging—particularly IBM MQSeries—into enterprise infrastructure strategy.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group White Paper (October 1995)",
+      "path": "1995-Commercial-Messaging_-The-Keystone-Of-S...-Computing-An-Executive-White-Paper-wp-2.pdf"
+    }
+  ],
+  "keywords": [
+    "commercial messaging",
+    "store-and-forward",
+    "middleware",
+    "IBM MQSeries",
+    "enterprise architecture",
+    "distributed computing",
+    "client-server",
+    "message queuing",
+    "publish-and-subscribe",
+    "CADE",
+    "1995",
+    "Aberdeen Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "format": "%Y-%m-%d"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "study_id"
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "entity_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "tech_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "string"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "obs_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "1997-broadvision-dynamic-web-application-5f10bb",
+  "title": "BroadVision Dynamic Web Applications Enhance Employees, Clinch Customers, and Pamper Partners",
+  "description": "Aberdeen Group's Product Viewpoint (Volume 10, Number 11, July 7, 1997) evaluates BroadVision's One-to-One Application System as a high-end dynamic Web application platform for corporate relationship management. Aberdeen defines a three-tier hierarchy of dynamic web servers (low-end CGI, mid-range ODBC, high-end CORBA-based object-oriented) and positions One-to-One as the industry leader in the high-end tier for personalized content delivery across Internet, intranet, and extranet channels. The study profiles One-to-One's capabilities for customer management, employee knowledge management, and partner/supplier extranets, citing customers including Liberty Financial, Banco Santander, USWest, and Kodak Picture Network.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Product Viewpoint Vol.10 No.11, July 7, 1997",
+      "path": "https://web.archive.org/web/19971007154340/http://www.aberdeen.com:80/secure/viewpnts/1997/v10n11/body.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

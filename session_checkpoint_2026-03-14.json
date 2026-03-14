@@ -1,0 +1,159 @@
+{
+  "checkpoint_timestamp": "2026-03-14T10:40:00-04:00",
+  "checkpoint_version": 2,
+  "project": "aberdeen-group-archive",
+
+  "user": {
+    "email": "pete.kastner@bluebridgegrp.com",
+    "github_username": "shorttack",
+    "timezone": "America/New_York"
+  },
+
+  "user_instructions": {
+    "skill": "use archival_skill.md to instruct the input attached, output to a single directory on Gdrive",
+    "sources": ["web", "google_drive"],
+    "repo_name": "aberdeen-group-archive",
+    "repo_format": "hyphenated lowercase",
+    "privacy": "PRIVATE until I open it up to AI scrapers",
+    "structure": "three TOP-LEVEL FOLDERS (not git branches): 1) aberdeen-group-inc (company files / about Aberdeen), 2) other-authors (authors who are not Peter S Kastner), 3) kastner-author (Peter S Kastner as author or co-author)",
+    "note": "everything on Gdrive belongs in other-authors",
+    "master_index_location": "repo root (not inside any subfolder)",
+    "gdrive_batch_size": "~10 files per export_files call (40+ times out)"
+  },
+
+  "github_repo": {
+    "url": "https://github.com/shorttack/aberdeen-group-archive",
+    "owner": "shorttack",
+    "name": "aberdeen-group-archive",
+    "branch": "main",
+    "visibility": "private",
+    "total_commits": 18,
+    "status": "COMPLETE — all files pushed and verified"
+  },
+
+  "repo_structure": {
+    "root_files": [
+      "README.md",
+      "ARCHIVAL_SKILL-11.md",
+      "_master_studies.csv",
+      "_master_entities.csv",
+      "_master_technologies.csv",
+      "_checkpoint.json",
+      "session_checkpoint_2026-03-13.json"
+    ],
+    "top_level_folders": {
+      "aberdeen-group-inc/": "placeholder README.md (for company files / about Aberdeen)",
+      "kastner-author/": "placeholder README.md (for Peter S Kastner authored/co-authored work)",
+      "other-authors/": "14 study directories (all Google Drive content)"
+    },
+    "other_authors_studies": [
+      "aberdeen-1995-3com-lanplex-2500",
+      "aberdeen-1995-commercial-messaging",
+      "aberdeen-1995-data-warehouse-olap",
+      "aberdeen-1995-digital-linkworks",
+      "aberdeen-1995-digital-multia",
+      "aberdeen-1995-digital-objectbroker",
+      "aberdeen-1995-hp-customer-interaction-software",
+      "aberdeen-1995-hp-softbench",
+      "aberdeen-1995-ibm-as400-sap-r3",
+      "aberdeen-1995-ibm-db2-common-server",
+      "aberdeen-1995-intersolv-virtual-data-warehouse",
+      "aberdeen-1995-limd-technology",
+      "aberdeen-1995-oracle-interoffice",
+      "aberdeen-1996-risc-unix-market"
+    ],
+    "study_file_types_per_directory": [
+      "README.md",
+      "datapackage.json",
+      "data/studies.csv",
+      "data/entities.csv",
+      "data/technologies.csv",
+      "data/observations.csv",
+      "data/codes.csv",
+      "schema/schema_org.json",
+      "scripts/demo_analysis.py",
+      "scripts/*.png (charts, LIMD study only — 3 PNGs)"
+    ]
+  },
+
+  "archive_totals": {
+    "studies": 14,
+    "observations": 689,
+    "entities": 184,
+    "technologies": 271,
+    "validation_errors": 0
+  },
+
+  "connectors": {
+    "google_drive": {
+      "status": "CONNECTED",
+      "tool": "export_files",
+      "limitations": "flat only (no folder parameter), batches of ~10 to avoid timeout"
+    },
+    "onedrive": {
+      "status": "NEEDS_RE_AUTH",
+      "tool": "export_files",
+      "limitations": "same flat schema as Google Drive"
+    },
+    "dropbox": {
+      "status": "CONNECTED",
+      "tool": "export_files",
+      "limitations": "same flat schema as Google Drive"
+    },
+    "github": {
+      "status": "CONNECTED",
+      "source_id": "github_mcp_direct",
+      "tools": ["push_files", "create_or_update_file", "get_file_contents", "create_repository"],
+      "notes": "push_files for text (multi-file commits); create_or_update_file for binary/large files (base64); CLI arg limit ~131KB"
+    }
+  },
+
+  "workspace_files": {
+    "output_directory": "/home/user/workspace/output/",
+    "skill_file": "/home/user/workspace/ARCHIVAL_SKILL-11.md",
+    "session_checkpoint_v1": "/home/user/workspace/output/session_checkpoint_2026-03-13.json",
+    "session_checkpoint_v2": "/home/user/workspace/output/session_checkpoint_2026-03-14.json",
+    "gdrive_export_logs": "/home/user/workspace/tool_calls/call_external_tool/"
+  },
+
+  "skills_used": [
+    "research-assistant",
+    "programmatic-tool-calling"
+  ],
+
+  "shared_asset_names": [
+    "master_studies",
+    "master_entities",
+    "master_technologies"
+  ],
+
+  "technical_notes": {
+    "github_push_pattern": "write payload to /tmp/_github_push_payload.json, then bash -c 'external-tool call \"$(cat /tmp/_github_push_payload.json)\"' with api_credentials=[\"external-tools\"]",
+    "cli_arg_limit": "~131KB — binary files larger than that must use interactive call_external_tool",
+    "binary_file_handling": "base64 encode PNG, use create_or_update_file with content=base64_string",
+    "programmatic_tool_calling": "external-tool CLI with api_credentials=[\"external-tools\"] bash parameter"
+  },
+
+  "session_history": [
+    "Session 1 (Mar 13): Restored session from GDrive checkpoint; workspace files intact",
+    "Session 1: Troubleshot missing /Aberdeen-Research/ folder — discovered export_files has NO folder parameter; all 145 files landed flat at Drive root",
+    "Session 1: User confirmed files at Drive root (session_checkpoint, _master_studies, SKILL-11)",
+    "Session 1: Investigated all cloud drives — Google Drive, OneDrive, Dropbox all use identical flat export_files schema",
+    "Session 1: Connected GitHub (shorttack account) — has full push_files with directory paths",
+    "Session 1: User chose private repo, top-level folders (not branches), aberdeen-group-archive",
+    "Session 1: Created repo, pushed root files (4 commits), pushed 14 studies (1 commit each), pushed 2/3 PNGs",
+    "Session 1: One PNG too large for CLI — needed interactive push",
+    "Session 2 (Mar 14): Restored context, reloaded skills (research-assistant, programmatic-tool-calling)",
+    "Session 2: Successfully pushed final PNG (chart_performance_claims.png) via interactive call_external_tool",
+    "Session 2: Verified complete repo structure — all files confirmed on GitHub",
+    "Session 2: All 18 commits complete. Archive fully pushed."
+  ],
+
+  "next_steps": [
+    "Populate aberdeen-group-inc/ folder with company/about-Aberdeen content",
+    "Populate kastner-author/ folder with Peter S Kastner authored/co-authored studies",
+    "Consider adding more studies from additional source material",
+    "Consider opening repo to public/AI scrapers when ready",
+    "Update session_checkpoint on GitHub if needed"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Managing Customers with Next-Generation Software Applications: 1997 Edition",
+  "description": "Aberdeen Group's third annual market research report on Customer Interaction Software (CIS), profiling over 60 CIS software vendors and covering market trends, technology transitions, and growth forecasts for the 1997 CRM/CIS market.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "author": [
+    {"@type": "Person", "name": "Hugh Bishop"},
+    {"@type": "Person", "name": "Chris Pavlic"},
+    {"@type": "Person", "name": "Bill Hills"}
+  ],
+  "datePublished": "1997-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "CIS",
+    "Customer Interaction Software",
+    "CRM",
+    "Siebel Systems",
+    "Clarify",
+    "Vantive",
+    "Remedy",
+    "sales force automation",
+    "customer service software",
+    "help desk",
+    "CTI",
+    "web-based CRM",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

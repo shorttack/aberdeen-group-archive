@@ -1,0 +1,52 @@
+{
+  "name": "1997-cis-report-ba825e",
+  "title": "Managing Customers with Next-Generation Software Applications: 1997 Edition",
+  "description": "Aberdeen Group's third annual market research report on Customer Interaction Software (CIS), covering over 60 software vendors, market share data, CIS module definitions, technology trends including Web-based architectures and CIS-ERP integration, and forecasts for the CIS market. Authors: Hugh Bishop, Chris Pavlic & Bill Hills. Published October 1997.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Hugh Bishop, Chris Pavlic & Bill Hills (Aberdeen Group)",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Market Research Report, 1997 CIS Edition",
+      "path": "https://web.archive.org/web/19980131053659/http://www.aberdeen.com:80/research/reports/cisrpt.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

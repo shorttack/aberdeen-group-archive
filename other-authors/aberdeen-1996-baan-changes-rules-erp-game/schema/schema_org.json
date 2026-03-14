@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "BAAN Changes the Rules of the ERP Game with Dynamic Enterprise Modeling",
+  "description": "Aberdeen Group 1996 evaluation of Baan Company's BAAN IV ERP suite and Dynamic Enterprise Modeling capabilities.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "ERP",
+    "Baan",
+    "Dynamic Enterprise Modeling",
+    "Orgware",
+    "manufacturing software",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

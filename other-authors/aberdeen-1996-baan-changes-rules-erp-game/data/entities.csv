@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"baan-company","Baan Company","company","ERP-software","acquired","Invensys (2000) -> SSA Global (2003) -> Infor Global Solutions (2006)","1978-2000","aberdeen-1996-baan-changes-rules-erp-game","Founded by Jan Baan in Barneveld, Netherlands; acquired by Invensys for $700M in 2000 after revenue manipulation scandal in 1998"
+"aberdeen-group","Aberdeen Group, Inc.","firm","IT-research","acquired","Harte-Hanks (2001) -> Aberdeen Group (independent relaunch) -> Informa (2019)","1988-2001","aberdeen-1996-baan-changes-rules-erp-game","Boston-based IT research firm; publisher of this study"
+"boeing","Boeing Company","company","aerospace-manufacturing","active","","1916-present","aberdeen-1996-baan-changes-rules-erp-game","Landmark Baan ERP customer; $20M+ contract in 1994 drove Baan's global visibility"
+"sap-ag","SAP AG","company","ERP-software","active","SAP SE (rebranded 2014)","1972-present","aberdeen-1996-baan-changes-rules-erp-game","Primary ERP competitor to Baan; mentioned implicitly as market leader Baan was trying to displace"

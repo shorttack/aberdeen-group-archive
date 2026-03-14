@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Cabletron: Discovering the Beacon Under the Basket",
+  "description": "Aberdeen Group Company Profile (Spring 1997) analyzing Cabletron Systems' technical leadership, PPSN market strategy, SecureFast VLAN architecture, Spectrum management platform, and global expansion plans.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Cabletron Systems",
+    "SecureFast",
+    "VLAN",
+    "Spectrum",
+    "PPSN",
+    "SmartSwitch",
+    "CyberSWITCH",
+    "enterprise networking",
+    "LAN switching",
+    "network management",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor",
+    "market-data",
+    "expert-opinion",
+    "benchmark-result"
+  ]
+}

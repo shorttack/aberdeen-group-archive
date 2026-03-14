@@ -1,31 +1,140 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-3com,3Com Corporation,company,networking-hardware,acquired,HP/HPE (acquired 2010),1979-2010,aberdeen-1995-3com-lanplex-2500,"Headquarters: Santa Clara, CA. Switching Division in Boxborough, MA. Acquired Synernetics 1993."
-cisco-systems,Cisco Systems,company,networking-hardware,active,,1984-present,aberdeen-1995-3com-lanplex-2500,Primary competitor in Ethernet/FDDI switching market at time of study.
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_ids,notes
+3COM,3Com Corporation,vendor,networking / computing,acquired,Hewlett Packard Enterprise / Aruba Networks,1979-2010,aberdeen-1996-3com-reconciling-clientserver-development-internet,Network infrastructure vendor; acquired by HP for $2.7B in April 2010; integrated into HPE Aruba Networks.
+3com,3Com Corporation,company,networking-hardware,acquired,HP/HPE (acquired 2010),1979-2010,aberdeen-1995-3com-lanplex-2500; aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,"Headquarters: Santa Clara, CA. Switching Division in Boxborough, MA. Acquired Synernetics 1993."
+ABERDEEN,Aberdeen Group,research-firm,,,,,aberdeen-1995-digital-objectbroker,
+ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1995-rdbms-cray-research-inc; aberdeen-1996-3com-reconciling-clientserver-development-internet; aberdeen-1996-advanced-planning-engines-white-paper; aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better; aberdeen-1996-as400-year-2000-ibm-leading-users,Author of this study; Boston-based IT analyst firm.
+AMERICAN-SOFTWARE,American Software Inc.,vendor,supply chain / ERP software,active,,1970-present,aberdeen-1996-advanced-planning-engines-white-paper,"Atlanta, GA; publicly traded NASDAQ: AMSWA; 1995 revenues $79.5M (APET ~$20M); 300+ installed sites. Renamed Logility for supply chain products."
+ATT-GIS,AT&T Global Information Solutions (formerly NCR),vendor,computing,acquired,NCR Corporation,1991-1996,aberdeen-1995-rdbms-cray-research-inc,AT&T renamed its computing division; spun back out as NCR Corporation in 1996.
+CRAY-BSD,Cray Research Business Systems Division,organizational-unit,high-performance computing,dissolved,Sun Microsystems (successor product line),1994-1996,aberdeen-1995-rdbms-cray-research-inc,Merged from Cray Solutions and Cray Research Superservers. Divested to Sun Microsystems with Superservers business in 1996.
+CRAY-RESEARCH,Cray Research Inc.,vendor,high-performance computing,acquired,Silicon Graphics (SGI) / Cray Inc.,1972-1996,aberdeen-1995-rdbms-cray-research-inc,"Acquired by SGI for $740M in February 1996; SGI sold the Superservers (CS6400) business to Sun in May 1996. Cray supercomputer division sold to Tera Computer Company in 2000, renamed Cray Inc."
+CUSHING,The Cushing Group,si-partner,,,,,aberdeen-1995-digital-objectbroker,
+DB-SOFTWARE,Dun & Bradstreet Software (D&B Software),vendor,enterprise software / ERP,acquired,Geac Computer Corporation,1990-1998,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Formed by merger of McCormack & Dodge and Management Science America in 1990. Divested by Dun & Bradstreet Corp and acquired by Geac Computer in 1998. Geac abandoned SmartStream manufacturing module in 1997.
+DEC,Digital Equipment Corporation,vendor,,,,,aberdeen-1995-digital-objectbroker,
+DOUG-MACINTYRE,Doug MacIntyre (CEO),person,enterprise software,unknown,,1990s,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,CEO of D&B Software at time of study; reported SmartStream revenues >$100M for fiscal year ending November 30.
+DUN-BRADSTREET-CORP,The Dun & Bradstreet Corporation,conglomerate,financial data / business information,active (restructured),,1841-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Parent company preparing to divest D&B Software at time of study. Dun & Bradstreet sold D&B Software; the parent D&B Corp continues as a data/analytics company.
+EDS,Electronic Data Systems,si-partner,,,,,aberdeen-1995-digital-objectbroker,
+ENT-ADM,"ADM (Advanced Development Methods, Inc.)",vendor,software-methodology,inactive,Scrum.org holds ADM trademark portfolio,1993-2005,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,ADM was co-founded by Ken Schwaber and Jeff Sutherland who co-created SCRUM; ADM trademarks now held by Scrum.org. Company is no longer independently active.
+ENT-ATTACHMATE,Attachmate Group,vendor,software,acquired,Micro Focus International (acquired 2014),1982-2014,aberdeen-1995-novell-predicament,Acquired Novell in 2011 for $2.2B; itself acquired by Micro Focus in 2014.
+ENT-CA,Computer Associates (CA),vendor,software,active,CA Technologies → Broadcom (acquired 2018),1976-2018,aberdeen-1995-novell-predicament,CA Unicenter referenced as competitor in network management. Acquired by Broadcom in 2018.
+ENT-CA-INGRES,Computer Associates (CA-Ingres + Jasmine),vendor,database-software,acquired,Actian Corporation (Ingres); CA Technologies→Broadcom,1976-2018,aberdeen-1995-universal-servers-rdbms-technology-next-decade,CA had dual strategy: CA-Ingres RDBMS + Jasmine OODBMS; Ingres later became independent as Actian.
+ENT-HP,Hewlett-Packard (HP),vendor,hardware-software,active,Split into HP Inc and HPE in 2015,1939-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market; split into HP Inc and HPE in 2015.
+ENT-IBM,IBM Corporation,vendor,hardware-software,active,,1911-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market.
+ENT-IBM-DB2,IBM DB2,product,database-software,active,,1983-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,IBM DB2 Common Server assessed; DB2 absorbed Informix technology after 2001 acquisition; still active.
+ENT-IBM-OS2,IBM (OS/2 Warp Server),vendor,software,active,,1911-present,aberdeen-1995-novell-predicament,OS/2 Warp Server mentioned as secondary competitive threat to NetWare; OS/2 ultimately lost to NT.
+ENT-ILLUSTRA,Illustra Information Technologies,vendor,database-software,acquired,Informix (acquired 1995),1992-1995,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Illustra OODBMS/object-relational DBMS with DataBlade technology; acquired by Informix in 1995 to create Universal Server.
+ENT-INFMX,Informix Corporation,vendor,database-software,acquired,IBM (database assets acquired 2001),1980-2001,aberdeen-1995-progress-software-profile,Database assets acquired by IBM for $1B in 2001; remainder renamed Ascential Software.
+ENT-INFORMIX,Informix Corporation,vendor,database-software,acquired,"IBM (database assets, 2001); Ascential Software (remainder)",1980-2001,aberdeen-1995-universal-servers-rdbms-technology-next-decade,IBM acquired Informix database assets for $1B in 2001; Informix products merged into IBM DB2 product line. Informix-IDS still sold as IBM Informix.
+ENT-LOTUS,Lotus Development Corporation (IBM),vendor,software,acquired,IBM (acquired 1995 for $3.5B),1982-1995,aberdeen-1995-novell-predicament,Lotus Notes referenced as primary competitor to Novell GroupWise in groupware market; IBM acquired Lotus in 1995.
+ENT-MAPINFO,MapInfo Corporation,vendor,gis-software,acquired,Pitney Bowes (acquired 2007),1986-2007,aberdeen-1995-universal-servers-rdbms-technology-next-decade,MapInfo spatial DataBlade partner; acquired by Pitney Bowes in 2007.
+ENT-MICROSOFT,Microsoft Corporation,vendor,software,active,,1975-present,aberdeen-1995-progress-software-profile,VBX component technology referenced; evolved to ActiveX/COM.
+ENT-MSFT-NT,Microsoft Corporation (Windows NT),vendor,software,active,,1975-present,aberdeen-1995-novell-predicament,Windows NT Server identified as primary competitive threat to NetWare. NT ultimately won the enterprise server OS war.
+ENT-MSFT-SQL,Microsoft SQL Server,product,database-software,active,,1989-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Microsoft assessed as lagging in Universal Server; SQL Server evolved to become major RDBMS with extensive extensions.
+ENT-MSFT-WIN95,Microsoft Corporation (Windows 95),vendor,software,active,,1975-present,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,"Windows 95 beta program (400,000 beta users) used as ISV example of iterative development with early user involvement."
+ENT-NETSCAPE,Netscape Communications,vendor,software,acquired,"AOL (1999), Mozilla Foundation",1994-2003,aberdeen-1995-novell-predicament,Netscape CollabraShare referenced as groupware competitor. Netscape acquired by AOL in 1999.
+ENT-NOVELL,Novell Inc.,vendor,software,acquired,Attachmate (2011) → Micro Focus (2014) → OpenText (2023),1979-2011,aberdeen-1995-novell-predicament,Acquired by Attachmate for $2.2B in April 2011 after NT displacement. SUSE Linux business separated. Patents sold to Microsoft consortium for $450M.
+ENT-ORACLE,Oracle Corporation,vendor,software,active,,1977-present,aberdeen-1995-sun-microsystems-computer-company,Acquired Sun Microsystems in 2010; now produces SPARC-based systems under Oracle brand.
+ENT-ORACLE-APP,Oracle Applications,product,enterprise-software,active,,1987-present,aberdeen-1995-sun-microsystems-computer-company,Oracle ERP application suite referenced as target workload for Sun commercial servers.
+ENT-ORACLE-DB,Oracle Corporation,vendor,database-software,active,,1977-present,aberdeen-1995-progress-software-profile,Referenced as a supported target database via DataServer architecture.
+ENT-ORACLE-DB4,Oracle Corporation,vendor,database-software,active,,1977-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Oracle 7.3 assessed; Oracle eventually released Oracle8/8i with full object-relational features; now Oracle Database dominates enterprise RDBMS.
+ENT-PROGRESS,Progress Software Corporation,vendor,software,active,,1981-present,aberdeen-1995-progress-software-profile,Still active; rebranded developer tools as OpenEdge. Revenue $753M in 2024. Potential Thoma Bravo acquisition target as of 2026.
+ENT-SAP,SAP AG,vendor,enterprise-software,active,,1972-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as major commercial application targeting Sun platforms.
+ENT-SUN,Sun Microsystems Computer Company (SMCC),vendor,hardware-software,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-sun-microsystems-computer-company,"Founded 1982; acquired by Oracle for $7.4B (net $5.6B) completed January 27, 2010. Created Java, NFS, Solaris, SPARC."
+ENT-SYBASE,Sybase Inc.,vendor,database-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1995-progress-software-profile,Referenced as supported database target; acquired by SAP in 2010 for $5.8B.
+ENT-SYBASE-DB,Sybase Inc.,vendor,database-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Sybase System 11 assessed; Sybase acquired by SAP in 2010 for $5.8B; SAP ASE/IQ products continue.
+ENT-VERITY,Verity Inc.,vendor,search-software,acquired,Autonomy Corporation (acquired 2005),1988-2005,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Verity text search referenced as DataBlade partner; acquired by Autonomy in 2005.
+ENT001,Aberdeen Group,analyst-firm,,,,,aberdeen-1995-limd-technology,
+ENT002,Digital Equipment Corporation,hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT003,Oracle Corporation,software-vendor,,,,,aberdeen-1995-limd-technology,
+ENT004,Sybase,software-vendor,,,,,aberdeen-1995-limd-technology,
+ENT005,Informix,software-vendor,,,,,aberdeen-1995-limd-technology,
+ENT006,Silicon Graphics Inc. (SGI),hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT007,Sun Microsystems,hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT008,IBM,hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT009,Hewlett-Packard (HP),hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT010,Tandem Computers,hardware-vendor,,,,,aberdeen-1995-limd-technology,
+ENT011,Software AG,software-vendor,,,,,aberdeen-1995-limd-technology,
+ENT012,CA-Ingres,software-vendor,,,,,aberdeen-1995-limd-technology,
+ENT013,Merrill Lynch,financial-services,,,,,aberdeen-1995-limd-technology,
+ENT014,Aberdeen Group (publisher),analyst-firm,,,,,aberdeen-1995-limd-technology,
+FACT-INC,FACT Inc.,vendor,supply chain / manufacturing software,acquired,merged into larger ERP vendors,1986-2000s,aberdeen-1996-advanced-planning-engines-white-paper,"Norcross, GA; private; 1995 estimated revenues $10M; 180 installed sites. EnSync product family."
+FASB,Financial Accounting Standards Board,standards-body,accounting / finance,active,,1973-present,aberdeen-1996-as400-year-2000-ibm-leading-users,"Study notes FASB required Y2K remediation costs to be expensed rather than capitalized, increasing bottom-line impact."
+GEAC,Geac Computer Corporation,vendor,enterprise software,acquired,Infor,1971-2004,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Canadian ERP vendor; acquired D&B Software in 1998; abandoned SmartStream manufacturing module; Geac acquired by Golden Gate Capital / Infor in 2004.
+I2-TECHNOLOGIES,i2 Technologies,vendor,supply chain planning,acquired,JDA Software (now Blue Yonder),1988-2010,aberdeen-1996-advanced-planning-engines-white-paper,"Dallas, TX; private at time of study; 1995 estimated revenues $27M; 300+ sites. IPO April 1996 at ~$700M valuation. Acquired by JDA Software for $604M in January 2010."
+IBM,IBM Corporation,vendor,computing / enterprise IT,active,,1911-present,aberdeen-1996-as400-year-2000-ibm-leading-users,Author's primary subject; AS/400 division praised for Y2K leadership.
+IBM-AS400-DIV,IBM AS/400 Division,organizational-unit,computing,active (renamed),IBM Power Systems Division,1988-2000s,aberdeen-1996-as400-year-2000-ibm-leading-users,"Division responsible for AS/400 platform and OS/400; renamed with product rebrandings to iSeries (2000), System i (2006), IBM Power Systems (2008)."
+IBM-SP2,IBM SP2,vendor,high-performance computing,discontinued,IBM pSeries,1993-2001,aberdeen-1995-rdbms-cray-research-inc,Scalable Parallel 2 server line; competed directly against Cray CS6400 for VLDB workloads.
+INFORMIX,Informix Software,vendor,RDBMS,acquired,IBM,1980-2001,aberdeen-1995-rdbms-cray-research-inc,RDBMS partner for Cray CS6400; acquired by IBM in 2001.
+JDA-SOFTWARE,JDA Software (Blue Yonder),vendor,supply chain planning,active,,1978-present,aberdeen-1996-advanced-planning-engines-white-paper,Acquired Manugistics in 2006 and i2 Technologies in 2010; renamed Blue Yonder in 2020. Now owned by Panasonic.
+LINKVEST,Linkvest,si-partner,,,,,aberdeen-1995-digital-objectbroker,
+LOGICA,Logica North America Inc,si-partner,,,,,aberdeen-1995-digital-objectbroker,
+MANUGISTICS,Manugistics Group,vendor,supply chain planning,acquired,JDA Software (now Blue Yonder),1969-2006,aberdeen-1996-advanced-planning-engines-white-paper,"Rockville, MD; NASDAQ: MANU; 1995 revenues ~$50M; 300+ sites. Acquired by JDA Software in July 2006."
+MCCORMACK-DODGE,McCormack & Dodge,vendor,mainframe business software,merged,D&B Software,1969-1990,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,One of top two application suppliers of 1970s/80s; merged with Management Science America to form D&B Software in 1990.
+MICROSOFT,Microsoft Corporation,vendor,,,,,aberdeen-1995-digital-objectbroker,
+MICROSOFT-SQL,Microsoft Corporation (SQL Server),vendor,RDBMS / software,active,,1975-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Co-primary RDBMS for SmartStream DE alongside Sybase (MS SQL Server is based on Sybase code).
+MSA,Management Science America (MSA),vendor,mainframe business software,merged,D&B Software,1963-1990,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,One of top two application suppliers of 1970s/80s; merged with McCormack & Dodge to form D&B Software in 1990.
+NCUBE,nCUBE Corporation,vendor,massively parallel computing,acquired,nVIDIA / MediaBin (2003 renamed),1983-2003,aberdeen-1995-rdbms-cray-research-inc,MPP vendor competing in high-end database segment; eventually pivoted to video-on-demand infrastructure.
+NETLINKS,NetLinks Technology,si-partner,,,,,aberdeen-1995-digital-objectbroker,
+NUMETRIX,Numetrix Inc.,vendor,supply chain / production planning,acquired,unknown,1977-late 1990s,aberdeen-1996-advanced-planning-engines-white-paper,"Toronto, ON; private; 1995 estimated revenues $30M; 285 installed sites. Later absorbed into ERP vendor ecosystem."
+OMG,Object Management Group,standards-body,,,,,aberdeen-1995-digital-objectbroker,
+ORACLE,Oracle Corporation,vendor,RDBMS / enterprise software,active,,1977-present,aberdeen-1995-rdbms-cray-research-inc; aberdeen-1996-advanced-planning-engines-white-paper,RDBMS partner certified to run on Cray CS6400.
+ORACLE-APPS,Oracle Applications,vendor,ERP software,active,,1987-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor to SmartStream DE.
+PEOPLESOFT,PeopleSoft Inc.,vendor,ERP / HCM software,acquired,Oracle Corporation,1987-2005,aberdeen-1996-advanced-planning-engines-white-paper; aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Mentioned as Red Pepper partnership; acquired Red Pepper for $225M in 1996; acquired by Oracle for $10.3B in 2005.
+PROTOSOFT,Protosoft Inc,vendor,,,,,aberdeen-1995-digital-objectbroker,
+RED-PEPPER,Red Pepper Software Company,vendor,supply chain optimization,acquired,PeopleSoft (then Oracle),1993-1996,aberdeen-1996-advanced-planning-engines-white-paper,"San Mateo, CA; private; founded 1993; product shipments began 1995; 1995 revenues ~$5M; 50 sites. Acquired by PeopleSoft for $225M stock deal in September 1996."
+SAP,SAP SE,vendor,ERP software,active,,1972-present,aberdeen-1996-advanced-planning-engines-white-paper; aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Listed as partner of i2, Manugistics, Numetrix; major ERP competitor."
+SSA,Systems Software Associates (SSA),vendor,ERP software,acquired,SSA GT / Infor,1981-2003,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor; acquired by Infor in 2003.
+SUN-MICROSYSTEMS,Sun Microsystems,vendor,computing / UNIX,acquired,Oracle Corporation,1982-2010,aberdeen-1995-rdbms-cray-research-inc,Key SPARC/Solaris architecture partner for Cray CS6400; acquired the CS6400 Superservers product line from SGI in 1996; acquired by Oracle in 2010.
+SYBASE,Sybase Inc.,vendor,RDBMS,acquired,SAP SE,1984-2010,aberdeen-1995-rdbms-cray-research-inc; aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,RDBMS partner for Cray CS6400; acquired by SAP in 2010.
+TANDEM,Tandem Computers,vendor,,,,,aberdeen-1995-digital-objectbroker,
+TIM-SLOANE,Tim Sloane (analyst),person,IT research,unknown,,1990s,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen Group analyst credited as author of this impact report.
+aberdeen-group,"Aberdeen Group, Inc.",firm,market-research,acquired,Harte-Hanks (acquired 2001); brand later acquired by Aberdeen Strategy & Research,1988-2001,aberdeen-1995-3com-lanplex-2500; aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia; aberdeen-1995-ibm-as400-sap-r3; aberdeen-1995-ibm-db2-common-server; aberdeen-1996-baan-changes-rules-erp-game; aberdeen-1996-blyths-ren-architecture-prescription-it-success; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-ciscos-access-business-unit-crystallizes-vision; aberdeen-1996-clarify-inc; aberdeen-1996-data-general-corporation; aberdeen-1996-data-generals-cybershield-security-solutions-advancing; aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward; aberdeen-1996-risc-unix-market; aberdeen-1996-vpns-business-mfs-success-strategy,"One Boston Place, Boston MA 02108. Contact: Chris Stevenson."
 alantec,ALANTEC Corporation,company,networking-hardware,acquired,"Fore Systems (1996), then Marconi, then Ericsson",1992-1996,aberdeen-1995-3com-lanplex-2500,LAN switching competitor cited in competitive table. Acquired by Fore Systems 1996.
-bay-networks,Bay Networks,company,networking-hardware,acquired,Nortel Networks (acquired 1998),1994-1998,aberdeen-1995-3com-lanplex-2500,Formed from merger of SynOptics and Wellfleet Communications in 1994.
-synernetics,"Synernetics, Inc.",company,networking-hardware,acquired,3Com Corporation (acquired 1993),1990-1993,aberdeen-1995-3com-lanplex-2500,Fast-moving LAN switching startup; expertise in high-performance FDDI backbone switching. Formed core of 3Com Switching Division.
-aberdeen-group,"Aberdeen Group, Inc.",firm,market-research,acquired,Harte-Hanks (acquired 2001); brand later acquired by Aberdeen Strategy & Research,1988-2001,aberdeen-1995-3com-lanplex-2500,"One Boston Place, Boston MA 02108. Contact: Chris Stevenson."
-hp,Hewlett-Packard Company,company,technology,active,HP Inc. / HPE (split 2015),1939-present,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
-sun-microsystems,Sun Microsystems,company,technology,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
-ibm,IBM,company,technology,active,,1911-present,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
-ibm,IBM (International Business Machines),company,enterprise-software-hardware,active,,1911-present,aberdeen-1995-commercial-messaging,Primary vendor champion for MQSeries; Aberdeen recommends MQSeries as leading Commercial Messaging product
-lotus,Lotus Development Corporation,company,enterprise-software,acquired,"IBM (1995), then HCL Technologies (2019)",1982-1995,aberdeen-1995-commercial-messaging,Lotus Notes cited as billion-dollar groupware market leader using store-and-forward; acquired by IBM in 1995 for $3.5B
-microsoft,Microsoft,company,enterprise-software,active,,1975-present,aberdeen-1995-commercial-messaging,Cited as major distributed-object player that will not provide Commercial Messaging in near future; Visual Basic dominant Fortune-1000 departmental tool
-hewlett-packard,Hewlett-Packard,company,enterprise-software-hardware,active,HP Inc. (consumer 2015) and Hewlett Packard Enterprise (enterprise 2015),1939-present,aberdeen-1995-commercial-messaging,Offers OpenMail; focused primarily on e-mail market; indicated transaction support within next 2 years of study
-powersoft,Powersoft Corporation,company,enterprise-software,acquired,"Sybase (1995), then SAP (2010)",1974-1995,aberdeen-1995-commercial-messaging,PowerBuilder cited as dominant low-end CADE; MQSeries integrates with PowerBuilder
-seer-technologies,Seer Technologies,company,enterprise-software,acquired,"Merisel (acquired), subsequently dissolved",1980s-late 1990s,aberdeen-1995-commercial-messaging,Maker of Seer*HPS second-generation CADE with publish-and-subscribe messaging
-forte-software,Forte Software,company,enterprise-software,acquired,"Sun Microsystems (1999), then Oracle (2010)",1991-1999,aberdeen-1995-commercial-messaging,"Leading second-generation CADE with integrated Commercial Messaging, repository/directory, and application partitioning"
-complex-architectures,Complex Architectures,company,enterprise-software,dissolved,,early 1990s,aberdeen-1995-commercial-messaging,Announced basic Commercial Messaging product focused on laptop market
-early-cloud-and-co,"Early, Cloud & Co.",company,enterprise-software,dissolved,,early 1990s,aberdeen-1995-commercial-messaging,"Offered MDp, a Workflow Manager compatible with MQSeries and in-house Commercial Messaging implementations"
+amdahl-corporation,Amdahl Corporation,company,computer-hardware,acquired,Fujitsu Limited (1997),1970-1997,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; primarily mainframe supplier diversifying into RISC/Unix
+ameritech,Ameritech Corporation,company,telecommunications,acquired,AT&T (acquired 1999),1983-1999,aberdeen-1996-vpns-business-mfs-success-strategy,Regional Bell Operating Company; cited as aggressive in opening territory to MFS co-carrier status; acquired by SBC/AT&T 1999
+ascend-communications,Ascend Communications,company,networking,acquired,Acquired by Lucent Technologies in 1999 for $20B,1989-1999,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Named high-end dial-up/access server competitor; Cisco's primary target in ISP/carrier market
+at-and-t,AT&T Corporation,company,telecommunications,merged,"SBC Communications (2005), then AT&T Inc.",1885-2005,aberdeen-1996-risc-unix-market,Parent of AT&T GIS; AT&T proposed breakup into three companies partly triggered by GIS losses in 1995
+att-gis-ncr,AT&T GIS (NCR Corporation),company,computer-hardware,active,Reverted to NCR; now NCR Voyix + NCR Atleos (split 2023),1884-present,aberdeen-1996-risc-unix-market,Leading Intel/Unix supplier; ~$1B revenue 1995 (down from $1.1B 1994); financial losses contributed to AT&T proposed breakup into three companies
+attachmate,Attachmate Corporation,company,terminal-emulation-software,acquired,Micro Focus (2014) -> OpenText (2023),1982-2014,aberdeen-1995-digital-multia,"Maker of Kea! terminal emulator, bundled with Multia as an Information Access product"
+baan,Baan Company N.V.,company,enterprise-software,acquired,"Invensys (2000), then Infor",1978-2000,aberdeen-1996-risc-unix-market,ERP application vendor; implementations predominantly on RISC/Unix
+baan-company,Baan Company,company,ERP-software,acquired,Invensys (2000) -> SSA Global (2003) -> Infor Global Solutions (2006),1978-2000,aberdeen-1996-baan-changes-rules-erp-game,"Founded by Jan Baan in Barneveld, Netherlands; acquired by Invensys for $700M in 2000 after revenue manipulation scandal in 1998"
 banyan-systems,Banyan Systems,company,network-software,dissolved,assets sold to inacom and others; effectively dissolved circa 2001,1983-2001,aberdeen-1995-commercial-messaging,Cited for Beyond toolset (Workflow Manager) acquired via Banyan's acquisition of Beyond Inc.
-oracle,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1995-commercial-messaging,Cited as RDBMS in multiplatform environments; Oracle database server mentioned for Commercial Messaging interoperability
-informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,aberdeen-1995-commercial-messaging,"Cited as RDBMS in multiplatform environments alongside Oracle, DB2, and Sybase"
-sybase,Sybase,company,database-software,acquired,SAP (2010),1984-2010,aberdeen-1995-commercial-messaging,Cited as RDBMS in multiplatform environments; became parent of Powersoft post-1995 acquisition
-software-ag,Software AG,company,enterprise-software,active,,1969-present,aberdeen-1995-commercial-messaging,ADABAS cited as having store-and-forward architecture but not yet providing full Commercial Messaging developer APIs
-corba-consortium,CORBA Consortium (Object Management Group),institution,standards-body,active,,1989-present,aberdeen-1995-commercial-messaging,Aberdeen finds CORBA will not provide Commercial Messaging in near future; distributed-object market below $10M in 1995
-aberdeen-group,Aberdeen Group,firm,technology-research,acquired,"Harte-Hanks (acquired 2001), Aberdeen Group LLC (spun off 2010)",1988-present,aberdeen-1995-commercial-messaging,"Author of the study; Computer Systems, Software and Communications Consulting and Research; One Boston Place, Boston MA 02108"
+barclays-bank,Barclays Bank,company,financial-services,active,,1736-present,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Named Blyth customer for mission-critical applications
+bay-networks,Bay Networks,company,networking-hardware,acquired,Nortel Networks (acquired 1998),1994-1998,aberdeen-1995-3com-lanplex-2500; aberdeen-1996-clarify-inc,Formed from merger of SynOptics and Wellfleet Communications in 1994.
 beyond-inc,"Beyond, Inc.",company,enterprise-software,acquired,Banyan Systems (acquired),early 1990s,aberdeen-1995-commercial-messaging,Developer of Beyond workflow toolset; acquired by Banyan Systems
+blyth-software,Blyth Software,company,application-development-tools,acquired,Omnis Technology Corp (1997) -> Raining Data Corp (2000) -> TigerLogic Corp (2008) -> Cliftech Solutions (2017),1987-1997,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Founded as Blyth Holdings Inc in Delaware 1987; known for OMNIS 7 CADE; never achieved mainstream status
+boeing,Boeing Company,company,aerospace-manufacturing,active,,1916-present,aberdeen-1996-baan-changes-rules-erp-game,Landmark Baan ERP customer; $20M+ contract in 1994 drove Baan's global visibility
+bull,Bull SA,vendor,computer-hardware,acquired,Atos (acquired 2014),1931-2014,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-risc-unix-market,French IT vendor cited as competing midrange supplier; acquired by Atos 2014
+cambridge-tech-partners,Cambridge Technology Partners,firm,IT-consulting,acquired,Acquired by Novell 1999; then CGI Group,1991-1999,aberdeen-1996-clarify-inc,Named Clarify systems integrator partner
+cisco-systems,Cisco Systems,company,networking-hardware,active,,1984-present,aberdeen-1995-3com-lanplex-2500; aberdeen-1996-ciscos-access-business-unit-crystallizes-vision; aberdeen-1996-clarify-inc,Primary competitor in Ethernet/FDDI switching market at time of study.
+clam-associates,CLAM Associates,company,systems-software,unknown,,1990s,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Cambridge MA; developed HACMP clustering technology integrated into Sagister
+clarify-inc,Clarify Inc.,company,customer-interaction-software,acquired,"Nortel Networks (1999, $2.1B) -> Amdocs Ltd. (2001, $200M)",1992-1999,aberdeen-1996-clarify-inc,"NASDAQ: CLFY; 1H 1996 revenues $20.1M; 200+ customers, 43,000 users; HQ San Jose CA"
+combinet,Combinet,company,networking,acquired,Acquired by Cisco in August 1995 for $114.2M,1992-1995,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Cisco's August 1995 SOHO/ISDN acquisition; spawned Cisco 750 series
+compaq,Compaq Computer Corporation,company,PC-hardware,acquired,Acquired by HP in 2002,1982-2002,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision; aberdeen-1996-risc-unix-market,Partner in Cisco-Compaq initiative embedding IOS into Intel x86 platform
+compaq-computer,Compaq Computer Corporation,company,enterprise-computing,acquired,Hewlett-Packard,1982-2002,aberdeen-1996-debunking-ntsmp-scalability-myth,ProLiant 5000 4-way server achieved 6750 tpmC; acquired by HP in 2002
+complex-architectures,Complex Architectures,company,enterprise-software,dissolved,,early 1990s,aberdeen-1995-commercial-messaging,Announced basic Commercial Messaging product focused on laptop market
+computer-associates,Computer Associates,company,systems-management-software,rebranded,CA Technologies -> Broadcom (acquired 2018),1976-present,aberdeen-1995-ibm-db2-common-server; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,CA-Unicenter cited as nearest competitor to Sagister Operations Base
+concurrent-computer,Concurrent Computer Corporation,company,computer-hardware,active,,1966-present,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; real-time Unix niche supplier
+corba-consortium,CORBA Consortium (Object Management Group),institution,standards-body,active,,1989-present,aberdeen-1995-commercial-messaging,Aberdeen finds CORBA will not provide Commercial Messaging in near future; distributed-object market below $10M in 1995
+cray-research,"Cray Research, Inc.",company,computer-hardware,acquired,"Silicon Graphics (1996), then HPE (2019)",1972-1999,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; very high-end MPP systems niche; less than 2% market share
+data-general,Data General Corporation,company,computer-hardware,acquired,"EMC Corporation (1999), then Dell EMC (2016)",1968-1999,aberdeen-1996-risc-unix-market,$620M revenue 1995; 11% growth; fifth place; Aviion RISC/Unix line; Clariion storage; transitioning from Motorola 88000 to Intel
+data-general-corporation,Data General Corporation,company,enterprise-computing,acquired,EMC Corporation,1968-1999,aberdeen-1996-data-general-corporation; aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Acquired by EMC for $1.1B in Oct 1999; AViiON discontinued; CLARiiON continued until 2012
+digital-equipment,Digital Equipment Corporation (DEC),vendor,IT-systems,acquired,Acquired by Compaq 1998; then HP 2002,1957-1998,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,Cited as competing midrange platform vendor
+digital-equipment-corporation,Digital Equipment Corporation,company,enterprise-computing,acquired,Compaq (1998) -> Hewlett-Packard (2002),1957-1998,aberdeen-1995-digital-multia; aberdeen-1996-risc-unix-market,"Headquartered at 200 Forest Street, Marlboro, MA 01752; creator and vendor of Multia; acquired by Compaq 1998, then HP 2002"
+early-cloud-and-co,"Early, Cloud & Co.",company,enterprise-software,dissolved,,early 1990s,aberdeen-1995-commercial-messaging,"Offered MDp, a Workflow Manager compatible with MQSeries and in-house Commercial Messaging implementations"
+emc-corporation,EMC Corporation,company,storage-systems,acquired,Dell Technologies,1979-2016,aberdeen-1996-data-general-corporation,Acquired Data General in 1999; merged with Dell in 2016 to form Dell Technologies
+ent-001,,vendor,,acquired,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-002,,analyst-firm,,acquired,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-003,,vendor,,acquired,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-004,,vendor,,acquired,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-005,,vendor,,acquired,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-006,,vendor,,active,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-007,,vendor,,active,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-008,,vendor,,active,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+ent-009,,vendor,,active,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse,
 ent-01,Aberdeen Group,research-firm,market-research,acquired,Harte-Hanks (then Aberdeen rejoined as independent brand),1988-2014,aberdeen-1995-data-warehouse-olap,Publisher of the study; Market Viewpoint series Vol.8 No.8
+ent-010,,vendor,,active,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse,
+ent-011,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
+ent-012,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
 ent-02,MicroStrategy Inc.,software-vendor,business-intelligence,active,,1989-present,aberdeen-1995-data-warehouse-olap,Identified as leading Relational OLAP pioneer; partnered with Informix; still active as public company (MSTR)
 ent-03,Information Advantage Inc.,software-vendor,business-intelligence,acquired,Sterling Software (1999) then CA Technologies (2000),1992-2000,aberdeen-1995-data-warehouse-olap,Named as key ROLAP supplier alongside MicroStrategy and Stanford Technology Group; acquired by Sterling for OLAP server product
 ent-04,Stanford Technology Group,software-vendor,business-intelligence,acquired,Unknown (small ROLAP startup),1993-1998,aberdeen-1995-data-warehouse-olap,Listed as one of three primary Relational OLAP suppliers; later faded from market
@@ -45,260 +154,140 @@ ent-17,Microsoft,software-vendor,software-conglomerate,active,,1975-present,aber
 ent-18,Crystal Services,software-vendor,business-intelligence,acquired,Seagate Software (1996) then Business Objects (2004),1990-1996,aberdeen-1995-data-warehouse-olap,Maker of Crystal Reports cited as report-writer/predefined query tool example
 ent-19,Hewlett-Packard,hardware-vendor,computing-hardware,active,,1939-present,aberdeen-1995-data-warehouse-olap,Forming alliances with MDB suppliers including Arbor Software; hardware platform partner
 ent-20,Lotus Development,software-vendor,productivity-software,acquired,IBM (1995),1982-1995,aberdeen-1995-data-warehouse-olap,Maker of Lotus Approach cited as low-end personal database tool alongside Microsoft Access
-ent-001,,,,,,,aberdeen-1995-digital-linkworks,
-ent-002,,,,,,,aberdeen-1995-digital-linkworks,
-ent-003,,,,,,,aberdeen-1995-digital-linkworks,
-ent-004,,,,,,,aberdeen-1995-digital-linkworks,
-ent-005,,,,,,,aberdeen-1995-digital-linkworks,
-ent-006,,,,,,,aberdeen-1995-digital-linkworks,
-ent-007,,,,,,,aberdeen-1995-digital-linkworks,
-ent-008,,,,,,,aberdeen-1995-digital-linkworks,
-ent-009,,,,,,,aberdeen-1995-digital-linkworks,
-ent-010,,,,,,,aberdeen-1995-digital-linkworks,
-digital-equipment-corporation,Digital Equipment Corporation,company,enterprise-computing,acquired,Compaq (1998) -> Hewlett-Packard (2002),1957-1998,aberdeen-1995-digital-multia,"Headquartered at 200 Forest Street, Marlboro, MA 01752; creator and vendor of Multia; acquired by Compaq 1998, then HP 2002"
-microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1995-digital-multia,"Supplier of Windows NT Workstation 3.51 and Windows 95, both used on Multia"
-netscape,Netscape Communications Corporation,company,internet-software,acquired,AOL (1999); browser discontinued 2008,1994-1999,aberdeen-1995-digital-multia,Provided Netscape Navigator bundled as the Multia web browser; acquired by AOL 1999
-wall-data,Wall Data Incorporated,company,terminal-emulation-software,acquired,NetManage (2003); dissolved,1982-2003,aberdeen-1995-digital-multia,"Maker of Rumba terminal emulator, bundled with Multia as an Information Access product"
-attachmate,Attachmate Corporation,company,terminal-emulation-software,acquired,Micro Focus (2014) -> OpenText (2023),1982-2014,aberdeen-1995-digital-multia,"Maker of Kea! terminal emulator, bundled with Multia as an Information Access product"
-ibm,IBM Corporation,company,enterprise-computing,active,,1911-present,aberdeen-1995-digital-multia,Referenced as supplier of NetBEUI LAN protocol and IBM mainframes accessed via 3270 emulation
-novell,"Novell, Inc.",company,network-software,acquired,Micro Focus (2014) -> OpenText (2023),1983-2014,aberdeen-1995-digital-multia,Supplier of IPX/SPX network protocol supported in Multia communications stack
-aberdeen-group,Aberdeen Group,firm,technology-research,acquired,Harte-Hanks (2001) -> Aberdeen Group brand reacquired by various entities,1988-present,aberdeen-1995-digital-multia,"Author and publisher of this product profile; headquartered at One Boston Place, Boston, MA 02108"
-DEC,Digital Equipment Corporation,vendor,,,,,aberdeen-1995-digital-objectbroker,
-OMG,Object Management Group,standards-body,,,,,aberdeen-1995-digital-objectbroker,
-MICROSOFT,Microsoft Corporation,vendor,,,,,aberdeen-1995-digital-objectbroker,
-LOGICA,Logica North America Inc,si-partner,,,,,aberdeen-1995-digital-objectbroker,
-EDS,Electronic Data Systems,si-partner,,,,,aberdeen-1995-digital-objectbroker,
-PROTOSOFT,Protosoft Inc,vendor,,,,,aberdeen-1995-digital-objectbroker,
-TANDEM,Tandem Computers,vendor,,,,,aberdeen-1995-digital-objectbroker,
-ABERDEEN,Aberdeen Group,research-firm,,,,,aberdeen-1995-digital-objectbroker,
-CUSHING,The Cushing Group,si-partner,,,,,aberdeen-1995-digital-objectbroker,
-NETLINKS,NetLinks Technology,si-partner,,,,,aberdeen-1995-digital-objectbroker,
-LINKVEST,Linkvest,si-partner,,,,,aberdeen-1995-digital-objectbroker,
-ent-hp,Hewlett-Packard Company,vendor,computer-hardware-software,split,HP Inc / Hewlett Packard Enterprise,1939-2015,aberdeen-1995-hp-customer-interaction-software,General Systems Division in Cupertino CA; merged with Compaq 2002; split into HP Inc and HPE 2015
-ent-aberdeen,Aberdeen Group,research-firm,market-research,acquired,Aberdeen (HfS Research / Omnicom),1988-2014,aberdeen-1995-hp-customer-interaction-software,Publisher of this study; acquired by Harte-Hanks 2001; brand continued under various owners
+ent-aberdeen,Aberdeen Group,research-firm,market-research,acquired,Aberdeen (HfS Research / Omnicom),1988-2014,aberdeen-1995-hp-customer-interaction-software; aberdeen-1995-hp-softbench,Publisher of this study; acquired by Harte-Hanks 2001; brand continued under various owners
+ent-alcatel,Alcatel,vendor,telecommunications,merged,Nokia,1898-2016,aberdeen-1995-hp-customer-interaction-software,Supported via Dialogic CT Connect; later acquired Genesys 2000; merged with Nokia 2016
+ent-amdocs,AMDOCS,isv,telecom-billing,active,,1982-present,aberdeen-1995-hp-customer-interaction-software,Vertical industry software supplier for Telecom listed in Figure 2; still active
+ent-ams,AMS (American Management Systems),isv,telecom-software,acquired,CGI Group,1970-2004,aberdeen-1995-hp-customer-interaction-software,Vertical telecom software listed in Figure 2; acquired by CGI Group 2004
 ent-andersen-consulting,Andersen Consulting,systems-integrator,professional-services,renamed,Accenture,1989-2001,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; renamed Accenture in 2001
-ent-cambridge-tech,Cambridge Technology Partners,systems-integrator,professional-services,acquired,Novell / Atos Origin,1991-2004,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; acquired by Novell 2001
-ent-csc,CSC (Computer Sciences Corporation),systems-integrator,professional-services,merged,DXC Technology,1959-2017,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; merged with HP Enterprise Services to form DXC Technology 2017
-ent-cap-gemini,CAP Gemini,systems-integrator,professional-services,active,Capgemini,1967-present,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; operates today as Capgemini
-ent-eds,EDS (Electronic Data Systems),systems-integrator,professional-services,acquired,HP / DXC Technology,1962-2008,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; acquired by HP 2008
-ent-hogan-jerge,Hogan Jerge & Associates,systems-integrator,professional-services,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; small boutique firm
-ent-weston-taylor,Weston Taylor Wells,systems-integrator,professional-services,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner listed in Figure 2
-ent-technology-solutions,Technology Solutions Company,systems-integrator,professional-services,unknown,,1990s-2000s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; specialized in CIS implementations
-ent-aurum,Aurum Software,isv,crm-software,acquired,Baan,1991-1999,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by Baan 1997
-ent-brock,Brock Control Systems,isv,crm-software,acquired,Firstwave Technologies,1983-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; sales force automation vendor
-ent-clarify,Clarify Corporation,isv,crm-software,acquired,Nortel Networks,1992-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner; customer support/helpdesk software; acquired by Nortel Networks 1998
-ent-ima,IMA (Interactive Methods & Applications),isv,crm-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2
-ent-metrix,Metrix,isv,field-service-software,acquired,Servigistics / PTC,1987-2005,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; field service management software
-ent-remedy,Remedy Corporation,isv,crm-software,acquired,BMC Software,1990-2002,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; helpdesk and ITSM software; acquired by BMC Software 2002
-ent-scopus,Scopus Technology,isv,crm-software,acquired,Siebel Systems,1989-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by Siebel Systems for $461M in 1998
-ent-siebel,Siebel Systems,isv,crm-software,acquired,Oracle,1993-2006,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired Scopus 1998; acquired by Oracle 2006
-ent-vantive,Vantive Corporation,isv,crm-software,acquired,PeopleSoft,1992-1999,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by PeopleSoft 1999
 ent-apertus,Apertus Technologies,isv,data-warehousing,acquired,Evolution Technologies,1994-1998,aberdeen-1995-hp-customer-interaction-software,Complementary horizontal software supplier listed in Figure 2; data warehousing
+ent-apple,,,,active,,,aberdeen-1995-hp-softbench,
+ent-att,AT&T,vendor,telecommunications,active,,1885-present,aberdeen-1995-hp-customer-interaction-software,PBX telephony switch vendor; HP ACT supports AT&T switches
+ent-aurum,Aurum Software,isv,crm-software,acquired,Baan,1991-1999,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by Baan 1997
 ent-brite,Brite Voice Systems,isv,ivr-software,acquired,Intervoice,1984-1999,aberdeen-1995-hp-customer-interaction-software,IVR software supplier in Figure 2; acquired by Intervoice 1999
+ent-brock,Brock Control Systems,isv,crm-software,acquired,Firstwave Technologies,1983-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; sales force automation vendor
+ent-cambridge-tech,Cambridge Technology Partners,systems-integrator,professional-services,acquired,Novell / Atos Origin,1991-2004,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; acquired by Novell 2001
+ent-cap-gemini,CAP Gemini,systems-integrator,professional-services,active,Capgemini,1967-present,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; operates today as Capgemini
 ent-carnegie-group,The Carnegie Group,isv,ai-software,acquired,Carnegie Learning / Logicon,1984-1999,aberdeen-1995-hp-customer-interaction-software,Problem resolution AI software in Figure 2; acquired
+ent-clarify,Clarify Corporation,isv,crm-software,acquired,Nortel Networks,1992-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner; customer support/helpdesk software; acquired by Nortel Networks 1998
+ent-continuum,Continuum Company,isv,financial-services-software,acquired,EDS,1977-1999,aberdeen-1995-hp-customer-interaction-software,Financial services industry software listed in Figure 2
+ent-csc,CSC (Computer Sciences Corporation),systems-integrator,professional-services,merged,DXC Technology,1959-2017,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; merged with HP Enterprise Services to form DXC Technology 2017
+ent-csc-commercial,CSC Commercial Industry Services,isv,financial-services-software,merged,DXC Technology,1980s-2017,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software supplier listed in Figure 2
+ent-culverin,Culverin Associates,isv,financial-services-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services software listed in Figure 2
 ent-dialogic,Dialogic Corporation,vendor,telephony-hardware,acquired,Intel / Enghouse,1983-2000,aberdeen-1995-hp-customer-interaction-software,Telephony middleware vendor; HP CCM interfaces with Dialogics CT Connect product
+ent-document-access,Document Access,isv,document-management,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services related software listed in Figure 2
 ent-dst-telephony,DST (Telephony),isv,telephony-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Telephony software listed in Figure 2
+ent-eds,EDS (Electronic Data Systems),systems-integrator,professional-services,acquired,HP / DXC Technology,1962-2008,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; acquired by HP 2008
 ent-eis-dialer,EIS International,isv,outbound-dialing,acquired,Davox,1983-1997,aberdeen-1995-hp-customer-interaction-software,Outbound dialer/predictive dialing software listed as EIS in Figure 2
+ent-ericsson,Ericsson,vendor,telecommunications,active,,1876-present,aberdeen-1995-hp-customer-interaction-software,Supported via Dialogic CT Connect for CCM interfacing
 ent-filenet,FileNet Corporation,isv,workflow-software,acquired,IBM,1982-2006,aberdeen-1995-hp-customer-interaction-software,Workflow software supplier listed in Figure 2; acquired by IBM 2006
 ent-genesys,Genesys Telecommunications Laboratories,isv,call-management,acquired,Alcatel / Permira,1990-present,aberdeen-1995-hp-customer-interaction-software,Call management software listed in Figure 2; acquired by Alcatel for $1.5B in 2000; later sold to Permira; still active as Genesys
+ent-hogan-jerge,Hogan Jerge & Associates,systems-integrator,professional-services,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; small boutique firm
+ent-hogan-systems,Hogan Systems,isv,banking-software,acquired,Sungard,1977-2000,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software listed in Figure 2; acquired by Sungard Data Systems
+ent-hp,Hewlett-Packard Company,vendor,computer-hardware-software,split,HP Inc / Hewlett Packard Enterprise,1939-2015,aberdeen-1995-hp-customer-interaction-software; aberdeen-1995-hp-softbench,General Systems Division in Cupertino CA; merged with Compaq 2002; split into HP Inc and HPE 2015
+ent-hp-inc,,,,active,,,aberdeen-1995-hp-softbench,
+ent-hpe,,,,active,,,aberdeen-1995-hp-softbench,
+ent-ibm,,,,active,,,aberdeen-1995-hp-softbench,
+ent-ima,IMA (Interactive Methods & Applications),isv,crm-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2
+ent-informix,,,,acquired,,,aberdeen-1995-hp-softbench,
 ent-insoft,InSoft,isv,video-conferencing,acquired,Netscape,1993-1996,aberdeen-1995-hp-customer-interaction-software,Video conferencing software listed in Figure 2; acquired by Netscape 1996
 ent-intervoice,Intervoice,isv,ivr-software,acquired,Enghouse Systems,1983-2008,aberdeen-1995-hp-customer-interaction-software,IVR software supplier listed in Figure 2; acquired by Enghouse Systems
+ent-kenan,Kenan Technologies,isv,telecom-billing,acquired,Lucent Technologies,1982-1999,aberdeen-1995-hp-customer-interaction-software,Telecom vertical software listed in Figure 2; acquired by Lucent Technologies
+ent-metrix,Metrix,isv,field-service-software,acquired,Servigistics / PTC,1987-2005,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; field service management software
+ent-micro-focus,,,,acquired,,,aberdeen-1995-hp-softbench,
+ent-northern-telecom,Northern Telecom (Nortel),vendor,telecommunications,dissolved,,1895-2009,aberdeen-1995-hp-customer-interaction-software,PBX switch vendor; HP ACT supports Northern Telecom switches; Nortel filed bankruptcy 2009
+ent-nss,NSS Group,isv,financial-services-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software listed in Figure 2
+ent-omg,,,,active,,,aberdeen-1995-hp-softbench,
+ent-open-group,,,,active,,,aberdeen-1995-hp-softbench,
+ent-opentext,,,,active,,,aberdeen-1995-hp-softbench,
+ent-oracle,,,,active,,,aberdeen-1995-hp-softbench,
+ent-osf,,,,merged,,,aberdeen-1995-hp-softbench,
 ent-red-brick,Red Brick Systems,isv,data-warehousing,acquired,Informix,1988-1999,aberdeen-1995-hp-customer-interaction-software,Data warehousing software listed in Figure 2; acquired by Informix 1999
+ent-remedy,Remedy Corporation,isv,crm-software,acquired,BMC Software,1990-2002,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; helpdesk and ITSM software; acquired by BMC Software 2002
 ent-rockwell,Rockwell International,vendor,telecom-equipment,split,Boeing / Conexant,1973-2001,aberdeen-1995-hp-customer-interaction-software,Network equipment supplier listed in Figure 2; telecommunications and defense; split into multiple companies
+ent-rolm,ROLM Corporation,vendor,pbx-systems,acquired,IBM / Siemens,1969-1989,aberdeen-1995-hp-customer-interaction-software,PBX vendor supported via Dialogic CT Connect; acquired by IBM then Siemens
+ent-scopus,Scopus Technology,isv,crm-software,acquired,Siebel Systems,1989-1998,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by Siebel Systems for $461M in 1998
+ent-siebel,Siebel Systems,isv,crm-software,acquired,Oracle,1993-2006,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired Scopus 1998; acquired by Oracle 2006
 ent-siren,Siren Technologies,isv,fax-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Fax software supplier listed in Figure 2
 ent-softlinx,SoftLinx,isv,fax-software,acquired,Captaris,1993-2001,aberdeen-1995-hp-customer-interaction-software,Fax software supplier listed in Figure 2
 ent-starlight,Starlight Networks,isv,video-streaming,acquired,Optika Technology,1991-2000,aberdeen-1995-hp-customer-interaction-software,Video software supplier listed in Figure 2
+ent-sun,,,,acquired,,,aberdeen-1995-hp-softbench,
+ent-taligent,,,,dissolved,,,aberdeen-1995-hp-softbench,
+ent-technology-solutions,Technology Solutions Company,systems-integrator,professional-services,unknown,,1990s-2000s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner; specialized in CIS implementations
+ent-vantive,Vantive Corporation,isv,crm-software,acquired,PeopleSoft,1992-1999,aberdeen-1995-hp-customer-interaction-software,CIS ISV partner listed in Figure 2; acquired by PeopleSoft 1999
 ent-voicetek,Voicetek Corporation,isv,ivr-software,acquired,Edify,1985-1999,aberdeen-1995-hp-customer-interaction-software,IVR software supplier listed in Figure 2
 ent-wang,Wang Laboratories,vendor,workflow-software,dissolved,Getronics,1951-1999,aberdeen-1995-hp-customer-interaction-software,Workflow software supplier listed in Figure 2; filed bankruptcy 1992; sold to Getronics 1999
-ent-amdocs,AMDOCS,isv,telecom-billing,active,,1982-present,aberdeen-1995-hp-customer-interaction-software,Vertical industry software supplier for Telecom listed in Figure 2; still active
-ent-ams,AMS (American Management Systems),isv,telecom-software,acquired,CGI Group,1970-2004,aberdeen-1995-hp-customer-interaction-software,Vertical telecom software listed in Figure 2; acquired by CGI Group 2004
-ent-continuum,Continuum Company,isv,financial-services-software,acquired,EDS,1977-1999,aberdeen-1995-hp-customer-interaction-software,Financial services industry software listed in Figure 2
-ent-csc-commercial,CSC Commercial Industry Services,isv,financial-services-software,merged,DXC Technology,1980s-2017,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software supplier listed in Figure 2
-ent-culverin,Culverin Associates,isv,financial-services-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services software listed in Figure 2
-ent-document-access,Document Access,isv,document-management,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services related software listed in Figure 2
-ent-hogan-systems,Hogan Systems,isv,banking-software,acquired,Sungard,1977-2000,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software listed in Figure 2; acquired by Sungard Data Systems
-ent-kenan,Kenan Technologies,isv,telecom-billing,acquired,Lucent Technologies,1982-1999,aberdeen-1995-hp-customer-interaction-software,Telecom vertical software listed in Figure 2; acquired by Lucent Technologies
-ent-nss,NSS Group,isv,financial-services-software,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Financial services vertical software listed in Figure 2
-ent-att,AT&T,vendor,telecommunications,active,,1885-present,aberdeen-1995-hp-customer-interaction-software,PBX telephony switch vendor; HP ACT supports AT&T switches
-ent-northern-telecom,Northern Telecom (Nortel),vendor,telecommunications,dissolved,,1895-2009,aberdeen-1995-hp-customer-interaction-software,PBX switch vendor; HP ACT supports Northern Telecom switches; Nortel filed bankruptcy 2009
-ent-alcatel,Alcatel,vendor,telecommunications,merged,Nokia,1898-2016,aberdeen-1995-hp-customer-interaction-software,Supported via Dialogic CT Connect; later acquired Genesys 2000; merged with Nokia 2016
-ent-ericsson,Ericsson,vendor,telecommunications,active,,1876-present,aberdeen-1995-hp-customer-interaction-software,Supported via Dialogic CT Connect for CCM interfacing
-ent-rolm,ROLM Corporation,vendor,pbx-systems,acquired,IBM / Siemens,1969-1989,aberdeen-1995-hp-customer-interaction-software,PBX vendor supported via Dialogic CT Connect; acquired by IBM then Siemens
-ent-hp,,,,split,,,aberdeen-1995-hp-softbench,
-ent-hp-inc,,,,active,,,aberdeen-1995-hp-softbench,
-ent-hpe,,,,active,,,aberdeen-1995-hp-softbench,
-ent-aberdeen,,,,acquired,,,aberdeen-1995-hp-softbench,
-ent-taligent,,,,dissolved,,,aberdeen-1995-hp-softbench,
-ent-micro-focus,,,,acquired,,,aberdeen-1995-hp-softbench,
-ent-opentext,,,,active,,,aberdeen-1995-hp-softbench,
-ent-osf,,,,merged,,,aberdeen-1995-hp-softbench,
-ent-open-group,,,,active,,,aberdeen-1995-hp-softbench,
-ent-omg,,,,active,,,aberdeen-1995-hp-softbench,
-ent-sun,,,,acquired,,,aberdeen-1995-hp-softbench,
-ent-oracle,,,,active,,,aberdeen-1995-hp-softbench,
-ent-ibm,,,,active,,,aberdeen-1995-hp-softbench,
-ent-informix,,,,acquired,,,aberdeen-1995-hp-softbench,
-ent-apple,,,,active,,,aberdeen-1995-hp-softbench,
-ibm,IBM Corporation,vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Mentioned as leading midrange computing supplier since mid-1970s
-ibm-as400-division,IBM AS/400 Division,product-division,,,,,aberdeen-1995-ibm-as400-sap-r3,Division located at 3605 Highway 52N Rochester MN 55901
-sap-ag,SAP AG,vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Founded 1972 by five former IBM employees; SAP AG became SAP SE in 2014
-sap-america,SAP America Inc.,subsidiary,,,,,aberdeen-1995-ibm-as400-sap-r3,US subsidiary at 701 Lee Road Wayne PA 19087
-issc,ISSC (IBM Integrated Systems Solutions Corporation),subsidiary,,,,,aberdeen-1995-ibm-as400-sap-r3,IBM's professional services arm cited for single-source SAP R/3 implementation support
-unisys,Unisys,vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Cited as competing midrange platform vendor
-digital-equipment,Digital Equipment Corporation (DEC),vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Cited as competing midrange platform vendor
-hewlett-packard,Hewlett-Packard,vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Cited as competing midrange platform vendor
-bull,Bull SA,vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,French IT vendor cited as competing midrange supplier; acquired by Atos 2014
-icl,ICL (International Computers Limited),vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,British IT vendor cited as competing midrange supplier
-siemens,Siemens (IT division),vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,Cited as competing midrange platform vendor; Siemens AG still active but IT hardware division separated
-aberdeen-group,Aberdeen Group Inc.,analyst-firm,,,,,aberdeen-1995-ibm-as400-sap-r3,Publisher of the study; headquartered at One Boston Place Boston MA 02108
-ibm,,,,active,,,aberdeen-1995-ibm-db2-common-server,
-oracle,,,,active,,,aberdeen-1995-ibm-db2-common-server,
-sybase,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
-informix,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
-computer-associates,,,,rebranded,,,aberdeen-1995-ibm-db2-common-server,
-transarc,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
-novell,,,,active,,,aberdeen-1995-ibm-db2-common-server,
-seer-technologies,,,,unknown,,,aberdeen-1995-ibm-db2-common-server,
-lotus,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
-powersoft,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
-aberdeen-group,,,,active,,,aberdeen-1995-ibm-db2-common-server,
-ent-001,,vendor,,acquired,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-002,,analyst-firm,,acquired,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-003,,vendor,,acquired,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-004,,vendor,,acquired,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-005,,vendor,,acquired,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-006,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-007,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-008,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-009,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-010,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-011,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ent-012,,vendor,,active,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-ENT001,Aberdeen Group,analyst-firm,,,,,,
-ENT002,Digital Equipment Corporation,hardware-vendor,,,,,,
-ENT003,Oracle Corporation,software-vendor,,,,,,
-ENT004,Sybase,software-vendor,,,,,,
-ENT005,Informix,software-vendor,,,,,,
-ENT006,Silicon Graphics Inc. (SGI),hardware-vendor,,,,,,
-ENT007,Sun Microsystems,hardware-vendor,,,,,,
-ENT008,IBM,hardware-vendor,,,,,,
-ENT009,Hewlett-Packard (HP),hardware-vendor,,,,,,
-ENT010,Tandem Computers,hardware-vendor,,,,,,
-ENT011,Software AG,software-vendor,,,,,,
-ENT012,CA-Ingres,software-vendor,,,,,,
-ENT013,Merrill Lynch,financial-services,,,,,,
-ENT014,Aberdeen Group (publisher),analyst-firm,,,,,,
-ENT-NOVELL,Novell Inc.,vendor,software,acquired,Attachmate (2011) → Micro Focus (2014) → OpenText (2023),1979-2011,aberdeen-1995-novell-predicament,Acquired by Attachmate for $2.2B in April 2011 after NT displacement. SUSE Linux business separated. Patents sold to Microsoft consortium for $450M.
-ENT-MSFT-NT,Microsoft Corporation (Windows NT),vendor,software,active,,1975-present,aberdeen-1995-novell-predicament,Windows NT Server identified as primary competitive threat to NetWare. NT ultimately won the enterprise server OS war.
-ENT-IBM-OS2,IBM (OS/2 Warp Server),vendor,software,active,,1911-present,aberdeen-1995-novell-predicament,OS/2 Warp Server mentioned as secondary competitive threat to NetWare; OS/2 ultimately lost to NT.
-ENT-LOTUS,Lotus Development Corporation (IBM),vendor,software,acquired,IBM (acquired 1995 for $3.5B),1982-1995,aberdeen-1995-novell-predicament,Lotus Notes referenced as primary competitor to Novell GroupWise in groupware market; IBM acquired Lotus in 1995.
-ENT-NETSCAPE,Netscape Communications,vendor,software,acquired,"AOL (1999), Mozilla Foundation",1994-2003,aberdeen-1995-novell-predicament,Netscape CollabraShare referenced as groupware competitor. Netscape acquired by AOL in 1999.
-ENT-ATTACHMATE,Attachmate Group,vendor,software,acquired,Micro Focus International (acquired 2014),1982-2014,aberdeen-1995-novell-predicament,Acquired Novell in 2011 for $2.2B; itself acquired by Micro Focus in 2014.
-ENT-CA,Computer Associates (CA),vendor,software,active,CA Technologies → Broadcom (acquired 2018),1976-2018,aberdeen-1995-novell-predicament,CA Unicenter referenced as competitor in network management. Acquired by Broadcom in 2018.
-ent-001,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-002,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-003,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-004,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-005,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-006,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-007,,,,,,,aberdeen-1995-oracle-interoffice,
-ent-008,,,,,,,aberdeen-1995-oracle-interoffice,
-ENT-PROGRESS,Progress Software Corporation,vendor,software,active,,1981-present,aberdeen-1995-progress-software-profile,Still active; rebranded developer tools as OpenEdge. Revenue $753M in 2024. Potential Thoma Bravo acquisition target as of 2026.
-ENT-MICROSOFT,Microsoft Corporation,vendor,software,active,,1975-present,aberdeen-1995-progress-software-profile,VBX component technology referenced; evolved to ActiveX/COM.
-ENT-ORACLE-DB,Oracle Corporation,vendor,database-software,active,,1977-present,aberdeen-1995-progress-software-profile,Referenced as a supported target database via DataServer architecture.
-ENT-SYBASE,Sybase Inc.,vendor,database-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1995-progress-software-profile,Referenced as supported database target; acquired by SAP in 2010 for $5.8B.
-ENT-INFMX,Informix Corporation,vendor,database-software,acquired,IBM (database assets acquired 2001),1980-2001,aberdeen-1995-progress-software-profile,Database assets acquired by IBM for $1B in 2001; remainder renamed Ascential Software.
-CRAY-RESEARCH,Cray Research Inc.,vendor,high-performance computing,acquired,Silicon Graphics (SGI) / Cray Inc.,1972-1996,aberdeen-1995-rdbms-cray-research-inc,"Acquired by SGI for $740M in February 1996; SGI sold the Superservers (CS6400) business to Sun in May 1996. Cray supercomputer division sold to Tera Computer Company in 2000, renamed Cray Inc."
-CRAY-BSD,Cray Research Business Systems Division,organizational-unit,high-performance computing,dissolved,Sun Microsystems (successor product line),1994-1996,aberdeen-1995-rdbms-cray-research-inc,Merged from Cray Solutions and Cray Research Superservers. Divested to Sun Microsystems with Superservers business in 1996.
-IBM-SP2,IBM SP2,vendor,high-performance computing,discontinued,IBM pSeries,1993-2001,aberdeen-1995-rdbms-cray-research-inc,Scalable Parallel 2 server line; competed directly against Cray CS6400 for VLDB workloads.
-ATT-GIS,AT&T Global Information Solutions (formerly NCR),vendor,computing,acquired,NCR Corporation,1991-1996,aberdeen-1995-rdbms-cray-research-inc,AT&T renamed its computing division; spun back out as NCR Corporation in 1996.
-NCUBE,nCUBE Corporation,vendor,massively parallel computing,acquired,nVIDIA / MediaBin (2003 renamed),1983-2003,aberdeen-1995-rdbms-cray-research-inc,MPP vendor competing in high-end database segment; eventually pivoted to video-on-demand infrastructure.
-SUN-MICROSYSTEMS,Sun Microsystems,vendor,computing / UNIX,acquired,Oracle Corporation,1982-2010,aberdeen-1995-rdbms-cray-research-inc,Key SPARC/Solaris architecture partner for Cray CS6400; acquired the CS6400 Superservers product line from SGI in 1996; acquired by Oracle in 2010.
-ORACLE,Oracle Corporation,vendor,RDBMS / enterprise software,active,,1977-present,aberdeen-1995-rdbms-cray-research-inc,RDBMS partner certified to run on Cray CS6400.
-INFORMIX,Informix Software,vendor,RDBMS,acquired,IBM,1980-2001,aberdeen-1995-rdbms-cray-research-inc,RDBMS partner for Cray CS6400; acquired by IBM in 2001.
-SYBASE,Sybase Inc.,vendor,RDBMS,acquired,SAP SE,1984-2010,aberdeen-1995-rdbms-cray-research-inc,RDBMS partner for Cray CS6400; acquired by SAP in 2010.
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1995-rdbms-cray-research-inc,Author of this study; Boston-based IT analyst firm.
-ENT-SUN,Sun Microsystems Computer Company (SMCC),vendor,hardware-software,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-sun-microsystems-computer-company,"Founded 1982; acquired by Oracle for $7.4B (net $5.6B) completed January 27, 2010. Created Java, NFS, Solaris, SPARC."
-ENT-ORACLE,Oracle Corporation,vendor,software,active,,1977-present,aberdeen-1995-sun-microsystems-computer-company,Acquired Sun Microsystems in 2010; now produces SPARC-based systems under Oracle brand.
-ENT-IBM,IBM Corporation,vendor,hardware-software,active,,1911-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market.
-ENT-HP,Hewlett-Packard (HP),vendor,hardware-software,active,Split into HP Inc and HPE in 2015,1939-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market; split into HP Inc and HPE in 2015.
-ENT-SAP,SAP AG,vendor,enterprise-software,active,,1972-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as major commercial application targeting Sun platforms.
-ENT-ORACLE-APP,Oracle Applications,product,enterprise-software,active,,1987-present,aberdeen-1995-sun-microsystems-computer-company,Oracle ERP application suite referenced as target workload for Sun commercial servers.
-ENT-INFORMIX,Informix Corporation,vendor,database-software,acquired,"IBM (database assets, 2001); Ascential Software (remainder)",1980-2001,aberdeen-1995-universal-servers-rdbms-technology-next-decade,IBM acquired Informix database assets for $1B in 2001; Informix products merged into IBM DB2 product line. Informix-IDS still sold as IBM Informix.
-ENT-ILLUSTRA,Illustra Information Technologies,vendor,database-software,acquired,Informix (acquired 1995),1992-1995,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Illustra OODBMS/object-relational DBMS with DataBlade technology; acquired by Informix in 1995 to create Universal Server.
-ENT-ORACLE-DB4,Oracle Corporation,vendor,database-software,active,,1977-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Oracle 7.3 assessed; Oracle eventually released Oracle8/8i with full object-relational features; now Oracle Database dominates enterprise RDBMS.
-ENT-IBM-DB2,IBM DB2,product,database-software,active,,1983-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,IBM DB2 Common Server assessed; DB2 absorbed Informix technology after 2001 acquisition; still active.
-ENT-CA-INGRES,Computer Associates (CA-Ingres + Jasmine),vendor,database-software,acquired,Actian Corporation (Ingres); CA Technologies→Broadcom,1976-2018,aberdeen-1995-universal-servers-rdbms-technology-next-decade,CA had dual strategy: CA-Ingres RDBMS + Jasmine OODBMS; Ingres later became independent as Actian.
-ENT-SYBASE-DB,Sybase Inc.,vendor,database-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Sybase System 11 assessed; Sybase acquired by SAP in 2010 for $5.8B; SAP ASE/IQ products continue.
-ENT-MSFT-SQL,Microsoft SQL Server,product,database-software,active,,1989-present,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Microsoft assessed as lagging in Universal Server; SQL Server evolved to become major RDBMS with extensive extensions.
-ENT-VERITY,Verity Inc.,vendor,search-software,acquired,Autonomy Corporation (acquired 2005),1988-2005,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Verity text search referenced as DataBlade partner; acquired by Autonomy in 2005.
-ENT-MAPINFO,MapInfo Corporation,vendor,gis-software,acquired,Pitney Bowes (acquired 2007),1986-2007,aberdeen-1995-universal-servers-rdbms-technology-next-decade,MapInfo spatial DataBlade partner; acquired by Pitney Bowes in 2007.
-ENT-ADM,"ADM (Advanced Development Methods, Inc.)",vendor,software-methodology,inactive,Scrum.org holds ADM trademark portfolio,1993-2005,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,ADM was co-founded by Ken Schwaber and Jeff Sutherland who co-created SCRUM; ADM trademarks now held by Scrum.org. Company is no longer independently active.
-ENT-MSFT-WIN95,Microsoft Corporation (Windows 95),vendor,software,active,,1975-present,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,"Windows 95 beta program (400,000 beta users) used as ISV example of iterative development with early user involvement."
-3COM,3Com Corporation,vendor,networking / computing,acquired,Hewlett Packard Enterprise / Aruba Networks,1979-2010,aberdeen-1996-3com-reconciling-clientserver-development-internet,Network infrastructure vendor; acquired by HP for $2.7B in April 2010; integrated into HPE Aruba Networks.
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-3com-reconciling-clientserver-development-internet,Author of study; Boston-based IT analyst firm. Author Tim Sloane is credited.
-TIM-SLOANE,Tim Sloane (analyst),person,IT research,unknown,,1990s,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen Group analyst credited as author of this impact report.
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-advanced-planning-engines-white-paper,Author of this study; Boston-based IT analyst firm.
-AMERICAN-SOFTWARE,American Software Inc.,vendor,supply chain / ERP software,active,,1970-present,aberdeen-1996-advanced-planning-engines-white-paper,"Atlanta, GA; publicly traded NASDAQ: AMSWA; 1995 revenues $79.5M (APET ~$20M); 300+ installed sites. Renamed Logility for supply chain products."
-FACT-INC,FACT Inc.,vendor,supply chain / manufacturing software,acquired,merged into larger ERP vendors,1986-2000s,aberdeen-1996-advanced-planning-engines-white-paper,"Norcross, GA; private; 1995 estimated revenues $10M; 180 installed sites. EnSync product family."
-I2-TECHNOLOGIES,i2 Technologies,vendor,supply chain planning,acquired,JDA Software (now Blue Yonder),1988-2010,aberdeen-1996-advanced-planning-engines-white-paper,"Dallas, TX; private at time of study; 1995 estimated revenues $27M; 300+ sites. IPO April 1996 at ~$700M valuation. Acquired by JDA Software for $604M in January 2010."
-MANUGISTICS,Manugistics Group,vendor,supply chain planning,acquired,JDA Software (now Blue Yonder),1969-2006,aberdeen-1996-advanced-planning-engines-white-paper,"Rockville, MD; NASDAQ: MANU; 1995 revenues ~$50M; 300+ sites. Acquired by JDA Software in July 2006."
-NUMETRIX,Numetrix Inc.,vendor,supply chain / production planning,acquired,unknown,1977-late 1990s,aberdeen-1996-advanced-planning-engines-white-paper,"Toronto, ON; private; 1995 estimated revenues $30M; 285 installed sites. Later absorbed into ERP vendor ecosystem."
-RED-PEPPER,Red Pepper Software Company,vendor,supply chain optimization,acquired,PeopleSoft (then Oracle),1993-1996,aberdeen-1996-advanced-planning-engines-white-paper,"San Mateo, CA; private; founded 1993; product shipments began 1995; 1995 revenues ~$5M; 50 sites. Acquired by PeopleSoft for $225M stock deal in September 1996."
-PEOPLESOFT,PeopleSoft Inc.,vendor,ERP / HCM software,acquired,Oracle Corporation,1987-2005,aberdeen-1996-advanced-planning-engines-white-paper,Mentioned as Red Pepper partnership; acquired Red Pepper for $225M in 1996; acquired by Oracle for $10.3B in 2005.
-SAP,SAP SE,vendor,ERP software,active,,1972-present,aberdeen-1996-advanced-planning-engines-white-paper,"Listed as partner of i2, Manugistics, Numetrix; major ERP competitor."
-ORACLE,Oracle Corporation,vendor,database / ERP,active,,1977-present,aberdeen-1996-advanced-planning-engines-white-paper,Listed as partner of i2 and Red Pepper for APET integration.
-JDA-SOFTWARE,JDA Software (Blue Yonder),vendor,supply chain planning,active,,1978-present,aberdeen-1996-advanced-planning-engines-white-paper,Acquired Manugistics in 2006 and i2 Technologies in 2010; renamed Blue Yonder in 2020. Now owned by Panasonic.
-DB-SOFTWARE,Dun & Bradstreet Software (D&B Software),vendor,enterprise software / ERP,acquired,Geac Computer Corporation,1990-1998,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Formed by merger of McCormack & Dodge and Management Science America in 1990. Divested by Dun & Bradstreet Corp and acquired by Geac Computer in 1998. Geac abandoned SmartStream manufacturing module in 1997.
-DUN-BRADSTREET-CORP,The Dun & Bradstreet Corporation,conglomerate,financial data / business information,active (restructured),,1841-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Parent company preparing to divest D&B Software at time of study. Dun & Bradstreet sold D&B Software; the parent D&B Corp continues as a data/analytics company.
-MCCORMACK-DODGE,McCormack & Dodge,vendor,mainframe business software,merged,D&B Software,1969-1990,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,One of top two application suppliers of 1970s/80s; merged with Management Science America to form D&B Software in 1990.
-MSA,Management Science America (MSA),vendor,mainframe business software,merged,D&B Software,1963-1990,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,One of top two application suppliers of 1970s/80s; merged with McCormack & Dodge to form D&B Software in 1990.
-GEAC,Geac Computer Corporation,vendor,enterprise software,acquired,Infor,1971-2004,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Canadian ERP vendor; acquired D&B Software in 1998; abandoned SmartStream manufacturing module; Geac acquired by Golden Gate Capital / Infor in 2004.
-ORACLE-APPS,Oracle Applications,vendor,ERP software,active,,1987-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor to SmartStream DE.
-PEOPLESOFT,PeopleSoft Inc.,vendor,ERP / HCM software,acquired,Oracle Corporation,1987-2005,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor; acquired by Oracle for $10.3B in 2005.
-SAP,SAP SE,vendor,ERP software,active,,1972-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor; note workflow capabilities described as still under development in 1996.
-SSA,Systems Software Associates (SSA),vendor,ERP software,acquired,SSA GT / Infor,1981-2003,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Named as primary competitor; acquired by Infor in 2003.
-SYBASE,Sybase Inc.,vendor,RDBMS,acquired,SAP SE,1984-2010,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Primary RDBMS vendor for SmartStream DE; Replication Server used for distributed data sync. Acquired by SAP in 2010.
-MICROSOFT-SQL,Microsoft Corporation (SQL Server),vendor,RDBMS / software,active,,1975-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Co-primary RDBMS for SmartStream DE alongside Sybase (MS SQL Server is based on Sybase code).
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Author of this study; Boston-based IT analyst firm.
-DOUG-MACINTYRE,Doug MacIntyre (CEO),person,enterprise software,unknown,,1990s,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,CEO of D&B Software at time of study; reported SmartStream revenues >$100M for fiscal year ending November 30.
-IBM,IBM Corporation,vendor,computing / enterprise IT,active,,1911-present,aberdeen-1996-as400-year-2000-ibm-leading-users,Author's primary subject; AS/400 division praised for Y2K leadership.
-IBM-AS400-DIV,IBM AS/400 Division,organizational-unit,computing,active (renamed),IBM Power Systems Division,1988-2000s,aberdeen-1996-as400-year-2000-ibm-leading-users,"Division responsible for AS/400 platform and OS/400; renamed with product rebrandings to iSeries (2000), System i (2006), IBM Power Systems (2008)."
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-as400-year-2000-ibm-leading-users,Author of this study; Boston-based IT analyst firm.
-FASB,Financial Accounting Standards Board,standards-body,accounting / finance,active,,1973-present,aberdeen-1996-as400-year-2000-ibm-leading-users,"Study notes FASB required Y2K remediation costs to be expensed rather than capitalized, increasing bottom-line impact."
-hewlett-packard,Hewlett-Packard Company,company,computer-hardware,split,HP Inc. + Hewlett Packard Enterprise (split 2015),1939-2015,aberdeen-1996-risc-unix-market,Market leader; HP 9000 RISC/Unix line; $7.0B revenue in 1995; 49% market share; Forbes Performer of the Year 1995
-ibm,International Business Machines Corporation,company,computer-hardware,active,,1911-present,aberdeen-1996-risc-unix-market,RS/6000 and RS/6000 SP (MPP); ISSC professional services division; $2.75B revenue 1995 (text erroneously states 'million'); 19% market share
-sun-microsystems,"Sun Microsystems, Inc.",company,computer-hardware,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1996-risc-unix-market,$1.3B revenue 1995; 9% market share; 35% growth; Solaris OS; UltraSPARC transition in 1996
-digital-equipment-corporation,Digital Equipment Corporation,company,computer-hardware,acquired,"Compaq (1998), then HP (2002)",1957-1998,aberdeen-1996-risc-unix-market,"$475M revenue 1995; 73% growth (highest in market); 3% market share; Alpha 64-bit processor; TPC-C world record 11,000+ tpmC with Oracle"
-sni-pyramid,SNI/Pyramid (Siemens Nixdorf Information Systems / Pyramid Technology),company,computer-hardware,merged,Fujitsu Siemens Computers (later Fujitsu),1981-1999,aberdeen-1996-risc-unix-market,SNI acquired Pyramid in 1995; $825M revenue 1995; 10% growth; European SAP R/3 systems integrator; sixth place in market
-siemens-nixdorf,Siemens Nixdorf Information Systems (SNI),company,computer-hardware,merged,Fujitsu Siemens Computers (later Fujitsu),1990-1999,aberdeen-1996-risc-unix-market,Parent company of SNI/Pyramid; European market leader in systems integration
-pyramid-technology,Pyramid Technology Corporation,company,computer-hardware,acquired,Acquired by SNI 1995; subsequently dissolved,1981-1995,aberdeen-1996-risc-unix-market,US RISC/Unix technology partner of SNI; acquired in 1995
-data-general,Data General Corporation,company,computer-hardware,acquired,"EMC Corporation (1999), then Dell EMC (2016)",1968-1999,aberdeen-1996-risc-unix-market,$620M revenue 1995; 11% growth; fifth place; Aviion RISC/Unix line; Clariion storage; transitioning from Motorola 88000 to Intel
-icl-fujitsu,ICL/Fujitsu,company,computer-hardware,acquired,Fujitsu Limited,1968-2002,aberdeen-1996-risc-unix-market,$340M revenue 1995 (flat); SPARC-based Teamserver and Superserver SMP; MPP Goldrush for data warehousing; also participating in Intel/Unix market
-bull,Groupe Bull,company,computer-hardware,acquired,Atos (acquired 2014),1931-2014,aberdeen-1996-risc-unix-market,$300M revenue 1995; Escala line using PowerPC and IBM AIX; competed on price against IBM RS/6000
-tandem-computers,"Tandem Computers, Inc.",company,computer-hardware,acquired,"Compaq (1997), then HP (2002)",1974-1997,aberdeen-1996-risc-unix-market,$250M revenue 1995; 32% growth; ServerNet communications technology; growth limited by delivery delays
-stratus-technologies,Stratus Technologies,company,computer-hardware,active,,1980-present,aberdeen-1996-risc-unix-market,Under $200M in commercial RISC/Unix revenues 1995; fault-tolerant systems niche
-motorola,"Motorola, Inc.",company,semiconductors,split,Motorola Solutions + Motorola Mobility (split 2011),1928-2011,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; 88000 processor used in Data General Aviion; transitioning DG to Intel
-concurrent-computer,Concurrent Computer Corporation,company,computer-hardware,active,,1966-present,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; real-time Unix niche supplier
-cray-research,"Cray Research, Inc.",company,computer-hardware,acquired,"Silicon Graphics (1996), then HPE (2019)",1972-1999,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; very high-end MPP systems niche; less than 2% market share
-amdahl-corporation,Amdahl Corporation,company,computer-hardware,acquired,Fujitsu Limited (1997),1970-1997,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; primarily mainframe supplier diversifying into RISC/Unix
-harris-corporation,Harris Corporation,company,computer-hardware,merged,L3Harris Technologies (merger with L3 Technologies 2019),1895-2019,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; niche RISC/Unix supplier
-silicon-graphics,"Silicon Graphics, Inc. (SGI)",company,computer-hardware,acquired,Acquired by HPE (2016) after two bankruptcies,1982-2016,aberdeen-1996-risc-unix-market,Under $200M commercial RISC/Unix revenues 1995; visualization/large-data niche; less than 2% market share
-att-gis-ncr,AT&T GIS (NCR Corporation),company,computer-hardware,active,Reverted to NCR; now NCR Voyix + NCR Atleos (split 2023),1884-present,aberdeen-1996-risc-unix-market,Leading Intel/Unix supplier; ~$1B revenue 1995 (down from $1.1B 1994); financial losses contributed to AT&T proposed breakup into three companies
-unisys,Unisys Corporation,company,computer-hardware,active,,1986-present,aberdeen-1996-risc-unix-market,$620M Intel/Unix revenue 1995 (down from $840M 1994); reported $745M loss; restructuring into three independent operating divisions
-sequent-computer,"Sequent Computer Systems, Inc.",company,computer-hardware,acquired,IBM (acquired 1999),1983-1999,aberdeen-1996-risc-unix-market,$540M Intel/Unix revenue 1995; 20% growth; focused on high-end data warehousing SMP systems
-compaq,Compaq Computer Corporation,company,computer-hardware,acquired,Hewlett-Packard (acquired 2002),1982-2002,aberdeen-1996-risc-unix-market,Participated in Intel/Unix market; not a significant revenue contributor in this segment per Aberdeen
-oracle-corporation,Oracle Corporation,company,enterprise-software,active,,1977-present,aberdeen-1996-risc-unix-market,"Leading RDBMS supplier; partnered with Digital for TPC-C world record (11,000+ tpmC); large-scale in-memory technology"
-informix,Informix Corporation,company,enterprise-software,acquired,IBM (acquired 2001),1980-2001,aberdeen-1996-risc-unix-market,One of three leading RDBMS suppliers driving RISC/Unix adoption in 1995
-sybase,"Sybase, Inc.",company,enterprise-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1996-risc-unix-market,One of three leading RDBMS suppliers; key driver of RISC/Unix commercial adoption
-sap,SAP SE,company,enterprise-software,active,,1972-present,aberdeen-1996-risc-unix-market,Leading ERP/integrated business process application vendor; SAP R/3 ran primarily on RISC/Unix platforms
-baan,Baan Company N.V.,company,enterprise-software,acquired,"Invensys (2000), then Infor",1978-2000,aberdeen-1996-risc-unix-market,ERP application vendor; implementations predominantly on RISC/Unix
-peoplesoft,"PeopleSoft, Inc.",company,enterprise-software,acquired,Oracle Corporation (acquired 2005),1987-2005,aberdeen-1996-risc-unix-market,ERP/HR application vendor; successful implementations predominantly on RISC/Unix
-lawson-software,"Lawson Software, Inc.",company,enterprise-software,acquired,Infor (acquired 2011),1975-2011,aberdeen-1996-risc-unix-market,ERP application vendor targeting healthcare and retail; RISC/Unix platform
-microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-risc-unix-market,NT Server / BackOffice; Windows 95; NT 4.0 expected April 1996; seen as complement not replacement for RISC/Unix
-novell,"Novell, Inc.",company,software,acquired,"Attachmate (2011), then Micro Focus (2014), now OpenText",1983-2011,aberdeen-1996-risc-unix-market,NetWare workgroup OS; RISC/Unix suppliers instructed to provide NetWare interoperability
+ent-weston-taylor,Weston Taylor Wells,systems-integrator,professional-services,unknown,,1990s,aberdeen-1995-hp-customer-interaction-software,Smart ContAct systems integrator partner listed in Figure 2
+federal-express,Federal Express,company,logistics,active,FedEx Corp (rebranded 2000),1971-present,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Named Blyth customer; also used in Web Enabler package-tracking demo
 forbes-magazine,Forbes Magazine,institution,media,active,,1917-present,aberdeen-1996-risc-unix-market,Named HP 'Performer of the Year' over all U.S. companies for 1995
-aberdeen-group,"Aberdeen Group, Inc.",firm,market-research,acquired,"Harte-Hanks (2001), then Aberdeen Strategy & Research (independent 2019)",1988-present,aberdeen-1996-risc-unix-market,"Publisher; One Boston Place, Boston MA 02108; this is the firm's sixth annual RISC/Unix survey"
-sequoia-systems,"Sequoia Systems, Inc.",company,computer-hardware,acquired,Tandem Computers (acquired 1994),1984-1994,aberdeen-1996-risc-unix-market,Minor Intel/Unix market participant; mentioned alongside Compaq in Intel/Unix segment
+forte-software,Forte Software,company,enterprise-software,acquired,"Sun Microsystems (1999), then Oracle (2010)",1991-1999,aberdeen-1995-commercial-messaging,"Leading second-generation CADE with integrated Commercial Messaging, repository/directory, and application partitioning"
+groupe-bull,Groupe Bull,company,IT-systems,acquired,Acquired by Atos SE in October 2014 for €620M (~$844M),1931-2014,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,"French IT company; Bull Enterprise Information Systems division created Sagister; 1995 revenue FF 26,656M, first profit since 1988"
+harris-corporation,Harris Corporation,company,computer-hardware,merged,L3Harris Technologies (merger with L3 Technologies 2019),1895-2019,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; niche RISC/Unix supplier
+hewlett-packard,Hewlett-Packard,company,enterprise-software-hardware,active,HP Inc. (consumer 2015) and Hewlett Packard Enterprise (enterprise 2015),1939-present,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-clarify-inc; aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward; aberdeen-1996-risc-unix-market,Offers OpenMail; focused primarily on e-mail market; indicated transaction support within next 2 years of study
+hp,Hewlett-Packard Company,company,technology,active,HP Inc. / HPE (split 2015),1939-present,aberdeen-1995-3com-lanplex-2500,Supported as enterprise management platform via Transcend Enterprise Manager.
+ibm,IBM,company,technology,active,,1911-present,aberdeen-1995-3com-lanplex-2500; aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia; aberdeen-1995-ibm-as400-sap-r3; aberdeen-1995-ibm-db2-common-server; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-risc-unix-market,Supported as enterprise management platform via Transcend Enterprise Manager.
+ibm-as400-division,IBM AS/400 Division,product-division,,,,,aberdeen-1995-ibm-as400-sap-r3,Division located at 3605 Highway 52N Rochester MN 55901
 ibm-issc,IBM ISSC (Integrated Systems Solutions Corporation),company,it-services,merged,IBM Global Services,1991-1996,aberdeen-1996-risc-unix-market,IBM professional services division; key driver of RS/6000 commercial deployments; bundled RS/6000 with consulting engagements at heavy discounts
-at-and-t,AT&T Corporation,company,telecommunications,merged,"SBC Communications (2005), then AT&T Inc.",1885-2005,aberdeen-1996-risc-unix-market,Parent of AT&T GIS; AT&T proposed breakup into three companies partly triggered by GIS losses in 1995
+icl,ICL (International Computers Limited),vendor,,,,,aberdeen-1995-ibm-as400-sap-r3,British IT vendor cited as competing midrange supplier
+icl-fujitsu,ICL/Fujitsu,company,IT-systems,acquired,Fujitsu Technology Solutions,1968-2002,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-risc-unix-market,Named UNIX marketplace competitor
+informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server; aberdeen-1996-risc-unix-market,"Cited as RDBMS in multiplatform environments alongside Oracle, DB2, and Sybase"
+ingram-micro,Ingram Micro,company,IT-distribution,active,Acquired by Tianjin Tianhai/HNA 2016,1979-present,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Named premier CiscoPro distribution partner
+intel-corporation,Intel Corporation,company,semiconductor,active,,1968-present,aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,Pentium/Pentium Pro/Klamath/Deschutes microprocessors; 90%+ of server volume at 4-way or less
+issc,ISSC (IBM Integrated Systems Solutions Corporation),subsidiary,,,,,aberdeen-1995-ibm-as400-sap-r3,IBM's professional services arm cited for single-source SAP R/3 implementation support
+kpmg,KPMG Peat Marwick,firm,consulting,active,KPMG,1911-present,aberdeen-1996-clarify-inc,Named Clarify systems integrator partner
+lawson-software,"Lawson Software, Inc.",company,enterprise-software,acquired,Infor (acquired 2011),1975-2011,aberdeen-1996-risc-unix-market,ERP application vendor targeting healthcare and retail; RISC/Unix platform
+lockheed-martin,Lockheed Martin,company,defense-aerospace,active,,1995-present,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Named Blyth customer
+lotus,Lotus Development Corporation,company,enterprise-software,acquired,"IBM (1995), then HCL Technologies (2019)",1982-1995,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Lotus Notes cited as billion-dollar groupware market leader using store-and-forward; acquired by IBM in 1995 for $3.5B
+madge-networks,Madge Networks,company,networking,dissolved,Ringdale (via Network Technology UK),1986-2006,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,NeVaDa backbone LAN switching partner; filed bankruptcy Apr 2003; business sold to Network Technology/Ringdale 2006
+mci,MCI Communications,company,telecommunications,acquired,WorldCom (1998) -> MCI (2003) -> Verizon (2006),1963-2006,aberdeen-1996-clarify-inc,Named Clarify customer; also CommCenter customer for telecom vertical
+metropolis-software,Metropolis Software,company,sales-force-automation,acquired,Acquired by Clarify in early 1996,1990s,aberdeen-1996-clarify-inc,"SFA and mobile computing; provided ClearSales, mobile data sync; integrated into Clarify product line"
+mfs-communications,"MFS Communications Company, Inc.",company,telecommunications,acquired,WorldCom / MCI / Verizon Business,1988-1996,aberdeen-1996-vpns-business-mfs-success-strategy,NASDAQ: MFST; acquired by WorldCom for ~$14B in Aug 1996 stock deal; WorldCom went bankrupt 2002; assets to MCI/Verizon
+mfs-data-services,MFS Data Services (formerly MFS Datanet),company,data-networking,acquired,WorldCom / Verizon Business,1990-1996,aberdeen-1996-vpns-business-mfs-success-strategy,First national ATM service US 1993; first international ATM 1994; first FR over ATM 1994; based San Jose CA
+mfs-intelenet,"MFS Intelenet, Inc.",company,telecommunications,acquired,WorldCom / Verizon Business,1992-1996,aberdeen-1996-vpns-business-mfs-success-strategy,"Largest/fastest-growing MFS unit; acquired RealCom and Centrex Telemanagement 1994; 20,000 business customers; Jersey City NJ"
+mfs-international,"MFS International, Inc.",company,telecommunications,acquired,WorldCom / Verizon Business,1993-1996,aberdeen-1996-vpns-business-mfs-success-strategy,"Launched first international ATM service May 1994 London-US; licenses Germany, France, Sweden, UK, Switzerland, Hong Kong; Vienna VA"
+mfs-network-technologies,MFS Network Technologies,company,network-engineering,acquired,WorldCom / Verizon Business,1988-1996,aberdeen-1996-vpns-business-mfs-success-strategy,"Network systems integrator; 125,000 miles of fiber optic cable installed; BART San Francisco network cited; Omaha NE"
+mfs-telecom,MFS Telecom (CAP),company,telecommunications,acquired,WorldCom / Verizon Business,1988-1996,aberdeen-1996-vpns-business-mfs-success-strategy,Competitive Access Provider; SONET fiber linking 4400+ buildings in 45+ US cities; part of MFS Communications
+microcom,Microcom,company,networking,acquired,Acquired by Compaq 1997,1981-1997,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Modem vendor supported in AS5200 open architecture
+microsoft,Microsoft,company,enterprise-software,active,,1975-present,aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia; aberdeen-1996-blyths-ren-architecture-prescription-it-success; aberdeen-1996-ciscos-access-business-unit-crystallizes-vision; aberdeen-1996-clarify-inc; aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward; aberdeen-1996-risc-unix-market,Cited as major distributed-object player that will not provide Commercial Messaging in near future; Visual Basic dominant Fortune-1000 departmental tool
+mitel-corporation,Mitel Corporation,company,telecommunications,active,,1972-present,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,"Split into Zarlink/Mitel Networks/BreconRidge ~2001; restructured multiple times; filed Ch.11 March 2025, exited June 2025"
+motorola,"Motorola, Inc.",company,semiconductors,split,Motorola Solutions + Motorola Mobility (split 2011),1928-2011,aberdeen-1996-risc-unix-market,Under $200M RISC/Unix revenues 1995; 88000 processor used in Data General Aviion; transitioning DG to Intel
+ncr-corp,NCR Corporation (formerly AT&T GIS),company,IT-systems,active,,1884-present,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Named UNIX marketplace competitor
+ncr-corporation,NCR Corporation,company,enterprise-computing,active,,1884-present,aberdeen-1996-debunking-ntsmp-scalability-myth,Demonstrated NT can scale to 16 processors; 4-way NT 4.0 at 90% scaling efficiency
+netscape,Netscape Communications Corporation,company,internet-software,acquired,AOL (1999); browser discontinued 2008,1994-1999,aberdeen-1995-digital-multia,Provided Netscape Navigator bundled as the Multia web browser; acquired by AOL 1999
+nortel-networks,Nortel Networks,company,telecommunications,dissolved,bankrupt 2009; assets sold to various buyers,1895-2009,aberdeen-1996-clarify-inc,Acquired Clarify for $2.1B in 1999; then sold to Amdocs for $200M in 2001
+northern-telecom,Northern Telecom,company,telecommunications,acquired,Nortel Networks (1995) -> bankrupt 2009,1895-2009,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Named Blyth customer
+novell,"Novell, Inc.",company,network-software,acquired,Micro Focus (2014) -> OpenText (2023),1983-2014,aberdeen-1995-digital-multia; aberdeen-1995-ibm-db2-common-server; aberdeen-1996-risc-unix-market,Supplier of IPX/SPX network protocol supported in Multia communications stack
+open-market-inc,"Open Market, Inc.",company,electronic-commerce,dissolved,Soverain Software / FatWire Software,1994-2001,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,e-commerce platform partner; acquired FutureTense 1999; ecommerce assets to Soverain Software ~2001
+oracle,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Cited as RDBMS in multiplatform environments; Oracle database server mentioned for Commercial Messaging interoperability
+oracle-corp,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-blyths-ren-architecture-prescription-it-success; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Referenced as Web Vault integration target (Oracle database)
+oracle-corporation,Oracle Corporation,company,enterprise-software,active,,1977-present,aberdeen-1996-data-general-corporation; aberdeen-1996-data-generals-cybershield-security-solutions-advancing; aberdeen-1996-risc-unix-market,Oracle RDBMS and applications; acquired PeopleSoft in 2005
+peoplesoft,"PeopleSoft, Inc.",company,enterprise-software,acquired,Oracle Corporation,1987-2005,aberdeen-1996-data-general-corporation; aberdeen-1996-risc-unix-market,Acquired by Oracle for $10.3B in January 2005; brand integrated into Oracle HCM
+powersoft,Powersoft Corporation,company,enterprise-software,acquired,"Sybase (1995), then SAP (2010)",1974-1995,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,PowerBuilder cited as dominant low-end CADE; MQSeries integrates with PowerBuilder
+pyramid-technology,Pyramid Technology Corporation,company,computer-hardware,acquired,Acquired by SNI 1995; subsequently dissolved,1981-1995,aberdeen-1996-risc-unix-market,US RISC/Unix technology partner of SNI; acquired in 1995
+racal-data-group,Racal Data Group,company,networking,acquired,Various (Racal Electronics acquired by Thomson-CSF 2000),1980-2000,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Encryption hardware for Cybershield dial-up and WAN links; parent Racal Electronics acquired by Thomson-CSF
+sap,SAP SE,company,enterprise-software,active,,1972-present,aberdeen-1996-risc-unix-market,Leading ERP/integrated business process application vendor; SAP R/3 ran primarily on RISC/Unix platforms
+sap-ag,SAP AG,vendor,ERP-software,active,SAP SE (rebranded 2014),1972-present,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-baan-changes-rules-erp-game; aberdeen-1996-clarify-inc; aberdeen-1996-data-general-corporation,Founded 1972 by five former IBM employees; SAP AG became SAP SE in 2014
+sap-america,SAP America Inc.,subsidiary,,,,,aberdeen-1995-ibm-as400-sap-r3,US subsidiary at 701 Lee Road Wayne PA 19087
+security-dynamics,Security Dynamics Technologies,company,cybersecurity,acquired,RSA Security,1984-1999,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,SecurID authentication provider; merged with RSA Data Security to form RSA Security in 1999
+seer-technologies,Seer Technologies,company,enterprise-software,acquired,"Merisel (acquired), subsequently dissolved",1980s-late 1990s,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Maker of Seer*HPS second-generation CADE with publish-and-subscribe messaging
+sequent-computer,Sequent Computer Systems,company,enterprise-computing,acquired,IBM,1983-1999,aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-risc-unix-market,Scaled NT to 28 processors; sold 14-processor NT systems; acquired by IBM in 1999
+sequoia-systems,"Sequoia Systems, Inc.",company,computer-hardware,acquired,Tandem Computers (acquired 1994),1984-1994,aberdeen-1996-risc-unix-market,Minor Intel/Unix market participant; mentioned alongside Compaq in Intel/Unix segment
+shiva-corp,Shiva Corporation,company,networking,dissolved,,1985-1999,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Named SOHO/professional office competitor; filed Chapter 11 in 1999
+siemens,Siemens (IT division),vendor,IT-systems,active,,1847-present,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Cited as competing midrange platform vendor; Siemens AG still active but IT hardware division separated
+siemens-nixdorf,Siemens Nixdorf Information Systems (SNI),company,computer-hardware,merged,Fujitsu Siemens Computers (later Fujitsu),1990-1999,aberdeen-1996-risc-unix-market,Parent company of SNI/Pyramid; European market leader in systems integration
+silicon-graphics,"Silicon Graphics, Inc. (SGI)",company,computer-hardware,acquired,Acquired by HPE (2016) after two bankruptcies,1982-2016,aberdeen-1996-risc-unix-market,Under $200M commercial RISC/Unix revenues 1995; visualization/large-data niche; less than 2% market share
+sni-pyramid,SNI/Pyramid (Siemens Nixdorf Information Systems / Pyramid Technology),company,computer-hardware,merged,Fujitsu Siemens Computers (later Fujitsu),1981-1999,aberdeen-1996-risc-unix-market,SNI acquired Pyramid in 1995; $825M revenue 1995; 10% growth; European SAP R/3 systems integrator; sixth place in market
+software-ag,Software AG,company,enterprise-software,active,,1969-present,aberdeen-1995-commercial-messaging,ADABAS cited as having store-and-forward architecture but not yet providing full Commercial Messaging developer APIs
+sprint,Sprint Corporation,company,telecommunications,acquired,T-Mobile (2020),1899-2020,aberdeen-1996-clarify-inc,Named Clarify linchpin customer; also Sprint Spectrum listed
+stratus-technologies,Stratus Technologies,company,computer-hardware,active,,1980-present,aberdeen-1996-risc-unix-market,Under $200M in commercial RISC/Unix revenues 1995; fault-tolerant systems niche
+sun-microsystems,Sun Microsystems,company,technology,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-3com-lanplex-2500; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-risc-unix-market,Supported as enterprise management platform via Transcend Enterprise Manager.
+sybase,Sybase,company,database-software,acquired,SAP (2010),1984-2010,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server; aberdeen-1996-risc-unix-market,Cited as RDBMS in multiplatform environments; became parent of Powersoft post-1995 acquisition
+synernetics,"Synernetics, Inc.",company,networking-hardware,acquired,3Com Corporation (acquired 1993),1990-1993,aberdeen-1995-3com-lanplex-2500,Fast-moving LAN switching startup; expertise in high-performance FDDI backbone switching. Formed core of 3Com Switching Division.
+tandem-computers,Tandem Computers,company,enterprise-computing,acquired,Compaq / HP,1974-1997,aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-risc-unix-market,NT availability clustering pioneer; acquired by Compaq in 1997
+tech-data,Tech Data Corporation,company,IT-distribution,active,,1974-present,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Named premier CiscoPro distribution partner
+tpc-council,Transaction Processing Performance Council (TPC),institution,benchmarking,active,,1988-present,aberdeen-1996-debunking-ntsmp-scalability-myth,Independent benchmark organization; TPC-C tpmC used as primary performance metric
+transarc,,,,acquired,,,aberdeen-1995-ibm-db2-common-server,
+unisys,Unisys,vendor,computer-hardware,active,,1986-present,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-risc-unix-market,Cited as competing midrange platform vendor
+us-robotics,U.S. Robotics,company,networking,acquired,Acquired by 3Com 1997,1976-1997,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Partner in developing AS5100; modem vendor in AS5200
+uunet-technologies,"UUNET Technologies, Inc.",company,internet-services,acquired,WorldCom / MCI / Verizon Business,1987-1996,aberdeen-1996-vpns-business-mfs-success-strategy,Internet backbone provider; acquired by MFS for $2B shortly before MFS-WorldCom deal; key to WorldCom's internet strategy
+wall-data,Wall Data Incorporated,company,terminal-emulation-software,acquired,NetManage (2003); dissolved,1982-2003,aberdeen-1995-digital-multia,"Maker of Rumba terminal emulator, bundled with Multia as an Information Access product"
+worldcom,"WorldCom, Inc.",company,telecommunications,dissolved,MCI (renamed post-bankruptcy) / Verizon Business,1983-2002,aberdeen-1996-vpns-business-mfs-success-strategy,"Acquired MFS for ~$14B Aug 1996; filed largest US bankruptcy (then) July 2002 ($107B assets); emerged as MCI, acquired by Verizon 2006"

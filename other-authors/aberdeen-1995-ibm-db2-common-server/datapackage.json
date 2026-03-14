@@ -1,0 +1,172 @@
+{
+  "name": "aberdeen-1995-ibm-db2-common-server",
+  "id": "aberdeen-1995-ibm-db2-common-server",
+  "title": "DB2 Common Server Relational Database Management System",
+  "description": "Aberdeen Group profile evaluating IBM's DB2 Common Server, a distributed relational database management system designed to provide a common SQL interface across multiple platforms. Examines competitive positioning against Oracle, Sybase, and Informix.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group - DB2 Common Server Profile (Wayback Machine)",
+      "path": "https://web.archive.org/web/19970112012303/http://www.aberdeen.com:80/secure/profiles/ibm_db2/ibm_db2.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "RDBMS",
+    "DB2",
+    "IBM",
+    "relational-database",
+    "distributed-database",
+    "OLTP",
+    "data-warehousing",
+    "DRDA",
+    "replication",
+    "1995",
+    "product-profile"
+  ],
+  "created": "1995-11-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Metadata for each Aberdeen Group research study in this archive.",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique identifier for the study (slug format)", "constraints": {"required": true, "unique": true}},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Authoring organization"},
+          {"name": "date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
+          {"name": "type", "type": "string", "description": "Study type (e.g., product-profile, market-study)"},
+          {"name": "domain", "type": "string", "description": "Market domain covered"},
+          {"name": "methodology", "type": "string", "description": "Research methodology (comma-separated)"},
+          {"name": "abstract", "type": "string", "description": "Summary of the study"},
+          {"name": "source_url", "type": "string", "description": "Archived source URL"},
+          {"name": "page_count", "type": "integer", "description": "Number of pages in the original document"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Companies and organizations mentioned in the study, with current status information.",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique identifier for the entity (slug format)", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key referencing studies.study_id"},
+          {"name": "name", "type": "string", "description": "Full name of the entity"},
+          {"name": "type", "type": "string", "description": "Entity type (company, person, etc.)"},
+          {"name": "role", "type": "string", "description": "Role in study context (subject, competitor, ecosystem, author)"},
+          {"name": "status", "type": "string", "description": "Current status (active, acquired, rebranded, unknown)"},
+          {"name": "status_note", "type": "string", "description": "Detail on current status"},
+          {"name": "hq_country", "type": "string", "description": "Headquarters country code (ISO 3166-1 alpha-2)"},
+          {"name": "founded_year", "type": "integer", "description": "Year founded"},
+          {"name": "parent_entity", "type": "string", "description": "Current parent entity name if acquired/subsidiary"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies, products, protocols, and standards referenced in the study, with lifecycle status.",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique identifier for the technology (slug format)", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key referencing studies.study_id"},
+          {"name": "name", "type": "string", "description": "Full name of the technology"},
+          {"name": "category", "type": "string", "description": "Technology category (RDBMS, protocol, API, etc.)"},
+          {"name": "role", "type": "string", "description": "Role in study (subject, enabling, related, ecosystem, standard)"},
+          {"name": "lifecycle_status", "type": "string", "description": "Current lifecycle status (active, legacy, obsolete)"},
+          {"name": "lifecycle_note", "type": "string", "description": "Detail on current lifecycle status"},
+          {"name": "introduced_approx", "type": "string", "description": "Approximate year of introduction"},
+          {"name": "standard_body", "type": "string", "description": "Standards body or originating vendor"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "All factual claims, assessments, market data, benchmarks, predictions, and recommendations extracted from the study.",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key referencing studies.study_id"},
+          {"name": "section", "type": "string", "description": "Section of the study where this observation appears"},
+          {"name": "obs_type", "type": "string", "description": "Type of observation (see codes.csv for values)"},
+          {"name": "subject", "type": "string", "description": "Primary subject of the observation"},
+          {"name": "predicate", "type": "string", "description": "Relationship or attribute being described"},
+          {"name": "object_value", "type": "string", "description": "Value or description of the predicate"},
+          {"name": "numeric_value", "type": "number", "description": "Numeric value if quantitative"},
+          {"name": "unit", "type": "string", "description": "Unit of the numeric value"},
+          {"name": "sentiment", "type": "string", "description": "Evaluative sentiment (positive, negative, neutral)"},
+          {"name": "confidence", "type": "string", "description": "Confidence in extraction accuracy (high, medium, low)"},
+          {"name": "page_ref", "type": "integer", "description": "Page number in source document"},
+          {"name": "verbatim_quote", "type": "string", "description": "Direct quote or near-verbatim excerpt supporting the observation"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Code Lists",
+      "description": "Controlled vocabulary and code definitions used across all data tables.",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier (slug format)", "constraints": {"required": true, "unique": true}},
+          {"name": "code_type", "type": "string", "description": "Category of code (study_type, domain, methodology, obs_type, sentiment, confidence, entity_type, entity_role, entity_status, tech_lifecycle)"},
+          {"name": "code_value", "type": "string", "description": "The code value used in data tables"},
+          {"name": "label", "type": "string", "description": "Human-readable short label"},
+          {"name": "description", "type": "string", "description": "Full description of the code"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

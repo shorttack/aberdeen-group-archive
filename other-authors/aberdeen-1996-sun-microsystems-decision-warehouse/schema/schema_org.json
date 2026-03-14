@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sun Microsystems Decision Warehouse",
+  "description": "This Aberdeen Group profile evaluates Sun Microsystems Computer Corporation's (SMCC) Decision Warehouse program, examining its UltraSPARC server architecture, SPARCstorage arrays, Solaris 2.5 SMP optimization, Database Engineering group, and partnerships with Oracle, Sybase, Informix, and other RDBMS vendors. Aberdeen concludes that SMCC has the requisite components to differentiate itself in the data warehousing market, projecting strong scalability for terabyte-class warehouses through the Enterprise Server Test Center and Competency Centers.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "data warehousing",
+    "Sun Microsystems",
+    "UltraSPARC",
+    "Solaris",
+    "RDBMS",
+    "decision support",
+    "Unix servers",
+    "scalability"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "actual-outcome"
+  ],
+  "isBasedOn": "https://web.archive.org/web/19970112011832/http://www.aberdeen.com:80/secure/profiles/sun_dw/sun_dw.htm"
+}

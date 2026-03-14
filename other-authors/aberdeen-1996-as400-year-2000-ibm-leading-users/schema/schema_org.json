@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AS/400 and the Year 2000: IBM Leading Users Across an Unknown Chasm",
+  "description": "Aberdeen Group market viewpoint (Volume 9, Number 17, September 27, 1996) on IBM AS/400 Y2K compliance leadership. Archival Frictionless Data Package v13.",
+  "identifier": "aberdeen-1996-as400-year-2000-ibm-leading-users",
+  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "datePublished": "1996-09-27",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["AS/400", "IBM", "Year 2000", "Y2K", "OS/400", "date compliance", "legacy systems", "1996"],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://web.archive.org/web/19961023174751/http://www.aberdeen.com:80/secure/viewpnts/v9n17/htframe.htm"
+  }
+}

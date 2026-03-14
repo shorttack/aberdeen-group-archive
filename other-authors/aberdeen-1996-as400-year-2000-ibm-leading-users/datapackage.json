@@ -1,0 +1,18 @@
+{
+  "name": "aberdeen-1996-as400-year-2000-ibm-leading-users",
+  "title": "AS/400 and the Year 2000: IBM Leading Users Across an Unknown Chasm",
+  "description": "Aberdeen Group market viewpoint on IBM AS/400 Y2K compliance, September 27, 1996. Volume 9, Number 17. Archival Frictionless Data Package v13.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "author"}],
+  "keywords": ["AS/400", "IBM", "Year 2000", "Y2K", "OS/400", "1996"],
+  "created": "2026-03-14",
+  "sources": [{"title": "Wayback Machine", "path": "https://web.archive.org/web/19961023174751/http://www.aberdeen.com:80/secure/viewpnts/v9n17/htframe.htm"}],
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

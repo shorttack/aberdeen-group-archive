@@ -1,0 +1,14 @@
+code_id,code_type,code_value,description,study_id
+OT-SC,observation_type,strategy-classification,Classification of a vendor or market participant's strategic position or decision,aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-VP,observation_type,viability-prediction,Forward-looking prediction about a product or entity's commercial viability,aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-AO,observation_type,actual-outcome,Verified real-world outcome determined via external research,aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-TA,observation_type,technology-assessment,Technical evaluation of a product's capabilities or positioning,aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-FF,observation_type,framework-factor,A structural factor in the environment (regulatory, economic, technical constraint),aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-MD,observation_type,market-data,Quantitative or qualitative market metric,aberdeen-1996-as400-year-2000-ibm-leading-users
+OT-EO,observation_type,expert-opinion,Qualitative recommendation or opinion from the analyst,aberdeen-1996-as400-year-2000-ibm-leading-users
+CONF-HIGH,confidence,high,Multiple corroborating sources or direct vendor/financial data,aberdeen-1996-as400-year-2000-ibm-leading-users
+CONF-MED,confidence,medium,Single source or inferred from context,aberdeen-1996-as400-year-2000-ibm-leading-users
+METH-ES,methodology_code,expert-survey,Aberdeen analyst field survey and expert interviews,aberdeen-1996-as400-year-2000-ibm-leading-users
+METH-EO,methodology_code,expert-opinion,Analyst opinion without formal survey methodology,aberdeen-1996-as400-year-2000-ibm-leading-users
+METH-VC,methodology_code,vendor-claim,Specification or assertion provided by the vendor,aberdeen-1996-as400-year-2000-ibm-leading-users
+METH-WR,methodology_code,web-research,Post-publication verification via web research,aberdeen-1996-as400-year-2000-ibm-leading-users

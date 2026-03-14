@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IQ Software: Applying the WWW To Reporting Problems",
+  "description": "Aberdeen Group profiles IQ Software Corporation's IQ/LiveWeb product, which applies World Wide Web technologies to enterprise reporting and decision support. The study argues that IQ/LiveWeb's three-tier architecture, object-oriented query capabilities, and Internet/Intranet publishing engine positions IQ Software ahead of competitors in WWW-enabled business intelligence, predicting the product will maintain a leadership position if IQ Software sustains its innovation pace.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "IQ Software",
+    "WWW reporting",
+    "business intelligence",
+    "three-tier architecture",
+    "Intranet",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "technology-assessment",
+    "viability-prediction",
+    "actual-outcome",
+    "market-data",
+    "framework-factor"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Research Archive"
+  }
+}

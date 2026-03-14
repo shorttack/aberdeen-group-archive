@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Khalix: True Financial Awareness, True Competitive Advantage",
+  "description": "Aberdeen Group profiles Longview Solutions' Khalix 2.1 financial management software, arguing it represents a superior approach to integrated enterprise financial management by combining consolidation, budgeting, forecasting, and analysis in a single truly integrated system built on Relational OLAP technology. The study contends Khalix's object-oriented hierarchical engine eliminates the cracks between loosely integrated point solutions and guarantees Longview a position on enterprise technology buyers' must-RFP shortlist.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Khalix",
+    "Longview Solutions",
+    "financial management",
+    "OLAP",
+    "ROLAP",
+    "CPM",
+    "budgeting",
+    "consolidation",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "technology-assessment",
+    "viability-prediction",
+    "actual-outcome",
+    "market-data",
+    "framework-factor"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Research Archive"
+  }
+}

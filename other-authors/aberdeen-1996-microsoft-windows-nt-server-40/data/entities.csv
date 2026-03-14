@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+microsoft,Microsoft Corporation,company,software-platforms,active,,1975-present,aberdeen-1996-microsoft-windows-nt-server-40,"One Microsoft Way, Redmond WA 98052. Maker of Windows NT Server 4.0."
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research,acquired,Aberdeen (Harte-Hanks / independent),1988-present,aberdeen-1996-microsoft-windows-nt-server-40,Boston-based IT research firm.
+novell,"Novell, Inc.",company,network-software,acquired,Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023),1979-2011,aberdeen-1996-microsoft-windows-nt-server-40,Main NT Server competitor (NetWare); had 63% NOS market share at peak. Long decline post-1996.
+digital-equipment-corp,Digital Equipment Corporation (DEC),company,computer-hardware,acquired,Compaq (acquired 1998) -> HP (acquired Compaq 2002),1957-1998,aberdeen-1996-microsoft-windows-nt-server-40,Maker of Alpha processor; NT Server supported DEC Alpha; DEC and Microsoft settled VMS/NT intellectual property dispute.
+ibm,IBM,company,computer-hardware,active,,1911-present,aberdeen-1996-microsoft-windows-nt-server-40,OS/2 Warp Server competitor; PowerPC architecture supported by NT Server.
+university-of-michigan,University of Michigan,institution,academia,active,,1817-present,aberdeen-1996-microsoft-windows-nt-server-40,Developed LDAP standard cited in study for directory services.

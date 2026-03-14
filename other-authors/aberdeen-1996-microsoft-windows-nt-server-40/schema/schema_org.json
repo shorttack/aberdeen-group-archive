@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Windows NT Server 4.0 \u2014 A Giant Step Forward",
+  "description": "Aberdeen Group evaluates Microsoft Windows NT Server 4.0, concluding that it is 'a giant step forward' for the network operating system market. The study analyzes NT 4.0's improvements in convenience, Internet/intranet integration, network connectivity, and performance, positioning it as the dominant application server for workgroups and departments while predicting it will displace Novell NetWare and other competitors to become the dominant NOS platform.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112011658/http://www.aberdeen.com:80/secure/profiles/microsft/microsft.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Windows-NT-Server",
+    "Microsoft",
+    "NOS",
+    "Novell-NetWare",
+    "IIS",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Windows NT Server 4.0 \u2014 A Giant Step Forward",
+    "datePublished": "1996-07-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  }
+}

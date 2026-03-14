@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ibm,IBM Corporation,company,computer-hardware-software,active,,1911-present,aberdeen-1996-evaluating-system36-migration-strategies,"Manufacturer of System/36, Advanced 36, and AS/400; AS/400 division was IBM's most profitable hardware division; IBM confirmed 90%+ of migrating S/36 sites chose AS/400 solutions"
+aberdeen-group,Aberdeen Group,firm,market-research,acquired,Harte-Hanks (2001),1988-2001,aberdeen-1996-evaluating-system36-migration-strategies,Author and publisher; Boston MA; contacts Susan Rinehart and David Borde
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-evaluating-system36-migration-strategies,"Windows NT Server used as basis for PC-LAN migration option; NT industry rule-of-thumb: $10,000/year to manage NT server"

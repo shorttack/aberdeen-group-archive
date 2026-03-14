@@ -1,0 +1,41 @@
+{
+  "name": "aberdeen-1996-evaluating-system36-migration-strategies",
+  "title": "Evaluating System/36 Migration Strategies",
+  "description": "Aberdeen Group White Paper (September 1996) evaluating four migration strategies for IBM System/36 owners using a five-criteria decision framework, with detailed cost tables and field research from System/36 owner interviews.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

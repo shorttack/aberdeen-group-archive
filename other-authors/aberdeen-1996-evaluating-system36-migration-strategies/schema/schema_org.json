@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Evaluating System/36 Migration Strategies",
+  "description": "Aberdeen Group White Paper (September 1996) evaluating IBM System/36 migration strategies with five-criteria decision framework.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "IBM System/36",
+    "Advanced 36",
+    "AS/400",
+    "migration strategy",
+    "Year 2000",
+    "Y2K",
+    "midrange computing",
+    "1996"
+  ],
+  "temporalCoverage": "1983/2026",
+  "variableMeasured": [
+    "benchmark-result",
+    "framework-factor",
+    "viability-prediction",
+    "market-data"
+  ]
+}

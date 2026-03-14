@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+sap-r3,SAP R/3,application,SAP AG,1992-2015,mature,legacy-supported,aberdeen-1997-acceleratedsap-strategy,Succeeded by SAP S/4HANA; R/3 mainstream maintenance ended ~2015
+acceleratedsap-asap,AcceleratedSAP (ASAP),framework,SAP AG,1996-2015,emerging,legacy-supported,aberdeen-1997-acceleratedsap-strategy,Evolved into SAP Activate methodology; ASAP branding retired ~2015
+r3-business-engineer,SAP R/3 Business Engineer,application,SAP AG,1996-2005,emerging,obsolete,aberdeen-1997-acceleratedsap-strategy,Configuration and modeling tool embedded in R/3; replaced by Solution Manager
+erp-client-server,Client-Server ERP Architecture,platform,multiple,1988-2005,mature,legacy-supported,aberdeen-1997-acceleratedsap-strategy,Three-tier client-server replaced by cloud/SaaS ERP in 2010s
+sap-project-estimator,SAP Project Estimator,framework,SAP AG,1996-2005,emerging,obsolete,aberdeen-1997-acceleratedsap-strategy,Pre-planning kit with questionnaires; part of ASAP toolkit

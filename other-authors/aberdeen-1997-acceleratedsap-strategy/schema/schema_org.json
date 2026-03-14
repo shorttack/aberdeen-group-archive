@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AcceleratedSAP: Fast Implementation, Rapid Realization of SAP Benefits",
+  "description": "This 1997 Aberdeen Group white paper profiles SAP's AcceleratedSAP (ASAP) rapid-implementation methodology, designed to deploy R/3 in four to ten months for mid-market enterprises. It describes the six-step ASAP process (Project Preparation, Business Blueprint, Simulation, Validation, Final Preparation, Go Live), the TeamSAP partner ecosystem, and positions ASAP as the preferred path for Year 2000 legacy replacement. Aberdeen assesses ASAP as a credible differentiator that reduces implementation redundancy and creates a reusable knowledge foundation.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "SAP R/3",
+    "AcceleratedSAP",
+    "ASAP",
+    "ERP implementation",
+    "mid-market ERP",
+    "SAP methodology",
+    "Year 2000",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

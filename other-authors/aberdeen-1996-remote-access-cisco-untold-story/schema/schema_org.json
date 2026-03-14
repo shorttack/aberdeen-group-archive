@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Remote Access: Cisco's Untold Story",
+  "description": "Aberdeen Group examines Cisco Systems' remote access strategy as of November 1996, revealing Cisco's 'untold story' of quietly dominating the enterprise branch-to-branch segment (60%+ market share) while making aggressive inroads into the high-end ISP and carrier markets with the AS5200 access server. The study evaluates Cisco's multi-product portfolio (AS5200, 3600, 1600 series), IOS software competitive advantages, and the Telebit MICA technology acquisition, predicting Cisco is better positioned than competitors to serve the rapidly evolving ISP/carrier market.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-11-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604113407/http://www.aberdeen.com:80/secure/profiles/1997/cisco1/body.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Cisco Systems",
+    "remote access",
+    "ISP",
+    "internet service provider",
+    "AS5200",
+    "Cisco IOS",
+    "ISDN",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "benchmark-result",
+    "market-data"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Archival Research Collection 1996"
+  }
+}

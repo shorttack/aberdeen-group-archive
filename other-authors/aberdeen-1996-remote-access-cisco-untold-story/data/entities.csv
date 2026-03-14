@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+cisco-systems,"Cisco Systems, Inc.",company,networking-hardware-software,active,,1984-present,aberdeen-1996-remote-access-cisco-untold-story,San Jose CA; dominated enterprise branch-to-branch remote access (60%+ share); 700+ AS5200 customers by Oct 1996
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research,acquired,Harte-Hanks -> Aberdeen Strategy & Research,1988-2014,aberdeen-1996-remote-access-cisco-untold-story,Boston MA research firm
+ascend-communications,Ascend Communications,company,networking-hardware,acquired,Lucent Technologies (acquired 1999),1989-1999,aberdeen-1996-remote-access-cisco-untold-story,Named as single-focus high-end remote access competitor; Lucent acquired 1999
+us-robotics,US Robotics Corporation,company,networking-hardware-modems,acquired,3Com (acquired 1997),1976-1997,aberdeen-1996-remote-access-cisco-untold-story,Named as high-end remote access competitor; acquired by 3Com 1997
+shiva-corporation,Shiva Corporation,company,networking-hardware,dissolved,Intel (networking assets acquired),1985-2000,aberdeen-1996-remote-access-cisco-untold-story,Named as competitor at low end of dial access market; Cisco holds #2 position against Shiva
+telebit-corporation,Telebit Corporation,company,networking-hardware,acquired,Cisco Systems (MICA technology acquired 1996),1985-1996,aberdeen-1996-remote-access-cisco-untold-story,Cisco acquired Telebit's high-density digital modem MICA technologies in 1996
+combinet,"Combinet, Inc.",company,networking-hardware,acquired,Cisco Systems (acquired 1995),1991-1995,aberdeen-1996-remote-access-cisco-untold-story,Earlier Cisco remote access acquisition for ISDN technology
+newport-systems,Newport Systems Solutions,company,networking-hardware,acquired,Cisco Systems (acquired 1993),1988-1993,aberdeen-1996-remote-access-cisco-untold-story,Earlier Cisco remote access acquisition

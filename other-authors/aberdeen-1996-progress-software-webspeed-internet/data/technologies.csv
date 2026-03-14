@@ -1,0 +1,10 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+webspeed,Progress Software WebSpeed,framework,Progress Software,1996-2010,emerging,legacy-supported,aberdeen-1996-progress-software-webspeed-internet,WebSpeed still listed on Progress site as legacy; OpenEdge platform successor
+progress-4gl,Progress 4GL (OpenEdge ABL),language,Progress Software,1981-present,mature,legacy-supported,aberdeen-1996-progress-software-webspeed-internet,Fourth-generation language; WebSpeed Workshop built on CADE; renamed OpenEdge ABL
+webspeed-transaction-server,WebSpeed Transaction Server,application,Progress Software,1996-2010,emerging,obsolete,aberdeen-1996-progress-software-webspeed-internet,TP-monitor-like middleware; multiplexing/load balancing; state management
+webspeed-workbench,WebSpeed WorkBench / Workshop,application,Progress Software,1996-2005,emerging,obsolete,aberdeen-1996-progress-software-webspeed-internet,Visual programming environment for creating Web objects; drag-and-drop interface
+java,Java / Java Applets,language,Sun Microsystems,1995-present,emerging,active,aberdeen-1996-progress-software-webspeed-internet,Aberdeen noted Java was immature vs Progress 4GL for complex data-intensive apps in 1996
+activex,ActiveX,framework,Microsoft,1996-2015,emerging,obsolete,aberdeen-1996-progress-software-webspeed-internet,Named alongside Java as current crop of 3GL tools for web development
+db2-400,IBM DB2/400 (AS/400),platform,IBM,1988-present,mature,legacy-supported,aberdeen-1996-progress-software-webspeed-internet,WebSpeed 4GL provided native access to DB2/400; now IBM i
+ace-server-securid,RSA ACE/Server and SecurID,application,Security Dynamics (now RSA Security),1986-present,mature,active,aberdeen-1996-progress-software-webspeed-internet,Integrated with WebSpeed for multi-factor authentication
+cgi,CGI (Common Gateway Interface),protocol,NCSA/IETF standard,1993-2005,mature,obsolete,aberdeen-1996-progress-software-webspeed-internet,WebSpeed bypassed CGI's performance limitations via Transaction Server middleware

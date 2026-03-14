@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Progress Software's WebSpeed: Business Transaction Processing On The Internet",
+  "description": "Aberdeen Group profiles Progress Software's WebSpeed, an Internet development platform aimed at building data-intensive, scalable web applications that integrate with legacy transaction-processing systems. WebSpeed combines the Progress 4GL development environment with a multi-tier Transaction Server providing TP-monitor-like middleware, state management, and load balancing. Aberdeen recommends WebSpeed to enterprises seeking to merge proven client-server data-management with Internet architecture, and positions Progress as superior to both traditional CADE suppliers and new web-only toolset vendors for data-intensive Internet applications.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604103320/http://www.aberdeen.com:80/secure/profiles/proweb/body.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Progress Software",
+    "WebSpeed",
+    "transaction processing",
+    "internet development",
+    "4GL",
+    "web application",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Archival Research Collection 1996"
+  }
+}

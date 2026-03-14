@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mitel's NeVaDa (Networked Voice and Data) \u2013 Speeding Toward Convergence",
+  "description": "Aberdeen Group profiles Mitel Corporation's NeVaDa (Networked Voice and Data) platform, announced April 2, 1996, as a strategic move to transform Mitel's SX-2000 PBX into an integrated voice-data-video server on a broadband ATM/SONET enterprise backbone. The study documents the IT industry's growing demand for voice-data convergence, evaluates NeVaDa's modular collapsed-backbone topology with Madge Networks LAN switching, and assesses Mitel's competitive position and strategic risks in the emerging CTI market. Aberdeen concludes NeVaDa is a logical step toward convergence but notes Mitel must move quickly, secure ATM technology, and build credibility in the data networking community.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-02",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Mitel",
+    "NeVaDa",
+    "CTI",
+    "voice-data convergence",
+    "PBX",
+    "ATM",
+    "SONET",
+    "UCaaS",
+    "Madge Networks",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1991/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "framework-factor"
+  ]
+}

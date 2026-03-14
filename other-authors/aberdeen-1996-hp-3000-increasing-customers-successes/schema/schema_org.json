@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP 3000: Continuously Increasing Customers' Successes",
+  "description": "Aberdeen Group analyzes Hewlett-Packard's 'Customer First' strategy for the HP 3000 midrange platform, arguing that HP's decision to focus on retaining its large and loyal installed base rather than pursuing new customers is pragmatic and financially sound. The study documents deep customer loyalty, a $1.2 billion annual revenue base, and a strategic commitment to continued platform enhancement into the HP 3000's third decade.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112012100/http://www.aberdeen.com:80/secure/profiles/hp3000/hp3000.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "HP 3000",
+    "MPE/iX",
+    "midrange computing",
+    "Customer First",
+    "Hewlett-Packard",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "market-data"
+  ]
+}

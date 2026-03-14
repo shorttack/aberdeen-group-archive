@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+omnibox-inc,"OmniBox, Inc.",company,"interactive-TV, digital-broadcasting",dissolved,,1993-1998,aberdeen-1996-omnibox-interactive-broadcasting-network,Stamford CT startup; never achieved commercial rollout; patent filings confirmed 1993
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research,acquired,Harte-Hanks -> Aberdeen (now part of Aberdeen Strategy & Research),1988-2014,aberdeen-1996-omnibox-interactive-broadcasting-network,Boston MA research firm; acquired by Harte-Hanks 2001
+time-warner-cable,Time Warner Cable,company,cable-TV,acquired,Charter Communications (Spectrum) 2016,1989-2016,aberdeen-1996-omnibox-interactive-broadcasting-network,OmniBox demonstrated analog/digital integration on Quantum system in NYC
+hughes-network-systems,Hughes Network Systems / DirecTV / DirecPC,company,satellite-broadcasting,acquired,DirecTV -> AT&T 2015; Hughes -> EchoStar,1971-present,aberdeen-1996-omnibox-interactive-broadcasting-network,Named as OmniBox's nearest competitor via DirecPC and DirecTV
+primestar,Primestar,company,direct-broadcast-satellite,dissolved,DirecTV (absorbed assets 1999),1990-1999,aberdeen-1996-omnibox-interactive-broadcasting-network,Referenced as alternate set-top hardware partner
+philips-electronics,Philips Electronics,company,consumer-electronics,active,TP Vision (TV division); Philips rebranded to Koninklijke Philips,1891-present,aberdeen-1996-omnibox-interactive-broadcasting-network,Referenced as source of alternate set-top hardware

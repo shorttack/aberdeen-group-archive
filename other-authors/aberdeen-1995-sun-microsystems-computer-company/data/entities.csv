@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-SUN,Sun Microsystems Computer Company (SMCC),vendor,hardware-software,acquired,Oracle Corporation (acquired 2010),1982-2010,aberdeen-1995-sun-microsystems-computer-company,"Founded 1982; acquired by Oracle for $7.4B (net $5.6B) completed January 27, 2010. Created Java, NFS, Solaris, SPARC."
+ENT-ORACLE,Oracle Corporation,vendor,software,active,,1977-present,aberdeen-1995-sun-microsystems-computer-company,Acquired Sun Microsystems in 2010; now produces SPARC-based systems under Oracle brand.
+ENT-IBM,IBM Corporation,vendor,hardware-software,active,,1911-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market.
+ENT-HP,Hewlett-Packard (HP),vendor,hardware-software,active,Split into HP Inc and HPE in 2015,1939-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as competitor in commercial Unix server market; split into HP Inc and HPE in 2015.
+ENT-SAP,SAP AG,vendor,enterprise-software,active,,1972-present,aberdeen-1995-sun-microsystems-computer-company,Referenced as major commercial application targeting Sun platforms.
+ENT-ORACLE-APP,Oracle Applications,product,enterprise-software,active,,1987-present,aberdeen-1995-sun-microsystems-computer-company,Oracle ERP application suite referenced as target workload for Sun commercial servers.

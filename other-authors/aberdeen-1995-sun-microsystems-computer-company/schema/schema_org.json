@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Sun Microsystems Computer Company: Sun Emerges as a Top-Tier Commercial Systems Supplier",
+  "description": "Aberdeen profiles Sun Microsystems Computer Company (SMCC) as it transitions from technical workstation leadership to commercial server market contender. The study examines Sun's SPARC-based server product line from workgroup to enterprise tiers, evaluates its response to commercial buyer requirements (performance, scalability, availability, cost of ownership), and assesses Sun's competitive position against IBM and HP in commercial Unix server sales.",
+  "url": "https://aberdeenarchive.bluebridgegrp.com/datasets/aberdeen-1995-sun-microsystems-computer-company",
+  "identifier": "aberdeen-1995-sun-microsystems-computer-company",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BlueBridge Group"
+  },
+  "datePublished": "1995-01-01",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Aberdeen Group",
+    "1995",
+    "product-profile",
+    "Unix commercial server market",
+    "market research",
+    "archival"
+  ],
+  "temporalCoverage": "1995",
+  "inLanguage": "en",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "WebPage",
+    "url": "https://web.archive.org/web/19970112012434/http://www.aberdeen.com:80/secure/profiles/sun/index.htm",
+    "name": "Original document archived by Wayback Machine"
+  }
+}

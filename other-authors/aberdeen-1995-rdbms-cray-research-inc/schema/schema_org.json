@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Cray Research, Inc.: RDBMS and Commercial Database Market Position",
+  "description": "Aberdeen Group product profile of Cray Research's pivot to commercial RDBMS markets via its CS6400 SMP server platform (1995). Includes entities, technologies, and observations archival data.",
+  "identifier": "aberdeen-1995-rdbms-cray-research-inc",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1995",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["Cray Research", "RDBMS", "CS6400", "SMP", "VLDB", "high-performance computing", "commercial database", "1990s IT"],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://web.archive.org/web/19970108191644/http://www.aberdeen.com:80/secure/profiles/cray/cray.htm",
+    "name": "Original Aberdeen Group Study (Wayback Machine)"
+  }
+}

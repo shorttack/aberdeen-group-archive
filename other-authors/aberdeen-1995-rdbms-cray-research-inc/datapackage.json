@@ -1,0 +1,100 @@
+{
+  "name": "aberdeen-1995-rdbms-cray-research-inc",
+  "title": "Cray Research, Inc.: RDBMS and Commercial Database Market Position",
+  "description": "Aberdeen Group product profile examining Cray Research's pivot to commercial RDBMS markets via the CS6400 SMP server (1995). Archival Frictionless Data Package v13.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "author"}],
+  "keywords": ["Aberdeen Group", "Cray Research", "RDBMS", "CS6400", "SMP", "VLDB", "1995", "commercial database"],
+  "created": "2026-03-14",
+  "sources": [{"title": "Wayback Machine", "path": "https://web.archive.org/web/19970108191644/http://www.aberdeen.com:80/secure/profiles/cray/cray.htm"}],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "string"},
+          {"name": "type", "type": "string", "constraints": {"enum": ["product-profile","market-viewpoint","technology-viewpoint","practice-viewpoint","white-paper","impact-report"]}},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "abstract", "type": "string"},
+          {"name": "license", "type": "string"},
+          {"name": "importance", "type": "string", "constraints": {"enum": ["high","medium","low"]}},
+          {"name": "importance_rationale", "type": "string"},
+          {"name": "relevance", "type": "string", "constraints": {"enum": ["high","medium","low"]}},
+          {"name": "relevance_rationale", "type": "string"},
+          {"name": "prescience", "type": "string", "constraints": {"enum": ["high","medium","low","not-applicable"]}},
+          {"name": "prescience_rationale", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true}},
+          {"name": "entity_name", "type": "string"},
+          {"name": "entity_type", "type": "string"},
+          {"name": "sector", "type": "string"},
+          {"name": "status", "type": "string"},
+          {"name": "successor", "type": "string"},
+          {"name": "years_active", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true}},
+          {"name": "tech_name", "type": "string"},
+          {"name": "category", "type": "string"},
+          {"name": "vendor", "type": "string"},
+          {"name": "era", "type": "string"},
+          {"name": "lifecycle_at_study", "type": "string"},
+          {"name": "lifecycle_current", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true}},
+          {"name": "study_id", "type": "string"},
+          {"name": "entity_id", "type": "string"},
+          {"name": "tech_id", "type": "string"},
+          {"name": "observation_type", "type": "string", "constraints": {"enum": ["strategy-classification","viability-prediction","actual-outcome","technology-assessment","benchmark-result","framework-factor","market-data","expert-opinion"]}},
+          {"name": "year_observed", "type": "integer"},
+          {"name": "metric_name", "type": "string"},
+          {"name": "metric_value", "type": "string"},
+          {"name": "confidence", "type": "string"},
+          {"name": "methodology_code", "type": "string"},
+          {"name": "source_page", "type": "integer"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource"
+    }
+  ]
+}

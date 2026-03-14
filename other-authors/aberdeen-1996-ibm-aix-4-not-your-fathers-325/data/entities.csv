@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ibm,IBM Corporation,company,enterprise-computing,active,,1911-present,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Maker of RS/6000 hardware and AIX operating system; still active as of 2026
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Aberdeen (Harte-Hanks -> Aberdeen Strategy & Research),1988-2001 (original); rebranded multiple times,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Original Aberdeen Group acquired by Harte-Hanks in 2001; brand continues under Aberdeen Strategy & Research
+isv-community,RS/6000 ISV Community,institution,software-vendors,dissolved,IBM Power ISV ecosystem,1990-2002,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Collective of independent software vendors supplying AIX applications; gradually migrated to AIX 4 and later versions

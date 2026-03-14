@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The New IBM AIX 4: Not Your Father's 3.2.5",
+  "description": "Aberdeen Group analyzes the extremely low adoption rate of IBM AIX 4 among RS/6000 users\u2014estimated at less than 10% of the installed base 18 months after launch\u2014and argues that best-practice IS management requires an immediate upgrade from AIX 3.2.5. The study examines user resistance rooted in version-3 PTF fatigue, evaluates AIX 4's modular VRMF architecture and SMP readiness, and concludes that the reward-to-risk ratio overwhelmingly favors migration in 1996.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "AIX",
+    "IBM RS/6000",
+    "Unix",
+    "SMP",
+    "operating systems",
+    "enterprise computing",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1994/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "expert-opinion",
+    "market-data",
+    "framework-factor"
+  ]
+}

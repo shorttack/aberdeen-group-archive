@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+aix-4,IBM AIX 4,platform,IBM,1994-2001,emerging,legacy-supported,aberdeen-1996-ibm-aix-4-not-your-fathers-325,"Launched fall 1994; introduced SMP, VRMF versioning, JFS; successor versions AIX 5L, 6, 7 remain active through AIX 7.3"
+aix-325,IBM AIX 3.2.5,platform,IBM,1992-1996,mature,obsolete,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Frozen in 1995; required frequent PTFs; officially superseded by AIX 4
+rs6000,IBM RS/6000,platform,IBM,1990-2002,mature,obsolete,aberdeen-1996-ibm-aix-4-not-your-fathers-325,RISC workstation/server line; rebranded to IBM eServer pSeries in 2000
+smp-symmetric-multiprocessing,Symmetric Multiprocessing (SMP),framework,multiple,1990-present,emerging,active,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Key AIX 4 feature; AIX 4's SMP support was primary headline feature at launch
+hacmp,IBM HACMP (High Availability Cluster Multi-Processing),platform,IBM,1991-present,mature,active,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Clustering solution for AIX; improved significantly with AIX 4 compatibility; now IBM PowerHA
+ptf,IBM PTF (Program Temporary Fix),protocol,IBM,1960s-2000s,mature,obsolete,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Biweekly patch mechanism for AIX 3.2.5; replaced by VRMF in AIX 4
+vrmf,IBM VRMF Versioning (Version.Release.Modification.Fix),protocol,IBM,1994-present,emerging,active,aberdeen-1996-ibm-aix-4-not-your-fathers-325,AIX 4's modular versioning scheme; replaced PTF chaos with structured update model
+powerpc,PowerPC,platform,IBM/Motorola/Apple,1992-2012,emerging,legacy-supported,aberdeen-1996-ibm-aix-4-not-your-fathers-325,Next-gen CPU for RS/6000; users delaying AIX upgrade were coupling OS+HW upgrade — a high-risk approach per Aberdeen

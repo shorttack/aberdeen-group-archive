@@ -1,0 +1,45 @@
+code_id,code_type,code_value,label,description
+STUDY_TYPE_001,study_type,product-profile,Product Profile,Aberdeen Group product profile evaluating a specific vendor product
+DOMAIN_001,domain,distributed-object-computing,Distributed Object Computing,Technology domain covering object request brokers and distributed computing middleware
+METHOD_001,methodology,industry-analysis,Industry Analysis,Assessment of industry trends and market dynamics
+METHOD_002,methodology,competitive-profiling,Competitive Profiling,Evaluation of a product relative to competitive alternatives
+METHOD_003,methodology,field-research,Field Research,Primary research conducted through customer interviews and site visits
+ENTITY_TYPE_001,entity_type,vendor,Vendor,Commercial technology vendor or supplier
+ENTITY_TYPE_002,entity_type,standards-body,Standards Body,Industry consortium that establishes technical standards
+ENTITY_TYPE_003,entity_type,si-partner,Systems Integrator / Partner,Professional services or systems integration firm
+ENTITY_TYPE_004,entity_type,research-firm,Research Firm,Industry analyst and research organization
+ENTITY_STATUS_001,entity_status,acquired,Acquired,Entity acquired by another company; brand may no longer exist independently
+ENTITY_STATUS_002,entity_status,active,Active,Entity remains independently active as of study archival date
+ENTITY_STATUS_003,entity_status,merged,Merged,Entity merged into another organization
+TECH_LIFECYCLE_001,tech_lifecycle,obsolete,Obsolete,Technology is no longer in active development or mainstream use
+TECH_LIFECYCLE_002,tech_lifecycle,legacy,Legacy,Technology is still in limited use but largely superseded
+TECH_LIFECYCLE_003,tech_lifecycle,evolved,Evolved,Technology has evolved into a successor product or standard
+TECH_LIFECYCLE_004,tech_lifecycle,active,Active,Technology remains in active use and development
+TECH_LIFECYCLE_005,tech_lifecycle,niche,Niche,Technology persists in specialized or niche markets
+PLATFORM_001,platform,digital-unix,Digital UNIX,Digital's Unix operating system for Alpha hardware
+PLATFORM_002,platform,ultrix,ULTRIX,Digital's older Unix variant for VAX hardware
+PLATFORM_003,platform,openvms-alpha,OpenVMS Alpha,Digital's OpenVMS on Alpha architecture
+PLATFORM_004,platform,openvms-vax,OpenVMS VAX,Digital's OpenVMS on VAX architecture
+PLATFORM_005,platform,windows-31,Windows 3.1,Microsoft Windows 3.1 on Intel
+PLATFORM_006,platform,windows-nt-intel,Windows NT Intel,Microsoft Windows NT on Intel architecture
+PLATFORM_007,platform,windows-nt-alpha,Windows NT Alpha,Microsoft Windows NT on Alpha architecture
+PLATFORM_008,platform,hp-ux,HP-UX,Hewlett-Packard Unix
+PLATFORM_009,platform,aix,AIX,IBM AIX Unix
+PLATFORM_010,platform,os2,OS/2,IBM OS/2
+PLATFORM_011,platform,sunos,SunOS,Sun Microsystems SunOS Unix
+PLATFORM_012,platform,solaris,Solaris,Sun Microsystems Solaris Unix
+PLATFORM_013,platform,mac-system7,Macintosh System 7,Apple Macintosh System 7
+PLATFORM_014,platform,tandem-integrity,Tandem Integrity,Tandem Computers Integrity series (MIPS-based)
+PLATFORM_015,platform,tandem-nsk,Tandem NonStop Kernel,Tandem Computers NonStop Kernel fault-tolerant OS
+PLATFORM_016,platform,ibm-mvs,IBM MVS,IBM Mainframe MVS (forthcoming in v2.6)
+PLATFORM_017,platform,os400,OS/400,IBM AS/400 OS/400 (forthcoming in v2.6)
+PLATFORM_018,platform,windows-95,Windows 95,Microsoft Windows 95 (forthcoming in v2.6)
+PLATFORM_019,platform,sgi-irix,Silicon Graphics IRIX,Silicon Graphics IRIX Unix (forthcoming in v2.6)
+OBS_CAT_001,observation_category,pricing,Pricing,Product pricing information
+OBS_CAT_002,observation_category,product-spec,Product Specification,Technical product specification detail
+OBS_CAT_003,observation_category,competitive-position,Competitive Position,Market or competitive positioning finding
+OBS_CAT_004,observation_category,customer-segment,Customer Segment,Target customer or market segment description
+OBS_CAT_005,observation_category,architecture,Architecture,Technical architecture or design characteristic
+OBS_CAT_006,observation_category,future-roadmap,Future Roadmap,Planned product capability or enhancement
+OBS_CAT_007,observation_category,analyst-assessment,Analyst Assessment,Aberdeen Group analyst opinion or recommendation
+OBS_CAT_008,observation_category,market-context,Market Context,Broader market or industry context finding

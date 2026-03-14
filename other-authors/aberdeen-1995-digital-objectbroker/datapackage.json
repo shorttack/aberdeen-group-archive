@@ -1,0 +1,191 @@
+{
+  "name": "aberdeen-1995-digital-objectbroker",
+  "id": "aberdeen-1995-digital-objectbroker",
+  "title": "Digital's ObjectBroker -- Advanced Integration of Distributed Resources",
+  "description": "Aberdeen Group product profile (1995) evaluating Digital Equipment Corporation's ObjectBroker, a CORBA-compliant object request broker for integrating distributed heterogeneous resources across 19 hardware/OS platform combinations. Examines ORB architecture, legacy system encapsulation, OLE-COM integration, pricing, and competitive positioning.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-By-1.0",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Product Profile: Digital ObjectBroker",
+      "path": "1995-oo-dev-Digital_s-Object-Broker-pr-9.pdf",
+      "archive_url": "https://web.archive.org/web/19970112012511/http://www.aberdeen.com:80/secure/profiles/objbrk/decobj.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "CORBA",
+    "object request broker",
+    "distributed computing",
+    "Digital Equipment Corporation",
+    "ObjectBroker",
+    "OLE",
+    "COM",
+    "middleware",
+    "systems integration",
+    "1995",
+    "Aberdeen Group"
+  ],
+  "temporal": {
+    "start": "1995-08-01",
+    "end": "1995-08-01"
+  },
+  "study_metadata": {
+    "study_id": "aberdeen-1995-digital-objectbroker",
+    "study_num": 13,
+    "study_type": "product-profile",
+    "domain": "distributed-object-computing",
+    "methodology": ["industry-analysis", "competitive-profiling", "field-research"],
+    "pub_date": "1995-08-01",
+    "author": "Aberdeen Group"
+  },
+  "resources": [
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Reference Codes",
+      "description": "Controlled vocabulary of code types, values, and labels used across all tables in this data package. Includes study types, domains, methodologies, entity types, entity statuses, technology lifecycle statuses, platform codes, and observation categories.",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique identifier for the code", "constraints": {"required": true, "unique": true}},
+          {"name": "code_type", "type": "string", "description": "Category of code (e.g. study_type, domain, entity_status)"},
+          {"name": "code_value", "type": "string", "description": "Machine-readable code value"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "description", "type": "string", "description": "Full description of the code"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    },
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Master study registry. Each row is one Aberdeen Group study. Contains bibliographic metadata, study type, domain, methodology, and source references.",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique slug identifier for the study", "constraints": {"required": true, "unique": true}},
+          {"name": "study_num", "type": "integer", "description": "Sequential study number"},
+          {"name": "title", "type": "string", "description": "Full study title"},
+          {"name": "author", "type": "string", "description": "Study author or firm"},
+          {"name": "pub_date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
+          {"name": "study_type", "type": "string", "description": "Type of study (FK to codes.code_value where code_type=study_type)"},
+          {"name": "domain", "type": "string", "description": "Primary technology domain"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes"},
+          {"name": "abstract", "type": "string", "description": "Study abstract"},
+          {"name": "source_pdf", "type": "string", "description": "Filename of source PDF"},
+          {"name": "archive_url", "type": "string", "description": "Wayback Machine archive URL"},
+          {"name": "archived_date", "type": "date", "description": "Date of Wayback Machine archive snapshot"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Organizations and companies mentioned in the study. Includes vendors, standards bodies, systems integrators, and analyst firms with current status annotations.",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique short identifier for the entity", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "FK to studies.study_id"},
+          {"name": "entity_name", "type": "string", "description": "Full legal or common entity name"},
+          {"name": "entity_type", "type": "string", "description": "Entity type code (FK to codes where code_type=entity_type)"},
+          {"name": "role_in_study", "type": "string", "description": "Role this entity plays in the study"},
+          {"name": "status_at_pub", "type": "string", "description": "Entity status at time of publication"},
+          {"name": "status_current", "type": "string", "description": "Entity status as of archival date (2026)"},
+          {"name": "status_notes", "type": "string", "description": "Notes on status changes and acquisitions"},
+          {"name": "hq_location", "type": "string", "description": "Headquarters location at time of publication"},
+          {"name": "source_url", "type": "string", "description": "Reference URL for entity information"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies, standards, languages, products, and protocols mentioned in the study. Includes lifecycle status as of 2026 archival date.",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique identifier for the technology", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "FK to studies.study_id"},
+          {"name": "tech_name", "type": "string", "description": "Full technology name"},
+          {"name": "tech_category", "type": "string", "description": "Category: middleware, standard, product, language, tool, etc."},
+          {"name": "description", "type": "string", "description": "Brief description of the technology"},
+          {"name": "lifecycle_status", "type": "string", "description": "Lifecycle status as of 2026 (FK to codes where code_type=tech_lifecycle)"},
+          {"name": "lifecycle_notes", "type": "string", "description": "Notes on technology evolution or obsolescence"},
+          {"name": "related_entity_id", "type": "string", "description": "FK to entities.entity_id for primary associated vendor/owner"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "platforms",
+      "path": "data/platforms.csv",
+      "title": "Platforms",
+      "description": "All 19 hardware/OS platform combinations supported by ObjectBroker, including 15 available in v2.5 and 4 planned for v2.6. One row per platform.",
+      "schema": {
+        "fields": [
+          {"name": "platform_id", "type": "string", "description": "Unique platform row identifier", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "FK to studies.study_id"},
+          {"name": "platform_code", "type": "string", "description": "FK to codes.code_id for platform code"},
+          {"name": "platform_name", "type": "string", "description": "Human-readable platform name"},
+          {"name": "os_family", "type": "string", "description": "Operating system family"},
+          {"name": "hardware_arch", "type": "string", "description": "Hardware architecture"},
+          {"name": "availability", "type": "string", "description": "Version availability: v2.5 (current) or v2.6-planned"},
+          {"name": "port_by", "type": "string", "description": "FK to entities.entity_id for organization responsible for port"},
+          {"name": "notes", "type": "string", "description": "Additional notes"}
+        ],
+        "primaryKey": ["platform_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "Structured observations extracted from the study text. Covers pricing, product specifications, competitive position, customer segments, architecture, future roadmap, analyst assessments, and market context. 50 rows.",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier", "constraints": {"required": true, "unique": true}},
+          {"name": "study_id", "type": "string", "description": "FK to studies.study_id"},
+          {"name": "obs_category", "type": "string", "description": "Observation category label"},
+          {"name": "obs_code", "type": "string", "description": "FK to codes.code_id for observation category"},
+          {"name": "subject", "type": "string", "description": "Short subject label for the observation"},
+          {"name": "observation", "type": "string", "description": "Full text of the observation"},
+          {"name": "value_text", "type": "string", "description": "Text representation of any value or finding"},
+          {"name": "value_numeric", "type": "number", "description": "Numeric value if applicable"},
+          {"name": "value_unit", "type": "string", "description": "Unit for numeric value"},
+          {"name": "entity_ref", "type": "string", "description": "Comma-separated entity_id references"},
+          {"name": "tech_ref", "type": "string", "description": "Comma-separated tech_id references"},
+          {"name": "source_page", "type": "string", "description": "Source PDF page number(s)"},
+          {"name": "confidence", "type": "string", "description": "Extraction confidence: high, medium, or low"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    }
+  ]
+}

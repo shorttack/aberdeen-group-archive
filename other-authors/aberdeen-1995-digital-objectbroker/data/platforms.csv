@@ -1,0 +1,20 @@
+platform_id,study_id,platform_code,platform_name,os_family,hardware_arch,availability,port_by,notes
+PLT-001,aberdeen-1995-digital-objectbroker,PLATFORM_001,Digital UNIX,Unix,Alpha,v2.5,DEC,Digital's Unix for Alpha; later renamed Tru64 UNIX after Compaq acquisition
+PLT-002,aberdeen-1995-digital-objectbroker,PLATFORM_002,ULTRIX,Unix,VAX,v2.5,DEC,Digital's older VAX-based Unix variant; discontinued after OpenVMS migration
+PLT-003,aberdeen-1995-digital-objectbroker,PLATFORM_003,OpenVMS Alpha,VMS,Alpha,v2.5,DEC,Digital's OpenVMS on Alpha hardware; still actively maintained by VSI as of 2026
+PLT-004,aberdeen-1995-digital-objectbroker,PLATFORM_004,OpenVMS VAX,VMS,VAX,v2.5,DEC,Digital's OpenVMS on VAX hardware; still actively maintained by VSI as of 2026
+PLT-005,aberdeen-1995-digital-objectbroker,PLATFORM_005,Windows 3.1,Windows,x86,v2.5,DEC,Microsoft Windows 3.1 (16-bit)
+PLT-006,aberdeen-1995-digital-objectbroker,PLATFORM_006,Windows NT (Intel),Windows-NT,x86,v2.5,DEC,Microsoft Windows NT on Intel architecture
+PLT-007,aberdeen-1995-digital-objectbroker,PLATFORM_007,Windows NT (Alpha),Windows-NT,Alpha,v2.5,DEC,Microsoft Windows NT on Digital Alpha architecture
+PLT-008,aberdeen-1995-digital-objectbroker,PLATFORM_008,HP-UX,Unix,PA-RISC,v2.5,DEC,Hewlett-Packard Unix
+PLT-009,aberdeen-1995-digital-objectbroker,PLATFORM_009,AIX,Unix,POWER,v2.5,DEC,IBM AIX Unix on POWER/RS6000
+PLT-010,aberdeen-1995-digital-objectbroker,PLATFORM_010,OS/2,OS2,x86,v2.5,DEC,IBM OS/2 on x86
+PLT-011,aberdeen-1995-digital-objectbroker,PLATFORM_011,SunOS,Unix,SPARC,v2.5,DEC,Sun Microsystems SunOS (BSD-based)
+PLT-012,aberdeen-1995-digital-objectbroker,PLATFORM_012,Solaris,Unix,SPARC,v2.5,DEC,Sun Microsystems Solaris (SysV-based successor to SunOS)
+PLT-013,aberdeen-1995-digital-objectbroker,PLATFORM_013,Macintosh System 7,Mac,68k/PPC,v2.5,DEC,Apple Macintosh System 7
+PLT-014,aberdeen-1995-digital-objectbroker,PLATFORM_014,Tandem Integrity,Integrity,MIPS,v2.5,LOGICA,Tandem Computers Integrity series; port done by Logica North America
+PLT-015,aberdeen-1995-digital-objectbroker,PLATFORM_015,Tandem NonStop Kernel,NSK,MIPS,v2.5,LOGICA,Tandem fault-tolerant NonStop Kernel OS; port done by Logica North America
+PLT-016,aberdeen-1995-digital-objectbroker,PLATFORM_016,IBM MVS,Mainframe,S/390,v2.6-planned,DEC,IBM mainframe MVS; first ORB to support MVS directly per Aberdeen
+PLT-017,aberdeen-1995-digital-objectbroker,PLATFORM_017,OS/400,Midrange,AS400,v2.6-planned,DEC,IBM AS/400 OS/400 midrange platform
+PLT-018,aberdeen-1995-digital-objectbroker,PLATFORM_018,Windows 95,Windows,x86,v2.6-planned,DEC,Microsoft Windows 95 (forthcoming support)
+PLT-019,aberdeen-1995-digital-objectbroker,PLATFORM_019,Silicon Graphics IRIX,Unix,MIPS,v2.6-planned,LOGICA,SGI IRIX Unix; port to be done by Logica

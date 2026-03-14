@@ -1,0 +1,206 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-digital-objectbroker",
+  "name": "Digital's ObjectBroker -- Advanced Integration of Distributed Resources",
+  "description": "Aberdeen Group product profile (August 1995) evaluating Digital Equipment Corporation's ObjectBroker, a CORBA-compliant object request broker (ORB) for integrating distributed heterogeneous resources. Covers ORB architecture, legacy system encapsulation, OLE/COM integration, 19-platform support, pricing, competitive positioning, and the ObjectBroker 2.6 roadmap. Archived as a Frictionless Data Package with structured entities, technologies, platforms, and observations.",
+  "url": "https://web.archive.org/web/19970112012511/http://www.aberdeen.com:80/secure/profiles/objbrk/decobj.htm",
+  "identifier": "aberdeen-1995-digital-objectbroker",
+  "version": "1.0.0",
+  "datePublished": "1995-08-01",
+  "dateCreated": "1995-08-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    },
+    "telephone": "617-723-7890"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "url": "https://www.aberdeen.com/"
+  },
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Digital ObjectBroker",
+      "version": "2.5",
+      "applicationCategory": "Middleware",
+      "operatingSystem": "Cross-platform (19 combinations)",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "PC Runtime License",
+          "price": "149",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "149",
+            "priceCurrency": "USD",
+            "unitText": "per seat"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Unix Development License",
+          "price": "5000",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "5000",
+            "priceCurrency": "USD",
+            "unitText": "per seat"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Windows NT Development License",
+          "price": "980",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "980",
+            "priceCurrency": "USD",
+            "unitText": "per seat"
+          }
+        }
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Digital Equipment Corporation",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "110 Spit Brook Road",
+          "addressLocality": "Nashua",
+          "addressRegion": "NH",
+          "postalCode": "03062-2698",
+          "addressCountry": "US"
+        }
+      }
+    }
+  ],
+  "keywords": [
+    "CORBA",
+    "object request broker",
+    "ORB",
+    "ObjectBroker",
+    "Digital Equipment Corporation",
+    "distributed object computing",
+    "OLE",
+    "COM",
+    "middleware",
+    "systems integration",
+    "legacy system encapsulation",
+    "Aberdeen Group",
+    "1995",
+    "product profile",
+    "client-server"
+  ],
+  "temporalCoverage": "1995-08-01",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Frictionless Data Package",
+      "encodingFormat": "application/json",
+      "contentUrl": "datapackage.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Observations CSV",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Entities CSV",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Technologies CSV",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Platforms CSV",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/platforms.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "Digital's ObjectBroker -- Advanced Integration of Distributed Resources",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-08-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "url": "https://web.archive.org/web/19970112012511/http://www.aberdeen.com:80/secure/profiles/objbrk/decobj.htm",
+    "genre": "Industry Research Report",
+    "articleSection": "Product Profile"
+  },
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "codes",
+      "description": "Reference codes and controlled vocabulary",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    },
+    {
+      "@type": "Dataset",
+      "name": "studies",
+      "description": "Study bibliographic metadata",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "Dataset",
+      "name": "entities",
+      "description": "Organizations mentioned in study with current status",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "Dataset",
+      "name": "technologies",
+      "description": "Technologies, standards, and products mentioned in study with lifecycle status",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "Dataset",
+      "name": "platforms",
+      "description": "All 19 supported hardware/OS platform combinations",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/platforms.csv"
+    },
+    {
+      "@type": "Dataset",
+      "name": "observations",
+      "description": "50 structured observations extracted from study text",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ]
+}

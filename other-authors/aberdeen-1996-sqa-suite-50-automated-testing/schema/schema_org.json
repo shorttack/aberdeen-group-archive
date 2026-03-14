@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SQA Suite 5.0: Innovative, Integrated, Automated Testing Tools",
+  "description": "Aberdeen Group evaluates SQA Suite 5.0, a four-product integrated automated testing toolset for Windows client-server applications developed by SQA, Inc. The study assesses SQA's market position, product capabilities including OLE/OCX/ActiveX testing, load/stress testing, and repository-based integration, and recommends IS managers seriously evaluate automated testing tools within two years. Aberdeen predicts SQA's integrated approach and Windows-focused strategy position it as a serious contender in the testing tools arena.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "software-quality-assurance",
+    "Aberdeen Group",
+    "1996",
+    "IT research"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Unisys Clears the Path Ahead for A & OS 2200 Series Customers",
+  "description": "Aberdeen Group profiles Unisys ClearPath HMP (Heterogeneous Multi-Processing) servers, which combine CMOS versions of MCP/AS and OS 2200 enterprise systems with Intel-based Unix/NT SMP servers in a single cabinet. Aberdeen examines how ClearPath gives Unisys's 8,500+ mainframe customers a migration path to open client-server architectures while preserving existing investments. The study notes that Unisys is transitioning from hardware to services, while hardware remains 40% of $6.2B in 1995 revenue.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Unisys",
+    "ClearPath",
+    "HMP",
+    "mainframe",
+    "MCP",
+    "OS 2200",
+    "CMOS",
+    "enterprise servers",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1994/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "market-data"
+  ]
+}

@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+clearpath-hmp,Unisys ClearPath HMP (Heterogeneous Multi-Processing),platform,Unisys,1996-present,emerging,active,aberdeen-1996-unisys-clears-path-a-series-os2200,Combines CMOS MCP/AS and OS 2200 with Intel Unix/NT SMP in single cabinet; ClearPath Forward still active 2024
+unisys-a-series-mcp,Unisys A Series / MCP,platform,Unisys,1961-present,mature,active,aberdeen-1996-unisys-clears-path-a-series-os2200,Master Control Program (Burroughs lineage); CMOS version announced 1996; still active as ClearPath MCP
+unisys-os2200,Unisys OS 2200 / 1100 Series,platform,Unisys,1962-present,mature,active,aberdeen-1996-unisys-clears-path-a-series-os2200,Sperry Univac lineage; CMOS version in ClearPath; available on AWS as of June 2025
+cmos-technology,CMOS Processor Technology,platform,IBM/Unisys,1990-present,mature,active,aberdeen-1996-unisys-clears-path-a-series-os2200,"0.5-micron CMOS; IBM-fabricated for Unisys; delivers 40-60 MIPS; replaces ECL; smaller footprint, lower power"
+smp-intel,Intel-based SMP Servers (Unix/NT),platform,Intel/multiple,1993-present,mature,active,aberdeen-1996-unisys-clears-path-a-series-os2200,Open computing tier in ClearPath HMP; pre-integrated Unix/NT SMP with mainframe environment
+opus-mpp,OPUS Massively Parallel Processing System,platform,Unisys,1994-2000,emerging,obsolete,aberdeen-1996-unisys-clears-path-a-series-os2200,Promised future integration into ClearPath HMP; Unisys OPUS MPP system planned for later releases

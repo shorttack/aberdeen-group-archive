@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-hp-customer-interaction-software",
+  "name": "HP Smart ContAct/CIS: Customer Interaction Software - The New Market Weapon",
+  "alternateName": "Aberdeen Group HP CIS Profile 1995",
+  "description": "Aberdeen Group profile evaluating HP's Smart ContAct/CIS customer interaction software suite, positioned as a new market weapon for CTI and customer service automation. Published December 1995. Includes extracted entities, technologies, and observations from the original 4-page research profile.",
+  "url": "https://web.archive.org/web/19970112012247/http://www.aberdeen.com:80/secure/profiles/hpcis/hp_cis.htm",
+  "identifier": "aberdeen-1995-hp-customer-interaction-software",
+  "version": "1.0.0",
+  "dateCreated": "1995-12-01",
+  "datePublished": "1995-12-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    },
+    "telephone": "617-723-7890"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {
+      "@type": "Organization",
+      "name": "Hewlett-Packard Company",
+      "sameAs": "https://www.wikidata.org/wiki/Q44478"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "HP Smart ContAct",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Customer Interaction Software"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "HP Customer Contact Manager (CCM)",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "CTI Middleware"
+    }
+  ],
+  "keywords": [
+    "customer interaction software",
+    "CIS",
+    "computer-telephony integration",
+    "CTI",
+    "Hewlett-Packard",
+    "HP Smart ContAct",
+    "call center",
+    "customer service",
+    "helpdesk",
+    "sales force automation",
+    "Aberdeen Group",
+    "market research",
+    "1995",
+    "product profile",
+    "CRM"
+  ],
+  "license": "https://www.aberdeen.com",
+  "isAccessibleForFree": false,
+  "conditionsOfAccess": "Proprietary Aberdeen Group research. Archived for research and historical reference purposes.",
+  "temporalCoverage": "1995/1996",
+  "measurementTechnique": [
+    "Industry analysis",
+    "Competitive profiling",
+    "Field research",
+    "Vendor briefings"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "CIS Market Growth Rate",
+      "value": "40% annually",
+      "unitText": "percent per year"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CIS Total Market Value 1995",
+      "value": ">$1.5 billion",
+      "unitText": "USD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "HP ACT Deployment",
+      "value": ">200 call center sites",
+      "unitText": "sites"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CCM Price Per User",
+      "value": "$300-$800",
+      "unitText": "USD per user"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "studies",
+      "description": "Study metadata (1 row)",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/studies.csv"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "entities",
+      "description": "Companies and organizations mentioned in the study (51 rows)",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/entities.csv"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "technologies",
+      "description": "Technologies, products, and technical concepts (25 rows)",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/technologies.csv"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "observations",
+      "description": "Factual claims, market data points, predictions, and assessments (50 rows)",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/observations.csv"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "codes",
+      "description": "Reference codes and controlled vocabulary (59 rows)",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/codes.csv"
+      }
+    }
+  ],
+  "citation": "Aberdeen Group. (1995, December). HP Smart ContAct/CIS: Customer Interaction Software - The New Market Weapon. Aberdeen Group. Boston, MA.",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "HP Smart ContAct/CIS: Customer Interaction Software - The New Market Weapon",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-12-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "url": "https://web.archive.org/web/19970112012247/http://www.aberdeen.com:80/secure/profiles/hpcis/hp_cis.htm"
+  }
+}

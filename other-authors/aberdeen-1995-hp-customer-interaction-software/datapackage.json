@@ -1,0 +1,192 @@
+{
+  "name": "aberdeen-1995-hp-customer-interaction-software",
+  "title": "HP Smart ContAct/CIS: Customer Interaction Software - The New Market Weapon",
+  "description": "Aberdeen Group profile evaluating HP's Smart ContAct/CIS customer interaction software suite, positioned as a new market weapon for CTI and customer service automation.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "proprietary",
+      "title": "Aberdeen Group Copyright 1995",
+      "path": "https://www.aberdeen.com"
+    }
+  ],
+  "sources": [
+    {
+      "title": "HP Smart ContAct/CIS: Customer Interaction Software - The New Market Weapon",
+      "author": "Aberdeen Group",
+      "path": "1995-cs-Hewlett-Packard-Company-pr_-Customer-Interaction-Software-The-New-Market-Weapon.pdf",
+      "publisher": "Aberdeen Group",
+      "date": "1995-12-01"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "customer-interaction-software",
+    "CIS",
+    "CTI",
+    "computer-telephony-integration",
+    "Hewlett-Packard",
+    "HP",
+    "Smart ContAct",
+    "call-center",
+    "Aberdeen Group",
+    "1995",
+    "market-research",
+    "product-profile",
+    "CRM",
+    "sales-force-automation",
+    "helpdesk"
+  ],
+  "created": "2026-03-13",
+  "id": "aberdeen-1995-hp-customer-interaction-software",
+  "resources": [
+    {
+      "name": "studies",
+      "title": "Studies",
+      "description": "One row per Aberdeen Group research study in this archive package.",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique study identifier (slug format)"},
+          {"name": "title", "type": "string", "constraints": {"required": true}, "description": "Full study title"},
+          {"name": "author", "type": "string", "constraints": {"required": true}, "description": "Author or authoring organization"},
+          {"name": "publication_date", "type": "date", "constraints": {"required": true}, "description": "Publication date (ISO 8601)"},
+          {"name": "study_type", "type": "string", "constraints": {"required": true}, "description": "Type of study (e.g. product-profile, market-study)"},
+          {"name": "domain", "type": "string", "constraints": {"required": true}, "description": "Primary technology domain"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes"},
+          {"name": "abstract", "type": "string", "description": "Short abstract of study"},
+          {"name": "source_file", "type": "string", "description": "Original PDF filename"},
+          {"name": "page_count", "type": "integer", "description": "Number of pages in source PDF"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "title": "Entities",
+      "description": "Companies and organizations mentioned in the study, with current status.",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique entity identifier (slug format)"},
+          {"name": "entity_name", "type": "string", "constraints": {"required": true}, "description": "Full entity name"},
+          {"name": "entity_type", "type": "string", "constraints": {"required": true}, "description": "Type of entity (vendor, isv, systems-integrator, research-firm, telecommunications)"},
+          {"name": "sector", "type": "string", "description": "Primary industry sector"},
+          {"name": "status", "type": "string", "constraints": {"required": true}, "description": "Current entity status (active/dissolved/acquired/merged/renamed/split/unknown)"},
+          {"name": "successor", "type": "string", "description": "Successor entity name if applicable"},
+          {"name": "years_active", "type": "string", "description": "Years entity was/is active"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK to studies.study_id"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "title": "Technologies",
+      "description": "Technologies, products, and technical concepts mentioned in the study.",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique technology identifier (slug format)"},
+          {"name": "tech_name", "type": "string", "constraints": {"required": true}, "description": "Full technology name"},
+          {"name": "category", "type": "string", "constraints": {"required": true}, "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or owner of the technology"},
+          {"name": "era", "type": "string", "description": "Time period of technology prominence"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Technology lifecycle stage at time of study (emerging/growth/mature)"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current technology lifecycle stage (active/legacy/obsolete)"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK to studies.study_id"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "title": "Observations",
+      "description": "Factual claims, market data points, predictions, and assessments extracted from the study.",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK to studies.study_id"},
+          {"name": "entity_id", "type": "string", "description": "FK to entities.entity_id (nullable)"},
+          {"name": "tech_id", "type": "string", "description": "FK to technologies.tech_id (nullable)"},
+          {"name": "observation_type", "type": "string", "constraints": {"required": true}, "description": "Type of observation"},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation pertains to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or data point"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric (string to accommodate mixed types)"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (high/medium/low)"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology used (IA/FR/CP/SR)"},
+          {"name": "source_page", "type": "integer", "description": "Source page number in original PDF"},
+          {"name": "notes", "type": "string", "description": "Verbatim or paraphrased source text"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "title": "Codes",
+      "description": "Reference codes and controlled vocabulary used across all data tables.",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique code identifier (type-value format)"},
+          {"name": "code_type", "type": "string", "constraints": {"required": true}, "description": "Category of code (e.g. methodology_code, entity_type)"},
+          {"name": "code_value", "type": "string", "constraints": {"required": true}, "description": "The code value used in data tables"},
+          {"name": "label", "type": "string", "constraints": {"required": true}, "description": "Human-readable label"},
+          {"name": "description", "type": "string", "description": "Detailed description of the code"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

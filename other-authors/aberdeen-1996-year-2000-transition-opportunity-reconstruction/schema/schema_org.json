@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Year 2000 Transition: An Opportunity for the Creative Destruction of Today's Information Systems",
+  "description": "Aberdeen Group argues that the Year 2000 computing problem presents enterprises with a strategic opportunity to replace outdated legacy applications rather than merely patching them\u2014a process it terms 'creative destruction.' The study provides a six-category framework for classifying applications by Y2K risk and business criticality, recommends application replacement over conversion where possible, and sets out a critical timeline requiring acquisition decisions by September 1997 and production cutover by December 1998.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Y2K",
+    "Year 2000",
+    "creative destruction",
+    "legacy applications",
+    "enterprise IT",
+    "ERP",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

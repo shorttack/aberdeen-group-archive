@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+legacy-mainframe-apps,Legacy Mainframe Applications,platform,various,1960-1990,declining,obsolete,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Two-digit date fields embedded in COBOL and other legacy code
+erp-systems,Enterprise Resource Planning (ERP) Systems,application,"SAP, Oracle, PeopleSoft",1990-present,emerging,active,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Aberdeen recommends replacing legacy apps with ERP systems as Y2K-safe modernization path
+ecu-european-currency,European Currency Unit (ECU),protocol,EU,1979-1999,emerging,obsolete,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Required concurrent support by 1999 alongside Y2K fix; replaced by Euro in 1999
+groupware,Groupware / E-mail Systems,application,"Lotus, Microsoft",1990-present,emerging,active,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Identified as least likely to have Y2K problems due to relative newness
+unix-bios,Unix OS / PC BIOS,platform,various,1970-present,mature,active,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Aberdeen warns Unix and PC BIOS not automatically Y2K safe

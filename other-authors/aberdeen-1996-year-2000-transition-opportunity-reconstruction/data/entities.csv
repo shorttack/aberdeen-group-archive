@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Halyard Capital -> Spiceworks Ziff Davis,1988-2015,aberdeen-1996-year-2000-transition-opportunity-reconstruction,"Boston-based IT analyst firm; acquired by Harte-Hanks circa 2001, then Halyard Capital 2015, then Spiceworks Ziff Davis"
+fasb,Financial Accounting Standards Board,institution,accounting-standards,active,,1973-present,aberdeen-1996-year-2000-transition-opportunity-reconstruction,"Insisted Y2K conversion costs be expensed, not capitalized — key driver of replacement preference"
+atlanta-olympics-1996,1996 Atlanta Olympics (IS team),institution,event-management,dissolved,,1996,aberdeen-1996-year-2000-transition-opportunity-reconstruction,Cited as example of untested production systems; journalist-facing apps failed on opening day

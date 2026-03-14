@@ -1,0 +1,12 @@
+{
+  "processed": 14,
+  "total": 14,
+  "timestamp": "2026-03-13T22:55:00Z",
+  "status": "complete",
+  "batch_1_studies": 4,
+  "batch_2_studies": 10,
+  "total_observations": 689,
+  "unique_entities": 184,
+  "unique_technologies": 271,
+  "validation_errors": 0
+}

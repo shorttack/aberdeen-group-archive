@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+as400-advanced-series,IBM AS/400 Advanced Series,platform,IBM,1995-2000,emerging,legacy-supported,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,"64-bit RISC; evolved to iSeries, System i, IBM i; still active as IBM i in 2026"
+backoffice,Microsoft BackOffice,platform,Microsoft,1994-2000,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,"Suite of NT Server, SQL Server, SNA Server, Mail Server, SMS; evolved into Windows Server"
+nt-server,Microsoft NT Server,platform,Microsoft,1993-2003,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Evolved through Windows 2000 Server into Windows Server; became dominant NOS by 2000
+nt-workstation,Microsoft NT Workstation,platform,Microsoft,1993-2001,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,"Fat-client PC; 24 MB RAM recommended; $4,900 vs $1,940 for 5250 terminal per study"
+os400-v3,OS/400 Version 3,platform,IBM,1994-1998,mature,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Current AS/400 OS at time of study; included DB2/400 relational database
+db2-400,DB2/400,application,IBM,1988-2000,mature,legacy-supported,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Integrated relational DB in OS/400; evolved into Db2 for i; still active
+sql-server-60,Microsoft SQL Server 6.0,application,Microsoft,1995-1998,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Released June 1995; component of BackOffice; evolved into SQL Server 2022+
+cairo,Microsoft Cairo,platform,Microsoft,1996-canceled,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Object-oriented successor to NT; never shipped as described; absorbed into Windows 2000
+fsiop,AS/400 FSIOP (File Server Input/Output Processor),platform,IBM,1995-2002,emerging,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Intel processor board on AS/400 for NOS; could run LAN Manager; NT Server support anticipated
+ibm-5250-terminal,IBM 5250 Terminal,platform,IBM,1977-2000,mature,obsolete,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,"$1,940 dual session terminal; key cost advantage vs $4,900 NT Workstation PC"

@@ -1,0 +1,10 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ibm,IBM Corporation,company,information-technology,active,,1911-present,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Maker of AS/400; Armonk NY; AS/400 line eventually renamed iSeries then IBM i
+aberdeen-group,Aberdeen Group,firm,market-research,acquired,Aberdeen (Harte-Hanks -> Spiceworks-Ziff Davis),1988-2014,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Boston MA; author of this viewpoint
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Maker of NT Server and BackOffice; challenging AS/400 base
+compaq,Compaq Computer Corporation,company,hardware,acquired,HP (2002),1982-2002,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,ProLiant 4500 used in NT Server TPC-C benchmarks
+digital-equipment,Digital Equipment Corporation (DEC),company,hardware,acquired,Compaq (1998) -> HP (2002),1957-1998,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,AlphaServers used in NT Server TPC-C benchmarks showing good price/performance
+novell,"Novell, Inc.",company,networking-software,acquired,Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023),1979-2011,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,NetWare first choice for AS/400 users adding PC NOS
+lotus-development,Lotus Development Corporation,company,software,acquired,IBM (1995),1982-1995,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,IBM/Lotus Notes mentioned as option for AS/400 FSIOP
+client-server-labs,Client/Server Labs,firm,benchmarking,unknown,,1990s,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Independent testing organization (404-552-3645) cited for AS/400 benchmark tests
+sap,SAP AG,company,enterprise-software,active,,1972-present,aberdeen-1996-ibm-as400-vs-microsoft-nt-server,Microsoft itself uses AS/400 to run its own operations; migrating to SAP R/3 on BackOffice

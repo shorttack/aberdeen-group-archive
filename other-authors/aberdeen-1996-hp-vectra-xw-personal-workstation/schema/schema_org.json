@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Vectra XW Personal Workstation: Hewlett-Packard's NT-based Alternative for Technical Computing",
+  "description": "Aberdeen Group profiles Hewlett-Packard's Vectra XW personal workstation, the company's first major Windows NT/Intel platform aimed at technical computing markets traditionally served by Unix/RISC workstations. The study analyzes HP's mixed NT-Unix strategy, benchmarks the Vectra XW against Silicon Graphics Indigo 2 and NeTpower Calisto, evaluates software solution supplier relationships in MDA/EDA/GIS markets, and concludes HP has built a compelling price/performance alternative that threatens low-end Unix workstations.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-08-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "HP Vectra XW",
+    "Windows NT",
+    "workstation",
+    "technical computing",
+    "SGI",
+    "Unix",
+    "Intel Pentium Pro",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "expert-opinion",
+    "market-data",
+    "framework-factor"
+  ]
+}

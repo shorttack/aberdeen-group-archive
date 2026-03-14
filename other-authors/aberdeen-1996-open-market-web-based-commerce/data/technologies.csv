@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+om-transact,OM-Transact,application,"Open Market, Inc.",1995-2003,emerging,obsolete,aberdeen-1996-open-market-web-based-commerce,Core back-office transaction processing engine; Oracle or Sybase backend; e-commerce assets acquired by Soverain
+om-axcess,OM-Axcess,application,"Open Market, Inc.",1995-2003,emerging,obsolete,aberdeen-1996-open-market-web-based-commerce,Web access management product; manages user access to databases/servers
+om-securelink,OM-SecureLink,protocol,"Open Market, Inc.",1995-2003,emerging,obsolete,aberdeen-1996-open-market-web-based-commerce,Ticketing + MD5 hash + SSL security layer; enables geographically dispersed transaction architecture
+ssl,SSL (Secure Sockets Layer),protocol,Netscape,1995-2015,emerging,obsolete,aberdeen-1996-open-market-web-based-commerce,Superseded by TLS; used within OM-SecureLink architecture
+http,HTTP (HyperText Transfer Protocol),protocol,W3C/IETF,1991-present,emerging,active,aberdeen-1996-open-market-web-based-commerce,Open Market built its entire architecture on open HTTP; key differentiator vs proprietary solutions
+oracle-rdbms,Oracle RDBMS,platform,Oracle Corporation,1979-present,mature,active,aberdeen-1996-open-market-web-based-commerce,One of two database backends supported by OM-Transact (other: Sybase)
+sybase-rdbms,Sybase RDBMS,platform,Sybase,1984-2015,mature,legacy-supported,aberdeen-1996-open-market-web-based-commerce,Alternative database backend for OM-Transact; SAP acquired Sybase 2010

@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Open Market: Delivering the Infrastructure For Truly Open Web-based Commerce",
+  "description": "Aberdeen Group profiles Open Market, Inc. (Cambridge, MA), a pioneer in enterprise-grade web commerce infrastructure. The study examines Open Market's product suite\u2014OM-Transact, OM-Axcess, and OM-SecureLink\u2014designed to support many-to-many web-based transactions across multiple content servers and back-office systems. Aberdeen strongly recommends Open Market's platform as the most comprehensive and production-ready solution for enterprises building next-generation electronic commerce infrastructure, and contrasts it favorably against IBM and point-to-point proprietary competitors.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604113516/http://www.aberdeen.com:80/secure/profiles/openmk/body.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "web commerce",
+    "e-commerce infrastructure",
+    "Open Market",
+    "OM-Transact",
+    "Commerce Service Provider",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/2003",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "market-data"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Archival Research Collection 1996"
+  }
+}

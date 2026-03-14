@@ -1,0 +1,18 @@
+{
+  "name": "aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better",
+  "title": "Dun & Bradstreet Software SmartStream Distributed Enterprise: Putting It All Together To Better Spread It All Apart",
+  "description": "Aberdeen Group product profile (April 1996) of D&B Software's SmartStream DE ERP suite. Archival Frictionless Data Package v13.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "author"}],
+  "keywords": ["D&B Software", "SmartStream", "ERP", "Sybase", "workflow", "distributed architecture", "1996"],
+  "created": "2026-03-14",
+  "sources": [{"title": "Wayback Machine", "path": "https://web.archive.org/web/19970604113812/http://www.aberdeen.com:80/secure/profiles/d&b/d&b.htm"}],
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

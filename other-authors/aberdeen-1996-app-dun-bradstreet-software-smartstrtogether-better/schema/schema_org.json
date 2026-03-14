@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dun & Bradstreet Software SmartStream Distributed Enterprise: Putting It All Together To Better Spread It All Apart",
+  "description": "Aberdeen Group product profile (April 1996) of D&B Software's SmartStream DE ERP suite. Archival Frictionless Data Package v13.",
+  "identifier": "aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better",
+  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "datePublished": "1996-04",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["D&B Software", "SmartStream", "ERP", "client/server", "Sybase", "workflow", "distributed architecture", "1996"],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://web.archive.org/web/19970604113812/http://www.aberdeen.com:80/secure/profiles/d&b/d&b.htm"
+  }
+}

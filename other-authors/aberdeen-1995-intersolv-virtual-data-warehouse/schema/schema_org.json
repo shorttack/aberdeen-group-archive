@@ -1,0 +1,153 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-intersolv-virtual-data-warehouse",
+  "name": "Exploring Intersolv's Virtual Data Warehouse",
+  "alternateName": "Aberdeen Group Intersolv VDW Profile (1995)",
+  "description": "Aberdeen Group profile examining Intersolv's Virtual Data Warehouse approach, which provides unified access to distributed data sources without requiring physical data consolidation. Structured as a Frictionless Data Package for archival and research use. Contains 45 observations, 12 entities, and 15 technologies extracted from the original 1995 document.",
+  "url": "https://web.archive.org/web/19970108191541/http://www.aberdeen.com:80/secure/profiles/intsolv/interslv.htm",
+  "identifier": "aberdeen-1995-intersolv-virtual-data-warehouse",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-13",
+  "datePublished": "1995-10-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en-US",
+  "license": "https://opendatacommons.org/licenses/pddl/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    },
+    "telephone": "617-723-7890"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Data Warehousing",
+      "description": "Technologies and practices for consolidating enterprise data for analytics and decision support"
+    },
+    {
+      "@type": "Thing",
+      "name": "Data Virtualization",
+      "description": "Providing unified data access without physical consolidation of data"
+    },
+    {
+      "@type": "Organization",
+      "name": "Intersolv Inc.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9420 Key West Ave",
+        "addressLocality": "Rockville",
+        "addressRegion": "MD",
+        "postalCode": "20850",
+        "addressCountry": "US"
+      },
+      "telephone": "800-547-4000"
+    }
+  ],
+  "keywords": [
+    "data warehousing",
+    "virtual data warehouse",
+    "data virtualization",
+    "ODBC",
+    "metadata",
+    "decision support",
+    "Intersolv",
+    "DataDirect",
+    "SmartData",
+    "SequeLink",
+    "business intelligence",
+    "1995",
+    "Aberdeen Group",
+    "product profile"
+  ],
+  "temporalCoverage": "1995",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "description": "Study-level metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "description": "Organizations and entities mentioned in the study with current status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "description": "Technologies and products mentioned in the study with lifecycle status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "description": "Individual claims, facts, and observations extracted from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "description": "Controlled vocabulary for codes used across all tables"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "Exploring Intersolv's Virtual Data Warehouse",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-10-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "about": "Product profile of Intersolv's Virtual Data Warehouse solution",
+    "url": "https://web.archive.org/web/19970108191541/http://www.aberdeen.com:80/secure/profiles/intsolv/interslv.htm"
+  },
+  "measurementTechnique": [
+    "Industry analysis",
+    "Competitive profiling",
+    "Field research with end users"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "observation_type",
+      "description": "Type of observation: claim, fact, user-feedback, market-observation, product-feature, pricing"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "entity_status",
+      "description": "Current status of organizations mentioned in 1995 study: active, acquired, merged, renamed, discontinued"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tech_lifecycle_status",
+      "description": "Current lifecycle status of technologies mentioned in 1995 study: active, evolved, legacy, discontinued"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sentiment",
+      "description": "Sentiment of analyst claims and observations: positive, neutral, negative"
+    }
+  ]
+}

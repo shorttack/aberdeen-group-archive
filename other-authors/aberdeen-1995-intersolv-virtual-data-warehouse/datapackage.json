@@ -1,0 +1,163 @@
+{
+  "name": "aberdeen-1995-intersolv-virtual-data-warehouse",
+  "title": "Exploring Intersolv's Virtual Data Warehouse",
+  "description": "Aberdeen Group profile examining Intersolv's Virtual Data Warehouse approach, which provides unified access to distributed data sources without requiring physical data consolidation. Published October 1995. Structured as a Frictionless Data Package for archival and research use.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "id": "aberdeen-1995-intersolv-virtual-data-warehouse",
+  "licenses": [
+    {
+      "name": "odc-pddl",
+      "title": "Open Data Commons Public Domain Dedication and Licence",
+      "path": "https://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Exploring Intersolv's Virtual Data Warehouse (Aberdeen Group, 1995)",
+      "author": "Aberdeen Group",
+      "date": "1995-10-01",
+      "path": "1995-Exploring-Intersolv_s-Virtual-Data-Warehouse-pr-4.pdf",
+      "url": "https://web.archive.org/web/19970108191541/http://www.aberdeen.com:80/secure/profiles/intsolv/interslv.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "data warehousing",
+    "virtual data warehouse",
+    "data virtualization",
+    "ODBC",
+    "metadata",
+    "decision support",
+    "Intersolv",
+    "DataDirect",
+    "1995",
+    "Aberdeen Group",
+    "product profile",
+    "business intelligence"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Top-level study metadata for each Aberdeen Group research document in the collection.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the study (slug format)"},
+          {"name": "title", "type": "string", "constraints": {"required": true}, "description": "Full title of the study"},
+          {"name": "author", "type": "string", "constraints": {"required": true}, "description": "Author or authoring organization"},
+          {"name": "date", "type": "date", "constraints": {"required": true}, "description": "Publication date (ISO 8601)"},
+          {"name": "type", "type": "string", "description": "Study type code (FK → codes.code where scheme=study-type)"},
+          {"name": "domain", "type": "string", "description": "Primary domain code (FK → codes.code where scheme=domain)"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes (FK → codes.code where scheme=methodology)"},
+          {"name": "abstract", "type": "string", "description": "Summary description of the study"},
+          {"name": "source_url", "type": "string", "description": "Archival or canonical URL for the source document"},
+          {"name": "pdf_filename", "type": "string", "description": "Filename of the source PDF"},
+          {"name": "page_count", "type": "integer", "description": "Number of pages in the source PDF"},
+          {"name": "word_count_approx", "type": "integer", "description": "Approximate word count of the source document"},
+          {"name": "study_num", "type": "integer", "description": "Sequential study number in the collection"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Organizations, companies, and named entities mentioned in the study, with current status research.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique entity identifier"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK → studies.study_id"},
+          {"name": "name", "type": "string", "constraints": {"required": true}, "description": "Entity name as referenced in study"},
+          {"name": "entity_type", "type": "string", "description": "Entity type code (FK → codes.code where scheme=entity-type)"},
+          {"name": "description", "type": "string", "description": "Description of the entity"},
+          {"name": "hq_location", "type": "string", "description": "Headquarters location at time of study"},
+          {"name": "status", "type": "string", "description": "Current status code (FK → codes.code where scheme=entity-status)"},
+          {"name": "status_detail", "type": "string", "description": "Narrative explanation of current entity status"},
+          {"name": "status_source_url", "type": "string", "description": "URL of source used to determine current status"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies, products, standards, and architectural patterns mentioned in the study, with lifecycle status.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique technology identifier"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK → studies.study_id"},
+          {"name": "name", "type": "string", "constraints": {"required": true}, "description": "Technology or product name"},
+          {"name": "category", "type": "string", "description": "Technology category (e.g., software-product, standard, architecture-pattern)"},
+          {"name": "vendor", "type": "string", "description": "Vendor or standards body associated with technology"},
+          {"name": "description", "type": "string", "description": "Description of the technology as referenced in the study"},
+          {"name": "lifecycle_status", "type": "string", "description": "Current lifecycle status (FK → codes.code where scheme=tech-lifecycle)"},
+          {"name": "lifecycle_note", "type": "string", "description": "Narrative explanation of current lifecycle status"},
+          {"name": "successor_technology", "type": "string", "description": "Technology or technologies that succeeded this one, if applicable"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "Individual claims, facts, user feedback, market observations, product features, and pricing statements extracted from the study.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "FK → studies.study_id"},
+          {"name": "observation_type", "type": "string", "description": "Observation type code (FK → codes.code where scheme=observation-type)"},
+          {"name": "subject_entity_id", "type": "string", "description": "FK → entities.entity_id (nullable)"},
+          {"name": "subject_tech_id", "type": "string", "description": "FK → technologies.tech_id (nullable)"},
+          {"name": "text", "type": "string", "constraints": {"required": true}, "description": "Full text of the observation, paraphrased or quoted from source"},
+          {"name": "sentiment", "type": "string", "description": "Sentiment code (FK → codes.code where scheme=sentiment)"},
+          {"name": "page_num", "type": "integer", "description": "Source page number in PDF"},
+          {"name": "section", "type": "string", "description": "Section heading in the source document"},
+          {"name": "tags", "type": "string", "description": "Comma-separated topic tags for filtering and analysis"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}},
+          {"fields": ["subject_entity_id"], "reference": {"resource": "entities", "fields": ["entity_id"]}},
+          {"fields": ["subject_tech_id"], "reference": {"resource": "technologies", "fields": ["tech_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Codes",
+      "description": "Controlled vocabulary of codes used across all tables for types, statuses, domains, and other categorical fields.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "code", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique code identifier (format: scheme:value)"},
+          {"name": "label", "type": "string", "constraints": {"required": true}, "description": "Human-readable label for the code"},
+          {"name": "scheme", "type": "string", "constraints": {"required": true}, "description": "Code scheme/namespace (e.g., study-type, methodology, domain)"},
+          {"name": "parent_code", "type": "string", "description": "FK → codes.code for hierarchical codes (nullable)"},
+          {"name": "definition", "type": "string", "description": "Definition of the code"}
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

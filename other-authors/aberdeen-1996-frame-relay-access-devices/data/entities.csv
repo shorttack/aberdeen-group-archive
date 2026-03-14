@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"netlink-inc","Netlink, Inc.","company","networking-hardware","acquired","Cabletron Systems","1988-1996","aberdeen-1996-frame-relay-access-devices","Framingham MA; acquired by Cabletron Systems for ~$158-160M in stock, September 1996 — the same month as this profile"
+"cabletron-systems","Cabletron Systems","company","networking-hardware","dissolved","Enterasys Networks; Aprisma; Global Network Technology","1983-2001","aberdeen-1996-frame-relay-access-devices","Acquired Netlink September 1996 for frame relay capabilities; split into 4 companies 2001"
+"aberdeen-group","Aberdeen Group, Inc.","firm","IT-research","acquired","Aberdeen (Harte-Hanks)","1988-2010","aberdeen-1996-frame-relay-access-devices","Boston MA"
+"ibm","IBM","company","IT-systems","active","","1911-present","aberdeen-1996-frame-relay-access-devices","Service agreement with Netlink for nationwide service; SNA network management NetView integration"
+"anixter","Anixter International","company","systems-integration","acquired","Wesco International","1957-2020","aberdeen-1996-frame-relay-access-devices","World-wide systems integrator contracted with Netlink; acquired by Wesco International in 2020"
+"hp","Hewlett-Packard Company","company","IT-systems","active","HP Inc / HPE","1939-2015 (split)","aberdeen-1996-frame-relay-access-devices","OmniView SNMP management system based on HP OpenView foundation"

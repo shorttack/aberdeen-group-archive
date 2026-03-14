@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Frame Relay Access Devices",
+  "description": "This Aberdeen Group profile evaluates Netlink, Inc.'s family of Frame Relay Access Devices (FRADs) including TurboFRAD, OmniFRAD, NetFRAD, and the OmniLinx 8000 edge switch. The study examines the technical advantages of FRADs over routers for mixed SNA/LAN enterprise WAN environments, documents customer ROI through 20-25% leased-line cost savings, and predicts that frame relay will remain integral to the eventual ATM migration as an edge network.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "frame relay",
+    "FRAD",
+    "WAN networking",
+    "SNA",
+    "ATM",
+    "enterprise networking",
+    "Netlink"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "actual-outcome"
+  ],
+  "isBasedOn": "https://web.archive.org/web/19970604113801/http://www.aberdeen.com:80/secure/profiles/netlink/netlink2.htm"
+}

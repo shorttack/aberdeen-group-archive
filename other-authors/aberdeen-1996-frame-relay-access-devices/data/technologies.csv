@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"frad","Frame Relay Access Device (FRAD)","platform","Netlink","1991-2005","emerging","obsolete","aberdeen-1996-frame-relay-access-devices","Netlink products: TurboFRAD, OmniFRAD, NetFRAD; superseded by routers and MPLS"
+"frame-relay","Frame Relay","protocol","Various carriers","1991-2010","emerging","obsolete","aberdeen-1996-frame-relay-access-devices","Packet-switched WAN protocol; began displacing leased lines 1991; peaked ~2000; displaced by MPLS"
+"sna","IBM SNA (Systems Network Architecture)","protocol","IBM","1974-2005","mature","obsolete","aberdeen-1996-frame-relay-access-devices","Legacy IBM mainframe networking protocol; 9 bytes overhead with RFC 1490 vs 50-70 for TCP/IP encapsulation"
+"atm-networking","ATM (Asynchronous Transfer Mode)","protocol","Various","1992-2005","emerging","obsolete","aberdeen-1996-frame-relay-access-devices","High-speed cell-switching for integrated voice/video/data; Aberdeen predicted frame relay as ATM edge"
+"omnilinx-8000","OmniLinx 8000","platform","Netlink","1996-1998","emerging","obsolete","aberdeen-1996-frame-relay-access-devices","Edge switch for private/hybrid frame relay; acquired with Netlink by Cabletron"
+"intel-i960","Intel i960 RISC Microprocessor","platform","Intel","1988-2007","mature","obsolete","aberdeen-1996-frame-relay-access-devices","Used in Netlink FRAD parallel port architecture; Matrix VC architecture"

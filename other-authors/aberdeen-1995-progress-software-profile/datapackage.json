@@ -1,0 +1,340 @@
+{
+  "name": "aberdeen-1995-progress-software-profile",
+  "id": "https://aberdeenarchive.bluebridgegrp.com/datasets/aberdeen-1995-progress-software-profile",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "title": "Progress Version 8.0 Development Environment: The Importance Of Experience-Driven Scalability and Flexibility",
+  "description": "Aberdeen evaluates Progress Software's Version 8.0 client-server application development environment (CADE), finding it a scalable, flexible, database-independent toolset. The study examines Progress's SMARTOBJECT components, VPE tools, 4GL language, DataServer architecture, and object-oriented capabilities, concluding Progress 8.0 addresses key IS requirements for complex data-intensive applications through experience-driven engineering.",
+  "version": "13.0.0",
+  "keywords": [
+    "Aberdeen Group",
+    "1995",
+    "product-profile",
+    "client-server application development environments",
+    "archival"
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    },
+    {
+      "title": "BlueBridge Group",
+      "role": "curator"
+    }
+  ],
+  "created": "1995-12-01",
+  "sources": [
+    {
+      "title": "Wayback Machine",
+      "path": "https://web.archive.org/web/19970112012234/http://www.aberdeen.com:80/secure/profiles/progress/progress.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Unique study identifier"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "product-profile",
+                "market-viewpoint",
+                "technology-viewpoint",
+                "practice-viewpoint",
+                "white-paper",
+                "impact-report"
+              ]
+            }
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "not-applicable"
+              ]
+            }
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "study_id"
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "entity_id"
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "tech_id"
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "strategy-classification",
+                "viability-prediction",
+                "actual-outcome",
+                "technology-assessment",
+                "benchmark-result",
+                "framework-factor",
+                "market-data",
+                "expert-opinion"
+              ]
+            }
+          },
+          {
+            "name": "year_observed",
+            "type": "integer"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "integer"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "obs_id"
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "code_id"
+        ]
+      }
+    }
+  ]
+}

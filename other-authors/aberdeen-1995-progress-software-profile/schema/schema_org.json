@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Progress Version 8.0 Development Environment: The Importance Of Experience-Driven Scalability and Flexibility",
+  "description": "Aberdeen evaluates Progress Software's Version 8.0 client-server application development environment (CADE), finding it a scalable, flexible, database-independent toolset. The study examines Progress's SMARTOBJECT components, VPE tools, 4GL language, DataServer architecture, and object-oriented capabilities, concluding Progress 8.0 addresses key IS requirements for complex data-intensive applications through experience-driven engineering.",
+  "url": "https://aberdeenarchive.bluebridgegrp.com/datasets/aberdeen-1995-progress-software-profile",
+  "identifier": "aberdeen-1995-progress-software-profile",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BlueBridge Group"
+  },
+  "datePublished": "1995-12-01",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Aberdeen Group",
+    "1995",
+    "product-profile",
+    "client-server application development environments",
+    "market research",
+    "archival"
+  ],
+  "temporalCoverage": "1995",
+  "inLanguage": "en",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "WebPage",
+    "url": "https://web.archive.org/web/19970112012234/http://www.aberdeen.com:80/secure/profiles/progress/progress.htm",
+    "name": "Original document archived by Wayback Machine"
+  }
+}

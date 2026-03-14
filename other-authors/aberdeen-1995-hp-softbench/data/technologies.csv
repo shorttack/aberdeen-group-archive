@@ -1,0 +1,27 @@
+tech_id,study_id,name,category,lifecycle_status,lifecycle_note,vendor
+tech-softbench,aberdeen-1995-hp-softbench,HP C++ SoftBench 5.0,IDE,obsolete,"Discontinued with HP-UX developer tools; no longer commercially available",Hewlett-Packard
+tech-softbench-cm,aberdeen-1995-hp-softbench,SoftBench CM,configuration-management,obsolete,"HP SoftBench family discontinued; product line ended",Hewlett-Packard
+tech-codeadvisor,aberdeen-1995-hp-softbench,C++ SoftBench CodeAdvisor,static-analysis,obsolete,"Add-on module for SoftBench; discontinued with parent product",Hewlett-Packard
+tech-graphical-class-editor,aberdeen-1995-hp-softbench,Graphical Class Editor,IDE-feature,obsolete,"SoftBench 5.0 feature; discontinued with parent product",Hewlett-Packard
+tech-encapsulator,aberdeen-1995-hp-softbench,SoftBench Encapsulator,tool-integration,obsolete,"Third-party tool integration mechanism for SoftBench; discontinued",Hewlett-Packard
+tech-spcd,aberdeen-1995-hp-softbench,Sub-Process Control Daemon (SPCD),distributed-development,obsolete,"SoftBench cross-platform development daemon; discontinued with SoftBench",Hewlett-Packard
+tech-oodce,aberdeen-1995-hp-softbench,HP Object-Oriented DCE (OODCE),distributed-computing,obsolete,"HP product for building DCE-based OO applications; discontinued",Hewlett-Packard
+tech-hp-dst,aberdeen-1995-hp-softbench,HP Distributed Smalltalk (DST),programming-language-runtime,obsolete,"HP Smalltalk CORBA implementation; discontinued",Hewlett-Packard
+tech-orb-plus,aberdeen-1995-hp-softbench,HP ORB Plus,middleware,obsolete,"HP CORBA ORB for C++ announced for 1996 release; discontinued",Hewlett-Packard
+tech-commonpoint,aberdeen-1995-hp-softbench,CommonPoint,application-framework,discontinued,"Taligent C++ component framework; Taligent dissolved 1998; CommonPoint discontinued","Taligent/IBM"
+tech-hp-ux,aberdeen-1995-hp-softbench,HP-UX,operating-system,legacy,"HP's Unix OS; HPE announced end-of-life for HP-UX 11i v3 December 31, 2025",Hewlett-Packard
+tech-solaris,aberdeen-1995-hp-softbench,Sun Solaris,operating-system,legacy,"Sun Microsystems OS; Oracle now owns Solaris; Oracle Solaris 11.4 in extended support",Sun Microsystems/Oracle
+tech-cpp,aberdeen-1995-hp-softbench,C++ Language,programming-language,active,"ISO-standardized language; C++23 published; widely used as of 2026",ISO/multiple
+tech-cobol,aberdeen-1995-hp-softbench,COBOL,programming-language,legacy,"Still used extensively in mainframe/legacy banking and government systems as of 2026",multiple
+tech-micro-focus-cobol,aberdeen-1995-hp-softbench,Micro Focus COBOL,programming-language-runtime,active,"COBOL tooling referenced in study; now under OpenText (acquired Micro Focus 2023)",Micro Focus/OpenText
+tech-dce,aberdeen-1995-hp-softbench,OSF Distributed Computing Environment (DCE),middleware,largely-obsolete,"OSF/Open Group standard for distributed computing; largely replaced by web services and REST; technically maintained by The Open Group but rarely deployed",OSF/The Open Group
+tech-corba,aberdeen-1995-hp-softbench,CORBA,middleware,legacy,"OMG standard for distributed OO; superseded by web services and REST in most contexts; limited legacy use persists",OMG
+tech-uim-x,aberdeen-1995-hp-softbench,UIM/X,UI-builder,obsolete,"Motif-based GUI builder used in HP deployment scenarios; discontinued",HP/Integrated Computer Solutions
+tech-xemacs,aberdeen-1995-hp-softbench,XEmacs Editor,text-editor,active,"Open-source Emacs fork; still available as of 2026 though less dominant than GNU Emacs",XEmacs Project
+tech-cde,aberdeen-1995-hp-softbench,Common Desktop Environment (CDE),desktop-environment,legacy,"Unix desktop environment; open-sourced in 2012; now CDE on SourceForge; rarely used in production",multiple vendors
+tech-vue,aberdeen-1995-hp-softbench,HP VUE (Visual User Environment),desktop-environment,obsolete,"HP's desktop environment that preceded CDE; discontinued",Hewlett-Packard
+tech-informix-db,aberdeen-1995-hp-softbench,Informix Database,database,legacy,"Supported database in SoftBench 5.0; IBM acquired Informix 2001; IBM ended Informix continuing support April 2025",Informix/IBM
+tech-oracle-db,aberdeen-1995-hp-softbench,Oracle Database,database,active,"Supported database in SoftBench 5.0; Oracle DB still widely deployed as of 2026",Oracle
+tech-sybase,aberdeen-1995-hp-softbench,Sybase,database,legacy,"Supported database in SoftBench 5.0; acquired by SAP in 2010; SAP ASE successor still available",Sybase/SAP
+tech-db2-9000,aberdeen-1995-hp-softbench,DB2/9000,database,obsolete,"HP-UX port of IBM DB2; discontinued with HP-UX product line",IBM/HP
+tech-cics,aberdeen-1995-hp-softbench,CICS,transaction-monitor,active,"IBM transaction processing middleware; still actively used in mainframe environments as of 2026",IBM

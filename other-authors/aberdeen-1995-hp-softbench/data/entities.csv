@@ -1,0 +1,16 @@
+entity_id,study_id,name,type,role,status,status_note,hq_country
+ent-hp,aberdeen-1995-hp-softbench,Hewlett-Packard,company,subject,split,"Split into HP Inc. (HPQ) and Hewlett Packard Enterprise (HPE) on November 1, 2015",USA
+ent-hp-inc,aberdeen-1995-hp-softbench,HP Inc.,company,successor-entity,active,"Consumer PCs and printers successor to Hewlett-Packard post-2015 split",USA
+ent-hpe,aberdeen-1995-hp-softbench,Hewlett Packard Enterprise,company,successor-entity,active,"Enterprise hardware/software/services successor to Hewlett-Packard post-2015 split",USA
+ent-aberdeen,aberdeen-1995-hp-softbench,Aberdeen Group,company,author,acquired,"IT market research firm; acquired by Aberdeen (Harte-Hanks spinoff) lineage; now part of Aberdeen Strategy & Research",USA
+ent-taligent,aberdeen-1995-hp-softbench,Taligent,company,partner,dissolved,"IBM/Apple/HP joint venture dissolved January 1998; engineering teams absorbed into IBM",USA
+ent-micro-focus,aberdeen-1995-hp-softbench,Micro Focus,company,technology-partner,acquired,"COBOL tooling partner referenced in study; acquired by OpenText January 31, 2023",UK
+ent-opentext,aberdeen-1995-hp-softbench,OpenText,company,successor-entity,active,"Acquired Micro Focus in January 2023; current owner of Micro Focus product portfolio",Canada
+ent-osf,aberdeen-1995-hp-softbench,Open Software Foundation (OSF),organization,standards-body,merged,"Merged with X/Open in 1996 to form The Open Group; previously merged with Unix International in 1994",USA
+ent-open-group,aberdeen-1995-hp-softbench,The Open Group,organization,successor-entity,active,"Formed 1996 from merger of X/Open and OSF; manages UNIX trademark and DCE standards",International
+ent-omg,aberdeen-1995-hp-softbench,Object Management Group (OMG),organization,standards-body,active,"Maintains CORBA and other OO standards; still active as of 2026",USA
+ent-sun,aberdeen-1995-hp-softbench,Sun Microsystems,company,platform-vendor,acquired,"Referenced as Solaris host platform; acquired by Oracle Corporation January 27, 2010",USA
+ent-oracle,aberdeen-1995-hp-softbench,Oracle Corporation,company,successor-entity,active,"Acquired Sun Microsystems in 2010; current owner of Solaris and related assets",USA
+ent-ibm,aberdeen-1995-hp-softbench,IBM,company,partner,active,"Partnered with HP/Apple in Taligent; absorbed Taligent in 1998; still active as of 2026",USA
+ent-informix,aberdeen-1995-hp-softbench,Informix,company,technology-partner,acquired,"Database vendor referenced as supported DB; acquired by IBM in 2001; IBM ended continuing support for Informix April 30, 2025",USA
+ent-apple,aberdeen-1995-hp-softbench,Apple Computer,company,partner,active,"Co-founded Taligent with IBM; now Apple Inc.; still active as of 2026",USA

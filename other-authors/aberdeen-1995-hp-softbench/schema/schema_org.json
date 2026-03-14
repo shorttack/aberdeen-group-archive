@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-hp-softbench",
+  "name": "Hewlett-Packard's C++ SoftBench 5.0 -- A Powerful Platform for Professional Developers",
+  "alternateName": "Aberdeen Group HP SoftBench 5.0 White Paper (1995)",
+  "description": "Frictionless Data Package archiving Aberdeen Group's December 1995 executive white paper evaluating HP's C++ SoftBench 5.0 IDE for object-oriented software development. Contains structured observations, entity status tracking, and technology lifecycle assessments.",
+  "url": "https://web.archive.org/web/19970112011047/http://www.aberdeen.com:80/secure/whtpaper/softbnch/softbnch.htm",
+  "identifier": "aberdeen-1995-hp-softbench",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-13",
+  "datePublished": "1995-12-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en-US",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "url": "http://www.aberdeen.com"
+  },
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "HP C++ SoftBench 5.0",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "HP-UX, Sun Solaris",
+      "softwareVersion": "5.0",
+      "releaseNotes": "Version 5.0 released December 1995 adding Graphical Class Editor, CodeAdvisor, and enhanced SoftBench CM",
+      "author": {
+        "@type": "Organization",
+        "name": "Hewlett-Packard"
+      }
+    }
+  ],
+  "keywords": [
+    "C++",
+    "object-oriented programming",
+    "IDE",
+    "software development tools",
+    "Hewlett-Packard",
+    "SoftBench",
+    "distributed computing",
+    "CORBA",
+    "DCE",
+    "HP-UX",
+    "Solaris",
+    "Aberdeen Group",
+    "1995",
+    "white paper",
+    "CodeAdvisor",
+    "configuration management",
+    "COBOL"
+  ],
+  "temporalCoverage": "1995",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv",
+      "description": "Study-level metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv",
+      "description": "Organizations and companies mentioned in the study with current status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv",
+      "description": "Technologies and products mentioned in the study with lifecycle status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv",
+      "description": "Structured claims, findings, and analyst statements from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv",
+      "description": "Reference codelist for controlled vocabulary values"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "Hewlett-Packard's C++ SoftBench 5.0 -- A Powerful Platform for Professional Developers",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-12-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "genre": "white-paper",
+    "about": "HP C++ SoftBench 5.0 IDE evaluation",
+    "url": "https://web.archive.org/web/19970112011047/http://www.aberdeen.com:80/secure/whtpaper/softbnch/softbnch.htm"
+  },
+  "measurementTechnique": [
+    "industry-analysis",
+    "competitive-profiling",
+    "field-research"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "observation_type",
+      "description": "Type of analytical observation extracted from study"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "entity_status",
+      "description": "Current corporate status of organizations mentioned in study"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tech_lifecycle_status",
+      "description": "Current lifecycle status of technologies mentioned in study"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sentiment",
+      "description": "Sentiment polarity of analyst observations"
+    }
+  ]
+}

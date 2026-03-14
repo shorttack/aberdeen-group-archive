@@ -1,0 +1,157 @@
+{
+  "id": "aberdeen-1995-hp-softbench",
+  "name": "aberdeen-1995-hp-softbench",
+  "title": "Hewlett-Packard's C++ SoftBench 5.0 -- A Powerful Platform for Professional Developers",
+  "description": "Frictionless Data Package archiving Aberdeen Group's December 1995 executive white paper evaluating HP's C++ SoftBench 5.0 IDE. Contains structured observations, entity status tracking, and technology lifecycle assessments extracted from the original PDF.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-By-1.0",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hewlett-Packard's C++ SoftBench 5.0 -- A Powerful Platform for Professional Developers",
+      "author": "Aberdeen Group",
+      "date": "1995-12-01",
+      "path": "1995-Hewlett-Packard_s-C-SoftBench-5.0-...l-Platform-for-Professional-Developers-wp-6.pdf",
+      "url": "https://web.archive.org/web/19970112011047/http://www.aberdeen.com:80/secure/whtpaper/softbnch/softbnch.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "object-oriented programming",
+    "C++",
+    "IDE",
+    "software development tools",
+    "Hewlett-Packard",
+    "SoftBench",
+    "distributed computing",
+    "CORBA",
+    "DCE",
+    "1995",
+    "Aberdeen Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "title": "Studies",
+      "description": "Metadata for the source research study",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique identifier for the study", "constraints": {"required": true}},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Authoring organization"},
+          {"name": "date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
+          {"name": "type", "type": "string", "description": "Study type code; see codes.csv study_type"},
+          {"name": "domain", "type": "string", "description": "Research domain code; see codes.csv domain"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes; see codes.csv methodology"},
+          {"name": "abstract", "type": "string", "description": "Summary abstract of the study"},
+          {"name": "source_pdf", "type": "string", "description": "Filename of the source PDF"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "title": "Entities",
+      "description": "Organizations and companies mentioned in the study with current status as of 2026",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique identifier for the entity", "constraints": {"required": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.study_id"},
+          {"name": "name", "type": "string", "description": "Entity name as referenced or current legal name"},
+          {"name": "type", "type": "string", "description": "Entity type: company or organization"},
+          {"name": "role", "type": "string", "description": "Role of entity in the study context"},
+          {"name": "status", "type": "string", "description": "Current status code; see codes.csv entity_status"},
+          {"name": "status_note", "type": "string", "description": "Narrative explanation of current entity status"},
+          {"name": "hq_country", "type": "string", "description": "Country of headquarters"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "title": "Technologies",
+      "description": "Technologies, products, standards and platforms mentioned in the study with current lifecycle status",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique identifier for the technology", "constraints": {"required": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.study_id"},
+          {"name": "name", "type": "string", "description": "Technology or product name"},
+          {"name": "category", "type": "string", "description": "Technology category (e.g., IDE, database, middleware)"},
+          {"name": "lifecycle_status", "type": "string", "description": "Current lifecycle status code; see codes.csv tech_lifecycle"},
+          {"name": "lifecycle_note", "type": "string", "description": "Narrative explanation of current lifecycle status"},
+          {"name": "vendor", "type": "string", "description": "Originating or current vendor"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "title": "Observations",
+      "description": "Structured claims, findings, and analyst statements extracted from the study",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique identifier for the observation", "constraints": {"required": true}},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.study_id"},
+          {"name": "section", "type": "string", "description": "Section of the source document containing the observation"},
+          {"name": "observation_type", "type": "string", "description": "Type code for the observation; see codes.csv obs_type"},
+          {"name": "subject", "type": "string", "description": "Primary subject or topic of the observation"},
+          {"name": "claim", "type": "string", "description": "The verbatim or paraphrased claim or finding"},
+          {"name": "evidence_type", "type": "string", "description": "Type of evidence supporting the claim"},
+          {"name": "sentiment", "type": "string", "description": "Sentiment of the observation; see codes.csv sentiment"},
+          {"name": "page_ref", "type": "integer", "description": "Page number in source PDF (1-based)"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "title": "Codes",
+      "description": "Reference codelist defining all controlled vocabulary values used across CSV files",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique identifier for the code entry", "constraints": {"required": true}},
+          {"name": "code_type", "type": "string", "description": "Category of code (e.g., observation_type, sentiment, entity_status)"},
+          {"name": "code_value", "type": "string", "description": "The controlled vocabulary value"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "description", "type": "string", "description": "Definition of the code value"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

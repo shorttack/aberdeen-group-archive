@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NCR: Finally a Fail-Safe Choice For Enterprise NT",
+  "description": "Aberdeen Group evaluates NCR's Windows NT Server products for mission-critical OLTP applications based on user interviews with early adopters. The study finds that NCR's LifeKeeper, TOP END, and WorldMark servers address NT's enterprise weaknesses in reliability, scalability, and manageability. Aberdeen concludes that NCR has delivered on its 1994 promise and is a 'fail-safe choice' for NT-based OLTP deployment in retail, finance, telecom, and transportation industries.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-05-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Windows NT",
+    "OLTP",
+    "NCR",
+    "enterprise computing",
+    "high availability",
+    "LifeKeeper",
+    "TOP END",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1994/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

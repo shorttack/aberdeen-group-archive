@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+windows-nt-server,Windows NT Server,platform,Microsoft,1993-2000,emerging,obsolete,aberdeen-1996-ncr-fail-safe-enterprise-nt,NT 4.0 released Aug 1996; evolved to Windows 2000; succeeded by Windows Server 2003+
+ncr-lifekeeper,NCR LifeKeeper,framework,NCR,1994-2002,emerging,obsolete,aberdeen-1996-ncr-fail-safe-enterprise-nt,High-availability clustering software for NT; transferred to SIOS Technology
+ncr-top-end,NCR TOP END,framework,NCR,1992-2002,mature,obsolete,aberdeen-1996-ncr-fail-safe-enterprise-nt,TP monitor for OLTP transaction routing and failover; discontinued post-2000
+ncr-worldmark,NCR WorldMark Servers,platform,NCR,1994-2002,mature,obsolete,aberdeen-1996-ncr-fail-safe-enterprise-nt,NCR's SMP server hardware line for NT enterprise OLTP
+microsoft-sql-server,Microsoft SQL Server,application,Microsoft,1988-present,emerging,active,aberdeen-1996-ncr-fail-safe-enterprise-nt,SQL Server 6.0/6.5 era; evolved to SQL Server 2000+ becoming dominant enterprise RDBMS
+ncr-smp-utilization-manager,NCR SMP Utilization Manager for NT,framework,NCR,1996-2000,emerging,obsolete,aberdeen-1996-ncr-fail-safe-enterprise-nt,Planned 1996 product to assign NT apps to specific CPUs on 16-way WorldMark SMP
+teradata-data-warehouse,Teradata Data Warehouse,application,NCR/Teradata,1984-present,mature,active,aberdeen-1996-ncr-fail-safe-enterprise-nt,NCR's large-scale data warehouse; Teradata spun off from NCR in 2007

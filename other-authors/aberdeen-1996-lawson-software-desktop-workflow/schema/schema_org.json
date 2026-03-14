@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Lawson Software Delivers the Desktop and Workflow Combination One-Two-Punch",
+  "description": "Aberdeen Group evaluates Lawson Software's Open Enterprise Desktop (OED) and forthcoming integrated Lawson Workflow as a compelling 'one-two-punch' in the client-server solutions (CSS) marketplace, asserting that Lawson's multi-tier workflow architecture and process-oriented GUI give it a significant competitive advantage over Oracle, PeopleSoft, and SAP. The study analyzes workflow forms, integration levels, and scalability criteria while concluding that Lawson is uniquely positioned across multiple market segments.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112010744/http://www.aberdeen.com:80/secure/viewpnts/v9n1/v9n1.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Lawson Software",
+    "workflow",
+    "client-server",
+    "ERP",
+    "OED",
+    "CSS",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Lawson Software Delivers the Desktop and Workflow Combination One-Two-Punch",
+    "datePublished": "1996-01-12",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  }
+}

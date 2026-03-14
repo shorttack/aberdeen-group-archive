@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"bay-networks","Bay Networks, Inc.","company","networking","acquired","Nortel Networks (1998) -> Avaya (2009, enterprise)","1994-1998","1997-bay-networks--switch-node-routing-s-4d9885","Acquired by Nortel for $9.1B June 1998. Switch Node Routing Switch announced March 3, 1997."
+"cisco-systems","Cisco Systems, Inc.","company","networking","active","","1984-present","1997-bay-networks--switch-node-routing-s-4d9885","Named as competitor proposing IP Switching solutions; Cisco dominated campus networking market by 2000."
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2001)","1988-2001","1997-bay-networks--switch-node-routing-s-4d9885","Author Virginia Brooks covered enterprise networking for Aberdeen."
+"nortel-networks","Northern Telecom / Nortel Networks","company","telecommunications","dissolved","Bankruptcy 2009; enterprise sold to Avaya","1895-2009","1997-bay-networks--switch-node-routing-s-4d9885","Acquired Bay Networks June 1998 for $9.1B; renamed Nortel Networks."

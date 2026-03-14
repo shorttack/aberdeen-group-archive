@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Bay Networks' Switch Node Routing Switch Tackles Routing Performance Bottlenecks Head-On",
+  "description": "Aberdeen analyst Virginia Brooks examines Bay Networks' Switch Node Routing Switch, announced March 3, 1997, as a Layer 3 switching solution for congested campus networks. The study analyzes how enterprise network traffic patterns had reversed from the traditional 80/20 local/cross-subnet model to 20/80, making router bottlenecks critical. Aberdeen assesses the Switch Node's architecture\u2014separating data plane and control plane on dual 1.2 Gbps buses with IP AutoLearn\u2014as a cost-effective alternative to router upgrades or full ATM migration.",
+  "creator": {
+    "@type": "Person",
+    "name": "Virginia Brooks"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-03-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Bay Networks",
+    "Layer 3 switching",
+    "campus networking",
+    "routing bottlenecks",
+    "Switch Node",
+    "IP AutoLearn",
+    "enterprise networking",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

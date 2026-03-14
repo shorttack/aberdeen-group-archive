@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sun Microsystems Computer Company: UltraComputing for Business",
+  "description": "Aberdeen Group profiles Sun Microsystems Computer Company's (SMCC) commercial market strategy and new UltraSPARC server line launched April 1996. The study analyzes Sun's Network Business Advantage program (BusinessWare, Customer Management Solutions, Decision Warehouse), the UltraSPARC architecture delivering twice the power and five times the bandwidth of prior SPARC, and Sun's Java-driven Internet strategy. Aberdeen projects continued growth in Sun's commercial market revenues and endorses the UltraSPARC platform as meeting enterprise IS buying criteria.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Unix-server-commercial-computing",
+    "Aberdeen Group",
+    "1996",
+    "IT research"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

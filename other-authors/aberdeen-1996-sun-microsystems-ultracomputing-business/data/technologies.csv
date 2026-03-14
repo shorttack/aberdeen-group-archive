@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ultrasparc,UltraSPARC Processor Architecture,platform,Sun Microsystems,1995-2010,emerging,obsolete,aberdeen-1996-sun-microsystems-ultracomputing-business,"64-bit RISC; 143/167/200MHz at launch; 2x power, 5x bandwidth, 20% latency vs SPARC; succeeded by SPARC64"
+solaris,Solaris (2.5),platform,Sun Microsystems,1991-2018,mature,legacy-supported,aberdeen-1996-sun-microsystems-ultracomputing-business,SunOS-based Unix; SMP-tuned; Solaris open-sourced as OpenSolaris; Oracle Solaris still maintained
+java,Java Platform,language,Sun Microsystems / Oracle,1995-present,emerging,active,aberdeen-1996-sun-microsystems-ultracomputing-business,Launched 1995; JavaSoft subsidiary; Aberdeen noted Java 'taking ISV community by storm' in 1996
+netra-servers,Sun Netra Servers,platform,Sun Microsystems,1994-2010,mature,obsolete,aberdeen-1996-sun-microsystems-ultracomputing-business,Internet/e-commerce focused servers; easy setup for remote locations; enhanced for electronic commerce in March 1996
+tcp-ip,TCP/IP Protocol,protocol,IETF,1983-present,mature,active,aberdeen-1996-sun-microsystems-ultracomputing-business,Universal networking protocol; Sun's commercial positioning tied to internet/TCP-IP growth
+sparc-enterprise-servers,SMCC Enterprise UltraSPARC Servers,platform,Sun Microsystems,1996-2010,emerging,obsolete,aberdeen-1996-sun-microsystems-ultracomputing-business,6 new UltraSPARC-based commercial servers announced April 1996; totally new design inside and out

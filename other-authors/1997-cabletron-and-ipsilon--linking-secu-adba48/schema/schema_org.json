@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Cabletron and Ipsilon: Linking SecureFast Architecture and IP Switching",
+  "description": "Aberdeen Group Impact Brief (April 17, 1997) analyzing the strategic alliance between Cabletron Systems and Ipsilon Networks, combining SecureFast VLAN with IP Switching technology.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "author": [{"@type": "Person", "name": "Samuel M. Alunni"}],
+  "datePublished": "1997-04-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Cabletron Systems",
+    "Ipsilon Networks",
+    "SecureFast",
+    "IP Switching",
+    "VLAN",
+    "networking",
+    "GSMP",
+    "IFMP",
+    "MPLS",
+    "enterprise networking",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "market-data",
+    "expert-opinion"
+  ]
+}

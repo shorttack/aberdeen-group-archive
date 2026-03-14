@@ -1,0 +1,52 @@
+{
+  "name": "1997-cabletron-and-ipsilon--linking-secu-adba48",
+  "title": "Cabletron and Ipsilon: Linking SecureFast Architecture and IP Switching",
+  "description": "Aberdeen Group Impact Brief (April 17, 1997) analyzing the $20M equity investment and technology alliance between Cabletron Systems and Ipsilon Networks, combining SecureFast VLAN switching with IP Switching to create a desktop-to-WAN switched network competing with Cisco's Tag Switching.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Samuel M. Alunni (Aberdeen Group)",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Impact Brief, April 17, 1997",
+      "path": "https://web.archive.org/web/19970604114310/http://www.aberdeen.com:80/secure/impacts/1997/cable/body.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

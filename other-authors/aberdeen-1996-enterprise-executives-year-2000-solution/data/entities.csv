@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Aberdeen Strategy & Research","1988-present","aberdeen-1996-enterprise-executives-year-2000-solution","Author; published in Aberdeen Viewpoints Volume 9 / Number 18"
+"walmart","Wal-Mart Stores, Inc.","company","retail","active","Walmart, Inc.","1962-present","aberdeen-1996-enterprise-executives-year-2000-solution","Used as example: Wal-Mart requiring Y2K readiness proof from vendors"
+"us-congress","U.S. Congress","agency","government","active","","1789-present","aberdeen-1996-enterprise-executives-year-2000-solution","Congressional committees established to address Y2K; Year 2000 Information and Readiness Disclosure Act (1998)"

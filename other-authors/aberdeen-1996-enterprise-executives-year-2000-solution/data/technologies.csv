@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"legacy-cobol","Legacy COBOL / Two-Digit Year Code","application","Various","1960-2000","declining","legacy-supported","aberdeen-1996-enterprise-executives-year-2000-solution","Two-digit year representations from 1960s-1970s; root cause of Y2K problem"
+"enterprise-erp","Enterprise Business Applications (ERP/legacy)","application","Various","1970-present","mature","active","aberdeen-1996-enterprise-executives-year-2000-solution","Mission-critical applications requiring Y2K remediation"
+"web-enabled-infrastructure","Web-Enabled Technology Infrastructure","framework","Various","1994-present","emerging","active","aberdeen-1996-enterprise-executives-year-2000-solution","Tightly integrated real-time global information flows cited as vulnerability amplifier"

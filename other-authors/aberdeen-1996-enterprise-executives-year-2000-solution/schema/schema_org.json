@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "How Enterprise Executives Play a Pivotal Role in the Year 2000 Solution",
+  "description": "Aberdeen Group argues that the Year 2000 (Y2K) problem is fundamentally a competitive strategy issue, not merely a technical one, and that senior executives \u2014 not just IT departments \u2014 must take leadership roles. The study contends that non-Y2K-compliant enterprises will suffer competitive disadvantage as customers, partners (e.g., Wal-Mart), and regulators require proof of Y2K readiness, and prescribes a proactive executive response with trusted external assistance.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19961023175051/http://www.aberdeen.com:80/secure/viewpnts/v9n18/htframe.htm",
+  "keywords": [
+    "Year 2000",
+    "Y2K",
+    "enterprise strategy",
+    "competitive advantage",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996"
+}

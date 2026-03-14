@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ecxpert-internet-edi,ECXpert (Internet EDI),application,Actra Corp.,1997-1998,emerging,obsolete,aberdeen-1997-actra-commercexpert-internet-commerce,Structured messaging and Internet EDI product; reached Beta and GA in 1997
+sellerxpert,SellerXpert,application,Actra Corp.,1997-1998,emerging,obsolete,aberdeen-1997-actra-commercexpert-internet-commerce,Sales-to-order product; reached Beta and GA status in 1997
+buyerxpert,BuyerXpert,application,Actra Corp.,1997-1998,emerging,obsolete,aberdeen-1997-actra-commercexpert-internet-commerce,Procurement product delivered to early customers in 1997
+publishingxpert,PublishingXpert,application,Actra Corp.,1996-1998,emerging,obsolete,aberdeen-1997-actra-commercexpert-internet-commerce,Knowledge publishing product; new version reached GA in 1997
+commercexpert-suite,CommerceXpert Suite,application,Actra Corp. / Netscape,1997-2000,emerging,obsolete,aberdeen-1997-actra-commercexpert-internet-commerce,Family of B2B Internet commerce products; rebranded as Netscape CommerceXpert after acquisition

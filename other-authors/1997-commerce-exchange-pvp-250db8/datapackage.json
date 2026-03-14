@@ -1,0 +1,52 @@
+{
+  "name": "1997-commerce-exchange-pvp-250db8",
+  "title": "Commerce eXchange Answers The 'Show Me The Internet Money!' Challenge",
+  "description": "Aberdeen Group Product Viewpoint (Volume 10, Number 2, March 14, 1997) evaluating InterWorld Technology Ventures' Commerce eXchange 2.0 enterprise internet commerce platform, covering the $520M internet goods market, transaction engine architecture, CORBA/DCOM neutrality via Oasis abstraction layer, B2B/B2C integration, and reference customers.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Product Viewpoint Vol.10 No.2, March 14, 1997",
+      "path": "https://web.archive.org/web/19970604112242/http://www.aberdeen.com:80/secure/viewpnts/1997/v10n2/body.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

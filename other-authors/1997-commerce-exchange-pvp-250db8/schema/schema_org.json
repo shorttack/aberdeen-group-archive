@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Commerce eXchange Answers The 'Show Me The Internet Money!' Challenge",
+  "description": "Aberdeen Group Product Viewpoint (March 14, 1997) evaluating InterWorld Technology Ventures' Commerce eXchange 2.0 enterprise internet commerce platform at the birth of commercial e-commerce.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "InterWorld",
+    "Commerce eXchange",
+    "internet commerce",
+    "e-commerce",
+    "CORBA",
+    "DCOM",
+    "Oasis",
+    "digital delivery",
+    "EDI",
+    "distributed transaction processing",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

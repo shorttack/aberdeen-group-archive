@@ -1,0 +1,41 @@
+{
+  "name": "aberdeen-1996-blyths-ren-architecture-prescription-it-success",
+  "title": "Blyth's REN Architecture: A Prescription for IT Success",
+  "description": "Aberdeen Group evaluates Blyth Software's REN architecture targeting both traditional client-server and Internet/Intranet electronic commerce applications. Features analysis of Web Enabler, OMNIS Data Server, Web Vault, Web Manager, and Weblets products.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

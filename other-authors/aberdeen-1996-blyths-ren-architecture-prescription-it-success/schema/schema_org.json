@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Blyth's REN Architecture: A Prescription for IT Success",
+  "description": "Aberdeen Group 1996 evaluation of Blyth Software's REN architecture for Net-enabled application development.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Blyth Software",
+    "OMNIS",
+    "REN architecture",
+    "web development",
+    "electronic commerce",
+    "1996",
+    "Aberdeen Group",
+    "client-server"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor",
+    "expert-opinion"
+  ]
+}

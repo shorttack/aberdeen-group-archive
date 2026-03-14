@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-oracle-interoffice",
+  "name": "Oracle InterOffice: Helping IS Deploy Solutions to Business Partners and Customers Over the Internet",
+  "description": "Frictionless Data Package archiving Aberdeen Group's December 1995 product profile of Oracle InterOffice (code-named Pegasus), a modular cross-platform messaging, document management, and workflow product. Contains structured entities, technologies, observations, and controlled-vocabulary codes extracted from the original study.",
+  "url": "https://web.archive.org/web/19970112012152/http://www.aberdeen.com:80/secure/profiles/oracle/oracle.htm",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-13",
+  "datePublished": "1995-12-13",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "keywords": [
+    "groupware",
+    "internet-collaboration",
+    "oracle-interoffice",
+    "oracle-corporation",
+    "electronic-economic-community",
+    "workflow",
+    "document-management",
+    "messaging",
+    "internet-integration",
+    "1995",
+    "aberdeen-group",
+    "java",
+    "mapi",
+    "ole",
+    "ocx",
+    "pegasus",
+    "product-profile"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "stevens@aberdeen.com"
+    }
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Oracle InterOffice",
+    "alternateName": "Pegasus (codename)",
+    "description": "Modular cross-platform messaging, document management, workflow, and calendaring product from Oracle Corporation, designed for Internet-enabled business collaboration with partners and customers.",
+    "applicationCategory": "Groupware",
+    "operatingSystem": "Windows NT, Windows 95, Windows 3.1, Motif, Macintosh, ASCII Terminal, Web Browser",
+    "datePublished": "1995-12-13",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Oracle Corporation",
+      "url": "http://www.oracle.com"
+    }
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Study metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv",
+      "description": "Organizations referenced in the study with 2026 status"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Technologies referenced in the study with lifecycle status"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv",
+      "description": "Structured analytical observations extracted from the study text"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv",
+      "description": "Controlled vocabulary codes for all coded fields"
+    }
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Research Archive — 1995 Studies"
+  }
+}

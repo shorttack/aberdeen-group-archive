@@ -1,0 +1,47 @@
+{
+  "name": "aberdeen-1996-object-oriented-three-tier-plus-computing",
+  "title": "Object-Oriented Three-Tier-Plus Computing: Client-Server for Adults",
+  "description": "Aberdeen Group's whitepaper examines the maturation of three-tier client-server computing in 1996, presenting the 'Three-Tier Plus' model that adds MPP/clustered SMP as a fourth tier for data warehousing. The study synthesizes field research from Aberdeen consulting assignments showing that organizations implementing 3-Tier architectures achieve four key business outcomes: improved enterprise efficiency, multi-source information access, scalability for emerging technologies, and superior ROI. Aberdeen argues object-oriented programming is critical for partitioning applications across tiers and predicts NT Server will close the gap with Unix on mid-tier within 24 months.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wayback Machine",
+      "path": "https://web.archive.org/web/19970112011033/http://www.aberdeen.com:80/secure/whtpaper/3tier/3tier.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

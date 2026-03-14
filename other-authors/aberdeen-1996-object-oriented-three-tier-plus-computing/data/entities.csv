@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,merged,Aberdeen (Harte-Hanks),1988-2010,aberdeen-1996-object-oriented-three-tier-plus-computing,Boston-based IT analyst firm
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-object-oriented-three-tier-plus-computing,NT Server as mid-tier OS competitor to Unix; Aberdeen predicts closing gap within 24 months
+oracle-corporation,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-object-oriented-three-tier-plus-computing,Named for parallel RDBMS for MPP/data warehousing; dominant mid-tier RDBMS
+ibm,IBM,company,enterprise-computing,active,,1911-present,aberdeen-1996-object-oriented-three-tier-plus-computing,OS/2 Warp Server cited as mid-tier OS; mainframe systems as enterprise-tier anchor
+novell,Novell Inc.,company,networking-software,acquired,Attachmate (2011) -> Micro Focus -> OpenText,1979-2011,aberdeen-1996-object-oriented-three-tier-plus-computing,NetWare as LAN server OS; NT Server beginning to dominate over NetWare by 1996
+informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,aberdeen-1996-object-oriented-three-tier-plus-computing,Named for parallel RDBMS being ported to MPP systems

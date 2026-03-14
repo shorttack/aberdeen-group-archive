@@ -1,0 +1,10 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+3com,3Com Corporation,company,networking,acquired,Hewlett-Packard (2010) -> HPE Aruba Networks,1979-2010,aberdeen-1997-3com-accelerates-remote-access-market,Acquired HP 2010 for $2.7B; integrated into HPE Aruba
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Halyard Capital -> Spiceworks Ziff Davis,1988-2015,aberdeen-1997-3com-accelerates-remote-access-market,Author of study
+centrum-communications,Centrum Communications Inc.,company,networking,acquired,3Com (acquired February 1994),1990-1994,aberdeen-1997-3com-accelerates-remote-access-market,Brought AccessBuilder product line to 3Com
+accessworks-communications,AccessWorks Communications,company,networking-ISDN,acquired,3Com (acquired January 1995),1992-1995,aberdeen-1997-3com-accelerates-remote-access-market,ISDN development partner
+primary-access-corporation,Primary Access Corporation,company,networking,acquired,3Com (acquired June 1995),1991-1995,aberdeen-1997-3com-accelerates-remote-access-market,Dominant provider of integrated remote access for network service providers
+sonix-communications,Sonix Communications Limited,company,networking-ISDN,acquired,3Com (acquired June 1995),1992-1995,aberdeen-1997-3com-accelerates-remote-access-market,UK ISDN internetworking; gave 3Com ISDN dial-up router for SOHO
+security-dynamics,Security Dynamics Technologies,company,network-security,acquired,RSA Security (merged with RSA Data Security 1996),1984-1996,aberdeen-1997-3com-accelerates-remote-access-market,ACE/Server authentication integration with AccessBuilder 5000
+novell,Novell Inc.,company,networking-software,acquired,Attachmate -> Micro Focus -> OpenText,1983-2011,aberdeen-1997-3com-accelerates-remote-access-market,NDS Boundary Services integration with AccessBuilder 5000
+hewlett-packard,Hewlett-Packard,company,IT-hardware,active,HP Inc. / Hewlett Packard Enterprise (split 2015),1939-present,aberdeen-1997-3com-accelerates-remote-access-market,HP OpenView cited for network management integration

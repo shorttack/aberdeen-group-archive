@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+isdn,ISDN (Integrated Services Digital Network),protocol,various telcos,1986-2005,mature,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,Key growth driver for 3Com SOHO and AccessBuilder markets in 1997
+3com-accessbuilder,3Com AccessBuilder Family,platform,3Com,1994-2000,mature,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,From Centrum Communications acquisition; high-end remote access servers
+3com-netbuilder,3Com NetBuilder Family,platform,3Com,1994-2000,mature,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,WAN router family; discontinued June 2000 when 3Com exited enterprise
+3com-impact-isdn,3Com Impact ISDN Modems/Adapters,platform,3Com,1995-2001,mature,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,Individual remote user segment; ISDN terminal adapters
+snmp,SNMP (Simple Network Management Protocol),protocol,IETF,1988-present,mature,active,aberdeen-1997-3com-accelerates-remote-access-market,AccessBuilder 5000 uses SNMP for network management
+transcend-networking,3Com Transcend Networking Framework,framework,3Com,1994-2000,mature,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,3Com's unified management framework for LAN+WAN
+atm-networking,ATM (Asynchronous Transfer Mode),protocol,various,1988-2005,emerging,obsolete,aberdeen-1997-3com-accelerates-remote-access-market,High-speed WAN alternative; ATM vs Ethernet battle ongoing in 1997

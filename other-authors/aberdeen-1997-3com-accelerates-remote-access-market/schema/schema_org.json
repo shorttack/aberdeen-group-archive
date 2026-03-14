@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "3Com Accelerates into Remote Access Market",
+  "description": "Aberdeen Group assesses 3Com Corporation's strategic expansion into the remote access market as of early 1997, following a year of acquisitions (Centrum, AccessWorks, Primary Access, Sonix) and product launches. The study describes the four market segments of remote access (enterprise, SOHO, individual user, ISP/carrier), evaluates 3Com's three solution families (AccessBuilder, NetBuilder, Impact), and concludes that while 3Com is not yet the market leader it has a logical and executable strategy, with its greatest strength in the SOHO segment and its channels as its most valuable competitive asset.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-02-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "3Com",
+    "remote access",
+    "ISDN",
+    "SOHO",
+    "enterprise networking",
+    "AccessBuilder",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

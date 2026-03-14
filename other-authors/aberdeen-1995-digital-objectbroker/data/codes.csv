@@ -43,3 +43,9 @@ OBS_CAT_005,observation_category,architecture,Architecture,Technical architectur
 OBS_CAT_006,observation_category,future-roadmap,Future Roadmap,Planned product capability or enhancement
 OBS_CAT_007,observation_category,analyst-assessment,Analyst Assessment,Aberdeen Group analyst opinion or recommendation
 OBS_CAT_008,observation_category,market-context,Market Context,Broader market or industry context finding
+OT_ACTUAL_OUTCOME,observation_type,actual-outcome,Actual Outcome,Verified post-publication outcome for a prior prediction
+OT_EXPERT_OPINION,observation_type,expert-opinion,Expert Opinion,"Analyst assessment, recommendation, or expert judgment"
+OT_MARKET_DATA,observation_type,market-data,Market Data,"Market size, growth, competitive position, or financial metric"
+OT_TECHNOLOGY_ASSESSMENT,observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's capabilities, features, or specifications"
+OT_VIABILITY_PREDICTION,observation_type,viability-prediction,Viability Prediction,Forward-looking prediction about technology or market trajectory
+MC_DOCUMENT_REVIEW,methodology_code,document-review,Document Review,"Analysis of published documents, product specs, and archival materials"

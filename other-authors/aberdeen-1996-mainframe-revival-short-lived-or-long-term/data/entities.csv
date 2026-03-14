@@ -1,0 +1,5 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ibm,IBM Corporation,company,enterprise-computing,active,,1911-present,aberdeen-1996-mainframe-revival-short-lived-or-long-term,S/390 Parallel Enterprise Server G3/G4; dominant mainframe vendor
+amdahl,Amdahl Corporation,company,mainframe-computing,dissolved,Fujitsu (majority owner 1984-2000); Amdahl dissolved 2000,1970-2000,aberdeen-1996-mainframe-revival-short-lived-or-long-term,IBM-compatible mainframe maker; Fujitsu acquired majority stake 1984; wound down operations 2000
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research-advisory,acquired,Aberdeen (Harte-Hanks -> Informa),1988-2014,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Boston MA
+fujitsu,Fujitsu Limited,company,enterprise-computing,active,,1935-present,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Majority owner of Amdahl; Japanese mainframe maker

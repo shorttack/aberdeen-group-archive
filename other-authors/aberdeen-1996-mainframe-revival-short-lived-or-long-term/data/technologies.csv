@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ibm-s390,IBM S/390 Parallel Enterprise Server,platform,IBM,1994-2000,mature,obsolete,aberdeen-1996-mainframe-revival-short-lived-or-long-term,"G3/G4 generations; succeeded by zSeries (2000), System z (2006), IBM Z (2017)"
+amdahl-millennium,Amdahl Millennium,platform,Amdahl,1994-2000,mature,obsolete,aberdeen-1996-mainframe-revival-short-lived-or-long-term,IBM S/390-compatible mainframe; discontinued when Amdahl dissolved 2000
+parallel-sysplex,IBM Parallel Sysplex,platform,IBM,1994-present,emerging,active,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Mainframe clustering for high availability; still active in IBM Z systems
+cmos-mainframe,CMOS Mainframe Processors,platform,IBM,1994-present,emerging,active,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Replaced bipolar; dramatically reduced cost and power consumption; foundational to revival
+unix-server-farms,UNIX Server Farms,platform,Multiple,1990-present,mature,active,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Primary competitive alternative to mainframes for enterprise workloads in 1996
+mvs-openedition,OpenEdition MVS (POSIX/UNIX for MVS),platform,IBM,1993-2000,emerging,obsolete,aberdeen-1996-mainframe-revival-short-lived-or-long-term,Enabled UNIX application portability on S/390; evolved into z/OS UNIX System Services

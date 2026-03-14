@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "FlexiInternational Software: Where Financial Acumen and Advanced Technology Converge",
+  "description": "This Aberdeen Group profile evaluates FlexiInternational Software (Flexi), a 1991-founded provider of object-oriented financial client-server solutions (CSS) competing in the enterprise financial systems market. Aberdeen assesses Flexi's technology architecture, IBM integration strategy, Web-enablement roadmap, and market positioning against major ERP competitors including Dun & Bradstreet, PeopleSoft, Oracle, and SAP. The study concludes that FlexiInternational is well positioned technologically and through business alliances to challenge for CSS market leadership.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "ERP",
+    "financial software",
+    "client-server",
+    "object-oriented",
+    "Windows NT",
+    "IBM DB2",
+    "enterprise accounting"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "actual-outcome"
+  ],
+  "isBasedOn": "https://web.archive.org/web/19970604113744/http://www.aberdeen.com:80/secure/profiles/flexi/flexi.htm"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM: The Transformation From Business Machines To Information-Service Solutions",
+  "description": "Aberdeen Group profiles IBM's strategic transformation under Lou Gerstner from a hardware-centric company to a service-focused information solutions provider, centered on IBM Global Services' $20.1 billion (1995) and 100,000 employees. The study documents IBM's Network Computing vision, 12 industry solution groups, Year 2000 opportunity, strategic acquisitions (Lotus/Notes, Tivoli), and identifies structural vulnerabilities including OS/2 weakness and partner ecosystem tensions.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112011435/http://www.aberdeen.com:80/secure/profiles/ibm_stra/ibm_stra.htm",
+  "keywords": [
+    "IBM",
+    "Global Services",
+    "transformation",
+    "Network Computing",
+    "Y2K",
+    "Gerstner",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996"
+}

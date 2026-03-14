@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Distributed, Open Relational Database Management Systems Buying Guide: 1996 Edition",
+  "description": "Aberdeen Group's 1996 Distributed, Open Relational Database Management Systems (DORS) Buying Guide evaluates eight leading RDBMS suppliers\u2014including IBM, Oracle, Microsoft, Sybase, Informix, Computer Associates, Progress Software, and Software AG\u2014against five core technology categories: scalability, distributed technology, open technology, toolkits, and next-generation capabilities including Internet/Intranet, OLAP, and universal servers. The guide identifies the shift toward distributed data access and Internet-driven data management as the defining trend, and provides IS buyers with a framework for evaluating vendor offerings against enterprise requirements.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "RDBMS",
+    "distributed database",
+    "database management",
+    "1996",
+    "Aberdeen Group",
+    "Oracle",
+    "IBM",
+    "Sybase",
+    "Microsoft SQL Server",
+    "enterprise software"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "market-data",
+    "expert-opinion"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Studies Archive",
+    "description": "Archival collection of Aberdeen Group technology research studies processed via Archival Ingest Skill v13"
+  }
+}

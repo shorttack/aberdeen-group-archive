@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ibm-db2,IBM DB2,platform,IBM,1983-present,mature,active,aberdeen-1996-distributed-open-rdbms-buying-guide,Enterprise RDBMS; IBM's flagship database product
+oracle-rdbms,Oracle RDBMS,platform,Oracle,1979-present,mature,active,aberdeen-1996-distributed-open-rdbms-buying-guide,Became dominant enterprise RDBMS by late 1990s
+microsoft-sql-server,Microsoft SQL Server,platform,Microsoft,1989-present,emerging,active,aberdeen-1996-distributed-open-rdbms-buying-guide,Growing enterprise adoption; emerged as dominant SMB/mid-market RDBMS
+sybase-ase,Sybase Adaptive Server Enterprise,platform,Sybase,1987-2015,mature,legacy-supported,aberdeen-1996-distributed-open-rdbms-buying-guide,Codebase licensed to Microsoft for original SQL Server; now SAP ASE
+informix-dynamic-server,Informix Dynamic Server,platform,Informix,1980-2001,mature,legacy-supported,aberdeen-1996-distributed-open-rdbms-buying-guide,Acquired by IBM 2001; continued as IBM Informix
+rdbms-olap,Relational OLAP (ROLAP),framework,Multiple,1993-present,emerging,active,aberdeen-1996-distributed-open-rdbms-buying-guide,Aberdeen identified as next-generation DORS requirement
+internet-database-access,Internet/Intranet Database Access,protocol,Multiple,1995-present,emerging,active,aberdeen-1996-distributed-open-rdbms-buying-guide,Core DORS evolution driver per Aberdeen analysis

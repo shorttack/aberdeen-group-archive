@@ -1,0 +1,10 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research-advisory,acquired,Aberdeen (Harte-Hanks -> Informa),1988-2014,aberdeen-1996-distributed-open-rdbms-buying-guide,Boston MA; acquired by Harte-Hanks in 2001
+ibm,IBM Corporation,company,enterprise-computing,active,,1911-present,aberdeen-1996-distributed-open-rdbms-buying-guide,DB2 flagship RDBMS product
+oracle,Oracle Corporation,company,RDBMS-software,active,,1977-present,aberdeen-1996-distributed-open-rdbms-buying-guide,Became dominant RDBMS vendor post-1996
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-distributed-open-rdbms-buying-guide,SQL Server; growing enterprise presence in 1996
+sybase,"Sybase, Inc.",company,RDBMS-software,acquired,"SAP SE (acquired 2010, $5.8B)",1984-2010,aberdeen-1996-distributed-open-rdbms-buying-guide,Acquired by SAP in 2010 for $5.8 billion
+informix,"Informix Software, Inc.",company,RDBMS-software,acquired,IBM (acquired 2001),1980-2001,aberdeen-1996-distributed-open-rdbms-buying-guide,IBM acquired Informix in 2001 for $1B
+computer-associates,"Computer Associates International, Inc.",company,enterprise-software,active,CA Technologies -> Broadcom,1976-present,aberdeen-1996-distributed-open-rdbms-buying-guide,Rebranded as CA Technologies; acquired by Broadcom 2018
+progress-software,Progress Software Corporation,company,RDBMS-software,active,,1981-present,aberdeen-1996-distributed-open-rdbms-buying-guide,Still active on NASDAQ (PRGS); pivoted to cloud/AI applications
+software-ag,Software AG,company,enterprise-software,acquired,Silver Lake / IBM (2023-2024),1969-2023,aberdeen-1996-distributed-open-rdbms-buying-guide,Acquired by Silver Lake 2023; webMethods/StreamSets sold to IBM 2024 for €2.13B

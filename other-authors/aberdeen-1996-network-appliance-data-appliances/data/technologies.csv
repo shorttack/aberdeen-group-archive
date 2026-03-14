@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+data-ontap,Data ONTAP,platform,Network Appliance,1994-present,emerging,active,aberdeen-1996-network-appliance-data-appliances,NetApp's proprietary NAS OS; renamed ONTAP; still core to NetApp products in 2024
+wafl,WAFL (Write Anywhere File Layout),framework,Network Appliance,1993-present,emerging,active,aberdeen-1996-network-appliance-data-appliances,"Proprietary file system enabling copy-on-write snapshots, NVRAM, RAID 4 integration"
+nfs,NFS (Network File System),protocol,Sun Microsystems,1984-present,mature,active,aberdeen-1996-network-appliance-data-appliances,Unix-native file sharing; NetApp's original protocol; still widely used
+cifs,CIFS (Common Internet File System),protocol,Microsoft,1996-2012,emerging,obsolete,aberdeen-1996-network-appliance-data-appliances,Microsoft's enhanced SMB; superseded by SMB2/SMB3; NetApp's CIFS support was key differentiator in 1996
+raid-4,RAID 4,framework,generic,1988-present,mature,legacy-supported,aberdeen-1996-network-appliance-data-appliances,NetApp used RAID 4 with dedicated parity disk; unusual choice enabling WAFL's write optimization
+ndmp,NDMP (Network Data Management Protocol),protocol,Network Appliance / consortium,1996-present,emerging,active,aberdeen-1996-network-appliance-data-appliances,NetApp led standards effort; became industry standard for NAS backup management
+netapp-filers,NetApp Filer Hardware (F220/F330/F540),platform,Network Appliance,1994-2000,emerging,obsolete,aberdeen-1996-network-appliance-data-appliances,Three-tier product line for workgroup to production; succeeded by FAS series

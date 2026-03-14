@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Network Appliance: Data Appliances for Commercial Network Computing",
+  "description": "Aberdeen Group profiles Network Appliance (NetApp) as a pioneer in network-attached storage (NAS) for commercial computing environments. The study examines NetApp's filer hardware (F220, F330, F540), Data ONTAP software with WAFL file system, and multiprotocol support (NFS, CIFS, HTTP). Aberdeen concludes NetApp is well-positioned to capitalize on the shift from application-server-based storage to dedicated network-attached data servers, citing revenue growth from $2M (1994) to $47M (FY1996) approaching $100M.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-11-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "NetApp",
+    "Network Appliance",
+    "NAS",
+    "data appliance",
+    "WAFL",
+    "ONTAP",
+    "network-attached storage",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1992/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "market-data"
+  ]
+}

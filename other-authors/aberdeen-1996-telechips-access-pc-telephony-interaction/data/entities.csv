@@ -1,0 +1,5 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+telechips-corporation,Telechips Corporation,company,computer-telephony-integration,dissolved,,1993-2000,aberdeen-1996-telechips-access-pc-telephony-interaction,1990s CTI appliance maker; not to be confused with Telechips (Korea) semiconductor company founded 1999; Access product never achieved mass market
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research-advisory,acquired,Aberdeen (Harte-Hanks -> Informa),1988-2014,aberdeen-1996-telechips-access-pc-telephony-interaction,Authors: Patricia Borns and Traver Kennedy
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-telechips-access-pc-telephony-interaction,TAPI partner; Windows 3.1 ROM platform for Access device
+tandem-computers,Tandem Computers Inc.,company,fault-tolerant-computing,acquired,Compaq (1997) -> HP (2002) -> HPE NonStop (2015-present),1974-1997,aberdeen-1996-telechips-access-pc-telephony-interaction,Field trial customer; planned to use Access as ruggedized lottery terminal

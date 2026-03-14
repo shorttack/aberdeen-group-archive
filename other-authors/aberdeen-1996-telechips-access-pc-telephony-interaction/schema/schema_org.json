@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Telechips' Access \u2014 the New Benchmark for Personal Computer Telephony Interaction",
+  "description": "Aberdeen Group's October 1996 product impact report evaluates Telechips Corporation's 'Access' device, a touchscreen Windows-based PC integrated with a telephone in a rugged sealed enclosure. The study argues that Access sets a new benchmark for Computer Telephony Integration (CTI) through its hardware bus design and software integration, creating a new category of 'new CTI' suitable for kiosk, hospitality, and enterprise point-of-sale applications. Aberdeen predicts significant market opportunities for Telechips as the master of both computer and telephony domains.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Patricia Borns and Traver Kennedy, Aberdeen Group"
+  },
+  "datePublished": "1996-10-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "computer telephony integration",
+    "CTI",
+    "Telechips",
+    "Access appliance",
+    "Windows telephony",
+    "TAPI",
+    "1996",
+    "Aberdeen Group",
+    "kiosk"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "market-data",
+    "expert-opinion"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Studies Archive",
+    "description": "Archival collection of Aberdeen Group technology research studies processed via Archival Ingest Skill v13"
+  }
+}

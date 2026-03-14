@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP's Networking Vision: Designed with Workgroups in Mind",
+  "description": "Aberdeen Group examines HP's Workgroup Networks Division strategy for small and mid-sized businesses (SMBs), finding that HP's premise \u2014 workgroups grow up into enterprise networks \u2014 accurately maps to the bottom-up, haphazard LAN growth patterns observed in target verticals (education, healthcare, government, manufacturing). The study validates HP's workgroup-centric networking vision and endorses its standards-based approach.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604112653/http://www.aberdeen.com:80/secure/whtpaper/hp_net/HP_NET.HTM",
+  "keywords": [
+    "HP networking",
+    "workgroup networking",
+    "SMB",
+    "100VG",
+    "10Base-T",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996"
+}

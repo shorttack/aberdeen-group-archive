@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"hewlett-packard","Hewlett-Packard Company","company","computing-hardware","split","HP Inc. / Hewlett Packard Enterprise","1939-2015","aberdeen-1996-hp-networking-vision-workgroups","Primary subject; Workgroup Networks Division (WND) is focus"
+"hp-workgroup-networks-division","HP Workgroup Networks Division (WND)","firm","networking","dissolved","HP Networking (ProCurve)","1994-2002","aberdeen-1996-hp-networking-vision-workgroups","Renamed from Networks Division; focused on SMB workgroup connectivity"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Aberdeen Strategy & Research","1988-present","aberdeen-1996-hp-networking-vision-workgroups","Author; conducted in-depth interviews with network managers"
+"novell","Novell, Inc.","company","networking-software","acquired","Micro Focus (now OpenText)","1983-2011","aberdeen-1996-hp-networking-vision-workgroups","Early LAN standard-setter; NetWare referenced as legacy LAN foundation"
+"cisco-systems","Cisco Systems","company","networking","active","","1984-present","aberdeen-1996-hp-networking-vision-workgroups","Implied competitor in networking space"
+"ieee","IEEE (Institute of Electrical and Electronics Engineers)","institution","standards","active","","1884-present","aberdeen-1996-hp-networking-vision-workgroups","Standards body; HP participated in 10Base-T, 100VG, ATM Forum"

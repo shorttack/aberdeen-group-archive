@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"10base-t","10Base-T Ethernet","protocol","IEEE","1990-2000","mature","obsolete","aberdeen-1996-hp-networking-vision-workgroups","HP early leader in 10Base-T stackable hubs; 10 Mbps optimal speed"
+"100vg","100VG-AnyLAN","protocol","HP/IEEE","1994-2000","emerging","obsolete","aberdeen-1996-hp-networking-vision-workgroups","HP-backed fast Ethernet standard; scalable 10/100 Mbps; lost to 100Base-T"
+"100base-t","100Base-T (Fast Ethernet)","protocol","IEEE","1995-2010","emerging","legacy-supported","aberdeen-1996-hp-networking-vision-workgroups","Competing fast Ethernet standard; won market over 100VG"
+"hp-openview","HP OpenView","application","Hewlett-Packard","1988-2012","mature","legacy-supported","aberdeen-1996-hp-networking-vision-workgroups","Network management; HP OpenView Windows and Unix cited"
+"fddi","FDDI (Fiber Distributed Data Interface)","protocol","ANSI","1987-2000","mature","obsolete","aberdeen-1996-hp-networking-vision-workgroups","100 Mbps fiber ring; used in some surveyed networks"
+"atm","ATM (Asynchronous Transfer Mode)","protocol","ATM Forum","1990-2005","emerging","obsolete","aberdeen-1996-hp-networking-vision-workgroups","HP participating in ATM Forum; high-speed backbone technology"
+"novell-netware","Novell NetWare","platform","Novell","1983-2009","mature","obsolete","aberdeen-1996-hp-networking-vision-workgroups","Dominant early LAN OS in SMB market; being displaced by Windows NT"

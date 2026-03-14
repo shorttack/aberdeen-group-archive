@@ -3,36 +3,51 @@ obs-type-market-finding,observation_type,market-finding,Market Finding,An observ
 obs-type-research-finding,observation_type,research-finding,Research Finding,An empirical or field-research result reported by the analyst
 obs-type-product-claim,observation_type,product-claim,Product Claim,A claim about product features or capabilities (may originate from vendor or analyst verification)
 obs-type-vendor-claim,observation_type,vendor-claim,Vendor Claim,A claim originating primarily from the vendor about their own products or services
-obs-type-analyst-evaluation,observation_type,analyst-evaluation,Analyst Evaluation,An evaluative judgment made by Aberdeen analysts about a product, vendor, or technology
+obs-type-analyst-evaluation,observation_type,analyst-evaluation,Analyst Evaluation,An evaluative judgment made by Aberdeen analysts about a product
 obs-type-analyst-assertion,observation_type,analyst-assertion,Analyst Assertion,A declarative statement or position taken by the Aberdeen analyst team
 obs-type-analyst-opinion,observation_type,analyst-opinion,Analyst Opinion,A forward-looking or qualitative opinion expressed by Aberdeen analysts
 obs-type-analyst-prediction,observation_type,analyst-prediction,Analyst Prediction,A forward-looking prediction made by Aberdeen analysts
 obs-type-platform-claim,observation_type,platform-claim,Platform Claim,A claim about operating system or platform compatibility
 obs-type-user-feedback,observation_type,user-feedback,User Feedback,Feedback from end-users or developers reported by Aberdeen field research
 obs-type-deployment-pattern,observation_type,deployment-pattern,Deployment Pattern,A description of how the product is typically deployed or implemented
-obs-type-service-description,observation_type,service-description,Service Description,A description of consulting, training, or professional services offered
+obs-type-service-description,observation_type,service-description,Service Description,A description of consulting
 obs-type-roadmap-claim,observation_type,roadmap-claim,Roadmap Claim,A vendor claim about future product directions or planned releases
 obs-type-risk-finding,observation_type,risk-finding,Risk Finding,An identified risk or cautionary finding related to technology adoption
 obs-type-requirement-finding,observation_type,requirement-finding,Requirement Finding,An identified requirement or prerequisite for successful technology adoption
 obs-type-analyst-recommendation,observation_type,analyst-recommendation,Analyst Recommendation,A formal recommendation made by Aberdeen analysts about a product or course of action
-obs-type-vendor-assessment,observation_type,vendor-assessment,Vendor Assessment,An overall assessment of a vendor's position, capabilities, or reliability
+obs-type-vendor-assessment,observation_type,vendor-assessment,Vendor Assessment,An overall assessment of a vendor's position
 sentiment-positive,sentiment,positive,Positive,Observation reflects a positive view of the subject
 sentiment-negative,sentiment,negative,Negative,Observation reflects a negative or unfavorable view of the subject
 sentiment-neutral,sentiment,neutral,Neutral,Observation is descriptive or balanced without strong positive or negative valence
-sentiment-cautionary,sentiment,cautionary,Cautionary,Observation highlights risks, challenges, or conditions that require attention
+sentiment-cautionary,sentiment,cautionary,Cautionary,Observation highlights risks
 entity-status-active,entity_status,active,Active,Organization is currently operating as an independent entity
 entity-status-acquired,entity_status,acquired,Acquired,Organization has been acquired by another company and no longer operates independently
 entity-status-split,entity_status,split,Split,Organization was divided into two or more separate independent entities
 entity-status-merged,entity_status,merged,Merged,Organization merged with another entity and the original entity no longer exists independently
 entity-status-dissolved,entity_status,dissolved,Dissolved,Organization was formally dissolved and ceased operations
-entity-status-successor-entity,entity_status,successor-entity,Successor Entity,An entity that emerged from a split, merger, or acquisition of a referenced organization
+entity-status-successor-entity,entity_status,successor-entity,Successor Entity,An entity that emerged from a split
 tech-lifecycle-active,tech_lifecycle,active,Active,Technology is currently in active development and widespread use
 tech-lifecycle-legacy,tech_lifecycle,legacy,Legacy,Technology is still in use but no longer actively developed or recommended for new projects
 tech-lifecycle-largely-obsolete,tech_lifecycle,largely-obsolete,Largely Obsolete,Technology has been largely superseded; only minimal legacy deployments remain
 tech-lifecycle-obsolete,tech_lifecycle,obsolete,Obsolete,Technology is no longer in use and no longer commercially available or supported
 tech-lifecycle-discontinued,tech_lifecycle,discontinued,Discontinued,Technology was formally discontinued by its vendor
 study-type-white-paper,study_type,white-paper,White Paper,Vendor-sponsored or analyst white paper presenting findings and recommendations
-domain-software-development-tools,domain,software-development-tools,Software Development Tools,Research domain covering IDEs, compilers, debuggers, and related developer tooling
-methodology-industry-analysis,methodology,industry-analysis,Industry Analysis,Analysis of industry trends, market conditions, and competitive dynamics
+domain-software-development-tools,domain,software-development-tools,Software Development Tools,Research domain covering IDEs
+methodology-industry-analysis,methodology,industry-analysis,Industry Analysis,Analysis of industry trends
 methodology-competitive-profiling,methodology,competitive-profiling,Competitive Profiling,Detailed assessment of a specific vendor's products and competitive position
 methodology-field-research,methodology,field-research,Field Research,Primary research involving interviews or surveys with practitioners and end-users
+strategy-classification,observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or competitive positioning
+viability-prediction,observation_type,viability-prediction,Viability Prediction,Expert prediction of entity's long-term survival or market trajectory
+actual-outcome,observation_type,actual-outcome,Actual Outcome,Verified historical outcome for an entity or prediction
+technology-assessment,observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's maturity, fitness, or competitive positioning"
+benchmark-result,observation_type,benchmark-result,Benchmark Result,Quantitative performance comparison against peers or industry standards
+framework-factor,observation_type,framework-factor,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,market-data,Market Data,"Quantitative market statistic such as revenue, share, or growth rate"
+expert-opinion,observation_type,expert-opinion,Expert Opinion,Qualitative professional judgment or analytical finding
+method-document-review,methodology,document-review,Document Review,"Analysis of existing documents, reports, and published records"
+method-benchmarking,methodology,benchmarking,Benchmarking,"Comparison against industry standards, peers, or prior periods"
+method-revenue-benchmark,methodology,revenue-benchmark,Revenue Benchmarking,Measurement and comparison of entity revenues against market total
+conf-high,confidence,high,High Confidence,Strong evidentiary basis; multiple corroborating sources or explicit supplier data
+conf-medium,confidence,medium,Medium Confidence,Reasonable basis but data is estimated or partially corroborated
+conf-low,confidence,low,Low Confidence,Directional judgment with limited evidence; Aberdeen estimate only
+conf-verified,confidence,verified,Verified,"Confirmed by subsequent events, independent sources, or official records"

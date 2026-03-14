@@ -57,3 +57,10 @@ conf-high,confidence,high,High Confidence,Directly stated in source text with cl
 conf-medium,confidence,medium,Medium Confidence,Inferred from source text or based on partial evidence
 conf-low,confidence,low,Low Confidence,Uncertain inference or speculation
 st-product-profile,study_type,product-profile,Product Profile,In-depth evaluation profile of a vendor product or program
+OT_ACTUAL_OUTCOME,observation_type,actual-outcome,Actual Outcome,Verified post-publication outcome for a prior prediction
+OT_EXPERT_OPINION,observation_type,expert-opinion,Expert Opinion,"Analyst assessment, recommendation, or expert judgment"
+OT_MARKET_DATA,observation_type,market-data,Market Data,"Market size, growth, competitive position, or financial metric"
+OT_VIABILITY_PREDICTION,observation_type,viability-prediction,Viability Prediction,Forward-looking prediction about technology or market trajectory
+MC_DOCUMENT_REVIEW,methodology_code,document-review,Document Review,"Analysis of published documents, product specs, and archival materials"
+MC_FIELD_RESEARCH,methodology_code,field-research,Field Research,Primary research through customer interviews or site visits
+MC_INDUSTRY_ANALYSIS,methodology_code,industry-analysis,Industry Analysis,Analyst assessment and industry-level analysis based on market knowledge

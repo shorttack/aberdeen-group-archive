@@ -1,0 +1,4 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+y2k-remediation-tools,Y2K Remediation / Code-Scanning Tools,application,various (100+ vendors),1995-2001,emerging,obsolete,aberdeen-1997-picks-right-tools-year-2000,Aberdeen recommending criteria for evaluating tools; market flooded with vendors of varying quality
+legacy-mainframe-apps,Legacy COBOL/Mainframe Applications,platform,various,1960-1990,declining,obsolete,aberdeen-1997-picks-right-tools-year-2000,Primary target of Y2K remediation effort
+cobol,COBOL Programming Language,language,various,1959-present,mature,legacy-supported,aberdeen-1997-picks-right-tools-year-2000,Most prevalent language in Y2K-affected systems; still in use for mainframe applications in 2025

@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Picks The Right Tools for Year 2000",
+  "description": "This Technology Viewpoint (Vol. 10/No. 14) provides a brief but pointed overview of the Y2K problem's scale and complexity \u2014 100 billion lines of code to check, 1,000+ person-years to manually inspect a large enterprise \u2014 and establishes Aberdeen's criteria for evaluating Y2K remediation tool vendors. Aberdeen emphasizes buyer skepticism toward Y2K solution hype while identifying the core technical and commercial attributes that distinguish credible Y2K tool suppliers.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Y2K",
+    "Year 2000",
+    "remediation tools",
+    "COBOL",
+    "enterprise IT",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

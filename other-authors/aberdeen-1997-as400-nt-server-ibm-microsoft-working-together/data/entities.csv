@@ -1,0 +1,6 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ibm,IBM Corporation,company,IT-hardware-software,active,,1911-present,aberdeen-1997-as400-nt-server-ibm-microsoft-working-together,"AS/400 Division headquartered in Somers, NY"
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1997-as400-nt-server-ibm-microsoft-working-together,NT Server and BackOffice suite provider
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Halyard Capital -> Spiceworks Ziff Davis,1988-2015,aberdeen-1997-as400-nt-server-ibm-microsoft-working-together,Author of study
+novell,Novell Inc.,company,networking-software,acquired,Attachmate -> Micro Focus -> OpenText,1983-2011,aberdeen-1997-as400-nt-server-ibm-microsoft-working-together,NetWare available on AS/400 Integrated PC Server alongside NT
+lotus-development,Lotus Development Corporation,company,software,acquired,IBM (acquired 1995),1982-1995,aberdeen-1997-as400-nt-server-ibm-microsoft-working-together,Domino 4.5 (Lotus Notes) available on AS/400 Integrated PC Server May 1997

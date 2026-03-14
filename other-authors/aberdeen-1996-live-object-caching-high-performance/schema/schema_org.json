@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Live Object Caching: High-Performance for Object/Relational Applications",
+  "description": "Aberdeen Group analyzes the performance challenge of combining object-oriented application code with relational databases, defining 'live object caching' as the solution to object-relational impedance mismatch. The study profiles Persistence Software's Object Builder and Object Server as the leading tools enabling commercial object/relational production systems, and recommends that IS organizations adopting OO development evaluate live object caching before proceeding.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-08-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604112359/http://www.aberdeen.com:80/secure/viewpnts/v9n15/v9n15.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "live-object-caching",
+    "object-relational-mapping",
+    "Persistence Software",
+    "RDBMS",
+    "OO",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Live Object Caching: High-Performance for Object/Relational Applications",
+    "datePublished": "1996-08-13",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  }
+}

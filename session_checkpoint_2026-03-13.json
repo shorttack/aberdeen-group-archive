@@ -1,0 +1,221 @@
+{
+  "session_id": "aberdeen-archival-ingest-2026-03-13",
+  "timestamp": "2026-03-13T21:01:00-04:00",
+  "user": "pete.kastner@bluebridgegrp.com",
+  "project": "Aberdeen Group Research Archive",
+  "skill_used": "archival-ingest (ARCHIVAL_SKILL-11.md)",
+  "status": "COMPLETE",
+  "batches": {
+    "batch_1": {
+      "status": "COMPLETE",
+      "studies_processed": 4,
+      "input_files": [
+        "1995-3Com_s-LANplex-2500_-Profiling-the-Consummate-Ethernet_FDDI-Workgroup-Switch-pr.pdf",
+        "1995-Commercial-Messaging_-The-Keystone-Of-S...-Computing-An-Executive-White-Paper-wp-2.pdf",
+        "1995-Commercial-Multiuser-Risc_Unix-1995_-High-Growth-and-HP-Dominate-mvp-3.pdf",
+        "1995-cs-Digital_s-Multia-Enterprise-Client_-Finally-Someone-Listened-pr-4.pdf"
+      ],
+      "output_dirs": [
+        "aberdeen-1995-3com-lanplex-2500",
+        "aberdeen-1995-commercial-messaging",
+        "aberdeen-1996-risc-unix-market",
+        "aberdeen-1995-digital-multia"
+      ]
+    },
+    "batch_2": {
+      "status": "COMPLETE",
+      "studies_processed": 10,
+      "input_files": [
+        "1995-cs-Hewlett-Packard-Company-pr_-Customer-Interaction-Software-The-New-Market-Weapon.pdf",
+        "1995-Data-Warehouse-Query-Tools_-Evolving-to-Relational-OLAP-mvp-2.pdf",
+        "1995-DB2-Common-Server-Relational-Database-Management-System-pr-3.pdf",
+        "1995-Exploring-Intersolv_s-Virtual-Data-Warehouse-pr-4.pdf",
+        "1995-gw-oo-Digital-LinkWorks-Delivering-Solutions-to-MIS-and-End-Users-pr-5.pdf",
+        "1995-Hewlett-Packard_s-C-SoftBench-5.0-...l-Platform-for-Professional-Developers-wp-6.pdf",
+        "1995-IBM_s-AS_400-and-SAP_s-R_3-pr-7.pdf",
+        "1995-New-LIMD-Technology_-Speed-Plus-Real-World-Experience-1995-8.pdf",
+        "1995-oo-dev-Digital_s-Object-Broker-pr-9.pdf",
+        "1995-Oracle-InterOffice-Helping-IS-Deploy-...rtners-and-Customers-Over-the-Internet-pr-10.pdf"
+      ],
+      "output_dirs": [
+        "aberdeen-1995-hp-customer-interaction-software",
+        "aberdeen-1995-data-warehouse-olap",
+        "aberdeen-1995-ibm-db2-common-server",
+        "aberdeen-1995-intersolv-virtual-data-warehouse",
+        "aberdeen-1995-digital-linkworks",
+        "aberdeen-1995-hp-softbench",
+        "aberdeen-1995-ibm-as400-sap-r3",
+        "aberdeen-1995-limd-technology",
+        "aberdeen-1995-digital-objectbroker",
+        "aberdeen-1995-oracle-interoffice"
+      ]
+    }
+  },
+  "totals": {
+    "studies": 14,
+    "total_observations": 689,
+    "unique_entities": 184,
+    "unique_technologies": 271,
+    "validation_errors": 0,
+    "total_output_files": 132,
+    "gdrive_export_status": "ALL_EXPORTED"
+  },
+  "per_study_stats": [
+    {
+      "dir": "aberdeen-1995-3com-lanplex-2500",
+      "observations": 35,
+      "entities": 9,
+      "technologies": 14,
+      "file_count": 10
+    },
+    {
+      "dir": "aberdeen-1995-commercial-messaging",
+      "observations": 38,
+      "entities": 17,
+      "technologies": 28,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-data-warehouse-olap",
+      "observations": 48,
+      "entities": 20,
+      "technologies": 28,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-digital-linkworks",
+      "observations": 30,
+      "entities": 10,
+      "technologies": 19,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-digital-multia",
+      "observations": 30,
+      "entities": 8,
+      "technologies": 24,
+      "file_count": 10
+    },
+    {
+      "dir": "aberdeen-1995-digital-objectbroker",
+      "observations": 50,
+      "entities": 11,
+      "technologies": 19,
+      "file_count": 10
+    },
+    {
+      "dir": "aberdeen-1995-hp-customer-interaction-software",
+      "observations": 50,
+      "entities": 50,
+      "technologies": 25,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-hp-softbench",
+      "observations": 45,
+      "entities": 15,
+      "technologies": 26,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-ibm-as400-sap-r3",
+      "observations": 106,
+      "entities": 12,
+      "technologies": 11,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-ibm-db2-common-server",
+      "observations": 50,
+      "entities": 11,
+      "technologies": 35,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-intersolv-virtual-data-warehouse",
+      "observations": 45,
+      "entities": 12,
+      "technologies": 15,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1995-limd-technology",
+      "observations": 48,
+      "entities": 14,
+      "technologies": 20,
+      "file_count": 12
+    },
+    {
+      "dir": "aberdeen-1995-oracle-interoffice",
+      "observations": 48,
+      "entities": 8,
+      "technologies": 31,
+      "file_count": 9
+    },
+    {
+      "dir": "aberdeen-1996-risc-unix-market",
+      "observations": 66,
+      "entities": 36,
+      "technologies": 29,
+      "file_count": 9
+    }
+  ],
+  "master_index_files": {
+    "_master_studies.csv": {
+      "rows": 14,
+      "gdrive": "exported"
+    },
+    "_master_entities.csv": {
+      "rows": 184,
+      "gdrive": "exported"
+    },
+    "_master_technologies.csv": {
+      "rows": 271,
+      "gdrive": "exported"
+    },
+    "_checkpoint.json": {
+      "gdrive": "exported"
+    }
+  },
+  "per_study_output_structure": {
+    "each_study_contains": [
+      "data/studies.csv \u2014 1 row, study metadata",
+      "data/entities.csv \u2014 organizations with M&A status",
+      "data/technologies.csv \u2014 technologies with lifecycle",
+      "data/observations.csv \u2014 structured analytical observations",
+      "data/codes.csv \u2014 controlled vocabulary",
+      "datapackage.json \u2014 Frictionless Data Package descriptor",
+      "schema/schema_org.json \u2014 Schema.org Dataset metadata",
+      "README.md \u2014 human-readable documentation",
+      "scripts/demo_analysis.py \u2014 validation script"
+    ]
+  },
+  "gdrive_output_path": "/Aberdeen-Research/",
+  "connectors_used": {
+    "google_drive": "CONNECTED \u2014 export_files for output delivery",
+    "web_search": "used for entity status verification (3 searches per study max)"
+  },
+  "skill_file": "/home/user/workspace/ARCHIVAL_SKILL-11.md",
+  "processing_pattern": {
+    "approach": "Parallel subagents \u2014 one per study, 5 at a time",
+    "each_subagent_does": [
+      "Read PDF fully",
+      "Extract metadata, entities, technologies, observations",
+      "Web search to verify entity statuses and M&A history",
+      "Build all CSV files, datapackage.json, schema_org.json, README.md, demo_analysis.py",
+      "Validate referential integrity"
+    ],
+    "post_processing": [
+      "Build master index files (deduplicated across all 14 studies)",
+      "Cross-study validation (0 errors)",
+      "Batch export to Google Drive (10 batches of ~10 files each)"
+    ]
+  },
+  "notes": [
+    "Google Drive export_files times out with 40+ files; batch in groups of ~10",
+    "All 14 studies are from Aberdeen Group, 1995-1996 era",
+    "Entity statuses verified via web search \u2014 covers M&A through 2026",
+    "Technology lifecycles classified as: active, legacy, obsolete, emerging",
+    "Master indexes deduplicate entities and technologies across studies, with study_id cross-references"
+  ]
+}

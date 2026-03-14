@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Artful Web They Weave: Spider Technologies' NetDynamics",
+  "description": "Aberdeen Group's 1996 profile of Spider Technologies analyzes NetDynamics, an early web-database application builder combining TP-monitor-like middleware with a visual RAD development environment. The study positions NetDynamics as a critical infrastructure component for scalable Internet transaction processing, identifying load balancing, CGI bypass, and Java integration as key differentiators. Aberdeen recommends IS buyers evaluate NetDynamics as a leading-edge solution for commercial-strength web-database applications, and predicts strong competitive positioning against middleware, RDBMS, and client/server toolset providers.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-08-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "NetDynamics",
+    "Spider Technologies",
+    "web application server",
+    "TP monitor",
+    "Java",
+    "CGI bypass",
+    "1996",
+    "Aberdeen Group",
+    "enterprise middleware",
+    "Internet database",
+    "application server"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "market-data",
+    "expert-opinion"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Studies Archive",
+    "description": "Archival collection of Aberdeen Group technology research studies processed via Archival Ingest Skill v13"
+  }
+}

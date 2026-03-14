@@ -1,0 +1,11 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+spider-technologies,"Spider Technologies, Inc.",company,web-middleware,acquired,"Sun Microsystems (July 1998, ~$160-170M)",1995-1998,aberdeen-1996-spider-technologies-netdynamics,Acquired by Sun Microsystems July 1998; NetDynamics became Sun Application Server; merged with Netscape AppServer to form iPlanet
+aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research-advisory,acquired,Aberdeen (Harte-Hanks -> Informa),1988-2014,aberdeen-1996-spider-technologies-netdynamics,Boston MA
+hummer-winblad,Hummer Winblad Venture Partners,firm,venture-capital,active,,1989-present,aberdeen-1996-spider-technologies-netdynamics,Original investor in Spider ($10.9M first round); also backed Powersoft and Arbor Software
+merrill-lynch,Merrill Lynch,company,financial-services,acquired,Bank of America Merrill Lynch (2008),1914-2008,aberdeen-1996-spider-technologies-netdynamics,Named NetDynamics enterprise customer
+harvard-medical-school,Harvard Medical School,institution,higher-education,active,,1782-present,aberdeen-1996-spider-technologies-netdynamics,Named NetDynamics customer committing next-gen C/S apps to NetDynamics and Java
+informix,"Informix Software, Inc.",company,RDBMS-software,acquired,IBM (2001),1980-2001,aberdeen-1996-spider-technologies-netdynamics,Spider alliance partner; NetDynamics RDBMS integration target
+sybase,"Sybase, Inc.",company,RDBMS-software,acquired,SAP SE (2010),1984-2010,aberdeen-1996-spider-technologies-netdynamics,Spider alliance partner
+oracle,Oracle Corporation,company,RDBMS-software,active,,1977-present,aberdeen-1996-spider-technologies-netdynamics,Spider alliance partner; NetDynamics RDBMS integration target
+sun-microsystems,Sun Microsystems,company,enterprise-computing,acquired,Oracle Corporation (2010),1982-2010,aberdeen-1996-spider-technologies-netdynamics,Spider alliance partner in 1996; acquired Spider in July 1998 for ~$160-170M
+abb,ABB (Asea Brown Boveri),company,industrial-engineering,active,,1988-present,aberdeen-1996-spider-technologies-netdynamics,Named NetDynamics enterprise customer

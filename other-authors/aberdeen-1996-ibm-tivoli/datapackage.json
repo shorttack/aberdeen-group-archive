@@ -1,0 +1,47 @@
+{
+  "name": "aberdeen-1996-ibm-tivoli",
+  "title": "Tivoli Systems: Unifying the Management of Network Computing Environments",
+  "description": "Aberdeen Group profiles Tivoli Systems (an IBM company) and its Tivoli Management Framework (TMF), arguing it provides IT executives the most comprehensive enterprise-grade management solution for unifying diverse client-server, mainframe, and midrange environments under a single policy-based management framework. The study explains IBM's strategic decision to acquire Tivoli instead of completing its own Karat project, and positions TMF as superior to HP OpenView's bottoms-up approach and CA Unicenter's all-or-nothing purchasing model.",
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wayback Machine",
+      "path": "https://web.archive.org/web/19961023170956/http://www.aberdeen.com:80/secure/profiles/tivoli/tivoli.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+tivoli-systems,"Tivoli Systems, Inc. (an IBM Company)",company,IT-management-software,acquired,IBM (1996),1989-1996,aberdeen-1996-ibm-tivoli,Austin TX; acquired by IBM in 1996; product line became IBM Tivoli brand; still active in IBM portfolio 2026
+ibm,IBM Corporation,company,information-technology,active,,1911-present,aberdeen-1996-ibm-tivoli,Parent company of Tivoli Systems; replaced internal Karat project with Tivoli acquisition
+aberdeen-group,Aberdeen Group,firm,market-research,acquired,Aberdeen (Harte-Hanks -> Spiceworks-Ziff Davis),1988-2014,aberdeen-1996-ibm-tivoli,Boston MA; author of this profile
+hp,Hewlett-Packard,company,hardware-software,active,HP Inc / HPE (split 2015),1939-present,aberdeen-1996-ibm-tivoli,Maker of HP OpenView; direct Tivoli competitor; bottoms-up network management view
+ca-technologies,Computer Associates (CA Technologies),company,enterprise-software,acquired,Broadcom (2018),1976-2018,aberdeen-1996-ibm-tivoli,Maker of CA Unicenter TNG; direct Tivoli competitor; comprehensive all-or-nothing offering
+axent-technologies,AXENT Technologies,company,security-software,acquired,Symantec (1998),1990s-1998,aberdeen-1996-ibm-tivoli,10/Plus partner for Tivoli; security management
+bmc-software,BMC Software,company,IT-management,active,,1980-present,aberdeen-1996-ibm-tivoli,10/Plus management partner for Tivoli; still active as major IT management vendor
+sap-ag,SAP AG,company,enterprise-software,active,,1972-present,aberdeen-1996-ibm-tivoli,10/Plus partner; SAP R/3 management via Tivoli TMF listed
+oracle-corp,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-ibm-tivoli,10/Plus partner for RDBMS management via Tivoli
+novell,"Novell, Inc.",company,networking-software,acquired,Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023),1979-2011,aberdeen-1996-ibm-tivoli,Tivoli TMF manages Novell NetWare 3.11 and higher
+lotus,Lotus Development (IBM),company,software,acquired,IBM (1995),1982-1995,aberdeen-1996-ibm-tivoli,10/Plus partner; Lotus groupware management via Tivoli
+remedy-corp,Remedy Corporation,company,IT-service-management,acquired,BMC Software (2002),1990-2002,aberdeen-1996-ibm-tivoli,10/Plus partner for help desk/ITSM integration with Tivoli

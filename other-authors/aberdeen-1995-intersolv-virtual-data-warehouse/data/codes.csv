@@ -1,32 +1,50 @@
-"code","label","scheme","parent_code","definition"
-"study-type:product-profile","Product Profile","study-type","","A vendor-focused profile examining a specific product or solution"
-"study-type:industry-analysis","Industry Analysis","study-type","","Broad examination of industry trends and market dynamics"
-"methodology:competitive-profiling","Competitive Profiling","methodology","","Analysis of competing vendors and products within a market segment"
-"methodology:field-research","Field Research","methodology","","Findings based on primary interviews with users and practitioners"
-"methodology:industry-analysis","Industry Analysis","methodology","","Secondary analysis of market structure and trends"
-"domain:data-warehousing","Data Warehousing","domain","","Technologies and practices for consolidating enterprise data for analytics"
-"domain:decision-support","Decision Support","domain","domain:data-warehousing","Systems and tools enabling analytical queries and business intelligence"
-"domain:data-virtualization","Data Virtualization","domain","domain:data-warehousing","Providing unified data access without physical consolidation"
-"domain:query-reporting","Query and Reporting","domain","domain:decision-support","Tools for ad hoc querying and structured reporting against data sources"
-"entity-type:vendor","Vendor","entity-type","","Commercial software or technology company"
-"entity-type:analyst-firm","Analyst Firm","entity-type","","Market research and technology advisory organization"
-"entity-type:product","Product","entity-type","","Named software product or solution"
-"entity-type:standard","Standard","entity-type","","Technical specification or protocol"
-"entity-status:active","Active","entity-status","","Entity is currently operating under same or successor identity"
-"entity-status:acquired","Acquired","entity-status","","Entity was absorbed into another organization"
-"entity-status:merged","Merged","entity-status","","Entity combined with another to form new organization"
-"entity-status:renamed","Renamed","entity-status","","Entity continues under a different name"
-"entity-status:discontinued","Discontinued","entity-status","","Entity or product is no longer available"
-"tech-lifecycle:active","Active","tech-lifecycle","","Technology remains in current use"
-"tech-lifecycle:evolved","Evolved","tech-lifecycle","","Technology transformed into successor concept or product"
-"tech-lifecycle:legacy","Legacy","tech-lifecycle","","Technology still in use but superseded by newer approaches"
-"tech-lifecycle:discontinued","Discontinued","tech-lifecycle","","Technology is no longer in active development or use"
-"observation-type:claim","Analyst Claim","observation-type","","Forward-looking or evaluative statement by Aberdeen analyst"
-"observation-type:fact","Factual Statement","observation-type","","Stated fact about a product, company, or event"
-"observation-type:user-feedback","User Feedback","observation-type","","Reported opinion or experience of product users"
-"observation-type:market-observation","Market Observation","observation-type","","Description of market conditions or competitive dynamics"
-"observation-type:product-feature","Product Feature","observation-type","","Description of a specific product capability"
-"observation-type:pricing","Pricing","observation-type","","Information about product pricing"
-"sentiment:positive","Positive","sentiment","","Favorable assessment or outcome"
-"sentiment:neutral","Neutral","sentiment","","Non-evaluative or balanced statement"
-"sentiment:negative","Negative","sentiment","","Unfavorable assessment or limitation identified"
+code_id,code_type,code_value,label,description
+study-type:product-profile,study-type,study-type:product-profile,Product Profile,A vendor-focused profile examining a specific product or solution
+study-type:industry-analysis,study-type,study-type:industry-analysis,Industry Analysis,Broad examination of industry trends and market dynamics
+methodology:competitive-profiling,methodology,methodology:competitive-profiling,Competitive Profiling,Analysis of competing vendors and products within a market segment
+methodology:field-research,methodology,methodology:field-research,Field Research,Findings based on primary interviews with users and practitioners
+methodology:industry-analysis,methodology,methodology:industry-analysis,Industry Analysis,Secondary analysis of market structure and trends
+domain:data-warehousing,domain,domain:data-warehousing,Data Warehousing,Technologies and practices for consolidating enterprise data for analytics
+domain:decision-support,domain,domain:decision-support,Decision Support,Systems and tools enabling analytical queries and business intelligence
+domain:data-virtualization,domain,domain:data-virtualization,Data Virtualization,Providing unified data access without physical consolidation
+domain:query-reporting,domain,domain:query-reporting,Query and Reporting,Tools for ad hoc querying and structured reporting against data sources
+entity-type:vendor,entity-type,entity-type:vendor,Vendor,Commercial software or technology company
+entity-type:analyst-firm,entity-type,entity-type:analyst-firm,Analyst Firm,Market research and technology advisory organization
+entity-type:product,entity-type,entity-type:product,Product,Named software product or solution
+entity-type:standard,entity-type,entity-type:standard,Standard,Technical specification or protocol
+entity-status:active,entity-status,entity-status:active,Active,Entity is currently operating under same or successor identity
+entity-status:acquired,entity-status,entity-status:acquired,Acquired,Entity was absorbed into another organization
+entity-status:merged,entity-status,entity-status:merged,Merged,Entity combined with another to form new organization
+entity-status:renamed,entity-status,entity-status:renamed,Renamed,Entity continues under a different name
+entity-status:discontinued,entity-status,entity-status:discontinued,Discontinued,Entity or product is no longer available
+tech-lifecycle:active,tech-lifecycle,tech-lifecycle:active,Active,Technology remains in current use
+tech-lifecycle:evolved,tech-lifecycle,tech-lifecycle:evolved,Evolved,Technology transformed into successor concept or product
+tech-lifecycle:legacy,tech-lifecycle,tech-lifecycle:legacy,Legacy,Technology still in use but superseded by newer approaches
+tech-lifecycle:discontinued,tech-lifecycle,tech-lifecycle:discontinued,Discontinued,Technology is no longer in active development or use
+observation-type:claim,observation-type,observation-type:claim,Analyst Claim,Forward-looking or evaluative statement by Aberdeen analyst
+observation-type:fact,observation-type,observation-type:fact,Factual Statement,"Stated fact about a product, company, or event"
+observation-type:user-feedback,observation-type,observation-type:user-feedback,User Feedback,Reported opinion or experience of product users
+observation-type:market-observation,observation-type,observation-type:market-observation,Market Observation,Description of market conditions or competitive dynamics
+observation-type:product-feature,observation-type,observation-type:product-feature,Product Feature,Description of a specific product capability
+observation-type:pricing,observation-type,observation-type:pricing,Pricing,Information about product pricing
+sentiment:positive,sentiment,sentiment:positive,Positive,Favorable assessment or outcome
+sentiment:neutral,sentiment,sentiment:neutral,Neutral,Non-evaluative or balanced statement
+sentiment:negative,sentiment,sentiment:negative,Negative,Unfavorable assessment or limitation identified
+strategy-classification,observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or competitive positioning
+viability-prediction,observation_type,viability-prediction,Viability Prediction,Expert prediction of entity's long-term survival or market trajectory
+actual-outcome,observation_type,actual-outcome,Actual Outcome,Verified historical outcome for an entity or prediction
+technology-assessment,observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's maturity, fitness, or competitive positioning"
+benchmark-result,observation_type,benchmark-result,Benchmark Result,Quantitative performance comparison against peers or industry standards
+framework-factor,observation_type,framework-factor,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,market-data,Market Data,"Quantitative market statistic such as revenue, share, or growth rate"
+expert-opinion,observation_type,expert-opinion,Expert Opinion,Qualitative professional judgment or analytical finding
+method-document-review,methodology,document-review,Document Review,"Analysis of existing documents, reports, and published records"
+method-field-research,methodology,field-research,Field Research,Primary data collection via IS executive interviews or customer surveys
+method-industry-analysis,methodology,industry-analysis,Industry Analysis,"Systematic analysis of industry structure, dynamics, and competitive forces"
+method-competitive-profiling,methodology,competitive-profiling,Competitive Profiling,"Detailed comparison of competing entities' strategies, products, and positions"
+method-benchmarking,methodology,benchmarking,Benchmarking,"Comparison against industry standards, peers, or prior periods"
+method-revenue-benchmark,methodology,revenue-benchmark,Revenue Benchmarking,Measurement and comparison of entity revenues against market total
+conf-high,confidence,high,High Confidence,Strong evidentiary basis; multiple corroborating sources or explicit supplier data
+conf-medium,confidence,medium,Medium Confidence,Reasonable basis but data is estimated or partially corroborated
+conf-low,confidence,low,Low Confidence,Directional judgment with limited evidence; Aberdeen estimate only
+conf-verified,confidence,verified,Verified,"Confirmed by subsequent events, independent sources, or official records"

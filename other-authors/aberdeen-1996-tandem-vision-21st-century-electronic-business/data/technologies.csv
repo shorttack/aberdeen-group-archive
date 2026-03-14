@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+servernet,Tandem ServerNet (SAN),platform,Tandem,1994-2010,emerging,obsolete,aberdeen-1996-tandem-vision-21st-century-electronic-business,System area network; 150 TB/s theoretical bandwidth; led to InfiniBand
+himalaya-nonstop,Tandem NonStop Himalaya,platform,Tandem,1989-present,mature,active,aberdeen-1996-tandem-vision-21st-century-electronic-business,Fault-tolerant OLTP server; continues as HPE Integrity NonStop
+serverware,Tandem ServerWare,framework,Tandem,1997-2002,emerging,obsolete,aberdeen-1996-tandem-vision-21st-century-electronic-business,Multi-platform middleware strategy; absorbed into Compaq/HP product lines
+nonstop-sql,NonStop SQL,platform,Tandem,1987-present,mature,active,aberdeen-1996-tandem-vision-21st-century-electronic-business,"Parallel, fault-tolerant RDBMS; continues as HPE NonStop SQL"
+windows-nt,Microsoft Windows NT,platform,Microsoft,1993-2000,mature,obsolete,aberdeen-1996-tandem-vision-21st-century-electronic-business,Succeeded by Windows 2000/Server 2003; Tandem targeting NT market
+tuxedo,TUXEDO Transaction Monitor,application,Novell/BEA,1984-present,mature,active,aberdeen-1996-tandem-vision-21st-century-electronic-business,Included in ServerWare delivery plan; Oracle acquired BEA/TUXEDO in 2008
+internet-transaction-processing,Internet Transaction Processing (ITP),framework,Tandem/Aberdeen,1996-2005,emerging,obsolete,aberdeen-1996-tandem-vision-21st-century-electronic-business,Aberdeen/Tandem coined term; concept evolved into modern web-scale OLTP and microservices
+informix-illustra,Informix Illustra DataBlade,application,Informix,1995-2001,emerging,obsolete,aberdeen-1996-tandem-vision-21st-century-electronic-business,Object-relational extensions; used by Tandem to add video/complex data support to NonStop SQL

@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+digital-equipment-corporation,Digital Equipment Corporation,company,enterprise-computing,acquired,Compaq (1998) -> Hewlett-Packard (2002),1957-1998,aberdeen-1995-digital-multia,"Headquartered at 200 Forest Street, Marlboro, MA 01752; creator and vendor of Multia; acquired by Compaq 1998, then HP 2002"
+microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1995-digital-multia,"Supplier of Windows NT Workstation 3.51 and Windows 95, both used on Multia"
+netscape,Netscape Communications Corporation,company,internet-software,acquired,AOL (1999); browser discontinued 2008,1994-1999,aberdeen-1995-digital-multia,Provided Netscape Navigator bundled as the Multia web browser; acquired by AOL 1999
+wall-data,Wall Data Incorporated,company,terminal-emulation-software,acquired,NetManage (2003); dissolved,1982-2003,aberdeen-1995-digital-multia,"Maker of Rumba terminal emulator, bundled with Multia as an Information Access product"
+attachmate,Attachmate Corporation,company,terminal-emulation-software,acquired,Micro Focus (2014) -> OpenText (2023),1982-2014,aberdeen-1995-digital-multia,"Maker of Kea! terminal emulator, bundled with Multia as an Information Access product"
+ibm,IBM Corporation,company,enterprise-computing,active,,1911-present,aberdeen-1995-digital-multia,Referenced as supplier of NetBEUI LAN protocol and IBM mainframes accessed via 3270 emulation
+novell,"Novell, Inc.",company,network-software,acquired,Micro Focus (2014) -> OpenText (2023),1983-2014,aberdeen-1995-digital-multia,Supplier of IPX/SPX network protocol supported in Multia communications stack
+aberdeen-group,Aberdeen Group,firm,technology-research,acquired,Harte-Hanks (2001) -> Aberdeen Group brand reacquired by various entities,1988-present,aberdeen-1995-digital-multia,"Author and publisher of this product profile; headquartered at One Boston Place, Boston, MA 02108"

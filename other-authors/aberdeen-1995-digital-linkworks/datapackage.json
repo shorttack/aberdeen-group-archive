@@ -1,0 +1,175 @@
+{
+  "id": "aberdeen-1995-digital-linkworks",
+  "name": "aberdeen-1995-digital-linkworks",
+  "title": "Digital LinkWorks: Delivering Solutions to MIS and End-Users",
+  "description": "Frictionless Data Package archiving Aberdeen Group's July 1995 product profile of Digital Equipment Corporation's LinkWorks enterprise groupware platform. Includes structured entities, technologies, observations, and controlled-vocabulary codes extracted from the original study.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-By-1.0",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Digital LinkWorks: Delivering Solutions to MIS and End-Users (Aberdeen Group, July 1995)",
+      "path": "https://web.archive.org/web/19970108191558/http://www.aberdeen.com:80/secure/profiles/declink/declink1/declink.htm",
+      "email": "chriss@aberdeen.com"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author",
+      "organization": "Aberdeen Group",
+      "path": "https://web.archive.org/web/19970101000000*/aberdeen.com"
+    }
+  ],
+  "keywords": [
+    "groupware",
+    "enterprise-groupware",
+    "workflow",
+    "document-management",
+    "distributed-objects",
+    "digital-equipment-corporation",
+    "linkworks",
+    "1995",
+    "aberdeen-group",
+    "client-server",
+    "object-oriented"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "title": "Studies",
+      "description": "One row per research study ingested into the archive. This package contains a single study.",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id",           "type": "string",  "constraints": {"required": true, "unique": true}, "description": "Unique slug identifier for the study"},
+          {"name": "title",              "type": "string",  "constraints": {"required": true}, "description": "Full title of the study"},
+          {"name": "author",             "type": "string",  "constraints": {"required": true}, "description": "Authoring organization"},
+          {"name": "date",               "type": "date",    "format": "%Y-%m-%d", "constraints": {"required": true}, "description": "Publication date (ISO 8601)"},
+          {"name": "type",               "type": "string",  "constraints": {"required": true}, "description": "Study type code (see codes.csv scheme=study_type)"},
+          {"name": "domain",             "type": "string",  "constraints": {"required": true}, "description": "Domain code (see codes.csv scheme=domain)"},
+          {"name": "methodology",        "type": "string",  "description": "Comma-separated methodology codes"},
+          {"name": "abstract",           "type": "string",  "description": "Curator-written abstract summarising the study"},
+          {"name": "source_url",         "type": "string",  "format": "uri", "description": "Canonical or archived URL of the original study"},
+          {"name": "page_count",         "type": "integer", "description": "Number of pages in original document"},
+          {"name": "contact_name",       "type": "string",  "description": "Aberdeen contact named in the document"},
+          {"name": "contact_email",      "type": "string",  "description": "Aberdeen contact email named in the document"},
+          {"name": "publisher_address",  "type": "string",  "description": "Publisher mailing address as printed"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "title": "Entities",
+      "description": "Organizations, vendors, and institutional actors referenced in the study, with current (2026) status.",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id",       "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique entity identifier"},
+          {"name": "study_id",        "type": "string", "constraints": {"required": true}, "description": "Foreign key → studies.study_id"},
+          {"name": "name",            "type": "string", "constraints": {"required": true}, "description": "Full name of the organization"},
+          {"name": "type",            "type": "string", "constraints": {"required": true}, "description": "Entity type code (see codes.csv scheme=entity_type)"},
+          {"name": "role",            "type": "string", "constraints": {"required": true}, "description": "Role code in this study (see codes.csv scheme=entity_role)"},
+          {"name": "status_at_study", "type": "string", "constraints": {"required": true}, "description": "Status at time of study (see codes.csv scheme=entity_status)"},
+          {"name": "current_status",  "type": "string", "constraints": {"required": true}, "description": "Status as of 2026 (see codes.csv scheme=entity_status)"},
+          {"name": "status_note",     "type": "string", "description": "Narrative explanation of current status including acquisition history"},
+          {"name": "hq_location",     "type": "string", "description": "Headquarters location at time of study"},
+          {"name": "url_at_study",    "type": "string", "description": "Website URL at time of study (if known)"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "title": "Technologies",
+      "description": "Software products, platforms, standards, and technology categories referenced in the study, with lifecycle status.",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id",          "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique technology identifier"},
+          {"name": "study_id",         "type": "string", "constraints": {"required": true}, "description": "Foreign key → studies.study_id"},
+          {"name": "name",             "type": "string", "constraints": {"required": true}, "description": "Technology name"},
+          {"name": "category",         "type": "string", "constraints": {"required": true}, "description": "Technology category slug"},
+          {"name": "vendor",           "type": "string", "description": "Vendor name at time of study"},
+          {"name": "version_at_study", "type": "string", "description": "Version or release known at time of study"},
+          {"name": "lifecycle_status", "type": "string", "constraints": {"required": true}, "description": "Lifecycle code (see codes.csv scheme=tech_lifecycle)"},
+          {"name": "lifecycle_note",   "type": "string", "description": "Narrative description of lifecycle trajectory"},
+          {"name": "successor",        "type": "string", "description": "Named successor product or technology (if applicable)"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "title": "Observations",
+      "description": "Structured analytical observations extracted from the study text, each mapped to a subject, dimension, and value.",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id",            "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique observation identifier"},
+          {"name": "study_id",          "type": "string", "constraints": {"required": true}, "description": "Foreign key → studies.study_id"},
+          {"name": "observation_type",  "type": "string", "constraints": {"required": true}, "description": "Observation type code (see codes.csv scheme=observation_type)"},
+          {"name": "subject",           "type": "string", "constraints": {"required": true}, "description": "Primary subject of the observation (product, company, or concept)"},
+          {"name": "dimension",         "type": "string", "constraints": {"required": true}, "description": "The specific aspect or attribute being observed"},
+          {"name": "value_text",        "type": "string", "description": "Textual value or paraphrase of the observation"},
+          {"name": "value_numeric",     "type": "string", "description": "Numeric value if present (stored as string to allow empty)"},
+          {"name": "unit",              "type": "string", "description": "Unit for value_numeric (e.g., version-number, predefined-access-levels)"},
+          {"name": "source_section",    "type": "string", "description": "Section heading in the original document"},
+          {"name": "page_ref",          "type": "string", "description": "Page number(s) in the original document"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "title": "Controlled Vocabulary Codes",
+      "description": "Controlled vocabulary for all coded fields used across the data package resources.",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id",     "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique code identifier"},
+          {"name": "scheme",      "type": "string", "constraints": {"required": true}, "description": "Name of the coding scheme / field it applies to"},
+          {"name": "code",        "type": "string", "constraints": {"required": true}, "description": "The code value as used in data files"},
+          {"name": "label",       "type": "string", "constraints": {"required": true}, "description": "Human-readable label"},
+          {"name": "description", "type": "string", "description": "Extended description of the code"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

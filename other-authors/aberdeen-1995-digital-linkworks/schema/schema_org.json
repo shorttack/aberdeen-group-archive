@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-digital-linkworks",
+  "name": "Digital LinkWorks: Delivering Solutions to MIS and End-Users",
+  "alternateName": "aberdeen-1995-digital-linkworks",
+  "description": "Frictionless Data Package archiving Aberdeen Group's July 1995 product profile of Digital Equipment Corporation's LinkWorks enterprise groupware platform. Structured tables capture entities, technologies, analytical observations, and controlled vocabulary extracted from the original study.",
+  "url": "https://web.archive.org/web/19970108191558/http://www.aberdeen.com:80/secure/profiles/declink/declink1/declink.htm",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-13",
+  "datePublished": "1995-07-01",
+  "dateModified": "2026-03-13",
+  "inLanguage": "en",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc."
+  },
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Digital LinkWorks",
+      "applicationCategory": "Enterprise Groupware",
+      "operatingSystem": "Digital UNIX, HP-UX, SCO Unix, OpenVMS, IBM AIX, Windows NT, Windows 3.1, OS/2, Macintosh OS",
+      "offers": {
+        "@type": "Offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Digital Equipment Corporation",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "129 Parker St",
+            "addressLocality": "Maynard",
+            "addressRegion": "MA",
+            "postalCode": "01754",
+            "addressCountry": "US"
+          },
+          "url": "http://www.digital.com/info/linkworks"
+        }
+      }
+    }
+  ],
+  "keywords": [
+    "groupware",
+    "enterprise groupware",
+    "workflow",
+    "document management",
+    "distributed objects",
+    "Digital Equipment Corporation",
+    "LinkWorks",
+    "1995",
+    "Aberdeen Group",
+    "client-server",
+    "object-oriented",
+    "MIS",
+    "enterprise software"
+  ],
+  "measurementTechnique": [
+    "industry-analysis",
+    "competitive-profiling",
+    "field-research"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "description": "Study metadata record"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "description": "Organizations referenced in the study with acquisition history and 2026 status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "description": "Technologies referenced in the study with lifecycle status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "description": "Structured analytical observations extracted from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "description": "Controlled vocabulary codes for all coded fields"
+    }
+  ],
+  "temporalCoverage": "1995-07-01",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "United States (enterprise software market)"
+  },
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Research Archive — Groupware & Workflow Domain"
+  },
+  "subjectOf": {
+    "@type": "ScholarlyArticle",
+    "name": "Digital LinkWorks: Delivering Solutions to MIS and End-Users",
+    "author": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    "datePublished": "1995-07-01",
+    "about": "Enterprise groupware, distributed object technology, document management, workflow automation",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  },
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Entities",
+      "description": "10 organizational entities with M&A history and current status (2026)"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Technologies",
+      "description": "19 technologies and platforms with lifecycle status and successors"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Observations",
+      "description": "30 structured observations spanning product features, competitive assessments, market findings, and analyst recommendations"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Codes",
+      "description": "29 controlled vocabulary codes across 7 coding schemes"
+    }
+  ]
+}

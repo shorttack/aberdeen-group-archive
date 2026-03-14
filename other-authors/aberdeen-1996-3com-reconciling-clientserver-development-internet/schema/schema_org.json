@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Reconciling Client/Server Development and the Internet",
+  "description": "Aberdeen Group impact report (November 1996) on reconciling client/server investments with Internet application deployment. Sponsored by 3Com. Archival Frictionless Data Package v13.",
+  "identifier": "aberdeen-1996-3com-reconciling-clientserver-development-internet",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1996-11",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["client/server", "Internet", "Web browser", "Java", "EDI", "3Com", "application development", "1990s IT strategy"],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://web.archive.org/web/19971007163600/http://www.aberdeen.com:80/secure/impacts/3com/3com2.htm",
+    "name": "Original Aberdeen Group Study (Wayback Machine)"
+  }
+}

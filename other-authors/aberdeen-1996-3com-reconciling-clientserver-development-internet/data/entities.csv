@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+3COM,3Com Corporation,vendor,networking / computing,acquired,Hewlett Packard Enterprise / Aruba Networks,1979-2010,aberdeen-1996-3com-reconciling-clientserver-development-internet,"Network infrastructure vendor; acquired by HP for $2.7B in April 2010; integrated into HPE Aruba Networks."
+ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-3com-reconciling-clientserver-development-internet,"Author of study; Boston-based IT analyst firm. Author Tim Sloane is credited."
+TIM-SLOANE,Tim Sloane (analyst),person,IT research,unknown,,1990s,aberdeen-1996-3com-reconciling-clientserver-development-internet,"Aberdeen Group analyst credited as author of this impact report."

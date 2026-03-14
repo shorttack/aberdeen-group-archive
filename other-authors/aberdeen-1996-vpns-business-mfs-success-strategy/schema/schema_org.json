@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "VPNs for Business: The MFS Success Strategy",
+  "description": "Aberdeen Group profiles MFS Communications Company's strategy for leadership in the emerging Virtual Private Network (VPN) and digital telecommunications market. The study documents MFS's five-operating-unit structure, its SONET/ATM fiber network spanning 45+ US metro centers and international markets, and its first-mover advantages in national ATM (1993) and international ATM (1994) services. Aberdeen examines MFS's WAVE integrated voice-data service, its accelerated deployment plan (65 US metro centers by end 1998 vs. original 2000 target), and its co-carrier strategy under the US Telecom Act of 1996, concluding MFS is well-positioned for world leadership in VPN and integrated network services.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "MFS Communications",
+    "VPN",
+    "SONET",
+    "ATM",
+    "WorldCom",
+    "telecom deregulation",
+    "Telecom Act 1996",
+    "fiber network",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1988/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "market-data",
+    "technology-assessment"
+  ]
+}

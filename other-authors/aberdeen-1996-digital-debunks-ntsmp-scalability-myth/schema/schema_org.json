@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital Debunks the NT/SMP Scalability Myth",
+  "description": "Aberdeen Group Market Viewpoint (November 1996) analyzing NT SMP scalability using TPC-C benchmarks.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-11-22",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Windows NT",
+    "SMP scalability",
+    "TPC-C benchmark",
+    "Digital Equipment Corporation",
+    "server market",
+    "performance clustering",
+    "1996"
+  ],
+  "temporalCoverage": "1995/1999",
+  "variableMeasured": [
+    "benchmark-result",
+    "viability-prediction",
+    "strategy-classification",
+    "market-data"
+  ]
+}

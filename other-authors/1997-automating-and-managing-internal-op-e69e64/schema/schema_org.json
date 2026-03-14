@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Automating and Managing Internal Operations",
+  "description": "Aberdeen Group examines the trend toward 'Consolidated Operations Management' (COM) as enterprises automate internal processes\u2014IT help desk, asset management, SLA tracking, procurement, and HR\u2014using a common adaptable platform. The paper identifies six success factors for COM adoption and profiles Remedy Corporation's Action Request System (AR System) as the leading vehicle for this transition, citing its extensibility, 3,000-plus customer base, and use beyond traditional help desk functions.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-02-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "ITSM",
+    "help desk",
+    "Remedy Corporation",
+    "AR System",
+    "Consolidated Operations Management",
+    "enterprise automation",
+    "1997"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor",
+    "market-data",
+    "expert-opinion"
+  ]
+}

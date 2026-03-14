@@ -1,0 +1,175 @@
+{
+  "id": "aberdeen-1995-limd-technology",
+  "name": "aberdeen-1995-limd-technology",
+  "title": "New LIMD Technology: Speed Plus Real-World Experience",
+  "description": "Frictionless Data Package archiving Aberdeen Group Technology Viewpoint (Volume 8, Number 15, December 1, 1995) analyzing Large-Scale In-Memory Database (LIMD) technology. The study examines how 64-bit architectures and large main memories deliver 10-100x performance improvements for data warehousing, OLTP, and decision support. Extracted entities, technologies, observations, and supporting codes are provided as normalized CSV resources.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-By-1.0",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Technology Viewpoint Vol. 8 No. 15",
+      "path": "https://web.archive.org/web/19970112010820/http://www.aberdeen.com:80/secure/viewpnts/v8n15/v8n15.htm",
+      "description": "Original archived source via Internet Archive Wayback Machine"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    },
+    {
+      "title": "BlueBridge Group (archival ingest)",
+      "email": "pete.kastner@bluebridgegrp.com",
+      "role": "maintainer"
+    }
+  ],
+  "keywords": [
+    "LIMD",
+    "in-memory database",
+    "64-bit architecture",
+    "Alpha server",
+    "DEC Digital",
+    "Oracle",
+    "Sybase",
+    "Informix",
+    "TPC-C",
+    "data warehousing",
+    "OLTP",
+    "decision support",
+    "database performance",
+    "SMP",
+    "MPP",
+    "1995",
+    "Aberdeen Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Master record for the source research study with full bibliographic metadata.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique slug identifier for the study"},
+          {"name": "study_num", "type": "integer", "description": "Sequential study number in the archival collection"},
+          {"name": "title", "type": "string", "constraints": {"required": true}, "description": "Full title of the research study"},
+          {"name": "author", "type": "string", "description": "Author(s) of the study"},
+          {"name": "publisher", "type": "string", "description": "Publishing organization"},
+          {"name": "publication_date", "type": "date", "format": "%Y-%m-%d", "description": "Publication date in ISO 8601 format"},
+          {"name": "study_type", "type": "string", "description": "Type of study; references codes.csv code_type=study_type"},
+          {"name": "domain", "type": "string", "description": "Subject domain; references codes.csv code_type=domain"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated list of methodologies used; references codes.csv code_type=methodology"},
+          {"name": "abstract", "type": "string", "description": "Summary abstract of the study"},
+          {"name": "source_pdf", "type": "string", "description": "Filename of the source PDF"},
+          {"name": "source_url", "type": "string", "description": "Canonical or archived URL of the study"},
+          {"name": "volume", "type": "integer", "description": "Publication volume number"},
+          {"name": "issue_number", "type": "integer", "description": "Publication issue number within the volume"},
+          {"name": "page_count", "type": "integer", "description": "Approximate page count of the study"},
+          {"name": "language", "type": "string", "description": "ISO 639-1 language code"},
+          {"name": "geographic_scope", "type": "string", "description": "Geographic scope of the study"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Organizations mentioned in the study with current corporate status, acquisition history, and role in the study.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the entity"},
+          {"name": "entity_name", "type": "string", "constraints": {"required": true}, "description": "Full name of the organization as referenced in the study"},
+          {"name": "entity_type", "type": "string", "description": "Type of entity; references codes.csv code_type=entity_type"},
+          {"name": "role_in_study", "type": "string", "description": "Role the entity plays in the study; references codes.csv code_type=role_in_study"},
+          {"name": "current_status", "type": "string", "description": "Current corporate status as of 2026; references codes.csv code_type=current_status"},
+          {"name": "status_notes", "type": "string", "description": "Explanatory notes on corporate history and status"},
+          {"name": "hq_country", "type": "string", "description": "ISO 3166-1 alpha-2 country code for headquarters"},
+          {"name": "founded_year", "type": "integer", "description": "Year the entity was founded"},
+          {"name": "acquisition_year", "type": "integer", "description": "Year the entity was acquired (if applicable)"},
+          {"name": "acquired_by", "type": "string", "description": "Name of acquiring entity (if applicable)"}
+        ],
+        "primaryKey": ["entity_id"]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies discussed in the study with lifecycle status, obsolescence information, and modern successors.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the technology"},
+          {"name": "tech_name", "type": "string", "constraints": {"required": true}, "description": "Name of the technology as referenced in the study"},
+          {"name": "tech_category", "type": "string", "description": "Technology category; references codes.csv code_type=tech_category"},
+          {"name": "description", "type": "string", "description": "Description of the technology and its role in the study"},
+          {"name": "lifecycle_status", "type": "string", "description": "Current lifecycle status; references codes.csv code_type=current_status"},
+          {"name": "lifecycle_notes", "type": "string", "description": "Explanatory notes on lifecycle trajectory"},
+          {"name": "introduced_approx", "type": "integer", "description": "Approximate year the technology was introduced"},
+          {"name": "obsolete_year", "type": "integer", "description": "Year technology became obsolete (if applicable)"},
+          {"name": "successor_tech", "type": "string", "description": "Modern successor or equivalent technologies"}
+        ],
+        "primaryKey": ["tech_id"]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "All quantified and qualitative observations extracted from the study including benchmark results, hardware specs, performance claims, market statistics, and use cases.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the observation"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "Foreign key to studies.csv study_id"},
+          {"name": "section", "type": "string", "description": "Document section slug where observation appears"},
+          {"name": "observation_type", "type": "string", "description": "Type of observation; references codes.csv code_type=observation_type"},
+          {"name": "subject_entity", "type": "string", "description": "Foreign key to entities.csv entity_id (may be empty)"},
+          {"name": "subject_tech", "type": "string", "description": "Foreign key to technologies.csv tech_id (may be empty)"},
+          {"name": "metric_name", "type": "string", "description": "Machine-readable name for the metric measured"},
+          {"name": "metric_value", "type": "string", "description": "Numeric or textual value of the metric"},
+          {"name": "metric_unit", "type": "string", "description": "Unit of measurement for the metric value"},
+          {"name": "metric_qualifier", "type": "string", "description": "Qualifying context for the metric (e.g., bound, condition, scenario)"},
+          {"name": "source_type", "type": "string", "description": "Type of evidence source for the observation"},
+          {"name": "verbatim_quote", "type": "string", "description": "Direct quote from the source text supporting the observation"},
+          {"name": "page_ref", "type": "integer", "description": "Approximate page number in source document"},
+          {"name": "confidence", "type": "string", "description": "Confidence level for the observation; references codes.csv code_type=confidence"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Codes",
+      "description": "Controlled vocabulary lookup table for all coded fields used across the other resources.",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the code entry"},
+          {"name": "code_type", "type": "string", "constraints": {"required": true}, "description": "Category/dimension the code belongs to"},
+          {"name": "code_value", "type": "string", "constraints": {"required": true}, "description": "Machine-readable code value used in data fields"},
+          {"name": "label", "type": "string", "description": "Human-readable label for the code value"},
+          {"name": "description", "type": "string", "description": "Full description of what this code means"}
+        ],
+        "primaryKey": ["code_id"]
+      }
+    }
+  ]
+}

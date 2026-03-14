@@ -1,0 +1,183 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "aberdeen-1995-limd-technology",
+  "name": "New LIMD Technology: Speed Plus Real-World Experience",
+  "alternateName": "Aberdeen Group Technology Viewpoint Vol. 8 No. 15",
+  "description": "Frictionless Data Package archiving Aberdeen Group Technology Viewpoint (December 1, 1995) analyzing Large-Scale In-Memory Database (LIMD) technology. Includes structured extractions of entities, technologies, benchmark observations, and market statistics from the original PDF. The study examines how Digital Equipment Corporation's 64-bit Alpha architecture and VLM64 technology combined with Oracle, Sybase, and Informix RDBMSs deliver 10-100x performance improvements for data warehousing, OLTP, and decision support workloads.",
+  "url": "https://web.archive.org/web/19970112010820/http://www.aberdeen.com:80/secure/viewpnts/v8n15/v8n15.htm",
+  "identifier": "aberdeen-1995-limd-technology",
+  "version": "1.0.0",
+  "dateCreated": "1995-12-01",
+  "dateModified": "2026-03-13",
+  "datePublished": "1995-12-01",
+  "inLanguage": "en",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "LIMD",
+    "Large-Scale In-Memory Database",
+    "in-memory database",
+    "64-bit architecture",
+    "Alpha server",
+    "VLM64",
+    "Digital Equipment Corporation",
+    "Oracle",
+    "Sybase System 11",
+    "Informix-OnLine",
+    "TPC-C benchmark",
+    "data warehousing",
+    "OLTP",
+    "decision support",
+    "SMP",
+    "MPP",
+    "database performance",
+    "1995",
+    "Aberdeen Group",
+    "Technology Viewpoint"
+  ],
+  "measurementTechnique": [
+    "industry-analysis",
+    "benchmarking",
+    "field-research"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "TPC-C throughput",
+      "unitCode": "tpmC",
+      "description": "Transactions per minute (TPC-C benchmark metric)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Price/performance",
+      "unitCode": "USD/tpmC",
+      "description": "Cost per TPC-C transaction per minute"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Performance improvement ratio",
+      "unitCode": "x-times",
+      "description": "Multiplicative performance improvement from LIMD vs non-LIMD systems"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Main memory capacity",
+      "unitCode": "GB",
+      "description": "Maximum main memory in gigabytes supported by server hardware"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CPU count",
+      "unitCode": "count",
+      "description": "Maximum CPU count supported in server configuration"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Storage capacity",
+      "unitCode": "TB",
+      "description": "Maximum total storage in terabytes"
+    }
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "maintainer": {
+    "@type": "Person",
+    "email": "pete.kastner@bluebridgegrp.com",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "BlueBridge Group"
+    }
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv",
+      "description": "Bibliographic metadata for the source study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv",
+      "description": "Organizations mentioned in the study with current corporate status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv",
+      "description": "Technologies discussed in the study with lifecycle status"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv",
+      "description": "All quantified and qualitative observations extracted from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv",
+      "description": "Controlled vocabulary lookup table for all coded fields"
+    }
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Digital Equipment Corporation Alpha 8200",
+      "description": "64-bit server supporting up to 6 CPUs and 6GB RAM with VLM64 architecture"
+    },
+    {
+      "@type": "Thing",
+      "name": "Digital Equipment Corporation Alpha 8400",
+      "description": "64-bit server supporting up to 12 CPUs and 14GB RAM with VLM64 architecture"
+    },
+    {
+      "@type": "Thing",
+      "name": "TPC-C Benchmark Record 1995",
+      "description": "Digital/Oracle combination achieved record 11,456 tpmC at $286/tpmC"
+    },
+    {
+      "@type": "Thing",
+      "name": "LIMD Performance Claims",
+      "description": "20-40x overall performance improvement; 105x speedup for 5-way joins; 1GB RAM correlated with 1,300 tpmC"
+    }
+  ],
+  "temporalCoverage": "1995/1995",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Technology Viewpoints Archive",
+    "description": "Archival collection of Aberdeen Group market research studies"
+  }
+}

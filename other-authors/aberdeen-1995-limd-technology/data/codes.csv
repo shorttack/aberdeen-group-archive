@@ -1,0 +1,42 @@
+code_id,code_type,code_value,label,description
+CTYPE001,entity_type,analyst-firm,Analyst Firm,Market research and analyst organization publishing industry reports
+CTYPE002,entity_type,hardware-vendor,Hardware Vendor,Company producing computer hardware (servers; processors; storage)
+CTYPE003,entity_type,software-vendor,Software Vendor,Company producing software products (databases; operating systems; middleware)
+CTYPE004,entity_type,financial-services,Financial Services,Bank; brokerage; or financial institution
+CSTATUS001,current_status,active,Active,Entity continues to operate under its original name
+CSTATUS002,current_status,acquired,Acquired,Entity was acquired and absorbed or rebranded by acquirer
+CSTATUS003,current_status,defunct,Defunct,Entity no longer exists in any form
+CSTATUS004,current_status,rebranded,Rebranded,Entity continues to operate under a different name
+CSTATUS005,current_status,ubiquitous,Ubiquitous,Technology has become universal/standard
+CSTATUS006,current_status,obsolete,Obsolete,Technology no longer in use
+CSTATUS007,current_status,evolved,Evolved,Technology has transformed into or been succeeded by modern equivalent
+TCAT001,tech_category,database-architecture,Database Architecture,Design patterns and structures for database storage and access
+TCAT002,tech_category,hardware-architecture,Hardware Architecture,Physical computing system design and organization
+TCAT003,tech_category,processor,Processor,Central processing unit designs and chipsets
+TCAT004,tech_category,database-software,Database Software,Relational and other database management system software products
+TCAT005,tech_category,hardware-interconnect,Hardware Interconnect,Bus or network technology connecting hardware components
+TCAT006,tech_category,networking,Networking,Network protocols and transmission technologies
+TCAT007,tech_category,benchmark,Benchmark,Standardized performance measurement tests
+OTYPE001,observation_type,market-trend,Market Trend,Directional movement observed in the market
+OTYPE002,observation_type,market-stat,Market Statistic,Quantified market data point
+OTYPE003,observation_type,performance-claim,Performance Claim,Assertion about technology performance improvement
+OTYPE004,observation_type,benchmark-result,Benchmark Result,Result from a formal standardized benchmark test
+OTYPE005,observation_type,technology-definition,Technology Definition,Formal or working definition of a technology concept
+OTYPE006,observation_type,technology-context,Technology Context,Background or contextual information about a technology
+OTYPE007,observation_type,hardware-spec,Hardware Specification,Specific technical parameter of a hardware system
+OTYPE008,observation_type,market-assessment,Market Assessment,Analyst evaluation of competitive or market position
+OTYPE009,observation_type,use-case,Use Case,Description of a real or hypothetical application scenario
+OTYPE010,observation_type,forecast,Forecast,Forward-looking prediction about technology or market
+MTYPE001,methodology,industry-analysis,Industry Analysis,Broad assessment of industry structure and competitive dynamics
+MTYPE002,methodology,benchmarking,Benchmarking,Systematic comparison against performance standards
+MTYPE003,methodology,field-research,Field Research,Primary data collection from end users and practitioners
+DOMAIN001,domain,database-performance-technology,Database Performance Technology,Domain covering database engines; hardware optimization; and performance measurement
+STYPE001,study_type,market-study,Market Study,Research study analyzing market conditions; competitors; and technology trends
+CONF001,confidence,high,High Confidence,Directly stated in source text with specific figures
+CONF002,confidence,medium,Medium Confidence,Inferred or paraphrased from source text
+CONF003,confidence,low,Low Confidence,Estimated or extrapolated from limited information
+ROLE001,role_in_study,author,Author,Organization that wrote and published the study
+ROLE002,role_in_study,subject-leader,Subject Leader,Entity identified as a market leader in the study
+ROLE003,role_in_study,subject,Subject,Entity discussed in the study without specific leadership designation
+ROLE004,role_in_study,case-study-user,Case Study User,End-user organization cited as a real-world implementation example
+ROLE005,role_in_study,publisher,Publisher,Organization responsible for distribution of the study

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Universal Servers: RDBMS Technology for the Next Decade",
+  "description": "Aberdeen examines the emergence of Universal Servers — RDBMS extensions supporting complex data types (text, video, spatial, ROLAP, user-defined) — as the next major RDBMS evolution beyond simple numeric data. The study positions Informix (via Illustra DataBlade acquisition) as the leader, assesses Oracle 7.3, IBM DB2, Sybase, Computer Associates, and Microsoft, and predicts Universal Server technology will become widespread within 2-3 years and be the most significant RDBMS advance for the next decade.",
+  "url": "https://aberdeenarchive.bluebridgegrp.com/datasets/aberdeen-1995-universal-servers-rdbms-technology-next-decade",
+  "identifier": "aberdeen-1995-universal-servers-rdbms-technology-next-decade",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BlueBridge Group"
+  },
+  "datePublished": "1995-06-03",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Aberdeen Group",
+    "1995",
+    "technology-viewpoint",
+    "relational database management systems and object-relational extensions",
+    "market research",
+    "archival"
+  ],
+  "temporalCoverage": "1995",
+  "inLanguage": "en",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "WebPage",
+    "url": "https://web.archive.org/web/19961023173934/http://www.aberdeen.com:80/secure/viewpnts/v9n13/v9n13.htm",
+    "name": "Original document archived by Wayback Machine"
+  }
+}

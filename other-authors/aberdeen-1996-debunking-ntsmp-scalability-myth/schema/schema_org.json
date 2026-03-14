@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Debunking the NT/SMP Scalability Myth",
+  "description": "Aberdeen Group's November 1996 Viewpoint argues that IS decision-makers should reconsider Windows NT's SMP scalability limitations, framing them as a deliberate Microsoft market strategy rather than an engineering constraint. Using TPC-C benchmark data, Aberdeen demonstrates that 4-way NT servers had already reached mid-range performance levels (6,712 tpmC at $65/tpmC), and projects NT will achieve 16,000 tpmC on 4-way platforms by 1998 while NT performance clusters will exceed 20,000 tpmC by early 1999. The study positions NT as an irresistible force in the mid-range server market based on price/performance momentum.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-11-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Windows NT",
+    "SMP",
+    "scalability",
+    "TPC-C",
+    "server benchmarks",
+    "mid-range server",
+    "Microsoft",
+    "Compaq",
+    "NCR",
+    "performance clustering",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1995/1996",
+  "variableMeasured": [
+    "benchmark-result",
+    "viability-prediction",
+    "strategy-classification",
+    "market-data"
+  ]
+}

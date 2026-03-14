@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital: Leading the NT-Across-the-Enterprise Charge",
+  "description": "Aberdeen Group profile (July 1996) on Digital Equipment Corporation's NT enterprise strategy.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Digital Equipment Corporation",
+    "Windows NT",
+    "enterprise computing",
+    "Alpha processor",
+    "competitive analysis",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1998",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "framework-factor",
+    "technology-assessment"
+  ]
+}

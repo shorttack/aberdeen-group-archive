@@ -1,49 +1,319 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-fddi,FDDI (Fiber Distributed Data Interface),protocol,ANSI standard,1987-2000,mature,obsolete,aberdeen-1995-3com-lanplex-2500,100 Mbps token-ring LAN standard; prominent as campus backbone technology at time of study.
-ethernet-switching,Ethernet Switching,protocol,multi-vendor,1993-present,emerging,active,aberdeen-1995-3com-lanplex-2500,"Layer-2 frame switching for 10 Mbps Ethernet segments; evolved through Fast, Gigabit, 10GbE, etc."
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_ids,notes
+3270-terminal-emulation,IBM 3270 Terminal Emulation,application,IBM / various,1971-present,mature,legacy-supported,aberdeen-1995-digital-multia,Pre-configured on Multia for IBM mainframe access; provided via Rumba (Wall Data) and Kea! (Attachmate)
+64-bit-unix,64-bit Unix Operating Environment,platform,Multiple,1995-2010,emerging,active,aberdeen-1996-risc-unix-market,HP promised 64-bit systems in Q2 1996; IBM not until 1998; all major suppliers except IBM expected to move to 64-bit in 1996; NT not expected to follow for at least 4 more years
+ACA_SERVICES,ACA Services,,,,,,aberdeen-1995-digital-objectbroker,
+AMSOFTWARE-SCP,American Software Supply Chain Planning,supply chain software,American Software,mid-1990s,growth,legacy,aberdeen-1996-advanced-planning-engines-white-paper,"Supply Chain Planning, Visual Planning Workstation, Flow Manufacturing suite. Still active as Logility."
+APET,Advanced Planning Engine Technologies (APET),planning software,multiple,mid-1990s,growth,mature,aberdeen-1996-advanced-planning-engines-white-paper,Aberdeen's term for constraint-based planning/scheduling systems; evolved into modern APS (Advanced Planning and Scheduling) and S&OP software.
+APP-SERVER,Web-Server-to-Application-Server Architecture,application architecture,multiple,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,"Aberdeen notes trend away from CGI toward app-server partitioning; this became the dominant n-tier architecture (WebSphere, IIS, Tomcat)."
+AS400,IBM AS/400,midrange computing,IBM,late-1980s to 1990s,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,"IBM midrange platform; rebranded iSeries (2000), System i (2006), IBM Power Systems (2008). Still active as IBM i on Power."
+CGI,Common Gateway Interface (CGI),web technology,multiple,mid-1990s,growth,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen notes suppliers moving away from CGI toward web-server-to-application-server partitioning; confirmed by Apache/IIS app servers.
+CLIENT-SERVER,Client/Server Computing Paradigm,computing paradigm,multiple,early-to-mid 1990s,mature,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Two-tier application model dominant in early 1990s; Aberdeen argues this should be evolved rather than abandoned.
+CLIENT-SERVER-APET,Client/Server APET Architecture,technology architecture,multiple,mid-1990s,growth,legacy,aberdeen-1996-advanced-planning-engines-white-paper,APET systems deployed as client/server using Windows PCs and UNIX servers with RDBMS backends.
+COGNOS-POWERPLAY,Cognos PowerPlay 4.1,decision support / OLAP,Cognos,mid-1990s,mature,legacy,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used for decision support in SmartStream DE. Cognos acquired by IBM in 2008.
+COM,COM (Component Object Model),,,,,,aberdeen-1995-digital-objectbroker,
+CORBA,CORBA (Common Object Request Broker Architecture),,,,,,aberdeen-1995-digital-objectbroker,
+CPP,C++ Language Binding,,,,,,aberdeen-1995-digital-objectbroker,
+CS6400,Cray CS6400 SMP Server,server hardware,Cray Research,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,SPARC-based SMP system with 4–64 CPUs; up to 5TB online storage; 1.76 GB/s internal bandwidth. Sold to Sun in 1996; evolved into Sun Enterprise 10000 (Starfire).
+DATE-WINDOWING,100-Year Date Window Algorithm,software technique,IBM,mid-1990s,growth,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users,IBM AS/400 uses fixed 100-year window (1940-2039) to resolve 2-digit year ambiguity; published by IBM for use in new/migrated applications.
+DCE,DCE (Distributed Computing Environment),,,,,,aberdeen-1995-digital-objectbroker,
+DDE,DDE (Dynamic Data Exchange),,,,,,aberdeen-1995-digital-objectbroker,
+DISTRIBUTED-CSS,Distributed Client/Server Architecture,application architecture,D&B Software,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,SmartStream DE's server-centric two-tier architecture with distributed data via Sybase replication; business logic primarily server-based.
+EDI,Electronic Data Interchange (EDI),integration protocol,multiple,mature,mature,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen predicts EDI will move to Internet (TCP/IP) over next 5 years from 1996; confirmed — AS2/AS4 and API-based EDI replaced traditional VAN-based EDI.
+ENSYNC,FACT Inc. EnSync Family,supply chain software,FACT Inc.,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Client/server APET with Synchronizer, Coordinator, Operator, Optimizer modules."
+ERP-CSS,Enterprise Resource Planning (ERP) / CSS,software category,multiple,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Client/server ERP market contested by SAP, Oracle, PeopleSoft, D&B Software, SSA and others in 1996."
+GSS_API,GSS-API (Generic Security Services API),,,,,,aberdeen-1995-digital-objectbroker,
+IDL,Interface Definition Language (IDL),,,,,,aberdeen-1995-digital-objectbroker,
+IML,Implementation Mapping Language (IML),,,,,,aberdeen-1995-digital-objectbroker,
+INTRANET,Corporate Intranet,networking,multiple,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen discusses intranet as ideal for pre-defined database queries and HR applications.
+JAVA,Java Programming Language,programming language,Sun Microsystems,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen notes Java is limited by language/class library constraints for complex OLTP in 1996; prediction was accurate for the era.
+MAINFRAME,IBM Mainframe (zSeries predecessors),mainframe computing,IBM,mature,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,Study contrasts AS/400 Y2K approach with mainframe environments; mainframes faced similar Y2K challenges.
+MANU-SUITE,Manugistics Planning Suite,supply chain software,Manugistics,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Integrated demand planning, manufacturing planning, transportation planning, distribution planning. Acquired by JDA 2006."
+MILLENNIUM-SERIES,D&B Software Millennium (M) Series,mainframe software,D&B Software,legacy,legacy,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Legacy mainframe application suite; D&B Software committed to supporting as long as customer demand exists. 80%+ maintenance renewal rate.
+MML,Method Mapping Language (MML),,,,,,aberdeen-1995-digital-objectbroker,
+MRP,Material Requirements Planning (MRP),manufacturing planning,multiple,1970s-mature,mature,legacy,aberdeen-1996-advanced-planning-engines-white-paper,First-generation manufacturing planning; criticized for infinite capacity assumptions and inability to optimize. APET positioned as successor.
+MRP2,Manufacturing Resource Planning (MRP II),manufacturing planning,multiple,1980s,mature,legacy,aberdeen-1996-advanced-planning-engines-white-paper,Second-generation MRP; APET positioned to replace MRP II modules for master scheduling and capacity planning.
+MS-ACCESS,Microsoft Access 2.0,desktop database,Microsoft,mid-1990s,mature,legacy,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used for query and reporting in SmartStream DE.
+MS-SQL-65,Microsoft SQL Server 6.5,RDBMS,Microsoft,mid-1990s,current,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Co-primary RDBMS for SmartStream DE; SQL Server 6.5 released 1995.
+NAS,NAS (Network Application Support),,,,,,aberdeen-1995-digital-objectbroker,
+NUMETRIX-SOL,Numetrix Solution Family,supply chain software,Numetrix,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Five modules including Linx, Planx, Schedulex, SCI/SCV, 3D (Dynamic Deployment & Distribution)."
+OBJECT-ORIENTED,Object-Oriented Design,software development,multiple,mid-1990s,growth,mature,aberdeen-1996-advanced-planning-engines-white-paper,Many APET products designed using OO technology for improved usability and flexibility.
+OBJECTBROKER,Digital ObjectBroker,,,,,,aberdeen-1995-digital-objectbroker,
+OBJECTPLUS,ObjectPlus,,,,,,aberdeen-1995-digital-objectbroker,
+OLAP,Online Analytical Processing (OLAP),database / analytics,multiple,mid-1990s,growth,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Cited as best suited for client/server not browser model; confirmed — complex OLAP stayed thick-client until modern SaaS BI.
+OLE,OLE (Object Linking and Embedding),,,,,,aberdeen-1995-digital-objectbroker,
+OLTP,Online Transaction Processing (OLTP),database,multiple,mature,mature,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Complex OLTP cited as unsuitable for browser/web-server in 1996; still mostly server-side today.
+OPENVMS,OpenVMS,,,,,,aberdeen-1995-digital-objectbroker,
+ORB,Object Request Broker (ORB),,,,,,aberdeen-1995-digital-objectbroker,
+OS400V3,OS/400 Version 3,operating system,IBM,mid-1990s,current,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,Latest OS/400 release at time of study; declared Year 2000 safe by IBM. OS/400 eventually became IBM i.
+PARADIGM_PLUS,Paradigm Plus,,,,,,aberdeen-1995-digital-objectbroker,
+POWERBUILDER,PowerBuilder,development tools,PowerSoft / Sybase,mid-1990s,mature,legacy,aberdeen-1995-digital-objectbroker; aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used by D&B Software for SmartStream DE application development. PowerSoft acquired by Sybase in 1994.
+RDBMS-PARALLEL,Parallel RDBMS (Oracle, Informix, Sybase),database software,multiple,mid-1990s,growth,mature
+RESPONSEAGENT,Red Pepper ResponseAgent,supply chain software,Red Pepper Software,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,Agent-based APET using in-memory optimization; acquired by PeopleSoft 1996 for $225M; became foundation of PeopleSoft Manufacturing module.
+RHYTHM-I2,i2 Technologies Rhythm Family,supply chain software,i2 Technologies,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"i2's flagship APET product line including Master Planner, Factory Planner, Distribution Planner, Scheduler, Forecast Planner. Acquired by JDA 2010."
+SMARTSTREAM-DE,SmartStream Distributed Enterprise v4.0,ERP software,D&B Software,mid-1990s,growth,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Full suite of line-of-business CSS for finance, manufacturing/distribution, procurement, HR, decision support. v4.0 based on Sybase 11.1, MS SQL Server 6.5, PowerBuilder 4.02, PowerPlay 4.1, MS Access 2.0. Abandoned by Geac after 1998 acquisition."
+SMP,Symmetric Multiprocessing,computing paradigm,multiple,mid-1990s,growth,mature,aberdeen-1995-rdbms-cray-research-inc,SMP scaling to 64 CPUs was the key architecture for high-end RDBMS workloads; succeeded by NUMA and cloud scale-out architectures.
+SOLARIS-CX,Cray-Enhanced Solaris OS,operating system,Cray Research / Sun,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,"Sun Solaris UNIX 5.4 enhanced with processor partitioning, memory management, and hot-swap RAS features for enterprise workloads."
+SPARC,Sun SPARC Architecture,processor architecture,Sun Microsystems,mid-1990s,mature,legacy,aberdeen-1995-rdbms-cray-research-inc,"RISC processor architecture; Cray CS6400 was binary-compatible with Sun SPARC, enabling access to 10000+ ISV applications."
+SUPPLY-CHAIN-MGMT,Supply Chain Management (SCM),business category,multiple,mid-1990s,emerging,mature,aberdeen-1996-advanced-planning-engines-white-paper,The broader category that APET belongs to; became standard enterprise software category by late 1990s.
+SYBASE-REPSERVER,Sybase Replication Server,RDBMS / replication,Sybase,mid-1990s,growth,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used by SmartStream DE to propagate security and business process tables across distributed locations.
+SYBASE-SQL11,Sybase System 11.1,RDBMS,Sybase,mid-1990s,current,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Underlying RDBMS for SmartStream DE v4.0; stored procedures and triggers central to architecture.
+SYSTEM3X,IBM System/3X (System/36, System/38),legacy midrange,IBM,1969-1988,legacy,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users
+T3D,Cray T3D Massively Parallel Processor,server hardware,Cray Research,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,MPP system using DEC Alpha chipset; for scientific workloads >5TB. Later evolved into T3E under SGI ownership.
+TECH-CADE,Client-Server Application Development Environment (CADE),development-environment,multiple,1990-2000,mainstream,obsolete,aberdeen-1995-progress-software-profile,"Category largely displaced by web application frameworks, IDEs, and cloud-native tooling."
+TECH-DATABLADE,Informix DataBlade Modules,database-extension,Informix,1995-2001,emerging,legacy,aberdeen-1995-universal-servers-rdbms-technology-next-decade,DataBlade architecture for complex data type extensions; IBM maintained basic DataBlade support post-acquisition.
+TECH-EXCHANGE,Microsoft Exchange Server,groupware,Microsoft,1996-present,pre-release,mainstream,aberdeen-1995-novell-predicament,Exchange referenced as groupware competitor. Exchange became dominant enterprise email/collaboration platform.
+TECH-FULL-TEXT,Full-Text Search Database Extensions,database-extension,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,"Full-text search became standard RDBMS feature; also spawned dedicated search engines (Elasticsearch, Solr)."
+TECH-GROUPWISE,Novell GroupWise,groupware,Novell,1989-present,growth,niche,aberdeen-1995-novell-predicament,GroupWise survived under Micro Focus/OpenText but lost groupware war to Lotus Notes/Exchange. Still used by legacy enterprise customers.
+TECH-HA-CLUSTER,High Availability (HA) Clustering,systems-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-sun-microsystems-computer-company,SPARCcluster HA. HA clustering became standard enterprise practice; evolved to include cloud HA.
+TECH-INTRANET,Corporate Intranet Architecture,network-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Intranet as database integration challenge; correctly identified as major driver for complex data type needs.
+TECH-LDAP,LDAP (Lightweight Directory Access Protocol),directory-protocol,IETF,1993-present,emerging,mainstream,aberdeen-1995-novell-predicament,Aberdeen correctly predicted LDAP would become de-facto directory standard for Internet. Now ubiquitous.
+TECH-MANAGEWISE,Novell ManageWise,network-management,Novell,1995-2005,emerging,obsolete,aberdeen-1995-novell-predicament,ManageWise competed with CA Unicenter and HP OpenView; obsolete with Novell decline.
+TECH-MATE,MATE (Methods and Tool Expert),development-tool,ADM,1993-2005,mainstream,obsolete,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,ADM flagship product with 4 modules including Product Management Facility for SCRUM; obsolete as standalone tool.
+TECH-NDS,Novell Directory Services (NDS),directory-services,Novell,1993-present,growth,niche,aberdeen-1995-novell-predicament,NDS/eDirectory still maintained by Micro Focus/OpenText; never achieved broad cross-platform adoption. LDAP became dominant.
+TECH-NETWARE,Novell NetWare,network-operating-system,Novell,1983-2009,declining,obsolete,aberdeen-1995-novell-predicament,NetWare 3.x/4.x held 70%+ LAN OS share in 1990; displaced by Windows NT/2000 Server by ~2000. EOL NetWare 6.5 in 2015.
+TECH-ODBC,ODBC (Open Database Connectivity),database-interface,Microsoft,1992-present,mainstream,legacy-active,aberdeen-1995-progress-software-profile,"Still widely supported but largely superseded by JDBC, ORM frameworks, and native drivers."
+TECH-OLE-DIR,Microsoft OLE Directory Services,directory-services,Microsoft,1996-2000,planned,superseded,aberdeen-1995-novell-predicament,Aberdeen predicted OLE Directory would succeed because OLE apps drag it into enterprise. Evolved into Active Directory shipped in Windows 2000.
+TECH-OODBMS,Object-Oriented DBMS (OODBMS),database-system,multiple,1985-2005,declining,niche,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Aberdeen correctly assessed OODBMSs as niche; market voted for object-relational over pure OODBMS.
+TECH-OOP-DEV,Object-Oriented Programming Tools,development-methodology,multiple,1990-present,emerging-in-enterprise,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,Aberdeen notes most IS organizations not yet using OOP for mission-critical apps in 1995; OOP became universal by 2000s.
+TECH-PROGRESS-4GL,Progress 4GL,programming-language,Progress Software,1984-present,growth,legacy,aberdeen-1995-progress-software-profile,Still in active use as OpenEdge ABL; large installed base but considered legacy for new projects.
+TECH-RAD,Rapid Application Development (RAD),development-methodology,multiple,1991-present,mainstream,evolved,aberdeen-1995-progress-software-profile,RAD concepts evolved into Agile methodologies; still widely practiced under different names.
+TECH-RDBMS,Relational Database Management System (RDBMS),database-system,multiple,1970-present,mainstream,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,RDBMS remained dominant database paradigm; Universal Server features absorbed into mainstream RDBMS.
+TECH-RDBMS-COMM,Commercial RDBMS Workloads on Unix,workload-pattern,multiple,1990-2005,mainstream,migrated-to-linux,aberdeen-1995-sun-microsystems-computer-company,Oracle/DB2/Sybase on Unix servers was primary commercial use case; largely migrated to Linux x86 by 2010.
+TECH-ROLAP,Relational OLAP (ROLAP),analytics-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,ROLAP became mainstream BI architecture; now standard in data warehouse/BI platforms.
+TECH-SCRUM,SCRUM Methodology,development-methodology,ADM (Advanced Development Methods),1993-present,emerging,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,SCRUM formalized with Schwaber/Sutherland; Agile Manifesto (2001) endorsed sprint-based approach; now dominant software dev methodology worldwide.
+TECH-SMARTOBJECT,SMARTOBJECT Components,development-framework,Progress Software,1995-2005,emerging,obsolete,aberdeen-1995-progress-software-profile,Progress v8.0 object component system; superseded by OERA reference architecture and later web frameworks.
+TECH-SMP,Symmetric Multiprocessing (SMP),computing-architecture,multiple,1990-present,emerging,mainstream,aberdeen-1995-sun-microsystems-computer-company,SMP became standard in server computing; foundational to modern multi-core architectures.
+TECH-SOLARIS,Solaris (Unix V.4),operating-system,Sun Microsystems,1992-present,mainstream,declining,aberdeen-1995-sun-microsystems-computer-company,Oracle Solaris still maintained but declining; last major release Solaris 11.4 in 2018.
+TECH-SPARC,SPARC Architecture,processor-architecture,Sun/SPARC International,1987-2017,mainstream,declining,aberdeen-1995-sun-microsystems-computer-company,SPARC64 still produced by Fujitsu through ~2020; Oracle phased out SPARC chip development in 2017.
+TECH-SPATIAL-DB,Spatial/Geographic Database Extensions,database-extension,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,"Spatial extensions became standard via PostGIS, Oracle Spatial, SQL Server Spatial; foundational to GIS applications."
+TECH-SPRINT,Sprint (SCRUM iteration unit),development-practice,ADM/Scrum Alliance,1993-present,emerging,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,1-6 week sprint with cross-functional team delivering executable code; now standard Agile practice globally.
+TECH-TPC,TPC Benchmarks,benchmark,TPC (Transaction Processing Council),1988-present,mainstream,active,aberdeen-1995-sun-microsystems-computer-company,TPC-C benchmarks referenced for commercial DB performance comparison.
+TECH-UDT,User-Defined Data Types (UDT),database-feature,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,UDTs became standard SQL feature in SQL:1999 and beyond; foundational to PostgreSQL extension ecosystem.
+TECH-UNIVERSAL-SERVER,Universal Server (Object-Relational DBMS),database-system,multiple,1995-2005,emerging,absorbed,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Universal Server concept absorbed into mainstream RDBMS by 2000; PostgreSQL remains canonical open-source implementation.
+TECH-UNIX,Unix Operating System,operating-system,AT&T/multiple,1969-present,mainstream,legacy-niche,aberdeen-1995-sun-microsystems-computer-company,Commercial Unix largely displaced by Linux for new workloads; legacy deployments still active.
+TECH-VBX,Microsoft VBX (Visual Basic Extensions),component-framework,Microsoft,1991-1997,mainstream,obsolete,aberdeen-1995-progress-software-profile,VBX replaced by OCX/ActiveX in 1996; completely obsolete today.
+TECH-WATERFALL,Traditional Waterfall Development Methodology,development-methodology,multiple,1970-present,mainstream,declining,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,Planning-heavy waterfall methods criticized in study; still used in regulated industries but displaced by Agile for most software.
+TECH-WIN95,Windows 95,operating-system,Microsoft,1995-2001,new-release,obsolete,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,"Windows 95 used as ISV beta-program example; shipped August 24, 1995; 400,000 beta users. EOL December 31, 2001."
+TECH-WINNT,Windows NT Server,network-operating-system,Microsoft,1993-2000,growth,superseded,aberdeen-1995-novell-predicament,Windows NT Server 3.51/4.0 drove Novell displacement; evolved to Windows 2000/2003/2008 Server.
+TECH001,LIMD (Large-Scale In-Memory Database),,,,,,aberdeen-1995-limd-technology,
+TECH002,64-bit computing architecture,,,,,,aberdeen-1995-limd-technology,
+TECH003,VLM64 architecture,,,,,,aberdeen-1995-limd-technology,
+TECH004,Alpha chip (DEC Alpha),,,,,,aberdeen-1995-limd-technology,
+TECH005,MIPS 64-bit (SGI R8000/R10000),,,,,,aberdeen-1995-limd-technology,
+TECH006,UltraSPARC 64-bit (Sun),,,,,,aberdeen-1995-limd-technology,
+TECH007,PA-RISC (HP PA-8000),,,,,,aberdeen-1995-limd-technology,
+TECH008,PowerPC 64-bit (IBM/Motorola),,,,,,aberdeen-1995-limd-technology,
+TECH009,Oracle RDBMS 7.x,,,,,,aberdeen-1995-limd-technology,
+TECH010,Sybase System 11,,,,,,aberdeen-1995-limd-technology,
+TECH011,Informix-OnLine 7.x / 8.0,,,,,,aberdeen-1995-limd-technology,
+TECH012,SMP (Symmetric MultiProcessing),,,,,,aberdeen-1995-limd-technology,
+TECH013,MPP (Massively Parallel Processing),,,,,,aberdeen-1995-limd-technology,
+TECH014,TPC-C benchmark,,,,,,aberdeen-1995-limd-technology,
+TECH015,Oracle Rdb,,,,,,aberdeen-1995-limd-technology,
+TECH016,Sybase IQ Accelerator,,,,,,aberdeen-1995-limd-technology,
+TECH017,Memory Channel bus,,,,,,aberdeen-1995-limd-technology,
+TECH018,ATM (Asynchronous Transfer Mode) networking,,,,,,aberdeen-1995-limd-technology,
+TECH019,32-bit computing architecture,,,,,,aberdeen-1995-limd-technology,
+TECH020,NonStop Guardian (Tandem),,,,,,aberdeen-1995-limd-technology,
+UNIX-SERVERS,UNIX Server Platforms,operating system / hardware,multiple,mature,mature,mature,aberdeen-1996-as400-year-2000-ibm-leading-users,UNIX cited alongside AS/400 as one of the environments needing Y2K remediation.
+VISUALBASIC,Visual Basic,,,,,,aberdeen-1995-digital-objectbroker,
+VLDB,Very Large Database (VLDB) Technology,database paradigm,multiple,mid-1990s,growth,mature,aberdeen-1995-rdbms-cray-research-inc,Databases at 20GB–5TB scale requiring specialized hardware. The VLDB concept is now mainstream via cloud data warehouses.
+VMS,DEC VMS Operating System,operating system,Digital Equipment Corporation,mature,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,VMS cited as one of the operating environments facing Y2K challenges alongside AS/400.
+WEB-BROWSER,Web Browser (HTML-based),client software,multiple,mid-1990s,growth,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Described as '1990s client for the masses'; server-centric execution model.
+WEB-CS-TOOLS,Web-Enabled Client/Server Development Tools,development tools,multiple,mid-1990s,growth,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen advocates for single Web-enabled client/server tool strategy rather than separate Internet development tools.
+WORKFLOW-TECH,Workflow Technology,BPM software,D&B Software,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Three-form workflow: Production (Activity Manager), Administrative (Intelligent Agents), Ad Hoc. Aberdeen notes D&B pioneered integrated workflow vs. SAP/Oracle still developing theirs in 1996."
+YEAR2000-TECH,Year 2000 Date Remediation Technology,software methodology,multiple,mid-1990s,emerging,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users,"Date windowing algorithms, 4-digit date expansion, and assessment tools for Y2K compliance."
+abap4,ABAP/4 Development Workbench,,,,,,aberdeen-1995-ibm-as400-sap-r3,SAP's proprietary 4GL development language and workbench; used to develop all R/3 applications; provides database independence layer
+adabas,Software AG ADABAS,platform,Software AG,1971-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,RDBMS with store-and-forward architecture; not yet providing full Commercial Messaging developer APIs in 1995
+adsm,,storage-management,,,,,aberdeen-1995-ibm-db2-common-server,
+aix,AIX 4.1,operating-system,IBM/Bull,1990-2023,mature,legacy-supported,aberdeen-1995-ibm-db2-common-server; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-risc-unix-market,"Commercial UNIX jointly developed by IBM and Bull; runs 10,000+ packaged applications"
+alpha-64bit-risc,Alpha 64-bit RISC Processor,platform,Digital Equipment Corporation,1992-2004,mature,obsolete,aberdeen-1995-digital-multia,One of two Multia hardware architectures; DEC Alpha architecture discontinued by HP 2004
+alpha-processor,DEC Alpha Processor,platform,Digital Equipment Corporation,1992-2007,mature,obsolete,aberdeen-1996-debunking-ntsmp-scalability-myth; aberdeen-1996-risc-unix-market,Alpha running at 500 MHz in 1996; AlphaServer 5/35 at 32 processors; line discontinued when HP absorbed DEC
+as400-advanced-series,AS/400 Advanced Series,,,,,,aberdeen-1995-ibm-as400-sap-r3,Introduced May 1994; PowerPC AS-based models announced September 1995 for availability before end of 1995
 atm,ATM (Asynchronous Transfer Mode),protocol,ITU/ATM Forum standard,1988-2005,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,Cell-based switching technology positioned as future backbone. OC-3 (155 Mbps) UNI targeted for LANplex 2500 uplink in Q1 1996.
+atm-sonet,ATM / SONET (OC-3 fiber backbone),protocol,Multiple,1991-2005,emerging,obsolete,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,OC-3 at 155 Mbps for NeVaDa backbone; ATM cell switching for voice+data; supplanted by Ethernet/IP by 2005
+atm-switching,ATM Switching (Asynchronous Transfer Mode),protocol,Multiple,1991-2005,emerging,obsolete,aberdeen-1996-vpns-business-mfs-success-strategy,26 ATM switches in 25 cities (Sept 1995); MFS first national ATM 1993; international 1994; superseded by IP/MPLS
+aviion-unix-server,AViiON UNIX Server,platform,Data General,1989-1999,mature,obsolete,aberdeen-1996-data-general-corporation; aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Intel-based SMP servers running DG/UX; discontinued after EMC acquisition
+b2so-security-option,DG B2 Security Option (B2SO),platform,Data General,1990-1999,mature,obsolete,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,"B2-level TCSEC OS security; role-based access, three-region compartmentalization; precursor to modern RBAC/zero-trust concepts"
+baan-dem,Dynamic Enterprise Modeling (DEM),framework,Baan Company,1996-2003,emerging,obsolete,aberdeen-1996-baan-changes-rules-erp-game,Aberdeen termed this 'Dynamic-ERP'; contrasted with 'Static-ERP' paradigm
+baan-iv,BAAN IV,application,Baan Company,1996-2000,emerging,obsolete,aberdeen-1996-baan-changes-rules-erp-game,ERP suite released April 1996; rebranded SSA ERP LN after 2003; now Infor LN
+baan-orgware,Orgware,framework,Baan Company,1991-2003,mature,obsolete,aberdeen-1996-baan-changes-rules-erp-game,Business process modeling and configuration engine inside BAAN IV; core DEM capability
+backoffice,Microsoft BackOffice,application,Microsoft,1994-2000,emerging,obsolete,aberdeen-1996-risc-unix-market,Bundle most appropriate for NT-based production applications; late to market; technical difficulties in 1995; expected to serve workgroup role
+beyond-toolset,Beyond Workflow Toolset,application,Beyond Inc. / Banyan Systems,early 1990s,emerging,obsolete,aberdeen-1995-commercial-messaging,Workflow software acquired by Banyan Systems via acquisition of Beyond Inc.
+bull-escala,Bull Escala,platform,Groupe Bull,1992-2005,mature,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,PowerPC-based SMP RISC systems; foundation hardware for Sagister
+cellplex,CELLplex,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,3Com ATM workgroup and backbone switch family. Separate from LANplex family.
+cics,IBM CICS (Customer Information Control System),platform,IBM,1969-present,mature,legacy-supported,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Major TP monitor integrated with MQSeries for unit-of-work commitment and backout; still active on mainframes
+cisco-750-series,Cisco 750 Series,platform,Cisco Systems,1995-2003,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,"SOHO/home ISDN series from Combinet acquisition; simple, secure, low cost"
+cisco-as5200,Cisco AS5200,platform,Cisco Systems,1996-2005,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,"Universal access server; integrates CSU, modem, switch, router in single chassis; 48/60 modems; T1/E1 PRI"
+cisco-ciscoproch,CiscoPro Channel Program,framework,Cisco Systems,1995-2002,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Two-tiered distribution channel for SMB; launched October 1995 via Tech Data and Ingram Micro
+cisco-ios,Cisco IOS,platform,Cisco Systems,1986-present,mature,active,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Internetworking Operating System; de facto standard; embedded across Cisco router/access family; Aberdeen calls it 'the thread throughout'
+ciscoremote,CiscoRemote,application,Cisco Systems,1995-2002,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,"Desktop remote access client with remote node + control; integrates Netscape Navigator 1.2, Eudora, Timbuktu Pro, AirSoft Powerburst"
+ciscosecure,CiscoSecure,application,Cisco Systems,1996-2005,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,"Security product using TACACS+; AAA: authorization, authentication, accounting + NAT; announced Jan 29 1996"
+clarify-metadata,Clarify Metadata Architecture,framework,Clarify Inc.,1993-2001,mature,obsolete,aberdeen-1996-clarify-inc,Metadata sits atop application logic; ClearCustomize toolset; upgrades don't corrupt customizations; presaged modern SaaS config-not-code approach
+clariion,Clariion Storage Array,platform,Data General,1992-2013,emerging,obsolete,aberdeen-1996-risc-unix-market,Data General storage subsystem; gaining acceptance outside DG Aviion base in 1995; later acquired by EMC
+clariion-storage,CLARiiON Storage Subsystem,platform,Data General / EMC,1992-2012,emerging,obsolete,aberdeen-1996-data-general-corporation,Survived DG acquisition; continued under EMC until 2012; evolved into VNX platform
+clearcommcenter,ClearSupport CommCenter,application,Clarify Inc.,1996-2001,emerging,obsolete,aberdeen-1996-clarify-inc,"Telecom vertical; simultaneous access to customer accounts and network infrastructure; customers MCI, Sprint, TeleNordia"
+clearhelpdesk,ClearHelpdesk,application,Clarify Inc.,1995-2001,emerging,obsolete,aberdeen-1996-clarify-inc,"Internal helpdesk; ~80% same as ClearSupport + links to SMS, Tivoli, legacy Infoman/Netman"
+clearlogistics,ClearLogistics,application,Clarify Inc.,1992-2001,mature,obsolete,aberdeen-1996-clarify-inc,"Field service management; dispatching, spare parts, inventory; mobile sync via Metropolis"
+clearquality,ClearQuality,application,Clarify Inc.,1993-2001,mature,obsolete,aberdeen-1996-clarify-inc,Customer feedback linkage to QA; change request management; links customer support to product development
+clearsales,ClearSales,application,Clarify Inc./Metropolis,1996-2001,emerging,obsolete,aberdeen-1996-clarify-inc,"SFA from Metropolis acquisition; opportunity management, proposals, quotes, forecasts; ClearEnterprise Traveler for mobile"
+clearsupport,ClearSupport,application,Clarify Inc.,1992-2001,mature,obsolete,aberdeen-1996-clarify-inc,"External customer service/support; call/problem tracking, workflow, Diagnosis Engine, service contract verification"
+client-server,Client-Server Architecture,framework,Multiple,1988-2000,mature,legacy-supported,aberdeen-1996-risc-unix-market,Windows 3.1/PC thin client + RISC/Unix RDBMS server became the standard for OLTP in 1995; multi-tier architecture promoted by IBM ISSC
+commercial-messaging,Commercial Messaging,framework,various,1993-2000,emerging,active,aberdeen-1995-commercial-messaging,Aberdeen Group term for store-and-forward middleware category; market below $100M in 1995; foundational to modern message-oriented middleware
+corba,CORBA (Common Object Request Broker Architecture),framework,OMG Consortium,1991-2010,emerging,obsolete,aberdeen-1995-commercial-messaging,Aberdeen finds CORBA will not provide Commercial Messaging in near future; distributed objects market below $10M in 1995
+cti-framework,Computer Telephony Integration (CTI),framework,Multiple,1987-present,emerging,active,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,Framework evolving from mainframe+proprietary APIs toward distributed open standards; evolved into UCaaS/WebRTC
+cybershield,DG Cybershield,platform,Data General,1996-1999,emerging,obsolete,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Integrated intranet/e-commerce security platform on AViiON; discontinued after EMC acquisition
+data-warehousing,Data Warehousing,application,Multiple,1992-present,emerging,active,aberdeen-1996-risc-unix-market,Data warehouse databases growing 6-7x in 18 months; RISC/Unix-RDBMS combination key for enterprise data strategy
+databasic,,development-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+datahub,,administration-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+datajoiner,,federated-data,,,,,aberdeen-1995-ibm-db2-common-server,
+datapropagator,,replication-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+datarefresher,,data-loading,,,,,aberdeen-1995-ibm-db2-common-server,
+db2-400,DB2/400,,,,,,aberdeen-1995-ibm-as400-sap-r3,Integrated RDBMS on AS/400; ability to run SAP R/3 as 64-bit application supported by 64-bit DB2/400 cited as key advantage
+db2-common-server,,RDBMS,,,,,aberdeen-1995-ibm-db2-common-server,
+db2-mvs,,RDBMS,,,,,aberdeen-1995-ibm-db2-common-server,
+db2-parallel-edition,,RDBMS extension,,,,,aberdeen-1995-ibm-db2-common-server,
+dce,Distributed Computing Environment (DCE),framework,OSF / The Open Group,1990-2000,mature,obsolete,aberdeen-1995-commercial-messaging,NOS-market product providing directories and APIs for location independence; does not provide direct messaging APIs; hundred-million range submarket
+decnet,DECnet,protocol,Digital Equipment Corporation,1975-2000,declining,obsolete,aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia,DEC networking protocol supported by MQSeries
+dgux-os,DG/UX Operating System,platform,Data General,1984-1999,mature,obsolete,aberdeen-1996-data-general-corporation,UNIX System V.4 derivative with embedded SMP and B2-level security; discontinued 1999
+drda,,protocol,,,,,aberdeen-1995-ibm-db2-common-server,
+edi,EDI (Electronic Data Interchange),protocol,various standards bodies,1960s-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Market in which store-and-forward messaging is embedded; Aberdeen notes EDI as part of the broader messaging ecosystem
+elastic-packet-buffering,Elastic Packet Buffering,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"3Com proprietary buffering approach: guaranteed minimum buffers per port, dynamic expansion as needed. Reduces packet drops under contention."
+encina,Encina TP Monitor,platform,Transarc / IBM,1991-2000s,mature,obsolete,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,TP monitor integrated with MQSeries; acquired by IBM from Transarc
+erp-static,Static ERP,application,Multiple,1985-2000,mature,legacy-supported,aberdeen-1996-baan-changes-rules-erp-game,Aberdeen's term for pre-DEM ERP systems characterized by rigid config and long implementation times
+ethernet-switching,Ethernet Switching,protocol,multi-vendor,1993-present,emerging,active,aberdeen-1995-3com-lanplex-2500,"Layer-2 frame switching for 10 Mbps Ethernet segments; evolved through Fast, Gigabit, 10GbE, etc."
 fast-ethernet-100basetx,Fast Ethernet (100BaseTX),protocol,IEEE 802.3u standard,1995-2010,emerging,legacy-supported,aberdeen-1995-3com-lanplex-2500,100 Mbps over twisted-pair copper; uplink card for LANplex 2500 expected Q1 1996.
-ise-chip,ISE-Chip (Intelligent Switching Engine ASIC),platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"3Com proprietary ASIC delivering 565K pps forwarding. Front-end engine to RISC processor, creating 'fast path' architecture."
-rmon,RMON (Remote Network Monitoring),protocol,IETF (RFC 1271/RFC 1757),1992-2010,mature,legacy-supported,aberdeen-1995-3com-lanplex-2500,3Com's Roving Analysis Port implemented distributed RMON across all ports. Cisco supported RFC 1271.
+fddi,FDDI (Fiber Distributed Data Interface),protocol,ANSI standard,1987-2000,mature,obsolete,aberdeen-1995-3com-lanplex-2500,100 Mbps token-ring LAN standard; prominent as campus backbone technology at time of study.
+flowmark,,workflow-management,,,,,aberdeen-1995-ibm-db2-common-server,
+forte-cade,Forte (Second-Generation CADE),application,Forte Software,1991-1999,emerging,obsolete,aberdeen-1995-commercial-messaging,"Leading second-generation CADE with Commercial Messaging, repository/directory, and application partitioning; acquired by Sun 1999, Oracle 2010"
+frame-relay,Frame Relay Service,protocol,MFS Data Services,1991-2005,mature,obsolete,aberdeen-1996-vpns-business-mfs-success-strategy,MFS first to offer FR over ATM 1994; first FR at >1.5 Mbps; 30% faster than conventional packet switched data
+hacmp,HACMP,high-availability,CLAM Associates/IBM,1991-present,mature,legacy-supported,aberdeen-1995-ibm-db2-common-server; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,High Availability Cluster Multi-Processing; used in RS/6000 and Escala; now IBM PowerHA
+hp-9000,HP 9000 Series,platform,Hewlett-Packard,1984-2008,mature,obsolete,aberdeen-1996-risc-unix-market,Market-leading RISC/Unix server line; largest installed base; K-Class and D-Class introduced in 1995
+hp-intel-architecture,HP/Intel Joint Processor Architecture (IA-64 / Itanium),platform,Hewlett-Packard / Intel,1994-2021,emerging,obsolete,aberdeen-1996-risc-unix-market,Joint HP and Intel microprocessor architecture effort; delivery expected 1998 per study; eventually became Itanium; discontinued 2021
+hp-openmail,HP OpenMail,application,Hewlett-Packard,early 1990s-2000s,emerging,obsolete,aberdeen-1995-commercial-messaging,Messaging APIs for multi-standard e-mail integration; focused on e-mail market; transaction support planned within 2 years of study
+hp-openview,HP OpenView,application,Hewlett-Packard,1989-2010,mature,legacy-supported,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,NeVaDa managed from UNIX workstation running HP OpenView; evolved into HP Operations Manager
+hp-ux-10,HP-UX 10,platform,Hewlett-Packard,1995-2003,emerging,obsolete,aberdeen-1996-risc-unix-market,Included production features beyond original Unix design; well-managed 1995 transition from HP-UX 9
+hp-ux-9,HP-UX 9,platform,Hewlett-Packard,1992-1995,declining,obsolete,aberdeen-1996-risc-unix-market,Previous HP-UX release; transition to HP-UX 10 in 1995 was well supported with upgrade utilities
 hpsn,HPSN (High-Performance Scalable Networking),framework,3Com,1994-1998,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"3Com's 3-stage networking vision: Stage 1=collapsed backbone, Stage 2=distributed LAN switches, Stage 3=ATM migration."
+html,HTML,protocol,W3C,1991-present,emerging,active,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Web markup language; Blyth's tools generated HTML dynamically
+ibm-mqseries,IBM MQSeries,platform,IBM,1993-2002,emerging,active,aberdeen-1995-commercial-messaging,"Renamed IBM MQ in 2014; Aberdeen identifies as leading Commercial Messaging product; supports multithreading, assured once-and-only-once delivery, CICS/Tuxedo/Encina integration"
+ibm-rs6000-sp,IBM RS/6000 SP,platform,IBM,1993-2000,mature,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Massively parallel competitor to Sagister; Aberdeen notes lacks mainframe-class operational tools
+intel-pentium-100,Intel Pentium 100 / Intel 100,platform,Intel,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Newly announced Intel model of Multia at time of study; 100 MHz Pentium
+intel-pentium-pro,Intel Pentium Pro / Klamath / Deschutes,platform,Intel,1995-1999,mature,obsolete,aberdeen-1996-debunking-ntsmp-scalability-myth,Pentium Pro 200MHz in Compaq ProLiant 5000; Klamath expected at 266MHz; Deschutes at 333MHz
+intel-pentiumpro,Intel PentiumPro Processor,platform,Intel,1995-1999,emerging,obsolete,aberdeen-1996-risc-unix-market,May significantly improve performance of Intel-based commercial multiuser systems in 1996; watched nervously by RISC/Unix suppliers
+intel-proshare,Intel ProShare Videoconferencing,application,Intel Corporation,1994-2001,emerging,obsolete,aberdeen-1996-vpns-business-mfs-success-strategy,Used by CNNfn virtual studio over MFS Datanet (Dec 1995); Intel ProShare discontinued; superseded by modern video conferencing
+ipx-spx,IPX/SPX,protocol,Novell,1983-2000,mature,obsolete,aberdeen-1995-digital-multia,Novell network protocol included in Multia communications stack
+isdn,ISDN,protocol,Standards body,1988-2010,emerging,obsolete,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Integrated Services Digital Network; key Combinet/750 series focus; basis for SOHO digital connectivity
+ise-chip,ISE-Chip (Intelligent Switching Engine ASIC),platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"3Com proprietary ASIC delivering 565K pps forwarding. Front-end engine to RISC processor, creating 'fast path' architecture."
+ism-openmaster,ISM/OpenMaster,framework,Groupe Bull,1993-2005,mature,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,Bull's network and systems management framework; tailored for datacenter commercial requirements
+java-activex,Java / ActiveX,framework,Sun Microsystems / Microsoft,1995-present,emerging,active,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Client-side technologies for Cybershield-based e-commerce; Java remains active; ActiveX deprecated
+java-applets,Java Applets,language,Sun Microsystems,1995-2015,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Referenced as market's dominant view of Net development at time; OMNIS could generate Java-equivalent code
+kea,Kea! (Attachmate),application,Attachmate Corporation,1990-2014,mature,obsolete,aberdeen-1995-digital-multia,Terminal emulator (VT/3270) bundled with Multia; Attachmate acquired by Micro Focus 2014
 lanplex-2500,LANplex 2500,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,16-port 10 Mbps Ethernet + 2 FDDI ports. Modular workgroup switch. ISE-chip ASIC. Introduced December 1994.
 lanplex-6000,LANplex 6000,platform,3Com,1993-2000,mature,obsolete,aberdeen-1995-3com-lanplex-2500,3Com flagship backbone switch. Market leader in backbone switching at time of study. Larger FDDI concentration capacity than 2500.
+lat,LAT (Local Area Transport),protocol,Digital Equipment Corporation,1985-2000,mature,obsolete,aberdeen-1995-digital-multia,Optimized terminal access protocol used for termserver support on Multia
 linkswitch-2200,LinkSwitch 2200,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,16-port Ethernet switch with single FDDI port. LANplex technology repackaged in 3Com SuperStack form factor for SMB market.
-cellplex,CELLplex,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,3Com ATM workgroup and backbone switch family. Separate from LANplex family.
-transcend-enterprise-manager,Transcend Enterprise Manager,application,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"Flagship network management application. Supported HP OpenView, Sun NetManager, and IBM NetView platforms. Windows version expected Q4 1995."
-virtual-lan,Virtual LAN (VLAN),protocol,multi-vendor,1995-present,emerging,active,aberdeen-1995-3com-lanplex-2500,LANplex 2500 supported VLANs via port groups and MAC address groups. Cited as key user requirement.
-elastic-packet-buffering,Elastic Packet Buffering,platform,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"3Com proprietary buffering approach: guaranteed minimum buffers per port, dynamic expansion as needed. Reduces packet drops under contention."
-ibm-mqseries,IBM MQSeries,platform,IBM,1993-2002,emerging,active,aberdeen-1995-commercial-messaging,"Renamed IBM MQ in 2014; Aberdeen identifies as leading Commercial Messaging product; supports multithreading, assured once-and-only-once delivery, CICS/Tuxedo/Encina integration"
-store-and-forward-messaging,Store-and-Forward Messaging,protocol,various,1970s-present,emerging,active,aberdeen-1995-commercial-messaging,"Core underlying technology of Commercial Messaging; evolved into modern message queuing and event streaming (Kafka, RabbitMQ, AWS SQS, etc.)"
-commercial-messaging,Commercial Messaging,framework,various,1993-2000,emerging,active,aberdeen-1995-commercial-messaging,Aberdeen Group term for store-and-forward middleware category; market below $100M in 1995; foundational to modern message-oriented middleware
-lotus-notes,Lotus Notes,application,Lotus Development / IBM,1989-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Billion-dollar groupware market leader using store-and-forward and Workflow Manager; now HCL Notes
-dce,Distributed Computing Environment (DCE),framework,OSF / The Open Group,1990-2000,mature,obsolete,aberdeen-1995-commercial-messaging,NOS-market product providing directories and APIs for location independence; does not provide direct messaging APIs; hundred-million range submarket
-corba,CORBA (Common Object Request Broker Architecture),framework,OMG Consortium,1991-2010,emerging,obsolete,aberdeen-1995-commercial-messaging,Aberdeen finds CORBA will not provide Commercial Messaging in near future; distributed objects market below $10M in 1995
-visual-basic,Microsoft Visual Basic,language,Microsoft,1991-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Dominant Fortune-1000 departmental development tool alongside PowerBuilder; now VB.NET (active) and VB6 (legacy)
-powerbuilder,Powersoft PowerBuilder,application,Powersoft / Sybase / Appeon,1990-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Low-end CADE cited as dominant Fortune-1000 tool; MQSeries integrates with PowerBuilder; now Appeon PowerBuilder
-seer-hps,Seer*HPS,application,Seer Technologies,early 1990s-late 1990s,emerging,obsolete,aberdeen-1995-commercial-messaging,Second-generation CADE with publish-and-subscribe messaging; application partitioning; messaging not portable outside toolset
-forte-cade,Forte (Second-Generation CADE),application,Forte Software,1991-1999,emerging,obsolete,aberdeen-1995-commercial-messaging,"Leading second-generation CADE with Commercial Messaging, repository/directory, and application partitioning; acquired by Sun 1999, Oracle 2010"
-x400,X.400 Electronic Mail Protocol,protocol,ITU / ISO,1984-2000,mature,obsolete,aberdeen-1995-commercial-messaging,1980s store-and-forward email API market; predecessor context for Commercial Messaging market sizing below $100M
-tcp-ip,TCP/IP,protocol,IETF,1983-present,mature,active,aberdeen-1995-commercial-messaging,One of multiple communications protocols simultaneously supported by MQSeries
-sna,IBM SNA (Systems Network Architecture),protocol,IBM,1974-2000,mature,obsolete,aberdeen-1995-commercial-messaging,Legacy IBM networking protocol supported simultaneously by MQSeries
-netbios,NetBIOS,protocol,IBM / Microsoft,1983-2000,mature,obsolete,aberdeen-1995-commercial-messaging,"LAN protocol supported by MQSeries alongside TCP/IP, SNA, and DECnet"
-decnet,DECnet,protocol,Digital Equipment Corporation,1975-2000,declining,obsolete,aberdeen-1995-commercial-messaging,DEC networking protocol supported by MQSeries
-cics,IBM CICS (Customer Information Control System),platform,IBM,1969-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Major TP monitor integrated with MQSeries for unit-of-work commitment and backout; still active on mainframes
-tuxedo,Tuxedo TP Monitor,platform,AT&T / Novell / BEA / Oracle,1984-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,TP monitor integrated with MQSeries for transactional messaging; now Oracle Tuxedo
-encina,Encina TP Monitor,platform,Transarc / IBM,1991-2000s,mature,obsolete,aberdeen-1995-commercial-messaging,TP monitor integrated with MQSeries; acquired by IBM from Transarc
-edi,EDI (Electronic Data Interchange),protocol,various standards bodies,1960s-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Market in which store-and-forward messaging is embedded; Aberdeen notes EDI as part of the broader messaging ecosystem
-windows-95,Windows 95,platform,Microsoft,1995-2001,emerging,obsolete,aberdeen-1995-commercial-messaging,MQSeries support described as upcoming at time of study
-windows-nt,Windows NT,platform,Microsoft,1993-2000,emerging,obsolete,aberdeen-1995-commercial-messaging,MQSeries support described as upcoming at time of study
-hp-openmail,HP OpenMail,application,Hewlett-Packard,early 1990s-2000s,emerging,obsolete,aberdeen-1995-commercial-messaging,Messaging APIs for multi-standard e-mail integration; focused on e-mail market; transaction support planned within 2 years of study
-adabas,Software AG ADABAS,platform,Software AG,1971-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,RDBMS with store-and-forward architecture; not yet providing full Commercial Messaging developer APIs in 1995
-publish-and-subscribe,Publish-and-Subscribe Messaging,framework,various,1990s-present,emerging,active,aberdeen-1995-commercial-messaging,Emerging capability in second-generation CADEs; allows applications to declare themselves to repositories and clients to subscribe automatically; foundation of modern event-streaming
+lotus-approach,,end-user-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+lotus-notes,Lotus Notes,application,Lotus Development / IBM,1989-present,mature,legacy-supported,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Billion-dollar groupware market leader using store-and-forward and Workflow Manager; now HCL Notes
+madge-multinet-hub,Madge MultiNet Intelligent Switching Hub,platform,Madge Networks,1994-2001,mature,obsolete,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,1.28 Gbps LANswitch bus; Ethernet + Token Ring shared media; collapsed backbone hub for NeVaDa
 mdp-workflow-manager,MDp Workflow Manager,application,"Early, Cloud & Co.",mid-1990s,emerging,obsolete,aberdeen-1995-commercial-messaging,Workflow Manager product compatible with MQSeries and in-house Commercial Messaging implementations
-visualage,IBM VisualAge,application,IBM,1993-2001,emerging,obsolete,aberdeen-1995-commercial-messaging,IBM development toolset integrating with MQSeries alongside VisualGen
-visualgen,IBM VisualGen,application,IBM,1993-2000,emerging,obsolete,aberdeen-1995-commercial-messaging,IBM development toolset integrating with MQSeries
-beyond-toolset,Beyond Workflow Toolset,application,Beyond Inc. / Banyan Systems,early 1990s,emerging,obsolete,aberdeen-1995-commercial-messaging,Workflow software acquired by Banyan Systems via acquisition of Beyond Inc.
+mediapath-platform,Mitel MediaPath Software Platform,framework,Mitel Corporation,1994-2000,mature,obsolete,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,CTI software platform for distributed open architectures; predecessor to NeVaDa integration
+microsoft-sql-server,Microsoft SQL Server 6.5,application,Microsoft,1996-1998,mature,obsolete,aberdeen-1996-debunking-ntsmp-scalability-myth,"Set TPC-C price/performance record at $65/tpmC Sept 1996; evolved through SQL Server 7, 2000, etc."
+motorola-88000,Motorola 88000 Processor,platform,Motorola,1988-1996,declining,obsolete,aberdeen-1996-risc-unix-market,Used in Data General Aviion; DG beginning transition away from 88000 to all-Intel design in 1995
+mpp,MPP (Massively Parallel Processing),platform,"Multiple (IBM RS/6000 SP, HP EPS, ICL Goldrush, Tandem, Cray)",1990-2005,emerging,legacy-supported,aberdeen-1996-risc-unix-market,Key growth technology for high-end RISC/Unix; IBM SP was major 1995 growth driver; one of four 1996 product agenda items for all suppliers
+multia,Digital Multia (Universal Client),platform,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Compact all-in-one enterprise desktop; photo-album footprint; discontinued ~1997
+multia-x-server,Multia X Server (Digital),application,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,DEC-supplied X11.R6 server enabling Unix application access; includes NFS in optional configuration
+netbeui,NetBEUI,protocol,IBM / Microsoft,1985-2001,mature,obsolete,aberdeen-1995-digital-multia,IBM LAN protocol included in Multia transport stack
+netbios,NetBIOS,protocol,IBM / Microsoft,1983-2000,mature,obsolete,aberdeen-1995-commercial-messaging,"LAN protocol supported by MQSeries alongside TCP/IP, SNA, and DECnet"
+netscape-navigator,Netscape Navigator,application,Netscape Communications Corporation,1994-2008,emerging,obsolete,aberdeen-1995-digital-multia,Bundled as embedded web browser on Multia for World Wide Web access
+nevada-nevadaplatform,Mitel NeVaDa (Networked Voice and Data),platform,Mitel Corporation,1996-2001,emerging,obsolete,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,Integrated broadband enterprise backbone; voice/data/video on single OC-3 fiber; collapsed backbone star topology
+nfs,NFS (Network File System),protocol,Sun Microsystems (open standard),1984-present,mature,active,aberdeen-1995-digital-multia,Included in the optional Multia X Server package
+notespump,,replication-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+novell-netware,Novell NetWare,platform,Novell,1983-2009,mature,obsolete,aberdeen-1996-risc-unix-market,Dominant workgroup network OS; RISC/Unix suppliers required to provide NetWare interoperability support
+nt-wolfpack-clusters,Microsoft Wolfpack NT Clustering,platform,Microsoft,1997-2003,emerging,obsolete,aberdeen-1996-debunking-ntsmp-scalability-myth,NT cluster standard released 1997 as MSCS (Microsoft Cluster Server); evolved into Windows Server Failover Clustering
+numa-architecture,Non-Uniform Memory Access (NUMA),framework,"Multiple (Sequent, NCR, DEC)",1994-present,emerging,active,aberdeen-1996-debunking-ntsmp-scalability-myth,"Scalability approach for 16-32+ processor NT systems; Sequent NUMACentre achieved 48,793 tpmC by 1998"
+odbc,,API,,,,,aberdeen-1995-ibm-db2-common-server,
+omnis-7,OMNIS 7,application,Blyth Software,1991-2000,mature,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Client-server application development environment (CADE); cross-platform Windows/OS2/Mac
+omnis-data-server,OMNIS Data Server,application,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Serves OMNIS apps to web browsers via CGI/HTML
+open-market-transact,Open Market TRANSACT / OM-SecureLink,application,Open Market Inc.,1995-2001,emerging,obsolete,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,"Electronic commerce front-office suite; OM-Axcess, OM-SecureLink, Secure WebServer on Cybershield"
+oracle-72,Oracle 7.2,application,Oracle Corporation,1994-2000,mature,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,RDBMS integrated into Sagister Production Facilities Function Set with Bull DB*Monitor
+oracle-7x-rdbms,Oracle 7.x RDBMS,application,Oracle Corporation,1992-1999,mature,obsolete,aberdeen-1996-data-general-corporation,Backend database for SAP R/3 and PeopleSoft implementations on AViiON
+oracle-webserver,Oracle WebServer,application,Oracle Corporation,1995-1999,emerging,obsolete,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Deployed on Cybershield for secure web access to Oracle databases; evolved into Oracle HTTP Server
+os2,,operating-system,,,,,aberdeen-1995-ibm-db2-common-server,
+os400-v3r6,OS/400 Version 3 Release 6 (V3R6),,,,,,aberdeen-1995-ibm-as400-sap-r3,Introduced to exploit 64-bit RISC architecture; required platform for SAP R/3 v3.0 on AS/400; implements Single Unix Specification (Spec 1170)
+pci-bus,PCI Bus,platform,Intel / PCI-SIG,1992-present,emerging,active,aberdeen-1995-digital-multia,Multia features PCI system bus and optional PCI slot; evolved to PCIe
+pcmcia,PCMCIA,platform,PCMCIA (industry consortium),1990-2005,mature,obsolete,aberdeen-1995-digital-multia,Multia Intel model includes two PCMCIA slots
+powerbuilder,Powersoft PowerBuilder,application,Powersoft / Sybase / Appeon,1990-present,mature,legacy-supported,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,Low-end CADE cited as dominant Fortune-1000 tool; MQSeries integrates with PowerBuilder; now Appeon PowerBuilder
+powerpc,PowerPC 604,platform,Motorola/IBM/Apple,1994-2003,mature,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,RISC processor used in Escala systems; 64-bit PowerPC 620 planned for Sagister upgrade in late 1996
+powerpc-601,PowerPC 601 Processor,platform,IBM/Motorola/Apple (AIM alliance),1993-1996,mature,obsolete,aberdeen-1996-risc-unix-market,Used in RS/6000 systems; customers had to buy additional 601-based systems when 604 upgrade was delayed
+powerpc-604,PowerPC 604 Processor,platform,IBM/Motorola/Apple (AIM alliance),1994-1997,emerging,obsolete,aberdeen-1996-risc-unix-market,IBM failed to deliver promised mid-1995 upgrade for RS/6000 PowerPC 601 systems; delay hurt IBM's 1995 outlook
+powerpc-as,PowerPC AS (64-bit RISC),,,,,,aberdeen-1995-ibm-as400-sap-r3,64-bit RISC microprocessor at heart of new AS/400 Advanced Series models; also known as PowerPC AS
+publish-and-subscribe,Publish-and-Subscribe Messaging,framework,various,1990s-present,emerging,active,aberdeen-1995-commercial-messaging,Emerging capability in second-generation CADEs; allows applications to declare themselves to repositories and clients to subscribe automatically; foundation of modern event-streaming
+racf,,security,,,,,aberdeen-1995-ibm-db2-common-server,
+rdbms-general,RDBMS (Relational Database Management System),application,"Multiple (Oracle, Informix, Sybase)",1979-present,mature,active,aberdeen-1996-risc-unix-market,"Key driver of RISC/Unix adoption; data warehousing use growing 6-7x in 18 months; Oracle, Informix, Sybase were top three suppliers"
+ren-architecture,REN Architecture,framework,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,"Dual-track: traditional client-server + Net client-server; 4 components: dev tools, db tools, lifecycle mgmt, components"
+rexx,,scripting-language,,,,,aberdeen-1995-ibm-db2-common-server,
+risc-unix,RISC/Unix Platform (general),platform,Multiple,1987-2005,mature,legacy-supported,aberdeen-1996-risc-unix-market,"Subject of study; commercial multiuser systems for OLTP, decision support, batch processing"
+rmon,RMON (Remote Network Monitoring),protocol,IETF (RFC 1271/RFC 1757),1992-2010,mature,legacy-supported,aberdeen-1995-3com-lanplex-2500,3Com's Roving Analysis Port implemented distributed RMON across all ports. Cisco supported RFC 1271.
+rs6000,IBM RS/6000,hardware-platform,IBM,1990-2000,mature,obsolete,aberdeen-1995-ibm-db2-common-server; aberdeen-1996-risc-unix-market,IBM's primary RISC/Unix workstation and server line; transitioned to pSeries
+rs6000-sp,IBM RS/6000 SP (SP2),mpp-hardware,IBM,1993-2003,emerging,obsolete,aberdeen-1995-ibm-db2-common-server; aberdeen-1996-risc-unix-market,Massively parallel processor (MPP) system; approximately 50% of IBM RISC/Unix growth in 1995; formerly SP2
+rumba,Rumba (Wall Data),application,Wall Data Incorporated,1988-2003,mature,obsolete,aberdeen-1995-digital-multia,Described as 'industry leading' 3270/mainframe emulator; pre-configured on Multia
+s3-pci-graphics,S3 PCI Graphics Accelerator,platform,S3 Incorporated,1994-1998,emerging,obsolete,aberdeen-1995-digital-multia,Featured in Multia Intel model with 2 MB VRAM
+sagister,Sagister,platform,Bull Enterprise Information Systems,1996-2005,emerging,obsolete,aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications,"Datacenter UNIX platform combining Escala hardware, AIX, HACMP, ISM/OpenMaster; 3 configs: M1/M2/M3"
+sap-r2,SAP R/2,,,,,,aberdeen-1995-ibm-as400-sap-r3,SAP's mainframe-based predecessor product; still part of overall SAP strategy in 1995 but eclipsed by R/3
+sap-r3,SAP R/3,application,SAP AG,1992-2015,emerging,legacy-supported,aberdeen-1995-ibm-as400-sap-r3; aberdeen-1996-bulls-sagister-datacenterdisciplined-unix-businesscritical-applications; aberdeen-1996-data-general-corporation; aberdeen-1996-risc-unix-market,Three-tier client-server ERP suite; version 3.0 announced for AS/400 September 1995; introduced 1992
+sap-r3-repository,R/3 Repository and SAP Information Model,,,,,,aberdeen-1995-ibm-as400-sap-r3,"Central metadata and data dictionary; enables RDBMS portability; comprises Enterprise Data Model (EDM), Enterprise Functional Model (EFM), Organizational Model (OM)"
+scsi-ii,SCSI-II,platform,ANSI standard,1994-2003,mature,obsolete,aberdeen-1995-digital-multia,External storage interface included on Multia Intel model
+securid,SecurID Authentication,application,Security Dynamics / RSA Security,1986-present,mature,active,aberdeen-1996-data-generals-cybershield-security-solutions-advancing,Two-factor authentication used in Cybershield; RSA SecurID still widely deployed
+seer-hps,Seer*HPS,application,Seer Technologies,early 1990s-late 1990s,emerging,obsolete,aberdeen-1995-commercial-messaging,Second-generation CADE with publish-and-subscribe messaging; application partitioning; messaging not portable outside toolset
+servernet,ServerNet (Tandem),protocol,Tandem Computers,1994-2001,emerging,obsolete,aberdeen-1996-risc-unix-market,Very advanced interconnect technology; delivery delays after announcement limited Tandem's 1995 growth
+smp,SMP (Symmetric Multiprocessing),platform,Multiple,1988-present,mature,active,aberdeen-1996-risc-unix-market,Key RISC/Unix scalability technology; Sun established SMP credibility for commercial workloads in 1995; Sequent focused on high-end SMP for data warehousing
+sna,IBM SNA (Systems Network Architecture),protocol,IBM,1974-2000,mature,obsolete,aberdeen-1995-commercial-messaging,Legacy IBM networking protocol supported simultaneously by MQSeries
+sna-lu62,,networking-protocol,,,,,aberdeen-1995-ibm-db2-common-server,
+snmp,,management-protocol,,,,,aberdeen-1995-ibm-db2-common-server,
+solaris,Sun Solaris,platform,Sun Microsystems,1991-2018,emerging,obsolete,aberdeen-1996-risc-unix-market,Established as production-ready OS in 1995; Solaris 9 (64-bit UltraSPARC) transition anticipated for 1996
+sonet-atm-network,SONET/ATM Fiber Network,protocol,MFS Communications,1991-2005,emerging,obsolete,aberdeen-1996-vpns-business-mfs-success-strategy,"MFS's core infrastructure; OC-3/OC-12 SONET rings; ATM switching; 165,999 miles of fiber by Sept 1995; supplanted by IP/MPLS"
+sparc,SPARC Architecture,platform,SPARC International / Sun Microsystems,1987-2017,mature,obsolete,aberdeen-1996-risc-unix-market,"Used by Sun, ICL/Fujitsu (licensed); ICL's Teamserver and Superserver SMP platforms"
+sql,,query-language,,,,,aberdeen-1995-ibm-db2-common-server,
+store-and-forward-messaging,Store-and-Forward Messaging,protocol,various,1970s-present,emerging,active,aberdeen-1995-commercial-messaging,"Core underlying technology of Commercial Messaging; evolved into modern message queuing and event streaming (Kafka, RabbitMQ, AWS SQS, etc.)"
+sx-2000-pbx,Mitel SX-2000 LIGHT PBX,platform,Mitel Corporation,1984-2000,mature,obsolete,aberdeen-1996-mitels-nevadanetworked-voice-data-speeding-toward,Distributed PBX being evolved into NeVaDa integrated call server; modular LIGHT controller nodes
+system3x,IBM System/3X line,,,,,,aberdeen-1995-ibm-as400-sap-r3,"IBM's midrange predecessor platform family (System/3, System/32, System/34, System/36, System/38); evolved into AS/400"
+tacacs-plus,TACACS+,protocol,Cisco Systems,1993-present,emerging,active,aberdeen-1996-ciscos-access-business-unit-crystallizes-vision,Terminal Access Controller Access Control System Plus; announced March 1995; still used in enterprise auth
+tcp-ip,TCP/IP,protocol,IETF,1983-present,mature,active,aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia; aberdeen-1995-ibm-db2-common-server,One of multiple communications protocols simultaneously supported by MQSeries
+tech-001,,enterprise-groupware,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-002,,groupware-messaging,Lotus Development Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-003,,messaging-groupware,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-004,,integration-standard,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-005,,middleware,Various (OMG standard),,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-006,,operating-system,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-007,,operating-system,Hewlett-Packard Company,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-008,,operating-system,Digital Equipment Corporation / VSI,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-009,,operating-system,IBM Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
 tech-01,Relational OLAP (ROLAP),analytical-framework,multiple,1993-present,emerging,evolved,aberdeen-1995-data-warehouse-olap,Central focus of study; combines RDBMS with multidimensional query capability; multi-tier architecture
+tech-010,,operating-system,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-011,,operating-system,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-012,,office-automation,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-013,,relational-database,Oracle Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-014,,relational-database,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-015,,middleware,Various (OSF/DCE standard),,,,aberdeen-1995-digital-linkworks; aberdeen-1995-intersolv-virtual-data-warehouse; aberdeen-1995-oracle-interoffice,
+tech-016,,operating-system,IBM Corporation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-oracle-interoffice,
+tech-017,,operating-system,Apple Computer,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-oracle-interoffice,
+tech-018,,gui-toolkit,Open Software Foundation,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-oracle-interoffice,
+tech-019,,software-category,Multiple,,,,aberdeen-1995-digital-linkworks; aberdeen-1995-oracle-interoffice,
 tech-02,Multidimensional OLAP (MOLAP),analytical-framework,multiple,1990-present,mainstream,legacy-niche,aberdeen-1995-data-warehouse-olap,Proprietary MDB-based OLAP; scalability limited to 20-50GB; faces competition from ROLAP
+tech-020,,operating-system,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
+tech-021,,gui-toolkit,Open Software Foundation,,,,aberdeen-1995-oracle-interoffice,
+tech-022,,operating-system,Apple Computer,,,,aberdeen-1995-oracle-interoffice,
+tech-023,,terminal-interface,Various,,,,aberdeen-1995-oracle-interoffice,
+tech-024,,mobile-device,"Various (Palm, HP, Casio)",,,,aberdeen-1995-oracle-interoffice,
+tech-025,,server-platform,Hewlett-Packard,,,,aberdeen-1995-oracle-interoffice,
+tech-026,,server-platform,Sun Microsystems,,,,aberdeen-1995-oracle-interoffice,
+tech-027,,server-platform,IBM Corporation,,,,aberdeen-1995-oracle-interoffice,
+tech-028,,messaging-groupware,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
+tech-029,,groupware-messaging,Lotus Development Corporation,,,,aberdeen-1995-oracle-interoffice,
 tech-03,Multidimensional Database (MDB),database-technology,multiple,1990-present,mainstream,legacy-niche,aberdeen-1995-data-warehouse-olap,Specialized storage using array/sparse-matrix technology; becoming impractical above 50GB
+tech-030,,database-language,ANSI/ISO standard,,,,aberdeen-1995-oracle-interoffice,
+tech-031,,network-security,Various,,,,aberdeen-1995-oracle-interoffice,
 tech-04,Sparse-matrix technology,storage-optimization,multiple,1990-present,mainstream,legacy-niche,aberdeen-1995-data-warehouse-olap,Performance and storage optimization that hunts unused MDB cells and compresses arrays; used by Pilot and Express
 tech-05,Parallel-scalable RDBMS,database-technology,multiple,1992-present,emerging,evolved,aberdeen-1995-data-warehouse-olap,RDBMSs scaling beyond 100GB; exemplified by Informix-Online; foundation for ROLAP
 tech-06,Dimensional modeling,data-modeling,multiple,1993-present,emerging,active,aberdeen-1995-data-warehouse-olap,Organizes data into fact tables (measures) and dimension tables (satellite tables); core to ROLAP
@@ -69,341 +339,84 @@ tech-25,Lotus Approach,personal-database,Lotus Development,1992-1998,mainstream,
 tech-26,Intelligent agents / alerts,automation,multiple,1994-present,emerging,evolved,aberdeen-1995-data-warehouse-olap,Monitors query environment; runs background analyses; notifies workers of predefined business conditions
 tech-27,Data mining,analytical-framework,multiple,1994-present,emerging,active,aberdeen-1995-data-warehouse-olap,Emerging application class enabled by ROLAP; allows drilling for information in any direction without pre-programmed paths
 tech-28,Very Large Databases (VLDB),database-technology,multiple,1993-present,emerging,active,aberdeen-1995-data-warehouse-olap,Databases exceeding 100GB; hundreds of sites by 1995; ROLAP leverages RDBMS VLDB support
-tech-001,,enterprise-groupware,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-002,,groupware-messaging,Lotus Development Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-003,,messaging-groupware,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-004,,integration-standard,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-005,,middleware,Various (OMG standard),,,,aberdeen-1995-digital-linkworks,
-tech-006,,operating-system,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-007,,operating-system,Hewlett-Packard Company,,,,aberdeen-1995-digital-linkworks,
-tech-008,,operating-system,Digital Equipment Corporation / VSI,,,,aberdeen-1995-digital-linkworks,
-tech-009,,operating-system,IBM Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-010,,operating-system,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-011,,operating-system,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-012,,office-automation,Digital Equipment Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-013,,relational-database,Oracle Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-014,,relational-database,Microsoft Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-015,,middleware,Various (OSF/DCE standard),,,,aberdeen-1995-digital-linkworks,
-tech-016,,operating-system,IBM Corporation,,,,aberdeen-1995-digital-linkworks,
-tech-017,,operating-system,Apple Computer,,,,aberdeen-1995-digital-linkworks,
-tech-018,,gui-toolkit,Open Software Foundation,,,,aberdeen-1995-digital-linkworks,
-tech-019,,software-category,Multiple,,,,aberdeen-1995-digital-linkworks,
-multia,Digital Multia (Universal Client),platform,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Compact all-in-one enterprise desktop; photo-album footprint; discontinued ~1997
-alpha-64bit-risc,Alpha 64-bit RISC Processor,platform,Digital Equipment Corporation,1992-2004,mature,obsolete,aberdeen-1995-digital-multia,One of two Multia hardware architectures; DEC Alpha architecture discontinued by HP 2004
-intel-pentium-100,Intel Pentium 100 / Intel 100,platform,Intel,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Newly announced Intel model of Multia at time of study; 100 MHz Pentium
-windows-nt-3-51,Microsoft Windows NT Workstation 3.51,platform,Microsoft,1995-1997,emerging,obsolete,aberdeen-1995-digital-multia,Base OS for Multia; provided multitasking and stability; succeeded by Windows NT 4.0 in 1996
-windows-95,Microsoft Windows 95,platform,Microsoft,1995-2001,emerging,obsolete,aberdeen-1995-digital-multia,Supported as downloadable application environment on Multia desktop
-tcp-ip,TCP/IP,protocol,IETF (open standard),1974-present,mature,active,aberdeen-1995-digital-multia,Described as 'one of the most common peer-to-peer protocols' and primary Internet access protocol on Multia
-ipx-spx,IPX/SPX,protocol,Novell,1983-2000,mature,obsolete,aberdeen-1995-digital-multia,Novell network protocol included in Multia communications stack
-decnet,DECnet,protocol,Digital Equipment Corporation,1975-2000,mature,obsolete,aberdeen-1995-digital-multia,DEC peer-to-peer proprietary protocol supported by Multia
-lat,LAT (Local Area Transport),protocol,Digital Equipment Corporation,1985-2000,mature,obsolete,aberdeen-1995-digital-multia,Optimized terminal access protocol used for termserver support on Multia
-netbeui,NetBEUI,protocol,IBM / Microsoft,1985-2001,mature,obsolete,aberdeen-1995-digital-multia,IBM LAN protocol included in Multia transport stack
-x-serial-line-protocol,X Serial Line Protocol,protocol,X Consortium,1990-2000,mature,obsolete,aberdeen-1995-digital-multia,X session protocol for Unix environment access; included in Multia
-nfs,NFS (Network File System),protocol,Sun Microsystems (open standard),1984-present,mature,active,aberdeen-1995-digital-multia,Included in the optional Multia X Server package
-x11-r6,X11 R6 / X Window System,framework,X Consortium,1987-present,mature,legacy-supported,aberdeen-1995-digital-multia,Multia X Server supplies X11.R6 functions; Wayland gradually replacing X11 on Linux
-pci-bus,PCI Bus,platform,Intel / PCI-SIG,1992-present,emerging,active,aberdeen-1995-digital-multia,Multia features PCI system bus and optional PCI slot; evolved to PCIe
-pcmcia,PCMCIA,platform,PCMCIA (industry consortium),1990-2005,mature,obsolete,aberdeen-1995-digital-multia,Multia Intel model includes two PCMCIA slots
-scsi-ii,SCSI-II,platform,ANSI standard,1994-2003,mature,obsolete,aberdeen-1995-digital-multia,External storage interface included on Multia Intel model
-3270-terminal-emulation,IBM 3270 Terminal Emulation,application,IBM / various,1971-present,mature,legacy-supported,aberdeen-1995-digital-multia,Pre-configured on Multia for IBM mainframe access; provided via Rumba (Wall Data) and Kea! (Attachmate)
-vt-340-420-terminal-emulation,VT 340/420 Terminal Emulation,application,Digital Equipment Corporation,1988-present,mature,legacy-supported,aberdeen-1995-digital-multia,Embedded VT terminal emulation for DEC host access; pre-configured on Multia
-netscape-navigator,Netscape Navigator,application,Netscape Communications Corporation,1994-2008,emerging,obsolete,aberdeen-1995-digital-multia,Bundled as embedded web browser on Multia for World Wide Web access
-rumba,Rumba (Wall Data),application,Wall Data Incorporated,1988-2003,mature,obsolete,aberdeen-1995-digital-multia,Described as 'industry leading' 3270/mainframe emulator; pre-configured on Multia
-kea,Kea! (Attachmate),application,Attachmate Corporation,1990-2014,mature,obsolete,aberdeen-1995-digital-multia,Terminal emulator (VT/3270) bundled with Multia; Attachmate acquired by Micro Focus 2014
-s3-pci-graphics,S3 PCI Graphics Accelerator,platform,S3 Incorporated,1994-1998,emerging,obsolete,aberdeen-1995-digital-multia,Featured in Multia Intel model with 2 MB VRAM
-vram,VRAM (Video RAM),platform,various,1986-2000,mature,obsolete,aberdeen-1995-digital-multia,2 MB VRAM on Multia Intel S3 graphics card
-multia-x-server,Multia X Server (Digital),application,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,DEC-supplied X11.R6 server enabling Unix application access; includes NFS in optional configuration
-ORB,Object Request Broker (ORB),,,,,,aberdeen-1995-digital-objectbroker,
-OBJECTBROKER,Digital ObjectBroker,,,,,,aberdeen-1995-digital-objectbroker,
-CORBA,CORBA (Common Object Request Broker Architecture),,,,,,aberdeen-1995-digital-objectbroker,
-IDL,Interface Definition Language (IDL),,,,,,aberdeen-1995-digital-objectbroker,
-IML,Implementation Mapping Language (IML),,,,,,aberdeen-1995-digital-objectbroker,
-MML,Method Mapping Language (MML),,,,,,aberdeen-1995-digital-objectbroker,
-OLE,OLE (Object Linking and Embedding),,,,,,aberdeen-1995-digital-objectbroker,
-COM,COM (Component Object Model),,,,,,aberdeen-1995-digital-objectbroker,
-DDE,DDE (Dynamic Data Exchange),,,,,,aberdeen-1995-digital-objectbroker,
-DCE,DCE (Distributed Computing Environment),,,,,,aberdeen-1995-digital-objectbroker,
-VISUALBASIC,Visual Basic,,,,,,aberdeen-1995-digital-objectbroker,
-POWERBUILDER,PowerBuilder,,,,,,aberdeen-1995-digital-objectbroker,
-OPENVMS,OpenVMS,,,,,,aberdeen-1995-digital-objectbroker,
-CPP,C++ Language Binding,,,,,,aberdeen-1995-digital-objectbroker,
-GSS_API,GSS-API (Generic Security Services API),,,,,,aberdeen-1995-digital-objectbroker,
-ACA_SERVICES,ACA Services,,,,,,aberdeen-1995-digital-objectbroker,
-OBJECTPLUS,ObjectPlus,,,,,,aberdeen-1995-digital-objectbroker,
-PARADIGM_PLUS,Paradigm Plus,,,,,,aberdeen-1995-digital-objectbroker,
-NAS,NAS (Network Application Support),,,,,,aberdeen-1995-digital-objectbroker,
-tech-cis,Customer Interaction Software (CIS),software-category,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,"Umbrella term for client-server apps for customer acquisition and retention; includes customer support, helpdesk, telemarketing, SFA"
-tech-cti,Computer-Telephony Integration (CTI),middleware,multiple,1992-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Integration of telephone systems with information systems; key enabling technology for CIS; evolved into modern contact center platforms
-tech-smart-contact,HP Smart ContAct,program-platform,Hewlett-Packard,1995-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,"HP's comprehensive CIS program unveiled December 1995; combines software, partnerships, hardware; no longer marketed under this brand"
-tech-ccm,HP Customer Contact Manager (CCM),cti-middleware,Hewlett-Packard,1995-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,HP CTI middleware; application- and communication-device-independent; runs on top of ACT or TSAPI; priced $300-$800 per user
-tech-act,HP ACT (Applied Computer Telephony),cti-middleware,Hewlett-Packard,1993-2000s,growth,obsolete,aberdeen-1995-hp-customer-interaction-software,Device-specific CTI link between PBX switch and information systems network; deployed at 200+ call center sites by Dec 1995
-tech-tsapi,TSAPI (Telephony Services API),api-standard,Novell / AT&T,1993-present,emerging,legacy,aberdeen-1995-hp-customer-interaction-software,Emerging call control standard; CCM planned Q1 1996 support; grew but eventually superseded by TAPI and SIP
-tech-ct-connect,Dialogic CT Connect,cti-middleware,Dialogic,1994-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,"CTI middleware supporting Alcatel, Ericsson, and Rolm switches; HP CCM interfaces with this product"
-tech-pbx,PBX (Private Branch Exchange),telephony-hardware,multiple,1960s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Telephone switch system; core hardware in call centers; still widely deployed
-tech-acd,ACD (Automatic Call Distributor),telephony-hardware,multiple,1970s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Automated call routing and distribution; core call center infrastructure; still active and evolved
-tech-ivr,IVR (Interactive Voice Response),telephony-software,multiple,1980s-present,growth,active,aberdeen-1995-hp-customer-interaction-software,Automated voice response systems; listed as category of CIS ISV partners; still active but evolved
-tech-sfa,Sales Force Automation (SFA),crm-software,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Software for automating sales processes; key CIS application category; evolved into modern CRM
-tech-helpdesk,Helpdesk Software,crm-software,multiple,1990s-present,growth,active,aberdeen-1995-hp-customer-interaction-software,Customer support and helpdesk ticketing applications; key CIS category; evolved into ITSM and modern helpdesk platforms
-tech-workflow,Workflow Software,middleware,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Process automation software for CIS; listed as partner category; evolved into modern BPM platforms
-tech-data-warehousing,Data Warehousing,analytics-platform,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Business intelligence and data warehousing for CIS; HP OpenWarehouse program; evolved into modern analytics
-tech-hp-ux,HP-UX,operating-system,Hewlett-Packard,1984-2019,mature,legacy,aberdeen-1995-hp-customer-interaction-software,HP's Unix OS; enhanced with symmetric multiprocessing; leading commercial RISC/Unix server platform in 1995
-tech-risc-unix,RISC/Unix Servers,server-hardware,Hewlett-Packard,1986-2010s,mature,legacy,aberdeen-1995-hp-customer-interaction-software,"HP leading supplier of commercial RISC/Unix servers; HP K100 to T-520 (12-way, 5621 tpm-C)"
-tech-openview,HP OpenView,network-management,Hewlett-Packard,1988-2012,mature,legacy,aberdeen-1995-hp-customer-interaction-software,Network management software; used for call center network management in CIS deployments
-tech-openmail,HP OpenMail,email-platform,Hewlett-Packard,1989-2003,mature,obsolete,aberdeen-1995-hp-customer-interaction-software,HP email platform; provides communication capabilities to CSRs and administrators
-tech-openwarehouse,HP OpenWarehouse,data-warehousing,Hewlett-Packard,1995-late1990s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,HP data warehousing program; provides additional data analytics for CIS deployments
-tech-ani,ANI (Automatic Number Identification),telephony-feature,multiple,1980s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Caller identification technology enabling screen pop-up in CIS; standard call center feature
-tech-screen-pop,Screen Pop,cti-feature,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,CTI feature delivering caller data to agent screen automatically on call arrival; key CCM capability
-tech-client-server,Client-Server Architecture,architecture-pattern,multiple,1988-present,growth,legacy,aberdeen-1995-hp-customer-interaction-software,Deployment architecture for CIS; replacing mainframe/home-grown systems in Fortune 1000; evolved into web/cloud
 tech-3270-screens,IBM 3270 Mainframe Screens,legacy-interface,IBM,1971-present,mature,legacy,aberdeen-1995-hp-customer-interaction-software,Legacy mainframe terminal interface; CCM surrounds existing 3270 systems enabling migration path
+tech-acd,ACD (Automatic Call Distributor),telephony-hardware,multiple,1970s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Automated call routing and distribution; core call center infrastructure; still active and evolved
+tech-act,HP ACT (Applied Computer Telephony),cti-middleware,Hewlett-Packard,1993-2000s,growth,obsolete,aberdeen-1995-hp-customer-interaction-software,Device-specific CTI link between PBX switch and information systems network; deployed at 200+ call center sites by Dec 1995
+tech-ani,ANI (Automatic Number Identification),telephony-feature,multiple,1980s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Caller identification technology enabling screen pop-up in CIS; standard call center feature
+tech-ccm,HP Customer Contact Manager (CCM),cti-middleware,Hewlett-Packard,1995-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,HP CTI middleware; application- and communication-device-independent; runs on top of ACT or TSAPI; priced $300-$800 per user
+tech-cde,,desktop-environment,multiple vendors,,,,aberdeen-1995-hp-softbench,
+tech-cics,,transaction-monitor,IBM,,,,aberdeen-1995-hp-softbench,
+tech-cis,Customer Interaction Software (CIS),software-category,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,"Umbrella term for client-server apps for customer acquisition and retention; includes customer support, helpdesk, telemarketing, SFA"
+tech-client-server,Client-Server Architecture,architecture-pattern,multiple,1988-present,growth,legacy,aberdeen-1995-hp-customer-interaction-software,Deployment architecture for CIS; replacing mainframe/home-grown systems in Fortune 1000; evolved into web/cloud
+tech-cobol,,programming-language,multiple,,,,aberdeen-1995-hp-softbench,
+tech-codeadvisor,,static-analysis,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-commonpoint,,application-framework,Taligent/IBM,,,,aberdeen-1995-hp-softbench,
+tech-corba,,middleware,OMG,,,,aberdeen-1995-hp-softbench,
+tech-cpp,,programming-language,ISO/multiple,,,,aberdeen-1995-hp-softbench,
+tech-ct-connect,Dialogic CT Connect,cti-middleware,Dialogic,1994-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,"CTI middleware supporting Alcatel, Ericsson, and Rolm switches; HP CCM interfaces with this product"
+tech-cti,Computer-Telephony Integration (CTI),middleware,multiple,1992-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Integration of telephone systems with information systems; key enabling technology for CIS; evolved into modern contact center platforms
+tech-data-warehousing,Data Warehousing,analytics-platform,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Business intelligence and data warehousing for CIS; HP OpenWarehouse program; evolved into modern analytics
+tech-db2-9000,,database,IBM/HP,,,,aberdeen-1995-hp-softbench,
+tech-dce,,middleware,OSF/The Open Group,,,,aberdeen-1995-hp-softbench,
+tech-encapsulator,,tool-integration,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-graphical-class-editor,,IDE-feature,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-helpdesk,Helpdesk Software,crm-software,multiple,1990s-present,growth,active,aberdeen-1995-hp-customer-interaction-software,Customer support and helpdesk ticketing applications; key CIS category; evolved into ITSM and modern helpdesk platforms
+tech-hp-dst,,programming-language-runtime,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-hp-ux,HP-UX,operating-system,Hewlett-Packard,1984-2019,mature,legacy,aberdeen-1995-hp-customer-interaction-software; aberdeen-1995-hp-softbench,HP's Unix OS; enhanced with symmetric multiprocessing; leading commercial RISC/Unix server platform in 1995
+tech-informix-db,,database,Informix/IBM,,,,aberdeen-1995-hp-softbench,
+tech-ivr,IVR (Interactive Voice Response),telephony-software,multiple,1980s-present,growth,active,aberdeen-1995-hp-customer-interaction-software,Automated voice response systems; listed as category of CIS ISV partners; still active but evolved
+tech-micro-focus-cobol,,programming-language-runtime,Micro Focus/OpenText,,,,aberdeen-1995-hp-softbench,
+tech-oodce,,distributed-computing,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-openmail,HP OpenMail,email-platform,Hewlett-Packard,1989-2003,mature,obsolete,aberdeen-1995-hp-customer-interaction-software,HP email platform; provides communication capabilities to CSRs and administrators
+tech-openview,HP OpenView,network-management,Hewlett-Packard,1988-2012,mature,legacy,aberdeen-1995-hp-customer-interaction-software,Network management software; used for call center network management in CIS deployments
+tech-openwarehouse,HP OpenWarehouse,data-warehousing,Hewlett-Packard,1995-late1990s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,HP data warehousing program; provides additional data analytics for CIS deployments
+tech-oracle-db,,database,Oracle,,,,aberdeen-1995-hp-softbench,
+tech-orb-plus,,middleware,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-pbx,PBX (Private Branch Exchange),telephony-hardware,multiple,1960s-present,mature,active,aberdeen-1995-hp-customer-interaction-software,Telephone switch system; core hardware in call centers; still widely deployed
 tech-problem-resolution,Problem Resolution Software,ai-software,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,AI-assisted problem resolution for customer support; Carnegie Group in Figure 2; evolved into knowledge management
-tech-video-conferencing,Video Conferencing,communications,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Video capability planned for CIS deployments; InSoft in Figure 2; evolved into modern unified communications
+tech-risc-unix,RISC/Unix Servers,server-hardware,Hewlett-Packard,1986-2010s,mature,legacy,aberdeen-1995-hp-customer-interaction-software,"HP leading supplier of commercial RISC/Unix servers; HP K100 to T-520 (12-way, 5621 tpm-C)"
+tech-screen-pop,Screen Pop,cti-feature,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,CTI feature delivering caller data to agent screen automatically on call arrival; key CCM capability
+tech-sfa,Sales Force Automation (SFA),crm-software,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Software for automating sales processes; key CIS application category; evolved into modern CRM
+tech-smart-contact,HP Smart ContAct,program-platform,Hewlett-Packard,1995-2000s,emerging,obsolete,aberdeen-1995-hp-customer-interaction-software,"HP's comprehensive CIS program unveiled December 1995; combines software, partnerships, hardware; no longer marketed under this brand"
 tech-softbench,,IDE,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
 tech-softbench-cm,,configuration-management,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-codeadvisor,,static-analysis,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-graphical-class-editor,,IDE-feature,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-encapsulator,,tool-integration,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-spcd,,distributed-development,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-oodce,,distributed-computing,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-hp-dst,,programming-language-runtime,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-orb-plus,,middleware,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-commonpoint,,application-framework,Taligent/IBM,,,,aberdeen-1995-hp-softbench,
-tech-hp-ux,,operating-system,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
 tech-solaris,,operating-system,Sun Microsystems/Oracle,,,,aberdeen-1995-hp-softbench,
-tech-cpp,,programming-language,ISO/multiple,,,,aberdeen-1995-hp-softbench,
-tech-cobol,,programming-language,multiple,,,,aberdeen-1995-hp-softbench,
-tech-micro-focus-cobol,,programming-language-runtime,Micro Focus/OpenText,,,,aberdeen-1995-hp-softbench,
-tech-dce,,middleware,OSF/The Open Group,,,,aberdeen-1995-hp-softbench,
-tech-corba,,middleware,OMG,,,,aberdeen-1995-hp-softbench,
-tech-uim-x,,UI-builder,HP/Integrated Computer Solutions,,,,aberdeen-1995-hp-softbench,
-tech-xemacs,,text-editor,XEmacs Project,,,,aberdeen-1995-hp-softbench,
-tech-cde,,desktop-environment,multiple vendors,,,,aberdeen-1995-hp-softbench,
-tech-vue,,desktop-environment,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
-tech-informix-db,,database,Informix/IBM,,,,aberdeen-1995-hp-softbench,
-tech-oracle-db,,database,Oracle,,,,aberdeen-1995-hp-softbench,
+tech-spcd,,distributed-development,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
 tech-sybase,,database,Sybase/SAP,,,,aberdeen-1995-hp-softbench,
-tech-db2-9000,,database,IBM/HP,,,,aberdeen-1995-hp-softbench,
-tech-cics,,transaction-monitor,IBM,,,,aberdeen-1995-hp-softbench,
-as400-advanced-series,AS/400 Advanced Series,,,,,,aberdeen-1995-ibm-as400-sap-r3,Introduced May 1994; PowerPC AS-based models announced September 1995 for availability before end of 1995
-powerpc-as,PowerPC AS (64-bit RISC),,,,,,aberdeen-1995-ibm-as400-sap-r3,64-bit RISC microprocessor at heart of new AS/400 Advanced Series models; also known as PowerPC AS
-os400-v3r6,OS/400 Version 3 Release 6 (V3R6),,,,,,aberdeen-1995-ibm-as400-sap-r3,Introduced to exploit 64-bit RISC architecture; required platform for SAP R/3 v3.0 on AS/400; implements Single Unix Specification (Spec 1170)
-sap-r3,SAP R/3,,,,,,aberdeen-1995-ibm-as400-sap-r3,Three-tier client-server ERP suite; version 3.0 announced for AS/400 September 1995; introduced 1992
-sap-r2,SAP R/2,,,,,,aberdeen-1995-ibm-as400-sap-r3,SAP's mainframe-based predecessor product; still part of overall SAP strategy in 1995 but eclipsed by R/3
-db2-400,DB2/400,,,,,,aberdeen-1995-ibm-as400-sap-r3,Integrated RDBMS on AS/400; ability to run SAP R/3 as 64-bit application supported by 64-bit DB2/400 cited as key advantage
-abap4,ABAP/4 Development Workbench,,,,,,aberdeen-1995-ibm-as400-sap-r3,SAP's proprietary 4GL development language and workbench; used to develop all R/3 applications; provides database independence layer
+tech-tsapi,TSAPI (Telephony Services API),api-standard,Novell / AT&T,1993-present,emerging,legacy,aberdeen-1995-hp-customer-interaction-software,Emerging call control standard; CCM planned Q1 1996 support; grew but eventually superseded by TAPI and SIP
+tech-uim-x,,UI-builder,HP/Integrated Computer Solutions,,,,aberdeen-1995-hp-softbench,
+tech-video-conferencing,Video Conferencing,communications,multiple,1993-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Video capability planned for CIS deployments; InSoft in Figure 2; evolved into modern unified communications
+tech-vue,,desktop-environment,Hewlett-Packard,,,,aberdeen-1995-hp-softbench,
+tech-workflow,Workflow Software,middleware,multiple,1990s-present,emerging,active,aberdeen-1995-hp-customer-interaction-software,Process automation software for CIS; listed as partner category; evolved into modern BPM platforms
+tech-xemacs,,text-editor,XEmacs Project,,,,aberdeen-1995-hp-softbench,
+three-tier-arch,Three-Tier Architecture,framework,Clarify Inc.,1994-present,emerging,active,aberdeen-1996-clarify-inc,Presentation/application logic/database layers partitioned separately; industry standard by late 1990s
 three-tier-css,Three-Tier Client-Server Architecture,,,,,,aberdeen-1995-ibm-as400-sap-r3,SAP R/3 deployed in three-tier client-server architecture with presentation/application/database separation
-sap-r3-repository,R/3 Repository and SAP Information Model,,,,,,aberdeen-1995-ibm-as400-sap-r3,"Central metadata and data dictionary; enables RDBMS portability; comprises Enterprise Data Model (EDM), Enterprise Functional Model (EFM), Organizational Model (OM)"
-system3x,IBM System/3X line,,,,,,aberdeen-1995-ibm-as400-sap-r3,"IBM's midrange predecessor platform family (System/3, System/32, System/34, System/36, System/38); evolved into AS/400"
-windows-gui,Windows GUI (3.1 / NT),,,,,,aberdeen-1995-ibm-as400-sap-r3,"SAP R/3 presentation layer supports Windows 3.1, Windows NT, and OS/2 GUIs simultaneously"
-db2-common-server,,RDBMS,,,,,aberdeen-1995-ibm-db2-common-server,
-db2-mvs,,RDBMS,,,,,aberdeen-1995-ibm-db2-common-server,
-db2-parallel-edition,,RDBMS extension,,,,,aberdeen-1995-ibm-db2-common-server,
-sql,,query-language,,,,,aberdeen-1995-ibm-db2-common-server,
-drda,,protocol,,,,,aberdeen-1995-ibm-db2-common-server,
-odbc,,API,,,,,aberdeen-1995-ibm-db2-common-server,
-x-open-cli,,API,,,,,aberdeen-1995-ibm-db2-common-server,
-datapropagator,,replication-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-datajoiner,,federated-data,,,,,aberdeen-1995-ibm-db2-common-server,
-datahub,,administration-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-datarefresher,,data-loading,,,,,aberdeen-1995-ibm-db2-common-server,
-visualizer,,reporting-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-databasic,,development-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-visualage,,development-environment,,,,,aberdeen-1995-ibm-db2-common-server,
-os2,,operating-system,,,,,aberdeen-1995-ibm-db2-common-server,
-aix,,operating-system,,,,,aberdeen-1995-ibm-db2-common-server,
-windows-nt,,operating-system,,,,,aberdeen-1995-ibm-db2-common-server,
-rs6000,,hardware-platform,,,,,aberdeen-1995-ibm-db2-common-server,
-rs6000-sp,,mpp-hardware,,,,,aberdeen-1995-ibm-db2-common-server,
-tcp-ip,,networking-protocol,,,,,aberdeen-1995-ibm-db2-common-server,
-sna-lu62,,networking-protocol,,,,,aberdeen-1995-ibm-db2-common-server,
-cics,,tp-monitor,,,,,aberdeen-1995-ibm-db2-common-server,
-encina,,tp-monitor,,,,,aberdeen-1995-ibm-db2-common-server,
-tuxedo,,tp-monitor,,,,,aberdeen-1995-ibm-db2-common-server,
-adsm,,storage-management,,,,,aberdeen-1995-ibm-db2-common-server,
-rexx,,scripting-language,,,,,aberdeen-1995-ibm-db2-common-server,
-racf,,security,,,,,aberdeen-1995-ibm-db2-common-server,
-snmp,,management-protocol,,,,,aberdeen-1995-ibm-db2-common-server,
-powerbuilder,,development-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-lotus-approach,,end-user-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-lotus-notes,,groupware,,,,,aberdeen-1995-ibm-db2-common-server,
-notespump,,replication-tool,,,,,aberdeen-1995-ibm-db2-common-server,
-flowmark,,workflow-management,,,,,aberdeen-1995-ibm-db2-common-server,
-hacmp,,high-availability,,,,,aberdeen-1995-ibm-db2-common-server,
 tpc-c,,benchmark,,,,,aberdeen-1995-ibm-db2-common-server,
-tech-001,,architecture-pattern,Intersolv,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-002,,software-product,Intersolv / DataDirect,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-003,,software-product,Intersolv / DataDirect,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-004,,software-product,Intersolv / DataDirect,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-005,,software-product,TechGnosis / Intersolv,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-006,,standard,Microsoft,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-007,,standard,ANSI/ISO,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-008,,category,Multiple,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-009,,category,Multiple,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-010,,practice,Multiple,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-011,,standard,Microsoft,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-012,,software-product,IBM,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-013,,software-product,Cognos,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-014,,software-product,Business Objects,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-tech-015,,software-product,Business Objects,,,,aberdeen-1995-intersolv-virtual-data-warehouse,
-TECH001,LIMD (Large-Scale In-Memory Database),,,,,,,
-TECH002,64-bit computing architecture,,,,,,,
-TECH003,VLM64 architecture,,,,,,,
-TECH004,Alpha chip (DEC Alpha),,,,,,,
-TECH005,MIPS 64-bit (SGI R8000/R10000),,,,,,,
-TECH006,UltraSPARC 64-bit (Sun),,,,,,,
-TECH007,PA-RISC (HP PA-8000),,,,,,,
-TECH008,PowerPC 64-bit (IBM/Motorola),,,,,,,
-TECH009,Oracle RDBMS 7.x,,,,,,,
-TECH010,Sybase System 11,,,,,,,
-TECH011,Informix-OnLine 7.x / 8.0,,,,,,,
-TECH012,SMP (Symmetric MultiProcessing),,,,,,,
-TECH013,MPP (Massively Parallel Processing),,,,,,,
-TECH014,TPC-C benchmark,,,,,,,
-TECH015,Oracle Rdb,,,,,,,
-TECH016,Sybase IQ Accelerator,,,,,,,
-TECH017,Memory Channel bus,,,,,,,
-TECH018,ATM (Asynchronous Transfer Mode) networking,,,,,,,
-TECH019,32-bit computing architecture,,,,,,,
-TECH020,NonStop Guardian (Tandem),,,,,,,
-TECH-NETWARE,Novell NetWare,network-operating-system,Novell,1983-2009,declining,obsolete,aberdeen-1995-novell-predicament,NetWare 3.x/4.x held 70%+ LAN OS share in 1990; displaced by Windows NT/2000 Server by ~2000. EOL NetWare 6.5 in 2015.
-TECH-NDS,Novell Directory Services (NDS),directory-services,Novell,1993-present,growth,niche,aberdeen-1995-novell-predicament,NDS/eDirectory still maintained by Micro Focus/OpenText; never achieved broad cross-platform adoption. LDAP became dominant.
-TECH-WINNT,Windows NT Server,network-operating-system,Microsoft,1993-2000,growth,superseded,aberdeen-1995-novell-predicament,Windows NT Server 3.51/4.0 drove Novell displacement; evolved to Windows 2000/2003/2008 Server.
-TECH-LDAP,LDAP (Lightweight Directory Access Protocol),directory-protocol,IETF,1993-present,emerging,mainstream,aberdeen-1995-novell-predicament,Aberdeen correctly predicted LDAP would become de-facto directory standard for Internet. Now ubiquitous.
-TECH-GROUPWISE,Novell GroupWise,groupware,Novell,1989-present,growth,niche,aberdeen-1995-novell-predicament,GroupWise survived under Micro Focus/OpenText but lost groupware war to Lotus Notes/Exchange. Still used by legacy enterprise customers.
-TECH-EXCHANGE,Microsoft Exchange Server,groupware,Microsoft,1996-present,pre-release,mainstream,aberdeen-1995-novell-predicament,Exchange referenced as groupware competitor. Exchange became dominant enterprise email/collaboration platform.
-TECH-MANAGEWISE,Novell ManageWise,network-management,Novell,1995-2005,emerging,obsolete,aberdeen-1995-novell-predicament,ManageWise competed with CA Unicenter and HP OpenView; obsolete with Novell decline.
-TECH-OLE-DIR,Microsoft OLE Directory Services,directory-services,Microsoft,1996-2000,planned,superseded,aberdeen-1995-novell-predicament,Aberdeen predicted OLE Directory would succeed because OLE apps drag it into enterprise. Evolved into Active Directory shipped in Windows 2000.
-tech-001,,enterprise-groupware,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-002,,messaging-office-automation,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-003,,document-management,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-004,,workflow-automation,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-005,,full-text-search,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-006,,relational-database,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-007,,database-language,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-008,,rapid-application-development,Oracle Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-009,,component-object-model,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-010,,messaging-api,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-011,,messaging-api,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-012,,document-management-api,ODMA Workgroup (AIIM),,,,aberdeen-1995-oracle-interoffice,
-tech-013,,workflow-api,WfMC (Workflow Management Coalition),,,,aberdeen-1995-oracle-interoffice,
-tech-014,,programming-language-platform,Sun Microsystems,,,,aberdeen-1995-oracle-interoffice,
-tech-015,,internet-platform,Various (NCSA / Netscape),,,,aberdeen-1995-oracle-interoffice,
-tech-016,,email-protocol,IETF,,,,aberdeen-1995-oracle-interoffice,
-tech-017,,network-security,Various,,,,aberdeen-1995-oracle-interoffice,
-tech-018,,operating-system,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-019,,operating-system,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-020,,operating-system,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-021,,gui-toolkit,Open Software Foundation,,,,aberdeen-1995-oracle-interoffice,
-tech-022,,operating-system,Apple Computer,,,,aberdeen-1995-oracle-interoffice,
-tech-023,,terminal-interface,Various,,,,aberdeen-1995-oracle-interoffice,
-tech-024,,mobile-device,"Various (Palm, HP, Casio)",,,,aberdeen-1995-oracle-interoffice,
-tech-025,,server-platform,Hewlett-Packard,,,,aberdeen-1995-oracle-interoffice,
-tech-026,,server-platform,Sun Microsystems,,,,aberdeen-1995-oracle-interoffice,
-tech-027,,server-platform,IBM Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-028,,messaging-groupware,Microsoft Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-029,,groupware-messaging,Lotus Development Corporation,,,,aberdeen-1995-oracle-interoffice,
-tech-030,,database-language,ANSI/ISO standard,,,,aberdeen-1995-oracle-interoffice,
-tech-031,,network-security,Various,,,,aberdeen-1995-oracle-interoffice,
-TECH-PROGRESS-4GL,Progress 4GL,programming-language,Progress Software,1984-present,growth,legacy,aberdeen-1995-progress-software-profile,Still in active use as OpenEdge ABL; large installed base but considered legacy for new projects.
-TECH-SMARTOBJECT,SMARTOBJECT Components,development-framework,Progress Software,1995-2005,emerging,obsolete,aberdeen-1995-progress-software-profile,Progress v8.0 object component system; superseded by OERA reference architecture and later web frameworks.
-TECH-VBX,Microsoft VBX (Visual Basic Extensions),component-framework,Microsoft,1991-1997,mainstream,obsolete,aberdeen-1995-progress-software-profile,VBX replaced by OCX/ActiveX in 1996; completely obsolete today.
-TECH-ODBC,ODBC (Open Database Connectivity),database-interface,Microsoft,1992-present,mainstream,legacy-active,aberdeen-1995-progress-software-profile,"Still widely supported but largely superseded by JDBC, ORM frameworks, and native drivers."
-TECH-CADE,Client-Server Application Development Environment (CADE),development-environment,multiple,1990-2000,mainstream,obsolete,aberdeen-1995-progress-software-profile,"Category largely displaced by web application frameworks, IDEs, and cloud-native tooling."
-TECH-RAD,Rapid Application Development (RAD),development-methodology,multiple,1991-present,mainstream,evolved,aberdeen-1995-progress-software-profile,RAD concepts evolved into Agile methodologies; still widely practiced under different names.
-CS6400,Cray CS6400 SMP Server,server hardware,Cray Research,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,SPARC-based SMP system with 4–64 CPUs; up to 5TB online storage; 1.76 GB/s internal bandwidth. Sold to Sun in 1996; evolved into Sun Enterprise 10000 (Starfire).
-SOLARIS-CX,Cray-Enhanced Solaris OS,operating system,Cray Research / Sun,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,"Sun Solaris UNIX 5.4 enhanced with processor partitioning, memory management, and hot-swap RAS features for enterprise workloads."
-SPARC,Sun SPARC Architecture,processor architecture,Sun Microsystems,mid-1990s,mature,legacy,aberdeen-1995-rdbms-cray-research-inc,"RISC processor architecture; Cray CS6400 was binary-compatible with Sun SPARC, enabling access to 10000+ ISV applications."
-SMP,Symmetric Multiprocessing,computing paradigm,multiple,mid-1990s,growth,mature,aberdeen-1995-rdbms-cray-research-inc,SMP scaling to 64 CPUs was the key architecture for high-end RDBMS workloads; succeeded by NUMA and cloud scale-out architectures.
-T3D,Cray T3D Massively Parallel Processor,server hardware,Cray Research,mid-1990s,growth,obsolete,aberdeen-1995-rdbms-cray-research-inc,MPP system using DEC Alpha chipset; for scientific workloads >5TB. Later evolved into T3E under SGI ownership.
-VLDB,Very Large Database (VLDB) Technology,database paradigm,multiple,mid-1990s,growth,mature,aberdeen-1995-rdbms-cray-research-inc,Databases at 20GB–5TB scale requiring specialized hardware. The VLDB concept is now mainstream via cloud data warehouses.
-RDBMS-PARALLEL,Parallel RDBMS (Oracle, Informix, Sybase),database software,multiple,mid-1990s,growth,mature
-TECH-SPARC,SPARC Architecture,processor-architecture,Sun/SPARC International,1987-2017,mainstream,declining,aberdeen-1995-sun-microsystems-computer-company,SPARC64 still produced by Fujitsu through ~2020; Oracle phased out SPARC chip development in 2017.
-TECH-SOLARIS,Solaris (Unix V.4),operating-system,Sun Microsystems,1992-present,mainstream,declining,aberdeen-1995-sun-microsystems-computer-company,Oracle Solaris still maintained but declining; last major release Solaris 11.4 in 2018.
-TECH-SMP,Symmetric Multiprocessing (SMP),computing-architecture,multiple,1990-present,emerging,mainstream,aberdeen-1995-sun-microsystems-computer-company,SMP became standard in server computing; foundational to modern multi-core architectures.
-TECH-HA-CLUSTER,High Availability (HA) Clustering,systems-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-sun-microsystems-computer-company,SPARCcluster HA. HA clustering became standard enterprise practice; evolved to include cloud HA.
-TECH-TPC,TPC Benchmarks,benchmark,TPC (Transaction Processing Council),1988-present,mainstream,active,aberdeen-1995-sun-microsystems-computer-company,TPC-C benchmarks referenced for commercial DB performance comparison.
-TECH-UNIX,Unix Operating System,operating-system,AT&T/multiple,1969-present,mainstream,legacy-niche,aberdeen-1995-sun-microsystems-computer-company,Commercial Unix largely displaced by Linux for new workloads; legacy deployments still active.
-TECH-RDBMS-COMM,Commercial RDBMS Workloads on Unix,workload-pattern,multiple,1990-2005,mainstream,migrated-to-linux,aberdeen-1995-sun-microsystems-computer-company,Oracle/DB2/Sybase on Unix servers was primary commercial use case; largely migrated to Linux x86 by 2010.
-TECH-RDBMS,Relational Database Management System (RDBMS),database-system,multiple,1970-present,mainstream,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,RDBMS remained dominant database paradigm; Universal Server features absorbed into mainstream RDBMS.
-TECH-UNIVERSAL-SERVER,Universal Server (Object-Relational DBMS),database-system,multiple,1995-2005,emerging,absorbed,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Universal Server concept absorbed into mainstream RDBMS by 2000; PostgreSQL remains canonical open-source implementation.
-TECH-DATABLADE,Informix DataBlade Modules,database-extension,Informix,1995-2001,emerging,legacy,aberdeen-1995-universal-servers-rdbms-technology-next-decade,DataBlade architecture for complex data type extensions; IBM maintained basic DataBlade support post-acquisition.
-TECH-OODBMS,Object-Oriented DBMS (OODBMS),database-system,multiple,1985-2005,declining,niche,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Aberdeen correctly assessed OODBMSs as niche; market voted for object-relational over pure OODBMS.
-TECH-ROLAP,Relational OLAP (ROLAP),analytics-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,ROLAP became mainstream BI architecture; now standard in data warehouse/BI platforms.
-TECH-UDT,User-Defined Data Types (UDT),database-feature,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,UDTs became standard SQL feature in SQL:1999 and beyond; foundational to PostgreSQL extension ecosystem.
-TECH-SPATIAL-DB,Spatial/Geographic Database Extensions,database-extension,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,"Spatial extensions became standard via PostGIS, Oracle Spatial, SQL Server Spatial; foundational to GIS applications."
-TECH-FULL-TEXT,Full-Text Search Database Extensions,database-extension,multiple,1995-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,"Full-text search became standard RDBMS feature; also spawned dedicated search engines (Elasticsearch, Solr)."
-TECH-INTRANET,Corporate Intranet Architecture,network-architecture,multiple,1994-present,emerging,mainstream,aberdeen-1995-universal-servers-rdbms-technology-next-decade,Intranet as database integration challenge; correctly identified as major driver for complex data type needs.
-TECH-SCRUM,SCRUM Methodology,development-methodology,ADM (Advanced Development Methods),1993-present,emerging,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,SCRUM formalized with Schwaber/Sutherland; Agile Manifesto (2001) endorsed sprint-based approach; now dominant software dev methodology worldwide.
-TECH-MATE,MATE (Methods and Tool Expert),development-tool,ADM,1993-2005,mainstream,obsolete,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,ADM flagship product with 4 modules including Product Management Facility for SCRUM; obsolete as standalone tool.
-TECH-WATERFALL,Traditional Waterfall Development Methodology,development-methodology,multiple,1970-present,mainstream,declining,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,Planning-heavy waterfall methods criticized in study; still used in regulated industries but displaced by Agile for most software.
-TECH-OOP-DEV,Object-Oriented Programming Tools,development-methodology,multiple,1990-present,emerging-in-enterprise,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,Aberdeen notes most IS organizations not yet using OOP for mission-critical apps in 1995; OOP became universal by 2000s.
-TECH-SPRINT,Sprint (SCRUM iteration unit),development-practice,ADM/Scrum Alliance,1993-present,emerging,mainstream,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,1-6 week sprint with cross-functional team delivering executable code; now standard Agile practice globally.
-TECH-WIN95,Windows 95,operating-system,Microsoft,1995-2001,new-release,obsolete,aberdeen-1995-upgrading-isv-methodology-enterprise-application-development,"Windows 95 used as ISV beta-program example; shipped August 24, 1995; 400,000 beta users. EOL December 31, 2001."
-CLIENT-SERVER,Client/Server Computing Paradigm,computing paradigm,multiple,early-to-mid 1990s,mature,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Two-tier application model dominant in early 1990s; Aberdeen argues this should be evolved rather than abandoned.
-WEB-BROWSER,Web Browser (HTML-based),client software,multiple,mid-1990s,growth,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Described as '1990s client for the masses'; server-centric execution model.
-JAVA,Java Programming Language,programming language,Sun Microsystems,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen notes Java is limited by language/class library constraints for complex OLTP in 1996; prediction was accurate for the era.
-CGI,Common Gateway Interface (CGI),web technology,multiple,mid-1990s,growth,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen notes suppliers moving away from CGI toward web-server-to-application-server partitioning; confirmed by Apache/IIS app servers.
-OLAP,Online Analytical Processing (OLAP),database / analytics,multiple,mid-1990s,growth,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Cited as best suited for client/server not browser model; confirmed — complex OLAP stayed thick-client until modern SaaS BI.
-OLTP,Online Transaction Processing (OLTP),database,multiple,mature,mature,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Complex OLTP cited as unsuitable for browser/web-server in 1996; still mostly server-side today.
-EDI,Electronic Data Interchange (EDI),integration protocol,multiple,mature,mature,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen predicts EDI will move to Internet (TCP/IP) over next 5 years from 1996; confirmed — AS2/AS4 and API-based EDI replaced traditional VAN-based EDI.
-INTRANET,Corporate Intranet,networking,multiple,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen discusses intranet as ideal for pre-defined database queries and HR applications.
-WEB-CS-TOOLS,Web-Enabled Client/Server Development Tools,development tools,multiple,mid-1990s,growth,legacy,aberdeen-1996-3com-reconciling-clientserver-development-internet,Aberdeen advocates for single Web-enabled client/server tool strategy rather than separate Internet development tools.
-APP-SERVER,Web-Server-to-Application-Server Architecture,application architecture,multiple,mid-1990s,emerging,mature,aberdeen-1996-3com-reconciling-clientserver-development-internet,"Aberdeen notes trend away from CGI toward app-server partitioning; this became the dominant n-tier architecture (WebSphere, IIS, Tomcat)."
-APET,Advanced Planning Engine Technologies (APET),planning software,multiple,mid-1990s,growth,mature,aberdeen-1996-advanced-planning-engines-white-paper,Aberdeen's term for constraint-based planning/scheduling systems; evolved into modern APS (Advanced Planning and Scheduling) and S&OP software.
-MRP,Material Requirements Planning (MRP),manufacturing planning,multiple,1970s-mature,mature,legacy,aberdeen-1996-advanced-planning-engines-white-paper,First-generation manufacturing planning; criticized for infinite capacity assumptions and inability to optimize. APET positioned as successor.
-MRP2,Manufacturing Resource Planning (MRP II),manufacturing planning,multiple,1980s,mature,legacy,aberdeen-1996-advanced-planning-engines-white-paper,Second-generation MRP; APET positioned to replace MRP II modules for master scheduling and capacity planning.
-RHYTHM-I2,i2 Technologies Rhythm Family,supply chain software,i2 Technologies,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"i2's flagship APET product line including Master Planner, Factory Planner, Distribution Planner, Scheduler, Forecast Planner. Acquired by JDA 2010."
-RESPONSEAGENT,Red Pepper ResponseAgent,supply chain software,Red Pepper Software,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,Agent-based APET using in-memory optimization; acquired by PeopleSoft 1996 for $225M; became foundation of PeopleSoft Manufacturing module.
-ENSYNC,FACT Inc. EnSync Family,supply chain software,FACT Inc.,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Client/server APET with Synchronizer, Coordinator, Operator, Optimizer modules."
-MANU-SUITE,Manugistics Planning Suite,supply chain software,Manugistics,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Integrated demand planning, manufacturing planning, transportation planning, distribution planning. Acquired by JDA 2006."
-NUMETRIX-SOL,Numetrix Solution Family,supply chain software,Numetrix,mid-1990s,growth,obsolete,aberdeen-1996-advanced-planning-engines-white-paper,"Five modules including Linx, Planx, Schedulex, SCI/SCV, 3D (Dynamic Deployment & Distribution)."
-AMSOFTWARE-SCP,American Software Supply Chain Planning,supply chain software,American Software,mid-1990s,growth,legacy,aberdeen-1996-advanced-planning-engines-white-paper,"Supply Chain Planning, Visual Planning Workstation, Flow Manufacturing suite. Still active as Logility."
-SUPPLY-CHAIN-MGMT,Supply Chain Management (SCM),business category,multiple,mid-1990s,emerging,mature,aberdeen-1996-advanced-planning-engines-white-paper,The broader category that APET belongs to; became standard enterprise software category by late 1990s.
-CLIENT-SERVER-APET,Client/Server APET Architecture,technology architecture,multiple,mid-1990s,growth,legacy,aberdeen-1996-advanced-planning-engines-white-paper,APET systems deployed as client/server using Windows PCs and UNIX servers with RDBMS backends.
-OBJECT-ORIENTED,Object-Oriented Design,software development,multiple,mid-1990s,growth,mature,aberdeen-1996-advanced-planning-engines-white-paper,Many APET products designed using OO technology for improved usability and flexibility.
-SMARTSTREAM-DE,SmartStream Distributed Enterprise v4.0,ERP software,D&B Software,mid-1990s,growth,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Full suite of line-of-business CSS for finance, manufacturing/distribution, procurement, HR, decision support. v4.0 based on Sybase 11.1, MS SQL Server 6.5, PowerBuilder 4.02, PowerPlay 4.1, MS Access 2.0. Abandoned by Geac after 1998 acquisition."
-SYBASE-REPSERVER,Sybase Replication Server,RDBMS / replication,Sybase,mid-1990s,growth,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used by SmartStream DE to propagate security and business process tables across distributed locations.
-POWERBUILDER,PowerSoft PowerBuilder,development tools,PowerSoft / Sybase,mid-1990s,mature,legacy,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used by D&B Software for SmartStream DE application development. PowerSoft acquired by Sybase in 1994.
-SYBASE-SQL11,Sybase System 11.1,RDBMS,Sybase,mid-1990s,current,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Underlying RDBMS for SmartStream DE v4.0; stored procedures and triggers central to architecture.
-MS-SQL-65,Microsoft SQL Server 6.5,RDBMS,Microsoft,mid-1990s,current,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Co-primary RDBMS for SmartStream DE; SQL Server 6.5 released 1995.
-COGNOS-POWERPLAY,Cognos PowerPlay 4.1,decision support / OLAP,Cognos,mid-1990s,mature,legacy,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used for decision support in SmartStream DE. Cognos acquired by IBM in 2008.
-MS-ACCESS,Microsoft Access 2.0,desktop database,Microsoft,mid-1990s,mature,legacy,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Used for query and reporting in SmartStream DE.
-WORKFLOW-TECH,Workflow Technology,BPM software,D&B Software,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Three-form workflow: Production (Activity Manager), Administrative (Intelligent Agents), Ad Hoc. Aberdeen notes D&B pioneered integrated workflow vs. SAP/Oracle still developing theirs in 1996."
-DISTRIBUTED-CSS,Distributed Client/Server Architecture,application architecture,D&B Software,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,SmartStream DE's server-centric two-tier architecture with distributed data via Sybase replication; business logic primarily server-based.
-ERP-CSS,Enterprise Resource Planning (ERP) / CSS,software category,multiple,mid-1990s,growth,mature,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,"Client/server ERP market contested by SAP, Oracle, PeopleSoft, D&B Software, SSA and others in 1996."
-MILLENNIUM-SERIES,D&B Software Millennium (M) Series,mainframe software,D&B Software,legacy,legacy,obsolete,aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better,Legacy mainframe application suite; D&B Software committed to supporting as long as customer demand exists. 80%+ maintenance renewal rate.
-AS400,IBM AS/400,midrange computing,IBM,late-1980s to 1990s,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,"IBM midrange platform; rebranded iSeries (2000), System i (2006), IBM Power Systems (2008). Still active as IBM i on Power."
-OS400V3,OS/400 Version 3,operating system,IBM,mid-1990s,current,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,Latest OS/400 release at time of study; declared Year 2000 safe by IBM. OS/400 eventually became IBM i.
-SYSTEM3X,IBM System/3X (System/36, System/38),legacy midrange,IBM,1969-1988,legacy,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users
-YEAR2000-TECH,Year 2000 Date Remediation Technology,software methodology,multiple,mid-1990s,emerging,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users,"Date windowing algorithms, 4-digit date expansion, and assessment tools for Y2K compliance."
-DATE-WINDOWING,100-Year Date Window Algorithm,software technique,IBM,mid-1990s,growth,obsolete,aberdeen-1996-as400-year-2000-ibm-leading-users,IBM AS/400 uses fixed 100-year window (1940-2039) to resolve 2-digit year ambiguity; published by IBM for use in new/migrated applications.
-MAINFRAME,IBM Mainframe (zSeries predecessors),mainframe computing,IBM,mature,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,Study contrasts AS/400 Y2K approach with mainframe environments; mainframes faced similar Y2K challenges.
-VMS,DEC VMS Operating System,operating system,Digital Equipment Corporation,mature,mature,legacy,aberdeen-1996-as400-year-2000-ibm-leading-users,VMS cited as one of the operating environments facing Y2K challenges alongside AS/400.
-UNIX-SERVERS,UNIX Server Platforms,operating system / hardware,multiple,mature,mature,mature,aberdeen-1996-as400-year-2000-ibm-leading-users,UNIX cited alongside AS/400 as one of the environments needing Y2K remediation.
-risc-unix,RISC/Unix Platform (general),platform,Multiple,1987-2005,mature,legacy-supported,aberdeen-1996-risc-unix-market,"Subject of study; commercial multiuser systems for OLTP, decision support, batch processing"
-hp-9000,HP 9000 Series,platform,Hewlett-Packard,1984-2008,mature,obsolete,aberdeen-1996-risc-unix-market,Market-leading RISC/Unix server line; largest installed base; K-Class and D-Class introduced in 1995
-hp-ux-9,HP-UX 9,platform,Hewlett-Packard,1992-1995,declining,obsolete,aberdeen-1996-risc-unix-market,Previous HP-UX release; transition to HP-UX 10 in 1995 was well supported with upgrade utilities
-hp-ux-10,HP-UX 10,platform,Hewlett-Packard,1995-2003,emerging,obsolete,aberdeen-1996-risc-unix-market,Included production features beyond original Unix design; well-managed 1995 transition from HP-UX 9
-rs6000-sp,IBM RS/6000 SP (SP2),platform,IBM,1993-2003,emerging,obsolete,aberdeen-1996-risc-unix-market,Massively parallel processor (MPP) system; approximately 50% of IBM RISC/Unix growth in 1995; formerly SP2
-rs6000,IBM RS/6000,platform,IBM,1990-2000,mature,obsolete,aberdeen-1996-risc-unix-market,IBM's primary RISC/Unix workstation and server line; transitioned to pSeries
-powerpc-601,PowerPC 601 Processor,platform,IBM/Motorola/Apple (AIM alliance),1993-1996,mature,obsolete,aberdeen-1996-risc-unix-market,Used in RS/6000 systems; customers had to buy additional 601-based systems when 604 upgrade was delayed
-powerpc-604,PowerPC 604 Processor,platform,IBM/Motorola/Apple (AIM alliance),1994-1997,emerging,obsolete,aberdeen-1996-risc-unix-market,IBM failed to deliver promised mid-1995 upgrade for RS/6000 PowerPC 601 systems; delay hurt IBM's 1995 outlook
-solaris,Sun Solaris,platform,Sun Microsystems,1991-2018,emerging,obsolete,aberdeen-1996-risc-unix-market,Established as production-ready OS in 1995; Solaris 9 (64-bit UltraSPARC) transition anticipated for 1996
-ultrasparc,UltraSPARC Processor,platform,Sun Microsystems,1995-2010,emerging,obsolete,aberdeen-1996-risc-unix-market,64-bit SPARC successor; anticipated 1996 transition caused some dampening of Sun 1995 growth
-alpha-processor,Alpha Processor (DEC),platform,Digital Equipment Corporation,1992-2004,emerging,obsolete,aberdeen-1996-risc-unix-market,"64-bit fast-clock-rate processor; enabled TPC-C world record of 11,000+ tpmC in conjunction with Oracle"
-sparc,SPARC Architecture,platform,SPARC International / Sun Microsystems,1987-2017,mature,obsolete,aberdeen-1996-risc-unix-market,"Used by Sun, ICL/Fujitsu (licensed); ICL's Teamserver and Superserver SMP platforms"
-aix,IBM AIX,platform,IBM,1986-present,mature,active,aberdeen-1996-risc-unix-market,IBM's Unix OS for RS/6000; also licensed by Bull for its Escala line
-servernet,ServerNet (Tandem),protocol,Tandem Computers,1994-2001,emerging,obsolete,aberdeen-1996-risc-unix-market,Very advanced interconnect technology; delivery delays after announcement limited Tandem's 1995 growth
-clariion,Clariion Storage Array,platform,Data General,1992-2013,emerging,obsolete,aberdeen-1996-risc-unix-market,Data General storage subsystem; gaining acceptance outside DG Aviion base in 1995; later acquired by EMC
-motorola-88000,Motorola 88000 Processor,platform,Motorola,1988-1996,declining,obsolete,aberdeen-1996-risc-unix-market,Used in Data General Aviion; DG beginning transition away from 88000 to all-Intel design in 1995
-intel-pentiumpro,Intel PentiumPro Processor,platform,Intel,1995-1999,emerging,obsolete,aberdeen-1996-risc-unix-market,May significantly improve performance of Intel-based commercial multiuser systems in 1996; watched nervously by RISC/Unix suppliers
-windows-nt-server,Microsoft Windows NT Server,platform,Microsoft,1993-2000,emerging,obsolete,aberdeen-1996-risc-unix-market,NT 4.0 not expected until April 1996; scalability and stability issues prevented enterprise production use in 1995; expected to complement RISC/Unix
-backoffice,Microsoft BackOffice,application,Microsoft,1994-2000,emerging,obsolete,aberdeen-1996-risc-unix-market,Bundle most appropriate for NT-based production applications; late to market; technical difficulties in 1995; expected to serve workgroup role
-novell-netware,Novell NetWare,platform,Novell,1983-2009,mature,obsolete,aberdeen-1996-risc-unix-market,Dominant workgroup network OS; RISC/Unix suppliers required to provide NetWare interoperability support
-rdbms-general,RDBMS (Relational Database Management System),application,"Multiple (Oracle, Informix, Sybase)",1979-present,mature,active,aberdeen-1996-risc-unix-market,"Key driver of RISC/Unix adoption; data warehousing use growing 6-7x in 18 months; Oracle, Informix, Sybase were top three suppliers"
-sap-r3,SAP R/3,application,SAP,1992-2015,emerging,legacy-supported,aberdeen-1996-risc-unix-market,Integrated enterprise ERP application; implementations predominantly on RISC/Unix; SNI highlighted as SAP R/3 systems integrator in Europe
 tpc-c-benchmark,TPC-C Benchmark,framework,Transaction Processing Performance Council,1992-present,mature,active,aberdeen-1996-risc-unix-market,"Industry-standard OLTP benchmark (tpmC); Digital/Oracle set world record of 11,000+ tpmC in 1995"
-smp,SMP (Symmetric Multiprocessing),platform,Multiple,1988-present,mature,active,aberdeen-1996-risc-unix-market,Key RISC/Unix scalability technology; Sun established SMP credibility for commercial workloads in 1995; Sequent focused on high-end SMP for data warehousing
-mpp,MPP (Massively Parallel Processing),platform,"Multiple (IBM RS/6000 SP, HP EPS, ICL Goldrush, Tandem, Cray)",1990-2005,emerging,legacy-supported,aberdeen-1996-risc-unix-market,Key growth technology for high-end RISC/Unix; IBM SP was major 1995 growth driver; one of four 1996 product agenda items for all suppliers
-data-warehousing,Data Warehousing,application,Multiple,1992-present,emerging,active,aberdeen-1996-risc-unix-market,Data warehouse databases growing 6-7x in 18 months; RISC/Unix-RDBMS combination key for enterprise data strategy
-client-server,Client-Server Architecture,framework,Multiple,1988-2000,mature,legacy-supported,aberdeen-1996-risc-unix-market,Windows 3.1/PC thin client + RISC/Unix RDBMS server became the standard for OLTP in 1995; multi-tier architecture promoted by IBM ISSC
-hp-intel-architecture,HP/Intel Joint Processor Architecture (IA-64 / Itanium),platform,Hewlett-Packard / Intel,1994-2021,emerging,obsolete,aberdeen-1996-risc-unix-market,Joint HP and Intel microprocessor architecture effort; delivery expected 1998 per study; eventually became Itanium; discontinued 2021
-64-bit-unix,64-bit Unix Operating Environment,platform,Multiple,1995-2010,emerging,active,aberdeen-1996-risc-unix-market,HP promised 64-bit systems in Q2 1996; IBM not until 1998; all major suppliers except IBM expected to move to 64-bit in 1996; NT not expected to follow for at least 4 more years
+tpcc-benchmark,TPC-C Benchmark,framework,TPC Council,1992-present,mature,active,aberdeen-1996-debunking-ntsmp-scalability-myth,OLTP benchmark; tpmC (transactions per minute C); used to segment server market by performance tier
+transcend-enterprise-manager,Transcend Enterprise Manager,application,3Com,1994-2000,emerging,obsolete,aberdeen-1995-3com-lanplex-2500,"Flagship network management application. Supported HP OpenView, Sun NetManager, and IBM NetView platforms. Windows version expected Q4 1995."
+tuxedo,Tuxedo TP Monitor,platform,AT&T / Novell / BEA / Oracle,1984-present,mature,legacy-supported,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,TP monitor integrated with MQSeries for transactional messaging; now Oracle Tuxedo
+ultrasparc,UltraSPARC Processor,platform,Sun Microsystems,1995-2010,emerging,obsolete,aberdeen-1996-risc-unix-market,64-bit SPARC successor; anticipated 1996 transition caused some dampening of Sun 1995 growth
+virtual-lan,Virtual LAN (VLAN),protocol,multi-vendor,1995-present,emerging,active,aberdeen-1995-3com-lanplex-2500,LANplex 2500 supported VLANs via port groups and MAC address groups. Cited as key user requirement.
+visual-basic,Microsoft Visual Basic,language,Microsoft,1991-present,mature,legacy-supported,aberdeen-1995-commercial-messaging,Dominant Fortune-1000 departmental development tool alongside PowerBuilder; now VB.NET (active) and VB6 (legacy)
+visualage,IBM VisualAge,application,IBM,1993-2001,emerging,obsolete,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,IBM development toolset integrating with MQSeries alongside VisualGen
+visualgen,IBM VisualGen,application,IBM,1993-2000,emerging,obsolete,aberdeen-1995-commercial-messaging,IBM development toolset integrating with MQSeries
+visualizer,,reporting-tool,,,,,aberdeen-1995-ibm-db2-common-server,
+vpn-services,Virtual Private Network (VPN) Services,framework,Multiple / MFS,1993-present,emerging,active,aberdeen-1996-vpns-business-mfs-success-strategy,VPN over SONET/ATM; MFS provided integrated LAN/WAN VPN for business; evolved to IP-VPN/MPLS/SD-WAN
+vram,VRAM (Video RAM),platform,various,1986-2000,mature,obsolete,aberdeen-1995-digital-multia,2 MB VRAM on Multia Intel S3 graphics card
+vt-340-420-terminal-emulation,VT 340/420 Terminal Emulation,application,Digital Equipment Corporation,1988-present,mature,legacy-supported,aberdeen-1995-digital-multia,Embedded VT terminal emulation for DEC host access; pre-configured on Multia
+wave-service,MFS WAVE (Wide Area Voice Exchange),application,MFS Communications,1995-1996,emerging,obsolete,aberdeen-1996-vpns-business-mfs-success-strategy,Integrated voice+data on single T-1; 20-25% cost savings; VBR voice over ATM; first VBR voice with toll-quality fidelity
+web-enabler,Web Enabler,application,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,"OMNIS extension adding TCP, FTP, SMTP, POP3, HTTP and HTML capabilities"
+web-manager,Web Manager,application,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Version control and change management for Net applications; earliest web CMS concept
+web-vault,Web Vault,application,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Database middleware providing secure web-to-RDBMS access; predecessor to modern API gateways
+weblets,Weblets,framework,Blyth Software,1996-2001,emerging,obsolete,aberdeen-1996-blyths-ren-architecture-prescription-it-success,Reusable plug-in components for Net apps; precursor to modern web component ecosystems
+windows-95,Windows 95,platform,Microsoft,1995-2001,emerging,obsolete,aberdeen-1995-commercial-messaging; aberdeen-1995-digital-multia,MQSeries support described as upcoming at time of study
+windows-gui,Windows GUI (3.1 / NT),,,,,,aberdeen-1995-ibm-as400-sap-r3,"SAP R/3 presentation layer supports Windows 3.1, Windows NT, and OS/2 GUIs simultaneously"
+windows-nt,Windows NT,platform,Microsoft,1993-2000,emerging,obsolete,aberdeen-1995-commercial-messaging; aberdeen-1995-ibm-db2-common-server,MQSeries support described as upcoming at time of study
+windows-nt-3-51,Microsoft Windows NT Workstation 3.51,platform,Microsoft,1995-1997,emerging,obsolete,aberdeen-1995-digital-multia,Base OS for Multia; provided multitasking and stability; succeeded by Windows NT 4.0 in 1996
+windows-nt-4,Windows NT Server 4.0,platform,Microsoft,1996-2003,emerging,obsolete,aberdeen-1996-debunking-ntsmp-scalability-myth,NT 4.0 included SMP enhancements; evolved into Windows 2000 Server then Windows Server 2003+
+windows-nt-server,Windows NT Server,platform,Microsoft,1993-2003,emerging,obsolete,aberdeen-1996-data-general-corporation; aberdeen-1996-risc-unix-market,Three-tier architecture middle-tier for SAP R/3 at DG; evolved into Windows Server 2003+
+x-open-cli,,API,,,,,aberdeen-1995-ibm-db2-common-server,
+x-serial-line-protocol,X Serial Line Protocol,protocol,X Consortium,1990-2000,mature,obsolete,aberdeen-1995-digital-multia,X session protocol for Unix environment access; included in Multia
+x11-r6,X11 R6 / X Window System,framework,X Consortium,1987-present,mature,legacy-supported,aberdeen-1995-digital-multia,Multia X Server supplies X11.R6 functions; Wayland gradually replacing X11 on Linux
+x400,X.400 Electronic Mail Protocol,protocol,ITU / ISO,1984-2000,mature,obsolete,aberdeen-1995-commercial-messaging,1980s store-and-forward email API market; predecessor context for Commercial Messaging market sizing below $100M

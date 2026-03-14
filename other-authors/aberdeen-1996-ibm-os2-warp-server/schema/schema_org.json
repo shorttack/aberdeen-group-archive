@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM's OS/2 Warp Server: The Whole is Greater Than the Sum of the Parts",
+  "description": "Aberdeen Group evaluates IBM's newly released OS/2 Warp Server, arguing it combines the networking strengths of Novell NetWare with the application strengths of Microsoft NT Server plus integrated directory and security services via a DCE-based Directory and Security Server (DSS) add-on. The study contends that OS/2 Warp Server is at least a year ahead of competitors in delivering an integrated, enterprise-wide NOS with objects, distributed directory services, and network security.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-02-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "OS/2 Warp Server",
+    "IBM",
+    "network operating system",
+    "NetWare",
+    "NT Server",
+    "DCE",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result",
+    "actual-outcome"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Historical Research Archive"
+  }
+}

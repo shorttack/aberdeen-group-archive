@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Oracle's Network Computing Architecture",
+  "description": "Aberdeen Group evaluates Oracle's Network Computing Architecture (NCA), a comprehensive framework integrating multi-tier client-server, Internet, and distributed-object technologies through a 'cartridge' component model and Inter-Cartridge Exchange (ICX) middleware based on CORBA. The study concludes that NCA is not a 'marketecture' but a substantive extension of proven Oracle products providing a least-cost migration path to mission-critical 21st-century transaction processing, and recommends ISVs and enterprise IS factor it into their 1-2 year technology strategies.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970604113530/http://www.aberdeen.com:80/secure/profiles/oraclnca/orclnca.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Oracle",
+    "Network Computing Architecture",
+    "NCA",
+    "CORBA",
+    "cartridge",
+    "distributed objects",
+    "internet architecture",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996/1997",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "framework-factor"
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Archival Research Collection 1996"
+  }
+}

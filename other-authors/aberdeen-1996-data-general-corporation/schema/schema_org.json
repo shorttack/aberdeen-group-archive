@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Data General Corporation \u2014 Aberdeen Group Company Profile",
+  "description": "Aberdeen Group profiles Data General Corporation's strategy of delivering integrated open-systems solutions through deep ISV partnerships with SAP, Oracle, and PeopleSoft, anchored by its AViiON UNIX/NT servers and CLARiiON storage subsystems. The study documents DG's revenue mix transformation from proprietary minicomputers to over 90% open-systems revenues, and validates partner and customer satisfaction through primary interviews. Aberdeen concludes DG has found a sustainable balance between responsiveness and global scale.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Data General",
+    "AViiON",
+    "CLARiiON",
+    "SAP R3",
+    "PeopleSoft",
+    "Oracle",
+    "enterprise computing",
+    "open systems",
+    "1996",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "1994/1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

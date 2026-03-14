@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"aviion-unix-server","AViiON UNIX Server","platform","Data General","1989-1999","mature","obsolete","aberdeen-1996-data-general-corporation","Intel-based SMP servers running DG/UX; discontinued after EMC acquisition"
+"clariion-storage","CLARiiON Storage Subsystem","platform","Data General / EMC","1992-2012","emerging","obsolete","aberdeen-1996-data-general-corporation","Survived DG acquisition; continued under EMC until 2012; evolved into VNX platform"
+"sap-r3","SAP R/3","application","SAP AG","1992-2010","emerging","legacy-supported","aberdeen-1996-data-general-corporation","Three-tier ERP suite; evolved into ERP Central Component and later S/4HANA"
+"dgux-os","DG/UX Operating System","platform","Data General","1984-1999","mature","obsolete","aberdeen-1996-data-general-corporation","UNIX System V.4 derivative with embedded SMP and B2-level security; discontinued 1999"
+"windows-nt-server","Windows NT Server","platform","Microsoft","1993-2003","emerging","obsolete","aberdeen-1996-data-general-corporation","Three-tier architecture middle-tier for SAP R/3 at DG; evolved into Windows Server 2003+"
+"oracle-7x-rdbms","Oracle 7.x RDBMS","application","Oracle Corporation","1992-1999","mature","obsolete","aberdeen-1996-data-general-corporation","Backend database for SAP R/3 and PeopleSoft implementations on AViiON"

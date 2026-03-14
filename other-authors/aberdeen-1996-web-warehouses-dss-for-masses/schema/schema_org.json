@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Web Warehouses: DSS For The Masses",
+  "description": "Aberdeen Group argues that the combination of the World Wide Web, Relational OLAP, and parallel-scalable hardware will 'democratize' enterprise data warehousing by dramatically reducing per-seat decision support costs (Web browser at ~$50/seat vs. $1,000/seat for traditional DSS software). The study analyzes Web-based decision support architecture, identifies hurdles to enterprise adoption (security, CGI bottlenecks, browser immaturity), and concludes that Web-enabled warehouses will transform enterprise competitive behavior.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-03-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "web warehouse",
+    "ROLAP",
+    "decision support",
+    "data warehousing",
+    "thin client",
+    "browser BI",
+    "Aberdeen Group",
+    "1996",
+    "internet"
+  ],
+  "temporalCoverage": "1996/1996",
+  "variableMeasured": [
+    "viability-prediction",
+    "technology-assessment",
+    "framework-factor",
+    "expert-opinion",
+    "market-data",
+    "strategy-classification"
+  ]
+}

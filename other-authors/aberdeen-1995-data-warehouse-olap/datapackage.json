@@ -1,0 +1,154 @@
+{
+  "id": "aberdeen-1995-data-warehouse-olap",
+  "name": "aberdeen-1995-data-warehouse-olap",
+  "title": "Data Warehouse Query Tools: Evolving to Relational OLAP",
+  "description": "Frictionless Data Package archiving Aberdeen Group Market Viewpoint Vol.8 No.8 (July 1995). Analyzes the evolution of data warehouse query tools toward Relational OLAP (ROLAP), examining multidimensional analysis, vendor competitive strategies, and the convergence of OLAP and relational database technologies. Contains structured extractions of entities, technologies, and observations from the original study.",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "licenses": [
+    {
+      "name": "ODC-By",
+      "title": "Open Data Commons Attribution License",
+      "path": "https://opendatacommons.org/licenses/by/1-0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Data Warehouse Query Tools: Evolving to Relational OLAP",
+      "author": "Aberdeen Group",
+      "date": "1995-07-01",
+      "path": "https://web.archive.org/web/19970112010847/http://www.aberdeen.com:80/secure/viewpnts/v8n8/v8n8.htm",
+      "description": "Original Aberdeen Group Market Viewpoint, Volume 8/Number 8, July 7, 1995. Archived via Wayback Machine."
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "OLAP",
+    "ROLAP",
+    "data warehousing",
+    "business intelligence",
+    "multidimensional database",
+    "decision support",
+    "1990s technology",
+    "Aberdeen Group",
+    "MicroStrategy",
+    "Essbase"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "title": "Studies",
+      "description": "Master record for the Aberdeen Group research study captured in this package.",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique identifier for the study"},
+          {"name": "title", "type": "string", "constraints": {"required": true}, "description": "Full title of the study"},
+          {"name": "author", "type": "string", "constraints": {"required": true}, "description": "Authoring organization"},
+          {"name": "date", "type": "date", "format": "%Y-%m-%d", "constraints": {"required": true}, "description": "Publication date"},
+          {"name": "doc_type", "type": "string", "description": "Document type code (see codes.csv)"},
+          {"name": "domain", "type": "string", "description": "Subject domain code (see codes.csv)"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes (see codes.csv)"},
+          {"name": "abstract", "type": "string", "description": "Summary of study content and findings"},
+          {"name": "source_url", "type": "string", "format": "uri", "description": "URL to archived or original source"},
+          {"name": "pages", "type": "integer", "description": "Total page count of source document"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "title": "Entities",
+      "description": "Organizations (vendors, research firms, hardware companies) mentioned in the study, with current status as of 2026.",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique entity identifier (ent-NN)"},
+          {"name": "entity_name", "type": "string", "constraints": {"required": true}, "description": "Full organization name as referenced in study"},
+          {"name": "entity_type", "type": "string", "description": "Entity type code (see codes.csv)"},
+          {"name": "sector", "type": "string", "description": "Business sector of the entity"},
+          {"name": "status", "type": "string", "description": "Current status: active, acquired, merged, discontinued"},
+          {"name": "successor", "type": "string", "description": "Successor organization if acquired or merged"},
+          {"name": "years_active", "type": "string", "description": "Approximate active years (YYYY-YYYY or YYYY-present)"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "Foreign key to studies.csv"},
+          {"name": "notes", "type": "string", "description": "Additional context, acquisition details, and role in study"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "title": "Technologies",
+      "description": "Technologies, products, standards, and methodologies discussed in the study, including lifecycle status at publication and as of 2026.",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique technology identifier (tech-NN)"},
+          {"name": "tech_name", "type": "string", "constraints": {"required": true}, "description": "Technology or product name"},
+          {"name": "category", "type": "string", "description": "Technology category code (see codes.csv)"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or standards body; 'multiple' for generic technologies"},
+          {"name": "era", "type": "string", "description": "Active years or date range"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Technology lifecycle stage at time of study (1995)"},
+          {"name": "lifecycle_current", "type": "string", "description": "Technology lifecycle stage as of 2026"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "Foreign key to studies.csv"},
+          {"name": "notes", "type": "string", "description": "Additional context and role in study"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "title": "Observations",
+      "description": "All factual claims, market data, predictions, assessments, and benchmarks extracted from the study. Each row represents a discrete observation traceable to a source page.",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "constraints": {"required": true, "unique": true}, "description": "Unique observation identifier (obs-NN)"},
+          {"name": "study_id", "type": "string", "constraints": {"required": true}, "description": "Foreign key to studies.csv"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities.csv (nullable if not entity-specific)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies.csv (nullable if not tech-specific)"},
+          {"name": "observation_type", "type": "string", "constraints": {"required": true}, "description": "Type of observation (see codes.csv)"},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation applies to"},
+          {"name": "metric_name", "type": "string", "description": "Name of metric or topic being observed"},
+          {"name": "metric_value", "type": "string", "description": "Value, finding, or description of the observation"},
+          {"name": "confidence", "type": "string", "description": "Confidence level: high, medium, low"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology code from codes.csv (QUAL, BENCH, SURV, COMP)"},
+          {"name": "source_page", "type": "integer", "description": "PDF page number where observation appears"},
+          {"name": "notes", "type": "string", "description": "Verbatim or paraphrased supporting text from source"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}},
+          {"fields": ["entity_id"], "reference": {"resource": "entities", "fields": ["entity_id"]}},
+          {"fields": ["tech_id"], "reference": {"resource": "technologies", "fields": ["tech_id"]}}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "title": "Reference Codes",
+      "description": "Controlled vocabulary and reference codes used across all other tables in the data package.",
+      "schema": {
+        "fields": [
+          {"name": "code_type", "type": "string", "constraints": {"required": true}, "description": "Category of the code (e.g. observation_type, methodology_code)"},
+          {"name": "code", "type": "string", "constraints": {"required": true}, "description": "Code value used in data tables"},
+          {"name": "label", "type": "string", "constraints": {"required": true}, "description": "Human-readable label for the code"},
+          {"name": "description", "type": "string", "description": "Extended description of the code's meaning and usage"}
+        ],
+        "primaryKey": ["code_type", "code"]
+      }
+    }
+  ]
+}

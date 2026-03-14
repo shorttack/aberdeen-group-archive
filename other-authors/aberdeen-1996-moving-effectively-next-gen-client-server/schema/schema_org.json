@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Moving Effectively To Next-Generation Client-Server Development",
+  "description": "Aberdeen Group white paper, sponsored by Gupta Technologies, argues that first-generation client-server application development environments (CADEs) such as Visual Basic and PowerBuilder are 'topping out' and recommends immediate adoption of next-generation CADEs. The study provides an evaluation framework for next-generation CADE selection and positions Gupta's Centura product as the leading choice for organizations migrating from first-generation toolsets.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-01-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://web.archive.org/web/19970112011022/http://www.aberdeen.com:80/secure/whtpaper/gupta/gupta.htm",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "CADE",
+    "client-server",
+    "Gupta",
+    "Centura",
+    "PowerBuilder",
+    "Visual-Basic",
+    "Aberdeen Group",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Moving Effectively To Next-Generation Client-Server Development",
+    "datePublished": "1996-01-12",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Aberdeen Strategy & Research,1988-2001,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,Published this Market Viewpoint; Vol 9 No 16
+ncr-corporation,NCR Corporation,company,data-warehousing,active,,1884-present,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,Cited as leading supplier of industry-specific data warehouse templates and consulting; Teradata division; still active
+tandem-computers,Tandem Computers Inc.,company,enterprise-computing,acquired,Compaq -> HP,1974-1997,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,"Cited as data warehouse template supplier; acquired by Compaq 1997, then HP 2002"
+prism-solutions,Prism Solutions,company,data-transformation,acquired,Evolutionary Technologies International,1991-1999,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,Data transformation specialist cited as key supplier for enterprise data mart initiatives; acquired circa 1999
+red-brick-systems,Red Brick Systems,company,data-warehousing,acquired,Informix -> IBM,1988-1999,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,"Cited as RDBMS supplier for data marts; acquired by Informix 1999, then IBM"
+sybase,Sybase Inc.,company,database-software,acquired,SAP SE (2010),1984-2010,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,Cited as RDBMS supplier for data mart and warehouse technologies; acquired by SAP in 2010
+oracle,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-enterprise-data-knowledge-integrated-data-marts,Leading RDBMS vendor for data warehouses; Aberdeen cites as key technology foundation

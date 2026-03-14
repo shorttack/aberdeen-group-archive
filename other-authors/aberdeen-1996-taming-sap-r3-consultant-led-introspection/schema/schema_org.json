@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Taming SAP R/3 With Consultant-Led Enterprise Introspection",
+  "description": "Aberdeen Group's Viewpoint argues that successful SAP R/3 implementations require enterprise introspection before deployment: organizations must honestly evaluate their need for change, ability to adopt R/3 best practices, and internal resource availability. The study introduces a three-question framework for determining implementation path, critiques both 'Big Bang' and 'blue-sky' reengineering approaches, and recommends consultant-led strategic analysis to determine the correct path and budget before R/3 deployment.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-05-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "ERP-implementation",
+    "Aberdeen Group",
+    "1996",
+    "IT research"
+  ],
+  "temporalCoverage": "1996",
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "actual-outcome",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "1997-distributed-object-technology--dead-3cf2d1",
+  "title": "Distributed Object Technology: Dead Skunk Or Live Wire",
+  "description": "Aberdeen Group Technology Viewpoint (Volume 10/Number 16) assessing distributed object technology middleware in 1997. Argues DOT is simultaneously over-hyped and strategically essential, identifying CORBA/DCOM standards conflict and product immaturity as key barriers.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "sources": [
+    {
+      "title": "Aberdeen Group Technology Viewpoint Vol 10/No 16 (Wayback Machine)",
+      "path": "https://web.archive.org/web/19980131061426/http://www.aberdeen.com:80/research/abstract/97080139.htm"
+    }
+  ],
+  "contributors": [
+    {"title": "Jeanine Fournier", "role": "author"},
+    {"title": "Aberdeen Group", "role": "publisher"}
+  ],
+  "keywords": ["distributed object technology", "CORBA", "DCOM", "middleware", "enterprise IS", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "date"},
+          {"name": "type", "type": "string"},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "abstract", "type": "string"},
+          {"name": "license", "type": "string"},
+          {"name": "importance", "type": "integer"},
+          {"name": "importance_rationale", "type": "string"},
+          {"name": "relevance", "type": "integer"},
+          {"name": "relevance_rationale", "type": "string"},
+          {"name": "prescience", "type": "integer"},
+          {"name": "prescience_rationale", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string"},
+          {"name": "entity_name", "type": "string"},
+          {"name": "entity_type", "type": "string"},
+          {"name": "sector", "type": "string"},
+          {"name": "status", "type": "string"},
+          {"name": "successor", "type": "string"},
+          {"name": "years_active", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string"},
+          {"name": "tech_name", "type": "string"},
+          {"name": "category", "type": "string"},
+          {"name": "vendor", "type": "string"},
+          {"name": "era", "type": "string"},
+          {"name": "lifecycle_at_study", "type": "string"},
+          {"name": "lifecycle_current", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "entity_id", "type": "string"},
+          {"name": "tech_id", "type": "string"},
+          {"name": "observation_type", "type": "string"},
+          {"name": "year_observed", "type": "integer"},
+          {"name": "metric_name", "type": "string"},
+          {"name": "metric_value", "type": "string"},
+          {"name": "confidence", "type": "string"},
+          {"name": "methodology_code", "type": "string"},
+          {"name": "source_page", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "1997-ibm-when-a-pc-is-simply-platform-ov-5e9364",
+  "title": "When a PC is Simply Platform Overkill: IBM's Network Station Alternative — Aberdeen Group Profile (1997)",
+  "description": "Frictionless Data Package archiving Aberdeen Group's 1997 evaluation of IBM's Network Station thin client vs. PC: technology, cost analysis ($695 NC vs $2,000+ PC; $4,000-$15,000/year support), and the broader Network Computer movement involving IBM, Oracle, Sun, Apple, and Netscape.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Profile: When a PC is Simply Platform Overkill — IBM's Network Station Alternative",
+      "path": "https://web.archive.org/web/19970604112915/http://www.aberdeen.com:80/secure/profiles/1997/ibmnet/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author"
+    },
+    {
+      "title": "Blue Bridge Group Archival Project",
+      "role": "publisher"
+    }
+  ],
+  "keywords": ["IBM", "Network Station", "thin client", "network computer", "NC", "Java", "TCO", "desktop", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "When a PC is Simply Platform Overkill: IBM's Network Station Alternative — Aberdeen Group Profile (1997)",
+  "description": "Structured archival data package derived from Aberdeen Group's 1997 profile of IBM's Network Station thin client, evaluating its technology, cost proposition, and market positioning versus PCs. Documents the peak of the 1990s Network Computer movement.",
+  "url": "https://web.archive.org/web/19970604112915/http://www.aberdeen.com:80/secure/profiles/1997/ibmnet/body.htm",
+  "identifier": "1997-ibm-when-a-pc-is-simply-platform-ov-5e9364",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "dateCreated": "1997-04-01",
+  "dateModified": "2026-03-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": "One Boston Place, Boston, Massachusetts 02108 USA"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blue Bridge Group Archival Project"
+  },
+  "keywords": ["IBM", "Network Station", "thin client", "network computer", "NC Reference Profile", "Java", "Wintel", "TCO", "desktop computing", "1997"],
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "Thing",
+    "name": "Network Computer / Thin Client Computing",
+    "description": "IBM Network Station and the 1990s Network Computer movement"
+  }
+}

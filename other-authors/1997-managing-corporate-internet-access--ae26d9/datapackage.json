@@ -1,0 +1,35 @@
+{
+  "name": "1997-managing-corporate-internet-access--ae26d9",
+  "title": "Managing Corporate Internet Access: A Business Priority",
+  "description": "Aberdeen Group executive white paper (April 1997) examining corporate internet bandwidth management and evaluating Xedia Corporation's Access Point. Xedia was acquired by Lucent Technologies for $246M in 1999.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Xedia Corporate Internet Access White Paper (Wayback Machine)",
+      "path": "https://web.archive.org/web/19970604112622/http://www.aberdeen.com:80/secure/whtpaper/1997/xedia/body.htm"
+    },
+    {
+      "title": "CNET — Lucent to buy Xedia for $246M (August 1999)",
+      "path": "https://www.cnet.com/tech/tech-industry/lucent-to-buy-xedia-for-246m/"
+    }
+  ],
+  "contributors": [
+    {"title": "Aberdeen Group, Inc.", "role": "publisher"}
+  ],
+  "keywords": ["Xedia", "Access Point", "bandwidth management", "QoS", "Class Based Queuing", "Frame Relay", "corporate internet", "Lucent", "Aberdeen Group", "1997"],
+  "created": "1997-04-01",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Managing Corporate Internet Access: A Business Priority",
+  "description": "Aberdeen Group executive white paper (April 1997) examining enterprise bandwidth management challenges and evaluating Xedia Corporation's Access Point broadband access management solution.",
+  "author": [
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-04-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "Organization", "name": "Xedia Corporation"},
+    {"@type": "Product", "name": "Access Point"},
+    {"@type": "Thing", "name": "Bandwidth Management"},
+    {"@type": "Thing", "name": "Quality of Service"},
+    {"@type": "Thing", "name": "Corporate Internet Access"}
+  ],
+  "genre": "Executive White Paper",
+  "keywords": "Xedia, Access Point, bandwidth management, QoS, Class Based Queuing, Frame Relay, corporate internet, Aberdeen Group, 1997",
+  "url": "https://web.archive.org/web/19970604112622/http://www.aberdeen.com:80/secure/whtpaper/1997/xedia/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

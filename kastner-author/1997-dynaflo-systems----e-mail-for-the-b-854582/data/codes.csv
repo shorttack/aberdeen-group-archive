@@ -1,0 +1,12 @@
+code,category,description
+strategy-classification,observation_type,Characterizes strategic positioning or market stance of a vendor or technology
+viability-prediction,observation_type,Forward-looking forecast about survivability or adoption
+actual-outcome,observation_type,Verified real-world result corresponding to a prior prediction
+technology-assessment,observation_type,Evaluation of a technology's maturity readiness or capability
+benchmark-result,observation_type,Quantitative or comparative performance measurement
+framework-factor,observation_type,Element of an analytical or conceptual framework presented in the study
+market-data,observation_type,Quantitative or qualitative data about market size share or dynamics
+expert-opinion,observation_type,Analyst judgment or recommendation not tied to a specific metric
+MW,methodology_code,Market/field research methodology used by Aberdeen
+ISP,methodology_code,Internet Service Provider industry context
+PR,methodology_code,Vendor Profile report type

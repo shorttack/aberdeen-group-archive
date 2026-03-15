@@ -1,0 +1,64 @@
+{
+  "name": "1997-dec-linkworks-webworker---an-object-db2d2a",
+  "title": "DEC LinkWorks WebWorker \u2014 An Object Framework that Tames the Web",
+  "description": "Aberdeen Group vendor profile evaluating Digital Equipment Corporation's LinkWorks WebWorker distributed object framework for enterprise web-based document management and workflow. Published April 1997.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "sources": [
+    {
+      "title": "AberdeenGroup",
+      "path": "https://web.archive.org/web/19970604112856/http://www.aberdeen.com:80/secure/profiles/1997/link/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "AberdeenGroup",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "LinkWorks",
+    "WebWorker",
+    "distributed objects",
+    "Digital Equipment Corporation",
+    "CORBA",
+    "workflow",
+    "document management",
+    "groupware",
+    "1997"
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "name": "studies"
+    },
+    {
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "name": "entities"
+    },
+    {
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "name": "technologies"
+    },
+    {
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "name": "observations"
+    },
+    {
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "name": "codes"
+    }
+  ]
+}

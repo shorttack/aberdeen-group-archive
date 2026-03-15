@@ -1,0 +1,68 @@
+{
+  "name": "1997-desktop-and-systems-management-the--169a9b",
+  "title": "Desktop and Systems Management The HP Way: Using Open Standards To Lower Costs and Complexity",
+  "description": "Aberdeen Group strategy profile examining HP's use of the Desktop Management Interface (DMI) standard in its Vectra Corporate PC line and TopTOOLS management software. Aberdeen argues HP's open-standards approach positions it to overtake Compaq in enterprise PC sales, and that DMI certification will become a de facto standard for desktop management cost reduction.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group / Wayback Machine",
+      "path": "https://web.archive.org/web/19970604113138/http://www.aberdeen.com:80/secure/profiles/1997/hp/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "desktop management",
+    "DMI",
+    "Desktop Management Interface",
+    "DMTF",
+    "HP Vectra",
+    "TopTOOLS",
+    "HP OpenView",
+    "total cost of ownership",
+    "TCO",
+    "Compaq",
+    "enterprise PC",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-03-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

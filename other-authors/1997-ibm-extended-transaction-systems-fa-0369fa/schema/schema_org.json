@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "IBM Extended Transaction Systems Family — Aberdeen Group Profile (1997)",
+  "description": "Structured archival data package derived from Aberdeen Group's 1997 profile of IBM's Extended Transaction Systems (ETS) product family, covering MQSeries, CICS/Encina Transaction Server, Lotus Notes, DB2, and IMS for network-computing transaction processing.",
+  "url": "https://web.archive.org/web/19970604113249/http://www.aberdeen.com:80/secure/profiles/1997/ibmetsf/ibmetsf.htm",
+  "identifier": "1997-ibm-extended-transaction-systems-fa-0369fa",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "dateCreated": "1997-06-04",
+  "dateModified": "2026-03-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": "One Boston Place, Boston, Massachusetts 02108 USA"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blue Bridge Group Archival Project"
+  },
+  "keywords": ["IBM", "MQSeries", "CICS", "Encina", "Lotus Notes", "DB2", "IMS", "transaction processing", "network computing", "middleware", "1997"],
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "Thing",
+    "name": "Enterprise Transaction Processing Middleware",
+    "description": "IBM Extended Transaction Systems product family for network-computing transaction processing"
+  }
+}

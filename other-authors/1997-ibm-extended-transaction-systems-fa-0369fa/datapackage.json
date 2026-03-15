@@ -1,0 +1,83 @@
+{
+  "name": "1997-ibm-extended-transaction-systems-fa-0369fa",
+  "title": "IBM Extended Transaction Systems Family — Aberdeen Group Profile (1997)",
+  "description": "Frictionless Data Package archiving Aberdeen Group's 1997 evaluation of IBM's Extended Transaction Systems (ETS) family: MQSeries, Transaction Server (CICS/Encina), Lotus Notes, Database Server (DB2), and IMS for network-computing transaction processing environments.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Profile: IBM Extended Transaction Systems Family",
+      "path": "https://web.archive.org/web/19970604113249/http://www.aberdeen.com:80/secure/profiles/1997/ibmetsf/ibmetsf.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author"
+    },
+    {
+      "title": "Blue Bridge Group Archival Project",
+      "role": "publisher"
+    }
+  ],
+  "keywords": ["IBM", "MQSeries", "CICS", "transaction processing", "middleware", "network computing", "Lotus Notes", "DB2", "IMS", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "date"},
+          {"name": "type", "type": "string"},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "abstract", "type": "string"},
+          {"name": "license", "type": "string"},
+          {"name": "importance", "type": "integer"},
+          {"name": "importance_rationale", "type": "string"},
+          {"name": "relevance", "type": "integer"},
+          {"name": "relevance_rationale", "type": "string"},
+          {"name": "prescience", "type": "integer"},
+          {"name": "prescience_rationale", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

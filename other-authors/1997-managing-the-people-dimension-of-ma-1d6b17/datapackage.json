@@ -1,0 +1,52 @@
+{
+  "name": "1997-managing-the-people-dimension-of-ma-1d6b17",
+  "title": "Managing the People Dimension of Major Technology Transitions",
+  "description": "In September 1996, Hewlett-Packard engaged Aberdeen Group to conduct one-on-one interviews with senior IT executives and project leaders undergoing major technology transitions. The study identifies education and training as the critical enabler of successful technology adoption, documents barriers including time pressure and ROI measurement challenges, and finds that on-demand, customized training is preferred over classroom instruction. Author Susan Irving concludes that people and process challenges consistently exceed technical challenges in large-scale technology transitions.",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Susan Irving",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group / Hewlett-Packard Impact Brief, January 1997",
+      "path": "https://web.archive.org/web/19970604114352/http://www.aberdeen.com:80/secure/impacts/1997/hp/hp.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

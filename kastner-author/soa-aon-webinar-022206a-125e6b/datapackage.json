@@ -1,0 +1,185 @@
+{
+  "name": "soa-aon-webinar-022206a-125e6b",
+  "title": "Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006",
+  "description": "Archival Ingest Skill v13 output package for Aberdeen Group webinar presentation on SOA adoption findings and 2006 enterprise integration research agenda. Covers SOA adoption rates, KPI benchmarks, adoption motives, and research roadmap.",
+  "version": "13.0.0",
+  "created": "2026-03-15",
+  "profile": "tabular-data-package",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006",
+      "path": "source/original_text.md",
+      "description": "Slide-format webinar presentation by Peter S. Kastner, Aberdeen Group, 2006-02-22"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    },
+    {
+      "title": "Archival Ingest Skill v13",
+      "role": "processor",
+      "organization": "Anthropic"
+    }
+  ],
+  "keywords": [
+    "SOA",
+    "service-oriented architecture",
+    "enterprise integration",
+    "web services",
+    "ESB",
+    "enterprise service bus",
+    "IT benchmarking",
+    "Aberdeen Group",
+    "middleware",
+    "2006",
+    "IT budget",
+    "KPI",
+    "innovation spend",
+    "maintenance costs"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique study identifier"},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Primary author name"},
+          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
+          {"name": "type", "type": "string", "description": "Study type classification"},
+          {"name": "subject_domain", "type": "string", "description": "Primary subject domain"},
+          {"name": "methodology", "type": "string", "description": "Research methodology used"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Study abstract or summary"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "string", "description": "Importance assessment (low/medium/high)"},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
+          {"name": "relevance", "type": "string", "description": "Relevance assessment (low/medium/high)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
+          {"name": "prescience", "type": "string", "description": "Prescience assessment (low/medium/high)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique entity identifier"},
+          {"name": "entity_name", "type": "string", "description": "Entity name"},
+          {"name": "entity_type", "type": "string", "description": "Entity type classification"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current operational status"},
+          {"name": "successor", "type": "string", "description": "Successor entity if acquired/merged"},
+          {"name": "years_active", "type": "string", "description": "Period of activity"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique technology identifier"},
+          {"name": "tech_name", "type": "string", "description": "Technology name"},
+          {"name": "category", "type": "string", "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or standards body"},
+          {"name": "era", "type": "string", "description": "Era of prominence"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities table (optional)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies table (optional)"},
+          {"name": "observation_type", "type": "string", "description": "Observation type code"},
+          {"name": "year_observed", "type": "year", "description": "Year the observation applies to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or measurement"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric"},
+          {"name": "confidence", "type": "string", "description": "Confidence level code"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology code reference"},
+          {"name": "source_page", "type": "string", "description": "Source page or slide number"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
+          {"name": "code_type", "type": "string", "description": "Code classification type"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "definition", "type": "string", "description": "Code definition"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

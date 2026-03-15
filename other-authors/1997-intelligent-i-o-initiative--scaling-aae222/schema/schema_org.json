@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Intelligent I/O Initiative: Scaling Bandwidth for System Performance",
+  "description": "Aberdeen Group executive white paper (October 1997) examining the I2O Intelligent I/O specification and its potential to improve server I/O performance and scalability for Intel architecture servers.",
+  "author": [
+    {"@type": "Person", "name": "James Gruener"},
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-10-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "Thing", "name": "I2O Intelligent I/O"},
+    {"@type": "Thing", "name": "Server I/O Architecture"},
+    {"@type": "Organization", "name": "I2O Special Interest Group"},
+    {"@type": "Thing", "name": "Intel Architecture Servers"},
+    {"@type": "Thing", "name": "I/O Performance"}
+  ],
+  "genre": "Executive White Paper",
+  "keywords": "I2O, Intelligent I/O, server performance, I/O bandwidth, Intel architecture, I2O SIG, Aberdeen Group",
+  "url": "https://web.archive.org/web/19980131062404/http://www.aberdeen.com:80/research/abstract/97100185.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

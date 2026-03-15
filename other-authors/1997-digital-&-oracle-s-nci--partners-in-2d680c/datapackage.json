@@ -1,0 +1,74 @@
+{
+  "name": "1997-digital-&-oracle-s-nci--partners-in-2d680c",
+  "title": "Digital & Oracle's NCI: Partners in Practical Network Computing",
+  "description": "Aberdeen Group vendor profile (April 1997) evaluating Digital Equipment Corporation and Oracle NCI's Network Computer platform.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group / Wayback Machine",
+      "path": "https://web.archive.org/web/19970604112925/http://www.aberdeen.com:80/secure/profiles/1997/digital/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Network Computer",
+    "DEC",
+    "Oracle NCI",
+    "StrongARM",
+    "thin client",
+    "1997"
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "name": "studies"
+    },
+    {
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "name": "entities"
+    },
+    {
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "name": "technologies"
+    },
+    {
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "name": "observations"
+    },
+    {
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "name": "codes"
+    },
+    {
+      "path": "schema/schema_org.json",
+      "profile": "data-resource",
+      "name": "schema_org"
+    },
+    {
+      "path": "source/original_text.md",
+      "profile": "data-resource",
+      "name": "original_text"
+    },
+    {
+      "path": "scripts/demo_analysis.py",
+      "profile": "data-resource",
+      "name": "demo_analysis"
+    }
+  ]
+}

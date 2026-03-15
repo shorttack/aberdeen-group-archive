@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Infinite Resource Planning: A Manifesto For 21st Century Enterprise Applications",
+  "alternateName": "IRP White Paper 1997",
+  "description": "Aberdeen Group executive white paper introducing Infinite Resource Planning (IRP) as the next enterprise computing paradigm driven by convergence of Object-Oriented Technology, Internet technology, and Network-Centric Computing Architectures.",
+  "author": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1997-05-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc."
+  },
+  "about": [
+    {"@type": "Thing", "name": "Enterprise Resource Planning"},
+    {"@type": "Thing", "name": "Infinite Resource Planning"},
+    {"@type": "Thing", "name": "Object-Oriented Technology"},
+    {"@type": "Thing", "name": "Internet Commerce"},
+    {"@type": "Thing", "name": "Supply Chain Management"},
+    {"@type": "Thing", "name": "Network-Centric Computing"}
+  ],
+  "genre": "Executive White Paper",
+  "keywords": "IRP, ERP, enterprise applications, object-oriented, Internet, supply chain, Aberdeen Group",
+  "url": "https://web.archive.org/web/19971007153837/http://www.aberdeen.com:80/secure/whtpaper/1997/irp/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

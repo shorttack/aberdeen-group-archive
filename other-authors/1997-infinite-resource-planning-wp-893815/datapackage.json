@@ -1,0 +1,128 @@
+{
+  "name": "1997-infinite-resource-planning-wp-893815",
+  "title": "Infinite Resource Planning: A Manifesto For 21st Century Enterprise Applications",
+  "description": "Aberdeen Group executive white paper (May 1997) introducing the Infinite Resource Planning (IRP) concept as the convergence of Object-Oriented Technology, Internet technology, and Network-Centric Computing Architectures to replace ERP and enable true cross-organizational enterprise integration.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Infinite Resource Planning White Paper (Wayback Machine)",
+      "path": "https://web.archive.org/web/19971007153837/http://www.aberdeen.com:80/secure/whtpaper/1997/irp/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "ERP",
+    "enterprise resource planning",
+    "IRP",
+    "infinite resource planning",
+    "object-oriented technology",
+    "Internet",
+    "network-centric computing",
+    "supply chain",
+    "enterprise applications",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-05-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "string"},
+          {"name": "type", "type": "string"},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "abstract", "type": "string"},
+          {"name": "license", "type": "string"},
+          {"name": "importance", "type": "integer"},
+          {"name": "importance_rationale", "type": "string"},
+          {"name": "relevance", "type": "integer"},
+          {"name": "relevance_rationale", "type": "string"},
+          {"name": "prescience", "type": "integer"},
+          {"name": "prescience_rationale", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string"},
+          {"name": "entity_name", "type": "string"},
+          {"name": "entity_type", "type": "string"},
+          {"name": "sector", "type": "string"},
+          {"name": "status", "type": "string"},
+          {"name": "successor", "type": "string"},
+          {"name": "years_active", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string"},
+          {"name": "tech_name", "type": "string"},
+          {"name": "category", "type": "string"},
+          {"name": "vendor", "type": "string"},
+          {"name": "era", "type": "string"},
+          {"name": "lifecycle_at_study", "type": "string"},
+          {"name": "lifecycle_current", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "entity_id", "type": "string"},
+          {"name": "tech_id", "type": "string"},
+          {"name": "observation_type", "type": "string"},
+          {"name": "year_observed", "type": "integer"},
+          {"name": "metric_name", "type": "string"},
+          {"name": "metric_value", "type": "string"},
+          {"name": "confidence", "type": "string"},
+          {"name": "methodology_code", "type": "string"},
+          {"name": "source_page", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource"
+    }
+  ]
+}

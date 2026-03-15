@@ -1,0 +1,33 @@
+{
+  "name": "1997-lucent-delivers-internet-telephony--888598",
+  "title": "Lucent Delivers Internet Telephony and Carrier-Grade Scale with Internet Telephony Server SP",
+  "description": "Aberdeen Group impact brief (March 1997) evaluating Lucent Technologies' Internet Telephony Server SP, the first carrier-grade VoIP gateway platform. Analysts: Daniel A. Taylor and Traver H. Kennedy.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Lucent Internet Telephony Impact Brief (Wayback Machine)",
+      "path": "https://web.archive.org/web/19970604114319/http://www.aberdeen.com:80/secure/impacts/1997/lucent/body.htm"
+    }
+  ],
+  "contributors": [
+    {"title": "Aberdeen Group, Inc.", "role": "publisher"},
+    {"title": "Daniel A. Taylor", "role": "author"},
+    {"title": "Traver H. Kennedy", "role": "author"}
+  ],
+  "keywords": ["Lucent Technologies", "internet telephony", "VoIP", "carrier-grade", "elemedia", "Internet Telephony Server SP", "Aberdeen Group", "1997"],
+  "created": "1997-03-31",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

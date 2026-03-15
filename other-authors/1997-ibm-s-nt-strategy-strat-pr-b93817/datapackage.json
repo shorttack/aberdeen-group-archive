@@ -1,0 +1,56 @@
+{
+  "name": "1997-ibm\u2019s-nt-strategy-strat-pr-b93817",
+  "title": "IBM's NT Strategy: Moving NT Upscale with Enterprise-grade Solutions, Middleware, and Services",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group",
+      "path": "https://web.archive.org/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "name": "studies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/entities.csv",
+      "name": "entities",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/technologies.csv",
+      "name": "technologies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/observations.csv",
+      "name": "observations",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/codes.csv",
+      "name": "codes",
+      "mediatype": "text/csv"
+    }
+  ],
+  "metadata": {
+    "study_id": "1997-ibm\u2019s-nt-strategy-strat-pr-b93817",
+    "date": "1997-06-01",
+    "type": "profile",
+    "subject_domain": "Operating Systems / Enterprise Computing Strategy",
+    "importance": 4,
+    "relevance": 4,
+    "prescience": 4,
+    "entity_count": 9,
+    "technology_count": 12,
+    "observation_count": 21
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "IBM's NT Strategy: Moving NT Upscale with Enterprise-grade Solutions, Middleware, and Services",
+  "description": "Aberdeen Group profiles IBM Software Solutions Division's Windows NT strategy, analyzing IBM's major strategic pivot from OS/2 competition to NT enablement. The study covers IBM's stated goal of NT market leadership by year-end 1998, its competitive positioning versus Compaq (~35% share) and HP (~16% share), and its portfolio of NT-optimized products: Lotus Notes/Domino, DB2 Universal Database, Tivoli TME, ADSM storage management, Communications Server, Transaction Server (CICS for NT + Transarc Encina), VisualAge tools, and MQSeries middleware. Aberdeen concludes IBM is well-positioned for enterprise NT due to its service infrastructure and mature application portfolio.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Operating Systems / Enterprise Computing Strategy",
+    "Aberdeen Group",
+    "1997",
+    "market research"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "1997-industry-matematik-international-co-c398bc",
+  "title": "Industri-Matematik International Corp.: Strategic Solution for Fast-Moving, High-Volume Goods Industries",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group",
+      "path": "https://web.archive.org/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "name": "studies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/entities.csv",
+      "name": "entities",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/technologies.csv",
+      "name": "technologies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/observations.csv",
+      "name": "observations",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/codes.csv",
+      "name": "codes",
+      "mediatype": "text/csv"
+    }
+  ],
+  "metadata": {
+    "study_id": "1997-industry-matematik-international-co-c398bc",
+    "date": "1997-01-01",
+    "type": "profile",
+    "subject_domain": "ERP / Supply Chain Management / Order Fulfillment Software",
+    "importance": 4,
+    "relevance": 4,
+    "prescience": 4,
+    "entity_count": 11,
+    "technology_count": 10,
+    "observation_count": 20
+  }
+}

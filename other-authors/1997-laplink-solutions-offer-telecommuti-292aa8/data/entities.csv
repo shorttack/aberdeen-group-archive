@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-LAP-001,Traveling Software Inc.,Software Vendor,Remote Access / PC Utilities,Active (renamed),Renamed to LapLink Software Inc. (2004 era),1983-present,1997-laplink-solutions-offer-telecommuti-292aa8,"Founded 1983 in Bellevue WA; pivoted from file transfer/remote control to PC migration software (PCmover); still active as of 2026"
+ENT-LAP-002,Microsoft Corporation,Software Vendor,Operating Systems / Cloud,Active (public),N/A,1975-present,1997-laplink-solutions-offer-telecommuti-292aa8,"Provider of Windows 95 Dial-Up Networking Client and Windows NT RAS; LapLink works with both; Microsoft later provided RDP as competing solution"
+ENT-LAP-003,Aberdeen Group,Research Firm,IT Research & Advisory,Acquired,Spiceworks Ziff Davis,1988-2019,1997-laplink-solutions-offer-telecommuti-292aa8,Publisher of the impact brief

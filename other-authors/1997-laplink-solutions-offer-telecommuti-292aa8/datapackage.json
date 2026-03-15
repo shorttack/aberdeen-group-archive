@@ -1,0 +1,32 @@
+{
+  "name": "1997-laplink-solutions-offer-telecommuti-292aa8",
+  "title": "LapLink Solutions Offer Telecommuting Value-Add",
+  "description": "Aberdeen Group impact brief (January 1997) evaluating Traveling Software's LapLink remote control solutions for enterprise telecommuting enablement. Analyst: Virginia Brooks.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — LapLink Telecommuting Impact Brief (Wayback Machine)",
+      "path": "https://web.archive.org/web/19970604114342/http://www.aberdeen.com:80/secure/impacts/1997/laplink1/body.htm"
+    }
+  ],
+  "contributors": [
+    {"title": "Aberdeen Group, Inc.", "role": "publisher"},
+    {"title": "Virginia Brooks", "role": "author"}
+  ],
+  "keywords": ["LapLink", "Traveling Software", "telecommuting", "remote control", "remote access", "SpeedSync", "Aberdeen Group", "1997"],
+  "created": "1997-01-30",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

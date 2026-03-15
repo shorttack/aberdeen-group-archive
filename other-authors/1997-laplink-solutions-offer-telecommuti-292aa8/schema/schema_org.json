@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "LapLink Solutions Offer Telecommuting Value-Add",
+  "description": "Aberdeen Group impact brief (January 1997) evaluating Traveling Software's LapLink remote control solutions for enterprise telecommuting. Analyst: Virginia Brooks.",
+  "author": [
+    {"@type": "Person", "name": "Virginia Brooks"},
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-01-30",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "Organization", "name": "Traveling Software"},
+    {"@type": "SoftwareApplication", "name": "LapLink"},
+    {"@type": "Thing", "name": "Telecommuting"},
+    {"@type": "Thing", "name": "Remote Access"},
+    {"@type": "Thing", "name": "Remote Control Architecture"}
+  ],
+  "genre": "Impact Brief",
+  "keywords": "LapLink, Traveling Software, telecommuting, remote control, remote access, SpeedSync, Aberdeen Group, 1997",
+  "url": "https://web.archive.org/web/19970604114342/http://www.aberdeen.com:80/secure/impacts/1997/laplink1/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

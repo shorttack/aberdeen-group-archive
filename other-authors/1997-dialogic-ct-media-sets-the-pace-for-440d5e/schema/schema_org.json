@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dialogic\u00ae CT Media\u2122 Sets The Pace For Open-Standards Computer Telephony Development",
+  "description": "Structured data package from Aberdeen Group's 1997 vendor profile of Dialogic CT Media, covering computer telephony open-standards adoption, competitive analysis, and market predictions.",
+  "identifier": "1997-dialogic-ct-media-sets-the-pace-for-440d5e",
+  "datePublished": "1997-09",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "computer telephony",
+    "CT Media",
+    "Dialogic",
+    "S.100",
+    "ECTF",
+    "open standards",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "spatialCoverage": "United States",
+  "variableMeasured": [
+    "CT platform capabilities",
+    "market adoption drivers",
+    "standards compliance"
+  ],
+  "isPartOf": {
+    "@type": "Collection",
+    "name": "Aberdeen Group Archive \u2014 Batch 12"
+  },
+  "url": "https://web.archive.org/web/19971007155702/http://www.aberdeen.com:80/secure/profiles/1997/dialogic/body.htm"
+}

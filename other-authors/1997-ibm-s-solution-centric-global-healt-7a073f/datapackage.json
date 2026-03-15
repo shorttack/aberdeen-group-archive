@@ -1,0 +1,56 @@
+{
+  "name": "1997-ibm-s-solution-centric-global-healt-7a073f",
+  "title": "IBM's Solution-Centric Global Healthcare Industry Practice - Just What the Doctor Ordered",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group",
+      "path": "https://web.archive.org/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "name": "studies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/entities.csv",
+      "name": "entities",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/technologies.csv",
+      "name": "technologies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/observations.csv",
+      "name": "observations",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/codes.csv",
+      "name": "codes",
+      "mediatype": "text/csv"
+    }
+  ],
+  "metadata": {
+    "study_id": "1997-ibm-s-solution-centric-global-healt-7a073f",
+    "date": "1997-05-15",
+    "type": "viewpoint",
+    "subject_domain": "Healthcare Information Technology / Vertical Industry Strategy",
+    "importance": 4,
+    "relevance": 4,
+    "prescience": 4,
+    "entity_count": 9,
+    "technology_count": 8,
+    "observation_count": 20
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "IBM's Solution-Centric Global Healthcare Industry Practice - Just What the Doctor Ordered",
+  "description": "Aberdeen Group's Volume 10 Number 6 Viewpoint analyzes IBM's Global Healthcare Industry practice and its strategy for becoming the trusted lead supplier for healthcare IT. The study examines three pivotal IBM strategic shifts under CEO Lou Gerstner: creation of 11 global industry groups, adoption of a services-and-solutions strategy (1996 services revenue of $15.9B, +24.8% YoY), and networked computing vision. Aberdeen evaluates IBM's Health Network Solutions portfolio across five areas (Foundation, Applications, Advanced Applications, MedSpeak, ClinWare), its ISV partnership ecosystem, and Global Services capabilities. Customer cases include Arkansas Blue Cross/Blue Shield, Kaiser Permanente, and Allina Health Systems. Aberdeen concludes IBM is well-positioned as lead supplier partnering with ISVs to reduce implementation risk for risk-averse healthcare CIOs.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-05-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Healthcare Information Technology / Vertical Industry Strategy",
+    "Aberdeen Group",
+    "1997",
+    "market research"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv"
+  }
+}

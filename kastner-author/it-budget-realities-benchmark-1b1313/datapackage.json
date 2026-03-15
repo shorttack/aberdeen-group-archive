@@ -1,0 +1,157 @@
+{
+  "name": "it-budget-realities-benchmark-1b1313",
+  "title": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+  "description": "Archival Ingest Skill v13 output package for the Aberdeen Group benchmark report analyzing IT budget and spending trends across 170+ enterprises (October 2004). Uses PACE framework and Competitive Framework to link IT budget process maturity to cost and customer satisfaction outcomes.",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bill Malik",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+      "path": "source/original_text.md"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique study identifier"},
+          {"name": "title", "type": "string", "description": "Full study title"},
+          {"name": "author", "type": "string", "description": "Primary author name"},
+          {"name": "date", "type": "string", "description": "Publication date (YYYY-MM)"},
+          {"name": "type", "type": "string", "description": "Study type classification"},
+          {"name": "subject_domain", "type": "string", "description": "Primary subject domain"},
+          {"name": "methodology", "type": "string", "description": "Research methodologies used (semicolon-separated)"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Study abstract summarizing key findings"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "string", "description": "Importance assessment (high/medium/low)"},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance assessment"},
+          {"name": "relevance", "type": "string", "description": "Current relevance assessment (high/medium/low)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance assessment"},
+          {"name": "prescience", "type": "string", "description": "Prescience assessment (high/medium/low)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience assessment"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique entity identifier (lowercase-hyphenated)"},
+          {"name": "entity_name", "type": "string", "description": "Display name of entity"},
+          {"name": "entity_type", "type": "string", "description": "Entity type classification"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current status (active/acquired/split/defunct)"},
+          {"name": "successor", "type": "string", "description": "Successor entity if acquired/merged"},
+          {"name": "years_active", "type": "string", "description": "Active years range"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and details"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique technology identifier (TECH-NNN)"},
+          {"name": "tech_name", "type": "string", "description": "Technology display name"},
+          {"name": "category", "type": "string", "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor(s)"},
+          {"name": "era", "type": "string", "description": "Technology era or introduction period"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and details"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities table (may be empty)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies table (may be empty)"},
+          {"name": "observation_type", "type": "string", "description": "Type of observation (see codes table)"},
+          {"name": "year_observed", "type": "string", "description": "Year the observation applies to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or finding"},
+          {"name": "metric_value", "type": "string", "description": "Value or description of the finding"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (high/medium/low)"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology code (see codes table)"},
+          {"name": "source_page", "type": "string", "description": "Source page or section reference"},
+          {"name": "notes", "type": "string", "description": "Additional context and details"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
+          {"name": "code_type", "type": "string", "description": "Type of code (methodology_code, observation_type, confidence, study_type, methodology, subject_domain)"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "definition", "type": "string", "description": "Definition of the code"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

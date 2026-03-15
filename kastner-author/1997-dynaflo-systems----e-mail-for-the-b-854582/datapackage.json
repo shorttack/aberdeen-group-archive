@@ -1,0 +1,22 @@
+{
+  "name": "1997-dynaflo-systems----e-mail-for-the-b-854582",
+  "title": "DynaFlo Systems: E-Mail For The Business Masses",
+  "description": "Aberdeen Group vendor profile of DynaFlo Systems and its PushMail product targeting ISPs seeking to expand beyond early adopters. Field research found ISPs growing revenue while losing money; Aberdeen endorses PushMail as high-margin enhanced service.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "sources": [{"title": "Aberdeen Group Profile (Wayback Machine)", "path": "https://web.archive.org/web/19981202011504/http://www.aberdeen.com:80/research/abstract/97070128.htm"}],
+  "contributors": [
+    {"title": "Peter Kastner", "role": "author"},
+    {"title": "Dan Taylor", "role": "author"},
+    {"title": "Aberdeen Group", "role": "publisher"}
+  ],
+  "keywords": ["DynaFlo", "PushMail", "ISP", "Internet email", "service providers", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "entities", "path": "data/entities.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "technologies", "path": "data/technologies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "observations", "path": "data/observations.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "codes", "path": "data/codes.csv", "format": "csv", "mediatype": "text/csv"}
+  ]
+}

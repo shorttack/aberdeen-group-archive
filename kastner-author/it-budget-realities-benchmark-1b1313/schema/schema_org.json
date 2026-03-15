@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+  "description": "Archival ingest package for Aberdeen Group's October 2004 benchmark report analyzing IT budget and spending trends across 170+ enterprises. The study uses the PACE (Pressures, Actions, Capabilities, Enablers) framework and Aberdeen Competitive Framework to link IT budget process maturity to cost performance and customer satisfaction outcomes. Key finding: 15-25% of IT investment wasted industry-wide; best-in-class firms spend 10-25% less as percent of revenue.",
+  "identifier": "it-budget-realities-benchmark-1b1313",
+  "url": "https://example.org/datasets/it-budget-realities-benchmark-1b1313",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2004-10",
+  "dateCreated": "2026-03-15",
+  "creator": {
+    "@type": "Person",
+    "name": "Bill Malik",
+    "jobTitle": "Vice President, Technology Research",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street, Suite 1700",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110-3112",
+      "addressCountry": "US"
+    }
+  },
+  "funder": [
+    {"@type": "Organization", "name": "Cognos"},
+    {"@type": "Organization", "name": "FRx Software"},
+    {"@type": "Organization", "name": "HP (Hewlett-Packard)"},
+    {"@type": "Organization", "name": "MAPICS"}
+  ],
+  "keywords": [
+    "IT budget management",
+    "IT spending benchmarks",
+    "PACE framework",
+    "IT governance",
+    "cost optimization",
+    "outsourcing",
+    "off-shoring",
+    "data center consolidation",
+    "service level management",
+    "IT alignment",
+    "CobiT",
+    "competitive framework",
+    "best in class",
+    "IT cost drivers",
+    "business intelligence",
+    "ERP"
+  ],
+  "temporalCoverage": "2004",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Primarily United States (92%), with United Kingdom and Asia-Pacific"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "IT waste estimate",
+      "value": "15-25%",
+      "description": "Estimated percentage of IT investment wasted industry-wide"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Best-in-class cost savings",
+      "value": "10-25%",
+      "description": "Best-in-class firms spend 10-25% less than average as percent of revenue"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Survey sample size",
+      "value": "170+",
+      "description": "Number of enterprises surveyed"
+    }
+  ],
+  "measurementTechnique": "Online survey with supplementary telephone interviews; Aberdeen PACE framework and Competitive Framework benchmarking methodology",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities referenced in study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies referenced in study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations extracted from study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Code definitions for categorical fields"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "ScholarlyArticle",
+    "name": "Breaking TCO Gridlock: The Strategic Enterprise IT Budget Realities Benchmark Report",
+    "author": {"@type": "Person", "name": "Bill Malik"},
+    "datePublished": "2004-10",
+    "publisher": {"@type": "Organization", "name": "Aberdeen Group"}
+  }
+}

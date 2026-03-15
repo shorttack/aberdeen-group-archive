@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Forte Enterprise Development Environment \u2014 Aberdeen Group Product Profile (1997)",
+  "description": "Archival data package for Aberdeen Group 1997 product profile of Forte Software HADE suite.",
+  "url": "https://web.archive.org/web/19971007155921/http://www.aberdeen.com:80/secure/profiles/1997/forte/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-10-01",
+  "keywords": "Forte Software, HADE, application partitioning, client-server, enterprise software",
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Forte Release 3.0",
+    "applicationCategory": "Application Development Environment"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "1997-forte-enterprise-development-enviro-a07cf9",
+  "title": "Forte Enterprise Development Environment \u2014 Aberdeen Group Product Profile (1997)",
+  "description": "Frictionless Data Package archiving the 1997 Aberdeen Group product profile of Forte Software's Forte Release 3.0, Forte Express, and Forte Conductor enterprise application development environment suite.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group via Wayback Machine",
+      "path": "https://web.archive.org/web/19971007155921/http://www.aberdeen.com:80/secure/profiles/1997/forte/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Forte Software",
+    "HADE",
+    "application development",
+    "client-server",
+    "application partitioning",
+    "workflow",
+    "enterprise software",
+    "1997",
+    "Aberdeen Group"
+  ],
+  "created": "1997-10-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

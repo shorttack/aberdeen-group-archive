@@ -1,0 +1,45 @@
+{
+  "name": "1997-kodak-completes-wang-software-acqui-e78bb4",
+  "title": "Kodak Completes Wang Software Acquisition",
+  "description": "Aberdeen Group announcement profile (March 1997) analyzing Eastman Kodak's $260M acquisition of Wang Laboratories' software division, forming Eastman Software Inc. Covers strategic rationale, technology portfolio, and market implications for document imaging and workflow.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Kodak/Wang Acquisition Profile (Wayback Machine)",
+      "path": "https://web.archive.org/web/19970604113008/http://www.aberdeen.com:80/secure/profiles/1997/kodak/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "publisher"
+    }
+  ],
+  "keywords": [
+    "Kodak",
+    "Wang Laboratories",
+    "Eastman Software",
+    "document imaging",
+    "workflow",
+    "COLD",
+    "hierarchical storage management",
+    "M&A",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-03-17",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

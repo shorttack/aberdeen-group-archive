@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Kodak Completes Wang Software Acquisition",
+  "description": "Aberdeen Group announcement profile (March 1997) analyzing Eastman Kodak's $260M acquisition of Wang Laboratories' software division and formation of Eastman Software Inc. Covers strategic rationale, organizational structure, customer implications, and market opportunity in document imaging and workflow.",
+  "author": [
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-03-17",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "Organization", "name": "Eastman Kodak Company"},
+    {"@type": "Organization", "name": "Wang Laboratories"},
+    {"@type": "Organization", "name": "Eastman Software Inc."},
+    {"@type": "Thing", "name": "Document Imaging"},
+    {"@type": "Thing", "name": "Workflow Software"},
+    {"@type": "Thing", "name": "Enterprise Content Management"},
+    {"@type": "Thing", "name": "M&A — Software Acquisition"}
+  ],
+  "genre": "Announcement Profile",
+  "keywords": "Kodak, Wang Laboratories, Eastman Software, document imaging, workflow, COLD, HSM, M&A, Aberdeen Group, 1997",
+  "url": "https://web.archive.org/web/19970604113008/http://www.aberdeen.com:80/secure/profiles/1997/kodak/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

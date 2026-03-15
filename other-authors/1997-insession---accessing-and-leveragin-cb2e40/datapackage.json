@@ -1,0 +1,47 @@
+{
+  "name": "1997-insession---accessing-and-leveragin-cb2e40",
+  "title": "Insession — Accessing and Leveraging Enterprise Transaction Systems",
+  "description": "Aberdeen Group product profile (September 1997) examining Insession, Inc., a middleware vendor enabling integration of heterogeneous distributed environments with host-based enterprise transaction systems. Analyst: Jeanine Fournier.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Insession Profile Abstract (Wayback Machine)",
+      "path": "https://web.archive.org/web/19981206105804/http://www.aberdeen.com:80/research/abstract/97090175.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "publisher"
+    },
+    {
+      "title": "Jeanine Fournier",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Insession",
+    "middleware",
+    "enterprise transaction systems",
+    "legacy integration",
+    "accessware",
+    "distributed computing",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-09-01",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

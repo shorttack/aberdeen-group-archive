@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Commercial RISC/Unix 1996: HP Achieves Over 50% Share In 28% Growth Market",
+  "author": {
+    "@type": "Organization",
+    "name": "AberdeenGroup"
+  },
+  "datePublished": "1997-02-03",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AberdeenGroup",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "description": "Seventh annual survey of the commercial multiuser RISC/Unix marketplace covering 1996 market data. Documents 28% growth to $18.2 billion; HP with 52% share, IBM 18%, Sun Microsystems fastest growing at 73%. Projects IA-64 transition and continued RISC/Unix enterprise dominance.",
+  "keywords": [
+    "RISC",
+    "Unix",
+    "HP-UX",
+    "market share",
+    "HP 9000",
+    "RS/6000",
+    "Sun SPARC",
+    "IA-64",
+    "server market",
+    "1996"
+  ],
+  "url": "https://web.archive.org/web/19970604112252/http://www.aberdeen.com:80/secure/viewpnts/1997/v10n1/v10n1.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "AberdeenGroup Market Viewpoints",
+    "volumeNumber": "10",
+    "issueNumber": "1"
+  }
+}

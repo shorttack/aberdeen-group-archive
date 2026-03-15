@@ -1,0 +1,116 @@
+{
+  "name": "1997-commercial-risc-unix-1996-mvp-711569",
+  "title": "Commercial RISC/Unix 1996: HP Achieves Over 50% Share In 28% Growth Market",
+  "description": "Aberdeen's seventh annual survey of the commercial, multiuser RISC/Unix marketplace covering 1996 market data, vendor analysis, and forward-looking projections through 1998.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "sources": [
+    {
+      "title": "AberdeenGroup",
+      "path": "https://web.archive.org/web/19970604112252/http://www.aberdeen.com:80/secure/viewpnts/1997/v10n1/v10n1.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "AberdeenGroup",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "RISC",
+    "Unix",
+    "HP-UX",
+    "market share",
+    "server",
+    "1996",
+    "Hewlett-Packard",
+    "IBM",
+    "Sun Microsystems"
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "name": "studies",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id"
+          },
+          {
+            "name": "title"
+          },
+          {
+            "name": "author"
+          },
+          {
+            "name": "date"
+          },
+          {
+            "name": "type"
+          },
+          {
+            "name": "subject_domain"
+          },
+          {
+            "name": "methodology"
+          },
+          {
+            "name": "source_file"
+          },
+          {
+            "name": "abstract"
+          },
+          {
+            "name": "license"
+          },
+          {
+            "name": "importance"
+          },
+          {
+            "name": "importance_rationale"
+          },
+          {
+            "name": "relevance"
+          },
+          {
+            "name": "relevance_rationale"
+          },
+          {
+            "name": "prescience"
+          },
+          {
+            "name": "prescience_rationale"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "name": "entities"
+    },
+    {
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "name": "technologies"
+    },
+    {
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "name": "observations"
+    },
+    {
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "name": "codes"
+    }
+  ]
+}

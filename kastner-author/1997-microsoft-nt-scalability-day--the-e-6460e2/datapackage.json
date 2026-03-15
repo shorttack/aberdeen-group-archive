@@ -1,0 +1,52 @@
+{
+  "name": "1997-microsoft-nt-scalability-day--the-e-6460e2",
+  "title": "Microsoft NT Scalability Day: The Emperor Has No Clothes",
+  "description": "Peter S. Kastner of Aberdeen Group delivers a pointed critique of Microsoft's Scalability Day event in New York, where Bill Gates declared NT and BackOffice ready for any enterprise. Kastner dissects five benchmark demonstrations as unrealistic or misleading, argues NT remains best suited to departmental (not enterprise) applications, and warns that Microsoft's all-or-nothing platform claims risk opening a 'trust gap' with enterprise customers. He concludes Unix, the AS/400, and even the mainframe legitimately retain the enterprise high-end.",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Impact Brief, May 1997",
+      "path": "https://web.archive.org/web/19970604114249/http://www.aberdeen.com:80/secure/impacts/1997/ms/body.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

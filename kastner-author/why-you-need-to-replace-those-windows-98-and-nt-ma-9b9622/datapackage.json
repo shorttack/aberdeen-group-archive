@@ -1,0 +1,174 @@
+{
+  "name": "why-you-need-to-replace-those-windows-98-and-nt-ma-9b9622",
+  "title": "Why You Need To Replace Those Windows 98 And NT Machines",
+  "description": "Archival Ingest Skill v13 data package for Aberdeen Group market study by Peter S. Kastner (2003) arguing for enterprise PC replacement cycle due to Windows 98/NT end-of-life security and compliance risks.",
+  "version": "13.0.0",
+  "created": "2026-03-15",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Why You Need To Replace Those Windows 98 And NT Machines",
+      "path": "source/original_text.md",
+      "author": "Peter S. Kastner",
+      "date": "2003-05-05",
+      "publisher": "InternetWeek.com (CMP Media LLC)"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique study identifier"},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Study author name"},
+          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
+          {"name": "type", "type": "string", "description": "Study type classification"},
+          {"name": "subject_domain", "type": "string", "description": "Subject domain classification"},
+          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Brief abstract of study content"},
+          {"name": "license", "type": "string", "description": "SPDX license identifier"},
+          {"name": "importance", "type": "string", "description": "Importance rating (low/medium/high)"},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
+          {"name": "relevance", "type": "string", "description": "Current relevance rating (low/medium/high)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
+          {"name": "prescience", "type": "string", "description": "Prescience rating (low/medium/high)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique entity identifier (slug)"},
+          {"name": "entity_name", "type": "string", "description": "Full entity name"},
+          {"name": "entity_type", "type": "string", "description": "Entity type classification"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current operational status"},
+          {"name": "successor", "type": "string", "description": "Successor entity if acquired or merged"},
+          {"name": "years_active", "type": "string", "description": "Years of active operation"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique technology identifier (slug)"},
+          {"name": "tech_name", "type": "string", "description": "Full technology name"},
+          {"name": "category", "type": "string", "description": "Technology category classification"},
+          {"name": "vendor", "type": "string", "description": "Technology vendor or publisher"},
+          {"name": "era", "type": "string", "description": "Year or era of introduction"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle status at time of study"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle status"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities table (optional)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies table (optional)"},
+          {"name": "observation_type", "type": "string", "description": "Observation type code"},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation pertains to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or data point"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric or data point"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (low/medium/high)"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology used for observation"},
+          {"name": "source_page", "type": "string", "description": "Page or section reference in source"},
+          {"name": "notes", "type": "string", "description": "Additional context and notes"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
+          {"name": "code_type", "type": "string", "description": "Code classification type"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "definition", "type": "string", "description": "Full definition of the code"}
+        ],
+        "primaryKey": ["code_id", "code_type"]
+      }
+    }
+  ],
+  "keywords": [
+    "Windows 98",
+    "Windows NT",
+    "desktop lifecycle management",
+    "PC replacement cycle",
+    "enterprise security",
+    "end-of-life software",
+    "compliance risk",
+    "Aberdeen Group",
+    "Intel Centrino",
+    "Intel Springdale",
+    "Windows XP",
+    "2003"
+  ]
+}

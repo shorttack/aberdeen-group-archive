@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "IBM Ships First 64-bit RS/6000 Server — Aberdeen Group Announcement Profile (1997)",
+  "description": "Structured archival data package derived from Aberdeen Group analyst Tom Willmott's 1997 announcement profile of IBM's RS/6000 S70 (Raven), the first 64-bit RS/6000 server using the RS64 (Apache) processor, contextualizing IBM's Unix market position and 1997 product strategy.",
+  "url": "https://web.archive.org/web/19981202072747/http://www.aberdeen.com:80/research/abstract/97100190.htm",
+  "identifier": "1997-ibm-ships-first-64-bit-rs-6000-serv-961e2c",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "dateCreated": "1997-10-06",
+  "dateModified": "2026-03-14",
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc.",
+      "address": "One Boston Place, Boston, Massachusetts 02108 USA"
+    },
+    {
+      "@type": "Person",
+      "name": "Tom Willmott",
+      "affiliation": "Aberdeen Group"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blue Bridge Group Archival Project"
+  },
+  "keywords": ["IBM", "RS/6000", "S70", "Raven", "RS64", "Apache", "64-bit", "AIX", "Unix server", "PowerPC", "SMP", "1997"],
+  "temporalCoverage": "1997"
+}

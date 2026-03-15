@@ -1,0 +1,63 @@
+{
+  "name": "1997-ibm-ships-first-64-bit-rs-6000-serv-961e2c",
+  "title": "IBM Ships First 64-bit RS/6000 Server — Aberdeen Group Announcement Profile (1997)",
+  "description": "Frictionless Data Package archiving Aberdeen Group analyst Tom Willmott's 1997 announcement profile of the IBM RS/6000 S70 (code-named Raven), the first 64-bit RS/6000 server, with IBM Unix market context.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Announcement Profile: IBM Ships First 64-bit RS/6000 Server",
+      "path": "https://web.archive.org/web/19981202072747/http://www.aberdeen.com:80/research/abstract/97100190.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Tom Willmott / Aberdeen Group, Inc.",
+      "role": "author"
+    },
+    {
+      "title": "Blue Bridge Group Archival Project",
+      "role": "publisher"
+    }
+  ],
+  "keywords": ["IBM", "RS/6000", "S70", "Raven", "RS64", "64-bit", "AIX", "Unix", "SMP", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

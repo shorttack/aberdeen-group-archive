@@ -1,0 +1,64 @@
+{
+  "name": "1997-crm-siebel-systems-pr-569e52",
+  "title": "Siebel Systems: Customer Interaction Software Vendor Profile",
+  "description": "Aberdeen Group strategy profile of Siebel Systems evaluating the company's N-tiered client-server CIS (Customer Interaction Software) platform, partnership-driven business model, and competitive positioning in 1997. Aberdeen predicts continued rapid growth and market leadership for Siebel in the emerging CRM software market.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group / Wayback Machine",
+      "path": "https://web.archive.org/web/19970604113032/http://www.aberdeen.com:80/secure/profiles/1997/siebel/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Siebel Systems",
+    "CRM",
+    "customer relationship management",
+    "sales force automation",
+    "customer interaction software",
+    "enterprise software",
+    "N-tier architecture",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-06-04",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

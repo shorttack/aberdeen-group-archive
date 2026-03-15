@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","1997-microsoft--the-joker-of-enterprise--158636","Primary subject; critiqued for desktop-oriented culture incompatible with enterprise IS requirements."
+"john-r-logan","John R. Logan","analyst","IT-research","unknown","","~1995-1998","1997-microsoft--the-joker-of-enterprise--158636","Aberdeen Group Vice President; author of this Executive Viewpoint. Confirmed in HP Professional Jan 1997 as 'Vice President of Aberdeen Group Inc.'"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Aberdeen Group -> Harte-Hanks (2001) -> Aberdeen (brand revival)","1988-2001","1997-microsoft--the-joker-of-enterprise--158636","Boston-based IT analyst firm; this is Volume 10/Number 20 of their Executive Viewpoint series."

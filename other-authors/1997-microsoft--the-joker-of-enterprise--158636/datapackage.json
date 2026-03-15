@@ -1,0 +1,52 @@
+{
+  "name": "1997-microsoft--the-joker-of-enterprise--158636",
+  "title": "Microsoft: The Joker of Enterprise IS Computing",
+  "description": "Aberdeen Group Vice President John R. Logan argues that Microsoft's historical desktop orientation is fundamentally incompatible with enterprise IS computing requirements. While acknowledging Microsoft's desktop excellence, Logan contends that NT Server and BackOffice have yet to demonstrate mission-critical production capability, and that Microsoft lacks the planning, support, product compatibility, and management culture required by senior enterprise IS executives. The brief is intended to help business executives and IS professionals build consensus on where—and where not—to deploy Microsoft products beyond the desktop.",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "John R. Logan",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Executive Viewpoint Vol.10 No.20, 1997",
+      "path": "https://web.archive.org/web/19980131061319/http://www.aberdeen.com:80/research/abstract/97090178.htm"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

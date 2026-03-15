@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Enterprise Data Mining Buying Guide: 1997 Edition",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "David Hill"
+    },
+    {
+      "@type": "Person",
+      "name": "Robert Moran"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "AberdeenGroup",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108"
+    }
+  },
+  "datePublished": "1997",
+  "numberOfPages": 97,
+  "description": "Buying guide evaluating eight commercial-grade data mining vendors using five criteria: vertical focus, platforms, algorithms, qualifiers, and pricing. Vendors: ANGOSS, Data Distilleries, HyperParallel, IBM, Magnify, NeoVista, Syllogic, Thinking Machines.",
+  "keywords": [
+    "data mining",
+    "machine learning",
+    "decision trees",
+    "neural networks",
+    "association rules",
+    "predictive analytics",
+    "buying guide"
+  ],
+  "url": "https://web.archive.org/web/19980131053748/http://www.aberdeen.com:80/research/reports/datamin.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "offers": {
+    "@type": "Offer",
+    "price": "495",
+    "priceCurrency": "USD"
+  }
+}

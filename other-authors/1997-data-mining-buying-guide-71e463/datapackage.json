@@ -1,0 +1,70 @@
+{
+  "name": "1997-data-mining-buying-guide-71e463",
+  "title": "Enterprise Data Mining Buying Guide: 1997 Edition",
+  "description": "Aberdeen Group buying guide profiling eight commercial-grade data mining vendors using a five-criterion evaluation framework. Authors: David Hill & Robert Moran. Published 1997.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "sources": [
+    {
+      "title": "AberdeenGroup",
+      "path": "https://web.archive.org/web/19980131053748/http://www.aberdeen.com:80/research/reports/datamin.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "David Hill",
+      "role": "author"
+    },
+    {
+      "title": "Robert Moran",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "data mining",
+    "machine learning",
+    "decision trees",
+    "neural networks",
+    "ANGOSS",
+    "HyperParallel",
+    "NeoVista",
+    "Thinking Machines",
+    "IBM",
+    "1997",
+    "buying guide"
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "name": "studies"
+    },
+    {
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "name": "entities"
+    },
+    {
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "name": "technologies"
+    },
+    {
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "name": "observations"
+    },
+    {
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "name": "codes"
+    }
+  ]
+}

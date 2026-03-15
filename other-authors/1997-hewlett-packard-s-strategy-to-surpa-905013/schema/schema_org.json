@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP Strategy to Surpass Compaq in Enterprise-NT Marketplace (1997)",
+  "description": "Aberdeen Group August 1997 white paper on HP's Simplified Enterprise Computing strategy.",
+  "url": "https://web.archive.org/web/19971007155330/http://www.aberdeen.com:80/secure/whtpaper/1997/hp/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-08-01",
+  "keywords": "HP, Compaq, Windows NT, enterprise computing, SEC, Merced, Tandem",
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "Thing",
+    "name": "HP Simplified Enterprise Computing (SEC) Strategy"
+  }
+}

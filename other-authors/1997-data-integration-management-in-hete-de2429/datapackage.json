@@ -1,0 +1,64 @@
+{
+  "name": "1997-data-integration-management-in-hete-de2429",
+  "title": "Data Integration Management in Heterogeneous Computing Environments",
+  "description": "Aberdeen Group vendor profile of Evolutionary Technologies International (ETI) and its ETI\u2022EXTRACT Tool Suite for data integration management \u2014 covering data warehousing, Y2K conversion, client/server migration, and legacy system integration. Published July 1997.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "version": "1.0.0",
+  "created": "2026-03-14",
+  "sources": [
+    {
+      "title": "AberdeenGroup",
+      "path": "https://web.archive.org/web/19971007155829/http://www.aberdeen.com:80/secure/profiles/1997/eti/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "AberdeenGroup",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "ETI",
+    "data integration",
+    "data warehouse",
+    "ETL",
+    "heterogeneous computing",
+    "Year 2000",
+    "migration",
+    "metadata",
+    "1997"
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource",
+      "name": "studies"
+    },
+    {
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource",
+      "name": "entities"
+    },
+    {
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource",
+      "name": "technologies"
+    },
+    {
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource",
+      "name": "observations"
+    },
+    {
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource",
+      "name": "codes"
+    }
+  ]
+}

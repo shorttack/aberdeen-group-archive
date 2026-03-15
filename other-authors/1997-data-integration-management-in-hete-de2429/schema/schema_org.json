@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Data Integration Management in Heterogeneous Computing Environments",
+  "author": {
+    "@type": "Organization",
+    "name": "AberdeenGroup"
+  },
+  "datePublished": "1997-07-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AberdeenGroup",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108"
+    }
+  },
+  "description": "Aberdeen Group vendor profile evaluating ETI's ETI\u2022EXTRACT Tool Suite for data integration management across heterogeneous computing environments including data warehousing, Y2K conversion, and legacy migration.",
+  "keywords": [
+    "ETI",
+    "ETI EXTRACT",
+    "data integration",
+    "data warehouse",
+    "ETL",
+    "Year 2000",
+    "heterogeneous computing"
+  ],
+  "url": "https://web.archive.org/web/19971007155829/http://www.aberdeen.com:80/secure/profiles/1997/eti/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "ETI\u2022EXTRACT Tool Suite",
+    "applicationCategory": "Data Integration Software",
+    "offers": {
+      "@type": "Offer",
+      "seller": {
+        "@type": "Organization",
+        "name": "Evolutionary Technologies International",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4301 Westbank Drive, Bld. B",
+          "addressLocality": "Austin",
+          "addressRegion": "TX",
+          "postalCode": "78746"
+        }
+      }
+    }
+  }
+}

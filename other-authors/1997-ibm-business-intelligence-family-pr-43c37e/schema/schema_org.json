@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM Business Intelligence Family \u2014 Aberdeen Group (1997)",
+  "description": "Aberdeen Group 1997 profile of IBM Business Intelligence Family: Information Warehouse, Visual Warehouse, Intelligent Decision Server, Intelligent Miner.",
+  "url": "https://web.archive.org/web/19970604113311/http://www.aberdeen.com:80/secure/profiles/1997/ibmbif/ibmbif.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-06-04",
+  "keywords": "IBM, Business Intelligence, data warehousing, OLAP, data mining, Visual Warehouse, Intelligent Miner",
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "IBM Business Intelligence Family",
+    "applicationCategory": "Business Intelligence / Data Warehousing"
+  }
+}

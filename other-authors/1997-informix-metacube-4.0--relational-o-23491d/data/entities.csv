@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-MC-001,Informix Software,Software Vendor,Database / Business Intelligence,Acquired,IBM (acquired database division 2001),1980-2001,1997-informix-metacube-4.0--relational-o-23491d,"Vendor of MetaCube; founded as Relational Database Systems 1980; database division acquired by IBM for $1B in 2001"
+ENT-MC-002,IBM,Technology Company,Enterprise Technology,Active (public),N/A,1911-present,1997-informix-metacube-4.0--relational-o-23491d,Acquired Informix Software database division in 2001; continued Informix product line
+ENT-MC-003,Aberdeen Group,Research Firm,IT Research & Advisory,Acquired,Spiceworks Ziff Davis,1988-2019,1997-informix-metacube-4.0--relational-o-23491d,Publisher of the study

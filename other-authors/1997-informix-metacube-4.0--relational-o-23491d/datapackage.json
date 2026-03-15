@@ -1,0 +1,69 @@
+{
+  "name": "1997-informix-metacube-4.0--relational-o-23491d",
+  "title": "Informix MetaCube 4.0: Relational OLAP and RDBMS Create an Integrated DSS Environment",
+  "description": "Aberdeen Group product profile (November 1997) examining Informix MetaCube 4.0, a Relational OLAP environment leveraging Informix Dynamic Scalable Architecture (DSA). Analyst: Bob Moran.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — MetaCube 4.0 Profile Abstract (Wayback Machine)",
+      "path": "https://web.archive.org/web/19981206090115/http://www.aberdeen.com:80/research/abstract/97110220.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "publisher"
+    },
+    {
+      "title": "Bob Moran",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Informix",
+    "MetaCube",
+    "ROLAP",
+    "relational OLAP",
+    "data warehouse",
+    "DSS",
+    "decision support",
+    "RDBMS",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-11-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "profile": "tabular-data-resource"
+    }
+  ]
+}

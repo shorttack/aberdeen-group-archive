@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Informix MetaCube 4.0: Relational OLAP and RDBMS Create an Integrated DSS Environment",
+  "description": "Aberdeen Group product profile (November 1997) examining Informix MetaCube 4.0 ROLAP environment and its integration with Informix Dynamic Scalable Architecture for enterprise decision support.",
+  "author": [
+    {"@type": "Person", "name": "Bob Moran"},
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-11-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "SoftwareApplication", "name": "Informix MetaCube 4.0"},
+    {"@type": "Thing", "name": "Relational OLAP"},
+    {"@type": "Thing", "name": "Data Warehousing"},
+    {"@type": "Thing", "name": "Decision Support Systems"},
+    {"@type": "Organization", "name": "Informix Software"}
+  ],
+  "genre": "Product Profile",
+  "keywords": "Informix MetaCube, ROLAP, data warehouse, DSS, Informix DSA, Aberdeen Group",
+  "url": "https://web.archive.org/web/19981206090115/http://www.aberdeen.com:80/research/abstract/97110220.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

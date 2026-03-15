@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Knowledge Discovery One's Retail Discovery Suite: Promoting Retail Data Mining Applications",
+  "description": "Aberdeen Group analyst profile (1997) of Knowledge Discovery One (KD1) and its Retail Discovery Suite, a parallel-processing data mining platform for retail POS analytics. Analyst: David Hill.",
+  "author": [
+    {"@type": "Person", "name": "David Hill"},
+    {"@type": "Organization", "name": "Aberdeen Group, Inc."}
+  ],
+  "datePublished": "1997-11-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {"@type": "Organization", "name": "Knowledge Discovery One"},
+    {"@type": "SoftwareApplication", "name": "Retail Discovery Suite"},
+    {"@type": "Thing", "name": "Retail Data Mining"},
+    {"@type": "Thing", "name": "Point of Sale Analytics"},
+    {"@type": "Thing", "name": "Customer Behavior Prediction"}
+  ],
+  "genre": "Analyst Profile",
+  "keywords": "retail data mining, KD1, Retail Discovery Suite, POS analytics, customer behavior, Aberdeen Group, 1997",
+  "url": "https://web.archive.org/web/19980131062739/http://www.aberdeen.com:80/research/abstract/97110227.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

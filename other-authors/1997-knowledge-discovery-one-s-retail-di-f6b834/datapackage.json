@@ -1,0 +1,48 @@
+{
+  "name": "1997-knowledge-discovery-one-s-retail-di-f6b834",
+  "title": "Knowledge Discovery One's Retail Discovery Suite: Promoting Retail Data Mining Applications",
+  "description": "Aberdeen Group analyst profile (1997) examining Knowledge Discovery One (KD1) and its Retail Discovery Suite (RDS), a parallel-processing retail data mining platform. Analyst: David Hill.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — KD1 Retail Discovery Suite Profile Abstract (Wayback Machine)",
+      "path": "https://web.archive.org/web/19980131062739/http://www.aberdeen.com:80/research/abstract/97110227.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "publisher"
+    },
+    {
+      "title": "David Hill",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "retail data mining",
+    "Knowledge Discovery One",
+    "KD1",
+    "Retail Discovery Suite",
+    "RDS",
+    "POS analytics",
+    "customer behavior",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-11-01",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

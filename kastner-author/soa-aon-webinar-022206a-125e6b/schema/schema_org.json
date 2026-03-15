@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006",
+  "description": "Archival Ingest Skill v13 structured data extraction from Aberdeen Group webinar presentation on SOA adoption findings and 2006 enterprise integration research agenda. Contains entity, technology, and observation data covering SOA adoption rates, KPI benchmarks, adoption motives, and research roadmap.",
+  "identifier": "soa-aon-webinar-022206a-125e6b",
+  "url": "source/original_text.md",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateCreated": "2026-03-15",
+  "datePublished": "2006-02-22",
+  "temporalCoverage": "2005/2006",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner",
+    "jobTitle": "Senior Research Analyst",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group",
+      "url": "https://www.aberdeen.com"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "url": "https://www.aberdeen.com"
+  },
+  "keywords": [
+    "SOA",
+    "service-oriented architecture",
+    "enterprise integration",
+    "web services",
+    "ESB",
+    "enterprise service bus",
+    "IT benchmarking",
+    "Aberdeen Group",
+    "middleware",
+    "IT budget",
+    "KPI",
+    "innovation spend",
+    "maintenance costs"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Service-Oriented Architecture",
+      "alternateName": "SOA"
+    },
+    {
+      "@type": "Thing",
+      "name": "Enterprise Application Integration"
+    },
+    {
+      "@type": "Thing",
+      "name": "Web Services"
+    },
+    {
+      "@type": "Thing",
+      "name": "Enterprise Service Bus",
+      "alternateName": "ESB"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Study metadata including assessments and rationale"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv",
+      "description": "Organizations and persons referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Technologies discussed with lifecycle assessments"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv",
+      "description": "Extracted observations, metrics, and findings"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv",
+      "description": "Code definitions for observation types, confidence levels, and methodology codes"
+    }
+  ],
+  "measurementTechnique": "benchmarking, survey-research, industry-analysis",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "SOA adoption rate",
+      "description": "Percentage of software that is SOA-based within surveyed enterprises"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IT innovation spend",
+      "description": "Percent of IT budget spent on innovation",
+      "unitText": "percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Software maintenance costs",
+      "description": "Software maintenance costs as percent of IT budget",
+      "unitText": "percent"
+    }
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Archival Ingest Skill v13 Collection"
+  }
+}

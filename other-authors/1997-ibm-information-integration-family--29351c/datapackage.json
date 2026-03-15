@@ -1,0 +1,63 @@
+{
+  "name": "1997-ibm-information-integration-family--29351c",
+  "title": "IBM Information Integration Family — Aberdeen Group Profile (1997)",
+  "description": "Frictionless Data Package archiving Aberdeen Group's 1997 evaluation of IBM's Information Integration product family: DataJoiner, DataPropagator, Net.data, and MQSeries for heterogeneous data federation, log-based CDC replication, and web-to-database connectivity.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Profile: IBM Information Integration Family",
+      "path": "https://web.archive.org/web/19970604113322/http://www.aberdeen.com:80/secure/profiles/1997/ibmiif/ibmiif.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author"
+    },
+    {
+      "title": "Blue Bridge Group Archival Project",
+      "role": "publisher"
+    }
+  ],
+  "keywords": ["IBM", "DataJoiner", "DataPropagator", "Net.data", "MQSeries", "data integration", "CDC", "network computing", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

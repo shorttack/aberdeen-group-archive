@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Informix and Silicon Graphics Reach New TPC-C SMP High-Water Mark",
+  "description": "Aberdeen Group benchmark analysis (1997) examining the joint Informix-OnLine 7.3 / SGI Origin2000 TPC-C result of 25,309.20 tpmC at $139.04/tpmC — the highest non-clustered SMP result at the time.",
+  "author": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1997-07-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc."
+  },
+  "about": [
+    {"@type": "SoftwareApplication", "name": "Informix-OnLine Dynamic Server 7.3"},
+    {"@type": "Product", "name": "Silicon Graphics Origin2000 Server"},
+    {"@type": "Thing", "name": "TPC-C Benchmark"},
+    {"@type": "Thing", "name": "Symmetric Multiprocessing"},
+    {"@type": "Organization", "name": "Informix Software"},
+    {"@type": "Organization", "name": "Silicon Graphics"}
+  ],
+  "genre": "Benchmark Analysis Profile",
+  "keywords": "TPC-C, Informix, Silicon Graphics, SGI, SMP, OLTP, 64-bit, Origin2000, benchmark, Aberdeen Group",
+  "url": "https://web.archive.org/web/19971007160057/http://www.aberdeen.com:80/secure/profiles/1997/infsgi/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "en-US",
+  "temporalCoverage": "1997"
+}

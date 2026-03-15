@@ -1,0 +1,50 @@
+{
+  "name": "1997-informix-and-silicon-graphics-reach-98e6ea",
+  "title": "Informix and Silicon Graphics Reach New TPC-C SMP High-Water Mark",
+  "description": "Aberdeen Group benchmark analysis profile (1997) examining the joint Informix Software / Silicon Graphics TPC-C result of 25,309.20 tpmC at $139.04/tpmC using Informix-OnLine 7.3 on the SGI Origin2000 28-way SMP server.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group — Informix/SGI TPC-C Profile (Wayback Machine)",
+      "path": "https://web.archive.org/web/19971007160057/http://www.aberdeen.com:80/secure/profiles/1997/infsgi/body.htm"
+    },
+    {
+      "title": "Transaction Processing Council TPC-C Results",
+      "path": "https://www.tpc.org/tpcc/results/tpcc_results5.asp"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group, Inc.",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Informix",
+    "Silicon Graphics",
+    "SGI",
+    "TPC-C",
+    "benchmark",
+    "SMP",
+    "OLTP",
+    "64-bit",
+    "Origin2000",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-07-01",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "profile": "tabular-data-resource"},
+    {"name": "entities", "path": "data/entities.csv", "profile": "tabular-data-resource"},
+    {"name": "technologies", "path": "data/technologies.csv", "profile": "tabular-data-resource"},
+    {"name": "observations", "path": "data/observations.csv", "profile": "tabular-data-resource"},
+    {"name": "codes", "path": "data/codes.csv", "profile": "tabular-data-resource"}
+  ]
+}

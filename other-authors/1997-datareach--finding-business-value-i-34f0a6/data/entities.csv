@@ -1,0 +1,5 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-DR-001,EMC Corporation,Vendor,Storage / Enterprise Technology,Acquired,Dell Technologies,1979-2016,1997-datareach--finding-business-value-i-34f0a6,"Co-developer of DataReach; partnered with BMC Software; acquired by Dell in 2016 for $67 billion to form Dell EMC"
+ENT-DR-002,BMC Software,Vendor,Enterprise Software,Active (Private),BMC Software (Thoma Bravo portfolio),1980-present,1997-datareach--finding-business-value-i-34f0a6,"Co-developer of DataReach; mainframe software specialist; taken private in 2013 by investor consortium"
+ENT-DR-003,DataReach,Product / Joint Venture,Data Management Software,Discontinued,N/A,~1997-~2000,1997-datareach--finding-business-value-i-34f0a6,"Joint EMC-BMC product combining intelligent storage and data movement software; no evidence of long-term market success; supplanted by broader ETL and EAI platforms"
+ENT-DR-004,Aberdeen Group,Research / Analyst Firm,IT Research,Acquired,Aberdeen (acquired by Harte-Hanks 2001; divested 2019),1988-present,1997-datareach--finding-business-value-i-34f0a6,"Publisher of study; Boston-based IT research firm"

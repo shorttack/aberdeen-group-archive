@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "DataReach: Finding Business Value in Extracting Data — Frictionless Data Package",
+  "description": "Structured archival data package for the 1997 Aberdeen Group vendor profile of DataReach, a joint EMC Corporation and BMC Software product for mainframe data extraction.",
+  "url": "https://web.archive.org/web/19980131062723/http://www.aberdeen.com:80/research/abstract/97110247.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["mainframe", "data extraction", "data warehousing", "EMC Corporation", "BMC Software", "DataReach", "Aberdeen Group", "1997"],
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "addressCountry": "US"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "David Hill"
+  },
+  "datePublished": "1997-11-01",
+  "dateModified": "2026-03-14",
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "DataReach",
+      "provider": [
+        {"@type": "Organization", "name": "EMC Corporation"},
+        {"@type": "Organization", "name": "BMC Software"}
+      ]
+    }
+  ],
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+TECH-DR-001,DataReach,Data Movement Software,EMC + BMC Software,1990s,emerging,obsolete,1997-datareach--finding-business-value-i-34f0a6,"Joint product combining EMC intelligent storage with BMC data movement software; bypassed mainframe scheduling constraints"
+TECH-DR-002,Mainframe Data Extraction,Data Integration,Various,1970s-present,mature,legacy-niche,1997-datareach--finding-business-value-i-34f0a6,"Extracting data from mainframe systems (IBM z/OS) for use in open systems environments; still practiced in large enterprises"
+TECH-DR-003,Data Warehousing,Data Management,Various,1990s,emerging,mature,1997-datareach--finding-business-value-i-34f0a6,"Central repository for integrated data supporting decision making; term popularized by Bill Inmon in early 1990s"
+TECH-DR-004,Data Marts,Data Management,Various,1990s,emerging,mature,1997-datareach--finding-business-value-i-34f0a6,"Subject-specific subsets of data warehouses for departmental or functional use"
+TECH-DR-005,Open Systems Environments,Platform,Various,1980s-1990s,mainstream,superseded,1997-datareach--finding-business-value-i-34f0a6,"Unix and Windows-based computing environments contrasted with proprietary mainframe systems; now largely cloud and x86 Linux"

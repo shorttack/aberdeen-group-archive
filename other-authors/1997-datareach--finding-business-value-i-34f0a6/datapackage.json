@@ -1,0 +1,85 @@
+{
+  "name": "1997-datareach--finding-business-value-i-34f0a6",
+  "title": "DataReach: Finding Business Value in Extracting Data",
+  "description": "Aberdeen Group vendor profile examining DataReach, a joint EMC Corporation and BMC Software product designed to bypass mainframe scheduling constraints and accelerate delivery of mainframe data to open systems data warehouses and data marts. Author David Hill predicts the product will remove infrastructure barriers to data flow for Global 2000 enterprises.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group",
+      "path": "https://web.archive.org/web/19980131062723/http://www.aberdeen.com:80/research/abstract/97110247.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "David Hill",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "mainframe",
+    "data extraction",
+    "data warehousing",
+    "EMC Corporation",
+    "BMC Software",
+    "DataReach",
+    "open systems",
+    "data movement",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-11-01",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "string"},
+          {"name": "type", "type": "string"},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "abstract", "type": "string"},
+          {"name": "license", "type": "string"},
+          {"name": "importance", "type": "integer"},
+          {"name": "importance_rationale", "type": "string"},
+          {"name": "relevance", "type": "integer"},
+          {"name": "relevance_rationale", "type": "string"},
+          {"name": "prescience", "type": "integer"},
+          {"name": "prescience_rationale", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

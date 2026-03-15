@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "IBM Network Computing: Enterprise Communications Family",
+  "description": "Aberdeen Group evaluates IBM's Enterprise Communications Family, a suite of communications software for enterprise network computing. The study assesses IBM's advanced multiprotocol support (AnyNet/MPTN) and High Performance Routing (HPR) technologies, covering products including Communications Server (CS/2, CS/NT, CS/AIX, OS/400, CS/MVS) and Personal Communications. Aberdeen concludes that IBM's approach delivers scalability, flexibility, and ease of SNA-to-TCP/IP migration for enterprises transitioning to network computing architectures.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Enterprise Networking / Communications Software",
+    "Aberdeen Group",
+    "1997",
+    "market research"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv"
+  }
+}

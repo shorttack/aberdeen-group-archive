@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ENT-S1-001","IBM Corporation","vendor","technology","active","","1911-present","1997-ibm-s-enterprise-communications-fam-14559a","Subject vendor; global IT company headquartered in Armonk NY"
+"ENT-S1-002","IBM Communications Server","product","technology","legacy","IBM z/OS Communications Server","1994-2024","1997-ibm-s-enterprise-communications-fam-14559a","End of support announced April 2024 for distributed versions; z/OS version persists"
+"ENT-S1-003","IBM Personal Communications","product","technology","legacy","","1994-2020s","1997-ibm-s-enterprise-communications-fam-14559a","3270/5250 terminal emulation; still sold but niche legacy product"
+"ENT-S1-004","Novell NetWare for SAA","product","technology","discontinued","","1990-2004","1997-ibm-s-enterprise-communications-fam-14559a","Novell discontinued NetWare and associated SAA products in mid-2000s"
+"ENT-S1-005","Aberdeen Group","analyst-firm","market-research","absorbed","Aberdeen (Spiceworks Ziff Davis)","1988-2014","1997-ibm-s-enterprise-communications-fam-14559a","Acquired by Harte-Hanks in 2001; brand continues under new ownership"

@@ -1,0 +1,64 @@
+{
+  "name": "1997-hewlett-packard-v-class--providing--897f7a",
+  "title": "HP V-Class: Providing Enterprise Customers With the Power Path They Need \u2014 Aberdeen Group Profile (1997)",
+  "description": "Frictionless Data Package archiving the May 1997 Aberdeen Group product profile of HP's V-Class HP 9000 enterprise SMP server announcement.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group via Wayback Machine",
+      "path": "https://web.archive.org/web/19970604112739/http://www.aberdeen.com:80/secure/profiles/1997/vclass/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "HP V-Class",
+    "HP 9000",
+    "enterprise server",
+    "SMP",
+    "OLTP",
+    "PA-RISC",
+    "HyperPlane",
+    "1997",
+    "Aberdeen Group"
+  ],
+  "created": "1997-05-22",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

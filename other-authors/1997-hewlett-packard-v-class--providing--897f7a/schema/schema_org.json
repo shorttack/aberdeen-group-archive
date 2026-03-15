@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP V-Class: Providing Enterprise Customers With the Power Path They Need (1997)",
+  "description": "Archival data package for Aberdeen Group May 1997 product profile of HP V-Class HP 9000 servers.",
+  "url": "https://web.archive.org/web/19970604112739/http://www.aberdeen.com:80/secure/profiles/1997/vclass/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-05-22",
+  "keywords": "HP V-Class, enterprise server, OLTP, PA-RISC, SMP, HyperPlane",
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "Product",
+    "name": "HP 9000 V2200 Enterprise Server",
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Hewlett-Packard"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"e4-01","IBM","company","IT Hardware/Software","active","IBM (ongoing)","1911-present","1997-ibm-application-development-product-895c4d","$76B revenue in 1997. VisualAge IDE family eventually discontinued 2007; Eclipse framework derived from VisualAge ME."
+"e4-02","Amerex","company","Manufacturing","unknown","unknown","unknown","1997-ibm-application-development-product-895c4d","Customer reference: cited VisualAge Generator for rapid migration from CSP with improved productivity in manufacturing applications."
+"e4-03","ImageScan","company","Financial Technology","unknown","unknown","unknown","1997-ibm-application-development-product-895c4d","Customer reference: cited VisualAge for C++ for application-performance scalability in check processing solutions."
+"e4-04","Aberdeen Group","analyst-firm","IT Research","acquired","Aberdeen (Harte-Hanks); Informa Tech","1988-present","1997-ibm-application-development-product-895c4d","Author of study."
+"e4-05","Eclipse Foundation","non-profit","Open Source Software","active","Eclipse Foundation (ongoing)","2004-present","1997-ibm-application-development-product-895c4d","Not mentioned in study but historically relevant: Eclipse IDE derived from IBM VisualAge Micro Edition; IBM donated Eclipse to open source in 2001."

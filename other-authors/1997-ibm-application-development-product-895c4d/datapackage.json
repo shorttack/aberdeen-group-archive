@@ -1,0 +1,65 @@
+{
+  "name": "1997-ibm-application-development-product-895c4d",
+  "title": "IBM Application Development Product Family \u2014 Aberdeen Group Product Profile (1997)",
+  "description": "Frictionless Data Package archiving the 1997 Aberdeen Group product profile of IBM's VisualAge-based application development tool suite for network computing.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group via Wayback Machine",
+      "path": "https://web.archive.org/web/19970604113257/http://www.aberdeen.com:80/secure/profiles/1997/ibmadpf/ibmadpf.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "IBM",
+    "VisualAge",
+    "application development",
+    "network computing",
+    "Java",
+    "COBOL",
+    "FlowMark",
+    "Eclipse",
+    "1997",
+    "Aberdeen Group"
+  ],
+  "created": "1997-06-04",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

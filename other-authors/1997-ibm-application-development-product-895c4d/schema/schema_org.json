@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM Application Development Product Family \u2014 Aberdeen Group (1997)",
+  "description": "Aberdeen Group 1997 profile of IBM VisualAge and network computing development tool suite.",
+  "url": "https://web.archive.org/web/19970604113257/http://www.aberdeen.com:80/secure/profiles/1997/ibmadpf/ibmadpf.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-06-04",
+  "keywords": "IBM VisualAge, application development, Java, COBOL, network computing, FlowMark",
+  "temporalCoverage": "1997",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "IBM VisualAge Product Family",
+    "applicationCategory": "Integrated Development Environment"
+  }
+}

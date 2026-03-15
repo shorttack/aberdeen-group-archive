@@ -1,0 +1,18 @@
+{
+  "name": "1997-dynasoft-s-boks-family--a-pragmatic-e6df7d",
+  "title": "DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On",
+  "description": "Aberdeen Group vendor profile of DynaSoft AB and its BoKS product family (June 1997). Evaluates BoKS as enterprise-grade Single Sign-On solution endorsed by HP and Sun Microsystems, with major customer deployments. DynaSoft was acquired by Security Dynamics for $115M in July 1997.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "sources": [{"title": "Aberdeen Group Profile (Wayback Machine)", "path": "https://web.archive.org/web/19971007160356/http://www.aberdeen.com:80/secure/profiles/1997/dyna/body.htm"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "publisher"}],
+  "keywords": ["DynaSoft", "BoKS", "Single Sign-On", "SSO", "enterprise security", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "entities", "path": "data/entities.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "technologies", "path": "data/technologies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "observations", "path": "data/observations.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "codes", "path": "data/codes.csv", "format": "csv", "mediatype": "text/csv"}
+  ]
+}

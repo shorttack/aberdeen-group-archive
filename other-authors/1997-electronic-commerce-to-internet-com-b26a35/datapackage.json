@@ -1,0 +1,18 @@
+{
+  "name": "1997-electronic-commerce-to-internet-com-b26a35",
+  "title": "Electronic Commerce to Internet Commerce: The Evolution of The InterNetworked Enterprise",
+  "description": "Aberdeen Group Executive White Paper (November 1997) on the transition from EDI-based EC to Internet Commerce. Concludes organizations are on the threshold of an EC revolution; provides analytical framework for IC supplier evaluation.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "sources": [{"title": "Aberdeen Group White Paper (Wayback Machine)", "path": "https://web.archive.org/web/19980131062330/http://www.aberdeen.com:80/research/abstract/97110210.htm"}],
+  "contributors": [{"title": "David Alschuler", "role": "author"}, {"title": "Aberdeen Group", "role": "publisher"}],
+  "keywords": ["electronic commerce", "Internet commerce", "EDI", "e-commerce", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "entities", "path": "data/entities.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "technologies", "path": "data/technologies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "observations", "path": "data/observations.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "codes", "path": "data/codes.csv", "format": "csv", "mediatype": "text/csv"}
+  ]
+}

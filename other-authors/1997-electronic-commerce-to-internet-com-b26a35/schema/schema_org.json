@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Electronic Commerce to Internet Commerce: The Evolution of The InterNetworked Enterprise — Aberdeen Group 1997",
+  "description": "Structured data package from Aberdeen Group Executive White Paper (November 1997) on the transition from EDI-based Electronic Commerce to Internet Commerce, providing an analytical framework for EC/IC supplier evaluation.",
+  "url": "https://web.archive.org/web/19980131062330/http://www.aberdeen.com:80/research/abstract/97110210.htm",
+  "identifier": "1997-electronic-commerce-to-internet-com-b26a35",
+  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "author": {"@type": "Person", "name": "David Alschuler"},
+  "datePublished": "1997-11-01",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["electronic commerce", "Internet commerce", "EDI", "e-commerce", "InterNetworked Enterprise", "virtual channels", "1997"],
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/studies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/entities.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/technologies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/observations.csv"}
+  ]
+}

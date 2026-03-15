@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "DynaFlo Systems: E-Mail For The Business Masses — Aberdeen Group 1997",
+  "description": "Structured data package from Aberdeen Group vendor profile of DynaFlo Systems (1997), examining ISP email services and market dynamics for the non-early-adopter business segment.",
+  "url": "https://web.archive.org/web/19981202011504/http://www.aberdeen.com:80/research/abstract/97070128.htm",
+  "identifier": "1997-dynaflo-systems----e-mail-for-the-b-854582",
+  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "author": [{"@type": "Person", "name": "Peter Kastner"}, {"@type": "Person", "name": "Dan Taylor"}],
+  "datePublished": "1997-07-01",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["DynaFlo Systems", "PushMail", "ISP email", "Internet Service Providers", "e-mail services", "1997"],
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/studies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/entities.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/technologies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/observations.csv"}
+  ]
+}

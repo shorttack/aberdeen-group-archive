@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Marathon's Endurance 4000: Bringing Fault Tolerance to NT Servers & Clusters",
+  "description": "Peter S. Kastner of Aberdeen Group evaluates Marathon Technologies' Endurance 4000, a hardware-based fault-tolerant solution for Windows NT servers. With NT increasingly hosting mission-critical applications, the study examines why Microsoft's forthcoming Wolfpack clustering software provides only minutes-level failover—inadequate for true mission-critical needs—while Marathon's Endurance 4000 provides continuous, transparent fault tolerance at 99.99% uptime for ~$24,995. The study concludes the Endurance 4000 is a well-architected breakthrough that creates a new 'fault-tolerant NT servers' category.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1997-02-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "keywords": [
+    "Marathon Technologies",
+    "Endurance 4000",
+    "Windows NT",
+    "fault tolerance",
+    "high availability",
+    "Wolfpack",
+    "MSCS",
+    "server clustering",
+    "1997",
+    "Peter S. Kastner"
+  ],
+  "temporalCoverage": "1997",
+  "variableMeasured": [
+    "technology-assessment",
+    "market-data",
+    "viability-prediction",
+    "actual-outcome",
+    "expert-opinion",
+    "benchmark-result",
+    "strategy-classification"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "1997-ibm\u2019s-network-computing-solution----e74e8a",
+  "title": "IBM's Network Computing Solution: Energize Your Enterprise",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group",
+      "path": "https://web.archive.org/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/studies.csv",
+      "name": "studies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/entities.csv",
+      "name": "entities",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/technologies.csv",
+      "name": "technologies",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/observations.csv",
+      "name": "observations",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "data/codes.csv",
+      "name": "codes",
+      "mediatype": "text/csv"
+    }
+  ],
+  "metadata": {
+    "study_id": "1997-ibm\u2019s-network-computing-solution----e74e8a",
+    "date": "1997-06-01",
+    "type": "profile",
+    "subject_domain": "Network Computing / Enterprise IT Architecture",
+    "importance": 3,
+    "relevance": 3,
+    "prescience": 3,
+    "entity_count": 6,
+    "technology_count": 9,
+    "observation_count": 18
+  }
+}

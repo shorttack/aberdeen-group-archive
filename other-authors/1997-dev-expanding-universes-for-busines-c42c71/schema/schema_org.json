@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Expanding Universes For BusinessObjects And Its Users — Frictionless Data Package",
+  "description": "Structured archival data package for the 1997 Aberdeen Group strategy profile of Business Objects, evaluating BusinessObjects 4.0, Project Darwin, BusinessMiner, and the company's financial health and strategic partnerships.",
+  "url": "https://web.archive.org/web/19970604112958/http://www.aberdeen.com:80/secure/profiles/1997/bobjects/body.htm",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["Business Objects", "BusinessObjects 4.0", "business intelligence", "OLAP", "data mining", "Project Darwin", "Aberdeen Group", "1997"],
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "addressCountry": "US"
+    }
+  },
+  "datePublished": "1997-06-04",
+  "dateModified": "2026-03-14",
+  "about": [
+    {
+      "@type": "Organization",
+      "name": "Business Objects S.A.",
+      "url": "https://en.wikipedia.org/wiki/Business_Objects",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2870 Zanker Road",
+        "addressLocality": "San Jose",
+        "addressRegion": "CA",
+        "postalCode": "95134"
+      }
+    }
+  ],
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ]
+}

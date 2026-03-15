@@ -1,0 +1,69 @@
+{
+  "name": "1997-dev-expanding-universes-for-busines-c42c71",
+  "title": "Expanding Universes For BusinessObjects And Its Users",
+  "description": "Aberdeen Group strategy profile evaluating Business Objects as a top-tier BI software company with 475,000 licenses in 4,000 enterprises. Covers BusinessObjects 4.0 architecture including the Microcube OLAP engine, Project Darwin web-based BI initiative, BusinessMiner desktop data mining, and extensive user survey data. Aberdeen predicts sustained growth, market leadership, and successful delivery of web-based BI capabilities.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group / Wayback Machine",
+      "path": "https://web.archive.org/web/19970604112958/http://www.aberdeen.com:80/secure/profiles/1997/bobjects/body.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Business Objects",
+    "BusinessObjects 4.0",
+    "business intelligence",
+    "OLAP",
+    "data mining",
+    "query and reporting",
+    "Microcube",
+    "Project Darwin",
+    "WebIntelligence",
+    "BusinessMiner",
+    "SAP",
+    "decision support",
+    "Aberdeen Group",
+    "1997"
+  ],
+  "created": "1997-06-04",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

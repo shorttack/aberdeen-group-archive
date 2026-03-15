@@ -1,0 +1,18 @@
+{
+  "name": "1997-dw-competitive-advantage-through-pr-b307c7",
+  "title": "Competitive Advantage Through Prism Metadata Scalability",
+  "description": "Aberdeen Group vendor profile of Prism Solutions Inc. (June 1997), evaluating its metadata-driven data warehouse software. Covers Prism Warehouse Executive, Prism Warehouse Directory, Prism Iterations methodology, Web Access and Personal Mart modules. Prism acquired by Ardent for $42M in Jan 1999; lineage continues in IBM InfoSphere DataStage.",
+  "version": "1.0.0",
+  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "sources": [{"title": "Aberdeen Group Profile (Wayback Machine)", "path": "https://web.archive.org/web/19970604113329/http://www.aberdeen.com:80/secure/profiles/1997/prism/body.htm"}],
+  "contributors": [{"title": "Aberdeen Group", "role": "publisher"}],
+  "keywords": ["Prism Solutions", "data warehouse", "metadata", "ETL", "data mart", "1997"],
+  "created": "2026-03-14",
+  "resources": [
+    {"name": "studies", "path": "data/studies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "entities", "path": "data/entities.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "technologies", "path": "data/technologies.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "observations", "path": "data/observations.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "codes", "path": "data/codes.csv", "format": "csv", "mediatype": "text/csv"}
+  ]
+}

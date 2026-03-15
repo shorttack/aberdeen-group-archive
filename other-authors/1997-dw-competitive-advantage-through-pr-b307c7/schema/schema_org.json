@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Competitive Advantage Through Prism Metadata Scalability — Aberdeen Group 1997",
+  "description": "Structured data package from Aberdeen Group vendor profile of Prism Solutions Inc. (1997), evaluating its metadata-driven data warehouse software suite. Prism was acquired by Ardent Software for $42M in January 1999; technology lineage continued through Informix and IBM DataStage.",
+  "url": "https://web.archive.org/web/19970604113329/http://www.aberdeen.com:80/secure/profiles/1997/prism/body.htm",
+  "identifier": "1997-dw-competitive-advantage-through-pr-b307c7",
+  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prism Solutions Inc.",
+    "address": {"@type": "PostalAddress", "streetAddress": "1000 Hamlin Court", "addressLocality": "Sunnyvale", "addressRegion": "CA", "postalCode": "94089"}
+  },
+  "datePublished": "1997-06-01",
+  "dateModified": "2026-03-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["Prism Solutions", "data warehouse", "metadata", "ETL", "data mart", "scalability", "CORBA", "1997"],
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/studies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/entities.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/technologies.csv"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/observations.csv"}
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SARS May Impact Global Electronics Industry",
+  "description": "Aberdeen Group hot topic report warning that the 2003 SARS outbreak could cause major disruptions to the global electronics supply chain concentrated in Asia Pacific. The report documents that Asia Pacific consumed 37% ($52B) of 2002 semiconductor production, with 85%+ of WiFi gear made in Taiwan and PRC. It catalogs facility closures (Motorola Singapore), travel bans (Compal), and corporate shutdowns (CTIC) already occurring, and warns that a PRC quarantine would mean nuclear winter for the semiconductor industry. The analysis identifies just-in-time manufacturing as inherently vulnerable to pandemic disruption and notes critical single-source dependencies on PRC components.",
+  "identifier": "2003-sars2-hot-topic-deb75d",
+  "url": "",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2003-03-28",
+  "dateCreated": "2026-03-16",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Russ Craig",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Peter Kastner",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "keywords": [
+    "SARS",
+    "semiconductor",
+    "supply chain",
+    "Asia Pacific",
+    "electronics industry",
+    "pandemic risk",
+    "PRC",
+    "Taiwan",
+    "WiFi",
+    "just-in-time manufacturing",
+    "COVID-19 prescience"
+  ],
+  "temporalCoverage": "2002/2003",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Asia Pacific"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Semiconductor Supply Chain"
+    },
+    {
+      "@type": "Thing",
+      "name": "SARS (Severe Acute Respiratory Syndrome)"
+    },
+    {
+      "@type": "Thing",
+      "name": "Pandemic Risk to Manufacturing"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Codes"
+    }
+  ],
+  "isAccessibleForFree": true,
+  "conformsTo": {
+    "@type": "CreativeWork",
+    "name": "Frictionless Data Package",
+    "url": "https://specs.frictionlessdata.io/data-package/"
+  }
+}

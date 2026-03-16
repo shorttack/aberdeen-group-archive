@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "LaGrande Technology: A Proposal for Consumer Market Research",
+  "description": "Archival data package for Aberdeen Group's 2003 proposal to Intel Corporation regarding consumer market research for Intel LaGrande Technology (LT). The proposal argues that the consumer market for LT represents a significant untapped opportunity exceeding $150M in annual revenue and outlines a three-phase multinational research methodology.",
+  "identifier": "2003-intel-consumer-lt-10-5-8c346e",
+  "url": "",
+  "datePublished": "2003-10-05",
+  "dateCreated": "2026-03-16",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner",
+    "jobTitle": "Executive Vice President, Research",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "260 Franklin Street",
+        "addressLocality": "Boston",
+        "addressRegion": "MA",
+        "postalCode": "02110",
+        "addressCountry": "US"
+      }
+    }
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Intel LaGrande Technology",
+      "description": "Hardware-based trusted computing technology for Intel processors, later renamed Intel TXT"
+    },
+    {
+      "@type": "Thing",
+      "name": "Consumer Hardware Security",
+      "description": "Market opportunity for hardware-based security in consumer computing platforms"
+    },
+    {
+      "@type": "Thing",
+      "name": "Trusted Computing",
+      "description": "Ecosystem of hardware and software for secure and private computing"
+    }
+  ],
+  "keywords": [
+    "Intel",
+    "LaGrande Technology",
+    "hardware security",
+    "trusted computing",
+    "consumer market",
+    "market research",
+    "Aberdeen Group",
+    "TPM",
+    "Intel TXT",
+    "identity theft",
+    "online privacy"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Codes"
+    }
+  ],
+  "temporalCoverage": "2003/2006",
+  "spatialCoverage": [
+    {"@type": "Place", "name": "United States"},
+    {"@type": "Place", "name": "Canada"},
+    {"@type": "Place", "name": "Japan"},
+    {"@type": "Place", "name": "Germany"},
+    {"@type": "Place", "name": "United Kingdom"},
+    {"@type": "Place", "name": "France"},
+    {"@type": "Place", "name": "Italy"},
+    {"@type": "Place", "name": "China"},
+    {"@type": "Place", "name": "Brazil"},
+    {"@type": "Place", "name": "Mexico"}
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Archival Ingest Skill v13 Collection"
+  },
+  "mentions": [
+    {
+      "@type": "Organization",
+      "name": "Intel Corporation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    },
+    {
+      "@type": "Organization",
+      "name": "Microsoft"
+    },
+    {
+      "@type": "Organization",
+      "name": "Trusted Computing Group"
+    }
+  ]
+}

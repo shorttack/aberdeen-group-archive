@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Research Findings: The Role of Professional Services Suppliers' Internal Quality Assurance Organizations in Large-scale Systems Integration Engagements",
+  "description": "Comprehensive comparative study of internal QA programs at eight major IT professional services firms: Ernst & Young, CSC, KPMG, Deloitte Consulting, Keane, EDS, PricewaterhouseCoopers, and Andersen Consulting. Based on telephone interviews with QA practice leaders and document review. Concludes that Andersen Consulting's QA standards and practices were equal to or above industry norms.",
+  "identifier": "ie-appendix-lane-qa-research-e594cb",
+  "datePublished": "1999-06-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Stephen Lane",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "keywords": [
+    "quality assurance",
+    "IT professional services",
+    "systems integration",
+    "QA practices",
+    "Andersen Consulting",
+    "Ernst & Young",
+    "CSC",
+    "KPMG",
+    "Deloitte Consulting",
+    "Keane",
+    "EDS",
+    "PricewaterhouseCoopers",
+    "SEI CMM",
+    "ISO 9000",
+    "expert witness",
+    "IE v. Andersen"
+  ],
+  "temporalCoverage": "1988/1999",
+  "variableMeasured": [
+    "technology-assessment",
+    "expert-opinion",
+    "framework-factor",
+    "benchmark-result",
+    "market-data"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ]
+}

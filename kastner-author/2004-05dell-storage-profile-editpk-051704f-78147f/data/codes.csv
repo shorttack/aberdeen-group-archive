@@ -1,0 +1,30 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,"Classification of a company's strategic approach, positioning, or business model direction"
+viability-prediction,observation_type,Viability Prediction,"Forward-looking prediction about the viability or success of a technology, partnership, or market trend"
+actual-outcome,observation_type,Actual Outcome,"Verified historical outcome that can be compared against a prediction or expectation from the study period"
+technology-assessment,observation_type,Technology Assessment,"Evaluation of a specific technology's capabilities, features, performance, or market positioning"
+benchmark-result,observation_type,Benchmark Result,"Quantitative performance measurement or comparison between products, generations, or competitors"
+framework-factor,observation_type,Framework Factor,"Component of an analytical framework, business model, or methodology described in the study"
+market-data,observation_type,Market Data,"Quantitative or qualitative market research data, survey results, or industry statistics"
+expert-opinion,observation_type,Expert Opinion,"Analyst judgment, recommendation, or conclusion based on professional expertise and research"
+industry-analysis,methodology_code,Industry Analysis,"Systematic analysis of industry structure, dynamics, and competitive forces"
+competitive-profiling,methodology_code,Competitive Profiling,"Detailed comparison of competing entities' strategies, products, and market positions"
+benchmarking,methodology_code,Benchmarking,"Comparison against industry standards, peers, or prior periods"
+field-research,methodology_code,Field Research,Primary data collection via IS executive interviews or customer surveys
+document-review,methodology_code,Document Review,"Analysis of existing documents, reports, and published records"
+statistical-analysis,methodology_code,Statistical Analysis,Quantitative data analysis with statistical methods
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources or explicit data
+medium,confidence,Medium Confidence,Reasonable basis but data is estimated or partially corroborated
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,"Confirmed by subsequent events, independent sources, or official records"
+emerging,lifecycle,Emerging,Technology newly introduced or gaining initial adoption at study time
+mature,lifecycle,Mature,Technology widely adopted and stable at study time
+declining,lifecycle,Declining,Technology losing market position or being superseded at study time
+obsolete,lifecycle,Obsolete,Technology no longer in production use
+active,lifecycle,Active,Technology currently in active production use and development
+corporation,entity_type,Corporation,"Commercial business entity, corporation, or vendor"
+research-firm,entity_type,Research Firm,"Research, consulting, or analyst organization"
+industry-association,entity_type,Industry Association,"Industry organization, standards committee, or working group"
+platform,tech_category,Platform,"Hardware platform, storage system, or infrastructure product"
+protocol,tech_category,Protocol,"Network, storage, or disk interface protocol or standard"
+application,tech_category,Application,"Storage management, replication, or data protection software application"

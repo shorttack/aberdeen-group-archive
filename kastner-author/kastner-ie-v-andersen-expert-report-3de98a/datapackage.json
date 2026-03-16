@@ -1,0 +1,105 @@
+{
+  "name": "kastner-ie-v-andersen-expert-report-3de98a",
+  "title": "Report of Peter S. Kastner: Intelligent Electronics Inc. v. Andersen Consulting LLP",
+  "version": "1.0.0",
+  "description": "Expert witness report analyzing the failed IE/2000 IT transformation project at Intelligent Electronics, a $3B PC distributor that went bankrupt in 1996-97. Kastner concludes IE's failure was strategic (wrong business model) not technical, and that Andersen Consulting performed competently.",
+  "licenses": [
+    {
+      "name": "fair-use-research",
+      "title": "Fair Use for Research"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Report of Peter S. Kastner, In re: Intelligent Electronics, Inc. v. Andersen Consulting LLP",
+      "path": "source/original_text.md"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "author", "type": "string"},
+          {"name": "date", "type": "date"},
+          {"name": "type", "type": "string"},
+          {"name": "subject_domain", "type": "string"},
+          {"name": "methodology", "type": "string"},
+          {"name": "source_file", "type": "string"},
+          {"name": "source_page_count", "type": "integer"},
+          {"name": "observation_count", "type": "integer"},
+          {"name": "entity_count", "type": "integer"},
+          {"name": "technology_count", "type": "integer"},
+          {"name": "importance", "type": "string", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "relevance", "type": "string", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "prescience", "type": "string", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "license", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string"},
+          {"name": "entity_name", "type": "string"},
+          {"name": "entity_type", "type": "string", "constraints": {"enum": ["vendor", "end-user", "analyst", "standards-body"]}},
+          {"name": "status", "type": "string", "constraints": {"enum": ["active", "acquired", "dissolved", "diminished"]}},
+          {"name": "years_active", "type": "string"},
+          {"name": "successor", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string"},
+          {"name": "tech_name", "type": "string"},
+          {"name": "category", "type": "string", "constraints": {"enum": ["enterprise-suite", "point-solution", "integration-technology", "development-paradigm"]}},
+          {"name": "lifecycle_at_study", "type": "string"},
+          {"name": "lifecycle_current", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string"},
+          {"name": "study_id", "type": "string"},
+          {"name": "entity_id", "type": "string"},
+          {"name": "tech_id", "type": "string"},
+          {"name": "observation_type", "type": "string", "constraints": {"enum": ["strategy-classification", "viability-prediction", "actual-outcome", "technology-assessment", "benchmark-result", "framework-factor", "market-data", "expert-opinion"]}},
+          {"name": "year_observed", "type": "string"},
+          {"name": "metric_name", "type": "string"},
+          {"name": "metric_value", "type": "string"},
+          {"name": "confidence", "type": "string", "constraints": {"enum": ["high", "medium", "low", "verified"]}},
+          {"name": "methodology_code", "type": "string", "constraints": {"enum": ["industry-analysis", "competitive-profiling", "benchmarking", "field-research", "document-review", "statistical-analysis"]}},
+          {"name": "source_page", "type": "string"},
+          {"name": "notes", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string"},
+          {"name": "code_type", "type": "string"},
+          {"name": "label", "type": "string"},
+          {"name": "definition", "type": "string"}
+        ]
+      }
+    }
+  ]
+}

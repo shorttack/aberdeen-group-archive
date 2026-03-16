@@ -1,0 +1,25 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business or technical strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's or technology's future state or survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity or technology
+technology-assessment,observation_type,Technology Assessment,"Evaluation of a technology's maturity, architecture, or fitness for purpose"
+benchmark-result,observation_type,Benchmark Result,Quantitative or qualitative result from a structured performance test or benchmark
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative or factual market statistic or organizational scale data
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment by analysts or domain experts
+industry-analysis,methodology_code,Industry Analysis,Systematic analysis of industry structure and competitive dynamics
+competitive-profiling,methodology_code,Competitive Profiling,"Detailed comparison of competing products, entities, or strategies"
+benchmarking,methodology_code,Benchmarking,Comparison against standards or goals using quantitative performance metrics
+field-research,methodology_code,Field Research,"Primary data collection via on-site visits, interviews, or surveys"
+document-review,methodology_code,Document Review,"Analysis of existing documents, specifications, and records"
+statistical-analysis,methodology_code,Statistical Analysis,Quantitative data analysis with statistical methods
+high,confidence,High Confidence,Strong evidentiary basis; direct measurement or multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration; directional with some evidence
+low,confidence,Low Confidence,Directional judgment with limited evidence; speculative
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+emerging,lifecycle,Emerging,Technology newly introduced; limited deployment; rapidly evolving
+mature,lifecycle,Mature,Technology widely deployed; standards stable; well-understood
+declining,lifecycle,Declining,Technology losing market share; being superseded by newer alternatives
+obsolete,lifecycle,Obsolete,Technology no longer in active commercial use or development
+legacy-supported,lifecycle,Legacy-Supported,Technology no longer evolving but still maintained for backward compatibility
+active,lifecycle,Active,Technology in active development and broad current deployment

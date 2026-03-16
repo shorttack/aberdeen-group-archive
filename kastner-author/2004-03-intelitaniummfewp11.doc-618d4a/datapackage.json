@@ -1,0 +1,172 @@
+{
+  "name": "2004-03-intelitaniummfewp11.doc-618d4a",
+  "id": "2004-03-intelitaniummfewp11.doc-618d4a",
+  "title": "Intel's Itanium: Ready and Desirable for Mainframe-Class Workloads",
+  "description": "Aberdeen Group white paper examining whether Intel Itanium processors are ready to handle mainframe-class workloads. Based on interviews with migration users and a survey of 98 mainframe users, the study finds that Itanium platforms match or exceed mainframes in performance, scalability, and cost-effectiveness while being equally robust.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Intel's Itanium: Ready and Desirable for Mainframe-Class Workloads",
+      "path": "source/2004-03-intelitaniummfewp11.doc.txt",
+      "author": "Aberdeen Group",
+      "date": "2004-03-01"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Intel",
+    "Itanium",
+    "mainframe",
+    "IBM zSeries",
+    "enterprise computing",
+    "platform migration",
+    "TCO analysis",
+    "server architecture",
+    "Xeon",
+    "COBOL migration"
+  ],
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique identifier for the study"},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Author or authoring organization"},
+          {"name": "date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
+          {"name": "type", "type": "string", "description": "Document type classification"},
+          {"name": "subject_domain", "type": "string", "description": "Primary subject area"},
+          {"name": "methodology", "type": "string", "description": "Research methodologies used"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Study abstract or executive summary"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "string", "description": "Importance rating (high/medium/low)"},
+          {"name": "importance_rationale", "type": "string", "description": "Justification for importance rating"},
+          {"name": "relevance", "type": "string", "description": "Current relevance rating (high/medium/low)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Justification for relevance rating"},
+          {"name": "prescience", "type": "string", "description": "Predictive accuracy rating (high/medium/low)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Justification for prescience rating"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Canonical lowercase hyphenated identifier"},
+          {"name": "entity_name", "type": "string", "description": "Full entity name"},
+          {"name": "entity_type", "type": "string", "description": "Type classification (corporation, semiconductor, research-firm)"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current status (active, acquired, dissolved, restructured)"},
+          {"name": "successor", "type": "string", "description": "Successor entity if acquired/dissolved"},
+          {"name": "years_active", "type": "string", "description": "Range of years active"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Canonical lowercase hyphenated identifier"},
+          {"name": "tech_name", "type": "string", "description": "Full technology name"},
+          {"name": "category", "type": "string", "description": "Technology category (processor, platform, language, application)"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or maintainer"},
+          {"name": "era", "type": "string", "description": "Active era (start-end years)"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage when study was published"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "notes", "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Observation identifier (OBS-NNN)"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies table"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities table (optional)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies table (optional)"},
+          {"name": "observation_type", "type": "string", "description": "One of 8 valid observation types"},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation pertains to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or measurement"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric or measurement"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (high/medium/low/verified)"},
+          {"name": "methodology_code", "type": "string", "description": "Research methodology used"},
+          {"name": "source_page", "type": "string", "description": "Source location within document"},
+          {"name": "notes", "type": "string", "description": "Additional context"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Code identifier"},
+          {"name": "code_type", "type": "string", "description": "Code classification (methodology_code, observation_type, confidence)"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "definition", "type": "string", "description": "Full definition of the code"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

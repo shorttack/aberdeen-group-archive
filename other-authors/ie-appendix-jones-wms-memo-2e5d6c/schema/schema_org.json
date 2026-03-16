@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Availability of Client/Server WMS in 1994",
+  "description": "Aberdeen Group ERP Research memo examining the availability of client/server warehouse management software (WMS) packages in the US marketplace in mid-1994. Concludes that no commercially available WMS was truly client/server-based at that time, with the first instance being Manhattan Associates PkMS in 1995.",
+  "identifier": "ie-appendix-jones-wms-memo-2e5d6c",
+  "datePublished": "1999-06-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Dr. Katherine Jones",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "keywords": [
+    "warehouse management systems",
+    "WMS",
+    "client/server architecture",
+    "Manhattan Associates",
+    "Catalyst International",
+    "AS/400",
+    "RF handhelds",
+    "expert witness",
+    "IE v. Andersen",
+    "1994 technology landscape"
+  ],
+  "temporalCoverage": "1991/1999",
+  "variableMeasured": [
+    "technology-assessment",
+    "expert-opinion",
+    "market-data",
+    "viability-prediction",
+    "actual-outcome"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ]
+}

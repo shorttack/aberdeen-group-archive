@@ -1,0 +1,10 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+sunrisexa,SunriseXA 3.3,application,Eclipsys,2000-2010,emerging,obsolete,2004-eclipsys-auditor-report-4-3cd30c,"Interim release combining Sunrise Clinical Manager 3.04 workflow engine with SunriseXA database schema; Release 3.5 scheduled for early summer 2004"
+mercury-loadrunner,Mercury LoadRunner,application,Mercury Interactive,1999-present,mature,active,2004-eclipsys-auditor-report-4-3cd30c,"Industry-standard load-testing software used to simulate 82 transaction types; now Micro Focus LoadRunner"
+unisys-es7000,Unisys ES7000,platform,Unisys,2000-2010,mature,obsolete,2004-eclipsys-auditor-report-4-3cd30c,Enterprise server with eight 2.8GHz Xeon processors; database server in the SUT configuration
+windows-2000-datacenter,Windows 2000 Data Center,platform,Microsoft,2000-2005,mature,obsolete,2004-eclipsys-auditor-report-4-3cd30c,Server operating system SP4 used for the database server and application server
+sql-server-2000,SQL Server 2000,application,Microsoft,2000-2005,mature,obsolete,2004-eclipsys-auditor-report-4-3cd30c,"Version 8.00.850; relational database management system for SunriseXA database"
+dotnet-framework,.NET Framework 1.0,framework,Microsoft,2002-2006,emerging,obsolete,2004-eclipsys-auditor-report-4-3cd30c,"Version 1.0.3705; used on PC client machines in the benchmark configuration"
+xeon-processor,Intel Xeon 2.8GHz,processor,Intel,2002-2006,mature,obsolete,2004-eclipsys-auditor-report-4-3cd30c,"Eight processors in Unisys ES7000; described as not the latest or fastest available from Intel at the time"
+hl7,HL7 Messaging,protocol,HL7 International,1987-present,mature,active,2004-eclipsys-auditor-report-4-3cd30c,"Healthcare interoperability standard used to stress the interface engine with observational results, order submission, patient admission, mergers, and updates"
+fibre-channel-storage,EMC Fibre Channel Storage,platform,EMC,1998-present,mature,active,2004-eclipsys-auditor-report-4-3cd30c,"Storage area network with EMC PowerPath 3.02 and Navisphere 6.4.0.5.2 management software"

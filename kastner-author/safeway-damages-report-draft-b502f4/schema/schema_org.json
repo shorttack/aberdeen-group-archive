@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Safeway Damages Report: Expert Opinion on Consonus Data Center Incident",
+  "description": "Expert damages report quantifying $15.99M in damages from a February 2002 fire suppression discharge at Consonus data center that damaged Safeway's 40-node Teradata data warehouse system. Covers direct recovery, replacement, and business interruption costs.",
+  "identifier": "safeway-damages-report-draft-b502f4",
+  "datePublished": "2003-12-01",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Hugh Bishop",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Peter Kastner",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "keywords": [
+    "IT disaster recovery",
+    "data warehouse",
+    "Teradata",
+    "Safeway",
+    "damages assessment",
+    "fire suppression",
+    "data center incident",
+    "business continuity",
+    "NCR",
+    "expert witness",
+    "grocery retail",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "2002/2003",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Portland, Oregon, United States"
+  },
+  "license": "Fair use for research purposes",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv"
+    }
+  ]
+}

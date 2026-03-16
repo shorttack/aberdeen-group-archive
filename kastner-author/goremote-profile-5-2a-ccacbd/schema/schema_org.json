@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "GoRemote Is Unifying Secure Remote Access Services",
+  "description": "Frictionless Data Package derived from an Aberdeen Group profile of GoRemote Communications (September 2003). Documents the company's unified managed remote access services for enterprise outworkers, covering the TierOne global network, MobileOffice client, Total Security Protection, market dynamics, cost analysis, and technology assessment of pre-cloud enterprise mobility.",
+  "url": "",
+  "identifier": "goremote-profile-5-2a-ccacbd",
+  "datePublished": "2003-09-01",
+  "dateCreated": "2026-03-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street, Suite 1700",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110",
+      "addressCountry": "US"
+    }
+  },
+  "about": [
+    {
+      "@type": "Organization",
+      "name": "GoRemote Communications",
+      "description": "Leading supplier of managed communications services to remote and mobile knowledge workers. NASDAQ: GRIC. Acquired by iPass in 2006."
+    },
+    {
+      "@type": "Thing",
+      "name": "Remote Access Services",
+      "description": "Managed enterprise services for remote and mobile workers including VPN, security, and unified connectivity."
+    }
+  ],
+  "keywords": [
+    "remote access",
+    "mobile workers",
+    "managed services",
+    "telecommunications",
+    "enterprise security",
+    "VPN",
+    "WiFi",
+    "broadband",
+    "outsourcing",
+    "cost management",
+    "GoRemote",
+    "TierOne Network",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "2003",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global (150+ countries)"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ]
+}

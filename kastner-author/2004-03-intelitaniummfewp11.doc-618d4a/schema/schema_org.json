@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel's Itanium: Ready and Desirable for Mainframe-Class Workloads",
+  "description": "Aberdeen Group white paper examining whether Intel Itanium processors are ready to handle mainframe-class workloads. Based on interviews with migration users and a survey of 98 mainframe users, the study finds that Itanium platforms match or exceed mainframes in performance, scalability, and cost-effectiveness while being equally robust. 40% of mainframe users express openness to Itanium migration, attracted by TCO advantages.",
+  "identifier": "2004-03-intelitaniummfewp11.doc-618d4a",
+  "url": "",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2004-03-01",
+  "dateCreated": "2026-03-16",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "url": "https://www.aberdeen.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "One Boston Place",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02108",
+      "addressCountry": "US"
+    }
+  },
+  "keywords": [
+    "Intel Itanium",
+    "mainframe",
+    "IBM zSeries",
+    "enterprise computing",
+    "platform migration",
+    "TCO analysis",
+    "server architecture",
+    "Xeon",
+    "COBOL migration",
+    "data warehousing"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Intel Itanium Processor",
+      "description": "64-bit EPIC architecture processor designed for enterprise workloads"
+    },
+    {
+      "@type": "Thing",
+      "name": "IBM zSeries Mainframe",
+      "description": "Enterprise mainframe platform dominated by IBM z990 at time of study"
+    },
+    {
+      "@type": "Thing",
+      "name": "Enterprise Platform Migration",
+      "description": "Process of migrating workloads from mainframe to alternative platforms"
+    }
+  ],
+  "temporalCoverage": "2003/2004",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global",
+    "description": "56% global organizations; 25% non-US respondents"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Survey Respondents",
+      "value": "98",
+      "unitText": "respondents"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mainframe User Satisfaction",
+      "value": "60%",
+      "description": "Percentage of respondents satisfied with mainframes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Itanium Workload Confidence",
+      "value": "64%",
+      "description": "Percentage believing Itanium can handle mainframe workloads"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Openness to Itanium Migration",
+      "value": "40%",
+      "description": "Percentage of mainframe users open to Itanium migration"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Study metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies analyzed in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Research observations and findings"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Code definitions for categorical fields"
+    }
+  ],
+  "measurementTechnique": [
+    "Field research interviews with migration users",
+    "Survey of 98 mainframe users",
+    "Industry benchmarking (TPC-C, TPC-H, Linpack, NetBench)",
+    "Statistical analysis of survey responses",
+    "Competitive profiling of platform vendors"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Eclipsys SunriseXA 3.3 Meets Subsecond Response Time Objective - Archival Data Package",
+  "description": "Frictionless Data Package derived from a 2004 Aberdeen Group benchmark audit report evaluating Eclipsys SunriseXA 3.3 clinical information system performance. The benchmark simulated a 6,000-bed hospital environment with 82 transaction types, demonstrating subsecond response times for the majority of clinical workflows.",
+  "identifier": "2004-eclipsys-auditor-report-4-3cd30c",
+  "url": "",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110",
+      "addressCountry": "US"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Peter S. Kastner",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    }
+  },
+  "datePublished": "2004-04-01",
+  "dateModified": "2026-03-16",
+  "temporalCoverage": "2004-03-02/2004-03-03",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Eclipsys Corp., Malvern, PA, USA"
+  },
+  "keywords": [
+    "healthcare IT",
+    "benchmark",
+    "performance testing",
+    "SunriseXA",
+    "Eclipsys",
+    "clinical information system",
+    "response time",
+    "hospital simulation",
+    "Microsoft platform",
+    "SQL Server",
+    "Windows 2000",
+    "Unisys ES7000",
+    "Mercury LoadRunner",
+    "HL7",
+    "Aberdeen Group"
+  ],
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "SunriseXA",
+      "version": "3.3",
+      "applicationCategory": "Clinical Information System",
+      "operatingSystem": "Windows 2000 Data Center"
+    },
+    {
+      "@type": "Organization",
+      "name": "Eclipsys Corporation",
+      "description": "Healthcare IT vendor and developer of SunriseXA"
+    }
+  ],
+  "measurementTechnique": "Mercury LoadRunner load-testing software simulating 82 transaction types across 200 physicians, nurses, and clerks in a 6,000-bed hospital environment",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Transaction Response Time",
+      "unitText": "seconds",
+      "description": "Average, geometric mean, and 99th percentile response times for five categories of clinical transactions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Transaction Throughput",
+      "unitText": "transactions per minute",
+      "description": "Sustained transaction rate during peak load period"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CPU Utilization",
+      "unitText": "percent",
+      "description": "Database server CPU utilization during peak benchmark period"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "Report",
+    "name": "Eclipsys SunriseXA 3.3 Meets Subsecond Response Time Objective",
+    "author": {
+      "@type": "Person",
+      "name": "Peter S. Kastner"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc."
+    },
+    "datePublished": "2004-04-01",
+    "reportNumber": "2004_Eclipsys_auditor_report_4"
+  }
+}

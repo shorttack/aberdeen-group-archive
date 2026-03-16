@@ -1,0 +1,386 @@
+{
+  "name": "2004-05dell-storage-profile-editpk-051704f-78147f",
+  "title": "Dell: Applying Its Business Value Model to Storage",
+  "description": "Frictionless Data Package for the Aberdeen Group profile analyzing Dell's storage strategy, Dell|EMC partnership, PowerVault products, and three core strategies of delivering value, driving standards, and moving high-end functionality downstream. Published May 2004 by David Hill and Peter Kastner.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "David Hill",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    },
+    {
+      "title": "Peter Kastner",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    },
+    {
+      "title": "Archival Ingest Skill v13",
+      "role": "processor"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aberdeen Group Profile, May 2004",
+      "path": "2004-05Dell storage Profile EDITpk 051704f.txt"
+    }
+  ],
+  "keywords": [
+    "enterprise-storage",
+    "Dell",
+    "EMC",
+    "Dell|EMC",
+    "SAN",
+    "NAS",
+    "Fibre Channel",
+    "Serial ATA",
+    "PowerVault",
+    "CX series",
+    "supply chain management",
+    "standards-based storage",
+    "tape backup",
+    "LTO",
+    "Aberdeen Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "format": "%Y-%m-%d"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "study_id"
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "entity_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "tech_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "integer"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "obs_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "entity_id"
+            ],
+            "reference": {
+              "resource": "entities",
+              "fields": [
+                "entity_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "tech_id"
+            ],
+            "reference": {
+              "resource": "technologies",
+              "fields": [
+                "tech_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "code_id"
+        ]
+      }
+    }
+  ]
+}

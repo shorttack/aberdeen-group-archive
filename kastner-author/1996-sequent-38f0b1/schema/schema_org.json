@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Emerging Technologies: Assessing Strategic Benefits",
+  "description": "Aberdeen Group presentation for the Vision 2000 conference (May 1996) analyzing enterprise superserver architectures including SMP, clustering, and Sequent's NUMA-Q technology. Structured as a Frictionless Data Package with entities, technologies, and coded observations.",
+  "url": "",
+  "identifier": "1996-sequent-38f0b1",
+  "datePublished": "1996-05-01",
+  "dateModified": "2026-03-16",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner",
+    "jobTitle": "Group Vice President",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group, Inc.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "One Boston Place",
+        "addressLocality": "Boston",
+        "addressRegion": "MA",
+        "postalCode": "02108"
+      }
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group, Inc."
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "NUMA",
+    "SMP",
+    "symmetric multiprocessing",
+    "clustering",
+    "enterprise superserver",
+    "Sequent Computer Systems",
+    "Intel x86",
+    "OLTP",
+    "decision support systems",
+    "server architecture",
+    "Aberdeen Group",
+    "enterprise computing",
+    "1996"
+  ],
+  "temporalCoverage": "1996",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Non-Uniform Memory Access (NUMA)"
+    },
+    {
+      "@type": "Thing",
+      "name": "Symmetric Multiprocessing (SMP)"
+    },
+    {
+      "@type": "Thing",
+      "name": "Enterprise Server Architecture"
+    },
+    {
+      "@type": "Thing",
+      "name": "Sequent Computer Systems"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Codes"
+    }
+  ]
+}

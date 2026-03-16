@@ -1,0 +1,38 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Classification of an entity's strategic approach or decision
+viability-prediction,observation_type,Viability Prediction,Forward-looking prediction about the viability or outcome of a strategy or technology
+actual-outcome,observation_type,Actual Outcome,Documented outcome that occurred and can be verified against predictions
+technology-assessment,observation_type,Technology Assessment,Assessment of a technology's capabilities or market position
+benchmark-result,observation_type,Benchmark Result,Quantitative benchmark measurement or comparison
+framework-factor,observation_type,Framework Factor,Analytical framework element or structural factor identified in the study
+market-data,observation_type,Market Data,Market size or share data from industry sources
+expert-opinion,observation_type,Expert Opinion,Professional judgment or qualitative assessment by domain experts
+industry-analysis,methodology_code,Industry Analysis,Analysis of industry trends and competitive dynamics using published data and expert knowledge
+competitive-profiling,methodology_code,Competitive Profiling,Systematic comparison of competitors across defined dimensions
+benchmarking,methodology_code,Benchmarking,Quantitative measurement and comparison of performance metrics
+field-research,methodology_code,Field Research,Primary research through interviews and site visits
+document-review,methodology_code,Document Review,Systematic review and analysis of published documents and reports
+statistical-analysis,methodology_code,Statistical Analysis,Quantitative analysis using statistical methods
+high,importance,High,"Study has high historical importance, influence, or impact"
+medium,importance,Medium,Study has moderate historical importance
+low,importance,Low,Study has limited historical importance
+not-applicable,importance,Not Applicable,Importance rating is not applicable to this study
+high,relevance,High,Study findings remain highly relevant to current industry conditions
+medium,relevance,Medium,Study findings have moderate current relevance
+low,relevance,Low,Study findings have limited current relevance
+not-applicable,relevance,Not Applicable,Relevance rating is not applicable
+high,prescience,High,Study predictions proved dramatically correct over time
+medium,prescience,Medium,Study predictions proved partially correct
+low,prescience,Low,Study predictions did not prove correct
+not-applicable,prescience,Not Applicable,Prescience rating is not applicable or study made no predictions
+high,confidence,High,High confidence in the accuracy of this observation
+medium,confidence,Medium,Moderate confidence in the accuracy of this observation
+low,confidence,Low,Low confidence in the accuracy of this observation
+verified,confidence,Verified,Observation has been independently verified against primary sources
+hot-topic,study_type,Hot Topic,Short-form rapid-response analysis of emerging industry event or trend
+research-report,study_type,Research Report,Full-length research report with detailed analysis and recommendations
+market-forecast,study_type,Market Forecast,Quantitative market sizing and forecast report
+active,entity_status,Active,Entity is currently active and operating
+acquired,entity_status,Acquired,Entity has been acquired by another organization
+restructured,entity_status,Restructured,Entity has undergone major structural reorganization
+unknown,entity_status,Unknown,Current status of entity is unknown

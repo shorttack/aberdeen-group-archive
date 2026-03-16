@@ -1,0 +1,16 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+TECH-001,SD Memory Card,storage-media,SD Association,2000s,growth,mature,2003-iha-full-report---draft-jul-28-45d5bd,"Secure Digital memory card format; primary focus of study. Won the format war to become dominant removable storage standard"
+TECH-002,CompactFlash,storage-media,SanDisk/CFA,1990s,mature,legacy,2003-iha-full-report---draft-jul-28-45d5bd,"Competing memory card format; larger physical size. Continued in professional photography but largely superseded by CFexpress"
+TECH-003,Memory Stick,storage-media,Sony,1990s,growth,discontinued,2003-iha-full-report---draft-jul-28-45d5bd,"Sony proprietary memory card format; respondents using Sony products were most brand-aware. Discontinued by Sony in favor of SD"
+TECH-004,xD-Picture Card,storage-media,Olympus/Fujifilm,2000s,emerging,discontinued,2003-iha-full-report---draft-jul-28-45d5bd,"Competing memory card format from Olympus and Fujifilm; discontinued around 2010 in favor of SD"
+TECH-005,USB Cable Transfer,data-transfer,various,2000s,growth,mature,2003-iha-full-report---draft-jul-28-45d5bd,Dominant method of transferring photos from digital cameras to PCs at time of study
+TECH-006,Memory Card Reader,peripheral,various,2000s,emerging,mature,2003-iha-full-report---draft-jul-28-45d5bd,External device for reading memory cards via USB; emerging alternative to direct camera-to-PC cable transfer
+TECH-007,Digital Camera,consumer-electronics,various,2000s,growth,mature,2003-iha-full-report---draft-jul-28-45d5bd,Primary driver of memory card awareness and adoption; owned by vast majority of study participants
+TECH-008,PDA,mobile-computing,Palm/various,2000s,mature,obsolete,2003-iha-full-report---draft-jul-28-45d5bd,Personal Digital Assistants; used by some respondents primarily for business. Superseded by smartphones
+TECH-009,MP3 Player,consumer-electronics,various,2000s,growth,obsolete,2003-iha-full-report---draft-jul-28-45d5bd,Portable digital music player; only a few respondents owned one. Superseded by smartphones
+TECH-010,CD-ROM/CD-R,storage-media,various,1990s,mature,declining,2003-iha-full-report---draft-jul-28-45d5bd,Primary medium for long-term storage of photos and music; respondents burned CDs to free hard drive space
+TECH-011,VHS Tape,storage-media,JVC,1970s,declining,obsolete,2003-iha-full-report---draft-jul-28-45d5bd,Analog video storage; dominant method for storing camcorder video at time of study
+TECH-012,Wireless Data Transfer,data-transfer,various,2000s,emerging,mature,2003-iha-full-report---draft-jul-28-45d5bd,"Respondents identified wireless as desired future solution; limited to PDA beaming at study time. Now ubiquitous via WiFi/Bluetooth/AirDrop"
+TECH-013,Home Network/LAN,networking,various,2000s,emerging,mature,2003-iha-full-report---draft-jul-28-45d5bd,Few respondents had home LANs for data transfer; now standard in most households
+TECH-014,Digital Video Camcorder,consumer-electronics,various,2000s,growth,declining,2003-iha-full-report---draft-jul-28-45d5bd,Owned primarily by families with children; largely superseded by smartphone video
+TECH-015,SmartMedia,storage-media,Toshiba,1990s,declining,discontinued,2003-iha-full-report---draft-jul-28-45d5bd,Older memory card format referenced by respondent discussing card reader compatibility issues

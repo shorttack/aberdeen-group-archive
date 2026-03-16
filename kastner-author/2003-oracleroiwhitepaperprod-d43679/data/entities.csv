@@ -1,0 +1,21 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+oracle,Oracle Corporation,vendor,enterprise-software,active,,1977-present,2003-oracleroiwhitepaperprod-d43679,Leading integrated suite vendor; primary subject of the study advocating suite approach over point solutions
+sap-ag,SAP AG,vendor,enterprise-software,active,,1972-present,2003-oracleroiwhitepaperprod-d43679,Major ERP suite vendor; referenced as competitor to Oracle in integrated suite market
+siebel-systems,Siebel Systems,vendor,enterprise-software,acquired,oracle,1993-2006,2003-oracleroiwhitepaperprod-d43679,Leading CRM point solution vendor; cited in Nike integration failure case study; acquired by Oracle in 2006
+i2-technologies,i2 Technologies,vendor,enterprise-software,acquired,jda-software,1988-2010,2003-oracleroiwhitepaperprod-d43679,Supply chain point solution vendor; cited in Nike failure and failed Ariba-i2-IBM partnership; acquired by JDA Software in 2010
+ariba,Ariba,vendor,enterprise-software,acquired,sap-ag,1996-2012,2003-oracleroiwhitepaperprod-d43679,e-Procurement point solution vendor; cited for failed partnership with i2 and IBM; acquired by SAP in 2012
+commerce-one,Commerce One,vendor,enterprise-software,dissolved,,1994-2004,2003-oracleroiwhitepaperprod-d43679,e-Procurement point solution vendor; subsequently went bankrupt and dissolved
+manugistics,Manugistics,vendor,enterprise-software,acquired,jda-software,1986-2006,2003-oracleroiwhitepaperprod-d43679,Supply chain management point solution vendor; acquired by JDA Software in 2006
+broadvision,BroadVision,vendor,enterprise-software,diminished,,1993-present,2003-oracleroiwhitepaperprod-d43679,E-commerce/CRM point solution vendor; dramatically declined after dot-com bust
+peoplesoft,PeopleSoft,vendor,enterprise-software,acquired,oracle,1987-2005,2003-oracleroiwhitepaperprod-d43679,ERP/HCM suite vendor; acquired by Oracle in hostile takeover in 2005 for $10.3B
+baan,Baan,vendor,enterprise-software,acquired,infor,1978-2000,2003-oracleroiwhitepaperprod-d43679,ERP suite vendor; acquired by Invensys then SSA Global then Infor
+jd-edwards,JD Edwards,vendor,enterprise-software,acquired,oracle,1977-2003,2003-oracleroiwhitepaperprod-d43679,ERP suite vendor; acquired by PeopleSoft in 2003 then by Oracle in 2005
+lawson,Lawson Software,vendor,enterprise-software,acquired,infor,1975-2011,2003-oracleroiwhitepaperprod-d43679,ERP suite vendor focused on services and healthcare; merged with Infor in 2011
+nike,Nike Inc.,end-user,consumer-goods,active,,1964-present,2003-oracleroiwhitepaperprod-d43679,"Cited as cautionary example: $400M, 4-year failed integration of SAP, Siebel, and i2 point solutions"
+beneficial-life,Beneficial Life,end-user,insurance,acquired,household-international,1905-2002,2003-oracleroiwhitepaperprod-d43679,Insurance company cited as example where 50%+ of IT staff devoted to customization and integration
+indian-motorcycle,Indian Motorcycle,end-user,manufacturing,active,,1901-present,2003-oracleroiwhitepaperprod-d43679,Cited as positive example: implemented Oracle suite in 1999 and achieved ROI within one year
+ibm,IBM,vendor,technology,active,,1911-present,2003-oracleroiwhitepaperprod-d43679,Technology vendor; participated in failed Ariba-i2-IBM partnership; also referenced for middleware/integration technology
+microsoft,Microsoft,vendor,technology,active,,1975-present,2003-oracleroiwhitepaperprod-d43679,Referenced as supporter of XML standardization efforts alongside Oracle and SAP
+aberdeen-group,Aberdeen Group,analyst,research,acquired,spiceworks-ziff-davis,1988-2018,2003-oracleroiwhitepaperprod-d43679,Author of this white paper; technology research and advisory firm
+rosettanet,RosettaNet,standards-body,technology-standards,active,,1998-present,2003-oracleroiwhitepaperprod-d43679,Industry consortium for supply chain standards; referenced in context of XML-based integration standards
+oagi,Open Applications Group Inc.,standards-body,technology-standards,active,,1995-present,2003-oracleroiwhitepaperprod-d43679,Standards body for business software interoperability; referenced for XML-based integration standards efforts

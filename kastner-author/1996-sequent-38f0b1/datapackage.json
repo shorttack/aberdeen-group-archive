@@ -1,0 +1,399 @@
+{
+  "name": "1996-sequent-38f0b1",
+  "title": "Emerging Technologies: Assessing Strategic Benefits",
+  "description": "Frictionless Data Package for Aberdeen Group's 1996 analysis of enterprise superserver architectures, comparing SMP, clustering, and Sequent's NUMA-Q technology.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "1996 Sequent.pptx",
+      "path": "source/original_text.md"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Unique study identifier"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Study title"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "Primary author"
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "description": "Publication date"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Document type"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string",
+            "description": "Subject domain"
+          },
+          {
+            "name": "methodology",
+            "type": "string",
+            "description": "Research methodology"
+          },
+          {
+            "name": "source_file",
+            "type": "string",
+            "description": "Original source filename"
+          },
+          {
+            "name": "abstract",
+            "type": "string",
+            "description": "Study abstract"
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "description": "License identifier"
+          },
+          {
+            "name": "importance",
+            "type": "string",
+            "description": "Importance rating"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string",
+            "description": "Importance rationale"
+          },
+          {
+            "name": "relevance",
+            "type": "string",
+            "description": "Relevance rating"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string",
+            "description": "Relevance rationale"
+          },
+          {
+            "name": "prescience",
+            "type": "string",
+            "description": "Prescience rating"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string",
+            "description": "Prescience rationale"
+          }
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "Unique entity identifier (lowercase hyphenated)"
+          },
+          {
+            "name": "entity_name",
+            "type": "string",
+            "description": "Full entity name"
+          },
+          {
+            "name": "entity_type",
+            "type": "string",
+            "description": "Entity type classification"
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "description": "Industry sector"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Current operational status"
+          },
+          {
+            "name": "successor",
+            "type": "string",
+            "description": "Successor entity if acquired"
+          },
+          {
+            "name": "years_active",
+            "type": "string",
+            "description": "Years of operation"
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Reference to parent study"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional notes"
+          }
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string",
+            "description": "Unique technology identifier (lowercase hyphenated)"
+          },
+          {
+            "name": "tech_name",
+            "type": "string",
+            "description": "Full technology name"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Technology category"
+          },
+          {
+            "name": "vendor",
+            "type": "string",
+            "description": "Primary vendor (if applicable)"
+          },
+          {
+            "name": "era",
+            "type": "string",
+            "description": "Technology era"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string",
+            "description": "Lifecycle stage at time of study"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string",
+            "description": "Current lifecycle stage"
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Reference to parent study"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional notes"
+          }
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string",
+            "description": "Observation identifier (OBS-NNN format)"
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Reference to parent study"
+          },
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "Reference to entity (optional)"
+          },
+          {
+            "name": "tech_id",
+            "type": "string",
+            "description": "Reference to technology (optional)"
+          },
+          {
+            "name": "observation_type",
+            "type": "string",
+            "description": "Canonical observation type"
+          },
+          {
+            "name": "year_observed",
+            "type": "string",
+            "description": "Year of observation or prediction target"
+          },
+          {
+            "name": "metric_name",
+            "type": "string",
+            "description": "Name of the metric or observation"
+          },
+          {
+            "name": "metric_value",
+            "type": "string",
+            "description": "Value or description of the observation"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "Confidence level"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string",
+            "description": "Methodology used"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "description": "Source page or slide reference"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional notes"
+          }
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": [
+              "study_id"
+            ],
+            "reference": {
+              "resource": "studies",
+              "fields": [
+                "study_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "entity_id"
+            ],
+            "reference": {
+              "resource": "entities",
+              "fields": [
+                "entity_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "tech_id"
+            ],
+            "reference": {
+              "resource": "technologies",
+              "fields": [
+                "tech_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string",
+            "description": "Code identifier"
+          },
+          {
+            "name": "code_type",
+            "type": "string",
+            "description": "Code category type"
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Human-readable label"
+          },
+          {
+            "name": "definition",
+            "type": "string",
+            "description": "Definition of the code"
+          }
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

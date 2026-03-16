@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dell: Applying Its Business Value Model to Storage — Archival Data Package",
+  "description": "Frictionless Data Package containing structured observations extracted from the Aberdeen Group profile 'Dell: Applying Its Business Value Model to Storage' (May 2004). The study analyzes Dell's storage strategy including the Dell|EMC partnership, PowerVault NAS products, tape backup solutions, and Dell's three core strategies of delivering value, driving standards, and moving high-end functionality downstream.",
+  "identifier": "2004-05dell-storage-profile-editpk-051704f-78147f",
+  "url": "https://example.org/archive/2004-05dell-storage-profile-editpk-051704f-78147f",
+  "datePublished": "2004-05-01",
+  "dateCreated": "2026-03-16",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "David Hill",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Peter Kastner",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110-3112",
+      "addressCountry": "US"
+    }
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "enterprise storage",
+    "Dell",
+    "EMC",
+    "Dell|EMC partnership",
+    "storage area network",
+    "SAN",
+    "NAS",
+    "Fibre Channel",
+    "Serial ATA",
+    "PowerVault",
+    "CX series",
+    "supply chain management",
+    "price/performance",
+    "standards-based storage",
+    "tape backup",
+    "LTO",
+    "TCO",
+    "ROI",
+    "Aberdeen Group"
+  ],
+  "temporalCoverage": "2004",
+  "about": [
+    {
+      "@type": "Organization",
+      "name": "Dell Inc.",
+      "url": "https://www.dell.com"
+    },
+    {
+      "@type": "Organization",
+      "name": "EMC Corporation"
+    },
+    {
+      "@type": "Thing",
+      "name": "Enterprise Storage",
+      "description": "Technologies and strategies for enterprise data storage including SAN, NAS, and tape backup"
+    }
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Archival Study Collection",
+    "description": "Collection of digitized and structured Aberdeen Group technology research studies"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies.csv",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Study metadata including title, authors, date, type, and assessment ratings"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities.csv",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv",
+      "description": "Companies, standards bodies, and organizations referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies.csv",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv",
+      "description": "Storage technologies, products, and standards discussed in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations.csv",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv",
+      "description": "Structured observations extracted from the study text with source line references"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes.csv",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv",
+      "description": "Controlled vocabulary codes for observation types, assessment ratings, and classifications"
+    }
+  ],
+  "measurementTechnique": "Archival Ingest Skill v13 — structured extraction of observations from analyst research documents with canonical observation types and assessment ratings",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "observation_type",
+      "description": "Canonical type of observation: strategy-classification, viability-prediction, actual-outcome, technology-assessment, benchmark-result, framework-factor, market-data, expert-opinion"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "importance",
+      "description": "Assessment of the study's importance within its subject domain",
+      "value": "medium"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "relevance",
+      "description": "Assessment of the study's relevance to current technology landscape",
+      "value": "medium"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "prescience",
+      "description": "Assessment of the study's predictive accuracy regarding future developments",
+      "value": "medium"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,research-firm,technology-research,acquired,Spiceworks Ziff Davis,1988-2015,2003-sars2-hot-topic-deb75d,Publisher of this report; acquired by Harte-Hanks 2007 then SWZD
+sony,Sony,corporation,consumer-electronics,active,,1946-present,2003-sars2-hot-topic-deb75d,Moving all PlayStation manufacturing to PRC at time of report
+dell,Dell,corporation,computer-hardware,active,Dell Technologies,1984-present,2003-sars2-hot-topic-deb75d,Major PC OEM with Asia Pacific supply chain exposure; became Dell Technologies 2016
+hp,HP,corporation,computer-hardware,active,"HP Inc.; Hewlett Packard Enterprise",1939-present,2003-sars2-hot-topic-deb75d,Split into HP Inc. and HPE in 2015; major Asia Pacific supply chain dependence
+broadcom,Broadcom,corporation,semiconductors,active,,1991-present,2003-sars2-hot-topic-deb75d,Maintains applications engineers in Asia Pacific; acquired VMware 2023
+cirrus-logic,Cirrus Logic,corporation,semiconductors,active,,1984-present,2003-sars2-hot-topic-deb75d,Maintains applications engineers in Asia Pacific
+conexant,Conexant,corporation,semiconductors,acquired,Synaptics,1998-2017,2003-sars2-hot-topic-deb75d,Maintains applications engineers in Asia Pacific; acquired by Synaptics 2017
+national-semiconductor,National Semiconductor,corporation,semiconductors,acquired,Texas Instruments,1959-2011,2003-sars2-hot-topic-deb75d,Maintains applications engineers in Asia Pacific; acquired by Texas Instruments 2011
+nec,NEC,corporation,semiconductors,active,,1899-present,2003-sars2-hot-topic-deb75d,Committed to new 8-inch semiconductor fab in PRC
+philips,Philips,corporation,electronics,active,,1891-present,2003-sars2-hot-topic-deb75d,Committed to new 8-inch semiconductor fab in PRC; spun off semiconductor unit as NXP 2006
+oki,Oki Electric,corporation,semiconductors,active,,1881-present,2003-sars2-hot-topic-deb75d,Committed to new 8-inch semiconductor fab in PRC
+elpida,Elpida Memory,corporation,semiconductors,acquired,Micron Technology,1999-2012,2003-sars2-hot-topic-deb75d,Committed to new 8-inch semiconductor fab in PRC; filed bankruptcy 2012 and acquired by Micron 2013
+infineon,Infineon Technologies,corporation,semiconductors,active,,1999-present,2003-sars2-hot-topic-deb75d,Committed to new 8-inch semiconductor fab in PRC
+motorola,Motorola,corporation,electronics,restructured,"Motorola Mobility; Motorola Solutions",1928-2011,2003-sars2-hot-topic-deb75d,Temporarily closed Singapore cell phone plant; 305 workers quarantined; split into Mobility and Solutions 2011
+compal,Compal Electronics,corporation,computer-hardware,active,,1984-present,2003-sars2-hot-topic-deb75d,Barred employees from HK and PRC travel due to SARS
+ctic,CTIC,corporation,technology,unknown,,unknown,2003-sars2-hot-topic-deb75d,Corporate shutdown after 6 employees returned from Beijing via HK with SARS
+sia,Semiconductor Industry Association,industry-association,semiconductors,active,,1977-present,2003-sars2-hot-topic-deb75d,Forecast 2003 Asia Pacific semiconductor consumption at $65B (38% of global)

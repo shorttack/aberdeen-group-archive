@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "dct-oct.-4-hot-topic-7c1af3",
+  "name": "New Consumer Electronics Categories Appear in Time for Christmas",
+  "description": "Frictionless Data Package for Aberdeen Hot Topic study analyzing emerging consumer electronics categories for Christmas 2003, including the ZVUE pocket video player, Roku HD1000 HDTV media player, NEC fuel cell laptop, and market disruption from non-traditional CE companies.",
+  "url": "",
+  "identifier": "dct-oct.-4-hot-topic-7c1af3",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateCreated": "2003-10-04",
+  "datePublished": "2003-10-04",
+  "dateModified": "2026-03-16",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Russ Craig",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Peter Kastner",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Aberdeen Group"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "description": "Technology market research and advisory firm"
+  },
+  "keywords": [
+    "consumer electronics",
+    "portable video player",
+    "ZVUE",
+    "Hand Held Entertainment",
+    "Roku",
+    "HD1000",
+    "NEC",
+    "fuel cell",
+    "HDTV",
+    "SD memory card",
+    "Sony Clié",
+    "Panasonic",
+    "market disruption",
+    "non-traditional competitors"
+  ],
+  "temporalCoverage": "2003-10-04",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "United States"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Consumer Electronics",
+      "description": "Emerging consumer electronics product categories for the 2003 holiday season"
+    },
+    {
+      "@type": "Product",
+      "name": "ZVUE Pocket Video Player",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Hand Held Entertainment"
+      },
+      "description": "Portable video/music player with 2.5-inch color display, $99 price point, SD card storage"
+    },
+    {
+      "@type": "Product",
+      "name": "Roku HD1000",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Roku"
+      },
+      "description": "HDTV digital media player with Linux OS, WiFi, multiple card slots, $499.99"
+    },
+    {
+      "@type": "Product",
+      "name": "NEC Fuel Cell Laptop",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "NEC Corporation"
+      },
+      "description": "Prototype laptop powered by methanol/water fuel cell with 5-hour battery life"
+    },
+    {
+      "@type": "Product",
+      "name": "Sony UX40 Clié",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Sony"
+      },
+      "description": "PDA with video capability using 1GB Memory Stick Pro, total solution cost $1,359"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Observations"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Codes"
+    }
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Aberdeen Group Research Archive",
+    "description": "Archived technology research studies from Aberdeen Group"
+  }
+}

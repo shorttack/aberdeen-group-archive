@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mirror Image Internet: A Pioneer in Content Distribution Network Services",
+  "description": "Frictionless Data Package for Aberdeen Group profile (May 2004) of Mirror Image Internet, a CDN provider in Woburn MA. Highlights its Content Access Point architecture for centralized-yet-distributed content delivery, with two customer case studies (Fastclick and an international toy retailer) validating cost savings, performance gains, and responsive service. Examines Mirror Image's Smart Content platform for XML-based rules-driven adaptive content delivery.",
+  "url": "",
+  "identifier": "mirror-image-profile-v2-050404-97e2a6",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2004-05-01",
+  "dateCreated": "2026-03-16",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "keywords": [
+    "content delivery network",
+    "CDN",
+    "Mirror Image Internet",
+    "Content Access Point",
+    "Smart Content",
+    "geotargeting",
+    "streaming media",
+    "XML rules engine",
+    "ad serving",
+    "online advertising",
+    "SLA monitoring",
+    "web performance"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Content Delivery Networks",
+      "alternateName": "CDN"
+    },
+    {
+      "@type": "Thing",
+      "name": "Web Performance Optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Online Advertising Infrastructure"
+    }
+  ],
+  "temporalCoverage": "2004",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "cdn_vendor_count",
+      "description": "Number of CDN vendors in market over time",
+      "unitText": "count"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ad_impressions_monthly",
+      "description": "Monthly advertising impressions served via CDN",
+      "unitText": "impressions per month"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tool_delivery_time",
+      "description": "Time from customer request to production tool delivery",
+      "unitText": "days"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Structured observations extracted from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Code definitions for observation types, confidence levels, and methodologies"
+    }
+  ]
+}

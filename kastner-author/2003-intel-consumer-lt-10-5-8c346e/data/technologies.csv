@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+TECH-001,Intel LaGrande Technology (LT),hardware-security,Intel,2003-2006,pre-release,superseded,2003-intel-consumer-lt-10-5-8c346e,"Hardware-based trusted computing for processors; renamed Intel TXT (Trusted Execution Technology) circa 2006"
+TECH-002,LT Platform,platform-security,Intel,2003-2006,conceptual,superseded,2003-intel-consumer-lt-10-5-8c346e,"Defined as LT + OS + applications; all three required for secure computing platform"
+TECH-003,Trusted Platform Module (TPM),hardware-security,Trusted Computing Group,2003-present,early-adoption,mainstream,2003-intel-consumer-lt-10-5-8c346e,"Hardware security module standard from TCG; related to LT ecosystem. TPM 2.0 became mandatory for Windows 11 in 2021"
+TECH-004,Intel Trusted Execution Technology (TXT),hardware-security,Intel,2006-present,not-yet-released,active,2003-intel-consumer-lt-10-5-8c346e,"Successor name for LaGrande Technology; launched in enterprise Xeon processors circa 2006"
+TECH-005,NGSCB (Palladium),platform-security,Microsoft,2002-2004,pre-release,cancelled,2003-intel-consumer-lt-10-5-8c346e,"Microsoft's trusted computing OS initiative; complementary to Intel LT. Referenced indirectly via TCG/Microsoft NDA discussions"

@@ -1,0 +1,388 @@
+{
+  "name": "mirror-image-profile-v2-050404-97e2a6",
+  "title": "Mirror Image Internet: A Pioneer in Content Distribution Network Services",
+  "description": "Frictionless Data Package for Aberdeen Group profile (May 2004) of Mirror Image Internet, a CDN provider in Woburn MA. Highlights its Content Access Point architecture for centralized-yet-distributed content delivery, with two customer case studies (Fastclick and an international toy retailer) validating cost savings, performance gains, and responsive service. Examines Mirror Image's Smart Content platform for XML-based rules-driven adaptive content delivery.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mirror Image Profile V2 (050404).txt",
+      "path": "Mirror Image Profile V2 (050404).txt"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Unique identifier for the study",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Full title of the study"
+          },
+          {
+            "name": "author",
+            "type": "string",
+            "description": "Author or authoring organization"
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "description": "Publication date (ISO 8601)"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Document type classification"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string",
+            "description": "Primary subject domain"
+          },
+          {
+            "name": "methodology",
+            "type": "string",
+            "description": "Comma-separated methodology codes"
+          },
+          {
+            "name": "source_file",
+            "type": "string",
+            "description": "Original source filename"
+          },
+          {
+            "name": "abstract",
+            "type": "string",
+            "description": "Study abstract or executive summary"
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "description": "Data license identifier"
+          },
+          {
+            "name": "importance",
+            "type": "string",
+            "description": "Assessment of study importance",
+            "constraints": { "enum": ["high", "medium", "low", "not-applicable"] }
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string",
+            "description": "Rationale for importance rating"
+          },
+          {
+            "name": "relevance",
+            "type": "string",
+            "description": "Assessment of current relevance",
+            "constraints": { "enum": ["high", "medium", "low", "not-applicable"] }
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string",
+            "description": "Rationale for relevance rating"
+          },
+          {
+            "name": "prescience",
+            "type": "string",
+            "description": "Assessment of predictive accuracy",
+            "constraints": { "enum": ["high", "medium", "low", "not-applicable"] }
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string",
+            "description": "Rationale for prescience rating"
+          }
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "Canonical lowercase hyphenated entity identifier",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "entity_name",
+            "type": "string",
+            "description": "Full display name of the entity"
+          },
+          {
+            "name": "entity_type",
+            "type": "string",
+            "description": "Entity type (vendor, end-user, analyst, standards-body)"
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "description": "Industry sector"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Current status (active, acquired, dissolved, diminished)"
+          },
+          {
+            "name": "successor",
+            "type": "string",
+            "description": "Successor entity if acquired or merged"
+          },
+          {
+            "name": "years_active",
+            "type": "string",
+            "description": "Period of active operation"
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Foreign key to studies table"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional context or notes"
+          }
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": { "resource": "studies", "fields": ["study_id"] }
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string",
+            "description": "Canonical lowercase hyphenated technology identifier",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "tech_name",
+            "type": "string",
+            "description": "Full display name of the technology"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Technology category"
+          },
+          {
+            "name": "vendor",
+            "type": "string",
+            "description": "Primary vendor (if vendor-specific)"
+          },
+          {
+            "name": "era",
+            "type": "string",
+            "description": "Era of emergence or peak relevance"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string",
+            "description": "Lifecycle stage at time of study"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string",
+            "description": "Current lifecycle stage"
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Foreign key to studies table"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional context or notes"
+          }
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": { "resource": "studies", "fields": ["study_id"] }
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string",
+            "description": "Unique observation identifier (OBS-NNN format)",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "study_id",
+            "type": "string",
+            "description": "Foreign key to studies table",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "Foreign key to entities table (optional, single-valued)"
+          },
+          {
+            "name": "tech_id",
+            "type": "string",
+            "description": "Foreign key to technologies table (optional)"
+          },
+          {
+            "name": "observation_type",
+            "type": "string",
+            "description": "Canonical observation type",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "strategy-classification",
+                "viability-prediction",
+                "actual-outcome",
+                "technology-assessment",
+                "benchmark-result",
+                "framework-factor",
+                "market-data",
+                "expert-opinion"
+              ]
+            }
+          },
+          {
+            "name": "year_observed",
+            "type": "integer",
+            "description": "Year the observation pertains to"
+          },
+          {
+            "name": "metric_name",
+            "type": "string",
+            "description": "Name of the metric or dimension observed"
+          },
+          {
+            "name": "metric_value",
+            "type": "string",
+            "description": "Value or finding for the metric"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "Confidence level (high, medium, low, verified)",
+            "constraints": { "enum": ["high", "medium", "low", "verified"] }
+          },
+          {
+            "name": "methodology_code",
+            "type": "string",
+            "description": "Methodology code (industry-analysis, field-research, document-review, etc.)"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "description": "Source page or section reference"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Additional context or explanation"
+          }
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": { "resource": "studies", "fields": ["study_id"] }
+          },
+          {
+            "fields": ["entity_id"],
+            "reference": { "resource": "entities", "fields": ["entity_id"] }
+          },
+          {
+            "fields": ["tech_id"],
+            "reference": { "resource": "technologies", "fields": ["tech_id"] }
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string",
+            "description": "Code value used in other tables",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "code_type",
+            "type": "string",
+            "description": "Category of the code (observation_type, confidence, methodology_code, importance, relevance, prescience, study_type, entity_type, tech_category, entity_status)",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Human-readable label"
+          },
+          {
+            "name": "definition",
+            "type": "string",
+            "description": "Full definition of the code"
+          }
+        ],
+        "primaryKey": ["code_id", "code_type"]
+      }
+    }
+  ]
+}

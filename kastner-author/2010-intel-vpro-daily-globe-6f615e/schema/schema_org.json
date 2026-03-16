@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "2010 Business Computers Leave the Starting Gate",
+  "description": "Frictionless Data Package for article by Peter S. Kastner reviewing Intel's 2010 vPro technology launch covering Core i5/i7 processors, hardware encryption, power management, and remote manageability ecosystem (February 2010).",
+  "identifier": "2010-intel-vpro-daily-globe-6f615e",
+  "url": "",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {"@type": "Person", "name": "Peter S. Kastner"},
+  "datePublished": "2010-02-04",
+  "dateCreated": "2026-03-16",
+  "temporalCoverage": "2003/2010",
+  "keywords": ["Intel vPro", "Core i5", "Core i7", "AES-NI", "hardware encryption", "remote management", "business PC", "total cost of ownership", "enterprise computing"],
+  "about": [
+    {"@type": "Thing", "name": "Intel vPro Platform", "description": "Remote management and security platform for business PCs"},
+    {"@type": "Organization", "name": "Intel Corporation", "description": "Semiconductor manufacturer"}
+  ],
+  "distribution": [
+    {"@type": "DataDownload", "name": "studies", "contentUrl": "data/studies.csv", "encodingFormat": "text/csv"},
+    {"@type": "DataDownload", "name": "entities", "contentUrl": "data/entities.csv", "encodingFormat": "text/csv"},
+    {"@type": "DataDownload", "name": "technologies", "contentUrl": "data/technologies.csv", "encodingFormat": "text/csv"},
+    {"@type": "DataDownload", "name": "observations", "contentUrl": "data/observations.csv", "encodingFormat": "text/csv"},
+    {"@type": "DataDownload", "name": "codes", "contentUrl": "data/codes.csv", "encodingFormat": "text/csv"}
+  ],
+  "measurementTechnique": "Expert review with hands-on product testing",
+  "variableMeasured": [
+    {"@type": "PropertyValue", "name": "observation_count", "value": 40},
+    {"@type": "PropertyValue", "name": "entity_count", "value": 11},
+    {"@type": "PropertyValue", "name": "technology_count", "value": 9}
+  ]
+}

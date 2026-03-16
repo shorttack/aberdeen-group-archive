@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+nas,Network Attached Storage (NAS),service-platform,,2000s,growth,mature,"snap-appliances-snapshot-10-15pk-c5a4c2","File-level storage connected to network; Snap Appliance's core product category"
+ata-disk-storage,ATA Disk Storage,point-solution,,2000s,current-generation,legacy,"snap-appliances-snapshot-10-15pk-c5a4c2","Inexpensive ATA disks used in Snap Server appliances as alternative to SCSI; superseded by SATA and SSD"
+raid,RAID Storage Configurations,integration-technology,,1990s,mature,mature,"snap-appliances-snapshot-10-15pk-c5a4c2","Redundant Array of Independent Disks; Snap Servers offered RAID 1 and RAID 5 configurations"
+snap-os,SnapOS,point-solution,Snap Appliance,2000s,current-generation,defunct,"snap-appliances-snapshot-10-15pk-c5a4c2","Proprietary OS for Snap Server workgroup products; field-hardened for ease of use"
+guardian-os,GuardianOS,point-solution,Snap Appliance,2000s,current-generation,defunct,"snap-appliances-snapshot-10-15pk-c5a4c2","Linux-based OS for departmental and enterprise Snap Servers; added snapshots and Windows ADS support"
+datakeeper,DataKeeper Backup Software,point-solution,Snap Appliance,2000s,current-generation,defunct,"snap-appliances-snapshot-10-15pk-c5a4c2","Automated scheduled client backup software included with every Snap Server; unlimited user license"
+mid-line-disk-storage,Mid-Line Disk Storage,enterprise-suite,,2000s,emerging,mature,"snap-appliances-snapshot-10-15pk-c5a4c2","Storage tier between high-performance SCSI and tape; Aberdeen identified as significant cost-saving opportunity"
+gigabit-ethernet,Gigabit Ethernet,integration-technology,,2000s,growth,mature,"snap-appliances-snapshot-10-15pk-c5a4c2","High-speed network connectivity; Snap Server 4200/4500 included dual gigabit-Ethernet adapters"

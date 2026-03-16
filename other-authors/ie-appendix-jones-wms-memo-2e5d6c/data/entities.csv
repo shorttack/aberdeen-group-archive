@@ -1,0 +1,8 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+manhattan-associates,Manhattan Associates,vendor,warehouse-management-systems,active,,1990-present,ie-appendix-jones-wms-memo-2e5d6c,"First commercially released client/server WMS (PkMS) in 1995; now a leading supply chain solutions provider"
+catalyst-international,Catalyst International,vendor,warehouse-management-systems,acquired,RedPrairie,1993-2005,ie-appendix-jones-wms-memo-2e5d6c,"Early WMS provider; used Windows and Vermont Views on RF handhelds in 1993-94; GUI desktop shipped 1996"
+jba-international,JBA International,vendor,enterprise-software,acquired,Geac,1982-1999,ie-appendix-jones-wms-memo-2e5d6c,"Had host-dumb terminal WMS on AS/400 in 1994"
+computer-associates,Computer Associates,vendor,enterprise-software,active,Broadcom,1976-present,ie-appendix-jones-wms-memo-2e5d6c,"BOSS warehouse management system on AS/400; renamed CA Technologies then acquired by Broadcom 2019"
+digital-equipment-corp,Digital Equipment Corporation,vendor,computer-hardware,acquired,Compaq/HP,1957-1998,ie-appendix-jones-wms-memo-2e5d6c,"Maker of VT 100 and VT 200 terminals used in warehouse environments"
+aberdeen-group,Aberdeen Group,analyst,it-research,acquired,Spiceworks Ziff Davis,1988-2018,ie-appendix-jones-wms-memo-2e5d6c,"Dr. Jones was part of Aberdeen's ERP Research practice"
+katherine-jones,Dr. Katherine Jones,analyst,erp-research,active,,1990s-present,ie-appendix-jones-wms-memo-2e5d6c,"Aberdeen Group ERP Research analyst; authored this memo for Peter Kastner"

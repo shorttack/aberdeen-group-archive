@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+it-outsourcing,IT Outsourcing,service-platform,,2000s,mature,mature,"the-business-value-in-it-outsourcing-e8d0fc","Outsourcing of IT functions ranging from application outsourcing to full business process offshoring"
+sla-management,Service Level Agreement Management,enterprise-suite,,2000s,growth,mature,"the-business-value-in-it-outsourcing-e8d0fc","Processes and tools for setting, measuring, and aligning SLAs with business units"
+it-governance,IT Governance,enterprise-suite,,2000s,growth,mature,"the-business-value-in-it-outsourcing-e8d0fc","Executive-level process and management capacity for IT oversight before and after outsourcing"
+soa,Service-Oriented Architecture (SOA),development-paradigm,,2000s,growth,evolved,"the-business-value-in-it-outsourcing-e8d0fc","Referenced via related Aberdeen SOA benchmark report December 2005"
+enterprise-integration,Enterprise Integration,integration-technology,,2000s,growth,mature,"the-business-value-in-it-outsourcing-e8d0fc","Integration of enterprise systems; referenced via related Aberdeen benchmark report May 2006"
+bpo,Business Process Outsourcing (BPO),service-platform,,2000s,growth,mature,"the-business-value-in-it-outsourcing-e8d0fc","Full business process offshoring of major processes like general ledger or accounts payable"
+roi-measurement,ROI Measurement for IT,point-solution,,2000s,growth,mature,"the-business-value-in-it-outsourcing-e8d0fc","Measurement of return on investment after software application upgrades or changes; used as IT maturity indicator"
+outsourcing-governance,Outsourcing Governance Framework,enterprise-suite,,2000s,emerging,mature,"the-business-value-in-it-outsourcing-e8d0fc","Structured approach to managing outsourcer relationships including conflict resolution and change management"

@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AMD's Gigahertz Equivalency: Confused Customers Accept Bad Science",
+  "description": "Frictionless Data Package for Aberdeen Group white paper critically analyzing AMD's Athlon XP gigahertz equivalency model numbering methodology, examining benchmark flaws, conceptual methodology problems, and predicting AMD's abandonment of the GHz equivalency approach (March 2002).",
+  "identifier": "amd-profile01-db9623",
+  "url": "",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2002-03-01",
+  "dateCreated": "2026-03-16",
+  "temporalCoverage": "2001/2002",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global (US, Europe)"
+  },
+  "keywords": [
+    "AMD",
+    "Intel",
+    "Athlon XP",
+    "Pentium 4",
+    "gigahertz equivalency",
+    "processor benchmarks",
+    "benchmarketing",
+    "GHz equivalency",
+    "SYSmark 2001",
+    "model numbering",
+    "processor marketing",
+    "Aberdeen Group",
+    "benchmark methodology"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Processor Benchmark Methodology",
+      "description": "Analysis of AMD's benchmark methodology used to derive GHz equivalency model numbers for Athlon XP processors"
+    },
+    {
+      "@type": "Organization",
+      "name": "Advanced Micro Devices (AMD)",
+      "description": "Semiconductor manufacturer whose GHz equivalency marketing strategy is the subject of this analysis"
+    },
+    {
+      "@type": "Organization",
+      "name": "Intel Corporation",
+      "description": "Semiconductor manufacturer whose Pentium 4 clock speeds were the reference for AMD's GHz equivalency ratings"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "studies",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "entities",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "technologies",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "observations",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "codes",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "measurementTechnique": "Benchmark analysis with document review and competitive profiling",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "observation_count",
+      "value": 36
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "entity_count",
+      "value": 12
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "technology_count",
+      "value": 10
+    }
+  ]
+}

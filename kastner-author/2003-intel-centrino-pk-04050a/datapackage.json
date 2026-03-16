@@ -1,0 +1,163 @@
+{
+  "name": "2003-intel-centrino-pk-04050a",
+  "title": "Intel's Centrino: Don't Man the Barricades",
+  "description": "Frictionless Data Package containing structured observations from a 2003 Aberdeen Group opinion piece by Peter S. Kastner about Intel's Centrino wireless notebook platform launch and enterprise wireless adoption.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Archival Ingest Pipeline v13",
+      "role": "publisher"
+    },
+    {
+      "title": "Peter S. Kastner",
+      "organization": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique study identifier"},
+          {"name": "title", "type": "string", "description": "Title of the source document"},
+          {"name": "author", "type": "string", "description": "Author name"},
+          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
+          {"name": "type", "type": "string", "description": "Type of source document"},
+          {"name": "subject_domain", "type": "string", "description": "Subject domain"},
+          {"name": "methodology", "type": "string", "description": "Research methodology used"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Abstract summarizing the study"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "integer", "description": "Importance rating (1-10)"},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
+          {"name": "relevance", "type": "integer", "description": "Relevance rating (1-10)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
+          {"name": "prescience", "type": "integer", "description": "Prescience rating (1-10)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique entity identifier"},
+          {"name": "entity_name", "type": "string", "description": "Entity name"},
+          {"name": "entity_type", "type": "string", "description": "Entity type (company, analyst-firm, consulting-firm, person, retailer)"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current entity status"},
+          {"name": "successor", "type": "string", "description": "Successor entity if defunct"},
+          {"name": "years_active", "type": "string", "description": "Years of active operation"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
+          {"name": "notes", "type": "string", "description": "Additional notes"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": "study_id",
+            "reference": {"resource": "studies", "fields": "study_id"}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique technology identifier"},
+          {"name": "tech_name", "type": "string", "description": "Technology name"},
+          {"name": "category", "type": "string", "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or standards body"},
+          {"name": "era", "type": "string", "description": "Time period of relevance"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Technology lifecycle stage at time of study"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current technology lifecycle stage"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
+          {"name": "notes", "type": "string", "description": "Additional notes"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": "study_id",
+            "reference": {"resource": "studies", "fields": "study_id"}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier (OBS-NNN)"},
+          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
+          {"name": "entity_id", "type": "string", "description": "Foreign key to entities.csv (single value only)"},
+          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies.csv"},
+          {"name": "observation_type", "type": "string", "description": "Type of observation (strategy-classification, viability-prediction, actual-outcome, technology-assessment, benchmark-result, framework-factor, market-data, expert-opinion)"},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation applies to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or dimension measured"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (high, medium, low)"},
+          {"name": "methodology_code", "type": "string", "description": "How the observation was derived"},
+          {"name": "source_page", "type": "string", "description": "Location in source document"},
+          {"name": "notes", "type": "string", "description": "Additional context or notes"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": "study_id",
+            "reference": {"resource": "studies", "fields": "study_id"}
+          },
+          {
+            "fields": "entity_id",
+            "reference": {"resource": "entities", "fields": "entity_id"}
+          },
+          {
+            "fields": "tech_id",
+            "reference": {"resource": "technologies", "fields": "tech_id"}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
+          {"name": "code_type", "type": "string", "description": "Category of code (observation_type, confidence, entity_type, methodology_code, study_type)"},
+          {"name": "label", "type": "string", "description": "The code label/value"},
+          {"name": "definition", "type": "string", "description": "Human-readable definition"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ]
+}

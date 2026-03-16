@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Consumer Adoption of Memory Cards: A Qualitative Study",
+  "description": "Archival data package for the Aberdeen Group qualitative study on consumer adoption of SD memory cards, commissioned by the Internet Home Alliance (IHA) in July 2003. Based on 6 focus groups and 11 in-depth interviews in Boston and San Diego, examining consumer attitudes toward SD cards, transfer behaviors, purchase intent, and retail expectations.",
+  "identifier": "2003-iha-full-report---draft-jul-28-45d5bd",
+  "url": "",
+  "datePublished": "2003-07-28",
+  "dateCreated": "2026-03-16",
+  "license": "restricted-distribution",
+  "creator": {
+    "@type": "Organization",
+    "name": "Aberdeen Group",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Franklin Street",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "postalCode": "02110-3112",
+      "addressCountry": "US"
+    },
+    "url": "https://www.aberdeen.com"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Internet Home Alliance"
+    },
+    {
+      "@type": "Organization",
+      "name": "SD Card Association"
+    }
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "SD Memory Card",
+      "description": "Secure Digital removable flash memory card standard"
+    },
+    {
+      "@type": "Thing",
+      "name": "Consumer Electronics Adoption",
+      "description": "Consumer behavior and adoption patterns for digital electronics"
+    },
+    {
+      "@type": "Thing",
+      "name": "Memory Card Format War",
+      "description": "Competition between SD, CompactFlash, Memory Stick, and xD card formats"
+    }
+  ],
+  "keywords": [
+    "SD memory card",
+    "consumer adoption",
+    "memory card format war",
+    "digital camera",
+    "qualitative research",
+    "focus groups",
+    "consumer electronics",
+    "data transfer",
+    "portable storage",
+    "Internet Home Alliance",
+    "Aberdeen Group",
+    "2003"
+  ],
+  "temporalCoverage": "2003-06/2003-07",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "name": "Boston, Massachusetts"
+    },
+    {
+      "@type": "Place",
+      "name": "San Diego, California"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Memory card brand awareness",
+      "description": "Consumer awareness and ability to identify memory card brands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SD card purchase intent",
+      "description": "Consumer willingness and intent to purchase SD memory cards"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Premium willingness",
+      "description": "Willingness to pay premium for SD card capability in devices",
+      "value": "10-15%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Preferred card capacity",
+      "description": "Consumer preference for SD card storage capacity",
+      "value": "256 MB to 1 GB"
+    }
+  ],
+  "measurementTechnique": "Qualitative research: 6 focus groups (3 Boston, 3 San Diego) and 11 in-depth interviews with parent/child dyads or triads",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Studies CSV",
+      "contentUrl": "data/studies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Entities CSV",
+      "contentUrl": "data/entities.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Technologies CSV",
+      "contentUrl": "data/technologies.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Observations CSV",
+      "contentUrl": "data/observations.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Codes CSV",
+      "contentUrl": "data/codes.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "isPartOf": {
+    "@type": "DataCatalog",
+    "name": "Archival Ingest Pipeline v13"
+  }
+}

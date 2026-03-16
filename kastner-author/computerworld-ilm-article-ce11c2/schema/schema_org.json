@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Waiting for ILM?",
+  "description": "Frictionless Data Package for a Computerworld published column (July 2004) by Peter S. Kastner presenting a six-step recipe for enterprise adoption of Information Lifecycle Management (ILM). Covers a four-pool storage model, data classification on three axes, and projected ILM software maturity timeline of 2008-2010.",
+  "url": "",
+  "identifier": "computerworld-ilm-article-ce11c2",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2004-07-29",
+  "dateCreated": "2026-03-16",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Aberdeen Group"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Computerworld",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Foundry (formerly IDG)"
+    }
+  },
+  "keywords": [
+    "information lifecycle management",
+    "ILM",
+    "storage area networks",
+    "SAN",
+    "NAS",
+    "tiered storage",
+    "storage pools",
+    "midline storage",
+    "disk-to-disk backup",
+    "tape storage",
+    "storage virtualization",
+    "data classification",
+    "compliance",
+    "storage management",
+    "enterprise storage"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Information Lifecycle Management",
+      "alternateName": "ILM"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tiered Storage"
+    },
+    {
+      "@type": "Thing",
+      "name": "Data Classification"
+    }
+  ],
+  "temporalCoverage": "2004",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "annual_storage_growth",
+      "description": "Projected annual growth rate of enterprise storage",
+      "unitText": "percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "midline_cost_ratio",
+      "description": "Cost of midline storage relative to FC/SCSI",
+      "unitText": "percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "admin_hour_reduction",
+      "description": "Projected reduction in storage-related admin hours with ILM",
+      "unitText": "percent"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv",
+      "name": "Studies metadata"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv",
+      "name": "Entities referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv",
+      "name": "Technologies referenced in the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv",
+      "name": "Structured observations extracted from the study"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv",
+      "name": "Code definitions for observation types, confidence levels, and methodologies"
+    }
+  ]
+}

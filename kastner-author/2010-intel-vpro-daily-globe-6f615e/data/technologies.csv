@@ -1,0 +1,10 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+core-i5,Intel Core i5,microprocessor,Intel,2009-present,current,active,2010-intel-vpro-daily-globe-6f615e,"2 cores + hyperthreading in 2010 business variant; 32nm process; described as acting like 4-way multiprocessing"
+core-i7,Intel Core i7,microprocessor,Intel,2008-present,current,active,2010-intel-vpro-daily-globe-6f615e,"Quad-core + hyperthreading (8 logical processors); aimed at power users and design engineers"
+vpro,Intel vPro,platform,Intel,2006-present,current,active,2010-intel-vpro-daily-globe-6f615e,"Remote management, diagnosis, repair, and security platform for business PCs; now Intel vPro Enterprise/Essentials"
+bitlocker,Microsoft BitLocker,encryption-software,Microsoft,2006-present,current,active,2010-intel-vpro-daily-globe-6f615e,Full disk encryption facility in Windows; article predicted it would become business norm enabled by AES-NI
+aes-ni,AES-NI,instruction-set,Intel,2010-present,emerging,ubiquitous,2010-intel-vpro-daily-globe-6f615e,"Hardware encryption instructions reducing processor overhead for encryption/decryption; now standard in all x86 CPUs"
+32nm-process,32nm Process Technology,semiconductor-fabrication,Intel,2010-2013,current,obsolete,2010-intel-vpro-daily-globe-6f615e,"Intel's leading-edge fabrication process in 2010; succeeded by 22nm (2012), 14nm, 10nm, Intel 7/4"
+windows-xp,Microsoft Windows XP,operating-system,Microsoft,2001-2014,declining,end-of-life,2010-intel-vpro-daily-globe-6f615e,"Implied as the older OS generation being replaced; end of extended support April 2014"
+remote-management,Remote Management Technology,management-platform,Multiple,2000s-present,growth,mainstream,2010-intel-vpro-daily-globe-6f615e,"Core vPro capability enabling remote diagnosis, repair, and restart of PCs; became essential during COVID-19 remote work era"
+anti-theft-technology,Anti-Theft Technology,security,Intel,2008-2015,current,discontinued,2010-intel-vpro-daily-globe-6f615e,"vPro feature allowing remote lock-down of stolen/lost PCs; Intel discontinued standalone AT in 2015, capabilities folded into broader endpoint security"

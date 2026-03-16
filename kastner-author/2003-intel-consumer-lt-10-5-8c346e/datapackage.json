@@ -1,0 +1,178 @@
+{
+  "name": "2003-intel-consumer-lt-10-5-8c346e",
+  "title": "LaGrande Technology: A Proposal for Consumer Market Research",
+  "description": "Archival data package for Aberdeen Group's 2003 proposal to Intel Corporation regarding consumer market research for Intel LaGrande Technology (LT). Processed via Archival Ingest Skill v13.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author",
+      "organization": "Aberdeen Group"
+    },
+    {
+      "title": "Archival Ingest Skill v13",
+      "role": "processor"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique study identifier"},
+          {"name": "title", "type": "string", "description": "Study title"},
+          {"name": "author", "type": "string", "description": "Primary author"},
+          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
+          {"name": "type", "type": "string", "description": "Document type classification"},
+          {"name": "subject_domain", "type": "string", "description": "Primary subject domain"},
+          {"name": "methodology", "type": "string", "description": "Research methodology used or proposed"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Study abstract or summary"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "integer", "description": "Importance score (1-10)"},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance score"},
+          {"name": "relevance", "type": "integer", "description": "Relevance score (1-10)"},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance score"},
+          {"name": "prescience", "type": "integer", "description": "Prescience score (1-10)"},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience score"}
+        ],
+        "primaryKey": "study_id"
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique entity identifier"},
+          {"name": "entity_name", "type": "string", "description": "Entity name"},
+          {"name": "entity_type", "type": "string", "description": "Entity type (company, person, consortium)"},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current status"},
+          {"name": "successor", "type": "string", "description": "Successor entity if applicable"},
+          {"name": "years_active", "type": "string", "description": "Years of activity"},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "notes", "type": "string", "description": "Additional notes"}
+        ],
+        "primaryKey": "entity_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique technology identifier"},
+          {"name": "tech_name", "type": "string", "description": "Technology name"},
+          {"name": "category", "type": "string", "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or standards body"},
+          {"name": "era", "type": "string", "description": "Active era"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study"},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "notes", "type": "string", "description": "Additional notes"}
+        ],
+        "primaryKey": "tech_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier (OBS-NNN)"},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "entity_id", "type": "string", "description": "Single entity identifier"},
+          {"name": "tech_id", "type": "string", "description": "Associated technology identifier"},
+          {"name": "observation_type", "type": "string", "description": "Canonical observation type"},
+          {"name": "year_observed", "type": "integer", "description": "Year of observation or prediction target"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or attribute observed"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric or attribute"},
+          {"name": "confidence", "type": "string", "description": "Confidence level (low, medium, high)"},
+          {"name": "methodology_code", "type": "string", "description": "Methodology code reference"},
+          {"name": "source_page", "type": "integer", "description": "Source page number (0 if external)"},
+          {"name": "notes", "type": "string", "description": "Additional context or notes"}
+        ],
+        "primaryKey": "obs_id",
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          },
+          {
+            "fields": ["entity_id"],
+            "reference": {"resource": "entities", "fields": ["entity_id"]}
+          },
+          {
+            "fields": ["tech_id"],
+            "reference": {"resource": "technologies", "fields": ["tech_id"]}
+          },
+          {
+            "fields": ["methodology_code"],
+            "reference": {"resource": "codes", "fields": ["code_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
+          {"name": "code_type", "type": "string", "description": "Code category (methodology, observation_type)"},
+          {"name": "label", "type": "string", "description": "Human-readable label"},
+          {"name": "definition", "type": "string", "description": "Definition of the code"}
+        ],
+        "primaryKey": "code_id"
+      }
+    }
+  ],
+  "keywords": [
+    "Intel",
+    "LaGrande Technology",
+    "hardware security",
+    "trusted computing",
+    "consumer market",
+    "market research",
+    "Aberdeen Group",
+    "TPM",
+    "Intel TXT"
+  ]
+}

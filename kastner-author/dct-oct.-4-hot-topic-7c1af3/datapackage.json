@@ -1,0 +1,193 @@
+{
+  "name": "dct-oct.-4-hot-topic-7c1af3",
+  "title": "New Consumer Electronics Categories Appear in Time for Christmas",
+  "description": "Frictionless Data Package for Aberdeen Hot Topic study (2003-10-04) analyzing emerging consumer electronics categories including the ZVUE pocket video player, Roku HD1000 HDTV media player, NEC fuel cell laptop, and disruption from non-traditional CE companies. By Russ Craig and Peter Kastner.",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "id": "dct-oct.-4-hot-topic-7c1af3",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Russ Craig",
+      "role": "author"
+    },
+    {
+      "title": "Peter Kastner",
+      "role": "author"
+    },
+    {
+      "title": "Aberdeen Group",
+      "role": "publisher"
+    },
+    {
+      "title": "Archival Ingest Skill v13",
+      "role": "wrangler"
+    }
+  ],
+  "keywords": [
+    "consumer-electronics",
+    "portable-video",
+    "ZVUE",
+    "Roku",
+    "NEC",
+    "fuel-cell",
+    "HDTV",
+    "SD-card",
+    "Sony",
+    "Panasonic",
+    "disruption",
+    "hot-topic",
+    "Aberdeen-Group"
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "study_id", "type": "string", "description": "Unique identifier for the study", "constraints": {"required": true}},
+          {"name": "title", "type": "string", "description": "Full title of the study"},
+          {"name": "author", "type": "string", "description": "Author or publishing organization"},
+          {"name": "date", "type": "date", "description": "Publication date in ISO 8601 format"},
+          {"name": "type", "type": "string", "description": "Study type classification", "constraints": {"enum": ["market-event", "benchmark-report", "case-study", "white-paper", "analyst-report", "hot-topic", "article"]}},
+          {"name": "subject_domain", "type": "string", "description": "Primary subject domain of the study"},
+          {"name": "methodology", "type": "string", "description": "Primary research methodology used"},
+          {"name": "source_file", "type": "string", "description": "Original source filename"},
+          {"name": "abstract", "type": "string", "description": "Study abstract or summary"},
+          {"name": "license", "type": "string", "description": "License identifier"},
+          {"name": "importance", "type": "string", "description": "Assessed importance rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
+          {"name": "relevance", "type": "string", "description": "Assessed relevance rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
+          {"name": "prescience", "type": "string", "description": "Assessed prescience rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
+          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
+        ],
+        "primaryKey": ["study_id"]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "entity_id", "type": "string", "description": "Unique identifier for the entity", "constraints": {"required": true}},
+          {"name": "entity_name", "type": "string", "description": "Full name of the entity"},
+          {"name": "entity_type", "type": "string", "description": "Type of entity", "constraints": {"enum": ["company", "research-firm", "government", "consortium", "individual"]}},
+          {"name": "sector", "type": "string", "description": "Industry sector"},
+          {"name": "status", "type": "string", "description": "Current operational status", "constraints": {"enum": ["active", "acquired", "dissolved", "merged", "unknown"]}},
+          {"name": "successor", "type": "string", "description": "Successor entity if acquired or merged"},
+          {"name": "years_active", "type": "string", "description": "Years of operation"},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "notes", "type": "string", "description": "Additional notes about the entity"}
+        ],
+        "primaryKey": ["entity_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "tech_id", "type": "string", "description": "Unique identifier for the technology", "constraints": {"required": true}},
+          {"name": "tech_name", "type": "string", "description": "Full name of the technology"},
+          {"name": "category", "type": "string", "description": "Technology category"},
+          {"name": "vendor", "type": "string", "description": "Primary vendor or provider if applicable"},
+          {"name": "era", "type": "string", "description": "Era of primary relevance"},
+          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study", "constraints": {"enum": ["emerging", "growth", "mature", "declining", "obsolete"]}},
+          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage", "constraints": {"enum": ["emerging", "growth", "mature", "declining", "obsolete"]}},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "notes", "type": "string", "description": "Additional notes about the technology"}
+        ],
+        "primaryKey": ["tech_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "obs_id", "type": "string", "description": "Unique observation identifier", "constraints": {"required": true, "pattern": "^OBS-[0-9]{3}$"}},
+          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
+          {"name": "entity_id", "type": "string", "description": "Associated entity identifier"},
+          {"name": "tech_id", "type": "string", "description": "Associated technology identifier"},
+          {"name": "observation_type", "type": "string", "description": "Type of observation", "constraints": {"enum": ["strategy-classification", "viability-prediction", "actual-outcome", "technology-assessment", "benchmark-result", "framework-factor", "market-data", "expert-opinion"]}},
+          {"name": "year_observed", "type": "integer", "description": "Year the observation was made or applies to"},
+          {"name": "metric_name", "type": "string", "description": "Name of the metric or measure"},
+          {"name": "metric_value", "type": "string", "description": "Value of the metric or measure"},
+          {"name": "confidence", "type": "string", "description": "Confidence level in the observation", "constraints": {"enum": ["high", "medium", "low", "verified"]}},
+          {"name": "methodology_code", "type": "string", "description": "Research methodology used", "constraints": {"enum": ["industry-analysis", "competitive-profiling", "benchmarking", "field-research", "document-review", "statistical-analysis"]}},
+          {"name": "source_page", "type": "string", "description": "Source page reference"},
+          {"name": "notes", "type": "string", "description": "Additional notes about the observation"}
+        ],
+        "primaryKey": ["obs_id"],
+        "foreignKeys": [
+          {
+            "fields": ["study_id"],
+            "reference": {"resource": "studies", "fields": ["study_id"]}
+          },
+          {
+            "fields": ["entity_id"],
+            "reference": {"resource": "entities", "fields": ["entity_id"]}
+          },
+          {
+            "fields": ["tech_id"],
+            "reference": {"resource": "technologies", "fields": ["tech_id"]}
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "code_id", "type": "string", "description": "Code identifier", "constraints": {"required": true}},
+          {"name": "code_type", "type": "string", "description": "Type of code", "constraints": {"enum": ["observation_type", "confidence", "methodology_code", "study_type", "subject_domain", "importance", "relevance", "prescience", "entity_type", "entity_status"]}},
+          {"name": "label", "type": "string", "description": "Human-readable label for the code"},
+          {"name": "definition", "type": "string", "description": "Definition of the code"}
+        ],
+        "primaryKey": ["code_id", "code_type"]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "DCT Oct. 4 hot topic.txt",
+      "path": "source/original_text.md",
+      "description": "Original Aberdeen Group Hot Topic analysis from October 4, 2003"
+    }
+  ]
+}

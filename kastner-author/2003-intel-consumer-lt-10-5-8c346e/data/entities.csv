@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ENT-001,Intel Corporation,company,semiconductors,active,,1968-present,2003-intel-consumer-lt-10-5-8c346e,Target of the proposal; developer of LaGrande Technology
+ENT-002,Aberdeen Group,company,market-research,acquired,Spiceworks Ziff Davis,1988-2015,2003-intel-consumer-lt-10-5-8c346e,Author organization; proposed the consumer LT research
+ENT-003,Peter S. Kastner,person,market-research,unknown,,2003,2003-intel-consumer-lt-10-5-8c346e,EVP Research at Aberdeen Group; primary author of proposal
+ENT-004,Michael Ferron-Jones,person,semiconductors,unknown,,2003,2003-intel-consumer-lt-10-5-8c346e,"Former LT Platform Marketing Manager at Intel; recipient of proposal"
+ENT-005,Jim Hurley,person,market-research,unknown,,2003,2003-intel-consumer-lt-10-5-8c346e,VP Security Practice at Aberdeen Group; co-lead on proposed research
+ENT-006,Narendar Sahgal,person,semiconductors,unknown,,2003,2003-intel-consumer-lt-10-5-8c346e,Intel contact who discussed LT concepts with Aberdeen at IDF September 2003
+ENT-007,Microsoft,company,software,active,,1975-present,2003-intel-consumer-lt-10-5-8c346e,Referenced as NDA partner on related Trusted Computing Group technologies
+ENT-008,Trusted Computing Group,consortium,standards,active,,2003-present,2003-intel-consumer-lt-10-5-8c346e,Industry consortium for trusted computing standards; Aberdeen in NDA discussions with members

@@ -1,0 +1,25 @@
+code_id,code_type,label,definition
+CODE-001,observation_type,strategy-classification,Classification of a strategic approach or business strategy adopted by an entity
+CODE-002,observation_type,viability-prediction,Forward-looking prediction about the viability or success of a technology or approach
+CODE-003,observation_type,actual-outcome,Verified historical outcome that can be compared against predictions made at time of study
+CODE-004,observation_type,technology-assessment,Technical evaluation of a product or platform's capabilities and characteristics
+CODE-005,observation_type,benchmark-result,Quantitative performance metric or ROI measurement from research or vendor claims
+CODE-006,observation_type,framework-factor,Structural factor or tradeoff shaping strategic decisions in the domain
+CODE-007,observation_type,market-data,Quantitative or qualitative data about market size or conditions or pricing or adoption
+CODE-008,observation_type,expert-opinion,Professional judgment or recommendation from a domain expert
+CODE-009,confidence,high,Strong evidence from primary sources or widely verified historical claims
+CODE-010,confidence,medium,Reasonable evidence but involves estimation or limited sourcing
+CODE-011,confidence,low,Speculative or weakly supported claim
+CODE-012,entity_type,company,Corporation or business entity operating in technology markets
+CODE-013,entity_type,analyst-firm,Technology research and advisory firm
+CODE-014,entity_type,consulting-firm,Professional services and consulting organization
+CODE-015,entity_type,person,Individual contributor or domain expert
+CODE-016,entity_type,retailer,Retail business selling technology products to consumers
+CODE-017,methodology_code,expert-opinion,Observation derived from author's professional judgment or analyst recommendation
+CODE-018,methodology_code,primary-source,Directly stated in the source document as factual claim
+CODE-019,methodology_code,vendor-claim,Performance or capability claim originating from product vendor
+CODE-020,methodology_code,industry-estimate,Estimate or projection from industry sources cited in document
+CODE-021,methodology_code,third-party-research,Research findings cited from external organization
+CODE-022,methodology_code,proprietary-research,Research findings from author's own organization (Aberdeen Group)
+CODE-023,methodology_code,historical-verification,Post-hoc verification of claims against known historical outcomes
+CODE-024,study_type,opinion-piece,Expert commentary or editorial analysis published by analyst firm

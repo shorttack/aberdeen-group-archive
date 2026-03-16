@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+client-server-wms,Client/Server WMS,application,Various,1995-present,emerging,mature,ie-appendix-jones-wms-memo-2e5d6c,"Not commercially available in 1994; first instance was Manhattan Associates PkMS in 1995"
+rf-handhelds,Radio-Frequency Handhelds,platform,Various,1990s-present,mature,active,ie-appendix-jones-wms-memo-2e5d6c,"Used in warehouses for inventory management; not considered client/server by Aberdeen's definition"
+vt-terminals,DEC VT 100/200 Terminals,platform,Digital Equipment Corp,1978-1990s,declining,obsolete,ie-appendix-jones-wms-memo-2e5d6c,"Dumb terminals used in warehouse environments via emulation mode"
+ibm-as400,IBM AS/400,platform,IBM,1988-present,mature,legacy-supported,ie-appendix-jones-wms-memo-2e5d6c,"Used in host-dumb terminal environment for WMS in 1994; renamed iSeries then IBM i"
+pkms,Manhattan Associates PkMS,application,Manhattan Associates,1995-present,emerging,active,ie-appendix-jones-wms-memo-2e5d6c,"First commercially released client/server WMS; shipped 1995"
+boss-wms,Computer Associates BOSS,application,Computer Associates,1990s,mature,obsolete,ie-appendix-jones-wms-memo-2e5d6c,"Host-dumb terminal WMS on AS/400 in 1994"

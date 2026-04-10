@@ -164,5 +164,18 @@
     "entity_cache": "soa3_output/_known_entities.csv",
     "tech_cache": "soa3_output/_known_technologies.csv",
     "skill_to_load": "load_skill(name='archival-ingest', scope='user')"
-  }
+  },
+  "ai1_output": {
+    "studies": [
+      "kastner-rebuttal-b1a2c3",
+      "neutral-assessment-multimodel-d4e5f6",
+      "technology-translator-narrative-g7h8i9",
+      "storm-kastner-article-j1k2l3"
+    ],
+    "obs_count": 100,
+    "collection_type": "ai-response",
+    "processed_date": "2026-04-10",
+    "pushed": false
+  },
+  "last_updated": "2026-04-10"
 }

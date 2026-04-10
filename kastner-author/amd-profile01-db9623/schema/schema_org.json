@@ -2,101 +2,24 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "AMD's Gigahertz Equivalency: Confused Customers Accept Bad Science",
-  "description": "Frictionless Data Package for Aberdeen Group white paper critically analyzing AMD's Athlon XP gigahertz equivalency model numbering methodology, examining benchmark flaws, conceptual methodology problems, and predicting AMD's abandonment of the GHz equivalency approach (March 2002).",
-  "identifier": "amd-profile01-db9623",
-  "url": "",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "Aberdeen Group critiques AMD's Athlon XP Gigahertz Equivalency (GHz-E) marketing strategy, arguing the model-numbering methodology is fundamentally flawed. GHz-E ratings are a snapshot-in-time metric that becomes misleading as benchmarks, operating systems, and Intel processors evolve. The paper documents benchmark disclosure failures (SYSmark 2001 not filed with Bapco), a Media Player bug fix incorporated post-audit, and I/O-inclusive benchmarks misapplied to processor-only comparison. Aberdeen concludes AMD will be forced to abandon GHz-E in 2002 and recommends investigation of SPECcpu 2000 as an alternative framework via the True Performance Initiative.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group"
+    "@type": "Person",
+    "name": "Peter S. Kastner"
   },
-  "datePublished": "2002-03-01",
-  "dateCreated": "2026-03-16",
-  "temporalCoverage": "2001/2002",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "Global (US, Europe)"
-  },
-  "keywords": [
-    "AMD",
-    "Intel",
-    "Athlon XP",
-    "Pentium 4",
-    "gigahertz equivalency",
-    "processor benchmarks",
-    "benchmarketing",
-    "GHz equivalency",
-    "SYSmark 2001",
-    "model numbering",
-    "processor marketing",
-    "Aberdeen Group",
-    "benchmark methodology"
-  ],
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Processor Benchmark Methodology",
-      "description": "Analysis of AMD's benchmark methodology used to derive GHz equivalency model numbers for Athlon XP processors"
-    },
-    {
-      "@type": "Organization",
-      "name": "Advanced Micro Devices (AMD)",
-      "description": "Semiconductor manufacturer whose GHz equivalency marketing strategy is the subject of this analysis"
-    },
-    {
-      "@type": "Organization",
-      "name": "Intel Corporation",
-      "description": "Semiconductor manufacturer whose Pentium 4 clock speeds were the reference for AMD's GHz equivalency ratings"
-    }
-  ],
+  "datePublished": "2002-02",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
-      "name": "studies",
-      "contentUrl": "data/studies.csv",
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@type": "DataDownload",
-      "name": "entities",
-      "contentUrl": "data/entities.csv",
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@type": "DataDownload",
-      "name": "technologies",
-      "contentUrl": "data/technologies.csv",
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@type": "DataDownload",
-      "name": "observations",
-      "contentUrl": "data/observations.csv",
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@type": "DataDownload",
-      "name": "codes",
-      "contentUrl": "data/codes.csv",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
     }
   ],
-  "measurementTechnique": "Benchmark analysis with document review and competitive profiling",
   "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "observation_count",
-      "value": 36
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "entity_count",
-      "value": 12
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "technology_count",
-      "value": 10
-    }
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

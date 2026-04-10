@@ -1,0 +1,452 @@
+
+                                      AberdeenGroup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      Dell Asset Recovery Services: a
+                                      Trustworthy Partner for
+                                      Eliminating Aging IT Assets
+
+
+
+
+
+                                      An Executive White Paper
+
+                                      July 2003
+
+
+
+
+
+
+
+
+
+
+
+                                      Aberdeen Group, Inc.
+                                      260 Franklin Street
+                                      Boston, Massachusetts 02110-3112 USA
+                                      Telephone: 617 723 7890
+                                      Fax: 617 723 7897
+                                      www.aberdeen.com
+
+
+
+Dell Asset Recovery Services: a Trustworthy Partner for Eliminating Aging
+IT Assets
+
+
+Executive Summary
+
+Aging IT assets are a hidden problem.  The decommissioned equipment stored
+in the halls, empty offices, or out-of-the-way wiring closets and server
+rooms cost money and expose the enterprise to significant risk.
+From a financial perspective, stored printers, PCs, servers, tape drives,
+and network devices depreciate at 9.6% per month based on their
+resale/recycling value, so these assets are not as valuable as IT thinks
+and rapidly become a pure cost.  Storage and market value depreciation of a
+36-month old Pentium III PC for one year costs about $368.
+From a liability perspective, obsolete electronic devices — “e-waste” — all
+contain toxic material and have become the focus of significant new
+legislation and litigation in the U.S. and Europe.  PC and server hard
+drives contain sensitive enterprise, customer, or patient data that must
+not be disclosed.  Old IT equipment can’t be thrown in the dumpster any
+longer; it must be properly disposed of, at a cost of $387 and up per PC if
+you do it yourself.
+These two situations — underused depreciating IT equipment and e-waste
+refuse management — demand focused management attention and call for a new
+process that engages a highly trusted IT asset recovery partner.
+Managers should rethink corporate replacement and disposal strategies
+because disposal costs will continue to rise, representing an increasing
+percentage of the total cost of ownership (TCO) for IT assets.  We estimate
+disposal costs at over 25% of the initial PC acquisition cost and climbing.
+ At the same time, the most popular disposal strategies used today
+represent a very poor risk when confronted with the upcoming onslaught of e-
+waste volume and restricted dumping options.
+Organizations that dispose of 3,000 PCs or other IT devices annually can
+save more than $1 million a year in unnecessary storage and disposal costs
+with an asset recovery program.
+Aberdeen recommends the following steps in developing an asset recovery
+program:
+Step 1 — Create a new recovery/disposal strategy that incorporates a
+trusted disposal partner.  Getting rid of used IT equipment is not an
+enterprise core competency.
+Step 2 — Aggressively identify obsolete and soon-to-be obsolete devices and
+implement the recovery/disposal strategy while opportunities still exist to
+get cash back from the IT asset’s rapidly declining residual value.
+Step 3 — Develop a long-term “green TCO model” that evaluates future IT
+acquisitions, with proper attention placed on the impact of disposal costs
+on the TCO and financing arrangements.
+Companies that take a “wait and see” position will find disposal costs
+rise, options dwindle, and corporate liabilities increase.  For the new
+disposal strategy, look for prospective partners, such as Dell Computer
+Corp., that have experience in managing hazardous waste; a proven track
+record in managing large volumes and complex processes consistently and
+cost effectively; a presence in multiple geographies to reduce
+transportation costs; and a financially sound position that puts teeth into
+the level of indemnification you agree upon.
+
+External Events Make Action Imperative
+
+IT asset disposal is not a new problem.  IT organizations have been
+eliminating computer equipment for years.  However, two issues will make
+the disposal strategies of yesterday a recipe for disaster tomorrow: volume
+and complexity.
+Aberdeen research indicates that there will be a flood of IT assets hitting
+the market that need to be disposed of.  More than 400 million toxic
+computer devices will be thrown out in 2004, an increase of almost 100
+million units over 2002.  These PCs, tape drives, and networking assets
+have reached the end of their useful life and will soon swamp the existing
+disposal channels and disposal techniques — typically, a combination of
+dump, donate, and store.
+Rising complexity will test the mettle of existing recycling channels.
+Environmental and privacy legislation and litigation has risen to the point
+where it can no longer be ignored.  Devices given to charity represent a
+privacy risk if disk drives are not properly wiped absolutely clean — an
+expensive one-time procedure.  The risk that the PC will be found later,
+dumped illegally, is a liability because charitable organizations do not
+have the deep pockets that lawyers seek.  Moreover, Aberdeen expects the
+legal acceptance of e-waste today to become retroactively unacceptable in
+the future.
+In short, your organization should avoid directly depositing IT assets into
+regional landfills.  Dumping e-waste into landfills is now illegal in
+several states and will soon be illegal in most.
+
+Change Your Asset Disposal Process into an Asset Recovery Process
+
+The critical business process change that can literally be worth $500 to
+$800 per IT asset is simple: identify and retire underutilized IT assets.
+The sooner that old assets are sold off, the more economic value they
+retain — PC residual value declines at 9.6% per month.  That’s why stacking-
+up old PCs and monitors and leaving them to gather dust is economic
+suicide, but it happens all the time because the traditional “sunk cost”
+mentality ignores disposal costs that will be incurred in the future.  The
+costs associated with data cleansing, shipping and disposal are rarely
+measured, and no one is held accountable.
+
+The Aberdeen IT Asset End-of-Life Process
+
+Because few IT disposal costs are measured today, IT organizations tend to
+underestimate both the number of steps involved and the complexity, effort,
+and cost associated with each.  The following seven steps are recommended
+for planning an IT asset end-of-life process.  Your own industry,
+enterprise, and political jurisdiction may dictate additional
+considerations.
+
+Asset valuation
+
+Someone must establish what the retained value is for each asset.  Should
+it be sold or recycled?  Few enterprise organizations have ongoing direct
+knowledge of the used equipment market or relationships with brokers and
+dealers, so a partner is needed to obtain this information.  Be sure to
+consider the source of the valuation data carefully.  If the valuation
+comes from the same partner that will sell the asset, make sure that
+partner’s profit is not derived from the spread between the buy and sell
+price since this will place the partner in an ethically challenged
+position.
+The Dell Asset Recovery Services (ARS) program avoids this difficult
+position by charging a flat rate for selling your assets, and demands the
+same from the partners it uses to manage the re-sale process.  This
+eliminates any benefit from being derived by falsifying valuation
+information.
+
+Identity cleansing $2
+
+IT assets must have all enterprise identification removed in preparation
+for asset transfer to the disposal partner.  Either the enterprise or the
+business partner can easily perform this “corporate identity” cleansing
+because it is usually a simple matter of removing asset tags.
+
+Data cleansing $126
+
+This activity is critical to protecting the enterprise from lost data and
+potential litigation.  The process is expensive to perform and is all too
+often performed incorrectly.  Recent news reports have demonstrated how
+disk drives sold on the used market contain confidential information,
+including corporate data, credit card, and medical information.  Instances
+of data loss have embarrassed the U.S. Veterans Administration, the
+Pennsylvania Department of Labor and Industry, Dovebid/Viant, and Purdue
+University as confidential data was recovered and disclosed from disk
+drives.
+Aberdeen recommends against the common practice of data cleansing only
+specific units that hold critical enterprise data — instead, every disk
+drive must be wiped clean of all data.  This wholesale approach guards
+against any future privacy headaches.  The only commercially reliable
+method for eliminating data is to overwrite every sector of the hard drive
+multiple times using varying data patterns.  This makes data recovery
+impossible without disassembling the unit and applying specialized tools to
+examine the disk surface — an improbable event for discovering general
+business information.
+The disk cleansing operation requires a significant amount of time to
+complete.  The process is limited by the speed of the disk drive.  A three-
+year old Western Digital Caviar 8-GB disk drive takes two hours and forty
+minutes to complete, while a 20-GB drive takes more than six hours.  While
+these times can be reduced using parallelism, a parallel approach requires
+a central operation with a special workbench, which requires a high volume
+of work to justify.
+Costs associated with the disk cleansing operation depends on the disk
+size, disk type, the effort associated with using the proper equipment; the
+cost of the space needed to conduct the process; as well as the cost of
+maintaining the documentation and managing the disk cleansing process,
+including random testing, and documenting and communicating results.
+Aberdeen has determined that the costs for cleansing disks can range from
+$185 to a low of $16, with the low estimate based on a significant capital
+investment to automate the process and support parallel processing, a
+combination cost justified only with large volumes like those attained by
+Dell.  A large enterprise will pay approximately $126 per drive to do it.
+
+Packing/moving $132
+
+The IT asset must be packed, moved to the loading dock for pick-up, and
+then delivered to its final destination.  There is always a real cost in
+labor and material associated with this effort which is too often ignored.
+In a large, geographically dispersed organization, packing and moving can
+become an expensive logistics operation.  The device may go through
+multiple hops, from a branch office to a regional office and then to home
+office for data cleansing and final packing.  These costs are highest when
+the device is extremely bulky, heavy, or both (a 21-inch monitor, for
+example), when the retained value demands cautious packaging, when union
+employees perform the effort, when secure shipping is needed, and when
+special packaging and documentation is required.  An example of the latter
+would include CRTs/monitors that are defined as hazardous material in
+several states.  A California law requires that all CRTs be packaged to
+prevent breakage and all transportation documented as hazardous material.
+When a PC unit, including the CRT, is packed and shipped to a regional
+office for processing and then packed and shipped again to a disposal
+partner, Aberdeen estimates the cost for labor, transportation, and
+material to be as high as $198.  If multiple assets intended for recycling
+are placed on a pallet and shrink wrapped for pick-up by the disposal
+partner — the mechanism recommended for Dell ARS customers — the cost could
+be as low as $12 per device.  The average cost is $132 per unit for do-it-
+yourself, which covers material and handling associated with moving twenty
+PCs and monitors with four printers from multiple cubes to a processing
+area where they are packed, and then trucked to a regional recycler.
+
+Recycling $48
+
+When the IT asset can’t be sold as used-equipment, the device must be de-
+manufactured into components that are sold individually, including the
+chips, hard disk, power supply, and switches.  Once the key components have
+been removed and sold, the remaining material is sold as scrap.  Anything
+left over is broken up and refined back into a raw material and sold on the
+commodities market or directly back to manufacturers (see Figure 1).
+Revenue earned from components, scrap parts, and raw material is used to
+defray de-manufacturing costs.
+Efficiency in recycling can only be achieved through large volumes.  The
+high cost of tracking and adhering to a complex maze of local, state, and
+federal regulations — as well as the acquisition of expensive equipment
+that can break-up and recover raw material trapped inside computers (e.g.,
+tape drives, printers, monitors, and network devices) while separating out
+toxic waste — will make it difficult for small regional recyclers to
+compete, unless they partner with firms like Dell.  It is unclear how
+smaller recycling firms will fund the research and process engineering
+needed to remain in compliance with regulations over the long-haul — an
+issue that must be taken into consideration by the enterprise looking for a
+trustworthy partner.
+The challenge for smaller recyclers is made clear in Figure 1.  Note the
+three key areas of expertise required to be successful: market access, the
+de-manufacturing process, and participation in secondary markets (used
+equipment, components, scrap, and raw materials).
+
+Sales $67
+
+Selling IT assets demands specialized knowledge of, and access to, brokers
+and dealers in the used market.  The assets must be refurbished and tested
+for proper operation prior to sale in order to derive a maximum value for
+the asset.  Buying, refurbishing, and selling used computer equipment is
+like any other commodity trading operation — a cutthroat business that
+demands nerves of steel and an innate sense of market shifts. Gaining top
+dollar for a disposed asset requires the ability to negotiate effectively
+in the resale market.
+The cost of refurbishment and regional shipping establishes the spread
+required to break even.  Depending on the scale and management of the
+operation, refurbishment and shipping may be as low as $28 and high as $67
+per device.  Cross-country shipping costs are prohibitive.
+Compare these $28 to $67 costs to the whole Dell ARS program, which charges
+a flat rate of $69 including identity and disk data cleansing, and you can
+see the economic benefits of ARS.
+
+
+
+Figure 1: A Typical Process Used to Recover Value from Electronic Assets
+
+                                    [pic]
+
+                                           Source: Aberdeen Group, July 2003
+
+
+
+Verification/documentation $12
+
+Demonstrating that your enterprise follows a standard practice for properly
+disposing of e-waste through meticulous documentation is critical to
+protect the enterprise from potential litigation. This should go beyond a
+list of what was sent for disposal; records should provide the exact
+disposition of the asset by serial or asset tag number.
+The Dell ARS program provides the customer with documentation that
+indicates the assets were transferred to Dell, that each asset was disposed
+of according to all relevant local, state, and federal laws, and that the
+disk drive was properly overwritten.  This information is provided by
+serial number.
+
+Green Cash — Timing is Everything
+
+Using the numbers above, it costs approximately $387 or more for the
+enterprise on its own to properly eliminate one electronic asset without
+engaging a partner’s help.  Should your enterprise need to dispose of 5,000
+units, the cost will be $1.94 million.  The Dell ARS plan costs only $49 a
+unit.  Add $30 for the packing and moving plus the use of the Dell ARS
+service costs the enterprise a total of $79.  A service such as Dell’s ARS
+saves $1.54 million and eliminates an e-waste headache.
+Putting this in terms of purchase price, a typical enterprise PC and
+monitor costs $1,200, so the $387 disposal cost represents 32% of the
+original cost — a percentage that only increases rapidly as organizations
+continue to drive the cost of new PCs towards $1,000.  In summary, the
+disposition path followed has a material impact on the overall total cost
+of ownership of each device.
+Timing is a critical element, as well.  The opportunity to sell an IT asset
+in the used equipment market evaporates when the asset’s value drops below
+the cost of disposal.  To avoid a hard cash expense, the asset must be sold
+at a recovery price that is at least equal to the disposal cost. However,
+Aberdeen research indicates that this moment comes much sooner than IT
+managers or common financial depreciation tables predict.  The right time
+to dispose of a PC is close to 36 months, not the 48 months many
+enterprises have been slipping towards.
+
+Dell’s Long History of Recycling
+
+Dell has a long history and deep experience in recycling, and has
+established a goal for itself of “Zero Landfill,” that will ultimately be
+achieved through improved manufacturing and de-manufacturing processes, and
+systems redesign.
+Dell’s first official reuse and recycling program, called Dell Exchange,
+was launched in the early 1990’s.  Since that launch, Dell has refurbished
+for donation or recycled more than two million systems; a number that is
+growing rapidly as Dell expands and promotes its recycling services.  For
+example, Dell has proactively implemented consumer buy-back incentive
+programs and heavily promoted its “Plug Into Recycling” campaign.  This
+campaign encourages communities to drop-off old consumer electronic
+equipment at a central location for proper disposal at no cost, a service
+that benefits the community and demonstrates Dell’s intention to provide
+recycling services for any electronic component, from any manufacturer.
+
+Dell Asset Recovery Services: Enterprise-Grade Asset Disposition
+
+By introducing several new processes into its existing re-sale and
+recycling program, Dell created the Asset Recovery Service.  ARS is
+designed for enterprise customers that have a minimum of 40 computer assets
+to dispose of, including desktop PCs, monitors, notebooks, servers,
+storage, networking equipment, printers, projectors, and computer
+peripherals such as keyboards and mice from any manufacturer.
+The ARS recycling and resale offerings protect the enterprise by (1)
+delivering a professionally managed and rigorously monitored process that
+removes all corporate identity from the physical assets (asset tags,
+logo’s, inventory stickers, etc); (2) overwrites all sectors of every hard
+drive to protect data assets from exposure, and (3) provides the
+documentation that provides details on the exact disposition of the asset
+by serial number.
+The Dell ARS has three main components: logistics, disposition, and
+reporting.  Enterprise customers can reconfigure any aspect of the
+prepackaged logistics and disposition options of the ARS service to meet
+their exact needs.
+
+Logistics
+
+Most larger organizations have assets deployed across multiple facilities
+and geographies.  Transporting these assets safely and without damage is
+imperative to retain the maximum value of the IT assets.  While some
+enterprise facilities can pack and ship the hardware without assistance,
+some request a pick-up from the loading dock, and others may ask for
+comprehensive assistance to de-install, pack, and ship the hardware assets.
+ The Dell ARS program supports any logistics configuration an enterprise
+customer needs.
+
+Disposition
+
+For $49 per unit, Dell will pick up and recycle the e-waste, regardless of
+manufacturer.  For assets where the retained value makes them candidates
+for resale, the Dell ARS program offers the Value Recovery Service.  The
+Value Recovery Service refurbishes and resells the enterprise asset in the
+used market, and the full value gained from the sale is returned to the
+customer.  To establish a reasonable expectation, Dell provides the
+customer with the Dell Asset Recovery Monthly Price List.  This list
+identifies the residual value of all the most common PC configurations.
+The Value Recovery Service costs a flat rate $69 per unit, and the actual
+revenue earned from the asset sale is returned to the enterprise customer
+with the asset disposition documentation.
+To assure the customer that its confidential data is protected, the Dell
+Asset Recovery program uses a tightly controlled and managed process to
+overwrite all disk data.  Should the enterprise have systems that contain
+trade secrets or other more confidential data that demands a more stringent
+data destruction technique, special arrangements can be made for disk drive
+wipes that adhere to the Department of Defense (DoD) 5220.22M standard.
+
+Reporting
+
+Maintaining meticulous records is critical to demonstrate long-term
+compliance and dedication to e-waste regulations.  Dell ARS customers
+receive a detailed Settlement Report within 90 days of Dell taking
+possession of the assets.  When the assets are recycled, the Settlement
+Report provides a detailed list of the hardware and a certificate that Dell
+has recycled the asset in accordance with EPA guidelines.  If the asset is
+sold in the used market using the Value Recovery service, the report
+provides a list of the hardware and the unit’s sales price.
+
+Aberdeen Conclusions and Observations
+
+This Executive White Paper is really about saving companies money.  Without
+a proper plan, companies will spend $1.9 million annually to dispose of
+5,000 IT devices and still expose IT to public scrutiny by not recycling.
+The disposal plans discussed above can save an enterprise more than $1
+million to $10 million annually while making your organization a poster
+child of environmental concern.  The benefits are so high; the only
+businesses that will pass this opportunity up are the ones that do not know
+the opportunity exists.  The question is not if you will adopt a disposal
+strategy, it is when and how.
+The answer to when is clear.  Even if your agenda is already packed with
+urgent projects, disposal needs to be fixed now — before one more IT asset
+is thrown out the door as trash when it could be turned into cash.
+The how can be as simple or as complex as your organization makes it.
+Aberdeen suggests a three-step program in which you pick a trusted partner,
+recycle old assets, and establish a “green TCO model.”  The Dell ARS
+program is an excellent example of a full-service program that satisfies
+step one.  Dell ARS provides an efficient and cost effective disposal
+strategy that will save money with little effort.  Dell eliminates the
+hassle for a known and very reasonable fixed fee.
+Some departments may balk, indicating a desire to implement their own data
+cleansing.  This is a corporate decision, but one that should be made
+recognizing no enterprise can approach the efficiency of a recycler that
+performs the work on
+millions of disks.  Doing disk cleansing is a major expense at an average
+cost of $126 per disk.
+There may also be a desire to retain relationships with local recyclers.
+As transportation is a significant portion of overall costs, this may
+initially appear appealing, but is more likely to be a cost and a risk that
+should be avoided.  Arrange for a single national partner that has multiple
+regional locations.  This lowers transportation costs while centralizing
+control.
+Dell is famous for providing the “best bang for the buck,” and has become a
+trusted partner because it delivers high performance and high quality
+systems at extremely competitive prices.  The Dell ARS program extends the
+Dell partnership into the asset end-of-life cycle with a program that
+delivers a high quality disposal service at a price that can save an
+enterprise millions of dollars annually.  The Dell ARS program makes it
+easy to save money and become a proactive supporter of the environment — a
+very simple and compelling value proposition that is worth acting on.
+
+
+

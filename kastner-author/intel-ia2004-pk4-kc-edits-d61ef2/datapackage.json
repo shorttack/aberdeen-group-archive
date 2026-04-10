@@ -1,194 +1,134 @@
 {
-  "name": "intel-ia2004-pk4-kc-edits-d61ef2",
+  "name": "intel-ia2004-pk4-kc-edits-de9c37",
+  "title": "Planning for Emerging Industry-Standard Platforms Computing Opportunities",
+  "description": "Aberdeen white paper produced in collaboration with Intel Corporation analyzing the three critical technology building blocks arriving in 2003-2004: DDR2 memory, IPMI systems management, and serial I/O (PCI Express). Covers Xeon, Itanium 2, new chipsets (Lindenhurst, Nocona, Potomac/Twin Castle), and the transition from parallel PCI-X to PCI Express. Aimed at IT planners for 2004 server acquisitions.",
   "version": "1.0.0",
-  "title": "Planning for Emerging Industry-Standard Platforms",
-  "description": "Frictionless Data Package for the Aberdeen Group white paper 'Planning for Emerging Industry-Standard Platforms' (July 2003), examining DDR2 memory, PCI Express serial I/O, and IPMI systems management technologies for 2004 server platforms.",
+  "created": "2026-04-10",
   "licenses": [
     {
       "name": "CC-BY-4.0",
-      "path": "https://creativecommons.org/licenses/by/4.0/",
-      "title": "Creative Commons Attribution 4.0 International"
-    }
-  ],
-  "sources": [
-    {
-      "title": "Intel IA2004 PK4 kc edits.txt",
-      "path": "source/original_text.md"
+      "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "contributors": [
     {
       "title": "Peter S. Kastner",
       "role": "author"
-    },
-    {
-      "title": "Aberdeen Group",
-      "role": "publisher"
-    },
-    {
-      "title": "Intel Corporation",
-      "role": "sponsor"
     }
   ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "study_id",
-            "type": "string",
-            "description": "Unique study identifier"
+            "type": "string"
           },
           {
             "name": "title",
-            "type": "string",
-            "description": "Study title"
+            "type": "string"
           },
           {
             "name": "author",
-            "type": "string",
-            "description": "Primary author"
+            "type": "string"
           },
           {
             "name": "date",
-            "type": "date",
-            "description": "Publication date (YYYY-MM-DD)"
+            "type": "date"
           },
           {
             "name": "type",
-            "type": "string",
-            "description": "Document type"
+            "type": "string"
           },
           {
             "name": "subject_domain",
-            "type": "string",
-            "description": "Subject domain"
+            "type": "string"
           },
           {
             "name": "methodology",
-            "type": "string",
-            "description": "Research methodology codes"
+            "type": "string"
           },
           {
             "name": "source_file",
-            "type": "string",
-            "description": "Original source filename"
+            "type": "string"
           },
           {
             "name": "abstract",
-            "type": "string",
-            "description": "Study abstract"
+            "type": "string"
           },
           {
             "name": "license",
-            "type": "string",
-            "description": "License identifier"
+            "type": "string"
           },
           {
             "name": "importance",
-            "type": "string",
-            "description": "Importance rating (high/medium/low)"
+            "type": "string"
           },
           {
             "name": "importance_rationale",
-            "type": "string",
-            "description": "Rationale for importance rating"
+            "type": "string"
           },
           {
             "name": "relevance",
-            "type": "string",
-            "description": "Relevance rating (high/medium/low)"
+            "type": "string"
           },
           {
             "name": "relevance_rationale",
-            "type": "string",
-            "description": "Rationale for relevance rating"
+            "type": "string"
           },
           {
             "name": "prescience",
-            "type": "string",
-            "description": "Prescience rating (high/medium/low)"
+            "type": "string"
           },
           {
             "name": "prescience_rationale",
-            "type": "string",
-            "description": "Rationale for prescience rating"
+            "type": "string"
           }
-        ],
-        "primaryKey": "study_id"
+        ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "entity_id",
-            "type": "string",
-            "description": "Unique entity identifier (lowercase hyphenated)"
+            "type": "string"
           },
           {
             "name": "entity_name",
-            "type": "string",
-            "description": "Full entity name"
+            "type": "string"
           },
           {
             "name": "entity_type",
-            "type": "string",
-            "description": "Entity type (vendor, analyst-firm, standards-body)"
+            "type": "string"
           },
           {
             "name": "sector",
-            "type": "string",
-            "description": "Industry sector"
+            "type": "string"
           },
           {
             "name": "status",
-            "type": "string",
-            "description": "Current operational status"
+            "type": "string"
           },
           {
             "name": "successor",
-            "type": "string",
-            "description": "Successor entity if acquired/merged"
+            "type": "string"
           },
           {
             "name": "years_active",
-            "type": "string",
-            "description": "Period of activity"
+            "type": "string"
           },
           {
             "name": "study_id",
-            "type": "string",
-            "description": "Reference to parent study"
+            "type": "string"
           },
           {
             "name": "notes",
-            "type": "string",
-            "description": "Additional context"
-          }
-        ],
-        "primaryKey": "entity_id",
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
+            "type": "string"
           }
         ]
       }
@@ -196,69 +136,43 @@
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "tech_id",
-            "type": "string",
-            "description": "Unique technology identifier (lowercase hyphenated)"
+            "type": "string"
           },
           {
             "name": "tech_name",
-            "type": "string",
-            "description": "Full technology name"
+            "type": "string"
           },
           {
             "name": "category",
-            "type": "string",
-            "description": "Technology category"
+            "type": "string"
           },
           {
             "name": "vendor",
-            "type": "string",
-            "description": "Primary vendor or standards body"
+            "type": "string"
           },
           {
             "name": "era",
-            "type": "string",
-            "description": "Active time period"
+            "type": "string"
           },
           {
             "name": "lifecycle_at_study",
-            "type": "string",
-            "description": "Lifecycle stage at time of study"
+            "type": "string"
           },
           {
             "name": "lifecycle_current",
-            "type": "string",
-            "description": "Current lifecycle stage"
+            "type": "string"
           },
           {
             "name": "study_id",
-            "type": "string",
-            "description": "Reference to parent study"
+            "type": "string"
           },
           {
             "name": "notes",
-            "type": "string",
-            "description": "Additional context"
-          }
-        ],
-        "primaryKey": "tech_id",
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
+            "type": "string"
           }
         ]
       }
@@ -266,106 +180,55 @@
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "obs_id",
-            "type": "string",
-            "description": "Unique observation identifier (OBS-NNN)"
+            "type": "string"
           },
           {
             "name": "study_id",
-            "type": "string",
-            "description": "Reference to parent study"
+            "type": "string"
           },
           {
             "name": "entity_id",
-            "type": "string",
-            "description": "Reference to entity (optional)"
+            "type": "string"
           },
           {
             "name": "tech_id",
-            "type": "string",
-            "description": "Reference to technology (optional)"
+            "type": "string"
           },
           {
             "name": "observation_type",
-            "type": "string",
-            "description": "Canonical observation type"
+            "type": "string"
           },
           {
             "name": "year_observed",
-            "type": "string",
-            "description": "Year of observation or event"
+            "type": "year"
           },
           {
             "name": "metric_name",
-            "type": "string",
-            "description": "Name of the metric or measurement"
+            "type": "string"
           },
           {
             "name": "metric_value",
-            "type": "string",
-            "description": "Value or description of the metric"
+            "type": "string"
           },
           {
             "name": "confidence",
-            "type": "string",
-            "description": "Confidence level (high/medium/low/verified)"
+            "type": "string"
           },
           {
             "name": "methodology_code",
-            "type": "string",
-            "description": "Research methodology used"
+            "type": "string"
           },
           {
             "name": "source_page",
-            "type": "string",
-            "description": "Source page reference"
+            "type": "string"
           },
           {
             "name": "notes",
-            "type": "string",
-            "description": "Additional context"
-          }
-        ],
-        "primaryKey": "obs_id",
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
-          },
-          {
-            "fields": [
-              "entity_id"
-            ],
-            "reference": {
-              "resource": "entities",
-              "fields": [
-                "entity_id"
-              ]
-            }
-          },
-          {
-            "fields": [
-              "tech_id"
-            ],
-            "reference": {
-              "resource": "technologies",
-              "fields": [
-                "tech_id"
-              ]
-            }
+            "type": "string"
           }
         ]
       }
@@ -373,33 +236,25 @@
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "code_id",
-            "type": "string",
-            "description": "Code identifier"
+            "type": "string"
           },
           {
             "name": "code_type",
-            "type": "string",
-            "description": "Code category (observation_type, confidence, methodology_code)"
+            "type": "string"
           },
           {
             "name": "label",
-            "type": "string",
-            "description": "Human-readable label"
+            "type": "string"
           },
           {
             "name": "definition",
-            "type": "string",
-            "description": "Definition of the code"
+            "type": "string"
           }
-        ],
-        "primaryKey": "code_id"
+        ]
       }
     }
   ]

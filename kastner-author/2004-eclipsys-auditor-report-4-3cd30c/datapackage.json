@@ -1,157 +1,260 @@
 {
-  "name": "2004-eclipsys-auditor-report-4-3cd30c",
+  "name": "auditor-report-4-43ad9b",
   "title": "Eclipsys SunriseXA 3.3 Meets Subsecond Response Time Objective",
-  "description": "Aberdeen Group benchmark audit report confirming that Eclipsys SunriseXA 3.3 healthcare information system met subsecond response time objectives in a simulated 6,000-bed hospital environment. Using Mercury LoadRunner, the benchmark executed 65,637 transactions in one hour (exceeding 1,000 transactions per minute) representing 7,411 medical orders. Nearly all of 82 transaction types achieved subsecond response times, with exceptions only for batch patient order submissions. Database server CPU utilization peaked at only 40%, demonstrating significant headroom. Aberdeen concluded that Eclipsys successfully addressed response time issues identified in October 2003.",
+  "description": "Aberdeen Group audit report commissioned by Eclipsys Corp. to independently verify performance benchmarks for SunriseXA Release 3.3, a healthcare clinical information system. Benchmark simulated a 6,000-bed hospital at peak load (5,000 orders/hour, 2.27x the busiest known real hospital rate), executing 65,637 transactions in one steady-state hour via Mercury LoadRunner. Results confirmed subsecond response times for 4 of 5 transaction categories; only administrative log-on (multi-patient download) and batch group-order transactions exceeded 1 second. Database server CPU utilization was only 40% at peak. Aberdeen concludes Eclipsys successfully resolved response time issues identified in October 2003.",
   "version": "1.0.0",
-  "created": "2026-03-16",
+  "created": "2026-04-10",
   "licenses": [
     {
       "name": "CC-BY-4.0",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "sources": [
-    {
-      "title": "Eclipsys SunriseXA 3.3 Meets Subsecond Response Time Objective - A Benchmark Audit Report",
-      "path": "source/original_text.md",
-      "author": "Peter S. Kastner",
-      "publisher": "Aberdeen Group, Inc.",
-      "date": "2004-04-01"
-    }
-  ],
   "contributors": [
     {
       "title": "Peter S. Kastner",
-      "role": "author",
-      "organization": "Aberdeen Group, Inc."
-    },
-    {
-      "title": "Archival Ingest Skill v13",
-      "role": "processor"
+      "role": "author"
     }
-  ],
-  "keywords": [
-    "healthcare-IT",
-    "benchmark",
-    "performance-testing",
-    "SunriseXA",
-    "Eclipsys",
-    "clinical-information-system",
-    "response-time",
-    "hospital-simulation",
-    "Microsoft-platform",
-    "Aberdeen-Group"
   ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "study_id",      "type": "string", "description": "Unique study identifier"},
-          {"name": "title",         "type": "string", "description": "Full title of the study"},
-          {"name": "author",        "type": "string", "description": "Primary author(s)"},
-          {"name": "date",          "type": "date",   "description": "Publication date (ISO 8601)"},
-          {"name": "type",          "type": "string", "description": "Study type"},
-          {"name": "subject_domain","type": "string", "description": "Primary domain"},
-          {"name": "methodology",   "type": "string", "description": "Comma-separated research methods"},
-          {"name": "source_file",   "type": "string", "description": "Original source filename"},
-          {"name": "abstract",      "type": "string", "description": "300-500 word abstract"},
-          {"name": "license",       "type": "string", "description": "SPDX license identifier"},
-          {"name": "importance",    "type": "string", "description": "Assessment rating: high, medium, low"},
-          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
-          {"name": "relevance",     "type": "string", "description": "Assessment rating: high, medium, low"},
-          {"name": "relevance_rationale",  "type": "string", "description": "Rationale for relevance rating"},
-          {"name": "prescience",    "type": "string", "description": "Assessment rating: high, medium, low, not-applicable"},
-          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
-        ],
-        "primaryKey": "study_id"
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "entity_id",    "type": "string", "description": "Canonical lowercase hyphenated identifier"},
-          {"name": "entity_name",  "type": "string", "description": "Display name"},
-          {"name": "entity_type",  "type": "string", "description": "corporation, research-firm, institution"},
-          {"name": "sector",       "type": "string", "description": "Industry sector"},
-          {"name": "status",       "type": "string", "description": "Current status: active, acquired, dissolved, merged"},
-          {"name": "successor",    "type": "string", "description": "Successor entity if applicable"},
-          {"name": "years_active", "type": "string", "description": "Approximate years active"},
-          {"name": "study_id",     "type": "string", "description": "FK to studies.csv"},
-          {"name": "notes",        "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "entity_id",
-        "foreignKeys": [
-          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "tech_id",             "type": "string", "description": "Canonical lowercase hyphenated identifier"},
-          {"name": "tech_name",           "type": "string", "description": "Display name"},
-          {"name": "category",            "type": "string", "description": "platform, application, protocol, framework, processor"},
-          {"name": "vendor",              "type": "string", "description": "Primary vendor or standards body"},
-          {"name": "era",                 "type": "string", "description": "Approximate active era"},
-          {"name": "lifecycle_at_study",  "type": "string", "description": "Lifecycle status at time of study"},
-          {"name": "lifecycle_current",   "type": "string", "description": "Lifecycle status today"},
-          {"name": "study_id",            "type": "string", "description": "FK to studies.csv"},
-          {"name": "notes",               "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "tech_id",
-        "foreignKeys": [
-          {"fields": ["study_id"], "reference": {"resource": "studies", "fields": ["study_id"]}}
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "obs_id",            "type": "string", "description": "Unique observation ID: OBS-NNN"},
-          {"name": "study_id",          "type": "string", "description": "FK to studies.csv"},
-          {"name": "entity_id",         "type": "string", "description": "FK to entities.csv (nullable)"},
-          {"name": "tech_id",           "type": "string", "description": "FK to technologies.csv (nullable)"},
-          {"name": "observation_type",  "type": "string", "description": "FK to codes.csv observation_type"},
-          {"name": "year_observed",     "type": "year",   "description": "Year the observation applies to"},
-          {"name": "metric_name",       "type": "string", "description": "What is being measured or claimed"},
-          {"name": "metric_value",      "type": "string", "description": "The value or classification"},
-          {"name": "confidence",        "type": "string", "description": "FK to codes.csv confidence"},
-          {"name": "methodology_code",  "type": "string", "description": "FK to codes.csv methodology"},
-          {"name": "source_page",       "type": "string", "description": "Page/section reference in original document"},
-          {"name": "notes",             "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "obs_id",
-        "foreignKeys": [
-          {"fields": ["study_id"],   "reference": {"resource": "studies",      "fields": ["study_id"]}},
-          {"fields": ["entity_id"],  "reference": {"resource": "entities",     "fields": ["entity_id"]}},
-          {"fields": ["tech_id"],    "reference": {"resource": "technologies", "fields": ["tech_id"]}}
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "code_id",   "type": "string", "description": "The code string used in observations.csv"},
-          {"name": "code_type", "type": "string", "description": "observation_type, methodology, confidence, lifecycle"},
-          {"name": "label",     "type": "string", "description": "Human-readable label"},
-          {"name": "definition","type": "string", "description": "Clear definition"}
-        ],
-        "primaryKey": "code_id"
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
       }
     }
   ]

@@ -1,1 +1,261 @@
-ew0KICAibmFtZSI6ICIyMDAyLWludGVsLWluZmliYW5kLXdwLS1lZGl0LXBzay01LTIyZi0yYzZkYzAiLA0KICAidGl0bGUiOiAiSW5maW5pQmFuZCBBcmNoaXRlY3R1cmU6IFBsYW5uaW5nIHRoZSBOZXh0LUdlbmVyYXRpb24gRGF0YSBDZW50ZXIiLA0KICAiZGVzY3JpcHRpb24iOiAiQXJjaGl2YWwgaW5nZXN0IHBhY2thZ2UgZm9yIGFuIEFiZXJkZWVuIEdyb3VwIGV4ZWN1dGl2ZSB3aGl0ZSBwYXBlciAoTWF5IDIwMDIpIGFuYWx5emluZyBJbmZpbmlCYW5kIEFyY2hpdGVjdHVyZSAoSUJBKSBhcyB0aGUgbmV4dC1nZW5lcmF0aW9uIEkvTyBpbnRlcmNvbm5lY3QgZm9yIGVudGVycHJpc2UgZGF0YSBjZW50ZXJzLiBJbmNsdWRlcyBzdHJ1Y3R1cmVkIGV4dHJhY3Rpb24gb2YgZW50aXRpZXMsIHRlY2hub2xvZ2llcywgYW5kIG9ic2VydmF0aW9ucyB3aXRoIHJldHJvc3BlY3RpdmUgb3V0Y29tZSBhbm5vdGF0aW9ucy4iLA0KICAidmVyc2lvbiI6ICIxLjAuMCIsDQogICJsaWNlbnNlcyI6IFsNCiAgICB7DQogICAgICAibmFtZSI6ICJDQy1CWS00LjAiLA0KICAgICAgInRpdGxlIjogIkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWwiLA0KICAgICAgInBhdGgiOiAiaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iDQogICAgfQ0KICBdLA0KICAic291cmNlcyI6IFsNCiAgICB7DQogICAgICAidGl0bGUiOiAiSW5maW5pQmFuZCBBcmNoaXRlY3R1cmU6IFBsYW5uaW5nIHRoZSBOZXh0LUdlbmVyYXRpb24gRGF0YSBDZW50ZXIiLA0KICAgICAgImF1dGhvciI6ICJBYmVyZGVlbiBHcm91cCAoUGV0ZXIgS2FzdG5lciwgZWRpdG9yKSIsDQogICAgICAiZGF0ZSI6ICIyMDAyLTA1LTAxIiwNCiAgICAgICJwdWJsaXNoZXIiOiAiQWJlcmRlZW4gR3JvdXAsIEluYy4iLA0KICAgICAgImxvY2F0aW9uIjogIkJvc3RvbiwgTWFzc2FjaHVzZXR0cywgVVNBIg0KICAgIH0NCiAgXSwNCiAgImNvbnRyaWJ1dG9ycyI6IFsNCiAgICB7DQogICAgICAidGl0bGUiOiAiQXJjaGl2YWwgSW5nZXN0IFBpcGVsaW5lIHYxMyIsDQogICAgICAicm9sZSI6ICJwcm9jZXNzb3IiDQogICAgfQ0KICBdLA0KICAia2V5d29yZHMiOiBbDQogICAgIkluZmluaUJhbmQiLA0KICAgICJJQkEiLA0KICAgICJkYXRhIGNlbnRlciBhcmNoaXRlY3R1cmUiLA0KICAgICJJL08gaW50ZXJjb25uZWN0IiwNCiAgICAic3dpdGNoZWQgZmFicmljIiwNCiAgICAiSENBIiwNCiAgICAiVENBIiwNCiAgICAic3RvcmFnZSBuZXR3b3JraW5nIiwNCiAgICAiU0FOIiwNCiAgICAiYmxhZGUgc2VydmVycyIsDQogICAgInNlcnZlciBjbHVzdGVyaW5nIiwNCiAgICAiUkRNQSIsDQogICAgIlBDSSIsDQogICAgIkFiZXJkZWVuIEdyb3VwIiwNCiAgICAiMjAwMiINCiAgXSwNCiAgImNyZWF0ZWQiOiAiMjAyNi0wMy0xNSIsDQogICJpZCI6ICIyMDAyLWludGVsLWluZmliYW5kLXdwLS1lZGl0LXBzay01LTIyZi0yYzZkYzAiLA0KICAicmVzb3VyY2VzIjogWw0KICAgIHsNCiAgICAgICJuYW1lIjogInN0dWRpZXMiLA0KICAgICAgInBhdGgiOiAiZGF0YS9zdHVkaWVzLmNzdiIsDQogICAgICAidGl0bGUiOiAiU3R1ZHkgTWV0YWRhdGEiLA0KICAgICAgImRlc2NyaXB0aW9uIjogIkNvcmUgbWV0YWRhdGEgcmVjb3JkIGZvciB0aGUgYXJjaGl2ZWQgc3R1ZHkgaW5jbHVkaW5nIGFzc2Vzc21lbnQgcmF0aW5ncyBhbmQgcmF0aW9uYWxlcyIsDQogICAgICAiZm9ybWF0IjogImNzdiIsDQogICAgICAibWVkaWF0eXBlIjogInRleHQvY3N2IiwNCiAgICAgICJlbmNvZGluZyI6ICJVVEYtOCIsDQogICAgICAic2NoZW1hIjogew0KICAgICAgICAiZmllbGRzIjogWw0KICAgICAgICAgIHsibmFtZSI6ICJzdHVkeV9pZCIsICJ0eXBlIjogInN0cmluZyIsICJjb25zdHJhaW50cyI6IHsicmVxdWlyZWQiOiB0cnVlLCAidW5pcXVlIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJ0aXRsZSIsICJ0eXBlIjogInN0cmluZyIsICJjb25zdHJhaW50cyI6IHsicmVxdWlyZWQiOiB0cnVlfX0sDQogICAgICAgICAgeyJuYW1lIjogImF1dGhvciIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJkYXRlIiwgInR5cGUiOiAiZGF0ZSIsICJmb3JtYXQiOiAiJVktJW0tJWQifSwNCiAgICAgICAgICB7Im5hbWUiOiAidHlwZSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJzdWJqZWN0X2RvbWFpbiIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJtZXRob2RvbG9neSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJzb3VyY2VfZmlsZSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJhYnN0cmFjdCIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJsaWNlbnNlIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogImltcG9ydGFuY2UiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAiaW1wb3J0YW5jZV9yYXRpb25hbGUiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAicmVsZXZhbmNlIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogInJlbGV2YW5jZV9yYXRpb25hbGUiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAicHJlc2NpZW5jZSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJwcmVzY2llbmNlX3JhdGlvbmFsZSIsICJ0eXBlIjogInN0cmluZyJ9DQogICAgICAgIF0sDQogICAgICAgICJwcmltYXJ5S2V5IjogWyJzdHVkeV9pZCJdDQogICAgICB9DQogICAgfSwNCiAgICB7DQogICAgICAibmFtZSI6ICJlbnRpdGllcyIsDQogICAgICAicGF0aCI6ICJkYXRhL2VudGl0aWVzLmNzdiIsDQogICAgICAidGl0bGUiOiAiRW50aXRpZXMiLA0KICAgICAgImRlc2NyaXB0aW9uIjogIk9yZ2FuaXphdGlvbnMgYW5kIGluc3RpdHV0aW9ucyBtZW50aW9uZWQgaW4gdGhlIHN0dWR5IHdpdGggY3VycmVudCBzdGF0dXMgaW5mb3JtYXRpb24iLA0KICAgICAgImZvcm1hdCI6ICJjc3YiLA0KICAgICAgIm1lZGlhdHlwZSI6ICJ0ZXh0L2NzdiIsDQogICAgICAiZW5jb2RpbmciOiAiVVRGLTgiLA0KICAgICAgInNjaGVtYSI6IHsNCiAgICAgICAgImZpZWxkcyI6IFsNCiAgICAgICAgICB7Im5hbWUiOiAiZW50aXR5X2lkIiwgInR5cGUiOiAic3RyaW5nIiwgImNvbnN0cmFpbnRzIjogeyJyZXF1aXJlZCI6IHRydWUsICJ1bmlxdWUiOiB0cnVlfX0sDQogICAgICAgICAgeyJuYW1lIjogImVudGl0eV9uYW1lIiwgInR5cGUiOiAic3RyaW5nIiwgImNvbnN0cmFpbnRzIjogeyJyZXF1aXJlZCI6IHRydWV9fSwNCiAgICAgICAgICB7Im5hbWUiOiAiZW50aXR5X3R5cGUiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAic2VjdG9yIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogInN0YXR1cyIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJzdWNjZXNzb3IiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAieWVhcnNfYWN0aXZlIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogInN0dWR5X2lkIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogIm5vdGVzIiwgInR5cGUiOiAic3RyaW5nIn0NCiAgICAgICAgXSwNCiAgICAgICAgInByaW1hcnlLZXkiOiBbImVudGl0eV9pZCJdLA0KICAgICAgICAiZm9yZWlnbktleXMiOiBbDQogICAgICAgICAgew0KICAgICAgICAgICAgImZpZWxkcyI6IFsic3R1ZHlfaWQiXSwNCiAgICAgICAgICAgICJyZWZlcmVuY2UiOiB7InJlc291cmNlIjogInN0dWRpZXMiLCAiZmllbGRzIjogWyJzdHVkeV9pZCJdfQ0KICAgICAgICAgIH0NCiAgICAgICAgXQ0KICAgICAgfQ0KICAgIH0sDQogICAgew0KICAgICAgIm5hbWUiOiAidGVjaG5vbG9naWVzIiwNCiAgICAgICJwYXRoIjogImRhdGEvdGVjaG5vbG9naWVzLmNzdiIsDQogICAgICAidGl0bGUiOiAiVGVjaG5vbG9naWVzIiwNCiAgICAgICJkZXNjcmlwdGlvbiI6ICJUZWNobm9sb2dpZXMgZGlzY3Vzc2VkIGluIHRoZSBzdHVkeSB3aXRoIGxpZmVjeWNsZSBzdGF0dXMgYXQgdGltZSBvZiBzdHVkeSBhbmQgY3VycmVudCBzdGF0dXMiLA0KICAgICAgImZvcm1hdCI6ICJjc3YiLA0KICAgICAgIm1lZGlhdHlwZSI6ICJ0ZXh0L2NzdiIsDQogICAgICAiZW5jb2RpbmciOiAiVVRGLTgiLA0KICAgICAgInNjaGVtYSI6IHsNCiAgICAgICAgImZpZWxkcyI6IFsNCiAgICAgICAgICB7Im5hbWUiOiAidGVjaF9pZCIsICJ0eXBlIjogInN0cmluZyIsICJjb25zdHJhaW50cyI6IHsicmVxdWlyZWQiOiB0cnVlLCAidW5pcXVlIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJ0ZWNoX25hbWUiLCAidHlwZSI6ICJzdHJpbmciLCAiY29uc3RyYWludHMiOiB7InJlcXVpcmVkIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJjYXRlZ29yeSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJ2ZW5kb3IiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAiZXJhIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogImxpZmVjeWNsZV9hdF9zdHVkeSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJsaWZlY3ljbGVfY3VycmVudCIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJzdHVkeV9pZCIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJub3RlcyIsICJ0eXBlIjogInN0cmluZyJ9DQogICAgICAgIF0sDQogICAgICAgICJwcmltYXJ5S2V5IjogWyJ0ZWNoX2lkIl0sDQogICAgICAgICJmb3JlaWduS2V5cyI6IFsNCiAgICAgICAgICB7DQogICAgICAgICAgICAiZmllbGRzIjogWyJzdHVkeV9pZCJdLA0KICAgICAgICAgICAgInJlZmVyZW5jZSI6IHsicmVzb3VyY2UiOiAic3R1ZGllcyIsICJmaWVsZHMiOiBbInN0dWR5X2lkIl19DQogICAgICAgICAgfQ0KICAgICAgICBdDQogICAgICB9DQogICAgfSwNCiAgICB7DQogICAgICAibmFtZSI6ICJvYnNlcnZhdGlvbnMiLA0KICAgICAgInBhdGgiOiAiZGF0YS9vYnNlcnZhdGlvbnMuY3N2IiwNCiAgICAgICJ0aXRsZSI6ICJPYnNlcnZhdGlvbnMiLA0KICAgICAgImRlc2NyaXB0aW9uIjogIlN0cnVjdHVyZWQgb2JzZXJ2YXRpb25zIGV4dHJhY3RlZCBmcm9tIHRoZSBzdHVkeSBpbmNsdWRpbmcgcHJlZGljdGlvbnMsIGFzc2Vzc21lbnRzLCBiZW5jaG1hcmtzLCBhbmQgcmV0cm9zcGVjdGl2ZSBvdXRjb21lcyIsDQogICAgICAiZm9ybWF0IjogImNzdiIsDQogICAgICAibWVkaWF0eXBlIjogInRleHQvY3N2IiwNCiAgICAgICJlbmNvZGluZyI6ICJVVEYtOCIsDQogICAgICAic2NoZW1hIjogew0KICAgICAgICAiZmllbGRzIjogWw0KICAgICAgICAgIHsibmFtZSI6ICJvYnNfaWQiLCAidHlwZSI6ICJzdHJpbmciLCAiY29uc3RyYWludHMiOiB7InJlcXVpcmVkIjogdHJ1ZSwgInVuaXF1ZSI6IHRydWV9fSwNCiAgICAgICAgICB7Im5hbWUiOiAic3R1ZHlfaWQiLCAidHlwZSI6ICJzdHJpbmciLCAiY29uc3RyYWludHMiOiB7InJlcXVpcmVkIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJlbnRpdHlfaWQiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAidGVjaF9pZCIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJvYnNlcnZhdGlvbl90eXBlIiwgInR5cGUiOiAic3RyaW5nIiwgImNvbnN0cmFpbnRzIjogeyJyZXF1aXJlZCI6IHRydWUsICJlbnVtIjogWyJzdHJhdGVneS1jbGFzc2lmaWNhdGlvbiIsInZpYWJpbGl0eS1wcmVkaWN0aW9uIiwiYWN0dWFsLW91dGNvbWUiLCJ0ZWNobm9sb2d5LWFzc2Vzc21lbnQiLCJiZW5jaG1hcmstcmVzdWx0IiwiZnJhbWV3b3JrLWZhY3RvciIsIm1hcmtldC1kYXRhIiwiZXhwZXJ0LW9waW5pb24iXX19LA0KICAgICAgICAgIHsibmFtZSI6ICJ5ZWFyX29ic2VydmVkIiwgInR5cGUiOiAiaW50ZWdlciJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJtZXRyaWNfbmFtZSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJtZXRyaWNfdmFsdWUiLCAidHlwZSI6ICJzdHJpbmcifSwNCiAgICAgICAgICB7Im5hbWUiOiAiY29uZmlkZW5jZSIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJtZXRob2RvbG9neV9jb2RlIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogInNvdXJjZV9wYWdlIiwgInR5cGUiOiAic3RyaW5nIn0sDQogICAgICAgICAgeyJuYW1lIjogIm5vdGVzIiwgInR5cGUiOiAic3RyaW5nIn0NCiAgICAgICAgXSwNCiAgICAgICAgInByaW1hcnlLZXkiOiBbIm9ic19pZCJdLA0KICAgICAgICAiZm9yZWlnbktleXMiOiBbDQogICAgICAgICAgew0KICAgICAgICAgICAgImZpZWxkcyI6IFsic3R1ZHlfaWQiXSwNCiAgICAgICAgICAgICJyZWZlcmVuY2UiOiB7InJlc291cmNlIjogInN0dWRpZXMiLCAiZmllbGRzIjogWyJzdHVkeV9pZCJdfQ0KICAgICAgICAgIH0sDQogICAgICAgICAgew0KICAgICAgICAgICAgImZpZWxkcyI6IFsiZW50aXR5X2lkIl0sDQogICAgICAgICAgICAicmVmZXJlbmNlIjogeyJyZXNvdXJjZSI6ICJlbnRpdGllcyIsICJmaWVsZHMiOiBbImVudGl0eV9pZCJdfQ0KICAgICAgICAgIH0sDQogICAgICAgICAgew0KICAgICAgICAgICAgImZpZWxkcyI6IFsidGVjaF9pZCJdLA0KICAgICAgICAgICAgInJlZmVyZW5jZSI6IHsicmVzb3VyY2UiOiAidGVjaG5vbG9naWVzIiwgImZpZWxkcyI6IFsidGVjaF9pZCJdfQ0KICAgICAgICAgIH0NCiAgICAgICAgXQ0KICAgICAgfQ0KICAgIH0sDQogICAgew0KICAgICAgIm5hbWUiOiAiY29kZXMiLA0KICAgICAgInBhdGgiOiAiZGF0YS9jb2Rlcy5jc3YiLA0KICAgICAgInRpdGxlIjogIkNvZGVzIGFuZCBDb250cm9sbGVkIFZvY2FidWxhcnkiLA0KICAgICAgImRlc2NyaXB0aW9uIjogIkRlZmluaXRpb25zIGZvciBjb250cm9sbGVkIHZvY2FidWxhcnkgdmFsdWVzIHVzZWQgaW4gdGhlIG9ic2VydmF0aW9uX3R5cGUgYW5kIG1ldGhvZG9sb2d5X2NvZGUgZmllbGRzIiwNCiAgICAgICJmb3JtYXQiOiAiY3N2IiwNCiAgICAgICJtZWRpYXR5cGUiOiAidGV4dC9jc3YiLA0KICAgICAgImVuY29kaW5nIjogIlVURi04IiwNCiAgICAgICJzY2hlbWEiOiB7DQogICAgICAgICJmaWVsZHMiOiBbDQogICAgICAgICAgeyJuYW1lIjogImNvZGVfaWQiLCAidHlwZSI6ICJzdHJpbmciLCAiY29uc3RyYWludHMiOiB7InJlcXVpcmVkIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJjb2RlX3R5cGUiLCAidHlwZSI6ICJzdHJpbmciLCAiY29uc3RyYWludHMiOiB7InJlcXVpcmVkIjogdHJ1ZX19LA0KICAgICAgICAgIHsibmFtZSI6ICJsYWJlbCIsICJ0eXBlIjogInN0cmluZyJ9LA0KICAgICAgICAgIHsibmFtZSI6ICJkZWZpbml0aW9uIiwgInR5cGUiOiAic3RyaW5nIn0NCiAgICAgICAgXSwNCiAgICAgICAgInByaW1hcnlLZXkiOiBbImNvZGVfaWQiLCAiY29kZV90eXBlIl0NCiAgICAgIH0NCiAgICB9DQogIF0NCn0NCg==
+{
+  "name": "intel-infiband-wp--edit-psk-5-22f-a2c551",
+  "title": "InfiniBand Architecture: Planning the Next-Generation Data Center",
+  "description": "Aberdeen Executive White Paper providing a comprehensive overview of the emerging InfiniBand Architecture (IBA) for data center IT planners. Covers IBA components (HCA, TCA, switches/routers), comparison to PCI/PCI-X, IP over InfiniBand, storage over InfiniBand (SCSI, SAN, NAS), server scaling via clustering and blade servers, deployment transition planning, and early-adopter field research indicating 50% TCO reduction for database clusters. Recommends beginning evaluation in 2002 and phased deployment in 2003.",
+  "version": "1.0.0",
+  "created": "2026-04-10",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

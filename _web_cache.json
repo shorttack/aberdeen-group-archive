@@ -1,0 +1,2818 @@
+{
+  "entities": {
+    "aberdeen-group": {
+      "status": "acquired",
+      "successor": "Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research",
+      "source": "https://asap-invests.com/peter-s-kastner/ \u2014 'Retired Co-founder, COO and Chief Research Officer of Boston-based IT market researcher Aberdeen Group, acquired by Harte-Hanks in 2006'"
+    },
+    "peter-s-kastner": {
+      "status": "active",
+      "successor": "",
+      "source": "https://asap-invests.com/peter-s-kastner/ \u2014 Retired co-founder/COO of Aberdeen Group; serves on non-profit and for-profit boards as of 2025"
+    },
+    "peter-kastner": {
+      "status": "active",
+      "successor": "",
+      "source": "https://asap-invests.com/peter-s-kastner/ \u2014 Same individual as peter-s-kastner; retired Aberdeen Group co-founder"
+    },
+    "christopher-stevens": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No reliable public record found for this specific individual in the Kastner archival context"
+    },
+    "david-hill": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No reliable public record found for this specific individual in the Kastner archival context"
+    },
+    "russ-craig": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No reliable public record found for Russ Craig in the Kastner archival context"
+    },
+    "hewlett-packard": {
+      "status": "renamed",
+      "successor": "HP Inc. + Hewlett Packard Enterprise (split 2015)",
+      "source": "Known answer: Hewlett-Packard split into HP Inc. and HPE in 2015."
+    },
+    "compaq": {
+      "status": "acquired",
+      "successor": "Hewlett-Packard (2002)",
+      "source": "https://www.latimes.com/archives/la-xpm-2006-jul-26-fi-hp26-story.html \u2014 HP's 2002 Compaq acquisition noted as background"
+    },
+    "dell": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Dell Technologies is active."
+    },
+    "dell-computer-corp": {
+      "status": "renamed",
+      "successor": "Dell Inc., then Dell Technologies",
+      "source": "Known / public record \u2014 Dell Computer Corp. changed name to Dell Inc. in 2003"
+    },
+    "ibm": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "sun-microsystems": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (acquired 2010)",
+      "source": "Known / public record"
+    },
+    "sap": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "peoplesoft": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (2005)",
+      "source": "Known / public record"
+    },
+    "oracle": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "cisco": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "microsoft": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "emc": {
+      "status": "acquired",
+      "successor": "Dell Technologies (Dell acquired EMC 2016; merged as Dell EMC)",
+      "source": "Known / public record"
+    },
+    "intel": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "nokia": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "apple": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "amazon": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "nvidia": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "amd": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record"
+    },
+    "advanced-micro-devices": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 same entity as amd"
+    },
+    "bapco": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 BAPCo benchmark consortium continues to operate"
+    },
+    "spec-org": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 SPEC (Standard Performance Evaluation Corporation) continues operating"
+    },
+    "salesforce-com": {
+      "status": "active",
+      "successor": "Salesforce (dropped .com from brand name)",
+      "source": "Known / public record"
+    },
+    "computerworld": {
+      "status": "renamed",
+      "successor": "Part of IDG/Foundry (IDG acquired by Blackstone 2017; digital brand continues under Foundry/IDG Communications)",
+      "source": "Known / public record"
+    },
+    "brocade": {
+      "status": "acquired",
+      "successor": "Broadcom Limited (acquired November 17, 2017); data center networking business also sold to Extreme Networks (October 2017)",
+      "source": "https://www.prnewswire.com/news-releases/broadcom-completes-acquisition-of-brocade-communications-systems-300558525.html"
+    },
+    "qlogic": {
+      "status": "acquired",
+      "successor": "Cavium Inc. (acquired August 2016); Cavium then acquired by Marvell Technology (2018)",
+      "source": "https://finance.yahoo.com/news/cavium-cavm-concludes-1-36-143302280.html"
+    },
+    "legato": {
+      "status": "acquired",
+      "successor": "EMC Corporation (acquired October 2003; operated as Legato Software division of EMC)",
+      "source": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/2003/10/20031021-1883.htm"
+    },
+    "veritas": {
+      "status": "reorganized",
+      "successor": "Merged into Symantec (2005); re-spun out as independent Veritas Technologies via Carlyle Group sale (January 2016)",
+      "source": "https://www.veritas.com/news-releases/2015-08-11-symantec-announces-sale-of-veritas"
+    },
+    "commvault": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.commvault.com/news/commvault-announces-fiscal-2024-fourth-quarter-financial-results \u2014 Nasdaq: CVLT, active as of 2024"
+    },
+    "nsi-software": {
+      "status": "renamed",
+      "successor": "Rebranded as Double-Take Software; acquired by Vision Solutions (2010); then acquired by Carbonite (2017)",
+      "source": "https://carbonite.com/news/carbonite-acquires-double-take-software/ \u2014 'NSI Software prefers to call itself Double-Take Software'"
+    },
+    "yosemite-technologies": {
+      "status": "acquired",
+      "successor": "Barracuda Networks (acquired January 2009; product discontinued September 2017)",
+      "source": "https://www.pcworld.com/article/533189/article-7353.html and https://campus.barracuda.com/product/yosemite/articles/"
+    },
+    "fclc": {
+      "status": "dissolved",
+      "successor": "Standards work absorbed into INCITS T11 / Fibre Channel Industry Association (FCIA)",
+      "source": "https://fibrechannel.org/how-fibre-channel-standards-are-made-part-iii-incits/ \u2014 FC Loop standards managed under INCITS; FCLC as separate entity was superseded"
+    },
+    "snia": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.snia.org/news-events/news/press-releases \u2014 SNIA active as of 2024, held annual members meeting October 2024"
+    },
+    "wind-river": {
+      "status": "acquired",
+      "successor": "Intel (2009); TPG Capital (2018); Aptiv PLC (December 2022, $3.5B)",
+      "source": "https://www.aptiv.com/en/newsroom/article/aptiv-completes-the-acquisition-of-wind-river-from-tpg"
+    },
+    "taiwan-semiconductor": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 TSMC active, world's largest contract chipmaker"
+    },
+    "us-ftc": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 U.S. Federal Trade Commission remains an active federal agency"
+    },
+    "newegg": {
+      "status": "active",
+      "successor": "",
+      "source": "https://stockanalysis.com/stocks/negg/ \u2014 Newegg Commerce Inc. (NASDAQ: NEGG) active as of 2024"
+    },
+    "eclipsys-corp": {
+      "status": "acquired",
+      "successor": "Allscripts Healthcare Solutions (merged 2010, $1.3B all-stock deal)",
+      "source": "https://www.healthcareitnews.com/news/allscripts-eclipsys-merge-13-billion-deal"
+    },
+    "mercury-interactive": {
+      "status": "acquired",
+      "successor": "Hewlett-Packard (acquired November 2006, $4.5B); became HP Software division",
+      "source": "https://www.cio.com/article/262781/mergers-acquisitions-hp-purchase-of-mercury-a-done-deal.html"
+    },
+    "unisys": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "memorial-hermann-healthcare-system": {
+      "status": "active",
+      "successor": "",
+      "source": "https://memorialhermann.org \u2014 Active as Memorial Hermann Health System, Houston, TX as of 2026"
+    },
+    "baragwanath-hospital": {
+      "status": "renamed",
+      "successor": "Chris Hani Baragwanath Academic Hospital (renamed 1997; official full name added 'Academic' designation)",
+      "source": "https://en.wikipedia.org/wiki/Chris_Hani_Baragwanath_Hospital"
+    },
+    "transaction-processing-council": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.tpc.org/tpcc/ \u2014 Transaction Processing Performance Council (TPC) active, published 2024 benchmarks"
+    },
+    "hand-held-entertainment": {
+      "status": "dissolved",
+      "successor": "ZVUE Corp (renamed); company ceased operations circa 2009\u20132010 after financial losses",
+      "source": "https://www.bizjournals.com/sanfrancisco/stories/2008/11/10/daily112.html \u2014 ZVUE doubled losses in 2008; SEC filings show decline; no successor"
+    },
+    "roku": {
+      "status": "active",
+      "successor": "",
+      "source": "https://stockanalysis.com/stocks/roku/ \u2014 NASDAQ: ROKU, active streaming platform as of 2026"
+    },
+    "nec": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.nec.com/en/global/corporateblog/202401/01.html \u2014 NEC Corporation active, celebrating 125th anniversary in 2024"
+    },
+    "sony": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 Sony Corporation active"
+    },
+    "panasonic": {
+      "status": "reorganized",
+      "successor": "Panasonic Holdings Corporation (holding company structure adopted April 2022); major restructuring April 2026 splitting into multiple operating companies",
+      "source": "https://news.panasonic.com/global/press/en260401-4"
+    },
+    "dovebid-viant": {
+      "status": "acquired",
+      "successor": "GoIndustry DoveBid (combined entity); acquired by Liquidity Services Inc. (completed September 2011)",
+      "source": "https://liquidityservices.com/press-releases/liquidity-services-inc-completes-acquisition-goindustry-dovebid"
+    },
+    "airborne-express": {
+      "status": "acquired",
+      "successor": "DHL (acquired by Deutsche Post/DHL, closed August 15, 2003, $1.05B; airline spun off as ABX Air)",
+      "source": "https://en.wikipedia.org/wiki/Airborne_Express"
+    },
+    "webify-solutions": {
+      "status": "acquired",
+      "successor": "IBM (WebSphere division)",
+      "source": "https://economictimes.com/tech/software/ibm-acquires-webify-solutions-indian-us-firm/articleshow/1855275.cms \u2014 IBM acquired Webify Solutions in August 2006, integrating it into IBM Software Group under the WebSphere brand."
+    },
+    "infor": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.infor.com/news/infor-named-leader-4th-time-2024-gartner-mq-cloud-erp-product-centric-enterprises \u2014 Infor is active as of 2024, named a Gartner Magic Quadrant Leader. Privately held, majority owned by Koch Industries since 2020."
+    },
+    "lawson-software": {
+      "status": "acquired",
+      "successor": "Infor (via Golden Gate Capital, 2011)",
+      "source": "https://goldengatecap.com/golden-gate-capital-completes-acquisition-of-lawson-software/ \u2014 Golden Gate Capital and Infor completed acquisition of Lawson Software in July 2011 for ~$2B; merged into Infor."
+    },
+    "vitria-technology": {
+      "status": "active",
+      "successor": "",
+      "source": "https://vitria.com \u2014 Vitria Technology is active as of 2025/2026, recognized in IDC MarketScape Worldwide AIOps 2026 Vendor Assessment. Privately held, headquartered in Menlo Park, CA."
+    },
+    "michael-ferron-jones": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable current status found for this individual analyst/person entity."
+    },
+    "narendar-sahgal": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable current status found for this individual analyst/person entity."
+    },
+    "jim-hurley": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable current status found for this individual analyst/person entity."
+    },
+    "trusted-computing-group": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: TCG is an active standards body."
+    },
+    "pricewaterhousecoopers": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: PwC remains active as one of the Big Four accounting firms."
+    },
+    "goremote-communications": {
+      "status": "acquired",
+      "successor": "iPass Inc. (2006)",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m \u2014 iPass acquired GoRemote Internet Communications for $76.5M in cash, closing Q1 2006."
+    },
+    "axcelerant": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable record of the original Axcelerant SOA/IT services firm's fate found. A separate UK company 'Axcelerant Ltd' incorporated in 2023 is unrelated."
+    },
+    "china-telecom": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: China Telecom is active (state-owned Chinese telecommunications corporation)."
+    },
+    "france-telecom": {
+      "status": "renamed",
+      "successor": "Orange S.A. (2013)",
+      "source": "Known answer: France Telecom renamed itself Orange in 2013."
+    },
+    "level-3": {
+      "status": "merged",
+      "successor": "Lumen Technologies (via CenturyLink merger, 2017)",
+      "source": "Known answer: Level 3 Communications merged with CenturyLink in 2017; CenturyLink rebranded to Lumen Technologies in 2020."
+    },
+    "mci": {
+      "status": "acquired",
+      "successor": "Verizon Communications (2006)",
+      "source": "Known answer: MCI acquired by Verizon in January 2006."
+    },
+    "singtel": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: SingTel (Singapore Telecommunications) is active, listed on SGX."
+    },
+    "telstra": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Telstra is active, Australia's largest telecommunications company."
+    },
+    "avnet": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Avnet is active, publicly traded electronic components distributor (NASDAQ: AVT)."
+    },
+    "lockheed-martin": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Lockheed Martin is active, publicly traded aerospace/defense corporation (NYSE: LMT)."
+    },
+    "matsushita": {
+      "status": "renamed",
+      "successor": "Panasonic Corporation (2008)",
+      "source": "Known answer: Matsushita Electric Industrial Co. renamed itself Panasonic Corporation in October 2008."
+    },
+    "procter-and-gamble": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Procter & Gamble is active, publicly traded consumer goods company (NYSE: PG)."
+    },
+    "saint-gobain": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Saint-Gobain is active, French multinational listed on Euronext Paris."
+    },
+    "stanley-works": {
+      "status": "merged",
+      "successor": "Stanley Black & Decker (merged with Black & Decker, March 2010)",
+      "source": "https://www.lexpert.ca/big-deals/stanley-works-acquires-black-decker/347023 \u2014 The Stanley Works completed acquisition of Black & Decker on March 12, 2010 for ~$4.5B, forming Stanley Black & Decker."
+    },
+    "verisign": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: VeriSign is active, publicly traded internet infrastructure company (NASDAQ: VRSN)."
+    },
+    "wayport": {
+      "status": "acquired",
+      "successor": "AT&T (2008)",
+      "source": "https://www.wired.com/2008/11/att-buys-waypor/ \u2014 AT&T acquired Wayport for $275M in November 2008, adding ~10,000 Wi-Fi hotspots to its network."
+    },
+    "t-mobile": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: T-Mobile US is active, publicly traded (NASDAQ: TMUS); merged with Sprint in 2020."
+    },
+    "dick-csaplar": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable current status found for this individual analyst/person entity."
+    },
+    "harte-hanks": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Harte-Hanks is active (acquired Aberdeen Group in 2007); publicly traded marketing services company."
+    },
+    "lenovo": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Lenovo is active, publicly traded Chinese multinational technology company (HKEX: 992)."
+    },
+    "acer": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Acer is active, publicly traded Taiwanese electronics manufacturer."
+    },
+    "vmware": {
+      "status": "acquired",
+      "successor": "Broadcom Inc. (2023)",
+      "source": "Known answer: Broadcom completed acquisition of VMware in November 2023 for ~$69B."
+    },
+    "symantec": {
+      "status": "acquired",
+      "successor": "Enterprise security to Broadcom (2019); consumer business became Gen Digital/NortonLifeLock",
+      "source": "Known answer: Symantec split \u2014 enterprise security division acquired by Broadcom in 2019; consumer business rebranded as NortonLifeLock, then Gen Digital."
+    },
+    "citrix": {
+      "status": "acquired",
+      "successor": "Cloud Software Group (Vista Equity Partners + Elliott Management, 2022)",
+      "source": "Known answer: Citrix taken private by Cloud Software Group (Vista Equity + Elliott) in September 2022."
+    },
+    "rich-echevarria": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No web-verifiable current status found for this individual analyst/person entity."
+    },
+    "systinet": {
+      "status": "acquired",
+      "successor": "Mercury Interactive (2006) \u2192 HP Software (2006) \u2192 Micro Focus (2017)",
+      "source": "https://www.computerworld.com/article/1694354/troubled-mercury-interactive-to-buy-systinet.html \u2014 Mercury acquired Systinet for $105M in 2006; HP then acquired Mercury for $4.5B in Nov 2006 (Systinet became HP SOA Systinet); HP software assets sold to Micro Focus in 2017."
+    },
+    "ca-technologies": {
+      "status": "acquired",
+      "successor": "Broadcom Inc. (2018)",
+      "source": "Known answer: CA Technologies acquired by Broadcom in November 2018 for ~$18.9B."
+    },
+    "bmc-software": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: BMC Software taken private by KKR in 2013; still operating as private company providing IT management software."
+    },
+    "amberpoint": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (2010)",
+      "source": "https://www.oracle.com/corporate/pressrelease/oracle-buys-amberpoint-020810.html \u2014 Oracle acquired AmberPoint in February 2010 to strengthen Oracle Fusion Middleware SOA Suite."
+    },
+    "compuware": {
+      "status": "acquired",
+      "successor": "Thoma Bravo (2014); Dynatrace spun off as separate public company",
+      "source": "Known answer: Compuware acquired by Thoma Bravo in 2014; Dynatrace was spun off and went public (NYSE: DT)."
+    },
+    "ibm-rational": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: IBM Rational is an active IBM division (software development tools portfolio)."
+    },
+    "planview": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Planview is active as a private company; acquired by Thoma Bravo in 2020."
+    },
+    "progress-actional": {
+      "status": "acquired",
+      "successor": "Progress Software / Sonic Software (2006)",
+      "source": "https://www.globalcustodian.com/progress-software-close-32-million-deal-to-acquire-actional-corporation/ \u2014 Progress Software acquired Actional Corporation for ~$32M in January 2006; Actional became part of Progress's Sonic Software unit."
+    },
+    "ibm-tivoli": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: IBM Tivoli is an active IBM division/brand (IT operations management, partially rebranded under IBM Cloud Pak for Watson AIOps)."
+    },
+    "bea-systems": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (2008)",
+      "source": "Known answer: Oracle completed acquisition of BEA Systems in April 2008 for ~$8.5B."
+    },
+    "internet-home-alliance": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "https://www.itprotoday.com/it-infrastructure/internet-home-alliance-integrates-its-way-into-us-homes \u2014 The Internet Home Alliance (IHA) was a nonprofit consortium founded ~2000 by Cisco and others (including Best Buy, Sears, Panasonic) to promote connected-home technology. No activity found after mid-2000s; organization appears to have quietly disbanded, consistent with the broader failure of early connected-home consortia in that era."
+    },
+    "best-buy": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Best Buy is active, publicly traded US consumer electronics retailer (NYSE: BBY)."
+    },
+    "mirror-image-internet": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "https://www.streamingmediablog.com/2023/01/cdn-list.html \u2014 Mirror Image closed down Dec. 2017 (CDN list); CDN Handbook also notes ceased operations ~2024 with no public announcement. UK subsidiary struck off July 2019."
+    },
+    "xcelera-com": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "https://sec.gov/edgar/browse/?CIK=792857 \u2014 Xcelera Inc. Exchange Act registration revoked. SEC filing shows no activity; company wound down after dot-com collapse."
+    },
+    "fastclick": {
+      "status": "acquired",
+      "successor": "ValueClick (acquired September 2005)",
+      "source": "https://www.adweek.com/brand-marketing/valueclick-buys-rival-internet-ad-network-81048/ \u2014 ValueClick acquired Fastclick for ~$284 million (all-stock) closing September 30, 2005."
+    },
+    "poindexter": {
+      "status": "acquired",
+      "successor": "Rocket Fuel / [x+1] (Poindexter Systems renamed to [x+1] then acquired by Rocket Fuel, 2014)",
+      "source": "https://www.adexchanger.com/platforms/rocket-fuel-to-buy-x1-for-estimated-230m/ \u2014 Poindexter Systems rebranded as [x+1]; acquired by Rocket Fuel for ~$230M in 2014."
+    },
+    "pointroll": {
+      "status": "acquired",
+      "successor": "Sizmek (acquired 2015 from Gannett/TEGNA)",
+      "source": "https://www.tegna.com/tegna-sells-pointroll/ \u2014 TEGNA sold PointRoll to Sizmek for $20M in November 2015. (Originally acquired by Gannett for ~$100M in 2005.)"
+    },
+    "british-petroleum": {
+      "status": "renamed",
+      "successor": "BP p.l.c. (rebranded as 'BP' in 2001)",
+      "source": "BP officially rebranded from British Petroleum to BP in 2001, retaining active operations as BP p.l.c."
+    },
+    "compusa": {
+      "status": "dissolved",
+      "successor": "Gordon Brothers Group (liquidated 2007\u20132008); brand/16 stores sold to Systemax/TigerDirect",
+      "source": "https://en.wikipedia.org/wiki/CompUSA \u2014 Sold to Gordon Brothers for liquidation Dec. 2007; Systemax acquired brand and 16 stores Jan. 2008; remaining stores converted to TigerDirect by 2012."
+    },
+    "microfocus": {
+      "status": "acquired",
+      "successor": "OpenText (acquired January 2023)",
+      "source": "https://investors.opentext.com/press-releases/press-releases-details/2023/OpenText-Buys-Micro-Focus/default.aspx \u2014 OpenText completed acquisition of Micro Focus International plc on January 31, 2023, for $6 billion."
+    },
+    "siebel": {
+      "status": "acquired",
+      "successor": "Oracle (acquired 2006)",
+      "source": "Known answer: Siebel Systems acquired by Oracle in 2006."
+    },
+    "sas-institute": {
+      "status": "active",
+      "successor": "",
+      "source": "https://en.wikipedia.org/wiki/SAS_Institute \u2014 SAS Institute remains privately held; ~$3.5B revenue in 2024. Preparing for potential IPO but as of 2025 still private."
+    },
+    "softtek": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Softtek remains active as a Mexican IT services company."
+    },
+    "siebel-systems": {
+      "status": "acquired",
+      "successor": "Oracle (acquired 2006)",
+      "source": "Known answer: Siebel Systems acquired by Oracle in 2006."
+    },
+    "i2-technologies": {
+      "status": "acquired",
+      "successor": "JDA Software (acquired 2010)",
+      "source": "Known answer: i2 Technologies acquired by JDA Software in 2010."
+    },
+    "ariba": {
+      "status": "acquired",
+      "successor": "SAP (acquired 2012)",
+      "source": "Known answer: Ariba acquired by SAP in 2012."
+    },
+    "broadvision": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: BroadVision remains active as a small public company."
+    },
+    "manugistics": {
+      "status": "acquired",
+      "successor": "JDA Software (acquired 2006)",
+      "source": "Known answer: Manugistics acquired by JDA Software in 2006."
+    },
+    "commerce-one": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "Known answer: Commerce One dissolved/bankrupt in 2004."
+    },
+    "baan": {
+      "status": "acquired",
+      "successor": "Infor (via Invensys then SSA GT then Infor)",
+      "source": "Known answer: Baan acquired by Invensys, then SSA GT, then Infor."
+    },
+    "jd-edwards": {
+      "status": "acquired",
+      "successor": "Oracle (PeopleSoft acquired JD Edwards in 2003; Oracle acquired PeopleSoft in 2005)",
+      "source": "Known answer: JD Edwards acquired by PeopleSoft (2003) then Oracle (2005)."
+    },
+    "beneficial-life": {
+      "status": "renamed",
+      "successor": "Beneficial Financial Group (renamed June 2004; stopped writing new policies August 2009)",
+      "source": "https://en.wikipedia.org/wiki/Beneficial_Financial_Group \u2014 Renamed to Beneficial Financial Group in 2004; stopped writing new policies in 2009; subsidiary of Deseret Management Corp (LDS Church). Still honoring existing policies."
+    },
+    "indian-motorcycle": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.linkedin.com/posts/indian-motorcycle-company \u2014 Indian Motorcycle became independent Feb 2026 under Carolwood LP (acquired majority from Polaris). Active as standalone company."
+    },
+    "rosettanet": {
+      "status": "merged",
+      "successor": "GS1 (merged 2014)",
+      "source": "Known answer: RosettaNet merged into GS1 in 2014."
+    },
+    "oagi": {
+      "status": "active",
+      "successor": "",
+      "source": "https://oagi.org/pages/oagis-and-score \u2014 Open Applications Group (OAGi) is active; renamed OAGIS to connectSpec and Score to connectCenter. Organization continues operating."
+    },
+    "pci-sig": {
+      "status": "active",
+      "successor": "",
+      "source": "https://pcisig.com/faq \u2014 PCI-SIG is active with 700+ member companies, continuing to develop PCI Express standards."
+    },
+    "mellanox-technologies": {
+      "status": "acquired",
+      "successor": "NVIDIA (acquired April 2020)",
+      "source": "http://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-gen-data-centers \u2014 NVIDIA completed acquisition of Mellanox for $7 billion on April 27, 2020."
+    },
+    "infiniband-trade-association": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: InfiniBand Trade Association (IBTA) remains active as a standards body."
+    },
+    "voltaire": {
+      "status": "acquired",
+      "successor": "Mellanox Technologies (acquired February 2011)",
+      "source": "https://www.eetimes.com/mellanox-completes-voltaire-deal/ \u2014 Mellanox completed acquisition of Voltaire for ~$208M in February 2011."
+    },
+    "infinicon": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "http://www.storagesearch.com/infiniconsys.html \u2014 InfiniCon Systems (circa 2004) appears to have wound down; no further activity found post-2005. Company was a startup in InfiniBand switches that did not survive."
+    },
+    "infiniswitch": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "https://www.crn.com/news/networking/18822064/infiniband-hardware-software-developers-merge \u2014 InfiniSwitch merged with Lane15 Software in March 2003; combined entity still called InfiniSwitch but appears to have dissolved by ~2005 as InfiniBand switch market consolidated."
+    },
+    "adaptec": {
+      "status": "acquired",
+      "successor": "PMC-Sierra (acquired 2010)",
+      "source": "Known answer: Adaptec acquired by PMC-Sierra in 2010."
+    },
+    "agilent-technologies": {
+      "status": "active",
+      "successor": "",
+      "source": "https://en.wikipedia.org/wiki/Agilent_Technologies \u2014 Agilent Technologies (NYSE: A) is active, spun off from Hewlett-Packard in 1999, headquartered in Santa Clara, CA. New CEO Padraig McDonnell took over May 2024."
+    },
+    "emulex": {
+      "status": "acquired",
+      "successor": "Avago Technologies (acquired 2015; Avago subsequently merged with Broadcom)",
+      "source": "https://www.jonesday.com/en/practices/experience/2015/05/emulex-acquired-by-avago-technologies-for-$609-million \u2014 Avago Technologies acquired Emulex for $609M in 2015."
+    },
+    "ibm-zseries": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.ibm.com/history/eserver-zseries \u2014 IBM zSeries was a product line (not a separate entity); renamed to IBM System z, then IBM Z. The mainframe product line continues actively under IBM, currently IBM z17 (2025)."
+    },
+    "rick-saia": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.linkedin.com/in/rsaia \u2014 Rick Saia is an active individual; former Senior Editor at Computerworld (IDG), later editor of Worcester Business Journal, now teacher/editor. Active person."
+    },
+    "snap-appliance": {
+      "status": "acquired",
+      "successor": "Adaptec (acquired July 2004; Adaptec then divested the systems business ~2005)",
+      "source": "https://www.computerworld.com/article/1706750/adaptec-buys-snap-appliance-for-100m.html \u2014 Adaptec acquired Snap Appliance for $100M in July 2004. Adaptec subsequently divested its storage systems division ~2005."
+    },
+    "meridian-data": {
+      "status": "acquired",
+      "successor": "Quantum Corporation (acquired 1999); spun off as Snap Appliance (2002)",
+      "source": "https://www.eetimes.com/quantum-acquires-meridian-data-in-systems-push/ \u2014 Quantum acquired Meridian Data for $85M in 1999. Business was later spun off as Snap Appliance in October 2002."
+    },
+    "quantum-corporation": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Quantum Corporation remains active in tape storage."
+    },
+    "eric-kelly": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.eweek.com/storage/adaptec-buys-snap-appliance/ \u2014 Eric Kelly was CEO of Snap Appliance; became head of Adaptec's Snap division post-acquisition. Active individual (executive)."
+    },
+    "mark-pollard": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.eweek.com/storage/adaptec-buys-snap-appliance/ \u2014 Mark Pollard was VP of Marketing and Business Development at Snap Appliance at time of Adaptec acquisition. Active individual."
+    },
+    "jillian-mansolf": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No public records found for Jillian Mansolf in the Snap Appliance / Kastner archive context. Likely a mid-level employee not publicly documented."
+    },
+    "randy-gast": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No public records found for Randy Gast in the relevant technology/Snap Appliance context. Likely a mid-level employee not publicly documented."
+    },
+    "ralph-clark": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No public records found for Ralph Clark specifically in this archive context (multiple people with this name). Insufficient data to verify."
+    },
+    "vic-jipson": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No public records found for Vic Jipson in any technology company context. Likely a mid-level employee not publicly documented."
+    },
+    "apc": {
+      "status": "acquired",
+      "successor": "Schneider Electric (acquired 2007)",
+      "source": "https://www.datacenterknowledge.com/investing/schneider-buys-apc-for-6-1-billion \u2014 Schneider Electric acquired APC (American Power Conversion) for $6.1 billion, closed 2007. APC brand continues under Schneider Electric."
+    },
+    "computer-associates": {
+      "status": "acquired",
+      "successor": "Broadcom Inc. (acquired November 2018, renamed CA Technologies)",
+      "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-completes-acquisition-ca-technologies \u2014 Broadcom completed acquisition of CA Technologies (formerly Computer Associates) for $18.9 billion on November 5, 2018."
+    },
+    "powerquest": {
+      "status": "acquired",
+      "successor": "Symantec (acquired 2003)",
+      "source": "https://www.nytimes.com/2003/09/24/business/technology-briefing-software-symantec-to-buy-powerquest-for-150-million.html \u2014 Symantec acquired PowerQuest for $150M in 2003."
+    },
+    "syncsort": {
+      "status": "renamed",
+      "successor": "Precisely (rebranded 2020 after acquiring Pitney Bowes Software Solutions)",
+      "source": "https://en.wikipedia.org/wiki/Precisely_(company) \u2014 Syncsort acquired by Clearlake Capital (2015), merged with Vision Solutions (2017 under Centerbridge), acquired Pitney Bowes Software Solutions (2019), rebranded to Precisely in 2020."
+    },
+    "philips": {
+      "status": "active",
+      "successor": "",
+      "source": "https://en.wikipedia.org/wiki/Philips \u2014 Koninklijke Philips N.V. (Royal Philips) is active, renamed from Philips Electronics N.V. in 2013. Spun off semiconductor division as NXP Semiconductors in 2006. Philips itself focuses on health technology."
+    },
+    "oki-electric": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.rohm.com/documents/11303/3279959/080724_news_e.pdf \u2014 Oki Electric Industry sold its semiconductor business to ROHM in 2008 for ~$961M. Oki Electric itself (OKI) remains active as a Japanese technology company (printers, ATMs, communications equipment)."
+    },
+    "elpida-memory": {
+      "status": "acquired",
+      "successor": "Micron Technology (acquired July 2013)",
+      "source": "https://www.eetimes.com/micron-closes-elpida-acquisition/ \u2014 Micron closed acquisition of bankrupt Elpida Memory for $2.5B on July 31, 2013."
+    },
+    "infineon": {
+      "status": "active",
+      "successor": "",
+      "source": "https://stockanalysis.com/quote/etr/IFX/market-cap/ \u2014 Infineon Technologies AG (ETR: IFX) is active; market cap ~\u20ac55B as of 2025. Spun off from Siemens in 2000, headquartered in Munich."
+    },
+    "motorola": {
+      "status": "reorganized",
+      "successor": "Motorola Solutions (active) + Motorola Mobility (acquired by Google 2012, sold to Lenovo 2014)",
+      "source": "https://en.wikipedia.org/wiki/Motorola_Solutions \u2014 Motorola Inc. split into Motorola Solutions and Motorola Mobility on January 4, 2011. Google acquired Motorola Mobility for $12.5B in 2012; sold to Lenovo in 2014."
+    },
+    "compal-electronics": {
+      "status": "active",
+      "successor": "",
+      "source": "https://finance.yahoo.com/quote/2324.TW/ \u2014 Compal Electronics (TWSE: 2324) is active and publicly traded on the Taiwan Stock Exchange."
+    },
+    "broadcom": {
+      "status": "acquired",
+      "successor": "Broadcom Inc. (Avago Technologies acquired Broadcom Corporation for $37B in 2016; combined entity took Broadcom name)",
+      "source": "https://en.wikipedia.org/wiki/Broadcom_Corporation \u2014 Broadcom Corporation (BRCM) was acquired by Avago Technologies in 2016 for $37B. Avago renamed itself Broadcom Ltd (then Broadcom Inc.). The original Broadcom Corporation is now a wholly owned subsidiary."
+    },
+    "cirrus-logic": {
+      "status": "active",
+      "successor": "",
+      "source": "https://en.wikipedia.org/wiki/Cirrus_Logic \u2014 Cirrus Logic (NASDAQ: CRUS) is active; fabless semiconductor company headquartered in Austin, TX. Stock at all-time high in March 2026."
+    },
+    "conexant": {
+      "status": "acquired",
+      "successor": "Synaptics (acquired July 2017)",
+      "source": "https://www.synaptics.com/company/news/conexant-acquisition-closes \u2014 Synaptics completed acquisition of Conexant Systems on July 26, 2017."
+    },
+    "national-semiconductor": {
+      "status": "acquired",
+      "successor": "Texas Instruments (acquired 2011)",
+      "source": "https://www.ti.com/about-ti/newsroom/news-releases/2011/2011-04-04-ti-to-acquire-national-semiconductor.html \u2014 Texas Instruments completed acquisition of National Semiconductor for $6.5B in 2011."
+    },
+    "ctic": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.ctci.com \u2014 CTCI Corporation (TWSE: 9933) is active; global EPC engineering company headquartered in Taipei, Taiwan. New contracts in 2025 reached record NT$181.3 billion."
+    },
+    "semiconductor-industry-association": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.semiconductors.org \u2014 Semiconductor Industry Association (SIA) is active as the US semiconductor industry trade association, publishing market data and advocating for CHIPS Act funding."
+    },
+    "michael-porter": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Michael Porter is an active Harvard Business School professor."
+    },
+    "nike": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Nike is active."
+    },
+    "wipro": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer: Wipro Technologies is active."
+    },
+    "akamai": {
+      "status": "active",
+      "successor": "",
+      "source": "Known answer."
+    },
+    "walmart": {
+      "status": "active",
+      "successor": null,
+      "notes": "Walmart Inc. (NYSE/Nasdaq: WMT) remains world's largest retailer. FY2025 revenue $681B, ~2.1M associates, 10,750+ stores in 19 countries. Stock up 72% in 2024.",
+      "source": "https://stock.walmart.com"
+    },
+    "nielsen": {
+      "status": "reorganized",
+      "successor": "NIQ (NielsenIQ / NIQ Global Intelligence plc)",
+      "notes": "Nielsen Holdings spun off its consumer data division (formerly ACNielsen) as NielsenIQ in January 2021, sold to Advent International March 2021. NielsenIQ acquired GfK in July 2023. NIQ completed IPO on NYSE (ticker: NIQ) July 24, 2025. Nielsen Holdings (media measurement) separately acquired by Evergreen Coast Capital/Brookfield in 2022.",
+      "source": "https://en.wikipedia.org/wiki/NielsenIQ"
+    },
+    "webex-communications": {
+      "status": "acquired",
+      "successor": "Cisco Webex (Webex by Cisco)",
+      "notes": "WebEx Communications, Inc. (founded 1995, NASDAQ: WEBX) acquired by Cisco Systems for $3.2B ($57/share) in May 2007. Now operates as Cisco's Webex collaboration platform. Post-acquisition Webex rebranded through multiple phases: Meeting Center, Cisco Spark (2015), unified Cisco Webex (2018). Current Webex platform remains active as a Cisco subsidiary.",
+      "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2007/m05/cisco-completes-acquisition-of-webex.html"
+    },
+    "marshall-mcluhan": {
+      "status": "deceased",
+      "successor": null,
+      "notes": "Herbert Marshall McLuhan (July 21, 1911 \u2013 December 31, 1980). Canadian philosopher and media theorist, University of Toronto. Famous for 'the medium is the message' and 'global village' concepts. Suffered stroke September 1979; died in sleep December 31, 1980. Legacy remains influential in media studies and digital age discourse.",
+      "source": "https://en.wikipedia.org/wiki/Marshall_McLuhan"
+    }
+  },
+  "technologies": {
+    "edi": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "EDI remains in widespread use in B2B supply chain and retail, but is a mature/legacy standard. Still actively used in 95%+ of large-company supply chains, particularly in retail and healthcare, though newer standards (APIs, XML) are growing.",
+      "source": "General knowledge / industry consensus"
+    },
+    "internet-ec": {
+      "lifecycle_current": "evolved",
+      "notes": "Internet e-commerce as a concept has thoroughly evolved and matured into the dominant retail channel. US e-commerce sales reached ~$1.2 trillion in 2024 (16.2% of total retail), a fully evolved mainstream channel.",
+      "source": "https://www.emarketer.com/content/us-ecommerce-forecast-2024"
+    },
+    "data-warehousing": {
+      "lifecycle_current": "evolved",
+      "notes": "Traditional on-premises data warehousing has evolved into cloud data warehousing (Snowflake, BigQuery, Redshift). The concept is active and growing but has fundamentally evolved in architecture.",
+      "source": "General knowledge / industry consensus"
+    },
+    "intranet": {
+      "lifecycle_current": "evolved",
+      "notes": "Traditional intranet technology has evolved into modern digital workplace platforms (SharePoint, Teams, Slack, etc.). Enterprise intranet market valued at ~$45B in 2024, growing at 8.2% CAGR. Concept active; technology evolved.",
+      "source": "https://www.linkedin.com/pulse/enterprise-intranet-software-market-digital-platform-1xeqc"
+    },
+    "rdbms": {
+      "lifecycle_current": "active",
+      "notes": "Relational databases remain the dominant data storage paradigm. MySQL, PostgreSQL, Oracle DB, SQL Server all actively developed and widely deployed.",
+      "source": "General knowledge / industry consensus"
+    },
+    "distributed-objects": {
+      "lifecycle_current": "legacy-unsupported",
+      "notes": "Distributed objects technology (CORBA/ORB/DCOM) has been largely superseded by REST APIs, microservices, and gRPC. CORBA spec still exists via OMG but is not actively developed for mainstream use. Legacy installations remain.",
+      "source": "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture"
+    },
+    "java": {
+      "lifecycle_current": "active",
+      "notes": "Java remains one of the most widely used programming languages. Java 21 (LTS) and Java 23 actively supported. Widely used in enterprise backends, Android, and large-scale systems.",
+      "source": "General knowledge"
+    },
+    "payment-auth-encrypt": {
+      "lifecycle_current": "evolved",
+      "notes": "Payment authentication and encryption has evolved substantially from early SSL/SET protocols to modern TLS 1.3, 3DS2, tokenization, and PCI-DSS frameworks. The domain is active but the 1990s-era specific implementations are superseded.",
+      "source": "https://www.sectigo.com/blog/tls-client-authentication-public-ca-end-2026"
+    },
+    "object-request-broker": {
+      "lifecycle_current": "legacy-unsupported",
+      "notes": "Object Request Brokers (CORBA ORB) are functionally obsolete. Replaced by REST, gRPC, and message queues. No mainstream ORB products are actively developed. Legacy enterprise systems may still use them.",
+      "source": "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture"
+    },
+    "cgi": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "CGI (Common Gateway Interface) is technically functional and still used on some legacy servers, but has largely been replaced by FastCGI, WSGI, and modern server-side frameworks. Still supported by Apache/Nginx but not recommended for new development.",
+      "source": "https://blog.apolocloud.net/cgi-common-gateway-interface-the-power/"
+    },
+    "intel-windows-server": {
+      "lifecycle_current": "active",
+      "notes": "Intel/Windows-based servers remain the dominant server platform. Windows Server 2022/2025 on Xeon processors is the mainstream enterprise server configuration.",
+      "source": "General knowledge"
+    },
+    "unix-server": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Unix enterprise servers (AIX, HP-UX, Solaris, SPARC) are in long-term decline. Fujitsu confirmed end of Unix sales by 2029/support by 2034. Oracle Solaris, IBM AIX, and HP-UX still have active but declining installed bases with long-term support contracts.",
+      "source": "https://www.techzine.eu/news/applications/73825/end-date-for-unix-systems-and-mainframe-confirmed-by-fujitsu/"
+    },
+    "itanium": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Itanium processor line was discontinued. Last Itanium system shipped in 2021. HP-UX and Itanium-based systems reached end of support.",
+      "source": "General knowledge / Intel product announcements"
+    },
+    "linux": {
+      "lifecycle_current": "active",
+      "notes": "Linux kernel and operating system actively developed. Linux 6.x kernel series current. Dominant OS for servers, cloud, embedded, and supercomputing.",
+      "source": "https://www.kernel.org/"
+    },
+    "high-availability": {
+      "lifecycle_current": "active",
+      "notes": "High Availability as a concept and product category is fully active. Modern HA solutions include clustering, load balancing, cloud-based failover. Market growing with cloud adoption.",
+      "source": "General knowledge"
+    },
+    "san": {
+      "lifecycle_current": "active",
+      "notes": "Storage Area Networks remain active in enterprise data centers. Fibre Channel SANs (Gen 7, 64GFC) and iSCSI SANs widely deployed. Market still active though Ethernet-based storage gaining share.",
+      "source": "General knowledge"
+    },
+    "nas": {
+      "lifecycle_current": "active",
+      "notes": "Network Attached Storage is a growing market with on-premises and cloud NAS solutions. SMB and enterprise NAS actively developed by NetApp, Synology, QNAP, Dell, and cloud providers.",
+      "source": "General knowledge"
+    },
+    "fibre-channel": {
+      "lifecycle_current": "mature",
+      "notes": "Fibre Channel remains the dominant SAN protocol in enterprise storage. 32GFC and 64GFC are current generations. Mature but actively used.",
+      "source": "https://www.fibrechannel.org/"
+    },
+    "serial-ata": {
+      "lifecycle_current": "active",
+      "notes": "Serial ATA (SATA) remains the dominant interface for consumer HDDs and SSDs, though NVMe (PCIe) is rapidly growing for performance SSDs. SATA is mature but widely active.",
+      "source": "General knowledge"
+    },
+    "serial-attached-scsi": {
+      "lifecycle_current": "active",
+      "notes": "Serial Attached SCSI (SAS) remains the enterprise standard for HDDs in servers and storage arrays. SAS 4.0 (22.5 Gbps) is current. Active in enterprise storage, though NVMe is growing for SSDs.",
+      "source": "General knowledge"
+    },
+    "dell-emc-cx-family": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Dell EMC CLARiiON CX series (CX300, CX400, CX500, CX600, CX700, CX3/CX4 families) all reached EOSL. CX3/CX4 series EOSL was March 31, 2014 to December 31, 2016. Succeeded by VNX, then Unity arrays.",
+      "source": "https://www.hardwarewartung.com/en/emc-end-of-life-en/"
+    },
+    "dell-emc-ax100": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Dell EMC AX100 Array reached End of Service Life on April 30, 2011. No further manufacturer support available.",
+      "source": "https://serviceexpress.com/eol-eosl-database/products/emc-ax100-emc-disk-storage/"
+    },
+    "powervault-nas": {
+      "lifecycle_current": "discontinued",
+      "notes": "Dell PowerVault NAS product line was discontinued. Dell exited the standalone NAS appliance market; PowerVault brand continued with tape and SAN products but NAS-specific line was discontinued.",
+      "source": "General knowledge / Dell product history"
+    },
+    "powervault-tape": {
+      "lifecycle_current": "active",
+      "notes": "Dell PowerVault Tape products remain active. PowerVault ML3 (21U/48U) and ML3e have EOSL dates of April 30, 2032, indicating active product line. Current generation uses LTO-9 technology.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/powervault/"
+    },
+    "lto": {
+      "lifecycle_current": "active",
+      "notes": "LTO (Linear Tape-Open) is very active. LTO-9 is current shipping generation; LTO-10 (30TB/cartridge) announced for 2025. 176.5 Exabytes shipped in 2024, a 15.4% increase over 2023. Roadmap extends to LTO-14.",
+      "source": "https://www.lto.org/2025/07/lto-tape-technology-shipments-scale-to-new-heights/"
+    },
+    "windows-storage-server": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Microsoft Windows Storage Server 2003 reached end of extended support on July 14, 2015, following Windows Server 2003 EOL. No security updates available.",
+      "source": "https://security.berkeley.edu/news/microsoft-windows-server-2003-end-life"
+    },
+    "snapview": {
+      "lifecycle_current": "discontinued",
+      "notes": "EMC SnapView was the point-in-time copy software for CLARiiON CX arrays. With the CX product family reaching EOSL (2014-2016), SnapView is discontinued. Succeeded by SnapSure/RecoverPoint on newer platforms.",
+      "source": "https://www.hardwarewartung.com/en/emc-end-of-life-en/"
+    },
+    "navisphere": {
+      "lifecycle_current": "discontinued",
+      "notes": "EMC Navisphere was the management software for CLARiiON arrays. With CX arrays EOL, Navisphere is discontinued. Succeeded by Unisphere management software on VNX/Unity platforms.",
+      "source": "General knowledge / EMC product history"
+    },
+    "visualsan": {
+      "lifecycle_current": "discontinued",
+      "notes": "VisualSAN was a SAN management software product (later acquired by Brocade). The product was discontinued and absorbed into Brocade/Broadcom network management tools.",
+      "source": "General knowledge / industry history"
+    },
+    "flare-os": {
+      "lifecycle_current": "discontinued",
+      "notes": "FLARE (Fibre Logic Array Runtime Environment) OS ran on EMC CLARiiON and VNX storage systems. With CLARiiON CX series EOL (2014-2016) and VNX series EOSL (2019-2023), FLARE OS is discontinued. Succeeded by OE (Operating Environment) on Unity.",
+      "source": "https://tekmart.co.za/t-blog/what-is-flare-a-simple-explanation-of-emc-hard-drive-flare/"
+    },
+    "ia-architecture": {
+      "lifecycle_current": "active",
+      "notes": "Intel Architecture (IA/x86) is the dominant computing architecture for PCs, servers, and cloud infrastructure. Continuously evolved through multiple generations.",
+      "source": "General knowledge"
+    },
+    "atom-processor": {
+      "lifecycle_current": "evolved",
+      "notes": "Intel Atom processor for consumer netbooks/tablets was effectively discontinued, but the Atom core architecture evolved into Intel's embedded/IoT processors (Tremont, Gracemont cores) used in current products including Alder Lake efficiency cores.",
+      "source": "General knowledge / Intel product history"
+    },
+    "core-processor": {
+      "lifecycle_current": "active",
+      "notes": "Intel Core processor family (i3/i5/i7/i9, now Core Ultra) is Intel's primary consumer/enterprise processor line and is actively developed and sold.",
+      "source": "General knowledge"
+    },
+    "xeon-processor": {
+      "lifecycle_current": "active",
+      "notes": "Intel Xeon remains the dominant server processor family. Xeon Scalable (Sapphire Rapids, Emerald Rapids) are current. Some older generations entering EOL (Sapphire Rapids entered discontinuation Sept 2025) but platform is active.",
+      "source": "https://wccftech.com/intel-announces-discontinuation-period-for-12th-generation-alder-lake-and-sapphire-rapids-scalable-cpus/"
+    },
+    "itanium-ia64": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Itanium (IA-64) architecture was officially discontinued. Last Itanium 9700 series shipped in 2021. HP-UX on Itanium reached end of support. The IA-64 architecture is fully discontinued.",
+      "source": "General knowledge / Intel announcements"
+    },
+    "soc": {
+      "lifecycle_current": "active",
+      "notes": "Systems on a Chip (SoC) is one of the fastest-growing semiconductor design paradigms. Apple Silicon (M-series), Qualcomm Snapdragon, ARM-based SoCs for mobile/embedded/automotive, and RISC-V SoCs all active.",
+      "source": "General knowledge"
+    },
+    "wifi": {
+      "lifecycle_current": "active",
+      "notes": "Wi-Fi (802.11) is fully active. Wi-Fi 7 (802.11be) is current standard. Wi-Fi Alliance actively certifying products.",
+      "source": "General knowledge"
+    },
+    "moblin-meego": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel officially abandoned MeeGo mobile OS in September 2011, shifting to Tizen (with Samsung). Nokia dropped MeeGo for Windows Phone in early 2011. The Nokia N9 was the only consumer device shipped. MeeGo/Moblin is fully discontinued.",
+      "source": "https://uk.pcmag.com/news/113098/intel-ditches-meego-mobile-os-for-html5-centric-tizen"
+    },
+    "cloud-computing": {
+      "lifecycle_current": "active",
+      "notes": "Cloud computing is the dominant infrastructure paradigm. AWS, Azure, Google Cloud all posting strong growth. Worldwide cloud market exceeds $600B annually.",
+      "source": "General knowledge"
+    },
+    "ssd": {
+      "lifecycle_current": "active",
+      "notes": "Solid State Drives are the dominant storage medium for performance applications. NVMe PCIe Gen 4/5 SSDs are current technology. Rapidly displacing HDDs in laptops and servers.",
+      "source": "General knowledge"
+    },
+    "vpro": {
+      "lifecycle_current": "active",
+      "notes": "Intel vPro is an actively developed enterprise platform. Latest version announced March 2026 with Intel Core Ultra Series 3, adding AI-based diagnostics, remote management via SaaS, and enhanced security features.",
+      "source": "https://newsroom.intel.com/client-computing/intel-core-ultra-series-3-with-vpro-powers-next-gen-pcs-on-18a"
+    },
+    "terascale": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Terascale was a research many-core architecture project (~2007-2012). It was a research initiative that produced prototypes (48-core and 80-core experimental chips) but never reached commercial production. The research contributed to Xeon Phi.",
+      "source": "General knowledge / Intel research publications"
+    },
+    "larrabee": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Larrabee was cancelled as a consumer GPU product in December 2009, and the project was officially terminated as a standalone graphics product in May 2010. Technology evolved into the Xeon Phi product line for HPC.",
+      "source": "https://en.wikipedia.org/wiki/Larrabee_(microarchitecture)"
+    },
+    "westmere": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Westmere (32nm Nehalem) processor architecture reached end of sale in June 2014 (for Westmere-EP in Cisco UCS servers) with last date of support June 30, 2019. The microarchitecture generation is fully discontinued.",
+      "source": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/eos-eol-notice-c51-730609.html"
+    },
+    "athlon-xp": {
+      "lifecycle_current": "discontinued",
+      "notes": "AMD Athlon XP processors were discontinued circa 2005-2006, replaced by Athlon 64 (Socket 939/754) and then AM2 platform. No longer manufactured or supported.",
+      "source": "https://forums.tomshardware.com/threads/amd-official-end-of-life-dates.295975/"
+    },
+    "intel-pentium4-willamette": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Pentium 4 Willamette (130nm) was the first Pentium 4 core, released November 2000. Shipped until 2002 when Northwood replaced it. Fully discontinued by Intel circa 2008 for the broader P4 line.",
+      "source": "https://en.wikipedia.org/wiki/Pentium_4"
+    },
+    "intel-pentium4-northwood": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Pentium 4 Northwood (130nm) was a key P4 variant from 2002-2004, replaced by Prescott. The entire Pentium 4 line was discontinued by August 2008.",
+      "source": "https://en.wikipedia.org/wiki/Pentium_4"
+    },
+    "sysmark-2001": {
+      "lifecycle_current": "discontinued",
+      "notes": "BAPCo SYSmark 2001 is listed on BAPCo's End of Life Products page. BAPCo retired the product; licenses terminated, results no longer accepted. Superseded by SYSmark 2002, 2004, and subsequent versions.",
+      "source": "https://bapco.com/end-of-life-products/"
+    },
+    "speccpu-2000": {
+      "lifecycle_current": "discontinued",
+      "notes": "SPEC CPU2000 was officially retired in February 2007. Starting November 2006, all submissions required an accompanying CPU2006 result. After February 2007, no further results were accepted. Superseded by SPEC CPU2006, then CPU2017.",
+      "source": "https://www.spec.org/cpu2000/retired/"
+    },
+    "windows-xp": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Microsoft Windows XP reached end of extended support on April 8, 2014. No security updates since then. Fully end-of-life.",
+      "source": "General knowledge / Microsoft lifecycle policy"
+    },
+    "amd-true-performance-initiative": {
+      "lifecycle_current": "discontinued",
+      "notes": "AMD True Performance Initiative (TPI) was a circa 2001-2002 AMD program to address perceived benchmarking bias in SYSmark 2001. It was a short-lived marketing/technical initiative tied to the Athlon XP era. AMD abandoned TPI when moving to Athlon 64 and model number ratings system.",
+      "source": "https://www.realworldtech.com/sysmark-2001/"
+    },
+    "winbench-2000": {
+      "lifecycle_current": "discontinued",
+      "notes": "WinBench 2000 was a benchmark from Ziff-Davis/BizTech. The project was abandoned; WinBench 2000 never officially released (only WinBench 99 shipped). The benchmark suite was discontinued with the broader ET/BizTech benchmark program ending in the early 2000s.",
+      "source": "https://www.storagereview.com/review/storagereview-coms-testbed3"
+    },
+    "eclipsys-sunrisexa-3-3": {
+      "lifecycle_current": "succeeded",
+      "notes": "Eclipsys SunriseXA Release 3.3 was a specific 2004-era version of the EHR platform. Eclipsys was acquired by Allscripts in 2010 for $1.3B. The product was rebranded as Allscripts Sunrise, later transferred to Altera Digital Health. Current version is Sunrise 25.1 (2026). The specific release 3.3 is succeeded.",
+      "source": "https://histalk2.com/2010/06/09/industry-reaction-allscripts-to-acquire-eclipsys/"
+    },
+    "mercury-loadrunner": {
+      "lifecycle_current": "active",
+      "notes": "Mercury LoadRunner is still actively maintained. Mercury Interactive was acquired by HP in 2006, then sold to Micro Focus in 2017, then to OpenText. LoadRunner 2023 R1 was released July 2023 with ongoing updates. Currently OpenText LoadRunner.",
+      "source": "https://en.wikipedia.org/wiki/LoadRunner"
+    },
+    "unisys-es7000": {
+      "lifecycle_current": "discontinued",
+      "notes": "Unisys ES7000 was a 32-way Intel Xeon-based server. Business Information Server software for ES7000 was discontinued (UnixWare edition discontinued Nov 30, 2005). The hardware is no longer sold or supported. Compaq dropped the ES7000 in 2001.",
+      "source": "https://public.support.unisys.com/mapper/docs/discontinuance/78321270-011.pdf"
+    },
+    "windows-2000-datacenter-sp4": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Windows 2000 (all editions including Datacenter Server SP4) reached end of extended support on July 13, 2010. Fully end-of-life with no security updates.",
+      "source": "General knowledge / Microsoft lifecycle"
+    },
+    "windows-2000-advanced-server-sp4": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Windows 2000 Advanced Server SP4 reached end of extended support on July 13, 2010. Fully end-of-life.",
+      "source": "General knowledge / Microsoft lifecycle"
+    },
+    "sql-server-2000": {
+      "lifecycle_current": "end-of-life",
+      "notes": "SQL Server 2000 (v8.x) reached end of extended support on April 9, 2013. No security updates available. Fully end-of-life.",
+      "source": "General knowledge / Microsoft lifecycle"
+    },
+    "emc-powerpath": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Dell EMC PowerPath entered end of life (EOL) on July 31, 2024. Standard support continues until July 2027. No longer purchasable as new software; existing licenses can continue in use. Succeeded by native OS multipathing (MPIO).",
+      "source": "https://drewtonnesen.wordpress.com/2024/11/20/pp-to-mpio/"
+    },
+    "emc-navisphere": {
+      "lifecycle_current": "discontinued",
+      "notes": "EMC Navisphere (v6.4.x, as referenced in the document) was the management software for CLARiiON CX arrays. With the CX array EOSL complete (2011-2016), Navisphere is fully discontinued. Replaced by Unisphere for VNX/Unity.",
+      "source": "General knowledge / EMC product history"
+    },
+    "microsoft-dotnet-1-0": {
+      "lifecycle_current": "end-of-life",
+      "notes": ".NET Framework 1.0 reached end of support on July 12, 2011 (part of .NET Framework 1.0-4.6.1 group, all out of support as of April 26, 2022). The specific version 1.0.3705 referenced is a very early release. Fully end-of-life.",
+      "source": "https://blog.inedo.com/dotnet/demystifying-lts"
+    },
+    "hl7-messaging": {
+      "lifecycle_current": "standard-current",
+      "notes": "HL7 remains the dominant health data interchange standard. HL7 V2.9.1 published September 2024. HL7 FHIR (modern version) is the latest evolution. Used in 95% of US healthcare organizations. Actively maintained and expanded.",
+      "source": "https://hl7news.hl7.org/2025/01/13/hl7-standards-published-since-august-2024/"
+    },
+    "sunrise-clinical-manager-3-04": {
+      "lifecycle_current": "succeeded",
+      "notes": "Sunrise Clinical Manager 3.04 was an Eclipsys-era product. Eclipsys was acquired by Allscripts in 2010, and then Altera Digital Health took over Sunrise in 2022. Current version is Sunrise 25.1 (2026). The specific 3.04 workflow engine is succeeded by many subsequent versions.",
+      "source": "https://www.alterahealth.com/solution/sunrise/"
+    },
+    "storage-area-network": {
+      "lifecycle_current": "active",
+      "notes": "Storage Area Networks remain a core enterprise storage infrastructure technology. FC SANs and iSCSI SANs widely deployed. Market active and growing.",
+      "source": "General knowledge"
+    },
+    "network-attached-storage": {
+      "lifecycle_current": "active",
+      "notes": "Network Attached Storage is actively growing. Enterprise NAS (NetApp, Dell PowerScale/Isilon, Pure Storage FlashBlade) and consumer NAS (Synology, QNAP, WD) are all actively developed.",
+      "source": "General knowledge"
+    },
+    "fc-scsi-disk": {
+      "lifecycle_current": "mature",
+      "notes": "Fibre Channel/SCSI disk (15K RPM online tier storage) remains in use in legacy enterprise environments. The technology is mature; new installs favor all-flash arrays (NVMe). FC-NVMe is the current evolution for high-performance FC storage.",
+      "source": "https://fibrechannel.org/wp-content/uploads/2024/11/Fibre-Channel-Solutions-Guide-2024.pdf"
+    },
+    "midline-disk": {
+      "lifecycle_current": "mature",
+      "notes": "Midline (NL-SAS/SATA) disk drives for capacity storage tiers remain in active production and use. Still widely deployed in high-capacity storage arrays and cloud storage infrastructure. Competing with higher-capacity HDDs and object storage.",
+      "source": "General knowledge"
+    },
+    "disk-to-disk-backup": {
+      "lifecycle_current": "active",
+      "notes": "Disk-to-disk (D2D) backup is an active and mainstream backup approach. Modern implementations include VTL (virtual tape libraries), backup appliances (Data Domain/Dell, Veeam), and cloud backup. Widely adopted.",
+      "source": "https://www.lenovo.com/us/en/glossary/what-is-disk-to-disk/"
+    },
+    "tape-backup": {
+      "lifecycle_current": "active",
+      "notes": "Sequential tape backup for offline/disaster recovery remains active. LTO tape shipments hit a record 176.5 Exabytes in 2024 (15.4% growth). Tape is widely used for long-term archiving, ransomware protection (air gap), and disaster recovery.",
+      "source": "https://www.theregister.com/2025/07/23/lto_2024_tape_shipment_data/"
+    },
+    "ilm-policy-software": {
+      "lifecycle_current": "evolved",
+      "notes": "Cross-application ILM (Information Lifecycle Management) Policy Software as a standalone category evolved into broader data governance, cloud archiving, and compliance platforms. The ILM market is active and growing (projected CAGR of 14%), but the specific standalone ILM software category has been absorbed into broader data management platforms.",
+      "source": "https://concentric.ai/2025-guide-to-modern-information-lifecycle-management/"
+    },
+    "storage-virtualization": {
+      "lifecycle_current": "active",
+      "notes": "Storage virtualization is an active and growing technology. Market projected at $14.99B by 2030 (CAGR 10.7%). SDS (Software-Defined Storage), HCI (Hyper-Converged Infrastructure), and cloud storage virtualization are mainstream enterprise technologies.",
+      "source": "https://www.openpr.com/news/4433215/leading-companies-reinforce-their-presence-in-the-storage"
+    },
+    "oltp-systems": {
+      "lifecycle_current": "active",
+      "notes": "Online Transaction Processing (OLTP) systems are the backbone of transactional business applications. Modern OLTP runs on relational databases (Oracle, SQL Server, PostgreSQL) and cloud-native databases. Actively used and developed.",
+      "source": "General knowledge"
+    },
+    "hp-c315-camera": {
+      "lifecycle_current": "discontinued",
+      "notes": "HP Photosmart C315 digital camera was discontinued and replaced by the HP Photosmart C318. HP's entire Photosmart digital camera line was subsequently discontinued as HP exited the consumer digital camera market.",
+      "source": "https://en.wikipedia.org/wiki/HP_Photosmart"
+    },
+    "windows-me": {
+      "lifecycle_current": "discontinued",
+      "notes": "Microsoft Windows ME (Millennium Edition) was discontinued. Support ended December 31, 2006 (end of extended support). Widely regarded as one of Microsoft's least successful OS releases.",
+      "source": "General knowledge / Microsoft lifecycle"
+    },
+    "usb-camera-interface": {
+      "lifecycle_current": "succeeded",
+      "notes": "USB camera interface (as implemented in Windows XP with native camera support) has been succeeded by modern USB standards (USB 3.x, USB-C) with improved protocols. Windows still supports camera devices via USB, but the specific WIA/TWAIN driver model from the XP era has evolved into the modern Windows Camera platform.",
+      "source": "General knowledge"
+    },
+    "acd-see-software": {
+      "lifecycle_current": "active",
+      "notes": "ACDSee Photo Studio software is actively developed and sold. ACDSee Photo Studio Ultimate 2026 was released as the current version, with AI-powered features for photo editing and management.",
+      "source": "https://www.acdsee.com/en/products/photo-studio-ultimate/"
+    },
+    "hp-photo-transfer-software": {
+      "lifecycle_current": "discontinued",
+      "notes": "HP Photo Transfer Software bundled with the C315 camera was a product-specific utility discontinued when HP exited the digital camera market. The specific bundled software is no longer distributed or supported.",
+      "source": "General knowledge / HP camera exit"
+    },
+    "zvue-player": {
+      "lifecycle_current": "discontinued",
+      "notes": "ZVUE portable media players were made by HandHeld Entertainment (ZVUE Corp). The company was delisted from NASDAQ in 2008 due to heavy losses. ZVUE is an inactive brand; the product and company are defunct.",
+      "source": "https://en.wikipedia.org/wiki/Zvue"
+    },
+    "roku-hd1000": {
+      "lifecycle_current": "discontinued",
+      "notes": "Roku HD1000 was the original Roku streaming device (2008). Roku dropped support for 'classic' devices including HD models between May 2008 and May 2011 as of September 2015. The specific HD1000 model is fully discontinued and unsupported.",
+      "source": "https://variety.com/2015/digital/news/roku-drops-support-older-boxes-1201583783/"
+    },
+    "nec-fuel-cell-laptop": {
+      "lifecycle_current": "discontinued",
+      "notes": "NEC's methanol fuel cell laptop prototype was announced in 2003 with plans for commercial launch in 2004. The commercial product was never released. NEC's fuel cell laptop never reached market; the project was abandoned. NEC Energy Solutions (battery division) went out of business in 2021.",
+      "source": "https://www.latimes.com/archives/la-xpm-2003-jul-01-fi-rup1.5-story.html"
+    },
+    "sd-memory-card": {
+      "lifecycle_current": "active",
+      "notes": "Secure Digital (SD) memory cards remain the dominant removable flash storage format. SD Express (PCIe) is the current standard; microSD is ubiquitous in smartphones. SD Association actively developing new standards.",
+      "source": "General knowledge"
+    },
+    "mpeg4-compression": {
+      "lifecycle_current": "standard-current",
+      "notes": "MPEG-4 compression remains an active, widely-used standard. MPEG-4 Part 10 (H.264/AVC) is the most widely deployed video codec globally. MPEG-4 Part 2 is still used. H.265/HEVC and AV1 are newer but MPEG-4 standards remain current.",
+      "source": "General knowledge / ISO/IEC standards"
+    },
+    "hdtv": {
+      "lifecycle_current": "mature",
+      "notes": "High Definition Television (HDTV/1080p) is the mainstream broadcast and display standard. 4K/UHD is growing above it. HDTV content and hardware remain dominant in consumer electronics but is now considered the baseline rather than cutting edge.",
+      "source": "General knowledge"
+    },
+    "wifi-802-11": {
+      "lifecycle_current": "active",
+      "notes": "Wi-Fi (802.11) is the dominant wireless networking standard. Wi-Fi 7 (802.11be) is current; Wi-Fi 6E (802.11ax) widely deployed. Wi-Fi Alliance actively certifying products.",
+      "source": "General knowledge"
+    },
+    "linux-embedded": {
+      "lifecycle_current": "active",
+      "notes": "Embedded Linux is widely used in IoT devices, routers, industrial systems, automotive (Android Automotive/embedded Linux), and consumer electronics. Yocto Project, OpenWRT, and other embedded Linux distributions actively maintained.",
+      "source": "General knowledge"
+    },
+    "sony-memory-stick-pro": {
+      "lifecycle_current": "legacy-unsupported",
+      "notes": "Sony Memory Stick Pro (1GB) is a legacy format. Sony began including SD card slots around 2010 as it conceded the format war. Memory Stick Pro as a format is no longer developed or marketed for new products. Sony recently exited most of its memory card business (2026 announcement regarding shutdown due to SSD shortage impacting operations).",
+      "source": "https://en.wikipedia.org/wiki/Memory_Stick"
+    },
+    "methanol-fuel-cell": {
+      "lifecycle_current": "legacy-unsupported",
+      "notes": "Water/Methanol fuel cells for consumer electronics (laptops) were never commercially successful. Direct methanol fuel cell (DMFC) laptops were demonstrated by NEC, Toshiba, and others but never reached commercial markets. The technology remains in niche industrial applications but failed for consumer laptops.",
+      "source": "https://www.latimes.com/archives/la-xpm-2003-jul-01-fi-rup1.5-story.html"
+    },
+    "pentium-iii-pc": {
+      "lifecycle_current": "discontinued",
+      "notes": "Pentium III processor was Intel's flagship consumer CPU from 1999-2001. Succeeded by Pentium 4, then Core 2, then Core i-series. Fully discontinued by Intel circa 2003.",
+      "source": "General knowledge"
+    },
+    "western-digital-caviar-8gb": {
+      "lifecycle_current": "discontinued",
+      "notes": "Western Digital Caviar 8GB disk drive was an early 1990s-era HDD product. WD Caviar was a long-running HDD line, but the specific 8GB capacity model is many generations obsolete. WD now brands hard drives as WD Blue/Red/Gold. The specific product is fully discontinued.",
+      "source": "General knowledge / WD product history"
+    },
+    "dod-5220-22m-wipe-standard": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "DoD 5220.22-M data wiping standard is technically superseded by NIST SP 800-88 (current federal guidance since 2014/Rev2 Sept 2025), but the DoD 5220.22-M method remains widely referenced and used in industry compliance contexts for magnetic HDDs. Still legally recognized and commercially implemented, though not the current DoD recommendation.",
+      "source": "https://www.bitraser.com/blog/dod-wiping-the-secure-wiping-standard-to-get-rid-of-data/"
+    },
+    "dell-ars-value-recovery-service": {
+      "lifecycle_current": "active",
+      "notes": "Dell Asset Recovery Services (Value Recovery / IT Asset Resale and Recycling Service) is an active Dell service offering. Updated Service Description v4.0 published October 2024. Dell ARS empowers businesses to modernize IT asset management with resale, recycling, and data sanitization.",
+      "source": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/asset-recovery-services-sd-en.pdf"
+    },
+    "dell-ars-recycling-service": {
+      "lifecycle_current": "active",
+      "notes": "Dell Asset Recovery Services Recycling Service is an active offering. Dell ARS covers both Dell and non-Dell branded client and server equipment for recycling, data sanitization, and responsible disposal. Service Description v4.0 updated October 2024.",
+      "source": "https://www.dell.com/en-us/blog/streamline-it-asset-refresh-for-efficiency/"
+    },
+    "doms-order-management": {
+      "lifecycle_current": "evolved",
+      "notes": "DOMS (Dell Order Management System) was Dell's internal order management infrastructure circa 2000-2004 for its direct sales model. Dell's order management infrastructure has evolved significantly through multiple system upgrades over 20+ years. The specific DOMS system referenced in the Kastner era document has been replaced by modern ERP/order management systems.",
+      "source": "General knowledge / Dell corporate IT evolution"
+    },
+    "disk-overwrite-script": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Basic disk overwrite scripts (writing 0s and 1s) remain in use for basic HDD sanitization. Modern equivalents are implemented by professional tools (Blancco, DBAN, Eraser). The specific script approach is technically sound for magnetic drives but superseded by standardized tools for compliance purposes.",
+      "source": "https://blancco.com/resources/resources/blog-dod-5220-22-m-wiping-standard-method/"
+    },
+    "soa-middleware": {
+      "lifecycle_current": "evolved",
+      "notes": "SOA middleware as a distinct product category has evolved into API management platforms, microservices brokers, and cloud-native integration. Market still active (~$10.5B in 2024) but under new paradigms. IBM, Oracle, MuleSoft, Red Hat dominate. Original standalone ESB-style SOA middleware superseded.",
+      "source": "https://www.amraandelma.com/soa-marketing-statistics/"
+    },
+    "enterprise-service-bus": {
+      "lifecycle_current": "evolved",
+      "notes": "ESB replaced by API gateways and microservices architectures. Products like MuleSoft, IBM App Connect, and cloud-native integration platforms now dominate. Known answer applied.",
+      "source": "known"
+    },
+    "web-services": {
+      "lifecycle_current": "active",
+      "notes": "Web services (SOAP/REST/WSDL) remain active and foundational, though REST/JSON have largely superseded SOAP/XML in new development. Known answer applied.",
+      "source": "known"
+    },
+    "ibm-websphere": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM WebSphere Application Server traditional (tWAS) v8.5.5 and v9.0 are actively supported; IBM canceled planned 2030 EOS in 2024. Still sold and patched. However, IBM's strategic direction is toward Liberty and cloud-native. Positioned as mature/legacy-supported rather than actively growing.",
+      "source": "https://www.marksu.idv.tw/goodbye-websphere-traditional-goodbye-my-youth/"
+    },
+    "ibm-rational": {
+      "lifecycle_current": "active",
+      "notes": "IBM Rational brand persists. IBM Rational Developer for i v9.9 released January 2026. Active development continues for IBM i tooling. Some Rational tools rebranded under IBM Engineering portfolio.",
+      "source": "https://community.ibm.com/community/user/blogs/brandon-pederson1/2026/01/27/ibm-rational-developer-for-i-99-is-now-generally-a"
+    },
+    "ibm-tivoli": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM Tivoli Monitoring remains in active support and receives security patches as of 2024-2025. However, IBM's strategic direction is toward IBM Cloud Pak and Instana for observability. Tivoli brand is fading but products still supported.",
+      "source": "https://www.ibm.com/support/pages/ibm-monitoring-academy-newsletter-september-october-2024"
+    },
+    "ibm-lotus": {
+      "lifecycle_current": "evolved",
+      "notes": "IBM Lotus Notes/Domino sold to HCL Technologies in 2019, rebranded as HCL Notes and HCL Domino. Versions 9.x and 10.x lost support June 1, 2024. HCL Notes v12 is current. The IBM Lotus brand is effectively discontinued; product lives on as HCL Notes.",
+      "source": "https://www.crowcanyon.com/blog/lotus-notes-migration-replacement-made-easy-with-nitro-studio/"
+    },
+    "eclipse-ide": {
+      "lifecycle_current": "active",
+      "notes": "Eclipse IDE actively developed and maintained by Eclipse Foundation. Known answer applied.",
+      "source": "known"
+    },
+    "microsoft-visual-studio": {
+      "lifecycle_current": "active",
+      "notes": "Microsoft Visual Studio 2022 in mainstream support through January 2032; Visual Studio 2026 released. Actively developed with AI integrations. Visual Studio for Mac retired August 31, 2024 but Windows/cross-platform versions fully active.",
+      "source": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/servicing-vs"
+    },
+    "erp-systems": {
+      "lifecycle_current": "active",
+      "notes": "ERP systems remain active and core enterprise technology. Known answer applied.",
+      "source": "known"
+    },
+    "oracle-fusion": {
+      "lifecycle_current": "active",
+      "notes": "Oracle Fusion Cloud Applications actively developed and deployed on OCI. Oracle Fusion Middleware 14.1.2 released December 2024 as a Long-Term Support release. Active product with quarterly updates.",
+      "source": "https://blogs.oracle.com/fusionmiddlewaresupport/oracle-delivers-the-latest-in-customer-application-infrastructure-with-the-general-availability-of-oracle-fusion-middleware-1412"
+    },
+    "webify-industry-fabric": {
+      "lifecycle_current": "discontinued",
+      "notes": "Webify Solutions and its Industry Application Fabric was acquired by IBM (2006). The standalone Webify brand and product line was absorbed into IBM WebSphere industry solutions. No longer exists as a distinct product.",
+      "source": "known - IBM acquired Webify 2006"
+    },
+    "lagrange-technology": {
+      "lifecycle_current": "evolved",
+      "notes": "Intel LaGrande Technology (LT) was the code name for what became Intel Trusted Execution Technology (Intel TXT). The technology shipped as Intel TXT, integrated into vPro platforms. LaGrande as a name/codename was never a shipping product; it evolved into Intel TXT which remains active in current platforms.",
+      "source": "https://en.wikipedia.org/wiki/Trusted_Execution_Technology"
+    },
+    "tpm": {
+      "lifecycle_current": "active",
+      "notes": "TPM 2.0 required for Windows 11. Active standard-current status. Known answer applied.",
+      "source": "known"
+    },
+    "consumer-lt-platform": {
+      "lifecycle_current": "discontinued",
+      "notes": "The 'Consumer LT Platform' was a proposed 2003-era Intel concept for bringing LaGrande Technology (trusted computing) to consumer PCs. It was never shipped as a distinct consumer platform. The technology evolved into Intel TXT for enterprise/vPro use only; a separate consumer-focused version was not released.",
+      "source": "known - concept never commercialized as proposed"
+    },
+    "centrino": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Centrino brand ended ~2009, replaced by Core branding. Known answer applied.",
+      "source": "known"
+    },
+    "cisco-leap": {
+      "lifecycle_current": "discontinued",
+      "notes": "Cisco LEAP (Lightweight Extensible Authentication Protocol) was deprecated due to serious security vulnerabilities (susceptible to dictionary attacks). Industry sources confirm it has been deprecated and should not be used. Superseded by PEAP, EAP-TLS, and EAP-FAST.",
+      "source": "https://www.geeksforgeeks.org/computer-networks/wireless-security-part-2/"
+    },
+    "wireless-access-point": {
+      "lifecycle_current": "active",
+      "notes": "Wireless access points (WAPs) are active and growing infrastructure. Wi-Fi 6/6E/7 access points are current generation. The rogue AP security concern context is evergreen. Market growing significantly with 802,500 indoor small cell nodes in use in the US as of 2024.",
+      "source": "https://wia.org/wireless-infrastructure-by-the-numbers-2024/"
+    },
+    "windows-server-2003": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Windows Server 2003 reached end-of-life July 14, 2015. Known answer applied.",
+      "source": "known"
+    },
+    "hotspot-infrastructure": {
+      "lifecycle_current": "active",
+      "notes": "Public Wi-Fi hotspot infrastructure is active and growing. Global market ~$5.6B in 2024, projected CAGR of 15.4% through 2034. Wi-Fi 6 hotspots expanding significantly.",
+      "source": "https://www.researchandmarkets.com/reports/6112977/wi-fi-hotspot-market-report-forecast"
+    },
+    "cat5-cable": {
+      "lifecycle_current": "succeeded",
+      "notes": "Cat5 succeeded by Cat5e/Cat6. Known answer applied.",
+      "source": "known"
+    },
+    "titanium": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Intel Itanium (referred to as 'Titanium' in this collection) reached full end-of-life. Intel stopped shipments of Itanium 9700-series CPUs on July 29, 2021. HPE ended all Itanium (Integrity server) support December 31, 2025. The platform is definitively end-of-life.",
+      "source": "https://www.spectrumsourcing.com/spectrum-news-feed/industry-update-hpe-to-end-itanium-support-by-december-31-2025"
+    },
+    "vpn": {
+      "lifecycle_current": "active",
+      "notes": "VPN technology remains active. Known answer applied.",
+      "source": "known"
+    },
+    "ipsec": {
+      "lifecycle_current": "active",
+      "notes": "IPSec is active standard-current. Known answer applied.",
+      "source": "known"
+    },
+    "ssl-vpn": {
+      "lifecycle_current": "active",
+      "notes": "SSL VPN is active and mature. Known answer applied.",
+      "source": "known"
+    },
+    "dsl-broadband": {
+      "lifecycle_current": "mature",
+      "notes": "DSL broadband is mature. Known answer applied.",
+      "source": "known"
+    },
+    "cable-broadband": {
+      "lifecycle_current": "active",
+      "notes": "Cable broadband is active. Known answer applied.",
+      "source": "known"
+    },
+    "frame-relay": {
+      "lifecycle_current": "discontinued",
+      "notes": "Frame Relay is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "isdn": {
+      "lifecycle_current": "end-of-life",
+      "notes": "ISDN is end-of-life in most countries. Known answer applied.",
+      "source": "known"
+    },
+    "dial-up-isp": {
+      "lifecycle_current": "legacy-unsupported",
+      "notes": "Dial-up ISP is legacy-unsupported. Known answer applied.",
+      "source": "known"
+    },
+    "wifi-80211-goremote": {
+      "lifecycle_current": "active",
+      "notes": "802.11 WiFi is active. Known answer applied.",
+      "source": "known"
+    },
+    "personal-firewall": {
+      "lifecycle_current": "active",
+      "notes": "Personal firewall software remains active and standard security practice. Built into Windows Defender, also available as standalone products (Sophos, Palo Alto, etc.). Evolved into next-generation firewalls (NGFW) but the category is active.",
+      "source": "https://start.paloaltonetworks.com/forrester-wave-firewall-2024"
+    },
+    "goremote-mobileoffice": {
+      "lifecycle_current": "discontinued",
+      "notes": "GoRemote Internet Communications (formerly GRIC) was acquired by iPass Inc. for $76.5M in late 2005/early 2006. The GoRemote MobileOffice client and all GoRemote branded products were discontinued/absorbed into iPass. iPass itself was later acquired by Pareteum in 2019 and subsequently shut down.",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m"
+    },
+    "goremote-tsp": {
+      "lifecycle_current": "discontinued",
+      "notes": "GoRemote Total Security Protection (TSP) was a GoRemote Communications product, discontinued following the iPass acquisition of GoRemote in early 2006. The brand and product were absorbed into iPass and no longer exist.",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m"
+    },
+    "goremote-urc": {
+      "lifecycle_current": "discontinued",
+      "notes": "GoRemote Universal Remote Control (Dashboard) was a GoRemote Communications product, discontinued following the iPass acquisition of GoRemote in early 2006.",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m"
+    },
+    "goremote-tier-one": {
+      "lifecycle_current": "discontinued",
+      "notes": "GoRemote TierOne Global Network was the managed global connectivity network operated by GoRemote Communications. Absorbed into iPass network infrastructure following the 2006 acquisition. The GoRemote brand and this network branding were discontinued.",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m"
+    },
+    "single-sign-on": {
+      "lifecycle_current": "active",
+      "notes": "SSO is active. Known answer applied.",
+      "source": "known"
+    },
+    "desktop-virtualization": {
+      "lifecycle_current": "active",
+      "notes": "Desktop virtualization is active. Known answer applied.",
+      "source": "known"
+    },
+    "vdi": {
+      "lifecycle_current": "active",
+      "notes": "VDI is active. Known answer applied.",
+      "source": "known"
+    },
+    "thin-client": {
+      "lifecycle_current": "active",
+      "notes": "Thin client is active (niche). Known answer applied.",
+      "source": "known"
+    },
+    "zero-client": {
+      "lifecycle_current": "active",
+      "notes": "Zero client is active (niche). Known answer applied.",
+      "source": "known"
+    },
+    "server-virtualization": {
+      "lifecycle_current": "active",
+      "notes": "Server virtualization is active. Known answer applied.",
+      "source": "known"
+    },
+    "storage-virtualization-tech": {
+      "lifecycle_current": "active",
+      "notes": "Storage virtualization is active and growing. Market projected CAGR of over 20% (2022-2026). Key trend includes software-defined storage (SDS), HCI, and hybrid cloud integration. Adoption approximately 37% as of 2018 with continued growth.",
+      "source": "https://www.datacore.com/storage-virtualization/"
+    },
+    "windows-7": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Windows 7 reached end-of-life January 14, 2020. Known answer applied.",
+      "source": "known"
+    },
+    "tablet-pc": {
+      "lifecycle_current": "evolved",
+      "notes": "Original Tablet PC (Windows-based pen tablet) evolved into modern tablets (iPad, Android, Surface). Known answer applied.",
+      "source": "known"
+    },
+    "cloud-desktop": {
+      "lifecycle_current": "active",
+      "notes": "Cloud-based desktop/DaaS is active (evolved). Known answer applied.",
+      "source": "known"
+    },
+    "virtualization": {
+      "lifecycle_current": "active",
+      "notes": "Server/infrastructure virtualization is active. This is a duplicate of server-virtualization in the list. Virtualization software market grew from $85.83B in 2024 to $100.19B in 2025 at 16.7% CAGR.",
+      "source": "https://www.ibm.com/think/topics/virtualization"
+    },
+    "hardware-aes-encryption": {
+      "lifecycle_current": "active",
+      "notes": "Hardware AES encryption instructions (Intel AES-NI / AMD equivalent) are active and standard in modern CPUs. AES-NI introduced with Intel Westmere (2010); AMD Bulldozer (2011). Extended with VAES (vectorized) in Intel Ice Lake, AMD Zen 3. Standard in all modern x86 processors.",
+      "source": "https://en.wikipedia.org/wiki/List_of_x86_cryptographic_instructions"
+    },
+    "bitlocker": {
+      "lifecycle_current": "active",
+      "notes": "BitLocker is active. Known answer applied.",
+      "source": "known"
+    },
+    "intel-amt": {
+      "lifecycle_current": "active",
+      "notes": "Intel AMT (Active Management Technology) remains active in Intel vPro platform as of 2024. Individual features have been deprecated over time (SOAP interface, EAC, etc.) but the core AMT out-of-band management technology ships in current Intel vPro business laptops and desktops.",
+      "source": "https://software.intel.com/sites/manageability/AMT_Implementation_and_Reference_Guide/WordDocuments/deprecatedanddeletedfeatures.htm"
+    },
+    "intel-anti-theft": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Anti-Theft Technology (Intel AT) Service 1.x was discontinued March 31, 2015. End of support by Intel December 31, 2015. All subscriptions expired. No longer available or supported.",
+      "source": "https://www.intel.com/content/www/us/en/support/articles/000060238/software/intel-security-products.html"
+    },
+    "hp-openview": {
+      "lifecycle_current": "evolved",
+      "notes": "HP OpenView was rebranded as HP BTO (Business Technology Optimization) Software in 2007 after HP acquired Mercury Interactive. HPE Software was subsequently sold to Micro Focus in 2017. The HP OpenView brand no longer exists; products live on under Micro Focus (now OpenText) portfolio.",
+      "source": "https://en.wikipedia.org/wiki/HP_OpenView"
+    },
+    "soa": {
+      "lifecycle_current": "evolved",
+      "notes": "SOA evolved into microservices/API-first architectures. Known answer applied.",
+      "source": "known"
+    },
+    "systinet-registry": {
+      "lifecycle_current": "discontinued",
+      "notes": "Systinet was acquired by Mercury Interactive for $105M in early 2006, then absorbed into HP when HP acquired Mercury for $4.5B in late 2006. HP rebranded it as HP Systinet Registry. The product was subsequently part of HPE Software, sold to Micro Focus in 2017. Systinet as a distinct product brand has been discontinued; absorbed into a larger portfolio and largely obsoleted by API management platforms.",
+      "source": "https://www.techmonitor.ai/technology/software/hp_launches_soa_governance_services_software"
+    },
+    "mercury-quality-center": {
+      "lifecycle_current": "evolved",
+      "notes": "Mercury Quality Center was acquired by HP in 2006, rebranded as HP Quality Center, then HP ALM (Application Lifecycle Management) in 2011. When HPE Software sold to Micro Focus in 2017, it became Micro Focus ALM Quality Center. Now part of OpenText (acquired Micro Focus in 2023). Product line continues under OpenText branding.",
+      "source": "https://www.peerspot.com/questions/what-needs-improvement-with-micro-focus-alm-quality-center"
+    },
+    "mercury-bac": {
+      "lifecycle_current": "evolved",
+      "notes": "Mercury Business Availability Center (BAC) was acquired by HP in 2006. HP rebranded Mercury products into HP Business Service Management (BSM) suite, which combined Mercury BAC with HP OpenView capabilities. Later part of HPE Software, sold to Micro Focus (2017), then OpenText (2023). Survived under multiple rebranding cycles.",
+      "source": "https://www.techmonitor.ai/technology/software/hp_launches_soa_governance_services_software"
+    },
+    "mercury-itgc": {
+      "lifecycle_current": "evolved",
+      "notes": "Mercury IT Governance Center (ITGC) was acquired by HP in 2006 as part of the $4.5B Mercury Interactive acquisition. Rebranded and integrated into HP's IT governance and compliance portfolio. Later evolved through HPE Software then Micro Focus. The original Mercury ITGC brand was discontinued; functionality absorbed into portfolio products.",
+      "source": "https://www.cio.com/article/262781/mergers-acquisitions-hp-purchase-of-mercury-a-done-deal.html"
+    },
+    "sarbanes-oxley-404": {
+      "lifecycle_current": "standard-current",
+      "notes": "Sarbanes-Oxley Section 404 remains a current and active legal compliance requirement for publicly traded companies in the US. SOX 404(a) applies to all SEC-registered public companies; 404(b) requires independent auditor attestation for accelerated filers. No changes to the law's validity; continues to drive significant IT and financial compliance investment.",
+      "source": "https://www.cbh.com/insights/articles/sox-404/"
+    },
+    "windows-vista": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Windows Vista reached end-of-life April 11, 2017. Known answer applied.",
+      "source": "known"
+    },
+    "ibm-zos": {
+      "lifecycle_current": "active",
+      "notes": "IBM z/OS is actively developed and current. IBM z/OS 3.2 announced for Q3 2025 release to support the new z17 mainframe. IBM continues strategic investment in mainframe platform with AI capabilities, hybrid cloud integration.",
+      "source": "https://www.crn.com/news/cloud/2025/ibm-sets-june-date-for-ai-agent-era-z17-mainframes"
+    },
+    "esb-middleware": {
+      "lifecycle_current": "evolved",
+      "notes": "ESB/SOA middleware has evolved into API gateways, microservices, and cloud-native integration platforms. Functionally equivalent to enterprise-service-bus entry. The Oracle SOA Suite and IBM App Connect are examples of ESB concepts evolved into modern integration platforms.",
+      "source": "https://www.amraandelma.com/soa-marketing-statistics/"
+    },
+    "application-mapping": {
+      "lifecycle_current": "active",
+      "notes": "Application dependency/mapping technology is active and growing rapidly. Market projected to reach $5.96B; top tools include Faddom, ServiceNow, Device42, ManageEngine. Driven by cloud migration, microservices complexity, and ITSM requirements. The concept evolved from manual documentation to automated real-time discovery.",
+      "source": "https://faddom.com/best-application-dependency-mapping-solutions-top-10-in-2025/"
+    },
+    "digital-camera": {
+      "lifecycle_current": "mature",
+      "notes": "Digital camera market is mature (declining consumer, active professional). Known answer applied.",
+      "source": "known"
+    },
+    "digital-camcorder": {
+      "lifecycle_current": "discontinued",
+      "notes": "Digital video camcorder as a dedicated consumer device is discontinued/absorbed by smartphones. Known answer applied.",
+      "source": "known"
+    },
+    "mp3-player": {
+      "lifecycle_current": "discontinued",
+      "notes": "MP3 players as dedicated devices are discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "pda": {
+      "lifecycle_current": "discontinued",
+      "notes": "PDA is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "sony-memory-stick": {
+      "lifecycle_current": "discontinued",
+      "notes": "Sony Memory Stick is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "smart-media-card": {
+      "lifecycle_current": "discontinued",
+      "notes": "SmartMedia Card is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "compact-flash": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "CompactFlash is legacy-supported in niche professional use. Known answer applied.",
+      "source": "known"
+    },
+    "usb-port": {
+      "lifecycle_current": "active",
+      "notes": "USB ports are active. Known answer applied.",
+      "source": "known"
+    },
+    "home-area-network": {
+      "lifecycle_current": "active",
+      "notes": "Home area network evolved to smart home. Known answer applied.",
+      "source": "known"
+    },
+    "cd-rw": {
+      "lifecycle_current": "discontinued",
+      "notes": "CD-RW/CD-ROM as primary storage/distribution medium is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "vhs-tape": {
+      "lifecycle_current": "discontinued",
+      "notes": "VHS tape is discontinued. Known answer applied.",
+      "source": "known"
+    },
+    "hp-media-center-pc": {
+      "lifecycle_current": "discontinued",
+      "notes": "HP Media Center PC was a Windows XP/Vista-era product line (circa 2002-2008) tied to Windows XP Media Center Edition. HP discontinued this specific product category as Windows Media Center itself was removed from Windows 10. The product line no longer exists; replaced by general-purpose home PCs and streaming devices.",
+      "source": "https://www.youtube.com/watch?v=ZED3iwnKH2U"
+    },
+    "photoshop": {
+      "lifecycle_current": "active",
+      "notes": "Adobe Photoshop is active. Known answer applied.",
+      "source": "known"
+    },
+    "p2p-music-download": {
+      "lifecycle_current": "discontinued",
+      "notes": "P2P music download (Kazaa et al.) is discontinued as a mainstream platform. Known answer applied.",
+      "source": "known"
+    },
+    "itunes": {
+      "lifecycle_current": "active",
+      "notes": "iTunes is active (evolved, split into separate apps on Mac). Known answer applied.",
+      "source": "known"
+    },
+    "cdn-content-delivery-network": {
+      "lifecycle_current": "active",
+      "notes": "CDN market valued at $23.5B in 2024, projected to reach $71.7B by 2034. Foundational internet infrastructure, evolving with AI and edge computing.",
+      "source": "https://www.factmr.com/report/content-delivery-network-market"
+    },
+    "mirror-image-cap": {
+      "lifecycle_current": "discontinued",
+      "notes": "Mirror Image Internet was acquired and wound down; the CAP (Content Access Point) proprietary architecture no longer exists as a distinct product.",
+      "source": "https://en.wikipedia.org/wiki/Mirror_Image_Internet"
+    },
+    "mirror-image-smart-content": {
+      "lifecycle_current": "discontinued",
+      "notes": "Mirror Image Smart Content Services Platform was a proprietary offering tied to Mirror Image Internet, which was absorbed/wound down in early 2000s.",
+      "source": "https://en.wikipedia.org/wiki/Mirror_Image_Internet"
+    },
+    "xml-rules-engine": {
+      "lifecycle_current": "evolved",
+      "notes": "XML-based content rules engines have evolved into modern policy engines, decision management platforms, and business rules management systems (BRMS). The XML-centric form is largely superseded.",
+      "source": "General technology evolution"
+    },
+    "streaming-media-delivery": {
+      "lifecycle_current": "active",
+      "notes": "Streaming media delivery via CDN is a rapidly growing, core technology underpinning OTT, live sports, and VOD markets. Actively evolving with adaptive bitrate and edge computing.",
+      "source": "https://adeia.com/blog/industry-perspective-streaming-technology-evolution"
+    },
+    "adaptive-caching": {
+      "lifecycle_current": "active",
+      "notes": "Adaptive caching is central to modern CDN operation; now enhanced with ML/AI for predictive caching. Active area of innovation.",
+      "source": "https://www.cachefly.com/news/the-power-of-machine-learning-for-advanced-cdn-caching-strategies/"
+    },
+    "geotargeting": {
+      "lifecycle_current": "active",
+      "notes": "Geotargeting is widely used in digital advertising and CDN routing. Integrated into all major ad platforms (Google, Meta, LinkedIn). Active and growing.",
+      "source": "https://www.aidigital.com/blog/geotargeted-advertising"
+    },
+    "web-hosting": {
+      "lifecycle_current": "active",
+      "notes": "Distributed web application hosting is a mature, active market. Evolved from dedicated hosting to cloud-native and edge delivery models.",
+      "source": "General technology evolution"
+    },
+    "digital-download": {
+      "lifecycle_current": "active",
+      "notes": "Digital download services remain active across software, media, and gaming. Supplemented (not replaced) by streaming in most sectors.",
+      "source": "General market observation"
+    },
+    "business-continuity-cdn": {
+      "lifecycle_current": "active",
+      "notes": "Using CDN for business continuity/disaster recovery is an established practice, increasingly integrated into enterprise resilience strategies.",
+      "source": "General CDN industry"
+    },
+    "intrusion-detection": {
+      "lifecycle_current": "active",
+      "notes": "Traffic filtering and intrusion detection at the CDN/edge layer is a growing, active category (DDoS mitigation, WAF). Cloudflare, Akamai, Fastly all offer this.",
+      "source": "General CDN industry"
+    },
+    "sla-monitoring": {
+      "lifecycle_current": "active",
+      "notes": "SLA monitoring and near-real-time reporting is a standard, active practice across all infrastructure and service providers.",
+      "source": "General IT operations"
+    },
+    "itanium-2": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel discontinued Itanium shipments July 29, 2021. HPE ended Itanium/Integrity server support December 31, 2025. Architecture is fully discontinued.",
+      "source": "https://www.theregister.com/2019/02/01/intel_kills_itanium_again/"
+    },
+    "intel-xeon": {
+      "lifecycle_current": "active",
+      "notes": "Intel Xeon server platform remains active. Current generations include Granite Rapids (Xeon 6). Diamond Rapids in development. Core enterprise server CPU line.",
+      "source": "https://www.servethehome.com/intel-cancels-its-mainstream-next-gen-xeon-server-processors/"
+    },
+    "ibm-zseries-z990": {
+      "lifecycle_current": "discontinued",
+      "notes": "IBM zSeries z990 hardware reached end of support. IBM Z platform continues as z15/z16/z17, but z990 itself is long discontinued.",
+      "source": "https://www.ibm.com/support/pages/product-end-service-dates"
+    },
+    "ibm-os390": {
+      "lifecycle_current": "discontinued",
+      "notes": "IBM OS/390 sales ended December 2002; support ended September 2004. Succeeded by z/OS, which continues actively. OS/390 itself is discontinued.",
+      "source": "https://www.computerworld.com/article/1332439/ibm-to-stop-os-390-sales.html"
+    },
+    "ibm-db2": {
+      "lifecycle_current": "active",
+      "notes": "IBM Db2 (rebranded from DB2) is an actively supported, commercial database product. Db2 for z/OS and Db2 for Linux/Unix/Windows both actively supported through 2027+ with extended support options.",
+      "source": "https://www.ibm.com/support/pages/db2-distributed-end-support-eos-dates"
+    },
+    "cobol": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "COBOL remains in heavy use in banking, insurance, and government, processing ~70-80% of world's business transactions. Not used for new projects but actively maintained on mainframes. Reached TIOBE Top 10 in 2024.",
+      "source": "https://zmainframes.com/zlog/cobol-in-2024-is-it-still-relevant-or-a-dying-language/"
+    },
+    "ibm-cics": {
+      "lifecycle_current": "active",
+      "notes": "IBM CICS Transaction Server for z/OS is actively developed (v6.2 released June 2024 with continuous delivery updates). CICS for IBM i is being sunsetted (defect support until Oct 2025), but CICS TS for z/OS remains active.",
+      "source": "https://www.ibm.com/support/pages/ibm-cics-transaction-server-zos-56-61-and-62-are-updated-october-2024"
+    },
+    "ibm-vsam": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM VSAM (Virtual Storage Access Method) remains supported as a core z/OS data management facility. Not used for new systems but maintained for existing mainframe workloads.",
+      "source": "https://www.ibm.com/docs/en/zos"
+    },
+    "ibm-ims": {
+      "lifecycle_current": "active",
+      "notes": "IBM IMS (Information Management System) is actively supported. IMS 15.4 released June 2023. IBM continues to invest in IMS modernization for mainframe environments.",
+      "source": "https://www.ibm.com/support/pages/ibm-information-management-system-ims154x"
+    },
+    "ibm-dl1": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "DL/1 (Data Language/1) is the database access language for IMS. Still supported as part of IMS, but not used for new development. Legacy mainframe technology.",
+      "source": "https://www.ibm.com/docs/en/ims"
+    },
+    "red-hat-linux": {
+      "lifecycle_current": "active",
+      "notes": "Red Hat Enterprise Linux (RHEL) is actively developed and supported. RHEL 9 is current; RHEL 10 in development. Red Hat (IBM subsidiary) remains dominant in enterprise Linux.",
+      "source": "https://access.redhat.com/support/policy/updates/errata"
+    },
+    "hp-integrity": {
+      "lifecycle_current": "end-of-life",
+      "notes": "HP Integrity servers (Itanium-based) reached end of support December 31, 2025. HP-UX on HP 9000 EOL was March 2021. Platform is fully end-of-life.",
+      "source": "https://www.stromasys.com/resources/hp-ux-end-of-support/"
+    },
+    "dell-poweredge-3250": {
+      "lifecycle_current": "discontinued",
+      "notes": "Dell PowerEdge 3250 is a circa-2002 server model, long discontinued. Dell's current PowerEdge generation (16th gen) completely supersedes it.",
+      "source": "General Dell product lifecycle"
+    },
+    "unisys-clearpath": {
+      "lifecycle_current": "active",
+      "notes": "Unisys ClearPath Forward (MCP and OS 2200 platforms) is actively marketed and supported. Q4 2024 major release delivered. Clients making long-term commitments. Roadmap updated through 2024.",
+      "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-unisys-q4-2024-sees-eps-beat-revenue-dip-93CH-3877606"
+    },
+    "sap-r2": {
+      "lifecycle_current": "discontinued",
+      "notes": "SAP R/2 (mainframe-based predecessor to R/3) was discontinued decades ago. SAP R/3 evolved to SAP ECC/S/4HANA. SAP R/2 has no active support.",
+      "source": "General SAP product history"
+    },
+    "tpc-c-benchmark": {
+      "lifecycle_current": "active",
+      "notes": "TPC-C remains an active benchmark used to measure OLTP performance. Widely used by database vendors (DoltHub 2024 update, YugabyteDB active use).",
+      "source": "https://www.tpc.org/information/benchmarks5.asp"
+    },
+    "tpc-h-benchmark": {
+      "lifecycle_current": "active",
+      "notes": "TPC-H (decision support benchmark) remains active and widely used for analytical query performance measurement.",
+      "source": "https://www.tpc.org/information/benchmarks5.asp"
+    },
+    "linpack-benchmark": {
+      "lifecycle_current": "active",
+      "notes": "Linpack (HPL - High Performance Linpack) is the standard benchmark used by the TOP500 supercomputer list. Actively used to rank the world's fastest computers.",
+      "source": "https://documentation.sigma2.no/jobs/arm-perf/linpack.html"
+    },
+    "netbench": {
+      "lifecycle_current": "discontinued",
+      "notes": "NetBench was a file serving benchmark from Ziff Davis; the benchmark program has been discontinued and is no longer actively maintained or used for current systems.",
+      "source": "General benchmark history"
+    },
+    "webbench": {
+      "lifecycle_current": "discontinued",
+      "notes": "WebBench 4.1 was a Ziff Davis/Intel web serving benchmark from the late 1990s/early 2000s; discontinued and superseded by SPECweb and other modern benchmarks.",
+      "source": "General benchmark history"
+    },
+    "ia32-execution-layer": {
+      "lifecycle_current": "discontinued",
+      "notes": "The IA-32 Execution Layer was a software layer for running 32-bit code on Itanium. Intel removed hardware x86 support from Itanium 2 (Montecito) in 2006. Itanium itself discontinued 2021.",
+      "source": "https://www.channelinsider.com/tech-companies/intel-drops-hardware-based-32-bit-capabilties-in-itanium/"
+    },
+    "microsoft-sql-server": {
+      "lifecycle_current": "active",
+      "notes": "Microsoft SQL Server is actively developed and supported. SQL Server 2022 is the current major release. Mainstream support continues through 2028.",
+      "source": "https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-life-overview"
+    },
+    "websphere": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM WebSphere Application Server Traditional (tWAS) v8.5.5 and v9.0 remain supported through 2030 (no v10 planned). IBM pushing migration to WebSphere Liberty. Actively receiving fix packs but not new features.",
+      "source": "https://www.ibm.com/support/pages/recommended-updates-websphere-application-server"
+    },
+    "autonomic-computing": {
+      "lifecycle_current": "evolved",
+      "notes": "IBM Autonomic Computing (self-managing IT concept) evolved into modern AIOps, self-healing infrastructure, and AI-driven operations. The original IBM initiative/brand has been subsumed into AI/ML-driven IT management.",
+      "source": "https://www.ibm.com/docs/en/db2/11.5.x?topic=servers-autonomic-computing-overview"
+    },
+    "capacity-on-demand": {
+      "lifecycle_current": "active",
+      "notes": "IBM Capacity on Demand (CoD) for mainframes remains an active feature of IBM Z systems, allowing dynamic CPU/memory activation.",
+      "source": "https://www.ibm.com/docs/en/zos"
+    },
+    "madison-itanium": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Madison was the Itanium 2 chip codename (2003). Itanium is fully discontinued with final shipments in July 2021.",
+      "source": "https://www.theregister.com/2019/02/01/intel_kills_itanium_again/"
+    },
+    "java-j2ee": {
+      "lifecycle_current": "evolved",
+      "notes": "J2EE evolved into Java EE, then Jakarta EE (now at Jakarta EE 11). The J2EE brand is retired but the platform lives on as Jakarta EE under Eclipse Foundation. Active development continues.",
+      "source": "https://jakarta.ee/"
+    },
+    "dotnet-windows-dev": {
+      "lifecycle_current": "active",
+      "notes": ".NET is actively developed (currently .NET 9, with .NET 10 in development). The legacy .NET Framework is in maintenance mode but .NET (Core) is active and cross-platform.",
+      "source": "https://dotnet.microsoft.com/en-us/platform/support/policy"
+    },
+    "cobol-legacy": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "COBOL legacy application maintenance is a large market. Organizations actively maintain existing COBOL codebases but rarely build new systems in COBOL. IBM Enterprise COBOL for z/OS actively supported.",
+      "source": "https://zmainframes.com/zlog/cobol-in-2024-is-it-still-relevant-or-a-dying-language/"
+    },
+    "as400-rpg": {
+      "lifecycle_current": "evolved",
+      "notes": "AS/400 RPG has evolved into IBM i RPG (RPG IV / ILE RPG) on IBM Power Systems. AS/400 hardware is discontinued but IBM i (the successor OS) is actively supported and growing. The RPG language is actively maintained.",
+      "source": "https://www.nicklitten.com/why-is-the-as400-still-used-in-2024/"
+    },
+    "portal-development": {
+      "lifecycle_current": "evolved",
+      "notes": "Traditional portal development (IBM WebSphere Portal, etc.) has largely evolved into modern digital experience platforms, headless CMS, and microservices-based UX. The portal paradigm is legacy but the need it served lives on in modern form.",
+      "source": "General technology evolution"
+    },
+    "open-source-linux": {
+      "lifecycle_current": "active",
+      "notes": "Open source / Linux development is extremely active. Linux kernel, open-source ecosystem, and Linux-based development continue to dominate cloud, embedded, and server markets.",
+      "source": "https://www.kernel.org/"
+    },
+    "soa-development": {
+      "lifecycle_current": "evolved",
+      "notes": "SOA (Service-Oriented Architecture) has evolved into microservices, API-first, and cloud-native architectures. SOA market estimated at $10.78B in 2024 (projected $34B by 2033), but the paradigm has evolved significantly beyond traditional SOA.",
+      "source": "https://www.linkedin.com/pulse/global-service-oriented-architecture-soa-market-jfckf"
+    },
+    "bpm-technology": {
+      "lifecycle_current": "active",
+      "notes": "Business Process Management technology is actively growing. BPM market projected at $14.4B by 2025. Evolving with AI, low-code/no-code, and process mining integration.",
+      "source": "https://www.processexcellencenetwork.com/business-process-management-bpm/articles/6-trends-that-will-shape-bpm-in-2024"
+    },
+    "windows-vista-dev": {
+      "lifecycle_current": "discontinued",
+      "notes": "Windows Vista reached end of life April 11, 2017. Fully discontinued; no security updates. Market share near zero. Development for Vista ceased years ago.",
+      "source": "https://invgate.com/itdb/windows-vista"
+    },
+    "client-server-legacy": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Client-server application architecture continues to run in many enterprises, particularly in financial services and manufacturing. Legacy systems maintained but new development uses web/cloud-native models.",
+      "source": "General IT observation"
+    },
+    "database-management": {
+      "lifecycle_current": "active",
+      "notes": "Database management is a broad, active technology category encompassing RDBMS, NoSQL, NewSQL, and cloud databases. Market is growing and innovating rapidly.",
+      "source": "General technology observation"
+    },
+    "ajax-html-web": {
+      "lifecycle_current": "evolved",
+      "notes": "AJAX/HTML web development has evolved into modern single-page applications (React, Angular, Vue), Progressive Web Apps, and web standards (Fetch API replaced XMLHttpRequest). The term AJAX is dated; modern web dev is active.",
+      "source": "General technology evolution"
+    },
+    "best-of-breed-point-solution": {
+      "lifecycle_current": "active",
+      "notes": "Best-of-breed point solutions continue as a procurement strategy, particularly in MarTech and SaaS. The approach competes with integrated suite/platform approaches. Both models coexist actively.",
+      "source": "General IT strategy"
+    },
+    "oot": {
+      "lifecycle_current": "active",
+      "notes": "Object-oriented technology (OOT) remains the dominant programming paradigm for enterprise software, frameworks, and applications. OOP is active and evolving with functional/hybrid approaches.",
+      "source": "https://www.linkedin.com/pulse/object-oriented-programming-what-i-use-today-why-still-nagar-ktavc"
+    },
+    "crm-application": {
+      "lifecycle_current": "active",
+      "notes": "CRM applications are a large, growing software category. Salesforce, Microsoft Dynamics, HubSpot actively developed. Global CRM market exceeds $65B.",
+      "source": "General CRM market data"
+    },
+    "scm-application": {
+      "lifecycle_current": "active",
+      "notes": "Supply Chain Management applications are actively used and growing, especially post-pandemic with renewed focus on supply chain resilience. SAP, Oracle, Blue Yonder leading vendors.",
+      "source": "General SCM market data"
+    },
+    "eprocurement-application": {
+      "lifecycle_current": "active",
+      "notes": "e-Procurement applications are actively developed and adopted. Market growing with digital transformation in procurement. Coupa, SAP Ariba, Jaggaer among leaders.",
+      "source": "General e-procurement market"
+    },
+    "sfa-application": {
+      "lifecycle_current": "active",
+      "notes": "Sales Force Automation (SFA) is an active software category, often integrated into broader CRM platforms. Salesforce, Microsoft, Zoho actively competing.",
+      "source": "General SFA market"
+    },
+    "open-api": {
+      "lifecycle_current": "active",
+      "notes": "Open APIs are fundamental to modern software architecture. API economy is growing; REST, GraphQL, and OpenAPI specification actively developed and adopted.",
+      "source": "General API ecosystem"
+    },
+    "titanium-ia64": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Itanium (IA-64) architecture fully discontinued. Final shipments July 2021, HPE support ended December 31, 2025. Architecture is dead.",
+      "source": "https://www.tomshardware.com/news/intel-kills-itanium-processors-chips-hpe,38540.html"
+    },
+    "ddr-memory": {
+      "lifecycle_current": "discontinued",
+      "notes": "DDR SDRAM (DDR1) was succeeded by DDR2, DDR3, DDR4, and DDR5. DDR1 has been out of mainstream production for over a decade. Fully discontinued by major manufacturers.",
+      "source": "https://en.wikipedia.org/wiki/DDR_SDRAM"
+    },
+    "ddr2-memory": {
+      "lifecycle_current": "discontinued",
+      "notes": "DDR2 SDRAM succeeded by DDR3/4/5. Major manufacturers ending DDR3/DDR4 production by late 2025; DDR2 was already out of mainstream production years earlier.",
+      "source": "https://www.thefpsreview.com/2025/02/18/leading-dram-manufacturers-will-phase-out-ddr3-and-ddr4-memory-this-year-its-claimed/"
+    },
+    "xeon-nocona": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Xeon Nocona was a circa-2004 Xeon processor (first Prescott-based Xeon with EM64T). Long discontinued; succeeded through many subsequent Xeon generations.",
+      "source": "https://ark.intel.com/content/www/us/en/ark/products/codename/1001/products-formerly-nocona.html"
+    },
+    "lindenhurst-chipset": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Lindenhurst was the E7520/E7320/E7525 chipset for Nocona Xeon (circa 2004). Long discontinued; succeeded by many subsequent Intel server chipset generations.",
+      "source": "General Intel chipset history"
+    },
+    "xeon-mp-potomac": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Xeon MP Potomac was a circa-2004/2005 MP server processor. Long discontinued; succeeded by many subsequent Xeon MP/E7 generations.",
+      "source": "General Intel processor history"
+    },
+    "twin-castle-chipset": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Twin Castle was the E8501 chipset for Xeon MP Potomac (circa 2004-2005). Long discontinued server chipset.",
+      "source": "General Intel chipset history"
+    },
+    "canterwood-chipset": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel 875P Canterwood chipset was introduced April 2003 as a high-end desktop/workstation chipset. Replaced by Intel 925X Alderwood in 2004. Long discontinued.",
+      "source": "https://www.cnet.com/tech/tech-industry/intel-delays-new-pentium-4-chip/"
+    },
+    "agp": {
+      "lifecycle_current": "discontinued",
+      "notes": "AGP (Accelerated Graphics Port) was phased out 2004-2010 in favor of PCI Express. Windows 10 v1607 (2016) dropped AGP support. By 2010 no new motherboard chipsets supported AGP. Fully discontinued.",
+      "source": "https://en.wikipedia.org/wiki/Accelerated_Graphics_Port"
+    },
+    "ecc-memory": {
+      "lifecycle_current": "active",
+      "notes": "ECC memory is actively used in servers, workstations, and increasingly in desktop systems (AMD Ryzen AM5 and Intel W680). ECC Memory market valued at $12.64B in 2024 with 6.6% CAGR.",
+      "source": "https://www.maximizemarketresearch.com/market-report/ecc-memory-market/63727/"
+    },
+    "newcard": {
+      "lifecycle_current": "discontinued",
+      "notes": "NewCard (also known as ExpressCard) was the PCMCIA replacement standard. ExpressCard failed to gain widespread use; manufacturers discontinued it as early as 2011. PCMCIA dissolved in 2010. Specification removed from website in 2018.",
+      "source": "https://en.wikipedia.org/wiki/ExpressCard"
+    },
+    "tcp-ip": {
+      "lifecycle_current": "active",
+      "notes": "TCP/IP is the foundational protocol of the internet. Actively maintained (IPv4 and IPv6). Standard-current status. Fundamental to all internet communications.",
+      "source": "https://blog.apnic.net/2025/01/13/ip-addresses-through-2024/"
+    },
+    "server-blades": {
+      "lifecycle_current": "active",
+      "notes": "Blade server architecture remains active in enterprise data centers. While hyper-converged and cloud have taken share, blade servers (HPE Synergy, Cisco UCS) remain actively sold and supported.",
+      "source": "General blade server market"
+    },
+    "3gio-pci": {
+      "lifecycle_current": "succeeded",
+      "notes": "3GIO (Third Generation I/O) was the development codename for what became PCI Express. Formally renamed PCI Express in April 2002. Not a separate technology - it became PCIe.",
+      "source": "https://news.microsoft.com/source/2002/04/17/pci-sig-introduces-pci-express-tm-formerly-3gio-high-speed-serial-interconnect-specification/"
+    },
+    "infiniband-hca": {
+      "lifecycle_current": "active",
+      "notes": "InfiniBand Host Channel Adapters (HCAs) are actively used in HPC and AI data centers. NVIDIA (formerly Mellanox) continues manufacturing HCAs for HDR/NDR InfiniBand networks.",
+      "source": "https://www.delloro.com/news/infiniband-switch-sales-surged-in-2q-2025-while-ethernet-maintains-market-lead-for-ai-back-end-networks/"
+    },
+    "infiniband-tca": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "InfiniBand Target Channel Adapters (TCAs) were early InfiniBand components for storage targets. The TCA concept has been largely subsumed into modern HCA capabilities and storage adapter designs. The distinct TCA product category is legacy.",
+      "source": "https://www.electronicdesign.com/technologies/industrial/boards/article/21772788/infiniband-chip-delivers-hca-tca-and-switch-functions"
+    },
+    "infiniband-switch": {
+      "lifecycle_current": "active",
+      "notes": "InfiniBand switches are actively produced and deployed for HPC and AI workloads. Sales surged in Q2 2025 driven by NVIDIA Blackwell Ultra. NVIDIA Quantum-2 NDR 400Gbps switches actively sold.",
+      "source": "https://www.delloro.com/news/infiniband-switch-sales-surged-in-2q-2025-while-ethernet-maintains-market-lead-for-ai-back-end-networks/"
+    },
+    "clustering": {
+      "lifecycle_current": "active",
+      "notes": "High-availability and performance clustering remains fundamental to enterprise computing. Technologies like Kubernetes, Pacemaker, and proprietary HA clustering are actively used and developed.",
+      "source": "General IT infrastructure"
+    },
+    "itanium2": {
+      "lifecycle_current": "discontinued",
+      "notes": "Intel Itanium 2 is discontinued. Intel ended shipments July 2021; HPE ended support December 31, 2025. Duplicate of itanium-2 entry.",
+      "source": "https://www.tomshardware.com/news/intel-kills-itanium-processors-chips-hpe,38540.html"
+    },
+    "ibm-mainframe-zarch": {
+      "lifecycle_current": "active",
+      "notes": "IBM zSeries mainframe (z/Architecture) is actively developed and sold. The z900/z990 generation is long retired, but the z/Architecture platform continues with z16/z17. IBM invested $150B in US including mainframe manufacturing.",
+      "source": "https://www.networkworld.com/article/3972719/ibm-aims-for-autonomous-security-operations.html"
+    },
+    "xeon-server": {
+      "lifecycle_current": "active",
+      "notes": "Intel Xeon server platform is actively developed and sold. Current generation is Xeon 6 (Granite Rapids). A core product line for Intel's data center business.",
+      "source": "https://www.intel.com/content/www/us/en/products/details/processors/xeon.html"
+    },
+    "fortran": {
+      "lifecycle_current": "active",
+      "notes": "FORTRAN remains actively used in HPC, scientific computing, and climate modeling. Reached TIOBE Top 10 in 2024. Modern Fortran (2008/2018 standards) supports OOP and parallel computing. Active standardization and community.",
+      "source": "https://www.paulnorvig.com/guides/modern-fortran-for-high-performance-computing.html"
+    },
+    "db2": {
+      "lifecycle_current": "active",
+      "notes": "IBM Db2 (DB2) is actively supported. Db2 for z/OS receives continuous updates; Db2 for distributed platforms supported through 2027+. Same as ibm-db2.",
+      "source": "https://www.ibm.com/support/pages/db2-distributed-end-support-eos-dates"
+    },
+    "cics": {
+      "lifecycle_current": "active",
+      "notes": "CICS Transaction Server for z/OS actively updated (v6.2 in June 2024 with continuous delivery). Core transaction processing middleware for IBM Z mainframes. Same as ibm-cics.",
+      "source": "https://www.ibm.com/support/pages/ibm-cics-transaction-server-zos-56-61-and-62-are-updated-october-2024"
+    },
+    "dl1": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "DL/1 (Data Language/1) is the IMS database access language, still supported as part of IBM IMS but not used for new development. Legacy mainframe technology maintained for existing systems.",
+      "source": "https://www.ibm.com/docs/en/ims"
+    },
+    "ibm-assembler": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM Mainframe Assembler (HLASM - High Level Assembler) remains supported and used for performance-critical mainframe code. IBM actively maintains HLASM. Not used for new applications generally but maintained for existing code.",
+      "source": "https://www.ibm.com/products/hlasm"
+    },
+    "amd-opteron": {
+      "lifecycle_current": "discontinued",
+      "notes": "AMD Opteron is a discontinued x86 server processor line. Final Opteron CPUs were Piledriver-based 4300/6300 series (2012). Succeeded by AMD EPYC. Wikipedia confirms Opteron is discontinued.",
+      "source": "https://en.wikipedia.org/wiki/Opteron"
+    },
+    "linux-on-mainframe": {
+      "lifecycle_current": "active",
+      "notes": "Linux on IBM Z (zLinux) / IBM LinuxONE is actively developed and supported. IBM LinuxONE 4 Express announced February 2024. Three certified distributions: RHEL, SUSE, Ubuntu. Growing use case for cloud-native on mainframe.",
+      "source": "https://newsroom.ibm.com/2024-02-06-New-IBM-LinuxONE-4-Express-to-Offer-Cost-Savings-and-Client-Value-through-a-Cyber-Resilient-Hybrid-Cloud-and-AI-Platform"
+    },
+    "virtual-machine-mainframe": {
+      "lifecycle_current": "active",
+      "notes": "Virtual machine technology on IBM Z mainframes (z/VM) is actively supported and used. IBM z/VM continues to receive updates. Core technology for running multiple Linux instances on mainframe hardware.",
+      "source": "https://www.ibm.com/products/zvm"
+    },
+    "data-warehousing-analytics": {
+      "lifecycle_current": "active",
+      "notes": "Data warehousing and analytics is a large, growing market. Evolved from traditional EDW to cloud data warehouses (Snowflake, BigQuery, Redshift). Active and fundamental to enterprise BI.",
+      "source": "General market observation"
+    },
+    "tpc-benchmark": {
+      "lifecycle_current": "active",
+      "notes": "TPC (Transaction Processing Performance Council) benchmarks (TPC-C, TPC-H, TPC-DS, TPC-E) are actively maintained and used by database vendors for performance comparison.",
+      "source": "https://www.tpc.org/information/benchmarks5.asp"
+    },
+    "it-outsourcing-adm": {
+      "lifecycle_current": "active",
+      "notes": "Application Development & Maintenance (ADM) outsourcing is an active, large market. IT services firms (Wipro, Infosys, TCS, Accenture) actively provide ADM services. Market continues to grow.",
+      "source": "General IT services market"
+    },
+    "managed-services": {
+      "lifecycle_current": "active",
+      "notes": "Managed IT Services is a large, rapidly growing market. Cloud MSPs, network MSPs, and security MSPs all actively operating. Global managed services market exceeds $300B.",
+      "source": "General managed services market"
+    },
+    "vendor-management-process": {
+      "lifecycle_current": "active",
+      "notes": "Vendor Management / IT Governance is an active discipline. ITIL, COBIT, and ISO frameworks actively used. Vendor management platforms and processes are standard enterprise practice.",
+      "source": "General IT governance"
+    },
+    "lifecycle-management": {
+      "lifecycle_current": "active",
+      "notes": "Version control and lifecycle management is fundamental to modern software development. Git, GitHub, GitLab, Azure DevOps actively used. ALM/PLM markets continue to grow.",
+      "source": "General software development"
+    },
+    "ata-disk": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "ATA/IDE disk interface (IDE/ATA-100) is legacy but parallel ATA drives still exist in some legacy systems. SATA largely superseded parallel ATA. The ATA-100 interface specifically is discontinued in new hardware.",
+      "source": "General storage technology evolution"
+    },
+    "snap-server-1100": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Server 1100 is an early-generation NAS appliance (circa 2002-2004). Overland Tandberg/Overland Storage discontinued multiple SnapServer models. DX1/DX2 EOL was December 31, 2018.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snap-server-2200": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Server 2200 is a legacy NAS model from Snap Appliance. The company was acquired by Adaptec, then by Overland Storage. Early SnapServer models like 2200 are long discontinued.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snap-server-4100": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Server 4100 is a legacy NAS model. The product line from the 2003-era Snap Appliance era has been discontinued. SnapServer 110 discontinued January 2011.",
+      "source": "https://www.backupworks.com/snapserver-110-discontinued-REO-1550.aspx"
+    },
+    "snap-server-4200": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Server 4200 is a legacy NAS model from the early Snap Appliance era. Discontinued along with the broader early SnapServer product line.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snap-server-4500": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Server 4500 is a legacy NAS model from the early Snap Appliance era. Discontinued as part of the overall early SnapServer product line discontinuation.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snap-server-14000": {
+      "lifecycle_current": "discontinued",
+      "notes": "SnapServer 14000 was a mid-range NAS appliance. The SnapServer DX1 and DX2 (later models) reached EOSL December 31, 2018; the older 14000 was discontinued earlier.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snap-disk-10": {
+      "lifecycle_current": "discontinued",
+      "notes": "Snap Disk 10 Expansion Array was an accessory for early Snap Appliance NAS systems. Discontinued along with the associated SnapServer product lines.",
+      "source": "https://www.parkplacetechnologies.com/eosl/family/snapserver/"
+    },
+    "snapos": {
+      "lifecycle_current": "discontinued",
+      "notes": "SnapOS was the original operating system for early Snap Server NAS devices. Replaced by GuardianOS. The original SnapOS brand is discontinued.",
+      "source": "https://www.snaphq.com/Guardian-OS.asp"
+    },
+    "guardianos": {
+      "lifecycle_current": "discontinued",
+      "notes": "GuardianOS (Linux-based NAS OS by Overland Storage for SnapServer) is listed as no longer available on the SnapHQ website. SnapServer DX1/DX2 EOL was December 2018.",
+      "source": "https://www.snaphq.com/Guardian-OS.asp"
+    },
+    "datakeeper": {
+      "lifecycle_current": "discontinued",
+      "notes": "DataKeeper Desktop Backup Software was a Snap Appliance product for desktop-to-NAS backup synchronization. The company and product line have been discontinued/absorbed.",
+      "source": "General Snap Appliance product history"
+    },
+    "server-to-server-sync": {
+      "lifecycle_current": "evolved",
+      "notes": "Server-to-server sync/replication software as a concept has evolved into modern data replication, DR, and cloud sync solutions (rsync, Veeam, NetApp SnapMirror, etc.). The specific Snap product is discontinued but the capability is active in modern form.",
+      "source": "General storage technology evolution"
+    },
+    "raid-1": {
+      "lifecycle_current": "active",
+      "notes": "RAID 1 (mirroring) remains widely used. As of 2025 RAID 1 represents 28% of Linux server RAID deployments. Standard data protection technique in servers, NAS, and storage arrays.",
+      "source": "https://commandlinux.com/statistics/raid-configuration-usage-statistics-on-linux-servers/"
+    },
+    "raid-5": {
+      "lifecycle_current": "active",
+      "notes": "RAID 5 use has declined (dropped to 12% of Linux RAID deployments in 2025 from 30% in 2020) as organizations move to RAID 6/10 for large arrays. Still in active use, particularly for smaller arrays.",
+      "source": "https://commandlinux.com/statistics/raid-configuration-usage-statistics-on-linux-servers/"
+    },
+    "ads-nis-protocols": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Windows ADS (Active Directory Services) remains active (now called Active Directory). NIS (Network Information Service) is legacy in most environments but still supported in some Unix/Linux configurations. Mixed status.",
+      "source": "General IT infrastructure"
+    },
+    "playstation": {
+      "lifecycle_current": "active",
+      "notes": "Sony PlayStation manufacturing (and the PlayStation brand) is actively ongoing. PlayStation 5 is current generation; PlayStation 6 in development. Reference here is to semiconductor/electronics manufacturing context.",
+      "source": "https://www.playstation.com/en-us/"
+    },
+    "semiconductor-8-inch-fab": {
+      "lifecycle_current": "active",
+      "notes": "8-inch (200mm) semiconductor fabrication plants remain in active use for mature process nodes (analog, power, RF, MEMS). The SARS-era concern about PRC-based fabs remains relevant. New 8-inch fab investments continue.",
+      "source": "General semiconductor industry"
+    },
+    "ac-dc-power-supply": {
+      "lifecycle_current": "active",
+      "notes": "AC-to-DC power supplies are fundamental electronics components, actively manufactured and used across all electronic devices, servers, and computing equipment.",
+      "source": "General electronics industry"
+    },
+    "just-in-time-manufacturing": {
+      "lifecycle_current": "active",
+      "notes": "JIT manufacturing remains widely used, though pandemic supply chain disruptions prompted shifts toward 'Just-in-Case' hybrid models. JIT is evolving with AI and real-time analytics but remains a core manufacturing strategy.",
+      "source": "https://www.fictiv.com/articles/jit-just-in-time-manufacturing"
+    },
+    "infiniband": {
+      "lifecycle_current": "active",
+      "notes": "Dominant interconnect in HPC and AI data centers. InfiniBand switch sales surged Q2 2025 driven by NVIDIA Blackwell Ultra. NVIDIA continues manufacturing HDR/NDR InfiniBand products.",
+      "source": "https://www.delloro.com/news/infiniband-switch-sales-surged-in-2q-2025-while-ethernet-maintains-market-lead-for-ai-back-end-networks/"
+    },
+    "pci-express": {
+      "lifecycle_current": "active",
+      "notes": "Standard-current. PCI Express Gen 5 widely deployed; Gen 6 specification released. Dominant I/O interconnect for servers and desktops.",
+      "source": "https://pcisig.com/pci-express-60-specification"
+    },
+    "pci-x": {
+      "lifecycle_current": "discontinued",
+      "notes": "PCI-X was superseded by PCI Express. No longer manufactured; discontinued from all modern server platforms.",
+      "source": "General technology history"
+    },
+    "scsi": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Parallel SCSI succeeded by SAS (Serial Attached SCSI) for enterprise storage. SCSI protocol concepts live on in SAS/NVMe but parallel SCSI hardware is legacy.",
+      "source": "General storage technology evolution"
+    },
+    "gigabit-ethernet": {
+      "lifecycle_current": "active",
+      "notes": "Gigabit Ethernet is mature and widely deployed. Now part of multi-gig standards (2.5G, 5G, 10GbE). Still the dominant LAN standard for endpoint connectivity.",
+      "source": "General networking"
+    },
+    "10-gigabit-ethernet": {
+      "lifecycle_current": "active",
+      "notes": "10 Gigabit Ethernet remains active for server uplinks and data center interconnects. Supplemented by 25G/40G/100G/400G in modern high-performance environments.",
+      "source": "General networking"
+    },
+    "iscsi": {
+      "lifecycle_current": "active",
+      "notes": "iSCSI is actively used for IP-based SAN storage, especially in SMB and virtualized environments. Supported by VMware, Microsoft, and all major storage vendors.",
+      "source": "General storage industry"
+    },
+    "blade-server": {
+      "lifecycle_current": "active",
+      "notes": "Blade servers (HPE Synergy, Cisco UCS) remain actively sold and supported for enterprise data centers, though hyper-converged and cloud have taken significant market share.",
+      "source": "General server market"
+    },
+    "tcp-offload-engine": {
+      "lifecycle_current": "discontinued",
+      "notes": "TCP Offload Engines (TOE) as discrete NIC features became niche; most functions absorbed into modern SmartNIC and DPU architectures. Not a distinct product category anymore.",
+      "source": "General networking technology evolution"
+    },
+    "nas-appliance": {
+      "lifecycle_current": "active",
+      "notes": "NAS appliances remain active in SMB and enterprise storage. NetApp, Synology, QNAP, and others actively selling. Market evolving toward cloud-integrated NAS.",
+      "source": "General storage industry"
+    },
+    "raid": {
+      "lifecycle_current": "active",
+      "notes": "RAID technology is mature and actively used across all storage systems, from consumer NAS to enterprise arrays. RAID 6, 10 dominant in modern deployments.",
+      "source": "General storage industry"
+    },
+    "nfs": {
+      "lifecycle_current": "active",
+      "notes": "NFS (Network File System) is a standard-current protocol. NFSv4.2 is current. Widely used for Linux/Unix file sharing, cloud storage, and HPC scratch filesystems.",
+      "source": "https://tools.ietf.org/html/rfc7862"
+    },
+    "cifs-smb": {
+      "lifecycle_current": "active",
+      "notes": "SMB3 (the modern form of CIFS/SMB) is actively used for Windows file sharing and is the standard-current protocol. SMB 3.1.1 is the current version.",
+      "source": "https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview"
+    },
+    "oracle-e-business-suite": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Oracle E-Business Suite (EBS) remains supported (Premier Support through Dec 2031 extended). Customers migrating to Oracle Cloud ERP but EBS maintains large installed base.",
+      "source": "https://www.oracle.com/us/support/library/lifetime-support-applications-069216.pdf"
+    },
+    "oracle-database": {
+      "lifecycle_current": "active",
+      "notes": "Oracle Database is actively developed. Oracle Database 23ai is the current version. Core product for Oracle's business.",
+      "source": "https://www.oracle.com/database/"
+    },
+    "oracle-applications-server": {
+      "lifecycle_current": "evolved",
+      "notes": "Oracle Application Server evolved into Oracle Fusion Middleware. The original OAS brand is retired but the technology lives on in WebLogic Server and Oracle Fusion Middleware stack.",
+      "source": "General Oracle product history"
+    },
+    "j2ee": {
+      "lifecycle_current": "evolved",
+      "notes": "J2EE evolved into Java EE, then Jakarta EE (under Eclipse Foundation). Jakarta EE 11 is current. The J2EE brand is retired; platform actively developed as Jakarta EE.",
+      "source": "https://jakarta.ee/"
+    },
+    "xml": {
+      "lifecycle_current": "active",
+      "notes": "XML is a standard-current W3C technology. Widely used in configuration files, data exchange, and web services. Not growing for new APIs (JSON preferred) but remains broadly deployed.",
+      "source": "https://www.w3.org/XML/"
+    },
+    "soap": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "SOAP web services remain in use for enterprise integration (SAP, banking, insurance) but new development favors REST/JSON. Actively maintained in frameworks but legacy for new projects.",
+      "source": "General web services evolution"
+    },
+    "crm-systems": {
+      "lifecycle_current": "active",
+      "notes": "CRM systems are actively developed and growing. Salesforce, Microsoft Dynamics, HubSpot leading market. Global CRM market exceeded $65B in 2024.",
+      "source": "General CRM market"
+    },
+    "scm-systems": {
+      "lifecycle_current": "active",
+      "notes": "Supply Chain Management systems are growing, especially post-pandemic. SAP, Oracle, Blue Yonder, Kinaxis leading vendors. Active investment in SCM resilience.",
+      "source": "General SCM market"
+    },
+    "erp-suite": {
+      "lifecycle_current": "active",
+      "notes": "Integrated ERP Application Suites (SAP S/4HANA, Oracle Fusion, Microsoft Dynamics 365) are actively developed and growing. Cloud ERP is the dominant trend.",
+      "source": "General ERP market"
+    },
+    "asp-model": {
+      "lifecycle_current": "evolved",
+      "notes": "Application Service Provider (ASP) model evolved into modern SaaS (Software as a Service) and cloud computing. The ASP term is retired but the concept lives on in SaaS.",
+      "source": "General cloud computing history"
+    },
+    "wireless-lan": {
+      "lifecycle_current": "active",
+      "notes": "Wireless LAN (Wi-Fi) is ubiquitous and actively developed. Wi-Fi 7 (802.11be) is the current standard. Essential for enterprise and consumer connectivity.",
+      "source": "https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7"
+    },
+    "sata-disk": {
+      "lifecycle_current": "active",
+      "notes": "SATA disk is mature and still widely deployed for high-capacity, low-cost storage. Samsung may phase out consumer SATA SSDs but enterprise SATA HDDs (20TB+) remain in active production for cold storage.",
+      "source": "https://www.networkworld.com/article/4121569/reports-of-satas-demise-are-overblown-but-the-technology-is-aging-fast.html"
+    },
+    "windows-server": {
+      "lifecycle_current": "active",
+      "notes": "Microsoft Windows Server actively developed. Windows Server 2025 is current release. Core enterprise server OS for Microsoft ecosystem.",
+      "source": "https://learn.microsoft.com/en-us/windows-server/"
+    },
+    "solaris": {
+      "lifecycle_current": "end-of-life",
+      "notes": "Oracle Solaris 11.4 Premier Support ended January 2027 (limited extension announced). Oracle ended active Solaris development; Oracle Solaris 12 cancelled. Effectively end-of-life.",
+      "source": "https://www.oracle.com/support/premier-support-for-systems.html"
+    },
+    "hp-ux": {
+      "lifecycle_current": "end-of-life",
+      "notes": "HP-UX 11i v3 support ended December 31, 2025 for HPE Integrity servers. HP 9000 servers EOL March 2021. HP-UX is end-of-life.",
+      "source": "https://www.stromasys.com/resources/hp-ux-end-of-support/"
+    },
+    "aix": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM AIX is actively supported on IBM Power Systems (AIX 7.3 is current). IBM continues to invest in AIX for enterprise Unix workloads. Not end-of-life, but primarily legacy maintenance rather than greenfield.",
+      "source": "https://www.ibm.com/products/aix"
+    },
+    "ipmi": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IPMI (Intelligent Platform Management Interface) is legacy-supported. Succeeded by Redfish (DMTF standard) and modern BMC implementations. Still present in many existing servers but Redfish is the preferred modern standard.",
+      "source": "https://www.dmtf.org/standards/redfish"
+    },
+    "voip": {
+      "lifecycle_current": "active",
+      "notes": "VoIP is ubiquitous and fully mainstreamed \u2014 dominant form of business telephony. Market continues growing.",
+      "source": "pre-verified"
+    },
+    "video-conferencing": {
+      "lifecycle_current": "active",
+      "notes": "Video conferencing is mainstream/active, massively accelerated by COVID-19. ISDN-based video conferencing has been superseded by internet-based solutions (Zoom, Teams, Webex).",
+      "source": "pre-verified"
+    },
+    "audio-conferencing": {
+      "lifecycle_current": "active",
+      "notes": "Audio conferencing remains active as a mature technology, now largely bundled with video collaboration platforms.",
+      "source": "pre-verified"
+    },
+    "flash": {
+      "lifecycle_current": "discontinued",
+      "notes": "Adobe Flash Player officially end-of-life December 31, 2020. Adobe blocked Flash content from running after that date. Browsers dropped support.",
+      "source": "pre-verified"
+    },
+    "windows-media-player": {
+      "lifecycle_current": "discontinued",
+      "notes": "Windows Media Player removed as a default application in Windows 11. Legacy media streaming players (RealPlayer) essentially defunct.",
+      "source": "pre-verified"
+    },
+    "dhtml": {
+      "lifecycle_current": "succeeded",
+      "notes": "DHTML (Dynamic HTML) as a distinct concept has been succeeded by modern HTML5/CSS3/JavaScript. Functionality fully absorbed into contemporary web standards.",
+      "source": "pre-verified"
+    },
+    "scorm": {
+      "lifecycle_current": "active",
+      "notes": "SCORM remains widely used e-learning interoperability standard. xAPI (Tin Can) is a successor standard but SCORM still dominant in LMS deployments.",
+      "source": "pre-verified"
+    },
+    "microsoft-outlook-calendar": {
+      "lifecycle_current": "active",
+      "notes": "Microsoft Outlook Calendar remains a dominant enterprise scheduling tool, now integrated into Microsoft 365 ecosystem.",
+      "source": "pre-verified"
+    },
+    "crm": {
+      "lifecycle_current": "active",
+      "notes": "CRM is a core enterprise software category. Salesforce, Microsoft Dynamics, HubSpot dominate. Market growing with AI integration.",
+      "source": "pre-verified"
+    },
+    "rfid": {
+      "lifecycle_current": "active",
+      "notes": "RFID remains active across retail, supply chain, healthcare, and logistics. Walmart itself mandated RFID use by suppliers.",
+      "source": "pre-verified"
+    },
+    "web-analytics": {
+      "lifecycle_current": "active",
+      "notes": "Web analytics has evolved significantly (Google Analytics, Adobe Analytics, privacy-first tools). Real-time analytics now standard.",
+      "source": "pre-verified"
+    },
+    "ilm": {
+      "lifecycle_current": "evolved",
+      "notes": "Information Lifecycle Management (ILM) as a distinct term has evolved into data lifecycle management, tiered storage, and cloud data management frameworks.",
+      "source": "pre-verified"
+    },
+    "bpo": {
+      "lifecycle_current": "active",
+      "notes": "Business Process Outsourcing (BPO) remains a large, active industry. Global BPO market continues to grow, expanding into AI-augmented services.",
+      "source": "pre-verified"
+    },
+    "sox-compliance-tech": {
+      "lifecycle_current": "active",
+      "notes": "SOX/regulatory compliance technology (GRC software) is an active and growing market. SOX remains law for US public companies. Major spending on compliance tech continues.",
+      "source": "pre-verified"
+    },
+    "data-center-consolidation": {
+      "lifecycle_current": "active",
+      "notes": "Data center consolidation has evolved into cloud migration and hybrid IT strategies. Still an active practice, now often called cloud rationalization.",
+      "source": "pre-verified"
+    },
+    "decision-support": {
+      "lifecycle_current": "evolved",
+      "notes": "Decision Support Systems (DSS) evolved into Business Intelligence (BI) and advanced analytics. Absorbed into modern BI tools (Tableau, Power BI) and AI-driven analytics.",
+      "source": "pre-verified"
+    },
+    "wifi-enterprise": {
+      "lifecycle_current": "active",
+      "notes": "Enterprise WiFi is now foundational infrastructure. WiFi 6 and WiFi 6E are current standards. Market growing with IoT and mobile-first enterprise needs.",
+      "source": "pre-verified"
+    },
+    "web-services-mgmt": {
+      "lifecycle_current": "evolved",
+      "notes": "Enterprise Web Services Management has evolved into API Management (Apigee, AWS API Gateway, MuleSoft). Concept fully absorbed into modern integration architectures.",
+      "source": "pre-verified"
+    },
+    "retail-automation": {
+      "lifecycle_current": "active",
+      "notes": "Retail automation (self-checkout, automated inventory) is active and expanding. AI-powered checkout and computer vision are current evolution.",
+      "source": "pre-verified"
+    },
+    "automated-replenishment": {
+      "lifecycle_current": "active",
+      "notes": "Automated replenishment has evolved into AI-driven demand forecasting and supply chain management. Active in retail, manufacturing, and e-commerce.",
+      "source": "pre-verified"
+    },
+    "online-auction": {
+      "lifecycle_current": "active",
+      "notes": "Online auction and B2B reverse auction/procurement platforms remain active. eBay dominant in consumer space; Ariba, Coupa for B2B procurement.",
+      "source": "pre-verified"
+    },
+    "email-outsourcing": {
+      "lifecycle_current": "evolved",
+      "notes": "Application outsourcing for email has evolved into cloud email services. Microsoft 365 and Google Workspace are the dominant successors.",
+      "source": "pre-verified"
+    },
+    "it-outsourcing-full": {
+      "lifecycle_current": "active",
+      "notes": "Full-service IT outsourcing remains an active market. Major providers include Accenture, TCS, Infosys, Wipro, Capgemini. Market growing at ~7% CAGR.",
+      "source": "pre-verified"
+    },
+    "outsourcing-sla": {
+      "lifecycle_current": "active",
+      "notes": "SLA management is an active and essential practice in all outsourcing and managed services contracts.",
+      "source": "pre-verified"
+    },
+    "it-governance": {
+      "lifecycle_current": "active",
+      "notes": "IT governance frameworks (COBIT, ITIL, ISO 38500) remain active and widely adopted. Expanded to include cloud governance, AI governance.",
+      "source": "pre-verified"
+    },
+    "outsourcing-maturity-model": {
+      "lifecycle_current": "active",
+      "notes": "IT outsourcing maturity models remain an active conceptual and analytical framework used by organizations and researchers.",
+      "source": "pre-verified"
+    },
+    "store-and-forward-conferencing": {
+      "lifecycle_current": "discontinued",
+      "notes": "Store-and-forward web conferencing (asynchronous, non-real-time conferencing via recorded/queued transmission) is essentially defunct, superseded by real-time streaming and on-demand video.",
+      "source": "pre-verified"
+    },
+    "webex-platform": {
+      "lifecycle_current": "active-evolved",
+      "notes": "The original WebEx Web Conferencing Platform (built on MediaTone) was absorbed into Cisco Webex after 2007 acquisition. The platform has been modernized and rebranded multiple times: Meeting Center, Cisco Spark (2015), unified Cisco Webex (2018). Webex Meeting Apps were consolidated into a single 'Webex' app (2022). Platform remains active as Cisco's core collaboration suite with AI enhancements.",
+      "source": "https://en.wikipedia.org/wiki/Webex"
+    },
+    "mediatone": {
+      "lifecycle_current": "discontinued",
+      "notes": "WebEx MediaTone Network was WebEx's proprietary global delivery network for on-demand SaaS applications. At time of Cisco acquisition in 2007, all WebEx apps ran on MediaTone. Post-acquisition, Cisco migrated to its own cloud infrastructure. MediaTone as a distinct named network/technology is no longer referenced in current Cisco documentation \u2014 superseded by Cisco's cloud infrastructure.",
+      "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2007/m03/cisco-announces-agreement-to-acquire-webex.html"
+    },
+    "webex-private-wan": {
+      "lifecycle_current": "discontinued",
+      "notes": "WebEx Private WAN was a dedicated enterprise WAN connectivity option for WebEx services, allowing enterprises to route WebEx traffic over private networks rather than the public internet. This proprietary offering was discontinued after Cisco integration, superseded by Cisco's enterprise networking architecture (SD-WAN, MPLS integrations) and public cloud delivery.",
+      "source": "https://en.wikipedia.org/wiki/Webex"
+    },
+    "ucf": {
+      "lifecycle_current": "discontinued",
+      "notes": "Universal Communications Format (UCF) was a proprietary WebEx file format for embedding rich media (Flash, video, audio, web pages) in WebEx sessions. UCF relied heavily on Flash Player and legacy Windows Media Player \u2014 both now discontinued. UCF is no longer supported in current Webex; modern Webex uses standard web technologies (HTML5, WebRTC) for media sharing.",
+      "source": "https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wbs30/WebEx_BK_MB6269C1_00_meeting-center-frequently-asked-questions/WebEx_BK_MB6269C1_00_meeting-center-frequently-asked-questions_chapter_0111.pdf"
+    },
+    "webex-access-anywhere": {
+      "lifecycle_current": "active-legacy",
+      "notes": "WebEx Access Anywhere (remote PC access feature) still referenced in current Webex Help Center documentation (as of 2024), allowing users to remotely access their PCs from supported Windows operating systems. However, as a distinct standalone feature it is a legacy capability within the broader Webex platform, not actively promoted.",
+      "source": "https://help.webex.com/en-us/article/fkj3h4/Set-Webex-Access-Anywhere-Options"
+    },
+    "webex-meeting-center": {
+      "lifecycle_current": "evolved-rebranded",
+      "notes": "WebEx Meeting Center was the original flagship meeting product. Post-Cisco acquisition it was rebranded and evolved: Meeting Center brand persisted until ~2022, when Cisco consolidated all meeting apps into a unified 'Webex' application. The 'Webex Meetings' application was officially discontinued July 2022 in favor of the unified Webex app. Webex meetings functionality continues actively within the Webex suite.",
+      "source": "https://doit.umbc.edu/post/125886/"
+    },
+    "webex-support-center": {
+      "lifecycle_current": "discontinued",
+      "notes": "Webex Support Center officially reached end-of-sale September 15, 2025 and end-of-life March 31, 2026 per Cisco's formal EOL bulletin (EOL15653). Cisco directed customers to transition to Webex Meetings for remote desktop control, or third-party alternatives (Imagicle, UCX Engage, Webex Contact Center).",
+      "source": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/webex-support-center-eol.html"
+    },
+    "webex-event-center": {
+      "lifecycle_current": "discontinued",
+      "notes": "WebEx Event Center evolved through several iterations. The 'Webex Events' standalone product (formerly Socio) reached end-of-sale April 29, 2024 and end-of-life April 30, 2025 per Cisco EOL bulletin (EOL15310). The older 'Webex Event Center' conferencing product and related Webex Assist offerings also reached EOL in 2023-2025. Large-scale webinar functionality migrated to Webex Webinars (renamed from Webex Events New in January 2022).",
+      "source": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/webex-event-standalone-virtual-ser-eol.html"
+    },
+    "webex-training-center": {
+      "lifecycle_current": "discontinued",
+      "notes": "Webex Training Center officially reached end-of-sale September 15, 2025 and end-of-life March 31, 2026 per Cisco EOL bulletin (EOL15602). Cisco directed customers to transition to Webex Meetings or Webex Webinars, with third-party lab providers (e.g., Skillable) for hands-on training capabilities.",
+      "source": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/webex-training-center-eol.html"
+    },
+    "webex-multipoint-video": {
+      "lifecycle_current": "evolved",
+      "notes": "WebEx Multipoint Video Conferencing was a feature of the original WebEx platform. Post-Cisco acquisition, multipoint video was integrated into and superseded by Cisco's broader video conferencing portfolio (Cisco TelePresence, Cisco Webex). Current Webex supports multi-participant HD video natively. The distinct 'WebEx multipoint video' product designation no longer exists; functionality lives on in unified Webex platform.",
+      "source": "https://en.wikipedia.org/wiki/Webex"
+    }
+  },
+  "predictions": {
+    "1996-electronic-commerce-25d31b-OBS-007": {
+      "metric_value": "B2C e-commerce rollout was slower than predicted in early years: US retail e-commerce was only ~$15B (0.5% of total retail) in 1999 and ~$26B (0.8%) in 2000. Mass-market B2C rollout took until mid-2000s to achieve scale. Original 1996 predictions typically called for faster adoption.",
+      "confidence": "partially-verified",
+      "source": "https://www.census.gov/content/dam/Census/library/publications/2001/econ/1999estatstext.pdf \u2014 US retail e-commerce $15B in 1999, $26B in 2000"
+    },
+    "1996-electronic-commerce-25d31b-OBS-009": {
+      "metric_value": "EC transaction volumes grew dramatically but more slowly than many 1996 forecasts: B2B dominated (>90% of all e-commerce in 1999); B2C grew from ~$5.3B in Q4 1999 to $189B in total by 2005. Growth was exponential but starting from a tiny base.",
+      "confidence": "partially-verified",
+      "source": "https://www.census.gov/content/dam/Census/library/publications/2001/econ/1999estatstext.pdf and https://www.academia.edu/34164161/Business_to_Consumer_B2C_E_Commerce_Decade_Evolution"
+    },
+    "2001-hp-compaq-kastner-insight1-d6dc38-OBS-007": {
+      "metric_value": "HP-Compaq merger had mixed results \u2014 generally considered a difficult integration. HP share price in June 2005 was still ~$23, below pre-merger announcement price. Storage/server divisions contributed 50% of revenue but only 7% of operating profits. Carly Fiorina was ousted in 2005. However, shareholder returns increased 46% over five years post-merger.",
+      "confidence": "partially-verified",
+      "source": "https://www.scribd.com/document/363309981/HP-Compaq-Merger-Case-Study and https://www.slideshare.net/slideshow/hp-compaq-a-failure-or-success/9619860"
+    },
+    "2001-hp-compaq-kastner-insight1-d6dc38-OBS-015": {
+      "metric_value": "HP-Compaq customer base stability was challenged \u2014 significant customer attrition occurred during integration, particularly in enterprise storage and server segments where Dell gained share. Gartner noted HP failed to clearly communicate acquisition benefits to customers.",
+      "confidence": "partially-verified",
+      "source": "https://studymoose.com/hp-compaq-merger-essay \u2014 Gartner: HP 'failed to do a good enough job of presenting the benefits'"
+    },
+    "2004-05dell-storage-profile-editpk-05170-3c00b1-OBS-018": {
+      "metric_value": "Dell storage grew strongly in 2004\u20132006: Dell storage revenue up 18.7% in 2004, 15.8% in Q4 2004. Dell fiscal 2006 showed 38% storage revenue growth (PowerVault + Dell|EMC combined). Dell remained fastest-growing storage vendor through mid-2000s.",
+      "confidence": "verified",
+      "source": "https://www.crn.com/news/storage/60405878/idc-emc-dell-overpower-storage-market-in-2004 and https://i.dell.com/sites/csdocuments/Corporate_financials_Documents/en/us/ar_fy2006_annual.pdf"
+    },
+    "2010-intel-ia-continuum-wp-1-2-fc5653-OBS-003": {
+      "metric_value": "Global semiconductor/processor TAM exceeded expectations: semiconductor market grew from ~$300B range in 2010 to $611B in 2023. Processor TAM by end of decade (2020) was roughly $400-450B for total semiconductors, driven heavily by mobile and cloud.",
+      "confidence": "partially-verified",
+      "source": "https://www.fortunebusinessinsights.com/semiconductor-market-102365 \u2014 global semiconductor market $598B in 2025; retrospective data shows ~$400B in 2020"
+    },
+    "2010-intel-ia-continuum-wp-1-2-fc5653-OBS-011": {
+      "metric_value": "Intel largely failed in mobile/SOC market share. By 2015 Intel had only ~3% of smartphone SoC market (dominated by Qualcomm ~33%, MediaTek ~19%, Apple ~17%). Intel cancelled 14nm smartphone SoCs by 2016 and exited smartphone SoC market.",
+      "confidence": "verified",
+      "source": "https://www.extremetech.com/extreme/227720-how-intel-lost-10-billion-and-the-mobile-market and https://content.library.pdx.edu/files/PDXScholar/ETM/2015/2015-W-527-01-1.pdf"
+    },
+    "2010-intel-ia-continuum-wp-1-2-fc5653-OBS-016": {
+      "metric_value": "SSD datacenter adoption grew explosively: SSD revenue doubled in 2011, with 51.5% CAGR shipment growth projected 2010-2015. Data center SSD market reached $18.5B by 2025. Enterprise/datacenter SSD adoption surpassed HDD for performance tiers well within the decade.",
+      "confidence": "verified",
+      "source": "https://www.channelinsider.com/news-and-trends/ssd-revenue-doubles-in-2011-over-2010-no-letup-in-sight/ and https://www.grandviewresearch.com/industry-analysis/data-center-ssd-market-report"
+    },
+    "2010-intel-ia-continuum-wp-1-2-fc5653-OBS-019": {
+      "metric_value": "Intel Larrabee was cancelled as a consumer GPU product (announced December 4, 2009). Never released as a discrete graphics product. Technology transitioned to Xeon Phi HPC product line (released 2012). Larrabee failed to compete with NVIDIA/AMD GPU offerings.",
+      "confidence": "verified",
+      "source": "https://en.wikipedia.org/wiki/Larrabee_(microarchitecture) and https://www.cnet.com/science/intel-initial-larrabee-graphics-chip-canceled/"
+    },
+    "2010-intel-ia-continuum-wp-1-2-fc5653-OBS-022": {
+      "metric_value": "Smartphone market penetration grew far faster than most 2010-era predictions: global penetration reached ~16% (1.22B users) by 2015, ~34% (2.67B) by 2020, and ~60% (4.88B) by 2024. Smartphones became dominant computing platform globally.",
+      "confidence": "verified",
+      "source": "https://www.bankmycell.com/blog/how-many-phones-are-in-the-world \u2014 historic smartphone penetration data"
+    },
+    "amd-profile01-64e43b-OBS-008": {
+      "metric_value": "AMD successfully abandoned GHz-centric marketing with launch of Athlon 64 (September 23, 2003), shifting to model numbers (3000+, 3200+, etc.) and performance-per-watt metrics. AMD64 architecture outperformed Intel Pentium 4 at lower clock speeds. This was a confirmed strategic success.",
+      "confidence": "verified",
+      "source": "https://dfarq.homeip.net/athlon-64-how-amd-turned-the-tables-on-intel/ and https://en.wikipedia.org/wiki/Athlon_64"
+    },
+    "auditor-report-4-43ad9b-OBS-019": {
+      "metric_value": "Eclipsys SunriseXA was viable and successfully deployed at large hospitals. Multiple large-scale deployments confirmed (e.g., Jefferson Regional Medical Center deployed Sunrise Enterprise 5.5 across 15 units/2600+ users in 2010). Eclipsys was acquired by Allscripts for $1.3B in 2010, validating the platform's commercial viability.",
+      "confidence": "verified",
+      "source": "https://www.fiercehealthcare.com/healthcare/jefferson-regional-medical-center-successfully-activates-eclipsys-sunrise-enterprise-5-5 and https://www.healthcareitnews.com/news/allscripts-eclipsys-merge-13-billion-deal"
+    },
+    "computerworld-ilm-article-15f604-OBS-002": {
+      "metric_value": "ILM software maturity was slower to arrive than predicted in early 2000s articles. Cross-application ILM policy management software remained fragmented through the decade; tiered storage and automated lifecycle policies became standard only gradually (2010s). ILM as a discipline matured but comprehensive unified software tools did not fully materialize as predicted.",
+      "confidence": "partially-verified",
+      "source": "https://en.wikipedia.org/wiki/Information_lifecycle_management and https://cacm.acm.org/research/information-life-cycle-management/"
+    },
+    "computerworld-ilm-article-15f604-OBS-012": {
+      "metric_value": "The specific '80% hours reduction' productivity claim for ILM was not independently verified by industry data. ILM implementations did reduce storage management overhead, but quantified 80% productivity gains were marketing claims not confirmed by independent studies. Actual results varied widely by organization.",
+      "confidence": "partially-verified",
+      "source": "https://www.crownrms.com/us/insights/information-lifecycle-management/ \u2014 ILM benefits described qualitatively; specific 80% reduction unverified"
+    },
+    "copy-of-hp-camera-lab-journal-prod-c103f6-OBS-010": {
+      "metric_value": "HP exited the consumer digital camera market in November 2007, stopping manufacturing its own cameras and taking a $30M charge. HP's US camera market share had shrunk from 7% (end of 2006) to 4% (mid-2007). This confirms HP's exit from consumer cameras.",
+      "confidence": "verified",
+      "source": "https://techcrunch.com/2007/11/08/after-losing-market-share-hp-decides-to-stop-making-digital-cameras/ and https://www.nytimes.com/idg/IDG_002570DE00740E180025738C007556C8.html"
+    },
+    "dct-oct.-4-hot-topic-b61c0d-OBS-010": {
+      "metric_value": "NEC fuel cell laptop never achieved commercial launch. NEC had promised market release by end of 2004 and 40-hour battery model by end of 2005; these targets were missed. As of 2004 prototype demonstrations, NEC stated commercialization was 'a very long way off.' No commercial fuel cell laptop was ever released by NEC.",
+      "confidence": "verified",
+      "source": "https://www.theregister.com/2004/10/19/nec_notebook_fuel-cell/ \u2014 'NEC didn't provide any timeframe against which the release of a fuel cell-powered laptop might be measured' (reversing 2003 promise)"
+    },
+    "dell-ars-white-paper-prod-7-11m-c60434-OBS-020": {
+      "metric_value": "Small regional recyclers without scale partnerships largely proved unviable in the long term. The US electronics recycling market consolidated around certified large-scale recyclers; recycling rates nationally were 19% in early period growing to 29% by 2011. Small independent recyclers faced margin pressure and many exited or were acquired. The prediction that scale partnerships were necessary was confirmed by market consolidation.",
+      "confidence": "partially-verified",
+      "source": "https://19january2021snapshot.epa.gov/sites/static/files/2015-09/documents/smm_elctronics_reuserecycling_forum.pdf \u2014 industry consolidation data; small recyclers faced viability challenges"
+    },
+    "ibm-+-webify-=-industry-soa-application--97733a-OBS-011": {
+      "metric_name": "Oracle Fusion Applications actual release",
+      "metric_value": "Oracle Fusion Applications officially launched at OpenWorld September 2010; first commercial release to customers Q1 2011 (Fusion HCM, Financials, CRM, Procurement). Full suite released as Oracle Fusion Applications 11g R1 (11.1.1). Transitioned to full cloud SaaS model 2014\u20132016.",
+      "confidence": "verified",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Fusion_Applications \u2014 'Oracle Fusion Applications were launched in September 2010 and released one year later at OpenWorld 2011.' Also: https://unogeeks.com/oracle-fusion-applications-version-history-2/"
+    },
+    "intel-consumer-lt-10-5-03-580af7-OBS-017": {
+      "metric_name": "Consumer LT (TXT) adoption",
+      "metric_value": "Intel LaGrande Technology (LT), commercialized as Intel TXT (Trusted Execution Technology), was incorporated into Intel vPro business platforms from 2007 onward but never reached significant consumer market adoption. Consumer-grade TXT deployment remained negligible; the technology was confined primarily to enterprise/corporate PCs. A separate consumer LT platform as predicted was not broadly deployed.",
+      "confidence": "refuted",
+      "source": "https://phys.org/news/2007-08-intel-vpro-processor-technology-fortifies.html \u2014 Intel TXT launched in vPro (2007) for enterprise, not consumer platforms. Consumer LT adoption did not materialize as a mainstream standard."
+    },
+    "intel-centrino-pk-8ecf9a-OBS-017": {
+      "metric_name": "Wireless as standard IT infrastructure",
+      "metric_value": "Wireless LAN/Wi-Fi became standard enterprise and consumer IT infrastructure by the late 2000s. Intel Centrino drove laptop Wi-Fi ubiquity from 2003 onward; by 2007\u20132010 virtually all enterprise laptops shipped with integrated 802.11 wireless. However, the specific Centrino brand was phased out around 2013 as Wi-Fi became a commodity feature not tied to Intel branding.",
+      "confidence": "verified",
+      "source": "https://www.cnet.com/tech/tech-industry/intels-hooked-on-wireless/ \u2014 Centrino drove broad wireless adoption; https://www.itpro.com/102913/intel-adds-80211n-support-to-centrino \u2014 Intel expanded Centrino with 802.11n in 2007, confirming wireless as mainstream IT infrastructure."
+    },
+    "hp-compaq-kastner-insight1-a5a4e0-OBS-015": {
+      "metric_name": "HP-Compaq merger actual outcome",
+      "metric_value": "HP completed the $24B all-stock acquisition of Compaq in May 2002. Initial results were mixed: the merger achieved $3.5B in cost savings (exceeding the $2.5B target) but failed to produce a profitable PC business. HP stock declined significantly post-merger. Fortune magazine (2005) called it 'a big bet that didn't pay off.' Under successor CEO Mark Hurd, HP later achieved revenue of $92B and $6.2B profit by 2007, leading some to call it a longer-term success. Overall verdict: operationally integrated but financially underperforming relative to merger promises.",
+      "confidence": "verified",
+      "source": "https://fortune.com/article/why-carlys-big-bet-is-failing-fortune-classics-2005/ \u2014 Fortune 2005 analysis; https://jonathangifford.com/carly-fiorina-and-the-hp-compaq-merger/ \u2014 mixed long-term assessment."
+    },
+    "goremote-profile-5-2a-8fa814-OBS-021": {
+      "metric_name": "GoRemote market outcome post-2003",
+      "metric_value": "GoRemote Internet Communications was acquired by iPass Inc. for $76.5M in cash, closing Q1 2006. GoRemote's technology and customer base were integrated into iPass, which became a leading enterprise Wi-Fi/broadband service aggregator. iPass itself was subsequently acquired by Pareteum in February 2019.",
+      "confidence": "verified",
+      "source": "https://www.rcrwireless.com/20051212/archived-articles/ipass-to-purchase-rival-goremote-for-76-5m \u2014 iPass acquired GoRemote for $76.5M; https://en.wikipedia.org/wiki/IPass_Inc. \u2014 iPass later acquired by Pareteum in 2019."
+    },
+    "intel-2010-vpro-daily-globe-42697e-OBS-009": {
+      "metric_name": "BitLocker adoption as business norm",
+      "metric_value": "BitLocker became an enterprise standard by 2011. Microsoft BitLocker Administration and Monitoring (MBAM) was released in 2011 as the enterprise standard for BitLocker management. By the mid-2010s, BitLocker was widely deployed across Windows Enterprise environments. It became a default/expected feature of enterprise Windows 10 deployments. MBAM mainstream support ended July 2019, replaced by Microsoft Intune cloud-based BitLocker management.",
+      "confidence": "verified",
+      "source": "https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-expands-bitlocker-management-capabilities-for-the-enterprise/544329 \u2014 'Since 2011, the enterprise standard for BitLocker management has been Microsoft BitLocker Administration and Monitoring (MBAM)'; https://www.bleepingcomputer.com/news/security/microsoft-announces-enhanced-enterprise-bitlocker-management/"
+    },
+    "hp-can-boost-soa-offerings-with-acquisit-48e07e-OBS-017": {
+      "metric_name": "HP-Mercury actual integration outcome",
+      "metric_value": "HP completed acquisition of Mercury Interactive for $4.5B in November 2006. Mercury's products (LoadRunner, Quality Center, Business Availability Center, and Systinet SOA registry) were integrated into HP Software Division under the HP IT Management Software portfolio. The Mercury brand was dropped; Systinet was retained as 'HP SOA Systinet.' Integration included Mercury's BTO (Business Technology Optimization) framework extending HP OpenView. In 2017, HPE sold its software assets (including legacy Mercury products) to Micro Focus for ~$8.8B.",
+      "confidence": "verified",
+      "source": "https://www.cio.com/article/262781/mergers-acquisitions-hp-purchase-of-mercury-a-done-deal.html \u2014 HP closed Mercury acquisition November 2006; https://en.wikipedia.org/wiki/Mercury_Interactive \u2014 'Most of the Mercury Interactive software assets were apportioned to Hewlett Packard Enterprise (HPE) when HP split into two companies. In September 2017, HPE completed the sale of most of its software assets, including the legacy Mercury Interactive products to UK-based Micro Focus.'"
+    },
+    "mirror-image-profile-v2-(050404)-e7eb95-OBS-020": {
+      "metric_name": "Mirror Image long-term positioning",
+      "metric_value": "Mirror Image failed to achieve long-term CDN market leadership. The company closed down in December 2017 (per CDN list by Dan Rayburn/StreamingMediaBlog). Akamai dominated the CDN market; Mirror Image remained a distant niche player with ~150 customers in 2003 vs Akamai's ~1,000. No successor acquired the business.",
+      "confidence": "verified",
+      "source": "https://www.streamingmediablog.com/2023/01/cdn-list.html \u2014 Mirror Image listed as 'closed down Dec. 2017'; https://www.networkworld.com/article/886386/software-mirror-image-joins-cdn-patent-fray.html \u2014 IDC figures showing Mirror Image at ~150 customers vs Akamai's ~1,000 in 2003."
+    },
+    "intelitaniummfewp1[1]-773ea2-OBS-006": {
+      "metric_name": "Itanium 7x performance improvement",
+      "metric_value": "The 7x improvement claim was not achieved. The Madison (Itanium 2) generation delivered roughly 2x performance over McKinley, not 7x. Montecito (dual-core) delivered ~60% improvement over prior generation RISC benchmarks per LINPACK. Intel's roadmap repeatedly slipped: Montecito delayed to mid-2006, Montvale to 2007. Intel's own data showed 11.43 GFLOPs (2002) to 45 GFLOPs (2005) = ~4x over 3 years via increased core count, not a single-generation 7x jump.",
+      "confidence": "refuted",
+      "source": "https://phys.org/news/2005-07-forthcoming-dual-core-intel-itanium-processor.html \u2014 Montecito showed 60% improvement; https://www.theregister.com/2005/02/28/itanium_04_sales/ \u2014 Itanium missed $28B revenue forecast by 95%, actual $1.4B in 2004."
+    },
+    "intelitaniummfewp1[1]-773ea2-OBS-008": {
+      "metric_name": "Xeon-Itanium cost parity achieved",
+      "metric_value": "Cost parity was NOT achieved. Intel scrapped the Common Platform Architecture (CPA) that would have allowed Itanium and Xeon to share chipsets and interconnects, as announced in October 2005. Itanium remained significantly more expensive than Xeon throughout its lifecycle. By 2005, IBM and Dell withdrew from Itanium market.",
+      "confidence": "refuted",
+      "source": "https://www.cnet.com/tech/tech-industry/intel-pushes-back-itanium-chips-revamps-xeon/ \u2014 'The demise of the common design' confirmed; https://en.eeworld.com.cn/news/qrs/eic421765.html \u2014 IBM and Dell withdrew from Itanium in 2005."
+    },
+    "intelitaniummfewp1[1]-773ea2-OBS-036": {
+      "metric_name": "Itanium long-term platform viability",
+      "metric_value": "Itanium failed as a long-term platform. Intel discontinued Itanium in 2021 (last orders January 2020, last shipment July 2021). By 2008, Itanium trailed x86-64, Power, and SPARC in server market share. HPE was the only remaining OEM customer from ~2015 onward. AMD64 (x86-64) became the dominant 64-bit architecture. Xeon captured >90% of server market.",
+      "confidence": "verified",
+      "source": "https://www.theregister.com/2019/02/01/intel_kills_itanium_again/ \u2014 Intel discontinued Itanium, final shipment July 2021; https://www.computing.co.uk/news/3070357/intel-to-phase-out-itanium-by-mid-2021 \u2014 HPE only remaining OEM customer."
+    },
+    "intel-ia2004-pk4-kc-edits-de9c37-OBS-015": {
+      "metric_name": "PCI-E vs PCI-X 266 adoption",
+      "metric_value": "PCI Express won decisively over PCI-X 266. PCI-X 2.0 (266 MHz) was never widely implemented; as of 2008 only IBM and HP offered limited PCI-X 2.0 support. Dell skipped PCI-X 2.0 entirely in favor of PCI Express. Intel sidelined PCI-X in their 2004 roadmap. PCI Express became the standard, adopted in servers from 2004 onward with PCIe 1.0 (2004), PCIe 2.0 (2007), PCIe 3.0 (2010).",
+      "confidence": "verified",
+      "source": "https://en.wikipedia.org/wiki/PCI-X \u2014 'PCI-X 2.0 has not been implemented on a large scale (as of 2008)... hardware vendors have chosen to integrate PCI Express instead'; https://madpcb.com/glossary/pci-x/ \u2014 Dell announced it would skip PCI-X 2.0 in 2003."
+    },
+    "intel-infiband-wp--edit-psk-5-22f-a2c551-OBS-011": {
+      "metric_name": "IBA production deployment timeline",
+      "metric_value": "InfiniBand achieved production deployment in HPC clusters by mid-2003 to 2004 as predicted. Oracle released InfiniBand performance results in April 2003. Cisco InfiniBand Server Fabric Switches were deployed in hundreds of clusters including Sandia National Laboratories (4,500 servers) by 2005. Major OEM transitions to InfiniBand began in 2004. Enterprise database deployments followed in late 2003 to 2004.",
+      "confidence": "verified",
+      "source": "https://www.edn.com/the-infiniband-architecture-for-2003-and-2004/ \u2014 HPC clusters deployed mid-2003; enterprise DB deployments late 2003/early 2004; https://newsroom.cisco.com \u2014 Cisco InfiniBand switches deployed in hundreds of clusters by 2005."
+    },
+    "intel-infiband-wp--edit-psk-5-22f-a2c551-OBS-013": {
+      "metric_name": "IBA vs PCI-X long-term",
+      "metric_value": "InfiniBand did not displace PCI-X in the general server market long-term. PCI Express replaced PCI-X as the standard local bus. InfiniBand found its niche in HPC clusters and high-speed interconnects (supercomputing, AI infrastructure), while Ethernet dominated general networking. As of 2025, InfiniBand remains significant in AI/HPC but Ethernet maintains overall market leadership per Dell'Oro Group.",
+      "confidence": "partially-verified",
+      "source": "https://www.cnet.com/tech/tech-industry/tried-and-true-beating-out-infiniband/ \u2014 'InfiniBand largely relegated to niche market'; https://finance.yahoo.com/news/infiniband-switch-sales-surged-2q-120000034.html \u2014 InfiniBand switch sales surged in 2Q 2025 for AI, but Ethernet maintains market lead."
+    },
+    "perspective-041304-e4be4c-OBS-015": {
+      "metric_name": "itanium-mainframe-displacement-actual",
+      "metric_value": "Itanium did NOT displace IBM mainframes. IBM mainframe (zSeries/System z/IBM Z) line remained active and grew. IBM introduced z990 (2003), z9 (2005), z10 (2008), z196 (2010), z13 (2015), z14 (2017), z15 (2019), z16 (2022), z17 (2025). Itanium was discontinued in 2021. Mainframe workloads stayed on IBM Z; Itanium was confined to HP Integrity servers and was ultimately abandoned.",
+      "confidence": "verified",
+      "source": "https://techchannel.com/ibm-z-mainframe/zarchitecture-evolution-for-client-needs/ \u2014 IBM Z mainframe line continuously evolved; https://www.ibm.com/history/eserver-zseries \u2014 Active IBM Z product line."
+    },
+    "snap-appliances-snapshot-10-15pk-f183fe-OBS-020": {
+      "metric_name": "Company survival as independent entity",
+      "metric_value": "Snap Appliance did NOT survive as an independent entity. It was acquired by Adaptec for $100M in July 2004 (approximately 2 years after being spun off from Quantum in October 2002). Adaptec then divested the storage systems business (including Snap) approximately one year later, ~2005.",
+      "confidence": "verified",
+      "source": "https://www.computerworld.com/article/1706750/adaptec-buys-snap-appliance-for-100m.html \u2014 Adaptec acquired Snap Appliance July 2004; https://www.enterprisestorageforum.com/news/adaptec-makes-snap-decision/ \u2014 Adaptec divested storage systems business ~2005."
+    },
+    "snap-appliances-snapshot-10-15pk-f183fe-OBS-021": {
+      "metric_name": "Company survival outcome",
+      "metric_value": "Snap Appliance was acquired by Adaptec (July 2004). The Snap Appliance brand and product line (SnapServer, GuardianOS) subsequently changed hands multiple times. The GuardianOS/SnapServer line eventually was acquired by Overland Storage (now Tandberg Data). The Snap Appliance entity itself dissolved into Adaptec and was not preserved as a standalone company.",
+      "confidence": "verified",
+      "source": "https://www.computerworld.com/article/1706750/adaptec-buys-snap-appliance-for-100m.html \u2014 Confirmed acquisition by Adaptec 2004; https://www.enterprisestorageforum.com/news/adaptec-makes-snap-decision/ \u2014 Adaptec divested systems business post-acquisition."
+    },
+    "sars2-hot-topic-cf91d4-OBS-016": {
+      "metric_name": "Time to qualify alternate production sources if PRC quarantined",
+      "metric_value": "During the 2003 SARS outbreak, the actual disruption to Chinese exports lasted approximately one to two quarters. China's industrial production growth declined to 13.7% in May 2003 (slowest for year), rebounded quickly. Electronics supply chains did not substantially diversify away from China following SARS \u2014 China's share of global output continued growing (from ~4% in 2003 to 16% today). Qualifying alternate sources for semiconductor/electronics manufacturing typically requires 12-24 months minimum.",
+      "confidence": "partially-verified",
+      "source": "https://www.cnbc.com/2020/02/11/coronavirus-4-charts-show-how-chinas-economy-in-2003.html \u2014 SARS caused temporary slowdown; https://etonbridgepartners.com/blog/will-supply-chains-diversify-away-from-china-post-covid-19/ \u2014 China's global output share grew from 4% (2003) to 16% post-SARS, showing no major diversification."
+    },
+    "sars2-hot-topic-cf91d4-OBS-021": {
+      "metric_name": "New capital investments in PRC/Hong Kong post-SARS",
+      "metric_value": "Post-SARS (2003), capital investment in China continued growing strongly. China's economy recovered quickly: GDP growth was 9.1% in Q2 2003 (during SARS) and accelerated after. Foreign direct investment into China continued increasing post-SARS. Electronics manufacturing investment in China (and Taiwan) grew substantially throughout 2004-2008. The SARS outbreak did not deter new capital investments in PRC/Hong Kong.",
+      "confidence": "verified",
+      "source": "https://www.cnbc.com/2020/02/11/coronavirus-4-charts-show-how-sars-hit-chinas-economy-in-2003.html \u2014 China GDP grew 9.1% during SARS in Q2 2003, with fast recovery; https://hwtang.com/uploads/3/0/7/2/3072318/sars_ft.pdf \u2014 SARS had medium-term effects on trade but China remained investment destination."
+    },
+    "the-business-value-in-it-outsourcing-7d5f23-OBS-016": {
+      "metric_name": "IT outsourcing sub-optimal rate - actual",
+      "metric_value": "~50% of IT outsourcing deals considered unsuccessful/sub-optimal; 40% failure rate in some studies of ITO contracts",
+      "confidence": "high",
+      "notes": "Gartner reported in 2003 that 50% of IT outsourcing deals in 2003 would be considered unsuccessful in delivering expected value. A 2005 Gartner study on customer service outsourcing predicted 80% of cost-motivated outsourcing deals would fail. A study of 30 ITO contracts found 40% failure rate. Dun & Bradstreet's Barometer of Global Outsourcing found 20-25% of outsourcing relationships fail within 2 years, 50% within 5. Only 5% of organizations in a worldwide survey by PA Consulting Group achieved expected cost savings from outsourcing. These findings broadly confirm predictions that IT outsourcing sub-optimal rates are substantial \u2014 in the range of 40-70%.",
+      "source": "https://www.cnet.com/tech/tech-industry/gartner-it-outsourcing-will-disappoint/ ; https://idm.net.au/blog/003127gartner-outsourcing-cut-costs-destined-fail"
+    },
+    "technology-themes-ee5ba4-OBS-019": {
+      "metric_name": "WiFi hotspot profitability outlook - actual",
+      "metric_value": "WiFi hotspot profitability largely failed to materialize as predicted in 2003-2004 timeframe; adoption revised downward",
+      "confidence": "high",
+      "notes": "WiFi hotspot revenue and subscriber adoption were revised downward by analysts in 2004. InStat/MDR estimated only $28M in US hotspot revenue in 2003, well below forecasts. Wall Street Journal noted adoption hadn't met predictions. Small WISP operators largely failed. Pricing remained high ($25-75/month) creating a 'chicken and egg' problem. The eventual hotspot proliferation came through free WiFi at venues (Starbucks moved from T-Mobile to AT&T in 2008, then to free WiFi), not through the paid subscription model envisioned. T-Mobile Hotspot (Starbucks) did not achieve broad profitability as a standalone business; Starbucks dropped T-Mobile for AT&T in 2008 and ultimately moved to free WiFi.",
+      "source": "https://wifinetnews.com/archives/2004/03/wi-fi_hotspot_revenue_adoption_revised_downward.html ; https://www.engadget.com/2008-02-11-starbucks-brews-up-wifi-relationship-with-atandt-tosses-t-mobile.html"
+    },
+    "technology-themes-ee5ba4-OBS-021": {
+      "metric_name": "SOX compliance impact - actual",
+      "metric_value": "SOX compliance costs proved significantly higher than initially estimated; substantial IT and audit spending increases confirmed",
+      "confidence": "high",
+      "notes": "SOX Section 404 compliance costs significantly exceeded initial estimates. AMR Research (2005) found companies would spend nearly $15.5B on compliance-related activities in 2005, with 28% of SOX spending on technology. Average compliance costs for smaller companies reached ~$1.8M per $1B in sales. Audit fees increased by 43% for smaller firms and 23% for larger firms post-SOX (Berkeley study). SOX drove a dramatic increase in IT outsourcing to Indian IT vendors (Wall St. Journal 2005). An astounding 93% of CIOs were initially unaware of their IT control assessment responsibilities under SOX (survey). Compliance spending grew 50% in technology between 2004 and 2005. The overall impact was substantial, expensive, and transformative for IT governance and compliance tech spending.",
+      "source": "https://www.plm.automation.siemens.com/zh_cn/Images/AMR_-_Spending_in_an_Age_of_Compliance_2005_05-03-20_tcm78-37241.pdf ; https://cacm.acm.org/research/the-sarbanes-oxley-act/"
+    }
+  },
+  "last_updated": "2026-04-10T22:58:51.091930"
+}

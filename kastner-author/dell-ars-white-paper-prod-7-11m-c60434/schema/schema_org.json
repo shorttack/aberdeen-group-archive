@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dell Asset Recovery Services: a Trustworthy Partner for Eliminating Aging IT Assets",
+  "description": "Aberdeen Group white paper commissioned by Dell examining the financial and legal risks of decommissioned IT equipment. Analyzes the seven steps of an IT asset end-of-life process with itemized cost breakdowns, argues that PC residual value declines 9.6% per month, estimates DIY disposal at $387+ per unit vs. Dell ARS at $49-$79 per unit, and recommends that enterprises disposing of 3,000+ PCs annually adopt a trusted asset recovery partner. Concludes that disposal costs exceed 25% of initial PC acquisition cost and are rising.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

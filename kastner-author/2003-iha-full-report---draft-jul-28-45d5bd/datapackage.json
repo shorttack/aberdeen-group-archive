@@ -1,91 +1,134 @@
 {
-  "name": "2003-iha-full-report---draft-jul-28-45d5bd",
+  "name": "iha-full-report---draft-jul-28-41de81",
   "title": "Consumer Adoption of Memory Cards: A Qualitative Study",
-  "description": "Archival data package for the Aberdeen Group qualitative study on consumer adoption of SD memory cards, commissioned by the Internet Home Alliance (IHA) in July 2003. Contains structured observations, entity records, technology assessments, and the original document text.",
+  "description": "Aberdeen Group qualitative study commissioned by the Internet Home Alliance (IHA) to understand consumer adoption barriers and purchase intent for SD Memory Cards in 2003. Research found digital electronics market maturing rapidly with digital cameras as primary entry point. Key findings: consumers broadly aware of memory cards but unable to identify specific formats/brands; primary adoption barrier is lack of compatible equipment; SD card seen as versatile with high 'cool factor' after demonstration; market transition to SD expected to take a decade; preferred capacity 256MB-1GB; willingness to pay premium of 10-15% for SD capability. Covers retail channel expectations, communication strategies, and data transfer behaviors.",
   "version": "1.0.0",
-  "created": "2026-03-16",
-  "profile": "tabular-data-package",
+  "created": "2026-04-10",
   "licenses": [
     {
-      "name": "restricted-distribution",
-      "title": "Restricted Distribution",
-      "path": null
-    }
-  ],
-  "sources": [
-    {
-      "title": "Consumer Adoption of Memory Cards: A Qualitative Study",
-      "path": "source/original_text.md",
-      "author": "Aberdeen Group",
-      "date": "2003-07-28"
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "contributors": [
     {
-      "title": "Aberdeen Group",
+      "title": "Peter S. Kastner",
       "role": "author"
-    },
-    {
-      "title": "Internet Home Alliance",
-      "role": "commissioner"
-    },
-    {
-      "title": "Archival Ingest Skill v13",
-      "role": "processor"
     }
   ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "study_id", "type": "string", "description": "Unique identifier for the study"},
-          {"name": "title", "type": "string", "description": "Full title of the study"},
-          {"name": "author", "type": "string", "description": "Author or organization that produced the study"},
-          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
-          {"name": "type", "type": "string", "description": "Study type classification"},
-          {"name": "subject_domain", "type": "string", "description": "Primary subject domain"},
-          {"name": "methodology", "type": "string", "description": "Research methodology used"},
-          {"name": "source_file", "type": "string", "description": "Original source filename"},
-          {"name": "abstract", "type": "string", "description": "Study abstract"},
-          {"name": "license", "type": "string", "description": "Distribution license"},
-          {"name": "importance", "type": "integer", "description": "Importance score (1-10)"},
-          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance score"},
-          {"name": "relevance", "type": "integer", "description": "Relevance score (1-10)"},
-          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance score"},
-          {"name": "prescience", "type": "integer", "description": "Prescience score (1-10)"},
-          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience score"}
-        ],
-        "primaryKey": "study_id"
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "entity_id", "type": "string", "description": "Unique entity identifier"},
-          {"name": "entity_name", "type": "string", "description": "Name of the entity"},
-          {"name": "entity_type", "type": "string", "description": "Type classification of the entity"},
-          {"name": "sector", "type": "string", "description": "Industry sector"},
-          {"name": "status", "type": "string", "description": "Current status of the entity"},
-          {"name": "successor", "type": "string", "description": "Successor entity if applicable"},
-          {"name": "years_active", "type": "string", "description": "Years of active operation"},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "entity_id",
-        "foreignKeys": [
           {
-            "fields": "study_id",
-            "reference": {"resource": "studies", "fields": "study_id"}
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -93,26 +136,43 @@
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "tech_id", "type": "string", "description": "Unique technology identifier"},
-          {"name": "tech_name", "type": "string", "description": "Name of the technology"},
-          {"name": "category", "type": "string", "description": "Technology category"},
-          {"name": "vendor", "type": "string", "description": "Primary vendor or standards body"},
-          {"name": "era", "type": "string", "description": "Decade of introduction"},
-          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study"},
-          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "tech_id",
-        "foreignKeys": [
           {
-            "fields": "study_id",
-            "reference": {"resource": "studies", "fields": "study_id"}
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -120,37 +180,55 @@
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "obs_id", "type": "string", "description": "Unique observation identifier (OBS-NNN)"},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study"},
-          {"name": "entity_id", "type": "string", "description": "Single entity reference"},
-          {"name": "tech_id", "type": "string", "description": "Technology reference"},
-          {"name": "observation_type", "type": "string", "description": "One of 8 canonical types: strategy-classification, viability-prediction, actual-outcome, technology-assessment, benchmark-result, framework-factor, market-data, expert-opinion"},
-          {"name": "year_observed", "type": "year", "description": "Year of observation"},
-          {"name": "metric_name", "type": "string", "description": "Name of the metric or finding"},
-          {"name": "metric_value", "type": "string", "description": "Value or description of the finding"},
-          {"name": "confidence", "type": "string", "description": "Confidence level code"},
-          {"name": "methodology_code", "type": "string", "description": "Methodology code reference"},
-          {"name": "source_page", "type": "string", "description": "Source section or page reference"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
-        ],
-        "primaryKey": "obs_id",
-        "foreignKeys": [
           {
-            "fields": "study_id",
-            "reference": {"resource": "studies", "fields": "study_id"}
+            "name": "obs_id",
+            "type": "string"
           },
           {
-            "fields": "entity_id",
-            "reference": {"resource": "entities", "fields": "entity_id"}
+            "name": "study_id",
+            "type": "string"
           },
           {
-            "fields": "tech_id",
-            "reference": {"resource": "technologies", "fields": "tech_id"}
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -158,17 +236,25 @@
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "code_id", "type": "string", "description": "Unique code identifier"},
-          {"name": "code_type", "type": "string", "description": "Code category (methodology, confidence, observation_type)"},
-          {"name": "label", "type": "string", "description": "Human-readable label"},
-          {"name": "definition", "type": "string", "description": "Definition of the code"}
-        ],
-        "primaryKey": "code_id"
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
       }
     }
   ]

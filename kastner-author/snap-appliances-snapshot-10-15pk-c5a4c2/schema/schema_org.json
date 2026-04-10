@@ -1,113 +1,25 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Snap Appliance",
-  "description": "Frictionless Data Package for Aberdeen Group profile (October 2003) of Snap Appliance Inc., the volume-leading NAS provider with over 130,000 installed units. Covers product line from workgroup to enterprise NAS appliances using ATA disks, including SnapOS and GuardianOS operating systems.",
-  "url": "",
-  "identifier": "snap-appliances-snapshot-10-15pk-c5a4c2",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "datePublished": "2003-10-15",
-  "dateCreated": "2026-03-16",
+  "name": "Aberdeen Vendor SnapShot: Snap Appliance Inc.",
+  "description": "Aberdeen vendor snapshot profile of Snap Appliance Inc. (formerly Meridian Data, then Quantum subsidiary), the number-one volume NAS provider with 130,000+ unit installed base. Covers product line from workgroup (Snap Server 1100/2200) through departmental (4100/4200/4500) and enterprise (SnapServer 14000) tiers, software partnerships, and ATA-based midline storage positioning.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "One Boston Place",
-      "addressLocality": "Boston",
-      "addressRegion": "MA",
-      "postalCode": "02108",
-      "addressCountry": "US"
-    }
+    "@type": "Person",
+    "name": "Peter S. Kastner"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group"
-  },
-  "keywords": [
-    "network attached storage",
-    "NAS",
-    "Snap Appliance",
-    "Snap Server",
-    "ATA disk",
-    "RAID",
-    "workgroup storage",
-    "enterprise storage",
-    "SMB storage",
-    "data storage",
-    "mid-line disk",
-    "storage appliance"
-  ],
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Network Attached Storage",
-      "alternateName": "NAS"
-    },
-    {
-      "@type": "Thing",
-      "name": "Data Storage"
-    },
-    {
-      "@type": "Thing",
-      "name": "Storage Appliances"
-    }
-  ],
-  "temporalCoverage": "2003",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "North America"
-  },
-  "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "installed_customer_base",
-      "description": "Number of NAS units installed at customer sites",
-      "unitText": "units"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "storage_capacity",
-      "description": "Maximum storage capacity of NAS appliances",
-      "unitText": "terabytes"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "user_capacity",
-      "description": "Number of concurrent users supported per NAS unit",
-      "unitText": "users"
-    }
-  ],
+  "datePublished": "2003",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "data/studies.csv",
-      "name": "Studies metadata"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/entities.csv",
-      "name": "Entities referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/technologies.csv",
-      "name": "Technologies referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/observations.csv",
-      "name": "Structured observations extracted from the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/codes.csv",
-      "name": "Code definitions for observation types, confidence levels, and methodologies"
+      "contentUrl": "data/observations.csv"
     }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

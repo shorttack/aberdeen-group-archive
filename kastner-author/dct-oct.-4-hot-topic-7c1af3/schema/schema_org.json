@@ -1,137 +1,25 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "@id": "dct-oct.-4-hot-topic-7c1af3",
   "name": "New Consumer Electronics Categories Appear in Time for Christmas",
-  "description": "Frictionless Data Package for Aberdeen Hot Topic study analyzing emerging consumer electronics categories for Christmas 2003, including the ZVUE pocket video player, Roku HD1000 HDTV media player, NEC fuel cell laptop, and market disruption from non-traditional CE companies.",
-  "url": "",
-  "identifier": "dct-oct.-4-hot-topic-7c1af3",
+  "description": "Aberdeen hot topic report authored by Russ Craig covering new consumer electronics product categories emerging in October 2003. Three products are highlighted: (1) Hand Held Entertainment's ZVUE pocket video/music player ($99, SD card-based, MPEG-4), a low-cost challenger to Sony's Clie; (2) Roku HD1000 HDTV digital media player ($499.99, Linux-based, WiFi/Ethernet, multi-card slots) by ReplayTV founder Anthony Wood; (3) NEC's water/methanol fuel-cell laptop prototype shown at WPC Expo Tokyo (5-hour battery, planned sale 2004; 40-hour version planned 2005). Aberdeen concludes that non-traditional CE companies are driving innovation while traditional global CE brands fall by the wayside.",
+  "creator": {
+    "@type": "Person",
+    "name": "Russ Craig"
+  },
+  "datePublished": "2003-10",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateCreated": "2003-10-04",
-  "datePublished": "2003-10-04",
-  "dateModified": "2026-03-16",
-  "creator": [
-    {
-      "@type": "Person",
-      "name": "Russ Craig",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Aberdeen Group"
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Peter Kastner",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Aberdeen Group"
-      }
-    }
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "description": "Technology market research and advisory firm"
-  },
-  "keywords": [
-    "consumer electronics",
-    "portable video player",
-    "ZVUE",
-    "Hand Held Entertainment",
-    "Roku",
-    "HD1000",
-    "NEC",
-    "fuel cell",
-    "HDTV",
-    "SD memory card",
-    "Sony Clié",
-    "Panasonic",
-    "market disruption",
-    "non-traditional competitors"
-  ],
-  "temporalCoverage": "2003-10-04",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "United States"
-  },
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Consumer Electronics",
-      "description": "Emerging consumer electronics product categories for the 2003 holiday season"
-    },
-    {
-      "@type": "Product",
-      "name": "ZVUE Pocket Video Player",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Hand Held Entertainment"
-      },
-      "description": "Portable video/music player with 2.5-inch color display, $99 price point, SD card storage"
-    },
-    {
-      "@type": "Product",
-      "name": "Roku HD1000",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Roku"
-      },
-      "description": "HDTV digital media player with Linux OS, WiFi, multiple card slots, $499.99"
-    },
-    {
-      "@type": "Product",
-      "name": "NEC Fuel Cell Laptop",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "NEC Corporation"
-      },
-      "description": "Prototype laptop powered by methanol/water fuel cell with 5-hour battery life"
-    },
-    {
-      "@type": "Product",
-      "name": "Sony UX40 Clié",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Sony"
-      },
-      "description": "PDA with video capability using 1GB Memory Stick Pro, total solution cost $1,359"
-    }
-  ],
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "data/studies.csv",
-      "name": "Studies"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/entities.csv",
-      "name": "Entities"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/technologies.csv",
-      "name": "Technologies"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/observations.csv",
-      "name": "Observations"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/codes.csv",
-      "name": "Codes"
+      "contentUrl": "data/observations.csv"
     }
   ],
-  "isPartOf": {
-    "@type": "DataCatalog",
-    "name": "Aberdeen Group Research Archive",
-    "description": "Archived technology research studies from Aberdeen Group"
-  }
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
 }

@@ -1,78 +1,134 @@
 {
-  "name": "amd-profile01-db9623",
+  "name": "amd-profile01-64e43b",
   "title": "AMD's Gigahertz Equivalency: Confused Customers Accept Bad Science",
-  "description": "Frictionless Data Package for Aberdeen Group white paper critically analyzing AMD's Athlon XP gigahertz equivalency model numbering methodology, examining benchmark flaws, conceptual methodology problems, and predicting AMD's abandonment of the GHz equivalency approach (March 2002).",
+  "description": "Aberdeen Group critiques AMD's Athlon XP Gigahertz Equivalency (GHz-E) marketing strategy, arguing the model-numbering methodology is fundamentally flawed. GHz-E ratings are a snapshot-in-time metric that becomes misleading as benchmarks, operating systems, and Intel processors evolve. The paper documents benchmark disclosure failures (SYSmark 2001 not filed with Bapco), a Media Player bug fix incorporated post-audit, and I/O-inclusive benchmarks misapplied to processor-only comparison. Aberdeen concludes AMD will be forced to abandon GHz-E in 2002 and recommends investigation of SPECcpu 2000 as an alternative framework via the True Performance Initiative.",
   "version": "1.0.0",
-  "created": "2026-03-16",
+  "created": "2026-04-10",
   "licenses": [
     {
       "name": "CC-BY-4.0",
-      "path": "https://creativecommons.org/licenses/by/4.0/",
-      "title": "Creative Commons Attribution 4.0 International"
+      "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "contributors": [
     {
-      "title": "Aberdeen Group",
+      "title": "Peter S. Kastner",
       "role": "author"
-    },
-    {
-      "title": "Archival Ingest Skill v13",
-      "role": "publisher"
     }
   ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "study_id", "type": "string", "description": "Unique identifier for the study", "constraints": {"required": true}},
-          {"name": "title", "type": "string", "description": "Full title of the study"},
-          {"name": "author", "type": "string", "description": "Author or publishing organization"},
-          {"name": "date", "type": "date", "description": "Publication date in ISO 8601 format"},
-          {"name": "type", "type": "string", "description": "Study type classification", "constraints": {"enum": ["article", "white-paper", "benchmark-report", "case-study", "analyst-report"]}},
-          {"name": "subject_domain", "type": "string", "description": "Primary subject domain of the study"},
-          {"name": "methodology", "type": "string", "description": "Primary research methodology used"},
-          {"name": "source_file", "type": "string", "description": "Original source filename"},
-          {"name": "abstract", "type": "string", "description": "Study abstract or summary"},
-          {"name": "license", "type": "string", "description": "License identifier"},
-          {"name": "importance", "type": "string", "description": "Assessed importance rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
-          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
-          {"name": "relevance", "type": "string", "description": "Assessed relevance rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
-          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
-          {"name": "prescience", "type": "string", "description": "Assessed prescience rating", "constraints": {"enum": ["high", "medium", "low", "not-applicable"]}},
-          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
-        ],
-        "primaryKey": ["study_id"]
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "entity_id", "type": "string", "description": "Unique identifier for the entity", "constraints": {"required": true}},
-          {"name": "entity_name", "type": "string", "description": "Full name of the entity"},
-          {"name": "entity_type", "type": "string", "description": "Type of entity", "constraints": {"enum": ["company", "research-firm", "government", "consortium", "individual", "corporation"]}},
-          {"name": "sector", "type": "string", "description": "Industry sector"},
-          {"name": "status", "type": "string", "description": "Current operational status", "constraints": {"enum": ["active", "acquired", "defunct", "merged", "unknown", "dissolved", "restructured"]}},
-          {"name": "successor", "type": "string", "description": "Successor entity if acquired or merged"},
-          {"name": "years_active", "type": "string", "description": "Years of operation"},
-          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
-          {"name": "notes", "type": "string", "description": "Additional notes about the entity"}
-        ],
-        "primaryKey": ["entity_id"],
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -80,26 +136,43 @@
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "tech_id", "type": "string", "description": "Unique identifier for the technology", "constraints": {"required": true}},
-          {"name": "tech_name", "type": "string", "description": "Full name of the technology"},
-          {"name": "category", "type": "string", "description": "Technology category"},
-          {"name": "vendor", "type": "string", "description": "Primary vendor or provider if applicable"},
-          {"name": "era", "type": "string", "description": "Era of primary relevance"},
-          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study", "constraints": {"enum": ["emerging", "growth", "mature", "declining", "obsolete"]}},
-          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage", "constraints": {"enum": ["emerging", "growth", "mature", "declining", "obsolete"]}},
-          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
-          {"name": "notes", "type": "string", "description": "Additional notes about the technology"}
-        ],
-        "primaryKey": ["tech_id"],
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -107,37 +180,55 @@
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "obs_id", "type": "string", "description": "Unique observation identifier", "constraints": {"required": true, "pattern": "^OBS-[0-9]{3}$"}},
-          {"name": "study_id", "type": "string", "description": "Associated study identifier"},
-          {"name": "entity_id", "type": "string", "description": "Associated entity identifier"},
-          {"name": "tech_id", "type": "string", "description": "Associated technology identifier"},
-          {"name": "observation_type", "type": "string", "description": "Type of observation", "constraints": {"enum": ["strategy-classification", "viability-prediction", "actual-outcome", "technology-assessment", "benchmark-result", "framework-factor", "market-data", "expert-opinion"]}},
-          {"name": "year_observed", "type": "integer", "description": "Year the observation was made or applies to"},
-          {"name": "metric_name", "type": "string", "description": "Name of the metric or measure"},
-          {"name": "metric_value", "type": "string", "description": "Value of the metric or measure"},
-          {"name": "confidence", "type": "string", "description": "Confidence level in the observation", "constraints": {"enum": ["high", "medium", "low", "verified"]}},
-          {"name": "methodology_code", "type": "string", "description": "Research methodology used", "constraints": {"enum": ["industry-analysis", "competitive-profiling", "benchmarking", "field-research", "document-review", "statistical-analysis"]}},
-          {"name": "source_page", "type": "string", "description": "Source page reference"},
-          {"name": "notes", "type": "string", "description": "Additional notes about the observation"}
-        ],
-        "primaryKey": ["obs_id"],
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "obs_id",
+            "type": "string"
           },
           {
-            "fields": ["entity_id"],
-            "reference": {"resource": "entities", "fields": ["entity_id"]}
+            "name": "study_id",
+            "type": "string"
           },
           {
-            "fields": ["tech_id"],
-            "reference": {"resource": "technologies", "fields": ["tech_id"]}
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -145,17 +236,25 @@
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "code_id", "type": "string", "description": "Code identifier", "constraints": {"required": true}},
-          {"name": "code_type", "type": "string", "description": "Type of code", "constraints": {"enum": ["observation_type", "confidence", "methodology_code", "study_type", "importance", "relevance", "prescience", "entity_type", "entity_status"]}},
-          {"name": "label", "type": "string", "description": "Human-readable label for the code"},
-          {"name": "definition", "type": "string", "description": "Definition of the code"}
-        ],
-        "primaryKey": ["code_id", "code_type"]
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
       }
     }
   ]

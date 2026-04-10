@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "2010 Business Computers Leave the Starting Gate",
+  "description": "Aberdeen/Kastner creative editorial piece dated February 4, 2010, written in a press-release narrative style for Intel. Describes the launch of 2010 business PCs and notebooks based on Core i5/i7 Westmere (32nm) processors with vPro technology. Covers processor performance, power management, hardware encryption, remote manageability features, OEM models (Lenovo, Dell, HP), and the vPro ecosystem partners (VMware, Symantec, Citrix, Microsoft). Targets both enterprise IT and SMB audiences. Quotes Rich Echevarria, Intel general manager of business client.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2010-02-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

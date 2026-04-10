@@ -2,114 +2,24 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "The Business Value in IT Outsourcing",
-  "description": "Frictionless Data Package for Aberdeen Group research brief (June 2006) by Peter S. Kastner hypothesizing that IT outsourcing engagements fall into three maturity tiers: approximately 30% seriously misaligned, 50-66% sub-optimal, and only 5-10% driving full anticipated business value. The brief identifies five major outsourcing drivers and nine challenge areas, drawing on surveys of 2,000+ companies on IT maturity.",
-  "url": "",
-  "identifier": "the-business-value-in-it-outsourcing-e8d0fc",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "datePublished": "2006-06-01",
-  "dateCreated": "2026-03-16",
+  "description": "Aberdeen research brief announcing a benchmark study on IT outsourcing business value, to be published late June 2006. Identifies five key drivers for outsourcing (core competency focus, cost savings, resource constraints, time-to-market, culture wars); describes a maturity model for outsourcing outcomes; classifies enterprises into three tiers: misaligned (~30%), sub-optimal (50-67%), and optimal (5-10%) outsourcing engagements. Author is Peter Kastner, VP Enterprise Integration Research.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "One Boston Place",
-      "addressLocality": "Boston",
-      "addressRegion": "MA",
-      "postalCode": "02108",
-      "addressCountry": "US"
-    }
+    "@type": "Person",
+    "name": "Peter S. Kastner"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group"
-  },
-  "keywords": [
-    "IT outsourcing",
-    "outsourcing governance",
-    "service level agreements",
-    "IT maturity model",
-    "business process outsourcing",
-    "outsourcing metrics",
-    "change management",
-    "conflict resolution",
-    "ROI measurement",
-    "outsourcing contract management",
-    "enterprise integration",
-    "SOA",
-    "Global 5000",
-    "benchmarking"
-  ],
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "IT Outsourcing",
-      "alternateName": "Information Technology Outsourcing"
-    },
-    {
-      "@type": "Thing",
-      "name": "Outsourcing Governance"
-    },
-    {
-      "@type": "Thing",
-      "name": "IT Maturity Model"
-    }
-  ],
-  "temporalCoverage": "2004/2006",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "Global"
-  },
-  "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "outsourcing_maturity_tier",
-      "description": "Classification of IT outsourcing engagements into misaligned, sub-optimal, or optimal tiers",
-      "unitText": "percent"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "roi_measurement_frequency",
-      "description": "Frequency of measuring ROI after software application upgrades or changes as IT maturity indicator",
-      "unitText": "percent"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "survey_base_size",
-      "description": "Number of companies surveyed on IT organizational maturity",
-      "unitText": "count"
-    }
-  ],
+  "datePublished": "2006-05-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "data/studies.csv",
-      "name": "Studies metadata"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/entities.csv",
-      "name": "Entities referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/technologies.csv",
-      "name": "Technologies referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/observations.csv",
-      "name": "Structured observations extracted from the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/codes.csv",
-      "name": "Code definitions for observation types, confidence levels, and methodologies"
+      "contentUrl": "data/observations.csv"
     }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

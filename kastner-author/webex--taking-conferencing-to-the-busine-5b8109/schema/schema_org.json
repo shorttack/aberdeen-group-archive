@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "WebEx: Taking Conferencing to the Business Communications Summit",
+  "description": "Aberdeen Group vendor profile of WebEx Communications, analyzing its emergence as leader in high-end Web conferencing. Documents WebEx's third-generation Mediatone infrastructure and private WAN architecture as key differentiators versus competitors. Covers the five-level Aberdeen model for real-time business communications, new Training Center service, multimedia capabilities (UCF, Access Anywhere, multipoint video), and the market shift away from face-to-face meetings accelerated by the 2001 recession and post-9/11 travel concerns. At April 2002, WebEx had 5,000+ customers growing at 800+ per quarter.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

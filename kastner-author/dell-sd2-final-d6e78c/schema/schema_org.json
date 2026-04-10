@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Asset Recovery Services Field Guide: A New Way to Strengthen Relationships and Increase Sales",
+  "description": "Dell internal confidential field guide for sales representatives selling Asset Recovery Services (ARS). Covers mission overview (80% of customers store unwanted hardware), two disposition services (Value Recovery at $59-$69/unit and Recycling at $49-$59/unit), flexible logistics options, detailed reporting requirements, FAQ with researched objection responses, and SKU/legend code chart for order entry. Positions ARS as a customer relationship tool that also generates revenue and margin credit for sales.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-2004",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

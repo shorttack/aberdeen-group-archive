@@ -1,25 +1,34 @@
 code_id,code_type,label,definition
-CODE-001,observation_type,strategy-classification,Classification of a strategic approach or business strategy adopted by an entity
-CODE-002,observation_type,viability-prediction,Forward-looking prediction about the viability or success of a technology or approach
-CODE-003,observation_type,actual-outcome,Verified historical outcome that can be compared against predictions made at time of study
-CODE-004,observation_type,technology-assessment,Technical evaluation of a product or platform's capabilities and characteristics
-CODE-005,observation_type,benchmark-result,Quantitative performance metric or ROI measurement from research or vendor claims
-CODE-006,observation_type,framework-factor,Structural factor or tradeoff shaping strategic decisions in the domain
-CODE-007,observation_type,market-data,Quantitative or qualitative data about market size or conditions or pricing or adoption
-CODE-008,observation_type,expert-opinion,Professional judgment or recommendation from a domain expert
-CODE-009,confidence,high,Strong evidence from primary sources or widely verified historical claims
-CODE-010,confidence,medium,Reasonable evidence but involves estimation or limited sourcing
-CODE-011,confidence,low,Speculative or weakly supported claim
-CODE-012,entity_type,company,Corporation or business entity operating in technology markets
-CODE-013,entity_type,analyst-firm,Technology research and advisory firm
-CODE-014,entity_type,consulting-firm,Professional services and consulting organization
-CODE-015,entity_type,person,Individual contributor or domain expert
-CODE-016,entity_type,retailer,Retail business selling technology products to consumers
-CODE-017,methodology_code,expert-opinion,Observation derived from author's professional judgment or analyst recommendation
-CODE-018,methodology_code,primary-source,Directly stated in the source document as factual claim
-CODE-019,methodology_code,vendor-claim,Performance or capability claim originating from product vendor
-CODE-020,methodology_code,industry-estimate,Estimate or projection from industry sources cited in document
-CODE-021,methodology_code,third-party-research,Research findings cited from external organization
-CODE-022,methodology_code,proprietary-research,Research findings from author's own organization (Aberdeen Group)
-CODE-023,methodology_code,historical-verification,Post-hoc verification of claims against known historical outcomes
-CODE-024,study_type,opinion-piece,Expert commentary or editorial analysis published by analyst firm
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+product-evaluation,observation_type,Product Evaluation,Study-specific code: product-evaluation
+market-sizing,observation_type,Market Sizing,Study-specific code: market-sizing
+primary-source,methodology,Primary Source,Study-specific code: primary-source
+competitive-position,observation_type,Competitive Position,Study-specific code: competitive-position
+technology-adoption,observation_type,Technology Adoption,Study-specific code: technology-adoption
+risk-assessment,observation_type,Risk Assessment,Study-specific code: risk-assessment
+survey,methodology,Survey,Study-specific code: survey
+unknown [REVIEW],methodology,[Deferred],Study-specific code: unknown [REVIEW]
+trend-analysis,observation_type,Trend Analysis,Study-specific code: trend-analysis
+recommendation,observation_type,Recommendation,Study-specific code: recommendation

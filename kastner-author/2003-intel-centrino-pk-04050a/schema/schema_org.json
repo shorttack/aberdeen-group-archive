@@ -1,124 +1,25 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Intel's Centrino: Don't Man the Barricades - Archival Data Package",
-  "description": "Frictionless Data Package containing structured observations extracted from a 2003 Aberdeen Group opinion piece by Peter S. Kastner about Intel's Centrino wireless notebook platform launch, enterprise wireless adoption challenges, and security considerations.",
-  "identifier": "2003-intel-centrino-pk-04050a",
-  "url": "https://example.org/archive/2003-intel-centrino-pk-04050a",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "dateCreated": "2026-03-16",
-  "datePublished": "2003-03-15",
-  "temporalCoverage": "2003-03-12/2003-03-15",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "United States"
-  },
+  "name": "Intel's Centrino: Don't Man the Barricades",
+  "description": "Aberdeen/Kastner expert editorial on Intel's Centrino platform launch (March 12, 2003). Analyzes Centrino as integrated mobile Pentium 4 + chipset + 802.11 wireless adapter. Warns IT executives against banning wireless notebooks (the 'barricade' metaphor) in response to rogue access point threats. Cites Aberdeen research showing 30 min/day productivity gains for campus workers; PricewaterhouseCoopers ROI data (6-month payback). Recommends embracing wireless via Cisco LEAP and Windows Server 2003 hardening rather than disabling Centrino's wireless capability.",
   "creator": {
-    "@type": "Organization",
-    "name": "Archival Ingest Pipeline v13"
-  },
-  "author": {
     "@type": "Person",
-    "name": "Peter S. Kastner",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "Aberdeen Group"
-    },
-    "jobTitle": "Executive Vice President, Research"
+    "name": "Peter S. Kastner"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group"
-  },
-  "keywords": [
-    "Intel Centrino",
-    "wireless networking",
-    "802.11",
-    "Wi-Fi",
-    "enterprise mobility",
-    "notebook computers",
-    "wireless security",
-    "rogue access points",
-    "Cisco LEAP",
-    "Windows Server 2003",
-    "mobile computing",
-    "technology adoption",
-    "IT strategy"
-  ],
-  "about": [
-    {
-      "@type": "Product",
-      "name": "Intel Centrino",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Intel Corporation"
-      },
-      "description": "Integrated wireless notebook platform combining mobile Pentium 4, chipset, and 802.11 wireless adapter"
-    },
-    {
-      "@type": "Thing",
-      "name": "802.11 Wi-Fi",
-      "description": "IEEE wireless Ethernet standard"
-    },
-    {
-      "@type": "Thing",
-      "name": "Cisco LEAP",
-      "description": "Proprietary wireless authentication protocol"
-    }
-  ],
+  "datePublished": "2003-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "name": "studies.csv",
-      "description": "Study metadata record (16 fields)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "entities.csv",
-      "description": "Organizations and individuals referenced in the study (9 fields)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "technologies.csv",
-      "description": "Technologies and platforms referenced in the study (9 fields)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "observations.csv",
-      "description": "Structured observations extracted from the study (12 fields)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "codes.csv",
-      "description": "Code definitions for categorical fields (4 fields)"
+      "contentUrl": "data/observations.csv"
     }
   ],
-  "measurementTechnique": "Expert manual extraction with AI-assisted structuring via Archival Ingest Skill v13",
   "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "observation_type",
-      "description": "Category of observation: strategy-classification, viability-prediction, actual-outcome, technology-assessment, benchmark-result, framework-factor, market-data, expert-opinion"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "confidence",
-      "description": "Confidence level of the observation (high, medium, low)"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "metric_name",
-      "description": "Named metric or dimension being measured in each observation"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "metric_value",
-      "description": "Value of the measured metric (quantitative or categorical)"
-    }
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

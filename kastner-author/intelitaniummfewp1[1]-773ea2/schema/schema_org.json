@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel's Itanium: Ready and Desirable for Mainframe-Class Workloads",
+  "description": "Aberdeen Executive White Paper examining readiness of Intel Itanium-based platforms to handle mainframe-class workloads vs. IBM zSeries mainframes. Based on user interviews with Xeon/Itanium adopters and a survey of ~100 mainframe users. Finds Itanium ready and often desirable for mainframe-class workloads including batch, OLTP, data warehousing, and ERP; 40% of mainframe users open to migration. Key advantages: price/performance, flexibility, programmer productivity, lower TCO. Key barriers: migration risk and technology roadmap risk.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2004-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

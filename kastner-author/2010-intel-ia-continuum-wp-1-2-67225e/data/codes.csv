@@ -1,44 +1,30 @@
 code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Classification of an entity's strategic approach or market positioning
-viability-prediction,observation_type,Viability Prediction,Forward-looking assessment of an entity's or technology's long-term viability
-actual-outcome,observation_type,Actual Outcome,Documented outcome that occurred after the study's observation period
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's capabilities or maturity level
-benchmark-result,observation_type,Benchmark Result,Quantitative or comparative measurement from research or field data
-framework-factor,observation_type,Framework Factor,Structural factor or dynamic identified in the study's analytical framework
-market-data,observation_type,Market Data,Quantitative market statistics or industry-level data points
-expert-opinion,observation_type,Expert Opinion,Qualitative judgment or prediction from an identified expert or authority
-high,confidence,High,"Strong evidence from multiple sources, direct measurement, or well-established facts"
-medium,confidence,Medium,"Reasonable evidence from limited sources, indirect measurement, or informed estimates"
-low,confidence,Low,"Weak evidence, speculative, or based on limited anecdotal information"
-verified,confidence,Verified,Outcome has been confirmed by subsequent events or independent verification
-industry-analysis,methodology_code,Industry Analysis,Systematic examination of industry structure and competitive dynamics
-competitive-profiling,methodology_code,Competitive Profiling,Detailed comparison of competing vendors or products
-benchmarking,methodology_code,Benchmarking,Quantitative comparison against reference metrics or peer performance
-field-research,methodology_code,Field Research,"Primary data collection through interviews, surveys, or site visits"
-document-review,methodology_code,Document Review,Analysis of existing documents and published materials
-statistical-analysis,methodology_code,Statistical Analysis,Application of statistical methods to quantitative data
-high,importance,High,Study has significant historical or analytical value
-medium,importance,Medium,Study has moderate historical or analytical value
-low,importance,Low,Study has limited historical or analytical value
-not-applicable,importance,Not Applicable,Importance assessment is not applicable
-high,relevance,High,Study findings remain highly relevant to current conditions
-medium,relevance,Medium,Study findings have moderate relevance to current conditions
-low,relevance,Low,Study findings have limited relevance to current conditions
-not-applicable,relevance,Not Applicable,Relevance assessment is not applicable
-high,prescience,High,Study predictions proved highly accurate over time
-medium,prescience,Medium,Study predictions proved moderately accurate over time
-low,prescience,Low,Study predictions proved largely inaccurate over time
-not-applicable,prescience,Not Applicable,Prescience assessment is not applicable
-white-paper,study_type,White Paper,Vendor-sponsored or independent analytical report
-vendor,entity_type,Vendor,Company that sells software or technology products
-end-user,entity_type,End User,Organization that purchases and uses technology products
-analyst,entity_type,Analyst,Research and advisory firm
-standards-body,entity_type,Standards Body,Industry consortium or organization developing technical standards
-enterprise-suite,tech_category,Enterprise Suite,Integrated multi-module enterprise application platform
-point-solution,tech_category,Point Solution,Standalone application addressing a single functional domain
-integration-technology,tech_category,Integration Technology,Technology or methodology for connecting disparate applications
-development-paradigm,tech_category,Development Paradigm,Software development methodology or architectural approach
-active,entity_status,Active,Entity is currently operating
-acquired,entity_status,Acquired,Entity has been acquired by another organization
-dissolved,entity_status,Dissolved,Entity has ceased to exist
-diminished,entity_status,Diminished,Entity still exists but is dramatically reduced in scope or relevance
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+market-sizing,observation_type,Market Sizing,Study-specific code: market-sizing
+expert-analysis,methodology,Expert Analysis,Study-specific code: expert-analysis
+trend-analysis,observation_type,Trend Analysis,Study-specific code: trend-analysis
+product-evaluation,observation_type,Product Evaluation,Study-specific code: product-evaluation
+competitive-position,observation_type,Competitive Position,Study-specific code: competitive-position
+risk-assessment,observation_type,Risk Assessment,Study-specific code: risk-assessment

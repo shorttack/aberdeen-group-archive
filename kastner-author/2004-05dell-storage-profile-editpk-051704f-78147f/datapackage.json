@@ -1,9 +1,9 @@
 {
-  "name": "2004-05dell-storage-profile-editpk-051704f-78147f",
+  "name": "2004-05dell-storage-profile-editpk-05170-3c00b1",
   "title": "Dell: Applying Its Business Value Model to Storage",
-  "description": "Frictionless Data Package for the Aberdeen Group profile analyzing Dell's storage strategy, Dell|EMC partnership, PowerVault products, and three core strategies of delivering value, driving standards, and moving high-end functionality downstream. Published May 2004 by David Hill and Peter Kastner.",
+  "description": "Aberdeen profile analyzing Dell's application of its supply chain management (SCM) business model to the storage market. Covers Dell|EMC partnership (CX product family), PowerVault NAS, tape automation, storage software bundling, and service model. Argues Dell's direct model and standards focus deliver superior price/performance and TCO/ROI outcomes for customers across enterprise, midrange, and workgroup storage.",
   "version": "1.0.0",
-  "created": "2026-03-16",
+  "created": "2026-04-10",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -12,42 +12,9 @@
   ],
   "contributors": [
     {
-      "title": "David Hill",
-      "role": "author",
-      "organization": "Aberdeen Group"
-    },
-    {
-      "title": "Peter Kastner",
-      "role": "author",
-      "organization": "Aberdeen Group"
-    },
-    {
-      "title": "Archival Ingest Skill v13",
-      "role": "processor"
+      "title": "David Hill; Peter S. Kastner",
+      "role": "author"
     }
-  ],
-  "sources": [
-    {
-      "title": "Aberdeen Group Profile, May 2004",
-      "path": "2004-05Dell storage Profile EDITpk 051704f.txt"
-    }
-  ],
-  "keywords": [
-    "enterprise-storage",
-    "Dell",
-    "EMC",
-    "Dell|EMC",
-    "SAN",
-    "NAS",
-    "Fibre Channel",
-    "Serial ATA",
-    "PowerVault",
-    "CX series",
-    "supply chain management",
-    "standards-based storage",
-    "tape backup",
-    "LTO",
-    "Aberdeen Group"
   ],
   "resources": [
     {
@@ -57,10 +24,7 @@
         "fields": [
           {
             "name": "study_id",
-            "type": "string",
-            "constraints": {
-              "required": true
-            }
+            "type": "string"
           },
           {
             "name": "title",
@@ -72,8 +36,7 @@
           },
           {
             "name": "date",
-            "type": "date",
-            "format": "%Y-%m-%d"
+            "type": "date"
           },
           {
             "name": "type",
@@ -123,9 +86,6 @@
             "name": "prescience_rationale",
             "type": "string"
           }
-        ],
-        "primaryKey": [
-          "study_id"
         ]
       }
     },
@@ -136,10 +96,7 @@
         "fields": [
           {
             "name": "entity_id",
-            "type": "string",
-            "constraints": {
-              "required": true
-            }
+            "type": "string"
           },
           {
             "name": "entity_name",
@@ -173,22 +130,6 @@
             "name": "notes",
             "type": "string"
           }
-        ],
-        "primaryKey": [
-          "entity_id"
-        ],
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
-          }
         ]
       }
     },
@@ -199,10 +140,7 @@
         "fields": [
           {
             "name": "tech_id",
-            "type": "string",
-            "constraints": {
-              "required": true
-            }
+            "type": "string"
           },
           {
             "name": "tech_name",
@@ -236,22 +174,6 @@
             "name": "notes",
             "type": "string"
           }
-        ],
-        "primaryKey": [
-          "tech_id"
-        ],
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
-          }
         ]
       }
     },
@@ -262,10 +184,7 @@
         "fields": [
           {
             "name": "obs_id",
-            "type": "string",
-            "constraints": {
-              "required": true
-            }
+            "type": "string"
           },
           {
             "name": "study_id",
@@ -285,7 +204,7 @@
           },
           {
             "name": "year_observed",
-            "type": "integer"
+            "type": "year"
           },
           {
             "name": "metric_name",
@@ -311,44 +230,6 @@
             "name": "notes",
             "type": "string"
           }
-        ],
-        "primaryKey": [
-          "obs_id"
-        ],
-        "foreignKeys": [
-          {
-            "fields": [
-              "study_id"
-            ],
-            "reference": {
-              "resource": "studies",
-              "fields": [
-                "study_id"
-              ]
-            }
-          },
-          {
-            "fields": [
-              "entity_id"
-            ],
-            "reference": {
-              "resource": "entities",
-              "fields": [
-                "entity_id"
-              ]
-            }
-          },
-          {
-            "fields": [
-              "tech_id"
-            ],
-            "reference": {
-              "resource": "technologies",
-              "fields": [
-                "tech_id"
-              ]
-            }
-          }
         ]
       }
     },
@@ -359,10 +240,7 @@
         "fields": [
           {
             "name": "code_id",
-            "type": "string",
-            "constraints": {
-              "required": true
-            }
+            "type": "string"
           },
           {
             "name": "code_type",
@@ -376,9 +254,6 @@
             "name": "definition",
             "type": "string"
           }
-        ],
-        "primaryKey": [
-          "code_id"
         ]
       }
     }

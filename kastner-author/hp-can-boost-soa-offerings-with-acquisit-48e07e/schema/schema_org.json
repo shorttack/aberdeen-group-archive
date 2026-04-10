@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP Can Boost SOA Offerings with Acquisition of Mercury",
+  "description": "Aberdeen Group market alert analyzing HP's acquisition of Mercury Interactive. Covers strategic rationale for combining HP OpenView with Mercury's IT optimization portfolio, SOA management implications, IT governance, enterprise systems management competitive landscape, and Aberdeen recommendations. Identifies product complementarity and integration challenges; notes competitive positioning against IBM Tivoli, CA, and BMC.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2006-07-31",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

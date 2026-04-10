@@ -1,0 +1,13 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,intel-2010-vpro-daily-globe-42697e,Author; Executive VP Research at Aberdeen Group.
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,intel-2010-vpro-daily-globe-42697e,Publisher/author organization of editorial piece.
+intel,Intel Corporation,company,Semiconductor,active,,1968-present,intel-2010-vpro-daily-globe-42697e,Primary subject; Hillsboro OR fab; rolling out Core i5/i7 with vPro. Rich Echevarria is GM of business client org.
+dell,Dell,company,Enterprise IT Hardware,active,Dell Technologies (renamed after EMC acquisition 2016),1984-present,intel-2010-vpro-daily-globe-42697e,"OEM shipping Latitude 13, Precision M6500, Vostro 430 with vPro."
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,renamed,Split into HP Inc. and Hewlett Packard Enterprise (November 2015),1939-present,intel-2010-vpro-daily-globe-42697e,"OEM shipping Elitebook 8540p, 8440p, HP Compaq Elite 8100 with vPro."
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,intel-2010-vpro-daily-globe-42697e,vPro ecosystem partner; BitLocker cited for full disk encryption.
+lenovo,Lenovo,company,Enterprise IT Hardware,active,,1984-present,intel-2010-vpro-daily-globe-42697e,"OEM shipping ThinkPad T series, W510, ThinkCentre M90 with vPro."
+acer,Acer,company,Consumer / Enterprise IT Hardware,active,,1976-present,intel-2010-vpro-daily-globe-42697e,OEM among first to ship 2010 Core i5/i7 business PCs and notebooks.
+vmware,VMware,company,Enterprise Software / Virtualization,acquired,Broadcom Inc. (2023),1998-present,intel-2010-vpro-daily-globe-42697e,"vPro ecosystem software/services partner cited alongside Symantec, Citrix, Microsoft."
+symantec,Symantec,company,Enterprise Security Software,acquired,Enterprise security to Broadcom (2019); consumer business became Gen Digital/NortonLifeLock,1982-present,intel-2010-vpro-daily-globe-42697e,vPro ecosystem software/services partner.
+citrix,Citrix Systems,company,Enterprise Software / Virtualization,acquired,"Cloud Software Group (Vista Equity Partners + Elliott Management, 2022)",1989-present,intel-2010-vpro-daily-globe-42697e,vPro ecosystem software/services partner.
+rich-echevarria,Rich Echevarria,person,Semiconductor,unknown,,2000s-2010s,intel-2010-vpro-daily-globe-42697e,"General Manager, Intel Business Client Organization; quoted in article."

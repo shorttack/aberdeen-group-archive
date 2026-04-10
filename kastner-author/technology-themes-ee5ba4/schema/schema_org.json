@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IT Technology Themes and Trends",
+  "description": "Aberdeen Group analysis of 10 major technology themes shaping enterprise IT: IT deflation and server pricing pressure, storage market transformation via ILM, empowered consumers driving retail IT, best-of-breed consolidation, ROI-driven IT purchasing, IT over-buying and rationalization, consumer power reshaping supply chains, real-time consumer tracking, wireless laptop adoption barriers, enterprise management in web services environments, and Sarbanes-Oxley/Basel II compliance costs.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-2004",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

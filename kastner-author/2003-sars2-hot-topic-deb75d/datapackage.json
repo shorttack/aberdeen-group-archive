@@ -1,88 +1,134 @@
 {
-  "name": "2003-sars2-hot-topic-deb75d",
+  "name": "sars2-hot-topic-cf91d4",
   "title": "SARS May Impact Global Electronics Industry",
-  "description": "Aberdeen Group hot topic report warning that the 2003 SARS outbreak could cause major disruptions to the global electronics supply chain concentrated in Asia Pacific.",
+  "description": "Aberdeen hot topic analyzing the potential impact of the 2003 SARS epidemic on the global electronics industry, focusing on semiconductor manufacturing in Asia-Pacific (PRC, Taiwan, Hong Kong, Singapore), supply chain disruption risks, just-in-time logistics vulnerabilities, and investment implications for the trillion-dollar electronics sector.",
   "version": "1.0.0",
-  "created": "2026-03-16",
+  "created": "2026-04-10",
   "licenses": [
     {
       "name": "CC-BY-4.0",
-      "path": "https://creativecommons.org/licenses/by/4.0/",
-      "title": "Creative Commons Attribution 4.0 International"
+      "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "contributors": [
     {
-      "title": "Russ Craig",
+      "title": "Russ Craig and Peter Kastner",
       "role": "author"
-    },
-    {
-      "title": "Peter Kastner",
-      "role": "author"
-    },
-    {
-      "title": "Aberdeen Group",
-      "role": "publisher"
-    }
-  ],
-  "sources": [
-    {
-      "title": "2003 SARS2 hot topic.txt",
-      "path": "2003 SARS2 hot topic.txt"
     }
   ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "study_id", "type": "string", "description": "Unique study identifier", "constraints": {"required": true}},
-          {"name": "title", "type": "string", "description": "Study title"},
-          {"name": "author", "type": "string", "description": "Study author(s), semicolon-separated"},
-          {"name": "date", "type": "date", "description": "Publication date (YYYY-MM-DD)"},
-          {"name": "type", "type": "string", "description": "Study type code"},
-          {"name": "subject_domain", "type": "string", "description": "Subject domain classification"},
-          {"name": "methodology", "type": "string", "description": "Methodology codes, comma-separated"},
-          {"name": "source_file", "type": "string", "description": "Original source file name"},
-          {"name": "abstract", "type": "string", "description": "Study abstract"},
-          {"name": "license", "type": "string", "description": "License identifier"},
-          {"name": "importance", "type": "string", "description": "Historical importance rating (high/medium/low/not-applicable)"},
-          {"name": "importance_rationale", "type": "string", "description": "Rationale for importance rating"},
-          {"name": "relevance", "type": "string", "description": "Current relevance rating (high/medium/low/not-applicable)"},
-          {"name": "relevance_rationale", "type": "string", "description": "Rationale for relevance rating"},
-          {"name": "prescience", "type": "string", "description": "Prescience rating (high/medium/low/not-applicable)"},
-          {"name": "prescience_rationale", "type": "string", "description": "Rationale for prescience rating"}
-        ],
-        "primaryKey": "study_id"
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "entity_id", "type": "string", "description": "Canonical lowercase hyphenated entity identifier", "constraints": {"required": true}},
-          {"name": "entity_name", "type": "string", "description": "Display name of the entity"},
-          {"name": "entity_type", "type": "string", "description": "Entity type (corporation, research-firm, industry-association)"},
-          {"name": "sector", "type": "string", "description": "Industry sector"},
-          {"name": "status", "type": "string", "description": "Current status (active, acquired, restructured, unknown)"},
-          {"name": "successor", "type": "string", "description": "Successor entity if acquired or restructured"},
-          {"name": "years_active", "type": "string", "description": "Years of active operation"},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study"},
-          {"name": "notes", "type": "string", "description": "Additional notes"}
-        ],
-        "primaryKey": "entity_id",
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -90,26 +136,43 @@
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "tech_id", "type": "string", "description": "Canonical lowercase hyphenated technology identifier", "constraints": {"required": true}},
-          {"name": "tech_name", "type": "string", "description": "Display name of the technology"},
-          {"name": "category", "type": "string", "description": "Technology category"},
-          {"name": "vendor", "type": "string", "description": "Primary vendor or 'various'"},
-          {"name": "era", "type": "string", "description": "Technology era"},
-          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle stage at time of study"},
-          {"name": "lifecycle_current", "type": "string", "description": "Current lifecycle stage"},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study"},
-          {"name": "notes", "type": "string", "description": "Additional notes"}
-        ],
-        "primaryKey": "tech_id",
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -117,29 +180,55 @@
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "obs_id", "type": "string", "description": "Observation identifier (OBS-NNN)", "constraints": {"required": true}},
-          {"name": "study_id", "type": "string", "description": "Reference to parent study", "constraints": {"required": true}},
-          {"name": "entity_id", "type": "string", "description": "Reference to entity (may be empty)"},
-          {"name": "tech_id", "type": "string", "description": "Reference to technology (may be empty)"},
-          {"name": "observation_type", "type": "string", "description": "Observation type code", "constraints": {"required": true, "enum": ["strategy-classification", "viability-prediction", "actual-outcome", "technology-assessment", "benchmark-result", "framework-factor", "market-data", "expert-opinion"]}},
-          {"name": "year_observed", "type": "year", "description": "Year of observation"},
-          {"name": "metric_name", "type": "string", "description": "Name of the metric observed"},
-          {"name": "metric_value", "type": "string", "description": "Value of the metric observed"},
-          {"name": "confidence", "type": "string", "description": "Confidence level (high/medium/low/verified)", "constraints": {"enum": ["high", "medium", "low", "verified"]}},
-          {"name": "methodology_code", "type": "string", "description": "Methodology code used"},
-          {"name": "source_page", "type": "string", "description": "Source page reference"},
-          {"name": "notes", "type": "string", "description": "Additional notes"}
-        ],
-        "primaryKey": "obs_id",
-        "foreignKeys": [
           {
-            "fields": ["study_id"],
-            "reference": {"resource": "studies", "fields": ["study_id"]}
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
           }
         ]
       }
@@ -147,17 +236,25 @@
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
       "schema": {
         "fields": [
-          {"name": "code_id", "type": "string", "description": "Code identifier", "constraints": {"required": true}},
-          {"name": "code_type", "type": "string", "description": "Code category type", "constraints": {"required": true}},
-          {"name": "label", "type": "string", "description": "Human-readable label"},
-          {"name": "definition", "type": "string", "description": "Definition of the code"}
-        ],
-        "primaryKey": ["code_id", "code_type"]
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
       }
     }
   ]

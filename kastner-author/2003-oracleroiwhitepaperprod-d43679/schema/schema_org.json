@@ -2,114 +2,24 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Point Solutions Versus Integrated Oracle Applications: The Road to IT Investment ROI",
-  "description": "Frictionless Data Package for Aberdeen Group white paper (June 2001) examining strategic trade-offs between best-of-breed point solutions and integrated enterprise application suites from vendors like Oracle. Based on interviews with IT professionals, the study quantifies integration costs and predicts that integrated suite vendors will prevail over point solution providers long-term.",
-  "url": "",
-  "identifier": "2003-oracleroiwhitepaperprod-d43679",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "datePublished": "2001-06-01",
-  "dateCreated": "2026-03-16",
+  "description": "This Aberdeen executive white paper sponsored by Oracle examines the ROI trade-offs between adopting best-of-breed point solutions versus a fully integrated enterprise application suite. Drawing on interviews with a dozen IT professionals at large and midsize North American companies, the paper argues that integration costs for point solutions are consistently underestimated \u2014 averaging 3-4x license fees and sometimes reaching 10x \u2014 while integrated suite implementations cost roughly 1x the license fee. Key topics include hidden integration costs, data model inconsistencies, workflow incompatibilities, discrete release cycle risk, and the dissipation of competitive advantage over time. The paper concludes that Oracle's integrated suite offers the highest long-term ROI for core business processes.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "One Boston Place",
-      "addressLocality": "Boston",
-      "addressRegion": "MA",
-      "postalCode": "02108",
-      "addressCountry": "US"
-    }
+    "@type": "Person",
+    "name": "Peter S. Kastner"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group"
-  },
-  "keywords": [
-    "enterprise software",
-    "application integration",
-    "Oracle Applications",
-    "ERP",
-    "point solutions",
-    "best of breed",
-    "total cost of ownership",
-    "ROI",
-    "CRM",
-    "SCM",
-    "e-Procurement",
-    "software strategy",
-    "vendor consolidation",
-    "integration costs"
-  ],
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Enterprise Resource Planning",
-      "alternateName": "ERP"
-    },
-    {
-      "@type": "Thing",
-      "name": "Application Integration"
-    },
-    {
-      "@type": "Thing",
-      "name": "Software Strategy"
-    }
-  ],
-  "temporalCoverage": "2001",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "North America"
-  },
-  "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "integration_budget_share",
-      "description": "Percentage of enterprise IT budget committed to application integration",
-      "unitText": "percent"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "integration_cost_ratio",
-      "description": "Ratio of integration cost to software license fees",
-      "unitText": "ratio"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "implementation_duration",
-      "description": "Time to implement and integrate software solutions",
-      "unitText": "months"
-    }
-  ],
+  "datePublished": "June 2001",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "data/studies.csv",
-      "name": "Studies metadata"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/entities.csv",
-      "name": "Entities referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/technologies.csv",
-      "name": "Technologies referenced in the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/observations.csv",
-      "name": "Structured observations extracted from the study"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "data/codes.csv",
-      "name": "Code definitions for observation types, confidence levels, and methodologies"
+      "contentUrl": "data/observations.csv"
     }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

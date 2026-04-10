@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM + Webify = Industry SOA Application Jumpstart",
+  "description": "Analysis of IBM's acquisition of Webify Solutions and its strategic implications for the nascent SOA application development market. Argues that 'SOA Lite' general-purpose approaches are insufficient for enterprise needs and that IBM with Webify's industry-specific component library is positioned uniquely to provide Enterprise SOA with vertical market focus in insurance, healthcare, banking, and telecoms.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2006-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,intel-consumer-lt-10-5-03-580af7,"Executive VP Research, Aberdeen Group; letter author and proposal lead."
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,intel-consumer-lt-10-5-03-580af7,Research organization proposing consumer LT market study to Intel.
+intel,Intel Corporation,company,Semiconductor,active,,1968-present,intel-consumer-lt-10-5-03-580af7,Recipient of proposal; developing LaGrande Technology (LT); Hillsboro OR headquarters cited.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,intel-consumer-lt-10-5-03-580af7,Trusted Computing Group member; Aberdeen in NDA discussions with Microsoft on related technologies.
+michael-ferron-jones,Michael Ferron-Jones,person,Semiconductor,unknown,,2000s,intel-consumer-lt-10-5-03-580af7,"Desktop Platform Analyst Relations, Intel Corporation; former LT Platform Marketing Manager; letter recipient."
+narendar-sahgal,Narendar Sahgal,person,Semiconductor,unknown,,2000s,intel-consumer-lt-10-5-03-580af7,Intel executive; discussed consumer LT concepts with Kastner at IDF in September 2003.
+jim-hurley,Jim Hurley,person,Market Research / IT Consulting,unknown,,2000s,intel-consumer-lt-10-5-03-580af7,Aberdeen Group VP of Security Practice; co-proposer with Kastner for consumer LT research.
+trusted-computing-group,Trusted Computing Group (TCG),institution,Technology Standards / Security,active,,2003-present,intel-consumer-lt-10-5-03-580af7,Industry consortium developing trusted computing standards; Intel and Microsoft are members; Aberdeen had NDA discussions with TCG members.

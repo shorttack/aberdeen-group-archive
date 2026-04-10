@@ -1,0 +1,199 @@
+
+Intel’s Itanium:  Ready and Desirable for Mainframe-Class Workloads
+Keywords: (IBM, zSeries, z900, xSeries, Intel, Itanium, mainframe,
+workloads, Dell, HP, Microsoft)
+|Issue@Hand          |                                                |
+|Are platforms based on Intel Itanium® 2 processors able handle       |
+|mainframe-class workloads, and their strengths and weaknesses        |
+|compared to today’s mainframes, such as the IBM z990?                |
+|Aberdeen Perspective|                                                |
+
+
+                              Baseline Research
+Over the past year, Aberdeen’s user research has raised significant
+questions about the long term commitment of mainframe customers to their
+platform, and has begun to indicate that Intel-based platforms are a
+credible alternative.  These baseline findings are:
+   1. Enterprise customers increasingly focus on their applications’, and
+      therefore their platforms’ business value, including overall total
+      cost of ownership (TCO), return on investment (ROI), and scalability
+      over time, rather than simply on an existing commitment to a
+      particular platform. Aberdeen interviewees indicate that mainframe
+      hardware and associated software licensing costs are perceived as
+      being more expensive than open system architecture alternatives.
+|Synopsis          |                  |
+|Savvy enterprise users interested in  |
+|saving precious mainframe MIPS have   |
+|been testing various workloads on     |
+|Intel-based platforms.  The news from |
+|Aberdeen field research is that 40% of|
+|mainframe customers are now looking at|
+|ways to offload or surround their     |
+|mainframes.  Users think the latest   |
+|Itanium 2 processors can power the    |
+|largest workloads while providing the |
+|mature stability needed to host       |
+|mission-critical applications.        |
+|Mainframe cost of ownership is the key|
+|issue.                                |
+
+
+   2. Over the last year, IBM has increasingly discounted mainframe prices
+      to maintain a strong position with its customers, as they add
+      applications and increase the workloads of existing applications.
+   3. The absolute performance and scalability of systems based on Intel’s
+      Itanium 2 processors, as demonstrated by TPC and numerous other
+      industry benchmarks, have now met or surpassed virtually all
+      commercial application workload requirements.
+   4. Other critical application requirements, such as platform reliability
+      and manageability, are being more adequately addressed by Intel-system
+      suppliers than ever before.
+   5. The growth of the Itanium “ecosystem” (core applications, tools, and
+      enabling software for supporting commercial business applications) has
+      matured.  Nearly all major enterprise business applications (EBAs)
+      provide support, with customers in production.
+                        2004 Field Research Findings
+Aberdeen’s study during Q1-2004 to test the Issue@Hand involved in-depth
+qualitative interviews with U.S., European, and Asian users of Intel
+processors for mainframe workloads, as well as a quantitative survey of 98
+qualified mainframe users.
+Our findings are that Intel Itanium-based platforms not only are ready to
+handle mainframe-class workloads, but also in many cases are the desirable
+platform for these workloads — some interviewees find them to be more
+scalable, equally robust and manageable, more cost-effective, more
+flexible, and more programmer-productive.  Specifically, our research
+indicates:
+    • Real-world users report success in moving typical mainframe-class
+      workloads from IBM zSeries mainframes to Intel Xeon™ processor family-
+      based platforms — and seeing performance comparable to a mainframe on
+      32-bit Xeon machines.  Itanium 2 is superior in performance and
+      scalability to Xeon on the same platforms.
+    • CPU-intensive, rather than I/O-intensive, applications deliver the
+      largest immediate payback on Itanium-based platforms compared to
+      mainframe ones.  These applications include not only
+      technical/scientific and batch functions, but also many large-database
+      applications such as data warehousing and analytics software such as
+      SAS.  The nuance is that mainframe processing power is expensive, not
+      that Intel platforms are deficient in I/O capacity.
+    • Approximately 40% of mainframe users are open to shifting to an
+      Itanium-based platform.  These users are attracted especially to
+      Itanium-based platforms’ perceived total cost of ownership advantages,
+      due particularly to their price/performance, and flexibility.
+ Enterprises considering using Itanium for mainframe-class workloads —
+ including batch, OLTP, data warehousing, enterprise application support,
+ and technical/scientific — can rest assured that Itanium-based machines can
+ handle the load.
+    • Xeon’s ability to handle migrated mainframe-class workloads is
+      evident, because mainframe-workload Xeon-based solutions are already
+      in place and have been operating for one or more years.
+    • Interviewees report Itanium 2-based platforms offer comparable or
+      superior functionality with regard to other key user criteria —
+      programmer productivity and manageability are seen by interviewees as
+      at least as good as Xeon, and with robustness superior.  By these
+      qualitative reports and actual benchmark results, Itanium can handle
+      most if not all mainframe-class workloads.
+    • Interviewees report that migrating COBOL, FORTRAN, and DB2-based
+      applications from the mainframe to an Intel-based platform is
+      straightforward, and does not require changes to code. Most of the
+      rest of mainframe applications involve DL/1, CICS, and IBM assembler
+      code, which according to some interviewees can also be migrated with
+      significant but doable effort.  Several interviewees report that the
+      majority of their code involves only COBOL and DB2.
+    • DB2 application performance using an Intel multiprocessor platform
+      appears to be more cost-effective than a typical mainframe
+      configuration involving allocation of fractions of processors to the
+      application in a VM (virtual machine) environment.
+    • Users may also “surround” their mainframes by implementing all new
+      mainframe-class applications on Itanium platforms, “offload” by having
+      a new Intel-based application take over some of the workload of the
+      mainframe one, or “replace” by writing a new Itanium 2-based
+      application to replace the old.
+    • Interviewees report that Intel-based platforms are typically better
+      performing per processor, more scalable, more cost-effective, and more
+      flexible (standards-based, open, and able to adapt to new technologies
+      and to integrate with other platforms), more programmer-productive,
+      and smaller footprint. Interviewees found the Intel platform equally
+      robust and manageable.  Interviewees cited performance and cost-
+      effectiveness as especially marked advantages of Intel-based
+      platforms.
+    • Interviewees do not view alternatives other than Intel-based platforms
+      as comparable in value.  Linux on the mainframe is seen as less
+      manageable and less performant.  AMD’s 64-bit Opteron technology is
+      seen as less real-world-tested.
+                    Aberdeen Analysis and Recommendations
+Based on this research, Aberdeen concludes:
+    • Itanium 2-based solution case studies and references are newly
+      arrived.  Many of the success stories are just recently coming to
+      production in Q1-2004.   This is news which has not been previously
+      reported.
+    • Enterprises considering using Itanium for mainframe-class workloads —
+      including batch, OLTP, data warehousing, enterprise application
+      support, and technical/scientific — can rest assured that, in almost
+      all cases, Itanium-based machines can handle the load.
+    • Moreover, users believe from their own tests that Itanium-based
+      machines can deliver major additional benefits in
+      performance/scalability, flexibility, footprint in data centers,
+      programmer productivity, and cost of ownership.  At the same time,
+      users say that these machines can match mainframes in robustness,
+      manageability, and ability to act as a database server.
+ Users believe from their own tests that Itanium-based machines can deliver
+ major additional benefits in performance/scalability, flexibility,
+ footprint in data centers, programmer productivity, and cost of ownership
+    • CPU-intensive applications such as some batch tasks — e.g., the widely-
+      implemented extract-sort-report batch programs — and
+      technical/scientific jobs deliver the largest immediate payback on
+      Itanium-based platforms compared to mainframe ones.
+    • Users report that migration of many mainframe applications to Itanium-
+      based platforms — especially Windows ones — is surprisingly easy, with
+      COBOL, FORTRAN, and DB2 programs able to be recompiled with no code
+      changes.  CICS, DL/1, and assembler programs remain difficult to
+      migrate, requiring extensive effort.
+    • “Replace” strategies that require users to rewrite mainframe
+      applications from scratch take a long time to implement, with
+      significant cultural resistance to new programming and administrative
+      practices.  Mainframe users therefore logically tend to prefer a
+      strategy of “surrounding” their mainframes by implementing all new
+      mainframe-class applications on Itanium platforms, “offloading” by
+      having a new Intel-based application take over some of the workload of
+      the mainframe one, or migration.
+    • A large minority of mainframe customers (30-40 %) are clearly
+      motivated to choose Itanium-based systems in preference to more
+      mainframes.  These are dissatisfied especially with the mainframe’s
+      cost of ownership (due to both hardware acquisition and software
+      license costs), as well as its flexible support for upcoming open
+      standards and in some cases its performance.
+ Intel Itanium-based platforms not only are ready to handle mainframe-class
+ workloads, but also in many cases are the desirable platform for these
+ workloads — some interviewees find them to be more scalable, equally robust
+ and manageable, more cost-effective, more flexible, and more programmer-
+ productive
+Therefore, as Itanium becomes a more familiar quantity in mainframe shops,
+existing and new workloads which in the past belonged exclusively on the
+mainframe will increasingly be hosted on Intel’s Itanium.
+
+Links to additional mainframe study research URLs here
+-----------------------
+
+AberdeenGroup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

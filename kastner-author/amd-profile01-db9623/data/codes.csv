@@ -1,39 +1,31 @@
 code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,"Classification of an organizational, product, or market strategy"
-viability-prediction,observation_type,Viability Prediction,"Forward-looking assessment of likely success or failure"
-actual-outcome,observation_type,Actual Outcome,"Verified real-world outcome used to validate or refute predictions"
-technology-assessment,observation_type,Technology Assessment,"Evaluation of a technology's capabilities, limitations, or trajectory"
-benchmark-result,observation_type,Benchmark Result,"Quantitative or qualitative performance measurement"
-framework-factor,observation_type,Framework Factor,"Element of an analytical framework or methodology"
-market-data,observation_type,Market Data,"Quantitative market information such as share, size, pricing, or growth"
-expert-opinion,observation_type,Expert Opinion,"Professional judgment or recommendation from an identified expert"
-high,confidence,High,"Finding is well-supported by direct evidence in the source"
-medium,confidence,Medium,"Finding is supported by indirect evidence or reasonable inference"
-low,confidence,Low,"Finding is speculative or based on limited evidence"
-verified,confidence,Verified,"Finding has been independently verified against external sources"
-industry-analysis,methodology_code,Industry Analysis,"Evaluation based on industry trends, vendor positioning, and market dynamics"
-competitive-profiling,methodology_code,Competitive Profiling,"Systematic comparison of competing vendors, products, or strategies"
-benchmarking,methodology_code,Benchmarking,"Quantitative performance measurement against defined metrics"
-field-research,methodology_code,Field Research,"Primary data collection through surveys, interviews, or site visits"
-document-review,methodology_code,Document Review,"Analysis of published documents, filings, or official records"
-statistical-analysis,methodology_code,Statistical Analysis,"Application of statistical methods to quantitative datasets"
-article,study_type,Article,"Published article or opinion piece"
-high,importance,High,"Significant contribution to the field"
-medium,importance,Medium,"Useful contribution with practical value"
-low,importance,Low,"Limited contribution or narrow scope"
-not-applicable,importance,Not Applicable,"Importance rating not applicable"
-high,relevance,High,"Highly relevant to current technology landscape"
-medium,relevance,Medium,"Moderately relevant with some dated elements"
-low,relevance,Low,"Limited current relevance"
-not-applicable,relevance,Not Applicable,"Relevance rating not applicable"
-high,prescience,High,"Predictions largely validated by subsequent events"
-medium,prescience,Medium,"Mixed prediction accuracy"
-low,prescience,Low,"Predictions largely invalidated"
-not-applicable,prescience,Not Applicable,"Prescience rating not applicable"
-vendor,entity_type,Vendor,"Technology vendor or manufacturer"
-analyst,entity_type,Analyst,"Research or advisory firm"
-publisher,entity_type,Publisher,"Media or publishing organization"
-company,entity_type,Company,"Company or corporation"
-active,entity_status,Active,"Entity is currently operating"
-acquired,entity_status,Acquired,"Entity was acquired by another organization"
-dissolved,entity_status,Dissolved,"Entity has ceased operations"
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+benchmark-analysis,methodology,Benchmark Analysis,Study-specific code: benchmark-analysis
+risk-assessment,observation_type,Risk Assessment,Study-specific code: risk-assessment
+expert-judgment,methodology,Expert Judgment,Study-specific code: expert-judgment
+historical-verification,methodology,Historical Verification,Study-specific code: historical-verification
+competitive-position,observation_type,Competitive Position,Study-specific code: competitive-position
+recommendation,observation_type,Recommendation,Study-specific code: recommendation
+trend-analysis,observation_type,Trend Analysis,Study-specific code: trend-analysis

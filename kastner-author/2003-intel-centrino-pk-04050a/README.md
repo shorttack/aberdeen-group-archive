@@ -1,96 +1,46 @@
-# 2003-intel-centrino-pk-04050a
+# Intel's Centrino: Don't Man the Barricades
 
-## Intel's Centrino: Don't Man the Barricades
+| Field | Value |
+|-------|-------|
+| Author | Peter S. Kastner |
+| Date | 2003-03-01 |
+| Type | expert-report |
+| Domain | Enterprise Mobility / Wireless Networking |
+| License | CC-BY-4.0 |
 
-**Author**: Peter S. Kastner, Executive Vice President of Research, Aberdeen Group
-**Date**: 2003-03-15 (shortly after Centrino launch on March 12, 2003)
-**Type**: Opinion piece / analyst commentary
-**Subject Domain**: Mobile computing, wireless networking, enterprise IT strategy
+## Abstract
 
-## Summary
+Aberdeen/Kastner expert editorial on Intel's Centrino platform launch (March 12, 2003). Analyzes Centrino as integrated mobile Pentium 4 + chipset + 802.11 wireless adapter. Warns IT executives against banning wireless notebooks (the 'barricade' metaphor) in response to rogue access point threats. Cites Aberdeen research showing 30 min/day productivity gains for campus workers; PricewaterhouseCoopers ROI data (6-month payback). Recommends embracing wireless via Cisco LEAP and Windows Server 2003 hardening rather than disabling Centrino's wireless capability.
 
-A short Aberdeen Group opinion piece arguing that IT departments should embrace Intel's newly launched Centrino wireless notebook platform rather than banning wireless capabilities due to security fears. Kastner describes the integrated platform (mobile Pentium 4 + chipset + 802.11 wireless), notes Intel's $300M marketing campaign, and warns against the counterproductive trend of IT departments ordering wireless radios disabled at the factory (>25% of business Centrinos). He advocates using Cisco LEAP and Microsoft Windows Server 2003 to secure wireless networks, citing PricewaterhouseCoopers ROI data (6-month payback) and Aberdeen's own productivity research (30 min/day for meeting attendees, 1 hour/day for physicians).
+## Data Tables
 
-## Prescience Assessment
+| Table | Rows |
+|-------|------|
+| studies.csv | 1 |
+| entities.csv | 6 |
+| technologies.csv | 7 |
+| observations.csv | 20 |
+| codes.csv | 33 |
 
-Kastner's core thesis proved remarkably prescient:
-- **Wireless became inevitable**: By 2005-2006, virtually all enterprise notebooks shipped with integrated Wi-Fi
-- **Banning wireless failed**: IT wireless bans were universally abandoned within 2-3 years
-- **Security was manageable**: While Cisco LEAP itself was deprecated due to vulnerabilities, WPA/WPA2 and 802.1X made wireless security robust
-- **Hotspots proliferated**: Wi-Fi became ubiquitous in public spaces worldwide
-- **Productivity gains were conservative**: Wireless transformed not just campus computing but enabled entirely new work paradigms including remote work
-
-## Data Package Contents
-
-```
-README.md              This file
-datapackage.json       Frictionless Data Package descriptor
-data/
-  studies.csv          Study metadata (1 record, 16 fields)
-  entities.csv         Organizations and individuals (7 records, 9 fields)
-  technologies.csv     Technologies and platforms (7 records, 9 fields)
-  observations.csv     Structured observations (25 records, 12 fields)
-  codes.csv            Code definitions (24 records, 4 fields)
-schema/
-  schema_org.json      Schema.org Dataset metadata (JSON-LD)
-source/
-  original_text.md     Original document text with appended metadata
-scripts/
-  demo_analysis.py     Python validation and analysis script
-```
-
-## Observation Counts by Type
-
-| observation_type | count |
-|-----------------|-------|
-| market-data | 5 |
-| benchmark-result | 4 |
-| technology-assessment | 4 |
-| actual-outcome | 4 |
-| viability-prediction | 3 |
-| strategy-classification | 2 |
-| framework-factor | 2 |
-| expert-opinion | 1 |
-| **Total** | **25** |
-
-## Key Entities (7)
-
-| Entity | Type | Role |
-|--------|------|------|
-| Intel Corporation | company | Platform creator; $300M Centrino campaign |
-| Aberdeen Group | analyst-firm | Author's employer; productivity research |
-| Cisco Systems | company | LEAP wireless security protocol |
-| Microsoft Corporation | company | Windows Server 2003 wireless hardening |
-| PricewaterhouseCoopers | consulting-firm | ROI analysis (6-month payback) |
-| Peter S. Kastner | person | Author; EVP Research at Aberdeen |
-| CompUSA | retailer | Source of consumer wireless APs |
-
-## Key Technologies (7)
-
-| Technology | Category | Status (2003) | Status (Current) |
-|-----------|----------|--------------|-------------------|
-| Intel Centrino | platform | launch | discontinued |
-| 802.11 Wi-Fi | wireless-standard | growth | mature |
-| Cisco LEAP | security-protocol | growth | deprecated |
-| Windows Server 2003 | server-os | launch | end-of-life |
-| Pentium M | processor | launch | discontinued |
-| Rogue Access Points | security-threat | emerging | persistent |
-| Wireless Hotspots | infrastructure | early-stage | mature |
-
-## Usage
-
-```python
-python scripts/demo_analysis.py
-```
-
-Or load individual CSVs:
+## Load with Python
 
 ```python
 import pandas as pd
+studies = pd.read_csv('data/studies.csv')
 observations = pd.read_csv('data/observations.csv')
-print(observations.groupby('observation_type').size())
 ```
 
-## Pipeline
+## Validate
 
-Generated by Archival Ingest Skill v13 on 2026-03-16.
+```bash
+frictionless validate datapackage.json
+```
+
+## Citation
+
+Peter S. Kastner (2003). Intel's Centrino: Don't Man the Barricades.
+Archived in Kastner Research Archive. DOI: [pending]
+
+## Methodology
+
+Expert opinion; Aberdeen Group research; industry interviews

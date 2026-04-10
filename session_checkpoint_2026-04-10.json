@@ -1,0 +1,168 @@
+{
+  "checkpoint_date": "2026-04-10",
+  "checkpoint_time": "13:44 EDT",
+  "session_summary": "Four presentation archives (P1-P4) processed through Skill-16 pipeline and pushed to GitHub",
+  "skill": {
+    "name": "archival-ingest",
+    "version": "v16",
+    "skill_id": "25f6e54b-9d91-4263-8037-6028339333e5"
+  },
+  "repository": "github.com/shorttack/aberdeen-group-archive",
+  "github_commit": "pending",
+  "archives_completed": [
+    {
+      "archive": "Video Transcripts Batch 1 (orig Archive-2)",
+      "zip": "archive2_processed.zip",
+      "output_dir": "archive2_output",
+      "studies": 10,
+      "observations": 275,
+      "pushed": true
+    },
+    {
+      "archive": "Video Transcripts Batch 2 (Archive-3)",
+      "zip": "archive3_processed.zip",
+      "output_dir": "archive3_output",
+      "studies": 7,
+      "observations": 103,
+      "pushed": true
+    },
+    {
+      "archive": "Presentations Batch 1 (Archive-1)",
+      "zip": "archive1_processed.zip",
+      "output_dir": "archive1_output",
+      "studies": 10,
+      "observations": 253,
+      "pushed": true
+    },
+    {
+      "archive": "Presentations Batch 2 (Archive-2.zip)",
+      "zip": "archive_p2_processed.zip",
+      "output_dir": "archive_p2_output",
+      "studies": 8,
+      "observations": 205,
+      "pushed": true
+    },
+    {
+      "archive": "Presentations Batch 3 (Archive-3.zip)",
+      "zip": "archive_p3_processed.zip",
+      "output_dir": "archive_p3_output",
+      "studies": 8,
+      "observations": 254,
+      "pushed": true
+    },
+    {
+      "archive": "Presentations Batch 4 (Archive-4.zip)",
+      "zip": "archive_p4_processed.zip",
+      "output_dir": "archive_p4_output",
+      "studies": 8,
+      "observations": 203,
+      "pushed": true
+    },
+    {
+      "archive": "SOA Batch 1",
+      "zip": "soa1_processed.zip",
+      "output_dir": "soa1_output",
+      "studies": 9,
+      "observations": 210,
+      "pushed": true
+    },
+    {
+      "archive": "SOA Batch 2",
+      "zip": "soa2_processed.zip",
+      "output_dir": "soa2_output",
+      "studies": 10,
+      "observations": 521,
+      "pushed": true
+    },
+    {
+      "archive": "SOA Batch 3",
+      "zip": "soa3_processed.zip",
+      "output_dir": "soa3_output",
+      "studies": 8,
+      "observations": 392,
+      "pushed": true
+    }
+  ],
+  "totals": {
+    "archives": 9,
+    "studies": 78,
+    "observations": 2416,
+    "entities_in_cache": 247,
+    "technologies_in_cache": 536
+  },
+  "cumulative_caches": {
+    "entities_csv": "soa3_output/_known_entities.csv",
+    "technologies_csv": "soa3_output/_known_technologies.csv",
+    "entity_count": 247,
+    "tech_count": 536,
+    "note": "Seed next session from archive_p4_output caches"
+  },
+  "p3_study_ids": [
+    "informix-jungle-long-2dcbd6",
+    "informix-parallel-scalable-adcaa9",
+    "itt-hartford-win95-eb82b2",
+    "mercury-1-on-1-0c5801",
+    "mit-class-forum-7057bd",
+    "oracle-office-1996-69e35d",
+    "os-1996-71c3f3",
+    "pyramid-d50111"
+  ],
+  "p4_study_ids": [
+    "rs6000-1994-announcement-c1cb6a",
+    "rs6000-training-a4eda3",
+    "safeguard-cs-rdbms-207147",
+    "sequent-1996-9ce892",
+    "sequent-sap-a5f054",
+    "sequent-pitch-1996-2e70e9",
+    "sequent-9d4618",
+    "tdmbw-392501"
+  ],
+  "flags_for_review": [
+    {
+      "study_id": "pyramid-d50111",
+      "archive": "P3",
+      "issue": "Authors are Wayne T. Kernochan and Robert J. Sakakeeney (Aberdeen Group), not Peter Kastner"
+    },
+    {
+      "study_id": "sequent-sap-a5f054",
+      "archive": "P4",
+      "issue": "Sequent Company Confidential benchmark document \u2014 no Aberdeen/Kastner byline"
+    },
+    {
+      "study_id": "sequent-pitch-1996-2e70e9",
+      "archive": "P4",
+      "issue": "Sequent internal pitch deck \u2014 no Aberdeen/Kastner byline"
+    }
+  ],
+  "duplicates_skipped": [
+    {
+      "slug": "power-academy",
+      "reason": "Byte-for-byte duplicate of ibm-1996-training-fbf9dc (archive-P2)",
+      "archive": "P3"
+    },
+    {
+      "slug": "informix-jungle-short",
+      "reason": "Whitespace variant of informix-jungle-long (shorter)",
+      "archive": "P3"
+    },
+    {
+      "slug": "rs6000-midrange-training",
+      "reason": "31pp subset of rs6000-training (65pp full version)",
+      "archive": "P4"
+    }
+  ],
+  "pipeline_notes": [
+    "Phase 1 subagents produce 'new' CSV schema \u2014 always run schema transforms before assembler",
+    "Batch B subagent must NOT modify shared caches (race condition) \u2014 merge manually after both complete",
+    "Assembler reads from data/ not extracted/ \u2014 copy transformed CSVs to data/ before running",
+    "Assembler creates data/ subdir but not automatically \u2014 mkdir -p {study}/data before assemble",
+    "No DEFERRED values found in P3 or P4 \u2014 Phase 1 subagents filled all fields directly",
+    "Web results pre-fill from prior archives had no matching keys \u2014 Phase 3 was effectively a no-op for P3/P4"
+  ],
+  "next_session_setup": {
+    "assembler": "soa3_output/scripts/assembler.py",
+    "entity_cache": "soa3_output/_known_entities.csv",
+    "tech_cache": "soa3_output/_known_technologies.csv",
+    "skill_to_load": "load_skill(name='archival-ingest', scope='user')"
+  }
+}

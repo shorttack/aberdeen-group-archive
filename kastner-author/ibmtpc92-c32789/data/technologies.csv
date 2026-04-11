@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","","","","active","ibmtpc92-c32789","TPC-A benchmarks used to assess IBM products"
+"as400","IBM AS/400","platform","","","","legacy-supported","ibmtpc92-c32789","AS/400 E-series used in TPC-A benchmarks; target market for low-volume distributed applications"
+"rs6000","IBM RS/6000","platform","","","","legacy","ibmtpc92-c32789","RS/6000 model 550 with AIX 3.2 showed 59% performance improvement but limited price-performance gain"
+"aix","IBM AIX","platform","","","","current","ibmtpc92-c32789","AIX 3.2 internal improvements drove RS/6000 model 550 performance boost"
+"ibm-db2","IBM DB2","application","","","","active","ibmtpc92-c32789","Question posed: what is S/390 price-performance running DB2?"
+"ibm-system390","IBM System/390 Mainframe","hardware","","","","legacy-supported","ibmtpc92-c32789","Missing from IBM's TPC lineup; IBM claims TPC-A is inappropriate for S/390"

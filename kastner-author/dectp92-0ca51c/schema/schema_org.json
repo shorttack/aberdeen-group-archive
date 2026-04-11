@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital's VAX: Alive and Kicking With TPC Benchmarks",
+  "description": "This Viewpoint section analyzes Digital Equipment Corporation's March 1992 VAX product-line price-performance realignment, using TPC-A benchmark data to show that Digital simultaneously rationalized pricing across its entire VAX range\u2014from MicroVAX 3100 to VAX 6000\u2014while achieving the industry's best price-performance at the entry level. Aberdeen concludes that Digital has deliberately repositioned the VAX as a commercial price-performance leader, tripling cost-efficiency since 1990 and becoming competitive not only with HP and IBM but also with emerging RISC vendors such as Sequent.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1992-03-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

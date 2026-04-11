@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Ten Issues for IBM Mainframe MIS Executives",
+  "description": "This white paper identifies ten prioritized technology-related issues facing IBM mainframe MIS executives in the early 1990s, arguing that System/390 architecture constraints\u2014rooted in 1960s batch-processing design\u2014severely hamper cost reduction and agility demanded by corporate management. Kastner contends that IBM's failure to publish clear technology roadmaps leaves MIS planners in the dark, and that rising support costs and architectural limitations are driving mainframe customers to consider non-IBM alternatives such as Hewlett-Packard.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1991-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

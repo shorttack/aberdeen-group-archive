@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","intel-dss99-42b2bc","Author/consulting firm submitting proposal"
+"intel-corporation","Intel Corporation","company","","active","","","intel-dss99-42b2bc","Client commissioning decision support market research"
+"intel","Intel","company","","active","","","intel-dss99-42b2bc","Client; maker of IA-64 and high-end workstation processors"
+"guy-creese","Guy Creese","person","","unknown","","","intel-dss99-42b2bc","Senior Analyst, Decision Support Research at Aberdeen Group; project lead [REVIEW]"
+"james-gruener","James Gruener","person","","unknown","","","intel-dss99-42b2bc","Managing Director of Intel Platforms Research at Aberdeen Group [REVIEW]"

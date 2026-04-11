@@ -1,0 +1,146 @@
+# OLTP Market Research for BBN Advanced Computers
+
+> Archived from: BBN1989.docx
+> Original publication date: 1989-04-04
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+April 4, 1989
+Mr. Paul Castleman
+President
+BBN Advanced Computers, Inc.
+10 Fawcett Street
+Cambridge, MA  02238
+
+Dear Mr. Castleman:
+
+At our meeting last month, you described BBN's opportunity for new growth in the commercial markets spearheaded by an advanced, new-product version of the Butterfly GP1000 computer system. You asked Aberdeen Group to research and report on the commercial markets for on-line transaction processing, applications in vertical markets with a profile complementing the capacity of the new Butterfly, and projected markets. This letter contains the findings of our research on your behalf.
+
+Introduction
+OLTP (On-Line Transaction Processing) is the largest segment of the multiuser commercial data processing industry with 1988 revenues of $24B worldwide. Just as importantly, it is growing at an annual rate of 18% per year as enterprises are required to implement OLTP applications to become and to remain competitive.
+
+Why OLTP
+OLTP has become a major force in the commercial data processing industry for a combination of operational and technological reasons. The operational reasons are: increased competition between end-user organizations, the profitable return on investment that can be realized by line-of-business managers, societal demand for higher service levels from enterprises, and the emergence of new business opportunities. The technological reasons are: obsolescence of 1970s batch systems, lower costs of computing, communications, and application development and increasing system reliability.
+
+Computer price/performance has historically improved at 20%-25% to year but with higher volumes and advances in component performance that rate now has accelerated to 30%-40% per year for most minicomputers. This has resulted in the minimum capital cost for computer hardware and systems software per TPS dropping from $100,000 in 1980 to $17,500 in 1988.
+
+Size And Growth Of Market
+The OLTP marketplace worldwide was $24.3B in 1988 and is expected to grow at 18% per year on average over the next five years. In 1993 - five years from now - the marketplace for OLTP systems is estimated to be $55.6B.
+
+We believe that mainframes comprised $14.1B; minicomputers $10B; and microcomputers $.2B. Future growth will be slowest in the mainframe area at 8%; very strong in the minicomputer area at 23%; and astronomically high in the microcomputer arena.
+
+A major area of growth for OLTP systems over the last two years has been in western Europe. This geographic area is growing at twice the rate of the rest of the world.
+
+Market Share
+The leading supplier of OLTP systems is IBM with an overall market share of 55%. This is followed by Digital, Unisys and Hewlett-Packard. IBM is by far the dominant force in OLTP with its 55% capture of revenues. The IBM PCMs (Plug Compatible Manufacturers), specifically Amdahl and Fujitsu, have captured 5% of the market. Other mainframe suppliers such as Unisys, Bull, Hitachi, NCR, and Siemens have captured another 15% of the market.
+
+Digital Equipment Corporation is the leading minicomputer supplier, with 6% of the total market.
+
+Stratus and Tandem, the mini-OLTP specialists, are not expected to gain appreciable market share.
+
+We do not believe that suppliers of Intelligent Workstations (IWS) such as Sun Microsystems and Apollo Computer will ever be major players in the OLTP marketplace.
+
+We believe that firms such as IBM, Digital, Hewlett-Packard and Stratus will integrate technology pioneered by firms such as Novell, 3COM and Sybase into the mainstream of their own product lines.
+
+Throughput Requirements
+We estimate that in 1988, 90% of all applications at peak capacity require only 12 TPS. (TPS based on the Debit Credit standard with 1 second response time for 95% of all transactions.)
+
+A rule of thumb is that single application throughput requirements will grow at 30% per year for the first three years after the application is placed in production.
+
+We project that throughput requirements will increase at 15% per year as more functions are tied to OLTP systems.
+
+We estimate that five percent of 1988 OLTP revenues ($1.2 billion) are for applications requiring more than 100 TPS in throughput.
+
+The largest OLTP systems in place are airline reservation systems that are capable of providing 2,000 TPS.
+
+Vertical Market Segments
+Manufacturing: The largest consumer of OLTP systems with $5.5B of expenditures in 1988. Expected growth at 18% per year.
+Banking: The banking industry purchased approximately $4.0B of OLTP systems in 1988. Long-term growth projected at 16% per year for next five years.
+Brokerage/Securities: $3.2B in 1988. Average annual growth over next five years projected at 21% per year.
+Government: Local, State and Federal government agencies purchased $2.8B of OLTP systems in 1988. Projected growth at 14% per year on average over next five years.
+
+Social Security antiquated system requires replacement: Aggregate transaction volumes estimated at 100 TPS over 10,000 terminals.
+
+The clear market for a new Butterfly is in the very-high end of OLTP applications. We estimate that five percent of 1988 OLTP revenues ($1.2 billion) are for applications requiring more than 100 TPS.
+
+Peter S. Kastner
+Vice President and General Manager
+Aberdeen Transaction Services
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | bbn1989-1e6838 |
+| title | OLTP Market Research for BBN Advanced Computers |
+| author | Peter S. Kastner |
+| date | 1989-04-04 |
+| type | consulting-report |
+| subject_domain | OLTP-benchmarking, parallel-computing, commercial-data-processing |
+| methodology | market-research, field-interviews, market-sizing, vertical-market-analysis |
+| source_file | BBN1989.docx |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+This consulting market letter, commissioned by BBN Advanced Computers, assesses the commercial OLTP market opportunity for BBN's Butterfly GP1000 parallel computer system, sizing the 1988 OLTP market at $24B worldwide and growing at 18% annually. Kastner surveys vertical market segments—banking, insurance, retail, manufacturing, and government—cataloging application transaction volumes and competitive dynamics to identify where the Butterfly's parallel architecture could compete. The letter concludes that several high-volume OLTP verticals represent viable target markets for a next-generation Butterfly product.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | One of the earliest documented commercial analyst assessments of parallel computing for OLTP workloads, this letter provides rare primary evidence of how the industry evaluated non-traditional hardware architectures for transaction processing at the dawn of the commercial parallel computing era. |
+| **Relevance** | medium | The specific BBN hardware is obsolete, but the methodology of mapping vertical-market OLTP transaction profiles to hardware capability remains relevant for evaluating modern distributed and parallel database platforms. |
+| **Prescience** | medium | Kastner's assessment of the OLTP market's rapid growth and the shift from mainframes to minicomputers and ISV-supplied applications proved broadly accurate, though BBN itself did not become a major commercial OLTP player. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (14)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired |  |
+| Peter S. Kastner | person | active |  |
+| IBM | company | active |  |
+| Digital Equipment Corporation | company | dissolved |  |
+| Hewlett-Packard | company | split |  |
+| Tandem Computers | company | acquired |  |
+| Stratus Computer | company | unknown |  |
+| Sun Microsystems | company | acquired |  |
+| Sybase | company | acquired |  |
+| Novell | company | acquired |  |
+| Groupe Bull | company | acquired |  |
+| BBN Advanced Computers, Inc. | company | unknown | BBN Technologies -> Raytheon BBN Technologies (acquired 2009) |
+| Amdahl Corporation | company | unknown | Fujitsu (wholly owned subsidiary 1997 for $878M); exited mainframes 2000 |
+| John R. Logan | person | unknown |  |
+
+### Technologies Referenced (9)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Online Transaction Processing | application |  |  | current |
+| Online Transaction Processing (OLTP) | application |  |  | active |
+| Relational Database (RDBMS) | application |  |  | current |
+| Sybase SQL Server / System 11 | application |  |  | legacy |
+| TPC-C Benchmark | standard |  |  | legacy |
+| IBM AS/400 | platform |  |  | legacy-supported |
+| IBM zSeries Mainframe | hardware |  |  | active |
+| Digital VAX/OpenVMS | platform |  |  | legacy |
+| UNIX (various) | platform |  |  | current |
+
+### Observation Summary
+
+- Total observations: 25
+- By type: : 25

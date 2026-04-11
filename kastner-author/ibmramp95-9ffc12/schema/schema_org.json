@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM RS/6000 SP RAMP: Market Research Proposal",
+  "description": "This proposal outlines a dual-objective Aberdeen Group market research engagement for IBM's RS/6000 SP parallel system: producing a commercial customer case-study white paper for the IBM sales force, while simultaneously investigating evidence that the SP has been mis-sold at some accounts with unrealistically high customer expectations. Aberdeen proposes structured telephone and face-to-face interviews with SP commercial customers to surface best-practice application profiles and, where present, diagnose the extent of any customer dissatisfaction problem before it becomes a broader issue for IBM.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1995-10-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

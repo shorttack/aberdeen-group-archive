@@ -1,0 +1,74 @@
+May 4, 1989
+Mr. Ashwin C. Mehta
+Director, Strategic Planning
+Bull HN Information Systems
+300 Concord Road
+Billerica, MA  01821
+
+Dear Mr. Mehta:
+
+As a result of your meeting with John Logan and further discussions with Ralph Di Simone this week, Aberdeen Group is pleased to submit this letter proposal revising certain areas of the DPS 9000, DPS 7000, and Cooperative Processing Benchmark proposals we submitted to Bull on March 3, 1989.
+
+We are delighted at the combined internal Bull enthusiasm that our proposals generated, and pleased that Bull wishes to proceed with the work outlined in the three proposals. By performing all three efforts in parallel, Aberdeen can achieve some economies of scale and efficiency. Accordingly, the Aberdeen professional fees for the three projects can be reduced by $14,000 to $77,000 for the combined project.
+
+A. DPS 9000 STATEMENT OF WORK
+
+Task A1 - Develop Guidelines For Disclosure
+During this task, Aberdeen will assess the available internal Bull Debit Credit performance benchmark reports for the DPS 9000 against three different guidelines: A Measure Of Transaction Processing Power, Datamation, April 1985; previously published Debit Credit benchmark reports; the proposed Transaction Processing Council standard.
+
+Task A2 - Benchmark Verification
+Aberdeen will perform a verification audit of the DPS 9000 Models 91 and 94. Aberdeen will be present as an auditor during the running of the tests.
+
+Specific areas of the Debit Credit benchmark testing that Aberdeen will verify were properly conducted include:
+- Configuration of the system under test and the driver system were implemented as described
+- Transaction was properly implemented
+- Transaction consistency with rollback was implemented
+- Fine granular locking was in effect
+- Recovery records were written to a fault-tolerant journal
+- Database records were the proper size
+- Database sizing was scaled properly with the transactions per second
+- Transactions were randomly distributed across the database
+- A random 15% of transactions used a different branch
+- 95% of all transactions completed in a second or less
+- Inter-arrival rate was exponential
+- Response time was correctly measured
+- Tests occurred at steady state for 15 minutes or more
+- Communications with the terminal network occurred
+- Cost/TPS was correctly calculated
+- Results are reproducible
+
+Task A3 - DPS 9000 Performance Communications
+Aberdeen will produce a research report targeted for public distribution based upon Aberdeen's comparative analysis of Bull's tests and other test results and methodologies, including the Tandem TopGun tests (1987), the Digital Equipment DECtp tests (1988), the proposed TPC standard (1988), and the IBM 9370 Debit Credit tests (1988). The research report will be approximately 30 pages in length.
+
+Task A4 - DPS 9000 Performance Marketing Programs
+Aberdeen will recommend a series of marketing programs for Bull engineering, marketing and sales staff; Bull customers and prospects; and the influencer community.
+
+DPS 9000 COST AND DURATION
+The work outlined above will be carried out over an 8-week period. Our fee for professional services will be $30,000 exclusive of expenses. Expenses approximately 20% of the professional service fee.
+
+B. DPS 7000 STATEMENT OF WORK
+
+Tasks B1-B4 mirror the DPS 9000 work with the DPS 7000 platform.
+
+DPS 7000 COST AND DURATION
+Our fee for professional services will be $30,000 exclusive of expenses. Approximately 20% additional for expenses.
+
+C. COOPERATIVE PROCESSING STATEMENT OF WORK
+
+Task C1 - Meeting With Bull Management
+Task C2 - Guideline Documentation for OLTP cooperative processing benchmarks
+Task C3 - On-Going Support (90 days)
+
+COOPERATIVE PROCESSING COST AND DURATION
+The work will be carried out over a 6-week period. Our fee for professional services will be $17,000 exclusive of expenses. Approximately 20% additional for expenses.
+
+COMBINED PROJECT TOTAL: $77,000 (reduced by $14,000 for combined effort)
+
+Yours truly,
+Peter S. Kastner
+Vice President and General Manager
+Aberdeen Transaction Services
+
+APPENDIX A: PETER S. KASTNER biography - Vice President of Aberdeen Group, Inc. and general manager of Aberdeen Transaction Services. Previously held marketing and management positions with Digital Equipment, Prime Computer, and Stratus Computer, and has been a consultant with Arthur D. Little.
+
+JOHN R. LOGAN biography - Executive Vice President and co-founder of Aberdeen Group, Inc. Previously director of mid-range computer research at the Yankee Group.

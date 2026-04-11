@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tpc-c","TPC-C Benchmark","standard","","","","legacy","bull1990-d-c-benchmarks-8b5d9c",""
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","","","","active","bull1990-d-c-benchmarks-8b5d9c",""
+"oltp-systems","Online Transaction Processing (OLTP)","application","","","","active","bull1990-d-c-benchmarks-8b5d9c",""
+"bull-dps9000","Bull DPS 9000 (Models 91, 94)","hardware","","","","discontinued","bull1990-d-c-benchmarks-8b5d9c",""
+"bull-dps7000","Bull DPS 7000","hardware","","","","discontinued","bull1990-d-c-benchmarks-8b5d9c",""
+"ibm-mainframe-zarch","IBM zSeries Mainframe","hardware","","","","active","bull1990-d-c-benchmarks-8b5d9c",""

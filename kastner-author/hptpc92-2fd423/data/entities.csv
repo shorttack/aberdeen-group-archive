@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+hewlett-packard,Hewlett-Packard (HP),company,,split,,,hptpc92-2fd423,Subject of TPC benchmark section
+aberdeen-group,Aberdeen Group,firm,,acquired,,,hptpc92-2fd423,Publisher
+peter-s-kastner,Peter S. Kastner,person,,active,,,hptpc92-2fd423,Author

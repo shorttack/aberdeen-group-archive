@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Proposal for CA interBiz White Paper (July 1999)",
+  "description": "This proposal outlines an Aberdeen Group engagement to produce a white paper analyzing Computer Associates' market position and interBiz initiative\u2014a suite of managed business process solutions built on the bizWorks infrastructure announced at CA World 99. Aberdeen proposes conducting executive interviews, delivering strategic analysis of CA's products, technologies, and competitive positioning in the application infrastructure space, and packaging findings as an Aberdeen Profile for broad use in CA's sales, marketing, and investor relations activities.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1999-07-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,9 @@
+@SUB HEAD = Hewlett-Packard: Gaining Respect
+When the TPC was founded in 1988, transaction processing to Hewlett-Packard meant timesharing with data integrity. HP did not consider itself among the industry's commercial performance or price-performance leaders. Recently, HP has taken to TPC benchmarks with fervor. The company is now a frequent leader in delivering the best TPC price-performance.
+
+HP's enduring experiences with TPC benchmarks have paid off handsomely. By focusing its engineering efforts on the needs of online commercial users, HP has been able to:
+- simultaneously improve performance on both its proprietary MPE/iX and open HP-UX Unix operating systems that share common Precision Architecture RISC processors;
+- bring its ALLBASE RDBMS from also-ran performance to serious-contender status;
+- equalize price-performance between MPE/iX and HP-UX so there is no significant penalty for choosing whichever operating system is "right" for the customer.
+
+Figure 5 shows the 61 percent price-performance and 171 percent performance improvements of the HP 3000 midrange since January 1990.

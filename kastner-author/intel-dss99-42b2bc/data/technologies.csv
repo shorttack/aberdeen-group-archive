@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"decision-support","Decision Support / Business Intelligence","application","","","","evolved","intel-dss99-42b2bc",""
+"intel-xeon","Intel Pentium Xeon Processor","hardware","","","","active","intel-dss99-42b2bc",""
+"microsoft-sql-server","Microsoft SQL Server","application","","","","dominant","intel-dss99-42b2bc",""
+"intel-80x86","Intel 80x86 Architecture","hardware","","","","dominant","intel-dss99-42b2bc",""
+"ia64-itanium","Intel IA-64 Architecture (Itanium)","hardware","","","","end-of-life","intel-dss99-42b2bc",""
+"rdbms","Relational Database (RDBMS)","application","","","","current","intel-dss99-42b2bc",""
+"unix-server","Unix Enterprise Servers","platform","","","","legacy-supported","intel-dss99-42b2bc",""

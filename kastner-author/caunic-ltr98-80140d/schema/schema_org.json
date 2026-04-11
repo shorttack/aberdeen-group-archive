@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Computer Associates Unicenter and Jasmine Strategic Assessment",
+  "description": "This private consulting letter delivers Aberdeen Group's candid post-roundtable assessment to Computer Associates of its Unicenter enterprise management and Jasmine object-oriented database products, arguing that CA is being far too passive in countering Tivoli's competitive PR and has failed to leverage its dominant market-share position and large installed base. Kastner provides blunt, specific recommendations on branding, messaging, product roadmap communication, and the organizational credibility problems surrounding Jasmine, including the need to separate its marketing from Unicenter's. The letter reveals the frank, unfiltered advice analysts give clients behind closed doors, contrasting sharply with publicly released research.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1997-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

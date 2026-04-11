@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,,acquired,,,dectp92-0ca51c,Author/publisher of viewpoint
+peter-s-kastner,Peter S. Kastner,person,,active,,,dectp92-0ca51c,Implied author (Aberdeen viewpoint)
+digital-equipment,Digital Equipment Corporation,company,,dissolved,,,dectp92-0ca51c,Primary subject; VAX product line analysis
+ibm,IBM,company,,active,,,dectp92-0ca51c,Competitor comparison (AS/400 TPC-A price-performance)
+hewlett-packard,Hewlett-Packard,company,,split,,,dectp92-0ca51c,Traditional rival; competitive with VAX on TPC-A
+sequent-computer-systems,Sequent Computer Systems,company,,acquired,,,dectp92-0ca51c,Hot-box competitor mentioned in TPC context

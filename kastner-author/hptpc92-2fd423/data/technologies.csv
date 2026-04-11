@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","","","","active","hptpc92-2fd423","TPC-A benchmarks used to compare HP performance"
+"hp-3000","HP 3000","platform","","","","end-of-life","hptpc92-2fd423","HP midrange system showing 171% performance and 61% price-performance improvement since Jan 1990"
+"hp-ux","HP/UX 9.0","operating-system","","","","mature","hptpc92-2fd423","HP open UNIX operating system sharing PA-RISC processors with MPE/iX"
+"hp-mpe-ix","HP MPE/iX","operating-system","","","","end-of-life","hptpc92-2fd423","HP proprietary operating system for HP 3000; price-performance equalized with HP-UX"
+"hp-allbase-rdbms","HP ALLBASE RDBMS","application","","","","discontinued","hptpc92-2fd423","HP relational database improved from also-ran to serious-contender status via TPC benchmark focus"
+"hp-pa-risc","HP PA-RISC","hardware","","","","legacy","hptpc92-2fd423","Precision Architecture RISC processors shared between MPE/iX and HP-UX systems"

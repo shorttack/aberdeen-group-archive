@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-sp2","IBM SP2","platform","","","","legacy","ibmramp95-9ffc12",""
+"rs6000-smp","IBM RS/6000 SMP","platform","","","","legacy","ibmramp95-9ffc12",""
+"aix","IBM AIX","platform","","","","current","ibmramp95-9ffc12",""
+"rs6000","IBM RS/6000","platform","","","","legacy","ibmramp95-9ffc12",""
+"decision-support","Decision Support / Business Intelligence","application","","","","evolved","ibmramp95-9ffc12",""
+"unix-server","Unix Enterprise Servers","platform","","","","legacy-supported","ibmramp95-9ffc12",""

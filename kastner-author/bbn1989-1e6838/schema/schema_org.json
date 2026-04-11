@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "OLTP Market Research for BBN Advanced Computers",
+  "description": "This consulting market letter, commissioned by BBN Advanced Computers, assesses the commercial OLTP market opportunity for BBN's Butterfly GP1000 parallel computer system, sizing the 1988 OLTP market at $24B worldwide and growing at 18% annually. Kastner surveys vertical market segments\u2014banking, insurance, retail, manufacturing, and government\u2014cataloging application transaction volumes and competitive dynamics to identify where the Butterfly's parallel architecture could compete. The letter concludes that several high-volume OLTP verticals represent viable target markets for a next-generation Butterfly product.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1989-04-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

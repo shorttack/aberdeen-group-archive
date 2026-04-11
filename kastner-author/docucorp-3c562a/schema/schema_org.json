@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "DocuCorp Consulting Project Plan (Aberdeen Group, ~June 2000)",
+  "description": "This project plan details a multi-phase Aberdeen Group management consulting engagement for DocuCorp, a document management software vendor, beginning with a two-day on-site Discovery phase in Dallas to interview managers across sales, R&D, support, and professional services, followed by a presentation of preliminary findings to DocuCorp's executive team. Subsequent phases include competitive analysis, strategic positioning recommendations, and delivery of a final report, with the overall goal of helping DocuCorp optimize its market position, organizational structure, and go-to-market strategy.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

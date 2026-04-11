@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM Section: TPC Benchmark Viewpoint (Aberdeen Group, 1992)",
+  "description": "This section of Aberdeen's 1992 TPC Benchmark Viewpoint examines IBM's two-pronged TPC benchmark strategy using its AS/400 and RS/6000 midrange lines, documenting strong AS/400 E-series price-performance improvements and a 59% RS/6000 model 550 throughput gain from AIX 3.2, while noting that IBM has conspicuously excluded its System/390 mainframe from TPC disclosures. Aberdeen argues that IBM has almost certainly run TPC benchmarks internally on the System/390 but is withholding results, and encourages IBM customers to demand TPC disclosure across all IBM product lines to enable fair cross-platform comparisons.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1992",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

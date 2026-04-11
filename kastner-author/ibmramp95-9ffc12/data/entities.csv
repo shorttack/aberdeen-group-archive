@@ -1,0 +1,6 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,,acquired,,,ibmramp95-9ffc12,Consulting firm submitting proposal
+peter-s-kastner,Peter S. Kastner,person,,active,,,ibmramp95-9ffc12,"VP Commercial Systems, Aberdeen Group"
+ibm-corporation,International Business Machines Corporation,company,,active,,,ibmramp95-9ffc12,Client commissioning SP market research
+ibm,IBM,company,,active,,,ibmramp95-9ffc12,Client for RS/6000 SP commercial market research
+ibm-global-services,IBM Global Services,company,,active,,,ibmramp95-9ffc12,IBM field marketing organization referenced in proposal

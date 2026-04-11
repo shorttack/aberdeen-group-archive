@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Proposal Letter to Computer Associates - Three Aberdeen Profiles (March 1998)",
+  "description": "This proposal letter to Computer Associates outlines Aberdeen Group's plan to produce three separate Aberdeen Profile publications supporting CA's Unicenter TNG and interBiz product lines, tailored to distinct audiences: CA customers, channel partners, and press/analysts/Wall Street. Aberdeen recommends against a single publication due to the diversity of CA's target audiences, and proposes an on-site briefing to review disclosed materials before drafting. The engagement includes research, reprint production (20,000 copies each), electronic distribution rights, and licensing for CA to reproduce additional paper copies.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1998-03-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

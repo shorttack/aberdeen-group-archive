@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing","application","","","","current","bio-webfocus-bef516","Named as Kastner expertise area"
+"client-server","Client-Server Architecture","framework","","","","legacy","bio-webfocus-bef516","Named as Kastner expertise area"
+"decision-support","Decision Support / Business Intelligence","application","","","","evolved","bio-webfocus-bef516","Named as Kastner expertise area"

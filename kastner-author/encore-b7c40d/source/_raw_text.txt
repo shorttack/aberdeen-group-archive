@@ -1,0 +1,71 @@
+OLTP Market Analysis for Encore Computer Series 90
+
+Manufacturing and Distribution Applications
+Shop Floor Control - controls, manages, and accounts for work-in-process in discrete manufacturing. Frequently involves communications with factory machine networks. Major competitors are IBM, Digital, and Hewlett-Packard. Volumes range to 40 TPS peaks.
+Manufacturing Resource Planning (MRP) - maintains a database of discrete manufacturing assemblies and parts lists. Bill of material explosions and economic order point calculations are quite CPU intensive. This is primarily a batch application traditionally run on mainframe computers or superminis.
+Distribution - warehouse control applications involving machine-controlled automated warehousing, picking, and movement by guided vehicles. Volumes to 10 TPS.
+Order entry - most large-scale order entry systems are custom-tailored. Extensive database manipulation, rule-checking, and CPU-intensive editing is common. Home Shopping Services and mail order firms generate volumes up to 100 TPS.
+Computer-Assisted Design (CAD) - CAD applications assist engineers in design, drafting, and engineering record-keeping. CAD requires heavy computing for solids modelling (3D drawings), wire frame generation, stress analysis. The key to CAD sales is applications software from a wide range of ISVs.
+
+Banking Applications (Retail)
+On-line banking - integrates demand deposit accounting, deposit instruments, installment and mortgage loans, and customer relationship data. In the U.S., commercial banks have not implemented on-line banking and are unlikely to in the next five years. There are 25 large S&L's requiring more than 50 TPS for their systems. Banks in Europe and Japan are more centralized and on-line; very large mainframes are the norm, requiring up to 125 TPS.
+Relationship accounting - RDBMS performance has been so poor (until recently) that these systems could not be price/performance justified.
+Automated teller machines - local banks require up to 15 TPS. Nationwide ATM networks like CIRRUS require 25 TPS or less. Volume requirements are higher, to 60 TPS, in Europe due to widespread use of debit cards.
+
+Banking Applications (Wholesale)
+International funds transfer - large money-center banks generate 10K-15K transactions per day (less than 1 TPS). Security and availability are key requirements.
+Cash management - volumes are a modest 20 TPS in large systems.
+Foreign exchange - up to 40K transactions per day (1 TPS).
+Interbank clearing systems - volumes to 200 TPS peak. Examples include CHIPS (the NY clearing house) and FedWire, which handles Federal Reserve Bank transactions.
+
+Brokerage/Securities Applications
+Retail trading - 75 TPS is a peak load at a large brokerage firm.
+Mutual funds - shareholder systems and securities accounting system volumes are up to 100 TPS. The stock ticker plant application maintains real-time database and position information; at start-of-day, opening quotes drive volume to 150 TPS.
+Program trading - about 400 firms engage in program trading.
+Commodity trading - volumes range to 75 TPS.
+Information providers - Reuters, Telerate and other securities information providers require up to 2,000 communications lines and capacity to communicate 1-2M bytes per second.
+
+Government Applications
+Social Security - antiquated system requires replacement; aggregate transaction volumes estimated at 100 TPS over 10,000 terminals.
+Command and Control - The military is increasingly interested in commercial off-the-shelf (COTS) OLTP hardware for logistics, intelligence analysis, and decision systems. Unix is highly desirable.
+
+Retail Applications
+Point of Sale (POS) - a scanner data capture application requires 10 TPS per store or less.
+Credit Authorization - VISA and MasterCard systems. Volumes range to 200 TPS. American Express uses negative authorization system with each regional node processing 150 TPS at Christmas peak on $100K midrange systems.
+Product Management - very large (10GB and up) databases require considerable processing power.
+
+Transportation Applications
+Airlines Reservations Systems - American's Sabre system processes 200 TPS per IBM 3090-200. Volumes peak at 2,000 TPS and are growing at 15% per annum.
+
+Insurance Applications
+Claims Processing systems - generate volumes to 60 TPS.
+Policy Systems - volumes to 35 TPS.
+
+Service Applications
+Information retrieval - Dow Jones installed a massively-parallel Thinking Machine. Large service providers like Dow Jones, Mead Data, OAG, MCI Mail and Compuserve require up to 150 TPS from 10,000 on-line users. Ticketing - volumes range to 55 TPS.
+Home services - home shopping requires timely order processing with volumes to 100 TPS. Sears/IBM Prodigy expects 100 TPS within three years. The French electronic mail system generates over 300 TPS during peak hours.
+
+Communications applications
+Call switching - operator-assisted 800 number call switching systems generate 400 TPS today with the expectation of growth to 600 TPS in five years.
+Value-added switching - accounting transactions to 70 TPS.
+
+Conclusions for Encore Computer
+The market for high-end OLTP applications exceeded $1.4 billion in 1989 for systems with application requirements exceeding 25 TPS, and was $630M at 100 TPS throughput rates.
+
+Aberdeen believes that most data centers can achieve 40 TPS using CICS and DB2 on a 3090-180J with an $8 million five-year life-cycle cost for hardware, software, and maintenance.
+
+Aberdeen rates, in priority order, the most attractive ten 1990 market/application areas for applications requiring 100 TPS or greater for a 1991 Series 90 product:
+1. Communications: service order processing, maintenance processing. Total market estimated at $40M.
+2. Retail: credit authorization. Total market estimated at $35M.
+3. Government: non-specific applications. Total market estimated at $200M.
+4. Transportation: reservations systems. Total market estimated at $45M.
+5. Brokerage: mutual fund shareholder customer service. Total market estimated at $35M.
+6. Manufacturing/Distribution: order entry and inventory control. Total market estimated at $50M.
+7. Banking: cash management and international funds transfer. Total market estimated at $55M.
+8. Banking: retail banking systems. Total market estimated at $65M.
+9. Brokerage: trading systems. Total market estimated at $60M.
+10. Manufacturing: shop floor control. Total market estimated at $45M.
+
+Total market potential for these ten market/applications in 1990 estimated at $630M.
+
+The commercial Series 90 has significant projected price/performance advantages over IBM's 3090 mainframes. Aberdeen believes that most data centers can achieve 40 TPS using CICS and DB2 on a 3090-180J with an $8 million five-year life-cycle cost.

@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ca-interbiz","CA interBiz Solution Suite","application","","","","discontinued","caprop99-86144f","CA's newly announced suite of managed business process solutions"
+"ca-bizworks","CA bizWorks Infrastructure","platform","","","","discontinued","caprop99-86144f","Underlying infrastructure for CA interBiz suite"

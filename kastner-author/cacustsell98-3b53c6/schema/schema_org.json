@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Customer Focused Selling - Sales Training Curriculum (CA, 1998)",
+  "description": "This document outlines the curriculum for a 'Customer Focused Selling' multi-day sales training program developed for Computer Associates' sales organization in 1998, covering behavioral style analysis using the DiSC model, trust-building techniques, prospecting and pre-call planning, customer-focused interviewing using the F.I.N.D. system, and competitive selling strategies. The program integrates personality profiling, active listening skills, and structured sales process methodology to equip CA sales professionals with consultative selling techniques suited to complex enterprise software deals.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1998",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

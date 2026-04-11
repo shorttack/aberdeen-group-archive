@@ -1,0 +1,15 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,,acquired,,,ibmrs6k-05561e,Training developer and deliverer
+peter-s-kastner,Peter S. Kastner,person,,active,,,ibmrs6k-05561e,"Group Vice President, Aberdeen Group"
+ibm,IBM,company,,active,,,ibmrs6k-05561e,Client
+sandra-miron,Sandra Miron,person,,unknown,,,ibmrs6k-05561e,"IBM contact, Austin TX, RS/6000 Division [REVIEW]"
+sun-microsystems,Sun Microsystems,company,,acquired,,,ibmrs6k-05561e,Named as RS/6000 competitor
+hewlett-packard,Hewlett-Packard (HP),company,,split,,,ibmrs6k-05561e,Named as RS/6000 competitor
+digital-equipment,Digital Equipment Corporation,company,,dissolved,,,ibmrs6k-05561e,Named as RS/6000 competitor (DEC)
+oracle,Oracle,company,,active,,,ibmrs6k-05561e,Named as market-leading RDBMS covered in training
+sybase,Sybase,company,,acquired,,,ibmrs6k-05561e,Named as market-leading RDBMS covered in training
+computer-associates,Computer Associates (CA),company,,renamed,,,ibmrs6k-05561e,"Named as CA-Ingres, RDBMS covered in training"
+informix,Informix,company,,unknown,,,ibmrs6k-05561e,Named as market-leading RDBMS covered in training [REVIEW]
+att,AT&T,company,,unknown,,,ibmrs6k-05561e,Named as RS/6000 competitor [REVIEW]
+arthur-d-little,Arthur D. Little Inc.,company,,unknown,,,ibmrs6k-05561e,Kastner's previous employer referenced in bio [REVIEW]
+apple-computer,Apple Computer (Apple Inc.),company,,active,,,ibmrs6k-05561e,Named among organizations Kastner spoke on behalf of

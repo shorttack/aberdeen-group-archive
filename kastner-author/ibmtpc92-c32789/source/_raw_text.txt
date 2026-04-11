@@ -1,0 +1,17 @@
+@SUB HEAD = IBM: Two-Pronged Attack
+Competitors who thought IBM would not contend for price-performance leadership guessed wrong. IBM has dropped its long-used proprietary RAMP-C benchmark in favor of TPC benchmarks for its midrange products.
+
+Big Blue has led the best TPC-A price-performance list with specific models several times and is always near the top. IBM is doing this with its AS/400 and RS/6000 product lines.
+
+Figure 6 shows three models in the AS/400 E-series, announced in February 1992. The AS/400 price-performance curve is not flat; costs per transaction increase from the low-end E10 to the largest single-processor E70. However, the E70 has twice the throughput performance of the predecessor B70 at a 45 percent lower K$/TPS-A. And at under $100,000 (9.92 TPS-A times $9.95 K$/TPS-A) in five-year costs, the entry-level E10 shows attractive price-performance for low transaction-volume, distributed, replicated applications, IBM's target market.
+
+Figure 7 illustrates RS/6000 model 550 improvements. The recent performance boost is attributable to internal improvements in version 3.2 of AIX, and indicates that the AIX operating system is maturing.
+
+While model 550 performance jumps 59 percent from 32 to 51 TPS-A with the AIX 3.2, price-performance is only 12.4 percent better. This indicates that the RS/6000 memory and disk upgrades needed to support the greater performance potential of AIX 3.2 are relatively expensive.
+
+A strong price-performer in 1991, the RS/6000 product line has fallen behind in price-performance in early 1992. Even with IBM's January 1992 new product introductions, the RS/6000 has failed to come close to breaking the K$10/TPS-A level.
+
+@SUB HEAD = Where Is the System/390?
+Missing from IBM's TPC lineup is its System/390 mainframe. IBM says that TPC-A is an inappropriate measure of the System/390's performance potential. Aberdeen believes that IBM has run the TPC-A benchmark on all its machines, but has chosen not to announce the results.
+
+We have no doubts that the S/390 could obtain prodigious performance numbers using TPF or IMS/FastPath. The question buyers are asking is, "What's the S/390 price-performance running DB2?"

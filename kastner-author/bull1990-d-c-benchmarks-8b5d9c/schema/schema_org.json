@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Bull DPS 9000/7000 Debit-Credit Benchmark and Cooperative Processing Proposal",
+  "description": "This consolidated proposal letter revises and combines three Aberdeen Group engagements for Bull HN Information Systems covering Debit-Credit benchmark auditing for the DPS 9000 and DPS 7000 servers, and a cooperative processing benchmark study. Aberdeen proposes to audit Bull's internal benchmark results against industry disclosure guidelines and then publish findings to validate Bull's price-performance claims in the commercial OLTP market. The letter consolidates scope and reduces combined fees to $77,000 to capture efficiencies from running all three projects in parallel.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1989-05-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"asp-commerce-platform","ASP E-Commerce Platform","platform","Multiple (Omnigy/Ascendant, Digital River)","2001","emerging","unknown","2001-fletcher-spaght-3bb872","Application Service Provider commerce platform; precursor to SaaS e-commerce"
+"b2c-ecommerce","B2C E-Commerce","application","Multiple","2001","growth","unknown","2001-fletcher-spaght-3bb872","Business-to-consumer e-commerce; Omnigy B2C offering evaluated"
+"b2b-ecommerce","B2B E-Commerce / Supplier Enablement","application","Multiple","2001","emerging","unknown","2001-fletcher-spaght-3bb872","Supplier Enablement / B2B ecommerce; FSI's recommended focus for Ascendant"
+"ecrm","eCRM (Electronic Customer Relationship Management)","application","Multiple","2001","emerging","unknown","2001-fletcher-spaght-3bb872","eCRM complexity varies by supply chain position per FSI analysis"
+"order-management-system","Order Management System","application","Multiple","2001","growth","unknown","2001-fletcher-spaght-3bb872","ERP and OMS as displacement barrier for Omnigy adoption"

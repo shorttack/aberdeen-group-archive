@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen's Competitive Landscape \u2014 CP 100 Builds",
+  "description": "Seven-slide Aberdeen Group presentation consisting entirely of 'Aberdeen's Competitive Landscape' charts (CP 100 Builds format). Each slide appears to be a build step in the same competitive positioning diagram, progressively revealing Aberdeen's competitive landscape. Mostly graphical with minimal extractable text \u2014 text content is limited to the slide title repeated seven times. The visual content would show Aberdeen's market position relative to Gartner, IDC, Forrester, Meta Group, and other IT analyst firms.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,51 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+org-fact,observation_type,Org Fact,Study-specific code: org-fact
+primary-doc,methodology,Primary Doc,Study-specific code: primary-doc
+business-model,observation_type,Business Model,Study-specific code: business-model
+geographic-mix,observation_type,Geographic Mix,Study-specific code: geographic-mix
+collaboration-model,observation_type,Collaboration Model,Study-specific code: collaboration-model
+pricing,observation_type,Pricing,Study-specific code: pricing
+collaboration-deliverables,observation_type,Collaboration Deliverables,Study-specific code: collaboration-deliverables
+market-analysis,observation_type,Market Analysis,Study-specific code: market-analysis
+market-sizing,observation_type,Market Sizing,Study-specific code: market-sizing
+competitive-assessment,observation_type,Competitive Assessment,Study-specific code: competitive-assessment
+market-barrier,observation_type,Market Barrier,Study-specific code: market-barrier
+strategic-recommendation,observation_type,Strategic Recommendation,Study-specific code: strategic-recommendation
+practice-areas,observation_type,Practice Areas,Study-specific code: practice-areas
+methodology,observation_type,Methodology,Study-specific code: methodology
+research-method,observation_type,Research Method,Study-specific code: research-method
+competitive-landscape,observation_type,Competitive Landscape,Study-specific code: competitive-landscape
+sales-challenge,observation_type,Sales Challenge,Study-specific code: sales-challenge
+client-success,observation_type,Client Success,Study-specific code: client-success
+business-policy,observation_type,Business Policy,Study-specific code: business-policy
+competitive-differentiation,observation_type,Competitive Differentiation,Study-specific code: competitive-differentiation
+channel-strategy,observation_type,Channel Strategy,Study-specific code: channel-strategy
+partnership-model,observation_type,Partnership Model,Study-specific code: partnership-model
+biography,observation_type,Biography,Study-specific code: biography
+market-quote,observation_type,Market Quote,Study-specific code: market-quote
+confidentiality-policy,observation_type,Confidentiality Policy,Study-specific code: confidentiality-policy
+market-finding,observation_type,Market Finding,Study-specific code: market-finding
+services-list,observation_type,Services List,Study-specific code: services-list

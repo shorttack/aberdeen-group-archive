@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Market Analysis and Positioning Services for Business Technology \u2014 Corporate Presentation",
+  "description": "Full Aberdeen Group corporate presentation (22 slides) covering the firm's mission, competitive context, service portfolio, and engagement model. Documents Aberdeen's core competencies (market research, industry dialogue, technology-in-business-context, vision, actionable strategies), service offerings (AAS, RAMP, Profiles, webcasts, marketing workshops), and technology coverage taxonomy. Primary sales/marketing tool for technology supplier prospects.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

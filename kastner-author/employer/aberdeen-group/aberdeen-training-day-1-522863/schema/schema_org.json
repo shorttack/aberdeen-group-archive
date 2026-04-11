@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Twelve Vital Hours For Your Career Success",
+  "description": "Aberdeen Group's 'Twelve Vital Hours For Your Career Success' is a new-hire analyst orientation program consisting of four sessions covering Aberdeen's uniqueness and market position, client representation skills, the Profile and RAMP methodology, analyst support services, and business development practices. The document establishes Aberdeen's competitive differentiation versus Gartner, IDC, Forrester, Meta Group, and Giga Group, and introduces the firm's philosophy of positive, actionable IT advice delivered through one-on-one client engagements.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

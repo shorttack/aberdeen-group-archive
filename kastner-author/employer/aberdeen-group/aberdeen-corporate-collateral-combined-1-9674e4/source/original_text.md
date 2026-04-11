@@ -1,0 +1,416 @@
+# Aberdeen Group Market Analysis and Positioning Services — Corporate Collateral Combined (December 2000)
+
+> Archived from: Aberdeen Corporate Collateral Combined 12-20.pdf
+> Original publication date: 2000-12
+> Author: Peter S. Kastner / Aberdeen Group
+
+---
+
+## Original Document Text
+
+[Page 1]
+Market Analysis and Positioning Services
+for Business Technology
+AberdeenGroup
+Why Aberdeen?
+To prosper in today’s volatile markets, technology suppliers must:
+•
+Anticipate rapidly changing technologies and business conditions
+Resolve market confusion, which slows adoption
+Build a unique value proposition to differentiate themselves in a crowded market
+Aberdeen Group is a leading Information Technology market analysis and positioning services firm that
+helps business technology suppliers establish leadership in emerging markets. Aberdeen’s goal is to help
+our clients position their products and services for success. Since 1988, Aberdeen’s client engagements
+have been based on the following core competencies:
+Market
+Research
+Dialogue
+with
+Players
+Technology
+Positioned
+in a Business
+Context
+Vision
+To each client engage-
+ment, Aberdeen brings its
+knowledge of the industry,
+developed by gathering
+primary market data.
+Aberdeen helps its clients
+understand current mar-
+ket conditions as well as
+potential industry trends.
+Access to senior-level executives
+in technology suppliers, leading
+user organizations, and the
+investor/venture capital com-
+munity gives Aberdeen unique
+market and technology insights.
+Aberdeen concentrates on whether a
+technology has a practical applica-
+tion and whether a supplier has a
+sustainable business plan.
+Aberdeen develops action plans
+upon which our clients can execute
+practical go-to-market strategies.
+Actionable
+Strategies
+Boston • Palo Alto • Ft. Collins • Amsterdam
+www.aberdeen.com
+
+[Page 2]
+AberdeenGroup
+Engaging with Aberdeen
+Aberdeen’s business model illustrates how business technology suppliers can engage with
+us. The cornerstone of all Aberdeen services is a one-on-one relationship with our clients
+based upon custom presentation of key market findings.
+Primary Market Research
+Aberdeen generates primary
+qualitative and quantitative
+market research data on
+emerging technology mar-
+kets. In addition to our pub-
+lished research, clients can
+engage with Aberdeen for
+custom research activities.
+Consulting Services
+Aberdeen offers a variety of
+consulting services that help
+clients position their products
+for success across the product
+lifecycle. These engagements
+are structured as interactive
+dialogues and can involve a
+single analyst or multiple ana-
+lysts working in different
+technology sectors.
+Audience Education and Training
+Through a variety of consulting
+deliverables Aberdeen amplifies a
+client’s positioning message and
+unique value proposition. Aberdeen
+also works to train and align a
+client’s internal audiences, including
+the sales force and channel partners.
+Strategy
+Acceleration
+Primary
+Market Research
+Publications
+Cross-Group
+Engagement
+Single Analyst
+Webcasts
+Ongoing Advisory
+Services Relationship
+An interactive advisory service is at the core of
+Aberdeen’s services offerings. This gives a client
+direct access to a highly experienced analyst
+who understands that client’s technology and
+market. This relationship generally becomes
+the foundation for all other Aberdeen consult-
+ing services.
+Boston • Palo Alto • Ft. Collins • Amsterdam
+www.aberdeen.com
+
+[Page 3]
+AberdeenGroup
+Additional Services
+Although Aberdeen offers a portfolio of predefined services, each consulting engagement
+is uniquely designed to meet a client’s specific needs.
+An analyst can provide customized strategy
+acceleration services that enable sales teams to
+improve and shorten their sales efforts and
+support a client’s market positioning goals.
+These solutions can be customized to include
+e-Learning-based sales training.
+Aberdeen analysts provide insights into mar-
+ket trends and supplier strategies by partici-
+pating in a company-sponsored Webcast for
+prospects and customers.
+Impact: An Aberdeen analyst’s synopsis of
+how a supplier’s new announcement or
+product introduction will affect a market
+and that supplier’s future prospects.
+Profile: Represents an objective, third-party
+review of a supplier’s go-to-market strategy
+or a supplier’s major product families.
+Executive Briefing Paper: An in-depth
+report on emerging technologies or com-
+mon end-user problems. It is generally used
+to educate the market on how a company’s
+product addresses these issues.
+Research Reports: For organizations that
+need to quickly get up to speed about mar-
+kets and suppliers that are new to them.
+Marketing Workshops
+Our marketing workshops are specifically
+designed as interactive dialogues between
+client senior managers and a team of senior
+Aberdeen analysts conducted on-site.
+Aberdeen analysts and clients are likely to dis-
+cuss these types of topics during a marketing
+workshop: Market Knowledge, Positioning
+Strategy, or Message Optimization; Due
+Diligence; and Competitive Analysis.
+Strategy Validation
+Aberdeen’s Rapid Accurate Market Positioning
+(RAMP) engagement works for clients who
+need in-depth primary customer and
+prospect market research and analysis
+within a short time frame.
+Market Knowledge
+Positioning Strategy
+Message Optimization
+Due Diligence
+Competitive Analysis
+Custom Research
+Strategy
+Acceleration
+Consulting Services
+Audience Education
+and Training
+Publications
+Webcasts
+Validation
+(RAMP)
+Aberdeen consulting services include:
+Boston • Palo Alto • Ft. Collins • Amsterdam
+www.aberdeen.com
+
+[Page 4]
+AberdeenGroup
+Coverage Areas
+Aberdeen’s research is presented in technology segments.
+These segments are the emerging technologies that
+Aberdeen feels will most significantly
+impact enterprises’ business
+operations over the next
+generation of
+IT systems.
+Relying on Aberdeen’s 14 years of experience,
+clients turn to us when they need help developing effective go-to-market strategies.
+Count on Aberdeen to help you position your company for success.
+Boston: 617-723-7890 • Palo Alto: 650-325-5100 • Ft. Collins: 970-232-7000 • Amsterdam: +31 (0)23 568 5929
+www.aberdeen.com
+For more information on how to engage with Aberdeen Group:
+Call 800-577-7891
+Or e-mail info@aberdeen.com
+Professional
+Services
+Automation
+IT
+e-Business
+Collaborative
+Product
+Commerce
+Supply
+Chain
+Management
+Customer
+Relationship
+Security
+Enterprise
+Systems
+Data
+Knowledge
+Applications
+Mobile
+and Handheld
+Devices
+Communications
+Service
+Providers
+Personal
+Storage
+Next
+Generation
+Networks
+and Internet
+Infrastructure
+Application
+Platforms
+120701
+
+[Page 5]
+Aberdeen Advisory Access Service
+Boston • Palo Alto • Ft. Collins • Amsterdam
+www.aberdeen.com
+AAS
+AberdeenGroup
+Aberdeen Group’s Advisory Access Service (AAS) is a retainer-based interactive service that gives
+decision-making client executives one-on-one custom access to an Aberdeen analyst — when they
+are needed. AAS is at the heart of our service offerings, and all active clients receive the Core Access
+Deliverables (CAD) during the course of their client engagements with Aberdeen for no extra charge.
+One of our experienced research analysts will be designated as your
+relationship manager. The analyst will be in a research practice area
+that covers your primary IT market.
+Offered in all technology sectors, clients can customize or build on
+the service by adding consulting days, custom research or other
+Aberdeen services.
+You will have access to the published research and analysis of your
+primary IT market. This research forms the basis for our intellectual
+discussions about your company on market dynamics, trends, and
+competition.
+Aberdeen Group will meet privately with clients to share observa-
+tions and perspectives at all relevant trade shows that your Aberdeen
+analyst attends. Your analyst will walk the show floor with you and
+discuss the competition’s trade-show positioning as well as any hot
+new entrants.
+Aberdeen Group will make itself available as a creditable third-party
+source to assist your public relations and press release efforts with
+appropriate objective quotes and background press briefings.
+Reasonable telephone or e-mail access is provided to your designated
+Aberdeen Group analyst for you and another contact at your company.
+To provide you with Aberdeen’s latest research findings in your tech-
+nology market and discuss their relevance to your company, Aberdeen
+Group will hold a one- to two-hour briefing with your company.
+Core Access Deliverables
+A Designated Analyst
+Analyst Consulting
+Interactive Briefing
+Telephone and
+e-Mail Access
+PR and Press Interaction
+Trade Show Dialogue
+Research Access
+
+[Page 6]
+Boston: 617-723-7890 • Palo Alto: 650-325-5100 • Ft. Collins: 970-232-7000 • Amsterdam: +31 (0)23 568 5929
+www.aberdeen.com
+Why AAS?
+•
+Provides timely “ad hoc” access to market research experts who can provide strategic
+advice on market conditions, competitors, or strategy options.
+Offers access to Aberdeen’s published primary market research, insights and analysis
+on an ongoing basis — as well as a live analyst to talk about market dynamics as the
+market changes.
+Fosters a trusted, long-term advisory relationship with Aberdeen Group, the analyst,
+and the analyst’s practice group.
+Provides Aberdeen analyst availability to field press and media inquiries and provide
+access about a client’s organization.
+AAS
+
+[Page 7]
+Marketing Workshops
+Boston • Palo Alto • Ft. Collins • Amsterdam
+www.aberdeen.com
+Aberdeen offers a variety of consulting services that help clients to position their products for success
+across product lifecycles.These engagements are delivered in workshop form as executive-level interac-
+tive dialogues, and can involve a single analyst or multiple analysts. Aberdeen Group’s lifecycle model of
+market consulting services includes structured or custom arrangements throughout the process of mar-
+ket and product planning.
+Consulting Services
+AberdeenGroup
+Market
+Knowledge
+Go-to-Market
+Positioning
+Messaging
+Strategy
+Readiness
+Vision
+Develop
+Prepare
+Custom Consulting
+and Research
+Acceleration
+Webcasts
+Publications
+Think
+Plan
+Do
+Market Knowledge
+Goal: Expand and clarify impact of market trends
+Agenda: Major market trends, market forecast, market segmentation, competitive landscape
+Key Issues: How market shifts affect your offering, necessary business planning response
+Outcome: Actionable insights into market dynamics, assessing market opportunities
+Next Steps: Go-to-Market, expanded internal education
+Goal: Examine and choose the best market, positioning, and messaging opportunities
+early in launch planning
+Agenda: Market and competitive trends, positioning options, key messages
+Key Issues: Anticipating the market conditions at launch time
+Outcome: Choice of the right marketing theme and direction for the market conditions
+Next Steps: Market Positioning, field research, e-Learning sales training
+
+[Page 8]
+Boston: 617-723-7890 • Palo Alto: 650-325-5100 • Ft. Collins: 970-232-7000 • Amsterdam: +31 (0)23 568 5929
+www.aberdeen.com
+Consulting Services
+Market Positioning
+Goal: Bullet-proof current positioning, or reposition a product offering
+Agenda: Examination of product positioning, market readiness, competition
+Key Issues: Strategy to position against competitors, expand product/company differentiation
+Outcome: Essential re-positioning steps to strengthen marketing impact, sales readiness
+Next Steps: Messaging Strategy, field research, market communication, Executive
+Briefing Papers
+Messaging Strategy
+Goal: Examination of how to communicate your product positioning
+Agenda: Review current go-to-market strategy, evaluating strengths and weaknesses
+Key Issues: How to accelerate demand in a crowded market
+Outcome: Guided evaluation of corporate and product launch-media
+Next Steps: Go-to-Market Readiness, third-party Executive Briefing Papers, e-Learning
+sales training, PR/advertising training
+Go-to-Market Readiness
+Goal: Bullet-proof launch deliverables prior to public release
+Agenda: Review all public launch deliverables
+Key Issues: How will customers, partners, press, industry and financial analysts react to the
+launch?  Are communications crisp?
+Outcome: Communications and PR activities that anticipate likely concerns and highlight
+announcement differentiation
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | aberdeen-corporate-collateral-combined-1-9674e4 |
+| title | Aberdeen Group Market Analysis and Positioning Services — Corporate Collateral Combined (December 2000) |
+| author | Peter S. Kastner / Aberdeen Group |
+| date | 2000-12 |
+| type | employer-record |
+| subject_domain | IT market research; service descriptions; client engagement; advisory model |
+| methodology | corporate-collateral |
+| source_file | Aberdeen Corporate Collateral Combined 12-20.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+A multi-section corporate collateral document (December 2000, 8 pages) providing detailed written descriptions of all Aberdeen Group services including the Advisory Access Service (AAS), RAMP (Rapid Accurate Market Positioning), Marketing Workshops, and the full suite of publication types. The most detailed text-based description of Aberdeen's service model; covers client value propositions, delivery formats, and technology coverage areas organized by emerging market segments.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | MEDIUM | Most detailed written description of Aberdeen's service portfolio; provides specific descriptions and value propositions beyond slide deck formats |
+| **Relevance** | HIGH | Text-rich document with specific service definitions useful for understanding Aberdeen's December 2000 service model |
+| **Prescience** | MEDIUM | AAS retainer model and lifecycle consulting framework anticipated modern tech analyst industry practices |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (1)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research |
+
+### Technologies Referenced (3)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Aberdeen Advisory Access Service (AAS) | service | Aberdeen Group | mature | unknown |
+| RAMP (Rapid Accurate Market Positioning) | methodology | Aberdeen Group | mature | unknown |
+| e-Learning Sales Training | service | Aberdeen Group | emerging | unknown |
+
+### Observation Summary
+
+- Total observations: 20
+- By type: service-description: 3, workshop-type: 3, market-context: 1, org-fact: 1, core-competency: 1, service-deliverables: 1, service-value: 1, consulting-description: 1, lifecycle-model: 1, coverage-taxonomy: 1, publication-types: 1, webcasting: 1, engagement-model: 1, primary-research: 1, audience-education: 1, go-to-market-readiness: 1

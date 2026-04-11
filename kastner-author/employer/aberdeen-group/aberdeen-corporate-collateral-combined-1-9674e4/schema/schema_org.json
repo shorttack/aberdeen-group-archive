@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Market Analysis and Positioning Services \u2014 Corporate Collateral Combined (December 2000)",
+  "description": "A multi-section corporate collateral document (December 2000, 8 pages) providing detailed written descriptions of all Aberdeen Group services including the Advisory Access Service (AAS), RAMP (Rapid Accurate Market Positioning), Marketing Workshops, and the full suite of publication types. The most detailed text-based description of Aberdeen's service model; covers client value propositions, delivery formats, and technology coverage areas organized by emerging market segments.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

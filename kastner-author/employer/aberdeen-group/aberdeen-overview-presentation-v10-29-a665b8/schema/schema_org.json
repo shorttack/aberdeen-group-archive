@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Market Analysis and Positioning Services for Business Technology \u2014 Aberdeen Group Overview Presentation",
+  "description": "Aberdeen Group's corporate overview presentation (version October 29, 2000) covering the firm's mission, service portfolio, client engagement model, and coverage areas. Documents Aberdeen's 'Define, Differentiate, or Disappear' positioning tagline and describes the RAMP methodology, Advisory Access Service (AAS), Profile, Impact, Viewpoint, and Executive Briefing Paper deliverables. Includes technology coverage wheel and competitive context.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2000-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

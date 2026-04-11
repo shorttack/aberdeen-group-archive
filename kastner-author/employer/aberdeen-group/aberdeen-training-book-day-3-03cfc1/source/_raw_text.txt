@@ -1,0 +1,1517 @@
+[Page 1]
+Project #
+Aberdeen Group
+Boston Palo Alto Amsterdam
+www.aberdeen.com
+“How To Write A Profile
+and
+How To Conduct A RAMP”
+
+[Page 2]
+Confidential
+Aberdeen Group, Inc.
+Slide 2, Chapter 3
+Four Key Objectives
+• Increase your comfort and confidence levels
+when working with clients
+• Describe how Aberdeen research should be
+conducted
+• Coach you on how to communicate research
+results and analysis to clients and the public
+• Provide a basic starting point for organizing
+your thoughts and focusing your work effort
+
+[Page 3]
+Confidential
+Aberdeen Group, Inc.
+Slide 3, Chapter 3
+How To Write A Profile: Objectives Overview
+• A well-written Profile will be:
+– Relevant and understandable to enterprise-
+level IS decision makers, such as the Chief
+Operating Officer, CIO, Director of
+Computer Operations, and Assistant VP of
+Finance
+– They are not experts on the specific
+company or technology being analyzed, but
+they need to sign-off on significant
+acquisitions and are looking for benefits,
+alternatives, and potential limitations
+
+[Page 4]
+Confidential
+Aberdeen Group, Inc.
+Slide 4, Chapter 3
+How To Write A Profile:
+Objectives Overview (continued)
+– A source of new information and insight
+(through analysis) to the supplier itself,
+partners, distributors, prospective buyers,
+installed users, competitors and other
+consumers of market research
+– Objective and trustworthy — describing the
+facts as Aberdeen sees them and then
+analyzing the potential benefits for a specific
+class of users
+
+[Page 5]
+Confidential
+Aberdeen Group, Inc.
+Slide 5, Chapter 3
+How To Write A Profile:
+Process Overview
+• A well-written Profile will be:
+– Focused, focused, and focused
+• Title, Summaries, Sections, Paragraphs, Messages
+• Organized to match the audience’s most likely
+thought process
+– Well researched
+– Outlined in your head before one word is
+committed to paper
+• Discuss with other Aberdeen analysts to sharpen
+your thoughts before starting to write
+– Have no typos or misspellings when completed
+– Be engaging, informative, and entertaining
+
+[Page 6]
+Confidential
+Aberdeen Group, Inc.
+Slide 6, Chapter 3
+Before The Beginning
+• Profiles may be initiated by:
+– A supplier request to:
+• Validate/disprove its value proposition, potential
+benefits, market positioning, user satisfaction, long-
+term viability
+• Communicate strategy, business policies, target
+markets, and where a product may be inappropriate
+• Provide Aberdeen analysis and guidance
+– You or your Aberdeen manager
+• A desire to make a statement about a product or
+company you consider relevant to the industry
+
+[Page 7]
+Confidential
+Aberdeen Group, Inc.
+Slide 7, Chapter 3
+Stage Zero:
+Establishing Focus
+• Decide what message you want to prove or
+disprove and then communicate it
+• Identify your specific audience
+– Always remember that you must be writing to
+acquirers of IT products, NOT journalists,
+suppliers, other analysts, Wall Street
+• Establish the logic of your argument
+– This may take several hours of time focusing,
+organizing, and simplifying your initial
+thoughts
+
+[Page 8]
+Confidential
+Aberdeen Group, Inc.
+Slide 8, Chapter 3
+Stage Zero:
+Establishing Focus (continued)
+• Create a working Profile title
+– Forces you to focus even more
+– Some older Profiles did not have titles —
+this is a mistake for a standalone Profile
+that is not part of a bigger report
+
+[Page 9]
+Confidential
+Aberdeen Group, Inc.
+Slide 9, Chapter 3
+Research
+• Interview the suppliers’ executives
+– How does the company view itself?
+– What does the product/company do?
+– What is new and different about today’s offering
+compared to the past?
+– What makes the offering and value proposition
+unique?
+– What does it believe its market position to be?
+– What customer problems is the supplier trying
+to solve?  What are the benefits?
+
+[Page 10]
+Confidential
+Aberdeen Group, Inc.
+Slide 10, Chapter 3
+Research (continued)
+– Who are the direct competitors?
+– What are the future product directions?
+– How is the company structured?
+– What were its origins?
+– What are revenues and profitability?
+
+[Page 11]
+Confidential
+Aberdeen Group, Inc.
+Slide 11, Chapter 3
+Research (continued)
+• Search the Web
+– Find the supplier’s web site will teach you more about
+the company
+• If you have new questions, make follow-up calls to the
+executives previously interviewed
+– Find the supplier’s SEC filings (www.sec.gov) to
+compare reported company status with marketing-
+proclaimed status
+• Especially the most recent annual 10-K and most
+recent quarterly reports
+– Find direct competitors’ web sites
+– Find trade publication search engines (for example,
+www.cmpnet.com)
+– Check ComputerSelect (available on an Aberdeen
+server) for articles on the supplier
+
+[Page 12]
+Confidential
+Aberdeen Group, Inc.
+Slide 12, Chapter 3
+Research (continued)
+• Call the best users
+– Ask the supplier for 3-4 satisfied references
+• Misinformation can easily come from a dissatisfied user
+— you do not know if the problem was the user or the
+product
+– Any users quoted in the trade press may be called
+• The story you obtain and the story reported in the press
+are almost certain to be different
+– In return for a reprint of the final Profile, ask the
+user for a confidential interview (and promise
+anonymity) :
+
+[Page 13]
+Confidential
+Aberdeen Group, Inc.
+Slide 13, Chapter 3
+Research (continued)
+• Ask for what function the product/service was
+acquired
+• Ask what alternative products were considered
+• Ask why the user chose this particular
+product/supplier
+• Ask if it meets his or her expectations based upon
+both the suppliers’ claims and the enterprise’s
+requirements
+• Ask what about the product could be improved in
+the future
+• Ask how the implementation will evolve in the
+future
+• Ask for an evaluation of the supplier itself
+
+[Page 14]
+Confidential
+Aberdeen Group, Inc.
+Slide 14, Chapter 3
+Writing:  First Steps
+• Look on the Aberdeen server for the appropriate
+template
+– Remember you are going for 6-8 pages or
+approximately 2,500-3,000 words
+• Take a deep breath while staring at the template
+• Put in your working title — does it still feel right
+after the research?  If not, change it now!
+• Is there a diagram or chart that will describe
+your thoughts better than words?  Draw it now!
+
+[Page 15]
+Confidential
+Aberdeen Group, Inc.
+Slide 15, Chapter 3
+Writing: The Introduction
+• Write the “hook” — this is your first 1-3
+sentences that will convince the targeted
+audience to read on
+– Must build on the title
+– Must describe why the Profile is worth reading
+— usually describes an IS issue or problem
+that needs planning attention and states that
+the Profile will shed light on this subject
+– Should not provide research or analysis
+– Should never be the Executive Summary
+
+[Page 16]
+Confidential
+Aberdeen Group, Inc.
+Slide 16, Chapter 3
+• Logically think of how the reader wants
+information presented.  The following
+sections and order are relatively typical:
+– Preface/Hook
+– Executive Summary
+– Core product/company capabilities
+– Best uses — problems this product/company
+solves
+– User benefits that should be obtainable by most
+– Alternative suppliers and relative market
+positioning
+Writing: The Outline
+Page
+1
+
+[Page 17]
+Confidential
+Aberdeen Group, Inc.
+Slide 17, Chapter 3
+– Aberdeen analysis — such as, description of market
+dynamics, product/company match with market
+needs, where the product/company should not be
+used, where Aberdeen projects the product/company
+will be successful, etc.
+– Summarization of user comments not covered
+elsewhere
+– Product/company’s anticipated technology direction
+– For smaller companies, identify key officers, report
+stated corporate strategy/mission, and describe most
+recent revenues, growth rates, and profitability
+– Aberdeen Conclusions and Observations — last page
+Writing:  The Outline (continued)
+
+[Page 18]
+Confidential
+Aberdeen Group, Inc.
+Slide 18, Chapter 3
+Writing:  The Words
+• Start by writing your draft section titles — like
+an outline.
+• Make the section titles tell the story in their
+own right with well chosen words
+• Each section should describe and summarize
+your research findings
+– Add your research notes and the messages you
+want to communicate under each section heading
+– Each feature described should be followed by the
+appropriate benefit that will be derived
+– Put a minimum number of opinions in your first
+draft or you will quickly lose focus and objectivity
+
+[Page 19]
+Confidential
+Aberdeen Group, Inc.
+Slide 19, Chapter 3
+Writing:  The Words (continued)
+• Starting with core product/company capabilities, begin
+writing each section
+– Leave Executive Summary and Aberdeen Conclusions
+until last
+– Each paragraph should explain the wording of the
+section head
+– Make sentences as simple as possible
+• One thought per paragraph
+• Try and keep each paragraph to only 3-4 sentences
+• DO NOT START EDUCATING YOUR AUDIENCE WITH
+BACKGROUND MATERIALS THAT ARE OFF THE TRACK
+OF THE SECTION HEADER.  IF YOU FEEL YOU NEED
+EDUCATIONAL SECTIONS, PUT THEM IN SEPARATELY
+AND AT THE BACK
+• A one-sentence situational description is okay
+
+[Page 20]
+Confidential
+Aberdeen Group, Inc.
+Slide 20, Chapter 3
+Writing:  The Words (continued)
+•
+Now write the Executive Summary
+– Should be a brief summarization of the Profile in
+your own words
+• The 300-400 word elevator pitch
+• Do not merely cut and paste — readers hate to see
+the same phrases twice
+Finally, write the Aberdeen Conclusions  and
+Observations
+– Re-enforce your most important analysis
+– Contemplate the future market dynamics or the
+supplier’s yet unrealized potential
+– Include research findings and implications not
+reported elsewhere
+– A call to action
+
+[Page 21]
+Confidential
+Aberdeen Group, Inc.
+Slide 21, Chapter 3
+Writing:  The Style
+• Use simple, declarative sentences
+– The use of parenthetical phrases within a
+sentence can quickly get you in trouble
+– Better to use multiple sentences
+• Use descriptive terms and adjectives as
+much as possible
+– Build imagery — look for places to put
+adjectives to help the reader clearly and
+directly understand your messages and
+opinions.  Be creative — build new words
+
+[Page 22]
+Confidential
+Aberdeen Group, Inc.
+Slide 22, Chapter 3
+Writing:  The Style (continued)
+– Hyphenated phrases, such as “IBM’s one-size-
+fits-all widget”, are encouraged
+– Make the Profile entertaining and engaging for
+the reader
+
+[Page 23]
+Confidential
+Aberdeen Group, Inc.
+Slide 23, Chapter 3
+Writing:  The Style (continued)
+• The term “Aberdeen believes …” is reserved for
+Viewpoints
+– Profiles should be more product/company
+descriptive and analytical while Viewpoints
+express a strongly held opinion and
+recommendation of actions to end-users
+– Avoid writing to “you”
+• It is very difficult to consistently write a Profile using the
+second person
+• It is impossible to know who “you” is — is “you” the
+CEO, CFO, VP MIS, programmer, casual desktop user, or
+whomever?
+
+[Page 24]
+Confidential
+Aberdeen Group, Inc.
+Slide 24, Chapter 3
+Writing:  The Style (continued)
+• Pronouns should be used sparingly
+– “It”, “they”, “their” — can be confusing as to
+what is being referenced
+– “He” and “She” are often inappropriate gender
+connotations
+• Enterprises are “it” — not “they”
+• Avoid slang that non-US audiences will not
+understand (this does not mean be boring, it
+merely means Japanese reading the Profile on
+the Web will not understand “wicked good” —
+so be considerate)
+
+[Page 25]
+Confidential
+Aberdeen Group, Inc.
+Slide 25, Chapter 3
+Writing:  The Style (continued)
+• Do not use contractions such as “it’s”,
+“don’t” and “can’t”
+– It looks lazy — does not read well
+– Many abbreviations, such as O/S for operating
+system, create confusion for readers
+• Avoid hackneyed expressions — they are
+sophomoric
+– For example, “This product is as fast as
+greased lightening” would be a no-no
+
+[Page 26]
+Confidential
+Aberdeen Group, Inc.
+Slide 26, Chapter 3
+Writing:  The Style (continued)
+• Write as though you were speaking to
+somebody — if you do not use a word or
+phrase in every day conversation, do not
+write it
+• Examples:
+– “thus”
+– “the two companies interacted”
+– “heretofore”
+
+[Page 27]
+Confidential
+Aberdeen Group, Inc.
+Slide 27, Chapter 3
+Writing:  The Style (continued)
+• Try to use initial capitals on acronyms of
+more than four letters
+– Risc/Unix is easier on the eyes than
+RISC/UNIX
+• Avoid “user” to mean an implementer
+– Aberdeen refers to the end-user, the
+consumer, of information technology
+• Never assume a reader knows acronyms
+– Always spell on first usage — Relational
+Database Management System (Rdbms)
+
+[Page 28]
+Confidential
+Aberdeen Group, Inc.
+Slide 28, Chapter 3
+Writing: The Style (continued)
+• Put parenthetical comments within em
+dashes — not parentheses
+– “The company’s strategy — emphasizing
+volume over quality — is a mistake in
+Aberdeen’s opinion.”
+• Use the em dash for highlighting key
+phrases
+– “The product’s key strength is
+performance — not ease of use.”
+• Hyphenate adjectival pairs
+– An “end-user tool”
+
+[Page 29]
+Confidential
+Aberdeen Group, Inc.
+Slide 29, Chapter 3
+Editing
+• When you are done writing, run the spell
+checker
+– If you have Word 97, run the Grammar
+Checker to find run-on and complex
+sentences
+• Put the Profile down overnight
+– No matter how good you are, you will always
+get too close to your own work
+
+[Page 30]
+Confidential
+Aberdeen Group, Inc.
+Slide 30, Chapter 3
+Editing (continued)
+• Objectively read the Profile in the
+morning
+– As an IS decision maker, would you trust it to
+assist in making a buying decision?
+– What points were unclear?
+– What messages were confusing?
+– Did it ever lose focus?
+– Did it say the same thing two or more times?
+– As a new reader, could you summarize in one
+breath what you learned?
+
+[Page 31]
+Confidential
+Aberdeen Group, Inc.
+Slide 31, Chapter 3
+Editing (continued)
+• Correct problems you have found
+• Proof read very carefully — this should not be a
+draft — it should be the best you can do
+• RUN THE SPELL CHECKER AGAIN
+• Pretty up the formatting
+– Avoid dangling words in 2-line section headers
+– Ensure that diagrams are:
+• Always on odd-numbered page
+• At the bottom of a page whenever possible
+– No widows/orphans or section heads without
+paragraphs immediately following
+
+[Page 32]
+Confidential
+Aberdeen Group, Inc.
+Slide 32, Chapter 3
+Editing (continued)
+• E-mail the Profile to your manager for
+review
+• After manager returns Profile, submit to
+editor via email for review
+• Editor returns electronically edited
+document via email to analyst for review
+• Analyst review/reworks edited document
+– Do not be shy about moving sections around —
+or even deleting sections that others find
+ponderous or redundant
+• RUN THE SPELL CHECKER AGAIN
+
+[Page 33]
+Confidential
+Aberdeen Group, Inc.
+Slide 33, Chapter 3
+Editing (continued)
+• Analyst forwards approved document
+(marked as DRAFT) to client for review
+– Occasionally the draft must be e-mailed, but the
+client may put edits directly into the document.
+– You will need to find the changes the client made
+and modify as appropriate.
+• Edit as appropriate
+• Analyst and client approve final draft—
+analyst alerts editor if major revisions
+• Analyst updates Sales Order Form to
+initiate production
+
+[Page 34]
+Confidential
+Aberdeen Group, Inc.
+Slide 34, Chapter 3
+Editing (continued)
+• Analyst then
+– Saves document to new folder on
+Aberdeen1/Publications/
+– Posts Abstract (“Abxxxx) in folder
+– Returns file folder/hardcopy to editor
+• Editor scans document; tweaks layout
+glitches; runs final spellcheck
+• Production Coordinator prepares
+document for printing; ships document to
+printer
+
+[Page 35]
+Confidential
+Aberdeen Group, Inc.
+Slide 35, Chapter 3
+Editing (continued)
+• Printer returns hardcopy proofs;
+Production Coordinator delivers proofs to
+analyst
+• Analyst approves printer’s proofs; returns
+them to editor
+• Editor proofreads final proofs; inputs any
+necessary changes
+• Production Coordinator signal Web Editor
+to prepare final document for Web site;
+ships final document to printer
+
+[Page 36]
+Confidential
+Aberdeen Group, Inc.
+Slide 36, Chapter 3
+Creating an Abstract
+• An abstract should be succinct, providing
+an overview of your document in one or
+two paragraphs; find appropriate Abstract
+template on Aberdeen 2/Jetforms/Word
+templates
+• Before writing, review your document’s
+lead paragraph(s), main points, and the
+Aberdeen Conclusions/Summary
+Observations section
+
+[Page 37]
+Confidential
+Aberdeen Group, Inc.
+Slide 37, Chapter 3
+Creating an Abstract (continued)
+• List your thesis, position, relevant
+arguments, and conclusions
+• After writing, edit text, keeping the following
+questions in mind:
+– When visitors to Aberdeen’s Web page click on
+this Abstract, can they determine in a few
+seconds if your document will be of interest?
+– Is your text succinct and relevant, avoiding
+unnecessary technical detail?
+
+[Page 38]
+Confidential
+Aberdeen Group, Inc.
+Slide 38, Chapter 3
+Creating an Abstract (continued)
+• Now add 6 to 10 keywords at the bottom of
+Abstract to attract/facilitate search
+engines
+• After editing
+– Run spell check
+– Save Abstract to appropriate folder on
+Aberdeen’s Publication server
+
+[Page 39]
+Confidential
+Aberdeen Group, Inc.
+Slide 39, Chapter 3
+The 6 Deadly Early Mistakes
+and Their Antidotes
+• DON’T try and explain everything,
+including the history of IT, in a 6-8 page
+Profile
+• DO assume your reader has been in
+charge of an IT operation but simply does
+not have the time or resources to
+research or analyze the specific area you
+are focusing on
+
+[Page 40]
+Confidential
+Aberdeen Group, Inc.
+Slide 40, Chapter 3
+The 6 Deadly Early Mistakes And Their
+Antidotes (continued)
+• DON’T lose focus and therefore lose your
+reader’s ability to follow your reasoning
+• DO Simple sentences; one idea per
+paragraph; each paragraph supports the
+section; each section supports the title.
+Run-on sentences are, by definition,
+unfocused
+
+[Page 41]
+Confidential
+Aberdeen Group, Inc.
+Slide 41, Chapter 3
+The 6 Deadly Early Mistakes And Their
+Antidotes (continued)
+• DON’T substitute your own opinion of
+what you would do versus laying out the
+facts and options for IS decision makers.
+• DO stay slightly aloof from the fray
+– While there are multiple sides to every issue,
+it is the Aberdeen analyst’s role to honestly
+communicate their research and analysis to
+IS decision makers
+
+[Page 42]
+Confidential
+Aberdeen Group, Inc.
+Slide 42, Chapter 3
+The 6 Deadly Early Mistakes And Their
+Antidotes (continued)
+• DON’T write in an artificial or stiff way
+• DO read your Profile out loud — if you
+sound asinine, change the words until
+they flow smoothly and comfortably
+
+[Page 43]
+Confidential
+Aberdeen Group, Inc.
+Slide 43, Chapter 3
+The 6 Deadly Mistakes And Their
+Antidotes (continued)
+• DON’T keep the Profile effort to yourself and
+then stall or rework the same aspects of it for
+what seems to be forever
+• DO get others involved!!
+– Take a 1/2 hour to discuss the issues involved
+with anybody that might have relevant insight
+– It is more productive for a manager to spend an
+hour reviewing an early draft than losing 20
+hours of your time while “You are getting it just
+right.”
+
+[Page 44]
+Confidential
+Aberdeen Group, Inc.
+Slide 44, Chapter 3
+The 6 Deadly Mistakes And Their
+Antidotes (continued)
+• DON’T have typos and misspellings
+• DO run the spellchecker
+– Typos happen — but running the
+spellchecker minimizes the problems
+– Ask an administrative staff member to give
+the Profile a final read — this will lessen the
+problem even more
+
+[Page 45]
+Confidential
+Aberdeen Group, Inc.
+Slide 45, Chapter 3
+Some Final Thoughts...
+• A Profile is not a feature-by-feature product
+scorecard
+– Nobody is smart enough to know all the buying
+criteria of all the consumers
+• And all too often, reported features do not exist
+• If Writer’s Block grabs you, doing a section on the
+Organizational Structure is a good starting point
+• Successful analysts begin their careers by writing
+great Profiles!
+
+[Page 46]
+Confidential
+Aberdeen Group, Inc.
+Slide 46, Chapter 3
+BREAK!!!!
+
+[Page 47]
+Project #
+Aberdeen Group
+Boston Palo Alto Amsterdam
+www.aberdeen.com
+RAMP: Rapid Accurate Market Positioning
+• This is the best research money a supplier can
+ever spend
+• By engaging Aberdeen, a supplier will know
+what IS decision makers really think
+
+[Page 48]
+Confidential
+Aberdeen Group, Inc.
+Slide 48, Chapter 3
+Definitions
+• Survey -- gain opinions from a non-
+scientific sample
+• Quantitative Research -- Statistically
+valid findings based on information
+gathered from a randomly selected
+group
+• Qualitative Research -- trend analysis
+based on findings from pre-screened
+participants
+
+[Page 49]
+Confidential
+Aberdeen Group, Inc.
+Slide 49, Chapter 3
+RAMP
+• Purpose
+– Qualitative Research NOT Quantitative
+• Testing value propositions
+• Determining buying criteria
+• Win:Loss Study
+• Validate quantitative research
+– Get in-depth information behind answers
+
+[Page 50]
+Confidential
+Aberdeen Group, Inc.
+Slide 50, Chapter 3
+Selling Points
+• Excellent method for gaining in-depth
+information from key IS buyers
+– Statistical studies highlight the “what,”
+RAMPs focus on the “why.”
+• Tracks trends out 6-18 months
+– If done correctly, RAMP tells clients what
+not to do as well as what is being done
+• Helps target buyers and buying process
+for sales force
+
+[Page 51]
+Confidential
+Aberdeen Group, Inc.
+Slide 51, Chapter 3
+Client Motivation
+• Suppliers commission Aberdeen to conduct
+RAMPs because:
+– They have spent several years internally
+debating potential marketing directions without
+consensus
+– They are about to invest millions of dollars in a
+new product or marketing program and want
+market-based validation, rejection or
+modification of their key assumptions
+– They do not trust their internal sources of
+market information
+
+[Page 52]
+Confidential
+Aberdeen Group, Inc.
+Slide 52, Chapter 3
+Client Motivation (continued)
+– They have learned painfully that users will
+probably not be completely honest if they are
+interviewed directly by the supplier
+– They need a basis on which to make
+decisions in new and rapidly changing
+markets where quantitative date is
+meaningless
+• Aberdeen Analysis sets us
+apart from other market researchers!
+
+[Page 53]
+Confidential
+Aberdeen Group, Inc.
+Slide 53, Chapter 3
+Aberdeen: Why and Why Not
+• The typical concern is that the results of
+the RAMP will be published
+– You must guarantee confidentiality to both the client
+and those interviewed
+• The client’s trade-off is to retain Aberdeen
+who is IT-knowledgeable but visible
+versus an unknowledgeable but low-
+profile vanilla-flavored market research
+house
+
+[Page 54]
+Confidential
+Aberdeen Group, Inc.
+Slide 54, Chapter 3
+Aberdeen: Why and Why Not (continued)
+• Why clients select Aberdeen:  We are
+fluent in both the market research and
+supplier’s marketing planning process
+
+[Page 55]
+Confidential
+Aberdeen Group, Inc.
+Slide 55, Chapter 3
+RAMP Objectives Overview
+• A successful RAMP project will:
+– Answer client’s specific questions about a potential
+market opportunity or specific marketing issue
+– Provide new and actionable insight into both how
+the supplier’s marketplace is changing and how the
+supplier’s relative position is being impacted
+– Lead to new or enhanced products and/or
+marketing programs that will contribute to your
+client’s success
+
+[Page 56]
+Confidential
+Aberdeen Group, Inc.
+Slide 56, Chapter 3
+How To Conduct A RAMP:
+Process Overview (continued)
+• A successful RAMP project will:
+– Begin with a meeting with the client’s senior
+executives to identify and review the real issues
+they are facing and the decisions they believe they
+must make
+• Must spend time with client to nail down:
+– Profile of organizations and individuals to be
+interviewed
+– Role client plays in getting names
+– Expectations of setup time and deliverables
+
+[Page 57]
+Confidential
+Aberdeen Group, Inc.
+Slide 57, Chapter 3
+How To Conduct A RAMP:
+Process Overview (continued)
+•
+A successful RAMP project will include:
+– A formal written report at the completion of the interviews,
+containing:
+• An Executive Summary of your findings and recommendations
+in report format (12-20 pages)
+• The Report in overhead presentation format consisting of the
+following sections:
+– Purpose and Objectives
+– Enterprises Interviewed
+– Executive Summary
+– By Issue — Findings, Implications, Conclusions
+– Recommendations
+• Unannotated interview survey write-up sheets as an Appendix —
+the raw data transcripts
+
+[Page 58]
+Confidential
+Aberdeen Group, Inc.
+Slide 58, Chapter 3
+Identifying The Client’s Real Issues
+At the Outset Is Key
+• The purpose of the initial project kick-off
+meeting is to identify all of the client’s current
+marketing, product, financial, and
+organizational/political Issues that might draw
+on the results of the RAMP
+– These issues should be recorded and each
+responded to in the final report
+– Aberdeen’s role is to both listen to the client’s
+upfront issues and suggest additional issues the
+client might not be aware of that may be
+impacting it
+
+[Page 59]
+Confidential
+Aberdeen Group, Inc.
+Slide 59, Chapter 3
+Identifying The Client’s Real Issues
+At the Outset Is Key (continued)
+– For example, the client may say that it is very
+concerned about the relative functionality of
+its network management product — but
+Aberdeen might suggest we consider the issue
+that the channel may not be knowledgeable
+enough to properly represent it
+
+[Page 60]
+Confidential
+Aberdeen Group, Inc.
+Slide 60, Chapter 3
+Identifying The Client’s Real Issues
+At the Outset Is Key (continued)
+• The client will never tell you all the issues
+and decisions that will be impacted by
+your report
+– But you must identify such sensitive issues
+as investment versus product
+discontinuation issues that may be impacted
+— but do not broadcast them
+– Consider acquisition questions that might
+arise
+– Note promotion/restructuring concerns
+
+[Page 61]
+Confidential
+Aberdeen Group, Inc.
+Slide 61, Chapter 3
+Identifying The Client’s Real Issues
+At the Outset Is Key (continued)
+• One of your values is to suggest additional
+areas of the supplier’s organization that
+might be able to make better decisions
+based upon the results of your report
+• Clients often do not know their
+organization and its issues as well as you
+do
+– This can often help your client in the funding
+process
+• Set expectations at the right level
+– Do not overpromise
+
+[Page 62]
+Confidential
+Aberdeen Group, Inc.
+Slide 62, Chapter 3
+Developing The Survey Guideline
+• The success of the RAMP depends upon the
+use of a Survey Guideline to allow
+consistency of structured discussions with
+interviewees
+• This cannot be a formal script with
+questions to be mechanically asked in a pre-
+determined order or the interviewee will not
+provide real answers
+• You must assure the client how the
+questions included relate to the issues that
+must be answered
+
+[Page 63]
+Confidential
+Aberdeen Group, Inc.
+Slide 63, Chapter 3
+Developing The Survey Guideline (continued)
+– May include an Aberdeen presentation of a
+proposed new product or service
+– Should be designed for a 1.5 hour interview
+– Will be different depending upon whether
+the client wants to be disclosed or not (a
+blind RAMP)
+– Will be used to record all responses in Word
+for inclusion in the final report
+
+[Page 64]
+Confidential
+Aberdeen Group, Inc.
+Slide 64, Chapter 3
+Survey Guideline Structure and
+Interview Process
+•
+Company name, location and
+description (line of business, revenue,
+employees, locations, etc.)
+– Do not ask for anything confidential
+(especially for a private company) but
+obtain enough information to provide an
+overview to help your client understand the
+interviewee’s enterprise environment
+
+[Page 65]
+Confidential
+Aberdeen Group, Inc.
+Slide 65, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+• Respondent’s name, title,
+telephone number,
+responsibilities and background
+– Breaks the ice and will allow you to
+understand why the interviewee may
+respond as he or she does
+
+[Page 66]
+Confidential
+Aberdeen Group, Inc.
+Slide 66, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+“What are the 2-3 most important issues
+facing your company today?”
+– Need to know the context in which IS is
+currently working.  Helps determine where
+else management is focusing its attention
+and investing its resources
+“What are the 2-3 most critical projects
+for your IS group today?”
+– Provides a perspective on IS priorities and
+change issues
+
+[Page 67]
+Confidential
+Aberdeen Group, Inc.
+Slide 67, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+“What will be the next most critical
+project for your IS group in the future?”
+– May be the same answer as the last
+question, but often gives you an insight
+about future concerns and issues
+“Can you describe your current IS
+environment?”
+– You are looking to understand hardware,
+software, networking, deployment of
+distributed systems, and available IS
+staffing resources
+
+[Page 68]
+Confidential
+Aberdeen Group, Inc.
+Slide 68, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+At this point you either begin asking
+questions regarding your client’s issues
+or you present your client’s proposed
+new value proposition
+Now ask about how your client and its
+competitors are perceived by the
+interviewee
+– Do not be surprised if the respondent
+knows very little about many of the industry
+suppliers
+
+[Page 69]
+Confidential
+Aberdeen Group, Inc.
+Slide 69, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+***The key point to probe — what factors
+would influence whether the interviewee’s
+company would buy the proposed product or
+service and from your client***
+– Here you try and separate the ‘wheat from the
+chaff’ — identify every possible objection to
+help your client understand how to deflect
+them in advance of a launch and for sales
+training purposes
+– Never try to sell the product — listen to the
+analysis/opinion/prejudice of a decision maker
+and encourage him/her to talk as long as
+possible.  Take copious notes.
+
+[Page 70]
+Confidential
+Aberdeen Group, Inc.
+Slide 70, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+“What are your most trusted sources of
+information about products in this category?”
+– Your client will eventually need to communicate its
+story to the marketplace and you want to identify
+where the greatest leverage exists
+“What advice would you like to give?”
+– If the client’s president is a luminary, use the name
+to obtain even more heart-felt information
+– Note that the respondent will tend to focus on areas
+of improvement, rather than building on areas of
+strength. Therefore, ask if there are things that the
+client is doing well that should be built upon.
+
+[Page 71]
+Confidential
+Aberdeen Group, Inc.
+Slide 71, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+“What advice would you like to give to me
+(if a blind study) or my client (if the sponsor
+is named)?”
+– If the client’s president is a luminary, use the
+name to obtain even more heart-felt information
+– Note that the respondent will tend to focus on
+areas of improvement, rather than building on
+areas of strength
+– Therefore, ask if there are things that the client
+is doing well that should be built upon
+
+[Page 72]
+Confidential
+Aberdeen Group, Inc.
+Slide 72, Chapter 3
+Survey Guideline Structure and
+Interview Process (continued)
+•
+“Is there anything else you would like to
+add?”
+– This allows you to catch the questions you
+did not know enough to put into the Survey
+Guideline
+– It is very helpful on the first interviews of a
+RAMP
+
+[Page 73]
+Confidential
+Aberdeen Group, Inc.
+Slide 73, Chapter 3
+Setting Up Decision
+Maker Interviews
+• Identifying potential interviewees and
+scheduling meetings is the most difficult
+aspect of a RAMP
+– Use all available resources
+• Begin by asking the client for the names of
+enterprises and individuals it would like
+Aberdeen to interview
+• Check names on Aberdeen’s mailing list
+against your selection criteria
+• Use other directories to cold call as
+appropriate
+
+[Page 74]
+Confidential
+Aberdeen Group, Inc.
+Slide 74, Chapter 3
+Setting Up Decision
+Maker Interviews (continued)
+• Potential interviewees should be assured
+that this is not a sales call
+• Start at the top and work down
+• Promise in advance that the interviewee
+will receive a summary of your findings
+• Offer to bring an Aberdeen report and put
+the interviewee on Aberdeen’s list to
+receive complimentary research
+
+[Page 75]
+Confidential
+Aberdeen Group, Inc.
+Slide 75, Chapter 3
+Setting Up Decision
+Maker Interviews (continued)
+• Chance to have a one-on-one with an
+Aberdeen analyst is a key selling point for
+getting the interview
+• Try and schedule two interviews per day
+in the same city
+– Never schedule more than three in a day
+
+[Page 76]
+Confidential
+Aberdeen Group, Inc.
+Slide 76, Chapter 3
+Before the Interview
+• Review information from the company’s website
+and SEC about the company
+– The interview will be much more productive if you are
+somewhat knowledgeable about the organization
+• But remember, the interviewee will often have a different
+perspective than what you obtained from a cursory literature
+search
+• Obtain good directions to the interview site — and
+do not be late
+
+[Page 77]
+Confidential
+Aberdeen Group, Inc.
+Slide 77, Chapter 3
+Aberdeen Interview Style
+• Two Aberdeen analysts conduct the first two
+interviews — only one analyst later
+• After introductions, restate the ground rules of
+confidentiality and quid-pro-quo information
+exchange
+• Be honest at all times
+• Handwritten notes (no laptops)
+– Try and get as many direct quotes as possible
+– Include [Aberdeen Comments: …] on inflection,
+tone, feelings, body language, and other relevant
+observations
+– It is not possible to “over report”
+
+[Page 78]
+Confidential
+Aberdeen Group, Inc.
+Slide 78, Chapter 3
+Conducting the Interview
+• Begin by introducing Aberdeen Group (including
+stating that we provide more research for free on
+our web site than any other firm) and describing
+the client (if the client wants to be known) and
+objective of your RAMP
+• If a client representative is with you, introduce
+that individual
+– Aberdeen often encourages clients to attend a
+number of interviews to understand the process
+and results
+• These individuals will generally become the
+staunchest supporters of your research findings
+
+[Page 79]
+Confidential
+Aberdeen Group, Inc.
+Slide 79, Chapter 3
+Conducting the Interview (continued)
+• Promise the interviewee with an Aberdeen
+report
+• Encourage a call to you if any assistance is
+needed on this subject in the future
+• Re-assure that the interview will be kept
+anonymous and confidential
+• If the interviewee wants to begin with a
+speech, encourage it
+– It is your responsibility to take the interview
+and put the respondent’s input into the right
+sections of the Survey Guideline
+
+[Page 80]
+Confidential
+Aberdeen Group, Inc.
+Slide 80, Chapter 3
+Conducting the Interview (continued)
+• Always remember that your best findings
+will come through having a professional
+dialogue
+– We do not fire questions at the interviewee
+
+[Page 81]
+Confidential
+Aberdeen Group, Inc.
+Slide 81, Chapter 3
+After The Interview
+• Within 24 hours, transcribe the interview notes
+onto the Guideline template format
+• Put your 2-4 paragraph summary of the
+interview findings at the beginning
+• E-mail the completed Survey Guideline to other
+members of the Aberdeen project team
+• Send the interviewee a thank-you note — this
+also establishes the database for sending the
+summary report of the study to all interviewees
+
+[Page 82]
+Confidential
+Aberdeen Group, Inc.
+Slide 82, Chapter 3
+The Flash Report
+• Clients will be eagerly waiting for the first
+glimpses into what you have uncovered — the
+Flash Report provides this
+– Summarizes your findings from the first 5 interviews
+as they relate to the most important issues identified at
+the kick-off meeting
+– Minimal analysis — no action recommendations
+– Written only to the client’s project coordinator
+– 4-5 pages in length
+– Confidential clearly marked on it
+
+[Page 83]
+Confidential
+Aberdeen Group, Inc.
+Slide 83, Chapter 3
+The Final Report
+• Objective
+– To allow the individual members of your client’s team
+to internalize Aberdeen’s findings, analysis, and
+recommendations and make them their own
+• Deliverables
+– Bound Final Report provided to the client’s project
+team — for distribution as appropriate
+– Carefully edited and proofread interview notes with
+confidentiality disclaimer
+– An Oral Presentation where all the client’s team
+members are invited and all attendees are encouraged
+to participate
+• Conducted at the client’s site
+
+[Page 84]
+Confidential
+Aberdeen Group, Inc.
+Slide 84, Chapter 3
+The Medium
+• Primary mean of communicating will be a
+PowerPoint-created slide presentation
+– Use bullet words and terrible Aberdeen-
+created graphics
+• The audience must focus on you — not pretty
+pictures!!
+– Includes Title Page, Executive Summary,
+Findings, Recommendations, and
+Concluding Observations
+
+[Page 85]
+Confidential
+Aberdeen Group, Inc.
+Slide 85, Chapter 3
+The Medium (continued)
+• Since the Final Report will be distributed
+to others that have not attended your
+presentation, you will need to write a
+parallel 12-20 page summary in Word
+• This will be placed at the beginning of
+the Final Report
+– Assume it will be read by the client’s most
+senior executives
+
+[Page 86]
+Confidential
+Aberdeen Group, Inc.
+Slide 86, Chapter 3
+The Medium (continued)
+•
+The Oral Presentation must be interactive,
+informative, interesting, engaging and entertaining
+– Use direct quotes from interviewees
+– Try and let the audience feel they were there with you
+at the interviewee sites
+– Analogies should be used
+– If you can make jokes, do so
+– Keep the presentation a dialogue
+• But do not introduce new facts that you have not talked
+to your client about previously
+
+[Page 87]
+Confidential
+Aberdeen Group, Inc.
+Slide 87, Chapter 3
+Creating The Deliverables
+• List all the issues that you and the client have
+identified to date
+• In PowerPoint, create an issue title followed by:
+– Findings: Summarized user input directly
+related to the Issue
+– Implications: Your analysis of what the
+Findings mean to the client’s business
+– Conclusions: Your recommendations or
+considerations as to how the Issue should or
+might be addressed
+
+[Page 88]
+Confidential
+Aberdeen Group, Inc.
+Slide 88, Chapter 3
+Creating The Deliverables (continued)
+• Develop a logical set of Recommendations,
+each with a summary supporting argument
+– One Recommendation per slide
+• Finish with any Concluding Observations
+– You will always find facts that were not part of the
+scope of the project but should be disclosed to the
+client
+– You will always have 3-6 points that you want to
+strongly call out to emphasize your findings.  The
+last ones should tie the theory-of-the-case together
+
+[Page 89]
+Confidential
+Aberdeen Group, Inc.
+Slide 89, Chapter 3
+Creating The Deliverables (continued)
+• You are now ready to create the Title and
+write the Executive Summary in
+presentation, bullet format
+– The Executive Summary recasts the Issues,
+Findings, Implications, Conclusions and
+Recommendation sections into a one-hour,
+20-30 slide, focused consulting report
+– Each slide should be tightly integrated with
+the one proceeding it — or use section
+breaks
+
+[Page 90]
+Confidential
+Aberdeen Group, Inc.
+Slide 90, Chapter 3
+Creating The Deliverables (continued)
+– Work in conjunction with your client
+coordinator to ensure the format and materials
+covered will meet the needs of the most senior
+executive attending the Report Presentation
+– But remember, you are responsible for making
+all final decisions as to what will be included
+and how it will be presented
+
+[Page 91]
+Confidential
+Aberdeen Group, Inc.
+Slide 91, Chapter 3
+Creating The Deliverables (continued)
+• Create one slide explaining the “Purpose and
+Objectives” of the report
+• Create one slide explaining the RAMP process
+• Create one slide describing or naming each enterprise
+interviewed
+• Place slides 7-8 either at the beginning or back of the
+Presentation depending upon your client’s preference
+– Typically will be placed between the Agenda and the
+Executive Summary
+
+[Page 92]
+Confidential
+Aberdeen Group, Inc.
+Slide 92, Chapter 3
+Creating The Deliverables (continued)
+• Create one Agenda slide
+– Introduction
+– Executive Summary
+– Issues, Findings, Implications Conclusions
+– Recommendations
+– Concluding Observations
+• Now write a 12-20 page, 1.5 spaced, summary in
+Word using the Report template
+– The purpose is to have a commentary summary to fill
+in the gaps and confusion created by the bullet
+format of a slide presentation
+
+[Page 93]
+Confidential
+Aberdeen Group, Inc.
+Slide 93, Chapter 3
+Creating The Deliverables (continued)
+• Create a Title Page
+– Include the title of the report, date, your name, and
+Aberdeen’s address
+• Collate it — making sure all pages have “XYZ and
+Aberdeen Group Confidential” on the bottom
+– Title Page (Word)
+– Report Summary (Word)
+– Presentation (PowerPoint)
+– Interview Surveys (Word)
+• Spell check it and read for typos!
+• Have it reviewed by Production if possible
+
+[Page 94]
+Confidential
+Aberdeen Group, Inc.
+Slide 94, Chapter 3
+Creating The Deliverables (continued)
+• E-mail or Fax all to your client for review
+• Based upon client input, make edits as
+appropriate — but remember it is your work in
+the end, not your client contact’s
+• Print and send to a commercial copy center
+– Make enough copies for the client and
+Aberdeen team and 2 copies for the project file
+– Spiral bind with dark-blue backing and clear
+acetate front
+
+[Page 95]
+Confidential
+Aberdeen Group, Inc.
+Slide 95, Chapter 3
+Giving The Oral Presentation
+• Aberdeen analysts are like nuns — we travel in
+pairs to such holy meetings
+• Keep the meeting interactive
+• Attempt to build consensus
+• Never be defensive
+– If somebody disagrees with your findings, you
+say, “This is what decision makers say, not
+me.”
+– If somebody disagrees with your recommend-
+ations, you say, “This is your report, not mine.
+How you use it is up to you.  But we suggested
+this course of action because …”
+
+[Page 96]
+Confidential
+Aberdeen Group, Inc.
+Slide 96, Chapter 3
+Follow-Up
+• Develop a summary report in letter format for
+the interviewees, obtain client approval, and
+send it to the interviewees
+• Clients generally may request a Profile, White
+Paper, and/or Speech afterwards — agree to
+this request
+• Call your client back every week for the next
+month to offer any clarification assistance or
+answer questions raised by others — usually by
+those that did not attend the meeting
+• You are finished!!

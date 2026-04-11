@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-db2","IBM DB2","application","IBM","1983-present","dominant","active","debit-credit-ibm-dec-1988-2-2fc147","Running on IBM 3090 mainframe; DEC tested DB2 performance, IBM disputed results."
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","TPC (consortium)","1988-present","founding","active","debit-credit-ibm-dec-1988-2-2fc147","TPC formed August 10 1988; founding members: CDC, DEC, ICL, Pyramid, Stratus, Sybase, Tandem, Wang."
+"ibm-cics","IBM CICS TP Monitor","platform","IBM","1968-present","dominant","active","debit-credit-ibm-dec-1988-2-2fc147","IBM's dominant TP monitor; central to IBM's enterprise TP position."
+"digital-vax","Digital VAX/OpenVMS","platform","Digital Equipment Corporation","1977-1999","mature","legacy","debit-credit-ibm-dec-1988-2-2fc147","DEC ran Debit/Credit on VAX systems; Oracle set 49 TPS record on VAX 6240."
+"oltp","Online Transaction Processing (OLTP)","application","various","1970s-present","dominant","current","debit-credit-ibm-dec-1988-2-2fc147","Core workload in 1988 benchmark controversy."

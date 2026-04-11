@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"digital-equipment","Digital Equipment Corporation","company","computer hardware","dissolved","Compaq (1998); subsequently HP","1957-1998","debit-credit-ibm-dec-1988-2-2fc147","Ran Debit/Credit benchmarks on both DEC and IBM hardware July 1988; showed price/performance advantage."
+"ibm","IBM","company","computer hardware and services","active","","1911-present","debit-credit-ibm-dec-1988-2-2fc147","Claimed machines perform 3x faster than DEC's measurements; ran own Debit/Credit tests on 9370/4381 only."
+"tandem-computers","Tandem Computers","company","computer hardware","acquired","Compaq (1997); HP","1974-1997","debit-credit-ibm-dec-1988-2-2fc147","TPC founding member; Tandem held 240 TPS record on cluster of 16 before Oracle broke it."
+"oracle","Oracle","company","software","active","","1977-present","debit-credit-ibm-dec-1988-2-2fc147","Set world record of 265 TPS on Amdahl 3090-600E MVS; also 49 TPS on VAX 6240; 124 TPS on Sequent UNIX."
+"aberdeen-group","Aberdeen Group","firm","IT research and consulting","acquired","Harte-Hanks","1988-2014","debit-credit-ibm-dec-1988-2-2fc147","John Logan VP cited as calling IBM response 'pure FUD'."
+"stratus-computer","Stratus Computer","company","computer hardware","active","Stratus Technologies (Penguin Solutions)","1980-present","debit-credit-ibm-dec-1988-2-2fc147","TPC founding member; fault-tolerant TP systems."
+"sybase","Sybase","company","software","acquired","SAP","1984-2012","debit-credit-ibm-dec-1988-2-2fc147","TPC founding member."

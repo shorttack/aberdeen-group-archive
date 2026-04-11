@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing (OLTP)","application","various","1970s-present","dominant","current","dec-resume-performance-review-3-1f133b","Kastner's primary domain of expertise; Stratus specialised in fault-tolerant TP."
+"digital-vax","Digital VAX/OpenVMS","platform","Digital Equipment Corporation","1977-1999","dominant","legacy","dec-resume-performance-review-3-1f133b","DECtp built on VAX platform; Kastner managed DECtp Performance and Competition Task Force."
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","TPC (consortium)","1988-present","founding","active","dec-resume-performance-review-3-1f133b","Kastner drove TP characterization for DECtp; managed Debit/Credit tests across 4 labs."

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Peter S. Kastner \u2014 Resume and Performance Review (DEC Application, c.1987)",
+  "description": "Primary biographical document comprising Peter S. Kastner's resume (c.1987) and DEC employee performance review. Resume covers 19 years of computer industry experience: PHI Computer Services 1969-1971, Arthur D. Little 1971-1979, Prime Computer 1979-1981, and Stratus Computer 1981-1987. Performance review covers his role at DEC as Manager Marketing Development for CSG, chairman of DECtp Performance and Competition Task Force, and corporate spokesman for TP competition. Includes Jack Smith (Senior VP DEC) quote: 'DECtp is Digital's Most Important Announcement Since We Introduced the VAX'.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1987",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

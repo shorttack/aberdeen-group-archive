@@ -1,0 +1,30 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research-consulting,unknown,unknown,1988-2001,erpv2p~1-b15573,Boston-based; One Boston Place; introduced IRP model in this report
+sap-ag,SAP AG,company,enterprise-software,unknown,unknown,1972-,erpv2p~1-b15573,33% ERP market share 1998; >35% enterprise business applications; German; 25 years old at time of report; Wayne PA US HQ (SAP America)
+oracle-corporation,Oracle Corporation,company,enterprise-software,unknown,unknown,1977-,erpv2p~1-b15573,>$3.5B total revenue; 10% ERP market share; >90% Fortune 500 database presence; Redwood Shores CA; Release 11.0 core applications
+j-d-edwards,J.D. Edwards Corporation,company,enterprise-software,unknown,unknown,1977-2003,erpv2p~1-b15573,"7% ERP market share; 4,300 customers in 100+ countries; 3,500 employees in 46 offices; Denver CO; 1 year from IPO at time of report"
+peoplesoft,PeopleSoft Inc.,company,enterprise-software,unknown,unknown,1987-2004,erpv2p~1-b15573,6% ERP market share; Pleasanton CA; founded 1987; HR market leader; expanding into manufacturing
+baan-company,The Baan Company,company,enterprise-software,unknown,unknown,1978-2000,erpv2p~1-b15573,"5% ERP market share; founded 1978; dual HQ Putten Netherlands and Reston VA (moved from Menlo Park CA); 2,800 systems in 4,800 sites; manufacturing focus"
+i2-technologies,i2 Technologies Inc.,company,enterprise-software,unknown,unknown,1988-2010,erpv2p~1-b15573,$200M revenue; founded 1988; Irving TX; established leader in APO market; RHYTHM product suite
+imi,Industri-Matematik International (IMI),company,enterprise-software,unknown,unknown,1964-2006,erpv2p~1-b15573,Tarrytown NY; 25+ years in order-fulfillment/logistics; 150+ system implementations; System ESS product; targets $250M+ enterprises
+infinium-software,Infinium Software Inc.,company,enterprise-software,unknown,unknown,1980-2003,erpv2p~1-b15573,"Hyannis MA; 1,400+ customers globally; 8th worldwide in AS/400 software sales; targets $50M-$1B mid-market; healthcare/hospitality/retail focus"
+lawson-software,Lawson Software,company,enterprise-software,unknown,unknown,1975-2012,erpv2p~1-b15573,Minneapolis MN; Lawson Insight Business Management System; non-manufacturing focus; strong in web-deployable apps
+marcam-solutions,Marcam Solutions Inc.,company,enterprise-software,unknown,unknown,1980-2004,erpv2p~1-b15573,"$100M revenue; Newton MA; 1,200+ customers; 700+ employees; process manufacturing focus; chemical and food/beverage industries; Protean (NT) and Prism (AS/400)"
+qad-inc,QAD Inc.,company,enterprise-software,unknown,unknown,1979-,erpv2p~1-b15573,Carpinteria CA; automotive/consumer/electronics/food/medical verticals; MFG/PRO flagship product; 82 countries; 30% Fortune 100 manufacturers; 92% 5-year support retention
+ibm,IBM,company,computer-hardware-software,unknown,unknown,1911-,erpv2p~1-b15573,Cited as key supplier for object-oriented infrastructure alongside Microsoft and Sun; OLE/COM technology
+microsoft,Microsoft,company,software,unknown,unknown,1975-,erpv2p~1-b15573,WINTEL strategy partner; SAP partnership critical to middle-market success; OLE integration cited; Windows NT platform
+sun-microsystems,Sun Microsystems,company,computer-hardware-software,unknown,unknown,1982-2010,erpv2p~1-b15573,Cited alongside IBM and Microsoft as key infrastructure supplier for distributed object-oriented computing
+andersen-consulting,Andersen Consulting,company,IT-consulting,unknown,unknown,1989-2001,erpv2p~1-b15573,Named as global implementation partner for ERP alongside Deloitte/KPMG
+deloitte-touche,Deloitte and Touche,company,accounting-consulting,unknown,unknown,1989-,erpv2p~1-b15573,Named as global ERP implementation partner
+kpmg,KPMG,company,accounting-consulting,unknown,unknown,1987-,erpv2p~1-b15573,Named as global ERP implementation partner
+information-builders,Information Builders Inc.,company,software,unknown,unknown,1975-,erpv2p~1-b15573,Cited for facilitating SAP R/3 and PeopleSoft HR integration as best-of-breed example
+active-software,Active Software,company,enterprise-software,unknown,unknown,1995-1999,erpv2p~1-b15573,Named as EAI technology provider; acquired by webMethods 1999
+crossroute-software,CrossRoute Software,company,enterprise-software,unknown,unknown,1996-2000,erpv2p~1-b15573,Named as EAI technology provider
+crossworlds-software,CrossWorlds Software,company,enterprise-software,unknown,unknown,1995-2001,erpv2p~1-b15573,Named as EAI technology provider; acquired by IBM 2001
+neon-software,NEON,company,enterprise-software,unknown,unknown,1996-2002,erpv2p~1-b15573,Named as EAI technology provider
+oberon-software,Oberon Software,company,enterprise-software,unknown,unknown,1995-2000,erpv2p~1-b15573,Named as EAI technology provider
+tibco-software,TIBCO Software,company,enterprise-software,unknown,unknown,1997-,erpv2p~1-b15573,Named as EAI technology provider
+tsi-software,TSI Software,company,enterprise-software,unknown,unknown,1993-2001,erpv2p~1-b15573,Named as EAI technology provider
+vitria-technology,Vitria Technology,company,enterprise-software,unknown,unknown,1994-,erpv2p~1-b15573,Named as EAI technology provider
+coda-group,The Coda Group PLC,company,enterprise-software,unknown,unknown,1979-2000,erpv2p~1-b15573,Acquired by Baan along with Meta4; strengthens Baan's financials/HR/payroll
+meta4,Meta4,company,enterprise-software,unknown,unknown,1992-2010,erpv2p~1-b15573,Acquired by Baan along with Coda Group; HR software company

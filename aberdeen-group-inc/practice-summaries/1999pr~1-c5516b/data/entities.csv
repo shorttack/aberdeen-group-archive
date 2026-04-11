@@ -1,0 +1,70 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research-and-advisory,acquired,Harte-Hanks (2001),1988-2013,1999pr~1-c5516b,Boston-based IT research firm; publisher of this document
+ibm,IBM,company,IT-hardware-and-services,active,[none],1911-present,1999pr~1-c5516b,Profiled in depth as sample Aberdeen supplier profile; IBM Global Services highlighted
+ibm-global-services,IBM Global Services,company,IT-professional-services,active,[none],1991-present,1999pr~1-c5516b,IBM's professional services and outsourcing division; 110000+ professionals in 164 countries as of 1999
+andersen-consulting,Andersen Consulting,company,IT-professional-services,renamed,Accenture (2001),1989-2001,1999pr~1-c5516b,Cited as IBM's primary competitor in ERP and e-commerce solutions
+electronic-data-systems,Electronic Data Systems (EDS),company,IT-outsourcing,acquired,HP (2008),1962-2008,1999pr~1-c5516b,Cited as IBM's primary outsourcing competitor; $15.2B revenue; ~1/3 from GM
+hewlett-packard,Hewlett-Packard,company,IT-hardware-and-services,unknown,unknown,1939-present,1999pr~1-c5516b,Cited as OEM services provider; ~25000 professional services staff; strong Unix orientation
+compaq,Compaq Computer Corporation,company,IT-hardware,acquired,HP (2002),1982-2002,1999pr~1-c5516b,Cited as OEM services provider; strengthened by Digital/Tandem acquisitions
+digital-equipment-corporation,Digital Equipment Corporation,company,IT-hardware,acquired,Compaq (1998),1957-1998,1999pr~1-c5516b,Acquired by Compaq; $5.8B services revenue cited
+cambridge-technology-partners,Cambridge Technology Partners,company,IT-professional-services,acquired,Novell (1999),1991-2001,1999pr~1-c5516b,Listed under Infrastructure and ERP/CIS practice areas
+computer-science-corporation,Computer Sciences Corporation (CSC),company,IT-professional-services,unknown,unknown,1959-present,1999pr~1-c5516b,Listed under Infrastructure and ERP practice areas
+deloitte-touche,Deloitte & Touche Tohmatsu International,firm,professional-services,active,[none],1989-present,1999pr~1-c5516b,Listed under Infrastructure and ERP practice areas
+kpmg-international,KPMG International,firm,professional-services,active,[none],1987-present,1999pr~1-c5516b,Listed under ERP and CIS practice areas
+pricewaterhousecoopers,PricewaterhouseCoopers,firm,professional-services,active,[none],1998-present,1999pr~1-c5516b,Listed under ERP practice area; formed from Price Waterhouse and Coopers & Lybrand merger 1998
+ernst-young,Ernst & Young,firm,professional-services,active,[none],1989-present,1999pr~1-c5516b,Listed under CIS practice area
+renaissance-worldwide,Renaissance Worldwide Inc.,company,IT-professional-services,unknown,unknown,1989-2003,1999pr~1-c5516b,Listed under ERP and CIS practice areas
+sap,SAP,company,enterprise-software,active,[none],1972-present,1999pr~1-c5516b,Listed as ISV under Infrastructure and ERP practice areas
+oracle,Oracle,company,enterprise-software,active,[none],1977-present,1999pr~1-c5516b,Listed across ERP and CIS practice areas; also as educational service provider
+baan,Baan,company,enterprise-software,acquired,SSA Global (2000),1978-2000,1999pr~1-c5516b,Listed as ISV under ERP practice area
+peoplesoft,PeopleSoft,company,enterprise-software,acquired,Oracle (2005),1987-2005,1999pr~1-c5516b,Listed as ISV under ERP practice area
+jd-edwards,J.D. Edwards,company,enterprise-software,acquired,PeopleSoft (2003),1977-2003,1999pr~1-c5516b,Listed as ISV under ERP practice area
+ids-scheer,IDS Scheer,company,enterprise-software,acquired,Software AG (2009),1984-2009,1999pr~1-c5516b,Listed as IPSP under ERP practice area
+plaut-consulting,Plaut Consulting GmbH,firm,IT-professional-services,unknown,unknown,1968-2000s,1999pr~1-c5516b,Listed under ERP practice area; German SAP specialist consultancy
+whittman-hart,Whittman-Hart,company,IT-professional-services,merged,marchFIRST (2000),1993-2000,1999pr~1-c5516b,Listed under ERP practice area
+microsoft,Microsoft,company,software,active,[none],1975-present,1999pr~1-c5516b,Listed across Infrastructure and Education practice areas; E-Business competitor context
+amdahl,Amdahl,company,IT-hardware,acquired,Fujitsu (1997),1970-1997,1999pr~1-c5516b,Listed as OEM under Infrastructure practice area
+ncr-corporation,NCR Corporation,company,IT-hardware,active,[none],1884-present,1999pr~1-c5516b,Listed under Infrastructure and CIS practice areas
+unisys,Unisys,company,IT-hardware-and-services,active,[none],1986-present,1999pr~1-c5516b,Listed as OEM under Infrastructure practice area
+data-general,Data General,company,IT-hardware,acquired,EMC (1999),1968-1999,1999pr~1-c5516b,Listed as OEM under Infrastructure practice area
+entex,Entex,company,IT-professional-services,acquired,Siemens (2000),1993-2000,1999pr~1-c5516b,Listed as VAR under Infrastructure practice area
+microage,MicroAge,company,IT-distribution,bankrupt,[none],1976-2000,1999pr~1-c5516b,Listed as VAR under Infrastructure practice area
+inacom,Inacom,company,IT-distribution,bankrupt,[none],1974-2000,1999pr~1-c5516b,Listed as VAR under ERP practice area
+pinacor,Pinacor,company,IT-distribution,unknown,unknown,1990s-2000s,1999pr~1-c5516b,Listed as VAR under ERP practice area; spin-off from MicroAge
+technology-solutions-company,Technology Solutions Company,company,IT-professional-services,unknown,unknown,1989-2000s,1999pr~1-c5516b,Listed as IPSP under CIS practice area
+nexgen-si,NexGen SI,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as IPSP under CIS practice area
+gemini-consulting,Gemini Consulting,firm,management-consulting,acquired,Cap Gemini (1998),1966-1998,1999pr~1-c5516b,Listed under CIS practice area
+inforte-corporation,Inforte Corporation,company,IT-professional-services,unknown,unknown,1993-2000s,1999pr~1-c5516b,Listed under CIS practice area
+mastech,Mastech,company,IT-staffing,active,[none],1988-present,1999pr~1-c5516b,Listed under CIS practice area; now iGate/Mastech Holdings
+analysts-international,Analysts International Corporation (AIC),company,IT-staffing,unknown,unknown,1966-2000s,1999pr~1-c5516b,Listed under CIS practice area
+carnegie-group-logica,Carnegie Group (Logica),company,AI-and-consulting,merged,Logica acquisition,1984-1990s,1999pr~1-c5516b,Listed under CIS practice area; AI/knowledge systems specialist
+service-management-international,Service Management International,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed under CIS practice area
+impact-innovations-group,Impact Innovations Group,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed under CIS practice area
+alltel-corporation,Alltel Corporation,company,telecommunications,unknown,unknown,1943-2009,1999pr~1-c5516b,Listed as OEM under CIS practice area
+lucent-technologies,Lucent Technologies,company,telecommunications,acquired,Alcatel-Lucent (2006),1996-2006,1999pr~1-c5516b,Listed as OEM under CIS practice area
+genesys-systems,Genesys Systems,company,call-center-software,unknown,unknown,1990-present,1999pr~1-c5516b,Listed as OEM under CIS practice area
+centrobe,Centrobe,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+spl-worldgroup,SPL WorldGroup,company,enterprise-software,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area; utilities industry focus
+prospect-software,Prospect Software Inc.,company,CRM-software,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+eshare-technologies,eShare Technologies,company,CRM-software,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+perigrine-professional-services,Perigrine Professional Services,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+platinum-consulting,Platinum Consulting,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+process-edge-technology,Process Edge Technology,company,enterprise-software,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+molloy-group,Molloy Group,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under CIS practice area
+business-fx,Business FX,company,IT-professional-services,unknown,unknown,1990s,1999pr~1-c5516b,Listed as VAR under CIS practice area
+general-motors,General Motors (GM),company,automotive,active,[none],1908-present,1999pr~1-c5516b,Cited as EDS's largest single client (~1/3 of $15.2B revenue)
+cisco,Cisco,company,networking-hardware,active,[none],1984-present,1999pr~1-c5516b,Listed as OEM under Educational Services practice area
+sun-microsystems,Sun Microsystems,company,IT-hardware,acquired,Oracle (2010),1982-2010,1999pr~1-c5516b,Listed as OEM under Educational Services practice area
+allen-communications,Allen Communications,company,e-learning,unknown,unknown,1980s-2000s,1999pr~1-c5516b,Listed as IPSP under Educational Services
+amt-international,AMT International,company,IT-training,unknown,unknown,1990s,1999pr~1-c5516b,Listed as IPSP under Educational Services
+centra-software,Centra Software,company,e-learning,acquired,Saba Software (2004),1995-2004,1999pr~1-c5516b,Listed as IPSP under Educational Services
+execu-train,ExecuTrain,company,IT-training,unknown,unknown,1984-2000s,1999pr~1-c5516b,Listed as IPSP under Educational Services
+learning-tree,Learning Tree,company,IT-training,active,[none],1974-present,1999pr~1-c5516b,Listed as IPSP under Educational Services
+lotus,Lotus,company,software,acquired,IBM (1995),1982-2012,1999pr~1-c5516b,Listed as IPSP under Educational Services; IBM subsidiary by 1999
+macromedia,Macromedia,company,software,acquired,Adobe (2005),1992-2005,1999pr~1-c5516b,Listed as IPSP under Educational Services
+saba-software,Saba Software,company,e-learning,unknown,unknown,1997-2017,1999pr~1-c5516b,Listed as IPSP under Educational Services
+cbt-systems,CBT Systems,company,e-learning,renamed,SkillSoft (1999),1981-1999,1999pr~1-c5516b,Listed as ISV under Educational Services
+digitalthink,DigitalThink,company,e-learning,acquired,Convergys (2004),1996-2004,1999pr~1-c5516b,Listed as ISV under Educational Services
+mcgraw-hill-online,McGraw-Hill OnLine,company,education-publishing,unknown,unknown,1990s,1999pr~1-c5516b,Listed as ISV under Educational Services
+netg,NetG,company,IT-training,acquired,SkillSoft (2002),1991-2002,1999pr~1-c5516b,Listed as ISV under Educational Services
+ziff-davis,Ziff Davis,company,media-and-publishing,unknown,unknown,1927-2008,1999pr~1-c5516b,Listed as ISV under Educational Services; technology media brand

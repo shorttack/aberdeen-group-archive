@@ -1,0 +1,1838 @@
+# Networking: 1998 Practice Summary
+
+> Archived from: NETWOR~1.DOC
+> Original publication date: 1998-05-01
+> Author: Aberdeen Group
+
+---
+
+## Original Document Text
+
+AberdeenGrou
+p
+Networking:
+1998 
+Practice 
+Summary
+May 1998
+Aberdeen Group, Inc.
+One Boston Place
+Boston, Massachusetts 02108 
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+Networking Practice Summary 
+Aberdeen Group 
+www.aberdeen.com
+2
+Networking Practice Summary 
+Aberdeen Group 
+Aberdeen Group, Inc.
+Aberdeen Group is a Boston-based, computer and 
+communications consulting and market-research 
+organization.
+Aberdeen Group performs specific projects for a select group 
+of domestic and international clients.    Each requires a 
+combination of strategic advice and pragmatic, experience-
+based action plans.    Assignments range from corporate and 
+product positioning and organizational planning to in-depth 
+market segment research.    Aberdeen consults on mergers and 
+acquisitions, corporate positioning and investor relations, 
+transaction-processing benchmarks, and has special expertise 
+in software and midrange    computer markets.
+In carrying out assignments, Aberdeen uses a proprietary, 
+comprehensive, analytical framework providing fresh insight 
+into the complex future of computing and communications, 
+both from a technological and a market- dynamics 
+perspective.    Aberdeen also offers retainer-fee programs to a 
+group of continuing clients.
+Aberdeen principals and staff are recognized industry figures 
+with hundreds of years of combined high-tech industry, 
+research and financial community experience among them.    
+They are quoted extensively in industry trade and business 
+publications.    Each is a frequent conference and seminar 
+speaker.
+In addition to client-related research and consulting, 
+Aberdeen publishes several periodicals, Aberdeen Viewpoints 
+and Profiles, which summarize its analysis and research 
+findings.
+Information contained in this publication has been obtained from sources 
+we believe to be reliable, but is not warranted by us.    Opinions reflect 
+judgment at the time and are subject to change without notice.
+The trademarks and registered trademarks of the corporations mentioned 
+in this publication are the property of their respective holders.
+3
+Networking Practice Summary 
+Aberdeen Group 
+Warning:    This publication is protected by United States copyright law and 
+international treaties.    Unless otherwise noted, the entire contents of this 
+publication are copyrighted by Aberdeen Group, Inc., and may not be 
+reproduced, stored in a retrieval system, or transmitted in any form or by 
+any means without prior written consent.    Unauthorized reproduction or 
+distribution of this publication, or any portion of it, may result in severe 
+civil and criminal penalties, and will be prosecuted to the maximum extent 
+necessary to protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+4
+Networking Practice Summary 
+Aberdeen Group 
+TABLE OF CONTENTS
+ABERDEEN’S NETWORKING PRACTICE 
+V
+Description, Focus and Benefits
+v
+Today’s Strategic Market Questions
+vi
+About Aberdeen’s Networking and Telecommunications Practice
+vi
+EXECUTIVE SUMMARY
+1
+KEY ABERDEEN FINDINGS
+3
+Market Dynamics
+3
+Technology
+3
+Business Realities — Suppliers
+4
+Business Realities — Users
+4
+NETWORKING DEFINED
+5
+How Networking Fits into Aberdeen's Networking and Telecommunications Practice 5
+Networking Market Dynamics, Size and Segmentation
+6
+Market Descriptions and Dynamics
+7
+Core Network Components
+9
+Hubs and Bridges
+9
+Routers
+11
+Switches
+12
+High-Speed Networking Technologies
+12
+ISSUES AND CHALLENGES
+15
+Impact of Major Industry Trends
+15
+Supplier Success Factors
+17
+User Success Factors
+18
+5
+Networking Practice Summary 
+Aberdeen Group 
+SUPPLIER ABSTRACTS
+20
+3Com Corporation
+21
+Bay Networks, Inc.
+21
+Cabletron Systems, Inc.
+23
+Cisco Systems, Inc.
+24
+Compaq Computer Corporation
+25
+Hewlett-Packard Company
+26
+International Business Machines Corporation.
+27
+Intel Corporation
+28
+Lucent Technologies
+29
+FORE Systems
+30
+Xylan
+31
+Alteon Networks
+32
+Extreme Networks
+32
+Foundry Networks
+33
+Torrent Networking Technologies
+34
+6
+Networking Practice Summary 
+Aberdeen Group 
+Preface
+Aberdeen’s Networking Practice 
+Description, Focus and Benefits
+Aberdeen Group's Networking Practice follows the technological 
+developments and market trends affecting networks of all sizes — 
+from the hybrid enterprise to small to medium-sized businesses and 
+to the small and home office.
+Networks are expected to function as an essential piece of today's 
+business strategies.    The original technologies and architectures 
+upon which they were built have reached their limits and can no 
+longer support ever-increasing and more unpredictable traffic.    The 
+past year has been one of considerable evolution from older to 
+newer technologies.    Aberdeen has closely monitored this transition 
+in order to help users make sound decisions regarding their 
+networks.    The hot topics for 1998 as we see them are:
+
+Developments in Multi-layer Switching 
+
+High Speed Routing 
+
+Next Generation Ethernet and Token Ring Solutions 
+
+How VLANs Fit in Today's Networking Strategies 
+
+ATM — Is It Dead or Alive? 
+
+Transitioning Networks for IP Optimization 
+
+The Role of Fibre Channel in the Network 
+
+Managing Bandwidth as a Resource 
+
+The Increasing Importance Role of Remote Access to 
+Businesses 
+Network technology is moving extremely rapidly, with major 
+developments occurring every 18-24 months (witness the recent 
+introduction of Gigabit Ethernet right on the heels of Fast Ethernet). 
+Network managers need to understand the full ramifications of their 
+decisions.    This includes architectural trade-offs, price performance 
+curves, feature sets, obsolescence trends and how all will impact 
+their current networking topology. Using Aberdeen Group’s insight, a 
+network manager can help protect investment while providing users 
+the latest in technological capabilities.
+7
+Networking Practice Summary 
+Aberdeen Group 
+Today’s Strategic Market Questions
+1. What are multi-layer switches? How do they differ from 
+routers? How will they impact current hub/router-based 
+LANs? How do the approaches networking suppliers differ? 
+How will multi-layer switches affect implementation and long 
+term growth? 
+2. What are the migration strategies for moving from hub/router-
+based LANs to LAN switch-based networks? 
+3. Who are the major players in Gigabit Ethernet switching? 
+What are the pros and cons of deploying Gigabit Ethernet vs. 
+ATM? 
+4. What are VLANs and how can they be deployed. What are the 
+ramifications of deploying VLANs. How will LAN switches 
+prepare networks for future VLANs? 
+5. What role does Fibre Channel Play in today's networks? 
+6. What tools will enable a network manager to implement Class 
+of Service (CoS), Quality of Service (Qos), and policy based 
+routing, on both the LAN and end to end service over the 
+WAN? 
+7. How can remote access extend the business reach? 
+About Aberdeen’s Networking and Telecommunications Practice
+Aberdeen’s Networking and Telecommunications practice closely 
+tracks technology developments in enterprise and service provider 
+networks.    We research and analyze market and technology trends 
+and their business impact to organizations of all types and sizes — 
+from small-to-medium-sized businesses to telecommunications 
+service providers.
+Networks are no longer distinct, discrete entities; they have become 
+strategic business tools.    Consequently, new applications and 
+technologies are adding intelligence to existing networks in order to 
+address more demanding user and provider needs.    These shifts 
+present great opportunity and even greater challenges —for 
+businesses, IT decision-makers and service providers alike.
+As telecommunications services evolve, enterprises are able to 
+deploy more advanced, economical networks.    For example, this has 
+been the impetus behind the budding migration from costly private 
+line networks to cost-effective Virtual Private Networks based on 
+public network services such as X.25, Frame Relay and ATM.    As 
+these services proliferate, smaller businesses can benefit from the 
+8
+Networking Practice Summary 
+Aberdeen Group 
+network connectivity and capabilities once available solely to large 
+enterprises.
+Aberdeen recognizes the importance of networks and 
+telecommunications services from two perspectives:
+
+How enterprises build networks to enable business 
+applications; and 
+
+How telecommunications service providers architect, 
+deploy and profit from their service offerings. 
+
+Using these perspectives, Aberdeen's Networking and 
+Telecommunications addresses: 
+
+Networking Technologies and Architectures 
+
+Remote Access 
+
+Network Integration and Outsourcing 
+
+Networking Supplier Channels 
+
+Common Carrier Services 
+
+Internet Service Providers 
+
+Internet Telephony 
+Aberdeen concentrates on how technology can help businesses — be 
+they users or providers of networking and telecommunications 
+services.    We help Information Technology professionals understand 
+the benefits new technologies and services provide, as well as the 
+challenges they pose.    We work with technology and services 
+suppliers to gain a better grasp of user requirements and more 
+effectively position the benefits of their solutions. Aberdeen offers 
+published research (in hard copy or electronic format), subscription 
+services, customized projects and consultative services on a project-
+by-project or on-going basis. 
+9
+Networking Practice Summary 
+Aberdeen Group 
+Chapter One
+Executive Summary
+This report serves as an introduction to Aberdeen's Networking 
+Practice.    Its objective is to provide the reader with a high-level 
+overview of the technical developments, transitions, market trends 
+and challenges affecting information technology networks.    This 
+practice focuses on network architectures and protocols, the 
+hardware and software components used to build and improve 
+networks, and the developments in other IT areas that impact 
+network performance and design. 
+The Internet has changed everything, including the role of the 
+network, which is no longer just "plumbing."    It has become the 
+underlying girder of a business's ability to compete successfully.    
+Consequently, network managers, IT executives and business 
+decision-makers all need to keep abreast of rapidly evolving 
+networking technologies.    This is necessary in order to understand 
+how best to optimize network performance and to support 
+demanding, business-critical applications in an environment of 
+unpredictable, ever-increasing traffic patterns. 
+In this overview, we identify the major factors that are impacting 
+networks today.    The key market dynamic shift Aberdeen has 
+observed is that business solutions now drive the IT decision-making 
+process. 
+With the adoption of intranets and extranets, most networks have 
+outgrown the capabilities of the technologies upon which they were 
+originally built.    As a result, network managers face a migration to 
+next-generation technologies.    In theory, this has been made easier 
+because certain ground rules have finally been agreed upon.    
+Internet protocol (IP) has become the dominant network protocol, 
+and Ethernet the prevalent medium.    But network managers still 
+have to contend with the legacy components of their networks as 
+they move forward.    Furthermore, next-generation networking 
+technology choices, both for the local area network and wide area 
+access, are far more complex and confusing than they were a few 
+years ago.    Some technologies, such as Gigabit Ethernet and xDSL, 
+are too new to have a well-established track record that can be used 
+for evaluation purposes. 
+1
+Networking Practice Summary 
+Aberdeen Group 
+Today's applications continue to consume bandwidth at an awesome 
+rate.    It has become evident that continually upgrading network 
+bandwidth is not the wisest approach, especially in light of shrinking 
+IT budgets.    Both network managers and suppliers have come to the 
+realization that bandwidth is not, in effect, unlimited and free, but is 
+a resource that requires conservation efforts.    Control and 
+prioritization need to be imposed on applications, bandwidth and 
+users.    As a result, network resource conservation is emerging as an 
+overall theme. 
+To aid in these conservation efforts, suppliers are adding intelligence 
+in the form of software components to their hardware solutions 
+throughout the network.    Software will, in fact, play an increasingly 
+important role in networking, especially as the information housed 
+in directories such as NDS and Active Directory are leveraged to gain 
+more granular intelligence regarding applications.
+Businesses have discovered the advantage of providing all users with 
+timely access to business information in order to increase 
+productivity and make the business process more competitive.    
+Access to the networks and the Internet anytime, from anywhere is 
+now a requirement, not a luxury.    As a result, remote access to 
+corporate data has become increasingly important.    Businesses and 
+service providers can now create Virtual Private Networks (VPNs) 
+using tunneling and security protocols that turn the public Internet 
+into an as-needed private network for a fraction of the costs of 
+running a private wide area network.
+Wireless networking solutions still occupy a niche in the networking 
+market, but the ratification of the 802.11 standard has helped move 
+wireless technology forward, making it more interoperable and less 
+expensive.    The bandwidth of wireless is still much lower than that 
+of current wired technologies but is approaching the 10Mbps speed, 
+making it more suitable for a wider range of applications.    Certain 
+vertical markets such as healthcare, retail and education are 
+adopting wireless solutions because of the mobility they provide.
+The Internet has made information access democratic.    It puts the 
+power of enterprise connectivity into the hands of small businesses 
+as well as the Fortune 500.    For that reason, and because enterprise 
+networks are often made up of smaller components, Aberdeen 
+covers networks of all sizes — from the hybrid enterprise, to small to 
+medium-sized businesses and to the small office/home office. 
+Aberdeen recommends our in depth report, Keeping In Step with 
+Advances in Networking - Third Edition, as a guide that can help IS 
+and IT decision-makers navigate safely through the current 
+2
+Networking Practice Summary 
+Aberdeen Group 
+networking technology churn.    Aberdeen's services include a series 
+of reports on current technology issues as well as comprehensive 
+analysis of key issues on a broad range of information technology 
+topics and vertical markets. 
+3
+Networking Practice Summary 
+Aberdeen Group 
+Chapter Two
+Key Aberdeen Findings
+Market Dynamics
+·
+Demand (especially from new web based applications) is 
+outstripping network capacity, requiring network managers to 
+deploy major upgrades and additions to the network 
+infrastructure.
+·
+Because applications and business solutions now drive 
+network buying decisions, line of business managers have 
+joined in the purchase decision-making process.
+·
+Network managers now focus on complete solutions, not just 
+point products.
+·
+The criticality of timely access to information and the need for 
+flexible working environments has spurred demand for 
+remote access.
+·
+Converged networks (voice, video and data) will not become 
+widespread for another several years.    This is due mainly to 
+the inconsistent quality of connections and the uncertainty 
+about the benefits of carrying data, voice, and video on the 
+same network.
+·
+Recent financial results from the past two quarters indicate a 
+softening of the networking market.    Overall revenue growth 
+in traditional segments can be expected not to exceed 15% 
+because of the fast decline of prices and the fact that other 
+issues such as the Year 2000 problem require significant IT 
+resources.    Green field opportunities for internetworking 
+suppliers exist primarily in the service provider and small 
+office/home office market.
+·
+The slowdown in growth in Asia will be offset to a great extent 
+by an acceleration of networking technology adoption in 
+Europe.    This growth is being spurred on by the adoption of 
+intranets, the increasing popularity of the Internet, and the 
+deregulation of the telecommunications industry across 
+Europe.
+Technology
+4
+Networking Practice Summary 
+Aberdeen Group 
+·
+Product life cycles are growing shorter, and older technologies 
+are being displaced at a faster rate.
+·
+Performance requirements have spawned next-generation, 
+high-speed networking technologies such as Gigabit Ethernet, 
+High-speed Token Ring and switched Fibre Channel.
+·
+More intelligence is being distributed throughout the network, 
+which will enable higher reliability, more control, and simpler 
+administration of the network.
+·
+The standards for key technologies such as Gigabit Ethernet, 
+and IP based services like Quality of Service (QoS) and Policy 
+Based Management are still maturing. 
+Business Realities — Suppliers
+·
+Routing switches (also referred to as Layer 3 switches) are 
+replacing routers in the network, which has created challenges 
+for router suppliers and opportunities for startups.
+·
+Niche startups, followed by the merger/acquisitions of 
+successful startups, continue to play an important role in the 
+supplier community as key drivers of technological 
+innovation.
+·
+Certain segments of the networking equipment market, such 
+as 10 and 10/100 network interface cards (NICs) and hubs, 
+have experienced free-fall price drops.    Suppliers must adjust 
+to the realities of lower margins.
+·
+Uncertainty is running rampant in the networking channels as 
+margins erode and the adoption of an electronic commerce 
+model by networking suppliers becomes a reality.    Indirect 
+channels fear they may be bypassed in the selling process.    
+Consequently, they are searching for new ways to add value 
+for the customer.
+Business Realities — Users
+·
+Network managers cannot keep up with the dizzying pace of 
+innovation the industry has experienced in the past year.    
+Many have just completed significant improvements to their 
+networks and do not have the financial resources to undertake 
+another upgrade, despite the fact they need additional 
+bandwidth. 
+·
+IT expertise is in short supply, making it increasingly difficult 
+and costly for corporations to attract and retain quality, expert 
+IT employees. 
+5
+Networking Practice Summary 
+Aberdeen Group 
+·
+As network complexity increases, more IT organizations are 
+considering outsourcing network services, particularly remote 
+access.
+6
+Networking Practice Summary 
+Aberdeen Group 
+Chapter Three
+Networking Defined
+Aberdeen defines networking as those technologies, devices and 
+services used to transmit data from one user to another across the 
+business enterprise.    The network begins at the PC or server 
+network interface card (NIC), the point where data exits the desktop 
+or portable computing device, and encompasses the various 
+segments of the local area network:    the devices housed in wiring 
+closets that connect the workgroups; the network backbone and its 
+internetworking equipment that connects all the wiring closets to the 
+network data center core; and the devices and remote access 
+equipment that link local-area networks and remote users across the 
+wide area network. 
+How Networking Fits into Aberdeen's Networking and 
+Telecommunications Practice
+Aberdeen's Networking and Telecommunications Practice closely 
+tracks technology developments in enterprise and service provider 
+networks.    We research and analyze market and technology trends 
+and their business impact upon organizations of all types and sizes 
+— from small-to-medium sized businesses to major 
+telecommunications service providers.    Aberdeen recognizes the 
+importance of networks and telecommunications services from two 
+perspectives:
+8. How enterprises and businesses build networks to enable 
+business applications;
+9. How telecommunications service providers architect, 
+deploy and profit from their service offerings. 
+Using these perspectives, Aberdeen's Networking and 
+Telecommunications Practice addresses:
+10.
+Networking Technologies and Architectures
+11.
+Remote Access
+12.
+Networking Supplier Channels
+7
+Networking Practice Summary 
+Aberdeen Group 
+13.
+Network Integration and Outsourcing
+14.
+Common Carrier Services
+15.
+Internet Service Providers
+16.
+Internet Telephony (Voice over IP)
+Aberdeen’s Networking Practice also works closely with other 
+Aberdeen disciplines, especially the Network Services and 
+Systems and Infrastructure groups to provide a well-rounded 
+overall view of current issues facing desktop, LAN and network 
+infrastructure managers, what the available solutions are, and 
+what trends will impact networks in the future.
+Networking Market Dynamics, Size and Segmentation
+The networking market is currently sized to be in excess of $24 
+billion, and is the fastest growing segment of the information 
+technology industry.    As the networking market has matured, the 
+means of segmenting it has changed.    Because of the pervasiveness 
+of networks and the proliferation of network devices, segmentation 
+by product is no longer adequate to fully describe the market.    In 
+addition to the traditional division by product, market watchers and 
+suppliers also segment this market by customer characteristics.
+Figure 1:    Aberdeen's Networking and Telecommunications 
+Practice
+8
+Networking Practice Summary 
+Aberdeen Group 
+Source: AberdeenGroup, April 1998
+9
+Networking Practice Summary 
+Aberdeen Group 
+The networking market can be divided into five primary customer 
+segments: 
+17.The Large Enterprise Market, which consists of Fortune 1000-
+sized companies.    This was the first group to require networking 
+technologies and continues to be a mainstay of suppliers today.
+18.The Small to Medium-sized Enterprise market segment, which 
+includes companies that range from 50 employees up to Fortune 
+1000 sized.    This is the fastest growing market, and the most 
+difficult for suppliers to reach.
+19.The Small Office/Home Office (SOHO), which makes up 90% of 
+businesses worldwide.    SOHOs usually have 10 or fewer users (in 
+Europe, 5 is the sweet spot; Asia-Pacific is mixed).    This category 
+of user has little, if any IT support, so solutions need to be 
+extremely easy to install and manage.    Reliability and 
+interoperability are key to solution success in this market.
+20.The Service Providers, including Internet Service Providers (ISPs), 
+Local Exchange Carriers (LECs), Co-located Exchange Carriers 
+(CLECs), Interexchange Carriers (IXCs).    The growth of Internet 
+adoption has produced a new group of network equipment 
+purchasers.    The Service Providers are both users of networking 
+products and a channel that supplies certain types of equipment 
+to the user.
+21.The Consumer market.    This market represents the last 
+networking frontier.    As the number of computing devices, 
+peripherals and access lines increase in the home, the need for 
+home networks is becoming evident.    This is a nascent market 
+that is centered on personal rather than business needs.    With 
+the advent of electronic commerce, this segment will increase in 
+importance.
+Figure 2 illustrates current networking market segmentation.    
+Aberdeen's networking practice concentrates on the Large 
+Enterprise, SME and SOHO markets.
+Market Descriptions and Dynamics
+Large Enterprise Networks
+Large Enterprise networks have typically evolved from the data 
+center out to the department and workgroup.    They represent a 
+large systems connectivity perspective to networking.    In many large 
+corporations, however, there has also been simultaneous growth in 
+networking from the workgroup in.    In other words, there has been 
+10
+Networking Practice Summary 
+Aberdeen Group 
+rapid growth in connecting PCs to local area networks in order to 
+create effective workgroup computing environments.    A major 
+challenge faced by Large Enterprise IS departments has been 
+integrating these two converging network initiatives into a seamless 
+whole.    Major catalysts for integration include decision support, 
+new client server applications and the adoption of intranet/extranet-
+based applications.    There is a major shift occurring in these 
+networks to a controlled decentralized model, with fewer, but larger, 
+servers, higher bandwidth requirements, more switching and 
+centralized resource management.
+The Small to Medium-Sized Enterprise (SME)
+The second major segment of the networking market is the Small-to-
+Medium-sized Enterprise (SME), one of the fastest growing market 
+segments.    SME Networks have grown from the workgroup, 
+constructed department by department, from the bottom up.    
+Decisions about networking are often made collaboratively, but they 
+are still driven by the business benefits incurred by adopting a 
+specific application or technology.    Choices tend to be conservative 
+and less cutting-edge.    The size of the networks vary; they usually 
+consist of less than 1,000 users and represent the level of market 
+segmentation below the Fortune 1000 companies.
+The Small Office/Home Office
+The SOHO market is the fastest growing segment of the networking 
+market, and the least technically adept.    These users have become 
+more quality conscious and better educated about the value of 
+combining business
+Figure 2: 1998 Networking Market Segmentation
+11
+Networking Practice Summary 
+Aberdeen Group 
+Source: AberdeenGroup, April 1998
+applications and technology.    The major opportunity for suppliers in 
+this arena centers on connecting the SOHO users to the Internet, 
+which will serve as their wide area network.    Approximately 40% of 
+SOHOs use the Internet as part of their business today.    Service 
+providers, who also view this market segment as attractive, are being 
+courted by equipment suppliers as a new indirect channel.
+Consumer Market 
+The consumer market is the last untapped reservoir of networking 
+potential.    There are approximately 45 million U.S. households with 
+home computers, and this market is growing roughly 10% per year.    
+Approximately one fourth of these households own more than one 
+PC.    As the number of users in the home increases, so does the need 
+for a network that lets one Internet access account serve the entire 
+household, rather than having separate accounts for each family 
+member.    Furthermore, the variety of access options, including cable 
+modems, has created new market opportunities.    This market is 
+extremely price sensitive.    Performance is secondary, as a shared 10 
+Mbps system should be sufficient capacity to handle nearly all needs 
+in this setting.
+Core Network Components
+12
+Networking Practice Summary 
+Aberdeen Group 
+As the network has grown in size, traffic and number of applications 
+supported, it has become increasingly complex, and includes a broad 
+mixture of legacy and new technologies.    Networks are generally 
+comprised of one or more local area networks (LANs) that are 
+connected over a wiring system or by wireless connections.    Most 
+enterprise networks must support several architectures, topologies 
+and protocols, and multiple internal and access speeds.    Early 
+networks such as SNA networks connecting IBM mainframes were 
+generally proprietary and closed.    Recent installations include a 
+combination of LAN segments based on open standards that 
+interconnect an Ethernet, FDDI or ATM backbone.    LANs are often 
+interconnected to remote locations via Frame Relay, private lines, or 
+virtual private circuits to form a wide-area network (WAN).    Today's 
+hybrid network is composed of many elements.    Figure 3 presents a 
+typical heterogeneous network design.
+Internetworking equipment is designed to identify the destination 
+address of a data packet, route that information to the right network 
+or network segment, translate the protocol, buffer the data, and 
+perform other security and access functions.    The basic 
+internetworking equipment is discussed below.
+Hubs and Bridges
+LAN devices are traditionally connected by a hub to form a LAN 
+segment.    Cabling runs from the computing device or peripheral to 
+the hub.    The hub either repeats or splits the signals sent through it. 
+Because of their modularity, hubs are often referred to as the "Legos" 
+of the networking arena.    Over time, they have developed more 
+intelligence, and high-end    hubs can now support large central site 
+facilities.    Their role has expanded from simple star-network 
+connection to the focal point of interconnection for multiple LAN 
+media, protocols and wide area (WAN) connectivity.    Stackable hubs 
+provide a "grow-as-you-go" option that is especially attractive to cost-
+conscious network managers, and switching hubs have added 
+bridging and routing functionality. 
+The price of workgroup switches has dropped considerably.    
+Consequently, they have begun to replaced hubs.    We expect this 
+trend to continue.    Hubs still have life as a low-end product for the 
+SME and    SOHO markets.    Sales volumes may increase, though hub 
+prices will continue to decline, approaching commodity status.
+Bridges identify and re-broadcast messages that need to be directed 
+to other LANs, usually using the same networking protocol.    They 
+use software programs to filter, forward or broadcast (flood) an 
+incoming data packet (or frame) based on its Media Access Control 
+13
+Networking Practice Summary 
+Aberdeen Group 
+(MAC) address.    Today they are passé, as their functionality has been 
+incorporated into routers and switches. 
+Figure 3: Hybrid Enterprise Network: 
+Source: AberdeenGroup, April 1998
+14
+Networking Practice Summary 
+Aberdeen Group 
+Routers
+Until recently, routers have served as the building blocks for 
+increasingly complex and critical network backbones.    Routers are 
+Layer 3 network devices that have the intelligence needed to 
+determine the optimal forwarding path for data packets (see OSI 
+Reference Model, Figure 4, below).    Unlike bridges, which 
+rebroadcast messages, routers are capable of directing network 
+traffic to specific destinations.    They rely on the network layer 
+information of the data packet and are fluent in the various network 
+communication protocols.    Because the tasks they perform are 
+complex, routers' performance tends to slow down as traffic 
+increases. 
+Token Ring networks have unique requirements that mandate a 
+distinct type of internetworking device called the Source Routing 
+Bridge (SRB).    Source routing falls somewhere between the general 
+message broadcasting of Ethernet bridging and the protocol 
+translation and destination mapping carried out by routers.
+The router segment, once the high flyer of networking, grew less 
+than the industry average in 1997.    Aberdeen expects router sales to 
+the enterprise to continue to slow in 1998, as the majority of network 
+managers opt for routing switches to replace or augment existing 
+routers in the core of high performance local area networks.
+Figure 4:    OSI Reference Model
+15
+Networking Practice Summary 
+Aberdeen Group 
+Source: AberdeenGroup, April 1998
+16
+Networking Practice Summary 
+Aberdeen Group 
+Switches
+Network managers have found that the enormous increases in traffic 
+— and especially the increase in Internet Protocol (IP) traffic over 
+the past two years has created traffic bottlenecks at the router.    
+Routers process packets at the network and transport layers (Layers 
+3 and 4) of the OSI model.    Because routers are tasked with 
+performing several complex functions, such as protocol translation, 
+building routing tables, performing route lookups, and filtering 
+broadcasts and multicasts, they tend to bog down when traffic is 
+extremely heavy.    As a result, the need for switching has made itself 
+felt at all levels of the network.
+Switches are designed for speed.    They have traditionally performed 
+the relatively simple function of forwarding packets, processing 
+them at the data link layer (Layer 2) of the OSI model, forwarding 
+packets across homogenous networks with the same Layer 2 
+technology (e.g. Ethernet to Ethernet). 
+The relative simplicity of switches has enabled suppliers to make 
+fast, inexpensive devices by implementing most functions in 
+hardware.    Routers, on the other hand are more intelligent and 
+typically software-based, which makes them slower, more expensive 
+and harder to maintain than switches.    In the past, switching and 
+routing functions were separated, that is, located on different 
+devices.    This architecture worked well until the recent surge in 
+network and backbone traffic overloaded the routers.    Over the past 
+eighteen months, Aberdeen has watched the rollout of routing 
+switches, also referred to as Layer2/Layer 3 switches or multilayer 
+switches.    These devices combine the intelligence of the router with 
+the speed of switches, and are being installed in backbones to relieve 
+traffic congestion. 
+High-Speed Networking Technologies
+Fast Ethernet and Gigabit Ethernet
+Fast Ethernet (100 Mbps) has been adopted as the upgrade migration 
+path of choice for Ethernet networks, especially as 10/100 Ethernet 
+NIC prices have dropped to the levels of 10 Mbps Ethernet cards.    
+The emergence of Gigabit Ethernet has provided an extremely 
+attractive alternative to ATM in the enterprise network, and 
+Aberdeen foresees an accelerating trend to adopt Gigabit Ethernet as 
+the network backbone technology of choice for the majority of users 
+who already have Ethernet backbones and who do not anticipate 
+implementing voice or video on the network.
+17
+Networking Practice Summary 
+Aberdeen Group 
+Asynchronous Transfer Mode (ATM)
+Asynchronous Transfer Mode (ATM) has been one of the most talked 
+about networking technologies over the past few years.    Originally 
+designed as a telecommunications standard, ATM is based on a cell 
+architecture rather than the frame architecture of Ethernet and 
+Token Ring, which are more limited, both in bandwidth and 
+scalability.    ATM promised the best of all possible worlds — 
+integrated LAN and WAN functions combining voice, video and data 
+into a single, uniform protocol with unheralded scalability and 
+simplified management and design.    ATM was envisioned as 
+running all the way from the desktop of one network across the wide 
+area to the desktop of another network. 
+That was the dream.    The reality is that ATM has not been accepted 
+in data networks as an end-to-end solution.    It has proved too costly 
+and too complicated for implementation at the desktop level.    
+However, it has found its place in networking.    ATM posted healthy 
+growth in 1997, primarily as a WAN and LAN backbone technology. 
+Fibre Channel
+Originally designed as a means of interconnecting high-speed 
+peripherals to a shared mass storage device, Fibre Channel has 
+proved to be an effective network protocol.    Combining features of 
+both point-to-point channel and address-based network connections, 
+Fibre Channel is a high-speed channel that connects devices to a 
+network fabric, or matrix, of connections.    The fabric can be simple 
+or complex and consist of any combination of devices — 
+mainframes, clustered servers, disk arrays, hubs and switches.    Each 
+Fibre Channel port manages a simple point-to-point connection to 
+the network fabric.
+Fibre Channel delivers bandwidth from speeds of 133 megabytes per 
+second to 1.062 gigabytes per second over a variety of cable types, 
+providing computing devices with a throughput mechanism that 
+more closely matches their processing power than Ethernet or even 
+Fast Ethernet.    A ratified ANSI standard, it supports various network 
+topologies such as point-to-point, switched fabric and arbitrated 
+loop.    It also supports command sets from most other channel 
+protocols, including Internet Protocol (IP), Small Computer System 
+Interface (SCSI), and High Performance Parallel Interface (HIPPI). 
+Supporting up to 16 million nodes on a single fabric, Fibre Channel 
+possesses excellent scalability.    Its guaranteed delivery and data 
+prioritization mechanisms ensure that performance will not be 
+sacrificed as the number of devices in the fabric increases. 
+18
+Networking Practice Summary 
+Aberdeen Group 
+Access Technologies
+The wide area connection has always been the bandwidth 
+constriction point for networks.    We have finally arrived at the era 
+of high-speed wide area access technologies.    Analog modems now 
+offer speeds of 56Kbps (with bonding technologies adding an 
+additional 56Kbps capability if users are willing to pay for a second 
+telephone line).    The emergence of xDSL technologies that has 
+occurred over the past six months brings even greater bandwidth 
+capabilities — from the 128kbps of IDSL to the 7Mbps download 
+speeds of ADSL.    Cable modems, while more appropriate for the 
+residential user, will find business adopters and at this point offer 
+the highest downstream speeds of any access technology — 30Mbps 
+downstream.    ADSL and cable modems are asymmetrical 
+technologies, which means that they deliver greater downstream 
+capabilities than upstream.    Cable modems and xDSL technologies 
+are not yet widely deployed and are not available in all geographic 
+areas.
+For users, this plethora of access technologies can be daunting.    The 
+key is to determine which applications will run over the wide area 
+and then select the best access technology for delivering those 
+applications within the constraints of availability and price.
+19
+Networking Practice Summary 
+Aberdeen Group 
+Chapter Four
+Issues and Challenges
+Client-server systems are evolving to Web- and IP-based, application-
+centric computing.    As a result, networks are being overwhelmed by 
+increasing demand and the need to deliver high reliability, high 
+performance, consistent latency and traffic prioritization.    These 
+needs are being driven by several trends. 
+·
+Increasing processor power and storage capacity are enabling 
+more powerful client-server applications and larger file sizes 
+which need to be shared across the network.
+·
+Web enabled and browser based applications such as intranets 
+and extranets are fueling a dramatic increase in traffic over 
+the network.    The nature of this traffic is bursty and 
+unpredictable, making the networks harder to manage.
+·
+The broad deployment of business critical applications such as 
+Enterprise Resource Planning (ERP), Customer Interaction 
+Software (such as customer service and billing), and 
+administrative and office automation applications are driving 
+the network to mission critical status.    These applications 
+require low (and consistent) latency to work properly, and 
+high reliability to ensure the proper operation of the 
+enterprise.
+Because the technologies and architectures upon which networks 
+were originally built have, in many instances, reached their limits, 
+information technology (IT) managers find it increasingly difficult to 
+support demanding, business-critical applications and more 
+unpredictable, ever-increasing traffic patterns.    Consequently, 
+significant improvements to the network must be made.
+Impact of Major Industry Trends
+·
+Network managers, overwhelmed by technological change and 
+complexity, are looking for ways to simplify the installation, 
+configuration management and maintenance of the network.    
+Adding increased intelligence in the network (e.g., auto-
+20
+Networking Practice Summary 
+Aberdeen Group 
+configuring and self-healing networks), and providing better 
+integration of network management systems that will allow 
+for directory services integration and policy based 
+management will help accomplish this.
+·
+The impact of the Internet on networking has been 
+monumental.    It offers network connections in ways that were 
+unimaginable before 1995.    It is no understatement to say that 
+the Internet has become the network of choice for linking 
+information and users across separate organizations.    The 
+adoption of Internet technology within and without the 
+enterprise network has caused an inversion of traffic patterns 
+from the comfortable 80/20 rule to a model where 80% of the 
+network traffic crosses the backbone.    Traffic has increased 
+voluminously and has become more unpredictable, with 
+unplanned and uncontrollable traffic spikes.    Browsing and 
+push applications such as PointCast have also added to the 
+unplanned amount of traffic that comes into the corporate 
+network.    The challenge moving forward will be to impose 
+more control and predictability onto the network.
+·
+Network managers must accommodate legacy protocols and 
+enable them to function effectively in an IP-dominant 
+environment.    The move toward thin-client, network-centric 
+applications will require more robust and reliable networks 
+because they will re-arrange data flows and traffic patterns.    
+This will become essential as more mission-critical 
+applications adopt the network-centric architecture. 
+·
+The Year 2000 may prove to be the sleeping tiger in the 
+network.    Because IT managers are focusing so intently on 
+year 2000 compliance for applications, operating systems and 
+computing devices, they may accidentally overlook Year 2000-
+proofing the network.    Every network manager should assess 
+his/her local area network to insure that the network is 
+running a Year 2000-compliant version of the network 
+operating system and that all hubs, routers, bridges, switches 
+and other network components meet Year 2000 compliance 
+requirements.    This is most critical in networks where 
+components may be built on an off-the-shelf PC platform.    We 
+anticipate that this problem will be more prevalent in small 
+and medium sized companies who tend to upgrade hardware 
+less frequently and who do not have abundant resources for 
+Year 2000 fixes.    It is also critical not to overlook the wide area 
+components of the network.
+21
+Networking Practice Summary 
+Aberdeen Group 
+·
+Efforts to fix Year 2000 problems in applications and 
+computing hardware will continue to divert dollars which 
+could be earmarked for network improvement.    Additional 
+resources for Year 2000 network assessment and repair will 
+need to be requested by network managers.
+·
+Systems integrators and networking value-added resellers 
+(VARs) have an opportunity to increase their services and 
+revenues by adding Year 2000 assessments to their repertoire. 
+There is a caution here, however.    Because Year 2000 
+problems can be complex and cunning, it is virtually 
+impossible to promise a total inventory of all Year 2000 
+problems.
+·
+Convergence of voice and data will place even more traffic on 
+data networks.    This will add complexity both to the network 
+and to its management, and drive more demand for 
+guaranteed network performance levels.    In short, users will 
+expect the same performance from their data networks that 
+they get from the voice network today — 99.999%.    In order to 
+achieve this kind of performance and reliability, traffic 
+prioritization, bandwidth reservations/guarantees, and low 
+and consistent latency must be assured.
+·
+Improvements in laser technology will continue to expand the 
+bandwidth capabilities and distance of optical networking 
+systems. Data-optimized network infrastructures will first be 
+deployed in the wide area.    Dense wavelength division 
+multiplexing (DWMD) will enable the transport of as much as 
+one terabit (1,000 gigabits) of information on a single optical 
+fiber.    Much work still needs to be done on key specifications 
+and interoperability.    Optical internetworking has the 
+potential to remove the wide area bottleneck by providing 
+enormous capacity, which in turn will impact the enterprise 
+network by stimulating demand for increased bandwidth and 
+processing power there.
+·
+Some of the issues of wireless technology, namely speed and 
+cost, have been addressed, but wireless technologies will 
+continue to be deployed primarily in vertical markets such as 
+healthcare, retail, warehousing and distribution, and 
+manufacturing.    While prices for wireless solutions have 
+dropped significantly they will continue to remain higher than 
+their wired counterparts.    The small office and home markets 
+offer growing opportunities for technologies such as infrared 
+(IR) and radio frequency (RF).
+22
+Networking Practice Summary 
+Aberdeen Group 
+·
+Security will continue to be a major issue and a challenge, 
+especially as the Internet becomes an integral part of the 
+business communication process and virtual private networks 
+become a more common means of wide area connection.
+Supplier Success Factors
+Suppliers will be impacted by several technology and market factors.
+·
+Advances in ASIC design enable more and more integration of 
+network functions in silicon, which results in faster and 
+cheaper hardware.    The move from traditional software 
+routers to routing switches, for example provides users with 
+approximately a tenfold increase in capacity at roughly one-
+tenth the cost ( a price performance difference of 100 times).    
+Suppliers, especially the leaders in older technologies, will 
+need to keep up with rapidly moving technology 
+advancements.    This can often best be achieved by acquiring 
+nimble startups. 
+·
+IT decisions increasingly include line of business personnel 
+who count on information technology to solve specific 
+business issues.    Therefore, to be successful, suppliers must 
+tailor their product messages to the business manager and CIO, 
+and not just to the network manager.
+·
+Product life cycles have shortened to the point that any major 
+delay in product shipment can result in a supplier missing an 
+entire generation of product.
+·
+This increase in integration, lower prices and standardization 
+on IP has also started to drive the networking industry 
+towards commoditization.    Hubs and NICs are already 
+commodities.    Switches are fast moving in this direction, and 
+low end routers will not be far behind.    Therefore, suppliers 
+will need to differentiate themselves on service, support, 
+manageability, and ease of use rather than pricing.    This drive 
+toward commoditization is evidenced by the fact that Intel and 
+Compaq, both known for high volume and low cost 
+manufacturing and distribution, have made successful 
+networking debuts.
+In short, in order to be successful, suppliers need to cover all the 
+technology innovations or be left behind, provide standards based 
+solutions (customers are avoiding proprietary networking protocols), 
+differentiate themselves based on service, and move up the food 
+23
+Networking Practice Summary 
+Aberdeen Group 
+chain to sell to the CIO and business managers as well as the network 
+managers.
+User Success Factors
+The following are guidelines for users:
+·
+Allow business needs and issues to drive network 
+implementation.    Focus on how the network infrastructure 
+will help the business be more successful, such as increasing 
+sales and market presence, improving customer service and 
+time to market, and reducing costs. 
+·
+Stick to standards whenever possible.    Avoid proprietary 
+protocols.
+·
+Look for support for the protocols and technologies that exist 
+in your network.
+·
+Incorporate the value of service, support and ease of use into 
+your business models.
+·
+Check on vendor claims by testing the equipment in your 
+environment before committing to a large order.
+·
+Ensure that there is a migration or growth path to the 
+technologies and services that you will need in the future.
+·
+Assess Year 2000 compliance by networking suppliers.
+Finally, network managers have been guided for some time by four 
+basic tenets:
+·
+Don't touch the desktop unless you absolutely have to;
+·
+Build on what you have;
+·
+Never walk away from a good buy; and
+·
+Don't take unnecessary risks.
+We find these “Laws of the LAN” still hold true today.
+24
+Networking Practice Summary 
+Aberdeen Group 
+ Chapter Five
+Supplier Abstracts
+This chapter profiles a sampling of key networking suppliers.    It 
+includes internetworking behemoths as well as newcomers with 
+single technology foci.    This is not meant to be an exhaustive list, but 
+to give the reader a brief overview of suppliers in this marketplace 
+who are followed by Aberdeen.    The following companies are 
+profiled:
+Major Internetworking Suppliers
+·
+3Com Corporation
+·
+Bay Networks
+·
+Cabletron Systems
+·
+Cisco Systems
+Diversified Suppliers
+·
+Compaq Computer Corporation 
+·
+Hewlett-Packard Company
+·
+International Business Machines Corporation
+·
+Intel Corporation
+·
+Lucent Technologies
+Specialized Networking Suppliers
+·
+Fore Systems 
+·
+Xylan
+High-Speed Networking Newcomers
+·
+Alteon Networks 
+·
+Extreme Networks
+·
+Foundry Networks
+·
+Torrent Networking Technologies
+25
+Networking Practice Summary 
+Aberdeen Group 
+3Com Corporation
+5400 Bayfront Plaza
+P.O. Box 58145
+Santa Clara, CA 95052-8145
+1-800-242-3Com
+www.3Com.com
+Market Position
+3Com is a global internetworking giant, with over 100 million 
+customers worldwide.    The company has, through development and 
+acquisition, amassed a broad portfolio of local and wide area 
+information access products and systems solutions.    While the 
+company offers products in all four segments of the internetworking 
+market, its strengths lie in the workgroup networking environment. 
+The company holds 40% market share of the network interface card 
+market and leads in sales of Ethernet managed hubs, Fast Ethernet 
+workgroup hubs, and Ethernet workgroup switches.    3Com is also a 
+leader in Gigabit Ethernet and large ATM networks.    
+TranscendWare™ management software provides the management 
+applications for 3Com's network solutions    3Com's focus is on 
+Pervasive Networking, 3Com's description of the networks that will 
+result from the convergence of voice and data networks. 
+Aberdeen Conclusions
+Under Eric Benhamou's leadership, 3Com has firmly established 
+itself as a top tier internetworking supplier and the dominant vendor 
+at the edge of the network.    Its acquisition of U.S. Robotics in 1997 
+brought the company to the same size as Cisco Systems and gave 
+3Com much needed penetration into the ISP community.    The 
+hidden gold in this acquisition is the Palm Pilot, which has the 
+potential of becoming the mobile operating platform for many users. 
+The company has had much to digest over the past year, but is 
+successfully evolving from a point-products supplier to a full fledged 
+systems company.    A master at volume manufacturing, 3Com is well 
+equipped to compete in today's rapid-price-decline networking 
+market.    But there are challenges.    Because of its greater 
+penetration, the company has been more affected by difficulties in 
+the Asian market place than have its major competitors, and it must 
+take steps to shore up its Asian partners until they can regain their 
+footing. 
+26
+Networking Practice Summary 
+Aberdeen Group 
+Bay Networks, Inc.
+4401 Great America Parkway
+Santa Clara, CA 95052-8185
+408-988-2400
+www.baynetworks.com
+Market Position
+Bay is the third largest internetworking supplier.    Over the past two 
+years, Bay Networks has moved aggressively to improve its market 
+and product positions.    In November 1996, Dave House, formerly of 
+Intel, was appointed as Chairman, President and CEO.    House brings 
+considerable strength in both products and business integration to 
+the company, as well as some much-needed revitalization that has 
+put Bay squarely back on the competitive track. 
+The company is now organized itself into two divisions:
+·
+The Enterprise Business Unit (EBU) focuses on marketing 
+system solutions to the Fortune 1000; and
+·
+The Internet/Telecom Business Unit (ITBU) concentrates on 
+remote access and router technologies for the carriers and 
+ISPs. 
+Bay established itself as the market share leader in ATM LAN 
+switching and fixed configuration Fast Ethernet port share in Q2 
+1997.    The company is an industry leader in embedded RMON 
+network management, and its Optivity solution is a leading network 
+management application for both high-end and low-end element 
+management software.
+Bay is working from an IP-focused blueprint it refers to as Adaptive 
+Networking.    Adaptive Networking is designed to deliver more value 
+at the edge of both enterprise and service provider markets by 
+making IP networks more scalable, faster, easier to manage and 
+more secure.    The company's recently launched Access Cornerstone 
+initiative is built on switching/routing, access, management and IP 
+services such as Virtual Private Networks and directory and policy 
+services. 
+Aberdeen Conclusions
+Bay has made good solid strides under its new leadership team.    
+Dave House has restructured management, refocused marketing, 
+infused optimism into the employee base, and reassured both 
+customers and channels.    The company has plugged holes in its 
+product line though acquisition and partnerships.    Bay has good 
+27
+Networking Practice Summary 
+Aberdeen Group 
+initial penetration in the service provider market and its remote 
+access solutions are being enthusiastically received.      However, 
+significant challenges remain as it pushes into new markets while 
+protecting its core business.    While Bay pushes aggressively into the 
+Internet/Telecom arena, it must assure its enterprise base, who may 
+not be ready or willing to cede their networks to carriers and ISPs, 
+that they are still a top priority.    This can be accomplished through a 
+more coherent system sell rather than the point approach Bay has 
+taken in the past.
+Cabletron Systems, Inc.
+35 Industrial Way
+Rochester, NH 03867-0505
+603-332-9400
+www.ctron.com
+Market Position
+Founded in 1983 as a cabling company, Cabletron is a leader in high-
+performance internetworking solutions.    The company is widely 
+recognized for its outstanding SPECTRUM network management 
+technology, quality engineering, and excellent service and support 
+capability.    As the fourth member of the "four horsemen of 
+networking," Cabletron competes head-to-head with Bay Networks, 
+Cisco and 3Com. 
+As part of a major effort to take the company to the next stage of 
+business development, Cabletron has put in place a broad set of 
+initiatives to lead the company into the emerging convergence 
+market of voice, video and data and extend its customer base beyond 
+the traditional Fortune 500 to the carrier and Internet Service 
+Provider communities.    The company made two important 
+acquisitions, the Digital Network Product Business, which provides 
+instant indirect channel access, and Yago, a high-speed switching 
+vendor that will strengthen Cabletron's high-end networking 
+solutions portfolio.
+Aberdeen Conclusions
+Cabletron has made progress in focusing beyond pure technology 
+and concentrating more on market realities and its channels 
+strategy.    However, the company faces significant challenges as it 
+moves to regain a stronger position in the networking market.    
+28
+Networking Practice Summary 
+Aberdeen Group 
+Disappointing second and third quarters in FY 1998, led to a 
+dramatic drop in share price.    Top management shuffles and the 
+return of founder Craig Benson have thrown into question the 
+company's commitment to the new, expanded vision laid out in the 
+strategic plan. 
+On the plus side, access to Digital's reseller channels should help 
+significantly in improving Cabletron's indirect channels sales.    
+Furthermore, Digital has already broken selling ground in the 
+service provider market, which will also help Cabletron.    The Yago 
+switch router gives Cabletron an edge in this emerging market and 
+should provide significant revenue opportunities if aggressively 
+priced. 
+Cisco Systems, Inc.
+170 West Tasman Drive
+San Jose, CA 95134
+408-526-4000
+www.cisco.com
+Market Position
+The undisputed leader in the Global 1000 enterprise, 
+internetworking equipment market, Cisco holds either the number 
+one or number two market share position in almost every market in 
+which it competes.    Cisco's roots spread from its early days as a 
+router vendor, and the company has built its business and its 
+reputation by addressing issues of network complexity.    A major 
+theme for Cisco has been to offer a wide range of scalable solutions 
+that have the interoperability required in today’s heterogeneous 
+networking environment.    Aberdeen has watched the company 
+evolve from a hardware-centric supplier to an internetworking 
+supplier with an intense software focus. 
+The company offers the industry's broadest range of hardware 
+products.    Its full end-to-end complement of routing and switching 
+products are based on a common Cisco IOS software architecture 
+that delivers consistent network services.    Cisco solutions 
+incorporate Ethernet, Fast Ethernet, Gigabit Ethernet, Token Ring, 
+and ATM.    The company is involved in a major push into the 
+29
+Networking Practice Summary 
+Aberdeen Group 
+converged voice/video/data market, concentrating a great deal of 
+technology talent and resources on this market.    This has moved it 
+from a position of competing with other internetworking suppliers 
+to the carrier-supplier league of Nortel and Lucent.
+Cisco sells to customers in three target markets: Enterprise, Service 
+Providers and Small/Medium Business and executes both its direct 
+and indirect channel sales and marketing programs with precision.    
+Cisco has sold capably into enterprise accounts and has also taken 
+full advantage of explosive demand driven by ISPs and WAN service 
+providers who are rapidly adding capacity for the Internet.    The 
+company has done a masterful job of adopting electronic commerce 
+and today is the world's largest Internet commerce site, selling more 
+than $10 million a day in products over the Web.
+Aberdeen Conclusions
+Cisco’s leadership is so solidly established that it is hard to imagine 
+the company giving much overall ground.    A major challenge has 
+been whether Cisco could survive the transition from routers to 
+switches.    With the help of several acquisitions (Cisco averages 
+fourteen per year), Cisco has established itself as a leader in 
+switching as well as maintaining its impressive leadership position 
+in the routing market.
+Cisco has been accustomed to a business model in which margins 
+have been comfortably high.    A major challenge for Cisco comes 
+from a market in which prices free-fall overnight.    Can the company 
+maintain its exceptional profitability in an environment of shrinking 
+network margins?    The other major challenge will be how well Cisco 
+can compete against the likes of Lucent and Nortel in the green field 
+service provider market. 
+Compaq Computer Corporation
+Communications Products Group
+8404 Esters Boulevard
+Irving, TX 75063
+1-800-345-1518
+www.compaq.com
+30
+Networking Practice Summary 
+Aberdeen Group 
+Market Position
+While poised to be the number two computer company in the world 
+with its acquisition of Digital Equipment Corporation, Compaq 
+Computer Corporation is a newcomer to the networking market.    
+The company has targeted the SME and SOHO market.    Compaq's 
+goal is to use networking as a means of offering a complete solution 
+from the on or off-site desktop computer to the server at the 
+corporate site, with a focus on ease of installation, use, and 
+maintenance.
+Compaq has gained some networking technologies — notably 
+network interface cards and modem technology — from previous 
+acquisitions.    The company has refreshed its hub line and added 
+Ethernet, Fast Ethernet, Gigabit switching and remote access to its 
+repertoire, believing that the market is transitioning from a shared 
+media model to one built on direct connection between desktop 
+computers and switches. 
+Conclusions
+Compaq's plan to reach the $50 billion revenue mark by the year 
+2000 is a very ambitious undertaking and will require the 
+Communication Products Division to do its part by grabbing market 
+share quickly.    Compaq's networking product line plays to its 
+desktop and server strengths, but it must make the best use possible 
+of its existing channels to pull networking solutions along with its 
+computing hardware.    One advantage Compaq has is its ability to 
+thrive on low margins.
+Targeting 25% of the remote access server (RAS) market places 
+Compaq against some fierce competition.    To succeed,    the company 
+will have to compete successfully against incumbents Ascend, 3Com, 
+and Lucent, as well as Cisco, Bay and Nortel — a formidable group. 
+The big question is whether a major league computing supplier can 
+become a commanding force in networking.    None of the top 
+computing suppliers — Digital, Hewlett-Packard or IBM — has been 
+able to accomplish that feat. 
+Hewlett-Packard Company
+Workgroup Networks Division
+8000 Foothills Boulevard
+Roseville, CA 95747-5551
+1-800-752-0900
+31
+Networking Practice Summary 
+Aberdeen Group 
+www.hp.com
+Market Position
+The second largest supplier of global information technology, 
+Hewlett-Packard has established itself as a committed player in the 
+networking industry.    HP's competitively priced, networking 
+solutions are designed to meet the needs of networks that grow from 
+the workgroup up.    Products include hubs, switches, adapters and 
+Internet access devices.    They incorporate standards-based 
+interoperability with reliability, flexibility, manageability and ease of 
+installation.    HP has the advantage of being able to offer its clients a 
+complete workgroup solution, including networking products, PCs, 
+printers, servers, scanners and Open View network management.    
+The company has forged a strategic alliance with Cisco Systems 
+which includes joint development, sales and support of networking 
+solutions.
+Aberdeen Conclusions
+Aberdeen research substantiates that, as far as end-users are 
+concerned, HP "walks the talk" when it comes to their networking 
+vision.    HP's solutions are particularly attractive to small to 
+medium-sized organizations because of their emphasis on ease of 
+use and reliability.    Beyond technology and hardware, Aberdeen has 
+found that the single most important item to small to mid-sized 
+business users is service and support, one of HP's greatest strengths.
+HP's strategic relationship with Cisco brings significant benefits to 
+each company.    HP gains a broader product line for its channels and 
+access to networking solutions that can move to the enterprise, while 
+Cisco gains additional worldwide sales and support capabilities.    
+Both companies will reap the benefits of joint development.
+International Business Machines Corporation.
+Networking Hardware Division
+eNetwork Software 
+Research Triangle Park, NC 27709
+1-800-IBM-3333
+www.ibm.com
+32
+Networking Practice Summary 
+Aberdeen Group 
+Market Position
+When service, support and the IBM Global Network are included, 
+IBM is the world's largest internetworking systems provider, with 
+over $9 billion in revenues.    The company has aligned all its 
+divisions, including its networking hardware and software groups, to 
+support the facilitation of electronic business (e-business).    IBM has 
+recently reorganized the Networking Hardware Division in the 
+hopes of positioning the division as a serious contender in the 
+remote access, ISP and carrier markets.
+Late to jump on the Ethernet and TCP/IP bandwagons, IBM now 
+offers a complete line of campus and enterprise networking 
+solutions.    Hardware offerings including bridges, concentrators, 
+controllers, hubs, access devices and servers, LAN and Ethernet 
+adapters, modems, routers and switches (Ethernet, Token Ring, ATM 
+and Multiprotocol).    The company is heavily involved in the 
+development of High-speed Token Ring and developing voice over IP 
+solutions.    Software solutions include Internet-to-SNA connectivity, 
+web-to-host and host integration, the Mobile Equilizerproduct, and 
+security solutions.
+Aberdeen Conclusions
+IBM brings all the essential components to networking: the 
+hardware, the software, the management tools, service and support. 
+The company understands the importance of helping customers 
+continue to build on their investment in the traditional IBM SNA 
+networking framework.    Providing solutions that enable the 
+integration of SNA with IP is an example of this approach. 
+While IBM does a very credible job of supporting its existing 
+customer base, the challenge lies in extending its reach to non-IBM-
+centric networks.    The company recognizes that most networks 
+today will be heterogeneous rather than homogeneous, a step long in 
+coming.    It has moderated its zeal for ATM as the only migration 
+path for upgrading and embraced Ethernet, Fast Ethernet and 
+Gigabit Ethernet along with High-speed Token Ring.    This shift has 
+led to an expanded product portfolio that can meet the needs of 
+network managers who do not wish to move to ATM, giving IBM a 
+more competitive position. 
+33
+Networking Practice Summary 
+Aberdeen Group 
+Intel Corporation
+2200 Mission College Boulevard
+Santa Clara, CA      95052
+408-765-8080
+www.intel.com 
+Market Strategy and Position
+A preeminent powerhouse of the information industry, Intel is best 
+known for, and has the dominant market position in, 
+microprocessors for PCs and servers.    The company's Network 
+Products Division is now developing an Intel presence in the 
+networking market.    Targeting consumers, SOHO (small office, home 
+office), and branch offices of small to medium businesses, Intel offers 
+a line of network interface cards, hubs, and switches.    The company 
+is second only to 3Com in network interface card sales and has 
+leveraged its strengths in volume manufacturing and distribution to 
+gain market share.    To date, however, it has made fewer inroads into 
+the hub and switch market.    Intel will continue use to its existing 
+channels to sell its networking products. 
+Aberdeen Conclusions
+Intel's stated goal in all it does is to increase the need for processing 
+power, and that is its main motivation for entering the networking 
+arena.    Its sheer size in the industry makes it a force with which 
+established networking suppliers must contend, at least at the low 
+end of the market.    It has provided 3Com with credible competition 
+in the network interface card market, and has helped push 10/100 
+pricing to new lows. 
+Intel’s silicon expertise, brand equity, extensive resources, efficient 
+manufacturing, and established distribution channels are all 
+competitive advantages.    However, Intel will face some major 
+challenges moving forward.    The company's late entry into the 
+networking market is an impediment, especially when they face the 
+entrenched networking suppliers.    Its recent move to extend and 
+solidify its channel relationships by tying its various separate 
+programs into one cohesive certification program should help 
+overcome channel weaknesses and the perception that Intel is not a 
+serious networking player. 
+34
+Networking Practice Summary 
+Aberdeen Group 
+Lucent Technologies 
+600-700 Mountain Avenue
+Murray Hill, NJ    07974
+888-584-6366 
+www.lucent.com
+Market Position
+Lucent is a leading telecommunications equipment supplier to the 
+largest global telecommunications service providers.    Data 
+networking currently accounts for approximately 40% of the 
+company's $26.4 billion revenue. Lucent has recently committed $5 
+billion to fund an aggressive strategy to enter the data networking 
+arena.    Building on the strategic relationship it forged with Bay 
+Networks, Lucent has acquired Agile Networks (LAN switching), 
+Prominet Corporation (Gigabit Ethernet routing switches), and 
+Livingston (remote access concentrators), as well as recently 
+announcing its intention to acquire WAN ATM switching supplier 
+Yurie for $1 billion.    Lucent will continue to build its Enterprise 
+Data Networks group and solution set through acquisition. 
+Aberdeen Conclusions
+Lucent has good potential to be an extremely significant player in 
+the data networking industry.    It brings the resources, brand equity, 
+account coverage/distribution network and management expertise to 
+be a major contender.    Lucent's reputation and expertise will play 
+well with ISPs and CLECs, a major customer segment.    Its Net Care 
+management and support program will prove extremely attractive to 
+enterprise users.
+The downside risks for Lucent include the fact that it is not yet 
+perceived as a major data networking company.    Its strength lies in 
+selling to telecom managers, and network managers are often in 
+different departments.    Furthermore, they may have no prior 
+experience with Lucent.    Customers will need to see a long term 
+commitment to the data networking business from Lucent before 
+they are willing to change vendors.
+FORE Systems
+1000 FORE Drive
+Warrendale, PA 15086
+35
+Networking Practice Summary 
+Aberdeen Group 
+412-742-4444
+www.fore.com
+Market Position
+A leading provider of ATM communications solutions to enterprises 
+and service providers, FORE Systems holds the largest installed base 
+of ATM LAN solutions today and plays an ongoing role in the 
+definition of ATM standards.    Its fiscal 1998 revenues topped $495 
+million.    The company has recently embarked on a corporate 
+awareness campaign that is designed to attract the attention of 
+business decision-makers as well as network managers.    The focus is 
+on the increased capacity, scalability and flexibility provided by 
+FORE's ATM "Networks of Steel." 
+The company has established a very strong distribution channel to 
+augment its direct sales.    It has strategic OEM partnerships with 
+major suppliers such as Nortel and Cabletron, and service providers 
+such as Sprint, GTE, Southwestern Bell, Bell Atlantic and Ameritech. 
+FORE has collaborated with Hewlett-Packard to jointly develop ATM 
+solutions that provide switched integration of ATM and Ethernet 
+environments.    Additionally, FORE has signed strategic partnerships 
+with PictureTel, a videoconferencing company, and Sphere 
+Communications, a computer telephony integration firm.
+Aberdeen Conclusions
+FORE’s focus on ATM products is both its greatest strength and 
+greatest weakness.    This singularity of focus has enabled FORE to 
+lead in ATM LAN solutions.    However, it has proved a weakness 
+because the company did not have a sufficiently broad product line 
+that could compensate when slowdowns in the ATM market 
+occurred. 
+FORE's investment in marketing appears to be paying off.    The 
+company experienced strong growth in its fourth quarter of FY 1998, 
+with net profits up 238%.    The arrival of Gigabit Ethernet on the 
+scene does, however, offer an alternative to ATM in the network 
+backbone and may stall the adoption of ATM in Ethernet-based 
+networks, negatively affecting FORE's ability to sustain its current 
+growth rate.    What will help FORE is the increasing demand for 
+networks that can deliver true quality of service — something that 
+only ATM can currently provide. 
+36
+Networking Practice Summary 
+Aberdeen Group 
+Xylan
+26707 West Agoura Road
+Calabasas, CA 91302
+818-880-3500
+www.xylan.com
+Market Strategy and Position
+Xylan is a middle tier player in the networking industry with $211 
+million in revenue.    A switching supplier, Xylan differentiates its 
+routing switch solutions by their support for a large number of 
+media types (interfaces) including: Ethernet, ATM, Token Ring FDDI, 
+Frame Relay, ISDN and voice circuits.    Xylan has also has built 
+intelligence for quality of service and policy based management into 
+its solutions.    This flexibility lets Xylan switches integrate with an 
+extremely broad range of legacy networks.
+Xylan has over 700,000 switch ports installed worldwide and serves 
+large corporations, universities, government and 
+telecommunications service providers.    The company gaining 
+market share and last year was the fastest growing publicly-held 
+networking company, growing 64% to the rest of the industry's 10%. 
+Xylan has a well developed channel program, and has relationships 
+with IBM, Alcatel, Anixter, Checkpoint, LSI Logic, Sun Microsystems, 
+and Unisys.
+Aberdeen Conclusions
+Xylan is one of the dark horses of the industry and has the potential 
+to become a major switching supplier.    The company is growing 
+faster than the industry average, and has reliable product and a good 
+reputation for service.    However, it faces many challenges as it 
+competes with both the established players, who have large installed 
+bases and extensive account coverage, and the aggressive startups, 
+whose solutions are loaded with features at very competitive prices. 
+Xylan must continue to provide quality and service, and aggressive 
+price performance.    Xylan’s biggest challenge is winning better 
+market visibility and mind share.
+37
+Networking Practice Summary 
+Aberdeen Group 
+Alteon Networks
+6531 San Ignacio Avenue
+San Jose, CA 95119
+408-360-5500
+www.alteon.com
+Market Position
+Founded in1996, Alteon focuses on applying high speed (100 Mbps 
+and Gigabit) Ethernet technology to maximize server performance 
+by offloading network traffic processing from servers, returning 
+cycles to the server for other applications.    Its solutions include 
+Gigabit Ethernet adapters, server switches, and load balancing 
+software.    Alteon’s solutions are powerful and will “bind” up to 
+400,000 sessions per second to a server — which is about 500 times 
+the capacity of server based products.    Alteon further differentiates 
+its products by supporting jumbo frames for higher throughput and 
+redirecting traffic to a local cache when appropriate.
+The company has received a total of $22 million in two rounds of 
+venture financing.    It has approximately 75 end user customers, 
+most of whom are ISPs.    Alteon also has OEM relationships with Sun 
+Microsystems, NEC, and    Silicon Graphics, as well as reseller 
+agreements in Europe, and Asia.    The company is currently shipping 
+product, and has shipped 7,500 Gigabit Ethernet ports to date. 
+Aberdeen Conclusions
+Aberdeen believes that Alteon has put together a combination that 
+has a good chance of succeeding.    It has identified a definite market 
+need: extending the life of servers.    Alteon’s solution is quite 
+powerful, and will “bind” up to 400,000 sessions per second to a 
+server — which is about 500 times the capacity of server based 
+products.    The company    has done a credible job in developing its 
+channel alliances.      Alteon’s downside risks are that its solution 
+requires Alteon NICs in order to work, it balances traffic based only 
+on the number of TCP sessions and not more sophisticated measures, 
+and it faces stiff competition from companies such as IBM, Cisco, 
+Foundry, and Bright Tiger.
+38
+Networking Practice Summary 
+Aberdeen Group 
+Extreme Networks
+10460 Bandley Drive
+Cupertino, CA 95014
+408-342-0999
+www.extremenetworks.com
+Market Strategy and Position
+Extreme Networks, a Gigabit Ethernet startup, was founded in 1996, 
+and sells a line of Gigabit switches called “Summit”.    The Summit 
+switches have a rich set of features including:    non blocking switch 
+fabric that can switch about 10 million packets per second, Layer 3 
+switching capability, quality of service support, and server load 
+balancing (on recent releases).    The company is targeting high-end 
+enterprise backbones and web hosting servers for their solutions as 
+well as service providers who require access routers.    Extreme has 
+developed a global distribution network, with 16 channel partners 
+across Europe and Asia - Pacific.    The company also is developing an 
+OEM channel.    Compaq has recently announced that it will OEM 
+Extreme’s Summit 4 switch. 
+Aberdeen Conclusions
+Extreme is worth watching.    It was one of the earlier companies to 
+bring a Gigabit switch to market.    Its price/performance is 
+aggressive.    In addition, its OEM relationship with Compaq could 
+provide it with the distribution muscle that it lacks and enable it to 
+reach a critical mass.    However, Extreme also faces an increasingly 
+crowded field of and established players such as Bay, 3Com, 
+Cabletron and Cisco.    These incumbents will be difficult to displace 
+in the enterprise market. 
+Foundry Networks
+680 West Maude Avenue, Suite 3
+Sunnyvale, CA    94086
+408-731-3800
+www.foundrynet.com
+Market Strategy and Position
+Foundry is a leader in the Gigabit Ethernet market.    It was founded 
+in 1996, and shipped its first Gigabit Ethernet product in Q3 1997.    
+Its solutions range from Layer 2 workgroup switches to high-end 
+routing switches that run at speeds from 10 million to 50 million 
+39
+Networking Practice Summary 
+Aberdeen Group 
+packets per second. Its solutions provide many features, including 
+quality of service, load balancing, and policy based management.    
+Foundry is targeting workgoups, campus backbones, enterprise 
+backbones, and ISPs access points.
+The company made its initial market penetration in Japan, where it 
+continues to gain market share. New products are launched in Japan 
+before the U.S.    The company uses a direct sales force and focuses 
+on Global 1000 enterprises and ISPs, as well as several key vertical 
+industries, and now has 120 accounts worldwide.
+Aberdeen Conclusions
+Foundry has proved that it can develop and ship leading edge 
+products in very short time windows.    It has the following positives: 
+a feature-rich product that delivers two orders of magnitude 
+increase in price/performance over software routers, a mature 
+product line now in its second generation and a growing installed 
+base.    However, the competition is heating up rapidly, and Foundry 
+must now compete with the major suppliers, all of whom have or 
+will soon ship competing solutions, as well as other multilayer 
+switching start-ups.    Large, established    suppliers will compete on 
+service and reliability; the startups on features, price-performance 
+and time to market. 
+Torrent Networking Technologies
+2221 Broadbirch Drive, Suite A
+Silver Spring, MD 20904
+301-625-1600
+www.torrentnet.com
+Market Position
+Torrent is a high speed routing switch company that was founded in 
+1996.    The company began shipping product in April 1998.    It is one 
+of the few startups that will have shipped a product before going into 
+its second round of funding.    Torrent’s IP9000 switching router has 
+20 million packet per second throughput, delivering full routing 
+functions at wire speed.    Its architecture includes Internet class 
+routing tables and "per flow queuing" that provides quality of 
+service guarantees for individual flows.    Torrent's strategy is to 
+provide ISPs with carrier class performance at affordable prices — 
+targeting Internet aggregation points (local access routers), and web 
+hosting servers.    It is also targeting high end enterprise 
+40
+Networking Practice Summary 
+Aberdeen Group 
+Intranet/Extranet backbones that have similar load characteristics to 
+an ISP point of presence.
+Aberdeen Conclusions
+Torrent has a developed a contending product, and is targeting a 
+specific and substantive market opportunity.    It has built a high 
+performance product at competitive prices — offering a 10x 
+difference in price/performance over the traditional software router. 
+In addition, Torrent is not challenging Cisco head-on, but is going 
+after the part of the market where Cisco’s product line is not 
+particularly price/performance- competitive.    The company has 
+already built a sales pipeline and has pre-sold several of its products 
+to ISPs, with whom it has an excellent audience because of 
+congestion problems on their networks.    However, Torrent is not the 
+first to market with a Gigabit scaled routing switch.    Its products do 
+not have a long track record, and it faces fierce competition from 
+Cisco, who will use its market presence to protect its customer base. 
+41
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | networ~1-96462b |
+| title | Networking: 1998 Practice Summary |
+| author | Aberdeen Group |
+| date | 1998-05-01 |
+| type | other-research |
+| subject_domain | networking |
+| methodology | industry-analysis |
+| source_file | NETWOR~1.DOC |
+| license |  hubs |
+
+### Abstract
+
+Aberdeen Group's 1998 practice summary covering the enterprise networking market — including LAN/WAN technologies
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** |  routers |  switches |
+| **Relevance** |  and high-speed networking. The report profiles major networking suppliers including Cisco |  3Com |
+| **Prescience** |  Bay Networks |  and Cabletron |
+
+### Prescience Detail
+
+
+**Prediction 1:** Router displacement by routing switches
+- **Claimed:** Routing switches replacing routers in enterprise LAN core; ~10x capacity at ~1/10 cost
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Router displacement by routing switches
+- **Result:** [DEFERRED]
+- **Confidence:** medium
+- **Notes:** Verify actual adoption rates by 2000-2002.
+
+**Prediction 2:** Gigabit Ethernet vs. ATM preference
+- **Claimed:** Gigabit Ethernet is attractive alternative to ATM for Ethernet backbone users; ATM not accepted end-to-end
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 3:** VPN as WAN alternative
+- **Claimed:** VPNs using tunneling/security protocols turn public Internet into private WAN at fraction of private line costs
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 4:** Hub market trajectory
+- **Claimed:** Workgroup switch prices dropped; switches replacing hubs; hubs survive as low-end SOHO/SME product
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 5:** Voice/data convergence timeline
+- **Claimed:** Converged networks (voice/video/data) will not become widespread for several more years due to quality/uncertainty
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 6:** Optical networking (DWDM) potential
+- **Claimed:** DWDM enables up to 1 terabit on single fiber; will remove WAN bottleneck; stimulate enterprise bandwidth demand
+- **Year:** 1998
+- **Confidence at time:** medium
+
+
+### Entities Referenced (16)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| Cisco Systems | company | active |  |
+| 3Com Corporation | company | acquired | HP (2010) |
+| Bay Networks | company | acquired | Nortel Networks (1998) |
+| Cabletron Systems | company | [DEFERRED] | [DEFERRED] |
+| Compaq Computer Corporation | company | acquired | HP (2002) |
+| Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
+| International Business Machines Corporation | company | active |  |
+| Intel Corporation | company | active |  |
+| Lucent Technologies | company | acquired | Alcatel-Lucent (2006) |
+| FORE Systems | company | acquired | GEC Marconi/Marconi (1999) |
+| Xylan Corporation | company | acquired | Alcatel (1999) |
+| Alteon Networks | company | acquired | Nortel Networks (2000) |
+| Extreme Networks | company | active |  |
+| Foundry Networks | company | acquired | Brocade (2008) |
+| Torrent Networking Technologies | company | [DEFERRED] | [DEFERRED] |
+
+### Technologies Referenced (13)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Ethernet (10 Mbps) | protocol | IEEE | mature | legacy |
+| Fast Ethernet (100 Mbps) | protocol | IEEE | emerging | legacy |
+| Gigabit Ethernet (1 Gbps) | protocol | IEEE | emerging | legacy |
+| Asynchronous Transfer Mode (ATM) | protocol | ITU/ATM Forum | mature | legacy |
+| Token Ring | protocol | IBM/IEEE | declining | obsolete |
+| Fibre Channel | protocol | ANSI | emerging | active |
+| Frame Relay | protocol | Various | mature | legacy |
+| Virtual Private Networks (VPN) | application | Various | emerging | dominant |
+| xDSL (Digital Subscriber Line) | protocol | Various | emerging | declining |
+| IEEE 802.11 Wireless LAN | protocol | IEEE | emerging | dominant |
+| Layer 3 Switching (Routing Switches) | platform | Various | emerging | legacy |
+| Novell Directory Services (NDS) | application | Novell | mature | legacy |
+| Microsoft Active Directory | application | Microsoft | pre-release | dominant |
+
+### Observation Summary
+
+- Total observations: 23
+- By type: market-assessment: 11, viability-prediction: 6, competitive-assessment: 5, actual-outcome: 1

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Enterprise Resource Planning: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 ERP market practice summary covering the worldwide ERP software market at $17.7 billion, dominated by SAP (33%), Oracle (10%), J.D. Edwards (7%), PeopleSoft (6%), and Baan (5%). The report introduces Aberdeen's Infinite Resource Planning (IRP) model as the next evolution beyond ERP, driven by three convergent technologies: object orientation, network-centric architectures, and the Internet. Supplier profiles cover Baan, IMI, i2 Technologies, Infinium, J.D. Edwards, Lawson Software, Marcam Solutions, Oracle, PeopleSoft, SAP, and QAD, with Aberdeen assessments of each vendor's competitive position and trajectory.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

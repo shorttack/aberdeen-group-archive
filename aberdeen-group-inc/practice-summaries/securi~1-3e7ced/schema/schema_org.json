@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Information Security: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 overview of the enterprise information security market, sizing it at $4.285 billion in 1997 with a projected 24% CAGR to $10 billion by 2000. The report maps the security landscape into access-control and risk-management categories, identifies fragmentation and non-interoperability as the dominant pain points, and forecasts consolidation, the rise of VPNs, and the commoditization of standalone firewalls. Supplier profiles cover 14 vendors including Check Point, Axent, Network Associates, IBM, and VeriSign.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

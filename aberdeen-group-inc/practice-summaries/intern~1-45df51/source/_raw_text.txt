@@ -1,0 +1,1329 @@
+AberdeenGro
+up
+Internet
+Infrastructures:
+1998 
+Practice 
+Summary
+May 1998
+Aberdeen Group, Inc.
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+One Boston Place
+Boston, Massachusetts 02108 
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+2
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Aberdeen Group, Inc.
+Aberdeen Group is a Boston-based, computer and 
+communications consulting and market-research 
+organization.
+Aberdeen Group performs specific projects for a select 
+group of domestic and international clients.    Each requires 
+a combination of strategic advice and pragmatic, 
+experience-based action plans.    Assignments range from 
+corporate and product positioning and organizational 
+planning to in-depth market segment research.    Aberdeen 
+consults on mergers and acquisitions, corporate positioning 
+and investor relations, transaction-processing benchmarks, 
+and has special expertise in software and midrange    
+computer markets.
+In carrying out assignments, Aberdeen uses a proprietary, 
+comprehensive, analytical framework providing fresh 
+insight into the complex future of computing and 
+communications, both from a technological and a market- 
+dynamics perspective.    Aberdeen also offers retainer-fee 
+programs to a group of continuing clients.
+Aberdeen principals and staff are recognized industry 
+figures with hundreds of years of combined high-tech 
+industry, research and financial community experience 
+among them.    They are quoted extensively in industry trade 
+and business publications.    Each is a frequent conference 
+and seminar speaker.
+In addition to client-related research and consulting, 
+Aberdeen publishes several periodicals, Aberdeen 
+Viewpoints and Profiles, which summarize its analysis and 
+research findings.
+Information contained in this publication has been obtained from 
+sources we believe to be reliable, but is not warranted by us.    Opinions 
+reflect judgment at the time and are subject to change without notice.
+3
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+The trademarks and registered trademarks of the corporations 
+mentioned in this publication are the property of their respective 
+holders.
+Warning:    This publication is protected by United States copyright law 
+and international treaties.    Unless otherwise noted, the entire contents 
+of this publication are copyrighted by Aberdeen Group, Inc., and may not 
+be reproduced, stored in a retrieval system, or transmitted in any form 
+or by any means without prior written consent.    Unauthorized 
+reproduction or distribution of this publication, or any portion of it, may 
+result in severe civil and criminal penalties, and will be prosecuted to the 
+maximum extent necessary to protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+4
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+TABLE OF CONTENTS
+INTERNET ARCHITECTURES PRACTICE 
+V
+Strategic Market Questions
+v
+Audience for This Report
+vi
+EXECUTIVE SUMMARY
+7
+Key Findings
+8
+SUMMARY OF FINDINGS
+11
+Key Aberdeen Findings
+11
+THE INTERNET INFRASTRUCTURE DEFINED
+15
+How the Internet Infrastructure Fits into Network Services
+15
+Core Internet Infrastructure Components
+15
+Application Development Environment
+15
+Application Runtime Environment
+16
+Service Middleware
+16
+ISP Services
+16
+How a Functioning/Integrated System Works
+17
+The Advantages of an Integrated Solution
+17
+ISSUES AND CHALLENGES
+19
+Impact of Major IT Trends
+19
+Supplier Success Factors
+20
+User Success Factors
+20
+SUPPLIER ABSTRACTS
+23
+Borland International Inc.
+23
+5
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Hewlett-Packard Company
+24
+IBM Corporation
+24
+Microsoft Corporation
+26
+Netscape Communications Corporation.
+27
+Aberdeen Conclusion
+28
+Novell, Inc.
+28
+Oracle Corporation
+28
+Sun Microsystems Computer Company
+29
+Sybase, Inc.
+30
+6
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Preface
+Internet Infrastructure Practice
+Description, Focus and Benefits
+The Internet Infrastructure practice focuses on the infrastructure 
+needed to achieve robust, scaleable Internet implementations such 
+as Intranets and Extranets.    It particularly focuses on the 
+"frameworks" (developer APIs and class libraries) and supporting 
+software on Internet clients, application servers, and back-end 
+database servers.    Thus, the Internet Architectures practice 
+examines the application of development, middleware, groupware, 
+database, network, browser, Web server, Web application server, 
+and systems management software to the job of supporting and 
+scaling Internet applications.
+Internet architectures are at a critical point in their evolution.    
+Frameworks are proliferating, but are not widely adopted by 
+independent software developers; the necessary infrastructure is 
+being created, but few if any have been able to use it effectively to 
+handle the most overloaded Web sites and scale them cost-
+effectively; and the first bloom is off Java’s rose.    In this situation, 
+Aberdeen emphasizes assessments of third-party suppliers’ ability 
+to provide fully integrated Web architecture products and services, 
+and to include all the necessary components to adequately scale.
+The Internet Architectures practice is the cutting edge of the 
+Network Services area.    Because the Internet is key to most major 
+supplier and IS strategies today, and because Internet technology is 
+moving so fast, Internet architectures are now the proving ground 
+of network services.
+Strategic Market Questions
+
+Do frameworks matter? Whose framework will win out – 
+Microsoft, Oracle, or a collection of suppliers? 
+
+When will Java be ready for prime time? 
+
+What middleware technologies do users really need – ORBs, 
+push technology, HTTP servers, JavaServers, DCOM and/or 
+IIOP? 
+7
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+
+What pragmatic approaches can be taken to integrate 
+current systems, including custom applications, electronic 
+mail, and databases, into the new Internet Infrastructure? 
+
+What is the best combination of local and backend software 
+and hardware systems needed to support both immediate 
+multimedia development needs and long-term scalability 
+requirements? 
+
+How can solutions be designed that make the browser wars 
+irrelevant? 
+
+How should users employ systems management solutions to 
+turn early Web-site chaos into a long-term, maintainable 
+Intranet or Extranet?
+Audience for This Report
+This practice summary is aimed at key IS decision makers facing 
+Internet acquisition and deployment decisions, as well as 
+suppliers making Internet product-development investment 
+choices.    For IS, the summary focuses on helping these IS 
+buyers evaluate and select development and deployment 
+environments and standards to create an effective Internet 
+Infrastructure.    For suppliers, this practice summary identifies 
+how the Internet is changing the market for the services that 
+make up the Internet Infrastructure, including directories, mail, 
+application runtime environments, groupware, and security.
+8
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Chapter One
+Executive Summary
+Internet Infrastructure is comprised of several computing and 
+communications services that enable distributed computing 
+outside the corporate firewall.    While current Network Operating 
+Systems, such as NDS from Novell and NT from Microsoft, provide 
+excellent services in a homogenous environment, the translators 
+and gateways they use to integrate to the Internet decrease 
+function, performance and reliability.    These Network Operating 
+Systems, recognizing the need to integrate with the Internet, have 
+begun to adopt some core Internet services, but are likely to always 
+be a few steps behind.    Therefore, users are beginning to develop a 
+wider array of infrastructure functions to carry out their Internet 
+tasks:    an Internet Infrastructure.
+Because many companies have discovered the value of Internet 
+connectivity, Internet services, based on industry and de-facto 
+standards, already represent a significant component of most 
+enterprises’ current computing infrastructure, and Aberdeen 
+research indicates that this penetration will accelerate.    
+Companies will become ever more reliant on the Internet as they 
+try to become more sensitive to customer needs, to eliminate 
+inefficiencies in the supply side infrastructure, to mine wider 
+sources of information to gain better intelligence on operations, 
+and to begin to outsource (and thereby deal with remotely) services 
+and organizations that provide no core differentiation to the 
+business.
+These business changes are being implemented by leading-edge 
+companies today.    These companies are finding that the necessary 
+new applications and capabilities must be implemented on an 
+Internet-connected computing infrastructure — an Internet 
+Infrastructure — that supports mission-critical operations.    
+Unfortunately, today’s typical Internet infrastructure is based on 
+technologies that are both immature and rapidly evolving, a 
+combination not conducive to enterprise computing.    Therefore, 
+the aim of the Internet Infrastructure practice, and of this practice 
+summary, is to explain when, where, and how an Internet 
+Infrastructure can be effectively applied to current business 
+initiatives, and to study the Internet Infrastructure’s component 
+9
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+services, the networking and systems needed to support them, and 
+their implementation in real life.
+Key Findings
+·
+The applicability of the Internet Infrastructure to large scale 
+computing problems has been broadened significantly with the 
+recent addition of CORBA and Java.    These network-based 
+standards for object-oriented computing have fundamentally 
+changed the industry, and will impact both business 
+relationships and software development and deployment.    To 
+understand how widespread this impact has been and how 
+much greater it will be, consider the fact that Internet standards 
+were once limited to supporting only specific data types (SMTP 
+supported e-mail, NNTP supported News Groups, and HTTP 
+supported HTML).    All of these protocols can now transport any 
+data type, including distributed objects based on Java, because 
+they have adopted the MIME distributed-object e-mail standard.
+·
+The introduction of Java by Sun Microsystems has increased 
+application portability, a capability that has captured the 
+imagination of the trade press and programmers everywhere.    
+Perhaps less well understood is that Java can also reduce the 
+need for applications to agree on data formats and types before 
+communicating, a major limitation of all other protocols in the 
+past.    This is possible because with Java the entire object is 
+sent, and the object incorporates not just the data but the 
+application that can properly access that data and expose it to 
+the user or to other applications.    In other words, Java on the 
+Internet can be a major aid to application interoperability 
+across and beyond the enterprise, a vital tool in such enterprise 
+efforts as extra-enterprise Infinite Resource Planning (IRP) and 
+Enterprise Application Integration.
+·
+CORBA provides a standard set of computing services and data 
+mappings that enable different computing environments to 
+communicate.    Using CORBA services, two Java applications, in 
+different computing environments, can effectively 
+communicate.    Using CORBA data mappings, two applications 
+written in different programming    languages, executing in 
+different operating environments, can still interoperate.    Thus, 
+CORBA can extend Java’s capabilities in application 
+interoperability to include legacy and disparate platforms.
+10
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+·
+Aberdeen calls the application development and deployment 
+environment that adheres to all of the above technologies 
+Internet Object Computing or IOC.    The feature that most 
+separates the IOC from any other environment is that, while it 
+can exist in a closed environment, it is most relevant when 
+implemented in the public network.    Today, business has come 
+to depend on ISP’s adoption and support for Internet mail 
+(SMTP), Internet Directory (DNS), and other standards based 
+services.    These services will rapidly expand to include other 
+IOC services, including Public Certificates, LDAP, and Private 
+Virtual Networking.    As the services become more pervasive 
+and trusted, business will move from bi-lateral agreements 
+using a single agreed upon network provider, to Internet Object 
+Computing.
+·
+Implementing such distributed-computing capabilities across 
+corporate boundaries, and within the public domain, will 
+require IS to rethink completely the enterprise’s business 
+relationships and Internet infrastructure.    Deploying solutions 
+using proprietary protocols can increase security and reliability, 
+but greatly diminishes the audience, increases the deployment 
+cost, and often unwittingly establishes closed user groups.    To 
+remain competitive, companies will need to adopt a 
+public/extra-enterprise Internet Infrastructure wherever 
+possible.
+·
+Microsoft has developed a competing model for Extranet 
+computing called Distributed InterNet Computing (DNA).    This 
+architecture is based on the Microsoft COM+ object 
+implementation which is implemented in the NT Operating 
+System.    The objective of DNA is to implement relevant COM+ 
+services on multiple platforms, and this has already begun as 
+can be seen in the chart presented in Chapter 5.    The key 
+differentiating factor between these competing architectures is 
+that while COM+ can expose an application from any 
+environment to another, as long as that environment supports 
+COM+, it can not intended to make applications portable across 
+different systems.    This is a unique attribute of Java, and is the 
+attribute Microsoft currently refuses to adopt.    In the Microsoft 
+world, applications are wed to a platform, and exposed across 
+the network to other environments.    CORBA accomplishes this 
+in the IOC world, while Java also enables program portability.
+·
+The stakes for users in choosing an Internet Infrastructure are 
+high.    The rapid pace of technology introduction and 
+11
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+maturation (e.g., Java) makes assessing which technologies are 
+“ready for deployment” a difficult exercise, and the price of a 
+wrong decision can be unreliable applications and networks, if 
+the user gets too far out in front, and falling behind the 
+competition, if the user plays it too safe.    Since applications 
+take months to develop and test, making the right decision 
+requires making large assumptions regarding technology 
+stability and adoption rates. 
+·
+The stakes for suppliers are just as high.    Knowing which 
+protocols and standards to implement today, which to invest in 
+for tomorrow, and which to promote to gain a competitive 
+advantage, can make the difference between supplier success 
+and failure. 
+·
+The Internet Infrastructure market continues to be 
+exceptionally volatile.    It is seeing unprecedented market 
+upheaval, fast-changing supplier alliances, venomous supplier 
+animosity and lawsuits, user-inspired lobbies with exceptional 
+power, government anti-trust investigations, and incredible 
+market-development efforts by all the computer manufacturers. 
+This mix of passion and incredible capital investment will 
+continue to make rational decision-making difficult, even 
+though the stakes are now higher than ever before.
+·
+Internet Infrastructure suppliers have limited interest in true 
+interoperability or portability as they focus their energies on 
+differentiating their products via scalability and reliability.    IS 
+managers, comfortable with selection criteria weighted in favor 
+of reliability over ubiquity, are falling into these traditional 
+supplier proprietary traps, with the partial exception of the Java 
+market.    Suppliers are also wasting energy developing new, 
+complex technologies that offer only limited end-user benefits 
+beyond those already addressed by e-mail and are therefore 
+rejected by empowered consumer-market end users.    For 
+example, consumers are driving the market’s rejection of push 
+and publish/subscribe.
+12
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Chapter Two
+Summary of Findings
+By its nature, the Internet Infrastructure practice covers a wide range 
+of technologies.    It studies how these technologies are combined to 
+create an open computing infrastructure, and how suppliers and IS 
+organizations adopt and utilize these technologies.    Figure 1 provides 
+a graphical representation of a runtime environment based on 
+standards that adheres to the Internet Object Computing Framework 
+infrastructure.
+Figure 1: Internet Object Computing Framework
+Services
+  JVM
+Mail
+Security
+HTTP
+Directory
+Database & 
+Transactions
+Object Request
+Broker
+Apps
+Apps
+Apps
+Mail
+Security
+Database
+Directory
+Web 
+Transactions
+Standard Services
+SERVER
+Source:    AberdeenGroup, April 1998
+Key Aberdeen Findings
+1. Vendors, focused on making development and 
+deployment environments scaleable and reliable, have 
+done so to the detriment of interoperability and 
+portability.    Traditional IS managers, comfortable with 
+selection criteria weighted in favor of reliability over 
+13
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+ubiquity, are falling into these traditional supplier 
+proprietary traps.
+2. The overall market size for Java will be significant, 
+although its overall market share can not yet be predicted 
+because of the market bifurcation caused by Microsoft’s 
+adoption of its own alternative approach.
+3. Despite the ubiquitous presence of e-mail, suppliers and 
+developers have consistently underestimated the market 
+appeal of this messaging technology in favor of more 
+technically complex, and less end-user friendly solutions 
+such as push and publish/subscribe technology.
+4. Directories will be the core of the public infrastructure 
+and will permeate into the corporate infrastructure as 
+well.    Most if not all proprietary directories are headed 
+for extinction, as the Internet standard that defines 
+Directory access and the directory schema, called LDAP, 
+becomes entrenched.    Even the proprietary directories 
+that purport to be LDAP capable will eventually need to 
+actually become interchangeable with any LDAP 
+compliant implementation.    The Internet directory will 
+provide the infrastructure for security and management 
+of application platforms, and for maintaining 
+organizational roles and hierarchy.    Database and 
+Enterprise Resource Planning providers (e.g., PeopleSoft, 
+SAP, and Baan) that don’t come to grips with this new role 
+for the directory are at risk of losing their current market 
+leadership positions.
+5. While suppliers offer environments that incorporate all of 
+the services that combined make up the Internet 
+Infrastructure, in most instances companies have already 
+implemented some of the services using older proprietary 
+technology, and therefore must find a mechanism to 
+either establish a gateway to the Internet, or discover a 
+cost-effective method to migrate to an Internet standard. 
+This corporate need has established a healthy market for 
+gateway products and for systems integrators.
+6. Aberdeen research indicates that the role of Internet 
+outsourcers will increase substantially over the next 5 
+years.    When confronted with the need to implement 
+migration from a proprietary mail or directory system to 
+one based on standards, users find that the costs in 
+software and hardware are insignificant compared to the 
+14
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+cost of hiring experts in the field for the design, 
+administration and maintenance of the service.    The 
+Internet itself offers a mechanism to outsource all aspects 
+of these services.
+7. Enterprise Java Beans (EJB) and COM+ (also called 
+Distributed COM, or DCOM by Microsoft marketing) are 
+the two viable cores of an Internet Infrastructure that IS 
+can adopt.    While the EJB environment is extremely 
+immature, a rare supplier alliance has been established to 
+share technology and resources to firm up this 
+environment.    Still, Microsoft has a large installed base of 
+COM-based applications, and even though the move to 
+COM+ demands a new approach to programming and the 
+utilization of new services only just being introduced into 
+the NT infrastructure (Message Queue and Transaction 
+Services), the installed base of developers clearly favors 
+Microsoft.
+8. As previously described, supplier alliances around Java 
+and CORBA have been a major influence on the 
+development of an Internet Infrastructure, and despite 
+Microsoft’s rejection of Java-the-environment, Aberdeen 
+is positive that Java’s ability to communicate across 
+boundaries and encapsulate data will lead to its 
+widespread adoption within the Internet Infrastructure.    
+However, Aberdeen finds that Microsoft is not locking 
+itself out of the cross-platform computing marketplace, 
+but will invest whatever is needed to upgrade COM+ to 
+deliver comparable functionality.
+9. Even as the major suppliers partner to advance Java (and 
+at least in some cases to combat Microsoft), there are 
+many needs that will likely be addressed by start-ups.    As 
+an example, no major supplier appears willing to 
+establish the products needed to integrate the Java 
+environment with the Microsoft environment.
+10.Aberdeen research has also demonstrated that porting a 
+current application over to Java is rarely a satisfactory 
+solution.    Since Java is not just a language, but also a 
+communications environment, applications must be 
+rewritten to work effectively within these constraints.
+11.The major computing suppliers have been rushing into 
+the Enterprise JavaBeans (EJB) market with environments 
+15
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+that leverage their proprietary, but proven, computing 
+infrastructures.    While this approach rapidly delivers a 
+robust EJB environment, users should be wary of too-fast 
+delivery of EJB, as it may indicate that the supplier 
+achieved robustness at the expense of standards and 
+interoperability.
+12.Aberdeen research indicates that companies, especially 
+start-ups and leading edge adopters, are pushing the 
+envelope of Internet-Architecture technology to gain a 
+competitive advantage, and to gain market share from 
+competitors.    There are spectacular examples of success 
+(Amazon.com) and failure (Time Inc./Pathfinder).
+13.Three issues prevent broader acceptance of the Internet 
+Infrastructure for deployment of enterprise-class 
+applications:    Security, Trust, and Reliability.    Security 
+and trust are easily resolved in the short term through 
+bilateral arrangements between partners within and 
+outside the enterprise.    This approach avoids the use of 
+the Internet’s infrastructure, replacing it with proprietary 
+protocols instead.    Before these problems can be resolved 
+within the Internet Infrastructure, enterprises must 
+implement directory support for security certificates, the 
+public must gain greater confidence in the current 
+encryption protocols, and a web of trust between end 
+users and organizations must be established.    While the 
+technological issues to accomplish this are not 
+insignificant, they pale in comparison to the problems 
+involved in changing perceptions and confidence.
+14.While both Microsoft and the Java alliance generally 
+support Internet Services, they disagree completely on 
+what environment will execute applications.    The Java 
+alliance expects the runtime to be EJB, implemented on 
+multiple platforms (hardware and OS).    Microsoft expects 
+the runtime to be primarily NT, with NT and COM+ 
+executed on multiple hardware platforms.    This battle 
+between industry giants will fragment the market over 
+the next 1-2 years, making portability and interoperability 
+more difficult to achieve.
+15.As the services of the Internet have expanded upscale to 
+include reliability and expandability, IS costs have 
+increased to the point where they are beginning to match 
+historical costs in the computer industry for these 
+16
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+services.    IS should therefore not expect a “free” 
+enterprise-scale Internet Infrastructure implementation.
+17
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Chapter Three
+The Internet Infrastructure Defined
+How the Internet Infrastructure Fits into Network Services
+Internet Infrastructure is the infrastructure needed to achieve 
+robust, scaleable Internet implementations such as Intranets and 
+Extranets.    It particularly includes “frameworks” (developer APIs 
+and class libraries) and supporting software on Internet clients, 
+application servers, and back-end database servers.    Thus, the 
+Internet Infrastructure includes the application of development, 
+middleware, groupware, database, network, browser, Web server, 
+Web application server, and systems management software to the 
+job of supporting and scaling distributed Internet applications.
+Internet Infrastructures are at a critical point in their evolution.    
+Frameworks are proliferating, but are not widely adopted by ISVs; 
+few if any have been able to use an Internet Infrastructure 
+effectively to handle the most overloaded Web sites and scale them 
+cost-effectively; and the first bloom is off Java’s rose.    In this 
+situation, Aberdeen emphasizes assessments of third-party 
+suppliers’ ability to provide fully integrated Web architecture 
+products and services, and to include all the necessary components 
+to adequately scale.    Our assessments change over time.
+Internet Infrastructures is the cutting edge of the Network Services 
+area.    Because the Internet is key to most major supplier and IS 
+strategies today, and because Internet technology is moving so fast, 
+Internet architectures are now the proving ground of network 
+services.
+Core Internet Infrastructure Components
+There are four key components that comprise the Internet 
+Infrastructure.    These components provide the support needed to 
+build, deploy, and manage enterprise-scale Internet applications 
+(shown in Figure 2):    the Application Development Environment 
+(ADE), the Application Runtime Environment (ARE), the Service 
+Middleware Components (SMC), and the services provided by the 
+Internet Service Provider (ISP), e.g., e-mail.
+18
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Application Development Environment
+The ADE is at its core a standard development toolset and 
+framework.    However, the goals of the Internet enterprise-
+application developer have a significant impact on user 
+requirements for the ADE.    The ADE must allow users to distribute 
+(or distributed itself) a developed application to multiple physical 
+locations, on multiple platforms, with the need to interoperate in a 
+secure, trusted, fashion.    If the goal of the developer is to leverage 
+the existing computer infrastructure, including legacy applications, 
+then the ADE should provide facilities to integrate applications 
+based on these fundamentally different environments.
+Application Runtime Environment
+The ARE includes those features that support running a production 
+enterprise-scale Internet application, including Network Operating 
+System, development-toolset runtime facilities, and often the Java 
+environment.    These tend to be bundled in with other products, 
+and are therefore typically straightforward to deploy.
+Service Middleware
+The key technologies of Internet-Architecture middleware are 
+support for distributed objects (e.g., ORB, repository, and 
+application/transaction server).    Beyond this, if the application 
+does not need authentication or encryption, and will only require 
+basic messaging services such as an interface to the HTTP server or 
+to send messages to mail users, then there are few requirements 
+driving the Service Middleware component other than those for 
+any middleware.    On the other hand, if the application must 
+perform authentication, directory lookups, or application-to-
+application messaging to a broad range of remote systems, then the 
+middleware infrastructure will need to be based on open standards 
+and be especially robust.
+ISP Services
+ISP-supplied services include basic network connectivity, e-mail, 
+Web Hosting, and newsgroup support.    Today, implementing 
+distributed applications on an Internet Infrastructure runs into the 
+greatest difficulties (bandwidth, difficulties in pushing the 
+application to the client) when the application must be sent to an 
+end user’s system via an ISP service (e.g., downloading a Java 
+applet).    The ISP’s must work together to enable special Internet 
+services that guarantee end-to-end bandwidth, latency, and 
+availability.    Until that time, developers must try to    minimize 
+bandwidth utilization by limiting the size of the “client download.” 
+19
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+This is accomplished by executing as much of the application as 
+practical on the server, and delivering the results by e-mail or via 
+the Web.
+The Internet Infrastructure is perhaps identified most closely with 
+the battle between Microsoft and those vendors committed to Java, 
+and indeed the solutions brought to market can be segmented into 
+those that are Java-centric, COM-centric, and “straddling the 
+middle”, a more pragmatic approach that Aberdeen research 
+indicates developers appreciate.    Another practical approach to 
+segmenting the Internet Infrastructure market is to look at the 
+vendor solutions relative to the technical areas (ADE, ARE, SME, 
+ISP) the solution integrates.
+How a Functioning/Integrated System Works
+Figure 1 shows how the components of an Internet architecture can fit 
+together to support enterprise-scale applications.
+Figure 2: Components of the Internet Infrastructure 
+Mail
+Security
+HTTP
+Directory
+Database & 
+Transactions
+Object Request
+Broker
+Apps
+Application
+Development
+Environment
+Enterprise Java Beans OR COM+
+Application
+ Runtime Environment
+ISP
+Public Directory
+Certificate Server
+Public Mail Server
+Internet
+Service Middleware
+Source:    AberdeenGroup, April 1998
+20
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+The Advantages of an Integrated Solution
+A business that has embraced the Internet Infrastructure has also 
+fundamentally changed its business model.    Whereas companies 
+were once required to run all aspects of their own business, this 
+creates huge inefficiencies and redundancy.    Figure 3 shows a 
+company before embracing the Internet Business Model, and after. 
+The relatively seamless integration between all of the components 
+would not be possible without the utilization of the Internet 
+Infrastructure.
+Figure 3: The New Business Model of the Internet 
+Infrastructure
+Customers
+Employees
+Channel
+Partners
+   Order Entry
+Manufacturing
+Benefits
+Accounting
+Order Processing
+Customers
+Employees
+Channel
+Partners
+Manufacturing
+Accounting
+Purchasing
+Inventory
+Order Entry
+Benefits
+R&D
+Administration
+Order Processing
+R&D
+Administration
+Typical Business
+Internet Partnered Business
+Source:    AberdeenGroup, April 1998
+The impact of this new business model is profound.    Proper 
+authentication of each user is critical, as is knowledge regarding what 
+role that user has in the organization.    For example, if Aberdeen 
+outsourced employee health benefits to a third part supplier, the 
+following issues must be addressed.    First, every Aberdeen employee 
+must be easily identified as such, and routed directly to the Aberdeen 
+benefits “home page” when connecting to the suppliers system.    Since 
+the data is proprietary to Aberdeen, only Aberdeen employees should 
+be capable of seeing it.    When an employee wants to see their unique 
+21
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+data, again it must be accessible only to them, or their dependents — 
+who may not be Aberdeen employees.    In addition, the Human 
+Resource administrators at Aberdeen need the ability to modify key 
+components of the benefits application.    As roles change within 
+Aberdeen, and as employees come and go, this authentication and 
+access mechanism must remain trusted and manageable.    E-mail 
+communications between all of these participants must also be trusted, 
+secured and authenticated, and easily managed.    These are the issues 
+confronting Public Key infrastructure, and being addressed through 
+LDAP. 
+22
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Chapter Four
+Issues and Challenges
+Impact of Major IT Trends
+The Internet.    The key Internet issues for Internet Infrastructure 
+are improvements in security and robustness.    While the Internet 
+Infrastructure market is growing at a phenomenal rate, it cannot 
+significantly displace proprietary solutions used in the enterprise 
+until the Internet can be trusted.    To address this lack of trust, the 
+Internet must deliver a secure environment and a reliable network 
+connection (end-to-end network service level guarantees).
+The security standards now in place offer a reasonable level of 
+security, but still offer little trust.    This is in part because the 
+public infrastructure has no mutually accepted authority, and in 
+part because Internet security become much more vulnerable 
+when it must be integrated with other versions of security (Unix, 
+NT, file, host, legacy-application, and so on).    While the ISP’s have 
+all made significant investments to provide service level 
+guarantees over their own backbones, they have yet to establish 
+bilateral agreements to extend these guarantees outside their own 
+networks.
+Object-oriented application development.    The Internet is a key 
+driver of object-oriented application development, and vice versa. 
+Because the Internet is exceptionally well suited for distributed 
+objects (multimedia-rich, highly distributed, and with an 
+architecture that calls for small-application download), 
+implementers of Internet applications find that object-oriented 
+development tools fit their needs exceptionally well.    Because 
+object-oriented development tools allow rapid development of 
+distributed complex-data and small-“applet” applications, Internet 
+implementers turn naturally to portable/interoperable object-
+oriented languages and tools such as Java.
+The effect on the Internet Infrastructure has been to place object-
+oriented application development at the forefront of user 
+requirements.    To deliver an application that is not only relatively 
+portable and interoperable but also better able to scale and adapt 
+to new technologies, these development toolsets must incorporate 
+23
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Internet Infrastructure middleware.    Thus, toolset and Internet 
+Infrastructure are increasingly merging.    Aberdeen anticipates 
+that in the next 1-2 years, the notion of a development 
+“framework” (now so popular among major development-tool 
+suppliers) and Internet Infrastructure will look increasingly alike, 
+allowing the user to get the “best of both worlds” (object-oriented 
+rapid-development technology and Internet deployment 
+technology/runtime environment).
+Supplier Success Factors
+16.New suppliers will find it relatively easy to introduce 
+Internet technologies, but should focus on meeting 
+customer expectations for reliability and scalability 
+established by proprietary products, which the new 
+suppliers will find difficult to match.    Proprietary 
+suppliers, to maintain the installed base, should attempt 
+to make the addition of Internet Services as transparent 
+as possible, although this is impossible to achieve 
+completely.    To address this difficulty, some traditional 
+suppliers are introducing entirely new product lines — 
+often a bad move, since it risks losing the installed base.
+17.The Internet has dramatically altered distribution 
+channels, and every company, in every industry, is 
+struggling to adapt.    Successful computer companies will 
+leverage each product as a key point of customer 
+integration, and expand the company’s influence and 
+services through this initial point of entry.    Achieving 
+customer satisfaction and delivering remote service for 
+an expanding set of products will differentiate the new 
+market leaders.    Today, few providers of Internet 
+software have embraced the Internet for sales or service 
+— both represent an incredible oversight. 
+User Success Factors
+18.For users of this technology, the challenge is to decide if a 
+solution is best implemented so as to support the broad 
+Internet audience, while sacrificing some reliability and 
+security, or whether it should be implemented so that it is 
+reliable and secure, while sacrificing some 
+interoperability.    The answer depends on the relative 
+importance to the IS manager of new markets and new 
+24
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+functionality versus the negative impact of Internet 
+problems to the enterprise.    Aberdeen finds that the most 
+successful Internet Infrastructure implementers “trust but 
+verify”:    they dare to tackle leading-edge technologies, 
+but do not implement them without “good enough” initial 
+testing.
+19.IS managers should work closely with Line of Business 
+(LOB) managers to help the LOB manager understand 
+how the Internet can be applied, and to work with the 
+LOB on a 3-year plan.    IS managers should understand 
+that it is far less likely that the enterprise will make wise 
+implementation decisions without LOB appreciation of 
+how the Internet will change the company’s business 
+model and channel model.
+20.Typically the most immediate challenge for IS is to decide 
+whether to rewrite several core applications that appear 
+likely to be central to the Internet application, or to 
+simply re-purpose the applications through a new 
+computing tier located on a Web server, or to “wrap” the 
+current applications in a new object-oriented runtime.    
+Aberdeen research indicates that re-purposing is typically 
+the best approach, as it enables the company to address 
+Year-2000 issues (Does the core application have a 
+Year-2000 problem?    If so, can we combine Year-2000-
+proofing and Internet implementation?) simultaneously 
+with implementing the enterprise’s Internet business 
+model.
+21.Aberdeen research indicates that companies should avoid 
+making the question of Java the central design issue.    
+Java represents a powerful new application-deployment 
+vehicle, but also a new language and object-oriented 
+design methodology to learn.    Therefore, use of Java 
+should be based on the importance of the business.    If a 
+competitive advantage can be garnered through the use of 
+Java, and the risk is manageable, then Java should clearly 
+be used.    Moreover, companies should recognize that 
+Java can be integrated with current applications, and 
+indeed such hybrid solutions will be the rule rather than 
+the exception.    Aberdeen predicts that CORBA will play a 
+large role in this integration, and possible become the 
+lingua franca between different Java environments.    In 
+short, using Java for in-browser forms editing makes 
+25
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+sense to us today, while server-side custom ERP 
+Applications are far more difficult to justify. 
+22.When selecting Internet Infrastructure suppliers, users 
+should look for two critical attributes: 
+23.Does the supplier have in-depth knowledge of the 
+currently installed environment?    Can the vendor 
+prove that interoperability between the installed 
+environment and their Internet Infrastructure is 
+reliable, secure, or even possible?
+24.Does the supplier have credibility in claiming to be 
+able to support all the relevant Internet 
+Infrastructure services that your company expects 
+to use?    Does the vendor have the consulting 
+expertise to bring information on best practices 
+from other implementations to bear on your 
+business problems and opportunities? 
+26
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Chapter Five
+Supplier Abstracts
+Borland International Inc.
+100 Borland Way
+Scotts Valley, CA 95066
+(408) 431-1000
+www.borland.com
+Market Position
+Effective in June 1998, Borland International Inc. will change its 
+name to Inprise, Inc. to forge a new identity for itself.    Inprise will 
+focus heavily on the middleware market, using technologies from 
+several recent acquisitions.    Borland (Inprise) produces solid 
+technology that is much admired and touted by developers, but -- 
+unlike Microsoft -- has a hard time getting credibility in the 
+enterprise. Inprise’s JBuilder Java compiler is well regarded and 
+was recently licensed by Oracle for use as the cornerstone of its 
+own Java efforts.
+Since Borland had difficulty positioning itself as anything but a 
+tools supplier, it felt that the name change, in conjunction with the 
+acquisition of Visigenic, would help it establish a defensible 
+position in the Internet Object Computing marketplace.    
+Technically, this appears feasible.    Visigenic is a widely adopted, 
+although not particularly profitable, Object Request Broker 
+adopted by such leading vendors as Netscape, Sun, IBM, and 
+Oracle.    Combined with its leading edge Java development and 
+runtime environment, JBuilder, Inprise appears to have a good 
+start.
+Aberdeen Conclusions
+Inprise delivers excellent technology, but continues to struggle in 
+its efforts to find a consistent message and marketing strategy.    
+Inprise has many strategic relationships, especially through the 
+Visigenic offering.    So far, however, the company has been unable 
+to leverage these relationships into any lasting market position.    
+27
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Inpise has the technical resources in place, it must now find the 
+marketing and partnering expertise needed to leverage this 
+technology into a lasting market position, or it will once again 
+begin to slip away.
+Hewlett-Packard Company
+19111 Pruneridge Avenue
+Cupertino, CA.    95014
+(800) 637-7740
+www.hp.com
+Market Position
+HP’s new Domain FoundationTools and FoundationWare offer a broad 
+array of Internet Infrastructure services that offer a alternative to 
+IBM, Sun, and Microsoft.    HP’s offering includes middleware, 
+standards, protocols, APIs, object-technology support, and other 
+components that allow Internet applications to communicate and 
+execute more efficiently.    More-over, HP’s product suite is an 
+extensible environment into which third-party tools can be integrated. 
+And HP, through its excellent partnering programs, has earned a 
+reputation as a “honest broker” that can communicate between the 
+opposing camps of Microsoft and Sun/IBM Internet Infrastructures.    
+Unfortunately, this partner-oriented focus has also given HP a 
+reputation for never taking a technology lead, and never being first to 
+market. 
+Aberdeen Conclusions
+Aberdeen anticipates that Internet Infrastructure offerings such as HP 
+Domain FoundationTools and FoundationWare should have particular 
+appeal to large-enterprise decision makers, since it especially 
+encourages development on scalable 3- and n-tier architectures.    HP’s 
+challenge over the next 1-2 years will be to gain mindshare from 
+present Internet Infrastructure heavyweights such as IBM and to 
+strengthen all parts of its offering for enterprise use, particularly the 
+scalability of its middleware, and differentiate its adoption of 
+Netscape’s LDAP engine as the glue that can link companies together 
+in a safe, managed, way. 
+IBM Corporation
+28
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Route 100
+Somers, NY 10589
+(914) 766-1800
+www.ibm.com
+Market Position
+IBM, perhaps more than any industry player, has committed a large 
+portion of its resources to Java in order to unify its huge and 
+diversified installed base and product offerings. IBM believes Java 
+will create a unique synergy between its multiple hardware and 
+systems software platforms, enabling the company to leverage its 
+tremendous assets in ISV partners, systems integration capabilities, 
+and enterprise-class applications expertise.
+In addition to providing Java Virtual Machines (JVMs) across all its 
+platforms, IBM has also introduced the Network Computing (NC) 
+Framework, the company's embodiment of the IOC platform. A key 
+differentiator of the NC Framework is the close integration with 
+IBM's current environment, including CICS, Notes, and MQ Series, 
+while maintaining adherence to IOC's open standards.    IBM has 
+also incorporated the Java language and the NC Framework into its 
+VisualAge enterprise-class development environment.    The 
+advantage of VisualAge's support of Java is that once an application 
+is developed, it can be deployed on virtually any major platform 
+while benefiting from integration with the customer's existing 
+server applications.
+IBM is also investing in the expansion of the Java environment by 
+providing Sun's JavaSoft with access to the multi-lingual 
+technologies developed by its Taligent division.    JavaSoft is also 
+taking advantage of JavaBeans communication capabilities by 
+working with InfoBus from IBM/Lotus.    Lotus is incorporating all 
+of the above technologies into its e-Suite.
+Finally, there is San Francisco.    Under this initiative for its ISVs, 
+IBM is building reusable application components that provide 
+generic business functionality (such as interest calculation) as well 
+as standardized definitions of basic business entities (such as 
+"customer" or "purchase order"). This in turn creates a framework 
+so that IBM's ISVs can integrate their own best-of-breed 
+applications in a seamless, enterprise-wide environment.
+Aberdeen Conclusions
+IBM is presenting an exceptionally attractive solution in the 
+Internet Infrastructure space, with popular offerings across all 
+29
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+core Internet Infrastructure components, a clear vision, and 
+mindshare in E-commerce.    IBM’s major challenges over the next 
+1-2 years will be to fully integrate their disparate offerings, to 
+provide more interoperability with other Internet Infrastructure 
+suppliers’ offerings, and to demonstrate their ability to implement 
+enterprise-scale distributed applications using their Infrastructure.
+30
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052-6399
+(425) 882-8080
+www.microsoft.com
+Market Position
+Microsoft is well positioned to move into enterprise environments, 
+with their middleware suite and interoperability story that 
+includes Microsoft Transaction Server (MTS), Microsoft Message Q 
+(MSMQ) and Web services.    Moreover, Microsoft is highly popular 
+among a large segment of the developer community, with such 
+Internet development tools as Visual Studio, and Active Server 
+Pages (ASPs) that enable developers to combine HTML with 
+VBScript or JavaScript to build presentation interfaces, implement 
+business logic, and call components based on Microsoft's COM.
+However, Microsoft's Windows DNA (Distributed iNternet 
+Architecture) Internet Infrastructure strategy is not made for inter-
+enterprise computing.    Because it is so closely tied to the NT 
+operating system, it lacks the scalability and platform 
+independence needed for today's large-scale systems.    And a 
+Microsoft-only strategy will ensure that corporate IS will miss out 
+on the benefits delivered by IBM, Netscape, Sun and Oracle.
+Aberdeen Conclusions
+Microsoft will continue in a strong position in Internet 
+Infrastructure below the enterprise level in the next 1-2 years.    
+Microsoft’s challenges are (1) to deliver better scalability and 
+robustness in the Internet Infrastructure products, and (2) to match 
+the Java-technology and extra-enterprise capabilities of its 
+competitors.
+A key area to watch will be Microsoft’s delivery (or slippage) of 
+COM+ technology on non-Microsoft Unix platforms.    Delivery of 
+production-quality code will greatly extend Microsoft’s 
+interoperability story.    Microsoft also faces a hard choice:    
+whether to continue to go alone or seek rapprochement with its 
+rivals that would risk loss of user lock-in.    Aberdeen believes that 
+Microsoft is jeopardizing its long-term enterprise IS market 
+position through its current Internet Infrastructure strategy, and 
+31
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+that therefore more integration with other solutions is the better 
+road to follow today.
+32
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Netscape Communications Corporation.
+501 East Middlefield Road
+Mountain View, CA 94043-4042
+(408) 542-3200
+www.netscape.com
+Market Position
+Netscape leads the market in adoption and implementation of open 
+standards.    From Web servers to Certificate Servers, and from Mail 
+Servers to Directory Servers, Netscape’s adoption of standards 
+helps it stand alone in the market, and formed the basis for its 
+developer community and rapid corporate adoption.    Indeed, the 
+SuiteSpot product set from Netscape initially defined Internet 
+Computing, and has forced the rest of the computer industry to 
+adapt.    However, Netscape was too slow to recognize the impact of 
+Java on server-side development, and underestimated how quickly 
+giants like Microsoft and IBM could react to the market challenge 
+Netscape represented.    As a result, Netscape identified the new 
+market opportunity, and while gaining significant ground, 
+eventually lost market momentum — until now.
+Netscape has now announced that it will focus its energies on the 
+implementation and publication of Internet Object Computing 
+Business Services.    This strategy has three components: NetCenter, 
+Corporate Software, and Network Provider Software.    Netscape 
+will deliver its software products to both major corporations and to 
+Network Providers, in an effort to make Netscape the premier 
+provider of software that enables the Service Middleware solution 
+(figure 2).    Netscape will also aggressively position it’s NetCenter 
+Web site as the primary portal where Businesses and Professionals 
+can subscribe to Internet-based value added services.    For 
+example, a company looking to outsource its Employee Benefits 
+program could find companies that offer this service by visiting 
+Netscape’s NetCenter Web Site. 
+The challenge for Netscape is to regain its momentum.    While 
+NetCenter will play a role, the more critical immediate need is find 
+renewed differentiation for its SuiteSpot portfolio of Internet 
+Servers and the Netscape ONE development environment.    These 
+cross-platform solutions provides native support for HTML and 
+Java, and provide access to multiple software services, including 
+CICS, SMTP, LDAP and SQL.    Java applications written with 
+33
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Netscape ONE can take full advantage of the sophisticated services 
+contained in SuiteSpot.
+Aberdeen Conclusion
+As the Netscape product and business model evolved to resemble 
+IBM’s,    it became difficult for Netscape to differentiate itself, and it 
+had trouble matching the broad offerings and service/support of 
+IBM.    Netscape has now announced a powerful new vision.    The 
+company must now implement this vision through both its 
+products and NetCenter initiative, in order to rally wide support of 
+third-party solutions providers, and to again differentiate its 
+products.
+Novell, Inc.
+1555 N. Technology Way
+Orem, UT 84097
+801-429-7000
+www.novell.com
+Market Position
+IntranetWare is maintaining Novell’s long dominance of the 
+Network Operating System market, and is used as the key 
+component of the enterprise-wide network infrastructure and its 
+link to the outside world via the Internet and Extranet.    Novell can 
+therefore combine Intranetware, Novell NetWare (and especially 
+its DNS directory service), and outside components such as 
+Microsoft NT to create a useful Internet Infrastructure for its 
+NetWare installed base.    Under the leadership of Eric Schmidt, 
+Novell has planned a set of products and services for the Novell 
+installed base that will leverage Java and the Internet 
+Infrastructure.    Novell has announced several good initiatives 
+recently, now it must be seen if the company can execute on these 
+plans. 
+Aberdeen Conclusions
+Novell’s main challenge over the next 1-2 years will be to prevent 
+erosion of its installed base, and establish a portfolio of 
+applications that leverage the Novell environment.    By adopting 
+Enterprise Java Beans as its infrastructure, Novell can claim the 
+ability to execute any EJB compliant application.    Over time, this 
+will provide Novell a broad set of applications, and enable current 
+34
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Novell ISV’s to feel confident that further development on the 
+Novell platform is warranted.    Next, Novell must demonstrate that 
+its new platform is open, compliant, robust, scaleable and 
+manageable — and has value above and beyond other Java 
+platforms.    It must accomplish this before NT 5.0 further erodes its 
+position in the market, and this is not entirely under its control.
+Oracle Corporation
+500 Oracle Parkway
+Redwood Shores, CA    94065
+Phone:    (415) 506-7000
+www.oracle.com
+Market Position
+Oracle claims it can provide users the benefits of Internet Object 
+Computing while protecting their investment in client-server-based 
+applications.    This strategy is embodied in the company's Network 
+Computing Architecture (NCA).    Oracle will accomplish this by 
+moving all corporate data off the desktop and into the Oracle8 
+environment.
+Oracle's Network Computing Architecture encompasses existing 
+Oracle products, such as Oracle8, Designer/2000 and 
+Developer/2000, and allows user organizations to dynamically 
+select the most appropriate environment for each application — 
+client-server, distributed object, or the Internet. Furthermore, NCA 
+enables application partitioning through its client, server and 
+database server cartridges.    Java is a key component of NCA, 
+because it provides the ability to deploy a single application code 
+base on multiple, heterogeneous platforms.    The Designer/2000 
+and Developer/2000 products plus Java tools provide development 
+capabilities.    Designer/2000 includes a WebServer generator for 
+creation of transactional Internet applications and allows the 
+migration of existing applications to the Web with no additional 
+programming. 
+Aberdeen Conclusions
+Oracle views its support of Java as a key differentiator against 
+Microsoft in the battle to win the mind share and dollars of 
+corporate IS.    However, E-commerce providers report that Oracle’s 
+Internet Infrastructure products are too proprietary and less useful 
+than Microsoft’s in Internet implementations.    Clearly, Oracle faces 
+35
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+a major challenge overcoming these perceptions and delivering an 
+Internet Infrastructure that can interoperate with other suppliers’ 
+offerings over the next 2 years.
+Sun Microsystems Computer Company
+2550 Garcia Avenue
+Mountain View, CA 94043-1100
+(415) 960-1300
+www:sun.com
+Market Position
+In the tradition of “all the wood behind one arrow”, Sun is putting 
+all its Internet Infrastructure efforts behind Java.    By establishing 
+the JavaSoft subsidiary, Sun has a vehicle for licensing and 
+distributing Java technologies and products to the industry-
+creating a brand new revenue stream for the company.    Sun's 
+multiple business units, including Sun Microsystems Computer 
+Company, SunSoft, Sun Microelectronics and SunService, are able 
+to leverage Java to create new leadership positions in their 
+respective markets. 
+To bring Java to as broad a market as possible, Sun has created 
+JavaSoft.    Incorporating feedback from all licensees, JavaSoft 
+works to continually enhance the Java language and environment 
+while assuring interoperability.    Because maintaining the support 
+of the licensees is so crucial, Sun has formed the JavaSoft 
+subsidiary to ensure that the evolution of Java is handled in an 
+independent and impartial fashion. 
+SunSoft, a second licensee, has integrated Java into all of its 
+solutions, including the Solaris operating system, the IIOP CORBA 
+distributed object environment, and software services such as e-
+mail and directory. Additionally, SunSoft's WorkShop development 
+environment offers excellent drag-and drop capabilities that 
+embrace the very latest Java initiatives.    SunService has enhanced 
+36
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+its training, education and implementation services to provide Java 
+support to its entire client base.
+Aberdeen Conclusions
+Sun’s Internet Infrastructure mindshare through Java is 
+substantial.    However, while Sun has a Certificate Server, e-mail 
+server and Directory Server, these are offered as components, not 
+as an integrated solution.    While Sun has announced that it will 
+focus on integrating these solutions together to meet the needs of 
+ISP’s, it has so far shown little in the way of implementation on 
+these promises — although Sun’s recent re-organization may help 
+put more focus on this shortcoming.    Clearly Sun’s major challenge 
+over the next year is to integrate its development tools, 
+middleware, and Java environment into a scaleable Internet 
+Infrastructure offering.
+Sybase, Inc.
+6475 Christie Avenue
+Emeryville, CA 94608
+(800) 879-2273
+www.sybase.com
+Market Position
+The Sybase Computing Platform integrates Adaptive Server with 
+the field-proven Jaguar CTS and PowerDynamo application and 
+transaction servers and Enterprise CONNECT middleware; and 
+Sybase adds the popular, Java-enabled Powersoft development 
+tools to enable a “write once, deploy many” solution with 
+exceptional scope.    As a result, IS can apply the Sybase Computing 
+Platform and Powersoft tools to an especially wide array of 
+application development and upgrade needs, including Internet 
+development, upgrading legacy applications with new technology, 
+and integrating applications together more effectively. 
+Aberdeen Conclusions
+Sybase provides an attractive Internet Infrastructure offering, that 
+is tightly integrated and highly productive.    The challenge is that 
+the PowerSoft environment has been proprietary for so long, few 
+know that Jaguar has opened the environment up.    In addition, 
+while PowesSoft tools are well known, the market has never heard 
+37
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+of Sybase middleware solutions.    Sybase must overcome its 
+heritage, and use partnerships and interoperability proof-points to 
+drive broader market awareness and acceptance.
+38
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Table of Contents
+EXECUTIVE SUMMARY
+7
+Key Findings:
+8
+SUMMARY OF FINDINGS
+11
+Key Aberdeen Findings
+11
+THE INTERNET INFRASTRUCTURE DEFINED
+15
+How the Internet Infrastructure Fits into Network Services
+15
+Core Internet Infrastructure Components
+15
+Application Development Environment
+15
+Application Runtime Environment
+16
+Service Middleware
+16
+ISP Services
+16
+How a Functioning/Integrated System Works
+17
+The Advantages of an Integrated Solution
+17
+ISSUES AND CHALLENGES
+19
+Impact of Major IT Trends
+19
+Supplier Success Factors
+20
+User Success Factors
+20
+SUPPLIER ABSTRACTS
+23
+Borland International Inc.
+23
+Hewlett-Packard Company
+24
+IBM Corporation
+24
+Microsoft Corporation
+26
+Netscape Communications Corporation.
+27
+39
+Internet Infrastructure Practice Summary
+AberdeenGroup 
+Aberdeen Conclusion
+28
+Novell, Inc.
+28
+Oracle Corporation
+28
+Sun Microsystems Computer Company
+29
+Sybase, Inc.
+30
+40

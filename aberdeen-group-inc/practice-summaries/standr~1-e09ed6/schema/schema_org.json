@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Fax Cover Sheet \u2014 Kastner to Michael Lindgren",
+  "description": "A Microsoft Word fax cover sheet template populated with Peter S. Kastner's contact information at St. Andrew's Episcopal in Wellesley MA. The recipient is Michael Lindgren (fax 212-592-9426) and the subject is 'Claim' (5 pages total). The document appears to be a personal/administrative artifact with template boilerplate text instructing the user to replace it. Date field shows 4/11/2026 which likely reflects a system date artifact rather than actual transmission date.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-04-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

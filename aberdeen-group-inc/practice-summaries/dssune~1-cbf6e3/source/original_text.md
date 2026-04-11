@@ -1,0 +1,3130 @@
+# Data Knowledge: 1998 Practice Summary
+
+> Archived from:  market-overview
+> Original publication date: 1998-07-01
+> Author: Aberdeen Group
+
+---
+
+## Original Document Text
+
+AberdeenGro
+up
+Data Knowledge:
+1998 
+Practice 
+Summary
+July 1998
+Aberdeen Group, Inc.
+One Boston Place
+Data Knowledge Practice Summary 
+Boston, Massachusetts 02108 
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+AberdeenGroup  ii
+Data Knowledge Practice Summary
+Aberdeen Group, founded in 1988, is a Boston-based information 
+technology research and consulting organization that closely 
+monitors user needs, technological innovation, and market 
+developments. It focuses its research efforts on the business impact 
+of technology changes.
+Aberdeen Practice Summaries present concise overviews of the 
+most significant issues and trends in each of the Aberdeen Practices. 
+Aberdeen currently offers Practice Summaries in the following 
+topics: 
+Vertical Industries
+Network Services
+Healthcare
+Application Development
+Retail
+Strategic Data Management
+Utilities
+Internet Infrastructures
+Information Security
+Professional Services
+Middleware 
+Electronic Commerce 
+Network Operating Systems
+Enterprise Resource Planning 
+Systems & Network Management
+NT Implementation
+Networking & 
+Telecommunications
+Year 2000
+Networking
+Professional Services
+Computer Telephony Integration
+Tools
+Telecommunications Hardware
+Managed Carrier Services
+Systems Platforms & 
+Architectures
+Enterprise Business 
+Applications
+Business Desktops
+Customer Interaction Software
+Network Computing
+Enterprise Resource Planning
+NT Servers
+Electronic Commerce
+Storage & Storage Management
+Knowledge Management
+Workstations
+Enterprise Application 
+Performance
+AberdeenGroup iii
+Data Knowledge Practice Summary 
+Information contained in this publication has been obtained from sources we believe to be 
+reliable, but is not warranted by us.  Opinions reflect judgment at the time and are subject 
+to change without notice.
+The trademarks and registered trademarks of the corporations mentioned in this 
+publication are the property of their respective holders.
+Warning:  This publication is protected by United States copyright law and international 
+treaties.  Unless otherwise noted, the entire contents of this publication are copyrighted by 
+Aberdeen Group, Inc., and may not be reproduced, stored in a retrieval system, or 
+transmitted in any form or by any means without prior written consent.  Unauthorized 
+reproduction or distribution of this publication, or any portion of it, may result in severe 
+civil and criminal penalties, and will be prosecuted to the maximum extent necessary to 
+protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+AberdeenGroup  iv
+Data Knowledge Practice Summary
+Table of Contents
+Data Knowledge Practice Summary............................
+Strategic Market Questions.........................................
+Executive Summary......................................................
+Summary of Findings....................................................
+Key Aberdeen Findings.....................................................
+Data Knowledge Defined..............................................
+How Data Knowledge Fits into EBA...............................
+Data Knowledge Components.........................................
+Impact of Major IT Trends...............................................
+Supplier Success Factors...................................................
+Refining the analytical environment so that it is 
+tuned to rapidly capturing on the changing data.....
+User Success Factors...........................................................
+Supplier Abstracts.........................................................
+Arbor Software Corp..........................................................
+Business Objects..................................................................
+Cognos.....................................................................................
+Compaq...................................................................................
+IBM Corporation..................................................................
+Information Advantage Inc..............................................
+Informix Software Corp. (MetaCube)............................
+MicroStrategy Inc................................................................
+Naviant Technology Solutions.........................................
+NCR Corporation..................................................................
+Oracle Corp............................................................................
+Platinum technology inc...................................................
+SAS Institute Inc...................................................................
+Other Suppliers..............................................................
+Aberdeen Group Retainer Services...............................
+AberdeenGroup v
+Data Knowledge Practice Summary 
+Preface
+Data Knowledge Practice Summary 
+Focus: 
+As one of the pillars in Aberdeen’s Enterprise Business Applications 
+(EBA) research area, the Data Knowledge and Complex Decision 
+Support practice has two primary concerns, each informing, 
+influencing, and evolving with the other. 
+From a Data Knowledge perspective, this practice is concerned with 
+the organization of data so that it can become the basis for 
+measuring and improving operational effectiveness.  Aberdeen 
+believes that Data Knowledge should be viewed as the operational 
+basis for the evolution of the enterprise through management’s 
+creative focus on methodically analyzing the enterprise’s 
+effectiveness in recognizing trends and relationships that can be 
+acted upon to meet emerging customer desires and manage 
+continuous improvements in operational processes. 
+Against this backdrop, the Data Knowledge and Complex Decision 
+Support practice offers a holistic view of information access, with 
+particular attention to systematic use of core DSS technologies — 
+data warehousing, data marts, Web-based query/reporting/analysis 
+software, various types of on-line analytical processing (OLAP), 
+campaign management software, data transformation tools, 
+metadata, visualization software, and data mining.  In addition to 
+exploring the buy-versus-build quandaries that face enterprises at 
+every point during the process of decision-enabling the enterprise, 
+Aberdeen research indicates that these technologies must be held 
+together by guiding principles that reflect end-user and enterprise 
+current and future needs.  This guiding principle, again, is Data 
+Knowledge.
+With this philosophy and perspective on the core DSS technologies, 
+this practice works closely with other Aberdeen specialists in 
+identifying the value of combining data knowledge and DSS with 
+other enterprise business applications, including Customer 
+Interaction Software (CIS), Enterprise Resource Processing (ERP), and 
+Electronic Commerce, as well as the implementation of these 
+AberdeenGroup  vi
+Data Knowledge Practice Summary
+combined technologies in vertical industries.  In addition to the goal 
+of increased operational effectiveness, this practice helps enterprises 
+speed up the planning, installation, and ROI of their evolving 
+information-access architectures as well as understand and manage 
+customer relationships, target market, retain customers, and identify 
+risk.
+Strategic Market Questions 
+1. How is integration of decision support tools from a vertical-
+industry perspective redefining best practices among DSS 
+suppliers as well as for end users?
+2. Where have data mining tools delivered vertical, industry-specific 
+knowledge?
+3. What suppliers offer — and what is the value of — ready-made 
+vertical industry warehouses, data marts, and underlying tools?
+4. How do I give the enterprise a lens into its current EBA systems 
+(i.e. ERP, CIS, SFA)?
+5. Where can end users find — and how can they leverage — true 
+customer relationship marketing software?
+6. What points of comparison can enterprise planners use to 
+effectively evaluate the best data mining tools or combination of 
+data mining tools to help the enterprise achieve its objectives? 
+AberdeenGroup vii
+Data Knowledge Practice Summary
+Chapter One
+Executive Summary
+Data Knowledge is concerned with the organization of data so that it 
+can become the basis for measuring and improving operational 
+effectiveness.  Aberdeen believes that Data Knowledge can be viewed 
+as the operational basis for the evolution of the enterprise through 
+management’s creative focus on methodically analyzing the 
+enterprise’s effectiveness in recognizing trends and relationships 
+that can be acted upon to meet emerging customer desires and 
+manage continuous improvements in operational processes. 
+User organizations continue to benefit significantly by systematically 
+applying core DSS technologies, which support Data Knowledge 
+endeavors, against real-world business problems.  Among the core 
+technologies explained in this Summary Report are data 
+warehousing; data marts; query/reporting/ analysis software in 
+client-server and Web-based configurations; various types of on-line 
+analytical processing (OLAP), Customer Relationship Management 
+software, and data mining.  These technologies, where appropriate, 
+can become the lens through which business users of different job 
+functions and different skill levels peer into the operations — past, 
+present, and future — of the user organization. 
+But not every technology is appropriate for every task and for every 
+user.  As a lens, moreover, these technologies today are either too 
+cloudy or too narrowly focused.  They just don’t let you see enough.  
+And specialists — at great expense in terms of time and money — 
+typically have to prepare each view.  This is particularly true of Data 
+Knowledge technologies as they are tied to Customer Interaction 
+Software (CIS), Electronic Commerce (EC), and Enterprise Resource 
+Processing applications. 
+These three core business applications — CIS, EC, and ERP— contain 
+the pulse of the enterprise.  They are the keys to understanding 
+operational effectiveness and efficiency; the pleasure and 
+disapproval of customers; as well as the deep relationships between, 
+for example, processes, goods, and financing throughout the supply 
+AberdeenGroup 1
+Data Knowledge Practice Summary 
+chain.  Yet the best most enterprises have been able to do is either 
+take a snap shot (via query and reporting, for example) of what has 
+been going on in the operational system; or pull some information 
+out, reorganize it, put it in another place (typically a data warehouse 
+or data mart), and try to examine the information in an historical 
+context. 
+But DSS technologies are now undergoing change.  The executive eye 
+is on promising advancements in replacing the batch interfaces 
+between analytical environments and their data sources with real-
+time interfaces.  In the context of CIS, EC, and ERP, suppliers will 
+have to deliver solutions that not only meet real-time challenges, but 
+that are also vertically focused and designed to deliver, for example, 
+performance indicators with content and in a form that is 
+appropriate for different users, form the chief executive and a 
+business analyst. 
+The Worldwide Web, as another major influence, is pushing 
+information to new user communities.  These users, in turn, are 
+asking more of Data Knowledge.  In particular, users want 
+meaningful informational access in as close as possible to real-time.  
+Moreover, bottom-line-oriented executives want tools that have been 
+tuned to the requirements of specific industries.  These executives 
+want suppliers, wherever possible, to shoulder the burden of tying 
+together whatever component parts constitute a finished solution.  It 
+is this complete solution that consultants and integrators can stitch 
+into the enterprise.  In other words, executives are wary of 
+“solutions” that take longer to build than it would to construct the 
+building that will house the solutions.
+Thus, executives view quick-install (measured in weeks) data marts 
+as a more favorable to data warehouses, as well as to the style of 
+data mart that may take from three to six months to install.  At the 
+same time, the data warehouse is beginning to return its initial role 
+as a cross-corporate analytical environment that will serve the needs 
+of the corporation through the relatively few specialists who will 
+have access to it.  For data warehouses that are at the hub of a 
+specific vertical-industry application, many user organizations want 
+to purchase a warehouse with as much pre-built functionality as 
+possible. 
+AberdeenGroup  2
+Data Knowledge Practice Summary
+This is true for the newly emerging Customer Relationship 
+Management systems, which leverage data warehouses with 
+software that is designed to locate high-pay back customers, drive 
+promotions and other loyalty-stimulating programs at the customer, 
+and keep track of the progress, success, and failure of the program.  
+The major shortcoming to these systems to data is that most 
+suppliers have not been forthcoming about the process 
+reengineering that such systems require, nor have the suppliers for 
+the most part shown awareness that these systems must be linked to 
+customer-facing applications such as Sales Force Automation (SFA).
+Equally important, organizations with data warehouses are now 
+beginning to understand that the data warehouse is a highly 
+effective means as a “factory” for organizing information in 
+preparation to send it to highly refined data marts.  In this 
+configuration, the warehouse is not designed for analysis but for 
+producing and disseminating data that has been “groomed” for use 
+elsewhere.  The goal is to have common metrics for the data marts, 
+as well as to eliminate redundant data feeds, and to help 
+departments to use “non-standard” multidimensional databases in 
+the relational world.
+Numerous changes in underlying Data Knowledge technologies will 
+promote new thinking and applications in which Data Knowledge 
+and its technologies are a driving force.  This Summary Report is 
+intended to highlight some of these changes and locate where Data 
+Knowledge technologies can be used.  Moreover, this Summary 
+Report is intended for two primary audiences: line-of-business (LOB) 
+and Information Systems (IS) executives who are responsible for 
+finding ways to increase operational efficiencies and effectiveness; 
+and the Data Knowledge suppliers that will serve the critical role of 
+delivering the technologies and applications that will be critical to 
+the success of their customers.
+AberdeenGroup 3
+Data Knowledge Practice Summary 
+Chapter Two
+Summary of Findings
+The fervor for Data Knowledge applications and technologies among 
+user organizations continues to increase as line-of-business and IT 
+departments of all sizes add various styles and elements of decision 
+support technologies into their information-access arsenals.  Data 
+warehouse-related technologies should continue their annual 
+growth rate from approximately $5.2 billion in 1996 to $20.6 billion 
+in 1999. This projection is for decision-support tools of all styles, 
+hardware, software, (including servers and databases) and systems-
+integration consulting.  Aberdeen estimates that the market for 
+decision support tools alone should jump from its current $1 billion 
+to about $ 2.5 billion in 1999.  But the market is changing. 
+Sophisticated Global 1000 organizations have spent the past few 
+years laying a Data Knowledge foundation or infrastructure via data 
+warehousing, and they are now looking for applications that 
+leverage that monumental labor.  Since many other user 
+organizations are searching for more-tactical solutions to their 
+pressing information-access problems, Aberdeen anticipates that 
+newly refined Online-Analytical Processing (OLAP) tools — including 
+query/reporting analysis software, high-end multidimensional 
+servers, and quick build data marts — will likely enjoy a stimulated 
+market.  However, suppliers will also frequently deliver these 
+individual technologies as part of complete solutions, either married 
+to an applications such as Customer Interaction Software (CIS) or 
+Enterprise Resource Processing (ERP), or at least be prepared to 
+facilitate a future integration effort.
+Key Aberdeen Findings
+
+The core Data Knowledge technologies are primarily developed 
+and marketed by individual suppliers.  For example, 
+query/reporting/analysis software is typically a single-supplier 
+technology.  However, Data Knowledge applications or 
+environments (e.g., data warehouse) can be comprised of 
+multiple technologies.  The suppliers with the widest channels 
+— typically hardware, Relational Database Management 
+AberdeenGroup  4
+Data Knowledge Practice Summary
+System(RDBMS) suppliers, and systems integrators — bring 
+together the multiple piece parts and assemble them for the 
+user organization.
+
+Few Data Knowledge implementations are done without 
+consulting.  The degree of consulting ranges from full planning 
+and implementations to training.  More complex Data 
+Knowledge environments, for example, Customer Relationship 
+Management, require a considerable amount of professional 
+services, representing as much as sixty percent of contract. 
+However, most implementations of Data Knowledge are at the 
+very least refined by internal IS or LOB technologists.
+
+The Data Knowledge tools have met with mixed success.  Data 
+warehouses take too long to build, data marts don’t reach 
+enough users, Query/Reporting/Analysis tools require 
+significant preparation, and data mining systems are about 75% 
+data preparation.  In other words, the tools are still too difficult 
+to use. 
+
+The biggest constraint with Data Knowledge is that it is applied 
+on data that is far removed from the business logic and the 
+processes.  Data knowledge tools, for the most part, analyze 
+some form of summary information in an off-line fashion.  
+Most of the tools, moreover, are based on some form of data 
+duplication.  Moreover, these tools are generally batch oriented, 
+although real-time decision support is slowly emerging.  
+Nevertheless, end user organizations have attested to strong 
+returns on investment from current tools.
+
+Although the Data Knowledge technologies are numerous, there 
+are generally only two or three architectural approaches to 
+each type of tool (e.g. query and reporting) or environment.  
+Refer to Chapter Three for explanations of these technologies. 
+
+Data warehouses are cross-enterprise in scope.  They are 
+typically designed to allow specialists to analyze the data 
+warehouse directly, and to feed down-stream data marts.  
+The alternative is to build a warehouse that is designed for 
+the purpose of feeding “down-stream” data marts, but not 
+for direct analysis. 
+
+Data marts can be used as standalone systems 
+(independent) or linked to a warehouse (dependent).  
+When independent data marts multiply, they can increase 
+AberdeenGroup 5
+Data Knowledge Practice Summary 
+overhead on the operational systems and create redundant 
+data feeds, and cause inconsistencies 
+
+Relational OLAP (ROLAP) has two primary architectures.  
+Although these environments all allow the user 
+organizations to explore hundreds of gigabytes of data 
+across numerous dimensions, they are all slow compared 
+to the typical speed of a multidimensional database. 
+
+Multidimensional databases come in many different forms, 
+but are generally very effective for applications that 
+demand forecasting, analysis, planning, budgeting, and 
+financial analysis.  Part of their difficulty is that skills in 
+one architecture are not easily transferable. of current 
+MDBs. 
+
+Query/Reporting/Analysis software is typically composed of 
+a full desktop for analysts and browser-server 
+configurations for the largest majority of users.  The Query, 
+Reporting, and analysis features of these facilities can be 
+part of a single base-line architecture, or can be comprised 
+of modules that work seamlessly together. 
+
+Data mining software in this report refers to high-end 
+systems, not the desktop variety.  High-end systems vary 
+depending upon the algorithms that are used, the 
+applications in which they are applied, and how well they 
+are married to other tools, including the data warehouse 
+and query and reporting. 
+
+Customer Relationship Management systems are part data 
+warehouse, part data mining, and part campaign 
+management software.  High-end systems are typically 
+built on a backbone of an RDBMS and parallel-scalable 
+processors, but enterprises can also choose among desktop 
+tools, service bureaus, and emerging systems that leverage 
+the high-end chores with intelligent software components 
+that can seek populations of customers without require the 
+brute force of back-end systems. 
+
+Integrating Data Knowledge into Customer Interaction 
+Software, Electronic Commerce, and Enterprise Resource 
+Planning is now at a very early stage.  Most forms of 
+integration lack depth, especially in a vertical industry 
+context, and require user organizations or systems 
+AberdeenGroup  6
+Data Knowledge Practice Summary
+integrators to transform and move data from the 
+application to a separate analytical environment. 
+
+ISVs have typically relied on a combination of direct sales and 
+partnership-alliances.  Professional services firms have proved 
+particularly loyal to ISVs, once the software supplier has 
+successfully pulled the professional services firm into a sale.  
+And partnership strategies are also evolving.  In some 
+instances, ISV’s and professional services firms are realizing 
+that end-user organizations need tools that are linked far more 
+deeply than applications programming interfaces (APIs) 
+typically provide.  These ISV and professional service partners 
+are advancing integration at a process level.
+
+Data Knowledge suppliers are now beginning to consolidate, with 
+acquisitions becoming more common, and single suppliers 
+emerging with a full set of technologies.  Moreover, Aberdeen 
+believes that Microsoft’s aggressive entrance into the OLAP 
+market with the delivery of Plato OLAP tool will increase the 
+trend toward consolidations.  Although many start-ups are 
+emerging, many of these technologies are insufficiently 
+differentiated from the technologies of successful, predominate 
+suppliers.  Unless truly differentiated, start-ups can expect to be 
+fall on the road to the IPO or to be acquired by predominate 
+suppliers.
+
+The principal buyer is obviously different depending on the 
+technology, its costs, where it will be used, and the effect on the 
+overall corporation.  The line-of-business or IS division may 
+purchase a multidimensional database, query and reporting 
+tools, and data marts.  Big ticket items such as CRM systems and 
+data warehouses affect the entire user organization; these 
+systems are increasingly purchased by the Chief Financial 
+Officer.
+
+Data Knowledge shoppers, need to examine multiple issues, 
+including the financial health of the supplier, the application of 
+the Data Knowledge technology to the specific-vertical industry, 
+the inherent security of technology, the tool’s extensibility, and 
+the ability of the supplier to support the software.  There is also 
+the requirement that the software can be used, where 
+appropriate, by the broadest user populations, and that the tool 
+has the administrative facilities to allow the user organization 
+to easily meet that challenge.  Moreover, true Data Knowledge, 
+particularly as it relates to applications such as CIS and ERP, is 
+AberdeenGroup 7
+Data Knowledge Practice Summary 
+beginning to be examined in the context of integration to these 
+applications.
+
+Different Data Knowledge elements are evaluated according to 
+different criteria.  Top suppliers in the Query/Reporting/Analysis 
+sector perform the rituals of release by release “leap-froging,” 
+aware that technological differentiation is difficult to maintain 
+and that the buying decision comes down to the “feel of the 
+tool,” ease of use, and ease of administration.  Alliances with 
+suppliers of other Data Knowledge tools are another key factor, 
+increasing the chances that the end-user organizations may 
+already have the partner’s tool installed, thus increasing the 
+user organization’s receptivity. 
+
+Higher-end technologies, such as data warehouses and CRM 
+systems, are differentiated by the reputation of the 
+hardware/RDBMS supplier, and core competency of the supplier 
+in the particular vertical industry. 
+
+Multidimensional technologies are differentiated by their ability 
+to allow users to write to the database, the size of the database, 
+and the number of dimensions.  User organizations factor how 
+long it takes to model, load, and refresh the database and 
+measure those factors against applications demands. 
+
+The data warehouse, CRM, and ROLAP, because of their 
+complexity, are generally installed or being installed in the 
+Global 1000. 
+
+Data warehouses can take well over a year to implement and 
+generally require the user organization to follow a formal 
+methodology that includes interviewing users, planning, 
+database selection, data base modeling steps.  A pre-built 
+warehouse, which is pointed at a specific vertical industry, 
+typically includes a business and data model, as well as a 
+variety of pre-built analytical applications mapped to that 
+model. 
+
+Data mart implementations typically take between two weeks 
+and six months, depending on the type of tool and it application. 
+User organizations typically follow many of the processes in a 
+data warehouse methodology (obviously pointed at a single 
+subject area).  For some data marts, user organizations turn to 
+facilities that are particularly strong at automating many of the 
+steps involved in transforming and migrating data from 
+operational systems into data marts. 
+
+For query/reporting/ analysis software, implementations can be 
+measured in weeks, with implementers using drag and drop 
+AberdeenGroup  8
+Data Knowledge Practice Summary
+procedures to prepare the environments for different 
+populations of users. 
+
+User organizations implementing ROLAP and CRM Systems take 
+steps similar to those performed in data warehousing.  ROLAP 
+implementations, assuming the existence of a warehouse in the 
+organization generally requires a few months.  CRM systems 
+require about six to nine months for implementation.  Data 
+mining implementations require from one to six months, 
+depending on the amount of data, its condition, and the power 
+of the data mining algorithms.  Implementing data mining is 
+about 75 percent data preparation. 
+
+Implementing a Data Knowledge tool with either CIS or ERP 
+generally requires about the same time as it does when a tool is 
+applied to any other source.  Suppliers have developed 
+templates that guide user organizations through (and speed up) 
+the integration process. 
+
+A few technical innovations are enabling Data Knowledge 
+technologies — particularly query/ reporting/analysis tools, 
+multidimensional databases, and data marts — to reach mid-
+sized organizations.  The Web is one driving force, reducing 
+both the cost and the difficulty of reaching broader user 
+populations.  Similarly, the Web has has increased the number 
+of seats suppliers are able to establish in their installed bases.  
+Many suppliers are using the Java programming language to 
+build programs that can be embedded in HTML pages and 
+bring interactive features to the Web. 
+
+Microsoft has substantially shifted supplier behavior in the Data 
+Knowledge arena.  NT is now considered a data mart platform-
+of-choice.  Many suppliers that formerly tuned their databases 
+solely to Unix-based systems, including parallel-scalable 
+processor architectures, have refined them for NT.  Merchant 
+RDBMS suppliers have also tuned their systems for NT.  NT has 
+driven down data mart prices, and it has changed the go-to-
+market strategies and channels of most suppliers.
+
+Moreover, Microsoft’s Plato, a decision-support technology the 
+company acquired from Israel-based Panorama Software and 
+that Microsoft is now beta testing, has been a catalyst to many 
+changes in the decision support market, even before its planned 
+shipment later this year.  Many suppliers have publicly 
+embraced Plato, and have or plan to partner with Microsoft, 
+although officials of these partners say they are not quite sure 
+what Plato is. 
+AberdeenGroup 9
+Data Knowledge Practice Summary 
+
+Data warehouse typically cost between $1 million and $1.5 
+million, while data marts can cost between about $50,000 and 
+$400,000, depending on the type of data mart.  
+Query/Reporting/analysis tools generally cost about $50,000 for 
+the Web server versions; various components, such as 
+administrative facilities and full-client versions of the software 
+cost approximately $1,500 each.  Multidimensional servers cost 
+about $40,000.  Most high-end data mining environments cost 
+between $250,000 and $400,000.  CRM systems range from 
+$200,000 to $2.5 million depending on size, and on what pieces, 
+for example, a data warehouse, already have been installed.  
+Low-end ROLAP systems start at about $60,000 while the higher 
+end systems can reach as much as $300,000. 
+AberdeenGroup  10
+Data Knowledge Practice Summary
+Chapter 
+Three
+Data Knowledge Defined
+How Data Knowledge Fits into EBA
+Data Knowledge is concerned with the organization of data so that it 
+can become the basis for measuring and improving operational 
+effectiveness.  Aberdeen believes that Data Knowledge can be viewed 
+as the operational basis for the evolution of the enterprise through 
+management’s creative focus on methodically analyzing the 
+enterprise’s effectiveness in recognizing trends and relationships 
+that can be acted upon to meet emerging customer desires and 
+manage continuous improvements in operational processes. 
+Enterprises benefit significantly by viewing information access 
+holistically, with particular attention to systematic use of core DSS 
+technologies — data warehousing; data marts; query/reporting/ 
+analysis software in client-server and Web-based configurations, 
+various types of on-line analytical processing (OLAP), customer 
+Relationship Management software, and data mining. Refer to Figure 
+1, below.
+Figure 1: The Enterprise Business Applications Universe
+AberdeenGroup 11
+Data Knowledge Practice Summary 
+E-Commerce
+EDI
+CIS
+SFA
+Service
+CTI
+HRMS
+MFG & 
+DIST
+MRO
+APO
+FIN
+ERP
+EFT
+Internet
+Data Knowledge
+OLAP
+Data
+Warehouse
+Data
+Mining
+ 
+Source: AberdeenGroup, May 1998
+With this philosophy and perspective on the core DSS technologies, 
+enterprises can identify the value of combining Data Knowledge 
+with other Enterprise Business Applications (EBA), including 
+Customer Interaction Software (CIS), and Electronic Commerce (EC), 
+and Enterprise Resource Processing (ERP), as well as the 
+implementation of these combined technologies in vertical 
+industries. 
+Data Knowledge Components
+Data Knowledge is made up of multiple decision support (DSS) and 
+DSS-related technologies, which user organizations and IT suppliers 
+apply in various ways to deliver a systematic method for gathering 
+knowledge from data. (Refer to the Data Knowledge Universe, Figure 
+2, for a partial view of data knowledge.)  Enterprises apply these 
+technologies with the principle goal of guiding the organization into 
+competitive advantage via a better understanding of markets, 
+customers, and internal processes.
+To ease the burden on the reader, Aberdeen has chosen to discuss 
+these technologies in the context of their applications.  For example, 
+data warehousing, as will be discussed below, is comprised of 
+numerous technologies, which are utilized from an application 
+perspective.  A thorough discussion of the intricacies of, and the 
+relationship between, all of these components — for example 
+AberdeenGroup  12
+Data Knowledge Practice Summary
+relational database management systems (RDBMSs) and parallel-
+scalable processors within a data warehouse — is not the goal of this 
+Practice Summary.  More to the point is the attempt to position the 
+applicability of data warehousing from a Data Knowledge 
+perspective and to suggest to the reader what to anticipate when 
+trying to implement data warehousing facilities. 
+Data Warehouse
+Aberdeen defines a data warehouse as a database derived from one 
+or more internal databases and specifically designed to supply 
+business analysts (as well as some other end-users) with an 
+environment that represents the corporate-level subject areas and 
+that supports decision support queries.  One of the primary purposes 
+of a data warehouse is to off load the query burden from operational 
+systems. 
+How A Functioning Data Warehouse Works
+Implicit in Aberdeen’s definition is the recognition that a warehouse 
+holds data that has been downloaded and filtered from various 
+operational systems within the enterprise, including third-party 
+applications such as ERP and CIS.  Moreover, since data will change 
+over time, the warehouse typically contains facilities — whether 
+from a third-party supplier or built in house — that help manage 
+meta data (or data about data) that can serve as a map of the content 
+within the warehouse. 
+Meta data functions include helping technologists and users 
+understand how data arrived in warehouse, where it came from, 
+how it was transformed. 
+For the purposes of differentiating a data warehouse from a data 
+mart, which will be discussed in a subsequent section, it is important 
+for enterprises to remember that a data warehouses typically reflects 
+a model of the entire corporation’s data, in contrast to the generally 
+departmental nature of the data mart.  Data warehouses combine 
+considerable amounts of detail data as well as summary data; and 
+data volumes tend to be large.  Data warehouses generally include 
+substantial amounts of historical data, thus preparing them for 
+business analyst queries.  Although data warehouses are 
+AberdeenGroup 13
+Data Knowledge Practice Summary 
+comprehensive in scope, they are built iteratively.  After completing 
+one subject, say sales and marketing, the enterprise moves on to 
+another subject such as finance.
+Building the data warehouse has proven to be a mammoth effort; 
+they generally cost over a $1 million and more than a year to 
+implement.  These systems typically require the twin powers of 
+RDBMSs and scaleable-parallel processors — including symmetric 
+multiprocessing, and variations using Non-Uniform Memory Access 
+(NUMA) techniques.  Enterprises either use merchant databases (i.e., 
+Informix, Oracle, or Sybase) in combination with these types of 
+hardware, or turn to more targeted database and hardware 
+combinations from specialized suppliers.  RDBMS-processor 
+combinations, which have been tuned over time to work together,  
+enable enterprises to scale up and speed up performance as more 
+users come online, or as these users ask more complex, resource-
+intensive questions.
+The Advantages Of Integrated Warehousing
+Integrated data warehouse packages, which are aimed at specific 
+industries, health care and insurance for example, have trimmed the 
+data warehouse implementation cycle by as much as half.  These 
+“packaged” warehouses generally contain robust data models; 
+RDBMS schemas that apply the models; data transformation tools, 
+which programmatically gather data from legacy systems, enhance 
+it, and move it to the warehouse; and combinations of structured 
+analytical applications and ad hoc analytical environments.  
+However, the suppliers of these focused, pre-configured solutions 
+have not driven down prices; rather, suppliers typically charge a 
+premium for enabling enterprises to become data warehousers 
+quickly. 
+Most data warehouse offerings, however, are not integrated in the 
+sense of a packaged application, although suppliers over time have 
+refined the technologies discussed in the previous paragraph to work 
+better together.  Various query tools, for example, can read the meta 
+data facilities of transformation environments, and hardware 
+suppliers have tuned their hardware more tightly with the RDBMSs, 
+which are used as the storage mechanisms for the warehouse.
+AberdeenGroup  14
+Data Knowledge Practice Summary
+Figure 2: The Data Knowledge Universe
+CIS
+ERP
+EC
+VSAM  ISAM
+Operational Systems
+   Data Warehouse
+Query/Reporting/Analysis via Browsers and Desktop
+End Users/Analysts/Executives/Info.Consumers
+Data is typically
+repetitively
+(denormalized)
+stored in the
+warehouse for
+direct access by
+tools
+Prepares
+and
+optimizes
+data for
+single-
+subject area
+analysis by
+access tools
+Data Marts
+MDB/ROLAP/
+Hybrid OLAP
+Analysis
+via direct
+access by
+tools
+Corporate view of data
+for either direct tool
+access or to feed data
+marts
+Source:AberdeenGroup, June 1998
+(can be normalized or organized, for
+example, via  ROLAP)
+Transformation Environment
+AberdeenGroup 15
+Data Knowledge Practice Summary 
+Data Marts
+There are vast differences between data warehouses and data marts. 
+Although data marts are frequently described in industry shorthand 
+as much smaller and less expensive forms of a data warehouse, this 
+is often misleading.  Data marts and data warehouses are more 
+different than alike.  These departmental databases, as opposed to 
+enterprise databases, are optimized for the "domains" they serve, 
+typically reflect a single-subject (e.g. finance), and need to satisfy the 
+demands of business users, not necessarily business analysts.
+How Data Marts Work
+These information repositories are housed on three primary 
+technologies: RDBMSs, multidimensional databases (MDBs), or a 
+hybrid of the two.  RDBMS-driven systems are typically built on a 
+star schema — a dimensional modeling technique that creates 
+multidimensional views of the database contents.  The star schema 
+design may contain a fact table comprised, for example, of sales 
+information such as gross revenue and units sold, surrounded by 
+dimension tables (for example, time and geography) containing 
+more subjected-oriented and hierarchical information.  Data marts 
+contain a considerable amount of summary information to deliver 
+performance and a business-unit slant to the contents. 
+The second form uses an MDB, which in general summarizes the 
+contents in advance and delivers rapid responses to queries that 
+cross multiple dimensions.  A third approach, essentially a hybrid of 
+the relational and MDB techniques, is aimed at giving the data mart 
+the combination of MDB speed and RDBMS scalability. 
+These technologies can be used in a standalone configuration, 
+drawing data directly from an operational system — an increasingly 
+common configuration in the context of an ERP application.  ERP 
+suppliers either alone or in league with their third party partners are 
+beginning to deliver data marts based on the MDB and/or relational 
+model. 
+From another perspective, rather than the batch-download models 
+described above, some enterprises use a process often called 
+integrated or dependent data marts.  These enterprises create 
+dependent data marts that leverage the data warehouse’s 
+transformed data.  The information in the data mart is directly 
+AberdeenGroup  16
+Data Knowledge Practice Summary
+dependent on the data warehouse.  Using this methods, some user 
+organizations deliver information to MDB-driven data marts that are 
+geared for computationally-intensive applications such as what-if 
+analysis in budgeting. 
+The Advantages of an Integrated Data Mart
+Data mart integration must be viewed from several perspectives. 
+
+Dependent or integrated data marts eliminate redundant data 
+feeds, and they can dramatically reduce the amount of 
+duplicated detail and summary data.  More importantly, the 
+dependent topology guards against inaccurate queries.  As 
+independent data marts proliferate, various departments are in 
+danger of querying metrics (such as revenue) that 
+inadvertently have different meanings in other departments, 
+resulting in inconsistencies across departments and erroneous 
+information. 
+
+Suppliers are increasingly delivering systems that include the 
+capability to automatically transformation legacy or warehouse 
+data, and semi-automatically build and populate star schemas 
+or MDBs.  These systems, many of which include other 
+analytical tools, significantly reduce the cost of data marts and 
+the time to install them, and they require less expertise than 
+other data mart variations. 
+
+ERP suppliers, either alone or in league with their third party 
+partners, are delivering integrated data marts, based on the 
+MDB and/or relational model.  These systems are specifically 
+tuned for analyzing an ERP system.  Equally important, the 
+systems contain facilities designed to ease the technologist’s 
+burden when trying to grapple with the ERP system’s complex 
+data structures and puzzling  abbreviations as part of the 
+transformation process involved in creating the data mart. 
+Relational OLAP
+Relational OLAP, or ROLAP, combines flexible query capabilities 
+with a scalable multi-tier architecture, and symbiotically depends on 
+and leverages the evolving and improving capabilities of parallel-
+scalable relational databases.  ROLAP prepares an RDBMS to enable 
+business users to view and analyze its contents from multiple 
+perspectives.  In addition user often have access to sophisticated drill 
+down and pivoting capabilities typically associated with OLAP.  
+ROLAP technologies are found in many industries, particularly 
+AberdeenGroup 17
+Data Knowledge Practice Summary 
+where customer populations have caused databases to swell with 
+hundreds of gigabytes of customer-centric data.  Enterprises with 
+these conditions typically need to supply business users with 
+multidimensional views of information across many dimensions. 
+Moreover, with the increased popularity and the economics of the 
+Web, Relational OLAP has been accepted by information providers 
+in numerous industries as one of the vehicles for “harvesting” their 
+databases contents and sending that information to their customers. 
+These multi-tier architectures are similarly effective within intranet 
+installations, particularly for broadly disseminating— via scheduling 
+techniques — analytical views to business users who have Web 
+browsers (refer to Figure 3).
+How Relational OLAP Works
+ROLAP typically consists of: 
+
+A meta data repository for identifying the contents of the 
+warehouse. 
+
+An SQL generator that computes aggregates, consolidations, 
+and cross tabulations and analyzes multidimensional data. 
+
+Desktop applications that range from simple ad hoc querying to 
+linked query-reports; decision-support development 
+environment. 
+Figure 3: Web-ROLAP Architecture
+Server
+Hardware
+WWW
+Server
+SQL
+Engine
+& Meta Data
+Intranet --Private
+Internet --Public
+WWW Browsers
+Any Client O/S
+Any Client Hardware
+RDBMS
+Platform
+Source: AberdeenGroup, June 1998
+AberdeenGroup  18
+Data Knowledge Practice Summary
+
+Intelligent agents and alerts (also found in other OLAP 
+environments) that run analyses in the background, and notify 
+workers when a pre-defined condition or exception is 
+encountered; as well as systems-specific agents and facilities 
+that examine query and summarization patterns, helping an 
+administrator refine the system.
+A prerequisite for implementing ROLAP software is skill in 
+"dimensional modeling."  This process transforms the RDBMS so that 
+it can deliver a multidimensional perspective of the RDBMS and 
+organizes information into a schema that closely matches the 
+business.  This process creates what is called the star schema design 
+(or one of its many complicated variants)  The basic star schema 
+design may contain a fact table comprised, for example, of sales 
+information such as gross revenue and units sold, surrounded by 
+dimension tables (such as, time and geography) containing more 
+subjected-oriented and hierarchical information.
+The dimension tables are typically denormalized: the data is 
+repetitively stored in tables to minimize the need to perform time-
+consuming joins when executing a query and to reduce the number 
+of rows that must be analyzed to return results.  Snowflake schemas 
+extend the star schema by adding normalized dimension tables, a 
+technique that can improve performance. 
+Enterprises have two primary options in ROLAP.  Some systems 
+perform all processing — for example, joins, aggregations, and 
+calculations — within the database by using temporary tables, then 
+issue results.  Others conduct OLAP analysis on a middle tier but 
+perform resource-intensive multi-pass queries within the database 
+to spare the network from data overload.
+The Advantages of a Refined ROLAP System
+Many of ROLAP tools offer highly refined facilities that that can help 
+administrators — and in many instances the system itself — find and 
+maintain a cost-efficient balance in the ways the systems uses 
+summary and detail data.  Many of these systems can automatically 
+route, and in some instance rewrite, a user's query to go against 
+aggregate, rather than low-level, data.  These processes can reduce 
+the numerous forms of overhead an unbalanced system can cause 
+when calculating millions of rows to answer a query, as well as the 
+AberdeenGroup 19
+Data Knowledge Practice Summary 
+overhead imposed by the summarization, or aggregation, techniques 
+used to reduce calculation overhead.  Moreover, these systems are 
+able, for example, to hold in cache frequently used queries and the 
+reports built with them.  In addition, refined systems are tightly 
+integrated with the RDBMS and designed as to function as an 
+extension to the database. 
+Multidimensional Databases 
+Multidimensional databases contain highly summarized data and 
+are designed to deliver a fast analytical platform for numerous 
+forms of comparative analysis.  Many of these databases are part of 
+the analytical arsenal of analysts, brand managers, and product 
+managers.  These specialists use the systems for many business-
+critical functions, including activities-based costing, complex 
+modeling, and quantitative analysis.  Many of these systems contain 
+embedded mathematical formulas for tasks commonly required by 
+specialists.  MDBs typically include well-tuned front-end tools and 
+applications specifically pointed at industry niches.  These tools have 
+now reached a point in their evolution at which they can work with 
+standard query/reporting/analysis environments and no longer 
+demand proprietary front-ends. 
+How MDBs Work 
+There are several different types of MDBS, ranging from simple 
+desktop spreadsheets to server-based systems.  Although variations 
+abound, the systems are fundamentally based on the notion of 
+arrays, an organizational principal for arranging and storing related 
+data so that it can be viewed from multiple perspectives.  Data 
+within these systems is summarized, arranged in cross-tabular 
+views.
+Preparing high-end systems requires skill in modeling the database.  
+Suppliers offer little help in this area, and many of these databases 
+can be dramatically different from each other.  To combat the data 
+explosion, which is driven by summarization techniques and 
+numerous empty spaces in an array, the more proficient systems 
+offer highly-effective sparse-matrix technology to compress arrays.
+These systems contain their own highly-tuned database loading 
+environments, and can work with both operational systems and data 
+warehouses.  Most MDBs draw data from operational systems via 
+AberdeenGroup  20
+Data Knowledge Practice Summary
+batch interfaces, but many are now building real-time interfaces, 
+with a particular eye on performing real-time analysis at various 
+points throughout the enterprise. 
+Over the past few years these systems have evolved significantly.  
+Largely used in departmental applications — as a high-speed data 
+mart, for example — many of these systems can:
+
+Update the database incrementally while providing users with 
+continued access;
+
+Backup and restore in the event of a failure;
+
+Connect to multiple database, including RDBMSs, and interact 
+together; and
+
+Subset portions of the database cube for individual analysis 
+and manipulation, and use this technique for on-going, non-
+disruptive refreshing of the database. 
+Query/Reporting/Analysis Tools
+When line-of-business managers and information-systems 
+executives search for business intelligence software, they are placing 
+that investigation in the context of decision-enabling an entire 
+enterprise.  Enterprises turn to Query/ Reporting/Analysis software 
+to supply the needs of three broad categories of business users — 
+analysts, managers, and nonspecialist information consumers.  
+These users clearly have multiple requirements: 
+
+Most users will have bread-and-butter queries that they have 
+either built themselves or have had built for them, and which 
+are periodically refreshed with new data and new results. 
+
+Some may need to analyze summary information from multiple 
+perspectives before drilling into the details.
+
+Many will need to build ad hoc queries.
+
+Others may pick up and refine/extend an analysis where a 
+colleague has left off on previous activities and queries.
+
+Other users may only need to look at the results published by 
+others. 
+These Query/Reporting/analysis tools are typically judged on how 
+well they are able to meet these needs, particularly in how they 
+address the requirements of distinct user populations. 
+AberdeenGroup 21
+Data Knowledge Practice Summary 
+How Query/Reporting/Analysis Systems Work 
+The data sources for any of these types of analyses are numerous: 
+data warehouses; data marts; multidimensional databases; 
+operational systems, including ERP; and third-party applications, 
+including CIS.  With few exceptions, most systems can be 
+implemented in client-server configurations and on Web Servers for 
+both intranet and extranet usage.
+With highly-refined point-and-click interfaces administrators can:
+
+Transform difficult SQL into business language terms and 
+stores them in an catalogs;
+
+Embed formulas — e.g., sales revenue; dimensions, e.g., time, 
+city, product data, account; as well as numerical data, e.g., sales, 
+profits, and gross margins — within meta data;
+
+Established data access privileges;
+
+Alter business rules and access privileges and automatically 
+reflect the changes throughout the user community; 
+
+Build reports for users that automatically absorb fresh data, 
+thus sparing users from having to build reports;
+
+Distribute and balance processing loads throughout the 
+environment.
+End-users, depending on their job functions, access reports from the 
+servers or use desktop cubes, variously called micro cubes and hyper 
+cubes.  A cube is an array structure similar to familiar spreadsheets.  
+Because these tools can translate queries into multidimensional 
+cubes, implementers do not have to build full cubes in advance, and 
+worry about refreshing them.  Business analysts are able to 
+automatically build and populate individual multidimensional 
+cubes.  Query generators then respond to a user’s request by 
+selecting the among the best detail and summary data to complete a 
+request.
+Flexibility in many of these tools encourage workgroup sharing.  For 
+example, a business user can E-mail a cube to a colleague, who can 
+continue with the analysis as if it originated on his or her desk, thus 
+eliminating the need to re-create the query that prompted the 
+results. 
+Data Mining 
+Data mining is a method of data analysis designed to uncover 
+valuable, unsuspected, or unknown relationships, patterns, and 
+AberdeenGroup  22
+Data Knowledge Practice Summary
+associations in large, complex databases.  These methods are now 
+being applied to considerably smaller data sets, as well.  Data 
+mining, which has roots in artificial intelligence and statistics, can 
+give enterprises novel perspectives on their data and on their 
+business practices, and can be a key technology in a decision-support 
+environment. 
+Data mining tools, in general, apply programmed formulae, called 
+algorithms, to large amounts of data in such a way that the data 
+reveals hidden patterns and relationships and uncover correlations 
+that were previously invisible to workers and the business.  Data 
+mining tools, as a class, help the enterprise understand customer 
+behavior, predict events and expose the sometimes subtle linkages 
+between events and trends.  Data mining enterprises have attested to 
+discovering new business opportunities and to saving millions of 
+dollars with a few passes of an algorithm against a pool of data.  For 
+example, large multinational banks have been able to use data 
+mining to assist in discovering programs and the potential for new 
+instruments that will stop attrition among their most profitable 
+customers.  At the same time, banks have been able to avoid 
+attracting the wrong customers into the fold.
+These dramatic benefits are typically associated with the more 
+sophisticated class of data mining software, as opposed to the 
+desktop variety, which have proven beneficial to business analysts 
+seeking day-to-day guidance while performing queries.  The more 
+sophisticated tools, which Aberdeen refers to as scalable data 
+mining, typically exercise their algorithms on either a representative 
+sample of a database or on an entire data set.  These algorithms are 
+used for:
+
+Predicting, or classifying the value of a business interaction to 
+the enterprise. 
+
+Clustering, or grouping a database according to specific 
+attributes in preparation for an analyst’s interpretations 
+(Clustering delineates customer or product relationships in a 
+database.  For example, a line of business could segment its 
+customers into groups that have similar tendencies to buy 
+particular products or services). 
+
+Searching  for affinities by seeking related events (called 
+associations) and sequences.  For example, events are said to be 
+AberdeenGroup 23
+Data Knowledge Practice Summary 
+associated when a customer purchases a product or service 
+while purchasing another product or service; sequence looks 
+for associations between the purchase of different sets of 
+products and services at different times.
+How A Functioning Data Mining System Works
+Data mining is more about data preparation (and extraction) than 
+the sometimes wonderful possibilities of any given algorithm or set 
+of algorithms.  To unleash the power of these scalable data mining 
+tools, enterprises must select, clean, and transform their data; 
+perhaps integrate data brought in from outside sources; and 
+essentially establish a recognizable environment for data mining 
+algorithms.
+These procedures typically demand — at least initially — the skills of 
+data mining experts.  These experts apply their modeling skills in an 
+iterative and interactive development process of testing, validating, 
+and pruning that leads to the development of better models. 
+After data and model preparation, running an algorithm against data 
+is the most crucial data mining issue.  Executing an algorithm can 
+take from days to minutes, depending on size and complexity; 
+subsequent iterations require additional time, depending essentially 
+on the size of the data set.  Speed may be the most decisive factor in 
+achieving success.  For some data mining projects, an hour may be 
+acceptable; for others, woefully inadequate. 
+The Advantage Of An Integrated Solution
+Although users prefer a turnkey software solution that addresses a 
+specific vertical-industry application, most suppliers to date have 
+only delivered templates that help run algorithms against data.  A 
+complete, vertically tailored solution demands professional services. 
+To deliver these services, the supplier must possess business 
+knowledge for the specific application and data mining domain 
+knowledge. 
+At stake is the value of turning to a data mining system.  By 
+misapplying a data mining tool, an enterprise can squander new 
+market opportunities, not to mention millions of hard dollars.  The 
+more a solution is integrated (even if it is potentially less powerful), 
+the easier the adoption curve for the end-user organization.
+AberdeenGroup  24
+Data Knowledge Practice Summary
+Customer Relationship Management 
+CRM systems are designed to help enterprises track and respond to 
+customer behavior, typically by automating the analyses of customer 
+like and dislikes, grouping them into segments, and running various 
+promotions and campaigns to stimulated buying and loyalty.  
+Adjusting management’s perspective and the products or financial 
+instruments of the enterprise so that both continue to address the 
+desires of high-response, high-payback customers has been the 
+rational behind the CRM systems.  These systems are also called 
+marketing customer information files (MCIFs) in the finance and 
+banking industries. 
+Although the evolution of CRM systems is part of a tangled history, 
+and many enterprises, suppliers, and service bureaus are evolving, 
+Aberdeen is concerned in particular with the emergence of high-end 
+CRM systems.  These CRM and MCIF systems require several 
+interlocking and “calibrated” technologies, based on a foundation of 
+RDBMSs and scalable parallel processors.  These data-, labor-, and 
+technology-intensive database marketing facilities attempt to create 
+a “closed-loop” that enables the enterprise to:
+
+Strengthen customer relationships and cross sell by using 
+carefully targeted campaigns that track customers responses to 
+marketing endeavors.
+
+Reduce the expense of direct mailing. 
+
+Benchmark huge amounts of data.
+
+Use data mining techniques to predict customer attrition, 
+profitability, and promotion response, as well as to identify top 
+customers.
+
+Weave customer intelligence into the entire enterprise, 
+including such bread-and butter functions such as budgeting. 
+
+Push relevant information out to customer-facing applications 
+such as, for example, Sales Force Automation (SFA), in 
+applicable industries, or to Automated Teller Machines (ATMs) 
+in banking.
+
+Build new markets via new programs and new instruments. 
+
+Change business processes.
+How A Functioning CRM System Works
+To systematically locate customers whose buying behavior, whether 
+as groups or individuals, drives the success of the organization 
+AberdeenGroup 25
+Data Knowledge Practice Summary 
+requires the enterprise to understand what data is relevant, how it is 
+captured, and how it is moved throughout the enterprise.  This 
+logical view is physically modeled, and linked to the underlying 
+technologies, which in turn are tuned to each other. 
+Furthermore, the enterprise must gather and store customer, 
+product and third-party data, perform the cleansing and 
+householding functions typically associated with data warehousing.  
+User organizations must also continually analyze the information 
+with decision support tools, structured applications, and data mining 
+algorithms.  These results must be disseminated throughout the 
+organization. 
+Most of the emerging high-end systems are based on Relational 
+Online Analytical Processing (ROLAP) technologies (although 
+proprietary database-driven systems are available).  ROLAP allows 
+the enterprise to transform an RDBMS into a multidimensional 
+database that permits users to perform many OLAP functions, such 
+as drilling and pivoting in search for trends.  ROLAP requires 
+dimensional modeling, a labor-intensive process of transforming a 
+relational database into a multidimensional data store.  Building a 
+star or a more intricate form, called a constellation schema, requires 
+a deep understanding of RDBMS intricacies.  These preparatory steps 
+means that a substantial portion of the CRM is still an in-house built 
+system.  CRM systems also contain third-party campaign 
+management software for executing the manifold processes of 
+evaluating and refining campaigns and tracking their success. 
+The Advantages Of a Prepackaged System
+High-end CRM systems, which are essentially data warehouse 
+applications, are available from most of the well-known data 
+warehouse suppliers.  Large-scale CRM systems can cost between 
+$1.5 million and $2 million (when consulting is factored).  These 
+systems will be less expensive if the enterprise has in place many of 
+the data warehousing prerequisites, including an application 
+development environment, and facilities for such common tasks as 
+cleansing and householding data.
+To overcome some of these difficulties, and woo hesitant enterprises 
+away from service bureaus, most suppliers (typically hardware and 
+database vendors, are trying to streamline the implementation 
+AberdeenGroup  26
+Data Knowledge Practice Summary
+process.  The trend among suppliers is to pre-package the multiple 
+components required for a complete CRM system, typically using the 
+tools and applications of best-of breed third-party suppliers.  End- 
+users then rely on the services of a hardware or software supplier’s 
+systems-integration arm, or the services of third-party systems 
+integrators.  Each of these integrators typically supply industry-
+specific data models, which have been refined from previous 
+engagements with other enterprises, though not necessarily in CRM.  
+These packages can reduce the time an enterprise spends in 
+evaluating the bevy of tools on the market and can translate into 
+more efficient use of consulting dollars, which can be better spent on 
+tying the CRM backbone to customer-facing applications, or touch 
+points. 
+Other emerging forms of integration are specifically pointed at the 
+intricacies of data mining.  Suppliers and integrators, for example, 
+have created code that enables data mining algorithms to work upon 
+ROLAP content and database content without having to first “flatten” 
+the data, or perform other time-consuming and resource intensive 
+RDBMS-preparation steps before exercising the data mining 
+algorithms. 
+Other packages are now emerging that allow enterprises to either 
+leverage existing warehouses without having to precondition the 
+warehouse for CRM chores; or to evolve a CRM system, along with 
+business processes, via a self-adjusting and expandable data mart. 
+Integrating Customer Interaction Software and Data Knowledge 
+CIS applications — which include telemarketing, telesales, SFA, 
+external customer support/service and internal help desks — access 
+and update discrete databases and modules, each designed to excel 
+at a specific business task.  The CIS application contains facilities to 
+log, track, route, escalate, and close customer calls; and applies 
+similar processes for sales and marketing applications.  The CIS or 
+customer-support/help desk applications continually record the 
+nature of the interaction and summarizes which activities resulted 
+in a rapid resolution.  This continual recording of customer 
+interaction has resulted in CIS systems also being repositories of 
+customer likes and dislikes, buying patterns, and service 
+requirements.  In other words, CIS is also a repository of the 
+AberdeenGroup 27
+Data Knowledge Practice Summary 
+enterprise’s operational effectiveness.  Operational managers 
+throughout the enterprise want to tap in and to understand this 
+information.  Enterprises must become adept at analyzing not only 
+isolated performance but also interrelated performance of 
+complementary business activities. 
+To reach deeply into CIS and to search for the underpinnings of 
+operational effectiveness necessitates far more than static reports.  
+This deeper integration calls for the combined power of ad hoc 
+reporting and multidimensional analysis tools.  These facilities must 
+be pre-conditioned — by both the CIS supplier and the user 
+organization — to allow business workers to dynamically formulate 
+their own business questions. 
+How an Integrated CIS-DSS System Works 
+To achieve this end-user self-sufficiency, the enterprise and its CIS 
+suppliers must address the following:
+
+Either the CIS supplier and/or an enterprise’s decision 
+support/business specialist first must anticipate the likely 
+questions that end-users will ask and then embed the parts of 
+the corresponding queries into the tool environment, thus 
+preconditioning the tool; 
+
+These same parties must build the data aggregations that not 
+only enable end-users to formulate their own business 
+questions but also supply the ability to look quickly at results 
+across multiple business activities;
+
+The analysis environment must display the information in an 
+intuitive format and encourage end-users, each of whom may 
+have different skills, to drill down to more granular levels; and
+
+The DSS environment must not impose its mechanisms on the 
+way users work, but function as a natural extension of the 
+analytical information contained in CIS systems. 
+The Advantages of an Integrated CIS-DSS Solution 
+Robust DSS tools are now available from many sources, but the 
+process of marrying horizontal DSS tools to the enterprise’s best 
+practices is often expensive, time consuming and ultimately 
+distracting.  A prepackaged tool, which embeds a deep 
+understanding of the types of questions different business users will 
+ask, dramatically reduces the above expenses.  Moreover, an 
+integrated solution can “raise the bar” on CIS support by:
+AberdeenGroup  28
+Data Knowledge Practice Summary
+
+Supplying business users with the views of information that are 
+tailored to the business users specific task; 
+
+Giving a support center a “barometer” of its overall 
+effectiveness, as well as of its individual employees;
+
+Allowing the enterprises to proactively measure how well it has 
+been building relationships with its customers;
+
+Uncovering the types of knowledge and information that needs 
+to be conveyed to employees and customers to strengthen 
+interest and loyalty; and
+
+Pinpointing the early warning signals that can direct the 
+enterprise toward improving problem resolution, budgeting 
+and service commitments.
+Aberdeen believes that more integrated solutions will be introduced 
+in the next 12-24 months.
+Integrating Electronic Commerce & Data Knowledge
+Electronic Commerce (EC), as a term, describes computer-to 
+computer financial transactions, particularly the selling of products 
+directly to Internet buyers and using the Internet as a means to 
+integrate and manage business systems and business processes. 
+The State of Integration
+Much of the current EC-Data Knowledge integration is pointed at 
+securely packaging, distributing, and merchandising data over the 
+Web to internal users, business partners, and arms-length third-
+parties who are willing to pay for it.  This type of integration, 
+Aberdeen believes, represents only a first step; the market has much 
+more potential.  Suppliers of Query/Reporting/Analysis tools and 
+ROLAP software are the typical entrants into data-packaging portion 
+of EC.  Using fully encrypted facilities, users typically access data via 
+a Web browser to contents that can be offered by subscription, per 
+data table or row retrieved, or various combinations of the two.  
+Some early Data Knowledge entrants to this market give would-be 
+information providers the ability to give their subscribers Web-
+based query wizards that help information consumers retrieve the 
+data they need.
+Beyond the above type of integration, suppliers and user 
+organization are wrestling with finding the most expeditious means 
+to capture a complete picture of customer behavior and satisfaction, 
+AberdeenGroup 29
+Data Knowledge Practice Summary 
+as well as understand how well the user organization is performing 
+on the Web.  The goal, in general, is to stimulate buying behavior by 
+understanding a customer in the context of demographics and 
+psychographics — and act upon that understanding in as close to 
+real-time as possible. 
+Data Knowledge tools — query/reporting/ analysis tools and 
+multidimensional databases in particular — are appended, not 
+particularly integrated, at the tail-end of the process stream.  
+Whether these tools are directly integrated with a data warehouse or 
+a database specifically dedicated to holding Web-captured 
+information, user organizations face the challenge of tying together 
+Web-generated information with the user organization’s internal 
+data.  These two disconnected sources — data contained within Web-
+server log files; as well as user-profile data and transaction data 
+contained within a user organization’s database— is especially 
+problematic. 
+Integrating ERP & Data Knowledge
+Enterprise Resource Planning (ERP) systems are the preserve of 
+extensive, critical enterprise information.  These systems combine — 
+and extend — the principles of manufacturing resource processing 
+(MRP) with other enterprise applications such as finance and order 
+management.  Because these still evolving systems deliver a 
+comprehensive perspective about the enterprise, operations 
+managers are intensely interested in obtaining a deeper perspective 
+than the report writers that included in these systems can generally 
+give them.  Managers want to use these systems, for example, to 
+discover the interdependencies in supply chain management 
+activities. 
+How Data Knowledge and ERP Integration Takes Place
+Data Knowledge and ERP integration can take place in various ways 
+and to various degrees.  While ERP suppliers are now in the process 
+of delivering data mart and data mining extensions to their systems, 
+third-party suppliers of many transformation facilities and analysis 
+tools have already delivered mechanisms that ease the integration 
+process.  In addition to using basic report writers enterprise use the 
+following decision support-related strategies with their ERP systems:
+AberdeenGroup  30
+Data Knowledge Practice Summary
+
+Query/reporting/analysis tools against production data, with 
+templates supplied by tool providers to help map meta data 
+within these tools to complex ERP schemas;
+
+Siphon ERP data via in-house-built programs or newly 
+emerging transformation facilities into RDBMS-driven data 
+marts and data warehouses.  These data marts often contain 
+extracts from ERP systems of different suppliers; and
+
+Using the same mechanism link the ERP system to an MDB.
+The Benefits Of Integration
+ERP systems are based on notoriously complex schemas, which can 
+change as suppliers issue on-going releases.  Understanding these 
+schemas, and the places within ERP meta data where critical 
+information is contained, is the principle difficulty in integrating 
+DSS-related technologies with the system.  A fully integrated 
+package, including pre-tested and complete transforms, as well as 
+pre-built and extensible ad hoc and multidimensional views, would 
+significantly speedup installations and help enterprises increase the 
+value and reduce the labor and expense of the integration.  But 
+Aberdeen believes that no such a package exists today.
+Missing is the key element of the vertical-industry.  User 
+organizations involved in process manufacturing, for example, face 
+extremely complex challenges with ERP-DSS integration.  Unlike 
+some industries, they do not work with a standard bill of materials.  
+Rather, their day-to-day activities focus on highly variable 
+components and characteristics — for example, multiple units of 
+measures — involving complex structures that vary by batch, by lot, 
+and by order.  A truly vertically focused, integrated package could 
+deliver the analytics the user organization may not be able to deliver 
+by itself.  Moreover, such packages could, for example, focus on 
+delivering classical what-if style analysis, or on the difficulty of 
+delivering real-time performance indicators with content and form 
+that is appropriate for specific users.
+AberdeenGroup 31
+Data Knowledge Practice Summary 
+Chapter Four
+Impact of Major IT Trends
+
+The Internet has been — and will continue to be — the most 
+pervasive influence on Data Knowledge technologies, and on 
+how enterprises will tactically and strategically deploy them. 
+The addition of the Internet means new enterprise and extra-
+enterprise users, with many subtle and overt usage differences 
+among these user populations.  In addition, the Internet is 
+revealing the need for a variety of real-time applications, as 
+opposed to batch applications.  The Internet’s ability to allow 
+technologists to prepare Data Knowledge environments on a 
+centralized server and “narrow cast” views of information 
+specifically tailored for individuals is the driver behind in-
+house intranets; as well as so-called extranets, which use the 
+Internet for secure business-to-business analytic applications.  
+The Internet is also changing how third-party information 
+providers, for example, carve off slices of their databases for 
+their customers, and how they “charge per drink.”  Indeed, the 
+Internet is creating the possibility for end-user organizations to 
+leverage their infrastructures and become third-party 
+information providers. 
+
+The transition to client-server and network-centric applications 
+for both suppliers and user organizations involves supporting 
+dual strategies.  The Internet has demanded that many 
+suppliers recreate significant portions of their technologies, 
+adjust their pricing models, and alter the balance between 
+direct and indirect channels.  Not only have most suppliers had 
+to get closer to the needs of line-of-business users, they have 
+had to do so in the context of specific industries.  User 
+organizations have another set of considerations.  While 
+supporting client-server end-users (for example, business 
+analysts) enterprises must now consider what information will 
+most benefit the majority of their user constituents.  This 
+concern will change many data warehouse topologies, where 
+the central warehouse will be organized as a post-data-
+transformation facility, designed for feeding data marts, but not 
+for information analysis. 
+
+Year 2000 issues, Aberdeen believes, will not drive down 
+spending for Data Knowledge, although it is encouraging IT and 
+line-of business executives to consider taking a more tactical 
+AberdeenGroup  32
+Data Knowledge Practice Summary
+approach to many of their Data Knowledge needs.  Although the 
+depth of the correlation is impossible to measure, the need for 
+data mart style and low-cost, quick-install technologies is 
+related to resource conservation.  In addition, Global 1000 user 
+organizations, have implemented or are well underway with 
+their data warehouse infrastructures.  They are now targeting  
+infrastructure leveraging applications.  Many of them are now 
+cleaning up their still-useful legacy reports and using their 
+transformation facilities to catch and rectify potentially 
+dangerous Year 2000 code glitches.  Aberdeen believes that Year 
+2000 concerns have had a positive effect on users of Data 
+Knowledge; many are now less “hyped up” and are judiciously 
+choosing their Data Knowledge battles.
+
+Object orientation is particularly relevant for creating and 
+administering end-user analysis environments.  Using object-
+oriented, inheritance-based administration facilities, one or 
+more administrators can build, change, or delete catalogs, and 
+alter business rules and access a privileges.  These changes are 
+automatically reflected throughout the entire analytical 
+environment — a significant feature when supporting 
+hundreds or thousands of users.  Object orientation has also 
+been an effective underpinning in helping enterprises perform 
+intricate financial analyses.  A company’s chart of accounts — 
+including balance sheet, income statement; cash flow, tax rates 
+and exchange rates —can roll up from multiple perspectives, 
+based upon whatever financial calculations reflect the 
+organization’s practices.  Rather than working with difficult 
+SQL, workers can analyze data by dragging and dropping 
+relationships.  When performing a what-if scenario, the 
+function of object-oriented inheritance is to recognize those 
+portions a process that are affected when performing a 
+computation, significantly reducing the processing load 
+involved.  Critically important, object-orientation can 
+contribute to a financial system’s ability to remain in a 
+consolidated state. 
+
+Microsoft’s decision-support threat, in the form of Plato, a 
+decision-support technology the company acquired from Israel-
+based Panorama software and that Microsoft is now beta 
+testing, has been a catalyst to many changes in the decision 
+support market, even before its planned shipment later this 
+year.  Its presence on PowerPoint slides alone has already 
+contributed to driving down the price of many presumable 
+competitors.  (This trend was well underway, driven by the 
+AberdeenGroup 33
+Data Knowledge Practice Summary 
+economies of the Internet; and Microsoft laid on one more 
+straw.)  Moreover, the threat of Plato has been forcing many 
+suppliers to escalate developments, which are pointed, 
+typically, at higher ground.  Query/Reporting/Analysis software, 
+for example, is taking on many of the attributes of ROLAP.  
+Many suppliers have publicly embraced Plato, and have 
+already or plan to partner with Microsoft — although officials 
+of these partners say they are not quite sure what Plato is. 
+
+Plato, which Microsoft has described as a new OLAP server for 
+SQL Server 7.0, combines caching techniques with detail and 
+aggregate data held in SQL Server.  According to Microsoft, 
+Plato can be used as a desktop MDB, ROLAP, and/or a Hybrid of 
+the MDB/ROLAP model.  The value of this approach, at least 
+according to Microsoft messaging, is that it will spare user 
+organizations from most of the ills of other technologies — slow 
+initial and incremental loading of databases; database sizes that 
+are too large because of technological inflexibility, and high cost 
+of ownership.
+Supplier Success Factors
+Each Data Knowledge supplier is beset with challenges specific to the 
+class of tool, but each must demonstrate flexibility across three 
+broad categories: custom-built applications, packaged applications, 
+and quick-build-and-deploy variations of the previous two 
+categories.  Moreover, each Data Knowledge supplier must be able to 
+demonstrate how it weds these requirements in the context of a 
+specific vertical industry.  (Suppliers of horizontal Data Knowledge 
+applications must follow the general tenor of this rule, as well, and 
+should be especially concerned with demonstrating how it leverages 
+the value of related tools.)  While speed of implementation will 
+continue as a measurement criteria, speed is being paired with depth 
+in evaluations.  The new measurement criteria will call for suppliers 
+— particularly in the data warehouse, data mart, CRM, and ERP/DSS 
+space — to demonstrate how close they can come to offering a 
+prepackaged solution that can be tuned to the specific needs of an 
+enterprise in the shortest period of time.  What follows are some 
+supplier considerations for Data Knowledge technologies. 
+
+The data warehouse suppliers, particularly those who had 
+positioned themselves as best-of breed suppliers during the 
+early phases of data warehousing, now face challenges on 
+several fronts.  Early adopters have implemented; many of these 
+AberdeenGroup  34
+Data Knowledge Practice Summary
+leading-edge enterprises are now looking for applications 
+rather than infrastructure or plumbing.  Those suppliers 
+wishing to attract next-stage data warehouse implementers — 
+those enterprises that are trying to play catch up with their 
+competitors — need to address the following considerations.
+
+Suppliers must have an NT and an NT-to Unix strategy, 
+because new users and the installed base are inclined 
+toward quick-install data marts (whether based on the 
+relational model or an MDB).
+
+Position the data warehouse as a central facility that can 
+feed numerous data marts — whether driven by a 
+relational or MDB system — with refreshed data on 
+command or subscription.  This topology can reduce 
+network and operational-systems overhead caused by 
+redundant data feeds and processes.  Moreover it can 
+reduce the labor caused by duplicating summary 
+information. 
+
+The possession of an industry-specific data model 
+combined with the skills of seasoned consultants will be 
+not be sufficient to meet the challenges of many user 
+organizations.  Success will be based on how well an 
+extensible industry data model is related to a specific 
+database schema and the chores in a specific industry that 
+the schema will help perform. 
+
+Successful suppliers in vertical-industry data warehousing 
+have largely embraced ROLAP.  But they are not relational 
+purists.  They combine object-oriented techniques, such as 
+object linking, and often use C rather than SQL to perform 
+selections that essentially establish the “where” clause in a 
+query.  The point is not that the merchant database is 
+capable of such extensions, but that the supplier using the 
+database has wrapped the capability in a data warehouse 
+application. 
+
+Those suppliers targeting specific industries should borrow 
+a page from suppliers that have “pre-fabricated”, extensible 
+data warehouses.  These suppliers have end-user analytical 
+environments comprised of a combination of structured 
+applications and ad hoc querying. 
+AberdeenGroup 35
+Data Knowledge Practice Summary 
+
+Data marts, which are generally departmental in nature, need 
+to confront many of the same problems as data warehouses, 
+albeit on a different scale.  Speed, depth, and extensiblity — 
+with a heavy dose of industry-specific/departmental content — 
+will drive supplier success. 
+
+Suppliers must have also an NT and an NT-to Unix strategy. 
+
+Newer relationally-driven data mart technologies should 
+include transformation environments for bringing legacy 
+information into the data mart, for organizing this content 
+for analysis, and for periodically refreshing the 
+environment. 
+
+Pure MDBs in a data mart context will have difficulty 
+taking the prepackaged route, principally because the 
+power of these tools is directly related to the enterprise’s 
+multidimensional modeling skills.  The MDB suppliers will 
+increase their value to a larger segment of the enterprise 
+when they introduce methodologies that can ease this 
+burden. 
+
+Suppliers of pure MDBs need to demonstrate the prowess 
+of their technologies as the underpinning of an applications 
+—for example, budgeting, financial systems, and balance 
+score cards. 
+
+Relational OLAP suppliers face increased competition from a 
+variety of sources, particularly at the low end of their market.  
+Query/Reporting/Analysis tools, which obviously work with 
+relational databases, are beginning to blur some of the 
+boundaries.  Another competitive incursion is being led by MDB 
+suppliers, as they refine their systems to tackle larger amounts 
+of data and tighten integration with various relational 
+databases.  Further competition is coming from vertical-
+industry data warehouses and data mart suppliers; these 
+suppliers have created innovative schema building facilities 
+and/or have used object-oriented extensions.  To be successful 
+ROLAP suppliers must consider:
+
+Partnering with other suppliers that have an entrenched 
+presence in specific industries and cooperating with these 
+suppliers to tighten the integration (via code) between each 
+of the tools. 
+AberdeenGroup  36
+Data Knowledge Practice Summary
+
+Continuing to demonstrate a proficiency on the Web that 
+helps create new classes of information providers for 
+specific industries. 
+
+Running repeatable benchmarks with RDBMS and 
+hardware suppliers to demonstrate the performance of 
+ROLAP analysis against chores (with many dimensions and 
+at a deep detail level) that no other technology can 
+perform.
+
+Finding ways to speed up the creation of star schemas and 
+other variations of the star via automatic or semi-automatic 
+schema generators.  Database administrators (DBAs)could 
+extend the value of these generators with dimensional 
+modeling techniques.
+
+Multidimensional databases (MDBs) are especially effective 
+when integrated within applications, such as financial 
+accounting.  The ability of relevant workers to write to the MDB 
+is a key benefit, although not all MDBs support this function.  
+MDBs effectively participate in the creation of multiple rollups, 
+for such activities as operating, legal, and product 
+consolidations.  MDBs facilitate what-if analysis.  The speed of 
+an MDB is a fundamental part of keeping a financial system 
+current, as well as for prompt closes.  MDBs are also effective 
+mechanisms for supplying mangers and other executives with 
+up-to-date reports on the financial state of the enterprise.  
+Although suppliers of MDBs have made tremendous strides in 
+refining their systems to leverage the Web and in deepening 
+integration with RDBMS suppliers should consider:
+
+Providing facilities that reduce the now burdensome chore 
+of modeling the database.
+
+Augmenting batch loading with real-time loading facilities.
+
+Building better links to operational applications such as 
+ERP.
+
+Tightening integration with transformation facilities that 
+are now used for data warehouses and RDBMS-based data 
+mart.
+
+Creating meta data facilities that help cube developers of 
+leverage existing cubes and databases.
+
+Leveraging these facilities by exposing the contents to 
+analysts that need access to data residing in separate cubes.
+AberdeenGroup 37
+Data Knowledge Practice Summary 
+
+Participating with RDBMS suppliers in building optimizers 
+that can automatically point a query to either and RDBMS 
+or to a MDB.
+
+Query/Reporting/Analysis tools are in a seemingly 
+continuous transformation — a state driven principally by 
+the reception of the Internet as an economical means of 
+distribution.  Suppliers of these tools first and foremost 
+must demonstrate their prowess on intranets and 
+extranets, and relate their value-add to analysts, managers, 
+or non-specialist information consumers.  Suppliers must 
+also reduce the burden of the technologists responsible for 
+building and administering these systems.  Moreover, new 
+entrants to the market must face the financial and technical 
+wherewithal of suppliers already dominating this space.  
+To win, suppliers must: 
+
+Add facilities that will meet the needs of enterprise 
+reporting.  This concept is essentially an IT-driven 
+approach to supplying a virtually unlimited number of 
+users, customers, and partners with access to management-
+blessed information contained within key enterprise data 
+sources, and it is secure and centrally managed. 
+
+Build systems that run in Web and/or client-server-
+configurations.  The browser interface should reflect the 
+skills of the users.  Suppliers should consider avoiding 
+attempts to re-create their desktop functionality on 
+browsers.  Specialists will continue to use the client-server 
+configurations. 
+
+Provide security.  End-users will stress test backdoor access 
+through report servers and catalogs.
+
+Deliver strong facilities for quickly developing hyperlinked 
+reports and individual report subsets, using shared 
+libraries of reusable object.  They must also have the ability 
+to schedule the running and printing of batch reports.
+
+Provide support for NT and Unix.
+
+Deliver systems that can access data from virtually any 
+source in any format. 
+
+Data mining suppliers, particularly of the enterprise-class tools, 
+must realistically confront the needs of LOB users who sponsor 
+the project.  These users are looking for technologies that 
+AberdeenGroup  38
+Data Knowledge Practice Summary
+demonstrate value in specific vertical-industry applications, 
+and against even more refined challenges such as CRM systems. 
+Successful suppliers need to provide: 
+
+Scalability , or the ability of the data mining toolset to 
+quickly analyze large amounts of the data. 
+
+Vertical focus via application templates (a.k.a. frameworks) 
+or business-domain knowledge that the LOB can use to 
+build the data mining application.
+
+Professional services that can assist the user organization 
+in implementing and refining data mining projects.
+
+Multi-platform support, which increases the likelihood that 
+the supplier’s toolset runs on an enterprise’s existing 
+platforms.
+
+Breadth, or the ability of a data mining toolset to perform 
+more than one of the three basic data mining functions: 
+prediction, clustering, and affinity. 
+
+Depth, or the possession of  more than one algorithm to 
+targeted at the same function, say, clustering.  Depth gives 
+the enterprise flexibility of choice. 
+
+Life-cycle support, or the ability of the data mining tools to 
+ease the burden of data preparation, and the process of 
+refining models. 
+
+The ability of the tools to integrate with existing data 
+warehouses.
+
+Sampling, or the ability to use a subset of data to predict, 
+for example, trends existing within a larger data set.
+Suppliers should focus on ease of use, not only during the modeling 
+phase but for the business user who must understand the results.  
+Command line interfaces must be replaced with GUIs.
+
+Customer Relationship Management can be viewed as an 
+extension of data warehousing and data mart principles, but 
+those suppliers that fail to take into account customer-facing 
+applications (such as Sales Force Automation), and the on-going 
+need for the enterprise to adjust its processes toward the 
+customer will find themselves struggling against new entrants 
+to this market, as well as the resurgence of newly recreated 
+marketing-data service bureaus.  Below are several 
+considerations that should increase a CRM suppliers success in 
+the market.
+AberdeenGroup 39
+Data Knowledge Practice Summary 
+
+Eliminate the unrealistic expectation that the CRM facility 
+can truly deliver one-to-one marketing.  Buyers are wary of 
+such claims.
+
+Offer industry specific data models that speed-up 
+implementation and elevate the consulting role.
+
+Integrate core technologies — for example, relational 
+databases, data mining, and campaign management 
+software — with code, as opposed to mere APIs.  An 
+example is the ability of a data mining algorithm to work 
+seamlessly with a ROLAP environment, obviating the need 
+to “flatten” relational data to work with the data mining 
+tool. 
+
+Examine and potentially include new, sophisticated 
+schemas that combine automatic schema-building facilities 
+with business rules embedded within meta data.  As 
+business rules change, the system automatically adjusts its 
+schema to reflect the changes.  This type of facility permits 
+the enterprise not only to adjust its CRM iteratively, but, 
+equally important, to build it iteratively.  Moreover, the 
+schema can easily give end-users the ability to  
+transparently move between, say, orders and shipments.  
+Those suppliers counting solely on the power of the 
+RDBMS, ROLAP, and scalable hardware to perform 
+database-intensive CRM chores will only have solved a 
+portion of CRM problem.
+
+Look for technologies that reduce the workload on RDBMS. 
+Real-time multidimensional analysis techniques, 
+particularly those designed to hold the MDB in cache, can 
+help pinpointing customer populations that have specific 
+characteristics, and speed up the relevant analysis on that 
+user population. 
+
+Partner with emerging suppliers that have expertise in 
+capturing Internet transactions.
+
+Create bi-directional information flows between customer 
+facing applications and the central CRM facility and create 
+integration partnerships with suppliers specializing in 
+these technologies.
+
+Integrating Customer Interaction Software and DSS.  Most 
+suppliers that have opened CIS to the scrutiny of decision 
+AberdeenGroup  40
+Data Knowledge Practice Summary
+support have not tailored DSS access to the unique 
+characteristics of CIS.  And the overriding weakness with most 
+current DSS-CIS integration is that it places multiple burdens on 
+the shoulders of the user organization.  Aberdeen believes that 
+the competitive edge will go to suppliers that have adopted 
+decision support as a central design feature of their CIS 
+applications.  This integration must be pointed toward the user 
+organization’s need to integrate customer-support applications 
+with complementary systems used for telemarketing, telesales, 
+and sales force automation.  These systems must anticipate that 
+user organizations recognize that changes in one business 
+activity will likely effect another activity.  What follows are 
+considerations that suppliers can factor for deepening CIS-DSS 
+integration:
+
+Combine multidimensional query and reporting tools as 
+well as simple query and reporting software into a 
+framework. 
+
+Include templates that anticipate the majority of questions 
+workers will ask of CIS, and the guidance to create the 
+logical and physical connections necessary to answer the 
+questions. 
+
+Add value by aiming guidance at the needs of different 
+classes of users and at the types of correlations that would 
+benefit a worker's task. 
+
+Devise the system so that each activity rolls up to a 
+summary level, expressed in a highly visual and therefore 
+easily digestible manner. 
+
+Prepared the system to permit not only detail-data 
+explorations but examinations of cross-functional 
+relationships when required (refer to user success factors 
+for suggested cross functions).
+
+Include facilities for real-time decision support, delivered 
+via push technology, and pointed at helping support center 
+representatives with such activities as cross-selling.
+
+Add software agent facilities that can automatically notify 
+end-users when certain thresholds are exceeded.
+
+Integrating Electronic Commerce and Data Knowledge — 
+beyond the current practices of selling views of a database over 
+the Web or of pulling contents from EC-databases into data 
+warehouses or data marts — is one of the biggest challenges 
+AberdeenGroup 41
+Data Knowledge Practice Summary 
+facing EC and Data Knowledge suppliers, alike.  By partnering 
+with suppliers and systems integrators specializing in EC, 
+suppliers of data marts and OLAP-style tools have a compelling 
+opportunity to pre-build specialized data marts to support line 
+management responsibilities, particularly in the areas of 
+marketing and customer service.  Other opportunities abound.  
+What follows is a shortlist of EC Market segments and areas in 
+which Data Knowledge analysis can be embedded.
+
+Marketing, including product marketing collaboration, 
+marketing intelligence collaboration, on-line promotions, 
+support of sales.
+
+Customer service, help desk and transaction status.
+
+Distribution and logistics, including logistics planning.
+
+Procurement, including order processing, billing, cross 
+supplier analysis, analysis of buyers’ behavior (for both the 
+customer and the buyer).
+
+Sales to order, including analysis of trend analysis who is 
+buying what products, and fulfillment success, and spot 
+market analysis. 
+
+Supply Chain Management and logistics (refer below to 
+Integrating ERP and Data Knowledge). 
+Suppliers hoping to dominate the EC/Data Knowledge space need to 
+take above usage scenarios into account when developing products 
+and technologies. 
+
+Integrating ERP and Data Knowledge is still at a relatively 
+primitive stage, although many Data Knowledge suppliers have 
+made significant strides in various ways to help locate, 
+transform, and analyze the contents of an ERP application.  
+However, suppliers vying for attention in this category cannot 
+afford to view ERP as just another source for a data warehouse, 
+data mart, or analytical environment.  The reason is that ERP is 
+changing dramatically.  Aberdeen is witnessing a convergence 
+of processes across functional applications, or domains.  
+Although within these domains suppliers and user 
+organizations understand the underlying data sources, 
+increasing specialization by vertical industry will necessitate 
+that suppliers add value via industry-specific expertise in an 
+ERP/supply-chain context.  Furthermore, each of the leading 
+ERP suppliers has embarked on programs to supply Data 
+Knowledge abilities as part of the effectiveness of their solution. 
+AberdeenGroup  42
+Data Knowledge Practice Summary
+As Data Knowledge suppliers hunt for markets that will propel 
+their success that suppliers should consider:
+
+Entering into formal technology integration programs and 
+partnerships with ERP suppliers to fill a voids that an ERP 
+supplier cannot address alone, whether because of time or 
+tool-specific knowledge.
+
+Specializing in specific industries and specific domains as 
+opposed to applying a broad brush stroke to ERP.
+
+Concentrating on delivering real-time analytics, 
+particularly performance indicators in a content and form 
+that is appropriate for many different types of users.
+
+Focusing on the reduction of the overhead that direct 
+analysis against and ERP application causes.
+Refining the analytical environment so that it is tuned 
+to rapidly capturing on the changing data. 
+AberdeenGroup 43
+Data Knowledge Practice Summary 
+User Success Factors
+Data Warehouse 
+First and foremost data warehouses require buy-in from executive 
+management.  Once that vote has been obtained, numerous user 
+organizations interviewed by Aberdeen recommend following a 
+formal methodology, geared toward highly focused, iterative 
+development cycles.  This iterative approach to building interlocking 
+data warehouse pieces (for example, in different subject areas) has 
+given many enterprises a quicker return on a data warehouse 
+investment.  For those enterprise adopting a packaged, vertical-
+industry-specific data warehouse, a formal methodology used as a 
+yard stick can help the enterprise perceive the value in the package 
+and estimate what role in-house resources, the supplier, or a third-
+party consultant needs to bring to the final steps of “stitching” the 
+prepackage warehouse into a working solution.
+Moreover, Aberdeen believes that the earlier in the cycle and the 
+more accurately an enterprise refines its data warehouse strategy, 
+the more likely it will accrue the twin benefits of scalability and 
+processing-resource conservation.  Those user organizations 
+interviewed recommend soliciting the consulting help of suppliers 
+and systems integrators for one or more of the numerous steps in 
+planning and building a data warehouse.  From a macro view, the 
+user organization should be concerned with the ability of the system 
+to change over time, to scale, and to adapt to technological 
+innovations that affect the warehouse as well as technologies that 
+leverage the warehouse. 
+The chief concern of course is that the warehouse is geared toward 
+answering the business questions of users.  Those users can be 
+directly analyzing data warehouse contents or using those contents 
+on another platform, for example, a data mart.  User needs should be 
+thoroughly understood at the outset of a warehouse project.  What 
+follows are key recommendations for users evaluating data 
+warehouse implementations:
+
+A shortlist of data warehousing steps must include,  
+interviewing representatives of the end-users who will need to 
+work with the data warehouse; architecture planning, 
+including whether the data warehouse will support analysis or 
+will serve solely as a feeding system to data marts; database 
+AberdeenGroup  44
+Data Knowledge Practice Summary
+design; project planning; platform selection; identification of 
+business metrics; project management; business rules 
+modeling, data modeling; business subject area analysis; 
+subject area implementation; business analysis; data 
+warehouse design reviews; sizing and capacity planning; 
+locating the legacy data and determining the transformations, 
+and cleansing the data where appropriate.
+
+Because data warehouses are composed of many parts and 
+processes, successful user organizations often recommend 
+soliciting a request for proposal at several phases of the 
+implementation cycle.  Where consultants are called in, success 
+in terms of speed of implementation is directly related to the 
+consulting teams vertical industry skills in data warehousing.  
+The skills of two consultants — one who has an understanding 
+of a vertical industry and another skilled in data warehousing 
+are not necessarily equal to a single consultant who has 
+vertical-industry data warehousing skills. 
+
+At team composed of a business sponsor, an IT representative 
+(typically a DBA who will become the steward of the 
+warehouse), and a representative of each user constituency are 
+typically needed to drive a data warehouse to success. 
+
+To secure end-user buy-in, these individuals must be brought in 
+at the outset of the project. 
+Data Mart
+Many of the issues listed above can serve as guidance for the 
+creation of the data mart, but the steps for building a data mart are 
+less rigid.  This is because data marts are largely controlled by the 
+business unit in which they reside; business units "contract" with 
+information systems departments to supply the data needed for 
+analysis. 
+Whatever the technology platforms an enterprise selects, Aberdeen 
+believes that the individual business units within the enterprise 
+should at least work from a high-level (as opposed to detailed) data 
+model and common enterprise metrics.  Common metrics, such as 
+Revenue, will ensure that separate analysts are working from the 
+same set of assumptions.  Whether the user organization uses 
+dependent or independent data marts will be based on many factors. 
+Chief among them is whether or not the organization has a 
+AberdeenGroup 45
+Data Knowledge Practice Summary 
+warehouse.  Below are some of the considerations for successful data 
+marts:
+
+Make sure that the data mart will be able to answer the 
+questions of its users and that the style of interaction with the 
+system is consistent with the skills and tastes of these users. 
+
+Anticipate whether the data mart will need to grow vertically, 
+horizontally through the addition of more data marts, or 
+whether the system will be used to answer a short-term need 
+before being discarded.
+
+Make sure that the underlying hardware, whether NT- or Unix-
+based, can be expanded vertically and horizontally without 
+disrupting operations. 
+
+Many data marts have been developed that significantly reduce 
+the time for installation, and allow in-house implementers to 
+bring the system into production without outside help.  These 
+systems are typically pointed at horizontal applications, such as 
+sales and marketing.  More sophisticated data mart 
+implementations, which are aimed at analyzing characteristic 
+of specific businesses within specific industries,  should follow 
+the spirit of data warehousing.  Thus user organizations should 
+look for supplier of hardware or software and systems 
+integrators that are skilled in both the data mart and the 
+industry. 
+
+Project teams are typically composed of technologists from the 
+LOB that will deploy and control the warehouse; 
+representatives of the users who will access the systems; and a 
+representative of the IT community who will negotiate service 
+level commitments for delivering data. 
+Relational Online Analytical Processing
+ROLAP is exceptionally good at handling large data set challenges 
+and leveraging the advance indexing structures of RDBMSs.  
+Successful user organizations interviewed by Aberdeen expressed 
+the need to engage in detailed up-front planning.  Usually 
+consultants from the ROLAP supplier, as opposed to RDBMS and 
+hardware suppliers, were mentioned as critical for “calibrating” 
+these big environments to the needs of large (multiple-hundreds) of 
+users.  Of particular importance is the need to:
+
+Treat the underlying dimensional modeling requirements as 
+part of the process of building the data warehouse or the data 
+mart.  By doing so, the user organization is inclined to follow 
+AberdeenGroup  46
+Data Knowledge Practice Summary
+the typical best practices that have evolved in the data 
+warehouse and data mart disciplines. 
+
+Look for a ROLAP supplier that has been in the user 
+organization’s industry and that can prove its success at 
+running applications having similar characteristics.
+
+When choosing a ROLAP solution within the context of a pre-
+packaged vertical application, make sure that total application 
+is flexible enough to allow changes in the future.
+
+Thoroughly evaluate whether the most relevant ROLAP 
+processing styles can fit within the user organization’s 
+architecture and network requirement.  Some processing styles 
+perform all processing — joins, aggregations, and calculations 
+— within the database by using temporary tables, then issue 
+results.  Others parcel these chores between the SQL engine, 
+which performs user-defined analytics and other common 
+types of analysis, while performing resource-intensive multi-
+pass queries within the database.  Each has their implications 
+for network traffic and the load on the RDBMSs.
+Multidimensional Databases
+MDBs are typically deployed and managed by the line of business.  
+Technologists in the LOB need to have an especially deep 
+understanding of the application and the technology.  The value of 
+supplier consulting to the user organization is directly dependent on 
+whether the implementer has experience with the specific 
+technology.  Where consulting is applied, knowledge transfer is a key 
+criteria. 
+Successful users of MDBs have matched application needs to the 
+different types and variations of multidimensional technology.  Core 
+elements include:
+
+Client-side MDBs, which down load data from RDBMSs or other 
+MDBs and which are particularly good for analyzing megabytes 
+of information. 
+
+Server MDBs, which typically store all the dimensions and pre-
+calculate most of the data, thus providing analytical speed.  
+Many have commonly used industry specific calculations 
+embedded within them. 
+
+Multicube architectures, which generally create smaller 
+multidimensional structures, called cubes, that comprise an 
+entire cube.  These structures can be very effective when data 
+AberdeenGroup 47
+Data Knowledge Practice Summary 
+changes frequently because architectural tricks allow the data 
+in the discrete cubes to be refreshed without affecting other 
+cubes.
+
+RAM-based MDBs, which hold the multidimensional structure 
+in memory, are particularly fast, correspondingly expensive, 
+and low on the scalability chart.
+
+A hybrid of ROLAP and MDBs, which can solve in many 
+instances the slow query speed of ROLAP and the database size 
+limitations of current MDBs also exist.  These systems allow 
+joins between MDB and relational data. 
+
+Using these basic technologies as a foundation, successful user 
+organizations analyze a matrix of factors including :
+
+Whether one or more of the technologies can perform the 
+analytics required for the application.
+
+The time required to model, initially load, remodel and refresh 
+the multidimensional structure and how that measure will 
+affect the application itself as well as data processing windows 
+of the feeding transaction windows.
+
+The proven success of a given technology within the vertical 
+industry. 
+
+Whether the line of business or IT have the skill needed to work 
+with a particular MDB.  The skills needed for one systems do 
+not necessarily carry over to other systems.
+
+If the users have or can acquire the skills to interact with the 
+MDB. 
+Query/Reporting/Analysis
+User organizations that have successfully implemented this style of 
+application to a broad spectrum of end-users have generally evolved 
+their architectures in lock-step with refinements that suppliers have 
+been able to make over the years.  Since success is directly 
+dependent on fashioning a system that different types of end-users 
+will find beneficial, these organizations have spent considerable time 
+in analyzing the different needs of users.  Since user interest in the 
+facilities is a major aspect of success, even small departmental 
+systems must thoroughly represent user needs.  These user groups 
+include:
+
+Business analysts, who typically require desktop versions of the 
+tool for ad hoc queries, multidimensional analysis, and to serve 
+a role as authors of reports to other users.
+AberdeenGroup  48
+Data Knowledge Practice Summary
+
+Executives and managers, who need Web-based reports, with 
+light multidimensional analysis and querying.  These are 
+typically performed through the help of pre-established, though 
+flexible, parameter-driven reports.
+
+Knowledge workers, who require browser-based facilities that 
+permit some ad hoc access, and are particularly enthusiastic 
+about “paramaterized” query and reporting.
+
+Information consumers, the largest majority of workers who 
+need browser-based access to relevant canned queries and 
+pages of reports.
+
+Technologists who sometimes build reports but are generally 
+responsible for implementing and administering the system. 
+Given the different needs of each constituency and the different skill 
+levels, successful enterprises have found that suppliers must offer 
+the combination of a strong analytical engine and an equally 
+proficient, and flexible, browser-based reporting facility.  Where a 
+given supplier has a weakness in a specific area, successful user 
+organizations have either lobbied for additional functionality or 
+swapped in components from other suppliers. 
+One of the most critical components for present and continued 
+success is the strength of administrative facilities, particularly in 
+automatically disseminating changes throughout the facilities, in 
+applying deep security, and in scheduling the running of reports.
+Data Mining
+Successful data mining initiatives are generally led by the line of 
+business, which typically enlists the support of information 
+technologists.  In many instances sophisticated user organizations 
+have in-house data mining experts that can facilitate a project and a 
+search for suppliers.  Many of these user organizations are already 
+doing a significant amount of mining; their goal is to either enrich 
+their data mining arsenal, absorb new industry-specific content, 
+and/or unburden themselves of having to continue catering to an in-
+house systems 
+Successful data mining organizations learn quickly that a thorough 
+business case is essential — a prelude to finding the appropriate 
+technology.  An established a cross-functional team creates this 
+business case and measures the available technologies against this 
+AberdeenGroup 49
+Data Knowledge Practice Summary 
+need.  When looking for a supplier the success of the user 
+organization is driven by:
+
+Finding suppliers that have one or more algorithms that have 
+been proven successful in the user organizations specific 
+industry.
+
+Selecting technologies that have been surrounded by relevant 
+applications.
+
+Engaging consulting organizations that have successfully 
+implemented the applications in an industry-specific context
+
+Making sure that the data mining technologies can leverage 
+existing warehouses and that they can participate with other 
+Data Knowledge tools in delivering meaningful, interpretable 
+results to the user community.
+
+Deciding if the business needs can be met, over both the short 
+and long-term, by a tool that is based on sampling techniques or 
+one that is capable of running against large data sets.
+
+Choosing an underlying hardware and software system that is 
+capable of scaling to large data sets, as well as speeding up 
+typical data mining analyses.
+Customer Relationship Management
+As stated earlier, Customer Relationship Management has many 
+affinities to data warehousing, and it can be viewed in a narrow 
+sense as a data warehousing application.  However, if the user 
+organization focuses CRM too narrowly on the data warehouse, the 
+organization will fail to achieve its goal of getting closer to its 
+customers.  Customers do not live, purchase, and communicate in 
+the data warehouse; these activities are more accurately the 
+province of seasoned SFA and Customer Support applications.  
+Moreover, CRM is not simply an IT-centric project or the problem 
+solely of the marketing department.  It is a technology that should 
+affect the entire organization.  Enterprises trying to achieve CRM 
+should consider the following observations. 
+
+CRM success is directly related to getting the blessing of top-
+executive management because of the potential benefits and 
+upheaval to the organization.
+
+User organizations fair better when they anticipate and 
+embrace changes to business processes.
+
+The organization must assess whether it is technologically and 
+culturally ready to adopt CRM.  This assessment, usually 
+AberdeenGroup  50
+Data Knowledge Practice Summary
+performed with the help of a specialist consultant, will help the 
+organization decide to what degree it will bring CRM in house. 
+
+The data warehouse-like steps followed in creating these 
+systems must include a substantial amount of database 
+scrubbing and householding to ensure an accurate 
+understanding of the customer and the customer base.
+
+Anticipate that the mainframe in many industries will continue 
+to play a role in some CRM topologies.
+
+Although service bureaus are not designed to weave a 
+relationship marketing awareness into the user organization, 
+they can continue to play a significant role for parts of an on-
+going initiative.  With strong focus on helping launch 
+relationship marketing campaigns off of mainframe data, they 
+can be valuable resources for parts of the user organization’s 
+strategy.  For many smaller and mid-size organizations, service 
+bureaus and/or desktop tools can be the entire strategy.  
+Moreover, these service bureau’s are beginning to reinvent 
+themselves, particularly via Web-driven delivery mechanisms, 
+making them increasingly attractive to the mid-sized 
+enterprises. 
+
+Full-scale CRM systems will demand that suppliers and 
+integrators fully grasp the process and data flows involved in 
+the multiple stages of customer treatment.  Aberdeen believes 
+that, if the enterprise plans to get truly close to its customers, 
+CRM systems must interact bi-directionally with the so-called 
+touch points, including SFA and Customer Support applications. 
+The Integration of Customer Interaction Software and DSS  
+Few user organizations have been able to truly integrate DSS into CIS 
+because the emergence of tools and guidance is only now occurring.  
+Aberdeen interviews with user organizations that are implementing 
+deeply integrated systems show that they have needed the assistance 
+of a CIS supplier’s consulting organization.  This assistance has been 
+needed for two purposes: to understand the nuances of 
+multidimensional analysis techniques and, equally important, to 
+reflect the numerous business questions that will need answering 
+within multidimensional tools.  Users say that they anticipate 
+needing:
+
+To analyze not only customer-support applications but also 
+complementary telemarketing, telesales, and SFA systems, 
+AberdeenGroup 51
+Data Knowledge Practice Summary 
+particularly the changes that a given business activity will 
+cause in another activity.
+
+To rethink many of the questions the users will submit via DSS.
+
+To offer business users and executives their own summary and 
+detail level access. 
+
+To create systems that roll up each business activity to a 
+summary level, expressed in a highly visual and therefore 
+easily digestible manner. 
+
+To run their CIS-environments as close to “lights out” as 
+possible, counting on software agents to launch real-time 
+indicators of business conditions, as well as the analytic 
+component that will help put the condition into perspective.
+Integrating Electronic Commerce And Data Knowledge
+User organizations must understand that integrating Data 
+Knowledge with EC requires a detailed understanding of the 
+characteristics of Web interactions and the intersection between the 
+Web and numerous components of the user organization’s existing 
+applications.  The real challenge is to figure out which of the 
+seemingly limitless customer data elements will translate into either 
+incremental sales or increased retention.  To fulfill this mission, user 
+organizations would be wise to: 
+
+Identify the specific business processes they are trying to 
+automate with EC.
+
+Evaluate existing EC applications and tools on the market, 
+including their data capture and processes capabilities. 
+
+Look for software that is build upon standard RDBMSs. 
+
+Evaluate third-party data capture and reporting tools for the 
+Web. 
+
+Design an applications portfolio and architecture that gives a 
+compete picture of the customer and the customer’s web 
+interactions. 
+Integrating ERP and Data Knowledge 
+Early integration efforts between ERP and Data Knowledge, typically 
+include linking advanced query and reporting tools to the ERP 
+applications or using the reporting facilities that are supplied by the 
+ERP vendor.  Some enterprises gather and transform ERP data, 
+blending it with other data mart and data warehouse information.  
+Organizations lament the dearth of knowledge, never mind 
+AberdeenGroup  52
+Data Knowledge Practice Summary
+solutions, that are capable of making ERP-DSS integration a near 
+real-time event, and one that is wed to the specific nature of the user 
+organization in a vertical-industry.  Nevertheless, because of the 
+tricky underpinnings of ERP applications, successful users to date 
+have found that:
+
+Query and reporting tools containing templates that match the 
+meta data tools to the ERP data/process model significantly 
+lessen the burden of installation and step users through the 
+search for the appropriate data that will answer queries.
+
+In a data warehousing and data mart context, unless the user 
+organization’s technicians thoroughly understand the ERP 
+data/process model they are better off not creating 
+transformation programs by hand.  Rather, they can turn to 
+several transformation tools that contain pre-built 
+transformations for more than one ERP supplier’s applications, 
+and some of which are able to capture data changes.  These 
+“changed-data capture” techniques reduce overhead on the ERP 
+system and on transporting networks. 
+AberdeenGroup 53
+Data Knowledge Practice Summary 
+Chapter Five
+Supplier Abstracts
+Arbor Software Corp.
+1344 Crossman Ave. 
+Sunnyvale, CA 94089
+408-744-9500
+www.arborsoft.com 
+Market Position
+At the core of Arbor’s success is Essbase, a multidimensional or OLAP 
+server that the company has linked to many financial applications, 
+including financial and budgeting analysis, and consolidation.  
+Arbor’s Essbase is also the OLAP server used in conjunction with 
+IBM’s DB2; the two create a hybrid ROLAP and MDB environment. 
+Arbor supplements these core facilities, which can be used either in 
+client-server configurations or on the Web, with numerous financial 
+application modules, Executive Information Systems software 
+(Wired for OLAP); and integration with spreadsheets and third-party 
+access tools.  The company has numerous global channel 
+partnerships, and world-class IT/Data warehousing expertise
+Summary Observations
+Arbor continues to refine the Essbase server with features that have 
+increased the servers reliability and scalability.  The partitionable 
+server is now able to support queries across two or more Essbase 
+databases.  Users can analyze the summary data in Essbase and “drill 
+through” to the detailed data stored in a data warehouse or OLTP 
+system. 
+Most notably, Arbor and Hyperion Software, have announced 
+intentions to merge the two companies and aim their collective 
+wares at taking a leadership position in supplying in custom, on-
+demand, and packaged analytic applications.  The new company, 
+called Hyperion Solutions, will target its applications at corporations, 
+government agencies, and educational institutions.
+AberdeenGroup  54
+Data Knowledge Practice Summary
+Business Objects
+2870 Zanker Road
+San Jose, CA 95134
+408-953-6000
+www.businessobjects.com
+Market Position
+Business Objects continues to demonstrate a well-established pattern 
+of innovation and success in Query/Reporting/Analysis and desktop 
+data mining software.  Since its emergence in 1990 as a premier 
+supplier of query and reporting software, Business Objects — both 
+the company and its technologies — has been a leader to access 
+information from corporate data stores. 
+Summary Observations
+The company is among the first to deliver and prove the value of 
+giving business users a query and reporting tool that hides the 
+complexities of the Structured Query Language (SQL).  The company 
+most recently (July, 1998) announce WebIntelligence 2.0, which is 
+aimed directly at supplying the power of query/reporting/ analysis 
+software on the Web for enterprise and extra-enterprise users.  The 
+software, which the company plans to deliver in Q3 1998, will shared 
+the same infrastructure as BusinessObjects 4.1 for desktop 
+query/reporting/analysis, thus streamlining administration and 
+maintenance.
+One key feature of WebIntelligence is the WebIntelligence Explorer, 
+an on-line analytical processing module that allows browser-based 
+users to access predefined reports, then drill into the reports for 
+analysis,  and subsequently reach into the database for additional 
+information.  In addition to numerous new reporting features, 
+WebIntelligence includes profile-based reports, which allow 
+administrators to create a single report, which different suppliers 
+can be access to get individual views of information. 
+Cognos 
+3755 Riverside Drive
+Ottawa, ON
+K1G 4k9 CA
+613-738-1440 
+AberdeenGroup 55
+Data Knowledge Practice Summary 
+www.cognos.com
+Market Position
+Cognos is a leader in the marketplace for business intelligence tools, 
+specifically in the sector of query, reporting, and analysis software, 
+and desktop data mining software.  The tight, resource-sharing 
+linkage between the Cognos' client-server and Web-based 
+Impromptu query and reporting tool, the PowerPlay 
+multidimensional analysis environment, and the Scenario desktop-
+only data mining software uniquely positions the company to give 
+the enterprise -- and the extended enterprise - economical decision 
+support in increments suited to the access patterns of a wide range 
+of users.  Cognos has installed more than 700,000 seats of its 
+Impromptu query and reporting software and its PowerPlay 
+multidimensional analysis tool. 
+Summary Observations
+The Cognos architecture demonstrates the company's awareness that 
+many users, particularly professional analysts, will continue to use 
+"full client" versions of Cognos Impromptu, PowerPlay, or Scenario 
+(a decision tree-based data mining tool that automates knowledge 
+discovery).  These technologies can work either alone or in concert.  
+Except for the currently desktop-only Scenario data mining tool, all 
+of the software works as either a full-client desktop, on a standard 
+browser, or mixed and matched to meet the analytic and reporting 
+needs of various user populations of the enterprise.  In addition, the 
+company also offers the Cognos Accelerator for SAP R/3, (OEMed 
+from Acta Technologies) which extracts, transfomrs and loads R/3 
+data into data warehouses, data marts or PowerPlay cubes.
+Compaq 
+P.O. Box 692000
+Houston, TX 77269-2000
+(281) 370-0670 
+www.compaq.com
+Market Position 
+Compaq, its Tandem subsidiary, and its partners have built a 
+comprehensive program that includes several, low-cost, turnkey data 
+marts and enterprise-class applications.  Each of these deliverables 
+not only significantly reduces the time and expense in planning, 
+AberdeenGroup  56
+Data Knowledge Practice Summary
+deploying and operations, but also foreshadows Compaq's larger-
+scale, in-the-works initiatives.  Compaq is now adding code and 
+business logic to elevate the value of best-of-breed, third-party DSS 
+applications.  Moreover, these packaged and/or integrated solutions, 
+where appropriate, will be delivered ready-to-plug-and-run on 
+Compaq's Windows NT/Intel-based servers for low-end to-mid-sized 
+line-of-business applications.  Higher-end applications will use the 
+ProLiant E2000 architecture as applications servers, and either 
+ProLiant servers or the world-class parallel-scalable Himalaya 
+processors for the data warehouse portion of the applications.  
+(Compaq has yet to articulate the DSS role of the powerful 64-bit 
+AlphaServers, acquired from Digital Equipment.) Compaq's 
+Directional Consultants will individuate the application to satisfy 
+particular needs of an enterprise. 
+Summary Observations
+Currently, Compaq has delivered Oracle’s Data Mart Suite, Oracle's 
+CD-installable "data mart in a box," which contains all the 
+components that a line of business would need to almost 
+automatically create a query/reporting/analysis application.  The 
+Oracle Data Mart Suite is pre-tested on a Compaq Proliant server.  
+Compaq provides hardware recipes for different database sizes as 
+well as numbers of users, resulting in the value-added ability for 
+end-users to plug in the system, answer a few questions, and trigger 
+the system — hardware, operating system, database, and application 
+- to configure and tune itself.  Aberdeen anticipates that Compaq will 
+soon roll out similar systems for ERP supplier SAP's much awaited 
+Business Information Warehouse. In addition, Compaq offers two 
+integrated, enterprise applications — credit card marketing and 
+insurance-claims analysis.  Compaq’s credit card marketing and 
+insurance-claims analysis applications embody the spirit of 
+Compaq's fuller integration plans. 
+IBM Corporation
+One Old Orchard Road 
+Armonk, NY 10504
+(914) 765-1900
+www.ibm.com
+AberdeenGroup 57
+Data Knowledge Practice Summary 
+Market Position
+IBM holds the top-ranking position in the Data Knowledge 
+marketplace based on the combined installed base in data 
+warehousing hardware, software, and services.  Part of its success is 
+its ability to serve as a single-source supplier for databases, 
+transformation tools, and analytical and data mining software.
+Summary Observations
+Although IBM will continue to aim its expert consultants in 
+warehousing and data mining at helping sophisticated enterprises to 
+build complex business intelligence applications, IBM has developed 
+near-turnkey applications, called DecisionEdge, for CRM.  This 
+software applies Data Knowledge technologies — particularly 
+ROLAP, data mining, and campaign management — at the finance 
+and insurance industries and will soon target telecommunications 
+and utilities industries.  IBM has also announced analysis suites for 
+SAP and J.D Edwards ERP systems. 
+Information Advantage Inc.
+7905 Golden Triangle Drive
+Eden Prairie, MN 55344
+612-833-3700
+www.infoadvan.com
+Market Position
+Since its recent announced intention to acquire IQ Software, 
+Information Advantage has signaled its intention become a full 
+service supplier of business intelligence software.  As one of the 
+predominate suppliers of ROLAP software, Information Advantage 
+has a large installed base among household name companies using 
+its DecisionSuite and WebOLAP software.  Moreover it used by 
+several information access suppliers as a tools for distributing views 
+of information to suppliers. 
+Summary Observations
+As the Information Advantage absorbs I/Q Software’s products, 
+which are well-known and used extensively for Enterprise 
+Reporting, the company will have an arsenal that includes ROLAP, 
+an object-oriented reporting environment, and query and reporting 
+software.  Each environment can be used in client/server 
+AberdeenGroup  58
+Data Knowledge Practice Summary
+environments as well as on the Web. The company plans and 
+approximate two year effort to integrate all of its product across a 
+common metadata backbone.
+Informix Software Corp. (MetaCube) 
+4100 Bohannon Drive
+Menlo Park, CA 94025
+650-926-6300
+www.informix.com
+Market Position
+Informix MetaCube 4.0, a Relational OLAP environment that 
+leverages the power and performance of the Informix Dynamic 
+Scalable Architecture (DSA) by intelligently sharing critical and 
+potentially resource intensive tasks between the RDBMS and the 
+MetaCube Relational OLAP environment.  MetaCube 4.0 is designed 
+to speedup Relational OLAP processing and integrate automated and 
+semi-automated facilities that are specifically tuned to relieve IS 
+administrators from the burden of managing these often big and 
+rapidly changing environments — and within the context of a fully 
+secure environment.
+Summary Observations
+Joint research and development at Informix has led to a Relational 
+OLAP environment that is essentially part of the Informix parallel-
+scalable RDBMS.  These databases have consistently shown 
+superiority in highly respected transaction processing and decision-
+support benchmarks such as TPC-D. 
+MetaCube includes many innovations, particularly in dynamically 
+building and selecting best-performance aggregations to satisfy a 
+query.  MetaCube 4.0 will deliver considerable enhancements that 
+streamline the architecture, knit MetaCube more closely with the 
+Informix RDBMS, and enable different classes of users to obtain 
+business-critical information, either in client-server configurations 
+or over the Internet.  Moreover, the company has worked with 
+Andyne Computing, Cognos, Business Objects, Seagate (Crystal 
+Reports), and others to integrate each company’s leading 
+query/reporting/analysis tools into the MetaCube environment.  
+These tools, which will share a common metadata view of the 
+AberdeenGroup 59
+Data Knowledge Practice Summary 
+MetaCube environment, inherit the many benefits of the MetaCube-
+database synthesis.
+MicroStrategy Inc.
+8000 Towers Crescent Drive
+Vienna Virginia 22182
+703-848-8600
+www.strategy.com
+Market Position
+MicroStrategy is a leading supplier of ROLAP software that includes 
+RDBMS device drivers to boost performance.  The company, which 
+recently became public, is established in numerous household-name 
+companies and installed at approximately 500 sites. 
+Summary Observations
+Its principle product, DSS Server, is tuned to exploit very large 
+database technology.  Other modules in the DSS Server environment 
+are designed to relieve the IS burden often involved in tuning the 
+ROLAP to answer business queries— in managing the tradeoff 
+between summary and detail data.  The company also uses caching 
+techniques to speeds up its reporting environment.
+Because of the breadth and depth of analyses DSS Server enables, the 
+company has been selected as a tool of choice among information 
+providers.  The strength of the DSS Server is behind DSS Broadcaster 
+and StockMarket, two applications designed to “narrow cast” 
+information into the paying hands of subscribers via the Web, e-
+mail, pages, and other emerging devices. 
+Naviant Technology Solutions
+200 Four Falls Corporate Center
+Suite 308
+Conshohocken, PA
+610-94-9851 
+www.naviant.com
+Market Position
+Naviant Technologies Solutions. has applied its world-class data 
+mining and decision support systems-integration skills to leverage 
+world-class tools and deliver a pre-packaged customer relationship 
+management system, called Navimark 1.0.  Leveraging software 
+AberdeenGroup  60
+Data Knowledge Practice Summary
+templates — data models that embody best practices in the telco, 
+insurance, and banking industries — Navimark envelops several 
+arguably best-of-class technologies with software that enhances the 
+individual components and the value of their interactions. 
+Summary Observations
+For data warehousing/decision support, Navimark leverages 
+MicroStrategy DSS Agent's ROLAP environment; campaign 
+management is based on Exchange Application's ValEX Marketing 
+Management System; transformations are performed with Vmark's 
+DataStage; for building Web-based applications, Navimark uses 
+NetDynamics.  The package application includes other modules for 
+such common database marketing practices as householding and 
+matching names and addresses.
+NCR Corporation
+1700 S. Patterson Blvd
+Dayton OH 45479
+937-4454184
+www.ncr.com
+Market Position
+As the reigning monarch in decision support, NCR has established 
+Teradata as a leading database running on Unix, with plans to port 
+the database to Windows NT and Sun Solaris.  Teradata uses a 
+shared-nothing massively parallel architecture, which is deployable 
+on MPP and symmetric multiprocessing (SMP) hardware.  The 
+company has recently announced plans to strengthen the database 
+in Teradata Release 3 with Teradata Structured Query Language 
+extensions for OLAP and data mining, which are slated for delivery 
+in late 1998.  In addition, the company’ deep institutional knowledge 
+is reflected in its services and consulting organization, which applies 
+data warehousing, data mining, and customer relationship 
+marketing from a vertical-industry perspective. 
+Summary Observations
+The company leverages its database and consulting excellence with 
+the NCR's WorldMark 4700 and 5150 Servers. A single-node 4700 is 
+capable of excelling as a data mart or data warehouse as big as 100 
+GB that can grow to as large as 600 GB in the same line.  Installations 
+AberdeenGroup 61
+Data Knowledge Practice Summary 
+growing beyond 600 GB will turn to the NCR 5150.  NCR is often 
+among the performance leaders in Transaction Processing-C (TPC-C) 
+and among the early leaders in the critical TPC-D benchmarks.   NCR 
+prices now compare favorably to the leading Unix competitors.  
+While alluring to small- and medium-size installations, the new 
+prices are particularly enticing at the high-end, where NCR 
+customers have to date paid top dollar for premium decision support 
+functionality.  And the WorldMark servers are ready for growth.  
+Leveraging common components and management facilities, the 
+new servers can span seamlessly from a single node up to 128 nodes. 
+Oracle Corp.
+500 Oracle Parkway
+Redwood Shores, CA 94065
+(650) 506-7000 
+www.oracle.com
+Market Position
+Oracle’s leading position in Data Knowledge, underscored by the 
+recognition of the Oracle RDBMS’s prowess as the database of choice 
+for data warehouses, extends as well to the Express 
+multidimensional database.  These two core components are not 
+only knitted together for the purposes of OLAP but are part of the 
+company’s application strategy.  These applications include, for 
+example, ERP, sales and marketing, financial applications, and sales 
+force automation. 
+Summary Observations
+An example of the company’s technology and business savvy in Data 
+Knowledge is clearly visible in the low-cost, CD-installable Oracle 
+Data Mart Suite for NT, a turnkey system that eliminates most of the 
+installation challenges that IS and line-of-business technologist’s 
+would otherwise face when implementing a data mart.  This data 
+mart package also includes Oracle’s hybrid of ROLAP and 
+multidimensional database technology as well as Discover 3.1. ad 
+hoc query and analysis tool.  Other facilities in the Oracle Data 
+Knowledge arsenal include Oracle Reports, a production reporting 
+facility for IS to develop and publish user views.  As with other 
+Oracle decision-support software these environments are linked 
+together.  For example, results from Express and/or Discoverer can 
+AberdeenGroup  62
+Data Knowledge Practice Summary
+be published in Oracle Reports, while users can also move 
+seamlessly between Oracle Express 6.2 and Oracle Discover 3.1.
+The Oracle DBMS is able to excel in data warehousing because of its 
+proven scalability and its numerous query optimization techniques.  
+The types of optimization are based on several factors, including the 
+type of query and available resources.  The databases complements 
+its numerous join methods with parallel query technologies — for 
+example scan, sorts, aggregations, grouping, and summary table 
+creation — that are mandatory for data warehousing.  Moreover, 
+these techniques absorb into the RDBMS what would otherwise 
+require numerous queries, and additional IS labor to build 
+applications that compensate for database weaknesses.
+Platinum technology inc.
+1815 S. Meyers Road 
+Oakbrooke Terrace, IL 60181-5241
+630-620-5000
+www.platinum.com 
+Market Position
+Platinum offers a comprehensive suite of decision support/data 
+warehouse software that ranges from query and reporting software 
+to data movement and transformation tools.  Using its arsenal of 
+software, the company has successfully created several Data 
+Knowledge applications aimed at either a horizontal functions (e.g. 
+sales and marketing analysis) or at a specific vertical industry (such 
+as RiskAdvisor, a pre-built data warehouse for the insurance 
+industry.) 
+Summary Observations
+Platinum applications have successfully minimized the effort 
+normally required to plan and implement data warehouses and 
+decision support environments.  RiskAdvisor, for example, includes 
+an insurance-specific data model, structured applications and 
+querying facilities.  The underlying data model and database schema 
+and supportive analysis modules are aimed premiums and loss.  The 
+premium modules are designed to help organizations improve 
+performance and increase business volumes.  The loss modules are 
+targeted at monitoring and analyzing claims processing, loss 
+AberdeenGroup 63
+Data Knowledge Practice Summary 
+patterns, and claims behavior.  The company’s InfoAdvisor, which is 
+more horizontal in nature than RiskAdvisor, is aimed at sales and 
+marketing analysis.  InfoAdvisor includes a data warehouse 
+specifically geared toward sales and marketing, and is supported by 
+facilities that transform data into summaries, trend analyses, and 
+forecasts.  RiskAdivsor augments these core facilities with software 
+that continuously monitors the environment and enables knowledge 
+workers to proactively monitor the business according to numerous 
+criteria.
+SAS Institute Inc.
+SAS Campus Dr.
+Cary, NC  27513-2414
+919-677-4444 
+www.sas.com
+Market Position
+SAS is one of the leaders in Data Knowledge technologies, which 
+include its data warehouse construction tools (the SAS/Warehouse 
+Administrator); the SAS/EIS software, and object oriented 
+environment for building EIS applications; CFO Vision for financial 
+analysis applications, and Enterprise Miner, a data mining facility. 
+Summary Observations
+The company has had considerable success with its data 
+warehousing technologies, driven principally by ease of use, meta 
+data management, and the tight integration between, for example, 
+data warehouse, data mining and OLAP.  Other leading suppliers in 
+the data warehousing and customer relationship management have 
+recognized SAS’ clout in Data Knowledge.  SAS Enterprise Miner — 
+and its sample, explore, modify, model and assess (SEMMA) 
+methodology — is considered the leading data mining environment 
+in most third-party CRM systems and has recently supplanted many 
+of these third-party suppliers’ data mining environments of choice. 
+AberdeenGroup  64
+Data Knowledge Practice Summary
+Other Suppliers 
+Actuate Software Corp.
+999 Baker Way, Suite 330
+San Mateo, CA 94404
+650-639-2000
+www.actuate.com
+Enterprise Reporting environment for building and deploying, and 
+securing simple and complex, multivariable reports that run on the 
+Web and/or client/server environment.  Includes an object-oriented 
+development environment for creating and storing reports objects.
+Applix Inc.
+112 Turnpike Road
+Westboro, MA 01581
+508-870-0300
+www.applix.com
+Supplier of real-time OLAP software.
+Brio Technology, Inc.
+3950 Fabian Way, Suite 200
+Palo Alto, CA 94303
+650-856-8000
+www.brio.com
+Client/server and Web-based query/reporting/ analysis software used 
+in many large household-name companies, with a particular 
+strength in the depth of  OLAP analysis via the browser. 
+Comshare
+555 Briarwood circle
+Ann Arbor, MI 48108
+800-922-7979
+www.comshare.com
+Using third-party multidimensional databases, delivers performance 
+analysis; as well as consolidation, reporting, financial analysis, 
+budgeting, planning, management reporting; and sales analysis. 
+CorVu Corporation
+7901 Flying Cloud Drive
+Eden Prairie, MN 55344-7903
+612-944-7777
+AberdeenGroup 65
+Data Knowledge Practice Summary 
+www.corvu.com
+Client/server, web-based query/reporting/analysis software that 
+includes executive alters as well as applications for forecasting, 
+impact analysis, and balanced scorecard. 
+Dimensional Insight, Inc.
+111 South Bedford St.
+Burlingtojn, MA 01803
+781-229-9111
+www.dimins.com
+Desktop, server, and Web-based multidimensional analysis and 
+reporting software.
+Exchange Applications
+One Lincoln Plaza
+89 South Street
+Boston, MA 02111
+617-737-2244
+www.exapps.com
+A leading provider of customer relationship management and 
+database marketing software and services.  Integrates with RDBMSs 
+and MDBs, and is used to monitor and coordinate customer 
+campaigns. 
+Gentia 
+201 Edgewater Drive, Suite 241
+Wakefield, MA 01880
+781-224-0750
+www.gentia.com
+A multidimensional database server for web and client/server 
+applications, includes a visual development environment, and an 
+object request broker. These technologies serve as the underpinning 
+for the company’s Renaissance balanced scorecard.
+Hummingbird Communications, Ltd.
+552 Princess Street
+Kingston Ontario
+Canada, K7L 1C7
+www. humingbird.com
+Query/reporting/analysis software that runs on the Web and in 
+client/server configurations.
+Infospace
+AberdeenGroup  66
+Data Knowledge Practice Summary
+3130 La Selva, Suite 300
+San Mateo, CA 94403
+415-655-3700
+www.infospace-inc.com 
+Java-based query/reporting analysis software designed to work with 
+RDBMSs and multidimensional databases.  Includes a security 
+module to protect resources when the software is deployed on 
+extranets. 
+Pilot Software
+One Canal Park
+Cambridge MA, 02141
+617-374-9400
+www.pilotsw.com
+A multidimensional server designed to support analytical processing 
+in client/server and web configurations, contains embedded 
+calculations for use in financial services, consumer package goods, 
+telecommunications. healthcare, and retail
+Redbrick Systems
+485 Alberto Way
+Los Gatos, CA 95032
+408-399-3200
+www.redbrick.com
+Develops and markets a well-received RDBMS specifically designed 
+for building data warehouse, data mart, data mining, OLAP, and 
+database marketing applications that run on Unix or Windows NT.  
+Also includes admistration facilities.
+QueryObject Systems Corporation 
+60 Charles Lindbergh Blvd.
+Mitchell Field, NY 11553
+516-228-8500
+www.queryobject.com 
+The QueryObject System is a mathematically formulated data mart, 
+which adjusts its dimensions and content in response to a query and 
+enables enterprises to create innovative DSS (with the power of data 
+mining) applications. 
+Seagate Software (Information Management Group)
+1095 West Ponder St., 4th Floor
+Vancouver, BC, CD V6E 2M6
+AberdeenGroup 67
+Data Knowledge Practice Summary 
+604-6813435
+www.seagatesoftware.com
+Query/reporting/analysis software and multidimensional server that 
+can run in client/server and Web configuration.  The query and 
+reproting tools are linked to many other third-party supplier tools. 
+AberdeenGroup  68
+Data Knowledge Practice Summary
+Aberdeen Group Retainer Services
+This Practice Summary provides the foundation for the Aberdeen 
+retainer service of the same name.
+Aberdeen now offers annual retainer services with a variety of 
+research and professional services tailored to specific client needs. 
+The retainer services include:
+
+A Practice Summary that encapsulates major market issues 
+and trends;
+
+Any other available major research reports discussing in 
+detail topics specific to the research area;
+
+Aberdeen Viewpoints subscription presenting Aberdeen 
+analysts’ opinions on the market and business dynamics of 
+current industry issues;
+
+Aberdeen Profiles subscription presenting objective analyses 
+of suppliers and their products and strategies;
+
+Strategic inquiry service offering unlimited client interaction 
+via telephone or e-mail with one or more Aberdeen analysts to 
+discuss broad trends and issues; 
+
+Quarterly briefings, interactive sessions in which Aberdeen 
+analysts review market developments and provide 
+recommendations on market strategy and messages;
+
+Consulting on topics of the client’s choice for a specified 
+number of person-days; 
+
+An Aberdeen relationship manager assigned to properly 
+tailor the service to the client’s individual needs.
+Please see the inside of the back cover for a representation of 
+Aberdeen’s research capabilities. For more information about 
+Aberdeen’s retainer services contact:
+Fred Abbott
+Senior Vice President, Sales
+Tel: (617) 854-5231
+Email: abbott@aberdeen.com
+ 
+AberdeenGroup 69
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | dssune~1-cbf6e3 |
+| title | Data Knowledge: 1998 Practice Summary |
+| author | Aberdeen Group |
+| date | 1998-07-01 |
+| type | other-research |
+| subject_domain | data-management |
+| methodology | industry-analysis |
+| source_file |  market-overview |
+| license | Aberdeen Group's 1998 practice summary for the Data Knowledge and Complex Decision Support practice, covering data warehousing, data marts, OLAP, query/reporting/analysis tools, data mining, and Customer Relationship Management (CRM). The report frames these technologies as components of an enterprise Data Knowledge strategy and assesses their integration with CIS, ERP, and Electronic Commerce applications. Thirteen primary vendors receive detailed abstracts including NCR/Teradata, IBM, Oracle, Cognos, Business Objects, SAS, Arbor/Essbase, and MicroStrategy, plus a second tier of over a dozen additional suppliers. |
+
+### Abstract
+
+DSSUNE~1.DOC
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | CC-BY-4.0 | medium |
+| **Relevance** | Comprehensive institutional snapshot of the BI/DSS market at a pivotal moment: data warehousing transitioning from infrastructure project to analytical engine; OLAP maturing; CRM emerging as a discipline; Microsoft entering with Plato (later SQL Server Analysis Services). | high |
+| **Prescience** | Data warehousing, OLAP, data mining, and CRM technologies described here are direct ancestors of today's modern data stack and business intelligence platforms. The architectural patterns and market dynamics documented remain highly relevant for understanding the evolution of the analytics industry. | high |
+
+### Prescience Detail
+
+
+**Prediction 1:** Data warehouse-related technology market size 1999 projection
+- **Claimed:** $20.6 billion projected
+- **Year:** 1998
+- **Confidence at time:** medium
+
+**Prediction 2:** Decision support tools-only market growth
+- **Claimed:** From current $1 billion to approximately $2.5 billion in 1999
+- **Year:** 1998
+- **Confidence at time:** medium
+
+**Prediction 3:** Microsoft Plato market impact prediction
+- **Claimed:** Microsoft Plato acquisition from Panorama will increase consolidation trend; many suppliers embracing Plato and planning partnerships despite uncertainty about what Plato actually is
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Actual Outcome 3:** Microsoft Plato market impact outcome
+- **Result:** SQL Server 7.0 OLAP Services (1999) did indeed catalyze market consolidation; several pure-play OLAP vendors declined or were acquired
+- **Confidence:** medium
+- **Notes:** Outcome: SQL Server 7.0 OLAP Services (1999) did indeed catalyze market consolidation; several pure-play OLAP vendors declined or were acquired
+
+**Prediction 4:** DSS supplier consolidation prediction
+- **Claimed:** Start-ups without true differentiation will fall on road to IPO or be acquired by predominant suppliers; consolidation becoming more common
+- **Year:** 1998
+- **Confidence at time:** high
+
+
+### Entities Referenced (28)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| IBM | company | active |  |
+| Oracle | company | active |  |
+| NCR Corporation | company | active |  |
+| Microsoft | company | active |  |
+| Compaq | company | dissolved | HP (2002) |
+| Cognos | company | acquired | IBM (2008) |
+| Business Objects | company | acquired | SAP (2008) |
+| SAS Institute | company | active |  |
+| Arbor Software Corp. | company | acquired | Hyperion Solutions (1998) |
+| MicroStrategy Inc. | company | active |  |
+| Information Advantage Inc. | company | acquired | unknown |
+| Informix Software Corp. | company | acquired | IBM (2001) |
+| Naviant Technology Solutions | company | acquired | unknown |
+| Platinum Technology Inc. | company | acquired | CA Technologies (1999) |
+| Hyperion Software | company | merged | Hyperion Solutions (1998) |
+| SAP | company | active |  |
+| JD Edwards | company | acquired | PeopleSoft (2003) |
+| Exchange Applications | company | acquired | unknown |
+| Vmark Software | company | merged | unknown |
+| Actuate Software Corp. | company | active |  |
+| Brio Technology Inc. | company | acquired | unknown |
+| Panorama Software | company | acquired | Microsoft |
+| Seagate Software (Information Management Group) | company | acquired | unknown |
+| Redbrick Systems | company | acquired | unknown |
+| Applix Inc. | company | acquired | unknown |
+| Comshare | company | acquired | unknown |
+| Pilot Software | company | acquired | unknown |
+
+### Technologies Referenced (20)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Data Warehouse | platform | multiple | mature | mature |
+| Data Mart | platform | multiple | growth | mature |
+| Relational OLAP (ROLAP) | application | multiple | growth | legacy |
+| Multidimensional Database (OLAP server) | application | multiple | mature | legacy |
+| Essbase | application | Arbor Software | mature | legacy |
+| Teradata | application | NCR Corporation | mature | active |
+| Data Mining (scalable) | application | multiple | emerging | mature |
+| Customer Relationship Management (CRM) System | application | multiple | emerging | mature |
+| Query/Reporting/Analysis Software | application | multiple | mature | mature |
+| Windows NT Server (data mart platform) | platform | Microsoft | growth | legacy |
+| Plato (Microsoft OLAP) | application | Microsoft | emerging | legacy |
+| Oracle Data Mart Suite | application | Oracle | emerging | legacy |
+| Star Schema / Dimensional Modeling | framework | multiple | growth | mature |
+| DSS Server | application | MicroStrategy | growth | unknown |
+| Wired for OLAP (Executive Information Systems) | application | Arbor Software | growth | unknown |
+| Impromptu / PowerPlay | application | Cognos | mature | legacy |
+| WebIntelligence 2.0 | application | Business Objects | emerging | legacy |
+| SAS Enterprise Miner | application | SAS Institute | emerging | active |
+| Informix MetaCube 4.0 | application | Informix | growth | legacy |
+| DecisionSuite / WebOLAP | application | Information Advantage | growth | unknown |
+
+### Observation Summary
+
+- Total observations: 30
+- By type: market-assessment: 20, competitive-assessment: 5, viability-prediction: 4, actual-outcome: 1

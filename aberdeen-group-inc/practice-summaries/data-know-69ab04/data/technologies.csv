@@ -1,0 +1,14 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+data-warehouse,Data Warehouse,platform,various,1990-present,mainstream,active,data-know-69ab04,$984M (1999) growing to $2.016B (2002) at 27% CAGR; BI infrastructure segment
+data-mart,Data Mart,platform,various,1994-present,mainstream,active,data-know-69ab04,$132M (1999) to $384M (2002) at 43% CAGR; BI infrastructure segment
+etl,ETL (Extract Transform Load),application,various,1990-present,mainstream,active,data-know-69ab04,$117M (1999) to $192M (2002) at 18% CAGR; BI infrastructure segment; Moran beat: ETL coverage by Sheina
+olap,Online Analytical Processing (OLAP),application,various,1993-present,mainstream,active,data-know-69ab04,$859M (1999) to $2.307B (2003) at 39% CAGR; core tools segment
+query-reporting,Query and Reporting Software,application,various,1988-present,mainstream,active,data-know-69ab04,$985M (1999) to $2.370B (2003) at 34% CAGR; core tools segment; largest single category
+enterprise-reporting,Enterprise Reporting,application,various,1995-present,mainstream,active,data-know-69ab04,$193M (1999) to $761M (2003) at 58% CAGR; fastest growing core tool
+analytical-apps,Analytical Applications,application,various,1997-present,emerging,active,data-know-69ab04,$543M (1999) to $1.307B (2003) at 34% CAGR; core tools segment
+data-mining,Data Mining,application,various,1990-present,mainstream,active,data-know-69ab04,$66M (1999) to $118M (2003) at 15% CAGR; slowest growing core tool segment
+content-management,Web Content Management,application,various,1997-present,emerging,active,data-know-69ab04,$821M (1999) to $2.004B (2003) at 35% CAGR; core tools segment
+web-traffic-analysis,Web Traffic Analysis,application,various,1997-present,emerging,active,data-know-69ab04,$30M (1999) to $131M (2003) at 81% CAGR; fastest growing by percentage in core tools
+personalization,Personalization Software,application,various,1998-present,emerging,active,data-know-69ab04,$27M (1999) to $129M (2003) at 89% CAGR; highest projected CAGR among core tools
+data-quality-enrichment,Data Quality and Enrichment Software,application,various,1990-present,mainstream,active,data-know-69ab04,$4.742B (1999) — largest segment by far; to $9.041B (2003) at 24% CAGR
+oracle-8i,Oracle 8i,application,Oracle,1999-2001,early-commercial,obsolete,data-know-69ab04,Oracle's warehouse platform; 81 warehouse schemas; embedded mining/multidimensionality/campaign management

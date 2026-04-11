@@ -1,0 +1,46 @@
+# Customer Interaction Software: 1998 Practice Summary
+
+| Field | Value |
+|-------|-------|
+| Author | Aberdeen Group |
+| Date | 1998-05-01 |
+| Type | other-research |
+| Domain | customer-interaction-software |
+| License | CC-BY-4.0 |
+
+## Abstract
+
+Aberdeen Group's 1998 practice summary covering the Customer Interaction Software (CIS) market, encompassing sales force automation, customer support, help desk, field service management, and marketing automation. The report surveys over fifty CIS vendors, analyzes market growth from $1.7B in 1997 to a projected $6.7B by 2001, and assesses the architectural transition from client-server to Web-based CIS deployments. Key themes include market consolidation around $100M+ suppliers, the threat of pure Internet-based entrants, and integration of CIS with ERP and e-commerce platforms.
+
+## Data Tables
+
+| Table | Rows |
+|-------|------|
+| studies.csv | 1 |
+| entities.csv | 33 |
+| technologies.csv | 15 |
+| observations.csv | 29 |
+| codes.csv | 26 |
+
+## Load with Python
+
+```python
+import pandas as pd
+studies = pd.read_csv('data/studies.csv')
+observations = pd.read_csv('data/observations.csv')
+```
+
+## Validate
+
+```bash
+frictionless validate datapackage.json
+```
+
+## Citation
+
+Aberdeen Group (1998). Customer Interaction Software: 1998 Practice Summary.
+Archived in Kastner Research Archive. DOI: [pending]
+
+## Methodology
+
+industry-analysis, market-overview

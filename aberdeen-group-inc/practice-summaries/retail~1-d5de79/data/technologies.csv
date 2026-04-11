@@ -1,0 +1,14 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+pos-systems,Point-of-Sale (POS) Systems,application,Various,1970s-present,mature,current,retail~1-d5de79,Core retail in-store transaction processing; price management and inventory feeding back-office.
+edi,Electronic Data Interchange (EDI),protocol,Various,1980s-1990s,mature,legacy-active,retail~1-d5de79,Used for supply chain communication between retailers and suppliers.
+data-warehousing,Data Warehousing,application,Various,1990s,emerging,active,retail~1-d5de79,"Decision support for retail; querying promotions impact, product popularity, consumer profiles."
+erp,Enterprise Resource Planning (ERP),application,SAP; Oracle; Others,1990s,growing,active,retail~1-d5de79,Vertical-specific ERP integration gaining traction in retail; SAP America cited.
+client-server,Client-Server Architecture,platform,Various,1988-1998,mature,legacy,retail~1-d5de79,Majority of new retail IS now client-server; migration from mainframes and proprietary minis.
+windows-nt,Windows NT,platform,Microsoft,1993-2000,growing,superseded,retail~1-d5de79,Significant retail IT managers choosing NT for client-server apps despite Unix reliability reputation.
+unix,Unix,platform,Various,1970s-1990s,mature,legacy-active,retail~1-d5de79,Reliable and durable; many existing retail systems; losing ground to NT for new deployments.
+as400,IBM AS/400,platform,IBM,1988-2000,mature,legacy-supported,retail~1-d5de79,Proprietary minicomputer platform being maintained alongside newer architectures.
+internet-retail,Internet / E-commerce,application,Various,1990s,emerging,dominant,retail~1-d5de79,Emerging as critical new retail channel; also used for supply chain communication.
+supply-chain-management,Supply Chain Management (SCM),application,Various,1990s,growing,active,retail~1-d5de79,Tighter retailer-supplier integration reducing excess inventory and duplicate processes.
+data-mining,Data Mining,application,Various,1990s,emerging,active,retail~1-d5de79,"Improving merchandising selection, reducing inventory, increasing gross margins."
+smart-card,Smart Card,hardware,Various,1990s,emerging,mature,retail~1-d5de79,Reconstructing retail payment infrastructure; new pan-European currency (euro) connection.
+wireless-technologies,Wireless Technologies,platform,Various,1990s,emerging,dominant,retail~1-d5de79,Adoption cited as major IT trend for retail environments (in-store and supply chain).

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Healthcare: 1998 Industry Practice Summary",
+  "description": "Aberdeen Group's 1998 survey of the Healthcare Information Systems (HIS) market, covering integrated HIS vendors, independent software vendors, professional services firms, and systems suppliers. The report maps the three application tiers\u2014business, clinical, and management information\u2014and assesses the impact of managed care consolidation, client-server adoption, Internet/intranet deployment, and Year 2000 compliance on healthcare IT buyers. Brief vendor profiles are provided for fifteen named companies.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

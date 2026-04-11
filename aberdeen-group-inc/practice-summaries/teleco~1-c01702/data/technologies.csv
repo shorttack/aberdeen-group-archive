@@ -1,0 +1,19 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+pstn,Public Switched Telephone Network (PSTN),platform,various,1876-present,mature,legacy-transitioning,teleco~1-c01702,Circuit-switched voice network; 99.9999% reliability (53 min downtime/year)
+tdm,Time Division Multiplexing (TDM),protocol,various,1960-present,mature,legacy,teleco~1-c01702,Core PSTN voice switching technology being displaced by packet networks
+atm,Asynchronous Transfer Mode (ATM),protocol,various,1988-2005,emerging-mainstream,legacy,teleco~1-c01702,53-byte cell switching; backbone of many next-gen carrier networks in 1998
+frame-relay,Frame Relay,protocol,various,1988-2005,mature,legacy,teleco~1-c01702,Packet WAN protocol; $2.5B U.S. revenue 1998; faster than X.25
+x25,X.25 Packet Switching,protocol,various,1976-2000,declining,obsolete,teleco~1-c01702,Legacy packet protocol with error-checking; superseded by Frame Relay/ATM
+ip,Internet Protocol (IP),protocol,IETF,1983-present,emerging-dominant,dominant,teleco~1-c01702,Core next-gen network protocol; $300M U.S. services revenue 1998 vs $10B private line
+voip,Voice over IP (VoIP),application,various,1995-present,emerging,mainstream,teleco~1-c01702,Technically feasible in 1998 but flawed; back-office and QoS gaps cited
+sonet-sdh,SONET/SDH,protocol,various,1988-present,mature,legacy,teleco~1-c01702,Synchronous optical transport standard; widely deployed in 1998
+wdm,Wave Division Multiplexing (WDM),platform,various,1995-present,emerging,mainstream,teleco~1-c01702,Optical multiplexing; multiplies fiber capacity; DWDM prototype stage in 1998
+ss7,Signaling System 7 (SS7),protocol,ITU,1980-present,mature,legacy,teleco~1-c01702,PSTN signaling network; essential for IN features and call routing
+dsl,Digital Subscriber Line (DSL/xDSL),platform,various,1988-present,early-commercial,mainstream,teleco~1-c01702,Local loop broadband; cited as competing with cable modem for last-mile access
+mpls,Multi-Protocol Label Switching (MPLS),protocol,IETF,1997-present,emerging,mainstream,teleco~1-c01702,Maps IP directly into ATM cells; cited for ISP-to-ATM integration
+oss,Operations Support Systems (OSS),application,various,1970-present,mature,active,teleco~1-c01702,Telecom back-office for ordering provisioning repair; compared to ERP for supply chain
+tmn,Telecommunications Management Network (TMN),framework,ITU,1988-2005,emerging,declining,teleco~1-c01702,ITU model for scalable telecom management infrastructure; unclear evolution cited
+vpn-ip,IP Virtual Private Network,application,various,1996-present,early-commercial,mainstream,teleco~1-c01702,Not yet a reality in 1998 due to QoS gaps; enterprise distrust of public IP cited
+windows-nt,Windows NT,platform,Microsoft,1993-2001,mainstream,obsolete,teleco~1-c01702,Cited as candidate telecom OS but lacking 99.9999% reliability for carrier use
+pcs,Personal Communications Services (PCS),platform,various,1994-present,early-commercial,legacy,teleco~1-c01702,New wireless technology for local loop competition
+private-line,Private Line (T1/E1),platform,various,1960-present,dominant,declining,teleco~1-c01702,$10B+ U.S. revenue 1998; dominant data service despite IP mindshare

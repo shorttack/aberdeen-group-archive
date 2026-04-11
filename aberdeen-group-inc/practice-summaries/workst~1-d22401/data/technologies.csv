@@ -1,0 +1,16 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+unix-workstation,Unix Workstation (RISC-based),platform,various,1985-present,mature-declining,legacy,workst~1-d22401,Dominated technical desktop for 10 years; flat-to-declining growth projected; 4-5 exceptional years remaining
+windows-nt-workstation,Windows NT Workstation,platform,Microsoft,1995-present,high-growth,obsolete,workst~1-d22401,30%+ growth rate in 1998; 2.2M units projected by 2000; gaining low-end and midrange from Unix
+hp-ux,HP-UX,platform,Hewlett-Packard,1984-present,mature,legacy,workst~1-d22401,HP's Unix OS for workstations; 64-bit HP-UX 11 with IA-64 readiness
+solaris,Solaris,platform,Sun Microsystems,1992-present,mature,legacy,workst~1-d22401,Sun's robust Unix OS; cited as strength of Sun's workstation platform
+aix,AIX (Advanced Interactive eXecutive),platform,IBM,1986-present,mature,legacy,workst~1-d22401,IBM's Unix for RS/6000; quality cited as competitive advantage
+digital-unix,Digital Unix (Tru64),platform,Digital Equipment,1993-2000,mature,obsolete,workst~1-d22401,DEC's Unix for Alpha; acquired by Compaq then HP; eventually retired
+ia-32,Intel IA-32 Architecture,platform,Intel,1985-present,dominant,legacy,workst~1-d22401,Primary microprocessor for NT workstations; combined with graphics cards for 3D performance
+ia-64,Intel IA-64 (Merced),platform,Intel/HP,1999-2017,emerging,obsolete,workst~1-d22401,64-bit IA-64 desktop solutions not available until 2000 at earliest; co-developed by HP and Intel
+alpha-processor,DEC Alpha Microprocessor,platform,Digital Equipment,1992-2004,mature,obsolete,workst~1-d22401,10-50% performance advantage over Intel for floating-point NT workstations; future uncertain post-Compaq merger
+powerpc,PowerPC,platform,IBM/Apple/Motorola,1992-present,mainstream,declining,workst~1-d22401,RS/6000 RISC basis; 64-bit PowerPC chip new; Apple Mac market share dwindling reduces IBM RISC investment
+cad,Computer-Aided Design (CAD),application,various,1980-present,mainstream,active,workst~1-d22401,Primary workstation application segment; MCAD CAE EDA cited as specialized variants
+dcc,Digital Content Creation (DCC),application,various,1990-present,mainstream,active,workst~1-d22401,Animation visualization pre-press publishing; high-end Unix domain
+specmark,SPECmark Benchmark,framework,SPEC,1988-present,mainstream,active,workst~1-d22401,Performance benchmark for compute-intensive workstation apps; cited as less effective than TPC for differentiation
+kayak-nt,HP Kayak (NT Workstation line),platform,Hewlett-Packard,1997-2001,early-commercial,obsolete,workst~1-d22401,HP's NT workstation family; market leader in NT segment 1997; VISUALIZE rendering environment
+intellistation,IBM IntelliStation,platform,IBM,1997-2003,early-commercial,obsolete,workst~1-d22401,IBM NT workstation line launched March 1997; M-Pro and Z-Pro; Wake-on-LAN and Alert-on-LAN technologies

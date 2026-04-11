@@ -1,0 +1,1219 @@
+Aberdeens Professional Services Practice  Coverage Areas
+ 1
+Aberdeen’s IT Professional Services Practice 
+The Purpose and Goal of this Practice Area
+The purpose of Aberdeen’s Information Technology (IT) Professional 
+Services Practice is to assist Information Systems (IS) buyers to select the 
+best professional services suppliers to meet their specific information 
+processing needs.  Aberdeen helps IS buyers determine the evaluation 
+criteria for choosing a professional services partner, as well as provides 
+comparative analysis that enables IS buyers to compare and contrast the 
+various services offerings of multiple services suppliers.
+Aberdeen’s expressed goal is to streamline and simplify the decision making 
+and selection process  enabling IS buyers to establish partnerships with 
+best-in-class services suppliers.  To do this, Aberdeen provides IS buyers with 
+in-depth analysis of a particular supplier’s strategic intent, market 
+positioning, product and services offerings, and comparative strengths and 
+weaknesses.  By so doing, Aberdeen hopes to provide services buyers with a 
+clear understanding of a given professional services supplier’s level-of-
+commitment and ability to execute in the particular practice areas 
+mentioned above.  And by so doing, Aberdeen hopes to reduce the amount of 
+time that IS management must devote to evaluating various suppliers and 
+choosing the appropriate services supplier partner.
+Structure
+Aberdeen’s IT Professional Services practice has been structured in a matrix 
+fashion: first, by key industry market initiatives; and second, by the type of 
+professional services supplier (an example of this matrix can be seen in 
+Figure 1).  Aberdeen has structured its professional services practice in this 
+manner in order to enable IS managers to choose a supplier by: 
+1) The kind of expertise and level of commitment a given professional 
+services supplier can exhibit in a particular solutions field-of-endeavor 
+(such as infrastructure or application-specific deployment); as well as by
+2) The type of services supplier. 
+The reasons for this structure are that IS buyers generally seek professional 
+services to solve specific design, deployment, and/or management problem 
+related to systems infrastructure or specific application initiatives, and IS 
+buyers generally look to certain types of professional services organizations 
+for those services.  For instance, an IS manager may need assistance in 
+locating a supplier of Customer Information Systems solutions  and that IS 
+manager may turn to the Independent Software Vendor (ISV) or an Original 
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 2
+Equipment Manufacturer (OEM) for assistance in the deployment of that 
+solution.  There are very distinct differences in the skill sets and services 
+offerings of each distinct services supplier type. 
+Figure 1  Aberdeen’s Professional Services Coverage Matrix
+Source: AberdeenGroup  January, 1999
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Allen Communication
+AMT International
+Apple Software
+Astound
+Asymetrix
+Centra Software 
+Eloquent
+ExecuTrain
+Ilinc 
+KnowledgeSoft
+Learning Tree
+Lotus
+Macromedia 
+MicroMedium
+Pathlore 
+Plateau Systems
+Saba Software
+Saratoga Group
+Syscom
+WBT Systems 
+Aris
+CBT Systems
+Catapult
+DigitalThink
+DPEC
+GeoTrain
+InfoSource
+Interactive ViaGrafix
+ITC Learning
+Knowledge Quest
+Knowledgesoft
+McGraw-Hill OnLine
+Microsoft
+NetG
+Netopia
+Oracle
+Street Technologies
+Tarragon Training
+Teckchek
+Ziff Davis
+Cisco
+Hewlett Packard
+IBM
+Lockheed Martin
+Educational
+Services
+Technology Solutions Company
+NexGen SI
+Renaissance Worldwide
+Impact Innovations Group
+Cambridge Technology Partners
+Gemini Consulting
+Inforte Corporation
+Mastech
+Analysts International Corp
+Carnegie Group (Logica)
+Service Management International
+KPMG
+Ernst & Young
+Process Edge Tech.
+Platinum Consulting
+Perigrine Prof. Svcs.
+eShare Technologies
+SPL WorldGroup
+Molloy Group
+Prospect Software Inc.
+Oracle
+Centrobe
+IBM Global Services
+NCR Corporation
+Alltel Corporation
+Lucent Technologies
+Genesys Systems
+Business FX
+Customer Information
+& Data Knowledge
+Services Suppliers
+I n d e p e n d e n t  P r o f e s s i o n a l
+S e r v i c e s  P r o v i d e r s  ( I P S P s )
+I n d e p e n d e n t  S o f t w a r e
+      V e n d o r s  ( I S V s )      
+  O
+r i g i n a l  E q u i p m
+e n t  
+M
+a n u f a c t u r e r s  ( O
+E M
+s )
+  V a l u e - a d d e d
+R e s e l l e r s  ( V A
+R s )
+A m
+d a h l
+C o m
+p a q
+D a t a  G e n e r a l
+H e w l e t t - P a c k a r d
+M
+i c r o s o f t
+S A P
+C a m
+b r i d g e  T e c h .  P a r t n e r s
+C o o p e r s &
+ L y b r a n d
+C o m
+p u t e r  S c i e n c e  C o r p o r a t i o n
+D e l o i t t e ,  T o u c h e ,  T o h m
+a t s u  I n t l .
+E l e c t r o n i c  D a t a  S y s t e m
+s
+E n t e x
+M
+i c r o a g e
+A n d e r s e n  C o n s u l t i n g
+C a m
+b r i d g e  T e c h n o l o g y  P a r t n e r s
+C o m
+p u t e r  S c i e n c e s  C o r p o r a t i o n
+D e l o i t t e &
+T o u c h e T o h m
+a t s u  I n t l .
+E l e c t r o n i c  D a t a  S y s t e m
+s
+E r n s t  &
+ Y o u n g
+I D S  S c h e e r
+K P M
+G  I n t e r n a t i o n a l
+P l a u t  C o n s u l t i n g  G m
+b H
+P r i c e w a t e r h o u s e  C o o p e r s
+R e n a i s s a n c e  W
+o r l d w i d e ,  I n c .
+W
+h i t t m
+a n - H a r t
+B a a n
+J . D .  E d w a r d s
+O r a c l e
+P e o p l e S o f t
+S A P
+C o m
+p a q  C o m
+p u t e r  C o r p .
+H e w l e t t - P a c k a r d
+I B M
+I n a c o m
+P i n a c o r
+I B M
+N C R
+U n i s y s
+I n f r a s t r u c t u r e
+S u p p l i e r s
+E R P / S u p p l y  C h a i n
+S e r v i c e s  S u p p l i e r s
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 3
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 4
+Key Market Initiatives
+Aberdeen surveys indicate that the most sought-after IT professional 
+services areas-of-coverage include: 
+1. Windows 2000 Infrastructure Services  services related to the design, 
+deployment, and management of Windows 2000-based (also known as 
+Microsoft NT) servers and desktops;
+2. Enterprise Resource Planning (ERP) and related Supply Chain 
+Professional Services; 
+3. Customer Information Systems (including Sales Force Automation and 
+Call-Center) as well as related Data Knowledge; and,
+4. Education (including classroom, computer-based, and Internet-based 
+instruction).
+Types of Professional Services Suppliers
+Aberdeen segments the IT professional services marketplace into four 
+distinct supplier types:
+
+Independent Professional Services Suppliers (IPSPs)  Formerly 
+known as systems integrators, this segment now does far more than work 
+on systems/application deployment and systems interoperability issues.  
+IPSPs can often provide business strategic planning services, 
+infrastructure services, and systems/applications design, deployment, and 
+ongoing lifecycle management services (including outsourcing).  
+Examples of IPSPs range from Andersen Consulting, through Computer 
+Science Corporation and Electronic Data Systems, to niche services 
+suppliers like Tenfold and Keane.
+
+Independent Software Vendors (ISVs)  Makers of software products 
+are now becoming far more aggressive in the professional services space, 
+building workforces capable of helping to deploy and tune a given 
+software supplier’s suite of product offerings.  Examples of ISVs that have 
+now established large professional services organizations include SAP, 
+Baan, Microsoft, and Computer Associates.
+
+Original Equipment Manufacturers (OEMs)  For the most part OEMs 
+have focused on providing infrastructure-related services (such as 
+network and systems design, applications deployment and tuning, 
+lifecycle management), but many are now actively engaged in providing 
+outsourcing services and some are involved in providing business 
+strategic planning services.  Examples of OEM’s that provide basic 
+infrastructure services include Hewlett-Packard, Compaq, IBM, Data 
+General and the like.  IBM also provides business strategic planning 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 5
+services that can rival the large, Big 5 professional service firms in the 
+IPSP segment.
+
+Resellers and Value-Added Resellers (VARS)  Given the margin 
+squeeze being placed on systems resellers and distributors (as a result of 
+OEMs eroding reseller margins through internet-based direct sales 
+methods), systems resellers and VARs are increasingly turning to 
+providing professional services as a means to grow the business.  
+Examples of resellers covered by Aberdeen include Inacom, Pinacor, and 
+MicroAge.
+Market Initiatives
+Aberdeen regularly conducts field surveys as well as provides on-site 
+consulting expertise on a customized basis to our Information Systems 
+customers.  And in these research and advisory capacities, Aberdeen has 
+learned that our customers are most frequently seeking assistance in:
+
+The deployment of NT-based (Windows 2000) systems;
+
+The deployment of ERP applications and related Supply Chain/E-
+commerce type applications; and,
+
+The deployment of Customer Information Systems  including Sales 
+Force Automation (SFA) applications, call-centers, and data-repositories 
+used for capturing and making strategic use of Data Knowledge.
+Further, Aberdeen is frequently asked where IS management should turn for 
+best-in-class educational services and tools that will enable an enterprise to 
+expand the technological knowledge level within a given IS or user 
+organization. 
+To address these requests, Aberdeen has chosen to focus its research and 
+analysis talent on infrastructure services, ERP/Supply Chain services, CIS-
+related services, and educational services.  On this web-site, several in-depth 
+articles can be found on each topic  both from a product perspective as 
+well as from a services perspective.
+Windows 2000 Infrastructure Services
+The focus of the Infrastructure Services practice is to help IS buyers 
+determine the best sources of professional services related to the design, 
+deployment, and management of systems architectures.  To this end, 
+Aberdeen provides in-depth, critical reviews of a particular services 
+supplier’s services offerings  and Aberdeen makes an evaluatory 
+judgement regarding that supplier’s ability to execute as promised.  For 
+instance, some suppliers focus on Windows 2000-based systems 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 6
+environments, others focus primarily on Unix environments; and still others 
+are quite adept in providing interoperability services between the two 
+environments  Aberdeen separates the wheat-from-the-chafe and helps IS 
+buyers determine which suppliers are best suited to meet their professional 
+services needs.
+The following table (Table 1) indicates Windows 2000 infrastructure service 
+suppliers covered in depth by Aberdeen today.
+Table 1: NT Infrastructure Services Practice Areas
+Independent Professional Service Suppliers (IPSPs):
+Cambridge Technology Partners
+Coopers & Lybrand
+Computer Science Corporation
+Deloitte, Touche, Tohmatsu International
+Electronic Data Systems
+Independent Software Vendors (ISVs)
+Microsoft
+SAP
+Original Equipment Manufacturers (OEMs)
+Amdahl
+Compaq
+Data General
+Hewlett-Packard
+IBM
+NCR
+Unisys
+Value-Added Resellers (VARs)
+Entex
+Microage
+Source: AberdeenGroup  January, 1999
+ERP and Supply Chain Professional Services
+Aberdeen’s Professional Services Research Practice follows the market 
+trends of Independent Professional Service Providers (IPSPs) engaged in the 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 7
+planning, development, implementation, support and maintenance of 
+Enterprise Resource Planning solutions as well as related Supply-Chain 
+professional services solutions. 
+Enterprise Resource Planning is the umbrella term for packaged applications 
+that support core-business operational functions: Finance and Accounting; 
+Sales and Distribution; Manufacturing and Logistics; and Human Resource 
+Management.  The Professional Services Research Practice concentrates on 
+the value added services provided by IPSPs.  Aberdeen continuously 
+examines these services and distinguishes between the types of offerings, 
+looking at the individual firm’s strengths and weaknesses in different 
+technology and service groups.
+The pace of ERP solution technology introduction has accelerated over the 
+past several years and very few corporations have the ability to stay current 
+on all of the issues surrounding new technology.  Independent Professional 
+Services Providers play an important role to industry by serving in the 
+capacity of business technologist, not only by assisting corporations in 
+technology assessment and integration, but also in terms of consulting on the 
+strategic business decisions related to technology. 
+In this practice area, Aberdeen also covers Supply Chain (or partner-focused 
+electronic-commerce) services offerings related to the development and 
+deployment of Supply Chain solutions.  This includes Information 
+Technology infrastructure, Commerce Application Platforms (CAPs), 
+transaction processing, middleware, database technology and business 
+process as well as supply chain management, Electronic Data Interchange 
+(EDI), call centers, and sales force automation (SFA).
+This practice considers services in EC Systems Design/Integration Services, 
+EC Systems/Application Project Management, EC Lifecycle Management and 
+Training. Our practice aids end-user organizations in the selection of EC 
+Professional Services providers, and assists suppliers in developing and 
+positioning their Professional Services offerings.
+The following table (Table 2) provides a list of several ERP/Supply Chain 
+professional services firms covered by Aberdeen today.
+Table 2: ERP/Supply Chain Services Practice Areas
+Independent Professional Service Suppliers (IPSPs):
+Andersen Consulting
+Cambridge Technology Partners
+Computer Sciences Corporation
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 8
+Deloitte & Touche, Tohmatsu International
+Electronic Data Systems
+IDS Scheer
+KPMG International
+Plaut Consulting GmbH
+Pricewaterhouse Coopers
+Renaissance Worldwide, Inc.
+Whittman-Hart
+Independent Software Vendors (ISVs)
+Baan
+J.D.Edwards
+Oracle
+PeopleSoft
+SAP
+Original Equipment Manufacturers (OEMs)
+Compaq Computer Corporation
+Helwett-Packard
+IBM
+Value-Added Resellers (VARs)
+Inacom
+Pinacor
+Source: AberdeenGroup  January, 1999
+Customer Information Systems Services
+Customer Information Systems (CIS) and related Data Knowledge 
+technologies are among the fastest-growing segments of the enterprise 
+business applications (EBA) market.  Similar to their ERP application 
+counterparts, such solutions as customer call centers and sales force 
+automation systems  coupled with data warehouse and mining 
+development tools, decision support systems, reporting software, and other, 
+related technologies  have become indispensable tools for enterprises 
+seeking to build customer satisfaction and retention and grow their 
+businesses through such techniques as segment opportunity identification 
+and 1x1 marketing. 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 9
+Aberdeen’s Professional Services Research Practice follows and analyzes the 
+market trends of the services suppliers (including those OEMs and ISVs with 
+significant professional services offerings) engaged in the planning, 
+development, implementation, support and maintenance of CIS solutions in 
+addition to related Data Knowledge technologies.
+Similar to the professional services industry practices that have grown up 
+around the ERP solutions business, the services that support CIS and Data 
+Knowledge solutions include a wide range of offerings  from business 
+process consulting, to software development and integration, to deployment 
+and management. 
+Consistent with such a breadth of services, Aberdeen’s coverage of the 
+suppliers in the CIS and Data Knowledge markets spans the industry to 
+include:  traditional management consulting firms that specialize in business 
+process and workflow design; systems integrators that partner with leading 
+CIS and Data Knowledge OEMs and ISVs; custom application developers and 
+packaged software implementers with focused customer relationship 
+management practices; and specialist suppliers with CIS and related services 
+portfolios developed for specific vertical industries such as healthcare and 
+financial services.  In this area, Aberdeen also focuses on those systems 
+integration services suppliers that are leading the way in terms of linking CIS 
+and Data Knowledge technologies with ERP solutions and other, enterprise-
+wide application environments.
+The goals of Aberdeen’s CIS and Data Knowledge Professional Services 
+practice are to:  assist IS buyers by analyzing and describing the leading 
+services suppliers within and across the relevant technology disciplines and 
+business practice areas; help ISVs and OEMs identify potential strategic 
+partners among services suppliers; and provide customers and suppliers 
+alike with timely, relevant information regarding emerging trends and 
+services opportunities. 
+Suppliers to be covered in depth in 1999 include the following (see Table 3).
+Table 3: CIS Services Practice Areas
+Independent Professional Service Suppliers (IPSPs):
+Technology Solutions Company
+NexGen SI
+Renaissance Worldwide
+Impact Innovations Group
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 10
+Cambridge Technology Partners
+Gemini Consulting
+Inforte Corporation
+Mastech
+Analysts International Corporation
+Carnegie Group (Logica)
+Service Management International
+KPMG
+Ernst & Young
+Independent Software Vendors (ISVs)
+Process Edge Technology
+Platinum Consulting
+Perigrine Professional Services
+eShare Technologies
+SPL WorldGroup
+Molloy Group
+Prospect Software
+Oracle
+Centrobe
+Original Equipment Manufacturers (OEMs)
+IBM Global Services
+NCR Corporation
+Alltel Corporation
+Lucent Technologies
+Genesys Systems
+Value-Added Resellers (VARs)
+Business FX
+Source: AberdeenGroup  January, 1999
+Educational Services
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 11
+The focus of the Education practice is to help enterprise educators determine 
+the best sources of education and training providers in the following areas: 
+instruction, content, authoring, certification and infrastructure.  Aberdeen 
+provides comprehensive reviews of a particular education/training 
+supplier’s offerings  and we evaluate that supplier’s ability to perform as 
+promised.  Our goal is to help enterprises work their way through the vast 
+multitude of education and training services providers and figure out which 
+is the best one to meet their needs. 
+In the past few years, alternatives to traditional classroom training have 
+been spreading, as enterprises look for ways to quickly and effectively train 
+employees to keep pace with today’s fast-changing technology, while also 
+trying to control costs.  Much of our research in the upcoming year will be 
+focused on the on-going transition in the education market from traditional 
+classroom training to distance learning and other technology-based training 
+solutions.  For example, distance learning gives companies greatly increased 
+flexibility in providing training for their employees at lower costs (both 
+financial and lost opportunity), with the option of choosing 
+intranets/networks and the Internet to deliver the training.  The choice that 
+an enterprise makes depends on training content, company infrastructure, 
+and the authoring tools capability to support these delivery options.
+The following table (Table 4) is a list of some of the suppliers Aberdeen plans 
+to cover from an educational services perspective in 1999.
+Table 4: Educational Services Practice Areas
+Independent Professional Service Suppliers (IPSPs):
+Allen Communications
+AMT International
+Apple Software
+Astound
+Asymetrix
+Centra Software
+Eloquent
+ExecuTrain
+Ilinc
+KnowledgeSoft
+Learning Tree
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 12
+Lotus
+Marcomedia
+MicroMedium
+Pathlore
+Plateau Systems
+Saba Software
+Saratoga Group
+Syscom
+WBT Systems
+Independent Software Vendors (ISVs)
+Aris
+CBT Systems
+Catapult
+DigitalThink
+DPEC
+GeoTrain
+InfoSource
+Interactive ViaGrafix
+ITC Learning
+KnowledgeQuest
+Knowledge soft
+McGraw-Hill OnLine
+Microsoft
+NetG
+Netopia
+Oracle
+Street Technolgies
+Tarragon Trainng
+Teckcheck
+Ziff Davis
+Original Equipment Manufacturers (OEMs)
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 13
+Compaq Computer Corporation
+Cisco
+Helwett-Packard
+IBM
+Sun
+Source: AberdeenGroup  January, 1999
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 14
+Sample Profile
+Aberdeen provides in depth analysis on dozens of suppliers in the 
+professional services space.  Most of these write-ups are available free of 
+charge by clicking on hyperlinks (locators for these documents that are 
+highlighted in blue throughout this report). 
+The remainder of this section contains a typical Aberdeen Profile that 
+illustrates the kind of information that we provide to IS buyers.  In this 
+example, we analyze IBM’s Global Services organization  examining the 
+company’s professional services strategy, competitive positoining, product 
+offerings, buyer perspectives and the like.  From this information, IS buyers 
+should be able to determine if IBM is positioned both from a product and 
+strategic point-of-view to service a buyer’s particular enterprise 
+requirements.
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 15
+IBM’s Global Services: IBM Gets It
+Preface
+IBM gets it.  They understand that packaged solutions deployment and 
+ongoing customer service  not hardware features/functions  have become 
+the basis for competition in the commoditized computer platform world. 
+The commoditization of systems platforms (Windows, Unix, AS/400, NT) has 
+been great for IS buyers from a hardware acquisition perspective  the cost 
+per transaction minute has dropped from almost $300 a minute three years 
+ago on Unix and NT platforms to less than $50 today.  But commoditization 
+has also created a void  there is a worldwide shortage of qualified IS 
+professionals available to address issues related to deployment and lifecycle 
+management of commodity platforms.  Likewise, there is a dearth of trained-
+and-experienced consulting/service expertise that can assist IS management 
+in the deployment of new Internet-based transaction processing, decision 
+support, mail-and-messaging, workflow, and Enterprise Resource 
+Management/Supply Chain applications to name a few. 
+IBM has addressed this worldwide skilled IT labor problem from two 
+perspectives:
+1. IBM has built a very large professional services and support organization 
+(numbering more than 110,000 skilled professionals) and has deployed 
+this workforce in 164 countries across the globe.  IBM was early to 
+identify the growing need for skilled IT labor  and has a considerable 
+advantage over its competitors in terms of people and worldwide 
+coverage; and, 
+2. IBM has strategically focused its resources on resolving issues related to 
+IT infrastructure deployment/integration, as well as on providing turnkey 
+Electronic Business (E-business) application solutions.  In particular, IBM 
+has built expertise in systems/applications integration as well as in the 
+deployment of certain applications solutions (described in depth in 
+section three  Core Products and Services).
+In this Profile, Aberdeen evaluates the professional services offerings 
+provided through IBM’s Global Services business unit.  We examine Global 
+Services market and competitive position, its core products and services, its 
+strategic focus and direction.  And, from Aberdeen’s perspective, we 
+conclude that IBM is best positioned as a major supplier of IT infrastructure 
+services  especially services related to the deployment of electronic 
+business applications across multiple platform types.
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 16
+Market Positioning
+This section discusses IBM’s professional services from a strategic, core 
+focus, organizational size, and delivery mechanisms perspective. 
+Professional Services  Strategic Positioning
+It is rare to find a very large enterprise that can clearly state its identity and 
+link all of its products and services together under one, cohesive, unified 
+message  a message that says who the company is and what it is trying to 
+accomplish.  IBM’s message is “E-Business” (short for electronic business), an 
+initiative that focuses on using computer technologies to automate business 
+processes and functions  all of IBM’s marketing messages, its product 
+strategies, and its services strategies have been designed to support this one 
+common, central theme.
+Typical E-Business solutions include the products and services needed to:
+
+Conduct commerce electronically (both with consumers as well as with 
+external business partners); 
+
+Automate inter-company applications and processes related to mission 
+critical functions such as human resources, manufacturing, distribution, 
+finance, and sales; and,
+
+Internet-enable mail-and-messaging systems and interdepartmental 
+workflow.
+But, in reality, E-business can be generally applied to any computing 
+function that automates any computing or business process function  
+internal or external  within or without the enterprise.
+Professional Services  Business Strategic Planning and Information 
+Technology 
+Some Independent Professional Services Providers (IPSPs) offer stellar 
+business strategic planning services, but lack the resources to implement the 
+information systems needed to execute their plans.  Some Original 
+Equipment Manufacturers (OEMs) offer strong information technology 
+design, deployment, and management services, but have little credibility in 
+business strategic planning.  IBM is one of only a handful of professional 
+services suppliers that is capable of providing high-quality, in-depth, 
+strategic business planning services and corresponding IT design, 
+deployment, and management services.  The company’s services strength lies 
+in its ability to recommend a strategic course of action  and then follow 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 17
+through with the ability to implement strategic plans using the appropriate 
+systems and software solutions.
+IBM’s Global Services organization focuses on two distinct, but not 
+necessarily separate categories: Business Strategic Planning and Information 
+Technology (IT) services.  From a strategic planning perspective, IBM’s 
+Global Services organization assists high-level business executives  Chief 
+Executive Officers (CEOs), Chief Information Officers (CIOs), and executive-
+level strategic planners  in the development of business strategies (for 
+instance, the development of a consumer-focused Electronic Commerce 
+initiative; or a Year 2000 remediation plan).  From an IT perspective, IBM 
+offers a broad range of custom and/or packaged professional services to 
+assist in the design, deployment, and lifecycle management of applications 
+and systems solutions.  Further, IBM offers related education/training 
+services as well as strategic outsourcing services.
+Also, important to note is that IBM has considerable expertise in outsourcing 
+ the practice of assuming control of a portion or the whole of an 
+enterprise’s computing function, thereby off-loading an enterprise from the 
+task of running computer operations or freeing-up enterprise resources to 
+work on other projects.  In outsourcing, few companies have IBM’s heritage 
+ its in-depth knowledge of mainframe and midrange systems 
+environments, as well as its in-depth knowledge of enterprise-level systems 
+operations (such activities as light-out back-up and restore, or multi-tiered 
+systems, network, and storage management).  For many IS buyers, IBM’s 
+background in enterprise-class systems environments makes IBM’s Global 
+Services division a natural choice for outsourcing activities. 
+Based-upon discussions with IBM’s customers, Aberdeen considers IT 
+systems integration to be IBM’s core professional services strength.  The 
+company has a heritage in enterprise computing  and this heritage is 
+manifest in the skill sets of its consultants and technicians.  IBM understands 
+mainframe computing and has the worlds largest installed base of enterprise 
+servers; IBM understands midrange computing (with almost 500,000 AS/400-
+class systems installed and over 100,000 Unix systems in place); and IBM 
+knows how to implement and integrate Windows PC, OS/2, Network 
+Computer, and asynch/block mode terminal environments.  Further, IBM has 
+considerable expertise in communications and networking using various 
+protocols and medium, program-to-program communications, and storage 
+subsystem management.  In short, IBM has the ability to integrate multiple, 
+disparate systems types, applications types, and subsystems into a cohesive 
+whole.
+Professional Services  Organizational Size
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 18
+Professional services and support account for almost one-quarter of IBM’s 
+total annual revenue ($19 billion of $78 billion).  But Aberdeen notes that 
+most OEMs combine services and support revenues  hence IBM’s revenue 
+total looks much larger than IPSPs such as Andersen Consulting or 
+Deloitte/Touche that do not derive a major portion of their services revenues 
+from systems maintenance.  OEMs, including IBM, Hewlett-Packard (HP), 
+Digital Equipment Corporation (now Compaq) generally place revenue 
+garnered from the sale of systems maintenance contracts, outsourcing, and 
+education/training in with revenues related to the sale of professional 
+services.  Meanwhile, Independent Professional Services Providers (IPSPs) 
+such as the Big Five consulting firms (Andersen, Price Waterhouse, Ernst and 
+Young, et al) mix revenues gained from accounting engagements in with 
+revenues gained through professional services engagements.  As a result, 
+OEM and Big 6 professional services revenues often look over-inflated when 
+compared to other independent services firms that do not perform 
+accounting functions nor reap revenue from systems maintenance. 
+Still, IBM is most-likely the world’s largest provider of IT-related professional 
+services and business strategic planning services, followed by Electronic 
+Data Systems at $15.2 billion, Hewlett-Packard at $6.2 billion, and Digital 
+Equipment Corporation (now part of Compaq Computer Corporation) at $5.8 
+billion. 
+Services Delivery
+The focus of IBM’s E-Business strategy is to deliver systems and applications 
+solutions  and services play a key role in the delivery of solutions to IBM 
+customers.  IBM delivers its E-business services to the market either directly 
+or indirectly. 
+For large enterprises, IBM maintains a direct, and enterprise-savvy sales 
+force that is capable of qualifying a prospect’s business objectives  and then 
+orchestrating technical resources from within IBM to address customer 
+needs.  For the most part, the sales force engages IBM’s Global Services when 
+assistance is required to address issues related to multivendor systems 
+integration; or the need to deploy complex applications on a large-scale 
+(frequently on a global basis); or the need to outsource certain business 
+operations.  Global Services becomes involved both in a pre-sales mode to 
+help define the scope of a project, and in a post-sales mode to fulfill the 
+delivery of systems, applications, and database solutions. 
+IBM indirectly services small and medium enterprises by using its indirect 
+channel partners (resellers) as services providers.  IBM provides valuable 
+training for these resellers  teaching them how to qualify, sell, and support 
+business in SME (small-to-medium enterprise) accounts.  Further, IBM 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 19
+provides pre-packaged, bundled services that address a buyer’s services 
+requirements in a consistent and easily-deployable fashion. 
+But Aberdeen also notes that IBM’s commitment to this segment of the 
+market goes far beyond packages service bundles and education  for 
+instance, IBM recently announced extensions to its Business Partner 
+Warranty Program that essentially rewards its channel partners with 
+increased premiums for excellence in customer service (based-upon 
+customer service).  This kind of innovation, combined with IBM’s 
+individualized quality service education and training programs indicate to 
+Aberdeen that IBM recognizes the importance of strong services in indirect 
+channels, and is doing all that it can to increase customer satisfaction at all 
+levels within the computing marketplace.
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 20
+Competitive Positioning
+Although many would expect IBM’s Global Services to compete regularly 
+with other OEM services providers such as Hewlett-Packard and Compaq, 
+IBM claims that its primary competitors are Andersen Consulting and 
+Electronic Data Systems. 
+Like IBM, Andersen Consulting is widely respected for its strategic business 
+planning services  and for its solutions focus (solutions such as Electronic 
+Commerce, Enterprise Resource Planning (ERP), Extended ERP, etc.).  And it 
+is in the area of solutions deployment that these two companies are most 
+likely to collide.  IBM has a focused initiative (called E-business) that 
+concentrates on automating business functions using electronic commerce, 
+ERP, the Internet, and other technologies to streamline business transaction 
+processing.  Andersen is also structured both horizontally and vertically to 
+address many of the same markets that IBM has focused upon.
+IBM and EDS compete most strongly for outsourcing engagements.  EDS is 
+the industry’s largest supplier of outsourcing services, but reaps almost one-
+third of its $15.2 billion in revenue from one account (General Motors (GM)). 
+But note, General Motors is looking to reduce its reliance on EDS  a factor 
+that could spur even more intense competition between IBM and EDS as IBM 
+claims its fair share of GM opportunities, and EDS strives to regain revenue 
+lost.
+Competition between Hewlett-Packard, Compaq, and IBM is primarily 
+related to size (the ability to get the job done on a worldwide basis) and 
+infrastructure services.  All claim to be experts in NT/Unix/MVS systems 
+integration, NT and Unix systems and application deployment, 
+communications/networking, systems/network management, and the list 
+goes on and on…  But, as Aberdeen lifts up the hood and checks out these 
+companies’ respective professional services offerings, Aberdeen finds very 
+distinct differences in their ability to execute various IT initiatives  
+especially from an infrastructure perspective. 
+Succinctly, our comparative analysis and resultant findings indicate that:
+
+IBM currently has the largest OEM service/support workforce, numbering 
+more than 110,000 people.  When Digital Equipment’s service and support 
+resources are combined with the resources already in place at Compaq, 
+this number should approach 34,000 (the total number of people 
+estimated in the combination of Compaq, Tandem, and Digital 
+workforces). Hewlett-Packard is the number two OEM services provider 
+ with almost 25,000 people. 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 21
+
+Hewlett-Packard (HP) has placed a tremendous emphasis on Unix-
+oriented professional services  but has been comparatively slow to 
+build the services needed to deploy NT-based products on a grand scale; 
+and,
+
+Compaq, through the acquisitions of Digital and Tandem, has greatly 
+strengthened its ability to provide enterprise-level services  but has 
+especially strengthened its position as a provider of “pure” NT-based 
+services; 
+IBM invested early and invested often in building the size, skill strength, 
+breadth and depth of its professional services and support organizations.  
+The company has rallied around a single initiative  E-business  and has 
+put the products, people, and services in place to successfully execute E-
+business-related initiatives across multiple platforms in multivendor 
+environments.  Hence, from Aberdeen’s perspective, when IBM competes 
+with HP and Compaq for professional services engagements, IBM’s 
+advantages will be size, depth of enterprise experienced, cross-platform 
+consulting expertise, and breadth of services offerings.
+Figure 1  IBM’s Global Services 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 22
+Professional
+Services
+Network
+Services
+Product
+ Support
+Services
+Vertical Services
+Application Enabling
+Consulting
+e-business
+Education & Training
+Strategic Outsourcing
+Systems Integration
+Small/Medium Business
+Managed Data&
+   Network Services
+Managed Electronic
+  Transaction Services
+Managed Messaging &
+  Collaborative Services
+Managed Internet &
+  Intranet Services
+Network Outsourcing
+Sys/Net Mgt. Services
+Site & Connectivity
+Business Recovery
+H/W & S/W Support
+Appl. Design; Deployment; Tuning
+Change Mgt.; Strategic Planning
+Internet/Intranet Solutions Deploy
+Class instruction; Conferences, CBT
+T y p e s  o f  Services
+Selective or Full Source Outsourcing
+Customized for Individual Needs
+Packaged e-Commerce, other svcs.
+Design, Deployment of 
+Network Mgt. Services
+Internal or Outsourced 
+Transaction Services
+Mail/Workgroup Design,
+Deployment, and Mgt.
+Internal or Outsourced 
+Transaction Services
+Outsourced Networking
+& Systems Services
+Net Design/Deployment
+High-availability; Recovery
+Sys/Software Maintenance
+Source: Aberdeen Group – August, 1998
+Core Products and Services
+IBM’s Global Services offers business strategic planning and IT professional 
+services  organized in both a horizontal and vertical fashions (see Figure 1 
+ previous page). 
+From a vertical perspective, IBM’s Global Services are organized into three 
+categories: Professional Services, Network Services, and Product Support 
+Services (covered in greater detail through the remainder of this section).  
+Vertical services can be mixed-and-matched in a building block fashion in 
+order to address a customer’s specific requirements (one from Column A, 
+two from Column B, etc…).  In this manner, Global Services can build a 
+portfolio of services designed-and-tailored to  deliver standardized services 
+to its customers on a very individualized basis.  For instance, a customer 
+may wish to implement an e-commerce application.  And that customer may 
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 23
+want services that range from design and deployment through systems and 
+network management, as well as conference-based education and training 
+services and a structured 24x7x365 service and support agreement.  IBM’s 
+Global Services can pick-and-choose the appropriate services and service 
+offerings from each of its vertical services categories to create a services 
+offering that addresses this customer’s particular requirements.
+Vertical Services  Professional Services
+Services found within IBM’s Professional Services offerings include:
+
+Application Enabling Services;
+
+Consulting;
+
+e-business Services;
+
+Education and Training Services;
+
+Strategic Outsourcing Services;
+
+Systems Integration Services; and,
+
+Small and Medium Business Solutions.
+Global Services Application Enabling Services are services pertaining to the 
+deployment of very popular packaged applications, such as applications 
+from SAP, BaaN, PeopleSoft, and other Independent Software Vendors.  But 
+services related to Year 2000 application remediation, or custom applications 
+development can also be found within the realm of this services offering.
+Global Services’ Consulting Services primarily focus on strategic planning 
+and implementation  with services that include how to handle ongoing 
+change (Change Management) through strategic plans that use innovative 
+technologies to gain competitive edge or to provide a higher degree of 
+customer service.
+e-business Services focus on the application of Internet technologies  with 
+services that include advisory services, Intranet/Extranet design & 
+deployment,     e-Commerce application deployment and management, 
+security services, and the like.  These services concentrate on setting up the 
+basic systems and applications environment  and providing knowledge 
+transfer  such that IBM customers can create their e-business environment 
+and grow it according to their organization’s needs.  Note that other services 
+from IBM’s other vertical services organizations help to comprise a complete 
+services offering in this category  for instance, managed data network 
+services and distributed learning services can be part of a complete e-
+business solutions package that is ultimately delivered to a customer.
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 24
+IBM has surprising breadth in its Educational and Training Services offerings 
+ ranging from classroom instruction, internet-based or telephone-based 
+conferences, computer-based training (CBT), and other instructional 
+methods for knowledge to individuals or organizations. 
+Strategic Outsourcing Services are currently a hot arena for IBM; the 
+company with its rich history in enterprise engagements makes a natural 
+choice for outsourcing services.  IBM’s Global Services organization has the 
+ability to take-on entire IT core business functions for its enterprise 
+prospects  or to handle partial systems or networking outsourcing 
+functions.  And, as enterprises become more concerned about their ability to 
+run mission-critical applications under Year 2000 date calculation 
+limitations, Aberdeen expects IBM’s outsourcing business to continue to 
+grow in a heated fashion.
+IBM has been traditionally strong as a systems integrator; one factor that 
+may have influenced IBM’s systems integration stance may be that the 
+company has had several disparate and competing architectures of its own 
+within house and has had to iron out interoperability issues accordingly.  
+Whatever the reason, IBM has significant and proven expertise in systems 
+integration across the entire systems hardware and software spectrum  as 
+well as across program-to-program environments.   The programs needed to 
+provide systems and applications systems integration can be found within 
+IBM’s Systems Integration Services offerings.
+Finally, as noted in the market positioning section, IBM takes the small and 
+medium business market segments very seriously  although it generally 
+reaches these segments using indirect channels.  IBM customers that peruse 
+IBM’s Small and Medium Business Solutions offerings will find a great 
+number of pre-packaged application solutions in areas such as e-Commerce 
+services, Internet/Extranet Services, Web-site Creation, security, and 
+recovery services.
+Vertical Services  Network Services
+IBM’s Network Services include services related to network infrastructure 
+design, management, outsourcing, and training services, as well as services 
+geared toward the deployment and management of network-oriented 
+applications, including the following:
+
+Managed Data Network Services;
+
+Managed Electronic Transaction Services;
+
+Managed Messaging and Collaborative Services;
+
+Managed Internet and Intranet Services;
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 25
+
+Network Outsourcing Services; and related
+
+Education and Training Services.
+For the most part, these services are self-explanatory  but worthy of 
+discussion is IBM’s expertise in the deployment of certain applications related 
+to some of these categories.  For instance, IBM is particularly strong in the 
+deployment of Lotus workgroup solutions, as well as Tivoli-based network 
+services  and offers a wealth of prepackaged services offerings for each of 
+these product sets.  Note, IBM is a systems maker, services supplier, and 
+software maker  and has a vested interest in providing a rich suite of 
+product solutions for the products it owns (products such as Tivoli, Lotus, 
+DB/2, MessageQ, ADSM, and other software and utilities).
+Professional Services  Product Support Services
+Aberdeen estimates that IBM derives almost $11.5 billion in support 
+revenues on an annual basis  primarily due to its large base of installed 
+systems and software.  IBM has several field maintenance organizations, but 
+still relies on Global Services to provide high-level support for hardware and 
+software, systems and network management, site connectivity, and business 
+recovery systems environments.
+What Global Services Customers Say
+IBM’s professional services customers consistently state that the primary 
+reason that they have purchased and continue to purchase professional 
+services through Global Services is “reliability”.  IS executives have generally 
+told Aberdeen that they have a high degree of confidence that IBM will get 
+the job done, and that it will get done right. 
+When asked about “value”, (specifically, are IBM’s services more expensive 
+than services that can be obtained elsewhere?), IBM’s customers responded 
+that IBM’s services pricing compare favorably to the prices of IBM’s primary 
+competitors – Andersen Consulting, EDS, and OEMs such as Hewlett-Packard 
+and Compaq.  But note, for many IS services buyers, pricing is a secondary 
+issue  the need to get a solution in place, on- time, and in working order in 
+many cases supercedes cost issues.  In other words, the reliable delivery of a 
+solution in a timely fashion is often a more important consideration than 
+cost.
+© 1999Aberdeen Group, Inc.
+Telephone: 617 723 7890
+One Boston Place
+Fax: 617 723 7897
+Boston, Massachusetts 02108
+www.aberdeen.com
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 26
+On the downside, some IBM customers indicated that services were not 
+delivered in as consistent a fashion as they had hoped on a global basis.  
+However, Aberdeen notes that IBM has established numerous global centers-
+of-competency to deal with this issue  and we suspect that IBM is better 
+positioned than any other services supplier to provide consistent services 
+delivery on a global basis.
+Summary Observations
+The purpose of an Aberdeen Profile is to present an objective overview of a 
+supplier’s products, services, and strategies, such that Information Systems 
+(IS) executives can quickly gain an understanding of a particular supplier’s 
+position and product/services offerings.  By providing this independent 
+assessment of IBM’s services strategy, its competitive positioning, and cores 
+services offerings, this Profile seeks to assist IS managers in the professional 
+services partner evaluation process. 
+From a market positioning perspective, it is important to note that IBM is 
+one of only a few companies that can credibly address high-level business 
+strategic planning as well as information technology design, deployment, 
+and lifecycle management needs.  Some of IBM’s competitors have services 
+strengths in strategic planning or information technology – IBM is strong in 
+both aspects.  From Aberdeen’s perspective, IBM is particularly strong on the 
+information technology side of the equation.  IBM has considerable expertise 
+in the design, deployment, and support of multi-tiered systems 
+environments (desktops, midrange servers, and enterprise servers).  The 
+company clearly understands two-tiered and three-tiered computing models, 
+and has built a broad array of tools that enable applications to work 
+cooperatively across multiple systems types (ranging from Microsoft 
+Windows-based desktops, through Unix and AS/400 systems environments, 
+through mainframe enterprise server environments). 
+Aberdeen Group, Inc.
+One Boston Place
+Boston, Massachusetts
+02108
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+© 1999 Aberdeen Group, Inc.
+All rights reserved
+January, 1999
+Aberdeen Group is a computer and 
+communications research and consulting 
+organization closely monitoring enterprise-user 
+needs, technological changes and market 
+developments.
+Based on a comprehensive analytical framework, 
+Aberdeen provides fresh insights into the future of 
+computing and networking and the implications 
+for users and the industry.
+Aberdeen Group performs specific projects for a 
+select group of domestic and international clients 
+requiring strategic and tactical advice and hard 
+answers on how to manage computer and 
+communications technology.
+Aberdeen’s Professional Services Practice  Coverage Areas
+ 27
+But it is IBM’s Global Services customers that have the final word here.  And 
+they have stated, unequivocally, that IBM is the place that they turn when 
+they absolutely require reliable service  on time, and in working order.
+Aberdeen Group, Inc.
+One Boston Place
+Boston, Massachusetts
+02108
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+© 1999 Aberdeen Group, Inc.
+All rights reserved
+January, 1999
+Aberdeen Group is a computer and 
+communications research and consulting 
+organization closely monitoring enterprise-user 
+needs, technological changes and market 
+developments.
+Based on a comprehensive analytical framework, 
+Aberdeen provides fresh insights into the future of 
+computing and networking and the implications 
+for users and the industry.
+Aberdeen Group performs specific projects for a 
+select group of domestic and international clients 
+requiring strategic and tactical advice and hard 
+answers on how to manage computer and 
+communications technology.

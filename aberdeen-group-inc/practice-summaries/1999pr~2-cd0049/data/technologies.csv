@@ -1,0 +1,18 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+windows-nt,Windows NT Server,platform,Microsoft,1993-2000,mature,legacy-unsupported,1999pr~2-cd0049,NT 4.0 is current; NT 5.0/Windows 2000 upcoming; memo cites overuse for enterprise-scale deployments NT cannot support
+novell-netware,Novell NetWare / IntranetWare,platform,Novell,1983-2004,mature,legacy-unsupported,1999pr~2-cd0049,Aberdeen finds NetWare not dead; key role in Internet Infrastructure via directory services
+os2-warp-server,IBM OS/2 Warp Server,platform,IBM,1994-2000,mature,legacy-unsupported,1999pr~2-cd0049,Cited as major NOS alongside NT and NetWare; Aberdeen finds ongoing enterprise relevance
+nos-general,Network Operating System (NOS),platform,multiple,1983-2005,mature,legacy-unsupported,1999pr~2-cd0049,General category; memo is framed around Aberdeen's NOS practice as worked example
+ia-64,Intel IA-64 Architecture (Merced),platform,Intel,1999-2017,emerging,legacy-unsupported,1999pr~2-cd0049,First 64-bit Intel family; Merced is upcoming; Aberdeen expects 5+ year conversion timeline; key market inflection point
+nt-intel-server,NT/Intel Server,platform,multiple,1993-2005,growth,legacy-unsupported,1999pr~2-cd0049,"Market leaders: Compaq, HP, IBM, Dell; expanding from file/print to mission-critical production"
+active-directory,Active Directory,application,Microsoft,1999-present,emerging,active,1999pr~2-cd0049,Microsoft's upcoming directory service (NT 5.0); Kernochan cites as critical to NOS scalability roadmap
+smp,Symmetric Multiprocessing (SMP),platform,multiple,1980s-2010s,growth,unknown,1999pr~2-cd0049,Cited as key NT/Intel server scaling mechanism; larger SMP servers consolidating workloads
+clustering,Server Clustering,platform,multiple,1990s-present,emerging,active,1999pr~2-cd0049,"Cited as work-in-progress for NT environment; scalability, availability goals"
+tcp-ip,TCP/IP,protocol,multiple,1974-present,mature,active,1999pr~2-cd0049,Cited as dominant transport protocol replacing IPX/SPX; originally government/academia but mainstream by 1999
+ipx-spx,IPX/SPX,protocol,Novell,1983-2000s,mature,legacy-unsupported,1999pr~2-cd0049,Novell NetWare native protocol; being supplanted by TCP/IP
+java,Java,language,Sun Microsystems,1995-present,growth,active,1999pr~2-cd0049,Cited in application development and NOS Internet Infrastructure context; recent enterprise adoption for EC
+e-commerce,E-Commerce Applications,application,multiple,1995-present,emerging,active,1999pr~2-cd0049,Cited as gating application development use case; drives toolset adoption
+data-warehousing,Data Warehousing,application,multiple,1990s-present,growth,active,1999pr~2-cd0049,Cited as competitive-advantage application; key application development target
+internet-infrastructure,Internet Infrastructure,platform,multiple,1995-2005,emerging,unknown,1999pr~2-cd0049,Aberdeen-defined category: NOS + directory services + Java + web servers; Novell and IBM positioning plays
+directory-services,Directory Services,application,multiple,1993-present,emerging,active,1999pr~2-cd0049,"Key NOS Internet Infrastructure component; Novell DNS, Active Directory, LDAP; critical service Internet requires"
+novell-intranetware,Novell IntranetWare,platform,Novell,1996-2000,mature,legacy-unsupported,1999pr~2-cd0049,Novell's NOS with Internet integration; holds promise for RAD and directory services per memo

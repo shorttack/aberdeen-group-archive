@@ -1,0 +1,25 @@
+Fix up stuff from Mockup
+Then insert marketing blurb..
+Styles that need to fit into Table of Contents outline structure:
+Chap Title at Heading 1
+Chapter Title if used (why duplicate?) at Heading 1
+Major Heading at Heading 2
+Minor Heading at Level 3
+Section Head Bold as not in outline
+Section Head Italic as not in outline
+Company Name as Level 2
+get rid of unused template stuff
+and fix Roman vs. Arabic page numbers up to Preface
+DBMS — needs page numbers roman and restarted at 1
+Beware — fix preface for one space after period on imported web stuff.
+Electronic Commerce — lost page header on page 5 (preface last page)
+Systems management — preface page numbers in footer not next to Aberdeen Group
+Systems management — practice definition (Preface) talks about application management, but 
+rest of report does not.    Change definition for now.
+EC professional services — Heading 1 style used instead of Chapter #.    Reset TOC builder to 
+ignore Headrer 1 because Chap # style was not correct here.    This did not work.    Gave back to 
+Andy Bochman.
+Managed services — main body page number formatting is wrong
+Middleware — page numbers
+Networking — has a different TOC than others.    Applied TOC syle from gallery.    No joy.
+All — check Preface for two spaces after periods.

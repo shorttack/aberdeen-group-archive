@@ -1,0 +1,20 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,develo~1-d25652,Publisher of this practice summary; Boston-based IT research firm
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,develo~1-d25652,Dominant development tools vendor; Visual Basic and Visual C++ cited as most widely used; Visual J++ for Java
+ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,develo~1-d25652,VisualAge product family for Java/C++/COBOL/SmallTalk; Network Computing Framework (NCF) strategy
+oracle,Oracle,company,Enterprise Software/Database,active,,1977-present,develo~1-d25652,Developer/2000 and Designer/2000 tools; licensed JBuilder from Borland; Network Computing Architecture (NCA)
+borland-inprise,Borland International Inc. (Inprise Inc.),company,Application Development Tools,dissolved,unknown,1983-2009,develo~1-d25652,Renaming to Inprise effective June 1998; JBuilder Java compiler licensed by Oracle; Delphi and Interbase products
+sybase,Sybase Inc.,company,Database / Development Tools,acquired,unknown,1984-present,develo~1-d25652,Powersoft Division; PowerBuilder client-server ADE; PowerDesigner modeling; Jaguar CTS middleware
+rational-software,Rational Software Corporation,company,Software Development Tools,acquired,IBM (2003),1981-2003,develo~1-d25652,Rational Rose modeling tool; SQA acquisition for testing; Pure/Atria acquisition for SCM; UML champion
+computer-associates,Computer Associates International Inc.,company,Enterprise Software,acquired,unknown,1976-present,develo~1-d25652,Jasmine OO database; Opal legacy tool; Unicenter TNG; Harmony unification strategy planned for 1999
+compuware,Compuware Corporation,company,Enterprise Software / APM,active,,1973-present,develo~1-d25652,UNIFACE cross-platform component ADE; NuMega acquisition for Windows debugging; Year 2000 remediation tools
+forte-software,Forte Software Inc.,company,Application Development Tools,acquired,unknown,1991-1999,develo~1-d25652,High-end enterprise distributed computing ADE; Forte Conductor workflow engine; acquired by Sun Microsystems 1999
+intersolv,Intersolv Inc.,company,Software Development Tools,merged,unknown,1981-1998,develo~1-d25652,PVCS version control market leader; Year 2000 services; data connectivity software; merged with Merant 1998
+mercury-interactive,Mercury Interactive Corporation,company,Software / Performance Testing,acquired,HP (2006),1989-2006,develo~1-d25652,LoadRunner; WinRunner; XRunner; TestDirector; acquired SQA Inc. from Rational competitor
+bluestone-software,Bluestone Software Inc.,company,Internet Development Tools,acquired,unknown,1994-2002,develo~1-d25652,Sapphire/Web Java database development environment; competitive pressure from all sides in 1998
+netdynamics,NetDynamics Inc.,company,Internet Development Tools,acquired,unknown,1995-1998,develo~1-d25652,Java-based Internet application development and deployment; TP monitor scalability techniques; Studio wizard-based IDE
+progress-software,Progress Software Corporation,company,Application Development Tools,active,,1981-present,develo~1-d25652,Apptivity Corp. acquisition for Java thin-client development; multi-tier Java applications for Internet/Intranet
+sunsoft,SunSoft Inc.,company,Software / Java Development,dissolved,Sun Microsystems,1990-1999,develo~1-d25652,Software subsidiary of Sun Microsystems; Java Workshop RAD tool; Visual Workshop for C++ on Solaris
+symantec,Symantec Corporation,company,Enterprise Security Software,active,,1982-present,develo~1-d25652,Visual Cafe Pro Java RAD tool; one of top three Java compilers for Windows; desktop utilities heritage
+sqa-inc,SQA Inc.,company,Software Testing Tools,acquired,Rational Software (1997),1992-1997,develo~1-d25652,Windows-only testing tool vendor; SQA Suite; acquired by Rational Software
+numega,NuMega Technologies,company,Windows Development Tools,acquired,Compuware (1997),1990-1997,develo~1-d25652,Windows debugging and performance profiling tools; acquired by Compuware

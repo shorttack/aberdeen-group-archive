@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+tivoli-tme,Tivoli Management Environment (TME),application,IBM Tivoli,1994-2000s,mature,legacy-active,system~1-36ba8c,IBM's cross-platform Framework management suite; co-leader of Framework camp.
+unicenter-tng,CA Unicenter TNG,application,Computer Associates,1997-2000s,current,legacy-active,system~1-36ba8c,Computer Associates framework-based enterprise management; co-leader of Framework camp.
+hp-openview,HP OpenView,application,Hewlett-Packard,1988-2000s,mature,superseded,system~1-36ba8c,HP's Best-of-Breed network and systems management suite; flagship of Best-of-Breed camp.
+snmp,Simple Network Management Protocol (SNMP),protocol,IETF,1988-present,mature,active,system~1-36ba8c,Lowest common denominator of enterprise network management; facing limits for modern complex networks.
+arm-api,Application Response Monitor (ARM) API,framework,HP; Various,1995-2000s,emerging,superseded,system~1-36ba8c,Emerging API moving manageability further into application development lifecycle.
+dmi,Desktop Management Interface (DMI),protocol,DMTF,1990s,growing,superseded,system~1-36ba8c,DMTF open standard bringing desktop management into enterprise management fold.
+sla-management,Service Level Agreement (SLA) Management,application,Various,1990s,emerging,active,system~1-36ba8c,SLA adoption turning IS organizations into competitive service providers; driving application management growth.
+job-scheduling,Workload Management / Job Scheduling,application,Various,1980s-present,mature,active,system~1-36ba8c,Dynamic workload management across distributed client-server enterprise; virtual mainframe concept.
+internet-mgmt,Internet / Intranet / Extranet Management,platform,Various,1990s,emerging,active,system~1-36ba8c,Internet redefines enterprise network perimeter; raises urgency of remote management and capacity planning.
+ai-expert-systems,AI / Pattern Recognition for Management,application,Various,1990s-emerging,emerging,active,system~1-36ba8c,Aberdeen predicts AI and expert systems will be applied first to network management then systems management.

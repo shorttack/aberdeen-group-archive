@@ -1,0 +1,1482 @@
+AberdeenGro
+up
+Development 
+Tools:
+1998 
+Practice 
+Summary
+May 1998
+Aberdeen Group, Inc.
+One Boston Place
+Boston, Massachusetts 02108 
+USA
+Development Tools Practice Summary
+AberdeenGroup 2
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+Development Tools Practice Summary
+AberdeenGroup 3
+Aberdeen Group, Inc.
+Aberdeen Group is a Boston-based, computer and 
+communications consulting and market-research 
+organization.
+Aberdeen Group performs specific projects for a select 
+group of domestic and international clients.    Each requires 
+a combination of strategic advice and pragmatic, 
+experience-based action plans.    Assignments range from 
+corporate and product positioning and organizational 
+planning to in-depth market segment research.    Aberdeen 
+consults on mergers and acquisitions, corporate positioning 
+and investor relations, transaction-processing benchmarks, 
+and has special expertise in software and midrange    
+computer markets.
+In carrying out assignments, Aberdeen uses a proprietary, 
+comprehensive, analytical framework providing fresh 
+insight into the complex future of computing and 
+communications, both from a technological and a market- 
+dynamics perspective.    Aberdeen also offers retainer-fee 
+programs to a group of continuing clients.
+Aberdeen principals and staff are recognized industry 
+figures with hundreds of years of combined high-tech 
+industry, research and financial community experience 
+among them.    They are quoted extensively in industry trade 
+and business publications.    Each is a frequent conference 
+and seminar speaker.
+In addition to client-related research and consulting, 
+Aberdeen publishes several periodicals, Aberdeen 
+Viewpoints and Profiles, which summarize its analysis and 
+research findings.
+Information contained in this publication has been obtained from 
+sources we believe to be reliable, but is not warranted by us.    Opinions 
+reflect judgment at the time and are subject to change without notice.
+Development Tools Practice Summary
+AberdeenGroup 4
+The trademarks and registered trademarks of the corporations 
+mentioned in this publication are the property of their respective 
+holders.
+Warning:    This publication is protected by United States copyright law 
+and international treaties.    Unless otherwise noted, the entire contents 
+of this publication are copyrighted by Aberdeen Group, Inc., and may not 
+be reproduced, stored in a retrieval system, or transmitted in any form 
+or by any means without prior written consent.    Unauthorized 
+reproduction or distribution of this publication, or any portion of it, may 
+result in severe civil and criminal penalties, and will be prosecuted to the 
+maximum extent necessary to protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+Development Tools Practice Summary
+AberdeenGroup 5
+TABLE OF CONTENTS
+DEVELOPMENT TOOLS PRACTICE
+V
+Description, Focus and Benefits
+v
+Strategic Market Questions
+v
+The Audience for This Report
+vi
+EXECUTIVE SUMMARY
+1
+SUMMARY OF FINDINGS
+3
+Key Aberdeen Findings
+4
+APPLICATION DEVELOPMENT DEFINED
+6
+Core Development-Tool Components
+6
+Analysis/Design Tool
+6
+Programming Tools
+7
+Testing Tools
+8
+Deployment Tools
+8
+How an Integrated System Works
+9
+Application Development Environments  (ADEs)
+9
+Component Development Toolsets
+9
+Internet Development Toolsets
+10
+ISSUES AND CHALLENGES
+11
+Impact of Major IT Trends
+11
+Supplier Success Factors
+13
+User Success Factors
+13
+Internet Deployment
+13
+Component-based Development
+14
+SUPPLIER ABSTRACTS
+16
+Development Tools Practice Summary
+AberdeenGroup 6
+Borland International Inc. (Inprise Inc.)
+16
+Bluestone Software Inc.
+17
+Computer Associates International Inc.
+18
+Compuware Corporation
+19
+Forte Software Inc.
+20
+IBM Corporation
+21
+Intersolv Inc.
+22
+Mercury Interactive Corporation
+22
+Microsoft Corp.
+23
+NetDynamics Inc.
+24
+Oracle Corp.
+25
+Progress Software Corporation
+26
+Rational Software Corporation
+27
+Sybase Inc.
+28
+Symantec Corporation
+28
+SunSoft, Inc. (a subsidiary of Sun Microsystems, Inc.)
+29
+Development Tools Practice Summary
+AberdeenGroup 7
+Preface
+Development Tools Practice 
+Description, Focus and Benefits
+The Development Tools practice covers software tools, libraries, 
+and environments for designing, coding, testing, deploying, 
+maintaining, and upgrading programs – and especially those tools 
+that are creating enterprises’ new business-critical competitive-
+advantage applications.    Thus, the Development Tools practice 
+covers such key new development technologies as Java, 
+deployment tools, data-aware Visual Programming Environments, 
+components, and upgrade tools that can also be used for Year-2000 
+efforts.
+A radical shift in market needs in the last 1 1/2 years due to the 
+Internet and Year 2000 has led to today’s mass confusion in the 
+development tool market.    This shift has also increased the overall 
+need for programmer productivity, to take advantage of scarce 
+programmer resources in enterprises’ business-critical initiatives 
+and strategies.    Aberdeen’s Development Tools practice therefore 
+assesses development tools by their ability to deliver real, long-
+term business benefits in programmer productivity and 
+application scalability. In particular, Aberdeen emphasizes 
+scalability to support large software development efforts and 
+teams of programmers, and software tools’ ability to leverage field-
+proven technologies instead of reinventing the wheel.
+The Development Tools practice continues to be a key part of both 
+the System Platforms & Architectures and the Network Services 
+areas of Aberdeen research.    To take full advantage of increasingly 
+complex hardware architectures and database management 
+systems, IS buyers must consider the capabilities of the 
+development tool as well as the raw speed of the system.    To 
+implement, deploy, and upgrade scalable E-commerce solutions 
+swiftly, IS buyers must consider the capabilities of Web-site 
+authoring tools and Java tools.
+Strategic Market Questions
+
+Where is Java suitable in 1998? 
+Development Tools Practice Summary
+AberdeenGroup 8
+
+What should IS do to hedge their bets in the war between 
+Microsoft and non-Microsoft visions of Internet 
+development? 
+
+How should users fit the new development tools bundled 
+with packaged applications into an overall development 
+strategy? 
+
+Does Year 2000 offer an opportunity to resuscitate legacy 
+applications and fit them with new technology, or to replace 
+them? 
+
+Are reusable object "components" here to stay? 
+
+What do the new frameworks or Network Computing 
+Architectures (e.g., Oracle’s "cartridges") buy the software 
+architect and developer? 
+The Audience for This Report
+This Aberdeen Group Practice Summary is a deliverable in a 
+comprehensive service that includes Aberdeen published research 
+and customized professional services aimed at executives who 
+must make strategic business decisions regarding Information 
+Technology.
+This practice summary aims to provide information for strategic IS 
+buyers of both computing solutions — especially those seeking 
+competitive advantage by rapid development of new or customized 
+solutions — and network services — especially those needing to 
+customize and evolve complex enterprise networks and distributed 
+applications to meet the needs of new technologies such as the 
+Internet.
+Development Tools Practice Summary
+AberdeenGroup 1
+Chapter One
+Executive Summary
+Application development consists of the tools, languages, 
+compilers, utilities, processes, and components that must be 
+employed to create usable software.
+Application development is one of the primary means by which the 
+IS organization delivers technology to the end-user.    Software 
+applications are either built by hand or purchased off-the-shelf.    
+Even when ready-made, application development plays a critical 
+role in customization of existing packages or in enabling disparate 
+packages and communications mechanisms to work together.
+The application development tools and related software market is 
+estimated at $2-3 billion (a conservative estimation).    This estimate 
+includes international sales, however the majority of tools sales is 
+in US, with the second most active market being Europe.    In fact, 
+the US is viewed as by far the most active, prolific, and 
+knowledgeable country for developing and delivering software. 
+Several dominant suppliers compete directly with on another for 
+the lion’s share of revenue and market share.    Application 
+development tools revenues have been dominated by 3GL and 
+Application Development Environment (ADE) sales, which are now 
+being superceded by component-based and Internet development 
+tools.    While the entire application development market is 
+growing rapidly, much of this growth is fueled by enterprises 
+trying to build new Internet applications, extend client-server 
+applications to the Web, and an increased interest in distributed 
+computing, particularly Java. 
+Application development demands are often the catalyst for 
+technology or platform purchases.    This is to ensure that IS staff 
+development expertise can be brought to bear on getting the 
+greatest benefit from the computing infrastructure and handling 
+end-user requests for applications and capabilities.
+There are four substantial market trends providing impetus to 
+toolset sales today:
+
+Internet/Intranet/Extranet development;
+
+Component production and assembly;
+Development Tools Practice Summary
+AberdeenGroup 2
+
+Distributed-application deployment; and 
+
+Application-development modeling and repositories.
+Component development/assembly and Internet application 
+deployment will be two of the thorniest issues that IT will have to 
+address in the application development space over the next five 
+years.    These two trends, more than any others, will drive the 
+market and products forward to the fully distributed and highly 
+scalable multi-tiered deployment environment of the future.
+Application development plays a key role in the enterprise as a 
+way to enable businesses to incorporate and utilize productive and 
+innovative technology.    Application development is often the first 
+place where new technology is integrated into the enterprise, as 
+shown by the recent enterprise adoption of Java development 
+toolsets for electronic commerce applications, distributed 
+application deployment, and component development.
+Development tools are also on enterprises’ critical path for 
+achieving application and systems hardware and software benefits. 
+The better the development tool, the quicker the solutions arrive 
+and the better integrated they are with existing and legacy 
+applications.    The more rapid the flow of applications and 
+upgrades, the greater the bottom-line competitive advantage is, 
+and the more likely it is to remain a long-term advantage.    In fact, 
+application development tools are often the gating factor in 
+delivering new competitive-advantage applications, such as E-
+Commerce or Data Warehousing initiatives.
+Home-grown applications development must be a well-defined and 
+managed exercise, however, as major bottom-line disasters and 
+maintenance costs can occur if the development effort is 
+mismanaged and ineffective.    When well-implemented, however, 
+in-house application development can be a means to avoid stiff 
+service and licensing costs of supplier software. 
+Development Tools Practice Summary
+AberdeenGroup 3
+Chapter Two
+Summary of Findings
+Aberdeen research has determined that there are four primary 
+motivators that drive buyers of application development tools, 
+ancillary products, and software for managing the development 
+process itself.    As noted above, these factors are:
+
+Internet/Intranet/Extranet development;
+
+Component production and assembly;
+
+Distributed-application deployment; and 
+
+Application development modeling and repositories.
+Internet/Intranet/Extranet development.    The development of 
+applications that can run in part or in whole over the Internet, 
+providing widespread access to information for users and potential 
+research and sales to companies, has significantly impacted the 
+way organizations view application development today.    No one 
+can choose an application development technology today without 
+considering its potential impact or lack thereof on the Internet.    
+Likewise, no application can be developed without first 
+determining where it might need to support the Internet, be 
+deployed on the Internet, or interact with Internet applications.    
+The Internet has become both a technology and an application 
+platform for deployment. 
+Component production and assembly. Components can be defined as 
+self-contained entities that can execute on their own and not 
+necessarily, as an object does, operate as part of a larger hierarchy. 
+The ultimate goal of such development is to use components as the 
+building blocks for highly scalable and distributed applications.    
+Components can be easily assembled or combined to make an 
+application that can execute on disparate machines and should be 
+especially effective for creating highly scalable, multi-tiered, and 
+distributed applications — deployable on the Internet.    Users hope 
+to gain faster development through component reuse, the ability to 
+purchase third-party component libraries, easier upgrades and 
+maintenance through modular software design, the creation of 
+more scalable distributed applications, and less expensive 
+deployment and development cycles.    Components also provide a 
+Development Tools Practice Summary
+AberdeenGroup 4
+means to reuse legacy applications by “wrapping” them as large-
+scale business objects. 
+Distributed-application deployment.    Application partitioning, the 
+ability to assign parts or components of an application to different 
+nodes or environments, is a key requirement in order to scale 
+application performance on enterprise networks and the Internet. 
+One of the means by which organizations are addressing this 
+concern is by first using the proper development tools that support 
+application partitioning or component development to create the 
+services to be distributed, and then putting in place an application 
+server or a component model that will give some guidelines to 
+component interaction.
+Application development modeling and repositories.    Application 
+modeling is becoming more important as component-based 
+development and distributed deployment of applications become 
+more universal.    Applications will not stop increasing in 
+complexity, although the individual pieces may be less complex, 
+the effort necessary to develop, deploy, and maintain large 
+applications will continue to rise.    Organizations are now realizing 
+that visually building diagrams of applications and data, along with 
+their dependencies, and maintaining that model through the life 
+cycle of the application, is an important step in preempting 
+performance problems, deployment issues, and other difficulties 
+that typically arise.    The repository then becomes the 
+clearinghouse for the application models, database schemas, 
+generated code, and components that are used to create the 
+application.
+Key Aberdeen Findings
+
+Today, IS development-tool buyers are focused on 
+delivering Internet capabilities, creating distributed 
+applications, and implementing competitive-advantage 
+applications.    In the past, the datacenter bought toolsets 
+bundled with the hardware, but in today’s fast moving 
+desktop markets, departments and individual developers 
+buy inexpensive toolsets, such as Visual Basic, for rapid 
+development of small applications.    Multi-tier application 
+development and deployment is the norm, and both 
+application servers and the tools to build and deliver 
+services on them are critical to IS.
+Development Tools Practice Summary
+AberdeenGroup 5
+
+IS buyers are more frequently looking to the development 
+toolset to implement Intranets and E-commerce (the 
+fastest-growing segment of the development-tool market). 
+They are looking to deploy a static marketing or 
+information based sites, interactive new-generation 
+dynamic Web sites, or “Web upgrades” — taking an 
+existing client-server application and giving users access 
+over the Web or deploying part of the application as a 
+Web-based component.
+
+Companies are finding that the retraining efforts for 
+component-based development and even Internet 
+development are as stiff as the learning curve for object-
+oriented development.
+
+Java will not replace C++ and C as the most popular 
+language, but will be used for new-application 
+development, especially on the server. 
+
+Frameworks — bundles of Application programming 
+Interfaces (API) and components that supportcross-
+platform development — show great potential for 
+delivering development-cost savings to enterprises 
+seeking to “write once, deploy many”.    However, 
+frameworks are presently slow to sell, since many users 
+view initial framework solutions as complex and 
+proprietary.
+
+The current object model market is divided between Java 
+and CORBA    versus ActiveX and COM/DCOM.    Java gives 
+users freedom to deploy on all platforms.    CORBA 
+provides cross-platform communications and excellent 
+data access.    ActiveX    and COM/DCOM are    excellent 
+component options for a mostly Microsoft environment.    
+The best option today seems to be to use COM and DCOM 
+on the front-end and CORBA and Java to back end data 
+access with a bridge between the two. 
+
+Windows NT is the defacto development environment, 
+displacing Unix and C, regardless of the platform on 
+which an application may be deployed.
+
+Indirect channels continue to be a primary source of sales 
+for application development environment suppliers, as 
+systems integrators and application providers buy and 
+use toolset suppliers’ tools both to implement their own 
+solutions and as tools to integrate others’ solutions.
+Development Tools Practice Summary
+AberdeenGroup 6
+
+The application development market is growing well.    
+The supplier community remains somewhat stable, with 
+most of the activity still coming from several key 
+entrenched players (e.g., Microsoft, Oracle, Sybase, 
+Borland, Symantec, IBM, Forte, and Progress) as they 
+deliver new offerings to address market demands.    New 
+growth has been most rapid in the Internet development 
+and deployment space, where newcomers are 
+proliferating at a rapid rate.    Heavy consolidation is 
+expected in this market within the next three years as 
+these companies get purchased by database and other 
+heavy hitters or quietly begin to disappear due to lack of 
+differentiating features or scalability.
+Development Tools Practice Summary
+AberdeenGroup 7
+Chapter Three
+Application Development Defined
+The Development Tools practice covers software tools, libraries, 
+and environments for designing, coding, testing, deploying, 
+maintaining, and upgrading programs – and especially those tools 
+that are creating enterprises’ new business-critical competitive-
+advantage applications.    Thus, the Development Tools practice 
+covers such key new development technologies as Java, 
+deployment tools, data-aware Visual Programming Environments, 
+components, and upgrade tools that can also be used for Year-2000 
+efforts.
+The Development Tools practice continues to be a key part of both 
+the System Platforms & Architectures and the Network Services 
+areas of Aberdeen Research.    To take full advantage of 
+increasingly complex hardware architectures and database 
+management systems, IS buyers must consider the capabilities of 
+the development tool as well as the raw speed of the system.    To 
+implement, deploy, and upgrade scalable E-commerce solutions 
+swiftly, IS buyers must consider the capabilities of Web-site 
+authoring tools and Java tools.
+Today’s hot development-toolset markets allow upwards of 10 
+suppliers to flourish at a medium size ($40-300 million in 
+revenues).    These suppliers report meeting only 1 to 2 competitors 
+in any given sales situation (although customers may typically do 
+due diligence on 3-4 toolsets).    Thus, this market allows creation of 
+many niches, including modeling tools, testing tools, and 
+Java/Internet tools.
+Core Development-Tool Components
+The typical basic development toolset may include:
+
+An analysis/design tool;
+
+A programming tool;
+
+A testing tool; and
+
+Deployment tools.
+Development Tools Practice Summary
+AberdeenGroup 8
+Analysis/Design Tool
+Developers use design and modeling tools to visually create a 
+“map” of a complex application or database from which it can be 
+built and documented.    This is done to ensure an effective 
+application or database and to help the developer translate verbal 
+requirements into an application or database that works.    Some 
+tools specialize in creating database schemas, while others 
+generate code from the application model.    Modeling and design 
+tools are currently moving to support object-oriented development 
+techniques in the next generation.
+Design tools are also sold separately as modeling tools, usually 
+associated with a repository.    Object-oriented modeling tools and 
+object-oriented analysis and design are the hot new technologies in 
+this arena, especially the Unified Modeling Language (UML), 
+proposed by Rational and backed by Oracle and Microsoft.    UML is 
+the language of choice for object-oriented modeling.    Most 
+development-toolset suppliers are now among its supporters and 
+are working quickly to fully implement the specification in their 
+toolsets.
+Programming Tools
+Programming tools are the means by which developers translate an 
+abstract design into source code.    They also support key new 
+programming technologies and platforms, allowing developers to 
+incorporate them in production applications.    The better the 
+programming tool, the more likely it is that developers will be able 
+to fully exploit these new technologies to create competitive 
+advantage applications.    Today’s languages of choice are C and C++, 
+with Visual Basic not far behind. 
+Today’s developers are increasingly moving to Java programming 
+tools.    Java is clearly the platform-independent language of choice 
+going forward and application development tools suppliers should 
+implement compatibility with Java, JavaScript, JavaBeans, JDBC, 
+and other related technologies as soon as possible to stay on the 
+curve.    Benefits to the developer include the ability to reuse as 
+much existing code as possible, language translators that convert 
+applications from C or C++ or any other language to Java, CORBA 
+support, IIOP, JavaBean creation and registry, and in the Microsoft-
+only arena ActiveX, Microsoft Transaction Server, and Active 
+Server Pages.
+Suppliers delivering C and C++ development environments are 
+meeting the demands of programmers for a more productive and 
+Development Tools Practice Summary
+AberdeenGroup 9
+easier to use tool by integrating its elements, such as a debugger, 
+editor, and performance profiler, together.    Many tools allow the 
+integration of Java code with C and C++ or plan to generate both 
+Java and C++ eventually.    Other integration points include the tight 
+coherence with version control and project management features. 
+Due to the interest in Internet/Intranet applications and distributed 
+computing, tools suppliers have had to support a wide range of 
+middleware solutions; provide various ways to revamp, extend, 
+and integrate legacy applications and data; and support ActiveX 
+and OLE technologies. 
+Suppliers delivering Java compilers are trying to make them as 
+productive for developers as possible.    Java environments are also 
+working towards seamless integration with C and C++ code.    
+Current efforts to mature the Java language, and hence its 
+enterprise viability, include whole-hearted support for Java Beans 
+and Enterprise Java Beans.    Java developers will be able to choose 
+form a palette of Beans to assemble an applications.    Other 
+enhancements to Java tools include an overall interest in data 
+access and the ability to create data-intensive applications.    While 
+just as problematic in its inception as its client-server counterpart 
+(Open Database Connectivity), JDBC support is necessary for every 
+Internet development tool supplier, as is the ability to deliver 
+optimized code to run on high performance application servers, 
+Testing Tools
+Automated software testing is the means that many are using to 
+rescue development projects from failure or interminable 
+development delays that, in the end, deliver unreliable software.    
+It is not enough to merely automate an existing manual process, an 
+act which may only perpetuate current problems.    Key to the 
+success of the automated testing approach are good software test 
+design, a comprehensive suite of reusable test scripts, a reliable 
+testing methodology, and good test process management, including 
+a test asset repository.    Automated testing, compared to manual 
+testing processes and executed effectively, can dramatically reduce 
+the application testing cycle and its cost by as much as 50-75 
+percent.
+Testing is just now coming to the forefront of developer’s minds as 
+the Year 2000 code remediation efforts loom.    Also, as component 
+development becomes more of a reality it brings unique testing 
+problems and issues to bear on the software quality assurance (QA) 
+cycle.    Testing tools are primarily automated, with the fastest-
+Development Tools Practice Summary
+AberdeenGroup 10
+growing grow segment of the testing tools market being Windows. 
+Testers are running testing tools on PCs as a means of supplying a 
+low cost, test environment. 
+Deployment Tools
+Application partitioning tools seem to be the most advanced in 
+terms of providing server-side programming support.    Tools in this 
+market are split between high-end partitioning applications and 
+simple component-based development tools that support the 
+development of modules that can be deployed on the server, but 
+include no particular load balancing or management features.
+How an Integrated System Works
+Today’s integrated development toolsets tend to fall into one of 
+three categories (each with its own approach to integration):
+
+Application Development Environments (ADEs);
+
+Component-Based Toolsets; and
+
+Internet Toolsets.
+Application Development Environments    (ADEs)
+ADEs are today’s version of the client-server development toolset.    
+They include not only the high level development productivity 
+features of Rapid Application Development (RAD) technology, but 
+the editors and robust capabilities of a 3GL.    They tie these 
+together with team programming capabilities.    ADEs support 
+multi-tiered deployment strategies, application partitioning, and 
+often Web development.
+There are approximately three ADE cost tiers:    a low channel-sales 
+price range of $400-1000 per unit; a moderate price point that 
+typically includes more deployment options in the $1000-$3000 
+range; and the high-end price range of $3000-$30,000 for larger 
+platforms.    Today’s ADE suppliers that are keeping up the multi-
+tier and Internet deployment demands of users are growing up to 
+50% per year and becoming increasingly strategic to the IS buyer.
+Component Development Toolsets
+Component development toolsets aim to assemble generic 
+components (typically large business or business-process objects) 
+and then to assemble them jigsaw-puzzle fashion.    Component 
+development is becoming a strategic choice for many organizations 
+Development Tools Practice Summary
+AberdeenGroup 11
+that need highly adaptable applications to meet the needs of a 
+changing marketplace.    Today’s IT organizations are integrating 
+components into development efforts such as customizing and 
+integrating complex package applications (e.g., SAP or Baan), 
+providing highly scalable applications, integrating the Internet into 
+a computing environment, creating electronic commerce 
+applications, and maximizing reuse of existing resources, such as 
+C++ and Visual Basic code.
+Modular code has many basic benefits that have been widely 
+discussed, but Aberdeen research indicates that easily assembled 
+components combined to make an application that executes on 
+disparate machines are especially effective for creating highly 
+scalable, multitiered, and distributed applications — deployable on 
+the Internet.    Components also provide a means to break more 
+monolithic applications apart into usable code chunks.    Components 
+deliver the extensibility necessary for applications in a changeable 
+environment and allow users to create a series of shared components 
+that can be used as application and network services.
+Component-based development should continue to be a critical 
+new programming technique for the next 5-10 years.    There are 
+not a large number of component assembly tools available at this 
+time; however, more are expected as Java grows in popularity and 
+more developers look to reuse existing components in new 
+development efforts.    Java and legacy code are expected to provide 
+the largest number of components.    Similarly, Microsoft’s Common 
+Object Model (COM) is all about components. 
+Internet Development Toolsets
+Internet development requires new toolset capabilities.    The key 
+requirements are:
+
+Web-site authoring tools;
+
+New user-interface features;
+
+Transaction and scalability support;
+
+Java and applet support; and
+
+Distributed-object support.
+Most present Intranet applications offer significant 
+communications-cost savings and expand corporate text-data 
+access to new and remote end users.    Potential long-term benefits 
+include electronic commerce (carrying out commercial 
+transactions over the Internet), thus cutting sales and transaction 
+costs, saving time, and gaining an opportunity to collect new 
+Development Tools Practice Summary
+AberdeenGroup 12
+customer data.    Long-term benefits include rapid access to 
+external information for strategic planning, delivering global 
+solutions faster, better leverage of corporate databases, and 
+effectively keeping pace with end-user demands.
+New Internet application development environments are focused 
+heavily on deployment of the developed applications and less on 
+the means of developing them.    Such Internet toolsets often 
+include application server middleware to help organizations deal 
+with the volume of traffic that an Internet application will 
+experience. 
+Development Tools Practice Summary
+AberdeenGroup 13
+Chapter Four
+Issues and Challenges
+Application development is one of the first places in which IT 
+trends reveal themselves, as developers of next generation and 
+competitive-advantage applications learn, absorb, and implement 
+the tools and skills necessary to create them.    Thus, technology 
+trends such as Internet development, application server 
+technology, component-based development, and the advent of new 
+programming languages such as Java, will change the face not only 
+of the application development market but also, in future years, of 
+all other facets of computing.
+Impact of Major IT Trends
+The Internet.    The need to deploy scalable 
+Internet/Extranet/Intranet applications is one of primary factors 
+changing application development today.    Deployment of 
+applications, rather than the development tool, is becoming the 
+primary concern of application developers and a key differentiator 
+for Internet-only application development environment providers. 
+Other technologies, such as middleware, object request brokers, 
+and transaction processing engines that maintain communication 
+between the various elements of an Internet application are 
+becoming increasingly important.
+While Java has gained considerable important once in this quest 
+for the ultimate Internet-friendly language, it will not replace C++ as 
+the language of choice for developing applications, regardless of 
+deployment, within the next 2-3 years.
+Transition to client-server and network-centric applications.    More 
+and more applications will be built using a multi-tier architecture 
+that requires applications to be built as logical modules that can 
+exist across a network and not necessarily on the same physical 
+hardware.    Such applications must still be aware of one another 
+and able to communicate among themselves and with other 
+applications.    Hence users’ interest in components and objects, 
+Development Tools Practice Summary
+AberdeenGroup 14
+which enable the creation of highly scalable and adaptable 
+applications.
+Application servers, on which application logic is delivered to the 
+client, are now a standard tier in most organizations.    Increased 
+server performance and decreased prices have delivered a 
+price/performance ratio that make this feasible in most 
+organizations.    While most users are balking at the use of NC’s, but 
+attracted to the price point, thin client applications are being built 
+everywhere and deployed in many possible scenarios simply for 
+the ease in maintenance and the ability to put more applications on 
+the user’s desktop without more cost.
+Component-based and object-oriented application development.    
+Tools in this area are splitting into two distinct categories:    those 
+for building object and components, and those for putting objects 
+and components together.    Aberdeen predicts that Microsoft’s 
+DCOM will, by default, become the primary means of 
+communications between these objects.    Most users will support 
+CORBA through DCOM on the applications side.    Current trends 
+indicate that holdouts will continue to use CORBA for data or 
+backend-server access because of its superior performance in this 
+realm, but CORBA will typically bridge to DCOM on the client-side. 
+Components will be a major impetus in revamping legacy 
+technology and bringing new capabilities to old data and 
+applications.    In addition, the proliferation of components and 
+component-based development will require developers to use 
+repositories and modeling tools, but not at first.    Component-based 
+development can more easily reflect the internal business process, 
+which is then exposed to external customers and business partners 
+through and Internet application, and therefore will more tightly 
+integrate technology into the business itself.
+Year 2000.    IS organizations are keeping their noses to the 
+grindstone to make their applications Year 2000-compliant.    This 
+effort has cut back on the amount of time and resources available 
+for other objectives in application development and will continue 
+to do so post-Year 2000 as companies re-architect and repair their 
+systems after the fact.
+On the other hand, many new systems are being implemented now, 
+such as SAP and PeopleSoft applications, in order to avoid 
+remediating older and legacy systems.    These new applications 
+will have to be updated and customized further to truly become 
+Development Tools Practice Summary
+AberdeenGroup 15
+useful to the organization and thus will require attention after Year 
+2000. 
+Application development is still taking place in most organizations, 
+as new applications are required in order to keep up the 
+competitive pace.    Most organizations are trying to lessen the 
+impact of Year 2000 efforts by remediating the code of existing 
+applications rather than developing new ones. 
+Supplier Success Factors
+Suppliers successful in delivering application development 
+environments over the next 1-2 years will have the following 
+characteristics:
+
+A strong VAR, ISV and reseller channel to provide 
+delivery, applications, and integration services to the 
+customer to make them successful in record time.
+
+Modular application code and component application 
+development capabilities, providing reusable code 
+“templates” or application modules that deliver 70% of 
+the code needed for    a working application — which in 
+turn speeds time-to-market and increases development 
+productivity.
+
+A clear blueprint for integrating legacy systems as well as 
+custom applications with new technology.
+
+Engine technology that allows users to link in the 
+appropriate capabilities to create scalable applications 
+and add new features, such as business rules and 
+transaction processing.
+
+Support of all industry standards. 
+User Success Factors
+Faced with the above mentioned industry trends, users should be 
+wary of the technology purchases they make.    There are several 
+key guidelines for choosing and implementing systems effectively 
+for Internet and component toolsets:
+Development Tools Practice Summary
+AberdeenGroup 16
+Internet Deployment
+
+Users should buy tools and technology that answer a 
+specific tactical business problem, but should keep one 
+eye out for the future.    Whatever is brought in to the 
+organization at the beginning will most likely turn out to 
+be used for future projects as well, and will proliferate 
+across the enterprise. 
+
+Characteristics to look for in an Internet Development 
+Tool include:
+1. Optimized client-side browser software and server-
+side Web-server software communications
+2. Management of server-side programming 
+capabilities
+3. Provides a mechanism for “stateful” 
+communications
+4. Includes or incorporates Web-site authoring tools
+5. Provides for new user-interface features, such as 
+browser plug-ins and folder browsing
+6. Includes Java and applet creation generation
+7. Supports distributed objects, be it ActiveX controls 
+or Java applets
+8. Will support long-term Internet architecture 
+features — web-server hardware, complex data 
+management, Internet systems administration, data 
+warehousing, and electronic commerce
+9. Delivers a scalable infrastructure that contains a 
+transaction processing engine or allows users to 
+plug one in
+10.Provides a means for the integration of Internet 
+applications with legacy applications and data
+11.Delivers features for Web-enabling existing client-
+server applications
+12.Leverages scalability, programmer-productivity, and 
+software-lifecycle support technologies of past 
+toolsets
+
+If possible, users should work with a third party service 
+provider to determine the best possible Internet solution 
+for its particular application’s needs before jumping 
+ahead and delivering a new Web site or data-intensive 
+Development Tools Practice Summary
+AberdeenGroup 17
+application.    It is also a good idea to project forward 2 to 
+3 years when identifying useful tools and technologies to 
+establish a basic idea of how large an organization’s 
+Internet presence may grow.
+
+Lately, it has not been difficult to get buy in from upper 
+management to    build an Internet/Intranet application.    
+The difficulty lies in the resulting high expectations, 
+especially for retail and commercial sites that are 
+expected to generate revenue.    It is important to be very 
+clear about the level of web presence that is expected, 
+what can be safely and quickly deployed in the time 
+allotted, and how much time and expense will be involved
+Component-based Development
+
+Treat components cautiously.    It is a good idea to 
+implement new systems using components, but it will 
+take twice as long as you expect, it will cost three times 
+more than expected, it will take 3 years to get a return on 
+your investment, and the result will be less than expected 
+when it is delivered.      However, components can speed 
+up delivery of solutions, increase application 
+development productivity, ease integration of legacy 
+systems with new technologies, and deliver software 
+flexibility and extensibility through pre-built and third-
+party components.    For example, IT organizations would 
+be able to build or buy a suite of components that can be 
+used to assemble an application. 
+
+Components exist independently and can be deployed in a 
+distributed architecture — self-contained yet 
+interoperable components in a distributed multi-tier 
+environment make a more scaleable system.    Because the 
+are self-contained, components can be removed or added 
+at will with minimal effect.    They ease maintenance 
+because they may be    added or subtracted to an 
+environment to add functionality or reduce requirements, 
+or change features to run in any environment without 
+completely breaking an entire application.    The ideal 
+scenario is that organization will create a storehouse of 
+components that are built in-house, created by third-
+parties, and shared with them from other organizations to 
+use when building applications.    In this way, component 
+code is recycled and nothing of value is lost or redundant.
+Development Tools Practice Summary
+AberdeenGroup 18
+
+Apply components first to organic business processes e.g., 
+accounting, sales—where their modular, independent 
+nature is a good fit with these processes.    Then apply 
+components to development—components give greater 
+flexibility and productivity to developers that are 
+building, integrating, maintaining, and delivering 
+competitive-advantage applications in a ever-changing 
+environment over the long term.
+
+Choose a development tool that will allow teams of 
+developers to build and assemble components, preferably 
+based on a repository with team development capabilities 
+built in.    Architect component applications with a 
+distributed three-tier architecture in mind, keeping client 
+applications, server-centric application services, and Web 
+services separate.    It is imperative to develop all 
+components and applications with the business problem 
+at hand in mind at all times.    The main rationale of 
+components is to create a solution that enhances the 
+business process and does not simply recreate it. 
+Development Tools Practice Summary
+AberdeenGroup 19
+Chapter Five
+Supplier Abstracts
+Borland International Inc. (Inprise Inc.)
+100 Borland Way
+Scotts Valley, CA.    95066
+(800) 233-2444
+www.borland.com
+Market Position 
+Effective in June 1998, Borland International Inc. will be changing 
+the company’s name to Inprise, Inc. in order to forge a new identity 
+for itself.  Inprise will focus more heavily on the middleware 
+market, based on recent technology acquisitions.
+Borland (Inprise) produces solid technology that is much admired 
+and touted by developers, but -- unlike Microsoft -- has a hard time 
+getting credibility in the enterprise.  Inprise’s JBuilder Java 
+compiler is well regarded and was recently licensed by Oracle for 
+use as the cornerstone of its own Java efforts.
+Unfortunately, as Borland, the company has found it difficult to 
+create a strong technical vision for the future, thus the change of 
+name and product focus.  Through recent acquisitions, Borland has 
+beefed its portfolio with enterprise-level technology, such as an 
+Object Request Broker for communications.
+Inprise has an embedded database, Interbase, as well as Delphi, 
+JBuilder, and other developer environments.  Developers tend to 
+use Inprise tools to build applications and then turn to Microsoft 
+compilers for delivering production code.
+Aberdeen Conclusions
+Inprise delivers excellent technology, but the reputation of the 
+company and its struggles to find a consistent message and 
+marketing strategy to the enterprise will keep it a smaller player in 
+this market.  There is long term viability for all of its development 
+tools, however, and users should not be afraid to buy the 
+Development Tools Practice Summary
+AberdeenGroup 20
+technology.  Borland will most likely continue as a solid deliverer 
+of application development and compiler technology but will never 
+again compete with Microsoft head-to-head.
+Bluestone Software Inc. 
+1000 Briggs Road
+Mt. Laurel,    NJ    08054
+(609) 727-4600
+www.bluestone.com
+Market Position
+Bluestone’s Sapphire/Web Java database development environment 
+has been well-received by application developers looking for the 
+Swiss Army knife of Web development tools.    Now, however, the 
+company faces an intense challenge as competition squeezes their 
+market from all sides.    Newcomers are specializing in specific 
+types of Internet applications, which makes it more difficult for 
+developers to decide what tools to purchase.    Enterprise 
+application vendors, such as SAP and PeopleSoft, are developing 
+their own tools for use in extending and customizing their 
+applications while application server and browser vendors are 
+expanding their market with complimentary tools.    Database and 
+current client-tools development environment suppliers are also 
+entering their own solutions in the market.      All this has served to 
+confuse Bluestone’s position.
+Bluestone’s visual development environment remains a productive 
+and useful tool for developing web-based applications.      Support 
+for an application server and the ease of the development 
+environment allows developers to write very sophisticated Internet 
+applications.    The company should remain very viable as a 
+competitor in the Internet tools development environment arena.    
+However, it must increase or ,at minimum, maintain market share 
+against a horde of rivals entering the fray.
+Aberdeen Conclusions
+Bluestone’s Sapphire development environment for the Internet is 
+a very flexible and scalable solution that should help developers 
+build very complex and data-intensive Internet applications.    
+Sapphire/Web is on a par with any of the Internet tools 
+development environments on the market today.    The company 
+Development Tools Practice Summary
+AberdeenGroup 21
+should focus on greater visibility and a clear message of how and 
+why to use the tool for building Web-based applications to 
+eliminate confusion for customers.
+Development Tools Practice Summary
+AberdeenGroup 22
+Computer Associates International Inc.
+One Computer Associates Plaza
+Islandia, NY      11788
+(800) 225-5224
+www.cai.com
+Market Position
+CA is a premier software supplier that delivers any number of 
+development tools for platforms ranging from the mainframe to 
+the PC.    Currently, the company is focusing Jasmine, an object-
+oriented database and development environment, and Opal, a tool 
+for revamping and enhancing legacy applications, along with its 
+Unicenter TNG systems management software.    CA is moving all of 
+its applications and development technologies closer together 
+through the use of two key components — an object-oriented 
+repository and a multimedia GUI authoring environment — that 
+will unite these disparate products with a common set of 
+capabilities.    This united strategy, called Harmony, when delivered 
+in 1999, will increase the value of CA products when used together. 
+Not to be overlooked are a wide variety of 3GL, 4GL, and client-
+server development tools. 
+CA’s focus is very clearly on the next generation of business 
+solutions.    They are a formidable competitor in any market and 
+usually sell application development tools bundled with solutions 
+rather than as a separate purchase.
+Aberdeen Conclusions 
+CA is now creating an infrastructure for its products that should 
+propel them forcefully forward.    The company’s object database 
+development system and development environment should 
+become very successful as an Internet development tool in the 
+short term and as a overall information repository in the long 
+term.    CA seems to have the vision, resources, and technology to 
+continue to be a key player in the marketplace at large, but should 
+aim to significantly beef up its mindshare in the development tools 
+arena with Opal and Jasmine.
+Development Tools Practice Summary
+AberdeenGroup 23
+Compuware Corporation
+31440 Northwestern Highway
+P.O. Box    9080
+Farmington Hills, MI      48334
+www.compuware.com
+Market Position
+Compuware recently acquired NuMega, which offers a suite of 
+Windows debugging and performance profiling tools.    The 
+acquisition, along with their current mainframe and legacy 
+offerings, gives them a full complement of useful development 
+tools.    Compuware also provides solutions for Year 2000 code 
+remediation and a cross-platform, component-based development 
+environment called UNIFACE.    The company is a key contender in 
+large-systems development, cross-platform, and Unix development. 
+With the new focus on components and the acquisition of NuMega 
+tools, Compuware will become a more important presence in the 
+Windows development arena. 
+Compuware's marketing strategy emphasizes direct sales and high-
+end applications.    It targets especially those Fortune-1000 
+corporations that look to develop major applications.    With 
+UNIFACE, Compuware sells into large organizations that are 
+developing complex, business-critical systems with thousands of 
+users.    Compuware offers extensive consulting and support from a 
+professional services organization of more than 3,900 consultants 
+and a network of Solution Partners to meet almost any 
+development need.    For those preferring to outsource 
+development, the Compuware consulting organization brings 23 
+years of expertise in building complex business-critical solutions to 
+bear in implementation and delivery of a project.    These services 
+are available around the world from Compuware service 
+providers.
+Aberdeen Conclusions
+Compuware’s new strategy for development of components and the 
+emphasis on Windows development tools, via the NuMega acquisition, 
+should help refresh its position in the market.    UNIFACE has long been 
+a contender in the market but has needed a revamped approach to 
+application development to    move forward as a serious contender in 
+today’s component and Internet-obsessed marketplace.    If marketed 
+Development Tools Practice Summary
+AberdeenGroup 24
+effectively, Compuware’s practical and useful approach to components 
+and Windows development should win them fans.
+Development Tools Practice Summary
+AberdeenGroup 25
+Forte Software Inc.
+1800 Harrison Street      24th Floor
+Oakland, CA.      94612
+(510) 869-3400
+www.forte.com
+Market Position
+Forte Software positions Forte as "an application development 
+environment for high-end enterprise distributed computing" that 
+allows IS "to rapidly build and easily evolve complex applications 
+in today's complex environments".      The Forte Application 
+Environment is an integrated set of object-oriented tools for 
+building, deploying, and managing high-speed client-server 
+applications by dividing applications into independent, 
+interoperable chunks.
+Forte Software emphasizes Forte's "environment independence" 
+(ability to distribute and port applications across platforms, 
+databases, GUIs, etc.), support for new application functionality 
+(e.g., "business services"), ability to "hide development complexity", 
+and deployment/main-tenance support (e.g., application 
+partitioning).    Forte’s product line includes a workflow engine, 
+Forte Conductor. Conductor is used to build high performance 
+workflow-style applications that simplify complex business 
+processes.
+Users have moved to the Forte development environment when 
+other client-server application development tools have not lived up 
+to development demands or expectations.    Forte is beefing up its 
+support for    Java on the server side and will enhance the visual 
+development environment to allow users to create applications 
+without programming.    Forte is especially focusing on technology 
+to build reliable and scalable applications and to integrate 
+disparate systems.
+Aberdeen Conclusions 
+Forte has become a very successful player catering to IT shops with 
+development tools designed to create complex large scale 
+applications, and appears to have weathered the market shift from 
+client-server to Java in relatively good shape.    To continue to gain 
+in prominence, Forte needs to continue to increase its support for 
+Internet development and component-based development.
+Development Tools Practice Summary
+AberdeenGroup 26
+IBM Corporation
+Old Orchard Road
+Armonk, NY.      10504
+(800) 426-3333
+www.ibm.com
+Market Position
+Besides a wide variety of application development tools available 
+for large-scale systems, IBM also provides a suite of VisualAge 
+development tools for almost every programming language and a 
+bundle of tools for building electronic commerce applications.    
+VisualAge for Java is one in a family of development environments 
+providing a means to visually create applications from objects.    
+The same VisualAge GUI environment is hosted on a range of 
+languages:    VisualAge for SmallTalk, VisualAge for C++, VisualAge 
+for COBOL, and VisualAge for Basic.    VisualAge for Java can also 
+visually build applications from parts, using both visual and non-
+visual elements.      Any object created in any language using 
+VisualAge becomes a reusable object that another developer may 
+pick up and use in his or her application.
+IBM is now touting an application framework, called Network 
+Computing Framework (NCF), that should provide an 
+infrastructure to move developers    forward.    This approach is in 
+much the same vein with Oracle’s Network Computing Architecture 
+and CA’s Harmony, where each supplier is aiming to help users 
+leverage    each company’s software    to best advantage.    These 
+frameworks also act as an integration point for third-party 
+applications.
+Aberdeen Conclusion
+IBM is a keen competitor and deliverer of application development 
+tools in any market it which it chooses to compete.    However, in 
+the past IBM’s development tools have been noted more for 
+mainframe development support and less for delivery of such key 
+Internet features as automated application deployment and 
+component development.    To succeed, IBM needs to clearly 
+demonstrate to IS buyers the relevance of VisualAge to E-commerce 
+development.
+Development Tools Practice Summary
+AberdeenGroup 27
+Intersolv Inc.
+9420 Key West Avenue
+Rockville, MD.      20850
+(800) 547-4000
+www.intersolv.com
+Market Position
+Intersolv’s Professional Version Control Software (PVCS) version 
+control software is the undisputed market leader in its industry 
+segment.    In fact, interest in version control, software 
+configuration management, team development, and related 
+development process software has increased as requirements for 
+large-scale enterprise development projects for the Internet, 
+distributed client-server environments, Intranets, and Java 
+platforms have grown. Intersolv has also branched out to address 
+Year 2000 services and database-to-Web-application access.    
+Intersolv is currently focusing its resources on the development 
+and marketing of data connectivity software and Year 2000 
+consulting services in an attempt to broaden its market appeal and 
+move away from a reliance on PVCS as its largest revenue 
+generator.
+Aberdeen Conclusion
+Intersolv has delivered the type of work-horse products that any 
+and every organization needs.    They are a relatively small 
+company but have kept well-focused on business needs and cost 
+considerations that are the realities of the market today.    Intersolv 
+will do well with their Year 2000 services offering and as a result 
+should end up with a broader installed base for PVCS.
+Mercury Interactive Corporation
+1325 Borregas Avenue 
+Sunnyvale, CA.    94089
+(408) 822-5200
+www.merc-int.com
+Market Position
+The testing tool market is one of the major submarkets of 
+application development and is growing rapidly, due to the 
+complex nature of distributed applications that users are now 
+Development Tools Practice Summary
+AberdeenGroup 28
+deploying, but also in large part because of the need to test 
+applications that have been made Year 2000 compliant.    Mercury’s 
+Mercury Testing Tools Suite provides a separate set of tools for 
+automating the testing of Windows and Unix applications.    Load 
+Runner provides an integrated client-server and Web load testing 
+tool that supports hundreds or thousands of virtual users and 
+exercises the application as if it were in a production environment 
+to provide an accurate view of system behavior and performance. 
+WinRunner is the client-server Windows GUI test tool.    XRunner 
+offers a toolset for GUI test automation with a Visual Testing 
+environment and interactive debugging across all Unix platforms. 
+TestDirector is a scalable and collaborative test management 
+system for executing tests and maintain quality control.    
+TestDirector includes test execution, defect tracking, test analysis 
+and test planning on the front end of the project.
+Mercury is one of the largest and most successful of the suppliers 
+that deliver testing solutions to the developer.    Rational Software 
+recently acquired a key competitor, SQA Inc. and SQA Suite, who 
+focused only on Windows testing.
+Aberdeen Conclusions
+Mercury will continue its predominance in the market as a 
+supplier of mixed-platforms testing solutions.    Key to its continued 
+growth will be the success of its attempt to bring stress testing to 
+Web-based development.    Mercury’s products are solid and have 
+been well-received in the market as standalone products; however, 
+better integration between the products and a common repository 
+would bring some finesse to the tools suite. 
+Microsoft Corp.
+One Microsoft way
+Redmond, Washington 98052
+(800) 426 9400
+www.microsoft.com
+Market Position
+Microsoft enjoys a premier spot in the pantheon of application 
+development tools suppliers, with the largest number of 
+programmers currently using its tools and a host of third-party ISV 
+applications available for use with Microsoft tools. Microsoft’s tools 
+run the gamut from the Microsoft repository to Visual Basic, Visual 
+C++, and Visual J++ integrated development environments and 
+Development Tools Practice Summary
+AberdeenGroup 29
+Windows operating system SDKs.    Corporate developers are 
+moving to Windows NT as the choice of a development 
+environment, regardless of the target platform on which it will be 
+deployed.    This adds significant credence to Microsoft’s role as an 
+application development tools supplier.
+Microsoft tends to chart its own course when it comes to 
+supporting and nurturing industry standards.    First and foremost 
+Microsoft tools support Windows platforms and Microsoft relies on 
+partners to port key technologies, such as the Microsoft Repository 
+and COM to other platforms.    Likewise, developers tend to have a 
+love-hate relationship with Microsoft, since Microsoft tools tend to 
+focus on supporting Microsoft’s overall plan for Windows and not 
+necessarily the developer’s ease-of-use.    Microsoft has also been 
+known to incorporate technology into Windows that makes third-
+party software obsolete.    Overall however, most developer strain 
+to maintain a close relationship in order to tap into the enormous 
+Windows market.
+Aberdeen Conclusions
+Microsoft is and will continue to be a key contender in the 
+application development marketplace.    Their main challenge in 
+the next 1-2 years will be to upgrade their present development 
+toolsets to deliver more application scalability and robustness, and 
+especially in NT and Internet environments.
+NetDynamics Inc.
+185 Constitution Drive
+Menlo Park, CA.    94025
+(650) 462-7600
+www.netdynamics.com
+Market Position
+NetDynamics is one of the Internet application development and 
+deployment environment suppliers that is currently getting 
+squeezed from all sides by others, such as database suppliers, 
+enterprise application vendors, and application server suppliers.    
+The value proposition that NetDynamics brings to users is that it 
+has focused on achieving an architecture that bypasses or upgrades 
+the Web browser and server using TP monitor scalability 
+techniques.    This differentiates NetDynamics from most suppliers 
+in either the Internet-only toolset or middleware markets.    
+NetDynamics incorporates mechanisms vital to scaling Internet 
+Development Tools Practice Summary
+AberdeenGroup 30
+applications in the way that past high-end enterprise applications 
+have been scaled — with load balancing across database servers, 
+scheduling and queuing.    For example, the NetDynamics 
+Application Server is based on a distributed architecture that 
+provides automatic load balancing.
+NetDynamics Studio is a Java development environment that 
+automates the delivery of Web applications through the use of 
+wizards that generate an application framework.    NetDynamics 
+Studio provides automatic formatting and validation of data. 
+Aberdeen Conclusions
+NetDynamics has several hurdles to overcome, one being a 
+reputation for being not being able to scale with the requisite 
+performance.    The company has worked diligently to alleviate 
+difficulties, but still faces this impression from technology buyers. 
+Focusing steadily on deployment of Internet applications has won 
+them fans, but as users get more sophisticated NetDynamics will 
+have to move into development overdrive to keep up with user 
+demands.    They also face the same dilemma as Bluestone in 
+differentiating themselves with a powerful enough value 
+proposition or solution proposal to gather a following.    The 
+company has many well-known corporate customers to its credit.
+Oracle Corp.
+500 Oracle Parkway
+Redwood Shores, CA 944
+(650 ) 506-7000
+www.oracle.com
+Market Position
+Oracle is a supplier of development tools that are primarily used 
+with its database technology.    Most users purchase the 
+development tools if they also have the database.    Oracle has also 
+had a reputation for delivering lots of good functionality in a 
+package that is difficult to use.    In forthcoming releases of its 
+product Oracle hopes to overturn this perception; however it will 
+take much time and delivery of products to convince the developer 
+community.
+Oracle’s Developer/2000 may well be the application development 
+environment with the widest range of scalable application 
+development capabilities available today.    While primarily 
+Development Tools Practice Summary
+AberdeenGroup 31
+targeted toward medium to large scale, data-intensive, mission-
+critical client/server applications running on departmental or 
+enterprise systems, Developer/2000 is also effective for application 
+development down to the workgroup level and across the World 
+Wide Web.    It is closely integrated with Oracle’s Designer/2000 
+application modeling and code generation tool, which is today’s 
+premier example of a data-focused design toolset with long 
+experience in large-scale application-design efforts. 
+Developer/2000 and Designer/2000 are a strategic component of 
+Oracle’s Network Computing Architec-ture (NCA) for building data-
+intensive, mission-critical    applications.    The NCA takes a 
+component approach to merging    existing Oracle products that 
+support client-server, the Internet, and distributed objects with 
+new features through the use of component "cartridges".    Client, 
+application server, and database server cartridges, along with 
+services, increase programmer productivity by embedding much of 
+the specific low-level details of programming for multitier client-
+server, Internet, and distributed object environments in 
+infrastructure code. 
+Aberdeen Conclusion 
+Oracle is in a position of strength, with the largest installed base 
+and a highly flexible Developer/2000 environment.    Oracle has a 
+larger sales force than its competitors, and extensive service and 
+support capabilities.    Oracle’s future challenges lie especially in 
+providing improved ease of use for departmental developers and 
+further support for distributed objects. 
+Progress Software Corporation
+14 Oak Park 
+Bedford, MA    01730
+Tel:    (617) 280-4000
+Internet:    www.progress.com
+Market Position
+Progress has long experience in database and development-tool 
+technology, and through the acquisition of Apptivity Corp. has 
+managed to revamp its tools offerings with Java.    Apptivity, a 
+multi-tier Java development tool from Progress Software, is 
+establishing itself as a strategic tool for rapidly delivering thin-
+client Java based business applications that can be deployed on an 
+Internet/Intranet.    Technology buyers should keep in mind that 
+Development Tools Practice Summary
+AberdeenGroup 32
+Apptivity can deliver three important features required by Internet 
+applications:    minimal maintenance; collaborative capabilities; 
+and multi-tier distributed network support.    Apptivity generates 
+Java code and therefore provides a rich set of benefits that 
+developers can gain with Java, such as cross-platform deployment 
+and the ability to run a thin client within a browser.
+A notable characteristic of Apptivity is that it allows deployment of 
+Java server-side logic on the Apptivity application server.    This 
+application architecture can dramatically improve application 
+performance, simplify maintenance, and reduce application 
+development and deployment costs by relying on thin clients, 
+reduced network traffic, and the ability to support server-side 
+processing.
+Aberdeen Conclusions
+Progress faces all the difficulties of other development tools 
+suppliers in providing Internet development and deployment tools, 
+but has a strong position in that it has many years of development 
+expertise to rely upon.    It is also viewed as less proprietary than 
+the larger database suppliers who also offer development tools.
+Rational Software Corporation
+18880 Homestead Road
+Cupertino, CA.    95014
+(800) 728-1212
+www.rational.com
+Market Position
+Rational has been through several years of rapid acquisitions in 
+which they have a amassed a broad pool of application 
+development process and testing tools.    Although the company is 
+just now beginning to outline its plans for integration between the 
+various product sets, it is encouraging to see the plans begin to gel, 
+especially after the chaos of the acquisitions themselves.    Rational 
+has identified five key areas of focus in which it will deliver 
+products:    requirement management, visual modeling, software 
+quality and testing, software configuration management, and 
+project automation. 
+Pure/Atria and SQA were among the buyouts.    Thus, Rational not 
+only provides the market leading application modeling and design 
+tool with Rational Rose, but also delivers key Windows application 
+Development Tools Practice Summary
+AberdeenGroup 33
+testing and development process management capabilities.    
+Among the process management features are requirements 
+management (RequisitePro) and change request management 
+(ClearQuest). 
+Microsoft’s Visual Modeler, which is included in the Visual Studio 
+and Visual Basic, is a subset of Rational Rose.    This close 
+relationship with Microsoft could turn out to be a very strategic 
+move for Rational. The company has been a big proponent of the 
+UML specification and will be porting the    Microsoft Repository to 
+non-Microsoft platforms.
+Aberdeen Conclusions
+Rational has a lot of products that need to be integrated together 
+and must come up with a consistent and coherent marketing 
+strategy.      The relationship Rational enjoys with Microsoft should 
+give them enhanced credibility in the developer tools market. 
+Development Tools Practice Summary
+AberdeenGroup 34
+Sybase Inc. 
+6475 Christie Avenue
+Emeryville, CA.      94608
+(800) 779-2273
+www.sybase.com
+Market Position
+The Powersoft Division of Sybase is one of the pioneers of the 
+client-server application development environment.    Currently the 
+company is undergoing a transition as it releases Java and Internet 
+development tools that it hopes will be as innovative as those of its 
+former development offerings.    It is also revamping the 
+PowerBuilder tool to support more modular development.    Of all 
+the database suppliers, Sybase’s tools are the least tied to the 
+database, due to Powersoft’s origin as a separate company.    The 
+division also includes the PowerDesigner modeling tool, a 
+transaction processing engine, and compiler technology for Java, C 
+and C++.    For example, Power++, a C++ compiler and integrated 
+development environment, allows distributed application 
+development via the Powersoft Jaguar CTS and Microsoft 
+Transaction Server middleware. 
+Aberdeen Conclusions
+Sybase’s recent financial difficulties obscure a broad development 
+product suite with exceptionally loyal customers.    Sybase’s main 
+challenge will therefore be to reassure its customers that Sybase is 
+in development for the long haul, and that Sybase can continue to 
+match the rapid pace of technology in the Internet-development 
+market.
+Symantec Corporation 
+10201 Torre Avenue
+Cupertino, CA.    95014
+(800) 441-7234
+www.symantec.com
+Market Position
+Symantec is probably best known for its desktop utilities, but it has 
+long been a solid player in the development compiler and 
+languages market.    Currently, Symantec has a premier place as one 
+Development Tools Practice Summary
+AberdeenGroup 35
+of the top three suppliers of a fast Java compiler for the Windows 
+market.    One of the first tools to market to support Java, Visual 
+Cafe Pro is the RAD version of the Symantec tool for developing 
+Java applets and applications that connect to databases. It 
+combines the earlier Visual Café 3GL compile and debugging 
+approach with RAD-like component-based programming.
+Aberdeen Conclusions
+Java development is clearly a strong niche market in which 
+Symantec will remain a leader.    Symantec’s main challenge will be 
+to continue to differentiate itself from Microsoft as a supplier of 
+high-performance and higher-end tools.
+SunSoft, Inc. (a subsidiary of Sun Microsystems, Inc.)
+2550 Garcia Avenue
+Mountain View, CA.    94043
+(800) 786-7638
+www.sun.com/sunsoft
+Market Position
+SunSoft is the software subsidiary of Sun Microsystems.    SunSoft is the 
+owner of the trademark and developer of the Java language, giving them 
+immense credibility in the market.    They are primarily developers of 
+compilers and development technology for Unix developers in general 
+and Solaris in particular.
+Visual Workshop for C++ is an integrated RAD tool for Solaris.    Visual 
+Workshop includes a visualization tool for dropping information into a 
+three-dimensional display that can be rotated and magnified.    The 
+integrated development environment includes a visual GUI Builder that 
+allows developers to test GUIs and capture Motif clients for modifications 
+or re-engineering. 
+Java Workshop is a RAD development tool written almost entirely in 
+HTML and Java that allows developers to add dynamic interactive Java 
+applets to Web pages and build standalone Java applications that run on 
+top of the Java Virtual machine.    It runs inside a browser-like 
+environment derived from Sun’s HotJava Web browser.    Workshop 
+contains a Web Browser user interface, an integrated toolset for 
+development, and a set of Web publishing tools.
+Development Tools Practice Summary
+AberdeenGroup 36
+Aberdeen Conclusions
+SunSoft will continue to maintain a position of power in the market 
+as Java becomes a popular language, but will need to solidify a 
+position through partnerships in the Windows marketplace.    
+Microsoft’s competing object model and ActiveX technology will 
+remain a major competitor.    Recent announcements from database 
+suppliers have indicated that they will incorporate the Java Virtual 
+Machine in the database, allowing developers to write Java code to 
+run across databases.    This shows the growing importance of Java 
+to corporate developers, and thus market stature for SunSoft.

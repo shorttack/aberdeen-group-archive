@@ -1,0 +1,21 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+java,Java,language,Sun Microsystems,1995-present,growth,mature,develo~1-d25652,Platform-independent language; enterprise viability still maturing in 1998; Java Beans and Enterprise Java Beans key focus
+visual-basic,Visual Basic,language,Microsoft,1991-present,mature,legacy,develo~1-d25652,Most widely used rapid development tool for small departmental applications; C++ still preferred for production code
+cpp-language,C and C++,language,multiple,1972-present,mature,active,develo~1-d25652,Primary production languages; not to be replaced by Java within 2-3 years per Aberdeen prediction
+activex-com-dcom,ActiveX / COM / DCOM,framework,Microsoft,1996-present,growth,legacy,develo~1-d25652,Microsoft's component object model; predicted to become primary client-side component communications standard
+corba,CORBA,protocol,OMG,1991-present,growth,legacy,develo~1-d25652,Cross-platform object communications; predicted to remain for backend/data-access but bridge to DCOM on client side
+windows-nt,Windows NT,platform,Microsoft,1993-present,mature,legacy,develo~1-d25652,Described as de facto development environment displacing Unix regardless of target deployment platform
+uml,Unified Modeling Language (UML),framework,Rational/OMG,1997-present,emerging,mature,develo~1-d25652,Proposed by Rational; backed by Oracle and Microsoft; becoming language of choice for OO modeling
+jbuilder,JBuilder,application,Borland/Inprise,1997-present,growth,unknown,develo~1-d25652,Well-regarded Java compiler; licensed by Oracle as cornerstone of its Java IDE efforts
+powerbuilder,PowerBuilder,application,Sybase/Powersoft,1991-present,mature,legacy,develo~1-d25652,Client-server ADE; being revamped to support component-based development; Powersoft Division of Sybase
+rational-rose,Rational Rose,application,Rational Software,1992-present,mature,unknown,develo~1-d25652,Market-leading application modeling and design tool; subset included in Microsoft Visual Studio/Visual Basic
+pvcs,PVCS (Professional Version Control Software),application,Intersolv,1985-present,mature,unknown,develo~1-d25652,Undisputed market leader in version control; growing demand due to large-scale enterprise projects
+visualage,VisualAge (Java/C++/COBOL/SmallTalk),application,IBM,1993-present,growth,legacy,develo~1-d25652,Family of visual development environments; any VisualAge object becomes reusable across languages
+sapphire-web,Sapphire/Web,application,Bluestone Software,1996-present,growth,unknown,develo~1-d25652,Java database development environment for web applications; described as Swiss Army knife of web dev tools
+developer-2000,Developer/2000,application,Oracle,1994-present,mature,legacy,develo~1-d25652,Wide range of scalable application development capabilities; integrated with Designer/2000 for data modeling
+apptivity,Apptivity,application,Progress Software,1997-present,emerging,unknown,develo~1-d25652,Multi-tier Java development tool from acquired Apptivity Corp.; thin-client Internet/Intranet deployment
+java-workshop,Java Workshop,application,SunSoft/Sun,1996-present,emerging,unknown,develo~1-d25652,RAD tool written in HTML and Java; runs inside browser-like environment derived from HotJava
+visual-cafe-pro,Visual Cafe Pro,application,Symantec,1997-present,growth,unknown,develo~1-d25652,RAD Java applets and applications; one of top three Java compilers for Windows
+uniface,UNIFACE,application,Compuware,1988-present,mature,legacy,develo~1-d25652,Cross-platform component-based development environment; targets Fortune-1000 with thousands of users
+visual-studio,Visual Studio / Visual C++ / Visual J++,application,Microsoft,1997-present,growth,mature,develo~1-d25652,Integrated development environment suite; includes subset of Rational Rose as Visual Modeler
+forte-application-environment,Forte Application Environment,application,Forte Software,1994-present,mature,unknown,develo~1-d25652,OO tools for building/deploying/managing high-speed client-server apps; application partitioning support

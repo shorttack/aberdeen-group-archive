@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,data-know-69ab04,Boston-based research and consulting firm; publisher of this presentation
+bob-moran,Bob Moran,person,IT-research,unknown,unknown,1990s-2000s,data-know-69ab04,Research Vice President and Managing Director of Decision Support Research at Aberdeen Group; presenter
+oracle,Oracle Corporation,company,database-software,active,[none],1977-present,data-know-69ab04,Primary concern: sell more databases via ease of use and analytic functions; secondary: thwart Microsoft; Oracle 8i warehouse positioning
+cognos,Cognos Inc.,company,BI-software,dissolved,IBM,1969-2008,data-know-69ab04,Fiscal 1999 revenue $301M; Q3 revenue $83.7M; 50% of new BI licenses for e-business; acquired by IBM 2008
+acxiom,Acxiom Corporation,company,data-marketing,active,LiveRamp Holdings,1969-present,data-know-69ab04,Data enrichment and CRM analytics; FY99 revenue $730M; 53% gross margin; 30% from Internet data services
+microsoft,Microsoft Corporation,company,software,active,[none],1975-present,data-know-69ab04,Cited as primary concern for both Cognos and Oracle in the BI market
+creese,Creese (Aberdeen analyst),person,IT-research,unknown,unknown,1990s-2000s,data-know-69ab04,Aberdeen analyst; coverage includes query/reporting enterprise reporting data quality/enrichment CRM analytics
+sheina,Sheina (Aberdeen analyst),person,IT-research,unknown,unknown,1990s-2000s,data-know-69ab04,Aberdeen analyst; coverage includes OLAP analytical apps data mining content management web traffic personalization data mart ETL

@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+frame-relay,Frame Relay,protocol,,1988-2010,mature,legacy,manage~1-b299e4,Packet-switching WAN protocol; major managed service transport layer in 1998
+atm-networking,Asynchronous Transfer Mode (ATM),protocol,,1988-2005,mature,legacy,manage~1-b299e4,Cell-based high-speed networking protocol; competing with IP for enterprise WAN
+tcp-ip,TCP/IP,protocol,,1983-present,growth,dominant,manage~1-b299e4,Internet protocol suite rapidly displacing proprietary WAN technologies
+t1-leased-lines,T-1 Leased Lines,protocol,,1960s-2010s,mature,legacy,manage~1-b299e4,Dedicated 1.544 Mbps circuits; $2000-$5000/month per connection in 1998
+vpn-virtual-private-network,Virtual Private Network (VPN),protocol,,1990s-present,emerging,dominant,manage~1-b299e4,Both voice and data VPN types covered; IP-based VPN emerging as preferred approach
+x25,X.25 Packet Switching,protocol,,1976-2000,declining,obsolete,manage~1-b299e4,Early packet-switched WAN protocol; predecessor to Frame Relay
+sonet,SONET,protocol,,1988-present,growth,mature,manage~1-b299e4,Synchronous optical networking standard; cited as enterprise WAN option
+vsat,VSAT Satellite Networks,platform,,1980s-present,mature,active,manage~1-b299e4,Very Small Aperture Terminal satellite; used for remote branch connectivity in 1980s
+ip-telephony,IP Telephony,protocol,,1995-present,emerging,dominant,manage~1-b299e4,Voice over IP; identified as key strategic question for telecom service providers
+layer2-tunneling,Layer 2 Tunneling Protocols,protocol,,1996-present,emerging,mature,manage~1-b299e4,L2TP and related protocols for secure IP-VPN; Aberdeen predicted adoption growth

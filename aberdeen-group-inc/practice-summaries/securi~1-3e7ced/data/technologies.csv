@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+firewall,Firewall / Network Access Control,application,Check Point; Various,1993-present,mature,active,securi~1-3e7ced,Reaching commodity status; standalone market fragmenting to high-end and low-end; embedding into routers and gateways.
+vpn,Virtual Private Network (VPN),protocol,Various,1990s,emerging,dominant,securi~1-3e7ced,Replacing expensive leased lines; ROI recovery in 1-3 months; market shakeout forecast by 2000.
+pki,Public Key Infrastructure (PKI),protocol,Entrust; VeriSign,1990s,emerging,active,securi~1-3e7ced,Digital certificate infrastructure for authentication; driving identity and authentication spending.
+anti-virus,Anti-Virus / Applet Control,application,Symantec; Network Associates,1980s-present,mature,active,securi~1-3e7ced,Largest security spending category after identity credentials; moving from desktop to gateway management.
+intrusion-detection,Intrusion Detection Systems (IDS),application,ISS; Axent; Various,1990s,emerging,active,securi~1-3e7ced,Forecast to go mainstream by 1999; Aberdeen rates as increasing market share category.
+identity-authentication,Identification and Authentication (I&A) Systems,application,Security Dynamics; Entrust; Gemplus,1990s,growing,active,securi~1-3e7ced,Largest 1997 spending category at $1.928 billion; includes plastic cards and token-based systems.
+single-sign-on,Single Sign-On (SSO),application,Various,1990s,emerging,active,securi~1-3e7ced,Plug-compatible security demand driver; employees need seamless authorized access.
+smart-card,Smart Card,hardware,Gemplus; Various,1990s,emerging,mature,securi~1-3e7ced,Multi-function identity credentials; part of $1.928B identity/authentication category.
+encryption,Cryptographic Applications and Infrastructure,protocol,Various,1990s,growing,active,securi~1-3e7ced,"Regulating access to systems, applications, networks, and information."
+web-security,Web-based Authentication and Authorization,application,Various,1990s,emerging,active,securi~1-3e7ced,"Web-server based I&A and IAC systems integrating employees, suppliers, customers."

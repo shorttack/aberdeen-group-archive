@@ -1,0 +1,3529 @@
+# Electronic Commerce: 1998 Practice Summary
+
+> Archived from: ECPRAC~1.DOC
+> Original publication date: 1998-05-01
+> Author: Aberdeen Group
+
+---
+
+## Original Document Text
+
+AberdeenGrou
+p
+Electronic 
+Commerce:
+1998 
+Practice 
+Summary
+May 1998
+Aberdeen Group, Inc.
+Electronic Commerce Practice Summary
+AberdeenGroup 
+One Boston Place
+Boston, Massachusetts 02108 
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+ii
+AberdeenGroup 
+Aberdeen Group, Inc.
+Aberdeen Group is a Boston-based, computer and 
+communications consulting and market-research 
+organization.
+Aberdeen Group performs specific projects for a select group 
+of domestic and international clients.    Each requires a 
+combination of strategic advice and pragmatic, experience-
+based action plans.    Assignments range from corporate and 
+product positioning and organizational planning to in-depth 
+market segment research.    Aberdeen consults on mergers 
+and acquisitions, corporate positioning and investor 
+relations, transaction-processing benchmarks, and has 
+special expertise in software and midrange    computer 
+markets.
+In carrying out assignments, Aberdeen uses a proprietary, 
+comprehensive, analytical framework providing fresh 
+insight into the complex future of computing and 
+communications, both from a technological and a market- 
+dynamics perspective.    Aberdeen also offers retainer-fee 
+programs to a group of continuing clients.
+Aberdeen principals and staff are recognized industry 
+figures with hundreds of years of combined high-tech 
+industry, research and financial community experience 
+among them.    They are quoted extensively in industry trade 
+and business publications.    Each is a frequent conference 
+and seminar speaker.
+In addition to client-related research and consulting, 
+Aberdeen publishes several periodicals, Aberdeen 
+Viewpoints and Profiles, which summarize its analysis and 
+research findings.
+Information contained in this publication has been obtained from 
+sources we believe to be reliable, but is not warranted by us.    Opinions 
+reflect judgment at the time and are subject to change without notice.
+iii
+Electronic Commerce Practice Summary
+AberdeenGroup 
+The trademarks and registered trademarks of the corporations 
+mentioned in this publication are the property of their respective 
+holders.
+Warning:    This publication is protected by United States copyright law 
+and international treaties.    Unless otherwise noted, the entire contents 
+of this publication are copyrighted by Aberdeen Group, Inc., and may not 
+be reproduced, stored in a retrieval system, or transmitted in any form 
+or by any means without prior written consent.    Unauthorized 
+reproduction or distribution of this publication, or any portion of it, may 
+result in severe civil and criminal penalties, and will be prosecuted to the 
+maximum extent necessary to protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+iv
+AberdeenGroup 
+TABLE OF CONTENTS
+ELECTRONIC COMMERCE (EC) PRACTICE
+VII
+Description, Focus and Benefits
+vii
+Strategic Market Questions
+viii
+EXECUTIVE SUMMARY
+1
+Market Size
+3
+Aberdeen Market Segmentation
+3
+Building an InterNetworked Enterprise Requires a Solid Foundation
+4
+The Unique Attributes of the Web Channel
+5
+Catch The Wave. Ride The Wave. Enjoy The Wave.
+6
+SUMMARY OF FINDINGS
+7
+Marketing and Sales-to-Order EC
+7
+Intranet and Internet Procurement
+8
+Electronic and Internet Commerce Outsourcing
+10
+Advertising and Promotion in the Virtual Channel Grow Vigorously
+11
+UNDERSTANDING THE ELECTRONIC COMMERCE  REVOLUTION14
+A Time of Opportunity, A Time of Risk
+14
+The Internet is Providing Ubiquitous Connectivity
+14
+Defining Electronic Commerce
+15
+Segmenting the EC Market
+17
+Marketing Process Automation
+18
+Sales-to-Order Process Automation
+19
+Procurement and Purchasing Process Automation:
+21
+Distribution and Logistics Management Process Automation:
+22
+The Changing Technology Supplier Landscape
+23
+How Internet Advertising Fits into Electronic Commerce
+24
+v
+Electronic Commerce Practice Summary
+AberdeenGroup 
+The Benefits of EC are Compelling
+25
+ISSUES AND CHALLENGES: CATCH THE WAVE; RIDE THE WAVE27
+EC:  The Killer App for the Internet and Objects
+27
+Balancing the Channels in The InterNetworked Enterprise
+27
+Electronic Commerce Evolution:  Of Darwin and Deja Vu…
+28
+The Big Picture Questions for EC Technology Buyers
+29
+Build, Buy, or Outsource?
+31
+What are the Important Attributes to Evaluate in Comparing  EC Applications?
+32
+EC Technology Supplier Success Factors
+34
+THE SUPPLIERS OF EC APPLICATIONS AND MIDDLEWARE
+36
+ADSmart Corporation
+37
+Accipiter, Inc.
+37
+AdKnowledge, Inc. (Formerly ClickOver and Focalink)
+38
+Ariba Technologies, Inc.
+38
+Art Technology Group
+39
+Aspect Development, Inc.
+40
+Bellcore ¾ Soliant Internet Systems
+40
+BroadVision, Inc.
+41
+BurstMedia
+41
+Commerce One, Inc.
+42
+Connect, Inc.
+43
+CyberCash, Inc.
+43
+DigiCash, Inc.
+44
+DoubleClick, Inc.
+44
+EC Verify, Inc.
+45
+vi
+AberdeenGroup 
+ELEKOM Corporation
+45
+First Virtual Holdings Incorporated
+46
+Fulcrum Technologies, Inc.
+47
+GE Information Services
+47
+Harbinger Corporation
+48
+IBM Corporation
+49
+iCat Corporation
+50
+IMGIS Inc
+51
+Intelligent Interactions Corporation
+51
+Inex Corporation
+52
+Intershop Communications, Inc.
+53
+InterWorld Technology Corporation
+53
+Mercantec, Inc.
+54
+Microsoft Corporation
+54
+NetGravity, Inc.
+55
+Netscape Communications Corporation.
+56
+OneSoft
+57
+Open Market, Inc.
+57
+Oracle Corporation
+58
+Real Media Inc.
+59
+Requisite Technology
+59
+SpaceWorks, Inc.
+60
+Sterling Commerce, Inc.
+60
+The EC Company
+61
+vii
+Electronic Commerce Practice Summary
+AberdeenGroup 
+TRADE’ex Electronic Commerce Systems, Inc.
+61
+TSI Software, Inc..
+62
+US West !nterprise Network Services (!nteract Network)
+62
+VeriFone, Inc
+63
+24/7 Media
+63
+7Software
+64
+viii
+AberdeenGroup 
+Preface
+Electronic Commerce (EC) Practice 
+Description, Focus and Benefits
+Aberdeen’s Electronic Commerce Markets Research practice 
+observes and analyzes the technical evolution and market 
+dynamics of all forms of Electronic Commerce (EC).    Aberdeen 
+analysis is provided for both transaction-oriented applications and 
+services based on I/P protocols as well as messaging applications 
+based on EDI protocols — including both Business-to-Consumer 
+and Business-to-Business suppliers.    Our practice aids end-user 
+organizations in the development of strategic and tactical plans 
+that include EC, and assists suppliers in developing their product 
+positioning and product marketing strategies.
+Aberdeen believes that Electronic Commerce reflects a logical 
+evolution of core enterprise business processes and the 
+information systems which support these processes.    Electronic 
+Commerce is redefining both internal and external business 
+processes based on a self-service, rich-content paradigm which 
+includes bi-directional interactions with trading partners and 
+customers.    Our research spans a broad range of business process 
+automation which includes:
+
+Virtual channels for sales; 
+
+Procurement; 
+
+Customer service; 
+
+Content publishing; 
+
+Distribution and logistics; 
+
+Collaborative marketing; and 
+
+Application of cross-organization advanced planning 
+technologies. 
+The way in which organizations respond to the opportunities 
+afforded by EC will be an important determinant of their market 
+competitiveness in future years. Aberdeen’s Electronic Commerce 
+research is closely supported by the Aberdeen research teams 
+focused on Internet Application Architectures, Internet Security, 
+and Enterprise Business Applications.
+ix
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Strategic Market Questions
+
+Should organizations develop EC applications internally, 
+purchase third party software, or outsource their 
+requirements to a Commerce Service Provider (CSP)? 
+
+Should EC investment be targeted at EDI or at establishing 
+virtual channels using the Internet, Extranets, or Intranets? 
+
+What product architectures are being employed by EC 
+automation suppliers, and how do these architectures impact 
+application scalability and manageability? 
+
+What are the most important standards for EC? Should 
+companies build their own EC infrastructure, purchase third 
+party "point solution" EC applications, or invest in an 
+integrated EC application and infrastructure architecture? 
+
+What product features and architectures differentiate the 
+many suppliers of EC automation and how are these features 
+important to end-user organizations? 
+This Aberdeen Group Practice Summary is a deliverable in a 
+comprehensive service that includes Aberdeen published research 
+and customized professional services aimed at executives who 
+must make strategic business decisions regarding Information 
+Technology.
+x
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Chapter One
+Executive Summary
+Electronic Commerce (EC) is the term used to describe the 
+automation of the full commerce cycle between organizations 
+(“business-to-business EC”) or between an organization and 
+individual consumers (“business-to-consumer EC”).      The objective 
+of EC is quite simple:    to promote the instant exchange of 
+information between businesses (or businesses and their 
+customers) and improve the accuracy of that exchange.    This is a 
+broad concept which includes the exchange of a wide variety of 
+information between businesses and customers using Information 
+Technology (IT) automation.    Internet Commerce (IC) is the term 
+used to describe EC activities which take place on the Internet or 
+virtual private networks based on Internet Protocol (I/P) 
+technology ¾ i.e., Extranets or Intranets. 
+EC integrates elements of business process and    technology.    It can 
+take on many different forms, all of which reflect the automation of 
+business transactions and work flows between physically discrete 
+organizations or between an organization and consumers.    In 
+different contexts and forms, EC may:
+1. automate sales, marketing, order-to-purchase and/or 
+procurement processes via computer network, providing 
+an alternative, “virtual” sales and marketing channel, 
+often utilizing a self-service process model;
+2. deliver customer support service via remote computer 
+network, frequently utilizing a self-service process model;
+3. exchange business planning information between trading 
+partners, establishing communication directly between 
+their respective internal information systems to automate 
+a broad range of manufacturing requirement planning 
+(MRP) and enterprise resource planning (ERP) processes;
+4. automate product distribution and delivery via computer 
+networks of goods which can be represented digitally ¾    
+such as knowledge bases, part design data files, computer 
+software, and graphical images and multi-media; 
+1
+Electronic Commerce Practice Summary
+AberdeenGroup 
+5. expedite procurement by centralizing supplier catalogues 
+and automating the supplier/part search and ordering 
+processes;
+6. automate the order-to-payment process between 
+companies (or between companies and consumers), 
+including the transfer of funds via banking or financial 
+intermediaries
+The rise of the Internet has created a new channel ¾ frequently 
+described as “the virtual channel” ¾    connecting businesses and 
+consumers, supporting a range of commerce activity in unique and 
+revolutionary ways.    The physical infrastructure of this channel is 
+the shared, network resource of the Internet, operating in 
+combination with private networks.    The fact that the 
+infrastructure of the virtual channel is shared makes it 
+fundamentally different from other channels (e.g. a direct sales 
+channel) since the infrastructure is shared and not directly 
+controlled by the organizations using it.
+The Internet provides a business channel with unique attributes:    
+the ability to deliver rich, layered content;    the degree of recipient 
+control over the content of the interaction; the support for two-way 
+communication; the low variable cost structure of channel 
+implementation and management; and its reach beyond traditional 
+geographic and time-based boundaries to the world at large. 
+The rise of the Internet provides a unique opportunity to every 
+business.    It enables a new channels for sales, marketing, customer 
+service, and planning    ¾ the business processes which connect a 
+company to its customers, suppliers, and partners.    These channels 
+have different qualitative attributes and markedly different 
+economics.    They enable new, fundamentally different business 
+processes and the opportunity to improve profitability of existing 
+processes through reduced costs, improved customer service and 
+increased market share.
+The challenge facing every business today is to effectively exploit 
+the unique characteristics of the Internet ¾ and virtual networks 
+based on Internet technology ¾ to gain competitive advantage.    
+The imperative to master the Internet channel is real; 
+organizations who are able to effectively integrate the Electronic 
+Commerce channel into their businesses may be positioned to 
+achieve market share and market dominance by offering 
+fundamentally superior qualitative or economic value propositions 
+to customers and partners. 
+2
+Electronic Commerce Practice Summary
+AberdeenGroup 
+The majority of large corporations missed the first wave of 
+Electronic Commerce in late 1995, when the competitive 
+environment was lax.    In 1998, the online competition is fierce and 
+fleet-footed companies use the fluidity of the environment to 
+quickly outflank competitors. 
+Market Size
+Aberdeen believes that value of Internet consumer sales will grow 
+to between $10 billion and $15 billion by 2003, and business-to-
+business sales will be exponentially larger. 
+In 1998, Aberdeen finds that greater than 20% of households access 
+online services — and approximately 50% of such users access it 
+daily.    Finally, Aberdeen expects 8% to 12% of households will buy 
+online in 1998 — the Internet is already a mass market. However, 
+90% of all Web revenues are enjoyed by fewer than 10% of Web 
+businesses and there are fewer than 50 Internet users per 
+commercially registered site, which suggests that most business 
+sites experience only a trickle of traffic.
+Unfortunately, there is no well-established way to market products 
+online.    Smart marketers will not argue about which online 
+marketing method to use, but what mix of channels to employ and 
+what tone to take.    It is becoming clear that shifting customer 
+interaction to the Internet channel ¾ with a lower cost of service ¾  
+is one of the most significant benefits of investment in EC.    Multi-
+channel distribution, purchasing and customer service strategies 
+are inherently complex ¾ and demand integration across channels 
+at the underlying IT infrastructure level.
+Noah comes to mind.    The time to build an ark is before it starts to 
+rain.    Wait, and you may not be ready in time.      Aberdeen has 
+found forward-thinking companies that exploit, deliberately or 
+accidentally, the Internet's amazing flexibility to offer unique value 
+that is either impossible or impractical to offer off-line via 
+conventional channel
+Aberdeen Market Segmentation
+Aberdeen’s coverage of Electronic Commerce markets is divided 
+into five areas of research practice (which span three research 
+teams):
+
+Internet Procurement (Electronic Commerce Markets)
+
+Internet Sales (Electronic Commerce Markets)
+3
+Electronic Commerce Practice Summary
+AberdeenGroup 
+
+Internet Marketing (Electronic Commerce Markets)
+
+Manufacturing Supply Chain Planning and Management 
+(Enterprise Applications)
+
+Electronic Commerce Systems Integration Consulting 
+Services (Professional Services)
+Aberdeen currently    monitors the products and business 
+performance of more than fifty independent application software 
+suppliers, twenty CSP outsourcers, and ten professional services 
+firms who are active in the EC and EC markets. The first three areas 
+listed above are the subject of the remainder of this Report.
+Building an InterNetworked Enterprise Requires a Solid 
+Foundation
+The opportunity of EC has brought forth scores of new, young 
+companies.    Market consolidation is inevitable. Organizations 
+should recognize that they are building a new application 
+infrastructure and should be concerned with baseline architecture 
+as well as application functions, lest they create new “silos of 
+automation” which will leave them with a new legacy environment 
+ islands of automation which do not inter-operate, and are    limited 
+in their ability to support cross-application business processes. 
+Selecting suppliers with staying power becomes an important 
+attribute in product evaluation.    Deep pockets are an obvious asset 
+in every settling market.    Aberdeen believes that several not-so-
+obvious attributes will also impact who emerges from the pack of 
+new EC suppliers to garner significant market share:
+7. the ability to forge successful business and technical 
+relationships with the major Enterprise and Sales Force 
+Automation (ERP and SFA) applications vendors; these are the 
+companies with software to support and automate broader 
+enterprise process models who also support parallel 
+channels; 
+8. strong technical integration to underlying systems software 
+infrastructure     including the operating system, web server, 
+message server, transaction monitor, security and directory 
+server services;    this provides a technical advantage that can 
+translate into robust performance attributes of scalability, 
+reliability, security, and authentication; and
+9. support for both EDI and IC as well as emerging inter-
+operability standards associated with each technology;    this 
+increases the likely size of the automated training 
+4
+Electronic Commerce Practice Summary
+AberdeenGroup 
+community  and the benefits which can be derived from that 
+automation. 
+10.leverage the content delivery, accessibility and personalization 
+attributes of the Internet to improve the quality of service 
+experienced by end users and leverage the cost, spatial and 
+temporal characteristics of the virtual channel.
+Recent Aberdeen research has concluded that Internet Commerce 
+and object development architectures are a natural match.    A 
+number of business processes are common across IC applications, 
+including:    user registration; application security; transaction 
+security; IC transaction processing management; file translation; 
+catalogue management and search capabilities. The opportunity for 
+certain shared baseline functionality which crosses the IC 
+application environment, combined with the need for extensive 
+systems integration with legacy systems, is well matched by object 
+development architectures.    Similarly, the distributed object model 
+enables application connectivity between trading partners 
+connected with the lowest common denominator of software and 
+communications protocols:    the browser connected to the Internet. 
+The Unique Attributes of the Web Channel
+The Internet poses new rules, challenges, and opportunities to the 
+advertising industry.    Having grown relatively independent of 
+other mediums, the Internet relies on only a small portion of 
+traditional advertising methodology and process. The reason for 
+this departure from traditional means is two fold.    First, the 
+Internet allows advertisers to target prospects at the point of sale.    
+The Internet is a transaction-capable medium which provides an 
+advertiser with the opportunity to convert a web surfer to a 
+prospect to a customer in one common environment.    
+Furthermore, the Internet allows companies and advertisers to 
+transcend geographic boundaries which have commonly thwarted 
+their reach and growth.    With Internet transaction capabilities 
+installed, small shops can potentially enjoy geographic selling areas 
+as national or global chains ¾ although “being there” on the 
+Internet carries no assurance that “they will come.”    However, the 
+Internet holds the potential to tap a world market for traditionally 
+regional players ¾ the greatest promise is in high-value specialty 
+goods and services. 
+Second, the Internet caters to an active population that has direct 
+control over their media experience.    Each Internet user controls 
+5
+Electronic Commerce Practice Summary
+AberdeenGroup 
+the speed and frequency with which they are presented 
+information.    This navigation control allows users to work at their 
+own pace, but also provides sites with insight as to what occurs 
+within their pages.    With improvements in tracking and analysis 
+technologies, sites can map a user’s actions on-line to determine 
+their preferences and interests.    By targeting ads and promotions 
+to users based on this data, companies hope to one day market to 
+end users on a one-to-one basis directly at the point of sale.    
+Aberdeen recognizes the ability to market to transaction-enabled 
+prospects on a one-to-one bases as the dream of direct marketers, 
+but the ability to truly perform this sort of function on a laser 
+targeting basis is yet to be realized.
+In order to help the industry reach improved ad targeting 
+capabilities, advertising on the Internet has become a science 
+rather than a random attempt to reach a target market.    Both sites 
+and advertisers have embraced technologies for tracking and 
+analyzing Internet trends, improved reporting capabilities, 
+implemented user profiling and targeting tools, developed user 
+tracking technologies, and demanded the development of real time 
+ad management and placement tools from market ISVs.    Each of 
+these technologies plays an important role in the advancement of 
+the Internet advertising space which Aberdeen is confident will 
+grow from $750 million in 1997 to well over $4.1 billion by the year 
+2000.
+Catch The Wave. Ride The Wave. Enjoy The Wave.
+InterNetworked Enterprises are creating an automation 
+infrastructure which leverages Internet technology to improve 
+their fundamental internal and external business processes.      The 
+economic equilibrium of these new processes is in continuous flux 
+as enterprises and customers modify their behavior in response to 
+the changing attributes of the products, services, and applications. 
+The technologies which enable EC applications are still maturing.    
+This creates risk for early adopters.    But Aberdeen research 
+concludes that these risks can be effectively managed by 
+organizations who understand the lessons of Information 
+Technology history and align themselves with suppliers who:    (a) 
+develop a coherent strategy based on a robust and flexible 
+infrastructure for their EC initiatives; and (b) offer an integrated 
+application environment supporting a diverse set of EC    
+transactions and a wide range of open inter-operability standards. 
+6
+Electronic Commerce Practice Summary
+AberdeenGroup 
+The ability to effectively exploit Electronic Commerce technologies 
+has already become a characteristic which fundamentally 
+differentiates companies.    Aberdeen research concludes that EC 
+capability will become an increasingly significant determinant of 
+success in many sectors of the economy.    Those InterNetworked 
+Enterprises which are able to exploit this opportunity  and improve 
+their revenue, cost-competitiveness, and service quality  are 
+positioning themselves with enduring marketing differentiation 
+and value-add for their customers. 
+The rise of the InterNetworked Enterprise creates    a unique 
+challenge for many businesses:    tap the potential inherent in 
+Electronic Commerce technology and reap its benefits.    Do it 
+before  or with greater effectiveness than  your competitors;    fail 
+to act and risk the Darwinian consequences of inaction in a rapidly 
+changing environment.
+7
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Chapter Two
+Summary of Findings
+Aberdeen research has identified certain characteristics that are 
+shared by the early winners in the race to establish an effective 
+Electronic Commerce presence on the WWW and using EDI.    Most 
+significantly, the companies who have been successful in their EC 
+initiatives seem to have engaged in outside-the-box thinking     
+developing re-engineered business process models which, in some 
+combination:
+11.utilize self-service as a key element of sales and marketing, 
+order-to-purchase, distribution, procurement and/or 
+customer support processes;
+12.allow trusted trading partners to directly access portions 
+of core business systems ¾ or New EC applications linked 
+in real time to core business systems ¾ across 
+organizational boundaries, allowing those partners to: 
+place orders; query order, account and shipment status; 
+and provide planning and forecasting input into 
+manufacturing and inventory planning;
+13.provide real time, customer-controlled access to rich 
+content ¾ complete and current market information, 
+detailed product specifications, single and multi-vendor 
+parts catalogues, and/or procurement requirements 
+databases  combined with efficient search and decision 
+support tools to improve the quality of in support of 
+procurement and sales order-to-purchase decision 
+processes; and,
+14.deliver more complete and timely marketing and research 
+data as input to strategic marketing, product planning, 
+and production planning.
+Marketing and Sales-to-Order EC
+The business-to consumer market has been the most visible 
+element of a rapidly maturing market.    It is burgeoning in 1998 
+with startling rapidity.    Aberdeen research into B-to-C markets has 
+recently concluded:
+8
+Electronic Commerce Practice Summary
+AberdeenGroup 
+15.Much Enterprise-level investment in EC is being driven by 
+fear ¾ rather than understanding of opportunity.    Many 
+companies invest defensively ¾ to preserve market share ¾ 
+rather than strategically ¾ to develop new markets.
+9
+Electronic Commerce Practice Summary
+AberdeenGroup 
+16.The largest sales and marketing sites ¾ which were generally 
+built on an in-house infrastructure in 1995-1997 ¾ are being 
+migrated to ISV applications and EC foundation-ware in 1998. 
+These early pioneers are discovering that scalability and 
+maintainability are not secondary requirements.    Smaller 
+and medium sized sites have always looked to the ISV market 
+for EC application functionality. 
+17.Effective integration with existing non-EC systems is 
+necessary to optimize the value of the virtual channel.      
+The need for integration is creating a shortage of skilled 
+personnel to perform the integration services.    People 
+resources remain the limiting factor for implementing 
+electronic commerce systems. 
+18.Consolidation in the market is inevitable.    There are 
+many start-ups in the market drawn by the dramatic 
+market growth projections.    Some consolidation is 
+inevitable ¾ even as the rising tide lifts many boats. 
+19.Decisions on EC technology represent important 
+enterprise investments and must be managed to reflect 
+this importance.    There exists a danger of recreating 
+stove-piped application environments which mirror 
+earlier IT history. 
+20.Early adopters have, in many instances, felt the sting of 
+life on the bleeding edge.    But merchant server software 
+is maturing rapidly.    The level of satisfaction of 
+companies embarking on EC in the last twelve months has 
+increased substantially as the software has matured.    
+Implementation times have been dramatically reduced 
+over the course of the last year and a half. 
+21.The maturation of their clustering products, their 
+continuing delivery commerce-enabling middleware to 
+their ISV partners, and their strong price-performance 
+make Microsoft an increasingly potent force in the EC 
+market. 
+22.The largest pioneering EC companies are already re-
+implementing a substantial part of their early EC 
+investments as problems of scalability, maintainability 
+and integration become more significant.    This trend 
+suggests increasing importance of middleware 
+10
+Electronic Commerce Practice Summary
+AberdeenGroup 
+foundations for EC applications ¾ and an increasing role 
+for the companies which provide such middleware. 
+Intranet and Internet Procurement
+Aberdeen research suggests that automation of business-to-
+business requisition-to-order and order-to-fulfillment processes 
+represents the next most active electronic commerce sub-segment 
+after sales and marketing automation.    Nearly every organization’s 
+Income Statement reflects significant expenditures for goods and 
+services  often referred to as Operating Resource Management 
+(ORM) or Maintenance, Repair and Operations (MRO)  items which 
+are purchased on expense accounts, corporate procurement or 
+credit cards and which are not material inputs to the production 
+process.      This is one of the few areas of operations which has yet 
+to be effectively automated ¾ and controlled ¾    in many 
+organizations.      ERP purchasing systems are designed for 
+professional purchasing agents, not the general workforce.    And 
+many purchasing systems are not particularly effective in 
+supporting comparative shopping practices, parts substitution, and 
+supplier consolidation ¾    especially for operating resource 
+purchases. 
+Internet Procurement applications extend corporate control over 
+renegade purchasing, enable comparative buying practices, 
+support supplier consolidation and the negotiation of leveraged 
+purchasing relationships, improve planning accuracy throughout 
+the supply chain, reduce the time required to complete 
+transactions, and significantly lower the cost of transactions.      The 
+benefit stream used to justify acquisition is very straight-forward:    
+(a)    reduced administrative cost-per-transaction for each 
+transaction shifted from paper to the virtual channel; (b) savings 
+which reflect increased use of preferred suppliers and more 
+favorable terms from those suppliers due to    supplier 
+consolidation; and (c) savings derived from improved inventory 
+practice based on    shortened procurement cycles.    These are 
+potentially large numbers ¾ which are being used to justify 
+investments ranging from a quarter of a million to five million 
+dollars.    The ROI analysis often shows payback in less than twelve 
+months with conservative assumptions. 
+Key findings of our continuing research in this segment of the EC 
+market include:
+11
+Electronic Commerce Practice Summary
+AberdeenGroup 
+23.Catalog content represents a strategic asset to this market 
+segment.    The suppliers of technology differ in their 
+content management strategy.    There is an emerging 
+value-added service of replicating, standardizing, 
+categorizing and customizing catalog data. 
+24.Integration with both internal business systems and 
+external partner systems is essential to optimize the value 
+of these systems.    The strategies for integration vary 
+widely, relying on either real-time API’s or, more 
+frequently, messaging interfaces.    There is increased 
+value as this integration approaches real-time capability.
+25.The strategy for managing work flow processing 
+differentiates suppliers.    The underlying flexibility of 
+their work flow engines, the openness of this capability, 
+and the ability to integrate with pre-existing ERP work 
+flow systems all influence the benefits ¾ and costs ¾ to 
+the procuring organization.
+26.The underlying middleware infrastructure has a 
+significant impact on “the software abilities” ¾ scalability, 
+maintainability, availability and performance ¾ as well as 
+the ease of integration with internal and external 
+applications.    If purchased as a “point solution,” 
+organizations need to be wary of creating new “stovepipe” 
+applications ¾ albeit I/P-enabled stovepipes.
+27. Distribution strength ¾ particularly indirect channels ¾ 
+is likely to play an important role in determining who the 
+dominant suppliers will be in this segment of the market. 
+Relationships with systems integrators will be important 
+for both distribution and to provide capacity to manage 
+the needed integration activities.
+Electronic and Internet Commerce Outsourcing
+Perhaps the single greatest change in the EC market in 1997 was 
+the overwhelming realization that a few hundred thousand dollars 
+is far too much for small and some medium sized businesses to 
+spend on an EC solution.    Because so much of EC application 
+software is production-oriented, and because it requires skills in 
+short supply in the corporate IT organization, EC is a logical 
+candidate for outsourcing to larger, EC-specialized companies. 
+12
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Outsourcing now accounts for nearly 70% of all commercial sites ¾ 
+50% of which are outsourced for access to bandwidth alone and 
+50% to gain the reduced costs of a shared environment. While 
+legions of ISPs offer reporting and other basic Web hosting 
+services, few offer a complete suite of commerce services 
+including: catalog software, shopping cart software, payment, 
+shipping, tax, etc. 
+Key findings of Aberdeen research into the emerging role of 
+Commerce Service Providers (CSP’s) ¾ Internet Service Providers 
+who are adding commerce services to their product portfolio ¾ 
+include:
+28.ISP’s are seeking to deliver greater “value add” to their 
+customers by offering EC application outsourcing;    the 
+range of services offered is expanding rapidly, starting 
+from a    base of transaction processing and expanding to 
+include catalog management; order management; and 
+procurement management.
+29.Commerce Service Providers benefit from the economy of 
+scale.    They amortize the cost of a network connection, 
+routers, firewalls, programmers, back-up, credit card 
+processing, hardware etc. across multiple merchants.
+The EC software requirements of the ISP include all the 
+requirements of their customers, plus significant requirements 
+related to scalability, remote administration, security and 
+authentication.      Manageability is an important attribute to CSP 
+providers. 
+Advertising and Promotion in the Virtual Channel Grow 
+Vigorously
+Aberdeen research projects that Internet advertising spending will 
+grow at a 78% compounded annual growth rate throughout the 
+year 2000 and that Internet advertising expenditures will reach 
+$4.1 billion by the Year 2000.
+30.Most sites seeking in-house ad serving capabilities purchase 
+products directly through ISVs.    For low volume sites, it is 
+often advisable to utilize one of the many ad servers which 
+can be downloaded on the Internet free of charge.    These ad 
+server sites may be functionality limited, but will provide the 
+13
+Electronic Commerce Practice Summary
+AberdeenGroup 
+basic tools to serve banner and button advertisements 
+without capital investment;
+31.Many sites are choosing to outsource their ad serving needs. 
+Outsourcing generally takes two forms:      outsourcing the 
+management and maintenance of hardware and software 
+(Imgis, DoubleClick DART, AdCenter); or outsourcing the 
+entire ad sales and management team to a full service 
+network (DoubleCLick, AdSmart, etc).
+32.Most ad server solutions can be managed and installed by 
+a single ad manager.    Some vendors prefer to come on-
+site to insure proper installation, but it is typically not 
+necessary.    Usually accounts are up and running in a 
+short amount of time.
+33.There are three basic ad serving architectures.    In-house, 
+which entails purchasing an ad server from an ISV and 
+maintaining it on site;    outsourcing ad server 
+management and maintenance; and the full service 
+network.    Using a full service network means a site does 
+not maintain any facet of the ad sales or serving process. 
+This is an attractive option to some sites because 
+maintaining an ad sales force can be a serious resource 
+drain when first ramping up ad revenues.    This model 
+can also be dangerous.    Ad networks directly maintain 
+the relationships with advertisers and only provide sites 
+with limited control over the ads that appear on their real 
+estate.    Not maintaining advertiser relations means a site 
+is locked into the network to keep relationships and 
+contacts. 
+34.The market for Internet advertising infrastructure 
+software is growing at a steady pace.    Aberdeen research 
+estimated this to be $40 million market in 1996 growing to 
+$71.2 million market in 1997 and    $400 million (est.) in 
+2000.    These numbers represent ad server, filtering, 
+targeting, reporting, and other software tools which are 
+part of    the advertising infrastructure.
+35.The supplier community for Internet advertising 
+infrastructure is quickly consolidating.    In 1997 there 
+14
+Electronic Commerce Practice Summary
+AberdeenGroup 
+were three main segments to the marketplace; ad servers, 
+profiling / targeting / reporting tools, and process 
+automation tools.    Already in 1998 there are numerous 
+examples of major industry players entering these 
+markets (especially Microsoft with Site Server 3.0).    
+Aberdeen believes that major suppliers in each segment, 
+as well as computer industry powerhouses, will move 
+across all segments through partnerships and 
+acquisitions.    There is still opportunity for start-ups in 
+the latter segments, but the door is closing quickly. 
+36.Most organizations purchasing Internet advertising 
+infrastructure have a dedicated ad sales manager who is 
+in charge of all advertising sales, monitoring, and 
+hardware/software purchases.    In small organizations, 
+the duty will often fall on the CTO and CEO, since 
+advertising might be their primary revenue stream. 
+37.Buying criteria for advertising infrastructure products are 
+mainly based on ability to integrate with existing legacy 
+systems, user targeting capabilities, service levels (both 
+customer service and add-on enhancement services) and 
+pricing models.    Each of these criteria will see changes 
+throughout 1998 as users seek increased functionality in 
+more particular areas of concentration (i.e., 
+personalization, targeting, billing, reporting, etc 
+38.Differentiation in this space is primarily taking place 
+through service offerings.    Suppliers are striving to 
+provide increased functionality in all service areas to 
+present a unified product suite to customers. 
+39.The development of the market is primarily being 
+constrained by the lack of industry standards governing the 
+space.    It is difficult for vendors to improve their basic 
+offerings when no standards are in place for ad 
+performance measurement, user identification, or user 
+tracking.
+40.It is becoming increasingly important that ad servers and ad 
+management tools be able to work directly with user 
+15
+Electronic Commerce Practice Summary
+AberdeenGroup 
+profiling and targeting products.    The recent acquisition of 
+Accipiter by CMG and Engage Technologies is a clear 
+indicator that this market need is being realized.
+41.Most users of Internet advertising infrastructure products 
+continue to be web sites, but some advertisers and 
+agencies have begun to utilize the technologies as well.    
+For instance, Ford Motor Cars recently purchased their 
+own ad server and will be serving ads directly to the sites 
+they advertise on.    Aberdeen does not foresee this being a 
+common trend, but where one goes some are sure to 
+follow. 
+42.There is a considerable difference in the pricing model of 
+products in the Internet advertising infrastructure 
+market.    Ad servers range in price from free for low 
+volume sites, to hundreds of thousands of dollars for high 
+volume sites.    Some users find these prices to be to 
+inflated and have moved to outsourcing companies which 
+charge on a per-thousand ads served basis, essentially 
+allowing sites to pay for what they use. 
+Aberdeen believes that an increasing number of sites will move to 
+outsourcing their Internet advertising infrastructures.    This model 
+is attractive because it frees sites from the fear of being locked into 
+a proprietary infrastructure which might not be able to improve its 
+functionality to meet increasing market demand.    The main force 
+driving this move will be the fear of technological and financial 
+lock-in to advertising infrastructure solutions.
+16
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Chapter Three
+Understanding The Electronic Commerce 
+Revolution
+A Time of Opportunity, A Time of Risk
+It has been recently estimated that 45% of all adults in the US have 
+some form of access to the Internet at home or at work.    An 
+estimated 40,000 US businesses had Internet access at the end of 
+1996; this figure is projected to grow nearly tenfold by the year 
+2000.      Equally important, the sweeping advance of Internet 
+technologies and their application to the requirements of 
+commerce is a dominant force in the evolution of the corporation ¾ 
+an essential tool to maintaining corporate competitiveness ¾ and a 
+defining technology for business and consumer behavior.
+This advancing virtual tidal wave of Electronic Commerce creates 
+simultaneous opportunity and risk for those who venture into the 
+surf.    For those who successfully catch the wave  mastering the 
+technology and figuring out how to harness its power by effectively 
+integrating it into core business processes  it will be a great ride.    
+For those who mis-estimate its force or its curl, it will be a painful 
+education through EC project wipe-outs or a beach-front view of 
+competitors who successfully hang ten. 
+History holds important lessons for companies embarking on 
+Electronic and Electronic Commerce automation.    For all its 
+success in gaining acceptance concerning standards, the basic 
+connectivity afforded by the Internet still leaves a myriad of 
+standards issues in ambiguity.    The Achilles’ heal of EDI has always 
+been the difficulty in establishing common definitions of complex 
+business transactions and effectively communicating between 
+heterogeneous business systems which store highly structured data 
+in very different ways.      The consumer model of Electronic 
+Commerce  which assumes a browser interface for the consumer  
+sidesteps the trickier issue of establishing the inter-operation 
+between two different business systems to execute business-to-
+business transactions.    When both sides of the interaction require 
+structured communications, and their standards are different, the 
+interaction is much more complex. 
+17
+Electronic Commerce Practice Summary
+AberdeenGroup 
+The Internet is Providing Ubiquitous Connectivity 
+The emergence of the Internet offers a dramatic opportunity to 
+extend the reach of EC and better realize its full potential.    In the 
+course of several years, it has quickly overcome a number of the 
+technical barriers which have inhibited EC over the past two 
+decades.    The Internet has:
+
+spurred adoption of common communications protocols 
+(TCP/IP and HTTP) and evolved a set of common software 
+standards (the desktop browser and web server) which 
+establish limited inter-operability between disparate 
+organizations; 
+
+developed a distributed address directory management 
+capability which supports easy inter-company 
+communication;
+
+established a message routing architecture which is 
+ubiquitous ¾ i.e., anywhere, anytime  and (relatively) 
+reliable;
+
+provided a redundant network able to route data along 
+multiple paths, with high bandwidth  creating reliability, 
+speed, and scalability;    and,
+
+provided inter-business connectivity based on fee 
+structures which are sufficiently granular with respect to 
+volume and service levels to be attractive to even the 
+smallest business.
+The Internet provides a relatively inexpensive mechanism for 
+direct connectivity between trading partners;    transport can be 
+accessed with multiple levels of service ¾ from dial-in via modem 
+to dedicated lines with varying capacities.      But to achieve its full 
+potential, EC must coalesce around a set of common standards and 
+accept the natural heterogeneity which reflects the past  and likely 
+the future  history of electronic commerce.      Aberdeen research 
+indicates that the technology suppliers who can provide solutions 
+which inter-operate with multiple and differing systems standards 
+likely to be characteristic of most extended trading networks  while 
+delivering broad and architecturally integrated commerce 
+functionality  are most likely to become the dominant players in 
+this sector;    and their customers will become the earliest winners 
+in the race to become “really wired” InterNetworked Enterprises.
+Defining Electronic Commerce
+Electronic Commerce (EC) is a term used to describe the 
+automation of the full range of interactions across corporate 
+18
+Electronic Commerce Practice Summary
+AberdeenGroup 
+borders between companies and people ¾ from marketing to sales, 
+order placement to invoicing and payment, product distribution, 
+and customer service ¾ by establishing computer-to-computer 
+communication utilizing the infrastructure and standards of the 
+Internet. 
+Internet Commerce (EC) is the term used by Aberdeen ¾ and others 
+¾ to describe the fusion of EC and Internet technologies.    From a 
+business perspective, the objective of EC is quite simple:    to 
+improve effectiveness, efficiency, timeliness, quality, and accuracy 
+of interactions between businesses and their trading partners or 
+customers. 
+Traditionally, the marketing community has segmented inter-
+organizational transactions as Business-to-Business (“B-to-B”) 
+commerce or Business-to-Consumer (“B-to-C”) commerce.      
+Aberdeen research has concluded that this segmentation is not 
+particularly useful in understanding EC.    B-to-C transactions are 
+really a subset of the extended supply chain; these transactions 
+tend to reflect a relatively simple and narrow range of transaction 
+relationships which may have significant volume of activity. (See 
+Figure 1.)      B-to-B commerce relationships are more complex, 
+reflecting both supply and demand business processes, and are 
+frequently lower in volume. 
+Figure 1:    The Extended Supply Chain 
+19
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Source:    Aberdeen Group, July 1997
+Although they intersect, the business processes of a buyer and 
+seller do differ. (See Figure 2.)    Hence there exists a need for 
+automation supporting different processes on either side of the 
+transaction, e.g., procurement systems to support the buyers’ 
+interests and merchant or sales systems to support the sellers’ 
+interests.    These systems need to inter-operate  achieving direct 
+communications between the respective trading partners’ systems 
+throughout the process. 
+The number and types of transactions which characterize the full 
+B-to-B commerce chain are more variegated and potentially more 
+complex in comparison to the transactions which characterize the 
+B-to-C portion of that chain.    B-to-C transactions are generally 
+limited to marketing, sales, and customer service interactions 
+which are relatively structured in content and process.    Equally 
+important, B-to-C interactions generally may be automated at one 
+end by a browser without integration to a second business system  
+because the consumer doesn’t have a “business system.”     
+Eliminating the need for system-to-system inter-operation simplifies 
+the problem.    The scale of B-to-C commerce transaction activity is 
+frequently large by comparison to B-to-B commerce for a given 
+sales site, the average revenue per transaction may be relatively 
+smaller, and the payment mechanisms specialized  all of which 
+have technical ramifications for the commerce automation 
+systems.
+EC interactions can reflect multiple level-of-automation scenarios: 
+(a) an individual outside the organization interacting with the 
+business system of a supplier through a browser; or (b) an 
+individual working within his/her own business system and 
+interacting with the business system of a trading partner; or (c) the 
+business systems of two trading partners. exchanging information 
+automatically with human intervention only for exception 
+management.    The business benefits increase at each successive 
+level  as does the complexity of the automation required.
+Figure 2: The Commerce Chain is Supply Side and Demand Side 
+Processes
+20
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Source:    Aberdeen Group, August 1997
+Segmenting the EC Market
+In general, the products in the EC market can be segmented based 
+on two dimensions: the technology used to provide automation; 
+and    the business processes automated. 
+The processes can be automated using two alternative technology 
+approaches:      messaging (including both EDI and email messaging 
+architectures); or real-time transaction processing.    Many of the EC 
+products combine both messaging and transaction processing 
+architectures is delivering a solution, often using EDI messaging to 
+achieve cross-organizational, system-to-system inter-operation 
+while using transaction processing for the system which controls 
+the transaction. 
+Aberdeen has identified six sub-segments of the EC market, each 
+reflecting a different set of related business processes, which it 
+uses to segment the different suppliers of EC automation:    (a) 
+marketing; (b) sales; (c) procurement; (d) distribution; (e) customer 
+service; and (f) supply chain planning/management. Each process 
+21
+Electronic Commerce Practice Summary
+AberdeenGroup 
+may have “front office” and “back office” components, e.g., a 
+purchasing transaction and payment processing, or multiple 
+purchase orders and bill presentation. (See Figure 3).
+Figure 3:    Electronic Commerce Automates Inter-Business 
+Transaction Processes
+Source:    Aberdeen Group, March 1998
+Marketing Process Automation 
+Marketing applications can be created over Internet channels to 
+support several different processes:
+43.Sales Collateral Distribution: Applications which deliver product 
+information to the point-of-sale on request.    A virtual channel 
+ensures currency of collateral and can provide multiple layers 
+(e.g., “rich content”) of multi-media product information.
+44.Product Marketing:    Product marketing applications generally 
+exploit the two-way communications attributes of the Internet, 
+establishing managed communications channels  with 
+structured or unstructured content  between a company and its 
+field personnel, channel partners, or customers.    The most 
+sophisticated applications are workflow-enabled, and allow 
+communities of interest to share and collaborate in developing    
+product plans, specifications, forecasts, and market feedback.    
+Collaborative marketing applications may support interaction 
+22
+Electronic Commerce Practice Summary
+AberdeenGroup 
+using structured or unstructured message files across 
+organizational boundaries:    email;    e-bulletin boards; and chat 
+rooms are the earliest forms of collaboration.    Filtering and 
+agent technologies are now being applied to collaboration 
+applications to tailor content and schedule distribution.
+45.Market Intelligence Publishing:    Applications supporting the 
+controlled electronic distribution of public and private 
+information via combinations of    “push” and “pull” publishing 
+strategies, often incorporating tools for management and 
+retrieval of information content ¾ including filtering and/or 
+workflow management ¾ are frequently referred to as 
+Knowledge Publishing or Knowledge Management tools.      
+Baseline functionality is now being incorporated into web 
+servers and browsers with recent product announcements from 
+both Netscape and Microsoft.    A principle architectural 
+differentiator of knowledge publishing systems is whether the 
+unit of data published is a file  as contrasted to a data element 
+from a database  and whether multiple file formats are 
+supported.    Filtering and agent process management 
+techniques are being used to tailor content and schedule its 
+delivery in combination with a variety of search engines that 
+vary in their level of qualitative and quantitative performance. 
+46.Online Promotion:    Promotion management capabilities range 
+from delivery of on-screen banner advertising  often based on 
+buyer-specified search input attributes  to promotions whose 
+content is tailored based on current or past customer behavior, 
+attributes, knowledge of prior buying behavior, or a 
+combination of all three.    The virtual channel holds the 
+potential for “mass customization” ¾ the delivery of customized 
+content based on unique attributes of the customer ¾ and 
+virtual real-estate is marketed for advertising with the same 
+mantra you see in the Sunday newspaper real estate section:    
+location, location, location. 
+Sales-to-Order Process Automation
+Sales and Marketing EC applications create and manage virtual 
+sales and marketing channels through which an organization can 
+market and sell its products and services.
+47.Catalogue Management:    This process may be considered part of 
+either the marketing or sales processes  frequently both  and is 
+integral to both sales and procurement applications.    Sales 
+applications support navigation of a single supplier’s catalogue 
+23
+Electronic Commerce Practice Summary
+AberdeenGroup 
+for its customers to transact business with the company.    
+Procurement applications require support for multi-supplier 
+catalogues and product comparisons.    Catalogues are generally 
+differentiated by search capabilities; different levels of 
+associated configuration management and pricing capabilities; 
+ability to deliver content from a database;    and, widely varying 
+degrees of integration with existing enterprise applications.    
+The ability to customize the look and feel of catalogues is also a 
+differentiating characteristic.    These user interface 
+functionality characteristics may reflect or mask a more 
+fundamental underlying architectural difference  whether the 
+system displays static HTML pages or dynamically combines 
+HTML templates with data from a database  which impacts 
+scalability and performance in several dimensions: number of 
+simultaneous users and size of the catalogue. Configuration 
+management capabilities may be required to support complex 
+product assemblies and families to enable pricing. 
+48.Search and Retrieval:    Keyword searching is a baseline 
+catalogue or knowledge publishing capability.    Search engines 
+may be integrated with standard product classification schemes  
+such as Dun and Bradstreet or Thomas Register  to assist users 
+in catalogue navigation by providing a common nomenclature 
+which supports “parametric” searching, a capability which has 
+increased value for products with multiple technical attributes. 
+The most sophisticated catalogue systems add classification data 
+to supplier SKU (Stock Keeping Unit) descriptions to create 
+uniform retrieval capabilities across SKU’s.    This classification 
+information may also be used for decision support analysis.    
+Product information may be stored as records in a database or 
+as separately maintained files. 
+49.Spot Market Management:    Specialized spot markets are 
+emerging in both B-to-B and B-to-C to aggregate information 
+from multiple sellers and support transaction processing.    The 
+aggregation of content across suppliers delivers value-added 
+service to the buyer; specialized decision support tools may be 
+provided to support buyers’ analyses of products.    These sites 
+generally can transact business, or feed other sites with 
+transaction capability.
+50.Transaction Processing, Back Office Processing, and Legacy 
+Integration:    The back-office processing capabilities of EC sales 
+automation systems can vary widely, and may include 
+generation/receipt of EDI and credit card transactions, EFT 
+payments, bill presentation services, and account reconciliation 
+24
+Electronic Commerce Practice Summary
+AberdeenGroup 
+functions.    Effective back-end integration requires linkages to 
+existing enterprise systems.    Different suppliers approach back-
+end integration with several strategies: 
+25
+Electronic Commerce Practice Summary
+AberdeenGroup 
+51.asynchronous file transfer, messaging, or real-time, 
+transaction processing.    The systems with the strongest back-
+end integration have real-time, transaction processing links to 
+legacy financial, sales and distribution, and manufacturing 
+systems.    They can confirm order numbers in real-time which 
+match to the legacy systems environment, as well as confirm 
+Availability-to-Promise and/or Availability-to-Deliver, shipping 
+costs, delivery schedule, and account status information.    
+Scalability differentiates various transaction management 
+strategies.    Messaging approaches can simulate real-time 
+linkages, depending on the underlying messaging technology 
+employed.    In most instances they do not support guaranteed 
+transaction commitment across both sides of a transaction. 
+52.
+Procurement and Purchasing Process Automation: 
+53.
+A number of EC applications have emerged in the past year 
+which support corporate purchasing management.    These 
+applications generally manage and present a multi-supplier 
+catalogue for a buyer organization, and may also manage the 
+workflow required to generate and issue a purchase requisition.    
+The most broadly functional systems include payment and account 
+reconciliation capability, as well as integrated decision support 
+tools to analyze purchasing trends and practices. There are 
+specialized areas of purchasing  e.g., travel request and capital 
+requests  which can be automated by application extensions 
+available from certain suppliers. Products also tend to sort out by 
+whether they support the procurement of manufacturing resources 
+or indirect materials (also known as MRO): 
+54.Multi-supplier Catalogue Administration:    The strategy by which 
+a multi-supplier procurement catalogue is assembled and 
+maintained can vary widely  from full data replication in a 
+single, central catalogue to distributed supplier catalogues with 
+replication of only the index information and embedded links to 
+the remote catalogue pages.    The replication strategy has 
+implications on the response time experienced by End Users as 
+well as the administration and software investment required by 
+suppliers to maintain their primary and replicated catalogues. 
+55.Product Classification and Parametric Search Capabilities:    
+These multi-supplier catalogue data replication strategies are 
+combined with widely differentiated product classification and 
+search capabilities  e.g. keyword text, parametric classification, 
+and graphical Bill of Materials  which determine the ways in 
+which a buyer can find products and how fast the search 
+26
+Electronic Commerce Practice Summary
+AberdeenGroup 
+process may be executed.    The aggregation of the product 
+catalogue data from multiple suppliers creates an opportunity to 
+deliver value-added differentiation for certain EC suppliers  by 
+making available information from multiple suppliers for 
+comparative shopping, and by creating a uniform indexing 
+scheme or nomenclature through which similar products can be 
+identified and compared across suppliers and SKU’s.    Certain 
+products focus on classification as a value-added service to 
+support product design through improved product sourcing. 
+56.Complete Order Processing and Legacy Integration:    The level of 
+integration  with the buyer’s own legacy purchasing systems as 
+well as the supplier/trading partner’s order entry systems  also 
+differentiates these products, as does the underlying transaction 
+processing infrastructure; and the transaction processing 
+architecture significantly impacts scalability.    However, 
+scalability is not as important an attribute for these systems  
+except in the instance of hosted or outsourced environments 
+where multiple companies are supported  because the 
+transactions generated by a single organization’s procurement 
+process are likely to be far fewer than the transactions 
+processed by sales automation systems.      The most advanced 
+procurement systems support work flow management to control 
+purchasing approval and manage real-time inventory 
+commitments by the seller’s system. 
+57.
+Distribution and Logistics Management Process 
+Automation: 
+58.
+Applications are emerging which support both multi-modal 
+transportation logistics and create new, virtual distribution 
+channels for certain types of products.
+59.Logistics:    Internet applications are available which provide 
+customer service functions for logistics processes, particularly 
+advance shipping notices and shipment tracking.    These 
+functions may be integrated into sales and procurement 
+applications.
+60.Soft Goods Distribution:    Internet applications are enabling the 
+automated distribution of electronic products via over the 
+Internet, Intranet, Extranet, or private networks.    Depending on 
+the physical size of the digital product, push or pull may be used 
+in conjunction with file transfer technology. 
+27
+Electronic Commerce Practice Summary
+AberdeenGroup 
+61.
+Customer Service Process Automation
+62.
+Internet applications can automate a range of customer 
+service functions using virtual channel self-service processes: 
+63.Help Desk: Knowledge bases of technical troubleshooting 
+documents can be searched  generally using a text search 
+engine.    These applications are widely used already by 
+technology companies.    Several Customer Information System 
+(CIS) suppliers have web-enabled their expert systems for 
+troubleshooting and Help Desk activities.      Several suppliers 
+are able to link artificial intelligence processing capabilities into 
+help desk applications to enable improved troubleshooting.    A 
+few suppliers  who generally specialize in Help Desk automation 
+ are able to link individual customer self-service interactions 
+with fee-for-service transaction capability.
+64.Transaction Status:    Many EC suppliers provide limited 
+“customer service” functions to support order or account status 
+inquiries as part of sales-to-order and purchase-to-order EC 
+applications.    Similar query functions may be provided to track 
+shipment status e.g., the very visible web application linkages 
+into the FedEx or UPS tracking systems).    These applications 
+generally require real-time transaction access to existing 
+enterprise systems (e.g., ERP).
+65.
+Supply Chain Management:    Applications can automate the 
+collection of planning data from partners across supply chains for 
+MRP, DRP and ERP planning processes:
+66.Collaborative applications can collect data directly as input to 
+supply chain management planning and forecasting models and 
+share output under secured publishing scenarios. 
+67.By extending the data collection and sharing the results, 
+suppliers can wring cost out of their supply chains and improve 
+their service to customers;    supply cycle times can be 
+shortened;    inventory levels reduced;    and production capital 
+equipment can be used more effectively. 
+68.By sharing planning model output, trade partners can improve 
+their own planning functions in order to reduce their cost of 
+goods. 
+69.
+The Changing Technology Supplier Landscape
+70.
+The burgeoning market for electronic commerce has drawn 
+the attention of every major player in the IT industry and spawned 
+a profusion of independent software start-ups. 
+28
+Electronic Commerce Practice Summary
+AberdeenGroup 
+71.
+When Aberdeen began formal coverage of Electronic 
+Commerce markets in January, 1996    there were fewer than 
+twenty companies focused on this market.    Today, we track more 
+than sixty companies, and there are literally hundreds which we 
+could track ¾ and hundreds more when the ISV/CSP providers are 
+included. The story in 1998 is complicated.    It is a certainty that 
+not all the suppliers of technology will survive into the next 
+millenium, but it is not obvious who will survive. 
+72.
+ISV’s focused on electronic commerce must contend with the 
+software gorillas ¾ Microsoft, IBM, SAP, Oracle et.al. ¾ who are 
+moving inexorably into this market with both partnering and 
+development strategies at varying speeds. 
+73.
+How Internet Advertising Fits into Electronic Commerce
+74.
+Prior to 1998, Aberdeen maintained Internet advertising as a 
+separate entity from our Electronic Commerce department.    
+Throughout 1997 we found our market coverage to be continually 
+overlapping as Internet sales, marketing and advertising worked as 
+complimentary technologies in the development of the Internet 
+market place as a whole.    This being the case, we have wrapped 
+Internet advertising into our Electronic Commerce group for all 
+future initiatives.
+75.
+It is important that electronic commerce and Internet 
+advertising solutions work together.    Internet advertising solutions 
+can learn to target end users from electronic commerce 
+applications based on purchasing habits and history.    By 
+understanding what a consumer has purchased in the past, a site 
+can better deduce the type of products or services they might be 
+interested in purchasing when connected now. 
+76.
+Aberdeen research has identified three core components to 
+the Internet advertising infrastructure: 
+77.Ad Servers; 
+78.Filtering, profiling and reporting tools; 
+79.Next generation automation and planning tools. 
+80.
+When ad servers are properly integrated with profiling, 
+filtering, and targeting, applications sites can offer advertisers a more 
+valuable advertising proposition.    An integrated solution will allow 
+each individual ad that is served to be as finely targeted at the end 
+user as possible.    As sites improve their ability to target users on a 
+one-to-one basis, advertisers should see a greater click-through rate 
+and improved customer conversion rate.    An integrated system will 
+29
+Electronic Commerce Practice Summary
+AberdeenGroup 
+help advertisers realize improved ROI’s from their advertising 
+initiatives and drive increased advertising activity on a site. 
+81.
+Improved targeting solutions are valuable to the end user as 
+well.    If a user receives advertisements and promotions that are 
+directly relevant to their life, their overall experience on a site will be 
+enhanced.    In many cases, should ads and promotions be targeted 
+well enough, they will appear as valuable content to the end user. 
+82.
+Integrating process automation and planning tools will allow 
+sites to facilitate the ad buying process for their customers, while 
+reducing internal costs.    Making site buys as easy as possible will 
+result in increased return buyers and more satisfied customers.    By 
+automating ad creative testing and approval, a site will lower their 
+internal costs by re-allocating human resources to more productive 
+tasks.    Each of the applications above are designed to increase ad 
+effectiveness, maximize Cost Per Thousand (CPM) rates, minimize 
+effort, and improve users overall experience of interacting with a site. 
+83.
+The Benefits of EC are Compelling
+84.
+The payoff for organizations which succeed at EC are 
+extraordinarily compelling, particularly in B-to-B transactions.    
+There are more than 18 billion B-to-B financial transactions a year 
+and hundreds of billions of customer service interactions 
+(Robertson, Stephens & Company, 1996).    Most are candidates for 
+increased automation     providing dramatic opportunities to 
+improve management of the manufacturing supply chain, increase 
+revenue, improve the quality and cost-effectiveness of service 
+delivery, reduce administrative expense, and develop more 
+effective planning processes.    The most significant benefits are: 
+
+Better service quality.    The self-service model which underlies 
+many forms of EC can improve the quality of    the marketing, 
+sales, support, and procurement process by delivering more 
+accurate, more timely, and more complete information to the 
+point-of-sale, point of decision, or point of support.    Service 
+can also be delivered over a broader geographic and temporal 
+base  worldwide, 7x24, or “any time, anywhere”.
+
+Reduced service costs.    The self-service EC channel model is 
+characterized by relatively low variable transaction costs  
+making it increasingly cost-effective as the scale of activity 
+increases.    At high volumes of activity, EC channels for sales 
+and support services are likely to be low-cost channels.
+
+Increased revenue. Extended geographic sales channels and 
+improved service quality may lead directly to increased 
+30
+Electronic Commerce Practice Summary
+AberdeenGroup 
+market share, improved brand equity, and greater revenues.    
+In certain circumstances, the virtual channel can enable 
+entirely new products and services.
+
+Reduced materials expense.    Self-service procurement 
+applications can support comparative shopping practices and 
+reduce maverick purchasing  purchases by individual 
+managers which are executed outside the corporate 
+purchasing system.    By centralizing buying, MRO 
+(Maintenance, Repair and Operations) procurement systems 
+create greater leverage to favored trade terms and increase 
+contract usage.      Specialized electronic procurement 
+applications can speed the search for specialized parts and 
+products, enable    cost-effective parts substitution during the 
+design phase, and support effective purchasing decision 
+support analysis. 
+
+Reduced time to complete a business transaction.    By 
+communicating electronically, the time required to place and 
+confirm an order can be compressed by hours or, in some 
+cases, days or weeks. This, in turn, shortens the lead time for 
+product delivery.    As a result, it may be possible to reduce 
+parts or finished goods inventories or receive critical product 
+more rapidly to gain competitive advantage  or the greater 
+benefits derived from earlier product delivery.
+
+Reduced administrative costs. The cost of processing purchase 
+requisitions, purchase orders, and payments can be 
+dramatically reduced, as can invoice and bill presentation 
+costs.    The accuracy of business transactions is improved, 
+increasing customer satisfaction, reducing transaction 
+auditing and reprocessing administrative expenses, and 
+reducing the costs of expedited manufacturing and/or 
+shipping to correct erroneous or late orders.
+
+Reduced logistics operating costs.    More accurate and timely 
+shipping information support use of cross-docking warehouse 
+strategies ¾ where inventory is cross-loaded on the shipping 
+dock, rather than stored in a warehouse (and later 
+forwarded).    Certain types of products  which can be 
+represented digitally  can be shipped at dramatically lower 
+cost with faster delivery. 
+
+Improved Return-on-Capital.    By shortening the “product 
+turn” cycle    and the payment cycle, organizations can reduce 
+the amount of material requirements and the time funds must 
+be committed to pay for the production of inventory, 
+31
+Electronic Commerce Practice Summary
+AberdeenGroup 
+materially lowering capital requirements.    Faster inter-
+company communications support Just in Time (JIT) or Build-
+to-Order manufacturing strategies and Cross-Docking logistics 
+strategies; and,
+
+Increased ROI and ROE through better planning.    More timely 
+planning information allows more efficient acquisition and 
+scheduling of capital equipment, reducing unit costs and 
+increasing the Return on Investment for basic industries and 
+insuring a better match between manufacturing capacity, 
+production output, and market demand.    By improving the 
+timeliness and quality of MRP and ERP input, capital facilities 
+acquisition and utilization can be better optimized for 
+profitability;    improved forecasting can better assure 
+adequate production capacity and improve product 
+availability; and reduce raw material and excess finished 
+goods inventory. 
+85.
+32
+Electronic Commerce Practice Summary
+AberdeenGroup 
+86.
+87.
+Chapter 
+Four
+88. Issues and Challenges:
+Catch the Wave; Ride the Wave
+89.
+EC:    The Killer App for the Internet and Objects
+90.
+Aberdeen research indicates that Electronic Commerce is the 
+“killer application” for the Internet and Object-oriented 
+development methodologies.    The emerging virtual channels are 
+simultaneously enabled and embodying these technologies.      For 
+EC, in the words of Marshall MacCluhan, “The medium is the 
+message.” Bandwidth availability on the Internet backbone, and 
+high speed access to that backbone, remain critical points of 
+interest in driving the acceptance of the technology and the 
+diffusion of EC.
+91.
+The rapid emergence of EC markets has surfaced inevitable 
+conflicts between open standards, performance objectives, 
+functionality and ease of application customization and 
+administration.    Yet the very objective of Electronic Commerce ¾ 
+to integrate heterogeneous business systems of disparate business 
+partners ¾ demands a convergence on standards (neé “open”) to 
+achieve full potential. 
+92.
+Balancing the Channels in The InterNetworked 
+Enterprise
+93.
+By now everyone has heard of Amazon.com, a “Virtual 
+Company” which uses the Internet as it only channel for sales.    But 
+even this company built around the virtual channel is using 
+multiple channels for its marketing programs.    The “Virtual 
+Company” is a seductive concept which is, in Aberdeen’s opinion, 
+applicable to relatively few companies.    Most organizations have a 
+history  and existing IT systems and delivery channels.    Most 
+companies will require multiple channels to build a solid business; 
+therefore, for most companies, EC must complement and balance 
+other existing channels.
+33
+Electronic Commerce Practice Summary
+AberdeenGroup 
+94.
+InterNetworked Enterprises are generally enabling new 
+products and services or changing the attributes of products and 
+services already offered by the corporation.    Companies need to 
+understand how customer behavior will change in response to 
+these new channel attributes, as well as the cost and revenue 
+impacts of this change.    Aberdeen research has concluded that EC 
+applications are generally characterized by relatively low variable 
+costs as the commerce activity scales, provided that the underlying 
+product architecture is itself scaleable.    However, the economics of 
+the InterNetworked Enterprise reflect a complex economic 
+equilibrium. (See Figure 4.) 
+95.
+Figure 4:    The InterNetworked Enterprise:    The Channel 
+Impacts Cut Both Ways
+96.
+ 
+97.
+Electronic Commerce Evolution:    Of Darwin and Deja 
+Vu…
+98.
+The evolution and revolution of EC should be understood as 
+a technology transition which has important parallels in the shift 
+from mainframe to Client-Server architectures  which also 
+supported significantly modified    internal business processes  
+which began nearly a decade ago. 
+99.
+There exists a real danger that today’s EC point solutions will 
+become islands of application automation which are not fully 
+34
+Electronic Commerce Practice Summary
+AberdeenGroup 
+integrated into the fabric of the business.    In short, there is a high 
+risk that today’s EC solutions become tomorrow’s legacy systems ¾ 
+stovepipes which are difficult to integrate and expensive to 
+maintain.
+100.
+This Client-Server transition was Darwinian in character; it 
+rewarded early adopters able to successfully execute a change 
+strategy by improving their competitiveness in the market.    
+However, much of the activity  successful and unsuccessful  which 
+Aberdeen observes in the EC market today reflects a rather 
+opportunistic process rather than a managed strategy.    In many 
+cases, the applications described above have been implemented as 
+individual “point solutions.”    This approach yields short term 
+improvements, but serves to constrain longer-term benefits.    
+Organizations need to control overriding architecture and open 
+standards issues to maintain any hope of integrating point 
+solutions as they move forward. Genuinely valuable Internet 
+Commerce applications often involve shared access to information 
+by a variety of internal employees and external customers and 
+trade partners, and often require integration of multiple EC and 
+legacy applications to achieve maximum benefit.
+101.
+Systems integration is a strong component of any such effort. 
+Most users are still turning directly to suppliers, rather than 
+systems integrators and consulting firms, for major corporate 
+projects ¾ but Aberdeen expects that to begin changing this year 
+because systems integrators and consulting firms are ramping up 
+significant practices on a variety of new products in extended 
+enterprise products ¾ a subject covered by Aberdeen’s EC 
+professional services practice.    Smaller Web efforts should turn to 
+their ISP or CSP in order to add commerce to their existing web 
+sites. 
+102.
+Successful Internet companies have learned how to use the 
+Web and email to offer uniquely valuable buying services rather 
+than simply extending their existing business to the Internet to 
+compete with well-established communications habits.    In offering 
+such value, the nature of the merchant/customer relationship also 
+changes, sometimes dramatically.    For example, online automobile 
+sales are stress-free.    The buyer never sits in the car with a 
+salesman nudging them toward their wallet.    The dealer’s cost 
+basis is exposed to the customer ¾ and even dealer “holdback” and 
+“marketing” fees are open to view.    Prospects can complete their 
+research faster and even get a loan online without having a hungry 
+35
+Electronic Commerce Practice Summary
+AberdeenGroup 
+sales person lingering over their shoulder during an embarrassing 
+credit check.
+103. The Big Picture Questions for EC Technology Buyers
+104.
+Organizations embarking today on the ocean of Electronic 
+Commerce need to understand that the only thing predictable 
+about the weather is that it is probably going to change before they 
+arrive at their destination.    The technology is changing; key 
+standards are not yet mature or widely accepted.    The new 
+business process models underlying these applications are still 
+being tested and refined to identify “best practices” and application 
+functionality is undergoing parallel evolution.    Among the more 
+critical short term questions are:
+105.
+Should I pursue an EDI strategy, or should I only be 
+developing EC applications? If I select EDI, should I utilize an 
+Internet transport strategy or a VAN?
+106.
+If I pursue EC applications    should I build from the 
+ground up, purchase middleware tool sets, or license 
+completed applications ? 
+107.
+How can I evaluate EDI and EC automation suppliers 
+and products?    Should I be developing or acquiring “point 
+solutions” or “integrated applications?”
+108.
+To EC or EDI: That is the Question
+109.
+Organizations which have not yet implemented any form of 
+electronic commerce often ask: which investment should be made 
+first, EDI messaging or transaction-oriented EC?    The lure of EC is 
+great; its potential benefits are greater.    But EDI is a more proven 
+technology and certain key trading partners may have already 
+designated it as their preferred automation strategy; it may yield 
+more predictable results.
+110.
+EDI automates existing processes using messaging 
+technology; its benefits are derived from underlying cost and time-
+efficiency.    Aberdeen believes that EDI will continue to be an 
+important form of electronic commerce for a number of years 
+between trusted trading partners where the volume of transactions 
+is very high and the transaction set is highly structured. (See Figure 
+5.)      Aberdeen research suggests that the cost of EDI will continue 
+to decline on a relative basis over the next several years as the 
+Internet transforms the network itself from a value-added product 
+into a commodity and improved EDI server with file mapping 
+capabilities  using object technologies     to reduce the front-end 
+36
+Electronic Commerce Practice Summary
+AberdeenGroup 
+investment required to integrate EDI with existing corporate 
+systems and increase the flexibility of the messaging content 
+supported by the process.
+111.
+Figure 5:    The Evolving Roles of EDI and EC
+112.
+113.
+Source:    Aberdeen Group, October 1997
+114.
+Aberdeen believes that both IC and Internet-enabled EDI 
+strategies will continue to be appropriate and that hybrid solutions 
+will co-exist  frequently within the same organization  through the 
+year 2000 and beyond.      The “secure messaging” technology which 
+underlies EDI is useful for a wide variety of structured 
+transactions.    The new forms of EC and the vision of the 
+InterNetworked Enterprise offer a powerful promise:    reduced 
+costs; improved product or service quality; shortened business 
+process cycles; and increased revenues through improved MRP, 
+ERP, purchasing, customer service, sales, marketing, and back-
+office operations.    The messaging architecture of EDI is, by its very 
+nature, highly structured and unable to support interactions which 
+are dynamically infused with rich content.    Many organizations 
+will need to support both EDI and real-time EC applications to 
+differentiate themselves and maintain cost-competitiveness.    The 
+standards and strategies of one’s trading partners are the critical 
+37
+Electronic Commerce Practice Summary
+AberdeenGroup 
+elements of this decision.    If important trading partners demand 
+EDI, it is important to support it.
+115.
+In the short run the ability to simultaneously exploit both 
+approaches may differentiate the technologically adept from the 
+less agile organizations.    In the long run, the greater process 
+flexibility supported by real time processing and EC offers greater 
+benefits to the business than messaging technologies.    The drive to 
+realize these extended benefits will, in Aberdeen’s opinion, make 
+transactional Internet Commerce ¾ rather than EDI ¾    the 
+dominant electronic commerce technology over the next decade.
+116.
+Build, Buy, or Outsource?
+117.
+Aberdeen believes that there is little reason to consider 
+custom development for EDI enablement. The messaging 
+technology to manage EDI is mature and proven.    Buying and 
+outsourcing are both viable options.    The decision should be based 
+on the combination of economics and skill base; systems 
+integration services are integral to either strategy.
+118.
+The “build vs. buy” question is trickier when asked about EC 
+because these applications are less mature, and the underlying 
+technology less proven.    To answer this question one should look 
+at the history of enterprise business applications  to parallel 
+transitions: (a) from batch computing to online computing; and (b) 
+from mainframe to Client-Server computing.      Placed in this 
+context, it is easy to see that the transition from Client-Server to EC 
+is notable for the speed of its progression.      And if the historical 
+analogy has validity, only those organizations seeking strategic 
+advantage should be building Web applications from the ground up 
+–- and only when supplier solutions are inadequate.    The 
+marketplace has already produced a number of Web-application 
+middleware tool vendors, most of whom are evolving into EC 
+applications suppliers.    And in the last year, literally hundreds of 
+EC application suppliers have announced new companies and new 
+products. 
+119.
+Aberdeen research indicates that the application market is 
+maturing rapidly. The full breadth of the EC opportunity is not fully 
+supported by any single supplier.    To meet that challenge, a 
+number of technologies must be integrated in an Internet-enabled 
+context:    messaging; transaction processing; workflow automation; 
+knowledge base classification, management and retrieval; and 
+intelligent agents.    There are many “point solutions” available for 
+EC  automating a single or several business processes such as sales 
+or help desk.    In the past six months, Aberdeen has observed the 
+38
+Electronic Commerce Practice Summary
+AberdeenGroup 
+first “integrated EC” suppliers  who aspire to “do it all” with    
+broader product functionality, better defined linkages to existing 
+ERP systems, and support for a wider range of inter-operability 
+standards.    Aberdeen recommends that organizations select any 
+point solutions with a keen eye to their underlying architecture ¾ 
+it’s degree of “openness”, scalability, maintainability,    and 
+extensibility with respect to integration issues. 
+120.
+Aberdeen research suggests that outsourcing of EC 
+applications to Commerce Service Providers (CSP’s) will be an 
+attractive alternative for many companies.      The requisite skill sets 
+required to maintain and manage EC technologies remain scarce.    
+The front end cost of robust software functionality is relatively 
+steep, and support requirements are non-trivial.    As a result, the 
+fixed costs of entry are relatively steep. 
+121.
+Some  but not all  EC products can effectively support 
+multiple companies from a single environment, affording the 
+opportunity for CSP’s to achieve economies of scale.    As CSP’s 
+evaluate software, they need to identify suppliers whose products 
+can deliver a look and feel tailored for the business process and 
+reflecting the identity of each customer of the CSP  as well as 
+tailoring the content delivered to the end customers of the systems. 
+The software economics of EC suggest that CSP’s will be very 
+important to the middle and lower ends of the business enterprise 
+spectrum.    The architecture of the InterNetworked Enterprise 
+lends itself to cross-organizational boundary systems integration, 
+minimizing certain problems traditionally associated with 
+outsourcing.
+122.
+Outsourcing of ad serving functions is particularly attractive 
+for organizations whose advertising requirements are relatively 
+simple ¾ e.g., banners and buttons.    This decision can often be 
+made independent of where the actual EC application itself is 
+hosted. 
+123.
+What are the Important Attributes to Evaluate in 
+Comparing 
+EC Applications?
+124.
+Aberdeen believes that the technology selection process 
+should appropriately balance concerns about the attributes which 
+will have enduring importance.        Functionality is important, but 
+we have already learned, or perhaps re-learned, that system design 
+and performance are critical issues in user acceptance in Web 
+applications  just as they were for mainframe and Client-Server 
+39
+Electronic Commerce Practice Summary
+AberdeenGroup 
+applications.    Today’s functionality can evolve and grow if the 
+infrastructure provides:      performance and scalability; a flexible, 
+productive development environment, maintainability and an 
+extensible integration capability.    Aberdeen research has 
+identified seven architectural attributes which are important in 
+assessing EC product architectures: 
+
+Process View and Process Flexibility:    Does the system reflect 
+a process view of business or a functional “stovepipe” view?    
+What processes are being automated?    Do they represent 
+“best practices” and can your organization benefit from the 
+re-engineered process?    Does the system have a workflow 
+management capability and can underlying processes be 
+tailored easily?    Does the system provide the ability to tailor 
+the application look and feel to organization-specific and 
+user-specific requirements?    Does the system provide 
+different interfaces for different customers?    Does it adapt to 
+the frequent users to streamline their interactions?    Are 
+business rules isolated from base system processing 
+functions?
+
+Openness and External Systems Integration:    What 
+assumptions are made about the degree of conformity and 
+adoption of compatible software or at trading partner sites? 
+Does it require homogeneous software across trading 
+networks, or can it communicate with other EC systems based 
+on standards?    Does the vendor support the major open inter-
+operability standards emerging for EC?    Does the system 
+support both EDI and messaging technology inter-operating 
+directly with EC transaction applications?    How consistent is 
+the application with your organization’s standards for: object 
+brokerage; RDBMS; and operating systems? 
+
+System Performance and Scalability:    Does the system 
+architecture provide transaction processing performance, and 
+is the system scaleable  with high performance at increasing 
+user transaction volumes in the ranges anticipated over time? 
+Does the system scale with respect to increasing numbers of 
+simultaneous users and transactions?    Does it scale with 
+respect to the size of    the product catalogue or product 
+database?    Can the system scale to manage multiple 
+companies in a single hosted environment?    The underlying 
+middleware infrastructure utilized by each supplier serves as 
+a primary determinant of the scalability of the application(s). 
+Products differ in their suitability for multi-company hosted 
+or CSP environments. 
+40
+Electronic Commerce Practice Summary
+AberdeenGroup 
+
+Ease of Administration: For sales and procurement systems, 
+how does it manage the creation and update of content?    
+How does it manage the assembly of a catalogue  or 
+catalogues spanning multiple suppliers  and does this strategy 
+support performance for end-users and efficient 
+administration for suppliers?    How mature are the 
+application administration tools?    Can applications be 
+maintained (e.g. Web catalogue updates) while the system is 
+online?    Is there version and change control capability?
+
+Internal Systems Integration:    Does the system provide an 
+integrated architecture which efficiently integrates EC 
+application functionality, leverages systems resources, and 
+leverages support resources across multiple EC applications? 
+Does the system provide an architecture which can effectively 
+integrate with existing legacy enterprise business applications 
+on a real-time basis? 
+
+Extensibility:    Does the system support creation of additional 
+application functionality  including a tool set for 
+implementing customized or tailored functionality?    Note 
+that all EC automation suppliers have developed some form of 
+middleware to support their applications.    Relatively few of 
+these suppliers provide these tool sets as stand-alone 
+products, although many will bundle utility tools as part of 
+their product to support customization.    Is the system built 
+on an object development standard ¾ using CORBA or DCOM 
+¾ to promote extensibility?
+
+Functionality:    What business processes and business 
+functions are supported?    How well do they map to your 
+organization’s requirements? 
+125. EC Technology Supplier Success Factors
+126.
+1998 will be a year of execution.    Much of the hype is settling 
+and the value of the extended enterprise, the Internet sales and 
+marketing channel, and the Internet/Intranet procurement channel 
+will become better understood as this year progresses.    These 
+applications support new business process models, and they will 
+need to be refined as experience is gained.    Each product category 
+will need to make significant changes in order to keep their 
+products in alignment with market requirements.      This will put a 
+strain on the development budgets of every EC technology supplier 
+¾ which favors suppliers with deep pockets.    The need to evolve 
+41
+Electronic Commerce Practice Summary
+AberdeenGroup 
+quickly has a number of implications for the suppliers of EC 
+technologies:
+
+EC ISV’s suppliers must adopt and implement a “platform 
+strategy” ¾ aligning themselves with an underlying web 
+server and transaction management middleware 
+architecture ¾ in order to allow themselves to focus on 
+application-level functionality and attain desired 
+characteristics of scalability and extensibility ¾ and 
+leverage the development investment of the middleware 
+suppliers.
+
+The major EC and I/P middleware suppliers ¾ Microsoft, 
+Netscape, BroadVision and Oracle ¾ must continue to 
+evolve and enhance their ISV programs.    Issues related to 
+integration of Client/Server and mainframe legacy 
+applications to the EC and EC applications will come to the 
+forefront. 
+
+All EC suppliers must recognize the critical role of 
+integration services with a broad set of initiatives 
+including defined API’s and interfaces to ERP systems and 
+structured methodologies for executing integration 
+projects.
+
+The rapid pace of market change will place a premium on 
+distribution channels and integration resources.    
+Companies will need to execute Indirect Channel 
+distribution strategies to tap into the rapid growth in 
+demand and deliver the post-sale implementation 
+requirements.    Significant capital will be needed to 
+establish direct sales channels. 
+
+The need for alliances between marketing and promotion 
+automation suppliers and other EC application ISV’s will 
+become self-evident ¾ and numerous partnerships will be 
+announced.    As the market moves from “home grown” to 
+ISV applications, the pace of these alliances will be 
+accelerated.
+
+Integration remains a potential Achilles’ heal for every 
+ISV.    Although integration is frequently more a problem 
+of perspiration than inspiration, it’s importance is often 
+overlooked and downplayed ¾ but it cannot be ignored.
+127.
+Aberdeen believes that 1998 is the year that EC ISV’s will 
+reach for the brass ring.    Those companies who successfully 
+execute both product and distribution plans will emerge from the 
+42
+Electronic Commerce Practice Summary
+AberdeenGroup 
+pack and ride the wave towards the millenium with that ring in 
+their grasp.    Others will misjudge the force of this wave, or lack 
+the skill to ride it, with a resulting “wipe out.”
+43
+Electronic Commerce Practice Summary
+AberdeenGroup 
+128.
+129. Chapter Five
+130.The Suppliers of EC Applications and 
+Middleware
+131.
+Few areas of research covered by Aberdeen have exhibited 
+the explosive growth ¾ of business activity and vendor activity ¾ 
+which is present in the Electronic Commerce sector.    When 
+Aberdeen began covering Electronic Commerce eighteen months 
+ago we were able to identify approximately twenty companies 
+focused on the business problem of enabling electronic commerce. 
+Since then, we have now begun coverage of more than sixty 
+organizations ¾ and recognize that there are many more who 
+remain “below our radar screen.”
+132.
+The following companies are currently followed by Aberdeen 
+and included in current or pending Aberdeen Electronic Commerce 
+Research Reports.    The following analysis reflect our Q2-1998 
+market positioning synopsis for each company.
+44
+Electronic Commerce Practice Summary
+AberdeenGroup 
+133. ADSmart Corporation
+134.
+100 Brickstone Square
+First Floor
+Andover, MA    01810
+(978) 684-3780
+www.adsmart.net
+135.
+ADSmart is a full service network ad serving solution.    It’s 
+business model focuses on providing all aspects of ad sales, serving, 
+targeting, and reporting to web sites from all categories.    ADSmart 
+allows sites to advertise without making the capital investment in 
+hardware, software and human resources necessary to start the 
+process.    The company differentiates itself from other full service 
+ad networks and in-house ad servers based on its True Targeting 
+System.    This user targeting system goes beyond traditional 
+demographic targeting to incorporate demographic, psychographic, 
+and behavior based targeting to better define a user and their 
+interests.    ADSmart’s True Targeting System relies on information 
+gleaned from all advertising sites in the ADSmart network.    Each 
+individual ad space is tagged to show the type of content which 
+surrounds it and the type of user which is attracted to that content. 
+Using these tags and 350 characteristic based criteria, ADSmart 
+delivers targeted advertisements to users across the entire 
+network.
+136.
+ADSmart, and ad networks in general, are well positioned to 
+serve the needs of growing content providers.    Most top 100 sites 
+will maintain their own ad sales department, but sites outside of 
+the top 100 can benefit from use of ad networks through decreased 
+overhead, increased market visibility, and increased ad sales. 
+137.
+138. Accipiter, Inc.
+139.
+4000 Wake Forest Rd., Suite 200
+Raleigh, NC    27609
+(919) 872-7755
+www.accipiter.com
+140.
+Accipiter’s in-house ad server, AdManger, is designed to meet 
+the advertising needs of companies from on-line start-ups to new 
+media leader.    By making the product functional from plug-in, yet 
+fully customizable and robust, Accipiter has enjoyed tremendous 
+success in the ad server marketplace.
+45
+Electronic Commerce Practice Summary
+AberdeenGroup 
+141.
+Accipiter’s core areas of focus are user targeting, campaign 
+management, reporting, inventory management, scalability, billing, 
+and ease of use.    The robustness of the product is coupled with an 
+open API which allows end users to customize at all levels of 
+functionality.    Accipiter was the first ad server provider to 
+recognize the importance of including powerful front-office 
+automation capabilities with their ad server solution.    Accipiter 
+also chose customer support as a core area of differentiation. 
+AdManager users to can chose service levels ranging from monthly 
+quality assurance phone calls to on-site visits from Accipiter 
+representatives. 
+142.
+Accipiter’s solution is designed to act as an in-house solution, 
+a network solution, or is available through an outsourcing 
+program.
+143.
+144. AdKnowledge, Inc. (Formerly ClickOver and 
+Focalink)
+145.
+2191 E. Bayshore Rd.
+Palo Alto, CA    94303
+(650) 842-0660
+www.adknowledge.com
+146.
+AdKnowledge resulted from the merger of ClickOver, a 
+supplier of Java-based Internet ad management software, and 
+Focalink, an industry leader in media planning, ad placement, 
+analysis and reporting tools.    The merger, which occurred late in 
+1997, is evidence of a growing trend in Internet advertising to 
+package ad serving capabilities with strong analysis and reporting 
+tools.    As a unified entity, the company can offer both advertisers 
+and publishers the market knowledge they need to make informed 
+marketing decisions, facilitate the buying and ad serving process, 
+and ultimately analyze decisions and campaigns based on user and 
+market feedback.
+147.
+AdKnowledge’s product, ClickWise 2, offers most of the 
+functionality of other leading AdServers, but finds its 
+differentiation point in what it calls the Ad Optimizer.    The Ad 
+Optimizer runs in real time to determine what ad is best suited to a 
+particular viewer or page every time an ad is requested. The Ad 
+Optimizer monitors contractual agreements with advertisers, 
+accesses available user data, recognizes page constraints, 
+46
+Electronic Commerce Practice Summary
+AberdeenGroup 
+frequency, and potential traffic to ensure that ad campaigns are 
+run efficiently and completely. 
+148. Ariba Technologies, Inc.
+149.
+1670 Plymouth Street, Suite 103
+Mountain View, CA 94043
+650-237-3800 
+www.ariba.com
+150.
+Ariba Technologies develops and markets enterprise 
+electronic commerce applications focused on Operating Resource 
+Management  the company’s term for purchasing and procurement 
+processes which support the operations of the enterprise, exclusive 
+of manufacturing production material.    The company’s product 
+line, known as the Ariba Operating Resource Management System 
+(“ORMS”), provides comprehensive application support for the 
+entire acquisition life cycle for a wide range of operating materials, 
+supplies, and services.    It presents a single interface for a variety 
+of workflow-based Extranet application requirements which have 
+the entire enterprise as the intended user population. The product 
+is    differentiated by its support for a broad range of complex work 
+flow processes; its real-time integration with existing enterprise 
+systems, and the quality of its human factors engineering. 
+151.
+ 
+152. Art Technology Group
+153.
+101 Huntington Avenue
+Boston, Massachusetts 02199
+(617) 859-1212
+www.atg.com
+154.
+Art Technology Group is recognized as an industry-leading 
+supplier of Java-based EC software and professional services.    Art 
+Technology Group is among the few EC suppliers that is focused 
+specifically on managing end-user relationships via the Web. ATG is 
+beginning to win industry acceptance among ISVs who are using 
+the underlying technologies to craft complete Internet-based, 
+enterprise-class business solutions.
+155.
+Fortune-class companies are interested in relationship 
+management software because it allows them to simultaneously 
+consolidate web interfaces and operations, support mass-
+customization of content to groups of users, or customize content to 
+47
+Electronic Commerce Practice Summary
+AberdeenGroup 
+a Market-of-One.    Such applications provide greater customer 
+service, better-targeted promotions, advice, and relevant 
+information to customers, employees, and trading partners.
+156.
+ATG's commerce products, Retail and Ad Stations, are 
+modular and easy to customize.    They allow companies to build 
+customizable Web sites for managing online relationships without 
+having to develop a large monolithic Web environment.
+157.
+Aberdeen finds that users are generally impressed with ATG's 
+technology and products and they are beginning to realize the 
+advantages of server-side Java applications.    Server-side Java 
+programming makes the Dynamo environment surprisingly 
+reliable, scalable, and easy to manage because it avoids many 
+memory trappings and convoluted coding required with other 
+languages.      Despite the relatively lackluster marketing efforts to 
+date, ATG is winning new customers, it is increasing its mind share 
+and recruiting ISV partners primarily as the result of solid products 
+and executive word-of-mouth. 
+158.
+159. Aspect Development, Inc.
+160.
+1300 Charleston Road 
+Mountain View, CA 94034
+(650) 428-2700
+www.aspectdv.com
+161.
+Aspect Development is a leading supplier of parametric 
+search and catalogue management software designed to support 
+procurement and engineering design processes.    Aspect’s 
+component and supplier management software provides a unique 
+and powerful foundation for constructing, maintaining and 
+efficiently searching multi-supplier product catalogues and 
+integrating this technology into the design engineering process  by 
+promoting design re-use, encouraging selection of preferred parts 
+and suppliers in new designs, and delivering Bill-of-Material 
+optimization analysis throughout the design life cycle.      In the last 
+year the company added a set of purchasing    analysis applications 
+intended to support contract negotiation and supplier 
+rationalization processes. 
+162.
+Aspect publishes the largest family of content databases for 
+standard electrical and mechanical components.    They currently 
+integrate data for more than two million parts provided by over 
+700 suppliers.
+48
+Electronic Commerce Practice Summary
+AberdeenGroup 
+163.
+The Aspect CSM system is marketed on an VAR basis by SAP, 
+and has been directly integrated with:    a number of ERP supplier 
+products, including    SAP., Baan and Oracle;    Parts Data 
+Management Products, including Sherpa and Metaphase;    and 
+design engineering products including Parametric, Mentor, 
+ViewLogic, Cadence, Computervision. 
+164.
+165. Bellcore ¾ Soliant Internet Systems
+166.
+444 Hoes Lane
+Piscataway,    NJ    08854-4182
+(888) 876-5426
+www.soliant.com
+167.
+Bellcore has wrapped all of their Internet solutions up into a 
+common environment they call Soliant Internet Systems.    Included 
+in this product grouping is the Soliant Advertising System, designed 
+to provide web publishers with all of the tools to serve, manage, 
+and maintain advertisements on their site.    By incorporating the 
+product into the larger network solution, Bellcore offers strong 
+targeting capabilities, a scalable architecture, and a solid base of 
+experience in providing network software to the industry.    
+Utilizing the Soliant RapidApps solution, publishers can obtain 
+automatic visitor session tracking and dynamic page generation.    
+Bellcore’s pricing model is friendly to sites of all sizes, offering the 
+product for purchase, lease, or on a revenue sharing basis.    Soliant 
+Advertising System is designed to work as either a single site, or 
+multi-site, ad management solution. 
+168.
+169. BroadVision, Inc.
+170.
+333 Distel Circle
+Los Altos, CA 94022
+(408) 943-3600 
+www.broadvision.com/
+171.
+BroadVision is a market leader in developing and marketing 
+enterprise-class, multi-channel Internet and Intranet application 
+middleware as well as    integrated applications for the financial 
+49
+Electronic Commerce Practice Summary
+AberdeenGroup 
+sector based on this middleware foundation.    The middleware tool 
+set includes a wide range of tools which support both mass 
+customization of applications to target segments and individual 
+customization for Segment-of-One marketing, as well as a set of 
+centralized services and capabilities for efficiently and scalably 
+managing real-time and asynchronous links to existing enterprise 
+applications.    BroadVision is among a very few companies that has 
+demonstrated an ability to manage simultaneous application 
+requirements for high scalability and dynamic personalization. 
+172.
+BroadVision is one of the few EC suppliers which is publicly 
+traded (NASDAQ: BVSN).      It’s annual revenue run rate in Q1’98 of 
+more than $40m makes it one of the largest suppliers of EC 
+software. 
+173.
+174. BurstMedia
+175.
+10 New England Executive Park
+Burlington, MA    01803
+(781) 229-6052
+www.burstmedia.com
+176.
+BurstMedia designed its full service ad network to be as easy 
+to install, use, and profit from as possible.    BurstMedia’s product, 
+the BURST! Network, has tremendous reach due to its ease of 
+installation and management.    With free downloadable software, 
+any site on the web can offer advertising sold, managed, and 
+maintained by BurstMedia.    BurstMedia seeks to maximize users 
+earnings, by minimizing their efforts, and providing service and 
+information to help its members grow.    BURST! Treats its members 
+more as partners than as clients.    With programs designed to drive 
+traffic, deliver statistics, and provide users with a space to 
+collaborate, BURST! Offers sites an advertising environment 
+without headache or expense.
+177.
+Mixed among BURST!’s numerous small sites are a few large 
+publishers.    BurstMedia needs to better advertise to the market the 
+value of the BURST! Network in order to bring in more big ticket 
+sites to provide real revenues.
+50
+Electronic Commerce Practice Summary
+AberdeenGroup 
+178.
+179. Commerce One, Inc.
+180.
+1600 Riviera Avenue
+Walnut Creek, CA 94596
+(925) 941 6000
+www.commerce-one.com
+181.
+Commerce One is among a group of relatively young 
+companies who have brought I/P procurement products which 
+leverage and support fundamentally new business process models 
+and/or provide improved and extended automation for existing 
+processes. 
+182.
+C1 is differentiated in the market by a unique combination of 
+factors:    its strong transaction processing and inter-operation 
+infrastructure; the robustness of its multi-supplier catalog 
+management functionality; the utilization of an Extranet to manage 
+inter-company transactions; complex product configuration and 
+pricing management capabilities; and the strength of its channel 
+partnerships for legacy and ERP product integration, product 
+distribution, and systems integration.    It has a strong ISV 
+relationship with Microsoft and an equity investment from SAP AG 
+¾ which also co-markets the C1 products ¾ both of whom should 
+provide significant indirect channel leverage in 1998 and 1999. 
+183.
+184. Connect, Inc.
+185.
+515 Ellis Street
+Mountain View, CA 94043-2242
+(650) 254-4000
+www.connectinc.com
+186.
+Connect, Inc. develops and markets Internet-based New EC 
+applications for    Order Management and Purchasing Management. 
+The company was an early leader in delivering products which 
+were database-driven and supported dynamic catalogue content.    
+Its products reflect a leading-edge architecture  Java and Netscape 
+Enterprise Server, an object development infrastructure, and a 
+transaction management-layer implemented in Unix/Oracle server 
+environments.
+51
+Electronic Commerce Practice Summary
+AberdeenGroup 
+187.
+Connect has positioned these products as a complete sales-to-
+order and procurement-to-order business-to-business EC solutions 
+which can be implemented in a relatively short time period, as well 
+as offering versions of these products tailored to Commerce Service 
+Provider organizations. 
+188.
+189. CyberCash, Inc.
+190.
+2100 Reston Parkway
+Reston, VA 20191
+(703) 620-4200
+www.cybercash.com
+191.
+CyberCash allows merchants to add a small piece of code (a 
+plug-in) to any of the major industry commerce application 
+platforms.    The plug-in or "Cash Register," allows merchants to 
+accept several forms of Internet payment and automatically clears 
+the funds with related banks and credit card processors. 
+192.
+Aberdeen finds that some of the largest credit card-centric 
+Web sites interact directly with card processors.    However, Web 
+publishers and large corporations are finding that they need 
+greater payment flexibility.    For example, publishers want to be 
+able to offer tiered pricing models that support "pay-per-view," and 
+large corporate sites want to offer online bill payment.    By 
+partnering with CyberCash, merchants and publishers can exploit a 
+suite of payment options, including credit card transactions, 
+micropayments, and money (check or bill payment).
+193.
+194. DigiCash, Inc.
+195.
+100 South Ellsworth Avenue, 9th floor
+San Mateo, California 94401
+(415) 321 0300
+www.digicash.com
+196.
+Digicash is well established as an international Internet 
+payment option.    Unlike other Internet payment options, Digicash's 
+ecash digital currency does not involve major credit card 
+processors.    Rather, banks exchange conventional currency for 
+52
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Internet ecash currency.    Unfortunately, the payment system 
+requires that users have an account with an issuing bank. 
+197.
+198. DoubleClick, Inc.
+199.
+41 Madison Ave., 32nd Floor
+New York, NY    10010
+(212) 683-0001
+www.doubleclick.net
+200.
+DoublClick is currently the most recognized name in the 
+Internet advertising space.    After a wildly successful IPO, this full-
+service ad network has continued to grow its base of popular sites. 
+The DoubleClick Network boasts ad sales and serving for some of 
+the most trafficked sites on the web and maintains impressive 
+depth well beyond the top 100 sites.    DoubleClick’s ad sales model 
+is mainly CPM based, but it has begun to venture into price 
+performance advertising and other ad sales models which have not 
+yet been explored by its competitors.    DoubleClick has also 
+developed its DART serving and targeting technology to function as 
+a licensed product to sites which maintain their own ad sales 
+forces.    This sort of software/hardware outsourcing    is becoming 
+increasingly popular, and DoubleClick continues to be a leading 
+market pioneer. DoubleClick has currently cookied well over 25 
+million Internet users in order to allow it to offer accurate user 
+targeting and profiling.    Using the DoubleClick DART targeting 
+technology, advertisers have the option of targeting prospects on 
+more precise profiling criteria then most systems today. 
+201.
+DoubleClick has a strong product and an even stronger 
+marketing department.    DoubleClick has successfully branded 
+itself as the Internet advertising leader in the popular press and 
+advertising circles.    Aberdeen recognizes DoubleClick’s rampant 
+success, but remains wary of what the future will hold should 
+AltaVista, the search service which represents nearly 45% of 
+DoubleClicks business, be sold or revamped as a result of the 
+proposed purchase of Digital Equipment Corporation by Compaq.
+53
+Electronic Commerce Practice Summary
+AberdeenGroup 
+202.
+203. EC Verify, Inc.
+204.
+473 Roland Way
+Oakland, CA 94621
+(510) 553-7500
+www.ecverify.com
+205.
+The EC Verify payment system is the dark horse of Internet 
+payments.    It is the least talked about but most used system.    It is a 
+remarkably simple and effective dial-up and leased line point-of-
+sale credit card and debit card processing software package.    EC 
+Verify may be used to process transactions at both the physical 
+point-of-sale and at the Web point-of-sale.    EC Verify is an excellent 
+payment solution for any electronic commerce venture that wants 
+a cost-effectively process credit card transactions.
+206.
+EC Verify is financially stable and Aberdeen expects the 
+company to continue expanding its payment services in 1998 
+starting with a TCP/IP version of its software.    The payment 
+services will include more complex payment such as 
+microtransactions if Microsoft and Netscape add greater client-side 
+payment support. 
+207.
+208. ELEKOM Corporation
+209.
+500 108th Avenue Northeast,    Suite 1400
+Bellevue, WA 98004
+425 990 3060
+www.elekom.com
+210.
+ELEKOM is a supplier of procurement process automation 
+applications enabled through the Internet and Extranets. ELEKOM 
+has targeted the purchasing organization and has concentrated its 
+energy on enabling materials and operating resource procurement 
+across the organization. 
+211.
+ELEKOM Procurement is the second generation of Internet-
+enabled procurement products to be delivered to the market by the 
+company  an attribute which is reflected in the narrow focus of the 
+company on procurement automation as well as specific 
+architectural design decisions.    It is one of two companies 
+developing New EC applications with this narrow product focus.    
+(Ariba is the other.) 
+54
+Electronic Commerce Practice Summary
+AberdeenGroup 
+212.
+ELEKOM Procurement is differentiated by the architecture it 
+employs to build and maintain its multi-supplier product catalogue  
+a strategy which distributes the catalogue management functions 
+between local servers at the purchaser and the servers of the 
+supplier to effectively achieve the sometimes conflicting objectives 
+of processing performance for the end-user and catalogue control by 
+the suppliers.    Its pricing policies also serve to differentiate it from 
+its most direct competitors  with significantly lower entry-price 
+points. 
+213.
+214. First Virtual Holdings Incorporated
+215.
+11975 El Camino Real, Suite 200
+San Diego, CA 92130
+(619) 793-2700
+www.fv.com
+216.
+The First Virtual Internet payment system is elegantly 
+simple.    It essentially triangulates email-like messages to securely 
+authenticate consumer transactions.    Once authenticated, First 
+Virtual processes a credit card transaction on behalf of an Internet 
+consumer with a major card processor.    Unfortunately, the 
+system's simplicity is not sufficient to serve as a major Internet 
+payment technology. 
+217.
+Among the most significant variables for the effectiveness of 
+a Web-based payment system is immediacy.    The First Virtual 
+system requires e-mail authentication of all orders ¾ creating a 
+time lag that may encourage consumers to second-guess their 
+purchases. 
+218.
+The strength of the First Virtual Internet Payment System lies 
+in its ability to better handle merchant-initiated transactions.    E-
+mail latency hinders the immediate gratification of Web buyers, 
+but follow-on email-based correspondence can become 
+transactional by simply using a First Virtual PIN. 
+219.
+Such e-mail transactions may be useful for magazine 
+subscription renewals, software upgrade solicitations, shareware 
+sales, relationship (One-to-One) marketing, donation services, and 
+bill presentment.
+220.
+First Virtual has built a proprietary messaging system to 
+enable relationship marketing on the Internet ¾ something the 
+55
+Electronic Commerce Practice Summary
+AberdeenGroup 
+traditional retail and direct marketing industries have been doing 
+for years with great success.
+221.
+Aberdeen believes that the primary value of First Virtual 
+software will be to serve email-based transactional services.    For 
+example, the FV system allows people or businesses that cannot 
+attain merchant status from credit card companies to sell online.    
+The system also allows merchants to embed transactions into 
+promotional offerings. 
+222.
+223. Fulcrum Technologies, Inc.
+224.
+785 Carling Avenue
+Ottawa, Canada K1S 5H4
+(613) 238 1761
+www.fulcrum.com
+225.
+Fulcrum Technologies is the leading supplier of information 
+retrieval tools, knowledge publishing and knowledge management 
+applications.    Fulcrum’s text search and retrieval systems help 
+organize heterogeneous databases, support rapid search and 
+retrieval by end-users based on text string search and Boolean 
+criteria, and provide integrated email messaging capabilities to 
+support collaborative activities. 
+226.
+Fulcrum products are differentiated by the range of database 
+types which are supported, and the performance of its underlying 
+search technology.    The Fulcrum search engine is used by several 
+EC suppliers to provide product catalogue search capabilities. 
+227. GE Information Services
+228.
+401 North Washington Street
+Rockville, MD 20850-1785
+(800) 758-5804
+www.geis.com
+229.
+GE Information Services (GEIS) is a global provider of 
+Electronic Data Interchange (EDI) and value-added Electronic 
+Commerce products and services.    GEIS has been the market 
+leader the EC industry for over three decades and supports over 
+40,000 EDI trading partners, the largest global trading network in 
+the world. The company’s core competencies include EDI, Data 
+Network Services, Purchasing/Supplier Management, Marketing 
+56
+Electronic Commerce Practice Summary
+AberdeenGroup 
+and Sales Management.    It’s strengths include its private, value-
+added network, its world-wide presence ¾ which enables it to 
+provide integration consulting services in 42 countries ¾ and its 
+global knowledge and skill base in establishing business system-to-
+business system inter-operability using EDI technology 
+230.
+GEIS is a subsidiary of the General Electric Company, the 
+most profitable company in the world in 1997.    GEIS provides 
+services to many of GE’s business units.      That relationship 
+provides GEIS with: a stable core business which is, by itself, larger 
+than most of the existing EC suppliers; a close working relationship 
+with GE’s manufacturing business that provides continuing input to 
+product definition and acts as early test sites for new EC product 
+initiatives;    New EC initiatives, and the substantial financial 
+resources of the most profitable company in the world.
+231.
+GEIS has steadily evolved from a Value-Added Network and 
+EDI services provider into an organization which is leading the 
+charge, directly and through partnerships, into the New EC frontier. 
+It has variety of traditional EDI products and services, a number of 
+value-added services built around its worldwide private network, 
+and has major initiatives to deliver Internet-enabled supply chain 
+management capabilities integrated with its value-added network. 
+It also remarkets the Netscape CommerceXpert products.
+232.
+233. Harbinger Corporation
+234.
+1055 Lenox Boulevard
+Atlanta, Georgia 30319
+(404) 841-4334
+www.harbinger.com
+235.
+Harbinger Corporation (NASDAQ:HRBC) is a leading provider 
+of both traditional EC and New EC solutions. Harbinger supplies 
+EDI translation and message server software, value-added network 
+services, vertical industry EC programs, trading partner program 
+management and roll-out services, EC process reengineering, 
+electronic messaging, Internet connectivity, Web site development 
+and interactive marketing tools.      With its purchase of Premenos 
+in 1997, Harbinger became a leader in Internet EDI as well as EDI 
+servers for the AS/400 marketplace. Harbinger also offers a 
+comprehensive set of Internet and Extranet-based procurement 
+products (the “Trusted Link Procurement” product family).    The 
+TLP products provide a significant supplier management capability 
+57
+Electronic Commerce Practice Summary
+AberdeenGroup 
+which provides catalog integration for more than four hundred 
+suppliers of MRO goods and services. 
+236.
+The company is differentiated by the breadth of its product 
+and service offerings, its vertical industry services and expertise, a 
+focus on mid-sized organizations, and the quality of its value added 
+EC program management services and network.    With revenues at 
+an annualized rate of over $120m in Q1’98, Harbinger is one of the 
+largest companies devoted exclusively to Electronic Commerce.
+237.
+238. IBM Corporation
+239.
+Route 100 
+Somers, New York 10589
+(914) 784-5485
+www.internet.ibm.com/commercepoint/net.commerce
+240.
+When electronic commerce involves the heart of IS, IBM 
+remains on every short list.    High-end electronic commerce 
+solutions often require substantial investment in customization, 
+transaction processing, and systems integration.    IBM is a trusted 
+supplier of each of these capabilities.    IBM has web hosting, work 
+flow management, and transaction processing products, 
+experienced systems integrators, and strong world-wide 
+distribution and support. It has resources which cover the 
+complete electronic commerce spectrum ¾ a wide range of 
+application requirements, multiple operating systems support, and 
+a large services organizations.    IBM business partners and Web 
+affiliates (systems integrators) and IBM's Global Services are 
+already implementing electronic commerce on a large scale in the 
+retail (especially internationally), oil, energy, distribution, 
+manufacturing, and banking industries. 
+241.
+Net.Commerce is a catalog-centric suite of tools for building, 
+maintaining, and deploying Internet sales.    It is sold as a stand-
+alone product with connectivity to key IBM transactional 
+middleware such as IBM's Transaction Server (formerly CICS), MQ 
+Series, and major ERP systems.    Net.Commerce is being sold 
+directly and through distribution channels to compete with 
+Intershop, iCat, and Microsoft Site Server ISVs in the sales catalog 
+application space.
+242.
+IBM is also marketing Lotus Domino as a commerce solution. 
+Domino Merchant offers a means of creating a basic storefront.    
+58
+Electronic Commerce Practice Summary
+AberdeenGroup 
+Lotus Domino may also be used in conjunction with Net.Commerce 
+as a means of extending its groupware and document management 
+features to the web for the purposes of providing web-based 
+customer service within the Lotus Notes installed base. 
+243.
+Aberdeen research shows rapid acceptance of Net.Commerce 
+among Internet merchants.    Net.Commerce is best suited as a 
+stand-alone mid-range product or as a toolset for constructing 
+customized, medium-scale EC applications; it’s performance 
+appears to have limits at the present time (Q2 ’98) and has not been 
+demonstrated as supporting the largest scalability requirements ¾ 
+but Aberdeen expects this limitation to be removed soon with the 
+expected release of an IBM web application server. 
+244.
+245. iCat Corporation
+246.
+1420 Fifth Avenue, Suite 1800
+Seattle, Washington 98101-2333
+(206) 505.8800
+www.icat.com
+247.
+iCat's products are specifically intended for companies that 
+want to set up an Internet storefront by publishing a commercial 
+catalog online, be it for business or consumer buyers.    Aberdeen 
+research has identified iCat as a leader in meet mid-range Internet 
+sales automation requirements. 
+248.
+ICat has established a strong position in the market.    Strong 
+indirect channel development and ISP partnerships have given iCat 
+a strong position in the early market for Internet sales automation. 
+Powerful channel relationships with more than 300 Value-Added 
+Resellers (VARs), Web developers, ISPs, and systems integrators 
+effectively expose iCat to the small and medium-sized companies.    
+Finally, recent agreements with Ingram Micro, Tech Data, and 
+Hewlett-Packard to distribute iCat software should further solidify 
+iCat’s share of smaller online merchants and corporate intranet 
+developers.    iCat should continue to sell effectively to the mid-
+range sites because it provides the industry's best catalog 
+publishing tool. 
+249.
+Aberdeen research indicats that the architecture of iCat 
+Electronic Commerce Suite 3.0 is best suited for medium-range 
+scalability requirements.      What the iCat suite lacks in database 
+59
+Electronic Commerce Practice Summary
+AberdeenGroup 
+and architectural sophistication, the company makes up with 
+shrewd marketing and a clear understanding of product packaging. 
+The iCat suite contains industry-leading storefront tools and should 
+have few problems meeting mid-range demand.    At the low-end of 
+the market, iCat has gone to great lengths to eliminate all barriers 
+to merchants, including cost in an attempt to grow its base and, 
+ultimately, to either up-sell the customers.
+250.
+251. IMGIS Inc
+252.
+10101 N. DeAnza Blvd., Suite 210
+Cupertino, CA    95014
+(650) 843-8094
+www.IMGIS.com
+253.
+The pioneer of ad server outsourcing, IMGIS built AdForce to 
+serve the needs of ad sales organizations, advertisers, and web 
+publishers of all flavors.    IMGIS has focused primarily on 
+developing the best targeting and ad management systems in the 
+industry.    While many ad server providers are riding on their 
+laurels, IMGIS has been aggressively partnering with companies to 
+allow it to increase services to its customers.    IMGIS recently 
+secured the exclusive right to leverage the enormous amount of 
+user data stored in the Metro Mail and other direct marketing 
+databases.    These information feeds will provide demographic, 
+psychographic, and purchasing history information on IMGIS 
+customers to facilitate high level end user targeting by advertisers. 
+IMGIS is currently developing the AdForce+ program which 
+represents the first stage in utilizing this data.    User targeting and 
+24/7 service and support are IMGIS’ true strong points. 
+254.
+IMGIS recently merged with StarPoint, a provider of in-house 
+ad server solutions.    By merging the two products, IMGIS 
+leveraged the technology advantages of each and is now able to 
+offer a hybrid, in-house and outsourced, ad serving solution.    
+Aberdeen believes IMGIS is well positioned for the future but 
+strongly recommends they ramp up marketing to build market 
+awareness and mindshare. 
+60
+Electronic Commerce Practice Summary
+AberdeenGroup 
+255.
+256. Intelligent Interactions Corporation
+257.
+201 North Union St.
+Alexandria, VA    22314
+(703) 519.6805
+www.adfinity.com
+258.
+Intelligent Interactions Corporation focuses heavily on 
+providing web based businesses with the tools needed to perform 
+high level database marketing through both advertising and 
+content.    Intelligent Interactions ad serving product, Adfinity, 
+features strong ad serving capabilities coupled with powerful 
+direct marketing database features that are used by major web 
+based clients.    Adfinity provides all of the functionality inherent in 
+other ad serving solutions, but exceeds the competition in its ability 
+to integrate with existing databases for customer targeting.    
+Adfinity is available for most popular platforms and depends 
+heavily on the web server for storage and manipulation of ad 
+creatives.    This web server based storage systems improves the 
+solutions performance and allows it to serve all types of web based 
+content.
+259.
+260. Inex Corporation
+261.
+20 Toronto Street, Suite 400
+Toronto, Ontario 
+Canada M5C 2B8
+(416) 214-2250 / (888) 487-INEX
+www.inex-corp.com
+262.
+Inex is a supplier of Internet sales automation software.    It’s 
+Commerce Court products are differentiated by their easy-to-use 
+Windows NT-centric standards and low cost of ownership.    
+However, Inex does not offer the rich storefront management or 
+customization features of either Intershop or iCat.    Aberdeen 
+believes the company will receive significant marketing support 
+from Microsoft and Compaq and expects Inex's products to be well 
+received in international markets where Unix experience is hard to 
+find.
+61
+Electronic Commerce Practice Summary
+AberdeenGroup 
+263.
+Inex will be particularly successful if it can remove the pain 
+associated with creating an Internet store and integrate with 
+Microsoft’s Site Server software, while meeting the business 
+requirements of commerce service providers.    This will be 
+challenging due to the complexities associated with synchronizing 
+the products without introducing limitations to their flexibility or 
+scalability.
+264.
+Commerce Court is an end-to-end Internet sales solution.    It 
+meets the requirements of most small-to-medium sized companies, 
+and it is based upon industry standard (Microsoft) technology that 
+will last and will satisfy all but the most transaction-intensive CSP 
+operations.    Above all, Inex’s competitive edge depends on 
+Windows’ ease of use – familiar to legions of Microsoft users and 
+developers.
+265.
+266. Intershop Communications, Inc.
+267.
+111 Anza Blvd. Suite 205
+Burlingame, CA 94010
+415-373-1530
+www.intershop.com
+268.
+Intershop's European stronghold is matched by impressive 
+gains in US mind share.    Intershop's recent popularity is the result 
+of a well-architected mid-range Internet sales and marketing 
+application. 
+269.
+Intershop's use of a central Sybase System 11 database 
+distinguishes it from iCat and other mid-range products that 
+typically use ODBC or less sophisticated databases such as SQL 
+Anywhere.    Aberdeen is also impressed with Intershop's 
+centralized management which distinguish the Intershop Mall 
+product from other products in its class.    Aberdeen expects 
+Intershop to be popular with commerce service providers who 
+wish to sell sophisticated storefront capabilities to Internet small 
+and medium-sized merchants which share a centralized and 
+scalable database.
+270.
+Intershop's products are positioned to exploit the developing 
+commerce service provider channel (CSP) due to their unique 
+database architecture and easy to use storefront management tools. 
+62
+Electronic Commerce Practice Summary
+AberdeenGroup 
+271. InterWorld Technology Corporation
+272.
+395 Hudson Street, 6th Floor
+New York, NY 10014-3669
+(212) 301-2500
+www.interworld.com
+273.
+InterWorld's strength lies in its distributed object-based 
+transaction processing foundation.    The Object Architecture 
+Scaleable Inter-operating System (OASIS) is unique because it can 
+handle tremendous transaction volumes, can communicate with 
+any database, and depends on no single technology.    Due to an 
+abstraction layer, Oasis can communicate via both Microsoft's 
+DCOM and the OMG's CORBA object architectures.
+274.
+InterWorld won several impressive and very large customers 
+in 1996 and 1997, but will face marketing and channel challenges 
+from the likes of IBM, Oracle, and Microsoft.    Aberdeen believes 
+InterWorld's products will survive in the long run for four reasons. 
+First, unlike several other Internet storefront startups, the 
+company is private and is profitable.    Second, the company retains 
+domain expertise from several successful implementations, and a 
+staff with notable transaction-processing talent.    Third, the 
+company's recent marketing efforts are beginning to bear fruit, and 
+fourth, InterWorld's object technology is the best in its class.
+275.
+276. Mercantec, Inc.
+277.
+3080 Ogden Avenue
+Lisle, IL    60532
+(630) 305-3200
+www.mercantec.com
+278.
+Mercantec focuses on front-end    Internet sales transaction 
+processing (shopping cart and related functionality) and APIs    
+without getting involved in the complexities associated with 
+distributed object platforms, catalog publishing tools and dynamic 
+page rendering. 
+279.
+Mercantec was among the first companies to recognize the 
+need to change the pricing models and allow commerce service 
+providers and developers to have access to basic front-end 
+commerce processing with minimal risk.    Mercantec has 
+integrated the product with industry-leading HTML authoring 
+63
+Electronic Commerce Practice Summary
+AberdeenGroup 
+tools, such as Microsoft’s Front Page, as well as industry-leading 
+development tools, such as Allaire’s Cold Fusion.    By focusing only 
+on the basic elements of a front-end, web-based transaction, 
+Mercantec can deploy commerce to smaller companies for under 
+$100.    Consequently, Mercantec may have more copies in 
+circulation than any other commerce system. 
+280.
+Mercantec continues to expand its installed base with a 
+variety of CSP, marketing, and Web development tool partners.    
+Aberdeen believes the company occupies and dominates it's niche 
+and expects it to become prevalent embedded technology.    
+However, Mercantec will also be challenged to create a market 
+strategy for such a point commerce product in an increasingly 
+consolidating market – the company is a potential acquisition 
+target for tools suppliers who need commerce functionality and are 
+attracted to the Mercantec base.
+281.
+282. Microsoft Corporation
+283.
+One Microsoft Way, 
+Redmond, Washington 98052-6399
+(425) 882-8080
+www.microsoft.com 
+284.
+The nascent electronic commerce market begs for technology 
+standardization, rich ISV applications,    and back-office integration. 
+Microsoft is uniquely positioned to meet all three of these 
+requirements.    Microsoft is relentlessly pursuing its expansion 
+into the enterprise, defining a range of industry standards as it 
+moves.    It has adopted a strategy of providing broad baseline 
+infrastructure tools and middleware for Electronic Commerce, 
+while relying on ISV partners to create a broad range of EC 
+applications.      Only IBM and Netscape have similarly broad web 
+technology foundation-ware ¾ but they lack the leverage over the 
+enterprise to define standards in the way which is exercised by 
+Microsoft due to its control of the desktop and lag behind in 
+establishing effective ISV software programs.
+285.
+Microsoft is well on its way to establishing the standard for 
+mid-range and low-end demand-side EC, and will continue its foray 
+into enterprise computing.    It has carefully crafted an underlying 
+Site Server Commerce Edition to provides a rich range of services 
+to its ISV’s.    Aberdeen believes that, with the maturation of MSTS, 
+64
+Electronic Commerce Practice Summary
+AberdeenGroup 
+MSMQ, and Wolfpack, that Microsoft price/performance will 
+become a driving force in the EC software market.    As the 
+performance and availability of Site-Server applications increase, 
+the parallel and distributed nature of Internet application should 
+play to the conventional Redmond price/performance strengths at 
+even surprisingly large Internet sites.
+286. NetGravity, Inc.
+287.
+1700 S. Amphlett Blvd., Suite 350
+San Mateo, CA    94402-2715
+(415) 655-4777
+www.netgravity.com
+288.
+NetGravity is a proven leader in providing software solutions 
+to manage advertising needs for web sites.    NetGravity’s AdServer 
+3.0 is an in-house ad serving solution that manages on-line ad 
+inventory, has the ability to dynamically target ads based on 
+numerous information sources, and provides real-time campaign 
+reports to advertisers.    NetGravity’s core focus is to provide ad 
+serving solutions based on constantly evolving market needs.
+289.
+One of NetGravity’s core differentiaters is its Open Targeting 
+Architecture. NetGravity realizes that sites obtain and store user 
+data in a number of ways so their targeting engine has been built to 
+be fully customizable using C++ code.    NetGravity has also 
+included automated management processes (automated 
+maintenance, log file uploads, performance reports, etc), reliable 
+process monitoring, and proactive administration notification to 
+insure that AdServer 3.0 will run as efficiently as possible with 
+minimal administrative staff.
+290.
+AdServer 3.0 can be configured as a network solution and is 
+also able through a NetGravity outsourcing program. 
+291.
+292. Netscape Communications Corporation.
+293.
+501 East Middlefield Road
+Mountain View, CA 94043-4042
+(650) 542-3200
+www.netscape.com
+65
+Electronic Commerce Practice Summary
+AberdeenGroup 
+294.
+Netscape is regarded as a pioneer and leader in Internet 
+middleware.    Much of the early and continuing investment in 
+Netscape Internet middleware reflects investment to develop 
+custom Electronic Commerce applications.    Thus Netscape enters 
+the application market as, arguably, one of the three largest 
+electronic commerce software suppliers in the world ¾ in the 
+company of IBM and Microsoft ¾ with annual revenues over $530 
+million.      In late 1997 Netscape acquired the GEIS interest in their 
+Actra joint venture, which developed the CommerceXpert family of 
+EC applications for Internet Sales, Intenet Publishing, Internet 
+Procurement and Internet EDI.    If it successfully markets these 
+products, Netscape may have found an effective way to leverage its 
+underlying technology to deliver significantly differentiated value-
+add ¾ in the form of enterprise business applications¾ a 
+differentiation of    immense importance in its continuing no holds 
+barred battle with Microsoft.
+295.
+The CommerceXpert product suite is notable for its breadth, 
+the depth of its individual offerings, and a robust infrastructure 
+built primarily on Netscape technology and network computing 
+architecture standards.    Because of its breadth, the product family 
+competes with nearly every point solution in the EC market. 
+296.
+Netscapes’s acquisition of Actra signals Netscape’s clear 
+intent to deliver fully functional applications as well as the 
+supporting middleware infrastructure. The Netscape Application 
+Products Division, which owns the CommerceXpert product family, 
+was created in late 1997 following the acquisition of the GE interest 
+in Actra Corp..    Actra was a joint venture of Netscape    and GE 
+Information Services which was established in early 1996 to 
+develop electronic commerce applications designed specifically to 
+run over the Internet, Extranets and Intranets.
+297. OneSoft
+298.
+7010 Little River Turnpike, Suite 410
+Annadale, VA 220030-3241
+(703)916 7448 
+www.onesoft.com
+299.
+OneSoft is a supplier electronic commerce application 
+components and middleware.    Its Empire Commerce Server 
+provides a transactional foundation for EC applications, and 
+includes capabilities supporting: personalization of catalogs; 
+management and display of dynamic content; sales order 
+management; sales transaction processing; sales order customer 
+66
+Electronic Commerce Practice Summary
+AberdeenGroup 
+support; and integration with fulfillment systems.    Additional 
+groupware capabilities are also supported, including electronic 
+mail, conferencing and chat rooms, and document library 
+management.
+300. Open Market, Inc.
+301.
+One Wayside Road
+Burlington, MA 01803
+(617) 949-7000
+www.openmarket.com
+302.
+Open Market stands apart as the largest publicly traded ISV 
+(NASDAQ: OMKT) dedicated to sales and marketing EC application 
+software.    The core of the Open Market product family is OM 
+Transact, a distributed transaction processing system for Internet 
+Sales and Marketing.    Rather than building the system based upon 
+a distributed object-based middleware, Open Market from the 
+beginning bet on the genuinely open HTTP Web protocol.    It is the 
+first company to establish intellectual property rights in the EC 
+space through u.s Patents.
+303.
+In addition to its own proprietary transaction processing, 
+Open Market is also selling applications for industrial catalogs and 
+publishing.    Open Market's foray into the business-to-business 
+catalog space will face intense competition from all high-end and 
+some mid-range commerce application platform suppliers.
+304.
+Open Market is in the process ramping up its industrial 
+catalog publishing applications while continuing to sell OM 
+Transact to large telecommunications companies and ISPs ¾ so 
+called “Commerce Service Provider” (CSP) organizations.      
+Aberdeen has previously criticized Open Market’s ability to deliver 
+deployable solutions to smaller merchants through its CSP 
+customer base; this criticism has been put to rest by the recent 
+acquisition of Icentral, which will provide an easy to use and mass 
+deployable EC merchant solution for the low and middle segments 
+of the market. 
+305.
+Open Market remains the market leader in the CSP channel 
+and now has a complete product line with both the easy-to-use and 
+manage storefront tools as well as the back end transaction 
+management system.
+306.
+67
+Electronic Commerce Practice Summary
+AberdeenGroup 
+307. Oracle Corporation
+308.
+500 Oracle Parkway
+Redwood Shores, CA 94065
+(650) 506-7000
+www.oracle.com
+309.
+While late to market, Oracle's Internet Commerce Server 
+(ICS) delivers most of the core features for demand-side commerce 
+application platforms (CAPs). Oracle will leverage core database 
+technology, a new object framework (the Oracle Network 
+Computing Architecture), and its strong professional services 
+organization to serve high-end commercial Web sites. 
+310.
+Oracle's ICS relies exclusively on the Oracle7 database.    
+Aberdeen finds that most enterprise-scale Web integration is done 
+through applications, but that sites that tap many databases to 
+display a catalog may require access to other suppliers' databases. 
+Oracle's Network Computer Architecture (NCA) is an object 
+framework that will allow users to plug in ICS if they already have 
+a Web Application Server from Oracle, or to buy the ICS bundle. 
+311.
+Aberdeen believes the company remains exceptionally well 
+positioned because of their cross-product leverage, professional 
+services, and long experience with production systems and the 
+people who have to run them. 
+312.
+While late to market, Oracle's Internet Commerce Server 
+(ICS) delivers most of the core features for Internet sales and 
+marketing applications. Aberdeen believes Oracle's NCA and more 
+than 6,000 consultants in more than 45 countries are the primary 
+competitive advantage of ICS over smaller commerce application 
+platform companies.    However, Oracle has yet to win widespread 
+support for ICS in the CSP market or attract large numbers of ISV’s 
+in a way which parallels its database business;    feedback to 
+Aberdeen from early users of the Oracle application server would 
+be best characterised as “lukewarm.”
+313.
+314. Real Media Inc.
+315.
+270 Commerce Drive
+Suite 6000
+Fort Washington,    PA    19034
+(215) 654-8376
+www.realmedia.com
+68
+Electronic Commerce Practice Summary
+AberdeenGroup 
+316.
+Real Media’s Internet advertising solution, Open AdStream, 
+was developed to meet the specific needs of Internet publishers by 
+providing an ad management, delivery, and reporting system 
+which runs on a web server.    By performing all ad management, 
+delivery, and reporting on-line, Open AdStream boasts ease of use, 
+performance, and flexibility.    Real Media has partnered with user 
+profiling and targeting companies to help ad managers target web 
+surfers on a wealth of demographic data.    Open AdStream has also 
+developed one of the strongest ad inventory management and 
+reporting tools on the market today.    By automatically computing 
+projected growth rates for each page of a site based on the past 
+four weeks of activity, the Inventory Manager can project traffic 
+numbers in the future.    This insight, accompanied by detailed 
+traffic reports and powerful targeting capabilities, helps ad sales 
+forces to sell as much inventory as possible at the highest CPM rate. 
+Open AdStream is a powerful ad serving solution delivered at a 
+reasonable price by not forcing publishers to buy additional 
+hardware or software ¾ a web server is all you will need. 
+317. Requisite Technology
+318.
+4888 Pearl East Circle, Suite 300W
+Boulder, CO 80301
+(303) 546 0610
+www.requisite.com
+319.
+Requisite Technology is a supplier of catalog content, catalog 
+management tools, and catalog navigation and search tools for 
+Internet and Intranet-enabled purchasing and procurement 
+applications.      It maintains a centralized catalog database focused 
+on MRO requirements and creates custom catalogs for use by 
+purchasing organizations, combined with the underlying toolsets to 
+navigate and manage these catalogs. 
+320.
+Aberdeen research indicates that catalog content    ¾ and the 
+management of supplier organizations to acquire and standardize 
+catalog data ¾ is a “high value-add” component of procurement 
+automation.    Requisite is a leader in the MRO space in filling the 
+role of “content provider” and one of the few organizations focused 
+on content management as its sole business. 
+321. SpaceWorks, Inc.
+322.
+51 Monroe Street
+Rockville, MD 20850
+69
+Electronic Commerce Practice Summary
+AberdeenGroup 
+(301) 251-4136
+www.spaceworks.com
+323.
+SpaceWorks develops and markets Internet-enabled 
+applications automating the marketing and sales-to-order 
+processes, including real-time transaction processing.      Their 
+OrderManager product has been developed and is currently 
+focused on the wholesale distribution industry  particularly 
+computer products, food and beverage, pharmaceutical and 
+medical supplies, and industrial parts and equipment  as well as 
+consumer electronics manufacturers. 
+324.
+The product is positioned based on its attributes of 
+completeness, rapid implementation, and real-time integration 
+with existing enterprise business applications.    Its pricing 
+establishes it as a product for mid-to-large sized organizations.    It 
+competes in the market with similarly-oriented products from 
+Connect, Commerce One, Netscape, and Trade’ex.
+325. Sterling Commerce, Inc.
+326.
+Interchange Software 
+Group
+Communications Software 
+Group
+300 Crescent Court (Suite 1200)
+Dallas, Texas 75201-7832
+(214) 981-1100
+www.stercomm.com
+327.
+Commerce Services 
+Group
+Interchange Software Group
+4600 Lakehurst Court
+Dublin, Ohio 42016-2000
+(614) 793-7000
+www.stercomm.com
+328.
+Sterling Commerce, Inc. (NYSE:SE) is a leading provider of 
+electronic commerce products and services worldwide.    Sterling 
+provides software and services in four distinct markets:    
+Electronic Data Interchange (EDI) and message management 
+software for trading partner supply chains;    financial EDI and 
+electronic payment processing software (EFT) for banks and 
+corporations; file transfer and conversion software; and private 
+network services for trading partner supply chains and corporate 
+Extranets. 
+329.
+As one of the earliest participants in the EC marketplace, 
+Sterling has gained market leadership through the depth and of its 
+product offerings combined with extraordinarily broad service 
+capabilities  including localized EDI and EFT capabilities in six 
+continents around the globe. file translation and communications 
+software, and internet-based catalog management capabilities. 
+70
+Electronic Commerce Practice Summary
+AberdeenGroup 
+330.
+Sterling    has systems integration resources around the world 
+¾ an important asset in the race to gain market share in the 
+Internet Commerce market.    This fundamental strength, combined 
+with the size and profitability    of its EDI business, provides 
+substantial resources for expansion f into Internet Commerce 
+markets, and Aberdeen believes that Sterling will become very 
+active in these markets in 1998 ¾ both through directly supported 
+R&D and through acquisitions. 
+331.
+332. The EC Company
+333.
+1705 El Camino Real
+Palo Alto, CA 94306
+(650) 323 7500
+www.eccompany.com
+334.
+The EC Company targets its EDI and EFT software and 
+services to medium-sized organizations in the supply chain.    It 
+offers a unique value proposition to the mid-range market:    well-
+engineered, object-oriented software which reduces the investment 
+in technical expertise required to implement and maintain EDI and 
+EFT enablement.    It’s marketing strategy aggressively seeks market 
+penetration and transaction volume by changing the fundamental 
+economics of EDI for its trading community. 
+335.
+The EC Company stands out among EDI suppliers as different 
+ from its marketing plan, which utilizes a low 
+cost-to-implement/low transaction cost model designed to attain 
+market share and transaction volume  to its    distribution strategy  
+which relies heavily on strategic alliances and includes embedded 
+versions transparently integrated into a number of enterprise 
+business application products. 
+336.
+337. TRADE’ex Electronic Commerce Systems, Inc.
+338.
+100 South Ashley Drive. Suite 2050
+Tampa, FL 33602
+(888) 487-2339
+www.tradeex.com
+71
+Electronic Commerce Practice Summary
+AberdeenGroup 
+339.
+TRADE’ex is a supplier of sales and procurement software 
+supporting electronic commerce for trading networks over TCP/IP 
+Extranets and the Internet.      TRADE’ex products are developed in 
+Java based on a thin client architecture  one of the first product 
+families to reach General Availability in the market with the “pure 
+Java” standard ¾ although an HTML client is in the wings to meet 
+the requirements of Windows 3.1 clients. 
+340.
+The TRADE’ex products provide automation for corporate 
+procurement intranets and extranets, as well as management of 
+virtual marketplaces for wholesalers, distributors, and market-
+makers.      The company has entered into content and supplier 
+management relationship with Requisite Technology, and is one of 
+the first companies to fully integrate the logistics capabilities of 
+UPS into its application family. 
+341.
+342. TSI Software, Inc..
+343.
+45 Danbury Road
+Wilton, CT 06897
+(203) 761-8600
+www.tsisoft.com
+344.
+345.
+TSI International is a supplier of system-to-system data 
+translation and EDI products.    Privately held, the company’s gross 
+revenues are estimated to be in the $18-22m range for the year 
+ending in December, 1996. One of the early participants in the EDI 
+market, TSI’s software is currently installed at over 10,000 sites.    It 
+has achieved significant market penetration in the health and 
+hospital marketplace through its management of the OnCall*EDI 
+program, a turnkey EDI procurement system developed in 
+cooperation with Baxter Healthcare, and has implemented a 
+number of large hub-and-spoke EDI programs in the computer 
+manufacturing sector, including the dealer networks for IBM, HP 
+and Compaq.    TSI’s Mercator product line is one of the leading data 
+translation systems in the market for linking business applications, 
+and is delivered on an OEM or VAR basis by a number of leading EC 
+and ERP application suppliers, including:    Actra, Connect, GEIS, 
+IBM, HP, American Express, Hyperion and Logility.
+72
+Electronic Commerce Practice Summary
+AberdeenGroup 
+346.
+347. US West !nterprise Network Services (!nteract 
+Network)
+348.
+1999 Broadway, Suite 500
+Denver, CO 80202
+(303) 896 0934
+349.
+US West !nterprise Network Services has established an 
+Internet-enabled electronic marketplace, !interact Procurement 
+Services, which serves as a electronic clearinghouse for US federal 
+government procurement interactions with potential suppliers and 
+selected vendors of goods and services to the government. 
+350.
+!interact Procurement Services provides potential suppliers 
+to the government with the ability to search the daily procurement 
+notices of the US government, issue formal electronic bids in 
+response to those notices and, subsequently, to receive electronic 
+PO’s, issue electronic shipment notices, and receive change orders, 
+using an underlying EDI protocol.    The service is a timely response 
+to the federal requirements for submission of invoices via EDI 
+which take effect this year. 
+351.
+352. VeriFone, Inc
+353.
+Three Lagoon Drive
+Redwood City, CA 94065-1561
+(650) 591-6500
+www.verifone.com
+354.
+VeriFone, a subsidiary of Hewlett Packard, is focused on 
+providing end-to-end Internet payment based upon SET and other 
+industry standards.    Over the long term, the company is better 
+positioned than most Internet-based payment companies because it 
+provides the hardware and software necessary for Internet sales, 
+conventional point-of-sale credit and debit card terminals, and 
+smart cards. 
+355.
+In the case of Internet payment, VeriFone is a software 
+company that was marketing its products as a financial service via 
+banks.    Considering the banks' relationships with their customers, 
+the channel strategy seems to make sense.    Conversely, CyberCash 
+73
+Electronic Commerce Practice Summary
+AberdeenGroup 
+is a financial services company (it charges a transaction fees for 
+revenue) that is marketing itself as a software company.    The 
+software sales model is winning more customers.    VeriFone 
+recognizes that the initial channel was not productive, and is 
+aggressively pursuing OEM relationships with all major suppliers 
+of commerce application platforms. 
+356. 24/7 Media
+357.
+300 Park Ave.,    19th Floor
+New York, NY    10022-7402
+(212) 752-3928
+www.petrynetwork.com
+358.
+24/7 Media is the result of a merger between Internet 
+advertising and on-line marketing firms Petry Interactive, Katz 
+Millennium Marketing, Interactive Imaginations, and the producers 
+of Riddler.com.    These firms, each influential market leaders in 
+their own way, bring strategic business practices together to form a 
+powerful interactive advertising sales network.    24/7 provides sites 
+with the full service ad network capabilities of campaign planning, 
+buying, trafficking and reporting while providing each individual 
+in the process access to real-time campaign management.    24/7 
+encourages advertisers to take advantage of the full network of 
+sites by performing run-of-site buys as well as to pin-point target 
+thosesites which represent their demographic target.    The 24/7 
+staff will assist media buyers in developing innovative and 
+effective advertising campaigns using banners, sponsorships, 
+buttons, and promotions.
+359.
+24/7’s strongest assets are its sales force and network sites.    
+In order to compete effectively in the wake that DoubleClick has 
+created, 24/7 needs to increase their marketing effort to help 
+advertisers see how 24/7 will deliver the best campaigns for their 
+advertising dollars.
+360.
+361. 7Software
+362.
+3045 Park Boulevard
+Palo Alto, CA 94306
+(650)367.7773
+www.7software.com
+74
+Electronic Commerce Practice Summary
+AberdeenGroup 
+363.
+7Software is a supplier of procurement automation.    The 
+company markets Company Store, which automates the purchasing 
+of MRO goods over corporate Intranets. 
+364.
+The Company Store was released to general availability in    
+Q1’98, and is the company’s first product. It supports a multi-
+supplier catalog with limited metadata and work flow management 
+capabilities as well as a full shopping basket and transactional 
+capability using messaging interfaces.    The product is based on a 
+Microsoft Site Server Commerce Edition foundation, and traces its 
+historic roots to a custom application developed by 7Software 
+founders for Microsoft’s internal procurement requirements. 
+365.
+75
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | ecprac~1-a7d0e4 |
+| title | Electronic Commerce: 1998 Practice Summary |
+| author | Aberdeen Group |
+| date | 1998-05-01 |
+| type | other-research |
+| subject_domain | electronic-commerce |
+| methodology | industry-analysis, market-overview |
+| source_file | ECPRAC~1.DOC |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+A comprehensive 1998 survey of the electronic commerce market covering internet sales, procurement, advertising, and payment systems. The report profiles more than 40 EC software vendors and CSPs, segments the EC market into six process categories, and provides strategic guidance on build-buy-outsource decisions. Aberdeen projects internet consumer sales growing to $10-15 billion by 2003 and internet advertising reaching $4.1 billion by 2000.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Landmark vendor landscape document capturing the nascent EC software market at a pivotal moment (1998); tracks over 60 companies and provides the first structured segmentation framework for electronic commerce applications. |
+| **Relevance** | high | E-commerce remains the dominant commercial channel; the segmentation framework (marketing/sales/procurement/distribution/customer-service/supply-chain) maps directly to modern commerce architecture; vendor assessments are historically significant. |
+| **Prescience** | high | Key predictions proved accurate: internet commerce displaced EDI as dominant B2B protocol; market consolidation occurred as predicted; Microsoft and IBM emerged as platform powers; CSP/outsourcing model became dominant (modern SaaS/cloud); internet advertising exceeded $4B well before 2000. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Internet advertising spend forecast (2000)
+- **Claimed:** $4.1 billion by year 2000
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 2:** Internet advertising infrastructure software market size forecast (2000)
+- **Claimed:** $400 million (est.)
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 3:** EDI vs internet commerce outlook
+- **Claimed:** EDI will continue as important form for high-volume structured B2B; internet commerce will become dominant over next decade
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 4:** EC market consolidation outlook
+- **Claimed:** Consolidation inevitable; not all suppliers will survive into next millennium
+- **Year:** 1998
+- **Confidence at time:** high
+
+
+### Entities Referenced (53)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| IBM Corporation | company | active |  |
+| Microsoft Corporation | company | active |  |
+| Netscape Communications Corporation | company | acquired | AOL (1999) |
+| Oracle Corporation | company | active |  |
+| GE Information Services (GEIS) | company | acquired | [DEFERRED] |
+| Sterling Commerce Inc. | company | acquired | [DEFERRED] |
+| Harbinger Corporation | company | acquired | [DEFERRED] |
+| Ariba Technologies Inc. | company | acquired | SAP (2012) |
+| BroadVision Inc. | company | public | BVSN (NASDAQ) |
+| Art Technology Group (ATG) | company | [DEFERRED] | [DEFERRED] |
+| Open Market Inc. | company | acquired | [DEFERRED] |
+| DoubleClick Inc. | company | acquired | Google (2008) |
+| Commerce One Inc. | company | dissolved |  |
+| CyberCash Inc. | company | dissolved |  |
+| SAP AG | company | active |  |
+| VeriFone Inc. | company | acquired | Hewlett-Packard (1997) |
+| ADSmart Corporation | company | [DEFERRED] | [DEFERRED] |
+| Accipiter Inc. | company | acquired | CMG/Engage Technologies |
+| AdKnowledge Inc. | company | [DEFERRED] | [DEFERRED] |
+| Aspect Development Inc. | company | acquired | [DEFERRED] |
+| Bellcore (Soliant Internet Systems) | company | acquired | [DEFERRED] |
+| BurstMedia | company | [DEFERRED] | [DEFERRED] |
+| Connect Inc. | company | [DEFERRED] | [DEFERRED] |
+| DigiCash Inc. | company | dissolved |  |
+| EC Verify Inc. | company | [DEFERRED] | [DEFERRED] |
+| ELEKOM Corporation | company | [DEFERRED] | [DEFERRED] |
+| First Virtual Holdings | company | dissolved |  |
+| Fulcrum Technologies Inc. | company | acquired | [DEFERRED] |
+| iCat Corporation | company | acquired | [DEFERRED] |
+| IMGIS Inc. | company | acquired | [DEFERRED] |
+| Intelligent Interactions Corporation | company | [DEFERRED] | [DEFERRED] |
+| Inex Corporation | company | [DEFERRED] | [DEFERRED] |
+| Intershop Communications Inc. | company | public | [DEFERRED] |
+| InterWorld Technology Corporation | company | acquired | [DEFERRED] |
+| Mercantec Inc. | company | acquired | [DEFERRED] |
+| NetGravity Inc. | company | acquired | [DEFERRED] |
+| OneSoft | company | [DEFERRED] | [DEFERRED] |
+| Real Media Inc. | company | acquired | [DEFERRED] |
+| Requisite Technology | company | acquired | [DEFERRED] |
+| SpaceWorks Inc. | company | [DEFERRED] | [DEFERRED] |
+| The EC Company | company | [DEFERRED] | [DEFERRED] |
+| TRADE'ex Electronic Commerce Systems Inc. | company | [DEFERRED] | [DEFERRED] |
+| TSI Software Inc. | company | acquired | [DEFERRED] |
+| US West Enterprise Network Services | company | [DEFERRED] | [DEFERRED] |
+| 24/7 Media | company | [DEFERRED] | [DEFERRED] |
+| 7Software | company | [DEFERRED] | [DEFERRED] |
+| Amazon.com | company | active |  |
+| AltaVista | company | acquired | [DEFERRED] |
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998) |
+| Ford Motor Cars | company | active |  |
+| Ingram Micro | company | active |  |
+| Tech Data Corporation | company | active |  |
+
+### Technologies Referenced (22)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Electronic Data Interchange (EDI) | protocol | Various | mature | legacy-supported |
+| TCP/IP | protocol | IETF | dominant | dominant |
+| HTTP | protocol | W3C | dominant | dominant |
+| World Wide Web / Internet | platform | IETF/W3C | emerging-dominant | dominant |
+| Java | language | Sun Microsystems | emerging | mature |
+| CORBA | framework | OMG | mature | legacy |
+| DCOM (Distributed COM) | framework | Microsoft | mature | legacy |
+| Extranet | platform | Various | emerging | mature |
+| Intranet | platform | Various | emerging | dominant |
+| Microsoft Site Server Commerce Edition | application | Microsoft | emerging | legacy |
+| IBM Net.Commerce | application | IBM | emerging | legacy |
+| Lotus Domino | application | IBM | mature | legacy |
+| Netscape CommerceXpert | application | Netscape | emerging | legacy |
+| Ariba ORMS (Operating Resource Management System) | application | Ariba | emerging | legacy |
+| OASIS (InterWorld) | framework | InterWorld | emerging | legacy |
+| Harbinger Trusted Link Procurement | application | Harbinger | emerging | legacy |
+| DoubleClick DART | application | DoubleClick | emerging | legacy |
+| Value-Added Network (VAN) | platform | Various | mature | declining |
+| SET (Secure Electronic Transaction) | protocol | Visa/Mastercard | emerging | legacy |
+| CyberCash Cash Register | application | CyberCash | emerging | legacy |
+| DigiCash ecash | application | DigiCash | emerging | defunct |
+| Sybase System 11 | application | Sybase | mature | legacy |
+
+### Observation Summary
+
+- Total observations: 30
+- By type: market-assessment: 11, competitive-assessment: 8, expert-opinion: 7, viability-prediction: 4

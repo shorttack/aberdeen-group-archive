@@ -1,0 +1,21 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+windows-2000,Windows 2000,platform,Microsoft,1993-2005,emerging,legacy-unsupported,1999pr~1-c5516b,Also called Windows NT 5.0; central focus of Infrastructure Services practice; released February 2000
+windows-nt,Windows NT,platform,Microsoft,1993-2000,mature,legacy-unsupported,1999pr~1-c5516b,NT 4.0 was current version; document treats NT and Windows 2000 as same practice area
+as400,IBM AS/400,platform,IBM,1988-2008,mature,legacy-supported,1999pr~1-c5516b,Cited in IBM Global Services profile; ~500000 systems installed as of 1999; renamed iSeries then IBM i
+unix,Unix,platform,multiple,1969-present,mature,active,1999pr~1-c5516b,Referenced as platform environment for infrastructure services
+erp,Enterprise Resource Planning (ERP),application,multiple,1990-present,growth,active,1999pr~1-c5516b,Umbrella term for Finance/Accounting/HR/Manufacturing packaged applications; key Aberdeen practice area
+sfa,Sales Force Automation (SFA),application,multiple,1990s-present,growth,active,1999pr~1-c5516b,Component of CIS practice; listed with call centers and data warehousing
+data-warehouse,Data Warehousing,application,multiple,1990s-present,growth,active,1999pr~1-c5516b,Cited as component of Data Knowledge/CIS practice area
+edi,Electronic Data Interchange (EDI),protocol,multiple,1970s-present,mature,legacy-active,1999pr~1-c5516b,Listed within Supply Chain services components
+e-business,E-Business / Electronic Commerce,application,multiple,1995-present,emerging,active,1999pr~1-c5516b,"IBM's central strategic initiative as of 1999; covers B2C, B2B, and internal process automation"
+internet,Internet,platform,multiple,1990s-present,growth,active,1999pr~1-c5516b,Cited as key enabler for e-commerce and training delivery; driving NOS evolution
+intranet-extranet,Intranet/Extranet,platform,multiple,1995-2005,emerging,legacy-active,1999pr~1-c5516b,Referenced in IBM e-business services and distance learning context
+distance-learning,Distance Learning / CBT,application,multiple,1990s-present,emerging,active,1999pr~1-c5516b,Key trend in Educational Services; includes CBT and internet-based instruction
+supply-chain-management,Supply Chain Management,application,multiple,1995-present,emerging,active,1999pr~1-c5516b,Linked to ERP practice area; includes EDI and partner-focused e-commerce
+os2-warp,IBM OS/2 Warp,platform,IBM,1987-2006,mature,legacy-unsupported,1999pr~1-c5516b,Mentioned as IBM platform in Global Services context
+mainframe,Mainframe Systems,platform,IBM,1960s-present,mature,active,1999pr~1-c5516b,IBM heritage platform; cited in outsourcing and systems integration context
+tivoli,Tivoli (network management),application,IBM,1992-present,growth,active,1999pr~1-c5516b,IBM-owned product; cited as key network management toolset for IBM Global Services
+lotus-workgroup,Lotus Workgroup Solutions,application,IBM/Lotus,1989-2013,mature,legacy-unsupported,1999pr~1-c5516b,IBM-owned; cited as IBM Global Services deployment strength
+db2,DB2,application,IBM,1983-present,mature,active,1999pr~1-c5516b,Listed among IBM software products in professional services context
+call-center,Call Center Technology,application,multiple,1990s-present,growth,active,1999pr~1-c5516b,Component of CIS practice; linked to SFA and data warehousing
+cap,Commerce Application Platforms (CAPs),application,multiple,1995-2005,emerging,unknown,1999pr~1-c5516b,Listed in Supply Chain / EC practice area description

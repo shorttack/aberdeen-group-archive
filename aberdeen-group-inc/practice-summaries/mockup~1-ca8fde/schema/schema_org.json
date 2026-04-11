@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Network Operating Systems: 1998 Practice Summary \u2014 Mockup/Template",
+  "description": "A draft/skeleton version of Aberdeen Group's Network Operating Systems (NOS) 1998 Practice Summary, covering the competitive landscape among Novell NetWare, IBM OS/2 Warp Server, and Microsoft Windows NT Server. The document includes a table of contents, preface with strategic market questions, and abbreviated supplier abstracts for IBM, Microsoft, and Novell \u2014 but substantive body content is largely absent or placeholder. The strategic questions posed reflect the pivotal moment when Microsoft NT Server was rapidly displacing legacy NOS vendors.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,16 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,securi~1-3e7ced,Author; Boston-based market research and consulting firm.
+axent-technologies,Axent Technologies,company,Network Security Software,unknown,unknown,1989-2000,securi~1-3e7ced,Network security management software; supplier abstract included. Acquired by Symantec 2000.
+bull-worldwide-systems,Bull Worldwide Systems,company,Enterprise IT / Security,unknown,unknown,1990s,securi~1-3e7ced,Multinational IT company with enterprise security offerings; supplier abstract included.
+check-point-software,Check Point Software Technologies Ltd.,company,Network Security,active,,1993-present,securi~1-3e7ced,Leading firewall and VPN vendor; supplier abstract included.
+entrust-technologies,Entrust Technologies,company,PKI / Identity Management,unknown,unknown,1994-present,securi~1-3e7ced,PKI and digital certificate infrastructure; supplier abstract included.
+gemplus,Gemplus,company,Smart Card / Identity,unknown,unknown,1988-2006,securi~1-3e7ced,Smart card manufacturer; identity credentials; supplier abstract included.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,split,HP Inc./HPE (2015),1939-present,securi~1-3e7ced,Enterprise security solutions; supplier abstract included.
+ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,securi~1-3e7ced,Enterprise security products; supplier abstract included.
+internet-security-systems,Internet Security Systems Inc. (ISS),company,Intrusion Detection / Security,unknown,unknown,1994-2006,securi~1-3e7ced,Network scanning and intrusion detection; supplier abstract included. Acquired by IBM 2006.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,securi~1-3e7ced,Security components embedded in OS and platforms; cited re 'Microsoft of security' question.
+network-associates,Network Associates Inc.,company,Enterprise Security,unknown,unknown,1997-2004,securi~1-3e7ced,Anti-virus and network security vendor (McAfee/PGP merger); supplier abstract included. Renamed McAfee 2004.
+security-dynamics,Security Dynamics Technologies Inc.,company,Authentication / Token Security,unknown,unknown,1984-1999,securi~1-3e7ced,RSA SecurID token authentication; supplier abstract included. Merged with RSA Data Security to form RSA Security 1999.
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware/Software,acquired,Oracle (2010),1982-2010,securi~1-3e7ced,"Enterprise security solutions (Java, Solaris); supplier abstract included."
+symantec,Symantec,company,Enterprise Security Software,active,,1982-present,securi~1-3e7ced,Anti-virus and desktop security; supplier abstract included.
+verisign,VeriSign,company,Internet Infrastructure / Security,unknown,unknown,1995-present,securi~1-3e7ced,Digital certificate and PKI services; supplier abstract included.

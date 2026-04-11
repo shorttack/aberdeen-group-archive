@@ -1,0 +1,485 @@
+# Expanding the Data Knowledge Practice
+
+> Archived from: market-overview
+> Original publication date: 2000-01-01
+> Author: Bob Moran
+
+---
+
+## Original Document Text
+
+Project #
+Aberdeen Group
+Boston Palo Alto Amsterdam
+www.aberdeen.com
+Expanding the Data Knowledge 
+Practice
+Presented by:
+ Bob Moran
+Research Vice President, Managing Director,
+Decision Support Research
+2
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Practice Definition
+• The Data Knowledge practice offers suppliers 
+and end-user organizations a comprehensive 
+understanding of information access, with 
+particular attention to systematic use of the 
+core decision support and knowledge 
+management technologies in the context of the 
+Web, intranets, the Internet, and enterprise 
+business applications.  The practice focuses on 
+the business value of these tools, especially 
+their role in helping management steer the 
+enterprise according to the mandates of the 
+governance board.
+3
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Core Data Knowledge Technologies
+• Data warehouses
+• Data marts
+• Query/reporting/
+analysis software
+• Enterprise reporting
+• Report mining
+• Online analytical 
+processing (OLAP) 
+software
+• Data quality and 
+enrichment software
+• Data transformation 
+software 
+• Analytical applications
+• Data mining & 
+Personalization
+• Web content management 
+• Web traffic analysis 
+• CRM (database marketing 
+and analysis) 
+• Metadata
+4
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Strategic Market Questions
+• Are end-user organizations justified in waiting 
+for vertical solutions? 
+• Will analytical applications prepare the 
+enterprise to battle competitors that are using a 
+more customizable solution?  
+• What is the value proposition of high-end, 
+analytically driven, customer relationship 
+marketing software?
+5
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Key Market Trends
+•
+Acceptance of data knowledge technologies reduces the base cost of 
+DSS to end-user organizations but increases the population of users; 
+encourages changes to supplier pricing; and prompts apex software 
+suppliers to acquire smaller companies and push goods across robust 
+channels.
+
+Leading-edge companies use analysis as a competitive weapon to 
+change the way they do business and compete for customers.
+
+Suppliers begin to embed analytical components within applications, 
+but still fail to standup to the vertical-industry challenge.
+•
+The Web has encouraged companies to assume that business 
+requires gathering external information. Because most enterprises do 
+not have applicable integration experience, third-party suppliers must 
+be prepared to instruct enterprises in best data practices.
+6
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Oracle
+• Primary Concern
+– Sell more databases by
+applying ease of use, cost
+reductions, and analytic
+functions to up- &
+cross-sell existing customers
+and convert file-systems 
+shops to database shops
+• Secondary Concern
+– Thwart Microsoft
+Messages
+The Oracle 8i-driven warehouse
+ is the center of the e-business
+universe
+Good enough for all  BI 
+Build logically, implement 
+automatically
+Select from 81  warehouse 
+schemas, automatically
+inherit performance indicators
+for finance, operations,  sales,
+marketing,  purchasing
+Embedded functionality-- data
+mining, campaign management,
+multidimensionality-- creates a 
+database appliance 
+ 
+Messages
+The Oracle 8i-driven warehouse
+ is the center of the e-business
+universe
+Good enough for all  BI 
+Build logically, implement 
+automatically
+Select from 81  warehouse 
+schemas, automatically
+inherit performance indicators
+for finance, operations,  sales,
+marketing,  purchasing
+Embedded functionality-- data
+mining, campaign management,
+multidimensionality-- creates a 
+database appliance 
+ 
+7
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Cognos
+• Primary Concern
+– Microsoft
+• Strengths
+– Large installed base
+– Large OEM channel
+– Can and does tactically
+acquire,strategically 
+integrate 
+• Should be wary of Oracle
+Facts
+Facts
+Fiscal 1999 revenue: $301M 
+Q3 revenue — $83.7M 
+50% of new BI licenses are for 
+use in e-business
+Manufactures & markets 
+Reporting, analysis, query,
+ visualization software; as well 
+a software environment for 
+building data marts that have
+shared dimensions 
+Large OEM channel, including ERP,
+call center, SFA, Essbase
+Back bone technologies for 
+scorecards, known performance 
+ indicators,  (KPIs),  visualizations, 
+portal,  data marts, applications 
+Building financial, marketing
+ and sales applications 
+ 
+Facts
+Facts
+Fiscal 1999 revenue: $301M 
+Q3 revenue — $83.7M 
+50% of new BI licenses are for 
+use in e-business
+Manufactures & markets 
+Reporting, analysis, query,
+ visualization software; as well 
+a software environment for 
+building data marts that have
+shared dimensions 
+Large OEM channel, including ERP,
+call center, SFA, Essbase
+Back bone technologies for 
+scorecards, known performance 
+ indicators,  (KPIs),  visualizations, 
+portal,  data marts, applications 
+Building financial, marketing
+ and sales applications 
+ 
+8
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Acxiom
+• Primary Problem
+– Web cannibalizing rather
+than nurturing business
+– Only moderate success in 
+CRM
+– Lost project by project 
+revenues
+• Secondary Problem
+– Startups package
+same data but reduce hassle
+Messages
+Pinging for enrichment data
+ minimizes cost and duration
+ of batch projects
+Standardizing and enriching
+data about customers is a 
+mandatory underpinning for
+CRM applications
+Financials
+$730 million in revenue (FY99)
+53% gross profit margin
+30% of revenue coming
+from Internet data services
+Messages
+Pinging for enrichment data
+ minimizes cost and duration
+ of batch projects
+Standardizing and enriching
+data about customers is a 
+mandatory underpinning for
+CRM applications
+Financials
+$730 million in revenue (FY99)
+53% gross profit margin
+30% of revenue coming
+from Internet data services
+9
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Market Snap: Tools
+Core Tools
+1999
+2000
+2002
+2003
+CAGR
+Query and
+Reporting
+985
+1,320
+1,769
+2,370
+34%
+Enterprise
+Reporting
+193
+305
+482
+761
+58%
+OLAP
+859
+1,194
+1,660
+2,307
+39%
+Ann Apps
+543
+728
+976
+1307
+34%
+Data mining
+66
+89
+102
+118
+15%
+Content
+Management
+821
+1,100
+1,485
+2,004
+35%
+Web traffic
+Analysis
+30
+40
+72
+131
+81%
+Personalization
+27
+36
+68
+129
+89%
+Data quality &
+enrichment
+4,742
+5,880
+7,291
+9,041
+24%
+Total
+8,266
+10,692
+13,905
+18,168
+45%
+10
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Market Snap: Infrastructure
+BI Infrastructure 1999
+2000
+2001
+2002
+CAGR
+Data Warehouse
+984
+1,250
+1,588 2,016 27%
+Data mart
+132
+188
+269
+384
+43%
+ETL
+117
+138
+163
+192
+18%
+Total
+1,233 1,576
+2,020 2,592 29%
+11
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Primary Analyst Coverage
+Core Tools
+Creese
+Sheina
+Moran
+Query and Reporting
+*
+*
+Enterprise Reporting
+*
+*
+OLAP
+*
+*
+Ann Apps
+*
+*
+Data mining
+*
+*
+Content & Knowledge
+Management
+*
+*
+Web traffic Analysis
+*
+*
+*
+Personalization
+*
+*
+Data quality & enrichment *
+Note: the breakdown has training and geographic assumptions
+12
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Beat Breakdown
+Creese
+Sheina
+Moran
+CRM Analytics
+*
+Data Warehouse
+*
+*
+Data mart
+*
+*
+Metadata
+*
+ETL
+*
+Note BI infrastructure must be understood from a vertical industry perspective.  Analysts will use the infrastructure to develop vertical
+expertise and suffuse the practice with that understanding
+13
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Expansion Strategy
+• Add retainers via new analysts
+– Retain, cross- and up-sell retainers
+– Average of one 10K written project per current 
+retainers = 250K
+• Increase cross-group productivity
+beyond established relationships with
+– CRM, SCM, CPC
+• Personalization report (pronto) via factory
+• Increase e-activity via e. learning &
+e. profiles (first steps with Cognos)
+• Increase use of spec. pieces 
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | data-know-69ab04 |
+| title | Expanding the Data Knowledge Practice |
+| author | Bob Moran |
+| date | 2000-01-01 |
+| type | other-research |
+| subject_domain | data-management |
+| methodology | industry-analysis |
+| source_file | market-overview |
+| license | Internal Aberdeen Group presentation by Research VP Bob Moran proposing expansion of the Data Knowledge practice covering decision support and knowledge management technologies (data warehouses, OLAP, query/reporting, data mining, CRM analytics, content management, personalization, and ETL). Includes market sizing data for 1999-2003 showing the total core tools market growing from $8.3B (1999) to $18.2B (2003) at 45% CAGR, and BI infrastructure from $1.2B to $2.6B at 29% CAGR. Also features vendor presentations from Oracle, Cognos, and Acxiom with financial data and strategic positioning. |
+
+### Abstract
+
+data know.ppt
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | CC-BY-4.0 | medium |
+| **Relevance** | Rare internal Aberdeen strategy document revealing how the firm planned to expand coverage of decision support and BI; includes vendor-disclosed financials and market sizing data from 2000. | high |
+| **Prescience** | BI/analytics market dynamics described (OLAP data mining personalization CRM analytics) are foundational to modern data analytics and cloud BI markets still active today. | high |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (8)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
+| Bob Moran | person | unknown | [DEFERRED] |
+| Oracle Corporation | company | active | [none] |
+| Cognos Inc. | company | dissolved | IBM |
+| Acxiom Corporation | company | active | LiveRamp Holdings |
+| Microsoft Corporation | company | active | [none] |
+| Creese (Aberdeen analyst) | person | unknown | [DEFERRED] |
+| Sheina (Aberdeen analyst) | person | unknown | [DEFERRED] |
+
+### Technologies Referenced (13)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Data Warehouse | platform | various | mainstream | active |
+| Data Mart | platform | various | mainstream | active |
+| ETL (Extract Transform Load) | application | various | mainstream | active |
+| Online Analytical Processing (OLAP) | application | various | mainstream | active |
+| Query and Reporting Software | application | various | mainstream | active |
+| Enterprise Reporting | application | various | mainstream | active |
+| Analytical Applications | application | various | emerging | active |
+| Data Mining | application | various | mainstream | active |
+| Web Content Management | application | various | emerging | active |
+| Web Traffic Analysis | application | various | emerging | active |
+| Personalization Software | application | various | emerging | active |
+| Data Quality and Enrichment Software | application | various | mainstream | active |
+| Oracle 8i | application | Oracle | early-commercial | obsolete |
+
+### Observation Summary
+
+- Total observations: 21
+- By type: market-assessment: 16, competitive-assessment: 4, expert-opinion: 1

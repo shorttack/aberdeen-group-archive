@@ -1,0 +1,1262 @@
+# Systems and Network Management: 1998 Practice Summary
+
+> Archived from: SYSTEM~1.DOC
+> Original publication date: 1998-05-01
+> Author: Aberdeen Group
+
+---
+
+## Original Document Text
+
+AberdeenGro
+up
+Systems and 
+Network 
+Management:
+1998 
+Practice 
+Summary
+May 1998
+Aberdeen Group, Inc.
+One Boston Place
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Boston, Massachusetts 02108 
+USA
+Telephone: 617 723 7890
+Fax: 617 723 7897
+www.aberdeen.com
+2
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Aberdeen Group, Inc.
+Aberdeen Group is a Boston-based, computer and 
+communications consulting and market-research 
+organization.
+Aberdeen Group performs specific projects for a select 
+group of domestic and international clients.    Each requires 
+a combination of strategic advice and pragmatic, 
+experience-based action plans.    Assignments range from 
+corporate and product positioning and organizational 
+planning to in-depth market segment research.    Aberdeen 
+consults on mergers and acquisitions, corporate positioning 
+and investor relations, transaction-processing benchmarks, 
+and has special expertise in software and midrange    
+computer markets.
+In carrying out assignments, Aberdeen uses a proprietary, 
+comprehensive, analytical framework providing fresh 
+insight into the complex future of computing and 
+communications, both from a technological and a market- 
+dynamics perspective.    Aberdeen also offers retainer-fee 
+programs to a group of continuing clients.
+Aberdeen principals and staff are recognized industry 
+figures with hundreds of years of combined high-tech 
+industry, research and financial community experience 
+among them.    They are quoted extensively in industry trade 
+and business publications.    Each is a frequent conference 
+and seminar speaker.
+In addition to client-related research and consulting, 
+Aberdeen publishes several periodicals, Aberdeen 
+Viewpoints and Profiles, which summarize its analysis and 
+research findings.
+Information contained in this publication has been obtained from 
+sources we believe to be reliable, but is not warranted by us.    Opinions 
+reflect judgment at the time and are subject to change without notice.
+3
+Systems and Network Management Practice Summary
+AberdeenGroup 
+The trademarks and registered trademarks of the corporations 
+mentioned in this publication are the property of their respective 
+holders.
+Warning:    This publication is protected by United States copyright law 
+and international treaties.    Unless otherwise noted, the entire contents 
+of this publication are copyrighted by Aberdeen Group, Inc., and may not 
+be reproduced, stored in a retrieval system, or transmitted in any form 
+or by any means without prior written consent.    Unauthorized 
+reproduction or distribution of this publication, or any portion of it, may 
+result in severe civil and criminal penalties, and will be prosecuted to the 
+maximum extent necessary to protect the rights of the publisher. 
+© 1998 Aberdeen Group, Inc., Boston, Massachusetts
+4
+Systems and Network Management Practice Summary
+AberdeenGroup 
+TABLE OF CONTENTS
+ABERDEEN’S SYSTEMS AND NETWORK MANAGEMENT 
+PRACTICE
+V
+Description, Focus and Benefits
+v
+Strategic Market Questions
+v
+EXECUTIVE SUMMARY
+1
+Key Findings:
+1
+SUMMARY OF FINDINGS
+3
+SYSTEMS AND NETWORK MANAGEMENT DEFINED
+5
+How Systems and Network Management Fits into Network Services
+5
+Core Systems and Network Management Components
+5
+Network Management
+5
+Systems Management
+7
+Application Management
+9
+How An Integrated Enterprise Management System Works
+9
+Business Benefits of Integrated Enterprise Management
+10
+ISSUES AND CHALLENGES
+11
+Impact of Major IT Trends
+11
+Supplier Success Factors
+13
+User Success Factors
+14
+SUPPLIER ABSTRACTS
+16
+BMC Software, Inc.
+16
+Boole & Babbage
+17
+5
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Bull HN International
+17
+Cabletron Systems Inc.
+18
+Candle Corporation
+19
+Computer Associates
+19
+Hewlett-Packard, Company
+20
+IBM/Tivoli
+21
+Landmark Systems Corporation
+21
+Platinum Technology
+22
+6
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Preface
+Aberdeen’s Systems and Network 
+Management Practice 
+Description, Focus and Benefits
+The Systems and Network Management practice focuses on systems 
+management solutions that combine system and network 
+management functions to aid administrators in maintaining a 
+computer network, plus application management solutions that aid 
+administrators in maintaining the applications running on the 
+network.    The Systems, Network, and Application Management 
+practice especially focuses on the new systems and application 
+management suites that use intelligent agents to provide a broad, 
+integrated view of the network and automate many administrative 
+tasks with minimal network and system overhead.
+Both sets of solutions are increasingly key to enterprise planners’ 
+efforts to drive down administrative costs and more effectively 
+support and scale competitive-advantage applications in a time of 
+rising network complexity and scarce resources.    However, to 
+succeed in continuing to drive down costs and increasing 
+application availability in the face of increasing administrative 
+complexity, users must seek out the right tool for particular key 
+applications and integrate it effectively with a broad systems 
+management suite.    Thus, Aberdeen emphasizes careful analysis 
+of both systems and application management solutions to 
+determine the degree to which they not only fix but anticipate 
+application problems, as well as their degree of integration with 
+each other.
+As the grease that keeps an enterprise network going, Systems, 
+Network, and Application Management solutions are key to 
+Aberdeen’s Network Services practice.    Moreover, these solutions 
+hold the potential of allowing networks to adapt flexibly to new 
+needs and technologies by stretching present resources, without 
+costly additional hardware and software.
+Strategic Market Questions
+7
+Systems and Network Management Practice Summary
+AberdeenGroup 
+1. Will CA-Unicenter dominate the systems management 
+market, or will upcoming Tivoli enhancements make it a 
+stronger competitor? 
+2. How long will it take for systems and application 
+management solutions to integrate effectively so that each 
+can leverage the other’s data? 
+3. Are the new messaging and packaged-application 
+administration tools up to the job? 
+4. What are the key factors in successful Internet/Intranet 
+administration? 
+8
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Chapter One
+Executive Summary
+Aberdeen uses the designation ‘Systems and Network 
+Management’, or Enterprise Management (sometimes called 
+‘Enterprise Systems Management,’ or even simply ‘Systems 
+Management’) to denote the software supporting the activities 
+involved in managing a computing infrastructure.    These activities 
+include monitoring, problem detection/analy-sis/correction, 
+maintenance, and upgrade of all of the enterprise’s computing and 
+networking resources — from PCs to mainframes, from local disks 
+to geographically far-flung servers, and from hardware to 
+packaged applications.    Systems and Network Management 
+concentrates on the status, performance, security, availability, and 
+allocation of Information Technology resources, both in isolation 
+and as part of the larger working whole.
+The Aberdeen Systems and Network Management practice is made 
+up of three broad domains, each itself comprised of further 
+specialized functions:
+·
+Network management;
+·
+Systems management; and,
+·
+Application management.
+While the technology in each of these domains differs, each 
+functions in concert with the others to support an enterprise’s IT.    
+Increasingly, a company’s ability to do business at all, never mind 
+effectively compete, is only as strong as its IT infrastructure is 
+healthy.    Thus, the effective integration of network management, 
+systems management, and application management is increasingly 
+key to an enterprise’s long-term success.
+Key Findings:
+·
+The systems and network management market has bifurcated 
+into distinct camps.    Computer Associates and Tivoli lead the 
+way in the Framework camp:    cross-platform solutions share 
+data in a common repository and share a common presentation 
+style.    ‘Best-of-Breed’ is the rallying cry from a host of 
+providers, led by Hewlett-Packard.    Framework proponents 
+1
+Systems and Network Management Practice Summary
+AberdeenGroup 
+decry the lack of efficiency inherent in a series of point 
+solutions, however well thought out.    The best-of-breed crowd 
+point to the overhead and danger of vendor lock-in in a one-
+size-fits-all approach to systems and network management.
+·
+Internet technology has redefined ‘enterprise network’ to 
+include Intranets and Extranets, raising the urgency of 
+managing security, managing remotely, and planning capacity 
+proactively.      In security, increased exposure to cunning new 
+viruses is a major headache for most IT shops.    In remote 
+management, the Internet has brought new abilities to manage 
+systems and networks across a potentially far-flung geography 
+from a central location.    In capacity planning, users are finding 
+that sizing resources to fit an ever-changing and unpredictable 
+resource usage pattern is a larger challenge than ever before.
+·
+The management of applications is the fastest growing segment 
+of enterprise management.
+·
+The continued trend of Service Level Agreement (SLA) adoption 
+will create market opportunity for start-up companies offering 
+innovative point solutions that support measurement and 
+reporting of SLA compliance.
+·
+Aberdeen anticipates aggressive and innovative product and 
+marketing assaults on an aging installed base of previous-
+generation network management solutions.
+·
+Aberdeen expects to see a rise in the application of artificial 
+intelligence technology (pattern recognition capability and 
+expert system solutions) to management solutions, first in 
+network management and then on behalf of systems and 
+application management.
+Today’s systems and network management solutions can stabilize 
+the computing infrastructure in geographically distributed 
+enterprises with multiple IT suppliers towards the level of 
+reliability in the datacenter.    Aberdeen research shows that 
+decreasing the “overhead” of poorly functioning or non-
+functioning systems via effective systems and network 
+management leads to increased organizational productivity, 
+competitive advantage, and major improvements in an 
+organization’s bottom line.
+In This Report
+The intended audience includes:    the IT buying community, 
+suppliers of Enterprise Management solutions, the investment 
+2
+Systems and Network Management Practice Summary
+AberdeenGroup 
+community (venture and advisory), and non-IS Executives charged 
+with strategic IT decision making.
+3
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Chapter Two
+Summary of Findings
+Key Aberdeen Findings
+·
+Supplier Sources — The majority of Enterprise Management 
+products and offerings now come from third parties.    There are 
+too many excellent product possibilities available today for any 
+resource-stretched IS group to justify a primarily inhouse-built 
+management strategy.    However, Aberdeen research does show 
+that almost all IS organizations in large enterprises augment 
+purchased solutions with a combination of home grown point 
+enhancements and customization.
+·
+Professional services — Few enterprises embark on constructing 
+large-scale enterprise management solutions without planning 
+and implementation assistance from third parties.    System 
+integrators, consultants, and ISV professional service personnel 
+are used extensively in the initial stages of implementation.    
+The need for professional services arises less from lack of 
+product ‘user-friendliness’ than from the sophistication and 
+complexity of the product sets.    Careful preplanning of such 
+multi-faceted and layered capabilities as automatic, enterprise-
+wide, policy-based administration can be the difference 
+between competitive advantage and disaster.
+·
+Product Approach — Today’s primary line of demarcation in 
+suppliers’ approaches to Enterprise Management is Framework 
+vs. Best-of-Breed.    Characteristics of a Framework include a 
+consistent user interface across products and functions, and a 
+common database or central repository that can be accessed by 
+all management functions.    The two leading proponents of 
+Framework-oriented enterprise management are Computer 
+Associates (Unicenter TNG), and IBM’s Tivoli (TME).    The Best-
+of-Breed crowd advocates a building block approach to systems 
+and network management in which an organization rigorously 
+maps a product’s functionality to specific requirements.    This 
+approach includes such suppliers as Hewlett-Packard, Bull, 
+Platinum, BMC, Candle, and Sterling Software.
+·
+Framework acceptance will continue to spread through 
+organizations, but will leave plenty of market real estate for 
+best-of-breed competitors.
+4
+Systems and Network Management Practice Summary
+AberdeenGroup 
+·
+Market Growth — The Enterprise Management software market 
+is growing at close to 20% annually.    While large-scale systems 
+management and network management still command the lion’s 
+share of the market, all elements of the market are growing.    
+Aberdeen foresees accelerated growth in the Application 
+Management/Measurement market as well as a favorable 
+climate for solutions that are proactive rather than reactive in 
+nature.    Solutions simplifying User Management (e.g., setting 
+up and administering by groups/profiles, or license 
+management) and Directory Service Management are also 
+strong growth areas.
+·
+Role of Partnerships — Partnerships are critical for success in 
+this market.    Few suppliers have either deep enough pockets or 
+sufficient market presence to unblushingly claim that they 
+could be all things to all organizations.    Of the few who do 
+make that claim, all actively partner with companies that offer 
+specialized products.    Likewise, Best-of-Breed suite providers 
+and point product suppliers alike partner with each other as 
+well as with framework giants.
+·
+Decision Makers — Aberdeen finds that much of the buying 
+process for solutions still remains localized at the operational 
+level.    Narrow product suites and point products are typically 
+bought by Line of Business managers and IS functional area 
+managers. However, while recommendations for large-scale 
+solutions come from the operational ranks, enterprise-wide 
+strategic decisions are made by senior IS managers and CIOs.
+·
+Buying Criteria — In a series of face-to-face interviews with CIOs 
+of Fortune 100 companies, Aberdeen found that the number one 
+buying criterion for systems and network management 
+products is suitability to task.    This is true whether discussing 
+point products, suites, or any all-inclusive solution.    IT buyers 
+are willing to sacrifice a small degree of second-tier 
+functionality in exchange for effective integration (synergy 
+between products, efficiencies, ease-of-use, reduced number of 
+consoles required, event correlation and filtering), but will only 
+make small concessions.    Other criteria include time to value 
+(ease of implementation), professional services available, and 
+product vision/future. The larger and more strategic an 
+implementation will be, the more a company’s market strength 
+and financial help come into the buying decision process.
+·
+At the high end, the market is increasingly price insensitive.    
+This trend reflects enterprises’ growing realization that the 
+5
+Systems and Network Management Practice Summary
+AberdeenGroup 
+success or failure of systems and network management directly 
+impacts a company’s ability to conduct business and compete in 
+its own market.
+6
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Chapter Three
+Systems and Network Management Defined
+How Systems and Network Management Fits into Network 
+Services
+Systems and Network Management is a broad category of primarily 
+software-based solutions for managing all aspects of an enterprise 
+computing infrastructure – network, systems, and applications.    As 
+business applications become more agile and distributed, their 
+effectiveness requires unhindered movement across an 
+increasingly open, distributed, and heterogeneous landscape.
+With Internet technology now pervasive, users expect quick and 
+transparent access to IT resources anywhere in the world.    
+Increasingly, that expectation is quantified in specific Service Level 
+Agreements that turn users into clients, and IS organizations into 
+competitively honed service providers.
+Systems and Network Management applications are used to keep 
+the computing infrastructure up and running across and beyond 
+the enterprise.    At a bare minimum, this means maintaining 
+stability.    More often it means managing scalability, availability, 
+performance, and flexibility in all aspects of an enterprise’s 
+Network Services.
+Core Systems and Network Management Components
+Core systems and network management components include:
+5. Network Management;
+6. Systems Management; and,
+7. Application Management.
+Network Management
+Network management monitors and controls the network links 
+between systems in an enterprise.    This includes all physical 
+connections and connection devices that go into making up a 
+network (such as hubs, routers, cabling, switches, modems, and 
+multiplexers).    Focusing on the lower levels of the ISO, SNA, and 
+TCP/IP models (physical and logical connectivity layers), network 
+7
+Systems and Network Management Practice Summary
+AberdeenGroup 
+management does not address issues pertaining to higher-level 
+application services.
+Other than an ‘are you there? ping’, the lowest common 
+denominator in enterprise network management today is the 
+Simple Network Management Protocol (SNMP).    SNMP is an 
+application layer protocol that facilitates the exchange of 
+management information between network devices.    SNMP is 
+designed to cover only the basics of TCP/IP network management.    
+As networks and enterprises continue to evolve rapidly, network 
+management solutions based on SNMP technology come face to 
+face with the limitations inherent in its design.
+While network management is a well-defined discipline, it is 
+undergoing rapid change. Internet technology is the driving force 
+as well as the primary enabler of that change, dynamically 
+redefining the boundaries of the network and the meaning of the 
+‘enterprise’ itself.    At the same time, businesses are demanding 
+higher-than-ever network availability of 99+% as a minimum 
+standard of acceptable service, raising the bar for network 
+management software.
+Other components of network management include:
+8. Topology Management – identifying and displaying the 
+elements of the network and their interconnections, or 
+“topology”.
+9. Status Monitoring – At a minimum, management 
+systems detect when a network device such as a hub or 
+router fails and report the failure to a network manager.    
+Increasingly, management systems are able go beyond 
+simple reporting to take corrective action upon detection 
+of a fault.
+10.Network Performance Monitoring and Management – 
+Both real-time and historical monitoring of network 
+performance provide quantitative information on the 
+status of network services.    Historical data establishes 
+trend information that is useful in predictive and 
+proactive network management.    Trend information 
+provides a quantitative basis for intelligently acquiring or 
+allocating network resources.    It can also be used to 
+inform real-time systems and establish performance 
+thresholds.
+The performance management system may also diagnose 
+and fix a problem, issue a trouble ticket, page or e-mail a 
+network manager, or forward an alert.    Performance 
+8
+Systems and Network Management Practice Summary
+AberdeenGroup 
+information is used to reallocate network resources (such 
+as bandwidth) from overburdened to underutilized 
+network segments for effective load balancing.
+11.Event Correlation and Management – Network 
+management applications receive, log, process and act 
+upon a continuous stream of events.
+12.Trouble Ticketing – In order to track and manage 
+problems, trouble ticketing software assigns 
+responsibility for each specific event or problem and 
+follows it through to resolution.
+Systems Management
+When computers lived in “glass-house” datacenters, systems 
+management handled a strictly bounded world.    Today, when a 
+system can live anywhere – in a glass house or in a coat pocket – 
+the definition of systems management is changing almost as 
+quickly as the enterprise itself.    Distributed applications, 
+indifferent to geographic and vendor boundaries, demand that the 
+reliability associated with the mainframe environment be 
+replicated in a systems environment that is exponentially more 
+complex than ever before.    The rate of change shows no signs of 
+slowing.
+Elements of Systems Management include:
+13.Software Distribution and Management — One of the 
+most time-consuming activities in systems management is 
+the delivery, installation, and upkeep of software in a 
+distributed enterprise.    Business applications, operating 
+systems, databases, office automation products, and web 
+browsers across multiple hardware, network, and 
+operating platforms must be constantly maintained and 
+refreshed.    Thus, successful software deployment must 
+be preceded by an accurate hardware and software 
+inventory of all destination servers and desktops.
+In recent years, Desktop Management has emerged as a 
+specialized discipline to deal with the wasteland of 
+expended energy that the PC can be.    With the advent of 
+the DMI (Desktop Management Interface) protocol from 
+the Desktop Management Taskforce (DMTF), as well as 
+other open standards, desktop management will 
+increasingly be brought back into the province of 
+enterprise management.
+9
+Systems and Network Management Practice Summary
+AberdeenGroup 
+14.Storage Management — With heterogeneous storage 
+devices, storage networks, communications protocols, and 
+links to applications and operating systems to deal with, 
+ensuring adequate performance, availability, and upgrade 
+of disk and tape storage is no simple matter.    And 
+Internet technology has caused an explosion of storage 
+capacity, making matters yet more complex.    Aberdeen 
+has a practice dedicated to the Storage Management 
+space.
+Disaster Recovery — although in the past this was a 
+separate solution, increasingly Disaster Recovery is 
+included under the Systems Management umbrella.    
+Disaster Recovery aims to handle extreme disaster – loss 
+of business-critical data or obliteration of a computing 
+center.    Policies, procedures, and products are put in 
+place that correspond to the degree of criticality that a 
+particular data loss represents for a given organization.    
+In all cases, the more automated and routine the backup 
+procedures are, the higher the likelihood of total recovery 
+in the face of disaster.
+Output Management — The goal of output management is 
+to enable output to any endpoint, by any means, inside or 
+outside the enterprise.    Delivery vehicles include e-mail, 
+fax, networks, and printers.    Endpoints include legacy 
+systems, laptops, and everything in between.
+Systems Performance Monitoring and Management — 
+Performance monitoring and management specifically 
+focuses on improving application and overall 
+performance, not on keeping the system running.    Today, 
+specialized software for monitoring system variables 
+quantifies performance both in real-time and historically. 
+Trend analysis, developed over time, can be applied real-
+time to predictively and proactively manage system 
+performance.
+Job Scheduling — The question of what jobs run where and 
+when is not new:    robust job scheduling tools harken 
+back to the earliest mainframes.    However, scheduling 
+execution across a distributed client-server enterprise 
+requires that the same question be answered in a 
+profoundly more complex environment.    Going well 
+beyond traditional batch job scheduling, today’s dynamic 
+workload management has the ability to act as a network-
+10
+Systems and Network Management Practice Summary
+AberdeenGroup 
+level operating system, turning an IT infrastructure into a 
+‘virtual mainframe’.
+15.Security Management – In ranking top IS manager 
+priorities, system security comes in just below the threat 
+of Year 2000 in importance.    The heterogeneous and 
+distributed nature of today’s systems present 
+administrative nightmares of user ID tracking and 
+authentication.    Increasingly, users are demanding that 
+they not be stopped at the border of every system to 
+which they have access in order to legitimize their 
+entrance.    Rather, they seek ‘single sign-on’ in which 
+successfully passing one security checkpoint at the 
+beginning of the day clears a user’s way to all allowable 
+resources, whether they are contained in desktop systems 
+or belong to remote sites.
+Viruses, hackers, disgruntled employees, and competitors 
+have always posed a threat to the security of vital 
+corporate information.    Today, however, the Internet, in 
+all of its permutations, has escalated the security question 
+from headache to crisis.    As a matter of business priority, 
+organizations must open portions of their systems to 
+varying levels of outsiders, while vigilantly protecting all 
+other aspects of the enterprise from encroachment.    The 
+fact that much of what must be protected is 
+geographically as well as technologically diverse further 
+complicates the mission of implementing and enforcing 
+security.    Aberdeen has a Security practice that is 
+independent of the Systems and Network Management 
+Practice.
+16.Help Desk – Help desk software supports enterprise help 
+desks:    a combination of automation and personnel that 
+handles end-user questions and problems.    Trouble 
+ticketing, change management, communication of state 
+changes, user profile information, and system and 
+network status information are all part of help desk 
+problem resolution.    The increased application of 
+automation to the help desk has encouraged many such 
+groups to implement proactive problem avoidance 
+techniques and move toward a service desk view of the 
+enterprise.    A separate CIS Practice exists within 
+Aberdeen.
+11
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Application Management
+The enterprise infrastructure exists in order that business 
+applications can operate.    Yet, until relatively recently, there was 
+no effective way to monitor and manage enterprise applications.    
+Conventional network and systems management technologies can 
+observe the results of application behavior, but are not very helpful 
+in determining causes.
+In the last few years, a market slice has been emerging to deal 
+specifically, and in depth, with the management of applications.    
+Straddling the worlds of application development and 
+systems/network management, new application management 
+products address application performance, configuration, security, 
+and accounting (software asset management).
+Aberdeen anticipates that the Applications Management and 
+Measurement segment will experience significant growth as 
+Service Level Agreements proliferate.    The proliferation of SLAs in 
+combination with the emerging acceptance of the Application 
+Response Monitor (ARM) API will have the effect of moving issues 
+of manageability further back in the application development 
+lifecycle.
+How An Integrated Enterprise Management System Works
+Today, most enterprise management solutions as implemented in 
+real-world organizations are a balancing of the old and the new, 
+but with a strategic direction headed toward integrated enterprise 
+management.    Levels of integration include:
+·
+No integration — a collection of unrelated stovepiped point 
+solutions;
+·
+Screen-level integration — individual point solutions are visible 
+and launched from a single console, framework, or GUI;
+·
+Event-level integration — management applications share 
+repositories, are aware of each other, and depend on each other; 
+and,
+·
+Business-centric integration (still, for the most part, in the 
+future) — a solution in which IT resource management and 
+allocation will directly reflect the business priorities associated 
+with the processes supported.    Achievement of business-based 
+integration will require more than additional technology; it will 
+require massive cultural changes within organizations.
+Business Benefits of Integrated Enterprise Management
+12
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Integrated Enterprise Management provides more data for a 
+broader, more detailed analysis of enterprise networks.    It helps to 
+avoid the fingerpointing that occurs when products from multiple 
+suppliers are involved in a problem.    It increases the likelihood 
+that fixes for one part of the enterprise network, such as a disk 
+crash, do not negatively impact the overall network, e.g., by 
+bringing down all business-critical applications that use that disk.    
+Above all, it allows IS not only to take an overall view of the 
+enterprise network, but also to dive down into detail when needed.
+Development Tools
+DBMS
+Networking Devices
+Windows NT
+SCO
+HP-UX
+Solaris
+Other
+Unix
+Desktops
+Workstations
+NT/Intel 
+Servers
+Enterprise 
+Hardware
+Operating Environments
+Systems and Network Management
+Source: Aberdeen Group, April 1988
+13
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Chapter Four
+Issues and Challenges
+Impact of Major IT Trends
+The Internet.    The Internet in all of its Extranet and Intranet 
+permutations continues to have a profound effect on enterprise 
+management.    Suppliers and customers alike join mobile users 
+and telecommuters in an ever-expanding supply (and demand) 
+chain, raising the question "what now defines an ‘enterprise’?"    
+Internet technology impacts systems and network management in 
+many ways:
+·
+Demands on systems and network resources are 
+unpredictable;
+·
+Security considerations increase in complexity and 
+difficulty;
+·
+Geographical and organizational boundaries are 
+meaningless;
+·
+New applications are proliferating, enabled by 
+technology; and,
+·
+Computing infrastructure is increasingly heterogeneous 
+and complex.
+Aberdeen finds that today’s systems and network management 
+solutions are beginning to face up to the Internet with new 
+capabilities (e.g., “firewalls” that are incorporated inside the 
+systems management solution), but that these do not yet extend 
+well to Extranets beyond the boundaries of the traditional 
+organization.
+Transition to client-server and network-centric applications.    
+Companies are trying to balance aggressive client-server 
+deployment with systems and network management solutions and 
+practices that will produce the reliability of mainframes.    Most 
+large organizations now have management requirements that span 
+mainframes, Unix-based systems, LAN implementations, and 
+remote users.    The speed with which new distributed applications 
+and technology are deployed demands that management solutions 
+keep pace.    As a result, enterprise management automation is 
+increasing in IS importance as a strategic investment.    Network 
+14
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Computers or NetPCs, for example, make network performance 
+and availability more critical than ever.    However, they allow 
+suppliers to automate and simplify systems management efforts 
+such as monitoring, asset management, and security.
+Transition to open systems.    Open systems are a double-edged 
+sword to enterprise management endeavors:    openness enables 
+more complex applications stretching the logical parameters of the 
+enterprise, but the increasing number of suppliers and products 
+involved makes management of these applications more difficult.    
+Overall, however, openness is a plus for IS:    increased openness in 
+computing resources and in management solutions has made it 
+practical and advisable to centralize management efforts for 
+greater administrative cost-effectiveness.
+Year 2000.    The year 2000 is an immovable deadline that looms 
+large across all IT organizations.    Year 2000 initiatives continue to 
+drain financial and skill resources, increasing the pressure on 
+organizations to automate systems management as thoroughly as is 
+possible.    While most media attention has focused on the specter 
+of applications failing around the world, the complexity and 
+diversity of both the computing infrastructure and the 
+management solutions in place means that the year 2000 casts a 
+very large shadow across the operational side of the IT fence.    Any 
+company conducting business in or with the European Community 
+is faced with the exacerbating challenge of making all systems 
+Euro currency-ready.
+Business-centric Enterprise Management.    Corporations are moving 
+towards a business-centric view of IS.    In the Enterprise 
+Management arena, this is resulting in:
+1. Service Level Agreements (SLA) that quantify the services that 
+IS will deliver to users.    Most SLAs are drafted in terms of 
+application response time and availability, reflecting the 
+priorities of the lines of business.    IS departments commit to 
+sustaining agreed-upon service levels and achieve them by 
+managing the underlying components that make up the 
+applications.    SLA is gaining rapid acceptance in corporations 
+globally, increasing the pressure on IS to manage the enterprise 
+and introducing a requirement for SLA measurement/reporting 
+automation.
+2. A new emphasis on application management.    The 
+management of applications is the fastest growing segment of 
+enterprise management.    Organizations are also beginning to 
+15
+Systems and Network Management Practice Summary
+AberdeenGroup 
+realize that effective application management must begin with 
+application development, and are beginning to mandate that 
+developers build manageability into their software from the 
+start.    While early adopters of this mindset are already reaping 
+benefits, widespread implementation requires that 
+organizational and procedural changes be mandated from the 
+top of a corporation on down through the ranks.
+3. Increased demand for policy-based capabilities in systems and 
+network management solutions.    These policies reflect the 
+business value of any process using computing resources.    
+Thus, based on such policies, management solutions can 
+automatically allocate resources to maximize business value.    
+For example, a policy might give a higher network priority to an 
+on-line customer order desk that cannot tolerate degradation 
+than to a batch payroll application that can be run at night.    
+Successful Enterprise Management policy-based solutions also 
+aim to flexibly accommodate changing business dynamics.
+4. Proactive anticipation of problems.    Business-centric enterprise 
+management requires that IT be able to identify what business 
+processes will be impacted downstream from system events.    
+What-if modeling and dynamic workflow management based on 
+policy parameters are becoming ever more common in 
+management solutions.
+Arrival of new technologies.    Formerly arcane disciplines such as 
+neural net technology and expert-based systems are becoming 
+mainstreamed into the enterprise management arena.    These new 
+technologies give IS buyers more efficient ways to manage the 
+enterprise more proactively.    Thus, new-technology-based 
+solutions aim to identify potential problems, diagnose the root 
+cause, and take corrective action before users are aware of any 
+interruption or slow-down.
+Supplier Success Factors
+Suppliers of comprehensive enterprise management and highly 
+focused point solutions alike are in a highly competitive market 
+and are faced with an increasingly sophisticated IS buying 
+community.    In hundreds of in-depth face-to-face conversations 
+with IS decision makers, Aberdeen has found the following 
+generalizations to be universal:
+·
+Functionality/suitability to task is the number one Enterprise 
+Management requirement.    IS buyers are not impressed with 
+suite pricing and market packages if there is not a clear and 
+16
+Systems and Network Management Practice Summary
+AberdeenGroup 
+synergistic benefit in terms of functionality to be gained in 
+using multiple solutions from a single supplier.
+·
+Ease of use for administrators is a major IS buying criterion.    
+This allows IS buyers to cut down on administrative costs, a key 
+user concern.
+·
+Openness and ability to integrate with other Enterprise 
+Management solutions is a cost-of-entry issue.
+·
+A strong Enterprise Management architecture, including 
+platform flexibility and scalability, is vital.
+·
+Professional services and the level of support available are of 
+high importance.
+·
+IS buyers need to feel confident of a vendor’s financial stability 
+and ability to deliver on its promises.
+Cost is generally not a consideration until after the basic decision 
+to buy has been made.
+Therefore, in order to successfully compete in any segment of the 
+systems and network market, suppliers should:
+1. Deliver a solution with strong ease of use/administrative 
+cost-effectiveness, architectural flexibility, 
+performance/scalability, and ability to deliver enterprise-
+application robustness. 
+2. Provide a clear vision for the supplier’s future direction that 
+includes support for business-centric Enterprise 
+Management.
+3. Emphasize services and proactive management as a 
+component of the solution. 
+User Success Factors
+The methodologies for selecting and implementing an enterprise 
+systems management strategy are almost as varied as the 
+organizations themselves.    However, Aberdeen can make some 
+real-world-based observations and recommendations that will 
+generally lead toward success:
+·
+Enterprise Management is a strategic endeavor to any 
+organization in which computing resources support the life-
+blood of the company.    To be successful, Enterprise 
+Management will have to cross organizational and geographic 
+boundaries freely.    Users should make certain that support 
+17
+Systems and Network Management Practice Summary
+AberdeenGroup 
+from the CIO and all executive management exists to 1.) 
+approve the financial and personnel resources required for all 
+phases of the project, and 2.) reorganize in order that the 
+corporate structure maps to IS’ operational requirements for 
+efficient execution against plan.
+·
+Put together a team that represents all affected groups including 
+lines of business and the development side of IS.    Build a set of 
+requirements that are prioritized and succinct.    No one solution 
+or even combination of solutions will ever please everyone.    
+However, if everyone gets behind a business-centric point of 
+view, priorities will be easier to establish.
+·
+Consider centralizing or at least consolidating Help Desks and 
+Data Centers.    Aberdeen has found that there is much synergy 
+and ability to leverage resources when help desks are 
+centralized.
+·
+Develop as little homegrown product as is possible.
+·
+Develop a Year 2000 roadmap that accounts for all management 
+solutions and managed resources.
+·
+Plan for an on-going process of improvements from the 
+beginning.
+·
+When making commitments for Service Level Agreements, 
+make certain that IS is not going to be held accountable for 
+factors over which it has no control or which it has no ability to 
+accurately measure.
+18
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Chapter Five
+Supplier Abstracts
+BMC Software, Inc. 
+2101 CityWest Blvd.
+Houston, TX 77042-2827 
+Tel: (713) 918-8800 
+www.bmc.com
+Market Position
+BMC’s PATROL family of application management products offer a 
+console option, including a Web browser interface.    PATROL 
+products can also be integrated with the major frameworks 
+available for enterprise management, including Cabletron 
+SPECTRUM, HP OpenView IT/Opera-tions, HP OpenView Network 
+Node Manager, IBM NetView, POLYCEN-TER Manager on NetView, 
+Solstice SunNet Manager, Tivoli Management Environment, and 
+any other SNMP-based framework.    Recently, BMC acquired BGS, 
+with plans to subsume the BEST/1 family of performance 
+monitoring and modeling products into PATROL.    BMC has also 
+developed a broad array of partnerships that allow PATROL to 
+manage most major databases and packaged applications in a 
+customized way.
+Aberdeen Conclusions
+BMC’s application and data management focus has been well 
+received in the market to date.    Aberdeen anticipates that this 
+market segment will experience strong growth in the coming year, 
+and BMC will be well positioned to benefit.    To succeed, BMC 
+should continue to focus strongly on extending its PATROL 
+solutions without getting distracted by the logistics of bringing BGS 
+under its umbrella.
+19
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Boole & Babbage
+3131 Zanker Road
+San Jose, CA 95134-1933
+(403) 526-3000
+www.boole.com
+Market Position
+Boole & Babbage has achieved a solid niche in the enterprise 
+management space with its COMMAND/Post.    The product, built 
+around a family of capable management point solutions, takes 
+information from these solutions, as well as from a wide range of 
+third party products.    COMMAND/Post is an able manager of 
+managers (MOM).    Other product lines include MainView for 
+mainframe and sysplex environments; Storage Automation 
+Solutions for enterprise-wide storage management; and MQ for 
+delivering messages between legacy and distributed applications.    
+Boole & Babbage addresses the Service Level Agreement 
+marketplace with a message of proactive Desired State 
+management.
+Aberdeen Conclusions
+Boole & Babbage is one of the oldest and most-respected of the 
+systems management companies.    Its client list includes the most 
+recognizable of the Global 2000 companies.    Aberdeen finds that 
+the company requires a crisp and clear market positioning to 
+position Boole & Babbage’s product offerings to good advantage in 
+the enterprise management space.    Though well-known in 
+traditional mainframe shops, Boole & Babbage’s challenge is to 
+make itself equally well known to a new generation of 
+administrators and CIOs.    Aberdeen concludes that Boole & 
+Babbage’s high-quality products will meet their goals if it delivers 
+marketing efforts of equal quality.
+Bull HN International
+Billerica, MA
+800-285-5727
+www.openmaster.com
+Market Position
+Bull HN has a highly integrated, deeply functional enterprise 
+management solution called ‘OpenMaster’.    As the name suggests, 
+20
+Systems and Network Management Practice Summary
+AberdeenGroup 
+it is based on open management standards.    Aberdeen finds that 
+OpenMaster offers good functionality “out of the box”.    
+OpenMaster is particularly appropriate for large enterprises, since 
+it has excellent scalability and an interface that is easily 
+customized for users of all skill levels.
+Aberdeen Conclusions
+Bull’s OpenMaster deserves a wider audience than it has so far 
+received.    In a market where too often marketing hype gets ahead 
+of deliverable reality, Bull’s OpenMaster is an exception.    
+Aberdeen finds that Bull has a marketing, not a product, problem 
+that could lend itself to a happy conclusion if addressed 
+immediately and vigorously.    However, Bull also must deal with a 
+lack of mindshare, particularly among major U.S. corporations.
+Cabletron Systems Inc.
+35 Industrial Way
+Rochester, NH    03866
+603-332-9400
+www.ctron.com
+Market Position
+Cabletron, coming from a hub/switch background, brings rich 
+networking credentials to its SPECTRUM family of management 
+solutions.    SPECTRUM is primarily a network management 
+solution that is scalable and very functional.    Cabletron expands 
+and deepens its capabilities with a range of partnerships including 
+BMC, Concord Communications, and Nortel.    The SPECTRUM 
+Portable Management Applications (SPMAs) form a family of 
+management modules and applications for Cabletron devices in HP 
+OpenView’s/UNIX and Network Node Manager, SunNet Manager, 
+and IBM’s NetView 6000.
+Aberdeen Conclusions
+Cabletron faces a major challenge as its market turns away from 
+simply buying hubs and switches, and SPECTRUM is crucial to 
+Cabletron’s survival.    To succeed, Cabletron will not only have to 
+partner rapidly with major Enterprise Management and 
+application management providers, but also change a corporate 
+culture that is still focused more on its past successes.
+21
+Systems and Network Management Practice Summary
+AberdeenGroup 
+Candle Corporation
+2425 Olympic Boulevard
+Santa Monica, CA    90404
+www.candle.com
+Market Position
+Candle Corporation is one of the largest privately held software 
+companies in the world, offering a wide range of application 
+monitoring, management, and measurement solutions.    Candle’s 
+ETEWatch family of products provide end-to-end application 
+response time measurement, while application-specific solutions 
+such as IntelliWatch for Lotus Notes apply in-depth mastery of a 
+niche.    Candle’s original early success was with OMEGAMON in the 
+mainframe systems management environment, where Candle 
+continues to thrive.
+Aberdeen Conclusions
+Candle has not benefited from its diffused market message.    Its 
+strategic direction is unclear.    While Candle has some outstanding 
+enterprise-class solutions such as OMEGAMON and IntelliWatch, 
+there is no apparent synergy between the product lines.    At the 
+same time, Aberdeen finds that Candle has the financial strength to 
+survive as it crafts a market-ready message and strategy.    
+Aberdeen anticipates that Candle will address the company’s lack 
+of focus by establishing clear division-like business units, and/or by 
+acquiring solutions that will allow development of a synergistic 
+application and systems management market message.
+Computer Associates
+One Computer Associates Plaza
+Islandia, NY 11788-7000
+516-DIAL-CAI
+www.cai.com
+Market Position
+Computer Associates’ Unicenter TNG is an exceptionally 
+comprehensive Enterprise Management solution.    CA has shipped 
+almost 4 million copies internationally, giving it a huge market 
+presence as well as an impressive level of sales revenue.    CA offers 
+stand-alone management products (Workgroup Edition) through 
+channels for workgroups or smaller companies, and enterprise-
+22
+Systems and Network Management Practice Summary
+AberdeenGroup 
+capable modules (Enterprise Edition) for companies not ready for a 
+full TNG implementation.    Both the Workgroup and Enterprise 
+Editions come with CA’s ubiquitous (and no-charge) framework.
+Aberdeen Conclusions
+Computer Associates has a very large footprint in the market with 
+its Unicenter TNG framework and enterprise management 
+solutions.    Aberdeen finds that CA’s marketing engine, fueled with 
+solid software marketing know-how, has brought the solid 
+Unicenter TNG to the forefront of its market.    Computer Associates 
+continues to add features and solution areas to Unicenter as well as 
+announcing major strategic directions.    Aberdeen research shows 
+that CA regularly gives its customers a clear vision for the future 
+and has crisply honed market positioning.    Aberdeen concludes 
+that Unicenter TNG will be a leader in the enterprise management 
+market for years to come.
+Hewlett-Packard, Company
+100 Mayfield Avenue
+Mountainview, CA    94043
+www.hp.com
+Market Position
+Hewlett-Packard was the early clear market leader in the 
+enterprise management market with its OpenView family of 
+products.    Network Node Manager (NNM) was the spearhead of 
+OpenView’s early market dominance.    There is no major function 
+that is currently not under the OpenView umbrella, as well as a 
+number of “finesse” functions.    HP has eschewed the framework 
+fray, espousing ‘best of breed’ functionality and claiming IT Service 
+Management (ITSM) as its primary market differentiator.
+Aberdeen Conclusions
+Hewlett-Packard has a lot of product, a strong distribution channel, 
+and a healthy balance sheet.    What it has not had in recent years is 
+a clear and compelling go-to-market message in the Enterprise 
+Management space.    As a result, OpenView has an increasingly 
+lower profile in the market and is now playing David where it had 
+once been Goliath.    Aberdeen concludes that HP has far too many 
+market strengths to count OpenView out.    However, we find that 
+continued high ranking among Enterprise-Management contenders 
+is far from guaranteed.
+23
+Systems and Network Management Practice Summary
+AberdeenGroup 
+IBM/Tivoli
+Austin, TX
+512-436-8000
+www.tivoli.com
+Market Position
+When IBM acquired Tivoli, both companies as well as thousands of 
+customers benefited.    IBM has long had a successful product that 
+is still active in the market, NetView.    NetView is now the network 
+console of Tivoli’s TME 10, a powerful and flexible environment for 
+enterprise management.    The architecture lends itself to 
+customization and integration with third party solutions.    In this 
+case, one of its strengths is also its weakness, as it is not a solution 
+for anyone hoping for ‘out-of-the-box’ functionality.    IBM has also 
+announced a fully integrated solution targeted to small companies, 
+IT Director, which is sold through distributors.
+Aberdeen Conclusions
+Tivoli was one of the earliest innovators in the enterprise 
+management space and has a large, loyal installed base.    However, 
+the market is looking for IBM to reassert its technical and 
+marketing prowess in bringing Tivoli TME 10 back into market 
+contender shape.    Aberdeen anticipates that IBM and Tivoli will 
+not disappoint their followers, but finds that regaining market 
+momentum will not be accomplished with a grand announcement. 
+The market needs to see a clear vision for the long term as well as 
+deliverables in the near term.
+Landmark Systems Corporation
+8000 Towers Crescent Drive
+Vienna, VA 22182
+703-902-8000
+www.landmark.com
+Market Position
+Landmark’s Performance Works family of solutions provides deep 
+functionality across a range of systems management areas.    Most 
+recently, Landmark added SmartWatch to the family, bringing the 
+ability to do application performance management from the 
+desktop user’s point of view.    When coupled with its other 
+performance management tools, SmartWatch has strong 
+24
+Systems and Network Management Practice Summary
+AberdeenGroup 
+credentials in an SLA market.    Landmark deliberately 
+differentiates itself with a philosophy (backed by the appropriate 
+products) that performance management is most effective when it 
+maps across an application’s entire lifecycle.
+Aberdeen Conclusions
+Landmark’s market message is clear and targeted:    performance 
+management is Landmark’s strategic direction.    Aberdeen 
+anticipates that Landmark’s message and products will find an 
+increasingly wide audience as SLA in IT continues to grow.    
+Aberdeen finds that when and if Landmark adds a network 
+component to match its other performance management solutions, 
+it will be a powerful market presence.
+Platinum Technology
+1815 South Meyers Road
+Oakbrook Terrace, IL 60181-5241
+800-442-6861
+www.platinum.com
+Market Position
+Platinum is relatively new in the systems management space with 
+its ProVision family of solutions.    Its framework-like architecture 
+is called ‘Platinum Open Enterprise Management Services’ (POEMS) 
+and it is designed to accept third party products as well as 
+ProVision solutions.    While the ProVision family has no network 
+component, its systems management solutions are “deep”, offering 
+a wealth of functionality for each task.
+Aberdeen Conclusions
+Platinum has entered the systems management space thoughtfully 
+and with a strong initial showing, choosing depth of function over 
+range.    However, it remains for Platinum to gain mind share as 
+well as market share.    Moreover, Platinum has undergone a period 
+of aggressive acquisition in systems management and other 
+infrastructure products, and is now faced with the challenge of 
+successfully integrating all of its businesses.    Nevertheless, 
+Aberdeen finds that Platinum is a company worth watching in the 
+systems management space.
+25
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | system~1-36ba8c |
+| title | Systems and Network Management: 1998 Practice Summary |
+| author | Aberdeen Group |
+| date | 1998-05-01 |
+| type | other-research |
+| subject_domain | systems-network-management |
+| methodology | industry-analysis |
+| source_file | SYSTEM~1.DOC |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group's 1998 survey of the enterprise systems and network management market, covering network management, systems management, and application management. The report identifies the central market debate as Framework (Computer Associates Unicenter TNG, IBM Tivoli TME) versus Best-of-Breed (HP, BMC, Candle, Platinum) approaches, forecasts 20% annual market growth, and highlights application management as the fastest-growing segment. Supplier profiles cover 10 vendors including BMC Software, Computer Associates, IBM/Tivoli, and HP.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Institutional practice summary documenting the 1998 enterprise management market at a pivotal moment when SNMP-based tools were challenged by integrated frameworks and the Internet was redefining the enterprise perimeter. |
+| **Relevance** | high | Enterprise systems management remains a large and growing market; the Framework vs. Best-of-Breed tension Aberdeen identified persists in modern observability and AIOps debates. |
+| **Prescience** | high | Aberdeen's predictions that application management would become the fastest-growing segment and that AI/pattern recognition would be applied to management problems proved accurate over the following decade. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Framework vs. Best-of-Breed outcome
+- **Claimed:** Framework acceptance will spread but leave plenty of market for best-of-breed
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 2:** Application management growth driver
+- **Claimed:** SLA adoption proliferation creates market for innovative point solutions
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 3:** AI application to management solutions
+- **Claimed:** AI pattern recognition first in network management then systems and application management
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 4:** Network management evolution driver
+- **Claimed:** aggressive and innovative product assaults on aging installed base of previous-generation solutions
+- **Year:** 1998
+- **Confidence at time:** high
+
+**Prediction 5:** Business-centric IT management adoption
+- **Claimed:** requires massive cultural changes not just additional technology
+- **Year:** 1998
+- **Confidence at time:** high
+
+
+### Entities Referenced (12)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| BMC Software | company | [DEFERRED] | [DEFERRED] |
+| Boole & Babbage Inc. | company | [DEFERRED] | [DEFERRED] |
+| Bull HN International | company | [DEFERRED] | [DEFERRED] |
+| Cabletron Systems Inc. | company | [DEFERRED] | [DEFERRED] |
+| Candle Corporation | company | [DEFERRED] | [DEFERRED] |
+| Computer Associates (CA) | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
+| Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
+| IBM Tivoli | company | [DEFERRED] | ibm |
+| Landmark Systems Corporation | company | [DEFERRED] | [DEFERRED] |
+| Platinum Technology | company | [DEFERRED] | [DEFERRED] |
+| Sterling Software | company | [DEFERRED] | [DEFERRED] |
+
+### Technologies Referenced (10)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Tivoli Management Environment (TME) | application | IBM Tivoli | mature | legacy-active |
+| CA Unicenter TNG | application | Computer Associates | current | legacy-active |
+| HP OpenView | application | Hewlett-Packard | mature | superseded |
+| Simple Network Management Protocol (SNMP) | protocol | IETF | mature | active |
+| Application Response Monitor (ARM) API | framework | HP; Various | emerging | superseded |
+| Desktop Management Interface (DMI) | protocol | DMTF | growing | superseded |
+| Service Level Agreement (SLA) Management | application | Various | emerging | active |
+| Workload Management / Job Scheduling | application | Various | mature | active |
+| Internet / Intranet / Extranet Management | platform | Various | emerging | active |
+| AI / Pattern Recognition for Management | application | Various | emerging | active |
+
+### Observation Summary
+
+- Total observations: 24
+- By type: market-assessment: 13, competitive-assessment: 6, viability-prediction: 5

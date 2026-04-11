@@ -1,0 +1,13 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+windows-nt-server-4,Windows NT Server 4.0,platform,Microsoft,1996-2000,current,obsolete,ntpspr~1-728dc3,NT platform for which professional services are provided; 5 Ss: scalability/stability/systems mgmt/storage mgmt/security.
+windows-nt-server-5,Windows NT Server 5.0,platform,Microsoft,1999-2000,pre-release,obsolete,ntpspr~1-728dc3,Upcoming release expected to address many NT shortcomings; services demand expected around its launch.
+sap-r3,SAP R/3,application,SAP AG,1992-2005,current,legacy,ntpspr~1-728dc3,ERP application requiring NT professional services for deployment; AcceleratedSAP methodology.
+ms-cluster-server,Microsoft Cluster Server (MSCS/Wolfpack),framework,Microsoft,1997-2000,emerging,obsolete,ntpspr~1-728dc3,Two-node failover clustering; adds NT complexity requiring professional services.
+ms-transaction-server,Microsoft Transaction Server (MTS),framework,Microsoft,1996-2001,emerging,obsolete,ntpspr~1-728dc3,NT middleware adding deployment complexity; professional services needed to exploit.
+ms-exchange,Microsoft Exchange,application,Microsoft,1996-present,current,active,ntpspr~1-728dc3,Mail and messaging platform on NT; major deployment use case for professional services.
+sql-server,Microsoft SQL Server,application,Microsoft,1989-present,current,active,ntpspr~1-728dc3,NT database platform; increasingly used as SAP R/3 back-end alongside Oracle.
+zaw-initiative,Zero Administration for Windows (ZAW),framework,Microsoft,1997-1999,announced,obsolete,ntpspr~1-728dc3,Microsoft initiative to reduce NT management cost; not delivered; contributed to high services costs.
+unix-platform,Unix Server Platform,platform,Various,1970s-present,mature,active,ntpspr~1-728dc3,Most NT services engagements involve Unix-to-NT or NT-with-Unix integration.
+mainframe-platform,IBM Mainframe (MVS/z/OS),platform,IBM,1964-present,mature,active,ntpspr~1-728dc3,NT/mainframe integration is key Amdahl and Unisys differentiator.
+as400-platform,IBM AS/400,platform,IBM,1988-present,mature,legacy,ntpspr~1-728dc3,Referenced by IBM as NT alternative for customers where NT lacks robustness.
+erp-software,Enterprise Resource Planning (ERP) Software,application,Various,1990s-present,current,active,ntpspr~1-728dc3,Primary driver of NT professional services in 1997-1998; SAP BaaN Oracle PeopleSoft.

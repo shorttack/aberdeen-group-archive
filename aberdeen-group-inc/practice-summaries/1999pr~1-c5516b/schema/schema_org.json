@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen's IT Professional Services Practice \u2014 Coverage Areas",
+  "description": "This document describes Aberdeen Group's IT Professional Services practice structure and coverage areas as of January 1999, organized in a matrix by market initiative and supplier type. It identifies four key market segments\u2014Windows 2000 infrastructure, ERP/Supply Chain, Customer Information Systems, and Education\u2014and provides a detailed vendor landscape for each. The document concludes with a sample IBM Global Services profile illustrating Aberdeen's analyst methodology.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

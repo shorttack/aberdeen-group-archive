@@ -1,0 +1,31 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research-consulting,unknown,unknown,1988-2001,erppsp~1-31f088,Boston-based; acquired by Harte-Hanks in 2001
+compaq,Compaq Computer Corporation,company,computer-hardware,unknown,unknown,1982-2002,erppsp~1-31f088,"$24B revenue at time of report; acquiring Digital Equipment Corporation; 38,000 distributors"
+hewlett-packard,Hewlett-Packard Company,company,computer-hardware,unknown,unknown,1939-2015,erppsp~1-31f088,~$43B revenues; world's second largest computer company in 1998; HP Professional Services Organization
+sap-ag,SAP AG,company,enterprise-software,unknown,unknown,1972-,erppsp~1-31f088,German company; >35% ERP market share in 1998; founded by four ex-IBM employees; R/2 and R/3 products; Wayne PA US HQ
+oracle-corporation,Oracle Corporation,company,enterprise-software,unknown,unknown,1977-,erppsp~1-31f088,>$3.5B total revenue; >90% Fortune 500 database presence; Redwood City CA
+j-d-edwards,J.D. Edwards & Company,company,enterprise-software,unknown,unknown,1977-2003,erppsp~1-31f088,"7% ERP market share; 4,300 customers in 100+ countries; 3,500 employees; Denver CO; publicly traded"
+peoplesoft,PeopleSoft Incorporated,company,enterprise-software,unknown,unknown,1987-2004,erppsp~1-31f088,"$450M revenues in 1996; 3,000+ employees; Pleasanton CA; founded 1987; HR market leader"
+baan-company,The Baan Company N.V.,company,enterprise-software,unknown,unknown,1978-2000,erppsp~1-31f088,"Dutch company; dual HQ in Putten Netherlands and Menlo Park CA (moving to Reston VA); top-4 ERP vendor; 2,800 systems in 4,800 sites"
+andersen-consulting,Andersen Consulting,company,IT-consulting,unknown,unknown,1989-2001,erppsp~1-31f088,"$6.6B revenue 1997; 53,000 professionals; world's largest management and technology consulting firm; attempting break from Arthur Andersen; Chicago IL"
+coopers-lybrand,Coopers & Lybrand,company,accounting-consulting,unknown,unknown,1957-1998,erppsp~1-31f088,$7.5B revenue 1998; Big Six; SAP Global Logo Partner; pending merger with Price Waterhouse; SUMMIT-D methodology; New York NY
+kpmg,KPMG International,company,accounting-consulting,unknown,unknown,1987-,erppsp~1-31f088,"Second largest Big Six firm; 85,000 employees; 800 cities; 150 nations; only Big Six larger in Europe than North America; 2,000+ SAP R/3 consultants; Montvale NJ"
+price-waterhouse,Price Waterhouse,company,accounting-consulting,unknown,unknown,1849-1998,erppsp~1-31f088,"~60,000 consultants in 430+ offices; smallest but most prestigious Big Six; pending merger with Coopers & Lybrand; London HQ"
+cambridge-technology-partners,Cambridge Technology Partners,company,IT-consulting,unknown,unknown,1991-2001,erppsp~1-31f088,"$370M revenue 1997; 90% CAGR over 4 years; 3,000+ employees; 25% overseas; fixed-time/fixed-price model; middle market ($50-500M); Cambridge MA; Momentum product suite"
+computer-sciences-corporation,Computer Sciences Corporation,company,IT-services,unknown,unknown,1959-2017,erppsp~1-31f088,"44,000 employees; 600 offices; El Segundo CA; SAP and Oracle only; defeated hostile takeover by Computer Associates"
+electronic-data-systems,Electronic Data Systems,company,IT-services,unknown,unknown,1962-2008,erppsp~1-31f088,"110,000 employees in 44 countries; Plano TX; founded by Ross Perot; spun off by GM in 1996; ~$4B from GM contracts; A.T. Kearney subsidiary"
+plaut-consulting,Plaut Consulting GmbH,company,IT-consulting,unknown,unknown,1946-,erppsp~1-31f088,SAP Global Logo Partner since 1985; ~500 consultants; Ismaning Germany and Waltham MA; strong in Europe; State Street Bank and MIT clients
+whittman-hart,Whittman-Hart,company,IT-consulting,unknown,unknown,1984-2001,erppsp~1-31f088,"1,700 professionals; $120M revenue 1997; Chicago IL; middle market ($50-500M); SAP National Implementation Partner; Midwest-focused"
+digital-equipment-corporation,Digital Equipment Corporation,company,computer-hardware,unknown,unknown,1957-1998,erppsp~1-31f088,Being acquired by Compaq at time of report; 600 ERP professionals; substantial professional services organization
+ibm,IBM,company,computer-hardware-software,unknown,unknown,1911-,erppsp~1-31f088,$78B+ annual revenue; world's largest computer company; noted as OEM ERP partner but not profiled in this report
+deloitte-touche,Deloitte & Touche,company,accounting-consulting,unknown,unknown,1989-,erppsp~1-31f088,Big Six firm; noted as Compaq ERP partner; not profiled in this report
+ernst-young,Ernst & Young,company,accounting-consulting,unknown,unknown,1989-,erppsp~1-31f088,Big Six firm; KPMG dropped merger attempt with E&Y; not profiled in this report
+microsoft,Microsoft,company,software,unknown,unknown,1975-,erppsp~1-31f088,KPMG 500-person practice for Microsoft Comprehensive Enterprise Platform; SAP partnership mentioned; key to SAP middle-market success
+data-general,Data General,company,computer-hardware,unknown,unknown,1968-1999,erppsp~1-31f088,Named as OEM ERP deployment partner alongside IBM HP Compaq Digital
+arthur-andersen,Arthur Andersen,company,accounting,unknown,unknown,1913-2002,erppsp~1-31f088,Parent firm of Andersen Consulting; discord leading to planned separation
+ncr,NCR Corporation,company,computer-hardware,unknown,unknown,1884-,erppsp~1-31f088,Listed as OEM ERP provider but not profiled in this report
+renaissance-worldwide,Renaissance Worldwide,company,IT-consulting,unknown,unknown,1991-2002,erppsp~1-31f088,Named alongside Whittman-Hart as firms with strong strategic consulting backgrounds beyond Big Six
+perot-systems,Perot Systems,company,IT-services,unknown,unknown,1988-2009,erppsp~1-31f088,Named as EDS competitor; owned by Ross Perot (founder of EDS)
+berclain,Berclain,company,enterprise-software,unknown,unknown,1985-1998,erppsp~1-31f088,Acquired by Baan; added planning and scheduling software to Baan product line
+coda-group,The Coda Group PLC,company,enterprise-software,unknown,unknown,1979-2000,erppsp~1-31f088,Acquired by Baan; intended to strengthen Baan's financial product offering
+red-pepper-software,Red Pepper Software,company,enterprise-software,unknown,unknown,1993-1996,erppsp~1-31f088,Acquired by PeopleSoft; supply chain optimization software; can generate plans for SAP R/3

@@ -1,0 +1,2 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+microsoft-word,Microsoft Word,application,Microsoft,1983-present,mature,active,fixups~1-a1d68b,Implied tool for document production; heading styles and TOC builder referenced throughout checklist.

@@ -1,0 +1,14 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,emerging,active,storag~1-262bc7,Server-independent storage architecture; Aberdeen says 1998 is not year of SANs; mainstream expected 1999+.
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,storag~1-262bc7,File-serving server-independent storage; simpler than SAN; gaining adoption.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,emerging,mature,storag~1-262bc7,100MB/sec storage networking; hubs and switches not mature enough in 1998; pilots recommended.
+scsi,SCSI (Small Computer System Interface),protocol,Various,1980s-2000s,mature,legacy,storag~1-262bc7,Internal storage connectivity in legacy disk arrays and tape libraries; ESCON/SCSI can integrate with SAN.
+raid,RAID (Redundant Array of Independent Disks),storage,Various,1980s-present,mature,active,storag~1-262bc7,Now commonplace on LAN servers due to lower disk prices; complements but does not replace tape backup.
+tape-backup,Tape Backup and Libraries,storage,Quantum; HP; IBM; Seagate; StorageTek,1970s-present,mature,active,storag~1-262bc7,"Essential for archiving and disaster recovery; rapidly changing technologies (Super DLTtape, LTO)."
+lto,Linear Tape-Open (LTO),storage,HP; IBM; Seagate,1990s-emerging,emerging,active,storag~1-262bc7,Next-generation tape format; goal terabyte/hour backup at reasonable cost.
+super-dlt,Super DLTtape,storage,Quantum,1990s,emerging,active,storag~1-262bc7,Quantum next-generation DLT tape technology announced; competing with LTO.
+hierarchical-storage,Hierarchical Storage Management (HSM),application,Various,1990s,growing,active,storag~1-262bc7,Automated tiering of data from online to near-online to offline storage.
+storage-mgmt-software,Storage Management Software,application,VERITAS; Legato; CA; Boole & Babbage,1990s,growing,active,storag~1-262bc7,"Key differentiator over raw hardware; backup/restore, capacity planning, data sharing, supervision."
+network-storage,Network Storage Architecture,platform,Various,1990s,emerging,dominant,storag~1-262bc7,Aberdeen's term for any storage a business user accesses over a network; advocates treating storage as system.
+ssa,Serial Storage Architecture (SSA),protocol,IBM,1990s,emerging,legacy,storag~1-262bc7,IBM proprietary alternative storage channel; listed as connectivity option alongside Fibre Channel and SCSI.
+escon,ESCON (Enterprise Systems Connection),protocol,IBM,1990-2000s,mature,legacy,storag~1-262bc7,IBM mainframe channel connectivity; can be integrated into SAN alongside newer Fibre Channel.

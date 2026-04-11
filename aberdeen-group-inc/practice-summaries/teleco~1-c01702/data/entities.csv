@@ -1,0 +1,31 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,teleco~1-c01702,Boston-based research and consulting firm; author of this report
+lucent-technologies,Lucent Technologies,company,telecom-equipment,dissolved,Alcatel-Lucent -> Nokia,1996-2016,teleco~1-c01702,Spun off from AT&T; major CO switch and transmission vendor
+nortel,Northern Telecom (Nortel),company,telecom-equipment,dissolved,[bankrupt 2009],1895-2009,teleco~1-c01702,Canadian telecom equipment giant; major switch and optical vendor
+ericsson,Ericsson,company,telecom-equipment,active,[none],1876-present,teleco~1-c01702,Swedish telecom equipment vendor; global switch and wireless infrastructure
+siemens,Siemens AG,company,telecom-equipment,active,[none],1847-present,teleco~1-c01702,German conglomerate; major telecom equipment division
+nec,NEC Corporation,company,telecom-equipment,active,[none],1899-present,teleco~1-c01702,Japanese electronics and telecom equipment vendor
+fujitsu,Fujitsu Limited,company,telecom-equipment,active,[none],1935-present,teleco~1-c01702,Japanese IT and telecom equipment vendor
+alcatel,Alcatel,company,telecom-equipment,dissolved,Alcatel-Lucent -> Nokia,1898-2006,teleco~1-c01702,French telecom equipment vendor; strong CO switch global presence via aid programs
+cisco-systems,Cisco Systems,company,networking-equipment,active,[none],1984-present,teleco~1-c01702,Data networking equipment leader; cited as key next-gen network vendor
+ascend-communications,Ascend Communications,company,networking-equipment,dissolved,Lucent Technologies,1989-1999,teleco~1-c01702,WAN/ATM equipment vendor acquired by Lucent in 1999
+3com,3Com Corporation,company,networking-equipment,dissolved,HP Inc.,1979-2010,teleco~1-c01702,Networking equipment vendor; cited as next-gen network supplier
+qwest-communications,Qwest Communications,company,telecom-services,dissolved,CenturyLink -> Lumen,1996-2011,teleco~1-c01702,Next-gen fiber carrier; raised billions for network build-out
+level3-communications,Level 3 Communications,company,telecom-services,dissolved,CenturyLink -> Lumen,1998-2017,teleco~1-c01702,Next-gen backbone carrier; cited as raising billions in financial markets
+worldcom,WorldCom Inc.,company,telecom-services,dissolved,[bankrupt/MCI 2002-2006],1983-2002,teleco~1-c01702,Long-distance and Internet carrier; completed purchase of CompuServe Jan 1998
+ameritech,Ameritech Corporation,company,telecom-services,dissolved,SBC Communications -> AT&T,1984-1999,teleco~1-c01702,RBOC serving Illinois Indiana Michigan Ohio Wisconsin; merged with SBC 1999
+bell-atlantic,Bell Atlantic Corporation,company,telecom-services,dissolved,Verizon Communications,1984-2000,teleco~1-c01702,RBOC; completed NYNEX merger 1997; became Verizon after GTE merger 2000
+gte,GTE Corporation,company,telecom-services,dissolved,Verizon Communications,1934-2000,teleco~1-c01702,Independent telco; acquired BBN and Genuity 1997; merged with Bell Atlantic to form Verizon
+compuserve-network,CompuServe Network Services,company,managed-services,dissolved,WorldCom -> MCI,1982-2000,teleco~1-c01702,Online/managed network provider; acquired by WorldCom Jan 1998
+concentric-network,Concentric Network Corporation,company,managed-services,dissolved,NextLink -> XO Communications,1991-2000,teleco~1-c01702,IP-based VPN specialist; ATM backbone with 16 SuperPOPs
+equant,Equant Network Services,company,managed-services,dissolved,France Telecom -> Orange,1991-2004,teleco~1-c01702,Global data services division of SITA Holdings; served Global 1000
+ibm-global-services,IBM Global Services,company,IT-services,active,[none],1991-present,teleco~1-c01702,IBM's managed network and services division; partnered with Ameritech for voice/data
+infonet-services,Infonet Services Corporation,company,managed-services,dissolved,BT Group,1970-2005,teleco~1-c01702,Global Frame Relay and IP data services; 42-country delivery; acquired by BT
+uunet-technologies,UUNET Technologies,company,internet-services,dissolved,MCI WorldCom,1987-2000,teleco~1-c01702,Major Internet backbone provider; VP cited predicting 50% IP traffic by 2000
+ibm,International Business Machines (IBM),company,IT-hardware-services,active,[none],1911-present,teleco~1-c01702,Mentioned for telecom computing platforms and global services
+hewlett-packard,Hewlett-Packard,company,IT-hardware,active,HP Inc. / HPE,1939-2015,teleco~1-c01702,Cited as computing platform vendor for telecom carriers
+tandem-computers,Tandem Computers,company,IT-hardware,dissolved,Compaq -> HP,1974-1997,teleco~1-c01702,Fault-tolerant computing; key platform for telecom service nodes
+digital-equipment,Digital Equipment Corporation (DEC),company,IT-hardware,dissolved,Compaq -> HP,1957-1998,teleco~1-c01702,Computing platform vendor for telecom; acquired by Compaq 1998
+at-and-t,AT&T,company,telecom-services,active,[none],1885-present,teleco~1-c01702,Long-distance carrier; cited as competitor to VPN providers
+itu,International Telecommunications Union (ITU),institution,standards,active,[none],1865-present,teleco~1-c01702,Published 1994 world information industry data; TMN architecture standards
+wto,World Trade Organization (WTO),institution,regulatory,active,[none],1995-present,teleco~1-c01702,Basic Telecom Agreement signed November 1997; opened international competition

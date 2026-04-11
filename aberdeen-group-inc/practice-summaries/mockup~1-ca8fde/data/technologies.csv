@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+novell-netware,Novell NetWare,platform,Novell,1983-2009,mature,obsolete,mockup~1-ca8fde,Dominant LAN NOS of 1980s-early 1990s; viability questioned in 1998 document
+windows-nt-server,Microsoft Windows NT Server,platform,Microsoft,1993-2003,growth,legacy,mockup~1-ca8fde,Rapidly growing enterprise NOS; identified as potential world-dominator; replaced by Windows 2000/2003
+os2-warp-server,IBM OS/2 Warp Server,platform,IBM,1994-2001,mature,obsolete,mockup~1-ca8fde,IBM's NOS product; market questioned its long-term viability in 1998
+banyan-vines,Banyan VINES,platform,Banyan Systems,1984-2004,declining,obsolete,mockup~1-ca8fde,Legacy NOS; document notes IS managers planning for migration away from VINES
+dec-pathworks,Digital PathWorks,platform,Digital Equipment,1989-1998,declining,obsolete,mockup~1-ca8fde,Legacy NOS from DEC; identified alongside VINES as migration target

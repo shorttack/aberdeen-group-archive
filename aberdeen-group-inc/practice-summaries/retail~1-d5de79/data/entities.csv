@@ -1,0 +1,23 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,retail~1-d5de79,Author; Boston-based market research and consulting firm.
+andersen-consulting,Andersen Consulting,firm,IT-consulting,renamed,Accenture (2001),1989-2001,retail~1-d5de79,Leading systems integrator; retail IS implementation services.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,split,HP Inc./HPE (2015),1939-present,retail~1-d5de79,Retail IT hardware and services supplier; supplier abstract included.
+ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,retail~1-d5de79,Major retail IT supplier; supplier abstract included.
+ncr,NCR Corporation,company,computing,active,,1884-present,retail~1-d5de79,POS and retail systems specialist; supplier abstract included.
+sap,SAP,company,Enterprise Software,active,,1972-present,retail~1-d5de79,ERP/retail application vendor; SAP America supplier abstract included.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,retail~1-d5de79,Supplier abstract included; Windows NT cited as growing OS choice for retail client-server.
+walmart,Wal-Mart Stores Inc.,company,Retail,active,,1962-present,retail~1-d5de79,Cited as exemplar of international retail expansion (Mexico); one-stop-shopping model.
+computer-sciences-corp,Computer Sciences Corp. (CSC),company,IT Services,active,,1959-present,retail~1-d5de79,Professional services firm; supplier abstract included.
+jda-software,JDA Software Group Inc.,company,Retail / Supply Chain Software,unknown,unknown,1985-present,retail~1-d5de79,Retail planning and supply chain software; supplier abstract included.
+retek-information-systems,Retek Information Systems Inc.,company,Retail Software,unknown,unknown,1990s-2005,retail~1-d5de79,Retail-specific application software vendor; supplier abstract included. Later acquired by Oracle 2005.
+icl-retail-systems,ICL Retail Systems,company,Retail IT Systems,unknown,unknown,1990s,retail~1-d5de79,POS and retail IT systems provider; supplier abstract included.
+comshare-retail,Comshare Retail,company,Decision Support / Retail Analytics,unknown,unknown,1990s,retail~1-d5de79,Decision support and budgeting software for retail; supplier abstract included.
+datasym-inc,Datasym Inc.,company,POS Hardware,unknown,unknown,1980s-1990s,retail~1-d5de79,POS hardware manufacturer; listed in supplier abstracts.
+campbell-software,Campbell Software Inc.,company,Retail Software,unknown,unknown,1990s,retail~1-d5de79,Retail-specific ISV; supplier abstract included.
+hypercom-corp,Hypercom Corp.,company,Payment Systems,unknown,unknown,1978-present,retail~1-d5de79,Payment terminals and POS transaction processing; listed in supplier abstracts.
+hyperparallel-inc,HyperParallel Inc.,company,Data Mining Software,unknown,unknown,1990s,retail~1-d5de79,Data mining and analytics for retail; listed in supplier abstracts.
+island-pacific-systems,Island Pacific Systems,company,Retail Software,unknown,unknown,1990s,retail~1-d5de79,Retail application software provider; listed in supplier abstracts.
+premis-corp,PREMIS Corp.,company,Retail Software,unknown,unknown,1990s,retail~1-d5de79,Retail IT solutions provider; listed in supplier abstracts.
+intrepid-systems,Intrepid Systems,company,Retail IT Systems,unknown,unknown,1990s,retail~1-d5de79,Retail systems supplier; listed in supplier abstracts.
+e3-associates,E3 Associates Ltd.,company,Retail Consulting,unknown,unknown,1990s,retail~1-d5de79,Retail IT consulting firm; listed in supplier abstracts.
+gers-retail-systems,GERS Retail Systems,company,Retail Software,unknown,unknown,1980s-2000s,retail~1-d5de79,Retail management software; listed in supplier abstracts.

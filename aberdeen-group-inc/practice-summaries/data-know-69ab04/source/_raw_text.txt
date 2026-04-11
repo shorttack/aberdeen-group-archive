@@ -1,0 +1,402 @@
+Project #
+Aberdeen Group
+Boston Palo Alto Amsterdam
+www.aberdeen.com
+Expanding the Data Knowledge 
+Practice
+Presented by:
+ Bob Moran
+Research Vice President, Managing Director,
+Decision Support Research
+2
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Practice Definition
+• The Data Knowledge practice offers suppliers 
+and end-user organizations a comprehensive 
+understanding of information access, with 
+particular attention to systematic use of the 
+core decision support and knowledge 
+management technologies in the context of the 
+Web, intranets, the Internet, and enterprise 
+business applications.  The practice focuses on 
+the business value of these tools, especially 
+their role in helping management steer the 
+enterprise according to the mandates of the 
+governance board.
+3
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Core Data Knowledge Technologies
+• Data warehouses
+• Data marts
+• Query/reporting/
+analysis software
+• Enterprise reporting
+• Report mining
+• Online analytical 
+processing (OLAP) 
+software
+• Data quality and 
+enrichment software
+• Data transformation 
+software 
+• Analytical applications
+• Data mining & 
+Personalization
+• Web content management 
+• Web traffic analysis 
+• CRM (database marketing 
+and analysis) 
+• Metadata
+4
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Strategic Market Questions
+• Are end-user organizations justified in waiting 
+for vertical solutions? 
+• Will analytical applications prepare the 
+enterprise to battle competitors that are using a 
+more customizable solution?  
+• What is the value proposition of high-end, 
+analytically driven, customer relationship 
+marketing software?
+5
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Key Market Trends
+•
+Acceptance of data knowledge technologies reduces the base cost of 
+DSS to end-user organizations but increases the population of users; 
+encourages changes to supplier pricing; and prompts apex software 
+suppliers to acquire smaller companies and push goods across robust 
+channels.
+
+Leading-edge companies use analysis as a competitive weapon to 
+change the way they do business and compete for customers.
+
+Suppliers begin to embed analytical components within applications, 
+but still fail to standup to the vertical-industry challenge.
+•
+The Web has encouraged companies to assume that business 
+requires gathering external information. Because most enterprises do 
+not have applicable integration experience, third-party suppliers must 
+be prepared to instruct enterprises in best data practices.
+6
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Oracle
+• Primary Concern
+– Sell more databases by
+applying ease of use, cost
+reductions, and analytic
+functions to up- &
+cross-sell existing customers
+and convert file-systems 
+shops to database shops
+• Secondary Concern
+– Thwart Microsoft
+Messages
+The Oracle 8i-driven warehouse
+ is the center of the e-business
+universe
+Good enough for all  BI 
+Build logically, implement 
+automatically
+Select from 81  warehouse 
+schemas, automatically
+inherit performance indicators
+for finance, operations,  sales,
+marketing,  purchasing
+Embedded functionality-- data
+mining, campaign management,
+multidimensionality-- creates a 
+database appliance 
+ 
+Messages
+The Oracle 8i-driven warehouse
+ is the center of the e-business
+universe
+Good enough for all  BI 
+Build logically, implement 
+automatically
+Select from 81  warehouse 
+schemas, automatically
+inherit performance indicators
+for finance, operations,  sales,
+marketing,  purchasing
+Embedded functionality-- data
+mining, campaign management,
+multidimensionality-- creates a 
+database appliance 
+ 
+7
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Cognos
+• Primary Concern
+– Microsoft
+• Strengths
+– Large installed base
+– Large OEM channel
+– Can and does tactically
+acquire,strategically 
+integrate 
+• Should be wary of Oracle
+Facts
+Facts
+Fiscal 1999 revenue: $301M 
+Q3 revenue — $83.7M 
+50% of new BI licenses are for 
+use in e-business
+Manufactures & markets 
+Reporting, analysis, query,
+ visualization software; as well 
+a software environment for 
+building data marts that have
+shared dimensions 
+Large OEM channel, including ERP,
+call center, SFA, Essbase
+Back bone technologies for 
+scorecards, known performance 
+ indicators,  (KPIs),  visualizations, 
+portal,  data marts, applications 
+Building financial, marketing
+ and sales applications 
+ 
+Facts
+Facts
+Fiscal 1999 revenue: $301M 
+Q3 revenue — $83.7M 
+50% of new BI licenses are for 
+use in e-business
+Manufactures & markets 
+Reporting, analysis, query,
+ visualization software; as well 
+a software environment for 
+building data marts that have
+shared dimensions 
+Large OEM channel, including ERP,
+call center, SFA, Essbase
+Back bone technologies for 
+scorecards, known performance 
+ indicators,  (KPIs),  visualizations, 
+portal,  data marts, applications 
+Building financial, marketing
+ and sales applications 
+ 
+8
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Supplier Presentation: Acxiom
+• Primary Problem
+– Web cannibalizing rather
+than nurturing business
+– Only moderate success in 
+CRM
+– Lost project by project 
+revenues
+• Secondary Problem
+– Startups package
+same data but reduce hassle
+Messages
+Pinging for enrichment data
+ minimizes cost and duration
+ of batch projects
+Standardizing and enriching
+data about customers is a 
+mandatory underpinning for
+CRM applications
+Financials
+$730 million in revenue (FY99)
+53% gross profit margin
+30% of revenue coming
+from Internet data services
+Messages
+Pinging for enrichment data
+ minimizes cost and duration
+ of batch projects
+Standardizing and enriching
+data about customers is a 
+mandatory underpinning for
+CRM applications
+Financials
+$730 million in revenue (FY99)
+53% gross profit margin
+30% of revenue coming
+from Internet data services
+9
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Market Snap: Tools
+Core Tools
+1999
+2000
+2002
+2003
+CAGR
+Query and
+Reporting
+985
+1,320
+1,769
+2,370
+34%
+Enterprise
+Reporting
+193
+305
+482
+761
+58%
+OLAP
+859
+1,194
+1,660
+2,307
+39%
+Ann Apps
+543
+728
+976
+1307
+34%
+Data mining
+66
+89
+102
+118
+15%
+Content
+Management
+821
+1,100
+1,485
+2,004
+35%
+Web traffic
+Analysis
+30
+40
+72
+131
+81%
+Personalization
+27
+36
+68
+129
+89%
+Data quality &
+enrichment
+4,742
+5,880
+7,291
+9,041
+24%
+Total
+8,266
+10,692
+13,905
+18,168
+45%
+10
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Market Snap: Infrastructure
+BI Infrastructure 1999
+2000
+2001
+2002
+CAGR
+Data Warehouse
+984
+1,250
+1,588 2,016 27%
+Data mart
+132
+188
+269
+384
+43%
+ETL
+117
+138
+163
+192
+18%
+Total
+1,233 1,576
+2,020 2,592 29%
+11
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Primary Analyst Coverage
+Core Tools
+Creese
+Sheina
+Moran
+Query and Reporting
+*
+*
+Enterprise Reporting
+*
+*
+OLAP
+*
+*
+Ann Apps
+*
+*
+Data mining
+*
+*
+Content & Knowledge
+Management
+*
+*
+Web traffic Analysis
+*
+*
+*
+Personalization
+*
+*
+Data quality & enrichment *
+Note: the breakdown has training and geographic assumptions
+12
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Beat Breakdown
+Creese
+Sheina
+Moran
+CRM Analytics
+*
+Data Warehouse
+*
+*
+Data mart
+*
+*
+Metadata
+*
+ETL
+*
+Note BI infrastructure must be understood from a vertical industry perspective.  Analysts will use the infrastructure to develop vertical
+expertise and suffuse the practice with that understanding
+13
+Expanding Data Knowledge
+Source: Aberdeen Group © 2000
+Expansion Strategy
+• Add retainers via new analysts
+– Retain, cross- and up-sell retainers
+– Average of one 10K written project per current 
+retainers = 250K
+• Increase cross-group productivity
+beyond established relationships with
+– CRM, SCM, CPC
+• Personalization report (pronto) via factory
+• Increase e-activity via e. learning &
+e. profiles (first steps with Cognos)
+• Increase use of spec. pieces 

@@ -1,0 +1,24 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,ntpspr~1-728dc3,Publisher; contact: Joe Clabby at 617-854-5203.
+microsoft-corporation,Microsoft Corporation,company,Software,active,,1975-present,ntpspr~1-728dc3,ISV and NT platform vendor; also provides Microsoft Consulting Services (MCS) and Premier Support.
+amdahl-corporation,Amdahl Corporation,company,Enterprise Servers,acquired,Fujitsu (1997),1970-1997,ntpspr~1-728dc3,Acquired by Fujitsu in 1997; NT/mainframe integration specialist; EnVista server line.
+compaq-computer,Compaq Computer Corporation,company,PC/Server Hardware,acquired,HP (2002),1982-2002,ntpspr~1-728dc3,Largest NT/Intel server supplier; acquired Tandem (1997) and Digital (1998); $24.6B revenue FY97.
+data-general,Data General Corporation,company,Enterprise Servers,acquired,EMC (1999),1968-1999,ntpspr~1-728dc3,NT professional services provider; CLARiiON storage; $1.53B revenue FY97.
+digital-equipment,Digital Equipment Corporation,company,Enterprise Computing,acquired,Compaq (1998),1957-1998,ntpspr~1-728dc3,Largest Microsoft-certified NT professional services org; ~2000 MCSEs; first Microsoft Prime Integrator; $13B revenue FY97.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,split,HP Inc./HPE (2015),1939-present,ntpspr~1-728dc3,$42.9B revenue FY97; second largest IT company; PSO with ~5000 consultants driving $1.9B revenue.
+ibm-corporation,International Business Machines Corporation,company,Enterprise IT,active,,1911-present,ntpspr~1-728dc3,$78.5B revenue FY97; largest IT company; Global Services = $19B; NT strategy focuses on alternative IBM apps alongside Microsoft.
+ncr-corporation,NCR Corporation,company,Enterprise IT,active,,1884-present,ntpspr~1-728dc3,$6.6B revenue FY97; focuses on HATP and data warehousing NT markets; Exchange and SAP R/3 specialist.
+tandem-computer,Tandem Computer Corporation,company,Fault-Tolerant Servers,acquired,Compaq (1997),1974-1997,ntpspr~1-728dc3,Acquired by Compaq June 1997; CCP/NT lifecycle services program.
+unisys-corporation,Unisys Corporation,company,Enterprise IT,active,,1986-present,ntpspr~1-728dc3,$6.6B revenue FY97; strong legacy mainframe NT integration play.
+sap-ag,SAP AG,company,Enterprise Software,active,,1972-present,ntpspr~1-728dc3,$2.4B revenue FY97; ERP market leader; 4th largest ISV globally; AcceleratedSAP methodology.
+cambridge-technology-partners,Cambridge Technology Partners,company,IT Professional Services,acquired,Novell (2001),1991-2001,ntpspr~1-728dc3,$406.7M revenue FY97; fixed-time/fixed-price client/server deployment model.
+coopers-lybrand,Coopers & Lybrand,firm,Accounting / Consulting,merged,PricewaterhouseCoopers (1998),1854-1998,ntpspr~1-728dc3,$7.7B revenue FY97; merging with Price Waterhouse to form PwC.
+computer-sciences-corp,Computer Sciences Corporation (CSC),company,IT Services,renamed,DXC Technology (2017),1959-present,ntpspr~1-728dc3,$5.6B revenue FY97; 44000 employees; CA attempted hostile takeover.
+deloitte-touche,Deloitte Touche Tohmatsu International,firm,Accounting / Consulting,active,,1845-present,ntpspr~1-728dc3,$7.4B revenue FY97; Big 5 accounting and consulting.
+electronic-data-systems,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,ntpspr~1-728dc3,$15.2B revenue FY97; founded by H. Ross Perot; spun from GM in 1996.
+entex-information-services,Entex Information Services,company,IT Reseller/Services,unknown,unknown,1990s,ntpspr~1-728dc3,NT reseller and deployment services provider.
+microage-inc,"MicroAge, Inc.",company,IT Distribution/Reseller,unknown,unknown,1976-2000,ntpspr~1-728dc3,NT server reseller; value-added distributor.
+price-waterhouse,Price Waterhouse,firm,Accounting / Consulting,merged,PricewaterhouseCoopers (1998),1849-1998,ntpspr~1-728dc3,Merging with Coopers & Lybrand; reduces Big 6 to Big 5.
+sun-microsystems,Sun Microsystems,company,Workstations / Unix Servers,acquired,Oracle (2010),1982-2010,ntpspr~1-728dc3,Mentioned as a major CTP client; non-player in NT.
+oracle-corporation,Oracle Corporation,company,Database Software,active,,1977-present,ntpspr~1-728dc3,Referenced as ERP competitor and Unix database platform.
+baan-company,Baan Company,company,ERP Software,acquired,SSA (2000),1978-2000,ntpspr~1-728dc3,ERP competitor to SAP; NT deployments increasing.

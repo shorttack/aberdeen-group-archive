@@ -1,0 +1,17 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research-and-advisory,acquired,Harte-Hanks (2001),1988-2013,1999pr~2-cd0049,Institutional author and subject of memo; document is internal Aberdeen workflow artifact
+wayne-kernochan,Wayne Kernochan,person,IT-research-and-advisory,active,[none],1990s-present,1999pr~2-cd0049,Aberdeen analyst; author of memo; NOS and NT/Intel server practice area lead
+peter-kastner,Peter Kastner,person,IT-research-and-advisory,active,[none],1990s-present,1999pr~2-cd0049,Aberdeen analyst/executive; recipient of memo; Kastner archive subject
+hugh-bishop,Hugh Bishop,person,IT-research-and-advisory,unknown,unknown,1990s,1999pr~2-cd0049,CC'd on memo; Aberdeen Group colleague; role not specified
+microsoft,Microsoft,company,software,active,[none],1975-present,1999pr~2-cd0049,Dominant NOS supplier (NT Server); central to NOS and NT/Intel server practice examples in memo
+novell,Novell Inc.,company,software,unknown,Micro Focus (2011),1979-2011,1999pr~2-cd0049,"NOS supplier (NetWare/IntranetWare); Aberdeen finds not dead despite NT pressure; Eric Schmidt led Novell, 801-429-7000, Orem UT"
+ibm,IBM,company,IT-hardware-and-services,active,[none],1911-present,1999pr~2-cd0049,NOS supplier (OS/2 Warp Server); also cited in enterprise context for directory services
+compaq,Compaq Computer Corporation,company,IT-hardware,acquired,HP (2002),1982-2002,1999pr~2-cd0049,Cited as big-four NT/Intel server supplier; co-leads NT/Intel market with Microsoft and Intel
+hewlett-packard,Hewlett-Packard,company,IT-hardware-and-services,unknown,unknown,1939-present,1999pr~2-cd0049,Listed as big-four NT/Intel server supplier
+dell,Dell,company,IT-hardware,active,[none],1984-present,1999pr~2-cd0049,Listed as big-four NT/Intel server supplier
+intel,Intel,company,semiconductors,active,[none],1968-present,1999pr~2-cd0049,Co-leads NT/Intel server market; IA-64 (Merced) architecture cited as major upcoming transition
+digital-equipment-corporation,Digital Equipment Corporation,company,IT-hardware,acquired,Compaq (1998),1957-1998,1999pr~2-cd0049,Cited as second-tier NT/Intel server supplier; noted as soon-to-be-part-of-Compaq at time of writing
+ncr-corporation,NCR Corporation,company,IT-hardware,active,[none],1884-present,1999pr~2-cd0049,Listed as second-tier NT/Intel server supplier
+banyan-systems,Banyan (Vines),company,networking-software,acquired,GLUECODE/CA (2004),1983-2004,1999pr~2-cd0049,Listed as legacy NOS supplier; Aberdeen NOS practice reviews Banyan Vines installations
+digital-pathworks,Digital (PathWorks),company,networking-software,discontinued,[none],1985-1998,1999pr~2-cd0049,Listed as legacy NOS; discontinued with DEC acquisition by Compaq
+eric-schmidt,Eric Schmidt,person,technology-executive,active,[none],1955-present,1999pr~2-cd0049,Named as Novell CEO at time of memo; leading Novell's Internet Infrastructure strategy

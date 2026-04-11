@@ -1,0 +1,13 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+scada,SCADA (Supervisory Control and Data Acquisition),platform,various,1960-present,mature,active,utilit~1-0596b5,Real-time control of generation delivery and transmission; U.S. market cited as mature; new versions linking to ERP
+ems-utility,Energy Management Systems (EMS),application,various,1970-present,mature,active,utilit~1-0596b5,Online/offline control modeling and analysis for utilities; being replaced with next-gen real-time software
+cis-utility,Customer Information Systems (CIS),application,various,1985-present,early-widespread,active,utilit~1-0596b5,Essential for deregulated utility marketing and billing; cited as urgent spend area
+amr,Automated Meter Reading (AMR),platform,various,1988-present,early-commercial,mainstream,utilit~1-0596b5,Remote metering networks; feed operational and customer loading data; foundation for competitive retail electricity
+gis,Geographic Information Systems (GIS),application,various,1980-present,early-widespread,active,utilit~1-0596b5,Spatial/map-based data for network modeling asset management and outage management; Smallworld cited as leader
+erp-utility,ERP for Utilities,application,various,1995-present,early-commercial,active,utilit~1-0596b5,Horizontal ERP vendors (SAP JD Edwards) adapting for utility vertical; major adoption trend
+sap-r3,SAP R/3,application,SAP AG,1992-present,mainstream,legacy,utilit~1-0596b5,Core ERP platform; RIVA utility package with 350+ utility customers; being adopted by U.S. utilities
+banner-sct,BANNER (SCT Utility Systems),application,SCT,1990-present,niche,legacy,utilit~1-0596b5,Supply chain logistics management suite for utility CIS/call center/meter/billing
+passport-indus,PassPort (Indus International),application,Indus International,1997-present,early-commercial,legacy,utilit~1-0596b5,Work management system for engineering controls project management and labor tracking; utilities use for T&D assets
+hp-vantera,HP Vantera,platform,Hewlett-Packard,1997-present,niche,obsolete,utilit~1-0596b5,Front-end measurement and control platform linking business systems to real-time meter data sources
+oasys,OASyS (Valmet Automation),platform,Valmet,1992-present,niche,legacy,utilit~1-0596b5,Open architecture SCADA; object-based; NT-compatible; links to RDBMS and desktop applications
+risc-unix-workstation,RISC/UNIX Workstations,platform,various,1986-present,mature,legacy,utilit~1-0596b5,Typical utility control room configuration; being supplemented with distributed network nodes

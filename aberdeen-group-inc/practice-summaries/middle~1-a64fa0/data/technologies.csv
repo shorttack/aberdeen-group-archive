@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+tp-monitors,Transaction Processing (TP) Monitors,framework,,1980s-2000s,mature,legacy,middle~1-a64fa0,Handle comms multiplexing transaction routing load balancing; hundreds to thousands concurrent users
+mq-series,IBM MQSeries,application,IBM,1993-present,growth,active,middle~1-a64fa0,Message queuing product; widely popular; criticized in 1998 for inadequate admin/dev tools
+corba,CORBA (Common Object Request Broker Architecture),framework,OMG,1991-2010,emerging,legacy,middle~1-a64fa0,OMG standard for distributed object communication; competing with DCOM; interoperability issues cited
+dcom,DCOM (Distributed Component Object Model),framework,Microsoft,1996-2010,emerging,legacy,middle~1-a64fa0,Microsoft's COM-based distributed objects standard; competing with CORBA
+tuxedo,TUXEDO TP Monitor,application,BEA Systems (originally Novell),1984-present,mature,active,middle~1-a64fa0,Market-dominant TP monitor; BEA became developer and master distributor in 1996
+cgi,CGI (Common Gateway Interface),framework,,1993-2005,growth,legacy,middle~1-a64fa0,Web middleware cited as bottleneck slowing server performance in 1998
+microsoft-transaction-server,Microsoft Transaction Server (MTS),application,Microsoft,1996-2002,emerging,legacy,middle~1-a64fa0,Component-based transaction middleware; part of Microsoft middleware suite
+msmq,Microsoft Message Queue (MSMQ),application,Microsoft,1997-present,emerging,active,middle~1-a64fa0,Message queuing from Microsoft; part of integrated middleware offering
+iis-asp,IIS/Active Server Pages (ASP),application,Microsoft,1996-2002,growth,legacy,middle~1-a64fa0,Web server with scripting support; COM component integration
+visiBroker,VisiBroker ORB,application,Visigenic/Borland,1994-2000s,emerging,legacy,middle~1-a64fa0,Popular CORBA ORB from Visigenic; acquired by Borland/Inprise
+component-broker,IBM Component Broker (CB),application,IBM,1997-2001,emerging,legacy,middle~1-a64fa0,Distributed object middleware from IBM; incorporated into DB2/CICS/MQSeries
+tib-active-enterprise,TIB/ActiveEnterprise,application,TIBCO,1998-2000s,emerging,legacy,middle~1-a64fa0,Introduced early 1998; EAI-capable platform; evolved from TIB messaging
+rpc,Remote Procedure Calls (RPC),protocol,,1980s-2000s,declining,legacy,middle~1-a64fa0,Small and diminishing category in 1998; functionality built into OS; point-to-point limitation
+sap-r3,SAP R/3,application,SAP,1992-2010s,growth,legacy,middle~1-a64fa0,Leading ERP; cited as primary target for EAI middleware integration needs

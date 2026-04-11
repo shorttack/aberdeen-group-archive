@@ -1,0 +1,17 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+erp,Enterprise Resource Planning (ERP),application,multiple,1990-,mature,unknown,erppsp~1-31f088,Umbrella term for integrated packaged apps covering Finance/Accounting/Manufacturing/HR/Distribution
+sap-r3,SAP R/3,application,SAP AG,1992-,mature,unknown,erppsp~1-31f088,Client/server successor to R/2 mainframe product; dominant ERP platform with >35% market share
+sap-r2,SAP R/2,application,SAP AG,1979-1993,legacy,unknown,erppsp~1-31f088,Mainframe ERP predecessor to R/3; developed by four ex-IBM employees
+sap-asap,AcceleratedSAP (ASAP),framework,SAP AG,1996-,emerging,unknown,erppsp~1-31f088,Rapid implementation methodology added by SAP to address protracted implementation complaints
+oracle-erp,Oracle ERP Applications,application,Oracle Corporation,1994-,mature,unknown,erppsp~1-31f088,ERP modules for manufacturing/HR/sales-distribution; tightly integrated with Oracle database
+jde-oneworld,J.D. Edwards OneWorld,application,J.D. Edwards,1996-,emerging,unknown,erppsp~1-31f088,Introduced June 1996; platform-independent; built on CASE technology from 1980s; cross-platform toolset
+peoplesoft-hrms,PeopleSoft HRMS,application,PeopleSoft,1989-,mature,unknown,erppsp~1-31f088,"Market-leading HR management system since 1989; foundation product; expanded into manufacturing, distribution, finance"
+baan-series,BaanSeries,application,Baan Company,1997-,emerging,unknown,erppsp~1-31f088,Componentized ERP suite including ERP/supply chain/customer interaction; Dynamic Enterprise Modeler included
+windows-nt,Windows NT,platform,Microsoft,1993-,mature,unknown,erppsp~1-31f088,Primary client/server ERP architecture platform in 1998; Y2K-driven migration target; WINTEL strategy
+client-server,Client/Server Architecture,framework,multiple,1988-,mature,unknown,erppsp~1-31f088,Dominant architecture for ERP deployment in 1998; replacing legacy mainframe systems
+supply-chain-management,Supply Chain Management (SCM),application,multiple,1993-,emerging,unknown,erppsp~1-31f088,External-facing extension of ERP enabling automation with suppliers; extended ERP concept
+lotus-notes,Lotus Notes,application,IBM/Lotus,1989-,mature,unknown,erppsp~1-31f088,Price Waterhouse cited as early tester/implementer; used as basis for their Notes consulting practice
+value-added-networks,Value-Added Networks (VANs),protocol,multiple,1970-,declining,unknown,erppsp~1-31f088,Cost-prohibitive pre-Internet supply chain communication; being replaced by Internet-based approaches
+internet,Internet,protocol,multiple,1993-,emerging,unknown,erppsp~1-31f088,Enabling supply chain integration for smaller enterprises vs cost-prohibitive VANs; key ERP evolution driver
+ctp-momentum,Momentum (CTP),framework,Cambridge Technology Partners,1996-,emerging,unknown,erppsp~1-31f088,CTP's full suite of ERP development and deployment services; includes BPR and e-commerce services
+summit-d,SUMMIT-D,framework,Coopers & Lybrand,1995-,active,unknown,erppsp~1-31f088,C&L's proprietary ERP implementation delivery methodology covering Planning/Assessment/Development/Project Management

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Data Management: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 practice summary on the Database Management Systems (DBMS) market, covering relational, object-relational, object, embedded, and mobile DBMS categories. The report surveys major vendors including Oracle, IBM, Informix, Sybase, Microsoft, and Computer Associates, assesses turbulent 1997 market dynamics including revenue stagnation among major vendors, and forecasts the impact of Windows NT, packaged applications, commoditization, and Internet technologies on DBMS market segmentation. Aberdeen predicts continued Oracle dominance on Unix, Microsoft SQL Server growth on NT, and emerging opportunities in business intelligence, mobile user, and Web content management segments.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Middleware Technology: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 practice summary covering the middleware technology market, analyzing gateways, TP monitors, RPCs, messaging, ORBs, data access tools, EAI solutions, and application servers as distinct middleware categories. The report sizes the middleware market at approximately $6 billion by 2000, identifies the CORBA vs. DCOM standards battle as a critical industry question, and provides supplier abstracts for thirteen vendors including BEA Systems, IBM, Microsoft, TIBCO, and CrossWorlds. Key findings include that no vendor had yet delivered a fully integrated middleware solution and that market consolidation was underway.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

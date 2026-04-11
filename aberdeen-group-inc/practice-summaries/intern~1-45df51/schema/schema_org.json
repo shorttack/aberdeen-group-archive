@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Internet Infrastructures: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining the four-component architecture (Application Development Environment, Application Runtime Environment, Service Middleware, and ISP Services) and introducing the 'Internet Object Computing' (IOC) framework. The report assesses the Java vs. Microsoft COM+/DNA battle, the role of CORBA and LDAP, the maturity of EJB and distributed computing standards, and provides competitive profiles of eight major vendors: Borland/Inprise, HP, IBM, Microsoft, Netscape, Novell, Oracle, and Sybase.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

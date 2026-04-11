@@ -1,0 +1,19 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,workst~1-d22401,Boston-based research and consulting firm; author of this report
+hewlett-packard,Hewlett-Packard,company,IT-hardware,active,HP Inc. / HPE,1939-2015,workst~1-d22401,Overall combined NT+Unix workstation market leader in 1997; Kayak (NT) and B/C/J-class (Unix)
+sun-microsystems,Sun Microsystems,company,IT-hardware,dissolved,Oracle Corporation,1982-2010,workst~1-d22401,#1 Unix workstation seller in 1997 by >2:1 margin over HP; Solaris/SPARC platform
+silicon-graphics,Silicon Graphics Inc. (SGI),company,IT-hardware,dissolved,Rackable Systems -> SGI International,1982-2009,workst~1-d22401,3D graphics leader; declining market share in 1997; planning dual NT/Unix strategy
+ibm,International Business Machines (IBM),company,IT-hardware-services,active,[none],1911-present,workst~1-d22401,RS/6000 #3 Unix in 1997; IntelliStation NT line launched March 1997; #6 NT position
+compaq,Compaq Computer Corporation,company,IT-hardware,dissolved,Hewlett-Packard,1982-2002,workst~1-d22401,#2 NT workstation in 1997; acquiring Digital Equipment; Professional Workstation 5100/6000/8000
+digital-equipment,Digital Equipment Corporation (DEC),company,IT-hardware,dissolved,Compaq -> HP,1957-1998,workst~1-d22401,First to market with Personal Workstation; #4 NT in 1997; Alpha semiconductor advantage; being acquired by Compaq
+dell,Dell Computer Corporation,company,IT-hardware,active,[none],1984-present,workst~1-d22401,#3 NT workstation in 1997 within 5 months of launch; direct model; Workstation 400 then Precision 410
+intergraph-computer,Intergraph Computer Systems,company,IT-hardware,dissolved,Intergraph Corp -> Hexagon AB,1969-2010,workst~1-d22401,#5 NT in 1997; strong 3D graphics; vertical market focus; became separate division of Intergraph Corp; legal dispute with Intel
+intel,Intel Corporation,company,semiconductors,active,[none],1968-present,workst~1-d22401,IA-32 and upcoming IA-64 (Merced) processor; co-developing IA-64 with HP; lawsuit with Intergraph
+microsoft,Microsoft Corporation,company,software,active,[none],1975-present,workst~1-d22401,Windows NT OS; NT 5.0 forthcoming; NT 4.0 Y2K compliant with Service Pack 3
+gateway,Gateway Inc.,company,IT-hardware,dissolved,Acer,1985-2007,workst~1-d22401,Secondary NT workstation supplier; North Sioux City ND; direct model
+micron-electronics,Micron Electronics,company,IT-hardware,dissolved,MiCOM Communications,1978-2000,workst~1-d22401,Secondary NT workstation supplier; Nampa Idaho; direct model
+nec-computer,NEC Computer Systems Division / Packard Bell NEC,company,IT-hardware,dissolved,unknown,1990-2000,workst~1-d22401,Secondary NT workstation supplier; Mountain View CA
+netpower,NetPower,company,IT-hardware,dissolved,unknown,1994-2000,workst~1-d22401,Secondary NT workstation supplier; Sunnyvale CA
+parametric-technology,Parametric Technology Corporation (PTC),company,CAD-software,active,[none],1985-present,workst~1-d22401,Leading ISV for CAD/MCAD applications; cited as market-leading ISV for applications capture
+dassault-systemes,Dassault Systèmes,company,CAD-software,active,[none],1981-present,workst~1-d22401,Catia application suite; major on IBM RS/6000; announcing Catia availability on NT platform
+apple,Apple Computer,company,IT-hardware,active,[none],1976-present,workst~1-d22401,Dwindling PowerPC Mac market share reduces IBM RISC investment spread

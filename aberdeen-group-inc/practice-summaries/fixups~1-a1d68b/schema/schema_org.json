@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Practice Summary Production Editing Notes",
+  "description": "A one-page internal Aberdeen Group checklist of formatting and structural corrections needed across multiple 1998 Practice Summary documents. Items cover Word style mapping (heading levels vs. Table of Contents behavior), page number format inconsistencies (Roman vs. Arabic), header/footer problems, and import artifacts (double spaces after periods). Named practice summaries requiring fixes include DBMS, Electronic Commerce, Systems Management, EC Professional Services, Managed Services, Middleware, and Networking.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

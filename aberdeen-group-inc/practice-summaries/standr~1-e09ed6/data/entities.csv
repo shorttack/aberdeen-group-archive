@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+peter-kastner,Peter S. Kastner,person,IT-research,unknown,unknown,1969-present,standr~1-e09ed6,Fax sender; listed as Warden at St. Andrew's Episcopal Wellesley MA; phone 617-854-5221 days; fax 781-237-6537
+michael-lindgren,Michael Lindgren,person,unknown,unknown,unknown,unknown,standr~1-e09ed6,Fax recipient; fax number 212-592-9426 (New York area code); subject of fax is 'Claim'
+st-andrews-episcopal,St. Andrew's Episcopal Church,institution,religious,active,[none],unknown-present,standr~1-e09ed6,Wellesley MA 02409; Kastner listed as Warden

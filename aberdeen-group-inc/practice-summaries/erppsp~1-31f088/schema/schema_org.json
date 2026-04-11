@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ERP Professional Services: 1998 Practice Summary",
+  "description": "Aberdeen Group's 1998 practice summary covering the ERP professional services market, classifying providers into OEMs (Compaq, HP), ISVs (SAP, Oracle, J.D. Edwards, PeopleSoft, Baan), and Independent Professional Services Providers (IPSPs) including Big Six consultancies and specialist firms. The report categorizes ERP services into Planning, Implementation, Project Management, and Lifecycle Support, and profiles 14 suppliers with competitive assessments. Key findings highlight declining implementation costs due to new methodologies, Y2K-driven ERP adoption, and growing merger/acquisition activity among IPSPs.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1998-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

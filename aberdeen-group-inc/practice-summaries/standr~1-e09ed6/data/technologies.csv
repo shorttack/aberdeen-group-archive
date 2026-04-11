@@ -1,0 +1,3 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+fax,Facsimile (Fax) Transmission,platform,various,1964-present,mainstream,declining,standr~1-e09ed6,Communication medium used for this personal document transmission
+microsoft-word,Microsoft Word,application,Microsoft,1983-present,mainstream,active,standr~1-e09ed6,Word processing application used to create fax cover sheet template

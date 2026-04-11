@@ -1,0 +1,18 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,ntserv~1-56bd94,Publisher of this practice summary.
+microsoft-corporation,Microsoft Corporation,company,Software,active,,1975-present,ntserv~1-56bd94,Windows NT Server OS vendor; NT Cluster Server (Wolfpack) introduced fall 1997.
+intel-corporation,Intel Corporation,company,Semiconductors,active,,1968-present,ntserv~1-56bd94,Dominant server processor supplier; IA-32 (Pentium II/Xeon) and upcoming IA-64 (Merced); Enterprise Server Group in Beaverton OR.
+compaq-computer,Compaq Computer Corporation,company,PC/Server Hardware,acquired,HP (2002),1982-2002,ntserv~1-56bd94,Largest NT/Intel server supplier; $24.6B revenue; ProLiant server line; acquiring Digital.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,split,HP Inc./HPE (2015),1939-present,ntserv~1-56bd94,NT server supplier; NetServer line; co-developing IA-64 with Intel; $42.9B revenue.
+ibm-corporation,International Business Machines Corporation,company,Enterprise IT,active,,1911-present,ntserv~1-56bd94,NT server supplier; Netfinity (rebranded PC Server) line; leveraging Global Services and Lotus.
+dell-computer,Dell Computer Corporation,company,PC/Server Hardware,active,,1984-present,ntserv~1-56bd94,Direct-model NT server supplier; PowerEdge line; planned 8-way rack servers in 1998.
+digital-equipment,Digital Equipment Corporation,company,Enterprise Computing,acquired,Compaq (1998),1957-1998,ntserv~1-56bd94,Alpha microprocessor and NT services leader; ~1600 certified NT professionals; first Microsoft Prime Integrator; being acquired by Compaq.
+ncr-corporation,NCR Corporation,company,Enterprise IT,active,,1884-present,ntserv~1-56bd94,HATP-focused NT server supplier; mentioned as second-tier but niche-leading.
+data-general,Data General Corporation,company,Enterprise Servers,acquired,EMC (1999),1968-1999,ntserv~1-56bd94,Second-tier NT server supplier; CLARiiON fibre channel storage.
+netframe-micron,Netframe (a division of Micron),company,Server Hardware,unknown,unknown,1990s,ntserv~1-56bd94,Second-tier NT server supplier.
+nec-corporation,NEC Corporation,company,Electronics / Computing,active,,1899-present,ntserv~1-56bd94,Second-tier NT server supplier.
+unisys-corporation,Unisys Corporation,company,Enterprise IT,active,,1986-present,ntserv~1-56bd94,Second-tier NT server supplier; strong legacy integration services.
+gateway-inc,"Gateway, Inc.",company,PC/Server Hardware,acquired,Acer (2007),1985-2007,ntserv~1-56bd94,Second-tier NT server supplier; consumer/SMB focus.
+eds-electronic-data,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,ntserv~1-56bd94,SI partner for Dell's NT enterprise push.
+wang-laboratories,Wang Laboratories,company,Enterprise IT,acquired,Getronics (1999),1951-1999,ntserv~1-56bd94,SI and services partner mentioned for Dell enterprise fulfillment.
+tandem-computer,Tandem Computer Corporation,company,Fault-Tolerant Servers,acquired,Compaq (1997),1974-1997,ntserv~1-56bd94,Part of Compaq; ServerNet interconnect used in NT clustering benchmark.

@@ -1,0 +1,18 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,technology-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,middle~1-a64fa0,Boston-based market research and consulting firm
+active-software,Active Software,company,enterprise-software,unknown,unknown,1995-1999,middle~1-a64fa0,EAI middleware vendor; ActiveWeb product; founded 1995 Santa Clara CA; acquired by webMethods 1999
+bea-systems,BEA Systems Inc.,company,enterprise-software,unknown,unknown,1995-2008,middle~1-a64fa0,TUXEDO TP monitor vendor; partnership with Novell 1996; acquired by Oracle 2008
+borland-international,Borland International Inc. (soon to be Inprise),company,enterprise-software,unknown,unknown,1983-2009,middle~1-a64fa0,Developer tools and VisiBroker ORB vendor; renaming to Inprise noted in 1998; acquired Visigenic
+crossworlds-software,CrossWorlds Software,company,enterprise-software,unknown,unknown,1996-2001,middle~1-a64fa0,EAI middleware vendor; Burlingame CA; founded 1996; acquired by IBM 2001
+expersoft,EXPERSOFT Corporation,company,enterprise-software,unknown,unknown,1990s,middle~1-a64fa0,ORB/CORBA vendor; PowerBroker product suite; San Diego CA
+ibm,IBM Corporation,company,IT-hardware-software,active,N/A (active),1911-present,middle~1-a64fa0,MQSeries
+insession,Insession Inc.,company,enterprise-software,unknown,unknown,1990-2000s,middle~1-a64fa0,Transaction processing middleware; TransFuse product; Boulder CO; host integration specialist
+microsoft,Microsoft Corporation,company,enterprise-software,active,N/A (active),1975-present,middle~1-a64fa0,MTS
+neon-networks,New Era of Networks Inc. (NEON),company,enterprise-software,unknown,unknown,1993-2000s,middle~1-a64fa0,EAI middleware; NEONet product; focused on financial services vertical; Englewood CO
+reliant-data-systems,RELIANT Data Systems,company,enterprise-software,unknown,unknown,1990s,middle~1-a64fa0,Data migration middleware; DCLE Engine product; Austin TX
+smartdb,SmartDB Corporation,company,enterprise-software,unknown,unknown,1990s-2000s,middle~1-a64fa0,Data integration middleware; SmartDB Workbench; Oracle-centric templates; Palo Alto CA
+tibco-software,TIBCO Software Inc.,company,enterprise-software,unknown,unknown,1985-present,middle~1-a64fa0,Publish-and-subscribe middleware pioneer; TIB/ActiveEnterprise; subsidiary of Reuters; Palo Alto CA
+oracle,Oracle Corporation,company,enterprise-software,active,N/A (active),1977-present,middle~1-a64fa0,Database and middleware vendor; listed in supplier abstracts
+sybase,Sybase Inc.,company,enterprise-software,unknown,unknown,1984-2010,middle~1-a64fa0,Database and middleware vendor; listed in supplier abstracts
+visigenic,Visigenic Software,company,enterprise-software,unknown,unknown,1993-1998,middle~1-a64fa0,ORB (VisiBroker) vendor; acquired by Borland/Inprise 1997
+iona-technologies,IONA Technologies,company,enterprise-software,unknown,unknown,1991-2008,middle~1-a64fa0,CORBA ORB vendor; cited as major ORB provider alongside Visigenic and ICL

@@ -1,0 +1,18 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,technology-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,manage~1-b299e4,Boston-based market research and consulting firm; co-founded by Kastner
+ameritech,Ameritech Corporation,company,telecommunications,unknown,unknown,1983-1999,manage~1-b299e4,Regional Bell Operating Company; one of nine profiled managed service providers
+bell-atlantic,Bell Atlantic Corporation,company,telecommunications,unknown,unknown,1984-2000,manage~1-b299e4,RBOC; profiled as managed service provider; later became Verizon
+compuserve-network-services,CompuServe Network Services,company,telecommunications,unknown,unknown,1969-1998,manage~1-b299e4,Data networking division of CompuServe; profiled managed service provider
+concentric-network,Concentric Network Corporation,company,internet-services,unknown,unknown,1991-2000,manage~1-b299e4,ISP and managed network provider; profiled in report
+equant,Equant Network Services,company,telecommunications,unknown,unknown,1995-2004,manage~1-b299e4,Global data network service provider; joint venture of SITA; profiled in report
+gte-internetworking,GTE Internetworking,company,telecommunications,unknown,unknown,1996-2000,manage~1-b299e4,Internet and managed network services division of GTE
+ibm-global-services,IBM Global Services,company,IT-services,active,N/A (active),1991-present,manage~1-b299e4,IT outsourcing and managed services arm of IBM; major network outsourcer
+infonet-services,Infonet Services Corporation,company,telecommunications,unknown,unknown,1970-2005,manage~1-b299e4,Global data networking and managed services provider; profiled in report
+network-two-communications,Network Two Communications Group,company,telecommunications,unknown,unknown,1990s,manage~1-b299e4,Managed network services provider; profiled in report
+att,AT&T,company,telecommunications,active,N/A (active),1885-present,manage~1-b299e4,Major interexchange carrier; cited as network outsourcer along with EDS and IBM
+mci,MCI Communications,company,telecommunications,unknown,unknown,1963-2006,manage~1-b299e4,Interexchange carrier; offered Frame Relay and CIR-based managed services
+sprint,Sprint Corporation,company,telecommunications,unknown,unknown,1899-2020,manage~1-b299e4,Interexchange carrier; offered managed data services with SLAs
+eds,Electronic Data Systems,company,IT-services,unknown,unknown,1962-2008,manage~1-b299e4,Major IT outsourcer; cited as traditional full-network outsourcer
+worldcom-mci,WorldCom/MCI,company,telecommunications,unknown,unknown,1983-2006,manage~1-b299e4,Combined entity following WorldCom acquisition of MCI; cited as major IXC
+qwest-communications,Qwest Communications,company,telecommunications,unknown,unknown,1996-2011,manage~1-b299e4,Competitive interexchange carrier; cited as managed service provider
+xerox,Xerox Corporation,company,IT-services,active,N/A (active),1906-present,manage~1-b299e4,Cited as example of traditional corporate outsourcing supplier (non-telecom)

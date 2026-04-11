@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Internal Memo: Template for Next Round of Practice Summaries",
+  "description": "An internal Aberdeen Group memorandum from analyst Wayne Kernochan to Peter Kastner proposing a revised template for Aberdeen Practice Summary documents. The memo provides a detailed five-chapter master outline with worked examples drawn from NOS (Network Operating System) and NT/Intel server practice areas, and argues for recasting Practice Summaries as sales-oriented hot-topics vehicles. Two template versions are offered: a lightly revised version with prior-year examples and a more substantial revision emphasizing hot topics for 1999.",
+  "creator": {
+    "@type": "Person",
+    "name": "Wayne Kernochan"
+  },
+  "datePublished": "1999-04-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

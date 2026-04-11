@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+windows-nt-server-4,Windows NT Server 4.0,platform,Microsoft,1996-2000,current,obsolete,nospra~1-bd7d6a,Enterprise NOS contender; WINS directory; Y2K compliant with Service Pack 3 plus fixes.
+windows-nt-server-5,Windows NT Server 5.0,platform,Microsoft,1999-2000,pre-release,obsolete,nospra~1-bd7d6a,Renamed Windows 2000 Server; Aberdeen predicts 1999 not 1998 production release.
+novell-netware-4,Novell NetWare 4.11 / IntranetWare,platform,Novell,1993-2001,current,obsolete,nospra~1-bd7d6a,Market-share leader NOS; Y2K ready in 4.11a and 3.2; IntranetWare adds Internet connectivity features.
+novell-netware-5,Novell NetWare 5,platform,Novell,1998-2002,pre-release,obsolete,nospra~1-bd7d6a,Feature-rich successor; native IP support; Aberdeen finds beta on track for summer 1998 release.
+os2-warp-server,IBM OS/2 Warp Server,platform,IBM,1994-2000,current,obsolete,nospra~1-bd7d6a,32-bit multitasking NOS combined with LAN Server 4.0; Y2K compliant in current version.
+novell-nds,Novell Directory Services (NDS),application,Novell,1993-2005,mature,legacy,nospra~1-bd7d6a,Shipping enterprise directory service; key competitive advantage over NT.
+active-directory,Microsoft Active Directory,application,Microsoft,1997-present,pre-release,dominant,nospra~1-bd7d6a,Upcoming NT 5.0 directory service; strategic battle with NDS for enterprise supremacy.
+tcp-ip,TCP/IP Protocol Suite,protocol,IETF,1970s-present,dominant,dominant,nospra~1-bd7d6a,Dominant transport protocol replacing IPX/SPX; Internet-driven adoption.
+ipx-spx,IPX/SPX Protocol,protocol,Novell,1983-2000s,mature,obsolete,nospra~1-bd7d6a,Novell NetWare proprietary protocol; being displaced by TCP/IP.
+banyan-vines,Banyan VINES,platform,Banyan Systems,1984-2000,declining,obsolete,nospra~1-bd7d6a,Legacy NOS with installed base being managed/migrated away.
+pathworks,Digital PathWorks,platform,Digital Equipment,1987-1998,declining,obsolete,nospra~1-bd7d6a,Legacy NOS; Digital being acquired by Compaq.
+tivoli-tme10,Tivoli TME 10,application,IBM/Tivoli,1993-2000s,current,legacy,nospra~1-bd7d6a,Enterprise management framework; considered time-consuming to implement.
+ca-unicenter-tng,CA-Unicenter TNG,application,Computer Associates,1995-2005,current,legacy,nospra~1-bd7d6a,Enterprise management framework; resource-intensive; cross-platform challenging.
+intranetware,Novell IntranetWare,platform,Novell,1996-1998,current,obsolete,nospra~1-bd7d6a,NetWare 4.11 plus Internet/intranet features; web server, TCP/IP, DHCP, Java platform built-in.

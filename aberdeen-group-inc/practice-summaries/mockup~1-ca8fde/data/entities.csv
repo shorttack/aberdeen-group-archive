@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,technology-research,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,mockup~1-ca8fde,Boston-based market research and consulting firm
+ibm,IBM Corporation,company,IT-hardware-software,active,N/A (active),1911-present,mockup~1-ca8fde,OS/2 Warp Server vendor; IBM Personal Software Products division profiled
+microsoft,Microsoft Corporation,company,enterprise-software,active,N/A (active),1975-present,mockup~1-ca8fde,Windows NT Server vendor; identified as growing enterprise NOS threat
+novell,Novell Inc.,company,enterprise-software,unknown,unknown,1979-2011,mockup~1-ca8fde,NetWare NOS vendor; viability questioned in document; acquired by Attachmate 2011
+banyan-systems,Banyan Systems,company,enterprise-software,unknown,unknown,1983-2004,mockup~1-ca8fde,VINES NOS vendor; identified as legacy NOS alongside Digital PathWorks
+digital-equipment,Digital Equipment Corporation (DEC),company,IT-hardware-software,unknown,unknown,1957-1998,mockup~1-ca8fde,PathWorks NOS vendor; cited as legacy NOS being displaced; acquired by Compaq 1998

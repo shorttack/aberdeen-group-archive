@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+client-server,Client-Server Architecture,platform,Various,1988-1998,mature,legacy-active,health~1-056358,Core architecture enabling HIS management information applications; merging with legacy mainframe access.
+intranet,Intranet,platform,Various,1990s,emerging,dominant,health~1-056358,Internal Internet-protocol networks for information sharing within healthcare enterprises.
+internet-web,Internet / World Wide Web,platform,Various,1993-present,growth,dominant,health~1-056358,"Used by 70%+ of physicians for research; emerging platform for enrollment, claims processing, patient information."
+data-warehouse,Data Warehousing,application,Various,1990-present,growth,active,health~1-056358,Foundation for decision support in healthcare; terabyte-scale relational databases typically on high-end Unix servers.
+electronic-medical-record,Electronic Medical Record (EMR),application,Various,1990s,emerging,dominant,health~1-056358,Enterprise patient record concept; most solutions departmental-level in 1998; 'who owns the data' ownership question unresolved.
+speech-recognition,Speech Recognition,application,Various,1990s,emerging,mainstream,health~1-056358,IBM MedSpeak for Radiology cited as example; continuous speech dictation beginning to emerge; previously limited by vocabulary and pausing requirements.
+pacs,Picture Archiving and Communication Systems (PACS),application,Various,1990s,emerging,mainstream,health~1-056358,Enables electronic sharing of X-rays and CAT scans; declining price points making available to smaller providers.
+telemedicine,Telemedicine,application,Various,1990s,emerging,active,health~1-056358,Remote patient monitoring via teleconferencing; web-based store-and-forward technology as low-cost medium.
+wireless-healthcare,Wireless Technologies (Healthcare),platform,Various,1990s,emerging,mainstream,health~1-056358,Implemented for inpatient medication and home health; cited as increasingly critical communication medium.
+windows-nt,Microsoft Windows NT,platform,Microsoft,1993-,emerging,legacy,health~1-056358,Powerful and cost-effective; rapidly growing in healthcare; Visteon and SMS (Visteon partnership) building on Microsoft technologies.
+legacy-mainframe,Legacy Mainframe Systems,platform,Various,1960s-1990s,mature,declining,health~1-056358,Original custom-developed HIS; most still in use; a major challenge in IDN consolidation.
+patient-education-tech,Patient Education Technology,application,Various,1990s,emerging,active,health~1-056358,"CD-ROM databases, videotapes, Web-based patient education; non-labor-intensive patient education tool."
+bar-coding,Bar Coding,application,Various,1980s-1990s,mature,mainstream,health~1-056358,Used in radiology and other clinical applications to facilitate data capture and reduce transcription errors.
+hna,Cerner Health Network Architecture (HNA),framework,Cerner Corporation,1990s,emerging,unknown,health~1-056358,Cerner's single-infrastructure philosophy for enterprise-wide person-centric HIS.

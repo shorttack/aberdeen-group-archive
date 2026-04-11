@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+intel,Intel Corporation,company,Semiconductor,active,,1968-present,intel-ia2004-pk4-kc-edits-de9c37,Subject of white paper; IA strategy analyzed; produced in collaboration with Intel.
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,intel-ia2004-pk4-kc-edits-de9c37,Author organization; Boston-based market research and consulting firm.
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,intel-ia2004-pk4-kc-edits-de9c37,Author; Group VP Aberdeen Group.
+dell,Dell,company,Enterprise IT Hardware,active,,1984-present,intel-ia2004-pk4-kc-edits-de9c37,Cited as Fortune 500 company running complex business on clusters of two-way IA32 servers.
+oracle,Oracle,company,Enterprise Software/Database,active,,1977-present,intel-ia2004-pk4-kc-edits-de9c37,Cited alongside Dell as running business on IA32 server clusters.
+pci-sig,PCI-SIG,institution,Technology Standards,active,,1992-present,intel-ia2004-pk4-kc-edits-de9c37,"Standards body maintaining PCI, PCI-X, and PCI Express specifications."

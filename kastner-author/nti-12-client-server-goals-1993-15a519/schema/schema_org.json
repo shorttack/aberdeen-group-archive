@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Realistic Goals for Client-Server Computing",
+  "description": "Aberdeen Group defines and evaluates the client-server computing paradigm across five critical planning areas: client hardware options, scalable server architectures, legacy system roles, systems software transitions, and network infrastructure. The study covers current client-server implementations and traces the evolution to advanced designs including distributed relational and object-oriented databases, cascading server-to-server transactions, and intelligent high-speed networks. Aberdeen concludes that client-server drives the next-generation computing vision but warns that the installed base technology does not yet fully support the vision and that significant non-technical barriers\u2014management vision, process reengineering, and training\u2014must be overcome.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -726,9 +726,9 @@
       "source": "https://www.datacenterknowledge.com/investing/schneider-buys-apc-for-6-1-billion \u2014 Schneider Electric acquired APC (American Power Conversion) for $6.1 billion, closed 2007. APC brand continues under Schneider Electric."
     },
     "computer-associates": {
-      "status": "acquired",
-      "successor": "Broadcom Inc. (acquired November 2018, renamed CA Technologies)",
-      "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-completes-acquisition-ca-technologies \u2014 Broadcom completed acquisition of CA Technologies (formerly Computer Associates) for $18.9 billion on November 5, 2018."
+      "status": "renamed",
+      "successor": "Renamed CA Technologies (2006), then acquired by Broadcom (2018 for $18.9B)",
+      "source": "Known / public record \u2014 CA renamed 2006; Broadcom acquired CA Technologies in 2018"
     },
     "powerquest": {
       "status": "acquired",
@@ -761,9 +761,9 @@
       "source": "https://stockanalysis.com/quote/etr/IFX/market-cap/ \u2014 Infineon Technologies AG (ETR: IFX) is active; market cap ~\u20ac55B as of 2025. Spun off from Siemens in 2000, headquartered in Munich."
     },
     "motorola": {
-      "status": "reorganized",
-      "successor": "Motorola Solutions (active) + Motorola Mobility (acquired by Google 2012, sold to Lenovo 2014)",
-      "source": "https://en.wikipedia.org/wiki/Motorola_Solutions \u2014 Motorola Inc. split into Motorola Solutions and Motorola Mobility on January 4, 2011. Google acquired Motorola Mobility for $12.5B in 2012; sold to Lenovo in 2014."
+      "status": "split",
+      "successor": "Split into Motorola Mobility (Google 2012 -> Lenovo 2014) and Motorola Solutions (active)",
+      "source": "Known / public record \u2014 Motorola split in 2011; Mobility sold to Google then Lenovo; Solutions remains active"
     },
     "compal-electronics": {
       "status": "active",
@@ -843,6 +843,481 @@
       "successor": null,
       "notes": "Herbert Marshall McLuhan (July 21, 1911 \u2013 December 31, 1980). Canadian philosopher and media theorist, University of Toronto. Famous for 'the medium is the message' and 'global village' concepts. Suffered stroke September 1979; died in sleep December 31, 1980. Legacy remains influential in media studies and digital age discourse.",
       "source": "https://en.wikipedia.org/wiki/Marshall_McLuhan"
+    },
+    "16pf-assessment": {
+      "status": "active",
+      "successor": "",
+      "notes": "OPP Ltd (UK) publishes the 16PF assessment; still commercially available"
+    },
+    "ali-kamali": {
+      "status": "unknown",
+      "successor": "",
+      "notes": "Person at DubTech '96 reception; no public profile found"
+    },
+    "andersen-consulting": {
+      "status": "renamed",
+      "successor": "Accenture (renamed January 1, 2001)",
+      "source": "https://en.wikipedia.org/wiki/Accenture \u2014 Andersen Consulting became Accenture on Jan 1 2001 after arbitration with Arthur Andersen"
+    },
+    "arthur-d-little": {
+      "status": "active",
+      "successor": "",
+      "notes": "Filed bankruptcy 2002; US assets to TIAX LLC; non-US to Altran; MBO 2011; re-established US 2016; now ~1000 employees HQ Brussels"
+    },
+    "ask-group": {
+      "status": "acquired",
+      "successor": "Computer Associates (acquired 1994 for $311M)",
+      "source": "https://en.wikipedia.org/wiki/ASK_Group \u2014 CA acquired ASK Group in 1994"
+    },
+    "att-gis": {
+      "status": "renamed",
+      "successor": "NCR Corporation",
+      "notes": "AT&T GIS was the renamed NCR after 1991 AT&T acquisition; reverted to NCR name 1996"
+    },
+    "blyth-software": {
+      "status": "acquired",
+      "successor": "Renamed Blyth Industries, then Omnis Technology; acquired by TigerLogic (now Datawatch)",
+      "source": "Known / public record \u2014 Blyth Software renamed multiple times, eventually acquired"
+    },
+    "chase-manhattan": {
+      "status": "merged",
+      "successor": "JPMorgan Chase",
+      "notes": "Merged with J.P. Morgan & Co. in 2000 to form JPMorgan Chase"
+    },
+    "continental-forest-industries": {
+      "status": "unknown",
+      "successor": "",
+      "notes": "Paper mill company; no current public information found"
+    },
+    "cray-research": {
+      "status": "acquired",
+      "successor": "Cray Inc. (HPE)",
+      "notes": "Acquired by SGI 1996 for $740M; sold to Tera Computer 2000 (renamed Cray Inc.); acquired by HPE 2019"
+    },
+    "data-general": {
+      "status": "acquired",
+      "successor": "EMC Corporation (acquired 1999)",
+      "source": "Known / public record \u2014 EMC acquired Data General in 1999"
+    },
+    "digital-equipment": {
+      "status": "acquired",
+      "successor": "Compaq -> HP Inc.",
+      "notes": "Acquired by Compaq 1998 for $9.6B; Compaq merged with HP 2002"
+    },
+    "dubai-ports-authority": {
+      "status": "reorganized",
+      "successor": "DP World",
+      "notes": "Merged into DP World; Sultan bin Sulayem was chairman/CEO until Feb 2026"
+    },
+    "frank-hawthorne": {
+      "status": "unknown",
+      "successor": "",
+      "notes": "Person referenced in Kastner memoir; ADL colleague"
+    },
+    "fujitsu": {
+      "status": "active",
+      "successor": "",
+      "notes": "Fujitsu Ltd (TYO:6702) active; major IT services company"
+    },
+    "holiday-inn-crowne-plaza-dubai": {
+      "status": "rebranded",
+      "successor": "Crowne Plaza Dubai",
+      "notes": "IHG property; Holiday Inn Crowne Plaza brand transitioned to standalone Crowne Plaza brand"
+    },
+    "houghton-mifflin": {
+      "status": "merged",
+      "successor": "HarperCollins (trade) / Houghton Mifflin Harcourt (education)",
+      "notes": "Trade division sold to HarperCollins 2021; education division now Houghton Mifflin Harcourt"
+    },
+    "hp": {
+      "status": "split",
+      "successor": "HP Inc. + Hewlett Packard Enterprise",
+      "notes": "Split into HP Inc. (PCs/printers) and HPE (enterprise) in 2015"
+    },
+    "ibi": {
+      "status": "acquired",
+      "successor": "TIBCO Software",
+      "notes": "Information Builders acquired by TIBCO Software 2021"
+    },
+    "informix": {
+      "status": "acquired",
+      "successor": "IBM",
+      "notes": "Database business acquired by IBM 2001 for $1B; Informix brand continues under IBM/HCL"
+    },
+    "ixos-software": {
+      "status": "acquired",
+      "successor": "Open Text",
+      "notes": "Acquired by Open Text 2003 for ~$225M"
+    },
+    "james-hurley": {
+      "status": "unknown",
+      "successor": "",
+      "notes": "Person at DubTech '96 reception; Aberdeen Group associate"
+    },
+    "jebel-ali-free-zone-authority": {
+      "status": "active",
+      "successor": "",
+      "notes": "Part of PCFC/DP World group; Jebel Ali Free Zone (JAFZA) still operational"
+    },
+    "john-logan": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No reliable public record found for John Logan in the Aberdeen Group context beyond his co-authorship of the NTI series"
+    },
+    "khaleej-times": {
+      "status": "active",
+      "successor": "",
+      "notes": "Major English-language newspaper in Dubai; still publishing"
+    },
+    "legent": {
+      "status": "acquired",
+      "successor": "Computer Associates (Broadcom)",
+      "notes": "Acquired by Computer Associates 1995 for $1.78B"
+    },
+    "ncr": {
+      "status": "split",
+      "successor": "Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023",
+      "source": "https://en.wikipedia.org/wiki/NCR_Voyix \u2014 NCR Corporation split into NCR Voyix and NCR Atleos in Oct 2023"
+    },
+    "novell": {
+      "status": "acquired",
+      "successor": "Attachmate (2011 for $2.2B) -> Micro Focus (2014) -> OpenText (2023)",
+      "source": "Known / public record \u2014 Novell acquired by Attachmate 2011, then Micro Focus, then OpenText"
+    },
+    "phi-computer-services": {
+      "status": "unknown",
+      "successor": "",
+      "notes": "Kastner's first employer 1969; no current information"
+    },
+    "powersoft": {
+      "status": "acquired",
+      "successor": "Sybase (merged 1995 for $940M); Sybase then acquired by SAP (2010)",
+      "source": "https://www.latimes.com/archives/la-xpm-1994-11-15-fi-63027-story.html \u2014 Sybase acquired Powersoft in 1995 for $940M"
+    },
+    "prime-computer": {
+      "status": "dissolved",
+      "successor": "Computervision (PTC)",
+      "notes": "Acquired Computervision 1988; renamed to Computervision; acquired by PTC 1998"
+    },
+    "progress-software": {
+      "status": "active",
+      "successor": "",
+      "source": "Known / public record \u2014 Progress Software Corporation remains active, NYSE: PRGS"
+    },
+    "red-brick": {
+      "status": "acquired",
+      "successor": "Informix (IBM)",
+      "notes": "Acquired by Informix 1998 for ~$35M; Informix then acquired by IBM 2001"
+    },
+    "sandy-kurzig": {
+      "status": "active",
+      "successor": "",
+      "notes": "Sandra Kurtzig; ASK Group founder; later founded Kenandy (cloud ERP)"
+    },
+    "sequent-computer-systems": {
+      "status": "acquired",
+      "successor": "IBM",
+      "notes": "Acquired by IBM July 1999 for $810M; NUMA technology integrated into IBM servers"
+    },
+    "software-ag": {
+      "status": "restructured",
+      "successor": "Software GmbH",
+      "notes": "Taken private by Silver Lake 2023; webMethods sold to IBM 2024; Adabas & Natural spinning off as standalone"
+    },
+    "stratus-computer": {
+      "status": "active",
+      "successor": "Stratus Technologies (Penguin Solutions)",
+      "notes": "Now Stratus Technologies; ftServer product line active; part of Penguin Solutions"
+    },
+    "sultan-bin-sulayem": {
+      "status": "active",
+      "successor": "",
+      "notes": "Emirati businessman; was DP World chairman/CEO until Feb 2026 resignation"
+    },
+    "sybase": {
+      "status": "acquired",
+      "successor": "SAP",
+      "notes": "Acquired by SAP 2010 for $5.8B; SAP ASE and other products continue"
+    },
+    "tandem-computers": {
+      "status": "acquired",
+      "successor": "Compaq -> HP -> HPE",
+      "notes": "Acquired by Compaq 1997 for $3B; NonStop product line now at HPE"
+    },
+    "teradata": {
+      "status": "active",
+      "successor": "",
+      "notes": "Teradata Corp (NYSE:TDC) active; data warehouse/analytics platform"
+    },
+    "tivoli-systems": {
+      "status": "acquired",
+      "successor": "IBM",
+      "notes": "Acquired by IBM 1996 for $743M; Tivoli brand used until IBM reorganizations"
+    },
+    "usm-corporation": {
+      "status": "acquired",
+      "successor": "Emhart -> Black & Decker",
+      "notes": "Renamed from United Shoe Machinery 1968; merged with Emhart 1976; B&D acquired Emhart 1989"
+    },
+    "wang-laboratories": {
+      "status": "dissolved",
+      "successor": "Getronics -> CompuCom",
+      "notes": "Bankruptcy 1992; renamed Wang Global; acquired by Getronics 1999; sold to CompuCom 2008"
+    },
+    "wisconsin-electric": {
+      "status": "reorganized",
+      "successor": "WEC Energy Group",
+      "notes": "Now subsidiary of WEC Energy Group (NYSE:WEC); Wisconsin Electric Power Company still operates"
+    },
+    "morgan-keegan": {
+      "status": "acquired",
+      "successor": "Raymond James Financial (acquired 2012 for $930M)",
+      "source": "https://www.tampabay.com/news/business/banking/raymond-james-buys-morgan-keegan-in-930-million-deal/1210164/ \u2014 Raymond James Financial acquired Morgan Keegan in 2012"
+    },
+    "charles-t-casale": {
+      "status": "active",
+      "successor": "",
+      "source": "https://www.linkedin.com/in/charles-casale-41824a174 \u2014 Charles Casale, Casale Group, Albany NY area. Co-founded Aberdeen Group with Peter Kastner."
+    },
+    "warner-communications-atari": {
+      "status": "dissolved",
+      "successor": "Atari Inc. sold to Jack Tramiel (1984); Warner merged with Time Inc. to form Time Warner (1990)",
+      "source": "Known / public record \u2014 Warner Communications sold Atari home computing division to Jack Tramiel in 1984; Warner merged with Time Inc. in 1990 to form Time Warner"
+    },
+    "digital-equipment-corporation": {
+      "status": "acquired",
+      "successor": "Compaq (1998), then Hewlett-Packard (2002)",
+      "source": "Known / public record \u2014 DEC acquired by Compaq in 1998 for $9.6B; Compaq then acquired by HP in 2002"
+    },
+    "datapoint-corporation": {
+      "status": "dissolved",
+      "successor": "Taken over by Asher Edelman; broken up 1984-2000; bankruptcy filed May 3, 2000",
+      "source": "https://en.wikipedia.org/wiki/Datapoint \u2014 Founded July 1968; bankruptcy May 3, 2000. Taken over by Edelman, broken up. Video tech sold to Vugate Dec 1999. Datapoint USA Inc. assumed RMS products Apr 2003."
+    },
+    "fti-fast-track-incorporated": {
+      "status": "fictional",
+      "successor": "",
+      "source": "Fictional composite company created by Casale for EVP series analytical framework"
+    },
+    "fti-composite": {
+      "status": "fictional",
+      "successor": "",
+      "source": "Fictional composite company (alternate ID for FTI) used in EVP series"
+    },
+    "bam-analyst": {
+      "status": "fictional",
+      "successor": "",
+      "source": "Fictional analyst persona (Better Asset Management) used as narrative device in EVP 5"
+    },
+    "stanford-storm": {
+      "status": "active",
+      "successor": "",
+      "source": "https://storm.genie.stanford.edu \u2014 Stanford STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective question asking), Stanford University Open Virtual Assistant Lab, active as of 2024"
+    },
+    "computervision-corporation": {
+      "status": "acquired",
+      "successor": "Acquired by Parametric Technology (PTC) in 1998",
+      "source": "Known / public record \u2014 Computervision acquired by PTC in 1998. Previously merged with Prime Computer in 1989."
+    },
+    "apple-computer": {
+      "status": "active",
+      "successor": "Renamed Apple Inc. (2007)",
+      "source": "Known / public record \u2014 Apple Computer renamed Apple Inc. in 2007; active as of 2025"
+    },
+    "charles-babbage": {
+      "status": "deceased",
+      "successor": "",
+      "source": "Known / public record \u2014 Charles Babbage (1791-1871), pioneer of computing, deceased"
+    },
+    "amdahl": {
+      "status": "acquired",
+      "successor": "Fujitsu (wholly owned subsidiary 1997 for $878M); exited mainframes 2000",
+      "source": "https://www.fundinguniverse.com/company-histories/amdahl-corporation-history/ \u2014 Fujitsu acquired remaining 58% in 1997"
+    },
+    "ask-computer": {
+      "status": "acquired",
+      "successor": "Computer Associates (acquired 1994 for $311M)",
+      "source": "https://en.wikipedia.org/wiki/ASK_Group \u2014 CA acquired ASK Group in 1994"
+    },
+    "atm-forum": {
+      "status": "dissolved",
+      "successor": "Merged into Broadband Forum (2005)",
+      "source": "Known / public record \u2014 ATM Forum merged with DSL Forum to form Broadband Forum in 2005"
+    },
+    "att": {
+      "status": "acquired",
+      "successor": "SBC Communications acquired AT&T Corp in 2005; renamed itself AT&T Inc.",
+      "source": "https://investors.att.com/stockholder-services/cost-basis-guide/worksheet/att-corp \u2014 SBC acquired AT&T Corp in 2005"
+    },
+    "auspex-systems": {
+      "status": "acquired",
+      "successor": "Network Appliance (NetApp) acquired 2003",
+      "source": "Known / public record \u2014 NetApp acquired Auspex in 2003"
+    },
+    "banyan-systems": {
+      "status": "dissolved",
+      "successor": "Renamed ePresence (1999); assets acquired by Unisys (2003); ceased operations Oct 2003",
+      "source": "https://en.wikipedia.org/wiki/Banyan_Systems \u2014 Renamed ePresence 1999, ceased operations Oct 24 2003, assets to Unisys"
+    },
+    "bull": {
+      "status": "acquired",
+      "successor": "Atos (acquired Bull 2014 for \u20ac620M)",
+      "source": "Known / public record \u2014 Atos acquired Bull in 2014"
+    },
+    "cognos": {
+      "status": "acquired",
+      "successor": "IBM (acquired 2008 for $5B)",
+      "source": "Known / public record \u2014 IBM acquired Cognos in 2008 for approximately $5 billion"
+    },
+    "cooperative-solutions": {
+      "status": "dissolved",
+      "successor": "Acquired by Sybase mid-1990s; product line discontinued",
+      "source": "Known \u2014 Cooperative Solutions was a small middleware vendor absorbed into Sybase"
+    },
+    "forte-software": {
+      "status": "acquired",
+      "successor": "Sun Microsystems (acquired 1999 for $540M)",
+      "source": "https://www.nytimes.com/1999/08/24/business/sun-microsystems-to-buy-forte-in-540-million-deal.html \u2014 Sun bought Forte for $540M in 1999"
+    },
+    "gateway": {
+      "status": "acquired",
+      "successor": "Acer (acquired 2007 for $710M)",
+      "source": "Known / public record \u2014 Acer acquired Gateway in 2007"
+    },
+    "gupta-technologies": {
+      "status": "acquired",
+      "successor": "Renamed Centura Software (1996); bankruptcy 2001; assets to Unify Corp (2006); then OpenText (2015)",
+      "source": "https://en.wikipedia.org/wiki/Gupta_Technologies \u2014 Renamed Centura late 1990s, Ch.11 2001, acquired by Unify 2006, then OpenText 2015"
+    },
+    "hyperdesk": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "Known \u2014 Hyperdesk Corporation (ORB middleware) was a small vendor that dissolved in the mid-1990s"
+    },
+    "ingres": {
+      "status": "acquired",
+      "successor": "ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021)",
+      "source": "https://en.wikipedia.org/wiki/Ingres_(database) \u2014 Complex chain: ASK acquired Ingres 1990, CA acquired ASK 1994, Ingres spun off 2005, renamed Actian 2011"
+    },
+    "intersolv": {
+      "status": "acquired",
+      "successor": "Merged with MERANT (1998); then Serena Software (2004); then Micro Focus",
+      "source": "Known / public record \u2014 INTERSOLV merged with MERANT 1998"
+    },
+    "knowledgeware": {
+      "status": "acquired",
+      "successor": "Sterling Software (acquired 1994 for $74M); Sterling then acquired by Computer Associates (2000 for $3.3B)",
+      "source": "https://en.wikipedia.org/wiki/Sterling_Software \u2014 Sterling acquired KnowledgeWare in 1994; CA acquired Sterling in 2000"
+    },
+    "lotus-development": {
+      "status": "acquired",
+      "successor": "IBM (acquired 1995 for $3.5B)",
+      "source": "Known / public record \u2014 IBM acquired Lotus Development in 1995 for $3.5 billion"
+    },
+    "netframe": {
+      "status": "acquired",
+      "successor": "Micron Electronics (acquired 1996)",
+      "source": "Known / public record \u2014 Micron acquired NetFrame Systems in 1996"
+    },
+    "next-computer": {
+      "status": "acquired",
+      "successor": "Apple Computer (acquired 1997 for $429M); NeXTSTEP became basis of Mac OS X",
+      "source": "Known / public record \u2014 Apple acquired NeXT in 1997; Steve Jobs returned to Apple"
+    },
+    "osf": {
+      "status": "merged",
+      "successor": "Merged with X/Open to form The Open Group (1996)",
+      "source": "https://en.wikipedia.org/wiki/Open_Software_Foundation \u2014 OSF merged with X/Open in 1996 to become The Open Group"
+    },
+    "proteon": {
+      "status": "dissolved",
+      "successor": "Filed bankruptcy late 1990s; assets dissolved",
+      "source": "Known \u2014 Proteon Inc. was a Token Ring networking vendor that went bankrupt in the late 1990s"
+    },
+    "pyramid-technology": {
+      "status": "acquired",
+      "successor": "Siemens Nixdorf (acquired 1995)",
+      "source": "Known / public record \u2014 Siemens Nixdorf acquired Pyramid Technology in 1995"
+    },
+    "santa-cruz-operation": {
+      "status": "renamed",
+      "successor": "Sold Unix business to Caldera (2001); SCO name acquired by Caldera (renamed SCO Group); original SCO became Tarantella -> acquired by Sun 2005",
+      "source": "Known / public record \u2014 SCO sold Unix to Caldera 2001; remainder became Tarantella, acquired by Sun"
+    },
+    "sco": {
+      "status": "renamed",
+      "successor": "Same as santa-cruz-operation: Caldera acquired Unix assets (2001), renamed itself SCO Group (infamous Linux lawsuit)",
+      "source": "Known / public record \u2014 Complex SCO history involving Caldera/SCO Group Linux litigation"
+    },
+    "sequent-computer": {
+      "status": "acquired",
+      "successor": "IBM (acquired 1999 for $810M)",
+      "source": "https://en.wikipedia.org/wiki/Sequent_Computer_Systems \u2014 IBM acquired Sequent in 1999 for $810M"
+    },
+    "silicon-graphics": {
+      "status": "dissolved",
+      "successor": "Bankruptcy 2006; assets acquired by Rackable Systems (2009 for $25M); renamed SGI; then acquired by HPE (2016)",
+      "source": "https://quantumzeitgeist.com/what-happened-to-the-silicon-graphics-company/ \u2014 SGI bankruptcy 2006, Rackable bought assets 2009, HPE acquired 2016"
+    },
+    "smartstar": {
+      "status": "dissolved",
+      "successor": "",
+      "source": "Known \u2014 SmartStar Corporation was a small 4GL vendor that did not survive the 1990s"
+    },
+    "steve-jobs": {
+      "status": "deceased",
+      "successor": "",
+      "source": "Known / public record \u2014 Steve Jobs (1955-2011), co-founder of Apple, died October 5, 2011"
+    },
+    "taligent": {
+      "status": "dissolved",
+      "successor": "Absorbed into IBM (1996-1998); technology became part of VisualAge",
+      "source": "https://en.wikipedia.org/wiki/Taligent \u2014 Apple/HP withdrew 1995; IBM subsidiary until dissolved Jan 1998"
+    },
+    "thomas-willmott": {
+      "status": "unknown",
+      "successor": "",
+      "source": "No reliable public record found for Thomas Willmott beyond Aberdeen Group NTI co-authorship"
+    },
+    "transarc": {
+      "status": "acquired",
+      "successor": "IBM (acquired 1994); became IBM Pittsburgh Lab (2001); lab closed 2002",
+      "source": "https://en.wikipedia.org/wiki/Transarc \u2014 IBM acquired Transarc in 1994; lab closed 2002"
+    },
+    "tricord-systems": {
+      "status": "dissolved",
+      "successor": "Filed bankruptcy mid-1990s; assets dissolved",
+      "source": "Known \u2014 Tricord Systems was a superserver vendor that failed in the mid-1990s"
+    },
+    "uniface": {
+      "status": "acquired",
+      "successor": "Compuware (acquired 1994); then Rocket Software acquired Compuware's Uniface unit",
+      "source": "Known / public record \u2014 Compuware acquired Uniface BV in 1994"
+    },
+    "unify-corporation": {
+      "status": "acquired",
+      "successor": "Merged with Daegis (2010); acquired Gupta Technologies; then OpenText acquired (2015)",
+      "source": "Known / public record \u2014 Unify Corporation acquired Gupta 2006, merged with Daegis 2010"
+    },
+    "unix-international": {
+      "status": "dissolved",
+      "successor": "Dissolved ~1993 after COSE agreement unified Unix camps",
+      "source": "Known / public record \u2014 Unix International dissolved after AT&T/Sun rivalry ended with COSE initiative 1993"
+    },
+    "usl": {
+      "status": "acquired",
+      "successor": "Novell (acquired USL from AT&T 1993 for ~$300M); Unix rights transferred to X/Open (1994)",
+      "source": "Known / public record \u2014 Novell acquired USL from AT&T in 1993; Unix trademark to X/Open 1994"
+    },
+    "visix-software": {
+      "status": "dissolved",
+      "successor": "Dissolved late 1990s; Galaxy framework discontinued",
+      "source": "Known \u2014 VISIX Software (Galaxy cross-platform framework) was a small vendor that dissolved"
+    },
+    "xopen": {
+      "status": "merged",
+      "successor": "Merged with OSF to form The Open Group (1996)",
+      "source": "https://en.wikipedia.org/wiki/X/Open \u2014 X/Open merged with OSF in 1996 to form The Open Group"
     }
   },
   "technologies": {
@@ -2590,6 +3065,434 @@
       "lifecycle_current": "evolved",
       "notes": "WebEx Multipoint Video Conferencing was a feature of the original WebEx platform. Post-Cisco acquisition, multipoint video was integrated into and superseded by Cisco's broader video conferencing portfolio (Cisco TelePresence, Cisco Webex). Current Webex supports multi-participant HD video natively. The distinct 'WebEx multipoint video' product designation no longer exists; functionality lives on in unified Webex platform.",
       "source": "https://en.wikipedia.org/wiki/Webex"
+    },
+    "16pf-instrument": {
+      "lifecycle_current": "active",
+      "notes": "16PF Fifth Edition still commercially available from OPP/Pearson"
+    },
+    "4gl": {
+      "lifecycle_current": "legacy-niche",
+      "notes": "4GL concept superseded by modern frameworks; some products (Progress, PowerBuilder) survive"
+    },
+    "96-column-card": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM System/3 format; last used 1970s-80s"
+    },
+    "adabas-d": {
+      "lifecycle_current": "active",
+      "notes": "Software AG Adabas still actively developed; 2050+ roadmap announced"
+    },
+    "alpha-axp": {
+      "lifecycle_current": "obsolete",
+      "notes": "DEC Alpha discontinued by HP 2004; last systems shipped ~2007"
+    },
+    "as400": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Renamed iSeries, then System i, now IBM Power; IBM i OS still supported"
+    },
+    "assembler": {
+      "lifecycle_current": "active-niche",
+      "notes": "Assembly still used in embedded/systems programming; x86, ARM variants"
+    },
+    "att-unix-svr4": {
+      "lifecycle_current": "obsolete",
+      "notes": "AT&T Unix SVR4 superseded; derivatives live on in Solaris, AIX"
+    },
+    "ca-ingres": {
+      "lifecycle_current": "active-open-source",
+      "notes": "Became Ingres open source 2004; now Actian Ingres"
+    },
+    "ca-openroad": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "Actian OpenROAD still supported; very small user base"
+    },
+    "ca-unicenter": {
+      "lifecycle_current": "legacy-rebranded",
+      "notes": "Became CA Unicenter, then Broadcom DX NetOps; still supported"
+    },
+    "case-tools": {
+      "lifecycle_current": "obsolete-concept",
+      "notes": "CASE methodology superseded by modern IDEs and agile tools"
+    },
+    "client-server": {
+      "lifecycle_current": "evolved",
+      "notes": "Architecture evolved into n-tier, SOA, microservices, cloud"
+    },
+    "compaq-proliant-4000": {
+      "lifecycle_current": "obsolete",
+      "notes": "Compaq ProLiant 4000 from mid-1990s; ProLiant brand continues under HPE"
+    },
+    "data-propagator": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM DataPropagator replication; replaced by IBM InfoSphere tools"
+    },
+    "data-warehouse": {
+      "lifecycle_current": "active-evolved",
+      "notes": "Data warehousing mainstream; evolved to cloud DW (Snowflake, BigQuery, Redshift)"
+    },
+    "datacom": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "CA Datacom still supported by Broadcom; legacy mainframe DBMS"
+    },
+    "db2-6000": {
+      "lifecycle_current": "evolved",
+      "notes": "Evolved into DB2 for Linux/Unix/Windows (DB2 LUW)"
+    },
+    "db2-aix": {
+      "lifecycle_current": "active",
+      "notes": "DB2 for AIX still supported as part of DB2 LUW"
+    },
+    "decnet": {
+      "lifecycle_current": "obsolete",
+      "notes": "DECnet Phase IV/V; largely replaced by TCP/IP in 1990s"
+    },
+    "desktop-software": {
+      "lifecycle_current": "active-evolved",
+      "notes": "Desktop software category still exists but shifting to SaaS/cloud"
+    },
+    "dg-eclipse": {
+      "lifecycle_current": "obsolete",
+      "notes": "Data General Eclipse minicomputer line; discontinued 1980s-90s"
+    },
+    "dg-ux": {
+      "lifecycle_current": "obsolete",
+      "notes": "Data General DG/UX ended with DG acquisition by EMC 1999"
+    },
+    "digital-osf1": {
+      "lifecycle_current": "obsolete",
+      "notes": "Became Tru64 UNIX under Compaq/HP; end of life 2012"
+    },
+    "digital-vax": {
+      "lifecycle_current": "obsolete",
+      "notes": "VAX/VMS last shipped 2005; OpenVMS ported to Integrity/x86 by VMS Software Inc."
+    },
+    "distributed-systems": {
+      "lifecycle_current": "active",
+      "notes": "Distributed computing is foundational to modern cloud architecture"
+    },
+    "drda": {
+      "lifecycle_current": "active-niche",
+      "notes": "IBM DRDA protocol still used for DB2 distributed access"
+    },
+    "dynix-ptx": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sequent DYNIX/ptx ended with IBM acquisition 1999; NUMA tech absorbed by IBM"
+    },
+    "eism": {
+      "lifecycle_current": "evolved",
+      "notes": "Enterprise systems management evolved into ITOM/AIOps"
+    },
+    "ensina": {
+      "lifecycle_current": "unknown",
+      "notes": "IBM Ensina; limited information available"
+    },
+    "ethernet-10base-t": {
+      "lifecycle_current": "obsolete",
+      "notes": "10BASE-T superseded by 100/1000/10G Ethernet"
+    },
+    "fddi": {
+      "lifecycle_current": "obsolete",
+      "notes": "FDDI replaced by Gigabit Ethernet in late 1990s"
+    },
+    "hacmp": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Renamed IBM PowerHA SystemMirror; still actively supported"
+    },
+    "heartbeat-failover": {
+      "lifecycle_current": "active-evolved",
+      "notes": "Concept lives on in Pacemaker/Corosync, cloud load balancers"
+    },
+    "hp-3000": {
+      "lifecycle_current": "obsolete",
+      "notes": "HP 3000 end of life December 2010; community support continues"
+    },
+    "hp-9000": {
+      "lifecycle_current": "obsolete",
+      "notes": "HP 9000 PA-RISC servers discontinued; replaced by HP Integrity (Itanium)"
+    },
+    "hp-pa-risc": {
+      "lifecycle_current": "obsolete",
+      "notes": "PA-RISC last chip PA-8900 2005; replaced by Itanium"
+    },
+    "ibm-4300": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM 4300 series midrange mainframes; discontinued late 1980s"
+    },
+    "ibm-sp2": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM SP2 parallel system; evolved into IBM Cluster 1600, then retired"
+    },
+    "idms": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "CA IDMS (Broadcom) still supported on mainframes; legacy network DBMS"
+    },
+    "informix-dsa": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Informix Dynamic Server continues under IBM/HCL license"
+    },
+    "informix-newera": {
+      "lifecycle_current": "obsolete",
+      "notes": "Informix NewEra 4GL tool discontinued"
+    },
+    "informix-online": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Became Informix Dynamic Server; now under IBM/HCL"
+    },
+    "internet": {
+      "lifecycle_current": "active",
+      "notes": "Internet is ubiquitous global infrastructure"
+    },
+    "moores-law": {
+      "lifecycle_current": "active-slowing",
+      "notes": "Moore's Law observational trend; transistor density gains slowing post-2020"
+    },
+    "motorola-88k": {
+      "lifecycle_current": "obsolete",
+      "notes": "MC88100 EOL January 1998; 88110 discontinued 1997; replaced by PowerPC"
+    },
+    "ms-sql-server": {
+      "lifecycle_current": "active",
+      "notes": "Microsoft SQL Server actively developed; current version SQL Server 2022"
+    },
+    "mvs": {
+      "lifecycle_current": "evolved",
+      "notes": "IBM MVS evolved to OS/390 then z/OS; z/OS still actively supported"
+    },
+    "netview": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM NetView still supported; evolved to IBM Z NetView"
+    },
+    "netware": {
+      "lifecycle_current": "obsolete",
+      "notes": "Novell NetWare end of life 2010; replaced by OES on Linux"
+    },
+    "object-cobol": {
+      "lifecycle_current": "legacy-niche",
+      "notes": "Object COBOL features absorbed into COBOL standard; Micro Focus Visual COBOL"
+    },
+    "object-oriented": {
+      "lifecycle_current": "active",
+      "notes": "OOP remains dominant programming paradigm"
+    },
+    "odbc": {
+      "lifecycle_current": "active",
+      "notes": "ODBC still widely used; complemented by JDBC, OLE DB, ADO.NET"
+    },
+    "odbms": {
+      "lifecycle_current": "niche",
+      "notes": "OODBMS remained niche; Versant, ObjectStore survive; not mainstream"
+    },
+    "oltp": {
+      "lifecycle_current": "active",
+      "notes": "OLTP remains core workload category; cloud OLTP (Aurora, Spanner) mainstream"
+    },
+    "openlook": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sun OpenLook GUI replaced by CDE then GNOME/KDE"
+    },
+    "openview": {
+      "lifecycle_current": "evolved",
+      "notes": "HP OpenView rebranded to HP Software, then Micro Focus, now OpenText Operations Bridge"
+    },
+    "oracle-7": {
+      "lifecycle_current": "obsolete",
+      "notes": "Oracle 7 end of life long ago; last patch ~2002"
+    },
+    "oracle-8": {
+      "lifecycle_current": "obsolete",
+      "notes": "Oracle 8 released June 1997; desupported; succeeded by 8i, 9i, etc."
+    },
+    "oracle-developer2000": {
+      "lifecycle_current": "legacy-evolved",
+      "notes": "Became Oracle Forms/Reports; still supported but Oracle promoting APEX"
+    },
+    "oracle-parallel-server": {
+      "lifecycle_current": "evolved",
+      "notes": "Became Oracle Real Application Clusters (RAC); still actively supported"
+    },
+    "oracle-rdb": {
+      "lifecycle_current": "active-niche",
+      "notes": "Oracle Rdb still supported on OpenVMS; niche user base"
+    },
+    "orb": {
+      "lifecycle_current": "obsolete",
+      "notes": "CORBA ORBs largely replaced by web services, REST, gRPC"
+    },
+    "ordbms": {
+      "lifecycle_current": "mainstream-absorbed",
+      "notes": "Object-relational features absorbed into mainstream RDBMS (PostgreSQL, Oracle, DB2)"
+    },
+    "os2": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM OS/2 discontinued 2001; ArcaOS community fork exists"
+    },
+    "os2-warp": {
+      "lifecycle_current": "obsolete",
+      "notes": "OS/2 Warp 4 was last IBM release; never recovered market share"
+    },
+    "power2-rios": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM Power2 succeeded by Power3, then Power series through Power10"
+    },
+    "powerpc-601": {
+      "lifecycle_current": "obsolete",
+      "notes": "PowerPC 601 first-gen 1993; Power ISA continues in IBM Power10"
+    },
+    "prime-750": {
+      "lifecycle_current": "obsolete",
+      "notes": "Prime Computer minicomputer; company dissolved late 1990s"
+    },
+    "progress-rdbms": {
+      "lifecycle_current": "active",
+      "notes": "Progress OpenEdge RDBMS still actively supported and developed"
+    },
+    "red-brick-rdbms": {
+      "lifecycle_current": "obsolete",
+      "notes": "Absorbed into Informix, then IBM; Red Brick brand discontinued"
+    },
+    "rs6000": {
+      "lifecycle_current": "evolved",
+      "notes": "IBM RS/6000 rebranded to pSeries, then System p, now IBM Power"
+    },
+    "rs6000-smp": {
+      "lifecycle_current": "evolved",
+      "notes": "RS/6000 SMP evolved into current IBM Power SMP systems"
+    },
+    "sap-r3": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "SAP R/3 superseded by SAP S/4HANA; R/3 maintenance extended to 2027"
+    },
+    "scsi-2": {
+      "lifecycle_current": "obsolete",
+      "notes": "SCSI-2 superseded by SCSI-3, SAS, NVMe"
+    },
+    "sna": {
+      "lifecycle_current": "legacy-supported",
+      "notes": "IBM SNA still supported on mainframes; largely replaced by TCP/IP"
+    },
+    "sparcenter-2000": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sun SPARCcenter 2000 from early 1990s; Sun acquired by Oracle 2010"
+    },
+    "sparcserver-1000": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sun SPARCserver 1000 discontinued; SPARC continues in Oracle/Fujitsu"
+    },
+    "sybase-iq": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Now SAP IQ (columnar analytics); still supported by SAP"
+    },
+    "sybase-navigation-server": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sybase Navigation Server discontinued"
+    },
+    "sybase-powerbuilder": {
+      "lifecycle_current": "active",
+      "notes": "PowerBuilder now owned by Appeon; version 2022 R3 current"
+    },
+    "sybase-sql-server": {
+      "lifecycle_current": "active-rebranded",
+      "notes": "Became Sybase ASE, now SAP ASE; still supported"
+    },
+    "symmetry-se70": {
+      "lifecycle_current": "obsolete",
+      "notes": "Sequent Symmetry SE70; company acquired by IBM 1999"
+    },
+    "systems-management-software": {
+      "lifecycle_current": "active-evolved",
+      "notes": "Category evolved into ITOM, AIOps, observability platforms"
+    },
+    "teradata-dss": {
+      "lifecycle_current": "active-evolved",
+      "notes": "Teradata Vantage platform; cloud-native analytics"
+    },
+    "token-ring": {
+      "lifecycle_current": "obsolete",
+      "notes": "IBM Token Ring replaced by Ethernet in 1990s-2000s"
+    },
+    "tpc-c": {
+      "lifecycle_current": "active",
+      "notes": "TPC-C benchmark still published by Transaction Processing Performance Council"
+    },
+    "tpc-d": {
+      "lifecycle_current": "obsolete-replaced",
+      "notes": "TPC-D replaced by TPC-H (ad-hoc queries) and TPC-DS in 1999"
+    },
+    "tuxedo": {
+      "lifecycle_current": "active",
+      "notes": "Now Oracle Tuxedo; transaction processing middleware still supported"
+    },
+    "unix": {
+      "lifecycle_current": "active-evolved",
+      "notes": "UNIX family includes Linux, macOS, AIX, Solaris; Linux dominant"
+    },
+    "unix-svr4": {
+      "lifecycle_current": "obsolete",
+      "notes": "AT&T UNIX SVR4 base; derivatives (Solaris, AIX) evolved independently"
+    },
+    "vmEbus": {
+      "lifecycle_current": "obsolete-niche",
+      "notes": "VMEbus largely replaced by PCI/PCIe; still used in some mil/industrial"
+    },
+    "vms": {
+      "lifecycle_current": "active-niche",
+      "notes": "OpenVMS ported to x86 by VMS Software Inc.; niche but alive"
+    },
+    "watcom-sql": {
+      "lifecycle_current": "evolved",
+      "notes": "Became Sybase SQL Anywhere, now SAP SQL Anywhere"
+    },
+    "windows-95": {
+      "lifecycle_current": "obsolete",
+      "notes": "Windows 95 end of life 2001"
+    },
+    "windows-nt": {
+      "lifecycle_current": "evolved",
+      "notes": "NT kernel lives on in Windows Server 2022 and Windows 11"
+    },
+    "windows-nt-server": {
+      "lifecycle_current": "evolved",
+      "notes": "Evolved through Windows 2000/2003/2008/2012/2016/2019/2022 Server"
+    },
+    "world-wide-web": {
+      "lifecycle_current": "active",
+      "notes": "WWW ubiquitous; HTTP/3, HTML5, modern web stack"
+    },
+    "gaap-accounting": {
+      "lifecycle_current": "active-standard",
+      "source": "https://xbrl.us/xbrl-taxonomy/2024-us-gaap/ \u2014 GAAP remains the active US accounting standard framework maintained by FASB; 2024 taxonomy accepted and supported"
+    },
+    "dso-analysis": {
+      "lifecycle_current": "standard",
+      "source": "Known \u2014 DSO analysis remains a standard financial analysis technique widely used in credit analysis and corporate finance"
+    },
+    "balance-sheet-analysis": {
+      "lifecycle_current": "standard",
+      "source": "Known \u2014 Balance sheet analysis is a fundamental and standard technique in financial analysis"
+    },
+    "high-tech-stock-analysis": {
+      "lifecycle_current": "standard",
+      "source": "Known \u2014 Technology equity analysis frameworks evolved and are now standard practice at every major investment firm"
+    },
+    "prime-model-2250": {
+      "lifecycle_current": "legacy-discontinued",
+      "source": "Known \u2014 Prime Computer dissolved by 1992; all hardware products discontinued"
+    },
+    "prime-32bit-minicomputer": {
+      "lifecycle_current": "legacy-discontinued",
+      "source": "Known \u2014 Prime Computer's 32-bit minicomputer line discontinued with company's demise in 1992"
+    },
+    "office-automation-systems": {
+      "lifecycle_current": "legacy-discontinued",
+      "source": "Known \u2014 Prime Computer's office automation line discontinued; concept evolved into modern integrated office suites"
+    },
+    "ncr-top-end": {
+      "lifecycle_current": "legacy-discontinued",
+      "source": "Known \u2014 NCR Top End transaction monitor was discontinued; NCR shifted to Teradata and retail/ATM focus"
+    },
+    "unisys-a-series": {
+      "lifecycle_current": "legacy-supported",
+      "source": "Known \u2014 Unisys A-Series evolved into ClearPath MCP, still supported by Unisys as of 2024"
     }
   },
   "predictions": {
@@ -2812,7 +3715,291 @@
       "confidence": "high",
       "notes": "SOX Section 404 compliance costs significantly exceeded initial estimates. AMR Research (2005) found companies would spend nearly $15.5B on compliance-related activities in 2005, with 28% of SOX spending on technology. Average compliance costs for smaller companies reached ~$1.8M per $1B in sales. Audit fees increased by 43% for smaller firms and 23% for larger firms post-SOX (Berkeley study). SOX drove a dramatic increase in IT outsourcing to Indian IT vendors (Wall St. Journal 2005). An astounding 93% of CIOs were initially unaware of their IT control assessment responsibilities under SOX (survey). Compliance spending grew 50% in technology between 2004 and 2005. The overall impact was substantial, expensive, and transformative for IT governance and compliance tech spending.",
       "source": "https://www.plm.automation.siemens.com/zh_cn/Images/AMR_-_Spending_in_an_Age_of_Compliance_2005_05-03-20_tcm78-37241.pdf ; https://cacm.acm.org/research/the-sarbanes-oxley-act/"
+    },
+    "ft-mitfor~1-a56a9d-OBS-018": {
+      "actual_outcome": "Confirmed \u2014 systems management/monitoring became multi-billion-dollar market (Tivoli, BMC, CA, now Datadog, Splunk, Dynatrace)",
+      "confidence": "verified"
+    },
+    "ft-mitfor~1-a56a9d-OBS-021": {
+      "actual_outcome": "Partially confirmed \u2014 self-healing networks emerged (SDN, Kubernetes self-healing) but full autonomy still evolving",
+      "confidence": "medium"
+    },
+    "ft-mitfor~1-a56a9d-OBS-022": {
+      "actual_outcome": "Confirmed \u2014 systems management tools became essential; market consolidated (IBM Tivoli, HP OpenView, BMC, then modern observability)",
+      "confidence": "verified"
+    },
+    "ft-mitfor~1-a56a9d-OBS-023": {
+      "actual_outcome": "Confirmed \u2014 disaster recovery for distributed systems became standard practice; cloud DR services now mainstream",
+      "confidence": "verified"
+    },
+    "ibm-rs6000-midran~1-88f049-OBS-026": {
+      "actual_outcome": "Confirmed \u2014 PowerPC 601 was first-gen with known limitations; IBM rapidly improved with Power2/Power3; RS/6000 line thrived",
+      "confidence": "verified"
+    },
+    "ibm-rs6000-midran~1-88f049-OBS-028": {
+      "actual_outcome": "Partially confirmed \u2014 Alpha/NT had brief success but DEC acquired by Compaq 1998; Alpha discontinued by HP 2004",
+      "confidence": "medium"
+    },
+    "ibm-rs6000-midran~1-88f049-OBS-030": {
+      "actual_outcome": "Partially confirmed \u2014 SP2 had moderate commercial success; IBM shifted to Linux clusters and BladeCenter",
+      "confidence": "medium"
+    },
+    "psk-misc-speech-agendas-5965a3-OBS-002": {
+      "actual_outcome": "Confirmed \u2014 Internet became primary business platform; e-commerce, cloud computing, SaaS transformed all industries",
+      "confidence": "verified"
+    },
+    "psk-misc-speech-agendas-5965a3-OBS-013": {
+      "actual_outcome": "Confirmed \u2014 Internet growth exceeded virtually all 1996 projections",
+      "confidence": "verified"
+    },
+    "rdbms-for-ibm-powera~1-7a44be-OBS-017": {
+      "actual_outcome": "Confirmed \u2014 Oracle FY1997 revenue reached $5.7B, then $8.8B by FY1999; growth trajectory was accurate",
+      "confidence": "verified"
+    },
+    "rdbms-for-ibm-powera~1-7a44be-OBS-020": {
+      "actual_outcome": "Confirmed \u2014 Oracle 8 released June 1997, consistent with the projected timeline",
+      "confidence": "verified"
+    },
+    "rdbms-for-ibm-powera~1-7a44be-OBS-029": {
+      "actual_outcome": "Confirmed \u2014 Microsoft enterprise scaling took until Windows 2000/SQL Server 2000 era (~2000) to be credible; eventually dominated midmarket",
+      "confidence": "verified"
+    },
+    "rdbms-for-ibm-powera~1-7a44be-OBS-043": {
+      "actual_outcome": "Partially confirmed \u2014 Fujitsu shipped some ORDBMS features but Informix Universal Server (1997) and Oracle 8 (1997) delivered first; ORDBMS absorbed into mainstream RDBMS",
+      "confidence": "medium"
+    },
+    "sequent-sap-sequen~1-7f70e4-OBS-014": {
+      "actual_outcome": "Not confirmed \u2014 Sequent SMP was technically sound but company acquired by IBM 1999 for $810M before achieving enterprise dominance",
+      "confidence": "verified"
+    },
+    "sequent-592620-OBS-014": {
+      "actual_outcome": "Confirmed risk \u2014 Sequent's financial fragility noted; acquired by IBM July 1999 for $810M due to inability to sustain independently",
+      "confidence": "verified"
+    },
+    "sequent-592620-OBS-024": {
+      "actual_outcome": "Confirmed \u2014 Motorola 88K officially EOL January 1998; Data General forced to transition to Intel; DG acquired by EMC 1999",
+      "confidence": "verified"
+    },
+    "software-market-safegu~1-ea7453-OBS-002": {
+      "actual_outcome": "Confirmed \u2014 Windows 95 achieved massive adoption; became dominant consumer/business OS",
+      "confidence": "verified"
+    },
+    "software-market-safegu~1-ea7453-OBS-004": {
+      "actual_outcome": "Confirmed \u2014 Windows NT (evolved to 2000/XP/Server) swept enterprise market by early 2000s",
+      "confidence": "verified"
+    },
+    "software-market-safegu~1-ea7453-OBS-006": {
+      "actual_outcome": "Not confirmed \u2014 OS/2 Warp never recovered; IBM discontinued OS/2 in 2001",
+      "confidence": "verified"
+    },
+    "software-market-safegu~1-ea7453-OBS-012": {
+      "actual_outcome": "Confirmed \u2014 OODBMS remained niche; object-relational features absorbed into mainstream RDBMS (PostgreSQL, Oracle, DB2)",
+      "confidence": "verified"
+    },
+    "software-market-safegu~1-ea7453-OBS-016": {
+      "actual_outcome": "Confirmed \u2014 client-server evolved to n-tier, web, SOA, then cloud/microservices",
+      "confidence": "verified"
+    },
+    "casale-evp-2-79187c-OBS-010": {
+      "metric_value": "Confirmed: Tandem's fiscal 1982 results were restated; FY1983 stock declined significantly; Q2 FY1984 earnings dropped 20%. Casale's framework for hypergrowth earnings fragility proved prescient across multiple tech companies in 1983-84.",
+      "confidence": "verified",
+      "source": "https://www.nytimes.com/1983/05/06/business/tandem-computers-inc-reports-earnings-for-qtr-to-march-31.html \u2014 Tandem Q2 FY1983 EPS $0.16 vs prior year. https://archive.computerhistory.org/resources/access/text/2023/06/102653673-05-33-acc.pdf \u2014 Tandem fiscal 1984 saw 7% drop in Q4 earnings."
+    },
+    "casale-evp-3-b2b933-OBS-015": {
+      "metric_value": "Confirmed: Tandem's booking/billing practices led to fiscal 1982 restatement. Stock price declined from ~$24 to below $20 in 1983. Revenue growth slowed to 17% in FY1984 and net income plunged 20%, validating Casale's warnings about booking irregularity consequences.",
+      "confidence": "verified",
+      "source": "https://archive.computerhistory.org/resources/access/text/2023/06/102653673-05-48-acc.pdf \u2014 Tandem FY1984 revenue growth 17%, net income fell 20%. https://www.nytimes.com/1983/11/11/business/tandem-computers-up.html \u2014 Q4 FY1983 income rose only 6%."
+    },
+    "casale-evp-4-9bd4e6-OBS-021": {
+      "metric_value": "Confirmed: Multiple tech companies experienced control system failures and GAAP violations in 1983-84. Datapoint's revenue reversal ($15M) and eventual bankruptcy (2000) exemplified the pattern. The general tech sector correction of early 1983 reflected the systemic cost-push dynamics Casale described.",
+      "confidence": "verified",
+      "source": "https://www.upi.com/Archives/1982/10/11/Datapoint-rising-from-the-ashes-after-heavy-losses-and-shakeup/9574403156800/ \u2014 Datapoint $15M revenue reversal and shareholder lawsuits. https://en.wikipedia.org/wiki/Datapoint \u2014 Bankruptcy filed May 2000."
+    },
+    "casale-evp-5-aa8f2a-OBS-020A": {
+      "metric_value": "Partially confirmed: FTI is fictional, but the general pattern Casale predicted\u2014that hypergrowth firms with deteriorating receivables and inadequate cost controls would face serious financial consequences\u2014was validated by Tandem, Datapoint, and other tech firms in 1983-84.",
+      "confidence": "medium",
+      "source": "Composite assessment based on Tandem and Datapoint outcomes documented in EVP-2 through EVP-4 verification."
+    },
+    "casale-evp-7-215359-OBS-015A": {
+      "metric_value": "Confirmed: High-tech sector entered strong growth phase 1984-1990. Nasdaq Composite rose from ~266 (April 1983) to ~470 by late 1987 (pre-crash), validating Casale's longer-term optimism about the sector's fundamentals despite near-term correction.",
+      "confidence": "verified",
+      "source": "https://www.nytimes.com/1983/04/07/business/stocks-down-for-a-fourth-day.html \u2014 Nasdaq at 266.47 in April 1983. https://en.wikipedia.org/wiki/List_of_stock_market_crashes_and_bear_markets \u2014 Market context 1983-1987."
+    },
+    "casale-evp-7-215359-OBS-016A": {
+      "metric_value": "Confirmed: Near-term tech correction occurred in early 1983. Nasdaq fell from January highs; Prime Computer stock dropped 7 points (17%) on March earnings warning. Multiple tech companies reported Q1 1983 earnings misses. Casale's 'March quarter blues' thesis validated.",
+      "confidence": "verified",
+      "source": "https://www.nytimes.com/1983/04/10/business/investing-high-tech-stocks-a-real-puzzler.html \u2014 Prime Computer Q1 1983 profits down 20%; NBI projected $3.5M deficit. Tech sector broadly affected. https://www.nytimes.com/1983/04/07/business/stocks-down-for-a-fourth-day.html \u2014 Nasdaq fell to 266.47."
+    },
+    "nti-2-open-systems-1dd3af-OBS-003": {
+      "metric_value": "Confirmed: Intel 80x86 dominated, shipping hundreds of millions of units by mid-1990s. Pentium (1993) and successors cemented Intel's dominance.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Intel x86 became dominant architecture through 1990s-2000s"
+    },
+    "nti-2-open-systems-1dd3af-OBS-008": {
+      "metric_value": "Confirmed: Windows NT shipped July 1993; mainstream enterprise adoption by 1996-97 with NT 4.0; became dominant server OS by 2000.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Windows NT 3.1 shipped Jul 1993; NT 4.0 (1996) drove mainstream adoption"
+    },
+    "nti-2-open-systems-1dd3af-OBS-020": {
+      "metric_value": "Not confirmed: Unix never became the universal desktop OS. Windows dominated desktops. Unix/Linux succeeded on servers, not desktops.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Windows dominated desktops; Unix/Linux confined to servers and niche workstations"
+    },
+    "nti-2-open-systems-1dd3af-OBS-022": {
+      "metric_value": "Confirmed failure: Taligent dissolved into IBM 1998 without shipping a commercial OS. Apple/HP withdrew 1995. Technology fragments went into VisualAge.",
+      "confidence": "verified",
+      "source": "https://en.wikipedia.org/wiki/Taligent \u2014 Taligent dissolved into IBM Jan 1998"
+    },
+    "nti-2-open-systems-1dd3af-OBS-027": {
+      "metric_value": "Confirmed: DEC acquired by Compaq (1998 for $9.6B); Compaq then acquired by HP (2002). Alpha processor discontinued. VMS legacy continued under HP/HPE.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 DEC acquired by Compaq 1998, then HP 2002"
+    },
+    "nti-3-pc-and-ws-1993-17d49b-OBS-007": {
+      "metric_value": "Confirmed: Workstation prices dropped below $5,000 by 1993-94. Sun SPARCstation 5 launched at $4,995 in 1994. Intel-based PCs converged with workstation performance by mid-1990s.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Sun broke $5K barrier 1992; general convergence by 1994-95"
+    },
+    "nti-3-pc-and-ws-1993-17d49b-OBS-012": {
+      "metric_value": "Confirmed failure: OS/2 lost to Windows. Despite technical superiority, OS/2 peaked at ~10% market share. IBM effectively abandoned OS/2 desktop by 1996. Warp was last major release.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 OS/2 lost the desktop war to Windows; IBM ended OS/2 retail marketing by 1996"
+    },
+    "nti-3-pc-and-ws-1993-17d49b-OBS-015": {
+      "metric_value": "Confirmed: 1993 saw massive 486-to-Pentium upgrade cycle. Enterprise desktop refresh accelerated with Windows 3.1 and early Windows NT adoption.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Pentium launched March 1993; drove major corporate upgrade cycles"
+    },
+    "nti-3-pc-and-ws-1993-17d49b-OBS-020": {
+      "metric_value": "Partially confirmed: Sun shipped Solaris x86 (Solaris 2.1 for x86 in 1993), but it never gained significant market share on x86 hardware. Linux ultimately filled the Unix-on-x86 role.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Solaris x86 shipped but had minimal market impact; Linux won Unix-on-x86"
+    },
+    "nti-3-pc-and-ws-1993-17d49b-OBS-028": {
+      "metric_value": "Partially confirmed: Cairo (Microsoft's next-gen OS project) was never shipped as planned. Key Cairo features (object file system, directory services) were split across Windows NT 4.0, Windows 2000, and later releases. Active Directory shipped with Windows 2000 (Feb 2000).",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Cairo was vaporware; features gradually appeared in Windows 2000 and XP"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-002": {
+      "metric_value": "Confirmed: Windows/DOS dominated desktops through 1995 and beyond. Windows 3.1 (1992) and Windows 95 (Aug 1995) maintained Intel/Windows dominance.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Windows 3.1 then Windows 95 maintained desktop monopoly"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-004": {
+      "metric_value": "Partially confirmed: Unix maintained midrange server leadership through mid-1990s but Windows NT eventually overtook Unix in volume by late 1990s. Linux emerged as third force by 2000.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Unix dominated midrange servers mid-1990s; NT gained rapidly; Linux emerged late 1990s"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-006": {
+      "metric_value": "Partially confirmed: OO became mainstream but later than predicted. Java (1995) and C++ adoption drove OO into production by late 1990s. Full OO operating systems (Taligent, Cairo) failed.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Java drove OO mainstream adoption; pure OO OS efforts failed"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-008": {
+      "metric_value": "Confirmed: Windows NT adoption tidal wave arrived 1996-2000. NT 4.0 (1996) and Windows 2000 drove massive enterprise adoption. NT became dominant server platform by early 2000s.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 NT 4.0 (1996) triggered enterprise adoption wave"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-016": {
+      "metric_value": "Partially confirmed: PowerPC shipped in March 1994 (Power Mac 6100/7100/8100). Received well initially but Apple's PowerPC Macs never gained significant enterprise share. PowerPC abandoned by Apple for Intel in 2006.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 PowerPC Macs shipped Mar 1994; Apple switched to Intel in 2006"
+    },
+    "nti-4-nextgen-os-timing-1993-a45049-OBS-020": {
+      "metric_value": "Confirmed: NeXT exited hardware (1993), pivoted to software (NeXTSTEP/OpenStep). Acquired by Apple (1997 for $429M). NeXTSTEP became foundation of Mac OS X (2001) \u2014 massive long-term success.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 NeXT acquired by Apple 1997; NeXTSTEP became Mac OS X"
+    },
+    "nti-5-development-toolsets-0e71c5-OBS-004": {
+      "metric_value": "Confirmed but later than predicted: OO reached mainstream production by late 1990s with Java (1995) and C++ maturation. Full OO production systems common by 2000.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Java launched 1995; OO mainstream by late 1990s"
+    },
+    "nti-5-development-toolsets-0e71c5-OBS-006": {
+      "metric_value": "Confirmed: OO revolution occurred, driven by Java (1995), C++ maturation, and design patterns movement. By 2000, OO was the dominant programming paradigm for enterprise development.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 OO became dominant paradigm by late 1990s/early 2000s"
+    },
+    "nti-5-development-toolsets-0e71c5-OBS-028": {
+      "metric_value": "Confirmed: ISVs migrated from C/C++ to OO frameworks. However, Java rather than C++ became the primary enterprise OO language. Timeline was mid-to-late 1990s, roughly as predicted.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Java displaced C++ as primary enterprise OO language by late 1990s"
+    },
+    "nti-6-rdbms-technology-48f4aa-OBS-025": {
+      "metric_value": "Confirmed: RDBMS market diverged into enterprise (Oracle, IBM DB2) and departmental tiers. Oracle dominated enterprise; Microsoft SQL Server captured mid-market. Sybase/Informix declined.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Oracle dominated enterprise RDBMS; SQL Server captured mid-market by 2000"
+    },
+    "nti-6-rdbms-technology-48f4aa-OBS-027": {
+      "metric_value": "Confirmed: Oracle grew from ~35% RDBMS market share in early 1990s to dominant position by 2000. Oracle 7 (1992) and Oracle 8i (1999) cemented leadership.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Oracle became undisputed RDBMS market leader through 1990s"
+    },
+    "nti-9-mainframe-role-1993-77fc40-OBS-022": {
+      "metric_value": "Not confirmed: IBM mainframe was NOT phased out. After near-death in early 1990s, IBM's System/390 and z/Series revived. zSeries became IBM's most profitable line. Mainframes remain critical infrastructure in 2024.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 IBM mainframe survived and thrived; z/Series is IBM's most profitable product line"
+    },
+    "nti-9-mainframe-role-1993-77fc40-OBS-027": {
+      "metric_value": "Partially confirmed: Midrange/distributed systems DID gain enormous share vs mainframe in the 1990s-2000s. But mainframes were never eliminated \u2014 they coexist. Midrange dominance was real for new workloads.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Distributed systems captured most new workloads; mainframes retained critical legacy"
+    },
+    "nti-11-distributed-midrange-servers-1993-dedd19-OBS-009": {
+      "metric_value": "Partially confirmed: OSF DCE was adopted by major vendors (IBM, HP, DEC) but never achieved universal adoption. Microsoft's DCOM and later CORBA/Java RMI/Web Services superseded DCE for most distributed computing.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 DCE had partial adoption but was superseded by DCOM, CORBA, and web services"
+    },
+    "nti-11-distributed-midrange-servers-1993-dedd19-OBS-018": {
+      "metric_value": "Confirmed: RDBMS became central to distributed architecture. Oracle, SQL Server, and DB2 became the backbone of client-server and later web application architectures.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 RDBMS became foundational to all distributed application architectures"
+    },
+    "nti-11-distributed-midrange-servers-1993-dedd19-OBS-023": {
+      "metric_value": "Confirmed: Distributed production systems with hierarchical server tiers became standard enterprise architecture by late 1990s. Three-tier (web-app-database) became the dominant pattern.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Three-tier architecture became standard by late 1990s"
+    },
+    "nti-11-distributed-midrange-servers-1993-dedd19-OBS-026": {
+      "metric_value": "Confirmed: Multiprocessor (SMP) servers became standard by mid-1990s. Today essentially all servers are multiprocessor/multi-core.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 SMP became standard; multi-core processors universal by 2000s"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-005": {
+      "metric_value": "Confirmed: Commercial workstations dropped below $5,000 by 1994. By late 1990s, powerful PCs at $2,000-3,000 matched 1993 workstation performance.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Workstation price/performance converged with PCs by mid-1990s"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-007": {
+      "metric_value": "Confirmed: Multiprocessor servers became standard. SMP servers from HP, Sun, IBM, Compaq dominated enterprise by late 1990s.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 SMP servers became the enterprise standard"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-012": {
+      "metric_value": "Partially confirmed: OO architecture was widely adopted for application development (Java, C++) but pure OO operating systems failed. OO principles became standard practice by 2000.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 OO programming became standard; OO OS vision was not realized"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-015": {
+      "metric_value": "Confirmed: Network capacity demand exploded beyond 1993 predictions. Ethernet went from 10 Mbps to 100 Mbps (Fast Ethernet 1995) to 1 Gbps. Internet drove demand far beyond what was anticipated.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Network bandwidth demand grew exponentially; Fast Ethernet 1995, Gigabit Ethernet 1999"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-018": {
+      "metric_value": "Confirmed: Late 1990s client-server evolved into web-based three-tier architecture. Aberdeen's vision of distributed, component-based systems was realized through the web/Java/application server paradigm.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Web-based three-tier architecture emerged in late 1990s as predicted"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-022": {
+      "metric_value": "Confirmed: Client device diversity exploded beyond predictions. By 2000s: PCs, laptops, PDAs, smartphones, thin clients. Mobile revolution (iPhone 2007) exceeded any 1993 prediction.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 Client device diversity exceeded all 1993 predictions"
+    },
+    "nti-12-client-server-goals-1993-15a519-OBS-030": {
+      "metric_value": "Mixed: Apple's PowerPC strategy initially succeeded (Power Macs 1994-2005) but Apple ultimately abandoned PowerPC for Intel x86 in 2006, then moved to Apple Silicon (ARM) in 2020.",
+      "confidence": "verified",
+      "source": "Known / public record \u2014 PowerPC Macs 1994-2005; transition to Intel 2006; Apple Silicon 2020"
     }
   },
-  "last_updated": "2026-04-10T22:58:51.091930"
+  "last_updated": "2026-04-11T00:49:49.404564"
 }

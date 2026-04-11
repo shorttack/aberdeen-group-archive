@@ -1,0 +1,192 @@
+# Uses and Abuses of the Corporate Hockey Stick — Or Is This Any Way to Run an Industry?
+
+> Archived from: Casale EVP-3.pdf
+> Original publication date: 1983-01-05
+> Author: Charles T. Casale
+
+---
+
+## Original Document Text
+
+EXECUTIVE VIEWPOINT
+January 5, 1983
+Charles T. Casale
+EVP 3
+
+Executive Viewpoint examines fast changing computer industry trends and conditions from the dual vantagepoint of many years of industrial executive experience and institutional research analysis. The viewpoint is qualitative and seeks to identify major trends of significance to institutional investors.
+
+USES AND ABUSES OF THE CORPORATE HOCKEY STICK - OR IS THIS ANY WAY TO RUN AN INDUSTRY?
+
+As witnessed by recent events at Tandem Computers (and earlier at Datapoint), where fiscal 1982 results are being restated downwards, certain computer industry practices are proving to be somewhat controversial. (See our report on Tandem dated December 16, 1982 and EVP 1 and EVP 2).
+
+In a series of Executive Viewpoints we are analyzing some of the pros and cons of these industry practices from an investment perspective. We hope to clarify the operating rationale behind the recent events at Tandem, Datapoint and others who drive in industry's high speed lane.
+
+In this EVP we examine the typically skewed quarterly operating cycle and why it is a better method, net, of running a fast growing company than textbooks might suggest. The cycle is known by many names, the most common one being the "hockey stick".
+
+The hockey stick describes the shape of bookings, billings on shipping curves where events are skewed towards the end of an operating period. It looks like this, thus accounting for its name, the origin of which is lost in industrial folklore.
+
+THE SHIFT FROM ANNUAL TO QUARTERLY OPERATIONS
+
+Why the current concern over book-ship-bill practices? In part because of a shift from annual to quarterly emphasis by investors - and subsequently - by industrialists. In EVP 2 we examined the circular quarterly treadmill that industry and investors find themselves on. It was not always so.
+
+Way back in modern industrial history - the 1950's that is - when quarterly earnings estimates and quarterly portfolio measurements were barely dreamed of, corporate America tended to work on annual cycles. The hockey stick would invariably show up in financial results in the form of first quarter revenues and earnings down from the preceding fourth and final quarter. Obviously people worked very hard to "make the year". Bonuses depended on it, and so did stock options, to say nothing of meeting the competitive needs of the business. And during the first quarter, the companies rested.
+
+Business understood the annual cycle, investors did, even school children did, the latter learning early in life about fiscal years - theirs began in September.
+
+But then, somewhere along the line, the quarterly game began to be played, and for the most part it became a much better, more efficient game - at least for operating a high tech company or industry.
+
+FOUR SMALL HOCKEY STICKS ARE BETTER THAN ONE LARGE ONE
+
+There are several reasons why a quarterly cycle is better than an annual one:
+o If you give a salesman a year to close a major order, he is unlikely to do so in a quarter. If you give him a quarter, he might take two quarters and sometimes one. Either way, you get more productivity, and hopefully higher levels of sales.
+o Factory flow is obviously smoothed since you have peak shipping activity four times a year rather than one massive push at year end. While not the answer to the manufacturing executive's dreams, it's better than the annual cycle.
+o Senior management gets a more accurate indication of the business outlook, so they are less susceptible to "being bagged" at year end if bookings and shipments do not materialize. Missing quarterly goals is one thing, but missing the year is quite another.
+o Financial executives prefer it over the annual system since it improves cash flow and reduces the need for incremental labor, plant and equipment to meet peak conditions.
+
+HOCKEY STICKS ARE A WAY OF LIFE
+
+But one asks, why must the hockey stick exist at all? Why can't companies operate more smoothly - the "ideal" textbook curve described by a dull "pancake" curve. Well, the answer is that life doesn't quite work that way...
+o Commuters have two hockey sticks a day, five days a week. Try as we might, we do not seem to be able to do much about it.
+o McDonalds has a few hockey sticks a day, and they prepare for them as impressively as any industrial operation does.
+o Portfolio managers are measured on the basis of relative performance each quarter - end of the quarter "window dressing" not being unheard of. An investment hockey stick, if you like.
+
+One can think of dozens of examples; even agricultural economies have theirs - the harvest.
+
+But, is that any way to deliberately run a business? In a word, YES!
+
+WHY HOCKEY STICKS WORK BETTER THAN PANCAKES IN FAST LANE COMPANIES
+
+The flat, dullish, booking/shipping/billing curve shown above hardly ever works in high tech companies unless:
+o You have a monopoly product.
+o Demand greatly exceeds supply.
+o Product life is measured in years.
+o You control the supply of incoming raw materials.
+o People flock to your employment offices to accept low wages.
+
+If you have most of these going for you, then you build an automated plant, fire your salespeople, reduce staff in your finance department, and sit back and coin money. Until the monopoly goes away or you blunder.
+
+And lest we forget the customers, they often dictate the terms of sale. If one supplier can promise fast delivery, most others will attempt to match it. So even if you want to straighten out the hockey stick, market conditions may prevent it.
+
+The issue in real life then, is how to balance the attractiveness of steady state operations with the ever-competitive and changing factors of the marketplace, supply, employee needs and finance.
+
+MAKING THE HOCKEY STICK LOOK MORE LIKE A LUMPY PANCAKE.
+
+Since high tech competition is intense, product cycles are short, and there is competition for basic materials, we find that pancake-like operations are the exception, not the rule. Further, competition for financing and skilled people is equally intense, complicating attempts to smooth operations perfectly.
+
+How, then, does management flatten out the hockey stick?
+
+There are two fundamental methods - both variations on the same theme:
+1. Manage the salesforce in a way to optimize factory flow, thereby smoothing manufacturing operations with the goal of being a (if not the) low cost producer.
+2. Manage the factory in a way to maximize near term sales in order to gain market share with the goal of being industry market leader.
+
+The first approach uses the traditional stick, while the second uses the carrot.
+
+USING THE STICK TO MAKE TERRIFIC PANCAKES
+
+The easiest way to smooth operational flow in the short run is to downsize the company relative to market demand. This builds impressive backlogs which in turn are fed into the factory to keep it humming smoothly. Unfortunately, there are some pitfalls to this approach:
+o Loss of market share is inevitable since competitors will deliver what you chose to forego.
+o Customer satisfaction slips if deliveries stretch too far.
+o A newly announced, superior competitive product will quickly melt your backlog as well as the value of WIP and finished goods inventories.
+
+Despite its pitfalls, some backlog is better than none, while too much is simply a snare and delusion. (A subject of a future EVP). What other tools are available?
+
+USING THE CARROT TO MAKE LUMPY PANCAKES
+
+Sales management is a major tool, one fraught with complexities, hard-choice trade offs, and administrative headaches. Yet it is an excellent tool when used wisely.
+
+The major element of sales management is the compensation plan. And here, as in most of life, you get what you pay for. You can pay your salesfolk for getting bookings, or assuring delivery, or customer acceptance, or even for customer payment. Usually it is some combination of these, the mix reflecting what has worked for the management team in the past.
+
+If you compensate heavily on receipt of orders (bookings), voila, you get lots of bookings. To its shareholder's dismay, Datapoint's compensation plan until recently was heavily skewed towards bookings. But bookings do not automatically result in shipments. And as we have just found out at Tandem, even booked shipments do not always result in immediate revenues!
+
+At the other end of the scale was a scheme used by Data General in its early years: skew compensation to customer payment. While this did wonders for receivables, it turned salesmen into dunning agents, and assured that initial months of a quarter were spent collecting rather than selling.
+
+So what do you do? You tweak and tweak the plan, recognizing that the perfect compensation plan has yet to be devised since changing market conditions for both products and salespeople prevent it. You also fine tune the plan by offering special incentives for early collection, or monthly performance, or specific products and so on ad infinitum.
+
+While a monthly rather than quarterly plan at first might seem ideal, it works only if the customer's buying cycle is roughly of the same length. Or, to a very large extent, the customer drives the plan.
+
+From personal experience, we have found that the best plans are those that avoid what we have called the backlog trap.
+
+INVESTMENT RELEVANCE
+
+When industries operate on an annual cycle - e.g. toys, then the last few weeks of the final quarter largely determine the year. We need only mention Warner Communication's Atari Division's recent debacle to understand the investment magnitude of an annual hockey stick.
+
+At the other end of the scale, daily cycles at least let you know where you are each and every day, and weekly figures (such as money supply statistics) let investors review their decision 52 times a year.
+
+But the quarterly cycle, in large part competitively imposed on the computer industry, has some peculiar aspects related to accounting practices. Which is the subject of our next two Executive Viewpoints.
+
+Copyright 1983, Charles T. Casale, Wayland, Massachusetts.
+
+Prices of stocks mentioned in this report:
+Data General $40
+Datapoint $18
+Tandem $24 1/8
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | casale-evp-3-b2b933 |
+| title | Uses and Abuses of the Corporate Hockey Stick — Or Is This Any Way to Run an Industry? |
+| author | Charles T. Casale |
+| date | 1983-01-05 |
+| type | market-study |
+| subject_domain | tech-equity-analysis |
+| methodology | industry-analysis, expert-opinion |
+| source_file | Casale EVP-3.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Executive Viewpoint #3 introduces the 'hockey stick' concept — the skewed end-of-period concentration of bookings, billings, and shipments common to fast-growing technology companies. Casale argues that the quarterly hockey stick is structurally superior to the annual cycle for managing high-tech operations and examines two management approaches (sales force management via 'stick' and factory management via 'carrot') for moderating the pattern. The newsletter analyzes how Datapoint's booking-oriented compensation plan and Tandem's booking-to-revenue disconnect exemplify the pathological form of the hockey stick.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | First clear articulation of the 'hockey stick' pattern in tech company operations as a structural — not behavioral — phenomenon, providing an analytical framework that remains standard in technology sales and operations planning. |
+| **Relevance** | high | The hockey-stick dynamic in quarterly sales cycles is universally recognized today; Casale's 1983 framework anticipates the Sales and Operations Planning (S&OP) literature that developed in subsequent decades. |
+| **Prescience** | high | Casale's prediction that compensation plans skewed to bookings (Datapoint) and aggressive shipping practices (Tandem) would produce investment-grade surprises proved accurate within months of publication. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Prediction: booking/billing practices at Tandem will continue to generate controversy
+- **Claimed:** Fiscal 1982 results at Tandem being restated downwards; further analysis of operating rationale behind events at Tandem and Datapoint to follow in EVP-4.
+- **Year:** 1983
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Prediction: booking/billing practices at Tandem will continue to generate controversy
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Tandem Computers | company | acquired | Compaq (1997), then HP |
+| Datapoint Corporation | company | dissolved |  |
+| Data General Corporation | company | acquired | EMC Corporation (1999) |
+| Warner Communications — Atari Division | company | dissolved | Atari Inc. sold to Jack Tramiel (1984); Warner merged with Time Inc. to form Time Warner (1990) |
+| Morgan, Keegan & Co., Inc. | firm | acquired | Raymond James Financial (acquired 2012 for $930M) |
+| Charles T. Casale | person | active |  |
+| Fast Track Incorporated (FTI) | company | fictional |  |
+
+### Technologies Referenced (0)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+
+
+### Observation Summary
+
+- Total observations: 18
+- By type: expert-opinion: 9, risk-assessment: 5, trend-analysis: 2, viability-prediction: 1, actual-outcome: 1

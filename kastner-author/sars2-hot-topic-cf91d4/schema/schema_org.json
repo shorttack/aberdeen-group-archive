@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SARS May Impact Global Electronics Industry",
+  "description": "Aberdeen hot topic analyzing the potential impact of the 2003 SARS epidemic on the global electronics industry, focusing on semiconductor manufacturing in Asia-Pacific (PRC, Taiwan, Hong Kong, Singapore), supply chain disruption risks, just-in-time logistics vulnerabilities, and investment implications for the trillion-dollar electronics sector.",
+  "creator": {
+    "@type": "Person",
+    "name": "Russ Craig and Peter Kastner"
+  },
+  "datePublished": "2003-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

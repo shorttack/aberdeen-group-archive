@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research,dissolved,Harte-Hanks (acquired 2008),1988-2014,psk-misc-speech-agendas-5965a3,Author/presenter organization; Copyright Aberdeen Group 1996
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1969-,psk-misc-speech-agendas-5965a3,"Vice President, Aberdeen Group; presenter"
+blyth-software,Blyth Software,company,software,renamed,Omnis Software,1985-,psk-misc-speech-agendas-5965a3,4GL/application development vendor; host of user group; OMNIS tool
+computer-associates,Computer Associates,company,software,renamed,CA Technologies (2006) -> Broadcom (2018),1976-2018,psk-misc-speech-agendas-5965a3,Mentioned in context slide: Computer Associates Madrid and New York events; Aberdeen Group client
+ibm,IBM,company,IT-services,active,,1911-,psk-misc-speech-agendas-5965a3,Referenced in Power Academy agenda slide within same PDF
+microsoft,Microsoft,company,software,active,,1975-,psk-misc-speech-agendas-5965a3,Referenced in computing trends context

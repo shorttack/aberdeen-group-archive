@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Timing Your Move to Next Generation Operating Systems",
+  "description": "This Aberdeen Group workbook presents a structured timing framework for IS executives evaluating the transition to next-generation operating systems in 1993. It identifies five key OS trends \u2014 single-to-multi-tasking, single-to-multi-threaded, LAN/desktop integration, GUI adoption, and distributed client-server progress \u2014 and analyzes hot spots across the Three-Tier Plus topology. The study evaluates Unix derivatives, desktop OS alternatives from Windows 3.1 to OS/2, Power PC, Windows NT, and Solaris, and concludes that Unix is the clear mid-range choice while 486/Windows or Macintosh remain the standard desktop buy through mid-1994.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-02-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

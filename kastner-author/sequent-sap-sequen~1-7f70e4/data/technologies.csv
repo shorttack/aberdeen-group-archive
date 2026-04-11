@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+sap-r3,SAP R/3,application,SAP,1992-2015,growth,legacy-superseded,sequent-sap-sequen~1-7f70e4,Version 2.2d used in benchmark; superseded by SAP S/4HANA
+symmetry-se70,Sequent Symmetry SE70,hardware,Sequent Computer Systems,1995-1999,current,obsolete,sequent-sap-sequen~1-7f70e4,High-end SMP server; used as primary benchmark system with 20 application servers
+windows-nt,Windows NT,platform,Microsoft,1993-2000,growth,legacy-superseded,sequent-sap-sequen~1-7f70e4,NT 3.51 implied by era; one of two OS platforms tested
+fddi,FDDI,protocol,ANSI,1987-2000,mature,obsolete,sequent-sap-sequen~1-7f70e4,Used as primary network ring in benchmark configuration
+ethernet-10base-t,10BASE-T Ethernet,protocol,IEEE,1990-2000,mature,obsolete,sequent-sap-sequen~1-7f70e4,Secondary network used in benchmark configuration
+compaq-proliant-4000,Compaq ProLiant 4000s,hardware,Compaq,1993-1997,current,obsolete,sequent-sap-sequen~1-7f70e4,Used as simulated client driver systems in benchmark; two units

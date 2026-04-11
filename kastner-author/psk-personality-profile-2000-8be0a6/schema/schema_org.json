@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "16 PF Personality Assessment Report: Peter Kastner",
+  "description": "A formal 16 Personality Factors (16PF) psychometric assessment conducted on Peter S. Kastner dated 17 July 2001. The report evaluates Kastner across four domains: interpersonal relationships, coping with pressure, decision making and problem solving, and team behaviour, characterizing him as an extravert, resilient coordinator-type with strong social facility, dominant assertiveness, practical rather than abstract thinking, and a preference for collaborative decision-making.",
+  "creator": {
+    "@type": "Person",
+    "name": "16 PF Assessment (OPP Ltd.)"
+  },
+  "datePublished": "2001-07-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Strategic R/3 Solution for the Enterprise",
+  "description": "This vendor presentation by Sequent Computer Systems presents the SAP R/3 SD benchmark results achieved on the Sequent Symmetry SE70 SMP server running R/3 version 2.2d on both Windows NT and UNIX. The document positions the Sequent platform favorably versus HP, Sun/Cray, and IBM on user count, independent certification, and RDBMS CPU utilization.",
+  "creator": {
+    "@type": "Person",
+    "name": "Sequent Computer Systems"
+  },
+  "datePublished": "1996",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

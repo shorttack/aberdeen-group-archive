@@ -1,6 +1,7 @@
 # Kastner Collection — Master Index
 
-**Archives:** 1 (11) + 2 (9) + 3 (10) + 4 (3, +1 duplicate skipped)  
+**Archives:** 1 (11) + 2 (9) + 3 (10) + 4 (3) + 5 (11) + 6 (6, Casale) + 7 (8, NTI)  
+**Total v16-processed:** 58  
 **Processed:** April 10, 2026  
 **Skill:** v16  
 
@@ -8,59 +9,139 @@
 
 | Metric | Count |
 |---|---|
-| Studies | 33 |
-| Unique entities | 174 |
-| Unique technologies | 330 |
-| Total observations | 719 |
-| Web verifications | 168 entities, 349 technologies, 39 predictions |
+| v16 Studies | 58 |
+| Unique entities (cache) | 275 |
+| Unique technologies (cache) | 508 |
+| Total observations | 1,420 |
+| Web verifications | All entities/technologies/predictions verified across 7 archives |
 
-## Studies
+## Archive 1 — Kastner Research (11 studies)
 
-| # | Study ID | Type | Date | Obs | Arch |
-|---|---|---|---|---|---|
-| 1 | `1996-electronic-commerce-25d31b` | white-paper | 1996 | 18 | 1 |
-| 2 | `2001-hp-compaq-kastner-insight1-d6dc38` | expert-report | 2001-09-06 | 18 | 1 |
-| 3 | `2004-05dell-storage-profile-editpk-05170-3c00b1` | case-analysis | 2004-05 | 20 | 1 |
-| 4 | `2010-intel-ia-continuum-wp-1-2-fc5653` | white-paper | 2010 | 28 | 1 |
-| 5 | `amd-profile01-64e43b` | white-paper | 2002-02 | 17 | 1 |
-| 6 | `auditor-report-4-43ad9b` | benchmark | 2004-04 | 21 | 1 |
-| 7 | `computerworld-ilm-article-15f604` | expert-report | 2004-07-29 | 16 | 1 |
-| 8 | `copy-of-hp-camera-lab-journal-prod-c103f6` | case-analysis | 2001-12-05 | 16 | 1 |
-| 9 | `dct-oct.-4-hot-topic-b61c0d` | topic-analysis | 2003-10 | 17 | 1 |
-| 10 | `dell-ars-white-paper-prod-7-11m-c60434` | white-paper | 2003-07 | 21 | 1 |
-| 11 | `dell-sd2-final-d6e78c` | white-paper | 2003-2004 | 15 | 1 |
-| 12 | `desktop-virtualization-roi---aberdeen-8fa168` | benchmark | 2011-09 | 28 | 2 |
-| 13 | `goremote-profile-5-2a-8fa814` | market-study | 2003-09 | 25 | 2 |
-| 14 | `hp-can-boost-soa-offerings-with-acquisit-48e07e` | market-study | 2006-07-31 | 23 | 2 |
-| 15 | `hp-compaq-kastner-insight1-a5a4e0` | expert-report | 2001-09-06 | 20 | 2 |
-| 16 | `ibm-+-webify-=-industry-soa-application--97733a` | market-study | 2006-08-03 | 16 | 2 |
-| 17 | `iha-full-report---draft-jul-28-41de81` | market-study | 2003-07-28 | 30 | 2 |
-| 18 | `intel-2010-vpro-daily-globe-42697e` | expert-report | 2010-02-04 | 23 | 2 |
-| 19 | `intel-centrino-pk-8ecf9a` | expert-report | 2003-03-01 | 20 | 2 |
-| 20 | `intel-consumer-lt-10-5-03-580af7` | expert-report | 2003-10-05 | 22 | 2 |
-| 21 | `intel-ia2004-pk4-kc-edits-de9c37` | white-paper | 2003-07 | 25 | 3 |
-| 22 | `intel-infiband-wp--edit-psk-5-22f-a2c551` | white-paper | 2002-05 | 22 | 3 |
-| 23 | `intelitaniummfewp1[1]-773ea2` | white-paper | 2004-03 | 36 | 3 |
-| 24 | `ma-unisyswipro-rs-3747-36dd33` | market-study | 2006-12-18 | 17 | 3 |
-| 25 | `mirror-image-profile-v2-(050404)-e7eb95` | case-analysis | 2004-05 | 20 | 3 |
-| 26 | `oracleroiwhitepaperprod-7023c3` | white-paper | June 2001 | 23 | 3 |
-| 27 | `outsourcing-application-development-and--59d651` | benchmark | November 2006 | 35 | 3 |
-| 28 | `perspective-041304-e4be4c` | topic-analysis | April 13, 2004 | 20 | 3 |
-| 29 | `sars2-hot-topic-cf91d4` | topic-analysis | 2003-04 | 25 | 3 |
-| 30 | `snap-appliances-snapshot-10-15pk-f183fe` | case-analysis | 2003 | 21 | 3 |
-| 31 | `technology-themes-ee5ba4` | topic-analysis | 2003-2004 | 21 | 4 |
-| 32 | `the-business-value-in-it-outsourcing-7d5f23` | white-paper | 2006-05-25 | 18 | 4 |
-| 33 | `webex--taking-conferencing-to-the-busine-5b8109` | case-analysis | 2002-04 | 22 | 4 |
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 1 | `1996-electronic-commerce-25d31b` | white-paper | 1996 | 18 |
+| 2 | `2001-hp-compaq-kastner-insight1-d6dc38` | expert-report | 2001-09-06 | 18 |
+| 3 | `2004-05dell-storage-profile-editpk-05170-3c00b1` | case-analysis | 2004-05 | 20 |
+| 4 | `2010-intel-ia-continuum-wp-1-2-fc5653` | white-paper | 2010 | 28 |
+| 5 | `amd-profile01-64e43b` | white-paper | 2002-02 | 17 |
+| 6 | `auditor-report-4-43ad9b` | benchmark | 2004-04 | 21 |
+| 7 | `computerworld-ilm-article-15f604` | expert-report | 2004-07-29 | 16 |
+| 8 | `copy-of-hp-camera-lab-journal-prod-c103f6` | case-analysis | 2001-12-05 | 16 |
+| 9 | `dct-oct.-4-hot-topic-b61c0d` | topic-analysis | 2003-10 | 17 |
+| 10 | `dell-ars-white-paper-prod-7-11m-c60434` | white-paper | 2003-07 | 21 |
+| 11 | `dell-sd2-final-d6e78c` | white-paper | 2003-2004 | 15 |
+
+## Archive 2 — Kastner Research (9 studies)
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 12 | `desktop-virtualization-roi---aberdeen-8fa168` | benchmark | 2011-09 | 28 |
+| 13 | `goremote-profile-5-2a-8fa814` | market-study | 2003-09 | 25 |
+| 14 | `hp-can-boost-soa-offerings-with-acquisit-48e07e` | market-study | 2006-07-31 | 23 |
+| 15 | `hp-compaq-kastner-insight1-a5a4e0` | expert-report | 2001-09-06 | 20 |
+| 16 | `ibm-+-webify-=-industry-soa-application--97733a` | market-study | 2006-08-03 | 16 |
+| 17 | `iha-full-report---draft-jul-28-41de81` | market-study | 2003-07-28 | 30 |
+| 18 | `intel-2010-vpro-daily-globe-42697e` | expert-report | 2010-02-04 | 23 |
+| 19 | `intel-centrino-pk-8ecf9a` | expert-report | 2003-03-01 | 20 |
+| 20 | `intel-consumer-lt-10-5-03-580af7` | expert-report | 2003-10-05 | 22 |
+
+## Archive 3 — Kastner Research (10 studies)
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 21 | `intel-ia2004-pk4-kc-edits-de9c37` | white-paper | 2003-07 | 25 |
+| 22 | `intel-infiband-wp--edit-psk-5-22f-a2c551` | white-paper | 2002-05 | 22 |
+| 23 | `intelitaniummfewp1[1]-773ea2` | white-paper | 2004-03 | 36 |
+| 24 | `ma-unisyswipro-rs-3747-36dd33` | market-study | 2006-12-18 | 17 |
+| 25 | `mirror-image-profile-v2-(050404)-e7eb95` | case-analysis | 2004-05 | 20 |
+| 26 | `oracleroiwhitepaperprod-7023c3` | white-paper | 2001-06 | 23 |
+| 27 | `outsourcing-application-development-and--59d651` | benchmark | 2006-11 | 35 |
+| 28 | `perspective-041304-e4be4c` | topic-analysis | 2004-04-13 | 20 |
+| 29 | `sars2-hot-topic-cf91d4` | topic-analysis | 2003-04 | 25 |
+| 30 | `snap-appliances-snapshot-10-15pk-f183fe` | case-analysis | 2003 | 21 |
+
+## Archive 4 — Kastner Research (3 studies)
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 31 | `technology-themes-ee5ba4` | topic-analysis | 2003-2004 | 21 |
+| 32 | `the-business-value-in-it-outsourcing-7d5f23` | white-paper | 2006-05-25 | 18 |
+| 33 | `webex--taking-conferencing-to-the-busine-5b8109` | case-analysis | 2002-04 | 22 |
+
+## Archive 5 — Kastner Mixed (11 studies)
+
+Includes memoirs, benchmarks, white papers, and one personality profile. Spans 1994–2025.
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 34 | `dubtech-1996-29d4f9` | memoir | 1996-03-23 | 8 |
+| 35 | `ft-mitfor~1-a56a9d` | white-paper | 1995-10 | 25 |
+| 36 | `ibm-rs6000-midran~1-88f049` | benchmark | 1995 | 32 |
+| 37 | `management-skills-learned-1969-3e75d0` | memoir | 2025-01 | 20 |
+| 38 | `psk-misc-speech-agendas-5965a3` | white-paper | 1996-06 | 16 |
+| 39 | `psk-personality-profile-2000-8be0a6` | memoir | 2001-07-17 | 25 |
+| 40 | `rdbms-for-ibm-powera~1-7a44be` | benchmark | 1996-01-23 | 46 |
+| 41 | `sequent-592620` | market-study | 1994 | 31 |
+| 42 | `sequent-sap-sequen~1-7f70e4` | benchmark | 1996 | 16 |
+| 43 | `software-market-safegu~1-ea7453` | white-paper | 1995 | 31 |
+| 44 | `translating-early-skills-and-experiences-15bb2d` | memoir | 2025-01 | 17 |
+
+## Archive 6 — Casale Research (6 studies, other-authors/)
+
+Research by Aberdeen co-founder Charles T. Casale. Executive Vice President columns from 1983 and one AI-generated biographical profile.
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 45 | `casale-evp-2-79187c` | market-study | 1983-01-04 | 15 |
+| 46 | `casale-evp-3-b2b933` | market-study | 1983-01-05 | 18 |
+| 47 | `casale-evp-4-9bd4e6` | market-study | 1983-01-06 | 25 |
+| 48 | `casale-evp-5-aa8f2a` | market-study | 1983-01-07 | 21 |
+| 49 | `casale-evp-7-215359` | market-study | 1983-04-05 | 21 |
+| 50 | `charles-t-casale-influence-cdfb3f` | ai-response | 2024-12-03 | 20 |
+
+## Archive 7 — NTI Video Report Workbooks (8 studies, kastner-author/)
+
+Co-authored by Peter Kastner, John Logan, and Thomas Willmott for NTI (Network Technology International), 1993. Market studies based on video report workbooks covering open systems, PCs, operating systems, development tools, RDBMS, mainframes, midrange servers, and client-server computing.
+
+| # | Study ID | Type | Date | Obs |
+|---|---|---|---|---|
+| 51 | `nti-2-open-systems-1dd3af` | market-study | 1993-01 | 29 |
+| 52 | `nti-3-pc-and-ws-1993-17d49b` | market-study | 1993-02 | 29 |
+| 53 | `nti-4-nextgen-os-timing-1993-a45049` | market-study | 1993-02 | 30 |
+| 54 | `nti-5-development-toolsets-0e71c5` | market-study | 1993-04 | 30 |
+| 55 | `nti-6-rdbms-technology-48f4aa` | market-study | 1993-04 | 30 |
+| 56 | `nti-9-mainframe-role-1993-77fc40` | market-study | 1993-05 | 29 |
+| 57 | `nti-11-distributed-midrange-servers-1993-dedd19` | market-study | 1993-08 | 30 |
+| 58 | `nti-12-client-server-goals-1993-15a519` | market-study | 1993-07 | 30 |
 
 ## Notes
 
 - `Dell_SD2_FINAL.pdf` in Archive-4 is a duplicate of Archive-1 — skipped
 - `Enterprise Integration webinar.ppt` in Archive-2 — unsupported format, skipped
 - `hp-compaq-kastner-insight1` appears in Archives 1 and 2 from different source files
+- `AAPL1990.doc` — confirmed duplicate of existing study, skipped
+- `1992-TPC-benchmarks-OLTP.docx` — confirmed duplicate of existing study, skipped
+- Archive 5 contained one non-Kastner-authored study (`psk-personality-profile-2000-8be0a6`, a 16PF assessment) — retained in kastner-author/ as it is about Kastner
+- Archive 6 (Casale) studies filed under `other-authors/` per user direction
+- Archive 7 (NTI) dates are 1993, not 1990-91 as initially estimated by user — confirmed from document content
 
 ---
 
 ## Changelog
+
+### April 10, 2026 — Archives 5, 6, 7 Added (25 new studies)
+
+**Archive 5** (11 studies): Mixed Kastner collection including memoirs, IBM sales training benchmarks, white papers, and a personality profile. Notable items: RS/6000 RDBMS sales training deck (1995), Power Academy RDBMS competitive analysis (1996), two career memoirs (2025), and a 16PF psychometric assessment (2001).
+
+**Archive 6** (6 studies, Casale): Charles T. Casale's Executive Vice President columns from Aberdeen Group's 1983 newsletter, covering minicomputer billings, corporate growth dynamics, hypergrowth P&Ls, balance sheets, and quarterly financial cycles. Plus one AI-generated biographical profile.
+
+**Archive 7** (8 studies, NTI): Video report workbooks co-authored by Peter Kastner, John Logan, and Thomas Willmott for NTI in 1993. Covers the open systems transition, PC/workstation market, next-gen operating systems, development toolsets, RDBMS technology, mainframe role, distributed midrange servers, and client-server computing goals. These are historically valuable as comprehensive surveys of enterprise IT during the Unix/client-server transition era.
+
+**Pipeline updates:**
+- All 25 new studies processed with v16 three-phase pipeline
+- Entity/technology reuse caches grew from 174 → 275 entities, 330 → 508 technologies
+- Web verification completed for all new entities, technologies, and predictions
+- All `[DEFERRED]` fields backfilled to zero across Archives 5–7
 
 ### April 10, 2026 — Skill v16 Reprocessing (Archives 1–4)
 
@@ -72,7 +153,7 @@
 |---|---|---|
 | Architecture | Monolithic (v14) or partial scripting (v15) | Three-phase: AI extraction → scripted assembly → deferred web verification |
 | Assembler | Inline AI generation of all derivative files | Bundled `scripts/assembler.py` handles Steps 7–12 at zero credit cost |
-| Entity/tech reuse | None — each study extracted independently | Cross-study cache (`_known_entities.csv`, `_known_technologies.csv`) carried across all 33 studies |
+| Entity/tech reuse | None — each study extracted independently | Cross-study cache (`_known_entities.csv`, `_known_technologies.csv`) carried across all studies |
 | Web verification | Inline during extraction (expensive, inconsistent) | Deferred Phase 3 batch with incremental `_web_cache.json` persisting across sessions |
 | Raw text preservation | Not saved | `source/_raw_text.txt` saved for every study, enabling re-assembly without re-extraction |
 | Batch validation | Manual spot checks | `assembler.py validate` checks referential integrity, code coverage, and completeness per batch |
@@ -81,10 +162,10 @@
 
 - **18 existing studies updated** — CSVs rewritten with v16 schema (importance/relevance/prescience ratings + rationales, `[DEFERRED]` backfill from Phase 3 web verification, standardized observation types and methodology codes). Derivative files (README.md, datapackage.json, schema_org.json, demo_analysis.py, original_text.md) regenerated by the assembler. Raw text added to `source/_raw_text.txt`.
 - **15 new studies added** — 14 to `kastner-author/`, 1 to `other-authors/` (Dick Csaplar, Desktop Virtualization ROI)
-- **Master indices regenerated** — `_master_studies.csv`, `_master_entities.csv`, `_master_technologies.csv`, `_collection_stats.csv` now cover all 33 v16-processed studies alongside the existing repository studies
-- **Caches added to repo root** — `_known_entities.csv` (174 entities), `_known_technologies.csv` (330 technologies), `_web_cache.json` (168 entity verifications, 349 technology verifications, 39 prediction verifications)
+- **Master indices regenerated** — `_master_studies.csv`, `_master_entities.csv`, `_master_technologies.csv`, `_collection_stats.csv` now cover all v16-processed studies alongside the existing repository studies
+- **Caches added to repo root** — `_known_entities.csv`, `_known_technologies.csv`, `_web_cache.json`
 
-**Phase 3 web verification highlights:**
+**Phase 3 web verification highlights (Archives 1–4):**
 
 - 168 entities verified: 52 active, 48 acquired, 11 dissolved, 9 renamed/reorganized, 6 merged, 42 persons/standards bodies/other
 - 349 technologies verified: lifecycle_current assigned (active, discontinued, end-of-life, evolved, legacy-supported, mature, succeeded, standard-current, standard-superseded)

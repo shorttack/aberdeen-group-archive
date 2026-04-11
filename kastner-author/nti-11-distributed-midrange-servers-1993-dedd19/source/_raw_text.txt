@@ -1,0 +1,858 @@
+AberdeenGn?^
+r 
+• 
+i
+□ c— J
+(o S )
+bioS®^
+S^stems wo"^
+ofcmgl® SsFwrs
+«e®®« /MW Wj rr’IJW/M^ W iJO irfflii iXWO'l
+AberdeenGrowp
+Building
+Distributed
+Systems with
+Midrange Servers
+New Technology Impact Series
+Number 11
+August 1993
+Aberdeen Group, Inc.
+92 State Street
+Boston, Massachusetts 02109
+Telephone 617 723 7890
+AberdeenGroatp Building Distributed Systems with Midrange Servers
+AGENDA
+□ ENTERPRISE REQUIREMENTS FOR
+DISTRIBUTED SYSTEMS
+□ MIDRANGE SERVER CHARACTERISTICS
+□ MATCHING MIDRANGE SERVERS WITH
+ENTERPRISE REQUIREMENTS
+□ DISTRIBUTED SYSTEM ARCHITECTURES
+□ IMPLEMENTING MIDRANGE SERVERS IN A
+DISTRIBUTED ENVIRONMENT
+□ CONCLUSION WRAP UP
+Aberdeen Notes:
+As enterprises are rebuilding their IS infrastructures with a combination of
+midrange servers and PC LANs (local area networks), senior executives are
+researching how midrange servers can be the basis for successfully
+accomplishing their goals. In this chapter of the New Technology Impact
+series, Aberdeen will explore how IS executives are Building Distributed
+Systems with Midrange Servers using the latest technology advances.
+The critical reason midrange servers are being used as the foundation for
+next-generation enterprise IS systems is really quite simple — they provide
+the comprehensive functionality at reasonable prices that enterprises need
+for business-critical multiuser applications.
+Aberdeen will first describe the key new enterprise requirements for
+multiuser information systems and then the operating characteristics of
+today’s midrange servers. Aberdeen will then highlight how midrange
+servers match the operational requirements of enterprises. Midrange
+servers provide IS executives with multiple options when designing
+distributed architectures. Therefore, Aberdeen will describe the topologies
+most frequently employed and why.
+Finally, this chapter will review the midrange server suppliers from a
+technical and product perspective, noting how they can meet executives
+requirements.
+New Technology Impact Series
+Page 1
+AberdeenGronp Building Distributed Systems with Midrange Servers
+ENTERPRISE REQUIREMENTS
+□ ONLINE DECISION SUPPORT FOR OPERATIONAL
+MANAGERS
+□ RAPID INFORMATION SYSTEMS
+IMPLEMENTATION OF MANAGEMENT CHANGES
+□ EFFECTIVE DATA MANAGEMENT AMONG
+APPLICATIONS
+□ INTEROPERABILITY AMONG LEGACY AND
+FUTURE SYSTEMS
+□ LOWER INFORMATION SYSTEMS COSTS
+Aberdeen Notes:
+Aberdeen field research consistently shows that the principal business force
+driving enterprises away from mainframes today is the requirement by
+operational managers — those middle-level departmental managers whose
+continuous decisions determine success or failure on a daily basis — for
+online access to the data necessary to do their jobs better. IS executives
+who still believe that internal customers will accept green striped reports
+with out-of-date batch processed information will be in for a rude
+awakening when their successor is named.
+As operating a superior-to-the-competition IS function is a critical success
+factor in the 1990s, enterprises are demanding that many key functions
+simply be performed better than in the past. Yet the mainframe has
+reached its limit for effectively implementing applications, managing data
+among numerous different applications, providing application
+interoperability, and lowering IS-related costs.
+To meet changing and more demanding enterprise requirements, decision
+makers are looking for new ways to rationally manage information within
+their organizations. Those enterprises on the leading edge recognize that
+neither mainframes nor networked PC — nor merely the combination of the
+two — are designed with the underlying technology capabilities to meet all
+of their needs.
+New Technology Impact Series
+Page 2
+AberdeenGroizp Building Distributed Systems with Midrange Servers
+MIDRANGE SERVER
+CHARACTERISTICS
+□ BROAD RANGE: DESKS IDE-TO-DATAC ENTER/
+1-TO-1,000 ACTIVE USERS
+□ INCREASINGLY MICROPROCESSOR-BASED
+AND SUPPORTING SMP FUNCTIONALITY
+□ RDBMS SUPPORT
+□ COMMUNICATIONS SUPPORT
+□ OLTP, BATCH, AND DECISION SUPPORT
+□ COMPLEMENTARY TO BOTH MAINFRAMES AND
+PCs
+Aberdeen Notes:
+Many IS executives remember midrange servers as small but cost-effective
+machines best used to support workgroups of under 50 users for
+timesharing applications. However, midrange server technology has
+changed dramatically in the last 2-3 years. Most notably, I/O bandwidth,
+processor speed, and systems and communications software have advanced
+to the point that midrange servers now exceed IBM ES/9000 mainframes
+in technological capability and systems reliability.
+Suppliers have scaled their midrange servers to the point where they are
+economical to use both in distributed locations where there is just one
+employee (such as a brokerage office in Sri Lanka) and to support over a
+1,000 online concurrent users.
+To leverage the benefits of 1990’s technology, midrange servers are built
+using state-of-the-science microprocessors that surpass the performance of
+handcrafted mainframe CPUs.
+To ensure high-end growth capabilities to handle applications requiring
+even greater throughput than can now be handled by mainframes,
+advanced midrange servers provide growth paths through symmetric
+multiprocessing (SMP) with near-linear performance increases.
+New Technology Impact Series
+Page 3
+AberdeenGrowp Building Distributed Systems with Midrange Servers
+MIDRANGE SERVER
+CHARACTERISTICS
+□ BROAD RANGE: DESKSIDE-TO-DATACENTER/
+1 -TO-1,000 ACTIVE USERS
+□ INCREASINGLY MICROPROCESSOR-BASED AND
+SUPPORTING SMP FUNCTIONALITY
+□ RDBMS SUPPORT
+□ COMMUNICATIONS SUPPORT
+□ OLTP, BATCH, AND DECISION SUPPORT
+□ COMPLEMENTARY TO BOTH MAINFRAMES
+AND PCs
+Aberdeen Notes:
+But it is not just the hardware that has distinguished midrange servers.
+RDBMS (relational database management systems) coupled with midrange
+servers have ushered in a new generation of applications. Line managers
+are continuously demanding the functionality provided by today’s RDBMSs
+to better run their operations.
+Midrange systems provide the widest range of communications support
+among heterogeneous systems. They can act as the glue for global
+enterprises’ staff communications systems such as electronic mail as well as
+the transfer of data from anywhere-to-anywhere.
+The three major types of applications that a multiuser system must support
+today are OLTP (online transaction processing), batch processing (such as
+general ledger reporting), and decision support (for example, calculate how
+many widgets were sold yesterday by price and location). Midrange servers
+can now do all three of these classes of applications more effectively than
+mainframes and, in organizations with over a gigabyte of data online, more
+effectively than PC LAN servers.
+Midrange servers have designed to functionally complement both legacy
+mainframes and stand alone PC-based applications.
+New Technology Impact Series
+Page 4
+AberdeenGroMp Building Distributed Systems with Midrange Servers
+MIDRANGE SOFTWARE PROVIDES
+LONG-TERM BENEFIT
+□ SINGLE USER AND MULTIUSER APPLICATIONS
+AND TOOLS ARE DIFFERENT
+□ INTEROPERABILITY OF MANY-TO-EVERYTHING
+□ SECURITY, DATA INTEGRITY, AVAILABILITY
+□ INTERACTION WITH END USER
+□ RDBMS PLAYS CRUCIAL ROLE
+Aberdeen Notes:
+While the Holy Grail of computing seems to be to have the same operating
+system and environment on both multiuser and single-user systems (more
+commonly referred to as servers and clients today), the reality is that in
+1993 the two design centers are very different. Therefore, Aberdeen
+advises decision makers to evaluate midrange servers based upon multiuser
+computing functionality. However, Aberdeen continuously finds that non­
+technical senior executives naively overlay a single-user PC model of the
+world against midrange servers running multiuser applications that often
+leads to disastrous results.
+A decision to acquire midrange servers as the backbone of a state-of-the-
+art enterprise topology has many long-term benefits that are often not
+obvious at first. Key among these is interoperability of many-to-eveiything.
+What this concept means in the real world is that suppliers of midrange
+server software are putting their efforts into keeping midrange servers on
+the forefront of interoperability technologies. Users connected to a
+midrange server hub (many) have interoperable access to mainframe
+applications, PC users, and databases scattered throughout the world —
+including those connected to public data networks (everything).
+Yet at the same time, distributed midrange servers have the appropriate
+systems software to provide the production computing requirements of
+security, data integrity, and availability that IS executives demand. In real
+world practice, Aberdeen has found that midrange servers provide greater
+functionality in all three of these critical areas than either mainframes or
+PC LANs.
+New Technology Impact Series
+Page 5
+AberdeenGronp Building Distributed Systems with Midrange Servers
+MIDRANGE SOFTWARE PROVIDES
+LONG-TERM BENEFIT
+□ SINGLE USER AND MULTIUSER APPLICATIONS
+AND TOOLS ARE DIFFERENT
+□ INTEROPERABILITY OF MANY-TO-EVERYTHING
+□ SECURITY, DATA INTEGRITY, AVAILABILITY
+□ INTERACTION WITH END USER
+□ RDBMS PLAYS CRUCIAL ROLE
+Aberdeen Notes:
+The objective of the next generation of distributed systems is to better
+support line managers and departmental staffs in carrying out their daily
+responsibilities. This is a business operations end-user-centric view of the
+world as opposed to the mainframe-centric view that sees the central
+computing resource as an end-unto-itself or the PC-centric view that sees
+the single-user as king.
+Midrange servers provide the functionality to expedite interaction between
+users within specific departments and the rest of the enterprise. This
+capability is a requirement for enterprises seeking to reorganize from the
+traditional silo or hierarchical model to the faster moving horizontal
+structure.
+The reason Aberdeen refers to midrange servers as opposed to midrange
+computers is that RDBMS software is an integrable part of the server.
+RDBMS technology, including the actual database engine and supporting
+application development tools and applications, provide benefits beyond
+merely fast CPU processing. The RDBMS provides: speed of application
+development, implementation and enhancement, departmental and
+individual user customization with minimal IS resource requirements, and
+application portability among different hardware platforms.
+In the future, Aberdeen expects to see enterprises implementing client­
+server applications based upon their RDBMS-of-choice as opposed to any
+one manufacturer’s particular midrange server platform.
+New Technology Impact Series
+Page 6
+AbcrdeenGrozzp Building Distributed Systems with Midrange Servers
+MIDRANGE OPERATING SYSTEMS
+O LEGACY/PROPRIETARY VERSUS UNIX
+□ NT, NLM, SCO/UNIX MOVING UP TO
+MIDRANGE
+□ REMOTE OPERATION CONTROL
+□ COMMUNICATIONS LEADERSHIP
+□ MAINTAIN DATA INTEGRITY AND SECURITY
+O TARGET PLATFORMS FOR HETEROGENEOUS
+TRANSACTION MONITORS
+Aberdeen Notes:
+Midrange servers are differentiated by the operating systems that run on
+them. Historically, suppliers created their own operating systems such as
+IBM’s DOS/VSE and OS/400, Digital Equipment’s VMS, and Hewlett-
+Packard’s MPE. But driven by government purchasing regulations, by 1988
+most suppliers found that they also had to offer a Unix-compliant operating
+system if they were to compete in this major market segment. And now
+the suppliers of Unix-based midrange servers compete on the basis of the
+component software available to complement the Unix operating system to
+provider data integrity, systems reliability, security, backup, networking,
+etc.
+The result is that IS executives comprehensively evaluate midrange server
+functionality based on the entire systems software operating environment —
+commonly referred to as middleware — not just the operating system itself.
+Several operating system suppliers — notably Microsoft, Novell, and The
+Santa Cruz Operations (SCO) — are aggressively attempting to develop
+alternative multiuser operating systems to transform industry-standard Intel
+80X86 microprocessors into midrange servers. However, without the
+greater R&D resources and knowledge of user requirements derived from
+supplying complementary hardware and services to end users, Microsoft’s
+Windows/NT Server, Novell’s NLMs (NetWare Loadable Modules), and
+SCO’s Unix still fall short of enterprise’s production requirements. But this
+position may change within the next 2-3 years.
+New Technology Impact Series
+Page 7
+AberdeenGroM/?Building Distributed Systems with Midrange Servers
+MIDRANGE OPERATING SYSTEMS
+□ LEGACY/PROPRIETARY VERSUS UNIX
+□ NT, NLM, SCO/UNIX MOVING UP TO MIDRANGE
+□ REMOTE OPERATION CONTROL
+□ COMMUNICATIONS LEADERSHIP
+□ MAINTAIN DATA INTEGRITY AND SECURITY
+□ TARGET PLATFORMS FOR HETEROGENEOUS
+TRANSACTION MONITORS
+Aberdeen Notes:
+One of the primary objections to distributed systems by IS executives
+trained in central mainframe processing is the historical requirement for
+human operators to be placed at remote locations. However, today’s
+midrange servers do not have this requirement. More importantly,
+midrange server operating environments provide central IS staff with the
+functionality to remotely backup distributed systems (including networked
+PCs), propagate new applications and new versions of existing applications,
+schedule and run batch applications, and recover from system crashes. As
+a result, remote operation control is a reality with distributed midrange
+servers. This can result in a significant cost savings for enterprises that
+have numerous remote locations.
+Communication of information from where it is gathered to where it is
+needed is becoming a major objective for IS executives. And at the same
+time, network compatibility is a major headache as older protocols are
+being obsoleted by faster, more reliable new ones with greater
+functionality. Aberdeen anticipates continuous change in the
+communications area as new networking approaches, such as the Open
+Software Foundation’s (OSF) Distributed Computing Environment (DCE)
+and multiple new PC network operating systems, are established.
+Midrange servers, due to their power and traditional role as
+communications nodes, will continue to sustain their leadership role as the
+data communications switch with the greatest flexibility and versatility over
+time for supporting multiuser applications.
+New Technology Impact Series
+Page 8
+AberdeenGrowp Building Distributed Systems with Midrange Servers
+MIDRANGE OPERATING SYSTEMS
+□ LEGACY/PROPRIETARY VERSUS UNIX
+□ NT, NLM, SCO/UNIX MOVING UP TO MIDRANGE
+□ REMOTE OPERATION CONTROL
+□ COMMUNICATIONS LEADERSHIP
+□ MAINTAIN DATA INTEGRITY AND SECURITY
+□ TARGET PLATFORMS FOR HETEROGENEOUS
+TRANSACTION MONITORS
+Aberdeen Notes:
+The most common alternative considered by IS executives to midrange
+servers is PC LANs. Yet for applications that require the enterprise
+maintain data integrity — that is the data cannot be lost or corrupted — and
+security, PC LAN systems have numerous technical deficiencies. And while
+mainframe operating environments can supply excellent data integrity and
+security, the time to implement and the inflexibility of modifying the system
+negates the advantages. More to the point, many mainframe IS staffs
+simply cannot maintain mainframe security systems and still meet the
+enterprise’s needs to add, delete and change the status of both users and
+applications. When properly implemented, midrange server operating
+systems can maintain data integrity and security (and often at higher levels)
+than mainframe systems while allowing IS staffs the flexibility to modify
+user status and applications online.
+Finally, Aberdeen would point out that much work is being done to create
+a new breed of transaction monitors that will allow enterprises to more
+efficiently integrate new online transaction (OLTP) applications,
+heterogeneous databases, and users. These transaction monitors are
+envisioned to play a key role in lowering the cost of coupling new and old
+application functionality. And the target platform for these transaction
+monitors, such as Transarc’s Encina, USL’s(Unix Systems Laboratory)
+Tuxedo, and NCR’s Top End, is midrange server operating systems.
+Therefore, midrange operating systems represent a safe choice for the
+future and can protect IS from major supplier and technical changes.
+New Technology Impact Series
+Page 9
+AberdeenCrotzp Building Distributed Systems with Midrange Servers
+MIDRANGE SYSTEMS MEET TODAY’S
+ENTERPRISE REQUIREMENTS
+□ MIDRANGE SERVERS ARE TRADITIONALLY
+USED FOR MULTIUSER DECISION SUPPORT
+□ MIDRANGE RDBMS AND COMMUNICATIONS
+TECHNOLOGY FACILITATES VERY RAPID
+ENTERPRISE-WIDE INFORMATION SYSTEMS
+CHANGE
+□ TIME POSTING OF DATA - SYNCHRONOUS AND
+ASYNCHRONOUS - AND SQL ACCESS
+□ MIDRANGE SNA, PC LAN, TCP/IP, AND DCE
+SUPPORT
+□ MIDRANGE PROVIDES 50% CUT IN
+ACQUISITION, MAINTENANCE, AND SUPPORT
+COSTS COMPARED TO MAINFRAME
+Aberdeen Notes:
+Not surprisingly, based upon the preceding rationale, Aberdeen finds that
+the current generation of midrange servers best meet today’s enterprise
+requirements for production computing. While midrange servers have
+been most commonly used within large enterprises for multiuser decision
+support applications, today’s servers can also perform OLTP and batch
+applications more effectively than either mainframes or PC LANs.
+Key to the success enterprises have had when creating distributed systems
+with midrange servers is the capability to put into production and update
+applications very quickly to meet ever changing business requirements. In
+addition, as organizations continuously restructure to more effectively lower
+costs, compete, and increase customer satisfaction, the ability to rapidly
+change the enterprise-wide information communications network with
+midrange systems is a key operational advantage.
+New Technology Impact Series
+Page 10
+AberdeenCrozzp Building Distributed Systems with Midrange Servers
+MID RANG E SYSTEM S M EET TO DAY’S
+ENTERPRISE REQUIREMENTS
+□ MIDRANGE SERVERS ARE TRADITIONALLY USED
+FOR MULTIUSER DECISION SUPPORT
+□ MIDRANGE RDBMS AND COMMUNICATIONS
+TECHNOLOGY FACILITATES VERY RAPID
+ENTERPRISE-WIDE INFORMATION SYSTEMS
+CHANGE
+□ TIME POSTING OF DATA - SYNCHRONOUS
+AND ASYNCHRONOUS - AND SQL ACCESS
+□ MIDRANGE SNA, PC LAN, TCP/IP, AND DCE
+SUPPORT
+□ MIDRANGE PROVIDES 50% CUT IN
+ACQUISITION, MAINTENANCE, AND SUPPORT
+COSTS COMPARED TO MAINFRAME
+Aberdeen Notes:
+In building distributed systems, the importance of adding a time dimension
+to data cannot be overemphasized. In the mainframe world, it was
+considered standard that all applications that needed the same data be
+updated at the same time. But this can create chaos in today’s world. For
+example, product marketing analysts may be able to have access to
+production data that is continuously being updated in real time, but they
+would never be able to run the same analysis twice — they need static data
+to do so. Midrange servers coupled with an RDBMS can both capture
+data and generate information, and they can add the ability to do so when
+it is most appropriate. And well-designed heterogenous applications can
+exchange data values using industry standard SQL Access protocols.
+Midrange servers support SNA protocols for interoperability with
+mainframe systems as well as all the major PC LAN network operating
+systems such as Novell’s NetWare. In addition, midrange servers may
+incorporate their own server peer-to-peer network protocols such as
+TCP/IP today with the goal of moving to a more functional OSF DCE with
+the next several years.
+New Technology Impact Series
+Page 11
+AberdeenGroMp Building Distributed Systems with Midrange Servers
+MIDRANGE SYSTEMS MEET TODAY’S
+ENTERPRISE REQUIREMENTS
+□ MIDRANGE SERVERS ARE TRADITIONALLY USED
+FOR MULTIUSER DECISION SUPPORT
+□ MIDRANGE RDBMS AND COMMUNICATIONS
+TECHNOLOGY FACILITATES VERY RAPID
+ENTERPRISE-WIDE INFORMATION SYSTEMS
+CHANGE
+□ TIME POSTING OF DATA - SYNCHRONOUS AND
+ASYNCHRONOUS - AND SQL ACCESS
+□ MIDRANGE SNA, PC LAN, TCP/IP, AND DCE
+SUPPORT
+□ MIDRANGE PROVIDES 50% CUT IN
+ACQUISITION, MAINTENANCE, AND SUPPORT
+COSTS COMPARED TO MAINFRAME
+Aberdeen Notes:
+Almost all IS managers are under increasing pressure to cut costs. Yet the
+mainframe operating environment is experiencing continuously increasing
+costs in the form of annual software license fees. Even as the price of
+mainframe hardware drops, the internal costs to maintain current
+applications and develop new ones quickly continues to increase at an
+unacceptable rate. Simply put, comparing the mainframe versus midrange
+server personnel and software licensing costs required to develop, enhance,
+and maintain applications over their life cycle is no contest. The midrange
+server wins by a significant percentage — often reported as being 80% less
+costly for the same results.
+Aberdeen research shows that using midrange servers to run enterprise
+production applications can lower IS costs by 50% on average. Some cost
+areas, especially application development, acquisition and maintenance are
+reduced even more. The one significant cost component that is increased
+by migrating to distributed midrange servers is network management.
+New Technology Impact Series
+Page 12
+AberdeenGrottp Building Distributed Systems with Midrange Servers
+THREE-TIER PLUS FUNCTIONALITY
+REQUIRED
+Enterprise server Plus decision support
+Aberdeen Notes:
+Based on research with enterprises that have successfully implemented
+production distributed systems with midrange servers, Aberdeen believes
+that the three-tier plus architecture has been the most successful.
+Enterprises choose the most appropriate single-user platform based upon
+functionality and price for the application and connect it to a midrange
+server that may be distributed by geography and/or application. Naturally
+the multiple midrange servers will be networked together to provide
+efficient data exchange and system redundancy.
+Central IS maintains the production systems to consolidate data from the
+multiple midrange system. While this production system has traditionally
+been a mainframe, it can easily be a high-end server with superior-to-
+mainframe I/O. Very importantly, this production system allows IS to
+backup the distributed midrange servers and, if desired, even the connected
+PCs.
+Finally, the analytically system is typically updated each night to allow
+managers the next day to review the status of the business and make
+tactical decisions.
+New Technology Impact Series
+Page 13
+AberdeenGrottp Building Distributed Systems with Midrange Servers
+MIDRANGE FUNDAMENTAL TO
+THREE-TIER PLUS OPERATIONS
+□ MULTIUSER ANALYTICAL SYSTEM PROVIDES
+CRITICAL FUNCTIONALITY
+□ DESKTOP SYSTEMS ARE RIGHTSIZING TO
+MEET USER DESIRES FOR CLIENT-SERVER
+□ PRODUCTION SYSTEMS ARE RAPIDLY
+TRANSFORMING FROM MAINFRAMES TO
+MIDRANGE
+□ MIDRANGE IN REPLICATED SYSTEMS
+REPRESENTS BEST WAY TO PROTECT
+INVESTMENT
+Aberdeen Notes:
+The plus in three-tier plus signifies the importance enterprises are placing
+on allowing middle managers — and more and more frequently customers
+or constituents — to access current data to make operational decisions.
+While all too often IS has allowed and encouraged departmental managers
+to gather data for decision support applications to be run on PCs. Yet the
+analysis process is most effectively handled on an enterprise-wide basis to
+allow decision makers access to data distributed throughout the enterprise.
+For example, in retailing merchandising managers would access the
+analytical system each day to decide how many of any product should be
+stocked at each store location in the future. These are real profit-and-loss
+decisions for the retailer.
+While mainframe applications are being downsized to midrange servers
+and PC LANs, desktop operating systems are in the process of being
+upsized with faster processors, more memory and disk, and a potential new
+generation of operating systems such as MS-Windows/NT, OS/2, Unix,
+NextStep, and Taligent. Aberdeen anticipates that in the next decade,
+more monies will be invested to rightsize the desktop than was ever spent
+on mainframe computing systems.
+New Technology Impact Series
+Page 14
+AberdeenGroMp Building Distributed Systems with Midrange Servers
+MIDRANGE FUNDAMENTAL TO
+THREE-TIER PLUS OPERATIONS
+□ MULTIUSER ANALYTICAL SYSTEM PROVIDES
+CRITICAL FUNCTIONALITY
+□ DESKTOP SYSTEMS ARE RIGHTSIZING TO MEET
+USER DESIRES FOR CLIENT-SERVER
+□ PRODUCTION SYSTEMS ARE RAPIDLY
+TRANSFORMING FROM MAINFRAMES TO
+MIDRANGE
+□ MIDRANGE IN REPLICATED SYSTEMS
+REPRESENTS BEST WAY TO PROTECT
+INVESTMENT
+Aberdeen Notes:
+The major transformation now occurring in the central IS topology is that
+the production system in the three-tier plus topology can now be a
+midrange server. The major obstacles to midrange servers being used in
+this role have been both a lack of processor power and limited I/O
+bandwidth. However, in 1992 midrange servers surpassed mainframe
+technology in both these crucial areas.
+Rise (reduced instruction set computing)-based microprocessors now have
+greater performance than mainframe processors based on Cisc (complex
+instruction set computing) technology. And this advantage is accentuated
+when one realizes that significantly fewer midrange CPU server cycles are
+required to manage the system itself.
+More significantly, the channel I/O bandwidth of high-end midrange
+servers ranges from 20 MB/sec. to 32 MB/sec. while advanced mainframe
+I/O channel bandwidth is only 9.5 MB/sec. And midrange servers typically
+use high speed disk arrays today that are simply not available for
+mainframes. The result is high-end midrange systems have faster wall
+clock time results for even batch operations than older mainframes.
+In conclusion, Aberdeen believes that midrange systems both meet
+enterprise needs today and at the same time represent the best way to
+protect an enterprise’s investment in multiuser computing for the future.
+New Technology Impact Series
+Page 15
+AberdeenCroifp Building Distributed Systems with Midrange Servers
+MIDRANGE SERVERS EXTENDING LIFE
+OF MAINFRAME DATABASES
+LEGACY MAINFRAMES
+Aberdeen Notes:
+Many enterprises are following an evolutionary approach to distributed
+midrange servers by surrounding their existing mainframe(s). Rather than
+losing the investment in mainframe applications and data, this tactic allows
+mainframes to act as production systems while data is transferred to
+midrange servers with an advanced RDBMS that can effectively support
+end-user PC clients.
+The benefit of this approach is that it allow IS meet the most pressing
+information requirements of an enterprise without needing to replace the
+existing business critical systems. And it provides mainframe-oriented IS
+personnel with the opportunity to be retrained on midrange server
+technologies over time.
+The surround approach typically assumes that new applications will be
+developed on midrange servers. But at the same time, it allows the
+enterprise to capture positive returns on mainframe applications that have
+been released to production within the last several years and extend the
+operational life of current mainframe databases.
+New Technology Impact Series
+Page 16
+AberdeenCJrozzp Building Distributed Systems with Midrange Servers
+MIDRANGE SERVERS EXTENDING LIFE
+OFMAINFRAMEDATABASES
+□ MIDRANGE SERVERS SURROUND THE
+MAINFRAME
+□ MIDRANGE SERVER PERFORMS BOTH OLTP
+APPLICATIONS AND DECISION SUPPORT
+□ TIME MANAGEMENT OF DATA EXTREMELY
+IMPORTANT
+□ ALL NEW MULTIUSER APPLICATION
+DEVELOPMENT TARGETED AT MIDRANGE - NOT
+MAINFRAME
+□ BASIS FOR CLIENT-SERVER COMPUTING
+Aberdeen Notes:
+The surround strategy leverages past investments in mainframe
+applications. Yet new OLTP and decision support applications are all
+developed on next-generation distributed midrange servers.
+Obviously, in such a topology the time component of data becomes
+extremely important — when should data reside on each system and when
+should data be interchanged between systems.
+Finally, the surround strategy is an excellent progression to client-server
+computing where the PC client provides more active participation in
+production computing. In the next generation of client-server computing,
+the desktop system should not only provide end users with a graphical user
+interface (GUI), but also maintain static subdomains of the database (look­
+up tables), process the front-end business logic such as data validation, and
+direct network messages to the appropriate back-end multiuser server.
+New Technology Impact Series
+Page 17
+-
+AberdeenCjronp Building Distributed Systems with Midrange Servers
+MIDRANGE SERVERS
+COMPLEMENTING PC LANS
+ENTERPRISE NETWORK
+Aberdeen Notes:
+The departmental topology that enterprises are finding provides the
+greatest flexibility and functionality for mulituser applications are those
+that rely on midrange servers and PCs connected to Ethernet LANs.
+In this topology, the midrange server has an active RDBMS-based
+application and communications with the rest of the enterprise. It may be
+complemented by PC servers running a network operating system such as
+Novell’s NetWare for local PC file and print services. In addition, bridges
+and routers may be part of this topology to provide low-cost networking
+services.
+Page 18
+New Technology Impact Series
+Aberdeen<jro«p Building Distributed Systems with Midrange Servers
+MIDRANGE SERVERS COMPLEMENT
+PC LANS
+□ PC SERVER DATABASES ARE PASSIVE OR
+LIMITED IN SCOPE
+□ ALLOWS IS TO PROVIDE BACKUP AND
+APPLICATION VERSION CONTROL
+□ ACTS AS APPLICATION GATEWAY TO
+ENTERPRISE
+Aberdeen Notes:
+While the majority of LAN servers are PC based, it should be noted that
+their function is not to provide production OLTP back-end database
+services to the users. PC database servers are typically described as passive
+systems — that is files are retrieved from the server, worked with on a PC,
+and then returned with any modifications to the PC LAN server. Only
+occasionally does the PC LAN server database verify that the record meets
+any criteria for acceptance back into the PC LAN server. Such a lack of
+data integrity and security is inappropriate for any OLTP application and
+most decision support applications. However, the use of a midrange server
+with a robust RDBMS overcomes these major problems.
+By connecting the departmental midrange server to the central IS
+production server, IS can now provide both departmental and PC backup
+services as well as version control. This allows the department to function
+on its objectives while minimizing the overhead requirements to directly
+support computing systems dedicated to its specific application functions.
+Most importantly, the midrange server provides departmental PC LANs
+with an application and data gateway to the rest of the enterprise.
+Authorized and verified data can be quickly transferred to the department
+in a format that can easily be accessed by individual PCs and only
+auditable data may be transferred to other systems throughout the
+enterprise.
+New Technology Impact Series
+Page 19
+AberdeenGrotfp Building Distributed Systems with Midrange Servers
+PRODUCTION DISTRIBUTED SYSTEMS
+Aberdeen Notes:
+Taking a look into the future, Aberdeen sees three classes of midrange
+servers being the chief hardware building blocks for multiuser production
+computing in larger enterprises.
+Datacenter application servers will be located in what is today the central
+datacenter. Each server will be dedicated to a major online application.
+This minimizes software license pricing, provides the optimum response
+time to end users, and allows the application server to grow as application
+throughput requirements increase. Such datacenter application servers will
+be linked via high speed fiber optic.
+To provide a linkage with remote and distributed locations, midrange
+servers acting as gateways will be used. These systems will be optimized
+for high availability and will run the next-generation of transaction
+monitors to ensure the efficient flow of data to applications while
+maintaining data integrity. Changes in applications, data flows, and user
+security can be managed through such gateways. These gateways may be
+connected to the rest of the enterprise through a combination of LANs and
+WANs (wide area networks).
+Finally, distributed production servers will be placed at both remote sites
+and in locations where physical security is of extreme importance.
+New Technology Impact Series
+Page 20
+AberdeenGroup Building Distributed Systems with Midrange Servers
+PRODUCTION DISTRIBUTED SYSTEMS
+□ DISTRIBUTED RDBMS AND COMMUNICATIONS
+TECHNOLOGY MAKE POSSIBLE
+□ BEST APPLICATION FOR FUNCTION CAN BE
+IMPLEMENTED AND INTEGRATED WITH OTHERS
+□ NO MORE GARGANTUAN DATABASES
+□ IS RELIABILITY, AVAILABILITY, SERVICEABILITY,
+AND SECURITY ISSUES ALL POSITIVELY
+ADDRESSED
+Aberdeen Notes:
+This hierarchy of distributed production systems is only made possible
+through the combination of distributed RDBMS technology and reliable,
+high-speed communications systems. Many IS decision makers who
+evaluated the capabilities of midrange servers even just two years ago need
+to reassess the functionality advances incorporated in the midrange servers
+of 1993.
+And because enterprises cannot update all their applications at one time
+due to resource limitations, this distributed systems approach allows IS to
+enhance applications in a modular manner — usually prioritized by return
+on investment — and still integrate new applications with old. And many
+times such integration will occur in ways not previously envisioned.
+In conjunction with distributing applications on separate midrange servers,
+databases can also be modularized. This provides the advantage of faster
+access to data, shorter backup times, and less opportunity for catastrophic
+data corruption.
+Finally, mainframe-trained IS professionals worry about maintaining
+reliability, availability, serviceability, and security. But line managers
+demand access to information, flexibility, and services on demand. All too
+often these concerns are in direct conflict. But by building an enterprise­
+wide information systems for production applications with distributed
+midrange servers, IS executives can meet the objectives of line managers
+while preserving the highest level of IS operations integrity.
+New Technology Impact Series
+Page 21
+AberdeenGronp Building Distributed Systems with Midrange Servers
+SU P P LI ERS AN D P RO DUCTS
+WORTH NOTING
+□ DIGITAL VAX/VMS WAS MOST ROBUST FOR
+GLOBAL ENTERPRISE APPLICATIONS
+□ HEWLETT-PACKARD, NCR, AND UNISYS
+LEADING UNIX SERVER CHARGE
+□ COMPAQ ENTERING THE MARKET FROM THE
+BOTTOM
+□ RDBMS SUPPLIERS ORACLE, SYBASE,
+INFORMIX, INGRES, SOFTWARE AG PROVIDING
+SOFTWARE GLUE
+□ TRANSARC/ENCINA AND USL/TUXEDO
+PROVIDING TRANSACTION MONITORS
+□ SYSTEMS INTEGRATORS RUSHING TO BUILD
+EXPERTISE
+Aberdeen Notes:
+While there are literally hundreds of hardware, software, communications,
+and service suppliers throughout the world that are providing enterprises
+with the tools necessary to implement distributed systems with midrange
+servers, only a handful are creating the technology basis for best-in-class
+systems.
+Digital Equipment Corporation was the pioneer with its VAX line of
+processors running the VMS operating system and networking with
+DECnet. But the successes of the late 1980s brought with them the
+inability to make the necessary transitions to be the leader of the early
+1990s. While Digital concentrates its efforts on profitably maintaining its
+installed base, it is worth noting that VMS’ ease of use, DECnet
+connectivity, VAXcluster functionality, and flexible systems integration
+services are still the standards to which other suppliers aspire. But until
+Digital can enter the mainstream of open systems and stabilize its new
+Alpha hardware platform and OpenVMS operating system, winning major
+new accounts will continue to be elusive.
+New Technology Impact Series
+Page 22
+AberdeenGroKp Building Distributed Systems with Midrange Servers
+SUPPLIERS AND PRODUCTS
+WORTH NOTING
+□ DIGITAL VAX/VMS WAS MOST ROBUST FOR
+GLOBAL ENTERPRISE APPLICATIONS
+□ HEWLETT-PACKARD, NCR, AND UNISYS
+LEADING UNIX SERVER CHARGE
+□ COMPAQ ENTERING THE MARKET FROM THE
+BOTTOM
+□ RDBMS SUPPLIERS ORACLE, SYBASE,
+INFORMIX, INGRES, SOFTWARE AG PROVIDING
+SOFTWARE GLUE
+□ TRANSARC/ENCINA AND USL/TUXEDO
+PROVIDING TRANSACTION MONITORS
+□ SYSTEMS INTEGRATORS RUSHING TO BUILD
+EXPERTISE
+Aberdeen Notes:
+Hewlett-Packard has been able to combine Rise-based multiuser hardware
+and advanced Unix operating environment software functionality to
+become the dominant revenue supplier of midrange servers for new
+enterprise applications.
+And NCR has incorporated Intel’s 80X86 in innovative multiprocessing
+architectures running Unix to be the market leader for multiuser
+Intel/Unix midrange servers.
+Unisys has started modifying it A Series mainframes with the introduction
+of the A-7 and A-ll to be able to act as the communications and data hub
+for distributed midrange servers throughout an enterprise. If IBM would
+emulate this strategy, it could extend the useful life of its ES/9000
+mainframes.
+Compaq is selling midrange servers based of SCO Unix at the rate of $280
+million per year. It is attacking the market from the low-end in terms of
+price and support and moving up the value chain over time.
+New Technology Impact Series
+Page 23
+AberdeenGroup Building Distributed Systems with Midrange Servers
+SUPPLIERS AND PRODUCTS
+□ DIGITAL VAX/VMS WAS MOST ROBUST FOR
+GLOBAL ENTERPRISE APPLICATIONS
+□ HEWLETT-PACKARD, NCR, AND UNISYS
+LEADING UNIX SERVER CHARGE
+□ COMPAQ ENTERING THE MARKET FROM THE
+BOTTOM
+□ RDBMS SUPPLIERS ORACLE, SYBASE,
+INFORMIX, INGRES, SOFTWARE AG
+PROVIDING SOFTWARE GLUE
+□ TRANSARC/ENCINA AND USL/TUXEDO
+PROVIDING TRANSACTION MONITORS
+□ SYSTEMS INTEGRATORS RUSHING TO BUILD
+EXPERTISE
+Aberdeen Notes:
+Just as important as, and many would argue more significant than, the
+midrange server hardware suppliers are the critical RDBMS software
+suppliers.
+Oracle has become the most comprehensive independent supplier of
+RDBMS-related products, including integrated applications. Sybase has
+concentrated on providing have-it-your-way Unix-based RDBMS tools.
+Informix continues to strengthen its position as the champion of low-cost
+Unix-based midrange server computing. Ingres leads with 4GL technology
+integrated with midrange server database technology for complex
+applications and client-server interoperability. Software AG provides the
+industry’s smoothest transition from mainframe computing to midrange
+servers.
+At the same time, to tie together the islands of babble that have been
+created by the use of different databases for diverse applications in the
+past within all large enterprises, Transarc and USL (now a division of
+Novell) are introducing a new generation of transaction monitors.
+New Technology Impact Series
+Page 24
+AberdeenGroMp Building Distributed Systems with Midrange Servers
+SUPPLIERS AND PRODUCTS
+WORTH NOTING
+□ DIGITAL VAX/VMS WAS MOST ROBUST FOR
+GLOBAL ENTERPRISE APPLICATIONS
+□ HEWLETT-PACKARD, NCR, AND UNISYS
+LEADING UNIX SERVER CHARGE
+□ COMPAQ ENTERING THE MARKET FROM THE
+BOTTOM
+□ RDBMS SUPPLIERS ORACLE, SYBASE,
+INFORMIX, INGRES, SOFTWARE AG PROVIDING
+SOFTWARE GLUE
+□ TRANSARC/ENCINA AND USL/TUXEDO
+PROVIDING TRANSACTION MONITORS
+□ SYSTEMS INTEGRATORS RUSHING TO BUILD
+EXPERTISE
+Aberdeen Notes:
+Finally, systems integrators are acquiring the skill sets necessary to
+successfully implement distributed systems based upon midrange servers
+within enterprises of all sizes. This is not a trivial task for large
+professional service providers that have been traditionally mainframe
+oriented as it requires learning both new skills and continuously updating
+skill sets — a major investment.
+There has been a rapid growth in the number of medium-sized systems
+integrators that specialize in midrange server technology and
+implementations. And these midrange server-oriented companies can often
+provide more effective solutions than the larger, older, mainframe-oriented
+suppliers.
+While IBM and Sun Microsystems are noticeable from this review by their
+absence, the reason is relatively simple. Both suppliers seem to be
+following the leaders described above and are not setting industry unique
+agendas today.
+New Technology Impact Series
+Page 25
+AberdeenGroMp Building Distributed Systems with Midrange Servers
+CONCLUSION WRAP UP
+□ MIDRANGE SERVERS ALLOW ENTERPRISES TO
+PRESERVE INVESTMENT IN MAINFRAME AND
+ADD FUNCTIONALITY TO PC LANS
+□ MEETS HETEROGENEOUS MULTIUSER
+APPLICATION NEEDS WITH HOMOGENEOUS
+PLATFORM
+□ PRODUCTION QUALITY COMPUTING
+THROUGHOUT ENTERPRISE-INFORMATION
+NETWORK
+□ FLEXIBILITY - EACH ENTERPRISE’S TOPOLOGY
+CAN BE CUSTOM DESIGNED AND
+IMPLEMENTED
+□ MIDRANGE SERVER SUPPLIERS ARE LEADING
+CHARGE FOR DISTRIBUTED IMPLEMENTATION
+□ DISTRIBUTED MIDRANGE SERVER STRATEGY IS
+BEST MATCH BETWEEN TECHNOLOGY AND
+ENTERPRISES’ PRODUCTION COMPUTING
+REQUIREMENTS
+Aberdeen Notes:
+Running an enterprise’s IS operations today is a campaign in successfully
+meeting change and using change to your advantage.
+The major difference from the past is simply that mainframe computers are
+no longer the best solution for enterprise-wide production computing.
+Mainframes simply do not allow an enterprise to change as rapidly as
+today’s business conditions demand.
+Enterprises that are building the information infrastructure for successfully
+managing change are basing their plans on distributed systems using
+midrange servers for multiuser applications that allow the whole enterprise
+to act in a coordinated, effective manner.
+New Technology Impact Series
+Page 26

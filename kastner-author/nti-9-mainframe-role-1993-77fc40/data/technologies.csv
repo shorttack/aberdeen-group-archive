@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+es9000,IBM ES/9000 (Enterprise System 9000),platform,IBM,1990-2000,declining,obsolete,nti-9-mainframe-role-1993-77fc40,Core subject of study; mainframe paradox — adding MIPS but losing money; 7% installed base decline per year
+mvs,IBM MVS,operating-system,IBM,1974-present,mature,legacy-supported,nti-9-mainframe-role-1993-77fc40,Described as potentially world's best OS but closed; being ported to RS/6000 RISC platform
+unisys-a-series,Unisys A-Series,platform,Unisys,1986-present,growing,"{'lifecycle_current': 'legacy-supported', 'source': 'Known — Unisys A-Series evolved into ClearPath MCP, still supported by Unisys as of 2024'}",nti-9-mainframe-role-1993-77fc40,12% installation growth in 1992; SCAMP microprocessor; rack-mount with industry-standard peripherals; open system approach
+risc,RISC (Reduced Instruction Set Computing),hardware,Various,1980-present,growth,mature,nti-9-mainframe-role-1993-77fc40,Beat mainframe TCM technology; next-gen RISC will handily outperform mainframes; IBM porting MVS to RS/6000
+ibm-rs6000,IBM RS/6000,platform,IBM,1990-present,growth,legacy-supported,nti-9-mainframe-role-1993-77fc40,IBM RISC platform; IBM announced MVS port to RS/6000
+db2,IBM DB2,application,IBM,1983-present,mature,mature,nti-9-mainframe-role-1993-77fc40,Lacks functionality of competitive midrange RDBMSs; driving IS executives away from IBM mainframes
+ibm-saa,IBM SAA (Systems Application Architecture),framework,IBM,1987-1995,failing,obsolete,nti-9-mainframe-role-1993-77fc40,Introduced 1987; did not fulfill client-server vision; described as a fiasco for client-server path
+ibm-ad-cycle,IBM AD/Cycle,framework,IBM,1990-1993,failing,obsolete,nti-9-mainframe-role-1993-77fc40,Introduced 1990; became a fiasco; IBM could not provide promised services; killed mainframe ISV tools market
+raid,RAID (Redundant Array of Inexpensive Disks),hardware,Various,1988-present,emerging-on-mainframe,mature,nti-9-mainframe-role-1993-77fc40,Standard on midrange; just being introduced on mainframes in 1993; IBM did not upgrade to RAID
+cobol,COBOL,language,Various,1959-present,mature,legacy-supported,nti-9-mainframe-role-1993-77fc40,Legacy mainframe language; client/report/validation logic embedded in Cobol requires rewrite for client-server
+natural-4gl,Natural (4GL),language,Software AG,1979-present,mature,legacy,nti-9-mainframe-role-1993-77fc40,Re-hosted on RISC/Unix; key example of mainframe application portability
+ibm-3270,IBM 3270 Terminals,hardware,IBM,1972-present,declining,obsolete,nti-9-mainframe-role-1993-77fc40,Legacy terminal investment cited as financial obstacle to mainframe migration
+tcm,TCM (Thermal Conduction Module) Processor Technology,hardware,IBM,1981-1995,declining,obsolete,nti-9-mainframe-role-1993-77fc40,Mainframe custom processor technology; fell behind industry-standard microprocessors
+pc-lan,PC LAN (Local Area Network),framework,Various,1985-present,growth,mature,nti-9-mainframe-role-1993-77fc40,Referenced as complement to mainframe surround strategy; more PC spending than mainframe

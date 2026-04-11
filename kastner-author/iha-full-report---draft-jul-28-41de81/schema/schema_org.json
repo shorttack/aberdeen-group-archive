@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Consumer Adoption of Memory Cards: A Qualitative Study",
+  "description": "Aberdeen Group qualitative study commissioned by the Internet Home Alliance (IHA) to understand consumer adoption barriers and purchase intent for SD Memory Cards in 2003. Research found digital electronics market maturing rapidly with digital cameras as primary entry point. Key findings: consumers broadly aware of memory cards but unable to identify specific formats/brands; primary adoption barrier is lack of compatible equipment; SD card seen as versatile with high 'cool factor' after demonstration; market transition to SD expected to take a decade; preferred capacity 256MB-1GB; willingness to pay premium of 10-15% for SD capability. Covers retail channel expectations, communication strategies, and data transfer behaviors.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-07-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

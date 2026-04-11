@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1969-present,software-market-safegu~1-ea7453,Author; Vice President at Aberdeen Group; presenter of Software Market Dynamics
+aberdeen-group,Aberdeen Group,company,IT-research,acquired,Harte-Hanks (acquired 2008),1988-2014,software-market-safegu~1-ea7453,Kastner's employer; developed EISM (Enterprise Information Systems Management) framework
+microsoft,Microsoft,company,software,active,,1975-present,software-market-safegu~1-ea7453,"Central vendor discussed: Windows 95, Windows NT Advanced Server, OS/2 competitor"
+ibm,IBM,company,IT-services,active,,1911-present,software-market-safegu~1-ea7453,Referenced for OS/2 Warp failure and AS/400 proprietary OS analogy
+sap,SAP,company,enterprise-software,active,,1972-present,software-market-safegu~1-ea7453,"Cited as example of high-barrier ERP market (Financials, HR, high-end manufacturing)"
+novell,Novell,company,networking-software,acquired,Micro Focus (OpenText),1983-present,software-market-safegu~1-ea7453,Referenced in context of NT migration opportunity (making NT servers robust)

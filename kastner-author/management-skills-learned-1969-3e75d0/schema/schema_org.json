@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Management Skills Learned 1969\u20131979",
+  "description": "Peter S. Kastner reflects on the five core professional skills forged during his first decade in computing (1969\u20131979): defensive professionalism, pragmatic adaptation, fiduciary forensics, high-volume systems logistics, and resilience under chaos. Drawing on engagements at firms including ADL, Chase Manhattan, Houghton Mifflin, and Continental Forest Industries, he argues these 'foxhole' experiences created the analytical and personal temperament that drove his later career as an industry strategist.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2025-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

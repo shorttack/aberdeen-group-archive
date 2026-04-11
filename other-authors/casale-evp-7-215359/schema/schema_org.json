@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The March Quarter Blues - Or, Were We Expecting Too Much, Too Soon?",
+  "description": "EVP #7 analyzes the structural and cyclical reasons why March quarters systematically disappoint investors in high-tech stocks, identifying four business-cycle factors (customer budget timing, new-year caution, informal industry institutionalization, and psychological reset) compounded by the worst recession in fifty years and the resulting Wall Street euphoria that inflated P/E multiples beyond what earnings could justify. Casale argues that instant margin expansion post-recession is structurally impossible and that some companies have already snapped from the strain of maintaining earnings to justify lofty multiples.",
+  "creator": {
+    "@type": "Person",
+    "name": "C.T. Casale"
+  },
+  "datePublished": "1983-04-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

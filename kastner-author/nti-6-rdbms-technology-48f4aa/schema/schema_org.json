@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RDBMS Report Card",
+  "description": "Aberdeen Group evaluates the role of relational database management systems (RDBMS) in enterprise computing, covering their use in OLTP and decision support. The study profiles six leading independent RDBMS vendors\u2014Oracle, Ingres, Sybase, Informix, Software AG, and Progress\u2014against seven functional criteria and produces a best-in-class report card. Aberdeen concludes that RDBMS has become the central application platform for enterprises and that Oracle leads the market while IBM's DB2 trails all competitors.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

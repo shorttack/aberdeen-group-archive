@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Translating Early Skills and Experiences into Marketing and Industry Analysis",
+  "description": "Peter S. Kastner traces his professional arc from Machine Architect (1969\u20131979) through Market Planner (1979\u20131988) to Industry Strategist at Aberdeen Group (1988\u20132007), arguing that each phase translated technical 'scars' into progressively higher-level analytical tools. The memoir identifies the forensic foundation, capitalist's perspective, and 'Simple Physics' mindset as the three compounding assets that enabled cross-industry prediction at scale.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2025-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RS/6000 RDBMS Sales Training",
+  "description": "An IBM sales training deck prepared by Aberdeen Group in 1995 providing competitive intelligence on the midrange RISC/UNIX market and the major RDBMS vendors. The document profiles IBM RS/6000, HP, Digital, Sun, and AT&T GIS as hardware platforms, then positions IBM's RS/6000 and DB2/6000 against Oracle, Informix, Sybase, and other database competitors. It gives IBM sales representatives detailed strengths, weaknesses, and tactical selling tips for each competitor.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1995-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

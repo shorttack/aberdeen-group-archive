@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PCs and Workstations: Vying for the 1990's Desktop",
+  "description": "This Aberdeen Group workbook analyzes the competitive landscape between Intel-powered PCs and RISC/Unix workstations for enterprise desktop dominance in the 1993-1996 timeframe. It defines workgroup computing requirements, compares platforms across client-server capability, networking, cost, application software, and multiuser compatibility, and evaluates supplier strategies from IBM, Apple, Compaq, Dell, Sun, HP, and operating system vendors. Aberdeen recommends workstations for technical/power users, low-end Unix workstations as NT contingency, Macs for functionality, and PCs for all other users through 1993.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-02-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

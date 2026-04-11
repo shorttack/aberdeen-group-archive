@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "InfiniBand Architecture: Planning the Next-Generation Data Center",
+  "description": "Aberdeen Executive White Paper providing a comprehensive overview of the emerging InfiniBand Architecture (IBA) for data center IT planners. Covers IBA components (HCA, TCA, switches/routers), comparison to PCI/PCI-X, IP over InfiniBand, storage over InfiniBand (SCSI, SAN, NAS), server scaling via clustering and blade servers, deployment transition planning, and early-adopter field research indicating 50% TCO reduction for database clusters. Recommends beginning evaluation in 2002 and phased deployment in 2003.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

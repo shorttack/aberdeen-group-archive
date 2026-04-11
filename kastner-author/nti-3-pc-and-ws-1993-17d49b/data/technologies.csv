@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+intel-486,Intel 486 (i486),hardware,Intel,1989-1994,dominant,obsolete,nti-3-pc-and-ws-1993-17d49b,Primary commercial desktop CPU in 1993; DOS/Windows platform base
+intel-pentium,Intel Pentium,hardware,Intel,1993-1999,pre-release,obsolete,nti-3-pc-and-ws-1993-17d49b,Promised for delivery May 1993; general availability Q3 1993; excellent integer performance
+risc,RISC Processors,hardware,"Multiple (Sun, HP, IBM, DEC, SGI)",1980-present,established,dominant,nti-3-pc-and-ws-1993-17d49b,Superior for technical/power applications; workstations breaking $5000 barrier
+windows-dos,Windows/DOS,operating-system,Microsoft,1981-present,dominant,legacy,nti-3-pc-and-ws-1993-17d49b,MS-DOS 6.0 and Windows 4.0 anticipated as common 1993 upgrade path
+windows-nt,Windows NT,operating-system,Microsoft,1993-2000,pre-release,legacy,nti-3-pc-and-ws-1993-17d49b,Delivery to manufacturers May 1993; GA Q3 1993; 32-bit multi-tasking; ported to RISC
+os2,IBM OS/2,operating-system,IBM,1987-2001,established,discontinued,nti-3-pc-and-ws-1993-17d49b,OS/2 has stability rating of poor vs workstations; microchannel concerns; ISV delays; losing to Windows
+unix,Unix,operating-system,Multiple,1969-present,dominant-technical,mature,nti-3-pc-and-ws-1993-17d49b,Superior client-server; best multiuser compatibility; weak in commercial application software
+sun-solaris,Sun Solaris,operating-system,Sun Microsystems,1992-present,emerging,legacy,nti-3-pc-and-ws-1993-17d49b,Being ported to Intel; very late delivery; if successful meets IS buying criteria
+powerpc,IBM/Apple PowerPC,hardware,"IBM, Apple, Motorola",1992-2006,pre-release,discontinued,nti-3-pc-and-ws-1993-17d49b,Unix in 1993; Taligent OS in 1994; parallel track to Intel NT suppliers
+macintosh,Apple Macintosh,platform,Apple Computer,1984-present,established,evolved,nti-3-pc-and-ws-1993-17d49b,10 million units shipped early 1993; excellent product; lacks direct enterprise IS support
+microsoft-cairo,Microsoft Cairo,operating-system,Microsoft,1994-1996,pre-announced,discontinued,nti-3-pc-and-ws-1993-17d49b,Object-based successor to Windows NT; if 1994 delivery could make NT merely interim
+novell-netware,Novell NetWare,operating-system,Novell,1983-present,dominant-lan,legacy,nti-3-pc-and-ws-1993-17d49b,Network OS strategy extended with USL acquisition to capture next-gen desktops
+client-server,Client-Server Computing,framework,Multiple,1988-present,emerging,mature,nti-3-pc-and-ws-1993-17d49b,Once-in-a-generation platform decision for enterprise IS executives
+gui,Graphical User Interface (GUI),framework,Multiple,1984-present,growing,dominant,nti-3-pc-and-ws-1993-17d49b,Requirement in 1990s; reduces training time; coaches casual users; complex to build

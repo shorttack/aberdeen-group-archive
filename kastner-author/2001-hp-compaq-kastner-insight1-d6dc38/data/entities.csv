@@ -1,0 +1,13 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,2001-hp-compaq-kastner-insight1-d6dc38,Publisher of the InSight.
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,2001-hp-compaq-kastner-insight1-d6dc38,Author of the InSight.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,renamed,Split into HP Inc. and Hewlett Packard Enterprise (November 2015),1939-present,2001-hp-compaq-kastner-insight1-d6dc38,Acquirer in the proposed merger; known for printers and enterprise servers.
+compaq,Compaq,company,Enterprise IT Hardware,acquired,Hewlett-Packard (2002),1982-2002,2001-hp-compaq-kastner-insight1-d6dc38,Target of the proposed HP merger; strong in storage (VAX heritage) and Intel servers.
+dell,Dell,company,Enterprise IT Hardware,active,Dell Technologies (renamed after EMC acquisition 2016),1984-present,2001-hp-compaq-kastner-insight1-d6dc38,Named as key competitive beneficiary if HP-Compaq merger falters.
+ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,2001-hp-compaq-kastner-insight1-d6dc38,Named as competitive beneficiary; IBM Global Services cited as comparison for combined HP services.
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware/Software,acquired,Oracle Corporation (acquired 2010),1982-2010,2001-hp-compaq-kastner-insight1-d6dc38,Named as competitive beneficiary if HP-Compaq merger falters.
+sap,SAP,company,Enterprise Software,active,,1972-present,2001-hp-compaq-kastner-insight1-d6dc38,Enterprise application partner shared by both HP and Compaq.
+peoplesoft,PeopleSoft,company,Enterprise Software,acquired,Oracle Corporation (2005),1987-2005,2001-hp-compaq-kastner-insight1-d6dc38,Enterprise application partner shared by both HP and Compaq.
+oracle,Oracle,company,Enterprise Software/Database,active,,1977-present,2001-hp-compaq-kastner-insight1-d6dc38,Enterprise application partner shared by both HP and Compaq.
+cisco,Cisco,company,Networking,active,,1984-present,2001-hp-compaq-kastner-insight1-d6dc38,Technology partner for high-availability solutions.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,2001-hp-compaq-kastner-insight1-d6dc38,Technology partner for Windows-based enterprise solutions.

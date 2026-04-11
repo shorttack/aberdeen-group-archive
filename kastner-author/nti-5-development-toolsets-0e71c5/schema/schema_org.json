@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Selecting and Using Advanced Software Toolsets",
+  "description": "This Aberdeen Group workbook surveys the rapidly changing software development toolset landscape in 1993, presenting key field research findings from CIO interviews and ISV briefings. It identifies best-in-class tools across 3GLs, 4GLs, RDBMS-integrated tools, GUI builders, and CASE, and defines the three-layer architecture \u2014 presentation, business logic, data access \u2014 of strategic applications. The study evaluates client-server development readiness, positions emerging GUI tools from Powersoft, Gupta, and others, and previews object-oriented technology as a late-1990s mainstream prospect.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

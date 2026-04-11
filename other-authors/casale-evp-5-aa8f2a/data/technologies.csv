@@ -1,0 +1,3 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+dso-analysis,Days Sales Outstanding (DSO) Analysis,framework,accounting-standards,1970s-present,emerging-best-practice,standard,casale-evp-5-aa8f2a,Analytical technique for measuring receivables quality; Casale applies it quarterly to reveal FTI's hockey-stick shipment distortion. Formula: Receivables / Revenue * 91.
+balance-sheet-analysis,Balance Sheet Analysis (tech sector),framework,financial-analysis,1970s-present,underutilized,standard,casale-evp-5-aa8f2a,Casale argues institutional investors systemically neglect balance sheet analysis in favor of P/E-focused income statement review. EVP 5 establishes methodological framework for tech-sector balance sheet scrutiny.

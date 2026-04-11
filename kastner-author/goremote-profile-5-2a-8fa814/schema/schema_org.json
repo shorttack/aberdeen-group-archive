@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "GoRemote Is Unifying Secure Remote Access Services",
+  "description": "Aberdeen profile of GoRemote Communications, Inc. (NASDAQ: GRIC), a managed remote access service provider. Analyzes the outworker cost problem, GoRemote's TierOne global network, MobileOffice client, Total Security Protection, and Universal Remote Control management portal. Aberdeen concludes that GoRemote offers the first unified solution for cost-effective management of fixed and mobile outworkers, projecting multimillion-dollar savings for enterprises adopting managed remote access in lieu of do-it-yourself approaches.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-09",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

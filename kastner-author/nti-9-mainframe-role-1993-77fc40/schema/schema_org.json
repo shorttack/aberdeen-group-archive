@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Role of the Mainframe",
+  "description": "Aberdeen Group objectively evaluates the declining role of the IBM ES/9000 mainframe in enterprise computing, contrasting it with Unisys A-Series growth. The study analyzes the paradox of increasing mainframe MIPS adoption alongside financial losses, software economics failures, and the blending of mainframe and midrange hardware capabilities. Aberdeen concludes that IBM mainframes will gradually be phased out and recommends either evolutionary (surround, rehost, rewrite) or green-field replacement strategies for IS executives.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, John Logan, Thomas Willmott"
+  },
+  "datePublished": "1993-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

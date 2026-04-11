@@ -1,0 +1,790 @@
+# Timing Your Move to Next Generation Operating Systems
+
+> Archived from: NTI 4 NextGen OS Timing 1993.pdf
+> Original publication date: 1993-02-01
+> Author: Peter S. Kastner, John Logan, Thomas Willmott
+
+---
+
+## Original Document Text
+
+AberdeenGwz/^
+w
+Timing Your
+IVlove to Next |
+Generation
+Operating Systems
+AberdeenGrowp
+Timing Your
+Move to Next
+Generation
+Operating Systems
+New Technology Impact Series
+Number 4
+February 1993
+Aberdeen Group, Inc.
+92 State Street
+Boston, Massachusetts 02109
+Telephone 617 723 7890
+AberdeenGro^p Next-Generation Operating Systems
+AGENDA
+□ OPERATING SYSTEMS: KEY TERMS, CLEAR
+TRENDS
+□ HOT SPOTS IN 3-TIER TOPOLOGY
+□ MULTI-USER OPERATING SYSTEM UPDATE
+□ CHANGING DESKTOP USER REQUIREMENTS
+□ NEXT-GENERATION OPERATING SYSTEMS
+□ ALLIANCES TO WATCH IN 1992
+□ SUMMARY OF KEY FINDINGS - WRAP-UP
+Aberdeen Notes:
+Timing Your Move to Next Generation Operating Systems presents several
+Aberdeen research findings that are at the heart of the information systems
+(IS) planning agenda in 1993. First we identify the five most important
+trends to emerge from our field interviews with executives. Then we
+discuss the hot spots in a 3-Tier topology that will be most affected by
+these trends.
+The program discusses technologies available for the fast growing
+microprocessor-based multi-user systems market and provides a status
+report on the major Unix derivatives and OSF/1. The video then turns its
+attention to the critical desktop arena with a discussion of how
+requirements for PCs and workstations are changing in each of several
+business profiles. Given that outlays for hardware and software to meet
+the needs of end-users (the clients in a client-server architecture) account
+for more than 50% of total Enterprise technology budgets, an accurate
+assessment of desktop computing operating system transition options -
+including products such as Windows/NT - is becoming more important
+and more complicated than ever before.
+We conclude this video by identifying the leading contenders for next­
+generation operating systems and reviewing the likely time-to-market
+scenarios for each. We also discuss the major technology and marketing
+alliances that are shaping the future of the desktop computing market.
+New Technology Impact Series
+Page 1
+AberdeenGronp Next-Generation Operating Systems
+Key Terms, Clear Trends
+□ SINGLE-TASKING —> MULTI-TASKING
+□ SINGLE-THREADED —> MULTI-THREADED
+□ INTEGRATING DESKTOP AND LAN ENVIRONMENTS
+□ GRAPHICAL USER INTERFACE REQUIREMENTS
+□ NEXT STEPS FOR DISTRIBUTED, CLIENT-SERVER
+SYSTEMS
+Aberdeen Notes:
+Aberdeen research has identified five significant trends in the operating
+systems planning area. Often these trends are clouded by a lack of
+understanding of the underlying technologies - especially on the part of
+end-users and business executives.
+Perhaps the most complicated planning puzzle is the trend away from the
+industry standard - single-tasking -- desktop operating system (MS/DOS)
+to a more powerful multi-tasking environment (Apple Macintosh, Unix,
+Microsoft NT). Each of these in the second category is capable of
+executing the robust client-server applications that will be written in the
+mid-to-late 1990s. While Aberdeen believes this trend to 32-bit,
+multitasking kernels is inexorable, we do not agree that the transition will
+occur as quickly as many other industry observers.
+A second important trend is the transition from single-threaded to multi­
+threaded operating systems. As microprocessors are increasingly used in
+multiprocessing (both symmetric and massively parallel) configurations to
+achieve price performance improvements over previous generations of
+proprietary minicomputers and mainframes, new multi-threaded operating
+systems are being developed to support systems of this design. Examples
+include Unix Systems Lab’s Unix V.4 MP, Sequent’s Dynix/PTX, and
+Hewlett-Packard’s HP/UX 9.0.
+New Technology Impact Series
+Page 2
+AberdeenGrozzp Next-Generation Operating Systems
+Key Terms, Clear Trends
+□ SINGLE-TASKING --> MULTI-TASKING
+□ SINGLE-THREADED --> MULTI-THREADED
+□ INTEGRATING DESKTOP AND LAN
+ENVIRONMENTS
+□ GRAPHICAL USER INTERFACE
+REQUIREMENTS
+□ NEXT STEPS FOR DISTRIBUTED, CLIENT-SERVER
+SYSTEMS
+Aberdeen Notes:
+As distributed computing continues to become the industry norm, it is
+- more and more important that there be a tight integration of services
+linking the desktop operating system, the PC or workstation LAN, and the
+backend servers in remote office locations or at the data center. Next
+generation operating systems should be evaluated with an eye to this
+important capability. Microsoft’s investments in Windows-for-Workgroups
+and Novell’s acquisition of USL represent clear evidence of this integration
+trend.
+Perhaps most the most important planning issue revolves around user
+acceptance of graphical user interfaces (GUI). Aberdeen believes that in
+addition to the early and continuing success of the Macintosh, plus a stable
+base of X-Windows GUIs in the technical computing market, Microsoft
+Windows 3.1 will dominate the PC software landscape in 1993-1994.
+Aberdeen urges its clients to differentiate between the growing need to
+incorporate GUIs in PC applications versus the need for a more robust
+underlying multi-tasking or multi-threaded kernel technology in production
+applications. We believe that the assimilation of these technologies will
+proceed at very different rates.
+New Technology Impact Series
+Page 3
+AberdeenGroMp
+Next-Generation Operating Systems
+Key Terms, Clear Trends
+□ SINGLE-TASKING —> MULTI-TASKING
+□ SINGLE-THREADED --> MULTI-THREADED
+□ INTEGRATING DESKTOP AND LAN ENVIRONMENTS
+□ GRAPHICAL USER INTERFACE REQUIREMENTS
+□ NEXT STEPS FOR DISTRIBUTED, CLIENT­
+SERVER SYSTEMS
+Aberdeen Notes:
+Several factors come into play when making a determination of which
+operating environment to use - and when. Clearly, the graphical user
+interface represented by Windows/DOS will engulf the character-based
+C:\ > environment for personal computers as little as one-year from now.
+Prices for the PC hardware to power these systems continues to fall at an
+accelerating pace.
+It is also true that production systems - while clearly headed toward a
+distributed client-server model - are changing more slowly than individual
+PCs in the majority of corporate and public agency information systems
+environments. For example, most Unix-based midrange multi-user systems
+are still packaged with character-based ASCII terminals! And the tools
+required to add a GUI to production systems (Powersoft, Gupta,
+Cooperative Solutions, Forte) have only recently begun to mature.
+The clear implication of these distinct trends is that Windows 3.1 with DOS
+will dramatically gain share in the PC market over the next 12-18 months
+over existing character-based systems. However, a Windows 3.1/DOS
+combination -- because it is based upon a single-tasking OS - will not be
+sufficient to meet the needs of robust, client-server applications.
+New Technology Impact Series
+Page 4
+AberdeenGroKp Next-Generation Operating Systems
+HOT SPOTS IN 3-TIER PLUS
+□ MAINFRAME SYSTEMS: BUSINESS AS USUAL
+□ "PLUS" MEANS MASSIVELY PARALLEL SYSTEMS
+□ NEW, DISTRIBUTED, DEPARTMENTAL SYSTEMS
+TYPICALLY DEPLOYED WITH UNIX AND RDBMS
+□ LANS DOMINATED BY NOVELL, MICROSOFT,
+AND BANYAN
+□ WORKSTATION AND PC ENVIRONMENTS ARE
+CHANGING RADICALLY AND RAPIDLY
+Aberdeen Notes:
+Most larger organizations contacted by Aberdeen have an information
+systems architecture that we call Three-Tier Plus. Individual areas in this
+topology are affected differently by the rapidly changing operating systems
+market.
+First, the Plus in our systems architecture is represented by massively
+parallel systems using dozens or hundreds of microprocessors. These new
+computers, available from companies like NCR, Teradata, N-Cube, and
+Intel, are increasingly being used for complex modeling applications in
+commercial environments. Although Aberdeen views commercial massively
+parallel as an important and real market opportunity, we do not think that
+IS executives need to link the issue as closely with the evaluation and
+selection of operating systems. These large scale systems often require
+advanced parallel programming -- or simply use a product such as Oracle
+Parallel Server. Therefore, a discussion of operating systems is largely
+irrelevent to the selection process.
+In the mainframe data center environment, the operating system
+watchword is business as usual. Although this segment is under enormous
+financial pressure characterized by consolidation and several types of
+downsizing, there has been little impact on operating system technology.
+The lion’s share of the market is still logged to IBM’s MVS.
+[Continued on Next Page]
+New Technology Impact Series
+Page 5
+AberdeenGronp Next-Generation Operating Systems
+HOT SPOTS IN 3-TIER PLUS
+Enterprise server Plus decision support
+Production
+System
+Replicated/departmental systems
+Aberdeen Notes:
+PCs, Workstations, Terminals
+By contrast, the mid-range systems market is witnessing an enormous
+change as customers abandon the proprietary minicomputer operating
+systems of the 1970’s and 1980’s and migrate to Unix derviatives running
+on RISC and Intel CISC machines - using both uni-processor and tightly-
+coupled multiprocessing packaging.
+The LAN operating environment is clearly dominated by Novell, Microsoft
+and Banyan. IBM and Digital both offer customized versions of this same
+underlying technology. As we have already mentioned, Aberdeen believes
+that pressure will mount on all suppliers to offer more tightly integrated
+LAN and desktop capabilities -- as well as more sophisticated technology
+to support the requirements of large corporate information systems with
+thousands of users.
+Finally, the PC and workstation operating system market is in complete
+turmoil as customers wrestle with key trends identified in a previous slide
+and consider the powerful -- and often conflicting -- marketing messages of
+more than half-a-dozen leading industry suppliers.
+Analytical
+System
+New Technology Impact Series
+Page 6
+AberdeenG’rozzp Next-Generation Operating Systems
+PROPRIETARY TO OPEN TRANSITION
+□ DOWNSIZING TRENDS: NO MASS EXODUS
+FROM LEGACY SYSTEMS
+□ SUCCESSFUL CUSTOMERS IDENTIFY AND
+PRIORITIZE APPLICATIONS FOR CONVERSION
+□ ORGANIZATIONAL AS WELL AS TECHNOLOGY
+IMPACT
+□ EVOLUTION NOT REVOLUTION
+Aberdeen Notes:
+Although IS executives are increasingly committed to open systems,
+Aberdeen has not uncovered any convincing evidence that there is a mass
+exodus from existing proprietary environments. Most IS organizations are
+attempting to reduce costs - and fund new development initiatives - by
+consolidating existing investments in mainframe hardware and software.
+While this means slow-or-no growth for traditional mainframe and
+proprietary minicomputer markets, it has not yet signified that IS
+organizations are willing or able to pull the plug on all legacy systems.
+While rehosting existing applications -- simply porting current programs to
+less expensive, more powerful new platforms -- is one downsizing
+alternative, it is the least often implemented. More often, the customer
+finds ways to improve the existing application during the porting process.
+This reengineering is an important incremental benefit to simple
+downsizing. Aberdeen also finds that customers who are succeeding with
+open systems are likely to have carefully sorted and prioritized the
+conversion of existing business applications early in the migration cycle.
+In any case, the transition to open systems is having enormous
+organizational as well as technology impact. The net result is both a
+transformation of the information systems group and a flattening of the
+whole enterprise as technology is being used to reduce multiple layers of
+white collar administrative and supervisory management. This whole
+phenomenon is occuring as an evolutionary - not a revolutionary - process
+with enormous implications for every aspect of business management.
+New Technology Impact Series
+Page 7
+AberdeenGrowp
+Next-Generation Operating Systems
+MULTI-USER OPERATING SYSTEMS
+□ TRANSITION FROM PROPRIETARY TO OPEN IN
+FULL SWING FOR NEW APPLICATIONS
+□ WILL THE REAL OSF/1 ADVOCATES PLEASE
+STAND UP?
+□ ROLE OF MAJOR RDBMS PRODUCTS IS
+EXPANDING
+□ DO STANDARDS LIKE POSIX REALLY MATTER?
+Aberdeen Notes:
+The transition from proprietary to open operating environments is in full
+swing. The data center operating environment has not been significantly
+altered and is now characterized as an environment most suitable for
+massive data collection and storage. Despite advances in CASE COBOL
+code generation technology, almost all new application development is
+taking place outside the traditional mainframe world. This is true for both
+development toolsets running on PCs and workstation LANs as well as
+other new applications, which are most often deployed on LANs and other
+distributed microprocessor-based hardware platforms.
+Various derivatives of the Unix operating system are employed in the
+majority of new multiuser systems. Although the Open Software
+Foundation (counting Digital Equipment, HP, and IBM as its biggest
+supporters) used enormous resources to market its OSF operating systems,
+only Digital has very recently recommitted to releasing production versions
+of OSF/1. With increasing interest demonstrated among both customer
+and supplier market participants in Windows/NT, the future of OSF/1 is in
+greater jeopardy than ever.
+Meanwhile, most customers tell Aberdeen that they view the relational
+database suppliers, in particular Oracle, as the likely sources of systems
+software technology to support distributed processing. With capabilities
+such as two-phase commit, triggers, policies as well as networking
+connections, the database has taken on a much wider role in linking
+distributed systems and has clearly emerged as an integral part of the
+customer’s architectural software foundation.
+New Technology Impact Series
+Page 8
+AberdeenGraw/?
+Next-Generation Operating Systems
+MULTI-USER OPERATING SYSTEMS
+UPDATE
+□ TRANSITION FROM PROPRIETARY TO OPEN IN FULL
+SWING FOR NEW APPLICATIONS
+□ WILL THE REAL OSF/1 ADVOCATES PLEASE STAND UP?
+□ ROLE OF MAJOR RDBMS PRODUCTS IS EXPANDING
+□ DO STANDARDS LIKE POSIX REALLY MATTER?
+Aberdeen Notes:
+Finally, while standards committees such as IEEE POSIX are making
+beneficial progress on identifying areas appropriate for standardization, in
+1993 the current range of options supported by such intiatives as POSIX,
+X/Open branding, and OSF simply do not offer the breadth of
+functionality required for defining or building robust distributed systems.
+As a result, while Aberdeen views these groups as clearly defining
+roadmaps of functionality for future systems we do not consider them to be
+a key factor in the decision-making process this year or even in 1994.
+New Technology Impact Series
+Page 9
+AberdeenGronp Next-Generation Operating Systems
+UNIX DERIVATIVES STATUS REPORT
+□ INTEL CISC PARTNERS
+COMPAQ, NCR, SEQUENT, UNISYS
+□ MAJOR RISC CONTENDERS
+HP, IBM, SUN, MIPS ABI GROUP
+Aberdeen Notes:
+Next in our discussion of multi-user operating systems, it is important to
+state that there are two distinct groups of Unix derivatives available in the
+market today. Both of these are capable of producing robust, production­
+ready software platforms.
+The first group consists of Intel’s partners for 80486 and follow-on
+microprocessors. The major suppliers include Compaq with SystemPro,
+NCR with its 3000 family, particularly 3450 and 3550, Sequent Computer
+with its Symmetry systems, and Unisys with the U/6000.
+Compaq originally partnered with Santa Cruz Operation (SCO) for its Unix
+OS and multiprocessing extensions. SCO built its business with Microsoft’s
+original product, Xenix, and has focused primarily on small businesses that
+use Intel servers with attached ASCII terminals.
+NCR and Unisys both employ derivatives of the USL V.4 MP operating
+system. Sequent, on the other hand, was an early pioneer of open systems
+multiprocessing with its Dynix/PTX OS and while partnered with USL on
+advanced technology initiatives is less reliant on V.4 MP technology.
+The major RISC contenders include Hewlett-Packard with HP/UX 9.0, a
+robust multi-threaded Unix derivative that supports high end
+multiprocessing on HP’s Emerald PA systems. IBM offers AIX on the
+RS/6000. AIX still supports only uniprocessors. Sun offers Solaris for its
+SPARC architecture and its installed base is in the midst of a transition to
+this sophisticated multi-threaded design. Finally, a group of suppliers
+including Silicon Graphics, Pyramid, and Tandem that use the MIPS
+architecture is developing a standard MIPS application binary interface for
+users of those Unix derivatives.
+New Technology Impact Series
+Page 10
+AberdeenGroMp Next-Generation Operating Systems
+DESKTOP USER PROFILES
+□ CLERICAL, ADMINISTRATIVE AND PRODUCTION
+SYSTEMS
+□ PERSONAL PRODUCTIVITY VERSUS ADVANCED
+DECISION SUPPORT CHARACTERISTICS
+□ COMMERCIAL WORKSTATION REQUIREMENTS
+□ EMERGING MOBILE COMPUTING, GROUPWARE,
+MULTI-MEDIA AND GRAPHICS APPLICATIONS
+Aberdeen Notes:
+The four most common business user categories are outlined in this slide.
+Each profile has a number of unique requirements that may make it
+necessary to select a different operating environment in order to build a
+high performance system for them at a reasonable cost.
+The clerical, administrative and production systems worker is very likely to
+be focused on a single application. While it is true that graphical user
+interfaces may help to reduce training costs and improve productivity for
+these workers, it is also highly probable that cost-per-seat will be a key
+issue. Therefore, Aberdeen expects that terminals attached to high-
+performance servers may well be adequate even for new Unix-based
+production applications. This group will also be the last to migrate from
+the character-based MS/DOS installed base.
+For other white collar knowledge workers, the job profile includes personal
+productivity applications that will cause a rapid transition to the
+increasingly affordable Macintosh and Windows 3.1 applications. It also
+includes advanced decision support requirements, exemplified by the need
+to have simultaneous access to multiple applications and sources of data.
+This is the profile that will be a key target for client-server development.
+It is this latter group which Aberdeen also expects will require the
+hardware and operating system functionality of a commercial workstation,
+like those emerging at the low-end of the technicl workstation environment.
+The applications driving this segment include new types of mobile
+computing applications, LAN-based groupware, multi-media and increasing
+sophisticated graphics.
+New Technology Impact Series
+Page 11
+AbcrdeenGronp
+Next-Generation Operating Systems
+CURRENT DESKTOP OPERATING
+SYSTEM ALTERNATIVES
+□ TERMINALS, X/TERMINALS ARE HOST-BASED
+AND INCREASINGLY PRESENTATION SERVICES
+INTENSIVE
+□ MICROSOFT’S WINDOWS 3.1 WITH DOS ->
+WINDOWS FOR WORKGROUPS
+□ MACINTOSH
+Aberdeen Notes:
+Currently, there are three desktop operating environments in wide use. Of
+course, terminals and X-Terminal devices are controlled by the operating
+system on the multiuser computer. While not based upon the fanciest of
+new or emerging technologies, we identify this segment because it still
+represents the software design that drives the vast majority of all
+operational commercial applications -- even new installations based upon
+products such as Oracle Financials.
+Microsoft’s Windows 3.1 with enhancements for local area network
+workgroups is an equally powerful current standard. Aberdeen believes
+that it will remain the dominant desktop OS through 1995.
+Likewise, the Apple Macintosh, which announced shipment of its 10
+millionth unit in early 1993, will continue to gain in popularity -- even
+though it trails Microsoft by a factor of some 10-to-l in unit shipments.
+We have already pointed out that Unix dominates the technical
+workstation market.
+New Technology Impact Series
+Page 12
+AberdeenGroMp Next-Generation Operating Systems
+NEXT STEPS FOR DESKTOP OS
+□ IBM OS/2 PM
+□ APPLE/IBM POWER PC
+□ MICROSOFT WINDOWS/NT
+□ SUN MICROSYSTEMS SOLARIS
+□ NOVELL/USL DESTINY
+□ HEWLETT-PACKARD HP/UX WITH MPOWER
+□ SANTA CRUZ OPERATION OPEN DESKTOP
+Aberdeen Notes:
+There are more than a half-dozen next generation desktop operating
+system options in varying states of stability and customer availability today.
+IBM has enhanced and repositioned its earlier OS/2 joint development
+with Microsoft. OS/2 2.0, a multi-tasking OS with a Presentation
+Manager-like GUI has shipped a million units. While OS/2 is robust and
+stable, it is having some difficulty attracting PC ISV support and broad­
+based industry acceptance. Aberdeen believes that OS/2 will continue to
+do well in loyal IBM accounts that are interested in client-server
+application development.
+Further, IBM has partnered with Apple and will offer the PowerPC,
+combining a Macintosh interface and IBM’s AIX derivative of Unix on a
+new RISC chip jointly designed with Motorola. While delivery of these
+systems has slipped original estimates, Aberdeen believes first units will be
+available in 1993.
+Microsoft offers Windows/NT. Windows/NT is a multi-tasking and multi­
+threaded operating system capable of running on servers or commercial
+workstations. While full customer ship dates for this operating system have
+also slipped badly, Aberdeen recognizes continuing and accelerating
+interest in the technology by Fortune 1000 accounts. (For a complete
+analysis of this important product, please call for our Microsoft
+Windows/NT supplier profile, November 1992.)
+New Technology Impact Series
+Page 13
+AberdeenGronp Next-Generation Operating Systems
+NEXT STEPS FOR DESKTOP OS
+□ IBM OS/2 PM
+□ APPLE/IBM POWER PC
+□ MICROSOFT WINDOWS/NT
+□ SUN MICROSYSTEMS SOLARIS
+□ NOVELL/USL DESTINY
+□ HEWLETT-PACKARD HP/UX WITH MPOWER
+□ SANTA CRUZ OPERATION OPEN DESKTOP
+Aberdeen Notes:
+Sun Microsystems Solaris is Sun’s version of USL’s V.4 MP. Solaris is also
+both multi-tasking and multi-threaded - designed for both the client and
+server in a SPARC environment. SunSoft hopes to complete its port of
+Solaris to Intel platforms in 1993.
+In order to withstand all this competitive pressure, Novell has recently
+extended its previous Univel alliance with Unix Systems Laboratories by
+buying the USL AT&T spinoff altogether. Novell hopes that it can better
+compete with Microsoft over the next 3-5 years by offering the integrated
+LAN, desktop and server operating system software discussed in previous
+slides.
+New Technology Impact Series
+Page 14
+AberdeenGrozzp Next-Generation Operating Systems
+NEXT STEPS FOR DESKTOP OS
+□ IBM OS/2 PM
+□ APPLE/IBM POWER PC
+□ MICROSOFT WINDOWS/NT
+□ SUN MICROSYSTEMS SOLARIS
+□ NOVELL/USL DESTINY
+□ HEWLETT-PACKARD HP/UX WITH MPOWER
+□ SANTA CRUZ OPERATION OPEN DESKTOP
+Aberdeen Notes:
+Of course, Hewlett-Packard as both a major PC and workstation supplier
+offers its own powerful multi-processing enabled Unix derivative as well as
+multiple flavors of DOS/Windows for PCs. HP has significant experience
+in desktop operating environments, especially in object-oriented technology
+like NewWave. Therefore, while currently an un-aligned participant, we
+believe that HP, with its integrated, multimedia/communications software,
+MPower, will play an active role in shaping the base level technology for
+this market over the next two years.
+Santa Cruz Operation offers Open Desktop (ODT) as a final alternative
+for the commercial workstation segment. ODT is a Unix derivative used
+primarily by indirect channel VARs. Aberdeen believes that SCO may be
+able to increase its penetration of the large corporate market over the next
+12-18 months but we believe they will continue to be most viable in the
+small business segment.
+New Technology Impact Series
+Page 15
+AberdeenCronp
+Next-Generation Operating Systems
+NEXT GENERATION VISION
+□ OBJECT ORIENTED SYSTEMS
+□ TALIGENT
+□ NEXT COMPUTER
+□ MICROSOFT CAIRO
+Aberdeen Notes:
+One of the major planning questions facing the IS executive concerns the
+issues of object-oriented software systems. The benefits of this technology
+are derived from its structured, modular design and its libraries of object
+services. Object libraries are reusable, offer support for multiple data
+types including voice video and other images and dramatically improve
+programmer productivity. The question in Aberdeen’s opinion is not
+whether but when.
+We believe that the industry will transition gradually to an object-oriented
+environment. As we are only now in the early stages of implementing
+SQL-based RDBMS applications in distributed environments -- and have
+not yet even begun to ship stable copies of Windows/NT, our prediction is
+that object-oriented systems will not have mainstream industry impact until
+the turn of the century, seven years from now.
+New Technology Impact Series
+Page 16
+AberdeenGronp Next-Generation Operating Systems
+NEXT GENERATION VISION
+□ OBJECT ORIENTED SYSTEMS
+□ TALIGENT
+□ NEXT COMPUTER
+□ MICROSOFT CAIRO
+Aberdeen Notes:
+The object-oriented market has several interesting early participants
+including Taligent, a joint venture of Apple and IBM based upon Apple’s
+advanced operating system development efforts, code-named Pink.
+Next Computer recently announced that it would cease its efforts in
+hardware and dedicate full energy to bringing its object-oriented software
+environment, NextStep, to a broader audience including the Intel platform.
+While NextStep is already installed and well-respected, founder Steve Jobs
+has his work cut out for him as he attempts to transition this relatively
+small company to a new position as a major industry ISV.
+Microsoft has focused on C+ +, as well as on incorporating object oriented
+technology in its DDE and OLE software. Cairo is the code name for
+Microsoft’s product successors to Windows/NT.
+Both Sun Microsystems and Hewlett-Packard are also clearly in the hunt.
+Sun offers Distributed Objects Everywhere (DOE) and has teamed with
+HP for technology submissions to the Object Management Group.
+New Technology Impact Series
+Page 17
+AberdeenGrcmp Next-Generation Operating Systems
+WHAT TO WATCH IN 1993
+□ MICROSOFT ALLIANCES WITH DIGITAL
+EQUIPMENT AND SEQUENT ON WINDOWS/NT
+□ NOVELL’S ACQUISITION OF USL, UNIVEL
+□ RATES OF CHANGE FOR WINDOWS/NT MARKET
+ACCEPTANCE - ESPECIALLY WITH ISVs
+□ INDEPENDENTS: SUN, HP, UNISYS, BANYAN
+Aberdeen Notes:
+As Aberdeen continues to monitor important desktop operating system
+marketing campaigns for its clients in 1993, we will be paying special
+attention to four areas.
+First on the list is the product status of Windows/NT. We await with
+considerable interest the reaction of customers to full shipment status.
+And of perhaps even more interest is the evolving status of Microsoft’s
+alliances with industry suppliers such as Digital Equipment and Sequent.
+Is there potential for a broader relationship between Microsoft and either
+NCR or HP this year?
+Next on the list is Novell’s acquisition of USL. In this arrangement,
+Aberdeen will monitor the status of future products, especially a tighter
+integration of NetWare and Unix. Of course, the acceptance of USL’s
+Destiny desktop OS is also a key consideration for 1993.
+Third, Aberdeen will watch for changes in momentum relative to
+Windows/NT in particular -- and sophisticated multi-tasking workstation
+type operating systems in general. At this time, we are forecasting that no
+transition tidal wave will develop until 1995. But, we are prepared to alter
+this forecast depending upon how our field research shapes up over the
+next 2-3 quarters.
+Finally, we will observe changes in status for those suppliers who are
+currently unaligned. This list includes Sun, HP, Unisys, and network
+operating system supplier Banyan.
+As a footnote to our list, we remind clients that 1993 will be a pivotal year
+for the Apple/IBM/Motorola alliance.
+New Technology Impact Series
+Page 18
+AberdeenGroup
+Next-Generation Operating Systems
+KEY POINTS
+□ GRADUAL TRANSITION FOR PROPRIETARY
+SYSTEMS INSTALLED BASE
+□ IMPACT OF OPEN SYSTEMS COMPONENT
+TECHNOLOGY ON USER ORGANIZATIONS
+□ DIFFERENTIATE BETWEEN GUI AND MULTI­
+TASKING - RATES OF ACCEPTANCE ARE NOT
+THE SAME
+□ CONSIDER MULTIPLE USER PROFILES
+(ESPECIALLY THE BASIC DIFFERENCE BETWEEN
+DEVELOP AND DEPLOY)
+□ WINDOWS 3.1 DOS COMBINATION CAN’T
+SUPPORT ROBUST OLTP OR CLIENT SERVER,
+BUT WILL STILL BE LEADER IN 1993
+□ WAR SHAPING UP BETWEEN MICROSOFT AND
+VARIOUS UNIX ADVOCATES - POLITICS MAKE
+STRANGE BEDFELLOWS
+Aberdeen Notes:
+These key points summarize our discussion of Aberdeen’s operating system
+research findings. Each has been considered in previous slides or is self-
+explanatory.
+New Technology Impact Series
+Page 19
+AberdeenGrm^p Next-Generation Operating Systems
+WRAP-UP
+□ ALTERNATIVE TO PROPRIETARY MID-RANGE IS
+ROBUST UNIX DERIVATIVE
+□ 486 DOS/WINDOWS OR MACINTOSH FOR 1993
+ACQUISITIONS
+□ TEST AND PROTOTYPE NEXT-GENERATION
+DESKTOP OPTIONS FOR COMMERCIAL
+WORKSTATIONS ON THE HORIZON
+Aberdeen Notes:
+Finally, there are three critical findings that should assist with 1993
+planning decisions.
+First, Unix is a clear choice for mid-range systems combined with RDBMS
+and applications software. This combination will continue as the clear
+market leader in both performance benchmarks and distributed systems
+functionality for at least 18-24 months no matter what happens to
+Windows/NT.
+486 Intel-based DOS/Windows or Macintosh machines are the standard
+workstation buy for 1993 to mid-1994 for commercial enterprise. Unix
+wins for technical applications. Windows for Workgroups gains share in
+LAN environments. However, robust Client-Server applications may run
+out of gas on a DOS/Windows platform.
+Finally, although the next generation commercial workstation operating
+system landscape is confused and overpopulated, it will pay to test and
+prototype multiple options this year in order to make well-informed
+corporate standards decision in 12-14 months.
+New Technology Impact Series
+Page 20
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | nti-4-nextgen-os-timing-1993-a45049 |
+| title | Timing Your Move to Next Generation Operating Systems |
+| author | Peter S. Kastner, John Logan, Thomas Willmott |
+| date | 1993-02-01 |
+| type | market-study |
+| subject_domain | operating-systems |
+| methodology | industry-analysis, technology-assessment, vendor-profiling |
+| source_file | NTI 4 NextGen OS Timing 1993.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+This Aberdeen Group workbook presents a structured timing framework for IS executives evaluating the transition to next-generation operating systems in 1993. It identifies five key OS trends — single-to-multi-tasking, single-to-multi-threaded, LAN/desktop integration, GUI adoption, and distributed client-server progress — and analyzes hot spots across the Three-Tier Plus topology. The study evaluates Unix derivatives, desktop OS alternatives from Windows 3.1 to OS/2, Power PC, Windows NT, and Solaris, and concludes that Unix is the clear mid-range choice while 486/Windows or Macintosh remain the standard desktop buy through mid-1994.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Provides an authoritative OS market timing framework at the exact moment when enterprise IT was choosing between Unix, Windows NT, and multiple alternative platforms — capturing predictions that proved highly accurate over the subsequent five years. |
+| **Relevance** | medium | The analytical approach to differentiating GUI adoption rates from underlying OS migration rates remains methodologically sound; specific product predictions are historical. |
+| **Prescience** | high | Aberdeen's prediction that object-oriented mainstream impact would await the turn of the century proved accurate, as did the forecast that Windows 3.1 would dominate through 1995 and that no major OS transition wave would develop until 1995. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Windows 3.1/DOS desktop dominance duration
+- **Claimed:** Will remain dominant desktop OS through 1995
+- **Year:** 1993
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Windows DOS actual desktop dominance through 1995
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 2:** Unix lead over Windows NT for mid-range systems
+- **Claimed:** Clear leader for at least 18-24 months regardless of Windows NT outcome
+- **Year:** 1993
+- **Confidence at time:** high
+
+**Actual Outcome 2:** Unix mid-range leadership vs Windows NT
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 3:** Object-oriented systems mainstream impact timeline
+- **Claimed:** Not until turn of the century (year 2000)
+- **Year:** 1993
+- **Confidence at time:** medium
+
+**Actual Outcome 3:** Object-oriented systems mainstream reality
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 4:** Windows NT major adoption transition timing
+- **Claimed:** No tidal wave transition until 1995
+- **Year:** 1993
+- **Confidence at time:** medium
+
+**Actual Outcome 4:** Windows NT actual adoption tidal wave timing
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 5:** PowerPC first unit availability
+- **Claimed:** First units available in 1993 despite slippage
+- **Year:** 1993
+- **Confidence at time:** medium
+
+**Actual Outcome 5:** PowerPC actual ship date and reception
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 6:** Microsoft key alliance watch items in 1993
+- **Claimed:** DEC and Sequent alliances on Windows NT; potential NCR or HP broader relationship
+- **Year:** 1993
+- **Confidence at time:** medium
+
+**Actual Outcome 6:** Windows NT actual adoption tidal wave timing
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 7:** Recommended 1993 desktop buy for commercial enterprise
+- **Claimed:** 486 Intel DOS/Windows or Macintosh through mid-1994
+- **Year:** 1993
+- **Confidence at time:** high
+
+**Actual Outcome 7:** Windows DOS actual desktop dominance through 1995
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+
+### Entities Referenced (27)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks 2006 |
+| Peter S. Kastner | person | active |  |
+| John Logan | person | unknown |  |
+| Thomas Willmott | person | unknown |  |
+| IBM | company | active |  |
+| Microsoft | company | active |  |
+| Apple Computer | company | active | renamed Apple Inc. 2007 |
+| Novell | company | acquired | Attachmate (2011 for $2.2B) -> Micro Focus (2014) -> OpenText (2023) |
+| Hewlett-Packard | company | split | HP Inc./HPE 2015 |
+| Sun Microsystems | company | acquired | Oracle 2010 |
+| Digital Equipment Corporation | company | acquired | Compaq 1998 |
+| Compaq | company | dissolved | HP 2002 |
+| NCR Corporation | company | split | Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023 |
+| Sequent Computer Systems | company | acquired | IBM (acquired 1999 for $810M) |
+| Unisys | company | active |  |
+| Taligent | company | dissolved | Absorbed into IBM (1996-1998); technology became part of VisualAge |
+| Next Computer | company | acquired | Apple Computer (acquired 1997 for $429M); NeXTSTEP became basis of Mac OS X |
+| Santa Cruz Operation (SCO) | company | renamed | Sold Unix business to Caldera (2001); SCO name acquired by Caldera (renamed SCO Group); original SCO became Tarantella -> acquired by Sun 2005 |
+| Open Software Foundation | institution | merged | Merged with X/Open to form The Open Group (1996) |
+| Unix Systems Laboratories | company | acquired | Novell 1993 |
+| Banyan Systems | company | dissolved | Renamed ePresence (1999); assets acquired by Unisys (2003); ceased operations Oct 2003 |
+| Oracle | company | active |  |
+| Object Management Group | institution | active |  |
+| Pyramid Technology | company | acquired | Siemens Nixdorf (acquired 1995) |
+| Tandem Computers | company | acquired | Compaq 1997 |
+| Silicon Graphics | company | dissolved | Bankruptcy 2006; assets acquired by Rackable Systems (2009 for $25M); renamed SGI; then acquired by HPE (2016) |
+| Steve Jobs | person | deceased |  |
+
+### Technologies Referenced (19)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Windows 3.1 / MS-DOS | operating-system | Microsoft | dominant | legacy |
+| Windows for Workgroups | operating-system | Microsoft | emerging | discontinued |
+| Windows NT | operating-system | Microsoft | pre-release | legacy |
+| Apple Macintosh | platform | Apple Computer | established | evolved |
+| IBM OS/2 2.0 | operating-system | IBM | established | discontinued |
+| Unix (Various Derivatives) | operating-system | Multiple | dominant-midrange | mature |
+| OSF/1 | operating-system | Open Software Foundation | emerging | discontinued |
+| Sun Solaris (USL V.4 MP) | operating-system | Sun Microsystems | emerging | legacy |
+| IBM/Apple PowerPC | hardware | IBM, Apple, Motorola | pre-release | discontinued |
+| HP/UX 9.0 | operating-system | Hewlett-Packard | established | mature |
+| IBM AIX | operating-system | IBM | established | mature |
+| IBM MVS | operating-system | IBM | dominant-mainframe | evolved |
+| Microsoft Cairo | operating-system | Microsoft | pre-announced | discontinued |
+| NextStep | operating-system | Next Computer | niche | discontinued |
+| Novell/USL Destiny | operating-system | Novell, Unix Systems Laboratories | pre-release | discontinued |
+| Relational Database Management Systems | application | Multiple (Oracle, Sybase, Informix) | mainstream | mature |
+| CORBA / Object-Oriented Technology | standard | Object Management Group | emerging | legacy |
+| Sequent Dynix/PTX | operating-system | Sequent Computer Systems | established | discontinued |
+| SCO Open Desktop (ODT) | operating-system | Santa Cruz Operation | established | discontinued |
+
+### Observation Summary
+
+- Total observations: 30
+- By type: technology-assessment: 10, viability-prediction: 7, actual-outcome: 6, competitive-position: 3, vendor-strategy: 2, expert-opinion: 1, market-size: 1

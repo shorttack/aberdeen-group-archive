@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Advisory,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-2014,dct-oct.-4-hot-topic-b61c0d,Publishing organization for Hot Topic series
+russ-craig,Russ Craig,person,Consumer Electronics Research,unknown,,unknown [REVIEW],dct-oct.-4-hot-topic-b61c0d,Author; Aberdeen analyst covering Digital Consumer Technology & Semiconductors
+hand-held-entertainment,Hand Held Entertainment (ZVUE),company,Consumer Electronics,dissolved,ZVUE Corp (renamed); company ceased operations circa 2009–2010 after financial losses,2003-present,dct-oct.-4-hot-topic-b61c0d,Founded Feb 2003; maker of ZVUE pocket video/music player
+roku,Roku,company,Consumer Electronics / Streaming,active,,2002-present,dct-oct.-4-hot-topic-b61c0d,Founded by Anthony Wood (ReplayTV founder); launched HD1000 HDTV media player
+nec,NEC Corporation,company,Electronics / Computing,active,,1899-present,dct-oct.-4-hot-topic-b61c0d,Announced fuel-cell laptop prototype at WPC Expo Tokyo September 2003
+sony,Sony Corporation,company,Consumer Electronics,active,,1946-present,dct-oct.-4-hot-topic-b61c0d,Traditional CE player; expected to launch similar video player at $300-$500+; Clie UX40 cited
+panasonic,Panasonic (Matsushita),company,Consumer Electronics,reorganized,Panasonic Holdings Corporation (holding company structure adopted April 2022); major restructuring April 2026 splitting into multiple operating companies,1918-present,dct-oct.-4-hot-topic-b61c0d,Expected to launch dedicated video player at $300-$500+
+dell,Dell Inc.,company,PC / Consumer Electronics,active,Dell Technologies (renamed after EMC acquisition 2016),1984-present,dct-oct.-4-hot-topic-b61c0d,Cited as non-traditional CE entrant intensifying price competition in traditional CE categories

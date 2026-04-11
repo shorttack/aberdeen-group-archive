@@ -1,0 +1,58 @@
+EXECUTIVE VIEWPOINT - EVP 5
+Charles T. Casale
+January 7, 1983
+TECH GROUP RESEARCH / MORGAN, KEEGAN & COMPANY, INC.
+
+HYPERGROWTH BALANCE SHEETS - NEGLECTED STEPCHILDREN?
+
+In EVP 1-3 we reviewed the structure of hypergrowth; in EVP 4 we saw that poor controls and 
+questionable practices are difficult to detect in the P&L. In this EVP we analyze a few aspects 
+of hypergrowth balance sheets and find they are more neglected than they should be.
+
+MAKING THE EPS GOAL IN SPITE OF LOOSE CONTROLS
+FTI at end of fiscal 82 (August 31st year): 56% revenue gain vs unpublished 50% plan. FTI was 
+in a Cost Push mode of operation.
+
+BAM PREACHES THE BALANCE SHEET GOSPEL
+BAM (Better Asset Management) reviews FTI's FY82 balance sheet.
+
+TABLE 1 - FTI BALANCE SHEET - FISCAL YEAR 1982 ($M)
+ASSETS: Cash 30.0 | Receivables 190.0 | Inventories 155.0 | Prepaid 15.0 | TOTAL CURRENT 390.0
+Plants & Fixtures 60.0 | Equipment (net) 110.0 | TOTAL ASSETS 500.0
+LIABILITIES: Notes to Banks 3.0 | AP 47.0 | Accrued 40.0 | TOTAL CURRENT 90.0 
+Deferred Taxes 35.0 | LT Debt 55.0 | TOTAL LIABILITIES 180.0
+Common Stock 200.0 | Retained Earnings 120.0 | SHAREHOLDERS EQUITY 320.0
+
+CFO: 90 days DSO is norm; FTI planned 100 days FY82 for high-interest environment.
+IBM: considerably less than 100 days. DEC: under 90 days.
+
+TABLE 2 - FTI QUARTERLY RECEIVABLES
+FY81 Q4: Revenue 90.0 | Receivables 89.0 | Days 90
+FY82 Q1: Revenue 100.0 | Receivables 112.0 | Days 102
+FY82 Q2: Revenue 112.0 | Receivables 132.0 | Days 107
+FY82 Q3: Revenue 125.0 | Receivables 155.0 | Days 113
+FY82 Q4: Revenue 141.0 | Receivables 190.0 | Days 123
+
+TABLE 3 - FTI FY82 SUMMARY PLAN
+Revenue: Plan 460 | Actual 478 | Diff +18 (+4%)
+EPS: Plan 2.75 | Actual 2.75 | Diff 0
+Receivables: Plan 146 | Actual 190 | Diff +44 (+30%)
+
+TABLE 4 - FTI FY82 MONTHLY OPERATING PLAN
+[25/35/40 production allocation per quarter; actual results show increasing skew to final month]
+Steady-state plan DSO: 102 days. Actual Q4 DSO: 123 days.
+
+COST-PUSH DISTORTS STATED RECEIVABLES
+No change in terms, delinquencies, or returns from plan to actual.
+Average monthly receivables < quarter-end statements.
+Stated results distorted by heavy weighting of final two weeks of quarterly shipments.
+Conclusion: apparent receivables increase is symptom of underlying cost control problem.
+
+WHEN IS A DOLLAR ONLY WORTH FORTY CENTS? WHEN IT IS CALLED "INVENTORY"
+FTI gross margins 60%; inventory at cost = 40 cents on sales dollar.
+Three inventory categories vs one receivables category; 10-Q required for breakout.
+
+INVESTMENT RELEVANCE
+Numbers useful but not to precision degree some wish. Compare original vs restated figures.
+
+Next: EVP series to be aperiodic, issued in response to current investor interest.

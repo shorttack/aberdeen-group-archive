@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Uses and Abuses of the Corporate Hockey Stick \u2014 Or Is This Any Way to Run an Industry?",
+  "description": "Executive Viewpoint #3 introduces the 'hockey stick' concept \u2014 the skewed end-of-period concentration of bookings, billings, and shipments common to fast-growing technology companies. Casale argues that the quarterly hockey stick is structurally superior to the annual cycle for managing high-tech operations and examines two management approaches (sales force management via 'stick' and factory management via 'carrot') for moderating the pattern. The newsletter analyzes how Datapoint's booking-oriented compensation plan and Tandem's booking-to-revenue disconnect exemplify the pathological form of the hockey stick.",
+  "creator": {
+    "@type": "Person",
+    "name": "Charles T. Casale"
+  },
+  "datePublished": "1983-01-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

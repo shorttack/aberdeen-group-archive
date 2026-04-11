@@ -1,0 +1,21 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,intel-infiband-wp--edit-psk-5-22f-a2c551,Author organization.
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,intel-infiband-wp--edit-psk-5-22f-a2c551,Author; based on writing style and file name editor (psk).
+intel,Intel Corporation,company,Semiconductor,active,,1968-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; key IBA backer.
+ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; IBA adapter and switch vendor; plans to embed HCA in enterprise servers.
+compaq,Compaq,company,Enterprise IT Hardware,acquired,Hewlett-Packard (2002),1982-2002,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; plans for IBA-enabled server blades.
+hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,renamed,HP Inc. + Hewlett Packard Enterprise (split 2015),1939-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; Compaq/HP combined entity cited for IBA server plans.
+dell,Dell,company,Enterprise IT Hardware,active,,1984-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; plans InfiniBand blade servers to make blade servers slimmer.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member.
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware/Software,acquired,Oracle Corporation (acquired 2010),1982-2010,intel-infiband-wp--edit-psk-5-22f-a2c551,IBTA steering committee member; plans IBA blade servers.
+cisco,Cisco,company,Networking,active,,1984-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA technology sponsor (200+ sponsors).
+unisys,Unisys,company,Information technology / enterprise computing,active,,1986-present,intel-infiband-wp--edit-psk-5-22f-a2c551,Plans to deliver new enterprise servers with HCA embedded (2003).
+mellanox-technologies,Mellanox Technologies,company,Semiconductor / High-Performance Networking,acquired,NVIDIA (acquired April 2020),1999-present,intel-infiband-wp--edit-psk-5-22f-a2c551,Source of Figure 3 (Blade Server Rack With Integral InfiniBand Switch); IBA silicon provider.
+infiniband-trade-association,InfiniBand Trade Association (IBTA),institution,Technology Standards,active,,2000-present,intel-infiband-wp--edit-psk-5-22f-a2c551,Standards body formed to maintain InfiniBand specification; steering committee includes major vendors.
+voltaire,Voltaire,company,High-Performance Networking,acquired,Mellanox Technologies (acquired February 2011),2000-2011,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA switch/router and HCA/TCA vendor.
+infinicon,InfiniCon Systems,company,Storage Networking / IBA,dissolved,,2000s,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA switching/routing hardware vendor bridging SCSI/FC to IBA.
+infiniswitch,InfiniSwitch,company,High-Performance Networking,dissolved,,2000s,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA switch vendor.
+qlogic,QLogic,company,Storage Networking,acquired,Cavium Inc. (acquired August 2016); Cavium then acquired by Marvell Technology (2018),1992-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA HCA/TCA vendor; also routing/switching hardware.
+adaptec,Adaptec,company,Storage Controllers,acquired,PMC-Sierra (acquired 2010),1981-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA HCA adapter vendor (late 2002 / early 2003).
+agilent-technologies,Agilent Technologies,company,Electronic Measurement / Networking,active,,1999-present,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA HCA adapter vendor.
+emulex,Emulex,company,Storage Networking,acquired,Avago Technologies (acquired 2015; Avago subsequently merged with Broadcom),1979-2015,intel-infiband-wp--edit-psk-5-22f-a2c551,IBA HCA adapter vendor.

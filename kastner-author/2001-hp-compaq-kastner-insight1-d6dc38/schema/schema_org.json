@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The HP-Compaq Merger: If There's the Will, There's a Way",
+  "description": "Aberdeen InSight dated September 6, 2001 analyzing the proposed HP-Compaq merger. Kastner identifies customer concern about inward focus, product-line redundancy across servers, Unix, and services, and urges outward customer focus as the key to success. Warns that Dell, IBM, and Sun will benefit if HP-Compaq loses customer focus during integration.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2001-09-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

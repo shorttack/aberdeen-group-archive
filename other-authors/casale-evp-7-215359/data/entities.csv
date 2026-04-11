@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+morgan-keegan,"Morgan, Keegan & Company, Inc.",firm,investment-banking,acquired,Raymond James Financial (acquired 2012 for $930M),1969-2012,casale-evp-7-215359,"Publisher and copyright holder of EVP 7 (Copyright 1983, Morgan Keegan & Co., Inc.). Member NYSE. Offices: Memphis, Nashville, Jackson MS, New Orleans, Boston, Palm Beach, Montgomery, Atlanta. Casale's publishing platform."
+charles-t-casale,"Charles T. Casale, C.F.A.",person,investment-research,active,,1979-present,casale-evp-7-215359,Author of EVP 7; signs as C.T. Casale. Tech Group Research analyst at Morgan Keegan. CFA charterholder. Later co-founded Aberdeen Group.
+aberdeen-group,Aberdeen Group,company,IT-research,acquired,Harte-Hanks -> Aberdeen (now part of Spiceworks Ziff Davis),1988-present,casale-evp-7-215359,Casale's subsequent venture with Peter Kastner. Known entity reused from cache.

@@ -1,0 +1,17 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks 2006,1988-present,nti-6-rdbms-technology-48f4aa,Publisher and author of the NTI series
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1989-present,nti-6-rdbms-technology-48f4aa,"Co-author, Aberdeen Group analyst"
+john-logan,John Logan,person,IT-research,unknown,,1990s,nti-6-rdbms-technology-48f4aa,"Co-author, Aberdeen Group analyst"
+thomas-willmott,Thomas Willmott,person,IT-research,unknown,,1990s,nti-6-rdbms-technology-48f4aa,"Co-author, Aberdeen Group analyst"
+oracle,Oracle Corporation,company,enterprise-software,active,,1977-present,nti-6-rdbms-technology-48f4aa,"Rated best-in-class for mission-critical OLTP, SQL gateway, open server, upper CASE; revenues $1.2B in 1992"
+sybase,"Sybase, Inc.",company,enterprise-software,acquired,SAP 2010,1984-2010,nti-6-rdbms-technology-48f4aa,Created market for Unix-based client-server OLTP; revenues $300M+; best-in-class for business rules
+informix,Informix Corporation,company,enterprise-software,acquired,IBM 2001,1980-2001,nti-6-rdbms-technology-48f4aa,Unix RDBMS niche leader; best-in-class for performance and distributed operations
+ingres,Ingres (ASK Group),company,enterprise-software,acquired,ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021),1980-present,nti-6-rdbms-technology-48f4aa,Technology innovator; $250M revenue 1992; part of ASK Group; best-in-class for client-server dev tools and 4GL
+ask-group,ASK Group,company,enterprise-software,acquired,Computer Associates (acquired 1994 for $311M),1972-1994,nti-6-rdbms-technology-48f4aa,Parent company of Ingres division in 1993
+software-ag,Software AG,company,enterprise-software,active,,1969-present,nti-6-rdbms-technology-48f4aa,Oldest independent DBMS supplier; ADABAS engine; Natural 4GL; best-in-class performance and 4GL; 25% R&D investment rate
+progress-software,Progress Software Corporation,company,enterprise-software,active,,1981-present,nti-6-rdbms-technology-48f4aa,4GL portability leader; ISV partner of choice; revenues $80M in 1992; IBM AS/400 port announced
+ibm,IBM,company,IT-hardware-software,active,,1911-present,nti-6-rdbms-technology-48f4aa,"DB2 (mainframe), QS/400 (AS/400), OS/2 Data Manager (PC) all rated worst-in-class"
+digital-equipment-corporation,Digital Equipment Corporation (DEC),company,IT-hardware,acquired,Compaq 1998,1957-1998,nti-6-rdbms-technology-48f4aa,Offered VAX/Rdb; rated excellent but non-portable
+hewlett-packard,Hewlett-Packard,company,IT-hardware,active,HP Inc./HPE 2015,1939-present,nti-6-rdbms-technology-48f4aa,Offered ALLBASE/SQL; excellent but non-portable
+tandem-computers,Tandem Computers,company,IT-hardware,acquired,Compaq 1997,1974-1997,nti-6-rdbms-technology-48f4aa,Offered NonStop SQL; excellent but non-portable
+transaction-processing-council,Transaction Processing Performance Council (TPC),institution,IT-standards,active,,1988-present,nti-6-rdbms-technology-48f4aa,Defined benchmark standards (TPC-A) referenced for OLTP performance comparisons

@@ -1,0 +1,7 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,intel-centrino-pk-8ecf9a,Author; Aberdeen analyst.
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,intel-centrino-pk-8ecf9a,Publisher; conducted productivity research showing 30 min/day gain for campus workers.
+intel,Intel Corporation,company,Semiconductor,active,,1968-present,intel-centrino-pk-8ecf9a,"Subject; launched Centrino on March 12, 2003 with $300M marketing; spending tens of millions to build worldwide hotspot infrastructure."
+cisco,Cisco,company,Networking,active,,1984-present,intel-centrino-pk-8ecf9a,Making LEAP wireless security protocol available to industry; Centrino is LEAP-aware.
+microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,intel-centrino-pk-8ecf9a,Windows Server 2003 can be hardened for wireless; Microsoft proved this on its own campus.
+pricewaterhousecoopers,PricewaterhouseCoopers (PwC),firm,Professional Services / Consulting,active,,1998-present,intel-centrino-pk-8ecf9a,PwC study cited: additional initial cost of wireless notebooks achieves ROI in 6 months or less.

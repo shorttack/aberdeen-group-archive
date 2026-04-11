@@ -1,0 +1,802 @@
+# RDBMS Report Card
+
+> Archived from: NTI 6 RDBMS technology.pdf
+> Original publication date: 1993-04-01
+> Author: Peter S. Kastner, John Logan, Thomas Willmott
+
+---
+
+## Original Document Text
+
+AberdeenGn?^
+mm® a?® ®o w w u®b w bwbi
+RDBMS
+p\ Report
+V>y Card
+'
+1
+RDBMS
+Report
+Card
+New Technology Impact Series
+Number 6
+April 1993
+Aberdeen Group, Inc.
+92 State Street
+Boston, Massachusetts 02109
+Telephone 617 723 7890
+AberdeenGroup
+RDBMS Report Card
+AGENDA
+□ ROLE OF RDBMS IN ENTERPRISE TOPOLOGY
+□ RDBMS FUNCTIONALITY
+□ LEADING RDBMS SUPPLIER STRATEGIES
+□ BEST-IN-CLASS REPORT CARD
+□ GUIDELINES FOR ACQUIRING AN RDBMS
+□ WRAP UP COMMENTARY
+Aberdeen Notes:
+Aberdeen Group’s RDBMS Report Card is based upon primary research in
+the area of distributed open production systems. Aberdeen offers on-going
+assistance for users and suppliers in this critical area through monthly
+updates that are provided as part of the Distributed Open Production
+Systems Buying Guide Service.
+In this chapter of the New Technology Impact series, we wish to position
+the role of RDBMS in enterprise computing, describe the strategies of the
+leading suppliers, and provide you with a hard-hitting evaluation of the
+best-in-class products.
+Aberdeen Group believes that understanding and properly implementing
+state-of-the-science RDBMSs is key for MIS executives charged with
+preparing their enterprises IS infrastructures for the future. As hardware
+becomes more and more of a commodity, those enterprises that most
+effectively use information technology to gain a competitive advantage will
+do so with the aid of RDBMSs.
+All RDBMSs are not the same. Over the last decade they have evolved
+based upon perceived user needs by the independent developers. And
+during the next five years, Aberdeen expects to see a continued divergence
+as the leading suppliers approach the emerging client-server marketplace in
+distinct ways.
+New Technology Impact Series
+Page 1
+AberdeenGroup RDBMS Report Card
+ROLE OF RDBMS IN ENTERPRISE
+TOPOLOGY
+□ DECISION SUPPORT
+□ OLTP
+□ MAINFRAME-TO-MIDRANGE-TO-DESKTOP
+COMMONALITY
+□ NEW COMPUTING PLATFORM OF CHOICE
+Aberdeen Notes:
+The historical use of relational database technology within enterprises has
+been to provide managers with online and flexible decision support tools.
+RDBMSs continue to free operational managers from the tyranny of green-
+striped batch reports containing data that is typically two-to-four weeks out
+of date. The ability to support operational decision support applications
+online is the driving force for the continued rapid growth in RDBMSs.
+As enterprises strive to improve the functionality contained in their online
+transaction processing (OLTP) systems, they are basing their next
+generation applications on RDBMS technology. RDBMSs have shown that
+they have the capability to support 99.99% of all real world OLTP
+applications.
+While mainframe, midrange and desktop computer hardware may be
+incompatible, RDBMSs have proven to be the software glue to allow all
+three hardware components to work together as a unified enterprise
+information network.
+MIS decision makers responsible for the long-term architectural planning
+of their enterprise IS infrastructure are continuing to view their RDBMS as
+their prime computing platform. The correctness of their RDBMS
+decisions will determine their enterprise’s effectiveness in developing
+applications quickly, installing new productivity components such as
+graphical user interfaces, and coordinating the business processes of
+geographically dispersed operations.
+New Technology Impact Series
+Page 2
+AberdeengroMp RDBMS Report Card
+RDBMS FUNCTIONALITY
+□ SQL-BASED ACCESS
+□ APPLICATION DEVELOPMENT TOOLS
+□ PORTABILITY AND SCALABILITY
+□ DISTRIBUTED DATABASE SUPPORT
+□ RULES AND POLICIES
+□ DATA EXTENSIBILITY
+□ PERFORMANCE AND DATA INTEGRITY
+Aberdeen Notes:
+Aberdeen Group believes that an acceptable state-of-the-science RDBMS
+has seven major functional characteristics today.
+The RDBMS must be SQL (Structured Query Language) based. SQL is
+the industry accepted standard for data interchange and access. While a
+few RDBMSs still do not conform to the SQL standard, Aberdeen believes
+that this limits their functionality in a multi-application operating
+environment.
+Application development tools are a necessity to allow enterprises to
+quickly create and document applications. While all the RDBMS suppliers
+offer their own suite of development tools, there is a whole industry of
+third-party suppliers that offer extremely powerful cross-platform products.
+To achieve the full value of the promised functionality within an enterprise,
+the primary RDBMS must be portable across different hardware platforms
+— multiuser and single-user — and scalable across a range of platform sizes.
+While many of the multiuser hardware suppliers offer their own highly
+functional RDBMS, the marketplace has typically restricted their
+placement for specialized purposes due to the lack of portability.
+Distributed database support is a requirement for RDBMSs that are to be
+used with computing systems located at multiple sites and when multiple
+applications must be coordinated.
+New Technology Impact Series
+Page 3
+AberdeenGrowp RDBMS Report Card
+RDBMS FUNCTIONALITY
+□ SQL-BASED ACCESS
+□ APPLICATION DEVELOPMENT TOOLS
+□ PORTABILITY AND SCALABILITY
+□ DISTRIBUTED DATABASE SUPPORT
+□ RULES AND POLICIES
+□ DATA EXTENSIBILITY
+□ PERFORMANCE AND DATA INTEGRITY
+Aberdeen Notes:
+The most powerful advancement in RDBMSs in the last two years has
+been the addition of rules and policies functionality. Using this
+functionality, developers can program within the database itself the
+operational rules and policies of the enterprise. Early users report that this
+often reduces their application development code by as much as 35%.
+To prepare for the future, RDBMSs must have the ability to handle non­
+alphanumeric data forms. At a base level, data extensibility means being
+able to compute such simple data as geographic longitude and latitude
+locations but it must be extensible to be compatible with future
+technologies such as those embodied in multi-media data in the form of
+images and full-motion video.
+To meet the needs of production OLTP applications, an acceptable
+RDBMS must be able to handle hundreds of Transaction Processing
+Council-defined transactions per second on a single multiuser processor
+today and have the potential to handle thousands of transactions per
+second in the future. And at the same time it cannot sacrifice performance
+for the inability to maintain data integrity under any system-failure
+circumstance. Aberdeen Group believes that maintaining data integrity,
+especially with applications that involve financial transactions, is paramount
+for an RDBMS to be acceptable for production applications.
+New Technology Impact Series
+Page 4
+Aberdeen(?roM/>
+RDBMS Report Card
+LEADING RDBMS
+SUPPLIER STRATEGIES
+□ ORACLE
+□ INGRES
+□ SYBASE
+□ INFORMIX
+□ SOFTWARE AG
+□ PROGRESS
+□ LARGE MULTIUSER SYSTEMS SUPPLIERS
+Aberdeen Notes:
+Today, out of the hundred-plus firms that offer RDBMS products, only a
+handfill are setting the agenda for the RDBMS marketplace.
+With the largest installed base, Oracle sets the guidelines for the majority
+of RDBMS users. Ingres, the historical technology innovator, consistently
+provides new and inventive features. And Sybase single handedly created
+the market for RDBMSs to be used as an engine for production OLTP
+applications.
+Informix has been the Unix RDBMS niche player — but now that Unix is
+mainstream, so is Informix. Software AG has helped many datacenter IS
+executives make the transition from mainframes to midrange and now is
+laying the groundwork for client-server. Progress has evolved from its 4GL
+roots to be a VAR tool-of-choice for application portability among
+different Unix-derivative operating environments.
+Finally, we will mention the large multi-user system suppliers proprietary
+RDBMSs. However, we do not rate them in our report card because they
+all fail the basic "openness" functional test of providing portability to
+platforms other than their own.
+New Technology Impact Series
+Page 5
+AberdeenGronp RDBMS Report Card
+ORACLE
+□ LARGEST INDEPENDENT SUPPLIER - $1,2B
+□ ORACLE VERSION 7 FOR TECHNOLOGY
+LEADERSHIP IN OLTP APPLICATIONS
+□ PORTABILITY ALWAYS
+□ APPLICATION VALUE-ADDED
+Aberdeen Notes:
+With revenues in 1992 of over $1.2 billion, Oracle is by far the market
+leader. And with revenues this large, Oracle can invest in providing many
+services and complementary products for its customer base. As a result,
+Oracle has become the safe choice of RDBMSs. While the early days of
+Oracle were frequently characterized by an over selling of its product
+capabilities, Oracle has matured over the last two years to become a
+trusted supplier to many enterprises.
+While late in making its appearance, Oracle version 7 has shown technical
+leadership. This is the first time Oracle Corporation has shown true
+technical leadership.
+A keystone of Oracle’s strategy has always been the willingness to support,
+on paper, up to sixty hardware platforms. However, Aberdeen believes
+that Oracle is doing an excellent job today of supporting the most popular
+Unix platforms as well as MS-DOS and NetWare. While Oracle does
+support MVS and VMS versions of its product, both are rapidly fading in
+popularity.
+A new set of client-server application development tools should fuel
+Oracle’s database sales.
+Users tell Aberdeen that they are especially impressed with Oracle’s
+willingness to invest in a suite of financial and manufacturing management
+applications. This allows users to do one-stop-shopping at Oracle for both
+their RDBMS and their primary applications.
+Aberdeen believes that a combination of business maturity and technical
+leadership will help Oracle gain ever greater share of the RDBMS market
+in 1993.
+New Technology Impact Series
+Page 6
+AberdeenGrottp
+RDBMS Report Card
+INGRES
+□ TECHNOLOGY INNOVATOR IN OLTP
+□ POOR MARKETING HISTORY
+□ CLIENT-SERVER LEADERSHIP
+□ NEW MANAGEMENT - NEW STRATEGY
+Aberdeen Notes:
+Ingres is now part of the ASK Group. The Ingres division had
+approximately $250 million in revenue in 1992.
+Ingres has introduced many technical innovations, such as distributed data
+base, rules, GUI 4GL, and two-phase commit into the RDBMS arena.
+However, a history of poor marketing communications, divisive sales
+policies, and unstable business strategies have lead to a second-tier market
+position.
+Ingres has aggressively moved to support MS-Windows as the preferred
+client to its RDBMS engine acting as the back-end server. And at the
+same time, it has developed more robust client-server development tools.
+This new thrust into client-server computing could help Ingres regain its
+former technical leadership.
+Finally, Aberdeen is encouraged by the new business-oriented management
+team that has been established and anticipate that its new strategy and
+stability will be the basis for renewed growth in 1993.
+New Technology Impact Series
+Page 7
+AberdeenGronp RDBMS Report Card
+SYBASE
+□ UNIX-BASED CLIENT-SERVER OLTP INNOVATOR
+□ OPEN SERVER LEADERSHIP
+□ SUPPORT LACKING
+□ PC LAN FUTURE TARGET
+Aberdeen Notes:
+Beginning in the late 1980s, Sybase excited the RDBMs world with its
+vision of Unix-based client-server OLTP computing. And Sybase made
+great inroads in the financial community with these goals. The result has
+been that Sybase is now a $300+ million public company.
+Sybase has led the RDBMS industry with both its vision of open-server
+technology and its ability to deliver the tools to implement open RDBMS
+applications.
+Sybase has announced an aggressive set of products to be released in 1993
+under its Sybase System 10 architecture. Sybase intends to challenge
+Oracle for leadership in enterprise-class RDBMS-based applications by
+releasing products that provide gateways from Sybase to any other SQL-
+compliant RDBMS, improved network administration, and replication
+server functionality. In addition, Sybase will upgrade its RDBMS engine.
+The most common criticism leveled at Sybase has been its inability to
+deliver the products and support that it has promised.
+New Technology Impact Series
+Page 8
+AberdeenGroMp
+RDBMS Report Card
+INFORMIX
+□ UNIX, LOW-END STANDARD
+□ HAS BEEN VAR RDBMS OF CHOICE FOR
+CUSTOM UNIX APPLICATIONS
+□ RDBMS OF CHOICE FOR SPEED COMBINED
+WITH PORTABILITY
+□ LACKS SOME HIGH-END FUNCTIONALITY
+□ NEW MANAGEMENT PROVIDING STABILITY AND
+DIRECTION
+Aberdeen Notes:
+Informix has been the RDBMS call-brand of the Unix marketplace. And
+in fact, Informix has been synonymous with Unix installations in the
+telecommunications and government marketplaces where it is frequently
+paired with SCO Unix.
+At the low end of the Unix marketplace, Informix has been the VAR
+RDBMS of choice for custom application development. This has provided
+Informix with a large installed base but minimal respect in Fortune 500
+enterprises.
+One of the most distinguishing characteristics of Informix is its high speed
+and portability across different manufacturers’ Unix platforms. As a result,
+Informix is the RDBMS most commonly run in the various TPC-A
+benchmarks that have been released on fast Unix hardware.
+Aberdeen Group believes that Informix still lacks some of the high-end
+functionality that is available in other products.
+However, Informix is another example in which leadership within the
+organization has been transferred from the original technical founders to
+professional business managers. The new management team at Informix is
+providing both much needed stability and setting the appropriate directions
+for profitable growth.
+New Technology Impact Series
+Page 9
+AberdeenCzroup RDBMS Report Card
+SOFTWARE AG
+□ MIGRATING FROM MAINFRAME WORLD
+□ HIGH THROUGHPUT OLTP
+□ PORTABLE APPLICATION DEVELOPMENT AND
+END-USER SUPPORT
+□ MOVING TO ENCOMPASS CLIENT-SERVER
+□ LOW-PROFILE MARKETING AND SALES - LARGE
+R&D INVESTMENT
+Aberdeen Notes:
+Software AG (SAG) is the grand-daddy of independent data base
+management suppliers. Its current marketing objective is to migrate its
+mainframe customers to more economical midrange and desktop systems
+while maintaining their investment in SAG products.
+SAG’s key DBMS engine is ADABAS. SAG’s unwillingness to quickly
+commit to SQL devastated growth in the mid-1980’s. However, ADABAS
+provides the highest throughput possible in production environments.
+During the last several years, SAG has been extremely successful at porting
+its 4GL product, Natural, to support other software suppliers’ data bases
+and hardware manufacturers’ operating environment. Natural is the key
+for many successful new SAG installations.
+SAG has announced its ENURE strategy to assist its customers and
+prospects in establishing a comprehensive client-server operating
+environment from the mainframe through the midrange and all the way
+down to the desktop client. Aberdeen believes that this strategy, if
+delivered in a timely manner and with robust products, will provide IS
+executives with a reason to trust their next-generation applications to SAG.
+However, note that SAG maintains an extremely low marketing and sales
+profile, especially in the U.S. Where other companies its size invest in
+sales and marketing programs, SAG invests 25% of its revenues into R&D.
+New Technology Impact Series
+Page 10
+AberdeenGrowp
+RDBMS Report Card
+PROGRESS
+□ 4GL DEVELOPMENT PORTABILITY
+□ ISV AUTHORING APPLICATION PARTNER
+LEADER
+□ ATTEMPTING TO OVERCOME SMALL SIZE
+Aberdeen Notes:
+Progress is known for the robustness of its 4GL development environment.
+Applications developed under Progress are highly portable among different
+Unix operating environments. In fact, Progress’s 4GL is so powerful that
+IBM recently opted to have it ported to the AS/400. This will be a
+complex transition for Progress to make as it leaves its Unix roots for a
+fling into the world of proprietary systems.
+Progress’s main strength is with independent software vendors that wish to
+develop an application just once and sell it on as many Unix platforms as
+possible.
+At $80 million in 1992 revenues, Progress’s major weakness is its inability
+to develop complementary products to its 4GL and data base quickly
+enough to meet user demands.
+New Technology Impact Series
+Page 11
+AberdeenGrowp
+RDBMS Report Card
+LARGE MULTIUSER
+SYSTEMS SUPPLIERS
+□ DIGITAL - VAX/RDB
+□ HEWLETT-PACKARD - ALLBASE/SQL
+□ TANDEM - NON-STOP SQL
+□ IBM - DB2, QS/400, OS/2 DATA MANAGER
+Aberdeen Notes:
+The large multi-user systems suppliers all provide their own RDBMSs for
+customers that want one-stop-shopping and support. Aberdeen has found
+that Digital’s VAX/Rdb, Hewlett-Packard’s ALLBASE/SQL and Tandem’s
+Non-Stop SQL are all excellent and highly functional RDBMSs. By not
+designing for portability, the hardware suppliers are all able to quickly up­
+grade their functionality to match their independent software vendor
+competition. And with lower marketing and R&D expenses they can
+afford to license their RDBMS software at a fraction of the price of the
+independents.
+IBM also offers RDBMS products on its major hardware platforms. DB2
+is available for the mainframe; QS/400 for the AS/400 and OS/2 Data
+Manager for PC workgroups. Unfortunately, each of IBM’s products is
+worst-in-class. Aberdeen believes that IBM’s weakness in RDBMS
+technology is the major product reason for customer abandonment.
+Aberdeen would recommend to the new CEO of IBM that the one product
+area that he focuses his attention on ASAP should be RDBMS.
+New Technology Impact Series
+Page 12
+AbcrdeenGroMp
+RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+KEY TECHNOLOGIES
+BEST-IN-CLASS
+LACKING
+MISSION CRITICAL
+APPLICATIONS
+ORACLE
+NONE
+PERFORMANCE
+SOFTWARE AG
+INFORMIX
+ORACLE
+NONE
+BUSINESS RULES
+SYBASE
+INGRES
+PROGRESS
+DATA
+INFORMIX
+PROGRESS
+EXTENSIBILITY
+INGRES
+Aberdeen Notes:
+In this section, Aberdeen provides our subscribers with its best-in-class
+RDBMS report card as detailed in the Distributed Open Production Systems
+Buying Guide Service. To give MIS decision makers a true feel for the
+capabilities of the individual RDBMSs, we have divided the report card by
+major functional areas and then rated each RDBMS by proficiency in
+leading-edge requirements.
+New Technology Impact Series
+Page 13
+AberdeenGrowp
+RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+KEY TECHNOLOGIES
+BEST-IN-CLASS
+LACKING
+MISSION CRITICAL
+APPLICATIONS
+ORACLE
+NONE
+PERFORMANCE
+SOFTWARE AG
+INFORMIX
+ORACLE
+NONE
+BUSINESS RULES
+SYBASE
+INGRES
+PROGRESS
+DATA
+EXTENSIBILITY
+INFORMIX
+INGRES
+PROGRESS
+Aberdeen Notes:
+In the area of key technologies, Aberdeen has found that all the RDBMSs
+described in this video can be relied upon to perform mission-critical
+applications.
+None of the RDBMSs lack the ability to meet the performance needs of
+95+% of users applications. However, for those applications in which
+performance is crucial, Software AG, Informix and Oracle lead the pack.
+Aberdeen believes that an RDBMS’s ability to efficiently contain business
+rules is a long-term positive differentiator. In this critical area, Sybase and
+Ingres represent best-in-class, while Progress is lacking competitive
+functionality.
+Looking into the future, and for specialized non-alphanumeric data
+requirements, Aberdeen believes that Informix and Ingres have the best
+structure for handling complex data types. Again, Progress has the least
+capability to provide data extensibility.
+New Technology Impact Series
+Page 14
+AberdeenGrowp
+RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+TOOLKIT
+BEST-IN-CLASS
+LACKING
+REPORT WRITERS
+NONE
+NONE
+4GLs
+SOFTWARE AG
+PROGRESS
+INGRES
+NONE
+CLIENT-SERVER
+APPLICATION
+DEVELOPMENT
+INGRES
+ALL OTHERS
+GUI/DBMS TOOLS
+PROGRESS
+INGRES
+NONE
+TRANSACTION
+PROCESSING
+MONITOR
+DEVELOPMENT
+ORACLE
+INFORMIX
+ALL OTHERS
+UPPER CASE TOOLS
+ORACLE
+NONE
+Aberdeen Notes:
+In the past, many RDBMSs distinguished themselves from others by the
+quality of their report writers. At this time Aberdeen believes that all the
+suppliers’ and third-party add-in report writers have leveled the playing
+field.
+The ability to develop applications quickly with 4GLs is key to bringing
+applications online when users need them. In this important area,
+Software AG, Progress and Ingres all stand out as best-in-class.
+Many IS decision makers are looking for the ability today to develop client­
+server applications with currently available tools. Here, Ingres is the
+obvious best-in-class while all the other suppliers are quite far behind.
+New Technology Impact Series
+Page 15
+AberdcenG'rozzp RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+TOOLKIT
+TOOLS
+BEST-IN-CLASS
+LACKING
+REPORT WRITERS
+NONE
+NONE
+4GLs
+SOFTWARE AG
+PROGRESS
+INGRES
+NONE
+CLIENT-SERVER
+APPLICATION
+DEVELOPMENT
+INGRES
+ALL OTHERS
+GUI/DBMS TOOLS
+PROGRESS
+INGRES
+NONE
+TRANSACTION
+PROCESSING
+MONITOR
+DEVELOPMENT
+ORACLE
+INFORMIX
+ALL OTHERS
+UPPER CASE
+ORACLE
+NONE
+Aberdeen Notes:
+As users demand graphical user interfaces (GUI), the selection of tools is
+often based on to providing development staffs with the capability to create
+the GUI/DBMS interfaces. Here the winners are Progress and Ingres.
+For OLTP applications where there are a large number of users or the
+users are geographically dispersed, IS will frequently require the use of a
+transaction processing monitor. Oracle and Informix provide the best-in-
+class products with this functionality and quite frankly, all the others are
+lacking.
+Finally, the indisputable best-in-class winner for integrated upper CASE
+development tools is Oracle. None of the other suppliers are lacking
+simply because they depend upon robust third-party CASE tool suppliers.
+New Technology Impact Series
+Page 16
+AberdeenCrrowp
+RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+OPEN TECHNOLOGY
+DISTRIBUTED
+TECHNOLOGY
+BEST-IN-CLASS
+LACKING
+SQL GATEWAY
+ORACLE
+PROGRESS
+NON-SQL GATEWAY
+ORACLE
+SYBASE
+PROGRESS
+OPEN SERVER
+ORACLE
+SYBASE
+ALL OTHERS
+OPEN CLIENT
+NONE
+ALL
+OPEN TP MONITOR
+SUPPORT
+NONE
+ALL
+HETEROGENEOUS
+NONE
+ALL
+Aberdeen Notes:
+IS decision makers do not want to trade proprietary hardware for merely
+being locked into a proprietary RDBMS. Therefore, openness has become
+a key buying criteria.
+Surprisingly, Oracle really has committed to and developed open interfaces
+that make it best-in-class in this functional area.
+However, there is still much work to be done before the RDBMSs really
+provide open client, open transaction processing monitor and
+heterogeneous RDBMS support.
+New Technology Impact Series
+Page 17
+AberdeenGrazzp
+RDBMS Report Card
+BEST-IN-CLASS REPORT CARD:
+DISTRIBUTED TECHNOLOGY
+TOOLS
+BEST-IN-CLASS
+LACKING
+DISTRIBUTED
+OPERATIONS
+INGRES
+ORACLE
+INFORMIX
+NONE
+TWO-PHASE
+COMMIT
+NONE
+NONE
+DISTRIBUTED DATA
+DICTIONARY
+NONE
+PROGRESS
+ADMINISTRATIVE
+NONE
+ALL
+Aberdeen Notes:
+Finally, Aberdeen has looked at best-in-class technology for distributed
+RDBMSs. Not surprisingly, Ingres — the innovator in this area, Oracle —
+the biggest, and Informix — the Unix champion, all are rated as best-in-
+class. But all of the products described can provide distributed operations.
+Two-phase commit, the ability to keep two data bases in synchronization
+while maintaining data integrity, has been the hurdle that all the suppliers
+have been working to overcome. At this time, all can provide two-phase
+commit, but no implementation stands out over the other.
+Distributed data dictionary and administrative tools will be necessary to aid
+IS organizations in creating and maintaining massively distributed
+applications. However, this technology is still in the development stage
+and no one supplier has yet gained the lead.
+New Technology Impact Series
+Page 18
+AberdeenGrowp
+RDBMS Report Card
+GUIDELINES FOR
+ACQUIRING AN RDBMS
+□ APPLICATION FOCUS
+□ OPEN, CLIENT-SERVER DESIGN
+□ SUPPLIER SUPPORT AND ROBUSTNESS
+□ PRODUCT TECHNOLOGY AND DIRECTIONS
+Aberdeen Notes:
+Aberdeen recommends to our clients that when they begin the evaluation
+of which RDBMS is proper for their enterprise, they first take a look at the
+specific application requirements. Each of the major RDBMSs described
+in this chapter has a unique application focus that is not replicated by the
+others.
+Next, to lay the ground work for the future, Aberdeen believes the
+RDBMS of choice must match the client-server topology that the IS
+organization is planning to implement in its own enterprise over the next 3-
+to-5 years.
+All of the RDBMS suppliers described in this video are capable of
+supplying excellent support and are healthy, growing firms. It is important
+that this criteria be applied in making a decision as critical to the success
+of the enterprise as is choosing the right RDBMS.
+The skill of IS decision making is so often embodied in the ability to select
+the supplier with the product technology and directions that match the
+requirements of the IS organization. This holds particularly true when
+acquiring an RDBMS because of the long-term impact on the enterprise’s
+ability to compete in an increasingly unforgiving world.
+New Technology Impact Series
+Page 19
+AberdeenGrowp
+RDBMS Report Card
+WRAP-UP COMMENTARY
+□ RDBMS HAS BECOME THE APPLICATION
+PLATFORM FOR MANY
+□ CHANGING THE RULES FROM BUY TO
+DEVELOP/MODIFY APPLICATIONS
+□ NOT ALL RDBMS ARE THE SAME
+□ MAJOR CHANGES IN PLANS VERSUS REALITY
+ON AN ANNUAL BASIS
+Aberdeen Notes:
+Aberdeen believes that shrewd IS executives are changing their decision
+making criteria from being hardware oriented to looking at the appropriate
+enterprise software platform. As a result, an enterprise’s preferred
+RDBMS has now become the platform of choice for application
+development and advancement over time.
+With the ease of application development under a leading RDBMS, IS
+executives are actually writing more applications than at any time since the
+mid-1970s. RDBMSs free enterprises to have business processes
+automated the way they want them without technical hindrances.
+Each supplier has unique strengths that it brings to this marketplace. The
+proper RDBMS for one IS organization is not necessarily the appropriate
+one for another.
+What is both exciting and frustrating about the RDBMS suppliers is that
+they help us dream of what the future can and should be, but in the past
+they have all too often not delivered products on time to meet these
+promises.
+Software is invisible, making acquisition decisions extremely difficult for IS
+executives charged with proving or disproving the various vendors claims
+before working with an RDBMS for some length of time. And in the
+highly competitive RDBMS marketplace, product functionality and
+suppliers’ directions seem to change on an annual basis. But the bottom
+line is that RDBMS technology has provided true competitive advantages
+to those enterprises that have the skill and determination to master it.
+New Technology Impact Series
+Page 20
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | nti-6-rdbms-technology-48f4aa |
+| title | RDBMS Report Card |
+| author | Peter S. Kastner, John Logan, Thomas Willmott |
+| date | 1993-04-01 |
+| type | market-study |
+| subject_domain | relational-database-management |
+| methodology | industry-analysis, technology-assessment, vendor-profiling |
+| source_file | NTI 6 RDBMS technology.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group evaluates the role of relational database management systems (RDBMS) in enterprise computing, covering their use in OLTP and decision support. The study profiles six leading independent RDBMS vendors—Oracle, Ingres, Sybase, Informix, Software AG, and Progress—against seven functional criteria and produces a best-in-class report card. Aberdeen concludes that RDBMS has become the central application platform for enterprises and that Oracle leads the market while IBM's DB2 trails all competitors.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | One of the earliest structured vendor report cards for enterprise RDBMS in the client-server era; shaped buying decisions by IS executives at Fortune 500 enterprises in 1993. |
+| **Relevance** | medium | The vendor landscape has changed dramatically (Ingres absorbed, Sybase acquired by SAP, Informix by IBM) but the evaluation framework and RDBMS functional criteria remain instructive for database selection today. |
+| **Prescience** | high | Oracle's predicted dominance proved accurate; the forecast that RDBMS would become the primary enterprise application platform was fully borne out by the ERP and data-warehouse booms of the mid-to-late 1990s. |
+
+### Prescience Detail
+
+
+**Prediction 1:** RDBMS market divergence prediction
+- **Claimed:** Continued divergence among leading suppliers in approaching client-server marketplace over next 5 years
+- **Year:** 1993
+- **Confidence at time:** high
+
+**Actual Outcome 1:** RDBMS market divergence — outcome
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 2:** Oracle market share trajectory
+- **Claimed:** Business maturity + technical leadership will help Oracle gain ever greater share in 1993
+- **Year:** 1993
+- **Confidence at time:** high
+
+**Actual Outcome 2:** Oracle market share growth — outcome
+- **Result:** [UNVERIFIED]
+- **Confidence:** verified
+- **Notes:** 
+
+
+### Entities Referenced (16)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks 2006 |
+| Peter S. Kastner | person | active |  |
+| John Logan | person | unknown |  |
+| Thomas Willmott | person | unknown |  |
+| Oracle Corporation | company | active |  |
+| Sybase, Inc. | company | acquired | SAP 2010 |
+| Informix Corporation | company | acquired | IBM 2001 |
+| Ingres (ASK Group) | company | acquired | ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021) |
+| ASK Group | company | acquired | Computer Associates (acquired 1994 for $311M) |
+| Software AG | company | active |  |
+| Progress Software Corporation | company | active |  |
+| IBM | company | active |  |
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq 1998 |
+| Hewlett-Packard | company | active | HP Inc./HPE 2015 |
+| Tandem Computers | company | acquired | Compaq 1997 |
+| Transaction Processing Performance Council (TPC) | institution | active |  |
+
+### Technologies Referenced (18)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Relational Database Management System (RDBMS) | application | Various | growth | mature |
+| Structured Query Language (SQL) | standard | ANSI/ISO | mature | mature |
+| Oracle Version 7 | application | Oracle | current | legacy |
+| Sybase System 10 | application | Sybase | announced | legacy |
+| ADABAS | application | Software AG | mature | legacy |
+| Natural (4GL) | language | Software AG | mature | legacy |
+| Online Transaction Processing (OLTP) | framework | Various | mature | mature |
+| IBM DB2 | application | IBM | mature | mature |
+| OS/2 Data Manager | application | IBM | current | obsolete |
+| QS/400 | application | IBM | current | obsolete |
+| VAX/Rdb | application | Digital Equipment Corporation | mature | legacy |
+| ALLBASE/SQL | application | Hewlett-Packard | mature | legacy |
+| NonStop SQL | application | Tandem Computers | mature | mature |
+| Progress 4GL | language | Progress Software | mature | mature |
+| Two-Phase Commit | protocol | Various | emerging | mature |
+| IBM AS/400 | platform | IBM | mature | legacy-supported |
+| Novell NetWare | operating-system | Novell | mature | legacy |
+| IBM MVS | operating-system | IBM | mature | legacy-supported |
+
+### Observation Summary
+
+- Total observations: 30
+- By type: benchmark-result: 8, technology-assessment: 6, competitive-position: 5, market-size: 4, expert-opinion: 3, viability-prediction: 2, actual-outcome: 2

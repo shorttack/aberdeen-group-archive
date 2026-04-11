@@ -1,0 +1,8 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+raid,RAID Disk Storage,storage,multiple,1987-,mature,legacy-supported,ft-mitfor~1-a56a9d,Redundant Array of Independent Disks; mentioned as hardware HA option
+client-server,Client-Server Architecture,framework,multiple,1988-1998,mature,legacy,ft-mitfor~1-a56a9d,Multi-tier client-server cited as driver of increased failure risk
+rdbms,Relational Database Management System,application,multiple,1980-,mature,current,ft-mitfor~1-a56a9d,RDBMS and OLTP software cited as ensuring data recoverability
+oltp,Online Transaction Processing,application,multiple,1980-,mature,current,ft-mitfor~1-a56a9d,OLTP cited as critical workload dependent on HA
+heartbeat-failover,Heartbeat Failover Protocol,protocol,multiple,1990-,mature,legacy-supported,ft-mitfor~1-a56a9d,Classic primary-secondary failover using periodic heartbeat messages
+systems-management-software,Systems Management Software,application,multiple,1990-,emerging,current,ft-mitfor~1-a56a9d,Cited as future source of application-level failover improvement
+desktop-software,Desktop Software,application,multiple,1985-,mature,current,ft-mitfor~1-a56a9d,Noted as still prone to failure in 1995

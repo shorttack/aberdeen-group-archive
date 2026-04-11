@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sequent Servers and Data General Servers",
+  "description": "This IBM-confidential competitive briefing prepared by Aberdeen Group profiles two midrange Unix server vendors \u2014 Sequent Computer Systems and Data General \u2014 for IBM sales force use circa 1994. The document covers product lines, pricing, TPS-A benchmark results, sales messages, and competitive strengths and concerns for each vendor, enabling IBM representatives to position against them in contested accounts.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1994",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

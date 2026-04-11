@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AMD's Gigahertz Equivalency: Confused Customers Accept Bad Science",
+  "description": "Aberdeen Group critiques AMD's Athlon XP Gigahertz Equivalency (GHz-E) marketing strategy, arguing the model-numbering methodology is fundamentally flawed. GHz-E ratings are a snapshot-in-time metric that becomes misleading as benchmarks, operating systems, and Intel processors evolve. The paper documents benchmark disclosure failures (SYSmark 2001 not filed with Bapco), a Media Player bug fix incorporated post-audit, and I/O-inclusive benchmarks misapplied to processor-only comparison. Aberdeen concludes AMD will be forced to abandon GHz-E in 2002 and recommends investigation of SPECcpu 2000 as an alternative framework via the True Performance Initiative.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-02",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

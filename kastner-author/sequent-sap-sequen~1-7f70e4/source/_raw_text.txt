@@ -1,0 +1,26 @@
+The Strategic R/3 Solution for the Enterprise
+
+Sequent Company Confidential
+
+Sequent Benchmarking Philosophy
+- Benchmarks are for Customers' Benefit...Period
+- Offer Base-Line Comparison for Sizing Purposes
+- True Marketing Benefit is a Function of Results...and Configuration
+- SAP R/3 Sequent Benchmark Independently Audited and Certified
+  - iXOS Software - SAP Strategic Partner
+  - Competence Center for SAP R/3 on Windows NT
+
+R/3 2.2d Benchmark Configuration
+Symmetry SE70
+Message & Enqueue Server
+Simulated Client Driven Systems (Supplied User Application Scripts)
+Compaq ProLiant 4000s x2
+FDDI Ring No. 1
+10base T
+
+SD Benchmark Results
+Platform        | Independently Certified? | OS       | SD Benchmark Users | No. Application Servers | RDBMS CPU Utilization
+Sequent SE70    | Yes                      | NT & UNIX| 800                | 20                      | 51%
+HP              | No                       | UNIX     | 900                | -                       | -
+Sun/Cray        | No                       | UNIX     | 800                | -                       | -
+IBM             | No                       | UNIX     | 1000               | -                       | -

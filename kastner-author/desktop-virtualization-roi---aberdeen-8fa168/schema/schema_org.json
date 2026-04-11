@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Measuring the Returns from a Desktop Virtualization Program",
+  "description": "Aberdeen survey of 76 organizations on desktop virtualization deployment outcomes (May 2011). Reports seven operational performance metrics comparing virtualized vs. non-virtualized desktops. Key findings: 20.4% reduction in routine maintenance time, 11.7% cost reduction, 2.9 vs. 6.8 downtime incidents per year, 1.0 vs. 4.3 hour recovery time, 0.9 vs. 2.3 hours data lost per incident. Argues ROI is primarily operational rather than financial. Covers deployment adoption rates by company size, best practices (user role standardization, IT training, executive visibility), and technology enablers (thin/zero clients, BYOD).",
+  "creator": {
+    "@type": "Person",
+    "name": "Dick Csaplar"
+  },
+  "datePublished": "2011-09",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

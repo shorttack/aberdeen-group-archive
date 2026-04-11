@@ -1,0 +1,20 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,company,IT-research,dissolved,Harte-Hanks (acquired 2008),1988-2014,rdbms-for-ibm-powera~1-7a44be,Author; © AberdeenGroup 1996
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1969-,rdbms-for-ibm-powera~1-7a44be,"Group Vice President, Aberdeen Group; author"
+ibm,IBM,company,IT-services,active,,1911-,rdbms-for-ibm-powera~1-7a44be,Client; IBM Power Academy audience; RS/6000 and SP2 platform
+computer-associates,Computer Associates,company,software,renamed,CA Technologies (2006) -> Broadcom (2018),1976-2018,rdbms-for-ibm-powera~1-7a44be,"Second largest software company behind Microsoft; $2.74B revenue; 22.2% net profit margin; database products: IDMS, Datacom, Ingres"
+oracle,Oracle Corporation,company,database,active,,1977-,rdbms-for-ibm-powera~1-7a44be,Largest independent RDBMS supplier; 1994 revenues $2.4B up 40%; on track for $3.6B+ FY1996; market value $18.7B
+informix,Informix,company,database,acquired,IBM (2001),1980-2001,rdbms-for-ibm-powera~1-7a44be,Third-largest RDBMS supplier; 1994 revenues $469M up 33%; last 12 months $568M; market value $4.3B; stock up 207% in 52 weeks
+sybase,Sybase,company,database,acquired,SAP (2010),1984-2010,rdbms-for-ibm-powera~1-7a44be,Second-largest independent RDBMS supplier; 1994 revenues $826M up 71%; YTD growth 51.9%; market value $2.4B; stock dropped 41% April 1995
+microsoft,Microsoft,company,software,active,,1975-,rdbms-for-ibm-powera~1-7a44be,Windows NT Server and SQL Server 6.0; highly aggressive pricing; Intel/Microsoft threat to uniprocessor RS/6000
+progress-software,Progress Software,company,software,active,,1981-,rdbms-for-ibm-powera~1-7a44be,Avoids head-to-head battles with RDBMS leaders; sells via VAR/ISV channel; best fit RS/6000 uniprocessor or small SMP
+red-brick,Red Brick Systems,company,database,acquired,Informix (1999),1988-1999,rdbms-for-ibm-powera~1-7a44be,Specialist in RDBMS for decision support/data warehousing; small struggling company; pre-calculated joins
+software-ag,Software AG,company,software,active,,1969-,rdbms-for-ibm-powera~1-7a44be,Long-established on S/390; Adabas D on RS/6000 is top-selling platform; tied with Informix for #2 RDBMS on SAP applications
+powersoft,Powersoft,company,software,acquired,Sybase (1994),1974-1994,rdbms-for-ibm-powera~1-7a44be,Acquired by Sybase to improve GUI tools; Powersoft 5.0 and PowerBuilder
+legent,Legent Corporation,company,software,acquired,Computer Associates (1995),1989-1995,rdbms-for-ibm-powera~1-7a44be,Acquired by CA; adds systems management focus to CA-Unicenter
+tivoli-systems,Tivoli Systems,company,software,acquired,IBM (1996),1989-1996,rdbms-for-ibm-powera~1-7a44be,Sybase distributed database management on Tivoli framework mentioned
+fujitsu,Fujitsu,company,computing,active,,1935-,rdbms-for-ibm-powera~1-7a44be,Partnership with CA Ingres for first ORDBMS in 1996
+mci,MCI Communications,company,telecommunications,acquired,WorldCom -> Verizon,1968-,rdbms-for-ibm-powera~1-7a44be,Cited as good IBM RS/6000 data warehouse reference story [REVIEW]
+ibi,Information Builders,company,software,active,,1975-,rdbms-for-ibm-powera~1-7a44be,EDA/SQL ties with Informix for open connectivity
+ncr,NCR Corporation,company,computing,active,,1884-,rdbms-for-ibm-powera~1-7a44be,AT&T 3600 cited as platform for Sybase Navigation Server (poor performer)
+sap,SAP,company,enterprise-software,active,,1972-,rdbms-for-ibm-powera~1-7a44be,SAP R/3 mentioned in IBM RS/6000 best positioning section; Software AG Adabas D tied with Informix as #2 RDBMS for SAP apps

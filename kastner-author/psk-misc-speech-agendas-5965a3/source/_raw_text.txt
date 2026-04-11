@@ -1,0 +1,83 @@
+PSK misc speech agendas.pdf
+Source folder: Scanning Memoirs/Aberdeen Group/
+
+=== PRIMARY PRESENTATION: An Overview of Internet Application Development ===
+Blyth User Group - Dallas, June 1996
+Blyth Software User Group - June 1996
+
+Peter S. Kastner, Vice President, Aberdeen Group, Inc.
+One Boston Place, Boston, MA 02108
+617/723/7890
+Copyright Aberdeen Group - 1996
+
+Agenda:
+- What is the Internet?
+- Current Internet tools
+- The Internet today - growth, opportunity, & fear
+- Business on the Internet tomorrow
+
+=== OTHER PRESENTATIONS/AGENDAS IN FILE ===
+
+Major Computing Trends and What They Mean to Your Business
+Peter S. Kastner, Vice President, Aberdeen Group, Inc.
+Agenda:
+- The 100,000 Meter View
+- Customer-Driven Information Systems
+- The Challenge to IT Organizations
+- Conclusions
+- Questions & Answers
+Copyright (c) 1994 Aberdeen Group, Inc. — Computer Associates, Madrid
+
+IBM Power Academy — January 23, 1996
+Power Academy RDBMS Sales Training
+Peter S. Kastner, Group Vice President, Aberdeen Group, Inc.
+© AberdeenGroup 1996
+Computer Associates section content:
+- Second largest software company behind Microsoft — $2.74B
+- 22.2% net profit margin — best in database industry
+- Primary segments: applications, system software, systems management
+- Client-server is now 30% of business; remainder is mainframe
+- Legent acquisition adds systems management focus and pizzazz to CA-Unicenter
+- Database products include IDMS, Datacom, and Ingres
+- More open, more innovative but still selling around negative customer perceptions
+
+Delivering Enterprise Applications for the Next Century
+Peter S. Kastner, Group Vice President, Aberdeen Group, Inc.
+© Aberdeen Group 1995
+Computer Associates Senior Management Forum
+Agenda:
+- Why Enterprise Applications?
+- 3-Tier-Plus Information Architecture
+- The Right Tool for the Right Job
+- Planning for Success in the 21st Century
+- Questions & Answers
+
+Emerging Technologies: Assessing Strategic Benefits
+Vision 2000 - May 1996
+Peter S. Kastner, Group Vice President, Aberdeen Group, Inc.
+Tel: 617/723/7890 Fax: 617/723/7897 www.aberdeen.com
+Copyright Aberdeen Group - 1996
+
+Who Cares If The Computer Breaks?
+MIT Forum — October 1995
+Peter S. Kastner, Vice President, Aberdeen Group, Inc.
+(c) Aberdeen Group 1995
+
+Distributed Systems Management: Chaos or Cosmos?
+Peter S. Kastner, Aberdeen Group
+© Aberdeen Group 7/12/95
+Agenda:
+- Why we aren't happy in our work
+- Why things could go from bad to worse
+- To make a cake you have to break some eggs
+- Yes, there is light at the end of the tunnel
+
+What's The Object Of All This?
+Peter S. Kastner, Vice President, Aberdeen Group, Inc.
+So You Think Objects Are A Panacea?
+- I have a bridge to sell you in Brooklyn
+- You must love to hear salesmen's presentations
+- Remember telling the boss about how good CASE would be?
+- Tried to hire any good C++ programmers lately?
+What Problem Are We Trying To Solve?
+Copyright (c) 1994 Aberdeen Group, Inc. — Computer Associates, New York

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Planning for Emerging Industry-Standard Platforms Computing Opportunities",
+  "description": "Aberdeen white paper produced in collaboration with Intel Corporation analyzing the three critical technology building blocks arriving in 2003-2004: DDR2 memory, IPMI systems management, and serial I/O (PCI Express). Covers Xeon, Itanium 2, new chipsets (Lindenhurst, Nocona, Potomac/Twin Castle), and the transition from parallel PCI-X to PCI Express. Aimed at IT planners for 2004 server acquisitions.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

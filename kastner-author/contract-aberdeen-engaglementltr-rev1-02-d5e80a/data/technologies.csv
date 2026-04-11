@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"serial-ata","Serial ATA (SATA)","storage","Industry standard","2003","emerging","dominant","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Core technology positioned as midline storage tier; Serial Storage in a Box"
+"sas-backplane","SAS/SATA Backplane","hardware","Multiple","2003","emerging","unknown","contract-aberdeen-engaglementltr-rev1-02-d5e80a","SAS/SATA backplane enabling mixed SAS & SATA drive population; key Pools of Storage infrastructure"
+"ilm-decision-tool","ILM Pools of Storage Decision Tool","application","Aberdeen Group","2003","planned","unknown","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Web-based tool using Microsoft IIS and SQL Server 2000; 3-month hosted by Aberdeen"
+"competitive-value-prospect-tool","Competitive Value Prospect Tool","application","Aberdeen Group","2003","planned","unknown","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Microsoft Excel-based tool; requires Excel 2000+; 20 business metric performance areas"
+"microsoft-iis","Microsoft IIS (Internet Information Server)","platform","Microsoft","2003","current","unknown","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Hosting platform for ILM Pools of Storage Decision Tool"
+"microsoft-sql-server","Microsoft SQL Server 2000","application","Microsoft","2003","current","dominant","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Database backend for ILM Decision Tool"
+"microsoft-excel","Microsoft Excel 2000+","application","Microsoft","2003","current","unknown","contract-aberdeen-engaglementltr-rev1-02-d5e80a","Required for Competitive Value Prospect Tool"

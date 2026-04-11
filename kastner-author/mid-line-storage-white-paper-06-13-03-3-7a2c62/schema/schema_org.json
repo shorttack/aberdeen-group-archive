@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mid-Line Disk Storage: Emerging as Significant Cost-Saving Opportunity",
+  "description": "Seminal Aberdeen Group white paper defining \"mid-line storage\" as a new enterprise storage tier between high-performance Fibre Channel/SCSI disks and tape. Based on primary research with 75 storage managers at $1B+ enterprises. Defines four-level storage pyramid with mid-line ATA disks as a distinct tier. Key findings: ATA disks offer 2-8x capacity of FC/SCSI at ~half the cost per GB; 75% of storage buyers moderately or highly likely to purchase mid-line storage; over 60% report data restorations more than once a year; over 80% face backup window problems. Introduces Information Lifecycle Management (ILM) framework. Authored by Peter Kastner and David Hill of Aberdeen Group; sponsored by Maxtor Corporation.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2003-06-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

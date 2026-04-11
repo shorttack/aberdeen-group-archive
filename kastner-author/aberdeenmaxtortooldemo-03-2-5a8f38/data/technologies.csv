@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"adobe-flash-swf","Adobe Flash / Macromedia Flash SWF","application","Macromedia (later Adobe)","2003","current","end-of-life","aberdeenmaxtortooldemo-03-2-5a8f38","Flash 6 compressed SWF binary; format defunct since 2020; formerly dominant for interactive web content"
+"serial-ata","Serial ATA (SATA) / Midline Storage","storage","Maxtor","2003","emerging","dominant","aberdeenmaxtortooldemo-03-2-5a8f38","Subject of the interactive demo; midline tier in enterprise storage hierarchy visualization"

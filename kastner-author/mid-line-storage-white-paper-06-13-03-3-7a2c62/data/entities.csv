@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT Research & Consulting","acquired","Aberdeen (Harte-Hanks)","1988-2010","mid-line-storage-white-paper-06-13-03-3-7a2c62","Author and publisher of white paper"
+"maxtor-corporation","Maxtor Corporation","company","Disk Drive Manufacturing","unknown","unknown","1982-2006","mid-line-storage-white-paper-06-13-03-3-7a2c62","Sponsor of white paper; primary vendor of ATA/SATA midline drives"
+"peter-s-kastner","Peter S. Kastner","person","IT Research & Consulting","active","","","mid-line-storage-white-paper-06-13-03-3-7a2c62","Co-author; Aberdeen EVP; co-inventor of midline storage concept with Maxtor CMO DiFranco"
+"david-hill-aberdeen","David Hill","person","IT Research & Consulting","unknown","unknown","","mid-line-storage-white-paper-06-13-03-3-7a2c62","Co-author; Aberdeen Research Director, Storage; 30+ years IT experience"

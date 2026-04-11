@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Engagement Letter \u2014 Maxtor Midline Storage Research (November 2003)",
+  "description": "Revised engagement letter from Aberdeen Group to Maxtor CMO Stephen DiFranco for the \"Pools of Storage\" / midline storage market outreach program. Covers four phases: strategy workshop, decision tool development, message testing, and press evangelism. Total project cost $114,000 over ~10 weeks. Introduces the four-pool ILM storage lexicon (on-line, mid-line, near-line, off-line) and deliverables including interactive decision tools, white paper, and US/Europe road shows.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2003-11-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

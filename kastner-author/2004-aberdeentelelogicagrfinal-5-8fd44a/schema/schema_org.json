@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Consulting Agreement \u2014 Telelogic (February 2004)",
+  "description": "Standard Aberdeen Group Client Service Agreement with Telelogic (Irvine, CA) for a 12-month Development Solutions program at the Gold service level. Contract dated February 26, 2004 for $25,000. Includes ad hoc phone inquiry (2 hrs/month), quarterly briefings, market visibility services (2 webinars with replay rights), access to publications library, survey research, and IT Access community. Also includes Schedule B: Executive White Paper on UML (Unified Modeling Language), 5-6 pages, based on interviews with 5 Telelogic users. Analyst assigned: Wayne Kernochan (VP Development Solutions). Sales Executive: Jim Schaffer.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2004-02-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

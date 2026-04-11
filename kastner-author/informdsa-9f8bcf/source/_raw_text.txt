@@ -1,0 +1,180 @@
+FILE: InformDSA.pdf
+Study ID: informdsa-9f8bcf
+Title: Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?
+Author: Peter S. Kastner / Aberdeen Group
+Date: ~1995
+Slides: 23
+
+[Slide 1]
+Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?
+AberdeenGroup
+
+[Slide 2]
+AberdeenGroup
+Agenda
+- Facing the downsizing logjam
+- Parallel-scalable relational databases
+- Benefits
+- What to look for
+- Wrap-up
+
+[Slide 3]
+AberdeenGroup
+Downsizing Logjam
+- Driving forces
+- Good old days are gone
+- Information logs create a jam
+- Red summer dresses
+- Why empower users?
+
+[Slide 4]
+AberdeenGroup
+Driving Forces
+- Global competition
+- Technology innovations
+- Social changes
+
+[Slide 5]
+AberdeenGroup
+Good Old Days are Gone
+Customers: Add It / Store It / Sort It / Report It / Capture
+
+[Slide 6]
+AberdeenGroup
+Information Demands Go Through the Roof
+- Online transaction processing
+- Production queries
+- New client-server applications
+- Desktop automation
+- Ad hoc queries and decision support
+3-5x increase in information demand by late 1990s
+
+[Slide 7]
+AberdeenGroup
+Red Summer Dresses
+It's May in Miami. Your store manager has 1,000 red summer dresses that have not sold. Does the company:
+-- Put them on sale?
+-- Ship them to Boston?
+Be careful. The correct decision drops directly to the bottom line!
+
+[Slide 8]
+AberdeenGroup
+Why Empower Users?
+- Personnel downsizing is a reality
+- Computer literacy improving
+- Increased job-level productivity
+- Users are decision makers
+- New decision-making cycle
+
+[Slide 9]
+AberdeenGroup
+Breaking the Logjam
+
+[Slide 10]
+AberdeenGroup
+Technology Goals
+- Excellent cost-performance
+- Scalability
+- Availability
+- Fast response times
+- Open infrastructure
+- Development tools
+- Ease of administration
+
+[Slide 11]
+AberdeenGroup
+Midrange Server Technology Ingredients
+- Lots of microprocessors
+- Lots of memory
+- Fast I/O buses
+- Intelligent controllers
+- Unix-on-steroids
+Competitive Pressures Force Technology Excellence
+
+[Slide 12]
+AberdeenGroup
+Relational Databases are the Biggest Problem
+- Coarse-grain multiprocessor support
+- Administration bottlenecks
+- Poor scaleup in database size
+- Few ways to speed up response times
+
+[Slide 13]
+AberdeenGroup
+Parallelizing the RDBMS Solves the Problem
+- Fine-grain multiprocessor support
+- Parallel administration
+- Dynamic resource scalability
+- Speed-up batch by parallelization
+
+[Slide 14]
+AberdeenGroup
+Fine-grain Multiprocessor Support
+- Harness available CPUs
+- Sort, index, aggregate, scan, merge operations
+- Application scalability: SMP / Clusters / Massively parallel
+
+[Slide 15]
+AberdeenGroup
+Parallel Administration
+- Bulk loading/unloading
+- Backup/recovery
+- Index building
+- Mass updates/deletes
+- Alter/reorganize
+
+[Slide 16]
+AberdeenGroup
+Dynamic Resource Scalability
+- Add processors...
+- Add users while response time remains constant
+- Improve response time while users remain constant
+
+[Slide 17]
+AberdeenGroup
+Speed-up Batch by Parallelization
+Subtask / Task / CPU / Batch Jobs
+
+[Slide 18]
+AberdeenGroup
+Harnessing Today's SMP Servers
+- SMP is today's most prevalent hardware architecture
+- Hardware needs change dynamically
+- Buyers Get: more users on same hardware; faster response times; smaller, lower-cost initial hardware investment
+Parallel-scalable RDBMS is like a free hardware upgrade
+
+[Slide 19]
+AberdeenGroup
+Clusters and Massively-Parallel Processors Tomorrow
+[Diagram: SMP -> Clusters -> Massively Parallel over time]
+
+[Slide 20]
+AberdeenGroup
+What to Look for in Parallel-Scalable RDBMSs
+- Hardware adaptation: SMP, cluster, MPP
+- Parallelization breadth and depth
+- Benchmarks
+- Administration
+- Technology invisibility
+
+[Slide 21]
+AberdeenGroup
+Parallel-Scalable RDBMS Benefits
+- Improved performance can be a hardware-upgrade equivalent
+- Increased robustness, availability
+- Lower-cost configuration flexibility
+- Improved scalability curve
+
+[Slide 22]
+AberdeenGroup
+Aberdeen Conclusions
+- Information-hungry users and applications demand better data management approaches
+- Technology pieces now fit together
+- Parallel-scalable RDBMS technology: Solves real-world problems; Is now being rolled out by RDBMS leaders
+
+[Slide 23]
+AberdeenGroup
+Aberdeen Conclusions
+- Smashing the logjam, empowering users
+- SMP now, clusters and MPP soon
+Parallel-Scalable RDBMS technology: IS should take a hard look now at parallel-scalable solutions

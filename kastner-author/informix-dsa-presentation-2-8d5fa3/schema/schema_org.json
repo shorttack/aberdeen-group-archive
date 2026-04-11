@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Choosing The Right Markets and the Right Partners for Informix",
+  "description": "Aberdeen Group analysis of the optimal markets and channel partners for Informix. Covers industry trends (open systems, RAD, distributed computing, client-server), customer decision-making dynamics, CSS market characteristics with pricing tiers ($500-$150k/module by company size), and detailed channel partner assessments (VARs, ISVs, OEMs, SIs, Big 6). Includes vertical market ratings for telecomm, retail, banking, manufacturing, and state/local government. 67-slide deck used in Informix sales training.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1995-1996",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,281 @@
+FILE: Informix-DSA-presentation-2.pdf
+Study ID: informix-dsa-presentation-2-8d5fa3
+Title: Choosing The Right Markets and the Right Partners for Informix
+Author: Peter S. Kastner / Aberdeen Group
+Date: ~1995-1996
+Slides: 67
+
+[Slide 1]
+Choosing The Right Markets ... and the Right Partners for Informix
+Peter S. Kastner, Vice President, Aberdeen Group, Inc., One Boston Place, Boston, MA 02108
+
+[Slide 2]
+Agenda
+- Industry Trends Drive the Markets
+- The Changing Customer Perspective
+- The Right Channels for the Right Markets
+
+[Slide 3]
+Industry Trends Drive the Markets
+- Architecture, systems, and platforms
+- Database and tools
+- Client-server solutions
+- The Changing Customer Perspective
+- The Right Channels for the Right Markets
+
+[Slide 4]
+The IT Industry Is About Change
+- The IT industry is now in its most rapid growth stage ever
+- User requirements and decision making criteria are continuously changing
+- IT product offerings are new, fresh and advancing
+- The skills required to be successful in the IT industry require continuous updating
+- And the rate of change (and accompanying IS decision maker confusion) is accelerating!
+
+[Slide 5]
+Major Industry Trends
+- Open Systems
+- Increased LOB influence on Information Systems
+- Quantum Leaps in Semiconductors
+- Rapid Application Development (RAD)
+- Distributed Computing
+- Client-Server Feeding Frenzy
+
+[Slide 6]
+Today's Distributed Computing Reality
+Mainframe / (Massively) Parallel / Division, Department, Replicated Branch / PC, Workstation / PC LAN / PC LAN Server
+Production System & Administration / Decision Support System / OLTP at POS / User Desktops and Workgroups
+
+[Slide 7]
+Client-Server Architecture Best Practices
+- As many as 4 tiers of computing: Desktop, branch/region, enterprise
+- Separate tiers for OLTP and DSS: Avoid the "query from hell" impact on OLTP
+- Need for central management; Need for data migration and transformation
+
+[Slide 8]
+Symmetric Multiprocessing
+- Sweet spot in the market: scalability; higher profit margins for hardware & software; highly competitive
+- SMP is alive and well: Was dead at 16 processors; New hardware and software give SMP new life; Will still be maturing in 5 years
+
+[Slide 9]
+Clustering
+- Very mature on Unix
+- Typically used for high availability, particularly in manufacturing and telecommunications
+- Windows NT clustering will emerge in 1996, thrive in 1997 (Compaq + Tandem; DEC)
+- Best applications with Online XPS: High-availability transaction processing; Warehouse scalability after topping out SMP
+
+[Slide 10]
+Parallel-Scalable (i.e., MPP)
+- The heights of scalability -- Needed for large warehouses
+- Driven by IBM with PowerParallel SP (e.g. SP2)
+- AT&T GIS is focused on making profits while retaining customer base -- a problem partner in '96
+- High end OLTP; Server consolidation
+- An attack market for Informix with XPS
+
+[Slide 11]
+Systems & Platforms
+- 1996 is the year of the application server
+- Unix Tier-1 suppliers continue 20%+ growth rates
+- NT Server steadily picks up steam at workgroup/department level
+- Minor changes in desktop hardware & software
+- MPP market is interesting but < 2% share
+- 64 bit becomes hardware & software marketing weapon
+- In short: better, cheaper, faster, smaller (again)
+
+[Slide 12]
+Database Technology Issues - Prioritized List for 1996
+1. Parallel/scalable
+2. Workgroup and personal
+3. Replication
+4. Remote and disconnected users
+5. Point&click administration
+6. Store any data
+7. Performance on NT Server
+
+[Slide 13]
+Development Tools Technology Issues for 1996
+- Note: RDBMS tool growth is slowing
+- Which tool is right?
+- Windows 32-bit apps for Win95 and NT
+- Object development without the learning curve
+- Enterprise-scale, large project development
+- Partitioning: a precursor to distributed objects
+- Elegance: sophistication in hiding complexity
+
+[Slide 14]
+C-S Solutions -- Packaged Applications [section header]
+
+[Slide 15]
+CSS Battle Lines
+- Solution Set -- Fully-Integrated vs. Best-of-Breed
+- Architecture -- Application-centric vs. Database-centric
+- Toolsets -- Home-grown vs. "Industry standard"
+- Channel Mix -- Direct vs. Alternate
+- Midrange Market -- Unix vs. NT
+
+[Slide 16]
+Database-centric or Application-centric
+CSS Supplier Architecture Orientations
+Database-centric (mainly VARs): An application designed for one database; Performance "optimized" for one database; Gateway access to other databases
+Application-centric (mainly ISVs): for a heterogeneous database environment; "optimized" for select number of databases; Native ANSI SQL drivers and Gateways
+Source: AberdeenGroup, 1995
+
+[Slide 17]
+Toolsets are Making a Difference
+Home-Grown: Many suppliers have built their own; Perceived lack of available functionality; Majority are CASE-based (i.e., ABAP from SAP)
+Industry Standard: A growing percentage of newer suppliers; Majority are C, Visual C++ and Visual Basic combos; Few Gupta, Uniface, PowerBuilder; Fewer use RDBMS supplied toolsets
+
+[Slide 18]
+Channel Mix
+Customers want direct -- Suppliers can't afford it
+Direct: Expensive; High SGA-Impact; Major System Suppliers are pulling back
+Indirect: Outward burden-shifting; Low & Mid Customers buy-through channels; Resellers with highly-variable (outdated?) expertise
+
+[Slide 19]
+Who Gets the Midrange Market? - Unix
+- Dominant OS for RISC and open systems suppliers
+- Major variants include HP-UX, IBM's AIX, SVR4, Solaris
+- Enormous historical burden from the academic community. Only in 1990s has Unix emerged as practical and reliable for commercial applications
+- From buyer's standpoint, every Unix is different, often subtly
+
+[Slide 20]
+Who Gets the Midrange Market? - Windows NT Server
+- Fast-growing OS-of-choice for PC LANs, workgroup servers
+- Has the look and feel of Windows; Runs almost all Windows programs
+- Hardened, security, multiprocessors
+- Versions for Intel (90%), Alpha, MIPS, PowerPC
+- In 1995, Windows NT scales to handle department/divisional loads
+- NT price/performance is giving Unix suppliers a real scare
+
+[Slide 21]
+Applications: A New Generation for a New Generation
+- CSS is the catalyst for business reengineering, streamlining, and organizational change
+- CSS has required a generational change in both enterprise management and technology to enable
+- Implementation efforts are a process, not a project, that will never end and must become part of an enterprise's culture
+
+[Slide 22]
+Who are the Client-Server Solutions Market Suppliers?
+- Independent Software Vendors (ISVs)
+- Value-added Resellers (VARs)
+- System Integrators (SIs)
+- "Big 6" Consulting Firms
+
+[Slide 23]
+CSS Alternatives
+- Turnkey: Enterprise CSS Going down market
+- Developed In-house: Luxury few can afford
+- Fully Integrated: Primarily from Manufacturing Suppliers
+- Best of Breed: Financial Suppliers; HR Suppliers; Process Manufacturers
+
+[Slide 24]
+CSS Market Characteristics
+Company Size & Revenue Dictate Requirements:
+- $25 Million and less: $500 to $5,000 per module; PC LAN-based; Primarily VARs
+- $250 Million and less: $10,000 to $75,000 per module; Fortune 1000 -- time-share surrounded by client-server; Mostly direct
+- $251 Million and up: $50,000 to $150,000 per module; Fortune 500 -- legacy leveraged by client-server; Direct
+
+[Slide 25]
+CSS Implementation Timeframes
+Fortune 500: Human Resources 3-6 months; Finance & Accounting 6-18 months; Manufacturing & Distribution 12-36 months
+Fortune 1000: Human Resources 1-3 months; Finance & Accounting 3-12 months; Manufacturing & Distribution 9-24 months
+Small Business: Human Resources 0 months; Finance & Accounting 1-2 months; Manufacturing & Distribution 2-6 months
+
+[Slide 26]
+CSS 1996 Competitive Landscape
+Enterprise: SAP AG; Dun & Bradstreet; Oracle; Hyperion Software (IMRS); PeopleSoft
+Midrange: Lawson Software; Computer Assoc.; Baan International; Great Plains; Computer Associates; Platinum Software; FlexiInternational; SQL Financials; TAGs (Those AS/400 Guys)
+Desktop: Dark Horses
+
+[Slide 27-36]
+[Agenda / Customer Decision-making content]
+
+[Slide 31]
+Top Mgt Issues For IT Executives
+'95 Rank | '94 | Issue
+1 | 2 | Aligning IT & corporate goals
+- | 4 | Instituting cross-functional Information Systems
+3 | - | Organizing & utilizing data
+- | - | Implementing business reengineering
+5 | 9 | Improving the IT human resource
+6 | NR | Enabling change and nimbleness
+7 | 16 | Connecting to customers or suppliers
+8 | - | Creating an information architecture
+- | - | Updating obsolete systems
+10 | - | Improving the system development process
+Source: Computer Sciences Corp.
+
+[Slide 34]
+New System Implementations in the Last Two Years (Source: Deloitte & Touche)
+Accounting: Mainframe 57, Midrange 33, Client-Server 112
+Procurement: Mainframe 42, Midrange 21, Client-Server 210
+Distribution: Mainframe 37, Midrange 39, Client-Server 0 [partial]
+Reporting: Mainframe 45, Midrange 26, Client-Server 0 [partial]
+Total: Mainframe 181, Midrange 119, Client-Server [large]
+
+[Slide 35]
+New System Implementations Planned for the Next Two Years (Source: Deloitte & Touche)
+Accounting: Mainframe 39, Midrange 44, Client-Server 129
+Procurement: Mainframe 30, Midrange 22, Client-Server 84
+Distribution: Mainframe 28, Midrange 31, Client-Server 79
+Reporting: Mainframe 27, Midrange 37, Client-Server 157
+Total: Mainframe 124, Midrange 134, Client-Server 449
+
+[Slide 38]
+The Real Market for Informix
+- Relational Databases: Enterprise, departmental, personal/workgroup; OLTP, decision support
+- Client-server application development tools
+- Technical service and support
+- New! Data retrieval end-user tools -- Stanford Technologies
+
+[Slide 39]
+The Informix Strategic Markets
+- Workgroup solutions
+- Client-server applications
+- Customer-interaction applications
+- End-user applications
+- Custom/enterprise applications
+- Imaging/workflow/document management
+- Internet
+- Data warehousing
+
+[Slide 40]
+Informix Vertical Markets
+- Telecommunications
+- Retail
+- Retail banking
+- Manufacturing
+- State & local government
+
+[Slide 41-48]
+[Channel type descriptions: Direct sales; Distributors; VARs; ISVs; OEMs; Computer hardware manufacturers; SIs; Big 6 accountants]
+
+[Slide 49]
+Channel Critical Success Factors: What Partners Want
+- Leads, leads, leads
+- Programs, programs, programs
+- Tiered, performance-based Cooperative Marketing funding
+- Single-source HQ senior account management
+- Direct access to technical support
+- Local dedicated sales and liaison functions
+- Ease of doing business
+
+[Slide 50]
+Irrelevant Critical Success Factors
+- Price
+- Switch incentives
+- Best technology du jour
+- Moral superiority
+
+[Slide 51]
+Roll Up Your Sleeves!
+1. Assign best channels to Informix strategic markets
+2. Assign Informix strategic markets to chosen vertical markets
+3. Prioritize channels by vertical market
+4. Calculate/weight investment by channel by vertical market
+5. Prioritize vertical markets
+
+[Slide 52]
+Where We Are Going ... $100 [budget allocation exercise]
+
+[Slides 53-67]
+[Market-specific worksheets: Telecomm, Retail, Banking, Manufacturing, State & Local Government]
+Aberdeen Ratings: Telecomm=Highly attractive; Retail=Good with 50% chance rain; Banking=Good over time/fair 1996; Manufacturing=Good short & long term; State&Local=Fair

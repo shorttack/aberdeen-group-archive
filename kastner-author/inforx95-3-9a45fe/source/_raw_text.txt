@@ -1,0 +1,240 @@
+FILE: INFORX95-3.pdf
+Study ID: inforx95-3-9a45fe
+Title: Informix Software Overview
+Author: Peter S. Kastner / Aberdeen Group
+Date: ~1995
+Slides: 38
+
+[Slide 1]
+Informix Software Overview
+Peter S. Kastner, Vice President, Aberdeen Group, Inc., One Boston Place, Boston, MA 02108
+
+[Slide 2]
+Agenda
+- The company
+- Database products & technology
+- Client-server application development tools
+- Services
+- Aberdeen Group Findings
+
+[Slide 3]
+Company Overview
+- A Top-10 Independent Software Vendor
+- Fastest growing independent RDBMS company
+- A respected rival of Oracle and Sybase
+
+[Slide 4]
+Company Characteristics
+- Technology concentration on superior RDBMS and tools
+- Small service and consulting business
+- Key markets are Telecommunications, Retail, Financial Services, Manufacturing, and State/Local Government
+
+[Slide 5]
+Changing Strategy
+- Historical indirect-channel focus: Many have Informix-based apps and don't know it; 1,000s of VAR & ISV partners and applications
+- Recent thrust into Fortune 1000 with direct sales
+
+[Slide 6]
+Financial Overview
+- Five year growth rates
+- Profitability
+
+[Slide 7]
+Databases
+- Standard Engine
+- OnLine: Informix-OnLine; Dynamic Server; Extended Parallel Server; Specialized versions (OnLine/Secure; OnLine/Optical)
+
+[Slide 8]
+Informix SE
+- Designed for distributed, replicated systems (Example: retail stores and bank branches)
+- Was used as small Unix server
+- Now positioned as personal/workgroup RDBMS
+
+[Slide 9]
+Informix SE Characteristics
+- High performance
+- Small memory and disk footprint
+- Very easy to install & maintain
+- Rock-solid operations
+- Low cost
+- Competes with Gupta, Progress, Sybase/Watcom SQL Anywhere
+
+[Slide 10]
+Informix-OnLine
+- Entry-level product for scalable applications (OnLine -> OnLine Dynamic Server -> Extended Parallel Server)
+- Powerful RDBMS for OLTP
+- Includes stored procedures; triggers; referential integrity; document-imaging support (BLOBS)
+- Frequently used for hardware vendor TPC-C OLTP benchmarks as the highest performing midrange-server database
+- Versions for Unix and NT Server
+
+[Slide 11]
+OnLine Dynamic Server
+- Midrange for scalable applications
+- Application compatibility down to OnLine and up to XPS
+- Particularly well-suited for multiprocessor SMP servers: parallel operations; low-level parallelism
+- Well-suited for complex, large OLTP applications
+- Particularly well suited for complex decision support and data warehousing
+
+[Slide 12]
+Extended Parallel Server (XPS)
+- High-end parallel database for the largest OLTP and decision support applications
+- Applications are compatible with OnLine and Dynamic Server
+- Harnesses loosely-coupled clusters and Massively Parallel architectures
+- Is just being delivered in Q4-1995
+- Competes with parallel RDBMS products from IBM DB2/6000, Oracle & Sybase plus AT&T Teradata
+
+[Slide 13]
+Specialized Database Products
+- OnLine Secure Dynamic Server: All features of OnLine Dynamic Server plus government security rating of B1; No extra charge; Government and commercial secure apps including Internet
+- OnLine Optical: Optical juke box support for read-only image BLOBs; Eliminates overhead of managing large image files in the RDBMS
+
+[Slide 14]
+Introducing Informix Parallel Technology [transition]
+- Dynamic Server
+- Extended Parallel Server
+
+[Slide 15]
+Design Objectives
+- Hardware architecture & platform independence
+- Transparency to applications
+- Core internal parallelism
+- Scalability and performance
+- Maximum on-line manageability
+
+[Slide 16-18]
+Transparent to Applications / Core Internal Parallelism / Dramatic Performance Increases
+[Graphics referenced]
+
+[Slide 19]
+Maximum On-line Manageability
+- Objective: avoid database downtime
+- On-line dynamic reconfiguration: Virtual processors; Degree of parallelism; Memory management
+- On-line parallel backup & recoverability
+- Tables, partitions, full or incremental
+
+[Slide 20]
+Extended Parallel Server
+- Addresses performance, scalability, and availability issues for: Complex transaction processing or decision support; Very large databases (> 100 GB); Database failover
+- Architecture extends DSA to shared-nothing environment of clusters or MPP
+- Ideal where fast response times are critical or where scalability is required but difficult to plan: data warehouses; client-server applications
+
+[Slide 21]
+XPS Architecture [graphic]
+
+[Slide 22]
+RDBMS Database Summary
+- An advanced architecture for desktop to massively parallel applications
+- Coherent product-line differentiation between OnLine versions
+- Informix Advantages: Infinite scalability in a shared-nothing architecture; Parallel SQL functionality is excellent on SMP; High availability; Full RDBMS functionality
+
+[Slide 23]
+Database Middleware [transition]
+- Replication
+- Connectivity
+
+[Slide 24]
+Replication
+- Hot-site table-level failover
+- Synchronous and asynchronous transfers
+- Partition-level, table, or database
+- SQL-Select-level replication
+- Update anywhere
+
+[Slide 25]
+Connectivity
+- Enterprise gateway
+- DCE/Net
+- Gateway to IBM using DRDA
+- XA support for OLTP monitors
+
+[Slide 26]
+Informix in Tools
+- $150M of $470M in 1994
+- Over 500,000 licenses sold
+- 75% of partner apps use tools
+- Target developers, end users and power users
+
+[Slide 27]
+Application Development [transition]
+- NewEra C-S application development
+- Informix 4GL
+- Informix-SQL suite
+- CLI & ESQL
+
+[Slide 28]
+Informix NewEra
+- Next-generation environment
+- Client-server oriented
+- Full object model
+- Scalable and high performance
+
+[Slide 29]
+NewEra Features
+- OO database application language
+- Visual programming environment
+- Framework promotes reuse
+- Team programming support
+- Open connectivity
+
+[Slide 30]
+Informix 4GL
+- Powerful database application development tool
+- Creates character-based and GUI-lite applications
+- Suite provides a complete toolkit for rapid application development
+
+[Slide 31]
+Informix SQL Suite
+- RDBMS development tool suite
+- Includes: Schema editor; Menu builder; SQL editor; Forms builder; Report writer
+
+[Slide 32]
+CLI and ESQL
+- CLI - a low-level API
+- ESQL - embedding SQL in 3GL programs
+
+[Slide 33]
+End-User Access - NewEra Viewpoint
+- Query & report writing
+- Graphical SQL access
+- Includes forms, reports & queries
+- Aimed at end and power users
+
+[Slide 34]
+End-User Access - NewEra Viewpoint Pro
+- Adds to NewEra ViewPoint
+- Application development for power users and IS
+- SuperViews - a powerful tool
+
+[Slide 35]
+Informix Services
+- Maintenance & support
+- Education
+- Limited consulting services
+- Third-party partnerships
+
+[Slide 36]
+Aberdeen Group Findings
+- A secret success
+- Strong database architecture enables parallelism
+- Advanced development tools led by NewEra
+
+[Slide 37]
+Aberdeen Group Findings
+- Adequate replication & connectivity
+- Thousands of applications
+- Growth rate indicates increasing market share
+- A company focused on database and development tools
+
+[Slide 38]
+[End slide]
+
+Supplementary data extracted from JUNGLE-1-5 (same training deck):
+- Informix 1994 revenue: $469M (up 33% from 1993); trailing 12mo: $568M
+- Informix market cap: $4.3B (up from $1.5B); stock up 207% in 52 weeks (source: Software Magazine and Business Week, as of 7/29/95)
+- Informix ranked third-largest RDBMS supplier
+- Informix scalability: good to 8 processors SMP; many TPC-Cs
+- Informix replication: behind; better next year
+- NewEra: only challenged by Ingres OPENROAD
+- Informix services: almost none
+- Informix key weakness: late with desktop/workgroup; behind in replication; no NetWare; no consulting
+- Informix key strengths: best parallel-scalable; price-performance leader; per-user pricing leader

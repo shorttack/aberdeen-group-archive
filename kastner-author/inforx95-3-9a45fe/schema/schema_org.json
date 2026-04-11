@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Informix Software Overview",
+  "description": "Aberdeen Group overview of Informix Software for sales training. Covers company profile (Top-10 ISV, fastest-growing RDBMS company), full product portfolio (SE, OnLine, Dynamic Server, XPS, specialized variants), parallel DSA technology architecture, database middleware (replication, connectivity), tools revenue ($150M of $470M in 1994, 500K+ licenses), application development tools (NewEra, 4GL, SQL Suite, CLI/ESQL), end-user access, and services. 38-slide deck used in Informix sales training.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1995",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

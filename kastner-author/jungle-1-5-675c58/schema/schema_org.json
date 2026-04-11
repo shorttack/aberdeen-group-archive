@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Welcome to the RDBMS Jungle \u2014 Chapters 1-5",
+  "description": "Core market-dynamics training deck for Informix sales reps, chapters 1-5. Covers: overall database market size ($20B WW, $5.5B RDBMS); market characteristics (9 RDBMS licenses per 10 multiuser servers); supplier profiles for Sybase, Computer Associates/Ingres, Informix, Oracle, IBM, and Microsoft; hardware partnership dynamics; RDBMS technology rating framework (scalability, distributed data, open access, development tools, other technologies, supplier solutions); and competitive weaknesses for each major RDBMS vendor. 64-slide deck \u2014 richest single document in the set.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1995",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

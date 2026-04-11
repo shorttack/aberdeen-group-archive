@@ -1,0 +1,638 @@
+# Welcome to the RDBMS Jungle — Chapters 1-5
+
+> Archived from: JUNGLE-1-5.pdf
+> Original publication date: 1995
+> Author: Peter S. Kastner / Aberdeen Group
+
+---
+
+## Original Document Text
+
+FILE: JUNGLE-1-5.pdf
+Study ID: jungle-1-5-675c58
+Title: Welcome to the RDBMS Jungle — Chapters 1-5
+Author: Peter S. Kastner / Aberdeen Group
+Copyright: AberdeenGroup 1995
+Slides: 64
+
+[Slide 1]
+Database Market Agenda
+- Market Size
+- Market Characteristics
+- Suppliers
+- Buyer Needs
+
+[Slide 2]
+Database Market Size
+- Overall WW market around $20 billion
+- RDBMS market is largest segment at $5.5 billion
+- Biggest market US, second Europe, fastest growing Japan (3rd largest) and Latin America
+- Unix-server DBMS revenue now greater than mainframe revenues
+- Major RDBMS suppliers are growing by 30-70% per year in revenue
+- Pure decision support not yet over $2 billion. Bulk is OLTP and product query
+
+[Slide 3]
+Market Characteristics
+- An increasing number of sales for application server or database server to carry out one competitive-advantage application, linked to other servers
+  - Hardware used to drive the sale, but increasingly DBMS or application drives the sale
+- Focus on RDBMS submarket (where the action is)
+  - RDBMS submarket is exceptionally fast-growing (50+% per year)
+  - Desktop tools to access RDBMS are another attractive market
+  - Significantly, Aberdeen research sees 9 RDBMS licenses for every 10 commercial multiuser servers
+
+[Slide 4]
+Sybase Inc.
+- Total 1994 corporate revenue $826 million, a 71% increase from 1993
+- YTD Sales growth rate 51.9%
+- Market Value $2.4 billion (July 28 1995)
+- 41% Stock price drop -- first week April (source: Software Magazine and Business Week)
+
+[Slide 5]
+Sybase
+- Key product -- SQL Server/System 10
+- Started with medium-scale & departmental, now scaling to enterprise
+  - "Leading-edge" reputation
+  - Good replication but lags in parallel-scalable, scalability poor beyond 4 processors
+  - Strong fixation on competition with Oracle
+- New decision support, workgroup products positioned against Oracle
+- Advertising, sales force head-to-head focus
+
+[Slide 6]
+Sybase
+- Second-largest RDBMS supplier
+  - Past 60-80% growth rate
+  - Powersoft acquisition beefs up tools
+  - Mostly direct sales, few ISVs and apps
+- The future (System 11 is not just another release):
+  - Add parallel-scalable technology, shared-less
+  - "Leading-edge" distributed database management on Tivoli framework
+  - Merge Navigation Server data warehousing, sell IQ Accelerator for warehousing
+
+[Slide 7]
+Sybase 1995 Themes
+- "We will scale with System 11 enhancements"
+- Fast growth, Wall Street superstar company -- down but not out
+- "Replication -- we have it; you need it"
+- Powersoft acquisition fills the tools gap
+- Navigation Server -- yes, we do parallel MPP
+- IQ Accelerator -- yes, we do complex decision support
+- System 11 will fix our performance problems
+
+[Slide 8]
+Computer Associates
+- Second largest software company behind Microsoft -- $2.74B
+- 22.2% net profit margin -- best in database industry
+- Primary segments are applications, system software, systems management
+- Client-server is now 30% of business; remainder is mainframe
+- Legent acquisition adds more systems management focus and pizzazz to CA-Unicenter
+- Database products include IDMS, Datacom, and Ingres
+- More open, more innovative but still selling around negative customer perceptions
+
+[Slide 9]
+CA-Ingres 1995 Themes
+- We haven't died! But we were acquired by Computer Associates
+- $30,000,000 marketing campaign to revitalize Ingres
+- OPENROAD -- New Windows 4GL version competes head on with Informix NewEra for best-in-class OO/GUI tool
+- Open Ingres: RDBMS engine update
+- Leader in Replication
+- Excellent connectivity into IBM MVS applications
+- Higher product quality, service offerings
+- Ingres should not be ignored, but CA with Ingres is not much of a market factor today outside the installed base
+
+[Slide 10]
+Informix
+- Total 1994 corporate revenue equals $469 million, up 33% from 1993; last 12 months at $568 million
+- Market value $4.3 billion, up from $1.5B in 1994
+- Share prices up 207% in last 52 weeks! (source: Software Magazine and Business Week) (share price as of 7/29/95)
+
+[Slide 11]
+Informix
+- Key Product -- Informix-OnLine DSA 7.1
+- Started with medium-scale & departmental, now scaling to enterprise with version 8, XPS
+  - Focus on Unix, indirect channels
+  - Leader in parallel-scalable (Dynamic Server Architecture) but lags in replication
+  - New toolset version (NewEra) with second-generation technology
+- Third-largest RDBMS supplier
+  - Growth rate has accelerated in past year
+  - Expanding high-end direct sales with success of DSA in Unix/OLTP and data warehousing as a hot-box
+
+[Slide 12]
+Informix
+- Service and support receive good marks from users but is limited in scope
+- The future:
+  - Improve parallel-scalable technology with clusters and MPP in just-announced Version 8
+  - Add competitive replication technology
+  - Achieve better sales for top-notch NewEra OO-GUI development tool
+- Informix is more focused on core RDBMS & Tools than competition
+
+[Slide 13]
+Informix 1995 Themes
+- OnLine 7.1 for mass-market SMP servers
+- OnLine 8.0 rollout for MPP, clusters
+- NewEra OO tool - Motif, Browser, Partitioning
+- Workgroup/OnLine for NT, Personal/SE
+- Replication
+- Systems Management
+- Gateways via DRDA
+
+[Slide 14]
+Oracle
+- 1994 total corporate revenue equals 2.4 billion, up 40% from 1993
+- Market value $18.7 billion, up 100% from 1994
+- Stock up 134% in last 52 weeks (source: Software Magazine and Business Week)
+
+[Slide 15]
+Oracle
+- Key Product -- ORACLE 7.1
+- Focus on high end
+  - Used to sell "runs on any platform"
+  - Now sells "broadest functionality, one-stop shopping"
+  - Supports both parallel-scalable and replication technology
+  - New multimedia, text, desktop, and workgroup server products
+- Largest RDBMS supplier
+  - On track for $3.6+ billion in revenues in fiscal 1996
+  - Direct sales, but increasing indirect selling
+
+[Slide 16]
+Oracle
+- New focus on services
+  - Vertical-industry services (telecomm, oil/gas, etc.)
+  - Sales reps carry a consulting quota
+- The future:
+  - Object-oriented technology in Oracle 8
+  - Competition with Microsoft and CA for overall IT market share
+  - Multimedia set-top boxes and Hollywood
+
+[Slide 17]
+Oracle 1995 Themes
+- Enterprise Scalability, one-stop-shopping
+- Applications business
+- You need consulting ... we have it
+- Workgroup 2000: Personal, WG, wireless, easy to install/administer
+- Multimedia platform-of-choice (e.g., US West)
+- Oracle 8 -- Sorry, not until 1996...
+  - but 7.2 and 7.3 offer better performance, scalability
+
+[Slide 18]
+IBM
+- Key Product -- DB2
+- Largest overall DBMS supplier, but hard to tell revenues
+  - Focus on mainframe, but increasingly on AS/400 minicomputer, RS/6000 server platform, even DB2/6000 on HP & Sun
+  - Invented relational technology but slow to get it out of labs
+- New-found competitiveness in DB2
+  - Parallel/scalable PQS and SP2
+  - Triggers and stored procedures
+  - Strong but proprietary replication technology
+  - Lags in parallel-scalable but not by many months
+
+[Slide 19]
+IBM
+- Typically a bundled sell with other IBM products, especially hardware and services
+  - Extensive, worldwide service includes outsourcing and system integration
+- The future for DB2:
+  - Add more non-IBM platforms
+  - Match/surpass the independents in RDBMS technology
+  - Scale from high-end SMP, clusters to MPP SP2
+  - Better coordination between DB2 versions
+
+[Slide 20]
+IBM 1995 Themes
+- Continue roll-out of RS/6000 SMP servers "the second generation"
+- Build towards "best in class" image with best price/performance
+- Move the SP2 into general availability for mission-critical applications, particularly data warehousing
+- DB2/6000 version 2 brings new levels of functionality
+- Innovative query tools for data analysis and complex decision support
+
+[Slide 21]
+Microsoft
+- Key Products -- SQL Server 6.0, FoxPro, Microsoft Excel
+- Focus on desktop, but Windows NT Server moves Microsoft into the department and enterprise
+- FoxPro and Excel are mass-market desktop only
+- SQL Server 6.0
+  - Highly aggressive pricing
+  - Derived from Sybase but now diverged ...
+  - All-Microsoft code developed by a world-class team
+  - Excellent performance on DEC Alpha @ 2,800 tpm_C
+
+[Slide 22]
+Microsoft
+- Largest DBMS supplier in unit sales
+  - Overall growth 25%
+  - Mostly indirect channels, but increasing direct sales
+- Service and support less extensive than other suppliers. Few people & programs.
+- The future:
+  - Catch up with RDBMS technology
+  - Scale towards the glass house
+  - Grow market share
+  - Add support channels
+
+[Slide 23]
+Partnering With an RDBMS Sales Rep: A View From a Hardware Supplier's Perspective
+Which comes first? The hardware or the RDBMS?
+
+[Slide 24]
+Why Talk About Hardware Partners?
+- They introduce you to new business
+- They can keep you away from new business
+- They have a different perspective on the sale
+- They have to eat too!
+
+[Slide 25]
+Rules of Thumb
+- Everybody is as nervous as a ninth grader at a school dance
+- Software Reps do not believe neutrality spiel either
+- Most reps will only wire an RDBMS if they have to, and late in the game at best
+- Hardware Rep thinks RDBMS rep will switch hardware on him/her
+- Hardware Rep will usually partner with a VAR Rep over Direct RDBMS Rep
+- Account control perception is highly selective
+
+[Slide 26]
+Notes From a Hardware Rep -- Informix Software
+- An easy-to-do-business-with company
+- Modest enterprise selling experience, but viewed by many as the hottest RDBMS on the street today
+- A good porting partner
+- One of the best comp plans on the street for OEM sales
+- Very little channel conflict except on biggest deals
+- Thousands of VAR resellers for solution sells
+- Little support/consulting/SI -- looks to 3rd parties or hardware supplier for this
+
+[Slide 27]
+Notes From a Hardware Rep -- Oracle
+- Hardware rep is typically pleased if Oracle wants to partner
+- Regardless of contract type, Oracle Rep always wants/takes/steals the deal ...
+- This can still be good for the hardware rep!
+- Large reference base
+- Very fast growing VAR base
+- A call-brand supplier to many large buying organizations
+
+[Slide 28]
+Notes From a Hardware Rep -- CA-Ingres
+- Sales usually result when customer specifies Ingres
+- Ingres' poor visibility in U.S. would stop most Hardware Reps from leading with Ingres
+- Ingres leans towards a technology-superiority sell
+  - Excellent at complex applications
+  - First rate development tool in OPENROAD
+- Large VAR base
+- What does the customer think about CA?
+
+[Slide 29]
+Notes From a Hardware Rep -- Sybase
+- Can you spell SUN MICROSYSTEMS? Sybase has blatantly proposed switching customers/prospects to Sun
+- Sun used to represent 40% of Sybase sales -- now about 25%
+  - Best (only?) working version
+  - Long-term local relationships with Sun reps
+- Sales of Sun now neck-and-neck with RS/6000 and HP 9000
+- Sybase is biased towards tier-1, top-5 hardware platforms, including RS/6000, HP 9000, Sun, Digital
+- Sybase is always focused on what Oracle is doing, never on the hardware platform
+
+[Slide 30]
+Notes From a Hardware Rep -- IBM DB2/6000
+- A Sun or HP hardware rep would never ever suggest IBM's DB2/6000, even though it runs on their platforms
+- HP and Sun reps know nothing about DB2/6000 on their platforms
+- Customers will drive DB2/6000 selection here
+- Aberdeen is unaware of any significant sales motions for DB2 off of IBM hardware platforms
+- An IBM rep selling DB2/6000 has a compelling story, particularly to a largely IBM installed-base account
+
+[Slide 31]
+Weighting RDBMS Technology
+- Not all features should be weighted the same
+- Every competitor touts their best features
+- Customers are different; Customers become confused
+
+[Slide 32]
+RDBMS Common Features (No competitive advantage here!)
+Architecture; 4GL, report writer, DBA tools; ANSI SQL; Referential integrity; 20 GB-plus databases; Stored procedures & triggers; Two-phase commit; High-performance OLTP; Multiprocessing; Distributed query support; Development tools; Object-oriented; Special data types; Mission-critical customers; Replication
+
+[Slide 33-34]
+User's Top-10 Database Selection Outcomes (attributed to Ken Leech)
+10. Requirements will change
+9. Loser will take CIO to lunch
+8. Every bug is your fault
+7. Non-selected DB would have been faster
+6. Vendor who loses won't speak to you again
+5. Tool you like isn't chosen by management
+4. Reviews will score your choice a 2/5
+3. New benchmark will show your DB is half the speed
+2. Second choice will announce perfect new release
+1. You'll find the perfect DBMS but can't afford it
+
+[Slide 35]
+Aberdeen's 1995 RDBMS Themes
+- Replication for distributing data
+- Parallel processing RDBMSs bring scale-up or speed-up
+- Middleware (gateways, open clients, servers, transparency) drive enterprise connectivity
+- Higher-powered tools -- objects everywhere
+- Enterprise administration
+- Personal/workgroup databases
+
+[Slide 36]
+Aberdeen's 1995 RDBMS Rating Categories
+- Scalability
+- Distributed Data
+- Open Data Access
+- Development Tools
+- Other Technology
+- End-User Solutions
+
+[Slide 37]
+Scalability
+Can I write an application once and have it grow or shrink to fit changing enterprise needs?
+- Non-parallel performance
+- Parallel performance
+- Large databases
+- High-availability features
+
+[Slide 38]
+Scalability Notes
+- CA Ingres: Modest scalability; no MPP
+- IBM DB2 for AIX: Competitive but not leading on SMP; Only compatible SMP and MPP story except AT&T
+- Informix: Good scalability to 8 processors on SMP. Many TPC-Cs. Soon on SP2 and other loosely-coupled HW with version 8
+- Microsoft: Modest scalability; no MPP; good on Alpha
+- Oracle: Good scalability story from desktop to SP2 & ES/9000; No TPC-C benchmarks until July 1995 -- Hot stuff
+- Sybase: Poor scalability beyond 4 processors. Good up to 4. Navigation Server: Poor high-end MPP on AT&T 3600
+
+[Slide 39]
+Scalability: Informix Position
+- Informix is strong, probably Best-In-Class
+- With proven parallel performance and > 100GB databases, Informix could lead
+- Best-in-class non-parallel performance
+- Parallel performance looks good
+- So-so database size experience. Real world data-warehousing requires 100s of GB. Recent experience helps (i.e., MCI)
+- DSA brings good high-availability rating
+- Trend: Very good and getting better
+
+[Slide 40]
+Distributed Technology
+Can I move computing and data out to workers and still be able to effectively administer it?
+- Tightly-coupled data -- two-phase commit
+- Loosely-coupled data -- replication
+- Simultaneous-update data -- peer-peer
+- Distributed administration
+
+[Slide 41]
+Distributed Technology Notes
+- CA Ingres: Best functionality
+- IBM DB2 for AIX: Good async replication in Data Propagator, but no peer-peer replication
+- Informix: Behind; better next year
+- Microsoft: Limited replication in new SQL Server 6 for NT
+- Oracle: Good replication including peer-peer
+- Sybase: OK asynchronous replication; no peer-peer
+
+[Slide 42]
+Distributed: Informix Position
+- Two-phase commit OK, but competition is moving forward
+- Behind in loosely-coupled (replication). Likely to be a follower.
+- CA-Ingres leads with peer-peer replication
+- No one is outstanding in distributed administration. Informix deal with Tivoli makes sense; good positioning
+- Trend: wait for better replication functionality in 1996
+
+[Slide 43]
+Open Technology
+- Standards; Gateways, open clients; Open OLTP monitors; Access to other supplier's RDBMSs
+
+[Slide 44]
+Open Technology Notes
+- CA Ingres: good mainframe gateways
+- IBM DB2 for AIX: full 2-way DRDA, ODBC; limited non-IBM gateways
+- Informix: DRDA client; limited gateways, but IBI ties. Improving APIs
+- Microsoft: great for PC apps; OLE; ODBC inventor
+- Oracle: DRDA client; broad gateways. Improving APIs.
+- Sybase: Open Client & Open Server appeal to 3GL bigots. Best gateway breadth. Overall, most flexible.
+
+[Slide 45]
+Open: Informix Position
+- Excellent in security, SQL standards (Government markets)
+- Behind in gateways to other RDBMSs -- but IBI with EDA/SQL is a happy partner
+- Good Open OLTP offering, support
+- Sybase OmniSQL Gateway to non-RDBMS is best multi-supplier distributed technology
+- Conclusion: Sybase has best story for open access. Sounds good, but not too many are actually doing this today.
+- Trend: IBI relationship helps, particularly at mainframe heritage sites
+
+[Slide 46]
+Distributed Tool Technology
+- Distributed application support; Open technology; Programmer technology; Other development technology
+
+[Slide 47]
+Development Tool Notes
+- CA Ingres: OpenROAD is most mature OO CADE
+- IBM DB2 for AIX: No comparable tools for OO CADE. More limited ISV selection than Informix, Oracle and Sybase
+- Informix: New Era is maturing as OO CADE
+- Microsoft: MFC as a 4GL is excellent for MS environment
+- Oracle: clunky tools only work on Oracle. Oracle Objects is interesting but low-end
+- Sybase: Powersoft & Watcom are among market leaders
+
+[Slide 48]
+Development: Informix Position
+- NewEra is only challenged by Ingres OpenROAD
+- Sybase 3GL-bias wins in open tool contest...
+- But Informix 4GL & tools are more productive, an advantage.
+- Oracle has integrated CASE. It's not best-in-class.
+- Conclusion: Informix is best at high-productivity, bread-and-butter commercial applications. NewEra modernizes look and feel, adds objects, is the wave of the future.
+- Trend: NewEra is an attack product. Push class libraries.
+
+[Slide 49]
+Other Technologies
+- Business-rules processing; BLOBS, multimedia; Non-standard data types; Object extensions
+
+[Slide 50]
+Other Technology Notes
+- CA Ingres: partnership with Fujitsu for 1st ORDBMS
+- IBM DB2 for AIX: fast moving DB2 into searchable audio, video, user-defined data types.
+- Informix: not much today
+- Microsoft: OLE, futures
+- Oracle: Most aggressive in multimedia marketing; objects by 1997; serious about video on demand
+- Sybase: more multimedia/OO talk than action
+
+[Slide 51]
+Other: Informix Position
+- Few differences on business rules .. techie diversion
+- Competition is gaining in BLOBS.
+- Oracle makes a big deal of Media Server
+- Sybase will make a big deal of cross-platform Gain Momentum despite resource costs
+- CA-Ingres talks about object extensions (spatial geometry)
+
+[Slide 52]
+Supplier Solutions
+- Applications; Third-party support; Consulting & services
+
+[Slide 53]
+Supplier Added-Value Notes
+- CA Ingres: almost no services; many ISVs plus CA apps
+- IBM DB2 for AIX: world-class services; growing ISVs with many apps
+- Informix: almost no services; many ISV apps; never own apps
+- Microsoft: no services; most apps are for workgroups
+- Oracle: lots of services; many ISVs; Oracle applications
+- Sybase: fewer services; fewer ISVs; no applications
+
+[Slide 54]
+Nobody's Perfect — An Informix eyes-only look at the competition
+
+[Slide 55]
+CA-Ingres Weaknesses
+- No Ingres people remain -- but no customers have defected
+- CA sales force does not understand the Unix world
+- Product quality was poor, getting better
+- RDBMS architecture is at On-Line 6.0 level -- no parallel
+- OPENROAD left customers with character 4GL behind -- totally different, incompatible environment
+
+[Slide 56]
+IBM Weaknesses
+- Essentially a new player with SMP RS/6000's and DB2/6000 v2 -- Old limits are still remembered
+- Must shatter perceptions of limited scalability
+- Limited cross-platform, cross-OS
+- So-so performance with most TPC-C tests
+- Still caution by "open" zealots
+- Organizational issues hindered growth in servers
+
+[Slide 57]
+Oracle Weaknesses
+- RDBMS engine looks dated (but release 7.3 in 1996 already has excellent TPC-Cs)
+- Informix can win on architecture and demonstrated performance
+- Deal-driven, not partnership driven
+- No 2nd generation client-server ala NewEra
+- Unfocused: Hollywood multimedia, applications, TV set-tops
+- Service/consulting drive makes ISV partnering tough
+- Informix is the RDBMS specialist to Oracle the generalist
+
+[Slide 58]
+Sybase Weaknesses
+- 1980s architecture runs out of steam -- they need System 11 now
+- Poor scalability in SMP, database size = departmental RDBMS
+- Poor tools drove Powersoft acquisition
+- Navigation Server tops OnLine 7.1 scalability, but is platform-limited to the NCR 3600, an OLTP dog
+- Very few application solution partners & solutions
+- A North American phenomena, hardly seen elsewhere
+- Digesting Powersoft will take time
+- Over-reaching sales tactics turn off customers
+- Sybase looks vulnerable despite awesome growth & momentum
+
+[Slide 59-60]
+Where is Informix? / Informix Weaknesses
+- Late with desktop & workgroup database/tools
+- NewEra 2.0 makes the product more useable
+- Behind in replication and will remain so
+- Slow to build direct sales force, marketing ... missed growth opportunities over past two years
+- No-consulting policy slowed large enterprise growth
+- No NetWare story
+
+[Slide 61]
+Where is Informix Best Positioned Today?
+- Excellent 4GL tools, better yet with NewEra
+- Workgroup, Department, SME Vertical Dominance
+- Great scalability, proven benchmark performance
+- Excellent ease of use, installation, deployment
+- Marvelous set of applications, partners
+- Positioned for enterprise-scale excellence
+- Price-performance leader
+- Per-user pricing leader
+- Easy to do business with
+
+[Slide 62]
+Where will Informix be in a year?
+- Excellent OO/GUI/4GL tools in NewEra
+- A leader in practical, parallel RDBMS with OnLine 8.0
+- Customer-proven 100-GB+ scalability
+- Adequate replication/distributed data
+- Better-integrated tools for developers, users
+- Viewed as a viable challenger for most RDBMS requirements
+- Stock will be priced at $36
+
+[Slide 63]
+Informix Elevator Story
+
+[Slide 64]
+Welcome to the RDBMS Jungle
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | jungle-1-5-675c58 |
+| title | Welcome to the RDBMS Jungle — Chapters 1-5 |
+| author | Peter S. Kastner / Aberdeen Group |
+| date | 1995 |
+| type | consulting-report |
+| subject_domain | RDBMS market dynamics; competitive analysis; vendor profiles; buyer needs |
+| methodology | expert-analysis; market-research; competitive-intelligence |
+| source_file | JUNGLE-1-5.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Core market-dynamics training deck for Informix sales reps, chapters 1-5. Covers: overall database market size ($20B WW, $5.5B RDBMS); market characteristics (9 RDBMS licenses per 10 multiuser servers); supplier profiles for Sybase, Computer Associates/Ingres, Informix, Oracle, IBM, and Microsoft; hardware partnership dynamics; RDBMS technology rating framework (scalability, distributed data, open access, development tools, other technologies, supplier solutions); and competitive weaknesses for each major RDBMS vendor. 64-slide deck — richest single document in the set.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | HIGH | Most comprehensive RDBMS market analysis document in the training set; provides complete vendor-financial, competitive, and technology landscape for the mid-1990s RDBMS market. |
+| **Relevance** | medium | Historical market snapshot of critical RDBMS transition period; vendor financials, rankings, and technology assessments are primary-source data for 1995 database market research. |
+| **Prescience** | very-high | Extremely prescient: correctly identified Microsoft SQL Server as future threat; predicted Oracle's unfocused multimedia strategy as weakness; correctly forecast Sybase's architectural stagnation; Informix's replication gap proved fatal in long run; parallel-scalable RDBMS predictions broadly correct. |
+
+### Prescience Detail
+
+
+**Prediction 1:** sybase_system11_bet
+- **Claimed:** Sybase needs System 11 now to fix performance problems
+- **Year:** 1995
+- **Confidence at time:** high
+
+**Actual Outcome 1:** sybase_system11_bet
+- **Result:** unknown
+- **Confidence:** medium
+- **Notes:** Placeholder: Sybase System 11 actual impact
+
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2010) |
+| Peter S. Kastner | person | active |  |
+| Oracle Corporation | company | active |  |
+| Sybase | company | acquired | SAP (2010) |
+| Computer Associates (CA) | company | renamed | CA Technologies/Broadcom |
+| International Business Machines Corporation | company | active |  |
+| Microsoft Corporation | company | active |  |
+| Sun Microsystems | company | acquired | Oracle (2010) |
+| Sequent Computer Systems | company | acquired | IBM (1999) |
+| Tandem Computers | company | acquired | Compaq (1997) |
+
+### Technologies Referenced (22)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Relational Database (RDBMS) | application | various | dominant | dominant |
+| Online Transaction Processing | application | various | dominant | current |
+| Decision Support / Business Intelligence | application | various | growing | dominant |
+| Oracle 7.x | application | Oracle | dominant | legacy |
+| Oracle 8 | application | Oracle | pre-release | legacy |
+| Sybase SQL Server / System 11 | application | Sybase | major | legacy |
+| Sybase Navigation Server | application | Sybase | niche | legacy |
+| Sybase IQ Accelerator | application | Sybase | niche | legacy |
+| Sybase PowerBuilder | application | Sybase | dominant | legacy |
+| IBM DB2 | application | IBM | major | dominant |
+| IBM SP2 | platform | IBM | growing | legacy |
+| IBM RS/6000 SMP | platform | IBM | growing | legacy |
+| Microsoft SQL Server | application | Microsoft | growing | dominant |
+| CA-Ingres (OpenIngres) | application | Computer Associates | declining | end-of-life |
+| TPC-C Benchmark | standard | TPC | dominant | legacy |
+| UNIX (various) | platform | various | dominant | current |
+| IBM AIX | platform | IBM | mature | current |
+| HP 9000 | platform | HP | mature | legacy |
+| Sun Solaris | operating-system | Sun | dominant | legacy |
+| Oracle Parallel Server | application | Oracle | growing | legacy-superseded |
+| Object-Relational DBMS (ORDBMS) | application | various | emerging | current |
+| Digital VAX/OpenVMS | platform | DEC | declining | legacy |
+
+### Observation Summary
+
+- Total observations: 40
+- By type: competitive-position: 19, market-growth: 5, market-share: 4, expert-opinion: 4, market-size: 3, strategic-assessment: 2, viability-prediction: 1, actual-outcome: 1, benchmark-result: 1

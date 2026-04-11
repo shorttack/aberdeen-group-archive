@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"rdbms","Relational Database (RDBMS)","application","various","1970s-present","dominant","dominant","informdsa-9f8bcf","Central subject of downsizing-logjam analysis"
+"oltp","Online Transaction Processing","application","various","1980s-present","dominant","current","informdsa-9f8bcf","Key workload driving parallel-scalable RDBMS demand"
+"decision-support","Decision Support / Business Intelligence","application","various","1985-present","growing","dominant","informdsa-9f8bcf","Ad-hoc queries driving info demand"
+"unix-server","Unix Enterprise Servers","platform","various","1980s-present","dominant","legacy","informdsa-9f8bcf","Primary deployment platform for parallel-scalable RDBMS"
+"client-server","Client-Server Architecture","framework","various","1988-present","dominant","legacy","informdsa-9f8bcf","Architecture requiring parallel-scalable database backends"

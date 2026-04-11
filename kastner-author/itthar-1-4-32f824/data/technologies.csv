@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-cairo","Microsoft Cairo","operating-system","Microsoft","1993-discontinued","vaporware","discontinued","itthar-1-4-32f824","Not shipping at time of study; noted but not recommended"
+"novell-netware","Novell NetWare","operating-system","Novell","1983-2000","mature","legacy","itthar-1-4-32f824","Recommended as dual workgroup OS with NT/AS"
+"ibm-mvs","IBM MVS","operating-system","IBM","1960s-present","mature","evolved","itthar-1-4-32f824","IBM OS/2 Warp; little ISV support"
+"client-server","Client-Server Architecture","framework","various","1988-present","dominant","legacy","itthar-1-4-32f824","Target architecture for platform selection"

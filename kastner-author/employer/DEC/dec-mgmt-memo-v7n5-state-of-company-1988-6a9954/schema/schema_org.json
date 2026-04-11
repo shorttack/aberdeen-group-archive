@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "MGMT MEMO Volume 7, Number 5 \u2014 Digital's State of the Company Meeting",
+  "description": "Summaries of nine executive speeches delivered at Digital Equipment Corporation's May 5, 1988 State of the Company Meeting in Merrimack, NH, attended by over 600 senior managers. The theme was 'One Company, One Strategy, One Message \u2014 Leading the Way to Enterprise-Wide Computing,' with major sections on desktop/workstation strategy, transaction processing, DECwindows, database systems, and VAXcluster high availability. This document captures DEC at its revenue peak (~$11B, 120K+ employees) articulating a bold enterprise strategy that proved partially prescient and partially fatal.",
+  "creator": {
+    "@type": "Person",
+    "name": "Digital Equipment Corporation (Richard Seltzer, editor)"
+  },
+  "datePublished": "1988-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

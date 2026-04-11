@@ -1,0 +1,14 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ent-01,Aberdeen Group,analyst-firm,IT-research,acquired,Harte-Hanks Communications,1988–2014,cab199-1-2-0cb163,Independent IT analyst firm based in Boston; author of this study. Acquired by Harte-Hanks in 2001; brand retired 2014.
+ent-02,Computer Associates International,vendor,enterprise-software,active-renamed,CA Technologies / Broadcom,1976–present,cab199-1-2-0cb163,Commissioning client for this training deck; publisher of CA-Ingres. Rebranded to CA Technologies in 2006; acquired by Broadcom in 2018.
+ent-03,IBM,vendor,enterprise-IT,active,N/A (active),1911–present,cab199-1-2-0cb163,Publisher of DB2 product family including DB2 for MVS and DB2/6000 (AIX).
+ent-04,Informix Corporation,vendor,RDBMS,acquired,IBM,1980–2001,cab199-1-2-0cb163,Developer of Informix OnLine and Informix Universal Server. Acquired by IBM in 2001.
+ent-05,Oracle Corporation,vendor,enterprise-software,active,N/A (active),1977–present,cab199-1-2-0cb163,Developer of Oracle RDBMS (versions 7.x and 8); dominant market position in 1997.
+ent-06,Sybase Inc.,vendor,RDBMS,acquired,SAP,1984–2010,cab199-1-2-0cb163,Developer of Sybase SQL Server / System 11 and Adaptive Server; acquired by SAP in 2010.
+ent-07,Microsoft Corporation,vendor,enterprise-software,active,N/A (active),1975–present,cab199-1-2-0cb163,Developer of SQL Server 6.5 / SQL Server 7; positioned for Windows NT enterprise market.
+ent-08,Illustra Information Technologies,vendor,ORDBMS,acquired,Informix,1992–1996,cab199-1-2-0cb163,Developer of DataBlade extensible ORDBMS; acquired by Informix in 1996; technology integrated into Informix Universal Server.
+ent-09,Powersoft Corporation,vendor,development-tools,acquired,Sybase,1974–1995,cab199-1-2-0cb163,Developer of PowerBuilder client-server tool; acquired by Sybase in 1995 to address Sybase's GUI tools weakness.
+ent-10,Stanford Technology Group,vendor,OLAP-tools,acquired,Informix,1995–1996,cab199-1-2-0cb163,Relational OLAP (ROLAP) vendor acquired by Informix to gain OLAP functionality.
+ent-11,NCR Corporation,vendor,hardware,active,N/A (active),1884–present,cab199-1-2-0cb163,Hardware platform partner; referenced for NCR 3600 (Teradata) and SP2-class MPP systems.
+ent-12,Hewlett-Packard,vendor,hardware,active,N/A (active),1939–present,cab199-1-2-0cb163,HP 9000 platform referenced in RDBMS revenue share table.
+ent-13,Sun Microsystems,vendor,hardware,acquired,Oracle,1982–2010,cab199-1-2-0cb163,Sun SPARC platform referenced in RDBMS revenue share table; acquired by Oracle in 2010.

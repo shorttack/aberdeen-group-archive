@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group's Analysis of The AS/400e in 1998: Changing The Game \u2014 Striving To Change Perceptions",
+  "description": "A February 1998 Aberdeen Group presentation by Chief Research Officer Peter S. Kastner analyzing the competitive position of the IBM AS/400e platform against NT Server and UNIX. The study benchmarks the AS/400e Model S40 at 25,150 tpmC and assesses its advantages and weaknesses across scalability, TCO, e-business readiness, and ISV/distributor ecosystem gaps. It concludes that the AS/400e is technically credible but faces significant perception and channel challenges heading into 1998.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (with John Logan)"
+  },
+  "datePublished": "1998-02-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

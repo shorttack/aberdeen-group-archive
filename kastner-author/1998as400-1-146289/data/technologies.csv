@@ -1,0 +1,25 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+tech-001,IBM AS/400e,midrange-server,IBM,1997-2000,growth,discontinued,1998as400-1-146289,"Refreshed AS/400 line announced August 19 1997; Model S40 was flagship 12-processor unit. Renamed iSeries in 2000, then System i, now IBM i on Power."
+tech-002,AS/400e Model S40,midrange-server,IBM,1997-2000,growth,discontinued,1998as400-1-146289,12-processor flagship server; achieved 25
+tech-003,Windows NT Server,server-operating-system,Microsoft,1993-2000,growth,discontinued,1998as400-1-146289,Primary competitive platform; succeeded by Windows 2000 Server (2000)
+tech-004,UNIX (generic),server-operating-system,various,1969-present,mature,unknown [REVIEW],1998as400-1-146289,Collective reference to UNIX variants running on SGI/Sun/HP/Fujitsu/DEC servers analyzed
+tech-005,DB2/400,relational-database,IBM,1988-present,growth,active,1998as400-1-146289,Integrated relational database on AS/400; cited as recently upgraded capability
+tech-006,Lotus Domino,collaboration-middleware,Lotus/IBM,1996-present,growth,legacy,1998as400-1-146289,Cited as key e-business application newly supported on AS/400e
+tech-007,Lotus Notes,collaboration-client,Lotus/IBM,1989-present,growth,legacy,1998as400-1-146289,Cited as replacement for OfficeVision on AS/400 platform
+tech-008,Java (JAVA),programming-language,Sun Microsystems,1995-present,emerging,active,1998as400-1-146289,Mentioned as new application development capability on AS/400e for e-business
+tech-009,Netscape SuiteSpot,web-server-suite,Netscape,1996-1999,growth,discontinued,1998as400-1-146289,Web server and e-business application suite cited as AS/400e application
+tech-010,TCP/IP,networking-protocol,IETF,1983-present,mature,active,1998as400-1-146289,IBM cited as having greatly improved TCP/IP support on AS/400 in recent years
+tech-011,Integrated PC Server (IPS),server-blade,IBM,1994-2000,mature,discontinued,1998as400-1-146289,AS/400 feature supporting Novell NetWare / OS/2 Warp Server / Windows NT Server within the AS/400 chassis
+tech-012,OS/2 Warp Server,server-operating-system,IBM,1994-2000,declining,discontinued,1998as400-1-146289,IBM's PC server OS; supported within AS/400 Integrated PC Server
+tech-013,Novell NetWare,network-operating-system,Novell,1983-2009,mature,discontinued,1998as400-1-146289,Network OS supported within AS/400 Integrated PC Server
+tech-014,OfficeVision,office-productivity,IBM,1989-1998,declining,discontinued,1998as400-1-146289,IBM's legacy office productivity suite on AS/400; being replaced by Lotus Notes as of study date
+tech-015,SGI Origin2000,midrange-server,SGI,1996-2002,growth,discontinued,1998as400-1-146289,28-processor configuration achieved 25
+tech-016,Sun UltraEnterprise 6000,midrange-server,Sun Microsystems,1996-2000,growth,discontinued,1998as400-1-146289,24-processor configuration achieved 31
+tech-017,Fujitsu Granpower,midrange-server,Fujitsu,1995-2000,mature,discontinued,1998as400-1-146289,18-processor configuration achieved 34
+tech-018,HP 9000 V2200,midrange-server,Hewlett-Packard,1996-2001,mature,discontinued,1998as400-1-146289,16-processor configuration achieved 52
+tech-019,DEC AlphaServer 8400 5/635,midrange-server,DEC,1994-1998,mature,discontinued,1998as400-1-146289,10-processor configuration achieved 24
+tech-020,ALR Revolution,server,ALR,1996-1997,declining,discontinued,1998as400-1-146289,6-processor NT server; highest-performing NT Server at 13
+tech-021,Data Warehousing / Data Mining,analytics-platform,various,1990s-present,emerging,active,1998as400-1-146289,Cited as new application category IBM was enabling on AS/400e; strategic growth area
+tech-022,ERP (Enterprise Resource Planning),business-application,various,1990s-present,growth,active,1998as400-1-146289,IBM investing in pre-installed pre-tuned ERP on AS/400e as of study date
+tech-023,Supply Chain Management software,business-application,various,1990s-present,growth,active,1998as400-1-146289,Listed as a target new application category for AS/400e ISV recruitment in 1998
+tech-024,Customer Interaction Software (CRM),business-application,various,1990s-present,emerging,active,1998as400-1-146289,Listed as a target application category for AS/400e; precursor to full CRM category

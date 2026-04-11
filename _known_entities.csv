@@ -274,3 +274,29 @@ tricord-systems,Tricord Systems,company,IT-hardware,dissolved,Filed bankruptcy m
 uniface,Uniface,company,software,acquired,Compuware (acquired 1994); then Rocket Software acquired Compuware's Uniface unit,1986-present,Middleware leader for distributed client-server applications,nti-12-client-server-goals-1993-15a519
 auspex-systems,Auspex Systems,company,IT-hardware,acquired,Network Appliance (NetApp) acquired 2003,1987-1997,Network file server; listed among middleware/RDBMS leaders,nti-12-client-server-goals-1993-15a519
 smartstar,SmartStar Corporation,company,software,dissolved,,1990s,SmartStar Vision toolset; layered software dev framework,nti-12-client-server-goals-1993-15a519
+ent-001,IBM,corporation,information-technology,active,[DEFERRED],1911-present,Manufacturer of the AS/400e platform; primary subject of analysis,"1998as400-1-146289,marathon-d186ab"
+ent-002,Aberdeen Group,analyst-firm,market-research,acquired,Harte-Hanks (2001) then merged into other entities,1988-2014,Publisher of this study; Peter S. Kastner was Chief Research Officer,"1998as400-1-146289,marathon-d186ab"
+ent-003,Microsoft,corporation,information-technology,active,[DEFERRED],1975-present,Maker of Windows NT Server; primary competitive platform analyzed,"1998as400-1-146289,marathon-d186ab"
+ent-004,SGI (Silicon Graphics Inc.),corporation,information-technology,defunct,Rackable Systems (2009),1982-2009,Referenced for 28-processor Origin2000 TPC-C benchmark of 25,"1998as400-1-146289,marathon-d186ab"
+ent-005,Sun Microsystems,corporation,information-technology,acquired,Oracle Corporation (2010),1982-2010,Referenced for 24-processor UltraEnterprise 6000 benchmark of 31,"1998as400-1-146289,marathon-d186ab"
+ent-006,Fujitsu,corporation,information-technology,active,[DEFERRED],1935-present,Referenced for 18-processor Granpower benchmark of 34,"1998as400-1-146289,marathon-d186ab"
+ent-007,Hewlett-Packard,corporation,information-technology,active,HP Inc. / HPE (2015 split),1939-present,Referenced for 16-processor HP 9000 V2200 benchmark of 52,"1998as400-1-146289,marathon-d186ab"
+ent-008,Digital Equipment Corporation (DEC),corporation,information-technology,acquired,Compaq (1998) then HP (2002),1957-1998,Referenced for 10-processor AlphaServer 8400 5/635 benchmark of 24,"1998as400-1-146289,marathon-d186ab"
+ent-009,ALR (Advanced Logic Research),corporation,information-technology,acquired,Gateway 2000 (1997),1984-1997,Referenced for highest-performing NT Server — 6-processor ALR Revolution at 13,1998as400-1-146289
+ent-010,Compaq,corporation,information-technology,acquired,Hewlett-Packard (2002),1982-2002,Cited as having 38,1998as400-1-146289
+ent-011,Lotus Development Corporation,corporation,information-technology,acquired,IBM (1995),1982-2007,Maker of Lotus Domino and Lotus Notes; referenced as key e-business and groupware applications on AS/400e,1998as400-1-146289
+ent-012,Netscape Communications,corporation,information-technology,acquired,AOL (1999),1994-2008,Referenced for Netscape SuiteSpot as an e-business application supported on AS/400e,1998as400-1-146289
+ent-013,Novell,corporation,information-technology,acquired,Attachmate (2011),1983-2014,Referenced for NetWare support within AS/400 Integrated PC Server feature,1998as400-1-146289
+ent-01,Aberdeen Group,analyst-firm,IT-research,acquired,Harte-Hanks Communications,1988–2014,Independent IT analyst firm based in Boston; author of this study. Acquired by Harte-Hanks in 2001; brand retired 2014.,cab199-1-2-0cb163
+ent-02,Computer Associates International,vendor,enterprise-software,active-renamed,CA Technologies / Broadcom,1976–present,Commissioning client for this training deck; publisher of CA-Ingres. Rebranded to CA Technologies in 2006; acquired by Broadcom in 2018.,cab199-1-2-0cb163
+ent-03,IBM,vendor,enterprise-IT,active,[DEFERRED],1911–present,Publisher of DB2 product family including DB2 for MVS and DB2/6000 (AIX).,cab199-1-2-0cb163
+ent-04,Informix Corporation,vendor,RDBMS,acquired,IBM,1980–2001,Developer of Informix OnLine and Informix Universal Server. Acquired by IBM in 2001.,cab199-1-2-0cb163
+ent-05,Oracle Corporation,vendor,enterprise-software,active,[DEFERRED],1977–present,Developer of Oracle RDBMS (versions 7.x and 8); dominant market position in 1997.,cab199-1-2-0cb163
+ent-06,Sybase Inc.,vendor,RDBMS,acquired,SAP,1984–2010,Developer of Sybase SQL Server / System 11 and Adaptive Server; acquired by SAP in 2010.,cab199-1-2-0cb163
+ent-07,Microsoft Corporation,vendor,enterprise-software,active,[DEFERRED],1975–present,Developer of SQL Server 6.5 / SQL Server 7; positioned for Windows NT enterprise market.,cab199-1-2-0cb163
+ent-08,Illustra Information Technologies,vendor,ORDBMS,acquired,Informix,1992–1996,Developer of DataBlade extensible ORDBMS; acquired by Informix in 1996; technology integrated into Informix Universal Server.,cab199-1-2-0cb163
+ent-09,Powersoft Corporation,vendor,development-tools,acquired,Sybase,1974–1995,Developer of PowerBuilder client-server tool; acquired by Sybase in 1995 to address Sybase's GUI tools weakness.,cab199-1-2-0cb163
+ent-10,Stanford Technology Group,vendor,OLAP-tools,acquired,Informix,1995–1996,Relational OLAP (ROLAP) vendor acquired by Informix to gain OLAP functionality.,cab199-1-2-0cb163
+ent-11,NCR Corporation,vendor,hardware,active,[DEFERRED],1884–present,Hardware platform partner; referenced for NCR 3600 (Teradata) and SP2-class MPP systems.,cab199-1-2-0cb163
+ent-12,Hewlett-Packard,vendor,hardware,active,[DEFERRED],1939–present,HP 9000 platform referenced in RDBMS revenue share table.,cab199-1-2-0cb163
+ent-13,Sun Microsystems,vendor,hardware,acquired,Oracle,1982–2010,Sun SPARC platform referenced in RDBMS revenue share table; acquired by Oracle in 2010.,cab199-1-2-0cb163

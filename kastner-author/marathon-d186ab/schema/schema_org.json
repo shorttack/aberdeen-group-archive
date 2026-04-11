@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "How I'd Succeed as a Marathon Sales Exec",
+  "description": "A 14-slide sales strategy presentation delivered by Aberdeen Group Chief Research Officer Peter S. Kastner to Marathon Technologies in April 1998. The deck argues that the NT high-availability market is ripe for Marathon's Endurance product, that named competitors (Stratus, Tandem/Compaq, Microsoft Cluster Server) are weak or misaligned, and that the real obstacle is customer inertia. It prescribes a go-to-market plan based on FUD around downtime costs, alliance-building with Microsoft field sales and Big Six systems integrators, and vertical market focus across retail, healthcare, public safety, utilities, financial services, and ISPs.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1998-04-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

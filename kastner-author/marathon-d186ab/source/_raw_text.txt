@@ -1,0 +1,85 @@
+How I’d Succeed as a Marathon 
+Sales Exec
+Peter S. Kastner
+Chief Research Officer
+Aberdeen Group, Inc.
+www.aberdeen.com
+(617) 723-7890
+
+Agenda
+The time is right
+The competition is weak
+The market needs Endurance
+A game plan
+
+The Time is Right
+IT spending growth represents 25% of all U.S. 
+economic growth
+Major renovation of enterprise applications
+Microsoft NT Server gains market share
+Mission-critical becomes the norm
+High availability is affordable
+
+The Competition is Weak
+
+What Competition?
+
+What Competition?
+Stratus Radio
+Tandem/Compaq
+Microsoft Cluster Server
+
+The Real Competition is Inertia
+“Hey, everybody knows NT Server fails.  
+We’ll live with it.”
+Intel/NT are not known for high availability
+Who’s Marathon?
+“Nah, it can’t possibly work.” objections
+
+Selling Solution: FUD
+Build the level of availability paranoia
+Play the 99.9% availability arithmetic game
+The “cost of downtime” story
+“Marathon saves customer from catastrophe” 
+stories
+“A crash could cost you your job.”
+
+The Market Needs Endurance
+Enterprise Resource Planning becomes Supply 
+Chain Management
+Sales & Marketing get automated with CIS
+Help Desks: higher service at lower costs
+
+The Market Needs Endurance
+Internet serving and ISPs
+Electronic Commerce
+Messaging
+The usual mission-critical OLTP applications
+
+Pete’s Game Plan
+Buy Microsofties a latte.  Demo with them.
+Take the systems integrators to a power lunch
+Big Six
+Regionals
+ERP national support SI’s
+Industrial equipment manufacturers
+
+Pete’s Game Plan
+Target selected vertical markets and their ISVs
+Retail in-store servers, logistics
+Health care
+Public safety
+Command and control
+Utilities deregulation
+Financial services
+Transportation
+
+Pete’s Game Plan
+Local ISPs (try Yahoo)
+Microsoft BackOffice VARs
+Give local general-business speeches … 
+schmooze at the country club
+IT is everywhere!
+
+Questions?
+

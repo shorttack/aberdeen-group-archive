@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+ent-001,Marathon Technologies,company,fault-tolerant computing / high availability,acquired,NEC (acquired 2002),1992-2002,marathon-d186ab,Maker of the Endurance product for NT high availability; the client audience for this presentation. Acquired by NEC in 2002.
+ent-002,Aberdeen Group,company,IT market research / analyst firm,acquired,Harte-Hanks (then Aberdeen),1988-2014,marathon-d186ab,Firm employing Kastner as Chief Research Officer; source of the analyst credibility underpinning the presentation.
+ent-003,Stratus Technologies,company,fault-tolerant computing,active (as of 2024),N/A (active),1980-present,marathon-d186ab,Named competitor; positioned as 'Stratus Radio' in deck — likely a jab at its high price-point / niche status. Known for ftServer and continuous availability systems.
+ent-004,Tandem Computers,company,fault-tolerant computing,acquired,Compaq (1997) then HP (2002),1974-1997,marathon-d186ab,Named competitor; already acquired by Compaq at time of presentation (1997). Kastner lists as 'Tandem/Compaq'.
+ent-005,Compaq Computer,company,PC / server hardware,acquired,Hewlett-Packard (2002),1982-2002,marathon-d186ab,Listed as part of 'Tandem/Compaq' competitive entity following Tandem acquisition in 1997.
+ent-006,Microsoft,company,software / operating systems,active,N/A (active),1975-present,marathon-d186ab,Named competitor via Microsoft Cluster Server (MSCS); also identified as key channel ally (Microsofties / BackOffice VARs).
+ent-007,Yahoo,company,internet / media,active,N/A (active),1995-present,marathon-d186ab,Cited as an example ISP prospect for Marathon sales outreach ('try Yahoo').
+ent-008,Intel,company,semiconductor / microprocessor,active,N/A (active),1968-present,marathon-d186ab,Mentioned in context: 'Intel/NT are not known for high availability' — framing the credibility gap Marathon must overcome.

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RDBMS Market Overview \u2014 Computer Associates Sales Training",
+  "description": "A 31-slide competitive intelligence training deck prepared by Aberdeen Group analyst Peter S. Kastner for Computer Associates' sales force. Covers 1997\u20131998 RDBMS strategies and competitive positioning for IBM DB2, Informix, Oracle, Sybase, Microsoft SQL Server, and CA-Ingres. Includes Aberdeen Group's vendor rating framework across scalability, distributed technology, open technology, development tools, and supplier solutions. Contains dedicated weakness assessments for each vendor, hardware platform revenue share data, and strategic guidance for selling CA-Ingres against incumbent rivals.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1997-11-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -507,3 +507,57 @@ sunsoft-doe,SunSoft Distributed Objects Everywhere (D.O.E.),framework,Sun Micros
 mpp,Massively Parallel Processing (MPP),hardware,Various,1985-present,emerging,mature,Loosely coupled; dozens-hundreds of processors each with own OS/memory; requires advanced programming,nti-12-client-server-goals-1993-15a519
 lotus-notes,Lotus Notes,application,Lotus Development,1989-present,growth,legacy-supported,New departmental computing metaphor; message-passing LAN technology; evolving to sophisticated multi-user apps,nti-12-client-server-goals-1993-15a519
 spx-ipx,Novell SPX/IPX,protocol,Novell,1983-present,mature,obsolete,Dominant transport protocol for NetWare LANs in client-server implementations,nti-12-client-server-goals-1993-15a519
+tech-001,IBM AS/400e,midrange-server,IBM,1997-2000,growth,discontinued,"Refreshed AS/400 line announced August 19 1997; Model S40 was flagship 12-processor unit. Renamed iSeries in 2000, then System i, now IBM i on Power.","1998as400-1-146289,marathon-d186ab"
+tech-002,AS/400e Model S40,midrange-server,IBM,1997-2000,growth,discontinued,12-processor flagship server; achieved 25,"1998as400-1-146289,marathon-d186ab"
+tech-003,Windows NT Server,server-operating-system,Microsoft,1993-2000,growth,discontinued,Primary competitive platform; succeeded by Windows 2000 Server (2000),"1998as400-1-146289,marathon-d186ab"
+tech-004,UNIX (generic),server-operating-system,various,1969-present,mature,active,Collective reference to UNIX variants running on SGI/Sun/HP/Fujitsu/DEC servers analyzed,"1998as400-1-146289,marathon-d186ab"
+tech-005,DB2/400,relational-database,IBM,1988-present,growth,active,Integrated relational database on AS/400; cited as recently upgraded capability,"1998as400-1-146289,marathon-d186ab"
+tech-006,Lotus Domino,collaboration-middleware,Lotus/IBM,1996-present,growth,legacy,Cited as key e-business application newly supported on AS/400e,"1998as400-1-146289,marathon-d186ab"
+tech-007,Lotus Notes,collaboration-client,Lotus/IBM,1989-present,growth,legacy,Cited as replacement for OfficeVision on AS/400 platform,"1998as400-1-146289,marathon-d186ab"
+tech-008,Java (JAVA),programming-language,Sun Microsystems,1995-present,emerging,active,Mentioned as new application development capability on AS/400e for e-business,"1998as400-1-146289,marathon-d186ab"
+tech-009,Netscape SuiteSpot,web-server-suite,Netscape,1996-1999,growth,discontinued,Web server and e-business application suite cited as AS/400e application,"1998as400-1-146289,marathon-d186ab"
+tech-010,TCP/IP,networking-protocol,IETF,1983-present,mature,active,IBM cited as having greatly improved TCP/IP support on AS/400 in recent years,"1998as400-1-146289,marathon-d186ab"
+tech-011,Integrated PC Server (IPS),server-blade,IBM,1994-2000,mature,discontinued,AS/400 feature supporting Novell NetWare / OS/2 Warp Server / Windows NT Server within the AS/400 chassis,"1998as400-1-146289,marathon-d186ab"
+tech-012,OS/2 Warp Server,server-operating-system,IBM,1994-2000,declining,discontinued,IBM's PC server OS; supported within AS/400 Integrated PC Server,"1998as400-1-146289,marathon-d186ab"
+tech-013,Novell NetWare,network-operating-system,Novell,1983-2009,mature,discontinued,Network OS supported within AS/400 Integrated PC Server,"1998as400-1-146289,marathon-d186ab"
+tech-014,OfficeVision,office-productivity,IBM,1989-1998,declining,discontinued,IBM's legacy office productivity suite on AS/400; being replaced by Lotus Notes as of study date,1998as400-1-146289
+tech-015,SGI Origin2000,midrange-server,SGI,1996-2002,growth,discontinued,28-processor configuration achieved 25,1998as400-1-146289
+tech-016,Sun UltraEnterprise 6000,midrange-server,Sun Microsystems,1996-2000,growth,discontinued,24-processor configuration achieved 31,1998as400-1-146289
+tech-017,Fujitsu Granpower,midrange-server,Fujitsu,1995-2000,mature,discontinued,18-processor configuration achieved 34,1998as400-1-146289
+tech-018,HP 9000 V2200,midrange-server,Hewlett-Packard,1996-2001,mature,discontinued,16-processor configuration achieved 52,1998as400-1-146289
+tech-019,DEC AlphaServer 8400 5/635,midrange-server,DEC,1994-1998,mature,discontinued,10-processor configuration achieved 24,1998as400-1-146289
+tech-020,ALR Revolution,server,ALR,1996-1997,declining,discontinued,6-processor NT server; highest-performing NT Server at 13,1998as400-1-146289
+tech-021,Data Warehousing / Data Mining,analytics-platform,various,1990s-present,emerging,active,Cited as new application category IBM was enabling on AS/400e; strategic growth area,1998as400-1-146289
+tech-022,ERP (Enterprise Resource Planning),business-application,various,1990s-present,growth,active,IBM investing in pre-installed pre-tuned ERP on AS/400e as of study date,1998as400-1-146289
+tech-023,Supply Chain Management software,business-application,various,1990s-present,growth,active,Listed as a target new application category for AS/400e ISV recruitment in 1998,1998as400-1-146289
+tech-024,Customer Interaction Software (CRM),business-application,various,1990s-present,emerging,active,Listed as a target application category for AS/400e; precursor to full CRM category,1998as400-1-146289
+tech-01,IBM DB2 for MVS,RDBMS,IBM,1983–present,mature,[DEFERRED],Mainframe (MVS/z/OS) edition of DB2; noted as high-cost in study.,cab199-1-2-0cb163
+tech-02,IBM DB2/6000 (AIX),RDBMS,IBM,1993–present,active-growth,[DEFERRED],Unix/AIX edition; study notes perception problems vs. actual competitive capability.,cab199-1-2-0cb163
+tech-03,IBM DB2 Parallel Edition (PE),RDBMS,IBM,1995–present,active-growth,[DEFERRED],MPP/SP2 parallel edition; study notes it lags Informix on SP2.,cab199-1-2-0cb163
+tech-04,IBM Data Propagator,middleware,IBM,1995–present,active,[DEFERRED],Async replication middleware for DB2; noted as good but lacking peer-to-peer replication.,cab199-1-2-0cb163
+tech-05,IBM Intelligent Decision Server (IDS / Metaphor DIS),decision-support,IBM,1995–present,active,[DEFERRED],Advanced query/decision support tool; listed as IBM 1998 theme.,cab199-1-2-0cb163
+tech-06,IBM Visual Warehouse,data-warehousing,IBM,1996–present,active,[DEFERRED],Data warehousing tool in DB2 ecosystem; listed as IBM 1998 theme.,cab199-1-2-0cb163
+tech-07,IBM DataJoiner,middleware,IBM,1994–present,active,[DEFERRED],Federated database / data integration middleware; listed as IBM 1998 theme.,cab199-1-2-0cb163
+tech-08,IBM DB2 Text Extender,RDBMS-extension,IBM,1997–present,active,[DEFERRED],Universal Server extender for full-text search.,cab199-1-2-0cb163
+tech-09,Informix OnLine 7,RDBMS,Informix,1995–1997,active-mature,[DEFERRED],SMP-optimized RDBMS; positioned for mass-market SMP servers in 1997.,cab199-1-2-0cb163
+tech-10,Informix Universal Server (IUS),ORDBMS,Informix,1996–2001,active-growth,[DEFERRED],Post-relational object-relational RDBMS integrating Illustra DataBlade architecture.,cab199-1-2-0cb163
+tech-11,Informix OnLine 8 (XPS),RDBMS,Informix,1997–2001,active-growth,[DEFERRED],Extended Parallel Server; MPP/cluster edition; generally available release highlighted as 1998 theme.,cab199-1-2-0cb163
+tech-12,DataBlade (Illustra),ORDBMS-extension,Informix,1996–2001,active-growth,[DEFERRED],Extensible data type modules (DataBlades) originating from Illustra; core of IUS extensibility.,cab199-1-2-0cb163
+tech-13,Informix NewEra 2.0,development-tools,Informix,1997–present,active,[DEFERRED],4GL/application development tool; noted as improving usability.,cab199-1-2-0cb163
+tech-14,Oracle RDBMS 7.3,RDBMS,Oracle,1996–1998,active-mature,[DEFERRED],Study questions whether version 7.3 is a stop-gap TPC-C release vs. major re-write.,cab199-1-2-0cb163
+tech-15,Oracle8,RDBMS,Oracle,1997–2001,active-growth,[DEFERRED],First object-relational Oracle release; described as opening up the Oracle object model.,cab199-1-2-0cb163
+tech-16,Oracle 8.1 (Oracle8i),RDBMS,Oracle,1998–2002,pre-release,[DEFERRED],Planned release at study date; 1998 theme focused on Universal Server openness and NCA deliverables.,cab199-1-2-0cb163
+tech-17,Oracle Network Computing Architecture (NCA),architecture,Oracle,1997–present,active,[DEFERRED],Oracle's distributed/network-computing application architecture; includes NC thrust.,cab199-1-2-0cb163
+tech-18,Oracle Express (ROLAP),OLAP,Oracle,1995–2007,active,[DEFERRED],Multidimensional OLAP technology integrated with Oracle Warehouse; referenced as Integrated Express technology.,cab199-1-2-0cb163
+tech-19,Sybase SQL Server / System 11,RDBMS,Sybase,1987–1998,active-mature,[DEFERRED],Study notes System 11.5 addresses prior performance/scalability weaknesses; 1980s architecture described as running out of steam.,cab199-1-2-0cb163
+tech-20,Sybase Adaptive Server Enterprise,RDBMS,Sybase,1998–2010,pre-release,[DEFERRED],Next-generation Universal Server successor to System 11; positioned as 1998 vision in study.,cab199-1-2-0cb163
+tech-21,Sybase IQ Accelerator,analytical-RDBMS,Sybase,1994–present,active,[DEFERRED],Column-store / bit-mapped index decision-support database; positioned as Sybase complex DSS answer.,cab199-1-2-0cb163
+tech-22,PowerBuilder,development-tools,Sybase/Powersoft,1991–present,active-mature,[DEFERRED],Client-server 4GL/RAD tool from Powersoft acquisition; cited as market leader in dev tools.,cab199-1-2-0cb163
+tech-23,Sybase Navigation Server,ORDBMS,Sybase,1996–1998,active-limited,[DEFERRED],MPP/parallel object-relational server; study notes it is platform-limited to NCR 3600.,cab199-1-2-0cb163
+tech-24,Microsoft SQL Server 6.5,RDBMS,Microsoft,1996–1998,active-mature,[DEFERRED],NT-based RDBMS; study notes limited replication and behind on universal server / clustering features.,cab199-1-2-0cb163
+tech-25,Microsoft SQL Server 7,RDBMS,Microsoft,1998–2000,pre-release,[DEFERRED],Next-generation release highlighted in study; aggressive pricing and >13000 TPC-C benchmark performance on NT.,cab199-1-2-0cb163
+tech-26,CA-Ingres,RDBMS,Computer Associates,1980–present,active-declining,[DEFERRED],Study's home vendor RDBMS; architecture described as behind with no parallel/scalable story; noted as number four trailing.,cab199-1-2-0cb163
+tech-27,CA OPENROAD,development-tools,Computer Associates,1996–present,active,[DEFERRED],4GL RAD tool for CA-Ingres; study notes incompatibility with prior character-based 4GL environment left customers behind.,cab199-1-2-0cb163
+tech-28,Jasmine (CA),OODBMS,Computer Associates,1997–2002,pre-release,[DEFERRED],CA's object-oriented database; referenced in conclusions as an example of object navigation becoming desirable for some applications.,cab199-1-2-0cb163
+tech-29,TPC-C Benchmark,benchmark,TPC,1992–present,active-standard,[DEFERRED],OLTP transaction processing benchmark; referenced for Informix (many TPC-Cs) and Microsoft SQL Server 7 (>13000 TPC-C).,cab199-1-2-0cb163
+tech-30,TPC-D Benchmark,benchmark,TPC,1995–1999,active-standard,[DEFERRED],Decision support benchmark referenced as 1997 RDBMS industry theme; superseded by TPC-H in 1999.,cab199-1-2-0cb163

@@ -1,0 +1,102 @@
+TPC Benchmarks: Users Benefit From Competition
+
+Executive Summary
+Levelled the playing field, so someone invented a game
+
+Introducing the TPC
+The TPC is an independent, supplier-sponsored benchmarking standards body. Trademark.
+Founded in 1988 with Aberdeen principal help
+Three benchmarks
+  TPC-A for TP
+  TPC-B for database
+  Coming: TPC-C WIC
+price and price/performance
+5 year LCS
+ten user terminals per tps
+costs grow as users grow
+  terminals
+  history storage
+? storage chart?
+Run to standard.
+FDC required
+ask for it
+understand topology & methodology
+audits.
+Benefit to users:
+  apples to apples
+  competition breeds better price and performance
+Where to reach the TPC
+  phone/fax
+  publications
+
+Standards-Bred Competition
+TPC is a standard measure for comparing the online, transaction-oriented performance of commercial systems
+TPC is now the primary vehicle for commercial system price and performance competition.
+Suppliers are aggressively optimizing
+  price
+  performance
+
+Figure 1 - Improving TPC-A Price/Performance
+HP - 1/90 1.39M 38.2 tps @$36.50
+DEC 3/92 (27 months) 214K 27.9 tps $7.69
+king for a day: weekly jockeying for best position
+beware of out-of-date information!
+
+Figure 2 - Q1-1992 TPC-A price/performance curve
+Averaging $9K per TPS-A, users can pick the best price/performer from 10 - 200 tps [Digital VAX 6000!!!]
+Trend is towards upper left
+Leapfrogging
+HP, DEC, and IBM are TPC champions
+DEC illustrative only
+
+Figure 3 - Digital VAX 4000-300 $31.90 10/90 to $10.71 3/92
+Suppliers are using TPC-A to hone their strategies
+DEC, HWP, IBM, Bull, Sun illustrate
+Digital: Marking to the market
+  Aggressive pricing to TPC p/p
+  50% performance improvement (see figure 3) in 18 months 4000-300
+
+Figure 4 - Digital's TPC-A Price & Performance
+  price band
+  cost per tps stable as performance rises
+  Rationalizes VAX pricing
+  Shows good cluster as well as single cpu p/p
+  Vax 6640 actually lower than 6410
+
+Hewlett-Packard
+  Growing up from timesharing to OLTP contender
+  Maturing Unix performance
+  Maturing ALLBASE/SQL
+  Rationalizing HP/Ux p/p versus MPE on = K$ basis
+
+Figure 5 - HP TPC-A
+
+IBM
+Figure 6 - RS/6000 550
+  18% p/p improvement due to new models 1/92
+  59% better perf 1/92 due to maturing AIX
+
+Figure 7 - AS/400 x70 series
+  83% p/p B to D to E70 4/91 to 2/92 @ $17.59
+
+Figure 8 - AS/400 Price & Performance
+  Not flat...more performance costs more per unit
+
+IBM mainframes
+  missing in action.  IBM "not appropriate" but Unisys did
+  TPC forbids estimation
+  readers can draw their own conclusions
+  IBM has enough problems selling S/390s
+
+The rest of the market
+  Bull DPX/2
+  Data General
+  Sun SPARC/Sybase
+
+Conclusions
+TPC-A is a valid p and p/p compare
+  enough results to make a valid sample
+ask for results/write them into RFPs
+Hire an auditor to check what you ordered
+make sure you have the latest results
+Buyers will benefit from supplier competition

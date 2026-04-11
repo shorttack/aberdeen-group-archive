@@ -1,0 +1,54 @@
+OmniBox International
+Confidential Business Plan
+August, 1997 -- DRAFT
+
+CONTROL NO._____
+
+[OmniBox International -- Confidential Business Plan. Delaware holding company with exclusive worldwide rights to patents for (a) electronic ordering/processing/payment, (b) copyright-protected entertainment/software distribution, (c) interactive electronic communications, (d) digital video compression.]
+
+1. EXECUTIVE SUMMARY
+OmniBox International (the "Company") is a Delaware holding company which retains the exclusive world-wide rights to patents and technology for electronic ordering/payment, digital compression, and interactive broadcasting. Seeking $10 million in funding for global roll-out.
+
+Timeline:
+1987-1995: OmniBox's founder develops and proves the technology.
+1995-1997: Market validated; signed contracts and letters of intent.
+1997-1999: With customer base, management team and proven technology, OmniBox turns on its network and revenue stream.
+
+Industry
+Frost & Sullivan 1996 report: market for interactive TV and advertising to reach $1 billion by 2002. Intel: 26 million US homes had both PC and cable TV in 1994.
+
+OmniBox Products/Services
+- OmniBox Interactive Broadcasting Network
+- Satellite JukeBox: digital music album delivery ($8.00/album)
+- MailBox: interactive home shopping (12% commission)
+- VideoBox: pay-per-view ($3.00/buy)
+- OmniBox Digital Set-Top-Box: under $200 base; $50-75 accessories
+- DVC Digital Compression: 10 digital channels per analog; 100:1 compression; superior to MPEG-2
+- Inferno OS (Lucent Technologies): underlies OmniBox software
+- MPEG II DVB-Compliant PC Boards
+
+Company Background
+Incorporated Delaware 1987. Stamford, CT. Founded by Thomas A. Bush, CEO. $2M raised since inception. 78 shareholders; Bush controls 70.67%. Total assets: $1,439,032 (1994).
+
+Relationships
+- Time/Warner Cable: field test partner, NYC -- verified high-quality digitized video delivery
+- Bank One: transaction processing (real-time PPV, two-step purchases, mail-order)
+- NMPA: music industry preferred delivery system
+- VCOM: compression technology supplier
+- Lucent Technologies: Inferno OS; co-marketing agreement
+- Group W Satellite Communications: proposed broadcast origination/transmission facilities
+
+Financial Summary
+Year 1: Revenue $201.5M; Operating Profit $13.1M
+Year 2: Revenue $474.3M; Operating Profit $57.2M
+Year 3: Revenue $756.7M; Operating Profit $109.3M
+Year 4: Revenue $1,171.5M; Operating Profit $189.1M
+
+Revenue sources: hardware sales ($145M Y1), subscriptions ($6.5M Y1), transactions ($50M Y1).
+Subscribers: 500K (Y1) -> 1.25M (Y2) -> 2.1M (Y3) -> 3.0M (Y4).
+ARS: $403 (Y1) -> $390 (Y4).
+
+Joint Ventures: First JV covers 53 countries (Middle East, Asia, Africa); finalized.
+Financing sought: $10 million equity investment.
+
+[Attached: Aberdeen Group Profile]

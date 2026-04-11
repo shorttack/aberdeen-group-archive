@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Technology Research","acquired","Aberdeen/Harte-Hanks","1988-2014","tpc2-92-c2a45c","Author organization"
+"peter-s-kastner","Peter S. Kastner","person","Technology Research","active","","1970s-present","tpc2-92-c2a45c","Presumed author based on corpus attribution"
+"bull","Groupe Bull","company","Technology","acquired","Atos (acquired Bull 2014 for €620M)","1930s-present","tpc2-92-c2a45c","Bull's DPX/2 led TPC-A price-performance in 1992"
+"sun-microsystems","Sun Microsystems","company","Technology","acquired","Oracle","1982-2010","tpc2-92-c2a45c","Sun Sparcserver co-led TPC-A price-performance in 1992"
+"data-general","Data General Corporation","company","Technology","acquired","EMC Corporation (acquired 1999)","1968-1999","tpc2-92-c2a45c","AviiOn 5225 led briefly but failed to break $10K/TPS-A barrier"
+"tpc","Transaction Processing Performance Council (TPC)","institution","Technology Standards","active","","1988-present","tpc2-92-c2a45c","Standards body for TPC-A and TPC-B benchmarks"

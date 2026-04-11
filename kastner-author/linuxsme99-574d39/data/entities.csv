@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2001)","1988-2014","linuxsme99-574d39","Boston-based; One Boston Place"
+"peter-s-kastner","Peter S. Kastner","person","IT-research","active","","1969-present","linuxsme99-574d39","EVP Aberdeen Group"
+"ibm","IBM","company","IT-hardware-software","active","","1911-present","linuxsme99-574d39","Mentioned as early Linux SMB adopter"
+"microsoft","Microsoft","company","software","active","","1975-present","linuxsme99-574d39","Competitor: Windows NT / BackOffice SBS"
+"novell","Novell","company","networking","acquired","Attachmate (2011)","1983-2014","linuxsme99-574d39","Competitor: NetWare"
+"sandra-potter","Sandra Potter","person","IT-research","unknown","","unknown","linuxsme99-574d39","Research Director, Linux Services at Aberdeen"

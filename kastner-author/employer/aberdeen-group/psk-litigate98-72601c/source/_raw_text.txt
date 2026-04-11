@@ -1,0 +1,20 @@
+Individual members of Aberdeen Group have significant experience in litigation support, as sketched below.
+
+Peter S. Kastner
+
+Computer Consoles vs. GTE Government Systems
+
+Support for Blanc, Gilburne of Los Angeles, the plaintiff counsel for Computer Consoles (CCI). Mr. Kastner provided staff support for the technical aspects of CCI's case. He reviewed the technical and engineering documentation for CCI's planned RISC-Unix computer, prepared analyses comparing CCI's computer to likely industry competitors and an analysis of the likely competitive advantages of the computer's architecture, and developed a technical theory regarding the likely performance of the computer. He was proposed as an expert witness in commercial computer performance. Mr. Kastner was also involved in other aspects of the case, including the basis for damages and recommendation of expert witness candidates. The case was settled with substantial damages in favor of the plaintiff.
+
+GTE Products Corporation v. American Software, Inc.
+
+Support for Fulbright & Jaworski, the defense counsel, in GTE Products Corporation v. American Software, Inc. For this computer software development breach of contract case, Aberdeen's tasks were to objectively identify, assess, and evaluate for counsel the technical and project management aspects of this case, and in establishing a framework for the defense of American Software, Inc. for presentation at trial. In addition, Aberdeen assisted counsel in determining possible damages that GTE may have incurred.
+Aberdeen's knowledge and expertise of the IBM AS/400 and 3090 mainframe, application software development, SNA networking, prudent project management practices, and the state of the user market for downsized computing systems such as GTE envisioned in its Spectrum project were key Aberdeen areas of expertise. Aberdeen Group also identified potential expert witnesses.
+
+Unisys vs. Florida Health and Rehabilitative Services (HRS)
+
+Provided support for Carlton, Fields of Tallahassee, counsel to Unisys. Unisys formally protested a bid by EDS and IBM accepted by HRS. Mr. Kastner was involved in reviewing the technical adequacy of EDS's proposal for a complex, distributed human resources computer system for the State of Florida. Mr. Kastner provided staff support to build a technical foundation for the plaintiff's case. He also analyzed documents provided as part of plaintiff discovery procedures, reviewed depositions of the defendant, developed a technical theory from the technical evidence, and served as a plaintiff expert witness in the areas of the design and performance of distributed IBM mainframe computer systems. While plaintiff was not sustained, the State of Florida subsequently canceled its contract with EDS after spending $110 million for non-performance based on precisely the technical areas Mr. Kastner had predicted were inadequate.
+
+Crossroads Software, Inc. vs. Open Systems Advisors
+
+Mr. Kastner provided support for Fish & Richardson of Boston, counsel to the defendant, Crossroads Software. Plaintiff alleged trademark infringement on the use of "crossroads" as in conflict with the name of plaintiff's technology conference, and demanded a preliminary injunction to halt the use of Crossroads' company name. At the time, Crossroads Software had just completed a multi-million dollar company branding campaign in preparation for selling its products. Mr. Kastner examined the documents in the case and advised Fish & Richardson on the likelihood of confusion between a software company and a computer industry conference. The judge in denying a preliminary injunction cited his affidavit. In subsequent support, Mr. Kastner developed a technology basis for claims that neither confusion nor reverse confusion was likely, and that plaintiff's affidavits were inconsistent with its business practices and industry practice. He was proposed as an expert witness. The case was settled out of court.

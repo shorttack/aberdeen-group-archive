@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Portal's Infranet -- Real-Time Customer Management and Billing Pays Dividends to ISPs, Internet-Based Businesses",
+  "description": "Aberdeen Group profiles Portal Software's Infranet 6.0, a real-time customer management and billing platform designed for ISPs and internet-based businesses. The report evaluates Infranet's N-tier object-oriented architecture, real-time billing capabilities, and partnerships with HP, Sun, Compaq, Cisco, Microsoft, and Oracle. Aberdeen concludes Infranet is the stand-out product for real-time customer billing and service, with market-leading capabilities versus competitors Solect and Kenan/Arbor.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1999-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

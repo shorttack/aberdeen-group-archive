@@ -1,0 +1,10 @@
+Here Come the Hot Boxes
+
+One of the oft touted virtues of the Unix server running an independent RDBMS server is excellent price-performance. But the Unix/RDBMS hot boxes were surprisingly missing from 1991's TPC-A price-performance leadership list. That changed in 1992.
+
+The Unix/RDBMS contenders are no longer content to compete on the basis of fastest database using TPC-B. Both Bull's DPX/2 and Sun's Sparcserver now lead in TPC-A price-performance, and they helped push the best TPC-A price-performance to well under $10K/TPS-A. Data General also led briefly with its AviiOn 5225, but has so far failed to crack the $10K price-performance barrier.
+
+Aberdeen believes we will now see the Unix/RDBMS competition more often running TPC-A for three reasons:
+- TPC-B lacks the terminal connectivity to applications that users want to see measured. TPC-A does that;
+- Many market leading computers are missing from the TPC-B list of results. The list is incomplete;
+- The Unix/RDBMS contenders have sufficiently improved their software efficiencies to support the terminal user counts demanded by the high-end TPC-A throughput.

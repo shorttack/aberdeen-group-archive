@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"linux","Linux Operating System","platform","Open Source","1991-present","emerging","dominant","linuxcare-ab95f6","Core subject of Linuxcare's services"
+"samba","Samba Software Package","application","Open Source","1992-present","emerging","current","linuxcare-ab95f6","Created by Andrew Tridgell; Linuxcare guru support"
+"rs6000","IBM RS/6000","platform","IBM","1990-2000","mature","legacy","linuxcare-ab95f6","IBM contracted Linuxcare to support Linux on RS/6000"
+"star-office","Star Office Suite","application","Star Division / Sun","1985-2002","emerging","legacy-superseded","linuxcare-ab95f6","Sun's first Linux offering; Linuxcare contracted for support"
+"linux-kernel","Linux Kernel","platform","Open Source","1991-present","emerging","dominant","linuxcare-ab95f6","Linuxcare supports full spectrum from kernel to drivers"
+"nfs","Sun NFS (Network File System)","protocol","Sun Microsystems","1984-present","mature","current","linuxcare-ab95f6","Used in early NC File System implementations"

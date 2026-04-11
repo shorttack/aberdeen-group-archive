@@ -1,0 +1,32 @@
+Via Facsimile 248-7100
+September 12, 1995
+
+Mr. Donald L. Anglehart, Esq.
+Testa, Hurwitz & Thibeault
+125 High Street
+Boston, MA 02110
+
+Dear Mr. Anglehart:
+Below is the 10-250 Overview draft we discussed today.
+
+Overview
+October 18, 1995: 6:00 - 7:15PM
+WHO CARES IF THE COMPUTER BREAKS?
+
+Guest Speaker:
+Peter Kastner
+Group Vice President
+Aberdeen Group, Inc.
+
+Our society has embraced computer systems to such a degree that we cannot work without them. Literally, if the "lights go out", the staff of many organizations may as well pack up and go home for lack of computer-based functionality. Going back to pencil and paper is just not possible. However, the number of business, social, and government applications such as police 911 emergency systems that absolutely must keep operating regardless of conditions is larger than most understand, and is growing.
+
+Why the computer won't work and what can be done to keep computer systems running has spawned a sophisticated industry of hardware, software and service companies whose offerings range from fault-tolerant computers to network backup products to virus-checking software. All thrive - or at least subsist - on the pain and paranoia surrounding computer application failures. And the trend towards distributed computing has created even more opportunities for things to go wrong at the desktop, workgroup, departmental, and enterprise level. As a result, reliability, availability, and serviceability are major buying criteria - and market opportunities to sell to - for markets ranging from home/small business users to the largest enterprises.
+
+Peter S. Kastner is Group Vice President responsible for Aberdeen Group's Corporate Computing practice. Aberdeen Group is a Boston-based management consulting and computer market research organization.
+
+Prior to joining Aberdeen Group, Mr. Kastner was a marketing executive with Digital Equipment, Prime Computer, and Stratus Computer, and as a consultant and group manager with Arthur D. Little Systems. Mr. Kastner has been involved in dozens of complex systems development projects spanning the manufacturing, banking and financial services, health care, and government markets, and including mainframe, minicomputer, and desktop systems.
+
+Please call me if you need additional information. I look forward to working with you for this interesting forum.
+
+Very truly yours,
+Peter S. Kastner

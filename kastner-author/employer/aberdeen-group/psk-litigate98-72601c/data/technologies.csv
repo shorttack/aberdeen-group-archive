@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"risc","RISC (Reduced Instruction Set Computing)","hardware","Various","1990s","dominant","dominant","psk-litigate98-72601c","CCI's planned RISC-Unix computer was subject of Computer Consoles case"
+"unix","UNIX (various)","platform","Various","1990s","current","current","psk-litigate98-72601c","CCI's planned RISC-Unix platform"
+"as400","IBM AS/400","platform","IBM","1990s","legacy-supported","legacy-supported","psk-litigate98-72601c","Key expertise in GTE Products v. American Software case"
+"ibm-3090","IBM 3090 Mainframe","hardware","IBM","1990s","legacy","legacy","psk-litigate98-72601c","Referenced in GTE Products v. American Software case"
+"ibm-sna","IBM SNA (Systems Network Architecture)","protocol","IBM","1990s","legacy","legacy","psk-litigate98-72601c","Expertise area in GTE Products v. American Software case (new tech entry)"
+"ibm-mainframe-zarch","IBM zSeries Mainframe (z900/z990)","hardware","IBM","1990s","enterprise-standard","legacy-supported","psk-litigate98-72601c","Kastner was expert witness on distributed IBM mainframe design in Unisys/HRS case"

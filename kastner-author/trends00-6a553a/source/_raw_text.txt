@@ -1,0 +1,30 @@
+October 5, 2001
+
+Dear [IT Supplier Executive],
+
+I am writing to fellow IT supplier executives to pass along our research and analysis on the economic scenarios for the industry in the fourth quarter and next year, and some of our experience in adapting to a much-changed sales and marketing environment.
+
+Titled "Assessing the Damage: Will Fourth Quarter Technology Spending Fall?", this analysis was prepared by our Market Analysis Service. No surprise, we think spending will decrease in Q4 -- likely by double digits, followed by markedly lower growth next year compared with historic norms. We invite you to use our analysis as a catalyst for the planning exercises you are undoubtedly going through, as we are.
+
+Aberdeen Group's core business is consulting services to assist IT suppliers in selling and marketing their products. Aberdeen's analysts have been in the IT business for decades, and we have never seen such dramatically changed sales and marketing circumstances as we face today. There is no book you can read, no recipe to follow that explains how to cope with the reduced sales productivity, supply-chain disruption, and psychological shutdown to conventional marketing that is today's reality.
+
+What concerns us is how the industry will react. We see signs that too many IT companies are not taking steps to address the changed marketplace, continuing instead to follow business-as-usual processes. This could create a self-fulfilling revenue shortfall.
+
+FIRST: Travel disruption. With long waits in building-lobby security checks, it can take half an hour to attend a meeting just across the street, let alone flying. In response, we are extensively using the five-tier conferencing capability we built over the last year and a half:
+Level 1: plain old speaker phone
+Level 2: audio conferencing
+Level 3: web-based collaboration using WebEx + teleconference
+Level 4: videoconference using the Polycom box installed in each office
+Level 5: one-to-many webcast
+
+We cancelled a face-to-face national sales meeting due to uncertainty of air travel. We'll do a videoconference instead. Our prospects and clients are reacting positively.
+
+SECOND: E-learning. We are expanding the use of e-learning techniques for our own use and for client go-to-market sales-training projects. Given the uncertainty of air travel, we believe the days of the big-tent sales meeting are numbered. E-learning has many benefits and can be a good substitute for many internal training requirements. We recommend adapting e-learning and conferencing technology to customer-facing sales and marketing situations.
+
+In short, Aberdeen believes the companies who emerge from the IT recession of 2001-2002 with market-share gains will be those who think out of the box and quickly adapt to the reality of the changed market.
+
+We thank you for your past support of Aberdeen Group, and invite your comments on how to keep the IT industry growing robustly.
+
+Sincerely,
+Peter S. Kastner
+Chief Research Officer

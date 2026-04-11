@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"webex","WebEx Web Conferencing","application","WebEx Communications","1996-2007","emerging","legacy-acquired","trends00-6a553a","Level 3 conferencing: web-based collaboration + teleconference"
+"polycom-videoconf","Polycom Videoconferencing","hardware","Polycom","1996-present","emerging","current","trends00-6a553a","Level 4 conferencing: installed in each Aberdeen office"
+"e-learning","E-Learning / Online Training","application","Various","1999-present","emerging","current","trends00-6a553a","Aberdeen expanding use for internal and client go-to-market sales training"
+"audio-conferencing","Audio Conferencing","protocol","Various","1970-present","mature","current","trends00-6a553a","Level 2 conferencing at Aberdeen"
+"webcast","Webcast (One-to-Many)","application","Various","1999-present","emerging","current","trends00-6a553a","Level 5 conferencing at Aberdeen"

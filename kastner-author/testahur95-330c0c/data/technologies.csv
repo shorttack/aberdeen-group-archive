@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"fault-tolerant-computers","Fault-Tolerant Computer Systems","hardware","Various","1990s","current","current","testahur95-330c0c","Core topic of the speaking event"
+"network-backup","Network Backup Systems","application","Various","1990s","current","current","testahur95-330c0c","Mentioned as part of high-availability industry"
+"virus-checking","Anti-Virus / Virus-Checking Software","application","Various","1990s","current","current","testahur95-330c0c","Part of computer reliability ecosystem"
+"client-server","Client-Server Architecture","framework","Various","1990s","legacy","legacy","testahur95-330c0c","Distributed computing trend creating new failure points cited in overview"

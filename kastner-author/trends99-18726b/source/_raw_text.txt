@@ -1,0 +1,48 @@
+JRL list of trends for 1999. (And he needs your collated list for the HP sales training project asap as well as Joe needs it for a speech in the Bahamas.)
+
+IT Trends for 1999 -- Internal Aberdeen Group Memo
+Authors: John R. Logan (JRL) + Peter S. Kastner (PK)
+Date: Early 1999
+
+TREND 1: Application Integration
+JRL: Data warehouse approach (Aberdeen EBA group) best path in 1999. Crossworlds/Oberon approaches too complex. Good for LOB integration, supply chain, e-commerce.
+PK Response: Data warehouse only good for looking at past business. Key EAI points are buy vs. build. Crossworlds offers app-to-app (R/3 invoicing from Remedy Help Desk). Oberon = toolkits. Real alternative: object broker-based toolkit. Dark horse: ERP vendors moving toward CIS and vertical market.
+
+TREND 2: Year 2000 Testing and Correcting Absorbs over 50% of IS Staff
+JRL: Pessimistic about preparedness. Bugs found in supposedly corrected code. Testing phases not succeeding. Interfaces with trading partners not being tested. Y2K-compliant EDI tested at transport level only.
+PK Response: Needs scenarios: when will IS realize; will remediation be 2000 or 1999; how can IS test ISV apps?
+
+TREND 3: Y2K Contingency Planning at Business-Unit Level
+PK Response: VERY interesting. Business units cut off from IS support. Must use LAN + Microsoft desktop Office97 + NT/Unix servers. Forget installing Office 2000 (delayed to Q2) or Windows 2000. Three contingency approaches: a) VBA scripting + Office97 + Access + Outlook; b) Lotus Notes shops build around Notes + Office97; c) Intranet toolset.
+
+TREND 4: Intel Will Have A Banner Year
+JRL: SMEs planning to replace PCs and LAN servers mid-1999 for Y2K + legacy desktop replacement. Buying frenzy in 3Q99.
+PK Response: Agree. Formally told Intel this is Aberdeen's scenario.
+
+TREND 5: The #1 Company in Each Well-Defined Category Will Gain Market Share
+JRL: IS decision makers choose leader; risk reduction with Y2K pressures. SAP, Oracle, Cisco, Compaq (NT servers), Sun, IBM, Dell increase market shares.
+PK Response: a) Identify 10 areas where new tech is driving new entrants; b) Name likely 1999 merger/acquisitions.
+
+TREND 6: G2000 Telecom Supplier Switching
+JRL: AT&T, WorldCom/MCI, Sprint, British Telecom, Cable and Wireless competing for enterprise contracts. Users worried about QoS and support, especially non-US.
+PK Response: Tie to mainframe market (Amdahl, Hitachi, IBM negotiating leverage). Is IS prepared to manage shared telecomm facilities?
+
+TREND 7: Sun Will Continue To Gain Market Share In Enterprise Data Center
+JRL: Sun beacon of intellectual ideas for web-based apps; Java champion.
+PK Response: Sun's ascendancy inevitable. Focus on where Sun is really good vs. where buyers should look elsewhere.
+
+TREND 8: Windows 2000 Will Not Be Quickly Adopted By Large Enterprises In 1999
+JRL/PK: Y2K issues, delayed functionality, need W2K on both server and desktop -- likely one of Microsoft's flops at end of 1999. Aberdeen has new research report on this. Office 2000 delayed beyond Q1 1999; represents 40% of Microsoft profits.
+
+TREND 9: After Y2K, Enterprises Use Improved Methodologies for Web-Based Apps
+PK: Roll-your-own approach required for serious e-commerce for several years. Amazon.com, Barnes and Noble, Dell, Cisco, Intel, IBM, GM, American Airlines require custom development. Y2K best-practice firms better positioned.
+
+PETER'S ADDITIONAL TRENDS:
+Who Owns Security?
+Security used to be one mainframe program. TCP/IP opens enormous holes. Can the CIO solve the complexity of distributed security?
+
+Is 1999 the Year of the Object?
+After 10 years, OO mostly in supplier software. In 1999, leading ERP suppliers + IBM San Francisco project open new era of objects for practical business use.
+
+Computing as just another utility service: the ISPs take off
+ISP consolidation, hot niches. Will 1999 be year of IP telephony?

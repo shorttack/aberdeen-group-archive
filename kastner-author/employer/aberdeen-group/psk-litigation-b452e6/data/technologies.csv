@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"risc-unix","RISC-Unix Computer (CCI Planned)","hardware","CCI","1990-1993","pre-commercial","cancelled","psk-litigation-b452e6","Kastner reviewed CCI's planned RISC-Unix computer in CCI vs GTE"
+"as400","IBM AS/400","platform","IBM","1988-2008","mature","legacy-supported","psk-litigation-b452e6","Kastner expertise cited in GTE Products vs American Software"
+"ibm-3090","IBM 3090 Mainframe","hardware","IBM","1985-1996","mature","legacy","psk-litigation-b452e6","Kastner expertise cited in GTE Products vs American Software"
+"sna-networking","IBM SNA Networking","protocol","IBM","1974-2000","mature","legacy","psk-litigation-b452e6","Cited expertise area in GTE Products case"
+"hp-3000","HP 3000","platform","HP","1972-2003","mature","end-of-life","psk-litigation-b452e6","IE's existing computer system at time of Andersen project"
+"ibm-mainframe-distributed","Distributed IBM Mainframe Computer Systems","platform","IBM","1985-2000","mature","legacy","psk-litigation-b452e6","Kastner expert witness in Unisys vs Florida HRS"

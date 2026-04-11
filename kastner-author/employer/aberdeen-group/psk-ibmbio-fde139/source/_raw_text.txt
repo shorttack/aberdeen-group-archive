@@ -1,0 +1,9 @@
+PETER S. KASTNER
+
+Peter S. Kastner is Vice President of Aberdeen Group, Inc., responsible for Aberdeen's Corporate Computing practice. He is one of the industry's leading analysts of trends in online transaction processing (OLTP), parallel databases, client/server architectures, distributed commercial systems development, and commercial benchmark auditing and analysis. He is responsible for Aberdeen's series of Distributed, Open Production Systems Buying Guides which guide IS managers in selecting relational databases, client-server development environments, open transaction processing, and client-server platforms.
+
+Mr. Kastner has conducted numerous client studies in distributed operating systems and database management systems software. He is active in Aberdeen's end user consulting practice, working with clients to rightsize and distribute their production systems.
+
+Of specific interest to IBM, Mr. Kastner has been actively involved in Aberdeen's ongoing field research on the AS/400 marketplace. He recently completed a project for IBM to develop sales aids positioning the RS/6000 against competitive suppliers.
+
+Prior to joining Aberdeen Group in 1988, Mr. Kastner was a marketing executive with Digital Equipment, Prime Computer, and Stratus Computer. Over a decade as a consultant and group manager with Arthur D. Little Inc., Mr. Kastner was involved in dozens of complex systems development projects spanning the manufacturing, banking and financial services, health care, and government markets, and including mainframe, midrange, and desktop systems.

@@ -1,0 +1,9 @@
+Microsoft Scalability Day: The Emperor Has No Clothes
+
+While there is no doubt that NT will be better in 1998 than it is now, we remain unconvinced that NT is a panacea from desktop to enterprise - particularly complex application environments at Fortune 500-size enterprises.
+
+For now, look to Microsoft's partners. NT and BackOffice need the capable help of Microsoft's partners for enterprise-class software and services. These partner solutions and substitutions are the only prudent way to push NT into high transaction rates, high availability, fault tolerance, mainframe connectivity, systems management, and enterprise-level services. Beware of all-Microsoft solutions.
+
+Bottom Line: NT is Still "Not There". We believe that NT remains best suited to departmental applications, and have had considerable difficulty finding sites with more than a few hundred users. Yes, many of the world's applications are now NT-capable. However, the real enterprise high-end legitimately remains the province of Unix, the AS/400, and even the mainframe.
+
+- Peter S. Kastner

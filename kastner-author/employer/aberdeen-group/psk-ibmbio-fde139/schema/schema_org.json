@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Peter S. Kastner Biography for IBM Engagements (VP Era, c.1993-1995)",
+  "description": "A short professional biography of Peter S. Kastner tailored for IBM client engagements, dating to his Vice President era at Aberdeen Group (approximately 1993-1995). It highlights his expertise in OLTP, parallel databases, client/server, and benchmark auditing, and specifically notes Aberdeen field research on the IBM AS/400 marketplace and a completed project developing RS/6000 sales aids for IBM. Prior career history at Digital Equipment, Prime Computer, Stratus Computer, and Arthur D. Little is included.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1993-1995",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

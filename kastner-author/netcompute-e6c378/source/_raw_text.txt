@@ -1,0 +1,42 @@
+NC Server White Paper -- DRAFT
+
+Introduction
+Network computing is the next step in the evolution of the computing paradigm. It consists of clients, and network based services which are accessed over the network as required by clients. Everything is stored on the network and clients are windows to the information and services on the network. The value of network computing is that it doesn't matter from where users access the network -- their desktops and service profiles remain the same.
+
+The NC Server is a platform for enabling network computing. It provides NC Clients with system services to operate on the network, and provides users with file/print services, word processors, spreadsheets, email, and information services. The NC Server adheres to open standards and is intended to be interoperable with all NCs subscribing to the NC Reference Profile sponsored by the Open Group. Backward compatible with NC Clients for maximum four years.
+
+NC Server Architecture
+Three-tier architecture: NC Operating System Substrate + NC Required System Services + NC Applications. Can run on single host or distributed across multiple hosts.
+
+NC OS Substrate options: DEC UNIX, HP/UX 10, IBM AIX, Sun SPARC Solaris, Windows NT. Plus low-cost NCI-branded substrate for SOHO/Education/Community.
+
+NC Required System Services
+- NC Initialization: BOOTP-based (future: DHCP)
+- NC Authentication: Smart card (NC Card) + password/PIN; enables VPN, e-commerce
+- NC Authorization: LDAP-based; not in initial release
+- NC File System: Based on Sun NFS; future: Web NFS + Oracle Universal Server
+- NC Print Services: Based on UNIX LPD
+
+NC Applications
+Three classes: End User Applications, Administration Applications, Custom Applications.
+
+NC Productivity Applications: Oracle Java suite "Hatrick" -- word processor, spreadsheet, slide-show. Integrates with Oracle InterOffice.
+
+NC Web Server: Oracle Web Server-based; supports NC Required System Services.
+
+NC Mail: Oracle InterOffice; POP3 support; three clients (Inter Office Client, POP3 Client, Inter Office Web Connector).
+
+NC News Server: NNTP/USENET; future: customized news delivery. NC Discussions + NC Newswire.
+
+NC Childsafe: Integrates with NC Authentication/Authorization; initial: Surfwatch; future: Oracle Context language processing.
+
+NC Application Manager: License management + software subscription. Integrates Oracle Enterprise Manager + NC Authorization.
+
+NC Server Manager: Web-based (Oracle Enterprise Manager-based); single-transaction user provisioning; future: Java-based with advanced management.
+
+NC Registration: Delegates NC system administration to end-users.
+
+NC Billing and Accounting: Integrates with Oracle Financial Application Suite.
+
+Summary
+The NC Server is a robust, open, flexible, cost effective platform for enabling network computing. Key values: low cost of operation, security, scalability to thousands of users.

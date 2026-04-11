@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing","application","Various","1990s","current","current","psk-bio97-475934","Kastner's primary area of expertise"
+"client-server","Client-Server Architecture","framework","Various","1990s","legacy","legacy","psk-bio97-475934","Major Aberdeen research focus area"
+"rdbms","Relational Database (RDBMS)","application","Various","1990s","current","current","psk-bio97-475934","Covered in Aberdeen Distributed/Open Production Systems Buying Guides"
+"unix","UNIX (various)","platform","Various","1990s","current","current","psk-bio97-475934","Aberdeen research coverage area"
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","TPC","1990s","current","current","psk-bio97-475934","Kastner was auditor and advisor to TPC"

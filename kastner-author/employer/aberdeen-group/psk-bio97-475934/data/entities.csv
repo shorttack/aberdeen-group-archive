@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Technology Research","acquired","Aberdeen/Harte-Hanks","1988-2014","psk-bio97-475934","Boston-based management consulting and computer research organization"
+"peter-s-kastner","Peter S. Kastner","person","Technology Research","active","","1970s-present","psk-bio97-475934","Group Vice President, Corporate Computing practice, 1997"
+"digital-equipment","Digital Equipment Corporation","company","Technology","dissolved","Compaq/HP","1957-1998","psk-bio97-475934","Prior employer of Kastner (marketing executive)"
+"prime-computer","Prime Computer","company","Technology","dissolved","","1972-1992","psk-bio97-475934","Prior employer of Kastner (marketing executive)"
+"stratus-computer","Stratus Computer","company","Technology","active","Stratus Technologies (Penguin Solutions)","1980-present","psk-bio97-475934","Prior employer of Kastner (marketing executive)"
+"arthur-d-little","Arthur D. Little Inc.","company","Consulting","active","Altran (2002 bankruptcy, name revived 2009)","1886-present","psk-bio97-475934","Kastner was consultant and group manager for over a decade"
+"tpc","Transaction Processing Performance Council (TPC)","institution","Technology Standards","active","","1988-present","psk-bio97-475934","Kastner was auditor and later industry advisor"

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing","application","Various","Early 1990s","current","current","psk-ibmbio-fde139","Primary Kastner expertise area"
+"rdbms","Relational Database (RDBMS)","application","Various","Early 1990s","current","current","psk-ibmbio-fde139","Covered in Aberdeen Buying Guides"
+"client-server","Client-Server Architecture","framework","Various","Early 1990s","legacy","legacy","psk-ibmbio-fde139","Major Aberdeen research focus"
+"as400","IBM AS/400","platform","IBM","Early 1990s","legacy-supported","legacy-supported","psk-ibmbio-fde139","Aberdeen conducted ongoing field research on AS/400 marketplace for IBM"
+"rs6000","IBM RS/6000","platform","IBM","Early 1990s","legacy","legacy","psk-ibmbio-fde139","Kastner completed RS/6000 competitive positioning project for IBM"

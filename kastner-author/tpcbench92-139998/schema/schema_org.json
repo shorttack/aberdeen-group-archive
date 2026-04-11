@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "TPC Benchmarks: Users Benefit From Competition (1992 Presentation Notes)",
+  "description": "Outline and notes for a 1992 Aberdeen Group presentation on TPC benchmarks covering TPC-A and TPC-B standards and their role as the primary vehicle for commercial system price/performance competition. Per-supplier analysis covers Digital (VAX), HP, IBM (RS/6000, AS/400, mainframes), Bull, Data General, and Sun, with specific data points including HP's Jan-1990 cost of $36.50/TPS-A falling to DEC's $7.69/TPS-A by March 1992, and Digital VAX 4000-300 improving price-performance by 50% over 18 months.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1992",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

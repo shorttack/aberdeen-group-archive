@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-windows-nt","Microsoft Windows NT","operating-system","Microsoft","1990s","scaling-challenged","legacy-superseded","ntscaling-07177f","Subject of scalability critique; author says 'Not There' for enterprise"
+"microsoft-backoffice","Microsoft BackOffice","platform","Microsoft","1990s","enterprise-attempted","legacy-superseded","ntscaling-07177f","Requires partner augmentation per Kastner"
+"unix","UNIX (various)","platform","Various","1990s","dominant-enterprise","current","ntscaling-07177f","Positioned as superior to NT for enterprise high-end"
+"as400","IBM AS/400","platform","IBM","1990s","legacy-supported","legacy-supported","ntscaling-07177f","Cited as legitimate enterprise alternative to NT"
+"ibm-mainframe-zarch","IBM zSeries Mainframe (z900/z990)","hardware","IBM","1990s","enterprise-standard","legacy-supported","ntscaling-07177f","Cited as still legitimate at the high end"

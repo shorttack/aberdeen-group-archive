@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Biography of Peter S. Kastner, Chief Research Officer (2004)",
+  "description": "A 2004 professional biography of Peter S. Kastner in his role as Aberdeen Group's Chief Research Officer (CRO) and Executive Vice President of Technology Research. The document describes his consulting focus with Global 5000 enterprises and technology suppliers, involvement in billion-dollar product rollouts and M&A advisory, and broad coverage of hardware infrastructure, business latency, mobility, retail, consumer electronics, and channel practices. Over 35 years of IT industry experience is cited.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2004",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

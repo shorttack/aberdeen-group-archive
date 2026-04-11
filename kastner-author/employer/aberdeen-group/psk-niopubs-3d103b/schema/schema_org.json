@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Peter S. Kastner -- EVP/CRO Biography, Publications List, and Career History",
+  "description": "This document presents Peter S. Kastner's professional biography as Aberdeen Group's Executive Vice President and Chief Research Officer, detailing his career from 1967 through 1999, including roles at Cornell University, PHI Computer Services (Wang subsidiary), Arthur D. Little, Prime Computer, Stratus Computer, Digital Equipment Corporation, and Aberdeen Group. It also records his ten-year publications list (1988-1998) of over 60 Aberdeen publications and lists speaking engagements on behalf of major IT companies.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

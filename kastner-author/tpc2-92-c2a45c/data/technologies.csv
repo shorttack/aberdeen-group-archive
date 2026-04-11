@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"unix-server","Unix Enterprise Servers","platform","Various","1992","current","legacy-supported","tpc2-92-c2a45c","Unix/RDBMS hot boxes emerging as TPC-A leaders in 1992"
+"rdbms","Relational Database (RDBMS)","application","Various","1992","current","current","tpc2-92-c2a45c","Independent RDBMS servers paired with Unix"
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","TPC","1992","current","current","tpc2-92-c2a45c","TPC-A and TPC-B benchmarks analyzed"
+"bull-dpx2","Bull DPX/2","hardware","Bull","1992","obsolete","discontinued","tpc2-92-c2a45c","Led TPC-A price-performance in 1992"
+"sun-sparcserver","Sun Sparcserver","hardware","Sun Microsystems","1992","obsolete","discontinued","tpc2-92-c2a45c","Co-led TPC-A price-performance with Bull DPX/2"
+"data-general-aviion","Data General AviiOn 5225","hardware","Data General","1992","obsolete","discontinued","tpc2-92-c2a45c","Briefly led TPC-A but failed to break $10K/TPS-A price-performance barrier"

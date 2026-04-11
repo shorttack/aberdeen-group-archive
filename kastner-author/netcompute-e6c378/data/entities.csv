@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"network-computer-inc","Network Computer, Inc. (NCI)","company","network-computing","dissolved","Dissolved (network computer concept failed)","1996-2000","netcompute-e6c378","Developer of NC Server; Oracle-backed NC initiative"
+"oracle","Oracle Corporation","company","enterprise-software","active","","1977-present","netcompute-e6c378","Key technology partner; Oracle-based apps on NC Server"
+"sun-microsystems","Sun Microsystems","company","IT-hardware-software","acquired","Oracle (2010)","1982-2010","netcompute-e6c378","NC Reference Profile sponsor; NFS contributor"
+"ibm","IBM","company","IT-hardware-software","active","","1911-present","netcompute-e6c378","Supported as OS substrate: IBM AIX"
+"hewlett-packard","Hewlett-Packard","company","IT-hardware-software","split","HP Inc./HPE (2015)","1939-2015","netcompute-e6c378","Supported as OS substrate: HP/UX 10"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2001)","1988-2014","netcompute-e6c378","Associated with document"
+"open-group","The Open Group","institution","IT-standards","active","","1996-present","netcompute-e6c378","Sponsors NC Reference Profile standard"

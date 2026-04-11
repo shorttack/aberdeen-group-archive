@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"linux","Linux Operating System","platform","Open Source","1991-present","emerging","dominant","linuxsme99-574d39","Focus of the study; viable alternative OS"
+"novell-netware","Novell NetWare","operating-system","Novell","1983-2000","mature","end-of-life","linuxsme99-574d39","Incumbent SMB network OS under threat from Linux"
+"microsoft-windows-nt","Microsoft Windows NT","platform","Microsoft","1993-2000","mature","legacy-superseded","linuxsme99-574d39","Competitor OS in SMB segment"
+"microsoft-backoffice-sbs","Microsoft BackOffice Small Business Server","application","Microsoft","1997-2003","emerging","legacy-superseded","linuxsme99-574d39","SMB-targeted server suite"
+"sco-unix","SCO Unix","platform","SCO Group","1989-2004","declining","end-of-life","linuxsme99-574d39","Legacy Unix alternative for SMB"

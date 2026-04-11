@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing (OLTP)","application","Various","1969-present","mature","current","psk-niopubs-3d103b","Key Kastner expertise area; authored 1990 study"
+"tpc-benchmark","TPC (Transaction Processing Performance Council) Benchmarks","benchmark","TPC","1988-present","current","current","psk-niopubs-3d103b","Kastner was TPC benchmark auditor; now industry advisor"
+"client-server","Client-Server Architecture","framework","Various","1988-2005","current","legacy","psk-niopubs-3d103b","Kastner expertise: client/server architectures and distributed development"
+"decision-support","Decision Support / Business Intelligence","application","Various","1985-present","current","current","psk-niopubs-3d103b","Kastner expertise area"
+"as400","IBM AS/400","platform","IBM","1988-2008","mature","legacy-supported","psk-niopubs-3d103b","Kastner expertise cited in GTE Products litigation"
+"ibm-3090","IBM 3090 Mainframe","hardware","IBM","1985-1996","mature","legacy","psk-niopubs-3d103b","Kastner expertise cited"

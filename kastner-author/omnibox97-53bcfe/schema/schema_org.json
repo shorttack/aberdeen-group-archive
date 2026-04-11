@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "OmniBox International Confidential Business Plan",
+  "description": "OmniBox International's confidential August 1997 business plan details a Delaware holding company seeking $10 million to deploy a global interactive broadcasting network offering e-commerce, digital set-top boxes, satellite content delivery, and transaction processing across 53+ countries. The plan projects revenues of $201.5M in Year 1 growing to $1.17B by Year 4, based on subscription fees, pay-per-view, digital music (Satellite JukeBox), and home shopping (MailBox). Aberdeen Group's Peter Kastner is referenced as a contributor via an attached Aberdeen Group Profile.",
+  "creator": {
+    "@type": "Person",
+    "name": "OmniBox International / Peter S. Kastner (consulting)"
+  },
+  "datePublished": "1997-08-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

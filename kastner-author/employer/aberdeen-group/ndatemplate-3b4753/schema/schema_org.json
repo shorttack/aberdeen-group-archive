@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Mutual Confidentiality Agreement Template",
+  "description": "This is Aberdeen Group's standard Mutual Confidentiality Agreement template, governed by Massachusetts law. It establishes mutual obligations for confidentiality of proprietary information shared during potential business transactions, including a 24-month non-solicitation of employees clause, provisions for return/destruction of confidential information, and standard exceptions for publicly available information. The document is blank with placeholder fields for parties and dates.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2000-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

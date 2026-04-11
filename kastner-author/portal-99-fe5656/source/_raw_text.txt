@@ -1,0 +1,47 @@
+Portal Software, Inc.
+20863 Stevens Creek Boulevard, Cupertino, CA 95014
+(408) 343-4400 / www.portal.com
+
+Portal's Infranet -- Real-Time Customer Management and Billing Pays Dividends to ISPs, Internet-Based Businesses
+
+Aberdeen Profile, October 1999
+
+Executive Summary
+Portal's Infranet software is a comprehensive solution that includes customer account creation, authentication and authorization, activity tracking, pricing and rating, billing, customer management (including self-management), and extensive reporting options. Unlike traditional batch-oriented billing packages, Infranet manages all functions on a real-time basis. Portal has a decade of experience running a Silicon Valley ISP operation.
+
+Aberdeen finds Portal's "Real Time, No Limits" Infranet solution to be tangible and compelling:
+1. Architecture scales to fit real-time requirements of very large providers
+2. Open architecture with completely documented APIs
+3. Strong partnerships with HP, Sun, Compaq, Cisco, Microsoft, Oracle
+
+Infranet Product Features
+Core: registration, authentication/authorization, activity tracking, event rating/pricing, billing, customer management, business reporting.
+Infranet 6.0 enhancements: enhanced rating architecture; real-time volume/tier model; unlimited branded service customers; panel-based flexible design.
+
+Key Technologies
+N-tier architecture; object-oriented; load balancing via high-performance shared queues; 4-level firewall support; complete API set; multi-database support (Oracle Rdb, SQL Server 7); multi-threaded invoicing (HTML, XML, DOC1).
+
+Infranet Architecture: API -> Data Flow -> Business Process tier -> Business Object tier -> Database tier.
+
+Pricing model: pay-by-the-subscriber; 25,000-subscriber entry point; no per-server license penalty.
+
+Market Position
+Founded 1985; ISP for 10 years; released Infranet May 1996; IPO May 6, 1999 (NASDAQ: PRSF); 400+ employees worldwide. Won orders from CompuServe, Sprint, Grolier, France Telecom, Juno Online, VeriSign, MPath, OzEmail.
+
+Competition
+Low end: Solect (Toronto, 1993) -- smaller ISPs up to 30K, single-server, limited extensibility.
+High end: Kenan EC/Arbor (Lucent acquisition) -- telecom heritage, 2/3 revenue from services, moving to Energy/Utilities.
+
+Alliances
+HP, Sun, Compaq: joint marketing; ITM-B benchmark demos.
+Cisco/VocalTec: metered billing with Netflow technology; IP telephony support.
+Microsoft: NT Server, SQL Server 7, MCIS integration.
+Oracle: Business Alliance Partner; co-marketing.
+System integrators: Andersen Consulting, PriceWaterhouseCoopers, Cap Gemini, AMS, NTTSoft, Sema.
+Also: Convergys GlarNet, VocalTec, XACCT.
+
+Aberdeen Conclusions
+1. Portal continues to identify markets ripe for new products.
+2. Infranet has admirable technology sophistication -- handles high volumes with low latency in strictly transactional fashion.
+3. Pricing model: pay-by-subscriber, low entry point, no server-license penalty.
+Summary: Infranet 6.0 is the stand-out product for real-time customer billing and service. Aberdeen's first choice for traditional and new-breed ISPs with "get big fast" visions.

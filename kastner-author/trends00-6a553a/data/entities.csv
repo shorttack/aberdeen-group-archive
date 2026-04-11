@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2001)","1988-2014","trends00-6a553a","Author/sender of letter"
+"peter-s-kastner","Peter S. Kastner","person","IT-research","active","","1969-present","trends00-6a553a","Chief Research Officer; signatory"
+"webex","WebEx Communications","company","web-conferencing","acquired","Cisco (2007)","1996-2007","trends00-6a553a","Web-based collaboration tool used by Aberdeen Level 3 conferencing"
+"polycom","Polycom","company","videoconferencing","acquired","Plantronics/Poly (2018)","1990-2018","trends00-6a553a","Videoconference hardware in each Aberdeen office; Level 4 conferencing"

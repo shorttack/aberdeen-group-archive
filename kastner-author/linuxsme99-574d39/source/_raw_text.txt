@@ -1,0 +1,31 @@
+AberdeenGroup
+Multiclient Study: Is Linux Already a Viable Alternative OS for Small Business?
+September 1999
+
+Aberdeen Group, Inc.
+One Boston Place, Boston, Massachusetts 02108 USA
+Telephone: 617-723-7890 / FAX: 617-723-7897 / www.aberdeen.com
+
+Preface
+Aberdeen Group has already seen telltale signs of Linux coming of age in the global 2500 market based on our extensive field research over the past year. Linux has arrived in these firms and been found to be a true alternative operating system by businesses extending their computing power downwards and outwards. Major global firms have decreed that the value of the IS infrastructure cannot be maximized without evaluating Linux.
+
+Giant global firms are not the only businesses recognizing the Linux alternative. Indeed, some may argue that it was the small business market segment that first "discovered" the Linux alternative. Aberdeen believes that, at least with regards to the smaller ISPs, retailers and value-added business services, this may well be true. In either case, it is certainly true that small businesses wrestle with the same issues as its larger brethren -- enhancing customer services, boosting employee productivity, raising operational efficiency and building lasting relationships with their business suppliers and partners. This market segment has a tremendous sensitivity -- perhaps even avoidance -- to purchasing any solution that isn't maximally reliable, having low-to-no maintenance, and being demonstrably cost-effective. With an even lower threshold of tolerance for technology glitches that affect revenue and profitability, one begins to see why Linux would hold appeal.
+
+Aberdeen characterizes the small business market as having little technological maturity. Rather, it is a market ripe for technology, a last frontier of real business opportunity for technology suppliers. For suppliers faced with slowing growth and increased competition in their global 2500 customer base, this market -- an estimated 50 million businesses globally -- is becoming a major focus. Indeed, IBM is among those suppliers, which have moved quickly with Linux, including it as an alternative operating system choice on its small business Web site.
+
+The critical questions for both mainstream IT suppliers and IS executives is: Is Linux a viable alternative OS to NetWare, Windows, NT and Unix in the small business solutions and applications space?
+
+Research Outline
+Our research will be conducted in the US, Canada, Brazil, England, France, Germany, Asia (includes Australia, Hong Kong, Taiwan, Japan). Aberdeen will focus on small businesses in the $20M to $100M range. Qualitative research: 25 on-site interviews using RAMP (Rapid Accurate Market Positioning) methodology. Quantitative: 400 telephone interviews.
+
+Subscriber Offerings and Fees
+Research Sponsor* -- $28,000
+Research Subscriber* -- $20,000
+Research Reader* -- $10,000
+
+Contact: Sandra Potter, Research Director, Linux Services, 617-854-5256.
+
+Time Frame: Target delivery January 31, 2000. Acceptance by September 30, 1999.
+
+Why Aberdeen Group?
+Aberdeen Group, Inc. is a Boston-based consulting firm specializing in management issues regarding technology change. Over 45 research analysts. Extensive history of research in computer platforms, operating systems, support services, enterprise applications, network services. RAMP methodology honed over 10 years.

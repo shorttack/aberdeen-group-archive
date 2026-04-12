@@ -1,0 +1,14 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,ubiquitous,snap-appliance-snapshot-2003,Core product category of Snap Appliance; Aberdeen cited NAS as winning combination with ATA for midline.
+ata-disk,ATA / ATA-100 Disk Drives,hardware,Various,1990s-2000s,emerging-enterprise,legacy,snap-appliance-snapshot-2003,"Inexpensive disk technology at core of Snap product line; Snap Server 4200/4500 use 4x ATA-100 disks. Precursor to SATA in enterprise."
+midline-disk,Midline Disk Storage (ATA/SATA),storage,Various,2003-2004,emerging,dominant,snap-appliance-snapshot-2003,Aberdeen taxonomy term; Snap explicitly covers all midline storage categories Aberdeen envisaged.
+snapos,SnapOS,platform,Snap Appliance,2000s,active,obsolete,snap-appliance-snapshot-2003,Proprietary operating system for workgroup Snap Server products; field-hardened for ease of use.
+guardianos,GuardianOS (Linux-based),platform,Snap Appliance,2000s,active,obsolete,snap-appliance-snapshot-2003,Linux-based OS for departmental and enterprise Snap Servers; added snapshots and Windows ADS support.
+raid-5,RAID 5,framework,Various,1990s-2000s,mature,active,snap-appliance-snapshot-2003,Entry-level RAID 5 available in Snap Server 4100 and higher; data protection configuration option.
+raid-1,RAID 1 (Mirroring),framework,Various,1990s-2000s,mature,active,snap-appliance-snapshot-2003,Data protection option in Snap Server 2200 and higher.
+gigabit-ethernet,Gigabit Ethernet,protocol,Various,2000s,emerging,ubiquitous,snap-appliance-snapshot-2003,Dual gigabit-Ethernet adapters in Snap Server 4200/4500 departmental products.
+cifs,CIFS (Common Internet File System),protocol,Microsoft,1990s-2000s,mature,active,snap-appliance-snapshot-2003,Windows file sharing protocol supported by Snap Servers.
+nfs,NFS (Network File System),protocol,Sun Microsystems,1980s-2000s,mature,active,snap-appliance-snapshot-2003,Unix/Linux file sharing protocol supported by Snap Servers.
+datakeeper,DataKeeper Desktop Backup Software,application,Snap Appliance,2000s,active,obsolete,snap-appliance-snapshot-2003,Automated scheduled client backup software bundled with every Snap Server; unlimited Windows client license.
+snap-server-1100,Snap Server 1100,hardware,Snap Appliance,2000s,active,obsolete,snap-appliance-snapshot-2003,"World's best selling NAS server as of 2003; capable and portable file server at workgroup scale."
+snap-server-14000,SnapServer 14000,hardware,Snap Appliance,2000s,active,obsolete,snap-appliance-snapshot-2003,"Enterprise-class; 1.44 TB to 3.0 TB across 12 disks in 3U rack; ADS and NIS security protocol support."

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IT Technology Themes and Trends",
+  "description": "A collection of Aberdeen Group research themes and trends for 2003-2004 authored by Peter S. Kastner, covering twelve strategic IT topics including IT deflation and per-processor software licensing, tiered storage and information lifecycle management, consumer empowerment via Internet, the extinction of best-of-breed IT, Sarbanes-Oxley compliance costs, and real-time consumer tracking. Each theme is framed as an Aberdeen research offering with a pithy headline and analytical summary. The document serves as both a market intelligence snapshot and a business development vehicle for Aberdeen consulting engagements.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,15 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+infiniband,InfiniBand Architecture (IBA),protocol,IBTA (multi-vendor),2001-present,emerging,mature-niche,infiniband-data-center-wp-2002,Switched-fabric I/O interconnect standard; became dominant in HPC/AI clusters; RDMA concepts influenced RoCE and NVMe-oF.
+pci,Peripheral Component Interconnect (PCI),protocol,PCI-SIG (multi-vendor),1992-2006,mature,legacy,infiniband-data-center-wp-2002,Dominant server I/O bus standard at time of writing; 133 MB/s shared bus bandwidth.
+pci-x,PCI-X,protocol,PCI-SIG (multi-vendor),1998-2008,mature,legacy,infiniband-data-center-wp-2002,Extended PCI with higher bandwidth; superseded by PCI Express (PCIe); cited as inadequate for long-term data center needs.
+3gio-pcie,3GIO / PCI Express (PCIe),protocol,PCI-SIG (multi-vendor),2003-present,emerging,active,infiniband-data-center-wp-2002,Serial replacement for PCI bus touted for 2004; became the universal server I/O standard.
+fibre-channel,Fibre Channel (FC),protocol,ANSI (multi-vendor),1994-present,mature,legacy-active,infiniband-data-center-wp-2002,High-performance storage networking protocol; FC SANs widely deployed in large enterprise data centers.
+scsi,SCSI (Small Computer System Interface),protocol,ANSI (multi-vendor),1982-2010,mature,legacy,infiniband-data-center-wp-2002,Ubiquitous parallel server-to-storage connectivity protocol; superseded by SAS and NVMe.
+iscsi,iSCSI,protocol,IETF (multi-vendor),2003-present,emerging,active,infiniband-data-center-wp-2002,SCSI over TCP/IP; cited as an emerging storage networking trend alongside IBA.
+nas,Network Attached Storage (NAS),platform,multi-vendor,1996-present,mature,active,infiniband-data-center-wp-2002,File-level storage over Ethernet/IP; cost-effective alternative to SAN cited in the paper.
+san,Storage Area Network (SAN),platform,multi-vendor,1996-present,mature,active,infiniband-data-center-wp-2002,High-speed storage networking fabric; FC-based SANs were primary enterprise storage at time of writing.
+tcp-ip,TCP/IP,protocol,IETF (multi-vendor),1983-present,mature,active,infiniband-data-center-wp-2002,Dominant networking protocol; IBA carried IP as native network layer for WAN connectivity.
+hca,Host Channel Adapter (HCA),platform,multi-vendor,2002-present,emerging,active,infiniband-data-center-wp-2002,IBA adapter in server connecting to IBA fabric; offloads I/O processing from CPU.
+tca,Target Channel Adapter (TCA),platform,multi-vendor,2002-present,emerging,niche,infiniband-data-center-wp-2002,IBA adapter embedded in storage arrays and I/O devices connecting to IBA fabric.
+blade-servers,Blade Server,platform,multi-vendor,2001-present,emerging,active,infiniband-data-center-wp-2002,High-density server form factor; IBA cited as solving bandwidth/cabling constraints for blade racks.
+rdma,RDMA (Remote Direct Memory Access),protocol,multi-vendor,2002-present,emerging,active,infiniband-data-center-wp-2002,Core IBA capability enabling zero-copy data transfer; influenced RoCE and NVMe-oF in modern AI/ML infrastructure.

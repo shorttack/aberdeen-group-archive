@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,growing,active,computerworld-ilm-waiting-2004,Step 1 of ILM recipe; SANs cited as affordable even for small enterprises by 2004.
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,ubiquitous,computerworld-ilm-waiting-2004,Supplemental to SAN in the centralized storage model; became ubiquitous as predicted.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,computerworld-ilm-waiting-2004,Online pool disk interface for OLTP and high-activity DSS workloads.
+midline-disk,Midline Disk Storage (ATA/SATA),storage,Various,2003-2004,emerging,dominant,computerworld-ilm-waiting-2004,"Aberdeen-coined term for capacity-oriented ATA/SATA disks at ~25% of FC/SCSI cost; emerged as bulk data tier. Wikibon 2011: 85% of enterprise data on SATA/midline at 40% of spend."
+nearline-storage,Nearline Buffered Storage,storage,Various,2003-2004,emerging,standard,computerworld-ilm-waiting-2004,Disk-to-disk backup and restore pool complementing tape; terminology persists in enterprise vocabulary today.
+tape-library,Tape Library / Automation,storage,Various,1980s-2004,mature,declining,computerworld-ilm-waiting-2004,Offline tier for disaster recovery; cited as enormous litigation liability if data retention policy not followed.
+ilm-software,ILM Policy Management Software,application,Various,2004,nascent,mature,computerworld-ilm-waiting-2004,"Cross-application automated ILM software predicted to mature circa 2008-2010; prediction proved correct — EMC, NetApp, HP all shipped mature solutions 2009-2011."
+storage-virtualization,Storage Virtualization,framework,Various,2004,nascent,standard,computerworld-ilm-waiting-2004,Cited as becoming embedded; predicted to drive economies of scale; became standard feature in enterprise storage.
+oltp-storage,OLTP Online Storage (FC/SCSI),storage,Various,1990s-2004,mature,active,computerworld-ilm-waiting-2004,Online dynamic data pool for highest-performance transaction processing workloads.
+disk-to-disk-backup,Disk-to-Disk Backup,application,Various,2003-2004,emerging,standard,computerworld-ilm-waiting-2004,Cited as compressing backup times by up to 50%; part of nearline pool evolution.

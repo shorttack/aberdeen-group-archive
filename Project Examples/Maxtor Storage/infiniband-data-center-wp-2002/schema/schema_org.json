@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "InfiniBand Architecture: Planning the Next-Generation Data Center",
+  "description": "An Aberdeen Group executive white paper published in May 2002 arguing that InfiniBand Architecture (IBA) would replace PCI-based I/O as the dominant data center interconnect within two to three years. The paper evaluates IBA's switched-fabric design against existing SCSI, Fibre Channel, and Ethernet protocols, and predicts adoption beginning in large enterprise and HPC data centers. It identifies blade server and server clustering as the primary early use cases and calls on IT planners to begin phased IBA deployments in 2003.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

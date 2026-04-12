@@ -1,0 +1,8 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,technology-themes-2003-04,Author organization; Boston-based market research and consulting firm.
+peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,technology-themes-2003-04,Group VP Aberdeen Group; author of IT technology themes compilation.
+dell,Dell Technologies,company,PC / Enterprise IT Hardware,active,,1984-present,technology-themes-2003-04,Cited as channel master and consumer power case study alongside Wal-Mart.
+walmart,Wal-Mart,company,Retail,active,,1962-present,technology-themes-2003-04,Cited as channel master driven by consumer empowerment and supply chain innovation.
+nielsen-company,Nielsen Company,company,Market Research / Consumer Analytics,active,,1923-present,technology-themes-2003-04,Cited as old-model consumer tracking via Nielsen families; contrasted with new real-time web analytics.
+oracle,Oracle Corporation,company,Enterprise Software,active,,1977-present,technology-themes-2003-04,"Implied as emerging colossal IT firm with astronomical R&D; later confirmed acquirer in best-of-breed extinction wave (PeopleSoft 2004 Siebel 2005 Sun 2010)."
+sap,SAP SE,company,Enterprise Software,active,,1972-present,technology-themes-2003-04,Implied as colossal integrated ERP vendor; CFO preference for pre-integrated applications cited.

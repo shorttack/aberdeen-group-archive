@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Waiting for ILM?",
+  "description": "Published in Computerworld in July 2004, this advisory column by Aberdeen's Peter Kastner defines Information Life Cycle Management (ILM) as policy-driven data migration across a storage hierarchy and argues that cross-application ILM software is 4-5 years from maturity. Kastner provides a practical six-step recipe for enterprises to begin ILM adoption immediately using a four-pool storage model (Online/Midline/Nearline/Offline). The article predicts that mature ILM software arriving circa 2008-2010 will reduce storage-related production hours by 80%.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2004-07-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

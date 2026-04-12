@@ -1,0 +1,37 @@
+RAMP Interview for Maxtor Project
+
+Mr. Harvey Sietsema, Jr.
+Applications Programming Manager
+Kaiser Foundation Health Plan, Inc.
+Walnut Creek, CA
+
+Harvey is an IT user of storage, but not a manager of storage.  Getting a slightly different perspective (especially for a healthcare organization when the storage demands are increasing for healthcare organizations) is useful to prevent getting locked into one way of looking at the issue.  
+
+Kaiser Permanente is in the healthcare business with $22B in revenue and 100,000 people.  Kaiser uses a mainframe and he has responsibility in that area.  Kaiser is primarily a mainframe shop in northern California. 
+
+Management Data Repository (MDR) on DB2 is the primary application.  The MDR is a homegrown system with human resources, patient, and cost data.  The system is unique to Kaiser and predates claims adjustment and outpatient information.  They are trying to move to a new clinical information system that will supercede MDR.  
+
+The MDR is in northern California.  Southern California does not have MDR.  Northern California was the original home of Kaiser Permanente so it has relatively solid processes.  In the north, physicians' notes are scanned into the system, whereas in the south they are entered by hand, which can have a higher error rate.  
+
+The Automated Medical Record Initiative will be the next generation system.  Kaiser made the decision not to continue developing systems.  Instead Kaiser will work with Epoch.  This will impact the MDR.  The Clinical Data Repository (CDR) may migrate in 2-3 years.
+
+There are 2200-3000 users in California, primarily in northern California using SAS.  The information is run on an IBM mainframe.  This system coordinates operational data in northern California.  There are long-standing SLAs.
+
+A CIMS system that is a huge costing database that runs on a mainframe on a hierarchical database.  Basically, it runs on a mainframe, but some feeds are not mainframe.  There are long-standing agreements, and most of the stuff runs like clockwork.
+
+The CIO reports to the CIO.  The CIO is also the Chief Administrative Office.
+
+Kaiser Permanente is divided into regions and each region has its own information organization.  Kaiser needs to improve the business rules in the ROCs (Regions Outside California).  Kaiser wants to do product line pricing.  It is easy to mess up the plumbing; refurbishing the interfaces is a big time activity.  There is also an initiative to put together a uniform chart of accounts.  
+
+HIPAA is resulting in massive training for all contractors.  
+
+Business cases have become much more stricter; ROI is much more comprehensive; business has more control.  
+
+Comments
+Kaiser-Permanente may be an extreme case because of its size, but it represents the numerous problems that healthcare companies have going forward:
+    - In effect, Kaiser is a collection of separate healthcare companies that have the Kaiser name, but have different cultures, business process, and disparate information systems so it cannot have any real economies of scale nor benefit from the diversity that a conglomerate would have to balance out the economic cycle (i.e., all the business units are in the same business and face the same economic pressures).
+    - Migrating to a new system is just a replacement of one system at one location, but trying to replace a similar function at more than one site.
+    - Healthcare systems range from billing and patient record keeping to clinical records with the need to improve the interfaces among them.
+    - Additional requirements such as HIPAA increase the challenges to a healthcare organization.
+
+In effect, applications are going to be the tail that wags the storage dog.  Kaiser will not be able to move to an information utility because the IT environment will be chaotic and not subject to the planning that an information utility requires.  Disk storage sales will be opportunistic based upon the application.  

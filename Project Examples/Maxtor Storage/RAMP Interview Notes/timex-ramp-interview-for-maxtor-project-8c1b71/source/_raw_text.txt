@@ -1,0 +1,54 @@
+RAMP Interview for Maxtor Project
+
+Mr. Robert Lutz
+Manager, Information Technology Operations
+Timex
+Middlebury, CT
+
+Date: April 16, 2003
+
+Timex is a privately held consumer manufacturing company (watches) with 5000 employees worldwide.
+
+The total IT budget is between $10M and $24 M.
+
+The CIO reports to the CFO.
+
+Bob has responsibility for the entire company.  The company uses Window and Linux.  There are 6 TB in Middlebury and 10 TB WW.  80% of this storage is in use..  He expects that both Windows and Unix will increase 10% in the next 12 months.  The 80% is the maximum that he wants disk space to be used.
+
+20% of Windows storage is internal direct attached storage whereas 80% is part of a SAN while with Unix 20% is internal direct-attached storage and 80% is external direct-attached storage.  
+
+How many copies of tape storage depends upon the application.
+
+80% of his data is inactive data (in response to the question do you have some data that is effectively read-only or seldom written).  Data warehousing and unique large files (images of watches for advertising) are the prime examples, but even OLTP is written-once and CAD/CAM is seldom written after a certain release point is reached.
+
+Relatively to using higher capacity disks with slightly less performance and availability and getting a 50% cost reduction he is very unwilling (2) to use.  The same rating is for current disk sizes and performance, but slightly less availability and getting a 30% cost reduction.  The reason is that he likes to have flexibility and there is a question of having extra administrative work if there is another level of disks to manage.  The costs of disks has gone down so they are not a big factor in the equation as compared with administrative costs.  It would be a big job to manage a hierarchy so it doesn't make sense and he doesn't have the resources.  
+
+HP and EMC have talked about a lower cost option, but he has not purchased and he is not likely to (2) in the next 12 months.  
+
+His organization has to restore at least one volume less than once a year.  
+
+He has several applications, as discussed earlier, that have very large non-changing data.
+
+20% of storage is SCSI and 80% s FC.  
+
+He uses hot backups and has no problem with backup jobs failing to run to completeion.  However, he cannot guarantee that all critical data can be restored, backup is an operational burden, and the time to restore critical data is longer than he would like.
+
+For terms, active archiving is planned storage hierarching, online archiving is being able to archive from a more active to a more historical type of environment, he has never heard of mezzanine storage, nearline storage means archiving to a CD, and low low-cost storage means a CD or floppy disk.  
+
+Timex has several data centers, but the main one is in Middlebury.  There are no full time people on storage.  The responsibility is spread over a number of system administrators.  There are no performance bottlenecks.  No formal SLAs are in place.
+
+They use HP robotic tape drives with HP Omniback software.  Incrementals are taken daily with weekly full backups.  They use RAID5 with some mirroring.  
+
+The primary data application is Oracle Financial for order entry, etc.  The production database is 1TB and is expected to stay the same for next year.  It is run on Unix.  The system is an HP FC60 on direct attached storage.  The array is dedicated to the application.  It is FC and there is no performance bottleneck.  No formal SLA.  A daily incremental tape is used for backup with a weekly full.  4 generations of tape are kept with 1 generation offsite.  Issue of manageability would prevent movement to less expensive disk media.
+
+Oracle has test instances.  
+
+The primary file-based application is Microsoft Exchange for e-mail and is about 1 TB.  It is run on Windows on a SAN.  There are other applications on the SAN, for example, the data warehouse is on the SAN as well as Active Project (images).  The SAN is FC-based using a Compaq SAN unit.  There are no performance bottlenecks and no formal SLAs.  Incrementals or a full backup are the backup methods. 4 generations are kept.  RAID5 is used on the array. E-mail is retained indefinitely on the array as he doesn't have the people to get rid of it.  There is a lot of data not used, but the problems of cleaning it up are more costly than new disk.
+
+The third major application is Active Project.  This is a combination of imaging, project management, Web page, CAD/CAM with the information shared within the company as well as with vendors.  It is Windows-based on a SAN.  There are issues with backup.  
+
+He is trying to keep budget flat or bring it down.  They lease equipment on a 3 year cycle using the operating budget.  They do not to a TCO/ROI analysis.  Since he has had to reduce headcount, he has to reduce complexity by trying to simplify things.  
+Comments
+Bob has a clear understanding that much of his data is inactive data, but his reasons for not wanting to consider low-cost disk alternatives are illustrative.  With tight budgets and decreasing headcount, he does not dare to introduce another level of disks to manage, as there is the danger of extra administrative work.  Disk costs are small as compared to administrative costs.  
+
+Transparency and significant cost savings would be the requirement to sell the "Bobs" of the world.

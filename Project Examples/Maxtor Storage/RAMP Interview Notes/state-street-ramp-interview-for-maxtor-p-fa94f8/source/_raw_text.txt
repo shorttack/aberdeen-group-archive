@@ -1,0 +1,71 @@
+RAMP Interview for Maxtor Project
+
+Mr. Prithwi R. Thakuria
+Vice President, Information Technology, Data Management Services
+State Street
+Westwood, MA
+
+State Street is in the banking/financial/insurance business category with sales of over $5B.  
+
+The total IT budget is $129M.
+
+The CIO reports to the President/CEO.
+
+He has responsibility for a little bit of both the entire company and a division or business unit.
+
+State Street uses mainframes, Windows, and Unix/Linux, but he is responsible for the Unix/Linux side.
+
+About 1 TB of Unix storage is available and about 600GB is actually allocated.  He expects Unix storage to increase 15% in the next 12 months and feels that 80% is the maximum percentage used that he would like to see his storage become.  All Unix is on a SAN.
+
+No extra online copies are kept locally, but all production systems are replicated to another data center for disaster recovery purposes.
+
+OLTP is both read write; data warehousing is read-only, but the operational data store (ODS) that they use is read/write.  He considers e-mail as read-only or seldom written.  They have unique large files in the form of blobs or large objects that relate to corporate actions, but this is part of a workflow process so he views them as not read-only or seldom written.  
+
+On a 7 point scale, he rates as a 6 higher capacity disks with slightly less performance and availability and getting a 50% cost reduction whereas he rates as a 2 current disk sizes and performance, but slightly less availability and getting a 30% cost reduction.  
+
+Storage vendors have not discussed low cost storage options with him, and he rates as a 7 that he is likely to purchase low-cost disk storage in the next 12 months.
+
+Restoring at least one volume occurs less than once a year.  
+
+There are no applications with very large non-changing/static data.
+
+20% to 30% of Unix storage is SCSI and 70% to 80% is FC.
+Yes for having a problem with the length of the backup window when offline backups are used.  Sometimes backup jobs fail to run to completion.  He believes that all critical data can be restore and that the backup/restore process is not an operational burden, but he agrees that the time to restore critical data is longer than he would like.
+
+In response to understanding terms, he responded:
+Active archiving ? follow business rules to move data from online to other media
+Online archiving ? applies only to databases
+Mezzanine storage ? don't know
+Nearline storage ? don't know
+Low-cost storage ? overall good TCO
+
+The disk storage for which he has responsibility is located in one location.  Although they do not report to him, State Street has 15 to 20 people dedicated to storage administration for all of its storage.  
+
+The disk storage he is responsible for is FC disk on a SAN connected to Unix servers.  
+
+Any performance problems are network related.
+
+He has a formal SLA (Service Level Agreement).  
+
+The use a tape library and backups seem to run satisfactorily in a 12 a.m. to 6 a.m. backup window.  Three generations of backup are kept.  Data is kept 10 years.  
+
+They use RAID-1 on a Symmetrix and plan to upgrade to DMX.
+
+There are no other layers of the storage hierarchy other than disk and tape.  
+
+His primary database application is the Corporate Actions System, which is a financial transactions workflow that is used by investment managers at customers such as Fidelity.  800GB are allocated for this application.
+
+The disk array upon which this application runs also runs CDW (Client Data Warehouse), which is basically an operational data store.
+
+The benefits that could be derived from moving this data to a less expensive disk storage media is to save money ? overall reduction in TCO, not just cost of individual devices.  
+
+The primary file-based applications are Lotus Notes and Microsoft Exchange, but he does not have responsibility for them.  
+
+A third application is a data warehouse for marketing.  Don't know how big this will be.  
+
+Comments
+Large organizations have multiple storage-purchasing decision makers and that can be by business unit as well as by operating system or application.  Wherever there is a silo that operates relatively independently.  However, the move to a SAN where multiple operating systems and applications have data on the SAN may complicate the purchasing decision if the IT operations group is not operating as a utility.  
+
+He views low cost disk as providing TCO savings as well as direct lower costs for the devices themselves and is likely to buy even though his principal application provides critical information to outside clients within an SLA.  That would seem to indicate that he feels comfortable with both the availability and performance characteristics of low-cost disk and can therefore safely respond to budget management pressures.  
+
+

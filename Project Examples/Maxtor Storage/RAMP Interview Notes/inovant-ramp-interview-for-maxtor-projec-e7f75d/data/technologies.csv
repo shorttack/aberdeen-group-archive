@@ -1,0 +1,13 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+fibre-channel,Fibre Channel (FC),protocol,Industry Standard,1994-present,dominant,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"95% of Inovant storage; dominant at financial-sector scale; FROM CACHE"
+scsi,SCSI (Small Computer System Interface),protocol,Industry Standard,1986-2003,mature,legacy,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Only 5% of Inovant storage; minority and declining; FROM CACHE"
+ata-disk,ATA Disk (IDE/ATA-100),platform,Industry Standard,1994-2003,emerging,legacy,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Low-cost disk technology being evaluated; Inovant rated 2/7 adoption willingness; FROM CACHE"
+nas,Network Attached Storage (NAS),platform,Industry Standard,1996-present,growing,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"All Unix/Linux storage at Inovant is NAS; FROM CACHE"
+raid-1,RAID 1 (Mirroring),protocol,Industry Standard,1988-present,mature,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"RAID 0+1 used; 1 extra online copy; FROM CACHE"
+ibm-db2,IBM DB2,application,IBM,1983-present,mature,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Credit card dispute application runs on DB2; 10TB centralized; FROM CACHE"
+lto,LTO (Linear Tape Open),platform,IBM/HP/Seagate,2000-present,growing,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"IBM 3584 tape library using LTO; 8-10 onsite copies + 5 offsite; FROM CACHE"
+ibm-3584-tape-library,IBM 3584 Tape Library,platform,IBM,1999-present,mature,[DEFERRED],inovant-ramp-interview-for-maxtor-projec-e7f75d,"Enterprise tape library at Inovant; LTO technology; primary backup platform"
+oltp-systems,Online Transaction Processing (OLTP),platform,Industry Standard,1970s-present,dominant,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Core workload; OLTP data is read-write; not suitable for midline storage; FROM CACHE"
+optical-storage,Optical Storage,platform,Various,1985-2005,mature,legacy,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Used for archiving at Inovant; online archiving done to optical or virtual tape"
+virtual-tape,Virtual Tape Library (VTL),platform,Various,2000-present,emerging,active,inovant-ramp-interview-for-maxtor-projec-e7f75d,"Online archiving to virtual tape at Inovant; alternative to optical"
+credit-card-dispute-image-app,Credit Card Dispute Image Application,application,Inovant,2000-present,active,[DEFERRED],inovant-ramp-interview-for-maxtor-projec-e7f75d,"10TB application; card scan images (e.g. check stubs); 50% of data read-only; DB2; one central location; major static-data use case"

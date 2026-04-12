@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Maxtor RAMP Disk Storage Usage Questionnaire v2",
+  "description": "Refined second version of the Aberdeen Group telephone survey questionnaire for the Maxtor RAMP project. Streamlines the v1 instrument to 17 survey questions and a demographic section, with key enhancements: per-OS storage breakdowns (Q4.1-Q4.3) for mainframe / Windows / Unix separately, introduction of a 1-7 Likert willingness-to-tradeoff scale (Q9) testing three distinct cost-performance scenarios (50% cost reduction with lower availability; 30% with less availability; 30% with same availability), vendor engagement probing (Q10-Q11), restore frequency measurement (Q12), static data application identification (Q14), and a refined terminology awareness battery testing five terms. The instrument was used to collect data from approximately 70 enterprise IT decision-makers.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner; David Hill (Aberdeen Group)"
+  },
+  "datePublished": "2003-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

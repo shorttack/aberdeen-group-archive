@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+das-internal,Internal Direct-Attached Storage (DAS),storage,Various,1980s-2003,mature,legacy-active,maxtor-survey.v.2-d5b538,Architecture type in Q4.1-Q4.3 per-OS storage breakout. [FROM CACHE]
+das-external,External Direct-Attached Storage (DAS),storage,Various,1990s-2003,mature,legacy-active,maxtor-survey.v.2-d5b538,Architecture type in per-OS storage breakout — external DAS.
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,growing,active,maxtor-survey.v.2-d5b538,Architecture type in Q4.1-Q4.3 per-OS breakout. [FROM CACHE]
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,maxtor-survey.v.2-d5b538,Architecture type in per-OS storage breakout. [FROM CACHE]
+scsi-disk,SCSI Hard Disk Drive,hardware,Various,1986-2006,mature,legacy,maxtor-survey.v.2-d5b538,Q15(a) disk technology breakout — SCSI percentage / sizes / speeds. Open-systems arrays only.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,maxtor-survey.v.2-d5b538,Q15(b) disk technology breakout — FC percentage / sizes / speeds. Open-systems arrays only. [FROM CACHE]
+ata-disk,ATA Hard Disk Drive,hardware,Maxtor; Various,1986-2006,growing,superseded-by-sata,maxtor-survey.v.2-d5b538,Q15(c) disk technology breakout — ATA percentage / sizes / speeds. Core midline storage subject.
+serial-ata,Serial ATA (SATA),hardware,Various,2000s,emerging,active,maxtor-survey.v.2-d5b538,Successor to ATA; not yet named in survey but implicit in ATA category trajectory. [FROM CACHE]
+tape-automation,Tape Automation,storage,Various,1980s-2003,mature,legacy-active,maxtor-survey.v.2-d5b538,Q5(b) — tape copy count measurement; lower storage tier. [FROM CACHE]
+point-in-time-copy,Point-in-Time Copy / Snapshot,storage,Various,1990s-2003,growing,active,maxtor-survey.v.2-d5b538,Q5(a) — online disk copies probed. [FROM CACHE]

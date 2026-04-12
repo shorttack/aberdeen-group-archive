@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RAMP Interview: Inovant / Visa (Maxtor Midline Storage Study)",
+  "description": "Face-to-face RAMP interview with Paul Orleman, Department Head for Direct Exchange Infrastructure at Inovant (Visa's technology subsidiary), capturing the financial-sector perspective on ATA midline storage adoption. Inovant operated 20TB with 30% utilization, 95% Fibre Channel, and rated willingness to adopt low-cost disk at only 2/7 due to extreme SLA requirements for member bank transactions. The credit card dispute image application (10TB, 50% read-only, DB2) represented a major static-data use case that theoretically suited lower-cost storage but was protected by availability requirements too stringent to permit migration.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, David Hill"
+  },
+  "datePublished": "2003-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

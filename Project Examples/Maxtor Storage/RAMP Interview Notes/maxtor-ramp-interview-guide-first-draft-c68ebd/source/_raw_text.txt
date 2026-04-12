@@ -1,0 +1,150 @@
+Company	
+Name	
+Title	
+Address	
+Telephone	
+# of employees*	
+Revenues*	
+Line of business	
+Scope: Organizational	Location   Division   Business Unit  Subsidiary  Corporation
+Other (Specify) ______________________________________
+Scope:  Geographic	North America     International   Global 
+Responsibilities
+
+	
+Work Background
+
+	
+
+*  If either of these numbers  is not for the  unit respondent is discussing, please specify - for instance, revenues are likely to be available only for the corporation.
+Introduction:  Use of Storage.  We seek to understand how storage is used in enterprises.  To start out we need to understand some basics about your use of storage.  
+Total Storage.
+First, I would like to ask you some general questions about your total storage and your basic storage-related policies.
+Question	Answer
+    1) Where is your disk storage located - one central location, selected data centers, broadly distributed, etc.?	
+    2) How much disk storage do you have in each of the key areas where you have disk storage?  Please differentiate between total space available and space that is actually used.  Also, what is the maximum % full that you want for your disk storage.	
+    3) How much do you expect the storage in each area to grow in the next 12 months?	
+    4) Do you have specific people assigned full-time to the management of this storage?  If so, how many?  If not, how do you manage this storage?	
+    5) How do you break out this storage by type of storage architecture - internal DAS, external DAS, SAN, or NAS?	
+    6) What OS (es) do you use with this storage?  Please match up to storage architecture and the amount of storage used for each OS.	
+    7) Please describe the disk technology that is used with this storage - SCSI, FC, or ATA; size in GB; and rotational speed?	
+    8) Do you notice any performance bottlenecks with the applications that use this storage?  If yes, is that bottleneck CPU, network, or storage-based?  If no, as storage increases, where do you think the first bottleneck might arise?	
+    9) What are the availability/ performance criteria that you have in place?  Is this informal or is this part of an SLA?  What are the consequences of higher unavailability than planned? of lower performance?	
+    10) What type of tape automation infrastructure do you have in place to support your online disk storage?  Please discuss the number of tape automation products, the number of drives in each, and the number of slots.	
+    11) What is the backup window (or is it online backup)?  Are there any issues with backup, such as you are running out of backup window or backup jobs fail to run to completion more often than planned?	
+    12) How many generations of backup do you keep?	
+    13) How is the data protected other than backup, e.g. RAID, remote mirroring, point-in-time copy?	
+    14) What is the retention policy for this data, i.e., what are the policies for keeping a particular piece of data online, such as age, transaction closure, etc.?	
+    15) For a piece of data that is available online, how many copies do you have:
+        ? On disk
+        ? On tape for backup purposes located onsite
+        ? On tape for disaster recovery purposes located offsite	
+    16) The storage hierarchy represents the different types of storage (such as disk and tape) that you have in your organization. Do you have any other layers of the hierarchy other than high-performance online disk and tape?  If yes what are they?   	
+Background to Application-Specific Questions
+We need to understand how your key applications use storage and the issues that may arise as a result.  We are going to ask about up to three of your most important applications.  Some of the questions may be the same as when you were asked about your total storage.  The reason that we ask these questions is that the specific application may do something differently than is true generally for the total.  If not simply answer the same.  The first application we will ask about is your primary database application.
+
+Classification of Key Applications (reference data for the interviewer)
+Category	Type	Distinguishing Characteristics
+Database	Traditional Online Transaction Processing (OLTP) (such as order entry)	Update intensive (both reads and writes, but focus is on writes)
+Database	Contemporary OLTP (such SAP/R3)	Mix of writes and reads - updating for transactions, but also random reads
+Database	Business intelligence (such as data warehousing)	Query intensive (primarily sequential reads)
+File/Database 	Web application	Primarily random reads with a little transaction processing
+File	Personal productivity (such as e-mail)	Write once, read once to many times
+File	Interactive design (such as CAD/CAM and post production editing)	Mix of reads and writes on large pieces of data
+File	Unique large files (such as X-rays and MRIs)	After creation, the content of the file is fixed (in fact, inalterable would be good) and is read only
+File	Large file distribution (such as MP3 and video files)	Read-only access of previously-created large bit-mapped files
+
+First, we would like to ask you about your primary data application.
+Primary Data Application
+Questions	Application #1
+1)  What is the name of this application?	
+2)  What is its major function, e.g., billing, e-mail?	
+3) How much storage does this application use currently?	
+4) How much do you expect this application to grow in the next 12 months?	
+5)  What OS do you run this application on?	
+6)  What storage architecture do you use with this application ? internal DAS, external DAS, SAN, or NAS?	
+7) Is the disk array on which this application resides shared with other applications?  (If yes, we want to know how much of the storage is for this application vs. other applications; if no, we want to know if there are any reasons why no other applications share this storage.)	
+8)  Where is this application located ? one central location, selected data centers, broadly distributed, etc.?	
+9)  Please describe the disk technology that is used with this application ? SCSI, FC, or ATA; size in GB; and rotational speed?	
+10)  If there were to be a performance bottleneck for this application, would it be CPU, network, or disk? 	
+11)  What are the availability/ performance criteria that you have in place?  Is this informal or is this part of an SLA?  What are the consequences of higher unavailability than planned? of lower performance?	
+12)  What is the backup window (or is it online backup)?  Are there any issues with backup, such as you are running out of backup window or backup jobs fail to run to completion more often than planned?	
+13) How many generations of backup do you keep?	
+14)  How is the data protected other than backup, e.g. RAID, remote mirroring, point-in-time copy?	
+15)  What is the retention policy for this data, i.e., what are the policies for keeping a particular piece of data online, such as age, transaction closure, etc.?	
+16)  Is there a lot of data in this application that spins around, such as closed transactions or old e-mail that you would like to move to more cost-effective disk storage media if available?  At this time, what percentage of the data in the application do you think that this is?	
+17) If you could move some or all of this application data to a less costly disk technology, what would be acceptable to you from this new technology?
+    a) No larger disks with similar performance and availability characteristics
+    b) Higher capacity disks with slightly lesser performance and availability characteristics	
+18)  What benefits would you gain if you could move this data to a less expensive disk storage media?  (Is the focus more on manageability or cost?)	
+
+
+Now we would like to ask you about your primary file-based application
+Primary File-Based Application 
+Questions	Application #2
+1)  What is the name of this application?	
+2)  What is its major function, e.g., billing, e-mail?	
+3) How much storage does this application use currently?	
+4) How much do you expect this application to grow in the next 12 months?	
+5)  What OS do you run this application on?	
+6)  What storage architecture do you use with this application ? internal DAS, external DAS, SAN, or NAS?	
+7) Is the disk array on which this application resides shared with other applications?  (If yes, we want to know how much of the storage is for this application vs. other applications; if no, we want to know if there are any reasons why no other applications share this storage.)	
+8)  Where is this application located ? one central location, selected data centers, broadly distributed, etc.?	
+9)  Please describe the disk technology that is used with this application ? SCSI, FC, or ATA; size in GB; and rotational speed?	
+10)  If there were to be a performance bottleneck for this application, would it be CPU, network, or disk? 	
+11)  What are the availability/ performance criteria that you have in place?  Is this informal or is this part of an SLA?  What are the consequences of higher unavailability than planned? of lower performance?	
+12)  What is the backup window (or is it online backup)?  Are there any issues with backup, such as you are running out of backup window or backup jobs fail to run to completion more often than planned?	
+13) How many generations of backup do you keep?	
+14)  How is the data protected other than backup, e.g. RAID, remote mirroring, point-in-time copy?	
+15)  What is the retention policy for this data, i.e., what are the policies for keeping a particular piece of data online, such as age, transaction closure, etc.?	
+16)  Is there a lot of data in this application that spins around, such as closed transactions or old e-mail that you would like to move to more cost-effective disk storage media if available?  At this time, what percentage of the data in the application do you think that this is?	
+17) If you could move some or all of this application data to a less costly disk technology, what would be acceptable to you from this new technology?
+    c) No larger disks with similar performance and availability characteristics
+    d) Higher capacity disks with slightly lesser performance and availability characteristics	
+18)  What benefits would you gain if you could move this data to a less expensive disk storage media?  (Is the focus more on manageability or cost?)	
+
+Now I would like to ask you about a third application.  This application can be either database or file-based.  The key is that this application should use a large amount of the storage that is left after the first two applications have been accounted for.  Unless the storage required by this application is at least 10% of the total storage or half a terabyte or greater, we can skip.
+Third Application
+Questions	Application #3
+1)  What is the name of this application?	
+2)  What is its major function, e.g., billing, e-mail?	
+3) How much storage does this application use currently?	
+4) How much do you expect this application to grow in the next 12 months?	
+5)  What OS do you run this application on?	
+6)  What storage architecture do you use with this application ? internal DAS, external DAS, SAN, or NAS?	
+7) Is the disk array on which this application resides shared with other applications?  (If yes, we want to know how much of the storage is for this application vs. other applications; if no, we want to know if there are any reasons why no other applications share this storage.)	
+8)  Where is this application located ? one central location, selected data centers, broadly distributed, etc.?	
+9)  Please describe the disk technology that is used with this application ? SCSI, FC, or ATA; size in GB; and rotational speed?	
+10)  If there were to be a performance bottleneck for this application, would it be CPU, network, or disk? 	
+11)  What are the availability/ performance criteria that you have in place?  Is this informal or is this part of an SLA?  What are the consequences of higher unavailability than planned? of lower performance?	
+12)  What is the backup window (or is it online backup)?  Are there any issues with backup, such as you are running out of backup window or backup jobs fail to run to completion more often than planned?	
+13) How many generations of backup do you keep?	
+14)  How is the data protected other than backup, e.g. RAID, remote mirroring, point-in-time copy?	
+15)  What is the retention policy for this data, i.e., what are the policies for keeping a particular piece of data online, such as age, transaction closure, etc.?	
+16)  Is there a lot of data in this application that spins around, such as closed transactions or old e-mail that you would like to move to more cost-effective disk storage media if available?  At this time, what percentage of the data in the application do you think that this is?	
+17) If you could move some or all of this application data to a less costly disk technology, what would be acceptable to you from this new technology?
+    e) No larger disks with similar performance and availability characteristics
+    f) Higher capacity disks with slightly lesser performance and availability characteristics	
+18)  What benefits would you gain if you could move this data to a less expensive disk storage media?  (Is the focus more on manageability or cost?)	
+
+Miscellaneous Questions
+What do these terms mean to you?
+Term	Answer
+Nearline storage	
+Active archiving	
+Mezzanine storage	
+
+The size of disks is constantly increasing yet the speed of disks is not increasing as rapidly as the disk size.  Even with this situation, do you plan on moving to larger capacity disks?
+_______________________________________________________________
+Why or why not?
+______________________________________________________________
+
+Who does the CIO in your organization report to?
+Title	Answer
+Chief Financial Officer (CFO) (or equivalent title)	
+President/CEO (or equivalent position)	
+Other.  Please name title.	
+
+
+
+

@@ -1,0 +1,74 @@
+RAMP Interview for Maxtor Project
+
+Mr. Bill Foley
+Director, Computing & Intranet Services
+Applied Materials
+Santa Clara, CA
+
+Applied Materials is in the industrial manufacturing business.  It has $6B in revenues and 23,000 people.
+
+The company uses both Windows and Unix/Linux operating systems, but he has responsibility for Windows.  
+
+There is 16 to 20 TB of Windows storage, 60% of it is used, and it is expected to grow at 20% in the next 12 months.  He would like the percentage of use to rise to 80%.  80% of this storage is internal direct-attached storage, whereas 20% is on a storage area network.  He keeps 2 online copies.  The number of tape copies varies by application.  
+
+He has some data that is effectively read-only or seldom written, but he feels that this is very small as applications typically tend to be both read and write.  
+
+On a scale of 1 to 7, his willingness to try higher capacity disks with a 50% cost reduction is a 6, but he is completely unwilling (1) to try current capacity disks with slightly less availability at a 30% cost reduction.  Availability is a key issue, but it would not be as critical for online development.
+
+HP, IBM, and EMC have all discussed low-cost disk storage options with him, but he has not purchased any and is unlikely to do so on a massive scale.  EMC is the main supplier, but he also has HP.
+
+Restores of at least one volume occur less than once a year.
+
+He has no single large applications with very large non-changing/static data.  
+
+80% of storage is SCSI and 20% is FC.
+
+He has a problem with the backup window, but jobs run well and he can guarantee that all critical data can be restored.  However, backup is an operational burden and the time to restore is longer than he would like.
+
+As far as terms go,
+Active archiving ? scheduled real-time archiving
+Online archiving ? real-time archiving
+Mezzanine storage ? don't know
+Nearline storage ? proximity
+Low-cost storage ? lower cost
+
+His IT budget is between $1M and 4$M.
+
+The CIO reports to the President/CEO.  
+
+His responsibility is global.  
+
+Storage is distributed campus-wide, but he hopes to consolidate.  50% of his storage of 16 to 20 TB is distributed over the campus and 50% is in the data center.  
+
+The Window group does not have specific people assigned to storage, but the Unix people do.
+
+They have service availability agreements called MDA (mutual delivery agreements).  If requirements are not met, the worst case scenario would be that it would be revenue impacting.  
+
+They use an LTO-based tape library.
+
+RAID5 is used to protect the data.  
+
+Retention policy varies.  One application is at 3 years, but others are just accumulating.  
+
+Disk and tape are the members of the storage hierarchy although a solid state device is used, but not in the U.S.
+
+Outside his responsibility, the company runs SAP using Oracle on Unix.  There is only one location for this database although there are distributed sites that feed off the master.  There are no formal service level agreements.  
+
+The backup is late at night after midnight for about an hour.  The data is mirrored.  
+
+The main file-based application is Lotus Notes that provides e-mail and online databases.  He expects this to grow by 20% in the next 12 months.  It runs on Windows.  Parts are on the SAN and parts are not.  This application is shared on an EMC Symmetrix with Unix applications.  The data is at one site and is on FC-based disk.  There are no performance bottlenecks.  There are no formal SLAs , but there are informal expectations.  The data is RAID protected.
+
+The bulk of the data is still read/write for e-mail.  They wipe out data over 3 months.  The user can archive to a laptop or a desktop.
+
+Reliability is the key to moving any of this application data to a less costly disk technology.  
+
+The third application is CAD/CAM which takes up 4TB and is expected to grow at 30to 35% over the next 12 months.  The client code is on Windows, but the main side is Unix.  It is run on an external direct attached array that was originally provided by Compaq.  
+
+The application is at a central site, but there is distributed data.  The disk technology used is SCSI.  There are no performance issues at this point.  No formal SLA.  Reliability and serviceability are issues in moving to less costly disk technology.  
+
+Both TCO and ROI are used in financial analysis.  ROI is more detailed with a 24 month payback, but TCO is more fluid.  Everything is on a project-by-project basis.  
+
+Comments
+Although much data is really read only, it is really hard to separate out what is effectively read-only from what still could be written to.  IT managers do not think in those terms.  They think in terms of applications and what the applications are capable of doing rather than the composition of databases and files.
+
+Even a small decrease in availability is a red flag to IT managers.  The funny thing is that the difference is likely to be so small overall that they are not likely to experience any problems as a result.  Positive positioning on availability will be important for cost-effective disk.

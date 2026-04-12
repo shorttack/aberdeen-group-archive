@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,state-street-ramp-interview-for-maxtor-p-fa94f8,"70-80% of State Street Unix storage is FC; all on SAN."
+scsi-disk,SCSI Disk,storage,Various,1980s-2000s,mature,legacy,state-street-ramp-interview-for-maxtor-p-fa94f8,"20-30% of State Street Unix storage; being displaced by FC on SAN."
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,growing,active,state-street-ramp-interview-for-maxtor-p-fa94f8,"100% of State Street Unix storage on SAN; FC-based."
+emc-symmetrix,EMC Symmetrix,storage,EMC,1990s-2000s,mature,legacy,state-street-ramp-interview-for-maxtor-p-fa94f8,"In-production RAID-1 platform at State Street; planned upgrade to DMX."
+emc-dmx,EMC DMX (Symmetrix DMX),storage,EMC,2000s,emerging,legacy,state-street-ramp-interview-for-maxtor-p-fa94f8,"Upgrade target from Symmetrix; next-generation Symmetrix architecture announced 2003."
+raid-1,RAID-1 (Mirroring),storage,EMC (via Symmetrix),1990s-2000s,mature,active,state-street-ramp-interview-for-maxtor-p-fa94f8,"State Street uses RAID-1 on Symmetrix for primary Unix workloads."
+lotus-notes,Lotus Notes,application,IBM/Lotus,1990s-2000s,mature,declining,state-street-ramp-interview-for-maxtor-p-fa94f8,"File-based primary email application at State Street; not Thakuria's responsibility."
+microsoft-exchange,Microsoft Exchange,application,Microsoft,1990s-2000s,mature,active,state-street-ramp-interview-for-maxtor-p-fa94f8,"Co-primary email application at State Street; not Thakuria's responsibility."
+ata-disk,ATA (IDE) Disk / Low-Cost Disk,storage,Various,1990s-2000s,emerging,superseded-by-SATA,state-street-ramp-interview-for-maxtor-p-fa94f8,"Low-cost disk under evaluation; Thakuria rates 7/7 likelihood to purchase for TCO savings."
+tape-library,Tape Library,storage,Various,1990s-2000s,mature,active,state-street-ramp-interview-for-maxtor-p-fa94f8,"State Street backup medium; 12am-6am window; 3 generations retained; 10-year data retention."

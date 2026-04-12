@@ -1,0 +1,61 @@
+RAMP Interview for Maxtor Project
+
+Mr. Paul Orleman
+Department Head for Direct Exchange Infrastructure
+Inovant ? A Visa Solutions Company
+
+Inovant is in the Finance business.  Inovant does not publish revenue numbers, but there are over 3,000 people in the company..  
+
+The total IT budget is $70M  The CIO reports to the President/CEO.  He has responsibility within the application development division of the company.
+
+The company has mainframes, Windows, and Unix/Linux.  He is responsible for Windows and Unix/Linux.  There are 20TB of data in his area and 30% is in use.  
+
+Windows takes up 10% of his storage and is expected to increase 50% in the next year whereas Unix/Linux takes up 90% of the storage and he expects a 75% increase next year due to quite a number of development projects that are underway.  He would like to see both Windows and Unix/Linux storage become 80% full.  Windows storage is all internal direct-attached storage and Unix/Linux is all network-attached storage.
+
+He keeps one copy of extra online storage because he uses RAID 0+1.  The number of tape copies varies by application, but about 10 copies.
+
+OLTP is not read-only, but unique large files in the form of image files from card scans (e.g.,  check stubs) are read-only.  The read-only data is about 50% of the data.
+
+He rated as a 2 (on a scale of 1 to 7) both higher capacity disks (50% cost reduction) and current disks (30% cost reduction) as they have very strong availability levels as they are dealing with a lot of member banks.  However, performance is not an issue.  
+
+Z-Force, Dell, NetApp, and EMC (with whom they do a lot of business) are discussed low-cost disk alternatives with him, but he has not purchased any and rates as a 3 his likelihood of buying in the next 12 months.
+
+The need to restore at least one volume of data occurs less than once a year.  
+
+The image application for credit card disputes is a single application with very large non-changing/static data.  
+
+His group is working on 4-5 major applications that include the Web and OLTP.  
+
+5% of storage is SCSI and 95% is FC.
+
+He does not have a problem with the backup window, but backup jobs fail at an unacceptable rate, operational management is a burden, and the time to restore is longer than he would like.
+
+As far as terms are concerned,
+Active archiving ? not familiar with it
+Online archiving ? don't do that; archived to optical or virtual tape
+Mezzanine storage ? didn't know
+Nearline storage ? tapes
+Low-cost storage ? new Dell Computer Corporation
+
+Disk storage is located in two main data centers ? one is San Mateo, and the other is McLean, VA.  There is also a third in Denver.  15TB are in the west and 5TB are in the east.  Storage will grow 70 to 75% in the next year.  The credit card dispute application will grow quickly as more banks sign up for it.  
+
+There is a group of people assigned full-time to manage storage.
+
+There have been no disk bottlenecks, but there have been CPU bottlenecks.
+
+They use an IBM 3584 tape library and use LTO tape.  
+
+They have a primary and a mirror copy of the data.  8 to 10 copies of tape are kept onsite, and 5 copies are kept offsite. 
+
+Only disk and tape in the storage hierarchy.
+
+The credit card dispute application is a 10 TB application running on DB2 in one central location (although he is moving to replicate it).  Other corporate applications use the same array that this application is on.  
+
+The primary file-based system is the front end to the credit card dispute application.    The front end has typically been the VISA access ports that each bank has, but these will be brought in-house as availability is supercritical and high availability in access ports requires a high level of redundancy
+
+The third application is open file delivery to ensure file transfers between his company and member banks.
+
+Comments
+Organizations whose storage is used to run customer-facing applications (and strong SLAs) are not likely to consider low-cost disk alternatives for those applications.  The challenge may be to change their way of thinking for applications for which a low-cost disk alternative is an option.  
+
+Even though technically, the operations group within IT should make the purchasing decision for storage, applications development organizations that have cradle-to-grave responsibilities for applications may be the actual decision makers.  

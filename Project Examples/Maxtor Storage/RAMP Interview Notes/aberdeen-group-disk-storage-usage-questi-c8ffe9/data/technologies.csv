@@ -1,0 +1,13 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+das-internal,Internal Direct-Attached Storage (DAS),storage,Various,1980s-2003,mature,legacy-active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q4(a) first architecture breakout category. [FROM CACHE]
+das-external,External Direct-Attached Storage (DAS),storage,Various,1990s-2003,mature,legacy-active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q4(b) second architecture breakout category.
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,growing,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q4(c) third architecture breakout category. [FROM CACHE]
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q4(d) fourth architecture breakout category. [FROM CACHE]
+scsi-disk,SCSI Hard Disk Drive,hardware,Various,1986-2006,mature,legacy,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q13(a) disk technology breakout — SCSI percentage / drive sizes / rotational speeds.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q13(b) disk technology breakout — FC percentage / drive sizes / rotational speeds. [FROM CACHE]
+ata-disk,ATA Hard Disk Drive,hardware,Maxtor; Various,1986-2006,growing,superseded-by-sata,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q13(c) disk technology breakout — ATA percentage / drive sizes / rotational speeds. Core midline storage subject.
+raid-5,RAID 5 (Parity RAID),storage,Various,1990s-2003,mature,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q7(a) redundancy option — parity RAID as baseline protection level. [FROM CACHE]
+raid-1,RAID 1 (Local Mirroring),storage,Various,1990s-2003,mature,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q7(b) redundancy option — local mirroring. [FROM CACHE]
+point-in-time-copy,Point-in-Time Copy / Snapshot,storage,Various,1990s-2003,growing,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q7(c/d) redundancy — indexed and full-volume point-in-time copies; snapshot count probed. [FROM CACHE]
+remote-mirroring,Remote Mirroring,storage,Various,1990s-2003,mature,active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q7(e) redundancy option — remote mirroring for DR. [FROM CACHE]
+tape-automation,Tape Automation,storage,Various,1980s-2003,mature,legacy-active,aberdeen-group-disk-storage-usage-questi-c8ffe9,Q7(g) and Q8(b) — tape backup generations as copies; foundational lower tier. [FROM CACHE]

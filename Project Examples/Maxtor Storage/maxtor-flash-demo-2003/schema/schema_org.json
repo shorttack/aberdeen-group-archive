@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Maxtor Midline Storage Interactive Demo (Adobe Flash)",
+  "description": "An interactive Adobe Flash (Macromedia Flash 6) demonstration tool created by Aberdeen Group for Maxtor Corporation circa 2003 as a companion to the Mid-Line Disk Storage white paper. The SWF binary visualizes the enterprise storage hierarchy and positions Maxtor's Serial ATA midline drives between high-end Fibre Channel storage and offline tape. Designed as an innovative sales enablement and analyst-led content marketing tool for use by Maxtor's marketing team and in press/analyst interactions.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group / Maxtor Corporation"
+  },
+  "datePublished": "2003-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,20 @@
+SOURCE FILE: AberdeenMaxtorToolDemo_03-2.swf
+STUDY ID: aberdeenmaxtortooldemo-03-2-5a8f38
+TITLE: Maxtor Midline Storage Interactive Demo (Adobe Flash)
+AUTHOR: Aberdeen Group / Maxtor Corporation
+DATE: 2003 (circa)
+
+[METADATA NOTE]
+Adobe Flash SWF file — Macromedia Flash 6 compressed binary. This is a binary file; direct text extraction is not possible.
+
+Interactive demo of midline storage enterprise hierarchy. Cannot extract text from SWF directly.
+
+DESCRIPTION (from context):
+This is an interactive Flash animation demonstrating the enterprise storage hierarchy and where Maxtor's midline storage concept fits between high-end Fibre Channel storage and low-end desktop drives. Created circa 2003 by Aberdeen Group as a sales/marketing tool for Maxtor CMO Stephen DiFranco's midline storage initiative. The concept positioned Serial ATA drives as a new tier in the enterprise storage pyramid.
+
+FILE FORMAT: Macromedia Flash 6 compressed SWF binary
+TECHNOLOGY: Adobe Flash (now defunct; EOL December 31, 2020)
+PURPOSE: Interactive sales enablement tool; visualization of enterprise storage hierarchy
+CONTEXT: Companion to the Mid-Line Disk Storage White Paper (June 2003) by Peter Kastner and David Hill; part of the broader Aberdeen/Maxtor Pools of Storage market creation initiative led by Maxtor CMO Stephen DiFranco
+INNOVATION: Early example (2003) of interactive analyst/consulting content as a sales tool; demonstrates Aberdeen's willingness to create interactive digital deliverables for clients
+CONTENT (inferred): Visualization of storage pyramid tiers; positioning of SATA/ATA midline drives between FC high-end and desktop drives; likely includes ILM/cost comparison elements consistent with the white paper

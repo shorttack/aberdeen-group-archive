@@ -64,7 +64,7 @@ This data package contains the structured archival ingest of a 2003 proposal let
 | TECH-004 | Intel Trusted Execution Technology (TXT) | not-yet-released | active |
 | TECH-005 | NGSCB (Palladium) | pre-release | cancelled |
 
-### Observations (25)
+### Observations (28)
 
 | Observation Type | Count |
 |-----------------|-------|
@@ -72,7 +72,8 @@ This data package contains the structured archival ingest of a 2003 proposal let
 | strategy-classification | 4 |
 | market-data | 4 |
 | viability-prediction | 4 |
-| actual-outcome | 3 |
+| actual-outcome | 5 |
+| prescience-vindication | 1 |
 | framework-factor | 2 |
 | technology-assessment | 1 |
 
@@ -82,11 +83,11 @@ This data package contains the structured archival ingest of a 2003 proposal let
 |-----------|:-----:|-----------|
 | **Importance** | 7 | Early proposal to expand hardware-based trusted computing to consumer markets at a pivotal moment in platform security history |
 | **Relevance** | 8 | Directly relevant to the evolution from LaGrande Technology to Intel TXT to TPM 2.0 mandates |
-| **Prescience** | 6 | Correctly identified long-term consumer demand for hardware security, but significantly overestimated speed of adoption |
+| **Prescience** | 8 | Core thesis -- consumer PCs need hardware-rooted trusted execution for identity/privacy/trust -- proved visionary; fulfilled by TPM 2.0 mandate and VBS/HVCI defaults in Windows 11 |
 
 ## Historical Context
 
-Intel's LaGrande Technology was renamed **Intel Trusted Execution Technology (Intel TXT)** around 2006. It shipped primarily in enterprise/server Xeon processors. The broader trusted computing ecosystem, including TPM, evolved more slowly than Aberdeen predicted. The consumer market did not adopt hardware-rooted security at scale until **TPM 2.0 became mandatory for Windows 11 in 2021** -- approximately 15 years after Aberdeen's 2006 target date.
+Intel's LaGrande Technology was renamed **Intel Trusted Execution Technology (Intel TXT)** around 2006. It shipped primarily in enterprise/server Xeon processors. The broader trusted computing ecosystem, including TPM, evolved more slowly than Aberdeen predicted. The consumer market did not adopt hardware-rooted security at scale until **TPM 2.0 became mandatory for Windows 11 in 2021** -- approximately 15 years after Aberdeen's 2006 target date. However, Windows 11 also enabled **Virtualization-Based Security (VBS)** and **Hypervisor-Protected Code Integrity (HVCI)** by default on consumer hardware, delivering the functional equivalent of the trusted execution environment Kastner advocated. Microsoft's stated goal was to give "all consumer PCs the same enterprise-grade security as corporate machines" -- essentially restating the 2003 Aberdeen thesis. The prescience grade was upgraded from 6 to 8 to reflect that the directional call on this fundamental platform shift proved correct for billions of devices.
 
 Aberdeen Group itself was acquired by Harte-Hanks in 2008 and later became part of Spiceworks Ziff Davis.
 

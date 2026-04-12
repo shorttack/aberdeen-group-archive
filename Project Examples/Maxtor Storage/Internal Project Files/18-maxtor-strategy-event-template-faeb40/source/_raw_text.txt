@@ -1,0 +1,264 @@
+Structured %
+Semi-Struct. %
+Unstructured %
+Master Volume 
+(GB/hr)
+Online 
+disk
+Nearline 
+tape
+Offline 
+tape
+Online 
+disk
+Nearline 
+tape
+Offline 
+tape
+Midline 
+disk
+Nearline 
+disk
+Cost/GB
+User
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+User
+min
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Downtime bottom line
+Admin Mgt. bottom line
+Opp.Cost Savings
+Revenue Op. bottom line
+max
+Old value
+New value
+Old value
+New value
+Old value
+New value
+Old value
+New value
+Strategy Name
+Event Name
+Struct %
+Sequence Step #
+Bottom Line Benefit
+min
+max
+value
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Flow Direction
+Step Duration 
+(real-world minutes)
+Step description text (empty if none)
+Instructions
+•
+Make 1 copy of this deck per Strategy Event (scenario)
+•
+Fill out all data boxes (in red) on the next slide to describe the first step of the 
+Event
+•
+Use the red text box at the bottom of the page to write the contents of the 
+dialog box text that will occur at the beginning of the step
+•
+Draw a transparent box around any element that needs to be visually 
+highlighted throughout the step
+•
+Duplicate the finished step 1 slide for step 2, just changing what is needed
+•
+Rinse and repeat…use as many slides as it takes
+Note: The values in the red are just examples to show the type of data to enter
+Note: These slides can not be copied and pasted into another deck because the 
+diagram is in the slide master
+Structured %
+Semi-Struct. %
+Unstructured %
+Master Volume 
+(GB/hr)
+Online 
+disk
+Nearline 
+tape
+Offline 
+tape
+Online 
+disk
+Nearline 
+tape
+Offline 
+tape
+Midline 
+disk
+Nearline 
+disk
+Cost/GB
+User
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+Cost/GB
+User
+min
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Struct %
+S-Struct. %
+Unstruct. %
+Downtime bottom line
+Admin Mgt. bottom line
+Opp.Cost Savings
+Revenue Op. bottom line
+max
+Old value
+New value
+Old value
+New value
+Old value
+New value
+Old value
+New value
+Strategy Name
+Event Name
+Struct %
+Sequence Step #
+Bottom Line Benefit
+min
+max
+value
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Flow Direction
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Size (GB)
+GB stored
+Flow Direction
+Step Duration 
+(real-world minutes)
+Step description text (empty if none)
+#
+%
+%
+#
+$#
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+#
+%
+%
+%
+%
+%
+%
+%
+%
+#K
+<Major Name>
+<Minor Name>
+#
+#K
+%
+#
+%
+R or L
+#
+R or L
+R or L
+R or L
+R or L
+R or L
+R or L
+#
+$#
+#
+#
+$#
+#
+#
+$#
+#
+#
+$#
+#
+#
+$#
+#
+#
+$#
+#
+#
+$#
+#
+#
+Sample text

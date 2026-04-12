@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "How Aberdeen Sees the Storage Pyramid Evolving",
+  "description": "David Hill's Fall 2002 presentation establishing Aberdeen Group's analytical framework for the four-tier storage pyramid evolution. Introduces a content-centric approach to storage architecture based on four principles (ageing, freezing, accumulation, redundancy) and maps content types (structured/semi-structured/unstructured) to appropriate storage tiers. Provides foundational intellectual basis for the Pools of Storage and midline storage category initiative.",
+  "creator": {
+    "@type": "Person",
+    "name": "David Hill, Aberdeen Group"
+  },
+  "datePublished": "2002-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,11 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+oltp,Online Transaction Processing,application,multiple,1980-,mature,current,15-classification-key-applications-55b6be,Traditional OLTP (e.g. order entry): update-intensive with focus on writes. From cache.
+oltp-contemporary,Contemporary OLTP,application,multiple,1995-,growing,current,15-classification-key-applications-55b6be,Mix of reads and writes; e.g. SAP R/3. Distinguished from traditional OLTP by read-write balance.
+business-intelligence,Business Intelligence / Data Warehousing,application,multiple,1990s-,growing,current,15-classification-key-applications-55b6be,Query-intensive; primarily sequential reads; typical example: data warehousing.
+web-application,Web Application Storage,application,multiple,1995-2003,growing,current,15-classification-key-applications-55b6be,Primarily random reads with light transaction processing; file/database hybrid.
+email-storage,Personal Productivity / Email Storage,application,multiple,1990s-,mature,current,15-classification-key-applications-55b6be,Write once; read once to many times. Low I/O intensity; high retention value.
+cad-cam,CAD/CAM and Post-Production Editing,application,multiple,1980s-,mature,current,15-classification-key-applications-55b6be,Interactive design workload; mix of reads and writes on large pieces of data.
+large-file-storage,Unique Large Files (X-ray / MRI),application,multiple,1990s-,mature,current,15-classification-key-applications-55b6be,Fixed content after creation; ideally immutable; read-only after initial write.
+large-file-distribution,Large File Distribution (MP3 / Video),application,multiple,1998-,growing,current,15-classification-key-applications-55b6be,Read-only access of previously-created large bitmap files.
+midline-storage,Midline Storage,storage,Maxtor,2002-2006,emerging,legacy,15-classification-key-applications-55b6be,Storage tier positioned between high-performance SCSI/FC and low-cost desktop ATA. Target for nearline and content workloads.
+ilm,Information Lifecycle Management (ILM),framework,Various,2003-2006,emerging,[DEFERRED],15-classification-key-applications-55b6be,Framework for tiering data across storage classes based on access patterns and value. From cache.

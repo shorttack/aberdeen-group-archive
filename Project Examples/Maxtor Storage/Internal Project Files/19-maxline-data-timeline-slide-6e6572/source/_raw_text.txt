@@ -1,0 +1,59 @@
+ Maxtor Confidential        Public Relations
+1
+April 12, 2026
+0
+20
+40
+60
+80
+100
+120
+minutes
+hours
+days
+weeks
+months
+years
+Data Duration
+Data Value
+High End SCSI
+Inexpensive ATA
+Optical
+Tape
+MaXLine in the Data Center Spectrum
+High-end
+Performance Storage
+On-Line Server
+• High-speed storage
+• Direct/NAS/SAN 
+attached
+• Random data access
+• High I/O Performance
+• Serviced by Atlas
+• Low-speed storage
+• Direct/SAN attached
+• Sequential data access
+• Removable media
+• Low I/O Performance
+• Serviced by Tape
+Off-Line Storage
+Tape Library
+• Medium-speed bulk 
+storage
+• Network attached
+• Sequential & random 
+data access
+• Low cost per GB
+• Moderate I/O 
+Performance
+•Serviced by MaXLine
+Near-Line Storage
+Content Storage
+MaXLine
+Recallable Data
+MaXLine
+Active Data
+Atlas
+Archive Data
+Tape
+Atlas

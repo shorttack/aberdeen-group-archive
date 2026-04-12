@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen-Maxtor Phase 2: Pools of Storage Market Development",
+  "description": "Project kickoff document for Aberdeen Group's Phase 2 engagement with Maxtor Corporation to develop the 'Pools of Storage' concept and launch the midline storage category. Defines scope covering messaging workshop, message testing, and evangelization roadmap. Outlines Aberdeen's interdisciplinary team and a 10-week project timeline beginning November 24, 2003.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter Kastner, Aberdeen Group"
+  },
+  "datePublished": "2003-11-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

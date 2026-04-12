@@ -1,0 +1,10 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ilm,Information Lifecycle Management (ILM),framework,Various,2003-2006,emerging,[DEFERRED],10-maxtor-workshop-02-09-eod-53f22b,"Positioned as 'mindshare battle of the decade' for storage; overarching framework. From cache."
+pools-of-storage,Pools of Storage,framework,Maxtor/Aberdeen,2003-2005,emerging,superseded,10-maxtor-workshop-02-09-eod-53f22b,"Four-tier model; practical implementation focus for 2004 while 'nodding to ILM'."
+midline-storage,Midline Storage,platform,Maxtor,2003-2006,emerging,legacy,10-maxtor-workshop-02-09-eod-53f22b,"Enterprise-class high-capacity ATA bridging FC/SCSI and tape; workshop subject."
+maxline,Maxtor MaXLine Disk Drive,storage,Maxtor,2002-2006,emerging,discontinued,10-maxtor-workshop-02-09-eod-53f22b,"Maxtor's midline product; Atlas=online tier; MaXLine=midline tier. From cache."
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,10-maxtor-workshop-02-09-eod-53f22b,"High-performance upper tier; Seagate dominant. From cache."
+serial-ata,Serial ATA (SATA),hardware,Various,2000s,emerging,active,10-maxtor-workshop-02-09-eod-53f22b,"WD Raptor described as Enterprise Serial ATA; positioned as midline competitor. From cache."
+ata,ATA (Advanced Technology Attachment),hardware,Various,1986-2008,mature,legacy,10-maxtor-workshop-02-09-eod-53f22b,"PC-class ATA in RAID noted as threat to midline category."
+san,Storage Area Network (SAN),storage,Various,1990s-2000s,growing,active,10-maxtor-workshop-02-09-eod-53f22b,"Core datacenter storage architecture; NAS/SAN described as way to go. From cache."
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,10-maxtor-workshop-02-09-eod-53f22b,"Part of datacenter core; recommended alongside SAN. From cache."

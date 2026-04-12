@@ -1,0 +1,12 @@
+Classification of Key Applications
+
+Category	Type	Distinguishing Characteristics
+Database	Traditional Online Transaction Processing (OLTP) (such as order entry)	Update intensive (both reads and writes, but focus is on writes)
+Database	Contemporary OLTP (such SAP/R3)	Mix of writes and reads - updating for transactions, but also random reads
+Database	Business intelligence (such as data warehousing)	Query intensive (primarily sequential reads)
+File/Database 	Web application	Primarily random reads with a little transaction processing
+File	Personal productivity (such as e-mail)	Write once, read once to many times
+File	Interactive design (such as CAD/CAM and post production editing)	Mix of reads and writes on large pieces of data
+File	Unique large files (such as X-rays and MRIs)	After creation, the content of the file is fixed (in fact, inalterable would be good) and is read only
+File	Large file distribution (such as MP3 and video files)	Read-only access of previously-created large bit-mapped files
+

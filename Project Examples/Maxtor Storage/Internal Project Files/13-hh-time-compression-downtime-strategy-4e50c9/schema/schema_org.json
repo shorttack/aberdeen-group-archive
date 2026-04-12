@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Time Compression - Downtime Strategy: Formulas and Business Case",
+  "description": "Working document containing financial formulas and a detailed business case for demonstrating TCO savings from migrating from traditional tape-based nearline storage to a midline disk plus tape combination. Models downtime reduction for a large financial services company with 1 million customers by quantifying backup time savings and customer revenue impact. Provides specific dollar-per-GB pricing for online (HDS 9980V at $31.60/GB) midline ($9.30/GB) and nearline disk/tape systems.",
+  "creator": {
+    "@type": "Person",
+    "name": "David Hill (HH), Aberdeen Group"
+  },
+  "datePublished": "2003-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

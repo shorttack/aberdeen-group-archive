@@ -1,0 +1,9 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+maxline,Maxtor MaXLine Disk Drive,storage,Maxtor,2002-2006,emerging,discontinued,19-maxline-data-timeline-slide-6e6572,Positioned as nearline/midline storage for recallable data with medium-speed bulk access. From cache. Acquired by Seagate 2006.
+atlas-drive,Maxtor Atlas SCSI Disk Drive,storage,Maxtor,1998-2006,mature,discontinued,19-maxline-data-timeline-slide-6e6572,Maxtor's high-end SCSI drive for high-performance online storage; serves Active Data in the spectrum.
+tape-storage,Magnetic Tape Storage,storage,Various,1950s-,mature,legacy-supported,19-maxline-data-timeline-slide-6e6572,Archive tier in the spectrum; serves Archive Data; lowest cost; offline; sequential access.
+san,Storage Area Network (SAN),protocol,Various,1990s-2000s,growing,active,19-maxline-data-timeline-slide-6e6572,Atlas described as Direct/NAS/SAN attached. From cache.
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,19-maxline-data-timeline-slide-6e6572,MaXLine described as network-attached. From cache.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,19-maxline-data-timeline-slide-6e6572,Atlas/SCSI high-performance tier; direct or SAN attached. From cache.
+ata-drive,ATA Disk Drive,storage,Various,1986-2005,mature,legacy,19-maxline-data-timeline-slide-6e6572,Desktop ATA positioned as Inexpensive ATA in the spectrum below MaXLine; consumer-grade alternative to MaXLine.
+optical-storage,Optical Storage,storage,Various,1980s-2000s,declining,legacy,19-maxline-data-timeline-slide-6e6572,Listed in spectrum alongside tape as low-value long-duration storage option.

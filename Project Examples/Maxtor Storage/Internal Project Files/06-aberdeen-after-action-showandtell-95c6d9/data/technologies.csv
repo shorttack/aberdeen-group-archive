@@ -1,0 +1,5 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+pos-decision-tool,Pools of Storage Decision Tool,application,Aberdeen Group / Maxtor,2003-2004,delivered,historical,06-aberdeen-after-action-showandtell-95c6d9,The core Phase 2 deliverable; one tool failed to impress initially but was redone showing commitment
+macromedia-flash,Macromedia Flash,platform,Macromedia,1996-2004,mature,legacy,06-aberdeen-after-action-showandtell-95c6d9,Development platform used for the Pools of Storage web browser simulation — Aberdeen's first Flash-based research delivery tool
+aberdeen-maturity-grids,Aberdeen Maturity Grid Framework,framework,Aberdeen Group,2003-present,emerging,active,06-aberdeen-after-action-showandtell-95c6d9,50 maturity grids developed and training/process for creating them; funded by Maxtor engagement; became reusable Aberdeen IP
+aberdeen-ttcm,Aberdeen TTCM (Technology Total Cost of Management) Site,platform,Aberdeen Group,2003-2004,emerging,[DEFERRED],06-aberdeen-after-action-showandtell-95c6d9,Aberdeen internal site that came up in weeks on budget; Pools of Storage tool R&D ($75K) helped fund the TTCM site

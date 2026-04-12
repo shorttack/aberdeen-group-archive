@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+maxline,Maxtor MaXLine Disk Drive,storage,Maxtor,2002-2006,emerging,discontinued,20-maxline-mtbf-analysis-4d9111,250GB and 300GB capacities tested; 1 million hours MTBF rating; 80% loading = 200-240GB usable. From cache.
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,20-maxline-mtbf-analysis-4d9111,FC drives tested at 73GB and 146GB capacity; 1.2 million hours MTBF. From cache.
+fc-disk-drive,Fibre Channel Disk Drive,storage,Various,1990s-2000s,mature,legacy,20-maxline-mtbf-analysis-4d9111,High-performance disk drives with FC interface; 73GB and 146GB variants tested; higher individual MTBF but more drives per TB than MaXLine.
+raid,RAID Disk Storage,storage,multiple,1987-,mature,legacy-supported,20-maxline-mtbf-analysis-4d9111,RAID multiplier (1x through 5x) applied to compute drives per TB and system MTBF. From cache.
+ata-drive,ATA Disk Drive,storage,Various,1986-2005,mature,legacy,20-maxline-mtbf-analysis-4d9111,Base technology for MaXLine; ATA interface with enterprise-grade MTBF rating; higher capacity per drive than FC.

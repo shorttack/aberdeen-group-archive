@@ -1,0 +1,58 @@
+Time Compression ? Downtime Strategy
+
+
+Formulas for downtime scenario
+
+    1. Savings 1 = initial cost savings = savings from New solution + opportunity cost savings.
+
+Old way:  CostO = cost(E GB online disk) + cost (G GB nearline tape) + cost (H GBoffline tape)
+New way:  CostN = cost(E/2 online disk) + cost (E/2 midline disk) + cost (G/2 nearline disk) + cost(G/2 nearline tape) + cost (H offline tape)
+
+(i.e., we assume online disk is split in half and nearline tape is split in half).
+
+Cost (x amount of y storage) = $/GB cost of (storage type) * amount of storage (E,G,H)
+So, for example, cost (E/2 online disk) = E/2 GB * $1/GB
+
+Opportunity cost savings = (arbitrarily) 0.6 * savings from New solution
+
+    2. Savings 2 = customers served (in backup time saved) * $/customer + administrative costs saved (in backup time saved)
+
+Administrative costs = $100K salary * (1/10,000 hours per year) * (backup time saved)
+
+Backup time saved:
+
+Assume M GB saved (= E + G)
+
+Rate of backup disk/tape = X GB/hr.
+Rate of backup disk/disk = Y GB/hr.
+
+Also, note that in the New Way we do backup in parallel (online to nearline disk, midline to nearline tape)
+
+Old way:  X GB/hr * A hours = M GB, so A = M/X
+New way:  2(X+Y)/2 GB/hr. * B hours = M GB, so B = M/2X
+
+(this assumes that backup to nearline disk and nearline tape finish at same time).
+
+So savings 2 = custs served/hour * $/customer * (A-B) + $10 * (backup time saved) 
+
+Numbers for Downtime Example
+
+
+We will assume a medium/large financial services company that is online globally. Of its 1 million customers, 100,000 are oversees.  These are business customers.  National customers do business during normal banking hours, but overseas customers do significant transactions anytime during the day. The numbers are:
+Custs served/hour =120
+$/customer = $100
+
+If the customer uses nearline tape the old way, the street price for the tape library is $130,000 for an 8 tape drive, 200 slot system of LTO-2 drives (400 MB/cartridge and 40 MB/sec at 2 to 1 compression).  The media cost $100 per cartridge so the total cost is $20,000 for the media so the total cost is $150,000.  The total capacity is 80 TB so the dollars per GB is $1.90/GB.
+
+A nearline disk and nearline tape combination appliance would cost the following:
+20TB of nearline disk would go for $100,000 so the dollars per GB is $5/GB.  However, a smaller tape library would be required.  Only a 4 drive system with 100 slots would be necessary.  This would cost $85,000 street price with $10,000 of media cost for a total of $95,000.  The capacity of the tape library would be 40 TB and the dollars per GB would be $2.50/GB.  The overall price for the solution would be $195,000.
+
+$/GB
+Online Disk $31.60 $/GB  (HDS  9980V with 146GB disks) (High End) (use this number)
+Online Disk $13.30 $/GB (EMC CX600 with 146 GB disks) (Midrange)
+Midline Disk  $9.30 $/GB (70% of EMC)
+
+Rate of backup disk/tape = X GB/hr.  X = 800 GB/hr.
+Rate of backup disk/disk = Y GB/hr.   Y= 1600 GB/hr.
+
+E is the critical data that has to be backed up under this strategy and this is assumed to be 3 TB  (There is a lot of other data, but it is not as critical.)

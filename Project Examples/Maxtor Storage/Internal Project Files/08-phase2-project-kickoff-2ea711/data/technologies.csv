@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+ilm,Information Lifecycle Management (ILM),framework,Various,2003-2006,emerging,[DEFERRED],08-phase2-project-kickoff-2ea711,"Overarching framework for tiered storage; Pools of Storage positioned as ILM's practical first step. From cache."
+pools-of-storage,Pools of Storage,framework,Maxtor/Aberdeen,2003-2005,emerging,superseded,08-phase2-project-kickoff-2ea711,"Four-tier storage model (online/midline/nearline/offline); central concept being evangelized."
+midline-storage,Midline Storage,platform,Maxtor,2003-2006,emerging,legacy,08-phase2-project-kickoff-2ea711,"New enterprise storage category bridging high-perf FC/SCSI and tape; core deliverable of project."
+serial-ata,Serial ATA (SATA),hardware,Various,2000s,emerging,active,08-phase2-project-kickoff-2ea711,"Underlying drive interface for midline/nearline disks. From cache."
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,08-phase2-project-kickoff-2ea711,"High-performance disk interface; upper tier above midline. From cache."
+serial-storage-in-a-box,Serial Storage in a Box,platform,Maxtor,2003-2005,emerging,superseded,08-phase2-project-kickoff-2ea711,"Maxtor's packaged storage appliance concept; next-gen enterprise storage initiative."

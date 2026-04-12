@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ILM/Pools of Storage Tool Decision Components and IP Framework",
+  "description": "An internal Aberdeen Group strategy presentation outlining the business premises and IP framework for the ILM/Pools of Storage (PoS) Hardware Hawker (HH) sales tool developed for Maxtor. The document establishes that the HH tool is Aberdeen IP with Maxtor receiving limited usage rights; proposes a broader commercialization strategy through a Storage COE involving HP, EMC, IBM, Intel, Sun, and others; and presents a permitted usage matrix defining where Aberdeen deliverables (white papers and ILM tools) may be deployed. A critical IP dispute between Aberdeen and Maxtor over tool rights is documented.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (Peter Kastner)"
+  },
+  "datePublished": "2003-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Midline Messaging Workshop Prep Guide",
+  "description": "Pre-workshop preparation guide distributed to Maxtor executives and core team before the February 13 2004 midline category creation workshop in Shrewsbury MA. Provides session goals and pre-read questions for three workshop sessions covering category definition, go-to-market strategy, and messaging finalization. Includes appendices defining Pools of Storage concepts and messaging foundations.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter Kastner, David Hill, John Boyne"
+  },
+  "datePublished": "2004-02-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

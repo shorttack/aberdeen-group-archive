@@ -1,0 +1,4 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+pools-of-storage,Pools of Storage (PoS),framework,Maxtor / Aberdeen Group,2003-2005,emerging,discontinued,16-maxtor-survey-meeting-agenda-4fe65d,Maxtor's strategic framework for tiered enterprise storage using midline drives; the commercial concept being tested in this survey.
+midline-storage,Midline Storage,storage,Maxtor,2002-2006,emerging,legacy,16-maxtor-survey-meeting-agenda-4fe65d,Storage tier between high-performance FC and low-cost desktop ATA; primary product category the survey seeks to validate.
+internet-survey,Internet Survey Methodology,framework,Various,2000-,mature,current,16-maxtor-survey-meeting-agenda-4fe65d,100-250 internet surveys planned as primary data collection method for Phase 3 message testing.

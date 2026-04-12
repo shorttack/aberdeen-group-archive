@@ -1,0 +1,7 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,11-storage-hierarchy-presentation-e84d53,"High-performance disk tier; upper level of storage pyramid. From cache."
+scsi,SCSI (Small Computer System Interface),protocol,Various,1980s-present,mature,legacy,11-storage-hierarchy-presentation-e84d53,"High-performance disk protocol; paired with FC in premium tier. From cache."
+ata,ATA (Advanced Technology Attachment),hardware,Various,1986-2008,mature,legacy,11-storage-hierarchy-presentation-e84d53,"Cost-effective disk; ATA disk shown as middle tier between FC/SCSI and tape."
+raid,RAID Disk Storage,storage,multiple,1987-,mature,legacy-supported,11-storage-hierarchy-presentation-e84d53,"Data protection mechanism for disk failure; listed in redundancy table. From cache."
+nas,Network Attached Storage (NAS),storage,Various,1990s-2000s,growing,active,11-storage-hierarchy-presentation-e84d53,"Part of storage access architecture. From cache."
+storage-pyramid,Storage Pyramid Framework,framework,Aberdeen,2002-2005,current,superseded,11-storage-hierarchy-presentation-e84d53,"Four-tier model: RAM-based/FC-SCSI/ATA disk/tape; precursor to Pools of Storage framework."

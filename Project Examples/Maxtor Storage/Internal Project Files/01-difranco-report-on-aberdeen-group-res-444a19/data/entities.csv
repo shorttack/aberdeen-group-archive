@@ -1,0 +1,15 @@
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+maxtor,Maxtor Corporation,company,Hard Disk Drive Manufacturing,[DEFERRED],[DEFERRED],1982-2006,01-difranco-report-on-aberdeen-group-res-444a19,Milpitas CA headquarters; MaXLine and Atlas drive brands; subject of the Aberdeen engagement
+aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,01-difranco-report-on-aberdeen-group-res-444a19,Boston-based research firm; co-founder Peter Kastner led this engagement
+stephen-difranco,Stephen DiFranco,person,Hard Disk Drive / Enterprise Storage,active,,2000s-present,01-difranco-report-on-aberdeen-group-res-444a19,VP Worldwide Corporate Marketing Maxtor; author of this report; champion of midline category initiative
+peter-kastner,Peter S. Kastner,person,IT Market Research,active,[none],1988-present,01-difranco-report-on-aberdeen-group-res-444a19,Executive VP Aberdeen Group; led the commissioned research engagement
+siebel,Siebel Systems,company,Enterprise Software / CRM,[DEFERRED],[DEFERRED],1993-2006,01-difranco-report-on-aberdeen-group-res-444a19,Cited as the canonical example of Aberdeen's successful CRM category creation — the strategic model being replicated for Maxtor
+mellon-bank,Mellon Bank,company,Financial Services,acquired,BNY Mellon (2007),1869-2007,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; large financial institution with significant enterprise storage footprint
+ingersoll-rand,Ingersoll Rand,company,Industrial Manufacturing,active,,1871-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; Fortune 500 diversified industrial company
+shell,Shell,company,Energy / Oil & Gas,active,,1907-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; major global energy company
+verizon,Verizon Communications,company,Telecommunications,active,,2000-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; large telecom with major data center operations
+wells-fargo,Wells Fargo,company,Financial Services,active,,1852-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; major US bank
+metlife,MetLife,company,Insurance / Financial Services,active,,1868-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; major insurer with large fixed-content data volumes
+fidelity-investments,Fidelity Investments,company,Financial Services,active,,1946-present,01-difranco-report-on-aberdeen-group-res-444a19,Named survey respondent; large asset manager with heavy regulatory data retention requirements
+robert-wise,Robert Wise,person,Hard Disk Drive / Enterprise Storage,[DEFERRED],,2000s,01-difranco-report-on-aberdeen-group-res-444a19,Maxtor executive invited to attend Aberdeen presentation; likely head of storage/product team
+joe-unnamed,Joe (Maxtor Executive),person,Hard Disk Drive / Enterprise Storage,[DEFERRED],,2000s,01-difranco-report-on-aberdeen-group-res-444a19,Named as 'Joe' — Maxtor executive whose team is asked to consider research and develop communication strategy; identity [REVIEW]

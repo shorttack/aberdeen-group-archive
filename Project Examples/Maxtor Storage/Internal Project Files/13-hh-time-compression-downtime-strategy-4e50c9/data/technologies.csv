@@ -1,0 +1,6 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+midline-storage,Midline Storage,platform,Maxtor,2003-2006,emerging,legacy,13-hh-time-compression-downtime-strategy-4e50c9,"New tier in New Way architecture; priced at $9.30/GB (70% of EMC midrange)."
+lto,LTO (Linear Tape Open),storage,Various,2000s,growing,active,13-hh-time-compression-downtime-strategy-4e50c9,"LTO-2 tape library: $130K for 8-drive 200-slot system; $150K with media; total 80TB at $1.90/GB. From cache."
+fibre-channel,Fibre Channel (FC),protocol,Various,1990s-2000s,mature,active,13-hh-time-compression-downtime-strategy-4e50c9,"High-end online disk: HDS 9980V at $31.60/GB. From cache."
+hds-9980v,HDS StorageWorks 9980V,storage,Hitachi Data Systems,2002-2007,current,legacy,13-hh-time-compression-downtime-strategy-4e50c9,"High-end storage array; 146GB disks; $31.60/GB benchmark price."
+emc-cx600,EMC CLARiiON CX600,storage,EMC,2002-2007,current,legacy,13-hh-time-compression-downtime-strategy-4e50c9,"Midrange online disk array; 146GB disks; $13.30/GB benchmark price."

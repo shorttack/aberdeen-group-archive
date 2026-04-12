@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Maxtor PoSEE Phase 3 Survey Organizational Meeting Agenda",
+  "description": "An internal Aberdeen Group meeting agenda for the Maxtor Pools of Storage Enterprise Edition (PoSEE) project Phase 3 \u2014 Message Testing. The document outlines plans to conduct 100\u2013250 internet surveys and 5\u20138 interviews to test market receptivity to the Pools of Storage messaging, with intent to merge results with Aberdeen's April 2003 midline storage survey data. Sample survey questions reveal the research instruments aimed at gauging enterprise storage buyers' awareness, pain points, and openness to the midline storage value proposition.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter Kastner, David Hill, John Boyne, Beth Conant"
+  },
+  "datePublished": "2003-12-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

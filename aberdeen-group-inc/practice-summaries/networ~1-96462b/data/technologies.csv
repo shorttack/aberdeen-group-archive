@@ -1,14 +1,14 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-ethernet-10mbps,Ethernet (10 Mbps),protocol,IEEE,1980s-1990s,mature,legacy,networ~1-96462b,Original Ethernet; being displaced by 10/100 and switching.
-fast-ethernet,Fast Ethernet (100 Mbps),protocol,IEEE,1995-2005,emerging,legacy,networ~1-96462b,Primary upgrade migration path from 10 Mbps Ethernet; 10/100 NIC prices dropped to 10 Mbps levels.
-gigabit-ethernet,Gigabit Ethernet (1 Gbps),protocol,IEEE,1997-2010,emerging,legacy,networ~1-96462b,Next-generation backbone technology; Aberdeen favors over ATM for Ethernet-based networks.
-atm-networking,Asynchronous Transfer Mode (ATM),protocol,ITU/ATM Forum,1993-2005,mature,legacy,networ~1-96462b,Found place as WAN and LAN backbone; too costly for desktop; never achieved end-to-end adoption.
-token-ring,Token Ring,protocol,IBM/IEEE,1985-2000,declining,obsolete,networ~1-96462b,Legacy LAN protocol; High-speed Token Ring variant emerging.
-fibre-channel,Fibre Channel,protocol,ANSI,1994-2010,emerging,active,networ~1-96462b,133 MB/s to 1.062 GB/s; ANSI standard; supports up to 16 million nodes; SAN fabric use.
-frame-relay,Frame Relay,protocol,Various,1988-2005,mature,legacy,networ~1-96462b,WAN connectivity standard for private networks.
-vpn-networking,Virtual Private Networks (VPN),application,Various,1996-present,emerging,dominant,networ~1-96462b,Tunneling and security protocols turning public Internet into private WAN.
-xdsl,xDSL (Digital Subscriber Line),protocol,Various,1997-2015,emerging,declining,networ~1-96462b,Range from 128 Kbps IDSL to 7 Mbps ADSL download; not yet widely deployed.
-wireless-802-11,IEEE 802.11 Wireless LAN,protocol,IEEE,1997-present,emerging,dominant,networ~1-96462b,Ratified standard helping interoperability; bandwidth ~10 Mbps; niche vertical markets (healthcare, retail, education).
-layer3-switching,Layer 3 Switching (Routing Switches),platform,Various,1996-2005,emerging,legacy,networ~1-96462b,Combines router intelligence with switch speed; replacing routers in high-performance LAN backbones.
-nds-directory,Novell Directory Services (NDS),application,Novell,1993-2005,mature,legacy,networ~1-96462b,Leveraged for network directory intelligence; referenced alongside Active Directory.
-active-directory,Microsoft Active Directory,application,Microsoft,1997-present,pre-release,dominant,networ~1-96462b,Upcoming Microsoft directory service; referenced as competitor to NDS in network management.
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ethernet-10mbps","Ethernet (10 Mbps)","protocol","IEEE","1980s-1990s","mature","legacy","networ~1-96462b","Original Ethernet; being displaced by 10/100 and switching."
+"fast-ethernet","Fast Ethernet (100 Mbps)","protocol","IEEE","1995-2005","emerging","legacy","networ~1-96462b","Primary upgrade migration path from 10 Mbps Ethernet; 10/100 NIC prices dropped to 10 Mbps levels."
+"gigabit-ethernet","Gigabit Ethernet (1 Gbps)","protocol","IEEE","1997-2010","emerging","legacy","networ~1-96462b","Next-generation backbone technology; Aberdeen favors over ATM for Ethernet-based networks."
+"atm-networking","Asynchronous Transfer Mode (ATM)","protocol","ITU/ATM Forum","1993-2005","mature","legacy","networ~1-96462b","Found place as WAN and LAN backbone; too costly for desktop; never achieved end-to-end adoption."
+"token-ring","Token Ring","protocol","IBM/IEEE","1985-2000","declining","obsolete","networ~1-96462b","Legacy LAN protocol; High-speed Token Ring variant emerging."
+"fibre-channel","Fibre Channel","protocol","ANSI","1994-2010","emerging","active","networ~1-96462b","133 MB/s to 1.062 GB/s; ANSI standard; supports up to 16 million nodes; SAN fabric use."
+"frame-relay","Frame Relay","protocol","Various","1988-2005","mature","legacy","networ~1-96462b","WAN connectivity standard for private networks."
+"vpn-networking","Virtual Private Networks (VPN)","application","Various","1996-present","emerging","dominant","networ~1-96462b","Tunneling and security protocols turning public Internet into private WAN."
+"xdsl","xDSL (Digital Subscriber Line)","protocol","Various","1997-2015","emerging","declining","networ~1-96462b","Range from 128 Kbps IDSL to 7 Mbps ADSL download; not yet widely deployed."
+"wireless-802-11","IEEE 802.11 Wireless LAN","protocol","IEEE","1997-present","emerging","dominant","networ~1-96462b","Ratified standard helping interoperability; bandwidth ~10 Mbps; niche vertical markets (healthcare, retail, education)."
+"layer3-switching","Layer 3 Switching (Routing Switches)","platform","Various","1996-2005","emerging","legacy","networ~1-96462b","Combines router intelligence with switch speed; replacing routers in high-performance LAN backbones."
+"nds-directory","Novell Directory Services (NDS)","application","Novell","1993-2005","mature","legacy","networ~1-96462b","Leveraged for network directory intelligence; referenced alongside Active Directory."
+"active-directory","Microsoft Active Directory","application","Microsoft","1997-present","pre-release","dominant","networ~1-96462b","Upcoming Microsoft directory service; referenced as competitor to NDS in network management."

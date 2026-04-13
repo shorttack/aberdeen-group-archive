@@ -1,15 +1,15 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-windows-nt-server-4,Windows NT Server 4.0,platform,Microsoft,1996-2000,current,obsolete,ntserv~1-56bd94,Dominant workgroup and departmental server OS; limitations in enterprise stability/scalability.
-windows-nt-server-5,Windows NT Server 5.0,platform,Microsoft,1999-2000,pre-release,obsolete,ntserv~1-56bd94,Expected 1999 release with Active Directory, better clustering; renamed Windows 2000 Server.
-intel-ia32,Intel IA-32 Architecture (Pentium Pro/II/Xeon),platform,Intel,1995-2005,current,obsolete,ntserv~1-56bd94,Dominant NT server hardware; Pentium II Xeon for >4-way SMP arriving mid-1998.
-intel-ia64,Intel IA-64 Architecture (Merced/Itanium),platform,Intel/HP,1999-2010,pre-release,legacy,ntserv~1-56bd94,64-bit architecture co-developed with HP; scheduled late 1999; Aberdeen predicts 5-year IA-32 to IA-64 transition.
-alpha-processor,Digital Alpha Microprocessor,platform,Digital Equipment,1992-2004,current,obsolete,ntserv~1-56bd94,~2% NT server market; higher performance than Intel for transaction workloads; reaching 660 MHz by late 1998.
-ms-cluster-server,Microsoft Cluster Server (MSCS/Wolfpack),framework,Microsoft,1997-2000,emerging,obsolete,ntserv~1-56bd94,Introduced fall 1997; two-node failover only; not full HA; load balancing not yet provided.
-smp-architecture,Symmetric Multiprocessing (SMP) Architecture,platform,Various,1990s-present,current,active,ntserv~1-56bd94,Key NT server differentiator; 4-way dominant; 8-way arriving 1998; proprietary vs. Intel-standard debate.
-active-directory,Microsoft Active Directory,application,Microsoft,1997-present,pre-release,dominant,ntserv~1-56bd94,Planned for NT 5.0; key for enterprise scalability and directory services.
-i2o-standard,Intelligent I/O (I2O),framework,Intel,1997-2000,emerging,obsolete,ntserv~1-56bd94,Intel-backed I/O architecture for NT servers; improving I/O subsystem bandwidth.
-via-architecture,Virtual Interface Architecture (VIA),framework,Intel,1997-2001,emerging,obsolete,ntserv~1-56bd94,Industry standard clustering interconnect; Intel-backed; complement to Tandem ServerNet.
-unix-platform,Unix Server Platform,platform,Various,1970s-present,mature,active,ntserv~1-56bd94,Dominant enterprise server OS; Aberdeen projects global Unix app server market at $40B by 2000 vs NT $9B.
-ms-exchange,Microsoft Exchange,application,Microsoft,1996-present,current,active,ntserv~1-56bd94,Key NT server application; mail and messaging.
-fibre-channel,Fibre Channel,protocol,ANSI,1994-2010,emerging,active,ntserv~1-56bd94,Storage interconnect; Dell OEMing Data General Fibre Channel storage.
-dmi-wbem-ipmi,DMI/WBEM/IPMI Management Standards,framework,DMTF/Intel,1996-2005,emerging,legacy,ntserv~1-56bd94,Evolving NT systems management standards offering hope for NT robustness improvements.
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-nt-server-4","Windows NT Server 4.0","platform","Microsoft","1996-2000","current","obsolete","ntserv~1-56bd94","Dominant workgroup and departmental server OS; limitations in enterprise stability/scalability."
+"windows-nt-server-5","Windows NT Server 5.0","platform","Microsoft","1999-2000","pre-release","obsolete","ntserv~1-56bd94","Expected 1999 release with Active Directory, better clustering; renamed Windows 2000 Server."
+"intel-ia32","Intel IA-32 Architecture (Pentium Pro/II/Xeon)","platform","Intel","1995-2005","current","obsolete","ntserv~1-56bd94","Dominant NT server hardware; Pentium II Xeon for >4-way SMP arriving mid-1998."
+"intel-ia64","Intel IA-64 Architecture (Merced/Itanium)","platform","Intel/HP","1999-2010","pre-release","legacy","ntserv~1-56bd94","64-bit architecture co-developed with HP; scheduled late 1999; Aberdeen predicts 5-year IA-32 to IA-64 transition."
+"alpha-processor","Digital Alpha Microprocessor","platform","Digital Equipment","1992-2004","current","obsolete","ntserv~1-56bd94","~2% NT server market; higher performance than Intel for transaction workloads; reaching 660 MHz by late 1998."
+"ms-cluster-server","Microsoft Cluster Server (MSCS/Wolfpack)","framework","Microsoft","1997-2000","emerging","obsolete","ntserv~1-56bd94","Introduced fall 1997; two-node failover only; not full HA; load balancing not yet provided."
+"smp-architecture","Symmetric Multiprocessing (SMP) Architecture","platform","Various","1990s-present","current","active","ntserv~1-56bd94","Key NT server differentiator; 4-way dominant; 8-way arriving 1998; proprietary vs. Intel-standard debate."
+"active-directory","Microsoft Active Directory","application","Microsoft","1997-present","pre-release","dominant","ntserv~1-56bd94","Planned for NT 5.0; key for enterprise scalability and directory services."
+"i2o-standard","Intelligent I/O (I2O)","framework","Intel","1997-2000","emerging","obsolete","ntserv~1-56bd94","Intel-backed I/O architecture for NT servers; improving I/O subsystem bandwidth."
+"via-architecture","Virtual Interface Architecture (VIA)","framework","Intel","1997-2001","emerging","obsolete","ntserv~1-56bd94","Industry standard clustering interconnect; Intel-backed; complement to Tandem ServerNet."
+"unix-platform","Unix Server Platform","platform","Various","1970s-present","mature","active","ntserv~1-56bd94","Dominant enterprise server OS; Aberdeen projects global Unix app server market at $40B by 2000 vs NT $9B."
+"ms-exchange","Microsoft Exchange","application","Microsoft","1996-present","current","active","ntserv~1-56bd94","Key NT server application; mail and messaging."
+"fibre-channel","Fibre Channel","protocol","ANSI","1994-2010","emerging","active","ntserv~1-56bd94","Storage interconnect; Dell OEMing Data General Fibre Channel storage."
+"dmi-wbem-ipmi","DMI/WBEM/IPMI Management Standards","framework","DMTF/Intel","1996-2005","emerging","legacy","ntserv~1-56bd94","Evolving NT systems management standards offering hope for NT robustness improvements."

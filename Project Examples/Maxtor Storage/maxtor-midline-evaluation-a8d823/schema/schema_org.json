@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Maxtor Midline Storage Project: A Historical Evaluation",
+  "description": "AI-generated historical evaluation of the Aberdeen Group\u2013Maxtor Corporation midline storage engagement (2002\u20132004), synthesized from 38 archived studies and 1,042 observations. Assesses the project's significance as the most complete surviving record of analyst-led IT category creation, evaluates the accuracy of its predictions about tiered storage, ILM, SATA adoption, and regulatory compliance drivers, and documents both the successes and the limitations of the category-creation model.",
+  "creator": {
+    "@type": "Person",
+    "name": "Perplexity Computer (AI-generated for Peter S. Kastner)"
+  },
+  "datePublished": "2026-04-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

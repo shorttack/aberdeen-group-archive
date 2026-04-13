@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","company","IT-market-research","acquired","Harte-Hanks -> HIMSS","1988-2015","maxtor-midline-evaluation-a8d823","Co-founded by Peter Kastner; commissioned research firm for the midline storage engagement"
+"maxtor-corporation","Maxtor Corporation","company","disk-drive-manufacturing","acquired","Seagate Technology","1982-2006","maxtor-midline-evaluation-a8d823","Client sponsor of the midline category creation campaign; acquired by Seagate 2006"
+"peter-kastner","Peter S. Kastner","person","IT-market-research","active","","maxtor-midline-evaluation-a8d823","maxtor-midline-evaluation-a8d823","Aberdeen Group co-founder and Chief Research Officer; led the Maxtor engagement"
+"perplexity-ai","Perplexity AI","company","artificial-intelligence","active","","2022-present","maxtor-midline-evaluation-a8d823","AI system that generated this historical evaluation from archived source materials"

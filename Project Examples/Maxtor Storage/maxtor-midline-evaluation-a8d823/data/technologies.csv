@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"midline-storage","Midline Disk Storage (ATA/SATA)","platform","multiple","2003-present","emerging","mature-standard","maxtor-midline-evaluation-a8d823","The storage tier category that Aberdeen and Maxtor created; now the dominant secondary storage medium"
+"ilm","Information Lifecycle Management","framework","multiple","2003-2015","emerging","evolved-to-cloud-tiering","maxtor-midline-evaluation-a8d823","Policy-driven data management framework that grew from the Pools of Storage concept"
+"ai-archival-analysis","AI-Assisted Archival Analysis","application","Perplexity AI","2024-present","emerging","emerging","maxtor-midline-evaluation-a8d823","AI synthesis of structured archival datasets for historical evaluation"

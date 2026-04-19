@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Assessment of Unicenter and Jasmine for Computer Associates",
+  "description": "Letter-form report from Peter S. Kastner (Group Vice President, Aberdeen Group) to David M. Hood (Director of Analyst Relations, Computer Associates) following a two-day analyst roundtable evaluation of CA's Unicenter and Jasmine products. Kastner delivers pointed positioning recommendations to maximize 1997 revenue, including brand-led advertising, ISV instrumentation, a VAR program, non-traditional environments, a national fault-response center, and competitive collateral against Tivoli. The letter also proposes a broad Aberdeen-CA consulting engagement.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1996-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

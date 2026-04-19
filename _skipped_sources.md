@@ -26,3 +26,9 @@ All other nine Batch 8 files produced re-attributions and/or new quote rows — 
 ## Batch 10 (2026-04-19)
 
 - **Italian iSeries/Tivoli newsletter** (http://www.newsletter.duke.it/as400/insider-230.shtml, "Change of management with IBM aims to revive the world i5 iSeries and Tivoli software") — webarchive captured only an empty Google Translate wrapper shell; source site (newsletter.duke.it) no longer resolves in DNS, and no Wayback/archive copy is recoverable. Google referrer URL confirms the original article quoted Peter Kastner + Aberdeen Group in a piece about IBM's iSeries/Tivoli management change, likely during the Sam Palmisano / Steve Mills reorganization era. Skipped pending future recovery.
+
+## Batch 12 (2026-04-19)
+
+- **File 5 — "CRM-Buyer-Search-5"** (http://www.crmbuyer.com/perl/search.pl?x=0&y=0&query=kastner) — Search-results index page listing 60 CRM Buyer / E-Commerce Times articles mentioning Kastner, Jan 2003–June 2009. **Not a quotable article** — it is a discovery/navigation artifact. Several individual articles it links to are already ingested (e.g. seq 144, 145, 155 Elizabeth Millard E-Commerce Times pieces; seq 491 Dell build-to-order; seq 492 IBM supercomputer list). Retained as a provenance artifact; no new quote rows created from the index page itself.
+
+- **File 9 — "CW-CD-articles-edited-9.doc"** — Deferred to **Batch 13**. Edited Computerworld compilation spanning 1989-03 to 1996-01 containing 98 articles with 150+ individual Kastner quotes from his Aberdeen VP / EVP years. Scope too large to combine with webarchive batch; will be processed as a dedicated historical-era batch.

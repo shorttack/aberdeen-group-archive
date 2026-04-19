@@ -1,0 +1,7 @@
+KASTNER RETROSPECTIVE MEMOIR — 2026-04-19
+Subject: Prescience Call on AMD Athlon 64 (Sept 2003)
+
+The commentary keeps recommending Athlon XP as the value play through August 2003
+without anticipating the 64-bit transition. AMD was way early on 64-bit as OS support
+was years away. It was not a compelling buying factor at time of purchase and maybe
+even at end of product life for an August 2003 purchase.

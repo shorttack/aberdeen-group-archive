@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4-m","Mobile Intel Pentium 4 (M)","platform","Intel","2002-2005","new","legacy","dct-fujitsu-notebook-lineup-2002",""
+"intel-pentium-iii-m","Mobile Intel Pentium III (M)","platform","Intel","2001-2003","declining","obsolete","dct-fujitsu-notebook-lineup-2002",""
+"ddr-266-sdram","DDR-266 SDRAM","platform","","2001-2005","mature","obsolete","dct-fujitsu-notebook-lineup-2002",""
+"nvidia-quadro4-500-go-gl","NVIDIA Quadro4 500 Go GL","platform","NVIDIA","2002-2004","new","obsolete","dct-fujitsu-notebook-lineup-2002","Mobile workstation GPU, 64 MB."
+"ati-mobility-radeon","ATI Mobility RADEON","platform","ATI","2001-2004","mature","legacy","dct-fujitsu-notebook-lineup-2002",""
+"windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","legacy","dct-fujitsu-notebook-lineup-2002","Both Home and Pro SKUs."
+"windows-2000","Microsoft Windows 2000","platform","Microsoft","2000-2010","declining","obsolete","dct-fujitsu-notebook-lineup-2002","Still offered on CELSIUS workstation."

@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"at-kearney","A.T. Kearney","firm","Management Consulting","[DEFERRED]","Kearney","1926-present","dct-at-kearney-business-pc-prices","Engagement client for this benchmark."
+"dell","Dell","company","PC-manufacturing","[DEFERRED]","","1984-present","dct-at-kearney-business-pc-prices","Optiplex GX260"
+"gateway-inc","Gateway, Inc.","company","PC-manufacturing","[DEFERRED]","Acer","1985-2007","dct-at-kearney-business-pc-prices","E-4000 Special Deluxe"
+"hewlett-packard","Hewlett-Packard (HP)","company","PC-manufacturing","[DEFERRED]","","1939-present","dct-at-kearney-business-pc-prices","HP Compaq Evo D510 minitower"
+"ibm","IBM","company","PC-manufacturing","[DEFERRED]","Lenovo","1981-2005 (PC business)","dct-at-kearney-business-pc-prices","NetVista M42 8303"

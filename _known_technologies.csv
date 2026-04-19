@@ -49,7 +49,7 @@ intel-pentium4-willamette,Intel Pentium 4 (Willamette),hardware,Intel,2000-2002,
 intel-pentium4-northwood,Intel Pentium 4 (Northwood),hardware,Intel,2002-2003,emerging,[DEFERRED],"130nm process, larger cache; obsoleted AMD's 2000+ equivalency claims",amd-profile01-64e43b
 sysmark-2001,BAPCo SYSmark 2001,benchmark,BAPCo,2001-2002,current,[DEFERRED],Comprised ~1/3 of AMD GHz-E score; AMD did not file results with Bapco,amd-profile01-64e43b
 speccpu-2000,SPECcpu 2000,benchmark,SPEC,2000-2006,current,[DEFERRED],Recommended by Aberdeen as more rigorous alternative benchmark,amd-profile01-64e43b
-windows-xp,Microsoft Windows XP,platform,Microsoft,2001-2014,emerging,[DEFERRED],Launched Oct 2001; application patches altered benchmark results,"amd-profile01-64e43b,copy-of-hp-camera-lab-journal-prod-c103f6"
+windows-xp,Microsoft Windows XP,platform,Microsoft,2001-2014,emerging,legacy,Launched Oct 2001; application patches altered benchmark results,"amd-profile01-64e43b,copy-of-hp-camera-lab-journal-prod-c103f6,dct-corp-notebooks-jan-2003,dct-fujitsu-notebook-lineup-2002"
 amd-true-performance-initiative,AMD True Performance Initiative (TPI),standard,AMD,2001-2002,emerging,[DEFERRED],Announced Oct 2001 as replacement for GHz-E; Aberdeen applauded but noted slow progress,amd-profile01-64e43b
 winbench-2000,Winbench 2000,benchmark,Ziff Davis / eTesting Labs,2000-2002,legacy,[DEFERRED],Used DirectX 7.0 while systems ran DirectX 8.1; called obsolete by Aberdeen,amd-profile01-64e43b
 eclipsys-sunrisexa-3-3,Eclipsys SunriseXA Release 3.3,application,Eclipsys Corp.,2004,current,[DEFERRED],Interim release; combines Sunrise Clinical Manager 3.04 workflow engine with SunriseXA database schema; fixes October 2003 response time issues,auditor-report-4-43ad9b
@@ -561,7 +561,7 @@ tech-27,CA OPENROAD,development-tools,Computer Associates,1996–present,active,
 tech-28,Jasmine (CA),OODBMS,Computer Associates,1997–2002,pre-release,[DEFERRED],CA's object-oriented database; referenced in conclusions as an example of object navigation becoming desirable for some applications.,cab199-1-2-0cb163
 tech-29,TPC-C Benchmark,benchmark,TPC,1992–present,active-standard,[DEFERRED],OLTP transaction processing benchmark; referenced for Informix (many TPC-Cs) and Microsoft SQL Server 7 (>13000 TPC-C).,cab199-1-2-0cb163
 tech-30,TPC-D Benchmark,benchmark,TPC,1995–1999,active-standard,[DEFERRED],Decision support benchmark referenced as 1997 RDBMS industry theme; superseded by TPC-H in 1999.,cab199-1-2-0cb163
-windows-2000,Windows 2000,platform,Microsoft,1993-2005,emerging,legacy-unsupported,Also called Windows NT 5.0; central focus of Infrastructure Services practice; released February 2000,1999pr~1-c5516b
+windows-2000,Windows 2000,platform,Microsoft,1993-2005,emerging,legacy-unsupported,Also called Windows NT 5.0; central focus of Infrastructure Services practice; released February 2000,"1999pr~1-c5516b,dct-fujitsu-notebook-lineup-2002"
 erp,Enterprise Resource Planning (ERP),application,multiple,1990-present,growth,active,Umbrella term for Finance/Accounting/HR/Manufacturing packaged applications; key Aberdeen practice area,"1999pr~1-c5516b,cispra~1-23a333,ecpspr~1-4968bf,erppsp~1-31f088,erpv2p~1-b15573,retail~1-d5de79"
 sfa,Sales Force Automation (SFA),application,multiple,1990s-present,growth,active,Component of CIS practice; listed with call centers and data warehousing,1999pr~1-c5516b
 e-business,E-Business / Electronic Commerce,application,multiple,1995-present,emerging,active,"IBM's central strategic initiative as of 1999; covers B2C, B2B, and internal process automation",1999pr~1-c5516b
@@ -954,3 +954,25 @@ asp-microsoft,Microsoft Active Server Pages (ASP),framework,Microsoft,1996-2002,
 windows-2000-server,Windows 2000 Server,platform,Microsoft,2000-2010,mature,legacy,Server OS for production environment; IIS web server,07-pools-of-storage-functional-spec-597fa5
 internet-explorer,Internet Explorer 5.5+,platform,Microsoft,1999-2021,mature,discontinued,Target browser — IE 5.5+ on Windows only; other browsers/platforms not fully supported,07-pools-of-storage-functional-spec-597fa5
 ai-archival-analysis,AI-Assisted Archival Analysis,application,Perplexity AI,2024-present,emerging,emerging,AI synthesis of structured archival datasets for historical evaluation,maxtor-midline-evaluation-a8d823
+intel-pentium-4,Intel Pentium 4,platform,Intel,2000-2008,mature,legacy,Primary consumer CPU in 2002-2003; appears as 'Pentium 4' in CPUclass column,"dct-access-pc-deals-2002-2003,dct-at-kearney-business-pc-prices"
+intel-pentium-4-ht,Intel Pentium 4 with Hyper-Threading,platform,Intel,2002-2008,new,legacy,HT variant launched Nov 2002; appears as 'Pentium 4 HT' in CPUclass,dct-access-pc-deals-2002-2003
+intel-celeron,Intel Celeron,platform,Intel,1998-present,mature,legacy,Budget CPU in entry-level desktops,"dct-access-pc-deals-2002-2003,dct-emachines-q1-2003-lineup"
+amd-athlon-xp,AMD Athlon XP,platform,AMD,2001-2005,mature,legacy,AMD's Pentium 4 competitor; appears as 'Athlon XP ####+' in CPUclass,"dct-access-pc-deals-2002-2003,dct-emachines-q1-2003-lineup"
+amd-athlon,AMD Athlon (non-XP),platform,AMD,1999-2005,mature,legacy,,dct-access-pc-deals-2002-2003
+amd-duron,AMD Duron,platform,AMD,2000-2004,mature,discontinued,AMD's Celeron competitor,dct-access-pc-deals-2002-2003
+desktop-pc,Desktop PC form factor,platform,,1980s-present,mature,mature,Primary form factor in the 'Consumer' sheet,dct-access-pc-deals-2002-2003
+dvd-cd-rw-combo,DVD-ROM / CD-RW Combo Drive,platform,,2001-2010,new,obsolete,Standard optical drive in mid-2002 PCs,dct-access-pc-deals-2002-2003
+rdram,RDRAM (Rambus DRAM),platform,Rambus,1999-2003,declining,obsolete,Used in high-end Pentium 4 HT systems,dct-access-pc-deals-2002-2003
+ddr-sdram,DDR SDRAM,platform,,2000-2007,mature,legacy,Dominant memory type in 2002-2003 PCs,"dct-access-pc-deals-2002-2003,dct-at-kearney-business-pc-prices"
+amd-athlon-1800,Athlon XP 1800+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+amd-athlon-2000,Athlon XP 2000+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+amd-athlon-2100,Athlon XP 2100+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+amd-athlon-2200,Athlon XP 2200+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+amd-athlon-2400,Athlon XP 2400+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+amd-athlon-2600,Athlon XP 2600+,platform,AMD,2001-2004,mature,legacy,Channel price tracked weekly.,dct-amd-athlon-weekly-prices-2002-03
+intel-pentium-4-m,Mobile Intel Pentium 4 (M),platform,Intel,2002-2005,new,legacy,Dominant mobile CPU in Jan 2003 corporate notebooks.,"dct-corp-notebooks-jan-2003,dct-fujitsu-notebook-lineup-2002"
+intel-pentium-iii-m,Mobile Intel Pentium III (M),platform,Intel,2001-2003,declining,obsolete,Still used in thin-and-light form factors.,"dct-corp-notebooks-jan-2003,dct-fujitsu-notebook-lineup-2002"
+notebook-pc,Notebook PC form factor,platform,,1990s-present,mature,mature,"Split into Standard, Thin & Light, Value form-factor bands.",dct-corp-notebooks-jan-2003
+ddr-266-sdram,DDR-266 SDRAM,platform,,2001-2005,mature,obsolete,,dct-fujitsu-notebook-lineup-2002
+nvidia-quadro4-500-go-gl,NVIDIA Quadro4 500 Go GL,platform,NVIDIA,2002-2004,new,obsolete,"Mobile workstation GPU, 64 MB.",dct-fujitsu-notebook-lineup-2002
+ati-mobility-radeon,ATI Mobility RADEON,platform,ATI,2001-2004,mature,legacy,,dct-fujitsu-notebook-lineup-2002

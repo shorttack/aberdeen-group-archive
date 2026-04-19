@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Q1 2003 Worldwide and U.S. PC Shipments \u2014 IDC and Gartner Data",
+  "description": "Compact worksheet summarizing Q1 2003 PC shipment statistics from IDC and Gartner: IDC reported 1.5% U.S. / 2.1% WW growth (third consecutive quarter of growth); Gartner reported 7.7% U.S. / 5.5% WW growth; Dell led at 30.7% U.S. share / 17.3% WW share with 5,989,000 units shipped (29% of which were consumer); HP had 19.5% U.S. / 15.8% WW share with 34% consumer mix but -6% growth; IBM at 5.4% WW; total industry shipments ~34.6M units worldwide. Gartner also forecast 6.6% WW IT spending growth for 2003.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-04-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

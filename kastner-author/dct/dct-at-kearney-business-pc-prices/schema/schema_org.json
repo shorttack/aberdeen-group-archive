@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "A.T. Kearney Benchmark: Flagship Business Desktop Price Tracking, Aug 2002 \u2013 Mar 2003",
+  "description": "Six-date longitudinal price benchmark (Aug 20, Oct 2, Nov 8, Dec 2, Dec 17, 2002; Mar 10, 2003) tracking five flagship business desktop configurations on a standardized config (2.4 GHz P4, 256 MB DDR, 40 GB 7200 RPM HDD, CD-ROM, no monitor): Dell Optiplex GX260, Gateway E-4000 Special Deluxe, HP Compaq Evo D510 minitower (both SB and standard variants), and IBM NetVista M42 8303. Built for an A.T. Kearney consulting engagement to quantify the 7-month delta in street prices across Tier-1 vendors. Dell's price moved +$40 (+3%), Gateway +$350 (+35%), HP Compaq SB variant +$333, IBM -$20, HP standard +$196.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-03-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,9 @@
+# Source: eMachines Q1-03.xls
+
+## Sheet: Sheet1 (7 rows x 12 cols)
+[r0] eMachines Q1-2003 Product Lineup |  |  |  |  |  |  |  |  |  |  | 
+[r2]  | PC Maker | Model SKU | Price w/ Shipping and Rebates | Processor | CPU Speed | Memory | HDD | Opticals | Monitor | Printer | Retailer
+[r3]  | eMachines | T1842 | 399 | Celeron | 1.8 | 128 | 40 | CD-ROM |  |  | www.emachines.com
+[r4]  | eMachines | T2042 | 499 | Celeron | 2 | 128 | 40 | CD-RW; DVD |  |  | www.emachines.com
+[r5]  | eMachines | T2260 | 599 | Athlon 2200+ |  | 256 | 60 | CD-RW; DVD |  |  | www.emachines.com
+[r6]  | eMachines | T2460 | 649 | Athlon 2400+ |  | 256 | 60 | CD-RW; DVD |  |  | www.emachines.com

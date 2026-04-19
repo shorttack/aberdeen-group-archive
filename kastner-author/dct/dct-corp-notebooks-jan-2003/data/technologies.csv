@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4-m","Mobile Intel Pentium 4 (M)","platform","Intel","2002-2005","new","legacy","dct-corp-notebooks-jan-2003","Dominant mobile CPU in Jan 2003 corporate notebooks."
+"intel-pentium-iii-m","Mobile Intel Pentium III (M)","platform","Intel","2001-2003","declining","obsolete","dct-corp-notebooks-jan-2003","Still used in thin-and-light form factors."
+"windows-xp","Microsoft Windows XP Pro","platform","Microsoft","2001-2014","mature","legacy","dct-corp-notebooks-jan-2003","Standard corporate OS across all tracked models."
+"notebook-pc","Notebook PC form factor","platform","","1990s-present","mature","mature","dct-corp-notebooks-jan-2003","Split into Standard, Thin & Light, Value form-factor bands."

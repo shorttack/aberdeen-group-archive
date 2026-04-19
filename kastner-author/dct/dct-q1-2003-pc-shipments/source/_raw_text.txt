@@ -1,0 +1,18 @@
+# Source: 2003 Q1 PC shipments.xls
+
+## Sheet: Sheet1 (21 rows x 6 cols)
+[r0] Q1 2003 PC shipments |  |  |  |  | 
+[r3] IDC | US growth | WW growth |  |  | 
+[r4] 3rd qtr of growth | 0.015 | 0.021 |  |  | 
+[r6] Gartner | 0.077 | 0.055 |  |  | 
+[r8]  | US | WW | Growth | Consumer | Units
+[r9] Dell | 0.307 | 0.173 | 0.2 | 0.29 | 5989000
+[r10] HP | 0.195 | 0.158 | -0.06 | 0.34 | 
+[r11] IBM |  | 0.054 |  |  | 
+[r12] Fujitsu/Siemens |  |  |  |  | 
+[r13] Toshiba |  |  | 0.156 |  | 
+[r14] Total shipments |  |  |  |  | 34600000
+[r16] Gartner predicts 6.6% ww IT spending growth |  |  |  |  | 
+[r18] 2001-2002 Y/Y growth | -0.004 | -0.027 |  |  | 
+[r19] shipments |  | 32700000 |  |  | 
+[r20] 2000-2001 Y/Y | 0.17 | 0.2 |  |  | 

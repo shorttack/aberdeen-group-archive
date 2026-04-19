@@ -1,0 +1,22 @@
+# Source: A T Kearney data.xls
+
+## Sheet: Sheet1 (21 rows x 10 cols)
+[r0]  | PC Maker | Model SKU | Price w/ Shipping and Rebates | Price w/ Shipping and Rebates | Price w/ Shipping and Rebates | Price w/ Shipping and Rebates | Price w/ Shipping and Rebates | Price w/ Shipping and Rebates | Monthly Delta $
+[r1]  |  |  | 2002-08-20 | 2002-10-02 | 2002-11-08 | 2002-12-02 | 2002-12-17 | 2003-03-10 | 
+[r2]  | Dell | Optiplex GX260 | 1162 | 1085 | 1210 | 1079 | 1089 | 1202 | 113
+[r3]  | Gateway | E-4000 Special Deluxe | 1009 | 1163 | 1184 | 1004 | 1204 | 1359 | 155
+[r4]  | HP Compaq | Evo D510 minitower SB | NA | NA | 977 | NA | 1286 | 1310 | 24
+[r5]  | IBM | NetVista M42 8303 | 1263.25 | 1320 | 1245 | 1124 | 1288 | 1268 | -20
+[r6]  | HP Compaq | Evo D510 minitower | 1124 | 1118 | 977 | 1193 | 1286 | 1320 | 34
+[r8] Standard | Processor | 2.4 Ghz | (Changed December 2002 -- free upgrade to 2.4 at Dell, IBM, maybe Compaq) |  |  |  |  |  | 
+[r9] Config | Memory | 256 DDR |  |  |  |  |  |  | 
+[r10]  | HDD | 40 GB (7200 RPM) |  |  |  |  |  |  | 
+[r11]  | Optical | CD-ROM |  |  |  |  |  |  | 
+[r12]  | Monitor | None |  |  |  |  |  |  | 
+[r13]  | Ethernet | 10/100 or better |  |  |  |  |  |  | 
+[r14]  | Modem | None |  |  |  |  |  |  | 
+[r15]  | OS | Windows XP Pro |  |  |  |  |  |  | 
+[r16]  | Warranty | 3-Year NBD or better |  |  |  |  |  |  | 
+[r17]  | Productivity Suite | Office XP (Word, Excel, Outlook, Publisher) | (December:  Office XP Pro |  |  |  |  |  | 
+[r18]  | Anti-Virus | AV software |  |  |  |  |  |  | 
+[r20] Source:  Aberdeen Group, March 2003 by license to A T Kearney |  |  |  |  |  |  |  |  | 

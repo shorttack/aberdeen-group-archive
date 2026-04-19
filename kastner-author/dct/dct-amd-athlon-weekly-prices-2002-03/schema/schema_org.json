@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AMD Athlon XP Weekly CPU Pricing, Jul 2002 \u2013 2003",
+  "description": "Weekly tracking of AMD Athlon XP 1800+, 2000+, 2100+, 2200+, 2400+, and 2600+ pricing across 40 selling dates from July 2002 through 2003, producing 155 model-week price observations. Captures AMD's competitive pricing posture against the Intel Pentium 4 in the consumer/channel CPU market during the peak of the PC price war.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-12-31",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

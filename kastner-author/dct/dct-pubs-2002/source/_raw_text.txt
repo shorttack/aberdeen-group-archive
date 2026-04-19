@@ -1,0 +1,439 @@
+# Source: 2002 DCT Pubs.xls
+
+## Sheet: Sheet1 (436 rows x 5 cols)
+[r0] 2002 PUBLICATIONS |  |  |  | 
+[r1] # | DATE | TITLE | PUB TYPE | ANALYST
+[r2] 1 | 2002-01-02 | Flexi’s FMS Service:  Pioneering Accounting Outsourcing for Today’s Complex Businesses (FlexiInternational) | Profile | Yong, Alan
+[r3] 9 | 2002-01-02 | Creating a New Reseller Channel for Tommy Hilfiger (eGroupOne) | OnSite | Allen, Kent
+[r4] 74 | 2002-03-02 | Enlightened e-Service:  The Key to Successfully Balancing Customer Growth and Lowering Operational Costs (Quantum/Broad Daylight) | Report OnSite | Allen, Kent
+[r5] 90 | 2002-03-02 | Moving Beyond One-Off e-Mail Campaigns (Quris) | Impact | Allen, Kent
+[r6] 141 | 2002-05-02 | From the Sell-Side Looking in, Part 1:  Making Sense of the CRM Jungle | InSight | Allen, Kent
+[r7] 142 | 2002-05-02 | From the Sell-Side Looking in, Part 1:  Making Sense of the Channel Conundrum | InSight | Allen, Kent
+[r8] 176 | 2002-06-02 | DoubleClick Assumes the Advertising technology Leadership Position:  Just Lies --- Damn Lies --- and Stats, or Is Real Progress Being Made | Perspective | Allen, Kent
+[r9] 222 | 2002-07-02 | E-Mail Marketing: The Last Mile of CRM?  | InSight | Allen, Kent
+[r10] 235 | 2002-08-02 | Avitage! For the Visual Age of Selling (New Media Solutions) | Profile | Allen, Kent
+[r11] 267 | 2002-08-02 | New Media Solutions, Inc. | Snapshot | Allen, Kent
+[r12] 296 | 2002-09-02 | Aqueduct, Inc: Channeling Sharp's Aftermarket Goods and Current Product Information to Downstream Customers (Sharp) | OnSite | Allen, Kent
+[r13] 297 | 2002-09-02 | Omaha Steaks and eOneGroup: Delivering Premium E-commerce from the Heartland of America | OnSite | Allen, Kent
+[r14] 298 | 2002-09-02 | Ironside Rigs Tighter Order Processing Flows for Day-Brite Capri Omega | OnSite | Allen, Kent
+[r15] 299 | 2002-09-02 | Extinguishing the Flames of Order Management and ERP Integration: HAHT Passes MSA's Smell Test | OnSite | Allen, Kent
+[r16] 302 | 2002-09-02 | What Works: Sell-Side/Demand Chain Best Practices: Empowering the Multi-Channel Buyer | Report | Allen, Kent
+[r17] 320 | 2002-12-02 | Time to Get Serious About the Online Channel | InSight | Allen, Kent
+[r18] 321 | 2002-12-02 | Silverpop | Snapshot | Allen, Kent
+[r19] 323 | 2002-12-02 | Quantifying the Vision: Building the Case for Project Collaboration in the Construction Industry | White Paper | Allen, Kent
+[r20] 147 | 2002-05-02 | PeopleSoft Takes Its Case Directly to the CEO | InSight | Alschuler, David
+[r21] 186 | 2002-06-02 | SAP Continues to Set Pace in Enterprise Space | Perspective | Alschuler, David
+[r22] 269 | 2002-09-02 | Survivor 4: The Enterprise Applications Software Market? | Perspective | Alschuler, David
+[r23] 42 | 2002-03-02 | What Works in Europe:  Success Stories in Customer Relationship Management | Report | Appenzeller, Ute
+[r24] 43 | 2002-03-02 | HSBC Bank: Automated e-Mail with ‘Personal Touch’ Improves Customer Service (Amacis) | Report OnSite | Appenzeller, Ute
+[r25] 44 | 2002-03-02 | Schleswag:  Integrated Call Center and Field Service Automation Improve Customer Support (Applix) | Report OnSite | Appenzeller, Ute
+[r26] 45 | 2002-03-02 | FBTO:  Better Prediction of Customer Behavior Improves Marketing Campaign Yield (DataDistilleries) | Report OnSite | Appenzeller, Ute
+[r27] 46 | 2002-03-02 | BUPA:  Maintaining Market Leadership in Britain’s Private Healthcare Insurance Sector (Point Info) | Report OnSite | Appenzeller, Ute
+[r28] 47 | 2002-03-02 | Ericsson:  Simplifying Configure-to-Order Sales for Competitive Edge (Tacton) | Report OnSite | Appenzeller, Ute
+[r29] 48 | 2002-03-02 | Cantonal Banks Switzerland:  Leading Member Banks into the Virtual Channel, Closer to a ‘360 Degree’ Customer View (UniQuare) | Report OnSite | Appenzeller, Ute
+[r30] 86 | 2002-03-02 | BUPA:  Maintaining Market Leadership in Britain’s Private Healthcare Insurance Sector | Report OnSite | Appenzeller, Ute
+[r31] 146 | 2002-05-02 | Where Financial Processes and Technologies Stand:  The Enterprise Reality | InSight | Arkhipov, Andrei
+[r32] 176 | 2002-06-02 | Benchmarking Financial Operations Processes and Technologies | Report | Arkhipov, Andrei
+[r33] 230 | 2002-07-02 | WebSideStory, Inc. | Snapshot | Arkhipov, Andrei
+[r34] 231 | 2002-07-02 | Xign Corporation | Snapshot | Arkhipov, Andrei
+[r35] 314 | 2002-09-02 | Wolverine World Wide Simplifies Its International Trade Finance Operations | OnSite | Arkhipov, Andrei
+[r36] 317 | 2002-09-02 | alterna Technologies Group | Snapshot | Arkhipov, Andrei
+[r37] 329 | 2002-10-02 | Best Practices in Streamlining the Financial Value Chain: Top Seven FVCM Implementations | Report | Arkhipov, Andrei
+[r38] 362 | 2002-10-02 | CompUSA Gets a Tight Grip on Its Collection Activities | OnSite | Arkhipov, Andrei
+[r39] 366 | 2002-10-02 | XRT Brings Real-Time, Enterprisewide Cash Flow Management into the Financial Value Chain | Profile | Arkhipov, Andrei
+[r40] 23 | 2002-02-02 | Front-End Enablement:  Digital Cortex Offers Solution Providers a Productive, Capable Alternative to Back-End Integration (Anysoft) | Profile | Benett, Gordon
+[r41] 24 | 2002-02-02 | Front-End Enablement:  Digital Cortex Transforms the User Interface into a Productive Programming Interface (Anysoft) | Profile | Benett, Gordon
+[r42] 127 | 2002-04-02 | ColdFusion MX:  Raising the Return on Investment of Internet Application Development (Macromedia) | White Paper | Benett, Gordon
+[r43] 209 | 2002-07-02 | Interoperability Brings Opportunities, Challenges to CRM (UAN) | Viewpoint | Benett, Gordon & Pombriant, Denis
+[r44] 329 | 2002-12-03 | Flash Remoting MX: A Responsive Client-Server Architecture for the Web | White Paper | Bennett, Gordon
+[r45] 49 | 2002-03-02 | Technology Forecasting Consortium:  2002 User Buying Intentions | Report | Bishop, Hugh
+[r46] 138 | 2002-05-02 | A Star Is Born:  Accelerating IT Market Formation | Executive Viewpoint | Bishop, Hugh
+[r47] 228 | 2002-07-02 | Worldwide CRM Spending: Forecast and Analysis 2001-2005 | Report | Bishop, Hugh
+[r48] 233 | 2002-07-02 | Mobile Middleware: Adding Business Value to Handheld Devices | Report | Bishop, Hugh
+[r49] 250 | 2002-08-02 | IT Spending Shows Signs of Stabilizing | InSight | Bishop, Hugh
+[r50] 306 | 2002-09-02 | Technology Forecasting Consortium:  2002 User Buying Intentions Update | Report | Bishop, Hugh
+[r51] 352 | 2002-10-02 | How to Survive in the Incremental Economy | Executive Viewpoint | Bishop, Hugh
+[r52] 291 | 2002-11-02 | IT Spending Shows Encouraging Signs | InSight | Bishop, Hugh
+[r53] 326 | 2002-12-02 | World IT Spending 2002-2006: Measuring the Incremental Recovery | Report | Bishop, Hugh
+[r54] 159 | 2002-05-02 | Is a CRM Turnaround in Sight? | InSight | Bishop/Fantozzi
+[r55] 177 | 2002-06-02 | Customer Relationship Management: Mid-Market Holds Surprises | Report | Bishop/Pombriant
+[r56] 65 | 2002-03-02 | The Next B-to-B Gestalt:  Business Process Networks | Market Viewpoint | Brandel, Bill
+[r57] 185 | 2002-06-02 | From Buildings to Bricks: SAP Delivers New Supply Chain Management Technology in Layers | Perspective | Brandel, Bill
+[r58] 227 | 2002-07-02 | Transaction Networks: Efficient Enablers of B-to-B Interaction (GE Global Exchange Services) | Profile | Brandel, Bill
+[r59] 256 | 2002-08-02 | GXS Gets Its Own Wings | Impact | Brandel, Bill
+[r60] 260 | 2002-08-02 | Event Management: The Missing Link in Supply Chain Services | InSight | Brandel, Bill
+[r61] 289 | 2002-09-02 | SynQuest Merger: Death Knell for the Event Management Market?  | Perspective | Brandel, Bill
+[r62] 340 | 2002-10-02 | QRS: Delivering Collaborative Commerce Solutions for the Retail Industry | White Paper | Brandel, Bill
+[r63] 356 | 2002-10-02 | Covisint Drives Cost Efficiencies for the Automotive Industry | OnSite | Brandel, Bill
+[r64] 388 | 2002-11-02 | Collaborative Planning:  You Can't Optimize What You Can't See | InSight | Brandel, Bill
+[r65] 15 | 2002-01-02 | Computer Associates Extends Its Lead in Linux-Based e-Business Management Solutions | Impact | Claybrook, Bill
+[r66] 39 | 2002-02-02 | Linux-Based Software Management:  An Emerging Revenue Stream for Large and Small Companies | InSight | Claybrook, Bill
+[r67] 76 | 2002-03-02 | The Linux Standard Base:  How Will It Benefit Linux? | InSight | Claybrook, Bill
+[r68] 112 | 2002-04-02 | Total Cost of Ownership:  Sun Fire 280R and Sun Fire V880 Win out over IBM p620 and p660 | White Paper | Claybrook, Bill
+[r69] 156 | 2002-05-02 | Sun's Grid Computing Solutions Outdistance the Competition | White Paper | Claybrook, Bill
+[r70] 171 | 2002-06-02 | Dell Focuses Its Linux Efforts Where Customers See the Most Value | Strategy Profile | Claybrook, Bill
+[r71] 180 | 2002-06-02 | Price/Performance Leadership: Sun Fire 280R, V480, and V880 Win out over IBM p620, p640, and p660 | White Paper | Claybrook, Bill
+[r72] 236 | 2002-08-02 | Ximian: The Linux Desktop Company | Profile | Claybrook, Bill
+[r73] 257 | 2002-08-02 | Sun's Grid Computing Solutions Outdistance the Competition - An Update | White Paper | Claybrook, Bill
+[r74] 304 | 2002-11-02 | Red Hat:  Readying Linux for the Enterprise | White Paper | Claybrook, Bill
+[r75] 311 | 2002-12-02 | Trustix and IBM:  Providing Linux-Based Infrastructure Alternatives for SMEs | White Paper | Claybrook, Bill
+[r76] 119 | 2002-04-02 | The Business Case for Smart Metering (SmartSynch) | Profile | Cohen, Ethan
+[r77] 137 | 2002-04-02 | Outsourcing Billing and Customer Care:  A Strong Case in the Energy Utility Industry (ORCOM) | Profile | Cohen, Ethan
+[r78] 17 | 2002-01-02 | Wi-Fi’s New Standard:  802.11a Will Offer the Best Bandwidth for the Buck | InSight | Ro, Isaac
+[r79] 80 | 2002-03-02 | AMD’s Gigahertz Equivalency:  Inexperienced Buyers Accept Bad Science | White Paper | Kastner, Peter
+[r80] 89 | 2002-03-02 | Second-Generation PDAs:  It’s High Time for Wireless | InSight | Ro, Isaac
+[r81] 130 | 2002-04-02 | Only Focused WiFi-x IC Suppliers Will Prosper | InSight | Craig, Russ
+[r82] 131 | 2002-04-02 | Achieving Differentiated WiFi-x IC Offerings | InSight | Craig, Russ
+[r83] 132 | 2002-04-02 | Disruptive Technology May Challenge Existing WiFi-x Architectures | InSight | Craig, Russ
+[r84] 96 | 2002-04-02 | HP’s Consumer PC Business Will Shrink | InSight | Kastner, Peter
+[r85] 102 | 2002-04-02 | WebEx:  Taking Conferencing to the Business Communications Summit | Profile | Kastner, Peter
+[r86] 152 | 2002-05-02 | Beyond Windows 8-Way Servers:  Why Businesses Are Deploying the Unisys ES7000 | White Paper | Kastner, Peter
+[r87] 175 | 2002-06-02 | Pity the Poor Consumer Electronics Manufacturer | InSight | Craig, Russ
+[r88] 183 | 2002-06-02 | Cable and Telco Companies Battle for Home Internet Gateway and Network | InSight | Craig/Kastner
+[r89] 194 | 2002-06-02 | Infiniband Architecture: Planning the Nex-Generation Data Center | White Paper | Kastner, Peter
+[r90] 31 | 2002-02-02 | Teradata E-Business Analytics:  Translating Clicks into Business (NCR) | Profile | Creese, Guy
+[r91] 34 | 2002-02-02 | Through the Analytical CRM Looking Glass:  Customer Behavior Analytics | InSight | Creese, Guy
+[r92] 79 | 2002-03-02 | A New Analytical Perspective:  CA’s Operational Intelligence Solutions | White Paper | Creese, Guy
+[r93] 113 | 2002-04-02 | WebTrends Intelligence Suite:  High-End Analytics for Turning Web Visitors into Returning Customers (Net IQ) | Profile | Creese, Guy
+[r94] 163 | 2002-05-02 | Generating Roi (Return on Internet) by Focusing Web Analytics on Business Process | White Paper | Creese, Guy
+[r95] 168 | 2002-06-02 | MERANT: Web Content Management: Managing Changing Code + Content | Impact | Creese, Guy
+[r96] 170 | 2002-06-02 | Web Analytics: Making Business Sense of Online Behavior | Report | Creese, Guy
+[r97] 206 | 2002-07-02 | Visual Insights & Usability Sciences: Exposing the Web Channel to Better Insight | Impact | Creese, Guy
+[r98] 216 | 2002-07-02 | Web Analytics ASPs: Making Market Waves | InSight | Creese, Guy
+[r99] 223 | 2002-07-02 | D&B's Supply Spend Analysis Solution: Weaving Strategic Sourcing into the Enterprise | Profile | Creese, Guy
+[r100] 258 | 2002-08-02 | Clickstream Technologies PLC | Profile | Creese, Guy
+[r101] 277 | 2002-09-02 | Business Objects:  Raising the Bar on Itself with Analytic Applications | Profile | Creese, Guy
+[r102] 302 | 2002-11-02 | A Life Sciences Evolution:  The Shifting Universe of Regulatory Publishing | White Paper | Creese, Guy
+[r103] 328 | 2002-12-03 | Informatica:  Generating Cross-Enterprise Insight | Profile | Creese, Guy
+[r104] 11 | 2002-01-02 | Omnicell Deploys Commerce One’s e-Procurement Platform as Antidote to Rising Healthcare Costs  | OnSite | Degnan, Christa
+[r105] 153 | 2002-05-02 | Zegato Delivers Complete, End-to-End Solution for Optimizing Travel and Expense Costs — and Performance | Profile | Degnan, Christa
+[r106] 188 | 2002-06-02 | Online Optimization Delivers Value for Total Business Hotel Spend | White Paper | Degnan, Christa
+[r107] 213 | 2002-07-02 | Expense Management Automation in Action: Value Affirmed | InSight | Degnan, Christa
+[r108] 237 | 2002-08-01 | Captura Acquisition Hones Concur's Edge in EMA Market | Perspective | Degnan, Christa
+[r109] 270 | Sepember-02 | PeopleSoft Gained Clout While SCM Market Was Sleeping  | Perspective | Degnan, Christa
+[r110] 284 | 2002-09-02 | The Stationery Office Creates Collaboration Value with Noosh | OnSite | Degnan, Christa
+[r111] 285 | 2002-09-02 | Texas Instruments Captures and Contains Contract Labor Costs | OnSite | Degnan, Christa
+[r112] 286 | 2002-09-02 | Hewlett-Packard Print E-procurement Delivers Direct Cost Savings | OnSite | Degnan, Christa
+[r113] 287 | 2002-09-02 | Verizon Wireless Receives Rapid ROI in Contract Labor Procurement | OnSite | Degnan, Christa
+[r114] 288 | 2002-09-02 | divine Drops Travel Costs By Extending Its Own Enterprise | OnSite | Degnan, Christa
+[r115] 308 | 2002-09-02 | Best Practices in Online Services Procurement (OSP): Travel, Print and Contract Labor | Report | Degnan, Christa
+[r116] 312 | 2002-09-02 | Henkel Reduces Travel Costs While Boosting Convenience | OnSite | Degnan, Christa
+[r117] 323 | 2002-10-02 | Online Services Procurement: The Next Operational Optimization Opportunity (Peoplesoft) | White Paper | Degnan, Christa
+[r118] 303 | 2002-11-02 | Ariba Suite Upgrasdes Spend Management Story | Perspective | Degnan, Christa
+[r119] 70 | 2002-03-02 | Gorillas Play Leapfrog:  Unisys Takes SAP Benchmark Record to 26,000 Concurrent Users | Impact | Dorin, Robert
+[r120] 128 | 2002-04-02 | Compaq and Tru64 Unix Meet the Challenges of Demanding Supply Chain Management with mySAP.com | Profile | Dorin, Robert
+[r121] 149 | 2002-05-02 | Compaq TruCluster Server and Oracle9i Clusters Combine to Reduce Costs:  Can SAP Resist This Fit? | InSight | Dorin, Robert
+[r122] 251 | 2002-08-02 | IBM's DB2 and the pSeries Family of Servers - Industry Performance Leadership for SAP, Siebel, and Other Enterprise Applications | Profile | Dorin, Robert
+[r123] 327 | 2002-10-02 | Performance Breakthroughs: The Benchmarking Fanatics Are Still At It | Perspective | Dorin, Robert
+[r124] 349 | 2002-10-02 | IBM WebSphere Business Integration for the Siebel UAN: Enabling Composite Applications Through Collaboration | Impact | Dwyer, Tom
+[r125] 116 | 2002-04-02 | World IT Spending 2002-2005:  Timing the Recovery | Report | Fantozzi, Esme
+[r126] 120 | 2002-04-02 | Logistics Resource Management:  Navigating The Technology Landscape | Report | Fantozzi, Esme
+[r127] 18 | 2002-01-02 | The Reynolds Generations Series: CRM Services for the Automotive Industry | Profile | Fletcher, Chris
+[r128] 37 | 2002-02-02 | IP Contact Centers: An Architectural Foundation for Multi-Channel CRM (Aspect) | White Paper | Fletcher, Chris
+[r129] 40 | 2002-03-02 | Microsoft Enters CRM Market with MS CRM:  Opportunity or Threat? | InSight | Fletcher, Chris
+[r130] 73 | 2002-03-02 | CRM for the Community:  City of Des Moines Implements FrontRange’s HEAT for ‘Customer Care’ | Report OnSite | Fletcher, Chris
+[r131] 155 | 2002-05-02 | British Telecom and Compaq Professional Services: Providing Call Center Services for the Enterprise | OnSite | Fletcher, Chris
+[r132] 202 | 2002-07-02 | Microsoft.NET: A Foundation for Connected Business | White Paper | Fletcher, Chris
+[r133] 243 | 2002-08-02 | Microsoft: "Nothing but .Net?" | InSight | Fletcher, Chris
+[r134] 343 | 2002-10-02 | Maximizing Return and Minimizing Risk: Integrated Suites Versus "Best-of-Breed" Applications | White Paper | Fletcher, Chris
+[r135] 357 | 2002-10-02 | Intertwine B.V.: “Dependability, Reliability, Discipline” | OnSite | Fletcher, Chris
+[r136] 358 | 2002-10-02 | A "Golden Age" of Call and Contact Centers | Market Viewpoint | Fletcher, Chris
+[r137] 363 | 2002-10-02 | What Works: Ten Significant Implementations in CRM: Customer Call and Contact Centers | Report | Fletcher, Chris
+[r138] 373 | 2002-11-02 | Sanlam Life Shifts Focus from Cost Reduction to Quality Client Service and Achieves Both in the Process  | OnSite | Fletcher, Chris
+[r139] 375 | 2002-11-02 | BlueCross BlueShield of Tennessee: Operational Efficiency and Better Customer Service | OnSite | Fletcher, Chris
+[r140] 38 | 2002-02-02 | Business Process Management — the Key to Efficient Government (Metastorm) | Profile | Fowkes, Darcy
+[r141] 66 | 2002-03-02 | Business Process Management:  Emerging Software Streamlines Operations, Boosts Bottom Line | Market Viewpoint | Fowkes, Darcy
+[r142] 140 | 2002-05-02 | One Size Fits All:  The Quest for a Common Language | InSight | Fowkes, Darcy
+[r143] 192 | 2002-06-02 | Agentis: A Secret Sauce for Serving High-End Business Process Management Solutions | Strategy Profile | Fowkes, Darcy
+[r144] 239 | 2002-08-02 | Business Process Management - What Do Web Services Have to Do with It?  | Viewpoint | Fowkes, Darcy
+[r145] 304 | 2002-09-02 | Worldwide Business Process Management Spending: Forecast and Analysis | Report | Fowkes, Darcy
+[r146] 326 | 2002-10-02 | Worldwide Business Process Management Spending: Forecast and Analysis (2001-2005) | InSight | Fowkes, Darcy
+[r147] 336 | 2002-10-02 | Savvion | Snapshot | Fowkes, Darcy
+[r148] 365 | 2002-10-02 | Vitria | Snapshot | Fowkes, Darcy
+[r149] 380 | 2002-11-02 | Intalio | Snapshot | Fowkes, Darcy
+[r150] 339 | 2002-10-02 | Administrators Demand a New Balance Between Features and Value For for Enterprise Messaging | White Paper | Gardner, Dana
+[r151] 374 | 2002-11-02 | Openwave's Messaging Suite Aligns Best-of-Breed Components with an Agile Platform | White Paper | Gardner, Dana
+[r152] 36 | 2002-02-02 | Identrus Charts the Course to e-Business for Financial Services | Profile | Hemmendinger, Eric
+[r153] 174 | 2002-06-02 | Automating Security Patches for the Enterprise: A Two-Billion-Dollar Business Opportunity | InSight | Hemmendinger, Eric
+[r154] 215 | 2002-07-02 | Automated Web Application VulnerabilityTesting Keeps Web Applications from Being Hacked (SPI Dynamics) | InSight | Hemmendinger, Eric
+[r155] 316 | 2002-09-02 | SafeWeb, Inc | Snapshot | Hemmendinger, Eric
+[r156] 347 | 2002-10-02 | Wireless LAN Security: An Adolescent Market | InSight | Hemmendinger, Eric
+[r157] 319 | 2002-12-02 | Automated Vulnerability Remediation -- The Cure for Security's Common Cold | White Paper | Hemmendinger, Eric
+[r158] 19 | 2002-01-02 | The State of the Storage Area Network (SAN):  2001 (Dell) | White Paper | Hill, David
+[r159] 88 | 2002-03-02 | Alacritus Software’s Securitus I:  Pointing the Way to Virtual Tape Libraries | Profile | Hill, David
+[r160] 95 | 2002-04-02 | iSCSI:  Extending the Cost Savings and Increasing the Flexibility of Storage Networking (Cisco) | White Paper | Hill, David
+[r161] 201 | 2002-06-02 | Dell: Extending Its Direct Model Values to Enterprise Storage | Profile | Hill, David
+[r162] 234 | 2002-08-02 | Sony's AIT-3: Measuring Up to New Demands Upon Tape | Profile | Hill, David
+[r163] 282 | 2002-09-02 | StorageNetworks' STORos StorageManager: Helping Enterprises Manage Storage as a Utility | Impact | Hill, David
+[r164] 310 | 2002-12-02 | Security May Be Key to Wide-Area Storage Networking Success | Perspective | Hill, David
+[r165] 324 | 2002-12-03 | Hitachi Freedom Storage:  Thunder 9500 V Series:  Making a Loud Impact in Open Systems Storage | Impact | Hill, David
+[r166] 52 | 2002-03-02 | CA’s eTrust Directory:  A Cornerstone of e-Business Infrastructure Revisited | Profile | Hoch, Michael
+[r167] 72 | 2002-03-02 | Streaming with Surgient’s eQ2500:  Low TCO + High QoS = Real-World Solutions | Impact | Hoch, Michael
+[r168] 104 | 2002-04-02 | Yahoo! Broadcast Solutions Brings Wide Audience and Rich Media to Pepsi’s Online Marketing Campaign | Report OnSite | Hoch, Michael
+[r169] 105 | 2002-04-02 | Volera and the Plano Independent School District:  Streaming Vast Internet Content at Fast Intranet Speeds | Report OnSite | Hoch, Michael
+[r170] 106 | 2002-04-02 | Kontiki Networks and the Sundance Online Film Festival:  Reaffirming the Artistic Mission with Video on Demand | Report OnSite | Hoch, Michael
+[r171] 107 | 2002-04-02 | RealNetworks and Oracle Corporation:  Using Streaming Media to Reduce Costs and Drive Revenue | Report OnSite | Hoch, Michael
+[r172] 108 | 2002-04-02 | Thin Multimedia and SK Telecom:  Streaming New Revenue with Wireless Video and Multimedia Services | Report OnSite | Hoch, Michael
+[r173] 109 | 2002-04-02 | Blue Falcon Networks and Radio Free Virgin:  Building a Profitable Streaming Business Model with a Distributed Delivery Network | Report OnSite | Hoch, Michael
+[r174] 115 | 2002-04-02 | VeriSign’s Managed DNS Services Improve Manageability, Accuracy, and Security While Cutting Associated Costs | Profile | Hoch, Michael
+[r175] 148 | 2002-05-02 | Array Networks Lowers Data Center TCO by Decreasing Network Complexity | Impact | Hoch, Michael
+[r176] 157 | 2002-05-02 | E Pluribus Unum: Can Multifunction Solutions Radically Increase Data Center Efficiency? | White Paper | Hoch, Michael
+[r177] 158 | 2002-05-02 | Does Novell Have What It Takes to Be a Serious Web Services Contender? | Viewpoint | Hoch, Michael
+[r178] 167 | 2002-06-02 | Persistence Software Enables Real-Time Business Decisions Through Distributed Data Management and the Virtual Data Center | Profile | Hoch, Michael
+[r179] 189 | 2002-06-02 | Enterprises Need Managed Deilvery Solutions for Efficient, Guaranteed Distribution | White Paper | Hoch, Michael
+[r180] 252 | 2002-08-02 | Blue Coat Systems Secures Use of Web-Based Applications | Profile | Hoch, Michael
+[r181] 300 | 2002-11-02 | Intraware's SubscribeNet Software Delivery Service:  Slash Costs and Increase Customer Satisfaction | Impact | Hoch, Michael
+[r182] 26 | 2002-02-02 | Unit 4 Agresso’s Professional Services Automation Solution Adapts to Change as Rapidly as Organizations Require | Profile | Hofferberth, David
+[r183] 69 | 2002-03-02 | ERP Meets Services Automation:  Enterprise Solutions Optimize Internal Service Organization Performance (Lawson) | White Paper | Hofferberth, David
+[r184] 101 | 2002-04-02 | PlanView:  Professional Services Automation End-User Survey Results | Report Profile | Hofferberth, David
+[r185] 103 | 2002-04-02 | Autotask Delivers Comprehensive Professional Services Automation Solutions to Emerging Services-Based Organizations | Profile | Hofferberth, David
+[r186] 114 | 2002-04-02 | ERP Meets PSA:  Enterprise Solutions Enhance Decision-Making and Provide Significant ROI (Lawson) | White Paper | Hofferberth, David
+[r187] 135 | 2002-04-02 | A Rising PSA Star from ‘Down Under’:  Solution 6’s CABS Shines in Effective Financial Management | Profile | Hofferberth, David
+[r188] 232 | 2002-07-02 | Professional Services Automation: Technology-Enabled Integration of People, Process and Capital Assets | Report | Hofferberth, David
+[r189] 276 | 2002-09-02 | OpenAccounts Increases Financial Management | Profile | Hofferberth, David
+[r190] 300 | 2002-09-02 | Tx3 Solutions, Inc. | Profile | Hofferberth, David
+[r191] 337 | 2002-10-02 | Microsoft's Move to PSA: What Does This Mean for the Market:  | InSight | Hofferberth, David
+[r192] 2 | 2002-01-02 | The Power of Partnership:  How MapInfo Helps Shape the Future of Location-Based Services | OnSite | Hollerbach, Lew
+[r193] 221 | 2002-07-02 | Izodia: Optimizing Inter-Enterprise Commerce | Impact | Howarth, Fran
+[r194] 266 | 2002-08-02 | Best Practices in Private Exchange Implementations in Europe | Report | Howarth, Fran
+[r195] 283 | 2002-09-02 | SAP: containing Costs Effectively in Turbulent Times (Sapphire) | Perspective | Howarth, Fran
+[r196] 315 | 2002-09-02 | Office Depot/Viking: Pan-European Private Exchange Implementation Yeilds Benefits for All Participants | OnSite | Howarth, Fran
+[r197] 348 | 2002-10-02 | Siemens: Masters of Innovation | OnSite | Howarth, Fran
+[r198] 360 | 2002-10-02 | Scania: Eliminating the Paper Chase | OnSite | Howarth, Fran
+[r199] 289 | 2002-11-02 | Marrakech:  Defining the Market for Private Training Utilities | Strategy Profile | Howarth, Fran
+[r200] 8 | 2002-01-02 | Microsoft and Security:  A Broader Perspective | InSight | Hurley, Jim
+[r201] 29 | 2002-02-02 | Best Practices for Personalizing and Protecting Web Portal Applications (CA) | White Paper | Hurley, Jim
+[r202] 145 | 2002-05-02 | Federated Identity Systems (Sun) | White Paper | Hurley, Jim
+[r203] 154 | 2002-05-02 | Security Policy Automation and IT Systems: Putting the Buyer Back in Charge | InSight | Hurley, Jim
+[r204] 166 | 2002-06-02 | Security Process Automation | White Paper | Hurley, Jim
+[r205] 178 | 2002-06-02 | Reconnecting Business, Technology, and Finance to Achieve Win-Win Results | Executive Viewpoint | Hurley, Jim
+[r206] 179 | 2002-06-02 | Microsoft and Security:  A Sleeping Giant Awakens | InSight | Hurley, Jim
+[r207] 242 | 2002-08-01 | VRM: A Simple and Effective Solution for Retaining Control of High-Value Distributed Digital Assets | Impact | Hurley, Jim
+[r208] 272 | 2002-09-02 | Homeland Security: A Look Forward | InSIght | Hurley, Jim
+[r209] 273 | 2002-09-02 | Identity Management Systems:  A Core Business Competence | White Paper | Hurley, Jim
+[r210] 279 | 2002-09-02 | Active eIRM Security: A Dynamic Electronic Maginot Line | InSight | Hurley, Jim
+[r211] 294 | 2002-09-02 | Tax Carrots, Not Mandatory Sticks, for U.S. Cybersecurity Strategy | Perspective | Hurley, Jim
+[r212] 303 | 2002-09-02 | Active eIRM: New Realities in Security for Managing Electronic Infrastructure Risks | Report | Hurley, Jim
+[r213] 342 | 2002-10-02 | Next Line of Defense: Active Internet Content Inspection Tools | Perspective | Hurley, Jim
+[r214] 385 | 2002-11-02 | Open Source and Linux: 2002 Poster Children for Security Problems | Perspective | Hurley, Jim
+[r215] 315 | 2002-12-02 | Avatier's Self-Service Accout Provisioning: Big Gains, No Pains | Impact | Hurley, Jim
+[r216] 12 | 2002-01-02 | The Infrastructure for Education:  SAP Provides Keystone for Managing the Learning Process | White Paper | Jones, Katherine
+[r217] 64 | 2002-03-02 | Enterprise Incentive Management:  Variable Compensation 2002 (Synygy Buyers Guide) | White Paper | Jones, Katherine
+[r218] 78 | 2002-03-02 | Employee Relationship Management:  Siebel Enters New Domain with HCM Applications | InSight | Jones, Katherine
+[r219] 91 | 2002-03-02 | Lawson Software:  A Resolute Rival Emerges to Target Service Sector Enterprises | Profile | Jones, Katherine
+[r220] 94 | 2002-04-02 | Enterprise Incentive Management:  Variable Compensation 2002 | Report | Jones, Katherine
+[r221] 99 | 2002-04-02 | Mastering the Extended Supply Chain:  Why the New Generation of SCM Is Strategic to the Enterprise (Baan) | White Paper | Jones, Katherine
+[r222] 111 | 2002-04-02 | Human Capital Management Lessons from September 11th:  Planning for the Unthinkable | InSight | Jones, Katherine
+[r223] 121 | 2002-04-02 | Enterprise Incentive Management:  Variable Compensation 2002 | Report | Jones, Katherine
+[r224] 133 | 2002-04-02 | Microsoft Great Plains Convergence 2002:  The Road to .NET for Business Applications | InSight | Jones, Katherine
+[r225] 150 | 2002-05-02 | A Kinder, Gentler Larry Ellison?  Oracle Presents New Face to Its User Community | InSight | Jones, Katherine
+[r226] 151 | 2002-05-02 | Baan Ups the Ante for Manufacturing Enterprises Through Integrated SCM, CRM, and PLM | InSight | Jones, Katherine
+[r227] 162 | 2002-05-02 | Hourly Hiring Management Systems:  Improving the Bottom Line for Hourly Worker-Centric Employees | White Paper | Jones, Katherine
+[r228] 187 | 2002-06-02 | eSource Extends Hosting Options for HR/Payroll | Impact | Jones, Katherine
+[r229] 191 | 2002-06-02 | Microsoft Broadens Footprint in Mid-Market ERP (Navision) | Perspective | Jones, Katherine
+[r230] 226 | 2002-07-02 | Lawson Expands Retail Reach with Armature Holdings Ltd. | Perspective | Jones, Katherine
+[r231] 263 | 2002-08-02 | PeopleSoft Boosts Educational Solutions with Teamscape Acquisition | Perspective | Jones, Katherine
+[r232] 309 | 2002-09-02 | Enterprise Talent Management: Sourcing, Staffing, Hiring | Report | Jones, Katherine
+[r233] 330 | 2002-10-02 | ACCPAC Adds Internet-to-EDI Transaction Exchange for Mid-Market | Impact | Jones, Katherine
+[r234] 353 | 2002-10-02 | Synygy Changes the EIM Playing Field:  IncenSoft Acquisition Helps Link EIM to Corporate Performance Management | Perspective | Jones, Katherine
+[r235] 354 | 2002-10-02 | Microsoft Business Solutions - The New Wave at Stampede | InSight | Jones, Katherine
+[r236] 355 | 2002-10-02 | HR Tech Conference Proves There's Life in Software for Human Capital Management | Perspective | Jones, Katherine
+[r237] 369 | 2002-10-02 | Corporate Training - Beyond the Hype of "e" for All Seasons | Perspective | Jones, Katherine
+[r238] 376 | 2002-11-02 | SSA Acquires Infinium; Adds Markets, Customers, and Applications | Perspective | Jones, Katherine
+[r239] 379 | 2002-11-02 | ACCPAC Expands Reach: A Transition from Accounting Applications to Mid-Market Enterprise Solutions | InSight | Jones, Katherine
+[r240] 294 | 2002-11-02 | The High Cost of Compliance -- Harrassment and Discrimination Suits Can Be Avoided | Perspective | Jones, Katherine
+[r241] 314 | 2002-12-02 | eLabor Addresses Employee Life Cycle Through Comprehensive Workforce Management | Profile | Jones, Katherine
+[r242] 327 | 2002-12-02 | MAPICS Acquires Frontstep in March for Midmarket Manufacturing | Perspective | Jones, Katherine
+[r243] 211 | 2002-07-02 | Stand-Alone Personal Video Recorders: Many Forms, Same Function | InSight | Craig, Russ
+[r244] 214 | 2002-07-02 | Alternative Consumer Electronics Channels and Suppliers Emerge, Threatening Incumbents | InSight | Craig, Russ
+[r245] 249 | 2002-08-02 | Dual-Band Wireless Home Networking: It's Beginning to Look Like Christmas | InSight | Craig, Russ
+[r246] 246 | 2002-08-02 | Does Intel's Decision Not to Maufacture InfiniBand Silicon Damage the Initiative?  | InSight | Kastner, Peter
+[r247] 253 | 2002-08-02 | IT Purchasing:  The View from the End of the Tunnel | InSight | Kastner, Peter
+[r248] 244 | 2002-08-02 | Undercutting and Upselling: Dell's Foray into the Handheld Market | InSight | Ro, Isaac
+[r249] 245 | 2002-08-02 | Surveying the Playing Field: Who's Who in Mobile Middleware | InSight | Ro, Isaac
+[r250] 280 | 2002-09-02 | People’s Republic of China: the Next Competitive Advantage in Electronics | InSight | Craig, Russ
+[r251] 4 | 2002-01-02 | Embedded Infrastructure Cost-of-Ownership Study:  2001 Update (Progress Software) | White Paper | Kernochan, Wayne
+[r252] 136 | 2002-04-02 | IBM Data Management Tools:  New Opportunities for Cost-Effective Administration | Profile | Kernochan, Wayne
+[r253] 144 | 2002-05-02 | EII:  A Key Missing Piece of the Web Services Solution | White Paper | Kernochan, Wayne
+[r254] 207 | 2002-07-02 | Gupta: Delivering Rich-Client Flexibility and Lower Cost | Impact | Kernochan, Wayne
+[r255] 208 | 2002-07-02 | Mass-Deployment Databases Embedded in Workgroup Environments: Cost-of-Ownership Study | White Paper | Kernochan, Wayne
+[r256] 248 | 2002-08-02 | Web Services Development: On IT's Critical Path | White Paper | Kernochan, Wayne
+[r257] 293 | 2002-09-02 | Leveraging Existing Applications for E-business Cost-Effectively (Unisys) | Profile | Kernochan, Wayne
+[r258] 313 | 2002-09-02 | Pervasive Software's Pervasive.SQL: Expert at Low-Cost, High-Performance Embedded Databases | Profile | Kernochan, Wayne
+[r259] 345 | 2002-10-02 | Database Buying Guide: Fourth Edition | Report | Kernochan, Wayne
+[r260] 378 | 2002-11-02 | The Enosys Enterprise Information Integration Solution | Profile | Kernochan, Wayne
+[r261] 21 | 2002-01-02 | Mirantis Delivers an Alternative to Offshore Outsourcing, Providing Clients with Overseas Development Center and Staffing Services | Profile | Lane, Stephen
+[r262] 118 | 2002-04-02 | Six Continents Hotels Looks to Sun Consultants to Help Deliver Wireless B-to-C J2EE Technology-Based Reservation System | OnSite | Lane, Stephen
+[r263] 219 | 2002-07-02 | Aligning IT Strategy and Investment to Deliver Enterprise Value: Seeing the Forest and the Trees | White Paper | Lane, Stephen
+[r264] 254 | 2002-08-02 | West Group Outsources E-commerce Initiative to Improve Online Presence and Increase Sales (EPAM) | OnSite | Lane, Stephen
+[r265] 255 | 2002-08-02 | XENERGY Chooses Service Supplier for Quality and Expertise; Gets Offshore Cost Benefits in the Bargain | OnSite | Lane, Stephen
+[r266] 301 | 2002-09-02 | Offshore Software Outsourcing Best Practices: Building Successful Relationships on a Diverse Delivery Model | Report | Lane, Stephen
+[r267] 307 | 2002-09-02 | IT Outsourcing: 2002 Spending Priorities and Trends | Report | Lane, Stephen
+[r268] 311 | 2002-09-02 | Oracle Product Support Service Incorporates Third-Party Expertise and On-Site/Offshore Delivery | OnSite | Lane, Stephen
+[r269] 335 | 2002-10-02 | BNSF Focuses on Cultural Fit to Build Collaborative Offshore Model | OnSite | Lane, Stephen
+[r270] 384 | 2002-11-02 | Offshore Co-Sourcing Speeds Weyerhaeuser SAP R/3 Implementation Initiative (Wipro) | OnSite | Lane, Stephen
+[r271] 220 | 2002-07-02 | IT Spending: Buying Intentions and Budget Planning Update | InSight | Lynch, Wyeth
+[r272] 364 | 2002-10-02 | Less Money Equals New IT Motivations | InSight | Lynch, Wyeth
+[r273] 318 | 2002-12-02 | Dot Hill | Snapshot | Lynch, Wyeth
+[r274] 182 | 2002-06-02 | Reaching CIOs: Webinars Deliver Technology Education | InSight | Lynch/Aponovich
+[r275] 16 | 2002-01-02 | Intel Server Platforms Deliver Compelling Value to Enterprise Users of PeopleSoft CRM | Profile | Manter, Tom
+[r276] 81 | 2002-03-02 | Windows Server Cost-of-Ownership Study:  SMB Market Segment (Microsoft) | White Paper | Manter, Tom
+[r277] 82 | 2002-03-02 | Windows Server Cost-of-Ownership Study:  MLE Business Segment (Microsoft) | White Paper | Manter, Tom
+[r278] 77 | 2002-03-02 | Component Supplier Management:  Saving Time and Money, Part by Part (Global Spec) | White Paper | Maynard, Jack
+[r279] 85 | 2002-03-02 | Arzoon Life — An LRM Architecture for Managing Global Logistics | Report OnSite | Maynard, Jack
+[r280] 117 | 2002-04-02 | Logistics Resource Management:  Managing the Flow of Business | Report | Maynard, Jack
+[r281] 177 | 2002-06-02 | Developing a GPS for the Global Supply Chain | White Paper | Maynard, Jack
+[r282] 196 | 2002-06-02 | Manugistics Unveils V7 Architecture, Re-emphasizes Profit Optimizer | Perspective | Maynard, Jack
+[r283] 210 | 2002-07-02 | PLM - It's for Any Manufacturer Striving for Product Excellence | White Paper | Maynard, Jack
+[r284] 217 | 2002-07-02 | FOCUS2002: J.D. Edwards Continues Its Mid-Market Value Response | Perspective | Maynard, Jack
+[r285] 307 | 2002-12-02 | Worldwide PLM Spending Forecast and Analysis 2001-2005 | InSight | Maynard, Jack
+[r286] 308 | 2002-12-02 | Worldwide PLM Spending (From the Engineering Perspective):  Forecast and Analysis 2001-2005 | Report | Maynard, Jack
+[r287] 309 | 2002-12-02 | Will New Security Measures Sink Global Trade?  | Perspective | Maynard, Jack
+[r288] 33 | 2002-02-02 | Direct Materials Sourcing:  Managing Cost and Innovation (Agile) | White Paper | Minahan, Tim
+[r289] 35 | 2002-02-02 | IBM and MarketMile Create Procurement Service ‘Utility’ to Drive e-Procurement Adoption, Speed ROI | Impact | Minahan, Tim
+[r290] 75 | 2002-03-02 | Total Cost Management:  Your Next Procurement Strategy | InSight | Minahan, Tim
+[r291] 124 | 2002-04-02 | Alliente Combines Expertise, Software, and Services to Deliver Total Indirect Cost Management Solutions | Impact | Minahan, Tim
+[r292] 125 | 2002-04-02 | Enterprise Cost Management:  A Holistic Approach to Capturing and Sustaining Cost Savings (ePlus) | White Paper | Minahan, Tim
+[r293] 161 | 2002-05-02 | Acquisition Positions MRO Software for Strategic Asset Management | Perspective | Minahan, Tim
+[r294] 200 | 2002-06-02 | New Funding, Merger Expands Tradec's Total Cost Management Depth | Perspective | Minahan, Tim
+[r295] 205 | 2002-07-02 | Spending Analysis: The Foundation of Effective Procurement (Softface) | White Paper | Minahan, Tim
+[r296] 212 | 2002-07-02 | Acquisition Gives Perfect Commerce Dual Market Strategy | Perspective | Minahan, Tim
+[r297] 241 | 2002-08-02 | Spend Visibility: Maximizing Value in Strategic Sourcing (FreeMarkets) | White Paper | Minahan, Tim
+[r298] 259 | 2002-08-02 | MarketMile Gets New Name; Adds Spend Management Muscle | Perspective | Minahan, Tim
+[r299] 291 | 2002-09-02 | Making the Real-Time Enterprise a Reality (IBM/PeopleSoft) | White Paper | Minahan, Tim
+[r300] 305 | 2002-09-02 | Making e-Sourcing Strategic: From Tactical Technology to Core Business Strategy | Report | Minahan, Tim
+[r301] 341 | 2002-10-02 | You Will Outsource Procurement: Here's Why and How | Executive Viewpoint | Minahan, Tim
+[r302] 368 | 2002-10-02 | Tradec, Inc | Solution Snapshot | Minahan, Tim
+[r303] 371 | 2002-10-02 | Ariba Makes Compliance a Cornerstone of Spend Management | Strategy Profile | Minahan, Tim
+[r304] 386 | 2002-11-02 | Procurement Outsourcing:  A Primer | Perspective | Minahan, Tim
+[r305] 292 | 2002-11-02 | What's Really Worrying Supply Chain Managers? | Perspective | Minahan, Tim
+[r306] 169 | 2002-06-02 | i2 Reveals Fight Plan. Can It Go the Distance? | Perspective | Minahan/Allen
+[r307] 173 | 2002-06-02 | Could Ariba Be B-to-B's Comeback Kid? | Perspective | Minahan/Degnan
+[r308] 67 | 2002-03-02 | Think Tools:  Rethinking the Consulting Model | Impact | Moran, Bob
+[r309] 195 | 2002-06-02 | Quadstone: Retooling the OEM Model and Market | Impact | Moran, Bob
+[r310] 264 | 2002-08-02 | Khalix: Putting Finance at the Hub of the Enterprise | Profile | Moran, Bob
+[r311] 325 | 2002-12-02 | Cognos: Charting the Future of Analytic Applications | Profile | Moran, Bob
+[r312] 14 | 2002-01-02 | Penguin-Powered Enterprise Management:  Computer Associates’ Unicenter on Linux | White Paper | O'Connell, Valerie
+[r313] 50 | 2002-03-02 | Reducing IT Complexity:  The Role of Systems Management (Tivoli) | White Paper | O'Connell, Valerie
+[r314] 53 | 2002-03-02 | BMC Software:  Managing CRM in the Age of ROI | White Paper | O'Connell, Valerie
+[r315] 160 | 2002-05-02 | Adaptive Infrastructure Management (AIM):  Business-Shaped Application QoS | White Paper | O'Connell, Valerie
+[r316] 325 | 2002-10-02 | Cost Savings Versus Cost-Effectiveness: BMC Software Customers Underscore the Value of IMS Management Solutions | OnSite | O'Connell, Valerie
+[r317] 387 | 2002-11-02 | Identify’s AppSight Captures User/System/Code-Level Activity for “Root Cause” in Live Production Applications | Impact | O'Connell, Valerie
+[r318] 296 | 2002-11-02 | Management Suite "Fathoms" Progress Environment | Profile | O'Connell, Valerie
+[r319] 298 | 2002-11-02 | Heroix eQ Makres Business-Aware Systems Managememt Fast, Simple, Cost-Effective -- and Codeless | Impact | O'Connell, Valerie
+[r320] 22 | 2002-01-02 | Automated Honesty:  Making That Carrier Inventory Database Deliver (CoManage) | Impact | Peabody, George
+[r321] 25 | 2002-02-02 | Stay Nimble When Entering the Mobile Data Business:  Raising Revenues, Avoiding Risks (Amdocs) | Profile | Peabody, George
+[r322] 63 | 2002-03-02 | Service Delivery Middleware:  Creating IP Service Intelligence for Network Operators (Lemur Networks) | White Paper | Peabody, George
+[r323] 224 | 2002-07-02 | Application Performance and the Bandwith Bottleneck Blues (Packeteer) | White Paper | Peabody, George
+[r324] 30 | 2002-02-02 | The Learning Relationship Drives a New Direction in CRM (Chordiant) | White Paper | Pombriant, Denis
+[r325] 41 | 2002-03-02 | Using Positive Feedback Loops to Sell CRM | InSight | Pombriant, Denis
+[r326] 54 | 2002-03-02 | What Works:  Ten Significant CRM Implementations of 2001 | Report | Pombriant, Denis
+[r327] 55 | 2002-03-02 | Hewlett-Packard and Allegis:  Creating Effectiveness in the Sales Channel with Partner Relationship Management (Allegis) | Report OnSite | Pombriant, Denis
+[r328] 56 | 2002-03-02 | AMF Bowling Strikes Success with Applix iCRM (Applix) | Report OnSite | Pombriant, Denis
+[r329] 57 | 2002-03-02 | Timberline Industries Mines Customer Base for New Opportunities with Ardexus | Report OnSite | Pombriant, Denis
+[r330] 58 | 2002-03-02 | Compaq Canada Uses Blue Pumpkin’s Workforce Optimization Solution to Enhance Customer Service, Cut Costs, and Drive Profits | Report OnSite | Pombriant, Denis
+[r331] 59 | 2002-03-02 | Textron Fastening Systems Implements CRM with Salesforce.com | Report OnSite | Pombriant, Denis
+[r332] 60 | 2002-03-02 | Rockwell Automation Achieves Notable Results with Selectica’s Internet-Based Interactive Selling Solution | Report OnSite | Pombriant, Denis
+[r333] 61 | 2002-03-02 | Talisma Helps Tupperware Build Online Business Channel | Report OnSite | Pombriant, Denis
+[r334] 62 | 2002-03-02 | Sonus-USA, Inc., and TriVium Systems Make CRM Seem Easy | Report OnSite | Pombriant, Denis
+[r335] 68 | 2002-03-02 | Sales Methodologies Add Precision to CRM  | White Paper | Pombriant, Denis
+[r336] 87 | 2002-03-02 | Asyst Streamlines Business Processes and Improves Customer Satisfaction with Siebel | Report OnSite | Pombriant, Denis
+[r337] 92 | 2002-03-02 | Modular Architectures:  A New Era for Best-of-Breed CRM? | InSight | Pombriant, Denis
+[r338] 123 | 2002-04-02 | Salesforce.com:  Proving the CRM ASP Model | White Paper | Pombriant, Denis
+[r339] 184 | 2002-06-02 | SAP Takes the (CRM) Lead in Its Customer Base | Perspective | Pombriant, Denis
+[r340] 274 | 2002-09-02 | Siebel 7.5 Puts Methodology in the Spotlight | InSight | Pombriant, Denis
+[r341] 275 | 2002-09-02 | Rewarding the Wrong Behavior? | InSight | Pombriant, Denis
+[r342] 346 | 2002-10-02 | BlueRoads: a Path to More Effective Channel Enablement | Profile | Pombriant, Denis
+[r343] 350 | 2002-10-02 | Work Smart, Sell More (WhisperWire) | White Paper | Pombriant, Denis
+[r344] 377 | 2002-11-02 | Siebel:  .Net's Killer Application | Perspective | Pombriant, Denis
+[r345] 299 | 2002-11-02 | salesforce.com | Snapshot | Pombriant, Denis
+[r346] 320 | 2002-10-02 | People's Republic of China: The Next Competitive Nightmare in Electronics | InSight | Craig, Russ
+[r347] 328 | 2002-10-02 | 802.11a,b Wireless Comes of Age (Atheros) | InSight | Craig, Russ
+[r348] 301 | 2002-11-02 | WiFi-x Is Booming - But the Shakeout Has Started! | InSight | Craig, Russ
+[r349] 293 | 2002-11-02 | The New HP Stands Up to be Counted | InSight | Kastner, Peter
+[r350] 381 | 2002-11-02 | What Works:  Ten Significant Mobile Data Deployments  | Report | Ro, Isaac
+[r351] 290 | 2002-11-02 | Electronic Arts and Good Technology: Mobile Messaging to Extend Competitive Advantage | OnSite | Ro, Isaac
+[r352] 317 | 2002-12-02 | LinCo Services and Prism Visual Software: Cutting Edge Mobile Data Solutions for Rural Work Environments | OnSite | Ro, Isaac
+[r353] 122 | 2002-04-02 | SOAPswitch:  A Command & Control Console for Web Services with Built-in Enterprise Application Access (Actional) | Impact | Sloane, Tim
+[r354] 172 | 2002-06-02 | XMI and UML Liberate Hijacked Process Models for Improved Collaboration and Reuse | InSight | Sloane, Tim
+[r355] 344 | 2002-10-02 | BOC Information Technologies Consulting Ltd. | Snapshot | Sloane, Tim
+[r356] 370 | 2002-10-02 | Vertically Aligning IBM's Market Strengths | Impact | Sloane, Tim
+[r357] 297 | 2002-11-02 | IBM Places WebSphere Squarely in the Mid-market | Impact | Sloane, Tim
+[r358] 5 | 2002-01-02 | ResQ Enterprise:  Integrated CRM/ERP for the Masses (Open Solutions, Inc.) | Profile | Smith, Karen
+[r359] 32 | 2002-02-02 | Achieving Higher Returns from PRM Through Integration with e-Business Suites (Oracle) | White Paper | Smith, Karen
+[r360] 83 | 2002-03-02 | Fireman’s Fund Insurance Company:  Using Information Technology to Automate and Decipher the Complexity in Underwriting (Selectica) | OnSite | Smith, Karen
+[r361] 110 | 2002-04-02 | The Intelligent Channel:  A Conduit to Profitable Customer Relationships (Click Commerce) | White Paper | Smith, Karen
+[r362] 218 | 2002-07-02 | Support Automation: Redefining Technical Support for Problem Resolution | White Paper | Smith, Karen
+[r363] 229 | 2002-07-02 | StayinFront, Inc. | Snapshot | Smith, Karen
+[r364] 238 | 2002-08-02 | Hitachi: On Track for Growth with Automated Selling Technologies (Selectica) | OnSite | Smith, Karen
+[r365] 262 | 2002-08-02 | Support Automation: A More Prominent Position Within CRM and PRM Deployments | InSight | Smith, Karen
+[r366] 265 | 2002-08-02 | CRM and Back-Office Integration for the Small and Medium-Sized Business | White Paper | Smith, Karen
+[r367] 292 | 2002-09-02 | Applied Biosystems: Making Business Easier for Customers with Configuration and Internet-Based Selling Technology (Selectica) | OnSite | Smith, Karen
+[r368] 334 | 2002-10-02 | csg Helpline and DaimlerChrysler:  Providing Global Support with Star Diagnosis (IBM) | OnSite | Smith, Karen
+[r369] 338 | 2002-10-02 | Engineering Excellence: A Successful Implementation in CRM & Services Management | OnSite | Smith, Karen
+[r370] 361 | 2002-10-02 | Discovering IT Asset Value Yields Savings Dividends | White Paper | Smith, Karen
+[r371] 372 | 2002-11-02 | Siemens Medical Makes Field Dispatch Service More Efficient With Automated Scheduling Technology | OnSite | Smith, Karen
+[r372] 382 | 2002-11-02 | Best Software:  Building Competitive Advantage for the SMB Market | White Paper | Smith, Karen
+[r373] 313 | 2002-12-02 | Pragmatech Software, Inc. | Snapshot | Smith, Karen
+[r374] 6 | 2002-01-02 | IBM ProFibre Storage Array:  A Carrier Class Solution | Impact | Tanner, Dan
+[r375] 71 | 2002-03-02 | Acirro:  Bringing Local Access Efficiency to Remote Storage | Profile | Tanner, Dan
+[r376] 100 | 2002-04-02 | Virtualize This!  What Virtualization May Really Mean For Storage | White Paper | Tanner, Dan
+[r377] 129 | 2002-04-02 | INRANGE Technologies:  Ensuring 2 Gigabit Storage Networking with Investment Protection | Profile | Tanner, Dan
+[r378] 134 | 2002-04-02 | NAS Aggregation:  File Sharing and Storage Consolidation sans Aggravation (Z-Force) | White Paper | Tanner, Dan
+[r379] 165 | 2002-05-02 | Reliaty Backup: Business File Recovery Facilitated by Standards-Based Backup | Impact | Tanner, Dan
+[r380] 190 | 2002-06-02 | The Network Is the Mainframe | InSight | Tanner, Dan
+[r381] 225 | 2002-07-02 | iSCSI: New Business Benefits and Solutions | White Paper | Tanner, Dan
+[r382] 240 | 2002-08-02 | Legato DiskXtender for Centera: Data Management and Access for Content-Addressable Storage | Profile | Tanner, Dan
+[r383] 247 | 2002-08-02 | Give Me Small, Fast Disks to Support High Performance Applications | InSight | Tanner, Dan
+[r384] 261 | 2002-08-02 | Platypus Technology:  Accelerating Key Application Performance | Profile | Tanner, Dan
+[r385] 263 | 2002-08-02 | Tricord Systems:  Presenting the Business Continuance Appliance | Strategy Profile | Tanner, Dan
+[r386] 310 | 2002-09-02 | Sanrad | Snapshot | Tanner, Dan
+[r387] 322 | 2002-10-02 | Standards Are Crucial | InSight | Tanner, Dan
+[r388] 331 | 2002-10-02 | NetApp's October Announcement Echoes Aberdeen Visions of NAS, SAN Convergence | Perspective | Tanner, Dan
+[r389] 351 | 2002-10-02 | iSCSI SANs Are Approaching Market Readiness | Perspective | Tanner, Dan
+[r390] 383 | 2002-11-02 | Sotrage Users Need a Voice in Storage Standards | Perspective | Tanner, Dan
+[r391] 295 | 2002-11-02 | Cisco Has Changed the Storage Networking Landscape | Perspective | Tanner, Dan
+[r392] 306 | 2002-11-02 | Get Smart! Intellegent Storage Networks | Perspective | Tanner, Dan
+[r393] 316 | 2002-12-02 | I Tell Ya, Storage Don’t Get No Respect … | InSight | Tanner, Dan
+[r394] 322 | 2002-12-02 | CMS Peripherals' ABSplus Backup: Personal Productivity Continuance Ensured | OnSite | Tanner, Dan
+[r395] 3 | 2002-01-02 | Euclid:  Lifecycle Services Improve Health Hero Operations and Extend Strategic Advantage to Service Providers | OnSite | Tardelli, Dana
+[r396] 13 | 2002-01-02 | Bridge to the Future:  Service Providers Bring Web Services to the Present (Digital Island) | White Paper | Tardelli, Dana
+[r397] 27 | 2002-02-02 | Rethinking Data Protection Strategies (Qwest) | White Paper | Tardelli, Dana
+[r398] 51 | 2002-03-02 | Managed Hosting for the Small and Medium Business:  Outsource or Insource? (Bell South) | White Paper | Tardelli, Dana
+[r399] 143 | 2002-05-02 | Speedera Helps Screenplay Bring Quality and Security Streamed Content to Motion Picture Industry | Report OnSite | Tardelli, Dana
+[r400] 164 | 2002-05-02 | What Works:  Significant Voice Over IP Deployments of 2001 | Report | Tardelli, Dana
+[r401] 199 | 2002-06-02 | Getting a Foot into Wireless: The MVNO Gamble for Microsoft | InSight | Tardelli, Dana
+[r402] 204 | 2002-07-02 | Resetting Expectations for the U.S. Telecom Market | InSight | Tardelli, Dana
+[r403] 264 | 2002-08-02 | Enterprise Deployment Considerations: Extending Data to the Mobile Edge | InSight | Tardelli, Dana
+[r404] 265 | 2002-08-02 | Choosing a Mobile Data Network | InSight | Tardelli, Dana
+[r405] 268 | 2002-09-02 | Bang for the Enterprise Buck: Targeting High-Impact Mobile Data Demand | InSight | Tardelli, Dana
+[r406] 271 | 2002-09-02 | Finding a Helping Hand: The Mobile Integration Market | InSight | Tardelli, Dana
+[r407] 278 | Sepember-02 | Fashion Accessory: Dynamics of the Mobile Client | InSight | Tardelli, Dana
+[r408] 290 | 2002-09-02 | Tight Budgets and Justifying Mobile Data Initiatives (Mobile ECIS #6) | InSight | Tardelli, Dana
+[r409] 332 | 2002-10-02 | Mobile Data Applications: A Tale of Two Cities | InSight | Tardelli, Dana
+[r410] 359 | 2002-10-02 | Mobile Data Makes Progress at CTIA Fall 2002 | Perspective | Tardelli, Dana
+[r411] 305 | 2002-11-02 | Nextel Finally Gets Some Respect | InSight | Tardelli, Dana
+[r412] 98 | 2002-04-02 | The Many Realities of Real-Time Analytics | Technology Viewpoint | Veytsel, Alex
+[r413] 203 | 2002-07-02 | Event Stream Management: Re-Synching Analytics with Business (ESM) | InSight | Veytsel, Alex
+[r414] 312 | 2002-12-02 | Netezza - An Extreme Analytic Framework in a Box | Profile | Veytsel, Alex
+[r415] 333 | 2002-10-02 | Supply Chain Management Technology: Now More Than Ever | Perspective | Vigoroso, Mark
+[r416] 10 | 2002-01-02 | MarketFirst:  Driving Considered Purchase Processes for Strong Customer Relationships and High ROI | Impact | Watkins, Harry
+[r417] 97 | 2002-04-02 | Customer Voice Management:  Driving Value by Listening to Customers | Market Viewpoint | Watkins, Harry
+[r418] 181 | 2002-06-02 | Marketing Campaign Management: Learning from the User's Experience | InSight | Watkins, Harry
+[r419] 193 | 2002-06-02 | Pursuing Customer-Centric Product Planning and Management (ListenPoint) | White Paper | Watkins, Harry
+[r420] 295 | 2002-09-02 | Customer Voice Management: Building Common Cause with Customers (Informative) | White Paper | Watkins, Harry
+[r421] 318 | 2002-10-02 | MarketFirst Release 4: Putting Marketing in the Driver's Seat | Impact | Watkins, Harry
+[r422] 324 | 2002-10-02 | Bridging the Divide: Process, Technology, and the Marketing/Sales Interface | Viewpoint | Watkins, Harry
+[r423] 7 | 2002-01-02 | CIOs Reveal Their Top Application Investment Priorities for 2002 | InSight | Wright, David
+[r424] 20 | 2002-01-02 | Fine-Tuning Business Process for Profit (Lombardi) | White Paper | Yong, Alan
+[r425] 28 | 2002-02-02 | Anti-Money Laundering Software:  On Electronic Patrol | White Paper | Yong, Alan
+[r426] 84 | 2002-03-02 | Mantas and Anti-Money Laundering Software:  A Four-Pronged Approach | White Paper | Yong, Alan
+[r427] 93 | 2002-03-02 | Can Financial Analytics Deliver Fair Value? (Comshare) | Profile | Yong, Alan
+[r428] 126 | 2002-04-02 | Armstrong Laing’s Predictive Planning:  Adding Operational Dimensions to Planning and Budgeting | Profile | Yong, Alan
+[r429] 139 | 2002-05-02 | Planning and Budgeting for Maximum Visibility (Cognos) | White Paper | Yong, Alan
+[r430] 197 | 2002-06-02 | Navision: More Than Meets the Eye | InSight | Yong, Alan
+[r431] 198 | 2002-06-02 | World-Class Financial Analytic Systems for the Global Economy (Cartesis) | White Paper | Yong, Alan
+[r432] 281 | 2002-09-02 | PeopleSoft Connects with Financial Accountability and Transparency | Perspective | Yong, Alan
+[r433] 319 | 2002-10-02 | Baring the Financials: More Than Current Financial Systems Can Bear?  | InSight | Yong, Alan
+[r434] 321 | 2002-10-02 | Hyperion's Vision for Managing Business Performance | Profile | Yong, Alan
+[r435] 367 | 2002-10-02 | The Financial Implications of Corporate Performance Management | White Paper | Yong, Alan

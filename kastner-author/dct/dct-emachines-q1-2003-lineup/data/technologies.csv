@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-celeron","Intel Celeron","platform","Intel","1998-present","mature","legacy","dct-emachines-q1-2003-lineup",""
+"amd-athlon-xp","AMD Athlon XP","platform","AMD","2001-2005","mature","legacy","dct-emachines-q1-2003-lineup",""

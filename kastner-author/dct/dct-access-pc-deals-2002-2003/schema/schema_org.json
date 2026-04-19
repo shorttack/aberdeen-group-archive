@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "DCT Access PC Deals Database, 2002-2003",
+  "description": "Aggregate Microsoft Access-derived database of weekly U.S. consumer desktop PC pricing from July 2002 through August 2003, covering 2,159 SKU-week listings across 10 canonical PC makers (Dell, HP, Compaq, Sony, eMachines, Gateway, Alienware, VPR Matrix, Medion, Best Buy house brand) and 23 canonical retail channels (Dell.com, BestBuy.com/stores, HP Shopping, Circuit City, CompUSA, Sony Style, Staples, MicroCenter, and others). Kastner built this as the canonical reference dataset for his Digital Consumer Technology weekly pricing commentary, capturing list price, CPU class/speed, memory, HDD, optical, monitor, printer, and merchant for each tracked configuration across 51 distinct pricing dates.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-08-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

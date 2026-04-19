@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"hewlett-packard","Hewlett-Packard (HP)","company","PC-manufacturing","[DEFERRED]","","1939-present","dct-corp-notebooks-jan-2003","Compaq Evo product line tracked (post-merger branding)."
+"ibm","IBM","company","PC-manufacturing","[DEFERRED]","Lenovo","1981-2005 (PC business)","dct-corp-notebooks-jan-2003","ThinkPad T30 and X30 tracked."
+"cdw","CDW Corp.","company","PC-retail","[DEFERRED]","","1984-present","dct-corp-notebooks-jan-2003","Primary street-price source."

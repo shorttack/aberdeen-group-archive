@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Corporate Notebook Lineup Snapshot, January 2003",
+  "description": "Two-sheet (Business and Consumer) snapshot of corporate notebook lineups as of January 2003, profiling HP Compaq Evo N800v / Evo 1000c / N610c / N410c, IBM ThinkPad T30 / X30, and parallel consumer configurations across three form-factor bands (Standard, Thin & Light, Value). Each entry captures manufacturer online price, street price (e.g., CDW), processor (Mobile Pentium 4-M or Pentium III-M), screen size, memory, HDD, optical drive, weight, warranty, OS (Windows XP Pro), Office XP Pro availability, and street-site source.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-01-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

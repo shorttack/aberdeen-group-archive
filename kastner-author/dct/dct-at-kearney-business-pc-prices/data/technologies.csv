@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4","Intel Pentium 4 (2.4 GHz)","platform","Intel","2000-2008","mature","legacy","dct-at-kearney-business-pc-prices","Standard CPU for this benchmark config; free upgrade from 2.0 GHz to 2.4 GHz by Dec 2002 at Dell/IBM/Compaq."
+"ddr-sdram","DDR SDRAM (256 MB)","platform","","2000-2007","mature","legacy","dct-at-kearney-business-pc-prices","Standard business memory config."

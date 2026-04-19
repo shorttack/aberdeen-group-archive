@@ -1,0 +1,2267 @@
+# DCT Access PC Deals Database, 2002-2003
+
+> Archived from: access PC Deals 2002-2003.xls
+> Original publication date: 2003-08-24
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# Source: access PC Deals 2002-2003.xls
+
+## Sheet: Consumer (2160 rows x 12 cols)
+[r0] PricingDate | PCmaker | SKU | ListPrice | CPUclass | CPUspeed | Memory | HDD | Opticals | Monitor | Printer | Merchant
+[r1] 2002-12-23 | Alienware | Area 51 series | 2439 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r2] 2002-12-15 | Alienware | Area 51 series | 2500 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r3] 2002-12-08 | Alienware | Area 51 series | 2500 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r4] 2002-10-13 | Alienware | Aurora  | 1780 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | None |  | BestBuy strores
+[r5] 2002-10-06 | Alienware | Aurora  | 1780 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | None |  | BestBuy strores
+[r6] 2002-12-15 | Best Buy | VPR Matrix FT6100 | 1600 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD; DVD-RW/CD-RW | 17" VPR 1796 flat screen |  | BestBuy Stores
+[r7] 2002-12-08 | Best Buy | VPR Matrix FT6100 | 1500 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD; DVD-RW/CD-RW | 15" Samsung LCD Flat Panel | Canon S330 | BestBuy Stores
+[r8] 2002-08-24 | Compaq | 6000T | 768.99 | Pentium 4 | 2.26 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | BestBuy Stores
+[r9] 2002-11-10 | Compaq | 6000T | 1449 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD+R/+R; CD-RW | 17" Compaq CV7500 |  | Staples Stores
+[r10] 2002-08-24 | Compaq | 6000T | 718.99 | Pentium 4 | 2.0A | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | BestBuy Stores
+[r11] 2002-08-11 | Compaq | 6000Z | 699 | Athlon 2000+ | 1.67 | 256 DDR | 40 | DVD-ROM | 17" Compaq CV7500 |  | Staples Stores
+[r12] 2002-08-11 | Compaq | 6029US | 1199.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.circuitcity.com
+[r13] 2002-07-29 | Compaq | 6029US | 1399.97 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Compaq FS7550 |  | BestBuy Stores
+[r14] 2002-12-23 | Compaq | 6300US | 650 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq 7550 flat screen | HP 3820 | Staples stores
+[r15] 2002-12-15 | Compaq | 6300US | 600 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq MV7500 | HP 3820 | CompUSA Stores
+[r16] 2002-12-08 | Compaq | 6300US | 550 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq FS7550 | HP 3820 | Staples Stores
+[r17] 2002-12-02 | Compaq | 6300US | 550 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq FS7550 | HP 3820 | Staples Stores
+[r18] 2002-11-24 | Compaq | 6300US | 450 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM |  |  | www.circuitcity.com
+[r19] 2002-11-17 | Compaq | 6300US | 649.99 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq MV7500 | HP 3820 | Circuit City Stores
+[r20] 2002-11-10 | Compaq | 6300US | 599.96 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 17" Compaq FS7500 | HP 3820 | Staples Stores
+[r21] 2002-12-15 | Compaq | 6300z | 759 | Athlon 2000+ | 1.67 | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV 7500 |  | www.staples.com
+[r22] 2002-12-08 | Compaq | 6300z | 899 | Athlon 2000+ | 1.67 | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV 7500 |  | Staples Stores
+[r23] 2002-12-23 | Compaq | 6310US | 500 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.shopping.hp.com
+[r24] 2002-12-15 | Compaq | 6310US | 550 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r25] 2002-12-08 | Compaq | 6310US | 549.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | www.circuitcity.com
+[r26] 2002-12-02 | Compaq | 6310US | 549.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | www.circuitcity.com
+[r27] 2002-11-24 | Compaq | 6310US | 700 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | Circuit City Stores
+[r28] 2002-11-17 | Compaq | 6310US | 599.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r29] 2002-11-10 | Compaq | 6310US | 599.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r30] 2002-11-03 | Compaq | 6310US | 549.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | Circuit City stores
+[r31] 2002-12-23 | Compaq | 6320US | 830 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3820 | CompUSA stores
+[r32] 2002-12-15 | Compaq | 6320US | 639 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.microcenter.com
+[r33] 2002-12-08 | Compaq | 6320US | 680 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r34] 2002-12-02 | Compaq | 6320US | 679 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r35] 2002-11-24 | Compaq | 6320US | 561 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | MicroCenter Stores
+[r36] 2002-11-17 | Compaq | 6320US | 879.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3820 | Circuit City or CompUSA Stores
+[r37] 2002-11-10 | Compaq | 6320US | 729.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r38] 2002-11-03 | Compaq | 6320US | 679.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3820 | Circuit City stores
+[r39] 2002-12-23 | Compaq | 6330US | 771 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r40] 2002-12-15 | Compaq | 6330US | 1000 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3820 | CompUSA Stores
+[r41] 2002-11-10 | Compaq | 6330US | 849.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 |  | www.circuitcity.com
+[r42] 2002-12-08 | Compaq | 6331RSH | 750 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq monitor | HP 3820 | Radio Shack Stores
+[r43] 2002-12-02 | Compaq | 6331RSH | 750 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq monitor | HP 3820 | Radio Shack Stores
+[r44] 2002-12-23 | Compaq | 6350US | 871 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r45] 2002-12-15 | Compaq | 6350US | 1050 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 flat screen |  | CompUSA Stores
+[r46] 2002-12-08 | Compaq | 6350US | 1000 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | CompUSA Stores
+[r47] 2002-12-02 | Compaq | 6350US | 1000 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | CompUSA Stores
+[r48] 2002-12-23 | Compaq | 6370US | 1021 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r49] 2002-12-15 | Compaq | 6370US | 1050 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r50] 2002-12-08 | Compaq | 6370US | 1049.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r51] 2002-12-02 | Compaq | 6370US | 1049.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r52] 2002-11-24 | Compaq | 6370US | 1250 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Circuit City Stores
+[r53] 2002-08-24 | Compaq | 8000 customized | 1295 | Pentium 4 | 2.53 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 |  | athome.compaq.com
+[r54] 2002-08-18 | Compaq | 8000T | 1554 | Pentium 4 | 2.4 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r55] 2002-08-11 | Compaq | 8000T | 1554 | Pentium 4 | 2.4 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r56] 2002-07-29 | Compaq | 8000T | 1554 | Pentium 4 | 2.4 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r57] 2002-10-20 | Compaq | 8000T | 1392 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r58] 2002-10-13 | Compaq | 8000T | 1487 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r59] 2002-10-06 | Compaq | 8000T | 1372 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r60] 2002-09-29 | Compaq | 8000T | 1383 | Pentium 4 | 2.53 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r61] 2002-09-22 | Compaq | 8000T | 1479 | Pentium 4 | 2.53 | 1 GB DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r62] 2002-09-15 | Compaq | 8000T | 1499 | Pentium 4 | 2.53 | 1 GB DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r63] 2002-09-07 | Compaq | 8000T | 1359 | Pentium 4 | 2.53 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r64] 2002-08-31 | Compaq | 8000T | 1384 | Pentium 4 | 2.53 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r65] 2002-08-24 | Compaq | 8000T | 1475.99 | Pentium 4 | 2.53 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | Best Buy stores
+[r66] 2002-11-10 | Compaq | 8000T series | 1249.99 | Pentium 4 | 2.6 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | BestBuy Stores
+[r67] 2002-10-06 | Compaq | Presario 4403US | 649.97 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | none |  | CompUSA Stores
+[r68] 2002-09-29 | Compaq | Presario 4403US | 629.91 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | 15" Compaq MV5500 |  | CompUSA Stores
+[r69] 2002-09-22 | Compaq | Presario 4403US | 569.99 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | 15" Compaq MV5500 |  | Circuit City Stores
+[r70] 2002-08-31 | Compaq | Presario 4403US | 499.96 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | 17" Compaq CV7500 |  | Staples Stores
+[r71] 2002-08-18 | Compaq | Presario 4403US | 699.99 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | 15" Compaq MV5500 |  | Circuit City Stores
+[r72] 2002-08-11 | Compaq | Presario 4403US | 549.91 | Celeron | 1.4 | 128 SDRAM | 60 | CD-RW | 15" Compaq MV5500 |  | CompUSA Stores
+[r73] 2002-07-29 | Compaq | Presario 4403US | 599.99 | Celeron | 1.4 | 256 SDRAM | 30 | CD-RW | none |  | www.circuitcity.com
+[r74] 2002-09-15 | Compaq | Presario 4409CL | 749.98 | Celeron | 1.4 | 256 SDRAM | 20 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | Staples Stores
+[r75] 2002-08-31 | Compaq | Presario 4410US | 599.99 | Celeron | 1.3 | 128 SDRAM | 40 | DVD-ROM; CD-RW | none |  | www.officedepot.com
+[r76] 2002-08-24 | Compaq | Presario 4410US | 624.99 | Celeron | 1.3 | 128 SDRAM | 40 | DVD-ROM; CD-RW | none |  | www.techdepot.com or www.computers4sure.com
+[r77] 2002-08-18 | Compaq | Presario 4410US | 624.99 | Celeron | 1.3 | 128 SDRAM | 40 | DVD-ROM; CD-RW | none |  | www.techdepot.com or www.computers4sure.com
+[r78] 2002-08-11 | Compaq | Presario 4410US | 624.99 | Celeron | 1.3 | 128 SDRAM | 40 | DVD-ROM; CD-RW | none |  | www.techdepot.com or www.computers4sure.com
+[r79] 2002-07-29 | Compaq | Presario 4410US | 624.99 | Celeron | 1.3 | 128 SDRAM | 40 | DVD-ROM; CD-RW | none |  | www.techdepot.com or www.computers4sure.com
+[r80] 2002-10-13 | Compaq | Presario 6000T | 999.99 | Pentium 4 | 2.4 | 256 DDR | 60 | CD-ROM | 15" Compaq CV5500 | HP 3320 | BestBuy Stores
+[r81] 2002-09-29 | Compaq | Presario 6000T series | 709.99 | Athlon 2000+ | 1.67 | 128 DDR | 60 | DVD-ROM | 15" Compaq CV5500 |  | BestBuy Stores
+[r82] 2002-09-15 | Compaq | Presario 6000T series | 1069.99 | Pentium 4 | 2.4 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | BestBuy Stores
+[r83] 2002-09-22 | Compaq | Presario 6000T series | 819.99 | Pentium 4 | 2.0A | 128 DDR | 40 | CD-RW OR DVD-ROM | 15" Compaq CV5500 |  | BestBuy Stores
+[r84] 2002-10-20 | Compaq | Presario 6000Z | 923 | Athlon 1800+ | 1.67 | 256 DDR | 60 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r85] 2002-10-13 | Compaq | Presario 6000Z | 903 | Athlon 1800+ | 1.67 | 256 DDR | 60 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r86] 2002-08-11 | Compaq | Presario 6000Z | 1199 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW | 17" Compaq CV7500 |  | Staples Stores
+[r87] 2002-09-29 | Compaq | Presario 6016US | 969.91 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 15" Compaq MV5500 |  | CompUSA Stores
+[r88] 2002-09-22 | Compaq | Presario 6016US | 740.25 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.pcrush.com
+[r89] 2002-09-15 | Compaq | Presario 6016US | 869.99 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 15" Compaq MV5500 |  | Circuit City Stores
+[r90] 2002-09-07 | Compaq | Presario 6016US | 799.99 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r91] 2002-08-31 | Compaq | Presario 6016US | 819.91 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 15" Compaq MV5500 |  | CompUSA Stores
+[r92] 2002-08-24 | Compaq | Presario 6016US | 869.99 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 15" Compaq MV5500 |  | Circuit City Stores
+[r93] 2002-08-18 | Compaq | Presario 6016US | 819.99 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 15" Compaq MV5500 |  | Circuit City Stores
+[r94] 2002-08-11 | Compaq | Presario 6016US | 999.97 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Compaq FS7550 |  | BestBuy Stores
+[r95] 2002-07-29 | Compaq | Presario 6016US | 1049.97 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Compaq FS7550 |  | BestBuy Stores
+[r96] 2002-09-29 | Compaq | Presario 6027US | 899.99 | Pentium 4 | 2.0A | 512 DDR | 80 | CD-RW; DVD-ROM | none |  | www.circuitcity.com
+[r97] 2002-09-22 | Compaq | Presario 6027US | 1149.99 | Pentium 4 | 2.0A | 512 DDR | 80 | CD-RW; DVD-ROM | 17" Compaq FS7550 |  | Circuit City Stores
+[r98] 2002-09-07 | Compaq | Presario 6027US | 1149.99 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 |  | BestBuy Stores
+[r99] 2002-08-31 | Compaq | Presario 6027US | 1099.91 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 |  | CompUSA Stores
+[r100] 2002-08-24 | Compaq | Presario 6027US | 1049.97 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | Best Buy stores
+[r101] 2002-08-18 | Compaq | Presario 6027US | 1007.89 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.circuitcity.com
+[r102] 2002-08-11 | Compaq | Presario 6027US | 1249.99 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 |  | Circuit City Stores
+[r103] 2002-07-29 | Compaq | Presario 6027US | 1099.99 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r104] 2002-10-06 | Compaq | Presario 6029US | 1049.88 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | Circuit City Stores
+[r105] 2002-09-29 | Compaq | Presario 6029US | 899.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | Circuit City Stores
+[r106] 2002-09-22 | Compaq | Presario 6029US | 1299.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Compaq FS7550 |  | Circuit City Stores
+[r107] 2002-09-15 | Compaq | Presario 6029US | 1349.94 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Compaq FS7550 |  | CompUSA Stores
+[r108] 2002-09-07 | Compaq | Presario 6029US | 1149.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.bestbuy.com
+[r109] 2002-08-31 | Compaq | Presario 6029US | 1149.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.bestbuy.com
+[r110] 2002-08-24 | Compaq | Presario 6029US | 1249.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Compaq FS7500 |  | Circuit City Stores
+[r111] 2002-08-18 | Compaq | Presario 6029US | 1249.99 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Compaq FS7500 |  | Circuit City Stores
+[r112] 2002-10-06 | Compaq | Presario 6310US | 599.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | DVD-ROM | 17" Compaq MV7500 |  | Circuit City stores
+[r113] 2002-10-20 | Compaq | Presario 6310US | 599.99 | Athlon 1800+ | 1.67 | 128 SDRAM | 40 | CD-RW | Compaq 17" MV7500 | HP 3820 | Circuit City stores
+[r114] 2002-11-17 | Compaq | Presario 6330US | 1049.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Circuit City Stores
+[r115] 2002-11-03 | Compaq | Presario 6330US | 799.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | www.bestbuy.com
+[r116] 2002-10-27 | Compaq | Presario 6330US | 899.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | www.bestbuy.com or www.circuitcity.com
+[r117] 2002-10-20 | Compaq | Presario 6330US | 749.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq CV7500 | HP 3820 | www.bestbuy.com or www.circuitcity.com
+[r118] 2002-10-13 | Compaq | Presario 6330US | 899.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq CV7500 | HP 3820 | BestBuy & Circuit City Stores
+[r119] 2002-11-17 | Compaq | Presario 6350US | 1149.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Office Depot Stores
+[r120] 2002-11-10 | Compaq | Presario 6350US | 1149.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Circuit City or CompUSA Stores
+[r121] 2002-11-03 | Compaq | Presario 6350US | 1099.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Office Depot Stores
+[r122] 2002-10-27 | Compaq | Presario 6350US | 899.91 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | CompUSA Stores
+[r123] 2002-10-20 | Compaq | Presario 6350US | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7550 |  | www.circuitcity.com
+[r124] 2002-10-13 | Compaq | Presario 6350US | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7550 | HP 3820 | Circuit City stores
+[r125] 2002-11-10 | Compaq | Presario 6370US | 1099.99 | Pentium 4 | 2.53 | 512DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r126] 2002-11-03 | Compaq | Presario 6370US | 1049.99 | Pentium 4 | 2.53 | 512DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r127] 2002-10-27 | Compaq | Presario 6370US | 1149.99 | Pentium 4 | 2.53 | 512DDR | 120 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | Circuit City stores
+[r128] 2002-08-24 | Compaq | Presario 8000T | 1155 | Pentium 4 | 2.26 | 512 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | athome.compaq.com
+[r129] 2002-08-18 | Compaq | Presario 8000T | 1264 | Pentium 4 | 2.26 | 512 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r130] 2002-08-11 | Compaq | Presario 8000T | 1264 | Pentium 4 | 2.26 | 512 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r131] 2002-07-29 | Compaq | Presario 8000T | 1264 | Pentium 4 | 2.26 | 512 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r132] 2002-10-20 | Compaq | Presario 8000T | 1322 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r133] 2002-10-13 | Compaq | Presario 8000T | 1302 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r134] 2002-10-06 | Compaq | Presario 8000T | 1302 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r135] 2002-09-29 | Compaq | Presario 8000T | 1293 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r136] 2002-09-22 | Compaq | Presario 8000T | 1159 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r137] 2002-09-22 | Compaq | Presario 8000T | 1677 | Pentium 4 | 2.4 | 1 GB DDR | 80 | DVD+RW/+R | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r138] 2002-09-15 | Compaq | Presario 8000T | 1159 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r139] 2002-09-15 | Compaq | Presario 8000T | 1677 | Pentium 4 | 2.4 | 1 GB DDR | 80 | DVD+RW/+R | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r140] 2002-09-07 | Compaq | Presario 8000T | 1139 | Pentium 4 | 2.4 | 256 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r141] 2002-08-31 | Compaq | Presario 8000T | 1164 | Pentium 4 | 2.4 | 256 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r142] 2002-10-20 | Compaq | Presario 8000T | 1692 | Pentium 4 | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r143] 2002-10-13 | Compaq | Presario 8000T | 1692 | Pentium 4 | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r144] 2002-10-06 | Compaq | Presario 8000T | 1692 | Pentium 4 | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r145] 2002-09-29 | Compaq | Presario 8000T | 1683 | Pentium 4 | 2.8 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r146] 2002-09-22 | Compaq | Presario 8000T | 1599 | Pentium 4 | 2.8 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r147] 2002-09-15 | Compaq | Presario 8000T | 1599 | Pentium 4 | 2.8 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r148] 2002-09-07 | Compaq | Presario 8000T | 1659 | Pentium 4 | 2.8 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r149] 2002-08-31 | Compaq | Presario 8000T | 1684 | Pentium 4 | 2.8 | 512 DDR | 120 | CD-RW | 17" Compaq CV7550 Flat Screen  |  | www.athome.compaq.com
+[r150] 2002-09-22 | Compaq | Presario 8000T | 989 | Pentium 4 | 2.0A | 256 DDR | 40 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r151] 2002-09-15 | Compaq | Presario 8000T | 989 | Pentium 4 | 2.0A | 256 DDR | 40 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r152] 2002-08-18 | Compaq | Presario 8000Z | 1094 | Athlon 2000+ | 1.67 | 512 DDR | 80 | DVD-ROM | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r153] 2002-08-24 | Compaq | Presario 8000Z | 1104 | Athlon 2100+ | 1.73 | 512 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | athome.compaq.com
+[r154] 2002-08-18 | Compaq | Presario 8000Z | 1193 | Athlon 2100+ | 1.73 | 512 DDR | 80 | DVD-ROM | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r155] 2002-07-29 | Compaq | Presario 8000Z | 1193 | Athlon 2100+ | 1.73 | 512 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r156] 2002-10-20 | Compaq | Presario 8000Z | 1103 | Athlon 2200+ | 1.8 | 256 DDR | 60 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r157] 2002-10-13 | Compaq | Presario 8000Z | 1032 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r158] 2002-10-06 | Compaq | Presario 8000Z | 1103 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r159] 2002-09-29 | Compaq | Presario 8000Z | 1103 | Athlon 2200+ | 1.8 | 256 DDR | 120 | DVD-ROM | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r160] 2002-09-22 | Compaq | Presario 8000Z | 1009 | Athlon 2200+ | 1.8 | 256 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r161] 2002-09-15 | Compaq | Presario 8000Z | 1009 | Athlon 2200+ | 1.8 | 256 DDR | 80 | CD-RW | 17" Compaq CV7550 |  | www.athome.compaq.com
+[r162] 2002-09-07 | Compaq | Presario 8000Z | 1039 | Athlon 2200+ | 1.8 | 256 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r163] 2002-08-31 | Compaq | Presario 8000Z | 1094 | Athlon 2200+ | 1.8 | 256 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | www.athome.compaq.com
+[r164] 2002-08-24 | Compaq | Presario 8000Z | 1119 | Athlon 2200+ | 1.8 | 256 DDR | 80 | CD-RW | 17" Compaq CV7500 |  | athome.compaq.com
+[r165] 2002-08-11 | Dell | Dimension 2200 | 848 | Celeron | 1.3 | 256 SDRAM | 20 | CD-ROM | 17" Dell Flat Screen  M782 |  | www.dell.com
+[r166] 2002-07-29 | Dell | Dimension 2200 | 858 | Celeron | 1.3 | 256 SDRAM | 40 | CD-ROM | 17" Dell E772 |  | www.dell.com
+[r167] 2002-08-24 | Dell | Dimension 2300 | 897 | Celeron | 1.7 | 256 SDRAM | 40 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r168] 2002-08-18 | Dell | Dimension 2300 | 809 | Celeron | 1.7 | 256 SDRAM | 40 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r169] 2002-11-24 | Dell | Dimension 2300 | 718 | Celeron | 1.8 | 256 SDRAM | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r170] 2002-11-17 | Dell | Dimension 2300 | 759 | Celeron | 1.8 | 256 SDRAM | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r171] 2002-11-10 | Dell | Dimension 2300 | 798 | Celeron | 1.8 | 256 SDRAM | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r172] 2002-11-03 | Dell | Dimension 2300 | 848 | Celeron | 1.8 | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r173] 2002-10-27 | Dell | Dimension 2300 | 709 | Celeron | 1.8 | 256 SDRAM | 30 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r174] 2002-10-20 | Dell | Dimension 2300 | 758 | Celeron | 1.8 | 256 SDRAM | 30 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r175] 2002-10-13 | Dell | Dimension 2300 | 639 | Celeron | 1.8 | 256 SDRAM | 40 | CD-ROM | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r176] 2002-10-06 | Dell | Dimension 2300 | 728 | Celeron | 1.8 | 256 SDRAM | 40 | CD-ROM | 17" Dell E772 |  | www.dell.com
+[r177] 2002-09-29 | Dell | Dimension 2300 | 728 | Celeron | 1.8 | 256 SDRAM | 40 | CD-ROM | 17" Dell E772 |  | www.dell.com
+[r178] 2002-09-22 | Dell | Dimension 2300 | 698 | Celeron | 1.8 | 128 SDRAM | 20 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r179] 2002-09-15 | Dell | Dimension 2300 | 679 | Celeron | 1.8 | 128 SDRAM | 20 | CD-ROM | 17" Dell E772 |  | www.dell.com
+[r180] 2002-09-07 | Dell | Dimension 2300 | 658 | Celeron | 1.8 | 128 SDRAM | 20 | CD-ROM | 17" Dell E772 |  | www.dell.com
+[r181] 2002-08-31 | Dell | Dimension 2300 | 828 | Celeron | 1.8 | 256 SDRAM | 40 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r182] 2002-11-24 | Dell | Dimension 2300 | 957 | Pentium 4 | 2.0A | 512 SDRAM | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r183] 2002-11-17 | Dell | Dimension 2300 | 918 | Pentium 4 | 2.0A | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r184] 2002-11-17 | Dell | Dimension 2300 | 1038 | Pentium 4 | 2.0A | 512 SDRAM | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r185] 2002-11-17 | Dell | Dimension 2300 | 1098.99 | Pentium 4 | 2.0A | 512 SDRAM | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.costco.com
+[r186] 2002-11-10 | Dell | Dimension 2300 | 927 | Pentium 4 | 2.0A | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r187] 2002-11-10 | Dell | Dimension 2300 | 1027 | Pentium 4 | 2.0A | 512 SDRAM | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r188] 2002-11-10 | Dell | Dimension 2300 | 1098.99 | Pentium 4 | 2.0A | 512 SDRAM | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.costco.com
+[r189] 2002-11-03 | Dell | Dimension 2300 | 908 | Pentium 4 | 2.0A | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r190] 2002-10-27 | Dell | Dimension 2300 | 908 | Pentium 4 | 2.0A | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r191] 2002-10-20 | Dell | Dimension 2300 | 937 | Pentium 4 | 2.0A | 256 SDRAM | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r192] 2002-10-13 | Dell | Dimension 2300 | 839 | Pentium 4 | 2.0A | 256 SDRAM | 40 | DVD-ROM; CD-RW | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r193] 2002-10-06 | Dell | Dimension 2300 | 839 | Pentium 4 | 2.0A | 256 SDRAM | 40 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r194] 2002-09-29 | Dell | Dimension 2300 | 818 | Pentium 4 | 2.0A | 256 SDRAM | 40 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r195] 2002-09-22 | Dell | Dimension 2300 | 818 | Pentium 4 | 2.0A | 256 SDRAM | 40 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r196] 2002-08-24 | Dell | Dimension 2300LE | 688 | Celeron | 1.7 | 128 SDRAM | 20 | CD-ROM | 15" Dell E551 |  | www.dell.com
+[r197] 2002-08-18 | Dell | Dimension 2300LE | 589 | Celeron | 1.7 | 128 SDRAM | 20 | CD-ROM | 15" Dell E551 |  | www.dell.com
+[r198] 2002-12-23 | Dell | Dimension 2350 | 968 | Pentium 4 | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r199] 2002-12-15 | Dell | Dimension 2350 | 988 | Pentium 4 | 1.8 | 256 DDR | 40 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r200] 2002-12-08 | Dell | Dimension 2350 | 998 | Pentium 4 | 1.8 | 256 DDR | 40 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r201] 2002-12-02 | Dell | Dimension 2350 | 908 | Pentium 4 | 1.8 | 256 DDR | 30 | CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r202] 2002-12-23 | Dell | Dimension 2350 | 868 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r203] 2002-12-15 | Dell | Dimension 2350 | 828 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r204] 2002-12-08 | Dell | Dimension 2350 | 928 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r205] 2002-12-02 | Dell | Dimension 2350 | 948 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r206] 2002-09-07 | Dell | Dimension 4500 | 908 | Pentium 4 | 1.8 | 256 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r207] 2002-08-31 | Dell | Dimension 4500 | 908 | Pentium 4 | 1.8 | 256 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r208] 2002-10-06 | Dell | Dimension 4500 | 1009 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r209] 2002-10-06 | Dell | Dimension 4500 | 1188 | Pentium 4 | 2.4 | 512 DDR | 40 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r210] 2002-09-29 | Dell | Dimension 4500 | 1088 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r211] 2002-09-22 | Dell | Dimension 4500 | 1078 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r212] 2002-09-15 | Dell | Dimension 4500 | 1109 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r213] 2002-09-07 | Dell | Dimension 4500 | 1108 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r214] 2002-08-31 | Dell | Dimension 4500 | 1108 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r215] 2002-10-06 | Dell | Dimension 4500 | 1328 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r216] 2002-09-29 | Dell | Dimension 4500 | 1318 | Pentium 4 | 2.66 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r217] 2002-09-22 | Dell | Dimension 4500 | 1338 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r218] 2002-09-15 | Dell | Dimension 4500 | 1339 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r219] 2002-09-07 | Dell | Dimension 4500 | 1338 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r220] 2002-08-31 | Dell | Dimension 4500 | 1332 | Pentium 4 | 2.66 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r221] 2002-10-06 | Dell | Dimension 4500 | 1399 | Pentium 4 | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r222] 2002-09-29 | Dell | Dimension 4500 | 1618 | Pentium 4 | 2.8 | 512 DDR | 80 | CD-RW | 15" Dell E151FP Flat Panel |  | www.dell.com
+[r223] 2002-09-22 | Dell | Dimension 4500 | 1708 | Pentium 4 | 2.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" Dell E151FP Flat Panel |  | www.dell.com
+[r224] 2002-09-15 | Dell | Dimension 4500 | 1679 | Pentium 4 | 2.8 | 512 DDR | 80 | CD-RW | 15" Dell E151FP Flat Panel |  | www.dell.com
+[r225] 2002-09-07 | Dell | Dimension 4500 | 1678 | Pentium 4 | 2.8 | 512 DDR | 80 | CD-RW | 15" Dell E151FP Flat Panel |  | www.dell.com
+[r226] 2002-08-31 | Dell | Dimension 4500 | 1708 | Pentium 4 | 2.8 | 512 DDR | 80 | CD-RW | 15" Dell E151FP Flat Panel |  | www.dell.com
+[r227] 2002-10-06 | Dell | Dimension 4500 | 899 | Pentium 4 | 2.0A | 256 DDR | 80 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r228] 2002-09-29 | Dell | Dimension 4500 | 918 | Pentium 4 | 2.0A | 256 DDR | 80 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r229] 2002-09-22 | Dell | Dimension 4500 | 888 | Pentium 4 | 2.0A | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r230] 2002-09-15 | Dell | Dimension 4500 | 889 | Pentium 4 | 2.0A | 256 DDR | 40 | DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r231] 2002-08-24 | Dell | Dimension 4500  | 1188 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW, CD-ROM | 19" Dell Flat Screen M992 |  | www.dell.com
+[r232] 2002-08-18 | Dell | Dimension 4500  | 1309 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r233] 2002-08-11 | Dell | Dimension 4500  | 1318 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r234] 2002-07-29 | Dell | Dimension 4500  | 1348 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW; DVD-ROM | 17" Dell E772 |  | www.dell.com
+[r235] 2002-08-24 | Dell | Dimension 4500  | 1308 | Pentium 4 | 2.53 | 512 DDR | 40 | CD-RW, DVD-ROM | 19" Dell Flat Screen M992 |  | www.dell.com
+[r236] 2002-08-18 | Dell | Dimension 4500S | 1109 | Pentium 4 | 2 | 512 DDR | 80 | CD-RW | 17" Dell M782 Flat Screen |  | www.dell.com
+[r237] 2002-08-11 | Dell | Dimension 4500S | 1177 | Pentium 4 | 2 | 512 DDR | 80 | CD-RW/DVD Combo Drive | 17" Dell E772 |  | www.dell.com
+[r238] 2002-07-29 | Dell | Dimension 4500S | 1188 | Pentium 4 | 2 | 512 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r239] 2002-08-24 | Dell | Dimension 4500S | 1078 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW | 19" Dell M992 flat screen |  | www.dell.com
+[r240] 2002-08-24 | Dell | Dimension 4500S | 988 | Pentium 4 | 2.0A | 256 DDR | 20 | CD-RW | 19" Dell M992 flat screen |  | www.dell.com
+[r241] 2002-08-11 | Dell | Dimension 4500S  | 958 | Celeron | 1.7 | 256 DDR | 80 | CD-RW | 17" Dell Flat Screen M782  |  | www.dell.com
+[r242] 2002-07-29 | Dell | Dimension 4500S  | 998 | Celeron | 1.7 | 256 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r243] 2002-08-18 | Dell | Dimension 4500S  | 899 | Celeron | 1.8 | 256 DDR | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r244] 2002-12-23 | Dell | Dimension 4550 | 1198 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r245] 2002-12-15 | Dell | Dimension 4550 | 1347 | Pentium 4 | 2.4 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r246] 2002-12-08 | Dell | Dimension 4550 | 1148 | Pentium 4 | 2.4 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r247] 2002-12-02 | Dell | Dimension 4550 | 1118 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r248] 2002-11-24 | Dell | Dimension 4550 | 1077 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r249] 2002-11-17 | Dell | Dimension 4550 | 1129 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r250] 2002-11-10 | Dell | Dimension 4550 | 1107 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r251] 2002-11-03 | Dell | Dimension 4550 | 1228 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r252] 2002-10-27 | Dell | Dimension 4550 | 1228 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r253] 2002-10-20 | Dell | Dimension 4550 | 1074 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r254] 2002-10-13 | Dell | Dimension 4550 | 1078 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r255] 2002-11-24 | Dell | Dimension 4550 | 1137 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r256] 2002-11-17 | Dell | Dimension 4550 | 1219 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r257] 2002-11-10 | Dell | Dimension 4550 | 1157 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r258] 2002-11-03 | Dell | Dimension 4550 | 1234 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r259] 2002-10-27 | Dell | Dimension 4550 | 1268 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r260] 2002-10-20 | Dell | Dimension 4550 | 1124 | Pentium 4 | 2.53 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r261] 2002-10-13 | Dell | Dimension 4550 | 1209 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r262] 2002-12-23 | Dell | Dimension 4550 | 1428 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r263] 2002-12-15 | Dell | Dimension 4550 | 1458 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r264] 2002-12-08 | Dell | Dimension 4550 | 1488 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r265] 2002-12-02 | Dell | Dimension 4550 | 1288 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r266] 2002-11-24 | Dell | Dimension 4550 | 1227 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r267] 2002-11-17 | Dell | Dimension 4550 | 1309 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r268] 2002-11-10 | Dell | Dimension 4550 | 1247 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r269] 2002-11-03 | Dell | Dimension 4550 | 1324 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r270] 2002-10-27 | Dell | Dimension 4550 | 1388 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r271] 2002-10-20 | Dell | Dimension 4550 | 1254 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r272] 2002-10-13 | Dell | Dimension 4550 | 1337 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r273] 2002-12-23 | Dell | Dimension 4550 | 1548 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r274] 2002-12-15 | Dell | Dimension 4550 | 1578 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r275] 2002-12-08 | Dell | Dimension 4550 | 1608 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r276] 2002-12-02 | Dell | Dimension 4550 | 1408 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r277] 2002-11-24 | Dell | Dimension 4550 | 1347 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r278] 2002-11-17 | Dell | Dimension 4550 | 1429 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r279] 2002-11-10 | Dell | Dimension 4550 | 1367 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r280] 2002-11-03 | Dell | Dimension 4550 | 1444 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r281] 2002-10-27 | Dell | Dimension 4550 | 1498 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r282] 2002-10-20 | Dell | Dimension 4550 | 1364 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r283] 2002-10-13 | Dell | Dimension 4550 | 1488 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen | Lexmark Z25 | www.dell.com
+[r284] 2002-08-18 | Dell | Dimension 8200 | 1529 | Pentium 4 | 2.26 | 512 RDRAM | 80 | CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r285] 2002-08-11 | Dell | Dimension 8200 | 1538 | Pentium 4 | 2.26 | 512 RDRAM | 80 | CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r286] 2002-07-29 | Dell | Dimension 8200 | 1598 | Pentium 4 | 2.26 | 512 RDRAM | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r287] 2002-08-24 | Dell | Dimension 8200 | 1707 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r288] 2002-08-18 | Dell | Dimension 8200 | 1678 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r289] 2002-08-11 | Dell | Dimension 8200 | 1707 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r290] 2002-07-29 | Dell | Dimension 8200 | 1707 | Pentium 4 | 2.4 | 512 RDRAM | 80 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r291] 2002-09-29 | Dell | Dimension 8200 | 1388 | Pentium 4 | 2.53 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell Flat Screen M782 |  | www.dell.com
+[r292] 2002-09-22 | Dell | Dimension 8200 | 1388 | Pentium 4 | 2.53 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell Flat Screen M782 |  | www.dell.com
+[r293] 2002-09-15 | Dell | Dimension 8200 | 1468 | Pentium 4 | 2.53 | 512 RDRAM | 80 | CD-RW/DVD-ROM Combo Drive | 17" Dell Flat Screen M782 |  | www.dell.com
+[r294] 2002-09-07 | Dell | Dimension 8200 | 1467 | Pentium 4 | 2.53 | 512 RDRAM | 80 | CD-RW/DVD-ROM Combo Drive | 17" Dell Flat Screen M782 |  | www.dell.com
+[r295] 2002-08-31 | Dell | Dimension 8200 | 1488 | Pentium 4 | 2.53 | 512 RDRAM | 80 | CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r296] 2002-09-29 | Dell | Dimension 8200 | 1628 | Pentium 4 | 2.66 | 512 RDRAM | 80 | CD-RW | 19" Dell M992 |  | www.dell.com
+[r297] 2002-09-22 | Dell | Dimension 8200 | 1518 | Pentium 4 | 2.66 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell M782 Flat Screen |  | www.dell.com
+[r298] 2002-09-15 | Dell | Dimension 8200 | 1598 | Pentium 4 | 2.66 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell M782 Flat Screen |  | www.dell.com
+[r299] 2002-09-07 | Dell | Dimension 8200 | 1597 | Pentium 4 | 2.66 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell M782 Flat Screen |  | www.dell.com
+[r300] 2002-08-31 | Dell | Dimension 8200 | 1657 | Pentium 4 | 2.66 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Dell M782 Flat Screen |  | www.dell.com
+[r301] 2002-10-06 | Dell | Dimension 8200 | 1659 | Pentium 4 | 2.8 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 19" Dell M992 Flat screen |  | www.dell.com
+[r302] 2002-08-24 | Dell | Dimension 8200 | 1188 | Pentium 4 | 2.0A | 256 RDRAM | 40 | DVD-ROM; CD-RW | 19" Dell Flat Screen M992 |  | www.dell.com
+[r303] 2002-12-23 | Dell | Dimension 8250 | 2069 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r304] 2002-12-15 | Dell | Dimension 8250 | 2157 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r305] 2002-12-08 | Dell | Dimension 8250 | 1808 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r306] 2002-12-02 | Dell | Dimension 8250 | 1968 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r307] 2002-11-24 | Dell | Dimension 8250 | 1757 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r308] 2002-11-17 | Dell | Dimension 8250 | 2059 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r309] 2002-11-10 | Dell | Dimension 8250 | 2047 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r310] 2002-11-03 | Dell | Dimension 8250 | 2119 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r311] 2002-10-27 | Dell | Dimension 8250 | 2138 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r312] 2002-10-20 | Dell | Dimension 8250 | 1758 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r313] 2002-10-13 | Dell | Dimension 8250 | 1707 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r314] 2002-12-23 | Dell | Dimension 8250 | 2469 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r315] 2002-12-15 | Dell | Dimension 8250 | 2598 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r316] 2002-12-08 | Dell | Dimension 8250 | 2308 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r317] 2002-12-02 | Dell | Dimension 8250 | 2428 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r318] 2002-11-24 | Dell | Dimension 8250 | 2157 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r319] 2002-11-17 | Dell | Dimension 8250 | 2479 | Pentium 4 HT | 3.06 | 256 RDRAM 1066 | 80 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r320] 2002-08-11 | Dell | Smartstep 150D | 688 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | 15" Dell E551 |  | www.dell.com
+[r321] 2002-07-29 | Dell | Smartstep 150D | 688 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | 15" Dell E551 |  | www.dell.com
+[r322] 2002-12-08 | Dell  | Dimension 4550 | 1028 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r323] 2002-12-02 | Dell  | Dimension 4550 | 978 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r324] 2002-11-24 | Dell  | Dimension 4550 | 977 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r325] 2002-11-17 | Dell  | Dimension 4550 | 989 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r326] 2002-11-10 | Dell  | Dimension 4550 | 987 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r327] 2002-11-03 | Dell  | Dimension 4550 | 1044 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r328] 2002-10-27 | Dell  | Dimension 4550 | 1088 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r329] 2002-10-20 | Dell  | Dimension 4550 | 974 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r330] 2002-10-13 | Dell  | Dimension 4550 | 978 | Pentium 4 | 2.4 | 256 DDR 333 MHz | 80 | DVD-ROM | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r331] 2002-12-23 | Dell  | Dimension 4550 | 1058 | Pentium 4 | 2.0A | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r332] 2002-12-15 | Dell  | Dimension 4550 | 1187 | Pentium 4 | 2.0A | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r333] 2002-12-08 | Dell  | Dimension 4550 | 1098 | Pentium 4 | 2.0A | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r334] 2002-12-02 | Dell  | Dimension 4550 | 938 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r335] 2002-11-24 | Dell  | Dimension 4550 | 938 | Pentium 4 | 2.0A | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r336] 2002-11-17 | Dell  | Dimension 4550 | 949 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r337] 2002-11-10 | Dell  | Dimension 4550 | 947 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r338] 2002-11-03 | Dell  | Dimension 4550 | 1004 | Pentium 4 | 2.0A | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r339] 2002-10-27 | Dell  | Dimension 4550 | 1048 | Pentium 4 | 2.0A | 256 DDR 333 MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r340] 2002-10-20 | Dell  | Dimension 4550 | 934 | Pentium 4 | 2.0A | 256 DDR 333 MHz | 80 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r341] 2002-10-13 | Dell  | Dimension 4550 | 898 | Pentium 4 | 2.0A | 256 DDR 333 MHz | 80 | CD-RW | 17" Dell E772 | Lexmark Z25 | www.dell.com
+[r342] 2002-09-15 | eMachines | T1220 | 399.98 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" Proview753 |  | Circuit City Stores
+[r343] 2002-09-07 | eMachines | T1220 | 399.98 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" Proview753 |  | Circuit City Stores
+[r344] 2002-08-31 | eMachines | T1220 | 399.98 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" Proview753 |  | Circuit City Stores
+[r345] 2002-08-24 | eMachines | T1220 | 499.98 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r346] 2002-08-18 | eMachines | T1220 | 399.98 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores or CompUSA Stores
+[r347] 2002-08-11 | eMachines | T1220 | 399.97 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r348] 2002-07-29 | eMachines | T1220 | 399.97 | Celeron | 1.2 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r349] 2002-09-29 | eMachines | T1221 | 399.97 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r350] 2002-09-22 | eMachines | T1221 | 399.97 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r351] 2002-09-07 | eMachines | T1221 | 474.99 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | none |  | BestBuy Stores
+[r352] 2002-08-31 | eMachines | T1221 | 399.97 | Celeron | 1.3 | 128 SDRAM | 20 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores
+[r353] 2002-09-29 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r354] 2002-09-22 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r355] 2002-09-15 | eMachines | T1440 | 499.99 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17f |  | Circuit City Stores
+[r356] 2002-09-07 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r357] 2002-08-31 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r358] 2002-08-24 | eMachines | T1440 | 399.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r359] 2002-08-18 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r360] 2002-08-11 | eMachines | T1440 | 449.98 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | CompUSA Stores
+[r361] 2002-07-29 | eMachines | T1440 | 499.97 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" eMachines 17s |  | BestBuy Stores
+[r362] 2002-12-23 | eMachines | T1742 | 400 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM |  |  | www.eMachines.com
+[r363] 2002-12-15 | eMachines | T1742 | 400 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Proview | Lexmark Z25 | BestBuy & Circuit City Stores
+[r364] 2002-12-08 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Proview | Lexmark Z25 | BestBuy Stores
+[r365] 2002-12-02 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Proview | Lexmark Z25 | BestBuy Stores
+[r366] 2002-11-24 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Proview | Lexmark Z25 | Circuit City Stores
+[r367] 2002-11-17 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Emachines 17s | Lexmark Z25 | BestBuy Stores
+[r368] 2002-11-10 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" Emachines 17s | Lexmark Z25 | BestBuy Stores
+[r369] 2002-11-03 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM |  |  | www.bestbuy.com
+[r370] 2002-10-27 | eMachines | T1742 | 399.99 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM |  |  | www.bestbuy.com
+[r371] 2002-10-20 | eMachines | T1742 | 399.97 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r372] 2002-10-13 | eMachines | T1742 | 399.97 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r373] 2002-10-06 | eMachines | T1742 | 399.97 | Celeron | 1.7 | 128 SDRAM | 40 | CD-ROM | 17" eMachines 17s |  | BestBuy Stores and Circuit City stores
+[r374] 2002-12-23 | eMachines | T1840 | 500 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW |  |  | Fry's Outpost.com
+[r375] 2002-12-15 | eMachines | T1840 | 500 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r376] 2002-12-08 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r377] 2002-12-02 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r378] 2002-11-24 | eMachines | T1840 | 550 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | BestBuy or Circuit City Stores
+[r379] 2002-11-17 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW | 19" Flat Screen | Canon i320 | Office Depot Stores
+[r380] 2002-11-10 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r381] 2002-11-03 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 128 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r382] 2002-10-27 | eMachines | T1840 | 499.99 | Celeron | 1.8 | 384 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r383] 2002-10-20 | eMachines | T1840 | 599.97 | Celeron | 1.8 | 384 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17f | Canon i320 | Office Depot Stores
+[r384] 2002-10-13 | eMachines | T1840 | 499.97 | Celeron | 1.8 | 128 SDRAM | 40 | DVD-ROM; CD-RW | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r385] 2002-10-06 | eMachines | T1840 | 549.99 | Celeron | 1.8 | 128 SDRAM | 40 | DVD-ROM; CD-RW | 17" eMachines 17f flat screen |  | Circuit City stores
+[r386] 2002-08-18 | eMachines | T1860 | 599.99 | Athlon 1800+ | 1.53 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | Circuit City Stores
+[r387] 2002-08-11 | eMachines | T1860 | 759.98 | Athlon 1800+ | 1.53 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | www.emachines.com
+[r388] 2002-07-29 | eMachines | T1860 | 759.98 | Athlon 1800+ | 1.53 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | www.emachines.com
+[r389] 2002-09-07 | eMachines | T1862 | 599.97 | Celeron | 1.8 | 256 DDR | 60 | CD-RW | 17" eMachines 17s |  | www.emachines.com
+[r390] 2002-08-31 | eMachines | T1862 | 759.98 | Celeron | 1.8 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | www.emachines.com
+[r391] 2002-08-24 | eMachines | T1862 | 599.99 | Celeron | 1.8 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | BestBuy Stores
+[r392] 2002-09-15 | eMachines | T2080 | 839.99 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | Circuit City Stores
+[r393] 2002-09-07 | eMachines | T2080 | 799.99 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | Circuit City Stores
+[r394] 2002-08-31 | eMachines | T2080 | 799.99 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | Circuit City Stores
+[r395] 2002-08-24 | eMachines | T2080 | 909.98 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | www.emachines.com
+[r396] 2002-08-18 | eMachines | T2080 | 909.98 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | www.emachines.com
+[r397] 2002-08-11 | eMachines | T2080 | 909.98 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | www.emachines.com
+[r398] 2002-07-29 | eMachines | T2080 | 909.98 | Athlon 2000+ | 1.67 | 512 DDR | 80 | CD-RW; DVD-ROM | 17" eMachines 17f |  | www.emachines.com
+[r399] 2002-12-23 | eMachines | T2085 | 780 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17F flat screen |  | Circuit City stores
+[r400] 2002-12-15 | eMachines | T2085 | 650 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r401] 2002-12-08 | eMachines | T2085 | 690 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r402] 2002-12-02 | eMachines | T2085 | 649.99 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r403] 2002-11-24 | eMachines | T2085 | 649.99 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r404] 2002-11-17 | eMachines | T2085 | 649.99 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r405] 2002-11-10 | eMachines | T2085 | 689.97 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r406] 2002-10-06 | eMachines | T2085 | 689.97 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17S |  | BestBuy Stores
+[r407] 2002-12-15 | eMachines | T2085 | 800 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17f flat screen | Lexmark Z25 | BestBuy Stores
+[r408] 2002-12-23 | eMachines | T2200 | 749.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r409] 2002-12-15 | eMachines | T2200 | 900 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | Circuit City Stores
+[r410] 2002-12-08 | eMachines | T2200 | 790 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | BestBuy Stores
+[r411] 2002-12-02 | eMachines | T2200 | 900 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | Circuit City Stores
+[r412] 2002-11-17 | eMachines | T2200 | 749.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r413] 2002-11-10 | eMachines | T2200 | 749.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r414] 2002-11-03 | eMachines | T2200 | 779.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" Emachines 17f | Lexmark Z25 | Circuit City stores
+[r415] 2002-10-27 | eMachines | T2200 | 749.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com or www.circuitcity.com
+[r416] 2002-10-20 | eMachines | T2200 | 799.99 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17f | Lexmark Z25 | Circuit City stores
+[r417] 2002-10-06 | eMachines | T2200 | 799.97 | Athlon 2200+ | 1.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17F flat screen |  | Circuit City stores
+[r418] 2002-12-02 | eMachines | T4060 | 689.97 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" emachines 17s | Lexmark Z25 | BestBuy Stores
+[r419] 2002-08-11 | eMachines | T4170 | 859.98 | Pentium 4 | 1.6 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | www.emachines.com
+[r420] 2002-07-29 | eMachines | T4170 | 859.98 | Pentium 4 | 1.6 | 256 DDR | 60 | CD-RW | 17" eMachines 17f |  | www.emachines.com
+[r421] 2002-08-11 | Gateway | 300L | 738 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 15" Gateway EV500 |  | www.gateway.com
+[r422] 2002-07-29 | Gateway | 300L | 738 | Celeron | 1.4 | 128 SDRAM | 40 | CD-ROM | 15" Gateway EV500 |  | www.gateway.com
+[r423] 2002-08-24 | Gateway | 300L Special | 813 | Celeron | 1.4 | 128 DDR | 40 | CD-ROM | 15" Gateway EV500 |  | www.gateway.com
+[r424] 2002-08-18 | Gateway | 300L Special | 623 | Celeron | 1.4 | 128 DDR | 40 | CD-ROM | 15" Gateway EV500 |  | www.gateway.com
+[r425] 2002-12-23 | Gateway | 300L special | 548 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r426] 2002-12-15 | Gateway | 300L special | 548 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r427] 2002-09-29 | Gateway | 300L Special  | 548 | Celeron | 1.8 | 256 DDR | 40 | CD-ROM | none |  | www.gateway.com
+[r428] 2002-09-22 | Gateway | 300L Special  | 548 | Celeron | 1.8 | 128 DDR | 20 | CD-ROM | none |  | www.gateway.com
+[r429] 2002-09-15 | Gateway | 300L Special  | 548 | Celeron | 1.8 | 128 DDR | 20 | CD-ROM | none |  | www.gateway.com
+[r430] 2002-09-07 | Gateway | 300L Special  | 548 | Celeron | 1.8 | 128 DDR | 20 | CD-ROM | none |  | www.gateway.com
+[r431] 2002-11-10 | Gateway | 300S | 498 | Celeron | 1.8 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r432] 2002-11-03 | Gateway | 300S | 498 | Celeron | 1.8 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r433] 2002-12-08 | Gateway | 300S | 498 | Celeron | 2 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r434] 2002-12-02 | Gateway | 300S | 498 | Celeron | 2 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r435] 2002-11-24 | Gateway | 300S | 498 | Celeron | 2 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r436] 2002-11-17 | Gateway | 300S | 498 | Celeron | 2 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r437] 2002-09-07 | Gateway | 300SE | 748 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r438] 2002-08-31 | Gateway | 300SE | 748 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r439] 2002-08-24 | Gateway | 300SE | 773 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r440] 2002-08-18 | Gateway | 300SE | 748 | Celeron | 1.4 | 128 SDRAM | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r441] 2002-08-11 | Gateway | 300SE | 798 | Celeron | 1.4 | 128 SDRAM | 20 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r442] 2002-07-29 | Gateway | 300SE | 798 | Celeron | 1.4 | 128 SDRAM | 20 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r443] 2002-09-15 | Gateway | 300SE | 748 | Celeron | 1.8 | 128 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r444] 2002-10-06 | Gateway | 300X | 1173 | Celeron | 2 | 256 DDR | 60 | DVD-ROM/ CD-RW Combo Drive | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r445] 2002-08-11 | Gateway | 500 Special | 1123 | Pentium 4 | 2 | 512 DDR | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r446] 2002-07-29 | Gateway | 500 Special | 1103 | Pentium 4 | 2 | 256 DDR | 40 | CD-RW | 19" Mitsubishi VX920 |  | www.gateway.com
+[r447] 2002-08-24 | Gateway | 500 Special | 1028 | Pentium 4 | 2.0A | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r448] 2002-08-18 | Gateway | 500 Special | 903 | Pentium 4 | 2.0A | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r449] 2002-11-17 | Gateway | 500L | 1158 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r450] 2002-11-10 | Gateway | 500L | 1158 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r451] 2002-11-03 | Gateway | 500L | 1133 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r452] 2002-10-27 | Gateway | 500L | 1168 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r453] 2002-10-20 | Gateway | 500L | 1157 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r454] 2002-08-11 | Gateway | 500L | 1078 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r455] 2002-07-29 | Gateway | 500L | 1078 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r456] 2002-12-15 | Gateway | 500L special | 649 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r457] 2002-10-20 | Gateway | 500S    | 1518 | Pentium 4 | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r458] 2002-10-13 | Gateway | 500S    | 1533 | Pentium 4 | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r459] 2002-10-27 | Gateway | 500S    | 1418 | Pentium 4 | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r460] 2002-11-24 | Gateway | 500S    | 1468 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r461] 2002-12-02 | Gateway | 500S    | 1443 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r462] 2002-11-17 | Gateway | 500S    | 1468 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r463] 2002-11-10 | Gateway | 500S    | 1418 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r464] 2002-11-03 | Gateway | 500S    | 1418 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r465] 2002-12-23 | Gateway | 500S Plus    | 1468 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r466] 2002-12-15 | Gateway | 500S Plus    | 1493 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r467] 2002-12-08 | Gateway | 500S Plus    | 1493 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel | free printer or web camera (shipping extra) | www.gateway.com
+[r468] 2002-08-11 | Gateway | 500SE | 853 | Pentium 4 | 1.8 | 128 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r469] 2002-07-29 | Gateway | 500SE | 853 | Pentium 4 | 1.8 | 128 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r470] 2002-10-13 | Gateway | 500SE Special | 1054 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r471] 2002-10-06 | Gateway | 500SE Special | 903 | Pentium 4 | 1.8 | 256 DDR | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r472] 2002-09-29 | Gateway | 500SE Special | 1038 | Pentium 4 | 1.8 | 256 DDR | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r473] 2002-09-22 | Gateway | 500SE Special | 1018 | Pentium 4 | 1.8 | 256 DDR | 80 | DVD/CD-RW Combo Drive | 17" Gateway EV700 |  | www.gateway.com
+[r474] 2002-09-15 | Gateway | 500SE Special | 1018 | Pentium 4 | 1.8 | 256 DDR | 40 | DVD/CD-RW Combo Drive | 17" Gateway EV700 |  | www.gateway.com
+[r475] 2002-09-07 | Gateway | 500SE Special | 1018 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW; DVD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r476] 2002-08-31 | Gateway | 500SE Special | 928 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r477] 2002-08-24 | Gateway | 500SE Special | 928 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r478] 2002-08-18 | Gateway | 500SE Special | 928 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r479] 2002-08-24 | Gateway | 500X | 1698 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r480] 2002-08-18 | Gateway | 500X | 1698 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r481] 2002-08-11 | Gateway | 500X | 1698 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r482] 2002-07-29 | Gateway | 500X | 1698 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r483] 2002-10-06 | Gateway | 500X | 1703 | Pentium 4 | 2.4 | 512 DDR | 60 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r484] 2002-09-29 | Gateway | 500X | 1698 | Pentium 4 | 2.4 | 512 DDR | 60 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r485] 2002-09-22 | Gateway | 500X | 1698 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r486] 2002-09-15 | Gateway | 500X | 1698 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r487] 2002-09-07 | Gateway | 500X | 1599 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r488] 2002-08-31 | Gateway | 500X | 1698 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RAM/DVD-R; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r489] 2002-08-11 | Gateway | 700L | 1188 | Pentium 4 | 1.8 | 256 RDRAM | 40 | CD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r490] 2002-07-29 | Gateway | 700L | 1188 | Pentium 4 | 1.8 | 256 RDRAM | 40 | CD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r491] 2002-08-24 | Gateway | 700L | 1178 | Pentium 4 | 2.26 | 256 RDRAM | 40 | CD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r492] 2002-08-18 | Gateway | 700L | 1178 | Pentium 4 | 2.26 | 256 RDRAM | 40 | CD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r493] 2002-08-31 | Gateway | 700L | 1177 | Pentium 4 | 2.4 | 256 RDRAM | 80 | CD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r494] 2002-09-29 | Gateway | 700L Special | 1238 | Pentium 4 | 2.4 | 256 RDRAM | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r495] 2002-09-22 | Gateway | 700L Special | 1228 | Pentium 4 | 2.4 | 256 RDRAM | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r496] 2002-09-15 | Gateway | 700L Special | 1238 | Pentium 4 | 2.4 | 256 RDRAM | 80 | DVD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r497] 2002-09-07 | Gateway | 700L Special | 1238 | Pentium 4 | 2.4 | 256 RDRAM | 80 | DVD-ROM | 17" Gateway EV700 |  | www.gateway.com
+[r498] 2002-08-24 | Gateway | 700S | 1668 | Pentium 4 | 2.26 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Gateway VX730 |  | www.gateway.com
+[r499] 2002-08-18 | Gateway | 700S | 1668 | Pentium 4 | 2.26 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Gateway VX730 |  | www.gateway.com
+[r500] 2002-08-11 | Gateway | 700S | 1598 | Pentium 4 | 2.26 | 256 RDRAM | 80 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r501] 2002-07-29 | Gateway | 700S | 1598 | Pentium 4 | 2.26 | 256 RDRAM | 80 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r502] 2002-12-23 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r503] 2002-12-15 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r504] 2002-12-08 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r505] 2002-12-02 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r506] 2002-11-24 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r507] 2002-11-17 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r508] 2002-11-10 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r509] 2002-11-03 | Gateway | 700S | 1718 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r510] 2002-10-27 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r511] 2002-10-20 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r512] 2002-10-13 | Gateway | 700S | 1643 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r513] 2002-10-06 | Gateway | 700S | 1603 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r514] 2002-09-29 | Gateway | 700S | 1718 | Pentium 4 | 2.4 | 512 RDRAM | 80 | CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r515] 2002-09-22 | Gateway | 700S | 1718 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r516] 2002-09-15 | Gateway | 700S | 1678 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Gateway EV700 |  | www.gateway.com
+[r517] 2002-09-07 | Gateway | 700S | 1679 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r518] 2002-08-31 | Gateway | 700S | 1668 | Pentium 4 | 2.4 | 512 RDRAM | 80 | DVD-ROM; CD-RW | 17" Gateway VX730 |  | www.gateway.com
+[r519] 2002-12-23 | Gateway | 700XL | 3003 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r520] 2002-12-15 | Gateway | 700XL | 3239 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r521] 2002-12-08 | Gateway | 700XL | 3003 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r522] 2002-12-02 | Gateway | 700XL | 3008 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r523] 2002-11-24 | Gateway | 700XL | 3003 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r524] 2002-11-17 | Gateway | 700XL | 3008 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r525] 2002-09-29 | HP | 502n | 429.99 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | none |  | Circuit City Stores
+[r526] 2002-09-22 | HP | 502n | 554.97 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 15" HP MX50  |  | BestBuy Stores
+[r527] 2002-09-15 | HP | 502n | 449.97 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 15" HP MX50  |  | BestBuy Stores
+[r528] 2002-09-07 | HP | 502n | 479 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | none |  | www.bestbuy.com
+[r529] 2002-08-31 | HP | 502n | 429.96 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 17" HP MX70 |  | Staples Stores
+[r530] 2002-08-24 | HP | 502n | 529.97 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 15" HP MX50  |  | BestBuy Stores
+[r531] 2002-08-18 | HP | 502n | 529.97 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 15" HP MX50  |  | BestBuy Stores
+[r532] 2002-08-11 | HP | 502n | 479.97 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | 15" HP MX50  |  | BestBuy Stores or CompUSA Stores
+[r533] 2002-07-29 | HP | 502n | 529.99 | Celeron | 1.3 | 128 SDRAM | 40 | CD-ROM | none |  | www.bestbuy.com or www.hpshopping.com
+[r534] 2002-11-10 | HP | 503n | 549.99 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r535] 2002-11-10 | HP | 513n | 829.93 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP EN775e | HP 3820 | CompUSA Stores
+[r536] 2002-12-23 | HP | 523n | 1050 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | Circuit City stores
+[r537] 2002-12-15 | HP | 523n | 850 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r538] 2002-12-08 | HP | 523n | 900 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r539] 2002-12-02 | HP | 523n | 800 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r540] 2002-11-24 | HP | 523n | 719 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | MicroCenter Stores
+[r541] 2002-11-17 | HP | 523n | 1099.97 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r542] 2002-11-10 | HP | 523n | 849.99 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r543] 2002-11-03 | HP | 523n | 899.99 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 flat screen | HP 3820 | Circuit City stores
+[r544] 2002-07-29 | HP | 552 series | 842.99 | Athlon 2000+ | 1.67 | 256 DDR | 40 | DVD-ROM | 17" HP V70s |  | BestBuy Stores
+[r545] 2002-11-10 | HP | 553n | 799 | Pentium 4 | 2.0A | 256 SDRAM | 40 | DVD-ROM; CD-RW | 17" HP MX70 |  | Staples Stores
+[r546] 2002-12-23 | HP | 573n | 900 | Athlon 2600+ | 2.1 | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP V70S |  | Staples stores
+[r547] 2002-12-02 | HP | 873n | 1649 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM |  |  | www.hp.com
+[r548] 2002-11-24 | HP | 873n | 1649 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM |  |  | www.hp.com
+[r549] 2002-11-17 | HP | 873n | 1699.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM |  |  | www.circuitcity.com or www.bestbuy.com
+[r550] 2002-11-10 | HP | 873n | 1699.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM |  |  | www.circuitcity.com or www.bestbuy.com
+[r551] 2002-11-03 | HP | 873n | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM |  |  | Circuit City stores
+[r552] 2002-10-27 | HP | 873n | 1699.91 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-ROM | 17" HP MX75 flat screen | HP 3820 | CompUSA Stores
+[r553] 2002-12-23 | HP | 873n Media Center | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.circuitcity.com
+[r554] 2002-12-15 | HP | 873n Media Center | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.circuitcity.com
+[r555] 2002-12-08 | HP | 873n Media Center | 2100 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 17" HP F50 flat panel | HP 3820 | Circuit City Stores
+[r556] 2002-12-02 | HP | 893n | 2153 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | www.hp.com
+[r557] 2002-11-24 | HP | 893n | 2153 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | www.hp.com
+[r558] 2002-11-17 | HP | 893n | 2153 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | www.hp.com
+[r559] 2002-08-24 | HP | customized | 1378 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r560] 2002-08-18 | HP | customized | 1378 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r561] 2002-12-23 | HP | Pavilion 503n | 699 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | www.shopping.hp.com and CompUSA stores
+[r562] 2002-12-15 | HP | Pavilion 503n | 550 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r563] 2002-12-08 | HP | Pavilion 503n | 500 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r564] 2002-12-02 | HP | Pavilion 503n | 600 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r565] 2002-11-24 | HP | Pavilion 503n | 500 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r566] 2002-11-17 | HP | Pavilion 503n | 749.99 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3280 | Circuit City or CompUSA Stores
+[r567] 2002-11-03 | HP | Pavilion 503n | 699.97 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r568] 2002-10-27 | HP | Pavilion 503n | 499.91 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | CompUSA Stores
+[r569] 2002-10-20 | HP | Pavilion 503n | 599.97 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r570] 2002-10-13 | HP | Pavilion 503n | 599.97 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r571] 2002-09-29 | HP | Pavilion 512n | 619.97 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | BestBuy Stores
+[r572] 2002-09-22 | HP | Pavilion 512n | 668.97 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | BestBuy Stores
+[r573] 2002-09-15 | HP | Pavilion 512n | 569.97 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | BestBuy Stores
+[r574] 2002-09-07 | HP | Pavilion 512n | 619.97 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | BestBuy Stores
+[r575] 2002-08-31 | HP | Pavilion 512n | 649.99 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | www.officedepot.com
+[r576] 2002-08-24 | HP | Pavilion 512n | 649.99 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | Circuit City or Best Buy stores
+[r577] 2002-08-18 | HP | Pavilion 512n | 749.91 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | CompUSA Stores
+[r578] 2002-08-11 | HP | Pavilion 512n | 599.97 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | BestBuy Stores
+[r579] 2002-07-29 | HP | Pavilion 512n | 749.99 | Celeron  | 1.4 | 128 SDRAM | 60 | DVD-ROM/ CD-RW Combo Drive | 15" HP MX50  |  | Circuit City Stores
+[r580] 2002-12-15 | HP | Pavilion 513n | 680 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r581] 2002-12-08 | HP | Pavilion 513n | 630 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r582] 2002-12-02 | HP | Pavilion 513n | 730 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r583] 2002-11-24 | HP | Pavilion 513n | 830 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r584] 2002-11-17 | HP | Pavilion 513n | 679.99 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r585] 2002-11-03 | HP | Pavilion 513n | 829.97 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r586] 2002-10-27 | HP | Pavilion 513n | 629.99 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r587] 2002-10-20 | HP | Pavilion 513n | 729.97 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r588] 2002-10-13 | HP | Pavilion 513n | 729.97 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r589] 2002-09-22 | HP | Pavilion 522n | 749.99 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r590] 2002-09-15 | HP | Pavilion 522n | 819.97 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | 17" HP MX70 |  | BestBuy Stores
+[r591] 2002-09-07 | HP | Pavilion 522n | 749.98 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r592] 2002-08-31 | HP | Pavilion 522n | 749.98 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.officemax.com
+[r593] 2002-08-31 | HP | Pavilion 522n | 899.97 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | 17" HP MX70 |  | BestBuy Stores
+[r594] 2002-08-24 | HP | Pavilion 522n | 749.98 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.compusa.com 
+[r595] 2002-08-24 | HP | Pavilion 522n | 869 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | BestBuy Stores
+[r596] 2002-08-18 | HP | Pavilion 522n | 799.98 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.compusa.com or www.hpshopping.com
+[r597] 2002-08-11 | HP | Pavilion 522n | 849.91 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | 15" HP MX50  |  | CompUSA Stores
+[r598] 2002-07-29 | HP | Pavilion 522n | 799.98 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.compusa.com
+[r599] 2002-10-20 | HP | Pavilion 523n | 949.97 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 flat screen | HP 3820 | BestBuy Stores
+[r600] 2002-10-13 | HP | Pavilion 523n | 1050 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 flat screen |  | Circuit City Stores
+[r601] 2002-10-06 | HP | Pavilion 523n | 949.97 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 flat screen |  | BestBuy Stores
+[r602] 2002-10-13 | HP | Pavilion 523n | 1400 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 flat screen | HP 3820 | BestBuy and Circuit City stores
+[r603] 2002-07-29 | HP | Pavilion 542n | 899.99 | Athlon 2000+ | 1.67 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.circuitcity.com
+[r604] 2002-12-02 | HP | Pavilion 563n | 1149 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17' HP MX70 |  | Staples Stores
+[r605] 2002-12-08 | HP | Pavilion 700 series | 1888 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | www.hp.com
+[r606] 2002-09-22 | HP | Pavilion 742n | 969.99 | Athlon 2000+ | 1.66 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" HP MX70 |  | Circuit City Stores
+[r607] 2002-10-06 | HP | Pavilion 752n | 999 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | none |  | CompUSA
+[r608] 2002-09-29 | HP | Pavilion 752n | 1219.91 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | CompUSA Stores
+[r609] 2002-09-22 | HP | Pavilion 752n | 1146.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores
+[r610] 2002-09-15 | HP | Pavilion 752n | 1069.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores
+[r611] 2002-09-07 | HP | Pavilion 752n | 1119.99 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores
+[r612] 2002-08-31 | HP | Pavilion 752n | 1069.91 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | CompUSA Stores
+[r613] 2002-08-24 | HP | Pavilion 752n | 1119.91 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | Circuit City Stores
+[r614] 2002-08-18 | HP | Pavilion 752n | 1219.91 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | CompUSA Stores
+[r615] 2002-08-11 | HP | Pavilion 752n | 999.96 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | Staples Stores
+[r616] 2002-07-29 | HP | Pavilion 752n | 1249.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores and Circuit City Stores
+[r617] 2002-12-23 | HP | Pavilion 753n | 1000 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r618] 2002-12-23 | HP | Pavilion 753n | 1250 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | Staples stores
+[r619] 2002-12-15 | HP | Pavilion 753n | 1200 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP F50 LCD Flat Panel | HP 3820 | BestBuy Stores
+[r620] 2002-12-15 | HP | Pavilion 753n | 1400 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP F50 LCD Flat Panel | HP 3820 | BestBuy Stores
+[r621] 2002-12-08 | HP | Pavilion 753n | 1150 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | Staples Stores
+[r622] 2002-12-02 | HP | Pavilion 753n | 1150 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | Staples Stores
+[r623] 2002-11-24 | HP | Pavilion 753n | 1249 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r624] 2002-11-17 | HP | Pavilion 753n | 1049.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r625] 2002-11-10 | HP | Pavilion 753n | 1199.93 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP EN775e | HP 3820 | CompUSA Stores
+[r626] 2002-11-03 | HP | Pavilion 753n | 999.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r627] 2002-10-27 | HP | Pavilion 753n | 1149.97 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r628] 2002-10-20 | HP | Pavilion 753n | 1149.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 flat screen | HP 3820 | Circuit City stores
+[r629] 2002-10-13 | HP | Pavilion 753n | 1179.98 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Mitsubishi 70BK |  | BestBuy Online
+[r630] 2002-10-06 | HP | Pavilion 753n | 1149.97 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 |  | BestBuy Stores
+[r631] 2002-09-29 | HP | Pavilion 762n | 1138.92 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r632] 2002-09-22 | HP | Pavilion 762n | 1336.97 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores
+[r633] 2002-09-15 | HP | Pavilion 762n | 1369.94 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | CompUSA Stores
+[r634] 2002-09-07 | HP | Pavilion 762n | 1199.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r635] 2002-08-31 | HP | Pavilion 762n | 1219.97 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy Stores
+[r636] 2002-08-24 | HP | Pavilion 762n | 1199.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r637] 2002-08-18 | HP | Pavilion 762n | 1199.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r638] 2002-08-11 | HP | Pavilion 762n | 1349.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 |  | BestBuy or Circuit City Stores
+[r639] 2002-07-29 | HP | Pavilion 762n | 1249.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.bestbuy.com or www.hpshopping.com
+[r640] 2002-12-23 | HP | Pavilion 763n | 1250 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r641] 2002-12-15 | HP | Pavilion 763n | 1250 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r642] 2002-12-15 | HP | Pavilion 763n | 1500 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 15" HP F50 LCD flat panel | HP 3820 | BestBuy Stores
+[r643] 2002-12-08 | HP | Pavilion 763n | 1249.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r644] 2002-12-08 | HP | Pavilion 763n | 1500 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 15" HP F50 flat panel | HP 3820 | BestBuy Stores
+[r645] 2002-12-02 | HP | Pavilion 763n | 1349 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r646] 2002-12-02 | HP | Pavilion 763n | 1249.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r647] 2002-11-24 | HP | Pavilion 763n | 1124 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | MicroCenter Stores
+[r648] 2002-11-24 | HP | Pavilion 763n | 1500 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r649] 2002-11-17 | HP | Pavilion 763n | 1549.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 | HP 3820 | Circuit City Stores
+[r650] 2002-11-10 | HP | Pavilion 763n | 1549.97 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX70 | HP 3820 | BestBuy Stores
+[r651] 2002-11-03 | HP | Pavilion 763n | 1299.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.circuitcity.com
+[r652] 2002-10-27 | HP | Pavilion 763n | 1399.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 flat screen | HP 3820 | Circuit City stores
+[r653] 2002-09-15 | HP | Pavilion 772n | 1388.46 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.pcmall.com
+[r654] 2002-09-07 | HP | Pavilion 772n | 1388.46 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.pcmall.com
+[r655] 2002-08-31 | HP | Pavilion 772n | 1349.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.circuitcity.com
+[r656] 2002-08-24 | HP | Pavilion 772n | 1349 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.circuitcity.com
+[r657] 2002-08-18 | HP | Pavilion 772n | 1349 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.circuitcity.com
+[r658] 2002-08-11 | HP | Pavilion 772n | 1549.99 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | 17" HP MX70 |  | Circuit City Stores
+[r659] 2002-07-29 | HP | Pavilion 772n | 1449 | Pentium 4 | 2.26 | 512 DDR | 80 | DVD-RW; CD-RW | none |  | www.hpshopping.com
+[r660] 2002-12-08 | HP | Pavilion 783 series | 1030 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW | Mag 17" flat screen |  | BestBuy Stores
+[r661] 2002-12-02 | HP | Pavilion 783 series | 979.99 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r662] 2002-09-07 | HP | Pavilion 792 series | 1349.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70s |  | BestBuy Stores
+[r663] 2002-12-23 | HP | Pavilion 793 | 2049 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | www.hp.com
+[r664] 2002-12-15 | HP | Pavilion 793 | 1858 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3820 | www.hp.com
+[r665] 2002-11-17 | HP | Pavilion 793n | 1465 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" store brand |  | BestBuy Stores
+[r666] 2002-09-22 | Sony | PCV-RX730 | 775.55 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.techdepot.com or www.computers4sure.com
+[r667] 2002-09-15 | Sony | PCV-RX730 | 775.55 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.techdepot.com or www.computers4sure.com
+[r668] 2002-09-07 | Sony | PCV-RX730 | 775.55 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.techdepot.com or www.computers4sure.com
+[r669] 2002-08-31 | Sony | PCV-RX730 | 775.55 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.techdepot.com or www.computers4sure.com
+[r670] 2002-08-24 | Sony | PCV-RX730 | 749.99 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r671] 2002-08-18 | Sony | PCV-RX730 | 749.99 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r672] 2002-08-11 | Sony | PCV-RX730 | 799.99 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r673] 2002-07-29 | Sony | PCV-RX730 | 949.97 | Celeron | 1.7 | 256 DDR | 60 | CD-RW; DVD-ROM | 17" Sony A240 |  | BestBuy Stores
+[r674] 2002-09-29 | Sony | PCV-RX741 | 950 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r675] 2002-09-22 | Sony | PCV-RX741 | 950 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r676] 2002-09-15 | Sony | PCV-RX741 | 1099.94 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Sony A240 |  | CompUSA Stores
+[r677] 2002-09-07 | Sony | PCV-RX741 | 917.49 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | None |  | www.sonystyle.com
+[r678] 2002-08-31 | Sony | PCV-RX741 | 917.49 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | None |  | www.sonystyle.com
+[r679] 2002-08-24 | Sony | PCV-RX741 | 925.55 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | None |  | www.techdepot.com
+[r680] 2002-08-18 | Sony | PCV-RX741 | 1099.94 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Sony A240 |  | CompUSA Stores
+[r681] 2002-08-11 | Sony | PCV-RX741 | 1099.94 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Sony A240 |  | CompUSA Stores
+[r682] 2002-07-29 | Sony | PCV-RX741 | 899.99 | Athlon 1800+ | 1.53 | 512 DDR | 60 | CD-RW; DVD-ROM | none |  | www.emachines.com
+[r683] 2002-09-29 | Sony | PCV-RX750 | 950 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r684] 2002-09-22 | Sony | PCV-RX750 | 950 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r685] 2002-09-15 | Sony | PCV-RX750 | 950 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r686] 2002-09-07 | Sony | PCV-RX750 | 967.49 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r687] 2002-08-31 | Sony | PCV-RX750 | 965.48 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r688] 2002-08-24 | Sony | PCV-RX750 | 1000 | Pentium 4 | 2.0A | 256 DDR | 80 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r689] 2002-08-18 | Sony | PCV-RX750 | 1000 | Pentium 4 | 2.0A | 256 DDR | 80 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r690] 2002-08-11 | Sony | PCV-RX750 | 1017.49 | Pentium 4 | 2.0A | 256 DDR | 80 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r691] 2002-07-29 | Sony | PCV-RX750 | 1017.49 | Pentium 4 | 2.0A | 256 DDR | 80 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r692] 2002-08-31 | Sony | PCV-RX752 | 1299.99 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.sonystyle.com
+[r693] 2002-08-24 | Sony | PCV-RX752 | 1300 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.sonystyle.com
+[r694] 2002-08-18 | Sony | PCV-RX752 | 1300 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | none |  | www.sonystyle.com
+[r695] 2002-08-11 | Sony | PCV-RX752 | 1549.94 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-RW/CD-RW Combo Drive | 17" Sony A240 |  | CompUSA Stores
+[r696] 2002-07-29 | Sony | PCV-RX752 | 1319.99 | Pentium 4 | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | www.sonystyle.com
+[r697] 2002-08-24 | Sony | PCV-RX753 | 1199.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-RW; CD-ROM | 17" Sony A240 |  | Circuit City Stores
+[r698] 2002-08-18 | Sony | PCV-RX753 | 1199.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-RW; CD-ROM | 17" Sony A240 |  | BestBuy Stores
+[r699] 2002-09-29 | Sony | PCV-RX755 | 1090.92 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r700] 2002-09-22 | Sony | PCV-RX755 | 1149.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | none |  | www.bestbuy.com
+[r701] 2002-09-15 | Sony | PCV-RX755 | 1149.97 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" Sony A240 |  | BestBuy Stores
+[r702] 2002-08-31 | Sony | PCV-RX755 | 1199.99 | Pentium 4 | 2.0A | 512 DDR | 60 | DVD-ROM; CD-RW | 17" Sony A240 |  | Circuit City Stores
+[r703] 2002-08-18 | Sony | PCV-RX755 | 1299.94 | Pentium 4 | 2.0A | 512 DDR | 80 | CD-RW; DVD-ROM | 17" Sony A240 |  | CompUSA Stores
+[r704] 2002-08-11 | Sony | PCV-RX755 | 1119.99 | Pentium 4 | 2.0A | 512 DDR | 80 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r705] 2002-07-29 | Sony | PCV-RX755 | 1299.99 | Pentium 4 | 2.0A | 512 DDR | 60 | CD-RW; DVD-ROM | 17" Sony A240 |  | BestBuy Stores and Circuit City Stores
+[r706] 2002-09-29 | Sony | PCV-RX760 | 1186.92 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r707] 2002-09-22 | Sony | PCV-RX760 | 1249.97 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.bestbuy.com
+[r708] 2002-09-15 | Sony | PCV-RX760 | 1249.97 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | 17" Sony A240 |  | BestBuy Stores
+[r709] 2002-09-07 | Sony | PCV-RX760 | 1299.97 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | 17" Sony A240 |  | BestBuy Stores
+[r710] 2002-08-31 | Sony | PCV-RX760 | 1169.99 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r711] 2002-08-24 | Sony | PCV-RX760 | 1250 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r712] 2002-08-18 | Sony | PCV-RX760 | 1250 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r713] 2002-08-11 | Sony | PCV-RX760 | 1269.99 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r714] 2002-07-29 | Sony | PCV-RX760 | 1269.99 | Pentium 4 | 2.2 | 512 DDR | 120 | CD-RW; DVD-ROM | none |  | www.sonystyle.com
+[r715] 2002-12-23 | Sony | PCV-RX850 | 949.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r716] 2002-12-15 | Sony | PCV-RX850 | 1100 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r717] 2002-12-08 | Sony | PCV-RX850 | 1200 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | Circuit City Stores
+[r718] 2002-12-02 | Sony | PCV-RX850 | 1099 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | BestBuy Stores
+[r719] 2002-11-24 | Sony | PCV-RX850 | 844 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | MicroCenter Stores
+[r720] 2002-11-17 | Sony | PCV-RX850 | 1199.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | Circuit City or Bestbuy Stores
+[r721] 2002-11-10 | Sony | PCV-RX850 | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r722] 2002-11-03 | Sony | PCV-RX850 | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | Circuit City stores
+[r723] 2002-10-27 | Sony | PCV-RX850 | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com or www.circuitcity.com
+[r724] 2002-10-20 | Sony | PCV-RX850 | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com or www.circuitcity.com
+[r725] 2002-10-13 | Sony | PCV-RX850 | 1149.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony HMDA240 | Canon S300 | Circuit City stores
+[r726] 2002-10-06 | Sony | PCV-RX850 | 1149.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | none |  | CompUSA Stores
+[r727] 2002-09-29 | Sony | PCV-RX850 | 1199.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony AMD240 |  | BestBuy Stores
+[r728] 2002-12-15 | Sony | PCV-RX860 | 1400 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony 240 flat screen | Canon S330 | Circuit City Stores
+[r729] 2002-12-08 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.circuitcity.com
+[r730] 2002-12-02 | Sony | PCV-RX860 | 1400 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony A240 | Canon S300 | Circuit City Stores
+[r731] 2002-11-24 | Sony | PCV-RX860 | 979 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | MicroCenter Stores
+[r732] 2002-11-17 | Sony | PCV-RX860 | 1349.97 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony A240 | Canon S330 | BestBuy Stores
+[r733] 2002-11-10 | Sony | PCV-RX860 | 1449.91 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony A240 | HP 3820 | CircuitCity or CompUSA Stores
+[r734] 2002-11-03 | Sony | PCV-RX860 | 1199.99 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.circuitcity.com
+[r735] 2002-10-27 | Sony | PCV-RX860 | 1299.99 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.circuitcity.com
+[r736] 2002-10-20 | Sony | PCV-RX860 | 1349.97 | Pentium 4 | 2.4 | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony A240 | Canon S330 | BestBuy Stores or Circuit City Stores
+[r737] 2002-12-23 | Sony | PCV-RX860 | 1350 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW | 17" Sony  | HP 3820 | CompUSA stores
+[r738] 2002-12-08 | Sony | PCV-RXA842 | 900 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r739] 2002-12-02 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r740] 2002-11-24 | Sony | PCV-RXA842 | 1099 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | Circuit City Stores
+[r741] 2002-11-17 | Sony | PCV-RXA842 | 899.99 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r742] 2002-11-10 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r743] 2002-11-03 | Sony | PCV-RXA842 | 1199.97 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | Canon S300 | BestBuy Stores
+[r744] 2002-10-27 | Sony | PCV-RXA842 | 999.91 | Athlon 2400+ | 2.0A | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Sony A240 | HP 3820 | CompUSA Stores
+[r745] 2002-12-23 | Sony | PCV-RZ14G | 1787 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-ROM |  | Lexmark Z25 | www.pcconnection.com
+[r746] 2002-12-15 | Sony | PCV-RZ14G | 1800 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.circuitcity.com
+[r747] 2002-12-08 | Sony | PCV-RZ14G | 1700 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.circuitcity.com
+[r748] 2002-12-02 | Sony | PCV-RZ14G | 1800 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-ROM | 17" Sony A240 | Canon S300 | Circuit City Stores
+[r749] 2002-11-24 | Sony | PCV-RZ14G | 1429 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | MicroCenter Stores
+[r750] 2002-10-20 | Sony | PCV-RZ14G | 1599 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | None |  | www.bestbuy.com or www.circuitcity.com
+[r751] 2002-10-13 | Sony | PCV-RZ14G | 1699 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | None |  | BestBuy strores
+[r752] 2002-10-06 | Sony | PCV-RZ14G | 1900 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Sony LCD |  | BestBuy strores
+[r753] 2002-09-29 | Sony  | PCV-RX770 | 1450 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r754] 2002-09-22 | Sony  | PCV-RX770 | 1450 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r755] 2002-09-15 | Sony  | PCV-RX770 | 1450 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r756] 2002-09-07 | Sony  | PCV-RX770 | 1649.99 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | 17" Sony A240 |  | BestBuy Stores
+[r757] 2002-08-31 | Sony  | PCV-RX770 | 1474.99 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r758] 2002-08-24 | Sony  | PCV-RX770 | 1450 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r759] 2002-08-18 | Sony  | PCV-RX770 | 1450 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r760] 2002-08-11 | Sony  | PCV-RX770 | 1469 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r761] 2002-07-29 | Sony  | PCV-RX770 | 1469 | Pentium 4 | 2.2 | 512 DDR | 120 | DVD-RW; CD-ROM | none |  | www.sonystyle.com
+[r762] 2002-10-13 | Sony  | PCV-RZ10C | 1300 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW | none |  | www.sonystyle.com
+[r763] 2002-10-06 | Sony  | PCV-RZ10C | 1300 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW | none |  | www.sonystyle.com
+[r764] 2002-10-06 | VPR | Matrix FT6100 | 1489.97 | Pentium 4 | 2.53 | 512 RDRAM | 100 | DVD-ROM; CD-RW | 17" Samsung 171v flat screen |  | BestBuy stores
+[r765] 2002-10-13 | VPR | Matrix FT7100 | 1699.97 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" VPR 1796 | Canon S330 | BestBuy stores
+[r766] 2003-01-04 | eMachines | T2042 | 539.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r767] 2003-01-04 | Gateway | 300S Value | 500 | Celeron | 2.1 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r768] 2003-01-04 | HP | Pavilion 503n | 475 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r769] 2003-01-04 | Compaq | 6310US | 530 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.shopping.hp.com
+[r770] 2003-01-04 | eMachines | T1842 | 440 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r771] 2003-01-04 | HP | Pavilion 513n | 598 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r772] 2003-01-04 | Compaq | 6320US | 751 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r773] 2003-01-04 | Compaq | 6350US | 880 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r774] 2003-01-04 | HP | 523n | 800 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r775] 2003-01-04 | Dell | Dimension 2350 | 903 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r776] 2003-01-04 | Compaq | 6330US | 780 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r777] 2003-01-04 | Gateway | 500L special | 899 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r778] 2003-01-04 | Compaq | 6370US | 1030 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r779] 2003-01-04 | Sony | PCV-RX850 | 950 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r780] 2003-01-04 | HP | 734n | 950 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r781] 2003-01-04 | Dell | Dimension 2350 | 1003 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r782] 2003-01-04 | HP | Pavilion 753n | 1150 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70  | HP 3820 | Staples Stores
+[r783] 2003-01-04 | Dell | Dimension 4550 | 1212 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r784] 2003-01-04 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.sonystyle.com
+[r785] 2003-01-04 | Dell  | Dimension 4550 | 1092 | Pentium 4 | 2.0A | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r786] 2003-01-04 | Dell | Dimension 4550 | 1362 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r787] 2003-01-04 | HP | Pavilion 763n | 1250 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r788] 2003-01-04 | Dell | Dimension 4550 | 1482 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r789] 2003-01-04 | HP | Pavilion 763n | 1600 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 15" HP F50 LCD flat panel | HP 3820 | BestBuy Stores
+[r790] 2003-01-04 | Gateway | 500S Plus    | 1468 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r791] 2003-01-04 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r792] 2003-01-04 | Dell | Dimension 8250 | 2102 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r793] 2003-01-04 | HP | 873n Media Center | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r794] 2003-01-04 | HP | Pavilion 793 | 2049 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | www.hp.com
+[r795] 2003-01-04 | Dell | Dimension 8250 | 2502 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r796] 2003-01-04 | Gateway | 700XL | 3003 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r797] 2003-01-11 | eMachines | T2042 | 539.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r798] 2003-01-11 | Gateway | 300S Value | 500 | Celeron | 2.1 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r799] 2003-01-11 | HP | Pavilion 503n | 475 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r800] 2003-01-11 | Compaq | 6310US | 530 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.shopping.hp.com
+[r801] 2003-01-11 | eMachines | T1842 | 440 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r802] 2003-01-11 | HP | Pavilion 513n | 598 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r803] 2003-01-11 | Compaq | 6320US | 751 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r804] 2003-01-11 | Compaq | 6350US | 880 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r805] 2003-01-11 | HP | 523n | 800 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r806] 2003-01-11 | Dell | Dimension 2350 | 903 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r807] 2003-01-11 | Compaq | 6330US | 780 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r808] 2003-01-11 | Gateway | 500L special | 899 | Pentium 4 | 1.8 | 256 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r809] 2003-01-11 | Compaq | 6370US | 1030 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r810] 2003-01-11 | Sony | PCV-RX850 | 950 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r811] 2003-01-11 | HP | 734n | 950 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r812] 2003-01-11 | Dell | Dimension 2350 | 1003 | Pentium 4 | 1.8 | 256 DDR | 60 | CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r813] 2003-01-11 | HP | Pavilion 753n | 1150 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70  | HP 3820 | Staples Stores
+[r814] 2003-01-11 | Dell | Dimension 4550 | 1212 | Pentium 4 | 2.4 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r815] 2003-01-11 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.sonystyle.com
+[r816] 2003-01-11 | Dell  | Dimension 4550 | 1092 | Pentium 4 | 2.0A | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r817] 2003-01-11 | Dell | Dimension 4550 | 1362 | Pentium 4 | 2.66 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r818] 2003-01-11 | HP | Pavilion 763n | 1250 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r819] 2003-01-11 | Dell | Dimension 4550 | 1482 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r820] 2003-01-11 | HP | Pavilion 763n | 1600 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 15" HP F50 LCD flat panel | HP 3820 | BestBuy Stores
+[r821] 2003-01-11 | Gateway | 500S Plus    | 1468 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r822] 2003-01-11 | Gateway | 700S | 1638 | Pentium 4 | 2.4 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r823] 2003-01-11 | Dell | Dimension 8250 | 2102 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r824] 2003-01-11 | HP | 873n Media Center | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r825] 2003-01-11 | HP | Pavilion 793 | 2049 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3820 | www.hp.com
+[r826] 2003-01-11 | Dell | Dimension 8250 | 2502 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r827] 2003-01-11 | Gateway | 700XL | 3003 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-RAM/-R; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r828] 2003-01-11 | Alienware | Navigator Extreme - Media Center Edition | 2899 | Pentium 4 HT | 3.06 | 1024 DDR | 180 | DVD-RW |  |  | www.alienware.com
+[r829] 2003-01-18 | Compaq  | 6410NX | 589.98 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3820 | BestBuy Stores
+[r830] 2003-01-18 | eMachines | T2042 | 509.98 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S |  | BestBuy Stores
+[r831] 2003-01-18 | Gateway | 300S Value | 449 | Celeron | 2.1 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r832] 2003-01-18 | Compaq | 6400NX | 499.98 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | BestBuy Stores
+[r833] 2003-01-18 | HP | Pavilion 503n | 475 | Celeron | 1.7 | 128 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r834] 2003-01-18 | Compaq | 6310US | 599.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3820 | CircuitCity Stores
+[r835] 2003-01-18 | eMachines | T1842 | 409.98 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S |  | BestBuy Stores
+[r836] 2003-01-18 | Compaq | 6300US | 579.91 | Celeron  | 1.8 | 128 DDR | 40 | CD-ROM | 17" Compaq MV7500 | HP 3420 | CompUSA Stores
+[r837] 2003-01-18 | HP | Pavilion 513n | 598 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r838] 2003-01-18 | eMachines | T2460 | 659.98 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17S |  | BestBuy Stores
+[r839] 2003-01-18 | eMachines | A26EV17F | 679.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-RW; CD-RW | 17" eMachines 17F | Lexmark Z25 | CircuitCity Stores
+[r840] 2003-01-18 | HP | 523n | 750 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r841] 2003-01-18 | VPR Matrix | 3110 | 899.98 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" VPR Matrix 1796 |  | BestBuy Stores
+[r842] 2003-01-18 | Compaq | 6350US | 850 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r843] 2003-01-18 | HP | 734n | 800 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r844] 2003-01-18 |  |  |  |  |  |  |  |  |  |  | 
+[r845] 2003-01-18 | HP | 533N | 799.98 | Pentium 4 | 2.0A | 256 DDR | 40 | DVD-ROM; CD-RW | 17" HP MX70  |  | Staples Stores
+[r846] 2003-01-18 | Dell | Dimension 2350 | 829 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r847] 2003-01-18 | Compaq | 6330US | 899.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | CircuitCity Stores
+[r848] 2003-01-18 | Compaq | 6320US | 779.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3820 | CircuitCity Stores
+[r849] 2003-01-18 | Gateway | 500S Plus    | 839 | Pentium 4 | 2 | 256 DDR | 60 | CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r850] 2003-01-18 | Sony | PCV-RX850 | 950 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r851] 2003-01-18 | Dell  | Dimension 4550 | 909 | Pentium 4 | 2.0A | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r852] 2003-01-18 | Dell | Dimension 2350 | 979 | Pentium 4 | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r853] 2003-01-18 | Dell | Dimension 4550 | 1069 | Pentium 4 | 2.4 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r854] 2003-01-18 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.sonystyle.com
+[r855] 2003-01-18 | Dell | Dimension 4550 | 1368 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r856] 2003-01-18 | Compaq | 6370US | 1299.91 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP PSC750 | CompUSA Stores
+[r857] 2003-01-18 | HP | Pavilion 753n | 1229.91 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75  | HP 3420 | CompUSA Stores
+[r858] 2003-01-18 | Sony | PCVRX860 | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RW; CD-RW | 17" Sony A240R | Canon S330 | CircuitCity Stores
+[r859] 2003-01-18 | Dell | Dimension 4550 | 1488 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r860] 2003-01-18 | HP | Pavilion 763n | 1479.91 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 | HP 3420 | CompUSA Stores
+[r861] 2003-01-18 | Gateway | 500X | 1559 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 19" Gateway VX930 |  | www.gateway.com
+[r862] 2003-01-18 | Dell | Dimension 8250 | 1948 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 17" Dell M782 flat screen |  | www.dell.com
+[r863] 2003-01-18 | Gateway | 700X | 2019 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r864] 2003-01-18 | HP | 873n Media Center | 1650 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r865] 2003-01-18 | Dell | Dimension 8250 | 2309 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r866] 2003-01-18 | HP | Pavilion 793 | 1899 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r867] 2003-01-18 | Gateway | 700X | 2609 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r868] 2003-01-18 | Alienware | customized | 3111.05 | Pentium 4 HT | 3.06 | 1066 DDR | 180 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r869] 2003-01-25 | Compaq  | 6410NX | 589.98 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r870] 2003-01-25 | eMachines | T2042 | 539.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r871] 2003-01-25 | Gateway | 300S Value | 503 | Celeron | 2.1 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r872] 2003-01-25 | Compaq | 6310US | 449 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r873] 2003-01-25 | eMachines | T1842 | 439.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r874] 2003-01-25 | Compaq | 6300US | 449.98 | Celeron  | 1.8 | 128 DDR | 40 | CD-ROM |  |  | www.compusa.com
+[r875] 2003-01-25 | HP | Pavilion 513n | 598 | Celeron | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r876] 2003-01-25 | HP | 514n | 619.96 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW | 17" HP MX70  | HP 3820 | Staples Stores
+[r877] 2003-01-25 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r878] 2003-01-25 | Dell | Dimension 2350 | 729 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r879] 2003-01-25 | Compaq | 6320US | 729.98 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r880] 2003-01-25 | Compaq | 6400NX | 629.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCIty Stores
+[r881] 2003-01-25 | HP | Pavilion 503n | 679.91 | Celeron | 1.7 | 128 DDR | 40 | CD-RW | 17" HP MX70  | HP 3420 | CompUSA Stores
+[r882] 2003-01-25 | HP | 734n | 800 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r883] 2003-01-25 | eMachines | T2260 | 779.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | CircuitCity Stores
+[r884] 2003-01-25 | Dell | Dimension 2350 | 830 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r885] 2003-01-25 | Compaq | 6330US | 829.91 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3420 | CompUSA Stores
+[r886] 2003-01-25 | Dell  | Dimension 4550 | 869 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r887] 2003-01-25 | VPR Matrix | FT3110 | 1000 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r888] 2003-01-25 | HP | 700 Series | 974 | Pentium 4 | 2.53 | 256 DDR | 80 | CD-RW |  |  | Office Depot Stores
+[r889] 2003-01-25 | Compaq | 6430US | 929.91 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | CompUSA Stores
+[r890] 2003-01-25 | Compaq | 6350US | 979.91 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3420 | CompUSA Stores
+[r891] 2003-01-25 | Sony | PCV-RX850 | 950 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r892] 2003-01-25 | Compaq | 6370US | 1129.91 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3420 | CompUSA Stores
+[r893] 2003-01-25 | Dell | Dimension 4550 | 1009 | Pentium 4 | 2.4 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r894] 2003-01-25 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.sonystyle.com
+[r895] 2003-01-25 | HP | 523n | 1079.91 | Athlon 2200+ | 1.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP LCD F50 | HP 3420 | CompUSA Stores
+[r896] 2003-01-25 | Gateway | 500S Plus    | 1103 | Pentium 4 | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r897] 2003-01-25 | VPR Matrix | FT5110-PE | 1399.97 | Pentium 4 | 2.8 | 512 DDR | 100 | DVD-ROM; CD-RW | 15" Samsung LCD 151v | Canon S330 | BestBuy Stores
+[r898] 2003-01-25 | Dell | Dimension 4550 | 1289 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r899] 2003-01-25 | HP | 700 Series | 1344 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | Office Depot Stores
+[r900] 2003-01-25 | HP | Pavilion 763n | 1379.91 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM | 17" HP MX75 | HP 3420 | CompUSA Stores
+[r901] 2003-01-25 | HP | Pavilion 753n | 1229.91 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75  | HP 3420 | CircuitCity Stores
+[r902] 2003-01-25 | Dell | Dimension 4550 | 1409 | Pentium 4 | 2.8 | 512 DDR 333MHz | 80 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r903] 2003-01-25 | Dell | Dimension 8250 | 1929 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 19" Dell M992 |  | www.dell.com
+[r904] 2003-01-25 | Gateway | 700X | 2093 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r905] 2003-01-25 | Gateway | 500X | 1663 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 19" Gateway VX930 |  | www.gateway.com
+[r906] 2003-01-25 | HP | 873n Media Center | 1649 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r907] 2003-01-25 | Dell | Dimension 8250 | 2369 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r908] 2003-01-25 | HP | Pavilion 793 | 1899 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r909] 2003-01-25 | Gateway | 700X | 2733 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r910] 2003-01-25 | Alienware | customized Area 51 | 3111.05 | Pentium 4 HT | 3.06 | 1066 DDR | 180 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r911] 2003-02-01 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com orwww.bestbuy.com
+[r912] 2003-02-01 | Compaq | 6400NX | 470.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW |  |  | www.compusa.com
+[r913] 2003-02-01 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.circuitcity.com or www.bestbuy.com
+[r914] 2003-02-01 | eMachines | T2042 | 539.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r915] 2003-02-01 | Gateway | 300S Value | 503 | Celeron | 2.1 | 128 DDR | 40 | CD-RW |  |  | www.gateway.com
+[r916] 2003-02-01 | HP | Pavilion 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r917] 2003-02-01 | eMachines | T1842 | 439.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r918] 2003-02-01 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r919] 2003-02-01 | Compaq | 6420NX | 640.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r920] 2003-02-01 | Compaq  | 6410NX | 719.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCIty Stores
+[r921] 2003-02-01 | eMachines | T2085 | 619.99 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r922] 2003-02-01 | Compaq | 6320US | 750.99 | Athlon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r923] 2003-02-01 | Compaq | 6430US | 820.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r924] 2003-02-01 | HP | 734n | 899.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | HP 17" MX75 | HP 3820 | BestBuy Stores
+[r925] 2003-02-01 | Compaq | 63330M | 899.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq flat screen |  | Office Max Stores
+[r926] 2003-02-01 | Dell | Dimension 2350 | 898 | Pentium 4 | 2.0A | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r927] 2003-02-01 | Compaq | 6330US | 770.99 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r928] 2003-02-01 | VPR Matrix | FT3110 | 1000 | Pentium 4 | 2.66 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r929] 2003-02-01 | Compaq | 6350US | 920.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r930] 2003-02-01 | Sony | PCV-RX850 | 950 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r931] 2003-02-01 | Dell  | Dimension 4550 | 1048 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r932] 2003-02-01 | VPR Matrix | FT5110-PE | 1199.99 | Pentium 4 | 2.8 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r933] 2003-02-01 | HP | 774Y series | 1099.99 | Pentium 4 | 2.66 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" HP V70s | HP 3425 | BestBuy Stores
+[r934] 2003-02-01 | Compaq | 6370US | 1070.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.compusa.com
+[r935] 2003-02-01 | Dell | Dimension 4550 | 1208 | Pentium 4 | 2.4 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r936] 2003-02-01 | Sony | PCV-RX860 | 1100 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com or www.sonystyle.com
+[r937] 2003-02-01 | Gateway | 500S Plus    | 1104 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r938] 2003-02-01 | Dell | Dimension 2350 | 1108 | Pentium 4 | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r939] 2003-02-01 | Dell | Dimension 4550 | 1388 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r940] 2003-02-01 | HP | Pavilion 763n | 1249.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r941] 2003-02-01 | Dell | Dimension 4550 | 1608 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r942] 2003-02-01 | Dell | Dimension 8250 | 2218 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r943] 2003-02-01 | Gateway | 700X | 2004 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r944] 2003-02-01 | Gateway | 500X | 1544 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 19" Gateway VX930 |  | www.gateway.com
+[r945] 2003-02-01 | Sony | PCV-RZ14G | 1899.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-RW | 15" Sony LCD monitor | HP 3820 | BestBuy Stores
+[r946] 2003-02-01 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com or www.circuitcity.com
+[r947] 2003-02-01 | Dell | Dimension 8250 | 2518 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r948] 2003-02-01 | HP | Pavilion 793 | 1899 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r949] 2003-02-01 | vpr Matrix | FT9100 | 1899.99 | Pentium 4 HT | 3.06 | 512 DDR | 100 | DVD-RW; CD-RW |  |  | www.bestbuy.com
+[r950] 2003-02-01 | Gateway | 700X | 2454 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r951] 2003-02-01 | Alienware | customized | 3111.05 | Pentium 4 HT | 3.06 | 1066 DDR | 180 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r952] 2003-02-22 | Compaq | 6400NX | 479.91 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | CompUSA Stores
+[r953] 2003-02-22 | eMachines | T2042 | 489.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r954] 2003-02-22 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r955] 2003-02-22 | eMachines | T1842 | 389.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17s | Lexmark Z25 | BestBuy Stores
+[r956] 2003-02-22 | eMachines | T2460 | 679.97 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | BestBuy Stores
+[r957] 2003-02-22 | eMachines | T2260 | 749.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Proview Monitor | Lexmark Z25 | CircuitCity Stores
+[r958] 2003-02-22 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r959] 2003-02-22 | Compaq  | 6410NX | 619.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r960] 2003-02-22 | HP | 514xb | 699.99 | Pentium 4 | 2 | 256 SDRAM | 40 | DVD-ROM; CD-RW | 17" HP MX70 |  | Office Max Stores
+[r961] 2003-02-22 | eMachines | T2085 | 619.99 | Athlon 2000+ | 1.67 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r962] 2003-02-22 | HP | Pavilion 504n | 699.91 | Celeron | 2 | 256 DDR | 40 | CD-RW | HP 17" MX70 | HP 3420 | CompUSA Stores
+[r963] 2003-02-22 | Compaq | 6430US | 879.91 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3420 | CompUSA Stores
+[r964] 2003-02-22 | Dell | Dimension 2350 | 887 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r965] 2003-02-22 | Sony | PCV-RS100 | 799.99 | Penitum 4 | 2.0A | 256 DDR | 60 | DVD-RW; CD-RW |  |  | www.bestbuy.com
+[r966] 2003-02-22 | HP | 734n | 1029.91 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP F50 LSD | HP 3420 | CompUSA Stores
+[r967] 2003-02-22 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r968] 2003-02-22 | Sony | PCV-RX860 | 1099.99 | Pentium 4 | 2.4 B | 512 DDR | 80 | CD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r969] 2003-02-22 | Sony | PCV-RX850 | 1049.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r970] 2003-02-22 | HP | 774Y series | 1149.99 | Penitum 4 | 2.8 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70 | HP 3425 | BestBuy Stores
+[r971] 2003-02-22 | Gateway | 500S  | 1224 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r972] 2003-02-22 | Dell | Dimension 4550 | 1097 | Pentium 4 | 2.4 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r973] 2003-02-22 | Dell | Dimension 4550 | 1287 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r974] 2003-02-22 | HP | 754n | 1299.97 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r975] 2003-02-22 | HP | Pavilion 763n | 1249.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.bestbuy.com
+[r976] 2003-02-22 | HP | 753n | 1399.91 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP F50 LCD | HP PSC 750 | CompUSA Stores
+[r977] 2003-02-22 | Sony | PCV-RZ22G | 1449.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r978] 2003-02-22 | Dell | Dimension 4550 | 1467 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r979] 2003-02-22 | Gateway | 500X | 1434 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r980] 2003-02-22 | Sony | PCV-RZ14G | 1599.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-RW |  |  | www.sonystyle.com
+[r981] 2003-02-22 | Dell | Dimension 8250 | 2167 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r982] 2003-02-22 | Sony | PCV-RZ24G | 1849.97 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony SDM-S51 flat panel | HP 3820 | BestBuy Stores
+[r983] 2003-02-22 | Sony | PCV-RZ16G | 1799.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r984] 2003-02-22 | Gateway | 700X | 1754 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r985] 2003-02-22 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r986] 2003-02-22 | Gateway | 700X | 2344 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r987] 2003-02-22 | Dell | Dimension 8250 | 2367 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r988] 2003-02-22 | HP | Pavilion 700 series | 1854.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r989] 2003-02-22 | vpr Matrix | FT9100 | 1799.99 | Pentium 4 HT | 3.06 | 512 DDR | 100 | DVD-RW; CD-RW |  |  | www.bestbuy.com
+[r990] 2003-02-22 | Sony | PCV-RZ26G | 2679.91 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW | 15" Sony SDM-S51 flat panel | HP 3420 | CompUSA Stores
+[r991] 2003-02-22 | Alienware | Area 51 series | 2880.05 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r992] 2003-03-02 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r993] 2003-03-02 | Compaq | 6400NX | 529.97 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r994] 2003-03-02 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r995] 2003-03-02 | eMachines | T1842 | 519.99 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" Proview Monitor | Lexmark Z25 | CircuitCity Stores
+[r996] 2003-03-02 | HP | Pavilion 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r997] 2003-03-02 | eMachines | T2460 | 689.97 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r998] 2003-03-02 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r999] 2003-03-02 | Compaq  | 6410NX | 609.97 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1000] 2003-03-02 | eMachines | T2042 | 679.99 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" Flat Screen | Lexmark Z25 | CircuitCity Stores
+[r1001] 2003-03-02 | Compaq | 6420NX | 799.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r1002] 2003-03-02 | Dell | Dimension 2350 | 928 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1003] 2003-03-02 | eMachines | T4510 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1004] 2003-03-02 | Compaq | 6433us-b | 999.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | CD-RW | 17" Compaq Flat Screen |  | Office Max Stores
+[r1005] 2003-03-02 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1006] 2003-03-02 | Sony | PCV-RX850 | 1049.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1007] 2003-03-02 | Dell | Dimension 4550 | 1049 | Pentium 4 | 2.4 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1008] 2003-03-02 | Sony | PCV-RS100 | 929.99 | Penitum 4 | 2.0A | 256 DDR | 60 | DVD-RW; CD-RW | 17" Sony A240R | Canon S330 | CircuitCity Stores
+[r1009] 2003-03-02 | Dell | Dimension 4550 | 1129 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1010] 2003-03-02 | HP | 754n | 1129 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 17" HP MX75 | HP 3420 | CircuitCity Stores
+[r1011] 2003-03-02 | Compaq | 6430US | 1149.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 | HP 3820 | BestBuy Stores
+[r1012] 2003-03-02 | HP | 774Y series | 1249.99 | Penitum 4 | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70 | HP 3425 | BestBuy Stores
+[r1013] 2003-03-02 | Dell | Dimension 4550 | 1320 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1014] 2003-03-02 | Compaq | 6450NX | 1249.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 | HP 3820 | BestBuy Stores
+[r1015] 2003-03-02 | HP | Pavilion 763n | 1249.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-ROM |  |  | www.compusa.com
+[r1016] 2003-03-02 | Gateway | 500S  | 1269 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1017] 2003-03-02 | Gateway | 500X | 1499 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1018] 2003-03-02 | Sony | PCV-RZ14G | 1599.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-RW |  |  | www.sonystyle.com
+[r1019] 2003-03-02 | Dell | Dimension 8250 | 2059 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1020] 2003-03-02 | Sony | PCV-RZ24G | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1021] 2003-03-02 | Sony | PCV-RZ16G | 1799.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1022] 2003-03-02 | Gateway | 700X | 1749.01 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1023] 2003-03-02 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1024] 2003-03-02 | Sony | PCV-RZ22G | 1649.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony SDM-S51 flat panel | HP 3820 | BestBuy Stores
+[r1025] 2003-03-02 | Gateway | 700X | 2419.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1026] 2003-03-02 | Dell | Dimension 8250 | 2299 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1027] 2003-03-02 | Dell | Dimension 4550 | 1967 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1028] 2003-03-02 | HP | Pavilion 700 series | 1854.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1029] 2003-03-02 | vpr Matrix | FT9100 | 1799.99 | Pentium 4 HT | 3.06 | 512 DDR | 100 | DVD-RW; CD-RW |  |  | www.bestbuy.com
+[r1030] 2003-03-02 | Sony | PCV-RZ26G | 2099.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1031] 2003-03-02 | Alienware | Area 51 series | 2886.05 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1032] 2003-03-03 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1033] 2003-03-03 | Compaq  | 6410NX | 589.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1034] 2003-03-03 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1035] 2003-03-03 | eMachines | T2042 | 539.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17F | Lexmark Z25 | BestBuy Stores
+[r1036] 2003-03-03 | eMachines | T1842 | 439.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" Proview Monitor | Lexmark Z25 | BestBuy Stores
+[r1037] 2003-03-03 | HP | Pavilion 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r1038] 2003-03-03 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | www.bestbuy.com
+[r1039] 2003-03-03 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1040] 2003-03-03 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1041] 2003-03-03 | Compaq | 6400NX | 629.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r1042] 2003-03-03 | Sony | PCV-RX850 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1043] 2003-03-03 | Sony | PCV-RS100 | 799.99 | Penitum 4 | 2.0A | 256 DDR | 60 | DVD-RW; CD-RW |  |  | www.circuitcity.com
+[r1044] 2003-03-03 | Compaq | 6450NX | 949.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1045] 2003-03-03 | eMachines | T4510 | 999.97 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1046] 2003-03-03 | eMachines | T4480 | 999.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eView | Lexmark Z25 | CircuitCity Stores
+[r1047] 2003-03-03 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1048] 2003-03-03 | Dell | Dimension 2350 | 928 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell M992 |  | www.dell.com
+[r1049] 2003-03-03 | HP | 544n-b | 999.99 | Celeron | 2 | 256 DDR | 40 | CD-RW; DVD-ROM | 15" LCD |  | Radio Shack stores
+[r1050] 2003-03-03 | Compaq | 6430US | 1149.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 LCD | HP 3820 | BestBuy Stores
+[r1051] 2003-03-03 | Sony | PCV-RZ14G | 1199.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW; CD-RW |  |  | www.sonystyle.com
+[r1052] 2003-03-03 | Dell | Dimension 4550 | 1199.7 | Pentium 4 | 2.4 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1053] 2003-03-03 | Dell | Dimension 4550 | 1407 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1054] 2003-03-03 | Dell | Dimension 4550 | 1292.7 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1055] 2003-03-03 | HP | 754n | 1349.97 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 15" HP F50 LCD | HP 3420 | CircuitCity Stores
+[r1056] 2003-03-03 | Sony | PCV-RX860 | 1329.91 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+RW; CD-RW | 15" Samsung LCD | HP 3420 | CompUSA stores
+[r1057] 2003-03-03 | Gateway | 500S  | 1254 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1058] 2003-03-03 | Gateway | 500X | 1484 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1059] 2003-03-03 | Dell | Dimension 8250 | 1937 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1060] 2003-03-03 | Sony | PCV-RZ24G | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1061] 2003-03-03 | Sony | PCV-RZ16G | 1649.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1062] 2003-03-03 | Gateway | 700X | 1784.01 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1063] 2003-03-03 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1064] 2003-03-03 | Sony | PCV-RZ22G | 1799.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony X52 flat panel | HP 3820 | CircuitCity Stores
+[r1065] 2003-03-03 | Gateway | 700X | 2404.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1066] 2003-03-03 | Dell | Dimension 8250 | 2137 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1067] 2003-03-03 | Dell | Dimension 4550 | 1837 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1068] 2003-03-03 | HP | Pavilion 700 series | 2000 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1069] 2003-03-03 | Sony | PCV-RZ26G | 2099.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1070] 2003-03-03 | Alienware | Area 51 series | 3201 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1071] 2003-03-10 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1072] 2003-03-10 | Compaq  | 6410NX | 569.97 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1073] 2003-03-10 | Compaq | 6400NX | 479.97 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1074] 2003-03-10 | eMachines | T1842 | 389.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1075] 2003-03-10 | eMachines | T2042 | 489.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1076] 2003-03-10 | HP | Pavilion 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r1077] 2003-03-10 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1078] 2003-03-10 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1079] 2003-03-10 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1080] 2003-03-10 | HP | 514n | 679.97 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW | HP 17" MX70 | HP 3420 | CircuitCity Stores
+[r1081] 2003-03-10 | Compaq | 6430US | 849.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1082] 2003-03-10 | eMachines | T4510 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1083] 2003-03-10 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1084] 2003-03-10 | Dell | Dimension 2350 | 809 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1085] 2003-03-10 | Compaq | 6470NX | 1049.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1086] 2003-03-10 | Dell | Dimension 4550 | 1119 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1087] 2003-03-10 | Dell | Dimension 4550 | 1019 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1088] 2003-03-10 | Sony | PCV-RX860 | 1049.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.compusa.com
+[r1089] 2003-03-10 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1090] 2003-03-10 | Compaq | 6450NX | 1199.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 LCD | HP 3820 | BestBuy Stores
+[r1091] 2003-03-10 | HP | 754n | 1099.97 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 17" HP MX75 | HP 3820 | BestBuy Stores
+[r1092] 2003-03-10 | Sony | PCV-RS100 | 1149.97 | Penitum 4 | 2.0A | 256 DDR | 60 | DVD-RW; CD-RW | 15" Sony X52 flat panel | Canon S330 | CircuitCity Stores
+[r1093] 2003-03-10 | Compaq | 6000T series | 1369.99 | Pentium 4 HT | 3.06 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7500 | HP 3820 | BestBuy Stores
+[r1094] 2003-03-10 | Dell | Dimension 4550 | 1329 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1095] 2003-03-10 | Gateway | 500S  | 1270 | Pentium 4 | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1096] 2003-03-10 | Gateway | 500X | 1500 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1097] 2003-03-10 | Sony | PCV-RZ22G | 1599.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony SDM-S51 | HP 3820 | BestBuy Stores
+[r1098] 2003-03-10 | Dell | Dimension 8250 | 2009 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1099] 2003-03-10 | Sony | PCV-RZ24G | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1100] 2003-03-10 | Sony | PCV-RZ16G | 1649.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1101] 2003-03-10 | Gateway | 700X | 1770 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1102] 2003-03-10 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1103] 2003-03-10 | Gateway | 700X | 2390 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1104] 2003-03-10 | Dell | Dimension 8250 | 2249 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1105] 2003-03-10 | Dell | Dimension 4550 | 1849 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1106] 2003-03-10 | HP | Pavilion 700 series | 1938.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1107] 2003-03-10 | Sony | PCV-RZ26G | 2299 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1108] 2003-03-10 | Alienware | Area 51 series | 3201 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1109] 2003-03-10 | VPR Matrix | FT9100 | 1899.99 | Pentium 4 HT | 3.06 | 512 DDR | 100 | DVD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1110] 2003-03-16 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1111] 2003-03-16 | Compaq  | 6410NX | 589.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1112] 2003-03-16 | Compaq | 6400NX | 599.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r1113] 2003-03-16 | eMachines | T1842 | 389.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1114] 2003-03-16 | eMachines | T2042 | 489.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1115] 2003-03-16 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1116] 2003-03-16 | HP | Pavilion 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r1117] 2003-03-16 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1118] 2003-03-16 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1119] 2003-03-16 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | C17" Compaq MV7500 |  | CompUSA stores
+[r1120] 2003-03-16 | Dell | Dimension 4550 | 888 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1121] 2003-03-16 | Dell | Dimension 4550 | 818 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1122] 2003-03-16 | Compaq | 6430US | 849.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1123] 2003-03-16 | eMachines | T4510 | 849.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1124] 2003-03-16 | Compaq | 6473SA | 899.98 | Pentium 4 | 2.4 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Compaq FS7550 |  | Staples stores
+[r1125] 2003-03-16 |  |  |  |  |  |  |  |  |  |  | 
+[r1126] 2003-03-16 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1127] 2003-03-16 | Dell | Dimension 2350 | 758 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r1128] 2003-03-16 | Sony | PCV-RS100 | 799.99 | Penitum 4 | 2.0A | 256 DDR | 60 | DVD-RW; CD-RW |  |  | www.circuitcity.com
+[r1129] 2003-03-16 | HP | 754n | 1049.94 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 17" HP MX75 | HP 3820 | CompUSA stores
+[r1130] 2003-03-16 | Compaq | 6470NX | 1049.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1131] 2003-03-16 | Compaq | 6450NX | 949.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1132] 2003-03-16 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1133] 2003-03-16 | Sony | PCV-RX860 | 1049.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.compusa.com
+[r1134] 2003-03-16 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.sonystyle.com
+[r1135] 2003-03-16 |  |  |  |  |  |  |  |  |  |  | 
+[r1136] 2003-03-16 | Gateway | 500S  | 1199 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1137] 2003-03-16 | Dell | Dimension 4550 | 1298 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1138] 2003-03-16 | Gateway | 500X | 1479 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1139] 2003-03-16 | Sony | PCV-RZ22G | 1449.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1140] 2003-03-16 | Dell | Dimension 8250 | 1748 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1141] 2003-03-16 | Sony | PCV-RZ24G | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1142] 2003-03-16 | Sony | PCV-RZ16G | 1649.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1143] 2003-03-16 | Gateway | 700X | 1729.01 | Pentium 4 | 2.66 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1144] 2003-03-16 | HP | 873n Media Center | 1649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 15" HP F50 LCD |  | CompUSA stores
+[r1145] 2003-03-16 | Gateway | 700X | 2419.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1146] 2003-03-16 | Dell | Dimension 8250 | 2008 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1147] 2003-03-16 | Dell | Dimension 4550 | 1818 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1148] 2003-03-16 | HP | Pavilion 700 series | 1928.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1149] 2003-03-16 | Sony | PCV-RZ26G | 2299.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1150] 2003-03-16 | Alienware | Area 51 series | 2648 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1151] 2003-03-23 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1152] 2003-03-23 | Compaq  | 6410NX | 589.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1153] 2003-03-23 | Compaq | 6400NX | 529.99 | Athlon 1800+ | 1.53 | 128 DDR | 40 | CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r1154] 2003-03-23 | eMachines | T1842 | 399.97 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1155] 2003-03-23 | eMachines | T2042 | 489.97 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1156] 2003-03-23 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1157] 2003-03-23 | HP | 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r1158] 2003-03-23 | Compaq | 6450NX | 749.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | CompUSA stores
+[r1159] 2003-03-23 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1160] 2003-03-23 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1161] 2003-03-23 | Compaq | 6420NX | 619.97 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | C17" Compaq MV7500 |  | www.compusa.com
+[r1162] 2003-03-23 | Compaq | 6430NX | 849.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hp.com
+[r1163] 2003-03-23 | eMachines | T4510 | 849.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1164] 2003-03-23 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1165] 2003-03-23 | Dell | Dimension 2350 | 779 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r1166] 2003-03-23 | Compaq | 6470NX | 1049.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com & www.compusa.com
+[r1167] 2003-03-23 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.sonystyle.com
+[r1168] 2003-03-23 | HP | 754n | 999.97 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.compusa.com
+[r1169] 2003-03-23 | Dell | Dimension 4550 | 1048 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1170] 2003-03-23 | Sony | PCV-RX860 | 1049.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.compusa.com
+[r1171] 2003-03-23 | Sony | PCV-RXA842 | 929.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.pcconnection.com
+[r1172] 2003-03-23 | HP | 764n | 1199.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1173] 2003-03-23 | Dell | Dimension 4550 | 1148 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1174] 2003-03-23 | HP | 754n | 1099.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R |  |  | www.hpshopping.com
+[r1175] 2003-03-23 | Gateway | 500S  | 1199 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1176] 2003-03-23 | Dell | Dimension 4550 | 1378 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1177] 2003-03-23 | HP | 854n Media Center | 1399.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.compusa.com
+[r1178] 2003-03-23 | Gateway | 500X | 1479 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1179] 2003-03-23 | Dell | Dimension 8250 | 1788 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1180] 2003-03-23 | HP | 864n Media Center | 2149.97 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3820 | Best Buy stores
+[r1181] 2003-03-23 | Sony | PCV-RZ24G | 1949.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony X52 LCD | Canon S330 | BestBuy Stores
+[r1182] 2003-03-23 | Sony | PCV-RZ16G | 1649.99 | Pentium 4 | 2.66 | 1 GB DDR | 120 | DVD-RW; CD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1183] 2003-03-23 | Gateway | 700X | 1889.01 | Pentium 4 | 2.66 | 512 RDRAM | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1184] 2003-03-23 | Sony | PCV-RZ22G | 1729.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony S51 LCD | Canon S330 | BestBuy Stores
+[r1185] 2003-03-23 | Gateway | 700X | 2459.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1186] 2003-03-23 | Dell | Dimension 8250 | 2048 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1187] 2003-03-23 | Dell | Dimension 4550 | 1898 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1188] 2003-03-23 | HP | Pavilion 700 series | 1928.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1189] 2003-03-23 | Sony | PCV-RZ26G | 2299.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1190] 2003-03-23 | Alienware | Area 51 hybrid | 2176 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM |  |  | www.alienware.com
+[r1191] 2003-03-30 | eMachines | T2260 | 549.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1192] 2003-03-30 | Compaq  | 6410NX | 589.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1193] 2003-03-30 | eMachines | T1842 | 399.99 | Celeron | 1.8 | 128 DDR | 40 | CD-ROM |  |  | www.bestbuy.com
+[r1194] 2003-03-30 | eMachines | T2042 | 499.99 | Celeron | 2 | 128 DDR | 40 | CD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1195] 2003-03-30 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1196] 2003-03-30 | Gateway | 300S | 599.99 | Celeron  | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1197] 2003-03-30 | HP | 504n | 519.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1198] 2003-03-30 | Compaq | s3200NX | 699.97 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1199] 2003-03-30 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1200] 2003-03-30 | eMachines | T2460 | 649.99 | Athlon 2400+ | 2 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1201] 2003-03-30 | Compaq | s3100NX | 619.97 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1202] 2003-03-30 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1203] 2003-03-30 | Compaq | 6430NX | 849.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1204] 2003-03-30 | eMachines | T4510 | 849.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1205] 2003-03-30 | Dell | Dimension 2350 | 808 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1206] 2003-03-30 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.sonystyle.com
+[r1207] 2003-03-30 | HP | 754n | 999.98 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.compusa.com
+[r1208] 2003-03-30 | Dell | Dimension 4550 | 998 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1209] 2003-03-30 | Compaq | 6454NX | 919.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1210] 2003-03-30 | HP | 775e | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM | 15" HP F50 LCD | HP 3425 | BestBuy Stores
+[r1211] 2003-03-30 | eMachines | T4480 | 999.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F |  | CircuitCity Stores
+[r1212] 2003-03-30 | Sony | PCV-RXA842 | 929.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.pcconnection.com
+[r1213] 2003-03-30 | HP | 764n | 1199.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1214] 2003-03-30 | Dell | Dimension 4550 | 1098 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1215] 2003-03-30 | HP | 754n | 1099.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R |  |  | www.bestbuy.com
+[r1216] 2003-03-30 | Compaq | 6450NX | 1199.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP017 | HP 3820 | BestBuy Stores
+[r1217] 2003-03-30 | Gateway | 500S  | 1199 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1218] 2003-03-30 | Dell | Dimension 4550 | 1338 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1219] 2003-03-30 | Compaq | 6470NX | 1399.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP017 |  | CircuitCity Stores
+[r1220] 2003-03-30 | Sony | PCV-RZ22G | 1449.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1221] 2003-03-30 | Gateway | 500X | 1479 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1222] 2003-03-30 | Dell | Dimension 8250 | 1808 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1223] 2003-03-30 | HP | 864n Media Center | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1224] 2003-03-30 | Sony | PCV-RZ24G | 2049.97 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW | 17" Sony S71 LCD | Canon S330 | BestBuy Stores
+[r1225] 2003-03-30 | Gateway | 700X | 1859.01 | Pentium 4 | 2.66 | 512 RDRAM | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1226] 2003-03-30 | HP | 854n Media Center | 1699.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1227] 2003-03-30 | Gateway | 700X | 2389.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1228] 2003-03-30 | Sony | PCV-RZ26G | 2299.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1229] 2003-03-30 | Dell | Dimension 8250 | 1848 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1230] 2003-03-30 | Dell | Dimension 4550 | 1658 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1231] 2003-03-30 | HP | Pavilion 700 series | 1784 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1232] 2003-03-30 | Alienware | Area 51 hybrid | 2818 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1233] 2003-04-06 | Compaq | S3100NX | 539.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1234] 2003-04-06 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1235] 2003-04-06 | Compaq  | 6410NX | 539.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1236] 2003-04-06 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1237] 2003-04-06 | HP | 505N | 539.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.circuitcity.com
+[r1238] 2003-04-06 | eMachines | T2245 | 539.97 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1239] 2003-04-06 | Gateway | 300S | 599.99 | Celeron  | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1240] 2003-04-06 | eMachines | T2240 | 419.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" Proview Pro735 | Lexmark Z25 | CircuitCity Stores
+[r1241] 2003-04-06 | HP | 504n | 497.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1242] 2003-04-06 | HP | 725N | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1243] 2003-04-06 | Compaq | S3200NX | 619.99 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1244] 2003-04-06 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1245] 2003-04-06 | Compaq | 6420NX | 669.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1246] 2003-04-06 | eMachines | T2385 | 639.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1247] 2003-04-06 | Compaq | 6430NX | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1248] 2003-04-06 | Compaq | 6450NX | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1249] 2003-04-06 | eMachines | T4510 | 849.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1250] 2003-04-06 | Sony | PCV RS210 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1251] 2003-04-06 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1252] 2003-04-06 | Dell | Dimension 2350 | 789 | Pentium 4 | 2.0A | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r1253] 2003-04-06 | Compaq | 6470NX | 1049.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1254] 2003-04-06 | Compaq | s3300nx | 949.91 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" FS7550 | HP 3420 | CompUSA stores
+[r1255] 2003-04-06 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.sonystyle.com
+[r1256] 2003-04-06 | HP | 754n | 999.99 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.circuitcity.com
+[r1257] 2003-04-06 | Compaq | 6454NX | 919.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1258] 2003-04-06 | Sony | PCV-RXA842 | 949.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.pcconnection.com
+[r1259] 2003-04-06 | Dell | Dimension 4550 | 1209 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1260] 2003-04-06 | Dell | Dimension 4550 | 1109 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1261] 2003-04-06 | Gateway | 500S  | 1199 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1262] 2003-04-06 | Sony | PCV RX950 | 1379.99 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Sony HS53 LCD | HP 3820 | BestBuy Stores
+[r1263] 2003-04-06 | HP | 764n | 1229.98 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1264] 2003-04-06 | HP | 854n Media Center | 1399.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1265] 2003-04-06 | Sony | PCV-RZ22G | 1299.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1266] 2003-04-06 | Dell | Dimension 4550 | 1449 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1267] 2003-04-06 | Sony | PCV-RZ24G | 1549.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1268] 2003-04-06 | Gateway | 500X | 1479 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1269] 2003-04-06 | Dell | Dimension 8250 | 1929 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1270] 2003-04-06 | HP | 864n Media Center | 1699.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1271] 2003-04-06 | Gateway | 700X | 1859.01 | Pentium 4 | 2.66 | 512 RDRAM | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1272] 2003-04-06 | Gateway | 700X | 2389.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1273] 2003-04-06 | Sony | PCV-RZ26G | 2099.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1274] 2003-04-06 | Dell | Dimension 8250 | 2189 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1275] 2003-04-06 | Dell | Dimension 4550 | 1989 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1276] 2003-04-06 | HP | Pavilion 700 series | 1784 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1277] 2003-04-06 | Alienware | Area 51 hybrid | 2780 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | www.alienware.com
+[r1278] 2003-04-13 | Compaq | S3100NX | 539.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1279] 2003-04-13 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1280] 2003-04-13 | Compaq | 6420NX | 552.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1281] 2003-04-13 | Compaq  | 6410NX | 539.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1282] 2003-04-13 | eMachines | T2385 | 599.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1283] 2003-04-13 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1284] 2003-04-13 | HP | 505N | 539.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.circuitcity.com
+[r1285] 2003-04-13 | eMachines | T2245 | 539.97 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | BestBuy Stores
+[r1286] 2003-04-13 | eMachines | T2240 | 439.97 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" eMachines 17F | Lexmark Z25 | BestBuy Stores
+[r1287] 2003-04-13 | Compaq | S3000V series | 349.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1288] 2003-04-13 | HP | 504n | 467.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1289] 2003-04-13 | Compaq | 6430NX | 714.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1290] 2003-04-13 | Compaq | S3200NX | 619.99 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1291] 2003-04-13 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1292] 2003-04-13 | Compaq | s3300nx | 769.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1293] 2003-04-13 | Compaq | 6450NX | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1294] 2003-04-13 | eMachines | T4510 | 849.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1295] 2003-04-13 | Dell | Dimension 4550 | 909 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1296] 2003-04-13 | HP | 725N | 829.94 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1297] 2003-04-13 | Sony | PCV RS210 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1298] 2003-04-13 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1299] 2003-04-13 | Dell | Dimension 2350 | 768 | Pentium 4 | 2.0A | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1300] 2003-04-13 | Compaq | 6470NX | 949.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1301] 2003-04-13 | Sony | PCV RX950 | 1049.99 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1302] 2003-04-13 | Dell | Dimension 4550 | 1009 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1303] 2003-04-13 | HP | 735n | 1029.97 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1304] 2003-04-13 | Sony | PCV-RS220 | 999.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | CompUSA stores
+[r1305] 2003-04-13 | HP | 754n | 999.99 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW |  |  | www.circuitcity.com
+[r1306] 2003-04-13 | HP | 764n | 1199.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1307] 2003-04-13 | Gateway | 500S  | 1099 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1308] 2003-04-13 | Dell | Dimension 4550 | 1249 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1309] 2003-04-13 | HP | 854n Media Center | 1399.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1310] 2003-04-13 | Gateway | 500X | 1349 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1311] 2003-04-13 | Compaq | 6454NX | 1299.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 | HP 3420 | CircuitCity Stores
+[r1312] 2003-04-13 | Sony | PCV-RZ22G | 1299.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1313] 2003-04-13 | Sony | PCV-RZ24G | 1549.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1314] 2003-04-13 | Dell | Dimension 8250 | 1639 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1315] 2003-04-13 | HP | 864n Media Center | 2099.94 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3425 | CompUSA stores
+[r1316] 2003-04-13 | Gateway | 700X | 1939.01 | Pentium 4 | 2.66 | 512 RDRAM | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1317] 2003-04-13 | HP | 794n Media Center | 2199.94 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW | 15" HP F50 LCD | HP 3425 | CompUSA stores
+[r1318] 2003-04-13 | Sony | PCV-RZ series | 1769.99 | Pentium 4 HT | 3.06 | 1GB DDR | 200 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1319] 2003-04-13 | Gateway | 700X | 2469.01 | Pentium 4 HT | 3.06 | 512 RDRAM 1066 | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1320] 2003-04-13 | Sony | PCV-RZ26G | 2099.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1321] 2003-04-13 | Dell | Dimension 8250 | 1899 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1322] 2003-04-13 | Dell | Dimension 4550 | 1679 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1323] 2003-04-13 | HP | Pavilion 700 series | 1784,98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1324] 2003-04-13 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1325] 2003-04-20 | Dell | Dimension 2350 | 559 | Pentium 4 | 2.4 | 256 DDR | 30 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1326] 2003-04-20 | Compaq | S3100NX | 539.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1327] 2003-04-20 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1328] 2003-04-20 | Compaq | 6420NX | 549.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1329] 2003-04-20 | Compaq  | 6410NX | 539.99 | Althon 2000+ | 1.67 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1330] 2003-04-20 | eMachines | T2385 | 599.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1331] 2003-04-20 | HP | 514n | 599.99 | Celeron | 2.2 | 512 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1332] 2003-04-20 | HP | 505N | 519 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.bestbuy.com
+[r1333] 2003-04-20 | eMachines | T2245 | 519.99 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z25 | CircuitCity Stores
+[r1334] 2003-04-20 | eMachines | T2240 | 399.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM |  |  | www.bestbuy.com
+[r1335] 2003-04-20 | Compaq | S3000V series | 349.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1336] 2003-04-20 | HP | 504n | 469.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1337] 2003-04-20 | Compaq | 6430NX | 699.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1338] 2003-04-20 | HP | 725N | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1339] 2003-04-20 | Compaq | S3200NX | 619.99 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1340] 2003-04-20 | HP | 734n | 749.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1341] 2003-04-20 | HP | 735n | 899.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1342] 2003-04-20 | Compaq | s3300nx | 769.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1343] 2003-04-20 | eMachines | T4510 | 799.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1344] 2003-04-20 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1345] 2003-04-20 | Sony | PCV RS210 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1346] 2003-04-20 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1347] 2003-04-20 | Dell | Dimension 2350 | 769 | Pentium 4 | 2.2 | 256 DDR | 60 | CD-RW | 17" Dell E772 |  | www.dell.com
+[r1348] 2003-04-20 | Compaq | 6470NX | 999.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1349] 2003-04-20 | Sony | PCV RX950 | 1049.99 | Pentium 4 | 2.66 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1350] 2003-04-20 | Dell | Dimension 4550 | 1009 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1351] 2003-04-20 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1352] 2003-04-20 | Dell | Dimension 4550 | 959 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD+RW/+R; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1353] 2003-04-20 | Dell | Dimension 4550 | 1189 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD+RW/+R; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1354] 2003-04-20 | HP | 764n | 1199.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1355] 2003-04-20 | Gateway | 500S  | 1099 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1356] 2003-04-20 | HP | 854n Media Center | 1399.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1357] 2003-04-20 | Compaq | 6450NX | 1249.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 | HP 3820 | BestBuy Stores
+[r1358] 2003-04-20 | Gateway | 500X | 1349 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1359] 2003-04-20 | HP | 754n | 1349.97 | Penitum 4 | 2.53 | 512 DDR | 80 | DVD+RW; CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1360] 2003-04-20 | Sony | PCV-RZ22G | 1299.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1361] 2003-04-20 | HP | 864n Media Center | 1599.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1362] 2003-04-20 | Dell | Dimension 8250 | 1689 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD+RW/+R; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1363] 2003-04-20 | Gateway | 700X | 1939.01 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1364] 2003-04-20 | Sony | PCV-RZ24G | 1829.97 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony HS53 | HP 3820 | BestBuy Stores
+[r1365] 2003-04-20 | HP | 794n Media Center | 1933.73 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1366] 2003-04-20 | Sony | PCV-RZ series | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 200 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1367] 2003-04-20 | Gateway | 700X | 2229.01 | Pentium 4 HT | 3.06 | 512 DDR | 200 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1368] 2003-04-20 | Sony | PCV-RZ26G | 2099.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1369] 2003-04-20 | Dell | Dimension 8250 | 1749 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD+RW/+R; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1370] 2003-04-20 | Dell | Dimension 8250 | 1879 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD+RW/+R; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1371] 2003-04-20 | Dell | Dimension 4550 | 1639 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD+RW/+R; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1372] 2003-04-20 | HP | Pavilion 700 series | 1734.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1373] 2003-04-20 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1374] 2003-05-04 | Compaq | S3100NX | 539.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1375] 2003-05-04 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1376] 2003-05-04 | Compaq | 6420NX | 549.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1377] 2003-05-04 | eMachines | T2385 | 599.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1378] 2003-05-04 | HP | 515n | 629.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3420 | CircuitCity Stores
+[r1379] 2003-05-04 | HP | 505N | 519 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.bestbuy.com
+[r1380] 2003-05-04 | eMachines | T2245 | 489.99 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Proview monitor | Lexmark Z25 | CircuitCity Stores
+[r1381] 2003-05-04 | eMachines | T2240 | 369.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" Proview monitor | Lexmark Z25 | CircuitCity Stores
+[r1382] 2003-05-04 | Compaq | S3000V series | 333.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1383] 2003-05-04 | Compaq | 6430NX | 699.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1384] 2003-05-04 | Compaq | S3200NX | 699.99 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1385] 2003-05-04 | HP | 725n | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1386] 2003-05-04 | Compaq | S3000X | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD-RW; CD-RW | 17" Compaq CV7500 | HP 3820 | BestBuy Stores
+[r1387] 2003-05-04 | HP | 735n | 899.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1388] 2003-05-04 | Compaq | s3300nx | 769.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1389] 2003-05-04 | Compaq | 6450NX | 799.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1390] 2003-05-04 | eMachines | T4510 | 789.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1391] 2003-05-04 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1392] 2003-05-04 | Medion | 8314b | 899.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1393] 2003-05-04 | Sony | PCV RS210 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1394] 2003-05-04 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1395] 2003-05-04 | Dell | Dimension 2350 | 868 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1396] 2003-05-04 | Compaq | 6470NX | 949.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1397] 2003-05-04 | HP | 754n | 949.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1398] 2003-05-04 | Dell | Dimension 4550 | 1048 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1399] 2003-05-04 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1400] 2003-05-04 | Dell | Dimension 4550 | 1098 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1401] 2003-05-04 | Gateway | 500S  | 1099.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1402] 2003-05-04 | Dell | Dimension 4550 | 1278 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1403] 2003-05-04 | Sony | PCV-RS220 | 1229.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW | 15" Sony HS53 | HP 3820 | CircuitCity Stores
+[r1404] 2003-05-04 | Gateway | 500X | 1369 | Pentium 4 | 2.53 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1405] 2003-05-04 | Sony | PCV-RZ22G | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1406] 2003-05-04 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1407] 2003-05-04 | HP | 854n Media Center | 1599.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 15" HP F50 | HP 3820 | BestBuy Stores
+[r1408] 2003-05-04 | Dell | Dimension 8300 | 1628 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD+RW/+R; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1409] 2003-05-04 | Gateway | 700X | 1939.01 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1410] 2003-05-04 | HP | 864n Media Center | 1899.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW | 15" HP F50 | HP 3820 | BestBuy Stores
+[r1411] 2003-05-04 | HP | 794n Media Center | 1799.97 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1412] 2003-05-04 | Gateway | 700X | 2229.01 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1413] 2003-05-04 | Gateway | 700X | 2209.01 | Pentium 4 HT | 3.06 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1414] 2003-05-04 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1415] 2003-05-04 | Dell | Dimension 8300 | 1828 | Pentium 4 HT | 3 | 512 RDRAM | 120 | DVD+RW/+R; CD-RW | 15" Dell 1504FP LCD flat panel |  | www.dell.com
+[r1416] 2003-05-04 | Dell | Dimension 4550 | 1688 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD+RW/+R; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1417] 2003-05-04 | HP | Pavilion 700 series | 1449.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1418] 2003-05-04 | vprMatrix | FT9150-PE | 1899.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1419] 2003-05-04 | Dell | Dimension XPS | 1858 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1420] 2003-05-04 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1421] 2003-05-11 | Compaq | S3100NX | 529.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1422] 2003-05-11 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1423] 2003-05-11 | Compaq | 6420NX | 499.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1424] 2003-05-11 | eMachines | T2385 | 579.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1425] 2003-05-11 | HP | 505N | 539.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW | 17" HP MX70 | HP 3420 | CircuitCity Stores
+[r1426] 2003-05-11 | eMachines | T2245 | 479.97 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17S | Lexmark Z25 | BestBuy Stores
+[r1427] 2003-05-11 | eMachines | T2240 | 369.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" Proview monitor | Lexmark Z25 | CircuitCity Stores
+[r1428] 2003-05-11 | Compaq | S3000V series | 333.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1429] 2003-05-11 | Compaq | 6430NX | 649.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1430] 2003-05-11 | Compaq | S3200NX | 619.99 | Athlon 2400+ | 2 | 256 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1431] 2003-05-11 | Compaq | S3000T | 649.97 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1432] 2003-05-11 | HP | 515n | 619.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3420 | CircuitCity Stores
+[r1433] 2003-05-11 | HP | 735n | 899.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1434] 2003-05-11 | Compaq | s3300nx | 769.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1435] 2003-05-11 | eMachines | T4510 | 789.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1436] 2003-05-11 | Dell | Dimension 4550 | 899 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1437] 2003-05-11 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1438] 2003-05-11 | HP | 725n | 769.97 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1439] 2003-05-11 | Medion | 8314b | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1440] 2003-05-11 | Sony | PCV RS210 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1441] 2003-05-11 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1442] 2003-05-11 | Dell | Dimension 2350 | 808 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1443] 2003-05-11 | Compaq | 6470NX | 999.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1444] 2003-05-11 | Dell | Dimension 4550 | 949 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1445] 2003-05-11 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1446] 2003-05-11 | HP | 754n | 1019.97 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1447] 2003-05-11 | Dell | Dimension 4550 | 1189 | Pentium 4 | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1448] 2003-05-11 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1449] 2003-05-11 | HP | 854n Media Center | 1199.98 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1450] 2003-05-11 | Gateway | 500S  | 1129 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1451] 2003-05-11 | HP | 775y | 1279.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s | HP 3420 | BestBuy Stores
+[r1452] 2003-05-11 | Gateway | 500X | 1369 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1453] 2003-05-11 | Dell | Dimension 8300 | 1589 | Pentium 4 HT | 3 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1454] 2003-05-11 | Dell | Dimension 4550 | 1549 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD+RW/+R; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1455] 2003-05-11 | Dell | Dimension 8300 | 1419 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell 151FPb LCD flat panel |  | www.dell.com
+[r1456] 2003-05-11 | HP | 864n Media Center | 1599.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1457] 2003-05-11 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1458] 2003-05-11 | Sony | PCV-RZ22G | 1479.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony HS53 | HP 3820 | BestBuy Stores
+[r1459] 2003-05-11 | Gateway | 700X | 1889.01 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r1460] 2003-05-11 | HP | 794n Media Center | 1899.98 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1461] 2003-05-11 | Dell | Dimension XPS | 2289 | Pentium 4 HT | 3.06 | 1024 DCDDR | 200 | DVD-ROM; CD-RW | 15" Dell E1504FP LCD flat panel |  | www.dell.com
+[r1462] 2003-05-11 | Gateway | 700X | 2319.01 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1463] 2003-05-11 | Gateway | 700X | 2259.01 | Pentium 4 HT | 3.06 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1464] 2003-05-11 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1465] 2003-05-11 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1466] 2003-05-11 | HP | Pavilion 700 series | 1509.97 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1467] 2003-05-11 | vprMatrix | FT9150-PE | 1799.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1468] 2003-05-18 | Compaq | S3100NX | 529.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1469] 2003-05-18 | eMachines | T2260 | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1470] 2003-05-18 | Compaq | 6420NX | 499.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1471] 2003-05-18 | eMachines | T2385 | 599.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1472] 2003-05-18 | HP | 505N | 519.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.bestbuy.com
+[r1473] 2003-05-18 | eMachines | T2245 | 499.99 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1474] 2003-05-18 | eMachines | T2240 | 439.97 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1475] 2003-05-18 | Compaq | S3000V series | 353.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1476] 2003-05-18 | Compaq | 6430NX | 649.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1477] 2003-05-18 | HP | 725n | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1478] 2003-05-18 | HP | 515n | 669.97 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1479] 2003-05-18 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1480] 2003-05-18 | Compaq | s3300nx | 769.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1481] 2003-05-18 | eMachines | T4510 | 789.97 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1482] 2003-05-18 | HP | 754n | 899.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1483] 2003-05-18 | Dell | Dimension 4550 | 948 | Pentium 4 | 2.53 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1484] 2003-05-18 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1485] 2003-05-18 | Medion | 8314b | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1486] 2003-05-18 | Sony | PCV RS210 | 799.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1487] 2003-05-18 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1488] 2003-05-18 | Dell | Dimension 2350 | 848 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1489] 2003-05-18 | Dell | Dimension 4550 | 998 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1490] 2003-05-18 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1491] 2003-05-18 | HP | 735n | 1149.97 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1492] 2003-05-18 | Gateway | 500S  | 1099 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1493] 2003-05-18 | HP  | 700 series | 1254.97 | Athlon 2800+ | 2.26 | 512 DDR | 120 | DVD+RW/CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1494] 2003-05-18 | Gateway | 500X | 1369 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1495] 2003-05-18 | Sony | PCV-RS220 | 1229.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW | 15" Sony HS53 | HP 3820 | BestBuy Stores
+[r1496] 2003-05-18 | HP | 854n Media Center | 1299.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1497] 2003-05-18 | Sony | PCV-RZ22G | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.bestbuy.com
+[r1498] 2003-05-18 | Dell | Dimension 4550 | 1558 | Pentium 4 HT | 3.06 | 512 DDR 333MHz | 120 | DVD+RW/+R; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1499] 2003-05-18 | HP | Pavilion 700 series | 1459.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hp.com
+[r1500] 2003-05-18 | Dell | Dimension 8300 | 1488 | Pentium 4 | 2.8 | 512 RDRAM 1066 | 120 | DVD-ROM; CD-RW | 15" Dell 151FPb LCD flat panel |  | www.dell.com
+[r1501] 2003-05-18 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1502] 2003-05-18 | Dell | Dimension 8300 | 1658 | Pentium 4 HT | 3 | 512 RDRAM | 120 | DVD-ROM; CD-RW | 15" Dell E151FP LCD flat panel |  | www.dell.com
+[r1503] 2003-05-18 | HP | 794n Media Center | 1933.73 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1504] 2003-05-18 | Dell | Dimension XPS | 2408 | Pentium 4 HT | 3.06 | 1024 DCDDR | 200 | DVD-ROM; CD-RW | 15" Dell E1504FP LCD flat panel |  | www.dell.com
+[r1505] 2003-05-18 | Gateway | 700X | 2319.01 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1506] 2003-05-18 | Gateway | 700X | 2259.01 | Pentium 4 HT | 3.06 | 512 DDR | 250 | DVD-ROM; CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1507] 2003-05-18 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1508] 2003-05-18 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1509] 2003-05-18 | vprMatrix | FT9150-PE | 1799.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1510] 2003-05-18 | HP | 864n Media Center | 1869.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3420 | CircuitCity Stores
+[r1511] 2003-05-18 | Gateway | 700X | 1889.01 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD-ROM; CD-RW | 15" Gateway LCD Flat Panel |  | www.gateway.com
+[r1512] 2003-05-25 | Compaq | S3100NX | 559.97 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | BestBuy Stores
+[r1513] 2003-05-25 | eMachines | T2260 | 469.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1514] 2003-05-25 | Compaq | 6420NX | 444.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1515] 2003-05-25 | eMachines | T2385 | 579.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1516] 2003-05-25 | HP | 515n | 499.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1517] 2003-05-25 | HP | 505N | 399.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.bestbuy.com
+[r1518] 2003-05-25 | eMachines | T2245 | 479.97 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1519] 2003-05-25 | eMachines | T2240 | 369.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" Proview Monitor | Lexmark Z25 | BestBuy Stores
+[r1520] 2003-05-25 | Compaq | S3000V series | 379.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | BestBuy Stores
+[r1521] 2003-05-25 | Compaq | 6430NX | 579.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1522] 2003-05-25 | HP | 735n | 699.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1523] 2003-05-25 | Compaq | s3300nx | 649.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1524] 2003-05-25 | eMachines | T4510 | 689.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1525] 2003-05-25 | HP | 725n | 719.97 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1526] 2003-05-25 | Medion | 8314b | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1527] 2003-05-25 | HP | 775E series | 829.99 | Athlon 2800+ | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1528] 2003-05-25 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1529] 2003-05-25 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1530] 2003-05-25 | HP | 754n | 899.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1531] 2003-05-25 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1532] 2003-05-25 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1533] 2003-05-25 | Dell | Dimension 2350 | 837 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1534] 2003-05-25 | Compaq | S4000 series | 1008 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1535] 2003-05-25 | Compaq | S4000 series | 948 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1536] 2003-05-25 | Compaq | S4300 | 999.97 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5017 | HP 3820 | BestBuy Stores
+[r1537] 2003-05-25 | Compaq | S8000 series | 1138 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1538] 2003-05-25 | Dell | Dimension 4600 | 1218 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1539] 2003-05-25 | Compaq | S4500NX | 1149.94 | Athlon 3000+ | 2.167 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 17" Compaq FS7550 |  | Compusa Stores
+[r1540] 2003-05-25 | Dell | Dimension 4550 | 1138 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1541] 2003-05-25 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1542] 2003-05-25 | Sony | PCV RS210 | 929.97 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" Sony HS53 | HP 3820 | BestBuy Stores
+[r1543] 2003-05-25 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1544] 2003-05-25 | Dell | Dimension 8300 | 1398 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1545] 2003-05-25 | Dell | Dimension 8300 | 1228 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1546] 2003-05-25 | HP | Pavilion 700 series | 1459.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1547] 2003-05-25 | Gateway | 500X | 1549 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-R/-RW/CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1548] 2003-05-25 | HP | 864n Media Center | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1549] 2003-05-25 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r1550] 2003-05-25 | HP | 854n Media Center | 1449.97 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1551] 2003-05-25 | Sony | PCV-RZ22G | 1579.94 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony HS53 |  | Compusa Stores
+[r1552] 2003-05-25 | HP | 794n Media Center | 1933.73 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1553] 2003-05-25 | Dell | Dimension XPS | 2238 | Pentium 4 HT | 3 | 1024 DCDDR | 200 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1554] 2003-05-25 | Gateway | 500X | 2024 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1555] 2003-05-25 | Compaq | S8000 series | 1797.99 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1556] 2003-05-25 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1557] 2003-05-25 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1558] 2003-05-25 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1559] 2003-05-25 | Gateway | 700X | 2049 | Pentium 4 HT | 2.8 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1560] 2003-06-01 | Compaq | S3100NX | 539.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq MV7500 | HP 3420 | CircuitCity Stores
+[r1561] 2003-06-01 | eMachines | T2260 | 569.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1562] 2003-06-01 | Compaq | 6420NX | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1563] 2003-06-01 | eMachines | T2385 | 599.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1564] 2003-06-01 | HP | 515n | 549.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1565] 2003-06-01 | HP | 505N | 499.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.bestbuy.com
+[r1566] 2003-06-01 | eMachines | T2245 | 499.99 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1567] 2003-06-01 | eMachines | T2240 | 429.97 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1568] 2003-06-01 | Compaq | S3000V series | 349.99 | Celeron | 2 | 256 DDR | 40 | CD-RW |  |  | BestBuy Stores
+[r1569] 2003-06-01 | Compaq | s3300nx | 749.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1570] 2003-06-01 | Compaq | s3200nx | 619.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1571] 2003-06-01 | HP | 725n | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1572] 2003-06-01 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1573] 2003-06-01 | HP | 735n | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1574] 2003-06-01 | eMachines | T4510 | 789.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1575] 2003-06-01 | HP | 754n | 899.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1576] 2003-06-01 | Compaq | S4300 | 799.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1577] 2003-06-01 | Compaq | 6454NX | 819.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1578] 2003-06-01 | Sony | PCV RS210 | 799.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1579] 2003-06-01 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1580] 2003-06-01 | Dell | Dimension 2350 | 839 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1581] 2003-06-01 | Compaq | S4000 series | 967 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1582] 2003-06-01 | HP | 700 series | 919.99 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1583] 2003-06-01 | Sony | PCV-RS220 | 999.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1584] 2003-06-01 | HP | 716n | 929.97 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD+RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1585] 2003-06-01 | Compaq | S4000 series | 1067 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1586] 2003-06-01 | Compaq | S8000 series | 1197 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1587] 2003-06-01 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1588] 2003-06-01 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1589] 2003-06-01 | Dell | Dimension 4600 | 1409 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1590] 2003-06-01 | Dell | Dimension 4600 | 1239 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1591] 2003-06-01 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1592] 2003-06-01 | Dell | Dimension 4550 | 1398 | Pentium 4 | 2.66 | 512 DDR 333MHz | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1593] 2003-06-01 | HP | 854n Media Center | 1299.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1594] 2003-06-01 | Sony | PCV-RZ22G | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r1595] 2003-06-01 | HP | Pavilion 700 series | 1429.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1596] 2003-06-01 | Dell | Dimension 8300 | 1549 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1597] 2003-06-01 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1598] 2003-06-01 | HP | 794n Media Center | 1933.73 | Pentium 4 HT | 3.06 | 1024 DDR | 250 | DVD+RW/CD-RW |  |  | www.compusa.com
+[r1599] 2003-06-01 | Dell | Dimension XPS | 2589 | Pentium 4 HT | 3 | 1024 DCDDR | 200 | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1600] 2003-06-01 | Compaq | S8000 series | 1847.99 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1601] 2003-06-01 | Dell | Dimension 8300 | 1719 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1602] 2003-06-01 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1603] 2003-06-01 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1604] 2003-06-01 | vprMatrix | FT9150-PE | 1799.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1605] 2003-06-01 | Gateway | 700XL | 2974 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1606] 2003-06-01 | HP | 864n Media Center | 1829.97 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW | 15" HP F50 LCD | HP 3820 | BestBuy Stores
+[r1607] 2003-06-08 | Compaq | s3200nx | 569.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1608] 2003-06-08 | Compaq | S4000J | 558 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1609] 2003-06-08 | Compaq | S4000V | 579 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1610] 2003-06-08 | Compaq | S3100NX | 489.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1611] 2003-06-08 | eMachines | T2260 | 519.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1612] 2003-06-08 | Compaq | 6420NX | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1613] 2003-06-08 | eMachines | T2385 | 579.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1614] 2003-06-08 | HP | 505N | 549.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW | 17" HP MX75 | HP 3420 | CircuitCity Stores
+[r1615] 2003-06-08 | eMachines | T2245 | 479.97 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1616] 2003-06-08 | eMachines | T2240 | 349.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM |  |  | www.bestbuy.com
+[r1617] 2003-06-08 | Compaq | s3300nx | 749.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1618] 2003-06-08 | eMachines | T4510 | 739.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1619] 2003-06-08 | Compaq | 6454NX | 699.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1620] 2003-06-08 | eMachines | T4480 | 699.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Pro754 monitor | Lexmark Z25 | CircuitCity Stores
+[r1621] 2003-06-08 | HP | 725n | 649.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1622] 2003-06-08 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1623] 2003-06-08 | HP | 515n | 639.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX75 | HP 3420 | CircuitCity Stores
+[r1624] 2003-06-08 | Compaq | S4000Z series | 857 | Athlon 2800 + | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1625] 2003-06-08 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1626] 2003-06-08 | HP | 735n | 899.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW | 17" HP MX75 | HP 3425 | Compusa Stores
+[r1627] 2003-06-08 | HP | 754n | 849.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1628] 2003-06-08 | Compaq | S4300NX | 799.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1629] 2003-06-08 | Dell | Dimension 2350 | 848 | Pentium 4 | 2.4 | 256 DDR | 60 | CD-ROM; DVD+RW/+R | 17" Dell E772 |  | www.dell.com
+[r1630] 2003-06-08 | Compaq | S4000T series | 1017 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1631] 2003-06-08 | Sony | PCV RS320 | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1632] 2003-06-08 | Sony | PCV-RS220 | 949.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1633] 2003-06-08 | HP | Pavilion 700 series | 1144.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1634] 2003-06-08 | Compaq | S4000Z series | 1057 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1635] 2003-06-08 | HP | 700 series | 1179.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1636] 2003-06-08 | Compaq | S4000 series | 1147 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1637] 2003-06-08 | Compaq | S8000 series | 1202 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1638] 2003-06-08 | HP | A250y series | 1099.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+RW | 15" HP vf15 | HP 3420 | BestBuy Stores
+[r1639] 2003-06-08 | Dell | 4600 | 1118 | Pentium 4 | 2.66 | 512 DDR | 120 | CD-ROM; DVD+RW/+R | 17" Dell E772 |  | www.dell.com
+[r1640] 2003-06-08 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1641] 2003-06-08 | HP | 854n Media Center | 1109.94 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW | 17" HP MX75 |  | Compusa Stores
+[r1642] 2003-06-08 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1643] 2003-06-08 | Sony | PCV RS310 | 1029.97 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM | 17" Sony HS53 | HP 3820 | BestBuy Stores
+[r1644] 2003-06-08 | Dell | Dimension 4600 | 1418 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/+R | 17" Dell E772 |  | www.dell.com
+[r1645] 2003-06-08 | Dell | Dimension 4600 | 1248 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | CD-ROM; DVD+RW/+R | 17" Dell E772 |  | www.dell.com
+[r1646] 2003-06-08 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1647] 2003-06-08 | HP | A250n | 1249.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW | 15" HP F1503 LCD | HP 3420 | CircuitCity Stores
+[r1648] 2003-06-08 | Sony | PCV-RZ22G | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r1649] 2003-06-08 | Dell | Dimension 8300 | 1606 | Pentium 4 HT | 2.8 | 512 DDR | 120 | CD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1650] 2003-06-08 | HP | 864n Media Center | 1449.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1651] 2003-06-08 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1652] 2003-06-08 | Dell | Dimension XPS | 2738 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | CD-ROM; DVD+RW/+R | 17" Dell E171FPb |  | www.dell.com
+[r1653] 2003-06-08 | Compaq | S8000 series | 1862.98 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1654] 2003-06-08 | HP | A250n series | 1689.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1655] 2003-06-08 | Dell | Dimension 8300 | 1778 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1656] 2003-06-08 | Sony | PCV-RZ26G | 1999.99 | Pentium 4 HT | 3.06 | 1GB DDR | 160 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1657] 2003-06-08 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1658] 2003-06-08 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1659] 2003-06-08 | Gateway | 700XL | 2974 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1660] 2003-06-15 | Compaq | S3200nx | 569.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1661] 2003-06-15 | Compaq | S4000J | 548 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1662] 2003-06-15 | Compaq | S4000V | 589 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1663] 2003-06-15 | Compaq | S3100NX | 489.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1664] 2003-06-15 | eMachines | T2260 | 569.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1665] 2003-06-15 | Compaq | 6420NX | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1666] 2003-06-15 | HP | 515n | 549.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1667] 2003-06-15 | eMachines | T2385 | 579.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1668] 2003-06-15 | HP | 505N | 369.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.circuitcity.com
+[r1669] 2003-06-15 | eMachines | T2245 | 499.99 | Celeron | 2.2 | 256 DDR | 40 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1670] 2003-06-15 | eMachines | T2240 | 379.97 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1671] 2003-06-15 | Compaq | S3300NX | 749.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1672] 2003-06-15 | Compaq | 6454NX | 699.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1673] 2003-06-15 | eMachines | T4480 | 699.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1674] 2003-06-15 | HP | 725n | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1675] 2003-06-15 | Sony | PCV RS210 | 699.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1676] 2003-06-15 | Compaq | S4000Z series | 857 | Athlon 2800 + | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1677] 2003-06-15 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1678] 2003-06-15 | HP | 735n | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.bestbuy.com
+[r1679] 2003-06-15 | Sony | PCV-RS220 | 849.95 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.circuitcity.com
+[r1680] 2003-06-15 | eMachines | T4510 | 789.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1681] 2003-06-15 | HP | 754n | 799.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.circuitcity.com
+[r1682] 2003-06-15 | Compaq | S4300NX | 799.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1683] 2003-06-15 | Sony | PCV RS310 | 899.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.sonystyle.com
+[r1684] 2003-06-15 | Dell | Dimension 2350 | 898 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1685] 2003-06-15 | Compaq | S4000T series | 1017 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1686] 2003-06-15 | HP | A250n | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW |  |  | www.bestbuy.com
+[r1687] 2003-06-15 | Sony | PCV RS320 | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.sonystyle.com
+[r1688] 2003-06-15 | HP | 716n | 979.97 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD+RW | 17" HP MX75 | HP 3420 | BestBuy Stores
+[r1689] 2003-06-15 | Compaq | S4000Z series | 1057 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1690] 2003-06-15 | HP | 700 series | 1189.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1691] 2003-06-15 | Compaq | S4000T | 1147 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1692] 2003-06-15 | Dell | 4600 | 1098 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1693] 2003-06-15 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.hpshopping.com
+[r1694] 2003-06-15 | HP | 854n Media Center | 1199.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1695] 2003-06-15 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1696] 2003-06-15 | Dell | Dimension 4600 | 1418 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1697] 2003-06-15 | HP | Pavilion 700 series | 1394.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1698] 2003-06-15 | Compaq | S8000 series | 1252 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1699] 2003-06-15 | Dell | Dimension 4600 | 1248 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1700] 2003-06-15 | HP | 775e | 1299.99 | Althon 3000+ | 2.16 | 512 DDR | 120 | DVD+RW | 15" HP vf15 LCD | HP 3820 | BestBuy Stores
+[r1701] 2003-06-15 | Gateway | 500X | 1394 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1702] 2003-06-15 | Sony | PCV RZ32G | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.sonystyle.com
+[r1703] 2003-06-15 | HP | 864n Media Center | 1399.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.circuitcity.com
+[r1704] 2003-06-15 | Sony | PCV-RZ22G | 1249.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r1705] 2003-06-15 | Dell | Dimension 8300 | 1568 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1706] 2003-06-15 | Sony | PCV-RZ24G | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1707] 2003-06-15 | Dell | Dimension XPS | 2818 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1708] 2003-06-15 | Compaq | S8000 series | 1862.98 | Pentium 4 HT | 3 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1709] 2003-06-15 | HP | A250n series | 1689.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1710] 2003-06-15 | Dell | Dimension 8300 | 1738 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1711] 2003-06-15 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1712] 2003-06-15 | vprMatrix | FT9150-PE | 1749.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1713] 2003-06-15 | Gateway | 700XL | 2974 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1714] 2003-06-22 | Compaq | S4000J | 548 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1715] 2003-06-22 | Compaq | S4000V | 589 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1716] 2003-06-22 | Compaq | S3100NX | 559.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq SDMSH53 | Lexmark Z705 | CircuitCity Stores
+[r1717] 2003-06-22 | eMachines | T2260 | 569.99 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1718] 2003-06-22 | Compaq | 6420NX | 599.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1719] 2003-06-22 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1720] 2003-06-22 | HP | 515n | 549.99 | Celeron | 2.3 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.pcmall.com
+[r1721] 2003-06-22 | eMachines | T2385 | 579.97 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1722] 2003-06-22 | HP | 505N | 469.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.circuitcity.com
+[r1723] 2003-06-22 | eMachines | T2240 | 399.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM |  |  | www.circuitcity.com
+[r1724] 2003-06-22 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1725] 2003-06-22 | Compaq | S3300NX | 749.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1726] 2003-06-22 | eMachines | T4510 | 749.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1727] 2003-06-22 | Compaq | 6454NX | 699.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1728] 2003-06-22 | Compaq | S3200nx | 619.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1729] 2003-06-22 | HP | 725n | 699.99 | Athlon 2400+ | 2 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1730] 2003-06-22 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1731] 2003-06-22 | HP | A230n | 829.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW/CD-RW; CD-ROM |  |  | www.hpshopping.com
+[r1732] 2003-06-22 | Compaq | S4000Z series | 857 | Athlon 2800 + | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1733] 2003-06-22 | Compaq | 6470NX | 849.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1734] 2003-06-22 | HP | 735n | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.hpshopping.com
+[r1735] 2003-06-22 | Sony | PCV-RS220 | 849.95 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.circuitcity.com
+[r1736] 2003-06-22 | HP | 754n | 899.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1737] 2003-06-22 | Compaq | S4300NX | 849.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1738] 2003-06-22 | HP | 716n | 899.99 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD+RW |  |  | www.bestbuy.com
+[r1739] 2003-06-22 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1740] 2003-06-22 | Dell | Dimension 2350 | 878 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1741] 2003-06-22 | Compaq | S4000T series | 1017 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1742] 2003-06-22 | Dell | 4600 | 1018 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1743] 2003-06-22 | Compaq | S4210NXB | 1049.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD |  | www.circuitcity.com
+[r1744] 2003-06-22 | Compaq | S4000Z series | 1057 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1745] 2003-06-22 | HP | 700 series | 1139.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1746] 2003-06-22 | Compaq | S4000T | 1147 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1747] 2003-06-22 | Dell | Dimension 4600 | 1148 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1748] 2003-06-22 | Sony | PCV RS320 | 1179.97 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM | 15" Sony HS53 LCD | HP 3820 | BestBuy Stores
+[r1749] 2003-06-22 | HP | 764n | 1099.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.pcmall.com
+[r1750] 2003-06-22 | HP | 854n Media Center | 1199.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1751] 2003-06-22 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1752] 2003-06-22 | Sony | PCV RS310 | 1079.97 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM | 15" Sony HS53 LCD | HP 3820 | BestBuy Stores
+[r1753] 2003-06-22 | Dell | Dimension 4600 | 1318 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Dell E772 |  | www.dell.com
+[r1754] 2003-06-22 | HP | Pavilion 700 series | 1394.98 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX75 |  | www.hpshopping.com
+[r1755] 2003-06-22 | Compaq | S8000 series | 1252 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1756] 2003-06-22 | Gateway | 500X | 1394 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1757] 2003-06-22 | HP | A250n | 1279.97 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW | 15" HP F1503 LCD | HP 3820 | BestBuy Stores
+[r1758] 2003-06-22 | Dell | Dimension 8300 | 1558 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1759] 2003-06-22 | Sony | PCV RZ32G | 1479.97 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony HS53 LCD | HP 3820 | BestBuy Stores
+[r1760] 2003-06-22 | HP | 864n Media Center | 1449.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.bestbuy.com
+[r1761] 2003-06-22 | Dell | Dimension XPS | 2668 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1762] 2003-06-22 | Compaq | S8000 series | 1862.98 | Pentium 4 HT | 3 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1763] 2003-06-22 | HP | A250n series | 1639.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1764] 2003-06-22 | Dell | Dimension 8300 | 1728 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1765] 2003-06-22 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1766] 2003-06-22 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1767] 2003-06-22 | Gateway | 700XL | 2974 | Pentium 4 HT | 3 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1768] 2003-06-22 | Sony | PCV-RZ34G | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.sonystyle.com
+[r1769] 2003-06-22 | Sony | PCV-RZ24G | 1649.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" X52 LCD | Lexmark Z705 | CircuitCity Stores
+[r1770] 2003-07-06 | Compaq | S3200nx | 507.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1771] 2003-07-06 | HP | A210e series | 544.98 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" HP MX703c |  | www.hpshopping.com
+[r1772] 2003-07-06 | Compaq | S4000J | 558 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1773] 2003-07-06 | Compaq | S4000V | 589 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1774] 2003-07-06 | eMachines | T2482 | 539.99 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | CircuitCity Stores
+[r1775] 2003-07-06 | eMachines | T2341 | 439.99 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" eMachines 17F | Lexmark Z705 | CircuitCity Stores
+[r1776] 2003-07-06 | Compaq | S3100NX | 435.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1777] 2003-07-06 | eMachines | W2260 | 449.97 | Athlon 2200+ | 1.8 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1778] 2003-07-06 | Compaq | 6420NX | 649.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1779] 2003-07-06 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1780] 2003-07-06 | HP | A210n | 559.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1781] 2003-07-06 | HP | A200n | 469.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r1782] 2003-07-06 | Compaq | S4000NX | 419.97 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3420 | BestBuy Stores
+[r1783] 2003-07-06 | eMachines | T2385 | 549.99 | Celeron | 2.3 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1784] 2003-07-06 | HP | 505N | 469.99 | Celeron | 2.2 | 256 DDR | 60 | CD-RW |  |  | www.hpshopping.com
+[r1785] 2003-07-06 | eMachines | T2240 | 399.99 | Celeron  | 2.2 | 128 DDR | 40 | CD-ROM |  |  | www.circuitcity.com
+[r1786] 2003-07-06 | eMachines | T2615 | 649.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.emachines.com
+[r1787] 2003-07-06 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1788] 2003-07-06 | Compaq | S3300NX | 687.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1789] 2003-07-06 | eMachines | T4510 | 699.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1790] 2003-07-06 | Compaq | 6454NX | 699.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1791] 2003-07-06 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1792] 2003-07-06 | HP | A210n | 639.97 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX703 | HP 3420 | BestBuy Stores
+[r1793] 2003-07-06 | Compaq | S4000Z series | 877 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1794] 2003-07-06 | HP | A230n | 829.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW |  |  | www.circuitcity.com
+[r1795] 2003-07-06 | Compaq | 6470NX | 759.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1796] 2003-07-06 | eMachines | T2625 | 779.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1797] 2003-07-06 | HP | A250e series | 854.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1798] 2003-07-06 | HP | 735n | 799.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.hpshopping.com
+[r1799] 2003-07-06 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1800] 2003-07-06 | HP | 754n | 809.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1801] 2003-07-06 | Compaq | S4300NX | 849.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1802] 2003-07-06 | eMachines | T4480 | 849.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1803] 2003-07-06 | Sony | PCV RS310 | 799.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.circuitcity.com
+[r1804] 2003-07-06 | PC Maker | Model SKU | Price w/ Shipping and Rebates | Processor | CPU Speed (GHZ) | Memory | HDD (GB) | Opticals | Monitor | Printer | Retailer
+[r1805] 2003-07-06 | Compaq | S4000Z series | 977 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1806] 2003-07-06 | Compaq | S4000T series | 1047 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1807] 2003-07-06 | HP | A250n | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW |  |  | www.hpshopping.com
+[r1808] 2003-07-06 | Sony | PCV RS320 | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.circuitcity.com
+[r1809] 2003-07-06 | HP | A230n | 919.97 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW/CD-RW; CD-ROM | 17" HP MX703 | HP 3820 | BestBuy Stores
+[r1810] 2003-07-06 | Compaq | S4210NXB | 1049.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD |  | www.circuitcity.com
+[r1811] 2003-07-06 | Dell | Dimension 2350 | 987 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 19" Dell M992 |  | www.dell.com
+[r1812] 2003-07-06 | HP | A250e series | 1014.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1813] 2003-07-06 | Compaq | S4000T | 1127 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1814] 2003-07-06 | HP | A250y series | 1154.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1815] 2003-07-06 | HP | 854n Media Center | 1199.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1816] 2003-07-06 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1817] 2003-07-06 | Compaq | S8000 series | 1277 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1818] 2003-07-06 | Dell | Dimension 4600 | 1333 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | CD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1819] 2003-07-06 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1820] 2003-07-06 | HP | M260N | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM |  |  | www.circuitcity.com
+[r1821] 2003-07-06 | Sony | PCV-RZ24G | 1299.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1822] 2003-07-06 | HP | A250y series | 1439.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1823] 2003-07-06 | Dell | Dimension 4600 | 1503 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1824] 2003-07-06 | Dell | Dimension 8300 | 1493 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1825] 2003-07-06 | Sony | PCV RZ32G | 1559.97 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony HS53 LCD | HP 3820 | BestBuy Stores
+[r1826] 2003-07-06 | HP | 864n Media Center | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1827] 2003-07-06 | HP | A250y series | 1709.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1828] 2003-07-06 | Dell | Dimension XPS | 2483 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; DVD+RW/+R | 17" Dell E171FPb |  | www.dell.com
+[r1829] 2003-07-06 | Compaq | S8000 series | 1717 | Pentium 4 HT | 3 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1830] 2003-07-06 | Dell | Dimension 8300 | 1663 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r1831] 2003-07-06 | Alienware | Area 51 hybrid | 2499.97 | Pentium 4 HT | 3.06 | 512 RDRAM | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1832] 2003-07-06 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1833] 2003-07-06 | Gateway | 700XL | 2974 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1834] 2003-07-06 | Sony | PCV-RZ34G | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1835] 2003-07-13 | Compaq | S3200nx | 507.99 | Athlon 2400+ | 2 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1836] 2003-07-13 | eMachines | T2482 | 529.97 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1837] 2003-07-13 | HP | A210e series | 544.98 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" HP MX703c |  | www.hpshopping.com
+[r1838] 2003-07-13 | Compaq | S4000J | 558 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1839] 2003-07-13 | Compaq | S4000V | 589 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1840] 2003-07-13 | eMachines | T2341 | 429.97 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1841] 2003-07-13 | Compaq | S3100NX | 435.99 | Athlon 2200+ | 1.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1842] 2003-07-13 | Compaq | S4000V series | 599.99 | Pentium 4 | 2.2 | 128 DDR | 40 | DVD-ROM | 15" Compaq FP15 | HP 3420 | BestBuy Stores
+[r1843] 2003-07-13 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1844] 2003-07-13 | HP | A210n | 559.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1845] 2003-07-13 | HP | A200n | 549.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW | 17" HP MX703 | HP 3420 | BestBuy Stores
+[r1846] 2003-07-13 | Compaq | S4000NX | 399.99 | Celeron | 2.4 | 128 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1847] 2003-07-13 | eMachines | T2615 | 679.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1848] 2003-07-13 | eMachines | T2625 | 749.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1849] 2003-07-13 | HP | 735n | 719.99 | Athlon 2600+ | 2.13 | 512 DDR | 80 | DVD+RW/CD-RW |  |  | www.hpshopping.com
+[r1850] 2003-07-13 | Compaq | 6470NX | 714.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1851] 2003-07-13 | Compaq | S3300NX | 687.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1852] 2003-07-13 | eMachines | T4510 | 699.99 | Pentium 4 | 2.53 | 512 DDR | 100 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1853] 2003-07-13 | Compaq | 6454NX | 699.99 | Pentium 4 | 2.5 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1854] 2003-07-13 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1855] 2003-07-13 | Compaq | S4000Z series | 877 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1856] 2003-07-13 | HP | A230n | 829.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW |  |  | www.circuitcity.com
+[r1857] 2003-07-13 | HP | A220n | 759.97 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 | HP 3420 | BestBuy Stores
+[r1858] 2003-07-13 | HP | A250e series | 769.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1859] 2003-07-13 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1860] 2003-07-13 | HP | 754n | 809.99 | Pentium 4 | 2.53 | 512 DDR | 80 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1861] 2003-07-13 | Compaq | S4300NX | 849.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1862] 2003-07-13 | Sony | PCV RS310 | 799.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.circuitcity.com
+[r1863] 2003-07-13 | Dell | Dimension 2400 | 834 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1864] 2003-07-13 | Compaq | S4000Z series | 977 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1865] 2003-07-13 | HP | A250e series | 939.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1866] 2003-07-13 | HP | A250y series | 1029.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1867] 2003-07-13 | Compaq | S4000T series | 1047 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1868] 2003-07-13 | Compaq | S4210NXB | 919.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD | HP 3420 | CircuitCity Stores
+[r1869] 2003-07-13 | Compaq | S4000T | 1127 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1870] 2003-07-13 | Sony | PCV RS320 | 1199.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM | 15" Sony HS53 LCD | HP 3420 | BestBuy Stores
+[r1871] 2003-07-13 | HP | 854n Media Center | 1199.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1872] 2003-07-13 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1873] 2003-07-13 | Compaq | S8000 series | 1227 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1874] 2003-07-13 | Dell | Dimension 4600 | 1268 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1875] 2003-07-13 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1876] 2003-07-13 | HP | A250n | 1249.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW | 15" HP F1503 | HP 3420 | CircuitCity Stores
+[r1877] 2003-07-13 | HP | M260N | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM |  |  | www.circuitcity.com
+[r1878] 2003-07-13 | Sony | PCV RZ32G | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | BestBuy Stores
+[r1879] 2003-07-13 | HP | A250y series | 1422.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1880] 2003-07-13 | Dell | Dimension 4600 | 1584 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1881] 2003-07-13 | Dell | Dimension 8300 | 1574 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1882] 2003-07-13 | HP | 864n Media Center | 1499.99 | Pentium 4 | 2.66 | 512 DDR | 160 | DVD+RW/+R; CD-RW |  |  | www.hpshopping.com
+[r1883] 2003-07-13 | HP | A250y series | 1724.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1884] 2003-07-13 | Dell | Dimension XPS | 2818 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1885] 2003-07-13 | Compaq | S8000 series | 1667 | Pentium 4 HT | 3 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1886] 2003-07-13 | Dell | Dimension 8300 | 1744 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1887] 2003-07-13 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1888] 2003-07-13 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1889] 2003-07-13 | Gateway | 700XL | 2974 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1890] 2003-07-13 | Sony | PCV-RZ34G | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1891] 2003-07-26 | eMachines | T2605 | 599.99 | Athlon 2600+ | 2.133 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1892] 2003-07-26 | eMachines | T2482 | 499.99 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1893] 2003-07-26 | HP | A210e series | 539.98 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM/CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1894] 2003-07-26 | Compaq | S4000J | 528 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1895] 2003-07-26 | Compaq | S4000V | 558.99 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1896] 2003-07-26 | eMachines | T2341 | 369.99 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" Proview flat screen | Lexmark Z705 | CircuitCity Stores
+[r1897] 2003-07-26 | Compaq | S4100NX | 519.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3420 | CircuitCity Stores
+[r1898] 2003-07-26 | HP | A210n | 559.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1899] 2003-07-26 | eMachines | T2484 | 499.99 | Celeron | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F |  | BestBuy Stores
+[r1900] 2003-07-26 | HP | A200n | 469.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.circuitcity.com
+[r1901] 2003-07-26 | Compaq | S4000NX | 499.91 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3420 | Compusa Stores
+[r1902] 2003-07-26 | eMachines | T2615 | 729 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" Envision flat screen |  | Compusa Stores
+[r1903] 2003-07-26 | eMachines | T2625 | 749.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM |  |  | www.bestbuy.com
+[r1904] 2003-07-26 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1905] 2003-07-26 | Compaq | S4000T series | 649.99 | Pentium 4 HT | 2.4 | 256 DDR | 80 | DVD-ROM |  |  | BestBuy Stores
+[r1906] 2003-07-26 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1907] 2003-07-26 | Sony | PCV RS310 | 749.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.bestbuy.com
+[r1908] 2003-07-26 | Compaq | S4000Z series | 887 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1909] 2003-07-26 | HP | A230n | 829.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW |  |  | www.circuitcity.com
+[r1910] 2003-07-26 | HP | A250Y series | 849.99 | Pentium 4 HT | 2.8 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1911] 2003-07-26 | HP | A250e series | 769.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1912] 2003-07-26 | HP | A287X-B | 799.99 | Athlon 2600+ | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP LCD |  | BestBuy Stores
+[r1913] 2003-07-26 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1914] 2003-07-26 | Compaq | S4300NX | 849.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1915] 2003-07-26 | Compaq | S4210NXB | 869.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD | HP 3420 | CircuitCity Stores
+[r1916] 2003-07-26 | Dell | Dimension 2400 | 884 | Pentium 4 | 2.4 | 256 DDR | 60 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1917] 2003-07-26 | Compaq | S4000Z series | 987 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1918] 2003-07-26 | HP | A250e series | 939.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1919] 2003-07-26 | HP | A250y series | 1044.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | www.hpshopping.com
+[r1920] 2003-07-26 | Compaq | S4000T series | 1047 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1921] 2003-07-26 | HP | A250n | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW |  |  | www.circuitcity.com
+[r1922] 2003-07-26 | Compaq | S4220NX | 999.94 | Athlon 2600+ | 2.133 | 512 DDR | 120 | DVD+RW/CD-RW | 15" Compaq FPS17 |  | Compusa Stores
+[r1923] 2003-07-26 | Sony | PCV-RS311V | 999.99 | Penitum 4 | 2.4 | 512 DDR | 80 | DVD-RW | 15" Sony HS53 LCD |  | BestBuy Stores
+[r1924] 2003-07-26 | Compaq | S4000T | 1127 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1925] 2003-07-26 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1926] 2003-07-26 | Compaq | S8000 series | 1217 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1927] 2003-07-26 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1928] 2003-07-26 | Sony | PCV RS320 | 1299.94 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM | 15" Sony HS53 LCD |  | Compusa Stores
+[r1929] 2003-07-26 | HP | M260N | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM |  |  | www.circuitcity.com
+[r1930] 2003-07-26 | Sony | PCV RZ32G | 1239.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r1931] 2003-07-26 | HP | A250y series | 1439.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1932] 2003-07-26 | Dell | Dimension 4600 | 1514 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1933] 2003-07-26 | HP | A290N | 2800 | Pentium 4 HT | 3.2 | 1024 DDR | 200 | DVD+RW/CD-RW; DVD-ROM | 15" HP F1503 | HP PSC2110 | Compusa Stores
+[r1934] 2003-07-26 | HP | A250y series | 1744.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1935] 2003-07-26 | Dell | Dimension XPS | 2834 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1936] 2003-07-26 | HP | M280NB | 1999.99 | Pentium 4 HT | 3 | 512 DDR | 200 | DVD+RW/CD-RW |  |  | www.circuitcity.com
+[r1937] 2003-07-26 | Compaq | S8000 series | 1667 | Pentium 4 HT | 3 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1938] 2003-07-26 | Dell | Dimension 8300 | 1994 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1939] 2003-07-26 | Dell | Dimension 4600 | 1864 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1940] 2003-07-26 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1941] 2003-07-26 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1942] 2003-07-26 | Gateway | 700XL | 2974 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1943] 2003-07-26 | HP | M270N | 1929.98 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD+RW | 15" HP F1503 |  | BestBuy Stores
+[r1944] 2003-07-26 | Sony | PCV-RZ34G | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.circuitcity.com
+[r1945] 2003-07-26 | Dell | Dimension 8300 | 1824 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1946] 2003-08-03 | eMachines | T2605 | 599.99 | Athlon 2600+ | 2.133 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1947] 2003-08-03 | eMachines | T2482 | 489.97 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1948] 2003-08-03 | HP | A210e series | 559.98 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM;CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1949] 2003-08-03 | Compaq | S4000J | 523 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1950] 2003-08-03 | Compaq | S4000V | 553.99 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r1951] 2003-08-03 | eMachines | T2341 | 389.97 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r1952] 2003-08-03 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1953] 2003-08-03 | HP | A210n | 589.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX703 | HP 3420 | CircuitCity Stores
+[r1954] 2003-08-03 | eMachines | T2484 | 599.99 | Celeron | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F |  | www.bestbuy.com
+[r1955] 2003-08-03 | HP | A200n | 499.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW | 17" HP MX703 | HP 3420 | CircuitCity Stores
+[r1956] 2003-08-03 | Compaq | S4000NX | 419.99 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3420 | CircuitCity Stores
+[r1957] 2003-08-03 | eMachines | T2615 | 649.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1958] 2003-08-03 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r1959] 2003-08-03 | Compaq | S4000T series | 629 | Pentium 4 HT | 2.4 | 256 DDR | 80 | DVD-ROM |  |  | www.hpshopping.com
+[r1960] 2003-08-03 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r1961] 2003-08-03 | Compaq | S4000Z series | 887 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1962] 2003-08-03 | HP | A230n | 859.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW | 17" HP MX703 | HP 3420 | CircuitCity Stores
+[r1963] 2003-08-03 | HP | A250Y series | 804.98 | Pentium 4 HT | 2.8 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1964] 2003-08-03 | eMachines | T2625 | 879.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM | 15" emachines E15T | Lexmark Z705 | BestBuy Stores
+[r1965] 2003-08-03 | HP | A250e series | 774.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1966] 2003-08-03 | HP | A287X-B | 799.99 | Athlon 2600+ | 2.08 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" HP LCD |  | BestBuy Stores
+[r1967] 2003-08-03 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r1968] 2003-08-03 | Compaq | S4300NX | 799.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r1969] 2003-08-03 | Dell | Dimension 2400 | 873 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1970] 2003-08-03 | Compaq | S4000Z series | 987 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1971] 2003-08-03 | HP | A250e series | 944.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1972] 2003-08-03 | HP | A250y series | 1034.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r1973] 2003-08-03 | Compaq | S4000T series | 1047 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1974] 2003-08-03 | Sony | PCV RS320 | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.circuitcity.com
+[r1975] 2003-08-03 | Compaq | S4220NX | 999.94 | Athlon 2600+ | 2.133 | 512 DDR | 120 | DVD+RW/CD-RW | 15" Compaq FPS17 |  | Compusa Stores
+[r1976] 2003-08-03 | Sony | PCV-RS311V | 1149.99 | Penitum 4 | 2.4 | 512 DDR | 80 | DVD-RW | 15" Sony HS53 LCD |  | www.bestbuy.com
+[r1977] 2003-08-03 | Sony | PCV RS310 | 959.97 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM | 15" Sony HS53 LCD | HP 3650 | BestBuy Stores
+[r1978] 2003-08-03 | Compaq | S4210NXB | 999.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD |  | www.circuitcity.com
+[r1979] 2003-08-03 | Compaq | S8000 series | 1187 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1980] 2003-08-03 | Compaq | S4000T | 1127 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r1981] 2003-08-03 | HP | A250n | 1199.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW | 15" HP 1503 | HP 3420 | CircuitCity Stores
+[r1982] 2003-08-03 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r1983] 2003-08-03 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r1984] 2003-08-03 | HP | A250y series | 1499.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1985] 2003-08-03 | Dell | Dimension 4600 | 1418 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r1986] 2003-08-03 | HP | M260N | 1529.97 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM | 15" HP 1503 | HP 5550 | BestBuy Stores
+[r1987] 2003-08-03 | Sony | PCV RZ32G | 1459.97 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM | 15" Sony HS53 LCD | HP 3650 | BestBuy Stores
+[r1988] 2003-08-03 | HP | A290N | 2449.97 | Pentium 4 HT | 3.2 | 1024 DDR | 200 | DVD+RW/CD-RW; DVD-ROM |  |  | www.compusa.com
+[r1989] 2003-08-03 | HP | A250y series | 1829.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r1990] 2003-08-03 | Dell | Dimension XPS | 2873 | Pentium 4 HT | 3 | 1024 DCDDR | 240 RAID | DVD-ROM; CD-RW | 17" Dell E171FPb |  | www.dell.com
+[r1991] 2003-08-03 | HP | M280NB | 1999.99 | Pentium 4 HT | 3 | 512 DDR | 200 | DVD+RW/CD-RW |  |  | www.circuitcity.com
+[r1992] 2003-08-03 | Compaq | S8000 series | 1657 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; DVD+RW/CD-RW | 15" Compaq FP5017 |  | www.hpshopping.com
+[r1993] 2003-08-03 | Dell | Dimension 8300 | 1928 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1994] 2003-08-03 | Dell | Dimension 4600 | 1768 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r1995] 2003-08-03 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r1996] 2003-08-03 | vprMatrix | FT9150-PE | 1699.99 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; DVD-RW |  |  | www.bestbuy.com
+[r1997] 2003-08-03 | Gateway | 700XL | 2974 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r1998] 2003-08-03 | HP | M270N | 2099.99 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD+RW | 17" HP 1703 | HP 5650 | CircuitCity Stores
+[r1999] 2003-08-03 | Sony | PCV-RZ34G | 1749.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony HS53 LCD | Lexmark Z705 | CircuitCity Stores
+[r2000] 2003-08-03 | Dell | Dimension 8300 | 1758 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2001] 2003-08-10 | eMachines | T2482 | 489.97 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r2002] 2003-08-10 | HP | A210e series | 559.98 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM;CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2003] 2003-08-10 | Compaq | S4000J | 553 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2004] 2003-08-10 | Compaq | S4000V | 544 | Pentium 4 | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.hpshopping.com
+[r2005] 2003-08-10 | eMachines | T2341 | 389.97 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r2006] 2003-08-10 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.hpshopping.com
+[r2007] 2003-08-10 | HP | A210n | 559.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2008] 2003-08-10 | HP | A200n | 499.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW | 17" HP MX703 | HP 3420 | CircuitCity Stores
+[r2009] 2003-08-10 | eMachines | T2625 | 699.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM |  |  | www.bestbuy.com
+[r2010] 2003-08-10 | eMachines | T2615 | 649.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r2011] 2003-08-10 | eMachines | T2605 | 679.99 | Athlon 2600+ | 2.133 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" Samsung 152N LCD | Lexmark Z705 | CircuitCity Stores
+[r2012] 2003-08-10 | Medion |  | 749.99 | Pentium 4 | 2.66 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2013] 2003-08-10 | HP | A250Y series | 729.97 | Pentium 4 HT | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX703 | HP 3420 | BestBuy Stores
+[r2014] 2003-08-10 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r2015] 2003-08-10 | Compaq | S4000NX | 729.99 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3650 | BestBuy Stores
+[r2016] 2003-08-10 | Compaq | S4000Z series | 847 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2017] 2003-08-10 | HP | A230n | 869.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW | 17" HP MX703 | HP 3650 | BestBuy Stores
+[r2018] 2003-08-10 | HP | A250y series | 834.98 | Pentium 4 HT | 2.6 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2019] 2003-08-10 | Compaq | S4500NX | 899.94 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+RW; CD-ROM | 17" Compaq FS7550 |  | Compusa Stores
+[r2020] 2003-08-10 | HP | A220n | 799.94 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP MX703 |  | Compusa Stores
+[r2021] 2003-08-10 | HP | A250e series | 824.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2022] 2003-08-10 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r2023] 2003-08-10 | Sony | PCV RS310 | 899.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM | 15" Sony HS53 LCD | Lexmark Z705 | CircuitCity Stores
+[r2024] 2003-08-10 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3650 | BestBuy Stores
+[r2025] 2003-08-10 | Compaq | S4000Z series | 947 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2026] 2003-08-10 | HP | A250e series | 924.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2027] 2003-08-10 | HP | A250y series | 1034.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2028] 2003-08-10 | HP | A250n | 1039.97 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW | 17" HP MX703 | HP 3650 | BestBuy Stores
+[r2029] 2003-08-10 | Compaq | S4000T series | 1007 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2030] 2003-08-10 | Sony | PCV RS320 | 949.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.circuitcity.com
+[r2031] 2003-08-10 | Compaq | S4300NX | 999.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Compaq FP5315 | HP 3420 | CircuitCity Stores
+[r2032] 2003-08-10 | Compaq | S4210NXB | 999.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD |  | www.circuitcity.com
+[r2033] 2003-08-10 | Dell | Dimension 2400 | 937 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r2034] 2003-08-10 | Compaq | S8000 series | 1157 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2035] 2003-08-10 | Compaq | S4000T | 1087 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2036] 2003-08-10 | Dell | Dimension 4600 | 1089 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD-ROM; DVD+RW/+R | 17" Dell E773 |  | www.dell.com
+[r2037] 2003-08-10 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r2038] 2003-08-10 | Dell | Dimension 4600 | 1229 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; DVD+RW/+R | 17" Dell E773 |  | www.dell.com
+[r2039] 2003-08-10 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r2040] 2003-08-10 | Sony | PCV RZ32G | 1249.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r2041] 2003-08-10 | HP | A250y series | 1509.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2042] 2003-08-10 | Compaq | S8000 series | 1497 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; CD-RW | 15" Compaq FP15 |  | www.hpshopping.com
+[r2043] 2003-08-10 | HP | A262N | 1499.99 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; DVD+RW/+R | 15" HP F1503 |  | Compusa Stores
+[r2044] 2003-08-10 | HP | M260N | 1499.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM | 15" HP F1503 | HP 3420 | CircuitCity Stores
+[r2045] 2003-08-10 | HP | A290N | 2449.97 | Pentium 4 HT | 3.2 | 1024 DDR | 200 | DVD+RW/CD-RW; DVD-ROM |  |  | www.compusa.com
+[r2046] 2003-08-10 | Gateway | 700XL | 2974 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r2047] 2003-08-10 | HP | A250y series | 1829.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2048] 2003-08-10 | HP | M280NB | 1999.99 | Pentium 4 HT | 3 | 512 DDR | 200 | DVD+RW/CD-RW |  |  | www.circuitcity.com
+[r2049] 2003-08-10 | HP | Media Center | 1764 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD+RW/+R | 15" HP vf15 |  | www.hpshopping.com
+[r2050] 2003-08-10 | Dell | Dimension 8300 | 1939 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2051] 2003-08-10 | Dell | Dimension 4600 | 1759 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; DVD+RW/+R | 15" Dell E151FPb |  | www.dell.com
+[r2052] 2003-08-10 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2053] 2003-08-10 | HP | M270N | 1829.97 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD+RW | 15" HP F1503 | HP 5550 | BestBuy Stores
+[r2054] 2003-08-10 | Sony | PCV-RZ34G | 1759.97 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony HS53 LCD | HP 3650 | BestBuy Stores
+[r2055] 2003-08-10 | Dell | Dimension 8300 | 1769 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2056] 2003-08-17 | eMachines | T2615 | 589.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r2057] 2003-08-17 | eMachines | T2482 | 469.99 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Proview PRO745  | Lexmark Z705 | CircuitCity Stores
+[r2058] 2003-08-17 | HP | A210e series | 559.98 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM;CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2059] 2003-08-17 | Compaq | S4000J | 553 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2060] 2003-08-17 | Compaq | S4000V | 599.99 | Pentium 4 | 2.2 | 256 DDR | 40 | DVD-ROM | 15" Compaq FP15 | HP 3450 | BestBuy Stores
+[r2061] 2003-08-17 | eMachines | T2341 | 369.99 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" Proview PRO745  | Lexmark Z705 | CircuitCity Stores
+[r2062] 2003-08-17 | Compaq | S4100NX | 529.97 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq FS7550 | HP 3650 | BestBuy Stores
+[r2063] 2003-08-17 | HP | A210n | 459.99 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2064] 2003-08-17 | HP | A200n | 469.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r2065] 2003-08-17 | Compaq | S4000NX | 429.97 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3650 | BestBuy Stores
+[r2066] 2003-08-17 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2067] 2003-08-17 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r2068] 2003-08-17 | Sony | PCV RS310 | 749.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.bestbuy.com
+[r2069] 2003-08-17 | Compaq | S4000Z series | 857 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2070] 2003-08-17 | HP | A230n | 829.99 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW |  |  | www.circuitcity.com
+[r2071] 2003-08-17 | eMachines | T2625 | 699.99 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM | 15" eMachines E15T | Lexmark Z705 | BestBuy Stores
+[r2072] 2003-08-17 | Compaq | S4500NX | 899.94 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+RW; CD-ROM | 17" Compaq FS7550 |  | Compusa Stores
+[r2073] 2003-08-17 | HP | A250e series | 774.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2074] 2003-08-17 | HP | A250y series | 899.99 | Pentium 4 HT | 2.6 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" HP VF15 | HP 3650 | BestBuy Stores
+[r2075] 2003-08-17 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r2076] 2003-08-17 | Compaq | S4300NX | 849.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2077] 2003-08-17 | Compaq | S4210NXB | 879.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Compaq LCD | HP 3650 | CircuitCity Stores
+[r2078] 2003-08-17 | Compaq | S4000Z series | 957 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2079] 2003-08-17 | HP | A250e series | 944.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2080] 2003-08-17 | HP | A250y series | 1034.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2081] 2003-08-17 | HP | A250n | 1059.94 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW | 17" HP MX703 |  | Staples Stores
+[r2082] 2003-08-17 | Compaq | S4000T series | 957 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2083] 2003-08-17 | Dell | Dimension 2400 | 992 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2084] 2003-08-17 | Compaq | S8000T | 1197 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2085] 2003-08-17 | Compaq | S4000T | 1077 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2086] 2003-08-17 | Sony | PCV RS320 | 1099.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM | 15" Sony HS53 LCD | Lexmark Z705 | CircuitCity Stores
+[r2087] 2003-08-17 | Gateway | 500S  | 1119 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r2088] 2003-08-17 | Gateway | 500X | 1369 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r2089] 2003-08-17 | HP | M260N | 1299.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM |  |  | www.hpshopping.com
+[r2090] 2003-08-17 | Sony | PCV RZ32G | 1249.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r2091] 2003-08-17 | Dell | Dimension 4600 | 1267 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2092] 2003-08-17 | HP | A250y series | 1524.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2093] 2003-08-17 | Compaq | S8000 series | 1447 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; CD-RW | 15" Compaq FP15 |  | www.hpshopping.com
+[r2094] 2003-08-17 | HP | M270N | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD+RW |  |  | www.hpshopping.com
+[r2095] 2003-08-17 | Dell | Dimension 4600 | 1587 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2096] 2003-08-17 | HP | Pavilion 876xb | 1479.98 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD+RW | 17" HP LCD | HP 3650 | BestBuy Stores
+[r2097] 2003-08-17 | HP | A290N | 2449.97 | Pentium 4 HT | 3.2 | 1024 DDR | 200 | DVD+RW/CD-RW; DVD-ROM |  |  | www.compusa.com
+[r2098] 2003-08-17 | Gateway | 700XL | 2949 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r2099] 2003-08-17 | HP | A250y series | 1844.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2100] 2003-08-17 | HP | M280NB | 1999.99 | Pentium 4 HT | 3 | 512 DDR | 200 | DVD+RW/CD-RW |  |  | www.hpshopping.com
+[r2101] 2003-08-17 | HP | Media Center | 1764 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD+RW/+R | 15" HP vf15 |  | www.hpshopping.com
+[r2102] 2003-08-17 | Dell | Dimension 8300 | 1917 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2103] 2003-08-17 | Dell | Dimension 4600 | 1757 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2104] 2003-08-17 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2105] 2003-08-17 | Sony | PCV-RZ34G | 1749.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW | 15" Sony HS53 LCD | Lexmark Z705 | CircuitCity Stores
+[r2106] 2003-08-17 | Dell | Dimension 8300 | 1747 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2107] 2003-08-24 | eMachines | T2615 | 589.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r2108] 2003-08-24 | HP | A250e series | 599.99 | Athlon 2600+ | 2.08 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2109] 2003-08-24 | eMachines | T2482 | 489.97 | Athlon 2400+ | 2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" eMachines 17F | Lexmark Z705 | CircuitCity Stores
+[r2110] 2003-08-24 | HP | A210e series | 559.98 | Athlon 2400+ | 2 | 256 DDR | 40 | DVD-ROM;CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2111] 2003-08-24 | Compaq | S4000J | 553 | Athlon 2400+ | 2 | 256 DDR | 40 | CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2112] 2003-08-24 | Compaq | S4000V | 549.99 | Pentium 4 | 2.2 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" Compaq CV7500 | HP 3450 | BestBuy Stores
+[r2113] 2003-08-24 | eMachines | T2341 | 389.97 | Athlon 2300+ | 1.91 | 128 DDR | 40 | CD-RW | 17" eMachines 17F | Lexmark Z705 | BestBuy Stores
+[r2114] 2003-08-24 | Compaq | S4100NX | 499.99 | Celeron  | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r2115] 2003-08-24 | HP | A210n | 519.97 | Celeron | 2.5 | 256 DDR | 80 | DVD-ROM; CD-RW | 17" HP MX70 | HP 3650 | BestBuy Stores
+[r2116] 2003-08-24 | HP | A200n | 469.99 | Celeron | 2.4 | 256 DDR | 40 | CD-RW |  |  | www.bestbuy.com
+[r2117] 2003-08-24 | Compaq | S4000NX | 429.97 | Celeron | 2.4 | 128 DDR | 40 | CD-RW | 17" Compaq FS7550 | HP 3650 | CircuitCity Stores
+[r2118] 2003-08-24 | HP | A220n | 679.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2119] 2003-08-24 | HP | A250e series | 699.99 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2120] 2003-08-24 | eMachines | D2586 | 698.45 | Athlon 2500+ | 2 | 256 DDR | 80 | DVD+/-RW |  |  | Office Depot Stores
+[r2121] 2003-08-24 | Sony | PCV RS210 | 749.99 | Pentium 4 | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW |  |  | www.bestbuy.com
+[r2122] 2003-08-24 | Sony | PCV RS310 | 749.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-RW/CD-ROM |  |  | www.bestbuy.com
+[r2123] 2003-08-24 | Compaq | S4000Z series | 857 | Athlon 2800 + | 2.08 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2124] 2003-08-24 | HP | A230n | 869.97 | Athlon 2800 + | 2.08 | 512 DDR | 120 | DVD+RW | 17" HP MX703 | HP 3650 | BestBuy Stores
+[r2125] 2003-08-24 | eMachines | T2625 | 879.97 | Athlon 2600+ | 2.13 | 512 DDR | 120 | DVD+/-RW; DVD-ROM | 15" eMachines E15T | Lexmark Z705 | BestBuy Stores
+[r2126] 2003-08-24 | HP | A250e series | 774.98 | Athlon 2600+ | 2.08 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2127] 2003-08-24 | HP | A250y series | 899.99 | Pentium 4 HT | 2.6 | 256 DDR | 80 | DVD-ROM; CD-RW | 15" HP VF15 | HP 3650 | BestBuy Stores
+[r2128] 2003-08-24 | Sony | PCV-RS220 | 899.99 | Pentium 4 | 2.53 | 512 DDR | 120 | DVD-RW/CD-RW |  |  | www.bestbuy.com
+[r2129] 2003-08-24 | Compaq | S4300NX | 799.99 | Pentium 4 HT | 2.4 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2130] 2003-08-24 | Compaq | S4210NXB | 849.99 | Pentium 4 | 2.4 | 256 DDR | 80 | DVD-ROM; CD-RW |  |  | www.circuitcity.com
+[r2131] 2003-08-24 | Dell | Dimension 2400 | 848 | Pentium 4 | 2.4 | 256 DDR | 40 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r2132] 2003-08-24 | Compaq | S4000Z series | 957 | Athlon 3000+ | 2.16 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2133] 2003-08-24 | HP | A250e series | 944.98 | Athlon 3000+ | 2.16 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2134] 2003-08-24 | HP | A250y series | 1034.98 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 17" HP V70s |  | www.hpshopping.com
+[r2135] 2003-08-24 | Compaq | S4000T series | 957 | Pentium 4 HT | 2.6 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2136] 2003-08-24 | HP | A250n | 999.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+R/RW |  |  | www.circuitcity.com
+[r2137] 2003-08-24 | Sony | PCV RS320 | 949.99 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-RW; CD-ROM |  |  | www.bestbuy.com
+[r2138] 2003-08-24 | Dell | Dimension 4600 | 1043 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r2139] 2003-08-24 | Gateway | 500S  | 1019 | Pentium 4 HT | 2.4 | 512 DDR | 80 | DVD-ROM; CD-RW | 17" Gateway Monitor |  | www.gateway.com
+[r2140] 2003-08-24 | Compaq | S4000T series | 961 | Pentium 4 HT | 2.4 | 256 DDR | 40 | DVD-ROM; CD-RW | 15" Compaq FP15 |  | Office Depot Stores
+[r2141] 2003-08-24 | Compaq | S8000T | 1197 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2142] 2003-08-24 | Compaq | S4000T | 1077 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD-ROM; CD-RW | 17" Compaq CV7500 |  | www.hpshopping.com
+[r2143] 2003-08-24 | Dell | Dimension 4600 | 1183 | Pentium 4 HT | 2.8 | 512 DDR 333MHz | 120 | DVD-ROM; CD-RW | 17" Dell E773 |  | www.dell.com
+[r2144] 2003-08-24 | Gateway | 500X | 1269 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD-ROM; CD-RW | Gateway 15" LCD |  | www.gateway.com
+[r2145] 2003-08-24 | Sony | PCV RZ32G | 1249.99 | Pentium 4 HT | 2.6 | 512 DDR | 80 | DVD+/-RW; CD-ROM |  |  | www.circuitcity.com
+[r2146] 2003-08-24 | HP | A250y series | 1524.98 | Pentium 4 HT | 3 | 512 DDR | 120 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2147] 2003-08-24 | Compaq | S8000 series | 1447 | Pentium 4 HT | 3 | 512 DDR | 160 | DVD-ROM; CD-RW | 15" Compaq FP15 |  | www.hpshopping.com
+[r2148] 2003-08-24 | HP | M270N | 1599.99 | Pentium 4 HT | 2.8 | 512 DDR | 160 | DVD+RW |  |  | www.hpshopping.com
+[r2149] 2003-08-24 | Sony | PCV-RZ34G | 1549.99 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD+/-RW; CD-RW |  |  | www.bestbuy.com
+[r2150] 2003-08-24 | HP | M260N | 1509.97 | Pentium 4 HT | 2.6 | 512 DDR | 120 | DVD+RW; CD-ROM | 15" HP F1503 | HP 3650 | BestBuy Stores
+[r2151] 2003-08-24 | HP | A290N | 2449.97 | Pentium 4 HT | 3.2 | 1024 DDR | 200 | DVD+RW/CD-RW; DVD-ROM |  |  | www.compusa.com
+[r2152] 2003-08-24 | Gateway | 700XL | 2959.98 | Pentium 4 HT | 3.2 | 512 DDR | 250 | DVD-R/-RW/CD-RW | 17" Gateway LCD Flat Panel |  | www.gateway.com
+[r2153] 2003-08-24 | HP | A250y series | 1844.98 | Pentium 4 HT | 3.2 | 512 DDR | 160 | CD-ROM; DVD+RW/CD-RW | 15" HP vf15 |  | www.hpshopping.com
+[r2154] 2003-08-24 | HP | M280NB | 1999.99 | Pentium 4 HT | 3 | 512 DDR | 200 | DVD+RW/CD-RW |  |  | www.hpshopping.com
+[r2155] 2003-08-24 | HP | Media Center | 1764.98 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD+RW/+R | 15" HP vf15 |  | www.hpshopping.com
+[r2156] 2003-08-24 | Dell | Dimension 8300 | 1923 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2157] 2003-08-24 | Dell | Dimension 4600 | 1623 | Pentium 4 HT | 3 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+[r2158] 2003-08-24 | Alienware | Area 51 hybrid | 2025 | Pentium 4 HT | 3.06 | 512 DDR | 120 | DVD-ROM; CD-RW |  |  | BestBuy Stores
+[r2159] 2003-08-24 | Dell | Dimension 8300 | 1753 | Pentium 4 HT | 2.8 | 512 DDR | 120 | DVD-ROM; CD-RW | 15" Dell E151FPb |  | www.dell.com
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | dct-access-pc-deals-2002-2003 |
+| title | DCT Access PC Deals Database, 2002-2003 |
+| author | Peter S. Kastner |
+| date | 2003-08-24 |
+| type | dct |
+| subject_domain | dct |
+| methodology | market-tracking |
+| source_file | access PC Deals 2002-2003.xls |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aggregate Microsoft Access-derived database of weekly U.S. consumer desktop PC pricing from July 2002 through August 2003, covering 2,159 SKU-week listings across 10 canonical PC makers (Dell, HP, Compaq, Sony, eMachines, Gateway, Alienware, VPR Matrix, Medion, Best Buy house brand) and 23 canonical retail channels (Dell.com, BestBuy.com/stores, HP Shopping, Circuit City, CompUSA, Sony Style, Staples, MicroCenter, and others). Kastner built this as the canonical reference dataset for his Digital Consumer Technology weekly pricing commentary, capturing list price, CPU class/speed, memory, HDD, optical, monitor, printer, and merchant for each tracked configuration across 51 distinct pricing dates.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | The canonical 13-month longitudinal record of U.S. consumer desktop PC pricing during the post-dot-com price war era. Captures the Pentium 4 / Athlon XP generation, RDRAM->DDR transition, and the rise of sub-$500 eMachines-style PCs. |
+| **Relevance** | medium | Direct contemporary relevance is limited, but the dataset is highly relevant for economic historians studying the PC industry commoditization cycle and for teaching competitive dynamics in mature consumer hardware markets. |
+| **Prescience** | not-applicable | This is primary market data, not a predictive study; no forward-looking claims are made in the source data. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (32)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Alienware | company | [DEFERRED] |  |
+| Best Buy | company | [DEFERRED] | [DEFERRED] |
+| Compaq | company | dissolved | HP (2002) |
+| Dell | company | active |  |
+| eMachines | company | [DEFERRED] |  |
+| Gateway, Inc. | company | acquired | Acer (2007) |
+| Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
+| Medion AG | company | [DEFERRED] |  |
+| Sony Corporation | company | active |  |
+| VPR Matrix (Best Buy house brand) | company | [DEFERRED] |  |
+| Alienware.com | company | [DEFERRED] |  |
+| BestBuy.com | company | [DEFERRED] |  |
+| Circuit City (stores) | company | [DEFERRED] |  |
+| CircuitCity.com | company | [DEFERRED] |  |
+| Compaq At Home (athome.compaq.com) | company | [DEFERRED] |  |
+| CompUSA | company | [DEFERRED] | [DEFERRED] |
+| Costco.com | company | [DEFERRED] |  |
+| Dell.com | company | [DEFERRED] |  |
+| eMachines.com | company | [DEFERRED] |  |
+| Fry's / Outpost.com | company | [DEFERRED] |  |
+| Gateway.com | company | [DEFERRED] |  |
+| HP Shopping | company | [DEFERRED] |  |
+| MicroCenter | company | [DEFERRED] |  |
+| Office Depot | company | [DEFERRED] |  |
+| Office Max | company | [DEFERRED] |  |
+| PC Connection | company | [DEFERRED] |  |
+| PC Mall | company | [DEFERRED] |  |
+| PCRush.com | company | [DEFERRED] |  |
+| RadioShack | company | [DEFERRED] |  |
+| Sony Style | company | [DEFERRED] |  |
+| Staples | company | [DEFERRED] |  |
+| Tech Depot | company | [DEFERRED] |  |
+
+### Technologies Referenced (10)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Pentium 4 | platform | Intel | mature | legacy |
+| Intel Pentium 4 with Hyper-Threading | platform | Intel | new | legacy |
+| Intel Celeron | platform | Intel | mature | legacy |
+| AMD Athlon XP | platform | AMD | mature | legacy |
+| AMD Athlon (non-XP) | platform | AMD | mature | legacy |
+| AMD Duron | platform | AMD | mature | discontinued |
+| Desktop PC form factor | platform |  | mature | mature |
+| DVD-ROM / CD-RW Combo Drive | platform |  | new | obsolete |
+| RDRAM (Rambus DRAM) | platform | Rambus | declining | obsolete |
+| DDR SDRAM | platform |  | mature | legacy |
+
+### Observation Summary
+
+- Total observations: 122
+- By type: market-data: 121, framework-factor: 1

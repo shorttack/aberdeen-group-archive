@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "CMP Corporate PC Replacement Policy Survey",
+  "description": "Survey instrument and results tracking corporate desktop and notebook replacement policies across U.S. IT buyers, comparing past policy against 'next 12 months' plans. Replacement interval bins: <18, 18-24, 24-30, 30-36, 36-42, 42-48, 48-54, >54 months, and 'when they break'. Instrument was fielded in partnership with CMP Media; this workbook contains the question framework and partial response tabulations that became inputs to Kastner's DCT corporate PC lifecycle commentary.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-06-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

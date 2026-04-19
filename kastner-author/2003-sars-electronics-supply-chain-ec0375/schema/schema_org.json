@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Asian Virus Casts Shadow Over Supply Chain: SARS Impact on Asia/Pacific Semiconductor and Electronics Manufacturing",
+  "description": "Aberdeen Group analyst report (Russ Craig and Peter Kastner) excerpted by PlanetAnalog/EBN on April 16, 2003, examining the potential impact of the SARS epidemic on the PRC- and Taiwan-centered global electronics supply chain. The authors quantify Asia/Pacific's 37% share of 2002 semiconductor consumption ($52B), document early SARS clusters in Guangdong, Shenzhen, Guangzhou, Hong Kong, Singapore, and Taiwan, and assess the vulnerability of dependable component supply \u2014 particularly for no-second-source items like PRC-made AC/DC power supplies \u2014 should quarantines extend. The report ends with a prescient warning that investor confidence in the PRC will take years to rebuild given government opacity about the outbreak.",
+  "creator": {
+    "@type": "Person",
+    "name": "Russ Craig; Peter S. Kastner"
+  },
+  "datePublished": "2003-04-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

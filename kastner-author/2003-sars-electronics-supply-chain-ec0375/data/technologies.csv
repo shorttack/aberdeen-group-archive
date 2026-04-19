@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"8-inch-semiconductor-fab","8-inch Semiconductor Wafer Fab","platform","multi-vendor","1990s-2000s","mature","legacy-active","2003-sars-electronics-supply-chain-ec0375","Eight new PRC fabs under construction in 2003; still used for mature/analog nodes in 2026."
+"ac-dc-power-supply","AC-to-DC Power Supply (external)","platform","multi-vendor","1980s-","mature","mature","2003-sars-electronics-supply-chain-ec0375","Highlighted as canonical no-second-source PRC-made component; 'little black cubes.'"
+"wifi-80211b","WiFi 802.11b","protocol","IEEE","1999-2007","emerging","legacy-superseded","2003-sars-electronics-supply-chain-ec0375","85%+ of 2003 WiFi gear made in Taiwan/PRC."
+"laptop-pc","Laptop PC","platform","multi-vendor","1990s-","mature","mature","2003-sars-electronics-supply-chain-ec0375","Assembled anywhere but dependent on PRC power supplies."
+"desktop-pc","Desktop PC","platform","multi-vendor","1980s-","mature","mature","2003-sars-electronics-supply-chain-ec0375","Asia/Pacific dominant source."
+"playstation-console","Sony PlayStation (console line)","platform","Sony","1994-","mature","mature","2003-sars-electronics-supply-chain-ec0375","Sony moved all PlayStation manufacturing to PRC in 2003."
+"graphics-processor-unit","Graphics Processor Unit (GPU)","platform","multi-vendor","1990s-","mature","mature","2003-sars-electronics-supply-chain-ec0375","ATI launch delayed by SARS; nVidia rivalry noted."

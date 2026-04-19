@@ -28,3 +28,9 @@ Sources reviewed but not ingested into `kastner_quotes_clean.csv` or as archival
 - **Batch**: Batch 5 (2026-04-19), file 04 of 10
 
 ---
+
+## Batch 6 skips (2026-04-19)
+
+- **Apple bolsters Xserve platform** (InfoWorld, 2004-01-09) — mirror of existing seq 179 "Apple Xserve G5: Does It Matter?" (rows 342-343). Same article, same date, same InfoWorld publisher, same core quotes. SKIP.
+- **Apple Exec Speaks On OS X Security** (Mac Observer, 2004-06-14) — commentary page that summarizes the Wired News article "Apple Makes Its Case for Security" (already captured at seq 418, rows 783-785). The only Kastner attribution is a paraphrase of the Wired quote ("overblown"). SKIP.
+- **Apple Makes Its Case for Security** (Wired News, 2004-06-14) — ALREADY captured in full at seq 418 (rows 783-785). Byte-identical content to what we ingested in a prior batch. SKIP.

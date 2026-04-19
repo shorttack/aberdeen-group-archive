@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-kastner","Peter S. Kastner","person","IT-research","active","","1969-present","ca-internet-app-dev-sales-training-1996-48db9c","Presenter (titled Vice President, Aberdeen 1996)."
+"aberdeen-group","Aberdeen Group","company","IT-research","acquired-by-harte-hanks","Harte-Hanks (2007)","1988-2007","ca-internet-app-dev-sales-training-1996-48db9c","Publisher."
+"computer-associates","Computer Associates International, Inc.","company","enterprise-software","renamed","CA Technologies (2006) -> Broadcom (2018)","1976-present","ca-internet-app-dev-sales-training-1996-48db9c","Training host."
+"netscape","Netscape Communications","company","software","acquired-dissolved","AOL (1999) -> brand retired","1994-2003","ca-internet-app-dev-sales-training-1996-48db9c","Canonical example browser in 1996 deck."

@@ -1,0 +1,154 @@
+# interBiz Solutions BizWorks Profile — Management Command and Control for the E-World
+
+> Archived from: CAinterBizProfile2.odt
+> Original publication date: 1999-01-01
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+===== FILE: CAinterBizProfile2.odt =====
+﻿interBiz Solutions
+A Division of Computer Associates International, Inc.	
+One Computer Associates Plaza
+Islandia, NY  11788-7000
+(516) 342-5324
+interBiz.cai.com
+interBiz Solutions:  Management Command and Control 
+for the E-World
+Executive Summary
+interBiz Solutions, the new application software and services division of Computer Associates International, Inc. (CA), has unveiled an innovative strategy to bring an open solution for end-to-end, cross-enterprise application integration to market this fall.  Unlike the existing Enterprise Application Integration (EAI) products for data and process automation, the interBiz technology is aimed squarely at creating a new class of business applications.  interBiz-driven applications will provide for real-time enterprise management and control in ways not previously practical; and they will help enterprises leverage — and avoid being crippled by — the Internet.
+The core technology, a software-infrastructure “framework” and tools called BizWorks™, will tie best-of-breed applications and processes together.  BizWorks will be delivered by CA’s burgeoning professional services organization — and professional services partners — in custom applications aimed at competitive-edge new business processes.  With BizWorks, CA is leveraging its multi-billion-dollar technology investment in Unicenter TNG’s enterprise management, Jasmine’s object-database technology, 3D visualization, the agent-based pattern recognition capability of Neugents, and numerous other technologies.
+BizWorks can build applications that span departments and across enterprises; harness the vast information sources of the Internet (e.g., news reports and financial analysis); predict business events based on historical data; and react to these events with human analysis and decision-making placed anywhere inside or outside the management command-and-control loop.  interBiz Solutions will make the BizWorks framework available at modest cost; the CA division will earn its living from add-on and integration software licenses, and professional services.
+Enterprises frustrated by the enormous and ongoing investments in information technology (IT) infrastructure plumbing, and concerned about the need to build automated processes with supply-chain partners, will find the interBiz Solutions’ technology proposition unique — and the business proposition very attractive.
+BizWorks Application Attributes
+BizWorks software provides a messaging infrastructure that can cross the Internet to business partners or information services, and it supplies application program services for collecting, analyzing, visualizing, and acting on business events.  Unlike tradition business applications, BizWorks-enabled applications have these attributes:
+    • Business-to-Business.  BizWorks provides for the wide information access and view from customers and suppliers.  BizWorks applications and agents will operate on a wide variety of platforms, easing business-to-business interoperability issues.
+    • Prediction.  Neugents, CA’s patented software agents that analyze business data conditions over time, can optimize the analysis and decision-making of knowledge workers, alert humans when unusual patterns or data conditions are met, and predict future conditions in real time based on past history.  With Neugents watching almost any process day-in and day-out, knowledge workers will have more time for managing the exceptions.  BizWorks’ Neugents condense reams of data into highly visual, actionable trends that predict future process behavior.
+    • Management Intelligence.  BizWorks applications see through the patterns, filter out the normal, and facilitate rapid responses to changing business conditions.   BizWorks understands the workflow of management decision-making.  And BizWorks has sophisticated visualization technology that can highlight the decision-making issues and the likely consequences of a decision — a picture can truly be worth 1,000 words.
+The BizWorks Value Proposition
+As global business accelerates to Internet speed, the ability to foresee emerging opportunities and respond to them intelligently is becoming a true competitive advantage.  The IT millstone slowing down an enterprise’s ability to execute on this vision is quite simply the enormous technology integration required to connect disparate applications — from both inside and outside the enterprise.  The recipe for success requires access to supply-chain partners — and their partners — and to customers.  But tying together a supply chain raises the technology complexity exponentially as numerous cross-platform integration, security, and systems management issues collide with the finite ability of IT organizations to integrate and manage an essentially infinite set of hardware, software, network, and application permutations.
+The value proposition is simple.  interBiz Solutions products and services have demonstrable advantages in: 
+    • Life-cycle costs, because CA can spread its multi-billion-dollar technology investments over many customers, lowering unit costs;
+    • Technology risk, because CA is better suited to keeping BizWorks technology up-to-date with the expected torrent of technology changes;
+    • Time to market, given that implementing the functional equivalent of BizWorks would require years, assuming that it would be even possible and that cost were no object;
+    • Cross-enterprise “United Nations” for end-to-end applications means BizWorks or BizWorks agents can be installed at modest cost and with no intrusion at an enterprise’s suppliers and even customers.  The cross-platform capabilities of BizWorks are excellent.  And BizWorks provides the data translation, management, and security services that will allow events and messages to move through the extended supply chain.
+The rather compelling interBiz Solutions argument is that, given the advantages highlighted above, enterprises should “buy” interBiz products and services rather than “make” them.  Table 1 lists the components of BizWorks.
+Table 1:  BizWorks’ Base Technology Components
+Function	Description
+Framework	Cross-platform messaging infrastructure
+Agents	Collect and analyze business conditions in real-time
+Repository	Store application, rules, and management metadata
+Forms	Extensible Markup Language (XML) engine for cross-Internet data transmission
+and retrieval
+Neugents™	Analyze agent data for patterns, predict future trends, and alert humans, other business applications, or devices (e.g., pagers and alarms)
+Intelligence	Search outside data sources for real-time business event data such as competitors’ announcements; pass to agents for analysis
+Workflow	Manage the distribution of business actions and documents
+Document 
+Management	E-mail, charts, graphs, reports and other output supplied to the workflow engine
+Management	Cross-platform operations console and management tools
+Development	Application development tools based on Jasmine TND
+ Source:  Aberdeen Group, August 1999
+Market Positioning
+interBiz Solutions believes that it has created a leading-edge opportunity at the dawn of the age of cross-enterprise, Internet-enabled applications.  Companies in highly competitive markets, including financial services, telecommunications, and retail/distribution, are contemplating these kinds of applications for early deployment.  
+The real-time nature of the BizWorks framework lends itself to a new breed of applications that, for example, use operational data for decision support, watch for patterns that may indicate manufacturing quality or financial fraud, or monitor complex but mission-critical supply chain issues.  The capabilities of BizWorks fit well with the burgeoning business-to-business electronic-commerce (e-commerce) market, particularly in supply chain management and procurement automation.  BizWorks is also ideally suited to monitor recently invented, Internet-based application categories such as online auctions and exchanges.  The business-to-business e-commerce market is widely forecast to explode to over one trillion dollars in less than five years.  interBiz Solutions believes that these kinds of applications make an attractive primary market, because the large enterprises involved are likely to quickly understand the business issues involved, and will be attracted to the BizWorks’ value proposition discussed above.
+CA’s existing customers provide an obvious market.  Those interBiz Solutions customers who have already installed an interBiz financial management, logistics, manufacturing or banking application and have installed CA’s Unicenter TNG enterprise management suite should closely evaluate BizWorks.  Adding BizWorks to an enterprise that already uses the Unicenter TNG infrastructure “plumbing” requires less customer effort, not surprisingly, than for those enterprises that lack a similar infrastructure backbone.  So interBiz Solutions views customers who want to add process management to Unicenter TNG’s enterprise management as an excellent market opportunity.
+Complicating the market positioning of BizWorks is its lack of a defined IT category.  Aberdeen believes BizWorks should not be lumped into the already fragmented Enterprise Application Integration (EAI) market — which is largely focused on data integration, with an emerging process-integration category.  Aberdeen views BizWorks as the first entrant in a category that we have called Enterprise Business Integration (EBI).  It is the end-to-end management and control aspect of BizWorks that differentiates it from the products in the EAI space.
+Competition: Do-It-Yourself Versus Outside Help
+By far the biggest competitor for BizWorks is internal development by the enterprise IT department, either alone or in conjunction with a line-of-business IT department.  No doubt the IT practitioners will enjoy the challenge of harnessing new technologies surrounding the Internet.  However, there will be, in Aberdeen’s view, little synergy from individual projects, so the enterprise is unlikely to gain sustained competitive advantage from a project-to-project initiative.
+In side-by-side analysis on paper, the typical large-enterprise IT shop’s EBI tool set will pale compared to the depth, number of platforms, ongoing investment, scalable architecture, and mission-critical stability of the CA technology suite.  However, it will require a forward-thinking enterprise management team to realize that the best investment for both the long and short term is not likely to be an internal “make” decision.  Aberdeen does not believe do-it-yourself is the answer for most organizations.  There are large technology risks and time-to-market issues for enterprises attempting to do this alone.
+For those enterprises seeking outside assistance, interBiz Solutions finds itself in competition with the top-tier systems integration firms, notably IBM and the Big Four, and Oracle Corporation.  The top-tier systems integrators have the advantage of more experience and personnel than CA in developing custom enterprise applications.  But that advantage is largely restricted to applications focused within the enterprise, such as ERP.  interBiz Solutions’ deployable infrastructure-product functionality becomes highly desirable when an enterprise’s business model requires cross-enterprise deployment to customers and partners.  
+Of the top-tier integration firms, Aberdeen views IBM as closest to CA in breadth of product.  Although IBM is certainly capable in the global services department, IBM has not articulated a vision or product strategy for EBI.  
+The Big Four integrators will likely compete as well as partner with CA in the EBI space.  CA believes the Big Four can benefit from CA’s technology as the Big Four gear up for post-ERP engagements in e-business application building.  CA also plans to work with its growing value-added reseller (VAR) channel to help VARs create vertical market solutions based on BizWorks.
+Aberdeen views Oracle as a natural competitor to CA, particularly because Oracle is focused on delivering its applications tied to its database for e-business.  
+Aberdeen Observations and Conclusions
+CA has done a masterful job in crafting its EBI plans for the interBiz Solutions business unit.  Already a leader in enterprise management with Unicenter TNG, CA is taking a logical but not obvious step up the IT food chain in now focusing on the productivity requirements of a much broader market — knowledge workers and managers.
+Customer investments in next-generation IT architectures and infrastructure will be large and require senior-executive leadership.  However, Aberdeen believes that such infrastructures will be commonplace in a decade.  The early-bird competitive advantage is likely to go to those enterprises that decide to bring in a technology solution from the outside rather than develop one in-house.  At this time, 
+BizWorks from CA’s interBiz Solutions is the only game in town.
+The plan to make the BizWorks infrastructure framework widely available at low cost is especially important to the interBiz Solutions strategy.  The plan will make it much easier for business partners to share technology development — and business benefits — regardless of the partner’s base technology platforms.  As a result, Aberdeen expects a faster adoption rate than with traditional approaches.
+In the long term, the interBiz Solutions strategy will be less important than its execution.  CA is making a major investment in technology and in beefing up its professional services organization and integration partner relationships.  CA believes that this initiative opens up another multi-billion-dollar market where the company can be a leader.  Our conclusion is that, even though interBiz Solutions is a division of CA, the BizWorks effort has the “full faith and credit” of CA management and the efforts of the entire company.  Given the proximity of BizWorks to CA’s core development efforts, Aberdeen believes this is but the first version of a long-lived — and likely successful — business and technology initiative.
+
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | ca-interbiz-bizworks-profile-054f3c |
+| title | interBiz Solutions BizWorks Profile — Management Command and Control for the E-World |
+| author | Peter S. Kastner |
+| date | 1999-01-01 |
+| type | employer-record |
+| subject_domain | employer/aberdeen-group |
+| methodology | competitive-profiling, technology-assessment |
+| source_file | CAinterBizProfile2.odt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group analyst profile (c. 1999) of interBiz Solutions, the new application software and services division of Computer Associates, and its BizWorks framework for cross-enterprise application integration. The profile positions BizWorks as the infrastructure that would tie best-of-breed applications and processes together, leveraging CA's Unicenter TNG management, Jasmine object database, 3D visualization, and Neugents pattern-recognition agents. Argues that enterprises should 'buy' BizWorks rather than 'make' equivalent integration themselves.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Primary-source analyst profile of CA's interBiz/BizWorks strategy at launch; rare documentation of a short-lived but strategically important CA division created at the peak of the EAI/portal cycle. |
+| **Relevance** | medium | interBiz and BizWorks did not persist as durable product lines; profile remains valuable as a history artifact of late-1990s EAI / pre-API-economy integration thinking. |
+| **Prescience** | low | BizWorks and interBiz failed to establish as durable product lines; Kastner's profile was optimistic about the make-vs-buy case and about Neugents adoption — neither claim held up as framed, though the underlying intellectual threads (predictive analytics, cross-enterprise integration) were directionally correct. |
+
+### Prescience Detail
+
+
+**Prediction 1:** BizWorks application attribute: Business-to-Business
+- **Claimed:** BizWorks applications/agents will operate on a wide variety of platforms, easing B2B interoperability issues.
+- **Year:** 1999
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** BizWorks framework outcome
+- **Result:** BizWorks framework was superseded and effectively discontinued as a named product line within a few years of launch; CA reorganized interBiz and refocused integration strategy around more general Unicenter extensions.
+- **Confidence:** verified
+- **Notes:** 
+
+**Prediction 2:** Neugents value proposition
+- **Claimed:** Neugents analyze business-data conditions over time and optimize knowledge-worker analysis and decision-making; alert on unusual patterns; predict future conditions.
+- **Year:** 1999
+- **Confidence at time:** medium
+
+**Actual Outcome 2:** Neugents outcome
+- **Result:** Neugents remained a niche pattern-recognition technology within CA's systems-management stack; did not become the pervasive 'predictive agents' layer the 1999 profile implied, but the intellectual thread (predictive analytics on telemetry data) later matured into mainstream AIOps.
+- **Confidence:** partially-verified
+- **Notes:** 
+
+
+### Entities Referenced (4)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | company | acquired-by-harte-hanks | Harte-Hanks (2007) |
+| Computer Associates International, Inc. | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
+| interBiz Solutions | company | absorbed-into-ca | Computer Associates (division merged back) |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| BizWorks Framework | framework | Computer Associates | pre-release | discontinued |
+| CA-Unicenter TNG | application | Computer Associates | current | legacy |
+| CA-Jasmine | application | Computer Associates | emerging | legacy |
+| CA Neugents | platform | Computer Associates | emerging | discontinued |
+| Enterprise Application Integration (EAI) | framework | multiple | emerging | displaced-by-api-economy |
+
+### Observation Summary
+
+- Total observations: 15
+- By type: value-proposition: 4, actual-outcome: 3, framework-component: 2, viability-prediction: 2, strategic-direction: 1, product-positioning: 1, market-definition: 1, analytical-finding: 1

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IT Infrastructure: Are We Building Chaos or Cosmos? (CA-sponsored infrastructure keynote, 1998)",
+  "description": "'IT Infrastructure: Are We Building Chaos or Cosmos?' \u2014 Peter S. Kastner keynote on enterprise IT infrastructure strategy delivered under Computer Associates' sponsorship circa 1998. Frames IT spending as ~3% of revenue with 85% going to ongoing operations and 15% to new applications; distinguishes CEO/CFO/CIO perspectives; argues for consolidating fragmented infrastructure through an 'IT cosmos' architectural program rather than piecemeal ('chaos') procurement.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1998-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "1999 Aberdeen Group Retainer Services Proposal to Computer Associates",
+  "description": "November 20, 1998 Aberdeen Group retainer services proposal from Peter S. Kastner to Herb Siegel (VP Analyst Relations) at Computer Associates, proposing five Knowledge Center retainer subscriptions (Information Security, Internet Infrastructures, Application Development & SDM, Systems & Network Management, Electronic Commerce) plus Industry Services for calendar year 1999. Documents the commercial relationship structure between Aberdeen and CA at the height of the CA-Aberdeen analyst partnership.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1998-11-20",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

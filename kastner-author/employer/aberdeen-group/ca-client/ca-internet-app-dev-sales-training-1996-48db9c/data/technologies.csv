@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"http","HTTP (HyperText Transport Protocol)","protocol","IETF","1990s-present","emerging","mature","ca-internet-app-dev-sales-training-1996-48db9c","Core Internet application protocol."
+"cgi","Common Gateway Interface (CGI)","framework","NCSA","1993-2005","emerging","obsolete","ca-internet-app-dev-sales-training-1996-48db9c","Pre-application-server web-scripting standard."
+"tcp-ip","TCP/IP","protocol","IETF","1980s-present","mainstream","mature","ca-internet-app-dev-sales-training-1996-48db9c","Internet transport."
+"client-server","Client-Server Architecture","framework","multiple","1988-2005","mainstream","displaced-by-web","ca-internet-app-dev-sales-training-1996-48db9c","Contrasted against Web architecture."
+"firewall","Enterprise Firewall","platform","multiple","1990s-present","emerging","mature","ca-internet-app-dev-sales-training-1996-48db9c","Cited as required infrastructure."
+"web-browser","Web Browser (thin client)","platform","Netscape/Microsoft","1994-present","emerging","mature","ca-internet-app-dev-sales-training-1996-48db9c","Thin-client concept in 1996."

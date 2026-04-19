@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Customer Focused Selling \u2014 Computer Associates Sales Training Curriculum",
+  "description": "Two-day Customer Focused Selling sales-training curriculum for Computer Associates, developed by Aberdeen Group. Day 1 covers behavior styles (DiSC), credibility/trust, communication, questioning technique, and customer-focused selling; Day 2 covers value proposition, price-vs-value, closing, and roleplay. The document is the structured course outline with time allocations per topic. Reflects Aberdeen's sales-force-education practice during the CA retainer era.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1998-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

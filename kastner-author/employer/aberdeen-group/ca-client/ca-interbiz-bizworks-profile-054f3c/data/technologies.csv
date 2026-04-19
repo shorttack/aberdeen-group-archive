@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"bizworks","BizWorks Framework","framework","Computer Associates","1999-2002","pre-release","discontinued","ca-interbiz-bizworks-profile-054f3c","Cross-platform messaging infrastructure for cross-enterprise application integration; core of interBiz strategy."
+"ca-unicenter-tng","CA-Unicenter TNG","application","Computer Associates","1995-2005","current","legacy","ca-interbiz-bizworks-profile-054f3c","Enterprise management framework; base technology referenced by BizWorks."
+"ca-jasmine","CA-Jasmine","application","Computer Associates","1997-present","emerging","legacy","ca-interbiz-bizworks-profile-054f3c","Object database; 3D visualization; referenced by BizWorks."
+"ca-neugents","CA Neugents","platform","Computer Associates","1998-2004","emerging","discontinued","ca-interbiz-bizworks-profile-054f3c","Patented software-agent pattern-recognition technology; marketed as 'predictive' agents."
+"eai","Enterprise Application Integration (EAI)","framework","multiple","1998-2008","emerging","displaced-by-api-economy","ca-interbiz-bizworks-profile-054f3c","Category of integration products BizWorks attempted to transcend."

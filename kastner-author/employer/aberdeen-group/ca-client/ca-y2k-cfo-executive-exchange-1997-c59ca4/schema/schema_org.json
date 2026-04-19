@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "What Every CFO Should Know About the Year 2000 IT Tsunami (CA CFO Executive Exchange December 1997)",
+  "description": "'What Every CFO Should Know About the Year 2000 IT Tsunami' \u2014 Peter S. Kastner presentation to Computer Associates' CFO Executive Exchange, December 3-6, 1997. Argues that CFOs must treat Y2K as an existential business-continuity issue, with specific deadlines: Y2K-safe applications in place by September 30, 1998 for five quarters of testing/cutover; twelve-month renovation program started by September 30, 1997. Recommends customer/supplier audits, EDI-link testing, insurance review, and management-options (renovate/replace/outsource/retire) analysis.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1997-12-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

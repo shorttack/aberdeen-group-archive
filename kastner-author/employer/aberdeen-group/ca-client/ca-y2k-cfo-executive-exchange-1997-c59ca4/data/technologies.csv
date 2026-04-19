@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"y2k-remediation","Year 2000 (Y2K) Remediation","framework","multiple","1995-2000","emerging","obsolete-event-passed","ca-y2k-cfo-executive-exchange-1997-c59ca4","Calendar-rollover-risk remediation practice."
+"edi","EDI (Electronic Data Interchange)","protocol","multiple","1980s-present","mainstream","mature","ca-y2k-cfo-executive-exchange-1997-c59ca4","Business-to-business data exchange; critical Y2K test target per Kastner."

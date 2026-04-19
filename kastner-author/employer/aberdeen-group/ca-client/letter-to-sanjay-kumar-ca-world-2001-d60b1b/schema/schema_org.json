@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Letter to Sanjay Kumar on CA World 2001",
+  "description": "Post-CA-World-2001 thank-you letter from Peter S. Kastner (Founder and Chief Research Officer, Aberdeen Group) to Sanjay Kumar (CEO, Computer Associates), dated July 19, 2001. Observations include: CA's analyst-relations team (Debra Cattani, Janice Thomas) as industry-leading; CA customer-satisfaction at a nine-year high; the 'CA animosity factor' reduced; press perception lagging reality; dismissive assessment of the 'Ranger situation' (Sam Wyly/Ranger Governance proxy contest); positive review of the 3x6 CA World branding framework.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2001-07-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

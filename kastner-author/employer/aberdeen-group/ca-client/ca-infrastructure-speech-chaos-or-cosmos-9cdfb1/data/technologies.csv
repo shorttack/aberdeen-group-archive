@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"it-infrastructure","Enterprise IT Infrastructure","framework","multiple","1990s-present","mainstream","mature","ca-infrastructure-speech-chaos-or-cosmos-9cdfb1","Subject of the keynote."
+"it-spending-model","IT Spending Model (Ops vs New-App)","framework","Aberdeen Group","1990s-present","mainstream","mature","ca-infrastructure-speech-chaos-or-cosmos-9cdfb1","Kastner's 85/15 ongoing-ops vs new-apps framing."
+"data-warehouse","Data Warehouse","application","multiple","1990s-present","emerging","mature","ca-infrastructure-speech-chaos-or-cosmos-9cdfb1","Infrastructure component discussed."

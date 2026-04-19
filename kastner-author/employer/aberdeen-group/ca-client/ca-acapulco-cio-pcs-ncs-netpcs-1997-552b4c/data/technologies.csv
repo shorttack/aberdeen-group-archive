@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"wintel-pc","Wintel PC (Windows+Intel Desktop)","platform","Microsoft+Intel","1985-present","dominant","mature","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","Incumbent architecture in the debate."
+"network-computer","Network Computer (NC)","platform","Oracle/Sun-led coalition","1996-2000","emerging","obsolete","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","Thin-client architecture; failed to displace Wintel."
+"netpc","Microsoft/Intel NetPC","platform","Microsoft+Intel","1997-1999","emerging","obsolete","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","Wintel response to NC; also failed to gain traction."
+"intranet","Corporate Intranet","framework","multiple","1995-present","emerging","mature","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","Internal Web deployments — desktop driver."
+"extranet","Extranet","framework","multiple","1996-2005","emerging","displaced-by-api-economy","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","External partner/customer Web deployments."
+"jit-supply-chain","Just-In-Time Supply Chain","framework","multiple","1980s-present","mainstream","mature","ca-acapulco-cio-pcs-ncs-netpcs-1997-552b4c","Business driver cited for desktop investment."

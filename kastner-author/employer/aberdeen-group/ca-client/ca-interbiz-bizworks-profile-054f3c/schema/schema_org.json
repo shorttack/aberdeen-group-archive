@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "interBiz Solutions BizWorks Profile \u2014 Management Command and Control for the E-World",
+  "description": "Aberdeen Group analyst profile (c. 1999) of interBiz Solutions, the new application software and services division of Computer Associates, and its BizWorks framework for cross-enterprise application integration. The profile positions BizWorks as the infrastructure that would tie best-of-breed applications and processes together, leveraging CA's Unicenter TNG management, Jasmine object database, 3D visualization, and Neugents pattern-recognition agents. Argues that enterprises should 'buy' BizWorks rather than 'make' equivalent integration themselves.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

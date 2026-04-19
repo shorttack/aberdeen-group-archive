@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Advisory Access Service (AAS) \u2014 Retainer Sales Kit",
+  "description": "Aberdeen Group internal sales/marketing collateral for the Advisory Access Service (AAS) retainer offering. Documents client benefits, 3-tier deliverables (Core Access Deliverables for all clients, Six-Month Introductory AAS for new clients at $6K, Twelve-Month Multi-Day AAS), a full labor-rate pricing ladder from Associate ($10,200) through Executive ($21,000), sales scripts for cold-call prospecting, research-briefing close, and follow-up, plus a canonical objection-handling playbook distinguishing Aberdeen from Forrester/Gartner (subscription-style) by positioning Aberdeen as 'personal service that takes research and puts it into your company's exact context'.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2000-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

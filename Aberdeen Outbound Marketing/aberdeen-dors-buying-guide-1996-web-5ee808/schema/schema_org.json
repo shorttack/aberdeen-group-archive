@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen 1996 DORS Buying Guide \u2014 aberdeen.com Marketing Page (Outbound Marketing)",
+  "description": "Aberdeen Group marketing landing page for the 1996 edition of the 'Distributed, Open Relational Database Management Systems Buying Guide' (DORS), captured by the Internet Archive on Oct 23, 1996. Marketing asset evaluating eight DORS suppliers (Computer Associates, IBM, Informix, Microsoft, Oracle, Progress, Software AG, Sybase) across five technology dimensions (Scalability, Distributed Technology, Open Technology, Toolkits, Next-Generation including Internet/Intranets, relational OLAP, universal servers, workgroup servers). Lists 11 benefits and 4 key buying benefits. Contact: Susan Rinehart, One Boston Place. Primary archival value as outbound-marketing artifact demonstrating Aberdeen's 1996 web presence, report-marketing copywriting style, and database-market framing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1996-10-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

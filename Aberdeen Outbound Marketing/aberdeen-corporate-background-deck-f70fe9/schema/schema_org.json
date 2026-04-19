@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Corporate Background Deck (Outbound Marketing)",
+  "description": "Aberdeen Group corporate background slide deck (v9-19) used for outbound marketing \u2014 client meetings, new-hire orientation, and investor briefings. Three offices (Boston, Palo Alto, Amsterdam), aberdeen.com URL. Four-slide structure: (1) title; (2) Aberdeen's Market Positioning; (3) Aberdeen's Competitive Landscape; (4) business architecture diagram mapping IT Supplier Executives and Private Equity audiences through Services, Practice Areas, Surveys/Field Instruments, Emerging Market Intelligence, Webcasts/Conferences/Seminars, aberdeen.com aggregation, Supplier Meetings, e-Learning, Field Sales, and Marketing Consulting. Primary text extraction is sparse \u2014 the deck is diagram-heavy.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2001-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

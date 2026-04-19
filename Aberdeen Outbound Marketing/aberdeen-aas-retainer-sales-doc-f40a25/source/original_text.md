@@ -1,0 +1,218 @@
+# Aberdeen Advisory Access Service (AAS) — Retainer Sales Kit
+
+> Archived from: AAS-9.doc
+> Original publication date: 2000-01-01
+> Author: Aberdeen Group
+
+---
+
+## Original Document Text
+
+===== AAS-9.txt =====
+﻿Advisory Access Service (AAS)
+
+Overview:
+Aberdeen’s Advisory Access Service (AAS) is a retainer-based interactive program that provides clients with one-on-one access to an Aberdeen Analyst or team of Analysts.  Clients can customize or build on the service based on their individual needs by adding consulting days or other Aberdeen services.  
+
+AAS is at the core of our service offerings, and all active Aberdeen clients will receive the Core Access Deliverables (CAD) during the course of their client engagement with Aberdeen for no charge.  The “Six-Month Introductory AAS” is targeted at new clients who have minimal resources and want to establish and build a relationship with Aberdeen.  For existing clients, or those that have specific needs, our “Twelve-Month Multi-Day AAS” or other Aberdeen strategic engagements may be more appropriate. 
+
+Client Benefits: 
+    • Provides timely “ad hoc” access to market research experts who can provide strategic advice on market conditions, competitors, or strategy options.
+    • Offers access to Aberdeen’s published primary market research, insights and analysis on an ongoing basis –as well as a live analyst to talk about market dynamics as the market changes.
+    • Fosters a trusted, long-term advisory relationship with Aberdeen Group, the analyst, and the analyst’s practice group.
+    • Provides Aberdeen analyst availability to field press and media inquiries and provide access about a client’s organization. 
+Deliverables:
+CAD (for all active clients - no fee)
+    • Ad hoc analyst access, during course of client engagement, to include:
+        ◦ Reasonable telephone and e-mail access to the client’s designated Analyst.
+        ◦ Availability, by telephone, to provide findings and analysis to other organizations such as venture capitalists, the media, and boards of directors on an as-requested basis.
+        ◦ Dialogue at trade shows and conferences.
+        ◦ Access to all practice area Impacts, Profiles, and White Papers.
+
+Six-Month Introductory AAS (for new clients only)
+    • Briefing.
+    • Six-months of ad hoc analyst access to include:
+        ◦ Reasonable telephone and e-mail access to the client’s designated Analyst.
+        ◦ Availability, by telephone, to provide findings and analysis to other organizations such as venture capitalists, the media, and boards of directors on an as-requested basis.
+        ◦ Dialogue at trade shows and conferences.
+        ◦ Access to all practice area Impacts, Profiles and White Papers. 
+    • Half-day consulting time (customized – at Aberdeen’s office) that can be used according to the client’s needs.  Consulting time could be structured in different ways to include the following: 
+        ◦ Block time used for analyst to discuss go-to-market strategy, assess competitive information, or conduct a product diagnostic.
+        ◦ Quarterly briefing updates usually via teleconference to provide information on latest corporate, product, technology initiatives, etc.
+        ◦ Research preparation for a written deliverable.
+        ◦ Labor credit toward a comprehensive marketing consulting Workshop.
+
+
+
+
+
+Twelve-Month Multi-Day AAS Package 
+    • Twelve-month ad hoc analyst access to include:
+        ◦ Reasonable telephone and e-mail access to the client’s designated Analyst.
+        ◦ Availability, by telephone, to provide findings and analysis to other organizations such as venture capitalists, the media, and boards of directors on an as-requested basis.
+        ◦ Access to all practice area Impacts, Profiles, and White Papers.
+    • Consulting time (minimum two days, customized to client needs and don, and at Aberdeen office).  Consulting time could be structured in different ways to include the following: 
+        ◦ Block time used for analyst to discuss go-to-market strategy, competitive information, or conduct a product diagnostic.
+        ◦ Quarterly briefing updates usually via teleconference to provide information on latest corporate, product, technology initiatives, etc.
+        ◦ Research preparation for a written deliverable.
+        ◦ Labor credit toward a comprehensive marketing workshop.
+Pricing:
+    • Six-Month Introductory AAS is $6,000 and is invoiced upon signing of contract.
+-	Pricing only offered “one time” to first-time clients.  
+    • Twelve-Month Multi-Day AAS is $7,000 (for twelve-month ad hoc access) plus the per diem analyst rate for the number of consulting days specified in the client contract  (see price list).  Invoiced quarterly.  Minimum number of consulting days is two days.
+
+Examples of pricing based on AAS Analyst labor rates plus two days of consulting time:
+Associate 	$10,200  [$7,000 + ($1,600 x 2)]
+Analyst  		$13,000  [$7,000 + ($3,000 x 2)]
+Senior Analyst	$16,000  [$7,000 + ($4,500 x 2)]
+Director		$17,400  [$7,000 + ($5,200 x 2)]
+Vice President	$19,000  [$7,000 + ($6,000 x 2)]
+Executive		$21,000  [$7,000 + ($7,000 X 2]
+ 
+    • Add-on a half-day consulting time at the “days 4-N rate”, based on per diem analyst rates if the consulting time is done at the client’s location. 
+    • Add-on of $2,000 if the practice area MAS service (qualitative and quantitative) is deliverable.  This is a 20% discount off the standard price, and lets the analyst use all of the valuable MAS research, which the analyst helped develop, in the course of the briefing and follow-on consulting.  This add-on does not apply if the MAS practice research is not complete, or if it is not scheduled.
+    • Travel and expenses billed separately.
+Renewal:
+    • The Six-Month Introductory AAS (without the half-day consulting) will renew without charge for clients who enhance the Aberdeen relationship by contracting for any of the following: 
+-	A consulting project using one or more days with the analyst, such as a speech or workshop.
+-	Purchases a complete MAS service at $22,500
+            ▪ Contracts for a market amplification or publication project valued at $15,000 or more.
+            ▪ Contracts for a Rapid Accurate Market Positioning (RAMP), Strategy Acceleration or custom research project.
+    • Specific procedures for renewal notification will be established.
+    • Existing retainer clients will be renewed at current pricing levels.
+Follow-On:
+    • All other Aberdeen services.
+
+
+
+
+Advisory Access Service (AAS)
+Qualifying the Prospect
+
+
+The Selling Opportunity:
+The AAS is the desired product on which other paid engagements can be built.   The AAS is attractively priced when built into other strategic market services such as Profile-writing, marketing workshop projects or custom research.  
+
+Aberdeen’s Six-Month Introductory AAS can be presented to the client as a first logical entry point into working with Aberdeen Group.   By providing the client with an opportunity to engage with Aberdeen for minimal cost, the advisory service allows an Aberdeen Analyst to fully mine his or her depth of knowledge to clients, learn about a client’s needs in-depth and begin to build client trust that is necessary for long-term satisfaction.  The engagement can be introduced to clients in the following ways: 
+    • An Account Manager or analyst cold-calls to newly funded technology companies or to non-Aberdeen clients in most Research areas and introduces Aberdeen and the advisory service with the objective of getting the client to commit to an initial briefing with Aberdeen.
+    • The Analyst presents the AAS at the close of a research briefing as a valuable way to engage with Aberdeen.  Analysts should listen and determine during the briefing whether AAS is the right product and what level of access and  “add on services” would benefit clienst based on their needs and what they can afford. 
+    • Follow-up by an Account Manager after an initial briefing to reemphasize value propositions of access service to prospect.
+
+Up Selling the AAS:
+At the end of the six-month period for new clients, a Twelve-Month Multi-Day AAS should be recommended to the client and/or other strategic marketing initiatives depending on the client’s needs.
+Qualifying Questions:
+Are you looking for an outside marketing or strategy firm? 
+Prospects who indicate that they are talking with Gartner Group, Forrester or other market research firms are probably shopping around for an analyst firm and are excellent prospects to pitch this service to.  Make sure to communicate clearly what Aberdeen’s branding and positioning is and what makes Aberdeen unique from the other market research firms. Other questions to ask include:
+    • Who else are you speaking to right now?
+    • Have your venture capital people asked you to get some independent consulting assistance?
+Does the prospect have funding to take advantage of the service? 
+You should determine what a client’s needs are and what level of consulting days and add on services they can afford.  
+    • How much do you spend on marketing/public relations each month?  If they have any budget at all they should be able to afford $500 a month for the introductory AAS. 
+    • How large is your staff, e.g,. engineering, marketing, sales?
+    • What level of funding will you allocate to launch activities?
+    • Are you trying to get funding or do a merger or acquisition?
+Proposing the Product: 
+A sample cold call approach to a new client:
+“H, my name is _____ and I’m calling from Aberdeen Group.  Are you familiar with Aberdeen Group?  We’re a market strategy and consulting company that is dedicated to working with business technology companies to help them position their products and services for success.  The reason for my call is to introduce you to Aberdeen and invite you in for an initial research briefing with (name of analyst) who covers the ________ technology segment.  During the research briefing, you’ll have an opportunity to introduce your products and services to Aberdeen Group and we’ll have an opportunity to discuss with you ways we can engage with you to build and foster a long-term relationship to help you with your strategy.”
+
+A sample approach at the close of a research briefing:
+“…So, those would be some summary insights and comments.  
+I would like to build on what we started today.  Our AAS is our retainer product that will allow us to take the next step.  The AAS would include a half-day of consulting time where we could look at your value proposition and examine the go-to-market deliverables that we’ve touched on today.  I’ll always tell you what I think, but as an Advisory Service client, we have a business basis for having me tell you ‘the rest of the story’.  Or we can use the time on a market amplification-writing project or simply to have me deliver quarterly briefing updates to you on the latest corporate, product, and technology initiatives.  It’s up to you how you want to structure your consulting time. You’ll also have access to the Aberdeen publications in my technology area so you’ll be able to follow our analytic reasoning.  Working for you as my client, I’ll answer press calls with more authority because I’ll know your company better, so I’ll be able to articulate your value proposition better.  Lastly, you can personally call or email me anytime for a quick “what about” question.  It’s this call-me-without-the-meter-starting feature that fosters some of my deep and valued client relationships.
+All of those AAS features cost only $6,000 for six months.  After six months, you can keep the service continuing by signing up for as little as another day of my time, which costs $X,000.  The reason we offer so much value in our AAS to our new clients is because we believe it fosters a win-win-win, in-depth relationship for Aberdeen, you, and your company.”
+ 
+A sample approach following up after a research briefing:
+“At the briefing held last week, our analyst, [Name], told you a little about the services that Aberdeen has provide to hundreds of IT suppliers for more than a decade.  After the meeting, [Name] and I discussed an analysis of your company’s strengths and weaknesses, which were derived from the briefing presentation and our research about the [technology] market.
+We believe that the most appropriate way for [Name] and Aberdeen Group to begin working with you, to show you the unique, one-on-one style and the value of our go-to-market-oriented consulting and research services is through our AAS.  
+    • The service Provides “ad hoc” access to market research experts like [Name] who can answer timely questions on market conditions, competitors, or strategy options.
+    • You and your company can leverage Aberdeen’s published primary market research, insights and analysis on an ongoing basis – and also have a live analyst to talk about it as the market changes.
+    • You’ll get to know us better, and vice versa, fostering a trusted, long-term advisory relationship involving Aberdeen Group, the analyst, the analyst’s practice group, you, and your company.
+    • Built-in consulting time can be used at your discretion based on your requirements.   Typically, this time would be used for the kinds of briefing analysis, and market, positioning, and messaging consulting and market amplification that can make your story sell better in the market.
+    • And [Name] will know your company well enough to field press and media inquiries, providing background and quotes from a neutral expert that can help broadcast your story.
+
+Our six-month introductory AAS is priced at only $6,000 for six months.  It’s priced so low relative to its enormous potential value to your company because we have found over thirteen years that once Aberdeen Group and our analysts have established their credibility, and shown the value we bring, the relationship fosters more business for us and many satisfied customers.
+
+
+
+Handling Objections: 
+O.	I don’t have any money for this!
+R.	“You’re not the first person who said that and later became an Aberdeen client.  Are you spending money on public relations activities?  Our Six-Month Introductory AAS was developed especially for clients like you.  For a mere $500 a month for six months you’ll be able to have access to an Aberdeen Analyst who currently tracks and follows your market.  (Name of Analyst) will be available to you for telephone calls or e-mail inquiries and will also provide you with a half-day of consulting that you can structure to fit your individual needs.  The half-day of consulting time is yours to structure in any way you need; you can even use this time to review your messaging and communications activities, or even to have periodic updates on your competitors.  I can’t think of a client who had no useful need for our insights and analysis. We’ll also make available to you any new research publications in [Analyst’s] assigned practice area so you can keep up with our latest insights and get to know the intellectual basis for our recommendations. [Analyst] will take the time in press calls to give the background on your company that can lead to a better press image.  Aberdeen is a neutral observer.  A PR firm cannot do that. Isn’t that worth rethinking your budget allocations?”  
+
+    O. I don’t need to come in for a briefing at this time.  We’re not ready for a press tour.
+    R. Aren’t you at all interested in learning more about your market and what Aberdeen’s insights are on the current trends in your space?  Most of our clients have found that market insights from an analyst who knows your market and understands your technology can be extremely helpful as they plan their launch activities and complete their product development.  The briefing usually lasts an hour and is free.  Surely you’d find something worthwhile in the hour we would spend together?    
+
+    O. We’re already working with Forrester/Gartner and are happy with them.
+R.	That’s great but we don’t do what they do.  Unlike Forrester or Gartner, whose business model is a subscription service, Aberdeen provides a personal service that takes the research like a Gartner and puts it into your company’s exact context through an experienced analyst.  A Forrester/Gartner analyst will collect information to communicate to user-companies on who’s hot and who’s not.  While this obviously has a place, Aberdeen works directly with you to help you position your product and services for success and growth.   We won’t try to categorize your firm as a winner or loser, but rather discern with you where your products and services are best suited to today’s market. Why not try our AAS package for six months and see how much we can help you? 
+
+    O. I thought I was coming in for a “write-up,” not a sales pitch on your services.
+    R. Forrester and Gartner do that.  Our briefing objective is to learn about your products and services so we can track and follow your market accurately.  Additionally, our briefings allow us the opportunity to foster a relationship with the IT companies that we follow, and work with them to help them position their products and services for success.  For that reason, we don’t just create “write-up notes” to mail out to user communities.  We do use the knowledge we gain in these briefings as our major reports, including information specific to each company we can identify as participating in the market.
+
+    O. All I want is for you to do a Profile.  I don’t need all the other services.  
+    R. Unlike some of the other market research firms, the cornerstone of all Aberdeen services is an ongoing, one-on-one relationship with our clients.  While we can certainly just write you a Profile, we still have to do the baseline research about your company in order to write the Profile and understand your product.  A Profile project is about amplifying your go-to-market strategy.  AAS is about building, buffing, and polishing that strategy.  By first becoming a client of AAS, you’ll have direct access to the analyst who understands your technology and can best represent you in writing a Profile.  We have attractively priced the combination of a Profile and the AAS service because many of our clients really need the value of both -- the market amplification in the Profile and the advisory services that help craft the market strategy, positioning, and messaging that go into the Profile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | aberdeen-aas-retainer-sales-doc-f40a25 |
+| title | Aberdeen Advisory Access Service (AAS) — Retainer Sales Kit |
+| author | Aberdeen Group |
+| date | 2000-01-01 |
+| type | employer-record |
+| subject_domain | outbound-marketing |
+| methodology | document-review, internal-sales-collateral |
+| source_file | AAS-9.doc |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group internal sales/marketing collateral for the Advisory Access Service (AAS) retainer offering. Documents client benefits, 3-tier deliverables (Core Access Deliverables for all clients, Six-Month Introductory AAS for new clients at $6K, Twelve-Month Multi-Day AAS), a full labor-rate pricing ladder from Associate ($10,200) through Executive ($21,000), sales scripts for cold-call prospecting, research-briefing close, and follow-up, plus a canonical objection-handling playbook distinguishing Aberdeen from Forrester/Gartner (subscription-style) by positioning Aberdeen as 'personal service that takes research and puts it into your company's exact context'.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Operational ground truth for Aberdeen's commercial sales model — labor rates, packaging, positioning vs Forrester/Gartner, cold-call and close scripts. Rare internal sales artifact. |
+| **Relevance** | medium | Analyst-relations retainer sales playbook remains directly applicable; specific $ amounts are dated. |
+| **Prescience** | not-applicable | Internal sales collateral; not a prediction document. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (3)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| Gartner Group | firm | active |  |
+| Forrester Research | firm | active |  |
+
+### Technologies Referenced (0)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+
+
+### Observation Summary
+
+- Total observations: 20
+- By type: pricing: 9, sales-methodology: 6, business-model: 3, competitive-positioning: 1, business-characteristic: 1

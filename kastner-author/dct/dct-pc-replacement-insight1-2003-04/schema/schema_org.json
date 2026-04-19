@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Replacements: Lawyers, Auditors, and Common Sense Rules",
+  "description": "Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate PCs still in service by mid-2003 should be accelerated off the desktop. Windows NT 4.x end-of-support (June 30, 2003) and Windows 98/SE (January 16, 2004) expose enterprises to unpatched security risk, auditor scrutiny, and potential negligence claims. Mid-2003 is framed as an auspicious PC replacement window anchored by Windows XP Pro SP1, Server 2003, Office 2003, Intel Springdale, Pentium 4 Hyper-Threading, and Centrino notebooks.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-04-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

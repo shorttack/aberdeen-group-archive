@@ -1,0 +1,47 @@
+﻿nVidia GeForce FX
+
+Brian Burke
+Todd Reddick
+
+Vary modular: mobile, low cost $99
+
+March 6th.  NV31 and NV34.    Ship in April.  Full DirectX 9 support.
+NV35 high end future.  May 11 NDA
+    • .13 m  256 bit memory.  DDR2 and DDR1
+    • 2nd generation compression and caching
+    • 2nd generation pixel shader
+    • AGP 8x
+    • Clocks no less than NV30  -- 20GB/second  = 2x MV30
+
+NV31 replaces 4200 midrange
+    • 2x Ti4200
+    • 4 pipe engine
+    • .13 micron TSMC
+    • lossless compression continues
+    • nView: TMDA 16x12” panels
+    • Full MPEG2 in hardware
+    • AGP 8x
+    • DDR1 
+    • 1.5x ATI 9500
+    • Prices $179 128MB pretty aggressive
+    • No OEMs to announce yet – PR later
+    • Production silicon with rev A01
+
+
+
+NV34 replaces  GeForce Ti 4200 low end and MX
+    • Full cinematix.  Full 128 bit, vertex and pixel shaders
+    • 2x GeForce 4 MX 440 64MB
+    • Retains dual ramdacs, 350MHz 2048x1356
+    • MPEG decoder
+    • DDR1 .15 m TSMC  process.  Clock not yet locked down
+    • 128MB RAM standard
+    • Lacks compression and other high end features
+    • $99 price point
+
+
+NV30 ships end Feb.  More than a 4600 at $399 = 5800
+Power, precision, programmability
+Vertex and pixel shaders across the line as is 128 bit precision
+Get hardware pixel shaders and vertex into mainstream -> Dawn and Doom III
+

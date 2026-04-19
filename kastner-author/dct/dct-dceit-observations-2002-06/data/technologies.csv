@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4","Intel Pentium 4","platform","Intel","2000-2008","mainstream","legacy","dct-dceit-observations-2002-06","P4 2.0A -> 2.26 -> 2.566 GHz cited"
+"intel-celeron","Intel Celeron","platform","Intel","1998-2016","mainstream","legacy","dct-dceit-observations-2002-06","1.3 GHz -> 1.7 GHz in Gateway 300S/300X"
+"amd-athlon-xp","AMD Athlon XP","platform","AMD","2001-2005","mainstream","legacy","dct-dceit-observations-2002-06",""
+"semiconductor-300mm","300mm wafer / 0.13 micron process","platform","Intel","2001-2005","emerging","legacy","dct-dceit-observations-2002-06","Cost-per-chip driver"
+"dvd-cd-rw","DVD / CD-RW optical drive","platform","","2000-2010","mainstream","legacy","dct-dceit-observations-2002-06",""
+"flat-panel-display","Flat panel display (LCD monitor)","platform","","2000-present","emerging","mature","dct-dceit-observations-2002-06",""

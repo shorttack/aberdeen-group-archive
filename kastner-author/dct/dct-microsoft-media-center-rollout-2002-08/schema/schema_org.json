@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Microsoft Rolls Out Media Center",
+  "description": "News analysis of Microsoft's announcement of Windows XP Media Center Edition \u2014 a living-room PC variant combining TV tuner, hardware video encoder, and infrared remote, first demoed at CES 2002 under the 'Freestyle' codename. HP, NEC, and Samsung are the launch OEMs; Kastner frames the offering as the strongest PC-in-the-living-room push to date while noting Windows task-scheduling vulnerabilities and competition from SonicBlue and TiVo.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-08-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"pc-peripheral","PC peripheral","category","","1980s-present","mature","mature","dct-supplier-list-2002","Category"
+"home-networking","Home networking / automation","category","","2000s-present","emerging","mature","dct-supplier-list-2002",""
+"consumer-software","Consumer applications and services","category","","1990s-present","mature","mature","dct-supplier-list-2002",""
+"leisure-entertainment-tech","Leisure and entertainment technology","category","","2000s-present","emerging","mature","dct-supplier-list-2002",""

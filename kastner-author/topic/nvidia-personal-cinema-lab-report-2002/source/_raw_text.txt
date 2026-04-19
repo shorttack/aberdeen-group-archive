@@ -1,0 +1,173 @@
+﻿
+nVidia Personal Cinema 1.0
+Introduction
+This is a concise feedback report written for the management of nVidia about Aberdeen’s laboratory experiences with the Personal Cinema 1.0.  Our tests were conducted over a period of 16 hours spanning three days in December 2001.  The purpose of such work was to test the usability of the Personal Cinema 1.0 in the hands of an ordinary consumer as viewed by a knowledgeable observer.
+Materials
+Lab Equipment Used
+    • Dell 8100 PC, 1.4 GHz Intel Pentium 4 Processor with 384 MB RDRAM with current BIOS
+    • Windows XP operating system with recommended upgrades
+    • ATI Radeon 32 DDR Graphics Card (existing equipment to be replaced by the nVidia graphics card with Personal Cinema 1.0)
+    • Sony TR65 Camcorder
+    • Turtle Beach Santa Cruz Audio Card
+    • Scientific Atlanta Digital Set Top Box (provided by AT&T Broadband)
+    • Microsoft Movie Maker software
+Test Equipment Used
+    • Compro Technology’s GeForce2 MX 400 with nVidia Personal Cinema 1.0 kit 
+Installation
+Graphics Card Hardware
+Prior to the nVidia upgrade, we uninstalled the existing ATI software.  In the Dell 8100, the factory-installed ATI card requires a metal bar with a robust spring in order to force the card into the AGP slot.  The Personal Cinema 1.0 graphics card (GeForce2 MX 400) installed easily, and did not require the metal bar to hold the card in place.  No problems arose during the physical initial installation of the graphics card and the subsequent reboot of the lab PC.
+VIVO Hardware
+The VIVO (Video In/Video Out) breakout box was clearly labeled.  The VIVO umbilical cable had two different connectors at each end, which we judge to be poorly labeled — the connector ends were hard to distinguish, even with labeling near the connector, because the labeling was easy to overlook.
+The VIVO box input was connected to the lab camcorder via S-Video and Line In ports.  Line Out was connected to the input of a stereo receiver.  The Tape Out of the stereo receiver was connected to the Line In port of the Turtle Beach Santa Cruz audio card.  
+Software
+The nVidia CD software installed successfully on the lab PC.  An unexpected manual intervention with hard shutdown and reboot was required, at which point the video capture, TV tuner, TV audio, and A/V crossbar hardware drivers all installed correctly.
+Results
+Operating experience — graphics
+We tested the graphics card with Comanche 4 and Ghost Recon games.  The graphics card performs up to its enviable ratings with both the default settings and with “gamer” settings.  The graphics card can easily drive the Dell M910 monitor at all resolutions for all of the 2D applications we tried.
+Operating experience — television with WinDVR
+We liked the quality of the TV tuner.  We had it connected to the output of a Scientific Atlanta digital set-top box provided by AT&T Broadband.  In a partial-screen window, the video quality of the analog signal is excellent.  And the Philips teletext application let us read the news while doing other desktop work.  The TV application requires about 15% of a Pentium4 1.4 GHz processor, an acceptable load.  Full-screen TV performance was adequate when viewed from normal TV distances, but not nearly as satisfying as watching DVDs on the PC monitor.
+The quality of recorded programs using the WinDVR application is quite good if viewed in a partial-screen window.  For reasons we could not figure out, the television tab tends to default to mono even when stereo is repeatedly selected.
+Operating experience — WinDVD
+Using the WinDVD application, all of the DVDs we tested produced excellent full-screen video.  
+The press kit that shipped with the Personal Cinema 1.0 contained the Mission Impossible 2 DVD.  Note that the Mission Impossible DVD is particularly insidious.  This DVD comes with a software application called PCfriendly, which displays a very innocuous message when the DVD is first loaded.  The first time we loaded Mission Impossible, we glanced at the PCfriendly introduction screen and, seeing that it did not explicitly state that it was about to install software on the PC, we clicked “yes.”  The PCfriendly application installs software that conflicts with WinDVD.  The actual PCfriendly screen states “This PCfriendly DVD contains additional content and features specifically designed for your computer and the Internet.  To access these features, you must agree to the terms of the PCfriendly and user license agreement.”  We predict that all consumers will react the way we did, and click “yes” — with lots of subsequent support calls for nVidia to answer.  
+Performance under PCfriendly is excellent.  However, with PCfriendly installed, WinDVD performance is horrible due to noticeable dropped frames.  If we had not noticed the new PCfriendly software’s icon, we would have concluded that DVD performance under Personal Cinema 1.0 using WinDVD was unacceptably poor, with very low frame-per-second rates — and much worse than my experience with WinDVD on competitor ATI’s graphics card.  After we uninstalled PCfriendly, we got the native WinDVD performance that we had fully expected.  The lesson, here, is that PCfriendly is in fact a very hostile application to Personal Cinema 1.0, and nVidia may want to take steps to warn consumers or to thwart the easy installation of PCfriendly.
+Operating experience — Video Wave 4
+This sophisticated application requires a fair amount of time to master.  The documentation and video tours are inadequate to get new users up to speed.  Once we had the audio problems licked — due to our through-the-stereo connections — it was easy to copy video from the camcorder, create scenes, as well as titles and transitions, and create a movie as an e-mail enclosure.  Nevertheless, the user interface is not very simple.
+Operating experience — Microsoft Movie Maker
+The Personal Cinema 1.0 does not reliably and automatically set up with the Movie Maker application provided with Windows XP.  At times, and randomly, the full VIVO-box video choices are not available in the application’s “video configure” window.  By repeatedly playing with all of the possible permutations of video input and remote-control input source selection, we were eventually able to get video — but not audio.  One possible reason for this degree of grief is that there is no indication in either the Microsoft application window or on the VIVO video box itself of the current input source selection — if the box says S-Video and the software wants tuner, then nothing works.  There ought to be a way to look at the current box setup on the screen through a visual utility or diagnostic.
+We cannot recommend a more precise path toward resolving these problems with Movie Maker.  However, we do believe that the ease-of-use of Movie Maker and the fact that it ships with every Windows XP computer means that this is one video application to be reckoned with, and nVidia would be wise to ensure that Personal Cinema 1.0 works seamlessly out of the box with Movie Maker.
+Aberdeen Lab Observations and Recommendations
+Packaging: We liked the fact that every cable necessary to hook up the hardware to video equipment was included in the box.  No trips to Radio Shack were necessary!
+VIVO Cable:  The cable connectors were labeled with a low-contrast tape that was visually missed at the first installation attempt.  We tried to insert the wrong cable end into the wrong socket.  This problem is easy to fix.  nVidia should consider using a high-contrast or different color tape for connection labels.
+nVidia should also consider a 90-degree connector on the cable at the graphics card end because the VIVO box cable is quite stiff and likely to come loose or be pulled out of its graphics-card socket.
+Criticism of Audio to VIVO hookup:  In retrospect, the Lab configuration for audio using a stereo receiver was an overly ambitious setup.  It required several hours of debugging in order to first get the software set up to record audio and, later, to play back audio.  In addition, the setup through a stereo receiver requires careful calibration of the sound levels of the camcorder, the sound-card master volume control, and the stereo volume control in order to get good audio fidelity without too little or too much recorded signal.
+The nVidia application software CD installs successfully but not as easily as should be expected.  We had a number of problems, outlined below.
+    • First, we had neglected to uninstall the WinDVD software, which also comes with the ATI Radeon 32 DDR.  This caused the WinDVD install to fail, disrupting the string of application installs.
+    • Both the WinDVD and WinDVR applications require the entry of something in the Company field.  Blanks are inadequate — we failed to get beyond this screen without typing in something.  This is an unnecessary nuisance, since many consumers do not have a company affiliation.  
+    • Both WinDVD and WinDVR require the entry of a serial number.  The serial number is printed on a label, which is on the dust jacket of the CD-ROM.  The numeral zero (‘0’) and the letter ‘O’ are easy to confuse.  It is likely that consumers will stumble on this simple swap.  We did, even looking carefully at the string.  So, consider showing consumers what a zero (0) and a letter ‘O’ look like on the CD-ROM label.
+
+
+    • A message requesting permission to restart the computer came before the Philips teletext application finished installing.  We ignored the restart message, but those consumers with a quick mouse might have disrupted the teletext install with an unexpected restart.  When we did click on the “restart now” button, the shutdown did not complete — we waited 45 minutes.  That distresses consumers!  
+In summary, the Personal Cinema 1.0 should be more robust in an XP environment.  The largely reprinted documentation would benefit from a Troubleshooting section and Frequently Asked Questions (FAQs).  Support options are not clearly spelled out.  For example, there is no address or phone number for manufacturer Compro Technology on 
+the packaging, so it is assumed that all calls should go to nVidia.  These recommendations would improve the supportability of the product at hardware PC manufacturers, an obvious market for Personal Cinema 1.0.  In short, we give high marks to the hardware and packaging.  Although the software applications are acceptable individually, the installation integration could be improved.
+
+
+---
+
+[EDIT-HISTORY APPENDIX]
+
+
+---
+
+## VARIANT: nVidia Sample Lab Report.doc
+
+﻿
+nVidia Personal Cinema 1.0
+Introduction
+This is a concise feedback report written for the management of nVidia about Aberdeen’s laboratory experiences with the Personal Cinema 1.0.  Our tests were conducted over a period of 16 hours spanning three days in December 2001.  The purpose of such work was to test the usability of the Personal Cinema 1.0 in the hands of an ordinary consumer as viewed by a knowledgeable observer.
+Materials
+Lab Equipment Used
+    • Dell 8100 PC, 1.4 GHz Intel Pentium 4 Processor with 384 MB RDRAM with current BIOS
+    • Windows XP operating system with recommended upgrades
+    • ATI Radeon 32 DDR Graphics Card (existing equipment to be replaced by the nVidia graphics card with Personal Cinema 1.0)
+    • Sony TR65 Camcorder
+    • Turtle Beach Santa Cruz Audio Card
+    • Scientific Atlanta Digital Set Top Box (provided by AT&T Broadband)
+    • Microsoft Movie Maker software
+Test Equipment Used
+    • Compro Technology’s GeForce2 MX 400 with nVidia Personal Cinema 1.0 kit 
+Installation
+Graphics Card Hardware
+Prior to the nVidia upgrade, we uninstalled the existing ATI software.  In the Dell 8100, the factory-installed ATI card requires a metal bar with a robust spring in order to force the card into the AGP slot.  The Personal Cinema 1.0 graphics card (GeForce2 MX 400) installed easily, and did not require the metal bar to hold the card in place.  No problems arose during the physical initial installation of the graphics card and the subsequent reboot of the lab PC.
+VIVO Hardware
+The VIVO (Video In/Video Out) breakout box was clearly labeled.  The VIVO umbilical cable had two different connectors at each end, which we judge to be poorly labeled — the connector ends were hard to distinguish, even with labeling near the connector, because the labeling was easy to overlook.
+The VIVO box input was connected to the lab camcorder via S-Video and Line In ports.  Line Out was connected to the input of a stereo receiver.  The Tape Out of the stereo receiver was connected to the Line In port of the Turtle Beach Santa Cruz audio card.  
+Software
+The nVidia CD software installed successfully on the lab PC.  An unexpected manual intervention with hard shutdown and reboot was required, at which point the video capture, TV tuner, TV audio, and A/V crossbar hardware drivers all installed correctly.
+Results
+Operating experience — graphics
+We tested the graphics card with Comanche 4 and Ghost Recon games.  The graphics card performs up to its enviable ratings with both the default settings and with “gamer” settings.  The graphics card can easily drive the Dell M910 monitor at all resolutions for all of the 2D applications we tried.
+Operating experience — television with WinDVR
+We liked the quality of the TV tuner.  We had it connected to the output of a Scientific Atlanta digital set-top box provided by AT&T Broadband.  In a partial-screen window, the video quality of the analog signal is excellent.  And the Philips teletext application let us read the news while doing other desktop work.  The TV application requires about 15% of a Pentium4 1.4 GHz processor, an acceptable load.  Full-screen TV performance was adequate when viewed from normal TV distances, but not nearly as satisfying as watching DVDs on the PC monitor.
+The quality of recorded programs using the WinDVR application is quite good if viewed in a partial-screen window.  For reasons we could not figure out, the television tab tends to default to mono even when stereo is repeatedly selected.
+Operating experience — WinDVD
+Using the WinDVD application, all of the DVDs we tested produced excellent full-screen video.  
+The press kit that shipped with the Personal Cinema 1.0 contained the Mission Impossible 2 DVD.  Note that the Mission Impossible DVD is particularly insidious.  This DVD comes with a software application called PCfriendly, which displays a very innocuous message when the DVD is first loaded.  The first time we loaded Mission Impossible, we glanced at the PCfriendly introduction screen and, seeing that it did not explicitly state that it was about to install software on the PC, we clicked “yes.”  The PCfriendly application installs software that conflicts with WinDVD.  The actual PCfriendly screen states “This PCfriendly DVD contains additional content and features specifically designed for your computer and the Internet.  To access these features, you must agree to the terms of the PCfriendly and user license agreement.”  We predict that all consumers will react the way we did, and click “yes” — with lots of subsequent support calls for nVidia to answer.  
+Performance under PCfriendly is excellent.  However, with PCfriendly installed, WinDVD performance is horrible due to noticeable dropped frames.  If we had not noticed the new PCfriendly software’s icon, we would have concluded that DVD performance under Personal Cinema 1.0 using WinDVD was unacceptably poor, with very low frame-per-second rates — and much worse than my experience with WinDVD on competitor ATI’s graphics card.  After we uninstalled PCfriendly, we got the native WinDVD performance that we had fully expected.  The lesson, here, is that PCfriendly is in fact a very hostile application to Personal Cinema 1.0, and nVidia may want to take steps to warn consumers or to thwart the easy installation of PCfriendly.
+Operating experience — Video Wave 4
+This sophisticated application requires a fair amount of time to master.  The documentation and video tours are inadequate to get new users up to speed.  Once we had the audio problems licked — due to our through-the-stereo connections — it was easy to copy video from the camcorder, create scenes, as well as titles and transitions, and create a movie as an e-mail enclosure.  Nevertheless, the user interface is not very simple.
+Operating experience — Microsoft Movie Maker
+The Personal Cinema 1.0 does not reliably and automatically set up with the Movie Maker application provided with Windows XP.  At times, and randomly, the full VIVO-box video choices are not available in the application’s “video configure” window.  By repeatedly playing with all of the possible permutations of video input and remote-control input source selection, we were eventually able to get video — but not audio.  One possible reason for this degree of grief is that there is no indication in either the Microsoft application window or on the VIVO video box itself of the current input source selection — if the box says S-Video and the software wants tuner, then nothing works.  There ought to be a way to look at the current box setup on the screen through a visual utility or diagnostic.
+We cannot recommend a more precise path toward resolving these problems with Movie Maker.  However, we do believe that the ease-of-use of Movie Maker and the fact that it ships with every Windows XP computer means that this is one video application to be reckoned with, and nVidia would be wise to ensure that Personal Cinema 1.0 works seamlessly out of the box with Movie Maker.
+Aberdeen Lab Observations and Recommendations
+Packaging: We liked the fact that every cable necessary to hook up the hardware to video equipment was included in the box.  No trips to Radio Shack were necessary!
+VIVO Cable:  The cable connectors were labeled with a low-contrast tape that was visually missed at the first installation attempt.  We tried to insert the wrong cable end into the wrong socket.  This problem is easy to fix.  nVidia should consider using a high-contrast or different color tape for connection labels.
+nVidia should also consider a 90-degree connector on the cable at the graphics card end because the VIVO box cable is quite stiff and likely to come loose or be pulled out of its graphics-card socket.
+Criticism of Audio to VIVO hookup:  In retrospect, the Lab configuration for audio using a stereo receiver was an overly ambitious setup.  It required several hours of debugging in order to first get the software set up to record audio and, later, to play back audio.  In addition, the setup through a stereo receiver requires careful calibration of the sound levels of the camcorder, the sound-card master volume control, and the stereo volume control in order to get good audio fidelity without too little or too much recorded signal.
+The nVidia application software CD installs successfully but not as easily as should be expected.  We had a number of problems, outlined below.
+    • First, we had neglected to uninstall the WinDVD software, which also comes with the ATI Radeon 32 DDR.  This caused the WinDVD install to fail, disrupting the string of application installs.
+    • Both the WinDVD and WinDVR applications require the entry of something in the Company field.  Blanks are inadequate — we failed to get beyond this screen without typing in something.  This is an unnecessary nuisance, since many consumers do not have a company affiliation.  
+    • Both WinDVD and WinDVR require the entry of a serial number.  The serial number is printed on a label, which is on the dust jacket of the CD-ROM.  The numeral zero (‘0’) and the letter ‘O’ are easy to confuse.  It is likely that consumers will stumble on this simple swap.  We did, even looking carefully at the string.  So, consider showing consumers what a zero (0) and a letter ‘O’ look like on the CD-ROM label.
+
+
+    • A message requesting permission to restart the computer came before the Philips teletext application finished installing.  We ignored the restart message, but those consumers with a quick mouse might have disrupted the teletext install with an unexpected restart.  When we did click on the “restart now” button, the shutdown did not complete — we waited 45 minutes.  That distresses consumers!  
+In summary, the Personal Cinema 1.0 should be more robust in an XP environment.  The largely reprinted documentation would benefit from a Troubleshooting section and Frequently Asked Questions (FAQs).  Support options are not clearly spelled out.  For example, there is no address or phone number for manufacturer Compro Technology on the packaging, so it is assumed that all calls should go to nVidia.  These recommendations would improve the supportability of the product at hardware PC manufacturers, an obvious market for Personal Cinema 1.0.  In short, we give high marks to the hardware and packaging.  Although the software applications are acceptable individually, the installation integration could be improved.
+
+
+
+---
+
+## VARIANT: nVidiaLabReportEDITpsk.doc
+
+﻿
+
+
+Introduction
+This is a concise feedback report written for the management of nVidia about Aberdeen’s laboratory experiences with the Personal Cinema 1.0.  Our tests were conducted over a period of 16 hours spanning three days in December 2001.  The purpose of such work was to test the usability of the Personal Cinema 1.0 in the hands of an ordinary consumer as viewed by a knowledgeable observer.
+Materials
+Lab Equipment Used
+    • Dell 8100 PC, 1.4 GHz Intel Pentium 4 Processor with 384 MB RDRAM with current BIOS
+    • Windows XP operating system with recommended upgrades
+    • ATI Radeon 32 DDR Graphics Card (existing equipment to be replaced by the nVidia graphics card with Personal Cinema 1.0)
+    • Sony TR65 Camcorder
+    • Turtle Beach Santa Cruz Audio Card
+    • Scientific Atlanta Digital Set Top Box (provided by AT&T Broadband)
+    • Microsoft Movie Maker software
+
+Test Equipment Used
+    • Compro Technology’s GeForce2 MX 400 with nVidia Personal Cinema 1.0 kit 
+Installation 
+Graphics Card Hardware
+Prior to the nVidia upgrade, we uninstalled the existing ATI software.  In the Dell 8100, the factory-installed ATI card requires a metal bar with a robust spring in order to force the card into the AGP slot.  The Personal Cinema 1.0 graphics card (GeForce2 MX 400) installed easily, and did not require the metal bar to hold the card in place.  No problems arose during the physical initial installation of the graphics card and the subsequent reboot of the lab PC.
+VIVO Hardware
+The VIVO (Video In/Video Out) breakout box was clearly labeled.  The VIVO umbilical cable had two different connectors at each end, which we judge to be poorly labeled—the connector ends were hard to distinguish, even with labeling near the connector, because the labeling was easy to overlook.
+The VIVO box input was connected to the lab camcorder via S-Video and Line In ports.  Line Out was connected to the input of a stereo receiver.  The Tape Out of the stereo receiver was connected to the Line In port of the Turtle Beach Santa Cruz audio card.  
+Software
+The nVidia CD software installed successfully on the lab PC.  An unexpected manual intervention with hard shutdown and reboot was required, at which point the video capture, TV tuner, TV audio, and A/V crossbar hardware drivers all installed correctly.
+Results
+Operating experience — graphics
+We tested the graphics card with Comanche 4 and Ghost Recon games.  The graphics card performs up to its enviable ratings with both the default settings and with “gamer” settings.  The graphics card can easily drive the Dell M910 monitor at all resolutions for all of the 2D applications I tried.
+Operating experience — television with WinDVR
+We liked the quality of the TV tuner.  We had it connected to the output of a Scientific Atlanta digital set-top box provided by AT&T Broadband.  In a partial-screen window, the video quality of the analog signal is excellent.  And the Philips teletext application let me read the news while doing other desktop work.  The TV application requires about 15% of a Pentium4 1.4 GHz processor, an acceptable load.  Full-screen TV performance was adequate when viewed from normal TV distances, but not nearly as satisfying as watching DVDs on the PC monitor.
+The quality of recorded programs using the WinDVR application is quite good if viewed in a partial-screen window.  For reasons we could not figure out, the television tab tends to default to mono even when stereo is repeatedly selected.
+Operating experience — WinDVD
+Using the WinDVD application, all of the DVDs I tested produced excellent full-screen video.  
+The press kit that shipped with the Personal Cinema 1.0 contained the Mission Impossible 2 DVD.  Note that the Mission Impossible DVD is particularly insidious.  This DVD comes with a software application called PCfriendly, which displays a very innocuous message when the DVD is first loaded.  The first time I loaded Mission Impossible, I glanced at the PCfriendly introduction screen and, seeing that it did not explicitly state that it was about to install software on my PC, I clicked “yes.”  The PCfriendly application installs software that conflicts with WinDVD.  The actual PCfriendly screen states “This PCfriendly DVD contains additional content and features specifically designed for your computer and the Internet.  To access these features, you must agree to the terms of the PCfriendly and user license agreement.”   I predict all consumers will react the way I did, and click “yes,” with lots of subsequent support calls for nVidia to answer.  
+Performance under PCfriendly is excellent.  However, with PCfriendly installed, WinDVD performance is horrible due to noticeable dropped frames.  If I had not noticed the new PCfriendly software’s icon, I would have concluded that DVD performance under Personal Cinema 1.0 using WinDVD was unacceptably poor, with very low frame-per-second rates — and much worse than my experience with WinDVD on competitor ATI’s graphics card.  After I uninstalled PCfriendly, I got the native WinDVD performance that I had fully expected.  The lesson, here, is that PCfriendly is in fact a very hostile application to Personal Cinema 1.0, and nVidia may want to take steps to warn consumers or to thwart the easy installation of PCfriendly.
+Operating experience — Video Wave 4
+This sophisticated application requires a fair amount of time to master.  The documentation and video tours are inadequate to get new users up to speed.  Once I had the audio problems licked — due to my through-the-stereo connections — it was easy to copy video from the camcorder, create scenes, as well as titles and transitions, and create a movie as an e-mail enclosure.  Nevertheless, the user interface is not very simple.
+Operating experience — Microsoft Movie Maker
+The Personal Cinema 1.0 does not reliably and automatically set up with the Movie Maker application provided with Windows XP.  At times, and randomly, the full VIVO-box video choices are not available in the application’s “video configure” window.  By repeatedly playing with all of the possible permutations of video input and remote-control input source selection, I was eventually able to get video — but not audio.  One possible reason for this degree of grief is that there is no indication in either the Microsoft application window or on the VIVO video box itself of the current input source selection — if the box says S-Video and the software wants tuner, then nothing works.  There ought to be a way to look at the current box setup on the screen through a visual utility or diagnostic.
+I cannot recommend a more precise path toward resolving these problems with Movie Maker.  However, I do believe that the ease-of-use of Movie Maker and the fact that it ships with every Windows XP computer means that this is one video application to be reckoned with, and nVidia would be wise to ensure that Personal Cinema 1.0 works seamlessly out of the box with Movie Maker.
+Aberdeen Lab Observations and Recommendations
+Packaging: We liked the fact that every cable necessary to hook up the hardware to video equipment was included in the box.  No trips to Radio Shack were necessary!
+VIVO Cable:  The cable connectors were labeled with a low-contrast tape that was visually missed at the first installation attempt.  We tried to insert the wrong cable end into the wrong socket.  This problem is easy to fix.  nVidia should consider using a high-contrast or different color tape for connection labels.
+nVidia should also consider a 90-degree connector on the cable at the graphics card end because the VIVO box cable is quite stiff and likely to come loose or be pulled out of its graphics-card socket.
+Criticism of Audio to VIVO hookup:  In retrospect, the Lab configuration for audio using a stereo receiver was an overly ambitious setup.  It required several hours of debugging in order to first get the software set up to record audio and, later, to play back audio.  In addition, the setup through a stereo receiver requires careful calibration of the sound levels of the camcorder, the sound-card master volume control, and the stereo volume control in order to get good audio fidelity without too little or too much recorded signal.
+The nVidia application software CD installs successfully but not as easily as should be expected.  I had a number of problems, outlined below.
+    • First, I had neglected to uninstall the WinDVD software, which also comes with the ATI Radeon 32 DDR.  This caused the WinDVD install to fail, disrupting the string of application installs.
+    • Both the WinDVD and WinDVR applications require the entry of something in the Company field.  Blanks are inadequate—we failed to get beyond this screen without typing in something.  This is an unnecessary nuisance, since many consumers do not have a company affiliation.  
+    • Both WinDVD and WinDVR require the entry of a serial number.  The serial number is printed on a label, which is on the dust-jacket of the CD ROM.  The numeral zero (0) and the letter O (oh) are easy to confuse.  It is likely that consumers will stumble on this simple swap.  I did, even looking carefully at the string.  So, consider showing consumers what a zero (0) and a letter ‘O’ look like on the CD ROM label.
+    • A message requesting permission to restart the computer came before the Philips teletext application finished installing.  I ignored the restart message, but those consumers with a quick mouse might have disrupted  the teletext install with an unexpected restart.  When I did click on the “restart now” button, the shutdown did not complete — I waited 45 minutes.  This distresses consumers!  
+In summary, the Personal Cinema 1.0 should be more robust in an XP environment.  The largely reprinted documentation would benefit from a Troubleshooting section and Frequently Asked Questions (FAQs).  Support options are not clearly spelled out.  For example, there is no address or phone number for manufacturer Compro Technology on the packaging, so it is assumed that all calls should go to nVidia.  These recommendations would improve the supportability of the product at hardware PC manufacturers, an obvious market for Personal Cinema 1.0.
+We give high marks to the hardware and packaging.  The software applications are individually acceptable, but the installation integration could be improved.

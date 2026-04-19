@@ -1,0 +1,52 @@
+﻿
+Microsoft Rolls Out Media Center
+Peter Glaskowsky - Editor-in-Chief, MPR  {07/29/2002} 
+
+Microsoft has announced a new version of its Windows 
+XP operating system that will be sold only with 
+systems made by selected OEMs. The new Windows XP 
+Media Center Edition combines a number of unique 
+features aimed at living-room PCs, including some 
+previously sold as part of Microsoft's UltimateTV 
+platform. The new Media Center systems will include an 
+infrared remote control designed to work with a 
+simplified Windows user interface, a TV tuner, and a 
+hardware video encoder to enable hard-disk-based video 
+recording and playback. The combination of these 
+elements was first shown in a keynote by Microsoft's 
+chairman Bill Gates at the Consumer Electronics Show 
+in January, where it went by the code-name 
+"Freestyle."
+
+The TV tuner required for Media Center systems can be 
+designed for terrestrial broadcast, cable, or 
+satellite TV systems - or some combination of these. 
+With a hardware-based video encoder, television 
+programs can be compressed to just a few megabits per 
+second, enabling these PCs to store hundreds of hours 
+of programming. Microsoft has adapted some of the 
+user-interface concepts from UltimateTV, to create a 
+simplified Windows desktop that presents just a few 
+options at a time - for example, a list of stored TV 
+programs, or MP3-encoded songs, or digital photos.
+
+Three OEMs - HP, NEC, and Samsung - participated in 
+the Media Center launch. Media Center PCs will reach 
+the market in time for the Christmas season. This 
+isn't the first attempt to get PCs into the living 
+room, but it seems to be the strongest push to date.
+
+Windows is far from the ideal platform for this sort 
+of work, being vulnerable to task-scheduling conflicts 
+that can leave critical interrupts unserviced for 
+seconds at a time. However, the Windows XP Media 
+Center Edition may be adequate for its intended 
+purpose, as long as customers can be trained to avoid 
+installing too many aftermarket applications and 
+peripherals. 
+
+If the Media Center project fails to deliver the 
+reliability of competing solutions from SonicBlue and 
+TiVo, it may be years before the PC is invited back 
+into the living room.
+

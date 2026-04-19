@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-xp","Windows XP","platform","Microsoft","2001-2014","mainstream","legacy","dct-microsoft-media-center-rollout-2002-08",""
+"windows-xp-media-center","Windows XP Media Center Edition","platform","Microsoft","2002-2009","emerging","discontinued","dct-microsoft-media-center-rollout-2002-08","Codename Freestyle"
+"ultimatetv","UltimateTV","platform","Microsoft","2001-2007","emerging","discontinued","dct-microsoft-media-center-rollout-2002-08","UI concepts inherited"
+"tv-tuner-card","PC TV tuner card","platform","","1990s-2010s","mainstream","legacy","dct-microsoft-media-center-rollout-2002-08","Terrestrial, cable, or satellite"
+"hardware-video-encoder","Hardware video encoder","platform","","2000s-present","emerging","mature","dct-microsoft-media-center-rollout-2002-08",""
+"mp3","MP3","framework","","1995-present","mainstream","mature","dct-microsoft-media-center-rollout-2002-08",""

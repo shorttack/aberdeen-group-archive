@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "nVidia Personal Cinema 1.0 \u2014 Aberdeen Lab Report",
+  "description": "Aberdeen Group laboratory feedback report to nVidia management on 16 hours of hands-on testing of the Personal Cinema 1.0 kit (Compro GeForce2 MX 400 graphics card with VIVO breakout box) on a Dell 8100 running Windows XP. Evaluates graphics, TV tuner via WinDVR, DVD playback via WinDVD, Ulead Video Wave 4, and Microsoft Movie Maker workflows, and recommends packaging, cabling, and software-install improvements.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-01-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

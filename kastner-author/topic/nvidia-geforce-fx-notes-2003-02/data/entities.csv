@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"nvidia","NVIDIA Corporation","company","semiconductor","active","","1993-present","nvidia-geforce-fx-notes-2003-02",""
+"ati-technologies","ATI Technologies","company","semiconductor","acquired","amd","1985-2006","nvidia-geforce-fx-notes-2003-02","Competitive reference: Radeon 9500"
+"tsmc","TSMC","company","semiconductor-foundry","active","","1987-present","nvidia-geforce-fx-notes-2003-02","0.13 micron / 0.15 micron process"
+"brian-burke","Brian Burke","person","semiconductor","active","","","nvidia-geforce-fx-notes-2003-02","nVidia briefer"
+"todd-reddick","Todd Reddick","person","semiconductor","active","","","nvidia-geforce-fx-notes-2003-02","nVidia briefer"

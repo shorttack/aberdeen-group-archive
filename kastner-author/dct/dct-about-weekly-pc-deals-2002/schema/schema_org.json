@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About Aberdeen Weekly PC Deals",
+  "description": "Program documentation for Aberdeen Group's Weekly PC Deals Section, describing methodology for tracking online retailers' lowest prices on name-brand PCs from Compaq, Dell, eMachines, Gateway, HP, and Sony. Defines nine price-point targets from $550 to $1,550+ reflecting the mass-market U.S. consumer PC segment, with weekly winner selection based on processor speed, memory, hard drive, optical drives, and bundled components.",
+  "creator": {
+    "@type": "Person",
+    "name": "Caroline S. Kastner"
+  },
+  "datePublished": "2002-09-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

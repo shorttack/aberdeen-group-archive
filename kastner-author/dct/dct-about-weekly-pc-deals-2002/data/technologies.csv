@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-architecture","Intel-architecture processor","platform","Intel","1980s-present","mature","mature","dct-about-weekly-pc-deals-2002","x86 / IA-32 family"
+"desktop-pc","Desktop PC","platform","","1980s-present","mature","mature","dct-about-weekly-pc-deals-2002",""
+"dvd-cd-rw","DVD / CD-RW optical drive","platform","","2000-2010","mainstream","legacy","dct-about-weekly-pc-deals-2002",""

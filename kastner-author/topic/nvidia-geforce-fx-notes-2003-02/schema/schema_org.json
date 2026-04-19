@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "nVidia GeForce FX Product-Line Briefing Notes",
+  "description": "Briefing notes from an nVidia product-line meeting with Brian Burke and Todd Reddick covering the GeForce FX NV30/NV31/NV34 lineup \u2014 targets, process (TSMC 0.13 micron / 0.15 micron), memory (DDR1/DDR2), AGP 8x, DirectX 9 support, NV35 high-end future, and SKU positioning versus ATI Radeon 9500 and prior GeForce Ti 4200/MX 440 parts. Includes pricing of $99 (NV34) to $399 (NV30/5800) and April ship timing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-02-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

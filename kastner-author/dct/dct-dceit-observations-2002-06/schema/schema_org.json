@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital Consumer Electronics and Information Technology \u2014 Staff Observations",
+  "description": "Internal Aberdeen memo on the Digital Consumer Electronics and Information Technology (DCEIT) sector at a Q2-2002 inflection: Intel's $400M revenue shortfall, aggressive CPU price cuts, and AMD's 22% share gains driving PC OEM repositioning. Documents retail observations from Caroline Kastner's tracking research and catalogs vendor-specific line moves at Gateway and Dell ahead of the 2002 back-to-school season.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-06-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

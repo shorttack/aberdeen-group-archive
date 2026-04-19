@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen: Dell dives deeper, wider into enterprise",
+  "description": "Kastner-authored analyst column 'special to SearchCIO.com' (published on searchdatamanagement.techtarget.com). Reviews Dell's enterprise push via its partnerships with Oracle, EMC, Intel, and Microsoft following Dell's FY2003 $35.4B in sales. Details Dell's Oracle 9i reseller program extension to Europe and Asia, Dell/EMC CX200/CX400/CX600 storage program with petabytes sold to 2,500 new customers, and Dell's 46-70% TCO advantage running Intel+Windows vs Unix servers. Concludes Dell will gain share in OLTP, messaging, data warehouse, and file/print markets as the IT megatrend favors standards-based computing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-04-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -16,3 +16,15 @@ Sources reviewed but not ingested into `kastner_quotes_clean.csv` or as archival
 - **Batch**: Batch 4 (2026-04-19), file 08 of 10
 
 ---
+
+## Machine-translated republications
+
+### Massachusetts Attorney Lawyer (attorney2massachusetts.com) rebates article
+- **Title**: Account customers discounts on technology for saving Trip often Fine Print
+- **Source URL**: http://attorney2massachusetts.com/account-customers-discounts-on-technology-for-saving-trip-often-fine-print/
+- **Source archive**: `batch_20260419_quotes5/04_Account-fine-print.webarchive`
+- **Reason skipped**: Clearly a machine-translated republication of an English-language original (most likely a Boston Globe / Dallas Morning News rebates article from ~2003-2004). The text is heavily garbled ("More than 40 percent of consumers has never taken off exchange"), rendering any direct quote extraction unreliable. The same underlying Kastner rebate statistic (~40% never redeem) is already captured verbatim in the CSV at **row 296 (seq 146) Dallas Morning News 2003-07-03 'Rebate offers create fans, critics' by Doug Bedell** and would duplicate that row if re-extracted here. Of secondary note: this MT article attributes Kastner to 'Vericours, Inc.' (his post-Aberdeen consultancy) as well as to Aberdeen, suggesting the original source is likely a 2005+ article; however the mangled text cannot be reliably reconstructed.
+- **Recovery hint**: Search for the original English article by keyword "Kastner Vericours 40 percent rebates never honored" on Boston Globe, Worcester T&G, or Dallas Morning News archives. A clean find would justify a new row and seq.
+- **Batch**: Batch 5 (2026-04-19), file 04 of 10
+
+---

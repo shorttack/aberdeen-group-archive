@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"amd-opteron","AMD Opteron","platform","AMD","2003-2017","growing","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Enterprise server processor with ~20% volume x86 server share at time of report."
+"amd-athlon-64","AMD Athlon 64","platform","AMD","2003-2014","mature","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Desktop and notebook processor improving AMD's client position."
+"intel-xeon","Intel Xeon","platform","Intel","1998-present","mature","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Server-class Intel x86 processor."
+"hypertransport","AMD HyperChannel (HyperTransport)","protocol","AMD","2001-present","emerging","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Interconnect technology to be used for tight CPU-GPU integration post-AMD/ATI merger."
+"microsoft-vista","Microsoft Windows Vista","platform","Microsoft","2007-2017","pre-launch","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Required dramatically greater 3D graphics capabilities than Windows XP."
+"microsoft-windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","[DEFERRED]","2006-amd-ati-acquisition-cf19ff","Incumbent OS being supplanted; low graphics requirements."
+"xbox-360","Microsoft Xbox 360","platform","Microsoft","2005-2016","current","legacy","2006-amd-ati-acquisition-cf19ff","Consumer console using ATI graphics silicon."

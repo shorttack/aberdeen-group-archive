@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Obian Advisory Board (Kastner as Aberdeen Senior VP, Pre-Obian Employment)",
+  "description": "Obian Group's advisory board page (obian.com/board.shtml) naming Peter Kastner as 'Senior VP of Research, Aberdeen Group' among its advisors. Date approximated to ~August 2004 based on the most recent featured article ('Obian Viewpoint 03Aug04'). Documents the pre-employment advisory relationship that preceded Kastner's later move to Obian. Other advisors include Barry Kadets (CIO Bacou-Dalloz), Bob Lutz (Director of IT, Timex), Tom McCoy (former CIO AIG), Lawrence Meador (former CIO Cigna P&C), Ken Schwaber (Advanced Development Methods), and Patrick Zilvitis (CIO Segway, former CIO Gillette).",
+  "creator": {
+    "@type": "Person",
+    "name": "Obian Group corporate"
+  },
+  "datePublished": "2004-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

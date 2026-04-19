@@ -22,3 +22,7 @@ All other nine Batch 8 files produced re-attributions and/or new quote rows — 
 ## Batch 9 (2026-04-19)
 
 - **CRN "CA Division Eyes BPM"** (http://www.crn.com/it-channel/18802024) — CMP sister-publication mirror of VARBusiness 1999-04-23 "CA Unveils InterBiz Solutions Division" by Timothy Long (existing seq 96, row 174). Same Kastner quote ("This is totally new and different. No one else is working in this space."). Row 433 (prev mis-attributed to MacNewsWorld) merged into seq 96; no new seq created.
+
+## Batch 10 (2026-04-19)
+
+- **Italian iSeries/Tivoli newsletter** (http://www.newsletter.duke.it/as400/insider-230.shtml, "Change of management with IBM aims to revive the world i5 iSeries and Tivoli software") — webarchive captured only an empty Google Translate wrapper shell; source site (newsletter.duke.it) no longer resolves in DNS, and no Wayback/archive copy is recoverable. Google referrer URL confirms the original article quoted Peter Kastner + Aberdeen Group in a piece about IBM's iSeries/Tivoli management change, likely during the Sam Palmisano / Steve Mills reorganization era. Skipped pending future recovery.

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Apple Ships Hot PowerMac G5",
+  "description": "Hot Topic piece on Apple's Power Mac G5 launch. Analyzes SPEC CPU 2000 benchmark claims (G5 2.0 GHz beats Xeon and P4 in floating point, loses integer; dual-G5 beats both in integer and floating point), the 64-bit marketing claim relative to Alpha/HP-PA/PowerPC/Sun/Itanium 2 predecessors, the $3998 configuration with ATI 9800 Pro and Apple 17in Studio Display, PCI-X and 8x AGP I/O, USB/FireWire 800/gigabit Ethernet. Concludes G5 is legitimate workstation competitor but an Apple-base renovation rather than a PC-attack product.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-06-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

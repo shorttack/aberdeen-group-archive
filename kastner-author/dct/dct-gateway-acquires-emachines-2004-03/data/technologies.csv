@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"desktop-pc","Desktop PC","platform","multiple","1975-present","mature","current","dct-gateway-acquires-emachines-2004-03",""
+"notebook-pc","Notebook PC","platform","multiple","1985-present","mature","current","dct-gateway-acquires-emachines-2004-03",""
+"plasma-hdtv","Plasma HDTV","hardware","multiple","1997-2014","mature","obsolete","dct-gateway-acquires-emachines-2004-03","Gateway leadership ref"
+"all-in-one-pc","All-in-One PC","platform","multiple","1999-present","mature","current","dct-gateway-acquires-emachines-2004-03","Gateway media center"
+"pc-value-segment","PC Value Segment","methodology","PC industry","1995-present","mature","current","dct-gateway-acquires-emachines-2004-03","eMachines positioning"
+"pc-retail-channel","PC Retail Channel","methodology","PC industry","1990-present","mature","legacy","dct-gateway-acquires-emachines-2004-03","Brick-and-mortar distribution"

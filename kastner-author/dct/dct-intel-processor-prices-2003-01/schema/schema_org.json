@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Analysis of Intel Processor Prices in PC Deals (January 2003)",
+  "description": "Analysis of Intel Celeron and Pentium 4 processor price tiers observed in Aberdeen's PC Deals tracking from August 2002 through January 2003. Documents the bifurcation of P4 into 400 MHz and 533 MHz front-side-bus families, the introduction of hyperthreading 3.06 GHz P4, and the mechanics of older CPUs being pushed down price bands by new releases. Predicts near-term obsolescence of the P4 2.0 GHz.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-01-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

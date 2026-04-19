@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Peter Kastner's Wish List",
+  "description": "Kastner's personal 2002 holiday wish list of six digital consumer technology products: HP Scanjet 5500c, Dell Axim X5 Pocket PC, Viewsonic NextVision N6 PC-HDTV bridge, Gateway Profile 4 XL all-in-one, nVidia GeForce FX graphics card, and Davis Instruments Vantage Pro Plus weather station. Each item is framed as both a consumer product and an industry signal.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

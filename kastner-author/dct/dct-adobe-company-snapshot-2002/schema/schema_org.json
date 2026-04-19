@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Adobe Systems Inc. \u2014 Aberdeen DCT Company Snapshot",
+  "description": "Short Aberdeen DCT company-snapshot on Adobe Systems, covering corporate facts (founded 1982, second-largest PC software company, 345 Park Avenue San Jose), product categories (content design/production/publishing; digital video; digital imaging; document rendering including fonts, print rendering, ePaper), and executive roster (Warnock, Geschke as co-chairmen; Chizen CEO; Demo CFO; Lamkin SVP Graphics; Eschbach VP ePaper).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

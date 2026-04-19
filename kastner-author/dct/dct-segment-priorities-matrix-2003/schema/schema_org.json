@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "DCT Segment Priorities Matrix (Home / Work / Mobile)",
+  "description": "Aberdeen Personal IT / DCT segment-priorities matrix cross-tabulating four technology categories (Computers & Peripherals, Networking, Productivity Apps & Services, Leisure & Entertainment) against three contexts (Home, Work, Mobile). Captures priority rankings with analyst notes \u2014 including desktop-CPU 2.2->3.6 GHz 18-month roadmap, Pentium 4 laptop impact, 2002 as a 'banner year for home networks' caveated on wireless usability, and 2003 PC/TV/stereo integration outlook.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-11-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"adobe-font","Adobe font / typography technology","platform","Adobe","1984-present","mature","mature","dct-adobe-company-snapshot-2002",""
+"epaper","Adobe ePaper (PDF)","platform","Adobe","1993-present","mainstream","mature","dct-adobe-company-snapshot-2002","Document rendering"
+"print-rendering","Print rendering (PostScript/PDF)","platform","Adobe","1982-present","mature","mature","dct-adobe-company-snapshot-2002",""
+"digital-video-software","Digital video editing software","category","","1990s-present","mature","mature","dct-adobe-company-snapshot-2002",""
+"digital-imaging-software","Digital imaging software","category","","1990s-present","mature","mature","dct-adobe-company-snapshot-2002",""
+"network-publishing","Network publishing","category","","1998-present","emerging","mature","dct-adobe-company-snapshot-2002",""

@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"microsoft","Microsoft","company","software","active","","1975-present","dct-microsoft-homestation-notes-2002",""
+"nvidia","NVIDIA Corporation","company","semiconductor","active","","1993-present","dct-microsoft-homestation-notes-2002","Xbox GPU vendor, presumed TV-tuner partner"
+"webtv","WebTV","company","consumer-electronics","acquired","microsoft","1995-2013","dct-microsoft-homestation-notes-2002","Microsoft-owned"

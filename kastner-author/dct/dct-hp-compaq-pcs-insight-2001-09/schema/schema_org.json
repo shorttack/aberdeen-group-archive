@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Integrating HP and Compaq: Success Must Stem from the PC Business",
+  "description": "Aberdeen InSight arguing that the newly announced HP/Compaq merger's success will be determined by the PC business \u2014 not by divesting it. Frames the combined $29B 'access devices' segment (desktops, notebooks, iPaq/Jornada PDAs) as strategic for server-component sharing and printer/consumer bundling. Forecasts the merged entity will hold 19% global PC share (#1 position, 5-6 points ahead of Dell) and flags consumer IT as the key battleground for Carly Fiorina's stated #1-consumer-IT strategy.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2001-09-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

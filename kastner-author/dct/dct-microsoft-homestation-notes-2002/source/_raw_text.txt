@@ -1,0 +1,17 @@
+﻿Microsoft HomeStation
+Need: a home server that bridges traditional PC with home stereo and TV
+Applications: PVR, jukebox, TV scheduler, games, messaging, photo album
+HomeStation
+    • Start with Xbox: PC, controller, TV or monitor support, Ethernet, DVD
+    • Replace Windows 2000 with XP 2.0 (aka Longwood)
+    • Add Terminal Server support to drive Mira tablets and Microsoft remote controls (headless PC)
+    • Add TV tuner support (analog and digital is already in XP), probably from nVidia (cost will be trivial)
+Freestyle
+The UI for HomeStation
+Development is well advanced and was demonstrated at CES
+Learn more at www.Microsoft.com/freestyle
+Big Picture: Microsoft as a Platform Player
+Microsoft is a $1.5B hardware player already with mice, WebTV  and Xbox
+HomeStation is a stealthy way to become a major PC vendor
+Mira home tablet is a $300-$400 remote controller and lightweight Internet browser
+$79 Remote control will tie PC to stereo, TV and the HomeStation, mostly the latter

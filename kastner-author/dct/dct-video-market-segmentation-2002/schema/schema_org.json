@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Video Product Segmentation \u2014 Aberdeen DCT Market Map",
+  "description": "Aberdeen DCT market-segmentation map of consumer PC video products across four feature categories: (1) digital/analog video capture, (2) TV-input to PC monitor, (3) TV-output to TV/stereo, and (4) combined TV + graphics card. Lists hardware and software suppliers per category with indicative pricing ($80 ATI TV Wonder up to $500 Radeon 8500DV) and captures the 2002 state of PC/TV convergence peripherals.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

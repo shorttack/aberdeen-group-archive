@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"desktop-pc","Desktop PC","platform","","1980s-present","mature","mature","dct-hp-compaq-pcs-insight-2001-09",""
+"notebook-pc","Notebook / laptop PC","platform","","1990s-present","mature","mature","dct-hp-compaq-pcs-insight-2001-09",""
+"ipaq","Compaq iPaq Pocket PC","platform","Compaq","2000-2007","emerging","discontinued","dct-hp-compaq-pcs-insight-2001-09",""
+"jornada","HP Jornada Pocket PC","platform","Hewlett-Packard","1998-2003","emerging","discontinued","dct-hp-compaq-pcs-insight-2001-09",""
+"pocket-pc","Windows Pocket PC","platform","Microsoft","2000-2010","emerging","legacy","dct-hp-compaq-pcs-insight-2001-09",""
+"palm-os","Palm OS","platform","Palm","1996-2009","mainstream","discontinued","dct-hp-compaq-pcs-insight-2001-09",""
+"printer-ink","Inkjet/printer ink consumables","platform","","1990s-present","mature","mature","dct-hp-compaq-pcs-insight-2001-09","'Ink annuity'"

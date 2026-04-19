@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","market-research","[DEFERRED]","[DEFERRED]","1988-2019","dct-segment-priorities-matrix-2003",""
+"intel","Intel Corporation","company","semiconductor","active","","1968-present","dct-segment-priorities-matrix-2003","P4 roadmap cited"
+"aol","America Online","company","internet-services","[DEFERRED]","[DEFERRED]","1985-present","dct-segment-priorities-matrix-2003","AOL/MSN services note"
+"microsoft","Microsoft","company","software","active","","1975-present","dct-segment-priorities-matrix-2003","Office, MSN services"
+"maged-shaker","Maged (Shaker)","person","market-research","active","","","dct-segment-priorities-matrix-2003","Aberdeen mobile/cellular analyst"
+"isaac-ro","Isaac Ro","person","market-research","active","","","dct-segment-priorities-matrix-2003","Aberdeen Location/Internet appliances analyst"

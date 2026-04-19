@@ -1,0 +1,65 @@
+﻿Video Product Segmentation
+Major Feature Categories
+    1. Digital and/or analog video signal capture from camcorders, TV cameras
+    2. Analog and/or Digital TV input – display TV on PC monitor
+    3. Analog and/or Digital TV output – drive a TV set and stereo
+    4. TV Support combined with a graphics video card
+1.  Digital and/or analog video signal capture
+Technology: Typically IEEE 1394 FireWire
+Applications: making home videos, video hobby, professional moviemaking
+Suppliers
+Hardware Solutions
+    • AVerMedia Technologies
+1161 Cadillac Court 
+Milpitas, CA 95035
+Tel: 1-408-263-3828
+Fax: 1-408-263-8132
+http://www.aver.com/index.html
+April Brooks [april@sspr.com]
+    • ADS Pyro ProDV – digital only
+    • Dazzle Digital Video Creator – analog only
+    • Matrox RT2500
+    • Pinnacle DV500 Plus
+    • ATI DV Wonder
+    • Creative Labs
+    • Adaptec
+    • Software -- Capture, transcoding, CD and DVD making, editing
+    • Media Studio Pro – video capture, editor
+    • DV Suite – dvmovie, photo capture for NT 4.0
+    • Pixelan SpiceMaster and Spicerack Pro
+    • Boris FX and Factory - transitions
+    • Animation Master
+    • Sound Foundry: Sound Forge, Acid, Sound Pro – sound capture & editing
+    • Cool 3-D
+    • Adobe Premier
+    • Adobe GoLive – publishing to the web
+    • Spruce Technologies SpruceUp – DVD authoring & publishing
+2. Analog and/or Digital TV input
+Technology: TV tuner and hardware codec
+Applications
+    • Personal video recorder (PVR)
+    • Time shifting
+    • Timesharing (watching while doing something else on the PC)
+Suppliers
+    • Solutions – PC add-in board for TV
+    • Access DTV $400 digital/analog
+    • ATI TV Wonder $80
+    • NVidia Personal Cinema
+    • Pinnacle Pro-ONE, Studio PCTV Pro
+    • Hauppaugue Win/TV
+    • Siemens
+    • AverMedia AVerTV USB (TV Tuner, Video Capture)
+    • TiVo reference: Philips HDR312 with TiVo service $300
+3. Analog and/or Digital TV Output – drive a TV set and stereo
+Applications
+Suppliers
+    • ATI
+    • AccessDTV
+    • Nvidia OEMs
+    • Hauppaugue WinTV Theater
+4. TV Support combined with a graphics video card
+Applications
+    • Multi-function card saves costs and real estate while using AGP bus for high performance 3D graphics (gaming) and TV buffering
+Suppliers
+    • ATI All-in-Wonder Radeon $165 and Radeon 8500DV $500
+    • NVidia OEMs such as ASUS, Eltra GEFORCE 3 plus DTV out $300-$400

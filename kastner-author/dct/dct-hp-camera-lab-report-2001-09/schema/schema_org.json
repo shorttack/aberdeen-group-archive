@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP's Consumer IT Leadership Needs More Focus On Consumers (Sep 5 2001 draft)",
+  "description": "September 5, 2001 Aberdeen Lab InSight draft on HP's consumer IT execution, based on hands-on experience with HP's C315 digital camera. Earlier version of the 'Caveat Emptor' InSight later published December 5, 2001. Documents the Windows XP upgrade-in-place compatibility failure caused by HP's bundled photo-transfer software interfering with Windows XP native camera support \u2014 and the 45-minute support call that cost HP more than the camera's retail price per Aberdeen help-desk research.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2001-09-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

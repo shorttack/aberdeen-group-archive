@@ -1,0 +1,13 @@
+﻿Technology	Home	Work	Mobile
+Computers & Peripherals	Desktop, laptop, tablet
+Multiple PCs drives need for home networking.  In 2003, PCs integrate well with TV/stereo.  Usability in system bundles an issue.	Desktop, laptop, tablet, semiconductors  
+Desktop MHz goes from 2.2 to 3.6 in 18 months.  Pentium4 laptops are major performance improvement	Laptop, PDA
+Networking	WiFi, PNA, Powerline, Ethernet, home automation
+2002 will be a banner year for home networks, but wireless is not the only choice.  Usability a huge issue.	WiFi 802.11a	WiFi, cellular (Maged)
+Productivity Applications & Services	Low priority: personal firewalls, security, OS, utilities, personal messaging, AOL/MSN services	Office	PIM
+Leisure & Entertainment	PVR, TV/stereo convergence, games, digital appliances  
+In 2002, making a TV and stereo work with a PC is difficult, but relief is on the way in 2003.  What are the tradeoffs by buying now?		Location, Isaac???
+
+
+Priority #1 in blue          
+Priority # 2 in gray         

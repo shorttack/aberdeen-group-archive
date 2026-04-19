@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"hp-c315","HP PhotoSmart C315 digital camera","platform","Hewlett-Packard","2001-2004","mainstream","discontinued","dct-hp-camera-lab-report-2001-09",""
+"windows-xp","Windows XP","platform","Microsoft","2001-2014","emerging","legacy","dct-hp-camera-lab-report-2001-09",""
+"windows-me","Windows Millennium Edition","platform","Microsoft","2000-2006","mainstream","end-of-life","dct-hp-camera-lab-report-2001-09",""
+"usb-1","USB 1.x","protocol","","1996-2005","mainstream","legacy","dct-hp-camera-lab-report-2001-09",""
+"acd-see","ACD See image display","application","ACD Systems","1994-present","mainstream","mature","dct-hp-camera-lab-report-2001-09","Missing .dll on HP install bundle"
+"hp-photo-transfer","HP photo transfer software","application","Hewlett-Packard","2001-2006","mainstream","discontinued","dct-hp-camera-lab-report-2001-09","Incompatible with Win XP native camera support"
+"digital-camera","Consumer digital camera","platform","","1995-present","emerging","mature","dct-hp-camera-lab-report-2001-09",""

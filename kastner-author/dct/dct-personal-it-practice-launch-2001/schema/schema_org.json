@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Personal Information Technology \u2014 Aberdeen Practice Launch",
+  "description": "Program-launch description of Aberdeen Group's Personal Information Technology practice, established by Peter Kastner in 2001. Articulates the nine market paradoxes driving the practice (PC commoditization, digital-device convergence, home-network emergence, 3G wireless, digital TV transition, in-home services needs), catalogs service offerings, technology segments, strategic market questions, key market trends, and the supplier coverage list (Microsoft, Intel, AMD, Compaq, Dell, HP, IBM, Sony, Toshiba, Apple, Gateway, Micron, AOL, Epson, Lexmark, Canon, Nvidia, Cirrus Logic).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2001-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

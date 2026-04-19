@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Microsoft HomeStation \u2014 Analyst Briefing Notes",
+  "description": "Briefing notes on Microsoft's HomeStation concept \u2014 a home-server platform bridging traditional PC with home stereo and TV, built on Xbox hardware with Windows XP 2.0 (codename Longwood) replacing Windows 2000, Terminal Server support to drive Mira tablets and remote controls, and nVidia TV-tuner integration. Freestyle is the HomeStation UI (demoed at CES 2002). Frames Microsoft as a $1.5B hardware player via mice, WebTV, and Xbox \u2014 and HomeStation as a stealth path to become a major PC vendor.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-02-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

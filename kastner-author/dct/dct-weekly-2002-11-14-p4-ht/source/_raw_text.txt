@@ -1,0 +1,16 @@
+# PC Deals Special: Pentium 4 with HyperThreading
+# Source: PC DEals Pentium 4 with HyperThreading.doc
+# Content date: 2002-11-14
+# subtype: special; content_date: 2002-11-14; retailers_covered: n/a; vendors_covered: dell,hewlett-packard,gateway-inc; related_study_ids: dct-access-pc-deals-2002-2003
+# ====================================================================
+
+Pentium 4 with Hyper-Threading Arrives
+Intel's Pentium 4 at 3.06 GHz with Hyper-Threading (HT) technology arrived November 14th.  HT adds a trivial number of transitors that add a measurable amount of performance boost for most users.  Thus, P4 machines with HT will perform much more crisply than the implied boost from a 200 MHz speed-bump over yesterday's king of the chips, the 2.8 GHz P4.
+
+HT technology works by providing hardware support for a second executing compute task.  There is still only a single central processor unit (CPU).  But HT provides a second ready task with the hardware-assist needed to quickly swap from one task to another.  Without HT, the CPU spends a fair amont of its gigahertz on internal housekeeping when it is instructed by the operating system to switch from one task to another.  Think you only have a few tasks at a time running on your machine?  Guess again.  Take a look in Window's Task Manager.  Our work machine has 335 tasks and the home lab machine has over 200 tasks.  HT will allow the CPU to spend more of its available time in doing useful work tasks and less time spent on hardware-level task housekeeping.
+
+How much better will your HT experience be?  Your milage will vary, of course, but our experience suggests many business and consumer users will see a visibly more snappy response from an HT machine - particularly a machine with lots of fast memory.  You'll be able to do more foreground work while simultaneously doing Web downloads, printing, file zipping, CD and DVD burning, spell and grammar checking, as well as the increasing mix of background "services" now prevalent in Windows XP.  Compared with the 50% boost in gigahertz between a Pentium 4 at 2.0 GHz and the new 3.06 GHz with HT, many application mixes show performance improvements more in the 80%-90% range.
+
+Our long-term view is that a P4 with HT will make a great next desktop.  We see the HT technology pushing down the product line as Intel rolls out more speed improvements in 2003.  It will cost over $2,000 to get into a richky configured HT machine now, but we forecast 3.06 GHz machines will be in our $1,350 price band by next April 1st.  No fooling!
+
+Please take a look at the custom-configured HT computers from Dell, HP, and Gateway in our special PC Deals section.

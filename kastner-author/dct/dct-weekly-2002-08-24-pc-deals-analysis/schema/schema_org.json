@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Analysis: August 24-31, 2002",
+  "description": "With three weeks to go in the back-to-school promotion season, the market is in the midst of adding enormous technology bang for the buyer's buck. Pentium 4 2.53 GHz high-end microprocessors, too expensive for PC Deals' mass-market focus to date, exploded onto our radar screen, while 2.26 GHz machines are now under $900. Led by Compaq, this week's deals include a 2.0A GHz Pentium 4 with monitor for under $750, and a 2.26 GHz machine with monitor for under $800.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-08-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

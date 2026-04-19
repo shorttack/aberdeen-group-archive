@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: May 11, 2003",
+  "description": "Been waiting for the high-end Intel Pentium 4 processors to drop to more accessible price points? Well, this week brings some drastic price changes that you'll definitely want to check out. With Dell.com lowering its prices, especially on the 4550 models, you can now own an Intel Pentium 4 2.8 GHz PC and monitor for under $1,200.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-05-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

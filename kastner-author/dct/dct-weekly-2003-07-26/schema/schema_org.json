@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: July 26, 2003",
+  "description": "As of this week, PC Deals no longer follows pricing on old eMachines, HP, and Compaq desktops because these manufacturers have released new line-ups at prices that compete with the older models. Excellent deals can still be found on these clearance models at websites like www.hpshopping.com, www.pcconnection.com, and www.pcdeals.com. While desktop deals haven't been overly impressive for the past few weeks, we've noticed that prices on computer accessories have been excell...",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-07-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

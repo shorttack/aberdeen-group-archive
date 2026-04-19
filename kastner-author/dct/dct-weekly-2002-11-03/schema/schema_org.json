@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: November 3, 2002",
+  "description": "AMD ruled the retail ads this week with an abundance of Athlon machines at great prices. AMD Athlon PCs offer competitive machines that cost less than their Intel counterparts. Winning the $600, $750, and $900 category with processors that far exceed their Intel Celeron competitors, consider an AMD machine when looking for a great basic home PC.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-11-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

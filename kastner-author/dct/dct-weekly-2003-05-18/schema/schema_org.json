@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: May 18, 2003",
+  "description": "As we stated last week in this column, prices on PCs with Intel Pentium 4 Hyper-Threading technology have been falling into quite affordable price points. In response to these price decreases PC Deals has decided to eliminate the separate Hyper-Threading (HT) category at the bottom of our weekly spreadsheet. From now on we will place HT machines along side \"regular\" P4 machines and compare all PCs side-by-side by price.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-05-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

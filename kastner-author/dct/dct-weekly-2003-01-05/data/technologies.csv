@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4","Intel Pentium 4","processor","Intel","2000-2008","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"intel-celeron","Intel Celeron","processor","Intel","1998-present","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"amd-athlon-xp","AMD Athlon XP","processor","AMD","2001-2005","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"amd-athlon","AMD Athlon","processor","AMD","1999-2005","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"notebook-pc","Notebook PC","form-factor","","1989-present","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"desktop-pc","Desktop PC","form-factor","","1981-present","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"
+"windows-xp","Windows XP","operating-system","Microsoft","2001-2014","mature","[DEFERRED]","dct-weekly-2003-01-05","Referenced in weekly PC Deals commentary 2003-01-05"

@@ -1,0 +1,138 @@
+# PC Deals Weekly Update: March 16, 2003
+
+> Archived from: March 16 Update.doc
+> Original publication date: 2003-03-16
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# PC Deals Weekly Update: March 16, 2003
+# Source: March 16 Update.doc
+# Content date: 2003-03-16
+# subtype: weekly; content_date: 2003-03-16; retailers_covered: bestbuy-com,circuit-city,circuitcity-com,compusa,gateway-online; vendors_covered: dell,hewlett-packard,compaq,gateway-inc,sony,emachines,viewsonic; related_study_ids: dct-access-pc-deals-2002-2003
+# ====================================================================
+
+This Week's Analysis of PC Deals
+PC Deals Trends and Commentary
+Intel's Centrino wireless notebook launch was the hot topic in the industry this week.  We covered the launch from the corporate buyer's prospective in a Hot Topic.  First, can you help us out?  Please let us know at pcdeals@aberdeen.com if you find a Centrino notebook at retail that you can take with you that day.  Gateway says its stores are stocked.  But our antenna says that Centrinos will be hard to come by for a few weeks.  Don't know exactly why.  For most consumers, this delay is much to do about nothing - for now.  We like Centrino a lot for it's power, battery life, and wireless built-in capabilities.  Consumer versions will arrive in time for the back-to-school buying season.  So unless you just have to have that blue and magenta butterfly logo on your laptop, consumers should wait for supply to build and more models to appear before expecting good, old fashioned PC deals.
+
+At Dell.com consumers are directed to the Home and Home Office site.  That's where Dimension desktops - aimed at unmanaged environments without big Information technology staffs - are highlighted.  But also check out the Small Business section.  This separate business unit gets to set different prices because, well, it's a separate business unit.  You'll find that the Small Business folks are behind plan this week - or awfully generous.  We configured a very useable Dimension 4550 with a Pentium 4 at 2.66 GHz and 512 MB of fast DDR memory, nVidia GeForce 4 graphics with a 17" CRT monitor for a mere $888 including shipping.  A 2.53 GHz P4 with 256 MB of memory is $818.  If you're a Dell dude, best become a small business person this week for the best deals.  You'll save at least $35 over the Home site at Dell.
+
+But wait!  Dell hasn't had winning configurations at the $900 price point for months.  After conceding the lower half of the market to HP, which picked up market share, it should not be surprising if this is a counter-offensive.  And Dell is also saving costs on Intel's recently lowered microprocessor prices, so the company is able to quickly pass these lower costs on to consumers.  Worth watching, PC Deals fans.
+
+This Week's Buying Tips
+
+BestBuy
+Get $150 off for all Pentium 4 computer packages (bundled deals) this week at BestBuy stores.  Free shipping on HP consiguration station configurations.
+  
+BestBuy.com still offers free shipping and, now, no financing for 18 months.
+
+Circuit City
+This week, get $100 gift card on all desktop and notebook systems, and no interest for 12 months at Circuit City.
+Circuitcity.com has reintroduced free shipping for a limited time on all its online items.  
+CompUSA
+This week, CompUSA offers $100 off AMD Athlon XP bundles, and $150 off Intel Pentium 4-based bundles.  In addition, there is attractive 12 month, no interest-no payments financing on systems over $599.  Featured machines are from HP and Compaq.  Also check out the deal on a Viewsonic 19" LCD monitor for only $699.97 - a better price then we could find online at Pricegrabber.com.
+
+The add-on deal of the week is at CompUSA , where they are giving away a wireless networking equipment and installation bundle with the purchase of any desktop or notebook.  The product bundle includes a Belkin 802.11b router and USB network adapter, an Epson Stylus C42UX printer, 30-pack of CD-R's, Symantec's Internet Security software, and PC Relocator software.  On the services side, the bundle includes two hours of technician time, which could be used to set up the wireless network.  See store for details.  Highly recommended.
+
+CompUSA.com tends to continue selling "older" PC models after BestBuy.com and CircuitCity.com have removed them, like the HP 763n in this week's PC Deals.  This means you can get great deals on models that retailers want off the shelves to make room for the newer versions.  But this can also mean that you might pay almost the same amount for the older model as you would for the newest model; so, it's important to compare models with similar features and compare with other sites to make sure you're getting a good deal.  
+
+EMachines
+EMachines has new models out.  Check out BestBuy's bundled deals on these new machines.
+
+Dell
+Dell's online deals include $150 instant savings on 4550 series, free CD-RW in second bay, a free hard drive upgrade to 60 GB, and free shipping.  
+
+It's no longer an option to put a 2.4 GHz P4 processor in an Dimension 4550, meaning that a P4 2.53 GHz processor is now the bottom of the line.
+
+Gateway
+Gateway offers free shipping again.  Gateway revamped its website and has severely cut back on PC models for the home.  The 300 S Value no longer exists; in fact, the 300 series now starts at $799, instead of previous weeks' $399.  
+
+Gateway.com continues its offer of free shipping.
+
+Sony
+Sony Online has introduced new models at competitive prices.  It appears that prices have risen slightly this week, but there are still great deals to be found.  Right now, get free shipping on all Viao desktops, including customized models.  
+
+HP and Compaq
+HP Online continues to be competitive with retail deals, but the resurgence of weekly offers means that you're best bundled deals are at stores like CompUSA.  HP Online does offer free shipping on orders over $250, as well $1 CD-RW and $99 17" monitors, when purchasing a customized PC.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | dct-weekly-2003-03-16 |
+| title | PC Deals Weekly Update: March 16, 2003 |
+| author | Peter S. Kastner |
+| date | 2003-03-16 |
+| type | dct |
+| subject_domain | DCT-retail-pc-market |
+| methodology | market-tracking, expert-opinion, price-tracking |
+| source_file | March 16 Update.doc |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Intel's Centrino wireless notebook launch was the hot topic in the industry this week. We covered the launch from the corporate buyer's prospective in a Hot Topic. First, can you help us out?
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
+| **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
+| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Kastner forecast 1 from commentary
+- **Claimed:** will be hard to come by for a few weeks.
+- **Year:** 2003
+- **Confidence at time:** [DEFERRED]
+
+
+### Entities Referenced (15)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| BestBuy.com | company | [DEFERRED] | [DEFERRED] |
+| Circuit City (stores) | company | [DEFERRED] | [DEFERRED] |
+| CircuitCity.com | company | [DEFERRED] | [DEFERRED] |
+| CompUSA | company | [DEFERRED] | [DEFERRED] |
+| Gateway.com | company | [DEFERRED] | [DEFERRED] |
+| Dell Computer | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
+| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Sony | company | [DEFERRED] | [DEFERRED] |
+| eMachines | company | [DEFERRED] | [DEFERRED] |
+| ViewSonic | company | [DEFERRED] | [DEFERRED] |
+| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
+| Advanced Micro Devices | company | [DEFERRED] | [DEFERRED] |
+| Best Buy (stores) | company | [DEFERRED] | [DEFERRED] |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
+| AMD Athlon XP | processor | AMD | mature | [DEFERRED] |
+| AMD Athlon | processor | AMD | mature | [DEFERRED] |
+| Notebook PC | form-factor |  | mature | [DEFERRED] |
+| Desktop PC | form-factor |  | mature | [DEFERRED] |
+| DDR SDRAM | memory |  | mature | [DEFERRED] |
+| Windows XP | operating-system | Microsoft | mature | [DEFERRED] |
+| Wi-Fi (802.11b) | networking |  | mature | [DEFERRED] |
+
+### Observation Summary
+
+- Total observations: 25
+- By type: market-data: 15, technology-assessment: 6, expert-opinion: 2, viability-prediction: 1, actual-outcome: 1

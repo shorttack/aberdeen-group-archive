@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: August 3, 2003",
+  "description": "A lot more deals appeared in this week's flyers from Best Buy and Circuit City, finally hailing the back-to-school buying frenzy. While HP, Sony, and eMachines all had multiple bundled offers, Compaq only had one desktop deal. We noticed an increase in Compaq's pricing on customized desktops at www.hpshopping.com, especially on Compaq monitors.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

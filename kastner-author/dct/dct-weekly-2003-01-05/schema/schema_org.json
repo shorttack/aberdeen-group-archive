@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: January 5, 2003",
+  "description": "If you thought that Gateway's strategy of adding computer peripherals and electronics products to its PC and notebook line just applies to the 200+ Gateway stores, guess again. The Gateway logo is showing up more and more at online storefronts as PC Deals searches for deals and best prices. First, you'll find Gateway brand monitors for sale from several online stores we recognize.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-01-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

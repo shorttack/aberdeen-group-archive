@@ -1,0 +1,71 @@
+# Business PC Deals: November 2002
+# Source: Business PC Deals 11-02.doc
+# Content date: 2002-11-08
+# subtype: business-monthly; content_date: 2002-11-08; retailers_covered: n/a; vendors_covered: dell,hewlett-packard,compaq,ibm,gateway-inc,apple-computer; related_study_ids: dct-access-pc-deals-2002-2003
+# ====================================================================
+
+Business PC Deals - November 6, 2002
+
+Introducing Business PC Deals
+For six months, Aberdeen has been publishing our research on consumer desktop PC price-values - the bang for the buck - at www.Aberdeen.com/PCDeals.  
+
+Now, we are focusing our years of PC research on corporate PCs.  Here are our current recommendations for small-medium business desktop PC buyers.
+Aberdeen's Business Desktop
+A general desktop is one aimed at mainstream white collar workers and certain task-specific workers.  We have been advising clients to adopt the following specifications for their general business desktops:  
+
+Form Factor - We like the small desktop form-factor machines that have proliferated over the past year.  To us, the days of the big-box tower are over.  Who needs six drive bays at their desk anymore?  Small takes less desk space and saves on unused components, which lowers costs.  We see no downside for most users.
+
+Manageability - These PCs are all manageable from a central help-desk/network operating center.  Consumer-grade PCs are not particularly manageable.  Moreover, by focusing on business computers, features such as disk image management are included.
+
+Processor - Our judgment is that a 2.0 GHz Pentium 4 is the minimum processor for a purchase today.  We consider an AMD Athlon 2000+ as functionally equivalent for business applications.  Yes, a few dollars can be saved by buying a Celeron.  Our argument for a 2.0GHz or better processor is based on lab experiences with Windows XP Pro with Service Pack 1 and standard Office, Internet, and collaboration applications.  Looking out over 3-4 years, Aberdeen sees a proliferation of web services that will sap the capacity of less powerful machines.
+
+Operating System - Windows XP Professional is the only reasonable long-term choice.  Windows 2000 works well, and we use it throughout Aberdeen Group.  However, Win2K is halfway through its service life, according to Microsoft.  Therefore, a PC purchased today with Windows 2000 will run out of Microsoft support during the machine's 3-4 year service life.  While we do not have many qualms about running a machine out of its OS service life, many large enterprises with custom applications will just not be able to take that risk. Apple Macintosh with OS X is viable, but PC Deals follows mainstream PCs because that is where the market is.  Linux is not ready for mass deployment on corporate "fat client" desktops.
+
+Memory - While Windows XP Pro will run in 128MB, users will see a lot of page faults in a typical multi-window scenario.  We would opt for 256MB of memory for Windows XP.  Our tests show at least a 10% improvement in XP throughput with 256MB compared to 128MB.  With Windows 2000, 128MB will work somewhat better, but we'd still spend $60 for 128MB more memory.
+
+Hard Disk Drive - The key to business desktop drives is speed, not size.  Our standard is 7200 rpm.  Higher speed gets the data to the starving processor faster.  While 40GB is common, 20GB of local storage will suit many users just fine.
+
+Optical/Magnetic - A CD-ROM for loading software is all we can justify.  A CD-RW can be a security problem, but we think a CD-RW per department has a lot of valid uses.  A floppy drive is optional today.  If you delete it, you'll probably never miss it.
+
+Monitor - A 17" monitor has the best real estate for the dollar.  However, a 15" flat panel is the equivalent of a 16" CRT, so it's a viable option.  A flat panel CRT is more restful on the eyes than the lowest-cost monitors available from the PC suppliers.  
+
+Note that in our price comparisons below, we include no monitor.  The reason is that many desktops already have a decent monitor.  Our advice would be to buy new PCs without monitors while sparing a couple of monitors to replace those that die over the service life of the PC.
+
+Communications - 10/100 Ethernet is the corporate standard. All our comparison machines include 10/100 Ethernet or better on the motherboard.  But note that Dell is including gigabit Ethernet on desktops and servers, betting on a changeover to GigE over the next several years.  Our standard PC includes no modem, since WAN access to the Internet is commonplace.
+
+Warranty - Our standard is at least a three-year parts and labor warranty with next business day service.  It only takes 3-4 machines worth of higher four-hour response time warranty costs to pay for a spare machine and a rolling cart, so we would not gild the warranty lily, especially if there were an on-site IT group.
+
+Productivity Software - Small and medium businesses of up to 500 employees will get the lowest prices by standardizing on Microsoft Office Small Business Edition at an imputed price of roughly $200 per seat.  Buy Office XP for those users who will actually use Access and PowerPoint.  We have also configured an anti-virus desktop solution as a must-have.  However, even small businesses are now deploying server-based virus protection solutions, so a desktop-only solution is not the only solution.
+
+Aberdeen's Corporate PC
+Specifications
+
+Processor	2.0 GHz
+Memory	256 DDR
+HDD	40 GB (7200 RPM)
+Optical	CD-ROM
+Monitor	None
+Ethernet	10/100 or better
+Modem	None
+OS	Windows XP Pro
+Warranty	3-Year NBD or better
+Productivity	Office XP (Word, Excel, Outlook, Publisher)
+Anti-Virus	AV software
+
+Small Business PC Pricing
+Based on the corporate PC standards discussed above, we went online on November 6th and configured machines from Dell, Gateway, HP, and IBM.  This was done via the "small business" portal entry at each site.  
+
+Prices include standard U.S. ground shipping, but exclude sales and use taxes.  Our experience in online configuration is that either prices change as fast as airline fares, or you must enter the exact same keystrokes to get the same quote twice!  
+
+Aberdeen Small Business PC Deals-November 6, 2002
+
+Dell	Optiplex GX60	$1,141
+Gateway	E4000 Deluxe	$1,184
+HP Compaq	Evo D310 minitower	$977
+IBM	NetVista M42 8305	$1,245
+
+Source:  Supplier web sites and Aberdeen Group
+Large Enterprise PC Pricing
+Large enterprises do not buy off the standard price list.  They go out to bid, typically with a laundry list of specific product and service features.  This makes comparing vendor pricing dicey at best.  Nevertheless, Aberdeen's research around Labor Day shows the same configurations as priced above for small business as: Dell Optiplex 260 at $875 and the HP Evo D510 at $964 in quantities up to 50,000 PCs.  
+
+The configurations used for the large enterprise pricing are the same as described above for small business with one expensive missing component:  Microsoft Office XP.  Businesses with more than 500 employees are no longer eligible to purchase Office XP Small Business Edition from their PC supplier.  Instead, they have to buy Office XP from their PC supplier, a Microsoft distributor, or with a corporate volume license.  Volume pricing through a distributor ranges from $234 for an Office XP Standard upgrade to $465 for a new license.  XP Pro is about $100 more a seat.  This pricing proves what Wall Street has known for a long time:  Microsoft's profits are built on Office sales to business.

@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4-ht","Intel Pentium 4 HT","processor","Intel","2002-2008","emerging","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"intel-pentium-4","Intel Pentium 4","processor","Intel","2000-2008","mature","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"notebook-pc","Notebook PC","form-factor","","1989-present","mature","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"desktop-pc","Desktop PC","form-factor","","1981-present","mature","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"dvd-rw","DVD+RW/+R","storage","","2001-2010","emerging","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"ddr-sdram","DDR SDRAM","memory","","2000-2007","mature","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"
+"hyper-threading","Intel Hyper-Threading Technology","cpu-feature","Intel","2002-present","emerging","[DEFERRED]","dct-weekly-2003-04-20","Referenced in weekly PC Deals commentary 2003-04-20"

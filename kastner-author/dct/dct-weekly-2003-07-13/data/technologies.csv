@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4-ht","Intel Pentium 4 HT","processor","Intel","2002-2008","emerging","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"
+"intel-pentium-4","Intel Pentium 4","processor","Intel","2000-2008","mature","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"
+"amd-athlon","AMD Athlon","processor","AMD","1999-2005","mature","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"
+"media-center-pc","Windows Media Center PC","form-factor","","2002-2014","emerging","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"
+"desktop-pc","Desktop PC","form-factor","","1981-present","mature","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"
+"hyper-threading","Intel Hyper-Threading Technology","cpu-feature","Intel","2002-present","emerging","[DEFERRED]","dct-weekly-2003-07-13","Referenced in weekly PC Deals commentary 2003-07-13"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Business PC Deals: December 17, 2002",
+  "description": "\"Take Her Up to 2.4 GHz, Mr. Scott\" For the past three months, our reference corporate mainstream desktop model has used a 2.0 GHz Pentium 4 microprocessor. The 2.0 GHz point on the Pentium 4 power spectrum represents the best value in performance and price for the vast majority of enterprise workers.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-12-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

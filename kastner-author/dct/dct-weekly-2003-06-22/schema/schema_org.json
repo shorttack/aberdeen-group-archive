@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: June 22, 2003",
+  "description": "June 18th, HP announced it's newest addition to its desktop line-up, the m200 series. This Media Center PC series has both retail and online customized versions, starting at under $999. Customizing a m200 series desktop will allow consumers to choose from the full range of Intel's Hyper-Threading (HT) processors, including the brand new 3.2 GHz processor.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-06-22",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

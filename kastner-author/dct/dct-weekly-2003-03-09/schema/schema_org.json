@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Deals Weekly Update: March 9, 2003",
+  "description": "Looks like Compaq is putting out the best mid-range and high-end deals. With winners in the $900, $1050, $1200, and $1400 categories this week - and a decent showing at $600 and $750 - it looks like HP's branding of Compaq Presario's for consumers as \"best value\" machines is paying off. By far, the best deal of the week is the Compaq 6000T at BestBuy's configuration station.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-03-09",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

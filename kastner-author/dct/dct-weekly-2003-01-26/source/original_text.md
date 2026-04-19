@@ -1,0 +1,137 @@
+# PC Deals Weekly Update: January 26, 2003
+
+> Archived from: January 26 Update.doc
+> Original publication date: 2003-01-26
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# PC Deals Weekly Update: January 26, 2003
+# Source: January 26 Update.doc
+# Content date: 2003-01-26
+# subtype: weekly; content_date: 2003-01-26; retailers_covered: best-buy,bestbuy-com,circuit-city,circuitcity-com,compusa; vendors_covered: dell,hewlett-packard,compaq,gateway-inc,sony,emachines,vpr-matrix; related_study_ids: dct-access-pc-deals-2002-2003
+# ====================================================================
+
+This Week's Analysis of PC Deals
+PC Deals Trends and Commentary
+
+PC Deals never planned to cover vpr Matrix machines because they are exclusively sold at BestBuy stores.  The past few weeks have shown us that vpr Matrix machines are highly competitive within PC Deals, winning their price categories for the past two weeks when offered as bundled weekly flyer deals.  While no vpr Matrix bundled deals appeared in this week's flyer, the online unbundled prices still impress.  The FT9100 with a P4 hyper-threading 3.06 GHz processor contains DDR grade memory and a slightly smaller hard drive than its $2,000+ competitors, making this vpr Matrix machine a more affordable way to buy Intel's latest technology.
+
+Sony weighs in with its usual catchy names, the PCV-RZ14G - Sony will be great at naming robots when they are commonplace.  The '14G has modest specifications, as the $1,900 deal at BestBuy includes a 2.53 GHz Pentium 4, a large 120 GB hard drive, a 15" LCD flat panel and a DVD writer along with the obligatory CD writer.  Note that Sony includes a decent bundle of their own software for media manipulation.  To our frugal tastes, the Sony machines are a tad expensive in the brutally competitive retail PC world.
+
+Say adios to HP's Pavilion xx3 and Compaq's 6300 series machines.  The Pavilion 5x3 and 7x3 models have been with us since the back-to-school programs last August.  These were the soldiers executed HP's win-back-first-place strategy this fall  - and won back the top spot from Dell in Q4.  For consumers, that means end-of-life closeouts - try the 763 at BestBuy or Circuit City or the Compaq 6350 at Circuit City.  As the ads say, "Limited quantities.  No rainchecks."  On the other hand, the new-this-month Pavilion 534 is a steal at BestBuy this week.  Try $900 after rebates for an Athlon 2400+, 512 MB DDR memory, DVD/CD-RW, nVidia GeForce 4 graphics, and a 17" flat screen CRT monitor - and 24 months of no-interest financing.
+
+This Week's Buying Tips
+
+BestBuy
+BestBuy is your eMachines source, offering all of the eMachine's PCs mentioned in PC Deals this week.  There were no bundled deals on vpr Matrix machines, but the unbundled prices are still very attractive.
+  
+BestBuy.com still offers free shipping.
+
+Circuit City
+Circuit City's flyer only featured four PCs this week.  All Circuit City AMD Athlon bundled deals include $100 gift cards.
+
+Circuit City no longer sells any Sony PCs on its website.  While free direct shipping cannot be found at circuitcity.com, you can have products shipped to your nearest Circuit City store at no cost to you.  PC Deals has noticed a number of online sites offering this service including everyone from BestBuy to Payless shoes. 
+
+CompUSA
+CompUSA's lack of flyer deals means that many of the bundled Compaq offers from last week are no more.  But CompUSA Online has great prices on unbundled versions of the Compaq machines.  Note that CompUSA Online no longer offers one cent shipping; the shipping cost is a standard $21.02 for all PCs.
+
+eMachines
+All four of eMachine's models are in stores or at eMachines.com now.  This brand now has four machines out for under $900.  We're especially impressed with the T2460 for around $650 with a monitor and printer at BestBuy stores.
+
+Dell
+Dell's Online deals include free shipping, hard drive upgrades on all Dimension models, as well as $50 to $150 instant rebates online.  Confirming the drop in P4 2.4 GHz machines that PC Deals has observed, Dell now offers this processor in its Dimension 2350 line, along with slower P4 and Celeron processor options.  Unfortunately Dell's deals this week did not keep its prices from rising - over $200 on its Dimension 8250 line.  Since early December, PC Deals has noted that Dell's pricing often oscillates by up to $300 from week to week.  We can only assume a big data warehouse is optimizing Dell's earnings.
+ 
+Gateway
+Gateway's free shipping offer is back on its 500 and 700 series desktops.  All Gateway prices are down thanks to this offer and lower pricing in general.  The 700 series PCs decreased in price the most, but we're happy to see Gateway pricing more competitively across the board.  While continuing to impress with its monitor prices, Gateway's offers on memory and processors still often fall short of other competitors' pricing.
+
+Sony
+Sony Online offers free overnight shipping on all Viao desktops as well as $100 mail-in rebates.  Sony has severely cut back on its models compared with the RX model line in October, but the RX850 and RX860 are still available, although no national retailers sell the RX850 online.
+
+On the whole, Sony's retail presence has dropped over the past six weeks.
+
+HP and Compaq
+HP Online continues to be competitive with retail deals, but the resurgence of weekly offers means that you're best bundled deals are at stores like Circuit City or Best Buy.  HP Online does offer free shipping as well $50 off select models and $100 off customized PCs.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | dct-weekly-2003-01-26 |
+| title | PC Deals Weekly Update: January 26, 2003 |
+| author | Peter S. Kastner |
+| date | 2003-01-26 |
+| type | dct |
+| subject_domain | DCT-retail-pc-market |
+| methodology | market-tracking, expert-opinion, price-tracking |
+| source_file | January 26 Update.doc |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+PC Deals never planned to cover vpr Matrix machines because they are exclusively sold at BestBuy stores. The past few weeks have shown us that vpr Matrix machines are highly competitive within PC Deals, winning their price categories for the past two weeks when offered as bundled weekly flyer deals. While no vpr Matrix bundled deals appeared in this week's flyer, the online unbundled prices still impress.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
+| **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
+| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Kastner forecast 1 from commentary
+- **Claimed:** will be great at naming robots when they are commonplace.
+- **Year:** 2003
+- **Confidence at time:** [DEFERRED]
+
+
+### Entities Referenced (14)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Best Buy (stores) | company | [DEFERRED] | [DEFERRED] |
+| BestBuy.com | company | [DEFERRED] | [DEFERRED] |
+| Circuit City (stores) | company | [DEFERRED] | [DEFERRED] |
+| CircuitCity.com | company | [DEFERRED] | [DEFERRED] |
+| CompUSA | company | [DEFERRED] | [DEFERRED] |
+| Dell Computer | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
+| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Sony | company | [DEFERRED] | [DEFERRED] |
+| eMachines | company | [DEFERRED] | [DEFERRED] |
+| VPR Matrix | company | [DEFERRED] | [DEFERRED] |
+| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
+| Advanced Micro Devices | company | [DEFERRED] | [DEFERRED] |
+
+### Technologies Referenced (11)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Pentium 4 HT | processor | Intel | emerging | [DEFERRED] |
+| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
+| Intel Celeron | processor | Intel | mature | [DEFERRED] |
+| AMD Athlon XP | processor | AMD | mature | [DEFERRED] |
+| AMD Athlon | processor | AMD | mature | [DEFERRED] |
+| Desktop PC | form-factor |  | mature | [DEFERRED] |
+| DVD/CD-RW Combo Drive | storage |  | mature | [DEFERRED] |
+| DDR SDRAM | memory |  | mature | [DEFERRED] |
+| LCD Flat Panel Monitor | display |  | mature | [DEFERRED] |
+| 15-inch LCD Monitor | display |  | mature | [DEFERRED] |
+| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | [DEFERRED] |
+
+### Observation Summary
+
+- Total observations: 25
+- By type: market-data: 17, technology-assessment: 6, viability-prediction: 1, actual-outcome: 1

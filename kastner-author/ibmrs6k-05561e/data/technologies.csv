@@ -8,3 +8,4 @@
 "sybase-sql-server","Sybase SQL Server / System 11","application","","","","legacy","ibmrs6k-05561e","Named as RDBMS covered in training"
 "oltp","Online Transaction Processing","application","","","","current","ibmrs6k-05561e","Named as Kastner expertise area in bio"
 "client-server","Client-Server Architecture","framework","","","","legacy","ibmrs6k-05561e","Named as Kastner expertise area"
+"tpc-benchmark","TPC Benchmark","protocol","Transaction Processing Performance Council (TPC)","1988-present","emerging","current","ibmrs6k-05561e","Industry-standard OLTP/DSS benchmark suite; TPC-A/B in the study's era, superseded by TPC-C and later."

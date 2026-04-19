@@ -1,18 +1,261 @@
 {
-  "name": "1997-dynasoft-s-boks-family--a-pragmatic-e6df7d",
+  "name": "1997-dynasoft's-boks-family--a-pragmatic-e6df7d",
   "title": "DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On",
-  "description": "Aberdeen Group vendor profile of DynaSoft AB and its BoKS product family (June 1997). Evaluates BoKS as enterprise-grade Single Sign-On solution endorsed by HP and Sun Microsystems, with major customer deployments. DynaSoft was acquired by Security Dynamics for $115M in July 1997.",
+  "description": "Aberdeen Group profile of DynaSoft AB (Stockholm, Sweden) and its BoKS product family, evaluating it as a pragmatic Single Sign-On (SSO) solution for enterprises. The report covers DynaSoft's SSO/SSSO product architecture (BoKS Desktop, BoKS Connect, BoKS Manager, ToolBoKS), its authentication framework using RSA cryptography and X.509 certificates, strategic partnerships with Hewlett-Packard and Sun Microsystems, and user testimonials from major enterprises including BankBoston, BP Oil, Citibank, Chase Manhattan Bank, Merrill Lynch, and Telstra. Aberdeen concludes BoKS delivers reliable, pragmatic SSO that users consistently recommend.",
   "version": "1.0.0",
-  "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
-  "sources": [{"title": "Aberdeen Group Profile (Wayback Machine)", "path": "https://web.archive.org/web/19971007160356/http://www.aberdeen.com:80/secure/profiles/1997/dyna/body.htm"}],
-  "contributors": [{"title": "Aberdeen Group", "role": "publisher"}],
-  "keywords": ["DynaSoft", "BoKS", "Single Sign-On", "SSO", "enterprise security", "1997"],
-  "created": "2026-03-14",
+  "created": "2026-04-19",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group",
+      "role": "author"
+    }
+  ],
   "resources": [
-    {"name": "studies", "path": "data/studies.csv", "format": "csv", "mediatype": "text/csv"},
-    {"name": "entities", "path": "data/entities.csv", "format": "csv", "mediatype": "text/csv"},
-    {"name": "technologies", "path": "data/technologies.csv", "format": "csv", "mediatype": "text/csv"},
-    {"name": "observations", "path": "data/observations.csv", "format": "csv", "mediatype": "text/csv"},
-    {"name": "codes", "path": "data/codes.csv", "format": "csv", "mediatype": "text/csv"}
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
   ]
 }

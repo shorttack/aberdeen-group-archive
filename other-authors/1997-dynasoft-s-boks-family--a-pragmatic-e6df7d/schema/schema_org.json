@@ -1,19 +1,25 @@
 {
-  "@context": "https://schema.org/",
+  "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On — Aberdeen Group 1997",
-  "description": "Structured data package from Aberdeen Group vendor profile of DynaSoft AB (1997), evaluating the BoKS product family as an enterprise Single Sign-On solution. DynaSoft was acquired by Security Dynamics for $115M in July 1997.",
-  "url": "https://web.archive.org/web/19971007160356/http://www.aberdeen.com:80/secure/profiles/1997/dyna/body.htm",
-  "identifier": "1997-dynasoft's-boks-family--a-pragmatic-e6df7d",
-  "creator": {"@type": "Organization", "name": "Aberdeen Group"},
+  "name": "DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On",
+  "description": "Aberdeen Group profile of DynaSoft AB (Stockholm, Sweden) and its BoKS product family, evaluating it as a pragmatic Single Sign-On (SSO) solution for enterprises. The report covers DynaSoft's SSO/SSSO product architecture (BoKS Desktop, BoKS Connect, BoKS Manager, ToolBoKS), its authentication framework using RSA cryptography and X.509 certificates, strategic partnerships with Hewlett-Packard and Sun Microsystems, and user testimonials from major enterprises including BankBoston, BP Oil, Citibank, Chase Manhattan Bank, Merrill Lynch, and Telstra. Aberdeen concludes BoKS delivers reliable, pragmatic SSO that users consistently recommend.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
   "datePublished": "1997-06-01",
-  "dateModified": "2026-03-14",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": ["DynaSoft", "BoKS", "Single Sign-On", "SSO", "enterprise security", "authentication", "RSA", "X.509", "1997"],
   "distribution": [
-    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/studies.csv"},
-    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/entities.csv"},
-    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/technologies.csv"},
-    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/observations.csv"}
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
   ]
 }

@@ -2,28 +2,24 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Digital & Oracle's NCI: Partners in Practical Network Computing",
-  "description": "Structured data package from Aberdeen Group's April 1997 vendor profile evaluating Digital Equipment Corporation and Oracle NCI's Network Computer platform.",
-  "identifier": "1997-digital-&-oracle-s-nci--partners-in-2d680c",
-  "datePublished": "1997-04",
-  "publisher": {
-    "@type": "Organization",
+  "description": "Aberdeen Group assessed the Network Computer (NC) platform developed by Digital Equipment Corporation and Oracle's NCI subsidiary in spring 1997. The study praised DEC's StrongARM-based NC hardware for Java performance and NCI's comprehensive software suite, predicting the partnership would produce a premier NC solution by end of 1997. Aberdeen dismissed the Intel/Microsoft NetPC as a 'wolf in sheep's clothing' and endorsed NCs for enterprise terminal replacement.",
+  "creator": {
+    "@type": "Person",
     "name": "Aberdeen Group"
   },
+  "datePublished": "1997-04",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "keywords": [
-    "Network Computer",
-    "DEC",
-    "Digital Equipment",
-    "Oracle NCI",
-    "StrongARM",
-    "thin client",
-    "Aberdeen Group",
-    "1997"
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
   ],
-  "spatialCoverage": "United States",
-  "isPartOf": {
-    "@type": "Collection",
-    "name": "Aberdeen Group Archive \u2014 Batch 12"
-  },
-  "url": "https://web.archive.org/web/19970604112925/http://www.aberdeen.com:80/secure/profiles/1997/digital/body.htm"
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
 }

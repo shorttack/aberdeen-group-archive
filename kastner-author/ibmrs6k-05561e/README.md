@@ -18,7 +18,7 @@ This letter confirms Aberdeen Group's engagement to develop and present a four-h
 |-------|------|
 | studies.csv | 1 |
 | entities.csv | 14 |
-| technologies.csv | 9 |
+| technologies.csv | 10 |
 | observations.csv | 12 |
 | codes.csv | 28 |
 

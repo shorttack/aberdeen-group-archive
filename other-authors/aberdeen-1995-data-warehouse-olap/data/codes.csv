@@ -1,62 +1,26 @@
-code_type,code,label,description
-observation_type,market-assessment,Market Assessment,Qualitative or quantitative evaluation of market conditions or dynamics
-observation_type,technology-limitation,Technology Limitation,Documented shortcoming or constraint of a technology
-observation_type,market-data,Market Data,"Quantitative data point about market size, adoption, or volume"
-observation_type,product-assessment,Product Assessment,Evaluation of a specific product's capabilities or positioning
-observation_type,strategic-event,Strategic Event,"Merger, acquisition, partnership, or other strategic corporate event"
-observation_type,market-forecast,Market Forecast,Forward-looking prediction about market or technology evolution
-observation_type,technology-definition,Technology Definition,Definitional or structural description of a technology
-observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's role, strengths, or weaknesses"
-observation_type,competitive-assessment,Competitive Assessment,Comparison of vendors or products in competitive context
-observation_type,strategic-recommendation,Strategic Recommendation,Aberdeen's recommended course of action for IS/enterprise planners
-methodology_code,QUAL,Qualitative Analysis,Analyst judgment and qualitative reasoning based on research
-methodology_code,BENCH,Benchmarking,Comparison against measurable performance thresholds or limits
-methodology_code,SURV,Survey/Field Research,Data gathered from customer or vendor surveys or field interviews
-methodology_code,COMP,Competitive Profiling,Structured analysis of vendor or product capabilities
-entity_type,research-firm,Research/Analyst Firm,Market research and analysis organization
-entity_type,software-vendor,Software Vendor,Company primarily producing and selling software products
-entity_type,hardware-vendor,Hardware Vendor,Company primarily producing and selling hardware products
-entity_status,active,Active,Organization continues to operate independently as of 2026
-entity_status,acquired,Acquired,Organization was acquired and absorbed or renamed
-entity_status,merged,Merged,Organization merged with another entity
-entity_status,discontinued,Discontinued,Organization ceased operations
-tech_category,analytical-framework,Analytical Framework,Conceptual approach or methodology for data analysis
-tech_category,database-technology,Database Technology,Core database storage and processing technology
-tech_category,analytical-server,Analytical Server,Server-side software for OLAP or multidimensional analysis
-tech_category,analytical-client,Analytical Client,Client-side software for OLAP or multidimensional analysis
-tech_category,report-writer,Report Writer,Tool for predefined and formatted report generation
-tech_category,storage-optimization,Storage Optimization,Technique for improving data storage efficiency
-tech_category,query-optimization,Query Optimization,Technique for improving query execution performance
-tech_category,data-modeling,Data Modeling,Technique for structuring data for analytical access
-tech_category,connectivity-standard,Connectivity Standard,Standard interface for database connectivity
-tech_category,query-language,Query Language,Formal language for querying databases
-tech_category,query-engine,Query Engine,Software component executing query processing logic
-tech_category,software-architecture,Software Architecture,Structural pattern for software system design
-tech_category,data-management,Data Management,Broad data organization and governance practices
-tech_category,automation,Automation,Technology for automated monitoring and alerting
-tech_category,personal-database,Personal Database,Desktop database tool for individual or small-team use
-tech_category,spreadsheet,Spreadsheet,Tabular data tool with calculation capabilities
-tech_lifecycle,emerging,Emerging,Technology newly entering the market; not yet mainstream
-tech_lifecycle,mainstream,Mainstream,Technology widely adopted and considered standard
-tech_lifecycle,niche,Niche,Technology with specialized limited-market adoption
-tech_lifecycle,active,Active,Technology still in active use and development as of 2026
-tech_lifecycle,evolved,Evolved,Technology has evolved into modern form or successor
-tech_lifecycle,legacy,Legacy,Technology still exists but considered outdated
-tech_lifecycle,legacy-niche,Legacy/Niche,Technology persists in limited specialized contexts only
-tech_lifecycle,obsolete,Obsolete,Technology no longer in use
-tech_lifecycle,discontinued,Discontinued,Technology product has been discontinued
-doc_type,market-study,Market Study,Research study analyzing market dynamics and vendor landscape
-domain,data-warehousing-OLAP,Data Warehousing / OLAP,Enterprise data warehousing and online analytical processing domain
-methodology,industry-analysis,Industry Analysis,Broad assessment of industry structure and dynamics
-methodology,competitive-profiling,Competitive Profiling,Structured profiling of vendor and product capabilities
-methodology,benchmarking,Benchmarking,Comparison of performance metrics against defined thresholds
-confidence,high,High Confidence,Directly stated in source document; factual claim
-confidence,medium,Medium Confidence,Inferred or projected from stated evidence; forecast
-confidence,low,Low Confidence,Estimated or indirectly implied; requires validation
-observation_type,actual-outcome,Actual Outcome,Verified post-publication outcome for a prior prediction
-observation_type,expert-opinion,Expert Opinion,"Analyst assessment, recommendation, or expert judgment"
-observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or strategic positioning
-observation_type,viability-prediction,Viability Prediction,Forward-looking prediction about technology or market trajectory
-methodology_code,document-review,Document Review,"Analysis of published documents, product specs, and archival materials"
-methodology_code,qualitative-analysis,Qualitative Analysis,Non-quantitative analytical assessment
-methodology_code,survey,Survey,Structured data collection from multiple respondents
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+qualitative-analysis,methodology,Qualitative Analysis,Study-specific code: qualitative-analysis
+survey,methodology,Survey,Study-specific code: survey

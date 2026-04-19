@@ -3,7 +3,7 @@
   "title": "The 1988 DEC DECtp Benchmark Tests: IBM 3090 DB2 Performance Controversy",
   "description": "AI-generated analysis (system unknown, likely ChatGPT) of the 1988 DEC-IBM Debit/Credit benchmark controversy. Covers DEC's July 1988 test results showing price/performance advantage over IBM, IBM's counter-claims of 3x faster performance, key technical differences in methodology (1000 vs 100 terminals), the formation of the TPC on August 10 1988, and industry commentary. Includes verbatim Computerworld October 24 1988 text providing contemporaneous reporting on the benchmark battle.",
   "version": "1.0.0",
-  "created": "2026-04-11",
+  "created": "2026-04-19",
   "licenses": [
     {
       "name": "CC-BY-4.0",

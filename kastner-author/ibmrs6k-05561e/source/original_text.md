@@ -128,7 +128,7 @@ This study did not make forward-looking claims.
 | Arthur D. Little Inc. | company | unknown |  |
 | Apple Computer (Apple Inc.) | company | active |  |
 
-### Technologies Referenced (9)
+### Technologies Referenced (10)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
@@ -141,6 +141,7 @@ This study did not make forward-looking claims.
 | Sybase SQL Server / System 11 | application |  |  | legacy |
 | Online Transaction Processing | application |  |  | current |
 | Client-Server Architecture | framework |  |  | legacy |
+| TPC Benchmark | protocol | Transaction Processing Performance Council (TPC) | emerging | current |
 
 ### Observation Summary
 

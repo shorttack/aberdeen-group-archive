@@ -2,90 +2,24 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Digital's Multia Enterprise Client: Finally Someone Listened",
-  "description": "This Aberdeen Group product profile evaluates Digital Equipment Corporation's Multia 'enterprise client' desktop, introduced in late 1995 with both Alpha 64-bit RISC and Intel Pentium 100 models. The study employs product profiling, technology assessment, and competitive analysis to position Multia as a turn-key universal client that addresses the longstanding IS requirement for a single desktop capable of simultaneously accessing mainframes, Unix servers, PC servers, and the World Wide Web via pre-configured emulators and multiple communications protocols. Key findings include that Multia is priced $500\u2013$800 above a comparable PC but justifies the premium through integrated interoperability, centralized IS desktop management, pre-configured terminal emulators (3270, VT 340/420, Netscape Navigator, Rumba, Kea!), a photo-album-size footprint, and chip-upgradeable dual Alpha/Intel architecture.",
-  "identifier": "aberdeen-1995-digital-multia",
+  "description": "This Aberdeen Group product profile evaluates Digital Equipment Corporation's Multia 'enterprise client' desktop, introduced in late 1995 with both Alpha 64-bit RISC and Intel Pentium 100 models. The study employs product profiling, technology assessment, and competitive analysis to position Multia as a turn-key universal client that addresses the longstanding IS requirement for a single desktop capable of simultaneously accessing mainframes, Unix servers, PC servers, and the World Wide Web via pre-configured emulators and multiple communications protocols. Key findings include that Multia is priced $500\u2013$800 above a comparable PC but justifies the premium through integrated interoperability, centralized IS desktop management, pre-configured terminal emulators (3270, VT 340/420, Netscape Navigator, Rumba, Kea!), a photo-album-size footprint, and chip-upgradeable dual Alpha/Intel architecture. Aberdeen concludes that Digital is the only major computer vendor that listened to enterprise IS requirements and predicts that Multia's centralized management capabilities will meaningfully reduce IS staffing and support costs at remote sites, and that the new 'market-oriented Digital' has finally arrived as a credible enterprise client vendor.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "One Boston Place",
-      "addressLocality": "Boston",
-      "addressRegion": "MA",
-      "postalCode": "02108"
-    }
-  },
-  "publisher": {
-    "@type": "Organization",
+    "@type": "Person",
     "name": "Aberdeen Group"
   },
   "datePublished": "1995-12-01",
-  "dateModified": "2026-03-13",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "isAccessibleForFree": true,
-  "keywords": [
-    "enterprise desktop computing",
-    "universal client",
-    "Digital Equipment Corporation",
-    "Multia",
-    "Alpha processor",
-    "Windows NT Workstation 3.51",
-    "terminal emulation",
-    "centralized desktop management",
-    "3270 emulation",
-    "VT terminal emulation",
-    "Netscape Navigator",
-    "enterprise computing",
-    "Aberdeen Group",
-    "1995"
-  ],
-  "temporalCoverage": "1995",
-  "about": [
-    {
-      "@type": "SoftwareApplication",
-      "name": "Digital Multia",
-      "applicationCategory": "Enterprise Client Desktop"
-    }
-  ],
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "name": "Observations Dataset",
       "contentUrl": "data/observations.csv"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "Entities Dataset",
-      "contentUrl": "data/entities.csv"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "Technologies Dataset",
-      "contentUrl": "data/technologies.csv"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "application/json",
-      "name": "Frictionless Data Package Descriptor",
-      "contentUrl": "datapackage.json"
     }
   ],
   "variableMeasured": [
     "strategy-classification",
     "viability-prediction",
-    "actual-outcome",
     "technology-assessment",
-    "benchmark-result",
-    "framework-factor",
-    "market-data",
-    "expert-opinion"
-  ],
-  "measurementTechnique": [
-    "product-profiling",
-    "technology-assessment",
-    "competitive-analysis"
+    "benchmark-result"
   ]
 }

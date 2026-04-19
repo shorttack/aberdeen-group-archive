@@ -1,156 +1,25 @@
 {
-  "@context": "https://schema.org/",
+  "@context": "https://schema.org",
   "@type": "Dataset",
-  "@id": "aberdeen-1995-data-warehouse-olap",
   "name": "Data Warehouse Query Tools: Evolving to Relational OLAP",
-  "alternateName": "Aberdeen Group Market Viewpoint Vol.8 No.8 (July 1995) — Structured Data Archive",
-  "description": "Frictionless Data Package archiving Aberdeen Group Market Viewpoint analyzing the evolution of data warehouse query tools toward Relational OLAP (ROLAP). Contains structured tables of entities (20), technologies (28), observations (48), and reference codes extracted from the original July 1995 research study.",
-  "url": "https://web.archive.org/web/19970112010847/http://www.aberdeen.com:80/secure/viewpnts/v8n8/v8n8.htm",
-  "dateCreated": "2026-03-13",
-  "datePublished": "1995-07-01",
-  "version": "1.0.0",
-  "inLanguage": "en-US",
-  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "description": "Aberdeen Group market viewpoint analyzing the evolution of data warehouse query tools toward relational OLAP (ROLAP), examining multidimensional analysis, vendor strategies, and convergence of OLAP and relational database technologies.",
   "creator": {
-    "@type": "Organization",
-    "name": "Aberdeen Group",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Boston",
-      "addressRegion": "Massachusetts",
-      "postalCode": "02108",
-      "streetAddress": "One Boston Place"
-    }
+    "@type": "Person",
+    "name": "Aberdeen Group"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Aberdeen Group, Inc."
-  },
-  "about": [
-    {
-      "@type": "DefinedTerm",
-      "name": "Online Analytical Processing",
-      "alternateName": "OLAP"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Relational OLAP",
-      "alternateName": "ROLAP"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Multidimensional OLAP",
-      "alternateName": "MOLAP"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Data Warehousing"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Decision Support Systems",
-      "alternateName": "DSS"
-    }
-  ],
-  "keywords": [
-    "OLAP",
-    "ROLAP",
-    "MOLAP",
-    "data warehousing",
-    "business intelligence",
-    "multidimensional database",
-    "MDB",
-    "decision support",
-    "report writers",
-    "dimensional modeling",
-    "MicroStrategy",
-    "Essbase",
-    "Arbor Software",
-    "Informix",
-    "1990s technology history",
-    "Aberdeen Group",
-    "market research 1995"
-  ],
-  "temporalCoverage": "1995",
-  "spatialCoverage": {
-    "@type": "Place",
-    "name": "United States"
-  },
-  "measurementTechnique": [
-    "Qualitative industry analysis",
-    "Competitive profiling",
-    "Benchmarking"
-  ],
-  "variableMeasured": [
-    {
-      "@type": "PropertyValue",
-      "name": "MDB practical size limit",
-      "unitText": "gigabytes",
-      "value": "20-50"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "VLDB site count",
-      "description": "Sites with databases exceeding 100GB",
-      "value": "hundreds"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Relational VLDB sites",
-      "description": "Customer sites exceeding 50GB with relational databases",
-      "value": "1000+"
-    }
-  ],
+  "datePublished": "1995-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "name": "studies.csv",
-      "description": "Study metadata record"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "entities.csv",
-      "description": "Organizations mentioned in the study (20 entities)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "technologies.csv",
-      "description": "Technologies and products discussed in the study (28 technologies)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "observations.csv",
-      "description": "Structured observations and findings from the study (48 observations)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "name": "codes.csv",
-      "description": "Reference codes and controlled vocabulary"
+      "contentUrl": "data/observations.csv"
     }
   ],
-  "isBasedOn": {
-    "@type": "ScholarlyArticle",
-    "name": "Data Warehouse Query Tools: Evolving to Relational OLAP",
-    "author": {
-      "@type": "Organization",
-      "name": "Aberdeen Group"
-    },
-    "datePublished": "1995-07-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Aberdeen Group, Inc."
-    },
-    "isPartOf": {
-      "@type": "Periodical",
-      "name": "Aberdeen Group Market Viewpoint",
-      "volumeNumber": "8",
-      "issueNumber": "8"
-    },
-    "url": "https://web.archive.org/web/19970112010847/http://www.aberdeen.com:80/secure/viewpnts/v8n8/v8n8.htm"
-  }
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
 }

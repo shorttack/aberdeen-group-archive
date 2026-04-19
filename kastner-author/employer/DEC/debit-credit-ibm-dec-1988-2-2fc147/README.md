@@ -18,7 +18,7 @@ AI-generated analysis (system unknown, likely ChatGPT) of the 1988 DEC-IBM Debit
 |-------|------|
 | studies.csv | 1 |
 | entities.csv | 7 |
-| technologies.csv | 5 |
+| technologies.csv | 6 |
 | observations.csv | 20 |
 | codes.csv | 29 |
 

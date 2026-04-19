@@ -135,7 +135,7 @@ This study did not make forward-looking claims.
 | Stratus Computer | company | active | Stratus Technologies (Penguin Solutions) |
 | Sybase | company | acquired | SAP |
 
-### Technologies Referenced (5)
+### Technologies Referenced (6)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
@@ -144,6 +144,7 @@ This study did not make forward-looking claims.
 | IBM CICS TP Monitor | platform | IBM | dominant | active |
 | Digital VAX/OpenVMS | platform | Digital Equipment Corporation | mature | legacy |
 | Online Transaction Processing (OLTP) | application | various | dominant | current |
+| UNIX Server | platform | multi-vendor | emerging | current |
 
 ### Observation Summary
 

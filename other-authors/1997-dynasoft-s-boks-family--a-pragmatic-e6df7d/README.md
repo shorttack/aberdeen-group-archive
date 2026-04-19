@@ -1,45 +1,46 @@
 # DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On
 
-**Study ID:** 1997-dynasoft's-boks-family--a-pragmatic-e6df7d  
-**Author:** Aberdeen Group  
-**Publisher:** Aberdeen Group  
-**Date:** June 1997  
-**Type:** Vendor Profile  
-**License:** CC-BY-4.0  
-**Source URL:** https://web.archive.org/web/19971007160356/http://www.aberdeen.com:80/secure/profiles/1997/dyna/body.htm
+| Field | Value |
+|-------|-------|
+| Author | Aberdeen Group |
+| Date | 1997-06-01 |
+| Type | Profile |
+| Domain | Enterprise Security / Single Sign-On |
+| License | CC-BY-4.0 |
 
-## Overview
+## Abstract
 
-Full-text Aberdeen Group profile of DynaSoft AB (Stockholm, Sweden) and its BoKS Single Sign-On product family. Aberdeen evaluates BoKS Desktop, BoKS Connect, BoKS Manager, and ToolBoKS as a pragmatic, enterprise-proven SSO solution. Key findings: HP and Sun Microsystems both incorporated BoKS technology into their own security products; major enterprise deployments at BankBoston, BP Oil, Citibank, Chase Manhattan, Merrill Lynch, Telstra, and others.
+Aberdeen Group profile of DynaSoft AB (Stockholm, Sweden) and its BoKS product family, evaluating it as a pragmatic Single Sign-On (SSO) solution for enterprises. The report covers DynaSoft's SSO/SSSO product architecture (BoKS Desktop, BoKS Connect, BoKS Manager, ToolBoKS), its authentication framework using RSA cryptography and X.509 certificates, strategic partnerships with Hewlett-Packard and Sun Microsystems, and user testimonials from major enterprises including BankBoston, BP Oil, Citibank, Chase Manhattan Bank, Merrill Lynch, and Telstra. Aberdeen concludes BoKS delivers reliable, pragmatic SSO that users consistently recommend.
 
-**Historical note:** DynaSoft was acquired by Security Dynamics Inc. for $115M in July 1997 — just weeks after this profile's publication. Security Dynamics later renamed itself RSA Security in 1999.
+## Data Tables
 
-## Scores
+| Table | Rows |
+|-------|------|
+| studies.csv | 1 |
+| entities.csv | 15 |
+| technologies.csv | 12 |
+| observations.csv | 25 |
+| codes.csv | 24 |
 
-| Dimension | Score |
-|-----------|-------|
-| Importance | 4/5 |
-| Relevance | 4/5 |
-| Prescience | 4/5 |
+## Load with Python
 
-## Contents
-
-```
-data/
-  studies.csv       — Study-level metadata (1 record)
-  entities.csv      — Organizations mentioned (15 records)
-  technologies.csv  — Technologies assessed (12 records)
-  observations.csv  — Structured observations (25 records)
-  codes.csv         — Controlled vocabulary
-schema/
-  schema_org.json   — Schema.org Dataset descriptor
-source/
-  original_text.md  — Full extracted text + metadata appendix
-scripts/
-  demo_analysis.py  — Example analysis script
-datapackage.json    — Frictionless Data Package descriptor
+```python
+import pandas as pd
+studies = pd.read_csv('data/studies.csv')
+observations = pd.read_csv('data/observations.csv')
 ```
 
-## Key Enterprise Users Named (1997)
+## Validate
 
-BankBoston, BP Oil, Citibank, Chase Manhattan Bank, Indian Telecom, Mannesmann Mobilfunk, Merrill Lynch, SmithKline Beecham, Telecom Italia, Telmex, Telstra
+```bash
+frictionless validate datapackage.json
+```
+
+## Citation
+
+Aberdeen Group (1997). DynaSoft's BoKS Family: A Pragmatic Choice for Single Sign-On.
+Archived in Kastner Research Archive. DOI: [pending]
+
+## Methodology
+
+Vendor profile with user interviews and product evaluation

@@ -1,25 +1,26 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-multia,Digital Multia (Universal Client),platform,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Compact all-in-one enterprise desktop; photo-album footprint; discontinued ~1997
-alpha-64bit-risc,Alpha 64-bit RISC Processor,platform,Digital Equipment Corporation,1992-2004,mature,obsolete,aberdeen-1995-digital-multia,One of two Multia hardware architectures; DEC Alpha architecture discontinued by HP 2004
-intel-pentium-100,Intel Pentium 100 / Intel 100,platform,Intel,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,Newly announced Intel model of Multia at time of study; 100 MHz Pentium
-windows-nt-3-51,Microsoft Windows NT Workstation 3.51,platform,Microsoft,1995-1997,emerging,obsolete,aberdeen-1995-digital-multia,Base OS for Multia; provided multitasking and stability; succeeded by Windows NT 4.0 in 1996
-windows-95,Microsoft Windows 95,platform,Microsoft,1995-2001,emerging,obsolete,aberdeen-1995-digital-multia,Supported as downloadable application environment on Multia desktop
-tcp-ip,TCP/IP,protocol,IETF (open standard),1974-present,mature,active,aberdeen-1995-digital-multia,Described as 'one of the most common peer-to-peer protocols' and primary Internet access protocol on Multia
-ipx-spx,IPX/SPX,protocol,Novell,1983-2000,mature,obsolete,aberdeen-1995-digital-multia,Novell network protocol included in Multia communications stack
-decnet,DECnet,protocol,Digital Equipment Corporation,1975-2000,mature,obsolete,aberdeen-1995-digital-multia,DEC peer-to-peer proprietary protocol supported by Multia
-lat,LAT (Local Area Transport),protocol,Digital Equipment Corporation,1985-2000,mature,obsolete,aberdeen-1995-digital-multia,Optimized terminal access protocol used for termserver support on Multia
-netbeui,NetBEUI,protocol,IBM / Microsoft,1985-2001,mature,obsolete,aberdeen-1995-digital-multia,IBM LAN protocol included in Multia transport stack
-x-serial-line-protocol,X Serial Line Protocol,protocol,X Consortium,1990-2000,mature,obsolete,aberdeen-1995-digital-multia,X session protocol for Unix environment access; included in Multia
-nfs,NFS (Network File System),protocol,Sun Microsystems (open standard),1984-present,mature,active,aberdeen-1995-digital-multia,Included in the optional Multia X Server package
-x11-r6,X11 R6 / X Window System,framework,X Consortium,1987-present,mature,legacy-supported,aberdeen-1995-digital-multia,Multia X Server supplies X11.R6 functions; Wayland gradually replacing X11 on Linux
-pci-bus,PCI Bus,platform,Intel / PCI-SIG,1992-present,emerging,active,aberdeen-1995-digital-multia,Multia features PCI system bus and optional PCI slot; evolved to PCIe
-pcmcia,PCMCIA,platform,PCMCIA (industry consortium),1990-2005,mature,obsolete,aberdeen-1995-digital-multia,Multia Intel model includes two PCMCIA slots
-scsi-ii,SCSI-II,platform,ANSI standard,1994-2003,mature,obsolete,aberdeen-1995-digital-multia,External storage interface included on Multia Intel model
-3270-terminal-emulation,IBM 3270 Terminal Emulation,application,IBM / various,1971-present,mature,legacy-supported,aberdeen-1995-digital-multia,Pre-configured on Multia for IBM mainframe access; provided via Rumba (Wall Data) and Kea! (Attachmate)
-vt-340-420-terminal-emulation,VT 340/420 Terminal Emulation,application,Digital Equipment Corporation,1988-present,mature,legacy-supported,aberdeen-1995-digital-multia,Embedded VT terminal emulation for DEC host access; pre-configured on Multia
-netscape-navigator,Netscape Navigator,application,Netscape Communications Corporation,1994-2008,emerging,obsolete,aberdeen-1995-digital-multia,Bundled as embedded web browser on Multia for World Wide Web access
-rumba,Rumba (Wall Data),application,Wall Data Incorporated,1988-2003,mature,obsolete,aberdeen-1995-digital-multia,Described as 'industry leading' 3270/mainframe emulator; pre-configured on Multia
-kea,Kea! (Attachmate),application,Attachmate Corporation,1990-2014,mature,obsolete,aberdeen-1995-digital-multia,Terminal emulator (VT/3270) bundled with Multia; Attachmate acquired by Micro Focus 2014
-s3-pci-graphics,S3 PCI Graphics Accelerator,platform,S3 Incorporated,1994-1998,emerging,obsolete,aberdeen-1995-digital-multia,Featured in Multia Intel model with 2 MB VRAM
-vram,VRAM (Video RAM),platform,various,1986-2000,mature,obsolete,aberdeen-1995-digital-multia,2 MB VRAM on Multia Intel S3 graphics card
-multia-x-server,Multia X Server (Digital),application,Digital Equipment Corporation,1994-1997,emerging,obsolete,aberdeen-1995-digital-multia,DEC-supplied X11.R6 server enabling Unix application access; includes NFS in optional configuration
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"multia","Digital Multia (Universal Client)","platform","Digital Equipment Corporation","1994-1997","emerging","obsolete","aberdeen-1995-digital-multia","Compact all-in-one enterprise desktop; photo-album footprint; discontinued ~1997"
+"alpha-64bit-risc","Alpha 64-bit RISC Processor","platform","Digital Equipment Corporation","1992-2004","mature","obsolete","aberdeen-1995-digital-multia","One of two Multia hardware architectures; DEC Alpha architecture discontinued by HP 2004"
+"intel-pentium-100","Intel Pentium 100 / Intel 100","platform","Intel","1994-1997","emerging","obsolete","aberdeen-1995-digital-multia","Newly announced Intel model of Multia at time of study; 100 MHz Pentium"
+"windows-nt-3-51","Microsoft Windows NT Workstation 3.51","platform","Microsoft","1995-1997","emerging","obsolete","aberdeen-1995-digital-multia","Base OS for Multia; provided multitasking and stability; succeeded by Windows NT 4.0 in 1996"
+"windows-95","Microsoft Windows 95","platform","Microsoft","1995-2001","emerging","obsolete","aberdeen-1995-digital-multia","Supported as downloadable application environment on Multia desktop"
+"tcp-ip","TCP/IP","protocol","IETF (open standard)","1974-present","mature","active","aberdeen-1995-digital-multia","Described as 'one of the most common peer-to-peer protocols' and primary Internet access protocol on Multia"
+"ipx-spx","IPX/SPX","protocol","Novell","1983-2000","mature","obsolete","aberdeen-1995-digital-multia","Novell network protocol included in Multia communications stack"
+"decnet","DECnet","protocol","Digital Equipment Corporation","1975-2000","mature","obsolete","aberdeen-1995-digital-multia","DEC peer-to-peer proprietary protocol supported by Multia"
+"lat","LAT (Local Area Transport)","protocol","Digital Equipment Corporation","1985-2000","mature","obsolete","aberdeen-1995-digital-multia","Optimized terminal access protocol used for termserver support on Multia"
+"netbeui","NetBEUI","protocol","IBM / Microsoft","1985-2001","mature","obsolete","aberdeen-1995-digital-multia","IBM LAN protocol included in Multia transport stack"
+"x-serial-line-protocol","X Serial Line Protocol","protocol","X Consortium","1990-2000","mature","obsolete","aberdeen-1995-digital-multia","X session protocol for Unix environment access; included in Multia"
+"nfs","NFS (Network File System)","protocol","Sun Microsystems (open standard)","1984-present","mature","active","aberdeen-1995-digital-multia","Included in the optional Multia X Server package"
+"x11-r6","X11 R6 / X Window System","framework","X Consortium","1987-present","mature","legacy-supported","aberdeen-1995-digital-multia","Multia X Server supplies X11.R6 functions; Wayland gradually replacing X11 on Linux"
+"pci-bus","PCI Bus","platform","Intel / PCI-SIG","1992-present","emerging","active","aberdeen-1995-digital-multia","Multia features PCI system bus and optional PCI slot; evolved to PCIe"
+"pcmcia","PCMCIA","platform","PCMCIA (industry consortium)","1990-2005","mature","obsolete","aberdeen-1995-digital-multia","Multia Intel model includes two PCMCIA slots"
+"scsi-ii","SCSI-II","platform","ANSI standard","1994-2003","mature","obsolete","aberdeen-1995-digital-multia","External storage interface included on Multia Intel model"
+"3270-terminal-emulation","IBM 3270 Terminal Emulation","application","IBM / various","1971-present","mature","legacy-supported","aberdeen-1995-digital-multia","Pre-configured on Multia for IBM mainframe access; provided via Rumba (Wall Data) and Kea! (Attachmate)"
+"vt-340-420-terminal-emulation","VT 340/420 Terminal Emulation","application","Digital Equipment Corporation","1988-present","mature","legacy-supported","aberdeen-1995-digital-multia","Embedded VT terminal emulation for DEC host access; pre-configured on Multia"
+"netscape-navigator","Netscape Navigator","application","Netscape Communications Corporation","1994-2008","emerging","obsolete","aberdeen-1995-digital-multia","Bundled as embedded web browser on Multia for World Wide Web access"
+"rumba","Rumba (Wall Data)","application","Wall Data Incorporated","1988-2003","mature","obsolete","aberdeen-1995-digital-multia","Described as 'industry leading' 3270/mainframe emulator; pre-configured on Multia"
+"kea","Kea! (Attachmate)","application","Attachmate Corporation","1990-2014","mature","obsolete","aberdeen-1995-digital-multia","Terminal emulator (VT/3270) bundled with Multia; Attachmate acquired by Micro Focus 2014"
+"s3-pci-graphics","S3 PCI Graphics Accelerator","platform","S3 Incorporated","1994-1998","emerging","obsolete","aberdeen-1995-digital-multia","Featured in Multia Intel model with 2 MB VRAM"
+"vram","VRAM (Video RAM)","platform","various","1986-2000","mature","obsolete","aberdeen-1995-digital-multia","2 MB VRAM on Multia Intel S3 graphics card"
+"multia-x-server","Multia X Server (Digital)","application","Digital Equipment Corporation","1994-1997","emerging","obsolete","aberdeen-1995-digital-multia","DEC-supplied X11.R6 server enabling Unix application access; includes NFS in optional configuration"
+"alpha","DEC Alpha","platform","Digital Equipment Corporation (DEC)","1992-2004","emerging","discontinued","aberdeen-1995-digital-multia","64-bit RISC CPU architecture; powered DEC AXP systems; discontinued after HP/Compaq acquisition."

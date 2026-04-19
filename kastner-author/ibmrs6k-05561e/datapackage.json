@@ -3,7 +3,7 @@
   "title": "IBM RS/6000 Database Marketing Training Engagement (Aberdeen Group, June 1995)",
   "description": "This letter confirms Aberdeen Group's engagement to develop and present a four-hour database marketing training module for IBM's RS/6000 Division, covering the business drivers for distributed database servers, database-hardware platform selection criteria, the RS/6000's strengths against Sun, HP, AT&T, and DEC, and detailed competitive positioning of the five major relational databases (DB2/6000, CA-Ingres, Informix, Oracle, and Sybase) available on the RS/6000 platform. The module is designed to sharpen the marketing knowledge of IBM's RS/6000 marketing specialists and Business Partners for customer-facing database sales engagements.",
   "version": "1.0.0",
-  "created": "2026-04-11",
+  "created": "2026-04-19",
   "licenses": [
     {
       "name": "CC-BY-4.0",

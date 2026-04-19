@@ -3,7 +3,7 @@
   "title": "Digital's Multia Enterprise Client: Finally Someone Listened",
   "description": "This Aberdeen Group product profile evaluates Digital Equipment Corporation's Multia 'enterprise client' desktop, introduced in late 1995 with both Alpha 64-bit RISC and Intel Pentium 100 models. The study employs product profiling, technology assessment, and competitive analysis to position Multia as a turn-key universal client that addresses the longstanding IS requirement for a single desktop capable of simultaneously accessing mainframes, Unix servers, PC servers, and the World Wide Web via pre-configured emulators and multiple communications protocols. Key findings include that Multia is priced $500\u2013$800 above a comparable PC but justifies the premium through integrated interoperability, centralized IS desktop management, pre-configured terminal emulators (3270, VT 340/420, Netscape Navigator, Rumba, Kea!), a photo-album-size footprint, and chip-upgradeable dual Alpha/Intel architecture. Aberdeen concludes that Digital is the only major computer vendor that listened to enterprise IS requirements and predicts that Multia's centralized management capabilities will meaningfully reduce IS staffing and support costs at remote sites, and that the new 'market-oriented Digital' has finally arrived as a credible enterprise client vendor.",
   "version": "1.0.0",
-  "created": "2026-03-13",
+  "created": "2026-04-19",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -16,105 +16,244 @@
       "role": "author"
     }
   ],
-  "keywords": [
-    "enterprise-desktop",
-    "universal-client",
-    "Digital Equipment Corporation",
-    "Multia",
-    "Alpha processor",
-    "Windows NT",
-    "terminal emulation",
-    "centralized desktop management",
-    "enterprise-computing",
-    "1995"
-  ],
   "resources": [
     {
       "name": "studies",
       "path": "data/studies.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "study_id", "type": "string", "description": "Unique study identifier (lowercase-hyphenated)"},
-          {"name": "title", "type": "string", "description": "Full title of the study"},
-          {"name": "author", "type": "string", "description": "Primary author or organization"},
-          {"name": "date", "type": "date", "description": "Publication date (ISO 8601)"},
-          {"name": "type", "type": "string", "description": "Study type classification"},
-          {"name": "subject_domain", "type": "string", "description": "Primary subject domain"},
-          {"name": "methodology", "type": "string", "description": "Comma-separated methodology codes"},
-          {"name": "source_file", "type": "string", "description": "Original source filename"},
-          {"name": "abstract", "type": "string", "description": "Generated abstract summarizing the study"},
-          {"name": "license", "type": "string", "description": "License identifier"}
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "entities",
       "path": "data/entities.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "entity_id", "type": "string", "description": "Canonical lowercase-hyphenated entity ID"},
-          {"name": "entity_name", "type": "string", "description": "Display name"},
-          {"name": "entity_type", "type": "string", "description": "Type: company, firm, institution, agency, person"},
-          {"name": "sector", "type": "string", "description": "Industry sector"},
-          {"name": "status", "type": "string", "description": "Current status: active, acquired, dissolved, merged, bankrupt"},
-          {"name": "successor", "type": "string", "description": "Successor entity or chain (nullable)"},
-          {"name": "years_active", "type": "string", "description": "Approximate years active"},
-          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "technologies",
       "path": "data/technologies.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "tech_id", "type": "string", "description": "Canonical lowercase-hyphenated technology ID"},
-          {"name": "tech_name", "type": "string", "description": "Display name"},
-          {"name": "category", "type": "string", "description": "Category: platform, application, protocol, language, framework"},
-          {"name": "vendor", "type": "string", "description": "Primary vendor"},
-          {"name": "era", "type": "string", "description": "Approximate era of active use"},
-          {"name": "lifecycle_at_study", "type": "string", "description": "Lifecycle status when study was written"},
-          {"name": "lifecycle_current", "type": "string", "description": "Lifecycle status as of archival date"},
-          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "observations",
       "path": "data/observations.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "obs_id", "type": "string", "description": "Unique observation ID: {study_id}-OBS-{NNN}"},
-          {"name": "study_id", "type": "string", "description": "Foreign key to studies.csv"},
-          {"name": "entity_id", "type": "string", "description": "Foreign key to entities.csv (nullable)"},
-          {"name": "tech_id", "type": "string", "description": "Foreign key to technologies.csv (nullable)"},
-          {"name": "observation_type", "type": "string", "description": "Type code from codes.csv"},
-          {"name": "year_observed", "type": "integer", "description": "Year the observation applies to"},
-          {"name": "metric_name", "type": "string", "description": "What is being measured or claimed"},
-          {"name": "metric_value", "type": "string", "description": "The value or classification"},
-          {"name": "confidence", "type": "string", "description": "Confidence level from codes.csv"},
-          {"name": "methodology_code", "type": "string", "description": "Methodology code from codes.csv"},
-          {"name": "source_page", "type": "string", "description": "Page or section reference in source document"},
-          {"name": "notes", "type": "string", "description": "Additional context"}
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
         ]
       }
     },
     {
       "name": "codes",
       "path": "data/codes.csv",
-      "mediatype": "text/csv",
       "schema": {
         "fields": [
-          {"name": "code_id", "type": "string", "description": "Code string used in observations.csv"},
-          {"name": "code_type", "type": "string", "description": "Type: observation_type, methodology, confidence, lifecycle"},
-          {"name": "label", "type": "string", "description": "Human-readable label"},
-          {"name": "definition", "type": "string", "description": "Clear definition of what this code means"}
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
         ]
       }
     }

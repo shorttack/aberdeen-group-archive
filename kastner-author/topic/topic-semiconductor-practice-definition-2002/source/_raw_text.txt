@@ -1,0 +1,217 @@
+﻿			Semiconductor Practice Definition
+
+ Aberdeen Group’s Semiconductor research practice focuses on key enabling semiconductor technologies for emerging digital markets and the associated semiconductor ecosystem. Analysis of enabling technologies includes capabilities in communications, digital signal processing, imaging, networking, non-commodity memory, microprocessors, and wireless functionality focusing on communications, computers, consumer, and telematics applications, as well as relevant semiconductor design, fabrication, and test trends. The practice performs market research and consulting to analyze technology, business, marketing, and industry trends driving the use of such technologies to enable clients to make well-informed technology centric decisions and formulate winning strategies and messages.
+
+ Current areas of focus include:
+
+    • Microelectronic Machines (MEMS) and Silicon Sensors
+    • Photonics
+    • Silicon/Software Defined Radios
+    • Special Purpose CPUs including embedded and Network Processing Units (NPUs)
+    • Wireless Data and Video including Ultra Wide Band
+
+
+
+Semiconductor Industry Trends
+
+
+    • In 2001 worldwide semiconductor revenues decreased 32% to $132B in the deepest downturn in the history of the industry. Excess inventory accumulations appear to have finally disappeared and capacity utilization is improving for product going into high growth markets such as wireless data (WiFi) and consumer markets such as personal video recorders or home entertainment servers.
+
+    • The cost of developing 300mm facilities and sub-100 nanometer processes is causing smaller Integrated Device Manufacturers to team with foundaries for both capacity and process development. Going forward, only the largest firms like Intel, Samsung, and TSMC will be able to internally fund such future developments as the transition to 450mm wafers.
+
+    • Consequently, the number of fabless semiconductor companies will increase.
+
+    • The memory market continues to segment into specialized designs such as low power devices for portable products or fast cycle RAM for graphics or routers, and the consumer and communications segments will become much larger markets than previously.
+
+
+    • Even Intel has finally acknowledged that future high clock rate devices will require some for of Silicon on Insulator (SOI) substrate, opening a significant new market for wafer suppliers.
+
+    • Gallium Arsenide, Germanium doped Silicon (SiGe), and bulk CMOS continue to battle for the best price performance role in a variety of wireless applications.
+
+    • System level displays with complex integrated circuitry are becoming increasingly practical.
+
+    • Potentially disruptive semiconductor technology is being pioneered by Plastic Logic, which is using fine jets to write circuits with conductive plastic inks, while HP, IBM, and various universities have demonstrated molecular circuits created by chemical processes in their labs.
+
+
+
+ 
+Semiconductor Ecosystem Trends
+
+
+	Semiconductor Design
+
+    • Cost and time required to complete a state-of-the-art design continues to increase with device complexity. Non-recurring engineering design costs can exceed $10M per device while manufacturing NRE for mask sets and probe cards is one tenth as much. Driving this engineering cost figure are design cycle times that are measured in months or years to reach aggressive design targets.
+
+    • Consequently, an increasing number of Intellectual Property (IP) firms selling design components (IP Cores) have appeared, particularly in the wireless and communications segments, in an effort to reduce time to market and overall engineering costs for customers. The downturn of 2001 has put pressure on many of these firms, who are being acquired of simply disappearing. More capable firms are designing entire semiconductor subsystems in an effort to increase product value added and ease of integration.
+
+    • Design tools are moving from point products to integrated packages that offer Synthesis, Placement and Routing in a single solution to reduce the number of design iterations required. Design verification now can account for over 70% of design cycle time and require two to three times as many verification engineers on a design team as designers.
+
+    • Soon tools allowing concurrent design analysis and optimization will enable virtual silicon prototyping and design error prevention in an effort to replace verification activities.
+
+    • Finally, efforts to make design reuse truly practical are receiving increasing attention.
+
+
+
+Fabrication
+
+    • The cost of a green-field semiconductor plant continues to escalate, with a 300mm facility estimated to cost over $2.7B in 2001.
+
+    • To date, the industry has generally been challenged to rapidly ramp these new plants to high volumes and yields and minimize product changeover times in order to achieve the desired production economics.
+
+    • Management of more complex fabrication processes and the need to integrate new types of fabrication equipment have contributed to these problems.
+
+    • Finally, customer demands for more responsive semiconductor supply chains have created the imperative to manage global semiconductor plants as a single, virtual factory to optimize capacity utilization while minimizing inventory and meeting customer delivery expectations.
+
+
+
+Test
+
+    • Test costs continue to escalate with device complexity and the challenge of testing next generation devices with machines built with current generation semiconductors.
+
+    • Design For Test (DFT), a philosophy that has been discussed for years, is finally becoming mainstream and incorporated in design tools along with improved Automatic Test Pattern Generation (ATPG) algorithms.
+
+    • System-on-Chip (SoC) designs increasingly require digital, analog, RF, and mixed signal test available at a single probe card or socket, as do multi-die packages.
+
+    • Emerging optical/photonic devices need a production ready means of wafer probing which does not now exist.
+
+    • New test methods need to be invented for Microelectronic Machines (MEMS) and specialized silicon sensors.
+
+    • Physical failure analysis is difficult for geometries below 90 nanometers, thus compounding the difficulty in ramping up yields quickly. 
+
+
+
+
+
+
+
+
+					Target Accounts
++ Current Aberdeen Target
+
+	Current Aberdeen Group clients and companies to be followed in Personal Information Technology with semiconductor product:
+
+    • Agere
+
+    • Agilent Technologies+
+
+    • Analog Devices
+
+    • AMD+
+
+    • ARM
+
+    • ATI Technologies
+
+    • Atheros
+
+    • Bermai
+
+    • Broadcom+
+
+    • Cirrus Logic
+
+    • Cogency Semiconductor+
+
+    • Conexant
+
+    • Cypress
+
+    • D Link+
+
+    • DSP Group
+
+    • Eastman Kodak
+
+    • IBM+
+
+    • Intel+
+
+    • Intellon+
+
+    • Lincom Wireless+
+
+    • LSI Logic+
+
+    • Micron+
+
+    • Motorola+
+
+    • National Semiconductor+
+
+    • NEC
+
+    • Nvidia+
+
+    • Panasonic
+
+    • Samsung+
+
+    • Toshiba
+
+    • Transmeta
+
+    • SanDisk+
+
+    • Sony
+
+    • Sun Microsystems+
+
+    • Systemonic
+
+    • TI+
+
+Target Application Segments
+
+    • Communications
+
+    • Computers
+
+    • Consumer
+
+    • Telematics
+
+
+
+
+
+				Target Device Types
+
+    • Analog/Digital Signal Processors
+
+    • Imaging
+
+    • Embedded Processors
+
+    • Networking
+
+    • Non-Commodity Memory
+
+    • Microprocessors
+
+    • Sensors
+
+    • Wireless
+
+
+
+
+Target Company Types
+
+    • Fabless
+
+    • Merchant Integrated Device Manufacturers (IDMs)
+
+    • SemiCustom/Foundaries
+
+
+
+
+
+
+
+
+
+
+
+
+ 

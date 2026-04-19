@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mobile-convergence-device","Mobile Convergence Device","platform","","2002-present","emerging","mature","dct-webinar-announcement-2002-11","Voice+data wireless precursor to smartphone"
+"home-media-server","Home Media Server","platform","","2001-present","emerging","mature","dct-webinar-announcement-2002-11","Multiple competing approaches"
+"home-networking","Home Networking","platform","","1999-present","emerging","mature","dct-webinar-announcement-2002-11","Acronym soup criticized"
+"3g-wireless","3G Wireless Networks","protocol","","2001-2020","emerging","obsolete","dct-webinar-announcement-2002-11","Slower emergence than expected"
+"wireless-convergence","Converged voice+data wireless","platform","","2002-2010","emerging","legacy","dct-webinar-announcement-2002-11","Hottest emerging segment"

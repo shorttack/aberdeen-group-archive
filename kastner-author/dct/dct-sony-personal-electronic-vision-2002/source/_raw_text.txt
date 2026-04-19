@@ -1,0 +1,165 @@
+﻿Personal Electronic Technology Vision 
+
+Timing: this fall to 3+ years out
+
+Scope: Personal electronic technology used at home, in transit, and at work
+
+Document Structure:
+
+    • Graphical depiction of overall Vision at low resolution
+
+
+    • Research Approach: Identify End User Requirements/Desires. Work closely with Vendors/emergent vendors to discuss approaches/possibilities. Hypothesize products/approaches to deliver user desires/requirements. Test and refine hypotheses.
+
+
+    • Statement of Principles
+
+--Plug and Play Imperative
+
+--Need for /benefit of upgradability
+
+--Customer support model
+
+
+    • Illustrative User Requirements
+
+--Capture, edit, store, display, and share (email, file transfer) personal still and motion video
+--Access the home network/internet from anywhere in the house
+--Display/play content (audio, video) anywhere in the house on demand from a central repository
+--Access corporate and home networks and internet with portable devices when in those locations and in transit
+--Program car stereo from central audio repository
+
+    • Home personal electronics
+
+
+--Requirements
+
+-Networking
+	-High speed: wireless entertainment and productivity tools (PCs, printers, phones, etc)
+	-Low speed: appliance control and status reporting, security
+
+-Copy protection
+
+-Conditional Access to premium content
+
+
+
+--Products
+
+-Gateway
+	-Cable/Cable modem
+	-xDSL
+	-Satellite link
+	-Set top box equivalent
+	-HDTV tuner
+	-Router
+	-Firewall
+	-Communications controller
+	-Ethernet LAN
+	-WLAN
+	
+
+-Entertainment server
+	-Audio storage
+	-Video storage
+	-DVD
+	-CDRW
+	-VCR input
+	
+	
+
+-Wireless repeater
+
+-Displays/speakers
+	-Fixed
+	-Portable
+
+-Networked game box
+
+-Wireless MPG3 player
+
+-Wireless phone base station/answering machine/VOIP phones
+
+-Camera
+
+-Laptop/Pocket PC
+
+-Mira
+
+-Desktop
+
+-PC docking module
+
+-Wireless peripherals
+
+-Communicator/PDA
+
+
+
+
+
+
+    • Personal mobility products at work
+
+-Laptop/Pocket PC
+
+-PC docking module
+
+-Communicator/PDA
+
+
+
+    • Personal mobility products at play
+
+-MPEG3 Audio
+
+-Communicator/PDA…any differences from above?
+
+-PC docking module
+
+-Cameras
+
+
+
+-Telematics
+	-BT links
+	-WiFi-x links
+	-Cellular
+	-GPS/Maps
+	-Audio
+-Safety/security
+-Rear seat entertainment
+	-Gaming
+	-Video
+-Drive by WiFi
+	-Internet access
+	-Location based services
+
+Implications for Sony
+
+    • Competitive Threats
+
+    • What Sony Has to Get Right
+
+--Good user experience for all products
+--Value added systems of products enabling value pricing
+	--Seamless Plug and Play
+	--Superb customer support
+	--Extended asset life through field upgrades/downloads (for a fee)
+
+    • Business Process Issues/Models
+
+--Supply chain
+
+--Customer support
+
+--Channels
+	--High end CE channels (Tweeter, home theater) for demos/missonary sales
+	--Turnkey system installation?
+	--Category confusion around system components/get system shelf space
+	--Kiosks/canned demos/automated FAQs for traditional channels
+	--Financing system sales
+
+--Installed base marketing
+
+

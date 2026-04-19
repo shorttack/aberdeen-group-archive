@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"aberdeen-snapshot","Aberdeen Supplier Snapshot","application","Aberdeen Group","1990s-2010","mature","obsolete","dct-pitas-agreement-template-2002","Web-hosted vendor profile"
+"aberdeen-profile","Aberdeen Profile","application","Aberdeen Group","1990s-2010","mature","obsolete","dct-pitas-agreement-template-2002","Publication format"
+"aberdeen-insight","Aberdeen InSight","application","Aberdeen Group","1990s-2010","mature","obsolete","dct-pitas-agreement-template-2002","Publication format"
+"aberdeen-white-paper","Aberdeen White Paper","application","Aberdeen Group","1990s-2010","mature","obsolete","dct-pitas-agreement-template-2002","Publication format"

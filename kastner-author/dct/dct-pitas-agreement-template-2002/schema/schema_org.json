@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen PITAS (Personal Information Technology Awareness Service) 2002 Agreement Template",
+  "description": "Contract template (with <NAME><COMPANY> placeholders) for Aberdeen's Personal Information Technology Awareness Service (PITAS) 2002 program at $2,500/year. Deliverables: Supplier Snapshot on Aberdeen website, objective press quotes, analyst reference for press/investors, and bi-annual one-hour briefings. Principal analysts: Peter Kastner, Ethan Cohen, Isaac Ro. Includes renewal, reprint fees ($1/reprint), and legal liability provisions.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"home-gateway","Home Gateway","platform","","2000-present","emerging","mature","dct-pit-service-offering-2002","Core category 1"
+"home-media-server","Home Media Server","platform","","2001-present","emerging","mature","dct-pit-service-offering-2002","Core category 2"
+"pc-ce-convergence","PC-CE Convergence","platform","","2000-2010","emerging","legacy","dct-pit-service-offering-2002",""
+"wifi","WiFi (WiFi-x)","protocol","","1999-present","emerging","mature","dct-pit-service-offering-2002","Network category"
+"home-pna","HomePNA","protocol","","1998-2010","emerging","obsolete","dct-pit-service-offering-2002","Home networking over phone lines"
+"display-ui","Displays/UI/Usability","platform","","2000-present","mainstream","mature","dct-pit-service-offering-2002","Core category 4"
+"internet-cable-enablement","Internet/Cable Enablement","platform","","2000-present","emerging","mature","dct-pit-service-offering-2002","Core category 5"

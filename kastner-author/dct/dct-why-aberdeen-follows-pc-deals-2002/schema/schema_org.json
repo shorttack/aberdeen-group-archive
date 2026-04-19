@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Why Aberdeen Is Following Consumer PC Deals \u2014 DCT Practice Methodology",
+  "description": "Methodology paper explaining Aberdeen's Digital Consumer Technology practice approach to weekly consumer PC price tracking. Defines the research questions, six tracked brands (Compaq, Dell, eMachines, Gateway, HP, Sony), an 8-factor price-value hierarchy (CPU, memory, modem/NIC, HDD, monitor, OS, printer, software), and weekly commentary format. Acknowledges 90 days of prior tracking; explicitly excludes Apple (no head-to-head competition).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

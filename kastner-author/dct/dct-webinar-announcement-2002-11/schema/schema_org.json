@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital Consumer Technology: The Revolution Has Started \u2014 Aberdeen Webinar",
+  "description": "Promotional announcement for a 1-hour Aberdeen webinar on Nov 1, 2002 featuring Peter Kastner (EVP/CRO), Russ Craig (Research Director, Semiconductors), and Isaac Ro (Research Associate, Emerging Technologies). Three topics: mobile convergence devices, home media servers, and home networking challenges. Frames DCT as an arena of blurring product boundaries and emergent firms.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2002-11-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Best Practices in Hardware and Software Industry Product Launch Process \u2014 A Management Report for Sun Microsystems, Inc.",
+  "description": "Aberdeen management report for Sun Microsystems (Aug 2002) benchmarking product launch processes. Interviews conducted June-July 2002 with 5 of 28 approached companies (Dell, IBM, Unisys, Computer Associates, Xerox \u2014 rest declined due to strategic sensitivity). Documents detailed lead times (beta testing 14d, configurator 30-45d, readiness review 90d/30d/7-14d/1-7d, pricing 60d guidelines/30-45d signoff, training 14d or 4-6 weeks, web site 30d) and delivery methods for launch materials.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (Peter S. Kastner, lead)"
+  },
+  "datePublished": "2002-08-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

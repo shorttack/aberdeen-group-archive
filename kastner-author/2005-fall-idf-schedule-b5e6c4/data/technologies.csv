@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-multicore-next-gen","Intel Next-Generation Multi-core Platforms/Microarchitecture","platform","Intel","2005-2007","emerging","mature","2005-fall-idf-schedule-b5e6c4","Mega-briefing topic — setup for Core microarchitecture (2006)."
+"intel-yonah","Intel Yonah (Core Duo)","platform","Intel","2006-2008","emerging","obsolete","2005-fall-idf-schedule-b5e6c4","Press/analyst-only architectural briefing subject; shipped Jan 2006."
+"intel-napa","Intel Napa Platform","platform","Intel","2006-2008","emerging","obsolete","2005-fall-idf-schedule-b5e6c4","Napa mobile platform mega-briefing with Mooly Eden."
+"intel-vt","Intel Virtualization Technology (VT-x)","platform","Intel","2005-present","emerging","active","2005-fall-idf-schedule-b5e6c4","Virtualization industry panel discussion topic."
+"intel-digital-home","Intel Digital Home Initiative","platform","Intel","2004-2010","emerging","obsolete","2005-fall-idf-schedule-b5e6c4","Don MacDonald mega-briefing on digital home."
+"intel-digital-enterprise","Intel Digital Enterprise Initiative","platform","Intel","2004-2010","emerging","obsolete","2005-fall-idf-schedule-b5e6c4","Pat Gelsinger keynote topic."
+"intel-digital-health","Intel Digital Health Initiative","platform","Intel","2005-2010","emerging","obsolete","2005-fall-idf-schedule-b5e6c4","Louis Burns keynote topic; later became Intel Healthcare."

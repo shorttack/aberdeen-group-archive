@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Point Solutions Versus Integrated Oracle Applications: The Road to IT Investment ROI",
+  "description": "Oracle-sponsored Aberdeen Executive White Paper (June 2001) \u2014 SAME core research as study 6 ('Leaving Well Enough Alone', July 2001) but Oracle-branded. Conclusion substitutes 'Oracle provides such an application suite' for the vendor-neutral closing. Chronologically predates study 6 \u2014 this is likely the commissioned original; study 6 is the vendor-neutral generalization Aberdeen then released on its own behalf. Cites Beneficial Life and Indian Motorcycle (Oracle customers) only \u2014 drops Credit Suisse First Boston/Carreckers (PeopleSoft) and State of Michigan (Lawson) references that appear in study 6.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (Katherine Jones, Tom Dwyer, Peter S. Kastner)"
+  },
+  "datePublished": "2001-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

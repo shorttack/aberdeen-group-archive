@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Industry Analyst Relations at Spring IDF 2005 \u2014 Peter Kastner Delegate Confirmation Letter",
+  "description": "Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc., P.O. Box 3480, Westport MA) for Spring IDF 2005 at Moscone West, San Francisco, March 1-3. Features Craig Barrett opening keynote, multicore briefing, Digital Enterprise/Digital Office luncheon and keynote, Sean Maloney mobile briefing, Virtualization Technology 101 briefing, Flash Products Group briefing, TMG (Technology & Manufacturing) briefing, UWB/Wireless USB briefing at W Hotel, Justin Rattner R&D keynote, CE-ATA briefing, and CTO panel. Documents a complete analyst-access schedule six months before the Fall IDF 2005 event.",
+  "creator": {
+    "@type": "Person",
+    "name": "Liz Ryon (Intel SAS-Industry Analyst Relations Group)"
+  },
+  "datePublished": "2005-02-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

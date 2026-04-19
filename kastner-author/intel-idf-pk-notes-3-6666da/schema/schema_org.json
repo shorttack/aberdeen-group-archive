@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Kastner Personal IDF Notes \u2014 Consumer Spending, Extreme Edition, Prescott, BTX, DTCP",
+  "description": "Short handwritten-style notes by Peter Kastner captured at an Intel IDF (content indicates Fall 2003 \u2014 Pentium 4 Extreme Edition launch, 90nm Prescott demo with PCI Express graphics, BTX (Balanced Technology Extended) 'Bigwater' form factor, iCube Korea MPEG2-to-MPEG4 on-the-fly compression, DTCP-over-IP content protection). Preserved as memoir \u2014 fragment of Kastner's in-session notetaking practice.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-09-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

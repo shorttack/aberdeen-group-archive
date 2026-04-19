@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oracle-11i","Oracle e-Business Suite 11i","application","Oracle","2000-2007","emerging-mature","legacy","oracle-appsworld-insight-edit-4-813c2e","Web-based ERP/CRM/SCM suite; QA problems in early releases; ~50% of Oracle clients on 10x release (older) at time of study."
+"oracle-e-business-suite","Oracle e-Business Suite","application","Oracle","2000-present","mature","legacy-supported","oracle-appsworld-insight-edit-4-813c2e","Umbrella product family including 11i."
+"erp","Enterprise Resource Planning (ERP)","application","Multiple","1990-present","mature","mature","oracle-appsworld-insight-edit-4-813c2e","Core app category discussed."
+"crm","Customer Relationship Management (CRM)","application","Multiple","1995-present","emerging","mature","oracle-appsworld-insight-edit-4-813c2e","Core app category discussed."
+"scm","Supply Chain Management (SCM)","application","Multiple","1990-present","mature","mature","oracle-appsworld-insight-edit-4-813c2e","Core app category discussed."
+"asp-application-service-provider","Application Service Provider (ASP) model","framework","Multiple","1998-2005","emerging","superseded-by-saas","oracle-appsworld-insight-edit-4-813c2e","ASPs were visible on trade show floor; predecessor to SaaS."
+"daily-close","Daily Close (ERP feature)","framework","Multiple","2000-present","emerging","mature","oracle-appsworld-insight-edit-4-813c2e","Oracle enhancement: virtual close for any part of the organization on daily cadence."

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"eai-middleware","Enterprise Application Integration (EAI) middleware","framework","Multiple","1998-2010","emerging","superseded-by-api-integration","oracle-middleware-fragment-5-d3d774","Aberdeen definition: enabling software creating bridges across disparate platforms."
+"oracle-financials","Oracle Financials","application","Oracle","1987-present","mature","mature","oracle-middleware-fragment-5-d3d774","Financials component of Portera bundle."
+"peoplesoft-hr","PeopleSoft Human Resources","application","PeopleSoft","1987-present","mature","legacy-supported","oracle-middleware-fragment-5-d3d774","HR component of Portera bundle."
+"siebel-crm","Siebel CRM","application","Siebel Systems","1993-present","mature","legacy-supported","oracle-middleware-fragment-5-d3d774","CRM component of Portera bundle."
+"xml","eXtensible Markup Language (XML)","protocol","W3C","1998-present","emerging","mature","oracle-middleware-fragment-5-d3d774","Cited as the future promise for eased application integration."
+"erp","Enterprise Resource Planning (ERP)","application","Multiple","1990-present","mature","mature","oracle-middleware-fragment-5-d3d774","Cited as the 'traditional ERP vendors of the 1990s' long-run winners."

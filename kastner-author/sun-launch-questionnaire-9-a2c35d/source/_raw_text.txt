@@ -1,0 +1,54 @@
+﻿AberdeenGroup
+
+Launch Process Questionnaire
+Aberdeen Group, a leading IT industry market research firm, is conducting primary research on best practices in how hardware, software, and services are launched. Your company’s participation is voluntary, and your response will not be made public.  We would be pleased to take your responses by phone by calling xxxxx at xxx xxx-xxxx or by email to xxx@Aberdeen.com.  If you have any questions regarding this project, please contact Peter Kastner, Executive Vice President, Research at 617 854-5221.
+Does your company have a common product launch/announcement  process and methodology?
+Are there significant variations for hardware, software, or services?
+
+Are there a common activities in a launch front-end leading to tailored direct and channel launches?
+Is there a product launch organization separate from product marketing, operations, or product management?
+Yes/No?
+
+Describe the organizational structure
+
+
+
+
+Which executive does product launches report to?
+What are the required (or typical) lead times in days before “product launch”, which is defined as the first day that firm, revenue customer orders are taken?
+Task	Completion (Days Before Launch Date)	Comments
+End of product beta testing		
+Product Configurator Ready		
+ERP/order management		
+Globalization/internationalization		
+Launch Readiness Review		
+Release to Manufacturing 		
+Pricing (U.S.) signoff		
+Pricing (country/region level)		
+Product literature (print run complete)		
+Press and analyst materials (approved but not distributed)		
+Training Materials		
+Web site		
+Other (define)
+
+
+		
+
+How does your company deliver new-product launch materials?
+Material	Methods*	Comments
+Direct sales training		
+Indirect sales/Channel training		
+Announcement sales kit		
+International (languages)		
+Product literature		
+FAQs and Q&A		
+Press materials		
+		
+* Methods:
+    • Hardcopy paper
+    • Web e-learning
+    • Web site
+    • Classroom
+    • Electronic documents (i.e., Adobe .pdf)
+    • Intranet database
+    • Collaboration software

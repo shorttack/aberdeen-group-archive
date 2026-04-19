@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4-extreme-edition","Intel Pentium 4 Extreme Edition","platform","Intel","2003-2006","emerging","obsolete","intel-idf-pk-notes-3-6666da","3.2GHz, 2MB L3 cache 'gamer processor' announced 30-60 day availability."
+"intel-pentium-4-prescott","Intel Pentium 4 Prescott (90nm)","platform","Intel","2004-2007","emerging","obsolete","intel-idf-pk-notes-3-6666da","Demoed with PCI Express graphics; Q4 ship."
+"btx-form-factor","Balanced Technology Extended (BTX)","platform","Intel","2004-2007","emerging","obsolete","intel-idf-pk-notes-3-6666da","Quiet, small form factor 'Bigwater'; instant on-off; resilient power. Failed commercially."
+"pci-express","PCI Express","protocol","PCI-SIG","2004-present","emerging","active","intel-idf-pk-notes-3-6666da","Graphics demonstrated with Prescott."
+"mpeg2","MPEG-2 video codec","protocol","MPEG/ISO","1994-present","mature","legacy","intel-idf-pk-notes-3-6666da","Source format being transcoded in iCube demo."
+"mpeg4","MPEG-4 video codec","protocol","MPEG/ISO","2000-present","emerging","mature","intel-idf-pk-notes-3-6666da","Target format for real-time transcoding."
+"dtcp-ip","DTCP over IP (Digital Transmission Content Protection)","protocol","DTLA","2003-present","emerging","active","intel-idf-pk-notes-3-6666da","PKI-based authentication → unlock → unscramble → decompress for home network video."

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Middleware/EAI Alternatives and Portera Pre-Integration (Draft Fragment)",
+  "description": "Draft fragment from Katherine Jones to Tom Dwyer revising a section on middleware/EAI alternatives for the Aberdeen Oracle ROI white paper. Defines middleware, documents a Senior VP of Infrastructure's negative experience with EAI tooling, and analyzes Portera's pre-integrated bundle (Oracle Financials + PeopleSoft HR + Siebel CRM) as a 'buy pre-integrated' alternative.",
+  "creator": {
+    "@type": "Person",
+    "name": "Katherine Jones (Aberdeen Group)"
+  },
+  "datePublished": "2001-05-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

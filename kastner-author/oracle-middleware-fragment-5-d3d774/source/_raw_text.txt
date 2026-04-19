@@ -1,0 +1,28 @@
+﻿TO: Tom Dwyer
+FROM: KJ
+May 6, 2001
+
+Let’s see if this is less objectionable.  The footnotes are to your report and WP  — I read them both.  I don’t mean this to sound negative — just a point to be considered.
+
+Other Players in Application Integration
+Arguably, some of these issues can be addressed by “middleware” or Enterprise Application Integration (EAI) toolsets.  Aberdeen defines middleware 1  as “a collection of enabling software, based on widely accepted standards, that creates bridges or conduits between and among a rich set of computing services found on disparate computing platforms and the applications that need easy access to those services.”  Ironically, these integration platforms assume a life of their own in the IT infrastructure — and may add another layer of complexity to the software selection process and, in certain instances, creating challenging maintenance problems in the very areas they were supposed to enhance. 
+Aberdeen Research2 suggests that compatibility with an enterprise’s chosen EAI solution can in fact determine application selection criteria.  These means of easing integration woes are themselves often very expensive, and demand ongoing IT maintenance investments.   And we recently interviewed a Senior VP of Infrastructure who reported evaluating the middleware option and deciding against it, perceiving that the EAI solution was difficult to manage, and that bug maintenance was painfully slow because any identified problem had to be taken back to the underlying application vendors, delaying getting to the root cause of the problem.  
+Yet another route to integration is buying point solutions which have already been integrated from a third-party such as Portera, which can offers solutions which include Oracle Financials, PeopleSoft HR, and Siebel CRM.  In this case, the company provides the integration in applications which were not designed to integrate, and assumes the responsibility of maintaining the integration over time.  The solution to the enterprise is expensive, and adds the risk of vendor viability — not for the company’s whose software is integrated — but for the integrator itself. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aberdeen Conclusions
+Today’s businesses need to assess the strategic and tactical trade-offs in enterprise solutions carefully.  Functionality clearly is the driving concern — a solution has to address the mission-critical requirements of the business.  However, selecting that functionality from a point solution package as opposed to an integrated application provider often accounts for the added cost, difficulty, and long term efforts required of IT departments.  And for core business processes, which do not provide the differentiators or the competitive edge of a business, that effort of integrating does not necessarily pay off when compared to already integrated business solutions. 
+The issue at hand, as Porter says, is the inability to sustain a durable competitive advantage from a software application over time.  Of late, point solutions addressed the market fear of being left behind in the New Economy, a fear that has proved  unrealized.  Users testimony does not indicate that the cost of implementation and integration outweigh the short-term effect of the software as a critical business differentiator?  Will my business suffer more from not having this software immediately — or less if I wait until my enterprise vendor makes it available?
+While the future holds the promise of eased application integration through adherence to the XML standards, supported by the major suppliers, Aberdeen concludes that at this point in time, the highest degree of integration stems from a single provider’s solution, which likely offers the least expense in integration efforts and its long-term upkeep costs.  The traditional ERP vendors of the 1990’s, who lost marketing cache to upstart best-of-breed single function products, are proved the winners in the long run — with packaged, integrated cross-enterprise solutions that thoughtfully address the vast majority of business needs.
+ 

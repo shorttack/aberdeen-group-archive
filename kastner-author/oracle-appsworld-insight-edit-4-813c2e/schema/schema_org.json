@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "A Kinder, Gentler Larry Ellison? Oracle Turns New Face to Its User Community",
+  "description": "Aberdeen Insight by Katherine Jones covering Oracle Apps World San Diego (Apr 2002). Notes a shift in Oracle tone \u2014 from new-product strutting to installed-base upgrade focus on the e-Business 11i Suite, rapprochement with OAUG, rebirth of outsourcing (Oracle hosting with claimed 31-84% IT infrastructure savings), and a new customer-care role for Mark Barranchea. Written during the post-dot-com downturn that constrained new-license revenue.",
+  "creator": {
+    "@type": "Person",
+    "name": "Katherine Jones (Aberdeen Group)"
+  },
+  "datePublished": "2002-04-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

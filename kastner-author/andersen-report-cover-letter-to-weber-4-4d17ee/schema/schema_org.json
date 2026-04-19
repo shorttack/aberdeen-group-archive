@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Letter to Mark Weber (Gibson Dunn) re: AMD v Intel \u2014 Offering Expert Witness Services",
+  "description": "One-page cover letter from Peter S. Kastner (Scott-Page Associates, Westport MA) to Mark Weber, Esq. of Gibson Dunn & Crutcher in Los Angeles, following up with John Casey of Intel regarding the AMD v Intel antitrust case. Encloses a 2003 Internetweek column based on Kastner's survey of 250 companies on PC replacement buying plans, and a copy of the 1999 Intelligent Electronics v Andersen Consulting expert witness report as demonstration of his analytical style. Kastner endorses Intel's public 'affirmative defense' stance and offers services.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Scott-Page Associates)"
+  },
+  "datePublished": "2007-09-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

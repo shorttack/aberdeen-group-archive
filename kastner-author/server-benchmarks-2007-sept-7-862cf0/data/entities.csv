@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-s-kastner","Peter S. Kastner","person","IT Market Research","active","","1988-present","server-benchmarks-2007-sept-7-862cf0","Spreadsheet author."
+"intel","Intel Corporation","company","Semiconductors","active","","1968-present","server-benchmarks-2007-sept-7-862cf0","Xeon 7140M and 7350 platforms compared."
+"amd","Advanced Micro Devices (AMD)","company","Semiconductors","active","","1969-present","server-benchmarks-2007-sept-7-862cf0","Opteron 8220se and Barcelona 8222 compared."
+"spec","Standard Performance Evaluation Corporation (SPEC)","institution","Industry Standards","active","","1988-present","server-benchmarks-2007-sept-7-862cf0","SPECjbb, SPECint_rate_2006, SPEC webserver 2005."
+"sap","SAP SE","company","Enterprise Software","active","","1972-present","server-benchmarks-2007-sept-7-862cf0","SAP-SD two-tier ERP benchmark."
+"microsoft","Microsoft Corporation","company","Software","active","","1975-present","server-benchmarks-2007-sept-7-862cf0","SQL Server benchmark publisher."

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-on-demand","IBM On Demand","framework","IBM","2002-2008","emerging","obsolete","ibm-scm-murray2-tm-4a0fbf","IBM's on-demand computing marketing umbrella; Aberdeen proposes validating it in SCM/Supply Management contexts."
+"rfid","Radio-Frequency Identification (RFID)","platform","Industry","2000-2010s","emerging","mature","ibm-scm-murray2-tm-4a0fbf","Proposed benchmark study and tech assessment topic; Aberdeen identified RFID as key SCM area."
+"aberdeen-aocs","Aberdeen Online Conference Series (AOCS)","framework","Aberdeen Group","2003-2010","mature","obsolete","ibm-scm-murray2-tm-4a0fbf","Aberdeen's web-conference product for analyst-led education and lead generation."
+"aberdeen-dset","Aberdeen DSET Framework","framework","Aberdeen Group","2003-2010","emerging","obsolete","ibm-scm-murray2-tm-4a0fbf","Drivers/Strategies/Enablers/Technology framework — Aberdeen's C-level business value model."
+"benchmark-methodology","Benchmark Study Methodology","framework","Industry","1990s-present","mature","active","ibm-scm-murray2-tm-4a0fbf","Aberdeen's core research product: survey-based benchmarking of buyer intentions and best practices."

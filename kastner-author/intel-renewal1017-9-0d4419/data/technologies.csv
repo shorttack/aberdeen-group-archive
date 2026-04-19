@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"it-at-aberdeen","IT@Aberdeen Service","framework","Aberdeen Group","2000s-2010","mature","obsolete","intel-renewal1017-9-0d4419","Aberdeen's IT-focused advisory service (Gold tier in this contract)."
+"client-side-computing","Client Side Computing (research topic)","framework","Aberdeen Group","2000s","mature","legacy-active","intel-renewal1017-9-0d4419","Kastner's designated research topic for Intel."
+"aberdeen-credit-bank","Aberdeen Credit Bank","framework","Aberdeen Group","2000s","mature","obsolete","intel-renewal1017-9-0d4419","1 unit = $1,000 value; applicable to research projects, speaking, sponsorship, or webinar."

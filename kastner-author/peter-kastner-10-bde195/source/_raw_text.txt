@@ -1,0 +1,50 @@
+﻿Intel’s 3rd Annual NDA Industry Analyst Business & Technology Summit
+“Labs, Fab and Gab”
+February 24th & 25th, 2009
+
+Peter Kastner
+Scott-Page Assoc.
+Dear Peter,
+Please find below your personalized schedule for Intel’s NDA Industry Analyst Business & Technology Summit. Note a few items in blue are meetings not on the main event agenda (i.e. invite only).
+Tuesday February 24, 2009 - Intel Ronler Acres 3 (RA3) site, 2501 NW 229th Avenue, Hillsboro, OR 97124	     
+09:00 AM-10:00 AM	Intel Green, Eco-Tech Huddle with Lorie Wigle (RA3-MPR3B)
+11:00 AM-12:00 PM	Emerging Market Roundtable (RA3-TR1)
+12:00 PM-12:50 PM	Sign in/Lunch, D1D Fab Window Tour
+12:50 PM-01:00 PM	Welcome
+01:00 PM-01:45 PM	Sean Maloney (Executive VP & Chief Sales & Marketing Officer)
+01:45 PM-02:20 PM	William Holt (Senior VP; GM of Technology and Manufacturing Group
+02:20 PM-02:35 PM      	Break
+02:35 PM-03:05 PM	Andy Bryant (Executive VP & Chief Administrative Officer)
+03:05 PM-03:30 PM	Kirk Skaugen (VP; GM of Server Products Group) 
+03:30 PM-03:55 PM	Rob Crooke (VP; GM of Business Client Group) 
+03:55 PM-04:15 PM	Chuck Mulloy (Sr. Manager, Corporate & Legal Affairs)
+05:30 PM-08:00 PM	Cocktail reception w/Intel executives at McMenamins Cornelius Pass Roadhouse. (4045 N.W. Cornelius Pass Rd, Hillsboro, OR Phone: 503-640-6174)
+
+Wednesday February 25, 2009 - Intel Jones Farm Conference Center (JFCC) site, 2111 NE 25th Ave, 
+  Hillsboro OR 97124
+07:00 AM-07:45 AM	Sign in & breakfast (feel free to come anytime during this timeslot)
+07:45 AM-08:00 AM	Welcome
+08:00 AM-08:50 AM	Lab Tour #1: Microprocessor Validation Lab Tour 
+08:50 AM-09:00 AM	Break
+09:00 AM-09:50 AM	Lab Tour #2: vPro Technology Business Client & Enterprise Platform Integration Lab Tour
+09:50 AM-10:00 AM	Break
+10:00 AM-10:50 AM	Lab Tour #3: DataCenter Tour
+10:50 AM-11:00 AM	Break
+11:00 AM-11:50 AM	Justin Rattner (Intel Senior Fellow; VP; Director of Corporate Technology Group and Intel CTO)
+12:00 AM-01:15 PM	Lunch w/Speaker:  Peter Cleveland (VP, Legal and Corporate Affairs / Director, Global Public Policy)
+01:15 PM-02:05 PM	Breakout #1: Notebook Strategies & Plans (JFCC 121&122)
+02:05 PM-02:15 PM	Break
+02:15 PM-03:05 PM	Breakout #2: Larabee Programmability (JFCC 119)
+03:05 PM-03:15 PM	Break
+03:15 PM-04:05 PM	Breakout #3: Mobile Internet Platforms (JFCC 120)
+04:05 PM-04:15 PM	Break
+04:15 PM-05:00 PM	Intel Experts Panel
+
+Lab Tour Descriptions: 
+    • Microprocessor Validation Lab Tour:  Behind the scenes look at the CPU post-silicon validation lab and various test methods, platforms, and debug tools used
+    • vPro Technology Business Client & Enterprise Platform Integration Lab Tour: vPro at work: An up close look at the working labs driving vPro(tm) technology from concept to end user adoption
+    • DataCenter Tour: See one of Intel's newest lights-out data centers located on the Jones Farm Campus.  This "lights out" data center, built as part of Intel's recent datacenter consolidation effort program, includes two 6000 square foot modules each operating at over 500 watts per square foot.
+ Breakout Descriptions:
+    • Notebook Strategies & Plans (JFCC 121&122):  This is an opportunity to get an overview from Karen Regis and Uday Marty, Mobile Products Group Marketing Managers, of Intel’s strategies and plans for ’09 and a sneak peak in 2010 which includes a next generation platform overview and roadmap update
+•       Larabee Programmability (JFCC 119):  Broad overview of the Larrabee architecture and the new vector instruction-set used to program it, the Larrabee new instructions (LRBni)
+•       Mobile Internet Platforms (JFCC 120):    This breakout with Erik Reid, Dir of Mobile Products Group Marketing, and Gary Willihnganz, Dir of Ultra Mobile Group Marketing, will utilize a roundtable format to enable discussion on topics regarding Intel’s MID, netbooks and nettop efforts, strategy and product plans.  Come ready to chat!

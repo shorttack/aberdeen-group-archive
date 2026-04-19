@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT Market Research","acquired","Aberdeen/Harte-Hanks","1988-present","planningforemergingindustry-6-40decb","Publisher; 260 Franklin Street, Boston MA 02110."
+"peter-s-kastner","Peter S. Kastner","person","IT Market Research","active","","1988-present","planningforemergingindustry-6-40decb","Aberdeen EVP; likely primary author given client-side-computing portfolio."
+"intel","Intel Corporation","company","Semiconductors","active","","1968-present","planningforemergingindustry-6-40decb","Sponsor of the white paper; subject of the technology roadmap."
+"pci-sig","PCI Special Interest Group (PCI-SIG)","institution","Industry Standards","active","","1992-present","planningforemergingindustry-6-40decb","Standards body for PCI, PCI-X, PCI Express."
+"ipmi-forum","IPMI Promoter/Adopter Forum","institution","Industry Standards","active","","1998-present","planningforemergingindustry-6-40decb","IPMI standards body; 150+ adopter companies as of 2003."

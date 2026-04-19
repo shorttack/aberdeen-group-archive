@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM-Aberdeen Meeting: Building Value Chain Leaders",
+  "description": "Aberdeen Group consulting pitch deck to IBM proposing a research, benchmark, and workshop alignment program focused on Supply Chain Management (SCM), Procurement, and Strategic Consulting. Identifies IBM's On Demand validation, market visibility, and intellectual capital needs; proposes a three-phase approach combining Aberdeen Online Conference Series (AOCS), benchmark studies, installed base assessments, and joint workshops to grow IBM's top-line revenue and document business-value impact. Flag: Aberdeen-internal / client-confidential.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jamie Bedard, Peter Kastner, Tim Minahan, Chris Jones, Tom Ryan, John Farrell (Aberdeen Group)"
+  },
+  "datePublished": "2003-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

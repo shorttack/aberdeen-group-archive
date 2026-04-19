@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen-Intel Client Service Agreement Renewal (IT@Aberdeen, Gold, 2003-2004)",
+  "description": "Executed IT@Aberdeen Gold-level Client Service Agreement between Aberdeen Group and Intel Corporation, covering 12 months from Sept 30, 2003 to Sept 29, 2004. Service fee $25,000 plus 5-unit Credit Bank ($5,000) = $30,000 total. Research topic: Client Side Computing. Peter Kastner, EVP designated as Intel's primary analyst. Intel contact: Mike Green, Hillsboro OR; Aberdeen Sales Representative: Sandra Tubbs. Deliverables include quarterly briefing, press quotes/inquiries, VC inquiries, Snapshot, one Logo in IT Newsletter, access to publications library, survey data, IT Access community, and IT research symposiums.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group / Intel Corporation"
+  },
+  "datePublished": "2003-09-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

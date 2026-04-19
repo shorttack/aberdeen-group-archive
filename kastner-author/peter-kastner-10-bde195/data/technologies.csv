@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-vpro","Intel vPro Technology","platform","Intel","2006-present","mature","active","peter-kastner-10-bde195","Business client platform; subject of Day 2 lab tour."
+"intel-larrabee","Intel Larrabee","platform","Intel","2006-2010","emerging","obsolete","peter-kastner-10-bde195","Many-core x86 GPU project with LRBni vector instructions; discontinued as GPU in 2010, repurposed to Xeon Phi."
+"intel-mid","Intel Mobile Internet Device (MID)","platform","Intel","2007-2012","emerging","obsolete","peter-kastner-10-bde195","Atom-based mobile Internet platform; supplanted by smartphones."
+"intel-netbook","Intel Netbook Platform","platform","Intel","2008-2013","emerging","obsolete","peter-kastner-10-bde195","Atom-based low-cost notebook category."
+"intel-nettop","Intel Nettop Platform","platform","Intel","2008-2012","emerging","obsolete","peter-kastner-10-bde195","Atom-based compact desktop category."
+"intel-datacenter-lights-out","Intel Lights-Out Data Center","framework","Intel","2008-present","emerging","active","peter-kastner-10-bde195","Two 6000-sqft modules at 500+ W/sqft; Jones Farm Campus."
+"intel-d1d-fab","Intel D1D Fab","platform","Intel","2002-present","mature","active","peter-kastner-10-bde195","Intel's D1D development fab at Ronler Acres, Hillsboro OR; window tour."

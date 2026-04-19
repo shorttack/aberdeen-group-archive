@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel 3rd Annual NDA Industry Analyst Business & Technology Summit \u2014 'Labs, Fab and Gab' (Peter Kastner Personal Agenda)",
+  "description": "Peter Kastner's personalized two-day agenda for Intel's 3rd Annual NDA Industry Analyst Business & Technology Summit ('Labs, Fab and Gab'), held Feb 24-25, 2009 at Intel's Ronler Acres 3 (RA3) and Jones Farm Conference Center (JFCC) campuses in Hillsboro OR. Kastner attending as Scott-Page Associates. Day 1 includes exec briefings by Sean Maloney, William Holt, Andy Bryant, Kirk Skaugen, Rob Crooke, and Chuck Mulloy; D1D fab window tour; cocktail reception at McMenamins Cornelius Pass Roadhouse. Day 2 includes Microprocessor Validation Lab, vPro Technology Lab, and DataCenter lights-out tours; keynote by Justin Rattner; lunch with Peter Cleveland; breakouts on Notebook Strategies, Larrabee Programmability, and Mobile Internet Platforms.",
+  "creator": {
+    "@type": "Person",
+    "name": "Intel Corporation (Peter S. Kastner, attendee, Scott-Page Associates)"
+  },
+  "datePublished": "2009-02-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

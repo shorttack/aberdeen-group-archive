@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-on-demand","IBM On Demand","framework","IBM","2002-2008","emerging","obsolete","ibmfinal1-3-720230","IBM's on-demand computing umbrella; anchor for joint workshop."
+"aberdeen-era","Enterprise Research Alliances (ERA)","framework","Aberdeen Group","2002-2010","mature","obsolete","ibmfinal1-3-720230","Aberdeen's co-sponsored research with trade media."
+"aberdeen-aocs","Aberdeen Online Conference Series (AOCS)","framework","Aberdeen Group","2003-2010","mature","obsolete","ibmfinal1-3-720230","Web conference product."
+"aberdeen-dset","Aberdeen DSET Framework","framework","Aberdeen Group","2003-2010","emerging","obsolete","ibmfinal1-3-720230","Drivers/Strategies/Enablers/Technology framework."

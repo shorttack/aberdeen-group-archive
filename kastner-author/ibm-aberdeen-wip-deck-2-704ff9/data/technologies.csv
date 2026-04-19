@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"aberdeen-dset","Aberdeen DSET Framework","framework","Aberdeen Group","2003-2010","emerging","obsolete","ibm-aberdeen-wip-deck-2-704ff9","Drivers/Strategies/Enablers/Technology — CxO business value framework."
+"storage-pools","Storage Pools","platform","Industry","2003-2010","emerging","mature","ibm-aberdeen-wip-deck-2-704ff9","IBM-marketed storage pooling; tiered/virtualized storage pre-cloud."
+"ilm","Information Lifecycle Management (ILM)","framework","Industry","2003-2012","emerging","mature","ibm-aberdeen-wip-deck-2-704ff9","Data-tier policy framework; Aberdeen provided ILM Business Case Tool."
+"rfid","Radio-Frequency Identification (RFID)","platform","Industry","2000-2010s","emerging","mature","ibm-aberdeen-wip-deck-2-704ff9","Example cited for RFID-enabled Asset Management research."
+"aberdeen-aocs","Aberdeen Online Conference Series (AOCS)","framework","Aberdeen Group","2003-2010","mature","obsolete","ibm-aberdeen-wip-deck-2-704ff9","Web conference product used for educating storage prospects."
+"valuechainaccess","valuechainaccess.com G5000 Community","platform","Aberdeen Group","2003-2008","emerging","obsolete","ibm-aberdeen-wip-deck-2-704ff9","Aberdeen's members-only G5000 research community."

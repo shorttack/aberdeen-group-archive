@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ibm","IBM","company","Enterprise IT / Storage","active","","1911-present","ibm-aberdeen-wip-deck-2-704ff9","Client of Aberdeen sales workshop; targeted via IBM storage (TotalStorage)."
+"aberdeen-group","Aberdeen Group","firm","IT Market Research","acquired","Aberdeen/Harte-Hanks","1988-present","ibm-aberdeen-wip-deck-2-704ff9","Author/workshop provider."
+"peter-s-kastner","Peter S. Kastner","person","IT Market Research","active","","1988-present","ibm-aberdeen-wip-deck-2-704ff9","Aberdeen EVP; involved in IBM storage analyst engagement."

@@ -1,0 +1,40 @@
+﻿ClassMate PC Evaluation Notes
+
+Overall Impressions
+The CMPC is a fine, workable device, especially in the (small) hands of young people. The size, packaging, and packaging are all attractive. The CMPC is for all practical purposes a complete laptop in a small package – an ultra-mobile PC.
+
+The tested ClassMate was used in the U.S. and at a teacher’s college in Jacmel, Haiti, where teachers and K-12 students saw and handled the ClassMate. (They gave it high marks).
+
+Windows users, especially teachers, will find the “XP Pro in silicon” to be very familiar. I did not find any needed features missing. On the other hand, Windows comes with a significant learning curve and has high IT maintenance costs.The administration difficulty is increased by the ClassMate’s small screen, which sometimes hides portions of Windows’ admin screens (example: wireless network setup).
+
+The selling price is unknown. But Price Per Unit will be a key determinant to developing-nation market success. However, it’s not hard to connect the next-generation hardware dots to see a large (and potentially vast) market for this class of mobile Internet devices.
+
+While the hardware worked as expected, the e-Learning Class v6.0 software is buggy, although it shows great promise. Functionally, v6.0 will enable teacher’s to share and collaborate in direct, blackboard, and multimedia ways with individuals and classes. 
+
+Install
+    1. Product box contained international 50Hz/220v electrical cable. Purchased 3-plug male to 3-prong 60Hz/110v standard U.S. grounded plug. As shipped, the PC will not work in the U.S. because it will not charge.
+    2. CMPC initial boot encountered Microsoft activation. CMPC was on a wireless LAN.  It is impossible to set up the WLAN without first activating Windows from a wired Ethernet connection.
+    3. Speaker volume initial setting is maximum loud, a distraction.
+4. Internet Explorer default web site is Microsoft.com.  There ought to be a better landing place.
+    5. CMPC initial network settings do not find the Internet (in spite of getting an IP address from the router. To operate, Microsoft’s network setup wizard must be run.  This step is a significant hassle due to excessive labor time; it would add more than an hour to install time for a classroom.
+
+Tutorial Guide
+    1. 1.1 (page 5) Tutorial prerequisites item 5 is incorrect. CMPC in wireless mode works fine with teacher PC that is wired Ethernet – and both are on the same network.
+    2. 2.1.2 (page 7) Initial login.  This is not correct.  Typing your name and a password results in a password failure.  Removing the password allows login, but results in a user with no password support.
+
+Operation of Classmate PC
+    1. During login, hitting Enter key instead of clicking mouse on accept results in the program not connecting to the teacher because the default response is “close”. The Class v6.0  remains running but invisible.  Restarting in Start/Mythware fails with the message “program is already running”.  Not user (especially child) friendly. Note 1: suggest the default is “connect”, not close.  Note 2: the easiest way to get out of the “running but invisible” state is to repair the network connection, but that’s an advanced Windows user move.
+    2. 2.3.4 Connecting to a Virtual Classroom (page 9): if access is granted, icon color changes.  Note that changing from black to blue on a 7” screen is hard to identify.  Consider contrasting colors.
+    3. The usual Microsoft standby without warning in Windows is used. Since the default wait time is five minutes, I found the CMPC often turned off just before I wanted to use it. Suggestion: a beep N seconds before Standby.
+    4. NoteTaker hardware and software are slick but rudimentary. A good starting point “version 1.0”.
+    5. The power-off battery life is only a couple of days, even after a full charge. This was mildly disappointing.  I am not sure that a child will be able to take the ClassMate home for the weekend and do much work and still have the device with standby power by Monday morning. Is there too much power leakage during power-off standby?
+    6. Biggest hurdle to use is the screen real estate. Some Windows command screens do not fit into the visible portion of the screen. Getting “down” to the enter/next prompt is a real hassle. As a result, I view admin of the ClassMate as problematic.
+
+e-Learning Class v6.0
+1. Waiting Connection List – each student must be individually “accepted”. At class start, this would be a big pain for the teacher and a waste of class time.  Suggest an “Accept All” option.
+2. 4.1 Monitor (page 16) The first time I tried this, the program crashed. Twice (with mixed wired/wireless LAN). Third time on all-wired LAN. I cannot evaluate this function, but it makes functional sense to have this. Ditto on 4.2 remote monitoring. 
+3. Screen Broadcast results in lockup of the CMPC that ctrl-alt-delete will not remedy. Twice, second time on all wired LAN.
+4. Could not get the Net Movie function to work on any .avi at any bandwidth, includinh the Class v6.0 demo files. Error “not enough bandwidth” even with the wired LAN settings.  This needs a wizard for setup.
+5. Click anywhere in the upper left corner and sometimes the top bar and you’ll be sent off to the Chinese-language Mythware site.  This happened too often while trying to click on the top student in then list.
+6. The Class v6.0 software install is problematic. Some features involving teacher oversight do not work at all or work fine.  I am unable to further debug, but I tried wireless and wired LANs and different combinations of students and teacher PCs.
+

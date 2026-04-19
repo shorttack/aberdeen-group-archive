@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-classmate-pc","Intel Classmate PC (CMPC)","platform","Intel","2006-2013","emerging","obsolete","classmate-pc-evaluation-notes-8-103667","Ultra-mobile education PC; 7-inch screen, Windows XP."
+"windows-xp","Microsoft Windows XP Professional","platform","Microsoft","2001-2014","mature","obsolete","classmate-pc-evaluation-notes-8-103667","OS preloaded on CMPC as 'XP Pro in silicon.'"
+"mythware-class-v6","Mythware e-Learning Class v6.0","application","Mythware","2007-2012","emerging","obsolete","classmate-pc-evaluation-notes-8-103667","Teacher classroom-management/broadcast software bundled with CMPC."
+"wlan-wifi","Wireless LAN (WiFi)","protocol","IEEE","1997-present","mature","active","classmate-pc-evaluation-notes-8-103667","Required Windows wired-Ethernet activation first."
+"note-taker","NoteTaker (CMPC hardware+software)","application","Intel","2007-2012","emerging","obsolete","classmate-pc-evaluation-notes-8-103667","Classmate handwriting/note hardware module; 'slick but rudimentary — v1.0.'"

@@ -1,0 +1,674 @@
+# Planning for Emerging Industry-Standard Platforms (Executive White Paper)
+
+> Archived from: PlanningForEmergingIndustry-6.pdf
+> Original publication date: 2003-08-01
+> Author: Aberdeen Group (Peter S. Kastner)
+
+---
+
+## Original Document Text
+
+AberdeenGroup 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Planning for  
+Emerging Industry-
+Standard Platforms  
+An Executive White Paper 
+August 2003 
+ 
+ 
+ 
+ 
+Aberdeen Group, Inc. 
+260 Franklin Street 
+Boston, Massachusetts 02110 USA 
+Telephone: 617 723 7890 
+Fax: 617 723 7897 
+www.aberdeen.com 
+ 
+
+
+ 
+ 
+Planning for Emerging Industry-Standard Platforms 
+Preface 
+Industry-standard computing is based on Intel-compatible architecture, proces-
+sors, and chip sets. Intel Architecture (IA), as industry-standard computing is also 
+called, is at the heart of the majority of the world’s desktop, workstation, and 
+server computers. Technology advancements this year and next year are creating 
+opportunities for information technology (IT) organizations to choose computers 
+with superior performance, fewer bottlenecks, and better administration at a lower 
+labor cost — the “lower TCO” that everyone applauds. The three critical technol-
+ogy building blocks of change are memory, systems management, and serial input-
+output (I/O), which includes serial buses, graphics, and communications. The 
+three technologies will complement advances in chip sets and processors and go 
+beyond the typical generation-to-generation evolution. First appearing in volume 
+32-bit servers and high-end workstations, these technology improvements are fol-
+lowed in 2004 in multiprocessor servers, then 64-bit servers. 
+This Executive White Paper alerts IT technologists and general business executives 
+to these technology changes and the business benefits of the technology so that 
+they may better plan for industry-standard computer acquisitions. A future com-
+panion paper will look at desktop and mobile technology issues. 
+Processors and Chip Sets Work Hand in Glove to Support Enterprise 
+Workloads 
+Intel is known as the microprocessor company. From the mid-1990s, IA32-based 
+servers have taken on increasingly important and, now, business-critical transac-
+tion processing, decision support, Web, and office workloads. Today, industry-
+standard servers are used in some of the commercial and technical world’s tough-
+est computing jobs. 
+What is less well known, but of critical importance to IT executives, is that Intel 
+has quietly built a stable of enterprise chip sets, the nervous system that controls 
+access to I/O and memory by the microprocessor “brain.” Intel’s enterprise chip 
+sets are primarily aimed at Intel Xeon-based servers and workstations with one or 
+two processors. Intel also offers a chip set for servers based on two (or more) Intel 
+Itanium 2 processors. Intel’s significant research and development commitment 
+on enterprise chip sets results in servers that perform better and more reliably. In-
+tel has shipped more than one million enterprise chip sets since the beginning of 
+2002, primarily the E7501, E7505, E7205 for the Xeon processor family, and the 
+E8870 for the Itanium 2. The field experience gained by Intel over this time has 
+been cycled through the recent 875P high-end chip set for the Intel Pentium proc-
+essor and into follow-on chip-set products that will support future Xeon and Ita-
+nium 2 processors.  
+Over this 18-month period of renewed Intel emphasis on enterprise chip sets, In-
+tel-Architecture servers have continued to gain market segment share in a de-
+ 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 2 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+pressed global market. Enterprise buyers tell Aberdeen that they are confident in 
+the reliability, performance, and value of servers containing Intel processors and 
+chip sets, and that they recognize the effort and commitment that Intel is making. 
+Moreover, Intel’s chip sets undergo a rigorous qualification and validation process 
+that involves thousands of engineers and hundreds of millions of dollars. This ef-
+fort leads to high quality and predictable, stable operation — all data center 
+qualifications. 
+One- and Two-Processor Enterprise Workstations and Servers 
+Intel’s Xeon processors are widely used in workstations and infrastructure servers, 
+which support one or two processors.  
+Workstations using Xeon processors and the E7505 chip set offer fast AGP 8x sup-
+port and over 4GB/second of memory bandwidth. This combination is winning de-
+sign and rendering benchmarks and market segment share against proprietary 
+RISC-based workstations. 
+In volume two-way servers, the Xeon processor with the E7501 chip set supports 
+large real memory space — to 16 GB — and three PCI (Peripheral Component In-
+terconnect)-X I/O buses, along with dual Gigabit Ethernet support. The large 
+memory addressability can be useful in high-performance computing applications. 
+These features allow large Fortune 500 companies to handle their e-mail and 
+workgroup computing applications where the data set is small and response time 
+is important. 
+In 2004, the next-generation Xeon processor, code-named Nocona by Intel, will 
+debut at higher clock speeds. Nocona will be complemented by the Lindenhurst 
+chip set, which is expected to be the industry’s first chip set to incorporate PCI 
+Express serial I/O and DDR2 memory technology. 
+Multiprocessor Xeon for 32-Bit Enterprise Servers 
+Intel’s Xeon processor MP is widely used in multiprocessor servers for 32-bit en-
+terprise applications, office automation, decision support, and other large com-
+mercial and technical workloads. The Xeon Processor MP is seen in high-end serv-
+ers with four to 32 processors, rivaling RISC servers in performance — most com-
+monly at a lower acquisition cost. The Xeon MP is widely used for tier-3 32-bit 
+workloads such as database, transaction processing, and enterprise applications. 
+In the second half of 2004, a new generation of 32-bit server processors will ap-
+pear, code-named Potomac. The Potomac processors will be supported by a new 
+four-processor chip set, code-named Twin Castle, which will be Intel’s first recent 
+four-way IA32 enterprise chip set effort since its reentrance into the server market 
+segment in early 2002. New processors and chip sets intended for the multiproc-
+essor market segment are introduced at a slower rate because of the longer (typi-
+cally two years) refresh cycle. 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 3 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+Itanium 2 for 64-Bit Enterprise Workloads 
+The Madison iteration of the Intel Itanium 2 64-bit microprocessor was released in 
+mid-2003. The Itanium 2 is complemented by the Intel E8870 chip set as well as 
+server-supplier-proprietary chip sets. The E8870 chip set was designed for two- to 
+eight-way Itanium 2 servers. Larger systems can also be designed using the E8870 
+chip set building blocks. The E8870 has extensive reliability, availability, and ser-
+viceability (RAS) logic, befitting a mission-critical server well suited for large data-
+bases, decision support, and other enterprise-class applications. In two-way con-
+figurations, some computer suppliers are offering high-end workstations. 
+The Itanium 2 performance is impressive for a relatively new architecture; the chip 
+is winning numerous commercial and scientific benchmark tests and is picking up 
+market segment share against high-end RISC/Unix and mainframe machines. High 
+memory bandwidth combined with lots of number crunching capability is one rea-
+son why this technology is increasingly used in scientific/technical applications and 
+encryption. Large memory address space, along with other architectural advan-
+tages such as EPIC instructions, makes the Itanium 2 attractive for large commer-
+cial database-driven applications. 
+Reducing the Memory Bottleneck 
+Dual-Processor Workstations and Servers 
+In mid-2003, memory is based on double data rate (DDR) synchronous dynamic 
+random-access memory (SDRAM). With microprocessors gulping instructions and 
+data at more than three billion cycles per second (GHz), the ability of the memory 
+bandwidth to keep up with the processor bandwidth has been a significant tech-
+nology problem — and a bottleneck in compute-intensive commercial and scien-
+tific applications. DDR has the benefit of about twice the bandwidth of ordinary 
+SDRAM. DDR266 and DDR333 have peak bandwidths per memory channel of 2.1 
+GB/second and 2.6 GB/second, respectively. Recently introduced, DDR400 has a 
+bandwidth of 3.2 GB/second; it is often used in two-channel configurations to 
+achieve a peak bandwidth of 6.4 GB/second. Faster memory bandwidth, however, 
+adversely impacts the amount of total memory that can be reliably populated in 
+the system. 
+A memory failure usually means a system crash, with the potential loss of data, 
+transactions, and customer good will. Typically, workstations and servers today use 
+server-grade memory, with error-correction capabilities that minimally include sin-
+gle-bit error detection and correction (ECC). 
+Next year’s server memory systems will be more robust. Aberdeen expects a num-
+ber of mainframe-class memory technologies to migrate down from high-end Ita-
+nium 2 microprocessors to multiprocessor-based servers, as well as the main-
+stream volume servers: 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 4 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+• Memory mirroring keeps two copies of all memory. If one memory fails, 
+the other is still there to keep on processing continuously. 
+• Spare memory uses a single memory module as a spare, which costs less 
+than memory mirroring. When a memory module fails or is taken offline 
+by diagnostics, the spare is used to maintain the same amount of mem-
+ory. 
+• Memory scrubbing constantly tests memory parity for soft failures and 
+can alert on a failing memory module, invoking a spare, if present. 
+The benefits of higher memory availability are obvious, given a system crash as the 
+outcome. Less obvious is the fact that typical server memory configurations have 
+quadrupled over the past three years, as greater capacity has been introduced 
+along with lower memory prices. Many more memory chips are present as poten-
+tial failure points compared with the prior generation of servers. 
+In 2004, Memory Steps Up to DDR2 
+DDR2 is the second-generation DDR SDRAM. It will debut in 2004 with the label 
+DDR2-400. One critical advantage of DDR2 over today’s DDR is in power con-
+sumption. DDR2-400 draws half the power of the DDR400, and 40% less than 
+DDR333. As power consumption generates heat and requires thermal engineering 
+to alleviate it, a 50% decrease in power requirements, at a time when server mem-
+ory sizes are growing rapidly, is beneficial, given the trend toward lower profile 
+form factors such as 1U rack-mounted servers and blades.  
+IT buyers will be able to select slower DDR266 or very fast DDR2-400 memory in 
+servers at about the same power consumption rates. In addition, even value dual-
+processor IA32 servers are able to configure up to 16 GB of memory using IA32 or 
+Windows extensions — the memory capacity bottlenecks of a couple of years ago 
+are long gone.  
+As a result, higher system utilization, more efficient server consolidation, and lar-
+ger applications in memory (e.g., Web caching servers) are increasingly chosen to 
+run on industry-standard servers. 
+Value Servers Get Server-Class Technology 
+There are millions of servers around the world that are, in fact, desktops cast in a 
+server role. In the past, server-class technology cost thousands of dollars more 
+than a gussied-up desktop, so buyers often ignored the RAS risks and bought the 
+desktop. Fortunately, the price gap has decreased considerably in the past two 
+years. Looking forward, Aberdeen believes that there is no economic reason not to 
+buy the reliability, availability, and serviceability of a true server for a server’s role. 
+Introduced in Q2 2003, the 875P Canterwood chip set with Pentium 4 processors 
+is being used as a performance desktop and entry workstation. The Canterwood 
+supports ECC memory, serial ATA disk drives, dual-channel DDR400 memory with 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 5 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+performance acceleration technology (PAT), and low-overhead Gigabit Ethernet. 
+This fall, the Canterwood-ES chip set will enable true servers at value prices by 
+combining server-grade PCI-X I/O with many of the Canterwood features. 
+Systems Management Gets Simpler in a Multivendor World 
+Aberdeen research shows that about half the total cost of data center ownership 
+(TCO) is the labor of the people who operate and administer the systems. IT man-
+agement has been increasingly focused on data center labor costs owing to the re-
+cession, server-consolidation projects, and continuing demands by executive man-
+agement to “drive costs even lower.” Systems management plays a key role in this 
+business process.  
+The Intelligent Platform Management Initiative (IPMI) is an open hardware-
+management interface that uses a standardized message-passing interface that ab-
+stracts the processor and various devices. IPMI, in use since 1998, is one of the 
+tools used to build the systems-management software products that help many en-
+terprises lower data center server-management costs. With more than 150 adopter 
+companies, IPMI support should be a checklist requirement by IT managers when 
+evaluating server infrastructure, as IPMI helps enable management software that 
+works across heterogeneous server system hardware. 
+IPMI provides IT infrastructure managers with a benefit-rich platform for managing 
+system hardware in the datacenter: 
+• Instrumentation in server motherboard hardware, a feature not found 
+in desktops used as servers. 
+• Standards-based architecture for systems management, self-healing, and 
+asset inventory — across numerous hardware and software vendors’ 
+products — eliminates the need for customized software on diverse 
+server platforms. 
+• Interoperability between hardware and software management. 
+• Increased RAS through a comprehensive hierarchy of sensors (e.g., tem-
+perature, memory allocation) that report alerts to remote consoles. 
+• A common architecture that spans the three-tier server architecture 
+common in modern data centers, as well as across industry-standard and 
+legacy computers. 
+• Reduction in TCO in data center operations and administration labor 
+owing to the use of common software user interfaces across multiple 
+servers from multiple vendors. 
+• Version 1.5 of the IPMI specification, released in 2001, is being delivered 
+in systems today. Version 1.5 included several important enhancements 
+over Version 1.0, including a message-passing architecture and exten-
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 6 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+sions for monitoring and reporting across data center LANs and to re-
+mote locations via serial ports, which makes it less complex for firms to 
+deploy a comprehensive enterprise systems-management process. 
+The benefits of IPMI 1.5-based products to IT organizations will be: 
+• Greater release-level insulation between hardware and software 
+changes. Newer hardware need not mandate an upgrade to a newer sys-
+tems management software release. 
+• Common user interfaces and procedures for LAN/WAN and dial-up loca-
+tions, lowering training costs and reducing the opportunity for error. 
+• More comprehensive predictive failure alerts allow operations to remove 
+a failing server (component) before suffering downtime. Cluster failover 
+can occur predictably and gracefully. Self-healing will become more 
+commonplace. 
+• Because of better failure prediction and self-healing, system availability 
+at the application level should improve. With experience, higher avail-
+ability levels can be factored into service level agreements. 
+• Improved auto-provisioning will dramatically lower labor costs in con-
+figuring a new server, a common task among growing tier-1 server farms 
+and clusters. 
+• Improved asset tracking reduces the need for physical inventory labor. 
+• Storage management and virtualization are supported, allowing for im-
+provements in harnessing the collective power of data center servers 
+and storage, which leads to greater aggregate capacity utilization. 
+Aberdeen research indicates that all of the above benefits are recognizable to data 
+center operations management. 
+PCI-X 2.0 Promises to Double and Quadruple Performance Beginning in 
+2004 
+PCI is today’s computer industry standard developed by the PCI Special Interest 
+Group (PCI-SIG) for interconnecting a microprocessor and attached devices, such 
+as disk drives and Ethernet controllers, via a parallel I/O bus. Devices connect to 
+the PCI bus using adapter cards, which fit into slots on the computer mother-
+board. PCI-based I/O products are a virtual universal standard in desktop PCs and 
+servers. PCI moves 64 bits in parallel every 66-MHz bus clock cycle, which limits 
+the aggregate data bandwidth on a PCI bus to 532 MB/second. The most recent 
+generation of servers since 2000 feature an improved PCI, called PCI-X, which dou-
+bles the I/O bus bandwidth of the PCI specification to 1.06 GB/second while 
+running at 133 MHz. PCI-X cards are backwards compatible, meaning they fit into 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 7 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+previous generations of 64-bit PCI slots (though not into conventional 32-bit PCI 
+slots).  
+The PCI-X 2.0 specification proposes to further increase the bandwidth by upping 
+the clock rate to 266 MHz, resulting in 2.1 GB/second peak capacity, and again to 
+533 MHz with 4.2 GB/second peak capacity. PCI-X 266 products are not expected 
+to be in production before 2004, whereas PCI-X 533 is still at the specifications de-
+velopment stage. 
+PCI Express Serial I/O Represents a Significant Change in Computer Archi-
+tecture in 2004 
+Serial I/O represents the most far-reaching of the technology changes in server ar-
+chitecture that will face IT planners in 2004. Not just industry-standard servers are 
+affected. All data-center-class server suppliers will begin a migration to serial I/O 
+capabilities in 2004. This new technology will take the form of PCI Express (PCI-E), 
+another standard developed by the PCI SIG. Eventually, almost all desktop and 
+server I/O will use serial-based technology, so it is important for IT executives to 
+understand the opportunities and issues. 
+PCI Express Is Serial, Not Parallel 
+PCI Express is a serial bus architecture, not parallel. Bits are sent down the signal 
+cable one after the other — serially — without the synchronization requirements 
+that parallel buses such as PCI-X need. The architecture is layered so that copper, 
+optical, or future cabling can be used without affecting higher layer software — an 
+investment protection. 
+Each PCI-E data lane operates at 2.5 GHz and is referred to as “x1.” Up to 16 lanes 
+can be aggregated (x16) for a bandwidth of 4 GB/second. This aggregate band-
+width can be divided into a scalable width. For example, x4 InfiniBand and 10-
+gigabit Ethernet will require four 2.5-GHz PCI-E data lanes to achieve 10 
+Gb/second in throughput. 
+Attributes and Capabilities of PCI Express 
+The key attributes of the PCI Express architecture include the following: 
+• The architecture is layered, so details can be hidden from higher layers. 
+This should lead to a long life for PCI-E, which Aberdeen estimates at a 
+decade or more. 
+• There are RAS features that include data integrity checking, advanced er-
+ror logging and reporting through IPMI, and hot-plug capability. Hot-
+plugging new I/O channels has an obvious benefit in reduced downtime, 
+but PCI-E standards-based hot-plugging means it will be possible to mix 
+and match peripherals, which is generally not possible today. Thus, dif-
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 8 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+ferent vendors’ Fibre Channel adapters should hot-plug into another 
+vendors I/O card cage. 
+• I/O will be consolidated and unified across I/O buses, meaning more 
+configuration flexibility and less duplication of electronics, leading to 
+lower overall server acquisition costs. 
+• Advanced power and configuration management will improve configu-
+ration flexibility and on-the-fly changes in computing. The “computer 
+utility” is a lot easier and less costly to operate in a PCI-E environment. 
+• Workstation graphics will double the throughput of today’s 8x AGP 
+products, given the scalable I/O of PCI-E. 
+• Next-generation media-based I/O is architected with support for virtual 
+channels, isochrony, and quality-of-service levels. 
+• PCI Express is software compatible with PCI-X and PCI. This simple 
+statement has enormous positive implications for IT operations: PCI Ex-
+press works with PCI-X drivers, which have been battle tested at thou-
+sands of sites. 
+Aberdeen expects the following I/O capabilities to become available in 2004 using 
+PCI-E technology: 
+• Serial graphics will replace the AGP graphics card, delivering 4 
+GB/second over PCI-E, or twice the throughput of AGP 8x. This will im-
+prove workstation rendering times, as well as allow more and deeper 
+textures in real-time simulations. 
+• The throughput of PCI Express x8 links roughly doubles that of PCI-X 
+266 with PCI Express x4 links comparable to PCI-X 266. The greatest 
+gains will be realized when the size of the data transferred is relatively 
+small (i.e., in Ethernet or iSCSI implementations). Improved throughput 
+will benefit server-to-server Gigabit Ethernet communications in clusters, 
+grid compute farms, and in using iSCSI disk arrays. 
+• Serial disk connections will proliferate for both the SCSI drives used in 
+transaction processing and ATA drives used for mid-line storage. Serial 
+storage-in-a-box implementations will support both SCSI and ATA drives 
+in the same enclosure. Moreover, PCI-E I/O connectors for FibreChannel 
+will coexist with other I/O cards.  
+• PCI Express x8 links is capable of meeting the sustained bandwidth re-
+quired for 10GbE applications. 
+• InfiniBand, a standard for low-latency data center communications, is 
+likely to blossom with PCI-E. Native InfiniBand at 4x (10 Gb/second) 
+speeds will no longer be limited by the PCI-X bus. Aberdeen expects 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 9 
+© 2003 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110 
+www.aberdeen.com 
+ 
+server-to-server, server-to-storage, and TCP offload engine (TOE) uses 
+for InfiniBand in the data center in 2004. 
+• The PCI SIG is working on a new totally enclosed Server I/O Module 
+form factor specification to enable true I/O hot plug-and-play while re-
+ducing handling damage. This new form factor is targeted at server and 
+workstation applications.  
+PCI Express Moves into Data Center Infrastructure Next to PCI-X 
+PCI Express is the PCI SIG’s long-term successor to PCI-X, with transition oppor-
+tunities in volume dual-processor platforms beginning in 2004. In a matchup of 
+PCI-E versus PCI-X 266, Aberdeen’s nod is to PCI Express as offering more theo-
+retical bandwidth and a long-life architecture while still using much of today’s 
+tried-and-true PCI-based systems software. The expectation is that new 2004 plat-
+forms will incorporate PCI/PCI-X expansion slots, as well as PCI Express slots. With 
+platforms that support both existing and new I/O expansion technologies, users 
+can be ensured of the continued operation of their current hardware while start-
+ing the transition to the new PCI Express serial I/O technology. Prior to the deliv-
+ery of PCI Express, Aberdeen recommends a business-as-usual approach based on 
+PCI-X 133. 
+Aberdeen Conclusions  
+As IT begins to plan its way out of recession, industry-standard servers and work-
+stations are playing a larger role than ever before. By Aberdeen measures, the lat-
+est industry-standard technology costs less, overall, than predecessor products and 
+provides better performance, higher RAS levels, and lower operations costs. Indus-
+try-standard servers and workstations are here to stay. 
+Driven by the demand of enterprise customers for rock-solid computing solutions, 
+Intel has of late devoted considerable effort to solutions engineering — the inte-
+gration, validation, and testing of processor, chip set, motherboard, and software 
+drivers to create a known, predictable quantity. Intel’s efforts at this time include 
+one- to eight-way Itanium 2 solutions and one- and two-way server and work-
+station Xeon-based IA32 solutions. Market acceptance, measured at more than one 
+million units, has been a strong endorsement of Intel’s efforts. Intel’s efforts de-
+serve close scrutiny, as they are leading to higher quality computers. 
+In building a four-way Xeon MP next year, Intel is extending its own validated 
+products and technology to cover about 95% of the 32-bit server and workstation 
+market segment. Industry partners provide the high-end, low-volume IA32 sys-
+tems. Meanwhile, Itanium 2 at one- to eight-way is currently picking up steam, 
+with strong partner support for this recent architecture in very high-end systems 
+above eight-ways. 
+
+
+Planning for Emerging Industry-Standard Platforms 
+ 10 
+To provide us with your feedback on this research, please go to www.aberdeen.com/feedback . 
+Aberdeen Group, Inc. 
+260 Franklin Street 
+Boston, Massachusetts 
+02110 
+USA 
+ 
+Telephone: 617 723 7890 
+Fax: 617 723 7897 
+www.aberdeen.com 
+ 
+© 2003 Aberdeen Group, Inc. 
+All rights reserved 
+August 2003 
+Aberdeen Group is a computer and communications  
+research and consulting organization closely monitoring 
+enterprise-user needs, technological changes, and mar-
+ket developments. 
+Based on a comprehensive analytical framework,  
+Aberdeen provides fresh insights into the future of  
+computing and networking and the implications for  
+users and the industry. 
+Aberdeen Group performs projects for a select group of 
+domestic and international clients requiring strategic 
+and tactical advice and hard answers on how to manage 
+computer and communications technology. This docu-
+ment is the result of research performed by Aberdeen 
+Group. It was sponsored by Intel Corporation. Aberdeen 
+Group believes its findings are objective and represent 
+the best analysis available at the time of publication. 
+ 
+ 
+ 
+Aberdeen is excited by the technology improvements represented by DDR2, IPMI, 
+and PCI Express, among others. Beginning next year, these technologies will allow 
+industry-standard computers to scale to larger workloads with higher availability 
+levels at lower TCO. The trend is definitely in the right direction. 
+With the rapid advances in industry-standard servers and workstations, today’s 
+products are considerably faster and more reliable than the previous generation. 
+This fact — aided by attractive costs of ownership — is driving and will continue to 
+drive server consolidation initiatives at many enterprises.  
+As a result of all the factors discussed above, Aberdeen expects industry-standard 
+servers to continue gaining market segment share — a sign that IT buyers are 
+pleased with the value they receive. 
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | planningforemergingindustry-6-40decb |
+| title | Planning for Emerging Industry-Standard Platforms (Executive White Paper) |
+| author | Aberdeen Group (Peter S. Kastner) |
+| date | 2003-08-01 |
+| type | white-paper |
+| subject_domain | industry-standard-servers/chipsets/memory/systems-management/I-O |
+| methodology | industry-analysis, technology-assessment, roadmap-forecasting |
+| source_file | PlanningForEmergingIndustry-6.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generational transition in industry-standard (Intel Architecture) computing. Covers processors and enterprise chipsets (Xeon/Nocona, Itanium 2/Madison, E7501/E7205/E8870/Lindenhurst/Twin Castle, 875P Canterwood), memory evolution from DDR to DDR2 with mainframe-class memory mirroring/sparing/scrubbing, Intelligent Platform Management Initiative (IPMI 1.5) for heterogeneous datacenter management, and the major I/O transition from parallel PCI-X to serial PCI Express. Aberdeen predicts server consolidation, data-center utility computing, and continued IA market-share gain.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Aberdeen's most comprehensive 2003 overview of the 2004 industry-standard platform transition. Contemporaneous roadmap of Intel codename products (Nocona, Lindenhurst, Potomac, Twin Castle), foundational PCI Express and DDR2 analysis, and IPMI adoption milestone reporting. |
+| **Relevance** | high | Architectural themes (serial I/O displacing parallel buses, mainframe RAS features migrating down, systems-management standardization, server consolidation) became and remain core data-center engineering practice. Specific codenames are historical but the planning frameworks remain textbook. |
+| **Prescience** | high | Predictions proved accurate: PCI Express became universal (still dominant 2026); DDR2 then DDR3/4/5 displaced DDR; IPMI remained baseline for ~15 years until Redfish succession; server consolidation and industry-standard market-share growth dominated 2004-2015. |
+
+### Prescience Detail
+
+
+**Prediction 1:** nocona-lindenhurst-2004
+- **Claimed:** 2004 next-gen Xeon 'Nocona' with Lindenhurst chipset — industry's first chipset with PCI Express serial I/O and DDR2 memory.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 1:** nocona-lindenhurst-actual
+- **Result:** [DEFERRED]
+- **Confidence:** [DEFERRED]
+- **Notes:** Verify Nocona shipped 2004 as predicted.
+
+**Prediction 2:** potomac-twin-castle-2h2004
+- **Claimed:** 2H2004: new generation of 32-bit MP server CPUs 'Potomac' with 4-processor 'Twin Castle' chipset — Intel's first recent 4-way IA32 chipset since early 2002 server re-entry.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 2:** nocona-lindenhurst-actual
+- **Result:** [DEFERRED]
+- **Confidence:** [DEFERRED]
+- **Notes:** Verify Nocona shipped 2004 as predicted.
+
+**Prediction 3:** mainframe-ras-to-ia
+- **Claimed:** Aberdeen expects mainframe-class memory technologies (memory mirroring, spare memory, memory scrubbing) to migrate from high-end Itanium 2 down to multiprocessor and volume servers in 2004.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 3:** mainframe-ras-actual
+- **Result:** [DEFERRED]
+- **Confidence:** [DEFERRED]
+- **Notes:** Verify memory-mirror/spare/scrub migration 2004-2006.
+
+**Prediction 4:** ddr2-power-halved
+- **Claimed:** DDR2-400 draws half the power of DDR400, 40% less than DDR333 — critical given 1U rack and blade form-factor trend. IT buyers can pick slow DDR266 or fast DDR2-400 at same power.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Prediction 5:** pci-express-decade-life
+- **Claimed:** Aberdeen estimates PCI Express architecture will have a decade or more lifespan due to layered architecture allowing copper/optical/future cabling without affecting higher layer software.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 5:** pci-express-life-actual
+- **Result:** [DEFERRED]
+- **Confidence:** [DEFERRED]
+- **Notes:** Verified outcome: PCIe remains dominant 22 years later.
+
+**Prediction 6:** pcie-2004-capabilities
+- **Claimed:** 2004 PCI-E capabilities expected: serial graphics replacing AGP (4 GB/s over PCI-E, 2x AGP 8x); x8 links ~2x PCI-X 266; serial disk connections proliferating (SATA + SCSI); 10GbE served by PCI-E x8; InfiniBand at 4x freed from PCI-X bottleneck.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 6:** pci-express-life-actual
+- **Result:** [DEFERRED]
+- **Confidence:** [DEFERRED]
+- **Notes:** Verified outcome: PCIe remains dominant 22 years later.
+
+**Prediction 7:** ia-share-gain
+- **Claimed:** Aberdeen expects industry-standard servers to continue gaining market segment share — a sign IT buyers are pleased with value received.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Prediction 8:** server-consolidation-trend
+- **Claimed:** Aberdeen predicts industry-standard technology improvements (DDR2, IPMI, PCI-E) will drive server consolidation initiatives at many enterprises.
+- **Year:** 2003
+- **Confidence at time:** high
+
+
+### Entities Referenced (5)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| Peter S. Kastner | person | active |  |
+| Intel Corporation | company | active |  |
+| PCI Special Interest Group (PCI-SIG) | institution | active |  |
+| IPMI Promoter/Adopter Forum | institution | active |  |
+
+### Technologies Referenced (26)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Architecture (IA / IA32) | platform | Intel | mature | legacy-active |
+| Intel Xeon (1-/2-way) | platform | Intel | mature | active |
+| Intel Xeon MP (multiprocessor) | platform | Intel | mature | active |
+| Intel Itanium 2 (Madison) | platform | Intel | emerging | obsolete |
+| Intel E7501 chipset | platform | Intel | mature | obsolete |
+| Intel E7505 chipset | platform | Intel | mature | obsolete |
+| Intel E7205 chipset | platform | Intel | mature | obsolete |
+| Intel E8870 chipset | platform | Intel | mature | obsolete |
+| Intel 875P Canterwood chipset | platform | Intel | mature | obsolete |
+| Intel Xeon Nocona (codename) | platform | Intel | emerging | obsolete |
+| Intel Lindenhurst chipset (codename) | platform | Intel | emerging | obsolete |
+| Intel Xeon Potomac (codename) | platform | Intel | emerging | obsolete |
+| Intel Twin Castle chipset (codename) | platform | Intel | emerging | obsolete |
+| DDR SDRAM (DDR266/333/400) | platform | Industry | mature | obsolete |
+| DDR2 SDRAM (DDR2-400) | platform | Industry | emerging | obsolete |
+| Memory Mirroring/Sparing/Scrubbing | framework | Industry | emerging | active |
+| Intelligent Platform Management Initiative (IPMI) | protocol | IPMI Forum | mature | legacy-active |
+| PCI (Peripheral Component Interconnect) | protocol | PCI-SIG | mature | obsolete |
+| PCI-X (incl. PCI-X 2.0) | protocol | PCI-SIG | mature | obsolete |
+| PCI Express (PCI-E) | protocol | PCI-SIG | emerging | active |
+| InfiniBand | protocol | InfiniBand TA | emerging | active |
+| 10 Gigabit Ethernet (10GbE) | protocol | IEEE | emerging | active |
+| iSCSI (SCSI over IP) | protocol | IETF | emerging | active |
+| Serial ATA (SATA) | protocol | SATA-IO | emerging | active |
+| Fibre Channel | protocol | Industry | mature | legacy-active |
+| TCP Offload Engine (TOE) | framework | Industry | emerging | legacy-active |
+
+### Observation Summary
+
+- Total observations: 32
+- By type: metric-value: 9, viability-prediction: 8, framework-factor: 6, actual-outcome: 5, expert-opinion: 4

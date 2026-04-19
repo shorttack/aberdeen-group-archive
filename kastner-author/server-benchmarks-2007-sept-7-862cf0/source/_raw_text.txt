@@ -1,0 +1,20 @@
+=== SHEET: Sheet1 ===
+Intel and AMD Server Benchmarks				
+			8222	
+Benchmark	7140M dual	7350 QC	8220se dual	Barcelona
+				
+SQL Server database	318407.0	407079.0	262989.0	
+ERP SAP-SD	2127.0	3705.0	2078.0	
+Java SPECjbb	217334.0	437412.0	176909.0	
+Integer SPECint_rate_2006	80.6	214.0	108.0	
+Web server SPEC webserver 2005	18981.0	30261.0	22254.0	
+				
+				
+				
+DP chipset RAS features	5000X Chipset	5000P Chipset	5000V C	
+RASUM	DIMM sparing, Memory RAID, Memory mirroring, x4 SDDC, Memory ECC, HUB interface ECC, DMA	DIMM sparing, Memory RAID, Memory mirroring, x4 SDDC, Memory ECC, HUB interface ECC, DMA	DIMM sparing, Memory RAID, x4 SDDC, Memory ECC, HUB interface ECC, DMA	
+				
+				
+Peter Kastner				
+=== SHEET: Sheet2 ===
+=== SHEET: Sheet3 ===

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel and AMD Server Benchmarks (September 2007)",
+  "description": "Kastner-authored Excel spreadsheet comparing Intel Xeon 7140M dual-core, Xeon 7350 quad-core, and AMD Opteron 8220se dual-core and Barcelona 8222 across SQL Server database, ERP SAP-SD, Java SPECjbb, Integer SPECint_rate_2006, and SPEC webserver 2005 benchmarks. Includes DP chipset RAS feature comparison for Intel 5000X, 5000P, and 5000V. Primary document of Intel's quad-core lead over AMD's first-generation Barcelona in 2007.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2007-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ClassMate PC Evaluation Notes",
+  "description": "Kastner's detailed hands-on evaluation notes for the Intel Classmate PC (CMPC) \u2014 an ultra-mobile education PC \u2014 tested both in the United States and at a teacher's college in Jacmel, Haiti where teachers and K-12 students handled the device. Covers install quirks (50Hz/220v international power cable, WLAN activation gating), tutorial guide errata, operational issues (keyboard defaults, 7-inch screen real estate, standby battery), and extensive buggy behavior in the Mythware e-Learning Class v6.0 software. Concludes the hardware is a 'fine, workable device' for small hands, but Windows XP 'in silicon' carries high IT maintenance cost and the software is buggy but promising.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2008-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-kastner","Peter S. Kastner","person","IT Market Research","active","[none]","1988-present","aberdeen-impact-desktop-pc-sirens-1998-14b40c","CIO of Aberdeen at time of writing (self-identified)"
+"aberdeen-group","Aberdeen Group","firm","IT market analysis","acquired","Aberdeen/Harte-Hanks","1988-present","aberdeen-impact-desktop-pc-sirens-1998-14b40c","Publishing organization"
+"intel-corp","Intel Corporation","company","Semiconductors","active","","1968-present","aberdeen-impact-desktop-pc-sirens-1998-14b40c","Pentium II, Celeron references"
+"microsoft","Microsoft","company","Software","active","","1975-present","aberdeen-impact-desktop-pc-sirens-1998-14b40c","OS/apps drive PC horsepower demand"

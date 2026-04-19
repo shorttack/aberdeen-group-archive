@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-tick-tock","Intel Tick-Tock","platform","Intel","2007-2016","emerging","retired","otellini-preview-on-the-impact-2013-a50192",""
+"intel-core","Intel Core","platform","Intel","2006-present","emerging","mature","otellini-preview-on-the-impact-2013-a50192",""
+"intel-atom","Intel Atom","platform","Intel","2008-present","emerging","legacy-supported","otellini-preview-on-the-impact-2013-a50192",""
+"moore-law","Moore's Law","platform","Industry","1965-present","mature","mature","otellini-preview-on-the-impact-2013-a50192",""

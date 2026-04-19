@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-tick-tock","Intel Tick-Tock","platform","Intel","2007-2016","emerging","retired","otellini-preview-how-it-changed-2013-604cfb",""
+"intel-core","Intel Core","platform","Intel","2006-present","emerging","mature","otellini-preview-how-it-changed-2013-604cfb",""
+"intel-atom","Intel Atom","platform","Intel","2008-present","emerging","legacy-supported","otellini-preview-how-it-changed-2013-604cfb",""
+"intel-haswell","Intel Haswell","platform","Intel","2013-2015","emerging","succeeded","otellini-preview-how-it-changed-2013-604cfb",""
+"moore-law","Moore's Law","platform","Industry","1965-present","mature","mature","otellini-preview-how-it-changed-2013-604cfb",""

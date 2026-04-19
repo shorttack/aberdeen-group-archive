@@ -1,0 +1,365 @@
+# On the Impact of Paul Otellini's CEO Years at Intel (Tech.pinions, Published Version)
+
+> Archived from: On-the-Impact-of-Paul-Otellini-s-CEO-Years-at-Intel-Tech.pinions-Perspective-Insight-Analysis-3.pdf
+> Original publication date: 2013-04-28
+> Author: Peter Kastner
+
+---
+
+## Original Document Text
+
+===== On-the-Impact-of-Paul-Otellini-s-CEO-Years-at-Intel-Tech.pinions-Perspective-Insight-Analysis-3.txt =====
+Home
+About Tech.pinions
+Contact Us
+Sponsorship
+RSS Feed
+search...
+ 
+Search
+On the Impact of Paul Otellini’s CEO Years at Intel
+Contributed Tech.pinions | Peter Kastner | April 28, 2013 3:16 pm | Edit
+Intel’s CEO Paul Otellini is retiring in May 2013. His 40-year career at Intel now ending, it’s a timely
+opportunity to look at his impact on Intel.
+Intel As Otellini Took Over
+In September 2004 when it was announced that Paul Otellini would take over as CEO, Intel was #46 on the
+Fortune 100 list, and had ramped production to 1 million Pentium 4ʹ′s a week (today over a million processors a
+day). The year ended with revenues of $34.2 billion. Otellini, who joined Intel with a new MBA in 1974, had 30
+years of experience at Intel.
+The immediate challenges the company faced fell into four areas: technology, growth, competition, and finance:
+Technology: Intel processor architecture had pushed more transistors clocking faster, generating more heat. The
+solution was to use the benefits of Moore’s Law to put more cores on each chip and run them at controllable —
+and eventually much reduced — voltages.
+Growth: The PC market was 80% desktops and 20% notebooks in 2004 with the North America and Europe
+markets already mature. Intel had chip-making plants (aka fabs) coming online that were scaled to a continuing
+20%-plus volume growth rate. Intel needed new markets.
+Competition: AMD was ascendant, and a growing menace.  As Otellini was taking over, a market research firm
+reported AMD had over 52% market share at U.S. retail, and Intel had fallen to #2. Clearly, Intel needed to win
+with better products.
+Finance: Revenue in 2004 recovered to beat 2000, the Internet bubble peak. Margins were in the low 50% range
+— good but inadequate to fund both robust growth and high returns to shareholders.
+
+
+---PAGE---
+
+Where Intel Evolved Under Paul Otellini
+Addressing these challenges, Otellini changed the Intel culture, setting higher expectations, and moving in many
+new directions to take the company and the industry forward. Let’s look at major changes at Intel in the past
+eight years in the four areas: technology, growth, competition, and finance:
+Technology
+Design for Manufacturing: Intel’s process technology in 2004 was at 90nm. To reliably achieve a new process
+node and architecture every two years, Intel introduced the Tick-Tock model, where odd years deliver a new
+architecture and even years deliver a new, smaller process node. The engineering and manufacturing fab teams
+work together to design microprocessors that can be manufactured in high volume with few defects. Other key
+accomplishments include High-K Metal Gate transistors at 45nm, 32nm products, 3D tri-gate transistors at 22nm,
+and a 50% reduction in wafer production time.
+Multi-core technology: The multi-core Intel PC was born in 2006 in the Core 2 Duo. Now, Intel uses Intel
+Architecture (IA) as a technology lever for computing across small and tiny (Atom), average (Core and Xeon),
+and massive (Phi) workloads. There is a deliberate continuum across computing needs, all supported by a
+common IA and an industry of IA-compatible software tools and applications.
+Performance per Watt: Otellini led Intel’s transformational technology initiative to deliver 10X more power-
+efficient processors. Lower processor power requirements allow innovative form factors in tablets and notebooks
+and are a home run in the data center. The power-efficiency initiative comes to maturity with the launch of the
+fourth generation of Core processors, codename Haswell, later this quarter. Power efficiency is critical to growth
+in mobile, discussed below.
+Growth
+When Otellini took over, the company focused on the chips it made, leaving the rest of the PC business to its
+ecosystem partners. Recent unit growth in these mature markets comes from greater focus on a broader range of
+customer’s computing needs, and in bringing leading technology to market rapidly and consistently. In so doing,
+the company gained market share in all the PC and data center product categories.
+The company shifted marketing emphasis from the mature North America and Europe to emerging geographies,
+notably the BRIC countries — Brazil, Russia, India, and China. That formula accounted for a significant fraction
+of revenue growth over the past five years.
+Intel’s future growth requires developing new opportunities for microprocessors:
+Mobile: The early Atom processors introduced in late 2008 were designed for low-cost netbooks and nettops, not
+phones and tablets. Mobile was a market where the company had to reorganize, dig in, and catch up. The
+energy-efficiency that benefits Haswell, the communications silicon from the 2010 Infineon acquisition, and the
+forthcoming 14nm process in 2014 will finally allow the company to stand toe-to-toe with competitors
+Qualcomm, nVidia, and Samsung using the Atom brand. Mobile is a huge growth opportunity.
+Software: The company acquired Wind River Systems, a specialist in real-time software in 2009, and McAfee in
+2010. These added to Intel’s own developer tools business. Software services business accelerates customer time
+to market with new, Intel-based products. The company stepped up efforts in consumer device software,
+optimizing the operating systems for Google (Android), Microsoft (Windows), and Samsung (Tizen). Why?
+Consumer devices sell best when an integrated hardware/software/ecosystem like Apple’s iPhone exists.
+Intelligent Systems: Specialized Atom systems on a chip (SoCs) with Wind River software and Infineon mobile
+communications radios are increasingly being designed into medical devices, factory machines, automobiles, and
+new product categories such as digital signage. While the global “embedded systems” market lacks the pizzazz
+
+
+---PAGE---
+
+of mobile, it is well north of $20 billion in size.
+Competition
+AMD today is a considerably reduced competitive threat, and Intel has gained back #1 market share in PCs,
+notebooks, and data center.
+Growth into the mobile markets is opening a new set of competitors which all use the ARM chip architecture.
+Intel’s first hero products for mobile arrive later this year, and the battle will be on.
+Financial
+Intel has delivered solid, improved financial results to stakeholders under Otellini. With ever more efficient fabs,
+the company has improved gross margins. Free cash flow supports a dividend above 4%, a $5B stock buyback
+program, and a multi-year capital expense program targeted at building industry-leading fabs.
+The changes in financial results are summarized in the table below, showing the year before Otellini took over as
+CEO through the end of 2012.
+GAAP
+2004 2012 Change
+Revenue
+34.2B53.3B55.8%
+Operating Income10.1B14.6B44.6%
+Net Income
+7.5B 11B 46.7%
+EPS
+$1.16 $2.13 83.6%
+ 
+The Paul Otellini Legacy
+There will be books written about Paul Otellini and his eight years at the helm of Intel. A leader should be
+measured by the institution he or she leaves behind. I conclude those books will describe Intel in 2013 as
+excelling in managed innovation, systematic growth, and shrewd risk-taking:
+Managed Innovation: Intel and other tech companies always are innovative. But Intel manages innovation among
+the best, on a repeatable schedule and with very high quality. That’s uncommon and exceedingly difficult to do
+with consistency. For example, the Tick-Tock model is a business school case study: churning out ground-
+breaking transistor technology, processors, and high-quality leading-edge manufacturing at a predictable, steady
+pace of engineering to volume manufacturing. This repeatable process is Intel’s crown jewel, and is a national
+asset.
+Systematic Growth: Under Otellini, Intel made multi-billion dollar investments in each of the mobile, software,
+and intelligent systems markets. Most of the payback growth will come in the future.
+The company looks at the Total Addressable Market (TAM) for digital processors, decides what segments are
+most profitable now and in the near future, and develops capacity and go-to-market plans to capture top-three
+market share. TAM models are very common in the tech industry. But Intel is the only company constantly
+looking at the entire global TAM for processors and related silicon. With an IA computing continuum of
+products in place, plans to achieve more growth in all segments are realistic.
+Shrewd Risk-Taking: The company is investing $35 billion in capital expenses for new chip-making plants and
+equipment, creating manufacturing flexibility, foundry opportunities, and demonstrating a commitment to keep at
+the forefront of chip-making technology. By winning the battle for cheaper and faster transistors, Intel ensures
+itself a large share of a growing pie while keeping competitors playing catch-up.
+
+
+---PAGE---
+
+History and not analysts will grade the legacy of Paul Otellini as CEO at Intel. I am comfortable in predicting he
+will be well regarded.
+ 
+Follow me on Twitter @PeterSKastner
+Source: New York Times
+Tags: amd, intel, Mobile, notebooks, PC's, processors, semiconductors, servers, smartphones, SoCs, tablets
+Email
+Print
+Peter Kastner
+E-mail Peter Kastner
+Follow peterskastner
+Peter Kastner’s primary research focus is on workgroup, departmental, mobile, and enterprise personal
+computing; and digital consumer products such as PCs. Kastner actively consults with enterprises on IT
+strategies, and with suppliers on executive-level market research and positioning, industry analysis, strategic
+planning development, product planning, and competitive strategies. He is an active private investor, and sits on
+the board of NextIO and TheDailyGlobe.
+Related Columns and Analysis:
+1. Intel Could Use a Dose of Andy Grove
+2. Apple’s iPhone and Intel’s Tick-Tock
+3. All Eyes on Microsoft and Intel This Week
+4. Intel vs. ARM – The Battle Is Just Beginning
+5. The Case for Intel’s Future Smartphone Success
+
+
+---PAGE---
+
+Commenting Guidelines
+We hope the conversations that take place on Tech.pinions will be respectful, energetic, constructive, intelligent,
+and provocative. To make sure we all stay on-topic, all comments will be reviewed by our editors and may be
+moderated. 
+If you would like to comment we ask that you adhere to the following commenting guidelines. 
+1. Our columnists are expressing their opinions. Please respect their opinion and the opinions of other
+commenters. 2. No selling of products or services. We desire to keep this an ad-free zone. If you use the name of
+a product or firm as your screenname, your comment may be considered spam and removed. 
+3.No ad hominem attacks. These are conversations in which we debate ideas. Criticize ideas, not the people
+behind them. Please be respectful. 
+The Tech.pinions columnists
+Leave a Comment
+Logged in as Peter Kastner. Logout »
+Add Reply
+Most Reads
+Most Commented
+From:
+Last 24 hours
+
+
+---PAGE---
+
+Last 7 days
+Last 30 days
+1. The Soft Improvements in new PCs Could be their Biggest Draw
+2. Android’s Leaky Bucket
+3. Why The Wheels Are Falling Off Microsoft
+4. Ten Things I prefer to do on Microsoft Surface versus my Apple iPad
+5. Apple In Perspective
+6. Android v. iOS Part 3: Network Effect
+7. The PC Industry of the Past Is Not the PC Industry of the Future
+8. Android v. iOS Part 2: Profits
+9. Amazon Plans on Stealing Android Developers From Google
+10. The Windows 8 UI: Microsoft Makes a Tough Marketing Problem Worse
+Featured Posts
+The Soft Improvements in new PCs Could be their Biggest Draw
+Patrick Moorhead in Featured Tech.pinions, Media, Personal Computers, The Daily Techpinion
+The PC Industry of the Past Is Not the PC Industry of the Future
+Ben Bajarin in Featured Tech.pinions
+Touch Computing Is Touching Every Part Of Our Lives
+John Kirk in Featured Tech.pinions
+Cord-cutters Beware: It’s Going To Get Expensive
+Steve Wildstrom in Featured Tech.pinions
+
+
+---PAGE---
+
+Facebook Home’s Uniquely Flawed Experience Examined
+Patrick Moorhead in Featured Tech.pinions, Smart Phones
+The Opinion Cast: The PC Slumps
+by The Tech.pinions Team
+on April 18th, 2013
+The Apple Reality Distortion Field Podcast
+by The Tech.pinions Team
+on March 6th, 2013
+Opinion Cast: Are Phablet’s For Real? Should Apple Make One?
+by The Tech.pinions Team
+on February 8th, 2013
+The Opinion Cast Round Table: Blackberry Its Past and its Future
+by The Tech.pinions Team
+
+
+---PAGE---
+
+on January 31st, 2013
+About Tech.Pinions
+Tech.pinions is an opinion platform for technology experts, analysts, thought leaders and luminaries. Our
+goal is to bring you the best opinions from those closest to the industry. 
+ 
+Tech.pinions is an Opinionated Media, Inc Publication.
+ 
+Click here to Lean More about Tech.pinions
+Archives
+April 2013
+March 2013
+February 2013
+January 2013
+December 2012
+November 2012
+October 2012
+September 2012
+August 2012
+July 2012
+June 2012
+May 2012
+April 2012
+March 2012
+February 2012
+January 2012
+December 2011
+November 2011
+October 2011
+September 2011
+August 2011
+July 2011
+June 2011
+Popular Posts
+Sorry. No data so far.
+Copyright © 2013 — Tech.pinions – Perspective, Insight, Analysis. All Rights Reserved. - Tech.pinions is a
+Creative Strategies, Inc Partner Publication
+
+
+---PAGE---
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | otellini-intel-techpinions-2013-917213 |
+| title | On the Impact of Paul Otellini's CEO Years at Intel (Tech.pinions, Published Version) |
+| author | Peter Kastner |
+| date | 2013-04-28 |
+| type | topic-analysis |
+| subject_domain | semiconductors-intel |
+| methodology | industry-analysis, executive-profile, longitudinal-review |
+| source_file | On-the-Impact-of-Paul-Otellini-s-CEO-Years-at-Intel-Tech.pinions-Perspective-Insight-Analysis-3.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Published Tech.pinions column by Peter Kastner assessing the 40-year Intel career and 8-year CEO tenure (2005-2013) of Paul Otellini, organized across four dimensions: technology (tick-tock model, multi-core, High-K metal gate, 3D tri-gate, performance-per-watt), growth (BRIC geographies, mobile, software via McAfee and Wind River, intelligent systems), competition (AMD retake, ARM mobile threat), and finance (revenue up 60% to ~$53B; dividend initiation). Notes the missed-iPhone cost to Intel and the new emerging devices division.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Public contemporaneous Kastner assessment of a Fortune-100 CEO transition; triangulates with two preview blog drafts (copy-4, copy-5) showing Kastner's publication workflow. |
+| **Relevance** | medium | Framework (tech/growth/competition/finance) remains reusable; Haswell/14nm references dated. |
+| **Prescience** | medium | Prediction of Intel mobile competitiveness via Atom and Infineon — refuted: Intel exited smartphone modems in 2019 and never achieved meaningful Atom smartphone share. Tick-tock model succeeded through mid-2010s, then broke at 10nm. |
+
+### Prescience Detail
+
+
+**Prediction 1:** atom-mobile-share
+- **Claimed:** Atom + Haswell + 14nm + Infineon will allow Intel to 'stand toe-to-toe' with Qualcomm, nVidia, Samsung in mobile
+- **Year:** 2013
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** intel-mobile-exit
+- **Result:** Intel exited smartphone modem business 2019; sold to Apple $1B
+- **Confidence:** refuted
+- **Notes:** Refuted prediction
+
+**Prediction 2:** missed-iphone
+- **Claimed:** 'The company missed the coming iPhone and lost out on a lot of market potential'
+- **Year:** 2013
+- **Confidence at time:** verified
+
+**Actual Outcome 2:** intel-mobile-exit
+- **Result:** Intel exited smartphone modem business 2019; sold to Apple $1B
+- **Confidence:** refuted
+- **Notes:** Refuted prediction
+
+
+### Entities Referenced (14)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter Kastner | person | active | [none] |
+| Paul S. Otellini | person | deceased |  |
+| Intel Corporation | company | active |  |
+| Advanced Micro Devices | company | active |  |
+| Qualcomm | company | active |  |
+| NVIDIA | company | active |  |
+| Samsung Electronics | company | active |  |
+| Apple Inc. | company | active |  |
+| Google | company | active | Alphabet (2015) |
+| McAfee | company | acquired | Intel (2010) / divested (2017) |
+| Wind River Systems | company | acquired | Intel (2009) / divested (2018) / Aptiv (2022) |
+| Infineon Technologies AG | company | active |  |
+| Tech.pinions | institution | active |  |
+| Fortune 100 | institution | active |  |
+
+### Technologies Referenced (12)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Pentium 4 | platform | Intel | mature | retired |
+| Intel Core (Core 2 Duo) | platform | Intel | emerging | mature |
+| Intel Tick-Tock | platform | Intel | emerging | retired |
+| Intel Atom | platform | Intel | emerging | legacy-supported |
+| Intel Haswell (4th-gen Core) | platform | Intel | emerging | succeeded |
+| Intel Xeon Phi | platform | Intel | emerging | discontinued |
+| Intel 14nm Process | platform | Intel | emerging | mature |
+| High-K Metal Gate transistors | platform | Intel | emerging | mature |
+| 3D Tri-Gate transistors | platform | Intel | emerging | mature |
+| Moore's Law | platform | Industry | mature | mature |
+| Android | platform | Google | mature | mature |
+| Tizen | platform | Samsung/Linux Foundation | emerging | legacy-supported |
+
+### Observation Summary
+
+- Total observations: 22
+- By type: market-data: 6, ibm-strategy: 4, market-event: 4, viability-prediction: 2, actual-outcome: 2, market-position: 1, strategic-recommendation: 1, market-opportunity: 1, personal-attribute: 1

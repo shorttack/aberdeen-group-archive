@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"classmate-pc","Intel ClassMate PC","platform","Intel","2007-2012","emerging","discontinued","kastner-letter-to-craig-barrett-intel-2008-1ea221","Intel's ~$230 educational laptop for emerging markets"
+"intel-teach","Intel Teach","platform","Intel","2000s","mature","transformed","kastner-letter-to-craig-barrett-intel-2008-1ea221","Intel's teacher-training program"
+"eepc","ASUS EeePC","platform","ASUS","2007-2012","emerging","discontinued","kastner-letter-to-craig-barrett-intel-2008-1ea221","Low-cost netbook evaluated"
+"olpc-xo","OLPC XO-1","platform","OLPC","2007-2014","emerging","discontinued","kastner-letter-to-craig-barrett-intel-2008-1ea221","Negroponte's $100 laptop (later higher)"
+"ups-power-supply","Uninterruptible Power Supply","platform","various","1970s-present","mature","mature","kastner-letter-to-craig-barrett-intel-2008-1ea221","Critical component Kastner proposes integrating with PC power supply"
+"windows-microsoft","Microsoft Windows","platform","Microsoft","1985-present","mature","mature","kastner-letter-to-craig-barrett-intel-2008-1ea221",""
+"ms-office","Microsoft Office","application","Microsoft","1989-present","mature","mature","kastner-letter-to-craig-barrett-intel-2008-1ea221",""

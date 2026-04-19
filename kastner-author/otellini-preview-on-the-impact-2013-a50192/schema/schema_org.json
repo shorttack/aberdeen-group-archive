@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "On the Impact of Paul Otellini's CEO Years at Intel (Kastner Blog Preview)",
+  "description": "Second-draft Kastner blog preview of the Otellini analysis, posted April 19, 2013 \u2014 two days after the 'How the IT Industry Changed' preview (copy-4) and nine days before the Tech.pinions publication. Retitled to match the final Tech.pinions headline; content substantially similar to the April 17 draft. Preserves Kastner's iterative publishing workflow: blog-draft \u2192 blog-refinement \u2192 Tech.pinions publication. Related studies: otellini-preview-how-it-changed-2013-604cfb (earlier draft), otellini-intel-techpinions-2013-917213 (published version).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2013-04-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

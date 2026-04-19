@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "How the IT Industry Changed Under Intel's Paul Otellini (Kastner Blog Preview)",
+  "description": "Early draft/preview of Kastner's Intel-Otellini analysis, posted on his own blog 'Peter S. Kastner on Technology' on April 17, 2013 (11 days before the Tech.pinions publication). Organizes the 2004-2013 Otellini tenure around three challenges (technology, growth, competition) and 'right-hand turns' \u2014 Intel jargon for pivoting without reversing course. Key content overlaps with the published Tech.pinions version (related_study_ids=otellini-intel-techpinions-2013-917213).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2013-04-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

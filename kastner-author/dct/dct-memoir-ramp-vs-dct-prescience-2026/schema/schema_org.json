@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RAMP vs DCT: A Methodology-Level Comparison of My Prescience Track Record (2026 Retrospective)",
+  "description": "A 2026 retrospective memoir comparing Peter Kastner's 2001-2004 prescience track record across two Kastner-authored methodologies: the Maxtor RAMP structured-interview corpus (39 studies, 2-5 year enterprise horizons) and the DCT weekly consumer PC retail tracker (75 studies, days-to-weeks tactical horizons). Written after the Phase 3 backfill of 105 DCT DEFERRED observations, this memoir argues that the methodology differences \u2014 not analyst skill differences \u2014 drive the gap in study-level prescience scoring, and shows that at the observation level both corpuses post strong records.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-04-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

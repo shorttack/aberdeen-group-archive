@@ -1,0 +1,14 @@
+tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,notes,source_studies
+mid-line-storage,Mid-Line Storage (SATA array tier),platform,multiple,2003-2010,emerging,mainstream-then-cloud-displaced,Category defined by the 2003 RAMP white paper.,dct-memoir-ramp-vs-dct-prescience-2026
+iscsi,iSCSI,protocol,IETF,2003-2015,early,mature,Complement to mid-line SATA storage discussed in RAMP.,dct-memoir-ramp-vs-dct-prescience-2026
+fibre-channel,Fibre Channel,protocol,multiple,1994-present,dominant,mature-but-displaced-by-nvme-of,Incumbent against which mid-line was positioned.,dct-memoir-ramp-vs-dct-prescience-2026
+sata,Serial ATA,protocol,Intel/SATA-IO,2003-present,emerging,mature,Physical layer enabling mid-line storage.,dct-memoir-ramp-vs-dct-prescience-2026
+intel-pentium-4,Intel Pentium 4,platform,Intel,2000-2008,mainstream,legacy,3.06 GHz HT launch 2002-11-14 verified; 3.2 GHz June 2003 verified.,dct-memoir-ramp-vs-dct-prescience-2026
+intel-hyper-threading,Intel Hyper-Threading,platform,Intel,2002-present,emerging,mature,Consumer 3+ GHz timing prediction verified.,dct-memoir-ramp-vs-dct-prescience-2026
+blu-ray,Blu-ray Disc,platform,Sony/Blu-ray-Disc-Association,2003-present,pre-launch,mature-but-streaming-displaced,BDZ-S77 launch 2003-04-10 verified.,dct-memoir-ramp-vs-dct-prescience-2026
+uwb,Ultra-Wideband (UWB),protocol,WiMedia-Alliance,2003-2009,emerging,niche,Streaming-video use case refuted.,dct-memoir-ramp-vs-dct-prescience-2026
+wifi-80211n,Wi-Fi 802.11n,protocol,IEEE,2007-2014,not-yet,mature,Displaced UWB in wireless home.,dct-memoir-ramp-vs-dct-prescience-2026
+wifi-80211ac,Wi-Fi 802.11ac,protocol,IEEE,2013-present,not-yet,mature,Further displaced UWB in wireless home.,dct-memoir-ramp-vs-dct-prescience-2026
+microsoft-mira,Microsoft Mira / Smart Display,platform,Microsoft,2002-2003,launched,discontinued-2003,Smart Display category killed in 2003; refuted prediction.,dct-memoir-ramp-vs-dct-prescience-2026
+windows-media-center,Windows XP Media Center Edition,platform,Microsoft,2002-2009,emerging,discontinued,HP/Sony MCE rollout tracked in DCT weekly.,dct-memoir-ramp-vs-dct-prescience-2026
+athlon-64,AMD Athlon 64,platform,AMD,2003-2009,pre-launch,legacy,Referenced re: Circuit City lineup lag.,dct-memoir-ramp-vs-dct-prescience-2026

@@ -1,0 +1,532 @@
+AberdeenGroup
+
+      Digital Consumer Technology:
+       The Revolution Has Started
+                   November 1, 2002
+
+                           Russ Craig
+                        Research Director
+                        Semiconductors
+
+                         Peter Kastner
+        Executive Vice President and Chief Research Officer
+              Digital Consumer Technology Practice
+
+                            Isaac Ro
+                       Research Associate
+             Emerging Technologies Intelligence Group
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   2
+        Digital Consumer Technology Context
+                 productivity
+                                communications                                 Home
+             • business
+enterprise     process          • mobile
+               transformatio      conversation
+               n                • video           life enrichment
+             • collaboration
+                                  meetings
+smb                             • phone
+             • knowledge
+                                                  • social                 leisure
+                                  meeting           expression
+               management       • email
+                                                  • community        •   stress
+             • brainstorming
+micro                           • travel
+                                                    programs             reduction
+             • web services
+
+                                 • mobile
+consumers    • finances          • surfing        • photo sharing    • digital TV
+             • calendars         • conversation   • community        • music
+                                 • instant          involvement      • movies
+                                                  • memories
+                     do            messaging                         • games
+                                 • email          • scrapbooks       • entertainment
+                                                  • hobbies          • hobbies
+                                     connect
+                                                      create              entertain
+             work
+
+                                                                 AberdeenGroup         3
+DCT: The Players
+ Today there are two distinct worlds that are
+ converging which provide DCT products: the CE
+ world and the PC world.
+
+
+     CE              Future           PC
+
+
+       PC                               CE
+   Functions                        Functions
+     in CE                            in PC
+    Devices    A Broad Spectrum      Devices
+                 of Possibilities
+                                     AberdeenGroup   4
+     DCT: Illustrative End-User Scenarios
+
+
+
+                                                                Big
+                                   Telephone                   Screen
+                                                                 TV
+              802.11x Laptop                         Remote
+                                                     Control
+                                        Home PC
+         Bluetooth       Bluetooth     PNA Network            Audio Bluetooth
+            PC            802.11x                            Speaker Camera
+                 802.11x Printer       Tablet PC
+                Wireless
+                   Links                           HomePlug 802.11x
+Phone/   Gateway         Entertainment               Network
+Cable                       Server     Ultra Wide PC
+Wires            HDMI                     Band
+                 Cable        Wireless Links
+                                Links                Outlet    Bluetooth Car
+                                            AberdeenGroup
+DCT Industry Structure
+                    Integrated Circuits                           Systems
+
+                        Fabricate                       Manufacture
+                                                         Manufacture
+                         Fabricate                        Systems
+                                                           Systems         Sell
+       Design
+       Design                             Package
+                                           Package                          Sell        End
+                                                        Software         Systems
+                                                                          Systems      Users
+                          Test
+                          Test                             Software
+
+
+                                                                        Direct Sales
+             Integrated Device Manufacturer                 OEM          Systems
+                                                                        Web Sales
+
+
+     Intellectual
+      Property
+       Vendor                                         System Software
+                                                         Company
+
+                                                         Contract
+      Fabless                                          Manufacturer
+   Semiconductor
+     Company
+
+                                                                              VAR
+                           Foundry                                          Systems
+                                                                              VAD
+
+
+                                          Packaging                          PC/CE
+                                                                              Sell
+                                          Company                           Systems
+                                                                             Retail
+                    Test Company
+
+                                                                        AberdeenGroup          6
+Who Will be the Winners?
+    These six categories of players start from very different
+    competitive positions but identical motivation…grab the prize.
+
+
+
+                  CE                   Future                  PC
+
+
+• Broadband companies                                   • PC/Peripheral companies
+• Point product CE companies                            • Display companies
+• Game companies                                        • Software Companies
+
+         • Semiconductor companies              New Entrants
+              – IP
+              – Devices
+         • Other enabling technology
+
+                                                                AberdeenGroup       7
+Who Will be the Winners?
+
+
+
+
+                                         Established Suppliers
+                                           •Consumer Electronics
+                                        •Broadband (Bb) Connectivity
+                                            and Service Providers
+      New Entrants                           •Bb Set-Top Boxes
+       -Bb Gateways                                •Games
+ $   -Home Networking                              •Display
+                                                  •Software
+
+
+     R&D        Emerging Technology
+                             GrowingLife Cycle
+                                             Mature
+     Phase 1     Phase 2      Phase 3            Phase 4
+                                                           AberdeenGroup   8
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   9
+ Mobile Devices are Rapidly Diversifying
+
+• Mobile devices are highly personal
+  items
+   – There is no ideal convergence device
+• What’s Hot
+   – Picture Messaging (MMS)
+   – Flat-rate data plans
+• What’s Not
+   – Non-wireless organizers
+   – Per MB billing
+
+
+                                            AberdeenGroup   1
+The Economics of Handset Manufacturing
+
+               • Building handsets is no longer
+                 black magic
+               • PC makers are increasingly
+                 competing with established phone
+                 makers
+               • Rapid innovation is shortening the
+                 product life cycle
+               • Shrinking margins increasingly
+                 require the use of contract
+                 manufacturers
+
+                                    AberdeenGroup     1
+Network Operators Are Still the Gatekeepers
+
+                  • Flat-rate data plans are here
+                  • Focus on MMS and Gaming
+                    applications
+                  • Consolidation in North
+                    America is imminent
+                  • True 3G networks are still
+                    3+ years from becoming a
+                    reality
+
+
+                                    AberdeenGroup   1
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   1
+Desired Media Server Functionality
+• TV Video Recorder and Playback
+• Music Library
+  – Rip and Burn
+  – Drive Analog and Digital Music Players
+• Photo and Home Video Library/Authoring Tools
+• Import of Legacy Content (Videos, CDs, DVDs)
+• Commercial Content Rental and Purchase
+• Ability to Access and Play Content from
+  Anywhere in and Around the Home, and Take it
+  with you
+
+                                         AberdeenGroup   1
+     Media Servers Emerge
+
+                              • Many usage models
+• PVRs are prototypical but       – General purpose
+                                    PC + media
+  insufficient                    – Media-centric PC
+• Purpose Built: HP Media         – Closet rack-mount
+  Center (Freestyle)              – Next to the TV/stereo
+• Intel Media PC Reference        – Combinations of above
+  Design                      • Assumption: mass-market
+                                minimizes component
+• Sony Cocoon                   duplication (e.g., disk drives
+• Set Top Box Accessory         in TiVo)
+                              • Placement drives network
+  Media Centers in Design
+                                topology
+
+
+
+
+                                 AberdeenGroup                   1
+  Media Servers: A Key Trade-Off
+
+2001 Sopranos
+  in Storage
+
+
+
+
+                                   AberdeenGroup   1
+    Media Servers: A Key Trade-Off
+
+   User Selects
+     Episode
+
+2001 Sopranos
+  in Storage
+
+
+
+
+                                     AberdeenGroup   1
+   Media Servers: A Key Trade-Off
+
+ User Views
+Episode on PC
+
+
+
+
+2001 Sopranos
+  in Storage
+
+
+                                    AberdeenGroup   1
+Media Servers: A Key Trade-Off
+                          Remote-control Users
+                      Select Episode on TV Interface
+                Home Network
+
+
+
+2001 Sopranos
+  in Storage
+
+
+
+
+                                       AberdeenGroup   1
+Media Servers: A Key Trade-Off
+                     Media Server Streams Program
+                           to TV via Network
+                Home Network
+
+
+
+2001 Sopranos
+  in Storage
+
+
+
+
+                                     AberdeenGroup   2
+Media Center Requirements
+
+• “Fair Use” Digital Rights Management
+• CONSUMER USER INTERFACE and Applications
+• Large Mass Store
+• CD/DVD Red/Blue Read/Write Drive
+• Encoding for Audio and Video Legacy Content
+• Search Engine for Indexing and Retrieval
+• Multiple Interlaced Output Streams
+• QoS Management
+• Wireless Connectivity
+
+
+                                    AberdeenGroup   2
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   2
+Home Networking: Let Me Count the Ways
+•   Bluetooth
+•   802.11b
+•   802.11a
+•   802.11g
+•   Ultra Wide Band
+•   Home PNA
+•   HomePlug          • Voice
+•   Home RF           • Audio
+•   Ethernet          • Video
+•   HDMI Cable        • WAN/Internet data and
+•   X10
+                        access
+                      • LAN connectivity
+                      • Security
+                                 AberdeenGroup   2
+Mindset: A Home is a Small Business Location
+
+• Multiple computing devices
+• LAN and WAN access
+• Security, data management, maintenance, virus
+  protection, firewall, caching/proxy server … all
+  the requirements of any business
+• … With no professional IT department
+
+
+
+
+                                      AberdeenGroup   2
+Longer Term a Home Networking
+Architecture Will Emerge
+
+• Consumer User Interface for Configuration
+  and Security Management
+• Gateway/Firewall/Router/Remote
+  Management Capability
+• Cordless Phones/VOIP
+• Multiple Channels of Simultaneous:
+   – Music
+   – Data
+   – Streaming Video
+• Digital Transmission Rights Protection
+                                           AberdeenGroup   2
+Networking Technology Applicability Varies
+
+
+
+
+                     802.11a with DTCP*
+                     Home RF+802.11A*
+
+
+
+
+                                                Home PNA (Phone)
+                                                Home Plug (Power)
+                     Philips 1394 over
+
+
+
+
+                                                Ethernet Cable
+                                                HDMI Cable
+                     Proprietary*
+                     BlueTooth*
+                     802.11b*
+                     802.11a*
+
+
+
+
+                                                UWB*
+• Voice
+   – Toll Quality                                        
+   – VOIP                                            
+• Data                                               
+• Content                                            
+   – MPEG3 Audio                                      
+   – MPEG2/4 Video                                    
+   – HDTV                                             
+   – HDCP                                                
+   – DTCP                               
+• Gaming             
+                                   * Wireless           AberdeenGroup   2
+5 Gigahertz Will be the Spectrum of Choice, BUT
+
+
+
+• QoS issues in 802.11a for streaming video
+• Need better distances provided by second-and
+  third-generation silicon
+• Need to minimize transmitted power at required
+  link bandwidth to reduce potential interference
+• Need to automatically identify and minimize
+  impact of sources of interference
+
+                                       AberdeenGroup   2
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   2
+DCT Practice Services
+
+
+• Custom Consulting
+• Retainer package including
+  – Presentation of summary trends and strategy review
+  – Continuous information bulletins/InSights
+  – Quarterly update via webcast
+  – Add-on competitive analysis
+  – Bundled consulting days
+  – Analyst access
+
+                                        AberdeenGroup    2
+Why Aberdeen Group?
+
+
+• Integrated viewpoint
+   – Silicon to out-of-box experience
+• Strategic and Business-Process Perspective
+   – Focus on what leads to success
+• Deep technology understanding married to
+  pragmatic understanding of consumer buying
+  behavior and usability
+• DCT research and consultative analysis
+
+                                        AberdeenGroup   3
+Agenda
+
+
+• Digital Consumer Technology (DCT) Context
+• Discussion Topics
+  – Mobile Convergence Devices
+  – Media Servers
+  – Home Networking
+• DCT Service
+• Questions
+
+                                  AberdeenGroup   3
+    Thanks For Attending
+
+              Digital Consumer Technology:
+                The Revolution Has Begun
+                       For Inquiries Contact
+                            Peter Kastner
+                       Call: (617) 854–5221
+                   e-Mail: kastner@aberdeen.com
+
+You may download the presentation from today’s web cast at http://www
+.       aberdeen.com/ab_company/researchareas/dctwebinar.htm
+
+
+                      Visit Aberdeen Group at
+                        www.aberdeen.com
+
+                                                   AberdeenGroup        3
+

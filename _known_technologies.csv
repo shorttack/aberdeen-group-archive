@@ -321,7 +321,7 @@ webex-support-center,WebEx Support Center,application,WebEx Communications,2000-
 webex-event-center,WebEx Event Center,application,WebEx Communications,2000-2002,current,[DEFERRED],Large online events and web seminars service; specialized WebEx offering.,webex--taking-conferencing-to-the-busine-5b8109
 webex-training-center,WebEx Training Center,application,WebEx Communications,2002,new,[DEFERRED],"New service April 2002 for corporate training; schedule/registration, breakout sessions, testing/scoring, SCORM support, re-broadcast.",webex--taking-conferencing-to-the-busine-5b8109
 scorm,SCORM (Sharable Content Object Reference Model),standard,ADL Initiative,2001-present,growing,[DEFERRED],Industry standard for e-learning data interchange; WebEx Training Center supports SCORM.,webex--taking-conferencing-to-the-busine-5b8109
-voip,Voice over Internet Protocol (VoIP),protocol,Various,1995-present,growing,mainstream,Used in web conferencing audio; security and QoS on public Internet cited as limitation; WebEx private WAN resolves this.,"webex--taking-conferencing-to-the-busine-5b8109,teleco~1-c01702"
+voip,Voice over Internet Protocol (VoIP),protocol,Various,1995-present,growing,mainstream,Used in web conferencing audio; security and QoS on public Internet cited as limitation; WebEx private WAN resolves this.,"webex--taking-conferencing-to-the-busine-5b8109,teleco~1-c01702,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 video-conferencing,Video Conferencing (Traditional / ISDN-based),platform,Various,1980s-2002,mature,[DEFERRED],Fixed-location room-based video conferencing; high costs; requires ISDN lines for B2B; WebEx multipoint video positioned as lower-cost alternative.,webex--taking-conferencing-to-the-busine-5b8109
 audio-conferencing,Audio Conferencing,application,Various Telcos,1960s-present,mature,[DEFERRED],Multi-party telephone conference calls; low cost; no visual aids; tier 3 in Aberdeen 5-level communications model.,webex--taking-conferencing-to-the-busine-5b8109
 dhtml,DHTML (Dynamic HTML),framework,Various,1990s-2002,declining,[DEFERRED],Previous approach to PowerPoint web animation; proved extremely unpredictable with significant limitations; not adopted; superseded by WebEx UCF.,webex--taking-conferencing-to-the-busine-5b8109
@@ -981,14 +981,14 @@ lcd-flat-panel,LCD Flat Panel Monitor,display,,1998-present,mature,[DEFERRED],Re
 small-form-factor-pc,Small Form Factor PC (SFF),form-factor,,2001-present,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2002-12-17,"dct-business-2002-12-17-pc-deals,dct-business-2002-12-19-pc-deals,dct-business-2003-03-17-pc-deals"
 15-inch-lcd,15-inch LCD Monitor,display,,2000-present,mature,[DEFERRED],Referenced in weekly PC Deals commentary 2002-12-19,"dct-business-2002-12-19-pc-deals,dct-business-2002-12-pc-deals,dct-business-2003-03-17-pc-deals,dct-pitch-2002-11-08-christmas,dct-weekly-2002-10-27,dct-weekly-2003-01-19,dct-weekly-2003-01-26,dct-weekly-2003-03-02,dct-weekly-2003-03-23,dct-weekly-2003-04-06,dct-weekly-2003-05-11,dct-weekly-2003-06-15,dct-weekly-2003-08-17"
 intel-pentium-iii,Intel Pentium III,processor,Intel,1999-2003,legacy,discontinued,Referenced in weekly PC Deals commentary 2002-10-06,"dct-weekly-2002-10-06,dct-traveling-with-centrino-2003-05"
-802-11b,Wi-Fi (802.11b),networking,,1999-2010,mature,[DEFERRED],Referenced in weekly PC Deals commentary 2002-10-06,"dct-weekly-2002-10-06,dct-weekly-2003-03-02,dct-weekly-2003-03-16,dct-weekly-2003-08-10"
+802-11b,Wi-Fi (802.11b),networking,,1999-2010,mature,legacy-supported,Referenced in weekly PC Deals commentary 2002-10-06,"dct-weekly-2002-10-06,dct-weekly-2003-03-02,dct-weekly-2003-03-16,dct-weekly-2003-08-10,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 media-center-pc,Windows Media Center PC,form-factor,,2002-2014,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2002-10-27,"dct-weekly-2002-10-27,dct-weekly-2002-12-15,dct-weekly-2003-01-19,dct-weekly-2003-03-23,dct-weekly-2003-04-06,dct-weekly-2003-06-22,dct-weekly-2003-07-13,dct-weekly-2003-07-26,dct-weekly-2003-08-03,dct-weekly-2003-08-10,dct-weekly-2003-08-17,dct-weekly-2003-08-24"
 windows-xp-media-center,Windows XP Media Center Edition,operating-system,Microsoft,2002-2014,emerging,discontinued,Referenced in weekly PC Deals commentary 2002-10-27,"dct-weekly-2002-10-27,dct-weekly-2003-01-19,dct-weekly-2003-03-23,dct-microsoft-media-center-rollout-2002-08,dct-kastner-wish-list-2002-12"
 hyper-threading,Intel Hyper-Threading Technology,cpu-feature,Intel,2002-present,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2002-11-14,"dct-weekly-2002-11-14-p4-ht,dct-weekly-2002-11-17,dct-weekly-2003-01-19,dct-weekly-2003-01-26,dct-weekly-2003-03-09,dct-weekly-2003-04-06,dct-weekly-2003-04-13,dct-weekly-2003-04-20,dct-weekly-2003-05-11,dct-weekly-2003-05-18,dct-weekly-2003-06-22,dct-weekly-2003-07-06,dct-weekly-2003-07-13,dct-weekly-2003-07-26,dct-weekly-2003-08-03,dct-weekly-2003-08-10"
 dvd-rw,DVD+RW/+R,storage,,2001-2010,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2002-12-22,"dct-weekly-2002-12-22,dct-weekly-2003-03-23,dct-weekly-2003-04-06,dct-weekly-2003-04-20,dct-weekly-2003-06-08,dct-weekly-2003-07-26,dct-weekly-2003-08-03,dct-weekly-2003-08-10,dct-weekly-2003-08-17,dct-weekly-2003-08-24"
 intel-celeron-m,Intel Celeron M,processor,Intel,2003-2009,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2003-04-06,dct-weekly-2003-04-06
 17-inch-lcd,17-inch LCD Monitor,display,,2002-present,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2003-04-13,dct-weekly-2003-04-13
-802-11g,Wi-Fi (802.11g),networking,,2003-2013,emerging,[DEFERRED],Referenced in weekly PC Deals commentary 2003-07-26,dct-weekly-2003-07-26
+802-11g,Wi-Fi (802.11g),networking,,2003-2013,emerging,legacy-supported,Referenced in weekly PC Deals commentary 2003-07-26,"dct-weekly-2003-07-26,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 intel-architecture,Intel-architecture processor,platform,Intel,1980s-present,mature,mature,x86 / IA-32 family,dct-about-weekly-pc-deals-2002
 dvd-cd-rw,DVD / CD-RW optical drive,platform,,2000-2010,mainstream,legacy,,"dct-about-weekly-pc-deals-2002,dct-dceit-observations-2002-06"
 semiconductor-300mm,300mm wafer / 0.13 micron process,platform,Intel,2001-2005,emerging,legacy,Cost-per-chip driver,dct-dceit-observations-2002-06
@@ -1054,7 +1054,7 @@ microsoft-longwood,Windows XP 2.0 (Longwood),platform,Microsoft,2002-2003,forthc
 xbox,Microsoft Xbox,platform,Microsoft,2001-2005,emerging,discontinued,Hardware base for HomeStation,"dct-microsoft-homestation-notes-2002,dct-personal-it-practice-launch-2001"
 terminal-server,Windows Terminal Server,platform,Microsoft,1998-present,mainstream,mature,,dct-microsoft-homestation-notes-2002
 microsoft-mira,Microsoft Mira / Smart Display,platform,Microsoft,2002-2004,forthcoming,discontinued,"Home tablet, $300-$400","dct-microsoft-homestation-notes-2002,dct-sony-personal-electronic-vision-2002"
-pvr,Personal Video Recorder,platform,,2000-present,emerging,mature,,"dct-microsoft-homestation-notes-2002,dct-segment-priorities-matrix-2003,dct-video-market-segmentation-2002"
+pvr,Personal Video Recorder,platform,,2000-present,emerging,mature,,"dct-microsoft-homestation-notes-2002,dct-segment-priorities-matrix-2003,dct-video-market-segmentation-2002,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 dvd,DVD optical drive,platform,,1997-2010,mainstream,legacy,,dct-microsoft-homestation-notes-2002
 soho-equipment,"SOHO office equipment, networking, access",category,,1990s-present,mature,mature,,dct-personal-it-practice-launch-2001
 pc-microprocessor,PC microprocessor,platform,,1980s-present,mature,mature,,dct-personal-it-practice-launch-2001
@@ -1098,10 +1098,10 @@ process-0-13-micron,0.13-micron process,platform,,2001-2005,emerging,obsolete,To
 adsl,Asymmetric Digital Subscriber Line (ADSL),protocol,,1998-2015,emerging,legacy,Japan rollout lowering Internet costs,dct-personal-it-forecast-research-2001
 internet-access,Internet Access,platform,,1990s-present,emerging,mature,Japan PC sales driver,dct-personal-it-forecast-research-2001
 email,Email,application,,1970s-present,mature,mature,First-time PC buyer driver in Japan,dct-personal-it-forecast-research-2001
-home-gateway,Home Gateway,platform,,2000-present,emerging,mature,Core category 1,"dct-pit-service-offering-2002,dct-sony-personal-electronic-vision-2002"
+home-gateway,Home Gateway,platform,,2000-present,emerging,mature,Core category 1,"dct-pit-service-offering-2002,dct-sony-personal-electronic-vision-2002,dct-dceit-practice-v6-2002"
 home-media-server,Home Media Server,platform,,2001-present,emerging,mature,Core category 2,"dct-pit-service-offering-2002,dct-webinar-announcement-2002-11"
 pc-ce-convergence,PC-CE Convergence,platform,,2000-2010,emerging,legacy,,dct-pit-service-offering-2002
-home-pna,HomePNA,protocol,,1998-2010,emerging,obsolete,Home networking over phone lines,dct-pit-service-offering-2002
+home-pna,HomePNA,protocol,,1998-2010,emerging,obsolete,Home networking over phone lines,"dct-pit-service-offering-2002,dct-webinar-nov-2002"
 display-ui,Displays/UI/Usability,platform,,2000-present,mainstream,mature,Core category 4,dct-pit-service-offering-2002
 internet-cable-enablement,Internet/Cable Enablement,platform,,2000-present,emerging,mature,Core category 5,dct-pit-service-offering-2002
 aberdeen-snapshot,Aberdeen Supplier Snapshot,application,Aberdeen Group,1990s-2010,mature,obsolete,Web-hosted vendor profile,dct-pitas-agreement-template-2002
@@ -1118,7 +1118,7 @@ pc-docking-module,PC Docking Module,platform,,2000-present,emerging,mature,,dct-
 pda-communicator,PDA/Communicator,platform,,1996-2010,mainstream,obsolete,Replaced by smartphone,dct-sony-personal-electronic-vision-2002
 hdtv-tuner,HDTV Tuner,platform,,2000-present,emerging,legacy,,dct-sony-personal-electronic-vision-2002
 wlan,Wireless LAN,protocol,,1999-present,emerging,mature,Part of gateway stack,dct-sony-personal-electronic-vision-2002
-bluetooth,Bluetooth,protocol,,1999-present,emerging,mature,BT telematics links,dct-sony-personal-electronic-vision-2002
+bluetooth,Bluetooth,protocol,,1999-present,emerging,mature,BT telematics links,"dct-sony-personal-electronic-vision-2002,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 gps-navigation,GPS/Maps,platform,,1990s-present,mainstream,mature,Telematics,dct-sony-personal-electronic-vision-2002
 rear-seat-entertainment,Rear-Seat Entertainment,platform,,2000-present,emerging,mature,Gaming/video,dct-sony-personal-electronic-vision-2002
 drive-by-wifi,Drive-by WiFi,platform,,2002-2010,emerging,obsolete,Location-based services,dct-sony-personal-electronic-vision-2002
@@ -1126,7 +1126,7 @@ cable-modem,Cable Modem,protocol,,1996-present,mature,mature,,dct-sony-personal-
 satellite-internet,Satellite Internet Link,protocol,,2000-present,emerging,mature,,dct-sony-personal-electronic-vision-2002
 dvd-player,DVD Player,platform,,1997-2015,mature,obsolete,,dct-sony-personal-electronic-vision-2002
 firewall-router,Firewall Router,platform,,1995-present,mature,mature,Integrated into gateway,dct-sony-personal-electronic-vision-2002
-mobile-convergence-device,Mobile Convergence Device,platform,,2002-present,emerging,mature,Voice+data wireless precursor to smartphone,dct-webinar-announcement-2002-11
+mobile-convergence-device,Mobile Convergence Device,platform,,2002-present,emerging,mature,Voice+data wireless precursor to smartphone,"dct-webinar-announcement-2002-11,dct-webinar-nov-2002"
 3g-wireless,3G Wireless Networks,protocol,,2001-2020,emerging,obsolete,Slower emergence than expected,dct-webinar-announcement-2002-11
 wireless-convergence,Converged voice+data wireless,platform,,2002-2010,emerging,legacy,Hottest emerging segment,dct-webinar-announcement-2002-11
 56k-modem,56K Dial-up Modem,platform,,1997-2010,mature,obsolete,Integrated baseline,dct-why-aberdeen-follows-pc-deals-2002
@@ -1141,7 +1141,7 @@ mems,Microelectronic Machines (MEMS),platform,,1990s-present,emerging,mature,Cur
 photonics,Photonics,platform,,1990s-present,emerging,mature,Current focus,topic-semiconductor-practice-definition-2002
 software-defined-radio,Silicon/Software-Defined Radio,platform,,2000-present,emerging,mature,Current focus,topic-semiconductor-practice-definition-2002
 network-processing-unit,Network Processing Unit (NPU),platform,,2000-present,emerging,mature,Special purpose CPU,topic-semiconductor-practice-definition-2002
-ultra-wideband,Ultra Wide Band (UWB),protocol,,2002-2015,emerging,obsolete,Wireless data/video focus,topic-semiconductor-practice-definition-2002
+ultra-wideband,Ultra Wide Band (UWB),protocol,,2002-2015,emerging,obsolete,Wireless data/video focus,"topic-semiconductor-practice-definition-2002,dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
 silicon-on-insulator,Silicon on Insulator (SOI),platform,,2001-present,emerging,mature,Intel finally acknowledged need,topic-semiconductor-practice-definition-2002
 gallium-arsenide,Gallium Arsenide (GaAs),platform,,1980s-present,mature,legacy,Wireless battle,topic-semiconductor-practice-definition-2002
 silicon-germanium,Germanium-doped Silicon (SiGe),platform,,2000-present,emerging,mature,Wireless battle,topic-semiconductor-practice-definition-2002
@@ -1224,3 +1224,32 @@ pc-asset-management,PC Asset Management,methodology,IT-industry,1995-present,mat
 wireless-lan,Wireless LAN,platform,IEEE,1999-present,new,current,Only 21% respondents did wireless cost analysis,topic-iia-pc-management-best-practices-2003-10
 virus-protection,Enterprise Virus Protection,methodology,multiple,1990-present,mature,legacy,<30% reported best practices,topic-iia-pc-management-best-practices-2003-10
 firewalls,Firewalls,platform,multiple,1988-present,mature,current,Referenced in risk chapter,topic-iia-pc-management-best-practices-2003-10
+dceit-framework,Digital Consumer Electronic and Information Technology (DCEIT) Framework,framework,Aberdeen Group,2002-2004,emerging,historical,Aberdeen's six-category taxonomy for analyzing PC-CE convergence,dct-dceit-practice-v6-2002
+home-pna-2,HomePNA 2.0,protocol,HomePNA Alliance,2001-2007,mature,legacy-supported,Phone-line networking; used by Thomson/2Wire/Time Warner trial,dct-dceit-practice-v6-2002
+802-11a,IEEE 802.11a,protocol,Wi-Fi Alliance,2001-2010,emerging,legacy-supported,5GHz wireless LAN; QoS issues for streaming video noted,"dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
+home-plug,HomePlug,protocol,HomePlug Alliance,2001-2015,emerging,legacy-supported,Powerline networking standard,"dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
+home-rf,HomeRF,protocol,HomeRF Working Group,1998-2003,mature,discontinued,Short-lived home wireless standard; lost to 802.11,"dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
+hdmi,HDMI,protocol,HDMI Licensing,2002-present,emerging,active,Digital cable interconnect cited in convergence diagrams,"dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
+x10-protocol,X10 Home Automation Protocol,protocol,X10 Industries,1975-2010,mature,legacy,Legacy home automation protocol,"dct-dceit-practice-v6-2002,dct-webinar-nov-2002"
+dvd-plus-cd-rw,DVD+CD-RW Combo Drive,platform,multi-vendor,2001-2010,mature,legacy,Optical storage category cited in reference designs,dct-dceit-practice-v6-2002
+blue-laser-dvd,Blue-Laser DVD (pre-Blu-ray),platform,multi-vendor,2003-2005,emerging,superseded,Predicted 24-27 GB capacity vs 4.7 GB red-laser; became Blu-ray,dct-dceit-practice-v6-2002
+video-on-demand,Video on Demand (VOD),application,multi-vendor,2000-present,emerging,mature,Cable/ILEC emerging service offering,dct-dceit-practice-v6-2002
+digital-rights-management,Digital Rights Management (DRM),application,multi-vendor,2000-present,emerging,active,Framework-level requirement for media servers,dct-dceit-practice-v6-2002
+mpeg-2,MPEG-2,protocol,MPEG,1995-2010,mature,legacy-supported,Cable/DBS video compression,dct-dceit-practice-v6-2002
+mpeg-4,MPEG-4,protocol,MPEG,2001-present,emerging,active,Longer-haul DSL video compression,dct-dceit-practice-v6-2002
+rtos-embedded,Real-Time Operating System (embedded),platform,Wind River/multi-vendor,1995-present,mature,active,Wind River Tornado as exemplar,dct-dceit-practice-v6-2002
+xbox-live,Xbox Live,platform,Microsoft,2002-present,emerging,active,Closed online gaming network; $49/year,dct-dceit-practice-v6-2002
+cablehome,CableHome Specification,framework,CableLabs,2002-2010,emerging,superseded,Residential gateway spec linking home networks to cable,dct-dceit-practice-v6-2002
+packet-cable,PacketCable,framework,CableLabs,1999-2015,emerging,legacy-supported,IP services over cable including VoIP,dct-dceit-practice-v6-2002
+open-cable,OpenCable (CableCARD),framework,CableLabs,2001-2015,emerging,legacy,Point-of-Deployment module for retail STB,dct-dceit-practice-v6-2002
+dct-framework,Digital Consumer Technology (DCT) Framework,framework,Aberdeen Group,2002-2004,emerging,historical,Rebranded successor to DCEIT; retained six-player taxonomy,dct-webinar-nov-2002
+picture-messaging-mms,Picture Messaging (MMS),protocol,3GPP,2002-2010,emerging,legacy,Highlighted as 'What's Hot' mobile driver,dct-webinar-nov-2002
+3g-cellular,3G Cellular Networks,protocol,3GPP/3GPP2,2003-2015,emerging,legacy-supported,Predicted 3+ years from reality as of Nov 2002,dct-webinar-nov-2002
+flat-rate-data-plan,Flat-Rate Mobile Data Plan,application,Multi-carrier,2002-present,emerging,active,Cited as emerging pricing model,dct-webinar-nov-2002
+media-server,Home Media Server,platform,HP/Intel/Sony/multi,2002-2012,emerging,mature,Category defined in this deck; precursor to streaming boxes and smart TVs,dct-webinar-nov-2002
+hp-media-center,HP Media Center (Freestyle),platform,Hewlett-Packard,2002-2007,emerging,discontinued,Purpose-built media PC,dct-webinar-nov-2002
+intel-media-pc,Intel Media PC Reference Design,platform,Intel,2002-2008,emerging,superseded,Reference design for OEM media PCs,dct-webinar-nov-2002
+sony-cocoon,Sony CoCoon,platform,Sony,2003-2006,emerging,discontinued,Japan-market network-connected PVR,dct-webinar-nov-2002
+fair-use-drm,Fair Use DRM,framework,multi-vendor,2002-present,emerging,active,Media Center requirement,dct-webinar-nov-2002
+htdp,HDTP (Digital Transmission Content Protection),protocol,DTLA,2001-present,emerging,active,Content-protection layer,dct-webinar-nov-2002
+dtcp-ip,DTCP over IP,protocol,DTLA,2002-present,emerging,active,Digital transmission protection for IP links,dct-webinar-nov-2002

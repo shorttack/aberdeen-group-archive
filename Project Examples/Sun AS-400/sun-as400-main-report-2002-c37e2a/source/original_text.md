@@ -1,0 +1,4658 @@
+# Competing for the IBM AS/400 Market: A Report to the Management of Sun Microsystems
+
+> Archived from: iSeries-Rpt-v5-1f-2.pdf
+> Original publication date: 2002-04-20
+> Author: Peter Kastner
+
+---
+
+## Original Document Text
+
+===== iSeries-Rpt-v5-1f-2.txt =====
+--- Page 1 ---
+AberdeenGroup 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Competing for the  
+IBM AS/400 Market 
+A Report to the  
+Management of 
+Sun Microsystems 
+ 
+April  20, 2002 
+ 
+ 
+ 
+ 
+ 
+Aberdeen Group, Inc. 
+One Boston Place 
+Boston, Massachusetts 02108 USA 
+Telephone: 617 723 7890 
+Fax: 617 723 7897 
+www.aberdeen.com 
+
+
+--- Page 2 ---
+Table of Contents 
+ 
+ 
+Introduction ........................................................................................................................1 
+Executive Summary .............................................................................................................1 
+Demographics and Market Conditions ...........................................................................1 
+Competitive Assessment..................................................................................................2 
+IBM’s 2002 iSeries Game Plan.........................................................................................2 
+AS/400 Displacement Market Opportunity .....................................................................3 
+Factors Positive to Sun Microsystems..................................................................................3 
+Factors Negative to Sun Microsystems................................................................................3 
+Sun's Addressable Market and Opportunity Size............................................................4 
+Installed Base Migration is an Unattractive Market ........................................................4 
+Recommended Market Strategy for Sun Microsystems...................................................5 
+1. New Customers ...............................................................................................................5 
+2. Applications — CRM, EAS, SCM, B2B.............................................................................5 
+3. iSeries Upgrades — Linux is the Lever ...........................................................................5 
+4. Consolidation ..................................................................................................................5 
+Market Partner Strategies.................................................................................................5 
+Systems Integrators .............................................................................................................6 
+ISVs and VARs ......................................................................................................................6 
+Detailed Market Overview...................................................................................................7 
+Worldwide IT Spending...................................................................................................7 
+Hardware, Software and Services........................................................................................7 
+AS/400 and iSeries Installed Base....................................................................................7 
+AS/400 and iSeries Market Size........................................................................................8 
+Market Segmentation ..........................................................................................................9 
+Business Size .......................................................................................................................9 
+AS/400 Market Verticals..................................................................................................10 
+iSeries by Application........................................................................................................13 
+iSeries by Geography.........................................................................................................13 
+Segment-Specific AS/400 Penetration............................................................................15 
+Overview of ISV AS/400 Offerings And Support............................................................15 
+iSeries Market Trends ....................................................................................................16 
+
+
+--- Page 3 ---
+ 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Current and Anticipated Migration Patterns.................................................................17 
+Incoming Migration...........................................................................................................17 
+Outgoing Migration...........................................................................................................17 
+Market's Ability To Provide In House AS/400 Technical Support..................................18 
+Overview Of Other Market Characteristics....................................................................18 
+Business Partners...............................................................................................................18 
+Platform Transition............................................................................................................18 
+Competitive Assessment....................................................................................................19 
+IBM's AS/400 Strategy ....................................................................................................19 
+2002 Strategic Game Plan for iSeries and AS/400.............................................................19 
+Europe is the Battleground...............................................................................................20 
+AS/400 Channel and Selling Strategies..........................................................................21 
+Selling Strategies ...............................................................................................................21 
+iSeries Product Line.......................................................................................................22 
+Common iSeries Features .................................................................................................22 
+iSeries Models and Comparison .......................................................................................22 
+Performance and Price.......................................................................................................23 
+Opportunity Assessment ...................................................................................................25 
+AS/400 Displacement Market Opportunity ...................................................................25 
+Factors Positive to Sun Microsystems................................................................................25 
+Factors Negative to Sun Microsystems..............................................................................26 
+Sun's Addressable Market and Opportunity Size..........................................................27 
+Installed Base Migration is an Unattractive Market ..........................................................28 
+Market Strategy..................................................................................................................30 
+New Customers .................................................................................................................30 
+Consolidation ....................................................................................................................30 
+Applications — CRM, EAS, SCM, B2B...............................................................................31 
+iSeries Upgrades — Linux is the Lever .............................................................................31 
+Market Partner Strategies...............................................................................................32 
+Systems Integrators ...........................................................................................................33 
+ISVs and VARs ....................................................................................................................33 
+
+
+--- Page 4 ---
+ 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Appendix A — Aggregation of Business Sizes...................................................................34 
+Appendix B — Top-Tier Business Partners .......................................................................35 
+Appendix C — iSeries Models, Prices & Performance......................................................44 
+ 
+
+
+--- Page 5 ---
+Competing for the IBM AS/400 Market 
+ 1 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Introduction 
+Sun Microsystems asked Aberdeen Group to assess the attractiveness of IBM’s AS/400 
+and iSeries market, and to recommend how Sun might profitably attack the iSeries mar-
+ket.   
+The iSeries is the current incarnation of  proprietary AS/400 midrange server family 
+launched in 1988.  This server family has seen over 750,000 units sold in 14 years, and 
+contributed untold billions in profits to IBM.  We use the AS/400 and iSeries terms syn-
+onymously throughout the report. 
+This report is the result of Aberdeen’s research project.  The Aberdeen Group estimates, 
+analysis, and recommendations contained in this report are confidential to Sun Micro-
+systems, and may not be made public without the written permission of Aberdeen 
+Group, Inc.  
+Executive Summary 
+Demographics and Market Conditions 
+• The AS/400 installed base is 450,000 machines, of which approximately 
+25,000 are running the latest OS/400 release on currently offered hardware. 
+• We estimate that in 2001 the iSeries hardware generated $7.68 billion in 
+revenue representing 23% of IBM’s hardware revenues, and $2.59 billion in 
+software representing 20% of 2001 software revenues.  This makes the iSeries 
+a $10.27 billion business for IBM.  We estimate a gross margin contribution of 
+$7.2 billion — and a COGS of 30%.   
+• Revenues have declined approximately 25% since the pre-Y2K peak in 1998 at 
+$13.5 billion.  Erosion is caused by deliberate server consolidation, competi-
+tion at price-sensitive accounts by Windows NT, and replacement by more 
+modern applications (e.g., Siebel and SAP).  However, the revenue decline 
+should not be taken as a sign that the iSeries base is ripe for picking.  Growth 
+is coming in emerging markets (China), mergers and acquisitions, an expand-
+ing partner-driven distribution system, deeper penetration into the SMB mar-
+ket, and  
+• IBM believes the iSeries has an addressable market of $56 billion (Table 3).  
+Based on our estimates, IBM is capturing 18.3% of this addressable market. 
+• iSeries is focused at specific vertical markets through business partners who 
+complete 85%+ of transactions.  Key verticals which represent 55% of sales 
+are manufacturing, finance, and whole/retail (distribution) (Table 4). 
+
+
+--- Page 6 ---
+Competing for the IBM AS/400 Market 
+ 2 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+• Besides a vertical focus, IBM is currently focusing on new-application up-
+grades with business partners: CRM, ERP, SCM, and B2B. 
+• IBM sells the iSeries globally.  We estimates 2001 hardware and software 
+revenues in North America at $3.96 billion, EMEA at $4.0 billion, and 
+Asia/Pacific at $2.3 billion. 
+• The typical customer has a one- or two-processor system (value $50K-$150K), 
+representative of a small-medium business (SMB) with fewer than 1,000 
+employees.  To that SMB customer, the iSeries is their “mainframe”. 
+Competitive Assessment 
+• The iSeries has five models scaling 500-fold from roughly 400 TPM-C (model 
+250) to 375,000 (model 890), with base prices starting under $10,000 (more 
+like $15,000 configured) (Table 9).  Full complement of peripherals.  Native 
+support for IBM’s eBusiness infrastructure.  Good ability to manage Intel-
+based servers.  OS/400 is a mature commercial operating system with an em-
+bedded (object-)relational database.  No obvious gaps that Sun could exploit 
+with the exception that IBM in general is not offering Linux-based appliances. 
+• The iSeries benefits from one of the industry’s leading business partner pro-
+grams, empowering partners around the globe with incentives and market-
+ing.  The ISV partner program over  fifteen years has resulted in thousands of 
+specialized applications.  Partners are also a key component of the service 
+and support infrastructure, typically providing first-level support. 
+• There is a mature and broad set of application development tools from IBM 
+and partners for the development of modern eBusiness applications using 
+Web infrastructure as well as legacy, dumb-terminal applications. 
+• Price-performance is relatively poor as the iSeries is premium-priced, particu-
+larly on upgrades.  However, customers are generally satisfied with TCO since 
+the iSeries is easy to operate and administer (e.g., no Oracle DBA required). 
+• Europe is the key battle ground.  Any iSeries program of Sun must have a 
+large investment in understanding and attracting IBM’s targeted European 
+SMB market. 
+• To the SMB buyers who want IBM to provide solutions, the iSeries position-
+ing and messages are well crafted, tested, and working (Table 8). 
+IBM’s 2002 iSeries Game Plan 
+• Server consolidation:  replace old AS/400s and centralize. 
+• Upgrade e-infrastructure: IGS-driven WebSphere. 
+• Competitive Target:  HP3000  
+• SMB new-market growth:  Notes Domino, portals, and mid-market ERP with 
+Navision business partner. 
+
+
+--- Page 7 ---
+Competing for the IBM AS/400 Market 
+ 3 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+• Enterprise Application Solutions: modernize customer applications in 
+CRM/BI, ERP, and SCM. 
+• Selectively target small business market (under 100 employees). 
+• Replace or refinance Y2K-era machines. 
+AS/400 Displacement Market Opportunity 
+Factors Positive to Sun Microsystems 
+1. Technology Transition: The iSeries is beginning a technology transition that will 
+soon result in common hardware between IBM's Unix pSeries (e.g., p670 and 
+p690 “Regatta”) and Integrated Application iSeries.  The positive aspects of this 
+(see also the negative aspects below) are the increased competition between IBM 
+business partners, caused by the lack of hardware differentiation between pSer 
+ies (AIX Unix) and iSeries.   
+2. ISV Competition:  By marrying AIX and OS/400 in one chassis (see #1 above), 
+IBM will unwittingly unleash two ISV camps that until this point were largely mu-
+tually exclusive; relatively few customers — and almost no SME customers — 
+have both IBM Unix and AS/400 ISV applications.   
+3. RAS: The transition to the Regatta micro-architecture means iSeries customers 
+must buy into IBM’s new keep-running-or-fail philosophy — when a hard failure 
+occurs, the Mean Time to Repair will be quite long compared to Sun due to the 
+complexity of the backplane and multi-chip carrier design.   
+4. Linux:  Many iSeries shops made a “no Unix” decision up to a decade ago and 
+stuck with it.  But the rapid emergence of Linux in the enterprise, heartily sup-
+ported by IBM, creates a new opportunity for Sun.   
+5. Harmonious Trends: Server consolidation is a marketing thrust of IBM, coincid-
+ing with an IT re-centralization trend, and continued interest in eBusiness appli-
+cation development leading to web services.   
+6. Sun has superior price and price-performance.   
+Factors Negative to Sun Microsystems 
+1. More than 90% of the iSeries and AS/400 installed base is a combination of 
+trailing edge, rather-die-than-switch mentality.  These operational managers 
+grew up with the AS/400, have had ten years to evaluate Unix (and by implication 
+Sun), and are not subject to a rational business discussion about the right plat-
+form supplier for their enterprise’s future.   
+2. IBM has done a good job of keeping the iSeries current in hardware and soft-
+ware — successfully transitioning to RISC in the late 1990s and by offering parti-
+tioning, Lotus Domino, native Linux and Java, and management of xSeries serv-
+ers.  These technologies have allowed IBM’s AS/400 to hold off Unix for a decade.  
+
+
+--- Page 8 ---
+Competing for the IBM AS/400 Market 
+ 4 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Soon, IBM will announce that AS/400 customers can have it both ways, with a 
+Regatta-class iSeries server able to run both OS/400 and AIX in different parti-
+tions.   We conclude that a technology-based market attack on the AS/400 would 
+be relatively easy for IBM to deflect.  
+3. The AS/400 market is not static.  IBM allows district sales and country offices to 
+experiment with new marketing and customer support programs as buyer inter-
+ests and economic conditions change.   
+4. IBM Global Services is a major recommender of ISV-based solutions sales.  They 
+work with IBM business partners, and wouldn’t think of recommending Sun. 
+5. About 85%-90% of iSeries sales are made by IBM business partners located in 
+some 150 countries.  IBM treats most ISVs as VARs, creating an economic incen-
+tive for the business partner to win with IBM.  The iSeries is truly a global busi-
+ness for IBM, and Sun will have to be very aggressive to match IBM’s coverage.   
+6. The lease renewal window which opened up for post-Y2K replacements is clos-
+ing.  Three-year leases have already rolled.  Five-year leases are up this year and 
+next year.   
+Sun's Addressable Market and Opportunity Size  
+Table 13 depicts in tabular form Aberdeen’s analysis of the market opportunity and siz-
+ing for Sun based on flat IBM revenues for the iSeries in 2002 at $10.27 billion.  Our 
+conclusion is that the addressable market for Sun in 2002 is $1.87B: 
+• New Customers — represent 10% of iSeries revenues, $1,027M.  We believe 
+Sun can address 90% of this market, yielding an addressable market of 
+$924M.   
+• Consolidation — represents 6% of IBM iSeries revenues.  We believe 65% is 
+addressable by Sun, yielding an addressable market of $400M.   
+• Applications — CRM, EAS, SCM, and B2B represent 11% of iSeries revenues.  
+We believe that 40% is addressable, yielding an addressable market of $452M.   
+• Upgrades — Hardware and software upgrades related to Linux and xSeries 
+management are estimated at 3% of revenues.  This is the only portion of iS-
+eries upgrades we find attractive.  But selling Sun platforms as upgrades into 
+iSeries shops is a low yield proposition, so we estimate only 30% is address-
+able — yielding $92M in addressable market for Sun.   
+Installed Base Migration is an Unattractive Market 
+iSeries customers leaving the IBM installed base are not covered in the addressable 
+market above.  First, we do not observe an identifiable class of dissatisfied iSeries users, 
+so we cannot define an addressable market.  Second, iSeries attrition to other platforms 
+is already addressed by Unix and Windows NT competitors, so those sales are already 
+
+
+--- Page 9 ---
+Competing for the IBM AS/400 Market 
+ 5 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+being counted.  Third, 75% of the installed base is in a low-growth/no-growth state of 
+inertia.  These customers are happy with their AS/400s and see little need to upgrade, 
+let alone switch to Sun. 
+Recommended Market Strategy for Sun Microsystems 
+Aberdeen Group’s recommended market strategy is to target selected segments of the 
+iSeries market, as identified in the Addressable Market Opportunity section above. 
+1. New Customers 
+IBM wins new customers through its worldwide business partner organization.  Sun has 
+been and is already competing for these sales.  Follow IBM, and partner with a selected 
+set of IBM’s partners (e.g., Sun at J. D. Edwards). 
+2. Applications — CRM, EAS, SCM, B2B 
+IBM, Sun, and Aberdeen all believe there is an attractive market for enterprise applica-
+tions encompassing customer relationship management, ERP and enterprise applica-
+tions, supply chain management, and business-to-business Internet infrastructure.  
+IBM’s present target is the small-medium business segment of this market.  Aberdeen 
+believes Sun should counter this program with its own. 
+3. iSeries Upgrades — Linux is the Lever 
+In Table 13, we show the addressable market for upgrades as 3% of revenues, worth 
+$308 million, whereas the total upgrades market is more than an order of magnitude 
+greater.  Sun cannot compete for the typical memory, CPU, or storage upgrades.  Sun 
+can compete for Linux and Linux appliance business, with a projected capture of $92 
+million.  IBM supports Linux on the iSeries as a guest OS.  But IBM has done a poor job 
+of packaging Linux with appliance functionality.  We believe the overall enterprise level 
+of interest in Linux, and the number of Linux-based applications, will skyrocket.  Sun’s 
+market opportunity is to offer Linux to iSeries customers as an alternative to IBM’s OS 
+upgrade.   
+4. Consolidation 
+Consolidation often means centralizing small, distributed AS/400 system workloads 
+back to a central data center.  Sun is well positioned for enterprise-class, mission-critical 
+commercial computing.  A key technology and services issue will be the ability to mi-
+grate existing applications off of the AS/400 and onto Solaris, but Sun has considerable 
+experience in its successful mainframe migration program. 
+Market Partner Strategies  
+Sun has to fight IBM’s business partner “fire” with like fire: any Sun program that is not 
+partner-driven will either fail or not reach the potential market.  The key to the iSeries 
+castle is through business partners. 
+
+
+--- Page 10 ---
+Competing for the IBM AS/400 Market 
+ 6 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Systems Integrators 
+Sun already has business relationships with the major global systems integrators.  Ac-
+centure, for example, has considerable experience with both iSeries and SPARC Solaris.  
+Because the SIs are often called in to do the huge services portion of enterprise applica-
+tions, they represent a short list for frank discussions.  The SIs are a leverage point in 
+the new-application market opportunity, where CRM, EAS, SCM, and B2B applications 
+at the F2000 represent hundreds of millions in server revenues over the next several 
+years. 
+ISVs and VARs 
+Any strategic move by Sun into the iSeries market would require a comprehensive com-
+parative analysis of the IBM and Sun business partner programs, with a special empha-
+sis on ISVs.  IBM treats most ISVs like VARS, even if IBM gets the lead and does some of 
+the selling, spreading enough money around to represent a serious portion of the ISV’s 
+marketing budget.  Therefore, Sun needs to dissect IBM’s business partner program in 
+order to know the facts before it can develop a comprehensive counter program. 
+IBM’s top-tier iSeries business partners are shown in Appendix B.  A number of these 
+(e.g., J.D. Edwards) are also members of iForce.  Since these top business partners drive 
+a large fraction of new iSeries sales, Sun should focus on these ISVs first.  The smaller or 
+more specialized ISVs are available by vertical market at IBM’s business partner web 
+site. 
+ 
+ 
+ 
+
+
+--- Page 11 ---
+Competing for the IBM AS/400 Market 
+ 7 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Detailed Market Overview 
+Worldwide IT Spending 
+The March 2002 report by Aberdeen Group, World IT Spending 2002-2005: Timing the 
+Recovery, was used for sizing the world market and world geographies.  This report is 
+incorporated herein, and the report will be referred to as WITS. 
+Hardware, Software and Services 
+For 2001 to 2005, hardware spending growth will be eclipsed by expansion in software 
+and services spending (Figure 1).  Software sales will experience a CAGR of 8.1%, while 
+services will increase at a CAGR of 4.8% and hardware will grow at a CAGR of 2.1%.  Or, 
+from another perspective, suppliers over the same timeframe are competing over $83.4 
+billion in additional software spending, $89.1 in new services revenues, and only $47.8 
+in additional hardware spending. 
+Figure 1 — Hardware, Software and Services Spending – World 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Source:  Aberdeen Group, March 2002, WITS 
+AS/400 and iSeries Installed Base 
+IBM has shipped 750,000 AS/400’s and iSeries machines since June 1987, with 250,000 
+installed since 1998.  IBM says that 450,000 machines are known to IBM, and are con-
+sidered the “installed base” by IBM.  Of those 450,000, about 25,000 use the latest re-
+$0
+$200
+$400
+$600
+$800
+$1,000
+$1,200
+$1,400
+$1,600
+US$ billion
+Services
+$394.6 $426.5 $428.6 $445.7 $470.1 $492.6 $517.7
+Software
+$197.4 $221.2 $228.9 $241.0 $261.4 $290.3 $312.3
+Hardware $525.3 $552.3 $545.1 $553.0 $567.2 $577.6 $592.9
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+
+
+--- Page 12 ---
+Competing for the IBM AS/400 Market 
+ 8 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+lease of the OS/400 operating system, and thus could be considered “current genera-
+tion”.  The machines are spread over 250,000 customers, or roughly two machines per 
+customer. 
+The base is dramatically skewed, with the vast majority of units being 1- and 2-way ma-
+chines, while the bulk of the revenue comes from the larger 8X0 models which are used 
+by F2000 companies in up to 24-way configurations. 
+AS/400 and iSeries Market Size 
+We estimate that in 2001 the iSeries hardware generated $7.68 billion in revenue repre-
+senting 23% of IBM’s hardware revenues, and $2.59 billion in software representing 
+20% of 2001 software revenues.  This makes the iSeries a $10.27 billion business for 
+IBM.  We estimate a gross margin contribution of $7.2 billion — and a COGS of 30%.  
+This high gross margin fuels significant IBM marketing programs. 
+IBM-provided services add billions to this, plus value add by business partners.  The en-
+tire iSeries ecosystem is over $20 billion — and roughly the size of Sun Microsystems. 
+
+
+--- Page 13 ---
+Competing for the IBM AS/400 Market 
+ 9 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Market Segmentation 
+Business Size 
+Aberdeen has analyzed IBM’s business size definitions, which define Small Business as 
+1-99 employees, Medium Business as 100-999 employees and Large Business as 1,000 
+or more employees.  A historical analysis of IBM’s fifteen year experience with the 
+AS/400 and iSeries reveals that the iSeries installed base — and current sales — are not 
+distributed as the total market by business size.  The AS/400 market is strongly skewed 
+towards the mid-market.  IBM estimates of the growth by business size breakdown are 
+shown in Table 2.   
+Table 2 — Segmentation by Business Size 
+Customer Set 
+CAGR 02-05  
+Intel Servers 
+CAGR 02-05  
+All Servers 
+Small Business (1-99 employees) 
+17.4% 
+9.5% 
+Medium Business (100-999 employees) 
+8.6% 
+6.8% 
+Large Business (1000+ employees) 
+12.8% 
+4.2% 
+Government 
+10.2% 
+4.2% 
+Source: IBM 
+The distribution of market opportunity according to IBM is distributed as shown in  
+Table 3.  IBM considers Table 3 the addressable market for the iSeries. 
+Table 3 — iSeries Addressable Market According to IBM 
+Customer Set 
+Market Opportunity 
+2002 $B 
+Small Business (1-99 employees) 
+$15.1 
+Medium Business (100-999 employees) 
+$09.5 
+Large Business (1000+ employees) 
+$19.4 
+Government 
+$12.1 
+Total 
+$56.1 
+Source:  IBM Market Intelligence 
+Aberdeen Group’s analysis of the demographics of U.S. businesses as provided by the 
+federal government are shown in Appendix A.  We do not have comparable information 
+for Europe and Asia. 
+
+
+--- Page 14 ---
+Competing for the IBM AS/400 Market 
+ 10 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+AS/400 Market Verticals 
+IBM is very focused on selling effectively into vertical markets.  The iSeries is especially 
+strong in wholesale/retail distribution, manufacturing, healthcare, and telco billing.  The 
+only area of relative weakness is in the high-tech vertical market. 
+IDC is apparently undercounting AS/400’s, as they have only identified 226,000 servers 
+in data provided Aberdeen Group by Sun, while IBM claims 450,000 active systems.  
+The following table shows our estimates for the installed base of AS/400’s and iSeries 
+machines based on factoring IDC’s numbers to the 450,000 base, and IBM and Aber-
+deen estimates for market share penetration by vertical market. 
+Table 4 — iSeries & AS/400 Vertical Market Distribution 
+IBM Vertical 
+WW Base 
+Percent of Base 
+Est. Market Share 
+Manufacturing 
+112,227 
+24.9% 
+16% 
+Financial 
+70,938 
+15.8% 
+12% 
+Retail/Wholesale 
+61,783 
+13.7% 
+16% 
+Health 
+45,837 
+10.2% 
+8% 
+Other 
+42,138 
+9.4% 
+9.5% 
+Professional Services 
+40,198 
+8.9% 
+9% 
+Telco/ISP 
+24,192 
+5.4% 
+4% 
+Computer/IT 
+23,949 
+5.3% 
+3% 
+Government 
+19,341 
+4.3% 
+5% 
+Education 
+9,398 
+2.1% 
+4% 
+Total 
+450,000 
+100.0% 
+ 
+Source: Aberdeen Group, IBM, and IDC 
+Aberdeen Group’s model for IT spending is broken down by the categories shown in 
+Table 5.  Our “Super Groups” consolidate specific industries as shown in the federal 
+government’s Bureau of Economic Analysis’ industrial categorization.  The lines from 
+the BEA form are shown to explain how Aberdeen defines its vertical market model.  
+Included are our estimates of each vertical’s contribution percentage and estimated 
+2001 IT spending for hardware, software and services. 
+
+
+--- Page 15 ---
+Competing for the IBM AS/400 Market 
+ 11 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Table 5 — Aberdeen Group Vertical Market Model 
+Vertical Market 
+Super Group 
+Super 
+Group  
+ % 
+Industry 
+Lines from 
+US Bureau 
+Economic 
+Affairs  
+Table 
+Adjusted 
+IT  
+Spending 
+2001 U.S. IT 
+Spending in  
+$Billions 
+Agriculture,  
+Forestry, Fishing, 
+Hunting and  
+Mining 
+0.51% 
+Agriculture, For-
+estry, Fishing, Hunt-
+ing and Mining 
+4, 8, 11 
+0.51% 
+$2.27 
+Construction 
+3.29% 
+Construction 
+12 
+3.29% 
+$14.73 
+Manufacturing 
+21.27% 
+Aerospace/ 
+Defense 
+23 + Gov. 
+Def. Estimate 
+3.84% 
+$17.21 
+  
+ 
+Automotive 
+22 
+1.14% 
+$5.09 
+  
+ 
+Consumer Pack-
+aged Goods 
+27, 28, 31 
+2.07% 
+$9.28 
+  
+ 
+Other  
+Manufacturing 
+Lines 14 
+through 36, 
+except 21, 
+22, 23, 33 
+and 35 
+11.25% 
+$50.36 
+  
+ 
+Pharmaceuti-
+cal/Chemical 
+33, 35 
+2.97% 
+$13.30 
+Transportation 
+and Utilities  
+5.90% 
+Energy 
+9, 10, 50 
+3.61% 
+$16.18 
+  
+ 
+Transportation and 
+Warehousing 
+39, 40, 41, 
+42, 43, 46 
+2.29% 
+$10.23 
+Financial  
+Services 
+17.06% Banking 
+54 
+5.63% 
+$25.22 
+  
+ 
+Brokerage and Se-
+curities Services 
+55, 56, 62 
+7.54% 
+$33.75 
+  
+ 
+Insurance 
+57, 58 
+3.89% 
+$17.42 
+Business  
+Services 
+10.08% 
+Other Business Ser-
+vices (non-
+66, 72 Minus 
+IT consulting 
+5.65% 
+$25.28 
+
+
+--- Page 16 ---
+Competing for the IBM AS/400 Market 
+ 12 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Vertical Market 
+Super Group 
+Super 
+Group  
+ % 
+Industry 
+Lines from 
+US Bureau 
+Economic 
+Affairs  
+Table 
+Adjusted 
+IT  
+Spending 
+2001 U.S. IT 
+Spending in  
+$Billions 
+Financial) 
+  
+ 
+Media/PR 
+49, 69 
+1.27% 
+$5.67 
+  
+ 
+Real Estate 
+59 
+3.17% 
+$14.18 
+Information Tech-
+nology 
+10.92% 
+IT Services/ 
+Consulting 
+WITS Calc 
+1.65% 
+$7.40 
+  
+ 
+Computer Hard-
+ware/Software 
+WITS, In-
+cludes part of 
+line 21 
+4.52% 
+$20.24 
+  
+ 
+Telecommunica-
+tions Equipment 
+and Services 
+48 + $50 
+Other; In-
+cludes part of 
+Line 21 
+4.75% 
+$21.25 
+Wholesale/ 
+Retail 
+15.47% Retail 
+52 
+7.40% 
+$33.13 
+  
+ 
+Air Travel and Hos-
+pitality 
+44, 64 
+1.70% 
+$7.60 
+  
+ 
+Wholesale Trade 
+51 
+6.38% 
+$28.55 
+Healthcare 
+5.17% 
+Healthcare 
+71 
+5.17% 
+$23.16 
+Government and 
+Education 
+5.24% 
+Education 
+73 
+0.37% 
+$1.66 
+  
+ 
+Government 
+79 - part of 
+Aerospace/ 
+Defense 
+4.87% 
+$21.79 
+Other 
+5.08% 
+Other 
+65, 67, 68, 
+70, 74, 75, 
+76, 77 
+5.08% 
+$22.74 
+ 
+100.00% Total/Ave 
+ 
+100.00% 
+$447.7 
+Source:  Aberdeen Group Vertical Market base research, WITS, U.S. BEA 
+
+
+--- Page 17 ---
+Competing for the IBM AS/400 Market 
+ 13 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries by Application 
+In addition to providing vertical market solutions through business partners for the ver-
+ticals discussed above, IBM has a worldwide program underway to gain market share in 
+CRM, SCM, B2B, and enterprise applications (integrated ERP).  IBM believes the solu-
+tions opportunity approximates Table 6. 
+Table 6 — Application Solutions Opportunity 
+$B 
+2001 
+2002 
+2003 
+2004 
+2005 
+CAGR 
+CRM 
+34 
+42 
+52 
+63 
+75 
+22% 
+EAS 
+23 
+25 
+29 
+33 
+37 
+12% 
+SCM 
+15 
+20 
+26 
+33 
+35 
+23% 
+B2B 
+4 
+6 
+7 
+9 
+11 
+26% 
+Source:  IBM 
+Aberdeen believes these CAGR estimates are inflated by pre-recession optimism.  How-
+ever, we do not dispute IBM’s conclusion that these are the correct four new horizontal 
+application areas.  Our conclusion is that Sun should fight IBM for this new business at 
+iSeries customers. 
+In addition to verticals, IBM is focusing on horizontal opportunities:  
+• business intelligence (as part of CRM) 
+• e-mail and collaboration, particularly with Lotus Domino 
+• Server consolidation, centralizing distributed systems and managing Intel-
+based xSeries systems running Windows NT 
+• Linux-on-iSeries as an alternative to adding more servers (with higher cost of 
+administration) specifically for Linux applications. 
+iSeries by Geography 
+Our forecasts for worldwide and geographical breakdown of IT spending are contained 
+in WITS.  Aberdeen’s key findings from that March 2002 report are as follows: 
+• IT spending will begin to recover in 2002.  Worldwide IT spending in 2001 
+grew at a meager 0.2%, while declining 0.4% in the US.  In 2002, Aberdeen 
+forecasts that world IT spending will grow at 3.1% and US spending will in-
+crease at 4.3%. 
+• The real IT spending recovery will begin in the second quarter of 2002.  Ab-
+erdeen expects US spending to improve 3.9% when measured against Q2 
+2001 and world IT spending to increase by 2.7%. 
+
+
+--- Page 18 ---
+Competing for the IBM AS/400 Market 
+ 14 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+• But long-term growth rate will be less than that experienced in the late 
+1990’s.  Aberdeen does not forecast a return to double-digit growth rates.  
+Rather, we believe that for 2003 – 2005, world IT spending will increase at an 
+annual rate of 4% to 5% and US spending will grow at 5% to 6%. 
+• The factors contributing to excessive growth in the late 1990s are not re-
+peatable.  These elements included corporate retooling around Y2K issues, 
+the Internet/e-Commerce euphoria phenomenon, excessive venture capital 
+investment in dot.coms, traditional enterprises accelerating e-business de-
+ployments to match the dot.com threat, and unsustainable IT spending in the 
+telecom sector. 
+• Long-term IT spending is gated by GDP growth and corporate revenue 
+growth.  IT spending now accounts for 3.85% of world GDP and 4.65% of US 
+GDP.  Additionally, the US Department of Commerce reports that over 65% of 
+US GDP consists of consumer spending, making IT an even greater percent-
+age of business spending and investment.  IT spending decisions now factor 
+heavily into total business expenses and must be budgeted accordingly. 
+• As a result, sub-segments exhibiting hyper-growth will do so at the expense of 
+others.  IT spending is no longer a tide that will raise all boats.  Supplier 
+competition over limited budget dollars will get increasingly fierce. 
+• China’s importance will increase dramatically.  Aberdeen expects that 
+China will vault from the seventh largest market for IT products and services 
+(in 2001) to the fourth largest market by 2005, surpassing the UK, France and 
+Italy. 
+• Japan continues to languish.  A decade of low growth and capital invest-
+ments has taken it toll.  Japan lags other developed nations in current IT 
+spending and will not return to positive growth levels until 2003. 
+• The top 10 countries account for nearly 75% of world spending.  The U.S. 
+alone accounts for 37.5%.  Obviously, IT spending power is concentrated in a 
+handful of markets. 
+• The U.S. will lead the recovery.  Aberdeen expects that US IT spending 
+growth will exceed the world average for 2002 – 2005. 
+• Software and services spending gain at the expense of hardware.  World-
+wide, hardware expenditures will increase a total of only 8.7% from 2001 to 
+2005, while software and services will increase 36% and 21% respectively over 
+the same time period. 
+Aberdeen estimates iSeries hardware and software revenues for 2002 as depicted in Ta-
+ble 7.  In general, the SMB market focus of IBM tends towards lower-end machines in 
+EMEA and AsiaPac.  However, large, national industries such as banking make the iSer-
+ies high end a commonly found machine in every major geography.  Brazil and India 
+
+
+--- Page 19 ---
+Competing for the IBM AS/400 Market 
+ 15 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+have a relatively sparse AS/400s and iSeries installed base due to past government mar-
+ket limits on imports.  China is attractive for growth rates and low technology skills for 
+operation and administration, which IBM views as iSeries strengths. 
+Table 7 — iSeries Distribution by Model and Geography 
+Model 
+($Ms) 
+2001 Revenue  
+North America 
+EMEA 
+Asia Pacific 
+250 
+$250  
+$90  
+$95  
+$65  
+270 
+$3,500  
+$1,225  
+$1,330  
+$945  
+820 
+$2,500  
+$1,000  
+$975  
+$525  
+830 
+$2,018  
+$807  
+$807  
+$404  
+840 
+$2,000  
+$840  
+$800  
+$360  
+Total 
+$10,268  
+$3,962  
+$4,007  
+$2,299  
+Aberdeen Group estimates 
+Segment-Specific AS/400 Penetration 
+As shown in Table 4, Vertical Market Base, almost 55% of AS/400s are from the following 
+industries: 
+1. Manufacturing — across the whole gamut of this “horizontal” vertical, IBM part-
+ners have applications for all aspects of process, discrete, batch, build-to-order, 
+shop floor control, and specialty manufacturing.  Inventory control is probably 
+the most common use of the AS/400, along with financials. 
+2. Finance — industry-specific applications for retail and wholesale banking and in-
+surance are most common.  These applications exist in many countries where 
+they have been tailored to local business and regulatory requirements. 
+3. Wholesale/Retail/Distribution — more inventory control, warehouse control, 
+POS, and financials. 
+Many of the iSeries customers are SMBs, where the cost of a large IT staff is not afford-
+able. 
+Overview of ISV AS/400 Offerings And Support 
+The iSeries offering is broad, and delivered in almost every country.  Key attributes are: 
+• Five models scaling 500-fold from roughly 400 TPM-C to 200,000, with base 
+prices starting under $10,000 (more like $15,000 configured). 
+• Full complement of peripherals. 
+
+
+--- Page 20 ---
+Competing for the IBM AS/400 Market 
+ 16 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+• Native support for IBM’s eBusiness infrastructure. 
+• A mature commercial operating system with an embedded (object-)relational 
+database. 
+• Logical Partitioning (LPAR), the industry’s finest granularity in partitioning, is 
+tested and mature. 
+• Native support for DB2, Lotus Domino, Linux, and support for directly man-
+aging farms of Intel/Microsoft servers. 
+• Participation in IBM’s eLiza technology initiative for self-managing computing 
+systems. 
+• Extensive IBM Global Services provided worldwide, including training, instal-
+lation, sizing and capacity planning, best practices, and outsourcing. 
+• One of the industry’s leading business partner programs, empowering part-
+ners around the globe with incentives and marketing.  The ISV partner pro-
+gram over  fifteen years has resulted in thousands of specialized applications.  
+Partners are also a key component of the service and support infrastructure, 
+typically providing first-level support. 
+• A mature and broad set of application development tools from IBM and part-
+ners for the development of modern eBusiness applications using Web infra-
+structure as well as legacy, dumb-terminal applications. 
+iSeries Market Trends  
+Aberdeen believes that overall AS/400 and iSeries revenues have declined approximately 
+25% since the high-water mark of 1998 when pre-Y2K purchases drove hardware and 
+software revenues to $13.5 billion.  This gradual decline is caused not by loss of cus-
+tomer confidence in the iSeries but by the relentless pressure of more performance for 
+a lower price.  Even the pricey iSeries is not immune to industry trends.  Nevertheless, 
+the profits from the iSeries are critical to IBM’s overall results, so we believe IBM will 
+continue to invest in iSeries technology and marketing.  We estimate marketing pro-
+grams in 2002 at the $750 million level, enough to keep business partners and IBM 
+sales focused on churning the installed base. 
+The primary reasons for installed base erosion are: 
+• Server consolidation is removing thousands of distributed systems.  This 
+trend will continue and is an attractive opportunity for Sun. 
+• Windows NT has captured a small percentage of smaller sites due to either 
+better price-performance and/or superior selling by the Microsoft business 
+partner. 
+• Replacement of older applications by newer applications, often in conjunc-
+tion with server consolidation, in the past led to some off-migration.  For ex-
+ample, Bristol Meyers Squibb replaced 125 country-level servers running the 
+
+
+--- Page 21 ---
+Competing for the IBM AS/400 Market 
+ 17 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+BPICS software from System Software Associates (since bankrupt) with three 
+data centers running SAP R3 on Unix. 
+Growth of the base is primarily due to: 
+• Emerging markets, particularly in Asia (e.g., China) where rapid business 
+growth drives bigger businesses and distributed sites at new offices and 
+plants. 
+• Normal business changes such as mergers and acquisitions, and normal busi-
+ness growth.  For example, Microsoft to this day produces its distributor in-
+voices on an iSeries that has been upgraded several times over the past dec-
+ade. 
+• New conquests by an expanding business partner family.  Called the iNation, 
+IBM is calling attention to the unique iSeries ecosystem of product, partners, 
+and customers. 
+• The new conquests are often in the global SMB markets, where the breadth 
+and depth of the iSeries business partners pays off on the margin. 
+• The IBM mantle of service and support continues to attract a percentage of 
+new customers who are ready, willing, and able to pay extra for the privilege 
+of having IBM service them.  
+Current and Anticipated Migration Patterns 
+Incoming Migration 
+The factors effecting incoming migration are discussed above.  There is no discernable 
+trend towards the iSeries and away from any other platform.  The exception is “other 
+proprietary platforms”.  IBM has already targeted the HP 3000 installed base due to the 
+similarities with the AS/400 base: many F1000 customers; running large and profitable 
+systems; mission-critical computing; mature and sensitive to an IBM services-led propo-
+sition; unwilling to go to Microsoft.  There are other occasional wins as aged Unisys, 
+Wang, Data General, Siemens-Nixdorf, Groupe Bull, ICL, and Digital Equipment ma-
+chines are replaced. 
+Outgoing Migration 
+There is no significant out-migration to other platforms.  IBM co-opted the Windows NT 
+platform by allowing the iSeries to directly attach to Intel/Windows servers, sharing 
+storage, and allowing the iSeries console to manage the attached NT systems.   
+iSeries shops evaluated Unix over the last ten years and made their choice: there is 
+nothing to gain in pitching Solaris per se to AS/400 shops.  IBM now supports Linux as 
+a native OS in its own partitions on every iSeries machine.  In addition, we believe that 
+AIX will become available on new POWER4-based iSeries machines within the next 
+eighteen months. 
+
+
+--- Page 22 ---
+Competing for the IBM AS/400 Market 
+ 18 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Market's Ability To Provide In House AS/400 Technical Support 
+The AS/400 base is a hodge-podge of different development technologies:   
+• The old-timers (and there are many MIS managers who will retire before their 
+AS/400 is replaced with some different architecture) still use RPG and the 
+powerful OS/400 Command Line Interpreter for ad hoc work.  New RPG pro-
+grammers are not being trained in colleges or technical schools, so this de-
+velopment pool is graying — or doing in-house training. 
+• COBOL is another major development language having fewer legacy prob-
+lems on the iSeries than the AS/400, but which suffers the same no-new-
+programmers problem as RPG, but has a somewhat larger base. 
+• C has been supported for a decade, and is widely used by ISVs. 
+• Java and IBM’s WebSphere are fully supported, as is Lotus Notes and Domino.  
+There are extensive training programs since IBM wants to move its entire 
+eServer platform base to these lock-in development tools. 
+We do not rank the ability to provide technical support as high on the list of potential 
+Sun value propositions. 
+Overview Of Other Market Characteristics 
+Business Partners 
+Business Partners are inextricably tied to the AS/400 market.  About 85% of sales are 
+made through partners.  In the past year, IBM has rather aggressively responded to 
+partner complaints about sharing the pie and IBM’s investments: 
+• Implemented $18M in investment-based incentives 
+• Increased incentives by 34% 
+• Gave revenue credit to partners for $225M in ibm.com revenue 
+• Implemented a new territory model where partners are given opportunity 
+management and control 
+• Offered a technology refresh with a 63% discount on an i820 base system, 
+plus $58,000 in free WebSphere, Linux, and Notes Domino software, and a 
+free integrated xSeries server to push development. 
+Platform Transition 
+The impending announcement of iSeries servers based on the POWER4 microprocessor 
+will extend the performance range of the iSeries product line, and signal IBM’s contin-
+ued investment in the iSeries.  This is both symbolic and important to the installed base, 
+as any indication of an iSeries “end of life” (i.e., what HP did to the HP 3000 base) 
+would be an opportunity Sun could not afford to pass up.  There is no iSeries end of 
+life on the horizon.  Sun should look at the p690 and p670 as the basis for comparable 
+midrange and high-end future iSeries. 
+
+
+--- Page 23 ---
+Competing for the IBM AS/400 Market 
+ 19 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Competitive Assessment 
+IBM's AS/400 Strategy 
+2002 Strategic Game Plan for iSeries and AS/400 
+Our assessment of IBM’s big thrusts this year: 
+Server Consolidation:  Replacing older AS/400s, often distributed to line-of-business lo-
+cations (e.g., retail stores) with data center large servers.  A win in server consolidation: 
+protects the customer; sells a new generation of technology; and, doubles the hard-
+ware/software sale through services.   
+Typically IBM proposes to move old AS/400-proprietary workloads to the new server 
+first.  Note that a Sun sales efforts will likely fail on the inability to run the existing 
+workloads.  Then, IBM will upsell on the large server’s ability to support: 
+• Linux 
+• LPAR (logical partitioning) ability to segregate and manage workloads 
+• X86 applications with Windows NT.  IBM is running CIO seminars aimed at 
+proving the iSeries has lower TCO when managing attached Wintel servers. 
+• Lotus Mail and iNotes 
+• High Availability configurations (i.e., clusters, partitions) 
+• New-breed applications using IBM’s web services (e.g., WebSphere). 
+e-Infrastructure:  Notably, IBM’s: 
+• e-outsourcing services 
+• WebSphere projects and client retraining 
+• Third-party application rebuilding products such as Lansa and eOne. 
+Competitive Target of Opportunity:  IBM is targeting HP’s 3000 installed base since HP 
+has declared the 3000 obsolete.  IBM believes they can knock HP 9000s out of accounts 
+that are disgruntled about the HP 3000 decision (including many F1000 companies). 
+IBM also continues to invest in new ISV recruitment and in building the eServer brand 
+(so that the proprietary AS/400 no longer stands out like a sore thumb). 
+SMB New-Market Growth:  Notes Domino (including dedicated servers), WebSphere 
+Portal,  and Navision lead the charge.  IBM believes there is a $19B iSeries server oppor-
+tunity this year at companies with fewer than 100 employees, and a $12B opportunity 
+with businesses that are 100-999 employees.  The SMB market has been a key focus for 
+IBM for some years, and IBM’s marketing and partner programs towards the SMB mar-
+ket are mature. 
+New Focus on Small Businesses:  Defined as up to 99 employees, IBM believes there are 
+over 100 small businesses for every large one.  Unix and iSeries represent a $8.1B op-
+
+
+--- Page 24 ---
+Competing for the IBM AS/400 Market 
+ 20 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+portunity in 2002.  There are 7.4M small businesses in  the U.S. and over 21M in EMEA 
+(IBM research).  IBM is focusing on two categories: 
+• Premium IT Solution Adopters represent 5% of the category but 37% of server 
+spending.  These are looking for best of breed solutions which enable busi-
+ness processes, provide high reliability and high performance, but are highly 
+demanding of IT deployment and consulting support. 
+• Value-minded adopters represent 9% of the universe and one-third of server 
+opportunity.  They are characterized as seeking best of breed IT products and 
+services, but value-pricing branded products and services is critical. 
+• The two categories above are also looking for Wintel servers, which the iSer-
+ies manages rather elegantly. 
+Enterprise Application Solutions:  Key solutions providers are J.D. Edwards, IBS, Inten-
+tia, SAP, Siebel, Manhattan Associates, and other CRM/BI, ERP, and SCM ISVs.  These are 
+assessed at $6B for ERP, $5B for CRM and $3B for SCM. 
+Y2K Era Replacements:  About 62% of the AS/400s purchased in anticipation of Y2K 
+were financed with three and five year leases.  These machines are late in their lease re-
+newal periods, or recently rolled over.  IBM Finance wins if the lease is renewed.  IBM 
+product groups win if the machine is replaced.   
+Unfortunately from a timing standpoint, a Sun attack campaign will find many machines 
+recently upgraded or refinanced and thus largely untouchable. 
+More LPAR:  The fine granularity of the iSeries logical partitioning will also be available 
+on the Unix pSeries this fall.  IBM intends to make a major differentiation campaign in 
+comparison to other Unix and Wintel alternatives.  IBM finds that its LPAR technology 
+story is easy to make to both technologists and line managers.  But note that only 20% 
+of iSeries machines actually leave the factory with LPAR turned on. 
+Europe is the Battleground 
+Any battle for the iSeries market must be won in Europe.  Key factors include: 
+• IT spending in Europe is about one-half that of the U.S., and can be used to 
+offset difficult labor and regulatory polices.   
+• Europe has twice as many SMB companies — some 21,000 — as in the U.S., 
+which are the prime target for IBM. 
+• European Community-driven consolidation across Europe is occurring, driv-
+ing business away from traditional “national” brands like Olivetti and Groupe 
+Bull and towards multi-national brands. 
+• While Unix revenue was flat in 2001, iSeries was up 5% — an incremental 
+$250M — while partners saw 11% Year-over-Year growth to $5.5B. 
+• Two-thirds of customer projects require an ISV or partner solution. 
+
+
+--- Page 25 ---
+Competing for the IBM AS/400 Market 
+ 21 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+AS/400 Channel and Selling Strategies 
+Selling Strategies 
+IBM currently positions the iSeries as having the following advantages, with Aberdeen’s 
+version of Sun’s counter-positioning: 
+Table 8 — iSeries Selling Messages and Counters 
+iSeries Advantages by IBM 
+Draft Sun Advantages/Counterpoint 
+64-bit top to bottom for years 
+Ditto 
+99.94%
++ single server reliability 
+Best data center Unix. Quote “nines”. 
+Scalability with seamless growth 
+Best scalability story in the industry 15K 
+Hardware OS integration, OO architecture 
+That’s the way IBM spells “proprietary!”  SPARC 
+and Solaris are well suited, but Solaris/Sun 
+Linux on Intel makes Sun more open 
+Single-level storage 
+64-bit file system.  The advantages of single-
+level storage have eroded over 15 years and 
+are no longer a serious technology leadership 
+factor 
+Dynamic LPAR 
+Solaris has been attacked by university student 
+hackers for years.  Solaris processes can be 
+controlled a lot like OS/400 partitions.  And 
+Sun’s partitioning is less likely to take down the 
+whole system than IBM’s share-a-processor 
+approach. 
+Multiple NOS support 
+We support Linux too.  [Sun: Insert Windows NT 
+support here] 
+IXA adapter support for Windows NT consolida-
+tion 
+[Sun: Insert Windows NT support here] 
+Thousands of ISV solutions 
+Ditto. 
+ 
+Over 85% of iSeries machines are sold through the business partner channel.  IBM di-
+rect sales reps get revenue credit for sales over $25,000 too, so everybody has some skin 
+in the game.  There is an elaborate lead referral program to the business partners, and 
+extensive pre-sales support, benchmark centers, multi-partner coordinated selling, 
+seminars, etc.  We would hold up the iSeries business partner program against any in 
+the industry for its overall success.  However, the scope of this project does not include 
+a detailed analysis of the business partner programs of IBM and Sun with an eye to-
+wards gap analysis or SWOT (strengths, weaknesses, opportunities, threats). 
+
+
+--- Page 26 ---
+Competing for the IBM AS/400 Market 
+ 22 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries Product Line 
+Common iSeries Features 
+Common to all of the models discussed below are: 
+• A sophisticated machine architecture that hides the hardware from the appli-
+cation and most OS functions. 
+• High-level language programming in C, Java, COBOL and legacy RPG; 
+• OS/400, a multi-user, multi-process OS with a long heritage of symmetric mul-
+tiprocessing.  OS/400 administration is considered particularly easy, and job 
+control is sophisticated.  Administration TCO is considered very low, and a 
+point of customer admiration. 
+• A relational database, DB2/400, included with the OS.  It is compatible with 
+other implementations of DB2, but may not follow the same release cycle. 
+• An unusual single-level storage architecture that spreads data across all avail-
+able disks, then takes advantage of the many disk arms to lower I/O conten-
+tion.  Maximizing CPU utilization on an iSeries always requires a room full of 
+disk drives. 
+• Optional licensed support for “interactive workloads”, IBM’s terminology for 
+legacy dumb-terminal applications.  The license fees slide up with the num-
+ber of simultaneous interactive users. 
+• Full, native support of IBM’s middleware, especially WebSphere and Lotus 
+Domino. 
+• Industry-standard desk-side and rack enclosures. 
+iSeries Models and Comparison 
+Table 9 depicts the five models of the iSeries product.  Prices are U.S. list for a bootable 
+but minimum system.  The 250 is a uniprocessor, low-entry-price model used for devel-
+opment and low-volume distributed sites.  The 270 is a one- or two-way system that is 
+very popular with ISVs, and the volume leader in IBM’s valued SMB market.  The 2x0 
+machines compete with Sun’s Netra line.  The 8X0 machines are rack-mounted, data 
+center symmetric multiprocessors which compete with Sun’s midrange V880, 4800 and 
+6800.  Aberdeen anticipates that the forthcoming iSeries 32-way models based on the 
+POWER4 microprocessor will achieve 375,000 TPM-C — somewhat lower than the AIX 
+version.  This will move the iSeries competition up into the Sun Fire 12000 and 15000 
+family. 
+
+
+--- Page 27 ---
+Competing for the IBM AS/400 Market 
+ 23 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Table 9 — iSeries Models and Comparison to Sun 
+Model 
+Processors 
+Base $ 
+(000s) 
+2001 Revenue 
+($Ms) 
+Sun Model 
+Comparable 
+250 
+1 
+$9-14 
+$250  
+Ultra 10 
+270 
+ 1-2 
+$12-33 
+$3,500  
+220R 
+820 
+ 1-4 
+$64-267 
+$2,500  
+V880 
+830 
+ 1-8 
+$145-580 
+$2,018  
+4800 
+840 
+ 1-24 
+$860-1,555 
+$2,000  
+6800 
+Source Aberdeen Group 
+Performance and Price 
+It is impossible with public results to overlay the Sun and IBM iSeries product lines.  
+Nevertheless, this section contains our analysis based on available information.   
+IBM has done workload characterization on all of its iSeries machines for years, and the 
+company regularly publishes results in the form of a Commercial Processing Workload 
+(CPW) for every model.  Appendix B contains an analysis of the present iSeries product 
+line with base pricing (CPU, base memory and cabinet, and minimum disk) as published 
+at IBM’s web site. 
+Based on the SAP SD benchmark of a fully loaded iSeries 840 and a fully loaded Star 
+Fire 15000, each Star Fire CPU does 96% of the work of an iSeries 840 CPU, as illus-
+trated in Figure 10. 
+Figure 10 — SAP SD Benchmark Results 
+Source:  Aberdeen and SAP 
+16,000
+16,500
+17,000
+Sun
+IBM
+Per CPU (SAP-SD)
+
+
+--- Page 28 ---
+Competing for the IBM AS/400 Market 
+ 24 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+There are no TPC benchmarks for comparison.  However, a Sun relative, the Fujitsu 
+Primepower provides a useful reference point, as depicted in Table 11. 
+Table 11 — TPC-C Benchmark Comparison 
+Product 
+CPUs 
+MHz 
+TPM-C 
+$/TPM-C 
+TPM-C/ CPU 
+Fujitsu Primepower 2000  
+128 
+563 
+455,818 
+$   28.58 
+3,561 
+IBM 840-2420  
+24 
+450 
+163,776 
+$   51.58 
+6,824 
+Source: Aberdeen and TPC 
+Based on the Notesbench Consortium’s Notesmark, a fully configured V880 costing  
+$176,000 does almost 20% of the work of a 24-way iSeries costing $3.2M.  A 12-way Sun 
+Fire 4800 costing $533,600 does 28% of the work of a 24-way iSeries costing $3.2M.  
+(Note these comparisons are before Sun’s April 2002 pricing action). 
+An analysis of SPEC JBB2000 shows Sun performing well, especially with the latest JVM, 
+where the Sun Fire 6800 has twice the performance per CPU as the high-end iSeries 
+840-2420.  By positioning with the 6800, Sun has competitive room to grow with the 
+12000 and 15000 models.  See Table 12. 
+Table 12 — SPEC JBB2000 Benchmark Selected Results 
+Model 
+CPUs 
+SPEC JBB2000 
+JBB/CPU 
+IBM eServer iSeries 270-2253 
+2 
+7,500 
+3,750 
+IBM eServer iSeries 830-2402 
+4 
+17,864 
+4,466 
+IBM eServer iSeries 830-2403 
+8 
+34,274 
+4,284 
+IBM eServer iSeries 840-2420 
+24 
+80,348 
+3,348 
+Sun Enterprise-10000 
+64 
+230,049 
+3,595 
+Sun Fire 15K 
+72 
+324,309 
+4,504 
+Sun Fire 15K latest code 
+72 
+404,472 
+5,618 
+Sun Fire 6800 
+24 
+174,658 
+7,277 
+Source:  Aberdeen and SPEC 4/9/02 
+ 
+
+
+--- Page 29 ---
+Competing for the IBM AS/400 Market 
+ 25 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Opportunity Assessment 
+AS/400 Displacement Market Opportunity 
+Factors Positive to Sun Microsystems 
+7. Technology Transition: The iSeries is beginning a technology transition that will 
+soon result in common hardware between IBM's Unix pSeries (e.g., p670 and 
+p690 “Regatta”) and Integrated Application iSeries.  The positive aspects of this 
+(see also the negative aspects below) are the increased competition between IBM 
+business partners, caused by the lack of hardware differentiation between pSer 
+ies (AIX Unix) and iSeries.  This will cause IBM business partners to fight over 
+operating systems differences in order to compete.  Some of those business 
+partners will want to switch to Sun in order to create a much greater line-in-the-
+sand differentiation.  Note: our assumption is that hardware commonality will 
+force IBM to narrow the price differences between the pSeries and the more ex-
+pensive iSeries offerings. 
+8. ISV Competition:  By marrying AIX and OS/400 in one chassis (see #1 above), 
+IBM will unwittingly unleash two ISV camps that until this point were largely mu-
+tually exclusive; relatively few customers — and almost no SME customers — 
+have both IBM Unix and AS/400 ISV applications.  As a result, IBM ISVs will see 
+new competition from other IBM business partners.  This situation creates an 
+opportunity for Sun to create fear, uncertainty, and doubt among all IBM busi-
+ness partners, while seriously courting a selected few. 
+9. RAS: The transition to the Regatta micro-architecture means iSeries customers 
+must buy into IBM’s new keep-running-or-fail philosophy — when a hard failure 
+occurs, the Mean Time to Repair will be quite long compared to Sun due to the 
+complexity of the backplane and multi-chip carrier design.  We recommend that 
+Sun begin a market education program about the availability implications of 
+IBM’s new design.  Such a program will pay dividends competing against both 
+the iSeries and the pSeries. (Aberdeen could help with this). 
+10. Linux:  Many iSeries shops made a “no Unix” decision up to a decade ago and 
+stuck with it.  But the rapid emergence of Linux in the enterprise, heartily sup-
+ported by IBM, creates a new opportunity for Sun.  To succeed, Sun’s Intel/Linux 
+offering will have to be superior to IBM’s iSeries-controlling-xSeries-Linux as well 
+as IBM’s native Linux-on-iSeries offering — on economic and technological levels 
+as well as emotional.  We conclude that Solaris-as-Linux could be attractive. 
+11. Harmonious Trends: Server consolidation is a marketing thrust of IBM, coincid-
+ing with an IT re-centralization trend, and continued interest in eBusiness appli-
+cation development leading to web services.  We have seen server-per-country 
+topologies condensed into two or three global data centers.  The data centers 
+
+
+--- Page 30 ---
+Competing for the IBM AS/400 Market 
+ 26 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+require large (profitable) configurations and enterprise levels of availability and 
+serviceability.  The downside is that consolidation typically involves some AS/400-
+specific applications in the initial phase, before a switch is made to eBusiness 
+applications, implying the need to migrate these applications or keep them run-
+ning. 
+12. Sun has superior price and price-performance.  The just announced Oracle 
+benchmarks with the 16-way p670 at 1.1 GHz are only 25% better than an 18-way 
+600 MHz p680 mid-range.  This single data point suggests, on top of a lot of 
+static microarchitecture analysis, that Regatta scaling will be an issue for some 
+time to come — even as IBM transitions the iSeries to Regatta technology.  While 
+price-performance alone is an insufficient weapon to take on  the AS/400 market, 
+it doesn’t hurt at all. 
+Factors Negative to Sun Microsystems 
+7. More than 90% of the iSeries and AS/400 installed base is a combination of 
+trailing edge, rather-die-than-switch mentality.  These operational managers 
+grew up with the AS/400, have had ten years to evaluate Unix (and by implication 
+Sun), and are not subject to a rational business discussion about the right plat-
+form supplier for their enterprise’s future.  And a work-around strategy to go di-
+rectly to the CEO will show few results because the CEO believes IT is under 
+control.  Moreover, many of these Neanderthals are still happily pounding away 
+at green-screen applications — with the implication that a total application mi-
+gration must be part of any Sun attack strategy. 
+8. IBM has done a good job of keeping the iSeries current in hardware and soft-
+ware — successfully transitioning to RISC in the late 1990s and by offering parti-
+tioning, Lotus Domino, native Linux and Java, and management of xSeries serv-
+ers.  These technologies have allowed IBM’s AS/400 to hold off Unix for a decade.  
+Soon, IBM will announce that AS/400 customers can have it both ways, with a 
+Regatta-class iSeries server able to run both OS/400 and AIX in different parti-
+tions.   This will allow IBM customers to mix and match with best-of-breed Unix 
+without giving up the benefits (and familiarity) of the iSeries.  We conclude that a 
+technology-based market attack on the AS/400 would be relatively easy for IBM 
+to deflect.  
+9. The AS/400 market is not static.  IBM allows district sales and country offices to 
+experiment with new marketing and customer support programs as buyer inter-
+ests and economic conditions change.  If Sun is to meet the needs of today’s iSer-
+ies buyers with Sun’s SPARC servers and Solaris, it too should be prepared to an-
+ticipate buyer needs and meet them in the most profitable manner for Sun. 
+10. IBM Global Services is a major recommender of ISV-based solutions sales.  They 
+work with IBM business partners, and wouldn’t think of recommending Sun. 
+
+
+--- Page 31 ---
+Competing for the IBM AS/400 Market 
+ 27 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+11. About 85%-90% of iSeries sales are made by IBM business partners located in 
+some 150 countries.  IBM treats most ISVs as VARs, creating an economic incen-
+tive for the business partner to win with IBM.  The iSeries is truly a global busi-
+ness for IBM, and Sun will have to be very aggressive to match IBM’s coverage.  
+Moreover, IBM has continued to sweeten the pot for business ISV’s with incen-
+tives and marketing programs.  The gross margins are high enough for the fore-
+seeable future that IBM is unlikely to risk dissatisfying its business partners 
+enough through declining incentives that ISVs will want to switch to Sun in large 
+numbers voluntarily.  We conclude that a strategy based on “buying ISVs” will 
+cost too much. 
+12. The lease renewal window which opened up for post-Y2K replacements is clos-
+ing.  Three-year leases have already rolled.  Five-year leases are up this year and 
+next year.  Presumably, IBM has already provided incentives for customers to roll 
+over to another IBM lease.  Obviously, it is hard to switch out a machine early in 
+a lease due to financial penalties — and IBM is a formidable financing foe.  
+Sun's Addressable Market and Opportunity Size  
+Table 13 depicts in tabular form Aberdeen’s analysis of the market opportunity and siz-
+ing for Sun based on flat IBM revenues for the iSeries in 2002 at $10.27 billion.  Our 
+conclusion is that the addressable market for Sun in 2002 is $1.87B. 
+Table 13 — 2002 Addressable Markets and Sizing 
+Addressable Market 
+Percent of 
+HW/SW 
+Revenues 
+Market 
+Size $M 
+Yield Factor 
+Sun Ad-
+dressable 
+Market $M 
+New Customers 
+10% 
+$1,027 
+90% 
+$924 
+Consolidation 
+6% 
+$616 
+65% 
+$400 
+CRM, EAS, SCM, B2B 
+11% 
+$1,129 
+40% 
+$452 
+Upgrades 
+3% 
+$308 
+30% 
+$92 
+Total 
+30% 
+$3,080 
+ 
+$1,869 
+Source:  Aberdeen Group 
+ 
+
+
+--- Page 32 ---
+Competing for the IBM AS/400 Market 
+ 28 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+• New Customers — represent 10% of iSeries revenues, $1,027M.  We believe 
+Sun can address 90% of this market, yielding an addressable market of 
+$924M.  In general, new customers are looking at an overall solution proposi-
+tion, with the platform being only part of the solution.  Sun plays well here.  
+Negative yield factors include a relative lack of emerging market coverage and 
+specialty ISV applications compared with IBM. 
+• Consolidation — represents 6% of IBM iSeries revenues.  We believe 65% is 
+addressable by Sun, yielding an addressable market of $400M.  Negative yield 
+factors are the need to migrate existing AS/400 applications, IBM financing, 
+and IBM’s proven consolidation services program. 
+• Applications — CRM, EAS, SCM, and B2B represent 11% of iSeries revenues.  
+We believe that 40% is addressable, yielding an addressable market of $452M.  
+Negative factors include IBM Global Services as recommender, existing rela-
+tionships with ISVs and SIs as IBM business partners, and application add-ons 
+to existing iSeries-specific ISV packages. 
+• Upgrades — Hardware and software upgrades related to Linux and xSeries 
+management are estimated at 3% of revenues.  This is the only portion of iS-
+eries upgrades we find attractive.  But selling Sun platforms as upgrades into 
+iSeries shops is a low yield proposition, so we estimate only 30% is address-
+able — yielding $92M in addressable market for Sun.   
+Installed Base Migration is an Unattractive Market 
+iSeries customers leaving the IBM installed base are not covered in the addressable 
+market above.  First, we do not observe an identifiable class of dissatisfied iSeries users, 
+so we cannot define an addressable market.  Second, iSeries attrition to other platforms 
+is already addressed by Unix and Windows NT competitors, so those sales are already 
+being counted.  Third, 75% of the installed base is in a low-growth/no-growth state of 
+inertia.  These customers are happy with their AS/400s and see little need to upgrade, 
+let alone switch to Sun. 
+It is important for Sun management to understand that iSeries customers want IBM to 
+make technology choices for them so that they can keep their MIS operations running.  
+As a result, IBM has continued to charge a premium price for iSeries products while 
+making long-term technology planning decisions for its iSeries customers. 
+The enterprises where AS/400s are most prevalent tend to look at IT as a cost of doing 
+business, and therefore something to be tightly controlled and rationed.  This group 
+includes small businesses bounded by geography or specialty, quasi-regulated compa-
+nies such as insurance firms and utilities, health care providers that are reimbursed by 
+insurers, etc.  Sun’s Unix customers, as a class, tend to view IT as a lever to greater prof-
+its, and hence as a point of investment.  
+
+
+--- Page 33 ---
+Competing for the IBM AS/400 Market 
+ 29 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+AS/400 buyers are older, more senior-level personnel who are accustomed to mainframe 
+prices and high support levels.  To this class of customer, a “mainframe” class iSeries 
+machine at under $1 million with an anticipated useful life of 5-7 years, with a quarter 
+of the mainframe support costs, is highly attractive — even when these costs are twice 
+what a Sun Solaris installation would be. 
+Aberdeen views a broad assault on the installed base as a low payback waste of re-
+sources.  However, positioning Sun and Sun/Linux as a long-term leader in standard 
+operating environments will yield capture sales over time as a normal part of general 
+Sun marketing activities. 
+
+
+--- Page 34 ---
+Competing for the IBM AS/400 Market 
+ 30 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Market Strategy 
+Aberdeen Group’s recommended market strategy is to target selected segments of the 
+iSeries market, as identified in the Market Opportunity section above. 
+New Customers 
+IBM wins new customers through its worldwide business partner organization.  Sun has 
+been and is already competing for these sales.  To improve Sun’s win ratio, we recom-
+mend: 
+• Focusing on the U.S., Europe, Japan and China as top geographies. 
+• Establishing a competitive hotline help desk for iSeries sales, staffed by iSer-
+ies-knowledgeable sales engineers. 
+• Educating Sun’s direct sales and business partners with key counters to how 
+IBM sells the iSeries and IBM’s value proposition for the iSeries.   
+• Developing white papers and electronic collateral aimed specifically at the iS-
+eries as new-customer competition. 
+• Identifying IBM’s top ISVs, starting with Appendix B, and planning a Sun 
+partner acquisition strategy unique to each top business partner and SI. 
+• Creating an iSeries-AS/400 competitive focus point in internal communica-
+tions where wins and losses could be discussed and analyzed. 
+• Analyzing and countering IBM’s finance and global services offerings related 
+to new customers. 
+Consolidation 
+Consolidation often means centralizing small, distributed AS/400 system workloads 
+back to a central data center.  Sun is well positioned for enterprise-class, mission-critical 
+commercial computing.   
+Identifying consolidation prospects can be done by analyzing commercial services (i.e. 
+Gartner/Dataquest Computer Intelligence) for companies with multiple, distributed, 
+aging AS/400 machines. 
+Only some consolidation opportunities are worth pursuing.  Least attractive are custom, 
+mission-critical applications written in AS/400 lock-in technology such as RPG.  While 
+there are some “liberation” toolsets from OS/400 to Solaris, the application migration 
+issue will be the key bone of competition.  More attractive are modern apps written in 
+Java (but there are few of these) and cross-over ISVs such as Lawson who support Unix 
+and OS/400 already. 
+
+
+--- Page 35 ---
+Competing for the IBM AS/400 Market 
+ 31 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Application migration will require a defined services package with the ability to “fix 
+price” the bulk of the services.  This implies a specialized team of AS/400 conversion 
+experts — or an outside partner with credibility.  Accenture would be a candidate. 
+Sun must develop a life-cycle ROI model that factors in the migration costs to Solaris as 
+well as the usual TCO factors.  Sun’s superior price-performance will be offset to some 
+degree by the costs of migration and conversion services. 
+A typical consolidation sale should be a large 6800 or Sun Fire 12000-class workload in 
+order to justify the pre-sales costs. 
+Applications — CRM, EAS, SCM, B2B 
+IBM, Sun, and Aberdeen all believe there is an attractive market for enterprise applica-
+tions encompassing customer relationship management, ERP and enterprise applica-
+tions, supply chain management, and business-to-business Internet infrastructure.  
+IBM’s present target is the small-medium business segment of this market.  Aberdeen 
+believes Sun should counter this program with its own. 
+Aberdeen Group has not been briefed on Sun’s specific existing programs in the SMB 
+application area.  Therefore, we may be a little off target.  That said, an application-
+driven marketing program would include the following elements: 
+• Orchestrating a global set of CRM, EAS, SCM and B2B ISVs, setting appropri-
+ate geographies and covering language and business practice differences. 
+• Recruiting and training a complementary set of systems integrators. 
+• Crafting appropriate levels of Sun services.  Start with what IBM offers the 
+SMB market for iSeries. 
+• Note that SMB enterprises largely do not require the rich functionality of a 
+Siebel or SAP R3.  Regional solutions may be highly salable because they are 
+actually less functional but also less costly to train and therefore have a lower 
+TCO. 
+• Sun ONE should be an adjunct to this effort.  The thrust is to use Sun systems 
+and best-of-breed applications instead of an application (and hardware and 
+OS upgrade) to the installed AS/400.  Focus on future-facing, investment pro-
+tection, standards-based technology, lower cost of ownership.  Intel-based 
+Cobalt products with Sun Linux are an important part of the solution, as well 
+as SPARC Solaris systems. 
+iSeries Upgrades — Linux is the Lever 
+In Table 13, we show the addressable market for upgrades as 3% of revenues, worth 
+$308 million, whereas the total upgrades market is more than an order of magnitude 
+greater.  Sun cannot compete for the typical memory, CPU, or storage upgrades.  Sun 
+can compete for Linux and Linux appliance business, with a projected capture of $92 
+million. 
+
+
+--- Page 36 ---
+Competing for the IBM AS/400 Market 
+ 32 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+IBM supports Linux on the iSeries as a guest OS.  But IBM has done a poor job of pack-
+aging Linux with appliance functionality.   
+We believe the overall enterprise level of interest in Linux, and the number of Linux-
+based applications, will skyrocket.  Sun’s market opportunity is to offer Linux to iSeries 
+customers as an alternative to IBM’s OS upgrade.  The outline for such a program in-
+cludes: 
+• Cobalt and Netra servers running general-purpose Linux applications, includ-
+ing Sun ISV applications that do not run on iSeries Linux. 
+• Cobalt appliances handling Internet Edge functions (i.e., H1). 
+• A mandatory technology component would be the ability to manage Sun 
+servers from the OS/400 console, which we believe a web browser window 
+would suffice and is already in place. 
+• A desirable technology component would be a Solaris/Linux shell which 
+made Unix/Linux look like the OS/400 console commands and shell.  Such a 
+product may already be available, but we are unaware of it.  The benefit is 
+lower training costs and less aversion because the human interface would be 
+familiar to change-averse iSeries technologists. 
+• Since IBM iSeries CPU cycles are expensive, a Netra/Cobalt program would 
+“offer the price-performance of Linux while retaining the management “feel” 
+of the AS/400”. 
+• The program certainly applies to the F2000, but also can be sold as cost-
+saving-but-leading-edge technology to the SMB market. 
+Our vision is that Sun would treat Linux servers as non-threatening but complementary 
+to the iSeries, just like many iSeries enterprise customers already share computing loads 
+with Wintel servers managed by AS/400’s and iSeries servers.  We believe that Sun’s 
+Linux and appliance strategy and offerings can demand consideration at this time by 
+iSeries customers when a Unix-based “SPARC Solaris is better” campaign would reach 
+deaf ears. 
+Secondarily, the program would give Sun Linux business partners — including IBM 
+business partners who want to hedge their Linux bets — the opportunity to sell both 
+Linux business applications and appliances into the iSeries installed base.   
+Another opportunity, left unquantified, is opening the door to a discussion of a broader 
+Sun-based relationship, probably with new ISV applications.  This discussion plays with 
+buyers as well as potential Sun ISVs who are considering switching. 
+Market Partner Strategies  
+Sun has to fight IBM’s business partner “fire” with like fire: any Sun program that is not 
+partner-driven will either fail or not reach the potential market.  The key to the iSeries 
+castle is through business partners. 
+
+
+--- Page 37 ---
+Competing for the IBM AS/400 Market 
+ 33 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Systems Integrators 
+Sun already has business relationships with the major global systems integrators.  Ac-
+centure, for example, has considerable experience with both iSeries and SPARC Solaris.  
+Because the SIs are often called in to do the huge services portion of enterprise applica-
+tions, they represent a short list for frank discussions.  The SIs are a leverage point in 
+the new-application market opportunity, where CRM, EAS, SCM, and B2B applications 
+at the F2000 represent hundreds of millions in server revenues over the next several 
+years. 
+ISVs and VARs 
+Application solutions have always been an important leg of the iSeries value proposi-
+tion.  Because of this, IBM has a well-oiled machine to attract, qualify, train, and support 
+vertical market and horizontal ISVs in all geographies.  One reason IBM keeps the prices 
+of iSeries hardware and software high is to have the gross margin dollars to pay incen-
+tives to ISVs, drawing them closer to IBM and the iSeries base — hence the iNation ini-
+tiative. 
+Any strategic move by Sun into the iSeries market would require a comprehensive com-
+parative analysis of the IBM and Sun business partner programs, with a special empha-
+sis on ISVs.  In our opinion, IBM treats most ISVs like VARS, even if IBM gets the lead 
+and does some of the selling, spreading enough money around to represent a serious 
+portion of the ISV’s marketing budget.  Therefore, Sun needs to dissect IBM’s business 
+partner program in order to know the facts before it can develop a comprehensive 
+counter program. 
+IBM’s top-tier iSeries business partners are shown in Appendix B.  A number of these 
+(e.g., J.D. Edwards) are also members of iForce.  Since these top business partners drive 
+a large fraction of new iSeries sales, Sun should focus on these ISVs first.  The smaller or 
+more specialized ISVs are available by vertical market at IBM’s business partner web 
+site. 
+
+
+--- Page 38 ---
+Competing for the IBM AS/400 Market 
+ 34 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Appendix A — Aggregation of Business Sizes 
+U.S. Department of Commerce latest release and Aberdeen Group 
+Statistics of U.S. Business: 1999
+Management of companies & enterprises
+United States 
+IBM Breakdown (small = 1-99, medium = 100-999, large=1000+ employees)
+Employment size of enterprise 
+Number of companies
+Number of employees
+Annual payroll
+# of 
+companies
+Sub-total
+% Sub-total
+% Sub-tot - 
+ultra-small
+Employees
+Sub-total
+% Sub-
+total
+Payroll
+Sub-total
+% Sub-
+total
+All firms 
+5,607,743
+110,705,661
+$3,520,428,227
+no employees (as of March 12)
+709,074
+1 to 4 employees
+2,680,087
+5,606,302
+143,112,925
+5 to 9 employees
+1,012,954
+6,652,370
+166,598,812
+10 to 19 employees
+605,693
+8,129,615
+217,571,005
+20 to 99 employees
+501,848
+5,509,656
+98.25%
+98.00%
+19,703,162
+40,091,449
+36.21%
+564,974,625
+1,092,257,367
+31.03%
+100 to 499 employees
+81,347
+15,637,643
+474,607,339
+500 to 999 employees
+8,235
+89,582
+1.60%
+1.83%
+5,662,057
+21,299,700
+19.24%
+181,765,746
+656,373,085
+18.64%
+1000 to 2499 employees
+4,992
+7,629,355
+254,215,167
+2500 to 4999 employees
+1,706
+5,904,452
+211,574,407
+5000 to 9999 employees
+871
+6,064,760
+225,756,578
+10000 or more employees
+936
+8,505
+0.15%
+0.17%
+29,715,945
+49,314,512
+44.55%
+1,080,251,623
+1,771,797,775
+50.33%
+
+
+--- Page 39 ---
+Competing for the IBM AS/400 Market 
+35 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Appendix B — Top-Tier Business Partners 
+Company 
+Business Partner 
+Level  
+Premier Level 
+Advanced Level 
+  
+ 
+Address 
+E-mail  
+ 
+URL 
+2200 Lucien Way 
+Suite 200 
+Maitland, Florida 32751 
+United States 
+ 
+ 
+ 
+Alltel Information Services, Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+Horizon Banking System 
+230 Richmond St. E 
+Level 2 
+Toronto, Ontario M5A 1P4 
+Canada 
+ 
+ 
+ 
+DWL Incorporated 
+IBM Developer Business Partner 
+Matching Solutions: 
+DWL Customer 
+DWL Unifi  
+115, Jalan Chan Siew Teong 
+Tanjung Bungah 
+Georgetown 11200 
+Malaysia 
+ 
+ 
+ 
+e-Business Exchange Pte. Ltd. 
+IBM Developer Business Partner 
+Matching Solutions: 
+e-BX BIll Presentment Switch Edition Version 3.0 
+e-BX Biller Service Provider Edition Version 3.0 
+e-BX TradePlus Merchant/Hosting Server Version 3.1.1 
+ 
+
+
+--- Page 40 ---
+Competing for the IBM AS/400 Market 
+36
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+1800 Parkway Place 
+Suite 600 
+Marietta, Georgia 30067-7826 
+United States 
+ 
+ 
+ 
+E3 Corporation 
+IBM Developer Business Partner 
+Matching Solutions: 
+E3 Marketplace.com 
+E3CRISP 
+E3SLIM 
+E3TRIM 
+900, 311 6th Avenue SW. 
+Calgary, Alberta T2P-3H2 
+Canada 
+ 
+ 
+ 
+EFA Software Services Ltd 
+IBM Developer Business Partner 
+Matching Solutions: 
+Equator - Clearance & Settlement System 
+Horizon - Automated Trading System 
+Needles House 
+Birmingham Road 
+Studley, Warwickshire B80 7AS 
+United Kingdom 
+ 
+ 
+ 
+Geac Enterprise Solutions 
+IBM Developer Business Partner 
+Matching Solutions: 
+Geac System21 - Service Management and Contract Modeller 
+Geac System21 Customer Service and Logistics Applications 
+Geac System21 Financial Applications 
+Geac System21 for the Apparel, Footwear & Textile industries  
+Geac System21 for the Automotive Industry 
+Geac System21 for the Beverage Industry 
+Geac System21 for the Food Industry 
+ 
+
+
+--- Page 41 ---
+Competing for the IBM AS/400 Market 
+37
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+1344 Crossman Avenue 
+Sunnyvale, California 94089-1113 
+United States 
+ 
+ 
+ 
+Hyperion Solutions Corporation 
+IBM Developer Business Partner 
+Matching Solutions: 
+Hyperion Performance Scorecard  
+Hyperion Planning 
+11701 Luna Rd. 
+Dallas, Texas 75234 
+United States 
+ 
+ 
+ 
+i2 Technologies Incorporated 
+IBM Developer Business Partner 
+Matching Solutions: 
+i2 Demand Planner Five.Two 
+i2 Base Platform Five.Two 
+i2 Demand Fulfillment Five.Two 
+i2 Factory Planner Five.Two 
+i2 High Availability Module Five.Two 
+i2 Supply Chain Planner Five.Two 
+90 Blue Ravine Road 
+Folsom, California 95630 
+United States 
+ 
+ 
+ 
+IBS-US 
+IBM Developer Business Partner 
+Matching Solutions: 
+IBS ASW Suite 
+ 
+
+
+--- Page 42 ---
+Competing for the IBM AS/400 Market 
+38 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+Hemvärnsgatan 8 
+PO Box 1350 
+Solna 171 26 
+Sweden 
+ 
+ 
+ 
+IBS AB 
+IBM Developer Business Partner 
+Matching Solutions: 
+ASW Alert Management 
+ASW Analyser 
+ASW Distribution 
+ASW Financials 
+ASW Manufacturing 
+ASW NetStore / Internet Connection e2 
+ASW Sales and Marketing Support 
+ASW Service 
+IBS' Virtual Enterprise 
+Nevelgaarde 20 
+P. O. Box 500 
+Nieuwegein 3430 AM 
+Netherlands 
+ 
+ 
+ 
+IBS Consist B.V. 
+IBM Developer Business Partner 
+Matching Solutions: 
+ASW 
+EMIS, Employee Management Information System 
+FIS/2000, Financial Information System 
+FMS, Financial Management System 
+25 Communications Way 
+74 Furlong Rd  
+Hyannis, Massachusetts 026012 
+United States 
+ 
+ 
+ 
+Infinium Software, Incorporated 
+IBM Developer Business Partner 
+Matching Solutions: 
+Infinium Business Intelligence Analytics (BIA) 
+Infinium Financial Management 
+Infinium Materials Management 
+ 
+
+
+--- Page 43 ---
+Competing for the IBM AS/400 Market 
+39 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Vendevägen 89 
+Box 596 
+Danderyd 182 15 
+Sweden 
+ 
+ 
+ 
+Intentia International AB 
+IBM Developer Business Partner 
+Matching Solutions: 
+Movex Aviation 
+Movex Distribution 
+Movex e-CRM B2C 
+Movex Fashion 
+Movex Service & Rental 
+Movex Steel 
+Xavier de Cocklaan 70 
+St.-Martens-Latem B-9830 
+Belgium 
+ 
+ 
+ 
+International Business Systems 
+N.V. 
+IBM Developer Business Partner 
+Matching Solutions: 
+AFS EE 
+One Technology Way 
+Denver, Colorado 80237 
+United States 
+ 
+ 
+ 
+JD Edwards World Solutions 
+Company 
+IBM Developer Business Partner 
+Matching Solutions: 
+J.D. Edwards OneWorld Financial Management 
+J.D. Edwards WorldSoftware®:  
+14400 N 87
+th Street 
+Scottsdale, Arizona 85260-3653 
+United States 
+ 
+ 
+ 
+JDA Software Group, Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+E3TRIM and E3SLIM .  
+Merchandise Management System (MMS®) 
+ 
+
+
+--- Page 44 ---
+Competing for the IBM AS/400 Market 
+40 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+380 St Peter Street 
+St. Paul, Minnesota 55102 
+United States 
+ 
+ 
+ 
+Lawson Software 
+IBM Developer Business Partner 
+Matching Solutions: 
+lawson.insight Procurement 
+193 Turbot Street 
+Brisbane, Queensland 4001 
+Australia 
+ 
+ 
+ 
+Mincom Limited 
+IBM Developer Business Partner 
+Matching Solutions: 
+Ellipse 
+45 Broadway 
+New York, New York 10006 
+United States 
+ 
+ 
+ 
+Misys International Banking Sys-
+tems 
+IBM Developer Business Partner 
+Matching Solutions: 
+Equation DBA/Midas DBA 
+1 St Georges Road 
+Wimbledon 
+London SW19 4DR 
+United Kingdom 
+ 
+ 
+ 
+Misys International Banking Sys-
+tems Limited 
+IBM Developer Business Partner 
+Matching Solutions: 
+Equation DBA 
+Midas DBA 
+
+
+--- Page 45 ---
+Competing for the IBM AS/400 Market 
+41 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+Level 1  
+16 Edmondstone Street 
+Brisbane, Queensland 4051 
+Australia 
+ 
+ 
+ 
+Qtech Business Systems Pty Ltd 
+IBM Developer Business Partner 
+Matching Solutions: 
+Guardianship 
+Neurottstr. 16 
+Walldorf D-69190 
+Germany 
+ 
+SAP AG 
+IBM Developer Business Partner 
+Matching Solutions: 
+mySAP E-Procurement 
+mySAP Financials 
+mySAP Human Resources 
+mySAP Marketplace 
+mySAP Product Lifecycle Management 
+mySAP Workplace 
+57 59 BLD Malsherbes 
+Paris 75008 
+France 
+ 
+ 
+ 
+SAP France 
+IBM Developer Business Partner 
+Matching Solutions: 
+mySAP.com Business Warehouse 
+2000 CentreGreen Way 
+Suite 240 
+Cary, North Carolina 27513 
+United States 
+ 
+ 
+ 
+Sapiens International 
+IBM Developer Business Partner 
+Matching Solutions: 
+bizBLOX 
+
+
+--- Page 46 ---
+Competing for the IBM AS/400 Market 
+42 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+SAS Campus Drive 
+Cary, North Carolina 27513 
+United States 
+ 
+ 
+ 
+SAS Institute Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+SAS/IntrNet (R) Software 
+1855 South Grant Street 
+San Mateo, California 94402-2667 
+United States 
+ 
+ 
+ 
+Siebel Systems, Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+Siebel 7, MidMarket Edition 
+Siebel Call Center 
+Siebel eBusiness Solutions 
+Siebel Enterprise Applications 
+Siebel Field Service 
+Siebel Sales 2000 
+900 Oakmont Lane 
+Suite 400 
+Westmont, Illinois 60559 
+United States 
+ 
+ 
+ 
+Silvon Software, Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+Stratum 
+Uhlandstr. 12 
+Darmstadt 64297 
+Germany 
+ 
+ 
+ 
+Software AG (Germany) 
+IBM Developer Business Partner 
+Matching Solutions: 
+EntireX 
+
+
+--- Page 47 ---
+Competing for the IBM AS/400 Market 
+43 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+ 
+9 Bis rue de Presbourg 
+Paris 75116 
+France 
+ 
+ 
+ 
+SOPRA GROUP 
+IBM Developer Business Partner 
+Matching Solutions: 
+XFB eXtended File Broker 
+17911 Von Karman Avenue 
+5th Floor 
+Irvine, California 92614 
+United States 
+ 
+ 
+ 
+Vision Solutions, Inc. 
+IBM Developer Business Partner 
+Matching Solutions: 
+ 
+ 
+ 
+
+
+--- Page 48 ---
+Competing for the IBM AS/400 Market 
+ 44 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+Appendix C — iSeries Models, Prices & Performance 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SB2_2315 
+$282,890 
+8 
+7,350 
+70 
+4 
+72,955 
+181,300 
+50,560 
+250_0297 
+$8,500 
+1 
+50
+15 
+175 
+4 
+496 
+1,233 
+344 
+250_0298 
+$12,000 
+1 
+75
+20 
+175 
+4 
+744 
+ 
+250_2295 
+$8,700 
+1 
+50
+15 
+175 
+10 
+496 
+ 
+250_2296 
+$12,300 
+1 
+75
+20 
+175 
+10 
+744 
+ 
+270_2248_1517 
+$12,088 
+1 
+150
+25 
+843 
+24 
+1,489 
+3,700 
+1,032 
+270_2250_1516 
+$13,288 
+1 
+370
+0 
+843 
+24 
+3,673 
+ 
+_________1518 
+$32,788 
+ 
+ 
+30 
+ 
+ 
+ 
+ 
+270_2252_1516 
+$25,288 
+1 
+950
+0 
+843 
+24 
+9,430 
+23,433 
+6,535 
+_________1519 
+$81,588 
+ 
+ 
+50 
+ 
+ 
+ 
+ 
+270_2253_1516 
+$48,288 
+2 
+2,000
+0 
+843 
+24 
+19,852 
+49,333 
+13,758 
+_________1520 
+$160,788 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+270_2422 
+$11,288 
+1 
+50
+0 
+843 
+24 
+496 
+1,233 
+344 
+270_2423 
+$15,288 
+1 
+100
+0 
+843 
+24 
+993 
+688 
+270_2424 
+$22,288 
+2 
+200
+0 
+843 
+24 
+1,985 
+ 
+270_2431_1518 
+$32,276 
+1 
+465
+30 
+843 
+24 
+4,616 
+ 
+270_2432_1516 
+$15,476 
+1 
+1,070
+0 
+843 
+24 
+10,621 
+26,393 
+7,360 
+_________1519 
+$71,776 
+ 
+ 
+50 
+ 
+ 
+ 
+ 
+270_2434_1516 
+$31,788 
+2 
+2,350
+0 
+843 
+24 
+23,326 
+57,967 
+16,165 
+_________1520 
+$144,288 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+270_2452 
+$13,776 
+1 
+100 
+843 
+24 
+993 
+2,467 
+688 
+270_2454 
+$24,788 
+2 
+240 
+843 
+24 
+2,382 
+ 
+820_0150 
+$63,900 
+1 
+1,100 
+8,334 
+237 
+10,918 
+ 
+820_0151 
+$97,400 
+2 
+2,350 
+8,334 
+237 
+23,326 
+ 
+820_0152 
+$139,900 
+4 
+3,700 
+8,334 
+237 
+36,726 
+91,267 
+25,452 
+
+
+--- Page 49 ---
+Competing for the IBM AS/400 Market 
+ 45 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+820_2395_1521 
+$39,400 
+1 
+370
+35 
+8,334 
+237 
+3,673 
+9,127 
+2,545 
+_________1522 
+$67,400 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$119,400 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$194,400 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+820_2396_1521 
+$96,900 
+1 
+950
+35 
+8,334 
+237 
+9,430 
+23,433 
+6,535 
+_________1522 
+$124,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$176,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$251,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$411,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+820_2397_1521 
+$174,900 
+2 
+2,000
+35 v  8334 
+237 
+19,852 
+49,333 
+13,758 
+_________1522 
+$202,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$254,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$329,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$489,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1526 
+$704,900 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+820_2398_1521 
+$266,900 
+4 
+3,200
+35 v  8334 
+237 
+31,763 
+78,933 
+22,012 
+_________1522 
+$294,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$346,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$421,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$581,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1526 
+$796,900 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1527 
+$1,091,900 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+820_2425 
+$31,900 
+1 
+100- 
+8,334 
+237 
+993 
+2,467 
+688 
+820_2426 
+$38,900 
+2 
+200- 
+8,334 
+237 
+1,985 
+4,933 
+1,376 
+820_2427 
+$45,900 
+4 
+400- 
+8,334 
+237 
+3,970 
+9,867 
+2,752 
+820_2435_1521 
+$60,900 
+1 
+600
+35 
+8,334 
+237 
+5,955 
+14,800 
+4,127 
+_________1522 
+$88,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$140,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+
+
+--- Page 50 ---
+Competing for the IBM AS/400 Market 
+ 46 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+_________1524 
+$215,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+820_2436_1521 
+$96,900 
+1 
+1,100
+35 
+8,334 
+237 
+10,918 
+27,133 
+7,567 
+_________1522 
+$124,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$176,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$251,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$411,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+820_2437_1521 
+$174,900 
+2 
+2,350
+35 
+8,334 
+237 
+23,326 
+57,967 
+16,165 
+_________1522 
+$202,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$254,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$329,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$489,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1526 
+$704,900 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+820_2438_1521 
+$259,900 
+4 
+3,700
+35 
+8,334 
+237 
+36,726 
+91,267 
+25,452 
+_________1522 
+$287,900 
+ 
+ 
+70 
+ 
+ 
+ 
+ 
+_________1523 
+$339,900 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1524 
+$414,900 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1525 
+$574,900 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1526 
+$789,900 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1527 
+$1,084,900 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+820_2456 
+$30,400 
+1 
+120
+0 
+8,334 
+237 
+1,191 
+2,960 
+825 
+820_2457 
+$41,400 
+2 
+240
+0 
+8,334 
+237 
+2,382 
+ 
+820_2458 
+$49,900 
+4 
+380
+0 
+8,334 
+237 
+3,772 
+ 
+830_2351_1531 
+$145,330 
+ 
+1,200
+70 
+22,153 
+630 
+11,911 
+29,600 
+8,255 
+_________1532 
+$260,330 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1533 
+$335,330 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1534 
+$495,330 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1535 
+$710,330 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1536 
+$1,005,330 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+
+
+--- Page 51 ---
+Competing for the IBM AS/400 Market 
+ 47 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+_________1537 
+$1,505,330 
+ 
+7,350
+4,550 
+ 
+72,955 
+181,300 
+50,560 
+830_2400_1531 
+$170,130 
+2 
+1,850
+70 
+22,153 
+630 
+18,363 
+ 
+_________1532 
+$285,130 
+ 
+ 
+120 
+ 
+ 
+0 
+_________1533 
+$360,130 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1534 
+$520,130 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1535 
+$735,130 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+830_2402_1531 
+$355,330 
+4 
+4,200
+70 
+22,153 
+630 
+41,688 
+103,600 
+28,891 
+_________1532 
+$470,330 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1533 
+$545,330 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1534 
+$705,330 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1535 
+$920,330 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1536 
+$1,215,330 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+830_2403_1531 
+$580,330 
+8 
+7,350
+70 
+22,153 
+630 
+72,955 
+181,300 
+50,560 
+_________1532 
+$695,330 
+ 
+ 
+120 
+ 
+ 
+ 
+ 
+_________1533 
+$770,330 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1534 
+$930,330 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1535 
+$1,145,330 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1536 
+$1,440,330 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1537 
+$1,940,330 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+840_2352_1540 
+$862,268 
+37480 
+9,000
+120 
+37,978 
+1080 
+89,332 
+222,000 
+61,910 
+_________1541 
+$1,052,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,212,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,427,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,722,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,222,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,292,268 
+ 
+12,000
+10,000 
+ 
+ 
+ 
+ 
+840_2353_1540 
+$1,112,268 
+37608 
+12,000
+120 
+37,978 
+1080 
+119,110 
+296,000 
+82,546 
+_________1541 
+$1,302,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+
+
+--- Page 52 ---
+Competing for the IBM AS/400 Market 
+ 48 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+_________1542 
+$1,462,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,677,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,972,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,472,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,542,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+_________1547 
+$4,812,268 
+ 
+16,500
+16,500 
+ 
+163,776 
+407,000 
+113,501 
+840_2354_1540 
+$1,482,268 
+18 / 24 
+16,500
+120 
+37,978 
+1080 
+163,776 
+407,000 
+113,501 
+_________1541 
+$1,672,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,832,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$2,047,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$2,342,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,842,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,912,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+_________1547 
+$5,182,268 
+ 
+ 
+16,500 
+ 
+ 
+ 
+ 
+_________1548 
+$5,807,268 
+ 
+ 
+20,200 
+ 
+ 
+ 
+ 
+840_2416_1540 
+$722,268 
+37480 
+7,800
+120 
+37,978 
+1080 
+77,421 
+192,400 
+53,655 
+_________1541 
+$912,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,072,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,287,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,582,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,082,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,152,268 
+ 
+10,000
+10,000 
+ 
+99,258 
+246,667 
+68,789 
+840_2417_1540 
+$887,268 
+37608 
+10,000
+120 
+37,978 
+1080 
+99,258 
+246,667 
+68,789 
+_________1541 
+$1,077,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,237,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,452,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,747,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,247,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+
+
+--- Page 53 ---
+Competing for the IBM AS/400 Market 
+ 49 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+_________1546 
+$3,317,268 
+ 
+13,200
+10,000 
+ 
+131,021 
+325,600 
+90,801 
+840_2418_1540 
+$782,268 
+12 
+10,000
+120 
+37,978 
+1080 
+99,258 
+246,667 
+68,789 
+_________1541 
+$972,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,132,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,347,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,642,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,142,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,212,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+840_2419_1540 
+$1,132,268 
+18 / 24 
+13,200
+120 
+37,978 
+1080 
+131,021 
+325,600 
+90,801 
+_________1541 
+$1,322,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,482,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,697,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+_________1544 
+$1,992,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,492,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,562,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+_________1547 
+$4,832,268 
+ 
+16,500
+16,500 
+ 
+163,776 
+ 
+840_2420_1540 
+$1,272,268 
+24 
+16,500
+120 
+37,978 
+1080 
+163,776 
+407,000 
+113,501 
+_________1541 
+$1,462,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,622,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$1,837,268 
+ 
+ 
+1,050 
+9.9258 
+ 
+ 
+_________1544 
+$2,132,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,632,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,702,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+_________1547 
+$4,972,268 
+ 
+ 
+16,500 
+ 
+ 
+ 
+ 
+840_2461_1540 
+$1,555,268 
+24 
+20,200
+120 
+37,978 
+1080 
+ 
+138,953 
+_________1541 
+$1,745,268 
+ 
+ 
+240 
+ 
+ 
+ 
+ 
+_________1542 
+$1,905,268 
+ 
+ 
+560 
+ 
+ 
+ 
+ 
+_________1543 
+$2,120,268 
+ 
+ 
+1,050 
+ 
+ 
+ 
+ 
+
+
+--- Page 54 ---
+Competing for the IBM AS/400 Market 
+ 50 
+© 2002 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+ 
+iSeries System  
+Model 
+Price (US$) 
+Minimum 
+Config. 
+n-way CPUs 
+(max.) 
+Pro-
+cessor 
+CPW 
+Inter-
+active 
+CPW 
+Disk GB 
+Disk 
+Arms 
+TPM-C  
+Estimate 
+SAP SD 
+Estimate 
+Notes  
+Bench  
+Estimate 
+_________1544 
+$2,415,268 
+ 
+ 
+2,000 
+ 
+ 
+ 
+ 
+_________1545 
+$2,915,268 
+ 
+ 
+4,550 
+ 
+ 
+ 
+ 
+_________1546 
+$3,985,268 
+ 
+ 
+10,000 
+ 
+ 
+ 
+ 
+_________1547 
+$5,255,268 
+ 
+ 
+16,500 
+ 
+ 
+ 
+ 
+_________1548 
+$5,880,268 
+ 
+ 
+20,200 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes: 
+Prices are as of 7 April 2002 From www.ibm.com 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+$ Price (in black) represents a packaged offering which includes software and more hardware than a minimally operational machine. 
+$ Price represents a minimally operational machine which includes the minimum hardware to successfully perform an initial program load. 
+9.925818182 
+ratio of TPM-C to Processor CPW based on 840_2420 3/19/2001 (Source: Aberdeen Group) 
+24.66666 
+ratio of SAP SD to Processor CPW on 840_2420 6/21/01 (Source: Aberdeen Group) 
+ 
+6.878861386 
+ratio of Notes Bench to Processor CPW on 840_2420 6/21/01 (Source: Aberdeen Group) 
+ 
+ 
+ 
+ 
+
+
+--- Page 55 ---
+Competing for the IBM AS/400 Market 
+ 51 
+To provide us with your feedback on this research, please go to www.aberdeen.com/feedback . 
+Aberdeen Group, Inc. 
+One Boston Place 
+Boston, Massachusetts 
+02108 
+USA 
+ 
+Telephone: 617 723 7890 
+Fax: 617 723 7897 
+www.aberdeen.com 
+ 
+© 2002 Aberdeen Group, Inc. 
+All rights reserved 
+April 2002 
+Aberdeen Group is a computer and communications  
+research and consulting organization closely monitoring 
+enterprise-user needs, technological changes and market 
+developments. 
+Based on a comprehensive analytical framework,  
+Aberdeen provides fresh insights into the future of  
+computing and networking and the implications for  
+users and the industry. 
+Aberdeen Group performs specific projects for a select 
+group of domestic and international clients requiring 
+strategic and tactical advice and hard answers on how to 
+manage computer and communications technology. 
+ 
+ 
+ 
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | sun-as400-main-report-2002-c37e2a |
+| title | Competing for the IBM AS/400 Market: A Report to the Management of Sun Microsystems |
+| author | Peter Kastner |
+| date | 2002-04-20 |
+| type | market-study |
+| subject_domain | server-market-strategy |
+| methodology | industry-analysis, competitive-profiling, market-sizing, partner-analysis |
+| source_file | iSeries-Rpt-v5-1f-2.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group's formal deliverable to Sun Microsystems assessing Sun's opportunity to compete for the $10.27B IBM AS/400/iSeries market in 2002. The report sizes the addressable displacement opportunity at $1.87B across new customers, consolidation, enterprise applications, and Linux-lever upgrades. Recommendations focus on a partner-led strategy mirroring IBM's, Linux as the upgrade lever, and Europe as the key battleground SMB market. The analysis assumes flat 2002 iSeries revenues and identifies both positive factors (Regatta transition, Linux, consolidation trends) and negative factors (installed base inertia, IBM Global Services, lease renewal cycle closing).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Defining Aberdeen RAMP deliverable for a marquee Sun engagement at a pivotal moment (post-dot-com, pre-Sun decline) proposing a $1.87B addressable market attack plan on IBM's midrange flagship. |
+| **Relevance** | medium | RAMP methodology, addressable-market decomposition, and partner-channel analysis remain useful templates; specific 2002 competitive dynamics are historical. |
+| **Prescience** | low | Core recommendation — that Sun could capture meaningful AS/400 displacement via Linux-lever and partner-led attack — was refuted: Sun never captured material iSeries displacement share before Oracle's 2010 acquisition of Sun; iSeries rebranded as IBM i and continues shipping on Power Systems. |
+
+### Prescience Detail
+
+
+**Prediction 1:** regatta-ibm-partner-conflict
+- **Claimed:** Regatta transition will unleash ISV camp conflicts between AIX and OS/400 partners
+- **Year:** 2002
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** sun-as400-displacement
+- **Result:** Sun never captured meaningful AS/400 displacement share before Oracle acquisition; iSeries continued as IBM i on Power Systems
+- **Confidence:** refuted
+- **Notes:** Key strategic outcome
+
+**Prediction 2:** linux-enterprise-emergence
+- **Claimed:** Linux emergence in the enterprise creates new opportunity for Sun
+- **Year:** 2002
+- **Confidence at time:** medium
+
+**Actual Outcome 2:** sun-as400-displacement
+- **Result:** Sun never captured meaningful AS/400 displacement share before Oracle acquisition; iSeries continued as IBM i on Power Systems
+- **Confidence:** refuted
+- **Notes:** Key strategic outcome
+
+**Prediction 3:** sun-price-perf-advantage
+- **Claimed:** Sun has superior price and price-performance vs iSeries
+- **Year:** 2002
+- **Confidence at time:** medium
+
+**Actual Outcome 3:** sun-as400-displacement
+- **Result:** Sun never captured meaningful AS/400 displacement share before Oracle acquisition; iSeries continued as IBM i on Power Systems
+- **Confidence:** refuted
+- **Notes:** Key strategic outcome
+
+
+### Entities Referenced (19)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter Kastner | person | active | [none] |
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| Sun Microsystems | company | acquired | Oracle (2010) |
+| IBM | company | active |  |
+| IBM Global Services | company | active |  |
+| Accenture | company | active |  |
+| J.D. Edwards | company | acquired | PeopleSoft (2003) / Oracle (2005) |
+| PeopleSoft | company | acquired | Oracle (2005) |
+| Oracle Corporation | company | active |  |
+| Hewlett-Packard | company | split | HP Inc./HPE (2015) |
+| SAP AG | company | active |  |
+| Lotus/IBM Domino | company | acquired | IBM / HCL (2018) |
+| Navision | company | acquired | Microsoft (2002) |
+| Alltel Information Services | company | [DEFERRED] | [DEFERRED] |
+| DWL Incorporated | company | [DEFERRED] | [DEFERRED] |
+| e-Business Exchange Pte. Ltd. | company | [DEFERRED] | [DEFERRED] |
+| E3 Corporation | company | [DEFERRED] | [DEFERRED] |
+| IBM iForce | institution | [DEFERRED] | [DEFERRED] |
+| Cobalt Networks | company | acquired | Sun (2000) |
+
+### Technologies Referenced (14)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| IBM AS/400 | platform | IBM | mature | rebranded |
+| IBM iSeries | platform | IBM | mature | rebranded |
+| OS/400 | platform | IBM | mature | rebranded |
+| IBM pSeries | platform | IBM | mature | rebranded |
+| IBM Regatta (POWER4) | platform | IBM | emerging | succeeded |
+| Sun Solaris | platform | Sun Microsystems | mature | acquired |
+| SPARC | platform | Sun Microsystems | mature | acquired |
+| Sun Linux | platform | Sun Microsystems | emerging | discontinued |
+| IBM WebSphere | platform | IBM | emerging | mature |
+| Lotus Domino | application | IBM/Lotus | mature | legacy-supported |
+| Linux | platform | Open Source | emerging | mature |
+| Java | language | Sun Microsystems | mature | mature |
+| TPC-C Benchmark | benchmark | TPC | mature | mature |
+| HP 3000 | platform | HP | mature | retired |
+
+### Observation Summary
+
+- Total observations: 42
+- By type: market-data: 12, ibm-strategy: 7, competitive-assessment: 6, market-sizing: 5, strategic-recommendation: 5, viability-prediction: 3, actual-outcome: 3, market-assessment: 1

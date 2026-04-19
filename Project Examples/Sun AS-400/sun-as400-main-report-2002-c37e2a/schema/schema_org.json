@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Competing for the IBM AS/400 Market: A Report to the Management of Sun Microsystems",
+  "description": "Aberdeen Group's formal deliverable to Sun Microsystems assessing Sun's opportunity to compete for the $10.27B IBM AS/400/iSeries market in 2002. The report sizes the addressable displacement opportunity at $1.87B across new customers, consolidation, enterprise applications, and Linux-lever upgrades. Recommendations focus on a partner-led strategy mirroring IBM's, Linux as the upgrade lever, and Europe as the key battleground SMB market. The analysis assumes flat 2002 iSeries revenues and identifies both positive factors (Regatta transition, Linux, consolidation trends) and negative factors (installed base inertia, IBM Global Services, lease renewal cycle closing).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter Kastner"
+  },
+  "datePublished": "2002-04-20",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

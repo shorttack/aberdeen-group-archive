@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-kastner","Peter Kastner","person","IT Market Research","active","[none]","1988-present","sun-as400-market-data-2002-5faa8f","Author"
+"aberdeen-group","Aberdeen Group","firm","IT market analysis","acquired","Aberdeen/Harte-Hanks","1988-present","sun-as400-market-data-2002-5faa8f",""
+"sun-microsystems","Sun Microsystems","company","Enterprise IT","acquired","Oracle (2010)","1982-2010","sun-as400-market-data-2002-5faa8f",""
+"ibm","IBM","company","Enterprise IT","active","","1911-present","sun-as400-market-data-2002-5faa8f",""
+"us-census-bureau","U.S. Census Bureau","agency","Federal Statistics","active","","1790-present","sun-as400-market-data-2002-5faa8f","Source of Statistics of U.S. Business 1999"

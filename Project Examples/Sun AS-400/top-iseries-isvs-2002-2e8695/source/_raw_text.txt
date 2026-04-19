@@ -1,0 +1,343 @@
+===== Top-iSeries-ISVs-10.txt =====
+--- Page 1 ---
+ 
+Company
+Business Partner Level
+Premier Level
+Advanced Level
+Address
+ 
+Alltel Information Services, Inc.
+IBM Developer Business Partner
+2200 Lucien Way
+Suite 200
+Maitland, Florida 32751
+United States
+ 
+Matching Solutions:
+Horizon Banking System
+DWL Incorporated
+IBM Developer Business Partner
+230 Richmond St. E
+Level 2
+Toronto, Ontario M5A 1P4
+Canada
+ 
+Matching Solutions:
+DWL Customer
+DWL Unifi
+e-Business Exchange Pte. Ltd.
+IBM Developer Business Partner
+115, Jalan Chan Siew Teong
+Tanjung Bungah
+Georgetown 11200
+Malaysia
+ 
+Matching Solutions:
+e-BX BIll Presentment Switch Edition Version 3.0
+e-BX Biller Service Provider Edition Version 3.0
+e-BX TradePlus Merchant/Hosting Server Version 3.1.1
+E3 Corporation
+IBM Developer Business Partner
+1800 Parkway Place
+Suite 600
+Marietta, Georgia 30067-7826
+United States
+ 
+Matching Solutions:
+E3 Marketplace.com
+E3CRISP
+E3SLIM
+E3TRIM
+EFA Software Services Ltd
+IBM Developer Business Partner
+900, 311 6th Avenue SW.
+Calgary, Alberta T2P-3H2
+Canada
+ 
+Matching Solutions:
+Equator - Clearance & Settlement System
+Horizon - Automated Trading System
+Geac Enterprise Solutions
+IBM Developer Business Partner
+Needles House
+Birmingham Road
+Studley, Warwickshire B80 7AS
+United Kingdom
+ 
+Matching Solutions:
+Geac System21 - Service Management and Contract Modeller
+Geac System21 Customer Service and Logistics Applications
+Geac System21 Financial Applications
+Geac System21 for the Apparel, Footwear & Textile industries
+Geac System21 for the Automotive Industry
+
+
+--- Page 2 ---
+Geac System21 for the Beverage Industry
+Geac System21 for the Food Industry
+Hyperion Solutions Corporation
+IBM Developer Business Partner
+1344 Crossman Avenue
+Sunnyvale, California 94089-1113
+United States
+ 
+Matching Solutions:
+Hyperion Performance Scorecard
+Hyperion Planning
+i2 Technologies Incorporated
+IBM Developer Business Partner
+11701 Luna Rd.
+Dallas, Texas 75234
+United States
+ 
+Matching Solutions:
+i2 Demand Planner Five.Two
+i2 Base Platform Five.Two
+i2 Demand Fulfillment Five.Two
+i2 Factory Planner Five.Two
+i2 High Availability Module Five.Two
+i2 Supply Chain Planner Five.Two
+IBS-US
+IBM Developer Business Partner
+90 Blue Ravine Road
+Folsom, California 95630
+United States
+ 
+Matching Solutions:
+IBS ASW Suite
+IBS AB
+IBM Developer Business Partner
+Hemvärnsgatan 8
+PO Box 1350
+Solna 171 26
+Sweden
+ 
+Matching Solutions:
+ASW Alert Management
+ASW Analyser
+ASW Distribution
+ASW Financials
+ASW Manufacturing
+ASW NetStore / Internet Connection e2
+ASW Sales and Marketing Support
+ASW Service
+IBS' Virtual Enterprise
+ 
+IBS Consist B.V.
+IBM Developer Business Partner
+Nevelgaarde 20
+P. O. Box 500
+Nieuwegein 3430 AM
+Netherlands
+ 
+Matching Solutions:
+ASW
+EMIS, Employee Management Information System
+FIS/2000, Financial Information System
+FMS, Financial Management System
+
+
+--- Page 3 ---
+Infinium Software, Incorporated
+IBM Developer Business Partner
+25 Communications Way
+74 Furlong Rd
+Hyannis, Massachusetts 026012
+United States
+ 
+Matching Solutions:
+Infinium Business Intelligence Analytics (BIA)
+Infinium Financial Management
+Infinium Materials Management
+Infinium Process Manufacturing
+Intentia International AB
+IBM Developer Business Partner
+Vendevägen 89
+Box 596
+Danderyd 182 15
+Sweden
+ 
+Matching Solutions:
+Movex Automotive
+Movex Aviation
+Movex Distribution
+Movex e-CRM B2C
+Movex Fashion
+Movex Food & Beverage
+Movex Service & Rental
+Movex Steel
+International Business Systems N.V.
+IBM Developer Business Partner
+Xavier de Cocklaan 70
+St.-Martens-Latem B-9830
+Belgium
+ 
+Matching Solutions:
+AFS EE
+JD Edwards World Solutions Company
+IBM Developer Business Partner
+One Technology Way
+Denver, Colorado 80237
+United States
+ 
+Matching Solutions:
+J.D. Edwards OneWorld Financial Management
+J.D. Edwards WorldSoftware®:
+JDA Software Group, Inc.
+IBM Developer Business Partner
+14400 N 87th Street
+Scottsdale, Arizona 85260-3653
+United States
+ 
+Matching Solutions:
+E3TRIM and E3SLIM .
+Merchandise Management System (MMS®)
+Lawson Software
+IBM Developer Business Partner
+380 St Peter Street
+St. Paul, Minnesota 55102
+United States
+ 
+Matching Solutions:
+lawson.insight Procurement
+Mincom Limited
+IBM Developer Business Partner
+193 Turbot Street
+Brisbane, Queensland 4001
+Australia
+ 
+Matching Solutions:
+Ellipse
+
+
+--- Page 4 ---
+Misys International Banking Systems
+IBM Developer Business Partner
+45 Broadway
+New York, New York 10006
+United States
+ 
+Matching Solutions:
+Equation DBA/Midas DBA
+Misys International Banking Systems Limited
+IBM Developer Business Partner
+1 St Georges Road
+Wimbledon
+London SW19 4DR
+United Kingdom
+ 
+Matching Solutions:
+Equation DBA
+Midas DBA
+Qtech Business Systems Pty Ltd
+IBM Developer Business Partner
+Level 1
+16 Edmondstone Street
+Brisbane, Queensland 4051
+Australia
+ 
+Matching Solutions:
+Guardianship
+SAP AG
+IBM Developer Business Partner
+Neurottstr. 16
+Walldorf D-69190
+Germany
+ 
+Matching Solutions:
+mySAP E-Procurement
+mySAP Financials
+mySAP Human Resources
+mySAP Marketplace
+mySAP Product Lifecycle Management
+mySAP Workplace
+SAP France
+IBM Developer Business Partner
+57 59 BLD Malsherbes
+Paris 75008
+France
+ 
+Matching Solutions:
+mySAP.com Business Warehouse
+Sapiens International
+IBM Developer Business Partner
+2000 CentreGreen Way
+Suite 240
+Cary, North Carolina 27513
+United States
+ 
+Matching Solutions:
+bizBLOX
+SAS Institute Inc.
+IBM Developer Business Partner
+SAS Campus Drive
+Cary, North Carolina 27513
+United States
+ 
+Matching Solutions:
+SAS/IntrNet (R) Software
+Siebel Systems, Inc.
+IBM Developer Business
+Partner
+1855 South Grant Street
+San Mateo, California 94402-2667
+United States
+ 
+Matching Solutions:
+Siebel 7, MidMarket Edition
+Siebel Call Center
+ 
+
+
+--- Page 5 ---
+Siebel eBusiness Solutions
+Siebel Enterprise Applications
+Siebel Field Service
+Siebel Sales 2000
+Silvon Software, Inc.
+IBM Developer Business
+Partner
+900 Oakmont Lane
+Suite 400
+Westmont, Illinois 60559
+United States
+ 
+Matching Solutions:
+Stratum
+ 
+Software AG
+(Germany)
+IBM Developer Business
+Partner
+Uhlandstr. 12
+Darmstadt 64297
+Germany
+ 
+Matching Solutions:
+EntireX
+ 
+SOPRA GROUP
+IBM Developer Business
+Partner
+9 Bis rue de Presbourg
+Paris 75116
+France
+ 
+Matching Solutions:
+XFB eXtended File Broker
+ 
+Vision Solutions, Inc.
+IBM Developer Business
+Partner
+17911 Von Karman Avenue
+5th Floor
+Irvine, California 92614
+United States
+ 
+Matching Solutions:
+Vision Suite Enterprise Edition
+ 
+ 
+
+

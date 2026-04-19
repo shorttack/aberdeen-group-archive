@@ -1,0 +1,430 @@
+# Sun's AS/400 Market Opportunity — Aberdeen Presentation to Sun Microsystems
+
+> Archived from: Sun-AS400-Final-Presentation-3.ppt + Market-Opportunity-presentation-9.pdf
+> Original publication date: 2002-04-20
+> Author: Peter Kastner
+
+---
+
+## Original Document Text
+
+===== Sun-AS400-Final-Presentation-3.txt =====
+--- Page 1 ---
+ 
+ 
+AberdeenGroup
+Sun’s AS/400 Market Opportunity
+Peter Kastner
+EVP Platforms
+Aberdeen Group, Inc.
+
+
+--- Page 2 ---
+ 
+ 
+AberdeenGroup
+Agenda
+• AS/400 Demographics
+• Competitive Assessment
+• IBM’s 2002 Game Plan for iSeries
+• Market Opportunity for Sun
+• Recommended Market Strategy
+• Discussion
+
+
+--- Page 3 ---
+ 
+ 
+AberdeenGroup
+AS/400 Demographics
+• BIG: 450,000 machine installed base – 25,000 are 
+current products and OS release
+• $7.7B hardware & $2.6B software = 23% of IBM’s 
+hardware revenues
+• Five-year decline in revenue from $13.5B Y2K
+• IBM says addressable market is $56B
+• Europe is as important as North America
+• Typical customer skewed low: 1-2-way @ $50-150K
+
+
+--- Page 4 ---
+ 
+ 
+AberdeenGroup
+iSeries Competitive Assessment
+• Sun overlaps the iSeries product line
+– iSeries: 1-32 way servers @ 400-375,000 TPM-C
+• Exceptional partner program: 85% of revenues 
+go through partners; solutions focus
+• Good commercial OS and middleware
+• Poor price-performance, pricey upgrades
+• Positioning & messages well tuned to SMB
+• Europe is the key SMB battleground
+
+
+--- Page 5 ---
+ 
+ 
+AberdeenGroup
+IBM’s 2002 Game Plan for iSeries
+• Server consolidation (recentralization)
+• Upgrade e-infrastructure (Notes & WebSphere)
+• Competitive Target:  HP3000 migration
+• SMB new-market growth
+• Enterprise Application Solutions
+• Selectively target SMB (under 100 employees)
+• Replace or refinance Y2K-era machines
+
+
+--- Page 6 ---
+ 
+ 
+AberdeenGroup
+Avoid a Direct Assault on AS/400 Base
+• No identifiable class of dissatisfied iSeries users
+• Unix and Windows migration already exists
+• Most of the installed base is low/no growth
+– “IT is an expense, not a competitive weapon”
+– “I’d rather fight than switch”
+• IBM is doing enough to keep the iSeries close to 
+the technology edge
+– Linux, NT, web, Notes, POWER4 …
+
+
+--- Page 7 ---
+ 
+ 
+AberdeenGroup
+Market Opportunity for Sun
+• New customers
+• Applications – CRM, 
+EAS, SCM, B2B
+• Upgrades – fight for 
+Linux
+• Consolidation
+Sun Addressable $M
+$924
+$452
+$92
+$400
+New Customers
+Applications
+Upgrades
+Consolidation
+
+
+--- Page 8 ---
+ 
+ 
+AberdeenGroup
+Prioritized Market Strategy
+•
+New customers
+•
+Applications – CRM, EAS, SCM, B2B
+•
+Upgrades – fight for Linux
+•
+Consolidation
+
+
+--- Page 9 ---
+ 
+ 
+AberdeenGroup
+New Customers
+• Attract IBM’s partners (JDE, Siebel, SAP, 
+Intentia, Navision…)
+• Find where the new installs are going (e.g. Asia 
+banks).  Target verticals.
+• Value prop: 
+– Better value and more choice  than pricey IBM
+– Better future-proofing than OS/400
+– iForce is solutions focused too
+
+
+--- Page 10 ---
+ 
+ 
+AberdeenGroup
+Applications — CRM, EAS, SCM, B2B
+• “Freeze your AS/400.  Go with Sun for new business 
+apps and Edge (H1)”
+• Sun is already competing in the apps market
+• Value Prop:
+– Better value and more choice  than pricey IBM
+• Do a TCO analysis of new Sun vs. upgrade
+– Better future-proofing than OS/400
+– Solaris business apps are Tier 1, not Tier x
+• Get latest technology faster with Sun
+– There is a better way than IGS -- iForce
+
+
+--- Page 11 ---
+ 
+ 
+AberdeenGroup
+iSeries Upgrades — Linux is the Lever
+• Most AS/400 upgrade business is unattainable
+• Opportunity is to compete for Linux-related upgrades of 
+CPU, memory, disk with Sun Linux on SPARC or Intel
+• Value Prop
+– Much better value than expensive iSeries cycles
+– Very manageable (Cobalt appliance manager)
+– Tier 1 Linux apps on Sun, not on IBM
+– Sun has Cobalt Linux appliance solutions.  IBM does not.
+
+
+--- Page 12 ---
+ 
+ 
+AberdeenGroup
+Consolidation
+• Catch large accounts who are re-centralizing 
+geographically distributed computing on a large 
+host server
+• Carefully target consolidation characteristics
+• Key Issue:  ability to run existing dumb 
+terminal/RPG apps, at least for awhile.  Must 
+create a Blue Away-like program.
+
+
+--- Page 13 ---
+ 
+ 
+AberdeenGroup
+Discussion
+
+
+
+
+===== Market-Opportunity-presentation-9.txt =====
+--- Page 1 ---
+AberdeenGroup
+Sun’s AS/400 Market Opportunity
+Peter Kastner
+EVP Platforms
+Aberdeen Group, Inc.
+
+
+--- Page 2 ---
+AberdeenGroup
+Agenda
+• AS/400 Demographics
+• Competitive Assessment
+• IBM’s 2002 Game Plan for iSeries
+• Market Opportunity for Sun
+• Recommended Market Strategy
+• Discussion
+
+
+--- Page 3 ---
+AberdeenGroup
+AS/400 Demographics
+• BIG: 450,000 machine installed base – 25,000 are 
+current products and OS release
+• $7.7B hardware & $2.6B software = 23% of IBM’s 
+hardware revenues
+• Five-year decline in revenue from $13.5B Y2K
+• IBM says addressable market is $56B
+• Europe is as important as North America
+• Typical customer skewed low: 1-2-way @ $50-150K
+
+
+--- Page 4 ---
+AberdeenGroup
+iSeries Competitive Assessment
+• Sun overlaps the iSeries product line
+– iSeries: 1-32 way servers @ 400-375,000 TPM-C
+• Exceptional partner program: 85% of revenues 
+go through partners; solutions focus
+• Good commercial OS and middleware
+• Poor price-performance, pricey upgrades
+• Positioning & messages well tuned to SMB
+• Europe is the key SMB battleground
+
+
+--- Page 5 ---
+AberdeenGroup
+IBM’s 2002 Game Plan for iSeries
+• Server consolidation (recentralization)
+• Upgrade e-infrastructure (Notes & WebSphere)
+• Competitive Target:  HP3000 migration
+• SMB new-market growth
+• Enterprise Application Solutions
+• Selectively target SMB (under 100 employees)
+• Replace or refinance Y2K-era machines
+
+
+--- Page 6 ---
+AberdeenGroup
+Avoid a Direct Assault on AS/400 Base
+• No identifiable class of dissatisfied iSeries users
+• Unix and Windows migration already exists
+• Most of the installed base is low/no growth
+– “IT is an expense, not a competitive weapon”
+– “I’d rather fight than switch”
+• IBM is doing enough to keep the iSeries close to 
+the technology edge
+– Linux, NT, web, Notes, POWER4 …
+
+
+--- Page 7 ---
+AberdeenGroup
+Market Opportunity for Sun
+• New customers
+• Applications – CRM, 
+EAS, SCM, B2B
+• Upgrades – fight for 
+Linux
+• Consolidation
+Upgrades
+$92 
+Applications
+$452 
+New
+Customers
+$924 
+Consolidation
+$400 
+Sun Addressable $M
+
+
+--- Page 8 ---
+AberdeenGroup
+Prioritized Market Strategy
+•
+New customers
+•
+Applications – CRM, EAS, SCM, B2B
+•
+Upgrades – fight for Linux
+•
+Consolidation
+
+
+--- Page 9 ---
+AberdeenGroup
+New Customers
+• Attract IBM’s partners (JDE, Siebel, SAP,
+Intentia, Navision…)
+• Find where the new installs are going (e.g. Asia 
+banks).  Target verticals.
+• Value prop: 
+– Better value and more choice  than pricey IBM
+– Better future-proofing than OS/400
+– iForce is solutions focused too
+
+
+--- Page 10 ---
+AberdeenGroup
+Applications — CRM, EAS, SCM, B2B
+• “Freeze your AS/400.  Go with Sun for new 
+business apps and Edge (H1)”
+• Sun is already competing in the apps market
+• Value Prop:
+– Better value and more choice  than pricey IBM
+• Do a TCO analysis of new Sun vs. upgrade
+– Better future-proofing than OS/400
+– Solaris business apps are Tier 1, not Tier x
+• Get latest technology faster with Sun
+– There is a better way than IGS -- iForce
+
+
+--- Page 11 ---
+AberdeenGroup
+iSeries Upgrades — Linux is the Lever
+• Most AS/400 upgrade business is unattainable
+• Opportunity is to compete for Linux-related 
+upgrades of CPU, memory, disk with Sun Linux 
+on SPARC or Intel
+• Value Prop
+– Much better value than expensive iSeries cycles
+– Very manageable (Cobalt appliance manager)
+– Tier 1 Linux apps on Sun, not on IBM
+– Sun has Cobalt Linux appliance solutions.  
+IBM does not.
+
+
+--- Page 12 ---
+AberdeenGroup
+Consolidation
+• Catch large accounts who are re-centralizing 
+geographically distributed computing on a large 
+host server
+• Carefully target consolidation characteristics
+• Key Issue:  ability to run existing dumb 
+terminal/RPG apps, at least for awhile.  Must 
+create a Blue Away-like program.
+
+
+--- Page 13 ---
+AberdeenGroup
+Discussion
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | sun-as400-presentation-2002-9d925e |
+| title | Sun's AS/400 Market Opportunity — Aberdeen Presentation to Sun Microsystems |
+| author | Peter Kastner |
+| date | 2002-04-20 |
+| type | white-paper |
+| subject_domain | server-market-strategy |
+| methodology | industry-analysis, competitive-profiling, executive-presentation |
+| source_file | Sun-AS400-Final-Presentation-3.ppt + Market-Opportunity-presentation-9.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Companion executive presentation deck to the April 2002 Aberdeen-to-Sun iSeries market report. Summarizes AS/400 demographics (450,000 installed base, $10.27B revenue, 23% of IBM HW), competitive assessment of iSeries strengths and weaknesses, IBM's 2002 game plan, Sun's $1.87B addressable market across four segments (new customers $924M, consolidation $400M, applications $452M, upgrades $92M), and the recommended partner-led Linux-lever strategy. Two file variants (ppt and pdf) contain the same content; merged here.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Executive-facing summary deck for the flagship Sun RAMP engagement; primary analytical content duplicates the main report. |
+| **Relevance** | medium | Deck format remains useful as a presentation template; content tracks the main report. |
+| **Prescience** | low | Same predictions as the main report: refuted — Sun did not meaningfully displace iSeries before Oracle's 2010 acquisition. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (5)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter Kastner | person | active | [none] |
+| Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
+| Sun Microsystems | company | acquired | Oracle (2010) |
+| IBM | company | active |  |
+| J.D. Edwards | company | acquired | PeopleSoft (2003) / Oracle (2005) |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| IBM AS/400 | platform | IBM | mature | rebranded |
+| IBM iSeries | platform | IBM | mature | rebranded |
+| OS/400 | platform | IBM | mature | rebranded |
+| SPARC | platform | Sun Microsystems | mature | acquired |
+| Sun Solaris | platform | Sun Microsystems | mature | acquired |
+| Linux | platform | Open Source | emerging | mature |
+| IBM WebSphere | platform | IBM | emerging | mature |
+| Lotus Domino | application | IBM/Lotus | mature | legacy-supported |
+
+### Observation Summary
+
+- Total observations: 18
+- By type: market-data: 5, competitive-assessment: 5, market-sizing: 5, strategic-recommendation: 2, ibm-strategy: 1

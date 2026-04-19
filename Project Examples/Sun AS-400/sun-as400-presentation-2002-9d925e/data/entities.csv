@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-kastner","Peter Kastner","person","IT Market Research","active","[none]","1988-present","sun-as400-presentation-2002-9d925e","EVP Platforms, Aberdeen Group"
+"aberdeen-group","Aberdeen Group","firm","IT market analysis","acquired","Aberdeen/Harte-Hanks","1988-present","sun-as400-presentation-2002-9d925e",""
+"sun-microsystems","Sun Microsystems","company","Enterprise IT Hardware/Software","acquired","Oracle (2010)","1982-2010","sun-as400-presentation-2002-9d925e","Audience for the deck"
+"ibm","IBM","company","Enterprise IT","active","","1911-present","sun-as400-presentation-2002-9d925e",""
+"jd-edwards","J.D. Edwards","company","Enterprise Software","acquired","PeopleSoft (2003) / Oracle (2005)","1977-2005","sun-as400-presentation-2002-9d925e","Cited as Sun partner example"

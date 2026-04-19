@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sun's AS/400 Market Opportunity \u2014 Aberdeen Presentation to Sun Microsystems",
+  "description": "Companion executive presentation deck to the April 2002 Aberdeen-to-Sun iSeries market report. Summarizes AS/400 demographics (450,000 installed base, $10.27B revenue, 23% of IBM HW), competitive assessment of iSeries strengths and weaknesses, IBM's 2002 game plan, Sun's $1.87B addressable market across four segments (new customers $924M, consolidation $400M, applications $452M, upgrades $92M), and the recommended partner-led Linux-lever strategy. Two file variants (ppt and pdf) contain the same content; merged here.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter Kastner"
+  },
+  "datePublished": "2002-04-20",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

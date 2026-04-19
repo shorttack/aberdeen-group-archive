@@ -90,12 +90,12 @@ Weekly Kastner PC Deals commentary for 2003-01-12, covering retail PC pricing tr
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** expect to save on pricier systems; this week is all about low-to-mid-range PCs.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** will be paying than the same configuration of the Dimension 4550.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (12)

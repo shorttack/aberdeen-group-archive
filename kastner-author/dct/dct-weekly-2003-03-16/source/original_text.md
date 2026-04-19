@@ -96,7 +96,7 @@ Intel's Centrino wireless notebook launch was the hot topic in the industry this
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will be hard to come by for a few weeks.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 
 ### Entities Referenced (15)

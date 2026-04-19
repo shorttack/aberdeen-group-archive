@@ -120,22 +120,22 @@ These are our current recommendation for mainstream desktop personal computers t
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we think a CD-RW per department has a lot of valid uses.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** we expect prices to decline due to the flow-through of lower Intel microprocessor prices.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** will be under five pounds, have at least four hours of meeting life before a battery swap or recharge is needed, and be a one-stop portable office.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 4:** Kastner forecast 4 from commentary
 - **Claimed:** next quarter, we expect prices to decline due to the flow-through of lower Intel microprocessor prices.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (10)

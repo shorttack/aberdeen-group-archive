@@ -118,7 +118,7 @@ For six months, Aberdeen has been publishing our research on consumer desktop PC
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we think a CD-RW per department has a lot of valid uses.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 
 ### Entities Referenced (9)

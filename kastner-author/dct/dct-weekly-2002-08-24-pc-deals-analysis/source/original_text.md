@@ -82,17 +82,17 @@ With three weeks to go in the back-to-school promotion season, the market is in 
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** We think HP, which lost market share to Dell last quarter and which will announce Q2 earnings this week, is out to get that market share back with outstanding PC deals.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** We expect next Sunday's circulars to be full of deals as the post-Labor Day, end-of-summer arrives in earnest.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** expected to announce a new high end chip soon, which will undoubtedly unleash a further cascade of good deals this fall.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (12)

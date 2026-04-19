@@ -97,7 +97,7 @@ Been waiting for the high-end Intel Pentium 4 processors to drop to more accessi
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** expect to see another deal like this one for a while.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 
 ### Entities Referenced (15)

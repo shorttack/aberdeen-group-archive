@@ -107,7 +107,7 @@ As of this week, PC Deals no longer follows pricing on old eMachines, HP, and Co
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we expected Dell's prices on the desktops we customize to be quite competitive this week.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (16)

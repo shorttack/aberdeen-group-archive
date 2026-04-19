@@ -107,12 +107,12 @@ The retail world calls this time of year the "Dads and Grads" season. It's the l
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we see what Compaq is trying to achieve.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** Expect to see many of HP-Compaq's current models disappear from online sites except for vendors like http://www.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (16)

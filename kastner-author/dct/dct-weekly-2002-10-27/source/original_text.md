@@ -68,7 +68,7 @@ The retail ad circulars are back after a two-week hiatus! No notable price cuts 
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** We expect the Compaq brand to focus more on business and home bread-and-butter productivity, while the HP PC brand emphasizes performance and multimedia capabilities.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (11)

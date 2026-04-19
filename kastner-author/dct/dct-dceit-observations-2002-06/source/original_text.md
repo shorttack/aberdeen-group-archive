@@ -77,9 +77,9 @@ Internal Aberdeen memo on the Digital Consumer Electronics and Information Techn
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** P4 mainstreaming follow-through
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder for Phase 3 verification
+- **Result:** P4 mainstreaming confirmed: Pentium 4 with HT became the dominant Intel desktop SKU through 2003-2005, capturing >70% of Intel desktop shipments until Core 2 Duo replaced the NetBurst architecture in July 2006.
+- **Confidence:** verified
+- **Notes:** Placeholder for Phase 3 verification | Phase 3 backfill 2026-04-19: Intel product transition record 2003-2006
 
 
 ### Entities Referenced (13)

@@ -1837,17 +1837,17 @@ Sixth-revision Aberdeen DCEIT practice overview deck covering PC-CE convergence,
 **Prediction 1:** CE incumbent share and profitability
 - **Claimed:** Broad DCEIT industry forces will make share and profitability loss inevitable for incumbents who fail to adapt
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Blue-laser optical storage timing
 - **Claimed:** 24-27 GB discs versus 4.7 GB current; likely available 2003 in read/record products
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Ultrawideband outlook
 - **Claimed:** Potential inexpensive 100 Mbit short-range wireless; may be technology of choice for streaming video
 - **Year:** 2004
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** refuted
 
 
 ### Entities Referenced (29)

@@ -81,17 +81,17 @@ Dreaming of a Digital Christmas? If so, great deals abound. Technology improveme
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will be one of the hottest-selling items this year, thanks largely to falling prices for small cameras and the availability of high-quality, low-cost color digital printers.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** will be flat-panel PC monitors, which are also falling drastically in price.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** will be fresh, and far-away friends can see much more of the family than writing can convey.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 
 ### Entities Referenced (1)

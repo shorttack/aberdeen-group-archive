@@ -69,7 +69,7 @@ AMD ruled the retail ads this week with an abundance of Athlon machines at great
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will drop, or the consumer will get more for the same price, as the holiday season nears.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (12)

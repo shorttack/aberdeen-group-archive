@@ -98,9 +98,9 @@ Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Windows XP corporate mainstream
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder
+- **Result:** Windows XP became the corporate mainstream desktop OS by mid-2004; Microsoft extended XP support multiple times due to Vista's slow corporate uptake (2007-2009); XP remained dominant enterprise desktop until Windows 7 displacement 2010-2013. Corporate mainstreaming timeline accurately anticipated.
+- **Confidence:** verified
+- **Notes:** Placeholder | Phase 3 backfill 2026-04-19: Microsoft XP corporate rollout data; Vista enterprise rejection; Win7 migration 2010-2013
 
 **Prediction 2:** Platform stability window
 - **Claimed:** Springdale inaugurates 18-month platform/image stability period
@@ -108,9 +108,9 @@ Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Centrino adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder
+- **Result:** Centrino achieved rapid mainstream adoption: launched March 12 2003; by end of 2003 Centrino-branded notebooks dominated business + premium consumer notebook segments; Intel reported Centrino as core of mobile PC growth through 2005 when Core Duo replaced Pentium M.
+- **Confidence:** verified
+- **Notes:** Placeholder | Phase 3 backfill 2026-04-19: Intel Centrino launch Mar 2003; IDC mobile PC reports 2003-2005
 
 **Prediction 3:** Hyper-Threading mainstreaming
 - **Claimed:** P4 HT now mainstream — better multi-tasking and thread-aware apps
@@ -118,9 +118,9 @@ Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Centrino adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder
+- **Result:** Centrino achieved rapid mainstream adoption: launched March 12 2003; by end of 2003 Centrino-branded notebooks dominated business + premium consumer notebook segments; Intel reported Centrino as core of mobile PC growth through 2005 when Core Duo replaced Pentium M.
+- **Confidence:** verified
+- **Notes:** Placeholder | Phase 3 backfill 2026-04-19: Intel Centrino launch Mar 2003; IDC mobile PC reports 2003-2005
 
 **Prediction 4:** Notebook mix
 - **Claimed:** ~1/3 corporate PC purchases in 2003 will be notebooks; Centrino = long battery life + wireless productivity
@@ -128,9 +128,9 @@ Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate
 - **Confidence at time:** high
 
 **Actual Outcome 4:** Centrino adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder
+- **Result:** Centrino achieved rapid mainstream adoption: launched March 12 2003; by end of 2003 Centrino-branded notebooks dominated business + premium consumer notebook segments; Intel reported Centrino as core of mobile PC growth through 2005 when Core Duo replaced Pentium M.
+- **Confidence:** verified
+- **Notes:** Placeholder | Phase 3 backfill 2026-04-19: Intel Centrino launch Mar 2003; IDC mobile PC reports 2003-2005
 
 
 ### Entities Referenced (5)

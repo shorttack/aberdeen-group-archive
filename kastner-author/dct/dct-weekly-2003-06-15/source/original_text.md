@@ -95,12 +95,12 @@ Not all that much to comment on this week. With Father's Day past, the best deal
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will be prime time to get rock-bottom prices on the older PC models.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** Expect to see many of HP-Compaq's current models disappear from online sites except for vendors like http://www.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (14)

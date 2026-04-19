@@ -131,7 +131,7 @@ Enterprise PC, business PC, corporate PC, business desktop PC, corporate busines
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we think a CD-RW per department has a lot of valid uses.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 
 ### Entities Referenced (10)

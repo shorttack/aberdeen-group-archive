@@ -63,12 +63,12 @@ HT technology works by providing hardware support for a second executing compute
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** We see the HT technology pushing down the product line as Intel rolls out more speed improvements in 2003.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** will be in our $1,350 price band by next April 1st.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (4)

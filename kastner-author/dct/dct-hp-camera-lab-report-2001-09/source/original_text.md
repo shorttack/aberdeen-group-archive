@@ -94,9 +94,9 @@ September 5, 2001 Aberdeen Lab InSight draft on HP's consumer IT execution, base
 - **Confidence at time:** high
 
 **Actual Outcome 2:** HP consumer-IT outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — HP eventually exited consumer digital camera market
+- **Result:** HP exited the consumer digital camera market in 2008, selling the Photosmart camera line and licensing the HP brand; HP's consumer imaging strategy ultimately centered on printers rather than capture devices as the prediction's direction anticipated.
+- **Confidence:** verified
+- **Notes:** Placeholder — HP eventually exited consumer digital camera market | Phase 3 backfill 2026-04-19: HP 2008 exit from consumer digital camera market
 
 
 ### Entities Referenced (4)

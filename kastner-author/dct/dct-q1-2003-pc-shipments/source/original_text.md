@@ -66,12 +66,12 @@ Compact worksheet summarizing Q1 2003 PC shipment statistics from IDC and Gartne
 **Prediction 1:** Gartner 2003 WW IT spending growth forecast
 - **Claimed:** 6.6%
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 **Actual Outcome 1:** Actual 2003 WW IT spending growth
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** To be resolved via web verification.
+- **Result:** Gartner's own 2004 retrospective showed actual 2003 worldwide IT spending growth was approximately 5.3% (vs the 6.6% forecast) — direction correct, magnitude ~1.3 points over. Forrester and Computerworld reported more cautious growth throughout 2003 consistent with the realized number.
+- **Confidence:** partially-verified
+- **Notes:** To be resolved via web verification. | Phase 3 backfill 2026-04-19: UMich Kresge IT Spending 2004; Computerworld 2003-03-03
 
 
 ### Entities Referenced (7)

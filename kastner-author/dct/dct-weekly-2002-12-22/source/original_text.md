@@ -76,12 +76,12 @@ Good news and bad news this week, PC shoppers. The good news is that Dell has pa
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** We expect the best opportunities to score will be Thursday through Saturday.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** we expect excellent bargains for those who wait until the 26th.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (7)

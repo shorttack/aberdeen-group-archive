@@ -86,7 +86,7 @@ If you thought that Gateway's strategy of adding computer peripherals and electr
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we think the analysts on Wall Street will be pleased when they catch on.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 
 ### Entities Referenced (9)

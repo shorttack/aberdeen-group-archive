@@ -73,17 +73,17 @@ You may have already read that this year's holiday season's sales yielded the lo
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** expect to pay $1,418 at HP Online! Obviously, last week was the time to buy this great machine.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** expect to pay at all other sites from Compusa.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** we expected to see after Christmas, that these retailers are trying to move as new models come in.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (11)

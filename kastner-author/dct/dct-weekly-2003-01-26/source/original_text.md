@@ -93,7 +93,7 @@ PC Deals never planned to cover vpr Matrix machines because they are exclusively
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will be great at naming robots when they are commonplace.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 
 ### Entities Referenced (14)

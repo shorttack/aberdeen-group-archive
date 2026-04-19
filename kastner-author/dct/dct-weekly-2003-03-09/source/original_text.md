@@ -97,7 +97,7 @@ Looks like Compaq is putting out the best mid-range and high-end deals. With win
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** next month at retail as Intel's price cuts work their way through the - now much shorter - supply chain.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (14)

@@ -85,17 +85,17 @@ After two slow weeks after the end of the school buying season, this week sees a
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** we expect the recently announced 2800+ to be seen into retail systems at price points we cover until next year.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** We think there will be more deals - and certainly more circulars to study - next weekend.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** We see Gateway moving more to a high-end niche, with custom loaded computers a mainstay.
 - **Year:** 2002
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** partially-verified
 
 
 ### Entities Referenced (12)

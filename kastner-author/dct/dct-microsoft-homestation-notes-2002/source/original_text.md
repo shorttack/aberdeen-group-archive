@@ -68,9 +68,9 @@ Briefing notes on Microsoft's HomeStation concept — a home-server platform bri
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** HomeStation outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — HomeStation concept materialized as Media Center PC + Xbox Extender
+- **Result:** HomeStation concept materialized as Windows XP Media Center Edition (Oct 2002) plus Xbox 360 Media Center Extender (Nov 2005); both eventually superseded by smart TVs + streaming appliances (Roku/Apple TV/Chromecast 2008-2013). Core HomeStation vision (one home media platform) ultimately fragmented into cloud-streaming model rather than unified PC-centric hub.
+- **Confidence:** verified
+- **Notes:** Placeholder — HomeStation concept materialized as Media Center PC + Xbox Extender | Phase 3 backfill 2026-04-19: Windows XP MCE Oct 2002; Xbox 360 MCX Nov 2005; streaming STB history
 
 **Prediction 2:** TV-tuner supplier
 - **Claimed:** Probably nVidia (analog/digital already in XP) — cost will be trivial

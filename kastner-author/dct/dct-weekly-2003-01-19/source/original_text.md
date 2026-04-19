@@ -97,7 +97,7 @@ It's getting on to February. Intel has not changed microprocessor prices since N
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** We expect Intel to follow its traditional pattern and reduce prices next month.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (17)

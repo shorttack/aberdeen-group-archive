@@ -103,9 +103,9 @@ News analysis of Microsoft's announcement of Windows XP Media Center Edition —
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** MCE adoption outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — verify OEM expansion through Dell/Gateway by 2003-2004
+- **Result:** Windows XP Media Center Edition OEM rollout confirmed: HP, Dell, Gateway, Sony, Toshiba all shipped MCE SKUs through 2003-2005; MCE was folded into Vista Home Premium/Ultimate (2007) and Windows 7 (2009) as mainstream features. Last standalone MCE was 2005 Edition; 'Windows Media Center' app removed from Windows 10 (2015) as streaming displaced DVR-centric use case.
+- **Confidence:** verified
+- **Notes:** Placeholder — verify OEM expansion through Dell/Gateway by 2003-2004 | Phase 3 backfill 2026-04-19: OEM MCE shipment record 2003-2005; MCE integration into Vista/Win7
 
 **Prediction 2:** Competitive risk
 - **Claimed:** If Media Center fails to match SonicBlue/TiVo reliability, PC banished from living room for years

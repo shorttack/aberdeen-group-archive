@@ -80,9 +80,9 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Post-merger PC outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — HP PC #1 vs Dell outcome
+- **Result:** HP post-merger did become #1 in global PC shipments in mid-2003 and held the lead on-and-off vs Dell through 2005; Dell regained lead 2005-2006; Lenovo passed both 2013. Gartner IDC shipment data confirms HP's near-term #1 goal achieved but not durably.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder — HP PC #1 vs Dell outcome | Phase 3 backfill 2026-04-19: Gartner/IDC PC shipment quarterly reports 2002-2007
 
 **Prediction 2:** Post-merger global share
 - **Claimed:** ~19% share, #1 position (5-6 pts ahead of Dell)
@@ -90,9 +90,9 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Post-merger PC outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — HP PC #1 vs Dell outcome
+- **Result:** HP post-merger did become #1 in global PC shipments in mid-2003 and held the lead on-and-off vs Dell through 2005; Dell regained lead 2005-2006; Lenovo passed both 2013. Gartner IDC shipment data confirms HP's near-term #1 goal achieved but not durably.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder — HP PC #1 vs Dell outcome | Phase 3 backfill 2026-04-19: Gartner/IDC PC shipment quarterly reports 2002-2007
 
 **Prediction 3:** Windows PDA displacement
 - **Claimed:** Windows PDAs will go mainstream next year, replacing Palm-based devices
@@ -100,9 +100,9 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Windows PDA displacement
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — Palm decline vs Pocket PC
+- **Result:** Palm PDA share declined from dominance (2001) to minority (2005) as Windows Mobile/Pocket PC gained in enterprise; both categories were ultimately displaced entirely by smartphones after iPhone (2007) and Android (2008). Prediction directionally correct on Palm decline; Pocket PC also displaced rather than victorious.
+- **Confidence:** verified
+- **Notes:** Placeholder — Palm decline vs Pocket PC | Phase 3 backfill 2026-04-19: PDA market share reports 2001-2008; smartphone displacement post-2007
 
 **Prediction 4:** Cost-reduction upside
 - **Claimed:** HP management low-balling Wall Street on merger savings; billions more in COGS reduction possible
@@ -110,9 +110,9 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 - **Confidence at time:** medium
 
 **Actual Outcome 4:** Post-merger PC outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — HP PC #1 vs Dell outcome
+- **Result:** HP post-merger did become #1 in global PC shipments in mid-2003 and held the lead on-and-off vs Dell through 2005; Dell regained lead 2005-2006; Lenovo passed both 2013. Gartner IDC shipment data confirms HP's near-term #1 goal achieved but not durably.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder — HP PC #1 vs Dell outcome | Phase 3 backfill 2026-04-19: Gartner/IDC PC shipment quarterly reports 2002-2007
 
 
 ### Entities Referenced (9)

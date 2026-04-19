@@ -99,17 +99,17 @@ June 18th, HP announced it's newest addition to its desktop line-up, the m200 se
 **Prediction 1:** Kastner forecast 1 from commentary
 - **Claimed:** will be available in mid-July and online, customized desktops will be available as soon as July 9th.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 2:** Kastner forecast 2 from commentary
 - **Claimed:** we predicted, although many of those deals focused on Sony desktops.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 **Prediction 3:** Kastner forecast 3 from commentary
 - **Claimed:** Expect to see many of HP-Compaq's current models disappear from online sites except for vendors like http://www.
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** verified
 
 
 ### Entities Referenced (15)

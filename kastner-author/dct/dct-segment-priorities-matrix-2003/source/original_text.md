@@ -69,9 +69,9 @@ Aberdeen Personal IT / DCT segment-priorities matrix cross-tabulating four techn
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Desktop CPU 3.6 GHz
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — Pentium 4 did reach 3.6 GHz by 2004
+- **Result:** Pentium 4 reached 3.6 GHz with the Prescott F-series / Pentium 4 560 launched June 21 2004 (3.6 GHz) — within the anticipated timeline; NetBurst hit its 3.8 GHz ceiling with P4 570J by November 2004 before thermal limits forced the architectural pivot to Core.
+- **Confidence:** verified
+- **Notes:** Placeholder — Pentium 4 did reach 3.6 GHz by 2004 | Phase 3 backfill 2026-04-19: Intel P4 560 launch Jun 2004; NetBurst thermal wall 2004
 
 **Prediction 3:** Notebook CPU inflection
 - **Claimed:** Pentium 4 laptops are major performance improvement
@@ -79,9 +79,9 @@ Aberdeen Personal IT / DCT segment-priorities matrix cross-tabulating four techn
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Desktop CPU 3.6 GHz
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
-- **Notes:** Placeholder — Pentium 4 did reach 3.6 GHz by 2004
+- **Result:** Pentium 4 reached 3.6 GHz with the Prescott F-series / Pentium 4 560 launched June 21 2004 (3.6 GHz) — within the anticipated timeline; NetBurst hit its 3.8 GHz ceiling with P4 570J by November 2004 before thermal limits forced the architectural pivot to Core.
+- **Confidence:** verified
+- **Notes:** Placeholder — Pentium 4 did reach 3.6 GHz by 2004 | Phase 3 backfill 2026-04-19: Intel P4 560 launch Jun 2004; NetBurst thermal wall 2004
 
 **Prediction 4:** Home networking year
 - **Claimed:** 2002 will be a banner year for home networks

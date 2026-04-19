@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"linux","Linux","platform","Open Source","1991-present","growing","active","dell-services-kastner-051904-4-87b363","Cited as a services-market driver ('rise of Linux')."
+"bpo","Business Process Outsourcing (BPO)","framework","Industry Practice","1990s-present","growing","active","dell-services-kastner-051904-4-87b363","New account control mechanism adversely affecting many service providers."
+"hosted-apps","Hosted applications (ASP/SaaS precursor)","platform","Multi-vendor","1999-present","growing","active","dell-services-kastner-051904-4-87b363","ERP vendors re-discovering hosted solutions as value-delivery and transformation mechanism."
+"on-demand-computing","IBM On Demand Computing","framework","IBM","2002-2010s","emerging","legacy","dell-services-kastner-051904-4-87b363","Cited as new account-control mechanism in the services commoditization wave."
+"offshore-labor-arbitrage","Offshore labor arbitrage","framework","Industry Practice","1990s-present","growing","active","dell-services-kastner-051904-4-87b363","Buyer demand that service providers arbitrage labor, decrease cost, improve value."

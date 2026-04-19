@@ -1,0 +1,293 @@
+[Slide 1]
+Accelerating the Process At Every step
+EMC-Aberdeen Workshop
+AberdeenGroupBoston • Palo Alto • Ft. Collins
+
+[Slide 2]
+Our Understanding of EMC’s Goals – Leverage Services to Pull through Storage Solutions
+
+Aligning EMC w/
+Prospects
+Business Issues
+
+Aligning Prospect
+Executives w/
+EMC Solutions
+EMC Storage 
+Solutions
+Challenge
+Market Awareness for EMC’s Total Solutions in the context of current business imperatives
+Aligning with CIO’s Strategic Agenda & Budget
+Arming Sales Executives with Business relevant content
+Increased Access to key Decision Makers earlier
+Business Impact
+EMC’s does not get it’s unfair share of lead opportunities
+Demand generation is below goals
+Sales Executives are not seen as credible in business discussions
+Less leverage of current CIO’s team to drive penetration than optimal
+Challenge
+Leveraging services to accelerate buy decisions on solutions rather than services revenue and utilization
+Content & skills requirements make scale of services difficult at high quality
+Reducing the % of workshops that end in no decision to go forward
+Business Impact
+Lack of productized content leads to uneven delivery of services
+Need for consistently current content is a challenging and limits scale
+Executive alignment to move forward requires fact based insights 
+Challenge
+Being “technically selected” often times end in no action
+Services must be seen in the context of an overall solution pathway and not an end
+Business Impact
+% of solution conversions from workshops is lower than targeted
+Size of bundled deals should be greater if the value of the solution is well understood
+
+Awareness and Demand Creation
+
+Sales Acceleration & Consistency
+[Slide 3]
+Aberdeen’s Research Provides the Linkage to  the CIO’s Strategic Challenges for EMC
+EMC has a strong technology first brand but is not well known for either business insight and services
+EMC has strong brand recognition within the CIO’s team but limited access to the CIO
+EMC’s sales executives do not have insight into key business issues at a detailed enough level to be credible with LOB executives
+EMC requires a partner that provides fact based insight into tangible business issues and challenges versus consulting concepts
+EMC requires additional support in generating its unfair share of access into potential deals and decision makers
+[Slide 4]
+Q1 Storage Research Findings
+1. Mandate to lower overall costs
+2. Consolidation within the datacenter
+3. Improving business value of IT
+4. Consolidation of datacenters
+5. Changing data retention policies to retain more information
+6. Staging data on devices based on an information lifecycle plan
+7. Regulation or compliance
+8. Changing data retention policies to have a provable retention process
+9. Changing data retention policies to control lifecycle management
+Business Policy Driver Rank
+1. Improved backup/restore times
+2. Better I/O throughput per drive
+3. Improved mean time between failures
+4. Lower cost per gigabyte
+5. Improved TCO
+6. Higher sustained I/Os per second
+7. Improved ROI
+8. Improved ease of replacement installation
+9. Local and/or remote replication software capabilities
+10. Improved storage connectivity and/or distance limitations
+Acquisition Importance Rank
+[Slide 5]
+Pools of Storage Concept Familiarity
+3/4 are moderately to very familiar with the concept of Pools of Storage
+But market is not yet buying in pools
+1/3 believe they have no fixed content or static data, a drag on the midline pool
+
+Unfamiliar                  Extremely Familiar
+[Slide 6]
+Aberdeen Group Point of View
+ILM is a classic “Great New Idea”, with all the challenges and opportunities:
+Opportunity: automating data life-cycle policies and related storage management has great potential business value
+ILM Timeframe: the next decade.  (See systems management in 1990s)
+Winners: None yet.  Opening gun just went off.  EMC making waves.
+Immediate services opportunity
+Conclusion:  ILM will come to be the big storage-related market battle of the decade  whether called ILM or not.
+Concept clarity:  what is ILM?
+Definition:  too vague, but vagueness gives the ability to morph the concept over time as products mature 
+Vendors fight with their vision and products as the “true believers” of ILM.  (See Unix market)
+Big concept short on solutions
+No one can deliver on the ILM vision anytime soon
+Challenge is to line up a product & service train with immediate payback yet integrates a solution over time … without creating jaded and disgruntled customers
+Lack of visible business value
+Looks like “more IT infrastructure” with few tangible business benefits to non-IT execs
+Likely cause of impeded growth in ILM market, especially early
+
+[Slide 7]
+Aberdeen’s Research Links EMC to the CIO’s Strategic Challenges 
+
+Business Drivers | EMC Aligned with the
+CIO’s Strategic Business Challenges | 
+2004 Aberdeen Research “The CIO’s Strategic Agenda” 
+Decreasing development time and cost while improving quality 
+Billions are wasted in procurement and supply management through inefficient processes and untimely access to needed information
+Compliance-driven supply management enables next-generation automated invoicing & payment systems
+Higher capital costs drive costs of high-value/low volume inventory and asset management | Info access & storage requirements accelerate
+New data capture & storage costs create significant budget trade-offs
+24x7 operations and mgmt means no down time
+Security challenges grow as access and permission moves outside the company
+Business Apps must be upgraded for functionality and integration
+Spend analytics & spend history must be provided with permission based access
+On-line transaction processing must integrate to enterprise systems cost effectively
+ Data integration challenges are growing in scale and scope
+Complex data management requirements continue to stress existing infrastructure
+Sarbannes-Oxly requires track and trace of supplier relationships be end to end | Information Implications of Outsourced Design: A Benchmark Study
+Product Development Strategies in Consumer Industries
+Business Information Performance DashBoards Drive Outsourced Productivity
+Strategic IT Budget Management: A Framework for Investment
+End-User Strategies for Avoiding Internet Business Disruptions
+Information Technologies: Tactical to Strategic Roadmap: A Benchmark Study
+RFID in the Consumer Industries: The Cost of Non-Compliance
+Compliance & Risk Management in Global Trade
+RFID-enabled Asset Management
+Strategic Enterprise IT Budget Management Realities
+[Slide 8]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expand the
+Customer
+
+
+
+
+Business
+Value 
+Research
+Aberdeen’s Research Drives EMC’s Sales Acceleration
+Research Agenda Webinars
+Thought Leadership Papers
+ROI Results Research
+Win/Loss Analysis
+Accelerate
+Sales
+Create
+Demand
+
+80+ Research Agenda Studies
+ILM Consulting Tool with content 
+
+CIO’s Strategic Agenda Leads
+
+
+Pools of Storage Leads
+Educate the
+Market
+
+
+
+Business Value Case Studies
+Installed Base Survey
+Pools of Storage Tool
+Prospects Webinars
+Sales Force Training Webinars
+Speaking Events
+Sales Team Analyst Access
+[Slide 9]
+Sales Team Workshops
+
+Driving Results Through Research Program Sponsorship
+Research Study #3 Logo & Vignette
+Installed Base
+Research
+
+Benchmarking 
+Research
+
+On-line Conference
+Qualified Leads Filtering
+Value AssessmentTools
+Competitive
+Analysis Frameworks
+Win/Loss Analysis
+Research
+
+Research Modeling Tools
+Benchmarking Studies
+Member Symposiums
+
+
+
+
+
+
+Business SuccessCase Studies
+
+
+
+
+
+Growth/GTM Strategy
+Services
+
+
+G5000 supplychainaccess.com 
+Community – “Members Only” drives research relevance
+Extended 
+Lifecycle Services 
+Drive Sales Acceleration
+& Client Penetration
+
+
+
+
+
+
+Sponsorship Services Drive Market Awareness & Qualified Lead Generation
+
+Research Study#2  Logo & Vignette
+Research Study #1  Logo & Vignette
+[Slide 10]
+How might we work together
+What? - Construct a tailored research and services program that directly impacts EMC’s top challenges – Leads and Deals
+Market awareness through Pools of Storage sponsorship
+Thought leadership on the CIO’s strategic agenda
+Qualified leads to drive phase 1 services
+Research content and frameworks to drive accelerated decision making through services leveraging the ILM Consulting tool
+Consistent selling and delivering of services to drive pull through leveraging workshops and webinars
+How? – Focus on those elements that drive immediate tangible results for EMC
+Lead generation through Pools of Storage and Research sponsorship
+Sales force webinars to drive understanding on business value linked to the CIO’s strategic agenda
+Why? – Creating a program that focuses on immediate tangible benefits provides a self funding pathway for growing the relationship together
+
+[Slide 11]
+About Aberdeen
+EMC-Aberdeen WorkshopAppendix
+AberdeenGroupBoston • Palo Alto • Ft. Collins
+
+[Slide 12]
+Aberdeen’s Mission is Clear 
+“The IT-enabled Business Value Research Destination of Choice for the Global 5000 Executive & their preferred technology providers”
+[Slide 13]
+Our Market Reach drives demand creation & leads
+Customer Facing 
+Executives(15.6%)
+Supply Chain Mgmt
+ Exec’s (16.6%)
+Enterprise
+Applications (21.3%)
+Data 
+Knowledge
+Mgmt (11.6%)
+E-Business
+Exec’s (13.9%)
+Security &
+Risk Exec’s (8.7%) 
+Technology &
+Platform Mgmt (12.4%)
+~150,000 
+Registered
+Users of our Research 
+Growing at 20%/Qtr
+[Slide 14]
+Our G5000 Community drives our focus on business value
+Supply Chain Access (www.supplychainaccess.com) The supply chain professionals’ trusted online community for supply chain intelligence, information technology solutions, ROI modeling tools, strategic advice, and networking.
+	*20,000+ Newsletter readers/week
+	*17,000+ unique site visitors/week*  5,100+ qualified Business & IT Executive members
+		*DIR/VP LOB – 50%
+		*CIO’s – 15%
+		*DIR/VP IT – 25%
+		*CFO/Controller – 10%
+ 
+
+[Slide 15]
+Next Steps
+ 

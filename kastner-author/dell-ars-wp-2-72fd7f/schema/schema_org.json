@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dell Asset Recovery Services: Remove, Recycle, or Resell \u2014 An Executive White Paper",
+  "description": "Aberdeen executive white paper (underwritten by Dell) examining the business, data-security, and environmental case for proactive IT-asset disposition. Models total reclamation cost at $115-$387 per device and evaluates Dell's Asset Recovery Services ($49-$69/system) as a compelling alternative. Recommends treating disposal as an up-front TCO element rather than a sunk cost.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-11-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Major Account Plan: IBM (excluding Global Services) \u2014 Aberdeen Internal Q3 2001",
+  "description": "Aberdeen internal IBM major-account plan covering Q3 2001 status, 18-month goals, and recommended approach. Documents $31K YTD revenue vs $491K prior year; IBM locked-down PO status for two quarters; sales exec Cindy Murray returning from maternity leave. Targets include eLiza, pervasive computing, WebSphere, and leveraging relationship with IBM senior VP Linda Sanford. Flag: Aberdeen-internal confidentiality.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, Cindy Murray, Ed Black (Aberdeen Group)"
+  },
+  "datePublished": "2001-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dell Services \u2014 Discussion Materials",
+  "description": "Aberdeen discussion deck prepared for Dell executives analyzing the restructuring of IT professional services. Argues services are beginning a major cost restructuring mirroring US manufacturing 30 years prior, driven by offshore labor arbitrage, BPO/On Demand account control, and ERP-vendor hosted solutions. Proposes a four-stage partner-ecosystem maturity model and asks where Dell sits on that continuum.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Executive VP, Research, Aberdeen Group)"
+  },
+  "datePublished": "2004-05-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

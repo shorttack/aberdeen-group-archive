@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Letter to Peter Blackmore (Compaq EVP Sales & Services) \u2014 Post-9/11 HP-Compaq Merger Follow-up",
+  "description": "Short business letter from Peter Kastner to Peter Blackmore at Compaq, written in the immediate aftermath of the September 11, 2001 attacks and the HP-Compaq merger announcement. Follows up on a May 2001 Cambridge meeting on customer communications; transmits seven Aberdeen position papers on the HP-Compaq merger integration and proposes field-sales preparation and education program work for Aberdeen. Captures tone and relationship-management style of the Aberdeen era. Aberdeen-internal employer record.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group, Chief Research Officer)"
+  },
+  "datePublished": "2001-09-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

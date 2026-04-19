@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-eliza","IBM Project eLiza (autonomic computing)","framework","IBM","2001-2005","emerging","obsolete","ibm-major-account-plan-8-cc6400","IBM self-managing/self-healing architecture initiative; named as single IBM initiative to approach with multiple Aberdeen projects."
+"pervasive-computing","Pervasive Computing","framework","IBM / Industry","1999-2010s","emerging","legacy","ibm-major-account-plan-8-cc6400","Named as single IBM initiative to tie multiple Aberdeen projects to."
+"websphere","IBM WebSphere","platform","IBM","1998-present","growing","active","ibm-major-account-plan-8-cc6400","Named as single IBM initiative to approach; Aberdeen capabilities briefing to IBM Software (Tivoli & WebSphere) planned."
+"tivoli","IBM Tivoli","platform","IBM","1989-present","mature","active","ibm-major-account-plan-8-cc6400","IBM Software target for Aberdeen capabilities briefing."

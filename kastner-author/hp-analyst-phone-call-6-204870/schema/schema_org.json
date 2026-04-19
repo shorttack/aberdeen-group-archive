@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP Pre-Summit Analyst Phone Call \u2014 Kastner Feedback",
+  "description": "Transcript of a pre-summit analyst phone call in which HP sought Kastner feedback on corporate messaging, Adaptive Enterprise positioning, divisional execution (PSG, IPG, ESG, Services), and consumer/SMB/enterprise capabilities. Kastner delivers harsh ratings: 'low TCO' message not believable; Adaptive Enterprise too IT-facing; HP-Compaq brand confusion in retail; mobility late to market; strong in digital imaging and printing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group, Chief Research Officer)"
+  },
+  "datePublished": "2003-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Project eLiza Positioning and Messaging Workshop Report",
+  "description": "Aberdeen Group consulting deliverable to IBM following the May 16, 2001 Somers positioning workshop for Project eLiza \u2014 IBM's self-managing, self-healing server architecture initiative. Provides a high-level computing vision and three key messages (Best Practices Automation, Simplification, Lower Cost) mapped to three stakeholder classes (LOB Executive, IT Management & Staff, Internal/External Users). Predicts 'computers managing computers' in five to ten years. Flag: IBM-internal confidentiality.",
+  "creator": {
+    "@type": "Person",
+    "name": "Joyce Becknell, Gordon Haff, Peter Kastner (Aberdeen Group)"
+  },
+  "datePublished": "2001-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

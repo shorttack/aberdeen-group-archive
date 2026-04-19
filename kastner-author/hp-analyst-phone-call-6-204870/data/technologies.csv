@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"hp-adaptive-enterprise","HP Adaptive Enterprise","framework","Hewlett-Packard","2003-2009","emerging","obsolete","hp-analyst-phone-call-6-204870","HP strategic initiative; Kastner: too IT-facing, too little executive-management-facing; essentially 'rip and replace'."
+"ibm-on-demand","IBM On Demand","framework","IBM","2002-2010s","emerging","legacy","hp-analyst-phone-call-6-204870","Contrasted with Adaptive Enterprise; 'too web-services-oriented and not enough infrastructure-metric-oriented' per Kastner."
+"centrino","Intel Centrino (mobile platform)","platform","Intel","2003-2010","emerging","legacy","hp-analyst-phone-call-6-204870","HP cited as 'very late to market with Centrino-based notebooks'."
+"linux","Linux","platform","Open Source","1991-present","growing","active","hp-analyst-phone-call-6-204870","HP has growing market share in Linux."
+"unix","UNIX","platform","Multi-vendor","1969-present","mature","legacy","hp-analyst-phone-call-6-204870","HP has a lot of Unix integration expertise."
+"ibm-mainframe","IBM Mainframe systems","platform","IBM","1964-present","mature","active","hp-analyst-phone-call-6-204870","HP has modest skills integrating with IBM mainframes."
+"digital-imaging","Digital Imaging / Digital Photography","application","Multi-vendor","1990s-present","growing","active","hp-analyst-phone-call-6-204870","HP is a leader in digital imaging and printing."

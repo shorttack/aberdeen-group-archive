@@ -1,0 +1,117 @@
+[Slide 1]
+Dell Services
+Discussion Materials
+5/19/2004
+
+Peter Kastner
+Executive VP - Research
+AberdeenGroupBoston • Palo Alto • Ft. Collins
+
+[Slide 2]
+Market-wide Point of View
+Service organizations just beginning a major cost restructuring a la U.S. manufacturing 30 years ago
+IT service sector particularly affected as buyers demand that their service providers arbitrage labor, collaborate, decrease overall cost and improve value proposition
+Buyer dissatisfaction with IT service providers still high
+Companies seeking to find lower cost resources themselves
+Integrators seeing no movement in large, long timeframe work
+CXO discomfort with value propositions of IT service providers
+Larger providers and ERP vendors re-discovering all-inclusive hosted solutions as the means to deliver value, flexibility, transformation and scalable solutions
+[Slide 3]
+Key Professional Service Org. Issues
+Appropriate support for global clients now that more clients than ever are global
+Offshore labor arbitrage
+Bench optimization
+Marketing of services
+The virtuous cycle: Bench strength, intellectual property, marketing
+BPO/On Demand/etc. – New account control mechanisms that adversely affect many service providers
+Motivation of consulting staff now that careers aren’t what they used to be
+[Slide 4]
+Drivers
+Stack wars – 
+Fast, complete, scalable, transforming solutions not software or hardware
+Account control slipping away from technology component providers and over to large integrators offering new breed solutions (e.g., Microsoft -> IBM)
+Global restructuring of service operations
+Rise of Linux
+Transform business processes with Internet services
+Make vs. Buy transition going back to ‘make’
+Buyers have to have more value and more commoditization
+[Slide 5]
+Threats
+Commoditization of services
+Commoditization of software
+Commoditization of hardware
+Linux
+HP
+IBM
+Europe and Asia ABM
+[Slide 6]
+Services Evolution in Technology Firms
+Embrace every possible partner in country to expedite sales of product
+Use partners to sell, install and support products
+Get partners and initial customers to localize solutions
+On-site service personnel negligible
+Formalize partner program and begin to cull out marginal or low performing partners
+Begin hiring of in-country pre-sales and post sales services personnel
+Restrict service roles to deep technical/product support only. Partners still sell and run projects.
+Significantly build out size of service organization
+Assume more control of client implementations to better ensure delivery of benefits & value 
+Dramatically cull the number of partners. Only retain those that are 100% committed to you.
+Drop most partners save those with extraordinary, complimentary capabilities. Drop most tactical partners and focus energies on partners that are developing add-on modules, products.
+Stage 1
+Stage 2
+Stage 3
+Stage 4
+Where is Dell in this continuum?
+[Slide 7]
+
+[Slide 8]
+
+
+Magnitude of Effort on Customer
+Nature of Project
+Tactical
+Strategic
+
+Low
+Great
+
+
+
+Traditional Implementations 
+BPO/BTO
+
+Hosted Apps
+Upgrades
+
+Tech Support
+Strategic Consulting
+Services Ecosystem
+[Slide 9]
+
+Risk
+Nature of Solution
+Tactical
+Strategic
+
+Low
+High
+
+
+
+Service Partner Behaviors Tied to Solution Focus
+
+Package
+Custom
+OR
+Tactical Partners
+Sell and install the basics 
+Should be focused on lowering TCO for customers.
+Are highly interchangeable
+Often possess similar skills as Dell Services personnel
+Strategic Partners
+Design & sell all new solutions
+Extend technologies to create new apps
+Create new markets
+Focus on client ROI not TCO
+Complement not repeat Dell skill sets
+Deep industry knowledge

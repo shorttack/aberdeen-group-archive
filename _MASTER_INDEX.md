@@ -114,6 +114,18 @@ Co-authored by Peter Kastner, John Logan, and Thomas Willmott for NTI (Network T
 | 57 | `nti-11-distributed-midrange-servers-1993-dedd19` | market-study | 1993-08 | 30 |
 | 58 | `nti-12-client-server-goals-1993-15a519` | market-study | 1993-07 | 30 |
 
+## Prescience Highlights — Kastner Quotations Corpus
+
+Standout forward-looking calls from the `kastner-author/quotations/` corpus (`kastner_quotes_clean.csv`). These are quotes where Kastner publicly predicted a specific technology outcome years before it occurred.
+
+| Row | Seq | Date | Publication | Prediction | Validated |
+|---|---|---|---|---|---|
+| 383 | 423 | 2003-10-24 | CIOUpdate (Allen Bernard) | IBM Project eLiza / "computing on demand" autonomic system management as the driver behind IBM's 10,000-hire push — framed autonomic computing as the strategic pivot for heterogeneous enterprise IT management | Autonomic/self-managing systems became foundational to cloud operations (AWS auto-scaling, Kubernetes self-healing, AIOps) |
+| 840 | 489 | 2003-11-17 | CNN/Money (Paul R. La Monica) | Video iPod as Microsoft Portable Media Center creates market pressure | Video iPod launched October 2005 — ~2 years out |
+| 841 | 489 | 2003-11-17 | CNN/Money (Paul R. La Monica) | "Transforming the iPod into a smartphone…a new product category, where industry standards have not been set" | iPhone announced January 2007, shipped June 2007 — 3 years and 5 months before launch |
+
+All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rating but are flagged here as the highest-signal forecasts in the quotations corpus to date.
+
 ## Notes
 
 - `Dell_SD2_FINAL.pdf` in Archive-4 is a duplicate of Archive-1 — skipped

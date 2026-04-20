@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"lansa-composer","LANSA Composer","framework","LANSA Corporation","2005-present","emerging","legacy-active","lansa-composer-powerpoint-9f4257","BPI/orchestration product"
+"ibm-system-i","IBM System i (iSeries / AS/400)","platform","IBM","1988-present","mature","legacy-supported (IBM i)","lansa-composer-powerpoint-9f4257","Midmarket platform"
+"soa","Service-Oriented Architecture (SOA)","framework","industry standard","2000-2015","hype-peak","legacy-superseded","lansa-composer-powerpoint-9f4257","Largely superseded by microservices/REST"
+"esb","Enterprise Service Bus (ESB)","framework","industry standard","2002-2015","peak","legacy-declining","lansa-composer-powerpoint-9f4257","Replaced by iPaaS / API gateways"
+"j2ee","Java 2 Platform, Enterprise Edition (J2EE)","framework","Sun Microsystems","1999-2006","mature","renamed-Jakarta-EE","lansa-composer-powerpoint-9f4257","Renamed Java EE (2006), then Jakarta EE (2018)"
+"uddi","UDDI (Universal Description, Discovery and Integration)","protocol","OASIS","2000-2006","declining","legacy-deprecated","lansa-composer-powerpoint-9f4257","Deprecated ~2006"
+"web-services-soap","SOAP / WS-* Web Services","protocol","W3C/OASIS","2000-2010","peak","legacy-superseded","lansa-composer-powerpoint-9f4257","Superseded by REST/JSON"

@@ -1,0 +1,74 @@
+# Mac Keeps Lead on Linux
+
+> Archived from: Mac-Keeps-Lead-on-Linux-7.webarchive
+> Original publication date: 2004-08-01
+> Author: Leander Kahney (reporter, Wired); Peter Kastner and Tim Deal (quoted sources)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.wired.com/gadgets/mac/news/2004/08/64504
+MIME: text/html
+
+Mac Keeps Lead on Linux Wired Home Subscribe 12 issues (one year) for just $10 *plus applicable sales tax First Name Last Name Address 1 Address 2 City State Choose Alabama Alaska American samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Marshall Islands Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Palau Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Virgin Islands Washington West Virginia Wisconsin Wyoming Zip E-mail Non-USA - Click Here Privacy Policy Sections Cars 2.0 Culture Entertainment Gadgets Gaming How-To Med Tech Multimedia Politics Product Reviews Science Software Tech Biz Tech Jobs Wired Biz Dual Perspectives Wired Insider Blogs Autopia Danger Room Epicenter Gadget Lab Game | Life GeekDad Monkey Bites Raw File This Day in Tech Threat Level Underwire Wired Science All Blogs Reviews Automotive Camcorders Desktops Digital Cameras Gaming Gear Home Audio/Video Household Mobile Phones Notebooks Media Players Sports/Outdoors Televisions All Reviews Video How To Magazine Sign In | RSS Feeds All Wired Top Stories Magazine Wired Blogs Video Gadgets : Mac Mac Keeps Lead on Linux Leander Kahney 08.09.04 With the release of its first Linux laptop last week, Hewlett-Packard predicts this year the free operating system will unseat the Mac as the No. 2 desktop operating system behind Windows. Indeed, some analysts say Linux displaced the Mac as the leading alternative in 2003. But the Mac hasn't been relegated to third just yet. While Linux machines are shipping in ever greater numbers, especially to giant markets like China, the vast majority are stripped of Linux in favor of pirate copies of Windows, experts say. Unveiled at LinuxWorld last week, HP's new Compaq nx5000 is a no-nonsense, $1,100 notebook aimed at the enterprise market, and small and medium businesses. Running Novell's Suse Linux 9.1 and Sun's OpenOffice suite, the "business notebook" also includes consumer-friendly features like a CD burner and DVD player, and wizards for things like setting up Wi-Fi. HP, which competes with Dell as the world's biggest PC maker, predicts the new machine will significantly boost Linux's desktop market share, allowing the free operating system to surpass the Mac later this year. "We expect to see Linux overtake Mac on the desktop this year," said Jeffrey Wade, HP's Linux marketing communications manager. Wade said HP already sells 100,000 Linux desktops per quarter. (That's between 30,000 and 40,000 Linux computers, not servers, per month.) "HP expects to sell a lot of these (notebooks)," Wade added. "And we expect to see some other folks following our lead." But according to market research firm IDC, Linux has already overtaken the Mac. "Linux captured the No. 2 spot as desktop operating system in 2003," IDC analyst Dan Kusnetzky told IDG News Service . Kusnetzky predicted Linux will have 6 percent of the desktop market by 2007. Kusnetzky couldn't be reached for comment, and Wade couldn’t explain the difference between IDG's and HP's projections. However, other analysts were skeptical. "I think those numbers are dubious," said Tim Deal, a financial analyst with Technology Business Research . Peter Kastner, an analyst with Aberdeen Group , said the Mac has roughly 3 percent of the desktop market, and the Linux share is considerably lower than that. Kastner's 3 percent estimate is backed up by numbers published by Google, which logs the different desktop systems used to access its site. According to Google , Mac users number 3 percent, while Linux weighs in at 1 percent. Even Leigh Day, spokeswoman for Red Hat , one of the largest Linux distributors, said Linux isn't yet ready for the desktop. "The stuff for a consumer desktop -- media players, video drivers -- are not yet mature," she said. Market research firm Gartner may have the answer. According to Gartner, forecasts need to distinguish between the OS the machine ships with, and the OS that is installed right after it's unboxed. "In emerging markets like China, Russia and Latin America, many locally assembled PCs are sold without an OS or with Linux," wrote Gartner analyst Annette Jump in a report published last week. "On 90 percent to 95 percent of these PCs, a pirated version of Microsoft Windows is installed within the first few days." Jump said most of these machines are sold to home users and small businesses looking to save as much as possible, and that Windows and other software can account for a fifth of the price. HP's Wade said the company sells Linux machines "primarily overseas," but said he didn’t know what end users did with their new machines. "We've heard some of the same things," he said. "But I honestly don’t know how accurate that is." After taking account for piracy, Gartner said 2004 worldwide market share for Mac OS is 2.5 percent, versus 1.3 percent for Linux. However, this will change next year. Gartner predicts in 2005, the Mac will slip to 2 percent market share, and Linux will grow to 2.1 percent. By 2008, Linux will have grown to 3.4 percent, while the Mac will remain at 2 percent. Apple Computer declined to comment. Its latest earnings statement (PDF), released last week, showed the company's strongest Q3 in eight years, with 14 percent year-on-year growth in computer shipments -- in line with the overall PC market. HP's Wade noted Linux's growing popularity will not come at the expense of the Mac. "We don’t think we're displacing Mac customers," he said. "We're displacing Windows customers. (Apple has) a pretty dedicated installed base." Apple estimates its customer base is between 24 million and 25 million users. Yahoo! Buzz Stumble ShareThis See Also: Open Supercomputing Hits Big 1-0 HP Multi-User PC Sparks Debate A Lively Open-Source Debate Linux: Whose Kernel Is It? Join the Cult of Mac Search Wired Top Stories Magazine Wired Blogs All Wired Related Topics: Science , Tech Biz , Gadgets , Discoveries , IT , Media , Mac Comments (0) Want to start a new thread or reply to a post? Login / Register and start talking! There are no comments Login / Registration Email Article Full Page Comments Advertisement With HP wireless printers, you could have printed this from any room in the house. Live wirelessly. Print wirelessly. Sponsored by: Most Popular Most Commented Popular Today on Wired Porsche’s ‘Widowmaker’ Gets Even Deadlier Pirate Bay Launches VPN Service High-Altitude Wind Machines Could Power New York City Déjà Poo: The Living Machine Sewage System Mysterious Gamma-Ray Bursts May Have Ties to Failed Black Holes See Them While You Can: Endangered Butterfly Gallery Activists Launch Hack Attacks on Tehran Regime Tesla Motors Founder: Let Me Run Detroit Senators Introduce “Run The Tubes Under The Highway” Bill Crunching Iranian Election Numbers For Evidence of Fraud Most Commented Déjà Poo: The Living Machine Sewage System Ars Technica reports : The open source movement spawned a generation of collaborative coders. Now it's affecting the hardware industry. Wired reports : User-created online culture isn't "mass culture," but it's culture by the masses. The New Socialism: Global Collectivist Society Is Coming Online Slideshow: Tales From Packaging Hell Hacking My Kid's Brain: How a Child's Neurons Were Rewired With No Long-Term Solution, Nuclear Pallbearers Bury Waste in America's Backyard Subscribe to WIRED Renew Give a gift International Orders Off-site Network Backup Off-site backup for your entire network. 14-day Free Trial. - www.DataPreserve.com Novell Linux Support Move to SUSE Linux Enterprise Get 3 years of Red Hat support. - www.novell.com/expandedsupport Red Hat Training Government employee certifications to comply with directive 8570 - www.dlt.com/redhat-training Ads by Google Services Subscription: Subscribe | Give a Gift | Renew | International | Questions | Change Address Quick Links: Contact Us | Login/Register Logout | Newsletter | RSS Feeds | Tech Jobs | Wired Mobile | FAQ | Sitemap Corrections | Sitemap | FAQ | Contact Us | Wired Staff | Advertising | Press Center | Subscription Services | Newsletter | RSS Feeds Condé Nast Web Sites: Webmonkey | Reddit | ArsTechnica | Epicurious | NutritionData | Concierge | HotelChatter | Jaunted | Style.com | Men.Style.com Subscribe to a magazine: View All Titles Allure Architectural Digest Bon Appétit Brides Condé Nast Portfolio Condé Nast Traveler Cookie Details Elegant Bride Glamour Golf Digest Golf World Gourmet GQ Lucky Modern Bride Self Teen Vogue The New Yorker Vanity Fair Vogue W Wired Condé Nast web sites: Allure Architectural Digest ArsTechnica Bon Appétit Brides.com Condé Nast Traveler Condé Nast Portfolio Concierge Cookie Details Elegant Bride Epicurious Glamour Golf Digest Golf World Gourmet GQ Hotel Chatter Jaunted Lucky Men.Style.com Modern Bride Nutrition Data Reddit Self Style.com Teen Vogue The New Yorker The Sartorialist Vanity Fair Vogue Webmonkey W Registration on or use of this site constitutes acceptance of our User Agreement (Revised 4/1/2009) and Privacy Policy (Revised 4/1/2009). Wired.com © 2009 Condé Nast Digital. All rights reserved. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast Digital.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | mac-keeps-lead-on-linux-7-e3bcbf |
+| title | Mac Keeps Lead on Linux |
+| author | Leander Kahney (reporter, Wired); Peter Kastner and Tim Deal (quoted sources) |
+| date | 2004-08-01 |
+| type | press-article |
+| subject_domain | desktop-os-market-share |
+| methodology | press-coverage, expert-opinion, market-sizing |
+| source_file | Mac-Keeps-Lead-on-Linux-7.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Wired article examining claims about Mac vs Linux desktop market share. Peter Kastner of Aberdeen Group pegs Mac desktop share at roughly 3%, with Linux desktop share 'considerably lower.' Kastner's estimate is corroborated by Google browser statistics and debates an IDC claim of higher Linux desktop share. Tim Deal of Technology Business Research also dismisses higher figures.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Provides Kastner's documented 2004 numerical estimate (~3% Mac) and his skepticism of higher Linux desktop claims — useful primary source for market-share disputes of the era. |
+| **Relevance** | low | Mac share has since more than doubled; Linux desktop remains low single digits. Historical interest only for specific 2004 benchmarks. |
+| **Prescience** | high | Kastner's assertion that Linux desktop was 'considerably lower' than Mac (~3%) proved durable: in subsequent decades Mac desktop share grew to 15-20% while Linux desktop has stayed at roughly 2-4%. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | dissolved | Harte-Hanks -> (brand defunct 2020s) |
+| Peter S. Kastner | person | active |  |
+| Apple Computer, Inc. | company | active | Apple Inc. (2007 rename) |
+| IDC (International Data Corporation) | firm | active |  |
+| Technology Business Research (TBR) | firm | active |  |
+| Google, Inc. | company | active | Alphabet Inc. (2015) |
+| Tim Deal | person | active |  |
+
+### Technologies Referenced (2)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Apple Mac OS X | platform | Apple Computer | mature | active (macOS) |
+| Linux Desktop Distributions | platform | community (Red Hat, SuSE, Debian et al.) | emerging | small-share-mature |
+
+### Observation Summary
+
+- Total observations: 4
+- By type: market-data: 3, actual-outcome: 1

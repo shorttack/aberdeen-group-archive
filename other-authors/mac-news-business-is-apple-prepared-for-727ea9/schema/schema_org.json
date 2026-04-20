@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Is Apple Prepared for a Succession?",
+  "description": "MacNewsWorld analysis of Apple's succession planning after Steve Jobs's pancreatic cancer disclosure and 30-day medical leave (August 2004). Peter Kastner, executive vice president at Aberdeen Group, plays down near-term governance risk \u2014 the head of sales is running the company during back-to-school season \u2014 but the article broadly raises concern about Apple's lack of disclosed succession plan.",
+  "creator": {
+    "@type": "Person",
+    "name": "Blane Warrene (reporter, MacNewsWorld); Peter Kastner, Chad Mader (quoted sources)"
+  },
+  "datePublished": "2004-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

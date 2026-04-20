@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Leader of the pack? [Wolfpack clustering coverage]",
+  "description": "Computing (UK) analysis of Microsoft's Wolfpack clustering initiative on Windows NT, featuring Peter Kastner of Aberdeen Group as a senior expert voice. Kastner warns that no single Wolfpack vendor has a complete clustering toolkit, that one in seven NT investments is aimed at clustering, and cautions enterprises against the 'siren song' of Microsoft-only Wolfpack deployments pending two years of maturation. Article maps the internal Wolfpack split between Tandem Servernet backers (Compaq, Dell, Tandem) and Microsoft-aligned vendors.",
+  "creator": {
+    "@type": "Person",
+    "name": "Ian Ashbridge / Sarah Petrie (reporter); Peter Kastner (quoted source)"
+  },
+  "datePublished": "1996-11-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

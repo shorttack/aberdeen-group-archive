@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analysis","dissolved","Harte-Hanks -> (brand defunct 2020s)","1970-2020s","linux-news-enterprise-systems-apple-s-en-a8fdd0","Kastner at Aberdeen"
+"peter-kastner","Peter S. Kastner","person","industry-analysis","active","","1969-present","linux-news-enterprise-systems-apple-s-en-a8fdd0","Quoted as Aberdeen analyst"
+"apple-computer","Apple Computer, Inc.","company","consumer-electronics","active","Apple Inc. (2007 rename)","1976-present","linux-news-enterprise-systems-apple-s-en-a8fdd0","Subject company"
+"ibm-corporation","IBM Corporation","company","enterprise-computing","active","","1911-present","linux-news-enterprise-systems-apple-s-en-a8fdd0","Enterprise comparison"
+"sun-microsystems","Sun Microsystems","company","enterprise-computing","acquired","Oracle Corporation (2010)","1982-2010","linux-news-enterprise-systems-apple-s-en-a8fdd0","Enterprise competitor"
+"dell-computer","Dell Computer Corporation","company","PC-manufacturing","active","Dell Technologies","1984-present","linux-news-enterprise-systems-apple-s-en-a8fdd0","Enterprise competitor"
+"hewlett-packard","Hewlett-Packard Company","company","enterprise-computing","active","HP Inc. / HPE (2015 split)","1939-2015","linux-news-enterprise-systems-apple-s-en-a8fdd0","Enterprise competitor"

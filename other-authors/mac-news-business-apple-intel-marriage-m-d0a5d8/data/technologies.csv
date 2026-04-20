@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mac-os-x","Apple Mac OS X","platform","Apple Computer/Apple Inc.","2001-present","mature","active (macOS)","mac-news-business-apple-intel-marriage-m-d0a5d8",""
+"windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","legacy-deprecated","mac-news-business-apple-intel-marriage-m-d0a5d8","Referenced for virtualization"
+"intel-core","Intel Core (Core Duo / Core 2 Duo)","platform","Intel","2006-2015","emerging","legacy-superseded","mac-news-business-apple-intel-marriage-m-d0a5d8","First Intel Mac silicon"
+"powerpc","IBM/Motorola PowerPC","platform","IBM / Motorola / Apple (AIM alliance)","1991-2006 on Mac","declining","legacy-deprecated","mac-news-business-apple-intel-marriage-m-d0a5d8","Retired from Mac line 2006"
+"apple-boot-camp","Apple Boot Camp","framework","Apple Inc.","2006-present","emerging","mature","mac-news-business-apple-intel-marriage-m-d0a5d8","Enables Windows dual-boot on Intel Macs"

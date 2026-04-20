@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","peak","discontinued","mac-news-computers-us-army-drafts-apple-c2f6f9","G5 generation"
+"ibm-powerpc-g5","IBM PowerPC 970 (G5)","platform","IBM / Apple","2003-2006","mature","legacy-deprecated","mac-news-computers-us-army-drafts-apple-c2f6f9","MACH 5 processor basis"
+"mac-os-x-server","Mac OS X Server","platform","Apple Computer","1999-2022","mature","legacy-superseded","mac-news-computers-us-army-drafts-apple-c2f6f9",""

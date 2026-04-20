@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mac Keeps Lead on Linux",
+  "description": "Wired article examining claims about Mac vs Linux desktop market share. Peter Kastner of Aberdeen Group pegs Mac desktop share at roughly 3%, with Linux desktop share 'considerably lower.' Kastner's estimate is corroborated by Google browser statistics and debates an IDC claim of higher Linux desktop share. Tim Deal of Technology Business Research also dismisses higher figures.",
+  "creator": {
+    "@type": "Person",
+    "name": "Leander Kahney (reporter, Wired); Peter Kastner and Tim Deal (quoted sources)"
+  },
+  "datePublished": "2004-08-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

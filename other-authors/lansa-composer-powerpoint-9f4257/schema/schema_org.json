@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "LANSA Composer: Practical Business Process Integration on System i (BPI/SOA)",
+  "description": "LANSA marketing presentation promoting LANSA Composer as a practical Business Process Integration (BPI) and SOA solution for the IBM System i (iSeries/AS/400) midmarket. Deck opens with two quoted analyst endorsements: Mike Gilpin (Forrester) on web services and Peter Kastner (Aberdeen) on API/screen/message replacement as an on-ramp to SOA. Slides cover transport protocols, data transformation, process orchestration, and ESB/J2EE integration layers.",
+  "creator": {
+    "@type": "Person",
+    "name": "LANSA (vendor authorship); Peter Kastner of Aberdeen Group and Mike Gilpin of Forrester Research (quoted)"
+  },
+  "datePublished": "2007-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

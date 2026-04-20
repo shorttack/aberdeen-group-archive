@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analysis","dissolved","Harte-Hanks -> (brand defunct 2020s)","1970-2020s","linuxplanet-reports-opteron-s-first-year-40c423","Kastner at Aberdeen"
+"peter-kastner","Peter S. Kastner","person","industry-analysis","active","","1969-present","linuxplanet-reports-opteron-s-first-year-40c423","Quoted as Aberdeen analyst"
+"amd-corporation","Advanced Micro Devices (AMD)","company","semiconductors","active","","1969-present","linuxplanet-reports-opteron-s-first-year-40c423","Opteron vendor"
+"intel-corporation","Intel Corporation","company","semiconductors","active","","1968-present","linuxplanet-reports-opteron-s-first-year-40c423","x86-64 competitor (EM64T)"
+"microsoft","Microsoft Corporation","company","enterprise-software","active","","1975-present","linuxplanet-reports-opteron-s-first-year-40c423","Windows x64 context"
+"tom-halfhill","Tom R. Halfhill","person","industry-analysis","active","","1980s-present","linuxplanet-reports-opteron-s-first-year-40c423","Microprocessor Report analyst, quoted counterpoint"

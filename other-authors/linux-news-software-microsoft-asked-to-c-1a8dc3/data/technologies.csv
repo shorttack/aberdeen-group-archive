@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"linux","Linux","platform","community/Linus Torvalds","1991-present","emerging-enterprise","dominant-server","linux-news-software-microsoft-asked-to-c-1a8dc3",""
+"windows-server-2003","Microsoft Windows Server 2003","platform","Microsoft","2003-2010","mature","legacy-deprecated","linux-news-software-microsoft-asked-to-c-1a8dc3","MS comparison baseline in ad"

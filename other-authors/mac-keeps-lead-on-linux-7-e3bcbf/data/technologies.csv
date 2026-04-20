@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mac-os-x","Apple Mac OS X","platform","Apple Computer","2001-present","mature","active (macOS)","mac-keeps-lead-on-linux-7-e3bcbf",""
+"linux-desktop","Linux Desktop Distributions","platform","community (Red Hat, SuSE, Debian et al.)","1995-present","emerging","small-share-mature","mac-keeps-lead-on-linux-7-e3bcbf","Low single-digit share persistent"

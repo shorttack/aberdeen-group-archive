@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"amd-opteron","AMD Opteron","platform","AMD","2003-2017","emerging","legacy-superseded","linuxplanet-reports-opteron-s-first-year-40c423","First AMD64 server CPU; succeeded by EPYC"
+"amd64","AMD64 / x86-64","platform","AMD","2003-present","emerging","mature-ubiquitous","linuxplanet-reports-opteron-s-first-year-40c423","Architecture standard; Intel EM64T compatible"
+"linux","Linux","platform","community/Linus Torvalds","1991-present","maturing","dominant-server","linuxplanet-reports-opteron-s-first-year-40c423","Earliest x86-64 OS support"

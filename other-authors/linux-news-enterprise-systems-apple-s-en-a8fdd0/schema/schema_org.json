@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Apple's Enterprise IT Battle Plan, Part One",
+  "description": "LinuxInsider/MacNewsWorld feature on Apple's enterprise IT ambitions post-Xserve, framed through Peter Kastner of Aberdeen Group. Kastner argues Apple needs 'a specialized SWAT team out of Cupertino' to make business cases to skeptical enterprises, and flags Apple's weak indirect channel as the key obstacle. Article covers Xserve, Xgrid grid-computing, education/scientific footholds, and Apple's pricing strategy.",
+  "creator": {
+    "@type": "Person",
+    "name": "Keith Regan (reporter, MacNewsWorld/LinuxInsider); Peter Kastner (quoted source)"
+  },
+  "datePublished": "2004-05-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

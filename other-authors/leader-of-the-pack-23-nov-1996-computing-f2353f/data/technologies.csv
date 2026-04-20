@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-nt","Microsoft Windows NT","platform","Microsoft","1993-2000","maturing","legacy-deprecated","leader-of-the-pack-23-nov-1996-computing-f2353f","NT 4.0 era at time of article"
+"wolfpack","Microsoft Wolfpack / MSCS","framework","Microsoft","1996-2008","emerging","legacy-superseded","leader-of-the-pack-23-nov-1996-computing-f2353f","Renamed Microsoft Cluster Server; superseded by Windows Failover Clustering"
+"tandem-servernet","Tandem ServerNet","protocol","Tandem Computers","1995-2005","emerging","legacy","leader-of-the-pack-23-nov-1996-computing-f2353f","Proprietary system-area network for clustering"

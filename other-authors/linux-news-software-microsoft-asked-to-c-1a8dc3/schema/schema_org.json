@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Microsoft Asked To Change Misleading Linux Ad",
+  "description": "LinuxInsider coverage of a UK Advertising Standards Authority action requiring Microsoft to change a misleading Linux comparison ad. Peter Kastner of Aberdeen Group frames the European regulatory context, noting growing government adoption of Linux and that while Microsoft has 'a lot of friends' in Europe it is increasingly under scrutiny. Article ties ad-compliance ruling to broader open-source political momentum in the EU.",
+  "creator": {
+    "@type": "Person",
+    "name": "Elizabeth Millard (reporter, LinuxInsider); Peter Kastner (quoted source)"
+  },
+  "datePublished": "2004-08-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

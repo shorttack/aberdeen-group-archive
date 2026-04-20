@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","emerging","discontinued","linux-news-enterprise-systems-apple-s-en-a8fdd0","Discontinued January 2011"
+"apple-xgrid","Apple Xgrid","framework","Apple Computer","2004-2011","emerging","discontinued","linux-news-enterprise-systems-apple-s-en-a8fdd0","Grid-computing framework; deprecated OS X 10.7 Lion"
+"mac-os-x-server","Mac OS X Server","platform","Apple Computer","1999-2022","mature","legacy-superseded","linux-news-enterprise-systems-apple-s-en-a8fdd0","Server software features merged into macOS"

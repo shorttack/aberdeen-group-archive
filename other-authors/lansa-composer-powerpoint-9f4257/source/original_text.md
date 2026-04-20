@@ -1,0 +1,446 @@
+# LANSA Composer: Practical Business Process Integration on System i (BPI/SOA)
+
+> Archived from: LANSA-Composer-Powerpoint.pdf
+> Original publication date: 2007-01-01
+> Author: LANSA (vendor authorship); Peter Kastner of Aberdeen Group and Mike Gilpin of Forrester Research (quoted)
+
+---
+
+## Original Document Text
+
+**page-1**
+Bringing the power of Business Process Integration technology to the SMB marketPractical Business ProcesIntegration on System i
+
+**page-2**
+LANSA ComposerKey SOA Components“Web services technology —standards-based Internet middleware —promises to 
+deliver more flexible integration more easily 
+across more internal applications and 
+external partners. Many firms stand to 
+benefit by implementing Web services.”�…Mike Gilpin at Forrester Research“…consider an automated or semi-automated conversion of common tasks 
+such as API, user screens, or message 
+replacements.”�…Peter Kastnerof The Aberdeen Group
+
+**page-3**
+LANSA ComposerUnderstanding SOAUnderstanding SOAhas caught the publichas caught the public’’s attention.s attention.has huge potential for growth and has huge potential for growth and integration.integration.is not a oneis not a one--sizesize--fitsfits--all solutionall solutionSOASOA……
+
+**page-4**
+Transport Protocol?
+LANSA Composer
+
+**page-5**
+Primary Communication?
+
+SameDay Courier Service
+Collection. Your collection address
+No.2 your Street
+Birmingham B1 2JP
+Contact..Annette Duffy
+Delivery..Your Customer
+Urgent road
+London Nw1 2jr
+Contact..April
+Signed.......... Date.......... Time..........
+
+LANSA Composer
+
+LANSA
+
+**page-6**
+Data Transformation Engine?
+
+LANSA Composer
+
+**page-7**
+Process Team?
+
+LANSA Composer
+
+**page-8**
+LANSA Composer
+Too Many Manual Processes
+
+**page-9**
+LANSA ComposerBusiness Process IntegrationBPI = Computer Automation of BPI = Computer Automation of Business ProcessesBusiness ProcessesBusiness ProcessIntegrationenablesmanufacturerstodesign business processesthatsynchronizeinternaloperationswiththoseof globaltrading partnersbyintegratingback-officesystemswithdesktop productivityand third-partyapplications
+
+**page-10**
+BPI Layers & Service enablers
+
+Governance
+
+Exception Management
+
+Governance &
+Monitoring
+
+Exceptions
+Policies
+Alerts
+
+Process
+Business Process Integration
+
+Process
+Automation
+
+Human
+Workflow
+
+Composite
+Apps
+
+Stateful BPM
+
+Scalable
+
+ESB
+
+SOA Integration
+
+Messaging/
+Transport
+
+Transformer
+
+Connectors
+
+Web
+Services
+
+Governance
+& Monitoring
+
+UDDI Registries
+
+J2EE
+Application
+Servers
+
+JMS, MQ,
+ESB's
+
+Legacy
+Systems
+
+Packaged
+Applications
+
+SOA & J2EE
+Standards
+
+ESB
+
+SOA Integration
+
+Bundled
+J2EE Server
+& JMS Bus
+
+Open
+SOA
+Standards
+
+Event
+Driven
+Architecture
+
+Trans-
+former
+
+Connectors
+
+Messaging/
+Transport
+
+Web
+Services
+
+J2EE
+Application
+Servers
+
+JMS, MQ,
+ESB's
+
+Legacy
+Systems
+
+Packaged
+Applications
+
+Governance
+& Monitoring
+
+UDDI Registries
+
+LANSA Composer
+
+LANSA
+
+**page-11**
+LANSA ComposerWeb Services1.1.Consume Web ServicesConsume Web Services••Retrieve information Retrieve information from an outside sourcefrom an outside source2.2.Publish Web ServicesPublish Web Services••Expose information Expose information to the outside worldto the outside world3.3.Internal IntegrationInternal Integration••Integrate disparate Integrate disparate apps and serversapps and servers••Streamline business processesStreamline business processes
+
+**page-12**
+Web Service Example
+
+LANSA Composer
+
+**page-13**
+LANSA Composer
+Process Orchestration
+
+Untitled* (Untitled) - Processing sequence editor
+File Edit View Insert Help
+Variables Built-ins
+Palette Activities Transformations Configurations
+All activities
+Activity ID Activity description
+ARCHIVE_FILE Move a flat file
+ARCHIVE_FILE2 Move a flat file Full name
+BLANKCONCAT Trim trailing blanks and blank concatenate
+CALL_FUNCTION Call a LANSA function
+CALL_3GL Call a 3GL program on System i
+CONCAT Trim trailing blanks and concatenate
+DELETE_FILE Delete a flat file
+DIRECTORY_LIST List files in a Directory
+FTP_COMMANDLIST Execute a list of FTP commands
+FTP_INBOUND FTP Get files from remote host
+FTP_OUTBOUND FTP Put files on remote host
+HTTP_INBOUND HTTP Inbound - JSMDIRECT
+HTTP_OUTBOUND HTTP outbound
+LOGUSERINFO Creates an impromptu processing sequen...
+LOGVARIABLE Log a variable's value
+LOWERCASE Convert uppercase characters to lowercase
+LTC_GEN_ORDNBR Generate Order Number
+MESSAGE_BOX Show a message box
+Notes Errors
+
+FTP_OUTBOUND
+This activity will transfer files from the local machine to a remote host by FTP.
+It connects to the remote FTP host and puts a copy of local files onto the remote host. The files to be transferred may be provided in a List or from a local directory.
+Details of hte remote host and directories is taken from an FTP configuration.
+An email Event notification named FTPOUTFAILED is available in this activity. If this event is active and a failure occurs in this activity, then an email will be sent.
+INPUT Parameters:
+FTPCONFIG : Required
+This parameter should contain the name of an FTP configuration on file DXFC. This configuration can be created and maintained using the FTP Configuration option in the Transport Configurations Busines
+
+Save Run Promote Demote
+Details Parameters
+Item Details
+Loop *** Beginning of processing
+List: "TRADINGPARTNERS"
+Activity
+Name: FTP_INBOUND - FTP Get files from remote host
+Activity
+Name: TRANSFORM - Run transformation (LTC_ORD_CSV.mfd)
+Activity
+Name: CALL_3GL - Call a 3GL program
+Activity
+Name: SMTP_EMAIL - Send email
+Activity
+Name: FTP_OUTBOUND - FTP Put files on remote host
+*** End of processing
+
+LANSA Composer - [LTC_ORD_CSV.mfd]*
+File Edit Insert Project Component Connection Function Output View Tools Window Help
+100%
+[Rows]
+Product ID
+Quantity
+result
+arg result
+default OrderNumber
+default CustomerID
+start_at
+increase
+
+Mapping Database Query Output
+CompletePOusa.mfd* LTC_ORD_CSV.mfd*
+Messages Overview
+MapForce v2008 Registered to David Brault (LANSA) ©1998-2007 Altova GmbH
+
+Details Parameters
+Variable or value for parameter Parameter Na... Parameter description
+1 Inbound FTPCONFIG FTP Configuration ID
+2 Inbound REMOTEDIRE... Override remote directory target
+3 Inbound FILELIST_FTP... Alternative list of files
+4 Inbound LOCALDIRECT... Override local directory for files et
+
+[LTCDEMOLIB.LTCSTAG
+LTCSTAGON
+LTCSTAGSQ
+LTCSTAGPR
+LTCSTAGCI
+LTCSTAGQT
+LTCSTAGDT
+UPDATE_IDENT
+
+LANSA
+
+**page-14**
+LANSA ComposerSOSOAA……Services Services Oriented Oriented ApplicationApplicationKnowing Your DestinationKnowing Your Destination
+
+**page-15**
+LANSA ComposerStreamline TransactionsSOSOAA……Services Services Oriented Oriented ApplicationApplication
+
+**page-16**
+Application Process Example
+
+Start
+Transaction
+
+Confirmation
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+1 Demobox - newlook
+File Edit View Menus Tools Keyboard Window Help
+LTCCRT005 Work with Orders
+
+The order was successfully created. Press the Enter key to create another
+order or press F12 to exit order entry.
+
+Order Number 121306614
+Customer ID LANSA
+Customer Name LANSA-Mart
+
+Order Total 8,610.28
+Nbr of Products 3
+Nbr of Items 68
+
+Confirmation LANSA121306614
+Order Date 8/14/07
+Order On Hold N
+
+F1=Help F4=Prompt F12=Cancel F14=Msgs
+
+EMU OVR 1,1
+
+LANSA Composer
+
+LANSA
+
+**page-17**
+Automated Application Process
+
+LANSA Composer
+
+**page-18**
+LANSA ComposerSummaryStart todayStart today�…�…Identify manual processesIdentify manual processes�…�…Eliminate themEliminate themGet started with Web Get started with Web Services and BPI Services and BPI �…�…Create Web ServicesCreate Web Services�…�…Orchestrate BusinessOrchestrate BusinessProcessesProcessesValidate the goals, the Validate the goals, the destinations, and the journeydestinations, and the journey
+
+**page-19**
+==Start of OCR for page 1==
+LANSA Composer
+==End of OCR for page 1==
+
+**page-20**
+Bringing the power of Business Process Integration technology to the SMB marketIntroducing LANSA Composer“If you can click, you can connect.”
+
+**page-21**
+LANSA ComposerWhat is LANSA Composer?…for Business Process Integration…for Business Process Automation…notBusiness Process Management…a key part of our SOA play…visual, code free and extensible
+
+**page-22**
+LANSA ComposerPositioning LANSA ComposerBusiness Process Integration�…Transport•Moving data between source and target�…Transformation•Mapping data between different formats�…Process orchestration•Sequential and conditional execution of workflow�…Administration•Auditing, error handling, logging, security, operationsA Platform for non-programmers to make use of core LANSA Integrator services�…Extensible and customizable
+
+**page-23**
+LANSA ComposerWelcome to LANSA ComposerProcess-centric, highly visual, code-free and extensibleProcess-centric, highly visual, code-free and extensible
+
+**page-24**
+LANSA ComposerTarget User BaseWho can use LANSA Composer?�…Business analysts will use it to design and implement solutions to integration problems�…Developers can create custom activities that can be orchestrated in ComposerOpportunity to separate�…Service (activity) development�…Business analysis, process orchestration
+
+**page-25**
+LANSA ComposerPain Points ?Every Business has too much manual processAD teams are too over-burdened to 
+implement Integration solutionsHeavy technical skills required for today’s middleware productsIntegration control logic is hard-
+coded into server-side programs or adapters
+
+**page-26**
+LANSA ComposerBuyer Needs ?Integrate applications•Looking for Application to Application Integration•Needing guaranteed delivery of critical data between internal applications or between trading partners•Looking to replace high maintenance point-to-point solutionsAutomate the movement of information 
+between internal and external systems•Looking to automate Business-to-Business functions•Looking to create more flexible business processes
+
+**page-27**
+Bringing the power of Business Process Integration technology to the SMB marketDänny Hellemons, LANSA Ltd.Danny.Hellemons@LANSA-Europe.comTel. +31 (0)20 698 0011“If you can click, you can connect.”
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | lansa-composer-powerpoint-9f4257 |
+| title | LANSA Composer: Practical Business Process Integration on System i (BPI/SOA) |
+| author | LANSA (vendor authorship); Peter Kastner of Aberdeen Group and Mike Gilpin of Forrester Research (quoted) |
+| date | 2007-01-01 |
+| type | vendor-presentation |
+| subject_domain | soa-bpi-system-i |
+| methodology | vendor-marketing, expert-opinion, technology-demonstration |
+| source_file | LANSA-Composer-Powerpoint.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+LANSA marketing presentation promoting LANSA Composer as a practical Business Process Integration (BPI) and SOA solution for the IBM System i (iSeries/AS/400) midmarket. Deck opens with two quoted analyst endorsements: Mike Gilpin (Forrester) on web services and Peter Kastner (Aberdeen) on API/screen/message replacement as an on-ramp to SOA. Slides cover transport protocols, data transformation, process orchestration, and ESB/J2EE integration layers.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Illustrates how ISVs used Kastner's Aberdeen SOA commentary to validate midmarket BPI offerings; representative of 2007-era System i SOA vendor messaging. |
+| **Relevance** | low | The SOA/ESB marketing frame has largely been replaced by microservices, REST APIs, and iPaaS. LANSA still exists but the specific message and product pitch are dated. |
+| **Prescience** | medium | The quoted Kastner prediction — that common tasks like API, screen, and message replacement would be (semi-)automated — was directionally correct: modern iPaaS, RPA, and low-code platforms (including LANSA's own later offerings) now routinely automate these conversions. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Adoption path into SOA for midmarket
+- **Claimed:** Automated/semi-automated conversion of common tasks (API, user screens, message replacements) is a practical on-ramp (attributed Kastner quote on slide 2)
+- **Year:** 2007
+- **Confidence at time:** high
+
+**Actual Outcome 1:** SOA long-run trajectory
+- **Result:** SOA largely superseded by microservices, REST, and iPaaS. Core automation claim (auto-conversion of APIs/screens/messages) validated by modern low-code/RPA/iPaaS
+- **Confidence:** verified
+- **Notes:** Kastner directional claim validated; SOA framing dated
+
+**Prediction 2:** Analyst framing of web services (Gilpin/Forrester)
+- **Claimed:** Web services technology promises flexible integration across internal apps and external partners; many firms stand to benefit
+- **Year:** 2007
+- **Confidence at time:** high
+
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| LANSA Corporation | company | active | Acquired by Idera, Inc. (2021) |
+| Aberdeen Group | firm | dissolved | Harte-Hanks -> (brand defunct 2020s) |
+| Peter S. Kastner | person | active |  |
+| Forrester Research | firm | active |  |
+| Mike Gilpin | person | active |  |
+| IBM Corporation | company | active |  |
+| Idera, Inc. | company | active |  |
+
+### Technologies Referenced (7)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| LANSA Composer | framework | LANSA Corporation | emerging | legacy-active |
+| IBM System i (iSeries / AS/400) | platform | IBM | mature | legacy-supported (IBM i) |
+| Service-Oriented Architecture (SOA) | framework | industry standard | hype-peak | legacy-superseded |
+| Enterprise Service Bus (ESB) | framework | industry standard | peak | legacy-declining |
+| Java 2 Platform, Enterprise Edition (J2EE) | framework | Sun Microsystems | mature | renamed-Jakarta-EE |
+| UDDI (Universal Description, Discovery and Integration) | protocol | OASIS | declining | legacy-deprecated |
+| SOAP / WS-* Web Services | protocol | W3C/OASIS | peak | legacy-superseded |
+
+### Observation Summary
+
+- Total observations: 7
+- By type: viability-prediction: 2, strategy-classification: 2, actual-outcome: 2, technology-assessment: 1

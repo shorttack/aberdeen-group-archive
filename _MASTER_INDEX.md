@@ -141,6 +141,23 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 16 Quotations Update (E-Commerce Times 2002-2004)
+
+**Scope:** 10 E-Commerce Times webarchives (Files 1-10), mostly Kastner market commentary for 2002-2004 E-Commerce Times pieces by Keith Regan, Elizabeth Millard, Teri Robinson, Tim McDonald, and Jennifer LeClaire.
+
+- **seq-194 cleanup (second mis-blob discovered)** — rows 368-375 (`article_seq=194`) were all incorrectly stamped "US Aims for Fastest Supercomputer Title / Elizabeth Millard / 2004-05-13" but the actual quotes came from 5 different E-Commerce Times articles spanning 2002-2004. Structurally identical to the seq-196 mis-blob cleaned up in Batch 14. All 8 rows re-attributed to their true source articles; new seqs 592-596 assigned. Row 368's empty quote/prediction fields populated with the true "silent friends" quote from the MS-EU Ruling article.
+- **seq-196 [REVIEW] remainder cleared** — row 494 (the last remaining `[REVIEW]` from Batch 14's seq-196 cleanup) re-attributed to its true source: Batch 16 File 1, "IBM Lands Navy Supercomputer Deal / Keith Regan / 2004-07-27" — the actual origin article of the entire seq-196 mis-blob. Moved to seq 591.
+- **6 new rows added** (rows 1014-1019) across 6 seqs (591, 595, 596, 597, 598, 599):
+  - seq 591 — IBM Lands Navy Supercomputer Deal / Keith Regan / 2004-07-27 (File 1): "That's no longer the case" price-competition quote.
+  - seq 595 — Dell Posts Q2 Profit, Predicts Q3 Growth / Jennifer LeClaire / 2002-08-16 (File 6): "consistently make money and gain market share."
+  - seq 596 — HP Posts Higher Profit on Weak Sales / Keith Regan / 2003-02-26 (File 8): "paring costs for only a finite period" prediction.
+  - seq 597 — US Aims for Fastest Supercomputer Title / Elizabeth Millard / 2004-05-13 (File 2): "handy for military applications" — the ONE true Kastner quote from the article that seq 194 had been incorrectly scattering 8 rows across.
+  - seq 598 — Hitachi, NEC Join To Challenge Cisco / Elizabeth Millard / 2004-06-25 (File 7): "Cisco understands routers… well in hand" prediction.
+  - seq 599 — Intel Abandons Web Hosting Service / Teri Robinson / 2002-06-19 (File 10): Intel's "ferocious" chip-production rate quote.
+- **File 9** (HP Shares Rise After Merger, Teri Robinson, 2002-05-06) → already correctly attributed in existing rows 189, 190 (seq 104). No new rows.
+- CSV now **1019 rows, 13 cols**; max `article_seq=599`. All Batch 16-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Pre-existing corpus note:** 160 rows across the broader corpus (predating Batch 16) still have empty `is_predictive` and `prescience_score` fields — a legacy data gap unrelated to Batch 16, flagged for a future corpus-wide backfill pass.
+
 ### April 19, 2026 — Batch 15 Quotations Update (Dell/Intel/Cisco 2003-2004)
 
 - **9 new rows added** (rows 1005-1013) across seqs 585-590 plus 2 supplements to seq 121:

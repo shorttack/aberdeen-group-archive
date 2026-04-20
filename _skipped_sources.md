@@ -84,3 +84,44 @@ Batch 15 corrections (existing-row attribution fixes based on Batch 15 primary s
 - Row 493 (seq 196 → seq 588) → author `[REVIEW]` → `Elizabeth Millard`; date `2004-05-17` → `2004-05-24`; headline `Cisco Probes Potential Source Code Leak` → `Cisco Readies Huge Fast Router` (same article — it covers both the CRS-1 launch and the source-code-leak passage in one Elizabeth Millard piece).
 
 Batch 15 new rows: 9 rows (1005-1013) across 5 new seqs (585-590) plus 2 rows appended to existing seq 121 (Centrino authored column).
+
+## Batch 16 (2026-04-19) — E-Commerce Times webarchives (10 files)
+
+| # | File | Date | Publication | Reason Skipped / Handled |
+|---|---|---|---|---|
+| 9 | E-Commerce-News-News-HP-Shares-Rise-After-Merger-But-Challenges-Loom-9.webarchive | 2002-05-06 | E-Commerce Times / Teri Robinson | **Already in corpus** — existing rows 189 & 190 (seq 104) already correctly attributed to this article. No new rows. |
+
+All other 9 files produced new/modified rows.
+
+### seq-194 cleanup (similar to seq-196 cleanup in Batch 14)
+
+**Discovery:** `article_seq=194` was another mis-blob — rows 368-375 were all mis-labeled to the same headline ("US Aims for Fastest Supercomputer Title / E-Commerce Times / Elizabeth Millard / 2004-05-13") but the actual quotes came from 5 different 2002-2004 E-Commerce Times articles. This is structurally identical to the seq-196 corruption pattern cleaned up in Batch 14.
+
+**Re-attributions (8 rows):**
+
+- Rows 368, 369, 370 (seq 194 → **seq 592**) → E-Commerce Times / Elizabeth Millard / 2004-06-08 / "Microsoft Vows To Appeal EU Ruling" — quotes: "silent friends" (row 368, populated during cleanup), "totally different standard" (row 369), "They could have paid" (row 370).
+- Row 371 (seq 194 → **seq 593**) → E-Commerce Times / Tim McDonald / 2002-07-10 / "Bigger Notebooks Buck the Size Trend" — "hybrid machines" / mobile-notebook size trend quote.
+- Row 372 (seq 194 → **seq 594**) → E-Commerce Times / Teri Robinson / 2002-07-03 / "Court: Microsoft Met Antitrust Disclosure Rules" — "too much control" / Kollar-Kotelly ruling quote.
+- Rows 373, 374 (seq 194 → **seq 595**) → E-Commerce Times / Jennifer LeClaire / 2002-08-16 / "Dell Posts Q2 Profit, Predicts Q3 Growth" — "taken away retail market share" (row 373), "under 10 percent" operating costs (row 374).
+- Row 375 (seq 194 → **seq 596**) → E-Commerce Times / Keith Regan / 2003-02-26 / "HP Posts Higher Profit on Weak Sales" — "find ways to grow market share".
+
+Row 368 was additionally populated with its true direct quote ("silent friends") and proper `is_predictive=yes` / `prescience_score=medium` fields (the mis-blob had left them blank).
+
+### seq-196 [REVIEW] remainder cleanup (1 row)
+
+- Row 494 (seq 196 `[REVIEW]` → **seq 591**) → E-Commerce Times / Keith Regan / 2004-07-27 / "IBM Lands Navy Supercomputer Deal" — "It used to be if you needed a machine this powerful, you had only a handful of places to turn." Batch 16 File 1 is the actual origin article of the entire seq-196 mis-blob that was identified and cleaned up in Batch 14 (all other seq-196 rows were already re-attributed in Batch 14; row 494 was the last remaining `[REVIEW]`).
+
+### New rows added (6 rows: 1014-1019)
+
+Files with genuinely new Kastner quotes not previously captured:
+
+- **File 1** (IBM Navy Supercomputer, seq 591): 1 new row (row 1014) — "That's no longer the case" price competition quote, complements row 494.
+- **File 2** (US Aims for Fastest Supercomputer Title, seq 597): 1 new row (row 1015) — "handy for military applications" quote. This is the **one true** Kastner quote from the article that seq 194 was incorrectly scattering 8 rows across.
+- **File 6** (Dell Q2 Profit, seq 595): 1 new row (row 1016) — "consistently make money and gain market share" quote (complements rows 373, 374).
+- **File 7** (Hitachi, NEC Challenge Cisco, seq 598): 1 new row (row 1017) — "Cisco understands routers… well in hand" prediction.
+- **File 8** (HP Higher Profit, seq 596): 1 new row (row 1018) — "paring costs for only a finite period" prediction (complements row 375).
+- **File 10** (Intel Abandons Web Hosting, seq 599): 1 new row (row 1019) — Intel's "ferocious" chip-production rate quote.
+
+**Total Batch 16 CSV delta:** +6 rows (1014-1019), 9 rows re-attributed (368-375, 494), 6 new seqs assigned (591, 592, 593, 594, 595, 596, 597, 598, 599 — covering Files 1, 3, 4, 5, 6, 8, 2, 7, 10 respectively). CSV now **1019 rows, 13 cols**, max `article_seq=599`. All Batch 16-scope rows pass QUOTE_ALL / 13-col / enum validation.
+
+**Pre-existing corpus note:** 160 rows across the broader corpus (predating Batch 16) still have empty `is_predictive` and `prescience_score` fields — a legacy data gap from earlier ingestion passes, unrelated to Batch 16. Flagged here for a future corpus-wide backfill pass.

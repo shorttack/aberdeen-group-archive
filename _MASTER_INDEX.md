@@ -141,6 +141,27 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 17 Quotations Update (E-Commerce Times Intel/MS/Dell 2002-2004)
+
+**Scope:** 10 E-Commerce Times webarchives (Files 1-10) spanning Intel, Microsoft, Dell, and broadband regulation coverage 2002-2004 by Teri Robinson, Staff Writer, Helen Gallagher, Jennifer LeClaire, Elizabeth Millard, and Tiernan Ray.
+
+- **seq-104 cleanup (third mis-blob discovered)** — rows 192-198 (`article_seq=104`) were mis-labeled to "HP Shares Rise After Merger / Teri Robinson / 2002-05-06." Rows 189, 190, 191 are genuinely that article (no change). Rows 192-198 re-attributed to 3 true source articles:
+  - Rows 192-194 → **seq 600**, "Microsoft Judge Stakes Out Scope of Settlement" / Staff Writer / 2002-05-16 (File 2).
+  - Row 195 → **seq 184** (merged into existing cluster), "Microsoft Patches IE Security Flaws" / Helen Gallagher / 2004-02-03 (File 3).
+  - Rows 196-198 → **seq 601**, "New Broadband Legislation Revives Old Debate" / Jennifer LeClaire / 2002-05-03 (File 5). Row 197's empty quote populated with the true "regulated very carefully" direct quote.
+- **seq-184 headline correction** — rows 352, 353, 354 headline "IE Fix Reflects Ongoing Security Battle" → "Microsoft Patches IE Security Flaws" (true headline from File 3 webarchive).
+- **Row 280 mis-attribution fix (critical)** — row 280 (seq 137) had a quote by Gartner's Smith mis-attributed to Kastner ("You didn't need to wait for Win2003 to deploy .NET"). Replaced with the real Kastner quote from the same article: "brash youth / young adult phase" re Windows Server 2003 maturity.
+- **Row 1019 correction** — the "ferocious" Intel chip-production quote added in Batch 16 (attributed to "Intel Abandons Web Hosting" / 2002-06-19) was actually first published in Batch 17 File 1 ("Intel Forecasts Dimmer Second Quarter" / Teri Robinson / 2002-06-07). Re-attributed to File 1 at **new seq 602**.
+- **6 new rows added** (rows 1020-1025) across 2 new seqs (603, 604) plus 4 existing seqs (105, 137, 144, 601):
+  - seq 604 — Microsoft Says No to Compromise / Teri Robinson / 2002-06-20 (File 4): "Windows chopped up / simply reaffirm" prediction about Kollar-Kotelly ruling.
+  - seq 601 — Broadband Legislation (File 5): "strong have gotten stronger" (merges into the cleaned-up cluster).
+  - seq 105 — Revised Dell Q2 Outlook (File 6): "good news for shareholders but does not signal an end" — Dell individual strength vs. broad PC-industry weakness.
+  - seq 137 — Windows Server 2003 (File 8): "feel confident putting this in production" — enterprise-adoption endorsement.
+  - seq 144 — Windows Updates (File 9): "Microsoft is getting a bum rap" — defense of aggressive patch cadence.
+  - seq 603 — Microsoft Unhurt by MyDoom Attack / Elizabeth Millard / 2004-02-04 (File 10): "adept at being prepared for emergencies" quote.
+- CSV now **1025 rows, 13 cols**; max `article_seq=604`. All Batch 17-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally:** Three `article_seq` mis-blobs have now been cleaned up across Batches 14-17: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17). All three followed the same pattern — a cluster of 7-28 rows stamped with one headline while the quotes came from multiple distinct E-Commerce Times articles.
+
 ### April 19, 2026 — Batch 16 Quotations Update (E-Commerce Times 2002-2004)
 
 **Scope:** 10 E-Commerce Times webarchives (Files 1-10), mostly Kastner market commentary for 2002-2004 E-Commerce Times pieces by Keith Regan, Elizabeth Millard, Teri Robinson, Tim McDonald, and Jennifer LeClaire.

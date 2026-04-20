@@ -125,3 +125,44 @@ Files with genuinely new Kastner quotes not previously captured:
 **Total Batch 16 CSV delta:** +6 rows (1014-1019), 9 rows re-attributed (368-375, 494), 6 new seqs assigned (591, 592, 593, 594, 595, 596, 597, 598, 599 — covering Files 1, 3, 4, 5, 6, 8, 2, 7, 10 respectively). CSV now **1019 rows, 13 cols**, max `article_seq=599`. All Batch 16-scope rows pass QUOTE_ALL / 13-col / enum validation.
 
 **Pre-existing corpus note:** 160 rows across the broader corpus (predating Batch 16) still have empty `is_predictive` and `prescience_score` fields — a legacy data gap from earlier ingestion passes, unrelated to Batch 16. Flagged here for a future corpus-wide backfill pass.
+
+## Batch 17 (2026-04-19) — E-Commerce Times webarchives (10 files, Intel/MS/Dell 2002-2004)
+
+All 10 files produced new/modified rows. None fully skipped.
+
+### seq-104 cleanup (THIRD mis-blob discovered; similar pattern to seq-194 and seq-196)
+
+**Discovery:** `article_seq=104` was a third mis-blob. Rows 189, 190, 191 were correctly attributed to "HP Shares Rise After Merger, But Challenges Loom / Teri Robinson / 2002-05-06" (File 9 Batch 16). But rows 192-198 were mis-labeled to the same HP article — the actual quotes came from 3 different 2002-2004 E-Commerce Times articles.
+
+**Re-attributions (7 rows):**
+
+- Rows 192, 193, 194 (seq 104 → **seq 600**) → E-Commerce Times / Staff Writer / 2002-05-16 / "Microsoft Judge Stakes Out Scope of Settlement" — quotes: "Who benefits and why is a reasonable question" (row 192), "thousands of consumers picketing" (row 193), "Draw your own conclusions" (row 194).
+- Row 195 (seq 104 → **seq 184**) → E-Commerce Times / Helen Gallagher / 2004-02-03 / "Microsoft Patches IE Security Flaws" — "depressing aspect" quote (companion to existing rows 352, 353, 354 in seq 184).
+- Rows 196, 197, 198 (seq 104 → **seq 601**) → E-Commerce Times / Jennifer LeClaire / 2002-05-03 / "New Broadband Legislation Revives Old Debate" — "Humpty Dumpty" / "four or five regional companies" / "1996 Telecommunications Act" quotes. Row 197's empty quote field populated during cleanup with the true "regulated very carefully" direct quote from the article.
+
+### seq-184 headline correction
+
+**Rows 352, 353, 354** (seq 184) had the wrong headline ("IE Fix Reflects Ongoing Security Battle"). The true E-Commerce Times headline from the Batch 17 File 3 webarchive is **"Microsoft Patches IE Security Flaws"** (Helen Gallagher, 2004-02-03). All three rows corrected. Row 195 (newly re-attributed into seq 184 above) also uses the corrected headline.
+
+### Row 280 mis-attribution fix (CRITICAL)
+
+Row 280 (seq 137, What Windows Server 2003 Will Mean for IT) had a quote mis-attributed to Kastner: "You didn't need to wait for Win2003 to deploy .NET. If you did, you didn't really understand the software." Batch 17 File 8 confirms this quote is by **Gartner's Smith**, not Kastner. Replaced with the real Kastner quote from the same article — the "brash youth / young adult phase" quote about Windows Server 2003 maturity. seq 137 remains a Kastner-quote seq.
+
+### Row 1019 correction (Batch 16 attribution refinement)
+
+Row 1019 (added in Batch 16 as "Intel Abandons Web Hosting Service / 2002-06-19 / Teri Robinson") had the "Intel produces chips at a ferocious rate" quote. Batch 17 File 1 ("Intel Forecasts Dimmer Second Quarter," 2002-06-07, Teri Robinson) is the **earlier** E-Commerce Times article by the same author containing the identical quote — it is the true origin. Row 1019 re-attributed to File 1 Batch 17 at **new seq 602**. (The quote was reused by the same reporter 12 days later in File 10 Batch 16.)
+
+### New rows added (6 rows: 1020-1025)
+
+| # | Row | Seq | File | Quote signature | Source |
+|---|---|---|---|---|---|
+| 1 | 1020 | 604 (new) | File 4 | "Windows chopped up" / "simply reaffirm" | Microsoft Says No to Compromise / Teri Robinson / 2002-06-20 |
+| 2 | 1021 | 601 | File 5 | "strong have gotten stronger" | (merges into new seq 601, Broadband Legislation) |
+| 3 | 1022 | 105 | File 6 | "good news for shareholders but does not signal an end" | Revised Dell Q2 Outlook Boosts Market / Jennifer LeClaire / 2002-07-12 |
+| 4 | 1023 | 137 | File 8 | "confident putting this in production" | What Windows Server 2003 Will Mean for IT / Tiernan Ray / 2003-04-10 |
+| 5 | 1024 | 144 | File 9 | "bum rap" | Windows Updates: Enough Already! / Elizabeth Millard / 2003-06-06 |
+| 6 | 1025 | 603 (new) | File 10 | "adept at being prepared for emergencies" | Microsoft Unhurt by MyDoom Attack / Elizabeth Millard / 2004-02-04 |
+
+**Batch 17 CSV delta:** +6 rows (1020-1025), 12 rows re-attributed/corrected (192-198, 352-354, 280, 1019), 5 new seqs assigned (600, 601, 602, 603, 604). 6 existing seqs used for merges (105, 137, 144, 184, and the new-seq clusters). CSV now **1025 rows, 13 cols**, max `article_seq=604`. All Batch 17-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+**Mis-blob cumulative note:** Three corrupted `article_seq` blobs have now been discovered and cleaned up in the corpus: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17). All three followed the same pattern — a cluster of 7-28 rows mis-labeled to a single headline/byline/date while the actual quotes came from multiple distinct E-Commerce Times articles spanning 2002-2005. No further suspected mis-blobs identified; future batches should continue to watch for similar patterns.

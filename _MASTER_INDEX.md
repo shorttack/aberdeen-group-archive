@@ -141,6 +141,27 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 15 Quotations Update (Dell/Intel/Cisco 2003-2004)
+
+- **9 new rows added** (rows 1005-1013) across seqs 585-590 plus 2 supplements to seq 121:
+  - **seq 589** (3 rows) — Aberdeen Perspective PDF "Dell, Oracle & Linux: Your Next SAP Platform?" by Peter S. Kastner, 2004-04-28. Predicts Linux clusters on 2-4-way x86 would displace the ~10,000 Y2K-era RISC-Unix SAP installations; benchmarks a 2-node Dell 6650 cluster at 9-16% faster than 8-way RISC SMP for one-third the cost. (`authored-column`.)
+  - **seq 590** (1 row) — Computerworld "Dell, Oracle tout alliance on enterprise server systems" by Patrick Thibodeau, 2003-04-02. Kastner on how the Dell+Oracle+Linux announcement legitimizes Linux "good enough to run two companies that are north of $10 billion dollars."
+  - **seq 586** (1 new row + attribution fix) — CRN / VARBusiness "Don't Count Intel Out" by Carolyn A. April, 2003-06-02. Adds the direct "put a new pony into the race" quote. Row 489 (from seq-196 cleanup) moved into this seq with author upgraded from `[REVIEW]` to Carolyn A. April.
+  - **seq 121** (2 supplemental rows) — InformationWeek / InternetWeek "Don't Panic! Intel's New Centrino..." by Peter S. Kastner, 2003-03-24. Adds the "most important introduction Intel will make in 2003 / Mark down March 12th" framing and the "Centrino notebooks — and the wireless network they work best in — should become one of the standard IT infrastructure building blocks" call.
+  - **seq 588** (2 new rows + attribution fix) — E-Commerce Times "Cisco Readies Huge Fast Router" by Elizabeth Millard, 2004-05-24. Adds the "they have the situation well in hand" and the VoIP / developing-country Internet-growth drivers quotes. Rows 491, 492, 493 (from seq-196 cleanup) moved into this seq with author corrected to Elizabeth Millard and date to 2004-05-24 — the source-code-leak and CRS-1 passages are in fact a single article.
+
+- **7 attribution corrections** applied to existing rows using Batch 15 primary sources as ground truth:
+  - Row 476 (seq 196 → seq 156) — merged into existing MarketWatch Q2 cluster (row 309); date 2003-08-15 → 2003-08-14.
+  - Rows 471, 488 (seq 196 → seq 585) — **re-attributed from Forbes.com to MarketWatch / Rex Crum, 2003-11-14, "Dell's shares ease in aftermath of Q3 earnings report".** The Forbes attribution in the seq-196 cleanup batch was incorrect; File 5 establishes MarketWatch as the true source.
+  - Row 489 (seq 196 → seq 586) — author `[REVIEW]` → Carolyn A. April; publication refined to "CRN / VARBusiness"; headline standardized to "Don't Count Intel Out".
+  - Row 490 (seq 196 → seq 587) — publication "E-Commerce Times [REVIEW]" → "E-Commerce Times"; author `[REVIEW]` → Lisa Gill; date 2003-01-01 → 2002-12-30; headline → "Report: Global Chip Sales Grow at Snail's Pace". `[REVIEW]` flag cleared.
+  - Rows 491, 492 (seq 196 → seq 588) — author Keith Regan → Elizabeth Millard; date 2004-05-25 → 2004-05-24; headline → "Cisco Readies Huge Fast Router".
+  - Row 493 (seq 196 → seq 588) — author `[REVIEW]` → Elizabeth Millard; date 2004-05-17 → 2004-05-24; consolidated with the HFR article.
+- 2 files skipped as duplicate captures: File 3 (stripped Dell-Oracle Computerworld), File 6 (short-form Don't Count Intel Out).
+- File 4 (MarketWatch Dell Q2) produced no new rows — its Kastner quote was already at row 309; used only to correct row 476's date and re-seq.
+- CSV now **1013 rows, 13 cols**; max `article_seq=590`. All rows pass QUOTE_ALL / 13-col / enum validation.
+- Remaining `[REVIEW]` flags in the corpus are now confined to seq-196 rows 480, 481, 484-487, 494 (Dell diversification / asset-recovery / modular-server / supercomputing passages whose source articles are still not in hand).
+
 ### April 19, 2026 — seq-196 Cleanup Batch
 
 - **26 mis-labeled rows re-attributed.** Rows 462, 468, 471-494 (`article_seq=196`), previously all stamped "IBM Lands Navy Supercomputer Deal / E-Commerce Times / Keith Regan / 2004-07-27," split across their true 2003-2005 source articles via verbatim quote match against the Batch 14 webarchive extracts and corroborating web research:

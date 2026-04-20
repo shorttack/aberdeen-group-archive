@@ -65,3 +65,22 @@ Files producing new/modified rows in Batch 14:
 - Rows 480, 481, 484-487, 489, 490, 494 → publication/author flagged `[REVIEW]` (best-effort attribution pending primary-source confirmation; browser verification was cancelled per user instruction)
 
 seq-196 cleanup debt is **cleared**. Remaining `[REVIEW]` flags are surfaced for future targeted verification.
+
+## Batch 15 (2026-04-19)
+
+| # | File | Date | Publication | Reason Skipped / Handled |
+|---|---|---|---|---|
+| 3 | Dell-Oracle-tout-alliance-...-3.webarchive | 2003-04-02 | Computerworld (Patrick Thibodeau) | **Duplicate** of File 2 (same Computerworld article, stripped-down capture). Processed once via File 2 as row 1008 / seq 590. |
+| 4 | Dell-s-second-quarter-profit-rises-24-MarketWatch-4.webarchive | 2003-08-14 | MarketWatch / CBS.MarketWatch.com (Rex Crum) | **True source** of existing row 309 (seq 156) — Kastner quote "This is a very good quarter, again, for Dell" already captured. Same article also sourced row 476 (from seq-196 cleanup); row 476 moved from seq 196 into seq 156 and date corrected 2003-08-15 → 2003-08-14. No new rows. |
+| 6 | Dont-Count-Intel-Out-2003-6.webarchive | 2003-06-02 | CRN / VARBusiness (Carolyn A. April) | **Duplicate** of File 8 (short print-capture of the same CRN article). Processed once via File 8 as row 1009 / seq 586. |
+
+Batch 15 corrections (existing-row attribution fixes based on Batch 15 primary sources):
+
+- Row 476 (seq 196 → seq 156) → MarketWatch Q2 article, date corrected to 2003-08-14. Merged into existing MarketWatch Q2 cluster with row 309.
+- Rows 471, 488 (seq 196 → seq 585) → re-attributed from Forbes.com (erroneous attribution during seq-196 cleanup) to MarketWatch / CBS.MarketWatch.com, Rex Crum, 2003-11-14, "Dell's shares ease in aftermath of Q3 earnings report". Forbes was wrong; File 5 confirms the true source.
+- Row 489 (seq 196 → seq 586) → author `[REVIEW]` → Carolyn A. April; publication `CRN (Computer Reseller News)` → `CRN / VARBusiness`; headline standardized to "Don't Count Intel Out".
+- Row 490 (seq 196 → seq 587) → publication `E-Commerce Times [REVIEW]` → `E-Commerce Times`; author `[REVIEW]` → `Lisa Gill`; date `2003-01-01` → `2002-12-30`; headline → "Report: Global Chip Sales Grow at Snail's Pace".
+- Rows 491, 492 (seq 196 → seq 588) → author `Keith Regan` → `Elizabeth Millard`; date `2004-05-25` → `2004-05-24`; headline `Cisco Unveils CRS-1 Huge Fast Router` → `Cisco Readies Huge Fast Router`.
+- Row 493 (seq 196 → seq 588) → author `[REVIEW]` → `Elizabeth Millard`; date `2004-05-17` → `2004-05-24`; headline `Cisco Probes Potential Source Code Leak` → `Cisco Readies Huge Fast Router` (same article — it covers both the CRS-1 launch and the source-code-leak passage in one Elizabeth Millard piece).
+
+Batch 15 new rows: 9 rows (1005-1013) across 5 new seqs (585-590) plus 2 rows appended to existing seq 121 (Centrino authored column).

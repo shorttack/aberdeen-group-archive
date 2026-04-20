@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-xgrid","Apple Xgrid","framework","Apple Computer","2004-2011","emerging","discontinued","mac-news-science-the-science-of-this-yea-bb35b4","Grid-computing framework; deprecated OS X 10.7 Lion"
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","emerging","discontinued","mac-news-science-the-science-of-this-yea-bb35b4",""
+"mac-os-x-tiger","Mac OS X 10.4 Tiger","platform","Apple Computer","2005-2009","announced","legacy-deprecated","mac-news-science-the-science-of-this-yea-bb35b4","Previewed at WWDC 2004"

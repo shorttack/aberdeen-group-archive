@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ca-unicenter-tng","CA Unicenter TNG","framework","Computer Associates","1997-2005","peak","legacy-rebranded","management-heavies-seek-broader-base-8-723197","Renamed CA NSM; later superseded by CA Spectrum / Broadcom portfolio"
+"tivoli-management-environment","Tivoli Management Environment (TME)","framework","Tivoli Systems / IBM","1992-2013","peak","legacy-deprecated","management-heavies-seek-broader-base-8-723197","Absorbed into IBM; retired"
+"windows-nt","Microsoft Windows NT","platform","Microsoft","1993-2000","mature","legacy-deprecated","management-heavies-seek-broader-base-8-723197","Target platform for Workgroup editions"

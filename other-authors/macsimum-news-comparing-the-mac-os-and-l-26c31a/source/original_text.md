@@ -1,0 +1,74 @@
+# Comparing the Mac OS and Linux markets just doesn't work
+
+> Archived from: Macsimum-News-Comparing-the-Mac-OS-and-Linux-markets-just-doesnt-work-6.webarchive
+> Original publication date: 2004-08-15
+> Author: Dennis Sellers (Macsimum News); Peter Kastner (secondary-source quote via Wired)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.macsimumnews.com/index.php/archive/comparing_the_mac_os_and_linux_markets_just_doesnt_work/
+MIME: text/html
+
+Macsimum News - Comparing the Mac OS and Linux markets just doesn’t work Home Content News Forums Reviews Opinions Hardware Patents Troubleshooting Migration Kits iPhone Videos Media Center Newsletter Twitterr Forums About Us Advertise RSS Feed MacsimumNews - Your Leading Apple News Alternative Comparing the Mac OS and Linux markets just doesn’t work Posted by Dennis Sellers Aug 15, 2004 at 11:15pm There’s a new controversy/debate about which has the runner-up’s share of the desktop computer market: the Mac operating system or Linux. But with my oft-expressed suspicion that no one has any really accurate data on market share and installed user base, I also think that the recent hoohah is like comparing apples and oranges (or Apples and Linuxes, I guess). Besides, in the long run it makes little difference, though the growing popularity of Linux isn’t likely to hurt the Mac OS. It all started when Hewlett Packard announced that it was shipping the world’s first pre-installed Linux laptop. 2003 “will be the year that Linux overtakes the Mac on the desktop, and maybe my laptop will help accelerate that,” Martin Fink, HP’s vice president of Linux, said at the LinuxWorld Conference & Expo during a keynote speech. However, industry research firm IDC said it believes that this has already happened. “Linux captured the No. 2 spot as desktop operating system in 2003,” said IDC analyst Dan Kusnetzky. By 2007, IDC estimates that Linux will have 6 percent of the desktop market in terms of units. But in the other corner, Wired’s Leander Kahney penned an article quoting analysts who are skeptical of these claims. While Linux machines are shipping at a fast rate, especially to giant markets like China, the vast majority are stripped of Linux in favor of pirate copies of Windows, his article asserted. “In emerging markets like China, Russia and Latin America, many locally assembled PCs are sold without an OS or with Linux,” wrote Gartner analyst Annette Jump in a report published last week and mentioned in Leander’s piece. “On 90 percent to 95 percent of these PCs, a pirated version of Microsoft Windows is installed within the first few days.” Peter Kastner, an analyst with Aberdeen Group, told Wired that the Mac has roughly 3 percent of the desktop market, and the Linux share is considerably lower than that. Numbers published by Google, which logs the different desktop systems used to access its site, backs up Kastner’s 3 percent estimate. According to Google, Mac users number 3 percent, while Linux weighs in at 1 percent. What’s more, Leigh Day, spokeswoman for Red Hat, one of the largest Linux distributors, told Leander Linux isn’t yet ready for the desktop. “The stuff for a consumer desktop—media players, video drivers—are not yet mature,” she said. So how can you adequately compare the Mac OS with Linux? The former is consumer friendly, multimedia savvy and a commercial product (you have to pay for it). Linux is still not consumer friendly, isn’t truly ready for multimedia activities, but is free. And even though comparing Linux with Windows is also unfair to both operating systems, the rise of the open source OS probably poses more of a problem to Microsoft than Apple. “Outside of the US, Europe, Australia, and Japan the story may be somewhat different. In the developing world, experts believe that Linux will become the number 2 platform, and that over time it will knock Windows from the number 1 position altogether,” notes a LinuxWorld article . “Mind you, while Linux may be free, there are an awful lot of pirated copies of Windows out East, so it may take more years than anyone realizes.” I’m certainly not in favor of piracy in any form or fashion. But if Linux legitimately takes user away from Microsoft rather than Apple, I have no problem with that. On the other hand, wouldn’t it be great to see Jobs & Company lure users away from both? Comment? Write me at daseller@earthlink.net. Leave a comment ⇒ Please post the article topic & comment in our forums. No registration required. Advanced Search Article Information Comment on this Article Print this Article Email this Article Digg This Contributor Dennis Sellers Dennis has been a newspaper editor/reporter (seven years) and teacher (seven years). He has over 4,000 magazine, newspaper and online articles to his credit. He has also covered the Mac and tech industries for over a decade for such online publications as MacCentral, MacMinute and now MacsimumNews. Recent Articles Freeverse updates Flick Fishing for iPhone, iPod touch Safari 4.0 and Bluetooth firmware updates released Elixir introduces Executive, new RapidWeaver theme Ringer lets you create iPhone ringtones Some analysts aren’t happy (naturally) with the prospects of the new iPhones The Mac Night Owl: ‘the Snow Leopard Report: the irritants remain’ Microspot Interiors Professional for Mac OS X gets new tools iSamurai Lite slashes onto the iPhone, iPod touch High school art department launches iPhone Art Gallery ‘Macsimum Recommended Reading’ for June 17 Sirius XM Radio to release iPhone app 42 Restaurants now cookin’ on the iPhone, iPod touch DiscLabel update for Mac OS X gets maintenance update iPhone OS 3.0—it’s here R10Cipher 2 file/text encryption solution adds 384-bit Blowfish encryption ‘MacNotables’ look at WWDC, iPhone OS 3.0 O’Reilly Media releases ‘Head First Networking’ Casio introduces new WXGA projector Taridium adds iPhone interface to enterprise PBX Sync’Em for Mac OS X update offers simplified set-up assistant Hotel München Advanced Search Home | News | Reviews | Opinions | Hardware | Patents | Migration Kits | Troubleshooting Media Center | MiV On Demand | Newsletter | Forums | Twitter | Partners | Contact Us © 2009 MacsimumNews, All Rights Reserved | Privacy Policy | Designed by 31Three & Jennifer Gray
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | macsimum-news-comparing-the-mac-os-and-l-26c31a |
+| title | Comparing the Mac OS and Linux markets just doesn't work |
+| author | Dennis Sellers (Macsimum News); Peter Kastner (secondary-source quote via Wired) |
+| date | 2004-08-15 |
+| type | press-article |
+| subject_domain | desktop-os-market-share |
+| methodology | press-opinion, secondary-source-analysis |
+| source_file | Macsimum-News-Comparing-the-Mac-OS-and-Linux-markets-just-doesnt-work-6.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Macsimum News opinion piece by Dennis Sellers arguing that Mac OS vs. Linux market-share comparisons are fundamentally apples-to-oranges. Draws on Peter Kastner's Wired-quoted ~3% Mac share / lower Linux share figure as a key datapoint; notes that Linux desktop installed-base counts often include PCs on which Windows is subsequently pirate-installed, distorting comparisons.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | low | Opinion follow-on to Wired/MacObserver coverage; preserves Kastner's number via secondary source, adds Sellers's piracy-substitution framing. |
+| **Relevance** | low | 2004 debate long settled; historical interest only. |
+| **Prescience** | medium | Sellers/Kastner skepticism that Linux desktop would overtake Mac was proven correct; Mac grew to 15-20% share, Linux remained 2-4%. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | dissolved | Harte-Hanks -> (brand defunct 2020s) |
+| Peter S. Kastner | person | active |  |
+| Macsimum News | company | dissolved |  |
+| Dennis Sellers | person | active |  |
+| Apple Computer, Inc. | company | active | Apple Inc. (2007 rename) |
+| Hewlett-Packard Company | company | active | HP Inc. / HPE (2015 split) |
+| Microsoft Corporation | company | active |  |
+
+### Technologies Referenced (2)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Apple Mac OS X | platform | Apple Computer | mature | active (macOS) |
+| Linux Desktop Distributions | platform | community | emerging | small-share-mature |
+
+### Observation Summary
+
+- Total observations: 4
+- By type: market-data: 2, strategy-classification: 1, actual-outcome: 1

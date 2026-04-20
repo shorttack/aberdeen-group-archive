@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Manufacturers That Don't honor Their Rebates? [EggXpert/Newegg community thread citing Consumer Reports citing Kastner]",
+  "description": "Newegg EggXpert community thread (Sep 11 - Oct 16, 2008) complaining about manufacturers failing to honor rebates. Tracer76 quotes a Consumer Reports article that in turn cites Peter Kastner of Aberdeen Group on why rebates go uncollected (consumers forget, miss deadlines, submit incomplete paperwork). Other commenters (Capt. Insane) dispute Aberdeen's characterization as a 'technology research firm.' Shows Kastner's reach into tertiary consumer-commentary through quote chains.",
+  "creator": {
+    "@type": "Person",
+    "name": "HOGHAULER, Tracer76, JonnyFaster, Capt. Insane et al. (EggXpert community); Peter Kastner (tertiary-source citation)"
+  },
+  "datePublished": "2008-09-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

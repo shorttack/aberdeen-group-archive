@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Analyst: 'Apple will have problems filling' G5 orders; demand 'will not impact Apple's market position'",
+  "description": "MacDailyNews reprint of a NewsFactor story on the Power Mac G5 launch. Peter Kastner of Aberdeen Group tells Mac buyers they 'should run, not walk' to check out the G5, calling Apple 'arguably a performance leader' with the new PowerPC 970 dual-2GHz machines priced at $1,999 / $2,399 / $2,999. Roger Kay of IDC provides counter-balancing skepticism about G5 impact on Apple's overall desktop market share. Article captures analyst divide on whether supply constraints will matter.",
+  "creator": {
+    "@type": "Person",
+    "name": "Wrolstad (reporter, via NewsFactor/MacDailyNews); Peter Kastner and Roger Kay (quoted sources)"
+  },
+  "datePublished": "2003-08-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

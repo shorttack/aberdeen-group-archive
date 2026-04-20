@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-nt","Microsoft Windows NT","platform","Microsoft","1993-2000","mature","legacy-deprecated","marathon-technologies-demonstrates-99-99-99a38e","NT 4.0 era"
+"marathon-endurance","Marathon Endurance Assured Availability","framework","Marathon Technologies","1997-2012","emerging","legacy-rebranded","marathon-technologies-demonstrates-99-99-99a38e","99.999% uptime platform; merged into Stratus portfolio"
+"fault-tolerant-ht-computing","Fault-Tolerant / High-Availability Computing","framework","various (Tandem, Stratus, Marathon)","1980-present","mature","superseded-by-vm-ha","marathon-technologies-demonstrates-99-99-99a38e","Largely absorbed by virtualization HA"

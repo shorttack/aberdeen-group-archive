@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Science of This Year's WWDC",
+  "description": "MacNewsWorld WWDC 2004 preview focused on Apple's scientific-computing push. Peter Kastner of Aberdeen Group notes Xgrid has a 'solid foothold at universities' and is worth watching as grid computing matures into the mainstream. Article also covers the Apple Workgroup Cluster for Bioinformatics Award Program and Apple's positioning around Tiger previews.",
+  "creator": {
+    "@type": "Person",
+    "name": "Elizabeth Millard (reporter, MacNewsWorld); Peter Kastner (quoted source)"
+  },
+  "datePublished": "2004-06-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

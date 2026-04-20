@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mac OS vs. Linux: Who's #2?",
+  "description": "The Mac Observer analytical piece reconciling competing claims about #2 desktop OS share between Mac OS X and Linux. Authors aggregate data from HP, IDC, Wired, Gartner, Google browser logs, and analyst commentary \u2014 including Peter Kastner's ~3% Mac share estimate (originally to Wired) as a secondary-source quote. Concludes that definitions matter: Linux installed seats (including piracy, embedded, preloaded non-Windows PCs) and active Mac desktop users are measured inconsistently.",
+  "creator": {
+    "@type": "Person",
+    "name": "Bryan Chaffin and Vern Seward (The Mac Observer); Peter Kastner (secondary-source quote)"
+  },
+  "datePublished": "2004-08-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

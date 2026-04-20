@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-powerpc-g5","IBM PowerPC 970 (G5)","platform","IBM / Apple","2003-2006","emerging","legacy-deprecated","macdailynews-analyst-apple-will-have-pro-54defe","First 64-bit Mac CPU"
+"power-mac-g5","Apple Power Mac G5","platform","Apple Computer","2003-2006","emerging","discontinued","macdailynews-analyst-apple-will-have-pro-54defe","Dual 1.8 / 2.0 GHz launch configurations"
+"mac-os-x-jaguar","Mac OS X 10.2 Jaguar","platform","Apple Computer","2002-2004","mature","legacy-deprecated","macdailynews-analyst-apple-will-have-pro-54defe","Shipped on launch G5; 10.2.7 referenced"

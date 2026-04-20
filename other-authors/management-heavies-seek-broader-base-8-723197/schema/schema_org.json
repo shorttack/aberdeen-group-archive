@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Management heavies seek broader base [CA Unicenter TNG / Tivoli enterprise management]",
+  "description": "Network World coverage of Computer Associates' and Tivoli's move to offer simpler Enterprise Edition and Workgroup Edition variants of their heavyweight systems-management platforms (CA Unicenter TNG and Tivoli Management Environment). Peter Kastner, chief research officer at Aberdeen Group, frames the CA/Tivoli initiative as an attempt to address long-standing criticisms of ease-of-use and ease-of-installation. Article positions the new variants as less costly, more approachable entrees to enterprise management.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jim Duffy (reporter, Network World); Peter Kastner (quoted source)"
+  },
+  "datePublished": "1998-04-27",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

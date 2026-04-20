@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mac-os-x-tiger","Mac OS X 10.4 Tiger","platform","Apple Computer","2005-2009","emerging","legacy-deprecated","mac-news-enterprise-systems-apple-s-ente-59fab0","Released April 2005"
+"mac-os-x-server","Mac OS X Server","platform","Apple Computer","1999-2022","mature","legacy-superseded","mac-news-enterprise-systems-apple-s-ente-59fab0",""
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","emerging","discontinued","mac-news-enterprise-systems-apple-s-ente-59fab0",""

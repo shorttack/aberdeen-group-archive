@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Comparing the Mac OS and Linux markets just doesn't work",
+  "description": "Macsimum News opinion piece by Dennis Sellers arguing that Mac OS vs. Linux market-share comparisons are fundamentally apples-to-oranges. Draws on Peter Kastner's Wired-quoted ~3% Mac share / lower Linux share figure as a key datapoint; notes that Linux desktop installed-base counts often include PCs on which Windows is subsequently pirate-installed, distorting comparisons.",
+  "creator": {
+    "@type": "Person",
+    "name": "Dennis Sellers (Macsimum News); Peter Kastner (secondary-source quote via Wired)"
+  },
+  "datePublished": "2004-08-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Apple's Enterprise IT Battle Plan, Part Two",
+  "description": "MacNewsWorld second installment on Apple's enterprise strategy. Peter Kastner of Aberdeen Group sees Apple 'turning up the heat' by targeting specialized verticals (wireless, online business) rather than head-on assaults on Fortune 500 IT shops. Kastner argues that large-enterprise IS staffs gravitate away from Apple because they are trained to wrangle complex multi-vendor stacks, making small and medium-sized businesses the more natural beachhead for Apple enterprise penetration.",
+  "creator": {
+    "@type": "Person",
+    "name": "Elizabeth Millard (reporter, MacNewsWorld); Peter Kastner (quoted source)"
+  },
+  "datePublished": "2004-05-24",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mac-os-x","Apple Mac OS X","platform","Apple Computer","2001-present","mature","active (macOS)","mac-os-vs--linux-who-s-2-the-mac-observe-34e63d",""
+"linux-desktop","Linux Desktop Distributions","platform","community","1995-present","emerging","small-share-mature","mac-os-vs--linux-who-s-2-the-mac-observe-34e63d",""
+"windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","legacy-deprecated","mac-os-vs--linux-who-s-2-the-mac-observe-34e63d","Dominant desktop OS context"

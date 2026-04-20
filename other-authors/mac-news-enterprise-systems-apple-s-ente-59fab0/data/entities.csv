@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analysis","dissolved","Harte-Hanks -> (brand defunct 2020s)","1970-2020s","mac-news-enterprise-systems-apple-s-ente-59fab0","Kastner at Aberdeen"
+"peter-kastner","Peter S. Kastner","person","industry-analysis","active","","1969-present","mac-news-enterprise-systems-apple-s-ente-59fab0","Quoted as Aberdeen analyst"
+"apple-computer","Apple Computer, Inc.","company","consumer-electronics","active","Apple Inc. (2007 rename)","1976-present","mac-news-enterprise-systems-apple-s-ente-59fab0","Subject company"
+"microsoft","Microsoft Corporation","company","enterprise-software","active","","1975-present","mac-news-enterprise-systems-apple-s-ente-59fab0","Enterprise incumbent"
+"ibm-corporation","IBM Corporation","company","enterprise-computing","active","","1911-present","mac-news-enterprise-systems-apple-s-ente-59fab0","Enterprise incumbent"

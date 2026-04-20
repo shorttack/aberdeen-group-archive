@@ -641,3 +641,12 @@ Rows 673-691 now resolved across Batches 23-25 (**19 of 36 rows**). Rows 692-708
 **Centrino launch corpus** — With Batch 27 adding seq 668 (Wi-Fi Planet Joyce, 4 rows), the corpus now spans three distinct viewpoints on the March 2003 Centrino launch: Kastner's own authored column (seq 121), third-party enthusiast-press coverage (new seq 668), and third-party general-press coverage (seq 654, reassigned from the seq-361 mis-blob in Batch 25).
 
 **Headline-review candidate on seq 181** — F9's blog-post repost attributes the MIT Technology Review article to the title 'Gadgets in the Superchip Age' (Feb 2004), while seq 181 records the same article under 'The Incredible Shrinking Gadget' (Jan 30, 2004). These are likely the same Freedman piece under print vs online title variants. Flagged for future headline-normalization pass; no edit made in this batch.
+
+---
+
+## Batch 28 skips (2026-04-20)
+
+### Files skipped (syndication duplicate)
+
+- **Mac-News-Enterprise-Systems-Apple-s-Enterprise-IT-Battle-Plan-Part-One.webarchive** (MacNewsWorld / story 33934 / 2004-05-21) — ECT News Network same-day cross-property republication of the canonical **LinuxInsider / story 33934 / 2004-05-21 'Apple's Enterprise IT Battle Plan, Part One'** processed in Batch 27 as study `linux-news-enterprise-systems-apple-s-en-a8fdd0`. Verified byte-for-byte identical body and identical Kastner quote contexts via `diff` of extracted texts. Per corpus convention (skill §9), same-company syndications are logged and processed only at first instance. SKIP as ECT-sibling syndication duplicate. MacNewsWorld Part Two (`mac-news-enterprise-systems-apple-s-ente-59fab0`, story 33937) is a distinct article and was ingested.
+

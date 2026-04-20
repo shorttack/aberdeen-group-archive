@@ -166,3 +166,53 @@ Row 1019 (added in Batch 16 as "Intel Abandons Web Hosting Service / 2002-06-19 
 **Batch 17 CSV delta:** +6 rows (1020-1025), 12 rows re-attributed/corrected (192-198, 352-354, 280, 1019), 5 new seqs assigned (600, 601, 602, 603, 604). 6 existing seqs used for merges (105, 137, 144, 184, and the new-seq clusters). CSV now **1025 rows, 13 cols**, max `article_seq=604`. All Batch 17-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
 
 **Mis-blob cumulative note:** Three corrupted `article_seq` blobs have now been discovered and cleaned up in the corpus: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17). All three followed the same pattern — a cluster of 7-28 rows mis-labeled to a single headline/byline/date while the actual quotes came from multiple distinct E-Commerce Times articles spanning 2002-2005. No further suspected mis-blobs identified; future batches should continue to watch for similar patterns.
+
+## Batch 18 (2026-04-19) — E-Commerce Times Special Reports (10 webarchives)
+
+All 10 Special Reports webarchives produced new or consolidated rows. None fully skipped.
+
+### Triage summary
+
+| File | Headline | Date | Byline | Outcome |
+|---|---|---|---|---|
+| F1 | New IE Flaw Piles on Pressure for Microsoft Patch | 2004-01-31 | Elizabeth Millard | NEW seq 605 (2 quotes) |
+| F2 | Dell as a Brand Name | 2002-11-11 | Bob Woods | DUP of existing seq 108 |
+| F3 | Does Dell's Build-to-Order Model Still Work? | 2002-07-30 | Lou Hirsh | DUP of existing seq 491 |
+| F4 | E-Commerce: Getting Ready for a Lean Mean 2002 | 2001-11-19 | Lou Hirsh | DUP of existing seq 99 |
+| F5 | How Future Computers Will Change E-Commerce | 2002-09-30 | Lou Hirsh | NEW seq 606 (1 quote — "turtleneck sweaters") |
+| F6 | Microsoft Passport: Like It or Not | 2002-06-25 | Teri Robinson | NEW seq 607 (2 quotes — "bated breath", "14 times") |
+| F7 | The Fine Print of IT Rebates | 2003-06-13 | Elizabeth Millard | APPEND to existing seq 145 (+1 quote — "car dealers / sticker price") |
+| F8 | The Future Microchip Marketplace | 2002-10-03 | Teri Robinson | DUP of existing seq 106 (plus mis-blob cleanup below) |
+| F9 | What To Expect When You're Expanding - Again | 2003-04-09 | Keith Regan | NEW seq 608 (1 quote — "stars align" — plus row 207 re-attribution) |
+| F10 | Whatever Happened to Interactive TV? | 2002-06-25 | Lou Hirsh | NEW seq 609 (3 rows re-attributed from seqs 106 and 109) |
+
+### 4th mis-blob discovered: seq 106 contamination
+
+Seq 106 (The Future Microchip Marketplace / 2002-10-03 / Teri Robinson) had two rows whose quotes did NOT come from the Microchip article:
+
+- **Row 207** ("impulse among vendors will be to grab business as a hedge") — actually from F9, "What To Expect When You're Expanding - Again" (2003-04-09, Keith Regan). Re-attributed to new **seq 608**.
+- **Row 208** (paraphrase: "consumers' time and dollars have become invested in technologies like high-speed broadband Internet, which makes TV unnecessary for services like interactive shopping") — actually from F10, "Whatever Happened to Interactive TV?" (2002-06-25, Lou Hirsh). Re-attributed to new **seq 609**.
+
+Rows 202-206, 209, 210 remain correctly stamped to seq 106 (Microchip Marketplace).
+
+### Row 214 repurposed (non-Kastner quote replaced)
+
+Row 214 (seq 109 / Will Microsoft Play Nice Now? / 2002-11-20) contained a Brancheau quote ("If the cable companies can get these digital boxes into homes") — not a Kastner quote. This was a legacy attribution error pre-dating Batch 18. Row repurposed to carry the correct Kastner ITV paraphrase from F10 ("The Aberdeen Group's Kastner added that ITV capabilities will have to be included with future television sets..."), and re-stamped to seq 609 (F10, 2002-06-25).
+
+### Row 215 re-attribution
+
+Row 215 (quote: "Right now, people are not going to [alter] their TVs") — previously stamped to seq 109 — is actually the direct Kastner quote from F10 ("Whatever Happened to Interactive TV?"). Re-attributed to seq 609.
+
+### DEFERRED: larger seq 109 mis-blob (out of Batch 18 scope)
+
+While investigating rows 214-215, rows 216-240 in seq 109 were observed to span unrelated articles covering 64-bit/Itanium, IBM supercomputers, Linux retail POS, eMachines/Gateway, HP/Compaq merger earnings, Dell earnings, Fed rate cuts, broadband rollout, Windows NT vs Linux licensing, HP printer cartridges, etc. — none of which match "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill." This is a **5th mis-blob** requiring a future dedicated cleanup pass. Deferred — not in Batch 18 scope. **Flagged for follow-up Batch 19+.**
+
+### Batch 18 CSV delta
+
+- **+7 new rows** (row_id 1026-1032): F1 (2), F5 (1), F6 (2), F7 (1, appended to seq 145), F9 (1)
+- **4 rows re-attributed** (rows 207, 208, 214, 215 → seqs 608 and 609; row 214 also content-replaced)
+- **5 new seqs assigned**: 605 (F1), 606 (F5), 607 (F6), 608 (F9), 609 (F10)
+- CSV now **1032 rows, 13 cols**, max `article_seq=609`.
+- All Batch 18-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+**Mis-blob tally (updated):** Four confirmed `article_seq` mis-blobs cleaned across Batches 14-18: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17), seq 106 partial (Batch 18). **One larger mis-blob remains** in seq 109 (rows 216-240) deferred to a future batch.

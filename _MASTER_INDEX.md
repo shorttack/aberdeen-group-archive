@@ -141,6 +141,23 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 18 Quotations Update (E-Commerce Times Special Reports 2001-2004)
+
+**Scope:** 10 E-Commerce Times Special Reports webarchives covering Kastner commentary on IE security, Dell branding and build-to-order, lean 2002 e-commerce, future computers, Microsoft Passport, IT rebates, the future microchip marketplace, enterprise expansion, and interactive TV — by Elizabeth Millard, Bob Woods, Lou Hirsh, Teri Robinson, and Keith Regan.
+
+- **Fourth mis-blob cleanup (seq 106 partial)** — rows 207 and 208 (`article_seq=106` / The Future Microchip Marketplace / 2002-10-03 / Teri Robinson) had quotes whose true origins were different articles. Row 207 ("impulse among vendors will be to grab business as a hedge") re-attributed to **seq 608**, What To Expect When You're Expanding - Again / Keith Regan / 2003-04-09 (File 9). Row 208 (broadband-makes-TV-unnecessary paraphrase) re-attributed to **seq 609**, Whatever Happened to Interactive TV? / Lou Hirsh / 2002-06-25 (File 10). Rows 202-206, 209, 210 remain correctly stamped to seq 106.
+- **Row 214 content repair** — row 214 (previously seq 109 / Will Microsoft Play Nice Now?) carried a Brancheau quote that had been mis-attributed to Kastner since original ingest. Replaced with the correct Kastner ITV paraphrase from F10 ("The Aberdeen Group's Kastner added that ITV capabilities will have to be included with future television sets...") and re-stamped to seq 609.
+- **Row 215 re-attribution** — row 215 (the "Right now, people are not going to [alter] their TVs" direct Kastner quote) re-attributed from seq 109 to seq 609 (F10, Whatever Happened to Interactive TV?).
+- **Deferred: larger seq 109 mis-blob** — rows 216-240 in seq 109 span unrelated articles (64-bit/Itanium, IBM supercomputer list, Linux retail POS, eMachines/Gateway, HP/Compaq merger earnings, Dell earnings, Fed rate cuts, broadband rollout, HP printer cartridges). This is a 5th mis-blob, requiring a dedicated future cleanup pass. Out of Batch 18 scope; flagged for Batch 19+ follow-up.
+- **7 new rows added** (rows 1026-1032) across 4 new seqs (605, 606, 607, 608) plus 1 existing seq (145, appended):
+  - seq 605 — New IE Flaw Piles on Pressure for Microsoft Patch / Elizabeth Millard / 2004-01-31 (File 1): "functionality creeping through micro patch process" and "impossible to have it be perfect" quotes.
+  - seq 606 — How Future Computers Will Change E-Commerce / Lou Hirsh / 2002-09-30 (File 5): "turtleneck sweaters" personalization quote.
+  - seq 607 — Microsoft Passport: Like It or Not / Teri Robinson / 2002-06-25 (File 6): "bated breath" and "14 times" quotes on federated-identity demand.
+  - seq 145 (append) — The Fine Print of IT Rebates / Elizabeth Millard / 2003-06-13 (File 7): "car dealers / sticker price" rebate-as-price-discrimination quote.
+  - seq 608 — What To Expect When You're Expanding - Again / Keith Regan / 2003-04-09 (File 9): "stars align / pent-up demand" IT-spend recovery quote.
+- CSV now **1032 rows, 13 cols**; max `article_seq=609`. All Batch 18-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally:** Four `article_seq` mis-blobs cleaned across Batches 14-18: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17), seq 106 partial (Batch 18). One larger mis-blob (seq 109, rows 216-240) remains and is deferred to a future batch.
+
 ### April 19, 2026 — Batch 17 Quotations Update (E-Commerce Times Intel/MS/Dell 2002-2004)
 
 **Scope:** 10 E-Commerce Times webarchives (Files 1-10) spanning Intel, Microsoft, Dell, and broadband regulation coverage 2002-2004 by Teri Robinson, Staff Writer, Helen Gallagher, Jennifer LeClaire, Elizabeth Millard, and Tiernan Ray.

@@ -289,3 +289,54 @@ These 19 rows remain stamped to seq 109 but the content was aggregated from at l
 - **F9** — BNET aggregator copy of F10 (same article, same author, same Kastner quotes).
 
 **Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now partially cleaned** (6 of 25 rows resolved in Batch 19; 19 rows remain deferred). No new mis-blobs discovered in Batch 19.
+
+---
+
+## Batch 20 (2026-04-19) — Mixed webarchives, seq 109 partial mis-blob resolution continued (10 files)
+
+Batch 20 comprises 10 additional webarchives processed in the same session as Batches 18 and 19. Major outcome: 5 more seq-109 mis-blob rows (222-226) were re-attributed to their true source articles. Plus 4 new rows across 3 distinct new articles (InformationWeek 1995, Inc. blog 2003, Gateway PR Newswire 2004).
+
+**Batch contents:**
+
+| # | File | Title | Date | Byline | Publication | Kastner? |
+|---|---|---|---|---|---|---|
+| F1 | Finding-The-Key-To-Software-Security-1995 | Finding The Key To Software Security | 1995-10-02 | Edward Cone | InformationWeek | Yes — 1 quote |
+| F2 | Flat-screen-TV-unleashed | Flat-screen TV Unleashed | 2004-04-12 | David LaGesse | U.S. News & World Report | Yes — matches row 222 |
+| F3 | Fortune-Wi-Fi-Where-You-Want-It | Wi-Fi Where You Want It | 2004-02-23 | Christine Y. Chen | Fortune | Yes — matches row 223 |
+| F4 | Fresh-Ideas-for-POS | Fresh Ideas for POS | 2004-03-01 | (editorial) | Hospitality Technology | Yes — matches row 224 |
+| F5 | Fresh-Ideas-for-POS-In-This-Issue | Fresh Ideas for POS (In This Issue) | 2004-03-01 | (editorial) | Hospitality Technology | Dup of F4 — skipped |
+| F6 | Fresh-Inc.-The-Staff-Blog | The Great Urban Wi-Fi Crash of '04? | 2003-10-23 | Clint Greenleaf | Inc. (Fresh Inc. staff blog) | Yes — 2 quotes |
+| F7 | Gateway-buys-rival-for-235m | Gateway buys rival for $235m | 2004-01-30 | Scott Morrison | Financial Times (FT.com) | Yes — matches row 225 |
+| F8 | Gateway-Debuts-Industry-s-Only-Wireless-Connected-DVD | Gateway Debuts Industry's Only Wireless Connected DVD With Media Center Support | 2004-03-11 | (Gateway via PR Newswire) | PR Newswire | Yes — 1 endorsement quote |
+| F9 | GATEWAY-DEBUTS-WIRELESS-CONNECTED-DVD | (Worldwide Videotex aggregator of F8) | 2004-03-11 | (Gale Group) | Worldwide Videotex | Dup of F8 — skipped |
+| F10 | Gateway-gains-15-on-235-million-eMachines-deal | Gateway gains 15% on $235 million eMachines deal | 2004-01-30 | Rex Crum | CBS MarketWatch | Yes — matches row 226 |
+
+### PRIMARY: seq 109 partial mis-blob cleanup continued (rows 222-226)
+
+Batch 19 resolved seq-109 rows 216-221. Batch 20 resolves 5 more — rows 222-226 — via direct file matches:
+
+- **Row 222** "Cables and bulky tubes have meant we couldn't just pick up and move a TV" → F2 Flat-screen TV Unleashed (David LaGesse / 2004-04-12 / U.S. News & World Report). **New seq 615.**
+- **Row 223** "the odds that WiMax gets off the ground are much, much higher than a few months ago" → F3 Wi-Fi Where You Want It (Christine Y. Chen / 2004-02-23 / Fortune). **New seq 616.**
+- **Row 224** "Linux continues to make steady progress, growing from 6 to 9 percent of the retail point-of-sale market" → F4 Fresh Ideas for POS (Hospitality Technology editorial / 2004-03-01). **New seq 617.**
+- **Row 225** "Getting all that eMachines shelf space with the two brands will give a big boost" → F7 Gateway buys rival for $235m (Scott Morrison / 2004-01-30 / Financial Times). **New seq 618.**
+- **Row 226** "They've been boxed in by Dell in online sales and by H-P in the big-box retail market" → F10 Gateway gains 15% on $235M eMachines deal (Rex Crum / 2004-01-30 / CBS MarketWatch). **New seq 619.**
+
+### DEFERRED (still): seq 109 rows 227-240 (14 rows)
+
+Rows 227-240 cover Gateway continuation quotes, HP/Compaq earnings, Dell earnings, post-9/11 Fed rate cut / 9/11-recovery piece, broadband policy, HP pricing, HP-EDS outsourcing, HP printer cartridges. None of the Batch 20 files cover this subject matter. These 14 rows remain deferred pending future source-webarchive arrivals.
+
+### Batch 20 CSV delta
+
+- **+4 new rows** (row_id 1038-1041): seq 620 (F1 / 1995 InformationWeek), seq 621 (F6 / 2003 Inc. blog × 2 quotes), seq 622 (F8 / 2004 Gateway PR Newswire).
+- **5 rows re-attributed** (rows 222-226 → seqs 615, 616, 617, 618, 619). All quote content intact; metadata rewritten.
+- **5 new seqs assigned**: 615 (F2), 616 (F3), 617 (F4), 618 (F7), 619 (F10).
+- **3 new article seqs for net-new content**: 620 (F1 InformationWeek 1995), 621 (F6 Inc. blog 2003), 622 (F8 Gateway PR Newswire 2004).
+- CSV now **1041 rows, 13 cols**, max `article_seq=622`.
+- All Batch 20-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Files skipped in Batch 20
+
+- **F5** — duplicate of F4 (same Hospitality Technology "Fresh Ideas for POS" article with archive "In This Issue" header).
+- **F9** — duplicate of F8 (Worldwide Videotex / Gale Group aggregator copy of the Gateway PR Newswire wireless DVD release).
+
+**Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now further cleaned** (6 rows resolved in Batch 19 + 5 more in Batch 20 = **11 of 25 rows resolved**; **14 rows remain deferred** — rows 227-240). No new mis-blobs discovered in Batch 20.

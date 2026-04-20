@@ -141,6 +141,25 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 20 Quotations Update (Mixed webarchives, seq 109 mis-blob resolution continued)
+
+**Scope:** 10 webarchives spanning 1995-2004 mainstream and trade press. Primary impact: five more seq-109 mis-blob rows (222-226) resolved to their true source articles. Plus three genuinely new articles: a 1995 InformationWeek software-security piece, a 2003 Inc. staff blog on urban Wi-Fi congestion, and a 2004 Gateway Wireless DVD PR Newswire release.
+
+- **Seq 109 cleanup continued (5 more rows)** — Batch 20 resolves rows 222-226, previously mis-stamped to "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill":
+  - Row 222 "Cables and bulky tubes / move a TV" → **seq 615**, Flat-screen TV Unleashed / David LaGesse / 2004-04-12 / U.S. News & World Report (F2).
+  - Row 223 "odds that WiMax gets off the ground" → **seq 616**, Wi-Fi Where You Want It / Christine Y. Chen / 2004-02-23 / Fortune (F3).
+  - Row 224 "Linux 6 to 9 percent POS market" → **seq 617**, Fresh Ideas for POS / Hospitality Technology / 2004-03-01 (F4).
+  - Row 225 "eMachines shelf space big boost" → **seq 618**, Gateway buys rival for $235m / Scott Morrison / 2004-01-30 / Financial Times (F7).
+  - Row 226 "boxed in by Dell / H-P big-box" → **seq 619**, Gateway gains 15% on $235M eMachines deal / Rex Crum / 2004-01-30 / CBS MarketWatch (F10).
+- **Remaining seq 109 mis-blob (deferred): rows 227-240** — 14 rows still cover Gateway continuation quotes, HP/Compaq earnings, Dell earnings, post-9/11 Fed rate cut / recovery piece, broadband policy, HP pricing, HP-EDS outsourcing, HP printer cartridges. No Batch 20 files cover these subjects.
+- **+4 net-new rows** (row_id 1038-1041):
+  - **seq 620** (F1 Finding The Key To Software Security / Edward Cone / 1995-10-02 / InformationWeek) — "[The key] is a pain in the neck, and everybody hates it" (highly prescient re: dongle-based software protection failing on UX grounds, ultimately displaced by online activation and SaaS).
+  - **seq 621** (F6 Fresh Inc. staff blog / Clint Greenleaf / 2003-10-23 / Inc.) — two quotes: the "mobility benefits vs. inherent limitations" diagnosis and the "real solution is political" spectrum-policy call. Both highly prescient — validated by the 2014-2020 FCC U-NII and 6 GHz spectrum unlocks that enabled Wi-Fi 5/6/6E.
+  - **seq 622** (F8 Gateway Debuts Wireless Connected DVD / PR Newswire / 2004-03-11) — rare first-person Kastner endorsement quote embedded in a vendor press release.
+- **Files skipped in Batch 20**: F5 (In This Issue archive dup of F4), F9 (Worldwide Videotex / Gale Group aggregator dup of F8).
+- CSV now **1041 rows, 13 cols**; max `article_seq=622`. All Batch 20-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Four prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now further cleaned** — **11 of 25 rows resolved** (6 in Batch 19 + 5 in Batch 20); **14 rows still deferred** (rows 227-240). No new mis-blobs discovered in Batch 20.
+
 ### April 19, 2026 — Batch 19 Quotations Update (Mixed webarchives, seq 109 partial mis-blob resolution)
 
 **Scope:** 10 webarchives mixing E-Commerce Times Special Reports (F1-F3), Telephony Online (F4), ECT News (F5), CDW Editorial (F6-F7), ExtremeTech (F8), Automotive Design & Production / BNET (F9-F10). Primary impact: the seq-109 mis-blob deferred from Batch 18 is partially resolved.

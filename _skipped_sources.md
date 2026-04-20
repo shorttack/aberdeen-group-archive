@@ -408,3 +408,57 @@ Rows 237-240 remain stamped to seq 109 pending source-webarchive recovery:
 - **F9** (Here-There-WiFi-Anywhere) — Kastner quotes already captured in seq 193 rows 365-366; used only to correct the seq 193 headline (see above).
 
 **Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now near-complete** — **21 of 25 rows resolved** across Batches 19-21 (6 + 5 + 10); **only 4 rows remain deferred** (rows 237-240). No new mis-blobs discovered in Batch 21.
+
+---
+
+## Batch 22 (2026-04-19) — Mixed webarchives, seq 109 mis-blob FULLY RESOLVED (10 files)
+
+Batch 22 **closes out the seq-109 mis-blob** — the final 4 deferred rows (237, 238, 239, 240) are re-attributed to their true source articles. All 25 originally mis-stamped rows are now resolved across Batches 18-22. Plus 3 new rows across 3 distinct new articles (PR Newswire/Dow Jones SARS wrap-up, Computerworld depreciation, Forbes.com/Pinnacor HP guidance).
+
+**Batch contents:**
+
+| # | File | Title | Date | Byline | Publication | Kastner? |
+|---|---|---|---|---|---|---|
+| F1 | High-Tech-Monday-Update-Monday-April-7-2003 | High Tech Monday Update | 2003-04-07 | Dow Jones Newswires (via PR Newswire) | PR Newswire | Yes — 1 new SARS quote |
+| F2 | High-tech-groups-hoping-for-IT-depreciation-incentive-2 | High-tech groups hoping for IT depreciation incentive | 2003-01-06 | Patrick Thibodeau | Computerworld | Yes — 1 new "two-year window" quote |
+| F3 | Holds-its-own-against-Skulltrail-a-True-Complement-3 | (CNET user review, Intel Core i7-965) | 2008-11-04 | Catalina588 (user review) | CNET Reviews | No — 0 Kastner — SKIPPED |
+| F4 | HON-Industries-Furnished-With-Linux-page-3-4 | HON Industries Furnished With Linux (page 3) | 2002-11-01 | Larry Barrett | eWeek | Yes — matches row 237 |
+| F5 | How-to-handle-multimedia-Federal-Computer-Week-1996-5 | How to handle multimedia? | 1996-07-28 | Jerry Lazar | Federal Computer Week | No — 0 Kastner — SKIPPED |
+| F6 | HP-cuts-prices-on-some-Intel-based-servers-11-to-31-6 | HP cuts prices on some Intel-based servers 11% to 31% | 2002-02-13 | Todd R. Weiss | Computerworld | Yes — matches row 238 |
+| F7 | HP-Expects-20-EPS-Jump-Next-Year-Forbes.com-7 | HP Expects 20% EPS Jump Next Year | 2003-12-10 | Pinnacor staff | Forbes.com (Pinnacor syndication) | Yes — 1 new row (same quote as row 335/seq 173 USA Today) |
+| F8 | HP-Reinvented-Hewlett-Packard-InformationWeek-8 | HP Reinvented | 2002-05-13 | Beth Bacheldor & Martin J. Garvey | InformationWeek | Yes — matches row 239 |
+| F9 | HP-Selects-NCRs-Hurd-as-New-CEO-9 | HP Selects NCR's Hurd as New CEO | 2005-03-29 | Jeffrey Burt | eWeek | No — 0 Kastner on captured page — SKIPPED |
+| F10 | HP-Shares-Sink-On-Revenue-Shortfall-Cautious-Outlook-IT-Channel-IT-Channel-News-by-CRN-10 | HP Shares Sink On Revenue Shortfall, Cautious Outlook | 2003-02-26 | Matthew Fordahl | CRN | Yes — matches row 240 (two-clause quote) |
+
+### PRIMARY: seq 109 final mis-blob cleanup (rows 237-240)
+
+Batches 19, 20, and 21 resolved seq-109 rows 216-236 (21 rows). Batch 22 resolves the **final 4 remaining rows**, closing out the 25-row mis-blob:
+
+- **Row 237** "cut-and-dried applications, businesses are finding Linux is comparatively inexpensive" → F4 HON Industries Furnished With Linux (Larry Barrett / 2002-11-01 / eWeek). **New seq 630.**
+- **Row 238** "11% price drop is believable" → F6 HP cuts prices on some Intel-based servers 11% to 31% (Todd R. Weiss / 2002-02-13 / Computerworld). **New seq 631.** Date corrected: row was stamped 2002-11-20 under seq 109; true article date is 2002-02-13.
+- **Row 239** "careful of competing too closely with partners such as EDS" → F8 HP Reinvented (Beth Bacheldor & Martin J. Garvey / 2002-05-13 / InformationWeek). **New seq 632.** This is a print-magazine feature (content_type `magazine-article`).
+- **Row 240** "third-party toner cartridges / Dell will be entering the printer business" → F10 HP Shares Sink On Revenue Shortfall (Matthew Fordahl / 2003-02-26 / CRN). **New seq 633.** Both clauses of the row-240 quote (toner competition + Dell printer entry) appear together in the F10 article.
+
+### seq 109 MIS-BLOB FULLY RESOLVED
+
+All 25 originally mis-attributed rows (216-240) have now been re-assigned to their true source articles across Batches 19-22 (6 + 5 + 10 + 4 = 25). Seq 109 retains one genuinely correct row (1033 "strong case / political visibility" antitrust quote from F2 of Batch 19, which is actually "Will Microsoft Play Nice Now?" / Lisa Gill / E-Commerce Times / 2002-11-20). The seq-109 cleanup arc that began in Batch 18 is now complete.
+
+### Batch 22 CSV delta
+
+- **+3 new rows** (row_id 1045-1047): seq 634 (F1 PR Newswire/Dow Jones SARS, 2003-04-07), seq 635 (F2 Computerworld depreciation, 2003-01-06), seq 636 (F7 Forbes.com/Pinnacor HP guidance, 2003-12-10).
+- **4 rows re-attributed** (rows 237-240 → seqs 630, 631, 632, 633). All quote content intact; metadata and dates rewritten. Row 238 date corrected (2002-11-20 → 2002-02-13).
+- **7 new seqs assigned**: 630 (F4), 631 (F6), 632 (F8), 633 (F10), 634 (F1), 635 (F2), 636 (F7).
+- CSV now **1047 rows, 13 cols**, max `article_seq=636`.
+- All Batch 22-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Files skipped in Batch 22
+
+- **F3** (Holds-its-own-against-Skulltrail, CNET Reviews) — 2008 user review by screen-name "Catalina588" of Intel Core i7-965 Extreme Edition. 0 Kastner mentions. Not a quotable press article.
+- **F5** (How to handle multimedia, Federal Computer Week) — 1996-07-28 Jerry Lazar piece on RDBMS/multimedia data types. 0 Kastner mentions. Quotes John Campbell (TSE Associates) as the primary analyst source.
+- **F9** (HP Selects NCR's Hurd as New CEO, eWeek) — 2005-03-29 Jeffrey Burt piece on Mark Hurd's appointment as HP CEO replacing Carly Fiorina. Captured page 1 only; 0 Kastner mentions on captured content.
+
+### Publication-source nuance on seq 636 (F7)
+
+The F7 Forbes.com "HP Expects 20% EPS Jump Next Year" article is a Pinnacor-syndicated wire feed. The same Kastner quote ("combine two low-profit segments and have them drive each other's sales") also appears at row 335 / seq 173 in USA Today coverage of the same HP 2003 analyst-day event (Jon Swartz / 2003-12-10). Following the prior-batch precedent for Pinnacor-syndicated coverage appearing in multiple venues (e.g. Batch 14 seq-196 cleanup which initially mis-attributed Pinnacor wire content to Forbes, later corrected in Batch 15 to MarketWatch), Forbes.com is recorded as a distinct seq rather than merged into seq 173.
+
+**Mis-blob tally (final):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 mis-blob FULLY RESOLVED** (25 of 25 rows resolved across Batches 19-22: 6 + 5 + 10 + 4). No new mis-blobs discovered in Batch 22. The corpus-wide mis-blob debt identified across Batches 14-18 is now fully cleared.

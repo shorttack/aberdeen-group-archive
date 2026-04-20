@@ -141,6 +141,24 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 22 Quotations Update (Mixed webarchives, seq 109 mis-blob FULLY RESOLVED)
+
+**Scope:** 10 webarchives — High Tech Monday / High-tech depreciation / CNET / HON-Linux / FCW multimedia / HP price-cut / HP Forbes / HP Reinvented / HP Hurd / HP Revenue Shortfall — spanning 1996-2008. **Milestone: the seq-109 mis-blob (first identified in Batch 18) is now FULLY RESOLVED.** The final 4 deferred rows (237, 238, 239, 240) are re-attributed to their true source articles — all 25 originally mis-stamped rows have been reassigned across Batches 19-22 (6 + 5 + 10 + 4 = 25). Plus 3 genuinely new articles.
+
+- **Seq 109 FINAL cleanup (4 rows)** — Batch 22 resolves rows 237-240, previously mis-stamped to "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill":
+  - Row 237 "cut-and-dried applications / Linux comparatively inexpensive" → **seq 630**, HON Industries Furnished With Linux / Larry Barrett / 2002-11-01 / eWeek (F4).
+  - Row 238 "11% price drop is believable" → **seq 631**, HP cuts prices on some Intel-based servers 11% to 31% / Todd R. Weiss / 2002-02-13 / Computerworld (F6). Date corrected (2002-11-20 → 2002-02-13).
+  - Row 239 "careful of competing too closely with partners such as EDS" → **seq 632**, HP Reinvented / Beth Bacheldor & Martin J. Garvey / 2002-05-13 / InformationWeek (F8). Magazine feature (`magazine-article`).
+  - Row 240 "third-party toner cartridges / Dell entering printer business" → **seq 633**, HP Shares Sink On Revenue Shortfall / Matthew Fordahl / 2003-02-26 / CRN (F10). Both clauses appear together in the F10 article (Dell-branded printers launched 3 weeks later, March 21, 2003 — Kastner’s "widely rumored" call validated within the quarter).
+- **Seq 109 mis-blob FULLY RESOLVED** — all 25 originally mis-attributed rows (216-240) reassigned across Batches 19-22. Seq 109 now holds only its legitimate content (row 1033 from the true "Will Microsoft Play Nice Now?" article, added in Batch 19). The 5-batch cleanup arc that began in Batch 18 is now complete.
+- **+3 net-new rows** (row_id 1045-1047):
+  - **seq 634** (F1 High Tech Monday Update / PR Newswire / Dow Jones Newswires source / 2003-04-07) — "schedule slippages / major supply chain disruptions" SARS impact analysis (new syndication outlet for the Apr 2003 SARS coverage cluster at seqs 122-141; PR Newswire/Dow Jones attribution distinct from prior captures).
+  - **seq 635** (F2 High-tech groups hoping for IT depreciation incentive / Patrick Thibodeau / 2003-01-06 / Computerworld) — "two-year window / delay purchases" depreciation-bonus paradox quote (distinct from the Jan 13, 2003 Thibodeau Computerworld piece at seq 117).
+  - **seq 636** (F7 HP Expects 20% EPS Jump Next Year / Pinnacor staff / 2003-12-10 / Forbes.com) — "combine two low-profit segments / drive each other's sales" analyst-day reaction (same Kastner quote as row 335/seq 173 USA Today coverage of same HP analyst-day; Forbes.com recorded as distinct Pinnacor syndication outlet per prior-batch precedent).
+- **Files skipped in Batch 22**: F3 (CNET user review of Intel i7-965, 2008 — 0 Kastner), F5 (FCW 1996 multimedia/RDBMS piece — 0 Kastner), F9 (eWeek HP-Hurd appointment 2005-03-29 — 0 Kastner on captured page).
+- CSV now **1047 rows, 13 cols**; max `article_seq=636`. All Batch 22-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (final):** Four prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 mis-blob FULLY RESOLVED** — 25 of 25 rows resolved across Batches 19-22. No new mis-blobs discovered in Batch 22. The corpus-wide mis-blob debt identified across Batches 14-18 is now fully cleared.
+
 ### April 19, 2026 — Batch 21 Quotations Update (Mixed webarchives, seq 109 MAJOR mis-blob resolution)
 
 **Scope:** 10 webarchives (Gateway / H-P / Dell / CRN Fed rate / Wi-Fi) spanning 2001-2004 mainstream and trade press. **Largest single seq-109 cleanup to date**: 10 of the 14 remaining mis-attributed rows (227-236) resolved to their true source articles. Plus 3 new rows across 3 distinct articles, and a headline correction on an existing seq.

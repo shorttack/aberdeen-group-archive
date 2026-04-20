@@ -340,3 +340,71 @@ Rows 227-240 cover Gateway continuation quotes, HP/Compaq earnings, Dell earning
 - **F9** — duplicate of F8 (Worldwide Videotex / Gale Group aggregator copy of the Gateway PR Newswire wireless DVD release).
 
 **Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now further cleaned** (6 rows resolved in Batch 19 + 5 more in Batch 20 = **11 of 25 rows resolved**; **14 rows remain deferred** — rows 227-240). No new mis-blobs discovered in Batch 20.
+
+---
+
+## Batch 21 (2026-04-19) — Mixed webarchives, seq 109 MAJOR mis-blob resolution (10 files)
+
+Batch 21 is the **largest single seq-109 cleanup pass** to date: 10 of the 14 remaining mis-attributed rows (227-236) resolved to their true source articles — Gateway, H-P, Dell, and CRN post-9/11 Fed rate coverage. Plus 3 new rows across 3 distinct articles (H-P printer strategy ×2, Dell Q2 2003 earnings), and a headline correction on an existing seq (193).
+
+**Batch contents:**
+
+| # | File | Title | Date | Byline | Publication | Kastner? |
+|---|---|---|---|---|---|---|
+| F1 | Gateway-gets-in-the-digital-camera-picture-MarketWatch | Gateway gets in the digital camera picture | 2003-08-28 | Rex Crum | CBS MarketWatch | Yes — matches row 227 |
+| F2 | Gateway-refines-target-with-new-PCs-MarketWatch-2 | Gateway refines target with new PCs | 2004-06-28 | Rex Crum | CBS MarketWatch | Yes — matches row 228 |
+| F3 | Gateway-stocks-up-for-growth-MarketWatch-3 | Gateway stocks up for growth | (2004) | Rex Crum | CBS MarketWatch | No — 0 Kastner mentions — SKIPPED |
+| F4 | Gateways-Ends-the-WLAN-Flim-Flam-...-FreshNews.com-4 | Gateway Ends the WLAN Flim-Flam | 2004-04-06 | Gateway press release | FreshNews.com | Yes — matches row 229 |
+| F5 | Google-rival-in-the-picture-smh.com-5 | Google rival in the picture | (2004) | (SMH staff) | Sydney Morning Herald | DUP of seq 446 row 411 (reprints ECT original) — SKIPPED |
+| F6 | H-P-plunges-on-Q1-revenue-miss-MarketWatch-6 | H-P plunges on Q1 revenue miss | 2003-02-26 | Rex Crum | CBS MarketWatch | Yes — matches row 230 + 1 new quote |
+| F7 | H-P-profit-rises-49-percent-on-cost-cuts-MarketWatch-7 | H-P profit rises 49% on cost cuts | 2003-02-25 | Rex Crum | CBS MarketWatch | Yes — matches row 231 + 1 new quote |
+| F8 | Hardware-stocks-eke-out-gain-after-Dell-report-MarketWatch-8 | Hardware stocks eke out gain after Dell report | 2003-08-15 | Rex Crum | CBS MarketWatch | Yes — matches row 232 + 1 new quote |
+| F9 | Here-There-WiFi-Anywhere-TechNews.com-9 | Here, There, WiFi Anywhere | 2004-04-25 | Mike Musgrove | Washington Post (TechNews.com) | Yes — but quotes already captured in seq 193; used only to correct headline |
+| F10 | Hi-Tech-Execs-Fed-Rate-Cut-Was-a-Necessary-Move-IT-Channel-IT-Channel-News-by-CRN-10 | Hi-Tech Execs: Fed Rate Cut Was a Necessary Move | 2001-09-17 | (CRN staff) | CRN / IT Channel News | Yes — matches rows 233-236 (4 rows from one article) |
+
+### PRIMARY: seq 109 major mis-blob cleanup (rows 227-236)
+
+Batches 19 and 20 resolved seq-109 rows 216-226 (11 rows). Batch 21 resolves **10 more rows in a single pass** — the largest seq-109 cleanup to date:
+
+- **Row 227** "re-create the PC miracle of the 1990s" → F1 Gateway gets in the digital camera picture (Rex Crum / 2003-08-28 / CBS MarketWatch). **New seq 623.**
+- **Row 228** "eMachines built a foundation at the big-box retailers" → F2 Gateway refines target with new PCs (Rex Crum / 2004-06-28 / CBS MarketWatch). **New seq 624.**
+- **Row 229** "Gateway is taking a disruptive approach with these two new wireless APs" → F4 Gateway Ends the WLAN Flim-Flam (Gateway press release / 2004-04-06 / FreshNews.com). **New seq 625.**
+- **Row 230** "long way to go" (singular) HP post-Compaq integration → F6 H-P plunges on Q1 revenue miss (Rex Crum / 2003-02-26 / CBS MarketWatch). **New seq 626.**
+- **Row 231** "long ways to go" (plural) HP cost-cutting earnings → F7 H-P profit rises 49% on cost cuts (Rex Crum / 2003-02-25 / CBS MarketWatch). **New seq 627.** Note: F6 and F7 are syndicated reports of the same HP Q1 2003 earnings story one day apart; the plural vs. singular "long way(s) to go" phrasing distinguishes them.
+- **Row 232** "Profits continue to outpace revenue growth... Dell is leading the industry" → F8 Hardware stocks eke out gain after Dell report (Rex Crum / 2003-08-15 / CBS MarketWatch). **New seq 628.**
+- **Row 233** "Fed's aggressive rate cutting / broken piggy bank of the social security surplus" → F10 Hi-Tech Execs: Fed Rate Cut Was a Necessary Move (CRN / 2001-09-17). **New seq 629.**
+- **Row 234** "It will take the world markets some days to adjust to last Tuesday's tragedies" → F10 same article. **Seq 629.** Content **repaired** — row 234 was previously truncated; expanded to the full quote per F10.
+- **Row 235** "Maybe, says Kastner" (answer-qualifier in same article) → F10 same. **Seq 629.**
+- **Row 236** "Without broadband available to a wide segment of the economy" → F10 same. **Seq 629.**
+
+Rows 233-236 all resolve to a single source article (F10 CRN Fed rate piece), which is consistent with the original mis-blob pattern.
+
+### Headline correction: seq 193 rows 365-366
+
+F9 archive confirms the true headline for the Washington Post Mike Musgrove Wi-Fi piece (2004-04-25) is "Here, There, WiFi Anywhere," not "Working Without Wires" as previously recorded in seq 193 rows 365-366. Headline corrected; all other metadata unchanged. F9 used only for this headline confirmation — Kastner quotes from the article were already captured on initial ingest.
+
+### DEFERRED (still): seq 109 rows 237-240 (4 rows)
+
+Rows 237-240 remain stamped to seq 109 pending source-webarchive recovery:
+
+- **Row 237** "For cut-and-dried applications, businesses are finding Linux is comparatively inexpensive" — Linux/NT competition article.
+- **Row 238** "11% price drop is believable" — HP pricing article.
+- **Row 239** "The division should take on more outsourcing and systems integration work, but at the same time, it needs to be careful of competing too closely with partners such as EDS" — HP services/outsourcing article.
+- **Row 240** "They are seeing more competition from third-party toner cartridges" + Dell-entering-printer-business CRN-style verbatim article — distinct from F6/F7 (different source).
+
+### Batch 21 CSV delta
+
+- **+3 new rows** (row_id 1042-1044): seq 626 (F6 "third-party toner / golden egg"), seq 627 (F7 same golden egg quote in syndicated article), seq 628 (F8 "This is a very good quarter, again, for Dell").
+- **10 rows re-attributed** (rows 227-236 → seqs 623, 624, 625, 626, 627, 628, 629 ×4). Row 234 content **repaired** (was truncated).
+- **2 rows headline-corrected** (rows 365, 366 / seq 193): "Working Without Wires" → "Here, There, WiFi Anywhere".
+- **7 new seqs assigned**: 623 (F1), 624 (F2), 625 (F4), 626 (F6), 627 (F7), 628 (F8), 629 (F10).
+- CSV now **1044 rows, 13 cols**, max `article_seq=629`.
+- All Batch 21-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Files skipped in Batch 21
+
+- **F3** (Gateway-stocks-up-for-growth) — 0 Kastner mentions; straight market-reaction piece.
+- **F5** (Google-rival-in-the-picture, SMH) — reprints the Kastner "about as good as it gets" quote already captured in seq 446 row 411 (ECT original). No new rows.
+- **F9** (Here-There-WiFi-Anywhere) — Kastner quotes already captured in seq 193 rows 365-366; used only to correct the seq 193 headline (see above).
+
+**Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now near-complete** — **21 of 25 rows resolved** across Batches 19-21 (6 + 5 + 10); **only 4 rows remain deferred** (rows 237-240). No new mis-blobs discovered in Batch 21.

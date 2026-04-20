@@ -141,6 +141,28 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 21 Quotations Update (Mixed webarchives, seq 109 MAJOR mis-blob resolution)
+
+**Scope:** 10 webarchives (Gateway / H-P / Dell / CRN Fed rate / Wi-Fi) spanning 2001-2004 mainstream and trade press. **Largest single seq-109 cleanup to date**: 10 of the 14 remaining mis-attributed rows (227-236) resolved to their true source articles. Plus 3 new rows across 3 distinct articles, and a headline correction on an existing seq.
+
+- **Seq 109 cleanup MAJOR (10 rows)** — Batch 21 resolves rows 227-236, previously mis-stamped to "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill":
+  - Row 227 "re-create the PC miracle of the 1990s" → **seq 623**, Gateway gets in the digital camera picture / Rex Crum / 2003-08-28 / CBS MarketWatch (F1).
+  - Row 228 "eMachines built a foundation at the big-box retailers" → **seq 624**, Gateway refines target with new PCs / Rex Crum / 2004-06-28 / CBS MarketWatch (F2).
+  - Row 229 "Gateway is taking a disruptive approach with these two new wireless APs" → **seq 625**, Gateway Ends the WLAN Flim-Flam / Gateway press release / 2004-04-06 / FreshNews.com (F4).
+  - Row 230 "long way to go" (singular) HP post-Compaq integration → **seq 626**, H-P plunges on Q1 revenue miss / Rex Crum / 2003-02-26 / CBS MarketWatch (F6).
+  - Row 231 "long ways to go" (plural) HP cost-cutting earnings → **seq 627**, H-P profit rises 49% on cost cuts / Rex Crum / 2003-02-25 / CBS MarketWatch (F7).
+  - Row 232 "Profits continue to outpace revenue growth... Dell is leading the industry" → **seq 628**, Hardware stocks eke out gain after Dell report / Rex Crum / 2003-08-15 / CBS MarketWatch (F8).
+  - Rows 233-236 (Fed aggressive rate cutting / world markets adjust / Maybe says Kastner / broadband wide segment) → **seq 629**, Hi-Tech Execs: Fed Rate Cut Was a Necessary Move / CRN / 2001-09-17 (F10). Four rows resolve to the same source article, consistent with the original mis-blob pattern.
+- **Row 234 content repair** — row 234 "It will take the world markets some days to adjust to last Tuesday's tragedies" was previously truncated; expanded to the full quote per F10 archive.
+- **Headline correction on seq 193** — rows 365 and 366 (Washington Post Mike Musgrove Wi-Fi piece, 2004-04-25): headline corrected from "Working Without Wires" to **"Here, There, WiFi Anywhere"** per F9 archive. All other metadata unchanged.
+- **+3 net-new rows** (row_id 1042-1044):
+  - **seq 626** (F6 H-P plunges on Q1) — "third-party toner... the golden egg" quote on HP printer-supply revenue model.
+  - **seq 627** (F7 H-P profit rises 49%) — same "golden egg" quote appearing in the syndicated Feb 25/26 earnings coverage.
+  - **seq 628** (F8 Hardware stocks eke out gain) — "This is a very good quarter, again, for Dell" Kastner endorsement.
+- **Files skipped in Batch 21**: F3 (Gateway-stocks-up — 0 Kastner mentions), F5 (SMH "Google rival" reprint of seq 446 ECT original), F9 (Here-There-WiFi-Anywhere — quotes already in seq 193; used only for headline confirmation).
+- CSV now **1044 rows, 13 cols**; max `article_seq=629`. All Batch 21-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Four prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now near-complete** — **21 of 25 rows resolved** across Batches 19-21 (6 + 5 + 10); **only 4 rows remain deferred** (rows 237-240 — Linux/NT, HP pricing, HP-EDS outsourcing, HP printer-toner/Dell-printer-entry). No new mis-blobs discovered in Batch 21.
+
 ### April 19, 2026 — Batch 20 Quotations Update (Mixed webarchives, seq 109 mis-blob resolution continued)
 
 **Scope:** 10 webarchives spanning 1995-2004 mainstream and trade press. Primary impact: five more seq-109 mis-blob rows (222-226) resolved to their true source articles. Plus three genuinely new articles: a 1995 InformationWeek software-security piece, a 2003 Inc. staff blog on urban Wi-Fi congestion, and a 2004 Gateway Wireless DVD PR Newswire release.

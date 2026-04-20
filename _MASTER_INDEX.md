@@ -141,6 +141,26 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 23 Quotations Update (HP/IBM webarchives; seq 361 mis-blob partial resolution)
+
+**Scope:** 10 webarchives — CNET Skulltrail (skip) / CRN HP Q1 / NetworkWorld HP-Compaq / CNN/Money HP consumer push / Advisor IBM-Linux / Computing IBM-Java / Wi-Fi Technology Forum IBM printer adapter / Onlypunjab TechNewsWorld IBM Power / 2 MarketWatch IBM Q2 2003 earnings — spanning 1996-2004. **Discovered a new mis-blob at seq 361** (36 rows with bogus 'book w/AMD Processor, 2GB Memory, 160GB Hard Drive' headline, pub='Kastner Blog', empty date). Six of the 36 seq-361 rows (673-678) map directly to Batch 23 source articles and are re-attributed.
+
+- **Seq 361 partial cleanup (6 rows)** — Batch 23 resolves rows 673-678, previously mis-stamped to 'book w/AMD Processor... / Kastner Blog / no date':
+  - **Row 673** 'I would expect [at the] end of October-November rolling out...' → F3 HP-Compaq chip away at to-do list (Deni Connor / 2002-08-19 / Network World). **New seq 637.**
+  - **Row 674** 'Users need to understand...Linux operating system platform partners...' → F5 IBM and Linux: A Murky Future Ahead? (DataBased Advisor / 2003, date unverified, assigned 2003-01-01). **New seq 638.**
+  - **Row 675** ''IBM has too many platforms. But it's on the right track.'' → F6 IBM embraces Java as key to platform compatibility (Newmedia / 1996-10-30 / Computing UK). **New seq 639.**
+  - **Row 676** 'No one today considers designing a new product by designing the processor...' → F8 IBM Opens, Customizes Power Chips (TechNewsWorld via Onlypunjab / 2004-04-01). **New seq 640.**
+  - **Row 677** 'There's technology that could make this work now...' → same F8 TechNewsWorld article, continuation quote. **New seq 641.**
+  - **Row 678** 'It was a fairly sober report...no joy in Armonk...' → F9 IBM reports earnings, sales boost (Mike Tarsala / 2003-07-16 / MarketWatch). **New seq 642.**
+- **New articles (3 appended rows, row_ids 1048-1050):**
+  - **seq 643** (F2) CRN / Craig Zarley / 2003-02-25 'HP Turns A Profit On PCs' — includes toner-competition + rumored Dell-printer-entry quote (distinct CRN article from seq 633 Fordahl Feb 26 piece).
+  - **seq 644** (F7) Computerworld / Bob Brewin / 2003-03-25 'IBM introduces "plug-and-print" wireless LAN adapter' — distinct Computerworld article from seq 196 (Tom Krazit / same day / Dell printer launch piece), same 'material player' Kastner quote syndicated from a single interview.
+  - **seq 645** (F10) MarketWatch / Mike Tarsala / 2003-07-17 'IBM shares fall following Q2 earnings' — day-after follow-up on IBM Q2 2003 results; same Kastner 'sober report / no joy in Armonk' quote republished.
+- **Files skipped in Batch 23**: F1 (CNET Skulltrail user review 2008 — 0 Kastner, same file as Batch 22 F3 skip), F4 (CNN/Money La Monica 2003-08-13 — already at row 448 seq 481).
+- **Remaining seq 361 mis-blob: 30 rows still deferred** (679-708). Topics include Itanium, NT clustering, CA/Computer Associates, Informix, 3-GHz P4, Intel vPro, various analyst-commentary snippets. Future batches to resolve as matching source articles surface.
+- CSV now **1050 rows, 13 cols**; max `article_seq=645`. All Batch 23-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Seq 109 FULLY RESOLVED (Batches 19-22). **Seq 361 NEW mis-blob identified — 6 of 36 rows resolved in Batch 23; 30 rows remain deferred.** Four older prior mis-blobs cleaned (seqs 196/194/104/106-partial).
+
 ### April 19, 2026 — Batch 22 Quotations Update (Mixed webarchives, seq 109 mis-blob FULLY RESOLVED)
 
 **Scope:** 10 webarchives — High Tech Monday / High-tech depreciation / CNET / HON-Linux / FCW multimedia / HP price-cut / HP Forbes / HP Reinvented / HP Hurd / HP Revenue Shortfall — spanning 1996-2008. **Milestone: the seq-109 mis-blob (first identified in Batch 18) is now FULLY RESOLVED.** The final 4 deferred rows (237, 238, 239, 240) are re-attributed to their true source articles — all 25 originally mis-stamped rows have been reassigned across Batches 19-22 (6 + 5 + 10 + 4 = 25). Plus 3 genuinely new articles.

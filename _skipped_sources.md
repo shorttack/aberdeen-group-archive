@@ -462,3 +462,46 @@ All 25 originally mis-attributed rows (216-240) have now been re-assigned to the
 The F7 Forbes.com "HP Expects 20% EPS Jump Next Year" article is a Pinnacor-syndicated wire feed. The same Kastner quote ("combine two low-profit segments and have them drive each other's sales") also appears at row 335 / seq 173 in USA Today coverage of the same HP 2003 analyst-day event (Jon Swartz / 2003-12-10). Following the prior-batch precedent for Pinnacor-syndicated coverage appearing in multiple venues (e.g. Batch 14 seq-196 cleanup which initially mis-attributed Pinnacor wire content to Forbes, later corrected in Batch 15 to MarketWatch), Forbes.com is recorded as a distinct seq rather than merged into seq 173.
 
 **Mis-blob tally (final):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 mis-blob FULLY RESOLVED** (25 of 25 rows resolved across Batches 19-22: 6 + 5 + 10 + 4). No new mis-blobs discovered in Batch 22. The corpus-wide mis-blob debt identified across Batches 14-18 is now fully cleared.
+
+---
+
+## Batch 23 skips (2026-04-19)
+
+### Files skipped
+
+- **F1** (Holds-its-own-against-Skulltrail-a-True-Complement, CNET Reviews) — 2008 user review by screen-name "Catalina588" of Intel Core i7-965 Extreme Edition. 0 Kastner mentions. Identical to Batch 22 F3 skip (same webarchive content). Not a quotable press article.
+- **F4** (HP's push of new consumer products highlights its strength, CNN/Money) — Paul R. La Monica / 2003-08-13. Kastner quote ("HP is finally showing leadership in the home consumer tech sector / rallying consumers") already captured at row 448 seq 481. SKIP.
+
+### Batch 23 CSV delta
+
+- **+3 new rows** (row_id 1048-1050): seq 643 (F2 CRN Zarley 2003-02-25), seq 644 (F7 Computerworld Brewin 2003-03-25), seq 645 (F10 MarketWatch Tarsala 2003-07-17).
+- **6 rows re-attributed** (rows 673-678 → seqs 637-642). All quote content intact; headline, publication, author, date, content_type, context, prediction metadata rewritten.
+- **9 new seqs assigned**: 637 (F3), 638 (F5), 639 (F6), 640 (F8#1), 641 (F8#2), 642 (F9), 643 (F2), 644 (F7), 645 (F10).
+- CSV now **1050 rows, 13 cols**, max `article_seq=645`, max row_id=1050.
+- All Batch 23-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### NEW mis-blob discovered: seq 361 (36 rows)
+
+Rows 673-708 share the bogus headline fragment **"book w/AMD Processor, 2GB Memory, 160GB Hard Drive (Model #..."** (likely a truncated HP Pavilion / Compaq Presario laptop product listing), publication **"Kastner Blog"**, author **"Peter S. Kastner"**, and empty date. The actual quote text in each row is correct Kastner material drawn from real articles (NetworkWorld, Advisor, Computing UK, TechNewsWorld, MarketWatch, Computerworld, Inc., etc.). Same corruption pattern as the seq-109 mis-blob cleared in Batches 19-22.
+
+Batch 23 resolved 6 of the 36 rows (673-678). The remaining **30 rows (679-708)** are deferred pending future source-article matching. Known subject areas of deferred rows include:
+- 679, 680: IBM Intel 32/64-bit strategy; HP "betting the company on Itanium" (likely a c.2002-2003 InfoWorld/eWeek piece)
+- 681: NT-based clustering enterprise-customer research (likely a 1998-1999 Aberdeen report citation)
+- 682: Computer Associates / CA as "not a major player" in some market (~2001-2003)
+- 683, 684: Informix "didn't think Informix would ever get this out of the lab" / "quite invisible in the market" (likely an InformationWeek or Computerworld Informix Universal Server piece ~1995-1997)
+- 685: Field-of-Dreams "If you build it, they will come" — likely a retail/e-commerce piece
+- 686: Home wireless networking / DSL-cable modem users (~2002-2004)
+- 687, 688, 689, 690: Intel Itanium 2 performance commentary (~2002)
+- 691: "segmenting that seven ways to Sunday" (Intel or AMD chip lineup?)
+- 692: Worldwide semiconductor capacity fluctuations (~2002-2004)
+- 693: Telco disappointment post-Internet-crash (~2002-2003)
+- 694: Intel 3.06-GHz P4 performance uptake (~2002-2003)
+- 695, 696: Microsoft Word multithreading / Photoshop / video-rendering (~2002-2004)
+- 697: Economic outlook ambiguous
+- 698, 699: Firewall / laptop / remote-worker security (matches GRIC/Remote Access Aberdeen whitepaper theme, ~2003-2005)
+- 700, 701, 702: Intel vPro quad-core / dual-core / TCO per PC per year (~2006-2008)
+- 703, 704, 705, 706: Intel chip speed-bumps / top-of-the-line pricing / 3-GHz $700 chip (~2002-2003)
+- 707: "99.9% of all consumer users don't need 64-bit parts today" (~2003-2005, AMD Athlon 64 era)
+- 708: (row content truncated in sampling)
+
+**Recovery strategy:** As future webarchive batches surface matching source articles (by quote-phrase search), reassign rows incrementally, following the same pattern used for the seq-109 resolution arc (Batches 19-22).

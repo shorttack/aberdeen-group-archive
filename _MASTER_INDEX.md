@@ -141,6 +141,25 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 25 Quotations Update (Informix/Intel webarchives + 1 PDF; seq 361 mis-blob continued)
+
+**Scope:** 9 webarchives + 1 PDF — InformationWeek TechSearch results page (skip) / InformationWeek Foley Informix Crafts / InformationWeek Foley Informix Meets Database Deadline / Computerworld Norway Osterud Informix / Intel/IBM DB2 9.7 Ascentium marketing PDF (skip) / ExtremeTech Catalina588/Kastner Stars ratings / US News Rae-Dupree Intel wireless / Electronic News Murphy Intel-Sun / DesignTechnica TechSpot AMD GHz Equivalency / CRN Clancy Intel Internet Leap — spanning 1994-2009.
+
+- **Seq 361 cleanup continued (9 rows)** — Batch 25 resolves rows 683-691, all previously mis-stamped to 'book w/AMD Processor... / Kastner Blog / no date':
+  - **Row 683** Informix "didn't think Informix would ever get this out of the lab" → F3 InformationWeek John Foley 1996-10-14 'Informix Meets Database Deadline'. **New seq 652.**
+  - **Row 684** Informix "quite invisible in the market" → F4 Computerworld Norway / Margrete Osterud / 1994-11-13 'Informix på vei mot teten'. **New seq 653.**
+  - **Rows 685, 686** Intel wireless bet / home broadband → F7 US News / Janet Rae-Dupree / 2003-05-12 'Intel bets big on making wireless'. **MERGED as new seq 654** (2-row internal merge).
+  - **Rows 687, 688, 689, 690** Intel Itanium 2 performance / 'segmenting seven ways to Sunday' → F8 Electronic News / Tom Murphy / 2002-06-10 'Intel comes out swinging at Sun'. **MERGED as new seq 655** (4-row internal merge).
+  - **Row 691** Intel Internet leap / Field-of-Dreams → F10 CRN / Heather Clancy / 1999-04-23 'Intel Initiates Big Internet Leap'. **New seq 656.**
+- **New articles (3 appended rows, row_ids 1055-1057):**
+  - **seq 657** (F2) InformationWeek / John Foley / 1996-11-18 'Informix Crafts Web Architecture' — Kastner on Informix's Universal Server web-integration strategy.
+  - **seq 658** (F6) ExtremeTech forum / Catalina588 / Peter S. Kastner / 2009-04-10 — authored-column defending Intel's new Stars CPU ratings system as a clearer consumer metric than raw clock speed. Second known Kastner-authored column in the corpus (Catalina588 handle precedent).
+  - **seq 659** (F9) DesignTechnica via TechSpot / 2002-03-28 'Analyst stands by AMD-bashing report' — Kastner's on-record defense of Aberdeen's controversial Intel-funded 'AMD Gigahertz Equivalency' report.
+- **Files skipped in Batch 25**: F1 (InformationWeek TechSearch search-results listing page — not an article, 0 Kastner content), F5 (Intel/IBM DB2 9.7 Ascentium marketing PDF — 0 Kastner; quotes belong to Schiefer/Ellis/Vella/Laws).
+- **Remaining seq 361 mis-blob: 17 rows still deferred** (692-708). Known topics: semiconductor capacity (692), telcos post-Internet-crash (693), Intel 3.06-GHz P4 (694), Word/Photoshop multithreading (695, 696), economic outlook (697), remote-worker/firewall security — GRIC theme (698, 699), Intel vPro quad/dual-core TCO (700-702), Intel chip speed-bumps (703-706), 64-bit consumer need (707), row 708.
+- CSV now **1057 rows, 13 cols**; max `article_seq=659`. All Batch 25-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Seq 109 FULLY RESOLVED (Batches 19-22). **Seq 361: 19 of 36 rows resolved (Batches 23-25); 17 rows remain deferred.** Four older prior mis-blobs cleaned (seqs 196/194/104/106-partial).
+
 ### April 19, 2026 — Batch 24 Quotations Update (IBM/Itanium/64-bit webarchives; seq 361 mis-blob continued)
 
 **Scope:** 10 webarchives — 2 ZDNet UK (Shankland Itanium reprints) / Computerworld Brewin IBM Wi-Fi printer / SearchCIO IBM-NT-Linux / InformationWeek IBM-MSFT NT clusters 1999 / CNET Shankland Itanium / PCWorld Brewin reprint / Wired IDC predictions 2002 / AMD.com Kastner authored 64-bit column / InformationWeek CA-Platinum 1999 — spanning 1999-2004.

@@ -536,3 +536,36 @@ Batch 23 resolved 6 of the 36 rows (673-678). The remaining **30 rows (679-708)*
 ### Seq 361 mis-blob progress
 
 Rows 673-682 now resolved across Batches 23-24 (10 of 36). Rows 683-708 remain deferred. Per prior pattern, the remaining rows will be resolved incrementally as matching source articles surface in future batches.
+
+---
+
+## Batch 25 skips (2026-04-19)
+
+### Files skipped
+
+- **F1** (InformationWeek TechSearch results page) — Not an article. This webarchive captured an InformationWeek `techsearch` search-results listing page (query term hits on "Informix"), not a Kastner-authored or Kastner-quoted article. 0 quotable Kastner content. SKIP.
+- **F5** (Intel-Ascentium_IBM_DB2, PDF) — Intel/IBM DB2 9.7 marketing PDF (Ascentium collateral). 0 Kastner mentions. Direct quotes belong to Curt Schiefer (Intel), Peter Ellis (Intel), Rich Vella (IBM), and Michael Laws (IBM/Ascentium). Not a Kastner source; retained in batch workspace for provenance only. SKIP.
+
+### Batch 25 CSV delta
+
+- **+3 new rows** (row_id 1055-1057): seq 657 (F2 InformationWeek Foley 1996-11-18 "Informix Crafts Web Architecture"), seq 658 (F6 ExtremeTech forum / Catalina588 / Peter S. Kastner / 2009-04-10 — authored-column Intel Stars ratings commentary), seq 659 (F9 DesignTechnica via TechSpot / 2002-03-28 — Kastner's defense of Aberdeen's "AMD Gigahertz Equivalency" report).
+- **9 seq-361 mis-blob rows reassigned** (rows 683-691):
+  - **Row 683** Informix "didn't think Informix would ever get this out of the lab" → F3 InformationWeek John Foley 1996-10-14 "Informix Meets Database Deadline". **New seq 652.**
+  - **Row 684** Informix "quite invisible in the market" → F4 Computerworld Norway / Margrete Osterud / 1994-11-13 "Informix på vei mot teten" (Informix on its way to the top). **New seq 653.**
+  - **Rows 685, 686** Intel wireless bet / home broadband → F7 US News & World Report / Janet Rae-Dupree / 2003-05-12 "Intel bets big on making wireless". **New seq 654** (rows 685, 686 merged as single canonical seq).
+  - **Rows 687, 688, 689, 690** Intel Itanium 2 performance commentary ("segmenting seven ways to Sunday" / Sun comparisons) → F8 Electronic News / Tom Murphy / 2002-06-10 "Intel comes out swinging at Sun". **New seq 655** (rows 687-690 merged as single canonical seq — 4-row internal merge).
+  - **Row 691** Intel Internet leap / Field-of-Dreams → F10 CRN / Heather Clancy / 1999-04-23 "Intel Initiates Big Internet Leap". **New seq 656.**
+- **5 new canonical seqs from mis-blob reassignments**: 652 (F3), 653 (F4), 654 (F7), 655 (F8), 656 (F10). With 4 internal row merges (685=686 and 687=688=689=690), 9 source rows collapse to 5 canonical seqs.
+- **3 new seqs from appends**: 657 (F2), 658 (F6), 659 (F9).
+- CSV now **1057 rows, 13 cols**, max `article_seq=659`, max row_id=1057.
+- All Batch 25-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Notable Batch 25 artifacts
+
+**Seq 658 (F6 ExtremeTech forum)** is a second example of a **Kastner-authored first-person column**, this time posted under his forum handle **"Catalina588"** (the same handle used on CNET as captured in Batches 22-23 skips). The post defends Intel's then-new Stars CPU ratings system (2009-04) and argues it is a clearer consumer-facing metric than raw clock speed. Content_type is `authored-column`, matching the precedent set by seq 651 (F9 AMD.com Kastner column in Batch 24).
+
+**Seq 659 (F9 DesignTechnica via TechSpot)** documents Kastner's public defense of Aberdeen Group's controversial 2002 **"AMD Gigahertz Equivalency"** report — the report was Intel-funded and triggered substantial industry pushback. The piece captures Kastner's on-record rebuttal ("stands by the report") in real time.
+
+### Seq 361 mis-blob progress
+
+Rows 673-691 now resolved across Batches 23-25 (**19 of 36 rows**). Rows 692-708 remain deferred (17 rows). Per prior pattern, the remaining rows will be resolved incrementally as matching source articles surface in future batches. Known topics for deferred rows: semiconductor capacity fluctuations (692), telcos post-Internet-crash (693), Intel 3.06-GHz P4 (694), MS Word/Photoshop multithreading (695, 696), economic outlook (697), remote-worker/firewall security — matches GRIC/Remote Access theme (698, 699), Intel vPro quad/dual-core TCO (700-702), Intel chip speed-bumps and pricing (703-706), "99.9% of consumer users don't need 64-bit parts today" (707), and row 708 (content truncated in prior sampling).

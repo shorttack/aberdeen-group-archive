@@ -141,6 +141,27 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 19 Quotations Update (Mixed webarchives, seq 109 partial mis-blob resolution)
+
+**Scope:** 10 webarchives mixing E-Commerce Times Special Reports (F1-F3), Telephony Online (F4), ECT News (F5), CDW Editorial (F6-F7), ExtremeTech (F8), Automotive Design & Production / BNET (F9-F10). Primary impact: the seq-109 mis-blob deferred from Batch 18 is partially resolved.
+
+- **Seq 109 partial cleanup (6 of 25 rows)** — Batch 19 files pinpoint the true source articles for rows 216-221 previously mis-stamped to "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill":
+  - Row 216 "negative ROI / 10-year program" → **seq 610**, Who Pays for Tech Innovation? / Lisa Gill / 2002-10-07 (F1).
+  - Row 217 "applications in military / medical research / all fields of science" → **seq 611**, IBM Dominates Supercomputer List / Keith Regan / 2004-06-21 (F3). Content repaired (was a garbled article header).
+  - Rows 218, 219 (relational-database-in-memory / 64-bit as the future) → **seq 612**, Processor Market Evolving / CDW Editorial / 2004-06 (F7).
+  - Rows 220, 221 (fixed dollars/engineers / top-end workstation) → **seq 613**, Faster And Faster Go the Workstations / Larry Gould / 2003-07 / Automotive Design & Production (F10). Row 221 content expanded from fragment.
+- **Seq 109 TRUE content recovered** — F2 is the article the seq-109 label was meant to reference. Row 1033 (new) captures the actual Kastner quote: "They never had a really strong case to begin with, particularly from the consumer's standpoint" — predicting limited antitrust-remedy outcomes for the non-settling states.
+- **Remaining seq 109 mis-blob (deferred): rows 222-240** — 19 rows still span 10+ unidentified articles covering Sharp Aquos wireless TV, WiMax, Linux POS, eMachines/Gateway acquisition, HP post-Compaq earnings, Dell earnings, post-9/11 Fed rate cuts, broadband policy, HP pricing, HP outsourcing/EDS, HP printer cartridges. No Batch 19 files cover these subjects. Continues to await future source webarchives.
+- **Minor date correction** — row 1020 (seq 604 / Microsoft Says No to Compromise): 2002-06-20 → 2002-06-21 per F5 archive.
+- **5 new rows added** (rows 1033-1037) across 4 seqs:
+  - seq 109 — F2 Will MS Play Nice / Lisa Gill / 2002-11-20: "strong case / political visibility" antitrust quote.
+  - seq 612 — F7 CDW Processor Market: "darn good 32-bit server" (Opteron strategic win) and "two-way Itanium = four-way Xeon / database license" (per-socket licensing economics) — two new rows.
+  - seq 613 — F10 Workstations: "three major trends" (mobile / high-end 32-bit / Itanium) framework.
+  - seq 614 — F4 Telephony Online / Vincent Ryan / 2001-09-24 (new publication): "$30/hour for full-motion video" post-9/11 video-conferencing economics — highly prescient precursor to Zoom-era UCaaS.
+- **Files skipped in Batch 19**: F6 (byte-identical duplicate of F7), F8 (ExtremeTech Windows Home Server, 0 Kastner mentions), F9 (BNET aggregator copy of F10).
+- CSV now **1037 rows, 13 cols**; max `article_seq=614`. All Batch 19-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Four prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now partially cleaned** — 6 of 25 rows resolved; 19 remain deferred. No new mis-blobs discovered in Batch 19.
+
 ### April 19, 2026 — Batch 18 Quotations Update (E-Commerce Times Special Reports 2001-2004)
 
 **Scope:** 10 E-Commerce Times Special Reports webarchives covering Kastner commentary on IE security, Dell branding and build-to-order, lean 2002 e-commerce, future computers, Microsoft Passport, IT rebates, the future microchip marketplace, enterprise expansion, and interactive TV — by Elizabeth Millard, Bob Woods, Lou Hirsh, Teri Robinson, and Keith Regan.

@@ -216,3 +216,76 @@ While investigating rows 214-215, rows 216-240 in seq 109 were observed to span 
 - All Batch 18-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
 
 **Mis-blob tally (updated):** Four confirmed `article_seq` mis-blobs cleaned across Batches 14-18: seq 196 (Batch 14), seq 194 (Batch 16), seq 104 (Batch 17), seq 106 partial (Batch 18). **One larger mis-blob remains** in seq 109 (rows 216-240) deferred to a future batch.
+
+## Batch 19 (2026-04-19) — Mixed webarchives, seq 109 partial mis-blob resolution (10 files)
+
+Mixed-publication batch combining E-Commerce Times Special Reports, Telephony Online, ECT News, CDW Editorial, ExtremeTech, Automotive Design & Production, and a BNET aggregator. Primary impact: Batch 18's deferred seq-109 mis-blob is partially resolved — 6 of 25 mis-attributed rows now have confirmed true sources.
+
+### Triage summary
+
+| File | Title | Date | Byline | Publication | Outcome |
+|---|---|---|---|---|---|
+| F1 | Who Pays for Tech Innovation? | 2002-10-07 | Lisa Gill | E-Commerce Times | seq 610 (receives re-attr row 216 "negative ROI / 10-year program") |
+| F2 | Will Microsoft Play Nice Now? | 2002-11-20 | Lisa Gill | E-Commerce Times | seq 109 TRUE content recovered (+1 new row 1033 "strong case / political visibility") |
+| F3 | IBM Dominates Supercomputer List | 2004-06-21 | Keith Regan | E-Commerce Times | seq 611 (receives re-attr row 217, content repaired) |
+| F4 | Early Hopes Quickly Dashed for Telecomm Revival | 2001-09-24 | Vincent Ryan | Telephony Online | NEW seq 614 (+1 new row 1037 "$30/hour full-motion video") |
+| F5 | Microsoft Says No to Compromise | 2002-06-21 | Teri Robinson | E-Commerce Times | DUP of seq 604 (Batch 17); minor date fix 2002-06-20 → 2002-06-21 |
+| F6 | Editorials Hardware Article (CDW.com) | 2004-06 | — | CDW | byte-identical DUP of F7; skipped |
+| F7 | Processor Market Evolving (CDW Editorial) | 2004-06 | CDW Editorial Staff | CDW | seq 612 (receives re-attr rows 218, 219 + 2 new rows 1034, 1035) |
+| F8 | Build a Windows Home Server (ExtremeTech) | unknown | — | ExtremeTech | SKIPPED — 0 Kastner mentions |
+| F9 | Faster and Faster Go Workstations (BNET aggregator) | 07/2003 | Larry Gould | BNET syndication of F10 | DUP of F10; skipped |
+| F10 | Faster And Faster Go the Workstations | 2003-07 | Larry Gould | Automotive Design & Production | seq 613 (receives re-attr rows 220, 221 + 1 new row 1036; row 221 content expanded from fragment) |
+
+### Seq 109 partial cleanup (rows 216-221 resolved)
+
+The seq 109 mis-blob identified in Batch 18 contained 25 rows (216-240) stamped to "Will Microsoft Play Nice Now? / 2002-11-20 / Lisa Gill" but actually spanning many distinct articles. Batch 19 resolves 6 of these:
+
+- **Row 216** "They've had negative ROI at this point / 10-year program" → **seq 610** / Who Pays for Tech Innovation / Lisa Gill / 2002-10-07 (F1).
+- **Row 217** (previously contained a garbled copy of the F3 article header) → **seq 611** / IBM Dominates Supercomputer List / Keith Regan / 2004-06-21 (F3). Content repaired with the actual Kastner "applications in military / medical research / all fields of science" quote.
+- **Row 218** "relational database in memory / several times faster" → **seq 612** / Processor Market Evolving / CDW Editorial / 2004-06 (F7).
+- **Row 219** "64-bit systems for general purpose applications are clearly the future" → **seq 612** (same F7).
+- **Row 220** "For a fixed number of dollars you can support more engineers" → **seq 613** / Faster And Faster Go the Workstations / Larry Gould / 2003-07 / Automotive Design & Production (F10).
+- **Row 221** (previously stored as the fragment "hyperthreading technology") → **seq 613** (same F10). Content expanded to the actual Kastner quote: "all the good things you might like in a top-end workstation."
+
+### TRUE seq 109 content recovered
+
+F2 "Will Microsoft Play Nice Now?" is the actual article the seq-109 label was meant to reference. Row 1033 (new) captures the real Kastner quote from F2: "They never had a really strong case to begin with, particularly from the consumer's standpoint..." Seq 109 now contains legitimate Kastner-on-Will-MS-Play-Nice content for the first time, alongside the remaining 19 mis-attributed rows (222-240) that are still deferred.
+
+### DEFERRED (still): seq 109 rows 222-240 (19 rows)
+
+None of the Batch 19 files cover the subject matter of rows 222-240:
+
+- **Row 222** "Cables and bulky tubes" (Sharp Aquos wireless TV) — likely CE Pro / consumer-tech article.
+- **Row 223** "WiMax gets off the ground" — wireless coverage article.
+- **Row 224** "Linux continues to make steady progress / 6 to 9 percent of retail point-of-sale" — hospitality/POS Linux article.
+- **Rows 225-228** "eMachines shelf space / boxed in by Dell / re-create PC miracle / eMachines foundation" — Gateway/eMachines acquisition coverage (likely 2004).
+- **Row 229** "Gateway is taking a disruptive approach with these two new wireless Aps" — Gateway wireless access point coverage.
+- **Rows 230-231** "making progress but long way/ways to go" — HP post-Compaq merger earnings (likely 2003).
+- **Row 232** "Profits continue to outpace revenue growth / Dell is leading the industry" — Dell earnings coverage.
+- **Row 233** "Fed's aggressive rate cutting / broken piggy bank of the social security surplus" — post-9/11 economic recovery piece (2001).
+- **Rows 234-235** "It will take the world markets some days to adjust to last Tuesday's tragedies" / "Maybe, says Kastner" — same 9/11 recovery piece.
+- **Row 236** "Without broadband available to a wide segment of the economy" — broadband policy article.
+- **Row 237** "For cut-and-dried applications, businesses are finding Linux is comparatively inexpensive" — Linux/NT competition article.
+- **Row 238** "11% price drop is believable" — HP pricing article.
+- **Row 239** "The division should take on more outsourcing and systems integration work, but at the same time, it needs to be careful of competing too closely with partners such as EDS" — HP services/outsourcing article.
+- **Row 240** "They are seeing more competition from third-party toner cartridges" — HP printer cartridges article.
+
+These 19 rows remain stamped to seq 109 but the content was aggregated from at least 10 different E-Commerce Times / Tech-press articles spanning 2001-2004. Deferred to a future Batch 20+ when source webarchives covering these subjects arrive.
+
+### Batch 19 CSV delta
+
+- **+5 new rows** (row_id 1033-1037): seq 109 (F2), seq 612 (F7 ×2), seq 613 (F10), seq 614 (F4).
+- **6 rows re-attributed** (rows 216-221 → seqs 610, 611, 612, 613). Row 217 content repaired. Row 221 content expanded.
+- **1 minor date fix** (row 1020 / seq 604: 2002-06-20 → 2002-06-21).
+- **5 new seqs assigned**: 610 (F1), 611 (F3), 612 (F7), 613 (F10), 614 (F4).
+- **1 existing seq repurposed**: seq 109 now correctly holds F2 "Will MS Play Nice" content (row 1033) alongside still-deferred rows 222-240.
+- CSV now **1037 rows, 13 cols**, max `article_seq=614`.
+- All Batch 19-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Files skipped in Batch 19
+
+- **F6** — byte-identical duplicate of F7.
+- **F8** — ExtremeTech Windows Home Server discussion page; 0 Kastner mentions.
+- **F9** — BNET aggregator copy of F10 (same article, same author, same Kastner quotes).
+
+**Mis-blob tally (updated):** 4 prior mis-blobs cleaned (seqs 196/194/104/106-partial). **Seq 109 now partially cleaned** (6 of 25 rows resolved in Batch 19; 19 rows remain deferred). No new mis-blobs discovered in Batch 19.

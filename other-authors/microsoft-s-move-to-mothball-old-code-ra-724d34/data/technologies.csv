@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-95","Microsoft Windows 95","operating-system","Microsoft","1995-2001","mature","end-of-life","microsoft-s-move-to-mothball-old-code-ra-724d34","Consumer Windows 9x predecessor"
+"windows-98","Microsoft Windows 98","operating-system","Microsoft","1998-2006","mature","end-of-life","microsoft-s-move-to-mothball-old-code-ra-724d34","Consumer Windows on 9x kernel"
+"windows-nt","Microsoft Windows NT","operating-system","Microsoft","1993-2001","mature","end-of-life","microsoft-s-move-to-mothball-old-code-ra-724d34","32-bit enterprise Windows"
+"windows-9x","Microsoft Windows 9x","operating-system","Microsoft","1995-2001","legacy","end-of-life","microsoft-s-move-to-mothball-old-code-ra-724d34","Family incl. Win95, Win98, Win98SE, WinME"
+"trustworthy-computing","Microsoft Trustworthy Computing Initiative","framework","Microsoft","2002-2014","new","sunset","microsoft-s-move-to-mothball-old-code-ra-724d34","Launched January 2002 by Bill Gates; absorbed into Microsoft's broader security practice in 2014"

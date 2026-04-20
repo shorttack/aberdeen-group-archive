@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-api","Microsoft Windows API (Win32)","framework","Microsoft","1993-present","mature","active","microsoft-vows-to-appeal-eu-ruling-5-b7efc6","Programming interface central to US v. Microsoft and EU antitrust remedies"
+"windows-media-player","Windows Media Player","application","Microsoft","1991-present","mature","active","microsoft-vows-to-appeal-eu-ruling-5-b7efc6","Subject of the EU 2004 tying remedy (Windows N edition)"

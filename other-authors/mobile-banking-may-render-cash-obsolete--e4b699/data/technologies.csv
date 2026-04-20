@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-iphone","Apple iPhone","platform","Apple","2007-present","new","active","mobile-banking-may-render-cash-obsolete--e4b699","Touchscreen smartphone"
+"nfc","Near Field Communication (NFC)","protocol","NFC Forum","2004-present","emerging","mature","mobile-banking-may-render-cash-obsolete--e4b699","Short-range RFID-based contactless payment and data exchange"
+"rfid","Radio Frequency Identification (RFID)","protocol","various","1970s-present","mature","mature","mobile-banking-may-render-cash-obsolete--e4b699","Wireless ID tag technology"
+"mobile-banking","Mobile banking app","application","various","2007-present","emerging","ubiquitous","mobile-banking-may-render-cash-obsolete--e4b699","Smartphone-based consumer banking"
+"smartphone","Smartphone","platform","various","2007-present","new","ubiquitous","mobile-banking-may-render-cash-obsolete--e4b699","Touchscreen post-iPhone handheld computers"

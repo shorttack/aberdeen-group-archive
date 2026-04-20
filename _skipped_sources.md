@@ -650,3 +650,13 @@ Rows 673-691 now resolved across Batches 23-25 (**19 of 36 rows**). Rows 692-708
 
 - **Mac-News-Enterprise-Systems-Apple-s-Enterprise-IT-Battle-Plan-Part-One.webarchive** (MacNewsWorld / story 33934 / 2004-05-21) — ECT News Network same-day cross-property republication of the canonical **LinuxInsider / story 33934 / 2004-05-21 'Apple's Enterprise IT Battle Plan, Part One'** processed in Batch 27 as study `linux-news-enterprise-systems-apple-s-en-a8fdd0`. Verified byte-for-byte identical body and identical Kastner quote contexts via `diff` of extracted texts. Per corpus convention (skill §9), same-company syndications are logged and processed only at first instance. SKIP as ECT-sibling syndication duplicate. MacNewsWorld Part Two (`mac-news-enterprise-systems-apple-s-ente-59fab0`, story 33937) is a distinct article and was ingested.
 
+
+---
+
+## Batch 29 skips (2026-04-20)
+
+### Files skipped
+
+- **Microsoft-set-to-launch-software-for-cable-TV-Network-World-3.webarchive** (Network World / Scarlet Pruitt / IDG News Service / 2003-06-09 — networkworld.com/net.worker/news/2003/0609microsett.html) — Full-text scan of the extracted webarchive shows **zero Kastner mentions** and **zero Aberdeen Group mentions**. The webarchive captured the article scaffolding, navigation, and related-article lists but the body text ends before any quoted analyst commentary. No Kastner content to record. SKIP.
+- **Moore-s-Law-True-But-Irrelevant-10.webarchive** (itmanagement.earthweb.com / Datamation / article 2208341 / 2003-05-16) — WebMediaBrands-sibling republication of the canonical **InternetNews.com 'Moore's Law: True But Irrelevant' / David Haskin / 2003-05-16 / article 2208341** ingested in Batch 29 as study `moore-s-law-true-but-irrelevant-internet-661e40`. Verified identical Kastner quote corpus (Office 2003 collaboration recommendation, Windows 98/NT obsolescence, 'penny wise pound foolish' upgrade-cycle warning, '40 processes going on' background-workload argument). Per corpus convention, same-publisher-family syndications are logged and processed only at first instance. SKIP as WebMediaBrands-sibling syndication duplicate.
+

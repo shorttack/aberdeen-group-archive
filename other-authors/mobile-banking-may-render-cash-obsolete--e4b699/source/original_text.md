@@ -1,0 +1,85 @@
+# The Digital Wallet: Mobile Banking May Render Credit Cards and Cash Obsolete
+
+> Archived from: Mobile-banking-may-render-cash-obsolete-in-the-US-The-Boston-Globe-8.webarchive
+> Original publication date: 2009-04-29
+> Author: Hiawatha Bray (Boston Globe)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.boston.com/business/personalfinance/articles/2009/04/29/the_digital_wallet/
+MIME: text/html
+
+Mobile banking may render cash obsolete in the US - The Boston Globe Local Search Site Search Preferences | Log out Home Delivery <SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N3220.httpOX3376/B3535286.2;abr=!ie;sz=728x90;ord=758740216?"> </SCRIPT> <NOSCRIPT> <A HREF="http://rmedia.boston.com/RealMedia/ads/click_lx.ads/www.boston.com/business/finance/default/L39/758740216/TOP/boston/m_comcast061509_business_LEADER/dclk_comcast061509_business_LEADER.html/595645704d456d556942554144594a46?http://ad.doubleclick.net/jump/N3220.httpOX3376/B3535286.2;abr=!ie4;abr=!ie5;sz=728x90;ord=758740216?"> <IMG SRC="http://ad.doubleclick.net/ad/N3220.httpOX3376/B3535286.2;abr=!ie4;abr=!ie5;sz=728x90;ord=758740216?" BORDER=0 WIDTH=728 HEIGHT=90 ALT="Click Here"></A> </NOSCRIPT> Home Today's Globe News Business Sports Lifestyle A&E Things to do Travel Cars Jobs Homes Local Search Technology Healthcare Markets Personal finance Columnists THIS STORY HAS BEEN FORMATTED FOR EASY PRINTING Home / Business / Personal finance The digital wallet Boston Globe Banking by phone used to mean dialing a number and speaking with a teller. For Peter Kastner, 61, a consumer electronics consultant in Westport, it means whipping out his iPhone and touching an on-screen icon. Hiawatha Bray April 29, 2009 --> The digital wallet Mobile banking may render credit cards and cash obsolete (Globe Staff Photo Illustration) By Hiawatha Bray Globe Staff / April 29, 2009 Email | Print | Reprints | Yahoo! Buzz | ShareThis Text size – + Banking by phone used to mean dialing a number and speaking with a teller. For Peter Kastner, 61, a consumer electronics consultant in Westport, it means whipping out his iPhone and touching an on-screen icon. Discuss COMMENTS ( 17 ) Survey How do you prefer to bank? Do you mobile bank? Up pops a program that connects Kastner to his Bank of America accounts, where he can check his balances and pay his bills, even when he's traveling or boating on the Westport River. No need to interact with a bank employee. "I don't have to be tethered to a desktop anymore," said Kastner. "Everything I can do on a Web browser, I can do on my iPhone." Mobile banking seems like a natural application for today's powerful smartphones, and a majority of the nation's major banks offer mobile services. But most of America's 270 million cellphone subscribers have yet to embrace the concept. That poses a challenge for efforts to convert our cellphones into digital wallets that would take the place of today's credit cards. "About 10 percent of people have tried mobile banking," said Mitch Siegel, director of payment advisory services at the accounting and consulting firm KPMG LLP in Atlanta. Siegel adds that many of those who have signed up for mobile banking services rarely use them. But Scott Moeller, chief executive of mobile banking software maker M Shift Inc. in San Jose, Calif., said his client banks have been signing up lots of new customers over the past year. "We're seeing the adoption rate increasing dramatically," said Moeller. "You're looking at the start of what's to come." Moeller credits the increasing popularity of powerful smartphones like Apple Inc.'s iPhone and Research In Motion Ltd.'s BlackBerry, which are capable of running more sophisticated programs than simpler, cheaper phones. Douglas Brown, senior vice president for mobile product development at Bank of America Corp. in Charlotte, N.C., said that his company alone has signed up 2.4 million mobile banking subscribers. "There's a convenience and control function that people really enjoy," said Brown. Today's mobile banking applications work in the same fashion as a bank's website. For example, the iPhone application for Bank of America lets users see account balances, transfer funds between multiple accounts, or make bill payments. "Unfortunately, your cellphone can't give you cash," said Kastner. But it can do the next best thing. By adding a radio frequency identification chip to the phone, it can be used to buy products at retail stores. A user would merely tap the phone against a "near field communication" device that could read the radio signal from the chip and collect the purchase price from the customer's bank or credit card company. It might sound like science fiction to Americans, but not to people in Japan. About 50 million people in that country carry "wallet phones" that let them buy items as well as place calls. Wallet phones are getting tryouts in the United States, but nobody expects them to become commonplace anytime soon. "We think this is more like a five- to 10-year thing," said KPMG's Siegel. The industry faces a classic chicken-and-egg challenge. Hardly any US cellphones contain the necessary chip technology, and consumers won't buy them until enough retail stores have checkout devices that will work with the technology. Mohammad Khan, president and founder of Vivotech Inc. in Santa Clara, Calif., said that this problem is well on the way to being solved. About 80 million credit cards already contain the same kind of chip found in wallet phones. And Vivotech has sold about half a million of the card-reading devices, including 400,000 to retailers in the United States. As more retailers begin using the chip-reading checkout system, Khan predicted, consumers will grow comfortable with the technology and begin demanding wallet phones. "They're tapping their card to pay," Khan said, "and tomorrow they'll tap the phone to pay." Khan says digital wallet technology is very secure, even though credit data is being radioed from the phone to the checkout device. The phone's chip generates a unique code number for each transaction, so data intercepted by criminals couldn't be used to make any more purchases. Still, it'll be years before most retailers will be able to accept cellphone payments. But efficiency-minded consumers like Kastner will welcome the change. "That would be one step closer to removing currency from my life," he said. "It's as simple as that. Convenience." Hiawatha Bray can be reached at bray@globe.com . © Copyright 2009 Globe Newspaper Company. READER COMMENTS ( 17 ) Report item as: (required) X Obscenity / Vulgarity Hate speech Personal attack Advertising / Spam Copyright / Plagiarism Other Comment (optional): Guzzi1 wrote: When the taxes a citizen is required to pay become unreasonable more will join the cash only society to protest and to save. The government will force the change just like most countries around the world have with oppressive taxes. The future will be an underground economy. People don't mind paying fair taxes but we are getting very close to the tipping point, if we haven't already. Cash will be king, working for cash, spending cash, getting discounts when spending cash... watch the sales and installations of home safes. 4/29/2009 2:54 AM EDT Recommend (3) Report abuse Permalink icpshootyz wrote: Why would I go back to cash? It's annoying to lug around and annoying to have to continuously go to the ATM (bank is closed when I'm not at work) to get my money out. Besides, I have a cash-back credit card with no annual fee that pays me to use it - I never carry a balance. I earn roughly $200/yr by using my credit card instead of cash on almost all my purchases/expenses. I think you have it backwards - cash is dying, digital money is where the market is going. Only the truly paranoid among us are going to start hoarding wads of paper money at home. How bout you bury it in the backyard, too? That's real sane of you . . . 4/29/2009 8:07 AM EDT Recommend (2) Report abuse Permalink joeshuren wrote: Mobile NFC banking is a disruptive technology threatening firms such as US wireless companies and US credit card companies using legacy business models and technology. If it is bootstrapped in first mass transit and then convenience stores, it can be extended to many useful applications, as smartphones and netbooks connected to cloud servers replace Windows clients. Imagine, for instance, pay vouchers in local currency like Berkshares that expire, increasing velocity of money, fighting deflation, and increasing local employment. Or peer-to-peer microcredit in areas without bank ATMs. Door locks. One useful addition would be phone fingerprint readers. Privacy and security can be maintained by the fact that the user possesses the physical phone. This is also exciting because there are now phones for half the world's population, and new applications need to be devised to extend the market to that half's needs. 4/29/2009 8:18 AM EDT Recommend (2) Report abuse Permalink layoffsupportnetwork wrote: This article left out a whole world of mobile payment solutions where RFID cards are not required. Payment is made via SMS, even from very basic phones. Hundreds of millions of people world-wide are using this. Pushing RFID based solutions is delaying mobile payments in the USA, to the relief of the credit card companies. 4/29/2009 8:24 AM EDT Recommend Report abuse Permalink 1 2 3 4 5 Next Last View all 17 comments > Survey How do you prefer to bank? Do you mobile bank? You must choose a screen name before you can comment Sorry, we could not find your e-mail or password. Please try again, or click here to retrieve your password. Existing users * E-mail: * Password: * Screen name: (* fields are required) Login Forgot your password? New users Please take a minute to register. After you register and pick a screen name, you can publish your comments everywhere on the site. Posting Policy . Register Your comment is subject to the rules of our Posting Policy This comment may appear on your public profile. Public Profile FAQ Ads by Google what's this? Local Heating Services Find Boston Heating Contractors, Heater & Boiler Repair Near You. Heaters.YellowPages.com/Boston Buck Foston HateBoston? We do too! Get Your Red Sux T Shirt Today. RedSuxNation.com Foreclosed Homes 4 Sale Find properties near Boston Special REO financing available www.AmTrustREO.com var comments_global = 1; Advertisement Local Business News on Twitter Obama pushes health system overhaul - http://is.gd/12MaS about an hour ago Oil falls over $2 on firmer dollar - http://is.gd/12MaM about an hour ago Stocks tumble more than 2% - http://is.gd/12MaG about an hour ago Photo Gallery - Filene's Basement through the years - http://is.gd/12Maz about an hour ago Syms has winning bid for Filene's Basement - http://is.gd/12GAx about 4 hours ago Sym's wins bid for Filene's Basement - http://is.gd/12FQy about 4 hours ago Barneys will sell "sustainable" Keds - http://is.gd/12CAB about 5 hours ago GE to offer electronic medical record financing - http://is.gd/12BrN about 6 hours ago EMC reiterates Data Domain offer - http://is.gd/12yWN about 7 hours ago Survey: Many employees game the clock - http://is.gd/12xNz about 7 hours ago RI firm buys Cape Cod real estate agency - http://is.gd/12x1k about 8 hours ago Mass. gas prices are up 8 cents a gallon - http://is.gd/12v0O about 9 hours ago Follow GlobeBiz on Twitter Follow other Boston.com Tweets | What is Twitter? INside Boston.com Party photos See who was out on the town in Bill Brett's latest photos Who taught you to drive? Do you know your road signs? The Big Picture Iran street protests turn violent In search of fame 'Idol' tryouts at Gillette Stadium Plus... Blogs | Games | Podcasts | Puzzles | Personals | Movie listings | Classifieds | Globe Magazine MOST E-MAILED Iran's Disputed Election The 100 Essential New England Books Billerica's manager quits after saying town 'needs a lot of work' Scholar-Athlete Awards Finding room to stretch Romance + Attraction + Oxytocin = Love Boston woman is first in Mass. to die from swine flu See full list Follow this list on Twitter: @BostonPopular Recommended Searches Health news Crossword puzzle RECIPES Summer salads Weather Dentists Consignment shops About this list Tourisme Mont-Tremblant, your resort destination ! Book NOW and receive a $400 resort credit! Let your new home find you with email alerts Home | Today's Globe | News | Business | Sports | Lifestyle | A&E | Things to Do | Travel | Cars | Jobs | Homes | Local Search Contact Boston.com | Help | Advertise | Work here | Privacy Policy | Newsletters | Mobile | RSS feeds | Sitemap | Make Boston.com your homepage Contact The Boston Globe | Subscribe | Manage your subscription | Advertise | The Boston Globe Extras | The Boston Globe Store | © 2009 NY Times Co.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | mobile-banking-may-render-cash-obsolete--e4b699 |
+| title | The Digital Wallet: Mobile Banking May Render Credit Cards and Cash Obsolete |
+| author | Hiawatha Bray (Boston Globe) |
+| date | 2009-04-29 |
+| type | feature-article |
+| subject_domain | mobile-payments |
+| methodology | consumer-interview, industry-analysis |
+| source_file | Mobile-banking-may-render-cash-obsolete-in-the-US-The-Boston-Globe-8.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Boston Globe feature on consumer mobile banking, using Peter Kastner (identified as a 61-year-old consumer-electronics consultant in Westport MA, using his iPhone and Bank of America app) as the lead-paragraph representative user. Kastner articulates the untethered-from-desktop mobile-banking value proposition and, looking ahead, the role NFC-based contactless payment could play once added to phones.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Early mainstream-press framing of mobile banking + NFC payments before Apple Pay (2014); captures Kastner as the embodiment of the early-adopter persona. |
+| **Relevance** | high | Mobile payments are now ubiquitous; article remains useful as a baseline of consumer expectations just before the Apple Pay / Google Pay era. |
+| **Prescience** | high | Predicted trajectory — phones replace cash/cards via NFC — was fully realized with Apple Pay (2014) and subsequent scheme adoption. |
+
+### Prescience Detail
+
+
+**Prediction 1:** NFC-based contactless replacement of cash
+- **Claimed:** Adding RFID/NFC chip to phones enables retail tap-to-pay; 'that would be one step closer to removing currency from my life... It's as simple as that. Convenience.'
+- **Year:** 2009
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Apple Pay launch
+- **Result:** Apple Pay launched October 2014 with NFC tap-to-pay on iPhone 6; Google Pay / Android Pay followed; by 2023 mobile NFC payments mainstream at most large US retailers.
+- **Confidence:** verified
+- **Notes:** Backfill
+
+
+### Entities Referenced (5)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Apple Computer / Apple Inc. | company | active |  |
+| Bank of America | company | active |  |
+| Hiawatha Bray | person | active |  |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Apple iPhone | platform | Apple | new | active |
+| Near Field Communication (NFC) | protocol | NFC Forum | emerging | mature |
+| Radio Frequency Identification (RFID) | protocol | various | mature | mature |
+| Mobile banking app | application | various | emerging | ubiquitous |
+| Smartphone | platform | various | new | ubiquitous |
+
+### Observation Summary
+
+- Total observations: 6
+- By type: expert-opinion: 2, personal-recollection: 1, viability-prediction: 1, market-data: 1, actual-outcome: 1

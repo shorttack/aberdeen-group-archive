@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Microsoft Split Will Hit Users' Pockets",
+  "description": "Computing UK article on an Aberdeen Group analysis projecting that the Jackson court's proposed break-up of Microsoft into separate OS and applications companies would cost customers worldwide approximately $6.8bn over 10 years in price hikes, and $43bn total including $20bn in added integration costs for enterprises. Peter Kastner argues the break-up would impose 'enormous friction, delay, and uncertainty' on IT adoption.",
+  "creator": {
+    "@type": "Person",
+    "name": "Linda Leung (Computing UK / vnunet.com)"
+  },
+  "datePublished": "2000-06-09",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

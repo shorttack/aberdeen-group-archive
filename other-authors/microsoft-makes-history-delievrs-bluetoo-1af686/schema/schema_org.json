@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Microsoft Makes History: Delivers Bluetooth Keyboard and Mouse",
+  "description": "Microsoft press release announcing its Wireless Optical Desktop for Bluetooth, among the first Bluetooth-branded mainstream PC peripherals from a major vendor. Peter Kastner of Aberdeen Group characterizes the launch as the catalyst that finally moves Bluetooth from pre-launch hype into mainstream consumer peripherals.",
+  "creator": {
+    "@type": "Person",
+    "name": "Microsoft Corporation (press release)"
+  },
+  "datePublished": "2002-10-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

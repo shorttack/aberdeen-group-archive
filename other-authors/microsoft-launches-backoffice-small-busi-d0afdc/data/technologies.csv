@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-backoffice","Microsoft BackOffice Server","platform","Microsoft","1994-2003","new","discontinued","microsoft-launches-backoffice-small-busi-d0afdc","Integrated server bundle; renamed to Windows Small Business Server 2000/2003"
+"small-business-server","Microsoft Small Business Server (SBS)","platform","Microsoft","1997-2012","new","discontinued","microsoft-launches-backoffice-small-busi-d0afdc","Succeeded by Windows Server Essentials 2012+"
+"microsoft-exchange","Microsoft Exchange Server","application","Microsoft","1996-present","mature","active","microsoft-launches-backoffice-small-busi-d0afdc","Email/calendaring server"
+"microsoft-proxy-server","Microsoft Proxy Server","application","Microsoft","1996-2001","mature","replaced","microsoft-launches-backoffice-small-busi-d0afdc","Renamed ISA Server 2000 then Forefront TMG"
+"microsoft-sql-server","Microsoft SQL Server","application","Microsoft","1989-present","mature","active","microsoft-launches-backoffice-small-busi-d0afdc","Flagship RDBMS"
+"iis","Microsoft Internet Information Services (IIS)","application","Microsoft","1995-present","new","active","microsoft-launches-backoffice-small-busi-d0afdc","Microsoft web server"
+"windows-nt-server-4","Windows NT Server 4.0","operating-system","Microsoft","1996-2004","new","end-of-life","microsoft-launches-backoffice-small-busi-d0afdc","Kernel underlying SBS 1997"

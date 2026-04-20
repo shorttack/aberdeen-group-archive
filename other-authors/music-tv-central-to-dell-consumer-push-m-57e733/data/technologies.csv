@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ipod","Apple iPod","platform","Apple","2001-2014","new","discontinued","music-tv-central-to-dell-consumer-push-m-57e733","Portable digital music player"
+"itunes-music-store","iTunes Music Store","platform","Apple","2003-2019","new","renamed","music-tv-central-to-dell-consumer-push-m-57e733","Online music store; rebranded to Apple Music/Apple Store"
+"dell-jukebox","Dell Digital Jukebox (DJ)","platform","Dell","2003-2006","new","discontinued","music-tv-central-to-dell-consumer-push-m-57e733","20GB/15GB digital music players; discontinued by 2006"
+"dell-lcd-tv","Dell 17"" LCD TV","platform","Dell","2003-2008","new","discontinued","music-tv-central-to-dell-consumer-push-m-57e733","Dell-branded TVs exited 2008"
+"dell-online","Dell.com","platform","Dell","1996-present","mature","active","music-tv-central-to-dell-consumer-push-m-57e733","Dell direct e-commerce channel"

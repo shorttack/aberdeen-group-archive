@@ -1,0 +1,46 @@
+# The Digital Wallet: Mobile Banking May Render Credit Cards and Cash Obsolete
+
+| Field | Value |
+|-------|-------|
+| Author | Hiawatha Bray (Boston Globe) |
+| Date | 2009-04-29 |
+| Type | feature-article |
+| Domain | mobile-payments |
+| License | CC-BY-4.0 |
+
+## Abstract
+
+Boston Globe feature on consumer mobile banking, using Peter Kastner (identified as a 61-year-old consumer-electronics consultant in Westport MA, using his iPhone and Bank of America app) as the lead-paragraph representative user. Kastner articulates the untethered-from-desktop mobile-banking value proposition and, looking ahead, the role NFC-based contactless payment could play once added to phones.
+
+## Data Tables
+
+| Table | Rows |
+|-------|------|
+| studies.csv | 1 |
+| entities.csv | 5 |
+| technologies.csv | 5 |
+| observations.csv | 6 |
+| codes.csv | 25 |
+
+## Load with Python
+
+```python
+import pandas as pd
+studies = pd.read_csv('data/studies.csv')
+observations = pd.read_csv('data/observations.csv')
+```
+
+## Validate
+
+```bash
+frictionless validate datapackage.json
+```
+
+## Citation
+
+Hiawatha Bray (Boston Globe) (2009). The Digital Wallet: Mobile Banking May Render Credit Cards and Cash Obsolete.
+Archived in Kastner Research Archive. DOI: [pending]
+
+## Methodology
+
+consumer-interview, industry-analysis

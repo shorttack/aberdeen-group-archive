@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-api","Microsoft Windows API (Win32)","framework","Microsoft","1993-present","mature","active","microsoft-split-will-hit-users-pockets-0-edc1ed","Programming interface central to US v. Microsoft and EU antitrust remedies"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","microsoft-split-will-hit-users-pockets-0-edc1ed","Family of OSes; breakup proposal would have separated this from applications"
+"microsoft-office","Microsoft Office","application","Microsoft","1989-present","mature","active","microsoft-split-will-hit-users-pockets-0-edc1ed","Office productivity suite; applications company in proposed split"

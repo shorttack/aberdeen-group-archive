@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"bluetooth","Bluetooth wireless","protocol","Bluetooth SIG","1999-present","emerging","ubiquitous","microsoft-makes-history-delievrs-bluetoo-1af686","Short-range personal-area-networking standard"
+"optical-mouse","Optical Mouse","platform","various","1999-present","mature","ubiquitous","microsoft-makes-history-delievrs-bluetoo-1af686","LED-based pointing device"
+"wireless-peripheral","Wireless PC Peripheral","platform","various","1990s-present","mature","ubiquitous","microsoft-makes-history-delievrs-bluetoo-1af686","Keyboards and mice using RF/IR/Bluetooth"

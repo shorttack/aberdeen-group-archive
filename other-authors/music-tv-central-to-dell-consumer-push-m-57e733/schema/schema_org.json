@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Music, TV Central to Dell Consumer Push",
+  "description": "CBS MarketWatch coverage of Dell's September 2003 consumer-electronics expansion \u2014 launching a 17-inch LCD TV and Dell Jukebox digital music player \u2014 explicitly framed as a challenge to Apple and Gateway in the music/TV consumer space. Peter Kastner of Aberdeen Group predicts Dell's low-cost direct business model will pay off: 'Dell.com becoming even more of an online electronics superstore.' Competitor Gateway's Mike Moeller disputes that selling music and TVs is enough.",
+  "creator": {
+    "@type": "Person",
+    "name": "Rex Crum (CBS MarketWatch)"
+  },
+  "datePublished": "2003-09-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-98","Microsoft Windows 98","operating-system","Microsoft","1998-2006","mature","end-of-life","moore-s-law-true-but-irrelevant-internet-661e40","Consumer Windows on 9x kernel"
+"windows-nt","Microsoft Windows NT","operating-system","Microsoft","1993-2001","mature","end-of-life","moore-s-law-true-but-irrelevant-internet-661e40","32-bit enterprise Windows"
+"moores-law","Moore's Law","framework","Intel/industry","1965-present","mature","slowing","moore-s-law-true-but-irrelevant-internet-661e40","Doubling of transistors every ~2 years; effectively ended c. 2016-2020"
+"microsoft-office-2003","Microsoft Office 2003","application","Microsoft","2003-2014","new","end-of-life","moore-s-law-true-but-irrelevant-internet-661e40","Introduced collaboration features"
+"intel-pentium-4","Intel Pentium 4","platform","Intel","2000-2008","mature","end-of-life","moore-s-law-true-but-irrelevant-internet-661e40","Flagship x86 CPU at time of article"
+"multi-threading","Multi-threaded OS workload","framework","industry","2000-present","emerging","ubiquitous","moore-s-law-true-but-irrelevant-internet-661e40","Simultaneous background processes became routine on desktop"

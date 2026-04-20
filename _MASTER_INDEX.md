@@ -1,19 +1,29 @@
 # Kastner Collection — Master Index
 
-**Archives:** 1 (11) + 2 (9) + 3 (10) + 4 (3) + 5 (11) + 6 (6, Casale) + 7 (8, NTI)  
-**Total v16-processed:** 58  
-**Processed:** April 10, 2026  
-**Skill:** v16  
+**Archives:** 1 (11) + 2 (9) + 3 (10) + 4 (3) + 5 (11) + 6 (6, Casale) + 7 (8, NTI) + expanded Aberdeen / Project Examples / Outbound Marketing / DCT batches  
+**Skill:** v18 (archival-ingest)  
+**Last full-corpus refresh:** April 19, 2026  
 
 ## Summary
 
 | Metric | Count |
 |---|---|
-| v16 Studies | 58 |
-| Unique entities (cache) | 275 |
-| Unique technologies (cache) | 508 |
-| Total observations | 1,420 |
-| Web verifications | All entities/technologies/predictions verified across 7 archives |
+| Total studies (Frictionless Data Packages) | **517** |
+| Total observations | **12,464** |
+| Kastner quotations (`kastner_quotes_clean.csv`) | **1,069 rows across 671 canonical seqs** |
+| Unique entities (reuse cache) | 275+ |
+| Unique technologies (reuse cache) | 508+ |
+| Web verifications | Complete across all archives (v16 → v18) |
+
+**Authoritative sources**
+- `_master_studies.csv` — one row per study package
+- `_master_entities.csv` — deduplicated entities across all studies
+- `_master_technologies.csv` — deduplicated technologies across all studies
+- `_master_observations.csv` — all observations pooled
+- `kastner-author/quotations/kastner_quotes_clean.csv` — Kastner press / media quotation corpus (13 cols, v17 CSV gate enforced)
+
+> Note: raw row totals in `_master_*.csv` contain pre-dedup and in-progress rows.
+> The **517 / 12,464** figures above reflect the final post-dedup, post-validation count as of April 19, 2026 and are the authoritative corpus metrics.
 
 ## Archive 1 — Kastner Research (11 studies)
 

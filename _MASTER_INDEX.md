@@ -141,6 +141,25 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 26 Quotations Update (10 Intel webarchives; seq 361 mis-blob FINAL resolution — 35 of 36 rows)
+
+**Scope:** 10 Intel-focused webarchives — InfoWorld Margulius Intel-competitor 2003 / InternetNews Marer WiMax 2004 / PC World hyperthreading P4 (IDG syndication, skip) / Computerworld AU hyperthreading P4 (IDG syndication, skip) / Computerworld Krazit hyperthreading P4 canonical 2002 / MarketWatch Kraeuter Intel Q1 2003 / NewsFactor Long Intel vPro SMB 2008 / InfoWorld Margulius Intel-turns-35 2003 / InformationWeek Dunn Intel Prescott P4 2004 / ZDNet UK Broersma Intel-Aberdeen-attack-AMD (adjacent coverage, skip) — spanning 2002-2008.
+
+- **Seq 361 FINAL cleanup (16 rows, 692-707)** — Batch 26 resolves all remaining deferred rows of the seq-361 mis-blob, each previously mis-stamped to 'book w/AMD Processor... / Kastner Blog / no date':
+  - **Row 692** worldwide semiconductor capacity fluctuations → F1 InfoWorld / David L. Margulius / 2003-07-18 'Intel or a competitor inside?'. **New seq 660.**
+  - **Row 693** telcos disappointed since the Internet crash → F2 InternetNews.com / Eva Marer / 2004-01-22 'Intel Preps for WiMax Chips'. **New seq 661.**
+  - **Rows 694, 695, 696** P4 3.06-GHz hyperthreading / MS Word spell-check / Photoshop-video multithreading → F5 Computerworld / Tom Krazit (IDG News Service) / 2002-10-28 'Intel readies hyperthreading Pentium 4'. **MERGED as new seq 662** (3-row internal merge).
+  - **Row 697** economic picture looks increasingly clouded → F6 MarketWatch / Chris Kraeuter / 2003-04-15 'Intel shares gain on results, outlook'. **New seq 663.**
+  - **Rows 698, 699, 700, 701, 702** Intel vPro outside-firewall + remote manageability + quad/dual-core + TCO $500/$1,000 per PC per year → F7 NewsFactor Network / Mark Long / 2008-09-23 'Intel Targets SMBs With Revamped vPro'. **MERGED as new seq 664** (5-row internal merge — corpus record).
+  - **Row 703** 'number of speed bumps per year has decreased' → F8 InfoWorld / David L. Margulius / 2003-07-18 'Intel turns 35: Now what?'. **New seq 665.**
+  - **Rows 704, 705, 706, 707** Intel Prescott P4 aggressive pricing + 300mm wafer advantage + '99.9% of consumer users don’t need 64-bit parts today' → F9 InformationWeek / Darrell Dunn / 2004-02-02 'Intel Unveils Next-Generation Pentium 4 Processors'. **MERGED as new seq 666** (4-row internal merge).
+- **Zero new appended rows.** All quote content in this batch matches existing deferred mis-blob rows; no new source articles contribute additional Kastner material beyond what is being reassigned.
+- **Files skipped in Batch 26**: F3 (PC World IDG-syndication of F5 Krazit piece), F4 (Computerworld Australia IDG-syndication of F5), F10 (ZDNet UK Broersma 2002-03-27 coverage of AMD-GHz Equivalency report — adjacent coverage of the same story captured at seq 659 in Batch 25; does not quote Kastner by name).
+- **7 new canonical seqs**: 660-666. With 3 internal row merges (694=695=696, 698=699=700=701=702, 704=705=706=707), 16 source rows collapse to 7 canonical seqs.
+- **Row 708 NOT reassigned** — this row has empty `kastner_quotation`, `immediate_context`, and all downstream analytical fields; cannot be reassigned without content to match against a source article. Left at seq 361 as a permanent empty-content remnant.
+- CSV: **1057 rows, 13 cols** (unchanged row count); max `article_seq=666`, max row_id=1057. All Batch 26-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (FINAL):** Seq 109 FULLY RESOLVED (Batches 19-22, 25 of 25 rows). **Seq 361 effectively FULLY RESOLVED** (Batches 23-26, 35 of 36 rows reassigned; row 708 is an empty-content remnant). Four older prior mis-blobs cleaned (seqs 196/194/104/106-partial). The corpus-wide mis-blob debt is now substantively cleared.
+
 ### April 19, 2026 — Batch 25 Quotations Update (Informix/Intel webarchives + 1 PDF; seq 361 mis-blob continued)
 
 **Scope:** 9 webarchives + 1 PDF — InformationWeek TechSearch results page (skip) / InformationWeek Foley Informix Crafts / InformationWeek Foley Informix Meets Database Deadline / Computerworld Norway Osterud Informix / Intel/IBM DB2 9.7 Ascentium marketing PDF (skip) / ExtremeTech Catalina588/Kastner Stars ratings / US News Rae-Dupree Intel wireless / Electronic News Murphy Intel-Sun / DesignTechnica TechSpot AMD GHz Equivalency / CRN Clancy Intel Internet Leap — spanning 1994-2009.

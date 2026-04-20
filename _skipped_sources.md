@@ -569,3 +569,42 @@ Rows 673-682 now resolved across Batches 23-24 (10 of 36). Rows 683-708 remain d
 ### Seq 361 mis-blob progress
 
 Rows 673-691 now resolved across Batches 23-25 (**19 of 36 rows**). Rows 692-708 remain deferred (17 rows). Per prior pattern, the remaining rows will be resolved incrementally as matching source articles surface in future batches. Known topics for deferred rows: semiconductor capacity fluctuations (692), telcos post-Internet-crash (693), Intel 3.06-GHz P4 (694), MS Word/Photoshop multithreading (695, 696), economic outlook (697), remote-worker/firewall security — matches GRIC/Remote Access theme (698, 699), Intel vPro quad/dual-core TCO (700-702), Intel chip speed-bumps and pricing (703-706), "99.9% of consumer users don't need 64-bit parts today" (707), and row 708 (content truncated in prior sampling).
+
+---
+
+## Batch 26 skips (2026-04-19)
+
+### Files skipped (IDG syndications and adjacent coverage)
+
+- **F3** (Intel-Pushes-Pentium-4-Past-3-GHz, PC World `article/106415`) — PC World IDG-syndication of the canonical Computerworld/Tom Krazit/IDG News Service Oct 28, 2002 hyperthreading P4 article. Identical Kastner quote content. Captured canonically at F5. Per corpus convention, downstream IDG syndications do not get distinct rows. SKIP.
+- **F4** (Intel-readies-hyperthreading-Pentium-4, Computerworld Australia) — Computerworld AU IDG-syndication of the same Krazit piece (F5). Byline reads "Tom Krazit, IDG News Service" with Australia-specific formatting but identical body. SKIP as IDG syndication duplicate.
+- **F10** (Intel-Aberdeen-attack-AMD-speed-ratings, ZDNet.co.uk `misc/print/0,1000000169,2107456-39001058c`) — Matthew Broersma 2002-03-27 ZDNet UK coverage of Intel-funded Aberdeen "AMD Gigahertz Equivalency: Inexperienced Buyers Accept Bad Science" report. The piece quotes the Aberdeen report directly ("Pinocchio factor", "not justifiable in the benchmark science") and mentions Aberdeen Group but does NOT quote Kastner by name. Adjacent coverage of the same story captured at **seq 659 row 1057** (DesignTechnica via TechSpot 2002-03-28, one day later) in Batch 25. Under corpus convention (Kastner personal quote archive), report excerpts without Kastner-name attribution are not row candidates. SKIP.
+
+### Batch 26 CSV delta
+
+- **0 new rows** — unlike Batches 23-25, Batch 26 contributes NO appended rows. All quote content in this batch matches existing deferred seq-361 mis-blob rows (692-707).
+- **16 seq-361 mis-blob rows reassigned** into 7 new canonical seqs with 3 internal merges:
+  - **Row 692** 'worldwide semiconductor industry goes through dramatic capacity fluctuations' → F1 InfoWorld / David L. Margulius / 2003-07-18 'Intel or a competitor inside?'. **New seq 660.**
+  - **Row 693** 'telcos suffered a huge disappointment since the Internet crash' → F2 InternetNews.com / Eva Marer / 2004-01-22 'Intel Preps for WiMax Chips'. **New seq 661.**
+  - **Rows 694, 695, 696** Pentium 4 3.06-GHz hyperthreading / MS Word spell-check / Photoshop-video → F5 Computerworld / Tom Krazit (IDG News Service) / 2002-10-28 'Intel readies hyperthreading Pentium 4'. **MERGED as new seq 662** (3-row internal merge).
+  - **Row 697** 'economic picture looks increasingly clouded' → F6 MarketWatch / Chris Kraeuter / 2003-04-15 'Intel shares gain on results, outlook'. **New seq 663.**
+  - **Rows 698, 699, 700, 701, 702** Intel vPro outside-firewall + "No matter where in the world" + quad/dual-core + TCO $500/$1,000 per PC per year → F7 NewsFactor Network / Mark Long / 2008-09-23 'Intel Targets SMBs With Revamped vPro'. **MERGED as new seq 664** (5-row internal merge — corpus record).
+  - **Row 703** 'number of speed bumps per year has decreased' → F8 InfoWorld / David L. Margulius / 2003-07-18 'Intel turns 35: Now what?'. **New seq 665.** (Note: the captured webarchive contains only page 1 of 4 of the Margulius feature; the specific "speed bumps" Kastner quote is on a later page. Reassignment is made on the strength of the row 703 immediate_context, which exactly matches F8's page 1 prose — "Intel is still waiting for a new generation of software to come along … In response to the demand slowdown, 'Intel is deliberately putting on the brakes of tech innovation'".)
+  - **Rows 704, 705, 706, 707** Intel Prescott "top-of-the-line part at such a low price" + 300mm wafer advantage + prior $700 3-GHz pricing + "99.9% of consumer users don't need 64-bit parts today" → F9 InformationWeek / Darrell Dunn / 2004-02-02 'Intel Unveils Next-Generation Pentium 4 Processors'. **MERGED as new seq 666** (4-row internal merge).
+- **7 new canonical seqs**: 660 (F1), 661 (F2), 662 (F5), 663 (F6), 664 (F7), 665 (F8), 666 (F9). With 3 internal row merges (694=695=696, 698=699=700=701=702, 704=705=706=707), 16 source rows collapse to 7 canonical seqs.
+- CSV unchanged in row count: **1057 rows, 13 cols**, max `article_seq=666`, max row_id=1057.
+- All Batch 26-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Notable Batch 26 artifacts
+
+**Record-setting internal merge at seq 664 (F7 NewsFactor vPro)** — Five deferred mis-blob rows (698-702) all trace to a single continuous Mark Long article on Intel's September 2008 vPro refresh for SMBs. This is the largest single-article merge in the seq-361 cleanup arc.
+
+**Row 707 (now seq 666) "99.9% of consumer users don't need 64-bit parts today"** ties directly to Kastner's concurrent extended 64-bit forecast captured at **seq 651** (AMD.com authored-column, Sept 23, 2003, Batch 24). Taken together with seq 666 (Feb 2004 InformationWeek), the two pieces document Kastner's nuanced public position from Sept 2003-Feb 2004: 64-bit was inevitable in a multi-year horizon, but premature for mainstream consumer desktops in the immediate term. Actual mainstream Windows x64 installed-base crossover did not occur until ~2009-2011, tracking the Kastner forecast precisely.
+
+**Dual David L. Margulius / InfoWorld / July 18, 2003 feature** — F1 and F8 are two distinct articles (different URLs, different headlines, different narrative threads) by the same InfoWorld author published on the same day, together constituting an Intel 35th-anniversary feature package. F1 ("Intel or a competitor inside?") focuses on Intel's competitive landscape; F8 ("Intel turns 35: Now what?") is a retrospective / forward-look. Each gets its own canonical seq.
+
+### Seq 361 mis-blob FINAL STATUS
+
+- **35 of 36 rows resolved** across Batches 23-26 (rows 673-707 all reassigned).
+- **Row 708 remains at seq 361** — this row has empty `kastner_quotation`, `immediate_context`, and all downstream fields; only the bogus "book w/AMD Processor..." headline and Kastner-Blog attribution remain. Cannot be reassigned without quote-content to match against a source article. Left as-is as a permanent empty-content remnant of the original mis-blob.
+- **Seq 361 mis-blob cleanup effectively COMPLETE.** The second major mis-blob debt in the corpus (after the seq 109 mis-blob fully resolved in Batches 19-22) is now fully cleared aside from the single empty-content row 708.

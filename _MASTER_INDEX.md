@@ -141,6 +141,25 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 27 Quotations Update (10 mixed Intel/Wi-Fi webarchives; 12 new rows across 5 canonical seqs 667-671)
+
+**Scope:** 10 webarchives (mostly Intel-focused) — InternetNews Singer Intel Grantsdale 2004 / EnterpriseITPlanet Grantsdale sibling syndication (skip) / Network Computing Dunn Intel Prescott (CMP-sibling syndication of seq 666, skip) / Wi-Fi Planet Joyce Intel Centrino 2003 / Intelligent Enterprise Schwartz-Leon open-source databases 2004 / Washington Technology 1996 Internet-Networking (no Kastner, skip) / Wi-Fi Planet Sutherland Wi-Fi End Nigh 2003 / iTKO-Aberdeen webinar promo page (skip) / Janal Kalis blog repost of MIT Tech Review Freedman 2004 (duplicate of seq 181, skip) / Washington Times Kellner Jobs-health 2009 — spanning 2003-2009.
+
+- **Appended rows (12 new, row_ids 1058-1069):**
+  - **seq 667** (F1) InternetNews.com / Michael Singer / 2004-06-17 'Intel's Grantsdale: Kick the Tires First' — 1 row on 915/925 chipsets and integrated 3D graphics for low-end workstations.
+  - **seq 668** (F4) Wi-Fi Planet / Erin Joyce / 2003-03-12 'Intel's New Wireless Platform: Centrino' — **4-row internal series** covering 'biggest announcement of the year' + 20-22%→30% notebook share forecast + road-warrior battery life + 'lighting a match' platform-branding thesis.
+  - **seq 669** (F5) Intelligent Enterprise / Susana Schwartz & Mark Leon / 2004-05 — 1 row on open-source databases recommended for Java/Web apps, with Aberdeen market-sizing ($400M embedded / $150M mobile-desktop / $100M high-perf cache). First open-source-database row in the corpus.
+  - **seq 670** (F7) Wi-Fi Planet / Ed Sutherland / 2003-11-04 'Is the Wi-Fi End Nigh?' — **5-row internal series** covering Aberdeen's 'Urban Wi-Fi Crash of 2004' report: Starbucks-latte interference scenario + 300k-400k APs/month shipment rate + 'end of the Wi-Fi world is imminent' + 3-channel 802.11b/g root cause + hardware-replacement-cycle requirement.
+  - **seq 671** (F10) Washington Times / Mark Kellner / 2009-01-14 'Jobs health stirs tech world, and with reason' — 1 row. **First Facebook-sourced quote in the corpus** — Kastner's Facebook status on Jobs's medical leave ('watching Apple stock crater as poor Steve Jobs takes an LOA') as re-quoted by the Washington Times technology blogger.
+- **Files skipped in Batch 27**: F2 (EnterpriseITPlanet same-author internet.com sibling syndication of F1 Singer/Grantsdale), F3 (Network Computing Dunn Prescott — CMP-sibling syndication of Batch-26 seq 666), F6 (Washington Technology 1996 Internet piece — zero Kastner mentions), F8 (iTKO webinar promotional landing page — no quote text, per Batch 4 gated-whitepaper precedent), F9 (Janal Kalis blog repost of MIT Tech Review Freedman 'Gadgets in the Superchip Age' — already captured at seq 181 rows 345-347 under 'The Incredible Shrinking Gadget').
+- **5 new canonical seqs**: 667, 668, 669, 670, 671. With 2 internal multi-row series (seq 668 = 4 rows, seq 670 = 5 rows), 12 paragraph-level quotes distribute across 5 canonical article seqs.
+- CSV now **1069 rows, 13 cols**; max `article_seq=671`, max row_id=1069. All Batch 27-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Notable Batch 27 artifacts:**
+  - First Facebook-sourced corpus entry (seq 671) — expands captured-medium range to include social-media attribution channels (classified as `blog-post` content-type consistent with Washington Times blog hosting context).
+  - Aberdeen 'Urban Wi-Fi Crash of 2004' now documented across 2 independent publications (seq 621 Inc. magazine / Greenleaf + new seq 670 Wi-Fi Planet / Sutherland) with 6+ total quote rows — among the most thoroughly cross-published Aberdeen reports in the corpus.
+  - Centrino launch corpus now spans 3 viewpoints: Kastner's own InformationWeek column (seq 121), third-party enthusiast press (new seq 668 Wi-Fi Planet), and third-party general press (seq 654 US News, reassigned from seq-361 mis-blob in Batch 25).
+  - Headline-review candidate flagged for seq 181 — F9 suggests canonical MIT Technology Review print title may be 'Gadgets in the Superchip Age' rather than 'The Incredible Shrinking Gadget' as currently recorded. No edit made; flagged for future normalization pass.
+
 ### April 19, 2026 — Batch 26 Quotations Update (10 Intel webarchives; seq 361 mis-blob FINAL resolution — 35 of 36 rows)
 
 **Scope:** 10 Intel-focused webarchives — InfoWorld Margulius Intel-competitor 2003 / InternetNews Marer WiMax 2004 / PC World hyperthreading P4 (IDG syndication, skip) / Computerworld AU hyperthreading P4 (IDG syndication, skip) / Computerworld Krazit hyperthreading P4 canonical 2002 / MarketWatch Kraeuter Intel Q1 2003 / NewsFactor Long Intel vPro SMB 2008 / InfoWorld Margulius Intel-turns-35 2003 / InformationWeek Dunn Intel Prescott P4 2004 / ZDNet UK Broersma Intel-Aberdeen-attack-AMD (adjacent coverage, skip) — spanning 2002-2008.

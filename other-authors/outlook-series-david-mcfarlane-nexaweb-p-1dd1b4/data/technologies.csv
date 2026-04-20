@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"nexaweb-ucf","Nexaweb Universal Client Framework (UCF)","framework","Nexaweb Technologies","2006-2012","new","discontinued","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","Framework choosing Ajax or Java client at deploy time"
+"ajax-framework","Ajax (Asynchronous JavaScript and XML)","framework","industry","2005-present","new","legacy-supplanted","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","Web-app paradigm; name coined by Jesse James Garrett 2005"
+"java-platform","Java Platform","platform","Sun/Oracle","1995-present","mature","active","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","Java language + JVM; widely used"
+"microsoft-dotnet","Microsoft .NET Framework","framework","Microsoft","2002-present","new","active","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","Succeeded by .NET Core / .NET 5+"
+"section-508-accessibility","Section 508 Accessibility (Rehabilitation Act amendment)","framework","US Federal Government","1998-present","mature","active","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","Federal accessibility requirement for IT used by public sector"
+"soap-protocol","SOAP (Simple Object Access Protocol)","protocol","W3C","1998-present","mature","legacy-supported","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","XML-based web-services protocol"
+"rest-architecture","REST (Representational State Transfer)","protocol","industry","2000-present","mature","active","outlook-series-david-mcfarlane-nexaweb-p-1dd1b4","HTTP-based web-services style popularized by Roy Fielding 2000"

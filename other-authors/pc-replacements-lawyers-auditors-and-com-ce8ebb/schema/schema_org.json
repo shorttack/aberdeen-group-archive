@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC replacements: Lawyers, auditors and common sense",
+  "description": "First-person Kastner column published May 13, 2003 on SearchCIO.com. Kastner argues too many businesses have been hanging on to Windows 98 and NT Workstation 4 generation desktops, despite IT manager knowledge that these are past their prime, because CFOs and CEOs hoard cash by endlessly postponing capital asset replacement. Over 50 million aging pre-millennium PCs still in operation worldwide, many Y2k-generation Windows 98 / Windows 3.1 upgrades. Kastner invokes 'fiduciary responsibility' and 'common sense' to frame the CIO's case.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (special to SearchCIO.com, Aberdeen Group)"
+  },
+  "datePublished": "2003-05-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

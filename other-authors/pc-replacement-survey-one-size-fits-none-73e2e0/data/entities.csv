@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","pc-replacement-survey-one-size-fits-none-73e2e0","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","pc-replacement-survey-one-size-fits-none-73e2e0","EVP / chief research officer / research VP / director of research, Aberdeen Group; various titles 2003-2007"
+"intel-corporation","Intel Corporation","company","semiconductor","active","","1968-present","pc-replacement-survey-one-size-fits-none-73e2e0","Leading x86 CPU manufacturer"
+"internetweek","InternetWeek","firm","technology-media","dissolved","CMP Media / absorbed into InformationWeek circa 2004","1995-2004","pc-replacement-survey-one-size-fits-none-73e2e0","CMP publication that originated this column"
+"informationweek","InformationWeek","firm","technology-media","active","","1985-present","pc-replacement-survey-one-size-fits-none-73e2e0","CMP / UBM / Informa IT publication that re-hosted the InternetWeek column"
+"aberdeen-cdt-practice","Aberdeen Consumer Digital Technology Practice","firm","industry-analyst-practice","dissolved","Folded into Aberdeen core research","2002-2005","pc-replacement-survey-one-size-fits-none-73e2e0","Aberdeen practice area led by Kastner as EVP and CRO"

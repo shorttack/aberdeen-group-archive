@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-xp","Microsoft Windows XP","operating-system","Microsoft","2001-2014","new","end-of-life","pc-refresh-or-refurb-smb-computing-6-37f090","Client OS; dominant business desktop 2003-2010"
+"windows-98","Microsoft Windows 98","operating-system","Microsoft","1998-2006","mature","end-of-life","pc-refresh-or-refurb-smb-computing-6-37f090","Consumer OS; EOL July 2006"
+"windows-nt-4","Microsoft Windows NT Workstation 4.0","operating-system","Microsoft","1996-2004","mature","end-of-life","pc-refresh-or-refurb-smb-computing-6-37f090","Corporate desktop OS; EOL December 2004"
+"windows-xp-sp1","Windows XP Service Pack 1","operating-system","Microsoft","2002-2004","new","end-of-life","pc-refresh-or-refurb-smb-computing-6-37f090","First Windows XP service pack; released 2002-09; superseded by SP2 2004"

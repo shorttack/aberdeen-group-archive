@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PeopleSoft Bid Mirrors Lofty Goals of Oracle Chief",
+  "description": "New York Times Business section feature (June 11, 2003) by Steve Lohr analyzing Oracle's $5.1B hostile bid for PeopleSoft in the context of Larry Ellison's ambition to replicate Microsoft's desktop dominance in the corporate data center. Peter S. Kastner (director of research, Aberdeen Group) provides the key analytical frame: the enterprise software market is 'way too complex, with way too many suppliers in the corporate kitchen,' and consolidation is needed. Kastner further argues 'Microsoft is heading inexorably upstream' and that keeping Microsoft from gaining data center share is a crucial strategic objective for Oracle.",
+  "creator": {
+    "@type": "Person",
+    "name": "Steve Lohr (The New York Times)"
+  },
+  "datePublished": "2003-06-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

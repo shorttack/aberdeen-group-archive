@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Refresh or Refurb?",
+  "description": "SmallBusinessComputing.com feature (mid-2003) on the case for small-business PC refresh vs. refurbishment, framed around Windows XP Service Pack 1's stability. Aberdeen analyst Peter S. Kastner endorses mid-2003 as an auspicious time to start or accelerate a PC replacement cycle with Windows XP, notes Aberdeen itself refreshed on the same rationale, and advises that small businesses lacking full-time IT staff should crank up the planning for the recession-disrupted PC replacement cycle. Microsoft product manager Greg Sullivan contributes the vendor view on XP for small business.",
+  "creator": {
+    "@type": "Person",
+    "name": "SmallBusinessComputing.com (internet.com)"
+  },
+  "datePublished": "2003-06-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,90 @@
+# PeopleSoft Bid Mirrors Lofty Goals of Oracle Chief
+
+> Archived from: PeopleSoft-Bid-Mirrors-Lofty-Goals-of-Oracle-Chief-The-New-York-Times-11.webarchive
+> Original publication date: 2003-06-11
+> Author: Steve Lohr (The New York Times)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.nytimes.com/2003/06/11/business/peoplesoft-bid-mirrors-lofty-goals-of-oracle-chief.html?sec=&spon=&pagewanted=all
+MIME: text/html
+
+PeopleSoft Bid Mirrors Lofty Goals of Oracle Chief - The New York Times Get Started No, thanks Welcome to TimesPeople What’s this? Latest Activity TimesPeople Lets You Share and Discover the Best of NY... 6:51 pm My Account Welcome, pskastner Log Out Help Manage My Account My Alerts Today's Articles Create Alert Manage Alerts TimesPeople Home Page Today's Paper Video Most Popular Times Topics Search All NYTimes.com Business World U.S. N.Y. / Region Business Technology Science Health Sports Opinion Arts Style Travel Jobs Real Estate Autos Advertise on NYTimes.com PeopleSoft Bid Mirrors Lofty Goals of Oracle Chief By STEVE LOHR Published: Wednesday, June 11, 2003 Sign in to Recommend E-Mail Print Reprints Share Close Linkedin Digg Facebook Mixx MySpace Yahoo! Buzz Permalink Lawrence J. Ellison, the 58-year-old chairman of Oracle, whose hobbies include yachting and piloting jet-fighter planes, has earned his reputation as one of the most flamboyant and outspoken executives in corporate America. His brash public pronouncements -- whether vilifying a rival like Microsoft or declaring that Silicon Valley is finally growing old -- tend to be taken with a handful of salt. Oh, that's just Larry, is a common reaction in the industry to what are seen as Mr. Ellison's antics. Oracle's $5.1 billion bid last week for PeopleSoft, a maker of business software, seems to bear some of the eccentric touches so characteristic of Mr. Ellison. It is a rare hostile takeover attempt in the software business, the price looks low, and Mr. Ellison has expressed little interest in PeopleSoft's products. But regardless of whether it succeeds, the bid reflects a step in Mr. Ellison's plan to make Oracle the dominant presence in the market for software used by corporations. And his strategy comes straight from the playbook of his longtime adversary, Microsoft. Mr. Ellison's goal is to achieve in corporate data centers what Microsoft has accomplished with desktop personal computers. Microsoft's business began with the operating system -- first MS-DOS and then Windows -- a basic technology platform on which software developers write applications. Microsoft then developed personal productivity applications software for word processing and spreadsheets. But Microsoft did not dominate in those applications until they were bundled and aggressively priced in a suite of programs called Microsoft Office that worked best with Windows. Mr. Ellison sees his company's mainstay product, the Oracle database, as the corporate computing equivalent of the Windows operating system. On top of the database run a series of what are known as enterprise applications, which corporations use to automate business tasks like accounting and procurement as well as customer relations and human resources programs. In recent years, Oracle has been gradually building up its own stable of enterprise applications, which it calls the Oracle e-Business Suite. PeopleSoft, whose software is used to manage human resources and other tasks, would enlarge Oracle's corporate applications business. Mr. Ellison has said he is most interested in PeopleSoft's customers, and someday having them move their business over to Oracle products. Mr. Ellison explains his strategy in terms of the Microsoft experience -- which means putting together an integrated collection of software applications as the way to prevail in a given market. ''Microsoft was busily competing with Lotus in spreadsheets and it was unsuccessful,'' Mr. Ellison said in an interview a few weeks ago. ''It was competing against WordPerfect in word processing, and Microsoft was unsuccessful. Eventually, Office came out and Microsoft dominated.'' ''I think there are just these natural synergies between the database and the applications, like there are natural synergies between the desktop operating system and personal productivity applications,'' Mr. Ellison continued. ''And that's our strategy -- be a large player in both of those sectors, and gain tremendous economies of scale as a result that no one else really can gain.'' Whether Oracle's bid for PeopleSoft succeeds or fails, the Ellison strategy makes sense, according to industry analysts. The corporate software business does appear ripe for consolidation. And one way corporate customers are trying to curb spending on technology is to deal with fewer suppliers and fewer kinds of software. ''Larry Ellison makes an eloquent argument that corporate software is way too complex, with way too many suppliers in the corporate kitchen, so to speak,'' said Peter S. Kastner, the director of research at the Aberdeen Group, a consulting firm. Mr. Ellison is by no means the only software executive making that argument. SAP, a big German company, is the market leader in business software. Its stronghold is in software for accounting and procurement. But it is also gaining strongly as a vendor of human resources programs, where PeopleSoft has done well, and in customer relationship management software, where Siebel Systems is the leader. Hennig Kagermann, the chief executive of SAP, expects further consolidation in the enterprise software business. But in his view, the inevitable consolidation should not extend to database software. ''I think Oracle is wrong in trying to put everything on one database,'' Mr. Kagermann said. Oracle may be pursuing a Microsoft-like strategy, but the corporate market is more diverse and less likely to be dominated by a single company. Microsoft's Windows and Office hold more than 90 percent of the markets for PC operating systems and desktop software, respectively. By contrast, if Oracle acquires PeopleSoft, it will hold about 11 percent of the market for business software that handles accounting, procurement and other tasks, which had sales of $23.5 billion last year, according to the International Data Corporation, a research firm. SAP, the leader in that market, has an 18 percent share. Companies have to do a lot of costly modifications to basic software and often pay computer services specialists, like I.B.M.'s global services unit, to fine-tune programs to meet the needs of their customers. That, analysts say, makes it more difficult for companies to switch, say, from PeopleSoft software to a competing one from Oracle or SAP. Mr. Ellison is certain to be headed toward a confrontation with Microsoft in the corporate applications market. The two companies already compete fiercely in corporate database software, where Oracle competes with Microsoft's SQL database. But in corporate applications, Oracle and Microsoft are headed toward each other -- Oracle moving from the top down, with its big corporate users, and Microsoft going from the bottom up, with its strength in small businesses and control of the desktop. In the last few years, Microsoft has acquired Great Plains and Denmark's Navision. Both make business software, but mainly for medium-size businesses. Oracle, by contrast, sells to big corporations. ''But you can be sure that Microsoft is heading inexorably upstream,'' said Mr. Kastner of Aberdeen. ''And keeping Microsoft from gaining a greater share of the data center market is a crucial strategic objective for Oracle.'' A version of this article appeared in print on Wednesday, June 11, 2003, on section C page 1 of the New York edition. More Articles in Business > Ads by Google what's this? Check Printing Software Print Checks Securely on Blank Check Paper. Call For Demo! www.Printech.com PeopleSoft Consulting Easy eForms and Workflow for PeopleSoft. www.gideontaylor.com Hire Oracle DBA's Here Hire Certified & Advanced Degreed 9i,10g,11g Experts for Your Project www.Alliance-Micro.com <SCRIPT type="text/javascript" SRC="http://ad.doubleclick.net/adj/N815.nytimes/B3546409.4;sz=336x280;click=http://www.nytimes.com/adx/bin/adx_click.html?type=goto&page=www.nytimes.com/archive/article/business&pos=MiddleRight&camp=IBM_LOBq2CSuiteAgenda-1113923-nyt2&ad=IBM_LOBq2CSA.Clevel.dart336x280&sn2=483c6d6c/73bafec6&snr=doubleclick&snx=1245105925&sn1=62d271e0/5111f297&goto=;ord=2009.06.15.22.51.41?"> </SCRIPT> <NOSCRIPT> <A HREF="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&page=www.nytimes.com/archive/article/business&pos=MiddleRight&sn2=483c6d6c/73bafec6&sn1=a217c071/1efe9281&camp=IBM_LOBq2CSuiteAgenda-1113923-nyt2&ad=IBM_LOBq2CSA.Clevel.dart336x280&goto=http://ad.doubleclick.net/jump/N815.nytimes/B3546409.4;sz=336x280;ord=2009.06.15.22.51.41?" TARGET="_blank"> <IMG SRC="http://ad.doubleclick.net/ad/N815.nytimes/B3546409.4;sz=336x280;ord=2009.06.15.22.51.41?" BORDER=0 WIDTH=336 HEIGHT=280 ALT="Click Here"></A> </NOSCRIPT> MOST POPULAR - BUSINESS E-Mailed Blogged Checkmate at the Yellowstone Club Even Forbes Is Pinching Pennies Use Their Work Free? Some Artists Say No to Google A World of Risk for a New Brand of Journalist Building a Portfolio That Will Stay Afloat When Inflation Returns Insurance Giant A.I.G. Takes Ex-Chief to Court A New Entry Stakes Out Low-Budget Film Economic Scene: America’s Sea of Red Ink Was Years in the Making Your Money: F.D.I.C. Is Watching as a Bank Sets Rates Economic View: Something’s Got to Give in Medicare Spending Go to Complete List » Sea of Red Ink: How It Spread From a Puddle Something's Got to Give in Medicare Spending Supreme Court Delays Sale of Chrysler to Fiat Senate Votes to Impose U.S. Regulation on Tobacco Treasury Lets 10 Big Banks Start to Repay Bailout Money White House Appoints Czar to Oversee Executive Pay World Bank Sees Economy Contracting 3% This Year A.P. in Deal to Deliver Nonprofits' Journalism Fiat Completes Acquisition of Chrysler Assets Boston Globe Union Rejects Wage and Benefits Cuts Go to Complete List » Dudes doing Vegas Also in Movies » Francis Ford Coppola's "Tetro" Eat, drink, think, change Sea of Humanity in St. Louis - 2008 Buy Now Related Ads What are Related Ads? » Day Care Business Plan » Onyx Software » Oracle 6I » Oracle Books » Microsoft OLAP Inside NYTimes.com Media & Advertising » Even Forbes Is Pinching Pennies Opinion » Letters: Second Opinions on Medical Tourism Music » Retailing Era Closes With Music Megastore Opinion » Editorial: Domestic Workers The New York Legislature should support a Domestic Workers’ Bill of Rights. U.S. » Plan for Salvation Army Centers Falters World » Gay Festival in China Pushes Official Limits Music » Generations Mingle at This Year’s Bonnaroo Opinion » Room for Debate: Too Much Student Debt? Books » ‘Byron in Love — A Short Daring Life’ Opinion » Editorial Observer: Risk of ‘Driving While Black’ How deep-seated bias remains an obstacle to a ‘postracial’ America. Week in Review » Republicans Rethinking the Reagan Mystique Education » No Longer Letting Scores Separate Pupils Home World U.S. N.Y. / Region Business Technology Science Health Sports Opinion Arts Style Travel Jobs Real Estate Autos Back to Top Copyright 2009 The New York Times Company Privacy Policy Search Corrections RSS First Look Help Contact Us Work for Us Advertise with Us Site Map
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec |
+| title | PeopleSoft Bid Mirrors Lofty Goals of Oracle Chief |
+| author | Steve Lohr (The New York Times) |
+| date | 2003-06-11 |
+| type | news-article |
+| subject_domain | enterprise-software-ma |
+| methodology | industry-analysis, competitive-profiling, expert-opinion |
+| source_file | PeopleSoft-Bid-Mirrors-Lofty-Goals-of-Oracle-Chief-The-New-York-Times-11.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+New York Times Business section feature (June 11, 2003) by Steve Lohr analyzing Oracle's $5.1B hostile bid for PeopleSoft in the context of Larry Ellison's ambition to replicate Microsoft's desktop dominance in the corporate data center. Peter S. Kastner (director of research, Aberdeen Group) provides the key analytical frame: the enterprise software market is 'way too complex, with way too many suppliers in the corporate kitchen,' and consolidation is needed. Kastner further argues 'Microsoft is heading inexorably upstream' and that keeping Microsoft from gaining data center share is a crucial strategic objective for Oracle.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Front-page NYT coverage of a defining hostile bid in enterprise software M&A; Kastner analyst framing (corporate-kitchen consolidation + Microsoft-upstream threat) was the dominant interpretation of Oracle strategy for the subsequent decade. |
+| **Relevance** | medium | ERP consolidation and Oracle vs. Microsoft/SAP dynamics remain live themes but now include cloud / SaaS overlays not present in 2003. |
+| **Prescience** | high | Kastner was right on both points: enterprise software consolidated dramatically (Oracle acquired PeopleSoft 2005, Siebel 2006, Sun 2010, NetSuite 2016); Microsoft moved inexorably upstream into business applications (Dynamics, SQL Server in data center, Azure SQL, Fabric). |
+
+### Prescience Detail
+
+
+**Prediction 1:** Microsoft heading upstream
+- **Claimed:** But you can be sure that Microsoft is heading inexorably upstream. And keeping Microsoft from gaining a greater share of the data center market is a crucial strategic objective for Oracle.
+- **Year:** 2003
+- **Confidence at time:** high
+
+
+### Entities Referenced (13)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Oracle Corporation | company | active |  |
+| Microsoft Corporation | company | active |  |
+| PeopleSoft, Inc. | company | acquired | Oracle (2005) |
+| SAP AG | company | active |  |
+| Siebel Systems | company | acquired | Oracle (2006) |
+| International Business Machines Corporation | company | active |  |
+| Lawrence J. Ellison | person | active |  |
+| Steve Lohr | person | active |  |
+| Craig Conway | person | active |  |
+| Henning Kagermann | person | active |  |
+| The New York Times | firm | active |  |
+
+### Technologies Referenced (7)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Oracle Database | application | Oracle | mature | active |
+| PeopleSoft Enterprise Applications | application | PeopleSoft | mature | legacy-supported |
+| Microsoft Windows (operating system) | operating-system | Microsoft | mature | active |
+| Microsoft Office | application | Microsoft | mature | active |
+| SAP R/3 / SAP ERP | application | SAP | mature | active |
+| Siebel CRM | application | Siebel/Oracle | mature | legacy-supported |
+| Oracle e-Business Suite | application | Oracle | mature | legacy-supported |
+
+### Observation Summary
+
+- Total observations: 8
+- By type: actual-outcome: 3, expert-opinion: 2, viability-prediction: 1, corporate-action: 1, market-positioning: 1

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sarbanes-oxley","Sarbanes-Oxley Act (SOX)","framework","US Federal Government","2002-present","new","active","pc-management-best-practices-page-2-5-962daf","US public-company accounting / internal-controls law"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","pc-management-best-practices-page-2-5-962daf","Desktop/server OS family"
+"pc-lifecycle-management","PC lifecycle management (TCO framework)","framework","industry","1990s-present","mature","active","pc-management-best-practices-page-2-5-962daf","3-year desktop replacement framework; COSO/SAC auditor frameworks"
+"coso-framework","COSO Internal Controls Framework","framework","COSO","1992-present","mature","active","pc-management-best-practices-page-2-5-962daf","Committee of Sponsoring Organizations internal controls framework"
+"sac-model","SAC (Systems Auditability and Control) model","framework","IIARF","1977-present","mature","active","pc-management-best-practices-page-2-5-962daf","IIARF IT audit framework"

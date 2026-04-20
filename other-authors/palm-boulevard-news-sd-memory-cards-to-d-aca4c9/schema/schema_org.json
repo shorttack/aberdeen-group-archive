@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SD Memory Cards to Drive Market for Digital Content",
+  "description": "Palm Boulevard news feature (2003-10-28) reporting on Aberdeen Group's 'Consumer Adoption of Memory Cards: A Qualitative Study.' The study credits SD memory cards with leading all other formats in both number of products and categories (1,300+ SD-enabled products) and holding approximately 25% US market share. Peter Kastner (EVP and chief research officer, Aberdeen Group) argues SD cards will continue becoming a widespread means of storing and transporting digital content, given the combination of technology and widespread industry support.",
+  "creator": {
+    "@type": "Person",
+    "name": "Palm Boulevard / PDAStreet (internet.com)"
+  },
+  "datePublished": "2003-10-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

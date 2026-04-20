@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sd-memory-card","SD Memory Card (Secure Digital)","platform","SD Association","2000-present","new","mature","palm-boulevard-news-sd-memory-cards-to-d-aca4c9","Dominant flash removable-memory form factor for consumer electronics"
+"mmc-card","MultiMediaCard (MMC)","platform","MMC Association","1997-2010","mature","end-of-life","palm-boulevard-news-sd-memory-cards-to-d-aca4c9","Predecessor to SD; largely displaced by SD"
+"compactflash","CompactFlash (CF)","platform","CompactFlash Association","1994-present","mature","legacy-supported","palm-boulevard-news-sd-memory-cards-to-d-aca4c9","Flash memory card; retained in pro cameras but supplanted by SD/CFexpress in consumer"
+"memory-stick","Sony Memory Stick","platform","Sony","1998-2013","mature","end-of-life","palm-boulevard-news-sd-memory-cards-to-d-aca4c9","Sony proprietary flash card; discontinued in favor of SD"
+"smartmedia","SmartMedia card","platform","Toshiba/SSFDC Forum","1995-2006","mature","end-of-life","palm-boulevard-news-sd-memory-cards-to-d-aca4c9","Flash memory card; largely discontinued by 2006"

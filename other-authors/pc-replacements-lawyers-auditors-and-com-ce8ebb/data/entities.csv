@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","EVP / chief research officer / research VP / director of research, Aberdeen Group; various titles 2003-2007"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","Redmond WA software company"
+"searchcio","SearchCIO.com","firm","technology-media","active","","2000-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","TechTarget CIO-focused publication"
+"techtarget","TechTarget, Inc.","firm","technology-media","acquired","Informa Tech (2022)","1999-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","SearchCIO parent"
+"ford-motor","Ford Motor Company","company","automotive","active","","1903-present","pc-replacements-lawyers-auditors-and-com-ce8ebb","Invoked by Kastner as lifecycle analogy: 'Ford only guarantees spare parts for five years after a car is built'"

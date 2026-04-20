@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","pc-replacement-survey-one-size-fits-none-73e2e0","Desktop/server OS family"
+"windows-98","Microsoft Windows 98","operating-system","Microsoft","1998-2006","mature","end-of-life","pc-replacement-survey-one-size-fits-none-73e2e0","Consumer OS; EOL July 2006"
+"windows-nt-4","Microsoft Windows NT Workstation 4.0","operating-system","Microsoft","1996-2004","mature","end-of-life","pc-replacement-survey-one-size-fits-none-73e2e0","Corporate desktop OS; EOL December 2004"
+"windows-xp","Microsoft Windows XP","operating-system","Microsoft","2001-2014","new","end-of-life","pc-replacement-survey-one-size-fits-none-73e2e0","Client OS; dominant business desktop 2003-2010"
+"intel-pentium-4","Intel Pentium 4 processor","platform","Intel","2000-2008","new","end-of-life","pc-replacement-survey-one-size-fits-none-73e2e0","NetBurst microarchitecture desktop CPU"
+"corporate-desktop-pc","Corporate mainstream desktop PC","platform","industry","1981-present","mature","active","pc-replacement-survey-one-size-fits-none-73e2e0","Standard business desktop PC"
+"corporate-laptop-pc","Corporate laptop PC","platform","industry","1985-present","mature","active","pc-replacement-survey-one-size-fits-none-73e2e0","Standard business laptop"

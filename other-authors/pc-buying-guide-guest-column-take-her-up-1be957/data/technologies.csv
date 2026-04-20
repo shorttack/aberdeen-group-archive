@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-pentium-4","Intel Pentium 4 processor","platform","Intel","2000-2008","new","end-of-life","pc-buying-guide-guest-column-take-her-up-1be957","NetBurst microarchitecture desktop CPU"
+"corporate-desktop-pc","Corporate mainstream desktop PC","platform","industry","1981-present","mature","active","pc-buying-guide-guest-column-take-her-up-1be957","Standard business desktop PC"

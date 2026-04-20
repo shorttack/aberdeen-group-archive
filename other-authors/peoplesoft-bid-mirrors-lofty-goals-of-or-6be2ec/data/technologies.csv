@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oracle-database","Oracle Database","application","Oracle","1979-present","mature","active","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","Flagship RDBMS"
+"peoplesoft-erp","PeopleSoft Enterprise Applications","application","PeopleSoft","1987-2013","mature","legacy-supported","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","HR, financials, CRM; later rolled under Oracle Applications Unlimited"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","Desktop/server OS family"
+"microsoft-office","Microsoft Office","application","Microsoft","1990-present","mature","active","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","Office productivity suite"
+"sap-r3","SAP R/3 / SAP ERP","application","SAP","1992-present","mature","active","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","German ERP flagship; dominant enterprise accounting/procurement"
+"siebel-crm","Siebel CRM","application","Siebel/Oracle","1993-present","mature","legacy-supported","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","Customer relationship management; acquired by Oracle 2006"
+"oracle-ebusiness-suite","Oracle e-Business Suite","application","Oracle","2000-present","mature","legacy-supported","peoplesoft-bid-mirrors-lofty-goals-of-or-6be2ec","Oracle enterprise applications bundle pre-Fusion"

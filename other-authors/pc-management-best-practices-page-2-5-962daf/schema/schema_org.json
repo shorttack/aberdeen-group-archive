@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Management Best Practices: A Study of the Total Cost of Ownership, Risk, Security, and Audit (IIA Research Foundation feature)",
+  "description": "The Institute of Internal Auditors Research Foundation biannual RF Report (February 2004, Issue No. 6) featuring the Foundation's new research report 'PC Management Best Practices: A Study of the Total Cost of Ownership, Risk, Security, and Audit' by Mark Salamasick and Charles Le Grand (2003). Peter Kastner (EVP and chief research officer, Aberdeen Group) is quoted from a technology forum: vulnerable machines may be called negligence; older PCs actually cost more to operate; and the optimal desktop lifecycle is three years, matching the duration of a standard warranty.",
+  "creator": {
+    "@type": "Person",
+    "name": "The IIA Research Foundation (RF Report, Issue No. 6)"
+  },
+  "datePublished": "2004-02-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

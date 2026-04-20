@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PC Buying Guide Guest Column: 'Take Her Up to 2.4 GHz, Mr. Scott'",
+  "description": "Short Kastner guest column from InternetWeek (January 7, 2003), mirrored on Techno-News Blog. Kastner observes that the prior corporate-standard 2.0-GHz Pentium 4 has been displaced in just three months: Dell, HP, and IBM all added the 2.4-GHz Pentium 4 to the single-price lower Pentium 4 tier, so corporate IT managers ordering a 1.8-, 2.0-, 2.2-, or 2.4-GHz desktop all pay the same price at checkout. Short-form memoir-style commentary on the 2002-2003 CPU clock-speed race.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (InternetWeek guest column, via Techno-News Blog)"
+  },
+  "datePublished": "2003-01-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

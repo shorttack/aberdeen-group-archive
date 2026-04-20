@@ -141,6 +141,15 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 14 Quotations Update
+
+- **NYT 1981 attribution fix** — rows 469 & 470 (`article_seq=196`) previously mis-labeled "IBM Lands Navy Supercomputer Deal / E-Commerce Times / Keith Regan / 2004-07-27" re-attributed to the correct source: *The New York Times*, 1981-03-20, "Defense Industry Gearing Up" by Pamela G. Hollie. Kastner quoted as "government market planner for Prime Computer Inc. of Natick, Mass." Row 470's broken Quote-1 fragment ("anufacturing is becoming increasingly important…") replaced with Quote 2 ("Weapons are more sophisticated…Missiles have to be smart enough to fly from here to Moscow at 100 feet above the ground without human intervention."). These are the earliest dated Kastner quotations now in the quotations corpus (Prime Computer era, 10 years before his Aberdeen co-founding).
+- **2 new rows added** (rows 1003, 1004 / seqs 583, 584):
+  - DC Velocity Feb 2003 "Soft growth seen for software" — Kastner Aberdeen newsletter excerpt forecasting 4% 2003 worldwide IT-spending growth with a prescient read on post-war/oil CEO caution.
+  - Digital / NCI 1997-03-24 StrongARM Reference Design press release — Kastner quoted on the joint Digital-StrongARM + NCI NC Access platform for network computers.
+- **Known cleanup debt** — `article_seq=196` still holds 28 rows mis-labeled to the same IBM/E-Commerce Times headline. Rows 469, 470 corrected in this batch; the other 26 rows (462, 468, 471-494) span ~7 distinct 2003-2005 source articles (Forbes Dell 3Q, ServerWatch Itanium, PC World Windows-drop, MarketWatch Dell growth, Computerworld Dell printers, asset-recovery/Cisco router passages) and are deferred to a dedicated cleanup batch.
+- CSV now **1004 rows, 13 cols**; max `article_seq=584`. All rows pass QUOTE_ALL / 13-col / enum validation.
+
 ### April 10, 2026 — Archives 5, 6, 7 Added (25 new studies)
 
 **Archive 5** (11 studies): Mixed Kastner collection including memoirs, IBM sales training benchmarks, white papers, and a personality profile. Notable items: RS/6000 RDBMS sales training deck (1995), Power Academy RDBMS competitive analysis (1996), two career memoirs (2025), and a 16PF psychometric assessment (2001).

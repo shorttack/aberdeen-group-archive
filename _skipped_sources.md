@@ -505,3 +505,34 @@ Batch 23 resolved 6 of the 36 rows (673-678). The remaining **30 rows (679-708)*
 - 708: (row content truncated in sampling)
 
 **Recovery strategy:** As future webarchive batches surface matching source articles (by quote-phrase search), reassign rows incrementally, following the same pattern used for the seq-109 resolution arc (Batches 19-22).
+
+---
+
+## Batch 24 skips (2026-04-19)
+
+### Files skipped (duplicates / upstream-source files already in CSV)
+
+- **F1** (IBM-throws-weight-behind-Intel's-64-bit-strategy-Print, ZDNet.co.uk) — Print-version URL `zdnet.co.uk/misc/print/0,1000000169,2134083-39001058c` of the same Shankland Itanium article captured at F2. Byte-equivalent text. SKIP as duplicate of F2.
+- **F3** (IBM-unveils-Wi-Fi-network-printer-adapter, Computerworld articleId=79704) — Canonical Computerworld Bob Brewin 2003-03-25 article. Already captured as seq 644 row 1049 from Batch 23 (F7 wi-fitechnology.com republication). This batch used F3 only to confirm the canonical headline (applied as a headline correction to seq 644: 'IBM introduces "plug-and-print"...' → 'IBM unveils Wi-Fi network printer adapter, dismisses Dell printer plans').
+- **F6** (IBM's Itanium server goes on sale, CNET News.com `/2100-1010_3-998878`) — Canonical CNET Stephen Shankland 2003-04-29 article. Already captured as seq 142 row 290. Seq-361 mis-blob rows 679 and 680 merged into seq 142 in this batch.
+- **F7** (IBM's Printers Go Wireless, PCWorld `article/109991`) — PCWorld IDG-syndication of the same Brewin Computerworld article (F3). Identical body + byline ("Bob Brewin, Computerworld / Mar 25, 2003 7:00 pm"). Per corpus convention, downstream IDG syndications do not get distinct rows when the canonical IDG publication is already captured. SKIP.
+
+### Batch 24 CSV delta
+
+- **+4 new rows** (row_id 1051-1054): seq 648 (F2 ZDNet UK 2003-04-30 Shankland Itanium syndication), seq 649 (F4 SearchCIO Evans-Correia 2004-02-11 IBM-NT-Linux), seq 650 (F8 Wired Batista 2002-12-23 IDC predictions), seq 651 (F9 AMD.com Kastner 2003-09-23 authored 64-bit column).
+- **4 seq-361 mis-blob rows reassigned**:
+  - Rows 679, 680 → MERGED into existing seq 142 (CNET Shankland Itanium article)
+  - Row 681 → new seq 646 (F5 InformationWeek Johnston 1999-05-21 NT clusters)
+  - Row 682 → new seq 647 (F10 InformationWeek Davis 1999-07-19 CA/Platinum)
+- **1 headline correction** on Batch 23 seq 644 row 1049 (Computerworld Brewin): title corrected to canonical per F3.
+- **6 new seqs assigned**: 646 (F5), 647 (F10), 648 (F2), 649 (F4), 650 (F8), 651 (F9).
+- CSV now **1054 rows, 13 cols**, max `article_seq=651`, max row_id=1054.
+- All Batch 24-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+
+### Notable Batch 24 artifact
+
+**Seq 651 (F9 AMD.com)** is a rare example of a **first-person Kastner authored column** published on AMD's website around the Athlon 64 launch (Sept 23, 2003). Content_type is `authored-column` (not `online-article`). The forecast accuracy is extraordinarily high across the memory-trajectory and 64-bit-tipping-point predictions (2-4 GB tipping point, 2010 mainstream 64-bit majority, 64-bit consumer desktop OS support within a year), with one notable miss: the 10 GHz+ processor-speed forecast (the industry pivoted to multi-core in 2004-2005 instead of continuing frequency scaling).
+
+### Seq 361 mis-blob progress
+
+Rows 673-682 now resolved across Batches 23-24 (10 of 36). Rows 683-708 remain deferred. Per prior pattern, the remaining rows will be resolved incrementally as matching source articles surface in future batches.

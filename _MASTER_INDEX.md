@@ -141,6 +141,26 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — Batch 24 Quotations Update (IBM/Itanium/64-bit webarchives; seq 361 mis-blob continued)
+
+**Scope:** 10 webarchives — 2 ZDNet UK (Shankland Itanium reprints) / Computerworld Brewin IBM Wi-Fi printer / SearchCIO IBM-NT-Linux / InformationWeek IBM-MSFT NT clusters 1999 / CNET Shankland Itanium / PCWorld Brewin reprint / Wired IDC predictions 2002 / AMD.com Kastner authored 64-bit column / InformationWeek CA-Platinum 1999 — spanning 1999-2004.
+
+- **Seq 361 cleanup continued (4 rows)** — Batch 24 resolves rows 679-682, all previously mis-stamped to 'book w/AMD Processor... / Kastner Blog / no date':
+  - **Row 679** 'IBM had to have a strong Intel 32-bit and 64-bit product line...' → CNET News.com Stephen Shankland 2003-04-29 'IBM's Itanium Server Goes on Sale'. **MERGED into existing seq 142** (row 290 already captures the lead quote from this article).
+  - **Row 680** 'IBM's Itanium support trails that of rival Hewlett-Packard, which is betting the company on Itanium' → same Shankland article, continuation quote. **MERGED into seq 142.**
+  - **Row 681** 'Our research shows an increasing number of enterprise customers are not only embracing NT-based clustering...' → F5 InformationWeek Stuart J. Johnston 1999-05-21 'IBM, Microsoft Team On NT Clusters'. **New seq 646.**
+  - **Row 682** 'CA hasn't been a major player in the data warehousing space...' → F10 InformationWeek Beth Davis 1999-07-19 'Next Computer Associates'. **New seq 647.**
+- **New articles (4 appended rows, row_ids 1051-1054):**
+  - **seq 648** (F2) ZDNet UK / 2003-04-30 — syndication of Shankland Itanium piece (distinct syndicated republishing of seq 142).
+  - **seq 649** (F4) SearchCIO (TechTarget) / Kate Evans-Correia / 2004-02-11 'IBM, ISVs lure NT users with Linux' — Kastner skeptical of mass NT-to-Linux migration.
+  - **seq 650** (F8) Wired News / Elisa Batista / 2002-12-23 'IDC: Tech Bucks, Hack Threats Up' — Kastner pegs IT spending growth at 3% vs IDC's 6%+ forecast.
+  - **seq 651** (F9) AMD.com / Peter S. Kastner / 2003-09-23 'Industry Analyst Visionaries: 64-bit Computing' — authored-column format; extended first-person forecast of consumer 64-bit adoption through 2010.
+- **Headline correction on seq 644 row 1049** (Batch 23 Brewin row): updated from 'IBM introduces "plug-and-print" wireless LAN adapter' to canonical 'IBM unveils Wi-Fi network printer adapter, dismisses Dell printer plans' (Computerworld articleId=79704 canonical title confirmed by F3 this batch).
+- **Files skipped in Batch 24**: F1 (ZDNet UK print-version of F2 — same Shankland article), F3 (canonical Computerworld Brewin — already at seq 644 from Batch 23; this batch only used F3 to confirm canonical headline), F6 (CNET original — already at seq 142 row 290), F7 (PCWorld IDG-syndication of F3 Brewin piece).
+- **Remaining seq 361 mis-blob: 26 rows still deferred** (683-708). Known topics: Informix (683, 684), field-of-dreams retail (685), home broadband/wireless (686), Itanium 2 performance vs Sun (687-691), semiconductor capacity (692), telco Internet-crash (693), 3-GHz P4 (694), Word/Photoshop multithreading (695, 696), economic outlook (697), remote-worker security (698, 699), Intel vPro (700-702), Intel chip speed-bumps (703-706), 64-bit consumer need (707), row 708.
+- CSV now **1054 rows, 13 cols**; max `article_seq=651`. All Batch 24-scope rows pass QUOTE_ALL / 13-col / content_type / is_predictive / prescience_score enum validation.
+- **Mis-blob tally (updated):** Seq 109 FULLY RESOLVED (Batches 19-22). **Seq 361: 10 of 36 rows resolved (Batches 23-24); 26 rows remain deferred.** Four older prior mis-blobs cleaned (seqs 196/194/104/106-partial).
+
 ### April 19, 2026 — Batch 23 Quotations Update (HP/IBM webarchives; seq 361 mis-blob partial resolution)
 
 **Scope:** 10 webarchives — CNET Skulltrail (skip) / CRN HP Q1 / NetworkWorld HP-Compaq / CNN/Money HP consumer push / Advisor IBM-Linux / Computing IBM-Java / Wi-Fi Technology Forum IBM printer adapter / Onlypunjab TechNewsWorld IBM Power / 2 MarketWatch IBM Q2 2003 earnings — spanning 1996-2004. **Discovered a new mis-blob at seq 361** (36 rows with bogus 'book w/AMD Processor, 2GB Memory, 160GB Hard Drive' headline, pub='Kastner Blog', empty date). Six of the 36 seq-361 rows (673-678) map directly to Batch 23 source articles and are re-attributed.

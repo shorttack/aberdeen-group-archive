@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"nexaweb-ucf","Nexaweb Universal Client Framework (UCF)","framework","Nexaweb Technologies","2006-2012","new","discontinued","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","Framework choosing Ajax or Java client at deploy time"
+"nexaweb-ew20","Nexaweb Enterprise Web 2.0 Suite","platform","Nexaweb Technologies","2005-2012","new","discontinued","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","Ajax/Java RIA platform; Nexaweb exited in 2012"
+"ajax-framework","Ajax (Asynchronous JavaScript and XML)","framework","industry","2005-present","new","legacy-supplanted","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","Web-app paradigm; name coined by Jesse James Garrett 2005"
+"java-platform","Java Platform","platform","Sun/Oracle","1995-present","mature","active","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","Java language + JVM; widely used"
+"adobe-flash","Adobe Flash / Macromedia Flash","platform","Adobe (Macromedia)","1996-2020","mature","end-of-life","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","RIA runtime; officially EOL 2020-12-31"
+"microsoft-dotnet","Microsoft .NET Framework","framework","Microsoft","2002-present","new","active","nexaweb-announces-ucf-nexaweb-dev-center-6b97d4","Succeeded by .NET Core / .NET 5+"

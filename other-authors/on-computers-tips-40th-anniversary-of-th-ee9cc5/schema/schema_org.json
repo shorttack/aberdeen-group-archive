@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "40th Anniversary of the Independent Software Industry",
+  "description": "Kastner blog post on OnComputersTips marking the 40th anniversary of the independent software industry. On June 23, 1969, IBM unbundled software and services under US antitrust pressure, catalyzing the modern software business. Kastner recalls being a few months into his first programming job \u2014 combining COBOL labor-accounting programs for his employer, a subsidiary of Wang Laboratories \u2014 on an IBM 360-65 mainframe. Recounts the rise of Cullinet/John Cullinane, Computer Associates/Charles Wang, Gene Amdahl, and the 1970s-1980s minicomputer era.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2009-06-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

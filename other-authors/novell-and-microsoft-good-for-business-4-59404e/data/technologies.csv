@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"linux-kernel","Linux Kernel","operating-system","open-source","1991-present","mature","active","novell-and-microsoft-good-for-business-4-59404e","Dominant open-source Unix kernel"
+"suse-linux","SUSE Linux Enterprise","operating-system","Novell/SUSE","2000-present","mature","active","novell-and-microsoft-good-for-business-4-59404e","Enterprise Linux distro; Novell-owned 2003-2011"
+"red-hat-enterprise-linux","Red Hat Enterprise Linux (RHEL)","operating-system","Red Hat / IBM","2002-present","mature","active","novell-and-microsoft-good-for-business-4-59404e","Enterprise Linux distro"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","novell-and-microsoft-good-for-business-4-59404e","Desktop/server OS family"
+"server-virtualization","Server virtualization","platform","industry","2000-present","emerging","mature","novell-and-microsoft-good-for-business-4-59404e","x86 server virtualization; part of deal rationale"

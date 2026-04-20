@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sun-niagara-t1","Sun UltraSPARC T1 (Niagara)","platform","Sun Microsystems","2005-2010","new","discontinued","niagara-sun-s-palaver-starter-and-diy-mp-158f17","Chip multithreading processor; up to 8 cores x 8 threads; ~70 W"
+"sparc-architecture","SPARC processor architecture","platform","Sun Microsystems","1987-present","mature","declining","niagara-sun-s-palaver-starter-and-diy-mp-158f17","Used in Sun (later Oracle) servers"
+"solaris-os","Solaris Operating System","operating-system","Sun/Oracle","1992-present","mature","legacy-supported","niagara-sun-s-palaver-starter-and-diy-mp-158f17","Sun (now Oracle) Unix; SPARC and X86/X64 versions"
+"amd-opteron","AMD Opteron x86-64 Server CPU","platform","AMD","2003-2014","new","end-of-life","niagara-sun-s-palaver-starter-and-diy-mp-158f17","Original x86-64 server CPU; displaced at AMD by EPYC 2017"
+"x64-commodity-server","x86-64 commodity server","platform","industry","2003-present","new","mature","niagara-sun-s-palaver-starter-and-diy-mp-158f17","Standard high-volume two-socket x86-64 server"

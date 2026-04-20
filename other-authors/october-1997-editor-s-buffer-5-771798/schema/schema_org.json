@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Editor's Buffer (October 1997)",
+  "description": "October 1997 editor's column in Database Programming & Design previewing the 1998 Object/Relational Summit. Notes 'The Aberdeen Group's Peter Kastner described well the tough competition facing database vendors not named IBM, Oracle, or Microsoft,' and discusses ODBMS adoption (Thomas Atwood) and Java's JDBC-first orientation.",
+  "creator": {
+    "@type": "Person",
+    "name": "Editor, Database Programming & Design (Miller Freeman)"
+  },
+  "datePublished": "1997-10-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

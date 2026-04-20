@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Oracle And Dell Take Aim At Midsize Businesses",
+  "description": "InformationWeek/Network Computing article on the Oracle-Dell SMB pre-installation deal: Oracle granted Dell the exclusive right (through 2004 year-end) to deliver preinstalled Oracle Standard Edition One on Dell PowerEdge 2600/2650 servers running Red Hat Linux or Windows, starting at $4,108 for 5/10/25/unlimited user licenses. Aberdeen Group analyst Peter Kastner argues the pre-install model is particularly useful to SMBs, and the nine-month head start could translate into 1 million shipments for Dell \u2014 'Dell will be able to take the exclusivity period to the bank.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Larry Greenemeier (InformationWeek / Network Computing)"
+  },
+  "datePublished": "2004-04-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

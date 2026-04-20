@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tpc-c","TPC-C OLTP benchmark","framework","TPC","1992-present","mature","active","open-tpc-database-benchmarks-9-058487","Flagship online-transaction-processing benchmark"
+"tpc-e","TPC-E brokerage OLTP benchmark","framework","TPC","2007-present","new","active","open-tpc-database-benchmarks-9-058487","Brokerage-house OLTP benchmark; launched 2007"
+"tpc-h","TPC-H decision-support benchmark","framework","TPC","1999-present","mature","active","open-tpc-database-benchmarks-9-058487","Ad-hoc decision-support benchmark"
+"commercial-rdbms","Commercial Relational Database Management Systems","platform","industry","1980s-present","mature","active","open-tpc-database-benchmarks-9-058487","IBM DB2, Oracle, SQL Server, etc."
+"tpc-web-service-benchmark","TPC Web-Service Benchmark (proposed)","framework","TPC","2005-proposed","pre-release","superseded","open-tpc-database-benchmarks-9-058487","Proposed 2005 Web-service benchmark with message-queue operations; ultimately superseded by later TPC specs"

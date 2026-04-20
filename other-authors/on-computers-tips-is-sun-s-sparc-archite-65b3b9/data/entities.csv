@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","on-computers-tips-is-sun-s-sparc-archite-65b3b9","VP research director / chief research officer Aberdeen Group; later Adoptex"
+"sun-microsystems","Sun Microsystems","company","server-workstation","acquired","Oracle (2010)","1982-2010","on-computers-tips-is-sun-s-sparc-archite-65b3b9","SPARC/Solaris server vendor; absorbed into Oracle"
+"oracle-corp","Oracle Corporation","company","database-software","active","","1977-present","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Flagship database vendor; acquired Sun Microsystems 2010"
+"ibm","International Business Machines Corporation","company","IT-hardware-software-services","active","","1911-present","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Mainframe and systems vendor"
+"amd","Advanced Micro Devices","company","semiconductor","active","","1969-present","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Opteron/x86-64 originator"
+"intel-corporation","Intel Corporation","company","semiconductor","active","","1968-present","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Leading x86 CPU manufacturer"

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sparc-architecture","SPARC processor architecture","platform","Sun Microsystems","1987-present","mature","declining","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Used in Sun (later Oracle) servers"
+"solaris-os","Solaris Operating System","operating-system","Sun/Oracle","1992-present","mature","legacy-supported","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Sun (now Oracle) Unix; SPARC and X86/X64 versions"
+"sun-rock-chip","Sun Rock UltraSPARC processor","platform","Sun Microsystems","2003-2009","cancelled","cancelled","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Abandoned 2009 following Oracle acquisition"
+"x64-commodity-server","x86-64 commodity server","platform","industry","2003-present","new","mature","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Standard high-volume two-socket x86-64 server"
+"sun-niagara-t1","Sun UltraSPARC T1 (Niagara)","platform","Sun Microsystems","2005-2010","new","discontinued","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Chip multithreading processor; up to 8 cores x 8 threads; ~70 W"
+"oracle-exadata","Oracle Exadata Database Machine","platform","Oracle","2008-present","new","active","on-computers-tips-is-sun-s-sparc-archite-65b3b9","Integrated Oracle DB appliance — realized full-stack thesis"

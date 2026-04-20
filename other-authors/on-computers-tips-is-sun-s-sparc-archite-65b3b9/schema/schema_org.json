@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Is Sun's SPARC Architecture on Life Support?",
+  "description": "Kastner blog post on OnComputersTips observing Sun's long-hyped Rock chip is apparently dead and that \u2014 with the pending Oracle-Sun merger and Solaris already on X64 commodity servers \u2014 the case for SPARC is gone. Kastner muses that Oracle has the opportunity to create a one-stop IT shop with the full hardware-to-application stack, unmatched since IBM exited the application software business 40 years earlier.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2009-06-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

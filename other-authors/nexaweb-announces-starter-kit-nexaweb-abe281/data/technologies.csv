@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"nexaweb-ew20","Nexaweb Enterprise Web 2.0 Suite","platform","Nexaweb Technologies","2005-2012","new","discontinued","nexaweb-announces-starter-kit-nexaweb-abe281","Ajax/Java RIA platform; Nexaweb exited in 2012"
+"apache-xap","Apache XAP (eXtensible Ajax Platform)","framework","Apache Software Foundation","2007-2011","new","retired","nexaweb-announces-starter-kit-nexaweb-abe281","Open-source Ajax platform contributed by Nexaweb; retired to Attic 2011"
+"eclipse-ide","Eclipse IDE","platform","Eclipse Foundation","2001-present","mature","active","nexaweb-announces-starter-kit-nexaweb-abe281","Open-source Java-based IDE"
+"ajax-framework","Ajax (Asynchronous JavaScript and XML)","framework","industry","2005-present","new","legacy-supplanted","nexaweb-announces-starter-kit-nexaweb-abe281","Web-app paradigm; name coined by Jesse James Garrett 2005"
+"java-platform","Java Platform","platform","Sun/Oracle","1995-present","mature","active","nexaweb-announces-starter-kit-nexaweb-abe281","Java language + JVM; widely used"

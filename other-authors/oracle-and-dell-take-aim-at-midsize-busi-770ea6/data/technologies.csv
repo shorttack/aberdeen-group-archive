@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oracle-database","Oracle Database","application","Oracle","1979-present","mature","active","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Flagship RDBMS"
+"oracle-se-one","Oracle Standard Edition One","application","Oracle","2003-2014","new","discontinued","oracle-and-dell-take-aim-at-midsize-busi-770ea6","SMB-targeted Oracle DB variant; retired in favor of SE2 (2014)"
+"dell-poweredge","Dell PowerEdge server line","platform","Dell","1994-present","mature","active","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Dell rack/tower servers; SMB to data center"
+"red-hat-enterprise-linux","Red Hat Enterprise Linux (RHEL)","operating-system","Red Hat / IBM","2002-present","mature","active","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Enterprise Linux distro"
+"linux-kernel","Linux Kernel","operating-system","open-source","1991-present","mature","active","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Dominant open-source Unix kernel"
+"windows-os","Microsoft Windows (operating system)","operating-system","Microsoft","1985-present","mature","active","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Desktop/server OS family"
+"grid-computing","Grid / cluster computing","framework","industry","2000-present","new","mature","oracle-and-dell-take-aim-at-midsize-busi-770ea6","Proliferation of commodity servers over big-iron consolidation"

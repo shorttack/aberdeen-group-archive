@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"teradata-warehouse","Teradata Data Warehouse","application","NCR/Teradata","1984-present","mature","active","on-computers-tips-good-news-for-ncr-dell-1943c5","Enterprise-scale analytic DBMS; Kastner conviction-level endorsement"
+"operational-data-store","Operational Data Store (ODS)","framework","industry","1990s-present","mature","active","on-computers-tips-good-news-for-ncr-dell-1943c5","Near-real-time integrated data layer supporting operational systems"
+"supply-chain-analytics","Supply-chain analytics","framework","industry","1990s-present","mature","active","on-computers-tips-good-news-for-ncr-dell-1943c5","Operational-excellence tooling exemplified by Walmart"

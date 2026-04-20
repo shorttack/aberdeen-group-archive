@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Nexaweb Announces Enterprise Web 2.0 Starter Kit for Building Mission-Critical Composite and Mashup Ajax Applications",
+  "description": "Nexaweb press release at AJAX World Conference New York (2007-03-19) unveiling a $17,500 Enterprise Web 2.0 Starter Kit combining the Nexaweb EW2.0 platform, Eclipse-based IDE, and unlimited deployment option using Apache XAP. Peter S. Kastner (VP and research director, IT, Aberdeen Group) endorses the incremental/inexpensive adoption approach and recommends proper planning, starting small, and investing in developer tools.",
+  "creator": {
+    "@type": "Person",
+    "name": "Nexaweb Technologies, Inc. (press release)"
+  },
+  "datePublished": "2007-03-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

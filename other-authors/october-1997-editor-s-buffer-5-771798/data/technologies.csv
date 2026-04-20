@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"commercial-rdbms","Commercial Relational Database Management Systems","platform","industry","1980s-present","mature","active","october-1997-editor-s-buffer-5-771798","IBM DB2, Oracle, SQL Server, etc."
+"odbms","Object Database Management System (ODBMS)","platform","various","1986-present","new","niche","october-1997-editor-s-buffer-5-771798","Object-oriented DBMS; never reached RDBMS scale"
+"java-platform","Java Platform","platform","Sun/Oracle","1995-present","mature","active","october-1997-editor-s-buffer-5-771798","Java language + JVM; widely used"
+"jdbc","JDBC (Java Database Connectivity)","framework","Sun/Oracle","1997-present","new","active","october-1997-editor-s-buffer-5-771798","Java-to-RDBMS connectivity API; diverted Java energy away from ODBMS"

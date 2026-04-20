@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Novell and Microsoft: Good for Business?",
+  "description": "NewsFactor feature analyzing the landmark Microsoft-Novell interoperability and patent-covenant deal and Oracle's concurrent move to offer support for Linux at lower fees than Red Hat. Peter Kastner (VP research director enterprise technology, Aberdeen Group) argues large IT buyers want 'Tier One' support \u2014 one throat to choke \u2014 and Oracle and Microsoft fit that role.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jennifer LeClaire (NewsFactor Magazine)"
+  },
+  "datePublished": "2006-11-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

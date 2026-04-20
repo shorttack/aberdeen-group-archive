@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Niagara: Sun's Palaver Starter? (IT Blogwatch)",
+  "description": "Computerworld IT Blogwatch aggregation (2005-11-15) curating reactions to Sun Microsystems' UltraSPARC T1 'Niagara' launch \u2014 an 8-core, 8-thread-per-core chip promising 70-watt power envelopes for servers. Peter S. Kastner (quoted from a reader comment) recalls being briefed on the Niagara roadmap circa 2000, argues Sun's poor delivery record in SPARC has hurt badly, and would have been market-turning in mid-2002 \u2014 though Niagara is a big help to Sun's SPARC base, he doubts it will shake the market's penchant for x64 AMD Opteron servers.",
+  "creator": {
+    "@type": "Person",
+    "name": "Richi Jennings (IT Blogwatch, Computerworld Blogs)"
+  },
+  "datePublished": "2005-11-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

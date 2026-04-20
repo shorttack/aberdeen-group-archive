@@ -141,6 +141,24 @@ All three quotes carry `prescience_score=[DEFERRED]` pending formal Phase 3 rati
 
 ## Changelog
 
+### April 19, 2026 — seq-196 Cleanup Batch
+
+- **26 mis-labeled rows re-attributed.** Rows 462, 468, 471-494 (`article_seq=196`), previously all stamped "IBM Lands Navy Supercomputer Deal / E-Commerce Times / Keith Regan / 2004-07-27," split across their true 2003-2005 source articles via verbatim quote match against the Batch 14 webarchive extracts and corroborating web research:
+  - Row 462 → TechNewsWorld, Jay Lyman, 2004-06-08, "AMD's Semprons Spare Athlon from Low-End Market"
+  - Row 468 → Aberdeen Group report (Kastner), 2003-06-01, "Why You Need To Replace Those Windows 98 And NT Machines" (`authored-column`)
+  - Rows 471, 488 → Forbes.com, Pinnacor / AFX News, 2003-11-14, "Dell 3Q Net Up 21%"
+  - Rows 472-474 → ServerWatch, Clint Boulton, 2004-06-08, "Dell Debuts 64-bit Itanium Server"
+  - Row 475 → PC World, Tom Krazit (IDG), 2002-08-15, "Dell Drops Windows From Some PCs"
+  - Row 476 → MarketWatch, Rex Crum, 2003-08-15, "Dell buoyed by growth outlook"
+  - Rows 477-479, 482, 483 → Computerworld, Tom Krazit (IDG), 2003-03-25, "Dell launches personal and workgroup printers"
+  - Row 489 → CRN (Computer Reseller News), 2003-06-02, faster Xeon/Itanium chips piece
+  - Rows 491, 492 → E-Commerce Times, Keith Regan, 2004-05-25, Cisco CRS-1 Huge Fast Router
+  - Row 493 → E-Commerce Times, 2004-05-17, "Cisco Probes Potential Source Code Leak"
+  - Rows 480, 481, 484-487, 490, 494 → publication/author fields flagged `[REVIEW]` with best-effort date and content_type; browser-based URL verification was cancelled per user instruction, so these are deferred to a future targeted pass.
+- **Row count unchanged.** Edits in place (columns: date, headline, publication, author, content_type). `kastner_quotation`, `immediate_context`, `is_predictive`, and prescience fields preserved as-is.
+- **Cleanup debt cleared.** `_skipped_sources.md` seq-196 debt entry replaced with this re-attribution table.
+- CSV remains **1004 rows, 13 cols**, max `article_seq=584`. All rows pass QUOTE_ALL / 13-col / enum validation.
+
 ### April 19, 2026 — Batch 14 Quotations Update
 
 - **NYT 1981 attribution fix** — rows 469 & 470 (`article_seq=196`) previously mis-labeled "IBM Lands Navy Supercomputer Deal / E-Commerce Times / Keith Regan / 2004-07-27" re-attributed to the correct source: *The New York Times*, 1981-03-20, "Defense Industry Gearing Up" by Pamela G. Hollie. Kastner quoted as "government market planner for Prime Computer Inc. of Natick, Mass." Row 470's broken Quote-1 fragment ("anufacturing is becoming increasingly important…") replaced with Quote 2 ("Weapons are more sophisticated…Missiles have to be smart enough to fly from here to Moscow at 100 feet above the ground without human intervention."). These are the earliest dated Kastner quotations now in the quotations corpus (Prime Computer era, 10 years before his Aberdeen co-founding).

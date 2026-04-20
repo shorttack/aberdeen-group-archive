@@ -52,4 +52,16 @@ Files producing new/modified rows in Batch 14:
 - **File 4** → row 1004 / seq 584 (DEC/NCI StrongARM Reference Design press release, 1997-03-24)
 - **File 6** → rows 469 & 470 re-attributed to NYT 1981 "Defense Industry Gearing Up" (Hollie). Row 470 also replaced the broken "anufacturing…" fragment with the cruise-missile/Moscow Quote 2.
 
-**Known carried cleanup debt:** seq 196 still holds 28 rows mis-labeled as "IBM Lands Navy Supercomputer Deal / E-Commerce Times / Keith Regan / 2004-07-27". Rows 469, 470 corrected in this batch. The remaining 26 rows (462, 468, 471-494) span at least 7 distinct source articles from 2003-2005 (Forbes Dell 3Q, ServerWatch Itanium, PC World Windows-drop, MarketWatch Dell growth, Computerworld Dell printers, plus asset-recovery and Cisco router passages). Split and re-attribution deferred to a dedicated cleanup batch.
+**seq-196 cleanup batch (2026-04-19, commit pending):** All 26 remaining mis-labeled rows (462, 468, 471-494) re-attributed to their true source articles:
+- Row 462 → TechNewsWorld, Jay Lyman, 2004-06-08, "AMD's Semprons Spare Athlon from Low-End Market"
+- Row 468 → Aberdeen Group report (Kastner), 2003-06-01, "Why You Need To Replace Those Windows 98 And NT Machines"
+- Rows 471, 488 → Forbes.com, Pinnacor / AFX News, 2003-11-14, "Dell 3Q Net Up 21%"
+- Rows 472-474 → ServerWatch, Clint Boulton, 2004-06-08, "Dell Debuts 64-bit Itanium Server"
+- Row 475 → PC World, Tom Krazit (IDG), 2002-08-15, "Dell Drops Windows From Some PCs"
+- Row 476 → MarketWatch, Rex Crum, 2003-08-15, "Dell buoyed by growth outlook"
+- Rows 477-479, 482, 483 → Computerworld, Tom Krazit (IDG), 2003-03-25, "Dell launches personal and workgroup printers"
+- Rows 491, 492 → E-Commerce Times, Keith Regan, 2004-05-25, Cisco CRS-1 HFR piece
+- Row 493 → E-Commerce Times, 2004-05-17, "Cisco Probes Potential Source Code Leak"
+- Rows 480, 481, 484-487, 489, 490, 494 → publication/author flagged `[REVIEW]` (best-effort attribution pending primary-source confirmation; browser verification was cancelled per user instruction)
+
+seq-196 cleanup debt is **cleared**. Remaining `[REVIEW]` flags are surfaced for future targeted verification.

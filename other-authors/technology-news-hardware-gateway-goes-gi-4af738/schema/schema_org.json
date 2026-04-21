@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Gateway Goes Gigabit, Wireless",
+  "description": "TechNewsWorld article (Apr 6 2004, Kirk L. Kroeker) on Gateway's entry into enterprise networking with the 7200/7400/7600 Series Layer 2 managed and unmanaged network switches (based on Broadcom switch silicon) and the Gateway 7000 Series Wi-Fi access points (802.11g / 802.11a+g, Intel IPX422 processor, PoE, RADIUS, VLAN). Launched 'in the aftermath of a major announcement about shutting all its retail stores' \u2014 Gateway exiting brick-and-mortar after eMachines acquisition. Aberdeen EVP and chief research officer Peter Kastner provides the strategic framing: 'In both their price and functionality, Gateway is taking a disruptive approach with these two new wireless [access points]. Many wireless vendors are ignoring the pleas of small- and medium-sized businesses, who desire enterprise security and much more simplicity in setup. SMBs clearly stand to benefit from these new Gateway [access points].' IDC's Maximilian Flisi: managed switches priced competitively and may be a lead purchase driver.",
+  "creator": {
+    "@type": "Person",
+    "name": "Kirk L. Kroeker, TechNewsWorld"
+  },
+  "datePublished": "2004-04-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

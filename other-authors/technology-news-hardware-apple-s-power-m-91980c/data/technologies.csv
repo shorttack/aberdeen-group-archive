@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-powerpc-g5","Apple/IBM PowerPC G5 (PowerPC 970)","chip","IBM/Apple","2003-2006","new","end-of-life","technology-news-hardware-apple-s-power-m-91980c","IBM PowerPC 970 (64-bit, POWER4-derived) shipped in Apple Power Mac G5 Aug 2003; never reached 3 GHz; replaced by Intel transition 2006"
+"amd64-architecture","AMD64 / x86-64 architecture (Opteron/Athlon 64)","chip","AMD","2003-present","new","mature","technology-news-hardware-apple-s-power-m-91980c","AMD 64-bit extension of x86 (Opteron Apr 2003, Athlon 64 Sep 2003); Intel adopted as Intel 64 (EM64T) 2004; became dominant 64-bit desktop/server ISA"
+"ddr-sdram","DDR SDRAM memory","chip","JEDEC","2000-2007","mature","legacy-supplanted","technology-news-hardware-apple-s-power-m-91980c","First-generation Double Data Rate SDRAM; 200-400 MT/s; Power Mac G5 used 400 MHz DDR; displaced by DDR2 2004-2006"

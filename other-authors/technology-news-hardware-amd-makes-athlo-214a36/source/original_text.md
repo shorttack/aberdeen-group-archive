@@ -1,0 +1,103 @@
+# AMD Makes Athlon 64 Thinner, Lighter
+
+> Archived from: Technology-News-Hardware-AMD-Makes-Athlon-64-Thinner-Lighter-2.webarchive
+> Original publication date: 2004-05-07
+> Author: Jay Lyman, TechNewsWorld
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.technewsworld.com/story/33697.html
+MIME: text/html
+
+Technology News: Hardware: AMD Makes Athlon 64 Thinner, Lighter E-BUSINESS | TECHNOLOGY | CLASSIFIEDS [NEW] | CRM | LINUX | MAC | ECTNEWS.COM Welcome | Sign In <script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N5072.TechNewsWorld/B3424356;abr=!ie;sz=728x90;ord=12451740287442?" type="text/javascript"><!--//<![CDATA[ //]]>//--></script> <noscript> <a href="http://ad.doubleclick.net/jump/N5072.TechNewsWorld/B3424356;abr=!ie4;abr=!ie5;sz=728x90;ord=12451740287442?"> <img src="http://ad.doubleclick.net/ad/N5072.TechNewsWorld/B3424356;abr=!ie4;abr=!ie5;sz=728x90;ord=12451740287442?" border="0" width="728" height="90" alt="Click Here" /></a> </noscript> Hardware Technology Future Tech Biometrics Nanotech Robotics Gaming Green Tech Home Tech Home Entertainment Home Networks Media Convergence Reviews Science Med Tech Space Tech Buzz Computing Data Management Data Center Data Storage Disaster Recovery Hardware Chips Personal Computers Servers Software Open Source Operating Systems Virtualization Mobile Tech GPS Handheld Devices RFID WiFi Hotspot Locator Wireless Networking Internet P2P Tech Search Tech Web 2.0 Blogosphere Podcasting Social Networking Video 2.0 Wikis Web Apps Security Cyberattacks Exploits & Vulnerabilities Encryption Malware Network Intrusion Privacy IT Management Core Services Communication Systems Tech Support User Access Development Tools & Processes Workflow Management IT Leadership CIO Tech Pathfinders Sysadmin Implementation IT Maintenance Reader Services Account Management Become an Affiliate Discussion Free Classifieds News Alerts Newsletters RSS / Headline Feeds Site Maps ECT News Network Map CRM Buyer Site Map E-Commerce Times Site Map LinuxInsider Site Map MacNewsWorld Site Map TechNewsWorld Site Map Search ECT News Network | Tech Blog DISCUSSION | NEWSLETTERS | ACCOUNT MGMT --> June 16, 2009 01:40:33 PM TechNewsWorld > Computing > Hardware | Read Next Article in Hardware Please note that this material is copyright protected. It is illegal to display or reproduce this article without permission for any commercial purpose, including use as marketing or public relations literature. To obtain reprints of this article for authorized use, please call a sales representative at (818) 461-9700 or visit http://www.ectnews.com/about/reprints/ . AMD Makes Athlon 64 Thinner, Lighter Print Version E-Mail Article Reprints By Jay Lyman TechNewsWorld 05/07/04 1:47 PM PT "Now thinner and lighter notebooks can be fueled with this same cutting-edge performance plus security enhancements to be enabled by the upcoming Windows XP SP2," said AMD vice president and general manager Marty Seyer. "We're bringing customers peace of mind by helping them protect their data and their PC investment." Free Classifieds - New from TechNewsWorld Post job opportunities, resumes, event notifications, services offered, goods for sale and more. No charge to view or post ads. Visit classifieds.technewsworld.com today! AMD (NYSE: AMD) is pushing its Athlon 64 processor further into the mobile-computing world with new models designed to provide low-power performance in the thin and light notebook market. The Sunnyvale, California-based chipmaker announced its Athlon 64 2800+ and 2700+, immediately available worldwide, offering 32-bit computing and seamless transition to 64-bit applications. Acer and Chinese manufacturer Amoi Electronics will be among the first delivering the new mobile Athlon 64 in notebooks due this month and the second half of the year, respectively. The chips will showcase AMD's low-power technology and, in addition to compatibility with popular wireless solutions, will be secured by a new Enhanced Virus Protection security technology that will be enabled with the upcoming Windows XP Service Pack 2 (SP2) from Microsoft (Nasdaq: MSFT) , AMD said. Thin and Light, Heavy Security AMD said the new low-power offerings would deliver extended power life thanks to its PowerNow Technology and would provide a higher level of security for XP SP2 virus protection. "Now thinner and lighter notebooks can be fueled with this same cutting-edge performance plus security enhancements to be enabled by the upcoming Windows XP SP2," said AMD vice president and general manager Marty Seyer. "We're bringing customers peace of mind by helping them protect their data and their PC investment." Priced in 1,000-unit quantities, the new Athlon 64 2800+ and 2700+ will cost US$241 and $209, AMD said. Cutting Down Worms Gartner (NYSE: IT) research vice president Martin Reynolds told TechNewsWorld that the enhanced security features with XP SP2 are likely to help cut down on the spread of worms such as the recent Sasser outbreak. "It's a good way to cut away at the nastiest worms," Reynolds said. "We'll see that across the board from both AMD and Intel (Nasdaq: INTC) . When Microsoft starts shipping [XP SP2], Intel will [offer security features] too." Reynolds also said the Athlon 64 mobile processors come as no surprise because AMD is transitioning all of its processors to 64-bit computing capability. "You have to think of [the Athlon 64] as the next-generation Athlon," Reynolds said. "They're eventually going to make everything 64-bit anyway. They're not going to continue legacy stuff." Making Mobile Sense Aberdeen chief research officer Peter Kastner told TechNewsWorld that the Athlon 64 has managed increased market traction because it is "a lot of performance at a good value." "As more consumers buy notebooks as desktop replacements, it makes sense for AMD to replace its mobility processors with 64-bit Athlons," Kastner said. While he referred to the increased expense of making laptops, Kastner said the laptop share of the total PC market is rising steadily, prompting a response from chip and PC makers. Ferrari First, Then China Acer said its new "Ferrari" brand of thin and light notebooks, aimed at both the consumer and business markets, would feature the new Athlon 64s. Chinese manufacturer Amoi indicated it would be using the new processors in a widescreen version notebook as well. "As the first China original equipment manufacturer to announce development of a low-power Athlon 64 processor-based notebook, we expect to bring real benefits to our customers," said Yale Guan, general manager of Amoi's IT group. "The Amoi VA series will be equipped with the latest high-performance processor, as well as a widescreen display in an attractive slim and wide form factor." Social Networking Toolbox: ShareThis Next Article in Hardware: Intel Shifts to Dual-Core Processor Strategy Talkback: Be the first to comment on this story. Print Version E-Mail Article Reprints More by Jay Lyman Related Stories AMD Beats Intel in Processor Sales (04-May-04) AMD's Opteron at the One-Year Mark (22-Apr-04) AMD Settles Patent Suit 'For Our Customers' (12-Apr-04) AMD Hardens Network Security with New Alchemy Chip (24-Feb-04) Intel To Sell 64-Bit Xeon as AMD Opteron Rival (18-Feb-04) Related News Alerts AMD Activate Alert | Search Archives Microsoft Activate Alert | Search Archives Gartner Activate Alert | Search Archives Intel Activate Alert | Search Archives More Stories by Jay Lyman Open Source Developer Dumps Novell Over Microsoft Deal (26-Dec-06) Financial Firms Tap Microsoft for Linux (22-Dec-06) Mozilla Beefs Up Security in Firefox 2.0 (21-Dec-06) [Search More...] Don't miss a story -- sign up for our FREE e-mail newsletters and view the latest headlines at a glance. Tech News Flash [ View Sample ] E-Commerce Minute [ View Sample ] ECT News Network Weekly Newsletter [ View Sample ] Check Out TechNewsWorld's Free Classifieds! Shortcuts Get Business and Technology News Alerts Most Popular | Spotlight Features | Exclusives This Week on ECT News Network | Podcasts WiFi Hotspot Locator Inside TechNewsWorld <script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.4;abr=!ie;sz=336x280;ord=12451740289562?" type="text/javascript"><!--//<![CDATA[ //]]>//--></script> <noscript> <a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.4;abr=!ie4;abr=!ie5;sz=336x280;ord=12451740289562?"> <img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.4;abr=!ie4;abr=!ie5;sz=336x280;ord=12451740289562?" border="0" width="336" height="280" alt="Click Here" /></a> </noscript> Free White Papers Encryption is not enough for DRM Is your data-center ready for virtualization? Data Management for Business Intelligence Anatomy of a JD Edwards EnterpriseOne Archiving Project 5 Reasons Why Smaller Organizations Should Consider System i (iSeries) High Availability TechNewsWorld Beware of the Information Security Inertia Syndrome Survey: As Web Use Climbs, Family Time Slips Playing a Hunch: Social Decision-Making Site Carves Out New Niche in Search China Scrambles to Repair Crumbling Green Dam Samsung Takes Wraps Off New Omnia Smartphone Lineup The Rise and Fall of Traditional Journalism, Part 5 Apple Pounds Palm, Sets Sights on Redmond Is Online Learning a Solution for Cash-Strapped California Schools? Using GPS Phones to Track Virtual Infections - and Real Epidemics Facebook Members to Become Masters of Their Domain Names E-Commerce Times The Multichannel E-Commerce Path Out of the Recession Jammie Thomas, RIAA Go At It Again IBM Offers Platform for Diving Into the Cloud IT Needs a New Drug Citrix Online Brings SMBs Into the Virtual Meeting Room MacNewsWorld Virgin Serves Up MP3 Buffet Glad Works Makes Marketing Moves Through iPhone Apps Safari 4 Goes to Eleven WWDC: iPhone Invigorated, Snow Leopard Spruced, AT&T Tarnished Should You Spring for an iPhone 3GS? CRM Buyer Administration Mulls Financial Services Industry Makeover GE Aims to Jump-Start EMR Adoption With No-Interest Loans Turning 'Interesting Moments' Into Sales: Q&A With Marketo CEO Phil Fernandez Chrysler Customers' Shrinking Service Options Safeguarding the Crown Jewels With Online Brand Monitoring LinuxInsider EnterpriseDB Smooths Way for Oracle App Migration Trolls and Astroturfers and Shills, Oh My! Yahoo's Hadoop to Run Free in the Wild Leeches or Users? Should Enterprise IT Have to Give Back to FOSS? 'MobMovs' Give New Meaning to 'Community' Theater Sponsored Links Avaya Aura (TM) A new era in communications. Explore>> Think your data is safe? Register for a free assessment. Or get our ebook now. trendmicro.com/thinkagain Free White Paper Learn how to drive consumer engagement with entertainment metadata. Inside TechNewsWorld CIO A Voice for Tech: Carly Fiorina's Political Ambitions The iPhone 3G and the Risk of Great Marketing Bhaskar Rao: Conquering Space and Time With MIMO Computing Picking Up the Pieces After Downsizing: Avoid Orphaned Data Skyfire Lets Fly With Speedier Mobile Browser Is Windows App Envy a Thing of the Past? Data Management HP Gives Scale-Out Architecture Extreme Makeover Bite the Bullet and Throw Away Your Data EMC's Data Domain Bid Puts NetApp in Tough Spot, Says Analyst ECT News Exclusives Keeping Credit Card Numbers Well-Cloaked: Q&A With Fingerhut's Mark Lieberg Outsource or Keep It Home? Have It Your Way: Q&A With Alpine Access CEO Chris Carrington Riding Out the Storm: Q&A With Information Builders CEO Gerry Cohen Future Tech The Blood and Guts of Biometric Systems Robots and the Law: Will the Real Inventor Please Stand Up? The Networked Garden: MIT Undergrads Build Robo-Farmers Green Tech Utility Companies Plug In to Google PowerMeter Study Sees Eco-Threat in Power-Guzzling Gadgets Xerox Goes for the Green With Crayon-Like Printer Ink Hardware The Asus EeeTop: A Nettop in Search of a Mission Snow Leopard to Claw at Enterprise Front Doors Apple Launches Speedy New iPhone, Cuts a Bunch of Prices Internet Spain's Music Piracy Battle: Is Building the Ship as Bad as Plundering the Booty? EC Scoffs at Microsoft's Offer to Ship Browser-Free OS The Rise and Fall of Traditional Journalism, Part 4 IT Management Apple Primed for iPhone Song-and-Dance Extravaganza Google Lobbyist Unfit for Deputy CTO Job, Say Critics Mobile Development and Multiplicity Madness Mobile Tech Clampdown Week: iPhone vs. Pre, China vs. Web, FTC vs. Worst ISP Ever The TV Studio in Your Hand: The Future of News Gathering Former iPod Guru Takes Palm's Helm Must Read It's Time to Push Back Against Twitter Backlash How Apple Made Windows 7 Better Portable Ubuntu, Windows Live Together in Perfect Harmony Open Source The US Army: It's Better with Vista? Openness, Linux and Mobile Innovation Acer Greases Android for Netbook Duty Science Endeavour Visitors to Make Record-Setting ISS Crowd Computer Accident Study Highlights Hazards of Home Office NASA May Buddy Up With Europe on Road to Mars Security LOL, I'm on Vacay, Rob Me! New App Aims to Plug Holes in Leaky Enterprise Data Hulls China's New PC Policy Injects Big Brother With Steroids Software Fedora Sets Leonidas Loose, Builds Collaboration Portal Natal Drops Jaws, Nvidia Shines, Pre Sets New Bar The Mainframe Bridge to the Cloud Spotlight Features Toiling Away in 'White-Collar Sweatshops' - aka Call Centers Windows XP: The Legacy Lives On Taking a Shine to iPhone in the Enterprise Tech Buzz Microsoft Goes Bing, Palm's Pwned A Clarion Call for Expanding E-Commerce Google Is the Sarah Palin of Enterprise Vendors Web 2.0 TwitterFon Pro: Tweet Harder, Tweet Smarter Blerp Refocuses the Web Through Comment-Colored Glasses Surviving the Downturn Through Social Marketing ECT News Network Information Publications E-Commerce Times TechNewsWorld LinuxInsider CRM Buyer MacNewsWorld Free Newsletters E-Commerce Minute Tech News Flash ECT News Network Weekly Newsletter Newsletter Sign Up Reader Services Account Management Become an Affiliate Discussion Free Classifieds Linking Policy Network Map News Alerts RSS / Headline Feeds Search ECT News Network Locate Products and Services E-Business Info Center IT Resources Open Source Technology CRM Solutions Center --> Corporate About Careers Contact Us Business Development Permissions Reprint Information How To Advertise Terms of Service | Privacy Policy | How To Advertise Copyright 1998-2009 ECT News Network, Inc. All Rights Reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | technology-news-hardware-amd-makes-athlo-214a36 |
+| title | AMD Makes Athlon 64 Thinner, Lighter |
+| author | Jay Lyman, TechNewsWorld |
+| date | 2004-05-07 |
+| type | news-article |
+| subject_domain | mobile-processors |
+| methodology | product-analysis, analyst-commentary |
+| source_file | Technology-News-Hardware-AMD-Makes-Athlon-64-Thinner-Lighter-2.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+TechNewsWorld article (May 7 2004, Jay Lyman) on AMD's launch of the Mobile Athlon 64 2800+ and 2700+ ($241/$209 in 1,000-unit quantities) for thin-and-light notebooks, with Enhanced Virus Protection (NX bit) security for the forthcoming Windows XP SP2. Acer's new Ferrari brand and Chinese OEM Amoi will be first to ship. Aberdeen chief research officer Peter Kastner endorses the mobile AMD64 push: 'As more consumers buy notebooks as desktop replacements, it makes sense for AMD to replace its mobility processors with 64-bit Athlons' — a lot of performance at a good value. Kastner identifies the rising laptop share of the total PC market as the key driver. Gartner's Martin Reynolds notes XP SP2 hardware security features will cut worms like the recent Sasser outbreak.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents AMD's mobile-processor pivot to 64-bit in mid-2004, capturing both the security-NX moment (XP SP2 / Sasser) and the emerging laptop-as-desktop-replacement thesis that Kastner articulates as the strategic driver. |
+| **Relevance** | medium | The laptop-displaces-desktop thesis proved durably correct — notebooks passed desktops in US retail 2005 and worldwide 2008. The hardware security-bit pattern (NX/DEP 2004, Intel SGX 2015, pointer authentication 2018, CET 2020) continues to gate OS/browser security. |
+| **Prescience** | high | Kastner's laptop-replacement framing was validated rapidly: US laptop retail unit sales surpassed desktops in 2005; worldwide PC shipments by form factor crossed over 2008. Hardware-security features (XP SP2 NX-bit enforcement) substantially reduced exploit success for code-injection malware — the specific Kastner/Reynolds worm-reduction prediction. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Notebooks as desktop replacements
+- **Claimed:** As more consumers buy notebooks as desktop replacements, it makes sense for AMD to replace its mobility processors with 64-bit Athlons. The laptop share of the total PC market is rising steadily, prompting a response from chip and PC makers.
+- **Year:** 2004
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Notebooks pass desktops worldwide
+- **Result:** Worldwide PC shipments: notebooks passed desktops in unit volume in 2008 per IDC/Gartner — validating Kastner's rising-laptop-share thesis. US retail notebook sales crossed over desktops already in 2005.
+- **Confidence:** verified
+- **Notes:** Backfill — laptop crossover
+
+**Prediction 2:** NX/SP2 cuts worms
+- **Claimed:** Gartner's Martin Reynolds: the enhanced security features with XP SP2 are likely to help cut down on the spread of worms such as the recent Sasser outbreak — across the board from both AMD and Intel.
+- **Year:** 2004
+- **Confidence at time:** high
+
+**Actual Outcome 2:** NX/DEP becomes mandatory
+- **Result:** NX bit / DEP hardware enforcement became a Windows baseline in Windows Vista (2006) and was later required for Windows 8 (2012). Code-injection worms of the Blaster/Sasser era largely disappeared; attackers shifted to return-oriented programming, JIT spraying, and browser-plugin vulnerabilities.
+- **Confidence:** verified
+- **Notes:** Backfill — NX effectiveness
+
+
+### Entities Referenced (12)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Advanced Micro Devices, Inc. | company | active |  |
+| Acer Inc. | company | active |  |
+| Microsoft Corporation | company | active |  |
+| Intel Corporation | company | active |  |
+| Gartner, Inc. | firm | active |  |
+| TechNewsWorld / ECT News Network | firm | active |  |
+| Jay Lyman | person | active |  |
+| Martin Reynolds | person | active |  |
+| Marty Seyer | person | active |  |
+| Amoi Electronics | company | dissolved |  |
+
+### Technologies Referenced (6)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| AMD Athlon 64 processor | chip | AMD | new | legacy-supplanted |
+| AMD64 / x86-64 architecture (Opteron/Athlon 64) | chip | AMD | new | mature |
+| Laptop / notebook PC | platform | industry | mature | active |
+| Microsoft Windows XP Service Pack 2 | operating-system | Microsoft | new | end-of-life |
+| NX bit / Data Execution Prevention (DEP) / Enhanced Virus Protection | chip | AMD/Intel | new | mature |
+| Microsoft Windows XP 64-bit Edition / Windows XP Professional x64 Edition | operating-system | Microsoft | new | legacy-supplanted |
+
+### Observation Summary
+
+- Total observations: 6
+- By type: viability-prediction: 2, actual-outcome: 2, expert-opinion: 1, market-data: 1

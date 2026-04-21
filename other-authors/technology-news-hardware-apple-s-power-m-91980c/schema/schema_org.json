@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Apple's Power Mac G5 Hits the Street",
+  "description": "TechNewsWorld article (Aug 18 2003, Jay Lyman) on Apple's shipment of the Power Mac G5 \u2014 the first personal computer with 64-bit processing and a 1-GHz front-side bus, billed as 'world's fastest personal computer.' IBM-Apple PowerPC G5 (PowerPC 970). Configurations: 1.6 GHz at $2,000, 1.8 GHz at $2,400, dual 2.0 GHz at $3,000. Apple reports 100,000+ pre-orders since June 23 introduction. Aberdeen chief research officer Peter Kastner provides two of the article's most-quoted lines: 'For a new chip, this is about as good as it gets. The performance improvements are so evident that only a few minutes in the store demo area will convince many buyers that it's time to upgrade.' And: 'The G5 is a hot box and one which for the first time in several years gives Mac owners some bragging rights versus their industry-standard brethren.' Kastner calls the G5 'better, faster, cheaper, smaller' for Apple and predicts graphics designers will see vast improvements from 64-bit-optimized code. IDC's Alan Promisel: 'It's definitely an architecture the commercial IT managers are keeping an eye on.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Jay Lyman, TechNewsWorld"
+  },
+  "datePublished": "2003-08-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

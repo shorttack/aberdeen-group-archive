@@ -737,3 +737,7 @@ Batch 10 ("webarchives letter S and T") — no skips. All 8 files produced studi
 Batch 11 ("webarchives letter T") — no skips. All 10 files produced studies.
 
 All 10 webarchives processed as distinct Kastner citations across Wired, CNN/Money (Eric Hellweg "Tech Investor" column × 3), BusinessWeek Online, InternetWeek (reblogged via Schroeder's Techno-News-Blog as Kastner-authored primary), and TechNewsWorld (Jay Lyman × 4). No URL duplicates, no cross-property CNET syndication, no same-article variants. The Techno-News-Blog item (Jan 7 2003) is a ~1,489-char reblog excerpt of the Kastner-authored InternetWeek "Take Her Up to 2.4 GHz, Mr. Scott" guest column — preserved as an authored-column study (type `authored-column`) since Kastner is the primary author and the reblog confirms source attribution.
+
+## Batch 37 notes (2026-04-20)
+
+Batch 12 ("webarchives Technology-News-Hardware") — no skips. All 10 files processed. All distinct TechNewsWorld stories at different URLs (story IDs 31155, 31363, 31867, 32532, 33291, 33341, 33416, 33505, 33697, 34678), no syndication candidates. Authors: Jay Lyman (×8), Kirk L. Kroeker (×1), Gene J. Koprowski (×1). All 10 contain rich Kastner quotes covering the 2003-2004 hardware transition era: AMD Athlon 64/Opteron vs Intel Pentium 4/Xeon/Itanium 2, Apple Power Mac G5, IBM Power.org opening, Intel Grantsdale/Alderwood chipsets (PCIe/DDR2), Intel Celeron M vs AMD Mobile Athlon 64, and Samsung S3C2440 mobile CPU.

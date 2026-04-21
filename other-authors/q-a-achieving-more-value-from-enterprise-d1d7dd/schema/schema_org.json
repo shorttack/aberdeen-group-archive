@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Q&A: Achieving More Value from Enterprise Applications",
+  "description": "Kastner-authored Q&A for Enterprise Systems Journal (2006-05-23) accompanying the AberdeenGroup Benchmark Report 'Achieving More Value from Enterprise Applications.' Kastner, then Research Vice President and co-founder of enterprise integration research at AberdeenGroup, diagnoses 'siloed applications connected with the software equivalent of chewing gum and baling wire,' reports that more than half of surveyed enterprises are unhappy with enterprise-application ROI and that over two-thirds view SOA technologies as the improvement path, warns against relying on SOA-enabled ERP as a general SOA toolset (the 'accidental architecture' trap), and recommends cross-platform, cross-process, cross-application capabilities when evaluating SOA infrastructure.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (AberdeenGroup) \u2014 Enterprise Systems Journal"
+  },
+  "datePublished": "2006-05-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

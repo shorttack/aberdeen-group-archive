@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "One Powerhouse Marriage: HP/Compaq Merger Carried Out With Near-Textbook Precision",
+  "description": "Processor Magazine editorial (2003-12-12) by Warren S. Hersch assessing the HP/Compaq merger 18 months after close. Merger critics (Walter Hewlett, Martin Wolf) are contrasted with more favorable post-hoc assessments from Peter Kastner (chief research officer, Aberdeen Group), Paul McGuckin (Gartner VP), and HP CEO Carly Fiorina. Kastner praises HP's execution speed and strategic discretion, notes rampant server-market deflation as an industry-wide challenge, and argues that IBM \u2014 with its larger channel \u2014 is HP's most serious SMB-market threat rather than Dell.",
+  "creator": {
+    "@type": "Person",
+    "name": "Warren S. Hersch (Processor Magazine / Sandhills Publishing)"
+  },
+  "datePublished": "2003-12-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Momentum Is Gathering At Cisco: Developing SME Products Is A Growing Priority",
+  "description": "Processor Magazine editorial (2004-07-16) by Elizabeth Millard covering Cisco's April 2004 SMB Class Solutions Initiative, IPCC Express contact-center bundles, and Cisco Security Agent Starter Bundle. Peter Kastner (Aberdeen analyst) notes Cisco has the clout to become a major SME player but is still smarting from the May 2004 leak of proprietary Cisco IOS router source code, which he predicts will force Cisco to redouble router-security investment \u2014 ultimately a positive for SMEs getting more secure products.",
+  "creator": {
+    "@type": "Person",
+    "name": "Elizabeth Millard (Processor Magazine / Sandhills Publishing)"
+  },
+  "datePublished": "2004-07-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

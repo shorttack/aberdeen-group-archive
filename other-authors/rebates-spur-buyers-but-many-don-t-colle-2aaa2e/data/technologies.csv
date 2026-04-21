@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mail-in-rebate-system","Mail-In Rebate System","framework","retail-industry","1980s-2015","mature","legacy-supplanted","rebates-spur-buyers-but-many-don-t-colle-2aaa2e","Post-purchase discount mechanism; largely displaced by instant digital coupons"
+"rebate-processing-firm","Third-party rebate processing firm","application","retail-services","1985-2015","mature","legacy-supplanted","rebates-spur-buyers-but-many-don-t-colle-2aaa2e","Service bureaus processing rebate redemptions; largely displaced by digital-coupon platforms"

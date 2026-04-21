@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ip-real-time-billing","Real-Time IP Service Billing (CM&B)","framework","industry","1998-2010","new","legacy-supplanted","real-time-billing-for-internet-protocol--5ef746","Real-time customer management + billing systems for ISPs"
+"internet","Internet / World Wide Web","platform","industry","1993-present","mature","active","real-time-billing-for-internet-protocol--5ef746","Global interconnected IP network; WWW Tim Berners-Lee 1989/1993"
+"cmb-system","Customer Management and Billing (CM&B) system","application","industry","1990-present","new","active","real-time-billing-for-internet-protocol--5ef746","ISP / telco billing infrastructure; evolved into modern convergent charging"
+"world-wide-web","World Wide Web (WWW)","protocol","W3C/CERN","1989-present","new","active","real-time-billing-for-internet-protocol--5ef746","HTTP/HTML over the Internet; Tim Berners-Lee CERN 1989"

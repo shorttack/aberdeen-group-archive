@@ -1,0 +1,94 @@
+# Power Macs 'won't hit 3GHz this year' – analysts
+
+> Archived from: Power-Macs-won-t-hit-3GHz-this-year-analysts-Mac-Macworld-UK.webarchive
+> Original publication date: 2004-06-11
+> Author: Macworld UK staff (IDG)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.macworld.co.uk/news/index.cfm?newsid=8893&page=1&pagepos=2
+MIME: text/html
+
+Power Macs 'won't hit 3GHz this year' – analysts - Mac - Macworld UK Skip to main content login || register Search this site: FREE Powerchimp worth £25 with Macworld subscription Home News Blogs Reviews Features Forums Subscribe Spotlights Shopping Latest news Newsletters News widget RSS feeds Search news News Fri, 11 Jun 2004 Power Macs 'won't hit 3GHz this year' – analysts Macworld staff Analysts don't think Apple's failure to meet its self-imposed 3GHz G5 target within a year is the company's fault, according to MacCentral . JupiterResearch analyst Michael Gartenberg said: "That's always the danger in making technology claims like that. You just have to hope that the laws of the universe can keep up with your claims. I don't think it's that big a deal that they didn't hit that particular benchmark. I don't think we are going to see any Apple execs promise a particular speed anytime in the near future." Analysts agree that the 90-nanometer manufacturing technology the semiconductor industry is moving to has caused the delay. Aberdeen Research Group executive vice president and chief research officer Peter Kastner said: "In switching to 90 nanometers, the industry has had more problems raising the clock speed than anyone anticipated a year ago. "Intel, for example, has only cranked up a couple of hundred megahertz from 3.2GHz to 3.4GHz. IBM gets an 'A' for the second quarter for being able to crank the chip up from 2GHz to 2.5GHz that's a 25 per cent increase." Kastner doesn't expect the industry to reach the 3GHz target for another year. Analysts main concern is whether IBM can make enough G5 chips to meet demand. Technology Business Research senior analyst Tim Deal said: "I question IBM's ability to meet Apple's increased G5 processor demand moving forward given the company's availability challenges to date," referring to delays in shipping speed-enhanced G5s after the model was launched last July. Submit to: Digg Slashdot Del.icio.us Reddit What is this? <<prev article | back to news index | next article>> Latest News Apple iPhone 3G S - UK buyer's guide & FAQs Pixel Research Labs intros Ringer 1.0 iPhone ringtones software Microsoft's looming Windows 7 licensing 'disaster' for XP users Placebo, Calvin Harris, Bloc Party join iTunes LIVE: London Festival ‘09 line-up Carphone Warehouse offers cash for old iPhones DPI professional photography show starts Thursday, Islington, London Kingston intros "world’s first" DataTraveler 200 128GB USB Flash drive Apple Java update fixes security hole Microsoft user group demands Opera boycott over EU suit Microsoft sues three for 'massive' World of Warcraft click fraud scam Net Applications: Apple loses Safari browser share despite 11m downloads DataViz offers Documents To Go for iPhone More news... --> Mac Broadband? Compare 20+ Mac mobile broadband packages or enter your postcode below: Postcode Powered by Search news Search Google Newsletter signup It's easy and free to get the latest news headlines, reviews and opinions straight to your email inbox. Sign up NOW to make sure you receive the latest Mac news, reviews and tutorials on your favourite topics. Latest issue: Macworld Find out what's in this month's Macworld here or buy now . Macworld reader poll Will you be getting an iPhone 3G S?: Yes, I'll be there on June 19 No, I'll stick with the iPhone I've got until the contract runs out No, I don't want an iPhone Yes, but I'll have to pay O2 to get out of my current iPhone contract No, I'll wait until another carrier is selling it Yes, tell us why in the forums No, Tell us why in the forums View poll results Have your say in the Macworld forums! Register now Stay on top of the latest, breaking Mac news and chat with other Mac professionals and enthusiasts about the issues that matter to you. Register with Macworld today to join our forums and receive our twice-weekly email newsletter, Macworld Mainline. RSS Have the latest content delivered to your desktop via RSS. Use the links below to get access to a specific blog, news, or reviews feed. Subscribe to our feeds here Latest PC industry news Carphone Warehouse offers cashback for iPhones Opera Unite turns your PC into a web server Samsung unveils Jet smartphone Wolfram Alpha comes to iPhone & iPod touch Twitter downtime delayed for Iran election news MACWORLD MARKETPLACE Computer & Laptop At Ciao you can read consumer reviews on a large number of Apple products like iPods , iPhones, Apple laptops and Apple computers . Compare prices of your favourite Apple products today. Free film package with FreeAgent Go™ portable drive Lights, Camera, Action! Download a free short film package when you buy a FreeAgent Go™ portable drive. Choose from five 1-hour film packages: Laughter, Love, Music, Award Winners or Animation Toki Tori Toki Tori is a highly entertaining puzzle platformer like nothing you have seen before! Wolfgang's Vault is where live music lives Wolfgang's Vault is where live music lives, with the broadest collection of music and music memorabilia archives celebrating the live music experience so that fans can relive cherished rock moments, and experience great concerts from the past. Not only a place to hear live music, Wolfgang’s Vault offers for sale a distinguished and curated collection of concert posters, rock photography, vintage t-shirts, retro t-shirts, and a treasure trove of extraordinary concert related memorabilia. FREE 30-day trial. Announcing New FileMaker Pro 10. Sleek new look. Intuitive new design. Learn about the fresh, new interface and innovative features in FileMaker® Pro 10, the leading easy-to-use database software, which will make managing your information easier than ever. New video, photo player for Mac cuts out the fat Save 70% on KandaluLite, a new video/photo player that allows you to convert any video file and or/enhancing your picture definition and saving up to 30% on memory space on the actual H264 standard. CleanMyMac – keep your Mac clean and healthy. CleanMyMac deletes useless files that waste valuable disk space. It slims universal binaries; cleans logs, cache, leftovers from uninstalled applications and unneeded languages; quickly erases any file, and uninstalls applications. Get the best from your Mac! World's most secure PIN protected portable hard drive The Amacom Data Locker is the only portable hard drive which is 100% platform independent with all of its security measures being performed within the device itself. With no software or drivers to install the Data Locker's unique authentication system eliminates the threat of infected systems, keyboard loggers or brute force attacks. About | Privacy policy | webmaster@macworld.co.uk | All contents © IDG 2008 MacVideo – the ultimate resource for video on the Mac | Video Editing | Camera Technology | DVD Authoring | Video Encoding | Motion Graphics and VFX CIO – managing information strategies | Information technology news | Managing IT articles | Expert advice for CIOs | IT strategy white papers | IT security strategy | Managing change | Mobile computing ComputerworldUK.com – IT management news and opinion | Computing news | IT and Management | ICT and technology | IT career development & HR | Managing IT infrastructure | Business intelligence | IT whitepapers and research Digital Arts – the future of Digital Design | Design news | Creative technology reviews | Graphic design tutorials | Animation and video projects | 3D, web and video forums | Design industry blogs PC Advisor - Expert computing advice you can trust | Computing news | Desktop PC reviews | Laptop reviews | Mobile phone reviews | Windows Vista help | Privacy & security downloads | PC Forums | Wi-Fi help Techworld - IT infrastructure & networking news and reviews | Data and voice networking | Data storage | Computer & internet security | Mobile computing & wireless networking | Wireless Router | Internet Security | Enterprise computing topic pages | Virtualisation Macworld US | Macwelt | Macworld Sweden | Macworld Poland | Macworld España | Macworld France
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | power-macs-won-t-hit-3ghz-this-year-anal-73ad0f |
+| title | Power Macs 'won't hit 3GHz this year' – analysts |
+| author | Macworld UK staff (IDG) |
+| date | 2004-06-11 |
+| type | news-article |
+| subject_domain | CPU-clock-speed-90nm-process |
+| methodology | industry-analysis, analyst-commentary |
+| source_file | Power-Macs-won-t-hit-3GHz-this-year-analysts-Mac-Macworld-UK.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Macworld UK news piece (2004-06-11) reporting that Apple's self-imposed one-year 3GHz G5 target will miss its 11 June 2004 deadline, with analysts attributing the delay to industry-wide problems scaling the 90-nanometer manufacturing process. Peter Kastner, EVP and chief research officer at Aberdeen Research Group, quantifies the industry slowdown: Intel managed only 3.2→3.4GHz in the quarter while IBM got an 'A' for cranking the G5 from 2GHz to 2.5GHz — a 25% jump. Kastner predicts the industry will not reach 3GHz for another year.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Captures Kastner's contemporaneous diagnosis of the industry-wide 90nm process wall that eventually forced both Intel (NetBurst cancellation) and Apple (Intel transition) to pivot. |
+| **Relevance** | low | PowerPC G5 is discontinued; Apple moved to Intel 2005-2006 then Apple Silicon 2020. 90nm issues are a historical footnote. |
+| **Prescience** | high | Kastner's 'another year' call was roughly right: Apple never shipped a 3GHz G5 from IBM and transitioned to Intel in 2005-2006; Intel's NetBurst-based clock race ended at 3.8GHz, with the subsequent pivot to Core architecture confirming the broader end of the GHz race. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Industry 3GHz target slips one year
+- **Claimed:** Kastner doesn't expect the industry to reach the 3GHz target for another year.
+- **Year:** 2004
+- **Confidence at time:** high
+
+**Prediction 2:** IBM G5 supply concerns
+- **Claimed:** I question IBM's ability to meet Apple's increased G5 processor demand moving forward given the company's availability challenges to date.
+- **Year:** 2004
+- **Confidence at time:** verified
+
+**Actual Outcome 2:** Apple abandons PowerPC
+- **Result:** WWDC June 2005: Steve Jobs announces Apple's two-year transition from PowerPC to Intel x86; first Intel Macs shipped January 2006. G5 never reached 3GHz in shipping product.
+- **Confidence:** verified
+- **Notes:** Backfill from public knowledge
+
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Apple Computer, Inc. / Apple Inc. | company | active | Renamed Apple Inc. (2007) |
+| International Business Machines Corporation | company | active |  |
+| Intel Corporation | company | active |  |
+| JupiterResearch | firm | acquired | Forrester Research (2008) |
+| Macworld UK | firm | active |  |
+| Michael Gartenberg | person | active |  |
+| Tim Deal | person | active |  |
+| Technology Business Research | firm | active |  |
+
+### Technologies Referenced (4)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| IBM/Apple PowerPC G5 (PowerPC 970) | platform | IBM | new | end-of-life |
+| 90-nanometer semiconductor manufacturing process | platform | industry | new | legacy |
+| Intel Pentium 4 processor | platform | Intel | new | end-of-life |
+| Apple 3GHz G5 one-year target | platform | Apple/IBM | new | end-of-life |
+
+### Observation Summary
+
+- Total observations: 9
+- By type: expert-opinion: 2, market-data: 2, viability-prediction: 2, actual-outcome: 2, corporate-action: 1

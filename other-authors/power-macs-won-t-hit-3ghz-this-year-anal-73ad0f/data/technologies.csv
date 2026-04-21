@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-powerpc-g5","IBM/Apple PowerPC G5 (PowerPC 970)","platform","IBM","2003-2006","new","end-of-life","power-macs-won-t-hit-3ghz-this-year-anal-73ad0f","Apple Power Mac / Xserve G5 CPU; reached 2.7GHz before Apple transitioned to Intel 2006"
+"90nm-process","90-nanometer semiconductor manufacturing process","platform","industry","2003-2007","new","legacy","power-macs-won-t-hit-3ghz-this-year-anal-73ad0f","Process node targeted industry-wide 2003-2005 with widespread yield/clock-speed issues"
+"intel-pentium-4","Intel Pentium 4 processor","platform","Intel","2000-2008","new","end-of-life","power-macs-won-t-hit-3ghz-this-year-anal-73ad0f","NetBurst microarchitecture desktop CPU"
+"g5-cpu-3ghz-target","Apple 3GHz G5 one-year target","platform","Apple/IBM","2003-2004","new","end-of-life","power-macs-won-t-hit-3ghz-this-year-anal-73ad0f","Jobs' WWDC 2003 promise missed June 2004 deadline"

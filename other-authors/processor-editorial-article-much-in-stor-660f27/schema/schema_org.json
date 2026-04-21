@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Much In Store Beyond 2004: Microsoft Has Experts Questioning Some Initiatives",
+  "description": "Processor Magazine editorial (2004-03-05) by Warren S. Hersch surveying Microsoft's 2004 product roadmap \u2014 Longhorn, Yukon, MOM, Virtual Server, Live Communications Server, Tablet PC \u2014 and SMB business-applications strategy. Peter Kastner (chief research officer, Aberdeen Group) argues Microsoft's SMB focus will target high-volume products like QuickBooks competitors rather than SAP/PeopleSoft/Oracle enterprise territory, and that Microsoft rationally will not open-source Windows or port Office to Linux because that would help a competitor OS lacking a proven mass market.",
+  "creator": {
+    "@type": "Person",
+    "name": "Warren S. Hersch (Processor Magazine / Sandhills Publishing)"
+  },
+  "datePublished": "2004-03-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

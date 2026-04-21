@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Real-Time Billing for Internet Protocol (IP) Services",
+  "description": "International Engineering Consortium online tutorial (authored ~1998 based on IDC/Forrester projections cited for 2002-2003) on the shift from back-office batch Customer Management and Billing (CM&B) systems to real-time front-office systems for Internet service providers. Peter Kastner, chief research officer of Aberdeen Group, is quoted arguing that traditional 30-45 day billing cycles don't work in the Internet's 'dog-eat-dog competitive world' \u2014 ISPs need infrastructure allowing customers to 'turn on a dime, try new services right away.' Supporting data: IDC's 1997 estimate of 68 million web users worldwide; Forrester projection of a $58B US business Internet services market by 2003.",
+  "creator": {
+    "@type": "Person",
+    "name": "International Engineering Consortium (IEC) tutorial"
+  },
+  "datePublished": "1998-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

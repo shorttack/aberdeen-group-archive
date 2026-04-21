@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"cisco-ipcc-express","Cisco IP Contact Center (IPCC) Express","application","Cisco Systems","2000-2012","new","legacy-supplanted","processor-editorial-article-the-momentum-2b093d","Later rebranded Unified Contact Center Express (UCCX)"
+"cisco-security-agent","Cisco Security Agent (CSA)","application","Cisco Systems","2003-2011","new","end-of-life","processor-editorial-article-the-momentum-2b093d","Host intrusion prevention; EOL announced 2010"
+"cisco-callmanager","Cisco CallManager / Unified Communications Manager","application","Cisco Systems","1999-present","mature","active","processor-editorial-article-the-momentum-2b093d","IP telephony call-control platform"
+"cisco-vpn","Cisco VPN products","platform","Cisco Systems","1995-present","mature","active","processor-editorial-article-the-momentum-2b093d","IPSec/SSL VPN concentrators and ASA firewalls"
+"cisco-ios-source-code","Cisco IOS router source code","platform","Cisco Systems","1986-present","mature","active","processor-editorial-article-the-momentum-2b093d","Proprietary router OS; partial source code leaked publicly May 2004"
+"cisco-smb-class-solutions","Cisco SMB Class Solutions Initiative","framework","Cisco Systems","2004-2010","new","legacy-supplanted","processor-editorial-article-the-momentum-2b093d","Bundled networking for SMB; eventually subsumed into Meraki and commercial SMB lines"

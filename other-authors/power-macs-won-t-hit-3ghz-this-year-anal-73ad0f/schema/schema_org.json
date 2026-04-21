@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Power Macs 'won't hit 3GHz this year' \u2013 analysts",
+  "description": "Macworld UK news piece (2004-06-11) reporting that Apple's self-imposed one-year 3GHz G5 target will miss its 11 June 2004 deadline, with analysts attributing the delay to industry-wide problems scaling the 90-nanometer manufacturing process. Peter Kastner, EVP and chief research officer at Aberdeen Research Group, quantifies the industry slowdown: Intel managed only 3.2\u21923.4GHz in the quarter while IBM got an 'A' for cranking the G5 from 2GHz to 2.5GHz \u2014 a 25% jump. Kastner predicts the industry will not reach 3GHz for another year.",
+  "creator": {
+    "@type": "Person",
+    "name": "Macworld UK staff (IDG)"
+  },
+  "datePublished": "2004-06-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

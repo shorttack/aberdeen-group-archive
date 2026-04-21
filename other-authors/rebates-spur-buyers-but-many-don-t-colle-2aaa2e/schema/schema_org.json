@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rebates spur buyers but many don't collect",
+  "description": "Honolulu Advertiser consumer-business feature (2004-03-07) syndicated from USA Today by Lorrie Grant on the economic mechanics of mail-in rebates. Peter Kastner, analyst at Aberdeen Group, supplies the key consumer-behavior statistic: 'Two people out of five never bother to apply for the rebate.' Supporting material from consumer psychologist Renee Fraser (Fraser Communications), marketing professor Dhruv Grewal (Babson), and Eugene Fram (Rochester Institute of Technology) on FTC redemption-deadline rules and the 5% / 10% manufacturer math behind rebate spend.",
+  "creator": {
+    "@type": "Person",
+    "name": "Lorrie Grant (USA Today) via The Honolulu Advertiser"
+  },
+  "datePublished": "2004-03-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

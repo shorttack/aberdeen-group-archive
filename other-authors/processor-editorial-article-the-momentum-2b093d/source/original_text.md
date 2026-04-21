@@ -1,0 +1,87 @@
+# The Momentum Is Gathering At Cisco: Developing SME Products Is A Growing Priority
+
+> Archived from: Processor-Editorial-Article-The-Momentum-Is-Gathering-At-Cisco-4.webarchive
+> Original publication date: 2004-07-16
+> Author: Elizabeth Millard (Processor Magazine / Sandhills Publishing)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.processor.com/editorial/article.asp?Article=articles/p2629/21p29/21p29.asp&GUID=
+MIME: text/html
+
+Processor Editorial Article - The Momentum Is Gathering At Cisco Home | Register | Contact Us This Week's Issue Browse All Issues Search All Articles Product News & Information Company News & Information General Feature Articles News Opinions Cover Focus Articles Email This Print This General Information July 16, 2004 • Vol.26 Issue 29 Page(s) 1 in print issue The Momentum Is Gathering At Cisco Developing SME Products Is A Growing Priority nt> For the past nine years, Cisco has been working to bring more products to small and midsized enterprise customers. But it's been in the past few years in particular that the company seems to have truly put its plans into action. With initiatives that focus on smaller enterprises and more recognition that smaller enterprises need products geared just for them, Cisco is showing its determination to be a major source for technology, financing, and services for SMEs. "In the past six months, we've seen so much momentum in terms of getting new products out and catering to customers of all sizes," says Hideo Esaka, Cisco's program manager for SMB Class Solutions. "We've been looking at the issues specific to smaller enterprises, like having more mobility, and are working on meeting those needs." Head Of The Class One of the most important developments lately has been the creation of the company's SMB Class Solutions Initiative, according to Peter Alexander, vice president of Cisco's worldwide commercial marketing segment. He says that the program, which combines services, finances, applications, and training, helps smaller customers grow their networks without having to break their budgets to do it. "Companies now need a partner when they're ready to grow their networks," says Alexander. "So, that's what we provide." The initiative was announced in April and since then has been well received, the company notes. Although the economy has improved in many ways over last year, smaller enterprises are still careful with spending, and Cisco's price breaks may be compelling. The company offers a 36-month IPC leasing and service contract that starts at $5,000 per year for three years. In addition to the financing component, the bundle features specially priced bundles that combine wireless technology, VPN products, routers, and switches. Cisco service is included as well, with support for network infrastructure and consulting advice focusing on operational efficiency and other management issues. Alexander adds that the bundled products were enhanced for the April launch, with improvements shown in setup, cluster management, security device management, better monitoring ability, and more intuitive menus. Call Forwarding As part of the SMB Class Solutions Initiative, Cisco has been tweaking its IP communications products. It's becoming more usual for communications to fall into a data center manager's realm, so applications that ease this transition can prove valuable. Esaka recommends the IP Contact Center (IPCC) Express edition for smaller enterprises. The edition offers a way to manage customer voice contacts using Cisco IP Communications architecture. The CRM Communications Connector is also a new option, providing telephony features such as click-to-dial and screen pop-ups on incoming calls. Cisco calls IPCC Express its "contact center in a box" because the application runs on a single server and allows for call routing, contact management, and administration features. "This product is good for smaller enterprises because the feature set is limited, but you don't need eight lines on each phone," Esaka says. "It has many features that are customizable, as well, which has been important for SMEs." The Express edition is provided in two versions, Standard and Enhanced, and a company can start with Standard for lower-level call center needs and upgrade if needed. The Enhanced version has additional features such as skills-based routing and priority queuing, computer telephony integration, and supervisory features such as intercept. Esaka notes that with IPCC Express, as well as other SME-focused products, Cisco is especially cognizant of pricing because so much of an IT department's decisions are based on cost. Although the company doesn't compete by slashing prices, which Esaka says would take some clout from the Cisco brand, it does put bundles together specifically for SMEs. "We make a special effort to make sure that SME products are bundled in a way that makes sense, both in terms of use and cost," he says. Security Corps Anyone who has read about technology lately (and with all the viruses and threats, who hasn't?) knows that security has become a major topic in the IT world. Like many companies, Cisco has been focusing on developing products that tackle the problem and are still affordable to boot. The latest in its security lineup is the Cisco Security Agent Starter Bundle, which is geared toward SMEs, says Steve Collen, marketing director in the company's security division. Larger companies gravitate toward the Cisco Security Agent, which gives protection to server and desktop systems. It works by analyzing behavior and examining classes of attacks, rather than defending against specific attacks. The Starter Bundle is a lower-cost version that provides protection for all deployments within SMEs. It features CiscoWorks VPN/Security Management Solution Basic 2.2, CiscoWorks Management Center for Cisco Security Agents 4.01, one Cisco Security Agent for servers, and 10 Security Agents for desktops. Cisco's Future In terms of how Cisco will tackle SME needs in the future, Alexander notes that the company's goal is to be seen as a major provider in the market. Aberdeen analyst Peter Kastner says that the company certainly has the clout to make a difference and reach its goals. However, he adds that Cisco is still smarting from the announcement that an unspecified amount of its proprietary source code had been stolen. The code turned up on the Internet, where it had been made publicly available. This difficulty for the company could be a gain for SMEs, though. "Cisco will redouble its effort to make sure [its] routers are secure," Kastner says. He notes that the company will also look more closely at other products and get closer to making bulletproof technology that can stand up to hackers. For SMEs, that's good news, because it may mean more secure products down the line. When better security is combined with the company's mission to be a leading SME product provider, it could lead many smaller companies to take a closer look at Cisco's bundles. by Elizabeth Millard Share This Article: Home Copyright & Legal Notice Privacy Policy Site Map Contact Us Search results delivered by the Troika ® system. Copyright © by Sandhills Publishing Company 2009. All rights reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | processor-editorial-article-the-momentum-2b093d |
+| title | The Momentum Is Gathering At Cisco: Developing SME Products Is A Growing Priority |
+| author | Elizabeth Millard (Processor Magazine / Sandhills Publishing) |
+| date | 2004-07-16 |
+| type | news-article |
+| subject_domain | cisco-sme-strategy |
+| methodology | industry-analysis, product-review, analyst-commentary |
+| source_file | Processor-Editorial-Article-The-Momentum-Is-Gathering-At-Cisco-4.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Processor Magazine editorial (2004-07-16) by Elizabeth Millard covering Cisco's April 2004 SMB Class Solutions Initiative, IPCC Express contact-center bundles, and Cisco Security Agent Starter Bundle. Peter Kastner (Aberdeen analyst) notes Cisco has the clout to become a major SME player but is still smarting from the May 2004 leak of proprietary Cisco IOS router source code, which he predicts will force Cisco to redouble router-security investment — ultimately a positive for SMEs getting more secure products.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Captures pivotal mid-2004 moment: Cisco formalizing SMB push while simultaneously reckoning with the IOS source-code theft — a reputational watershed for Cisco security practice. |
+| **Relevance** | low | Cisco IOS source-code leak is long resolved; SMB networking is now dominated by Wi-Fi 6 mesh and cloud-managed gear (Meraki, Ubiquiti, Aruba). |
+| **Prescience** | medium | Kastner correctly predicted Cisco would double-down on router security (IOS hardening, Cisco Security Advisory Service expansion) following the leak; SMB pivot yielded Meraki (acquired 2012). However, consumer/SOHO networking left Cisco's hands entirely (sold Linksys 2013). |
+
+### Prescience Detail
+
+
+**Prediction 1:** Router-security redouble
+- **Claimed:** Cisco will redouble its effort to make sure its routers are secure. The company will also look more closely at other products and get closer to making bulletproof technology that can stand up to hackers.
+- **Year:** 2004
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Cisco IOS security hardening
+- **Result:** Following IOS code leak, Cisco expanded PSIRT advisory cadence and released IOS Software Modularity / IOS XR further hardening router software — consistent with Kastner prediction.
+- **Confidence:** verified
+- **Notes:** Backfill
+
+
+### Entities Referenced (6)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Cisco Systems, Inc. | company | active |  |
+| Hideo Esaka | person | active |  |
+| Peter Alexander (Cisco) | person | active |  |
+| Steve Collen | person | active |  |
+
+### Technologies Referenced (6)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Cisco IP Contact Center (IPCC) Express | application | Cisco Systems | new | legacy-supplanted |
+| Cisco Security Agent (CSA) | application | Cisco Systems | new | end-of-life |
+| Cisco CallManager / Unified Communications Manager | application | Cisco Systems | mature | active |
+| Cisco VPN products | platform | Cisco Systems | mature | active |
+| Cisco IOS router source code | platform | Cisco Systems | mature | active |
+| Cisco SMB Class Solutions Initiative | framework | Cisco Systems | new | legacy-supplanted |
+
+### Observation Summary
+
+- Total observations: 8
+- By type: product-launch: 3, actual-outcome: 2, expert-opinion: 1, viability-prediction: 1, corporate-action: 1

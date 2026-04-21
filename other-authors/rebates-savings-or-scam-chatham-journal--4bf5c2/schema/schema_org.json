@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rebates: Savings or scam?",
+  "description": "Chatham Journal Weekly consumer column (2005-06-26) by Gary Gray of CouponChief.com surveying mail-in rebate pitfalls. Gray cites Peter Kastner, executive vice president of Aberdeen Group, on the 40/40/20 consumer-rebate split: 40% never submit, 40% submit and get paid, 20% have problems. The column also reports that US rebate spending grew from $1B to $4B between 1999 and 2003, and frames the practical tradeoff between full-price at checkout and actual realized discount.",
+  "creator": {
+    "@type": "Person",
+    "name": "Gary Gray (CouponChief.com) via Chatham Journal Weekly"
+  },
+  "datePublished": "2005-06-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

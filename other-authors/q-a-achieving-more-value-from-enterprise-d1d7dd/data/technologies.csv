@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"service-oriented-architecture","Service-Oriented Architecture (SOA)","framework","industry","2000-present","new","legacy-supplanted","q-a-achieving-more-value-from-enterprise-d1d7dd","Software architecture style using loosely coupled services over web standards"
+"web-services","Web Services (SOAP/WSDL/UDDI)","protocol","W3C/OASIS","2000-present","mature","legacy-supported","q-a-achieving-more-value-from-enterprise-d1d7dd","XML-based interoperability stack; supplanted in part by REST/JSON"
+"enterprise-service-bus","Enterprise Service Bus (ESB)","framework","industry","2003-2015","mature","legacy-supplanted","q-a-achieving-more-value-from-enterprise-d1d7dd","Messaging middleware for SOA integration; supplanted by API gateways and event brokers (Kafka)"
+"erp-application-platform","ERP Application Platform (generic)","application","industry","1990-present","mature","active","q-a-achieving-more-value-from-enterprise-d1d7dd","Integrated business application suite"
+"business-process-management","Business Process Management (BPM)","framework","industry","2000-present","mature","active","q-a-achieving-more-value-from-enterprise-d1d7dd","Process automation discipline; evolved into RPA + low-code"

@@ -58,8 +58,8 @@ This study did not make forward-looking claims.
 | International Data Corporation (IDC) | firm | active |  |
 | Microsoft Corporation | company | active |  |
 | Wired magazine / Wired.com | firm | active |  |
-| Elisa Batista | person | [DEFERRED] |  |
-| Craig Lawton | person | [DEFERRED] |  |
+| Elisa Batista | person | unknown |  |
+| Craig Lawton | person | unknown |  |
 | Boston Consulting Group (BCG) | firm | active |  |
 | Jupiter Research / JupiterMedia | firm | acquired | Forrester Research (2008) |
 

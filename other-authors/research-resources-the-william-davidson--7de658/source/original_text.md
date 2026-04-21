@@ -56,7 +56,7 @@ This study did not make forward-looking claims.
 | Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Peter S. Kastner | person | active |  |
 | William Davidson Institute, University of Michigan | institution | active |  |
-| Rick Saia | person | [DEFERRED] |  |
+| Rick Saia | person | unknown |  |
 | Infosys Limited | company | active |  |
 | Wipro Limited | company | active |  |
 | Tata Consultancy Services (TCS) | company | active |  |

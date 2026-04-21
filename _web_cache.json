@@ -1318,6 +1318,41 @@
       "status": "merged",
       "successor": "Merged with OSF to form The Open Group (1996)",
       "source": "https://en.wikipedia.org/wiki/X/Open \u2014 X/Open merged with OSF in 1996 to form The Open Group"
+    },
+    "chatham-journal-weekly": {
+      "status": "active",
+      "successor": "",
+      "notes_append": "Still publishing as Chatham Journal Newspaper at chathamjournal.com as of 2026."
+    },
+    "hong-kong-dragonair": {
+      "status": "dissolved",
+      "successor": "Cathay Pacific (merged into as Cathay Dragon 2016, brand dissolved 2020)",
+      "notes_append": "Acquired by Cathay Pacific 2006; rebranded Cathay Dragon 2016; fully merged into Cathay Pacific 2020 during COVID."
+    },
+    "culturecom-china": {
+      "status": "active",
+      "successor": "",
+      "notes_append": "Publicly traded as Culturecom Holdings Limited (SEHK:343) as of 2026; pivoted to comic/media publishing after early-2000s Power-chip localization efforts."
+    },
+    "sg-industries": {
+      "status": "active",
+      "successor": "",
+      "notes_append": "Still operating in Beverly MA (100 Cummings Ctr) as electronics company; ~39 employees per recent business records."
+    },
+    "hy-tek-mfg": {
+      "status": "unknown [REVIEW]",
+      "successor": "",
+      "notes_append": "No conclusive post-2005 signal located during Phase 3."
+    },
+    "santella-com": {
+      "status": "unknown [REVIEW]",
+      "successor": "",
+      "notes_append": "Related Santella & Associates (Elmwood Park IL) was an active coupon/fulfillment consultancy circa 1996; santella.com domain status unverified."
+    },
+    "k-lag-technology": {
+      "status": "unknown [REVIEW]",
+      "successor": "",
+      "notes_append": "Distinct from K-LAGAN (Barcelona consultancy) and KL Tech Consulting (NY) per Phase 3 search."
     }
   },
   "technologies": {
@@ -4001,5 +4036,5 @@
       "source": "Known / public record \u2014 PowerPC Macs 1994-2005; transition to Intel 2006; Apple Silicon 2020"
     }
   },
-  "last_updated": "2026-04-12T22:21:03.753313"
+  "last_updated": "2026-04-21T01:43:47.888479"
 }

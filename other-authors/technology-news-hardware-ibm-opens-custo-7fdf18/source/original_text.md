@@ -71,8 +71,8 @@ TechNewsWorld article (Apr 1 2004, Jay Lyman) on IBM's Power Everywhere event in
 | TechNewsWorld / ECT News Network | firm | active |  |
 | Jay Lyman | person | active |  |
 | Martin Reynolds | person | active |  |
-| Jim Larkin | person | [DEFERRED] |  |
-| Culturecom Technology | company | [DEFERRED] |  |
+| Jim Larkin | person | unknown |  |
+| Culturecom Technology | company | active |  |
 
 ### Technologies Referenced (5)
 

@@ -56,8 +56,8 @@ This study did not make forward-looking claims.
 | Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Peter S. Kastner | person | active |  |
 | US Federal Trade Commission | agency | active |  |
-| santella.com (JPS Rebate & Premium Fulfillment) | firm | [DEFERRED] |  |
-| Stanley J. Fenvessy | person | [DEFERRED] |  |
+| santella.com (JPS Rebate & Premium Fulfillment) | firm | unknown [REVIEW] |  |
+| Stanley J. Fenvessy | person | unknown |  |
 
 ### Technologies Referenced (2)
 

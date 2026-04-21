@@ -74,7 +74,7 @@ InformationWeek issue #694 feature (Aug 3 1998) by Stuart J. Johnston with Monua
 | Hewlett-Packard Company | company | split | HP Inc. + Hewlett Packard Enterprise (2015) |
 | InformationWeek / TechWeb | firm | active |  |
 | Stuart J. Johnston | person | active |  |
-| Monua Janah | person | [DEFERRED] |  |
+| Monua Janah | person | unknown |  |
 
 ### Technologies Referenced (5)
 

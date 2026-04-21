@@ -58,7 +58,7 @@ This study did not make forward-looking claims.
 | Sony Corporation | company | active |  |
 | Panasonic Corporation | company | active | Renamed from Matsushita 2008 |
 | SD Card Association | firm | active |  |
-| Ray Creech | person | [DEFERRED] |  |
+| Ray Creech | person | unknown |  |
 | NPD Group, Inc. | firm | active | Circana (2022 merger with IRI) |
 | vnunet.com / Computing.co.uk | firm | acquired | Incisive Media (2008) |
 

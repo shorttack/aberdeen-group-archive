@@ -55,7 +55,7 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Peter S. Kastner | person | active |  |
-| James Powell | person | [DEFERRED] |  |
+| James Powell | person | unknown |  |
 | Enterprise Systems Journal / ESJ.com | firm | active |  |
 
 ### Technologies Referenced (4)

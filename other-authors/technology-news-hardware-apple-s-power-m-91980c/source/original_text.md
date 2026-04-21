@@ -70,7 +70,7 @@ TechNewsWorld article (Aug 18 2003, Jay Lyman) on Apple's shipment of the Power 
 | International Data Corporation (IDC) | firm | active |  |
 | TechNewsWorld / ECT News Network | firm | active |  |
 | Jay Lyman | person | active |  |
-| Alan Promisel | person | [DEFERRED] |  |
+| Alan Promisel | person | unknown |  |
 
 ### Technologies Referenced (3)
 

@@ -76,7 +76,7 @@ TechNewsWorld article (Apr 13 2004, Gene J. Koprowski) on Intel's Taipei develop
 | Microsoft Corporation | company | active |  |
 | TechNewsWorld / ECT News Network | firm | active |  |
 | Gene J. Koprowski | person | active |  |
-| Richard Dracott | person | [DEFERRED] |  |
+| Richard Dracott | person | unknown |  |
 | Audi AG | company | active |  |
 
 ### Technologies Referenced (5)

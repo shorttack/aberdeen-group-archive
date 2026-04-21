@@ -62,7 +62,7 @@ This study did not make forward-looking claims.
 | Jay Lyman | person | active |  |
 | Edward Zander | person | active |  |
 | Christopher B. Galvin | person | active |  |
-| Alex Slawsby | person | [DEFERRED] |  |
+| Alex Slawsby | person | unknown |  |
 | Seagate Technology | company | active |  |
 | Silver Lake Partners | company | active |  |
 

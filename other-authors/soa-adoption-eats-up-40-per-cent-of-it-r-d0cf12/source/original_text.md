@@ -55,7 +55,7 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Peter S. Kastner | person | active |  |
-| Andy McCue | person | [DEFERRED] |  |
+| Andy McCue | person | unknown |  |
 | silicon.com | firm | acquired | CBS Interactive Business UK (2008) -> shut down 2012 |
 | CNET Networks, Inc. | firm | acquired | CBS Interactive (2008) |
 

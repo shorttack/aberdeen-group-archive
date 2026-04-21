@@ -69,9 +69,9 @@ InformationWeek issue #563 news article (Jan 22 1996) by Barbara DePompa on Tand
 | Hewlett-Packard Company | company | split | HP Inc. + Hewlett Packard Enterprise (2015) |
 | Microsoft Corporation | company | active |  |
 | Tandem Computers, Inc. | company | acquired | Compaq (1997) -> HP (2002) -> HPE (2015) |
-| Roel Pieper | person | [DEFERRED] |  |
+| Roel Pieper | person | unknown |  |
 | James Treybig | person | active |  |
-| Barbara DePompa | person | [DEFERRED] |  |
+| Barbara DePompa | person | unknown |  |
 | Unix System Laboratories | company | acquired | Novell (1993) -> SCO (1995) |
 | Software AG | company | active |  |
 | UB Networks (Ungermann-Bass) | company | acquired | Newbridge Networks (1998) |

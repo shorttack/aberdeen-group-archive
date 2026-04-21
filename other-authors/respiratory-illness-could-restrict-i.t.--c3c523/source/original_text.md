@@ -60,8 +60,8 @@ This study did not make forward-looking claims.
 | Compaq Computer Corporation | company | dissolved | HP (2002) |
 | Apple Computer, Inc. / Apple Inc. | company | active | Renamed Apple Inc. (2007) |
 | InformationWeek / TechWeb | firm | active |  |
-| Joe Wetz | person | [DEFERRED] |  |
-| K-Lag Technology | firm | [DEFERRED] |  |
+| Joe Wetz | person | unknown |  |
+| K-Lag Technology | firm | unknown [REVIEW] |  |
 | Guangdong Province, China | institution | active |  |
 | World Health Organization | institution | active |  |
 

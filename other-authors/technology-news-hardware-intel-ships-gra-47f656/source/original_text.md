@@ -78,7 +78,7 @@ TechNewsWorld article (Jun 22 2004, Jay Lyman) on Intel's release of the 915 G/P
 | TechNewsWorld / ECT News Network | firm | active |  |
 | Jay Lyman | person | active |  |
 | Martin Reynolds | person | active |  |
-| Louis Burns | person | [DEFERRED] |  |
+| Louis Burns | person | unknown |  |
 
 ### Technologies Referenced (10)
 

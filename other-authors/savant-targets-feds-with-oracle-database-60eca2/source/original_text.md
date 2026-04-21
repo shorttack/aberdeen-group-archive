@@ -58,8 +58,8 @@ This study did not make forward-looking claims.
 | Oracle Corporation | company | active |  |
 | Microsoft Corporation | company | active |  |
 | Savant Corporation | company | dissolved |  |
-| Alec Glorieux | person | [DEFERRED] |  |
-| William Wynn | person | [DEFERRED] |  |
+| Alec Glorieux | person | unknown |  |
+| William Wynn | person | unknown |  |
 | US Department of Justice | agency | active |  |
 | Pension Benefit Guaranty Corporation | agency | active |  |
 | US General Services Administration | agency | active |  |

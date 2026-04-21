@@ -57,8 +57,8 @@ This study did not make forward-looking claims.
 | Peter S. Kastner | person | active |  |
 | Gateway, Inc. | company | acquired | Acer (2007) |
 | Theodore W. (Ted) Waitt | person | active |  |
-| T. Scott Edwards | person | [DEFERRED] |  |
-| David Turner | person | [DEFERRED] |  |
+| T. Scott Edwards | person | unknown |  |
+| David Turner | person | unknown |  |
 | MarketWatch / CBS.MarketWatch.com | firm | active | Dow Jones / News Corp |
 | IDC (International Data Corporation) | firm | active |  |
 | Credit Suisse First Boston | firm | renamed | Credit Suisse (2006) -> UBS (2023) |

@@ -60,10 +60,10 @@ This study did not make forward-looking claims.
 | Sabre Group Holdings, Inc. | company | active | Sabre Corporation (2014 IPO); NASDAQ: SABR |
 | AMR Corporation | company | renamed | American Airlines Group (2013) |
 | Travelocity | firm | acquired | Expedia (2015) |
-| Thomas Cook | person | [DEFERRED] |  |
+| Thomas Cook | person | unknown |  |
 | Terrell B. Jones | person | active |  |
 | Silicon Graphics, Inc. | company | dissolved | Rackable Systems (2009, renamed SGI); HPE (2016) |
-| Hong Kong airline GDS consortium | institution | [DEFERRED] |  |
+| Hong Kong airline GDS consortium | institution | dissolved | Cathay Pacific (merged into as Cathay Dragon 2016, brand dissolved 2020) |
 | InformationWeek | firm | active |  |
 
 ### Technologies Referenced (4)

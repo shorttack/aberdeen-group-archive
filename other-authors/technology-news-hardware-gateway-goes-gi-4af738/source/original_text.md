@@ -61,8 +61,8 @@ This study did not make forward-looking claims.
 | International Data Corporation (IDC) | firm | active |  |
 | TechNewsWorld / ECT News Network | firm | active |  |
 | Kirk L. Kroeker | person | active |  |
-| Maximilian Flisi | person | [DEFERRED] |  |
-| Scott Weinbrandt | person | [DEFERRED] |  |
+| Maximilian Flisi | person | unknown |  |
+| Scott Weinbrandt | person | unknown |  |
 
 ### Technologies Referenced (8)
 

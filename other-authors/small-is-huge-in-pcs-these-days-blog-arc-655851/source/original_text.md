@@ -77,7 +77,7 @@ Reuters wire story (original ~2003-2004, preserved via a Jan 6 2009 repost on ui
 | Shuttle Computer Group Inc. | company | active |  |
 | Gartner, Inc. | firm | active |  |
 | Polywell Computers, Inc. | company | active |  |
-| Hy-Tek Manufacturing Co. | company | [DEFERRED] |  |
+| Hy-Tek Manufacturing Co. | company | unknown [REVIEW] |  |
 | Roger Kay | person | active |  |
 | Reuters News Agency | firm | acquired | Thomson Reuters (2008) -> now owned by Refinitiv/LSEG |
 

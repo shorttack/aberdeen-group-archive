@@ -58,7 +58,7 @@ This study did not make forward-looking claims.
 | Sun Microsystems, Inc. | company | acquired | Oracle Corporation (2010) |
 | Oracle Corporation | company | active |  |
 | MarketWatch / CBS.MarketWatch.com | firm | acquired | Dow Jones / News Corp (2005) |
-| Mike Tarsala | person | [DEFERRED] |  |
+| Mike Tarsala | person | unknown |  |
 | Scott McNealy | person | active |  |
 
 ### Technologies Referenced (3)

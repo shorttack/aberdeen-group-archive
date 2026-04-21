@@ -62,7 +62,7 @@ This study did not make forward-looking claims.
 | Flextronics International | company | renamed | Flex Ltd. (2016) |
 | America II Electronics | company | active |  |
 | Avnet, Inc. | company | active |  |
-| SG Industries | company | [DEFERRED] |  |
+| SG Industries | company | active |  |
 | Merrill Lynch & Co. | firm | acquired | Bank of America (2008) |
 | EBN (Electronic Buyers News) | firm | active |  |
 

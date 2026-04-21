@@ -79,7 +79,7 @@ CNN/Money Tech Investor column (Apr 10 2003) by Eric Hellweg on SARS impact on t
 | First Albany Companies / Broadpoint Securities | firm | renamed | Gleacher & Company (2009) -> Broadpoint Gleacher (2010) -> defunct |
 | Rob Enderle | person | active |  |
 | Giga Information Group | firm | acquired | Forrester Research (2003) |
-| Auguste Richard | person | [DEFERRED] |  |
+| Auguste Richard | person | unknown |  |
 
 ### Technologies Referenced (3)
 

@@ -67,7 +67,7 @@ InternetNews.com news story (Jun 21 2004) by Michael Singer on the U.S. Supreme 
 | Peter S. Kastner | person | active |  |
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices, Inc. | company | active |  |
-| Michael Singer | person | [DEFERRED] |  |
+| Michael Singer | person | unknown |  |
 | European Commission Directorate-General for Competition | firm | active |  |
 | United States Supreme Court | firm | active |  |
 | InternetNews.com / internet.com / WebMediaBrands | firm | shut-down | QuinStreet (2009) -> defunct |

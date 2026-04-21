@@ -59,7 +59,7 @@ This study did not make forward-looking claims.
 | Hewlett-Packard Company | company | split | HP Inc. + Hewlett Packard Enterprise (2015) |
 | Advanced Micro Devices, Inc. | company | active |  |
 | Sun Microsystems, Inc. | company | acquired | Oracle Corporation (2010) |
-| Russ Craig | person | [DEFERRED] |  |
+| Russ Craig | person | unknown |  |
 | Acer Inc. | company | active |  |
 | Gartner, Inc. | firm | active |  |
 | World Health Organization | institution | active |  |

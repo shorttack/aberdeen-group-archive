@@ -60,8 +60,8 @@ This study did not make forward-looking claims.
 | Informix Software | company | acquired | IBM (2001) |
 | Oracle Corporation | company | active |  |
 | InformationWeek / TechWeb | firm | active |  |
-| Mike Regan | person | [DEFERRED] |  |
-| Paul Wahl | person | [DEFERRED] |  |
+| Mike Regan | person | unknown |  |
+| Paul Wahl | person | unknown |  |
 
 ### Technologies Referenced (5)
 

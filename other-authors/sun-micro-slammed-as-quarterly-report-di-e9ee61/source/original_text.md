@@ -58,7 +58,7 @@ This study did not make forward-looking claims.
 | Sun Microsystems, Inc. | company | acquired | Oracle Corporation (2010) |
 | Oracle Corporation | company | active |  |
 | MarketWatch / CBS.MarketWatch.com | firm | acquired | Dow Jones / News Corp (2005) |
-| Rex Crum | person | [DEFERRED] |  |
+| Rex Crum | person | unknown |  |
 | Scott McNealy | person | active |  |
 | Credit Suisse First Boston | company | renamed | Credit Suisse (2006) -> UBS (2023) |
 | Bernstein Research / Sanford C. Bernstein & Co. | firm | acquired | AllianceBernstein (2000) |

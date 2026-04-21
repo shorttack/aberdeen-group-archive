@@ -58,7 +58,7 @@ This study did not make forward-looking claims.
 | Salesforce.com | company | active |  |
 | Oracle Corporation | company | active |  |
 | Marc Benioff | person | active |  |
-| Robyn Weisman | person | [DEFERRED] |  |
+| Robyn Weisman | person | unknown |  |
 | Datamation / internet.com | firm | active | Ziff Davis / Quinstreet lineage |
 
 ### Technologies Referenced (6)

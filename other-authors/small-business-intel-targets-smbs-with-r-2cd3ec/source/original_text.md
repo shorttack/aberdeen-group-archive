@@ -57,11 +57,11 @@ This study did not make forward-looking claims.
 | Peter S. Kastner | person | active |  |
 | Intel Corporation | company | active |  |
 | Symantec Corporation | company | split | NortonLifeLock (consumer) + Broadcom Software (enterprise, 2019) |
-| Mark Long | person | [DEFERRED] |  |
+| Mark Long | person | unknown |  |
 | CIO Today Network / NewsFactor | firm | acquired | Newstex (2010s) |
 | iSuppli Corporation | firm | acquired | IHS (2010) -> IHS Markit -> S&P Global |
-| Matthew Wilkins | person | [DEFERRED] |  |
-| Kevin Unbedacht | person | [DEFERRED] |  |
+| Matthew Wilkins | person | unknown |  |
+| Kevin Unbedacht | person | unknown |  |
 
 ### Technologies Referenced (4)
 

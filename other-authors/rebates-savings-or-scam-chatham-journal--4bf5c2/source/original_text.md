@@ -57,7 +57,7 @@ This study did not make forward-looking claims.
 | Peter S. Kastner | person | active |  |
 | CompUSA | company | dissolved | Stores closed 2008; brand sold to Systemax then TigerDirect |
 | Circuit City Stores, Inc. | company | dissolved | Liquidated 2009; brand later revived online |
-| Chatham Journal Weekly | firm | [DEFERRED] |  |
+| Chatham Journal Weekly | firm | active |  |
 | CouponChief.com | company | active |  |
 | Gary Gray | person | active |  |
 

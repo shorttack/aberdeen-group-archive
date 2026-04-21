@@ -74,7 +74,7 @@ TechNewsWorld article (Apr 22 2004, Jay Lyman) marking the first anniversary of 
 | Vernon Turner | person | retired |  |
 | Dirk Meyer | person | active |  |
 | Marty Seyer | person | active |  |
-| James Mouton | person | [DEFERRED] |  |
+| James Mouton | person | unknown |  |
 | Fujitsu Siemens Computers | company | dissolved | Fujitsu Technology Solutions (2009) |
 
 ### Technologies Referenced (4)

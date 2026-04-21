@@ -1,5 +1,5 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,13-hh-time-compression-downtime-strategy-4e50c9,"Author organization. From cache."
-david-hill,David Hill,person,Market Research / IT Consulting,[DEFERRED],,2000s,13-hh-time-compression-downtime-strategy-4e50c9,"Likely author (HH = David Hill); Aberdeen VP Storage Research. From cache."
-emc,EMC Corporation,company,Enterprise Storage,acquired,Dell,1979-2016,13-hh-time-compression-downtime-strategy-4e50c9,"Referenced in pricing: EMC CX600 with 146GB disks at $13.30/GB (midrange online disk). From cache."
-hitachi-data-systems,Hitachi Data Systems,company,Enterprise Storage,[DEFERRED],Western Digital,2003-2012,13-hh-time-compression-downtime-strategy-4e50c9,"Referenced in pricing: HDS 9980V with 146GB disks at $31.60/GB (high-end online disk). Named as primary reference price point."
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Aberdeen/Harte-Hanks","1988-present","13-hh-time-compression-downtime-strategy-4e50c9","Author organization. From cache."
+"david-hill","David Hill","person","Market Research / IT Consulting","unknown [REVIEW]","","2000s","13-hh-time-compression-downtime-strategy-4e50c9","Likely author (HH = David Hill); Aberdeen VP Storage Research. From cache."
+"emc","EMC Corporation","company","Enterprise Storage","acquired","Dell","1979-2016","13-hh-time-compression-downtime-strategy-4e50c9","Referenced in pricing: EMC CX600 with 146GB disks at $13.30/GB (midrange online disk). From cache."
+"hitachi-data-systems","Hitachi Data Systems","company","Enterprise Storage","unknown [REVIEW]","Western Digital","2003-2012","13-hh-time-compression-downtime-strategy-4e50c9","Referenced in pricing: HDS 9980V with 146GB disks at $31.60/GB (high-end online disk). Named as primary reference price point."

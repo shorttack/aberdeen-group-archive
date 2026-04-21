@@ -1911,69 +1911,69 @@ Aberdeen Group's 1998 ERP market practice summary covering the worldwide ERP sof
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | company | [DEFERRED] | [DEFERRED] |
-| SAP AG | company | [DEFERRED] | [DEFERRED] |
-| Oracle Corporation | company | [DEFERRED] | [DEFERRED] |
-| J.D. Edwards Corporation | company | [DEFERRED] | [DEFERRED] |
-| PeopleSoft Inc. | company | [DEFERRED] | [DEFERRED] |
-| The Baan Company | company | [DEFERRED] | [DEFERRED] |
-| i2 Technologies Inc. | company | [DEFERRED] | [DEFERRED] |
-| Industri-Matematik International (IMI) | company | [DEFERRED] | [DEFERRED] |
-| Infinium Software Inc. | company | [DEFERRED] | [DEFERRED] |
-| Lawson Software | company | [DEFERRED] | [DEFERRED] |
-| Marcam Solutions Inc. | company | [DEFERRED] | [DEFERRED] |
-| QAD Inc. | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Sun Microsystems | company | [DEFERRED] | [DEFERRED] |
-| Andersen Consulting | company | [DEFERRED] | [DEFERRED] |
-| Deloitte and Touche | company | [DEFERRED] | [DEFERRED] |
-| KPMG | company | [DEFERRED] | [DEFERRED] |
-| Information Builders Inc. | company | [DEFERRED] | [DEFERRED] |
-| Active Software | company | [DEFERRED] | [DEFERRED] |
-| CrossRoute Software | company | [DEFERRED] | [DEFERRED] |
-| CrossWorlds Software | company | [DEFERRED] | [DEFERRED] |
-| NEON | company | [DEFERRED] | [DEFERRED] |
-| Oberon Software | company | [DEFERRED] | [DEFERRED] |
-| TIBCO Software | company | [DEFERRED] | [DEFERRED] |
-| TSI Software | company | [DEFERRED] | [DEFERRED] |
-| Vitria Technology | company | [DEFERRED] | [DEFERRED] |
-| The Coda Group PLC | company | [DEFERRED] | [DEFERRED] |
-| Meta4 | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | company | unknown | unknown |
+| SAP AG | company | unknown | unknown |
+| Oracle Corporation | company | unknown | unknown |
+| J.D. Edwards Corporation | company | unknown | unknown |
+| PeopleSoft Inc. | company | unknown | unknown |
+| The Baan Company | company | unknown | unknown |
+| i2 Technologies Inc. | company | unknown | unknown |
+| Industri-Matematik International (IMI) | company | unknown | unknown |
+| Infinium Software Inc. | company | unknown | unknown |
+| Lawson Software | company | unknown | unknown |
+| Marcam Solutions Inc. | company | unknown | unknown |
+| QAD Inc. | company | unknown | unknown |
+| IBM | company | unknown | unknown |
+| Microsoft | company | unknown | unknown |
+| Sun Microsystems | company | unknown | unknown |
+| Andersen Consulting | company | unknown | unknown |
+| Deloitte and Touche | company | unknown | unknown |
+| KPMG | company | unknown | unknown |
+| Information Builders Inc. | company | unknown | unknown |
+| Active Software | company | unknown | unknown |
+| CrossRoute Software | company | unknown | unknown |
+| CrossWorlds Software | company | unknown | unknown |
+| NEON | company | unknown | unknown |
+| Oberon Software | company | unknown | unknown |
+| TIBCO Software | company | unknown | unknown |
+| TSI Software | company | unknown | unknown |
+| Vitria Technology | company | unknown | unknown |
+| The Coda Group PLC | company | unknown | unknown |
+| Meta4 | company | unknown | unknown |
 
 ### Technologies Referenced (29)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Enterprise Resource Planning (ERP) | application | multiple | mature | [DEFERRED] |
-| Material Requirements Planning (MRP) | application | multiple | declining | [DEFERRED] |
-| SAP R/3 | application | SAP AG | mature | [DEFERRED] |
-| SAP R/2 | application | SAP AG | legacy | [DEFERRED] |
-| AcceleratedSAP (ASAP) | framework | SAP AG | emerging | [DEFERRED] |
-| BaanSeries | application | Baan Company | emerging | [DEFERRED] |
-| Dynamic Enterprise Modeler (DEM) | framework | Baan Company | emerging | [DEFERRED] |
-| Oracle Applications Release 11 | application | Oracle Corporation | emerging | [DEFERRED] |
-| Oracle AIM | framework | Oracle Corporation | active | [DEFERRED] |
-| PeopleSoft Enterprise Applications | application | PeopleSoft | mature | [DEFERRED] |
-| PeopleSoft DirectPath | framework | PeopleSoft | emerging | [DEFERRED] |
-| J.D. Edwards OneWorld | application | J.D. Edwards | emerging | [DEFERRED] |
-| Advanced Planning and Optimization (APO) | application | multiple | emerging | [DEFERRED] |
-| i2 RHYTHM | application | i2 Technologies | emerging | [DEFERRED] |
-| IMI System ESS | application | IMI | active | [DEFERRED] |
-| Infinium/Lotus Domino Integration | application | Infinium Software | emerging | [DEFERRED] |
-| Marcam Protean | application | Marcam Solutions | emerging | [DEFERRED] |
-| Marcam Prism | application | Marcam Solutions | mature | [DEFERRED] |
-| QAD MFG/PRO | application | QAD Inc. | mature | [DEFERRED] |
-| QAD On/Q | application | QAD Inc. | emerging | [DEFERRED] |
-| Lawson Insight Business Management System | application | Lawson Software | active | [DEFERRED] |
-| Windows NT | platform | Microsoft | mature | [DEFERRED] |
-| Internet | protocol | multiple | emerging | [DEFERRED] |
-| Object-Oriented Technology (OOT) | framework | multiple | emerging | [DEFERRED] |
-| Enterprise Application Integration (EAI) | application | multiple | emerging | [DEFERRED] |
-| Network-Centric Computing (NCC) | framework | multiple | emerging | [DEFERRED] |
-| KANBAN/JIT Manufacturing | framework | multiple | mature | [DEFERRED] |
-| Microsoft OLE | protocol | Microsoft | mature | [DEFERRED] |
-| Infinite Resource Planning (IRP) | framework | Aberdeen Group | emerging | [DEFERRED] |
+| Enterprise Resource Planning (ERP) | application | multiple | mature | unknown |
+| Material Requirements Planning (MRP) | application | multiple | declining | unknown |
+| SAP R/3 | application | SAP AG | mature | unknown |
+| SAP R/2 | application | SAP AG | legacy | unknown |
+| AcceleratedSAP (ASAP) | framework | SAP AG | emerging | unknown |
+| BaanSeries | application | Baan Company | emerging | unknown |
+| Dynamic Enterprise Modeler (DEM) | framework | Baan Company | emerging | unknown |
+| Oracle Applications Release 11 | application | Oracle Corporation | emerging | unknown |
+| Oracle AIM | framework | Oracle Corporation | active | unknown |
+| PeopleSoft Enterprise Applications | application | PeopleSoft | mature | unknown |
+| PeopleSoft DirectPath | framework | PeopleSoft | emerging | unknown |
+| J.D. Edwards OneWorld | application | J.D. Edwards | emerging | unknown |
+| Advanced Planning and Optimization (APO) | application | multiple | emerging | unknown |
+| i2 RHYTHM | application | i2 Technologies | emerging | unknown |
+| IMI System ESS | application | IMI | active | unknown |
+| Infinium/Lotus Domino Integration | application | Infinium Software | emerging | unknown |
+| Marcam Protean | application | Marcam Solutions | emerging | unknown |
+| Marcam Prism | application | Marcam Solutions | mature | unknown |
+| QAD MFG/PRO | application | QAD Inc. | mature | unknown |
+| QAD On/Q | application | QAD Inc. | emerging | unknown |
+| Lawson Insight Business Management System | application | Lawson Software | active | unknown |
+| Windows NT | platform | Microsoft | mature | unknown |
+| Internet | protocol | multiple | emerging | unknown |
+| Object-Oriented Technology (OOT) | framework | multiple | emerging | unknown |
+| Enterprise Application Integration (EAI) | application | multiple | emerging | unknown |
+| Network-Centric Computing (NCC) | framework | multiple | emerging | unknown |
+| KANBAN/JIT Manufacturing | framework | multiple | mature | unknown |
+| Microsoft OLE | protocol | Microsoft | mature | unknown |
+| Infinite Resource Planning (IRP) | framework | Aberdeen Group | emerging | unknown |
 
 ### Observation Summary
 

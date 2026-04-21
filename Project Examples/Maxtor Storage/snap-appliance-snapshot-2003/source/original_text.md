@@ -218,12 +218,12 @@ This Aberdeen Group SnapShot profiles Snap Appliance Inc., the self-described nu
 | Overland Storage | company | merged | Sphere 3D (2014) |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| Eric Kelly | person | [DEFERRED] |  |
-| Mark Pollard | person | [DEFERRED] |  |
-| Jillian Mansolf | person | [DEFERRED] |  |
-| Randy Gast | person | [DEFERRED] |  |
-| Ralph Clark | person | [DEFERRED] |  |
-| Vic Jipson | person | [DEFERRED] |  |
+| Eric Kelly | person | unknown [REVIEW] |  |
+| Mark Pollard | person | unknown [REVIEW] |  |
+| Jillian Mansolf | person | unknown [REVIEW] |  |
+| Randy Gast | person | unknown [REVIEW] |  |
+| Ralph Clark | person | unknown [REVIEW] |  |
+| Vic Jipson | person | unknown [REVIEW] |  |
 | APC (American Power Conversion) | company | acquired | Schneider Electric (2007) |
 | Computer Associates (CA) | company | active | CA Technologies / Broadcom |
 | Legato Systems | company | acquired | EMC (2003) |

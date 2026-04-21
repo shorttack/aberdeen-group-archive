@@ -1854,57 +1854,57 @@ Aberdeen Group's 1998 practice summary covering the ERP professional services ma
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | company | [DEFERRED] | [DEFERRED] |
-| Compaq Computer Corporation | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard Company | company | [DEFERRED] | [DEFERRED] |
-| SAP AG | company | [DEFERRED] | [DEFERRED] |
-| Oracle Corporation | company | [DEFERRED] | [DEFERRED] |
-| J.D. Edwards & Company | company | [DEFERRED] | [DEFERRED] |
-| PeopleSoft Incorporated | company | [DEFERRED] | [DEFERRED] |
-| The Baan Company N.V. | company | [DEFERRED] | [DEFERRED] |
-| Andersen Consulting | company | [DEFERRED] | [DEFERRED] |
-| Coopers & Lybrand | company | [DEFERRED] | [DEFERRED] |
-| KPMG International | company | [DEFERRED] | [DEFERRED] |
-| Price Waterhouse | company | [DEFERRED] | [DEFERRED] |
-| Cambridge Technology Partners | company | [DEFERRED] | [DEFERRED] |
-| Computer Sciences Corporation | company | [DEFERRED] | [DEFERRED] |
-| Electronic Data Systems | company | [DEFERRED] | [DEFERRED] |
-| Plaut Consulting GmbH | company | [DEFERRED] | [DEFERRED] |
-| Whittman-Hart | company | [DEFERRED] | [DEFERRED] |
-| Digital Equipment Corporation | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| Deloitte & Touche | company | [DEFERRED] | [DEFERRED] |
-| Ernst & Young | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Data General | company | [DEFERRED] | [DEFERRED] |
-| Arthur Andersen | company | [DEFERRED] | [DEFERRED] |
-| NCR Corporation | company | [DEFERRED] | [DEFERRED] |
-| Renaissance Worldwide | company | [DEFERRED] | [DEFERRED] |
-| Perot Systems | company | [DEFERRED] | [DEFERRED] |
-| Berclain | company | [DEFERRED] | [DEFERRED] |
-| The Coda Group PLC | company | [DEFERRED] | [DEFERRED] |
-| Red Pepper Software | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | company | unknown | unknown |
+| Compaq Computer Corporation | company | unknown | unknown |
+| Hewlett-Packard Company | company | unknown | unknown |
+| SAP AG | company | unknown | unknown |
+| Oracle Corporation | company | unknown | unknown |
+| J.D. Edwards & Company | company | unknown | unknown |
+| PeopleSoft Incorporated | company | unknown | unknown |
+| The Baan Company N.V. | company | unknown | unknown |
+| Andersen Consulting | company | unknown | unknown |
+| Coopers & Lybrand | company | unknown | unknown |
+| KPMG International | company | unknown | unknown |
+| Price Waterhouse | company | unknown | unknown |
+| Cambridge Technology Partners | company | unknown | unknown |
+| Computer Sciences Corporation | company | unknown | unknown |
+| Electronic Data Systems | company | unknown | unknown |
+| Plaut Consulting GmbH | company | unknown | unknown |
+| Whittman-Hart | company | unknown | unknown |
+| Digital Equipment Corporation | company | unknown | unknown |
+| IBM | company | unknown | unknown |
+| Deloitte & Touche | company | unknown | unknown |
+| Ernst & Young | company | unknown | unknown |
+| Microsoft | company | unknown | unknown |
+| Data General | company | unknown | unknown |
+| Arthur Andersen | company | unknown | unknown |
+| NCR Corporation | company | unknown | unknown |
+| Renaissance Worldwide | company | unknown | unknown |
+| Perot Systems | company | unknown | unknown |
+| Berclain | company | unknown | unknown |
+| The Coda Group PLC | company | unknown | unknown |
+| Red Pepper Software | company | unknown | unknown |
 
 ### Technologies Referenced (16)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Enterprise Resource Planning (ERP) | application | multiple | mature | [DEFERRED] |
-| SAP R/3 | application | SAP AG | mature | [DEFERRED] |
-| SAP R/2 | application | SAP AG | legacy | [DEFERRED] |
-| AcceleratedSAP (ASAP) | framework | SAP AG | emerging | [DEFERRED] |
-| Oracle ERP Applications | application | Oracle Corporation | mature | [DEFERRED] |
-| J.D. Edwards OneWorld | application | J.D. Edwards | emerging | [DEFERRED] |
-| PeopleSoft HRMS | application | PeopleSoft | mature | [DEFERRED] |
-| BaanSeries | application | Baan Company | emerging | [DEFERRED] |
-| Windows NT | platform | Microsoft | mature | [DEFERRED] |
-| Client/Server Architecture | framework | multiple | mature | [DEFERRED] |
-| Supply Chain Management (SCM) | application | multiple | emerging | [DEFERRED] |
-| Lotus Notes | application | IBM/Lotus | mature | [DEFERRED] |
-| Value-Added Networks (VANs) | protocol | multiple | declining | [DEFERRED] |
-| Internet | protocol | multiple | emerging | [DEFERRED] |
-| Momentum (CTP) | framework | Cambridge Technology Partners | emerging | [DEFERRED] |
-| SUMMIT-D | framework | Coopers & Lybrand | active | [DEFERRED] |
+| Enterprise Resource Planning (ERP) | application | multiple | mature | unknown |
+| SAP R/3 | application | SAP AG | mature | unknown |
+| SAP R/2 | application | SAP AG | legacy | unknown |
+| AcceleratedSAP (ASAP) | framework | SAP AG | emerging | unknown |
+| Oracle ERP Applications | application | Oracle Corporation | mature | unknown |
+| J.D. Edwards OneWorld | application | J.D. Edwards | emerging | unknown |
+| PeopleSoft HRMS | application | PeopleSoft | mature | unknown |
+| BaanSeries | application | Baan Company | emerging | unknown |
+| Windows NT | platform | Microsoft | mature | unknown |
+| Client/Server Architecture | framework | multiple | mature | unknown |
+| Supply Chain Management (SCM) | application | multiple | emerging | unknown |
+| Lotus Notes | application | IBM/Lotus | mature | unknown |
+| Value-Added Networks (VANs) | protocol | multiple | declining | unknown |
+| Internet | protocol | multiple | emerging | unknown |
+| Momentum (CTP) | framework | Cambridge Technology Partners | emerging | unknown |
+| SUMMIT-D | framework | Coopers & Lybrand | active | unknown |
 
 ### Observation Summary
 

@@ -210,8 +210,8 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 - **Confidence at time:** high
 
 **Actual Outcome 1:** xml-actual-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** XML/SOAP/REST/JSON did emerge as dominant integration layer.
 
 **Prediction 2:** integrated-suite-long-run-winners
@@ -220,8 +220,8 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 - **Confidence at time:** high
 
 **Actual Outcome 2:** integrated-suite-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Largely validated — Oracle/SAP dominated; PeopleSoft/Siebel/Ariba/i2 all acquired; best-of-breed rolled up.
 
 
@@ -231,7 +231,7 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 |--------|------|--------|-----------|
 | Aberdeen Group, Inc. | firm | acquired | Harte-Hanks (2007) |
 | Katherine Jones (Aberdeen Group) | person | retired |  |
-| Tom Dwyer | person | [DEFERRED] | [DEFERRED] |
+| Tom Dwyer | person | unknown |  |
 | Peter S. Kastner | person | active |  |
 | Michael E. Porter | person | active |  |
 | Nike, Inc. | company | active |  |
@@ -250,7 +250,7 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 | Lawson Software | company | acquired | Infor (2011) |
 | Credit Suisse First Boston | company | rebranded | Credit Suisse -> UBS (2023) |
 | Beneficial Life Insurance | company | wound-down | Ceased new sales (2009) |
-| Carreckers | company | [DEFERRED] | [DEFERRED] |
+| Carreckers | company | unknown |  |
 | Indian Motorcycle | company | active | Polaris Industries (2011) |
 | State of Michigan (government) | agency | active |  |
 | RosettaNet | institution | merged | GS1 (2010s) |

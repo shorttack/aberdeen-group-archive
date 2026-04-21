@@ -115,9 +115,9 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | AVerMedia Technologies | company | active |  |
-| ADS Tech | company | [DEFERRED] | [DEFERRED] |
+| ADS Tech | company | unknown |  |
 | Dazzle Multimedia | company | acquired | pinnacle-systems |
 | Matrox | company | active |  |
 | Pinnacle Systems | company | acquired | avid-technology |
@@ -127,14 +127,14 @@ This study did not make forward-looking claims.
 | Adobe | company | active |  |
 | Spruce Technologies | company | acquired | apple-computer |
 | Ulead Systems | company | acquired | corel |
-| Sonic Foundry | company | [DEFERRED] | [DEFERRED] |
+| Sonic Foundry | company | unknown |  |
 | NVIDIA Corporation | company | active |  |
-| Hauppauge Digital | company | [DEFERRED] | [DEFERRED] |
+| Hauppauge Digital | company | unknown |  |
 | Siemens | company | active |  |
-| TiVo | company | [DEFERRED] | [DEFERRED] |
+| TiVo | company | unknown |  |
 | Royal Philips | company | active |  |
 | ASUS | company | active |  |
-| AccessDTV | company | [DEFERRED] | [DEFERRED] |
+| AccessDTV | company | unknown |  |
 
 ### Technologies Referenced (13)
 

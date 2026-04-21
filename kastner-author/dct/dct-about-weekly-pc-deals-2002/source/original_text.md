@@ -65,12 +65,12 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Caroline S. Kastner | person | active |  |
 | Compaq | company | acquired | hewlett-packard |
 | Dell | company | active |  |
-| eMachines | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
 | Hewlett-Packard | company | active |  |
 | Sony | company | active |  |
 

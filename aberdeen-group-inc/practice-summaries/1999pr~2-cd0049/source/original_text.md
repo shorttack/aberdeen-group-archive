@@ -681,12 +681,12 @@ An internal Aberdeen Group memorandum from analyst Wayne Kernochan to Peter Kast
 | Aberdeen Group | company | acquired | Harte-Hanks (2001) |
 | Wayne Kernochan | person | active | [none] |
 | Peter Kastner | person | active | [none] |
-| Hugh Bishop | person | [DEFERRED] | [DEFERRED] |
+| Hugh Bishop | person | unknown | unknown |
 | Microsoft | company | active | [none] |
-| Novell Inc. | company | [DEFERRED] | Micro Focus (2011) |
+| Novell Inc. | company | unknown | Micro Focus (2011) |
 | IBM | company | active | [none] |
 | Compaq Computer Corporation | company | acquired | HP (2002) |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | unknown | unknown |
 | Dell | company | active | [none] |
 | Intel | company | active | [none] |
 | Digital Equipment Corporation | company | acquired | Compaq (1998) |
@@ -706,14 +706,14 @@ An internal Aberdeen Group memorandum from analyst Wayne Kernochan to Peter Kast
 | Intel IA-64 Architecture (Merced) | platform | Intel | emerging | legacy-unsupported |
 | NT/Intel Server | platform | multiple | growth | legacy-unsupported |
 | Active Directory | application | Microsoft | emerging | active |
-| Symmetric Multiprocessing (SMP) | platform | multiple | growth | [DEFERRED] |
+| Symmetric Multiprocessing (SMP) | platform | multiple | growth | unknown |
 | Server Clustering | platform | multiple | emerging | active |
 | TCP/IP | protocol | multiple | mature | active |
 | IPX/SPX | protocol | Novell | mature | legacy-unsupported |
 | Java | language | Sun Microsystems | growth | active |
 | E-Commerce Applications | application | multiple | emerging | active |
 | Data Warehousing | application | multiple | growth | active |
-| Internet Infrastructure | platform | multiple | emerging | [DEFERRED] |
+| Internet Infrastructure | platform | multiple | emerging | unknown |
 | Directory Services | application | multiple | emerging | active |
 | Novell IntranetWare | platform | Novell | mature | legacy-unsupported |
 

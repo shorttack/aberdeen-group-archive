@@ -137,7 +137,7 @@ Aberdeen InSight arguing that the roughly 50 million Windows 98 / NT 4 corporate
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Microsoft | company | active |  |
 | Intel Corporation | company | active |  |
 | Symantec | company | renamed | norton-lifelock |

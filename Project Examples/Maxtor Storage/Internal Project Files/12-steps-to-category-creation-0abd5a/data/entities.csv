@@ -1,5 +1,5 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,12-steps-to-category-creation-0abd5a,"Author organization; Boston/Palo Alto/Ft. Collins. From cache."
-maxtor,Maxtor Corporation,company,Storage Hardware / Disk Drives,[DEFERRED],[DEFERRED],1982-2006,12-steps-to-category-creation-0abd5a,"Client; midline definition placeholder in slide 4 suggests this was prepared for Maxtor engagement. From cache."
-gartner,Gartner,firm,IT Market Research,active,,1979-present,12-steps-to-category-creation-0abd5a,"Named as CRM category adoption example; model for letting influencers take over thought leadership."
-snia,Storage Networking Industry Association (SNIA),institution,Standards Body / Storage,[DEFERRED],[DEFERRED],1997-present,12-steps-to-category-creation-0abd5a,"Listed as evangelization target industry association. From cache."
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Aberdeen/Harte-Hanks","1988-present","12-steps-to-category-creation-0abd5a","Author organization; Boston/Palo Alto/Ft. Collins. From cache."
+"maxtor","Maxtor Corporation","company","Storage Hardware / Disk Drives","unknown [REVIEW]","","1982-2006","12-steps-to-category-creation-0abd5a","Client; midline definition placeholder in slide 4 suggests this was prepared for Maxtor engagement. From cache."
+"gartner","Gartner","firm","IT Market Research","active","","1979-present","12-steps-to-category-creation-0abd5a","Named as CRM category adoption example; model for letting influencers take over thought leadership."
+"snia","Storage Networking Industry Association (SNIA)","institution","Standards Body / Storage","unknown [REVIEW]","","1997-present","12-steps-to-category-creation-0abd5a","Listed as evangelization target industry association. From cache."

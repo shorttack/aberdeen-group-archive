@@ -150,8 +150,8 @@ This study did not make forward-looking claims.
 | Aberdeen Group, Inc. | firm | acquired | Aberdeen/Harte-Hanks |
 | Intel Corporation | company | active |  |
 | Peter S. Kastner | person | active |  |
-| Mike Green | person | [DEFERRED] | [DEFERRED] |
-| Sandra Tubbs | person | [DEFERRED] | [DEFERRED] |
+| Mike Green | person | unknown |  |
+| Sandra Tubbs | person | unknown |  |
 
 ### Technologies Referenced (3)
 

@@ -199,7 +199,7 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 |-----------|--------|-----------|
 | **Importance** | medium | Timely strategic assessment of a major semiconductor M&A deal by a named Aberdeen analyst with specific OEM winner/loser predictions (HP gains, Dell loses). |
 | **Relevance** | medium | M&A integration analysis frameworks and OEM impact reasoning remain broadly applicable; specific AMD/ATI product details are dated. |
-| **Prescience** | [DEFERRED] |  |
+| **Prescience** | not-applicable |  |
 
 ### Prescience Detail
 
@@ -207,41 +207,41 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 **Prediction 1:** Post-merger market outcome
 - **Claimed:** less innovation and higher prices in enterprise volume servers and workstations
 - **Year:** 2007
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 1:** Post-merger market outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred to Phase 3 web verification.
 
 **Prediction 2:** AMD/ATI integrated architecture timeline
 - **Claimed:** tightly integrated designs visible late 2007 and completely in 2008
 - **Year:** 2008
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 2:** Post-merger market outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred to Phase 3 web verification.
 
 **Prediction 3:** HP upside from merger
 - **Claimed:** HP has the most to gain among top-tier OEMs
 - **Year:** 2007
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 3:** HP upside from merger
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred.
 
 **Prediction 4:** Dell downside from merger
 - **Claimed:** Dell has the most to lose among top-tier OEMs
 - **Year:** 2008
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 4:** Dell downside from merger
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred.
 
 **Prediction 5:** Vista graphics requirements impact
@@ -254,25 +254,25 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Advanced Micro Devices (AMD) | company | [DEFERRED] | [DEFERRED] |
+| Advanced Micro Devices (AMD) | company | unknown |  |
 | ATI Technologies | company | acquired | AMD (acquired 2006) |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
-| nVidia | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Dell | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Intel Corporation | company | active |  |
+| nVidia | company | active |  |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Dell | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Microsoft | company | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 
 ### Technologies Referenced (7)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| AMD Opteron | platform | AMD | growing | [DEFERRED] |
-| AMD Athlon 64 | platform | AMD | mature | [DEFERRED] |
-| Intel Xeon | platform | Intel | mature | [DEFERRED] |
-| AMD HyperChannel (HyperTransport) | protocol | AMD | emerging | [DEFERRED] |
-| Microsoft Windows Vista | platform | Microsoft | pre-launch | [DEFERRED] |
-| Microsoft Windows XP | platform | Microsoft | mature | [DEFERRED] |
+| AMD Opteron | platform | AMD | growing | unknown [REVIEW] |
+| AMD Athlon 64 | platform | AMD | mature | unknown [REVIEW] |
+| Intel Xeon | platform | Intel | mature | unknown [REVIEW] |
+| AMD HyperChannel (HyperTransport) | protocol | AMD | emerging | unknown [REVIEW] |
+| Microsoft Windows Vista | platform | Microsoft | pre-launch | unknown [REVIEW] |
+| Microsoft Windows XP | platform | Microsoft | mature | unknown [REVIEW] |
 | Microsoft Xbox 360 | platform | Microsoft | current | legacy |
 
 ### Observation Summary

@@ -72,11 +72,11 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| A.T. Kearney | firm | [DEFERRED] | Kearney |
-| Dell | company | [DEFERRED] |  |
-| Gateway, Inc. | company | [DEFERRED] | Acer |
-| Hewlett-Packard (HP) | company | [DEFERRED] |  |
-| IBM | company | [DEFERRED] | Lenovo |
+| A.T. Kearney | firm | unknown | Kearney |
+| Dell | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Hewlett-Packard (HP) | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| IBM | company | active |  |
 
 ### Technologies Referenced (2)
 

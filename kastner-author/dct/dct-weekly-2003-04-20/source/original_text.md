@@ -91,7 +91,7 @@ Last week, while gathering data for PC Deals, a window popped open at Dell's sit
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -101,33 +101,33 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Best Buy (stores) | company | [DEFERRED] | [DEFERRED] |
-| BestBuy.com | company | [DEFERRED] | [DEFERRED] |
-| Circuit City (stores) | company | [DEFERRED] | [DEFERRED] |
-| CircuitCity.com | company | [DEFERRED] | [DEFERRED] |
-| CompUSA | company | [DEFERRED] | [DEFERRED] |
-| HP Shopping | company | [DEFERRED] | [DEFERRED] |
-| Gateway.com | company | [DEFERRED] | [DEFERRED] |
-| Sony Style | company | [DEFERRED] | [DEFERRED] |
-| Dell Computer | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Sony | company | [DEFERRED] | [DEFERRED] |
-| eMachines | company | [DEFERRED] | [DEFERRED] |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
+| Best Buy (stores) | company | active |  |
+| BestBuy.com | company | active | operates as Best Buy's e-commerce channel |
+| Circuit City (stores) | company | dissolved | Liquidated January 2009; brand revived as online-only retailer by Systemax 2016 |
+| CircuitCity.com | company | dissolved | shut down with Circuit City liquidation 2009; later revived as direct-to-consumer by Systemax 2016 |
+| CompUSA | company | dissolved | Stores closed 2008; brand sold to Systemax/TigerDirect |
+| HP Shopping | company | active | operates as hp.com/shop under HP Inc. (post-2015 split) |
+| Gateway.com | company | dissolved | www.gateway.com decommissioned after Acer acquisition; brand discontinued 2011 |
+| Sony Style | company | active | operates as Sony Electronics e-commerce (sonystyle brand discontinued 2012; replaced by sony.com) |
+| Dell Computer | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Compaq Computer | company | acquired | HP (May 2002 merger); brand retired 2013 |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Sony | company | active | Sony Group Corporation (renamed 2021) |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
+| Intel Corporation | company | active |  |
 
 ### Technologies Referenced (7)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Intel Pentium 4 HT | processor | Intel | emerging | [DEFERRED] |
-| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
-| Notebook PC | form-factor |  | mature | [DEFERRED] |
-| Desktop PC | form-factor |  | mature | [DEFERRED] |
-| DVD+RW/+R | storage |  | emerging | [DEFERRED] |
-| DDR SDRAM | memory |  | mature | [DEFERRED] |
-| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | [DEFERRED] |
+| Intel Pentium 4 HT | processor | Intel | emerging | unknown [REVIEW] |
+| Intel Pentium 4 | processor | Intel | mature | unknown [REVIEW] |
+| Notebook PC | form-factor |  | mature | unknown [REVIEW] |
+| Desktop PC | form-factor |  | mature | unknown [REVIEW] |
+| DVD+RW/+R | storage |  | emerging | unknown [REVIEW] |
+| DDR SDRAM | memory |  | mature | unknown [REVIEW] |
+| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

@@ -79,7 +79,7 @@ Our secret shoppers say eMachine's and Sony PC are the hot ticket at retail this
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -89,27 +89,27 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Circuit City (stores) | company | [DEFERRED] | [DEFERRED] |
-| Dell Computer | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Sony | company | [DEFERRED] | [DEFERRED] |
-| eMachines | company | [DEFERRED] | [DEFERRED] |
-| Advanced Micro Devices | company | [DEFERRED] | [DEFERRED] |
+| Circuit City (stores) | company | dissolved | Liquidated January 2009; brand revived as online-only retailer by Systemax 2016 |
+| Dell Computer | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Compaq Computer | company | acquired | HP (May 2002 merger); brand retired 2013 |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Sony | company | active | Sony Group Corporation (renamed 2021) |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
+| Advanced Micro Devices | company | active |  |
 
 ### Technologies Referenced (8)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
-| Intel Celeron | processor | Intel | mature | [DEFERRED] |
-| AMD Athlon XP | processor | AMD | mature | [DEFERRED] |
-| AMD Athlon | processor | AMD | mature | [DEFERRED] |
-| Windows Media Center PC | form-factor |  | emerging | [DEFERRED] |
-| Desktop PC | form-factor |  | mature | [DEFERRED] |
-| DDR SDRAM | memory |  | mature | [DEFERRED] |
-| LCD Flat Panel Monitor | display |  | mature | [DEFERRED] |
+| Intel Pentium 4 | processor | Intel | mature | unknown [REVIEW] |
+| Intel Celeron | processor | Intel | mature | unknown [REVIEW] |
+| AMD Athlon XP | processor | AMD | mature | unknown [REVIEW] |
+| AMD Athlon | processor | AMD | mature | unknown [REVIEW] |
+| Windows Media Center PC | form-factor |  | emerging | unknown [REVIEW] |
+| Desktop PC | form-factor |  | mature | unknown [REVIEW] |
+| DDR SDRAM | memory |  | mature | unknown [REVIEW] |
+| LCD Flat Panel Monitor | display |  | mature | unknown [REVIEW] |
 
 ### Observation Summary
 

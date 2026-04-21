@@ -192,8 +192,8 @@ Transcript of a pre-summit analyst phone call in which HP sought Kastner feedbac
 - **Confidence at time:** high
 
 **Actual Outcome 1:** hp-home-networked-video-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 
@@ -201,7 +201,7 @@ Transcript of a pre-summit analyst phone call in which HP sought Kastner feedbac
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | unknown |  |
 | Compaq | company | dissolved | HP (2002) |
 | IBM | company | active |  |
 | Dell Inc. | company | active |  |
@@ -210,12 +210,12 @@ Transcript of a pre-summit analyst phone call in which HP sought Kastner feedbac
 | Minolta | company | acquired | Konica Minolta / Sony camera assets (2006) |
 | Olympus Corporation | company | active |  |
 | Canon Inc. | company | active |  |
-| Magic (unspecified) | company | [DEFERRED] | [DEFERRED] |
-| Internet Home Alliance | institution | [DEFERRED] | [DEFERRED] |
+| Magic (unspecified) | company | unknown |  |
+| Internet Home Alliance | institution | unknown |  |
 | Microsoft Corporation | company | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| Carly Fiorina | person | [DEFERRED] | [DEFERRED] |
+| Carly Fiorina | person | unknown |  |
 
 ### Technologies Referenced (7)
 

@@ -567,7 +567,7 @@ This Aberdeen Group vendor profile examines how Dell applies its signature suppl
 | EMC Corporation | company | acquired | Dell EMC (2016) |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Brocade Communications | company | acquired | Broadcom (2017) |
 | QLogic Corporation | company | acquired | Cavium / Marvell (2016) |
 | Microsoft Corporation | company | active |  |
@@ -575,11 +575,11 @@ This Aberdeen Group vendor profile examines how Dell applies its signature suppl
 | VERITAS Software | company | acquired | Symantec (2005) |
 | NSI Software (Double-Take) | company | acquired | Vision Solutions |
 | CommVault Systems | company | active |  |
-| Yosemite Technologies | company | [DEFERRED] | [DEFERRED] |
+| Yosemite Technologies | company | unknown [REVIEW] |  |
 | Fibre Channel Loop Committee (FCLC) | institution | active |  |
 | SNIA (Storage Networking Industry Association) | institution | active |  |
-| Serial ATA II Working Group | institution | [DEFERRED] |  |
-| Serial Attached SCSI (SAS) Working Group | institution | [DEFERRED] |  |
+| Serial ATA II Working Group | institution | unknown [REVIEW] |  |
+| Serial Attached SCSI (SAS) Working Group | institution | unknown [REVIEW] |  |
 
 ### Technologies Referenced (18)
 

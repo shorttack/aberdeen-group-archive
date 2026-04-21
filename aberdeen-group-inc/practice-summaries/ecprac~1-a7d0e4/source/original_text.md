@@ -3447,50 +3447,50 @@ A comprehensive 1998 survey of the electronic commerce market covering internet 
 | Microsoft Corporation | company | active |  |
 | Netscape Communications Corporation | company | acquired | AOL (1999) |
 | Oracle Corporation | company | active |  |
-| GE Information Services (GEIS) | company | acquired | [DEFERRED] |
-| Sterling Commerce Inc. | company | acquired | [DEFERRED] |
-| Harbinger Corporation | company | acquired | [DEFERRED] |
+| GE Information Services (GEIS) | company | acquired | unknown |
+| Sterling Commerce Inc. | company | acquired | unknown |
+| Harbinger Corporation | company | acquired | unknown |
 | Ariba Technologies Inc. | company | acquired | SAP (2012) |
 | BroadVision Inc. | company | public | BVSN (NASDAQ) |
-| Art Technology Group (ATG) | company | [DEFERRED] | [DEFERRED] |
-| Open Market Inc. | company | acquired | [DEFERRED] |
+| Art Technology Group (ATG) | company | unknown | unknown |
+| Open Market Inc. | company | acquired | unknown |
 | DoubleClick Inc. | company | acquired | Google (2008) |
 | Commerce One Inc. | company | dissolved |  |
 | CyberCash Inc. | company | dissolved |  |
 | SAP AG | company | active |  |
 | VeriFone Inc. | company | acquired | Hewlett-Packard (1997) |
-| ADSmart Corporation | company | [DEFERRED] | [DEFERRED] |
+| ADSmart Corporation | company | unknown | unknown |
 | Accipiter Inc. | company | acquired | CMG/Engage Technologies |
-| AdKnowledge Inc. | company | [DEFERRED] | [DEFERRED] |
-| Aspect Development Inc. | company | acquired | [DEFERRED] |
-| Bellcore (Soliant Internet Systems) | company | acquired | [DEFERRED] |
-| BurstMedia | company | [DEFERRED] | [DEFERRED] |
-| Connect Inc. | company | [DEFERRED] | [DEFERRED] |
+| AdKnowledge Inc. | company | unknown | unknown |
+| Aspect Development Inc. | company | acquired | unknown |
+| Bellcore (Soliant Internet Systems) | company | acquired | unknown |
+| BurstMedia | company | unknown | unknown |
+| Connect Inc. | company | unknown | unknown |
 | DigiCash Inc. | company | dissolved |  |
-| EC Verify Inc. | company | [DEFERRED] | [DEFERRED] |
-| ELEKOM Corporation | company | [DEFERRED] | [DEFERRED] |
+| EC Verify Inc. | company | unknown | unknown |
+| ELEKOM Corporation | company | unknown | unknown |
 | First Virtual Holdings | company | dissolved |  |
-| Fulcrum Technologies Inc. | company | acquired | [DEFERRED] |
-| iCat Corporation | company | acquired | [DEFERRED] |
-| IMGIS Inc. | company | acquired | [DEFERRED] |
-| Intelligent Interactions Corporation | company | [DEFERRED] | [DEFERRED] |
-| Inex Corporation | company | [DEFERRED] | [DEFERRED] |
-| Intershop Communications Inc. | company | public | [DEFERRED] |
-| InterWorld Technology Corporation | company | acquired | [DEFERRED] |
-| Mercantec Inc. | company | acquired | [DEFERRED] |
-| NetGravity Inc. | company | acquired | [DEFERRED] |
-| OneSoft | company | [DEFERRED] | [DEFERRED] |
-| Real Media Inc. | company | acquired | [DEFERRED] |
-| Requisite Technology | company | acquired | [DEFERRED] |
-| SpaceWorks Inc. | company | [DEFERRED] | [DEFERRED] |
-| The EC Company | company | [DEFERRED] | [DEFERRED] |
-| TRADE'ex Electronic Commerce Systems Inc. | company | [DEFERRED] | [DEFERRED] |
-| TSI Software Inc. | company | acquired | [DEFERRED] |
-| US West Enterprise Network Services | company | [DEFERRED] | [DEFERRED] |
-| 24/7 Media | company | [DEFERRED] | [DEFERRED] |
-| 7Software | company | [DEFERRED] | [DEFERRED] |
+| Fulcrum Technologies Inc. | company | acquired | unknown |
+| iCat Corporation | company | acquired | unknown |
+| IMGIS Inc. | company | acquired | unknown |
+| Intelligent Interactions Corporation | company | unknown | unknown |
+| Inex Corporation | company | unknown | unknown |
+| Intershop Communications Inc. | company | public | unknown |
+| InterWorld Technology Corporation | company | acquired | unknown |
+| Mercantec Inc. | company | acquired | unknown |
+| NetGravity Inc. | company | acquired | unknown |
+| OneSoft | company | unknown | unknown |
+| Real Media Inc. | company | acquired | unknown |
+| Requisite Technology | company | acquired | unknown |
+| SpaceWorks Inc. | company | unknown | unknown |
+| The EC Company | company | unknown | unknown |
+| TRADE'ex Electronic Commerce Systems Inc. | company | unknown | unknown |
+| TSI Software Inc. | company | acquired | unknown |
+| US West Enterprise Network Services | company | unknown | unknown |
+| 24/7 Media | company | unknown | unknown |
+| 7Software | company | unknown | unknown |
 | Amazon.com | company | active |  |
-| AltaVista | company | acquired | [DEFERRED] |
+| AltaVista | company | acquired | unknown |
 | Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998) |
 | Ford Motor Cars | company | active |  |
 | Ingram Micro | company | active |  |

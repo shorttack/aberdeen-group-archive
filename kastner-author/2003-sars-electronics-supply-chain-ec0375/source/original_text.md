@@ -273,7 +273,7 @@ Aberdeen Group analyst report (Russ Craig and Peter Kastner) excerpted by Planet
 **Prediction 5:** Multi-year investor trust cost from PRC SARS opacity
 - **Claimed:** Years to dispel new level of suspicion by investors of government's ability to protect investments
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 5:** Post-hoc validation: COVID-19 global supply shock
 - **Result:** PPE, semi, consumer electronics shortages 2020-2022 confirmed Kastner-Craig no-second-source thesis

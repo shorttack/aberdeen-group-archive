@@ -119,7 +119,7 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Hewlett-Packard | company | active |  |
 | Compaq | company | acquired | hewlett-packard |
 | Dell | company | active |  |
@@ -127,7 +127,7 @@ Aberdeen InSight arguing that the newly announced HP/Compaq merger's success wil
 | Sony | company | active |  |
 | Canon | company | active |  |
 | Seiko Epson | company | active |  |
-| Palm | company | [DEFERRED] | [DEFERRED] |
+| Palm | company | unknown |  |
 
 ### Technologies Referenced (7)
 

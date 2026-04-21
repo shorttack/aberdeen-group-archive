@@ -98,9 +98,9 @@ Aberdeen Personal IT / DCT segment-priorities matrix cross-tabulating four techn
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Intel Corporation | company | active |  |
-| America Online | company | [DEFERRED] | [DEFERRED] |
+| America Online | company | unknown |  |
 | Microsoft | company | active |  |
 | Maged (Shaker) | person | active |  |
 | Isaac Ro | person | active |  |

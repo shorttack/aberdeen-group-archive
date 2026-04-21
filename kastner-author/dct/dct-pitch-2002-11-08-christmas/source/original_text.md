@@ -73,7 +73,7 @@ Dreaming of a Digital Christmas? If so, great deals abound. Technology improveme
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -98,14 +98,14 @@ Dreaming of a Digital Christmas? If so, great deals abound. Technology improveme
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | company | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 
 ### Technologies Referenced (2)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| LCD Flat Panel Monitor | display |  | mature | [DEFERRED] |
-| 15-inch LCD Monitor | display |  | mature | [DEFERRED] |
+| LCD Flat Panel Monitor | display |  | mature | unknown [REVIEW] |
+| 15-inch LCD Monitor | display |  | mature | unknown [REVIEW] |
 
 ### Observation Summary
 

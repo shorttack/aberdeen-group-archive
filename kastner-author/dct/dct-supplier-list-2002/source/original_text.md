@@ -191,30 +191,30 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Advanced Micro Devices | company | active |  |
 | Apple Computer | company | active |  |
 | ATI Technologies | company | acquired | amd |
 | Compaq | company | acquired | hewlett-packard |
 | Dell | company | active |  |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
 | Hewlett-Packard | company | active |  |
 | IBM | company | active |  |
 | Intel Corporation | company | active |  |
 | Microsoft | company | active |  |
 | NVIDIA Corporation | company | active |  |
 | Sony | company | active |  |
-| TiVo | company | [DEFERRED] | [DEFERRED] |
+| TiVo | company | unknown |  |
 | SONICblue | company | dissolved |  |
-| Palm | company | [DEFERRED] | [DEFERRED] |
+| Palm | company | unknown |  |
 | Handspring | company | acquired | palm-inc |
 | 3Com | company | acquired | hewlett-packard |
 | Cisco Systems | company | active |  |
-| Linksys | company | [DEFERRED] | [DEFERRED] |
-| Motorola | company | [DEFERRED] | [DEFERRED] |
-| America Online | company | [DEFERRED] | [DEFERRED] |
+| Linksys | company | unknown |  |
+| Motorola | company | unknown |  |
+| America Online | company | unknown |  |
 | Adobe | company | active |  |
-| DirecTV | company | [DEFERRED] | [DEFERRED] |
+| DirecTV | company | unknown |  |
 | XM Satellite Radio | company | merged | sirius-xm |
 | Sirius Satellite Radio | company | merged | sirius-xm |
 

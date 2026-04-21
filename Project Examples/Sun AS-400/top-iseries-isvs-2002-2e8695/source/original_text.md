@@ -396,12 +396,12 @@ This study did not make forward-looking claims.
 | Peter Kastner | person | active | [none] |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | IBM | company | active |  |
-| Alltel Information Services, Inc. | company | [DEFERRED] | [DEFERRED] |
-| DWL Incorporated | company | [DEFERRED] | [DEFERRED] |
-| e-Business Exchange Pte. Ltd. | company | [DEFERRED] | [DEFERRED] |
-| E3 Corporation | company | [DEFERRED] | [DEFERRED] |
-| EFA Software Services Ltd | company | [DEFERRED] | [DEFERRED] |
-| Geac Enterprise Solutions | company | [DEFERRED] | [DEFERRED] |
+| Alltel Information Services, Inc. | company | unknown [REVIEW] |  |
+| DWL Incorporated | company | unknown [REVIEW] |  |
+| e-Business Exchange Pte. Ltd. | company | unknown [REVIEW] |  |
+| E3 Corporation | company | unknown [REVIEW] |  |
+| EFA Software Services Ltd | company | unknown [REVIEW] |  |
+| Geac Enterprise Solutions | company | unknown [REVIEW] |  |
 | Hyperion Solutions Corporation | company | acquired | Oracle (2007) |
 
 ### Technologies Referenced (6)
@@ -410,10 +410,10 @@ This study did not make forward-looking claims.
 |------------|----------|--------|---------------------|---------------------|
 | IBM iSeries | platform | IBM | mature | rebranded |
 | IBM AS/400 | platform | IBM | mature | rebranded |
-| Horizon Banking System | application | Alltel Information Services | mature | [DEFERRED] |
-| DWL Customer | application | DWL | mature | [DEFERRED] |
-| E3 Marketplace | application | E3 Corporation | mature | [DEFERRED] |
-| Geac System21 | application | Geac | mature | [DEFERRED] |
+| Horizon Banking System | application | Alltel Information Services | mature | unknown [REVIEW] |
+| DWL Customer | application | DWL | mature | unknown [REVIEW] |
+| E3 Marketplace | application | E3 Corporation | mature | unknown [REVIEW] |
+| Geac System21 | application | Geac | mature | unknown [REVIEW] |
 
 ### Observation Summary
 

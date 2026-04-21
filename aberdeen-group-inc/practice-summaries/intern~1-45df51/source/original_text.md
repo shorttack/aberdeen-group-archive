@@ -1380,7 +1380,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 - **Confidence at time:** high
 
 **Prediction 2:** Actual LDAP outcome
-- **Claimed:** [DEFERRED]
+- **Claimed:** Deferred verification of LDAP dominance prediction.
 - **Year:** 1998
 - **Confidence at time:** medium
 
@@ -1390,7 +1390,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 - **Confidence at time:** medium
 
 **Prediction 4:** Actual COM+ cross-platform outcome
-- **Claimed:** [DEFERRED]
+- **Claimed:** Deferred verification.
 - **Year:** 1998
 - **Confidence at time:** medium
 
@@ -1400,7 +1400,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 - **Confidence at time:** high
 
 **Prediction 6:** Actual Internet outsourcing growth outcome
-- **Claimed:** [DEFERRED]
+- **Claimed:** Deferred verification.
 - **Year:** 1998
 - **Confidence at time:** medium
 
@@ -1410,7 +1410,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 - **Confidence at time:** high
 
 **Prediction 8:** Actual EJB/COM+ market fragmentation outcome
-- **Claimed:** [DEFERRED]
+- **Claimed:** Deferred verification.
 - **Year:** 1998
 - **Confidence at time:** medium
 
@@ -1420,7 +1420,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Borland International Inc. (Inprise Inc.) | company | dissolved | [DEFERRED] |
+| Borland International Inc. (Inprise Inc.) | company | dissolved | unknown |
 | Visigenic Software | company | acquired | Borland/Inprise (1997) |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
 | IBM | company | active |  |
@@ -1435,7 +1435,7 @@ Aberdeen Group's 1998 analysis of the Internet Infrastructure market, defining t
 | Powersoft Corporation | company | acquired | Sybase (1994) |
 | Eric Schmidt | person | active |  |
 | Amazon.com | company | active |  |
-| Time Inc. / Pathfinder | company | dissolved | [DEFERRED] |
+| Time Inc. / Pathfinder | company | dissolved | unknown |
 
 ### Technologies Referenced (18)
 

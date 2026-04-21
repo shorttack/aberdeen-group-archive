@@ -323,7 +323,7 @@ Formal definition of Aberdeen Group's Semiconductor Research Practice: focus on 
 | IBM | company | active |  |
 | Intel | company | active |  |
 | Intellon | company | acquired | Atheros |
-| LinCom Wireless | company | [DEFERRED] | [DEFERRED] |
+| LinCom Wireless | company | unknown [REVIEW] |  |
 | LSI Logic | company | acquired | Broadcom |
 | Micron Technology | company | active |  |
 | Motorola | company | split | Freescale / NXP |

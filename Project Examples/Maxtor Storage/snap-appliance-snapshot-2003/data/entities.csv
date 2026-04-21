@@ -1,20 +1,20 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-snap-appliance,Snap Appliance Inc.,company,NAS / Enterprise Storage,acquired,"Overland Storage (2008), then Sphere 3D (2014)",1994-2008,snap-appliance-snapshot-2003,"HQ: 2001 Logic Drive, San Jose CA 95124. Private company reborn 2002 after spin-out from Quantum. Number one volume NAS provider by 2003."
-quantum,Quantum Corporation,company,Storage Hardware,active,,1980-present,snap-appliance-snapshot-2003,"Former parent of Snap Appliance; acquired Snap Servers from Meridian Data in 2000; divested as private company in 2002."
-meridian-data,Meridian Data,company,NAS / Storage,acquired,Quantum (2000),1993-2000,snap-appliance-snapshot-2003,Original developer and launcher of first Snap Servers in 1998; acquired by Quantum in 2000.
-overland-storage,Overland Storage,company,Storage Hardware,merged,Sphere 3D (2014),1980-2014,snap-appliance-snapshot-2003,"Acquirer of Snap Appliance in 2008; later merged with Sphere 3D in 2014. Outcome verified per prescience context."
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,snap-appliance-snapshot-2003,Publishing organization; Aberdeen's midline storage research directly cited in this profile.
-peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,snap-appliance-snapshot-2003,Author of the SnapShot; Aberdeen co-founder; originator of midline storage taxonomy referenced in the profile.
-eric-kelly,Eric Kelly,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,President and CEO of Snap Appliance at time of profile.
-mark-pollard,Mark Pollard,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,VP Marketing and Business Development at Snap Appliance.
-jillian-mansolf,Jillian Mansolf,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,VP Worldwide Sales and Channel Marketing at Snap Appliance.
-randy-gast,Randy Gast,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,VP Operations at Snap Appliance.
-ralph-clark,Ralph Clark,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,Chief Financial Officer at Snap Appliance.
-vic-jipson,Vic Jipson,person,NAS / Enterprise Storage,[DEFERRED],,2002-2008,snap-appliance-snapshot-2003,VP Engineering at Snap Appliance.
-apc,APC (American Power Conversion),company,Power / Infrastructure,acquired,Schneider Electric (2007),1981-present,snap-appliance-snapshot-2003,Software partnership with Snap Appliance.
-computer-associates,Computer Associates (CA),company,Enterprise Software,active,CA Technologies / Broadcom,1976-present,snap-appliance-snapshot-2003,Software partnership with Snap Appliance.
-legato,Legato Systems,company,Storage Software,acquired,EMC (2003),1988-2003,snap-appliance-snapshot-2003,Backup software partner of Snap Appliance; acquired by EMC around time of this profile.
-powerquest,PowerQuest,company,Storage Software,acquired,Symantec (2003),1993-2003,snap-appliance-snapshot-2003,Software partnership with Snap Appliance.
-syncsort,SyncSort,company,Storage Software,active,,1968-present,snap-appliance-snapshot-2003,Software partnership with Snap Appliance.
-veritas,VERITAS Software,company,Storage Software,acquired,Symantec (2005),1989-2005,snap-appliance-snapshot-2003,Software partnership with Snap Appliance; BackupExec and NetBackup product lines.
-sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware/Software,acquired,Oracle (2010),1982-2010,snap-appliance-snapshot-2003,Software partnership with Snap Appliance.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"snap-appliance","Snap Appliance Inc.","company","NAS / Enterprise Storage","acquired","Overland Storage (2008), then Sphere 3D (2014)","1994-2008","snap-appliance-snapshot-2003","HQ: 2001 Logic Drive, San Jose CA 95124. Private company reborn 2002 after spin-out from Quantum. Number one volume NAS provider by 2003."
+"quantum","Quantum Corporation","company","Storage Hardware","active","","1980-present","snap-appliance-snapshot-2003","Former parent of Snap Appliance; acquired Snap Servers from Meridian Data in 2000; divested as private company in 2002."
+"meridian-data","Meridian Data","company","NAS / Storage","acquired","Quantum (2000)","1993-2000","snap-appliance-snapshot-2003","Original developer and launcher of first Snap Servers in 1998; acquired by Quantum in 2000."
+"overland-storage","Overland Storage","company","Storage Hardware","merged","Sphere 3D (2014)","1980-2014","snap-appliance-snapshot-2003","Acquirer of Snap Appliance in 2008; later merged with Sphere 3D in 2014. Outcome verified per prescience context."
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Aberdeen/Harte-Hanks","1988-present","snap-appliance-snapshot-2003","Publishing organization; Aberdeen's midline storage research directly cited in this profile."
+"peter-s-kastner","Peter S. Kastner","person","Market Research / IT Consulting","active","","1989-present","snap-appliance-snapshot-2003","Author of the SnapShot; Aberdeen co-founder; originator of midline storage taxonomy referenced in the profile."
+"eric-kelly","Eric Kelly","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","President and CEO of Snap Appliance at time of profile."
+"mark-pollard","Mark Pollard","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","VP Marketing and Business Development at Snap Appliance."
+"jillian-mansolf","Jillian Mansolf","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","VP Worldwide Sales and Channel Marketing at Snap Appliance."
+"randy-gast","Randy Gast","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","VP Operations at Snap Appliance."
+"ralph-clark","Ralph Clark","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","Chief Financial Officer at Snap Appliance."
+"vic-jipson","Vic Jipson","person","NAS / Enterprise Storage","unknown [REVIEW]","","2002-2008","snap-appliance-snapshot-2003","VP Engineering at Snap Appliance."
+"apc","APC (American Power Conversion)","company","Power / Infrastructure","acquired","Schneider Electric (2007)","1981-present","snap-appliance-snapshot-2003","Software partnership with Snap Appliance."
+"computer-associates","Computer Associates (CA)","company","Enterprise Software","active","CA Technologies / Broadcom","1976-present","snap-appliance-snapshot-2003","Software partnership with Snap Appliance."
+"legato","Legato Systems","company","Storage Software","acquired","EMC (2003)","1988-2003","snap-appliance-snapshot-2003","Backup software partner of Snap Appliance; acquired by EMC around time of this profile."
+"powerquest","PowerQuest","company","Storage Software","acquired","Symantec (2003)","1993-2003","snap-appliance-snapshot-2003","Software partnership with Snap Appliance."
+"syncsort","SyncSort","company","Storage Software","active","","1968-present","snap-appliance-snapshot-2003","Software partnership with Snap Appliance."
+"veritas","VERITAS Software","company","Storage Software","acquired","Symantec (2005)","1989-2005","snap-appliance-snapshot-2003","Software partnership with Snap Appliance; BackupExec and NetBackup product lines."
+"sun-microsystems","Sun Microsystems","company","Enterprise IT Hardware/Software","acquired","Oracle (2010)","1982-2010","snap-appliance-snapshot-2003","Software partnership with Snap Appliance."

@@ -1,6 +1,6 @@
 # Maxtor Pools of Storage — After-Action Review (Show and Tell)
 
-> Archived from: document-review
+> Archived from: 06-Aberdeen-After-Action-ShowAndTell.txt
 > Original publication date: 2004-01-01
 > Author: John Boyne, Peter Kastner (Aberdeen Group)
 
@@ -248,21 +248,21 @@ opportunity…
 | date | 2004-01-01 |
 | type | employer-record |
 | subject_domain | midline-storage / ILM / consulting-management / Aberdeen-internal |
-| methodology | oral-history |
-| source_file | document-review |
-| license | Internal Aberdeen Group presentation reviewing the completed Maxtor Pools of Storage engagement. The 11-slide deck covers project background ($128K fixed price / 60-day schedule that took 150 days starting December 2003) client issues Aberdeen selection rationale client satisfaction challenges and lessons learned. Key findings: the project funded $75K in Aberdeen tool R&D; produced the first Flash-based research-delivery simulation tool; developed 50 maturity grids; and attracted Macromedia EVP Al Ramadan's interest. |
+| methodology | oral-history,document-review |
+| source_file | 06-Aberdeen-After-Action-ShowAndTell.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-06-Aberdeen-After-Action-ShowAndTell.txt
+Internal Aberdeen Group presentation reviewing the completed Maxtor Pools of Storage engagement. The 11-slide deck covers project background ($128K fixed price / 60-day schedule that took 150 days starting December 2003) client issues Aberdeen selection rationale client satisfaction challenges and lessons learned. Key findings: the project funded $75K in Aberdeen tool R&D; produced the first Flash-based research-delivery simulation tool; developed 50 maturity grids; and attracted Macromedia EVP Al Ramadan's interest.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | high |
-| **Relevance** | Primary source first-person internal retrospective on the Aberdeen-Maxtor engagement — the only document providing honest internal assessment of what worked (tool R&D value / maturity grids / research delivery innovation) and what failed (scheduling overrun from 60 to 150 days; one tool failed to impress initially; hard sales press turned off client). Provides the insider view on the CRM/category-creation client selection rationale that DiFranco also references. | high |
-| **Prescience** | The lessons learned — complete specs required for tool development; factor in client absorption rate; deliverable % completion metrics needed; project leader accountability; 'get decision-maker buy-in but that doesn't mean the organization has bought in' — are directly applicable to any modern consulting engagement. The engagement economics and IP reuse model are durable. | medium |
+| **Importance** | high | Primary source first-person internal retrospective on the Aberdeen-Maxtor engagement — the only document providing honest internal assessment of what worked (tool R&D value / maturity grids / research delivery innovation) and what failed (scheduling overrun from 60 to 150 days; one tool failed to impress initially; hard sales press turned off client). Provides the insider view on the CRM/category-creation client selection rationale that DiFranco also references. |
+| **Relevance** | high | The lessons learned — complete specs required for tool development; factor in client absorption rate; deliverable % completion metrics needed; project leader accountability; 'get decision-maker buy-in but that doesn't mean the organization has bought in' — are directly applicable to any modern consulting engagement. The engagement economics and IP reuse model are durable. |
+| **Prescience** | medium |  |
 
 ### Prescience Detail
 
@@ -279,13 +279,13 @@ opportunity…
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active | [none] |
-| John Boyne | person | [DEFERRED] |  |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| John Boyne | person | unknown [REVIEW] |  |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Macromedia | company | acquired | Adobe (2005) |
-| Al Ramadan | person | [DEFERRED] |  |
-| Stan Tubbs | person | [DEFERRED] |  |
-| Stan Elbaum | person | [DEFERRED] |  |
-| David Hill | person | [DEFERRED] |  |
+| Al Ramadan | person | unknown [REVIEW] |  |
+| Stan Tubbs | person | unknown [REVIEW] |  |
+| Stan Elbaum | person | unknown [REVIEW] |  |
+| David Hill | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (4)
 
@@ -294,7 +294,7 @@ opportunity…
 | Pools of Storage Decision Tool | application | Aberdeen Group / Maxtor | delivered | historical |
 | Macromedia Flash | platform | Macromedia | mature | legacy |
 | Aberdeen Maturity Grid Framework | framework | Aberdeen Group | emerging | active |
-| Aberdeen TTCM (Technology Total Cost of Management) Site | platform | Aberdeen Group | emerging | [DEFERRED] |
+| Aberdeen TTCM (Technology Total Cost of Management) Site | platform | Aberdeen Group | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

@@ -343,8 +343,8 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ilm-timeframe-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 **Prediction 2:** ilm-decade-battle-prediction
@@ -353,8 +353,8 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 2:** ilm-timeframe-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 **Prediction 3:** ilm-no-winners-yet
@@ -363,8 +363,8 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 3:** ilm-timeframe-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 
@@ -375,7 +375,7 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 | EMC Corporation | company | acquired | Dell |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| SupplyChainAccess.com | firm | [DEFERRED] | [DEFERRED] |
+| SupplyChainAccess.com | firm | unknown |  |
 
 ### Technologies Referenced (5)
 

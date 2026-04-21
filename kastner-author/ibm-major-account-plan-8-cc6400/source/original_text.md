@@ -90,8 +90,8 @@ Aberdeen internal IBM major-account plan covering Q3 2001 status, 18-month goals
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** ibm-revenue-run-rate-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder; internal outcome not in archive.
 
 
@@ -102,10 +102,10 @@ Aberdeen internal IBM major-account plan covering Q3 2001 status, 18-month goals
 | IBM | company | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| Cindy Murray | person | [DEFERRED] | [DEFERRED] |
-| Ed Black | person | [DEFERRED] | [DEFERRED] |
-| Linda Sanford | person | [DEFERRED] | [DEFERRED] |
-| IBM Somers (analyst relations team) | institution | [DEFERRED] | [DEFERRED] |
+| Cindy Murray | person | unknown |  |
+| Ed Black | person | unknown |  |
+| Linda Sanford | person | unknown |  |
+| IBM Somers (analyst relations team) | institution | unknown |  |
 
 ### Technologies Referenced (4)
 

@@ -1,5 +1,5 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
-"aberdeen-group","Aberdeen Group","firm","market-research","[DEFERRED]","[DEFERRED]","1988-2019","dct-pc-replacement-insight1-2003-04",""
+"aberdeen-group","Aberdeen Group","firm","market-research","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-2019","dct-pc-replacement-insight1-2003-04",""
 "microsoft","Microsoft","company","software","active","","1975-present","dct-pc-replacement-insight1-2003-04",""
 "intel","Intel Corporation","company","semiconductor","active","","1968-present","dct-pc-replacement-insight1-2003-04",""
 "symantec","Symantec","company","security-software","renamed","norton-lifelock","1982-2019","dct-pc-replacement-insight1-2003-04","W95.Tenrobot advisory source"

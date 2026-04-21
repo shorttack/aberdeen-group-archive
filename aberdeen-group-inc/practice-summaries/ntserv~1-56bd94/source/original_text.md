@@ -1325,19 +1325,19 @@ umbrella of offerings, if the acquisition goes through.
 | subject_domain | windows-nt-server |
 | methodology | industry-analysis |
 | source_file | NTSERV~1.DOC |
-| license |  clustering (Microsoft Cluster Server/Wolfpack) |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-Aberdeen Group's 1998 practice summary on the Windows NT Server market covering Intel-based server hardware and the NT operating environment. The report sizes the NT server hardware market at $6 billion in 1997 and projects 50% annual growth; it also covers SMP architectures
+Aberdeen Group's 1998 practice summary on the Windows NT Server market covering Intel-based server hardware and the NT operating environment. The report sizes the NT server hardware market at $6 billion in 1997 and projects 50% annual growth; it also covers SMP architectures, clustering (Microsoft Cluster Server/Wolfpack), systems management deficiencies, and supplier profiles for Intel, Microsoft, Compaq, HP, IBM, Dell, and Digital Equipment. Aberdeen identifies NT's ongoing limitations relative to Unix and frames 1998 as a strategic inflection point for NT enterprise adoption.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** |  systems management deficiencies |  and supplier profiles for Intel |
-| **Relevance** |  Microsoft |  Compaq |
-| **Prescience** |  HP |  IBM |
+| **Importance** | medium | Documents the Windows NT server market at its critical inflection point in 1998; detailed supplier competitive positioning and market sizing are historically valuable. |
+| **Relevance** | medium | The NT-versus-Unix framing and enterprise server positioning debates documented here are antecedents to today's Linux/Windows server market; supplier positions are dated. |
+| **Prescience** | high | Correctly identified NT's limitations versus Unix and forecast a multi-year catch-up; accurately predicted that NT 5.0 (Windows 2000) would be a 1999 product; Intel IA-64 timeline was slightly optimistic but directionally correct. |
 
 ### Prescience Detail
 
@@ -1355,10 +1355,10 @@ Aberdeen Group's 1998 practice summary on the Windows NT Server market covering 
 **Prediction 3:** NT 5.0 release timeline and features
 - **Claimed:** Windows NT 5.0 to be released sometime in 1999; will add Active Directory
 - **Year:** 1998
-- **Confidence at time:**  better clustering
+- **Confidence at time:** [REVIEW]
 
 **Actual Outcome 3:** NT 5.0 (Windows 2000) release timing
-- **Result:** [DEFERRED]
+- **Result:** Windows 2000 shipped February 17 2000 — verify and update.
 - **Confidence:** high
 - **Notes:** Windows 2000 shipped February 17 2000 — verify and update.
 
@@ -1368,7 +1368,7 @@ Aberdeen Group's 1998 practice summary on the Windows NT Server market covering 
 - **Confidence at time:** medium
 
 **Actual Outcome 4:** IA-64 (Itanium) commercial availability
-- **Result:** [DEFERRED]
+- **Result:** Itanium shipped June 2001; verify market adoption pace.
 - **Confidence:** medium
 - **Notes:** Itanium shipped June 2001; verify market adoption pace.
 
@@ -1387,7 +1387,7 @@ Aberdeen Group's 1998 practice summary on the Windows NT Server market covering 
 | Digital Equipment Corporation | company | acquired | Compaq (1998) |
 | NCR Corporation | company | active |  |
 | Data General Corporation | company | acquired | EMC (1999) |
-| Netframe (a division of Micron) | company | [DEFERRED] | [DEFERRED] |
+| Netframe (a division of Micron) | company | unknown | unknown |
 | NEC Corporation | company | active |  |
 | Unisys Corporation | company | active |  |
 | Gateway, Inc. | company | acquired | Acer (2007) |

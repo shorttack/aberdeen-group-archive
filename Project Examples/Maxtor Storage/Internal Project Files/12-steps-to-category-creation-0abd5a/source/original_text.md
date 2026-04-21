@@ -172,9 +172,9 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Gartner | firm | active |  |
-| Storage Networking Industry Association (SNIA) | institution | [DEFERRED] | [DEFERRED] |
+| Storage Networking Industry Association (SNIA) | institution | unknown [REVIEW] |  |
 
 ### Technologies Referenced (2)
 

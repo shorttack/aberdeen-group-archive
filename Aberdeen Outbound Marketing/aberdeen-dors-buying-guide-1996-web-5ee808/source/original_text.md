@@ -52,7 +52,7 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Susan Rinehart | person | [DEFERRED] | [DEFERRED] |
+| Susan Rinehart | person | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active | [none] |
 | Computer Associates International | company | acquired | CA Technologies / Broadcom (2018) |
 | IBM | company | active |  |

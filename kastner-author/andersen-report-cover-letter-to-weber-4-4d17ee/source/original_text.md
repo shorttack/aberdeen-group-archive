@@ -87,9 +87,9 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
 | Scott-Page Associates | firm | active |  |
-| Mark Weber | person | [DEFERRED] | [DEFERRED] |
+| Mark Weber | person | unknown |  |
 | Gibson, Dunn & Crutcher LLP | firm | active |  |
-| John Casey | person | [DEFERRED] | [DEFERRED] |
+| John Casey | person | unknown |  |
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices (AMD) | company | active |  |
 | Intelligent Electronics | company | dissolved | General Electric -> acquired by Ingram Micro |

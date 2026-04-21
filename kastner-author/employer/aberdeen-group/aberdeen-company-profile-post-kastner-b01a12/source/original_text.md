@@ -168,22 +168,22 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| Vericours, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Obian Group | company | [DEFERRED] | [DEFERRED] |
-| James Bedard | person | [DEFERRED] | [DEFERRED] |
-| Stephen Gold | person | [DEFERRED] | [DEFERRED] |
-| Mark Vigoroso | person | [DEFERRED] | [DEFERRED] |
-| John R. Logan | person | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | unknown [REVIEW] |  |
+| Vericours, Inc. | company | unknown [REVIEW] |  |
+| Obian Group | company | unknown [REVIEW] |  |
+| James Bedard | person | unknown [REVIEW] |  |
+| Stephen Gold | person | unknown [REVIEW] |  |
+| Mark Vigoroso | person | unknown [REVIEW] |  |
+| John R. Logan | person | unknown [REVIEW] |  |
 | Peter S. Kastner | person | director-at-vericours-per-profile |  |
-| Robert Keith | person | [DEFERRED] | [DEFERRED] |
-| Jean Tempel | person | [DEFERRED] | [DEFERRED] |
+| Robert Keith | person | unknown [REVIEW] |  |
+| Jean Tempel | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (1)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Aberdeen Research Channels | platform | Aberdeen Group | current | [DEFERRED] |
+| Aberdeen Research Channels | platform | Aberdeen Group | current | unknown [REVIEW] |
 
 ### Observation Summary
 

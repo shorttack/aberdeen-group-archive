@@ -131,8 +131,8 @@ Face-to-face RAMP interview with Bill Foley, Director of Computing & Intranet Se
 |--------|------|--------|-----------|
 | Applied Materials Inc. | company | active |  |
 | Bill Foley | person | active |  |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
 | IBM | company | active |  |
 | Compaq | company | dissolved | Acquired by HP (2002) |

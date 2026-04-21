@@ -1,5 +1,5 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
-"aberdeen-group","Aberdeen Group","firm","market-research","[DEFERRED]","[DEFERRED]","1988-2019","dct-adobe-company-snapshot-2002",""
+"aberdeen-group","Aberdeen Group","firm","market-research","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-2019","dct-adobe-company-snapshot-2002",""
 "adobe-inc","Adobe Systems Incorporated","company","software","active","","1982-present","dct-adobe-company-snapshot-2002","345 Park Avenue, San Jose CA 95110-2704"
 "john-warnock","John Warnock","person","software","active","","1982-present","dct-adobe-company-snapshot-2002","Adobe co-founder, co-Chairman"
 "charles-geschke","Charles Geschke","person","software","active","","1982-present","dct-adobe-company-snapshot-2002","Adobe co-founder, co-Chairman"

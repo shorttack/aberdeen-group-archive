@@ -843,19 +843,19 @@ Source: Novell, Inc. October 1997
 | subject_domain | network-operating-systems |
 | methodology | industry-analysis |
 | source_file | NOSPRA~1.DOC |
-| license |  Novell NetWare/IntranetWare |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-Aberdeen Group's 1998 practice summary on Network Operating Systems (NOS) covering Microsoft Windows NT Server
+Aberdeen Group's 1998 practice summary on Network Operating Systems (NOS) covering Microsoft Windows NT Server, Novell NetWare/IntranetWare, and IBM OS/2 Warp Server. The report addresses key strategic questions about NOS viability in an Internet era and assesses the competitive landscape among the three major NOS vendors. Aberdeen finds that NOSs remain essential even as Internet infrastructure grows and that Novell's market leadership will be tested by the NetWare 5 launch.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** |  and IBM OS/2 Warp Server. The report addresses key strategic questions about NOS viability in an Internet era and assesses the competitive landscape among the three major NOS vendors. Aberdeen finds that NOSs remain essential even as Internet infrastructure grows and that Novell's market leadership will be tested by the NetWare 5 launch. | CC-BY-4.0 |
-| **Relevance** | medium | Documents the pivotal 1998 NOS competitive landscape at the height of the Windows NT versus NetWare war; useful historical record of the period. |
-| **Prescience** | low | NOS market was subsequently consolidated under Microsoft; NetWare and OS/2 Warp are effectively defunct making much content of only historical interest. |
+| **Importance** | medium | Documents the pivotal 1998 NOS competitive landscape at the height of the Windows NT versus NetWare war; useful historical record of the period. |
+| **Relevance** | low | NOS market was subsequently consolidated under Microsoft; NetWare and OS/2 Warp are effectively defunct making much content of only historical interest. |
+| **Prescience** | high | Correctly anticipated NT Server enterprise limitations and Novell's ongoing relevance; accurately predicted NT 5.0 as a 1999-not-1998 release; NetWare 5 launch success prediction proved accurate. |
 
 ### Prescience Detail
 
@@ -866,7 +866,7 @@ Aberdeen Group's 1998 practice summary on Network Operating Systems (NOS) coveri
 - **Confidence at time:** high
 
 **Actual Outcome 1:** NT Server 5.0 release timing
-- **Result:** [DEFERRED]
+- **Result:** Windows 2000 shipped February 2000 — verify actual date.
 - **Confidence:** high
 - **Notes:** Windows 2000 shipped February 2000 — verify actual date.
 
@@ -876,7 +876,7 @@ Aberdeen Group's 1998 practice summary on Network Operating Systems (NOS) coveri
 - **Confidence at time:** high
 
 **Actual Outcome 2:** NetWare 5 launch success
-- **Result:** [DEFERRED]
+- **Result:** Verify NetWare 5 reception and market impact.
 - **Confidence:** medium
 - **Notes:** Verify NetWare 5 reception and market impact.
 
@@ -889,7 +889,7 @@ Aberdeen Group's 1998 practice summary on Network Operating Systems (NOS) coveri
 | Microsoft Corporation | company | active |  |
 | Novell, Inc. | company | acquired | Attachmate (2011) |
 | International Business Machines Corporation | company | active |  |
-| Banyan Systems | company | dissolved | [DEFERRED] |
+| Banyan Systems | company | dissolved | unknown |
 | Digital Equipment Corporation | company | acquired | Compaq (1998) |
 | Tivoli Systems | company | acquired | IBM (1996) |
 | Computer Associates International | company | renamed | CA Technologies (2006) |

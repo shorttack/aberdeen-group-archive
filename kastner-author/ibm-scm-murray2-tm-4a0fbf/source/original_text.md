@@ -351,18 +351,18 @@ This study did not make forward-looking claims.
 | IBM | company | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | IBM Business Consulting Services (BCS) | firm | rebranded | IBM Global Business Services |
-| Jamie Bedard | person | [DEFERRED] | [DEFERRED] |
+| Jamie Bedard | person | unknown |  |
 | Peter S. Kastner | person | active |  |
-| Tim Minahan | person | [DEFERRED] | [DEFERRED] |
-| Chris Jones | person | [DEFERRED] | [DEFERRED] |
-| Tom Ryan | person | [DEFERRED] | [DEFERRED] |
-| John Farrell | person | [DEFERRED] | [DEFERRED] |
-| John Leffler | person | [DEFERRED] | [DEFERRED] |
-| Bill Schaefer | person | [DEFERRED] | [DEFERRED] |
-| Gus Gaeta | person | [DEFERRED] | [DEFERRED] |
-| Barry Boehm | person | [DEFERRED] | [DEFERRED] |
-| John Sharman | person | [DEFERRED] | [DEFERRED] |
-| Charles Vianey | person | [DEFERRED] | [DEFERRED] |
+| Tim Minahan | person | unknown |  |
+| Chris Jones | person | unknown |  |
+| Tom Ryan | person | unknown |  |
+| John Farrell | person | unknown |  |
+| John Leffler | person | unknown |  |
+| Bill Schaefer | person | unknown |  |
+| Gus Gaeta | person | unknown |  |
+| Barry Boehm | person | unknown |  |
+| John Sharman | person | unknown |  |
+| Charles Vianey | person | unknown |  |
 | Institute for Supply Management (ISM) | institution | active |  |
 
 ### Technologies Referenced (5)

@@ -103,7 +103,7 @@ September 5, 2001 Aberdeen Lab InSight draft on HP's consumer IT execution, base
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Hewlett-Packard | company | active |  |
 | Microsoft | company | active |  |
 | Carly Fiorina | person | active |  |

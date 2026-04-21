@@ -177,7 +177,7 @@ Aberdeen Group consulting deliverable to IBM following the May 16, 2001 Somers p
 |--------|------|--------|-----------|
 | IBM | company | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Joyce Becknell | person | [DEFERRED] | [DEFERRED] |
+| Joyce Becknell | person | unknown |  |
 | Gordon Haff | person | active |  |
 | Peter S. Kastner | person | active |  |
 | Amazon.com | company | active |  |

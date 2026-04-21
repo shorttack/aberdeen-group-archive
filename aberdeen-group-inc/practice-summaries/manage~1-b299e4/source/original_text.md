@@ -1599,22 +1599,22 @@ Aberdeen Group's 1998 practice summary covering the managed carrier services mar
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | company | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
-| Ameritech Corporation | company | [DEFERRED] | [DEFERRED] |
-| Bell Atlantic Corporation | company | [DEFERRED] | [DEFERRED] |
-| CompuServe Network Services | company | [DEFERRED] | [DEFERRED] |
-| Concentric Network Corporation | company | [DEFERRED] | [DEFERRED] |
-| Equant Network Services | company | [DEFERRED] | [DEFERRED] |
-| GTE Internetworking | company | [DEFERRED] | [DEFERRED] |
-| IBM Global Services | company | active | [DEFERRED] |
-| Infonet Services Corporation | company | [DEFERRED] | [DEFERRED] |
-| Network Two Communications Group | company | [DEFERRED] | [DEFERRED] |
-| AT&T | company | active | [DEFERRED] |
-| MCI Communications | company | [DEFERRED] | [DEFERRED] |
-| Sprint Corporation | company | [DEFERRED] | [DEFERRED] |
-| Electronic Data Systems | company | [DEFERRED] | [DEFERRED] |
-| WorldCom/MCI | company | [DEFERRED] | [DEFERRED] |
-| Qwest Communications | company | [DEFERRED] | [DEFERRED] |
-| Xerox Corporation | company | active | [DEFERRED] |
+| Ameritech Corporation | company | unknown | unknown |
+| Bell Atlantic Corporation | company | unknown | unknown |
+| CompuServe Network Services | company | unknown | unknown |
+| Concentric Network Corporation | company | unknown | unknown |
+| Equant Network Services | company | unknown | unknown |
+| GTE Internetworking | company | unknown | unknown |
+| IBM Global Services | company | active | N/A (active) |
+| Infonet Services Corporation | company | unknown | unknown |
+| Network Two Communications Group | company | unknown | unknown |
+| AT&T | company | active | N/A (active) |
+| MCI Communications | company | unknown | unknown |
+| Sprint Corporation | company | unknown | unknown |
+| Electronic Data Systems | company | unknown | unknown |
+| WorldCom/MCI | company | unknown | unknown |
+| Qwest Communications | company | unknown | unknown |
+| Xerox Corporation | company | active | N/A (active) |
 
 ### Technologies Referenced (10)
 

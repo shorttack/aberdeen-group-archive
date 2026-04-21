@@ -357,15 +357,15 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active | [none] |
-| Stan Elbaum | person | [DEFERRED] |  |
-| David Hill | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Jay Erikson | person | [DEFERRED] |  |
-| Michael Beganny | person | [DEFERRED] |  |
-| John McLaughlin | person | [DEFERRED] |  |
-| Kerri Conrad | person | [DEFERRED] |  |
-| Beth Conant | person | [DEFERRED] |  |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Stan Elbaum | person | unknown [REVIEW] |  |
+| David Hill | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Jay Erikson | person | unknown [REVIEW] |  |
+| Michael Beganny | person | unknown [REVIEW] |  |
+| John McLaughlin | person | unknown [REVIEW] |  |
+| Kerri Conrad | person | unknown [REVIEW] |  |
+| Beth Conant | person | unknown [REVIEW] |  |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 
 ### Technologies Referenced (6)
 

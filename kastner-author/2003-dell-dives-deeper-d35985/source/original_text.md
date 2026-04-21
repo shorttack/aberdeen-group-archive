@@ -308,7 +308,7 @@ Kastner-authored analyst column 'special to SearchCIO.com' (published on searchd
 |-----------|--------|-----------|
 | **Importance** | medium | Kastner's own byline at SearchCIO.com documenting Dell's enterprise inflection point in 2003 with specific partnership and TCO data. |
 | **Relevance** | medium | Dell's standards-based enterprise strategy and Intel+Windows TCO arguments remain useful historical reference; specific product configs (CX200, PowerEdge 2650, Oracle 9i on Red Hat Advanced Server) are dated. |
-| **Prescience** | [DEFERRED] |  |
+| **Prescience** | not-applicable |  |
 
 ### Prescience Detail
 
@@ -316,11 +316,11 @@ Kastner-authored analyst column 'special to SearchCIO.com' (published on searchd
 **Prediction 1:** Dell market share direction
 - **Claimed:** expected to gain share in OLTP, messaging, data warehouse, and file/print markets
 - **Year:** 2004
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 1:** Dell market share direction
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred.
 
 
@@ -328,16 +328,16 @@ Kastner-authored analyst column 'special to SearchCIO.com' (published on searchd
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Dell | company | [DEFERRED] | [DEFERRED] |
-| Oracle Corporation | company | [DEFERRED] | [DEFERRED] |
+| Dell | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Oracle Corporation | company | active |  |
 | EMC Corporation | company | acquired | Dell EMC (Dell acquisition 2016) |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Red Hat | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
+| Intel Corporation | company | active |  |
+| Microsoft | company | active |  |
+| Red Hat | company | unknown |  |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| IBM | company | active |  |
 | Sun Microsystems | company | acquired | Oracle (acquired 2010) |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 
 ### Technologies Referenced (7)
 
@@ -346,10 +346,10 @@ Kastner-authored analyst column 'special to SearchCIO.com' (published on searchd
 | Oracle 9i database | platform | Oracle | current | legacy |
 | Dell PowerEdge 2650 | platform | Dell | current | legacy |
 | Dell|EMC CX200 RAID | platform | Dell/EMC | current | legacy |
-| Linux (Red Hat Advanced Server) | platform | Red Hat | growing | [DEFERRED] |
+| Linux (Red Hat Advanced Server) | platform | Red Hat | growing | unknown [REVIEW] |
 | Microsoft Windows Server 2003 | platform | Microsoft | pre-launch | legacy |
-| Intel Xeon | platform | Intel | current | [DEFERRED] |
-| InfiniBand | protocol | InfiniBand Trade Association | emerging | [DEFERRED] |
+| Intel Xeon | platform | Intel | current | unknown [REVIEW] |
+| InfiniBand | protocol | InfiniBand Trade Association | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

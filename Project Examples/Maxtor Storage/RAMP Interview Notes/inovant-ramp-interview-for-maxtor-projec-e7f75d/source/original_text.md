@@ -121,14 +121,14 @@ Face-to-face RAMP interview with Paul Orleman, Department Head for Direct Exchan
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Inovant (a Visa Solutions Company) | company | [DEFERRED] | [DEFERRED] |
+| Inovant (a Visa Solutions Company) | company | unknown [REVIEW] |  |
 | Visa Inc. | company | active |  |
 | Paul Orleman | person | active |  |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
-| NetApp (Network Appliance) | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
+| EMC Corporation | company | unknown [REVIEW] |  |
+| NetApp (Network Appliance) | company | unknown [REVIEW] |  |
 | Dell | company | active |  |
-| Z-Force | company | [DEFERRED] | [DEFERRED] |
+| Z-Force | company | unknown [REVIEW] |  |
 | IBM | company | active |  |
 | Peter S. Kastner | person | active |  |
 | David Hill | person | active |  |
@@ -145,11 +145,11 @@ Face-to-face RAMP interview with Paul Orleman, Department Head for Direct Exchan
 | RAID 1 (Mirroring) | protocol | Industry Standard | mature | active |
 | IBM DB2 | application | IBM | mature | active |
 | LTO (Linear Tape Open) | platform | IBM/HP/Seagate | growing | active |
-| IBM 3584 Tape Library | platform | IBM | mature | [DEFERRED] |
+| IBM 3584 Tape Library | platform | IBM | mature | unknown [REVIEW] |
 | Online Transaction Processing (OLTP) | platform | Industry Standard | dominant | active |
 | Optical Storage | platform | Various | mature | legacy |
 | Virtual Tape Library (VTL) | platform | Various | emerging | active |
-| Credit Card Dispute Image Application | application | Inovant | active | [DEFERRED] |
+| Credit Card Dispute Image Application | application | Inovant | active | unknown [REVIEW] |
 
 ### Observation Summary
 

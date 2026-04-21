@@ -387,7 +387,7 @@ A curated research compendium assembled by Peter S. Kastner capturing key PC and
 | Motorola | company | split | Motorola Solutions / Freescale / NXP |
 | Toshiba Corporation | company | active |  |
 | Rambus Inc. | company | active |  |
-| Virtual Communities | company | [DEFERRED] | [DEFERRED] |
+| Virtual Communities | company | unknown |  |
 | PeoplePC | company | acquired | EarthLink |
 | Japan Electronic Industry Development Association (JEIDA) | institution | dissolved | JEITA |
 | VLSI Research | firm | active | TechInsights |
@@ -405,7 +405,7 @@ A curated research compendium assembled by Peter S. Kastner capturing key PC and
 | Dan Hutcheson | person | active |  |
 | Carly Fiorina | person | active |  |
 | Andrew J. Neff | person | active |  |
-| Jamie Stitt | person | [DEFERRED] | [DEFERRED] |
+| Jamie Stitt | person | unknown |  |
 | Joe Wilcox | person | active |  |
 
 ### Technologies Referenced (18)

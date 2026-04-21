@@ -119,8 +119,8 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| CMP Media | firm | [DEFERRED] | United Business Media / Informa |
-| Aberdeen Group | company | [DEFERRED] |  |
+| CMP Media | firm | unknown | United Business Media / Informa |
+| Aberdeen Group | company | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 
 ### Technologies Referenced (0)
 

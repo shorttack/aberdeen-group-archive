@@ -222,7 +222,7 @@ Refined second version of the Aberdeen Group telephone survey questionnaire for 
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Maxtor Corporation | company | dissolved | Seagate (2006) |
 | IBM | company | active |  |
 | Microsoft | company | active |  |

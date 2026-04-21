@@ -188,9 +188,9 @@ Aberdeen vendor snapshot profile of Snap Appliance Inc. (formerly Meridian Data,
 
 
 **Prediction 1:** Company survival as independent entity
-- **Claimed:** [DEFERRED]
+- **Claimed:** unknown [REVIEW]
 - **Year:** 2003
-- **Confidence at time:** [DEFERRED]
+- **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 1:** Company survival outcome
 - **Result:** [UNVERIFIED]

@@ -1,6 +1,6 @@
 # Statement of Work: Aberdeen-Maxtor MaXLine Marketing Program
 
-> Archived from: consulting-engagement
+> Archived from: 02-SOW-FINAL.txt
 > Original publication date: 2003-03-17
 > Author: Aberdeen Group / Peter Kastner
 
@@ -120,21 +120,21 @@ Date:	________________________________________________
 | date | 2003-03-17 |
 | type | employer-record |
 | subject_domain | midline-storage / enterprise-storage / market-research-engagement |
-| methodology | document-review |
-| source_file | consulting-engagement |
-| license | Formal Statement of Work governing the Aberdeen Group-Maxtor Corporation consulting engagement for marketing the MaXLine ATA disk drive product line. The SOW defines a two-task program: Task 1 covering market research and segment definition (75 enterprise interviews plus survey analysis for $25K) and Task 2 covering market education via an Executive White Paper and webcast ($35K). The document establishes IP licensing terms giving Maxtor exclusive perpetual worldwide rights to the white paper and delivery of 1000 copies plus web distribution. |
+| methodology | document-review,consulting-engagement |
+| source_file | 02-SOW-FINAL.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-02-SOW-FINAL.txt
+Formal Statement of Work governing the Aberdeen Group-Maxtor Corporation consulting engagement for marketing the MaXLine ATA disk drive product line. The SOW defines a two-task program: Task 1 covering market research and segment definition (75 enterprise interviews plus survey analysis for $25K) and Task 2 covering market education via an Executive White Paper and webcast ($35K). The document establishes IP licensing terms giving Maxtor exclusive perpetual worldwide rights to the white paper and delivery of 1000 copies plus web distribution.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | high |
-| **Relevance** | Founding contract document for the Aberdeen-Maxtor engagement that created the midline storage category. Establishes the formal consulting relationship intellectual property terms and the structure of research and white paper deliverables that led to the August 2003 white paper. Directly linked to the DiFranco Report and the broader category-creation program. | medium |
-| **Prescience** | Provides a historical template for research-firm/vendor consulting SOWs including IP exclusivity clauses and 60-day review windows. The engagement structure — survey research followed by executive white paper followed by webcast — remains a standard analyst-vendor go-to-market pattern. | not-applicable |
+| **Importance** | high | Founding contract document for the Aberdeen-Maxtor engagement that created the midline storage category. Establishes the formal consulting relationship intellectual property terms and the structure of research and white paper deliverables that led to the August 2003 white paper. Directly linked to the DiFranco Report and the broader category-creation program. |
+| **Relevance** | medium | Provides a historical template for research-firm/vendor consulting SOWs including IP exclusivity clauses and 60-day review windows. The engagement structure — survey research followed by executive white paper followed by webcast — remains a standard analyst-vendor go-to-market pattern. |
+| **Prescience** | not-applicable |  |
 
 ### Prescience Detail
 
@@ -145,12 +145,12 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active | [none] |
-| David Hill | person | [DEFERRED] |  |
-| Dan Tanner | person | [DEFERRED] |  |
-| Tom Willmott | person | [DEFERRED] |  |
-| Hugh Bishop | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
+| Dan Tanner | person | unknown [REVIEW] |  |
+| Tom Willmott | person | unknown [REVIEW] |  |
+| Hugh Bishop | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (4)
 
@@ -159,7 +159,7 @@ This study did not make forward-looking claims.
 | MaXLine ATA Disk Drives | platform | Maxtor | emerging | discontinued |
 | ATA / PATA Disk Interface | protocol | Industry Standard | mature | legacy |
 | Storage Area Network (SAN) | platform | Industry Standard | mature | active |
-| Aberdeen eLearning Division | platform | Aberdeen Group | active | [DEFERRED] |
+| Aberdeen eLearning Division | platform | Aberdeen Group | active | unknown [REVIEW] |
 
 ### Observation Summary
 

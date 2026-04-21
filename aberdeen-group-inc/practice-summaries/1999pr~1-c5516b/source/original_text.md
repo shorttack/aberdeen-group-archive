@@ -1284,23 +1284,23 @@ This document describes Aberdeen Group's IT Professional Services practice struc
 | IBM Global Services | company | active | [none] |
 | Andersen Consulting | company | renamed | Accenture (2001) |
 | Electronic Data Systems (EDS) | company | acquired | HP (2008) |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | unknown | unknown |
 | Compaq Computer Corporation | company | acquired | HP (2002) |
 | Digital Equipment Corporation | company | acquired | Compaq (1998) |
 | Cambridge Technology Partners | company | acquired | Novell (1999) |
-| Computer Sciences Corporation (CSC) | company | [DEFERRED] | [DEFERRED] |
+| Computer Sciences Corporation (CSC) | company | unknown | unknown |
 | Deloitte & Touche Tohmatsu International | firm | active | [none] |
 | KPMG International | firm | active | [none] |
 | PricewaterhouseCoopers | firm | active | [none] |
 | Ernst & Young | firm | active | [none] |
-| Renaissance Worldwide Inc. | company | [DEFERRED] | [DEFERRED] |
+| Renaissance Worldwide Inc. | company | unknown | unknown |
 | SAP | company | active | [none] |
 | Oracle | company | active | [none] |
 | Baan | company | acquired | SSA Global (2000) |
 | PeopleSoft | company | acquired | Oracle (2005) |
 | J.D. Edwards | company | acquired | PeopleSoft (2003) |
 | IDS Scheer | company | acquired | Software AG (2009) |
-| Plaut Consulting GmbH | firm | [DEFERRED] | [DEFERRED] |
+| Plaut Consulting GmbH | firm | unknown | unknown |
 | Whittman-Hart | company | merged | marchFIRST (2000) |
 | Microsoft | company | active | [none] |
 | Amdahl | company | acquired | Fujitsu (1997) |
@@ -1310,44 +1310,44 @@ This document describes Aberdeen Group's IT Professional Services practice struc
 | Entex | company | acquired | Siemens (2000) |
 | MicroAge | company | bankrupt | [none] |
 | Inacom | company | bankrupt | [none] |
-| Pinacor | company | [DEFERRED] | [DEFERRED] |
-| Technology Solutions Company | company | [DEFERRED] | [DEFERRED] |
-| NexGen SI | company | [DEFERRED] | [DEFERRED] |
+| Pinacor | company | unknown | unknown |
+| Technology Solutions Company | company | unknown | unknown |
+| NexGen SI | company | unknown | unknown |
 | Gemini Consulting | firm | acquired | Cap Gemini (1998) |
-| Inforte Corporation | company | [DEFERRED] | [DEFERRED] |
+| Inforte Corporation | company | unknown | unknown |
 | Mastech | company | active | [none] |
-| Analysts International Corporation (AIC) | company | [DEFERRED] | [DEFERRED] |
+| Analysts International Corporation (AIC) | company | unknown | unknown |
 | Carnegie Group (Logica) | company | merged | Logica acquisition |
-| Service Management International | company | [DEFERRED] | [DEFERRED] |
-| Impact Innovations Group | company | [DEFERRED] | [DEFERRED] |
-| Alltel Corporation | company | [DEFERRED] | [DEFERRED] |
+| Service Management International | company | unknown | unknown |
+| Impact Innovations Group | company | unknown | unknown |
+| Alltel Corporation | company | unknown | unknown |
 | Lucent Technologies | company | acquired | Alcatel-Lucent (2006) |
-| Genesys Systems | company | [DEFERRED] | [DEFERRED] |
-| Centrobe | company | [DEFERRED] | [DEFERRED] |
-| SPL WorldGroup | company | [DEFERRED] | [DEFERRED] |
-| Prospect Software Inc. | company | [DEFERRED] | [DEFERRED] |
-| eShare Technologies | company | [DEFERRED] | [DEFERRED] |
-| Perigrine Professional Services | company | [DEFERRED] | [DEFERRED] |
-| Platinum Consulting | company | [DEFERRED] | [DEFERRED] |
-| Process Edge Technology | company | [DEFERRED] | [DEFERRED] |
-| Molloy Group | company | [DEFERRED] | [DEFERRED] |
-| Business FX | company | [DEFERRED] | [DEFERRED] |
+| Genesys Systems | company | unknown | unknown |
+| Centrobe | company | unknown | unknown |
+| SPL WorldGroup | company | unknown | unknown |
+| Prospect Software Inc. | company | unknown | unknown |
+| eShare Technologies | company | unknown | unknown |
+| Perigrine Professional Services | company | unknown | unknown |
+| Platinum Consulting | company | unknown | unknown |
+| Process Edge Technology | company | unknown | unknown |
+| Molloy Group | company | unknown | unknown |
+| Business FX | company | unknown | unknown |
 | General Motors (GM) | company | active | [none] |
 | Cisco | company | active | [none] |
 | Sun Microsystems | company | acquired | Oracle (2010) |
-| Allen Communications | company | [DEFERRED] | [DEFERRED] |
-| AMT International | company | [DEFERRED] | [DEFERRED] |
+| Allen Communications | company | unknown | unknown |
+| AMT International | company | unknown | unknown |
 | Centra Software | company | acquired | Saba Software (2004) |
-| ExecuTrain | company | [DEFERRED] | [DEFERRED] |
+| ExecuTrain | company | unknown | unknown |
 | Learning Tree | company | active | [none] |
 | Lotus | company | acquired | IBM (1995) |
 | Macromedia | company | acquired | Adobe (2005) |
-| Saba Software | company | [DEFERRED] | [DEFERRED] |
+| Saba Software | company | unknown | unknown |
 | CBT Systems | company | renamed | SkillSoft (1999) |
 | DigitalThink | company | acquired | Convergys (2004) |
-| McGraw-Hill OnLine | company | [DEFERRED] | [DEFERRED] |
+| McGraw-Hill OnLine | company | unknown | unknown |
 | NetG | company | acquired | SkillSoft (2002) |
-| Ziff Davis | company | [DEFERRED] | [DEFERRED] |
+| Ziff Davis | company | unknown | unknown |
 
 ### Technologies Referenced (20)
 
@@ -1372,7 +1372,7 @@ This document describes Aberdeen Group's IT Professional Services practice struc
 | Lotus Workgroup Solutions | application | IBM/Lotus | mature | legacy-unsupported |
 | DB2 | application | IBM | mature | active |
 | Call Center Technology | application | multiple | growth | active |
-| Commerce Application Platforms (CAPs) | application | multiple | emerging | [DEFERRED] |
+| Commerce Application Platforms (CAPs) | application | multiple | emerging | unknown |
 
 ### Observation Summary
 

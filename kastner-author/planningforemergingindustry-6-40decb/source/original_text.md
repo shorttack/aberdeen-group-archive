@@ -567,8 +567,8 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 - **Confidence at time:** high
 
 **Actual Outcome 1:** nocona-lindenhurst-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify Nocona shipped 2004 as predicted.
 
 **Prediction 2:** potomac-twin-castle-2h2004
@@ -577,8 +577,8 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 - **Confidence at time:** high
 
 **Actual Outcome 2:** nocona-lindenhurst-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify Nocona shipped 2004 as predicted.
 
 **Prediction 3:** mainframe-ras-to-ia
@@ -587,8 +587,8 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 - **Confidence at time:** high
 
 **Actual Outcome 3:** mainframe-ras-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify memory-mirror/spare/scrub migration 2004-2006.
 
 **Prediction 4:** ddr2-power-halved
@@ -602,8 +602,8 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 - **Confidence at time:** high
 
 **Actual Outcome 5:** pci-express-life-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verified outcome: PCIe remains dominant 22 years later.
 
 **Prediction 6:** pcie-2004-capabilities
@@ -612,8 +612,8 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 - **Confidence at time:** high
 
 **Actual Outcome 6:** pci-express-life-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verified outcome: PCIe remains dominant 22 years later.
 
 **Prediction 7:** ia-share-gain

@@ -146,8 +146,8 @@ An internal Aberdeen Group strategy presentation outlining the business premises
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** Storage COE actual adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether Aberdeen Storage COE was established and which vendors participated
 
 **Prediction 2:** Initial 90-day program impact
@@ -156,8 +156,8 @@ An internal Aberdeen Group strategy presentation outlining the business premises
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Storage COE actual adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether Aberdeen Storage COE was established and which vendors participated
 
 
@@ -166,24 +166,24 @@ An internal Aberdeen Group strategy presentation outlining the business premises
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
-| Peter Kastner | person | [DEFERRED] |  |
-| Stephen DiFranco | person | [DEFERRED] |  |
-| Jamie Bedard | person | [DEFERRED] |  |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
+| Peter Kastner | person | unknown [REVIEW] |  |
+| Stephen DiFranco | person | unknown [REVIEW] |  |
+| Jamie Bedard | person | unknown [REVIEW] |  |
+| Hewlett-Packard | company | unknown [REVIEW] |  |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | IBM | company | active |  |
 | Intel Corporation | company | active |  |
 | Sun Microsystems | company | acquired | Oracle (2010) |
 | Network Appliance (NetApp) | company | active | NetApp |
-| Permabit Technology | company | [DEFERRED] | [DEFERRED] |
+| Permabit Technology | company | unknown [REVIEW] |  |
 
 ### Technologies Referenced (5)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
 | Hardware Hawker (HH) Tool | application | Aberdeen Group | emerging | discontinued |
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 | Pools of Storage (PoS) | framework | Maxtor / Aberdeen Group | emerging | discontinued |
 | Competitive Value Prospecting Tool | application | Aberdeen Group | emerging | discontinued |
 | Storage Center of Excellence (COE) | framework | Aberdeen Group (proposed) | proposed | not-realized |

@@ -160,7 +160,7 @@ Program-launch description of Aberdeen Group's Personal Information Technology p
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Microsoft | company | active |  |
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices | company | active |  |
@@ -171,9 +171,9 @@ Program-launch description of Aberdeen Group's Personal Information Technology p
 | Sony | company | active |  |
 | Toshiba | company | active |  |
 | Apple Computer | company | active |  |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
 | Micron Technology | company | active |  |
-| America Online | company | [DEFERRED] | [DEFERRED] |
+| America Online | company | unknown |  |
 | Seiko Epson | company | active |  |
 | Lexmark | company | active |  |
 | Canon | company | active |  |

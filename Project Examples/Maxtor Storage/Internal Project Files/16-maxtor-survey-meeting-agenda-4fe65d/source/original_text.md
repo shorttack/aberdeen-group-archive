@@ -87,12 +87,12 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
-| Peter Kastner | person | [DEFERRED] |  |
-| David Hill | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Beth Conant | person | [DEFERRED] |  |
-| Brian Ziel | person | [DEFERRED] |  |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
+| Peter Kastner | person | unknown [REVIEW] |  |
+| David Hill | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Beth Conant | person | unknown [REVIEW] |  |
+| Brian Ziel | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (3)
 

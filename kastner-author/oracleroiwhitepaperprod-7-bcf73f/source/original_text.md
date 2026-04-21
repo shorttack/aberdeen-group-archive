@@ -212,8 +212,8 @@ Oracle-sponsored Aberdeen Executive White Paper (June 2001) — SAME core resear
 - **Confidence at time:** high
 
 **Actual Outcome 1:** xml-actual-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** 
 
 **Prediction 2:** integrated-suite-winners
@@ -222,8 +222,8 @@ Oracle-sponsored Aberdeen Executive White Paper (June 2001) — SAME core resear
 - **Confidence at time:** high
 
 **Actual Outcome 2:** integrated-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Oracle consolidated PeopleSoft, Siebel, JD Edwards. SAP dominated.
 
 
@@ -234,7 +234,7 @@ Oracle-sponsored Aberdeen Executive White Paper (June 2001) — SAME core resear
 | Aberdeen Group, Inc. | firm | acquired | Harte-Hanks (2007) |
 | Oracle Corporation | company | active |  |
 | Katherine Jones (Aberdeen Group) | person | retired |  |
-| Tom Dwyer | person | [DEFERRED] | [DEFERRED] |
+| Tom Dwyer | person | unknown |  |
 | Peter S. Kastner | person | active |  |
 | Michael E. Porter | person | active |  |
 | Nike, Inc. | company | active |  |

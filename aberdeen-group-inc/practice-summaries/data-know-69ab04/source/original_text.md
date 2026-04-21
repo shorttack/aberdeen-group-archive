@@ -1,6 +1,6 @@
 # Expanding the Data Knowledge Practice
 
-> Archived from: market-overview
+> Archived from: data know.ppt
 > Original publication date: 2000-01-01
 > Author: Bob Moran
 
@@ -428,21 +428,21 @@ e. profiles (first steps with Cognos)
 | date | 2000-01-01 |
 | type | other-research |
 | subject_domain | data-management |
-| methodology | industry-analysis |
-| source_file | market-overview |
-| license | Internal Aberdeen Group presentation by Research VP Bob Moran proposing expansion of the Data Knowledge practice covering decision support and knowledge management technologies (data warehouses, OLAP, query/reporting, data mining, CRM analytics, content management, personalization, and ETL). Includes market sizing data for 1999-2003 showing the total core tools market growing from $8.3B (1999) to $18.2B (2003) at 45% CAGR, and BI infrastructure from $1.2B to $2.6B at 29% CAGR. Also features vendor presentations from Oracle, Cognos, and Acxiom with financial data and strategic positioning. |
+| methodology | industry-analysis,market-overview |
+| source_file | data know.ppt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-data know.ppt
+Internal Aberdeen Group presentation by Research VP Bob Moran proposing expansion of the Data Knowledge practice covering decision support and knowledge management technologies (data warehouses, OLAP, query/reporting, data mining, CRM analytics, content management, personalization, and ETL). Includes market sizing data for 1999-2003 showing the total core tools market growing from $8.3B (1999) to $18.2B (2003) at 45% CAGR, and BI infrastructure from $1.2B to $2.6B at 29% CAGR. Also features vendor presentations from Oracle, Cognos, and Acxiom with financial data and strategic positioning.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | medium |
-| **Relevance** | Rare internal Aberdeen strategy document revealing how the firm planned to expand coverage of decision support and BI; includes vendor-disclosed financials and market sizing data from 2000. | high |
-| **Prescience** | BI/analytics market dynamics described (OLAP data mining personalization CRM analytics) are foundational to modern data analytics and cloud BI markets still active today. | high |
+| **Importance** | medium | Rare internal Aberdeen strategy document revealing how the firm planned to expand coverage of decision support and BI; includes vendor-disclosed financials and market sizing data from 2000. |
+| **Relevance** | high | BI/analytics market dynamics described (OLAP data mining personalization CRM analytics) are foundational to modern data analytics and cloud BI markets still active today. |
+| **Prescience** | high |  |
 
 ### Prescience Detail
 
@@ -453,13 +453,13 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
-| Bob Moran | person | unknown | [DEFERRED] |
+| Bob Moran | person | unknown | unknown |
 | Oracle Corporation | company | active | [none] |
 | Cognos Inc. | company | dissolved | IBM |
 | Acxiom Corporation | company | active | LiveRamp Holdings |
 | Microsoft Corporation | company | active | [none] |
-| Creese (Aberdeen analyst) | person | unknown | [DEFERRED] |
-| Sheina (Aberdeen analyst) | person | unknown | [DEFERRED] |
+| Creese (Aberdeen analyst) | person | unknown | unknown |
+| Sheina (Aberdeen analyst) | person | unknown | unknown |
 
 ### Technologies Referenced (13)
 

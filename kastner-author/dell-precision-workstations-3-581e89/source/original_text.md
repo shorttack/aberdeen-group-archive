@@ -471,8 +471,8 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ddr2-platform-longevity-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 **Prediction 2:** windows-xp-64-timing
@@ -481,8 +481,8 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** medium
 
 **Actual Outcome 2:** windows-xp-64-timing-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Windows XP x64 shipped April 2005 — approximately on target.
 
 **Prediction 3:** 64-bit-enablement-timing
@@ -491,8 +491,8 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** medium
 
 **Actual Outcome 3:** windows-xp-64-timing-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Windows XP x64 shipped April 2005 — approximately on target.
 
 

@@ -2,8 +2,7 @@
   "entities": {
     "aberdeen-group": {
       "status": "acquired",
-      "successor": "Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research",
-      "source": "https://asap-invests.com/peter-s-kastner/ \u2014 'Retired Co-founder, COO and Chief Research Officer of Boston-based IT market researcher Aberdeen Group, acquired by Harte-Hanks in 2006'"
+      "successor": "Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis"
     },
     "peter-s-kastner": {
       "status": "active",
@@ -31,19 +30,16 @@
       "source": "No reliable public record found for Russ Craig in the Kastner archival context"
     },
     "hewlett-packard": {
-      "status": "renamed",
-      "successor": "HP Inc. + Hewlett Packard Enterprise (split 2015)",
-      "source": "Known answer: Hewlett-Packard split into HP Inc. and HPE in 2015."
+      "status": "split",
+      "successor": "HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015"
     },
     "compaq": {
       "status": "acquired",
-      "successor": "Hewlett-Packard (2002)",
-      "source": "https://www.latimes.com/archives/la-xpm-2006-jul-26-fi-hp26-story.html \u2014 HP's 2002 Compaq acquisition noted as background"
+      "successor": "HP (May 2002 merger); brand retired 2013"
     },
     "dell": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer: Dell Technologies is active."
+      "successor": "Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock)"
     },
     "dell-computer-corp": {
       "status": "renamed",
@@ -52,18 +48,15 @@
     },
     "ibm": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer."
+      "successor": ""
     },
     "sun-microsystems": {
       "status": "acquired",
-      "successor": "Oracle Corporation (acquired 2010)",
-      "source": "Known / public record"
+      "successor": "Oracle (January 2010, $7.4B)"
     },
     "sap": {
       "status": "active",
-      "successor": "",
-      "source": "Known / public record"
+      "successor": "SAP SE (renamed July 2014)"
     },
     "peoplesoft": {
       "status": "acquired",
@@ -72,8 +65,7 @@
     },
     "oracle": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer."
+      "successor": ""
     },
     "cisco": {
       "status": "active",
@@ -82,8 +74,7 @@
     },
     "microsoft": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer."
+      "successor": ""
     },
     "emc": {
       "status": "acquired",
@@ -92,8 +83,7 @@
     },
     "intel": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer."
+      "successor": ""
     },
     "nokia": {
       "status": "active",
@@ -112,13 +102,11 @@
     },
     "nvidia": {
       "status": "active",
-      "successor": "",
-      "source": "Known / public record"
+      "successor": ""
     },
     "amd": {
       "status": "active",
-      "successor": "",
-      "source": "Known / public record"
+      "successor": ""
     },
     "advanced-micro-devices": {
       "status": "active",
@@ -257,8 +245,7 @@
     },
     "sony": {
       "status": "active",
-      "successor": "",
-      "source": "Known / public record \u2014 Sony Corporation active"
+      "successor": "Sony Group Corporation (renamed 2021)"
     },
     "panasonic": {
       "status": "reorganized",
@@ -417,8 +404,7 @@
     },
     "lenovo": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer: Lenovo is active, publicly traded Chinese multinational technology company (HKEX: 992)."
+      "successor": ""
     },
     "acer": {
       "status": "active",
@@ -502,8 +488,7 @@
     },
     "best-buy": {
       "status": "active",
-      "successor": "",
-      "source": "Known answer: Best Buy is active, publicly traded US consumer electronics retailer (NYSE: BBY)."
+      "successor": ""
     },
     "mirror-image-internet": {
       "status": "dissolved",
@@ -537,8 +522,7 @@
     },
     "compusa": {
       "status": "dissolved",
-      "successor": "Gordon Brothers Group (liquidated 2007\u20132008); brand/16 stores sold to Systemax/TigerDirect",
-      "source": "https://en.wikipedia.org/wiki/CompUSA \u2014 Sold to Gordon Brothers for liquidation Dec. 2007; Systemax acquired brand and 16 stores Jan. 2008; remaining stores converted to TigerDirect by 2012."
+      "successor": "Stores closed 2008; brand sold to Systemax/TigerDirect"
     },
     "microfocus": {
       "status": "acquired",
@@ -916,8 +900,7 @@
     },
     "fujitsu": {
       "status": "active",
-      "successor": "",
-      "notes": "Fujitsu Ltd (TYO:6702) active; major IT services company"
+      "successor": "Fujitsu Limited; PC business sold to Lenovo JV 2018"
     },
     "holiday-inn-crowne-plaza-dubai": {
       "status": "rebranded",
@@ -1036,8 +1019,7 @@
     },
     "sybase": {
       "status": "acquired",
-      "successor": "SAP",
-      "notes": "Acquired by SAP 2010 for $5.8B; SAP ASE and other products continue"
+      "successor": "SAP (2010, $5.8B); brand retired ~2015 into SAP ASE product line"
     },
     "tandem-computers": {
       "status": "acquired",
@@ -1121,8 +1103,7 @@
     },
     "apple-computer": {
       "status": "active",
-      "successor": "Renamed Apple Inc. (2007)",
-      "source": "Known / public record \u2014 Apple Computer renamed Apple Inc. in 2007; active as of 2025"
+      "successor": "Apple Inc. (renamed January 2007, dropped 'Computer')"
     },
     "charles-babbage": {
       "status": "deceased",
@@ -1353,6 +1334,142 @@
       "status": "unknown [REVIEW]",
       "successor": "",
       "notes_append": "Distinct from K-LAGAN (Barcelona consultancy) and KL Tech Consulting (NY) per Phase 3 search."
+    },
+    "gateway-inc": {
+      "status": "acquired",
+      "successor": "Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011"
+    },
+    "circuit-city": {
+      "status": "dissolved",
+      "successor": "Liquidated January 2009; brand revived as online-only retailer by Systemax 2016"
+    },
+    "emachines": {
+      "status": "acquired",
+      "successor": "Gateway (2004); then Acer (2007); brand discontinued 2013"
+    },
+    "bestbuy-com": {
+      "status": "active",
+      "successor": "operates as Best Buy's e-commerce channel"
+    },
+    "circuitcity-com": {
+      "status": "dissolved",
+      "successor": "shut down with Circuit City liquidation 2009; later revived as direct-to-consumer by Systemax 2016"
+    },
+    "gateway-online": {
+      "status": "dissolved",
+      "successor": "www.gateway.com decommissioned after Acer acquisition; brand discontinued 2011"
+    },
+    "hpshopping": {
+      "status": "active",
+      "successor": "operates as hp.com/shop under HP Inc. (post-2015 split)"
+    },
+    "sony-online": {
+      "status": "active",
+      "successor": "operates as Sony Electronics e-commerce (sonystyle brand discontinued 2012; replaced by sony.com)"
+    },
+    "staples": {
+      "status": "acquired",
+      "successor": "Sycamore Partners (took private April 2017, $6.9B)"
+    },
+    "apple-inc": {
+      "status": "active",
+      "successor": ""
+    },
+    "toshiba": {
+      "status": "restructured",
+      "successor": "Toshiba Corporation remains; PC division sold to Sharp 2018; memory division spun off as Kioxia 2018; taken private by JIP consortium 2023"
+    },
+    "alienware": {
+      "status": "acquired",
+      "successor": "Dell (2006); operates as Dell gaming subsidiary"
+    },
+    "vpr-matrix": {
+      "status": "dissolved",
+      "successor": "Best Buy discontinued the VPR Matrix private-label brand ~2005"
+    },
+    "acer-inc": {
+      "status": "active",
+      "successor": ""
+    },
+    "dell-online": {
+      "status": "active",
+      "successor": "operates as dell.com under Dell Technologies"
+    },
+    "motorola-inc": {
+      "status": "split",
+      "successor": "Split January 2011 into Motorola Solutions (enterprise) and Motorola Mobility (acquired by Google 2012, then Lenovo 2014)"
+    },
+    "oracle-corp": {
+      "status": "active",
+      "successor": "Oracle Corporation"
+    },
+    "sap-ag": {
+      "status": "active",
+      "successor": "SAP SE (renamed July 2014)"
+    },
+    "broadcom-corp": {
+      "status": "acquired",
+      "successor": "Avago Technologies (2016, $37B); renamed Broadcom Inc."
+    },
+    "yankee-group": {
+      "status": "dissolved",
+      "successor": "Acquired by 451 Research 2013; brand retired"
+    },
+    "mercury-research": {
+      "status": "active",
+      "successor": ""
+    },
+    "idc": {
+      "status": "active",
+      "successor": "International Data Corporation remains division of IDG; IDG taken private by Blackstone 2021"
+    },
+    "gartner": {
+      "status": "active",
+      "successor": ""
+    },
+    "forrester-research": {
+      "status": "active",
+      "successor": ""
+    },
+    "packard-bell": {
+      "status": "acquired",
+      "successor": "Acer (2008); brand largely retired in US; some use in Europe"
+    },
+    "nec-corporation": {
+      "status": "active",
+      "successor": "NEC Corporation; PC business merged with Lenovo 2011 as Lenovo NEC Holdings"
+    },
+    "radio-shack": {
+      "status": "dissolved",
+      "successor": "Bankruptcy 2015 and 2017; brand owned by Unicomer Group as online retailer"
+    },
+    "montgomery-ward": {
+      "status": "dissolved",
+      "successor": "Liquidated 2001; brand revived as online retailer by Direct Marketing Services"
+    },
+    "sears": {
+      "status": "restructured",
+      "successor": "Bankruptcy 2018; operates as Transform Holdco under Eddie Lampert's ESL Investments"
+    },
+    "kmart": {
+      "status": "active",
+      "successor": "operates under Transform Holdco; most stores closed 2019-2022; last standalone store in US closed 2022"
+    },
+    "office-depot": {
+      "status": "active",
+      "successor": "The ODP Corporation (renamed 2020); merged with OfficeMax 2013"
+    },
+    "officemax": {
+      "status": "acquired",
+      "successor": "Office Depot (2013 merger); now The ODP Corporation"
+    },
+    "frys-electronics": {
+      "status": "dissolved",
+      "successor": "Permanently closed all 31 stores February 2021"
+    },
+    "lincom-wireless": {
+      "status": "unknown [REVIEW]",
+      "successor": ""
     }
   },
   "technologies": {
@@ -4036,5 +4153,5 @@
       "source": "Known / public record \u2014 PowerPC Macs 1994-2005; transition to Intel 2006; Apple Silicon 2020"
     }
   },
-  "last_updated": "2026-04-21T01:43:47.888479"
+  "last_updated": "2026-04-21T01:48:52.586818"
 }

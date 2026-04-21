@@ -146,9 +146,9 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | EMC Corporation | company | acquired | Dell |
-| Hitachi Data Systems | company | [DEFERRED] | Western Digital |
+| Hitachi Data Systems | company | unknown [REVIEW] | Western Digital |
 | Amazon.com | company | active |  |
 
 ### Technologies Referenced (5)

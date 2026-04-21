@@ -92,8 +92,8 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Peter S. Kastner | person | unknown | [DEFERRED] |
-| Michael Lindgren | person | unknown | [DEFERRED] |
+| Peter S. Kastner | person | unknown | unknown |
+| Michael Lindgren | person | unknown | unknown |
 | St. Andrew's Episcopal Church | institution | active | [none] |
 
 ### Technologies Referenced (2)

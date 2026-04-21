@@ -1246,22 +1246,22 @@ Aberdeen Group's 1998 practice summary covering the middleware technology market
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | company | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
-| Active Software | company | [DEFERRED] | [DEFERRED] |
-| BEA Systems Inc. | company | [DEFERRED] | [DEFERRED] |
-| Borland International Inc. (soon to be Inprise) | company | [DEFERRED] | [DEFERRED] |
-| CrossWorlds Software | company | [DEFERRED] | [DEFERRED] |
-| EXPERSOFT Corporation | company | [DEFERRED] | [DEFERRED] |
-| IBM Corporation | company | active | [DEFERRED] |
-| Insession Inc. | company | [DEFERRED] | [DEFERRED] |
-| Microsoft Corporation | company | active | [DEFERRED] |
-| New Era of Networks Inc. (NEON) | company | [DEFERRED] | [DEFERRED] |
-| RELIANT Data Systems | company | [DEFERRED] | [DEFERRED] |
-| SmartDB Corporation | company | [DEFERRED] | [DEFERRED] |
-| TIBCO Software Inc. | company | [DEFERRED] | [DEFERRED] |
-| Oracle Corporation | company | active | [DEFERRED] |
-| Sybase Inc. | company | [DEFERRED] | [DEFERRED] |
-| Visigenic Software | company | [DEFERRED] | [DEFERRED] |
-| IONA Technologies | company | [DEFERRED] | [DEFERRED] |
+| Active Software | company | unknown | unknown |
+| BEA Systems Inc. | company | unknown | unknown |
+| Borland International Inc. (soon to be Inprise) | company | unknown | unknown |
+| CrossWorlds Software | company | unknown | unknown |
+| EXPERSOFT Corporation | company | unknown | unknown |
+| IBM Corporation | company | active | N/A (active) |
+| Insession Inc. | company | unknown | unknown |
+| Microsoft Corporation | company | active | N/A (active) |
+| New Era of Networks Inc. (NEON) | company | unknown | unknown |
+| RELIANT Data Systems | company | unknown | unknown |
+| SmartDB Corporation | company | unknown | unknown |
+| TIBCO Software Inc. | company | unknown | unknown |
+| Oracle Corporation | company | active | N/A (active) |
+| Sybase Inc. | company | unknown | unknown |
+| Visigenic Software | company | unknown | unknown |
+| IONA Technologies | company | unknown | unknown |
 
 ### Technologies Referenced (14)
 

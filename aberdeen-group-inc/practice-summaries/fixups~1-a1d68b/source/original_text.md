@@ -76,7 +76,7 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Andy Bochman | person | [DEFERRED] | [DEFERRED] |
+| Andy Bochman | person | unknown | unknown |
 
 ### Technologies Referenced (1)
 

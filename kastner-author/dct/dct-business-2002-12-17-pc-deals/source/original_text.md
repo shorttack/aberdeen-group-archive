@@ -75,7 +75,7 @@ Aberdeen Group's PC research can be accessed online at www.aberdeen.com/pcdeals,
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -85,28 +85,28 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Dell Computer | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Aberdeen Group | company | [DEFERRED] | [DEFERRED] |
+| Dell Computer | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Compaq Computer | company | acquired | HP (May 2002 merger); brand retired 2013 |
+| IBM | company | active |  |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Intel Corporation | company | active |  |
+| Microsoft | company | active |  |
+| Aberdeen Group | company | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 
 ### Technologies Referenced (9)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
-| Intel Pentium 4-M (Mobile) | processor | Intel | mature | [DEFERRED] |
-| Small Form Factor PC (SFF) | form-factor |  | emerging | [DEFERRED] |
-| Notebook PC | form-factor |  | mature | [DEFERRED] |
-| Desktop PC | form-factor |  | mature | [DEFERRED] |
-| DDR SDRAM | memory |  | mature | [DEFERRED] |
-| Windows XP Professional | operating-system | Microsoft | mature | [DEFERRED] |
-| Windows XP | operating-system | Microsoft | mature | [DEFERRED] |
-| LCD Flat Panel Monitor | display |  | mature | [DEFERRED] |
+| Intel Pentium 4 | processor | Intel | mature | unknown [REVIEW] |
+| Intel Pentium 4-M (Mobile) | processor | Intel | mature | unknown [REVIEW] |
+| Small Form Factor PC (SFF) | form-factor |  | emerging | unknown [REVIEW] |
+| Notebook PC | form-factor |  | mature | unknown [REVIEW] |
+| Desktop PC | form-factor |  | mature | unknown [REVIEW] |
+| DDR SDRAM | memory |  | mature | unknown [REVIEW] |
+| Windows XP Professional | operating-system | Microsoft | mature | unknown [REVIEW] |
+| Windows XP | operating-system | Microsoft | mature | unknown [REVIEW] |
+| LCD Flat Panel Monitor | display |  | mature | unknown [REVIEW] |
 
 ### Observation Summary
 

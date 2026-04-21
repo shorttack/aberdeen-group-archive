@@ -1,8 +1,8 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Aberdeen/Harte-Hanks,1988-present,02-sow-final-62f56d,Contract party; Boston-based at 260 Franklin Street
-maxtor,Maxtor Corporation,company,Hard Disk Drive Manufacturing,[DEFERRED],[DEFERRED],1982-2006,02-sow-final-62f56d,Contract party; MaXLine ATA drive product line is subject of SOW
-peter-kastner,Peter S. Kastner,person,IT Market Research,active,[none],1988-present,02-sow-final-62f56d,Executive VP Research Aberdeen Group; signed for Aberdeen; executive lead on engagement
-david-hill,David Hill,person,Market Research / IT Consulting,[DEFERRED],,2000s,02-sow-final-62f56d,VP Storage Research Aberdeen Group; day-to-day primary project contact for Maxtor
-dan-tanner,Dan Tanner,person,Market Research / IT Consulting,[DEFERRED],,2000s,02-sow-final-62f56d,Director Storage Research Aberdeen Group; core project team member
-tom-willmott,Tom Willmott,person,Market Research / IT Consulting,[DEFERRED],,2000s,02-sow-final-62f56d,President and CEO Aberdeen Group; project review committee
-hugh-bishop,Hugh Bishop,person,Market Research / IT Consulting,[DEFERRED],,2000s,02-sow-final-62f56d,SVP Aberdeen Emerging Technology Intelligence Group; project review committee
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Aberdeen/Harte-Hanks","1988-present","02-sow-final-62f56d","Contract party; Boston-based at 260 Franklin Street"
+"maxtor","Maxtor Corporation","company","Hard Disk Drive Manufacturing","unknown [REVIEW]","","1982-2006","02-sow-final-62f56d","Contract party; MaXLine ATA drive product line is subject of SOW"
+"peter-kastner","Peter S. Kastner","person","IT Market Research","active","[none]","1988-present","02-sow-final-62f56d","Executive VP Research Aberdeen Group; signed for Aberdeen; executive lead on engagement"
+"david-hill","David Hill","person","Market Research / IT Consulting","unknown [REVIEW]","","2000s","02-sow-final-62f56d","VP Storage Research Aberdeen Group; day-to-day primary project contact for Maxtor"
+"dan-tanner","Dan Tanner","person","Market Research / IT Consulting","unknown [REVIEW]","","2000s","02-sow-final-62f56d","Director Storage Research Aberdeen Group; core project team member"
+"tom-willmott","Tom Willmott","person","Market Research / IT Consulting","unknown [REVIEW]","","2000s","02-sow-final-62f56d","President and CEO Aberdeen Group; project review committee"
+"hugh-bishop","Hugh Bishop","person","Market Research / IT Consulting","unknown [REVIEW]","","2000s","02-sow-final-62f56d","SVP Aberdeen Emerging Technology Intelligence Group; project review committee"

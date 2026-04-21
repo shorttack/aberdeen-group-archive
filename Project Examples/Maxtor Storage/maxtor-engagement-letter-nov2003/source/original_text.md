@@ -265,10 +265,10 @@ A formal engagement letter from Aberdeen Group to Maxtor Corporation's VP of Wor
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Stephen DiFranco | person | active |  |
 | Peter S. Kastner | person | active |  |
-| Stan Elbaum | person | [DEFERRED] | [DEFERRED] |
+| Stan Elbaum | person | unknown [REVIEW] |  |
 | David Hill | person | active |  |
-| Kerri Conrad | person | [DEFERRED] | [DEFERRED] |
-| Sandra Tubbs | person | [DEFERRED] | [DEFERRED] |
+| Kerri Conrad | person | unknown [REVIEW] |  |
+| Sandra Tubbs | person | unknown [REVIEW] |  |
 | Seagate Technology | company | active (public: STX) |  |
 | SNIA (Storage Networking Industry Association) | institution | active |  |
 | EMC Corporation | company | acquired | Dell Technologies (acquired 2016) |

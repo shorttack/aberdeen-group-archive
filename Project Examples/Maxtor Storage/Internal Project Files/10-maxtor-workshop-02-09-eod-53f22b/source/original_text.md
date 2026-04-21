@@ -1006,8 +1006,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ILM as decade-defining battle
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** ILM did generate major vendor mindshare battle through 2010; outcome partially confirmed
 
 **Prediction 2:** ILM timeframe
@@ -1016,8 +1016,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** high
 
 **Actual Outcome 2:** ILM as decade-defining battle
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** ILM did generate major vendor mindshare battle through 2010; outcome partially confirmed
 
 **Prediction 3:** Gartner/IDC midline reporting prediction
@@ -1026,8 +1026,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** medium
 
 **Actual Outcome 3:** Gartner/IDC midline reporting
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Did IDC/Gartner start reporting midline as category by Q3 2004?
 
 **Prediction 4:** Q3 2004 press mentions target
@@ -1036,8 +1036,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** medium
 
 **Actual Outcome 4:** Q4 2004 practitioner recognition
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** 
 
 **Prediction 5:** Q4 2004 practitioner recognition target
@@ -1046,8 +1046,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** medium
 
 **Actual Outcome 5:** Q4 2004 practitioner recognition
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** 
 
 **Prediction 6:** ILM complexity target date
@@ -1056,8 +1056,8 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 - **Confidence at time:** medium
 
 **Actual Outcome 6:** ILM as decade-defining battle
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** ILM did generate major vendor mindshare battle through 2010; outcome partially confirmed
 
 
@@ -1066,33 +1066,33 @@ Full slide deck from the February 13 2004 Maxtor midline category creation works
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active | [none] |
-| David Hill | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Lloyd Bunting | person | [DEFERRED] |  |
-| Stan Elbaum | person | [DEFERRED] |  |
-| Stephen DiFranco | person | [DEFERRED] |  |
-| Mike Cordano | person | [DEFERRED] |  |
-| Joseph DeRosa | person | [DEFERRED] |  |
-| Linda Burchik | person | [DEFERRED] |  |
-| Melissa Helms | person | [DEFERRED] |  |
-| Dana Cartwright | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Lloyd Bunting | person | unknown [REVIEW] |  |
+| Stan Elbaum | person | unknown [REVIEW] |  |
+| Stephen DiFranco | person | unknown [REVIEW] |  |
+| Mike Cordano | person | unknown [REVIEW] |  |
+| Joseph DeRosa | person | unknown [REVIEW] |  |
+| Linda Burchik | person | unknown [REVIEW] |  |
+| Melissa Helms | person | unknown [REVIEW] |  |
+| Dana Cartwright | person | unknown [REVIEW] |  |
 | Seagate Technology | company | active |  |
 | Western Digital | company | active |  |
 | Hitachi Global Storage Technologies | company | acquired | Western Digital |
 | Gartner | firm | active |  |
 | IDC (International Data Corporation) | firm | active |  |
 | EMC Corporation | company | acquired | Dell |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Hewlett-Packard | company | unknown [REVIEW] |  |
 | Data General | company | acquired | EMC |
-| Storage Networking Industry Association (SNIA) | institution | [DEFERRED] | [DEFERRED] |
+| Storage Networking Industry Association (SNIA) | institution | unknown [REVIEW] |  |
 
 ### Technologies Referenced (9)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 | Pools of Storage | framework | Maxtor/Aberdeen | emerging | superseded |
 | Midline Storage | platform | Maxtor | emerging | legacy |
 | Maxtor MaXLine Disk Drive | storage | Maxtor | emerging | discontinued |

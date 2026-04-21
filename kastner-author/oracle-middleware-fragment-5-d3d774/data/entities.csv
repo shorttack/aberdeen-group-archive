@@ -1,6 +1,6 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
 "katherine-jones","Katherine Jones (Aberdeen Group)","person","Industry Analysis","retired","","1990s-2010s","oracle-middleware-fragment-5-d3d774","Author of the fragment."
-"tom-dwyer","Tom Dwyer","person","Industry Analysis","[DEFERRED]","[DEFERRED]","2000s","oracle-middleware-fragment-5-d3d774","Recipient of the memo; apparent co-author/editor on the report & WP."
+"tom-dwyer","Tom Dwyer","person","Industry Analysis","unknown","","2000s","oracle-middleware-fragment-5-d3d774","Recipient of the memo; apparent co-author/editor on the report & WP. [REVIEW]"
 "aberdeen-group","Aberdeen Group, Inc.","firm","IT Research","acquired","Harte-Hanks (2007)","1988-present","oracle-middleware-fragment-5-d3d774","Publisher."
 "oracle-corp","Oracle Corporation","company","Enterprise Software","active","","1977-present","oracle-middleware-fragment-5-d3d774","Supplier of Oracle Financials component of the Portera bundle."
 "peoplesoft","PeopleSoft Inc.","company","Enterprise Software","acquired","Oracle (2005)","1987-2005","oracle-middleware-fragment-5-d3d774","HR component of Portera bundle."

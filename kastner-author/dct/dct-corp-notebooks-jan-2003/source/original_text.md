@@ -85,9 +85,9 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Hewlett-Packard (HP) | company | [DEFERRED] |  |
-| IBM | company | [DEFERRED] | Lenovo |
-| CDW Corp. | company | [DEFERRED] |  |
+| Hewlett-Packard (HP) | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| IBM | company | active |  |
+| CDW Corp. | company | unknown |  |
 
 ### Technologies Referenced (4)
 

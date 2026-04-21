@@ -146,12 +146,12 @@ Personal letter from Peter S. Kastner (Managing Director, Scott-Page Associates)
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active | [none] |
-| Scott-Page Associates | firm | [DEFERRED] | [DEFERRED] |
-| Craig R. Barrett | person | [DEFERRED] | [DEFERRED] |
+| Scott-Page Associates | firm | unknown |  |
+| Craig R. Barrett | person | unknown |  |
 | Intel Corporation | company | active |  |
 | Dell Inc. | company | active |  |
 | Microsoft | company | active |  |
-| One Laptop Per Child (OLPC) | institution | [DEFERRED] | [DEFERRED] |
+| One Laptop Per Child (OLPC) | institution | unknown |  |
 | European Commission | agency | active |  |
 
 ### Technologies Referenced (7)

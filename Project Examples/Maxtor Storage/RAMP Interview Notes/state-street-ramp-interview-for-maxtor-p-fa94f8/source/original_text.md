@@ -122,9 +122,9 @@ Face-to-face RAMP (Rapid Analysis Market Profiling) interview with Prithwi R. Th
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Actual outcome: EMC DMX adoption in financial services
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
-- **Notes:** [DEFERRED] EMC DMX became dominant in financial services 2004-2008; State Street likely upgraded.
+- **Notes:** [UNVERIFIED] EMC DMX became dominant in financial services 2004-2008; State Street likely upgraded.
 
 **Prediction 2:** SLA-constrained adoption of low-cost disk
 - **Claimed:** Likely to purchase even with SLA obligations to outside clients
@@ -132,9 +132,9 @@ Face-to-face RAMP (Rapid Analysis Market Profiling) interview with Prithwi R. Th
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Actual outcome: EMC DMX adoption in financial services
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
-- **Notes:** [DEFERRED] EMC DMX became dominant in financial services 2004-2008; State Street likely upgraded.
+- **Notes:** [UNVERIFIED] EMC DMX became dominant in financial services 2004-2008; State Street likely upgraded.
 
 
 ### Entities Referenced (8)
@@ -144,10 +144,10 @@ Face-to-face RAMP (Rapid Analysis Market Profiling) interview with Prithwi R. Th
 | State Street Corporation | company | active | [none] |
 | Prithwi R. Thakuria | person | active |  |
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Maxtor Corporation | company | acquired | Seagate (2006) |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | Fidelity Investments | company | active | [none] |
 
 ### Technologies Referenced (10)

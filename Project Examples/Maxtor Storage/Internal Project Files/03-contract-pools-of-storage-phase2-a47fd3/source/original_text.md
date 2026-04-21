@@ -1,6 +1,6 @@
 # Pools of Storage Executive Evangelism Program — Phase 2 Contract
 
-> Archived from: consulting-engagement
+> Archived from: 03-Contract-Pools-of-Storage-Phase2.txt
 > Original publication date: 2003-11-13
 > Author: Aberdeen Group / Peter Kastner
 
@@ -335,21 +335,21 @@ Mutual Confidentiality Agreement
 | date | 2003-11-13 |
 | type | employer-record |
 | subject_domain | midline-storage / ILM / enterprise-storage / market-research-engagement |
-| methodology | document-review |
-| source_file | consulting-engagement |
-| license | Revised proposal and contract for Aberdeen Group's Phase 2 engagement with Maxtor Corporation covering the 'Pools of Storage Executive Evangelism Program' — a four-phase program at $114000 total. The program defines a four-tier storage lexicon (Online/Midline/Near-line/Offline) and proposes a strategy workshop in Shrewsbury MA (December 9 2003) followed by decision-tool development message testing with 100-250 internet surveys and a press tour in the US and Europe. The document introduces Serial Storage in a Box as a packaging concept and positions Maxtor as the ecosystem orchestrator for a new storage lexicon. |
+| methodology | document-review,consulting-engagement |
+| source_file | 03-Contract-Pools-of-Storage-Phase2.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-03-Contract-Pools-of-Storage-Phase2.txt
+Revised proposal and contract for Aberdeen Group's Phase 2 engagement with Maxtor Corporation covering the 'Pools of Storage Executive Evangelism Program' — a four-phase program at $114000 total. The program defines a four-tier storage lexicon (Online/Midline/Near-line/Offline) and proposes a strategy workshop in Shrewsbury MA (December 9 2003) followed by decision-tool development message testing with 100-250 internet surveys and a press tour in the US and Europe. The document introduces Serial Storage in a Box as a packaging concept and positions Maxtor as the ecosystem orchestrator for a new storage lexicon.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | high |
-| **Relevance** | The Phase 2 contract formalizes the expanded Aberdeen-Maxtor engagement at $114K and introduces the four-pool storage taxonomy (Online/Midline/Near-line/Offline) that is the substantive intellectual contribution of the project. The Pools of Storage lexicon and the decision-tool concept represent the core deliverable that Aberdeen's After-Action report assessed as having produced $75K in tool R&D value. | high |
-| **Prescience** | The four-pool ILM lexicon introduced here closely maps to modern tiered storage architectures and ILM frameworks still used in enterprise storage planning. The structured category creation approach — lexicon definition + message testing + press evangelism — is a replicable vendor go-to-market template. | medium |
+| **Importance** | high | The Phase 2 contract formalizes the expanded Aberdeen-Maxtor engagement at $114K and introduces the four-pool storage taxonomy (Online/Midline/Near-line/Offline) that is the substantive intellectual contribution of the project. The Pools of Storage lexicon and the decision-tool concept represent the core deliverable that Aberdeen's After-Action report assessed as having produced $75K in tool R&D value. |
+| **Relevance** | high | The four-pool ILM lexicon introduced here closely maps to modern tiered storage architectures and ILM frameworks still used in enterprise storage planning. The structured category creation approach — lexicon definition + message testing + press evangelism — is a replicable vendor go-to-market template. |
+| **Prescience** | medium |  |
 
 ### Prescience Detail
 
@@ -360,7 +360,7 @@ Mutual Confidentiality Agreement
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Ecosystem lexicon adoption outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Tiered storage / ILM did gain traction but 'Pools of Storage' specifically may not have been universally adopted — Phase 3 verification
 
@@ -370,7 +370,7 @@ Mutual Confidentiality Agreement
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Ecosystem lexicon adoption outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Tiered storage / ILM did gain traction but 'Pools of Storage' specifically may not have been universally adopted — Phase 3 verification
 
@@ -380,7 +380,7 @@ Mutual Confidentiality Agreement
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Ecosystem lexicon adoption outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Tiered storage / ILM did gain traction but 'Pools of Storage' specifically may not have been universally adopted — Phase 3 verification
 
@@ -390,7 +390,7 @@ Mutual Confidentiality Agreement
 - **Confidence at time:** high
 
 **Actual Outcome 4:** Decision tool lead generation outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** After-Action notes one tool failed to impress initially but was redone — Phase 3 verification of lead generation success
 
@@ -400,13 +400,13 @@ Mutual Confidentiality Agreement
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Stephen DiFranco | person | active |  |
 | Peter S. Kastner | person | active | [none] |
-| David Hill | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Storage Networking Industry Association (SNIA) | institution | [DEFERRED] | [DEFERRED] |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| David Hill | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Storage Networking Industry Association (SNIA) | institution | unknown [REVIEW] |  |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | Data General | company | dissolved | EMC acquired assets |
 
 ### Technologies Referenced (8)
@@ -414,7 +414,7 @@ Mutual Confidentiality Agreement
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
 | Pools of Storage Framework | framework | Aberdeen Group / Maxtor | emerging | historical |
-| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | unknown [REVIEW] |
 | MaXLine ATA Disk Drives | platform | Maxtor | emerging | discontinued |
 | Serial Attached SCSI (SAS) | protocol | Industry Standard | emerging | active |
 | Serial ATA (SATA) | protocol | Industry Standard | emerging | active |

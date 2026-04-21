@@ -89,9 +89,9 @@ Post-CA-World-2001 thank-you letter from Peter S. Kastner (Founder and Chief Res
 | Aberdeen Group | company | acquired-by-harte-hanks | Harte-Hanks (2007) |
 | Computer Associates International, Inc. | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
 | Sanjay Kumar | person | resigned-indicted |  |
-| Debra Cattani | person | [DEFERRED] |  |
-| Janice Thomas | person | [DEFERRED] |  |
-| Russ Artz | person | [DEFERRED] |  |
+| Debra Cattani | person | unknown [REVIEW] |  |
+| Janice Thomas | person | unknown [REVIEW] |  |
+| Russ Artz | person | unknown [REVIEW] |  |
 | Sam Wyly | person | died-2024 |  |
 | Ranger Governance Ltd | firm | dissolved |  |
 | Charles Wang | person | retired |  |

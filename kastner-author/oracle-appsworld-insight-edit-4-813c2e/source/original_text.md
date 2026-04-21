@@ -76,8 +76,8 @@ Aberdeen Insight by Katherine Jones covering Oracle Apps World San Diego (Apr 20
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** outsourcing-response-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market.
 
 **Prediction 2:** upgrade-pace-caveat
@@ -86,8 +86,8 @@ Aberdeen Insight by Katherine Jones covering Oracle Apps World San Diego (Apr 20
 - **Confidence at time:** high
 
 **Actual Outcome 2:** outsourcing-response-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market.
 
 

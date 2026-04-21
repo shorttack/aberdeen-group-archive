@@ -1854,35 +1854,35 @@ Sixth-revision Aberdeen DCEIT practice overview deck covering PC-CE convergence,
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Russ Craig | person | [DEFERRED] | [DEFERRED] |
-| Peter S. Kastner | person | [DEFERRED] | [DEFERRED] |
+| Russ Craig | person | unknown |  |
+| Peter S. Kastner | person | unknown |  |
 | Aberdeen Group | firm | dissolved | Harte-Hanks then Spiceworks Ziff Davis |
-| Motorola Broadband Communications Sector | company | [DEFERRED] | [DEFERRED] |
-| Scientific Atlanta | company | [DEFERRED] | [DEFERRED] |
-| Pace Micro Technology | company | [DEFERRED] | [DEFERRED] |
-| Koninklijke Philips | company | [DEFERRED] | [DEFERRED] |
-| Thomson multimedia | company | [DEFERRED] | [DEFERRED] |
-| Netopia | company | [DEFERRED] | [DEFERRED] |
-| Time Warner Cable | company | [DEFERRED] | [DEFERRED] |
-| SBC Communications (SNET) | company | [DEFERRED] | [DEFERRED] |
-| 2Wire Inc. | company | [DEFERRED] | [DEFERRED] |
-| Ringgold Telephone Company | company | [DEFERRED] | [DEFERRED] |
+| Motorola Broadband Communications Sector | company | unknown |  |
+| Scientific Atlanta | company | unknown |  |
+| Pace Micro Technology | company | unknown |  |
+| Koninklijke Philips | company | unknown |  |
+| Thomson multimedia | company | unknown |  |
+| Netopia | company | unknown |  |
+| Time Warner Cable | company | unknown |  |
+| SBC Communications (SNET) | company | unknown |  |
+| 2Wire Inc. | company | unknown |  |
+| Ringgold Telephone Company | company | unknown |  |
 | Intel Corporation | company | active |  |
-| Broadcom Corporation | company | [DEFERRED] | [DEFERRED] |
-| ESS Technology | company | [DEFERRED] | [DEFERRED] |
-| Equator Technologies | company | [DEFERRED] | [DEFERRED] |
-| Liberate Technologies | company | [DEFERRED] | [DEFERRED] |
-| Wind River Systems | company | [DEFERRED] | [DEFERRED] |
-| Apex Digital | company | [DEFERRED] | [DEFERRED] |
+| Broadcom Corporation | company | unknown |  |
+| ESS Technology | company | unknown |  |
+| Equator Technologies | company | unknown |  |
+| Liberate Technologies | company | unknown |  |
+| Wind River Systems | company | unknown |  |
+| Apex Digital | company | unknown |  |
 | Nintendo Co., Ltd. | company | active |  |
-| Sega Corporation | company | [DEFERRED] | [DEFERRED] |
+| Sega Corporation | company | unknown |  |
 | Sony Corporation | company | active |  |
 | Microsoft Corporation | company | active |  |
 | Electronic Arts Inc. | company | active |  |
 | CableLabs | institution | active |  |
 | TiVo Inc. | company | active |  |
 | Hewlett-Packard | company | active |  |
-| AccessDTV | company | [DEFERRED] | [DEFERRED] |
+| AccessDTV | company | unknown |  |
 
 ### Technologies Referenced (25)
 

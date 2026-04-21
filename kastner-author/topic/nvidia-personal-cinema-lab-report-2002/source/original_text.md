@@ -224,8 +224,8 @@ Aberdeen Group laboratory feedback report to nVidia management on 16 hours of ha
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Prediction outcome — PCfriendly
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder
 
 **Prediction 2:** Movie Maker market weight
@@ -238,7 +238,7 @@ Aberdeen Group laboratory feedback report to nVidia management on 16 hours of ha
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | NVIDIA Corporation | company | active |  |
 | Compro Technology | company | active |  |
 | ATI Technologies | company | acquired | amd |

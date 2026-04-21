@@ -110,8 +110,8 @@ A single product positioning slide depicting MaXLine's placement in the enterpri
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Nearline/midline disk tier actual adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether dedicated nearline disk (SATA nearline) became a mainstream enterprise storage category by 2006-2010
 
 **Prediction 2:** Data Value vs. Duration as universal ILM framework
@@ -120,8 +120,8 @@ A single product positioning slide depicting MaXLine's placement in the enterpri
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Nearline/midline disk tier actual adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether dedicated nearline disk (SATA nearline) became a mainstream enterprise storage category by 2006-2010
 
 
@@ -129,7 +129,7 @@ A single product positioning slide depicting MaXLine's placement in the enterpri
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 
 ### Technologies Referenced (8)

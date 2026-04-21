@@ -4626,11 +4626,11 @@ Aberdeen Group's formal deliverable to Sun Microsystems assessing Sun's opportun
 | SAP AG | company | active |  |
 | Lotus/IBM Domino | company | acquired | IBM / HCL (2018) |
 | Navision | company | acquired | Microsoft (2002) |
-| Alltel Information Services | company | [DEFERRED] | [DEFERRED] |
-| DWL Incorporated | company | [DEFERRED] | [DEFERRED] |
-| e-Business Exchange Pte. Ltd. | company | [DEFERRED] | [DEFERRED] |
-| E3 Corporation | company | [DEFERRED] | [DEFERRED] |
-| IBM iForce | institution | [DEFERRED] | [DEFERRED] |
+| Alltel Information Services | company | unknown [REVIEW] |  |
+| DWL Incorporated | company | unknown [REVIEW] |  |
+| e-Business Exchange Pte. Ltd. | company | unknown [REVIEW] |  |
+| E3 Corporation | company | unknown [REVIEW] |  |
+| IBM iForce | institution | unknown [REVIEW] |  |
 | Cobalt Networks | company | acquired | Sun (2000) |
 
 ### Technologies Referenced (14)

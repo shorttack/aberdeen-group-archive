@@ -107,15 +107,15 @@ This study did not make forward-looking claims.
 | William Holt | person | retired |  |
 | Andy Bryant | person | retired |  |
 | Kirk Skaugen | person | active |  |
-| Rob Crooke | person | [DEFERRED] | [DEFERRED] |
-| Chuck Mulloy | person | [DEFERRED] | [DEFERRED] |
+| Rob Crooke | person | unknown |  |
+| Chuck Mulloy | person | unknown |  |
 | Justin Rattner | person | retired |  |
-| Peter Cleveland | person | [DEFERRED] | [DEFERRED] |
+| Peter Cleveland | person | unknown |  |
 | Lorie Wigle | person | active |  |
-| Karen Regis | person | [DEFERRED] | [DEFERRED] |
-| Uday Marty | person | [DEFERRED] | [DEFERRED] |
-| Erik Reid | person | [DEFERRED] | [DEFERRED] |
-| Gary Willihnganz | person | [DEFERRED] | [DEFERRED] |
+| Karen Regis | person | unknown |  |
+| Uday Marty | person | unknown |  |
+| Erik Reid | person | unknown |  |
+| Gary Willihnganz | person | unknown |  |
 
 ### Technologies Referenced (7)
 

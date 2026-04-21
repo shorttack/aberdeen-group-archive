@@ -1,7 +1,7 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
 "ibm","IBM","company","Enterprise IT Hardware/Services","active","","1911-present","ibm-messaging-workshop-report-final-9-ef7fbc","Client; sponsor of Project eLiza self-managing/self-healing architecture strategy."
 "aberdeen-group","Aberdeen Group","firm","IT Market Research","acquired","Aberdeen/Harte-Hanks","1988-present","ibm-messaging-workshop-report-final-9-ef7fbc","Authoring consulting firm; conducted positioning and messaging workshop."
-"joyce-becknell","Joyce Becknell","person","IT Market Research","[DEFERRED]","[DEFERRED]","2000s","ibm-messaging-workshop-report-final-9-ef7fbc","Aberdeen Group co-author of the workshop report."
+"joyce-becknell","Joyce Becknell","person","IT Market Research","unknown","","2000s","ibm-messaging-workshop-report-final-9-ef7fbc","Aberdeen Group co-author of the workshop report. [REVIEW]"
 "gordon-haff","Gordon Haff","person","IT Market Research","active","","1990s-present","ibm-messaging-workshop-report-final-9-ef7fbc","Aberdeen Group co-author; later technology evangelist at Red Hat."
 "peter-s-kastner","Peter S. Kastner","person","IT Market Research","active","","1988-present","ibm-messaging-workshop-report-final-9-ef7fbc","Aberdeen Group co-author of Project eLiza messaging report."
 "amazon","Amazon.com","company","E-Commerce","active","","1994-present","ibm-messaging-workshop-report-final-9-ef7fbc","Cited as exemplar of pure e-Business where computers are the business."

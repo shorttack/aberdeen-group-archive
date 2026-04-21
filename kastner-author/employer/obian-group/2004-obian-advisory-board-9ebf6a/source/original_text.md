@@ -108,24 +108,24 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Obian Group (Obian) | company | [DEFERRED] | [DEFERRED] |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Obian Group (Obian) | company | unknown [REVIEW] |  |
+| Aberdeen Group | firm | unknown [REVIEW] |  |
 | Peter S. Kastner | person | senior-vp-research-aberdeen-at-listing-date |  |
-| Barry Kadets | person | [DEFERRED] | [DEFERRED] |
-| Bob Lutz | person | [DEFERRED] | [DEFERRED] |
-| Tom McCoy | person | [DEFERRED] | [DEFERRED] |
-| Lawrence Meador | person | [DEFERRED] | [DEFERRED] |
-| Muhammad Saleh | person | [DEFERRED] | [DEFERRED] |
-| Ken Schwaber | person | [DEFERRED] | [DEFERRED] |
-| Patrick Zilvitis | person | [DEFERRED] | [DEFERRED] |
+| Barry Kadets | person | unknown [REVIEW] |  |
+| Bob Lutz | person | unknown [REVIEW] |  |
+| Tom McCoy | person | unknown [REVIEW] |  |
+| Lawrence Meador | person | unknown [REVIEW] |  |
+| Muhammad Saleh | person | unknown [REVIEW] |  |
+| Ken Schwaber | person | unknown [REVIEW] |  |
+| Patrick Zilvitis | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (4)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Obian Mitiware | application | Obian | current-at-listing | [DEFERRED] |
-| Obian SEA | application | Obian | current-at-listing | [DEFERRED] |
-| Obian Emagineering | framework | Obian | current-at-listing | [DEFERRED] |
+| Obian Mitiware | application | Obian | current-at-listing | unknown [REVIEW] |
+| Obian SEA | application | Obian | current-at-listing | unknown [REVIEW] |
+| Obian Emagineering | framework | Obian | current-at-listing | unknown [REVIEW] |
 | Sarbanes-Oxley Section 404 (IT Controls) | framework | U.S. federal law | current | current |
 
 ### Observation Summary

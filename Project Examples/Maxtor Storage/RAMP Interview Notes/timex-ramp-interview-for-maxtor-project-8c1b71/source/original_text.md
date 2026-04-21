@@ -105,9 +105,9 @@ Face-to-face RAMP interview with Robert (Bob) Lutz, Manager IT Operations at Tim
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Actual outcome: HCI/cloud as solution to tiering complexity
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
-- **Notes:** [DEFERRED] Hyperconverged infrastructure (Nutanix 2011, VMware vSAN 2014) and cloud object storage (S3) solved the 'Bob problem' by eliminating tier management entirely.
+- **Notes:** [UNVERIFIED] Hyperconverged infrastructure (Nutanix 2011, VMware vSAN 2014) and cloud object storage (S3) solved the 'Bob problem' by eliminating tier management entirely.
 
 
 ### Entities Referenced (12)
@@ -117,11 +117,11 @@ Face-to-face RAMP interview with Robert (Bob) Lutz, Manager IT Operations at Tim
 | Timex Group USA | company | active | [none] |
 | Robert Lutz (Bob Lutz) | person | active |  |
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Maxtor Corporation | company | acquired | Seagate (2006) |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | Compaq | company | dissolved | HP (2002) |
 | Oracle | company | active |  |
 | Microsoft | company | active |  |
@@ -143,7 +143,7 @@ Face-to-face RAMP interview with Robert (Bob) Lutz, Manager IT Operations at Tim
 | HP Robotic Tape Library | storage | HP | current | declining |
 | ATA (IDE) Disk / Low-Cost Disk | storage | Various | emerging | superseded-by-SATA |
 | CAD/CAM Software / Imaging | application | Various | mature | active |
-| Active Project (Imaging/Project Mgmt) | application | Various | current | [DEFERRED] |
+| Active Project (Imaging/Project Mgmt) | application | Various | current | unknown [REVIEW] |
 
 ### Observation Summary
 

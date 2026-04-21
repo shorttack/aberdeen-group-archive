@@ -489,62 +489,62 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | company | [DEFERRED] |  |
-| Jones, Katherine | person | [DEFERRED] |  |
-| Pombriant, Denis | person | [DEFERRED] |  |
-| Tanner, Dan | person | [DEFERRED] |  |
-| Minahan, Tim | person | [DEFERRED] |  |
-| Allen, Kent | person | [DEFERRED] |  |
-| Tardelli, Dana | person | [DEFERRED] |  |
-| Hoch, Michael | person | [DEFERRED] |  |
-| Hurley, Jim | person | [DEFERRED] |  |
-| Smith, Karen | person | [DEFERRED] |  |
-| Degnan, Christa | person | [DEFERRED] |  |
-| Creese, Guy | person | [DEFERRED] |  |
-| Yong, Alan | person | [DEFERRED] |  |
-| Fletcher, Chris | person | [DEFERRED] |  |
-| Claybrook, Bill | person | [DEFERRED] |  |
-| Craig, Russ | person | [DEFERRED] |  |
-| Fowkes, Darcy | person | [DEFERRED] |  |
-| Hofferberth, David | person | [DEFERRED] |  |
-| Kernochan, Wayne | person | [DEFERRED] |  |
-| Lane, Stephen | person | [DEFERRED] |  |
-| Maynard, Jack | person | [DEFERRED] |  |
-| Arkhipov, Andrei | person | [DEFERRED] |  |
-| Bishop, Hugh | person | [DEFERRED] |  |
-| Brandel, Bill | person | [DEFERRED] |  |
-| Appenzeller, Ute | person | [DEFERRED] |  |
-| Kastner, Peter | person | [DEFERRED] |  |
-| Hill, David | person | [DEFERRED] |  |
-| O'Connell, Valerie | person | [DEFERRED] |  |
-| Ro, Isaac | person | [DEFERRED] |  |
-| Howarth, Fran | person | [DEFERRED] |  |
-| Watkins, Harry | person | [DEFERRED] |  |
-| Hemmendinger, Eric | person | [DEFERRED] |  |
-| Dorin, Robert | person | [DEFERRED] |  |
-| Sloane, Tim | person | [DEFERRED] |  |
-| Moran, Bob | person | [DEFERRED] |  |
-| Peabody, George | person | [DEFERRED] |  |
-| Alschuler, David | person | [DEFERRED] |  |
-| Benett, Gordon | person | [DEFERRED] |  |
-| Lynch, Wyeth | person | [DEFERRED] |  |
-| Manter, Tom | person | [DEFERRED] |  |
-| Veytsel, Alex | person | [DEFERRED] |  |
-| Cohen, Ethan | person | [DEFERRED] |  |
-| Fantozzi, Esme | person | [DEFERRED] |  |
-| Gardner, Dana | person | [DEFERRED] |  |
-| Benett, Gordon & Pombriant, Denis | person | [DEFERRED] |  |
-| Bennett, Gordon | person | [DEFERRED] |  |
-| Bishop/Fantozzi | person | [DEFERRED] |  |
-| Bishop/Pombriant | person | [DEFERRED] |  |
-| Craig/Kastner | person | [DEFERRED] |  |
-| Dwyer, Tom | person | [DEFERRED] |  |
-| Hollerbach, Lew | person | [DEFERRED] |  |
-| Lynch/Aponovich | person | [DEFERRED] |  |
-| Minahan/Allen | person | [DEFERRED] |  |
-| Minahan/Degnan | person | [DEFERRED] |  |
-| Vigoroso, Mark | person | [DEFERRED] |  |
-| Wright, David | person | [DEFERRED] |  |
+| Aberdeen Group | company | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Jones, Katherine | person | unknown |  |
+| Pombriant, Denis | person | unknown |  |
+| Tanner, Dan | person | unknown |  |
+| Minahan, Tim | person | unknown |  |
+| Allen, Kent | person | unknown |  |
+| Tardelli, Dana | person | unknown |  |
+| Hoch, Michael | person | unknown |  |
+| Hurley, Jim | person | unknown |  |
+| Smith, Karen | person | unknown |  |
+| Degnan, Christa | person | unknown |  |
+| Creese, Guy | person | unknown |  |
+| Yong, Alan | person | unknown |  |
+| Fletcher, Chris | person | unknown |  |
+| Claybrook, Bill | person | unknown |  |
+| Craig, Russ | person | unknown |  |
+| Fowkes, Darcy | person | unknown |  |
+| Hofferberth, David | person | unknown |  |
+| Kernochan, Wayne | person | unknown |  |
+| Lane, Stephen | person | unknown |  |
+| Maynard, Jack | person | unknown |  |
+| Arkhipov, Andrei | person | unknown |  |
+| Bishop, Hugh | person | unknown |  |
+| Brandel, Bill | person | unknown |  |
+| Appenzeller, Ute | person | unknown |  |
+| Kastner, Peter | person | unknown |  |
+| Hill, David | person | unknown |  |
+| O'Connell, Valerie | person | unknown |  |
+| Ro, Isaac | person | unknown |  |
+| Howarth, Fran | person | unknown |  |
+| Watkins, Harry | person | unknown |  |
+| Hemmendinger, Eric | person | unknown |  |
+| Dorin, Robert | person | unknown |  |
+| Sloane, Tim | person | unknown |  |
+| Moran, Bob | person | unknown |  |
+| Peabody, George | person | unknown |  |
+| Alschuler, David | person | unknown |  |
+| Benett, Gordon | person | unknown |  |
+| Lynch, Wyeth | person | unknown |  |
+| Manter, Tom | person | unknown |  |
+| Veytsel, Alex | person | unknown |  |
+| Cohen, Ethan | person | unknown |  |
+| Fantozzi, Esme | person | unknown |  |
+| Gardner, Dana | person | unknown |  |
+| Benett, Gordon & Pombriant, Denis | person | unknown |  |
+| Bennett, Gordon | person | unknown |  |
+| Bishop/Fantozzi | person | unknown |  |
+| Bishop/Pombriant | person | unknown |  |
+| Craig/Kastner | person | unknown |  |
+| Dwyer, Tom | person | unknown |  |
+| Hollerbach, Lew | person | unknown |  |
+| Lynch/Aponovich | person | unknown |  |
+| Minahan/Allen | person | unknown |  |
+| Minahan/Degnan | person | unknown |  |
+| Vigoroso, Mark | person | unknown |  |
+| Wright, David | person | unknown |  |
 
 ### Technologies Referenced (0)
 

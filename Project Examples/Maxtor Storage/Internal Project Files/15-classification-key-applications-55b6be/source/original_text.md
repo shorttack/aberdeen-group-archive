@@ -63,8 +63,8 @@ A concise classification matrix mapping eight major enterprise application types
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Midline/nearline storage tier adoption
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether tiered/nearline storage became mainstream category distinct from high-performance and archive
 
 
@@ -73,8 +73,8 @@ A concise classification matrix mapping eight major enterprise application types
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
-| David Hill | person | [DEFERRED] |  |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | SAP | company | active |  |
 
 ### Technologies Referenced (10)
@@ -90,7 +90,7 @@ A concise classification matrix mapping eight major enterprise application types
 | Unique Large Files (X-ray / MRI) | application | multiple | mature | current |
 | Large File Distribution (MP3 / Video) | application | multiple | growing | current |
 | Midline Storage | storage | Maxtor | emerging | legacy |
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

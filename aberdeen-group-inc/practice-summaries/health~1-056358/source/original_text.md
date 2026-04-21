@@ -1093,13 +1093,13 @@ Aberdeen Group's 1998 survey of the Healthcare Information Systems (HIS) market,
 | 3M Health Information Systems | company | active |  |
 | MedicaLogic Inc. | company | acquired | GE Healthcare (2000) |
 | Microsoft | company | active |  |
-| Oacis Healthcare Systems | company | [DEFERRED] | [DEFERRED] |
-| Visteon Corporation | company | [DEFERRED] | [DEFERRED] |
-| Wang Healthcare Information Systems | company | [DEFERRED] | [DEFERRED] |
+| Oacis Healthcare Systems | company | unknown | unknown |
+| Visteon Corporation | company | unknown | unknown |
+| Wang Healthcare Information Systems | company | unknown | unknown |
 | Wang Laboratories | company | dissolved | Getronics |
 | Andersen Consulting | firm | renamed | Accenture (2001) |
-| Computer Sciences Corporation (CSC) | company | [DEFERRED] | [DEFERRED] |
-| National Data Corporation | company | [DEFERRED] | [DEFERRED] |
+| Computer Sciences Corporation (CSC) | company | unknown | unknown |
+| National Data Corporation | company | unknown | unknown |
 | Science Applications International Corporation (SAIC) | company | active |  |
 | Data General Corporation | company | acquired | EMC |
 | Digital Equipment Corporation | company | dissolved | Compaq (1998), HP (2002) |
@@ -1125,7 +1125,7 @@ Aberdeen Group's 1998 survey of the Healthcare Information Systems (HIS) market,
 | Legacy Mainframe Systems | platform | Various | mature | declining |
 | Patient Education Technology | application | Various | emerging | active |
 | Bar Coding | application | Various | mature | mainstream |
-| Cerner Health Network Architecture (HNA) | framework | Cerner Corporation | emerging | [DEFERRED] |
+| Cerner Health Network Architecture (HNA) | framework | Cerner Corporation | emerging | unknown |
 
 ### Observation Summary
 

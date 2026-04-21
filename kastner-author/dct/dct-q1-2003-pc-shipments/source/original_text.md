@@ -78,13 +78,13 @@ Compact worksheet summarizing Q1 2003 PC shipment statistics from IDC and Gartne
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| IDC (International Data Corporation) | firm | [DEFERRED] |  |
-| Gartner, Inc. | firm | [DEFERRED] |  |
-| Dell | company | [DEFERRED] |  |
-| Hewlett-Packard (HP) | company | [DEFERRED] |  |
-| IBM | company | [DEFERRED] | Lenovo |
-| Fujitsu Siemens Computers | company | [DEFERRED] | Fujitsu Technology Solutions |
-| Toshiba | company | [DEFERRED] |  |
+| IDC (International Data Corporation) | firm | active | International Data Corporation remains division of IDG; IDG taken private by Blackstone 2021 |
+| Gartner, Inc. | firm | active |  |
+| Dell | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard (HP) | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| IBM | company | active |  |
+| Fujitsu Siemens Computers | company | unknown | Fujitsu Technology Solutions |
+| Toshiba | company | restructured | Toshiba Corporation remains; PC division sold to Sharp 2018; memory division spun off as Kioxia 2018; taken private by JIP consortium 2023 |
 
 ### Technologies Referenced (0)
 

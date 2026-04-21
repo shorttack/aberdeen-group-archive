@@ -2213,38 +2213,38 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Alienware | company | [DEFERRED] |  |
-| Best Buy | company | [DEFERRED] | [DEFERRED] |
+| Alienware | company | acquired | Dell (2006); operates as Dell gaming subsidiary |
+| Best Buy | company | active |  |
 | Compaq | company | dissolved | HP (2002) |
 | Dell | company | active |  |
-| eMachines | company | [DEFERRED] |  |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
 | Gateway, Inc. | company | acquired | Acer (2007) |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
-| Medion AG | company | [DEFERRED] |  |
+| Medion AG | company | unknown |  |
 | Sony Corporation | company | active |  |
-| VPR Matrix (Best Buy house brand) | company | [DEFERRED] |  |
-| Alienware.com | company | [DEFERRED] |  |
-| BestBuy.com | company | [DEFERRED] |  |
-| Circuit City (stores) | company | [DEFERRED] |  |
-| CircuitCity.com | company | [DEFERRED] |  |
-| Compaq At Home (athome.compaq.com) | company | [DEFERRED] |  |
-| CompUSA | company | [DEFERRED] | [DEFERRED] |
-| Costco.com | company | [DEFERRED] |  |
-| Dell.com | company | [DEFERRED] |  |
-| eMachines.com | company | [DEFERRED] |  |
-| Fry's / Outpost.com | company | [DEFERRED] |  |
-| Gateway.com | company | [DEFERRED] |  |
-| HP Shopping | company | [DEFERRED] |  |
-| MicroCenter | company | [DEFERRED] |  |
-| Office Depot | company | [DEFERRED] |  |
-| Office Max | company | [DEFERRED] |  |
-| PC Connection | company | [DEFERRED] |  |
-| PC Mall | company | [DEFERRED] |  |
-| PCRush.com | company | [DEFERRED] |  |
-| RadioShack | company | [DEFERRED] |  |
-| Sony Style | company | [DEFERRED] |  |
-| Staples | company | [DEFERRED] |  |
-| Tech Depot | company | [DEFERRED] |  |
+| VPR Matrix (Best Buy house brand) | company | dissolved | Best Buy discontinued the VPR Matrix private-label brand ~2005 |
+| Alienware.com | company | unknown |  |
+| BestBuy.com | company | active | operates as Best Buy's e-commerce channel |
+| Circuit City (stores) | company | dissolved | Liquidated January 2009; brand revived as online-only retailer by Systemax 2016 |
+| CircuitCity.com | company | dissolved | shut down with Circuit City liquidation 2009; later revived as direct-to-consumer by Systemax 2016 |
+| Compaq At Home (athome.compaq.com) | company | unknown |  |
+| CompUSA | company | dissolved | Stores closed 2008; brand sold to Systemax/TigerDirect |
+| Costco.com | company | unknown |  |
+| Dell.com | company | active | operates as dell.com under Dell Technologies |
+| eMachines.com | company | unknown |  |
+| Fry's / Outpost.com | company | unknown |  |
+| Gateway.com | company | dissolved | www.gateway.com decommissioned after Acer acquisition; brand discontinued 2011 |
+| HP Shopping | company | active | operates as hp.com/shop under HP Inc. (post-2015 split) |
+| MicroCenter | company | unknown |  |
+| Office Depot | company | active | The ODP Corporation (renamed 2020); merged with OfficeMax 2013 |
+| Office Max | company | unknown |  |
+| PC Connection | company | unknown |  |
+| PC Mall | company | unknown |  |
+| PCRush.com | company | unknown |  |
+| RadioShack | company | dissolved | Bankruptcy 2015 and 2017; brand owned by Unicomer Group as online retailer |
+| Sony Style | company | active | operates as Sony Electronics e-commerce (sonystyle brand discontinued 2012; replaced by sony.com) |
+| Staples | company | acquired | Sycamore Partners (took private April 2017, $6.9B) |
+| Tech Depot | company | unknown |  |
 
 ### Technologies Referenced (10)
 

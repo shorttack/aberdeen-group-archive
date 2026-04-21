@@ -86,19 +86,19 @@ Internal Aberdeen memo on the Digital Consumer Electronics and Information Techn
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Caroline S. Kastner | person | active |  |
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices | company | active |  |
 | IBM | company | active |  |
 | Dell | company | active |  |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
 | Hewlett-Packard | company | active |  |
 | Compaq | company | acquired | hewlett-packard |
 | Sony | company | active |  |
-| eMachines | company | [DEFERRED] | [DEFERRED] |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
 | Best Buy | company | active |  |
-| Circuit City | company | [DEFERRED] | [DEFERRED] |
+| Circuit City | company | dissolved | Liquidated January 2009; brand revived as online-only retailer by Systemax 2016 |
 
 ### Technologies Referenced (6)
 

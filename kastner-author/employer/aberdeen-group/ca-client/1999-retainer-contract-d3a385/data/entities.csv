@@ -1,5 +1,5 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
 "peter-kastner","Peter S. Kastner","person","IT-research","active","","1969-present","1999-retainer-contract-d3a385","Signatory as Executive Vice President, Aberdeen Group."
-"herb-siegel","Herb Siegel","person","IT-research","[DEFERRED]","","1990s-2000s","1999-retainer-contract-d3a385","VP Analyst Relations at Computer Associates; proposal addressee."
+"herb-siegel","Herb Siegel","person","IT-research","unknown [REVIEW]","","1990s-2000s","1999-retainer-contract-d3a385","VP Analyst Relations at Computer Associates; proposal addressee."
 "aberdeen-group","Aberdeen Group","company","IT-research","acquired-by-harte-hanks","Harte-Hanks (2007)","1988-2007","1999-retainer-contract-d3a385","Proposer; Kastner's employer."
 "computer-associates","Computer Associates International, Inc.","company","enterprise-software","renamed","CA Technologies (2006) -> Broadcom (2018)","1976-present","1999-retainer-contract-d3a385","Proposal recipient; long-term Aberdeen client."

@@ -1482,7 +1482,7 @@ Aberdeen Group's 1998 survey of IT investments and trends in the U.S. retail sec
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Internet as retail channel — actual outcome
-- **Result:** [DEFERRED]
+- **Result:** Prediction proved accurate; e-commerce became dominant channel within 5 years.
 - **Confidence:** high
 - **Notes:** Prediction proved accurate; e-commerce became dominant channel within 5 years.
 
@@ -1515,19 +1515,19 @@ Aberdeen Group's 1998 survey of IT investments and trends in the U.S. retail sec
 | Microsoft | company | active |  |
 | Wal-Mart Stores Inc. | company | active |  |
 | Computer Sciences Corp. (CSC) | company | active |  |
-| JDA Software Group Inc. | company | [DEFERRED] | [DEFERRED] |
-| Retek Information Systems Inc. | company | [DEFERRED] | [DEFERRED] |
-| ICL Retail Systems | company | [DEFERRED] | [DEFERRED] |
-| Comshare Retail | company | [DEFERRED] | [DEFERRED] |
-| Datasym Inc. | company | [DEFERRED] | [DEFERRED] |
-| Campbell Software Inc. | company | [DEFERRED] | [DEFERRED] |
-| Hypercom Corp. | company | [DEFERRED] | [DEFERRED] |
-| HyperParallel Inc. | company | [DEFERRED] | [DEFERRED] |
-| Island Pacific Systems | company | [DEFERRED] | [DEFERRED] |
-| PREMIS Corp. | company | [DEFERRED] | [DEFERRED] |
-| Intrepid Systems | company | [DEFERRED] | [DEFERRED] |
-| E3 Associates Ltd. | company | [DEFERRED] | [DEFERRED] |
-| GERS Retail Systems | company | [DEFERRED] | [DEFERRED] |
+| JDA Software Group Inc. | company | unknown | unknown |
+| Retek Information Systems Inc. | company | unknown | unknown |
+| ICL Retail Systems | company | unknown | unknown |
+| Comshare Retail | company | unknown | unknown |
+| Datasym Inc. | company | unknown | unknown |
+| Campbell Software Inc. | company | unknown | unknown |
+| Hypercom Corp. | company | unknown | unknown |
+| HyperParallel Inc. | company | unknown | unknown |
+| Island Pacific Systems | company | unknown | unknown |
+| PREMIS Corp. | company | unknown | unknown |
+| Intrepid Systems | company | unknown | unknown |
+| E3 Associates Ltd. | company | unknown | unknown |
+| GERS Retail Systems | company | unknown | unknown |
 
 ### Technologies Referenced (13)
 

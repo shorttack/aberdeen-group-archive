@@ -1,5 +1,5 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-maxline,MaXLine ATA Disk Drives,platform,Maxtor,2002-2006,emerging,discontinued,02-sow-final-62f56d,Subject of SOW — quietly announced September 9 2002; moderately priced high-MTBF ATA drives
-ata,ATA / PATA Disk Interface,protocol,Industry Standard,1986-2003,mature,legacy,02-sow-final-62f56d,Interface technology for MaXLine drives; positioned as replacement for tape in near-line role
-san,Storage Area Network (SAN),platform,Industry Standard,1996-present,mature,active,02-sow-final-62f56d,Referenced storage infrastructure context for enterprise ATA deployment
-aberdeen-elearning,Aberdeen eLearning Division,platform,Aberdeen Group,2000s,active,[DEFERRED],02-sow-final-62f56d,Fort Collins CO division offering web-based sales and channel partner education; mentioned as optional service
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"maxline","MaXLine ATA Disk Drives","platform","Maxtor","2002-2006","emerging","discontinued","02-sow-final-62f56d","Subject of SOW — quietly announced September 9 2002; moderately priced high-MTBF ATA drives"
+"ata","ATA / PATA Disk Interface","protocol","Industry Standard","1986-2003","mature","legacy","02-sow-final-62f56d","Interface technology for MaXLine drives; positioned as replacement for tape in near-line role"
+"san","Storage Area Network (SAN)","platform","Industry Standard","1996-present","mature","active","02-sow-final-62f56d","Referenced storage infrastructure context for enterprise ATA deployment"
+"aberdeen-elearning","Aberdeen eLearning Division","platform","Aberdeen Group","2000s","active","unknown [REVIEW]","02-sow-final-62f56d","Fort Collins CO division offering web-based sales and channel partner education; mentioned as optional service"

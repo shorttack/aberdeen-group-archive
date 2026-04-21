@@ -1229,17 +1229,17 @@ Aberdeen Group's 1998 survey of the enterprise systems and network management ma
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| BMC Software | company | [DEFERRED] | [DEFERRED] |
-| Boole & Babbage Inc. | company | [DEFERRED] | [DEFERRED] |
-| Bull HN International | company | [DEFERRED] | [DEFERRED] |
-| Cabletron Systems Inc. | company | [DEFERRED] | [DEFERRED] |
-| Candle Corporation | company | [DEFERRED] | [DEFERRED] |
+| BMC Software | company | unknown | unknown |
+| Boole & Babbage Inc. | company | unknown | unknown |
+| Bull HN International | company | unknown | unknown |
+| Cabletron Systems Inc. | company | unknown | unknown |
+| Candle Corporation | company | unknown | unknown |
 | Computer Associates (CA) | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
-| IBM Tivoli | company | [DEFERRED] | ibm |
-| Landmark Systems Corporation | company | [DEFERRED] | [DEFERRED] |
-| Platinum Technology | company | [DEFERRED] | [DEFERRED] |
-| Sterling Software | company | [DEFERRED] | [DEFERRED] |
+| IBM Tivoli | company | unknown | ibm |
+| Landmark Systems Corporation | company | unknown | unknown |
+| Platinum Technology | company | unknown | unknown |
+| Sterling Software | company | unknown | unknown |
 
 ### Technologies Referenced (10)
 

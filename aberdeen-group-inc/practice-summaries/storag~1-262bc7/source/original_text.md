@@ -1374,7 +1374,7 @@ Aberdeen Group's 1998 analysis of the enterprise storage market, arguing that st
 - **Confidence at time:** high
 
 **Actual Outcome 1:** SAN/Fibre Channel mainstream — actual outcome
-- **Result:** [DEFERRED]
+- **Result:** Prediction proved accurate; Fibre Channel SAN began mainstream adoption 1999-2001.
 - **Confidence:** high
 - **Notes:** Prediction proved accurate; Fibre Channel SAN began mainstream adoption 1999-2001.
 
@@ -1399,27 +1399,27 @@ Aberdeen Group's 1998 analysis of the enterprise storage market, arguing that st
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Boole & Babbage Inc. | company | [DEFERRED] | [DEFERRED] |
+| Boole & Babbage Inc. | company | unknown | unknown |
 | Compaq | company | dissolved | HP (2002) |
-| Data General Corporation | company | [DEFERRED] | [DEFERRED] |
+| Data General Corporation | company | unknown | unknown |
 | Computer Associates (CA) | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| EMC Corporation | company | unknown | unknown |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
 | IBM | company | active |  |
-| Legato Systems | company | [DEFERRED] | [DEFERRED] |
-| Storage Technology Corporation (StorageTek) | company | [DEFERRED] | [DEFERRED] |
+| Legato Systems | company | unknown | unknown |
+| Storage Technology Corporation (StorageTek) | company | unknown | unknown |
 | Sun Microsystems | company | acquired | Oracle (2010) |
-| VERITAS Software | company | [DEFERRED] | [DEFERRED] |
+| VERITAS Software | company | unknown | unknown |
 | Seagate Technology | company | active |  |
-| Quinta Corporation | company | [DEFERRED] | [DEFERRED] |
-| Quantum Corporation | company | [DEFERRED] | [DEFERRED] |
-| Exabyte | company | [DEFERRED] | [DEFERRED] |
-| Brocade Communications | company | [DEFERRED] | [DEFERRED] |
-| Gadzoox Networks | company | [DEFERRED] | [DEFERRED] |
-| Vixel Corporation | company | [DEFERRED] | [DEFERRED] |
-| Intelliguard Software | company | [DEFERRED] | [DEFERRED] |
-| Comdisco | company | [DEFERRED] | [DEFERRED] |
-| SunGard Data Systems | company | [DEFERRED] | [DEFERRED] |
+| Quinta Corporation | company | unknown | unknown |
+| Quantum Corporation | company | unknown | unknown |
+| Exabyte | company | unknown | unknown |
+| Brocade Communications | company | unknown | unknown |
+| Gadzoox Networks | company | unknown | unknown |
+| Vixel Corporation | company | unknown | unknown |
+| Intelliguard Software | company | unknown | unknown |
+| Comdisco | company | unknown | unknown |
+| SunGard Data Systems | company | unknown | unknown |
 
 ### Technologies Referenced (13)
 

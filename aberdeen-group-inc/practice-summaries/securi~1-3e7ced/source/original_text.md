@@ -1605,7 +1605,7 @@ Aberdeen Group's 1998 overview of the enterprise information security market, si
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Standalone firewall commodity outcome
-- **Result:** [DEFERRED]
+- **Result:** Prediction proved accurate; Check Point maintained high-end while low-end commoditized.
 - **Confidence:** medium
 - **Notes:** Prediction proved accurate; Check Point maintained high-end while low-end commoditized.
 
@@ -1650,20 +1650,20 @@ Aberdeen Group's 1998 overview of the enterprise information security market, si
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Axent Technologies | company | [DEFERRED] | [DEFERRED] |
-| Bull Worldwide Systems | company | [DEFERRED] | [DEFERRED] |
+| Axent Technologies | company | unknown | unknown |
+| Bull Worldwide Systems | company | unknown | unknown |
 | Check Point Software Technologies Ltd. | company | active |  |
-| Entrust Technologies | company | [DEFERRED] | [DEFERRED] |
-| Gemplus | company | [DEFERRED] | [DEFERRED] |
+| Entrust Technologies | company | unknown | unknown |
+| Gemplus | company | unknown | unknown |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
 | IBM | company | active |  |
-| Internet Security Systems Inc. (ISS) | company | [DEFERRED] | [DEFERRED] |
+| Internet Security Systems Inc. (ISS) | company | unknown | unknown |
 | Microsoft | company | active |  |
-| Network Associates Inc. | company | [DEFERRED] | [DEFERRED] |
-| Security Dynamics Technologies Inc. | company | [DEFERRED] | [DEFERRED] |
+| Network Associates Inc. | company | unknown | unknown |
+| Security Dynamics Technologies Inc. | company | unknown | unknown |
 | Sun Microsystems | company | acquired | Oracle (2010) |
 | Symantec | company | active |  |
-| VeriSign | company | [DEFERRED] | [DEFERRED] |
+| VeriSign | company | unknown | unknown |
 
 ### Technologies Referenced (10)
 

@@ -86,15 +86,15 @@ This study did not make forward-looking claims.
 | Hewlett-Packard | company | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| Peter Blackmore | person | [DEFERRED] | [DEFERRED] |
-| Kay Hart | person | [DEFERRED] | [DEFERRED] |
-| AJ Dennis | person | [DEFERRED] | [DEFERRED] |
+| Peter Blackmore | person | unknown |  |
+| Kay Hart | person | unknown |  |
+| AJ Dennis | person | unknown |  |
 
 ### Technologies Referenced (1)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Field Sales Preparation & Education Program | framework | Aberdeen Group | emerging | [DEFERRED] |
+| Field Sales Preparation & Education Program | framework | Aberdeen Group | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

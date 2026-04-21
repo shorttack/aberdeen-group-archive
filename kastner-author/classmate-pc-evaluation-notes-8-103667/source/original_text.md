@@ -91,8 +91,8 @@ Kastner's detailed hands-on evaluation notes for the Intel Classmate PC (CMPC) â
 - **Confidence at time:** high
 
 **Actual Outcome 1:** umpc-market-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verified: netbook boom 2008-2011, Chromebook dominance in K-12 by mid-2010s.
 
 

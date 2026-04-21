@@ -277,14 +277,14 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active | [none] |
-| David Hill | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Stephen DiFranco | person | [DEFERRED] |  |
-| Mike Cordano | person | [DEFERRED] |  |
-| Joseph DeRosa | person | [DEFERRED] |  |
-| Linda Burchik | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Stephen DiFranco | person | unknown [REVIEW] |  |
+| Mike Cordano | person | unknown [REVIEW] |  |
+| Joseph DeRosa | person | unknown [REVIEW] |  |
+| Linda Burchik | person | unknown [REVIEW] |  |
 | Seagate Technology | company | active |  |
 | Western Digital | company | active |  |
 | Hitachi | company | active |  |
@@ -293,7 +293,7 @@ This study did not make forward-looking claims.
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 | Pools of Storage | framework | Maxtor/Aberdeen | emerging | superseded |
 | Midline Storage | platform | Maxtor | emerging | legacy |
 | Fibre Channel (FC) | protocol | Various | mature | active |

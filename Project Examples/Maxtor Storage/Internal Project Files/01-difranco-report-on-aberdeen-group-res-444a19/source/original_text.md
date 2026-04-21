@@ -1,6 +1,6 @@
 # Report on Aberdeen Group Research into New Category for MaXLine
 
-> Archived from: expert-opinion
+> Archived from: 01-DiFranco-Report-on-Aberdeen-Group-Research.txt
 > Original publication date: 2003-06-01
 > Author: Stephen DiFranco
 
@@ -58,21 +58,21 @@ Here are my next steps
 | date | 2003-06-01 |
 | type | market-study |
 | subject_domain | midline-storage / enterprise-storage |
-| methodology | industry-analysis |
-| source_file | expert-opinion |
-| license | 01-DiFranco-Report-on-Aberdeen-Group-Research.txt |
+| methodology | industry-analysis, expert-opinion, survey-synthesis |
+| source_file | 01-DiFranco-Report-on-Aberdeen-Group-Research.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-survey-synthesis
+DiFranco's board-level memo to Maxtor executives summarizing Aberdeen Group's commissioned research into defining 'fixed content' storage as a new category. The report argues that Aberdeen surveyed 70 Fortune 1000 companies and found sufficient market readiness to position MaXLine drives as the leading brand in an emerging midline storage category. DiFranco explicitly frames the strategy as replicating Aberdeen's CRM category creation for Siebel — with Maxtor as the anticipated category leader.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | DiFranco's board-level memo to Maxtor executives summarizing Aberdeen Group's commissioned research into defining 'fixed content' storage as a new category. The report argues that Aberdeen surveyed 70 Fortune 1000 companies and found sufficient market readiness to position MaXLine drives as the leading brand in an emerging midline storage category. DiFranco explicitly frames the strategy as replicating Aberdeen's CRM category creation for Siebel — with Maxtor as the anticipated category leader. | CC-BY-4.0 |
-| **Relevance** | high | First-person board memo articulating the complete strategic rationale for the midline storage category creation campaign — the founding document of the Aberdeen-Maxtor engagement. Directly analogous to the pre-launch strategy memo that preceded the Siebel/CRM category-creation success. |
-| **Prescience** | high | The category-creation-via-research-firm playbook described here (commission research → define category lexicon → install sponsor as category leader) remains a live strategic pattern used by vendors today. The HIPAA/SEC fixed-content compliance prediction proved accurate and is foundational to current data governance. |
+| **Importance** | high | First-person board memo articulating the complete strategic rationale for the midline storage category creation campaign — the founding document of the Aberdeen-Maxtor engagement. Directly analogous to the pre-launch strategy memo that preceded the Siebel/CRM category-creation success. |
+| **Relevance** | high | The category-creation-via-research-firm playbook described here (commission research → define category lexicon → install sponsor as category leader) remains a live strategic pattern used by vendors today. The HIPAA/SEC fixed-content compliance prediction proved accurate and is foundational to current data governance. |
+| **Prescience** | high | DiFranco predicted: (1) HIPAA and SEC regulations would require real-time-accessible fixed-content data warehouses — both proved accurate by 2004-2006; (2) mid-line as a separable storage category would be broadly adopted — confirmed by ILM and tiered-storage market development 2004-2010; (3) Aberdeen's category-creation model (analogous to CRM/Siebel) could deliver market leadership for Maxtor — partially confirmed (midline category emerged but Maxtor was acquired by Seagate before full category leadership was realised). |
 
 ### Prescience Detail
 
@@ -83,7 +83,7 @@ survey-synthesis
 - **Confidence at time:** high
 
 **Actual Outcome 1:** HIPAA fixed-content data warehouse mandate outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Actual outcome of HIPAA data retention/accessibility requirements — Phase 3 verification needed
 
@@ -93,7 +93,7 @@ survey-synthesis
 - **Confidence at time:** high
 
 **Actual Outcome 2:** HIPAA fixed-content data warehouse mandate outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Actual outcome of HIPAA data retention/accessibility requirements — Phase 3 verification needed
 
@@ -103,7 +103,7 @@ survey-synthesis
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Midline storage category emergence outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** By 2005-2007 tiered storage and ILM became mainstream enterprise concepts — Phase 3 verification needed
 
@@ -113,7 +113,7 @@ survey-synthesis
 - **Confidence at time:** high
 
 **Actual Outcome 4:** Midline storage category emergence outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** By 2005-2007 tiered storage and ILM became mainstream enterprise concepts — Phase 3 verification needed
 
@@ -123,7 +123,7 @@ survey-synthesis
 - **Confidence at time:** high
 
 **Actual Outcome 5:** HIPAA fixed-content data warehouse mandate outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** Actual outcome of HIPAA data retention/accessibility requirements — Phase 3 verification needed
 
@@ -132,11 +132,11 @@ survey-synthesis
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Stephen DiFranco | person | active |  |
 | Peter S. Kastner | person | active | [none] |
-| Siebel Systems | company | [DEFERRED] | [DEFERRED] |
+| Siebel Systems | company | unknown [REVIEW] |  |
 | Mellon Bank | company | acquired | BNY Mellon (2007) |
 | Ingersoll Rand | company | active |  |
 | Shell | company | active |  |
@@ -144,8 +144,8 @@ survey-synthesis
 | Wells Fargo | company | active |  |
 | MetLife | company | active |  |
 | Fidelity Investments | company | active |  |
-| Robert Wise | person | [DEFERRED] |  |
-| Joe (Maxtor Executive) | person | [DEFERRED] |  |
+| Robert Wise | person | unknown [REVIEW] |  |
+| Joe (Maxtor Executive) | person | unknown [REVIEW] |  |
 
 ### Technologies Referenced (6)
 

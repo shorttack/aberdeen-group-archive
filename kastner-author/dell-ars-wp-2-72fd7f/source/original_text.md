@@ -491,8 +491,8 @@ Aberdeen executive white paper (underwritten by Dell) examining the business, da
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ewaste-regulation-tightening-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder for Phase 3 verification.
 
 **Prediction 2:** pc-disposal-window-shift
@@ -509,14 +509,14 @@ Aberdeen executive white paper (underwritten by Dell) examining the business, da
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
 | U.S. Environmental Protection Agency | agency | active |  |
-| Business Software Alliance | institution | [DEFERRED] | [DEFERRED] |
+| Business Software Alliance | institution | unknown |  |
 | Intel Corporation | company | active |  |
-| Siemens Business Services | company | [DEFERRED] | [DEFERRED] |
+| Siemens Business Services | company | unknown |  |
 | European Council | institution | active |  |
 | National Safety Council | institution | active |  |
-| CIO Magazine | firm | [DEFERRED] | [DEFERRED] |
+| CIO Magazine | firm | unknown |  |
 | Massachusetts Institute of Technology | institution | active |  |
-| Enviros RIS | firm | [DEFERRED] | [DEFERRED] |
+| Enviros RIS | firm | unknown |  |
 
 ### Technologies Referenced (4)
 

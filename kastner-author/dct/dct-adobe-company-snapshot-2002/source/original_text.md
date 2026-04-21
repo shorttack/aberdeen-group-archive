@@ -64,7 +64,7 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
 | Adobe Systems Incorporated | company | active |  |
 | John Warnock | person | active |  |
 | Charles Geschke | person | active |  |

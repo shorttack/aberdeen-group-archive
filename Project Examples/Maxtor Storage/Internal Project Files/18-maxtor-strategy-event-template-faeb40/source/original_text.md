@@ -315,8 +315,8 @@ A template specification extracted from the Hardware Hawker (HH) ILM/Pools of St
 - **Confidence at time:** high
 
 **Actual Outcome 1:** TCO/ROI model adoption for storage decisions
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether cost-per-GB ROI modeling became the standard for storage migration decisions by 2010-2015
 
 
@@ -325,14 +325,14 @@ A template specification extracted from the Hardware Hawker (HH) ILM/Pools of St
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 
 ### Technologies Referenced (8)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
 | Hardware Hawker (HH) Tool | application | Aberdeen Group | emerging | discontinued |
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 | Pools of Storage (PoS) | framework | Maxtor / Aberdeen Group | emerging | discontinued |
 | Midline Storage | storage | Maxtor | emerging | legacy |
 | Nearline Disk Storage | storage | Various | emerging | current |

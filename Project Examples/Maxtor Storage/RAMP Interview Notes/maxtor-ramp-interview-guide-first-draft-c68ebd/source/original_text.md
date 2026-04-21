@@ -207,7 +207,7 @@ Structured face-to-face interview guide developed by Aberdeen Group for the Maxt
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Maxtor Corporation | company | dissolved | Seagate (2006) |
 | IBM | company | active |  |
 | Microsoft | company | active |  |

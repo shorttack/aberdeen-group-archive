@@ -1740,19 +1740,19 @@ Cisco, who will use its market presence to protect its customer base.
 | subject_domain | networking |
 | methodology | industry-analysis |
 | source_file | NETWOR~1.DOC |
-| license |  hubs |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-Aberdeen Group's 1998 practice summary covering the enterprise networking market — including LAN/WAN technologies
+Aberdeen Group's 1998 practice summary covering the enterprise networking market — including LAN/WAN technologies, hubs, routers, switches, and high-speed networking. The report profiles major networking suppliers including Cisco, 3Com, Bay Networks, and Cabletron, and identifies key market trends such as the transition from hubs to switches, the rise of Gigabit Ethernet, and the impact of Internet traffic on network design. It also addresses Year 2000 compliance concerns for network infrastructure.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** |  routers |  switches |
-| **Relevance** |  and high-speed networking. The report profiles major networking suppliers including Cisco |  3Com |
-| **Prescience** |  Bay Networks |  and Cabletron |
+| **Importance** | medium | Institutional practice-area documentation representing Aberdeen's 1998 networking market landscape; valuable for vendor coverage breadth though not groundbreaking original research. |
+| **Relevance** | medium | Core networking vendor landscape from 1998; valuable for historical context of Cisco/3Com era though specific product details are dated. |
+| **Prescience** | high | Correctly predicted switch-over-hub displacement and Gigabit Ethernet dominance; ATM desktop prediction proved inaccurate but backbone usage assessment was accurate. |
 
 ### Prescience Detail
 
@@ -1763,7 +1763,7 @@ Aberdeen Group's 1998 practice summary covering the enterprise networking market
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Router displacement by routing switches
-- **Result:** [DEFERRED]
+- **Result:** Verify actual adoption rates by 2000-2002.
 - **Confidence:** medium
 - **Notes:** Verify actual adoption rates by 2000-2002.
 
@@ -1801,7 +1801,7 @@ Aberdeen Group's 1998 practice summary covering the enterprise networking market
 | Cisco Systems | company | active |  |
 | 3Com Corporation | company | acquired | HP (2010) |
 | Bay Networks | company | acquired | Nortel Networks (1998) |
-| Cabletron Systems | company | [DEFERRED] | [DEFERRED] |
+| Cabletron Systems | company | unknown | unknown |
 | Compaq Computer Corporation | company | acquired | HP (2002) |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
 | International Business Machines Corporation | company | active |  |
@@ -1812,7 +1812,7 @@ Aberdeen Group's 1998 practice summary covering the enterprise networking market
 | Alteon Networks | company | acquired | Nortel Networks (2000) |
 | Extreme Networks | company | active |  |
 | Foundry Networks | company | acquired | Brocade (2008) |
-| Torrent Networking Technologies | company | [DEFERRED] | [DEFERRED] |
+| Torrent Networking Technologies | company | unknown | unknown |
 
 ### Technologies Referenced (13)
 

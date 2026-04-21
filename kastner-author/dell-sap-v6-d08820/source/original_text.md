@@ -126,8 +126,8 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** high
 
 **Actual Outcome 2:** unix-decline-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 **Prediction 3:** linux-mission-critical-readiness
@@ -136,8 +136,8 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** high
 
 **Actual Outcome 3:** linux-mission-critical-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 **Prediction 4:** dell-market-share-gain
@@ -146,8 +146,8 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** medium
 
 **Actual Outcome 4:** dell-market-share-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder.
 
 

@@ -437,13 +437,13 @@ This study did not make forward-looking claims.
 | Peter S. Kastner | person | active |  |
 | Institute for Supply Management (ISM) | institution | active |  |
 | Penton Media | company | acquired | Informa |
-| iSource Business | company | [DEFERRED] | [DEFERRED] |
+| iSource Business | company | unknown |  |
 | IndustryWeek | company | active |  |
 | MRO Software | company | acquired | IBM (Maximo) |
-| Scott Danish | person | [DEFERRED] | [DEFERRED] |
-| Sam Miller | person | [DEFERRED] | [DEFERRED] |
-| Brian Desmond | person | [DEFERRED] | [DEFERRED] |
-| Glen Kazerman | person | [DEFERRED] | [DEFERRED] |
+| Scott Danish | person | unknown |  |
+| Sam Miller | person | unknown |  |
+| Brian Desmond | person | unknown |  |
+| Glen Kazerman | person | unknown |  |
 
 ### Technologies Referenced (4)
 

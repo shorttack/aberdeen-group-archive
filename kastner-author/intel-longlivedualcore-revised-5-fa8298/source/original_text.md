@@ -348,8 +348,8 @@ Insight 64 analyst report by Nathan Brookwood on Intel Fall 2004 IDF. Paul Otell
 - **Confidence at time:** high
 
 **Actual Outcome 1:** intel-dual-core-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt.
 
 **Prediction 2:** bus-capacitance-risk
@@ -358,8 +358,8 @@ Insight 64 analyst report by Nathan Brookwood on Intel Fall 2004 IDF. Paul Otell
 - **Confidence at time:** high
 
 **Actual Outcome 2:** intel-dual-core-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt.
 
 
@@ -372,7 +372,7 @@ Insight 64 analyst report by Nathan Brookwood on Intel Fall 2004 IDF. Paul Otell
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices (AMD) | company | active |  |
 | Paul Otellini | person | deceased |  |
-| Bill Siu | person | [DEFERRED] | [DEFERRED] |
+| Bill Siu | person | unknown |  |
 | IBM | company | active |  |
 | Sun Microsystems | company | acquired | Oracle (2010) |
 | Hewlett-Packard | company | active |  |

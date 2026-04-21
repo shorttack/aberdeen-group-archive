@@ -441,8 +441,8 @@ David Hill's Fall 2002 presentation establishing Aberdeen Group's analytical fra
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Tape survival in storage hierarchy
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Tape did survive; LTO tape still active for deep archive in 2024
 
 **Prediction 2:** Cost-effective disk role expansion
@@ -451,8 +451,8 @@ David Hill's Fall 2002 presentation establishing Aberdeen Group's analytical fra
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Cost-effective disk role expansion
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** SATA drives did dominate nearline/midline storage through 2010s; largely confirmed
 
 
@@ -461,7 +461,7 @@ David Hill's Fall 2002 presentation establishing Aberdeen Group's analytical fra
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | EMC Corporation | company | acquired | Dell |
 | Data General | company | acquired | EMC |
 

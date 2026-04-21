@@ -79,8 +79,8 @@ Draft fragment from Katherine Jones to Tom Dwyer revising a section on middlewar
 - **Confidence at time:** high
 
 **Actual Outcome 1:** integrator-viability-actual
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Portera did fail as predicted — assets sold to Journyx around 2004.
 
 **Prediction 2:** xml-eases-integration
@@ -89,8 +89,8 @@ Draft fragment from Katherine Jones to Tom Dwyer revising a section on middlewar
 - **Confidence at time:** high
 
 **Actual Outcome 2:** xml-actual-outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** XML/SOA/REST APIs did emerge as dominant integration layer.
 
 
@@ -99,7 +99,7 @@ Draft fragment from Katherine Jones to Tom Dwyer revising a section on middlewar
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Katherine Jones (Aberdeen Group) | person | retired |  |
-| Tom Dwyer | person | [DEFERRED] | [DEFERRED] |
+| Tom Dwyer | person | unknown |  |
 | Aberdeen Group, Inc. | firm | acquired | Harte-Hanks (2007) |
 | Oracle Corporation | company | active |  |
 | PeopleSoft Inc. | company | acquired | Oracle (2005) |

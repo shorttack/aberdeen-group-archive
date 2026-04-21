@@ -616,9 +616,9 @@ Final 38-slide RAMP results presentation by Peter Kastner and David Hill for Max
 - **Confidence at time:** high
 
 **Actual Outcome 3:** Actual outcome: disk-based backup market growth
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
-- **Notes:** [DEFERRED] Confirmed: Quantum, EMC, HP, IBM all built major VTL and D2D backup product lines 2004-2010; market reached multi-billion scale.
+- **Notes:** [UNVERIFIED] Confirmed: Quantum, EMC, HP, IBM all built major VTL and D2D backup product lines 2004-2010; market reached multi-billion scale.
 
 **Prediction 4:** ISV partnership required for storage migration policy management
 - **Claimed:** Copy/restore disk tier requires concerted work with software ISVs: policy management for migration; NTE today's backup/copy admin labor
@@ -626,9 +626,9 @@ Final 38-slide RAMP results presentation by Peter Kastner and David Hill for Max
 - **Confidence at time:** high
 
 **Actual Outcome 4:** Actual outcome: ILM/storage policy software market
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
-- **Notes:** [DEFERRED] Confirmed: Symantec/Veritas, CommVault, IBM TSM, NetApp all built storage tiering policy engines; requirement was exactly as predicted.
+- **Notes:** [UNVERIFIED] Confirmed: Symantec/Veritas, CommVault, IBM TSM, NetApp all built storage tiering policy engines; requirement was exactly as predicted.
 
 
 ### Entities Referenced (30)
@@ -636,7 +636,7 @@ Final 38-slide RAMP results presentation by Peter Kastner and David Hill for Max
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Maxtor Corporation | company | acquired | Seagate (2006) |
 | Western Digital | company | active |  |

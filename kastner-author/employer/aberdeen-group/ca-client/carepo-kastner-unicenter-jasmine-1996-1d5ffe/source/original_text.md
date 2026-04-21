@@ -135,14 +135,14 @@ Letter-form report from Peter S. Kastner (Group Vice President, Aberdeen Group) 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active | [none] |
-| David M. Hood | person | [DEFERRED] | [DEFERRED] |
+| David M. Hood | person | unknown [REVIEW] |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Computer Associates International | company | acquired | CA Technologies / Broadcom (2018) |
-| Charles Wang | person | [DEFERRED] | [DEFERRED] |
-| Louis V. Gerstner Jr. | person | [DEFERRED] | [DEFERRED] |
+| Charles Wang | person | unknown [REVIEW] |  |
+| Louis V. Gerstner Jr. | person | unknown [REVIEW] |  |
 | IBM | company | active |  |
 | Tivoli Systems | company | acquired | IBM (1996) |
-| IBM Tivoli | company | [DEFERRED] | ibm |
+| IBM Tivoli | company | unknown [REVIEW] | ibm |
 | SAP AG | company | active |  |
 | Microsoft | company | active |  |
 | Hewlett-Packard | company | split | HP Inc. / HPE (2015) |
@@ -151,7 +151,7 @@ Letter-form report from Peter S. Kastner (Group Vice President, Aberdeen Group) 
 | Digital Equipment Corporation | company | acquired | Compaq (1998) / HP (2002) |
 | NCR Corporation | company | active |  |
 | Big 6 Accounting/SI Firms | institution | transformed | Big 4 / merged |
-| CA Emerald Team | institution | [DEFERRED] | [DEFERRED] |
+| CA Emerald Team | institution | unknown [REVIEW] |  |
 
 ### Technologies Referenced (8)
 

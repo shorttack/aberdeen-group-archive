@@ -635,7 +635,7 @@ An Aberdeen Group executive white paper published in May 2002 arguing that Infin
 - **Confidence at time:** high
 
 **Actual Outcome 1:** IBA enterprise adoption — actual outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** IBA became dominant HPC interconnect (>70% TOP500 by 2010s) but did not broadly replace PCI-X in general enterprise; became critical for AI/ML training and HPC.
 
@@ -655,7 +655,7 @@ An Aberdeen Group executive white paper published in May 2002 arguing that Infin
 - **Confidence at time:** high
 
 **Actual Outcome 3:** IBA enterprise adoption — actual outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** IBA became dominant HPC interconnect (>70% TOP500 by 2010s) but did not broadly replace PCI-X in general enterprise; became critical for AI/ML training and HPC.
 
@@ -665,7 +665,7 @@ An Aberdeen Group executive white paper published in May 2002 arguing that Infin
 - **Confidence at time:** high
 
 **Actual Outcome 4:** IBA enterprise adoption — actual outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** medium
 - **Notes:** IBA became dominant HPC interconnect (>70% TOP500 by 2010s) but did not broadly replace PCI-X in general enterprise; became critical for AI/ML training and HPC.
 
@@ -688,8 +688,8 @@ An Aberdeen Group executive white paper published in May 2002 arguing that Infin
 | QLogic | company | acquired | Cavium (2016) |
 | Voltaire | company | acquired | Mellanox Technologies (2011) |
 | Mellanox Technologies | company | acquired | NVIDIA (2020) |
-| InfiniSwitch | company | acquired | [DEFERRED] |
-| InfiniCon Systems | company | acquired | [DEFERRED] |
+| InfiniSwitch | company | acquired |  |
+| InfiniCon Systems | company | acquired |  |
 | Emulex Corporation | company | acquired | Avago/Broadcom (2017) |
 | Agilent Technologies | company | split | Keysight (2014) |
 | Unisys Corporation | company | active |  |

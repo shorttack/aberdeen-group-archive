@@ -190,7 +190,7 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| Herb Siegel | person | [DEFERRED] |  |
+| Herb Siegel | person | unknown [REVIEW] |  |
 | Aberdeen Group | company | acquired-by-harte-hanks | Harte-Hanks (2007) |
 | Computer Associates International, Inc. | company | renamed | CA Technologies (2006) -> Broadcom (2018) |
 

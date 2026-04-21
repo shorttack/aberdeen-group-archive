@@ -108,8 +108,8 @@ Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc.
 - **Confidence at time:** high
 
 **Actual Outcome 1:** multicore-2005-delivery
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify.
 
 **Prediction 2:** uwb-analyst-push-2005
@@ -118,8 +118,8 @@ Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc.
 - **Confidence at time:** medium
 
 **Actual Outcome 2:** multicore-2005-delivery
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify.
 
 
@@ -128,9 +128,9 @@ Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Intel Corporation | company | active |  |
-| Vericours, Inc. | firm | [DEFERRED] | [DEFERRED] |
+| Vericours, Inc. | firm | unknown |  |
 | Peter S. Kastner | person | active |  |
-| Liz Ryon | person | [DEFERRED] | [DEFERRED] |
+| Liz Ryon | person | unknown |  |
 | Craig Barrett | person | active |  |
 | Sean Maloney | person | active |  |
 | Justin Rattner | person | active |  |

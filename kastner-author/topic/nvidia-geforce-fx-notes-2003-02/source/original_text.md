@@ -98,8 +98,8 @@ Briefing notes from an nVidia product-line meeting with Brian Burke and Todd Red
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** NV30 outcome
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Placeholder — NV30 actually disappointed vs ATI 9700; quickly refreshed to NV35
 
 

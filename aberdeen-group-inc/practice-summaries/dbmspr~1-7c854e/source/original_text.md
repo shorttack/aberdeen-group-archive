@@ -1861,26 +1861,26 @@ Aberdeen Group's 1998 practice summary on the Database Management Systems (DBMS)
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Oracle Corporation | company | active |  |
 | IBM Corporation | company | active |  |
-| Informix Software Inc. | company | dissolved | [DEFERRED] |
-| Sybase Inc. | company | dissolved | [DEFERRED] |
+| Informix Software Inc. | company | dissolved | unknown |
+| Sybase Inc. | company | dissolved | unknown |
 | Microsoft Corporation | company | active |  |
-| Computer Associates | company | dissolved | [DEFERRED] |
+| Computer Associates | company | dissolved | unknown |
 | Progress Software | company | active |  |
-| Object Design Inc. | company | dissolved | [DEFERRED] |
-| Versant Object Technology Corporation | company | dissolved | [DEFERRED] |
+| Object Design Inc. | company | dissolved | unknown |
+| Versant Object Technology Corporation | company | dissolved | unknown |
 | InterSystems Corporation | company | active |  |
-| Ardent Software Inc. | company | dissolved | [DEFERRED] |
-| POET Software | company | dissolved | [DEFERRED] |
-| GemStone Systems Inc. | company | dissolved | [DEFERRED] |
-| Objectivity Inc. | company | [DEFERRED] | [DEFERRED] |
-| Pervasive Software Inc. | company | dissolved | [DEFERRED] |
-| Centura Software Corporation | company | dissolved | [DEFERRED] |
-| InterBase Software Corporation | company | dissolved | [DEFERRED] |
-| Extended Systems Inc. | company | dissolved | [DEFERRED] |
-| Cloudscape Inc. | company | dissolved | [DEFERRED] |
-| Baan | company | dissolved | [DEFERRED] |
+| Ardent Software Inc. | company | dissolved | unknown |
+| POET Software | company | dissolved | unknown |
+| GemStone Systems Inc. | company | dissolved | unknown |
+| Objectivity Inc. | company | unknown | unknown |
+| Pervasive Software Inc. | company | dissolved | unknown |
+| Centura Software Corporation | company | dissolved | unknown |
+| InterBase Software Corporation | company | dissolved | unknown |
+| Extended Systems Inc. | company | dissolved | unknown |
+| Cloudscape Inc. | company | dissolved | unknown |
+| Baan | company | dissolved | unknown |
 | SAP | company | active |  |
-| PeopleSoft | company | dissolved | [DEFERRED] |
+| PeopleSoft | company | dissolved | unknown |
 
 ### Technologies Referenced (22)
 

@@ -81,9 +81,9 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Fujitsu | company | [DEFERRED] |  |
-| NVIDIA | company | [DEFERRED] |  |
-| ATI Technologies | company | [DEFERRED] | AMD (2006 acquisition) |
+| Fujitsu | company | active | Fujitsu Limited; PC business sold to Lenovo JV 2018 |
+| NVIDIA | company | active |  |
+| ATI Technologies | company | unknown | AMD (2006 acquisition) |
 
 ### Technologies Referenced (7)
 

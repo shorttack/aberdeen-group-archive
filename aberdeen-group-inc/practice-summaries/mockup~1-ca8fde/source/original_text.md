@@ -246,11 +246,11 @@ A draft/skeleton version of Aberdeen Group's Network Operating Systems (NOS) 199
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | company | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
-| IBM Corporation | company | active | [DEFERRED] |
-| Microsoft Corporation | company | active | [DEFERRED] |
-| Novell Inc. | company | [DEFERRED] | [DEFERRED] |
-| Banyan Systems | company | [DEFERRED] | [DEFERRED] |
-| Digital Equipment Corporation (DEC) | company | [DEFERRED] | [DEFERRED] |
+| IBM Corporation | company | active | N/A (active) |
+| Microsoft Corporation | company | active | N/A (active) |
+| Novell Inc. | company | unknown | unknown |
+| Banyan Systems | company | unknown | unknown |
+| Digital Equipment Corporation (DEC) | company | unknown | unknown |
 
 ### Technologies Referenced (5)
 

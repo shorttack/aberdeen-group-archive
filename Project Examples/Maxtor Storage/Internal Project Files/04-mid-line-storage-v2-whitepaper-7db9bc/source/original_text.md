@@ -1,6 +1,6 @@
 # Mid-Line Disk Storage Emerging As Significant Cost-Saving Opportunity
 
-> Archived from: industry-analysis
+> Archived from: 04-Mid-Line-Storage-V2-WhitePaper.txt
 > Original publication date: 2003-08-01
 > Author: Aberdeen Group
 
@@ -565,21 +565,21 @@ the mid-line storage tier.
 | date | 2003-08-01 |
 | type | white-paper |
 | subject_domain | midline-storage / enterprise-storage / ILM |
-| methodology | primary-research |
-| source_file | industry-analysis |
-| license | Aberdeen Group's Executive White Paper presenting the case for a new 'mid-line' disk storage tier using ATA technology positioned between high-performance FC/SCSI disk arrays and tape. Based on 75 face-to-face and telephone interviews with Fortune-class storage managers. The paper defines four tiers of the storage pyramid (high-performance disk / mid-line / near-line / tape) and argues that mid-line ATA disk can serve at least 20% of enterprise data — and potentially over half — at 50% lower cost per gigabyte. It also introduces information lifecycle management (ILM) as the strategic framework for multi-tier storage. |
+| methodology | primary-research,industry-analysis |
+| source_file | 04-Mid-Line-Storage-V2-WhitePaper.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-04-Mid-Line-Storage-V2-WhitePaper.txt
+Aberdeen Group's Executive White Paper presenting the case for a new 'mid-line' disk storage tier using ATA technology positioned between high-performance FC/SCSI disk arrays and tape. Based on 75 face-to-face and telephone interviews with Fortune-class storage managers. The paper defines four tiers of the storage pyramid (high-performance disk / mid-line / near-line / tape) and argues that mid-line ATA disk can serve at least 20% of enterprise data — and potentially over half — at 50% lower cost per gigabyte. It also introduces information lifecycle management (ILM) as the strategic framework for multi-tier storage.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | high |
-| **Relevance** | The published deliverable of the Aberdeen-Maxtor SOW engagement — the formal launch artifact of the midline storage category. Aberdeen's first major published articulation of the mid-line tier concept backed by 75 enterprise interviews. This white paper is the intellectual foundation of the broader Pools of Storage program. | high |
-| **Prescience** | ILM tiered storage and the concept of aligning data to cost-appropriate storage based on access patterns remain current enterprise architecture principles. The white paper's four ILM principles (Aging/Freezing/Accumulation/Redundancy) are still analytically valid. ATA-based midline storage is now the standard (SATA SSDs and HDDs dominate secondary tiers). | high |
+| **Importance** | high | The published deliverable of the Aberdeen-Maxtor SOW engagement — the formal launch artifact of the midline storage category. Aberdeen's first major published articulation of the mid-line tier concept backed by 75 enterprise interviews. This white paper is the intellectual foundation of the broader Pools of Storage program. |
+| **Relevance** | high | ILM tiered storage and the concept of aligning data to cost-appropriate storage based on access patterns remain current enterprise architecture principles. The white paper's four ILM principles (Aging/Freezing/Accumulation/Redundancy) are still analytically valid. ATA-based midline storage is now the standard (SATA SSDs and HDDs dominate secondary tiers). |
+| **Prescience** | high |  |
 
 ### Prescience Detail
 
@@ -590,7 +590,7 @@ the mid-line storage tier.
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Mid-line storage adoption by 2007
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA-based storage became dominant in secondary storage by 2006-2008 — Phase 3 verification of timing
 
@@ -600,7 +600,7 @@ the mid-line storage tier.
 - **Confidence at time:** high
 
 **Actual Outcome 2:** ILM adoption as standard enterprise planning
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** ILM became a dominant storage concept 2004-2008 — Phase 3 verification of depth and timeline
 
@@ -610,7 +610,7 @@ the mid-line storage tier.
 - **Confidence at time:** medium
 
 **Actual Outcome 3:** Mid-line storage adoption by 2007
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA-based storage became dominant in secondary storage by 2006-2008 — Phase 3 verification of timing
 
@@ -620,7 +620,7 @@ the mid-line storage tier.
 - **Confidence at time:** high
 
 **Actual Outcome 4:** Mid-line storage adoption by 2007
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA-based storage became dominant in secondary storage by 2006-2008 — Phase 3 verification of timing
 
@@ -630,7 +630,7 @@ the mid-line storage tier.
 - **Confidence at time:** medium
 
 **Actual Outcome 5:** Mid-line storage adoption by 2007
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA-based storage became dominant in secondary storage by 2006-2008 — Phase 3 verification of timing
 
@@ -640,7 +640,7 @@ the mid-line storage tier.
 - **Confidence at time:** medium
 
 **Actual Outcome 6:** CDP adoption outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** Phase 3 verification — CDP adopted by NetApp EMC and others as mainstream feature by 2006-2008
 
@@ -650,7 +650,7 @@ the mid-line storage tier.
 - **Confidence at time:** high
 
 **Actual Outcome 7:** Mid-line storage adoption by 2007
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA-based storage became dominant in secondary storage by 2006-2008 — Phase 3 verification of timing
 
@@ -660,7 +660,7 @@ the mid-line storage tier.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 
 ### Technologies Referenced (10)
 
@@ -672,9 +672,9 @@ the mid-line storage tier.
 | SCSI Disk Interface | protocol | Industry Standard | mature | legacy |
 | Storage Area Network (SAN) | platform | Industry Standard | mature | active |
 | Network-Attached Storage (NAS) | platform | Industry Standard | mature | active |
-| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | unknown [REVIEW] |
 | RAID (Redundant Array of Independent Disks) | protocol | Industry Standard | mature | legacy-supported |
-| Continuous Data Protection (CDP) | framework | Industry Standard | emerging | [DEFERRED] |
+| Continuous Data Protection (CDP) | framework | Industry Standard | emerging | unknown [REVIEW] |
 | Solid-State Disk (SSD) | platform | Industry Standard | niche | active |
 
 ### Observation Summary

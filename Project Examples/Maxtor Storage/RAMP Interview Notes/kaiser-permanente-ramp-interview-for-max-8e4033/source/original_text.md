@@ -105,10 +105,10 @@ Face-to-face RAMP interview with Harvey Sietsema Jr., Applications Programming M
 | Kaiser Permanente | company | active |  |
 | Kaiser Foundation Health Plan Inc. | company | active | Part of Kaiser Permanente |
 | Harvey Sietsema Jr. | person | active |  |
-| Epoch (Epic precursor / clinical information system) | company | [DEFERRED] | [DEFERRED] |
+| Epoch (Epic precursor / clinical information system) | company | unknown [REVIEW] |  |
 | Epic Systems Corporation | company | active |  |
 | IBM | company | active |  |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active |  |
 | David Hill | person | active |  |
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |

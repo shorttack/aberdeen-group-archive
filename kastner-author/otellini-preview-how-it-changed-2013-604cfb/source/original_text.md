@@ -283,7 +283,7 @@ This study did not make forward-looking claims.
 | Paul S. Otellini | person | deceased |  |
 | Intel Corporation | company | active |  |
 | Advanced Micro Devices | company | active |  |
-| Peter S. Kastner on Technology (Blog) | institution | [DEFERRED] | [DEFERRED] |
+| Peter S. Kastner on Technology (Blog) | institution | unknown |  |
 
 ### Technologies Referenced (5)
 

@@ -2220,36 +2220,36 @@ Aberdeen Group's 1998 practice summary covering the Customer Interaction Softwar
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
 | Siebel Systems | company | dissolved | Oracle (acquired 2006) |
 | Scopus Technology | company | dissolved | Siebel Systems (merged ~1998) |
-| The Vantive Corporation | company | dissolved | [DEFERRED] |
-| Clarify Inc. | company | dissolved | [DEFERRED] |
-| Remedy Corporation | company | dissolved | [DEFERRED] |
+| The Vantive Corporation | company | dissolved | unknown |
+| Clarify Inc. | company | dissolved | unknown |
+| Remedy Corporation | company | dissolved | unknown |
 | Oracle Corporation | company | active |  |
 | SAP America | company | active |  |
-| Baan Company | company | dissolved | [DEFERRED] |
-| Peregrine Systems Inc. | company | dissolved | [DEFERRED] |
-| Applix Inc. | company | dissolved | [DEFERRED] |
-| Astea International Inc. | company | dissolved | [DEFERRED] |
+| Baan Company | company | dissolved | unknown |
+| Peregrine Systems Inc. | company | dissolved | unknown |
+| Applix Inc. | company | dissolved | unknown |
+| Astea International Inc. | company | dissolved | unknown |
 | Aurum Software | company | dissolved | Baan (acquired May 1997) |
-| Network Associates | company | dissolved | [DEFERRED] |
-| Quintus Corporation | company | dissolved | [DEFERRED] |
-| Silknet Software Inc. | company | dissolved | [DEFERRED] |
+| Network Associates | company | dissolved | unknown |
+| Quintus Corporation | company | dissolved | unknown |
+| Silknet Software Inc. | company | dissolved | unknown |
 | Tivoli Systems Inc. (formerly Software Artistry) | company | dissolved | IBM (acquired) |
-| Great Plains Software Inc. | company | dissolved | [DEFERRED] |
-| Pivotal Software Inc. | company | dissolved | [DEFERRED] |
-| SalesLogix Corporation | company | dissolved | [DEFERRED] |
-| Informix Software | company | dissolved | [DEFERRED] |
+| Great Plains Software Inc. | company | dissolved | unknown |
+| Pivotal Software Inc. | company | dissolved | unknown |
+| SalesLogix Corporation | company | dissolved | unknown |
+| Informix Software | company | dissolved | unknown |
 | Microsoft Corporation | company | active |  |
-| Calico Technology Inc. | company | dissolved | [DEFERRED] |
+| Calico Technology Inc. | company | dissolved | unknown |
 | Pegasystems Inc. | company | active |  |
-| CrossWorlds Software | company | dissolved | [DEFERRED] |
+| CrossWorlds Software | company | dissolved | unknown |
 | Intel Corporation | company | active |  |
-| royalblue technologies | company | dissolved | [DEFERRED] |
-| Platinum Software Corporation | company | dissolved | [DEFERRED] |
-| GWI Software | company | dissolved | [DEFERRED] |
-| Inference Corporation | company | dissolved | [DEFERRED] |
-| ServiceSoft Corporation | company | dissolved | [DEFERRED] |
-| ServiceWare Inc. | company | dissolved | [DEFERRED] |
-| Metrix Inc. | company | dissolved | [DEFERRED] |
+| royalblue technologies | company | dissolved | unknown |
+| Platinum Software Corporation | company | dissolved | unknown |
+| GWI Software | company | dissolved | unknown |
+| Inference Corporation | company | dissolved | unknown |
+| ServiceSoft Corporation | company | dissolved | unknown |
+| ServiceWare Inc. | company | dissolved | unknown |
+| Metrix Inc. | company | dissolved | unknown |
 
 ### Technologies Referenced (15)
 

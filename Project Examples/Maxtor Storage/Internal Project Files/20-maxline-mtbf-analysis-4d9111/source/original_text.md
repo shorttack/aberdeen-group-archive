@@ -80,8 +80,8 @@ A quantitative benchmark analysis comparing the system-level Mean Time Between F
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Adoption of system MTBF per TB metric in storage purchasing
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether system-level reliability per TB became the standard framing for SATA vs FC drive debates
 
 **Prediction 2:** MaXLine competitive position against FC on reliability
@@ -90,8 +90,8 @@ A quantitative benchmark analysis comparing the system-level Mean Time Between F
 - **Confidence at time:** high
 
 **Actual Outcome 2:** Adoption of system MTBF per TB metric in storage purchasing
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Deferred: verify whether system-level reliability per TB became the standard framing for SATA vs FC drive debates
 
 
@@ -100,7 +100,7 @@ A quantitative benchmark analysis comparing the system-level Mean Time Between F
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 
 ### Technologies Referenced (5)
 

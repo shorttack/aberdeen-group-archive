@@ -109,8 +109,8 @@ Working document containing financial formulas and a detailed business case for 
 - **Confidence at time:** high
 
 **Actual Outcome 1:** Midline cost advantage verification
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** SATA enterprise pricing relative to FC/SCSI to be verified
 
 
@@ -119,9 +119,9 @@ Working document containing financial formulas and a detailed business case for 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| David Hill | person | [DEFERRED] |  |
+| David Hill | person | unknown [REVIEW] |  |
 | EMC Corporation | company | acquired | Dell |
-| Hitachi Data Systems | company | [DEFERRED] | Western Digital |
+| Hitachi Data Systems | company | unknown [REVIEW] | Western Digital |
 
 ### Technologies Referenced (5)
 

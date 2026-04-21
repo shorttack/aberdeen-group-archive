@@ -181,8 +181,8 @@ Project kickoff document for Aberdeen Group's Phase 2 engagement with Maxtor Cor
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** Serial Storage in a Box result
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Outcome of Serial Storage in a Box prediction
 
 **Prediction 2:** Misperception risk of Pools of Storage
@@ -191,8 +191,8 @@ Project kickoff document for Aberdeen Group's Phase 2 engagement with Maxtor Cor
 - **Confidence at time:** medium
 
 **Actual Outcome 2:** Serial Storage in a Box result
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Outcome of Serial Storage in a Box prediction
 
 **Prediction 3:** Serial Storage in a Box positioning
@@ -201,8 +201,8 @@ Project kickoff document for Aberdeen Group's Phase 2 engagement with Maxtor Cor
 - **Confidence at time:** medium
 
 **Actual Outcome 3:** Serial Storage in a Box result
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Outcome of Serial Storage in a Box prediction
 
 
@@ -211,22 +211,22 @@ Project kickoff document for Aberdeen Group's Phase 2 engagement with Maxtor Cor
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Aberdeen/Harte-Hanks |
-| Maxtor Corporation | company | [DEFERRED] | [DEFERRED] |
+| Maxtor Corporation | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active | [none] |
-| David Hill | person | [DEFERRED] |  |
-| Stan Elbaum | person | [DEFERRED] |  |
-| John Boyne | person | [DEFERRED] |  |
-| Kerri Conrad | person | [DEFERRED] |  |
-| Jay Erikson | person | [DEFERRED] |  |
-| Brian Sommer | person | [DEFERRED] |  |
-| Sandra Tubbs | person | [DEFERRED] |  |
-| Storage Networking Industry Association (SNIA) | institution | [DEFERRED] | [DEFERRED] |
+| David Hill | person | unknown [REVIEW] |  |
+| Stan Elbaum | person | unknown [REVIEW] |  |
+| John Boyne | person | unknown [REVIEW] |  |
+| Kerri Conrad | person | unknown [REVIEW] |  |
+| Jay Erikson | person | unknown [REVIEW] |  |
+| Brian Sommer | person | unknown [REVIEW] |  |
+| Sandra Tubbs | person | unknown [REVIEW] |  |
+| Storage Networking Industry Association (SNIA) | institution | unknown [REVIEW] |  |
 
 ### Technologies Referenced (6)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Information Lifecycle Management (ILM) | framework | Various | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Various | emerging | unknown [REVIEW] |
 | Pools of Storage | framework | Maxtor/Aberdeen | emerging | superseded |
 | Midline Storage | platform | Maxtor | emerging | legacy |
 | Serial ATA (SATA) | hardware | Various | emerging | active |

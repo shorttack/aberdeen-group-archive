@@ -96,7 +96,7 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Advanced Micro Devices (AMD) | company | [DEFERRED] |  |
+| Advanced Micro Devices (AMD) | company | active |  |
 
 ### Technologies Referenced (6)
 

@@ -1749,25 +1749,25 @@ A 1998 practice summary analyzing the market for professional services supportin
 | Microsoft Corporation | company | active |  |
 | Oracle Corporation | company | active |  |
 | SAP America Inc. | company | active |  |
-| Cambridge Technology Partners (CTP) | company | acquired | [DEFERRED] |
-| Electronic Data Systems (EDS) | company | acquired | [DEFERRED] |
-| GE Information Services (GEIS) | company | acquired | [DEFERRED] |
-| Sterling Commerce Inc. | company | acquired | [DEFERRED] |
-| Harbinger Corporation | company | acquired | [DEFERRED] |
+| Cambridge Technology Partners (CTP) | company | acquired | unknown |
+| Electronic Data Systems (EDS) | company | acquired | unknown |
+| GE Information Services (GEIS) | company | acquired | unknown |
+| Sterling Commerce Inc. | company | acquired | unknown |
+| Harbinger Corporation | company | acquired | unknown |
 | Tandem Computers | company | acquired | Compaq (1997) |
 | Compaq | company | dissolved | HP (2002) |
 | Pandesic LLC | company | dissolved |  |
 | Intel Corporation | company | active |  |
-| A.T. Kearney | firm | acquired | [DEFERRED] |
-| Baan | company | acquired | [DEFERRED] |
-| PeopleSoft | company | [DEFERRED] | [DEFERRED] |
-| InterWorld Technology Corporation | company | acquired | [DEFERRED] |
+| A.T. Kearney | firm | acquired | unknown |
+| Baan | company | acquired | unknown |
+| PeopleSoft | company | unknown | unknown |
+| InterWorld Technology Corporation | company | acquired | unknown |
 | CyberCash Inc. | company | dissolved |  |
 | VeriFone Inc. | company | acquired | Hewlett-Packard (1997) |
 | First Virtual Holdings | company | dissolved |  |
 | DigiCash Inc. | company | dissolved |  |
 | Amazon.com | company | active |  |
-| CDNow | company | acquired | [DEFERRED] |
+| CDNow | company | acquired | unknown |
 | Barnes and Noble | company | active |  |
 | Tower Records | company | dissolved |  |
 | World Bank | institution | active |  |

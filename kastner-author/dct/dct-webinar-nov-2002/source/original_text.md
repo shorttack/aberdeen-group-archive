@@ -591,9 +591,9 @@ Presentation slides from Aberdeen Group's November 1, 2002 DCT webinar. Three de
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Russ Craig | person | [DEFERRED] | [DEFERRED] |
-| Peter S. Kastner | person | [DEFERRED] | [DEFERRED] |
-| Isaac Ro | person | [DEFERRED] | [DEFERRED] |
+| Russ Craig | person | unknown |  |
+| Peter S. Kastner | person | unknown |  |
+| Isaac Ro | person | unknown |  |
 | Aberdeen Group | firm | dissolved | Harte-Hanks then Spiceworks Ziff Davis |
 | Hewlett-Packard | company | active |  |
 | Intel Corporation | company | active |  |

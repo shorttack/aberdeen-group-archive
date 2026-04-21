@@ -89,7 +89,7 @@ It's getting on to February. Intel has not changed microprocessor prices since N
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -104,41 +104,41 @@ It's getting on to February. Intel has not changed microprocessor prices since N
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| BestBuy.com | company | [DEFERRED] | [DEFERRED] |
-| Circuit City (stores) | company | [DEFERRED] | [DEFERRED] |
-| CompUSA | company | [DEFERRED] | [DEFERRED] |
-| Walmart Supercenter | company | [DEFERRED] | [DEFERRED] |
-| Dell Computer | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Compaq Computer | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Sony | company | [DEFERRED] | [DEFERRED] |
-| Alienware | company | [DEFERRED] | [DEFERRED] |
-| eMachines | company | [DEFERRED] | [DEFERRED] |
-| VPR Matrix | company | [DEFERRED] | [DEFERRED] |
-| ViewSonic | company | [DEFERRED] | [DEFERRED] |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
-| Advanced Micro Devices | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Best Buy (stores) | company | [DEFERRED] | [DEFERRED] |
+| BestBuy.com | company | active | operates as Best Buy's e-commerce channel |
+| Circuit City (stores) | company | dissolved | Liquidated January 2009; brand revived as online-only retailer by Systemax 2016 |
+| CompUSA | company | dissolved | Stores closed 2008; brand sold to Systemax/TigerDirect |
+| Walmart Supercenter | company | unknown |  |
+| Dell Computer | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Compaq Computer | company | acquired | HP (May 2002 merger); brand retired 2013 |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Sony | company | active | Sony Group Corporation (renamed 2021) |
+| Alienware | company | acquired | Dell (2006); operates as Dell gaming subsidiary |
+| eMachines | company | acquired | Gateway (2004); then Acer (2007); brand discontinued 2013 |
+| VPR Matrix | company | dissolved | Best Buy discontinued the VPR Matrix private-label brand ~2005 |
+| ViewSonic | company | unknown |  |
+| Intel Corporation | company | active |  |
+| Advanced Micro Devices | company | active |  |
+| Microsoft | company | active |  |
+| Best Buy (stores) | company | active |  |
 
 ### Technologies Referenced (13)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Intel Pentium 4 HT | processor | Intel | emerging | [DEFERRED] |
-| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
-| AMD Athlon | processor | AMD | mature | [DEFERRED] |
-| Windows Media Center PC | form-factor |  | emerging | [DEFERRED] |
-| Notebook PC | form-factor |  | mature | [DEFERRED] |
-| Desktop PC | form-factor |  | mature | [DEFERRED] |
-| DDR SDRAM | memory |  | mature | [DEFERRED] |
-| Windows XP Media Center Edition | operating-system | Microsoft | emerging | [DEFERRED] |
-| Windows XP | operating-system | Microsoft | mature | [DEFERRED] |
-| LCD Flat Panel Monitor | display |  | mature | [DEFERRED] |
-| 15-inch LCD Monitor | display |  | mature | [DEFERRED] |
-| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | [DEFERRED] |
-| AMD Athlon XP | processor | AMD | mature | [DEFERRED] |
+| Intel Pentium 4 HT | processor | Intel | emerging | unknown [REVIEW] |
+| Intel Pentium 4 | processor | Intel | mature | unknown [REVIEW] |
+| AMD Athlon | processor | AMD | mature | unknown [REVIEW] |
+| Windows Media Center PC | form-factor |  | emerging | unknown [REVIEW] |
+| Notebook PC | form-factor |  | mature | unknown [REVIEW] |
+| Desktop PC | form-factor |  | mature | unknown [REVIEW] |
+| DDR SDRAM | memory |  | mature | unknown [REVIEW] |
+| Windows XP Media Center Edition | operating-system | Microsoft | emerging | unknown [REVIEW] |
+| Windows XP | operating-system | Microsoft | mature | unknown [REVIEW] |
+| LCD Flat Panel Monitor | display |  | mature | unknown [REVIEW] |
+| 15-inch LCD Monitor | display |  | mature | unknown [REVIEW] |
+| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | unknown [REVIEW] |
+| AMD Athlon XP | processor | AMD | mature | unknown [REVIEW] |
 
 ### Observation Summary
 

@@ -55,7 +55,7 @@ HT technology works by providing hardware support for a second executing compute
 |-----------|--------|-----------|
 | **Importance** | medium | Contemporaneous Kastner commentary tracking the 2002-2003 post-bubble PC price war in real time; paired with the access aggregate dataset for the same period. |
 | **Relevance** | medium | Primary-source expert commentary on retail PC market dynamics; valuable for historians of the Wintel/AMD price war and consumer tech retail consolidation. |
-| **Prescience** | [DEFERRED] | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
+| **Prescience** | not-applicable | Near-term forecasts (next-month Intel price cuts, HT adoption, form-factor shifts) can be verified against subsequent weeks in the series. |
 
 ### Prescience Detail
 
@@ -75,21 +75,21 @@ HT technology works by providing hardware support for a second executing compute
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Dell Computer | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Gateway, Inc. | company | [DEFERRED] | [DEFERRED] |
-| Intel Corporation | company | [DEFERRED] | [DEFERRED] |
+| Dell Computer | company | active | Dell Technologies (went private 2013; re-listed 2018 via VMware tracking stock) |
+| Hewlett-Packard | company | split | HP Inc. (consumer/PC) and Hewlett Packard Enterprise (enterprise), split November 2015 |
+| Gateway, Inc. | company | acquired | Acer Inc. (acquired October 2007, $710M); Gateway brand discontinued ~2011 |
+| Intel Corporation | company | active |  |
 
 ### Technologies Referenced (6)
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| Intel Pentium 4 HT | processor | Intel | emerging | [DEFERRED] |
-| Intel Pentium 4 | processor | Intel | mature | [DEFERRED] |
-| Intel Pentium 4-M (Mobile) | processor | Intel | mature | [DEFERRED] |
-| Desktop PC | form-factor |  | mature | [DEFERRED] |
-| Windows XP | operating-system | Microsoft | mature | [DEFERRED] |
-| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | [DEFERRED] |
+| Intel Pentium 4 HT | processor | Intel | emerging | unknown [REVIEW] |
+| Intel Pentium 4 | processor | Intel | mature | unknown [REVIEW] |
+| Intel Pentium 4-M (Mobile) | processor | Intel | mature | unknown [REVIEW] |
+| Desktop PC | form-factor |  | mature | unknown [REVIEW] |
+| Windows XP | operating-system | Microsoft | mature | unknown [REVIEW] |
+| Intel Hyper-Threading Technology | cpu-feature | Intel | emerging | unknown [REVIEW] |
 
 ### Observation Summary
 

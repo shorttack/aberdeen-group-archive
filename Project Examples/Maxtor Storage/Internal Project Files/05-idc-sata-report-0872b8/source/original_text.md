@@ -1,6 +1,6 @@
 # Tired Storage and Capacity-Oriented Disk Drives (SATA) — Another Small Step Toward Data and Information Consolidation
 
-> Archived from: industry-analysis
+> Archived from: 05-IDC-SATA-Report.txt
 > Original publication date: 2003-11-01
 > Author: Robert C. Gray, Dave Reinsel (IDC)
 
@@ -4013,21 +4013,21 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 | date | 2003-11-01 |
 | type | market-study |
 | subject_domain | enterprise-storage / SATA / tiered-storage |
-| methodology | primary-research |
-| source_file | industry-analysis |
-| license | IDC report based on 50 in-depth executive interviews across 10 North American vertical markets examining enterprise acceptability of SATA/capacity-oriented disk drives in storage arrays. The study provides quantitative forecasts for SATA storage system revenues and HDD shipments 2003-2007 forecasting SATA will reach a quarter or more of storage array terabytes over time. Key findings include that compliance requirements are the primary driver for fixed-content adoption and that software management tools are the primary inhibitor for tiered-storage deployment. |
+| methodology | primary-research,industry-analysis |
+| source_file | 05-IDC-SATA-Report.txt |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-05-IDC-SATA-Report.txt
+IDC report based on 50 in-depth executive interviews across 10 North American vertical markets examining enterprise acceptability of SATA/capacity-oriented disk drives in storage arrays. The study provides quantitative forecasts for SATA storage system revenues and HDD shipments 2003-2007 forecasting SATA will reach a quarter or more of storage array terabytes over time. Key findings include that compliance requirements are the primary driver for fixed-content adoption and that software management tools are the primary inhibitor for tiered-storage deployment.
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** | CC-BY-4.0 | high |
-| **Relevance** | Independent third-party research study concurrent with the Aberdeen-Maxtor engagement that validates the market thesis from a neutral analyst perspective. The study provides market forecasts and vertical market TAM data that directly support the business case for midline/SATA storage. As a co-sponsored IDC study it represents the broader analyst community validating the category. | high |
-| **Prescience** | The IDC study's framework of capacity-oriented vs performance-oriented storage tiers and its identification of compliance as the primary demand driver remain directly relevant to current enterprise storage architecture decisions. The vertical market rankings and the identification of financial/transportation/pharmaceutical as top targets have proven durable. | high |
+| **Importance** | high | Independent third-party research study concurrent with the Aberdeen-Maxtor engagement that validates the market thesis from a neutral analyst perspective. The study provides market forecasts and vertical market TAM data that directly support the business case for midline/SATA storage. As a co-sponsored IDC study it represents the broader analyst community validating the category. |
+| **Relevance** | high | The IDC study's framework of capacity-oriented vs performance-oriented storage tiers and its identification of compliance as the primary demand driver remain directly relevant to current enterprise storage architecture decisions. The vertical market rankings and the identification of financial/transportation/pharmaceutical as top targets have proven durable. |
+| **Prescience** | high |  |
 
 ### Prescience Detail
 
@@ -4038,7 +4038,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 1:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4048,7 +4048,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 2:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4058,7 +4058,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 3:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4068,7 +4068,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 4:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4078,7 +4078,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 5:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4088,7 +4088,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 6:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4098,7 +4098,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 7:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4108,7 +4108,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 - **Confidence at time:** high
 
 **Actual Outcome 8:** SATA TB market share outcome
-- **Result:** [DEFERRED]
+- **Result:** [UNVERIFIED]
 - **Confidence:** high
 - **Notes:** SATA HDDs became dominant in secondary/nearline storage by 2008-2010 — Phase 3 verification
 
@@ -4118,15 +4118,15 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | International Data Corporation (IDC) | firm | active |  |
-| Robert C. Gray | person | [DEFERRED] |  |
-| Dave Reinsel | person | [DEFERRED] |  |
-| EMC Corporation | company | [DEFERRED] | [DEFERRED] |
+| Robert C. Gray | person | unknown [REVIEW] |  |
+| Dave Reinsel | person | unknown [REVIEW] |  |
+| EMC Corporation | company | unknown [REVIEW] |  |
 | Network Appliance (NetApp) | company | active | NetApp |
 | Hewlett-Packard (HP) | company | split | HP Inc./HPE (2015) |
-| StorageTek (Storage Technology Corporation) | company | [DEFERRED] | [DEFERRED] |
+| StorageTek (Storage Technology Corporation) | company | unknown [REVIEW] |  |
 | Dell Technologies | company | active |  |
 | IBM | company | active |  |
-| Nexsan Technologies | company | [DEFERRED] | [DEFERRED] |
+| Nexsan Technologies | company | unknown [REVIEW] |  |
 | Sun Microsystems | company | acquired | Oracle (2010) |
 
 ### Technologies Referenced (10)
@@ -4137,7 +4137,7 @@ Copyright 2003 IDC. Reproduction is forbidden unless authorized. All rights rese
 | Fibre Channel (FC) | protocol | Industry Standard | mature | active |
 | SCSI Disk Interface | protocol | Industry Standard | mature | legacy |
 | Storage Area Network (SAN) | platform | Industry Standard | mature | active |
-| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | [DEFERRED] |
+| Information Lifecycle Management (ILM) | framework | Industry Standard | emerging | unknown [REVIEW] |
 | Fixed Content / CAS Storage | platform | Industry Standard | emerging | active |
 | EMC Centera (CAS) | platform | EMC | emerging | discontinued |
 | NetApp NearStore | platform | Network Appliance | emerging | active |

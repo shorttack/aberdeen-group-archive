@@ -127,7 +127,7 @@ News analysis of Microsoft's announcement of Windows XP Media Center Edition —
 | NEC Corporation | company | active |  |
 | Samsung Electronics | company | active |  |
 | SONICblue | company | dissolved |  |
-| TiVo | company | [DEFERRED] | [DEFERRED] |
+| TiVo | company | unknown |  |
 | Bill Gates | person | active |  |
 | Peter Glaskowsky | person | active |  |
 

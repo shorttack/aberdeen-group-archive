@@ -122,8 +122,8 @@ Intel Analyst Relations personalized schedule prepared by Liz Ryon for Peter Kas
 - **Confidence at time:** high
 
 **Actual Outcome 1:** yonah-shipped
-- **Result:** [DEFERRED]
-- **Confidence:** [DEFERRED]
+- **Result:** [UNVERIFIED]
+- **Confidence:** unknown [REVIEW]
 - **Notes:** Verify Core Duo launch date and reception.
 
 
@@ -132,21 +132,21 @@ Intel Analyst Relations personalized schedule prepared by Liz Ryon for Peter Kas
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Intel Corporation | company | active |  |
-| Vericours, Inc. | firm | [DEFERRED] | [DEFERRED] |
+| Vericours, Inc. | firm | unknown |  |
 | Peter S. Kastner | person | active |  |
-| Liz Ryon | person | [DEFERRED] | [DEFERRED] |
+| Liz Ryon | person | unknown |  |
 | Paul Otellini | person | deceased |  |
 | Sean Maloney | person | active |  |
-| Louis Burns | person | [DEFERRED] | [DEFERRED] |
+| Louis Burns | person | unknown |  |
 | Pat Gelsinger | person | active |  |
-| Don MacDonald | person | [DEFERRED] | [DEFERRED] |
+| Don MacDonald | person | unknown |  |
 | Justin Rattner | person | active |  |
 | Mooly Eden | person | active |  |
-| Karen Regis | person | [DEFERRED] | [DEFERRED] |
-| Bill Siu | person | [DEFERRED] | [DEFERRED] |
+| Karen Regis | person | unknown |  |
+| Bill Siu | person | unknown |  |
 | Stacy Smith | person | active |  |
-| John Johnson | person | [DEFERRED] | [DEFERRED] |
-| Rob Chapman | person | [DEFERRED] | [DEFERRED] |
+| John Johnson | person | unknown |  |
+| Rob Chapman | person | unknown |  |
 | NVIDIA Corporation | company | active |  |
 | Intel Capital | firm | active |  |
 

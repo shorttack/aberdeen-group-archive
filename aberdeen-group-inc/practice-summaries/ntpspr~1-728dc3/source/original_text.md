@@ -2310,19 +2310,19 @@ addressing the issues.
 | subject_domain | IT-professional-services |
 | methodology | industry-analysis |
 | source_file | NTPSPR~1.DOC |
-| license |  Compaq |
+| license | CC-BY-4.0 |
 
 ### Abstract
 
-Aberdeen Group's 1998 practice summary on NT Professional Services analyzing the market for consulting and systems integration services surrounding Windows NT deployments. The report quantifies the NT professional services market at $3 billion in 1996 growing to $20 billion in 1997 and projects growth to $110 billion by 2001. It profiles fourteen service providers across four categories — OEMs (Amdahl
+Aberdeen Group's 1998 practice summary on NT Professional Services analyzing the market for consulting and systems integration services surrounding Windows NT deployments. The report quantifies the NT professional services market at $3 billion in 1996 growing to $20 billion in 1997 and projects growth to $110 billion by 2001. It profiles fourteen service providers across four categories — OEMs (Amdahl, Compaq, Digital, Data General, HP, IBM, NCR, Tandem, Unisys), ISVs (Microsoft, SAP), IPSPs (Coopers & Lybrand, CSC, Deloitte, EDS), and Resellers (Entex, MicroAge).
 
 ### Document Assessment
 
 | Dimension | Rating | Rationale |
 |-----------|--------|-----------|
-| **Importance** |  Digital |  Data General |
-| **Relevance** |  HP |  IBM |
-| **Prescience** |  NCR |  Tandem |
+| **Importance** | medium | Provides quantified market sizing and competitive landscape for NT professional services at the peak of NT adoption; unique for its breadth of supplier profiles. |
+| **Relevance** | medium | The professional services market structure documented here — OEMs vs. SIs vs. resellers — remains applicable; specific company positions are dated due to mergers. |
+| **Prescience** | medium | Market size projections of $110 billion by 2001 significantly overshot the dot-com bust; but the structural observation that NT services would dwarf NT platform revenues proved substantially correct. |
 
 ### Prescience Detail
 
@@ -2333,7 +2333,7 @@ Aberdeen Group's 1998 practice summary on NT Professional Services analyzing the
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** NT Professional Services market size (2001)
-- **Result:** [DEFERRED]
+- **Result:** Verify actual 2001 IT services market size; likely substantially below $110B projection.
 - **Confidence:** low
 - **Notes:** Verify actual 2001 IT services market size; likely substantially below $110B projection.
 
@@ -2369,8 +2369,8 @@ Aberdeen Group's 1998 practice summary on NT Professional Services analyzing the
 | Computer Sciences Corporation (CSC) | company | renamed | DXC Technology (2017) |
 | Deloitte Touche Tohmatsu International | firm | active |  |
 | Electronic Data Systems (EDS) | company | acquired | HP (2008) |
-| Entex Information Services | company | [DEFERRED] | [DEFERRED] |
-| MicroAge, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Entex Information Services | company | unknown | unknown |
+| MicroAge, Inc. | company | unknown | unknown |
 | Price Waterhouse | firm | merged | PricewaterhouseCoopers (1998) |
 | Sun Microsystems | company | acquired | Oracle (2010) |
 | Oracle Corporation | company | active |  |

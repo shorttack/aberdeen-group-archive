@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-xeon-5300","Intel Xeon 5300 series (Clovertown, quad-core server)","platform","Intel","2006-2007","emerging","legacy","intel-quad-core-outlook-newsfactor-garre-c32252","First-gen Intel quad-core Xeon for servers"
+"intel-core-2-extreme-quad","Intel Core 2 Extreme QX6700 (Kentsfield, quad-core desktop)","platform","Intel","2006-2008","emerging","legacy","intel-quad-core-outlook-newsfactor-garre-c32252","First Intel quad-core desktop CPU (Nov 14 2006 launch)"
+"server-virtualization","Server virtualization (VMware ESX, etc.)","platform","various","2001-present","growth","mainstream","intel-quad-core-outlook-newsfactor-garre-c32252","VMware ESX + Xen; Kastner cites virtualization as quad-core killer app"
+"amd-opteron","AMD Opteron","platform","AMD","2003-2017","mature","legacy","intel-quad-core-outlook-newsfactor-garre-c32252","Intel's 64-bit server competitor; drove Dell's 2006 capitulation"

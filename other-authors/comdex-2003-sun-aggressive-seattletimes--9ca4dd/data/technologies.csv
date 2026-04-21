@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"amd-opteron","AMD Opteron 64-bit processor","platform","AMD","2003-2017","emerging","legacy","comdex-2003-sun-aggressive-seattletimes--9ca4dd","AMD's first 64-bit x86 CPU; basis for Sun Fire x64 servers"
+"sun-fire-x64","Sun Fire x64 (Opteron) servers","platform","Sun Microsystems","2003-2010","prerelease","legacy","comdex-2003-sun-aggressive-seattletimes--9ca4dd","Sun's Opteron-based x86 server line announced at Comdex 2003"
+"java-desktop-system","Sun Java Desktop System","platform","Sun Microsystems","2003-2006","prerelease","discontinued","comdex-2003-sun-aggressive-seattletimes--9ca4dd","Sun's Linux/GNOME-based desktop OS at $100/user for China rollout; discontinued 2006"
+"solaris-os","Solaris (UNIX)","platform","Sun Microsystems","1992-present","mature","legacy","comdex-2003-sun-aggressive-seattletimes--9ca4dd","Sun's flagship UNIX; could run on Opteron"
+"linux-os","Linux","platform","Linus Torvalds / various","1991-present","mature","mainstream","comdex-2003-sun-aggressive-seattletimes--9ca4dd","Basis for Java Desktop System"
+"ultrasparc-iii","Sun UltraSPARC III","platform","Sun Microsystems","2001-2005","mature","legacy","comdex-2003-sun-aggressive-seattletimes--9ca4dd","Sun's incumbent SPARC processor being complemented by Opteron"

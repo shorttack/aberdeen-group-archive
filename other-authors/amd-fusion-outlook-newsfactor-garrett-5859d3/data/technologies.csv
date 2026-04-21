@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"amd-fusion-apu","AMD Fusion (later AMD APU)","platform","AMD","2006-2017+","emerging","mainstream","amd-fusion-outlook-newsfactor-garrett-5859d3","Announced 2006; Llano shipped 2011 as first APU; rebrand to Ryzen APU 2017"
+"ati-radeon-gpu","ATI Radeon GPU","platform","ATI/AMD","2000-present","mature","mainstream","amd-fusion-outlook-newsfactor-garrett-5859d3","GPU line integrated into AMD Fusion"
+"amd-cpu","AMD x86 CPU","platform","AMD","1975-present","mature","mainstream","amd-fusion-outlook-newsfactor-garrett-5859d3","AMD Athlon/Opteron/Phenom family"
+"windows-vista","Microsoft Windows Vista (with Aero)","platform","Microsoft","2007-2012","prerelease","deprecated","amd-fusion-outlook-newsfactor-garrett-5859d3","Released Jan 2007; Aero required GPU; dropped in Windows 8"

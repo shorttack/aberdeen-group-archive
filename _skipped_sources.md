@@ -753,3 +753,16 @@ Batch 13 ("webarchives") — 10 files provided, 9 processed, 1 skip.
 ### Processed 9 studies
 
 All 9 contain distinct Kastner citations spanning 1994-2009. Authors: Jay Lyman (TechNewsWorld ×2), Elizabeth Millard (TechNewsWorld ×1), Jon Van Vlack (Times-Herald-Record 2003 — earliest Kastner rebate quote), Zoli Erdos (CloudAve 2009), John D. Porter & John J. Rome (ASU / CAUSE 1994 — earliest Kastner data-warehouse prediction), Cade Metz (PC Magazine 2002), Jim Taylor (DVD Demystified publications listing 2003), Kelli B. Grant (SmartMoney 2006 — canonical 60% rebate-loss statistic). The Van Vlack 2003 and Grant 2006 pieces both cite Kastner as the rebate-industry expert with his signature "60% never get their refund" framing; CloudAve 2009 preserves the 2005 BusinessWeek Vericours 40%-don't-file quote. The CAUSE 1994 Porter & Rome paper validates Kastner's 1994 data-warehouse mainstream prediction (came true by 1999).
+
+## Batch 39 notes (2026-04-21)
+
+Batch 14 ("webarchives — BusinessWeek Rebate Runaround added") — 10 files provided, 8 processed, 2 skips.
+
+### Skipped sources
+
+- **The-Great-Rebate-Runaround-2.webarchive** — **Duplicate capture** of the same canonical BusinessWeek Grow / 2005-12-05 "The Great Rebate Runaround" article at `businessweek.com/magazine/content/05_49/b3962074.htm`. Content is byte-identical to the primary `The-Great-Rebate-Runaround-Businessweek.webarchive` capture aside from sidebar ad differences (different session/ad-impression rendering). Per skill §9, same-URL variant captures are logged and processed only at first instance. The canonical article is ingested as study `great-rebate-runaround-businessweek-grow-00f459`.
+- **The-Science-of-This-Year-s-WWDC-2004-7.webarchive** (macnewsworld.com/story/34607.html) — **URL duplicate** of Batch 12 study `mac-news-science-the-science-of-this-yea-bb35b4` (same MacNewsWorld Elizabeth Millard story, same story ID 34607). Per skill §9, cross-capture URL duplicates processed only at first instance. Skip.
+
+### Processed 8 studies
+
+All 8 contain distinct Kastner citations. The flagship item is the **canonical BusinessWeek / Brian Grow (with Rishi Chhatwal) 2005-12-05 "The Great Rebate Runaround"** primary source — skipped at batch-13 entry 1 (Mass-Attorney-Lawyer SEO syndication) as processing-at-first-instance of the BW piece itself; now ingested as the primary source and replaces the syndication-only references. Other Kastner citations: Ramon Ray/Smallbiztechnology reblog of NewsFactor 2002 HDD-bottleneck thesis (predicted SSD transition); Vern Seward/Mac Observer 2004 living-room-form-factor prediction (validated by streaming boxes, not PCs); David Garrett/NewsFactor AMD Fusion 2006 one-chip-computer thesis (validated by Llano 2011 and Apple M1 2020); Garrett/NewsFactor Intel Quad-Core Nov 2006 ("Q2 2007 mainstream" — validated); Kim Peterson/Seattle Times Comdex 2003 Sun-AMD Opteron + China Java Desktop; Rich Seeley/TechTarget 2006 webMethods Fabric 7.0 with Kastner 50% Global-5000 BPM statistic and rare analyst self-correction on EAI-death prediction; MarketWatch 2003-04-17 weekly roundup with Kastner "Intel executed with some dexterity" post-Q1 2003 earnings.

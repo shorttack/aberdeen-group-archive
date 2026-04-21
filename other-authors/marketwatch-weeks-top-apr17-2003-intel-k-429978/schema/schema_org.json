@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The week's top stories, April 14-17 (MarketWatch)",
+  "description": "MarketWatch 'week's top stories' roundup (Apr 17 2003, 6:06 p.m. EST) covering April 14-17, 2003 \u2014 the week that included Intel's Q1 2003 earnings (reported Tuesday Apr 15 2003) and Apple's earnings. Peter Kastner, chief research officer at Aberdeen Group, provides the Intel commentary: 'Given the global economic uncertainty, Intel has executed with some dexterity and deserves a lot of credit for their numbers.' Intel stock rose ~$2 to $18.66 by week-end. Article frame is the dot-com-bust-plus-Iraq-war-economic-uncertainty backdrop. Apple posted a 65% YoY earnings decline and denied rumors of a Universal Music bid. Other stories covered: Bush $550B tax cut, weekly market wrap-up. Kastner's Intel quote captures the 'Intel-as-defensive-holding' framing characteristic of spring-2003 analyst commentary.",
+  "creator": {
+    "@type": "Person",
+    "name": "MarketWatch staff"
+  },
+  "datePublished": "2003-04-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

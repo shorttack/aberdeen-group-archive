@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"desktop-pc","Desktop personal computer (tower form factor)","consumer-hardware","various","1981-present","mature","declining","pc-style-living-room-macobserver-seward-97ed83","Tower-form-factor desktop critiqued"
+"imac","Apple iMac","consumer-hardware","Apple","1998-present","growth","mainstream","pc-style-living-room-macobserver-seward-97ed83","Iconic Apple style-first desktop"
+"ipod-mini","Apple iPod mini","consumer-hardware","Apple","2004-2005","emerging","discontinued","pc-style-living-room-macobserver-seward-97ed83","Color-coded style-over-capacity example (replaced by iPod nano 2005)"
+"living-room-pc","Living-room / home-theater PC","consumer-hardware","various","2000s-present","emerging","niche","pc-style-living-room-macobserver-seward-97ed83","Category Kastner flagged; evolved into streaming-box era"

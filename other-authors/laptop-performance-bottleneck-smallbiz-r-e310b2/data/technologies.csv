@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"laptop-hdd","2.5-inch mobile hard disk drive","consumer-hardware","various","1985-2015","mainstream","displaced-by-ssd","laptop-performance-bottleneck-smallbiz-r-e310b2","2.5-inch mobile HDDs dominated laptop storage 1990s-2010s"
+"laptop-pc","Laptop computer (notebook PC)","consumer-hardware","various","1985-present","growth","mainstream","laptop-performance-bottleneck-smallbiz-r-e310b2","Mobile computing form factor"
+"laptop-docking-station","Laptop docking station","accessory","various","1990s-present","mainstream","mainstream","laptop-performance-bottleneck-smallbiz-r-e310b2","Desktop-replacement accessory concept Ray advocates"

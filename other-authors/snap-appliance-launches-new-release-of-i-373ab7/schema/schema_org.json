@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Snap Appliance Launches New Release of its Unified Software Platform \u2014 GuardianOS v3.1",
+  "description": "Adaptec/Snap Appliance press release (Dec 7 2004, published on Computerworld Australia) announcing GuardianOS v3.1 \u2014 the Linux-based unified-storage platform powering Snap Servers (320GB to 30TB). Key enhancements: enhanced iSCSI support with 50%+ performance improvements over v3.0, new Server-to-Server Synchronization (S2S v2), full NDMP backup-protocol support, expanded global namespace capabilities, and integration with Adaptec's storage portfolio (Snap was acquired by Adaptec in June 2004). Peter Kastner of the Aberdeen Group provides the third-party endorsement: 'Snap Appliance's S2S v2 is a full-featured replication-for-the-masses solution that will give enterprises the opportunity to protect and easily move data without the significant investment or complexity that was required in the past. Together with the GuardianOS v3.1, Snap has a solid software offering for its departmental and enterprise servers that can continue to scale as the company expands its hardware product line.' The announcement also positions Snap against higher-end block-storage SAN vendors (EMC, NetApp) by combining NAS and iSCSI in a single appliance, a convergence that became standard in the storage industry over the following decade.",
+  "creator": {
+    "@type": "Person",
+    "name": "Adaptec/Snap Appliance press release (Computerworld Australia)"
+  },
+  "datePublished": "2004-12-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,98 @@
+# Small Is Huge in PCs These Days
+
+> Archived from: Small-Is-Huge-in-PCs-These-Days-Blog-Archive-Chinese-medical-doctor.webarchive
+> Original publication date: 2004-01-01
+> Author: Reuters (NEW YORK; original reporter not preserved; reposted Jan 6 2009 on uizg.com content-farm blog)
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.uizg.com/index.php/archives/27454
+MIME: text/html
+
+» Small Is Huge in PCs These Days » Blog Archive Chinese medical doctor chinese_medical_doctor RSS Comments RSS Chinese medical doctor About the Site: Oversea Chinese Medical Doctor Association ：OCMDA - Traditional Chinese Medical Doctor About Me: Write about yourself here Categories: Accounting (115) Advertising (111) Advice (202) Affiliate (42) Affiliate-Programs (206) Anxieties (123) Arts-Entertainment (243) Auctions-Classifieds (88) Automobiles-Motorcyc (8) Automobiles-Motorcycl (20) Automobiles-Motorcycles (119) Automotive (80) Autos (143) Autos-Trucks (90) Beauty (286) Blog (174) Blogging-Forums (86) Boating-Fishing (24) Books-Music (100) Breast-Cancer (97) Business (1366) Business-Industry (116) Cancer-Illness (76) Career (162) Careers (199) Cars (88) Cars-Trucks (167) Casino-Gaming (92) Cats (95) CGI (77) choice (161) College-University (102) Communication (130) Communications (147) Computers (853) Computers-Accessories (70) Computers-Technology (234) Cooking-Tips-Recipes (101) CSS (77) Culture (101) Culture-Society (167) Dating (90) Decorations (97) DHTML (65) Direct-Mail (71) Divorce (104) Dogs (85) Domain-Names (62) E-Books (58) E-Commerce (111) E-mail (59) Ecommerce (130) Economics (83) Education (300) Elderly-Care (96) Email (176) Employment (103) Entertainment (820) Environment (381) Events (96) Exercise-Meditation (92) Exotic-Animals (94) Family (364) Family-Parenting (101) Fashion-Beauty (59) Fashion-Style (92) Finance (380) Fitness (285) Food (220) Food-Drink (333) Foods-Drinks (109) Free (61) Free-Tools-Resources (82) Gambling (79) Gardening (179) Goal-Setting (85) Government (63) Government-Politics (22) Happiness (74) Health (292) Health,-Fitness-Medical (136) Health-Fitness (257) Hobbies (1716) Hobbies-Crafts (98) Home (257) Home-Based-Business (133) Home-Business (770) Home-Family (89) Home-Improvement (89) Home-Ownership-Decor (86) Home-Repair (107) HTML (75) Humor (261) Inspirational (164) Insurance (186) Internet (1508) Internet,-General (61) Internet-Businesses-Online (115) Internet-Marketing (266) JavaScript (73) Jobs-Careers (63) Kids-Teens (94) Landscaping (83) Language (89) Law-Legal-Issues (36) Leadership (209) Legal (255) Legal-Issues (141) Lifestyle (98) Link-Popularity (60) Loans-Lease (92) Maintenance (99) Management (260) MarketAdvertise (57) Marketing (297) Marketing-Advertising (165) Marriage (208) Medicine (94) Men’s-Issues (112) Metaphysical (145) Military (9) MLM (71) Mortgage-Debt (89) Motivational (214) Movies-Television (36) Multimedia (181) Music (205) Nature-Outdoors (27) Negotiation (76) Network (87) Networking (114) New-Age (32) News (66) News-Society (211) Newsletters (75) Nutrition-Supplement (94) Off-Line-Promotion (66) Online-Promotion (134) Other (111) Others (18) Outdoors (71) Parenting (88) Personal-Development (161) Personal-Finance (117) Pet-Care (88) Pets (216) Pets-Animals (189) Philosophy (28) Poetry (66) Politics (381) Pregnancy (24) Presentation (94) Product Reviews (1) Product-Reviews (88) Publishing (244) Real Estate (1) Real-Estate (183) Recreation-Leisure (172) Recreation-Sports (58) Reference-Education (222) Relationship (88) Relationships (161) Relationships-Marriage (43) Religion (214) Religion-Spirituality (160) Repairs (85) Reptiles (72) RSS-Link-Popularity (89) Sales (123) Sales-Service (78) Scams (176) Science (266) Science-Technology (101) Search-Engine-Optimization (159) Security (161) Self Help (1) Self-Help (123) Self-Improvement (157) Self-Improvement (277) SEO (547) Sexuality (85) Shopping (195) Shopping-Product-Reviews (103) Site-Security (89) Social-Issues (227) Software-Programming (27) Spam (136) Speaking (102) Spirituality (89) Sports (229) Sports-Recreation (72) Sports-Recreations (110) Stocks,-Bond-Forex (83) Stress-Management (111) Success (109) Tax (86) Technology (838) Television-Movies (94) Tips-Advice (90) Trading-Investing (86) Traffic-Analysis (74) Travel (141) Travel & Leisure (1) Travel-Leisure (245) Travel-Spot (87) Travel-Tips (96) Travel-Vacation (137) Trucks (116) Vacation-Plans (90) Viral-Marketing (65) Wealth-Building (92) Web-Development-Hosting (81) Web-Hosting (73) WebHost (320) Webmasters (104) Website-Design (104) Website-Hosting (95) Website-Hosting (32) Weight-Loss (169) Weight-Loss (163) Women’s-Issues (166) Writing (260) Writing,-Literature-Arts (42) Writing- (3) Writing-Speaking (248) Calendar June 2009 M T W T F S S « Feb 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Search: Archives: February 2009 (1) January 2009 (10) December 2008 (4) May 2007 (13812) April 2007 (8286) March 2007 (5330) Meta: Login RSS Comments RSS Small Is Huge in PCs These Days January 6th, 2009 by admin NEW YORK (Reuters) - That industrial-looking hulk of a desktop personal computer is finally getting a much-needed makeover. Computer makers are getting hip to what style mavens have known for decades: The term “desktop computer” is itself a contradiction in terms as its bulk typically ensures that it will wind up under the desk instead. Even as the race to miniaturize computer chips, laptops, and cellphones continues, the size of most desktop computers has largely remained as a towering hunk of aluminum and plastic, save for some notable exceptions such Apple computer Inc.’s (NasdaqNM:AAPL - News) iconoclastic iMac series, launched in 1998. That’s all changing. A slew of new PCs that recently hit the market are sizing down and jazzing up conventional design, prepping it for display in a more pleasing setting such as the den or the living room. “The next form factor battles are beginning to be fought in the living room,” said Peter Kastner, an analyst at the Aberdeen Group in Boston. Factors including size and decor suddenly matter a lot, he added. Gateway Inc. (NYSE:GTW - News), Sony (Tokyo:6746.T - News), Hewlett Packard and a handful of lesser-known manufacturers are leading the charge to shrink the PC’s form, while maintaining its function. Technology research company Gartner estimated that shipment volume of small PCs is expected to soar to 32.1 million units by 2008, from a scant 1.2 million units shipped in 2003. What also has PC industry talking is a small Taiwanese PC components manufacturer, Shuttle Computer Group Inc., which spent nearly two decades working behind the scenes supplying the technology guts of brand-name computer makers like Dell Inc. (NasdaqNM:DELL - News) and IBM(NYSE:IBM - News). This month, Shuttle will, for the first time, sell complete, bread-box sized PC systems in a dazzling array of colors and metallic veneers. Their performance, analysts say, promises to make some of the big box rig manufacturers take notice. “You really don’t need anything big, unless it’s for your comfort,” Albert Chang, marketing manager for Shuttle said. “You don’t need a big computer to feel comfortable.” SAVING SPACE AND PRICE It has taken years for the idea of small PCs to catch on. Analysts said consumers were originally put off by earlier incarnations that sacrificed standard connection ports for printers and keyboards in favor of saving space and price. Smaller computers also forsake extra expansion ports that sophisticated users rely on to upgrade components such as additional hard drive space for storing videos. But widespread adoption of Universal Serial Bus connection ports, which enable most peripherals like keyboards, mouse and printers to be attached to PCs, have eliminated these concerns. Moreover, average-Joe computer users aren’t likely to pry open computers to upgrade and replace components as geeks often do, making the smaller versions more attractive these days, analysts said. “There’s a lot of demand for the small form factor box,” Roger Kay, analyst at Gartner said. “It’s going to be unlikely you’ll do much with your PC other than buy it.” The shift is driven by new models like the champagne gold-exterior Gateway’s 901 Family Room Media Center, which resembles a high-end stereo component, and costs between $1,000 and $2,000. The 901 has all the desktop PC functions and includes a digital video disc-recordable drive and connectors for high-quality video and stereo sound. It also runs Microsoft’s Media edition operating system to view and record digital media in the living room. Polywell computers is also marketing a small form factor PC, the Qbox series, that has become a favorite among avid video game players. Geeks lug these units to network parties to compete against other players. However, few rival the style of Shuttle, which offers a selection of small form PCs in sleek aluminum and mirrored panels that are as much at Home in design snob dens as they are at video game parties. One model, the SB51G, is available in neon yellow, green, hot pink and red. But until now, Shuttle has only sold barebones units that allowed sophisticated users to plug in their own video cards and processing units directly. This month, Shuttle plans to sell several pre-configured models aimed at Businesses, gamers and the connected living room, most with cutting-edge graphics cards and Intel or AMD chips. For some, however, small will never be enough. Hy-Tek Manufacturing Co. sells a wide-screen flat panel monitor with a computer inside. The screen has a speedy Intel Pentium 4 chip and enough hard drive space to archive a substantial collection of music and Home videos. Invisibility comes at a price: Hy-Tek’s Tek Panel 300 series will set you back anywhere from $6,500 to nearly $9,000. Posted in Hobbies | Leave a Comment Name Mail (will not be published) Website XHTML: You can use these tags: <a href="" title=""> <abbr title=""> <acronym title=""> <b> <blockquote cite=""> <code> <em> <i> <strike> <strong> --> Please note: Comment moderation is enabled and may delay your comment. There is no need to resubmit your comment. © 2006 - 2007 小白之家 - 线上学英语
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | small-is-huge-in-pcs-these-days-blog-arc-655851 |
+| title | Small Is Huge in PCs These Days |
+| author | Reuters (NEW YORK; original reporter not preserved; reposted Jan 6 2009 on uizg.com content-farm blog) |
+| date | 2004-01-01 |
+| type | news-article |
+| subject_domain | small-form-factor-PC-market |
+| methodology | industry-analysis, analyst-commentary |
+| source_file | Small-Is-Huge-in-PCs-These-Days-Blog-Archive-Chinese-medical-doctor.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Reuters wire story (original ~2003-2004, preserved via a Jan 6 2009 repost on uizg.com — a Chinese-medical-doctor-themed content-farm blog) on the emerging small-form-factor PC market. The original article forecasts Gartner's prediction that small-PC shipment volume will soar from 1.2 million units (2003) to 32.1 million by 2008. Peter Kastner, analyst at Aberdeen Group in Boston, frames the market shift: 'The next form factor battles are beginning to be fought in the living room. Factors including size and decor suddenly matter a lot.' The piece profiles Shuttle Computer Group (Taiwan, bread-box systems in neon colors), Gateway's 901 Family Room Media Center (champagne-gold, $1,000-$2,000, Windows XP Media Center Edition), Polywell Qbox small-form gaming PCs, Hy-Tek Manufacturing's behind-the-display Tek Panel 300 series, plus contributions from Apple's iMac legacy and Roger Kay (Gartner). The article captures the transition from 'industrial hulk' desktops to style-conscious living-room PCs powered by USB peripheral standardization.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Kastner's 'form-factor battles in the living room' framing captured an early-2000s transition moment: desktops moving from under-desk utility boxes toward media-center living-room appliances. The thesis was partially correct (media-center PC era) but the long-term winner was a different form factor (tablets, smart TVs, streaming boxes). |
+| **Relevance** | low | Specific 2003 small-PC market dynamics are historical; Shuttle XPC and Gateway Media Center Edition are legacy products. Broader 'form factor battles' framing persists in smartphone/laptop/foldable discourse. |
+| **Prescience** | medium | Gartner's 1.2M -> 32.1M small-PC forecast for 2008 is hard to verify precisely, but the overall 'small-form-factor will grow huge' direction was correct (Mac mini 2005; Intel NUC 2012) though the peak of enthusiast SFF was dwarfed by laptops and tablets. Kastner's 'living-room PC' thesis was superseded by smart TVs and streaming devices (Roku/Apple TV/Chromecast) rather than PCs. |
+
+### Prescience Detail
+
+
+**Prediction 1:** SFF PC shipments 1.2M -> 32.1M
+- **Claimed:** Gartner estimated that shipment volume of small PCs is expected to soar to 32.1 million units by 2008, from a scant 1.2 million units shipped in 2003.
+- **Year:** 2003
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** Intel NUC extends SFF market
+- **Result:** Intel NUC (2012) and Mac mini (launched 2005) became the enduring SFF PC form factors through the 2010s; enthusiast builders drove a persistent niche market though overall PC unit volume shifted to laptops.
+- **Confidence:** verified
+- **Notes:** Backfill — SFF survives as niche
+
+
+### Entities Referenced (17)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Gateway, Inc. | company | acquired | Acer (2007) |
+| Hewlett-Packard Company | company | split | HP Inc. + Hewlett Packard Enterprise (2015) |
+| Sony Corporation | company | active |  |
+| Dell Computer / Dell Inc. | company | active | Dell Technologies (2016-) |
+| International Business Machines Corporation | company | active |  |
+| Microsoft Corporation | company | active |  |
+| Intel Corporation | company | active |  |
+| Advanced Micro Devices, Inc. | company | active |  |
+| Apple Computer, Inc. / Apple Inc. | company | renamed | Apple Inc. (2007) |
+| Shuttle Computer Group Inc. | company | active |  |
+| Gartner, Inc. | firm | active |  |
+| Polywell Computers, Inc. | company | active |  |
+| Hy-Tek Manufacturing Co. | company | [DEFERRED] |  |
+| Roger Kay | person | active |  |
+| Reuters News Agency | firm | acquired | Thomson Reuters (2008) -> now owned by Refinitiv/LSEG |
+
+### Technologies Referenced (6)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Small-form-factor / bread-box / living-room PC | platform | industry | new | legacy-supplanted |
+| Intel Pentium 4 processor | chip | Intel Corporation | mature | legacy-supplanted |
+| Windows XP Media Center Edition | operating-system | Microsoft | new | end-of-life |
+| Universal Serial Bus (USB) | protocol | USB-IF | mature | active |
+| DVD-R / CD-RW optical drive | platform | industry | mature | end-of-life |
+| Apple iMac all-in-one personal computer | platform | Apple Computer | new | active |
+
+### Observation Summary
+
+- Total observations: 9
+- By type: expert-opinion: 3, market-data: 3, actual-outcome: 2, viability-prediction: 1

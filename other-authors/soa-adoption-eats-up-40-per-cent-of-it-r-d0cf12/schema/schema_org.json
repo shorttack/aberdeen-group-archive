@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SOA adoption eats up 40 per cent of IT resources",
+  "description": "silicon.com news article (Fri Jul 14 2006) by Andy McCue reporting on the Aberdeen Group benchmark report 'Enterprise Service Bus and SOA Middleware.' The article opens: 'The high costs of migrating to a service-oriented architecture (SOA) can eat up 40 per cent of an organisation's IT budget.' Aberdeen surveyed 120+ IT and business professionals; 90% are adopting or have adopted SOA technologies, especially in large enterprises with more than $1bn in annual revenues. Peter S. Kastner, VP and research director for enterprise integration at Aberdeen Group, is cited with the same two quotes syndicated worldwide: 'SOA is broadly seen as a real technology step forward, with the largest companies \u2014 who have the biggest integration problems \u2014 leading the way' and 'Redesigning business processes, high IT integration costs, and customisation challenges are eating up 40 per cent of the IT budget in integration expenditures.' The article closes with Aberdeen's three SOA adoption approaches: SOA 'light' (open source + standards, small cos), Enterprise SOA (suite middleware, mid-large), SOA ERP (ERP-extension entry point). silicon.com was a CNET Networks UK property; the identical article was re-syndicated to ZDNet Asia on Jul 17 2006 \u2014 that version is skipped as syndication per skill \u00a79 (see Batch 34 skip log).",
+  "creator": {
+    "@type": "Person",
+    "name": "Andy McCue, silicon.com (CNET Networks UK)"
+  },
+  "datePublished": "2006-07-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

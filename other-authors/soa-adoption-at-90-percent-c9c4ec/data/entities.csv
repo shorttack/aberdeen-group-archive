@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","soa-adoption-at-90-percent-c9c4ec","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","soa-adoption-at-90-percent-c9c4ec","EVP / chief research officer / research VP; various titles 1988-2007"
+"sys-con-media","SYS-CON Media, Inc.","firm","news-media","active","","1994-present","soa-adoption-at-90-percent-c9c4ec","Developer-focused IT publisher; WebServices Journal, Java Developer's Journal, SOA World Magazine"
+"au-sys-con","SYS-CON Australia","firm","news-media","active","","2000s-present","soa-adoption-at-90-percent-c9c4ec","SYS-CON Media regional property"

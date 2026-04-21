@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","snap-appliance-launches-new-release-of-i-373ab7","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","snap-appliance-launches-new-release-of-i-373ab7","EVP / chief research officer / research VP; various titles 1988-2007"
+"adaptec-inc","Adaptec, Inc.","company","storage-hardware","acquired","PMC-Sierra (2010) -> Microchip (2016)","1981-2010","snap-appliance-launches-new-release-of-i-373ab7","Milpitas CA SCSI/RAID storage adapters; acquired Snap Appliance 2004; storage unit sold to PMC-Sierra"
+"snap-appliance","Snap Appliance, Inc.","company","storage-systems","acquired","Adaptec (2004) -> Overland Storage (2008)","2002-2004","snap-appliance-launches-new-release-of-i-373ab7","San Jose CA network-storage appliance vendor; acquired by Adaptec June 2004 for $100M; later sold to Overland"
+"overland-storage","Overland Storage, Inc.","company","storage-systems","acquired","Sphere 3D (2014); now dormant","1980-2014","snap-appliance-launches-new-release-of-i-373ab7","San Diego CA tape/NAS vendor; acquired Snap Appliance from Adaptec 2008"
+"computerworld-au","Computerworld Australia (IDG)","firm","news-media","active","","1967-present","snap-appliance-launches-new-release-of-i-373ab7","Australian IT trade publication; IDG property"

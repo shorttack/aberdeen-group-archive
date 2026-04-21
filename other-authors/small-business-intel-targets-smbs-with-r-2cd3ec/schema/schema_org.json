@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel Targets SMBs With Revamped vPro",
+  "description": "Data Storage Today / CIO Today Network article (Sep 23 2008) by Mark Long on Intel's 2008 revamp of the vPro business-PC platform, now targeting small and medium businesses with limited IT staff. New features: automated PC maintenance/repair/security, Remote Alert (PC calls for help autonomously even when off), IT Director dashboard for fleets under 25 PCs, Intel-Symantec patch-compliance partnership, and full manageability outside the firewall for laptops in the field. Peter Kastner, vice president and research director at Aberdeen Group, is the primary analyst voice: 'No matter where in the world the device is, the corporate laptops that workers take home or on business trips are all now manageable, fixable, and diagnosable. As long as you can get to a network, vPro and related technology can help to solve the problem.' On TCO: Kastner cites major service companies' prior measurements of $700-$3,000/PC/year pre-vPro; post-vPro figures are under $500/PC/year on the low end and under $2,000 on the high end \u2014 'a huge savings that can go right to the bottom line.' Also quoted: Matthew Wilkins (principal analyst, iSuppli) and Kevin Unbedacht (Symantec).",
+  "creator": {
+    "@type": "Person",
+    "name": "Mark Long, Data Storage Today / CIO Today Network"
+  },
+  "datePublished": "2008-09-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

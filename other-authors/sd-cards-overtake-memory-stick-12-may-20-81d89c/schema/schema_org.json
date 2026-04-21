@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SD cards overtake Memory Stick",
+  "description": "Computing.co.uk (vnunet) news article (May 12 2003) reporting that Secure Digital (SD) Memory Cards captured almost 25% of the $81M US retail removable-media market in January-February 2003, overtaking Sony's Memory Stick for the first time. NPD Group data shows 400% SD sales growth in 2002. Peter Kastner, chief research officer at Aberdeen Group, comments: 'Consumers are gravitating to SD based on form factor, price, wide availability and extensive interchangeability among consumer digital electronics. The rapid consumer adoption of MP3 players, PDAs, digital cameras and camcorders are driving SD demand. We think that the miniSD will become a critical technology enabler in next-generation cellphones.' Ray Creech (President, SD Card Association) echoes the 550+ supporting-company roster and 5x yearly demand growth. SD Card Association introduced the miniSD Card in March 2003 for ultra-small devices such as next-generation mobile phones.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robert Jaques, vnunet.com / Computing.co.uk"
+  },
+  "datePublished": "2003-05-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

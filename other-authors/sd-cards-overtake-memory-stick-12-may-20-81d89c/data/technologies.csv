@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sd-memory-card","Secure Digital (SD) Memory Card","platform","SD-Association","1999-present","mature","active","sd-cards-overtake-memory-stick-12-may-20-81d89c","Flash memory card standard led by Panasonic/SanDisk/Toshiba; widely used in cameras, phones, PDAs"
+"sony-memory-stick","Sony Memory Stick","platform","Sony","1998-2013","mature","end-of-life","sd-cards-overtake-memory-stick-12-may-20-81d89c","Sony proprietary flash memory card format; gradually abandoned in favor of SD"
+"minisd-card","miniSD Memory Card","platform","SD-Association","2003-2010","new","legacy-supplanted","sd-cards-overtake-memory-stick-12-may-20-81d89c","Small form factor SD variant for mobile phones; largely displaced by microSD (2005)"
+"mp3-player","MP3 player (portable flash music)","device","industry","1997-present","mature","legacy-supplanted","sd-cards-overtake-memory-stick-12-may-20-81d89c","Portable digital audio player; largely replaced by smartphones by 2015"
+"digital-camera","Consumer digital camera","device","industry","1995-present","mature","legacy-supplanted","sd-cards-overtake-memory-stick-12-may-20-81d89c","Standalone point-and-shoot and camcorders; mostly replaced by smartphone cameras"

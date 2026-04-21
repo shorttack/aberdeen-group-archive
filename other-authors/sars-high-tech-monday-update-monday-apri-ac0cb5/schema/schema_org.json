@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "High Tech Monday Update: SARS and the Tech Stock Rally",
+  "description": "Thomson Financial 'High Tech Monday Update' distributed via PR Newswire (Apr 7 2003) summarizing the prior week in technology stocks. The piece blends four themes: SARS impact on electronics manufacturers (Motorola closed a Singapore factory temporarily; Intel and HP shut Hong Kong offices briefly); Semiconductor Industry Association's 3.3% YoY worldwide sales decline (February); UBS Warburg caution on IT spending; and war-news-driven midweek rally. Peter Kastner, analyst at Aberdeen Group, is cited via Dow Jones Newswires on the SARS risk to tech supply chains: 'At a minimum, the SARS epidemic will cause schedule slippages and disrupt the aggressive growth plans that global electronics companies have for the affected geographies. Worst case, it could result in major supply-chain disruptions and another downdraft for an already challenged industry.' Barry Ritholtz (Maxim Group) and Peter Gottlieb (First Albany Asset Management) also quoted on rally dynamics.",
+  "creator": {
+    "@type": "Person",
+    "name": "Thomson Financial Corporate Group (via PR Newswire)"
+  },
+  "datePublished": "2003-04-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sd-memory-card","Secure Digital (SD) Memory Card","platform","SD-Association","1999-present","mature","active","sd-memory-cards-to-drive-market-for-digi-71a434","Flash memory card standard led by Panasonic/SanDisk/Toshiba; widely used in cameras, phones, PDAs"
+"minisd-card","miniSD Memory Card","platform","SD-Association","2003-2010","new","legacy-supplanted","sd-memory-cards-to-drive-market-for-digi-71a434","Small form factor SD variant for mobile phones; largely displaced by microSD (2005)"
+"aberdeen-memory-cards-study","Consumer Adoption of Memory Cards: A Qualitative Study (Aberdeen for IHA)","framework","Aberdeen Group","2003-2004","new","legacy-supplanted","sd-memory-cards-to-drive-market-for-digi-71a434","Aberdeen Group qualitative study for Internet Home Alliance"

@@ -1,0 +1,261 @@
+{
+  "name": "sars-wirft-schatten-uber-elektronische-b-bf33b6",
+  "title": "SARS wirft Schatten \u00fcber elektronische Beschaffungskette",
+  "description": "German-language EE Times Europe article (Apr 8 2003) by Robert Ristelhueber (EBN) on SARS's shadow over the electronic supply chain. Datelined Manhasset. Business travel to Asia has ground to a halt; manufacturing and distribution in China and Southeast Asia face problems. Cites Motorola's temporary Singapore night-shift closure (532 workers affected), HP and Intel employees with SARS/SARS-like symptoms in Hong Kong, Chartered Semiconductor Manufacturing's contingency plans, Flextronics International preventive measures, and quotes from Chuck Magee (EVP Sales/Marketing at America II Electronics, St. Petersburg FL), Steven Fox (Merrill Lynch NY analyst), Raymond Tsang (President Avnet Electronics Marketing Asia HK), Schuyler Glidden (President SG Industries Beverly MA), and Tony Tseng (Merrill Lynch Taipei). Most critically, Peter Kastner, analyst at the Boston-based Aberdeen Group, estimates the SARS impact will be far more far-reaching than companies currently imagine: 'Kurzfristig haben wir es mit einer Unterbrechung des Reiseverkehrs von F\u00fchrungskr\u00e4ften und Verkaufsmitarbeitern nach und aus Asien zu tun. Sollten die Quarant\u00e4nema\u00dfnahmen jedoch zunehmen, wird das einen erheblichen Einfluss auf die Weltwirtschaft haben. Dann wird nichts mehr hergestellt \u2014 weder Kondensatoren noch Weihnachtsgeschenke.' Kastner further advises every executive to think through the 'unimaginable,' giving the example of laptop manufacturers asking: where do our power supplies come from? Everyone buys them from China. What happens if I cannot move goods by ship or air out of the country?",
+  "version": "1.0.0",
+  "created": "2026-04-21",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Robert Ristelhueber, EBN (EE Times Europe / Germany)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

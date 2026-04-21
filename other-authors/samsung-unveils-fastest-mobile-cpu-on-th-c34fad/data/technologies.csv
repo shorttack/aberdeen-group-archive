@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"arm-embedded-cpu","ARM architecture embedded CPU","platform","ARM Ltd.","1985-present","mature","active","samsung-unveils-fastest-mobile-cpu-on-th-c34fad","RISC architecture licensed to many fabs; dominant in mobile, embedded, and increasingly server/PC (M1/M2)"
+"samsung-s3c2440","Samsung S3C2440 ARM920T mobile processor","chip","Samsung Electronics","2004-2015","new","legacy-supplanted","samsung-unveils-fastest-mobile-cpu-on-th-c34fad","32-bit RISC microprocessor 533 MHz ARM920T core 0.13-micron; used in Samsung and third-party handhelds"
+"amba-bus","Advanced Microcontroller Bus Architecture (AMBA)","protocol","ARM Holdings","1996-present","mature","active","samsung-unveils-fastest-mobile-cpu-on-th-c34fad","On-chip interconnect spec for ARM-based SoCs; AHB/APB/AXI"
+"windows-ce","Microsoft Windows CE","operating-system","Microsoft","1996-2013","mature","end-of-life","samsung-unveils-fastest-mobile-cpu-on-th-c34fad","Compact Windows for embedded/handheld devices; Pocket PC lineage"
+"palm-os","Palm OS","operating-system","Palm Inc.","1996-2009","mature","end-of-life","samsung-unveils-fastest-mobile-cpu-on-th-c34fad","OS for Palm Pilot/Treo devices; abandoned 2009"

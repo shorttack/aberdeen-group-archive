@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sap-r3","SAP R/3 ERP system","platform","SAP AG","1992-present","mature","legacy-supported","sap-sybase-face-off-f2612e","Client/server ERP suite; dominant in Fortune 500 ERP implementations 1990s-2000s"
+"sybase-sql-server","Sybase SQL Server System 10 / 11 (ASE)","DBMS","Sybase","1988-present","mature","legacy-supported","sap-sybase-face-off-f2612e","Sybase relational database engine; shared codebase history with Microsoft SQL Server 4.2; renamed Adaptive Server Enterprise"
+"row-level-locking","Row-level locking (DBMS concurrency)","framework","industry","1988-present","mature","active","sap-sybase-face-off-f2612e","Fine-grained concurrency control in relational databases; essential for high-concurrency transaction workloads"
+"oracle-database","Oracle Database 7/8i/9i/10g/11g","DBMS","Oracle Corporation","1979-present","mature","active","sap-sybase-face-off-f2612e","Leading commercial relational database; client/server through cloud"
+"client-server","Client-Server Computing","framework","industry","1988-2005","mature","legacy-supplanted","sap-sybase-face-off-f2612e","PC-workstation + server tier architecture displaced by web/SOA/cloud"

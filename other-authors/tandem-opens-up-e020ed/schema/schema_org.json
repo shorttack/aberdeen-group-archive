@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tandem Opens Up",
+  "description": "InformationWeek issue #563 news article (Jan 22 1996) by Barbara DePompa on Tandem Computers Inc.'s strategic pivot under new CEO Roel Pieper. Tandem \u2014 the pioneer of fault-tolerant NonStop systems \u2014 had just named the 39-year-old Pieper president and CEO on Jan 8 1996, replacing founder Jim Treybig, who stepped down after a 72% quarterly-earnings drop amid product delays. Pieper, previously head of Tandem's UB Networks subsidiary since 1993 (and earlier at Unix System Labs and Software AG), aims to shift Tandem toward partnerships and component software that let Tandem's advanced software run on other vendors' hardware. The strategy targets Unix and Windows NT environments. Peter Kastner, analyst with Aberdeen Group Boston, endorses the pick: Pieper 'knows open systems and production computing requirements' thanks to his Unix Systems Labs and Software AG background. Tandem emphasizes NonStop and ServerNet technology partnerships going forward.",
+  "creator": {
+    "@type": "Person",
+    "name": "Barbara DePompa, InformationWeek #563"
+  },
+  "datePublished": "1996-01-22",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

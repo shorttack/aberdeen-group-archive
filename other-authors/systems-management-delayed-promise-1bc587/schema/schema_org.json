@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Systems Management: Delayed Promise",
+  "description": "InformationWeek issue #694 feature (Aug 3 1998) by Stuart J. Johnston with Monua Janah analyzing the state of Microsoft's Zero Administration Windows (ZAW) initiative nearly two years after its announcement. Core thesis: the pieces are falling into place \u2014 Windows-based terminals (HP), Terminal Server edition of Windows NT 4.0, Systems Management Server 2.0 in final testing \u2014 but the plan still hinges on the delayed Windows NT 5.0 (later Windows 2000). Peter Kastner, Aberdeen Group analyst, provides the key skeptical quote: full benefits of Zero Administration accrue only to companies with homogeneous NT 5.0 environments, so cost savings 'will happen very slowly, in an evolutionary fashion' as companies upgrade. Additional reporting by Mary Hayes and Caryn Gillooly. Article captures the 1998 moment when NT 5.0's delays and the thin-client/terminal strategy dominated the IT systems-management conversation.",
+  "creator": {
+    "@type": "Person",
+    "name": "Stuart J. Johnston with Monua Janah, InformationWeek #694"
+  },
+  "datePublished": "1998-08-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

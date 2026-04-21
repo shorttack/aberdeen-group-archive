@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tablet Offers High-Risk, High-Reward Portable PCs",
+  "description": "InformationWeek feature (Dec 17 2001) by Aaron Ricadela on Microsoft's Tablet PC initiative, championed by Bill Gates as a natural evolution from laptops. The article walks through the Tablet PC architecture (standard laptop components + Windows XP Tablet PC Edition + digital-ink stylus), vendor launches planned for late 2002 from Acer, Compaq, Fujitsu, Toshiba and others, and key use cases (field sales, healthcare, construction, meeting notes). Peter Kastner, analyst at Aberdeen Group, provides a key cautionary quote: 'Microsoft will make a huge positioning mistake if this is viewed as a specialized information-gathering appliance.' Gates predicts one-third to half of laptops by end of 2003 will be Tablets. The article captures the high-expectation pre-launch moment almost a year before the Tablet PC's formal November 2002 ship.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aaron Ricadela, InformationWeek"
+  },
+  "datePublished": "2001-12-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

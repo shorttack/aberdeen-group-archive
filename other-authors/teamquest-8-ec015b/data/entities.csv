@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","teamquest-8-ec015b","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","teamquest-8-ec015b","EVP / chief research officer / research VP; various titles 1988-2007"
+"teamquest-corp","TeamQuest Corporation","company","systems-management-software","acquired","Helpsystems / Fortra (2018)","1991-2018","teamquest-8-ec015b","Clear Lake IA performance-management software vendor; acquired by Helpsystems 2018, now Fortra"
+"helpsystems-fortra","Helpsystems / Fortra","company","cybersecurity-software","renamed","Fortra (2022)","1982-present","teamquest-8-ec015b","Eden Prairie MN enterprise software holding co.; acquired TeamQuest 2018; rebranded Fortra 2022"

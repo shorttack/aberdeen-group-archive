@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","industry-analyst","acquired","Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis","1988-present","systems-management-delayed-promise-1bc587","Boston-based IT industry analyst firm"
+"peter-s-kastner","Peter S. Kastner","person","industry-analyst","active","","1970s-present","systems-management-delayed-promise-1bc587","EVP / chief research officer / research VP; various titles 1988-2007"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","systems-management-delayed-promise-1bc587","Redmond WA software company"
+"hewlett-packard","Hewlett-Packard Company","company","PC-manufacturing","split","HP Inc. + Hewlett Packard Enterprise (2015)","1939-2015","systems-management-delayed-promise-1bc587","Original HP company"
+"informationweek","InformationWeek / TechWeb","firm","news-media","active","","1985-present","systems-management-delayed-promise-1bc587","IT business trade publication; Techweb digital arm"
+"stuart-j-johnston-journalist","Stuart J. Johnston","person","journalist","active","","1990s-present","systems-management-delayed-promise-1bc587","Longtime Microsoft/enterprise-software journalist; InformationWeek, Computerworld, PCWorld"
+"monua-janah-journalist","Monua Janah","person","journalist","[DEFERRED]","","","systems-management-delayed-promise-1bc587","InformationWeek co-writer; later Reuters"

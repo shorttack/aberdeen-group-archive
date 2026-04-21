@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"unix-operating-system","UNIX operating system","operating-system","AT&T Bell Labs / The Open Group","1969-present","mature","legacy-supported","sun-shares-tumble-in-pre-market-trading--000d37","Multi-user time-sharing OS; forks include Solaris, HP-UX, AIX, IRIX; largely displaced by Linux in enterprise"
+"sun-solaris","Sun Solaris / SunOS","operating-system","Sun Microsystems / Oracle","1991-present","mature","legacy-supported","sun-shares-tumble-in-pre-market-trading--000d37","Sun SPARC/x86 UNIX; renamed Oracle Solaris post-2010 acquisition; moribund under Oracle"
+"sun-sparc","Sun SPARC processor architecture","chip","Sun Microsystems / Oracle","1987-2017","mature","legacy-supplanted","sun-shares-tumble-in-pre-market-trading--000d37","Scalable Processor Architecture RISC CPU family; Oracle ended SPARC development 2017"

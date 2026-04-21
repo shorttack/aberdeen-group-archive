@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"us-code-1782-discovery","28 U.S.C. §1782 foreign-proceedings discovery","framework","US-government","1964-present","mature","active","supreme-court-orders-intel-documents-rel-e6e110","US statute permitting US district courts to order discovery for use in foreign or international tribunals; massively broadened by Intel v. AMD (2004)"
+"x86-architecture","x86 processor architecture","chip","Intel / AMD","1978-present","mature","active","supreme-court-orders-intel-documents-rel-e6e110","Intel 8086-descended CISC processor architecture; dominant desktop/server ISA; Intel/AMD duopoly plus Via; now challenged by ARM"

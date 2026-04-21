@@ -728,3 +728,12 @@ Batch 10 ("webarchives letter S and T") — no skips. All 8 files produced studi
   **Sun-shares-tumble-in-pre-market-trading-MarketWatch-2.webarchive** (marketwatch.com/story/sun-shares-tumble-in-pre-market-trading) —
   Both MarketWatch, both dated Jul 23 2003, both on Sun's FY03 Q4 miss. **Evaluated as syndication candidates and KEPT as distinct studies.** Rationale: different bylines (Rex Crum closing-bell piece at 5:51 p.m. EST vs Mike Tarsala pre-market piece at 9:16 a.m. EST), different URLs, different narrative frames (market-reaction wrap-up vs pre-market stub with pre-market euro-trading context), different financial datapoints (239M shares most-active-in-US vs 10% pre-market drop from $4.77 to $4.30). The Kastner "edge of respectability" / "big mistake to give up on Sun" soundbite is identical across both articles (same-day soundbite recycling by MarketWatch) but the stories themselves are independent MarketWatch reports at distinct points in the trading day, not republications. Ingested as `sun-micro-slammed-mw-crum-2003` and `sun-shares-tumble-mw-tarsala-2003` respectively.
 
+
+
+---
+
+## Batch 36 notes (2026-04-20)
+
+Batch 11 ("webarchives letter T") — no skips. All 10 files produced studies.
+
+All 10 webarchives processed as distinct Kastner citations across Wired, CNN/Money (Eric Hellweg "Tech Investor" column × 3), BusinessWeek Online, InternetWeek (reblogged via Schroeder's Techno-News-Blog as Kastner-authored primary), and TechNewsWorld (Jay Lyman × 4). No URL duplicates, no cross-property CNET syndication, no same-article variants. The Techno-News-Blog item (Jan 7 2003) is a ~1,489-char reblog excerpt of the Kastner-authored InternetWeek "Take Her Up to 2.4 GHz, Mr. Scott" guest column — preserved as an authored-column study (type `authored-column`) since Kastner is the primary author and the reblog confirms source attribution.

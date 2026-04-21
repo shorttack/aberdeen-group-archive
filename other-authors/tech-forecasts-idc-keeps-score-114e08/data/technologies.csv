@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-xp","Microsoft Windows XP","operating-system","Microsoft","2001-2014","new","legacy-supplanted","tech-forecasts-idc-keeps-score-114e08","Consumer-plus-business NT-kernel Windows release; XP Home, Pro, Media Center, Tablet PC Edition; most widely-deployed Windows release; end-of-support 2014"
+"it-spending-forecast","IT-spending forecast (annual industry outlook)","framework","industry","1970-present","mature","active","tech-forecasts-idc-keeps-score-114e08","Annual quantified IT-spending growth forecasts from IDC, Gartner, Forrester, Aberdeen; multi-billion-dollar industry around global tech-budget forecasting"
+"web-services-soap","SOAP/XML Web Services","protocol","W3C","2000-2010","new","legacy-supplanted","tech-forecasts-idc-keeps-score-114e08","XML-based RPC/messaging protocol; WS-* stack; displaced by REST/JSON and later GraphQL/gRPC"

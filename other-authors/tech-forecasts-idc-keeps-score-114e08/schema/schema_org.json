@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tech Forecasts: IDC Keeps Score",
+  "description": "Wired article (Dec 23 2002) by Elisa Batista scoring IDC's 2002 tech-predictions report card and previewing IDC's 2003 forecast. IDC admitted it was off by a year in predicting a 2002 IT-spending recovery; now forecasts companies will replace outdated hardware in 2003 and projects 6% IT-spending growth. Competing analysts project closer to 3%. Craig Lawton (Boston Consulting Group) and Peter Kastner (Aberdeen Group) weigh in \u2014 Kastner credits IDC with correctly calling the Windows XP launch as a non-event: 'They did get that one right. Because it is a stable operating system, the Windows XP launch came and went without much brouhaha.' Article also covers Jupiter Research's warning that web-services hype had reached 'hysteria levels' with 82% of executives claiming their companies use web services in some capacity.",
+  "creator": {
+    "@type": "Person",
+    "name": "Elisa Batista, Wired"
+  },
+  "datePublished": "2002-12-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

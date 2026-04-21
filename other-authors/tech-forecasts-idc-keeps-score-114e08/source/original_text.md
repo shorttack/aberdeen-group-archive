@@ -1,0 +1,77 @@
+# Tech Forecasts: IDC Keeps Score
+
+> Archived from: Tech-Forecasts-IDC-Keeps-Score.webarchive
+> Original publication date: 2002-12-23
+> Author: Elisa Batista, Wired
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.wired.com/techbiz/it/news/2002/12/56901
+MIME: text/html
+
+Tech Forecasts: IDC Keeps Score <a href="http://ad.doubleclick.net/click%3Bh=v8/384f/3/0/%2a/w%3B210977107%3B0-0%3B0%3B16145452%3B3454-728/90%3B29841453/29859330/1%3B%3B%7Eaopt%3D2/1/6c/0%3B%7Esscs%3D%3fhttp://clk.atdmt.com/MRT/go/129641672/direct/01/" target="_blank"><img src="http://view.atdmt.com/MRT/view/129641672/direct/01/1274720"/></a><noscript><a href="http://ad.doubleclick.net/click%3Bh=v8/384f/3/0/%2a/w%3B210977107%3B0-0%3B0%3B16145452%3B3454-728/90%3B29841453/29859330/1%3B%3B%7Eaopt%3D2/1/6c/0%3B%7Esscs%3D%3fhttp://clk.atdmt.com/MRT/go/129641672/direct/01/" target="_blank"><img border="0" src="http://view.atdmt.com/MRT/view/129641672/direct/01/1274720" /></a></noscript> Wired Home Subscribe 12 issues (one year) for just $10 *plus applicable sales tax First Name Last Name Address 1 Address 2 City State Choose Alabama Alaska American samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Marshall Islands Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Palau Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Virgin Islands Washington West Virginia Wisconsin Wyoming Zip E-mail Non-USA - Click Here Privacy Policy Sections Cars 2.0 Culture Entertainment Gadgets Gaming How-To Med Tech Multimedia Politics Product Reviews Science Software Tech Biz Tech Jobs Wired Biz Dual Perspectives Wired Insider Blogs Autopia Danger Room Epicenter Gadget Lab Game | Life GeekDad Monkey Bites Raw File This Day in Tech Threat Level Underwire Wired Science All Blogs Reviews Automotive Camcorders Desktops Digital Cameras Gaming Gear Home Audio/Video Household Mobile Phones Notebooks Media Players Sports/Outdoors Televisions All Reviews Video How To Magazine Sign In | RSS Feeds All Wired Top Stories Magazine Wired Blogs Video Tech Biz : IT Tech Forecasts: IDC Keeps Score Elisa Batista 12.23.02 Every year, market research firm IDC makes 10 technology predictions. Every year, the company prides itself on getting at least seven of those 10 predictions right. This year was no exception. IDC recently assessed its predictions for 2002 and awarded itself a 7.5 out of 10. But competing analysts said IDC made the right call only half of the time. IT rebound begins mid-2002 IDC admitted it was off by at least a year in predicting in 2001 that companies would resume spending money on information technology and telecommunications gear in 2002. Now IDC says it expects companies to replace their outdated hardware next year. While competing analysts agree that the IT sector will pick up with an increase in spending next year, they don't agree with IDC on the rate of that growth. IDC is predicting a 6 percent spending spike, whereas other analysts place that number at 3 percent. "I don't see (IT spending) bouncing back to the time of the Internet craze," said Craig Lawton, vice president of competing research company Boston Consulting Group. Windows XP will be a non-event "They did get that one right," said Peter Kastner, an analyst with Aberdeen Group. Because it is a "stable" operating system, the Windows XP launch came and went without much brouhaha, Kastner said. Web services hype reaches hysteria levels The term "Web services" is so general that 82 percent of executives said their companies use them in some capacity, Jupiter Research analysts said. Jupiter fears that the term has been bandied about so much in the press that it will lose its meaning. "Speaking of a market for Web services is like speaking of a market for molecules," Jupiter said in a report. "It is undoubtedly large, but nonsensical." Companies refer to any messaging and Internet-based architecture they may use as a Web service, Jupiter said. Many companies adopt Web services to replace IT staff and cut costs. But different Web standards have emerged, making some companies hesitant to adopt them, said Jupiter analyst Matthew Berk. Companies have also struggled with how to make networks secure and how to run programs on them that will satisfy their customers and increase revenue. "It's 100 percent accurate," Berk said of IDC's prediction. "The Web services hype was absolutely dramatic." China will be No. 3 tech market by 2010 China will ramp up on IT spending to the point that it will become the third largest market, following the United States and Japan, IDC said. But other analysts wondered if IDC cheated on this prediction by giving themselves seven years for it to come true. Joe Laszlo, an analyst with Jupiter Research said he often gets clients with products that will "at least do well in China," if only because it's home to so many potential customers. Full Page | Page: 1 2 next> Yahoo! Buzz Stumble ShareThis See Also: IDC: Tech Bucks, Hack Threats Up Tech Pros Gather Antispam Forces Is that a TiVo Under the Tree? It's Time to Trash That Old VCR You know IT/IS Important Sleighbells & Whistles: More tidings for the season Give Yourself Some Business News Search Wired Top Stories Magazine Wired Blogs All Wired Related Topics: Tech Biz , IT , Media Comments (0) Want to start a new thread or reply to a post? Login / Register and start talking! There are no comments Login / Registration Email Article Full Page Comments Advertisement With HP wireless printers, you could have printed this from any room in the house. Live wirelessly. Print wirelessly. Sponsored by: <a href="http://ad.doubleclick.net/click%3Bh=v8/384f/3/0/%2a/c%3B211009321%3B0-0%3B0%3B16145452%3B4307-300/250%3B29841121/29858998/1%3B%3B%7Eaopt%3D2/1/6c/0%3B%7Esscs%3D%3fhttp://clk.atdmt.com/MRT/go/129649491/direct/01/" target="_blank"><img src="http://view.atdmt.com/MRT/view/129649491/direct/01/1275001"/></a><noscript><a href="http://ad.doubleclick.net/click%3Bh=v8/384f/3/0/%2a/c%3B211009321%3B0-0%3B0%3B16145452%3B4307-300/250%3B29841121/29858998/1%3B%3B%7Eaopt%3D2/1/6c/0%3B%7Esscs%3D%3fhttp://clk.atdmt.com/MRT/go/129649491/direct/01/" target="_blank"><img border="0" src="http://view.atdmt.com/MRT/view/129649491/direct/01/1275001" /></a></noscript> Most Popular Most Commented Popular Today on Wired Porsche’s ‘Widowmaker’ Gets Even Deadlier Pirate Bay Launches VPN Service High-Altitude Wind Machines Could Power New York City Déjà Poo: The Living Machine Sewage System Mysterious Gamma-Ray Bursts May Have Ties to Failed Black Holes See Them While You Can: Endangered Butterfly Gallery Activists Launch Hack Attacks on Tehran Regime Tesla Motors Founder: Let Me Run Detroit Senators Introduce “Run The Tubes Under The Highway” Bill GM Killed the Wrong Brand Most Commented Déjà Poo: The Living Machine Sewage System Ars Technica reports : The open source movement spawned a generation of collaborative coders. Now it's affecting the hardware industry. Wired reports : User-created online culture isn't "mass culture," but it's culture by the masses. The New Socialism: Global Collectivist Society Is Coming Online Slideshow: Tales From Packaging Hell Hacking My Kid's Brain: How a Child's Neurons Were Rewired With No Long-Term Solution, Nuclear Pallbearers Bury Waste in America's Backyard Subscribe to WIRED Renew Give a gift International Orders Top 10 Small Business CRM 2009 Latest CRM Vendor Ranking Download Free Vendor Ranking Report - Business-Software.com/Top10Report Compare CRM Vendors Compare CRM Vendors with our free guide and save up to 60% on CRM. - www.insidecrm.com The Year of SaaS Learn how you can leverage a SaaS business model today. - www.montclairadvisors.com Ads by Google Services Subscription: Subscribe | Give a Gift | Renew | International | Questions | Change Address Quick Links: Contact Us | Login/Register Logout | Newsletter | RSS Feeds | Tech Jobs | Wired Mobile | FAQ | Sitemap Corrections | Sitemap | FAQ | Contact Us | Wired Staff | Advertising | Press Center | Subscription Services | Newsletter | RSS Feeds Condé Nast Web Sites: Webmonkey | Reddit | ArsTechnica | Epicurious | NutritionData | Concierge | HotelChatter | Jaunted | Style.com | Men.Style.com Subscribe to a magazine: View All Titles Allure Architectural Digest Bon Appétit Brides Condé Nast Portfolio Condé Nast Traveler Cookie Details Elegant Bride Glamour Golf Digest Golf World Gourmet GQ Lucky Modern Bride Self Teen Vogue The New Yorker Vanity Fair Vogue W Wired Condé Nast web sites: Allure Architectural Digest ArsTechnica Bon Appétit Brides.com Condé Nast Traveler Condé Nast Portfolio Concierge Cookie Details Elegant Bride Epicurious Glamour Golf Digest Golf World Gourmet GQ Hotel Chatter Jaunted Lucky Men.Style.com Modern Bride Nutrition Data Reddit Self Style.com Teen Vogue The New Yorker The Sartorialist Vanity Fair Vogue Webmonkey W Registration on or use of this site constitutes acceptance of our User Agreement (Revised 4/1/2009) and Privacy Policy (Revised 4/1/2009). Wired.com © 2009 Condé Nast Digital. All rights reserved. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast Digital.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | tech-forecasts-idc-keeps-score-114e08 |
+| title | Tech Forecasts: IDC Keeps Score |
+| author | Elisa Batista, Wired |
+| date | 2002-12-23 |
+| type | news-article |
+| subject_domain | IT-spending-forecast |
+| methodology | industry-analysis, analyst-commentary |
+| source_file | Tech-Forecasts-IDC-Keeps-Score.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Wired article (Dec 23 2002) by Elisa Batista scoring IDC's 2002 tech-predictions report card and previewing IDC's 2003 forecast. IDC admitted it was off by a year in predicting a 2002 IT-spending recovery; now forecasts companies will replace outdated hardware in 2003 and projects 6% IT-spending growth. Competing analysts project closer to 3%. Craig Lawton (Boston Consulting Group) and Peter Kastner (Aberdeen Group) weigh in — Kastner credits IDC with correctly calling the Windows XP launch as a non-event: 'They did get that one right. Because it is a stable operating system, the Windows XP launch came and went without much brouhaha.' Article also covers Jupiter Research's warning that web-services hype had reached 'hysteria levels' with 82% of executives claiming their companies use web services in some capacity.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Primary Wired end-of-2002 coverage of IDC tech forecasting accuracy; captures Kastner positioning against IDC on the rate (not direction) of 2003 IT-spending recovery and his endorsement of IDC on Windows XP-as-non-event. |
+| **Relevance** | medium | Annual IT-forecast-accuracy scorecards remain a perennial trade-press exercise; the gap between IDC optimism and competing firms' more modest forecasts recurs regularly (e.g., IDC vs Gartner vs Forrester 2023-2025 on AI-driven IT spending). |
+| **Prescience** | medium | Kastner's call on Windows XP-as-non-event proved accurate — XP became the most successful Windows release ever (end-of-support 2014; still deployed worldwide). IDC's 6% 2003 IT-spending forecast was directionally correct — actual 2003 worldwide IT spending grew roughly 5-6% per IDC 2004 numbers — though industry-wide spending took years to return to pre-dot-com levels. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (9)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| International Data Corporation (IDC) | firm | active |  |
+| Microsoft Corporation | company | active |  |
+| Wired magazine / Wired.com | firm | active |  |
+| Elisa Batista | person | [DEFERRED] |  |
+| Craig Lawton | person | [DEFERRED] |  |
+| Boston Consulting Group (BCG) | firm | active |  |
+| Jupiter Research / JupiterMedia | firm | acquired | Forrester Research (2008) |
+
+### Technologies Referenced (3)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Microsoft Windows XP | operating-system | Microsoft | new | legacy-supplanted |
+| IT-spending forecast (annual industry outlook) | framework | industry | mature | active |
+| SOAP/XML Web Services | protocol | W3C | new | legacy-supplanted |
+
+### Observation Summary
+
+- Total observations: 6
+- By type: market-data: 3, actual-outcome: 2, expert-opinion: 1

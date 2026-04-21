@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Plastic Discovery Means Advanced Memory",
+  "description": "TechNewsWorld news article (Nov 13 2003, 10:12 AM PT) by Jay Lyman on a joint HP/Princeton University research discovery in polymer/plastic non-volatile memory. Peter Kastner, chief research officer at Aberdeen Group, contextualizes the discovery within the broader thin-film-polymer-memory research landscape including parallel Intel and AMD efforts. Kastner's key analytical move is to deflect attention to the more fundamental constraints on near-term memory: 'The biggest problem with today's high-density transistor memory is heat dissipation. If a polymer or plastic can't solve the electronic demands, it won't matter.' Kastner points to the emerging DDR2 memory (due in 2004) as the near-term solution. He also notes that next-generation DVD-writing technology will use much less metal while supporting dual layers \u2014 which bodes well for CD/DVD longevity (refuting early predictions that plastic memory would kill optical media).",
+  "creator": {
+    "@type": "Person",
+    "name": "Jay Lyman, TechNewsWorld"
+  },
+  "datePublished": "2003-11-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

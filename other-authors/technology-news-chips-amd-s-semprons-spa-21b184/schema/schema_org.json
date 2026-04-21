@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AMD's Semprons Spare Athlon from Low-End Market",
+  "description": "TechNewsWorld news article (Jun 8 2004, 10:24 AM PT) by Jay Lyman on AMD's launch of the Sempron CPU brand to replace Athlon XP in the low-end desktop market \u2014 freeing the Athlon brand to compete exclusively in the mainstream/premium segment. Peter Kastner, chief research officer at Aberdeen Group, provides the global-market framing: 'There might not be increasing budget market demand in the United States, but in other parts of the world such as Thailand or Malaysia, the so-called white-box market represents 40 percent of available sales... To compete with the very low-end systems, AMD needs a mature and inexpensive processor because cost is more important in that market.' Insight64 analyst Dean McCarron also comments on AMD's split-branding strategy to clearly separate mainstream-willing-to-pay-more from price-sensitive low-cost markets.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jay Lyman, TechNewsWorld"
+  },
+  "datePublished": "2004-06-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

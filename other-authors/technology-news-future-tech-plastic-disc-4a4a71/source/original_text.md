@@ -1,0 +1,109 @@
+# Plastic Discovery Means Advanced Memory
+
+> Archived from: Technology-News-Future-Tech-Plastic-Discovery-Means-Advanced-Memory.webarchive
+> Original publication date: 2003-11-13
+> Author: Jay Lyman, TechNewsWorld
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.technewsworld.com/story/32136.html
+MIME: text/html
+
+Technology News: Future Tech: Plastic Discovery Means Advanced Memory E-BUSINESS | TECHNOLOGY | CLASSIFIEDS [NEW] | CRM | LINUX | MAC | ECTNEWS.COM Welcome | Sign In <script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.2;abr=!ie;sz=728x90;ord=12451742503626?" type="text/javascript"><!--//<![CDATA[ //]]>//--></script> <noscript> <a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.2;abr=!ie4;abr=!ie5;sz=728x90;ord=12451742503626?"> <img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.2;abr=!ie4;abr=!ie5;sz=728x90;ord=12451742503626?" border="0" width="728" height="90" alt="Click Here" /></a> </noscript> Future Tech Technology Future Tech Biometrics Nanotech Robotics Gaming Green Tech Home Tech Home Entertainment Home Networks Media Convergence Reviews Science Med Tech Space Tech Buzz Computing Data Management Data Center Data Storage Disaster Recovery Hardware Chips Personal Computers Servers Software Open Source Operating Systems Virtualization Mobile Tech GPS Handheld Devices RFID WiFi Hotspot Locator Wireless Networking Internet P2P Tech Search Tech Web 2.0 Blogosphere Podcasting Social Networking Video 2.0 Wikis Web Apps Security Cyberattacks Exploits & Vulnerabilities Encryption Malware Network Intrusion Privacy IT Management Core Services Communication Systems Tech Support User Access Development Tools & Processes Workflow Management IT Leadership CIO Tech Pathfinders Sysadmin Implementation IT Maintenance Reader Services Account Management Become an Affiliate Discussion Free Classifieds News Alerts Newsletters RSS / Headline Feeds Site Maps ECT News Network Map CRM Buyer Site Map E-Commerce Times Site Map LinuxInsider Site Map MacNewsWorld Site Map TechNewsWorld Site Map Search ECT News Network | Tech Blog DISCUSSION | NEWSLETTERS | ACCOUNT MGMT --> June 16, 2009 01:44:16 PM TechNewsWorld > Technology > Future Tech | Read Next Article in Future Tech Please note that this material is copyright protected. It is illegal to display or reproduce this article without permission for any commercial purpose, including use as marketing or public relations literature. To obtain reprints of this article for authorized use, please call a sales representative at (818) 461-9700 or visit http://www.ectnews.com/about/reprints/ . Plastic Discovery Means Advanced Memory Print Version E-Mail Article Reprints By Jay Lyman TechNewsWorld 11/13/03 10:12 AM PT The discovery, achieved by HP and Princeton researchers in Forrest's university laboratory, came during work with a polymer material called Pedot -- a clear, conductive plastic used as coating on photographic film and as electrical contact on video displays. Think your data is safe? Think again. Data-stealing malware is on the rise. Trend Micro Enterprise Security, powered by the Trend Micro Smart Protection Network, blocks threats before they reach your network. Learn how. Download our Outthink the Threat eBook or register for a free, on-site assessment. With the discovery of a new property in commonly used plastics, researchers from Princeton University and Hewlett-Packard (NYSE: HPQ) said they have invented a combination of materials that could lower the cost and boost the density of electronic memory. The research, detailed in this month's issue of Nature , involves a previously unrecognized property in a widely used polymer plastic coating. Combined with thin-film silicon transistors, the polymer can store data like a CD but would serve as a conventional electronic memory chip, plugging right into an electronic circuit with no moving parts. "We're hybridizing," said Princeton electrical engineering professor and research group leader Stephen Forrest. "We are making a device that is organic in the plastic polymer and inorganic in the thin-film silicon at the same time." Researchers believe the invention could be the basis for a grid of memory circuits so small that a megabit, or 1 million bits of information, could fit on a square millimeter of paper-thin material. When put together in a block, the plastic device could store more than one gigabyte of information, the equivalent of 1,000 high-quality images, in one cubic centimeter about the size of a fingertip. <script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.3;abr=!ie;sz=160x600;ord=12451742501572?" type="text/javascript"><!--//<![CDATA[ //]]>//--></script> <noscript> <a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.3;abr=!ie4;abr=!ie5;sz=160x600;ord=12451742501572?"> <img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.3;abr=!ie4;abr=!ie5;sz=160x600;ord=12451742501572?" border="0" width="160" height="600" alt="Click Here" /></a> </noscript> Plastic Pluses The discovery, achieved by HP and Princeton researchers in Forrest's university laboratory, came during work with a polymer material called Pedot -- a clear, conductive plastic used as coating on photographic film and as electrical contact on video displays. Princeton postdoctoral researcher Steven Moller, who is now with HP, found that Pedot conducts electricity at low voltages but permanently loses its conductivity when exposed to higher electrical currents, making it act like a circuit breaker. In using Pedot as a storage medium, a device would use a grid of circuits in which all of the connections contain a Pedot fuse. With the introduction of high voltages, the fuses would blow and represent the zeros while unblown fuses would represent the ones that make up computerized data and digital images. Princeton representative Steven Shultz told TechNewsWorld that researchers believe the technology will decrease the size, increase reliability and speed up reading and writing of memory chips. Other Issues Aberdeen Group chief research officer Peter Kastner said the plastic memory is related to other thin-film polymer memory approaches from the likes of Intel (Nasdaq: INTC) and Advanced Micro Devices (NYSE: AMD) . However, Kastner said cost and density advantages still do not address larger issues for electronic memory -- heat and leakage -- that will be tackled in new DDR2 memory due out next year. "The biggest problem with today's high-density transistor memory is heat dissipation," he said. "If a polymer or plastic can't solve the electronic density issue and leakage, it will be difficult for it to be adopted." While he conceded that it might indeed become an important discovery in the next decade, Kastner stressed that any new invention will be slow to be adopted because of the billions of dollars already invested in existing manufacturing and install base. One Time, Short Time However, Princeton's Forrest said the new memory -- limited to one-time use -- could be ready for market within as little as five years, given additional work on creating a large-scale manufacturing process and ensuring compatibility with existing hardware. In response to the plastic memory discovery, many predicted it could mean the end of today's CDs and DVDs as mainstream storage media. Kastner, however, pointed out that the next generation of DVD-writing technology will use much less metal while still being able to support dual layers, which bodes well for the longevity of the technology. Social Networking Toolbox: ShareThis Next Article in Future Tech: Intel Discovers New Insulation for Future Chips Talkback: Join the Discussion. Re: Plastic Discovery Means Advanced Memory fedrive Posted 2003-11-19 If large current value is used to blow ... Print Version E-Mail Article Reprints More by Jay Lyman Related Stories The Bottom Line of the Notebook Boom (05-Nov-03) Apple Ships Low-Cost G4 iBooks (22-Oct-03) Sharp Ships 3D Notebook (13-Oct-03) Sharp Rolls Out Mebius PC-RD3D Laptop with 3D Display (12-Sep-03) Apple Updates iMac and iPod, Touts iTunes Success (09-Sep-03) Related News Alerts Hewlett-Packard Activate Alert | Search Archives Intel Activate Alert | Search Archives AMD Activate Alert | Search Archives More Stories by Jay Lyman Open Source Developer Dumps Novell Over Microsoft Deal (26-Dec-06) Financial Firms Tap Microsoft for Linux (22-Dec-06) Mozilla Beefs Up Security in Firefox 2.0 (21-Dec-06) [Search More...] Don't miss a story -- sign up for our FREE e-mail newsletters and view the latest headlines at a glance. Tech News Flash [ View Sample ] E-Commerce Minute [ View Sample ] ECT News Network Weekly Newsletter [ View Sample ] Check Out TechNewsWorld's Free Classifieds! Shortcuts Get Business and Technology News Alerts Most Popular | Spotlight Features | Exclusives This Week on ECT News Network | Podcasts WiFi Hotspot Locator Inside TechNewsWorld Free White Papers | Case Studies | Reports Improve email results with free Email Design No-No's Guide. Create Business Opportunities with Rich Entertainment Experiences Memo to Digital Marketers: Be Strategic and Prove the ROI Why Offshore Projects Fail: 6 Things to Know Before You Outsource VCs Speak Out: Where the Tech Investments Are Going TechNewsWorld Beware of the Information Security Inertia Syndrome Survey: As Web Use Climbs, Family Time Slips Playing a Hunch: Social Decision-Making Site Carves Out New Niche in Search China Scrambles to Repair Crumbling Green Dam Samsung Takes Wraps Off New Omnia Smartphone Lineup The Rise and Fall of Traditional Journalism, Part 5 Apple Pounds Palm, Sets Sights on Redmond Is Online Learning a Solution for Cash-Strapped California Schools? Using GPS Phones to Track Virtual Infections - and Real Epidemics Facebook Members to Become Masters of Their Domain Names E-Commerce Times The Multichannel E-Commerce Path Out of the Recession Jammie Thomas, RIAA Go At It Again IBM Offers Platform for Diving Into the Cloud IT Needs a New Drug Citrix Online Brings SMBs Into the Virtual Meeting Room MacNewsWorld Virgin Serves Up MP3 Buffet Glad Works Makes Marketing Moves Through iPhone Apps Safari 4 Goes to Eleven WWDC: iPhone Invigorated, Snow Leopard Spruced, AT&T Tarnished Should You Spring for an iPhone 3GS? CRM Buyer Administration Mulls Financial Services Industry Makeover GE Aims to Jump-Start EMR Adoption With No-Interest Loans Turning 'Interesting Moments' Into Sales: Q&A With Marketo CEO Phil Fernandez Chrysler Customers' Shrinking Service Options Safeguarding the Crown Jewels With Online Brand Monitoring LinuxInsider EnterpriseDB Smooths Way for Oracle App Migration Trolls and Astroturfers and Shills, Oh My! Yahoo's Hadoop to Run Free in the Wild Leeches or Users? Should Enterprise IT Have to Give Back to FOSS? 'MobMovs' Give New Meaning to 'Community' Theater Sponsored Links Avaya Aura (TM) A new era in communications. Explore>> Think your data is safe? Register for a free assessment. Or get our ebook now. trendmicro.com/thinkagain Free White Paper Learn how to drive consumer engagement with entertainment metadata. Inside TechNewsWorld CIO A Voice for Tech: Carly Fiorina's Political Ambitions The iPhone 3G and the Risk of Great Marketing Bhaskar Rao: Conquering Space and Time With MIMO Computing Picking Up the Pieces After Downsizing: Avoid Orphaned Data Skyfire Lets Fly With Speedier Mobile Browser Is Windows App Envy a Thing of the Past? Data Management HP Gives Scale-Out Architecture Extreme Makeover Bite the Bullet and Throw Away Your Data EMC's Data Domain Bid Puts NetApp in Tough Spot, Says Analyst ECT News Exclusives Keeping Credit Card Numbers Well-Cloaked: Q&A With Fingerhut's Mark Lieberg Outsource or Keep It Home? Have It Your Way: Q&A With Alpine Access CEO Chris Carrington Riding Out the Storm: Q&A With Information Builders CEO Gerry Cohen Future Tech The Blood and Guts of Biometric Systems Robots and the Law: Will the Real Inventor Please Stand Up? The Networked Garden: MIT Undergrads Build Robo-Farmers Green Tech Utility Companies Plug In to Google PowerMeter Study Sees Eco-Threat in Power-Guzzling Gadgets Xerox Goes for the Green With Crayon-Like Printer Ink Hardware The Asus EeeTop: A Nettop in Search of a Mission Snow Leopard to Claw at Enterprise Front Doors Apple Launches Speedy New iPhone, Cuts a Bunch of Prices Internet Spain's Music Piracy Battle: Is Building the Ship as Bad as Plundering the Booty? EC Scoffs at Microsoft's Offer to Ship Browser-Free OS The Rise and Fall of Traditional Journalism, Part 4 IT Management Apple Primed for iPhone Song-and-Dance Extravaganza Google Lobbyist Unfit for Deputy CTO Job, Say Critics Mobile Development and Multiplicity Madness Mobile Tech Clampdown Week: iPhone vs. Pre, China vs. Web, FTC vs. Worst ISP Ever The TV Studio in Your Hand: The Future of News Gathering Former iPod Guru Takes Palm's Helm Must Read It's Time to Push Back Against Twitter Backlash How Apple Made Windows 7 Better Portable Ubuntu, Windows Live Together in Perfect Harmony Open Source The US Army: It's Better with Vista? Openness, Linux and Mobile Innovation Acer Greases Android for Netbook Duty Science Endeavour Visitors to Make Record-Setting ISS Crowd Computer Accident Study Highlights Hazards of Home Office NASA May Buddy Up With Europe on Road to Mars Security LOL, I'm on Vacay, Rob Me! New App Aims to Plug Holes in Leaky Enterprise Data Hulls China's New PC Policy Injects Big Brother With Steroids Software Fedora Sets Leonidas Loose, Builds Collaboration Portal Natal Drops Jaws, Nvidia Shines, Pre Sets New Bar The Mainframe Bridge to the Cloud Spotlight Features Toiling Away in 'White-Collar Sweatshops' - aka Call Centers Windows XP: The Legacy Lives On Taking a Shine to iPhone in the Enterprise Tech Buzz Microsoft Goes Bing, Palm's Pwned A Clarion Call for Expanding E-Commerce Google Is the Sarah Palin of Enterprise Vendors Web 2.0 TwitterFon Pro: Tweet Harder, Tweet Smarter Blerp Refocuses the Web Through Comment-Colored Glasses Surviving the Downturn Through Social Marketing ECT News Network Information Publications E-Commerce Times TechNewsWorld LinuxInsider CRM Buyer MacNewsWorld Free Newsletters E-Commerce Minute Tech News Flash ECT News Network Weekly Newsletter Newsletter Sign Up Reader Services Account Management Become an Affiliate Discussion Free Classifieds Linking Policy Network Map News Alerts RSS / Headline Feeds Search ECT News Network Locate Products and Services E-Business Info Center IT Resources Open Source Technology CRM Solutions Center --> Corporate About Careers Contact Us Business Development Permissions Reprint Information How To Advertise Terms of Service | Privacy Policy | How To Advertise Copyright 1998-2009 ECT News Network, Inc. All Rights Reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | technology-news-future-tech-plastic-disc-4a4a71 |
+| title | Plastic Discovery Means Advanced Memory |
+| author | Jay Lyman, TechNewsWorld |
+| date | 2003-11-13 |
+| type | news-article |
+| subject_domain | memory-technology-research |
+| methodology | analyst-commentary, vendor-commentary |
+| source_file | Technology-News-Future-Tech-Plastic-Discovery-Means-Advanced-Memory.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+TechNewsWorld news article (Nov 13 2003, 10:12 AM PT) by Jay Lyman on a joint HP/Princeton University research discovery in polymer/plastic non-volatile memory. Peter Kastner, chief research officer at Aberdeen Group, contextualizes the discovery within the broader thin-film-polymer-memory research landscape including parallel Intel and AMD efforts. Kastner's key analytical move is to deflect attention to the more fundamental constraints on near-term memory: 'The biggest problem with today's high-density transistor memory is heat dissipation. If a polymer or plastic can't solve the electronic demands, it won't matter.' Kastner points to the emerging DDR2 memory (due in 2004) as the near-term solution. He also notes that next-generation DVD-writing technology will use much less metal while supporting dual layers — which bodes well for CD/DVD longevity (refuting early predictions that plastic memory would kill optical media).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Kastner's 2003 analytical framing correctly deflates the over-hyped polymer-memory-replaces-flash narrative and redirects to the heat-dissipation and DDR2 realities that actually dominated the next memory generation. Classic Kastner skeptical-analyst rendering of a research breakthrough. |
+| **Relevance** | low | Polymer/plastic memory never reached commercial volume; DDR2 is long superseded by DDR5; DVD is largely superseded by flash and streaming. Direct topical relevance is low. Underlying pattern — analyst skepticism about research-breakthrough press releases and redirection to incremental-tech roadmap — remains evergreen (cf. 2024 analyst skepticism on quantum memory, MRAM, 3D XPoint). |
+| **Prescience** | high | Kastner was exactly right: polymer memory never became mainstream (3D XPoint / Optane arrived 2015 but was discontinued 2022; Thin Film Electronics existed but never scaled); DDR2 did arrive in 2004-2005 as predicted; heat dissipation and leakage did dominate memory-roadmap constraints through the DDR3/DDR4/DDR5 eras. CD/DVD hung on longer than the plastic-memory-will-kill-optical narrative suggested. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Heat dissipation gate
+- **Claimed:** The biggest problem with today's high-density transistor memory is heat dissipation. If a polymer or plastic can't solve the electronic demands, it won't matter.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 1:** Polymer memory never scales
+- **Result:** Polymer/plastic memory never reached commercial volume at mainstream density; Thin Film Electronics filed for bankruptcy/reorganization 2021 after three decades of effort; 3D XPoint/Optane briefly delivered persistent memory 2015-2022 then was discontinued — validating Kastner's 2003 skepticism.
+- **Confidence:** verified
+- **Notes:** Backfill — polymer-memory non-event
+
+**Prediction 2:** DDR2 due next year
+- **Claimed:** Cost and density advantages of polymer memory still do not address the larger issues for electronic memory — heat and leakage — that will be tackled in new DDR2 memory due out next year (2004).
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 2:** DDR2 mainstream
+- **Result:** DDR2 SDRAM became mainstream in 2005-2006 desktop and server memory — exactly the year Kastner forecast — and dominated until DDR3 (2007+) and DDR4 (2014+).
+- **Confidence:** verified
+- **Notes:** Backfill — DDR2 timeline
+
+**Prediction 3:** DVD longevity bodes well
+- **Claimed:** The next generation of DVD-writing technology will use much less metal while still being able to support dual layers, which bodes well for the longevity of the technology — refuting predictions that polymer memory would end mainstream CD/DVD use.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Actual Outcome 3:** CD/DVD slow decline
+- **Result:** CD/DVD media persisted in enterprise backup and consumer video through 2015-2020 and still exist in 2025 for archival and limited consumer use — outlasting the 2003-era plastic-memory-kills-optical narrative that Kastner refuted.
+- **Confidence:** verified
+- **Notes:** Backfill — Kastner DVD-longevity call validated
+
+
+### Entities Referenced (9)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Hewlett-Packard Company | company | split | HP Inc. + Hewlett Packard Enterprise (2015) |
+| Intel Corporation | company | active |  |
+| Advanced Micro Devices, Inc. | company | active |  |
+| TechNewsWorld / ECT News Network | firm | active |  |
+| Jay Lyman | person | active |  |
+| Princeton University | firm | active |  |
+| Thin Film Electronics ASA | company | shut-down | bankrupt / reorganized (2021) |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Polymer / plastic memory (non-volatile) | platform | HP/Princeton/Intel/AMD | new | end-of-life |
+| DDR2 SDRAM memory | chip | JEDEC | new | legacy-supplanted |
+| Flash memory (NAND/NOR) | chip | industry | mature | active |
+| CD / DVD optical storage media | platform | industry | mature | legacy-supplanted |
+| Intel/Micron 3D XPoint / Optane | chip | Intel + Micron | new | end-of-life |
+
+### Observation Summary
+
+- Total observations: 7
+- By type: viability-prediction: 3, actual-outcome: 3, expert-opinion: 1

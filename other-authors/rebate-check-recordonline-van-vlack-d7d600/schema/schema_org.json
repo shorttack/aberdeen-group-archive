@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The (rebate) check is in the mail \u2013 or is it?",
+  "description": "Times Herald-Record (Middletown NY) consumer-affairs column (Apr 27 2003, Jon Van Vlack) on the rebate industry's breakage economics. Consumer-advocate Van Vlack estimates annual rebate offers at $10B+ and frames rebates as a 'marketing game' designed to extract full-price sales. Peter Kastner of the Boston-based Aberdeen Group provides the headline statistic: '60 percent of all consumers entitled to a rebate never get the refund.' Wharton marketing professor John Zhang calls the system a 'two-worlds' win for manufacturers: consumers pay full price AND fail to redeem. Van Vlack prescribes record-keeping and persistent follow-up. Earliest known Kastner citation on rebate breakage \u2014 predates BusinessWeek 2005 'Great Rebate Runaround' by 2.5 years.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jon Van Vlack, Times Herald-Record"
+  },
+  "datePublished": "2003-04-27",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

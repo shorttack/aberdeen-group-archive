@@ -1,0 +1,442 @@
+# The Great Rebate Debate
+
+> Archived from: The-Great-Rebate-Debate-at-SmartMoney.com-10.txt
+> Original publication date: 2006-04-17
+> Author: Kelli B. Grant, SmartMoney
+
+---
+
+## Original Document Text
+
+URL: http://www.smartmoney.com/spending/deals/The-Great-Rebate-Debate-19340/?hpadref=1
+
+The Great Rebate Debate at SmartMoney.com 
+
+ More 
+
+ BigCharts 
+
+ Virtual Stock Exchange 
+
+ FiLife.com 
+
+ WSJ Asia 
+
+ WSJ Europe 
+
+ WSJ Portuguese 
+
+ WSJ Spanish 
+
+ WSJ Chinese 
+
+ WSJ Radio 
+
+ Financial News Online 
+
+ Far Eastern Economic Review 
+
+ SEARCH 
+
+ Monday June 15, 2009 6:25 PM ET 
+
+ Home 
+ Home 
+
+ SmartMoney Insider: Join SmartMoney's exclusive reader panel to share your thoughts. 
+
+ Investing 
+ Investing 
+
+ Bonds   |  
+ Economy   |  
+ ETFs   |  
+ Market Update   |  
+ Mutual Funds   |  
+ Short Term Investing   |  
+ Stocks 
+
+ Spending 
+ Spending 
+
+ Autos   |  
+ Budgeting   |  
+ Deals   |  
+ For the Home   |  
+ Rip-offs   |  
+ Technology   |  
+ Travel 
+
+ Personal Finance 
+ Personal Finance 
+
+ College Planning   |  
+ Debt   |  
+ Elder Care   |  
+ Employment   |  
+ Estate Planning   |  
+ Health Care   |  
+ Insurance   |  
+ Marriage & Divorce   |  
+ Real Estate   |  
+ Retirement   |  
+ Taxes 
+
+ Tools 
+ Tools 
+
+ View All Tools   |  
+ Worksheets   |  
+ Mutual Fund Map   |  
+ Map of the Market   |  
+ My Portfolio   |  
+ My Watchlist   |  
+ Stock Screener   |  
+ Stock Quote   |  
+ Streaming Quotes 
+
+ Portfolio 
+ Portfolio 
+
+ MY PORTFOLIOS:   
+
+ Create a Portfolio 
+
+ Small Biz 
+ Small Biz 
+
+ Marketing   |  
+ Technology   |  
+ Capital   |  
+ Taxes   |  
+ Best Practices   |  
+ Benefits   |  
+ Profiles   |  
+ Columns 
+
+ Login | Register 
+ | Help |
+
+ Select  
+
+ FINANCIAL HELPLINE: Have a question for SmartMoney? Email ask@smartmoney.com or call us toll-free at 866-219-0687. 
+
+ Published April 17, 2006  |  
+ A A A 
+
+ Deal of the Day 
+ by 
+
+ Kelli B. Grant 
+ ( Author Archive )
+
+The Great Rebate Debate
+
+ MAIL-IN REBATES CREATE big incentives for shoppers. You see them all the time on electronics, office supplies and kitchen gadgets. And what's not to like? On a big purchase, they can easily save you hundreds of dollars.
+
+That is, if you fill them out correctly — or fill them out at all. "The dirty little secret of the industry has been that 40% of consumers don't file the rebate and that 20% bungle the paperwork," says Peter Kastner, an analyst with Aberdeen Group, a Boston-based market research firm. And let's face it: Some of these rebate forms and requirements almost seem designed to confuse.
+
+Granted, some retailers — including Staples, Best Buy and Rite Aid — have recently taken measures to make rebates easier to redeem. Forget about sending in the rebate form along with your receipt with the relevant purchase circled twice and the bar code from the box. With Staples' Easy Rebates , for example, most rebates can be activated by just entering two numbers from your store receipt on an online form.
+
+Those are the good guys. The shadier ones are actually making it increasingly harder for shoppers to redeem their rebate offers, says Edgar Dworsky, founder of the Consumer World web site. A common ploy? Ever shortening mail-in deadlines. Sometimes you'll have just 14 days from time of purchase. For those ordering online (and then waiting for the product to arrive) that means you have just about a week to get your paperwork in. So pay close attention to dates.
+
+To find available electronics rebates, check out Rebate Catcher . Then, to make sure you actually get your rebate money, follow these tips:
+
+ Scrutinize the company 
+
+Outright fraud is less common nowadays for mail-in rebates, says Kerry O'Brien, an attorney with the Federal Trade Commission, which goes after companies that don't send out rebates in a timely manner or fail to deliver on them at all. If the rebate is being offered by a little-known online company, check its reputation with the Better Business Bureau , she advises.
+
+ Follow rebate instructions to the letter 
+
+You know the drill: Print clearly in CAPITAL LETTERS, enclose the UPC and circle the original purchase price on your receipt.
+
+Be sure to keep a copy of all the paperwork. That way, should your original get lost or rejected, you can most likely re-submit, says Dworsky. Also, make a reminder for yourself of when your rebate is due to arrive. This can be as simple as a notation on your calendar, or a computer entry via PC World Magazine's free program download, " Rebate! Rebate! " which helps you track rebates and calculate your savings.
+
+ Watch the mail 
+
+Keep an eye out for your rebate. More companies are sending your rebate check on postcard-like sheets, says Dworsky. Rebates can easily be thrown out as junk mail if you don't pay attention.
+
+ Climb the complaint ladder 
+
+"If you have a problem, complain and complain loud," says O'Brien. Start by calling the rebate fulfillment center. There should be a phone number or web site address on your rebate form. If that doesn't solve your problem, call the customer service lines of the manufacturer and of the retailer. "They will want to preserve that customer relationship," she says.
+
+Still no luck? File complaints with both the Better Business Bureau and the Federal Trade Commission.
+
+ Related Stories 
+
+ Where to Find the Best Savings Rates 
+
+ 10 Things Your Kid's Camp Won't Tell You 
+
+ 7 Ways to Save at an Amusement Park 
+
+ Follow SmartMoney on Twitter & Tip'd: 
+
+ Find More Articles About:
+
+ Deals , 
+ Spending 
+
+ Trackback URL for this story: 
+http://www.smartmoney.com/tb/JNuq.2FA.3D.3D
+
+ What is a Trackback? 
+It is a way to tell us that you have published something that references this story.
+
+ How do I send a Trackback? 
+
+ If you blog or mention this story on your website, you can use this Trackback URL to notify us about it.
+ Some blogging software programs can help in sending a Trackback to us.
+
+ Click here to read more about Trackbacks.
+
+ Comments 
+
+ Print This Article 
+
+ Email 
+
+ Trackback 
+
+ Receive Email News Alerts 
+
+Advertisements
+
+ Bull or Bear market? Get stock forecast by Forbes columnist 
+
+ Go Acela - Book at Amtrak.com 
+
+ Join TD AMERITRADE and trade free for 30 days + get $100. 
+
+ Free stock symbol lookup: Scottrade stock research 
+
+ Switch to thinkorswim and get 3 mutual fund trades on the house. 
+
+ Offer employees Aflac and improve your benefits package at no direct cost. 
+
+ Get Help Making The Right Choices With The Life Insurance Selector 
+
+ Ally Bank offers top rates and no sneaky disclaimers. FDIC insured. 
+
+ Click to Take FPL's FREE Online Home Energy Survey and Start Saving! 
+
+ Economy Survey Corp International Country Reports 
+
+ CDs and High Yield Savings Accounts from American Express 
+
+ Get a Free Blackberry Smartphone at E*TRADE Securities 
+
+ SmartMoney Magazine - A smart investment. Subscribe for only $1 an issue. 
+
+ Help build your future with investment products from John Hancock. 
+
+ Markets 
+ My Quotes 
+ Most Active 
+
+ Index 
+ Price 
+
+ Chg. 
+ % Chg. 
+
+ DJIA 
+ 8612.13 
+
+ -187.13 
+ -2.13% 
+
+ Nasdaq 
+ 1816.38 
+
+ -42.42 
+ -2.28% 
+
+ S&P 500 
+ 923.72 
+
+ -22.49 
+ -2.38% 
+
+ Russell 2000 
+ 511.83 
+
+ -15.00 
+ -2.85% 
+
+ 10 Yr Bond 
+ 3.71 
+
+ -0.08 
+ -2.11% 
+
+ DJ Total Market Index 
+ 9467.50 
+
+ -233.64 
+ -2.41% 
+
+ S&P 400 
+ 581.51 
+
+ -15.51 
+ -2.60% 
+
+ Nasdaq 100 
+ 1456.96 
+
+ -33.01 
+ -2.22% 
+
+ DJ Transportation 
+ 3218.02 
+
+ -143.40 
+ -4.27% 
+
+Surviving the Credit Crunch
+
+ How to Stay Afloat 
+
+We take a look at the issues impacting small businesses and offer entrepreneurs advice on how to stay afloat during the financial crisis.
+
+ Crisis at Comedy Central: Audience for Stewart, Colbert is getting older 
+
+Jon Stewart and Stephen Colbert are Comedy Central's answer to Read More 
+
+ In Citi's tax plan, analyst sees mu... 
+
+ Eying growth, Huffpo switches CEOs 
+
+ More on DailyFinance >> 
+
+ RELATED LINKS 
+
+ Stock Quotes 
+
+ BloggingStocks 
+
+ Small Business 
+
+ Stock Charts 
+
+ Market News 
+
+ Investing 
+
+ Stock Ticker 
+
+ Walletpop 
+
+ Luxist 
+
+ Most Read 
+ Most Emailed 
+ Most Comments 
+
+ 1. 
+ 5 Stocks That Beat Inflation 
+
+ 2. 
+ 5 Blue Chips Trading at Bargain Price… 
+
+ 3. 
+ 7 Things You're Paying More Money For 
+
+ 4. 
+ 10 Things Contractors Won't Tell You 
+
+ 5. 
+ SmartMoney's 2009 Broker Survey 
+
+ 6. 
+ 10 Things Your Kid's Camp Won't Tell … 
+
+ 7. 
+ 13 Simple Ways to Lower Your Electric… 
+
+ 8. 
+ 3 Stock Picks: Few Bright Spots Amid … 
+
+ 9. 
+ 5 Risky Real Estate Deals 
+
+ 10. 
+ 5 Companies Upping Their Estimates 
+
+ Customer Service | Magazine Customer Service | Subscribe to SmartMoney Magazine | Your Profile | Contact Us 
+
+ About Our Ads | Corrections | Custom Publishing | License Our Content | Media Kit | Press Room | Events | Site Map | Labs | 
+
+ smSmallBiz ™ SMARTMONEY ® Layout and look and feel of SmartMoney.com and smSmallBiz.com are trademarks of SmartMoney, a joint venture between Dow Jones & Company, Inc. and Hearst SM Partnership. © 1995 - 2009 SmartMoney. All Rights Reserved. By accessing and using this page, you agree to our Privacy Policy and Terms of Use . All quotes delayed by 15 minutes. Delayed quotes provided by Interactive Data Real-Time Services, Inc. . Historical prices and fundamental data provided by Morningstar, Inc. Mutual fund data provided by Lipper . Mutual Fund NAVs are as of previous day's close. Earnings estimates provided by Zacks Investment Research . Insider trading data provided by Thomson Financial . Upgrades and downgrades provided by Briefing.com .
+
+ You Are Viewing: SmartMoney.com — Investing, Saving and Personal Finance.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | great-rebate-debate-smartmoney-grant-80650c |
+| title | The Great Rebate Debate |
+| author | Kelli B. Grant, SmartMoney |
+| date | 2006-04-17 |
+| type | news-article |
+| subject_domain | consumer-rebates |
+| methodology | consumer-advisory, analyst-commentary |
+| source_file | The-Great-Rebate-Debate-at-SmartMoney.com-10.txt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+SmartMoney.com 'Deal of the Day' column (Apr 17 2006, Kelli B. Grant) advising consumers on how to actually receive mail-in rebates. Peter Kastner of Aberdeen Group provides the canonical breakage statistic: 'The dirty little secret of the industry has been that 40% of consumers don't file the rebate and that 20% bungle the paperwork' — 60% total breakage. Staples Easy Rebates, Best Buy, and Rite Aid cited as retailers simplifying redemption. Consumer World's Edgar Dworsky highlights shortened deadlines (sometimes just 14 days). FTC attorney Kerry O'Brien addresses enforcement. Follows BusinessWeek 2005 'Great Rebate Runaround' by 5 months; Kastner is now back at Aberdeen Group per attribution (vs Vericours in 2005). Published in SmartMoney (Dow Jones/Hearst joint venture).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Canonical formulation of Kastner's rebate-breakage statistic in national consumer press — 40% don't file + 20% bungle = 60% industry breakage. This framing drove 2006-2008 consumer-advocate activism, FTC enforcement, and the Staples/Best Buy retailer-led reform wave. |
+| **Relevance** | medium | Mail-in rebate category largely collapsed post-2010; consumer-advocacy frameworks (check deadlines, keep copies, escalate complaints) remain applicable to modern cashback/loyalty programs and gift-card rebates. |
+| **Prescience** | high | Kastner's 60% breakage framing helped drive the industry transformation he effectively predicted: Staples' Easy Rebates (2005) expanded to online-only by 2008; Best Buy moved to instant-rebate checkout 2006-2008; mail-in rebates collapsed from $10B (2002) to ~$3B (2010) to <$500M (2020s). FTC enforcement increased 2005-2010. Kastner back at Aberdeen by 2006 attribution (vs Vericours 2005) — post-Harte-Hanks acquisition, Aberdeen rebuilt. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (16)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| SmartMoney (Dow Jones/Hearst joint venture) | publication | dissolved | Discontinued 2012 (merged into WSJ personal-finance) |
+| Kelli B. Grant | person | active |  |
+| Dow Jones & Company | company | acquired | News Corp (2007) |
+| Hearst Corporation | company | active |  |
+| Consumer World | publication | active |  |
+| Edgar Dworsky | person | active |  |
+| Federal Trade Commission | agency | active |  |
+| Kerry O'Brien | person | active |  |
+| Staples, Inc. | company | active | Sycamore Partners (2017 buyout) |
+| Best Buy Co., Inc. | company | active |  |
+| Rite Aid Corporation | company | active (Ch 11 2023) |  |
+| PC World Magazine | publication | dissolved | IDG (online only since 2013) |
+| Better Business Bureau | institution | active |  |
+| PC Magazine / PCMag.com | publication | active (online only since 2009) | Ziff Davis |
+
+### Technologies Referenced (2)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Mail-in Rebate Program | business-process | Multiple | mature | declining |
+| Staples Easy Rebates | software | Staples | new | mature |
+
+### Observation Summary
+
+- Total observations: 9
+- By type: expert-opinion: 5, actual-outcome: 3, market-data: 1

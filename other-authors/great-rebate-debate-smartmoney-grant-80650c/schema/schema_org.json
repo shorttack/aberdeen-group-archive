@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Great Rebate Debate",
+  "description": "SmartMoney.com 'Deal of the Day' column (Apr 17 2006, Kelli B. Grant) advising consumers on how to actually receive mail-in rebates. Peter Kastner of Aberdeen Group provides the canonical breakage statistic: 'The dirty little secret of the industry has been that 40% of consumers don't file the rebate and that 20% bungle the paperwork' \u2014 60% total breakage. Staples Easy Rebates, Best Buy, and Rite Aid cited as retailers simplifying redemption. Consumer World's Edgar Dworsky highlights shortened deadlines (sometimes just 14 days). FTC attorney Kerry O'Brien addresses enforcement. Follows BusinessWeek 2005 'Great Rebate Runaround' by 5 months; Kastner is now back at Aberdeen Group per attribution (vs Vericours in 2005). Published in SmartMoney (Dow Jones/Hearst joint venture).",
+  "creator": {
+    "@type": "Person",
+    "name": "Kelli B. Grant, SmartMoney"
+  },
+  "datePublished": "2006-04-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

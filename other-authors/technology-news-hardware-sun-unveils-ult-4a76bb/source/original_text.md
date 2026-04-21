@@ -1,0 +1,754 @@
+# Sun Unveils UltraSPARC IV Processor
+
+> Archived from: Technology-News-Hardware-Sun-Unveils-UltraSPARC-IV-Processor.txt
+> Original publication date: 2003-10-13
+> Author: Jay Lyman, TechNewsWorld
+
+---
+
+## Original Document Text
+
+URL: http://www.technewsworld.com/story/31843.html
+
+Technology News: Hardware: Sun Unveils UltraSPARC IV Processor 
+
+ E-BUSINESS | TECHNOLOGY | CLASSIFIEDS [NEW] | CRM | LINUX | MAC | ECTNEWS.COM 
+
+ Welcome | Sign In 
+
+<script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N5072.TechNewsWorld/B3424356;abr=!ie;sz=728x90;ord=12451742894778?" type="text/javascript"><!--//<![CDATA[
+//]]>//--></script>
+<noscript>
+<a href="http://ad.doubleclick.net/jump/N5072.TechNewsWorld/B3424356;abr=!ie4;abr=!ie5;sz=728x90;ord=12451742894778?">
+<img src="http://ad.doubleclick.net/ad/N5072.TechNewsWorld/B3424356;abr=!ie4;abr=!ie5;sz=728x90;ord=12451742894778?" border="0" width="728" height="90" alt="Click Here" /></a>
+</noscript>
+
+ Hardware 
+
+ Technology 
+
+ Future Tech 
+
+ Biometrics 
+
+ Nanotech 
+
+ Robotics 
+
+ Gaming 
+
+ Green Tech 
+
+ Home Tech 
+
+ Home Entertainment 
+
+ Home Networks 
+
+ Media Convergence 
+
+ Reviews 
+
+ Science 
+
+ Med Tech 
+
+ Space 
+
+ Tech Buzz 
+
+ Computing 
+
+ Data Management 
+
+ Data Center 
+
+ Data Storage 
+
+ Disaster Recovery 
+
+ Hardware 
+
+ Chips 
+
+ Personal Computers 
+
+ Servers 
+
+ Software 
+
+ Open Source 
+
+ Operating Systems 
+
+ Virtualization 
+
+ Mobile Tech 
+
+ GPS 
+
+ Handheld Devices 
+
+ RFID 
+
+ WiFi Hotspot Locator 
+
+ Wireless Networking 
+
+ Internet 
+
+ P2P Tech 
+
+ Search Tech 
+
+ Web 2.0 
+
+ Blogosphere 
+
+ Podcasting 
+
+ Social Networking 
+
+ Video 2.0 
+
+ Wikis 
+
+ Web Apps 
+
+ Security 
+
+ Cyberattacks 
+
+ Exploits & Vulnerabilities 
+
+ Encryption 
+
+ Malware 
+
+ Network Intrusion 
+
+ Privacy 
+
+ IT Management 
+
+ Core Services 
+
+ Communication Systems 
+
+ Tech Support 
+
+ User Access 
+
+ Development 
+
+ Tools & Processes 
+
+ Workflow Management 
+
+ IT Leadership 
+
+ CIO 
+
+ Tech Pathfinders 
+
+ Sysadmin 
+
+ Implementation 
+
+ IT Maintenance 
+
+ Reader Services 
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ News Alerts 
+
+ Newsletters 
+
+ RSS / Headline Feeds 
+
+ Site Maps 
+
+ ECT News Network Map 
+
+ CRM Buyer Site Map 
+
+ E-Commerce Times Site Map 
+
+ LinuxInsider Site Map 
+
+ MacNewsWorld Site Map 
+
+ TechNewsWorld Site Map 
+
+ Search ECT News Network 
+
+|
+
+ Tech Blog 
+
+ DISCUSSION | NEWSLETTERS | ACCOUNT MGMT 
+-->
+
+June 16, 2009 01:44:59 PM
+
+ TechNewsWorld > Computing > Hardware 
+ | Read Next Article in Hardware 
+
+Please note that this material is copyright protected. It is illegal to display or reproduce this article without permission for any commercial purpose, including use as marketing or public relations literature. To obtain reprints of this article for authorized use, please call a sales representative at (818) 461-9700 or visit http://www.ectnews.com/about/reprints/ .
+
+Sun Unveils UltraSPARC IV Processor
+
+ Print Version 
+
+ E-Mail Article 
+
+ Reprints 
+
+ By Jay Lyman
+TechNewsWorld 
+
+ 10/13/03 2:29 PM PT 
+
+The Sun UltraSPARC IV has a dual-threaded architecture -- two UltraSPARC III cores -- and features an on-chip memory controller that supports up to 16 GB of DRAM and on-chip tags for 8 MB of Level 2 cache per core.
+
+ Increase site performance with EV SSL. 
+Let your customers know your site is safe when they see the green address bar from VeriSign .
+
+In a bid to keep up with rivals Intel (Nasdaq: INTC) and IBM (NYSE: IBM) , Sun has revealed more of its "Throughput Computing" strategy by unveiling the new UltraSPARC IV processor, which uses multithreading to speed performance twofold compared with the UltraSPARC III.
+
+Sun said the UltraSPARC IV will begin shipping in systems during the first half of next year. It is part of a larger strategy that will include "a more radical chip multithreading design" by 2006, which may increase throughput of today's UltraSPARC IIIi by as many as 15 times.
+
+Sun's processor moves have been highly anticipated by its customers, but they come at a time when many industry observers are calling for Sun to exit the processor business -- an industry where the company faces fierce and constant competition from Intel's Itanium and IBM's Power processors.
+
+"Certainly, the message is Sun should reconsider what it's doing with processors," Gartner (NYSE: IT) vice president of research Martin Reynolds told TechNewsWorld. "Sun's value doesn't lie in the processor anymore. It lies in the robust systems and infrastructure they're capable of providing."
+
+<script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.3;abr=!ie;sz=160x600;ord=12451742895339?" type="text/javascript"><!--//<![CDATA[
+//]]>//--></script>
+<noscript>
+<a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.3;abr=!ie4;abr=!ie5;sz=160x600;ord=12451742895339?">
+<img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.3;abr=!ie4;abr=!ie5;sz=160x600;ord=12451742895339?" border="0" width="160" height="600" alt="Click Here" /></a>
+</noscript>
+
+More Threads for Throughput
+
+In revealing more about the new UltraSPARC IV at the 16th annual Microprocessor Forum in San Jose, California, Sun touted its multithreading design , which allows the processor to execute multiple application threads simultaneously to improve overall throughput.
+
+Reynolds, who likened the technology to multiple processors on a single chip, said it was easier for Sun to build the multiple cores on one chip than to redesign a more advanced chip.
+
+The Sun UltraSPARC IV has a dual-threaded architecture -- two UltraSPARC III cores -- and features an on-chip memory controller that supports up to 16 GB of DRAM and on-chip tags for 8 MB of off-chip Level 2 cache per core.
+
+Overwhelming Numbers
+
+Sun's strategic marketing manager for UltraSPARC, Harlan McGhan, told TechNewsWorld that the company eventually will move to 90-nanometer production with longtime partner Texas Instruments (NYSE: TXN) and has plans for a processor with eight cores on a single-chip die.
+
+"That's a single chip that can actually execute 32 threads in parallel," McGhan said. "We think the strategy of overwhelming the compute problem with numbers is an opportunity."
+
+While he praised the additional cache Sun built into the new UltraSPARC IV, Reynolds said Sun's multithreading technology is still untested in practice.
+
+Competing, Not Crushing
+
+ Aberdeen Group research director Peter Kastner told TechNewsWorld that although Sun's processors are not leaving competing chips in the dust, they do not need to do so.
+
+"Sun's customers want UltraSPARC IV to be successful so they can continue to feel comfortable investing in Sun and in Sun's real strength, which is Solaris," Kastner said. "To Sun's installed base, UltraSPARC IV has to be competitive. It doesn't have to be world-beating."
+
+Reynolds, who said Intel's Xeon processor is taking a toll on all competitors, indicated that the large server market where Sun has historically played well is suffering from the increasing share of lower-cost servers.
+
+Sun Chips Go Stale
+
+Reynolds echoed other industry analysts who have called on Sun to walk away from processors, where the Santa Clara, California-based company has never been a performance leader.
+
+"One has to wonder if the economics behind it make as much sense as they did 15 years ago," he said.
+
+In response, Sun's McGhan said the company believes there is room for technological innovation that cannot be achieved through the "commodity price/performance curve."
+
+Aberdeen's Kastner also said it would be foolish for Sun to exit processors, given the company's history and investment already.
+
+"The big picture is Sun has more to gain at this time by delivering a world-beating UltraSPARC IV than by abandoning 20 years of work in chip research," Kastner said.
+
+ Social Networking Toolbox: 
+ ShareThis 
+
+ Next Article in Hardware:
+ Sharp Ships 3D Notebook 
+
+ Talkback: Be the first to comment on this story. 
+
+ Print Version 
+ E-Mail Article 
+ Reprints 
+ More by Jay Lyman 
+
+Related Stories 
+
+ Unbiased Opinion and the Future of Sun Micro (09-Oct-03)
+
+ SCO Mulls Terminating SGI License (02-Oct-03)
+
+ Sun's Storm Warning Casts Cloud on Tech Sector (30-Sep-03)
+
+ Sun's Java Desktop System Will Support Athlon 64 (26-Sep-03)
+
+ Apple Posts Darwin Source Code, Pulls OS X Update (26-Sep-03)
+
+Related News Alerts
+
+ Intel 
+ Activate Alert |
+ Search Archives 
+
+ IBM 
+ Activate Alert |
+ Search Archives 
+
+ Gartner 
+ Activate Alert |
+ Search Archives 
+
+ Texas Instruments 
+ Activate Alert |
+ Search Archives 
+
+More Stories by Jay Lyman
+
+ Open Source Developer Dumps Novell Over Microsoft Deal (26-Dec-06)
+
+ Financial Firms Tap Microsoft for Linux (22-Dec-06)
+
+ Mozilla Beefs Up Security in Firefox 2.0 (21-Dec-06)
+
+ [Search More...] 
+
+Don't miss a story -- sign up for our FREE e-mail newsletters and view the latest headlines at a glance.
+
+ Tech News Flash [ View Sample ]
+
+ E-Commerce Minute [ View Sample ]
+
+ ECT News Network Weekly Newsletter [ View Sample ]
+
+ Check Out TechNewsWorld's Free Classifieds! 
+
+Shortcuts
+
+ Get Business and Technology News Alerts 
+
+ Most Popular | Spotlight Features | Exclusives 
+
+ This Week on ECT News Network | Podcasts 
+
+ WiFi Hotspot Locator 
+
+ Inside TechNewsWorld 
+
+Free White Papers
+
+ Configuration Assessment: Choosing the Right Solution 
+
+ The Predictive Enterprise - Whats So Special About It? 
+
+ Symark PowerBroker: Root Access Risk Control for the Enterprise 
+
+ Data Privacy Best Practices 
+
+ 24/7 Uptime for Electronic Health Records 
+
+ TechNewsWorld 
+
+ Beware of the Information Security Inertia Syndrome 
+
+ Survey: As Web Use Climbs, Family Time Slips 
+
+ Playing a Hunch: Social Decision-Making Site Carves Out New Niche in Search 
+
+ China Scrambles to Repair Crumbling Green Dam 
+
+ Samsung Takes Wraps Off New Omnia Smartphone Lineup 
+
+ The Rise and Fall of Traditional Journalism, Part 5 
+
+ Apple Pounds Palm, Sets Sights on Redmond 
+
+ Is Online Learning a Solution for Cash-Strapped California Schools? 
+
+ Using GPS Phones to Track Virtual Infections - and Real Epidemics 
+
+ Facebook Members to Become Masters of Their Domain Names 
+
+ E-Commerce Times 
+
+ The Multichannel E-Commerce Path Out of the Recession 
+
+ Jammie Thomas, RIAA Go At It Again 
+
+ IBM Offers Platform for Diving Into the Cloud 
+
+ IT Needs a New Drug 
+
+ Citrix Online Brings SMBs Into the Virtual Meeting Room 
+
+ MacNewsWorld 
+
+ Virgin Serves Up MP3 Buffet 
+
+ Glad Works Makes Marketing Moves Through iPhone Apps 
+
+ Safari 4 Goes to Eleven 
+
+ WWDC: iPhone Invigorated, Snow Leopard Spruced, AT&T Tarnished 
+
+ Should You Spring for an iPhone 3GS? 
+
+ CRM Buyer 
+
+ Administration Mulls Financial Services Industry Makeover 
+
+ GE Aims to Jump-Start EMR Adoption With No-Interest Loans 
+
+ Turning 'Interesting Moments' Into Sales: Q&A With Marketo CEO Phil Fernandez 
+
+ Chrysler Customers' Shrinking Service Options 
+
+ Safeguarding the Crown Jewels With Online Brand Monitoring 
+
+ LinuxInsider 
+
+ EnterpriseDB Smooths Way for Oracle App Migration 
+
+ Trolls and Astroturfers and Shills, Oh My! 
+
+ Yahoo's Hadoop to Run Free in the Wild 
+
+ Leeches or Users? Should Enterprise IT Have to Give Back to FOSS? 
+
+ 'MobMovs' Give New Meaning to 'Community' Theater 
+
+Sponsored Links
+
+Avaya Aura (TM)
+
+ A new era in communications. Explore>> 
+
+Think your data is safe?
+
+ Register for a free assessment. Or get our ebook now. trendmicro.com/thinkagain 
+
+Free White Paper
+
+ Learn how to drive consumer engagement with entertainment metadata. 
+
+Inside TechNewsWorld
+
+ CIO 
+
+ A Voice for Tech: Carly Fiorina's Political Ambitions 
+
+ The iPhone 3G and the Risk of Great Marketing 
+
+ Bhaskar Rao: Conquering Space and Time With MIMO 
+
+ Computing 
+
+ Picking Up the Pieces After Downsizing: Avoid Orphaned Data 
+
+ Skyfire Lets Fly With Speedier Mobile Browser 
+
+ Is Windows App Envy a Thing of the Past? 
+
+ Data Management 
+
+ HP Gives Scale-Out Architecture Extreme Makeover 
+
+ Bite the Bullet and Throw Away Your Data 
+
+ EMC's Data Domain Bid Puts NetApp in Tough Spot, Says Analyst 
+
+ ECT News Exclusives 
+
+ Keeping Credit Card Numbers Well-Cloaked: Q&A With Fingerhut's Mark Lieberg 
+
+ Outsource or Keep It Home? Have It Your Way: Q&A With Alpine Access CEO Chris Carrington 
+
+ Riding Out the Storm: Q&A With Information Builders CEO Gerry Cohen 
+
+ Future Tech 
+
+ The Blood and Guts of Biometric Systems 
+
+ Robots and the Law: Will the Real Inventor Please Stand Up? 
+
+ The Networked Garden: MIT Undergrads Build Robo-Farmers 
+
+ Green Tech 
+
+ Utility Companies Plug In to Google PowerMeter 
+
+ Study Sees Eco-Threat in Power-Guzzling Gadgets 
+
+ Xerox Goes for the Green With Crayon-Like Printer Ink 
+
+ Hardware 
+
+ The Asus EeeTop: A Nettop in Search of a Mission 
+
+ Snow Leopard to Claw at Enterprise Front Doors 
+
+ Apple Launches Speedy New iPhone, Cuts a Bunch of Prices 
+
+ Internet 
+
+ Spain's Music Piracy Battle: Is Building the Ship as Bad as Plundering the Booty? 
+
+ EC Scoffs at Microsoft's Offer to Ship Browser-Free OS 
+
+ The Rise and Fall of Traditional Journalism, Part 4 
+
+ IT Management 
+
+ Apple Primed for iPhone Song-and-Dance Extravaganza 
+
+ Google Lobbyist Unfit for Deputy CTO Job, Say Critics 
+
+ Mobile Development and Multiplicity Madness 
+
+ Mobile Tech 
+
+ Clampdown Week: iPhone vs. Pre, China vs. Web, FTC vs. Worst ISP Ever 
+
+ The TV Studio in Your Hand: The Future of News Gathering 
+
+ Former iPod Guru Takes Palm's Helm 
+
+ Must Read 
+
+ It's Time to Push Back Against Twitter Backlash 
+
+ How Apple Made Windows 7 Better 
+
+ Portable Ubuntu, Windows Live Together in Perfect Harmony 
+
+ Open Source 
+
+ The US Army: It's Better with Vista? 
+
+ Openness, Linux and Mobile Innovation 
+
+ Acer Greases Android for Netbook Duty 
+
+ Science 
+
+ Endeavour Visitors to Make Record-Setting ISS Crowd 
+
+ Computer Accident Study Highlights Hazards of Home Office 
+
+ NASA May Buddy Up With Europe on Road to Mars 
+
+ Security 
+
+ LOL, I'm on Vacay, Rob Me! 
+
+ New App Aims to Plug Holes in Leaky Enterprise Data Hulls 
+
+ China's New PC Policy Injects Big Brother With Steroids 
+
+ Software 
+
+ Fedora Sets Leonidas Loose, Builds Collaboration Portal 
+
+ Natal Drops Jaws, Nvidia Shines, Pre Sets New Bar 
+
+ The Mainframe Bridge to the Cloud 
+
+ Spotlight Features 
+
+ Toiling Away in 'White-Collar Sweatshops' - aka Call Centers 
+
+ Windows XP: The Legacy Lives On 
+
+ Taking a Shine to iPhone in the Enterprise 
+
+ Tech Buzz 
+
+ Microsoft Goes Bing, Palm's Pwned 
+
+ A Clarion Call for Expanding E-Commerce 
+
+ Google Is the Sarah Palin of Enterprise Vendors 
+
+ Web 2.0 
+
+ TwitterFon Pro: Tweet Harder, Tweet Smarter 
+
+ Blerp Refocuses the Web Through Comment-Colored Glasses 
+
+ Surviving the Downturn Through Social Marketing 
+
+ECT News Network Information
+
+ Publications 
+
+ E-Commerce Times 
+
+ TechNewsWorld 
+
+ LinuxInsider 
+
+ CRM Buyer 
+
+ MacNewsWorld 
+
+ Free Newsletters 
+
+ E-Commerce Minute 
+
+ Tech News Flash 
+
+ ECT News Network Weekly Newsletter 
+
+ Newsletter Sign Up 
+
+Reader Services
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ Linking Policy 
+
+ Network Map 
+
+ News Alerts 
+
+ RSS / Headline Feeds 
+
+ Search ECT News Network 
+
+ E-Business Info Center 
+
+ IT Resources 
+
+ Open Source Technology 
+
+ CRM Solutions Center 
+
+ -->
+
+Corporate
+
+ About 
+
+ Careers 
+
+ Contact Us 
+
+ Business Development 
+
+ Permissions 
+
+ Reprint Information 
+
+ How To Advertise 
+
+ Terms of Service | Privacy Policy | How To Advertise 
+
+Copyright 1998-2009 ECT News Network, Inc. All Rights Reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | technology-news-hardware-sun-unveils-ult-4a76bb |
+| title | Sun Unveils UltraSPARC IV Processor |
+| author | Jay Lyman, TechNewsWorld |
+| date | 2003-10-13 |
+| type | news-article |
+| subject_domain | server-processors |
+| methodology | product-analysis, analyst-commentary |
+| source_file | Technology-News-Hardware-Sun-Unveils-UltraSPARC-IV-Processor.txt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+TechNewsWorld article (Oct 13 2003, Jay Lyman) reporting Sun Microsystems' UltraSPARC IV unveiling at the 16th annual Microprocessor Forum in San Jose. The dual-threaded chip (two UltraSPARC III cores, on-chip memory controller supporting 16 GB DRAM, 8 MB L2 tags per core) was positioned as Sun's 'Throughput Computing' answer to Intel Itanium and IBM Power. Aberdeen Group research director Peter Kastner is a central skeptical-but-defensive voice: 'To Sun's installed base, UltraSPARC IV has to be competitive. It doesn't have to be world-beating,' and it would be 'foolish for Sun to exit processors' given 20 years of investment. Gartner VP Martin Reynolds argues the opposite — that Sun should exit chips. Harlan McGhan (Sun) previews 90nm with Texas Instruments and an 8-core/32-thread future chip.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents Sun's pivot to multithreading/throughput computing at a moment when industry consensus was turning against Sun's continued processor investment — a critical inflection in SPARC's long decline. |
+| **Relevance** | medium | CPU-strategy analysis remains a template for vendor evaluations (AMD Zen, Apple Silicon, ARM servers); specific UltraSPARC IV details dated. |
+| **Prescience** | high | Kastner defended Sun's processor investment; Reynolds called for exit. Reynolds was directionally correct — Sun was acquired by Oracle in 2010, UltraSPARC shipments declined through the 2010s, and Oracle discontinued SPARC processor development by 2017. Kastner's installed-base-continuity argument was also validated in that existing Sun customers did stay on SPARC through the 2010s. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Next-gen chip multithreading will deliver 15x UltraSPARC IIIi throughput
+- **Claimed:** more radical chip multithreading design by 2006, which may increase throughput of today's UltraSPARC IIIi by as many as 15 times
+- **Year:** 2006
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** UltraSPARC T1 Niagara shipped 2005 with 8 cores/32 threads
+- **Result:** Sun UltraSPARC T1 (Niagara) shipped Nov 2005 with 8 cores, 4 threads/core = 32 threads; design target partially met a year earlier than predicted
+- **Confidence:** verified
+- **Notes:** Sun T1 launch Nov 2005; validates Sun CMT roadmap directionally
+
+**Prediction 2:** Sun plans 8-core single-die chip executing 32 threads
+- **Claimed:** a processor with eight cores on a single-chip die. That's a single chip that can actually execute 32 threads in parallel
+- **Year:** 2006
+- **Confidence at time:** high
+
+**Actual Outcome 2:** UltraSPARC T1 Niagara shipped 2005 with 8 cores/32 threads
+- **Result:** Sun UltraSPARC T1 (Niagara) shipped Nov 2005 with 8 cores, 4 threads/core = 32 threads; design target partially met a year earlier than predicted
+- **Confidence:** verified
+- **Notes:** Sun T1 launch Nov 2005; validates Sun CMT roadmap directionally
+
+
+### Entities Referenced (11)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Sun Microsystems | company | acquired | Oracle Corporation (2010) |
+| Intel Corporation | company | active |  |
+| IBM Corporation | company | active |  |
+| Gartner, Inc. | firm | active |  |
+| Martin Reynolds | person | active |  |
+| Texas Instruments | company | active |  |
+| Harlan McGhan | person | unknown [REVIEW] |  |
+| Jay Lyman | person | active |  |
+| TechNewsWorld | publication | active | ECT News Network |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Sun UltraSPARC IV | chip | Sun Microsystems | announced | discontinued |
+| Sun UltraSPARC III | chip | Sun Microsystems | mature | discontinued |
+| Sun UltraSPARC IIIi | chip | Sun Microsystems | new | discontinued |
+| Intel Itanium (IA-64) | chip | Intel | early | discontinued |
+| IBM POWER | chip | IBM | mature | active |
+| Intel Xeon | chip | Intel | growing | active |
+| Sun Solaris | os | Sun Microsystems | mature | maintenance |
+| Sun Throughput Computing strategy | architecture-strategy | Sun Microsystems | new | legacy |
+
+### Observation Summary
+
+- Total observations: 13
+- By type: expert-opinion: 6, actual-outcome: 3, market-data: 2, viability-prediction: 2

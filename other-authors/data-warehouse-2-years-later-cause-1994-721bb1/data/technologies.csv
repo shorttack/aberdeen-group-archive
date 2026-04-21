@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"data-warehouse","Data Warehouse","architecture","Multiple","1988-present","new","mature","data-warehouse-2-years-later-cause-1994-721bb1","Client-server integrated analytical database; subject of paper"
+"client-server-computing","Client-Server Computing","architecture","Multiple","1988-2005","mature","legacy","data-warehouse-2-years-later-cause-1994-721bb1","Two-tier and three-tier enterprise architecture era; largely replaced by web/SOA post-2000"

@@ -1,0 +1,648 @@
+URL: http://www.technewsworld.com/story/34312.html?wlc=1245284619
+
+Technology News: International: Microsoft Vows To Appeal EU Ruling 
+
+ E-BUSINESS | TECHNOLOGY | CLASSIFIEDS [NEW] | CRM | LINUX | MAC | ECTNEWS.COM 
+
+ Welcome | Sign In 
+
+<script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.2;abr=!ie;sz=728x90;ord=12452846254332?" type="text/javascript"><!--//<![CDATA[
+//]]>//--></script>
+<noscript>
+<a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.2;abr=!ie4;abr=!ie5;sz=728x90;ord=12452846254332?">
+<img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.2;abr=!ie4;abr=!ie5;sz=728x90;ord=12452846254332?" border="0" width="728" height="90" alt="Click Here" /></a>
+</noscript>
+
+ International 
+
+ Technology 
+
+ Future Tech 
+
+ Biometrics 
+
+ Nanotech 
+
+ Robotics 
+
+ Gaming 
+
+ Green Tech 
+
+ Home Tech 
+
+ Home Entertainment 
+
+ Home Networks 
+
+ Media Convergence 
+
+ Reviews 
+
+ Science 
+
+ Med Tech 
+
+ Space 
+
+ Tech Buzz 
+
+ Computing 
+
+ Data Management 
+
+ Data Center 
+
+ Data Storage 
+
+ Disaster Recovery 
+
+ Hardware 
+
+ Chips 
+
+ Personal Computers 
+
+ Servers 
+
+ Software 
+
+ Open Source 
+
+ Operating Systems 
+
+ Virtualization 
+
+ Mobile Tech 
+
+ GPS 
+
+ Handheld Devices 
+
+ RFID 
+
+ WiFi Hotspot Locator 
+
+ Wireless Networking 
+
+ Internet 
+
+ P2P Tech 
+
+ Search Tech 
+
+ Web 2.0 
+
+ Blogosphere 
+
+ Podcasting 
+
+ Social Networking 
+
+ Video 2.0 
+
+ Wikis 
+
+ Web Apps 
+
+ Security 
+
+ Cyberattacks 
+
+ Exploits & Vulnerabilities 
+
+ Encryption 
+
+ Malware 
+
+ Network Intrusion 
+
+ Privacy 
+
+ IT Management 
+
+ Core Services 
+
+ Communication Systems 
+
+ Tech Support 
+
+ User Access 
+
+ Development 
+
+ Tools & Processes 
+
+ Workflow Management 
+
+ IT Leadership 
+
+ CIO 
+
+ Tech Pathfinders 
+
+ Sysadmin 
+
+ Implementation 
+
+ IT Maintenance 
+
+ Reader Services 
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ News Alerts 
+
+ Newsletters 
+
+ RSS / Headline Feeds 
+
+ Site Maps 
+
+ ECT News Network Map 
+
+ CRM Buyer Site Map 
+
+ E-Commerce Times Site Map 
+
+ LinuxInsider Site Map 
+
+ MacNewsWorld Site Map 
+
+ TechNewsWorld Site Map 
+
+ Search ECT News Network 
+
+|
+
+ Tech Blog 
+
+ DISCUSSION | NEWSLETTERS | ACCOUNT MGMT 
+-->
+
+June 17, 2009 08:23:50 PM
+
+ TechNewsWorld > Business > International 
+ | Read Next Article in International 
+
+Please note that this material is copyright protected. It is illegal to display or reproduce this article without permission for any commercial purpose, including use as marketing or public relations literature. To obtain reprints of this article for authorized use, please call a sales representative at (818) 461-9700 or visit http://www.ectnews.com/about/reprints/ .
+
+Microsoft Vows To Appeal EU Ruling
+
+ Print Version 
+
+ E-Mail Article 
+
+ Reprints 
+
+ By Elizabeth Millard
+ E-Commerce Times 
+Part of the ECT News Network 
+
+ 06/08/04 8:52 AM PT 
+
+As the Microsoft appeal goes forward, it will be interesting to note which companies emerge as allies to the Redmond-based giant, said Aberdeen Group chief research officer Peter Kastner. In an interview with the E-Commerce Times, Kastner noted that Microsoft has many "silent friends" who might become vocal as the case goes forward.
+
+ When a high-end apparel manufacturer wanted an e-commerce presence that was easy for merchandisers to manage, they turned to ATG. Now online sales have grown consistently; more than tripling in their first year. Read the ATG Case Study to see how .
+
+ Microsoft (Nasdaq: MSFT) vowed Tuesday to appeal the recent European Union antitrust ruling that orders the company to modify its business practices, make product changes and pay a hefty fine. On Monday, the company delivered an application to annul the EU's decision to the European Court of Justice.
+
+After a five-year investigation, the EU determined that Microsoft was guilty of antitrust abuses. In a March 24th ruling, the commission in charge of the investigation mandated that Microsoft strip Media Player from its Windows operating system and share information with competitors.
+
+It was widely expected that Microsoft would appeal the ruling. On Tuesday, Microsoft lawyer Horacio Gutierrez said that the commission's decision undermines the innovation efforts of successful companies, and that Microsoft will appeal to benefit itself as well as other companies and consumers.
+
+As Microsoft spokesperson Jim Desler told the E-Commerce Times: "We believe we have a strong case to present to the court. Our appeal makes solid, substantive points based on legal precedent as to why the court should reject the European Commission's decision."
+
+Friend in Need?
+
+As the Microsoft appeal goes forward, it will be interesting to note which companies emerge as allies to the Redmond, Washington-based giant, said Aberdeen Group chief research officer Peter Kastner.
+
+In an interview with the E-Commerce Times, Kastner noted that Microsoft has many "silent friends" who might become vocal as the case goes forward.
+
+"How Microsoft does business has been determined as legal in the U.S.," Kastner said. "So, for the EU to set a totally different standard for business conduct threatens not only Microsoft, but every other global company as well."
+
+Desler agreed the ruling could have implications for other companies. "The impact of the commission's decision goes beyond Microsoft and toward other companies," he said. "It should not be understated."
+
+One relationship that Microsoft will have to address in the near future is with Sun Microsystems (Nasdaq: JAVA) . In April, Microsoft settled a dispute with Sun and paid the company nearly US$2billion to license its technology.
+
+Because Sun is the lead complainant in the EU's antitrust case, there has been speculation that the deal will lessen Microsoft's strength in its appeal.
+
+Not So Fine
+
+Part of Microsoft's vow to appeal may stem from its indignation over the EU's proposed fine of $612 million.
+
+"They could have paid," Kastner said. "Doing an appeal was not their only option. But paying would have meant they couldn't address the issues of law and commerce that they're seeking to clarify now."
+
+Microsoft lawyer Gutierrez said that, when the fine was announced, it became clear that the EU had gone too far. He pointed out that the fine appears to be twice what it should have been under the European Commission's own guidelines.
+
+In a March statement, Gutierrez noted, "We believe it's unprecedented and inappropriate for the Commission to impose a fine on a company's U.S. operations when those operations are already regulated by the U.S. government."
+
+And Yankee Group analyst Laura DiDio told the E-Commerce Times that although Microsoft certainly has sufficient funds to pay the fine, it likely will resist doing so for as long as possible.
+
+"It's quite a chunk of change," she said. "They won't pay it one minute before it's due."
+
+No Surprises Yet
+
+To analysts and observers following the European Commission's investigation, the ruling against Microsoft was about what they expected. This new vow by the company to fight the ruling also comes as no surprise.
+
+What will be worth watching is how the EU handles the fight from this point. To many, it seems that both sides are digging in for an extended battle. Gutierrez and EU Competition Commissioner Mario Monti already are swapping jabs in the press about the case.
+
+Gutierrez has said the commission's decision alters incentives for research and development that are important to global economic growth. Monti, meanwhile, has emphasized the EU's confidence that the ruling will stand and that its mandates will be upheld.
+
+"I think Microsoft has about as much chance of success as it did before," DiDio said. "It's a long shot. But they'll definitely fight every step of the way." 
+
+ Social Networking Toolbox: 
+ ShareThis 
+
+ Next Article in International:
+ ITunes Music Store to Make Euro Debut 
+
+ Talkback: Be the first to comment on this story. 
+
+ Print Version 
+ E-Mail Article 
+ Reprints 
+ More by Elizabeth Millard 
+
+Related Stories 
+
+ The EULA, the GPL and the Wisdom of Fortune Cookies (08-Jun-04)
+
+ Microsoft, SAP Merger Talks Revealed (07-Jun-04)
+
+ Report: SMB Opportunities Still Untapped (07-Jun-04)
+
+ Microsoft Will Appeal EU Ruling (07-Jun-04)
+
+ EMC Moves on Information-Lifecycle Management Tech (07-Jun-04)
+
+Related News Alerts
+
+ Microsoft 
+ Activate Alert |
+ Search Archives 
+
+ Sun Microsystems 
+ Activate Alert |
+ Search Archives 
+
+More Stories by Elizabeth Millard
+
+ Ken Xie of Fortinet on Fighting Content Threats (25-Nov-04)
+
+ Microsoft Files More Lawsuits over Spam (24-Sep-04)
+
+ French Firms Aim To Beef Up Linux Security (24-Sep-04)
+
+ [Search More...] 
+
+Don't miss a story -- sign up for our FREE e-mail newsletters and view the latest headlines at a glance.
+
+ Tech News Flash [ View Sample ]
+
+ E-Commerce Minute [ View Sample ]
+
+ ECT News Network Weekly Newsletter [ View Sample ]
+
+ Follow TechNewsWorld on Twitter 
+
+Shortcuts
+
+ Get Business and Technology News Alerts 
+
+ Most Popular | Spotlight Features | Exclusives 
+
+ This Week on ECT News Network | Podcasts 
+
+ WiFi Hotspot Locator 
+
+ Inside TechNewsWorld 
+
+<script language='JavaScript1.1' src="http://ad.doubleclick.net/adj/N3382.ectnews.comOX2364/B3608631.4;abr=!ie;sz=336x280;ord=12452846259802?" type="text/javascript"><!--//<![CDATA[
+//]]>//--></script>
+<noscript>
+<a href="http://ad.doubleclick.net/jump/N3382.ectnews.comOX2364/B3608631.4;abr=!ie4;abr=!ie5;sz=336x280;ord=12452846259802?">
+<img src="http://ad.doubleclick.net/ad/N3382.ectnews.comOX2364/B3608631.4;abr=!ie4;abr=!ie5;sz=336x280;ord=12452846259802?" border="0" width="336" height="280" alt="Click Here" /></a>
+</noscript>
+
+Free White Papers
+
+ Bringing Requirements to Life to Drive Collaboration and Agreement 
+
+ Business Intelligence: The Definitive Guide 
+
+ Protect your document & intellectual property with Locklizard 
+
+ Measuring the Performance of Equalized Serial Data Links Across the Design Flow 
+
+ Get the Most Value From Your Surveys with Text Analysis 
+
+ TechNewsWorld 
+
+ Study: U.S. Broadband Adoption Leaps Despite Recession, Rising Prices 
+
+ Neutralizing the Smartphone Security Threat 
+
+ Shuttle Launch Delayed 3 Weeks by Hydrogen Leak 
+
+ New BlackBerry Tour Caters to Globetrotting Users 
+
+ Iran Protests: The Whole World Is Watching, Flickring, Tweeting 
+
+ Opera Gives You a Server of Your Own 
+
+ Beware of the Information Security Inertia Syndrome 
+
+ Survey: As Web Use Climbs, Family Time Slips 
+
+ Playing a Hunch: Social Decision-Making Site Carves Out New Niche in Search 
+
+ EnterpriseDB Smooths Way for Oracle App Migration 
+
+ E-Commerce Times 
+
+ Falling Behind Facebook, MySpace Slashes Workforce 
+
+ The Next Wave of E-Tail: Considered Commerce 
+
+ How Big a Loser Is YouTube? 
+
+ AP Looks for More Action Online as Newspaper Revenue Fades 
+
+ Microsoft Hauls Click Fraudsters Into Court 
+
+ MacNewsWorld 
+
+ Software Update Teaches Old iPhones New Tricks 
+
+ Senate Probes, China Inroads and a Smartphone Surge 
+
+ Virgin Serves Up MP3 Buffet 
+
+ Glad Works Makes Marketing Moves Through iPhone Apps 
+
+ Safari 4 Goes to Eleven 
+
+ CRM Buyer 
+
+ Of 'Jurassic Park' and All Things 2.0 
+
+ Administration Mulls Financial Services Industry Makeover 
+
+ GE Aims to Jump-Start EMR Adoption With No-Interest Loans 
+
+ Turning 'Interesting Moments' Into Sales: Q&A With Marketo CEO Phil Fernandez 
+
+ Chrysler Customers' Shrinking Service Options 
+
+ LinuxInsider 
+
+ Wind River Releases Hard and Heavy Hypervisor 
+
+ Trolls and Astroturfers and Shills, Oh My! 
+
+ Yahoo's Hadoop to Run Free in the Wild 
+
+ Leeches or Users? Should Enterprise IT Have to Give Back to FOSS? 
+
+ 'MobMovs' Give New Meaning to 'Community' Theater 
+
+Sponsored Links
+
+Avaya Aura (TM)
+
+ A new era in communications. Explore>> 
+
+Think your data is safe?
+
+ Register for a free assessment. Or get our ebook now. trendmicro.com/thinkagain 
+
+Free White Paper
+
+ Learn how to drive consumer engagement with entertainment metadata. 
+
+Inside TechNewsWorld
+
+ CIO 
+
+ A Voice for Tech: Carly Fiorina's Political Ambitions 
+
+ The iPhone 3G and the Risk of Great Marketing 
+
+ Bhaskar Rao: Conquering Space and Time With MIMO 
+
+ Computing 
+
+ Picking Up the Pieces After Downsizing: Avoid Orphaned Data 
+
+ Skyfire Lets Fly With Speedier Mobile Browser 
+
+ Is Windows App Envy a Thing of the Past? 
+
+ Data Management 
+
+ HP Gives Scale-Out Architecture Extreme Makeover 
+
+ The Mainframe Bridge to the Cloud 
+
+ Bite the Bullet and Throw Away Your Data 
+
+ ECT News Exclusives 
+
+ Keeping Credit Card Numbers Well-Cloaked: Q&A With Fingerhut's Mark Lieberg 
+
+ Outsource or Keep It Home? Have It Your Way: Q&A With Alpine Access CEO Chris Carrington 
+
+ Riding Out the Storm: Q&A With Information Builders CEO Gerry Cohen 
+
+ Future Tech 
+
+ The Blood and Guts of Biometric Systems 
+
+ Robots and the Law: Will the Real Inventor Please Stand Up? 
+
+ The Networked Garden: MIT Undergrads Build Robo-Farmers 
+
+ Green Tech 
+
+ Utility Companies Plug In to Google PowerMeter 
+
+ Study Sees Eco-Threat in Power-Guzzling Gadgets 
+
+ Xerox Goes for the Green With Crayon-Like Printer Ink 
+
+ Hardware 
+
+ Apple Pounds Palm, Sets Sights on Redmond 
+
+ WWDC: iPhone Invigorated, Snow Leopard Spruced, AT&T Tarnished 
+
+ The Asus EeeTop: A Nettop in Search of a Mission 
+
+ Internet 
+
+ Jammie Thomas, RIAA Go At It Again 
+
+ Spain's Music Piracy Battle: Is Building the Ship as Bad as Plundering the Booty? 
+
+ EC Scoffs at Microsoft's Offer to Ship Browser-Free OS 
+
+ IT Management 
+
+ Apple Primed for iPhone Song-and-Dance Extravaganza 
+
+ Google Lobbyist Unfit for Deputy CTO Job, Say Critics 
+
+ Mobile Development and Multiplicity Madness 
+
+ Mobile Tech 
+
+ Samsung Takes Wraps Off New Omnia Smartphone Lineup 
+
+ Using GPS Phones to Track Virtual Infections - and Real Epidemics 
+
+ Clampdown Week: iPhone vs. Pre, China vs. Web, FTC vs. Worst ISP Ever 
+
+ Must Read 
+
+ The Rise and Fall of Traditional Journalism, Part 5 
+
+ It's Time to Push Back Against Twitter Backlash 
+
+ How Apple Made Windows 7 Better 
+
+ Open Source 
+
+ The US Army: It's Better with Vista? 
+
+ Openness, Linux and Mobile Innovation 
+
+ Acer Greases Android for Netbook Duty 
+
+ Science 
+
+ Endeavour Visitors to Make Record-Setting ISS Crowd 
+
+ Computer Accident Study Highlights Hazards of Home Office 
+
+ NASA May Buddy Up With Europe on Road to Mars 
+
+ Security 
+
+ China Scrambles to Repair Crumbling Green Dam 
+
+ LOL, I'm on Vacay, Rob Me! 
+
+ New App Aims to Plug Holes in Leaky Enterprise Data Hulls 
+
+ Software 
+
+ IBM Offers Platform for Diving Into the Cloud 
+
+ Fedora Sets Leonidas Loose, Builds Collaboration Portal 
+
+ Apple Launches Speedy New iPhone, Cuts a Bunch of Prices 
+
+ Spotlight Features 
+
+ Toiling Away in 'White-Collar Sweatshops' - aka Call Centers 
+
+ Windows XP: The Legacy Lives On 
+
+ Taking a Shine to iPhone in the Enterprise 
+
+ Tech Buzz 
+
+ China's New PC Policy Injects Big Brother With Steroids 
+
+ Natal Drops Jaws, Nvidia Shines, Pre Sets New Bar 
+
+ Microsoft Goes Bing, Palm's Pwned 
+
+ Web 2.0 
+
+ Facebook Members to Become Masters of Their Domain Names 
+
+ TwitterFon Pro: Tweet Harder, Tweet Smarter 
+
+ Blerp Refocuses the Web Through Comment-Colored Glasses 
+
+ECT News Network Information
+
+ Publications 
+
+ E-Commerce Times 
+
+ TechNewsWorld 
+
+ LinuxInsider 
+
+ CRM Buyer 
+
+ MacNewsWorld 
+
+ Free Newsletters 
+
+ E-Commerce Minute 
+
+ Tech News Flash 
+
+ ECT News Network Weekly Newsletter 
+
+ Newsletter Sign Up 
+
+Reader Services
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ Linking Policy 
+
+ Network Map 
+
+ News Alerts 
+
+ RSS / Headline Feeds 
+
+ Search ECT News Network 
+
+ E-Business Info Center 
+
+ IT Resources 
+
+ Open Source Technology 
+
+ CRM Solutions Center 
+
+ -->
+
+Corporate
+
+ About 
+
+ Careers 
+
+ Contact Us 
+
+ Business Development 
+
+ Permissions 
+
+ Reprint Information 
+
+ How To Advertise 
+
+ Terms of Service | Privacy Policy | How To Advertise 
+
+Copyright 1998-2009 ECT News Network, Inc. All Rights Reserved.

@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-media-player","Windows Media Player","application","Microsoft","1991-present","mature","legacy","technology-news-international-microsoft--a2f127","EC required unbundling from Windows 2004"
+"windows-os","Microsoft Windows","os","Microsoft","1985-present","mature","active","technology-news-international-microsoft--a2f127","Subject of EU interoperability-disclosure requirements"

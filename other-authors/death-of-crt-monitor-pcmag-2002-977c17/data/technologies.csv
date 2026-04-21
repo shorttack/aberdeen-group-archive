@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"lcd-monitor","LCD Flat-Panel Monitor","display","Multiple","1997-present","growing","mature","death-of-crt-monitor-pcmag-2002-977c17","Desktop LCD displays; subject of article"
+"crt-monitor","CRT Monitor","display","Multiple","1960s-2010s","mature","deprecated","death-of-crt-monitor-pcmag-2002-977c17","Cathode-ray-tube displays; phased out of PC market ~2010"

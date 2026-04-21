@@ -1,0 +1,1189 @@
+The Data Warehouse: 2 Years Later... Lessons Learned
+
+Copyright CAUSE 1994. This paper was presented at the 1994 
+CAUSE Annual Conference held in Orlando, FL, November 29-
+December 2, and is part of the conference proceedings 
+published by CAUSE. Permission to copy or disseminate all or 
+part of this material is granted provided that the copies are 
+not made or distributed for commercial advantage, that the 
+CAUSE copyright notice and the title and authors of the 
+publication and its date appear, and that notice is given 
+that copying is by permission of CAUSE, the association for 
+managing and using information resources in higher education. 
+To copy or disseminate otherwise, or to republish in any 
+form, requires written permission from CAUSE. For further 
+information: CAUSE, 4840 Pearl East Circle, Suite 302E, 
+Boulder, CO 80301; 303-449-4430; e-mail 
+info@cause.colorado.edu
+
+
+THE DATA WAREHOUSE: 2 YEARS LATER
+LESSONS LEARNED
+
+
+John D. Porter and John J. Rome
+Arizona State University
+
+
+
+Abstract
+
+A data warehouse is often the first client/server application 
+that institutions attempt. Such was the case at Arizona State 
+University (ASU). Two years ago, ASU initiated a project that 
+brought together student, financial and human resources data 
+in an integrated data warehouse. In this presentation, we 
+plan to share the lessons learned after two years of work. 
+Some of those lessons include: learning new technologies, 
+understanding warehousing concepts, integrating data, 
+designing the warehouse, marketing the idea, finding 
+resources, establishing "officialness" of data, evaluating 
+impact on Data Administration, defining data, making a 
+production system, prioritizing information going into the 
+warehouse, data access tools, training and security. We plan 
+to share our success stories as well as our challenges. There 
+will be a discussion of how the ASU Data Warehouse fits in 
+the University's information architecture, future plans and a 
+live demonstration showcasing the ease of use and power of 
+this innovative information resource.
+
+
+THE DATA WAREHOUSE: 2 YEARS LATER
+LESSONS LEARNED
+
+It's amazing that the words data warehouse have become such a 
+glamorous, sexy expression[1]
+
+
+Introduction
+
+To remain competitive in today's business climate, an 
+organization needs a solid foundation of quality data. 
+Institutions of higher education need this capability as much 
+as Fortune 500 companies. To give colleges and universities 
+the "edge," many are turning to data warehousing. These 
+institutions see the data warehouse as the de facto source of 
+quality data for tactical and strategic decision making. Some 
+critics believe data warehousing adds to an organization's 
+information problem by adding yet another data source. 
+However, the success organizations are experiencing with the 
+data warehouse is evident. Data warehousing is a solid 
+business strategy for the 1990s.
+
+In this paper, we share the lessons learned from Arizona 
+State University's (ASU's) data warehousing experiences. 
+Building a data warehouse is extremely complex and takes 
+commitment from both the information technology department 
+and the business analysts of the institution. It takes 
+planning, hard work, dedication and time to create a 
+relational database management system (RDBMS) that delivers 
+the right data to the right user. A data warehouse excites, 
+but also disappoints. ASU's data warehouse is not a panacea 
+for all the university's data woes, but a darn good start.
+
+
+Data Warehousing Popular...But Not New
+
+Data warehousing is not new. Data warehousing reminds us of 
+an old mainframe concept from the mid-1970s: take data out of 
+production databases, clean it up a bit, and load the data 
+into an end-user database. International Business Machines 
+Corporation (IBM) was first to coin the phrase "information 
+warehouse" in late 1991. IBM's original concept met with 
+skepticism because accessing non-relational data stores (such 
+as IDMS(TM) IMS(TM) or VSAM(TM)) was too complex and degraded 
+operational system performance. Based on these experiences, 
+experts now agree that a warehouse needs to be a separate 
+data store built with an RDBMS. While names such as 
+"information factory" or "information refinery" surfaced and 
+went, "data warehouse" is now the generally accepted term.
+
+     Definition
+
+The most widely recognized definition of a warehouse is a 
+subject-oriented, integrated, time variant, non-volatile 
+collection of data in support of management's decision making 
+process.[2] Subject-oriented means the data warehouse focuses 
+on the high-level entities of the business; in higher 
+education's case, subjects such as students, courses, 
+accounts, and employees. This is in contrast to operational 
+systems,which deal with processes such as student 
+registration or rolling up financial accounts. Integrated 
+means the data is stored in a consistent format (i.e., naming 
+conventions, domain constraints, physical attributes and 
+measurements). For example, ASU's production systems have 
+four unique coding schemes for ethnicity. In the data 
+warehouse, there is only one coding scheme. Time variant 
+means the data associates with a point in time (i.e., 
+semester, fiscal year, and pay period). Lastly, non-volatile 
+means the data doesn't change once it gets into the 
+warehouse. At ASU, even if a person's gender was unreported 
+in a previous semester, the warehouse won't go back in 
+history to correct that.
+
+     Use Increasing
+
+In higher education, glimpses of data warehousing exist in 
+the file extracts which institutional research departments 
+receive or the end-user reporting databases that information 
+technology provides. Consequently, data warehousing is 
+nothing new; it is an old concept with a new name and better 
+technology. The data warehouse is likely to become the 
+cornerstone of client/server activity in 1995.[3] So popular 
+is the notion, that a recent META Group report indicates 90% 
+of their clients are undertaking warehouse initiatives, up 
+from less than 10% just a year ago.[4] Similar trends are 
+occurring in higher education, judging from the number of 
+inquiries about ASU's data warehousing efforts. Some of the 
+universities developing warehouse capabilities include 
+Stanford and the University of Michigan. In the business 
+market, analysts estimate the industry will grow to $2.1 
+billion by 1998, almost three times the 1993 total of $753 
+million.[5] Some of the major players vying for this money 
+include IBM, Hewlett-Packard Co., Oracle Corp., Sybase, Inc., 
+AT&T GIS and SAS Institute, Inc.; as well as Prism Solutions, 
+Inc. and Red Brick Systems, companies already established in 
+the warehouse market.
+
+
+ASU's Warehouse Development
+
+     History
+
+Development of ASU's data warehouse started in the summer of 
+1992 as an effort championed by the Department of Data 
+Administration. Negotiations with an RDBMS vendor and a UNIX 
+workstation vendor resulted in a one-year "lease" of their 
+products for the cost of the annual maintenance contract 
+(approximately $8000). While getting the warehouse server in 
+place, over 20 companies agreed to provide complimentary 
+copies of their data access tools. Although many of the 
+access tools reviewed were in their adolescence, accessing 
+data was much easier with these graphical user interface 
+(GUI) tools than with the fourth generation tools in use. 
+After successfully connecting to the warehouse server through 
+the network middleware, Data Administration started compiling 
+minimum hardware and software requirements for Macintosh(R) 
+and PC/Windows(TM) machines.
+
+A warehouse team of twelve individuals from Data 
+Administration and Information Technology formed a 
+development team to "prove" the warehouse concept. The team 
+selected a representative group of ASU staff to serve as 
+pilot users to test the data warehouse and access software. 
+During thenext few months, the team designed a student 
+warehouse model based on over 200 questions, which the pilot 
+users considered difficult to answer using current 
+information resources. By extracting data from the 
+operational IDMS database and loading that data into a 
+Sybase(R)SQLServer(TM) database, the first client/server 
+application was in place at ASU.
+
+During 1993, many of the original warehouse team shifted back 
+to their regular duties, which left the team with a core of 
+about five people. That core group has remained intact, 
+receiving additional help from ASU's Institutional Research 
+Office and business area improvement groups (BAlGs). The 
+BAlGs, organized to improve ASU's operational and 
+informational data processing capabilities, contribute 
+significantly to ASU's data warehousing project. Meanwhile, 
+Data Administration initiated formal classes to train users 
+on the warehouse. To date, there are over 150 trained 
+warehouse users, with two classes being taught each month. 
+The goal is to train 1,000 warehouse users, approximately 20% 
+of ASU's full-time work force.
+
+Before the production release of the data warehouse to ASU, 
+the team introduced a logo for the warehouse (see Figure 1). 
+Presentations, warehouse brochures, training materials and 
+other documentation display this logo. This simple, yet 
+effective, design helps individuals identify with ASU's data 
+warehouse, establishing the warehouse as a distinct entity.
+
+
+(Figure 1 not available in ASCII text version)
+
+
+     Methodology
+
+Methodologies assist in managing a project's development. 
+Formal principles, practices and procedures comprise a 
+methodology. Examples of formal methodologies include Martin, 
+Chen/Bachman, IRM, etc. The best definition of a methodology 
+is Paul Strassmann's. He defines methodology as "a procedure 
+that I understand and like." At ASU, the data warehouse team 
+"understands" and "likes" the concepts of William ("Bill") 
+Inmon. Reading any literature about data warehousing without 
+seeing Inmon's name is rare. He was the first to coin the 
+phrase "data warehouse," and is the evangelical voice on the 
+concepts and benefits of data warehousing. In developing 
+ASU's data warehouse, the warehouse team follows Inmon's ten 
+critical success factors (see Figure 2). ASU's warehouse team 
+still revisits these principles.
+
+
+Inmon's Ten Critical Success Factors
+
+1.  Separation of operational and warehouse data and
+    processing.
+    (i.e., different data and processing, different
+    technologies, serve different communities.)
+2.  Data volume management.
+    (i.e., sheer volume defeats purpose, partitioning for
+    performance.)
+3.  Coexistence with older legacy systems.
+    (i.e., warehouse not rewrite of operational system,
+    remember $ invested in legacy systems.)
+4.  Feedback loop implementation.
+    (i.e., not single massive effort but iterative, users
+    initially only give rough estimates of need.)
+5.  Rigorous and proactive treatment of metadata.
+    (i.e., store directory of data, maps data between
+    operational system & warehouse.)
+6.  Data integration.
+    (i.e., warehouse fed from diverse & unintegrated data
+    sources, time consuming & difficult.)
+7.  Proper user mindset.
+    (i.e., users operate in discovery mode, warehouse
+    architects understand and react quickly.)
+8.  Knowledge of historical versus current-value data.
+    (i.e., warehouse not updated, serves management, what-if
+    processing, data driven.)
+9.  Cost justification.
+    (i.e., after warehouse power unleashed, support comes but
+    not based on cost justification.)
+10. Knowledge that existing systems aren't perfect.
+    (i.e., can't wait until operational systems cleaned up,
+    build independent of reengineering.)
+
+Figure 2. Inmon's Critical Success Factors in Building a Data 
+Warehouse.[6]
+
+
+     Architecture
+
+ASU's data warehouse resides in a client/server environment. 
+[Client/server is an emerging computing architecture where 
+processing occurs on both the server and client, radically 
+different from the mature centralized world of the 
+mainframe.] As seen in Figure 3, we extract data from the 
+mainframe and load it into a UNIX server running an RDBMS. 
+ASU's warehouse server is a Sun(R) Sparc 630(TM) with 512 
+megabytes of memory and two processors, running the Sun(R) 
+Solaris 2.3(TM) operating system. The RDBMS is Sybase 
+SQLServer release 1 0.x. Users connect through Ethernet to 
+the warehouse over ASU's network backbone via Transmission 
+Control Protocol/lnternet Protocol (TCP/IP). [TCP/IP is the 
+predominant network protocol used by UNIX systems attached to 
+Ethernet and ASU's "preferred protocol."] The suggested GUI 
+data access tool is DataPrism(TM) from Brio Technology, Inc., 
+which runs identically in both the Macintosh and Windows 
+environment. Microsoft Access(R) and Q+E(TM) from Intersolv, 
+Inc. are some of the other tools used.
+
+GUI tools build the structured query language (SQL) requests 
+and bring the results back to the client machine. [SQL is the 
+dominant query language for accessing relational databases 
+and accepted by most non-relational databases in a 
+standardized form.] The retrieved data exists on the client 
+machine. This process is much different from the 3270 
+protocols the users are accustomed to, where the client 
+machine is a "dumb" terminal connected to a mainframe. With 
+client/server architecture, the data existing on the client 
+machine is both empowering and liberating. The users "own" 
+the data, cutting and pasting at will, using their favorite 
+client tools (i.e., spreadsheet, word processor, graphic 
+tools).
+
+
+(Figure 3 not available in ASCII text version)
+
+
+Modeling and Design
+
+As business requirements and database technology become more 
+sophisticated, the need for data modeling and design 
+increases. ASU uses an "upper" computer aided software 
+engineering (CASE) tool to design the warehouse. However, the 
+entity/relationship (E/R) diagramming function and the object 
+repository are the only features of the CASE tool used. [The 
+E/R diagram is a pictorial representation of entities, the 
+vital business relationships between the entities, and the 
+attributes or fields used to describe the entities.] The E/R 
+diagramming tool creates a graphical representation of the 
+data in the data warehouse and automates the creation of data 
+definition language (DDL), the technical language used to 
+create the warehouse's tables, views and indexes. The object 
+repository insures consistent definitions and characteristics 
+of fields in the data warehouse. While an upper CASE tool is 
+not imperative in building a data warehouse, it does help 
+automate the development process and the E/R diagrams produce 
+"road maps" to the data.
+
+Designing a data warehouse is an iterative process. Warehouse 
+models change as much as 50% after completion of the design. 
+Designing a data warehouse is different from designing an 
+operational system. First, the data content of the model is 
+different. The warehouse wants data with a high value for 
+executive decision making, whereas the data content of an 
+operational system is more requirements driven. Second, since 
+data is often unavailable, referential integrity in a data 
+warehouse is sometimes inherently wrong. [Referential 
+integrity is a feature of database management systems that 
+ensures that each foreign key value has a matching primary 
+key value.] In an operational system, business rules 
+(relationships in an E/R model) dictate that an entity must 
+have a relationship with another entity. In a data warehouse. 
+that may or may not be the case. For example, in an 
+operational system, a student must have an address. If that 
+address is not available to the operational system, the 
+ability to add that student to the warehouse still must 
+exist.
+
+There are four basic types of tables in ASU's data warehouse: 
+data tables. Iookup tables, virtual tables and summarized 
+tables. Data tables contain raw data, extracted at the unit 
+record level from the operational system. Lookup tables are 
+code tables, defining the cryptic coding schemes that exist 
+in the operational data. Lookup tables save space, improve 
+flexibility, and allow the description of a code value to 
+change while retaining its meaning. Virtual tables are views 
+into the warehouse data. Views simplify the user's perception 
+of a data warehouse, presenting data in a different way or 
+restricting access to certain data (i.e., class roster 
+appears as a single table, but the data resides physically on 
+multiple tables). Lastly, summarized tables contain 
+summarized data. These tables improve response time to 
+frequently queried data and may become the foundation for 
+subsequently developed executive information systems (EIS).
+
+Database design is a creative process. In fact, given the 
+same set of requirements, two designers usually produce 
+different but acceptable solutions. Often, in database 
+design, it is easier to just do it, than explain exactly what 
+you did.[7] ASU's warehouse team follows the design 
+guidelines in Figure 4.
+
+
+            ASU'S WAREHOUSE DESIGN GUIDELINES
+
+  *  Identify major subjects or topics (i.e., define as
+     tables on warehouse).
+  *  Add an element of time to the tables (i.e., semester,
+     fiscal year).
+  *  Name fields in the tables or views appropriately (i.e.,
+     naming standards).
+  *  ( Add derived fields when necessary (i.e., calculated
+     age, GPA).
+  *  Duplicate data if necessary (i.e., to decrease number of
+     tables users need).
+  *  Exclude extraneous fields found in operational files
+     (i.e., flags).
+  *  Create logical tables or views for ease of use (i.e.,
+     class roster w/ names). 
+  *  Take security into design considerations. 
+  *  Determine if data model answers business questions.
+
+     Figure 4. Warehouse Design Guidelines.
+
+
+ASU's Warehouse Data Issues
+
+     What Data to Collect
+
+A data warehouse must deliver the right data to the right 
+people. However, the data warehouse may not be able to 
+deliver all the data people want. People are always asking 
+new questions, so predicting what they need is difficult. We 
+started by asking users what data they wanted. Users e-mail 
+or write down their questions, and send them to Data 
+Administration. Another good starting point is to look at the 
+data going to the institutional research department and the 
+data included in official university reports (e.g., data 
+provided to government agencies like EEOC, IPEDS, or NCES). 
+Our experience is that warehouse users quickly let us know 
+what data they want.
+
+     Update Frequency
+
+A data warehouse must deliver the right data to the right 
+people, at the right time. What is the right time? The answer 
+is, "it depends." In ASU's data warehouse, we enter data 
+yearly, by census date, monthly, bi-weekly, weekly, and 
+daily. By rule, the more often you update a table in the data 
+warehouse, the more operational in nature it is. For example, 
+ASU's data warehouse extracts daily address changes on 
+students. Many warehouse users create labels for student 
+mailings and need current address information. Updates to 
+code tables occur daily too. However, we try to limit the 
+number of data elements loaded on a daily basis, since there 
+is a cost associated with loading the warehouse. [Authors' 
+note: In the future, daily updates to ASU's data warehouse 
+will "replicate" data in operational systems. Replication is 
+a popular industry solution of copying data and placing it 
+locally for processing, which appears to users as direct 
+access to data.]
+
+     Integration
+
+Integration is the most important characteristic of a data 
+warehouse, and the characteristic lacking in most operational 
+systems. Integration gives a data warehouse credibility, 
+consistency and real power. When designing these capabilities 
+into ASU's data warehouse, the team recognized data in need 
+of integration and data that integrates (see Figure 5). Data 
+in need of integration in ASU's data warehouse include fields 
+like ethnicity, gender, and name. A major integration problem 
+at ASU exists with the department code structure. There are 
+three or four recognized sets of department codes in the 
+various operational systems. Because of the number of 
+department codes in use, we plan to rectify the problem on 
+the operational side first with a single code before adding 
+the department code to the warehouse.
+
+
+Data in Need of Integration
+
+  *  Name
+  *  Ethnicity
+  *  Marital Status
+  *  Organizational Unit
+
+Data That Integrates
+
+  *  Fiscal Year, Semester
+  *  Account
+  *  Unique Identification ID
+  *  Organizational Unit
+
+Figure 5. Integration examples.
+
+
+Integration also requires data that integrates. This is the 
+data that spans the high level subject areas of the data 
+warehouse. At ASU, these high level subject areas are 
+students, financial information, human resources, and courses 
+(see ASU data warehouse high-level design in Appendix A). 
+Examples of data that integrate or crosswalk the high level 
+subjects are fiscal year, semester or term, department, 
+course, a person's unique identifying ID, and account number. 
+Data elements that integrate are the very fabric of an 
+operational system. If these elements differ in format or 
+domain between systems, integrating the data in the warehouse 
+is difficult or impossible. [Domain is the set of allowable 
+values that a data field can legitimately take, i.e., 
+permitted values, range of numbers, allowable dates.] When 
+data successfully spans high level subject areas, consider 
+the data warehouse completed and "self-actualized."
+
+     Officialness
+
+Making official numbers available in a data warehouse brings 
+credence and appeases the user getting different numbers with 
+every query. We add official "numbers" to the warehouse to 
+limit how much our users must understand the impact of timing 
+on data. To achieve officialness, institution's select census 
+or "cut-off" dates for measuring data. For example, at ASU, 
+there is the "21st day" (of the semester) census for student 
+enrollment; in the financial system, fiscal year end; in 
+human resources, September 30. With these census dates, there 
+is a distinct period of measurement, making historical trends 
+much easier to compare and allowing integration across 
+systems. For some requests, official numbers are better to 
+use (i.e., historical trends), while at other times the most 
+current data is best (i.e., financial decisions). At ASU, 
+both numbers are available on the data warehouse. To simplify 
+user queries, official and current values appear in separate 
+databases (see high-level design at Appendix A).
+
+     Security and Privacy
+
+Security and safeguarding privacy are major concerns in a 
+data warehouse. Security in a database means protecting data 
+against unauthorized disclosure, alteration, or destruction. 
+Granting SELECT (authorization to read only) access to tables 
+(or views) achieves security in a warehouse. Although many 
+RDBMSs support column level security, ASU has not implemented 
+this feature, primarily due to the high cost of administering 
+user access. In traditional operating systems, tasks or 
+screens control access. This usually results in access to a 
+single record or instance of data (i.e., verifying admission 
+status of a student, etc.). However, in a data warehouse, 
+employees have access to a table or all tables in a subject 
+area, which means access goes beyond retrieving individual 
+records to retrieving groups of records.
+
+At ASU, read-only access to the data warehouse is at the 
+database level, which means access to a group of tables. This 
+procedure follows an open access policy for employees 
+approved in 1993. For example, the Office of the Registrar is 
+the trustee of the STUDENT database, the Human Resources 
+director trustee of the HUMAN RESOURCES database, etc. In 
+these databases, read-only access excludes access to name and 
+address. To obtain name and address information, our data 
+trustees grant access to the PERSON database. The user's 
+business need determines access to the PERSON database. 
+Additionally, training classes emphasize the Buckley 
+amendment and Family Educational Rights and Privacy Act 
+(FERPA). Also, users receive training on the appropriate use 
+of warehouse data.
+
+     Results
+
+The diagram in Appendix A shows ASU's high-level warehouse 
+design in the context of databases. [Database is a collection 
+of tables or files and is loosely equivalent to a subject 
+area.] The STUDENT, FINANCIAL, HUMAN RESOURCES, and COURSE 
+databases comprise the foundation of the warehouse. These 
+databases contain the "granular" or detail data and updates 
+occur on a weekly, bi-weekly or monthly basis, depending on 
+the database (i.e., STUDENT = weekly, COURSE = weekly, HUMAN 
+RESOURCE = biweekly, FINANCIAL = monthly, etc.).
+
+Name and address exist in the PERSON database. This database 
+integrates with other databases through a unique identifying 
+ID. Updates to PERSON occur on a daily basis. Individuals 
+creating class lists or labels are the primary users of this 
+database. Although warehouse "purists" may scoff at the idea 
+of daily updates (i.e., reproducing the operational 
+environment), creating labels is a legitimate business need 
+at ASU. For an employee to get access to name and address, 
+they need permission from the trustee (the Registrar for 
+student information and the Human Resources director in the 
+case of employees). We protect names and addresses for 
+security and privacy reasons in PERSON, but the utility of 
+the warehouse for planning and decision making through the 
+other databases is unaffected. The LOOKUP database contains 
+all lookup tables for the entire warehouse, and is updated 
+daily.
+
+The OFFICIAL database contains census values for frequently 
+used data. Instead of hundreds of tables as in the STUDENT 
+database, the OFFICIAL database only contains dozens of 
+tables. The OFFICIAL database helps users understand the 
+concept of officialness and the smaller size makes a good 
+starting point for new warehouse users. The OFFICIAL database 
+is actually a collection of views into the larger, granular 
+databases, such as STUDENT. Besides being easier to use, the 
+OFFICIAL database achieves a summarized flavor, which less 
+sophisticated users can comfortably use. In the OFFICIAL 
+database, properly constructed queries result in answers that 
+match the official reports released by the Department of 
+Institutional Research.
+
+
+Ten Lessons Learned
+
+During ASU's data warehouse development, we learned many 
+valuable lessons (see Figure 6). Most of these lessons are 
+general in nature, in that any institution starting to build 
+a data warehouse can learn from them. A few lessons are 
+particular to ASU, given our setting and how we decided to 
+use the warehouse. The most significant decision was to make 
+a management decision making resource like the data 
+warehouse. Most system developments at ASU support the needs 
+of the operational user, failing to provide management the 
+information they need for decision making. In designing ASU's 
+data warehouse, we decided to focus our resources in 
+addressing the needs of this important. but previously, 
+ignored group of users.
+
+
+Ten Lessons Learned
+
+1. New technologies have shortcomings.
+2. Costs are shifting to the customer.
+3. Security and privacy are major issues.
+4. Warehouse impacts dataadministration.
+5. Training pays dividends.
+6. Support structure needs to be in place.
+7. Invest in a warehouse dictionary.
+8. Officialness is hard to achieve.
+9. Educate on warehouse concepts often.
+10. Avoid cost justification if possible.
+
+Figure 6. Lessons Learned
+
+
+     Technology Shortcomings
+
+Client/server technology is still less reliable, secure, and 
+timely than its predecessor. UNIX servers are not as reliable 
+as mainframes and data access tools are just reaching 
+adolescence. Networks add new layers of complexity and 
+monitoring performance and tuning of servers is imperfect. 
+The results are gaps in available technology and software 
+leaving users' needs unmet. One such example is matching a 
+cohort on a desktop machine with the data warehouse. Most 
+query and retrieval tools do not support this type of 
+function (local table join with server table). If the tool 
+allows this function, joining data is slow, making the match 
+process prohibitive for large databases. Allowing users to 
+create tables containing the IDs of records being tracked on 
+the server solves this problem. However, this solution 
+defeats benefits of client/server technology, moving emphasis 
+back to the host machine. The result is user frustration with 
+the warehouse, when the problem is the technology. Also, with 
+new technology, there is always new vocabulary to learn, 
+adding further to the problem: client/server, relational 
+databases, middleware, join, UNIX, decision support, SQL, 
+TCP/IP, Ethernet, Cartesian joins, data administration, E/R 
+models, ODBC, DAL, etc.
+
+     Customer Costs
+
+Information technology departments and technology infusion 
+funding traditionally absorb much of the cost of computing at 
+ASU. With the warehouse and client/server computing, the cost 
+of upgrading hardware and buying software for enterprise 
+systems shifts to the individual or department. Employees 
+seeking access to the warehouse need to know the cost of 
+connecting. At ASU, a "connection checklist" is available, 
+detailing all the steps necessary for access. The checklist 
+includes information on these items: data access approval, PC 
+or Macintosh, printer, Ethernet connection, communications 
+software, data access software, software installation, and 
+training. The checklist informs potential users about exactly 
+what they need, how to get what they need, and how much it 
+costs. We find this checklist to be a very helpful document 
+(see Appendix B).
+
+     Security and Privacy
+
+Client/server technology will ultimately force society to 
+redefine privacy and organizations to rethink security. A 
+data warehouse brings security to the forefront of this 
+discussion, slowing development and frustrating users. 
+Unfortunately, security and privacy issues may stall or limit 
+development of a data warehouse at many institutions. Even 
+though a data warehouse does not involve update capability, 
+the ability to extract and convert groups of records to 
+usable information is threatening. As a result, one of ASU's 
+early initiatives was to develop a new data access policy 
+that recognizes the value of placing data in the hands of our 
+customers. There will be problems, but training and 
+accountability are the most appropriate ways of dealing with 
+this issue at the present time. At ASU, there is only one 
+case in which we revoked warehouse access due to misuse.
+
+     Data Administration
+
+Data administration at ASU has followed the evolution of data 
+administration according to Bill Inmon. Inmon says the data 
+administrator's role has changed dramatically from managing 
+the data dictionary to designing and constructing a data 
+warehouse.[8] ASU's data warehouse put the Office of Data 
+Administration on the map and brings a new awareness of 
+enterprise data. Users do not believe how bad their data is 
+until they see it. For example, one college uses the data 
+warehouse to verify professional program information and 
+correct mistakes on ASU's operational systems. However, the 
+data warehouse is a double-edged sword for Data 
+Administration. Once users start using the warehouse, a 
+"never-ending" list of enhancements quickly appeared, 
+inundating Data Administration. Institutions need to identify 
+permanent resources for warehouse development and support, or 
+other data administration activities begin to suffer.
+
+     Training: A Good Investment
+
+The need to train data warehouse users is critical and pays 
+good dividends. In most computing projects, management 
+recognizes the need for training, but does not always fund 
+training. The is true of ASU's data warehouse. With every new 
+database there is a need for another training course, 
+complete with reference materials. Every enhancement or 
+change to the warehouse must be documented and communicated 
+to warehouse users. Data Administration assumed 
+responsibility for training and documentation at ASU. While 
+training adds to the critical mass of warehouse development 
+and helps our users, it distracts from development.
+
+Initial training at ASU focuses on the tool, the logic, and 
+the data. While a data warehouse supports hundreds of 
+different access tools, training with one tool reduces a 
+trainee's learning curve. After an extensive review of data 
+access tools, Brio Technologies' DataPrism (an access tool 
+that works in both the Macintosh and Windows environment) is 
+our access tool of choice. Logic training is important also 
+(i.e., SQL operators, Cartesian join, etc.). While this 
+functionality is inherent in most access tools, training on 
+query logic avoids many questions down the road. Lastly, 
+training centers on the data. Data is what users know the 
+least. We spend up to 60% of class time training on data, and 
+hope to increase this percentage as users become more 
+familiar with access tools and query logic.
+
+     User Support
+
+While training reduces the number of data warehouse 
+questions, a support infrastructure handles other support 
+needs. At ASU, there is an e-mail address (wareq@asu.edu) 
+where users can send their questions or problems. Experts on 
+warehouse data, networking, and data access tools receive 
+these messages and respond within 24 hours. We log responses 
+in a searchable database. Also, users can telephone a central 
+help line that will send an e-mail message for them. Second, 
+there is a file transfer protocol (FTP) site available for 
+warehouse users. This site stores postscript copies of all 
+documents associated with the data warehouse and copies of 
+the data models. This is also a site for sharing common 
+queries built by users or the warehouse team. Lastly, there 
+is a Warehouse Users Group (WUG). WUG meets monthly to share 
+findings. educate members about the data warehouse, and 
+provide feedback to the warehouse team (currently there are 
+over 75 WUG members). WUG also gives warehouse users an 
+opportunity to find a "warehouse buddy," so they don't feel 
+alone in ASU's world of data.
+
+     Invest in a Warehouse Dictionary
+
+One of the more daunting tasks is to provide users a good 
+data dictionary and source for metadata. [Metadata is data 
+about the data, including layout, format, encoding/decoding 
+algorithms, domain constraints, etc.] The problem is that 
+there are thousands of data elements, and populating 
+definitions and metadata is an endless task. Although this 
+process is time consuming, the dividends paid are 
+significant. At ASU, we draw resources from the BAIG to 
+populate definitions (see page 4 for explanation of BAIG). 
+[Authors' note: One of the reasons we recommend users adopt 
+DataPrism as their access tool is the "remarks" feature. This 
+feature functions like a pop-up data dictionary, allowing 
+users to quickly determine the definition and code values of 
+a data element or table in the warehouse.]
+
+     Officialness
+
+Providing "official numbers" in the data warehouse greatly 
+improves warehouse credibility. However, delivering 
+"officialness" is not as easy as it sounds. The programs that 
+extract and transform the data from the legacy databases must 
+produce numbers that balance with the official numbers 
+released by ASU. Since different algorithms and extract 
+programs exist, there are often differences between the 
+warehouse and official university reports. The problem 
+multiplies because of ten years of data in the warehouse. 
+Creating and validating ten years of official data is 
+difficult. Going forward in time when building a warehouse is 
+easier than attempting to reconstruct and validate history.
+
+     Data Warehouse vs. Administrative Systems
+
+Many users tend to look at the data warehouse as another 
+administrative system. This phenomenon happens since the data 
+warehouse is in relational format. While the
+
+warehouse can makeup some of the data shortfalls operational 
+user's experience ("data gaps"), it is not the warehouse's 
+primary role. To help our users understand the difference 
+between the data warehouse and their administrative system, 
+we developed Figure 7. This figure compares a data warehouse 
+to an administrative operational system on a variety of 
+dimensions. Every talk or presentation on the data warehouse 
+includes this slide underscoring the differences between the 
+two. We reiterated these differences frequently, or our users 
+begin to make unreasonable requests of the warehouse.
+
+
+(Figure 7 not available in ASCII text version)
+
+
+     Cost Justification
+
+If possible, avoid the traditional cost/benefit analysis in 
+justifying a data warehouse. Since a data warehouse benefits 
+the entire organization, ascertaining the benefits from 
+improved decision making is difficult. Fortunately, at ASU, a 
+limited demonstration of the warehouse concept was enough to 
+sell the project. If a more complete cost/benefit analysis 
+were required, the project may never have started. In other 
+words, don't spend too much time justifying a warehouse, just 
+start building one! [Authors' note: A data warehouse may be 
+inevitable, since there is little chance that a technical 
+breakthrough will occur, making access of legacy data easier 
+or cheaper than a data warehouse. The Gartner Group says 
+"Organizations employing a data warehouse architecture will 
+reduce user-driven access to operational data stores by 75%, 
+enhance overall data availability, increase effectiveness and 
+timeliness of business decisions, and decrease resources 
+required by IS to build and maintain reports."[9] ]
+
+
+Conclusion
+
+The future of ASU's data warehouse is just beginning to take 
+shape. Initially, the warehouse served as a resource for 
+accessing information from legacy systems. Now, the warehouse 
+fills a vital role in a client/server environment as a 
+telescope into ASU's distributed data stores. Some of this 
+data will reside in the data warehouse, while other elements 
+will be "viewed" from the RDBMSs where the data resides. We 
+foresee a time when the telescope extends beyond ASU to other 
+institutions with common goals, such as the Maricopa County 
+Community College District. The real power of the warehouse 
+will be actualized in years to come.
+
+The data warehouse also fills an important data 
+administration role in a client/server environment. As 
+distributed application developers move further away from the 
+central computing core, the data elements in the warehouse 
+insure the Integrity of the institution's enterprise data. 
+The definitions and coding standards in the warehouse are 
+what distributed developers follow. The warehouse is the 
+"glue" holding enterprise data stores together until a mature 
+repository comes along.
+
+The most important contribution of ASU's data warehouse is 
+the new focus on data integration. While attempting to 
+achieve integration in the warehouse, ASU conceived a new 
+data model which not only integrates the warehouse, but our 
+administrative operational systems as well. By integrating 
+the warehouse, we obtain more powerful data. By integrating 
+our operational systems, we provide strategic new levels of 
+customer service.
+
+The bottom line is that warehousing is here to stay. Data 
+warehousing can give institutions the opportunity to "get 
+their feet wet" in client/server technology, distributed 
+solutions and RDBMS. This is essential for any future 
+mission-critical application. A data warehouse is a low risk, 
+high return investment. The question for corporations and 
+higher education is not simply whether to build a warehouse, 
+but when. Based on predictions by Peter Kastner, an analyst 
+at the Aberdeen Group in Boston, "All companies will build [a 
+data warehouse] in the next five years."[10]
+
+
+(Appendix A not available in ASCII text version)
+
+
+(Appendix B not available in ASCII text version)
+
+
+  *  Introduction
+
+This checklist is designed to assist you in determining if 
+you have everything necessary to access the ASU Data 
+Warehouse. Some of the information included in this checklist 
+is, by necessity, of a technical nature. We encourage you to 
+call your local or distributed consultant or 965-CNCS if you 
+have any questions related to this document.
+
+The Warehouse requires a number of components that are 
+described in detail in this document. The checklist includes 
+the following items which must be considered when connecting 
+to the ASU Data Warehouse:
+
+  *  Data Access Approval
+  *  PC or Macintosh
+  *  Printer
+  *  Ethernet Connection
+  *  Communications Software
+  *  Data Access Software
+  *  Software Installation
+  *  Training
+
+
+After reading this document, please complete one of the 
+attached worksheets for a PC or Macintosh. This will assist 
+you in estimating the costs associated with connecting to the 
+Warehouse. Please keep in mind that the prices listed in this 
+document are estimates only and should be verified based on 
+current pricing structures.
+
+
+  *  Data Access Approval
+
+To obtain read-only access to the ASU Data Warehouse, you 
+need to do the following three steps:
+
+1. Complete the attached Request for Access to Computing 
+Facilities form, omitting your signature in the "Owner 
+Signature" section. A sample form is attached as a guide to 
+completing the request. You will sign the form in training 
+class after the instructor explains security issues.
+
+For student data:
+Graduate students requiring access to the Warehouse as part 
+of their ASU employment will require signature from their 
+department sponsor.
+
+Undergraduate or graduate students not employed by ASU will
+not be given access to the Warehouse.
+
+2. Obtain supervisor's signature in Sponsor Signature block.
+
+3. Forward the form to the Registrar's Office (Student Data 
+Trustee) for approval (mail stop 0312, SSV B121).
+
+Your userid and password will be established and issued to 
+you by the following process:
+
+Data Trustee will approve the level of access and forward the 
+approved form to the Data Administration Training Instructor.
+
+Data Administration Training Instructor will forward the form 
+along with forms for other students registered for a specific 
+class date to the Computer Accounts Office.
+
+Computer Accounts Office will create your userid and 
+password, and then forward the form back to the Data 
+Administration Training Instructor.
+
+To activate your userid for use with the ASU Data Warehouse, 
+you will need to attend an introductory training class 
+(Accessing ASU Data Warehouse) to become familiar with the 
+Warehouse. Please refer to the section below for training 
+information.
+
+Data Administration Training Instructor will explain security 
+issues in class and obtain your signature on the Request for 
+Access to Computing Facilities form. The instructor will then 
+give you a copy of the form and forward a copy to the 
+Computer Accounts Office.
+
+
+  *  PC or Macintosh
+
+A PC or Macintosh is required to access ASU's Data Warehouse. 
+Both minimum and recommended configurations for PCs and 
+Macintosh computers are listed here for your reference. These 
+configurations are appropriate for compliance with the ASU 
+Rational Information Technology Environment (ASURITE).
+
+
+(Configuration Chart not available in ASCII text format)
+
+
+*  Printer
+
+
+With access to the Warehouse, you are most likely going to be 
+interested in printing your reports and diagrams of the 
+Warehouse databases. In order to accomplish this, you will 
+need access to a laser printer. If you are presently 
+connected to a local area network, such as a Banyan, Novell 
+or AppleTalk network, there may already be a laser printer 
+that exists in your office area that can be used for 
+warehouse printing. If you are not connected directly to a 
+local area network and do not have a printer, we suggest that 
+you consider purchasing a laser printer. In order to print 
+the diagrams, you need a printer that can print postscript 
+files.
+
+
+Ethernet Connection
+
+An Ethernet connection is a requirement for accessing the ASU 
+Data Warehouse. Ethernet allows you to connect to other 
+computers and printers on campus and provides high speed 
+communications. Ethernet has become a standard for new data 
+communication connections on campus and is rapidly becoming 
+wide spread throughout all university departments. If you 
+already have an Ethernet connection, you may proceed to the 
+next step. If you have a connection such as dial-in, Kermit, 
+Forte, Irma or LocalTalk, you will need to obtain an Ethernet 
+connection in order to access the Warehouse.
+
+To obtain an Ethernet connection, you will need to do the 
+following:
+
+1. Obtain a copy of the Application for Data Network 
+Connection. This form is available from COMPASS at Computing 
+Commons, 2nd Floor or by calling 965-5939.
+
+2. Complete the form. There may be questions on the form 
+which you cannot answer. The Data Communications department, 
+at 965-5911, will assist you in completing the portions of 
+the form that are not clear. Also, they will provide current 
+up-to-date pricing, so that you may complete the necessary 
+PO9 for payment.
+
+NOTE: Page 2 of the Application for Data Network Connection 
+will ask if you need an Ethernet interface card. If you 
+presently do not have an Ethernet card, we recommend that you 
+request services of the Tech Shop to provide and install the 
+card. When you contact Data Communications, specify that you 
+will need an Ethernet card so that you can complete one PO9 
+for the connection, card and installation .
+
+NOTE: Page 2 of the form also asks questions pertaining to 
+the installation of the NCSA/Telnet software. When completing 
+this form, please indicate that you will not be using the 
+NCSA/Telnet software. If you are using a PC, you will need 
+the LAN Workplace software which is described in further 
+detail in the Communications Software portion of this 
+checklist. If you are using a Mac, you will be using MacTCP, 
+which is available through COMPASS.
+
+3. Submit the completed form to Data Communications with a 
+printed screen from the CUFS system showing that you have 
+obtained Level 1 approval for the PO9.
+
+4. A representative from Data Communications will make the 
+necessary arrangements for the Ethernet connection and 
+installation of an Ethernet card, as specified in your 
+application.
+
+  *  Communications Software
+
+In addition to the Ethernet connection described above, 
+communications software is required for your computer. There 
+is a minimum of two communication programs required for using 
+the ASU Data Warehouse:
+
+1. TCP/IP (also known as Telnet) software is required for you 
+to use your Ethernet connection.
+
+If you are using a Macintosh, this software is included with 
+System 7 and is called MacTCP. If you do not already have a 
+copy of MacTCP, you may obtain this software through COMPASS, 
+at the Computing Commons.
+
+If you are using a PC, we recommend use of the ASUNET program 
+for your TCP/IP software. ASUNET is available through Compass 
+in the Computing Commons, 2nd Floor. If you are currently 
+using ASUNET, you will need to obtain the upgrade to a 
+version dated February,1994 or more recent. This up-to-date 
+version contains a program called WINSOCK which is required 
+for accessing the Warehouse.
+
+Alternatively, you may use FTP PC/TCP or Novell LAN Workplace 
+on your PC as the TCP/IP package of choice.
+
+2. A program known as Sybase Open Client, Net-Library is also 
+required to access the Warehouse. This program is available 
+through COMPASS for the PC and Macintosh environments. Be 
+sure that your Ethernet connection is installed and working 
+prior to attempting to install this software.
+
+3. Another program, Sybase Open Client, DB-Library may also 
+be required depending on the nature of the data access 
+software that you are using. This Sybase Open Client, DB-
+Library software is only applicable to PC users and is not 
+required for the Macintosh. This software is required if you 
+choose DataPrism for the PC, but is not required for the 
+Macintosh version of DataPrism. If you select some other 
+product for data access, such as SAS/Access, Microsoft 
+Access, Q+E, Forest and Trees or PowerBuilder, you will need 
+to consult with the vendor to determine if the Open Client 
+DB-Library software is required to run their application 
+program. If the Open Client DB-Library software is required 
+by the vendor, you may purchase this software at COMPASS.
+
+  *  Data Access Software
+
+Several data access software products have been researched by 
+the staff involved in setting up the ASU Data Warehouse. 
+While we have found many to work very well in providing 
+access to the Sybase server supporting the ASU Data 
+Warehouse, DataPrism is the recommended tool. The features of 
+DataPrism are summarized as follows:
+
+  *  Easy to learn, requiring minimal training to get started
+  *  Useful for generating simple ad hoc queries and reports
+     that may be viewed or printed
+  *  Useful for exporting data to other applications, such as
+     Word, WordPerfect or Excel
+  *  Rapid report generation and execution
+  *  Supported for the Data Warehouse environment
+
+DataPrism is available through COMPASS, at the Computing 
+Commons. Special pricing has been negotiated for this 
+product. Please refer to the attached worksheets for pricing 
+information.
+
+NOTE: There are numerous products available through software 
+vendors that will allow you to access the Data Warehouse. 
+Each of these products offer advantages and characteristics 
+that differentiate them from each other. Several of the 
+products we evaluated for use with the Data Warehouse have 
+problems which effect the usefulness of the product. If you 
+are considering using a tool other than DataPrism, please 
+contact a consultant by calling 965-CNCS or by sending an 
+electronic mail note to WARE-Q to inquire about the product 
+that you are interested in.
+
+
+  *  Software Installation
+
+The communications and data access software described in this 
+document is complex and involves configuration options. While 
+there are instructions included with the purchase of these 
+software packages, we encourage you to contract with 
+Facilities Management to perform the installation and 
+configuration of this software. There is a charge of $40 per 
+hour for this service. Depending on the complexity of your 
+configuration and the components required to be installed and 
+configured, this may take from 1 - 4 hours for a Facilities 
+Management technician. To arrange for this service, contact 
+Facilities Management at 965-2826.
+
+
+  *  Training
+
+After you have all of the pieces in place (data access, PC or 
+Mac, printer, Ethernet connection, communications software, 
+and data access software) ready to be trained. Refer to ASU 
+Data Warehouse Training sheet available in COMPASS, Computing 
+Commons 202 on Main campus, or by contacting the IRT Helpline 
+at 543-4357 on West campus.
+
+
+(Chart not available in ASCII text version)
+
+
+Footnotes:
+
+[1]Inmon, W. H. (1992). [Conversation with paper's author.] 
+
+[2]Inmon, W. H. (1992). What is a data warehouse? (Tech Topic 
+Vol. 1., No. 1) Prism Solutions, Inc.
+
+[3]White, C. (1994, December). Client/server obsession. 
+Database Programming and Design: Special Supplement, 7. 
+
+[4]Hammer, K. (1994, September-October). Will the data 
+warehouse be warehoused? Relational Database Journal, 32. 
+
+[5]Cafasso, R. (1994, October 10). Praxis forges data 
+warehouse plan. Computer World, 32.
+
+[6]Inmon, W. H. (1992, April). Building the data bridge: The 
+ten critical success factors of building a data warehouse. 
+Database Programming & Design, 69. 
+
+[7]Date, C. J. [Discussion on database design.]
+
+[8]Inmon, W. H. (1992, January). Winds of change: A brief 
+history of data administration's amazing growth and 
+development. Database Programming and Design, 68-69.
+
+[9]Gartner Group (1994). [Proceedings from Conference 
+Presentation on Data Warehouse.]
+
+
+[10]Brandel, M. (1994, October 31). AT&T GIS dives into 
+vertical markets. Computer World, 4.
+
+
+Authors' Note
+
+John Porter, Data Administrator and Director of Institutional 
+Analysis
+Arizona State University
+Office of Institutional Analysis and Data
+P.O. Box 871203
+Tempe, AZ 85287-1203
+(602) 965-5959
+Internet: john.porter@ASU.EDU
+
+John Rome, Data Analyst Principal
+Arizona State University
+Office of Institutional Analysis and Data
+P.O. Box 871203
+Tempe, AZ 85287-1203
+(602) 965-5959
+Internet: john.rome@ASU.EDU
+

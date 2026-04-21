@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"palm-pre","Palm Pre","product","Palm Inc.","2009-2011","new","discontinued","palm-pre-199-really-299-cloudave-a0a25f","First webOS smartphone; launched Jun 6 2009 on Sprint; discontinued with Palm acquisition and webOS end-of-life"
+"webos","webOS","os","Palm Inc.","2009-2012","new","acquired","palm-pre-199-really-299-cloudave-a0a25f","Sold to LG 2013 for TV use; Palm smartphone line discontinued 2011"
+"mail-in-rebate","Mail-in Rebate Program","business-process","Multiple","1970s-2010s","mature","declining","palm-pre-199-really-299-cloudave-a0a25f","BusinessWeek's 40% non-redemption = $2B annual breakage"
+"handspring-treo","Handspring Treo","product","Handspring","2002-2003","mature","legacy","palm-pre-199-really-299-cloudave-a0a25f","Predecessor to Palm Treo; merged into Palm 2003"

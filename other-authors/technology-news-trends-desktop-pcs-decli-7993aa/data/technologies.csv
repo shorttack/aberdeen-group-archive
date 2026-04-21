@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"notebook-pc","Notebook/Laptop PC","platform","Multiple","1985-present","growing","mature","technology-news-trends-desktop-pcs-decli-7993aa","Consumer+corporate notebook category; subject of report"
+"desktop-pc","Desktop PC","platform","Multiple","1975-present","mature","declining","technology-news-trends-desktop-pcs-decli-7993aa","Declining primary-device share vs notebooks"
+"tablet-pc-ms","Microsoft Tablet PC","platform","Microsoft + OEMs","2002-2012","new","deprecated","technology-news-trends-desktop-pcs-decli-7993aa","Windows XP Tablet PC Edition form factor; never mainstreamed; replaced conceptually by iPad 2010"
+"thin-client","Thin Client","platform","Multiple","1990s-present","mature","niche","technology-news-trends-desktop-pcs-decli-7993aa","Meta predicted 15% primary-device share by 2006"
+"handheld-pda","Handheld/PDA","platform","Multiple","1990-2010","mature","deprecated","technology-news-trends-desktop-pcs-decli-7993aa","Palm/Pocket PC; displaced by smartphones 2007+"
+"smart-display","Microsoft Smart Display","product","Microsoft + OEMs","2002-2004","new","discontinued","technology-news-trends-desktop-pcs-decli-7993aa","Mira/Smart Display wireless-thin-client for home; discontinued late 2003/2004"

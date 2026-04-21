@@ -741,3 +741,15 @@ All 10 webarchives processed as distinct Kastner citations across Wired, CNN/Mon
 ## Batch 37 notes (2026-04-20)
 
 Batch 12 ("webarchives Technology-News-Hardware") — no skips. All 10 files processed. All distinct TechNewsWorld stories at different URLs (story IDs 31155, 31363, 31867, 32532, 33291, 33341, 33416, 33505, 33697, 34678), no syndication candidates. Authors: Jay Lyman (×8), Kirk L. Kroeker (×1), Gene J. Koprowski (×1). All 10 contain rich Kastner quotes covering the 2003-2004 hardware transition era: AMD Athlon 64/Opteron vs Intel Pentium 4/Xeon/Itanium 2, Apple Power Mac G5, IBM Power.org opening, Intel Grantsdale/Alderwood chipsets (PCIe/DDR2), Intel Celeron M vs AMD Mobile Athlon 64, and Samsung S3C2440 mobile CPU.
+
+## Batch 38 notes (2026-04-21)
+
+Batch 13 ("webarchives") — 10 files provided, 9 processed, 1 skip.
+
+### Skipped source
+
+- **Mass-Attorney-Lawyer-the-big-discount-runaround-2.webarchive** (attorney2massachusetts.com/the-big-discount-runaround-2/) — **Machine-translated SEO syndication** of the canonical **BusinessWeek / Brian Grow / 2005 "The Great Rebate Runaround"** (see CloudAve/Zoli Erdos 2009-05-19 embedded reference and SmartMoney/Kelli Grant 2006-04-17 which both cite the BusinessWeek Grow piece). The attorney2massachusetts.com page is a low-quality English re-rendering of the BusinessWeek content published on an off-topic legal-services domain, with no original reporting and no Kastner attribution refinements beyond what appears in the already-ingested CloudAve and SmartMoney citations. Per skill §9, syndications of previously-ingested content are logged and processed only at first instance. The canonical BusinessWeek 2005 Grow piece is referenced via study `palm-pre-199-really-299-cloudave-a0a25f` (CloudAve embed of BW 40% Kastner/Vericours quote) and study `great-rebate-debate-smartmoney-grant-80650c` (SmartMoney Grant 2006-04-17 with Kastner's canonical "40% don't file + 20% bungle = 60%" statistic). SKIP as machine-translated syndication of BusinessWeek/2005/Grow content.
+
+### Processed 9 studies
+
+All 9 contain distinct Kastner citations spanning 1994-2009. Authors: Jay Lyman (TechNewsWorld ×2), Elizabeth Millard (TechNewsWorld ×1), Jon Van Vlack (Times-Herald-Record 2003 — earliest Kastner rebate quote), Zoli Erdos (CloudAve 2009), John D. Porter & John J. Rome (ASU / CAUSE 1994 — earliest Kastner data-warehouse prediction), Cade Metz (PC Magazine 2002), Jim Taylor (DVD Demystified publications listing 2003), Kelli B. Grant (SmartMoney 2006 — canonical 60% rebate-loss statistic). The Van Vlack 2003 and Grant 2006 pieces both cite Kastner as the rebate-industry expert with his signature "60% never get their refund" framing; CloudAve 2009 preserves the 2005 BusinessWeek Vericours 40%-don't-file quote. The CAUSE 1994 Porter & Rome paper validates Kastner's 1994 data-warehouse mainstream prediction (came true by 1999).

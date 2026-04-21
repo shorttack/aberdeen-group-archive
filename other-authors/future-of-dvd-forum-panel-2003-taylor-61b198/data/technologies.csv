@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"dvd-format","DVD (Digital Versatile Disc)","media-format","DVD Forum","1996-present","mature","declining","future-of-dvd-forum-panel-2003-taylor-61b198","Peaked in US sales 2006; declining but still sold 2024"
+"hd-dvd-format","HD DVD","media-format","Toshiba","2006-2008","planned","discontinued","future-of-dvd-forum-panel-2003-taylor-61b198","Toshiba abandoned HD DVD 2008-02-19; lost format war to Blu-ray"
+"blu-ray-format","Blu-ray Disc","media-format","Blu-ray Disc Association","2006-present","planned","niche","future-of-dvd-forum-panel-2003-taylor-61b198","Won format war 2008; remains niche media format"
+"dvd-content-filtering","Parental/Content DVD Filtering (ClearPlay)","software-feature","ClearPlay","2001-2005","new","legacy","future-of-dvd-forum-panel-2003-taylor-61b198","Family Movie Act 2005 legalized filtering; ClearPlay later shifted to streaming-filter service"

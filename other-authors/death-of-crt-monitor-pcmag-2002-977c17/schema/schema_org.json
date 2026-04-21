@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Death of the CRT Monitor",
+  "description": "PC Magazine / PCMag.com article (Nov 1 2002, Cade Metz) on the LCD-vs-CRT monitor transition. Peter Kastner, Aberdeen Group vice president and senior researcher, provides key market data: LCDs at 40% of desktop-display market with ~2M units/month at $800M revenue/month (average $400/unit). iSuppli/Stanford Resources' Rhonda Alexander offers more conservative 29% LCD share, with tracking from 3% (Q1 2000) \u2192 5% (early 2001) \u2192 21% (Jan 2002). Both analysts predict LCDs will outnumber CRTs as the standard PC monitor in 2003. Planar Systems' Rob Baumgartner addresses video-latency concerns. U Minn Carlson School professors Murtha and Lenway predict LCDs will outnumber CRTs 5:1 by 2006. Kastner's pre-CRO Aberdeen era (VP/senior researcher).",
+  "creator": {
+    "@type": "Person",
+    "name": "Cade Metz, PC Magazine"
+  },
+  "datePublished": "2002-11-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,365 @@
+# Future of DVD Panel — DVD Forum 2003 U.S. Conference
+
+> Archived from: The-Future-of-DVD-speech-2003-9.txt
+> Original publication date: 2003-11-21
+> Author: Jim Taylor (publications listing); Peter Kastner (moderator); panelists Brian Heuckroth and Matt Jarman
+
+---
+
+## Original Document Text
+
+URL: http://www.dvddemystified.com/jim/jht_pubs.htm
+
+Jim Taylor's Publications, Presentations, and Other Productions 
+
+Jim Taylor's Publications, Presentations, Pontifications, and Other Productions
+
+A partial list...
+
+ Aug 5, 2008, San Jose, CA
+ Digital Hollywood/CEA Building Blocks 2008 Panelist: The NexGen Entertainment Home Experience - From the Smart & Connected TV to the PVR, Set-Top & PC Experience
+ (Panelists: Rick Doherty - The Envisioneering Group [Moderator], JT Taylor - Cisco, Richard Carriere - Nero, John Gildred - SyncTV, Vic Odryna - ZeeVee, Michael Spilo - NETGEAR, David Adams - RallyPoint ) 
+
+ May 7, 2008, Hollywood, CA
+ Digital Hollywood Spring 2008 Interview: The Future of DVD and Blu-ray 
+
+ Apr 18, 2008, Paris, France
+ PEVE Digital Entertainment Conference Panelist: Defining the Future of Packaged Media: What Next for Blu-ray?
+ (Panelists: Tom Adams [moderator] - Adams Media Research, Jean-Michel Cathonnet - Cinram, Frank Simonis - Blu-ray Disc Association, David Stevens - 20th Century Fox Home Entertainment, Michael Gutowski - Infodisc Technology) 
+
+ Apr 17, 2008, Paris, France
+ PEVE Digital Entertainment Conference Panelist: The Role of Manufacturing-on-Demand in Extending the Long Tail
+ (Panelists: Helen Davis Jayalath [moderator] - Screen Digest, Anthony Bay - MOD Systems, Daniel Doll-Steinberg - Tribeka, Marcus Stewart Vannini, Eros International) 
+
+ Mar 5, 2008, Miami, FL
+ Media-Tech Conference 2008 Speaker: Qflix - Another Revenue Avenue 
+
+ Jan 8, 2008, Las Vegas, NV
+ International CES Panelist: Downloading and Streaming HD over the Air-Home Video's Future
+ (Panelists: Wilson Rothman [moderator] - Gizmodo, Betsy Scolnik - National Geographic Digital Media, Jim Wuthrich, Warner Bros. Home Entertainment, Mark Pascarella - Gotuit Media, Patrick Cosson - Vudu) 
+
+ Oct 11, 2006, Long Beach, CA
+ Media-Tech Showcase and Conference '06 Keynote: Next Generation DVD Formats: What it Takes to Make a Title 
+
+ Aug 15, 2006, Beverly Hills, CA
+ DisplaySearch HDTV Conference 2006: The Future of Television Panelist: Outlook for High-Definition DVD Players - What Does the Adoption Curve Look Like?
+ (Panelists: Ross Young - DisplaySearch [moderator], Mark Knox - Toshiba, Jeff Goldstein - Sony, Eisuke Tsuyuzaki - Panasonic) 
+
+ Aug 7, 2006, Universal City, CA
+ DVD Forum North American DVD Conference Speaker: End-to-End Authoring 
+
+ Mar 29, 2006, Los Angeles, CA
+ Digital Hollywood Moderator: The DVD Association Workshops - Part II Next Generation DVD - Content Makers
+ (Panelists: Bruce Nazarian - Digital Media Consulting Group, Kevin Collins - Microsoft, Steve Venezia - Dolby Labs, Joseph McCrossan - Panasonic Hollywood Laboratory, Morgan Holly - Ascent Media, Jim Burger - Dow, Lohnes & Albertson) 
+
+ Dec, 2005
+ DV Expo West Moderator: HD DVD and Blu-ray
+ (Panelists: Andy Parsons - Pioneer, Duncan Wain - Comchoice, Bruce Nazarian - Gnome Digital) 
+
+ Nov, 2005
+ McGraw-Hill Book: DVD Demystified, 3nd Edition
+ With co-authors Mark Johnson and Charles Crawford 
+
+ Sep 28, 2005, San Francisco, CA
+ OSTA OSS Panelist: Imaging Interoperability Between CE Devices - How Do We Get There?
+ (Panelists: Parker Lee - OSTA Chair [Moderator], Dr. Mark Tarlton - Motorola Labs, George Lynch - HP) 
+
+ Jan 6 & 7, 2005, Las Vegas, NV
+ International CES Speaker: DVD Demystified, Take 2: The Upcoming HD DVD Formats 
+
+ Jan 5, 2005, Las Vegas, NV
+ International CES Speaker: The Future of DVD 
+
+ Dec 8, 2004, Los Angeles, CA
+ DV Expo West Speaker: The Future of DVD 
+
+ Oct 19, 2004, San Francisco, CA
+ OSTA OSS Moderator: Managing the Digital File Explosion
+ (Panelists: Kevin Woolery - Buzznet, Melani DiNapoli - Gracenote, Bill Holmes - DivX Networks, Richard Mandeberg - Mirra) 
+
+ May 6, 2004, Dallas, TX
+ Connections - The Digital Home Conference and Showcase Panel speaker: DRM: How to Ensure that “Anti-Piracy” Does Not Become “Anti-Consumer”
+ (Panelists: Jeff Joseph - CEA [co-moderator], Kurt Scherf - Parks Associates [co-moderator], Mohan Atreya - RSA Security, Brad Auerbach - DVD Audio Council, Donald  Leake - IBM Research, Brian Tucker - Intel Corporation) 
+
+ Jan 9, 2004, Las Vegas, NV
+ International CES Panel speaker: Making Music and Movies Mobile
+ (Panelists: Tekla Perry - IEEE Spectrum [moderator], Tim Bratton - RealNetworks, Tom Mock - Wye Consulting, Dave Singer - Apple Computer) 
+
+ Nov 21, 2003, Beverly Hills, CA
+ DVD Forum 2003 U.S. Conference Panel speaker: Future of DVD
+ (Panelists: Peter Kastner - Aberdeen Group [moderator], Brian Heuckroth - Cirrus Logic, Matt Jarman - ClearPlay) 
+
+ Nov 2-3, 2003, Carribean
+ Home Theater Cruise Panel speaker: The Future Of Prerecorded HD
+ (Panelists: Gary Reber - Widescreen Review [moderator], Joe Kane - Joe Kane Productions, Rick Dean - THX, Richard Webb - Pixonics)
+ Panel speaker: Copy Protection & A/V Interfaces
+ (Panelists: Gary Reber - Widescreen Review [moderator], Alen Koebel - Christie Digital Systems, Demian Martin - consultant, Brett Gaines - Silicon Image and HDMI Licensing, John Tunnell - Consumer Electronics Association)
+ Q & A Session 
+ (Participants: Gary Reber - Widescreen Review [moderator], Al Schmitt - Bop City Records, Alan Parsons - recording engineer and producer, and music artist, Alen Koebel - Christie Digital Systems, Art Noxon - Acoustic Sciences Corporation, Bob Hodas - audio acoustics professional and recording engineer, Bobby Owsinski - Surround Associates, Brett Gaines - Silicon Image and HDMI Licensing, Brian Towne - DTS, Demian Martin - consultant, Dennis Erskine - Design Cinema Privee, Don Stewart - Stewart Filmscreen, Dr. William Bleha - JVC North America R&D Center, Elliot Scheiner - Bop City Records, Gerry Lemay - Quest Acoustical Interiors and Home Acoustics Alliance (HAA), Herman Cárdenas - NetStreams, James Wellnitz - Accurate Imaging Technologies, Jason Thompson - Texas Instruments, Jim Burns - Burns Digital Consultants, Joe Kane - Joe Kane Productions, John Tunnell - Consumer Electronics Association, Norm Varney - A/V RoomService, Perry Sun - Widescreen Review, Phil Ramone - recording producer and engineer, Richard Webb - Pixonics, Rick Dean - THX, Robert Margouleff - MiCasa Multimedia) 
+
+ Nov, 2003
+ McGraw-Hill Book: Everything You Ever Wanted to Know About DVD
+ A print version of Jim's acclaimed Internet DVD FAQ. 
+
+ Oct 14, 2003, Carlsbad, CA
+ OSTA Optical Storage Symposium Panel moderator: Capturing Content
+ (Panelists: John Godwin - Movielink , Avi Greengart - Jupiter Research, Jeff Klugman - Tivo, John Minakais - 321 Studios) 
+
+ Oct 13, 2003, Carlsbad, CA
+ OSTA Optical Storage Symposium / CEA Industry Forum Panel speaker: What's Fueling the Digital Video Recording Fire?
+ (Panelists: Maciek Brzeski - Toshiba [moderator], Felix Nemirovsky - Chuba Consulting, Sean Wargo - Consumer Electronics Association, Sean Stead - Samsung America) 
+
+ Oct 6, 2003, Tokyo, Japan
+Zoran Driving the Digital Lifestyle Panel speaker: Software Applications
+ (Panelists: Tim Bajarin - Creative Strategies [moderator], Todd Rumaner - ArcSoft) 
+
+ May 8, 2003, New Orleans, LA
+ Microsoft WinHEC 2003 Panel speaker: The WinHEC 2003 Writable DVD Panel
+ (Panelists: David Bunzel, OSTA [moderator], Tony Jasionowski, Panasonic, Andy Parsons, Pioneer, Frank Simonis, Philips) 
+
+ Feb 6, 2003, San Jose, CA
+ DCD Expo Panel speaker: WebDVD Hybrids and How to Create Them
+ (Panelists: Bryant Frazer - PBI [moderator], Todd Collart - InterActual)
+ Speaker: High Density Road Map: Where Do the New Optical Formats Fit in Tomorrow’s Distribution Scenarios 
+
+ Jan 11, 2003, Las Vegas, CA
+ International CES Panel speaker: Recordable DVD: Say So Long to Tape?
+ (Panelists: Jimmy Schaeffler - The Carmel Group [moderator], Dean Sanderson - Hewlett-Packard, Joseph Stinziano - Sony Electronics, Ken Soohoo - Planetweb) 
+
+ Dec 9, 2002, Los Angeles, CA
+ DV Expo Panel speaker: Enhanced DVD
+ (Panelists: Ralph LaBarge - AlphaDVD [moderator], Clint Ludeman - InterActual) 
+
+ Sep 16, 2002, San Francisco, CA
+ OSTA Optical Storage Symposium Panel speaker: The Future of Content Delivery and Storage 
+ (Panelists: Rusty Rosenberger - OSTA Chairman [moderator], Wes Brewer - SanDisk, Greg Sanderson - Astound Broadband) 
+
+ Sep 7, 2002, Santa Barbara, CA
+ Jackson Hole Symposium - Digital Synthesis Panel moderator: New Media / New Encoding
+ (Panelists: John David Cameron - Earthship.tv, Dan Gehred - Microsoft, Paul Liao - Panasonic, Tom McMahon - DGFX, Greg Roach - Hyperbole Productions) 
+
+ Aug 1, 2002, Burbank, CA
+ LA DVD Fest Speaker: The Many Faces of DVD Recordable
+ (With Yan Shvalb of Future Media Concepts) 
+
+ May 14, 2002
+ TV Guide Tech Guide Interviewed for article: Home Movies on DVD: Digi-Memories 
+
+ May 13, 2002, San Jose, CA
+ IDEMA Mini Symposium Speaker: CPRM Demystified 
+
+ Apr 1, 2002
+ CommVerge Interview: The space age: DVDs rise to tomorrow's storage challenges 
+
+ Mar 2002, Dublin, Ireland
+ DVD Summit IV Keynote Speaker: DVD At the Crossroads
+ Head to Head: How to Survive Desktop DVD? 
+ (A dialog with Bob Auger of Newmerique Consultants. Panel with Bob Auger - Dan Daley of Tape-Disc Business - and Dr. Mark Waldrep of AIX Media Group) 
+
+ Mar 2002
+ Daily Universe (Provo, UT) Interview: DVDs Dominate Digital Marketplace 
+
+ Nov 19, 2001
+ TV Guide Tech Guide Interviewed for article: Recordable DVD: Land of Confusion 
+
+ Aug 28, 2001, Las Vegas, NV
+ Wedding and Event Videographers Association (WEVA) Speaker: The DVD Breakthrough: Answers to Burning Questions
+ Panel speaker: DVD In Demand: What's New, What's Next? 
+
+ Jul 2001, Monterey, CA
+ DVD Pro 2001 Pre-conference seminar: What DVD Can Do: DVD Beyond the Pale 
+Panel moderator: Personalizing DVD Playback: Is it Safe? 
+ (Panelists: Alan Melby - Viewer Freedom, Gordon Barrett - SelectViewing, Bill Aho - MovieGuide)
+ Panel speaker: Writable DVD: Next Time, It's Personal?  
+ (Panelists: Stephen Nathans - EMedia Magazine [moderator], Dana J. Parker - DVD Report, Mike Evangelist - Apple Computer) 
+
+ Jun 2001, Hong Kong
+ FILMART 2001
+ Digital Production Seminar Speaker: Digital Video Publishing with DVD 
+
+ Apr 2001, London, UK
+ DVD Europe 2001 Panel speaker: DVD Goes Beyond Entertainment 
+ (Panelists: Richard Howeson - EuroTalk Interactive, Robin Sewell - Cambridge Multimedia) 
+
+ TapeDisc Business , Apr, 2001 Spotlight interview, by Dan Daley 
+
+ USA Today , Feb 26, 2001 Interviewed for article: DVD sales press fast-forward , by Mike Snider  
+
+ Feb 2001, Las Vegas, NV
+ DVDA International Conference Pre-conference seminar: DVD: Portable Broadband 
+Panel moderator: Web-connected DVD 
+ (Panelists: Tony Knight - Spinware, Ray Ortali - Prime Technologies, Steve Perlman - Visible Light, Jim Wallace - PlanetWeb) 
+
+ Asia Pacific Broadcasting , Jan 2001 Interview: DVD suitable for multimedia convergence
+ Interview: DVD bridges all platforms 
+
+ Nov, 2000
+ McGraw-Hill Book: DVD Demystified, 2nd Edition
+ "The Bible" of the DVD industry. 
+
+ Nov 2000, Singapore
+ APAC DVD Conference :
+Digital Convergence Solutions  Speaker: Portable Broadband 
+Speaker: Nuts & Bolts of DVD Production
+ Speaker: DVD & Interactive TV
+ Here's a picture of me melting in the heat. 
+ Panel moderator: DVD in the Internet Age
+ Panel moderator: The Future of DVD 
+ (Panelists: Jeff Levison - DTS, Ralph LaBarge - Alpha DVD, Jeff Sunderland - DVD Technologies, Nick Tay - Ngee Ann Polytechnic, Harry Chua - A.C.E. Daikin) 
+
+ Nov 2000, Sydney, Australia
+ APAC DVD Conference :
+DVD Beyond Hollywood Speaker: Portable Broadband 
+Speaker: Nuts & Bolts of DVD Production 
+A picture of Jeff and Harry pretending to pay attention. 
+ Panel moderator: DVD in the Internet Age 
+ (Panelists: Ralph LaBarge - Alpha DVD, Jeff Sunderland - DVD Technologies, Nick Tay - Ngee Ann Polytechnic, Harry Chua - A.C.E. Daikin) 
+
+ Sep 2000, Jackson, WY
+ Jackson Hole Symposium Panelist: Cutting-Edge New Media: HD-DVD, WebDVD, and Datacasting 
+ (Panelists: Fred Grossberg - Mill Reef Entertainment [moderator],  Oliver Luckett - iBlast, Tom McMahon - Microsoft, Steve Michelson - Steve Michelson Productions) 
+
+ Sep 12 2000, Vancouver, Canada
+IEEE International Conference on Image Processing Keynote Speaker: DVD: Ground Zero in the Convergence Zone 
+ Speaker: DVD Technologies and Applications 
+
+ Jul 2000, San Francisco, CA
+ DVD Pro 2000 Conference Award: 2000 DVD Pro Discus Award for Outstanding Contribution to the Industry
+ A picture of me looked stunned and bemused at the award ceremony. 
+ Pre-conference seminar: DVD: Portable Broadband 
+
+ Panel moderator: Connected DVD 
+ (Panelists: Gary Reber - Widescreen Review, Clay Kisker - March First, Fergal Mohan - Spruce Technologies, Todd Collart - InterActual Technologies)
+A picture of the panel and audience. 
+
+ Panel speaker: Future-Proofing Your Content 
+ (Panelists: Frederick Grossberg - Mill Reef Entertainment [moderator], Joseph Kane - Joe Kane Productions, Andy Parsons - Pioneer New Media Technologies) 
+
+ Aug 2000
+ DigitalDNA Audio interview: Introduction to DVD
+ Audio interview: Get Technical With DVD 
+
+ Jun 2000, Dublin, Ireland
+ DVD Summit III Pre-conference seminar: Design, Compression, Authoring
+ (With Andy Evans of The Pavement) 
+ Presentation: The browser-based union of DVD-Video and ROM 
+ (A dialog with Bob Auger of Electric Switch) 
+
+ 2000
+ Widescreen Review , Issue 36 Article: DVD Meets the Web 
+
+ ?
+ Widescreen Review , Issue 35 Interview: DVD in the Forefront 
+
+ ?
+ Widescreen Review , Issue 34 Article: Digital Pie in the Sky: Why There Will Never be a Digital Laserdisc 
+
+ ?
+ Widescreen Review , Issue 33 Article: Anamorphic Widescreen: Lovin', Touchin', Squeezin' DVD 
+
+ ?
+ Widescreen Review , Issue 31 Article: DVD-Audio: Too Little Too Late? 
+
+ ?
+ Widescreen Review , issue 30 Article: Looking At HDTV In All The Wrong Places 
+
+ Nov 30, 1999, Gaithersburg, MD
+ NIST DVD '99 Workshop
+Standards, Applications, and Technology Speaker: DVD-Video for the Industrial and Education Markets
+ Speaker: WebDVD: Enhancing DVDs for PCs and the Internet 
+
+ Jun 1999, Toronto
+ NewMedia '99 Three Seminars  
+
+ Aug 1999, San Francisco
+ ZDTV Call for Help TV interview and article: DVD 101 and Then Some 
+
+ Apr, 1999
+ DVDNett.no Interview: Holy Man - et intervju med DVD-guru Jim Taylor
+ (In Norwegian) 
+
+ Mar 1999, Santa Barbara
+DVD Pro Various presentations
+
+ Dec, 1997
+ McGraw-Hill Book: DVD Demystified
+ "The Bible" of the DVD industry. 
+
+ Apr 1996
+ Videodiscovery Article:   Help There's a DVD Under My Bed! 
+ Educational technology primer. A bit dated now. 
+
+ May 1996
+ Videodiscovery Article: A Quick Spin Around the Internet: An Analogy 
+ Educational technology primer. An explanation of Internet protocols from back before HTML took over the world. 
+
+ Jan 1991 LinguaBox 
+Multimedia software (Macintosh, SuperCard, laserdisc player) for teaching English to Japanese speakers. Predecessor to Quick English . 
+
+ Jim Taylor 
+ 07 Aug 2008
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | future-of-dvd-forum-panel-2003-taylor-61b198 |
+| title | Future of DVD Panel — DVD Forum 2003 U.S. Conference |
+| author | Jim Taylor (publications listing); Peter Kastner (moderator); panelists Brian Heuckroth and Matt Jarman |
+| date | 2003-11-21 |
+| type | conference-panel |
+| subject_domain | optical-media-future |
+| methodology | industry-panel, expert-moderation |
+| source_file | The-Future-of-DVD-speech-2003-9.txt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+DVD Forum 2003 U.S. Conference panel 'Future of DVD' held Nov 21 2003 in Beverly Hills CA, moderated by Peter Kastner of Aberdeen Group. Panelists: Brian Heuckroth (Cirrus Logic) and Matt Jarman (ClearPlay). Documented in Jim Taylor's publications listing (Taylor is author of the 'DVD Demystified' McGraw-Hill book series). The panel occurred just before the Blu-ray vs HD-DVD format war (2006-2008) and during the rise of ClearPlay's parental-filtering DVD technology (which faced lawsuits from Hollywood studios). Kastner's moderator role cements Aberdeen's presence in consumer-electronics industry events alongside his established enterprise-IT coverage.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents Kastner's expansion from enterprise-IT analysis into consumer-electronics/optical-media moderation roles; captures the 2003 DVD industry's pre-HD-format-war optimism about DVD's continued growth. |
+| **Relevance** | low | DVD peaked in 2006 at ~$23B global sales; declined continuously with Blu-ray (limited uptake), Netflix streaming (2007+), and subsequent streaming dominance (Netflix video 2007, YouTube 2005, HBO Max/Disney+ 2019+). Optical media now niche (~$3B global 2023). |
+| **Prescience** | high | Any 2003 DVD-future panel would have been dominated by format-war speculation (Blu-ray vs HD-DVD) and copy-protection debates (ClearPlay, CSS, AACS). History delivered: format war 2006-2008 (Blu-ray won), streaming disrupted physical media starting 2007 (Netflix streaming launch), DVD+Blu-ray combined sales peaked 2006 and declined thereafter. ClearPlay-style filtering later enabled at software level (parental controls in streaming apps 2010s). |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| DVD Forum | institution | active |  |
+| Cirrus Logic | company | active |  |
+| Brian Heuckroth | person | unknown [REVIEW] |  |
+| ClearPlay Inc. | company | active |  |
+| Matt Jarman | person | active |  |
+| Jim Taylor | person | active |  |
+| DVDDemystified.com | publication | active |  |
+| McGraw-Hill | company | active |  |
+
+### Technologies Referenced (4)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| DVD (Digital Versatile Disc) | media-format | DVD Forum | mature | declining |
+| HD DVD | media-format | Toshiba | planned | discontinued |
+| Blu-ray Disc | media-format | Blu-ray Disc Association | planned | niche |
+| Parental/Content DVD Filtering (ClearPlay) | software-feature | ClearPlay | new | legacy |
+
+### Observation Summary
+
+- Total observations: 7
+- By type: actual-outcome: 4, market-data: 2, expert-opinion: 1

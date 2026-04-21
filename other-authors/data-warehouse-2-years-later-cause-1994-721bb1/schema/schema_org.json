@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Data Warehouse: 2 Years Later... Lessons Learned",
+  "description": "CAUSE 1994 Annual Conference paper (Orlando FL, Nov 29 - Dec 2 1994) by John D. Porter and John J. Rome of Arizona State University, retrospectively analyzing ASU's two-year-old integrated data warehouse project. The warehouse combined student, financial, and HR data \u2014 one of the first major client-server data warehouses in US higher education. Lessons-learned sections cover learning new technologies, understanding warehousing concepts, integrating data, designing the warehouse, marketing the idea, finding resources, 'officialness' of data, data administration impact, and data definition. Notable Kastner citation (Aberdeen Group): 'All companies will build [a data warehouse] in the next five years.' \u2014 an aggressive 1994 prediction about universal enterprise data-warehouse adoption.",
+  "creator": {
+    "@type": "Person",
+    "name": "John D. Porter and John J. Rome, Arizona State University"
+  },
+  "datePublished": "1994-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

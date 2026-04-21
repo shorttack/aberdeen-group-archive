@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mail-in-rebate-system","Mail-In Rebate System","framework","retail-industry","1980s-2015","mature","legacy-supplanted","research-reveals-that-60-percent-of-reba-c887df","Post-purchase discount mechanism; largely displaced by instant digital coupons"
+"rebate-fulfillment-house","Rebate fulfillment-house model","framework","retail-services","1980s-2015","mature","legacy-supplanted","research-reveals-that-60-percent-of-reba-c887df","Third-party processor handling inbound mail, data entry, and check issuance for manufacturer/retailer rebates"

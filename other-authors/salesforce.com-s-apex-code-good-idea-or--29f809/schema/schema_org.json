@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Salesforce.com's Apex Code: Good Idea or Superfluous Code?",
+  "description": "Datamation / internet.com IT management feature (April 26, 2007) on Salesforce.com's Apex Code \u2014 a new proprietary server-side programming language introduced via developer preview at Dreamforce 2006 and generally available in January 2007. CEO Marc Benioff positions Apex as enabling 'unlimited innovation on demand' for the 'Business Web.' Peter Kastner, vice president of enterprise integration at Aberdeen Group, reports client skepticism: 'They like the idea of opening up the application to custom integration, but are perplexed over why salesforce is inventing a new scripting language when Perl, Ruby, and Javascript are already well understood by enterprise developers.' Article notes Apex differentiates via multi-tenant fault isolation and data-management / business-logic focus (vs general-purpose scripting).",
+  "creator": {
+    "@type": "Person",
+    "name": "Robyn Weisman, itmanagement.earthweb.com (Datamation/internet.com)"
+  },
+  "datePublished": "2007-04-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

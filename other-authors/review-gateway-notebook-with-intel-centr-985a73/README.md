@@ -1,0 +1,46 @@
+# Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power
+
+| Field | Value |
+|-------|-------|
+| Author | Peter S. Kastner (Aberdeen Group), for InternetWeek / InformationWeek |
+| Date | 2003-06-09 |
+| Type | topic-analysis |
+| Domain | mobile-computing-wifi-centrino |
+| License | CC-BY-4.0 |
+
+## Abstract
+
+Kastner-bylined product review (June 9, 2003) for InternetWeek/InformationWeek of the Gateway 450 notebook running the Intel Centrino platform (Pentium M + Intel 855 chipset + Intel PRO/Wireless 2100 802.11b radio). Kastner shares 'couple of months' of real-world travel experience and concludes the Gateway 450 excels at performance, battery life, screen visibility, and ability to pull in distant Wi-Fi signals. Situates Centrino against Intel's $300M 'unwired experience' ad campaign, notes Centrino adoption is not yet widespread on airplanes or in corporate conference rooms, and forecasts the 802.11 upgrade path (11 Mbps 802.11b today, 802.11a this summer, 802.11g next year).
+
+## Data Tables
+
+| Table | Rows |
+|-------|------|
+| studies.csv | 1 |
+| entities.csv | 6 |
+| technologies.csv | 8 |
+| observations.csv | 7 |
+| codes.csv | 26 |
+
+## Load with Python
+
+```python
+import pandas as pd
+studies = pd.read_csv('data/studies.csv')
+observations = pd.read_csv('data/observations.csv')
+```
+
+## Validate
+
+```bash
+frictionless validate datapackage.json
+```
+
+## Citation
+
+Peter S. Kastner (Aberdeen Group), for InternetWeek / InformationWeek (2003). Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power.
+Archived in Kastner Research Archive. DOI: [pending]
+
+## Methodology
+
+hands-on-review, expert-opinion

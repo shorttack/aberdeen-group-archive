@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-xscale","Intel XScale ARM microprocessor","platform","Intel","1997-2006","new","divested","remarks-of-peter-kastner-to-the-massachu-96335b","ARM-architecture SoC produced in the former DEC Hudson fab; Intel sold xScale business to Marvell 2006 for $600M"
+"arm-architecture","ARM processor architecture","platform","ARM Holdings","1985-present","mature","active","remarks-of-peter-kastner-to-the-massachu-96335b","Low-power RISC CPU architecture; now dominant in mobile and emerging in servers/laptops (Apple Silicon)"
+"it-spending-forecast","Global IT spending (annual forecast)","framework","industry","1970-present","mature","active","remarks-of-peter-kastner-to-the-massachu-96335b","Standard annual industry-analyst KPI; tracked by Aberdeen, Gartner, IDC, Forrester"

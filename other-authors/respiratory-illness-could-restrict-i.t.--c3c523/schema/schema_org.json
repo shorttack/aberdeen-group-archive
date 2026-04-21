@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Respiratory Illness Could Restrict I.T. Supply Lines",
+  "description": "InformationWeek news story (2003-04-07 issue) on the potential impact of SARS (severe acute respiratory syndrome) on IT hardware supply chains. Peter Kastner, an Aberdeen Group analyst, warns in a recent report that 'worst case, it could result in major supply-chain disruptions and another downdraft for an already challenged industry' \u2014 because much of the world's electronics manufacturing (including most AC-to-DC power supplies) is concentrated in Guangdong province, China, which is also where SARS broke out. IT consultant Joe Wetz (K-Lag Technology) reports that his team is already building hardware-delay buffers into project timelines, with longer delays requiring alternate sourcing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Gregg Keizer, Techweb News, with Eric Chabrow and Marianne Kolbasuk McGee (InformationWeek)"
+  },
+  "datePublished": "2003-04-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

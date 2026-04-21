@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"salesforce-apex","Apex Code (Salesforce)","language","Salesforce.com","2007-present","new","active","salesforce.com-s-apex-code-good-idea-or--29f809","Proprietary strongly-typed object-oriented language for force.com platform"
+"software-as-a-service","Software as a Service (SaaS)","framework","industry","1999-present","emerging","active","salesforce.com-s-apex-code-good-idea-or--29f809","Multi-tenant cloud-delivered software model"
+"force-com","force.com platform (AppExchange)","framework","Salesforce.com","2005-present","new","active","salesforce.com-s-apex-code-good-idea-or--29f809","Multi-tenant PaaS layer hosting Apex and metadata-driven apps"
+"perl-language","Perl","language","open-source","1987-present","mature","legacy-supported","salesforce.com-s-apex-code-good-idea-or--29f809","Historically dominant server-side scripting language"
+"ruby-language","Ruby","language","open-source","1995-present","mature","active","salesforce.com-s-apex-code-good-idea-or--29f809","Object-oriented scripting language; Ruby on Rails 2005"
+"javascript-language","JavaScript","language","ECMA","1995-present","mature","active","salesforce.com-s-apex-code-good-idea-or--29f809","Ubiquitous web scripting language; server-side via Node.js (2009-)"

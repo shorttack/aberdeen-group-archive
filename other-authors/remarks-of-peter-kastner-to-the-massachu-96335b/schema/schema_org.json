@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Remarks of Peter Kastner to the Massachusetts Chamber of Commerce",
+  "description": "Peter Kastner's January 29, 2003 remarks to the Massachusetts Chamber of Commerce on the state of the Massachusetts high-tech economy following the 2001-2002 dot-com bust. Kastner documents 15,000 MA high-tech jobs lost in 2002 (5.7% of the base), argues no 90-day turnaround is possible given recession breadth and severity, and catalogs job losses: Lucent contracting, HP reengineering, IBM's pending Rational Software (Westford) acquisition, Genuity/Woburn acquired by Level 3 with 800 job cuts, Precise Software absorbed into Veritas. Forecasts four sources of 2003 recovery: (1) Aberdeen Group's global IT spending forecast of 3-4%, back-end loaded due to Q1 war concerns; (2) mid-career unemployed executives spawning 2004 Massachusetts garage-startup wave (heated garages preferred); (3) continued industry consolidation returning cash to MA shareholders (IBM-Rational $2.1B cash payout); (4) strategic capital investments with MA value-add, notably Intel's multi-billion-dollar xScale ARM business in the former Digital Equipment Hudson plant. Style: brief, wry, tonally characteristic Kastner \u2014 'all in all, 2002 was like a root canal \u2014 best forgotten as soon as possible.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2003-01-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,79 @@
+# Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power
+
+> Archived from: Review-Gateway-Notebook-With-Intel-Centrino-Chipset-Packs-Wi-Fi-Power-Wi-Fi-InformationWeek.webarchive
+> Original publication date: 2003-06-09
+> Author: Peter S. Kastner (Aberdeen Group), for InternetWeek / InformationWeek
+
+---
+
+## Original Document Text
+
+SOURCE_URL: http://www.informationweek.com/news/showArticle.jhtml?articleID=10300575
+MIME: text/html
+
+--> Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power -- Wi-Fi -- InformationWeek / TOP POP UP AD 1 of 2 --> /SUPERNAV --> Welcome Guest. | Log In | Register | Membership Benefits United Business Media --> InformationWeek Defining The Business Value Of Technology Part of the TechWeb Business Technology Network --> New Image Galleries: The Nokia N810 Linux Internet Tablet Doesn't Make Sense Vote: Dubious Dweeb, Courageous Crusader, Or Tech Terrorist? --> Apple's iPhone Rules Wal-Mart's Linux Retreat --> / take IW with you promo --> / mobile promo --> / iw500 promo wide --> --> --> --> --> --> --> Get News On Your Phone --> RSS Feeds Subscribe Events Digital Library News Blogs Software Security Hardware Mobility Windows Internet Global CIO Government Careers Blog Columns Product Reviews Current Print Issue Read All Stories All News Stories E-mail | Print | | | Buzz up! Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power High marks for the Gateway 450, an early entry for notebooks running the Intel Centrino chipset, which include built-in Wi-Fi connectivity. Peter S. Kastner, an analyst with Aberdeen Group, writes that the notebook excels at performance, battery life, screen visibility, and ability to pull in distant Wi-Fi signals. By Peter S. Kastner, the Aberdeen Group InternetWeek June 9, 2003 12:00 PM Anyone traveling in the past couple of months would be hard pressed to have missed Intel's $300 million ad campaign touting the unwired experience, which centers around the Centrino notebook and 802.11 Wi-Fi services. But Centrino notebooks are not yet a common sight on airplanes or in corporate conference rooms. So let me share my experiences in traveling with a Centrino for a couple of months. Centrino is Intel's trademark for a new notebook architecture that consists of a Pentium M processor, a chipset, and a wireless radio. Designed from the get-go to maximize effective performance while squeezing every watt out of batteries, the Centrino platform is becoming mainstream for business laptops. The unwired ecosystem assumes a home, office, and on-the-go access to Wi-Fi. Today, that means 802.11b at 11 Mbps, with 802.11a this summer and 802.11g next year. Screen My traveling companion is a Gateway 450. Like many early Centrino notebooks, the Gateway 450 is a corporate desktop replacement. It has a huge 15" LCD screen, big enough for lots of open windows and a pleasure to relax to with a DVD during downtime. At 1400 x 1050 pixels powered by an ATI Mobility graphics adapter, there is a lot of real estate and decent graphics power. The screen backlight dims noticeably when on battery, but it's more than adequate even in harsh sunlight. Portability At 6.2 pounds, the Gateway 450 is more than I have lugged in some years. I'm not afraid to admit to being a confirmed thin-and-light guy. One who learned the hard way that excess travel weight makes for sore middle-age shoulders. So four pounds is my preferred laptop weight. That gets you 10-12" of screen, a smaller battery, and no second spindle for a CD-ROM or extra battery. The Gateway 450 and its competitors are ideal for corridor cruisers who run from meeting to meeting where a couple of extra pounds are more nuisance than aggravation. However, after three coast-to-coast trips with the 450, the weight hasn't hurt as much as I thought it would. Every-week road warriors will want to search out or wait for the thin-and-light models. But the Gateway 450, with its versatile multibay, big screen, standard battery, and full-size keyboard may sway some votes, including mine. Performance Speed-wise, the Centrino-based Gateway 450 is a demon. The 1.5GHz model I use has 512MB of DDR memory. Notebook users moving up from an older, Pentium III notebook will be pleasantly surprised by the fast bootups and crisp response times. Desktop users moving to a notebook will think they are working on a 2 GHz Pentium 4 or better. This baby is plenty fast. There is one speed bump higher than 1.5 GHz and two bumps lower in the current Pentium M family - processor power is unlikely to be a helpdesk complaint with Centrino users. Page 2: 1 | 2 Next Page » Subscribe to RSS » Write To Editor » Reprint This Article » Download Top Reports Advertisement InformationWeek Marketplace (Sponsored Links) DOWNLOAD the Windows 7 Release Candidate Test Windows 7 in your real environment. Discover the best tools and guidance. Download Award-Winning Service Desk software, Free Try Numara FootPrints 9, The ITSM software that Delivers Real Value, Flexibility and Results. SAP Risk and Compliance Resources Register to Access SAP's Risk Management Resource Center today. Download Free SAP Financial Mgmt. Demo Register to Find out how SAP solutions can improve your profitability. Dowload Free CRM White Paper from SAP Read this white paper, get the basics on CRM, and avoid the "CRM paradox” Windows 7—join the conversation Take a look behind the scenes of the next generation of Windows Advertise With Us Save money with Open-Source Business Intelligence Reporting Tools (BIRT) Get the New InformationWeek Alerts Now! Well-meaning Employees and how to stop them Meet Business Imperatives with Trusted Information CAREER CENTER Looking for a new job? Open | Close Employers: Give your recruitment message influence. Advertise in the InformationWeek 500 . --> SEARCH Function: Information Technology Engineering Keyword(s): State: Post Your Resume Employers Area News & Features Blogs & Forums Career Resources Browse By: State | City SPONSOR RECENT JOB POSTINGS BTG - Now Hiring --> Featured Jobs: Boeing seeking Software Engineer 1 in Anaheim, CA Switch and Data seeking Site Facility Technician in Sunnyvale, CA New York Life seeking Insurance and Investment Sales in Schaumburg, IL Washington State Investment Board seeking IT Specialist in Olympia, WA Kforce seeking VA Mortgage Processors in Phoenix, AZ For more great jobs, career-related news, features and services, please visit our Career Center . CAREER NEWS Companies Looking To Hire CIO 2.0 After months of gloom and doom, companies are again hiring new CIOs. Minorities, Women Underrepresented In IT According to reports, minorities are underrepresented in high-technology companies. More articles from our career center Featured White Paper Pacific Timesheet Just In Time Tracking Pacific Timesheet is Web-based timesheet software that provides payroll, project, job costing, time, and attendance features in one system. Other modules include automated approvals, billing and pay rates, time-off scheduling, custom reporting, iPhone timesheet, IVR integration, time clock integration, and DCAA compliance. The software... read more --> InformationWeek Marketplace (Sponsored Links) Control your virtual infrastructure. View your VI's health and automate your environment. Get a free trial of vWire. Microsoft Online Services - $15 Per User BPOS is a Set of Business Solutions Hosted by Microsoft. Learn More Today. Advertise With Us See Image Galleries Get InformationWeek in Print Apply for a free 52-week subscription to InformationWeek (a $199 value) First Name: Company Name: Business Address: State: Select State Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Dist. Of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands Virginia Washington West Virginia Wisconsin Wyoming Alberta Nova Scotia British Columbia Ontario Manitoba Prince Edward Is. New Brunswick Quebec Newfoundland Saskatchewan Northwest Terr. Nunavut Yukon Territory American Samoa Guam Marshall Isl. Micronesia Palau Puerto Rico U.S. Minor Outlying Isl. Northern Mariana Isl. Armed Frcs Africa Armed Frcs Americas Armed Frcs Canada Armed Frcs Erp AE Armed Frcs Mdl Est AE Armed Frcs Pcfc AP Other Email Address: Last Name: Title: City: Zip: NOTE: Offer valid for U.S., U.S. possessions, & Canada only. <SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N1443.TechWeb/B3572558.4;abr=!ie;sz=728x90;ord=bfuNaqA,bfdphhdeNoIWl?"> </SCRIPT> <NOSCRIPT> <A HREF="http://ad.doubleclick.net/jump/N1443.TechWeb/B3572558.4;abr=!ie4;abr=!ie5;sz=728x90;ord=bfuNaqA,bfdphhdeNoIWl?"> <IMG SRC="http://ad.doubleclick.net/ad/N1443.TechWeb/B3572558.4;abr=!ie4;abr=!ie5;sz=728x90;ord=bfuNaqA,bfdphhdeNoIWl?" BORDER=0 WIDTH=728 HEIGHT=90 ALT="Click Here"></A> </NOSCRIPT> InformationWeek Home News Windows Security Mobility Internet Software Hardware CIO Central Research & Tools Careers Become A Member/Membership Benefits About Us Contact Us Current Issue Back Issues White Papers Briefing Centers Site Map Advertising Contacts Technology Marketing Solutions Editorial Calendar Other Techweb Sites: Informationweek Germany Network Computing TechWeb Intelligent Enterprise Dark Reading Light Reading Byte & Switch Internet Evolution bMighty out.println(" Small Biz Resource "); Insurance & Technology Wall Street & Technology Bank Systems & Technology Advanced Trading --> Terms of Service | Privacy Statement | Copyright © 2009 United Business Media LLC, All rights reserved. --> --> / TOP POP UP AD 2 of 2 -->
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | review-gateway-notebook-with-intel-centr-985a73 |
+| title | Review: Gateway Notebook With Intel Centrino Chipset Packs Wi-Fi Power |
+| author | Peter S. Kastner (Aberdeen Group), for InternetWeek / InformationWeek |
+| date | 2003-06-09 |
+| type | topic-analysis |
+| subject_domain | mobile-computing-wifi-centrino |
+| methodology | hands-on-review, expert-opinion |
+| source_file | Review-Gateway-Notebook-With-Intel-Centrino-Chipset-Packs-Wi-Fi-Power-Wi-Fi-InformationWeek.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Kastner-bylined product review (June 9, 2003) for InternetWeek/InformationWeek of the Gateway 450 notebook running the Intel Centrino platform (Pentium M + Intel 855 chipset + Intel PRO/Wireless 2100 802.11b radio). Kastner shares 'couple of months' of real-world travel experience and concludes the Gateway 450 excels at performance, battery life, screen visibility, and ability to pull in distant Wi-Fi signals. Situates Centrino against Intel's $300M 'unwired experience' ad campaign, notes Centrino adoption is not yet widespread on airplanes or in corporate conference rooms, and forecasts the 802.11 upgrade path (11 Mbps 802.11b today, 802.11a this summer, 802.11g next year).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Kastner's own contemporaneous assessment that Centrino (Pentium M + Wi-Fi) would become 'mainstream for business laptops' — an early, accurate industry-analyst signal of the corporate Wi-Fi inflection point. |
+| **Relevance** | medium | Centrino brand retired around 2010, but the bundling strategy (CPU + chipset + wireless) established Intel as the dominant mobile platform vendor through the 2010s and set the template for Core-series mobile laptops that still dominate today. |
+| **Prescience** | high | Kastner's forecast that Centrino would become mainstream for business laptops proved correct: by 2006 most enterprise laptops shipped with Centrino branding, and the 802.11 upgrade path (a -> g -> n) played out as described. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (6)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2002-2017) -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Intel Corporation | company | active |  |
+| Gateway, Inc. | company | acquired | Acer (2007) |
+| InformationWeek / TechWeb | firm | active |  |
+| InternetWeek | firm | dissolved | Merged into InformationWeek (2003) |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Intel Centrino mobile platform | platform | Intel | new | legacy-supplanted |
+| Intel Pentium M processor | platform | Intel | new | legacy-supplanted |
+| IEEE 802.11b Wi-Fi | protocol | IEEE | mature | legacy-supported |
+| IEEE 802.11a Wi-Fi | protocol | IEEE | new | legacy-supported |
+| IEEE 802.11g Wi-Fi | protocol | IEEE | emerging | legacy-supported |
+| Gateway 450 notebook (Centrino) | platform | Gateway Inc. | new | end-of-life |
+| Intel 855 mobile chipset | platform | Intel | new | legacy-supplanted |
+| Intel PRO/Wireless 2100 Wi-Fi radio | platform | Intel | new | legacy-supplanted |
+
+### Observation Summary
+
+- Total observations: 7
+- By type: expert-opinion: 3, market-data: 2, actual-outcome: 2

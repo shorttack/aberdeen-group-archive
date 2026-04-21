@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-tpf","IBM Transaction Processing Facility (TPF)","operating-system","IBM","1979-present","mature","legacy-supported","sabre-s-challenge-fb76f5","High-performance mainframe OS for airline reservations and other ultra-high-volume transaction workloads"
+"client-server","Client-Server Computing","framework","industry","1988-2005","mature","legacy-supplanted","sabre-s-challenge-fb76f5","PC-workstation + server tier architecture displaced by web/SOA/cloud"
+"sabre-reservation-system","Sabre airline reservation system","application","Sabre Group","1960-present","mature","active","sabre-s-challenge-fb76f5","Global Distribution System; 4 TB data, 400 airlines, 50 CRs, 35,000 hotels (1997)"
+"unix-operating-system","Unix operating system","operating-system","multiple","1969-present","mature","legacy-supported","sabre-s-challenge-fb76f5","Multi-vendor Unix variants; SGI IRIX used at Sabre"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "WDI Research Resources: Outsourcing Application Development and Maintenance (Saia & Kastner)",
+  "description": "William Davidson Institute (Ross School of Business, University of Michigan) Research Resources page listing an Aberdeen Group report by Rick Saia and Peter S. Kastner, 'Outsourcing Application Development and Maintenance' (Aberdeen Group, November 28, 2006). Summary on the WDI page: Most companies outsource at least some of their IT work \u2014 especially application development and maintenance functions \u2014 to India, the US, and elsewhere. A new Aberdeen survey found that companies are banking on the outsourcing of some of their application-related work to help boost the skills of their internal IT professionals and let them plunge their hands into more strategic initiatives \u2014 'not all about the money.' WDI is the University of Michigan's globalization-of-services research initiative.",
+  "creator": {
+    "@type": "Person",
+    "name": "William Davidson Institute at the University of Michigan (research-resources listing)"
+  },
+  "datePublished": "2006-11-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

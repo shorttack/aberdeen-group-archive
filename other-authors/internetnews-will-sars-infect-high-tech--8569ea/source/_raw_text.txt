@@ -1,0 +1,926 @@
+URL: http://www.internetnews.com/bus-news/article.php/2196551
+
+Will SARS Infect High-Tech? - InternetNews.com 
+
+ > IT internet.com/IT 
+ internet.com/CIO 
+ internet.com/Security 
+ internet.com/Networking 
+ internet.com/Storage 
+ CIO Update 
+ Database Journal 
+ Datamation 
+ Enterprise IT Planet 
+ Enterprise Networking Planet 
+ Enterprise Storage Forum 
+ eSecurity Planet 
+ Hardware Central 
+ Intranet Journal 
+ ISP Planet 
+ ITSMwatch 
+ IT Channel Planet 
+ Linux Planet 
+ ServerWatch 
+ VoIP Planet 
+ Wi-Fi Planet 
+ WinDrivers.com 
+ Network Map 
+
+ > Developer internet.com/Developer 
+ 15 Seconds 
+ 4GuysFromRolla.com 
+ ASP101 
+ CodeGuru 
+ Developer.com 
+ DevX 
+ FlashKit.com 
+ Gamelan 
+ JARS 
+ JavaScript.com 
+ JavaScriptSource 
+ PHPBuilder.com 
+ ScriptSearch 
+ SharePoint Briefing 
+ VB Forums 
+ VB Wire 
+ Web3Beat 
+ WebDeveloper.com 
+ Webreference 
+ Network Map 
+
+ > News Internetnews.com 
+ Linux Today 
+ Network Map 
+
+ > Small Business Ecommerce Guide 
+ SmallBusinessComputing 
+ Webopedia 
+ WinPlanet 
+ Network Map 
+
+ > Personal Tech BlackBerryToday 
+ iPhoneGuide 
+ Jumbo 
+ Palm Boulevard 
+ PDAStreet 
+ PocketPCWire 
+ SharkyExtreme 
+ Smart Phone Today 
+ The List: ISPs 
+ Wi-FiHotSpotList 
+ WindowsMobileToday 
+ Network Map 
+
+ Events 
+ Freelance Jobs 
+ Partners 
+ > Solutions eBooks 
+ HotList 
+ Video 
+
+ Shop 
+ > Login Manage My Profile 
+
+ > Register Why Join? 
+
+<script language="JavaScript" type="text/javascript">
+document.write('<a href="http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L9/747208279/468x60-1/WMBrands/Xerox_CPC_GEMS_1zb/xeroxcpcgemsleo.html/595645704d456d504744414143646458?http://clk.atdmt.com/DEN/go/148766278/direct/01/" target="_blank"><img src="http://view.atdmt.com/DEN/view/148766278/direct/01/747208279"/></a>');
+</script><noscript><a href="http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L9/747208279/468x60-1/WMBrands/Xerox_CPC_GEMS_1zb/xeroxcpcgemsleo.html/595645704d456d504744414143646458?http://clk.atdmt.com/DEN/go/148766278/direct/01/" target="_blank"><img border="0" src="http://view.atdmt.com/DEN/view/148766278/direct/01/747208279" /></a></noscript> 
+
+ REALTIME IT NEWS
+
+ Blogs  |  7 Day Summary  |  JustTechJobs 
+
+ > Hardware 
+
+ Gartner: Cloud, New Chip ... 
+ It's Not Easy Being Green ... 
+ HP's 'Extreme' Datacenter ... 
+
+ > Software 
+
+ IBM's Cloud Computing Starts ... 
+ Does SAP's Performance Fall ... 
+ Salesforce Unleashes Free, ... 
+
+ > Mobility 
+
+ Dell Ready to Deal for Palm? 
+ Mobility Abuzz with LBS as ... 
+ Mobile Phone Market Takes a ... 
+
+ > Web Content 
+
+ Facebook's Land Grab Off and ... 
+ Army, CIA Warming Up to Web ... 
+ Internet Giving Rise to ... 
+
+ > Search 
+
+ Microsoft's Bing Now Has a ... 
+ Bing Bucks: Microsoft Sees ... 
+ Bing's Big Week, Search ... 
+
+ > Government 
+
+ Lawmaker Plans Digital ... 
+ Lawmaker Calls for ... 
+ Bitter IP Fights Ahead Over ... 
+
+ > Developer 
+
+ Where Is Java EE 6? 
+ Mozilla Fixes Firefox Flaws ... 
+ Microsoft and Novell Still ... 
+
+ > Business 
+
+ Reaction to Microsoft ... 
+ Palm, Rambus Gain as Tech ... 
+ Technical Analysis: S&P ... 
+
+ > Storage 
+
+ Dell Ramps Dedupe to Any ... 
+ EMC, NetApp Launch Data ... 
+ Hitachi Promises 100% ... 
+
+ > E-Commerce 
+
+ Scribd, Simon & Schuster in ... 
+ Google China Launches ... 
+ What's Inside Scoble's ... 
+
+ > Networking 
+
+ BIND 10 Set to Update DNS 
+ Microsoft Joining Broadband ... 
+ Global IP Traffic Not Slowed ... 
+
+ > Security 
+
+ Most Users Can't Spot a ... 
+ Microsoft's Morro: Does It ... 
+ 'Morro' Beta Coming Soon, ... 
+
+ Commentary 
+
+ Newslinx 
+
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N815.internet/B3523808.4;abr=!ie;sz=336x280;click0=http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L39/1947947292/336x280/WMBrands/IBM_IT_Q209_1z/ibmnonintelq209ewitmanbob.html/595645704d456d504744414143646458?;ord=1947947292?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L39/1947947292/336x280/WMBrands/IBM_IT_Q209_1z/ibmnonintelq209ewitmanbob.html/595645704d456d504744414143646458?http://ad.doubleclick.net/jump/N815.internet/B3523808.4;abr=!ie4;abr=!ie5;sz=336x280;ord=1947947292?">
+<IMG SRC="http://ad.doubleclick.net/ad/N815.internet/B3523808.4;abr=!ie4;abr=!ie5;sz=336x280;ord=1947947292?" BORDER=0 WIDTH=336 HEIGHT=280 ALT="Click Here"></A>
+</NOSCRIPT>
+
+ Blogs 
+
+ Most Popular 
+
+ Hot Topics 
+
+ Opinion 
+
+ Android Update: Samsung's Bigfoot, Dell's smartphone 
+
+ Month of Twitter bugs. The real Twitpocalypse? 
+
+ Twitpocalypse Now? Hardly. 
+
+ Report: Most users can't spot a phishing site 
+
+ Should Google embrace Ogg for HTML5 and YouTube? 
+
+ Scribd and Simon & Schuster sign publishing deal 
+
+ Flipping the switch to DTV, millions still in the dark 
+
+ Has Grabbit got hold of the 'Next Big Thing?' 
+
+ Will Twitter end today with the Twitpocalypse? 
+
+ Safari 4 tops 11 million downloads, most on Windows 
+
+   [ More ] 
+
+ Microsoft's Biggest Bug Stomp Ever 
+
+ Linux 2.6.30 Gets Faster Boot 
+
+ Feds Need 10,000 Cyber Security Experts 
+
+ Jump in IT Staff Snooping Reported 
+
+ Fedora 11: Leonidas is Hardly a Spartan Linux 
+
+ Could the iPhone Trip While Leaping Forward? 
+
+ Red Hat CEO: 'The Cloud Belongs to Linux' 
+
+ Palm, Level 3 Lead Tech Stocks Higher 
+
+ BIND 10 Set to Update DNS 
+
+ Is Twitter Dead? Who Killed It? 
+
+ The Browser Wars Return 
+
+ The Rise of the iPhone 
+
+ Cybersecurity 
+
+ Android The Giant? 
+
+ Making Money Off The Social Web 
+
+ Here Come the iPhone Apps 
+
+ The Competitive Mobile Landscape 
+
+ Politics And Web 2.0 
+
+ Yahoo Looks Ahead 
+
+ A New Era For Microsoft 
+
+    [ More ] 
+
+ Is Twitter Dead? Who Killed It? 
+Statistics about Twitter usage show a far different picture than the media hype suggests. Why did Twitter jump the shark? 
+ Is Vista the Safest OS for Business? 
+
+ Are Macs Really Prettier Than Windows PCs? 
+
+ Help! My Macs Hate Me 
+
+ Why PC Customization Doesn't Go Far Enough 
+
+ Do Google's Tweaks Top Twitter? 
+
+ Does Windows 'XP Mode' Suggest Future Trend? 
+
+ How Oracle-Sun Could Use Google to Become New IBM 
+
+ Inside Google's 'Facebook Killer' 
+
+ Can GNOME Regain the Evolutionary Advantage Over KDE? 
+
+    [ More ] 
+
+ Windows 7 Desktop Deployment Overview 
+Building on the technologies introduced in the Windows VistaB. operating system, Windows 7 streamlines desktop deployment. Technologies within Windows 7 improve application compatibility, for example, and new tools in Windows 7 allow IT professionals to reduce the evaluation and readiness cycle. >> 
+
+ Essential Tools for Planning Your Virtual Infrastructure 
+This article looks at a toolset that can help you with your virtualization projectsthe Microsoft Assessment and Planning Toolkit (MAP), which is a member of the Microsoft Solution Accelerators family. MAP 3.1 is a network-wide infrastructure assessment tool designed to help you quickly gain a baseline understanding of your servers and desktops, including whether they are ready for upgrade or migration to technologies such as Hyper-V, Microsoft Application Virtualization, Windows Server 2008, Windows Vista, Office 2007, and SQL Server. >> 
+
+ Help: I Got Hacked. Now What Do I Do? 
+So, you didn't patch the system and it got hacked. What to do? If nothing else, this article will stress the importance of patching. >> 
+
+ Subscribe 
+
+ Learn More 
+
+ Stats 
+
+ Contact Staff 
+
+ Select a newsletter and click Join to sign up! 
+
+ Internet Daily 
+ InternetNews
+ Business Report
+
+ InternetNews.com Podcast 
+
+ InternetNews.com 
+Channel XML/RSS Feeds 
+ InternetNews.com 
+
+ IT Business News 
+
+ Developer News 
+
+ Ecommerce News 
+
+ Software IT News 
+
+ Hardware IT News 
+
+ Government News 
+
+ Search News 
+
+ Enterprise IT Planet News 
+
+ Networking News 
+
+ IT Security News 
+
+ Storage News 
+
+ Mobility News 
+
+ Web Content News 
+
+ Internet Stats 
+
+ Linux Today 
+
+ Click a Topic to Expand
+
+ The Social Web 
+
+ The New Idiot Box 
+
+ Feeling the Need for RSS Feeds 
+
+ RSS Scorecard 
+
+ Apple vs. Bloggers 
+
+ Enterprise Web 2.0 
+
+ Politics And Web 2.0 
+
+ Web Services Management 
+
+ Web services: Evolution or Revolution 
+
+ Making Money Off The Social Web 
+
+ The Lure of The Social Network 
+
+ The Privacy of Social Networking 
+
+ My Grand Google Obsession 
+
+ Coding Google's Future 
+
+ Google Fun in The Summer 
+
+ Google Pushes Apps 
+
+ Google's Data Ambitions 
+
+ Google's IPO 
+
+ Google's Way With Words 
+
+ Google, Opponents Square Off in DoubleClick Bid 
+
+ Microsoft's Past Present And Future 
+
+ The Vista Ripple Effect 
+
+ A New Era For Microsoft 
+
+ Eolas, Microsoft Duke it Out over ActiveX 
+
+ Microsoft Preps Security Makeover for XP 
+
+ Microsoft's Security Challenge 
+
+ Microsoft's Storage Ambitions 
+
+ Microsoft, AOL Become Partners 
+
+ Microsoft/Yahoo: Can It Work? 
+
+ Sun, Microsoft Bandage Old Wounds 
+
+ The Next Microsoft Era 
+
+ Truth Time at Microsoft's PDC 
+
+ XML, Microsoft Threaten Adobe's PDF Format 
+
+ Will Office 2003 Change Everything? 
+
+ Mobile Universe 
+
+ Motorola in Trouble 
+
+ City-Wide Wi-Fi 
+
+ Connected in The Windy City 
+
+ Ultrawideband in the Home 
+
+ Wi-Fi's Hotspots 
+
+ CTIA in The Big Easy 
+
+ Technology, Policy and Politics 
+
+ 3G at Home and Abroad 
+
+ The Competitive Mobile Landscape 
+
+ CTIA: A Wireless World in Sin City 
+
+ Gadget Fest: CTIA Wireless 2008 
+
+ Wireless Policy in Washington 
+
+ Cradle to Grave Information Management 
+
+ Disaster Recovery and Continuity 
+
+ The Storage Compliance Boom 
+
+ Compliance, Regulation And Storage 
+
+ Calling all Clusters, Supercomputers 
+
+ Betting on BPM 
+
+ Database Software Continues to Evolve 
+
+ Tech's Legal Battles 
+
+ Google in Court 
+
+ RIM Has Patent Issues 
+
+ Microsoft In Court 
+
+ Technology in the Courts 
+
+ End of the IE Antitrust Case 
+
+ Microsoft's Legal Struggles 
+
+ The AMD/Intel Antitrust Showdown 
+
+ A Patent Battle on eBay Territory 
+
+ Google, Microsoft and Yahoo's Three-Way Search Battle 
+
+ Calling Net Neutrality 
+
+ Microsoft's EU Blues 
+
+ Vonage on The Patent Hot Seat 
+
+ Platforms and New Packages 
+
+ VMware and the Virtualization Craze 
+
+ Virtualization for All 
+
+ SOAs in The Enterprise 
+
+ Application Server Biz on the Rebound 
+
+ Curtain Drawn on Windows Server 2003 
+
+ SaaS in The Market 
+
+ Struggling to Stay Atop the Server Market 
+
+ Web Standards Bodies Fight for Freedom 
+
+ Open Source Ecosystem 
+
+ Microsoft: Loosening the Grip on Source 
+
+ Showcasing Java 
+
+ Sun a 'Tiger' at JavaOne 
+
+ The Future of Java 
+
+ GPL: Software Freedom Redefined 
+
+ Linux in the Enterprise 
+
+ Linux on the Desktop 
+
+ LinuxWorld 04: A More Mature Tux 
+
+ LinuxWorld Storms San Francisco 
+
+ LinuxWorld Takes Boston 
+
+ LinuxWorld by the Bay 
+
+ Oracle's Linux Realm 
+
+ SCO Declares War on Linux 
+
+ The Growth of Linux-Based Storage 
+
+ The Linux Kernel 
+
+ Novell, Microsoft in Open Dance 
+
+ Open Source Open for Business 
+
+ Open-source Databases Gathering Steam 
+
+ Oracle Plants Flag at OpenWorld 2006 
+
+ Evolution of Search 
+
+ Competing for the Search Lead 
+
+ Enterprise Search Ready for Prime Time 
+
+ Mobile Search Takes Flight 
+
+ Racing To Dominate Desktop Search 
+
+ Search And Censorship 
+
+ Search Engine Optimization 
+
+ Search Meets Mapping 
+
+ Thinner Slices of The Paid Search Pie 
+
+ Gartner: Cloud, New Chip Tech May Spur Rebound 
+[June 12, 2009] What will cloud computing and 3D chip manufacturing do for the industry? Quite a bit.
+
+ Bing Bucks: Microsoft Sees Paid Click Lift 
+[June 12, 2009] After a bumpy start, Microsoft's answer to Yahoo's and Google's search nets promising numbers.
+
+ Internet Giving Rise to Peer-to-Peer Healthcare 
+[June 12, 2009] New research from Pew's Internet and American Life Project highlights the increasing role of the collaborative Web in finding medical and health information.
+
+ Gartner: No Real Tech Recovery Until 2010 
+[June 11, 2009] With 2009 looking like a done deal, the research firm now expects recovery to begin at least a year from now.
+
+    [ More Stats ] 
+
+ MARKETPLACE
+
+ ITT Technical Institute 
+ Degrees offered in Web Development, Multimedia, Software Programming 
+ www.itt-tech.edu 
+
+ Microsoft Online Services - $15 Per User 
+ BPOS is a Set of Business Solutions Hosted by Microsoft. Learn More Today. 
+ Microsoft.com/Online/Buy-BPOS.mspx 
+
+ Obama Wants You Educated. 
+ Billions Have Been Set Aside in Grants. Take Advantage & Start Earning a Degree. 
+ www.ObamasEducationPlan.org 
+
+ 100% Web Based Help Desk Software 
+ Easy to use, customizable to meet your needs, powerful and scalable. Free online demo. Try it today! 
+ www.issuetrak.com 
+
+ Advertise Here 
+
+ Partner With Us 
+
+ Cell Phones 
+
+ Car Donations 
+
+ Dedicated Servers 
+
+ Phone Cards 
+
+ Desktop Computers 
+
+ Online Education 
+
+ Premium Bandwidth 
+
+ Calling Cards 
+
+ Logo Design 
+
+ Colocation 
+
+ IP Services 
+
+ Online Universities 
+
+ ePrint Service 
+
+ Printers 
+
+The new ColorQube MFP uses solid ink technology for a revolution in cost savings. Save up to 62% on color prints and reduce waste by 90%! Calculate how much you could save at FinallyColorIsLess.com
+
+ InternetNews.com >> Business 
+
+ Will SARS Infect High-Tech?
+
+ The deadly SARS virus is disrupting commerce throughout Asia. But one high-tech analyst following the outbreak says it's unlikely to send the computer industry into a meltdown.
+
+ Share this Article
+
+ Digg 
+
+ Del.icio.us 
+ furl 
+
+ StumbleUpon 
+
+ BlinkList 
+
+ Newsvine 
+
+ Magnolia 
+
+ Facebook 
+
+ Tailrank 
+
+ Slashdot 
+
+ Technorati 
+
+ Google Bookmarks 
+ Yahoo Favorites 
+
+ Windows Live 
+ Ask 
+
+ Print this Article 
+
+ Comment on this article 
+
+ Email this Article 
+
+ April 24, 2003
+
+ By Dan Orzech : More stories by this author : 
+
+Highly infectious, and with no known cure, the respiratory infection known as SARS is spreading shock waves out of Asia and around the world.
+
+But with new public health measures apparently slowing the virus' spread, SARS, or Severe Acute Respiratory Syndrome, appears unlikely -- at least at the moment -- to cause major disruptions to the high-tech industry.
+
+That's the view of Peter Kastner, vice-president at analyst firm the Aberdeen Group, who's been following the outbreak. SARS is a very real problem, he says, "but at the moment, it seems unlikely to untrack either the global electronics industry, or the U.S. economy."
+
+A month ago, Aberdeen was warning high-tech firms about the possibility of a transportation breakdown disrupting the supply chain for electronic parts. Many shipments of electronic components produced in the Asia/Pacific region are carried on passenger jets, according to Aberdeen., and with the drop in both tourism and business travel, those flights are being cut back sharply. Singapore Air, Japan Airlines, Cathay Pacific, and Korean Airlines have all cut flights back, as have U.S. And European carriers.
+
+Today, with the nearly two-dozen countries affected by SARS beginning to institute measures to contain it, Kastner believes "the likelihood of some sort of a transportation breakdown has been reduced."
+
+But that doesn't mean everything's rosy for the computer industry. The People's Republic of China is the world's second largest consumer of PCs, according to Kastner, and it's almost certainly headed for a recession because of the SARS epidemic. "The high-tech industry is definitely concerned that the world's fastest growing large technology market may be falling off a cliff in a major recession," he says.
+
+But while the electronics industry as a whole is unlikely to see a meltdown with the shutdown of Asia/Pacific factories, says Kastner, "point events should be expected."
+
+There will almost certainly be delays in specific projects, according to Kastner, because many high-tech firms are canceling what used to be routine trips to Asia by employees. "Projects for which the presence of nonresident personnel are required," he says "whether they are sales [representatives], product applications engineers, or semiconductor capital equipment specialists -- will slip schedules, and equipment or process failures that require similar human resources to fix will go unrepaired until the epidemic is past. This will degrade production and impede quality."
+
+The epidemic is also interfering with marketing efforts in Asia, according to Kastner. Sun Microsystems canceled an April 7th product launch to have been held in Shanghai, and Intel called off Intel Developer Forums scheduled for Taiwan and Beijing in April.
+
+ LATEST NEWS
+
+ Where Is Java EE 6? 
+ IBM's Cloud Computing Starts With Developers 
+ Facebook's Land Grab Off and Running 
+ U.S. Firm Says China Stole Filtering Software 
+ Virgin, Universal Plan Unlimited Music Downloads 
+
+"The electronics companies that we have talked to are all watching the SARS epidemic daily," Kastner says. "Most have already instituted logistics 'war room' planning exercises -- with frequent reports to the CEO. The planning consensus includes rapidly qualifying second and third supply sources outside Asia."
+
+ Kicking and Screaming 
+
+In the long run, the SARS epidemic may have an unintended positive effect, says Kastner, by opening up the PRC's strict government to a global society. 
+
+After weeks of minimizing the extent of the epidemic, which led to widespread international criticism, the Chinese government now appears to be releasing accurate information. China's health ministry admitted today that the PRC's capital city, Beijing, had a total of 588 SARS cases, far more than the 38 which it claimed until recently.
+
+China has taken in $50 billion a year in foreign investment, says Kastner, which is a real stimulus to the Chinese economy. "That money could go away overnight, if the government were shown to be untrustworthy," he says. "So kicking and screaming it looks like the PRC government is being dragged into the 21st century global economy, and that's much better for China in the long term."
+
+ Share this Article
+
+ Digg 
+
+ Del.icio.us 
+ furl 
+
+ StumbleUpon 
+
+ BlinkList 
+
+ Newsvine 
+
+ Magnolia 
+
+ Facebook 
+
+ Tailrank 
+
+ Slashdot 
+
+ Technorati 
+
+ Google Bookmarks 
+ Yahoo Favorites 
+
+ Windows Live 
+ Ask 
+
+ Print this Article 
+
+ Comment on this article 
+
+ Email this Article 
+
+ 0 Comments  (click to add your comment) 
+
+ Comment and Contribute 
+
+ Your name/nickname
+
+ Your email
+
+ XHTML: You can use these tags: <b> <u> <i>
+
+ (Maximum characters: 1200). You have characters left.
+
+ Please type the alphanumeric characters above and click "Submit" to continue.
+ What's this? 
+
+ I cannot read this. Please generate a 
+
+ See our comment policy. 
+
+ Business Archives | 7 Day InternetNews Summary | 
+Contact Dan Orzech | 
+ Back to top 
+
+ Add internetnews.com 
+ to your browser search box. 
+
+ IE 7 | Firefox 2.0 | Firefox 1.5.x 
+
+ Receive news 
+via our XML/RSS:
+ feed 
+
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N815.internet/B3523757.5;abr=!ie;sz=336x280;click0=http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L39/1496579889/336x280-2/WMBrands/IBM_IT_Intel_Q209_1za/ibmitintelq209ewitmanbob.html/595645704d456d504744414143646458?;ord=1496579889?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://mjxads.internet.com/RealMedia/ads/click_lx.ads/intm/news/www.internetnews.com/bus-news/L39/1496579889/336x280-2/WMBrands/IBM_IT_Intel_Q209_1za/ibmitintelq209ewitmanbob.html/595645704d456d504744414143646458?http://ad.doubleclick.net/jump/N815.internet/B3523757.5;abr=!ie4;abr=!ie5;sz=336x280;ord=1496579889?">
+<IMG SRC="http://ad.doubleclick.net/ad/N815.internet/B3523757.5;abr=!ie4;abr=!ie5;sz=336x280;ord=1496579889?" BORDER=0 WIDTH=336 HEIGHT=280 ALT="Click Here"></A>
+</NOSCRIPT>
+
+ More InternetNews.com
+
+ Hardware 
+
+ Software 
+
+ Mobility 
+
+ Web Content 
+
+ AMD Shrugs Off Netbook Craze for Ultra-light PCs 
+ Netbook Evolution Stops at Ten Inches 
+ Apple Launches Faster, Video iPhone 3G S 
+
+ 'Morro' Beta Coming Soon, Says Microsoft 
+ Amazon EC2's U.S. Outage Caused by Lightning 
+ Microsoft to Ship Windows 7 in Europe Without IE 
+
+ Colligan Out as Palm CEO 
+ Mobile Users Want Local Content 
+ Fees, Missing Features Sour iPhone 3G S Love? 
+
+ Yahoo as App Store? 
+ Digg to Debut Ads Based on Your Vote 
+ iPhone Triggers 'App Economy' 
+
+ Search 
+
+ Government 
+
+ Developer 
+
+ Business 
+
+ Microsoft Bing Quick Fix to Block Porn 
+ Bing's Bumpy Start 
+ Google's New Dashboard Offers Business Insight 
+
+ EC Queries PC Makers on Bundling Browsers 
+ Civil Rights Groups Call for Broadband Parity 
+ FTC Shutters 'Rogue' ISP, Settles Spyware Case 
+
+ Yahoo Frees 'Most Stable and Tested' Hadoop 
+ Linux 2.6.30 Gets Faster Boot 
+ Hadoop Gets the SQOOP from Cloudera 
+
+ Technical Analysis: S&P Stalls at a Big Level 
+ Yahoo Taps New CFO as Reorg Continues 
+ It's Not Easy Being Green (Tech) 
+
+ Storage 
+
+ E-Commerce 
+
+ Networking 
+
+ Security 
+
+ New IBM SSD Drives Adds Some Smarts 
+ Lost Hard Drive Contains Clinton White House Data 
+ NetApp Buys Data Domain to Cash In on Dedupe 
+
+ Lawmaker Plans Digital Royalties Probe 
+ Is the Domain Name Biz Recession Proof? 
+ Mutter's Cure for Newspapers: Online Ad Co-op 
+
+ Global IP Traffic Not Slowed by Recession 
+ Juniper Rolls First 100 Gigabit Ethernet Card 
+ Cisco Takes Unified Computing to the Rack 
+
+ Malware Keeps Creeping Onto Mac OS X 
+ Adobe's First Patch Tuesday Yields Critical Update 
+ Microsoft's Biggest Bug Stomp Ever 
+
+ New Openings 
+
+ Front Desk Officer/Customer Services Rep 
+ Front Desk Officer/Customer Services Rep 
+ Front Desk Officer/Customer Services Rep 
+
+ Logical Security Risk Assessor 
+ TS/SCI Cleared SMS Engineer 
+ Oracle Applications Developer 
+
+ Search all Jobs » 
+ Post Your Job » 
+
+ Search: 
+
+ WebMediaBrands Corporate Info 
+
+ Copyright 2009 WebMediaBrands Inc. All Rights Reserved.
+
+ Legal Notices , Licensing , Reprints , Permissions , Privacy Policy .
+
+ Advertise | Newsletters | Shopping | E-mail Offers | Freelance Jobs 
+
+ Solutions 
+
+ Whitepapers and eBooks
+
+ IBM Whitepaper: Improving Business through IBM's Smart Energy and Environment Policy 
+
+ Microsoft Article: Transparent Data Encryption Helps Secure Corporate Data 
+
+ CA Whitepaper: The Role of Security Management in Achieving Continuous Compliance 
+
+ Microsoft Article: Managing Resource Allocations with SQL Server 2008's Resource Governor 
+
+ Intel Brief: Automated Energy Efficiency for the Intelligent Enterprise 
+
+ Intel PDF: Google Search Appliance 6.0 Now Available--A Brilliant Innovation that Showcases Intels Platform Intelligence 
+
+ Nokia Article: Commercial Release of Nokia Web Runtime Plug-In for Aptana Studio Announced 
+
+ Internet.com eBook: Becoming a Better Project Manager 
+
+ Microsoft Partner Portal: What Azure Means for Microsoft Partners 
+
+ Internet.com eBook: Web Development Frameworks for Java 
+
+ Internet.com eBook: Developing a Content Management System Strategy 
+
+ Article: Ten Things IT Professionals Should Know About Windows 7 
+
+ MORE WHITEPAPERS, EBOOKS, AND ARTICLES 
+
+ Webcasts
+
+ Windows Azure Debugging Tips 
+
+ On Demand: Privacy and IAM--Control Access to Sensitive Information in a Secure Environment 
+
+ Microsoft Partner Portal Video: Microsoft Gold Certified Partners Build Successful Practices 
+
+ MORE WEBCASTS, PODCASTS, AND VIDEOS 
+
+ Downloads and eKits
+
+ Microsoft Forefront: Download free trial software and access technical resources 
+
+ Download Windows Azure SDK 
+
+ Red Gate Free Trial: SQL Toolbelt 
+
+ Iron Speed Designer Application Generator 
+
+ Download Award-Winning Red Gate SQL Backup Pro 
+
+ MORE DOWNLOADS, EKITS, AND FREE TRIALS 
+
+ Tutorials and Demos
+
+ Microsoft: The Next Generation of Windows - Join the Conversation. 
+
+ GoGrid Cloud Hosting: Outstanding PHP Performance on Windows 
+
+ Intel Resource Center: What Do You Look for in a Server? 
+
+ Internet.com Hot List: Get the Inside Scoop on the Hottest IT and Developer Products 
+
+ Internet.com Hot List: Java EE 6 Platform Highlights the JavaOne Conference 
+
+ MORE TUTORIALS, DEMOS AND STEP-BY-STEP GUIDES

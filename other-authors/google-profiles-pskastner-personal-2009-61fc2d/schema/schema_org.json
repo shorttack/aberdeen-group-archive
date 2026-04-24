@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Google Profile (edit page) \u2014 pskastner",
+  "description": "Webarchive capture of Peter S. Kastner's Google Profile edit page (2009). Documents Kastner's personal email pskastner@gmail.com, his Google Profiles URLs (vanity http://www.google.com/profiles/pskastner and numeric http://www.google.com/profiles/110552360138965462985), and Google's offers to add his Picasa Web Albums (pskastner) and YouTube channel (catalina588) to the profile. Personal archive only; no Aberdeen/Scott-Page content beyond implicit identity.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2009-12-31",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

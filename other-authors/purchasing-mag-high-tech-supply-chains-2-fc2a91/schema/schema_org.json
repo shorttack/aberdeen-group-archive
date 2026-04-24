@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "What's Happening in High-Tech Supply Chains",
+  "description": "Purchasing Magazine reviews late-2003 high-tech supply chain recovery. Government reports show 15.4% Q3-2003 annualized growth in software/equipment spending \u2014 the biggest jump since the 2000 bubble peak. Analyst Peter Kastner of Aberdeen Research rejects the figure, noting it isn't reflected in IT budgets or vendor revenues (single-digit growth at most). The piece also covers Intel's new Centrino bundle (Pentium M + wireless module) driving laptops past desktops.",
+  "creator": {
+    "@type": "Person",
+    "name": "Purchasing Magazine staff"
+  },
+  "datePublished": "2003-11-20",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

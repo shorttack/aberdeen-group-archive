@@ -1,0 +1,117 @@
+# KELLNER: Google to Launch Chrome OS in '09
+
+> Archived from: Washington-Times-KELLNER-Google-to-launch-Chrome-OS-in-09.webarchive
+> Original publication date: 2009-07-13
+> Author: Mark A. Kellner
+
+---
+
+## Original Document Text
+
+URL: http://www.washingtontimes.com/news/2009/jul/13/kellner-google-to-launch-chrome-os-in-09/print/
+
+Washington Times - KELLNER: Google to launch Chrome OS in '09 
+
+ Monday, July 13, 2009
+
+ KELLNER: Google to launch Chrome OS in '09
+ Mark A. Kellner 
+
+Google's announcement Wednesday that it would launch a computer operating system for developers to work with this year, and for the rest of us "in the second half of 2010," sent shock waves through much of the computer world.
+
+"Speed, simplicity and security are the key aspects of Google Chrome OS," wrote Google's Sundar Pichai, vice president of product management, and Linus Upson, engineering director, in a blog at the corporate Web site.
+
+"We're designing the OS to be fast and lightweight to start up and get you onto the web [sic] in a few seconds. The user interface is minimal to stay out of your way, and most of the user experience takes place on the web," they added.
+
+Microsoft Corp.'s share price gained a few pennies on the day of the announcement, but was down 18 cents the following day. Over the same two-day period, Google gained $13.69 per share. (Microsoft had no official statement on the move and declined, through an outside PR firm, to comment.)
+
+But share price isn't the only way to measure the impact, of course. Google has announced, via a blog posting, that computer and technology firms Acer, Adobe, ASUS, Freescale Semiconductor, Hewlett-Packard, Lenovo, Qualcomm, Texas Instruments and Toshiba have all agreed to work with Google "to design and build devices that deliver an extraordinary end user experience."
+
+Of the nine firms listed, nearly half are not computer makers: Adobe publishes software, Freescale and TI are in the semiconductor business, and Qualcomm has expertise in cellular telephony. Acer, ASUS, HP, Lenovo and Toshiba all make "netbooks," the mini-notebooks popular with a wide swath of users and a free-of-charge operating system would surely have an appeal to them. No license fee means a lower retail price on a netbook.
+
+So far, so good, right? Well, there's a bit beneath the surface here. For starters, this isn't going to be a totally fresh OS: Instead, it will be the "Google Chrome [Internet browser] running within a new windowing system on top of a Linux kernel," Mr. Pichai and Mr. Upson promised. So if you like Linux, you'll probably cotton to this. If you're not a Linux fan, you may not.
+
+There are numerous unanswered questions. How well will this support the myriad of devices out there: printers, displays, CD-ROM and DVD-ROM drives and/or disc writers, USB devices, and so on? If you can't hook up your printer/DVD-ROM/Web cam to this and have it run, you'll likely be upset.
+
+Also, how secure, in terms of data and identity protection, will this be? It's a nice idea that users "want their data to be accessible to them wherever they are and not have to worry about losing their computer or forgetting to back up files" as the Google duo wrote.
+
+But do I really want you looking at my financial documents? My photos? My resume? Moreover, do I want, say, the federal government to rely on an open-source, "cloud computing" based OS for its sensitive information? Especially after the news last week that North Korea was suspected of attacking sensitive computer installations in the United States? According to Peter S. Kastner, chief research officer at Scott-Page, a Westport, Mass., technology research firm, Google has a challenging task.
+
+"Most of the time, Web applications hosted in the cloud work OK," Mr. Kastner said via e-mail. "The limiter is network bandwidth, which affects speed and reliability (e.g., data lost in flight). Plus you have to trust your online 'cloud' service to backup and secure your data."
+
+Mr. Kastner, a 40-year veteran of the technology industry and co-founder of the noted Aberdeen Group research firm, added, there are "trade-offs both ways between doing it yourself and trusting your online vendor.
+
+Many people are using redundant vendors, putting critical family photos on both Google Picassa and HP Snapfish on the assumption that both [firms] won't crash or go out of business." He did say there was a "potential flaw in the model: always-on Internet in emerging markets." If there's no Internet connection available, there's "no useful netbook functionality besides local games," he said.
+
+How will this shake out? It may be trite to say "time will tell," but we shall have to wait. Buying a netbook now, however, might make even more sense than before. In about 18 months, you could have a new operating system to keep your hardware running like a young colt.
+
+• E-mail Mark Kellner at mkellner@washingtontimes.com.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | washington-times-kellner-google-chrome-o-02e6a9 |
+| title | KELLNER: Google to Launch Chrome OS in '09 |
+| author | Mark A. Kellner |
+| date | 2009-07-13 |
+| type | news-column |
+| subject_domain | google-chrome-os-cloud-computing-launch |
+| methodology | tech-column, expert-quote-aggregation |
+| source_file | Washington-Times-KELLNER-Google-to-launch-Chrome-OS-in-09.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Washington Times technology columnist Mark Kellner reports on Google's announcement that Chrome OS will ship in 2009 as a cloud-centric netbook operating system. Kastner — identified here as 'chief research officer at Scott-Page, a Westport, Mass., technology research firm' and 'a 40-year veteran of the technology industry and co-founder of the noted Aberdeen Group' — emails Kellner that web apps in the cloud usually work but are limited by network bandwidth and trust in the vendor's backup and security. Kastner cites a model flaw — 'always-on Internet in emerging markets' — and notes consumers are using redundant cloud vendors (Picasa + Snapfish) to hedge against vendor failure. NEW career datapoint: Scott-Page affiliation 2009.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Earliest dated Kastner public attribution to Scott-Page in our corpus and a primary-source datapoint on the Chrome OS launch announcement before Chromebooks shipped in 2011. |
+| **Relevance** | high | Cloud-OS trust/bandwidth tradeoffs, vendor redundancy, and emerging-market connectivity concerns remain active enterprise-IT issues in 2026. |
+| **Prescience** | high | Kastner's bandwidth-and-trust skepticism foreshadowed Chromebook's slow enterprise uptake and recurring cloud-outage incidents (Google 2020, Microsoft 365 multiple). His 'always-on Internet in emerging markets' caveat predicted offline-first design's later resurgence (PWA/edge). |
+
+### Prescience Detail
+
+
+**Prediction 1:** Cloud-OS emerging-market flaw
+- **Claimed:** Potential flaw in the model: always-on Internet in emerging markets — if there's no Internet connection available, there's no useful netbook functionality besides local games
+- **Year:** 2009
+- **Confidence at time:** high
+
+
+### Entities Referenced (8)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| The Washington Times | company | active |  |
+| Mark A. Kellner | person | active |  |
+| Peter S. Kastner | person | active |  |
+| Scott-Page Associates | firm | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
+| Google Inc. | company | active |  |
+| Microsoft Corporation | company | active |  |
+| Hewlett-Packard | company | split | HP Inc + HPE (2015) |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Google Chrome OS | platform | Google | pre-launch | active |
+| Cloud Computing | paradigm | various | early-mainstream | mature |
+| Netbook PC | form-factor | various | peak | obsolete |
+| Google Picasa Web Albums | application | Google | active | discontinued |
+| HP Snapfish | application | Hewlett-Packard | active | active-Shutterfly-owned |
+
+### Observation Summary
+
+- Total observations: 5
+- By type: expert-opinion: 2, market-trend: 1, viability-prediction: 1, biographical: 1

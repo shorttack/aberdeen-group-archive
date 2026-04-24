@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Win the Rebate Runaround",
+  "description": "Credit Union National Association (CUNA) consumer-finance writer Jan Garkey profiles the rebate-redemption mess in 2004. The piece anchors on Aberdeen Group EVP Peter Kastner's 40/40/20 estimate: only 40% of consumers submit rebates they're entitled to, 40% successfully redeem, and 20% have problems. Cites Philips Electronics N.A. case where >50,000 consumers experienced 6+ month delays on $20-$100 rebates Jan-2001 to Jan-2002, prompting FTC compulsion. Includes practical consumer guidance from Institute of Consumer Financial Education's Paul Richard.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jan Garkey"
+  },
+  "datePublished": "2004-04-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

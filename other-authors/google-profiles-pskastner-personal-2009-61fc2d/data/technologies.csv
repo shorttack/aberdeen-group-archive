@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"google-profiles","Google Profiles","service","Google","2007-2011","active","obsolete-replaced-by-Google-Plus","google-profiles-pskastner-personal-2009-61fc2d","Then-Google's identity-linking service for cross-product handles"
+"google-picasa","Google Picasa Web Albums","service","Google","2006-2016","active","discontinued","google-profiles-pskastner-personal-2009-61fc2d","Photo service linked from profile"
+"youtube","YouTube","service","Google","2005-present","active","active","google-profiles-pskastner-personal-2009-61fc2d","Video service linked from profile (Kastner channel: catalina588)"

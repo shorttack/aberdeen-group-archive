@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-centrino","Intel Centrino Mobile Technology","platform","Intel","2003-2010","new-launch","obsolete-rebranded","purchasing-mag-high-tech-supply-chains-2-fc2a91","Pentium M + Intel chipset + Intel/PRO Wireless bundle"
+"intel-pentium-m","Intel Pentium M","processor","Intel","2003-2008","new-launch","obsolete","purchasing-mag-high-tech-supply-chains-2-fc2a91","Power-efficient mobile-class CPU; basis of Centrino"
+"notebook-pc","Notebook PC","form-factor","various","1989-present","growth","mature","purchasing-mag-high-tech-supply-chains-2-fc2a91","Laptop sales overtaking desktops circa 2003-04"

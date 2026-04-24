@@ -1,0 +1,440 @@
+# WebEx Makes A Move On Enterprise Collaboration
+
+> Archived from: WebEx-Makes-A-Move-On-Enterprise-Collaboration-Collaboration-InformationWeek.webarchive
+> Original publication date: 2003-01-17
+> Author: InformationWeek staff
+
+---
+
+## Original Document Text
+
+URL: http://www.informationweek.com/news/showArticle.jhtml?articleID=6400031
+
+WebEx Makes A Move On Enterprise Collaboration -- Collaboration -- InformationWeek 
+
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N5092.InformationWeek/B3477860.2;abr=!ie;sz=728x90;ord=biAjciy,bfdtbscdhuzR?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://ad.doubleclick.net/jump/N5092.InformationWeek/B3477860.2;abr=!ie4;abr=!ie5;sz=728x90;ord=biAjciy,bfdtbscdhuzR?">
+<IMG SRC="http://ad.doubleclick.net/ad/N5092.InformationWeek/B3477860.2;abr=!ie4;abr=!ie5;sz=728x90;ord=biAjciy,bfdtbscdhuzR?" BORDER=0 WIDTH=728 HEIGHT=90 ALT="Click Here"></A>
+</NOSCRIPT>
+
+ Welcome Guest. | Log In | Register | Membership Benefits 
+
+ InformationWeek 
+
+ Defining The Business Value Of Technology
+
+ Part of the TechWeb Business Technology Network 
+
+ RSS Feeds 
+
+ Subscribe 
+
+ Events 
+
+ Digital Library 
+
+ News 
+
+ Blogs 
+
+ Software 
+
+ Security 
+
+ Hardware 
+
+ Mobility 
+
+ Windows 
+
+ Internet 
+
+ Global CIO 
+
+ Government 
+
+ Careers 
+
+ Blog 
+
+ Columns 
+
+ Product Reviews 
+
+ Current Print Issue 
+
+ Read All Stories 
+
+ All News Stories 
+
+ E-mail 
+
+ |   Print 
+
+ |   
+
+ |  
+
+ |  Buzz up! 
+
+WebEx Makes A Move On Enterprise Collaboration 
+
+WebEx launched a new version of its Internet-based conferencing services aimed at enterprise customers.
+
+By
+ TechWeb News
+ , 
+Gregg Keizer, News 
+
+InternetWeek
+
+January 17, 2003 09:27 AM
+
+Aiming to give corporations more control over how their employees use online collaboration, WebEx on Thursday launched a new version of its Internet-based conferencing services for businesses.
+
+WebEx Enterprise Edition offers up all the company's Web services -- including online collaboration, employee e-training sessions, and online seminars -- in one suite that's presented on a single page, accessible via a single log-on to users.
+
+"By integrating all of WebEx's services into a single offering, WebEx Enterprise provides a strong incentive to expand the use of Web communications from departmental to enterprise-wide," said Andy Nilssen, a senior analyst at Wainhouse Research.
+
+The services that make up the suite -- Meeting Center, Training Center, Support Center, and OnStage -- have long been available separately. Enterprise Edition, however, adds new features and tools to the mix, including the ability for users to create customized and personalized online meeting rooms with a unique URL that then becomes the default meeting address for that user's e-meetings.
+
+Each user's MyWebEx page also provides a one-page display of all scheduled online meetings, files used in those meetings (such as PowerPoint presentation files), meeting contacts specific to the user, and reporting tools.
+
+Users can initiate any kind of WebEx meeting or seminar with a single click on a tool bar icon, and access or share information during a meeting that resides on an unattended remote computer, a boon to travelers who also need to participate in online collaboration when they're on the road. Both these features are new to WebEx, and available only to Enterprise Edition customers, as is Outlook integration. Users of Microsoft's e-mail client and scheduler can book meetings directly from that application.
+
+"Enterprise Edition lets large customers roll out collaborative services more effectively," claimed David Hsieh, vice president of WebEx Services. Enterprise Edition allows IT to centrally administer such things as log-ins and access privileges across the company, and generate reports that detail usage by department or workgroup.
+
+Finance also has tools in Enterprise Edition that aren't available if WebEx's services are used separately, including centralized billing support so that charge-backs to workgroups, departments, or even operating units within a large corporation can be tracked and billed internally.
+
+These centralized tools -- whether for IT, finance, or end users -- are a key component for acceptability by enterprises, Hsieh noted. "This is the first time WebEx, or anyone for that matter, has taken a suite [of services] and put a single interface on it and backed it up with centralized administration."
+
+Peter Kastner, analyst at the Aberdeen Group, agreed.
+
+"The Enterprise Edition makes it much easier for [WebEx's] Fortune 1000 clients to allocate the cost of the service across corporate P&Ls, just as they do now with phone bills. It's easier to deploy and easier for a large corporation to handle the accounting and administration [of Web service-driven collaboration]."
+
+WebEx Enterprise Edition pricing relies on the same per-minute pricing rates that the company charges for its separate services.
+
+In related news, WebEx also announced Thursday that it has integrated its meeting services into SAP's NetWeaver application platform, which lets users create applications that work like Web services, and which will be available to customers under the mySAP product line. WebEx will offer users access to its online meeting services through Collaboration for mySAP Enterprise Portal. 
+
+ Subscribe to RSS 
+
+ »   Write To Editor 
+
+ »   Reprint This Article 
+
+ »   Download Top Reports 
+
+ Advertisement 
+
+ InformationWeek Marketplace (Sponsored Links) 
+
+ Download Award-Winning Service Desk software, Free 
+ Try Numara FootPrints 9, The ITSM software that Delivers Real Value, Flexibility and Results. 
+
+ Download Free SAP Financial Mgmt. Demo 
+ Register to Find out how SAP solutions can improve your profitability. 
+
+ Managed Services Platform for VARs, MSPs, SIs 
+ Reliable solution for MSPs to manage/secure Customer Networks remotely - Price starts at $25/device. 
+
+ FREE Book, "Data Leakage For Dummies" 
+ Prevent Data Leakage - Get Your Free Book From The IT Vigilante Today. 
+
+ Windows 7—join the conversation 
+ Take a look behind the scenes of the next generation of Windows 
+
+ Try Symantec Protection Suite today 
+ Protect Your Information Against More Risks In More Places. 
+
+ Advertise With Us 
+
+Capture the Mainframes Reliability and Energy Efficiency to the Maximum 
+
+Eight Key Ingredients to Building an Internal Cloud 
+
+How to make the right Security Decisions 
+
+ 2009 Gartner Magic Quadrant for Static Application Security Testing 
+
+ CAREER CENTER 
+
+ Looking for a new job?
+ Open | Close 
+
+ SEARCH 
+
+ Function: 
+
+ Information Technology 
+ Engineering 
+
+ Keyword(s): 
+
+ State: 
+
+ Post Your Resume 
+
+ Employers Area 
+
+ News & Features 
+
+ Blogs & Forums 
+
+ Career Resources 
+
+ Browse By: 
+
+ State | City 
+
+ SPONSOR 
+
+ RECENT JOB POSTINGS 
+
+ Featured Jobs: 
+
+Boeing seeking Software Engineer 1 in Anaheim, CA 
+
+Switch and Data seeking Site Facility Technician in Sunnyvale, CA 
+
+New York Life seeking Insurance and Investment Sales in Schaumburg, IL 
+
+Washington State Investment Board seeking IT Specialist in Olympia, WA 
+
+Kforce seeking VA Mortgage Processors in Phoenix, AZ 
+
+For more great jobs, career-related news, features and services, please visit our Career Center .
+
+ CAREER NEWS 
+
+ Companies Looking To Hire CIO 2.0 
+ After months of gloom and doom, companies are again hiring new CIOs.
+
+ Minorities, Women Underrepresented In IT 
+ According to reports, minorities are underrepresented in high-technology companies.
+
+ More articles from our career center 
+
+ Featured White Paper
+
+Core Mission: Solving the Core Systems Transformation Puzzle
+
+New financial services realities demand enhanced core functionality around risk, regulatory compliance and customer retention. To meet these demands while coping with a continuing global financial crisis and maximize the return on their technology investments, many banks are taking a phased approach...
+
+ read more 
+
+ InformationWeek Marketplace (Sponsored Links) 
+
+ Download Free SAP Financial Mgmt. Demo 
+ Register to Find out how SAP solutions can improve your profitability. 
+
+ Windows 7—join the conversation 
+ Take a look behind the scenes of the next generation of Windows 
+
+ Advertise With Us 
+
+ See Image Galleries 
+
+ Get InformationWeek in Print 
+
+ Apply for a free 52-week subscription to InformationWeek (a $199 value)
+
+ First Name: 
+ Company Name: 
+ Business Address: 
+ State: 
+
+ Select State 
+ Alabama 
+ Alaska 
+ Arizona 
+ Arkansas 
+ California 
+ Colorado 
+ Connecticut 
+ Delaware 
+ Dist. Of Columbia 
+ Florida 
+ Georgia 
+ Hawaii 
+ Idaho 
+ Illinois 
+ Indiana 
+ Iowa 
+ Kansas 
+ Kentucky 
+ Louisiana 
+ Maine 
+ Maryland 
+ Massachusetts 
+ Michigan 
+ Minnesota 
+ Mississippi 
+ Missouri 
+ Montana 
+ Nebraska 
+ Nevada 
+ New Hampshire 
+ New Jersey 
+ New Mexico 
+ New York 
+ North Carolina 
+ North Dakota 
+ Ohio 
+ Oklahoma 
+ Oregon 
+ Pennsylvania 
+ Rhode Island 
+ South Carolina 
+ South Dakota 
+ Tennessee 
+ Texas 
+ Utah 
+ Vermont 
+ Virgin Islands 
+ Virginia 
+ Washington 
+ West Virginia 
+ Wisconsin 
+ Wyoming 
+ Alberta 
+ Nova Scotia 
+ British Columbia 
+ Ontario 
+ Manitoba 
+ Prince Edward Is. 
+ New Brunswick 
+ Quebec 
+ Newfoundland 
+ Saskatchewan 
+ Northwest Terr. 
+ Nunavut 
+ Yukon Territory 
+ American Samoa 
+ Guam 
+ Marshall Isl. 
+ Micronesia 
+ Palau 
+ Puerto Rico 
+ U.S. Minor Outlying Isl. 
+ Northern Mariana Isl. 
+ Armed Frcs Africa 
+ Armed Frcs Americas 
+ Armed Frcs Canada 
+ Armed Frcs Erp AE 
+ Armed Frcs Mdl Est AE 
+ Armed Frcs Pcfc AP 
+ Other 
+
+ Email Address: 
+
+ Last Name: 
+ Title: 
+ City: 
+ Zip: 
+
+ NOTE: Offer valid for U.S., U.S. possessions, & Canada only. 
+
+ InformationWeek Home 
+
+ News 
+
+ Windows 
+
+ Security 
+
+ Mobility 
+
+ Internet 
+
+ Software 
+
+ Hardware 
+
+ CIO Central 
+
+ Research & Tools 
+
+ Careers 
+
+ Become A Member/Membership Benefits 
+
+ About Us 
+
+ Contact Us 
+
+ Current Issue 
+
+ Back Issues 
+
+ White Papers 
+
+ Briefing Centers 
+
+ Site Map 
+
+ Advertising Contacts 
+
+ Technology Marketing Solutions 
+
+ Editorial Calendar 
+
+ Terms of Service | Privacy Statement | Copyright © 2009 United Business Media LLC, All rights reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | informationweek-webex-enterprise-collabo-e30ad5 |
+| title | WebEx Makes A Move On Enterprise Collaboration |
+| author | InformationWeek staff |
+| date | 2003-01-17 |
+| type | news-article |
+| subject_domain | web-conferencing-enterprise-pricing |
+| methodology | news-reporting, expert-quote |
+| source_file | WebEx-Makes-A-Move-On-Enterprise-Collaboration-Collaboration-InformationWeek.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+InformationWeek reports WebEx's launch of an Enterprise Edition pricing/packaging model targeting Fortune 1000 customers, allowing CIOs to allocate web-conferencing spend across corporate P&Ls like phone bills. Peter Kastner of Aberdeen Group agrees the model simplifies large-corporation accounting and administration of Web service-driven collaboration.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents WebEx's 2003 enterprise repositioning — a precursor to the SaaS pricing models that became standard a decade later. |
+| **Relevance** | medium | Cost-allocation and enterprise-buy frameworks remain central to SaaS procurement. |
+| **Prescience** | medium | Kastner's view that enterprise-wide pricing was the right model proved correct as WebEx grew to ~$3.2B Cisco acquisition (2007) and per-seat enterprise SaaS became industry standard. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (4)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| InformationWeek | company | active |  |
+| WebEx Communications, Inc. | company | acquired | Cisco Systems (2007, $3.2B) |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
+
+### Technologies Referenced (2)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Web Conferencing | category | various | growth-phase | mature-redefined |
+| WebEx Enterprise Edition | service | WebEx | new-launch | rebranded-Cisco-Webex |
+
+### Observation Summary
+
+- Total observations: 2
+- By type: expert-opinion: 1, market-trend: 1

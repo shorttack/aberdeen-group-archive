@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-vpro","Intel vPro Technology","platform","Intel","2006-present","growing","mature","youtube-kastner-intel-vpro-tco-2008-cb1733","Business-PC management/security platform; vPro AMT remote-management"
+"intel-core-2-vpro","Intel Core 2 vPro","processor","Intel","2006-2010","mature","obsolete-superseded","youtube-kastner-intel-vpro-tco-2008-cb1733","Core 2 architecture vPro variant"
+"intel-centrino-2-vpro","Intel Centrino 2 vPro","platform","Intel","2008-2010","current","obsolete-superseded","youtube-kastner-intel-vpro-tco-2008-cb1733","Mobile Centrino 2 vPro launched July 2008"
+"total-cost-of-ownership","Total Cost of Ownership (Computing)","framework","various","1980s-present","established","active","youtube-kastner-intel-vpro-tco-2008-cb1733","Gartner-popularized TCO framework for IT capital+operating cost"

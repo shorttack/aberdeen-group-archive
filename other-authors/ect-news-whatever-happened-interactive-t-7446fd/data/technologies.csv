@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"interactive-tv","Interactive TV (ITV)","category","various","1990s-2000s","declining","redefined-as-Smart-TV","ect-news-whatever-happened-interactive-t-7446fd","Generic ITV category broadly failed; reborn as Smart TV"
+"set-top-box","Set-Top Box (ITV)","device","various","1996-2010","early-decline","obsolete","ect-news-whatever-happened-interactive-t-7446fd","WebTV/MSN-TV/AOLTV-class ITV STBs failing to gain traction"
+"broadband-internet","Broadband Internet","infrastructure","various","1999-present","growth","mature","ect-news-whatever-happened-interactive-t-7446fd","Cable/DSL siphoning consumer attention from ITV"
+"interactive-gaming","Interactive Gaming Consoles","category","Microsoft/Sony","2001-present","growth","mature","ect-news-whatever-happened-interactive-t-7446fd","Xbox/PlayStation 2 era — does not require a TV (PCs/handhelds also)"
+"smart-tv","Smart TV (built-in ITV)","category","various","2008-present","future","dominant","ect-news-whatever-happened-interactive-t-7446fd","What Kastner predicted: ITV capabilities built into TV sets"

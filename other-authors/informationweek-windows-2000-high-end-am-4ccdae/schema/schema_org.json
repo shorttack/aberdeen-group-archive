@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Windows 2000: High-End Ambitions",
+  "description": "InformationWeek Issue 730 (April 19, 1999) reports on Microsoft's plans for Windows 2000 Datacenter Server \u2014 the high-end SKU promised as Microsoft's most scalable server OS, supporting up to 32 processors and 64 GB RAM. Aberdeen Group CRO Peter Kastner is skeptical, predicting IT response will be 'call me when it's ready,' and benchmarks NT scalability against IBM mainframe's 95% boost-per-processor. Datacenter Server hadn't begun beta testing and wasn't due until 3 months after the Windows 2000 base release, itself delayed. Aberdeen survey of 240 IT decision-makers evaluating Windows 2000 found 89% plan to use it for email, 84% intranet hosting, 84% generic servers.",
+  "creator": {
+    "@type": "Person",
+    "name": "Stuart J. Johnston, Mary Hayes"
+  },
+  "datePublished": "1999-04-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

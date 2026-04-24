@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-2000-datacenter-server","Windows 2000 Datacenter Server","platform","Microsoft","2000-2010","pre-beta","obsolete-superseded","informationweek-windows-2000-high-end-am-4ccdae","32-CPU/64GB high-end SKU; not in beta as of April 1999; shipped September 2000"
+"windows-2000-advanced-server","Windows 2000 Advanced Server","platform","Microsoft","2000-2010","pre-beta","obsolete-superseded","informationweek-windows-2000-high-end-am-4ccdae","4-CPU/8GB SKU"
+"windows-2000-server","Windows 2000 Server","platform","Microsoft","2000-2010","pre-beta","obsolete-superseded","informationweek-windows-2000-high-end-am-4ccdae","1-2 CPU / 4GB SKU; baseline server"
+"ibm-mainframe","IBM S/390 Mainframe","platform","IBM","1990s-present","mature","active-as-IBM-Z","informationweek-windows-2000-high-end-am-4ccdae","Cited as 95%-boost-per-processor scalability benchmark"
+"windows-nt","Microsoft Windows NT","platform","Microsoft","1993-2004","mature-EOL-approaching","obsolete","informationweek-windows-2000-high-end-am-4ccdae","Predecessor; scalability problems Kastner emphasizes"
+"clustering-software","Server Clustering Software","category","various","1990s-present","growth","mature","informationweek-windows-2000-high-end-am-4ccdae","2-4 node Windows; up to 8-way Sun planned"

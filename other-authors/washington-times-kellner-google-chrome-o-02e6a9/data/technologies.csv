@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"chrome-os","Google Chrome OS","platform","Google","2009-present","pre-launch","active","washington-times-kellner-google-chrome-o-02e6a9","Linux-based netbook OS announced July 2009, shipped 2011 on Chromebooks"
+"cloud-computing","Cloud Computing","paradigm","various","2006-present","early-mainstream","mature","washington-times-kellner-google-chrome-o-02e6a9","Hosting model with bandwidth/trust tradeoffs noted"
+"netbook-pc","Netbook PC","form-factor","various","2007-2012","peak","obsolete","washington-times-kellner-google-chrome-o-02e6a9","Low-cost ultraportables peaking 2009; supplanted by tablets/Chromebooks"
+"google-picasa","Google Picasa Web Albums","application","Google","2006-2016","active","discontinued","washington-times-kellner-google-chrome-o-02e6a9","Cloud photo service cited as redundancy example; shut down 2016"
+"hp-snapfish","HP Snapfish","application","Hewlett-Packard","2000-present","active","active-Shutterfly-owned","washington-times-kellner-google-chrome-o-02e6a9","Cloud photo service cited as redundancy peer to Picasa"

@@ -1,0 +1,883 @@
+# Whatever Happened to Interactive TV?
+
+> Archived from: Whatever-Happened-to-Interactive-TV.webarchive
+> Original publication date: 2002-06-25
+> Author: Lou Hirsh
+
+---
+
+## Original Document Text
+
+URL: https://ssl.ectnews.com/story/18358.html
+
+ECT News: Special Reports: Whatever Happened to Interactive TV? 
+
+ E-BUSINESS | TECHNOLOGY | CLASSIFIEDS [NEW] | CRM | LINUX | MAC | NETWORK MAP 
+
+ Welcome | Sign In 
+
+ Special Reports 
+
+ E-Commerce Times 
+
+ Business 
+
+ Boardroom 
+
+ Critical Issues 
+
+ Governance & Compliance 
+
+ Green Business 
+
+ Outsourcing 
+
+ Deals 
+
+ Law 
+
+ Wall Street 
+
+ Communications 
+
+ Cable & Satellite 
+
+ Multimedia 
+
+ Film 
+
+ Gaming 
+
+ Music 
+
+ Publishing 
+
+ Radio 
+
+ Television 
+
+ Telecom 
+
+ Wireless 
+
+ E-Commerce 
+
+ Analytics 
+
+ E-Marketing 
+
+ M-Commerce 
+
+ Piracy 
+
+ Portals 
+
+ Retail Transaction Indices 
+
+ Search 
+
+ Spam 
+
+ Enterprise IT 
+
+ Hardware 
+
+ Software 
+
+ SaaS 
+
+ SOA 
+
+ Virtualization 
+
+ Hot Topics 
+
+ Controversies 
+
+ Opinions 
+
+ Success Stories 
+
+ Trailblazers 
+
+ Trends 
+
+ Security 
+
+ ID Security 
+
+ Internet Fraud 
+
+ Malware 
+
+ Privacy 
+
+ SMB 
+
+ Expert Advice 
+
+ How To 
+
+ Startups to Watch 
+
+ LinuxInsider 
+
+ Business 
+
+ Financial News 
+
+ Legal 
+
+ Licensing 
+
+ Collaboration 
+
+ Community 
+
+ Virtual Worlds 
+
+ Wikis 
+
+ Enterprise 
+
+ Implementation 
+
+ Infrastructure 
+
+ Virtualization 
+
+ Security 
+
+ Bugs 
+
+ Network Security 
+
+ Developer 
+
+ Kernel 
+
+ Standards 
+
+ Tech Stew 
+
+ Products 
+
+ Applications 
+
+ Distros 
+
+ Mobile 
+
+ Support 
+
+ TechNewsWorld 
+
+ Technology 
+
+ Future Tech 
+
+ Biometrics 
+
+ Nanotech 
+
+ Robotics 
+
+ Gaming 
+
+ Green Tech 
+
+ Home Tech 
+
+ Home Entertainment 
+
+ Home Networks 
+
+ Media Convergence 
+
+ Reviews 
+
+ Science 
+
+ Med Tech 
+
+ Space 
+
+ Tech Buzz 
+
+ Computing 
+
+ Data Management 
+
+ Data Center 
+
+ Data Storage 
+
+ Disaster Recovery 
+
+ Hardware 
+
+ Chips 
+
+ Personal Computers 
+
+ Servers 
+
+ Software 
+
+ Open Source 
+
+ Operating Systems 
+
+ Virtualization 
+
+ Mobile Tech 
+
+ GPS 
+
+ Handheld Devices 
+
+ RFID 
+
+ WiFi Hotspot Locator 
+
+ Wireless Networking 
+
+ Internet 
+
+ P2P Tech 
+
+ Search Tech 
+
+ Web 2.0 
+
+ Blogosphere 
+
+ Podcasting 
+
+ Social Networking 
+
+ Video 2.0 
+
+ Wikis 
+
+ Web Apps 
+
+ Security 
+
+ Cyberattacks 
+
+ Exploits & Vulnerabilities 
+
+ Encryption 
+
+ Malware 
+
+ Network Intrusion 
+
+ Privacy 
+
+ IT Management 
+
+ Core Services 
+
+ Communication Systems 
+
+ Tech Support 
+
+ User Access 
+
+ Development 
+
+ Tools & Processes 
+
+ Workflow Management 
+
+ IT Leadership 
+
+ CIO 
+
+ Tech Pathfinders 
+
+ Sysadmin 
+
+ Implementation 
+
+ IT Maintenance 
+
+ CRM Buyer 
+
+ Enterprise Apps 
+
+ BPM & BPO 
+
+ Business Intelligence 
+
+ ERP 
+
+ Marketing Automation 
+
+ Project Management 
+
+ SCM 
+
+ SFA 
+
+ Workforce Management 
+
+ CRM 
+
+ Analysis 
+
+ Getting Started 
+
+ Implementation 
+
+ Product News 
+
+ Strategy 
+
+ Customers 
+
+ Customer Data 
+
+ Customer Loyalty 
+
+ Customer Retention 
+
+ Customer Service 
+
+ Industries 
+
+ Communications 
+
+ Financial Services 
+
+ Government 
+
+ Healthcare 
+
+ Retail 
+
+ Travel 
+
+ Vendors 
+
+ Deals 
+
+ Leadership 
+
+ Legal 
+
+ Trends 
+
+ Call Centers 
+
+ Equipment 
+
+ Operations 
+
+ Software 
+
+ MacNewsWorld 
+
+ Business 
+
+ AAPL Financial 
+
+ International 
+
+ Legal 
+
+ Apple Juice 
+
+ Computers 
+
+ Enterprise Systems 
+
+ Desktops 
+
+ Notebooks 
+
+ Consumer 
+
+ Accessories 
+
+ Apple Retail 
+
+ iPhone 
+
+ iPod 
+
+ iTunes Store 
+
+ Security 
+
+ Hacks & Malware 
+
+ Mobile Security 
+
+ Security Updates 
+
+ Software 
+
+ Creative Tools 
+
+ Gaming 
+
+ Mac Apps 
+
+ Mobile Apps 
+
+ OS X 
+
+ Virtualization 
+
+ Reviews 
+
+  Reader Services 
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ News Alerts 
+
+ Newsletters 
+
+ RSS / Headline Feeds 
+
+ Site Maps 
+
+ ECT News Network Map 
+
+ CRM Buyer Site Map 
+
+ E-Commerce Times Site Map 
+
+ LinuxInsider Site Map 
+
+ MacNewsWorld Site Map 
+
+ TechNewsWorld Site Map 
+
+ Search ECT News Network 
+
+ |
+
+ Tech Blog 
+
+ June 15, 2009 06:17:52 PM
+
+ ECT News Network > Special Reports 
+ | Read Next Article in Special Reports 
+
+ Please note that this material is copyright protected. It is illegal to display or reproduce this article without permission for any commercial purpose, including use as marketing or public relations literature. To obtain reprints of this article for authorized use, please call a sales representative at (818) 461-9700 or visit http://www.ectnews.com/about/reprints/ .
+
+ Whatever Happened to Interactive TV?
+
+ Print Version 
+
+ E-Mail Article 
+
+ Reprints 
+
+ By Lou Hirsh
+ E-Commerce Times 
+Part of the ECT News Network
+
+ 06/24/02 11:19 AM PT
+
+ The Yankee Group's Kishore said that in areas where interactive TV features have been 
+offered, subscribers often drop the service after completing a tryout.
+
+ When a high-end apparel manufacturer wanted an e-commerce presence that was easy for merchandisers to manage, they turned to ATG. Now online sales have grown consistently; more than tripling in their first year. Read the ATG Case Study to see how .
+
+ Interactive TV never exploded onto the scene in the way its promoters hoped it would, and 
+the features it once promised -- ranging from movie selection to Web-based shopping and 
+games -- have been co-opted by other technologies.
+
+ For example, Aberdeen Group chief research officer Peter Kastner told the E-Commerce 
+Times that consumers' time and dollars have become invested in technologies like 
+high-speed broadband Internet, which 
+makes TV unnecessary for services like interactive shopping.
+
+ In addition, Kastner said, companies like 
+ Microsoft (Nasdaq: MSFT) and Sony (NYSE: SNE) are rolling out interactive 
+gaming technologies that will not require a TV set.
+
+Early Blunders
+
+ Overhyped possibilities are not the only obstacle that stymied interactive TV. GartnerG2 
+vice president James Brancheau told the E-Commerce Times that cable providers originally 
+underestimated the time required to build the necessary infrastructure to make two-way 
+networks effective and affordable for home users.
+
+ The industry has rectified that problem, spending US$42 billion on infrastructure since 
+1996, Brancheau noted.
+
+ Consumer habits were another big stumbling block. Brancheau said early versions of ITV 
+did not take into account the fact that people tend to prefer passive entertainment from 
+television sets.
+
+ Now, though, experts say that scenario is changing as consumers become more comfortable 
+with online shopping, and as home technologies like DVD selection menus and TiVo (Nasdaq: TIVO) personal 
+recording devices become ubiquitous.
+
+Attention Shoppers
+
+ Indeed, a full range of interactive TV features is expected to become popular over the 
+next few years.
+
+ According to Brancheau, ITV's new niche lies in enhancing the experience for users of 
+existing TV networks, such as QVC and the Home Shopping Network. Most purchases on these 
+highly successful networks are impulse buys, as opposed to the well-researched purchases 
+made by most Internet buyers.
+
+ Brancheau said ITV will likely be used to help home shoppers buy items they see on TV by 
+pressing a single button on their remote control. In such transactions, credit-card 
+information would have to be on file at the shopping network or cable company.
+
+Video Taking Off
+
+ Video-on-demand services are also expected to take off over the next few years. Brancheau 
+said 25 million homes now have the digital set-top boxes required to receive a wide 
+selection of movie offerings, with services that let users not only pick a flick but 
+also pause, fast-forward and rewind.
+
+ "These will mimic the experience of using a VCR or DVD player," he noted.
+
+ In fact, GartnerG2 has forecast that revenue from video-on-demand services will approach 
+$3 billion by 2006. Within five to seven years, Brancheau said, home video services could 
+pose a serious threat to retail video store chains.
+
+Growing Revenue
+
+ GartnerG2 also has projected that revenue from all forms of ITV service -- including 
+video-on-demand, food delivery, travel services and home shopping -- will top $13 
+billion within that same period.
+
+ Yankee Group analyst Adi Kishore told 
+the E-Commerce Times that ITV also could see 
+success in the form of interactive local portals that provide users in a community 
+with news, weather reports and store discounts tailored to their neighborhood.
+
+ These types of services likely would reap most of their revenue from local advertisers 
+rather than from home subscribers, Kishore said.
+
+The Cost Barrier
+
+ Cost is still a major barrier, however. According to Kishore, cable companies and 
+Internet service providers must accept the fact that most home users are unwilling to 
+shell out for interactive services.
+
+ "The problem has not necessarily been that people don't find these services interesting 
+and useful," he said. "The problem is that people are not convinced that they are worth 
+paying extra for."
+
+ Kishore said the cable industry has experienced a high churn rate in areas where 
+interactive TV features have been offered because subscribers often drop the service 
+after completing temporary tryouts.
+
+Boxed In
+
+ One key to success for ITV providers will be getting digital set-top boxes into more 
+homes. Most companies will need to increase the reach of such devices from 25 percent of 
+households to about 75 percent in order to make their services profitable. Brancheau 
+said that process could take five to 10 years.
+
+ "If the cable companies can get these digital boxes into homes, they can be successful 
+at these interactive services," he said.
+
+ The Aberdeen Group's Kastner added that ITV capabilities will have to be included with 
+future television sets, since many consumers will be unwilling to spend extra dollars on 
+new hardware for existing sets.
+
+ "Right now, people are not going to [alter] their TVs to fit them for interactive TV 
+functions," Kastner said.
+
+ Social Networking Toolbox: 
+ ShareThis 
+
+ Next Article in Special Reports:
+ Blueprint: E-Commerce Without Microsoft 
+
+ Talkback: Join the Discussion. 
+
+ Re: Whatever Happened to Interactive TV? 
+ basehittimmy 
+ Posted 2002-06-25 
+
+ True, ITV has been a lot slower to evolve than expected, but I think the real smart people with ... 
+
+ Print Version 
+ E-Mail Article 
+ Reprints 
+ More by Lou Hirsh 
+
+ Related Stories 
+
+ Study: Europeans Ignore Potential of TV-Based Commerce (18-Jan-02)
+
+ Moxi Unveils All-in-One Home Media Center (07-Jan-02)
+
+ Study: Interactive TV Won't Find Success on the Web (20-Dec-01)
+
+ New Service Lets Viewers Chat Over Interactive TV (14-Sep-01)
+
+ Study: Interactive TV Could Be 'Spy in Your Home' (27-Jun-01)
+
+ Related News Alerts
+
+ Microsoft 
+
+ Activate Alert |
+ Search Archives 
+
+ Sony Corp. 
+
+ Activate Alert |
+ Search Archives 
+
+ TiVo 
+
+ Activate Alert |
+ Search Archives 
+
+ More Stories by Lou Hirsh
+
+ MySAP Supply Chain Management (11-Nov-02)
+
+ Red Hat's Switch Campaign (04-Nov-02)
+
+ Will Itanium 2 Spell Relief for Intel? (25-Oct-02)
+
+ [Search More...] 
+
+ Don't miss a story -- sign up for our FREE e-mail newsletters and view the latest headlines at a glance.
+
+ Tech News Flash [ View Sample ]
+
+ E-Commerce Minute [ View Sample ]
+
+ ECT News Network Weekly Newsletter [ View Sample ]
+
+ Free Classifieds -- New from TechNewsWorld. 
+
+ Shortcuts
+
+ Get Business and Technology News Alerts 
+
+ Spotlight Features | Exclusives 
+
+ This Week on ECT News Network | Podcasts 
+
+ WiFi Hotspot Locator 
+
+ Free White Papers
+ Document Security - a guide to securing your documents 
+ How Your Organization Can Profit From On-Demand Learning 
+ Necessary convergence of IT & Facilities: Bringing the two groups together under one unified process 
+ Enforcing IT Change Management Policy 
+ 2009 Top 10 IT Service Management (ITSM) Vendor Report - Independent Research 
+
+ E-Commerce Times 
+
+ IBM Offers Platform for Diving Into the Cloud 
+
+ IT Needs a New Drug 
+
+ Citrix Online Brings SMBs Into the Virtual Meeting Room 
+
+ New Yahoo CFO Embarks on Journey to Cost Control 
+
+ Spain's Music Piracy Battle: Is Building the Ship as Bad as Plundering the Booty? 
+
+ TechNewsWorld 
+
+ Playing a Hunch: Social Decision-Making Site Carves Out New Niche in Search 
+
+ China Scrambles to Repair Crumbling Green Dam 
+
+ Samsung Takes Wraps Off New Omnia Smartphone Lineup 
+
+ The Rise and Fall of Traditional Journalism, Part 5 
+
+ Apple Pounds Palm, Sets Sights on Redmond 
+
+ CRM Buyer 
+
+ Turning 'Interesting Moments' Into Sales: Q&A With Marketo CEO Phil Fernandez 
+
+ Chrysler Customers' Shrinking Service Options 
+
+ Safeguarding the Crown Jewels With Online Brand Monitoring 
+
+ GM's Demise and the Rise of CRM Culture 
+
+ Toiling Away in 'White-Collar Sweatshops' - aka Call Centers 
+
+ LinuxInsider 
+
+ Trolls and Astroturfers and Shills, Oh My! 
+
+ Yahoo's Hadoop to Run Free in the Wild 
+
+ Leeches or Users? Should Enterprise IT Have to Give Back to FOSS? 
+
+ 'MobMovs' Give New Meaning to 'Community' Theater 
+
+ Fedora Sets Leonidas Loose, Builds Collaboration Portal 
+
+ MacNewsWorld 
+
+ Glad Works Makes Marketing Moves Through iPhone Apps 
+
+ Safari 4 Goes to Eleven 
+
+ WWDC: iPhone Invigorated, Snow Leopard Spruced, AT&T Tarnished 
+
+ Should You Spring for an iPhone 3GS? 
+
+ TwitterFon Pro: Tweet Harder, Tweet Smarter 
+
+ Free White Papers
+ Document Security - a guide to securing your documents 
+ How Your Organization Can Profit From On-Demand Learning 
+ Necessary convergence of IT & Facilities: Bringing the two groups together under one unified process 
+ Enforcing IT Change Management Policy 
+ 2009 Top 10 IT Service Management (ITSM) Vendor Report - Independent Research 
+
+ ECT News Network Information
+
+ Publications 
+
+ E-Commerce Times 
+
+ TechNewsWorld 
+
+ LinuxInsider 
+
+ CRM Buyer 
+
+ MacNewsWorld 
+
+ Free Newsletters 
+
+ E-Commerce Minute 
+
+ Tech News Flash 
+
+ ECT News Network Weekly Newsletter 
+
+ Newsletter Sign Up 
+
+ Reader Services
+
+ Account Management 
+
+ Become an Affiliate 
+
+ Discussion 
+
+ Free Classifieds 
+
+ Linking Policy 
+
+ Network Map 
+
+ News Alerts 
+
+ RSS / Headline Feeds 
+
+ Search ECT News Network 
+
+ Corporate
+
+ About 
+
+ Careers 
+
+ Contact Us 
+
+ Business Development 
+
+ Permissions 
+
+ Reprint Information 
+
+ How To Advertise 
+
+ Terms of Service | Privacy Policy | How To Advertise 
+
+Copyright 1998-2009 ECT News Network, Inc. All Rights Reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | ect-news-whatever-happened-interactive-t-7446fd |
+| title | Whatever Happened to Interactive TV? |
+| author | Lou Hirsh |
+| date | 2002-06-25 |
+| type | news-feature |
+| subject_domain | interactive-tv-market-failure-2002 |
+| methodology | news-feature, expert-quote-aggregation |
+| source_file | Whatever-Happened-to-Interactive-TV.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+E-Commerce Times reporter Lou Hirsh examines why interactive TV (ITV) failed to materialize as a mass-market category circa 2002. Aberdeen Group chief research officer Peter Kastner argues consumer time and dollars have shifted to broadband Internet and that interactive gaming from Microsoft and Sony will not require a TV set. Kastner predicts ITV capabilities must be built into future TV sets because consumers won't pay extra for set-top hardware on existing TVs.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Captures the post-WebTV/AOLTV moment when ITV optimism was visibly collapsing, with Kastner offering the clearest 'built-in-only' diagnosis on record. |
+| **Relevance** | high | The 'built-in-not-bolt-on' framing maps directly onto Smart TV (Samsung Tizen, LG WebOS, Roku TV, Google TV/Chromecast Built-in) which became the dominant model 2010s-2020s. Console-as-living-room-platform also realized. |
+| **Prescience** | high | Both Kastner predictions validated: (1) ITV functions are now built into virtually all TVs sold (Smart TV penetration >80% by 2020); (2) interactive gaming did not require a TV and shifted to consoles/PCs/mobile (Xbox, PlayStation, Switch, smartphone gaming). Standalone set-top ITV (WebTV/MSN-TV/AOLTV) died as predicted. |
+
+### Prescience Detail
+
+
+**Prediction 1:** ITV must be built into TV sets
+- **Claimed:** ITV capabilities will have to be included with future television sets, since many consumers will be unwilling to spend extra dollars on new hardware for existing sets
+- **Year:** 2002
+- **Confidence at time:** high
+
+
+### Entities Referenced (6)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| E-Commerce Times / ECT News Network | company | active |  |
+| Lou Hirsh | person | active |  |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
+| Microsoft Corporation | company | active |  |
+| Sony Corporation | company | active |  |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Interactive TV (ITV) | category | various | declining | redefined-as-Smart-TV |
+| Set-Top Box (ITV) | device | various | early-decline | obsolete |
+| Broadband Internet | infrastructure | various | growth | mature |
+| Interactive Gaming Consoles | category | Microsoft/Sony | growth | mature |
+| Smart TV (built-in ITV) | category | various | future | dominant |
+
+### Observation Summary
+
+- Total observations: 4
+- By type: expert-opinion: 3, viability-prediction: 1

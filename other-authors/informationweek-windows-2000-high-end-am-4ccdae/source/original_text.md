@@ -1,0 +1,523 @@
+# Windows 2000: High-End Ambitions
+
+> Archived from: Windows-2000-High-End-Ambitions.webarchive
+> Original publication date: 1999-04-19
+> Author: Stuart J. Johnston, Mary Hayes
+
+---
+
+## Original Document Text
+
+URL: http://www.informationweek.com/730/prcenter.htm;jsessionid=QRCIIVADGX0LMQSNDLRSKHSCJUNN2JVN
+
+InformationWeek.com 
+
+ Welcome Guest. | Log In | Register | Membership Benefits 
+
+ InformationWeek 
+
+ Defining The Business Value Of Technology
+
+ Part of the TechWeb Business Technology Network 
+
+ RSS Feeds 
+
+ Subscribe 
+
+ Events 
+
+ Digital Library 
+
+ News 
+
+ Blogs 
+
+ Software 
+
+ Security 
+
+ Hardware 
+
+ Mobility 
+
+ Windows 
+
+ Internet 
+
+ Global CIO 
+
+ Government 
+
+ Careers 
+
+April 19, 1999 
+
+ http://www.informationweek.com/730/center.htm 
+
+Windows 2000: High-End Ambitions
+
+Microsoft hopes to break out of its pigeonhole in the departmental-server niche with Datacenter
+Server, an operating system for mainframe-class computers 
+
+By Stuart J. Johnston and Mary Hayes 
+
+fter decades of advocating that users replace their big iron with smaller PC servers running
+Windows and Windows NT, Microsoft is working hard on an operating system that will run on
+clustered servers with the power of mainframes. Sometime next year, Microsoft plans to take
+its shot at the "glass house," the high end of the computing marketplace, when it releases
+Windows 2000 Datacenter Server. Microsoft promises it will be its most scalable,
+industrial-strength operating system ever. 
+Windows 2000 Datacenter Server has not begun beta testing and isn't due until three months
+after Microsoft ships the initial releases of Windows 2000, which have been delayed until the
+fourth quarter. Datacenter Server will support 16 processors in a symmetrical multiprocessing
+(SMP) configuration in its shrink-wrapped form, or up to 32 processors in units from individual
+computer manufacturers. And it will also support up to 64 Gbytes of memory on both Intel and
+Compaq Alpha chip architectures. In comparison, NT Server 4.0 Enterprise Edition, Microsoft's
+current high-end operating system, supports only 4 Gbytes of memory.
+
+No surprise, then, that if Microsoft and its hardware partners can deliver Datacenter Server with
+mainframe-quality performance and reliability, it could break the high-end market wide open.
+"They're finally going to give us Unix-like capabilities, and that would be fabulous," says Tanveer
+Khan, VP of technology at Answer Financial Inc., an insurance firm in Canoga Park, Calif.
+
+NT software developers are even more eager. Mark McCormack, executive VP of Intertech
+Management Group Inc., a vendor of telecommunications-billing and call-center software in St.
+Louis, is looking forward to Datacenter Server's scalability. Intertech's products are built on NT
+Enterprise Edition and use lots of memory-typically 1 to 2 Gbytes of RAM, and sometimes up to
+the current 4-Gbyte limit. "We're pulling data out of a database, processing it, and putting it
+back," says McCormack. "The more memory, the faster the processing."
+
+The low cost of the hardware that NT Enterprise Edition runs on gives Intertech's software a big
+advantage competing against software that runs on Unix machines or on AS/400s. It's a cost
+advantage that should translate to Datacenter Server-maybe even more so.
+
+Other operating systems support four, eight, even 16 processors, but the complete systems
+aren't cheap. IBM claims that an AS/400 with 12 processors running DB2 can deliver more than
+43,000 transactions per minute-but the system costs nearly $5.6 million. That puts the total
+cost per transaction at $128. In contrast, Dell Computer claims to have reached just under
+24,000 transactions per minute using NT Server 4.0 Enterprise Edition and Microsoft's SQL
+Server 7.0 Enterprise Edition database for $18 per transaction.
+
+Datacenter Server will be one of three Windows 2000 Server packages. At the low end, Windows
+2000 Server will run on machines with one or two processors and support 4 Gbytes of memory.
+At the midrange, Windows 2000 Advanced Server will support up to four processors and up to 64
+Gbytes of memory. It will also support two-server clustering and load balancing. Advanced
+Server will replace NT Server 4.0 Enterprise Edition,which supports eight processors. Microsoft
+says it's offering support for only four processors in Advanced Server because many users say
+that's all they need. 
+
+Although company officials said last fall that Advanced Server will probably cost less than
+Enterprise Edition, it's possible that Datacenter Server will cost more. Microsoft may offer a
+tiered licensing scheme for Datacenter Server based on the number of processors used. But
+pricing and configurations have not been set.
+
+Datacenter Server promises Microsoft's best scalability and clustering capabilities, as well as
+mainframe features. Microsoft recently demonstrated a Compaq Alpha server running a 64-bit
+version of Datacenter Server with a 64-bit version of SQL Server. Brian Valentine, Microsoft VP
+for Windows 2000, says the 64-bit version will come out next year and enable users to support
+up to 8 terabytes of memory. Features coming in the first release of Datacenter Server include
+four-way clustering and mainframe-like administration tools such as Job Object, which will let
+system managers assign resources to a particular task.
+
+But Microsoft faces obstacles to its high-end ambitions-especially when it comes to trust. Many
+CIOs still balk at putting key database applications on Microsoft systems. An InformationWeek
+Research survey of IT decision-makers in January found that, of 240 evaluating Windows 2000
+or planning to, only 15% intend to look at Datacenter Server.
+
+"Datacenter Server has got to be tested thoroughly before we'll consider it," says Answer
+Financial's Khan, who is using clustered systems runningEnterprise Edition to support the
+company's Web site.
+
+ Two Big Benefits 
+
+For those who want it, Datacenter Server's potential scalability promises two major benefits:
+the ability to host large enterprise applications, particularly databases; and the possibility of
+consolidating many small, single-application NT servers into one large server, with fewer
+management hassles.
+
+Glenn Bonner, CIO of Mirage Resorts Inc. in Las Vegas, which owns and operates six hotels, sees
+the benefits of consolidating many small servers into one. Mirage is standardizing on Wintel
+servers for everything: its reservation system, E-mail, human resources, financials, and file and
+print. "I have almost 300 NT systems right now, and they're a nightmare to manage," Bonner says.
+"What I'd love is a 16-processor system that could handle a couple of applications."
+
+Still, Microsoft faces stiff competition at the high end-and many users wonder whether the
+company can deliver on its promises. After all, Microsoft is still behind in providing the levels
+of scalability it had said it would reach by now when it held its "Scalability Day" almost two
+years ago.
+
+"We're 10 years ahead of Microsoft in this space," says John McFarlane, president of the Solaris
+division at Sun Microsystems, adding that the company just shipped its 1,000th E10000 series
+server, which scales to 64 processors. "We're moving into our third generation of clustering." Sun
+offers four-way clustering that includes both failover and load-balancing capabilities, as well
+as a single system image that lets an IT manager handle a cluster of four servers as if it were
+one. And Sun expects to ship eight-way clustering in the spring of 2000.
+
+In answer, Microsoft officials promise Datacenter Server will expand the number of servers
+Windows 2000 can cluster for failover and load balancing from two to four. That sounds good to
+David Wells, director of IT at Entergy Power Marketing Corp., a utility subsidiary in Houston.
+Entergy Power Marketing is using a pair of clustered servers-each with four Pentium II
+CPUs-running the Enterprise editions of both NT and SQL Server to enable traders to deal in
+energy and natural gas on the commodities markets. "Four-way clustering is something we're
+interested in seeing because we're in a growth mode right now," says Wells. 
+
+His staff has a strong knowledge of Microsoft products that can be reused if the company goes
+with Datacenter Server, says Wells. Still, while he's excited by its possibilities, Wells won't be
+the first to implement the new system. Downtime of even 20 minutes could cost the company
+millions of dollars in fast-moving commodities markets, he says.
+
+Microsoft president Steve Ballmer seems to be getting the reliability message. Ballmer said
+recently that with Datacenter Server, he's aiming to achieve "four nines"-a reference to
+mainframe-class reliability of 99.99% uptime. That would be an order of magnitude greater than
+NT can achieve today with Enterprise Edition. Microsoft now has deals with several of its
+hardware partners to guarantee users 99.9% uptime.
+
+ Breaking Barriers 
+
+With Datacenter Server's new capabilities, Microsoft aims to finally break through the
+departmental barrier-the conventional wisdom surrounding NT Server is that it scales well
+enough and is reliable enough to run departmental-level applications but not most enterprise
+apps. An InformationWeek Research survey last fall of 300 IT decision-makers who were
+evaluating or planning to evaluate Windows 2000 found that 89% plan to use some edition of
+Windows 2000 Server for E-mail, 84% for Internet or intranet site hosting, and 84% for
+network-management tasks, but only 49% plan to use it to run enterprise resource planning
+applications, 51% for data warehouses, and 23% for manufacturing resource planning.
+
+That's not to say that Microsoft hasn't had success finding niches for NT in enterprise
+computing. Indeed, enterprise application vendor SAP has been saying for two years that more
+than half its new enterprise resource planning installations are on NT Server.
+
+United Interactive Technologies Inc., a large Internet service provider and E-commerce hosting
+company in Coral Springs, Fla., uses Enterprise Edition to support thousands of Web sites on 50
+servers. "The two-way clustering has worked well for us," says Peter Tamayo, CEO and chief
+technology officer at United Interactive. "We deal with quite a bit of data, and Enterprise Edition
+is a reliable platform as long as it's run on certified hardware."
+
+Tamayo is waiting-patiently-for Datacenter Server. "There's definitely a need for it," he says.
+"Microsoft has made good strides with Enterprise Edition, but it still isn't as mature as some
+Unix solutions." Tamayo says he's very interested in clustering four machines.
+
+Still, since Datacenter Server is not yet beta testing, it's barely on most IT decision-makers'
+agendas. "Customers have been asking us about it, to have it on their radar screens and from a
+budgetary point of view," says Bill Cotter, VP and general manager of system-management
+services for Litton Enterprise Solutions Inc. The company is a certified reseller of Microsoft
+products, including Enterprise Edition. But, he adds, no one's making firm plans for Datacenter
+Server yet. "One thing that doesn't help is Microsoft's track record on meeting dates," says
+Cotter. Users are also waiting to be sure thatWindows 2000-both desktop and server versions-is
+rock solid before they fully commit to the new operating system. Even then, IT staffs will need
+to perform diligent testing on Datacenter Server.
+
+"My general rule is to not implement Wintel servers until the first service pack comes out," says
+Brian Maw, MIS Manager for Visa International. Visa won't bank on Datacenter Server right away,
+but the company's goal is to standardize entirely on the Wintel platform in the future. For the
+time being, Visa's massive database of customer records will continue to be managed primarily
+by an IBM MVS mainframe.
+
+At what point will Wintel servers be able to support Visa's most demanding data center
+applications? "We may be in a position to do that kind of work in 2 to 2-1/2 years," Maw says.
+Nevertheless, he predicts that within the next several years, Microsoft willbecome the
+predominant provider of server operating systems. "It'll change everything," he says.
+
+Maw especially likes the idea of what he calls a "single-stop vendor." He doesn't like supporting
+multiple server operating systems. "From a programming and deployment model, it's not as
+effective," he says. "We have to deal with different software, client-access issues, and the
+whole network infrastructure." He says an all-Wintel environment will greatly improve Visa's
+development environment, allowing them to focus on just a few languages, such as J++ and
+C++.
+
+Rob Enderle, an analyst at Giga Information Group, says "The trend is to go to fewer and fewer
+vendors." And that can only help Microsoft.
+
+ Vendors Get On Board 
+
+Meanwhile, many of Microsoft's traditional PC server partners are well on their way toward
+offering systems with Datacenter Server. "We're very enthused about the Windows 2000
+Datacenter version, because it complements the Netfinity X Architecture," says Tom Bradicich,
+director of architecture and technology for IBM's Netfinity server products. "It's a higher-end
+operating system that would begin to be used in mission-critical applications."
+
+IBM is working with Microsoft on hot-add input/output-the ability to add peripherals,
+networking, and storage while a system is running. Although some of those capabilities are
+currently available from IBM and other server vendors, separate software is required. "We're
+working to build them into Windows," says Bradicich.
+
+Compaq has a two-pronged strategy for the initial release of Datacenter Server: four-processor
+and eight-processor Wintel systems at Datacenter's release, and up to 32-processor systems
+that use the Alpha chip sometime later. "Customers are looking for the very highest level of
+performance with Datacenter Server edition, and looking to extend beyond eight processors,"
+says Lee Johns, director of software marketing at Compaq.
+
+Hewlett-Packard shipped an eight-processor Windows NT system before it was standard and
+plans to expand on its reputation for riding the edge of technology by being one of the first
+vendors to ship 16-processor servers for Datacenter Server. Its aim is to do so during the second
+half of 2000.
+
+Still, some analysts wonder how quickly Datacenter Server will catch on. "While Datacenter
+Server will pique IT's interest, their response will be, 'Call me when it's ready,'" says Peter
+Kastner, chief research officer at the Aberdeen Group.
+
+Blame Microsoft's continuing problems with scalability. Microsoft officials admit they're having
+a difficult time providing the 16-way clustering they have repeatedly promised for Windows NT
+and Windows 2000. CEO Bill Gates stated a year ago that the company would have 16-way
+clustering in beta by now. Instead, the company won't even deliver four-way clustering with
+Datacenter Server until next year, blaming the shortfall on the wide variety of technologies that
+must be tested in various configurations to be certain they will work as promised.
+
+Meanwhile, IBM plans to be out in front with clustering by leveraging technology already
+available in some of its high-end systems. The plan is to support up to eight Netfinity servers in
+a cluster. And IBM isn't convinced customers will be clamoring for 16-way SMP systems. "It's
+not quite clear whether that level of system will be needed a year or two from now," says
+Bradicich. IBM, like most other Wintel server vendors, sees clustering as a more cost-effective
+way for both manufacturers and customers to scale Datacenter Server, rather than ganging
+together 16 processors in a single box.
+
+ Systems Won't Ship Soon 
+
+Indeed, most vendors of Intel-based servers aren't planning to ship 16-way systems for at least
+18 months after Datacenter Server ships, estimates Tony Iams, an analyst at D.H. Brown. Only
+Data General, NCR, Sequent, and Unisys are planning to build 16-way systems with the current
+32-bit chip architecture. Anthony Ambrose, marketing director for the server component division
+at Intel, says the company's not planning to develop a standard chipset for 16-way systems,
+preferring to leave the complex engineering problems to the computer manufacturers.
+
+Cost is the main reason hardware vendors aren't dashing out to build 16-way systems, says D.H.
+Brown's Iams. Vendors agree. "It's not a trivial task," IBM's Bradicich says of building 16-way
+systems. "Microprocessors are expensive. You don't flippantly add processors." And when one
+vendor is making the operating system and another is making the chips, it's difficult to fine-tune
+the hardware and software without making considerable investments that may not deliver the
+kind of returns Wintel vendors, and customers, are used to. Bradicich says it's still possible IBM
+will offer 16-way systems sometime in the next few years, "but we're really monitoring
+customer demands and requests." He believes four-way and eight-way systems will be the
+high-volume platforms for Datacenter Server.
+
+Ultimately, it comes down to performance. "For all the tuning grief I go through, what gain am I
+going to see unless I get a huge performance boost?" asks Aberdeen Group's Kastner. "In the IBM
+mainframe environment, you're looking at a 95% boost per processor. NT has some ways to go to
+get into that range."
+
+And, of course, not all IT decision-makers even need Datacenter Server's capabilities. "How much
+is too much?" asks Andrew Drooker, VP of network systems architecture and research and
+development at Turner Broadcasting Sales Inc., a subsidiary of Turner Broadcasting in Atlanta.
+"Datacenter Server would probably be great for one or two databases we have here, but the most
+processors we have in a box is four, and we're not going with clusters yet."
+
+Still, for companies that do need it, Datacenter Server offers promise. It's now a matter of
+when, and how well, Microsoft delivers on that promise.
+
+-with additional reporting by Martin J. Garvey 
+
+ Visit us at: http://www.informationweek.com 
+
+ <SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N296.informationweek/B3653999.12;abr=!ie;sz=300x250;ord=bbhyNwR,bfdqsbheRzpIy?"> </SCRIPT> <NOSCRIPT> <A HREF="http://ad.doubleclick.net/jump/N296.informationweek/B3653999.12;abr=!ie4;abr=!ie5;sz=300x250;ord=bbhyNwR,bfdqsbheRzpIy?"> <IMG SRC="http://ad.doubleclick.net/ad/N296.informationweek/B3653999.12;abr=!ie4;abr=!ie5;sz=300x250;ord=bbhyNwR,bfdqsbheRzpIy?" BORDER=0 WIDTH=300 HEIGHT=250 ALT=""></A> </NOSCRIPT> 
+
+ CAREER CENTER 
+
+ Looking for a new job?
+ Open | Close 
+
+ SEARCH 
+
+ Function: 
+
+ Information Technology 
+ Engineering 
+
+ Keyword(s): 
+
+ State: 
+
+ Post Your Resume 
+
+ Employers Area 
+
+ News & Features 
+
+ Blogs & Forums 
+
+ Career Resources 
+
+ Browse By: 
+
+ State | City 
+
+ SPONSOR 
+
+ RECENT JOB POSTINGS 
+
+ Featured Jobs: 
+
+Boeing seeking Software Engineer 1 in Anaheim, CA 
+
+Switch and Data seeking Site Facility Technician in Sunnyvale, CA 
+
+New York Life seeking Insurance and Investment Sales in Schaumburg, IL 
+
+Washington State Investment Board seeking IT Specialist in Olympia, WA 
+
+Kforce seeking VA Mortgage Processors in Phoenix, AZ 
+
+For more great jobs, career-related news, features and services, please visit our Career Center .
+
+ CAREER NEWS 
+
+ Companies Looking To Hire CIO 2.0 
+ After months of gloom and doom, companies are again hiring new CIOs.
+
+ Minorities, Women Underrepresented In IT 
+ According to reports, minorities are underrepresented in high-technology companies.
+
+ More articles from our career center 
+
+ Today's Top News
+
+ China Making Green Dam Internet Filter Optional 
+
+ Sun Dropping Rock Chip Project, Says Report 
+
+ MySpace Cuts 30% Of Workforce 
+
+ AT&T Axes Prepaid iPhone 3G Plans 
+
+ Microsoft Sues Three For Click Fraud 
+
+ Opera Browser Becomes File Sharing Platform 
+
+ See Image Galleries 
+
+ Specialty Resources
+
+Ensure Performance and Availability. Learn how! 
+
+Quantum Cuts Backup Times at U.S. Army Command 
+
+ IBM DB2 Warehouse Flash 
+Demo/Video 
+
+ Free Software Trial: WebSphere Business Modeler 6.0 
+
+Online Storage Optmization 
+
+ VIEW ALL BRIEFING CENTERS 
+
+ Featured Microsite
+
+ InformationWeek Marketplace (Sponsored Links) 
+
+ Download FREE Two-Factor Security Whitepaper 
+ Because Passwords Just Aren’t Enough. Add a 2nd Factor of Authentication with Just a Phone. 
+
+ FREE TRIAL! On-Demand Remote Support 
+ Remotely support and manage computers & devices. Try it now for FREE! 
+
+ Advertise With Us 
+
+ InformationWeek Home 
+
+ News 
+
+ Windows 
+
+ Security 
+
+ Mobility 
+
+ Internet 
+
+ Software 
+
+ Hardware 
+
+ CIO Central 
+
+ Research & Tools 
+
+ Careers 
+
+ Become A Member/Membership Benefits 
+
+ About Us 
+
+ Contact Us 
+
+ Current Issue 
+
+ Back Issues 
+
+ White Papers 
+
+ Briefing Centers 
+
+ Site Map 
+
+ Advertising Contacts 
+
+ Technology Marketing Solutions 
+
+ Editorial Calendar 
+
+ Terms of Service | Privacy Statement | Copyright © 2009 United Business Media LLC, All rights reserved.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | informationweek-windows-2000-high-end-am-4ccdae |
+| title | Windows 2000: High-End Ambitions |
+| author | Stuart J. Johnston, Mary Hayes |
+| date | 1999-04-19 |
+| type | news-feature |
+| subject_domain | windows-2000-datacenter-scalability |
+| methodology | news-feature, expert-quote-aggregation, customer-survey |
+| source_file | Windows-2000-High-End-Ambitions.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+InformationWeek Issue 730 (April 19, 1999) reports on Microsoft's plans for Windows 2000 Datacenter Server — the high-end SKU promised as Microsoft's most scalable server OS, supporting up to 32 processors and 64 GB RAM. Aberdeen Group CRO Peter Kastner is skeptical, predicting IT response will be 'call me when it's ready,' and benchmarks NT scalability against IBM mainframe's 95% boost-per-processor. Datacenter Server hadn't begun beta testing and wasn't due until 3 months after the Windows 2000 base release, itself delayed. Aberdeen survey of 240 IT decision-makers evaluating Windows 2000 found 89% plan to use it for email, 84% intranet hosting, 84% generic servers.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Primary-source Aberdeen data point and Kastner skepticism on Windows-2000 high-end scalability — important contextual setup for the next decade's Microsoft-vs-Unix scale wars. |
+| **Relevance** | medium | Specific Datacenter Server SKU is obsolete, but Kastner's 'NT vs mainframe scaling' framing remains analytically relevant to today's Windows Server / Linux / hyperscaler comparisons. |
+| **Prescience** | high | Kastner's 95%-boost-per-processor mainframe benchmark exposed real Windows NT scalability limits that took Microsoft another decade (Server 2008/2012, kernel rework) to overcome. 'Call me when it's ready' attitude reflected actual enterprise behavior — Windows 2000 Datacenter saw modest uptake while mainframes and high-end Unix continued dominating tier-one workloads. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (8)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| InformationWeek | company | active |  |
+| Stuart J. Johnston | person | active |  |
+| Mary Hayes | person | active |  |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
+| Microsoft Corporation | company | active |  |
+| IBM Corporation | company | active |  |
+| Sun Microsystems | company | acquired | Oracle Corporation (2010, $7.4B) |
+
+### Technologies Referenced (6)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Windows 2000 Datacenter Server | platform | Microsoft | pre-beta | obsolete-superseded |
+| Windows 2000 Advanced Server | platform | Microsoft | pre-beta | obsolete-superseded |
+| Windows 2000 Server | platform | Microsoft | pre-beta | obsolete-superseded |
+| IBM S/390 Mainframe | platform | IBM | mature | active-as-IBM-Z |
+| Microsoft Windows NT | platform | Microsoft | mature-EOL-approaching | obsolete |
+| Server Clustering Software | category | various | growth | mature |
+
+### Observation Summary
+
+- Total observations: 5
+- By type: expert-opinion: 2, market-trend: 2, market-data: 1

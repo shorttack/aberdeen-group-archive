@@ -1,0 +1,38 @@
+URL: http://www.washingtontimes.com/news/2009/jul/13/kellner-google-to-launch-chrome-os-in-09/print/
+
+Washington Times - KELLNER: Google to launch Chrome OS in '09 
+
+ Monday, July 13, 2009
+
+ KELLNER: Google to launch Chrome OS in '09
+ Mark A. Kellner 
+
+Google's announcement Wednesday that it would launch a computer operating system for developers to work with this year, and for the rest of us "in the second half of 2010," sent shock waves through much of the computer world.
+
+"Speed, simplicity and security are the key aspects of Google Chrome OS," wrote Google's Sundar Pichai, vice president of product management, and Linus Upson, engineering director, in a blog at the corporate Web site.
+
+"We're designing the OS to be fast and lightweight to start up and get you onto the web [sic] in a few seconds. The user interface is minimal to stay out of your way, and most of the user experience takes place on the web," they added.
+
+Microsoft Corp.'s share price gained a few pennies on the day of the announcement, but was down 18 cents the following day. Over the same two-day period, Google gained $13.69 per share. (Microsoft had no official statement on the move and declined, through an outside PR firm, to comment.)
+
+But share price isn't the only way to measure the impact, of course. Google has announced, via a blog posting, that computer and technology firms Acer, Adobe, ASUS, Freescale Semiconductor, Hewlett-Packard, Lenovo, Qualcomm, Texas Instruments and Toshiba have all agreed to work with Google "to design and build devices that deliver an extraordinary end user experience."
+
+Of the nine firms listed, nearly half are not computer makers: Adobe publishes software, Freescale and TI are in the semiconductor business, and Qualcomm has expertise in cellular telephony. Acer, ASUS, HP, Lenovo and Toshiba all make "netbooks," the mini-notebooks popular with a wide swath of users and a free-of-charge operating system would surely have an appeal to them. No license fee means a lower retail price on a netbook.
+
+So far, so good, right? Well, there's a bit beneath the surface here. For starters, this isn't going to be a totally fresh OS: Instead, it will be the "Google Chrome [Internet browser] running within a new windowing system on top of a Linux kernel," Mr. Pichai and Mr. Upson promised. So if you like Linux, you'll probably cotton to this. If you're not a Linux fan, you may not.
+
+There are numerous unanswered questions. How well will this support the myriad of devices out there: printers, displays, CD-ROM and DVD-ROM drives and/or disc writers, USB devices, and so on? If you can't hook up your printer/DVD-ROM/Web cam to this and have it run, you'll likely be upset.
+
+Also, how secure, in terms of data and identity protection, will this be? It's a nice idea that users "want their data to be accessible to them wherever they are and not have to worry about losing their computer or forgetting to back up files" as the Google duo wrote.
+
+But do I really want you looking at my financial documents? My photos? My resume? Moreover, do I want, say, the federal government to rely on an open-source, "cloud computing" based OS for its sensitive information? Especially after the news last week that North Korea was suspected of attacking sensitive computer installations in the United States? According to Peter S. Kastner, chief research officer at Scott-Page, a Westport, Mass., technology research firm, Google has a challenging task.
+
+"Most of the time, Web applications hosted in the cloud work OK," Mr. Kastner said via e-mail. "The limiter is network bandwidth, which affects speed and reliability (e.g., data lost in flight). Plus you have to trust your online 'cloud' service to backup and secure your data."
+
+Mr. Kastner, a 40-year veteran of the technology industry and co-founder of the noted Aberdeen Group research firm, added, there are "trade-offs both ways between doing it yourself and trusting your online vendor.
+
+Many people are using redundant vendors, putting critical family photos on both Google Picassa and HP Snapfish on the assumption that both [firms] won't crash or go out of business." He did say there was a "potential flaw in the model: always-on Internet in emerging markets." If there's no Internet connection available, there's "no useful netbook functionality besides local games," he said.
+
+How will this shake out? It may be trite to say "time will tell," but we shall have to wait. Buying a netbook now, however, might make even more sense than before. In about 18 months, you could have a new operating system to keep your hardware running like a young colt.
+
+• E-mail Mark Kellner at mkellner@washingtontimes.com.

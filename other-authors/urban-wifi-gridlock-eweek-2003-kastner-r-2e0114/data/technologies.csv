@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"wifi-80211b","Wi-Fi 802.11b (11 Mbps)","protocol","IEEE","1999-2010","mature","legacy","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","First mass-market Wi-Fi; target of 'dumbed-down' effect"
+"wifi-80211g","Wi-Fi 802.11g (54 Mbps)","protocol","IEEE","2003-2013","emerging","legacy","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Kastner notes purchases shifting to 802.11g but no interference relief"
+"wifi-80211a","Wi-Fi 802.11a (5 GHz, 54 Mbps)","protocol","IEEE","1999-2015","mature","legacy","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Alternative 5GHz band at the time; eventually underpinned Wi-Fi 5/6 expansion"
+"wifi-2-4ghz-spectrum","2.4 GHz ISM Wi-Fi spectrum","protocol","ITU","1985-present","mature","congested","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Core of Kastner's interference-prediction thesis"
+"urban-hotspot-2003","Urban Wi-Fi hotspot (2003-era)","application","multiple","2002-2010","emerging","mature","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Venue of predicted gridlock"
+"csma-ca","CSMA/CA Wi-Fi media access","protocol","IEEE 802.11","1997-present","mature","mature","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Rate-adaptation mechanism Kastner characterizes as 'dumbed down'"

@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"powerpc-g5","PowerPC G5 (IBM PowerPC 970)","platform","IBM/Apple","2003-2006","current","legacy-end-of-life","year-in-macs-part-one-macworld-dalrymple-dd247c","Abandoned when Apple switched to Intel in 2005-2006"
+"ipod","iPod (click wheel era)","platform","Apple","2001-2007","growth","legacy-discontinued","year-in-macs-part-one-macworld-dalrymple-dd247c","2 million units sold in Apple Q4 FY04 alone"
+"powerbook-g4","PowerBook G4","platform","Apple","2001-2006","mature","legacy-discontinued","year-in-macs-part-one-macworld-dalrymple-dd247c","1.5GHz top speed by end of 2004"
+"ibook-g4","iBook G4","platform","Apple","2003-2006","mature","legacy-discontinued","year-in-macs-part-one-macworld-dalrymple-dd247c","1.33GHz by Oct 2004; $999 12-inch model"
+"airport-extreme","AirPort Extreme (802.11g)","platform","Apple","2003-2013","current","legacy-replaced-wifi6","year-in-macs-part-one-macworld-dalrymple-dd247c","Now standard on PowerBooks"
+"90nm-process","90 nanometer process node","platform","IBM/Intel/TSMC","2003-2007","emerging","legacy-superseded","year-in-macs-part-one-macworld-dalrymple-dd247c","Industry-wide 'wall' during 2004 transition"
+"ati-mobility-radeon-9700","ATI Mobility Radeon 9700","platform","ATI","2003-2005","current","legacy-end-of-life","year-in-macs-part-one-macworld-dalrymple-dd247c","Added to 15/17-inch PowerBooks in 2004"

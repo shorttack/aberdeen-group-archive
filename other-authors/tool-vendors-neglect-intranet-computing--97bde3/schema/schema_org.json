@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tool vendors neglect intranet needs (Kastner three-year IT predictions)",
+  "description": "Computing UK article by Douglas Hayward interviewing Peter Kastner (Aberdeen Group VP) in London during a BMC Software visit. Kastner delivers a set of three-year industry predictions: intranet-development delayed until tool vendors treat browsers as equal to Windows clients; Novell will struggle as intranet directory services obviate NDS; object-oriented and internet-based technology will temporarily raise then reduce IT ownership costs; network-computer vendors will bundle WordPerfect once Corel rewrites it in Java. Closes with Kastner's 1973 Chase Manhattan Y2K-noncompliant-code admission.",
+  "creator": {
+    "@type": "Person",
+    "name": "Douglas Hayward"
+  },
+  "datePublished": "1996-10-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "2004 In Review: Apple \u2014 Part One (Year of the iPod, No 3-Peat on G5)",
+  "description": "Macworld year-in-review recapping Apple's 2004: iPod division split from Mac, 2 million iPods sold in Q4 FY04 contributing to $276M annual profit, Power Mac G5 maxed at 2.5GHz (no 3GHz despite Jobs' mid-2003 promise), PowerBook lines upgraded to 1.5GHz with standard AirPort Extreme and Bluetooth. Peter Kastner (Aberdeen) explains the G5 90nm-transition wall as industry-wide, commending IBM's execution.",
+  "creator": {
+    "@type": "Person",
+    "name": "Jim Dalrymple"
+  },
+  "datePublished": "2004-12-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

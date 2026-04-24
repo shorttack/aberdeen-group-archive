@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-1400-series","IBM 1400 Series computer","platform","IBM","1959-1971","mature","legacy-retired","computer-dating-1960s-businessinsider-gr-2b9490","Used by Project TACT to match dating-questionnaire answers"
+"batch-computing","Batch computing (punched-card era)","platform","IBM/Burroughs/UNIVAC","1950s-1970s","mature","legacy-superseded","computer-dating-1960s-businessinsider-gr-2b9490","Paradigm that made 1960s consumer computer-dating possible"
+"computer-dating-paper-questionnaire","Computer-dating paper questionnaire input","application","Operation Match/TACT","1965-1970s","emerging","legacy-replaced","computer-dating-1960s-businessinsider-gr-2b9490","~100+ questions per client"

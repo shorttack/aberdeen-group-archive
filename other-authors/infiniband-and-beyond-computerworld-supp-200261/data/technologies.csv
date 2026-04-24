@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"infiniband","InfiniBand architecture","protocol","IBTA","2000-present","emerging","mature-niche-dominant","infiniband-and-beyond-computerworld-supp-200261","Mainstream in HPC/AI clusters 2020s"
+"tcp-ip","TCP/IP protocol stack","protocol","IETF","1970s-present","mature","mature","infiniband-and-beyond-computerworld-supp-200261","Positioned by Kastner as the target InfiniBand would displace in data centers"
+"ethernet","Ethernet (including 1/10 Gigabit)","protocol","IEEE","1980s-present","mature","mature","infiniband-and-beyond-computerworld-supp-200261","Competing interconnect"
+"iscsi","iSCSI","protocol","IETF","2001-present","emerging","mature","infiniband-and-beyond-computerworld-supp-200261","Competing storage-interconnect at time of article"
+"fibre-channel","Fibre Channel","protocol","T11/INCITS","1994-present","mature","mature-legacy","infiniband-and-beyond-computerworld-supp-200261","Competing storage interconnect"
+"blade-server","Blade server form factor","platform","IBM/HP/Sun/Dell","2001-present","emerging","mature","infiniband-and-beyond-computerworld-supp-200261","InfiniBand positioned for blade-to-blade messaging"
+"server-cluster","Server cluster (multi-node)","platform","multiple","1990s-present","mature","mature","infiniband-and-beyond-computerworld-supp-200261","Core InfiniBand use case"

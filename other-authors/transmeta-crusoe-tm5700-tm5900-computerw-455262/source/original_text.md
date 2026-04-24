@@ -1,0 +1,800 @@
+# Transmeta unveils smaller microprocessors (Crusoe TM5700/TM5900 launch)
+
+> Archived from: Transmeta-unveils-smaller-microprocessors-8.webarchive
+> Original publication date: 2004-01-05
+> Author: Gillian Law
+
+---
+
+## Original Document Text
+
+URL: http://www.computerworld.com/hardwaretopics/hardware/story/0,10801,88765,00.html
+
+Transmeta unveils smaller microprocessors 
+
+ Home News Blogs Reviews White Papers Newsletters IT Careers 
+
+ News 
+
+ Blogs 
+
+ IT Blogwatch 
+
+ Shark Tank 
+
+ Topics 
+
+ Business Intelligence 
+
+ Careers 
+
+ Development 
+
+ E-Business & Web 2.0 
+
+ Emerging Technology 
+
+ Government & Regulation 
+
+ Hardware 
+
+ Internet 
+
+ IT Management 
+
+ Mobile & Wireless 
+
+ Networking 
+
+ Security 
+
+ Servers & Data Center 
+
+ SOA & Web Services 
+
+ Software 
+
+ Storage 
+
+ Shark Bait 
+
+ Back In The Day 
+
+ Boss Ahoy! 
+
+ Floundering Users 
+
+ Miscellaneous Bait 
+
+ News Bait 
+
+ Office Politics 
+
+ Q&A 
+
+ Sinking Projects 
+
+ Tricks Of The Trade 
+
+ Video 
+
+ Suggest a Topic 
+
+ Submit a Bait 
+
+ Register 
+
+ Login 
+
+ FAQ 
+
+ Top Baits & Big Fish 
+
+ Invite a Friend 
+
+ SharkTank 
+
+ Knowledge Centers 
+
+ Operating Systems 
+
+ Windows 
+
+ Linux & Unix 
+
+ Macintosh OS 
+
+ Networking & Internet 
+
+ LAN/WAN 
+
+ Hardware & Devices 
+
+ Protocols & Standards 
+
+ Wireless Networking 
+
+ Network Security 
+
+ VPN 
+
+ VoIP 
+
+ Internet 
+
+ Internet Business 
+
+ Internet Applications 
+
+ Web 2.0 
+
+ SaaS 
+
+ Broadband 
+
+ Mobile & Wireless 
+
+ Mobile Devices 
+
+ Laptops 
+
+ Mobile Access 
+
+ Mobile Applications & RFID 
+
+ Wireless Networking 
+
+ Wireless Trends & Technologies 
+
+ Personal Technology 
+
+ Security 
+
+ Cybercrime & Hacking 
+
+ Spam, Malware & Vulnerabilities 
+
+ Security Hardware & Software 
+
+ Standards & Legal Issues 
+
+ Privacy 
+
+ Intellectual Property & DRM 
+
+ Disaster Recovery 
+
+ Storage 
+
+ SAN 
+
+ NAS 
+
+ Hardware 
+
+ Software 
+
+ Disaster Recovery 
+
+ Compliance 
+
+ Storage Security 
+
+ Business Intelligence 
+
+ Analytics 
+
+ Data Mining 
+
+ Data Warehousing 
+
+ Databases 
+
+ Servers & Data Center 
+
+ Servers 
+
+ NOSes & Server Software 
+
+ Virtualization 
+
+ Data Center 
+
+ Infrastructure Management 
+
+ Grid & Utility Computing 
+
+ Mainframes & Supercomputers 
+
+ Disaster Recovery 
+
+ Hardware 
+
+ Processors 
+
+ Windows & Linux PCs 
+
+ Macintoshes 
+
+ Laptops 
+
+ Servers 
+
+ Grid & Utility Computing 
+
+ Mainframes & Supercomputers 
+
+ Software 
+
+ Desktop Applications 
+
+ Enterprise Applications 
+
+ CRM 
+
+ ERP/Supply Chain 
+
+ Open Source 
+
+ Saas 
+
+ Databases 
+
+ Development 
+
+ Web Services 
+
+ Web Site Management 
+
+ Software Development 
+
+ Careers 
+
+ Education/Training 
+
+ Hiring/Recruiting 
+
+ Skills 
+
+ Search Job Listings 
+
+ Outsourcing 
+
+ Management 
+
+ ROI 
+
+ Project Management 
+
+ Outsourcing 
+
+ Government 
+
+ Compliance 
+
+ Legislation/Regulation 
+
+ IT in Government 
+
+ Opinion 
+
+ Columnists 
+
+ SharkTank 
+
+ Webcasts 
+
+ Video 
+
+ Podcasts 
+
+ White Papers 
+
+ Computerworld Reports 
+
+ Zones 
+
+ Application Grid 
+
+ Mobile Security 
+
+ Mobility 
+
+ Software 
+
+ Virtualization 
+
+ Case Study Library 
+
+ RSS Feeds 
+
+ Events 
+
+ Face to Face 
+
+ Leadership 
+
+ Awards 
+
+ Storage 
+
+ Mobile 
+
+ Data Center 
+
+ BI 
+
+ SaaS 
+
+ Green IT 
+
+ Honors 
+
+ Sponsorship 
+
+ Virtual 
+
+ IT Innovations Forum - May 2009 
+
+ Virtualization Directions - April 2009 
+
+ Enterprise Architecture - March 2009 
+
+Industry
+
+ Automotive 
+
+ Defense/Aerospace 
+
+ Energy/Utilities 
+
+ Financial 
+
+ Health Care 
+
+ Retail 
+
+ Transportation 
+
+ Travel 
+
+ Manufacturing 
+
+ Small Enterprise 
+
+ This Week in Print 
+
+ Print Subscriptions 
+
+resource center
+
+ IBM Servers for SMBs 
+Call Today & Ask About Our Wide Range of Powerful IBM Servers for Your SMB.
+
+ MSIT From Florida Tech - Online 
+Earn Your Master's Degree From an Accredited University - 100% ONLINE!
+
+ Free Forrester Risk Management Report 
+Demystifying Enterprise Risk Management. Download Free With Registration.
+
+ Download Microsoft Visual Studio ® Team System 
+Streamline Dev processes, Reduce time to market. Try Microsoft Visual Studio Team System, FREE!
+
+ HP Promotions & Rebates for Desktops 
+New SYNNEX exclusive discounts on select HP desktop parts.
+
+ See your link here 
+
+ Subscribe to our e-mail newsletters 
+For more info on a specific newsletter, click the title. Details will be displayed in a new window.
+
+ Hardware 
+
+ Computerworld Daily News (First Look and Wrap-Up) 
+
+ Computerworld Blogs Newsletter 
+
+ The Weekly Top 10 
+
+ More E-Mail Newsletters  
+
+Print edition
+
+ Subscribe to Computerworld 
+40 years of the most authoritative source of news and information for IT leaders.
+
+Transmeta unveils smaller microprocessors
+
+The new processors offer 1-GHz of x86-compatible performance
+
+By Gillian Law
+
+ January 5, 2004 12:00 PM ET 
+
+Recommended
+
+(0)
+
+Digg
+
+Twitter
+
+Share/Email
+
+ IDG News Service - 
+
+ Transmeta Corp. today launched two new Crusoe processors aimed at mobile and embedded-computing product developers. 
+ The Crusoe TM5700 and TM5900 microprocessors, half the size of previous versions, offer up to 1 GHz of clock speed and are available in a package that's 21mm by 21mm, Transmeta said. That's half the size of the TM5800 Crusoe notebook chip, although the new hardware retains the same low heat-dissipation characteristics that earlier chips had. 
+ The company hopes the small size will be useful in set-top boxes, thin clients, blade servers, portable consumer products and other small, fanless products where size and heat issues are important. 
+ Like earlier Crusoe processors, the new versions offer an integrated Northbridge, which communicates with the processor using the front-side bus and controls interaction with memory, the Peripheral Component Interconnect (PCI) bus, the Level 2 cache and the Accelerated Graphics Port. 
+ The new processors offer 1 GHz of x86-compatible performance, equivalent to the fastest TM5800 version now available; integer and floating-point execution units; separate 64KB instruction and data caches; a 512KB (for the TM5900) or 256KB (for the TM5700) L2 write-back cache; a 64-bit double data rate synchronous dynamic RAM memory controller; and a 32-bit PCI controller, Transmeta said. 
+ "Transmeta has run into customer concerns over performance with the TM5800, for example in Hewlett-Packard's TC100 tablet. Users expect more performance than Transmeta has been able to deliver," said Peter Kastner, executive vice president and chief research officer at Aberdeen Group Inc. in Boston. Kastner had not been briefed about the new, embedded version of the Crusoe processor but said the power of the processors to date has "not been good enough for many of today's applications." 
+ A motherboard evaluation/reference platform based on the TM5900 processor will be available in the first quarter of the year, Transmeta said. It will include schematics, design guides, processor specifications and device drivers needed to evaluate product designs. 
+ Santa Clara, Calif.-based Transmeta wasn't immediately available to comment on prices.
+
+ Sign up for the Computerworld Daily newsletter. 
+
+Reprinted with permission from
+
+ --> IDG.net 
+Story copyright 2009 International Data Group. All rights reserved.
+
+ Recommend 
+
+ Digg 
+ Twitter 
+ ShareThis 
+
+ Email 
+ Print 
+ Send Feedback 
+
+ Reprints 
+
+Additional Resources
+
+WEBINAR
+
+ What Are 'Free' Remote Support Tools Really Costing You? 
+
+In this webinar from LogMeIn, discover how "next generation"
+remote support tools are optimized to provide advanced capabilities like
+scripting, system diagnostics and smartphone support are empowering IT
+technicians to solve more issues, more quickly, for more end users. Live
+Broadcast June 11th, 2 PM ET. Register now! 
+
+WHITE PAPER
+
+ For Best Results, Think Beyond the Box 
+
+Technology is complex. Keeping it running productively shouldn't 
+be. To that end, you want to minimize the number of solutions needed 
+in-house to simplify operations, maintenance, and support. Kodak offers a 
+best-practices model. One company provides support for both scanner and 
+software, for fast problem resolution without vendor finger-pointing. Download now! 
+
+WHITE PAPER
+
+ Accelerating the Path to Demand Intelligence with a Demand Signal Repository 
+
+Utilizing demand intelligence improves the precision of pricing,
+product assortments, channel/store placement, and promotion, which are all
+essential for sustainable revenue management performance. Learn more,
+ download this free whitepaper today. 
+
+White Papers & Webcasts
+
+ Hidden Cash: Maximizing the Value of Surplus Technology in a Down Economy 
+
+ (Source: NHR) In today's tightened economy, all major technology purchases are being carefully scrutinized to ensure that each new piece of hardware and...
+
+ 5 Best Practice Tips for Managing BlackBerry, iPhone, & Windows Mobile Devices 
+
+ (Source: Zenprise) Mobile devices continue to proliferate across the enterprise, driven largely by the increase in worker productivity, efficiency, and flexibility they provide....
+
+ Your Network at Half the Price: Slash Network Hardware Costs With Pre-Owned Equipment 
+
+ (Source: NHR) Pre-owned networking equipment is certainly less expensive than the new variety, but IT managers are often challenged to know when and...
+
+ Best Practices for Managing Business Risks from the Use of IT 
+
+ (Source: Symantec) Based on exhaustive benchmarks conducted by the IT Policy Compliance, this session highlights the relationship between business risks and use of...
+
+ Impact of the Dramatic Increase in Devices on the Cost to Support 
+
+ (Source: Dell) This white paper describes the challenges that CIOs will face in coming years due to a dramatic increase in the number...
+
+ Why Compliance Pays 
+
+ (Source: Symantec) This OnDemand webcast explores the relationship that firms with best compliance records have higher revenue, greater customer retention, lower financial losses...
+
+ Instant download of E-Book Virtualization for Dummies. 
+
+ There's so much more to virtualization, and it is all explained in astonishingly simple terms in this special edition of Virtualization for Dummies....
+
+ Four Principles for Reducing Storage TCO 
+
+ (Source: Hitachi Data Systems) Difficult economic times require new strategies for reducing costs. Where storage technology and economics meet, there are...
+
+ Help Customers Preserve and Share Memories 
+
+ (Source: Kodak) As digital cameras became more and more prevalent, many photofinishers bemoaned the demise of their traditional film and processing business model....
+
+ Technical Web Training: How Interactive Viewer Reduces the Effort to Meet Visualization Requirements 
+
+ (Source: Actuate) Meet data visualization requirements faster and with less development by making Business Intelligence Reporting Tools (BIRT) web output interactive....
+
+ All White Papers | All Webcasts 
+
+Computerworld Reports
+
+ Computerworld Technology Briefing: Application Consolidation 
+
+ Computerworld Technology Briefing: Intelligent Users Use Business Intelligence 
+
+ An Apple for Your Enterprise? 
+
+ All Computerworld Reports 
+
+ Sign up to receive updates on the latest Hardware resources 
+
+Research from ITwhitepapers.com
+
+ Document Security - the protection of confidential information from intellectual property theft 
+ The Austin Diagnostic Clinic had to protect confidential information contained in their management documents... 
+
+ Topgrading: How Leading Companies Win by Hiring, Coaching, and Keeping the Best People 
+ In this summary, you will learn how leading companies have embraced topgrading, a practical approach to the... 
+
+ Don't get caught with egg on your face! 
+ "Virtualization can be like putting all your eggs in one basket.  Ensure you have a resilient... 
+
+ More from ITwhitepapers.com 
+
+IT Jobs
+
+ CIO 
+ Storrs, CT  University of Connecticut 
+
+ Java / J2EE Developer 
+ Fairfax, VA 
+
+ Perl Web Developer - only permanent r... 
+ Nashville, TN  TEAM International 
+
+ Java/Flex Developers 
+ New York, NY  Major Financial Services Firm 
+
+ More Jobs  |  Post A Job 
+
+White Papers
+
+ Hidden Cash: Maximizing the Value of Surplus Technology in a Down Economy 
+
+ Impact of the Dramatic Increase in Devices on the Cost to Support 
+
+ Help Customers Preserve and Share Memories 
+
+ Digitize More Memories with the Kodak's Photo Scanning System 
+
+ Get a More Complete Picture of Patient Health 
+
+ An Interactive eBook: Enterprise Security 
+
+ IT Compliance Interactive Tools 
+
+ Solution Overview: Symantec Control Compliance Suite 9.0 
+
+ Information Security Brief by Enterprise Strategy Group 
+
+ EMA's 2008 Survey of IT Governance, Risk and Compliance Management in the Real World 
+
+ Your Network at Half the Price: Slash Network Hardware Costs With Pre-Owned Equipment 
+
+ Instant download of E-Book Virtualization for Dummies. 
+
+ For Best Results, Think Beyond the Box 
+
+ Media Buying Agency Reduces Paper and Storage Needs 
+
+ Deliver Optimal Service Quality 
+
+ IT Best Practices: To Support or Not Support Consumer Owned Smartphones 
+
+ Symantec Security Compliance Brochure 
+
+ Improving Results for Legal Custody of Information 
+
+ Risk Readiness and Redundancy: PCI Compliance Automation 
+
+ Managing Spend on Information Security and Audit for Better Results 
+
+Sponsored Links
+
+ Enhance your career with a Boston University online Masters in CIS 
+
+ Teradata Appliances: New affordable appliances from category leader. 
+
+ Learn How to Create a High Performance Workplace 
+
+ Upgrade to Internet Explorer 8 today. Save time and mitigate security risk. Deploy it now. 
+
+ Thrill Dad this Fathers Day and save up to 66% plus 4 FREE Caramel Apple Tartlets from Omaha Steaks. 
+
+ Network Tools Made By Engineers for Engineers 
+
+ Hitachi IT Operations Analyzer - 30-day free trial 
+
+ FREE Virtualization e-Learning Collection ($159.99 USD value) 
+
+ Deploy faster with Sun's Agile, Modular ESB Platform. 
+
+ Join the conversation about the hottest IT trends with Computerworld on Twitter. 
+
+ With the NEW KODAK i700 Series Scanners get full speed at 300dpi! 
+
+ 64-page prescriptive guide to security, compliance, and IT operations. 
+
+ Join us in Computerworld's Inner Circle and receive free research reports. 
+
+ ITwhitepapers.com - Access thousands of white papers on 300+ technical topics. 
+
+ Leverage Your Cisco infrastructure for Superior Application Performance 
+
+ Learn about the AMD Virtual Experience 
+
+ Introducing: Project Icebreaker 
+
+ HP StorageWorks products-control, consolidation and confidence. 
+
+ Introducing the new HP ProLiant G6 server family 
+
+ Control your virtual infrastructure with vWire. 
+
+ Find IT jobs in the Healthcare industry on Dice.com 
+
+ Live Webinar: vSphere & DoubleTake Software: Optimize while you Virtualize 
+
+ Now is the time. Spend less, do more with JBoss. 
+
+ ESET NOD32 with ThreatSense(R) - Get your free trial now! 
+
+ Live Webcast: Building a More Productive Organization  A User Perspective 
+
+ Payback in 9 months with CA Spectrum solutions 
+
+ Combine your communications with Converged Solutions from Sprint. 
+
+ Get business users off your back: Crystal Reports free trial 
+
+ The Planet Storage Cloud: faster access, better prices 
+
+ Create business data you can believe in with data governance 
+
+ Not All QSAs Are Created Equal: What You Should Know Before You Buy 
+
+ The arrival of Serial Attached SCSI (SAS) marks a new era in storage scalability 
+
+ The AMD Virtual Experience Virtual Trade Show 
+
+ About Us 
+ Advertise 
+ Contacts 
+ Editorial Calendar 
+ Help Desk 
+ Jobs at IDG 
+ Privacy Policy 
+ Reprints 
+ Site Map 
+
+ CIO 
+ Computerworld 
+ CSO 
+ DEMO 
+ GamePro 
+ Games.net 
+ IDC 
+ IDG 
+ IDG Connect 
+ IDG Knowledge Hub 
+ IDG TechNetwork 
+ IDG Ventures 
+
+ IDG.net 
+ IDG World Expo 
+ InfoWorld 
+ ITwhitepapers 
+ ITworld 
+ JavaWorld 
+ LinuxWorld 
+ MacUser 
+ Macworld 
+ Network World 
+ PC World 
+ The Industry Standard 
+ Playlist 
+
+ Copyright © 1994 - 2009 Computerworld Inc. All
+rights reserved. Reproduction in whole or in part in any form or medium
+without express written permission of
+Computerworld Inc. is prohibited.
+Computerworld and Computerworld.com and the respective logos are
+trademarks of International Data Group Inc.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | transmeta-crusoe-tm5700-tm5900-computerw-455262 |
+| title | Transmeta unveils smaller microprocessors (Crusoe TM5700/TM5900 launch) |
+| author | Gillian Law |
+| date | 2004-01-05 |
+| type | news-article |
+| subject_domain | low-power-x86-Transmeta-Crusoe-embedded-2004 |
+| methodology | news-reporting, product-launch-coverage |
+| source_file | Transmeta-unveils-smaller-microprocessors-8.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+IDG News Service report (via Computerworld) on Transmeta's launch of the Crusoe TM5700 and TM5900 x86-compatible processors at 1 GHz in a 21mm-by-21mm package — half the size of the TM5800 — targeting set-top boxes, thin clients, blade servers, portable consumer products. 512KB (TM5900) or 256KB (TM5700) L2 cache, 64-bit DDR SDRAM controller, 32-bit PCI controller, integrated Northbridge. Kastner (Aberdeen EVP/CRO) flags ongoing TM5800 performance complaints (HP TC100 tablet example): 'not been good enough for many of today's applications.'
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Captures Transmeta's strategic pivot toward embedded/size-constrained markets after desktop/notebook failure, and Kastner's prescient performance critique that presaged Transmeta's 2009 dissolution. |
+| **Relevance** | medium | Historical record of an important low-power-x86 pioneer; some design concepts (code-morphing, low-TDP x86) foreshadowed Intel Atom and ARM-based laptops. |
+| **Prescience** | high | Kastner's 'not good enough for many of today's applications' assessment and 'customer concerns over performance' framing accurately predicted Transmeta's market trajectory — company exited processor business 2005, sold IP and ceased operating by 2009. The performance-deficit thesis fully validated. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Motherboard reference platform Q1 2004
+- **Claimed:** Reference platform based on TM5900 available in Q1 2004 with schematics, design guides, processor specifications, device drivers
+- **Year:** 2004
+- **Confidence at time:** medium
+
+**Actual Outcome 1:** Did Transmeta survive Kastner's performance critique
+- **Result:** No — Transmeta exited processor business 2005 (focused on IP licensing after Efficeon losses), sold IP assets to Novafora 2008, ceased operating 2009. Performance and design-win shortfalls validated Kastner's 'not good enough' thesis.
+- **Confidence:** verified
+- **Notes:** Full validation of Kastner's critique
+
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Transmeta Corporation | company | dissolved | IP sold to Novafora 2008; wound down 2009 |
+| Aberdeen Group | firm | acquired | Harte-Hanks -> Spiceworks Ziff Davis |
+| Peter S. Kastner | person | active |  |
+| Hewlett-Packard | company | split | HP Inc. + HPE (2015) |
+| Gillian Law | person | active |  |
+| IDG News Service | company | acquired | IDG Inc. -> Blackstone 2017 -> Foundry Holdings |
+| Computerworld (US) | company | active | acquired IDG Inc. -> Blackstone 2017 -> Foundry |
+
+### Technologies Referenced (10)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Transmeta Crusoe TM5700 | platform | Transmeta | emerging | legacy-discontinued |
+| Transmeta Crusoe TM5900 | platform | Transmeta | emerging | legacy-discontinued |
+| Transmeta Crusoe TM5800 | platform | Transmeta | mature | legacy-discontinued |
+| Transmeta Code Morphing Software | framework | Transmeta | mature | legacy-discontinued |
+| x86-compatible low-power processor category | platform | Transmeta/Via/Intel/AMD | emerging | mature |
+| Set-top box / embedded computing | platform | multiple | mature | mature |
+| Thin client computing | platform | Wyse/HP/Citrix | mature | mature |
+| Blade server (2004-era) | platform | IBM/HP/Dell | emerging | mature |
+| 64-bit DDR SDRAM memory controller | platform | industry | current | mature |
+| 32-bit PCI controller | protocol | PCI-SIG | mature | legacy-replaced-by-PCIe |
+
+### Observation Summary
+
+- Total observations: 8
+- By type: market-data: 2, classification: 2, expert-opinion: 2, viability-prediction: 1, actual-outcome: 1

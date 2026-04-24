@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks -> Spiceworks Ziff Davis","1988-present","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Publisher of 'The Urban Wi-Fi Crash of 2004' report"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1980s-present","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Senior analyst at Boston-based Aberdeen; author of report cited"
+"eweek","eWEEK","company","tech-media","active","acquired by QuinStreet 2012, now TechnologyAdvice","1984-present","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Publisher of this article"
+"wi-fi-alliance","Wi-Fi Alliance","institution","standards-body","active","","1999-present","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Industry body for 802.11 certification"
+"ieee-80211-wg","IEEE 802.11 Working Group","institution","standards-body","active","","1990-present","urban-wifi-gridlock-eweek-2003-kastner-r-2e0114","Core standards body for Wi-Fi"

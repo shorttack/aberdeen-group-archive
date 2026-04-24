@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Transmeta unveils smaller microprocessors (Crusoe TM5700/TM5900 launch)",
+  "description": "IDG News Service report (via Computerworld) on Transmeta's launch of the Crusoe TM5700 and TM5900 x86-compatible processors at 1 GHz in a 21mm-by-21mm package \u2014 half the size of the TM5800 \u2014 targeting set-top boxes, thin clients, blade servers, portable consumer products. 512KB (TM5900) or 256KB (TM5700) L2 cache, 64-bit DDR SDRAM controller, 32-bit PCI controller, integrated Northbridge. Kastner (Aberdeen EVP/CRO) flags ongoing TM5800 performance complaints (HP TC100 tablet example): 'not been good enough for many of today's applications.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Gillian Law"
+  },
+  "datePublished": "2004-01-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

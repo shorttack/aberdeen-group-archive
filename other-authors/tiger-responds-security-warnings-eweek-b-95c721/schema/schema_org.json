@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tiger Responds to Security Warnings",
+  "description": "eWEEK article reporting Mac OS X 10.4 'Tiger' launch features (Kerberos VPN, stealth-mode firewall, Safe Downloads, secure virtual memory) in the context of analyst warnings that Apple's rising market share will attract more attackers. Kastner (Vericours Inc. director) cites the Symantec Internet Security Threat Report figure of 37/1,403 new vulnerabilities involving Apple in H2 2004 and argues severity and organizational impact remain much lower than Microsoft's.",
+  "creator": {
+    "@type": "Person",
+    "name": "Ian Betteridge"
+  },
+  "datePublished": "2005-04-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

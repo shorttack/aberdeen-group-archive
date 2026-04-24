@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mac-os-x-tiger","Mac OS X 10.4 (Tiger)","platform","Apple","2005-2007","current","legacy-end-of-life","tiger-responds-security-warnings-eweek-b-95c721","Shipped April 29, 2005; subject of this article"
+"kerberos","Kerberos authentication protocol","protocol","MIT","1980s-present","mature","mature","tiger-responds-security-warnings-eweek-b-95c721","Tiger added VPN support based on Kerberos"
+"mac-os-x-firewall-stealth","Mac OS X Stealth-mode firewall","application","Apple","2005-present","current","current","tiger-responds-security-warnings-eweek-b-95c721","Prevents responses to uninvited traffic"
+"safe-downloads","Safe Downloads (Mac OS X Tiger)","application","Apple","2005-present","emerging","current","tiger-responds-security-warnings-eweek-b-95c721","Precursor to modern Gatekeeper; warns on untrusted file sources"
+"mac-os-x-secure-vm","Mac OS X Secure Virtual Memory","application","Apple","2005-present","current","current","tiger-responds-security-warnings-eweek-b-95c721","Encrypts swap; prevents inter-user read"
+"opener-renepo","Opener / Renepo malware","application","unknown-author","2004","emerging","legacy-historical","tiger-responds-security-warnings-eweek-b-95c721","First Mac OS X malware, discovered by Sophos 2004"
+"windows-os-family","Microsoft Windows OS family","platform","Microsoft","1985-present","mature","mature","tiger-responds-security-warnings-eweek-b-95c721","~97% market share per Connell; primary attack target"

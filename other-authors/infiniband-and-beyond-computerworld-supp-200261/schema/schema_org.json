@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "To InfiniBand and beyond, cry firms",
+  "description": "Computerworld Australia feature on InfiniBand, a next-generation data-center interconnect operating at 2.5-10 Gbps (scaling to 30 Gbps) backed by 150+ firms in the InfiniBand Trade Association including IBM, Intel, Microsoft, Sun, and Dell. Draws on Aberdeen Group's 'InfiniBand Architecture: Planning the Next Generation Data Centre' white paper. Kastner (Aberdeen EVP/CRO) predicts InfiniBand 'will replace TCP/IP as the high-speed, server-to-server interconnect technology' with ISPs, ASPs and large web sites as initial targets.",
+  "creator": {
+    "@type": "Person",
+    "name": "Carly Suppa"
+  },
+  "datePublished": "2002-08-13",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

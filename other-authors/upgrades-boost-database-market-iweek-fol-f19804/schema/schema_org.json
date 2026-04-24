@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Upgrades Boost Database Market (data mining and SGI-IBM rivalry)",
+  "description": "InformationWeek (Issue 575) reporting Silicon Graphics' data-mining entry against IBM at DB Expo, San Francisco. Context: Sybase and Informix warned on Q1 1996 revenue, triggering double-digit share-price declines (Informix -28% in one day). Kastner (Aberdeen Group analyst) calls the sell-off 'a wrong conclusion' from individual situations \u2014 argues database leaders remain solid double-digit growers. Oracle then reassured analysts, sparking database-stock rebound.",
+  "creator": {
+    "@type": "Person",
+    "name": "John Foley"
+  },
+  "datePublished": "1996-04-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

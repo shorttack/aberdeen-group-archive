@@ -548,7 +548,7 @@ This study did not make forward-looking claims.
 | Sequent Computer Systems Inc. | company | acquired | IBM (1999, $810M) |
 | Peter S. Kastner | person | active |  |
 | Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
-| Tanveer Khan | person | unknown |  |
+| Tanveer Khan | person | active |  |
 
 ### Technologies Referenced (5)
 

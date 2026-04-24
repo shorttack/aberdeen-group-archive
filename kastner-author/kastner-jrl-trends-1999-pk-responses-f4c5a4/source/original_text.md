@@ -130,7 +130,7 @@ Internal Aberdeen-era memo: a list of 9 trends for 1999 compiled by 'JRL' (likel
 | Lotus Development Corporation | company | acquired | IBM (1995) |
 | Amazon.com | company | active |  |
 | Crossworlds Software | company | acquired | IBM (2001) |
-| Oberon Software | company | unknown |  |
+| Oberon Software | company | acquired | OnDisplay (Jan 2000, $181M stock swap); subsequently Vignette (2000), Open Text (2009) |
 | Remedy Corporation | company | acquired | Peregrine (2001); BMC (2002) |
 
 ### Technologies Referenced (20)

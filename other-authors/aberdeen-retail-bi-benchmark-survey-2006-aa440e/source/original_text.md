@@ -408,7 +408,7 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
-| Paula Rosenblum | person | unknown |  |
+| Paula Rosenblum | person | active |  |
 | Integrated Solutions for Retailers (ISR) | company | active |  |
 | RIS News | company | active |  |
 

@@ -1396,7 +1396,7 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
-| Perry Donham | person | unknown |  |
+| Perry Donham | person | active |  |
 
 ### Technologies Referenced (3)
 

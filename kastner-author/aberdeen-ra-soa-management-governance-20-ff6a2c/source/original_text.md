@@ -2,7 +2,7 @@
 
 > Archived from: RA_SOAGov_3944_PKRS_040307a-8.pdf
 > Original publication date: 2007-03-01
-> Author: Peter S. Kastner and Russ Craig (Aberdeen Group)
+> Author: Peter S. Kastner and Rick Saia (Aberdeen Group)
 
 ---
 
@@ -1373,7 +1373,7 @@ Reader Guide available from the Help menu.
 |-------|-------|
 | study_id | aberdeen-ra-soa-management-governance-20-ff6a2c |
 | title | Management and Governance: Planning for an Optimized SOA Application Lifecycle |
-| author | Peter S. Kastner and Russ Craig (Aberdeen Group) |
+| author | Peter S. Kastner and Rick Saia (Aberdeen Group) |
 | date | 2007-03-01 |
 | type | benchmark-report |
 | subject_domain | soa-management-governance-application-lifecycle |
@@ -1383,7 +1383,7 @@ Reader Guide available from the Help menu.
 
 ### Abstract
 
-Aberdeen Group benchmark report co-authored by Peter Kastner and Russ Craig (PKRS) examining the effectiveness of IT investments across operations management; design and operations governance; and underlying changes in project management, development, testing, and application lifecycle management tools for SOA. Survey of 200+ companies (Nov 2006-Jan 2007) finds that between a third and half of the 950 companies surveyed in 2006 are having serious difficulties getting SOA-enabled applications into stable deployment, with inadequate management/governance tools the predominant cause. Best-in-Class (top 20%) characteristics: 33% have >2 years SOA experience; 68% achieve positive SOA ROI vs. 77% of overall sample yet to see payback; design-time governance and re-use policy implemented; 80%+ have automated SOA operations and governance solutions.
+Aberdeen Group benchmark report co-authored by Peter Kastner and Rick Saia (PKRS) examining the effectiveness of IT investments across operations management; design and operations governance; and underlying changes in project management, development, testing, and application lifecycle management tools for SOA. Survey of 200+ companies (Nov 2006-Jan 2007) finds that between a third and half of the 950 companies surveyed in 2006 are having serious difficulties getting SOA-enabled applications into stable deployment, with inadequate management/governance tools the predominant cause. Best-in-Class (top 20%) characteristics: 33% have >2 years SOA experience; 68% achieve positive SOA ROI vs. 77% of overall sample yet to see payback; design-time governance and re-use policy implemented; 80%+ have automated SOA operations and governance solutions.
 
 ### Document Assessment
 
@@ -1391,7 +1391,7 @@ Aberdeen Group benchmark report co-authored by Peter Kastner and Russ Craig (PKR
 |-----------|--------|-----------|
 | **Importance** | high | Kastner co-authored Aberdeen benchmark of an emerging mid-2000s discipline (SOA governance) that became the foundation of modern API governance, service-mesh policy enforcement, and software-supply-chain management. |
 | **Relevance** | high | Design-time governance, re-use policy, and automated lifecycle/governance tools remain central to API and microservices platforms a decade later. |
-| **Prescience** | high | Kastner and Craig's central claim — that SOA management and governance are inseparable from total software lifecycle costs and that the Best-in-Class invest early in automation — was fully validated by the API gateway, service mesh, and platform-engineering movements of the 2015-2025 period. The 'collar IT with long-term software maintenance costs that will endure for decades' warning is now the central rationale for modern platform-engineering investment. |
+| **Prescience** | high | Kastner and Saia's central claim — that SOA management and governance are inseparable from total software lifecycle costs and that the Best-in-Class invest early in automation — was fully validated by the API gateway, service mesh, and platform-engineering movements of the 2015-2025 period. The 'collar IT with long-term software maintenance costs that will endure for decades' warning is now the central rationale for modern platform-engineering investment. |
 
 ### Prescience Detail
 
@@ -1403,7 +1403,7 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
 | Peter S. Kastner | person | active |  |
-| Russ Craig | person | unknown |  |
+| Rick Saia | person | active |  |
 | Mindreef, Inc. | company | acquired | Progress Software (2008) |
 
 ### Technologies Referenced (6)

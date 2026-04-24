@@ -1,0 +1,66 @@
+SOURCE: RA_SecureSOA_SQ_030706b-7.pdf
+
+© 2005 AberdeenGroup, Inc. 
+Telephone: 617 723 7890 
+260 Franklin Street 
+Fax: 617 723 7897 
+Boston, Massachusetts 02110-3112 
+www.aberdeen.com 
+ 
+ 
+The Secure Service-Oriented Architecture Benchmark Report 
+ 
+Business Value Point of View: 
+ 
+ervice Oriented Architecture (SOA) creates business 
+benefits within an existing application infrastructure. 
+An SOA platform restructures the business value 
+chain, which creates new pressures for secure business proc-
+ess flow control, metadata management, and service man-
+agement within companies and between partner organiza-
+tions.  
+ 
+This report will reveal the technologies and solutions or-
+ganizations use to secure SOA. Key findings of this report 
+will provide insights into:  
+ 
+ 
+The secure SOA technology solutions and ap-
+proaches used by organizations to facilitate change, 
+shared services, and federated identity 
+ 
+How to secure a loosely-coupled SOA architecture without tradeoffs in usability and access 
+ 
+The importance of standards and out-of-the box integration for a secure SOA platform 
+ 
+The connection between secure SOA and operation management and governance 
+ 
+Research approach: The research methodology consists of a broad-based survey of enterprises 
+either using or considering the purchase technologies to address risk management as well as inter-
+views with end-users and IT vendors.  
+Our research network reach: This study will be marketed to Aberdeen’s online community of 
+Global 5000 executives and decision-makers, in addition to Aberdeen’s affiliate research channel 
+partners, with a total reach in excess of one million value chain executives. 
+End-user audience: Target readers include CIOs, CSOs, CROs, CTOs, corporate executives, IT 
+managers, system architects, and information technology managers. 
+ 
+Time frame: 2Q06 
+Lead analyst: Stacey Quandt, Research Director, Security Solutions and Services       
+ 
+Our Promise to Research Sponsors 
+√ Uncompromised integrity through 
+fact-based research only 
+√ Demand creation and closed deals 
+delivered through highly qualified leads 
+for two months 
+√ Market validation and impact with the 
+business value of technology 
+√ Sales acceleration through prospect 
+education on delivered business value 
+√ Sales force effectiveness delivered 
+through “Results and Impact” workshop 
+√ Enhanced brand awareness as 
+a thought leader by logo and directory 
+representation on the report 
+ 
+S

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-management-governance","SOA Management and Governance","category","industry","2005-2015","growth","evolved-to-api-governance","aberdeen-ra-soa-management-governance-20-ff6a2c","Operations + design-time governance category"
+"design-time-governance","Design-Time Governance","discipline","industry","2005-present","growth","active","aberdeen-ra-soa-management-governance-20-ff6a2c","Pre-deployment policy + re-use enforcement"
+"operational-governance","Operational SOA Governance","discipline","industry","2005-2015","growth","evolved-to-service-mesh","aberdeen-ra-soa-management-governance-20-ff6a2c","Runtime policy enforcement + monitoring"
+"application-lifecycle-management","Application Lifecycle Management (ALM)","category","industry","2000s-present","growth","active","aberdeen-ra-soa-management-governance-20-ff6a2c","Integrated PM + dev + test + ops tooling"
+"aberdeen-pace-framework","Aberdeen PACE Framework","methodology","Aberdeen Group","1990s-2010s","active","legacy","aberdeen-ra-soa-management-governance-20-ff6a2c","Pressures-Actions-Capabilities-Enablers benchmarking"
+"soapscope-mindreef","Mindreef SOAPscope / SOAPscope Server","tool","Mindreef","2003-2008","mature","discontinued","aberdeen-ra-soa-management-governance-20-ff6a2c","SOA prototyping/compliance/testing/diagnostics tool; 1,200+ orgs / 3,000+ customers"

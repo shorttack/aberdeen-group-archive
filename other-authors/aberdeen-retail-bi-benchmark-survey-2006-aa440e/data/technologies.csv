@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"retail-business-intelligence","Retail Business Intelligence","category","industry","2000-present","growth","active","aberdeen-retail-bi-benchmark-survey-2006-aa440e","BI category specialized for retail KPIs"
+"predictive-analytics","Predictive Analytics","category","industry","2000s-present","early-mainstream","active","aberdeen-retail-bi-benchmark-survey-2006-aa440e","Forward-looking analytics distinguished from historical reporting"
+"retail-scorecarding","Retail Enterprise Scorecarding","discipline","industry","2000s-2010s","growth","evolved","aberdeen-retail-bi-benchmark-survey-2006-aa440e","Cross-functional KPI tracking framework"

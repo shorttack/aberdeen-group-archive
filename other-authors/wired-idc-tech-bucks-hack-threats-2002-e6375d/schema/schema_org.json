@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Tech Bucks Trend, Hack Threats Up",
+  "description": "Wired covers IDC's 2003 IT-spending forecast (6% growth) and competing analyst views. Aberdeen Group's Peter Kastner counters that 6% IT growth is 'totally unsustainable in this economy,' placing his own forecast at 3%. The article also covers IDC's ten-trend list including security, wireless networking, and tech as utility.",
+  "creator": {
+    "@type": "Person",
+    "name": "Wired staff"
+  },
+  "datePublished": "2002-12-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

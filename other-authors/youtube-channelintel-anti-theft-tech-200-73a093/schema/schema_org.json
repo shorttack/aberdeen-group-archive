@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Industry Analysts Discuss Benefits of Intel Anti-Theft Technology (YouTube/channelintel)",
+  "description": "Intel's channelintel YouTube channel hosts a 2008-era promotional video featuring industry analysts (Peter Kastner among the named tags) discussing Intel Anti-Theft Technology as an important milestone for notebook PC theft deterrence. The webarchive captures only the page metadata, description, and tag list; the video content itself is not in the saved page text. Importance is documentary \u2014 it establishes Kastner as an Intel-recognized analyst voice on Centrino 2 vPro / AT-d circa 2008.",
+  "creator": {
+    "@type": "Person",
+    "name": "channelintel (Intel Corporation)"
+  },
+  "datePublished": "2008-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

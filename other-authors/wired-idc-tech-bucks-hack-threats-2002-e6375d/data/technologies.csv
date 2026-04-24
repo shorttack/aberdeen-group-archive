@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"it-security","IT Security","category","various","1990s-present","growth","active","wired-idc-tech-bucks-hack-threats-2002-e6375d","Identified by IDC as a 2003 priority"
+"wireless-networking","Wireless Networking (Wi-Fi)","category","various","2000-present","growth","mature","wired-idc-tech-bucks-hack-threats-2002-e6375d","IDC trend for 2003"
+"utility-computing","Utility / On-Demand Computing","paradigm","various","2002-present","early","evolved-to-cloud","wired-idc-tech-bucks-hack-threats-2002-e6375d","IDC framed as multi-year trend; precursor to cloud computing"

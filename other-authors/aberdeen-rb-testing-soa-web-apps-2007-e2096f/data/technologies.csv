@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-testing","SOA Testing / QA","category","industry","2005-2015","growth","evolved-to-contract-testing","aberdeen-rb-testing-soa-web-apps-2007-e2096f","Enterprise testing of service-oriented applications"
+"integration-testing","Integration Testing","discipline","industry","1990s-present","growth-in-soa-context","active","aberdeen-rb-testing-soa-web-apps-2007-e2096f",""
+"orchestration-testing","Orchestration Testing (BPEL/workflow)","discipline","industry","2005-2015","growth","evolved","aberdeen-rb-testing-soa-web-apps-2007-e2096f","Workflow/BPEL composition testing"
+"versioning-testing","Service Versioning / Compatibility Testing","discipline","industry","2005-present","growth","active","aberdeen-rb-testing-soa-web-apps-2007-e2096f","Backward-compatibility testing across service versions"
+"performance-testing","Performance/Load Testing","discipline","industry","1990s-present","mature","active","aberdeen-rb-testing-soa-web-apps-2007-e2096f",""

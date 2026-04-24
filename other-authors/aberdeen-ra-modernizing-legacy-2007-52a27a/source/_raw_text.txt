@@ -1,0 +1,1345 @@
+SOURCE: RA-modernizing-legacy-2007-q2-10.pdf
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+ 
+ 
+June 2007 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+— Underwritten, in Part, by — 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 2 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Executive Summary 
+ 
+“We are going from 12,000 
+applications to hundreds of 
+services using an SOA. The 
+lifecycle cost savings are already 
+flowing through in lower 
+maintenance costs and faster 
+development cycles. This is turning 
+into a major win for the business, 
+not just IT.” 
+~ VP, Financial Services
+IT is under intense pressure to provide new ways for the business to access 
+data and functionality runnning on legacy platforms. Legacy code often 
+embodies the core processes of the company, and simply rewriting it is both 
+prohibitively expensive and disruptive. In many cases, the best thing to do 
+both from a performance and cost standpoint is to leave the legacy code 
+alone. 
+Organizations that are SOA-enabling their legacy applications on the legacy 
+platform are outperforming those that are using any other approach. They 
+report better productivity, higher agility, and lower costs for legacy 
+integration projects. 
+Best in Class Performance 
+Four key performance indicators (KPIs) were used to identify those 
+companies that are succeeding in their legacy modernization efforts, 
+Aberdeen’s Best In Class (BIC): 
+• 
+Overall cost of legacy integration projects 
+• 
+Number of new applications delivered that are based on legacy 
+applications 
+• 
+Time-to-value for customer-facing projects 
+• 
+Agility of IT in responding to new business requirements 
+Competitive Maturity Assessment 
+Each organization tailors its approach to legacy modernization based on 
+their application portfolio. The Best In Class in this study understand that 
+modernization projects are not just about technology; they also require 
+changes to key processes.  
+The typical Best In Class organization: 
+• 
+Uses automation to extract business logic from legacy applications 
+(61%) 
+• 
+Is SOA-enabling their legacy applications on the legacy platform 
+(33%) 
+• 
+Is using SOA to increase the agility of the IT department in 
+responding to new business requirements (40%) 
+• 
+Has planned for the unique challenges of testing legacy application 
+integration by putting new test processes into place (61%) 
+• 
+Has SLAs in place for legacy interfaces (63%) 
+• 
+Sees their legacy modernization projects as a long-term solution 
+(91%) 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 3 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Required Actions  
+Legacy modernization projects touch core components of your business. 
+Take these steps to minimize the risk and maximize the investment: 
+• 
+Automate. Most legacy applications are a mix of data and logic, 
+and the interfaces are often not clearly defined. Using automated 
+tools to extract business logic and data structure will let you focus 
+on solving the business problem. 
+• 
+Plan for test. Best In Class organizations are twice as likely as 
+Industry Average or Laggards to have well-defined test processes 
+for integration testing. 
+• 
+Build a services layer on the mainframe. Exposing legacy 
+packages through a services layer minimizes disruption to the 
+business and reduces risk. 
+ 
+ 
+ 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 4 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Table of Contents 
+Executive Summary.......................................................................................................2 
+Best in Class Performance.........................................................................2 
+Competitive Maturity Assessment...........................................................2 
+Required Actions .........................................................................................3 
+Chapter One: Benchmarking the Best in Class......................................................6 
+Aberdeen Analysis .......................................................................................6 
+Why Enterprises Are Focusing on Legacy Modernization..................7 
+Maturity Class Framework ........................................................................9 
+Best in Class PACE Model.......................................................................10 
+Chapter Two: Benchmarking Requirements for Success..................................11 
+Competitive Assessment..........................................................................11 
+Organizational Capabilities and Technology Enablers .......................13 
+Process.....................................................................................................14 
+Organization...........................................................................................15 
+Knowledge ..............................................................................................16 
+Technology..............................................................................................17 
+Performance ...........................................................................................19 
+Chapter Three:  Required Actions .........................................................................20 
+Laggard Steps to Success..........................................................................20 
+Industry Norm Steps to Success ............................................................20 
+Best in Class Steps to Success ................................................................21 
+Featured Underwriters..............................................................................................22 
+Appendix A:  Research Methodology.....................................................................24 
+Appendix B:  Related Aberdeen Research............................................................27 
+ 
+Figures  
+Figure 1: What Approaches Are Being Used?........................................................6 
+Figure 2: Top drivers for legacy modernization efforts .......................................7 
+Figure 3: Modernization approach reflects organizational drivers....................8 
+Figure 3: Organizational view of modernization..................................................13 
+Figure 4: Best in Class place an emphasis on process........................................14 
+Figure 5: Agreement among departments drives success .................................15 
+Figure 6: Training of developers, analysts, and architects .................................16 
+Figure 7: Technical approaches to legacy modernization..................................17 
+Figure 8: Best In Class see improvements in costs and productivity..............19 
+ 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 5 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Tables 
+Table 1: Companies With Top Performance Earn  “Best-in-Class” Status:....9 
+Table 2: Best-in-Class PACE Framework..............................................................10 
+Table 3: Competitive Framework...........................................................................12 
+Table 4: PACE Framework .......................................................................................25 
+Table 5: Maturity Framework...................................................................................25 
+Table 6: Relationship between PACE and Competitive Framework..............26 
+ 
+ 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 6 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Chapter One: 
+Benchmarking the Best in Class 
+Fast Facts 
+√ 61% of Best In Class 
+organizations report a 
+decrease in the cost of legacy 
+platform maintenance costs 
+√ 70% of Best In Class 
+companies have clearly 
+documented legacy packages 
+and data structures 
+√ 90% of Best In Class see 
+their legacy modernization 
+projects as a long-term, 
+strategic plan 
+Aberdeen Analysis 
+ 
+Legacy applications often contain the organization’s core business 
+functionality and represent large capital investments in both dollars and 
+manpower. Wholesale replacement of these applications is impractical for 
+time and cost reasons.  
+Faced with competing pressures to preserve the investment in legacy 
+applications and platforms, to provide new IT services to support changing 
+business requirements, and to minimize disruption to existing processes, IT 
+typically responds in one of two general ways: 
+• 
+Extend/surround, to provide new interfaces to the legacy 
+application, either on the mainframe or off, in order to open it up to 
+web services or SOA middleware;  
+• 
+Re-host, moving the entire legacy application to a new platform 
+while preserving the existing code base. 
+Figure 1 shows that Best In Class organizations more often choose to leave 
+packages on the legacy platform and use software adapters or a services 
+layer to provide access to other SOA applications.   
+Figure 1: What Approaches Are Being Used? 
+21%
+21%
+19%
+33%
+39%
+33%
+8%
+14%
+33%
+27%
+17%
+15%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+Re-host or migrate code
+Extend with messaging software
+SOA-enable off of the legacy
+platform
+SOA-Enable on the legacy
+platform
+LAG
+AVG
+BIC
+ 
+Source: Aberdeen Group, June 2007 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 7 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Why Enterprises Are Focusing on Legacy 
+Modernization 
+ 
+Agility is at the top of the list for Best In Class organizations trying to 
+bring their legacy applications into a modern architecture. This means 
+the ability to rapidly build services, based on legacy functionality and 
+data, that provide solutions to new business problems. While cost is a 
+consideration, it is not the driving factor for this group (Figure 2). 
+Figure 2: Top drivers for legacy modernization efforts 
+40%
+26%
+26%
+20%
+37%
+17%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+Increase agility of IT
+Reduce overall IT operation
+costs
+Open legacy applications
+and data to new
+applications
+Others
+BIC
+ 
+Source: Aberdeen Group, June 2007 
+Key drivers for the Industry Average and Laggard groups center more 
+around cost, and this is reflected in their overall approach to legacy 
+modernization. While Best In Class organizations are leveraging their 
+SOA infrastructure to provide interfaces into their legacy applications, 
+Industry Average and Laggard companies opt for re-hosting, which 
+moves the legacy code base to a less expensive hardware platform 
+(Figure 3). 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 8 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Figure 3: Modernization approach reflects organizational drivers 
+47%
+20%
+18%
+40%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+Re-host
+Extend
+Reduce IT operation cost
+Increase agility of IT
+Source: Aberdeen Group, June 2007 
+ 
+Operational costs can be a significant driver. As Larry Munini, President of 
+Genesys, a human-capital management (HCM) software vendor in business 
+for 26 years puts it, “This code is our business. It’s what we do. But at the 
+end of the day, our customers don’t care what lights up their web 
+browser.” Moving COBOL packages from the mainframe to less expensive 
+Intel platforms resulted in major cost savings. Where performance was 
+essential, VSAM files were left in place. 
+Choosing re-hosting on a cost basis alone may lead to disappointment. Of 
+those organizations that chose this approach, only 19% reported a 
+reduction in the cost of legacy integration projects. Forty two percent said 
+that their legacy infrastructure capital costs had decreased.  
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 9 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+ 
+Maturity Class Framework 
+Aberdeen used four key performance criteria to distinguish Best in Class 
+companies from Industry Average and Laggard organizations: 
+• 
+Overall cost of legacy integration projects 
+• 
+Number of new applications delivered that are based on legacy 
+applications 
+• 
+Time-to-value for customer-facing projects 
+• 
+Agility of IT in responding to new business requirements 
+ 
+With Best In Class identified, we then looked at how the group compared 
+to the Industry Average and Laggard organizations (Table 1). 
+Table 1: Companies With Top Performance Earn “Best-in-Class” 
+Status 
+Definition of 
+Maturity Class 
+Mean Class Performance 
+Best in Class:  
+Top 20% of aggregate 
+performance scorers 
+• 46% saw reduction in legacy integration costs 
+• 43% reported an increase in the number of 
+new application delivered that were based on 
+legacy packages 
+• 61% saw a decrease in the cost of maintenance 
+for legacy platforms 
+Industry Average:  
+Middle 50% of 
+aggregate 
+performance scorers 
+• 9% saw reduction in legacy integration costs 
+• 21% reported an increase in the number of 
+new application delivered that were based on 
+legacy packages 
+• 30% saw a decrease in the cost of maintenance 
+for legacy platforms 
+Laggard:  
+Bottom 30% of 
+aggregate 
+performance scorers 
+• 13% saw increases in legacy integration costs 
+• 8% reported a decrease in the number of new 
+application delivered that were based on legacy 
+packages 
+• 5% saw a decrease in the cost of maintenance 
+for legacy platforms 
+Source: Aberdeen Group, 2007 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 10 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Best in Class PACE Model 
+Aberdeen uses the PACE model to profile the top performing 20% of 
+companies – the Best In Class – in four areas: 
+• 
+Pressures: External or internal pressures affecting an organization. 
+These might be economic, technical, strategic, or competitive. 
+• 
+Actions: The ways that an organization responds to pressures. 
+• 
+Capabilities: The internal capabilities that an organization must have 
+to take the specified actions. 
+• 
+Enablers: Technical products, procedures, or designs necessary to 
+carry out actions. 
+The Best in Class are using SOA and web services to quickly respond to 
+new business requirements by extending legacy packages and data out to 
+the enterprise. 
+Table 2: Best-in-Class PACE Framework 
+Pressures 
+Actions 
+Capabilities 
+Enablers 
+• Improve the 
+agility of the IT 
+department 
+when 
+responding to 
+new business 
+requirements 
+• Extend legacy 
+code to provide 
+new interfaces to 
+service-based 
+architectures 
+• Surround legacy 
+applications with 
+messaging 
+middleware 
+• Re-host legacy 
+code 
+ 
+• Services-based 
+infrastructure is in 
+place 
+• Business and IT 
+processes are aligned 
+• Legacy applications 
+and interfaces are well 
+defined 
+ 
+ 
+• Third-party adapters for 
+legacy systems 
+• SOA/web services layer on 
+the mainframe 
+• Automated tools for 
+extracting legacy data and 
+business logic 
+• Middleware platforms for 
+rehosting 
+Source: Aberdeen Group, June 2007 
+Aberdeen Insights – Which Approach Is Best? 
+Aberdeen research of over 400 companies in the past 18 months has shown 
+that Best In Class IT organizations have embraced SOA as a way to rapidly 
+develop and deploy solutions to new business problems. In the realm of 
+legacy applications, this approach is paying off: Companies that are 
+leveraging their investment in SOA are outperforming their competitors by 
+using it to build new applications based on legacy code and data.  
+Re-hosting remains an attractive alternative for those organizations that are 
+sensitive to cost, but only 19% of respondents who chose re-hosting 
+reported a decrease in the overall cost of IT integration projects.  
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 11 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Chapter Two: 
+Benchmarking Requirements for Success 
+ 
+Best In Class IT organizations are leveraging both their investment in legacy 
+platforms and their existing SOA infrastructure. They are focusing on 
+extending their legacy applications on the mainframe by building a services 
+layer that exposes legacy data and packages. 
+Fast Facts 
+√ Best In Class companies are  
+twice as likely as other 
+groups to use automated 
+tools for extracting business 
+logic and data structures  
+√ 43% of Best In Class 
+organizations use third-party 
+services adapters for legacy 
+applications, versus 28% of 
+the Laggards group 
+√ Twice as many Best In 
+Class companies versus all 
+others have deployed a SOA 
+or web services layer on the 
+mainframe  
+ 
+ 
+Case Study: Standard components make the difference at CFS 
+Brian Digman, CIO of the Enterprise Services Division of the State of New York 
+Department of Taxation and Finance, faced mounting costs, an aging staff of 
+COBOL programmers, systems that weren’t much younger, tens of millions of lines 
+of legacy code, proprietary databases, and a workflow that included multiple paper 
+steps. There were few web interfaces, and a significant backlog of work. 
+The vision: Adopt an SOA approach to modernization using XML to facilitate 
+communication, provide new ways to access existing applications and data, and 
+eliminate as much paper processing as possible. Starting with a pilot project 
+focused on handling exceptions in sales tax processing, the team architected an 
+SOA solution that wraps business components with new web-based interfaces, 
+keeping COBOL in place where it made sense, and used XML as a common 
+language for messaging. Automating the workflow helped remove paper from the 
+picture. XML also provided ways to build tax forms on the fly on web clients, both for 
+internal processing and for taxpayer use, and to hook into other systems such as 
+interactive voice response. By moving most processing to memory, performance 
+increased dramatically. On a key inbound processing step, throughput went from 
+18,000 transactions per hour to over 60,000. 
+“The ROI was staggering,” says Digman. “We removed the paper, reduced our 
+exception backlog by 60%, and lowered the cost of labor by using standard 
+packages instead of custom code. SOA is now helping DTF transform our highest-
+volume system, personal income tax, from batch to transactional processing using 
+XML, electronic forms, and middleware for business process orchestration.”.  
+Competitive Assessment 
+Survey respondents fell into one of three categories – Laggard, Industry 
+Average, or Best in Class — based on their characteristics in five key 
+categories: (1) process (how the organization itself changes to 
+accommodate new business requirements); (2) organization (large-scale 
+changes in the IT department of technology or procedure); (3) knowledge 
+(training of key personnel in new technologies);  (4) technology (selection 
+or appropriate tools and intelligent deployment of those tools); and (5) 
+performance management (ability of the organization to measure the 
+benefits of technology deployment and use the results to improve key 
+processes further). 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 12 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+ 
+Table 3: Competitive Framework 
+www.aberdeen.com 
+041207a 
+ 
+Laggards 
+Average 
+Best-in-class 
+Legacy applications and interfaces are documented 
+54% 
+56% 
+70% 
+Integration processes are defined 
+45% 
+41% 
+62% 
+Testing processes for legacy integration are defined 
+ 
+Process 
+40% 
+33% 
+61% 
+Business and IT processes are aligned 
+ 
+Organization 
+41% 
+49% 
+60% 
+Key developers, business analysts, and architects are trained 
+ 
+Knowledge 
+38% 
+35% 
+51% 
+Third-party adapters for legacy applications 
+28% 
+36% 
+43% 
+SOA / Web services layer on the mainframe 
+15% 
+12% 
+32% 
+Automated tools for extracting business logic and data 
+19% 
+20% 
+38% 
+Integrated development environments (IDEs) aimed at legacy systems 
+ 
+Technology 
+25% 
+35% 
+56% 
+Service level agreements (SLAs) for legacy interfaces are in place 
+ 
+Performance 
+30% 
+43% 
+63% 
+ 
+ 
+Source: Aberdeen Group, June 2007 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 13 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Organizational Capabilities and Technology Enablers 
+ 
+,  
+r 
+ 
+SOA has been described in many places as a journey. During the past 
+eighteen months of research on SOA at Aberdeen, we have watched both 
+the technologies and the organizations using them mature significantly. The 
+Best In Class companies are still leading the charge, and with more overall 
+experience under their belts, they are setting the pace for the rest of the 
+industry. Over half of the Best In Class organizations are either working on 
+or have completed at least one legacy modernization project, versus fewer 
+than a quarter of Laggards (Figure 3). 
+“After looking through all of 
+the code running on the 
+mainframe, we discovered that 
+40% of it was unused…and 
+about 10% of it nobody knew 
+what it was supposed to do.” 
+ 
+~ Manager, SOA modernization 
+vendor 
+All groups see their modernization efforts as a long-term solution. Industry 
+Average and Laggards, trailing Best In Class in experience, are also likely to 
+be running proof-of-concept and pilot projects. 
+Figure 4: Organizational view of modernization 
+90%
+52%
+74%
+32%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Modernizationis a long-
+term, strategic solution
+Experience: One or more
+modernization projects
+Others
+BIC
+ 
+Source: Aberdeen Group, June 2007 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 14 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Process 
+The Best In Class organizations have, in general, been on the SOA 
+journey longer and therefore have had more time to establish policies 
+around their application work. This maturity is reflected in an 
+emphasis on process versus the Industry Average and Laggard groups 
+(Figure 4). 
+  
+One of the challenges in any work on legacy code is that, over time, 
+layers upon layers of application logic have been added, and it isn’t 
+always easy to tease out the functionality that is actually being used. 
+As the manager at a modernization vendor said of a client’s project, 
+“After looking through all of the code running on the mainframe, we 
+discovered that around 40% of it was unused…and about 10% of it 
+nobody knew what it was supposed to do.”  
+ 
+Testing is another stumbling block encountered by Industry Average 
+and Laggard organizations. Trying to apply old test methodology to 
+new architectures such as SOA and web services will quickly result in 
+friction in the lifecycle process. Best In Class companies are about 
+twice as likely as others to have clearly defined testing processes in 
+place. 
+Figure 5: Best in Class place an emphasis on process 
+70%
+62%
+61%
+46%
+41%
+33%
+54%
+45%
+46%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+Legacy interfaces are
+documented
+Integration processes are
+defined
+Integration testing
+processes are in place
+LAG
+AVG
+BIC
+Source: Aberdeen Group, June 2007 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 15 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Organization 
+Organizational maturity is reflected in how well IT interfaces with 
+other departments in the company. This is especially important in the 
+area of legacy modernization: IT is touching what is likely a key piece 
+of the business. Service-level agreements (SLAs) are a way to make 
+certain that both IT and the business agree on what will be delivered 
+as part of the modernization effort, and how it will perform. Best In 
+Class companies are using this tool by a margin of two to one over 
+Laggards, and 50% more often than the Industry Average (Figure 5). 
+ 
+Figure 6: Agreement among departments drives success 
+60%
+63%
+49%
+43%
+41%
+30%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Business and IT are aligned
+SLAs for legacy interfaces
+in place
+LAG
+AVG
+BIC
+ 
+Source: Aberdeen Group, June 2007 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 16 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Knowledge 
+Both SOA and web services application development pose unique 
+challenges to the skills of the department, and adding legacy languages 
+and databases to the mix further complicates the issue. 
+ 
+Best In Class organizations are well along in their training efforts, with 
+both Laggard and Industry Average following by six months. Where 
+the knowledge resides is vastly different. Best In Class companies are 
+drastically reducing their spending levels on outsourcing and 
+professional services, while no such reduction was reported for the 
+other two groups (Figure 6). 
+Figure 7: Training of developers, analysts, and architects 
+71%
+46%
+46%
+51%
+24%
+7%
+55%
+35%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+Decrease in spending on
+professional services
+Decrease in spending on
+outsourcing
+Planning to train
+Developers, analysts,
+architects trained now
+Others
+BIC
+ 
+Source: Aberdeen Group, June 2007 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 17 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Technology 
+ 
+Best In Class organizations are relying on automation to assist them 
+in extracting both business logic (61%) and data structures (38%, 
+double the rate of Laggard and Industry average) as they bring their 
+legacy applications into line with their SOA and web services 
+architecture. This is reflected in the high percentage of Best In Class 
+having documented their legacy interfaces; one of the byproducts of 
+extraction tools is a complete specification of the underlying code or 
+data. 
+ 
+Alongside their modernization efforts, Best In Class are continuing to 
+invest in SOA infrastructure. Twice as many Best In Class 
+companies are deploying SOA service layers on the mainframe, with 
+48% indicating that spending on SOA platforms is their number one 
+or two funding priority over the next 12 months. 
+ 
+One of the challenges of SOA applications is in testing them. The QA 
+environment is quite a bit different than that for traditional 
+applications. Across the board, all groups indicate that deploying new 
+testing methodologies is a high priority in the next twelve months.  
+ 
+Figure 8: Technical approaches to legacy modernization 
+61%
+56%
+38%
+32%
+46%
+43%
+42%
+20%
+19%
+13%
+27%
+32%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Data extraction/migration
+tools
+IDEs geared toward legacy
+systems
+Automated tools for
+extracting business logic
+SOA/Web services on the
+mainframe
+Middleware platforms for
+re-hosting
+Third party adapters for
+SOA and web services
+Others
+BIC
+Source: Aberdeen Group, June 2007 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 18 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Aberdeen Insights – Technology 
+Best In Class companies understand that legacy applications can be especially 
+challenging to bring into line with more modern architectures. They are using 
+automation to speed up the design and development cycle and fully document 
+packages and data structures, and are leveraging third-party adapters for commercial 
+applications. 
+Legacy specific development environments are also a key to peak performance, with 
+Best In Class organizations using them at double the rate of other groups. These 
+IDEs make it easier for developers to focus on the business logic of the application 
+rather than the mechanics of developing on the legacy platform. 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 19 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Performance 
+Overall, Best In Class organizations reported decreases in costs for 
+development, maintenance, and infrastructure (Figure 8). Productivity 
+of mainframe developers was improved by use of specialized IDEs and 
+third-party adapters that expose legacy data and packages. This 
+emphasis on productivity is reflected by the Best In Class’ emphasis 
+on in-house application development, 57% versus 28% of the Industry 
+Average. 
+Figure 9: Best In Class see improvements in costs and 
+productivity 
+12%
+38%
+61%
+12%
+44%
+7%
+17%
+12%
+30%
+21%
+20%
+27%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+                                
+Decreased
+Developer productivity:
+Increased
+                                
+Decreased
+Maintenance costs:    
+Increased
+                                
+Decreased
+Legacy capital costs: 
+Increased
+Others
+BIC
+Source: Aberdeen Group, June 2007 
+ 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 20 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Chapter Three:  
+Required Actions 
+Based on the information in Chapters One and Two, readers should 
+determine whether their organizations fall into the “Laggard”, “Industry 
+Average,” or “Best in Class” categories. The key to gaining value from this 
+report is moving your organization along the maturity path to Best in Class. 
+The following actions will help spur necessary performance improvements: 
+Laggard Steps to Success 
+• 
+Automate. Use automated extraction tools to pull apart your 
+legacy applications. They will provide clean interfaces to the 
+underlying code, and will let you see what is really going on in each 
+package. 
+• 
+Understand what you are delivering. Best In Class 
+organizations know that service level agreements are not just for 
+B2B relationships. Use SLAs to provide a basis for measuring the 
+performance of individual services. The SLA lets you focus on those 
+components that need the most attention. 
+• 
+Use adapters. Third-party adapters, especially for commercial 
+vertical applications, will save both time and money in your 
+modernization efforts. Best In Class companies use adapters for 
+commodity packages, and focus their efforts on the custom parts of 
+the application. 
+Industry Norm Steps to Success 
+• 
+Document the interfaces. Spend the time to thoroughly 
+document the packages and data structures of your legacy 
+applications. Whether you opt for rehosting or extending, this step 
+will pay off in  
+• 
+Don’t focus just on cost. Getting code off of the mainframe will 
+almost certainly save money in the short term. Best In Class 
+organizations, however, understand that cost is not the only 
+component of a successful architecture. Look to agility as a key 
+driver for your modernization efforts. 
+• 
+Switch 
+development 
+tools. 
+Integrated 
+development 
+environments that are designed for legacy systems will dramatically 
+improve the productivity of your application developers. Forty 
+percent of Best In Class report an increase in productivity, and 56% 
+say that they use legacy IDEs, versus 12% of Industry Average 
+reporting improvement, and 35% using IDEs. 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 21 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Best in Class Steps to Success 
+• 
+Continue to look at governance. Both run-time and design-time 
+governance help unlock the promise of SOA. Without governance, 
+SOA environments quickly devolve into a morass of functionally 
+similar objects with multiple, possibly incompatible, versions. 
+Change control is critical in a fully evolved SOA environment. Just 
+under half of Best In Class organizations cite governance as their 
+top concern. 
+• 
+Re-tool QA and test processes. Functional testing isn’t enough 
+for SOA applications; integration testing is an absolute requirement. 
+Forward-thinking IT organizations are starting to reshape their 
+thinking around QA to encompass the complexity of SOA, and 
+realize that integration testing must be built into the design of new 
+services. 
+• 
+Focus on performance. As SOA deployments become more 
+complex, bottlenecks will start to develop. Scalability and 
+performance of SOA applications are complicated by the black-box 
+approach 
+to 
+SOA 
+components. 
+Investing 
+in 
+performance 
+methodologies now will pay off in improvements in SLAs and 
+throughput later. 
+ 
+Aberdeen Insights – Summary 
+SOA and web services architectures can be complex, and the addition of legacy 
+application and processes can further complicate the issue. While it may seem 
+overwhelming, Best In Class organizations use process and technology to succeed. 
+Automated extraction tools and defined interfaces let them understand the application 
+landscape and focus on the key components of their legacy packages. SLAs help 
+them manage the services created from the legacy packages. 
+What is perfectly clear is that mainframes, COBOL, and decades-old code are not 
+going away. The core business processes encapsulated in that 25-year-old code are 
+being given new life in high-performance message-based architectures.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 22 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Featured Underwriters 
+This research report was made possible, in part, with the financial support 
+of our under-writers. These individuals and organizations share Aberdeen’s 
+vision of bringing fact based research to corporations worldwide at little or 
+no cost. Underwriters have no editorial or research rights and the facts and 
+analysis of this report remain an exclusive production and product of 
+Aberdeen Group. 
+ 
+      
+Service Oriented Architecture (SOA) is an 
+architectural style that supports integrating your business as linked services 
+or repeatable business tasks and the outcomes they bring.  SOA builds upon 
+existing IT investments to facilitate unprecedented business flexibility to 
+respond quickly and economically to fast-changing opportunities and threats.  
+SOA is best approached via a roadmap of incremental, incremental projects.  
+IBM is the recognized leader in SOA with expertise in aligning business and 
+IT processes, a thriving ecosystem of SOA business partners, thousands of 
+worldwide industry-specific SOA engagements, unmatched breadth and 
+depth of products, and a complete portfolio of professional services for 
+SOA. More information at www.ibm.com/soa. 
+ 
+     INFINITE Software Migrates 
+and Modernizes IBM Mainframe and iSeries applications using sophisticated 
+software and time-tested services. Our solution recompiles Legacy source 
+into native executables on Linux, UNIX or Windows. Data can be written 
+directly to Oracle or SQL Server. The migrated code runs on the newly 
+hosted server as it did before, but is now web-enabled, graphical and easily 
+integrated with other object-oriented applications in the enterprise. BI tools 
+are built-in to modernize reporting capabilities. Our methodology means 
+the project is fast, efficient and virtually risk free. Please visit 
+www.infinitesoftware.com. 
+ 
+    Micro Focus, a member of the FTSE 
+250, provides innovative software that allows companies to dramatically 
+improve the business value of their enterprise applications. Micro Focus 
+Enterprise Application Modernization and Management software enables 
+customers' business applications to respond rapidly to market changes and 
+embrace modern architectures with reduced cost and risk. For additional 
+information please visit www.microfocus.com. 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 23 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+     Relativity Technologies is the 
+leading provider of Enterprise Application Modernization and Application 
+Portfolio Management solutions. Over 325 organizations—including seven 
+of the ten largest financial services providers—have relied on our software 
+platform to increase the efficiency and flexibility of the applications that 
+automate their core business operations. The Modernization Workbench® 
+delivers this value by enabling organizations to understand, manage, 
+modernize, and maintain applications throughout the enterprise.  For more 
+information, please visit www.relativity.com.
+ 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 24 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Appendix A:  
+Research Methodology 
+ 
+Between April and May 2007, Aberdeen Group examined the responses of 
+more than 300 companies across a variety of geographies, industries and 
+company revenues. 
+Aberdeen supplemented this online survey effort with telephone interviews 
+with select survey respondents, gathering additional information on legacy 
+modernization strategies, experiences, and results. 
+The study aimed to identify emerging best practices for legacy application 
+modernization projects, and provide a framework by which readers could 
+assess their own organization’s capabilities and maturity. 
+Responding enterprises included the following: 
+• 
+Job title/function: About two-thirds of the survey respondents are 
+in their organizations’ IT departments. The research sample 
+included respondents with the following job titles: senior executive 
+(CEO, COO, CFO, VP) (20%); CIO (7%); IT manager or director 
+(42%); internal consultant (15%), and IT staff (13%). 
+• 
+Industry: The research sample included respondents predominantly 
+from high-technology industries and companies. These represented 
+27% of the sample. A significant number of respondents were in the 
+insurance industries (11%), and finance and banking (17%). 
+• 
+Geography: The survey respondents were distributed: North 
+America (U.S., Canada, Mexico) 62%; Central and South America 
+2%; Asia/Pacific 16%; Europe, Middle East, and Africa 20%. 
+• 
+Company size: About 25% of respondents were from large 
+enterprises (annual revenues above US$1 billion, including 14% over 
+US$5 billion); 35% were from midsize enterprises (annual revenues 
+between $50 million and $1 billion); and 40% of respondents were 
+from small businesses (annual revenues of $50 million or less). 
+Solution providers recognized as sponsors of this report were solicited after 
+the fact and had no substantive influence on the direction of the report. 
+Their sponsorship has made it possible for Aberdeen Group to make these 
+findings available to readers at no charge. 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 25 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+Table 4: PACE Framework 
+PACE Key 
+Aberdeen applies a methodology to benchmark research that evaluates the business 
+pressures, actions, capabilities, and enablers (PACE) that indicate corporate behavior in 
+specific business processes. These terms are defined as follows: 
+Pressures — external forces that impact an organization’s market position, competitiveness, 
+or business operations (e.g., economic, political and regulatory, technology, changing 
+customer preferences, competitive) 
+Actions — the strategic approaches that an organization takes in response to industry 
+pressures (e.g., align the corporate business model to leverage industry opportunities, such 
+as product/service strategy, target markets, financial strategy, go-to-market, and sales 
+strategy) 
+Capabilities — the business process competencies required to execute corporate strategy 
+(e.g., skilled people, brand, market positioning, viable products/services, ecosystem 
+partners, financing) 
+Enablers — the key functionality of technology solutions required to support the 
+organization’s enabling business practices (e.g., development platform, applications, 
+network connectivity, user interface, training and support, partner interfaces, data cleansing, 
+and management)  
+Source: Aberdeen Group, June 2007 
+Table 5: Maturity Framework 
+Maturity Framework Key 
+The Aberdeen Maturity Framework defines enterprises as falling into one of the following 
+three  levels of practices and performance: 
+Best in class (20%) — Application development practices that are the best currently being 
+employed and significantly superior to the industry norm, and result in the top industry 
+performance. 
+Industry norm (50%) — Application development practices that represent the average or 
+norm, and result in average industry performance. 
+Laggards (30%) — Application development practices that are significantly behind the 
+average of the industry, and result in below average performance 
+In the following categories: 
+Process — What is the scope of process standardization? What is the efficiency and 
+effectiveness of this process? 
+Organization — How is your company currently organized to manage and optimize this 
+particular process? 
+Knowledge — What visibility do you have into key data and intelligence required to manage 
+this process? 
+Technology — What level of automation have you used to support this process? How is this 
+automation integrated and aligned? 
+Performance — What do you measure? How frequently? What’s your actual performance? 
+www.aberdeen.com 
+041207a 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 26 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Source: Aberdeen Group, June 2007 
+Table 6: Relationship between PACE and Competitive 
+Framework 
+PACE and Competitive Framework How They Interact 
+Aberdeen research indicates that companies that identify the most impactful pressures and 
+take the most transformational and effective actions are most likely to achieve superior 
+performance. The level of competitive performance that a company achieves is strongly 
+determined by the PACE choices that they make and how well they execute. 
+Source: Aberdeen Group, June 2007 
+
+Modernizing Legacy Applications: 
+Maximizing the Investment 
+Page 27 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Appendix B:  
+Related Aberdeen Research 
+Related Aberdeen research that forms a companion or reference to this 
+report include: 
+• 
+Service-Oriented Architectures (October 2005) 
+• 
+The SOA in IT Benchmark Report (December 2005) 
+• 
+The Legacy Application Migration Benchmark Report (September 
+2006) 
+• 
+The Composite Applications Benchmark Report (December 2006) 
+• 
+Management and Governance: Planning for an Optimized SOA 
+Application Lifecycle (March 2006) 
+• 
+SOA Middleware Starts Where Web Services Leave Off (June 2007) 
+Information on these and any other Aberdeen publications can be found at 
+www.Aberdeen.com. 
+ 
+Author: Perry Donham, Director, Enterprise Integration Research 
+(perry.donham@aberdeen.com) 
+ 
+Founded in 1988, Aberdeen Group is the technology- driven research destination of choice for the global business 
+executive. Aberdeen Group has over 100,000 research members in over 36 countries around the world that both 
+participate in and direct the most comprehensive technology-driven value chain research in the market. Through its 
+continued fact-based research, benchmarking, and actionable analysis, Aberdeen Group offers global business and 
+technology executives a unique mix of actionable research, KPIs, tools, and services. 
+This document is the result of research performed by Aberdeen Group. Aberdeen Group believes its findings are 
+objective and represent the best analysis available at the time of publication.  Unless otherwise noted, the entire 
+contents of this publication are copyrighted by Aberdeen Group, Inc. and may not be reproduced, stored in a retrieval 
+system, or transmitted in any form or by any means without prior written consent by Aberdeen Group, Inc.

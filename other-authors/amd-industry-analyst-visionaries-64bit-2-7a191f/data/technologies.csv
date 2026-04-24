@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"amd64-x86-64","AMD64 / x86-64","isa","AMD","2003-present","pre-launch","ubiquitous","amd-industry-analyst-visionaries-64bit-2-7a191f","AMD 64-bit extension to x86; later licensed by Intel as Intel 64"
+"amd-opteron","AMD Opteron","processor","AMD","2003-2017","pre-launch/new-launch","succeeded-by-EPYC","amd-industry-analyst-visionaries-64bit-2-7a191f","Server x86-64 processor, AMD's flagship 2003 launch"
+"amd-athlon-64","AMD Athlon 64","processor","AMD","2003-2014","pre-launch","obsolete","amd-industry-analyst-visionaries-64bit-2-7a191f","Desktop x86-64 processor"
+"intel-itanium","Intel Itanium","platform","Intel/HP","2001-2021","growth-attempt","discontinued","amd-industry-analyst-visionaries-64bit-2-7a191f","Competing 64-bit architecture"
+"64-bit-computing","64-bit Computing (general)","paradigm","industry","1990s-present","transitional","ubiquitous","amd-industry-analyst-visionaries-64bit-2-7a191f","Mainstream transition predicted late 2000s"
+"unix-risc-64bit","UNIX/RISC 64-bit Computing","paradigm","Sun/HP/IBM","1990s-2010s","mature","legacy","amd-industry-analyst-visionaries-64bit-2-7a191f","Pre-existing 64-bit market segment"

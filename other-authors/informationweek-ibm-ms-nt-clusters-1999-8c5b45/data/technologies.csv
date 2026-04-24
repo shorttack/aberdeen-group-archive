@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-nt-server","Windows NT Server 4.0 Enterprise Edition","platform","Microsoft","1996-2002","mature","obsolete","informationweek-ibm-ms-nt-clusters-1999-8c5b45","Two-node clustering native; baseline for 1999 enterprise NT"
+"microsoft-cluster-services","Microsoft Cluster Services (MSCS)","platform-service","Microsoft","1997-present","growth","evolved-to-WSFC","informationweek-ibm-ms-nt-clusters-1999-8c5b45","Two-node failover at time; later expanded to Windows Server Failover Clustering"
+"ibm-cornhusker","IBM Cornhusker (8-node NT cluster)","platform-extension","IBM","1999-2001","new","obsolete","informationweek-ibm-ms-nt-clusters-1999-8c5b45","8-node NT cluster extender, MSCS-compatible, Netfinity-only initially"
+"windows-2000-advanced-server","Windows 2000 Advanced Server","platform","Microsoft","2000-2005","pre-launch","obsolete","informationweek-ibm-ms-nt-clusters-1999-8c5b45","Successor announced with built-in 2-node clustering"
+"microsoft-datacenter-server","Microsoft Datacenter Server","platform","Microsoft","2000-present","pre-launch","evolved","informationweek-ibm-ms-nt-clusters-1999-8c5b45","Process Control feature demoed via Sequent technology"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Secure Service-Oriented Architecture Benchmark Report",
+  "description": "Aberdeen Group benchmark report by Stacey Quandt (Research Director, Security Solutions and Services) on enterprise approaches to securing Service-Oriented Architectures. Covers federated identity, metadata management, secure business process flow control, and service management technologies. Identifies best-practice patterns for shared services across partner organizations and key technology investments enabling SOA security.",
+  "creator": {
+    "@type": "Person",
+    "name": "Stacey Quandt"
+  },
+  "datePublished": "2006-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

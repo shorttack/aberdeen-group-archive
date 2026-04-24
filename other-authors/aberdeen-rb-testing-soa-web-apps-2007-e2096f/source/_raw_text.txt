@@ -1,0 +1,201 @@
+SOURCE: RB-soa-web-apps-11.pdf
+
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+August, 2007 
+ 
+Testing SOA and Web Services Applications: 
+How Different Can It Be? 
+ 
+Testing and QA pose unique challenges to organizations deploying SOA and 
+web-services based applications. Unit and functional testing no longer are 
+enough; integration and orchestration testing are critical new pieces of the 
+overall testing strategy. Add performance and versioning testing to the mix 
+and you have the ingredients for significant change in the QA department.  
+Best in Class PACE Hypothesis 
+Testing and QA have consistently been at the top of the list of concerns for 
+survey respondents. In one study (ESB/Middleware Benchmark, July 2006), 
+43% of the overall response pool indicated that testing and deployment 
+were key challenges. In June of 2007, 48% of the participants in the SOA 
+Middleware study reported that they planned to implement new strategies in 
+testing SOA applications. Also in June 2007, the Modernizing Legacy 
+Applications report showed that 28% of all respondents felt that changing 
+existing processes, including test, was a key challenge. 
+Current testing tools and methodologies can only go so far. New tools and 
+techniques, developed specifically for the component and messaging 
+software environment, should allow organizations to pull together design, 
+development, and test into one integrated process and to address the 
+unique requirements of a distributed application architecture. 
+Aberdeen’s Hypothesis 
+We believe that organizations that have deployed specialized SOA and web 
+services quality management tools outperform those that are using tools 
+designed for more traditional software. We also believe that organizations 
+which have significantly modified their QA and test processes to 
+accommodate composite applications enjoy Best in Class performance. 
+How to Participate in the Study
+If your company is: 
+√ A SOA or web services 
+quality management  solution 
+provider 
+√ An integrator or IT 
+consulting firm 
+√ An enterprise software 
+lifecycle management 
+solution provider 
+Contact us now to get involved 
+in this study! 
+ 
+
+Research Preview Title 
+Page 2 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Table 1: Best-in-Class PACE Hypothesis 
+ Pressures 
+Actions 
+Capabilities 
+Enablers 
+Reduce number of 
+defects in deployed 
+applications 
+ 
+Implement automated 
+testing tools for SOA 
+and web services 
+applications 
+Automated tools for test 
+are deployed 
+Monitoring and reporting tools in 
+production environment 
+ 
+Establish new QA 
+processes focused on 
+SOA and web services 
+Separate environments 
+for functional and 
+integration / user 
+acceptance testing 
+SOA and web services specific 
+functional test software 
+ 
+ 
+Established lifecycle 
+methodology that 
+emphasizes quality (such 
+as RUP or Sapient) 
+Orchestration and integration 
+testing tools 
+ 
+ 
+ 
+Automated tools for extracting 
+business application logic and data 
+ 
+Best In Class Metrics 
+The following business metrics will be used to determine Aberdeen’s Best In 
+Class: 
+• 
+Quality of deployed software and services 
+• 
+Defects discovered in integration testing 
+• 
+Mean time to repair software defects 
+ 
+
+Research Preview Title 
+Page 3 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+Solution Providers 
+The following is a partial list of vendors that provide solutions and services 
+for QA and test of SOA and web services software: 
+Amberpoint 
+BEA 
+Compuware 
+Empirix 
+HP 
+IBM 
+iTKO 
+Microsoft 
+Mindreef 
+Oracle  
+Parasoft 
+Progress 
+SUN 
+Telelogic 
+webMethods 
+AutomatedQA 
+Borland 
+Blueprint 
+Composite Software 
+Coverity 
+Crosscheck 
+Forum Systems 
+Gomez 
+Green Hat 
+Logic Blaze 
+Magoo 
+Red Hat 
+NetIQ 
+Radview 
+Seapine Software 
+Serena 
+SOASTA 
+Solstice 
+TechExcel 
+BMC 
+Seque 
+
+Research Preview Title 
+Page 4 
+ 
+© 2007 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+www.aberdeen.com 
+041207a 
+ 
+ 
+Related Research 
+The SOA in IT Benchmark Report, 
+December, 2005 
+The Legacy Application Migration 
+Benchmark Report, September 2006 
+The Composite Applications Benchmark 
+Report, December, 2006 
+ 
+ 
+Modernizing Legacy Application: 
+Maximizing the Investment, June 2007  
+ 
+SOA Middleware Starts Where Web 
+Services Leave Off, July 2007 
+ 
+For more information on this or other research topics, please visit 
+www.aberdeen.com  or contact: 
+Perry Donham, Director, Enterprise Applications Research, perry.donham@aberdeen.com 
+Founded in 1988, Aberdeen Group is the technology- driven research destination of choice for the 
+global business executive. Aberdeen Group has over 100,000 research members in over 36 countries 
+around the world that both participate in and direct the most comprehensive technology-driven value 
+chain research in the market. Through its continued fact-based research, benchmarking, and actionable 
+analysis, Aberdeen Group offers global business and technology executives a unique mix of actionable 
+research, KPIs, tools, and services. 
+This document is the result of research performed by Aberdeen Group. Aberdeen Group believes its 
+findings are objective and represent the best analysis available at the time of publication.  Unless 
+otherwise noted, the entire contents of this publication are copyrighted by Aberdeen Group, Inc. and 
+may not be reproduced, stored in a retrieval system, or transmitted in any form or by any means 
+without prior written consent by Aberdeen Group, Inc.

@@ -1,0 +1,1024 @@
+# Industry Analyst Visionaries on 64-bit Computing
+
+> Archived from: Industry-Analyst-Visionaries-at-AMD.com-4.webarchive
+> Original publication date: 2003-09-01
+> Author: AMD (publisher)
+
+---
+
+## Original Document Text
+
+SOURCE: Industry-Analyst-Visionaries-at-AMD.com-4.webarchive
+
+Industry Analyst Visionaries
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ Home | Worldwide 
+ | Contact Us 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+ 
+ 
+ Select Site:
+ AMD
+ ATI
+ 
+ 
+  
+ 
+  
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Processors
+
+ATI Products
+
+Embedded Solutions
+
+Support & Drivers
+
+About AMD
+
+Where To Buy
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+Press Information
+
+Press Releases
+
+Studio 64
+
+Executive Speeches
+
+Articles and Reviews
+
+Partner Press Releases
+
+FAQs
+
+Endorsement Quotes
+
+Photos & Graphics
+
+Video Clips
+
+Success Stories
+
+Processor Pricing
+
+Virtual Pressroom
+
+Other AMD news and information
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Studio 64
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Industry Analyst Visionaries
+
+Jean Bozman, IDC 
+
+Nathan Brookwood, Insight64
+
+Gaurav Dua, Industry Analyst- Technology Practice, Frost & Sullivan, India
+
+Matthew Eastwood, Research Director, Global Enterprise Server Solution, IDC 
+
+John Enck, Vice President, Gartner
+
+Mike Feibus, TechKnowledge Strategies
+
+Gordon Haff, Senior Analyst/IT Advisor, Illuminata
+
+Carl Howe, Principal, Blackfriars Communication, Inc.
+
+Peter Kastner, Executive Vice President, Aberdeen Group
+
+Roger Kay, IDC
+
+Kevin Krewell, MDR
+
+David Larsson, IT Research, Sweden
+
+Kathleen Maher, Vice President, Jon Peddie Research
+
+Dean McCarron, Mercury Research
+
+Mark Melenovsky, Director, Server Market Research, IDC
+
+Brian Richardson, META Group
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+Studio 64
+Industry Analyst Visionaries
+
+ 
+ 
+ 
+ Jean 
+ Bozman
+ Research VP, IDC 
+
+ 
+ “Let me make clear that 64-bit computing has been around for quite 
+ some time now, and in fact the whole UNIX RISC area already is 64-bit 
+ capable. We see it being used particularly for handling large, scalable 
+ databases, data mining, data warehousing, high-performance computing, 
+ using large datasets associated with scientific computing, visualization. 
+ One of the new areas that we see adoption in, is this bio IT area, life 
+ sciences, a lot of adoption there, again, mostly in the UNIX space. What 
+ we were talking about today is, is there the potentiality that that would 
+ get broader, in other words, broaden out to a space where other types 
+ of servers would become involved. And clearly we think that will happen 
+ over time. It won’t happen overnight, but we think that certainly 
+ everybody has their sights on 64-bit computing, and that in fact there 
+ might be some new types of applications that would get into the 64-bit 
+ space, mostly having to do with handling large chunks of data. And some 
+ of them might be, for example, multimedia, video, music, handling all 
+ those, and the new and emerging area of web services, in which people 
+ are using maybe a PDA or something and looking at that, but are receiving 
+ very complex information over the Internet. Now a number of things have 
+ to come together as that happens. More bandwidth. More use of PDAs. Some 
+ sophistication at the back end, and that’s where we’re going 
+ to see more 64-bit computing, to support those services.”
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+Nathan 
+ Brookwood
+
+ Principal, Insight64 
+
+ 
+"Today the 64-bit market is dominated by high-end proprietary systems. 
+ This will change dramatically over the remainder of the decade. Industry-standard 
+ 64-bit architectures will move down to the low-end of the market and up 
+ into the mid-range and high-end segments as well. The people who understand 
+ this, and who adapt their applications for these industry standard 64-bit 
+ boxes, will win big-time when these systems become available. The folks 
+ who ignore this trend and continue to focus their efforts on proprietary 
+ platforms will soon be in trouble, if they’re not there already." 
+ more...
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+Gaurav 
+ Dua
+
+ Industry Analyst- Technology Practice, Frost & Sullivan, 
+ India
+
+ 
+"In the next two to three years, one will witness a large set of 
+ enterprises going in for 64-bit systems as it offers superior performance 
+ in terms of scalability, power and reliability. A 64-bit machine can significantly 
+ increase the performance as it can address more memory directly without 
+ using complex indexing or register-addressing schemes. Moreover, a 64-bit 
+ system is likely to gain lot of acceptance in applications that require 
+ large data stores. This would include applications such as CAD/CAM, OLAP, 
+ financial modeling, et al."
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ Matthew 
+ Eastwood
+ Research Director, Global Enterprise Server Solution, IDC 
+
+ 
+ “IDC's workloads research has consistently shown that many customers continue to deploy database solutions in 32-bit computing environments. Oracle's support of the AMD Opteron processor will allow customers to gain additional headroom for these databases without moving off platform. This approach offers tremendous advantages for many customers faced with expensive database conversions.”
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+Jonh 
+ Enck
+
+ Vice President, Gartner
+
+ 
+"64-bit systems have been around for a while. I think the transition 
+ for pervasive 64-bit computing is going to take some time. I think the 
+ server side of the market is well familiar with this technology, well 
+ familiar with the promises that 64-bit brings to the market. I think the 
+ trick is on a desktop, in that segment of the market, this is going to 
+ be a big change for them. These are going to be systems that are vastly 
+ more powerful than they are used to. So there will be some new applications, 
+ new capabilities. So it will certainly spur some new usage models." 
+ more... 
+ 
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ Mike 
+ Feibus
+
+ Principal Analyst, TechKnowledge Strategies, Inc. 
+ 
+ 
+ "I believe that 64-bit technology will bring new and 
+ exciting opportunities to the mainstream market. Once you give millions 
+ of mainstream users the power to address such large datasets, then the applications 
+ are sure to follow." 
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ Gordon 
+ Haff
+
+ Senior Analyst/IT Advisor, Illuminata 
+ 
+ 
+ “Financial services is certainly one market that is likely to adopt 
+ [64-bit technology] fairly quickly. Financial services, in the last 
+ few years, have been the commercial users among the most open to new technologies. 
+ IT is the core of their business and the ability to crunch data and to glean 
+ information from that data is really core to their business.” more... 
+ 
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+ 
+Carl 
+ D. Howe
+
+ Principal, Blackfriars Communications, Inc.
+
+ 
+
+ "Sixty four-bit computing brings something new to a stagnant PC market: 
+ simplicity. How will it do this? By: 
+
+ 
+
+ 1) Simplifying the use of large memories. Today’s 
+ 32-bit PC programs typically can’t use more than 2 gigabytes of 
+ main memory, yet someone editing raw digital photographs in Photoshop 
+ can easily consume all that and more. And applications like video editing 
+ of a two-hour digital video movie need a minimum of 26 gigabytes just 
+ to store the movie. Memories of 32 gigabytes and more would make these 
+ programs run faster and easier to debug -- and yet cost only about $3,000 
+ at today’s prices.
+
+ 
+
+ 2) Simplifying programming. Today, PC programmers 
+ must jump through hoops to perform seemingly simple operations like creating 
+ a report for a database or writing a DVD-R disk. Why? Because they spend 
+ most of their time figuring out how to shuttle information on and off 
+ slow disks, the only PC storage big enough to store databases or DVD images. 
+ 64-bit processors allow programmers to write these pieces of software 
+ as simple queries and copies -- and make them faster and more reliable 
+ to boot.
+
+ 
+
+ 3) Simplifying innovation. Just as it’s easier 
+ to build a highway through an unpopulated countryside than through a city, 
+ 64-bit computing poses fewer obstacles to creating the next killer application. 
+ Prior to 32-bit processors, Microsoft® and Windows® never had 
+ the type of market power they do today. 64-bit computing will similarly 
+ propel other small companies to stardom as they make things considered 
+ impossible today possible.” 
+
+ 
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ Peter 
+ Kastner
+ Executive Vice President, Aberdeen Group 
+
+ 
+ “The first 32-bit consumer desktops appeared in 1985 when the software world was mired in the world of 16-bit DOS operating systems and applications. Except for the few hardy souls who used 32-bit Xenix (and later Unix variants Unix) applications, the rest of us waited until Windows XP was launched in October 2000 to end the legacy ties to 16-bit software. That’s a long time — fifteen years before the software caught up with the hardware. That won’t happen again to the computer industry. Aberdeen Group expects 64-bit operating support for consumer desktops to arrive over the next year. Early adopters will enjoy some exciting experiences. 
+
+ 
+ 
+Hard as it is to imagine, the majority of the consumer market for 64-bit computing will arrive at the end of the decade. The key reason is memory.
+
+ 
+ 
+Today’s mainstream 32-bit desktops barely run in 128 MB of RAM, perform adequately at 256 MB, and can run virtually all applications with 512 MB of memory. With declining memory prices, more operating system features, the proliferation of web services, more powerful processors, we see typical memory configurations doubling every three years for the rest of the decade. With processor speeds at 10 GHz and above, the penalty for a disk access will be enormous; so much more data will be cached in memory. The tipping point is in the 2-4 GB area, when traditional 32-bit addressing runs out of bits. We expect mainstream desktops to need full 64-bit addressability of RAM by 2010. Many users will want their virtual memory disk space to exceed 4 GB before 2010. So start planning for your own cinema-realistic 3D user environment now.”
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+ Roger Kay
+ 
+ Director of Client Computing, IDC 
+"Aside
+ from the fact that you can address more mathematical space with 64-bit
+ systems, 
+ they also give you greater performance. With 64-bit systems, things like
+ weather forecasting are possible. For consumers, gamers
+ 
+ enjoy increased performance on 3D applications. In the commercial space,
+ they gain faster execution of existing programs."
+
+ 
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+ Kevin 
+ Krewell
+ General manager, MDR, Senior Editor, Microprocessor 
+ Report
+ 
+ “The 64-bit processor question is not if, but 
+ when? The 32-bit x86 architecture we have today is the based on the 80386 
+ processor introduced in 1985. After 18 years, it’s time to evolve 
+ to the next era in client computing—64-bit processing. We can begin 
+ to conjecture how programmers will use this new freedom, as 64-bit processing 
+ facilitates processing of large databases, bigger CAD models, faster data 
+ encryption for Internet security, larger media files, expanded rules for 
+ speech recognition algorithms (allowing greater accuracy), and additional 
+ caching of data and programs for snappier performance.” -- Kevin Krewell, 
+ general manager, MDR, senior editor, Microprocessor Report
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ David 
+ Larsson
+ Market Analyst, IT Research, Sweden 
+ 
+"64-bitars marknaden tar nu fart på allvar. De kommande AMD 
+ processorbaserade produkterna har goda möjligheter att ta andelar 
+ med ett bra pris/prestanda", säger David Larsson, marknadsanalytiker, 
+ IT Research. 
+
+ 
+“The 64-bit market is really taking off now seriously. The upcoming 
+ AMD processor-based products have a good possibility to take market shares 
+ with a good price/performance ratio”, says David Larsson, market 
+ analyst, IT Research.
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ Kathleen 
+ Maher
+ Vice President, Jon Peddie Research
+ 
+ 
+ "64-bit computing, it's the future. AMD has taken the initiative 
+ to push 64-bit into the mainstream and has reset the clock for the transition... AMD has excelled in creating a demand for the near(er) future." 
+ 
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+Dean 
+ McCarron
+
+ Founder and Principal, Mercury Research
+
+ 
+"The barriers that 64-bit computing can overcome relate to things 
+ such as memory addressing. The current 32-bit architectures are limited 
+ to 4 gigabytes. 64-bit architectures essentially eliminate any barriers 
+ to memory addressing for the foreseeable future." more... 
+ 
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+Brian 
+ Richardson
+
+ Program Director, META Group
+
+ 
+"I think we've had 64-bit computing in niche markets for more than 
+ ten years. What I see coming is more of a mass market potential to begin 
+ accelerating a transition to 64-bit enabled applications, to really take 
+ advantage of things like very large memory spaces, very sophisticated 
+ modeling and simulation in technical computing environments, and extremely 
+ high performance in database and data warehousing capabilities not only 
+ for government and research capabilities and very high-end corporate environments, 
+ but really more 64-bit computing that is more mainstream."
+
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+  
+ 
+
+ 
+ 
+  
+ 
+Mark 
+ Melenovsky
+
+ Director, Server Market Research, IDC
+
+ 
+“I think it’s more than performance. Like I just mentioned, 
+ it's the way that IT and data is becoming so pervasive throughout the 
+ industry that it's going to require 64-bit computing just to be able to 
+ integrate your businesses, your databases, and your supply chain management, 
+ and all of these different functionalities. So it's a requirement.” 
+ more... 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+Rate this page
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ ©2009 Advanced Micro Devices, Inc.    |    Contact AMD    |    Careers    |    RSS Feeds    |    Terms and Conditions    |    Privacy    |    Trademark information    |    Site Map
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | amd-industry-analyst-visionaries-64bit-2-7a191f |
+| title | Industry Analyst Visionaries on 64-bit Computing |
+| author | AMD (publisher) |
+| date | 2003-09-01 |
+| type | vendor-publication |
+| subject_domain | amd64-x86-64-mainstream-adoption |
+| methodology | expert-quote-aggregation, vendor-marketing |
+| source_file | Industry-Analyst-Visionaries-at-AMD.com-4.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+AMD curates 64-bit-computing perspectives from major IT analysts ahead of the AMD64 (Opteron/Athlon 64) launch wave. Peter Kastner of Aberdeen Group provides one of the most explicit predictions: the majority of consumer 64-bit demand arrives by end of decade, and mainstream desktops will need full 64-bit RAM addressability by 2010 due to declining memory prices, additional OS features, and web services.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Pre-launch AMD64 marketing collateral capturing the analyst consensus that 64-bit would migrate from RISC/Itanium high-end into mainstream x86 — the central thesis AMD bet the company on with Opteron. |
+| **Relevance** | medium | Specific AMD64 marketing context is dated; the analyst-consensus framing remains useful historical evidence for the x86-64 transition. |
+| **Prescience** | high | Kastner's 'mainstream desktops by 2010' prediction was effectively on schedule — Windows 7 (2009) made x86-64 the default desktop OS; >4GB RAM became commonplace by 2010-2011. The 'web services driving memory demand' driver also validated as cloud and SaaS expanded enterprise client memory footprints. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Mainstream consumer 64-bit by end-of-decade
+- **Claimed:** The majority of consumer market for 64-bit computing will arrive at the end of the decade. We expect mainstream desktops to need full 64-bit addressability of RAM by 2010 due to declining memory prices, more OS features, and web services.
+- **Year:** 2003
+- **Confidence at time:** high
+
+**Prediction 2:** Drivers of 64-bit mainstream demand
+- **Claimed:** Drivers: declining memory prices, more OS features (security, virtualization), and web-services-driven application growth requiring larger memory footprints
+- **Year:** 2003
+- **Confidence at time:** high
+
+
+### Entities Referenced (4)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Advanced Micro Devices | company | active |  |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spectrum Equity (2017) |
+| Intel Corporation | company | active |  |
+
+### Technologies Referenced (6)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| AMD64 / x86-64 | isa | AMD | pre-launch | ubiquitous |
+| AMD Opteron | processor | AMD | pre-launch/new-launch | succeeded-by-EPYC |
+| AMD Athlon 64 | processor | AMD | pre-launch | obsolete |
+| Intel Itanium | platform | Intel/HP | growth-attempt | discontinued |
+| 64-bit Computing (general) | paradigm | industry | transitional | ubiquitous |
+| UNIX/RISC 64-bit Computing | paradigm | Sun/HP/IBM | mature | legacy |
+
+### Observation Summary
+
+- Total observations: 8
+- By type: expert-opinion: 5, viability-prediction: 2, biographical: 1

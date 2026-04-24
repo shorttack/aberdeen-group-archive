@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-middleware","SOA Middleware","category","industry","2004-2012","growth","evolved-to-API-gateway","aberdeen-ra-soa-middleware-2007-68f39b","Mid-2000s integration platform category"
+"enterprise-service-bus","Enterprise Service Bus (ESB)","platform","industry","2003-2015","mature","legacy-replaced-by-API-gateway","aberdeen-ra-soa-middleware-2007-68f39b","SOA middleware backbone pattern"
+"web-services-soap","Web Services (SOAP/WSDL)","protocol","industry","1999-2010","mature","legacy-mostly-replaced-by-REST","aberdeen-ra-soa-middleware-2007-68f39b","Pre-SOA-middleware integration approach"

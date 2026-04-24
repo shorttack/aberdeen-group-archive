@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"legacy-modernization","Legacy Application Modernization","category","industry","1995-present","mature","active","aberdeen-ra-modernizing-legacy-2007-52a27a","Enterprise practice of extending vs replacing legacy systems"
+"soa-wrapping","SOA-based Legacy Wrapping","technique","industry","2004-2015","growth","active","aberdeen-ra-modernizing-legacy-2007-52a27a","Exposing legacy systems via web services / SOA endpoints"
+"aberdeen-pace-framework","Aberdeen PACE Framework","methodology","Aberdeen Group","1990s-2010s","active","legacy","aberdeen-ra-modernizing-legacy-2007-52a27a","Pressures-Actions-Capabilities-Enablers benchmarking methodology"

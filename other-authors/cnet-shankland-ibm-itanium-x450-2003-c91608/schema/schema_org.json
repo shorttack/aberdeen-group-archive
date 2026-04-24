@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IBM's Itanium server goes on sale",
+  "description": "CNET's Stephen Shankland reports IBM's launch of the four-processor x450 Itanium 2 server with EXA chipset, with a 16-processor Madison-based sibling planned by year end. Aberdeen Group analyst Peter Kastner argues Itanium will take material market share in 2003 even though Xeon will out-revenue it for five years, that IBM had to ship the x450 quickly after announcing AMD Opteron servers, and that IBM trails HP which is 'betting the company on Itanium'.",
+  "creator": {
+    "@type": "Person",
+    "name": "Stephen Shankland"
+  },
+  "datePublished": "2003-04-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

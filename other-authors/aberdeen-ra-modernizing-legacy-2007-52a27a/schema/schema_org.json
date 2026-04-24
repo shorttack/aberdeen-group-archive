@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Modernizing Legacy Applications: Maximizing the Investment",
+  "description": "Aberdeen Group benchmark report by Perry Donham on enterprise approaches to legacy application modernization. Identifies best-practice patterns for maximizing the investment in legacy systems through modernization rather than replacement, framing the approach within Aberdeen's PACE methodology.",
+  "creator": {
+    "@type": "Person",
+    "name": "Perry Donham"
+  },
+  "datePublished": "2007-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

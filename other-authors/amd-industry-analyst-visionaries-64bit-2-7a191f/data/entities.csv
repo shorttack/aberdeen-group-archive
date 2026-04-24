@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"amd","Advanced Micro Devices","company","semiconductors","active","","1969-present","amd-industry-analyst-visionaries-64bit-2-7a191f",""
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1980s-present","amd-industry-analyst-visionaries-64bit-2-7a191f","Aberdeen Group co-founder, EVP/CRO; later Scott-Page Associates"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2007); Spectrum Equity (2017)","1988-present","amd-industry-analyst-visionaries-64bit-2-7a191f","Boston-based research firm"
+"intel-corp","Intel Corporation","company","semiconductors","active","","1968-present","amd-industry-analyst-visionaries-64bit-2-7a191f",""

@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-security","Secure SOA","category","industry","2004-2010","growth","evolved-to-API-security","aberdeen-ra-secure-soa-benchmark-2006-605d67","Mid-2000s framing of SOA-specific security concerns"
+"federated-identity","Federated Identity","paradigm","industry","2002-present","early-mainstream","ubiquitous","aberdeen-ra-secure-soa-benchmark-2006-605d67","SAML/OIDC predecessors; later mainstream"
+"metadata-management","Service Metadata Management","paradigm","industry","2004-present","growth","active","aberdeen-ra-secure-soa-benchmark-2006-605d67","Repository-driven service metadata for SOA governance"
+"service-management-soa","Service Management for SOA","category","industry","2004-2012","growth","evolved-to-service-mesh","aberdeen-ra-secure-soa-benchmark-2006-605d67","Operational management of SOA services"

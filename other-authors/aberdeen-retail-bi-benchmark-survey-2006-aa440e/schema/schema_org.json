@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Retail Business Intelligence Benchmark Studies: Hypothesis and Survey",
+  "description": "Aberdeen Group internal research-design deck by Paula Rosenblum (Retail practice) introducing the hypothesis and survey design for an upcoming Retail Business Intelligence Benchmark Study. Hypothesis: advanced BI including predictive analytics improves retailer top and bottom-line performance across assortment, price, promotion planning, and enterprise-wide scorecarding. Targets GMMs, VPs of Store Operations, VPs of Supply Chain, and CIOs in retail. Planned publication May 30, 2006.",
+  "creator": {
+    "@type": "Person",
+    "name": "Paula Rosenblum"
+  },
+  "datePublished": "2006-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

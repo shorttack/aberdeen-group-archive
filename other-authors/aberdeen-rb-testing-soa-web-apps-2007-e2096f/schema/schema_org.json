@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Testing SOA and Web Services Applications: How Different Can It Be?",
+  "description": "Aberdeen Group research brief by Perry Donham identifying the testing/QA challenges specific to SOA and web-services applications: unit and functional tests no longer suffice \u2014 integration and orchestration testing become critical, with performance and versioning adding further complexity. Brief draws on prior ESB/Middleware (July 2006), SOA Middleware (June 2007), and Modernizing Legacy (2007) Aberdeen research.",
+  "creator": {
+    "@type": "Person",
+    "name": "Perry Donham"
+  },
+  "datePublished": "2007-08-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

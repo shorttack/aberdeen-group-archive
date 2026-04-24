@@ -1,0 +1,380 @@
+URL: http://www.warrantyweek.com/archive/ww20030512.html
+
+Warranty Week, Dell's Warranty Policies, 12 May 2003 
+
+ May 12, 2003 
+ ISSN 1550-9214         
+
+Dell Cuts Warranty Cost,
+ Raises Warranty Revenue:
+
+Doing both at the same time is possible with
+
+ a shift towards extended warranty options.
+
+by 
+Eric Arnum, Editor
+
+ As a cost-cutting measure, Dell Computer Corp., soon to be known as Dell Inc. , reduced the warranty coverage on its consumer-oriented desktop and laptop computer lines from three years to one. But in what's turned out to be a pleasant surprise, that strategy also has boosted revenue, as customers choose to pay to lengthen and strengthen their coverage with extended warranties.
+
+Dell markets its Inspiron laptops and Dimension desktops to consumers, who can buy the units directly from the manufacturer using online or telephone ordering systems. This elimination of the middleman, which cuts cost and boosts profits, also produces surprising benefits. First, Dell can lower the amount of parts and completed units it keeps in inventory to the bare minimum needed to finish out the day. Second, the consumer can choose exactly the options they desire. Included on that list of options are upgrades to three-year warranties.
+
+Dell's Desktop and Laptop Warranty Options
+
+   Basic   
+
+ Warranty 
+
+ Extended 
+
+ Warranty 
+
+ Complete Care 
+
+ Parts 
+
+ Labor 
+
+ Length 
+
+ Cost 
+
+ Cost 
+
+ Dimension desktop (consumer) 
+
+ 1 yr. 
+
+ 1 yr. 
+ 3 yrs. 
+ $129   
+
+ $69   
+
+ OptiPlex desktop (business) 
+
+ 3 yrs. 
+
+ 1 yr. 
+ incl. 
+ $0   
+
+ On-Site   
+
+ Inspiron laptop (consumer) 
+
+ 1 yr. 
+
+ 1 yr. 
+ 3 yrs. 
+ $199   
+
+ $149   
+
+ Latitude laptop (business) 
+
+ 3 yrs. 
+
+ 1 yr. 
+ incl. 
+ $0   
+
+ $169   
+
+The numbers tell the story. In 2001, Dell's vice president of manufacturing operations Dick Hunter told Montgomery Research that a supply chain management software package had allowed the company to cut obsolete inventories to below 0.1 percent of total purchases, and to cut current inventories from an average of 13 hours to only 7.
+
+"In our business, material costs decline at about 1 percent per week. So our competition, like IBM, Compaq, and HP — who operate through a sales channel — typically have three or four weeks of inventory in that sales channel," he was quoted as telling the researchers. "Automatically, we have a 4 to 5 percent advantage. And that's critical in the pretty razor-thin margins that exist in the PC industry today."
+
+Cutting Warranty Cost
+
+These are part of the company's stated goal of cutting costs, including warranty costs. In the fiscal 2003 annual report filed last month with the Securities and Exchange Commission, the company stated:
+
+ "Gross margin as a percentage of net revenue increased from 17.7% in fiscal 2002 to 17.9% in fiscal 2003. Gross margin increased across all geographies and product categories primarily as a result of Dell’s cost reduction initiatives and declining component costs. As part of its focus on improving margins, Dell remains committed to reducing costs to maintain price leadership and improve profitability through four primary cost reduction initiatives: manufacturing costs, warranty costs, structural or design costs, and overhead or operating expenses." 
+
+One of the ways Dell is cutting costs is by investing in R&D and engineering efforts to improve the design and quality of its products. In essence, Dell wants to make its products easier to use and more reliable, to cut warranty and support costs. It's part of a simple theory that if Dell offers a better product to its customers, they'll have a better experience using it, and less reason to resort to their warranties to resolve break/fix issues.
+
+Dell spokesperson Venancio Figueroa III said the reason for the difference between the warranty programs backing the corporate and consumer product lines is the differing expectations of the buyer. Corporate customers expect constant coverage and to trade in the unit soon after the warranty expires. Consumers expect a low price and fairly-priced options to bring their coverage up to their own personal comfort level.
+
+"Typically, if you look at our corporate products, specifically the OptiPlex brand, which is our desktop product for relationship/corporate/government customers, those usually have a three-year refresh cycle, so they'll come with standard three-year warranties," he said. "In essence, the warranties cover the products for its typical lifespan."
+
+Dell also builds a promise of next business day on-site repairs into the corporate units. That provision can be upgraded to four-hour, any-day response with an additional payment. Likewise, the basic warranty, which is actually three years for parts and one year for labor, can be upgraded to three years for both. While some of these options are available for purchase along with the consumer brands, the emphasis there is on low price and upgrade options.
+
+"In the home/consumer market, you see our Dimension brand for desktop and Inspiron brand for laptop. There, one year is going to be the standard warranty offer," Figueroa said. However, customers can choose to pay for additional time, buying a two-, three-, or even four-year extended warranty that includes at-home service. Unhappy customers also have the option of returning the unit for a refund within 30 days of the invoice date under the "Total Satisfaction" Return Policy. Nervous customers have the option of purchasing a more comprehensive accidental damage policy called CompleteCare (not available in California, New York, or Florida). Plus, they can always make use of Dell's online and telephone support options, which include "how to" advice for the first 30 days and troubleshooting support for the life of the parts warranty.
+
+ Figueroa said Dell's strategy on the consumer side is to give the customer some amount of peace of mind as a basic and free offer, and to provide them with warranty and service upgrade options to match their expectations and budget.
+
+"We have many customers who opt to continue protecting their investment with the technical support and service that we offer, whether it be online, on the phone, email, or even on the hardware itself," he said. "We see it as insurance to make sure that the purchase you have will be protected for years." But there are others happy to run off with a low price on something like a Dimension 2350, and to assume the long-term risk of repairs themselves. "We just want to offer choice," Figueroa concluded.
+
+Earnings Up, Costs Down
+
+That strategy seems to be working. In the fiscal year completed at the end of January 2003, Dell's revenue climbed 13.6 percent to $35.4 billion. Earnings per share increased from 46 cents to 80 cents, reversing almost precisely the decline suffered from fiscal 2001 to fiscal 2002.
+
+Buried within the financial statements filed by Dell with the SEC are some figures that suggest how well the company has kept basic warranty costs under control while boosting extended warranty revenue. While there's no line item for total warranty cost or extended warranty revenue, there are figures in the notes that closely approximate the actual numbers. What Dell calls "accrued warranty liability" is an approximation of the cost of fixing computers for free -- the basic warranty cost. If one thinks of warranty cost as a water tank kept at a more or less constant level, the amount added to the "tank" each year will closely approximate the outflow. Likewise, what Dell calls "deferred revenue on warranty contracts" is more or less an escrow account that contains its enhanced warranty revenue -- money collected now from customers to pay for repairs later.
+
+The numbers in and of themselves are interesting, but the trend that's more noteworthy is produced when figures for both cost and revenue are compared to annual revenue. As the chart below illustrates, Dell's basic warranty costs have meandered between one and two percent for the past four years while extended warranty revenue took a noticeable turn upwards in fiscal 2002. That trend continued last year, as Dell deferred more than $1.3 billion in warranty contracts -- almost 3.7 percent of sales.
+
+Deferred Revenue on Warranty Contracts
+vs.
+Accrued Warranty Liability
+
+ (surrogates for extended warranty revenue and warranty cost) 
+
+Dell does not break out either set of figures by product line or target market, so there's no way of knowing whether the source was primarily consumers or businesses. However, what's changed in the past four years has been the warranty coverage of the consumer side, which dropped back from three years to one year.
+
+Absent any other proximate cause besides that change, one could theorize that the upward trend in extended warranty revenue is closely linked to the downward trend in the basic warranty offered to consumers. On the business side, nothing much has changed in terms of warranty. Dell still offers business buyers the full three years for free, adhering to what has become something of an industry benchmark for warranty coverage and service options.
+
+Three-Year Warranty Benchmark
+
+Peter S. Kastner, executive vice president and chief research officer for the Consumer Digital Technology Practice at Aberdeen Group, recommended in an InternetWeek column that enterprise PC buyers look for a minimum three-year basic warranty with a provision for next-business-day on-site repairs.
+
+Contacted by email while checking his inbox last week at Denver International Airport, Kastner expanded upon the reasoning behind these suggested minimums:
+
+ "My recommendations are based on:
+
+The needs of a small-to-medium-sized business which lacks the desire to self-insure or to have a large break/fix staff. The warranty covers break/fix.
+
+Three years is the depreciation life, so a three-year warranty covers the prime years.
+
+In years three and four (or five), most companies self-insure with spares and cannibalization, as they phase in new machines.
+
+"We price all vendors with three-year, next business day service as a means of leveling the configuration playing field," Kastner wrote.
+
+Aberdeen Group's PC reference model specifies a 2.4 GHz Pentium 4 processor, 256 Megabytes of RAM, and a 40 Gigabyte hard drive, along with a CD-ROM drive, a 15- or 17-inch monitor, and an Ethernet card. In the case of Dell, the OptiPlex GX260 fits that profile precisely, although these days one would be hard-pressed to find one built with less than 512 MB of RAM.
+
+Dell used to cover all its laptop and desktop units with three-year basic warranties, but in the last few years the company cut back the coverage on its Dimension and Inspiron consumer-oriented lines to one year. The brand names aimed at business users -- the OptiPlex desktop units and the Latitude notebook computers -- retain their three-year warranties, which include the next-business-day on-site service that advisors such as Kastner recommend. Three-year extended warranty upgrades for the consumer lines are for sale at a price of $129 for the Dimension desktops and $199 for the Inspiron laptops (Dell also sells two-year and four-year plans).
+
+Therefore, if all else were equal, one would think the difference between the prices of identically-configured Dimension and OptiPlex units would be around $129, while the price differential between the Inspiron and Latitude would be around $199. If the consumer and business units contain the same processor, the same amount of memory, and the same sized hard disk, the primary difference between them would be Dell's promise to fix one for a year and the other for three years. Or so one would think.
+
+Business and Consumer Price Comparisons
+
+ After comparing 27 identical pairs of Inspiron/Latitude laptops and 30 identical pairs of Dimension/OptiPlex desktops, Warranty Week has found a much greater range of price differentials than can be explained away merely by differences in the basic warranty coverage. In fact, 12 of the laptop pairs and six of the desktop pairs were different in the wrong direction: the consumer units were priced up to $525 more than their business-oriented counterparts.
+
+While the average price difference was only $76 on the laptops and $146 on the desktops (close to the expected range), the actual price differences varied from -$525 to +$780. For those who eat statistics for lunch, the standard deviation for the laptop pairs was $232, while for desktop pairs it was $256.
+
+ Warranty Week gathered pricing information for over 400 actual Dell units, and compared them on the basis of processor, RAM, and hard drive. To make the configurations as current as possible, only units powered by an Intel Pentium 4 processor were considered. Because the consumer units in stock were not available with 2 Gigabytes of RAM, only systems containing between 128 MB and 1 GB were considered. And because the largest disk drives available on the consumer side were 120 MB, none of the 200 MB or multi-drive OptiPlex units were included in the comparison. Prices for Dell's workstations and servers -- which have no consumer equivalent -- were not included.
+
+Of course, there are plenty of reasons why two units from the same manufacturer that are identical on processor, memory, and hard drive capacity might still vary in price. One might have a better sound or video card than is standard in the "stock" configuration. Another might contain a CD burner or a DVD player. But these factors would tend to average out, unless one buys into the theory that consumers routinely demand more audio and video capabilities from their machines than their business counterparts. Still, even at the low end of today's PC market, in units equipped with a 1.8 GHz processor, 128 MB RAM, and a 20 GB hard drive -- hardly a turbo-charged multimedia console -- some of the consumer units were priced higher than their otherwise-identical business counterparts.
+
+Identical and Fraternal Twins
+
+As mentioned, only identical pairs were considered. Of the 230 Dimension and OptiPlex desktops, only 30 pairs were identical (or nearly so: 20 MB and 30 MB disk drives were considered close enough for a match). But even in those handful of instances, all the processor clock speeds and RAM sizes were exact matches.
+
+ Of the 170 Inspiron and Latitude laptops compared, a total of 27 identical pairs were found. Close matches were not included. But because there were no matches on both sides at either the 128 MB or 1024 MB RAM levels, only data for 256 MB, 384 MB, and 512 MB was used.
+
+Graphs of the data are presented below. System price is plotted on the vertical axis, while system configuration is plotted on the horizontal. Because the many different permutations of processor, memory, and storage cannot be plotted linearly in two dimensions, one should pay more attention to the relationship between the red and blue pairs of dots than to the slope or shape of the lines connecting the dots. The system configurations listed below the graphs are only four of the more representative configurations; space does not allow all 27 or 30 to be listed.
+
+To make sure the warranty coverage for these data points also was more or less identical, the cost of an extended warranty that brings the consumer units up to three years' coverage was bundled into the system price. In other words, the red line includes just the free basic three-year warranty, while the blue line includes the price of the three-year extended warranty option. Also, in the laptop chart, the cost of Dell's CompleteCare program , which covers everything from accidental droppage to Pepsi in the keyboard, was added to the price of both the Inspiron and Latitude lines. (Warning: this is a link to a 253k PDF file.)
+
+The red (business) and blue (consumer) lines therefore should virtually overlap one another. That they do not suggests there are other factors at work. First, as mentioned, other components could count for more than identical storage, memory, and processing power. Second, perhaps consumers are more (or less) price-sensitive at the low end, and less (or more) price-sensitive at the high end. Or third, perhaps in the personal computer industry, warranty is more important internally as a cost item than it is externally as a reason for price differences.
+
+Laptop Price Comparisons:
+ Business (Latitude) vs. Consumer (Inspiron)
+
+ Extended Warranty & CompleteCare Prices Added 
+
+Perhaps Dell has another first on its hands. It was the first to abandon the retail channel in pursuit of higher margins, first to build-to-order each unit, and first to push the envelope of the just-in-time manufacturing concept to just about enough to last the rest of the day. Perhaps Dell is the first to realize that warranties matter less in computing than in the automotive or consumer electronics industries.
+
+Perhaps that has something to do with the nature of the products. Some drivers might want a new car every three or four years, but the old cars are usually sold rather than junked. Meanwhile, home appliances and consumer electronics items are typically used until they wear out, then they're disposed. Particularly for items such as VCRs, replacements are more likely than repairs outside of warranty. But few people plan to buy a new TV every three years.
+
+In contrast, those who buy PCs and laptops today fully understand that even if their unit is in pristine condition in 2006, it will probably be outdated due to the rush of new technology. Even now, a desktop or laptop unit that turns three years old today probably does not contain a CD writer or a USB port, which many buyers might now consider indispensable. That old PC might have one of the first copies of Windows 2000 inside, but chances are higher that its applications run on Windows NT or Windows 98, which could themselves be reliability or security risks. Some of that software will soon cease to be updated or supported. And while a market for used or refurbished computers exists, the more likely second owner of an old PC is the local landfill.
+
+Perhaps PC buyers might be comfortable with even a 30-day warranty, as long as it covered out-of-the-box defects? Three years from now, they might not even consider a repair, except perhaps to help them recover data from their hard disk. So perhaps in the case of computers, the peace of mind that warranty brings is a rapidly depreciating asset?
+
+Laptop Warranties Valued More?
+
+Actually, the laptop chart shows less price deviation than the desktop chart. While on the chart above there are a few spots where the blue line veers off from the red line, there are many such deviations on the desktop chart below. One could argue that this is evidence that both consumers and business buyers value warranty coverage more highly for their laptops, perhaps because those units are typically carried and abused more than their stationary desktop counterparts. Therefore, the expectation that something will go wrong is higher for laptop buyers, the need for peace of mind is higher than on the desktop, and a longer warranty is more important to the buyer than, say, a screaming sound card or a Quake -worthy video card.
+
+Indeed, using the raw pricing data without including the extended warranty or accident coverage (available by clicking on the relevant chart), the consumer laptops are almost always priced lower than their business equivalent. And once that extended warranty and accident coverage is added in, they do approach parity (although the Inspirons still retain a price advantage, particularly at the low end).
+
+Desktop Price Comparisons:
+ Business (OptiPlex) vs. Consumer (Dimension)
+
+ With Equivalent Three-Year Warranties 
+
+The opposite is true of the business models. As the chart shows, the business desktop models retain a price advantage at the low end, the high end, and part of the midrange. While that differential is more pronounced once the warranties have been brought up to parity, it's also present in the raw data (click on the chart to see). What does that mean? Sadly, it suggests that consumers buying a desktop unit are likely to pay more for an identical product with a shorter warranty. At least in the business desktop corner of the market, buyers have been more successful demanding lower prices and longer warranties.
+
+This is not to say that some savvy consumers haven't been buying OptiPlexes and Latitudes to get the better prices and/or better warranties. That's like saying that no consumers buy commercial vehicles such as light trucks and vans. And no doubt, there are businesses that buy their PCs by the pallet, and can fix them or replace them in-house during years two or three (or four). They might value a lower price above all else, as long as the warranty covers out-of-the-box defects.
+
+Warranty Cost Down, Warranty Revenue Up
+
+The data suggests Dell may be onto something here. Basic warranty costs have remained more or less stable while extended warranty revenue has grown both in absolute terms and as a percentage of total revenue. That suggests buyers have responded well to the combination of lower system prices, less basic warranty, and the availability of extended warranty options. And when comparing apples to apples, price differences between identical pairs of consumer and business models cannot be explained away merely by differences in warranty. That suggests there are many buyers who rank warranty low on their list of features when they ask Dell to build them a PC.
+
+Perhaps Dell can have it both ways. It can deliver low prices and short warranties to those who don't care, and it can increase its own revenue by charging those who do care about warranties and accidental damage.
+
+ Go to Part Two 
+
+This Week's Warranty Headlines:
+
+ Hyundai Motor Co. expected to post declining profits, "ballooning costs of its warranty program " cited as major reason. 
+
+ Automotive News, May 9, 2003 
+
+ Siebel Systems investigated by SEC over allegations of selective financial disclosures to analysts at April 30 dinner. 
+
+ CBS MarketWatch, May 9, 2003 
+
+ NASDAQ de-lists shares of i2 Technologies Inc.; manufacturing software company is more than a month late with its 2002 annual report; SEC investigation continues into allegedly fraudulent accounting practices. 
+
+ CNET News.com, May 9, 2003 
+
+ Warrantech Corp. and ACE Property and Casualty (formerly CIGNA) settle all outstanding lawsuits. 
+
+ Press Release, May 7, 2003 
+
+ J.D. Power releases 2003 Initial Quality Study for autos sold in U.S.; Toyota, Porsche, BMW and Honda rank highest, while Suzuki, Mercury, Kia and Jaguar are most improved. 
+
+ Press Release, May 6, 2003 
+
+ Fujitsu Siemens Computers UK increases warranty coverage on select Scenic desktop models from three years to four years. 
+
+ The Register, 6 May 2003 
+
+ Weak Korean currency pays for Hyundai's and Kia's warranty costs. 
+
+ Forbes, May 6, 2003 
+
+ Canadian cars are cheaper than U.S., but cross-border warranty issue remains a deterrent to imports. 
+
+ USA Today, May 6, 2003 
+
+ Dixons attacks warranties row as simplistic. 
+
+ Electronic Telegraph, April 26, 2003 
+
+ Dixons chief extols new era of customer support. 
+
+ Times of London, April 26, 2003 
+
+ Dixons CEO refutes profiteering from warranties. 
+
+ Reuters, April 25, 2003 
+
+ NEW Customer Service Companies, citing "explosive growth," expands Florida contact center, boost employment. 
+
+ Press Release, April 21, 2003 
+
+ CRM dissatisfaction greatly exaggerated, Aberdeen Group white paper claims. 
+
+ CRMDaily.com, April 21, 2003 
+
+ Whirlpool Canada signs ServiceBench Inc. to process online warranty claims. 
+
+ Press Release, April 10,2003 
+
+ XL Specialized Inc. deploys Active Web Service's ActiveWeb Warranty to satisfy NHTSA TREAD Act Early Warning Reporting compliance. 
+
+ Press Release, April 7, 2003 
+
+ IBM, SAS join to help automakers comply with TREAD Act regulations. 
+
+ Computerworld, April 3, 2003 
+
+ PJ Trailers deploys Active Web Service's ActiveWeb Warranty to satisfy NHTSA TREAD Act Early Warning Reporting compliance. 
+
+ Press Release, April 1, 2003 
+
+ Interstate Manufacturing deploys Active Web Service's ActiveWeb Warranty to satisfy NHTSA TREAD Act Early Warning Reporting compliance. 
+
+ Press Release, April 1, 2003 
+
+ Insider secrets for PC buyers, Part 10: Warranties and Returns 
+
+ PC World, April 2003 
+
+ Speed Kills: With rapidly-increasing U.S. sales, low prices, and long warranties, Hyundai can't afford to make a mistake. 
+
+ Forbes, March 31, 2003 
+
+ Automakers rev up data mining efforts. Ford and others leverage data to comply with TREAD Act and improve warranty programs. 
+
+ InformationWeek, March 31, 2003 
+
+ Carmakers fear TREAD Act Early Warning Report file could assist rivals. 
+
+ Detroit Free Press, March 28, 2003 
+
+ Warrantech Corp. appoints Burt Shaw president of Consumer Products Division. 
+
+ Press Release, March 26, 2003 
+
+ IBM and SAS Institute offer manufacturers a warranty analysis and Early Warning Reporting solution for TREAD Act compliance. 
+
+ Press release, March 24, 2003 
+
+ Hewlett-Packard sues Virginia dealer, alleges company faked federal contracts to get bigger discounts for $22m in goods, which it allegedly resold on the gray market; Compaq previously filed suit in 2001 for similar reasons. 
+
+ News Release, March 14, 2003 
+
+ Tire cases haunt Ford, Bridgestone/Firestone. U.S. attorney begins probe by grand jury. 
+
+ Detroit Free Press, March 13, 2003 
+
+ Hyundai's reliability rankings in Consumer Reports now tie Honda's 
+
+ USA Today, March 11, 2003 
+
+ Is your car as good as you think? The sleek $50k BMW X5 and the nimble $15k Ford Focus are two of the most-recalled models in automotive history. 
+
+ Forbes, March 10, 2003 
+
+ Consumer Product Safety Commission rejects registration cards for children's products. 
+
+ Associated Press, March 7, 2003 
+
+ Raytheon increases reserve for two power plants it guaranteed to finish before selling off E&C division, schedule slips 3-4 more weeks, fourth quarter charges boosted from already announced $197 million to expected $262-$272 million range. 
+
+ Press Release, March 5, 2003 
+
+ Gartner survey finds 42 percent of CRM licenses sit on shelves uninstalled, declining budgets for associated CRM consulting costs cited as one reason for the waste. 
+
+ CNET News.com, March 3, 2003 
+
+UK Competition Commission releases letter describing the issues in its extended warranty investigation. Preliminary findings suggest Dixons Group may have more than 25% share of UK£800m extended warranty market, meaning "a scale monopoly may exist." Ruling expected this summer, could affect point of sale practices & insurance requirements among major UK retailers.
+
+ Press Release & Issues Statement, 27 Feb. 2003 
+
+ UK Consumers' Association launches counterattack on Dixons chief executive John Clare, who blasted CA in 14 Feb. interview. CA chief says extended warranties "in most cases they are unnecessary and don't offer good value for money," because products are more reliable than was thought. 
+
+ Daily Telegraph, Feb. 27, 2003 
+
+NY State Dept. of Motor Vehicles includes Viking Warranty, insurance, and credit card ads with renewal mailings in test program with Imagitas Inc. 
+
+ USA Today, Feb. 21, 2003 
+
+ Boston law firm files class action lawsuit, charges U.S. automakers block imports from Canada & refuse to honor warranties on those imports. 
+
+ ConsumerAffairs.com, Feb. 20, 2003 
+
+ Work declines at auto repair shops. Quality is a mixed blessing. Tough cars mean dealers earn less warranty money. 
+
+ Detroit Free Press, Feb. 14, 2003 
+
+Dell's profits soar, company cuts costs by more than expected, reduced warranty expenses cited. 
+
+ Austin American-Statesman, Feb. 14, 2003 
+
+ California Air Resources Board tells General Motors to extend warranty on 1996-2001 truck/SUV fuel injection systems from 3 years/50,000 miles to 10 years/200,000 miles. GM to absorb $115-per-vehicle fuel injector cleaning cost. 
+
+ Reuters, Feb. 12, 2003 
+
+ General Motors gives complete interior contract for 2006 Cadillac DeVille and Buick LeSabre to Lear Corp.; hopes that having single supplier saves on warranty cost. 
+
+ Forbes, Feb. 11, 2003 
+
+ R. L. Polk & Co. says 2002 median car age hits record 8.4 years, advances in vehicle quality and engine technology help produce second-lowest scrappage rate among passenger cars. 
+
+ News Release, Feb. 11, 2003 
+
+ more warranty headlines 
+
+ Sign up for a free subscription to Warranty Week: 
+
+ subscribe      
+
+ change of address      
+
+ unsubscribe      
+
+ Free subscription to Warranty Week: Click here for the plain text or the HTML email edition. 
+
+ Copyright © 2003 Warranty Week, All Rights Reserved

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"vitria-bpa","Vitria Business Process Automation (BPA)","application","Vitria","2005-2011","mature","rebranded-Pegasystems","vitria-testimonials-kastner-bpa-soa-rese-93ccae","Subject of Kastner endorsement"
+"vitria-collaboration-center","Vitria Collaboration Center","application","Vitria","2003-2011","new","discontinued","vitria-testimonials-kastner-bpa-soa-rese-93ccae","Process management with XML/EDI vocabularies"
+"soa-stack","Service-Oriented Architecture (SOA) Stack","framework","various","2003-2010","mature","displaced-by-microservices","vitria-testimonials-kastner-bpa-soa-rese-93ccae","Architectural pattern endorsed by Kastner; later displaced"
+"hipaa-edi-transactions","HIPAA EDI Transaction Sets","protocol","ANSI ASC X12","1996-present","mature","active","vitria-testimonials-kastner-bpa-soa-rese-93ccae","Healthcare data interchange standard"
+"xml-edi","XML and EDI Vocabularies","protocol","various","1998-present","mature","active","vitria-testimonials-kastner-bpa-soa-rese-93ccae","Data exchange standards leveraged by Vitria Collaboration Center"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Videoconferencing Booms on SARS Fears",
+  "description": "Electronic News (Electronics News Australia) reports videoconferencing surge tied to SARS-driven travel bans. Aberdeen Group analysts Russ Craig and Peter Kastner warn that the entire electronics assembly industry has 'critical, no-second-source dependence' on China-made components \u2014 a vulnerability SARS could expose. They frame the supply-chain risk as solvable only via aggressive public-health response.",
+  "creator": {
+    "@type": "Person",
+    "name": "Ry Crozier"
+  },
+  "datePublished": "2003-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Videoconferencing Boost \u2014 Intel TeamStation",
+  "description": "InformationWeek reports Intel's TeamStation room videoconferencing system \u2014 based on standard PC technology and priced at $9,999 ($11,999 with monitor) versus the $20,000 typical for proprietary room systems. Caterpillar Financial deployed in 12+ cities. Aberdeen Group analyst Peter Kastner explains how PC-based filtering produces 'less jerky video' over low-speed lines and predicts the technology will be 'fundamental to communications in the 21st century.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Mary E. Thyfault"
+  },
+  "datePublished": "1998-05-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

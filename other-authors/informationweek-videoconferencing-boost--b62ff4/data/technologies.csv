@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-teamstation","Intel TeamStation Room Videoconferencing System","platform","Intel","1997-2002","new","obsolete","informationweek-videoconferencing-boost--b62ff4","PC-based room videoconferencing system; $9,999/$11,999 with monitor"
+"intel-pentium-ii","Intel Pentium II","platform","Intel","1997-1999","new","obsolete","informationweek-videoconferencing-boost--b62ff4","Microprocessor underlying TeamStation"
+"h323-videoconferencing","H.323 Videoconferencing Standard","protocol","ITU-T","1996-present","emerging","active","informationweek-videoconferencing-boost--b62ff4","ISDN-based standard cited; corrected later from article's 'ISDN' framing"
+"h320-videoconferencing","H.320 Videoconferencing Standard","protocol","ITU-T","1990-present","mature","legacy-supported","informationweek-videoconferencing-boost--b62ff4","Older ISDN videoconferencing standard"
+"videoconferencing","Videoconferencing","application","various","1990-present","mature","active","informationweek-videoconferencing-boost--b62ff4",""
+"ip-videoconferencing","IP-based Videoconferencing","application","various","1996-present","emerging","active","informationweek-videoconferencing-boost--b62ff4","TeamStation supported newer H.320 IP standard alongside H.323 ISDN"

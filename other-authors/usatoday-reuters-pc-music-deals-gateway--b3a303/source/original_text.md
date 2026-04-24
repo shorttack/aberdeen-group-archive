@@ -1,0 +1,287 @@
+# More PC Music Deals Seen Breaking New Legal Ground
+
+> Archived from: USATODAY.com-More-PC-music-deals-seen-breaking-new-legal-ground.webarchive
+> Original publication date: 2003-05-30
+> Author: Reuters (uncredited)
+
+---
+
+## Original Document Text
+
+URL: http://www.usatoday.com/tech/news/2003-05-30-gateway-music_x.htm
+
+USATODAY.com - More PC music deals seen breaking new legal ground 
+
+<a href="http://gannett.gcion.com/adlink/5111/790811/0/225/AdId=347775;BnId=1;itime=157284962;nodecode=yes;link=http://clk.atdmt.com/AVE/go/146070985/direct;wi.728;hi.90/01/" target="_blank"><img src="http://view.atdmt.com/AVE/view/146070985/direct;wi.728;hi.90/01/"/></a><noscript><a href="http://gannett.gcion.com/adlink/5111/790811/0/225/AdId=347775;BnId=1;itime=157284962;nodecode=yes;link=http://clk.atdmt.com/AVE/go/146070985/direct;wi.728;hi.90/01/" target="_blank"><img border="0" src="http://view.atdmt.com/AVE/view/146070985/direct;wi.728;hi.90/01/" /></a></noscript>
+
+   Classifieds:   
+
+  |  
+
+  |  
+
+  |  
+
+ Home 
+
+ News 
+
+ Travel 
+
+ Money 
+
+ Sports 
+
+ Life 
+
+ Tech 
+
+ Weather 
+
+ Tech Products 
+
+ Products 
+ home 
+
+ Talking 
+ Tech 
+
+ Edward 
+ C. Baig 
+
+ Kim 
+ Komando 
+
+ Ask 
+ Kim 
+
+ Gaming 
+
+ Gaming 
+ home 
+
+ Arcade 
+
+ Jinny 
+ Gudmundsen 
+
+ Marc 
+ Saltzman 
+
+ Science & 
+ Space 
+
+ Science 
+ & Space 
+
+ April 
+ Holladay 
+
+ Dan Vergano 
+
+ This 
+ week in space 
+
+ Wireless Center 
+
+ Hotspot finder 
+
+ Wi-Fi 
+ primer 
+
+ Columnists 
+
+ Columnists 
+ index 
+
+ Andrew 
+ Kantor 
+
+ Kevin 
+ Maney 
+
+ More Tech 
+
+ Hot 
+ Sites 
+
+ Tech 
+ briefs 
+
+ RSS 
+ feeds 
+
+ Classifieds 
+
+ Marketplace 
+
+ Arcade 
+
+ Music 
+
+ Shopping 
+
+ Special 
+ Offer 
+
+ Newspaper 
+
+ Classifieds 
+
+ Posted 5/30/2003 11:15 AM     Updated 5/30/2003 11:28 AM 
+
+ Today's Top Tech Stories 
+
+ • Leak plugged on high-def DVDs  -  5:38 PM 
+
+ • Pulling plug on Net service not easy  -  12:39 PM 
+
+ • Yahoo, SanDisk team on wireless MP3 player  -  11:06 AM 
+
+ • AOL will target Google search ads on its sites  -  10:58 AM 
+
+ • Teen accused of Web escort service  -  8:12 AM 
+
+ • Add USATODAY.com RSS feeds   
+
+ More PC music deals seen breaking new legal ground 
+LOS ANGELES/NEW YORK (Reuters) — A legal dispute that threatened to derail Gateway's groundbreaking plan to load music on its computers has been quietly resolved amid growing interest in such offerings by rival PC makers, executives and analysts said Thursday.
+
+Months after announcing a first-of-its-kind deal in December to preload 2,000 tracks from music subscription service Pressplay onto its PCs, Gateway withdrew the offering for several weeks due to a dispute between Pressplay and music publishers, representatives of both sides said.
+
+The publishers, who own copyrights on songs, had sent a cease-and-desist order saying Gateway's deal did not fall under an October 2001 deal covering publishers' digital royalties.
+
+The crux of the issue was that the earlier agreement between music publishers and labels had been limited to online delivery, on-demand streaming and limited downloads. Gateway's deal to load songs onto a computer was a new form of delivery that required different licensing, the publishers argued.
+
+"We were caught in the middle of it as someone who was distributing the product," Gateway spokesman Brad Williams said of the dispute that was finally resolved earlier this spring.
+
+The tentative deal between publishers and Pressplay — which this month was purchased by Roxio and will soon be combined with the assets of defunct music file swap service Napster in a new service — is expected to serve as a template for other tie-ups expected this year between PC makers and music services.
+
+"We've reached an agreement in principle to solve this (Gateway) matter and are now finalizing a written agreement," said Carey Ramos, a lawyer for the Harry Fox Agency, which represents thousands of songwriters.
+
+Gateway, the No. 3 U.S. maker of personal computers, also promotes the rival Rhapsody service, owned by RealNetworks. No music comes preloaded in that arrangement. 
+
+ PC makers eyeing music deals 
+
+The computer sector is buzzing with talk of such distribution agreements, particularly on the heels of Apple Computer's launch of its own music service, which has sold more than 3 million tracks at 99 cents each to Macintosh users.
+
+"I would be surprised if a major PC company was not offering a music service towards the critical Christmas buying season in the fourth quarter," said Peter Kastner, chief research officer at the Aberdeen Group.
+
+"I really think that with Apple shooting off the starting gun ... the rest of the year will be a catch-up scramble to get product to market and grab Windows PC market share at all costs," he said.
+
+Roxio, for instance, which also sells CD-burning software to PC makers, has indicated it plans to leverage its ties with brand-name computer makers as it moves ahead with its music services.
+
+For its part, Dell Computer has left the door open to introducing its own music service.
+
+"We're always looking at new product opportunities. We don't have definite clarity on what we're going to have this year in terms of an offering like that," said Erin Nelson, Dell director of consumer business.
+
+Relations between record labels and computer makers have not always been harmonious. Apple and Gateway irked record companies in the past by appearing to promote consumers' right to download songs and burn homemade compilation discs.
+
+But in a tough market, analysts said that the computer industry had found a way to boost revenues with new music offerings, even if the services do not drive new PC sales. ( Related story: Waitt: Gateway has no plans to go private .)
+
+"This is not the kind of thing that companies of that size live on, but it's promising and it seems like it might go further," said Roger Kay, a PC analyst at market research group IDG.
+
+ Copyright 2005 Reuters Limited. Click for Restrictions. 
+
+Gateway to more music
+
+NaN/NaN/NaN NaN:NaN PM
+
+LOS ANGELES/NEW YORK
+ --> 
+
+ Newspaper Home Delivery - Subscribe Today 
+
+USATODAY.com partners: USA WEEKEND Sports Weekly Education Space.com 
+
+ Home Travel News Money Sports Life Tech Weather 
+
+ Resources: Mobile news 
+ Site map 
+
+ FAQ 
+
+ Contact us 
+ E-mail news 
+
+ Jobs with us 
+ Internships 
+ Terms of service 
+ Privacy policy/Your California Privacy Right 
+
+ Advertise Press Room Media Lounge Electronic print edition Reprints and Permissions 
+
+ Add USATODAY.com RSS feeds   
+
+The Nation's Homepage
+
+ Copyright 2008 USA TODAY, a division of Gannett Co. Inc.
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | usatoday-reuters-pc-music-deals-gateway--b3a303 |
+| title | More PC Music Deals Seen Breaking New Legal Ground |
+| author | Reuters (uncredited) |
+| date | 2003-05-30 |
+| type | news-article |
+| subject_domain | PC-music-distribution-deals |
+| methodology | news-reporting, expert-quote-aggregation |
+| source_file | USATODAY.com-More-PC-music-deals-seen-breaking-new-legal-ground.webarchive |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Reuters/USA Today reports a tentative copyright deal between music publishers and Pressplay (Roxio/Napster) clearing Gateway's PC-with-music plan to ship. Peter Kastner of Aberdeen Group predicts every major PC vendor will offer a music service by Q4 2003 holiday season — a 'catch-up scramble' triggered by Apple's iTunes Music Store launch the prior month.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents the immediate competitive response to Apple's iTunes Music Store launch (April 2003) and the industry-wide pivot to bundled PC music — a transient strategy that did not displace Apple's lead. |
+| **Relevance** | low | PC-bundled music services proved to be a brief 2003-2005 episode; market consolidated to Apple, then to streaming. |
+| **Prescience** | medium | Kastner's prediction that every major PC maker would offer music by Q4 2003 was broadly correct (Dell launched Dell Jukebox/MusicMatch, HP partnered with Apple in 2004) but the strategic framing missed Apple's structural lead. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Apple PC-share grab via music
+- **Claimed:** Catch-up scramble to grab Windows PC market share
+- **Year:** 2003
+- **Confidence at time:** low
+
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| USA Today | company | active |  |
+| Reuters News Agency | company | active |  |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Spiceworks Ziff Davis (2018) |
+| Apple Inc. | company | active |  |
+| Gateway, Inc. | company | acquired | Acer (2007) |
+| Pressplay | company | acquired | Roxio (2003) -> renamed Napster 2.0 |
+| Roxio Inc. | company | acquired | Sonic Solutions (2004); Napster brand sold to Best Buy (2008) |
+| Napster | company | acquired | Rhapsody/RealNetworks (2011); various successors |
+| Recording Industry Association of America (RIAA) | institution | active |  |
+
+### Technologies Referenced (3)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| iTunes Music Store | platform | Apple | new | active-as-Apple-Music |
+| Pressplay (subscription music) | platform | Sony/Universal | mature | rebranded-Napster |
+| DVD/CD-RW (PC optical drives) | hardware | various | mature | legacy-supported |
+
+### Observation Summary
+
+- Total observations: 6
+- By type: expert-opinion: 2, market-data: 2, market-trend: 1, viability-prediction: 1

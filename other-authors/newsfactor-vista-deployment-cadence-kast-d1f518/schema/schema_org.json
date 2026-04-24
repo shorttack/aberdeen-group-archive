@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Vista: How Soon Until Deployment?",
+  "description": "NewsFactor reports analyst views on enterprise Vista adoption pace. Peter Kastner, Aberdeen vice-president and research director for enterprise technology, frames a three-year hardware-lifecycle 'cadence' that places full Vista deployment in 2010 as new Vista-laden machines replace XP. Kastner predicts Microsoft will stop shipping XP in small business retail systems in 2007, forcing Vista uptake. He disagrees with Gartner's recommendation that businesses wait until 2008.",
+  "creator": {
+    "@type": "Person",
+    "name": "David Garrett"
+  },
+  "datePublished": "2006-11-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

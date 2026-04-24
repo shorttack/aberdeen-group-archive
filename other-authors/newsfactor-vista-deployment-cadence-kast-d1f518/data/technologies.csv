@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-vista","Microsoft Windows Vista","platform","Microsoft","2006-2017","pre-release","end-of-life","newsfactor-vista-deployment-cadence-kast-d1f518","Subject of deployment-cadence analysis; reached EOL April 2017"
+"windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","obsolete","newsfactor-vista-deployment-cadence-kast-d1f518","Incumbent OS being supplanted"
+"microsoft-office-2007","Microsoft Office 2007","application","Microsoft","2007-2017","pre-release","end-of-life","newsfactor-vista-deployment-cadence-kast-d1f518","Released alongside Vista to enterprise"
+"microsoft-exchange-2007","Microsoft Exchange Server 2007","application","Microsoft","2007-2017","pre-release","end-of-life","newsfactor-vista-deployment-cadence-kast-d1f518","Released alongside Vista to enterprise"
+"aero-glass-ui","Windows Vista Aero Glass UI","component","Microsoft","2006-2012","pre-release","obsolete","newsfactor-vista-deployment-cadence-kast-d1f518","Semi-opaque windows; horsepower-intensive"

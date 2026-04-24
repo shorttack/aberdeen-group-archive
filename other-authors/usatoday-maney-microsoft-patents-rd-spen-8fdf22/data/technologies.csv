@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-windows","Microsoft Windows","platform","Microsoft","1985-present","mature","active","usatoday-maney-microsoft-patents-rd-spen-8fdf22","Cited as moneymaker; recipient of incremental research"
+"microsoft-office","Microsoft Office","application","Microsoft","1989-present","mature","active","usatoday-maney-microsoft-patents-rd-spen-8fdf22","Cited alongside Windows as core franchise"
+"microsoft-xbox","Microsoft Xbox","platform","Microsoft","2001-present","new","active","usatoday-maney-microsoft-patents-rd-spen-8fdf22","Cited by Maney as not-yet-mega-hit despite R&D"
+"microsoft-tablet-pc","Microsoft Tablet PC","platform","Microsoft","2002-2012","new","obsolete","usatoday-maney-microsoft-patents-rd-spen-8fdf22","Cited as under-performing newer effort"
+"microsoft-msn","MSN","platform","Microsoft","1995-2014","mature","rebranded","usatoday-maney-microsoft-patents-rd-spen-8fdf22","Cited as not-yet-mega-hit"

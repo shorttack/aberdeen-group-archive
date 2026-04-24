@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"small-form-factor-pc","Small Form Factor PC (Media Center / Living Room)","platform","various","2003-2010","new","obsolete","usatoday-reuters-small-pcs-form-factor-2-5ffca5","Living-room-targeted PCs; displaced by streaming devices and game consoles"
+"windows-xp-media-center","Windows XP Media Center Edition","operating-system","Microsoft","2002-2008","new","end-of-life","usatoday-reuters-small-pcs-form-factor-2-5ffca5","OS for living-room PCs; folded into Vista/7 Home Premium"
+"gateway-901-family-room","Gateway 901 Family Room Media Center","hardware","Gateway","2003-2007","new","obsolete","usatoday-reuters-small-pcs-form-factor-2-5ffca5","Champagne-gold living-room PC; $1,000-$2,000 price point"

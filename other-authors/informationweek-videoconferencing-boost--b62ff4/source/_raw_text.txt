@@ -1,0 +1,363 @@
+URL: http://www.informationweek.com/680/80iuvid.htm;jsessionid=QRCIIVADGX0LMQSNDLRSKHSCJUNN2JVN
+
+-->
+ Videoconferencing Boost 
+ InformationWeek.com 
+
+/ TOP POP UP AD 1 of 2 -->
+
+/SUPERNAV -->
+
+<script language="JavaScript" type="text/javascript">
+document.write('<a href="http://clk.atdmt.com/DWO/go/147024302/direct/01/bwreNwn,bfdqscteRNkbd" target="_blank"><img src="http://view.atdmt.com/DWO/view/147024302/direct/01/bwreNwn,bfdqscteRNkbd"/></a>');
+</script><noscript><a href="http://clk.atdmt.com/DWO/go/147024302/direct/01/bwreNwn,bfdqscteRNkbd" target="_blank"><img border="0" src="http://view.atdmt.com/DWO/view/147024302/direct/01/bwreNwn,bfdqscteRNkbd" /></a></noscript> 
+
+ Welcome Guest. | Log In | Register | Membership Benefits 
+
+ United Business Media 
+ -->
+
+ InformationWeek 
+
+Defining The Business Value Of Technology
+
+ Part of the TechWeb Business Technology Network 
+
+ -->
+
+ The Nokia N810 Linux Internet Tablet Doesn't Make Sense 
+
+ Vote: Dubious Dweeb, Courageous Crusader, Or Tech Terrorist? 
+
+ -->
+
+ Apple's iPhone Rules 
+
+ Wal-Mart's Linux Retreat 
+
+ -->
+
+/ take IW with you promo -->
+
+/ mobile promo
+
+ -->
+
+/ iw500 promo wide 
+
+ -->
+ -->
+
+ -->
+
+ -->
+
+ -->
+
+Get News On Your Phone
+
+ -->
+
+ RSS Feeds 
+
+ Subscribe 
+
+ Events 
+
+ Digital Library 
+
+ News 
+
+ Blogs 
+
+ Software 
+
+ Security 
+
+ Hardware 
+
+ Mobility 
+
+ Windows 
+
+ Internet 
+
+ Global CIO 
+
+ Government 
+
+ Careers 
+
+ -->
+
+ May 4, 1998
+
+Videoconferencing Boost
+
+Intel's TeamStation room system promises PC-like ease of use and pricing
+
+By 
+ Mary E. Thyfault
+
+ntel is looking to bring the ease and integrated applications of desktop videoconferencing to
+room systems.
+
+The vendor's new TeamStation system, based on standard PC technology, will let conference
+attendees share PC applications and access network applications, including those on the
+Internet. Until now, room videoconferencing systems were based on proprietary hardware and
+often required participants to perform cumbersome tasks to share applications. 
+
+"People have had this wonderful suite of applications at their desktop, then you walk into a
+conference room and you're faced with 1950s technology," says Michael Witteman, director of
+product development for Intel's business communications unit in Hillsboro, Ore. Many people
+don't finish business during videoconferences, Witteman says, because they don't have PC app
+tools with them. "People are constantly breaking out for five-minute cycles of non-productivity
+time," he says. "With TeamStation, people can meet in the conference room and get all of their
+work done." 
+
+Caterpillar Financial Services Corp. is installing TeamStation in six North American cities, five
+European cities, and Singapore. "We're hoping that people can be looking at an Excel spreadsheet
+and comment on it at the same time," says Gwen Leuthold, performance consultant for
+Caterpillar Financial, a Nashville, Tenn., unit of farm-equipment maker Caterpillar.
+
+The parent company wants to eventually enable most employees to easily use
+either desktop or
+room videoconferencing. The company projects it will have 1,000 videoconferencing users by
+mid-1999. Caterpillar has already installed more than 30 TeamStations.
+
+Using a Web interface, conference participants can download presentations from their desktop to
+the room system, which is attached to the corporate network. TeamStation runs the Pentium II
+microprocessor and filtering software to compress the video signal, send it over the
+communications line, and decompress it at the other end. This creates a less jerky video
+presentation over low-speed lines, says Peter Kastner, an analyst with the Aberdeen Group.
+
+By relying on standard PC technology, Intel is able to price TeamStation below proprietary room
+videoconferencing systems. TeamStation is priced at $9,999, or $11,999 including monitor; until
+recently, full-featured room systems have been priced closer to $20,000. "As the costs come
+down, this technology will be fundamental to communications in the 21st century," Kastner
+says.
+
+But price isn't all that's important to customers. "The most important feature of TeamStation is
+its ease of use," says Gus Otto, director of videoconferencing at Caterpillar. "It's eight easy
+steps to put together out of the box."
+
+TeamStation also interconnects with existing videoconferencing systems that rely on the H.323
+ISDN standard and systems based on the newer H.320 IP videoconferencing standard.
+
+ Back to News In Review
+
+ Send Us Your Feedback
+
+ Top of the Page
+
+ Home
+ |
+ Career
+ | 
+ Financials
+ | 
+ NewsFlash
+
+ Resource Centers
+ | 
+ Shop Talk
+ | 
+ Search
+
+ -->
+
+ CAREER CENTER 
+
+Looking for a new job?
+
+ Open | Close 
+
+ Employers: Give your recruitment message influence. Advertise in the InformationWeek 500 . -->
+
+ SEARCH 
+
+ Function: 
+
+ Information Technology 
+ Engineering 
+
+ Keyword(s): 
+
+ State: 
+
+ Post Your Resume 
+
+ Employers Area 
+
+ News & Features 
+
+ Blogs & Forums 
+
+ Career Resources 
+
+ Browse By: 
+
+ State | City 
+
+ SPONSOR 
+
+ RECENT JOB POSTINGS 
+
+ BTG - Now Hiring 
+
+-->
+ Featured Jobs: 
+
+Boeing seeking Software Engineer 1 in Anaheim, CA 
+
+Switch and Data seeking Site Facility Technician in Sunnyvale, CA 
+
+New York Life seeking Insurance and Investment Sales in Schaumburg, IL 
+
+Washington State Investment Board seeking IT Specialist in Olympia, WA 
+
+Kforce seeking VA Mortgage Processors in Phoenix, AZ 
+
+For more great jobs, career-related news, features and services, please visit our Career Center .
+
+ CAREER NEWS 
+
+ Companies Looking To Hire CIO 2.0 
+
+After months of gloom and doom, companies are again hiring new CIOs.
+
+ Minorities, Women Underrepresented In IT 
+
+According to reports, minorities are underrepresented in high-technology companies.
+
+ More articles from our career center 
+
+Today's Top News
+
+ China Making Green Dam Internet Filter Optional 
+
+ Sun Dropping Rock Chip Project, Says Report 
+
+ MySpace Cuts 30% Of Workforce 
+
+ AT&T Axes Prepaid iPhone 3G Plans 
+
+ Microsoft Sues Three For Click Fraud 
+
+ Opera Browser Becomes File Sharing Platform 
+
+ -->
+
+ See Image Galleries 
+
+Specialty Resources
+
+ What Does it Take to Make Multicore Happen? 
+
+Getting Started with Cloud Computing 
+
+Don't compromise Security to Well-intentioned workers 
+
+ BPM and SOA: Better Together 
+
+Document Imaging In Growing Businesses 
+
+ VIEW ALL BRIEFING CENTERS 
+
+Featured Microsite
+
+ InformationWeek Marketplace (Sponsored Links) 
+
+ Download Award-Winning Service Desk software, Free 
+ Try Numara FootPrints 9, The ITSM software that Delivers Real Value, Flexibility and Results. 
+
+ Download Free SAP Financial Mgmt. Demo 
+ Register to Find out how SAP solutions can improve your profitability. 
+
+ Advertise With Us 
+
+ InformationWeek Home 
+
+ News 
+
+ Windows 
+
+ Security 
+
+ Mobility 
+
+ Internet 
+
+ Software 
+
+ Hardware 
+
+ CIO Central 
+
+ Research & Tools 
+
+ Careers 
+
+ Become A Member/Membership Benefits 
+
+ About Us 
+
+ Contact Us 
+
+ Current Issue 
+
+ Back Issues 
+
+ White Papers 
+
+ Briefing Centers 
+
+ Site Map 
+
+ Advertising Contacts 
+
+ Technology Marketing Solutions 
+
+ Editorial Calendar 
+
+ Other Techweb Sites: 
+
+ Informationweek Germany 
+
+ Network Computing 
+
+ TechWeb 
+
+ Intelligent Enterprise 
+
+ Dark Reading 
+
+ Light Reading 
+
+ Byte & Switch 
+
+ Internet Evolution 
+
+ bMighty 
+
+out.println("
+ Small Biz Resource 
+");
+
+ Insurance & Technology 
+
+ Wall Street & Technology 
+
+ Bank Systems & Technology 
+
+ Advanced Trading 
+
+ -->
+
+ Terms of Service | Privacy Statement | Copyright © 2009 United Business Media LLC, All rights reserved. 
+
+ -->
+
+ -->
+
+/ TOP POP UP AD 2 of 2 -->

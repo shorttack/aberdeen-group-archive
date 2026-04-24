@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"itunes-music-store","iTunes Music Store","platform","Apple","2003-present","new","active-as-Apple-Music","usatoday-reuters-pc-music-deals-gateway--b3a303","Launched April 2003; 99-cent track pricing"
+"pressplay-service","Pressplay (subscription music)","platform","Sony/Universal","2001-2003","mature","rebranded-Napster","usatoday-reuters-pc-music-deals-gateway--b3a303","Subscription music service before MP3 ownership model dominated"
+"dvd-cd-rw","DVD/CD-RW (PC optical drives)","hardware","various","2000-2010","mature","legacy-supported","usatoday-reuters-pc-music-deals-gateway--b3a303","PC optical drives that allowed compilation-disc burning, source of label concerns"

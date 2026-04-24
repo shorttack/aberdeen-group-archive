@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Small Is Huge in PCs These Days",
+  "description": "Reuters reports the rise of small-form-factor PCs designed for the living room. Gartner forecasts shipment volume rising from 1.2M units (2003) to 32.1M (2008). Peter Kastner of Aberdeen Group describes 'the next form factor battles being fought in the living room' as size and decor begin to matter. Gateway's 901 Family Room Media Center exemplified the trend at $1,000-2,000.",
+  "creator": {
+    "@type": "Person",
+    "name": "Kenneth Li (Reuters)"
+  },
+  "datePublished": "2004-04-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Vitria Testimonials \u2014 Aberdeen on BPA / SOA Stack",
+  "description": "Vitria Technology testimonials page (archived 2009) features Peter S. Kastner, Vice President of Enterprise Integration Research at AberdeenGroup, endorsing Vitria's Business Process Automation (BPA) vision. Kastner cites Aberdeen primary research showing buyers prefer SOA stacks for integration. Date estimated as 2007 from Kastner's Aberdeen title and Vitria's BPA product framing [REVIEW].",
+  "creator": {
+    "@type": "Person",
+    "name": "Vitria Technology, Inc."
+  },
+  "datePublished": "2007-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

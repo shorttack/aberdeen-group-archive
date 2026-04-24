@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-windows-xp","Microsoft Windows XP","platform","Microsoft","2001-2014","mature","obsolete","usatoday-maney-mac-or-pc-windows-securit-b45d45","Subject of virus epidemic; mature in 2004"
+"apple-mac-os-x","Apple Mac OS X","platform","Apple","2001-2020","mature","renamed-macOS","usatoday-maney-mac-or-pc-windows-securit-b45d45","Cited as virus-free alternative; renamed to macOS in 2016"
+"symantec-antivirus","Symantec Antivirus","application","Symantec","1990s-2010s","mature","rebranded","usatoday-maney-mac-or-pc-windows-securit-b45d45","Source of 5,000-new-viruses statistic"

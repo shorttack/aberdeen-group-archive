@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"dell-optiplex-gx260","Dell OptiPlex GX260","hardware","Dell","2002-2005","mature","obsolete","warranty-week-dell-warranty-policies-kas-0c084d","Business desktop fitting Aberdeen reference model precisely"
+"dell-dimension","Dell Dimension (consumer desktop)","hardware","Dell","1993-2007","mature","discontinued","warranty-week-dell-warranty-policies-kas-0c084d","Consumer desktop line; coverage cut to 1-year warranty"
+"dell-inspiron","Dell Inspiron (consumer notebook)","hardware","Dell","1997-present","mature","active","warranty-week-dell-warranty-policies-kas-0c084d","Consumer notebook line; coverage cut to 1-year warranty"
+"dell-latitude","Dell Latitude (business notebook)","hardware","Dell","1994-present","mature","active","warranty-week-dell-warranty-policies-kas-0c084d","Business notebook line; retained 3-year warranty"
+"intel-pentium-4","Intel Pentium 4 (2.4 GHz)","platform","Intel","2000-2008","mature","obsolete","warranty-week-dell-warranty-policies-kas-0c084d","Aberdeen reference model CPU"
+"aberdeen-pc-reference-model","Aberdeen PC Reference Model","framework","Aberdeen Group","2003-2008","new","obsolete","warranty-week-dell-warranty-policies-kas-0c084d","2.4 GHz P4, 256 MB RAM, 40 GB HDD, CD-ROM, 15-17 inch monitor, Ethernet"

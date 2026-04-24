@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "More PC Music Deals Seen Breaking New Legal Ground",
+  "description": "Reuters/USA Today reports a tentative copyright deal between music publishers and Pressplay (Roxio/Napster) clearing Gateway's PC-with-music plan to ship. Peter Kastner of Aberdeen Group predicts every major PC vendor will offer a music service by Q4 2003 holiday season \u2014 a 'catch-up scramble' triggered by Apple's iTunes Music Store launch the prior month.",
+  "creator": {
+    "@type": "Person",
+    "name": "Reuters (uncredited)"
+  },
+  "datePublished": "2003-05-30",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

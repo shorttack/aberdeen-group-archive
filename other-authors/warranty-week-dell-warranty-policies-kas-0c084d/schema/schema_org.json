@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Dell's Warranty Policies",
+  "description": "Warranty Week analyzes Dell's warranty policies. Peter S. Kastner, executive vice president and chief research officer for the Consumer Digital Technology Practice at Aberdeen Group, recommends enterprise PC buyers seek minimum three-year basic warranties with next-business-day on-site repair. Aberdeen's PC reference model specifies a 2.4 GHz Pentium 4, 256 MB RAM, 40 GB drive. Dell's Dimension/Inspiron consumer lines were cut to one-year coverage; OptiPlex/Latitude business lines retain three-year terms \u2014 a $129-$199 differential.",
+  "creator": {
+    "@type": "Person",
+    "name": "Eric Arnum"
+  },
+  "datePublished": "2003-05-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

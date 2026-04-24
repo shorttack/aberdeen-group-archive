@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Victorious Incumbents Vow Change For CA",
+  "description": "InformationWeek reports the aftermath of the Sam Wyly proxy fight against Computer Associates' incumbent board (Charles Wang/Sanjay Kumar). Aberdeen Group analyst Peter Kastner argues CA's customer-facing changes were driven by a 'standing pejorative that CA screws its customers' rather than by Wyly pressure \u2014 CA was already 'tweaking sales and support organization' continuously. Customer Andrew Winer of Myers Industries voiced relief that splitting the company was averted. Date inferred from Wyly post-fight context [REVIEW].",
+  "creator": {
+    "@type": "Person",
+    "name": "David Joachim"
+  },
+  "datePublished": "2001-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

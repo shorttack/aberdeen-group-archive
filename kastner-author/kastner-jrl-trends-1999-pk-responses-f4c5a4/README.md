@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Internal Aberdeen-era memo: a list of 9 trends for 1999 compiled by 'JRL' (likely John R. Lewis or Joe Levy at Aberdeen) followed by detailed 'PK Response' annotations from Peter Kastner. Trends covered: application integration, Y2K remediation, Y2K contingency planning at the business-unit level, Intel banner year, #1-vendor market-share gains, telecom switching, Sun's enterprise data center ascendancy, Windows 2000 slow adoption, post-Y2K e-commerce. Kastner adds three extension trends: who owns security, the year of the object, and computing as a utility / ISP business. Primary-source artifact of Kastner thinking in 1999.
+Internal Aberdeen-era memo: a list of 9 trends for 1999 compiled by 'JRL' (John R. Logan, Aberdeen Group co-founder, partner, and board chairman) followed by detailed 'PK Response' annotations from Peter Kastner. Trends covered: application integration, Y2K remediation, Y2K contingency planning at the business-unit level, Intel banner year, #1-vendor market-share gains, telecom switching, Sun's enterprise data center ascendancy, Windows 2000 slow adoption, post-Y2K e-commerce. Kastner adds three extension trends: who owns security, the year of the object, and computing as a utility / ISP business. Primary-source artifact of Kastner thinking in 1999.
 
 ## Data Tables
 

@@ -1,0 +1,19 @@
+﻿Memo
+To:  Sales, Research
+From: Pete Kastner
+August 11, 2001
+Sj:  New Master Price List
+
+As part of our new service product launch, we have recast the current price list with an eye on rationalizing the various services and add-ons.  Things are now more simplified.
+
+Key points are:
+    • There is a new, one-time-only “introductory” Aberdeen Advisory Service (AAS) retainer for six months at $6,000 with a half-day of consulting.  There are five types of retainers: base days only; base plus a collateral project; Alschuler e-Business@Aberdeen; Hurley security service; and PES.
+    • The base retainer is built by adding per diems to a $7,000 annual base access.  Quote the sum (i.e., 2-day VP retainer is $6,000 x 2 + $7,000).  Note that existing retainer clients should be renewed at current rates.
+    • To the base retainer, any combination of add-ons: ETI content/pubs, and more analysts days.  In the e-Business case & security , add more surveys.
+    • Emerging companies (e.g, small companies/first-time clients) who purchase the introductory AAS get a discount (roughly 15%) off of the initial order for base days and publication add-ons.  This eliminates the separate schedule.
+    • Per diem rates fall into three classes:
+        ◦ List price for non-retainer clients
+        ◦ AAS Rate for retainer clients
+        ◦ Days 3-N for projects involving more than two days of labor.
+The Day 3-N rates are aimed at improving billability with reasonable prices.
+    • Retainer clients receive a discount on publication projects to reflect the knowledge we build up on the client’s company, and as an incentive to keep the relationship going with more projects.

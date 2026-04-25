@@ -1,0 +1,242 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+Table of Contents	i
+I.	Introduction / Objectives	1
+A.  Objectives of Workshop	1
+II.	Briefing Overview	1
+A.	What is a briefing?	1
+B.	Why Do Suppliers Come to Aberdeen for Briefings?	1
+C.	The Supplier’s Profile	2
+III.	Briefing Methodology	2
+A.	Briefing Scheduling	2
+B.	 Pre-Briefing Due Diligence	3
+1.	Gather Information	3
+2.	Complete a Vendor/Product Profile Template	4
+3.	Pre-briefing Aberdeen team coordination (major accounts)	5
+C.	Understand your Supplier’s Team and the Role of the PR Representative	5
+1.	The supplier’s team	5
+2.	Public Relations (PR) representatives	6
+D.	The “Lead Up”	6
+1.	Reconcile scheduling conflicts.	6
+2.	Take control and set the agenda	7
+3.	Provide the client with a brief overview of Aberdeen.	7
+4.	Introduce your practice area	7
+5.	Clarify the ground rules regarding NDA	8
+E.	The Supplier’s Presentation	9
+1.	Tips for staying wake and asking questions	9
+2.	Other tips for the suppliers presentation	10
+F.	Wrap-Up and Pitch	10
+1. 	Reflect and summarize what you heard	10
+2.	Present your pitch to the client	11
+G.  Follow-Up	11
+IV.	And Never and Always	12
+A.	Best practices	12
+B.	Things you should never do in a briefing	13
+V.	Briefing Sales Strategies	14
+
+
+    I. Introduction / Objectives
+A.  Objectives of Workshop
+    • Provide analysts with a consistent methodology on how to conduct a briefing.  
+    • Help you understand the mechanics of briefings including methodology, and provide useful questions & answers. 
+    • Provide analysts with specific tools to use during the supplier briefing as well as to capture supplier information.
+    II. Briefing Overview
+        A. What is a briefing?
+    • A briefing is a planned meeting between Aberdeen representatives, Analysts and Account Managers, and Information Technology (IT) suppliers in which the supplier presents to Aberdeen Analysts their company, product, message, etc.  
+    • Supplier briefings provide Aberdeen Analysts with the opportunity to gather detailed supplier information for research purposes as well as the opportunity for Aberdeen to introduce the supplier to Aberdeen and its services.  Every briefing should be viewed as a business opportunity. 
+B.	Why do suppliers come to Aberdeen for briefings?
+    • IT suppliers come to Aberdeen for briefings because they want to hear what Aberdeen has to say about their industry, company, products/services, and prospects.  As a leading industry analyst firm, they believe that our insights are invaluable (and worth paying for).
+    • During briefings, suppliers probe analysts to reveal their insights as well as information that they have heard from somewhere else. 
+    • Suppliers aim to win the analysts support and strive to make a good impression so analysts will say or write positive things about them in their reports, white papers, etc.  Suppliers often feel that it is worse to be forgotten or left out of a industry report in their sector then to be mentioned negatively.
+C.	The supplier’s profile
+    • An Analyst’s target audience at a briefing consists of supplier executives who do not yet know Aberdeen, or what they do know about Aberdeen is from intermediaries – their public relations firm, press quotes, prospects, etc.
+    • Do not be surprised that even with all our published reports and quotes in the press that some senior supplier executives will not have heard of Aberdeen.  Even if they have heard about Aberdeen, they will not know about our services or what we can do for them.
+    • Importantly, senior supplier executives are likely to lump Aberdeen Group in with the broad market research industry companies like  Gartner Group, Meta, IDC, Forrester, and therefore lack an appreciation for our supplier-focused market strategy, positioning, and research products and services. Additionally, we’ve found that even most current clients do not know the breadth of potential projects that Aberdeen could assist them with. 
+    III. Briefing Methodology
+A.	Briefing Scheduling
+    • Briefings are scheduled in one of several ways.  First, a supplier may contact an analyst directly to schedule a briefing or second, an e-mail request may be sent to ???? inquiring about a briefing request.   
+    • The best location to conduct a briefing is at an Aberdeen office.  The second best site would be the supplier’s location, and the least desirable site would be at a convention or trade show.  It is recommended that the analyst use their best judgment in scheduling the best location.
+    • Once a briefing has been requested, the “lead” Aberdeen Analyst is responsible for ensuring that all that all appropriate people are invited to attend the briefing.  This means that if there are other Analysts at Aberdeen that should attend the briefing because the supplier’s products/services overlap into their technology space as well, that the “lead” Analyst should ensure they are invited. It is strongly recommended that Aberdeen Analysts conduct a briefing in a team approach consisting of a “lead” Analyst along with the appropriate sales Account Manager.  
+    • Generally, Analysts who are “newly hired” or still on “ramp-up” should not conduct a briefing alone.  Because Aberdeen’s consulting-oriented business is highly dependent on client’s wanting to do business with an Analyst and Aberdeen, the briefing can be a make-or-break opportunity for the Analyst and company.  Therefore, first impressions are critical, and it would be unreasonable for Aberdeen to assume that a new analyst, regardless of industry experience, would be able to handle the nuances of: 
+        ◦ Impressing the client with the analyst’s knowledge without giving away the knowledge we can sell.
+        ◦ Assimilating and synthesizing the prospect’s key technology, market segment, competition, weaknesses, and success factors
+        ◦ Identifying the prospect’s needs and describing the appropriate primary Aberdeen Group product or service
+        ◦ Identifying other services that may be appropriate.
+        ◦ Identifying other Aberdeen research practice areas that could assist the prospect.
+    • The “lead” Analyst is responsible for coordinating a conference room for the briefing.  Some things to remember include:
+        ◦ Choose a conference room appropriate for the meeting.  How many outsiders are attending?  How many from Aberdeen?  Is video conferencing with another Aberdeen office needed?
+        ◦ Is the time block correct?  Does the supplier have time constraints such as an airplane connection?  Generally, a briefing should take between sixty and ninety minutes.  If the briefing takes more than two hours, it takes on the opportunity of a half-day consulting assignment. (However, large suppliers occasionally require as much as two hours).  Use discretion and remember that time is money!  
+B.	 Pre-Briefing Due Diligence
+                    1. Gather Information
+Once a briefing has been scheduled, the “lead” Analyst is responsible for making sure that basic background information is gathered in advance of the scheduled briefing.  Basic background information can be obtained by:
+    • Request internal marketing supplier material from the supplier before the meeting.
+    • Review the supplier’s web site.
+    • Review SI information for companies that are public.
+    • Log-on to MSN investor.com and/or Quicken.com, etc. to review information on those suppliers that are public companies.
+    • Examine any additional documentation on the supplier’s products or company from trade publications, financial analyst reports, chat rooms, and (especially) competitor’s web sites and white papers.
+    • Check out Aberdeen’s publication library to see if we have profiled the company, and the Finance department to see if the prospect has previously been a client.  If they have a prior relationship, contact the analyst or the analyst’s department manager if the analyst is no longer with the company.
+2.	Complete a vendor/product profile template
+    • Once you have gathered information on the supplier, a “Vendor/Product Profile” template should be completed. This template is a high-level summary of the information necessary within every product and vendor note.  At minimum, the “lead” Analyst should have this level of detail in a fact sheet prior to the vendor meeting and provide it to all attendees.   The purpose of this template is to capture basic company/product information and provide it to all Aberdeen attendees so Analysts and Account Managers will have some general understanding of the company / product.  Information includes:
+    • Vendor name and stock ticker
+    • Headquarters location
+    • Fiscal year-end
+    • Prior year revenues / growth
+    • Prior year net earnings / growth
+    • Prior year products & services
+    • Prior year employee count
+    • Chairman and CEO
+    • Analyst relations manager
+    • Contact information – Who set up the briefing with Aberdeen?
+    • Product name
+    • Product portfolio scope
+    • Industry focus
+    • Market segment – as defined by the lead analyst’s practice definition
+    • A one-paragraph, Aberdeen-eyes-only, assessment of the company’s current position, strengths and weaknesses.  
+Example:  
+“XYZ Inc. is an internet infrastructure dot.com in the web server segment with strong technology driven by founder-CEO Rich Dude.  The company is technology-focused, lacks market focus, and is foundering now that Oracle is offering competing products.  If they don’t rapidly stand out in this confused market, they will never achieve market leadership.”
+    3. Conduct pre-briefing team coordination for major accounts
+    • For all major account briefings, the “lead” Analyst and the Account Manager should conduct a pre-briefing meeting prior to an Aberdeen major-accounts briefings.  Major Accounts are those large industry suppliers, which, by their size or scope cross several analyst practices and usually require cross-Research coordination.
+    • A pre-briefing team approach should determine the following:
+    • Who should be at the briefing?
+    • The roles of Aberdeen attendees.
+    • The business goal of the meeting.
+    • Other proposals and business that may be influenced by the meeting.
+    • A Research consensus on the strengths and weaknesses of the key account.
+    C. Understand your Supplier’s Team and the Role of the Public Relations (PR) Representative
+It is important to know before the briefing the relationship dynamics of your supplier’s team as well as what the role of the PR Representative is during the briefing.
+1.	The supplier’s team
+    • Generally, your supplier’s team will include the supplier representatives as well as a public relations representative.
+    • Identify the organizational “pecking order” of the supplier representatives and their company affiliation.
+    • Clarify any changes in the organization brought about since the last briefing:  organization changes; new roles; employee turnover.
+    • Identify who the potential buyer is and who the influencers are.
+2.	The PR representative
+    • PR representatives – or someone from the analyst relations department of larger suppliers -- are usually present at the briefings because they get paid to schedule meetings with analysts.  They may act as court reporters or take an active role in documenting the meeting. Often times they may be frustrated with the client and are hoping that you can help them get the company to higher ground.  The following provides tips on handling Public Relations representatives in a briefing:
+        ◦ Always treat the PR representative as another professional helping the supplier and industry better understand each other.  If you do this right, they will generally, bring you more prospective clients and may even recommend that you purchase our services.
+        ◦ Keep in mind that the PR firm may have been the source or a primary influencer of the very positioning and presentation you may criticize.  PR firms frequently do positioning projects with emerging clients, in competition with Aberdeen’s services.
+        ◦ Act as if you are speaking into a tape recorder.  Usually, the PR representative will act as a court reporter who will write done your exact words and use those words to build a dossier on you as an analyst.  Large firms such as IBM routinely track what individual analysts say.  
+        ◦ If appropriate, politely tell the “court reporter” that you will temper your verbal remarks and analysis if everything is being written down, and that you may be more frank and open if everyone just listens.
+        ◦ Remember that you are the specialist while the PR firm is the generalist.   Independent PR firms may believe you are stepping into their area in terms of strategy recommendations and research they would like to conduct for their clients.  It is imperative that the prospect understands that Aberdeen does market positioning and strategy based on the strength of our seventy analysts and as the core of our business, and that PR firms typically lack our industry knowledge, and market positioning is not the prime duty of a PR firm.  
+    D. The “Lead Up”
+                    1. Reconcile scheduling conflicts.  
+    • On the day of the scheduled briefing, the “lead” Analyst should make sure that there are no unpredictable scheduling conflicts for the conference room.   If there are conflicts, the “lead” Analyst should reconcile them with the Office Manager prior to the scheduled briefing time.
+2.	Take control and set the agenda	
+    • The “lead” Analyst should control the briefing. Remember that suppliers have asked you to give them 1-2 hours of your valuable time and you should direct the flow of the meeting based on your agenda, not theirs.  Start taking control at the introductions by setting an agenda that includes how much time is agreed on, when the “hard” stop is and also your briefing style. Clients coming from other analyst firms that day, will appreciate your collaborative process.  
+“At Aberdeen we’re experts on positioning and messaging so during your presentation I’ll be listening to what you have to say through your filter.  We have about an hour and a half and we’ll have to conclude by 3:00 p.m.  I’d also like to tell you that my briefing style is a collaborative process that seeks to learn more about a supplier’s product and services and therefore would like to take 15 minutes at the end to ask you questions and make observations.  Is this acceptable to you?”
+3.	Provide the client with a brief overview of Aberdeen.  
+    • After you’ve set the agenda and stage for the meeting, the “lead” Analyst should provide the client with a brief overview of Aberdeen.  Make sure to be enthusiastic, and include an example of how some of our services have helped other clients.  
+“Aberdeen Group is a leading IT market analysis and positioning services firm, that helps IT vendors and suppliers establish leadership in emerging markets.  Steeped in technology and armed with end-user field research, we help to answer clients’ critical business and technology questions in the context of the internet economy.  
+Recently, I worked with a Business-to-Business infrastructure supplier undergoing intensifying competition and a closing market window, my team of six Aberdeen Analysts developed a tactical marketing program based on the new strategy set by the board of directors.  We performed original field research and developed go-to-market deliverables to implement the new strategy.  Moreover, working with Aberdeen’s e-Learning division, we developed and delivered a comprehensive training program for the client’s 500 sales representatives.  This whole program took approximately ninety days.”
+    4. Introduce your practice area
+    • Next, each Aberdeen attendee should briefly describe the practice area that they follow.  The reason for this is to show the supplier that the Analysts in attendance have a framework upon which to analyze the supplier’s presentation and to gain immediate credibility.
+“I personally follow the ____ market.  Our group is responsible for preparing Aberdeen’s practice report in this segment. In our report and other research which papers, we identify the current strategic industry questions and consider users’ needs against the universe of suppliers’ capabilities.  Based upon my end-user research, I am very much interested in how you are ….  I hope we can disucss _____ during our meeting.
+    5. Clarify the ground rules regarding NDA
+    • Before the supplier begins their presentation, the “lead” Analyst should make sure that everyone in the room understands what the expressed and implied rules are regarding Non-Disclousure Agreements (NDA).  If a written NDA is presented, read it, even if it stops the meeting.  Often, the legalese in the NDA goes beyond common sense.  Nevertheless, Aberdeen strictly honors NDA agreements, and failure to honor the terms and conditions of an NDA are grounds for dismissal for cause.  
+    • Every Analyst should understand the following NDA guidelines as they are designed to make the supplier feel that Aberdeen can be their trusted advisors, an important first step in building a personal consulting relationship:
+    • How long is the material embargoed?
+    • If only until announcement date, make sure to state that Aberdeen policy is not to work with the press unless we are expressly released from the NDA in writing.  Make sure the PR representative realizes that Aberdeen will not talk to the press under an NDA situation until the NDA expires.  This is nonnegotiable!  This makes it clear that Aberdeen treats confidential material confidentially, and that we bend over backwards not to be the source of industry and press leaks.
+    • If embargoed for some long period of time, you may wish to decline the briefing on the grounds that you cannot avoid contamination for that period, or that it would impede your ability to do research and analysis in your practice area.
+    • Analysts are authorized to bind themselves and the company by signing an NDA.  The procedure is to deliver the NDA and a copy of the briefing materials to the appropriate contact in Finance.  
+    • Analysts can give or accept a verbal NDA.  Your word is your honor, so be prepared to keep the promise.
+    • In many instances, the briefer wants the material to be disclosed by Aberdeen, but some background material may be confidential or a competitive trade secret.  It is perfectly acceptable to do a presentation NDA on a slide-by-slide basis.  Merely state the rules verbally, then mark each NDA page (e.g., finances and revenues for a non-public company) with an “NDA” note in the corner.
+E.	The Supplier’s Presentation
+        1. Tips for staying wake and asking questions
+    • Most experienced Aberdeen Analysts feel that by interrupting periodically with questions politely phrased demonstrates interest as well as helps the analyst “stay awake” during the presentation.  
+    • Encourage the presenter to move the early part of the presentation that is usually filled with time-waster slides, on history, along briskly.  
+        ◦ Ask the presenter to skip the parts of their presentation that you already know --- this shows them that you are in control.  One way to do this is by saying “it might not be a good idea to go to the press/users with this part of the message.  The reason is…”
+        ◦ Interrupt the presentation every so often with a suggestion and / or naïve question.  Naïve questions are good for wandering further a field or where you’re not sure they might know more than you.  “Let me ask you a naïve question…” 
+        ◦ Ask questions that simplify, clarify, distill, and contrast-and-compare: ask short questions that demonstrate that what you are hearing is what they think they are saying.
+        ◦ Comparative questions help ask the supplier to answer, in their own words:
+        ◦ What is the value proposition?
+        ◦ How is it different from the competition?
+        ◦ Who is the ideal buyer by title, market, and sales channel?
+        ◦ Offer supportive analysis:  where your field research can substantiate – or negate – the presentation’s key points, volunteer it.  Show intimate knowledge of the supplier’s markets in order to win the supplier’s trust, because it means you have knowledge that they do not.  Merely being a boisterous “yes man” to the supplier’s pitch without adding research-driven analytical value is a sure way not to become a personal services supplier to the client: you must show value!
+2.	Other tips for the suppliers presentation
+            ▪ Beware of challenging the presenter.  Often, the presenter is not the author of the presentation and it would be inappropriate to “kill the messenger” because it could be the messenger that may be likely to demand your services to straighten things out.  
+            ▪ At the end, stop for a moment to think about what you heard – and what you did not hear.  Make some notes that will become talking points during the inevitable wrap-up period.
+            ▪ Never assume that you know the supplier’s business model and results – things are rarely what they seem.  Patiently let the executives tell their message while encouraging them to talk by asking questions.  
+    • Do not blurt our your analysis of their company as part of your introduction.  Always listen through he presentation- it will help you set up your conclusions at the end.  Wherever they have accepted your suggestions or questions that lead to suggestions put it in your conclusions.
+    • It is perfectly acceptable to skim the presentation to see what is covered and what is not.
+ F.	Wrap-Up and Pitch
+At the end of the supplier’s presentation you will have the opportunity to offer the supplier your conclusions.  This is because they will either ask you directly for your conclusions or because you agreed at the beginning of the meeting that you would have time to talk at the end of the presentation.
+1. 	Reflect and summarize what you heard  
+        ◦ Summarize what you heard in the presentation in 2-3 points.
+    • Reflect back what you heard during the presentation by asking reflective questions, as they will have the opportunity to correct you without you feeling like an idiot (e.g. what I hear you saying is… am I close?”)  
+    • Use your reflections as a springboard for your conclusions (e.g. “Given this, I think you may have difficulty with/need to focus on the critical success factor of…”)
+2.	Present your pitch to the client 
+    • The sales strategy presented to the client should leverage Aberdeen’s capabilities and methodology with their business needs and focus on getting them to buy into your approach.  
+    • The first part of your pitch should get the client to buy into your Preface, and the next section should get them to buy into your overall structure and a little of your outline.
+    • Always target your pitch to the specific client – a canned “pitch” about Aberdeen products / services is not effective.
+    • Set price expectations: state “a typical Profile project with web rights is typically between $25,000 and $35,000” if that is what they need.  If they have funding problems, it is best  to at least explore the prospect’s budget limits while face to face.  A Profile project can easily be verbally downgraded to an Impact – along with the sentence that says “but an Impact is shorter and may carry less weight with readers because we have less space to present Aberdeen’s case.”
+        ◦ End with a call-to-action item taking the process as far as the client would like.  Action items could include a follow-up phone call that you would make to determine next steps, or having the Account Representative promising to send out a proposal based on your discussion. 
+        ◦ On some occasions the vital chemistry won’t be there.  Either the client has no appreciation for you or Aberdeen, or you cannot see any way to make a silk purse out of the prospect’s sow’s ear.
+        ◦ Tell the briefing team why you cannot publicly support their initiatives.  Be honest, unless you feel you are being lied to, in which case quickly but politely ending the briefing is appropriate.
+        ◦ Tell them you will make available the essence of the briefing to other Aberdeen analysts and our clients (but not NDA parts).
+G.  Follow-Up
+Don’t be shy – it is good business practice to always follow-up with a client after a briefing.  
+        ◦ Work with sales to determine what the best follow-up strategy should be and decide who should contact the supplier to determine the next steps.  
+        ◦ If the supplier asks for a proposal work with sales to send the proposal to the client.  Standard proposals are in the public folders and should be modified for accordingly for each client. Make sure that the information in the proposal e.g. suppliers name is correct and follow-up after the proposal has been sent to discuss the details and pursue a verbal acceptance. Once you receive verbal acceptance, follow-up with a confirmation letter.
+        ◦ If appropriate, prepare a spec Profile of Impact.  This is something you develop without any promise on the part of the supplier to purchase.  Ask the supplier to review the final spec draft for accuracy, but not to approve for publication.  Make sure to provide the supplier with a price sheet for reprint or web rights.
+        ◦ Keep in touch --- arrange for meetings at trade shows.
+    IV. And Never and Always 
+A.	Best practices 
+        ◦ Make many small points that build your credibility and position throughout the briefing, rather than waiting for one intellectual epiphany.  This approach also makes it easier to summarize, because you have already made the point in the immediate context of the discussion.
+        ◦ Always remember that timely, objective, accurate analysis is the only way to help our clients maintain our industry standing.
+        ◦ Show the client.  If you disagree with a supplier, simply say, “You have your opinion on this subject, and I have mine, so let’s move on”.
+        ◦ Relax and enjoy briefings – bantering and occasional jokes are often a helpful part of the process.
+        ◦ Be prepared: be on time; be pre-briefed; be relaxed, confident, and in charge.
+        ◦ Listen:  make sure you are getting the right information.  Ask clarifying questions (e.g., “Does that mean that…”).  Summarize (e.g., “What I hear you saying is …”).  Do trial positioning (e.g., “But your competition has been doing that for six months.  What’s different, or are you just catching up?”)
+        ◦ Use your own and Aberdeen’s field research.  If it’s just your opinion versus the briefer’s, you will lose the business opportunity because opinions are free!  However, if you have concrete research that backs up you analysis and conclusions, then you are in a virtually unassailable position.
+        ◦ Use your best judgment to determine when it is time to tell suppliers that they have been taking advantage of your “free” advice.  There is nothing wrong with saying, “you have been seeking my advice for six months.  We need to formalize this relationship in the form of a retainer service or another Aberdeen product.”  If the supplier acts as though we a re a government agency where services should be dispensed for free, continue to take briefings to educate yourself…but feedback should be minimal.
+                B. Things you should never do in a briefing
+    • Never say or imply that Aberdeen will write a positive article or give positive comments if the supplier becomes an Aberdeen client – that’s extortion!
+    • Never let the contractual side of our bsuienss influence your industry analysis.
+    • Don’t spend a lot of time describing your pre-Aberdeen professional experience – suppliers are conditioned to see you as an Aberdeen representative.
+    • Never make any assessments about a suppliers products, business model, etc. during your introduction.
+    • Be late:  the briefing team often has a tight schedule and a long story to tell.  Being late compresses the available time and measurably increases the tension level.  This makes it harder at the end of the briefing for you to effectively analyze the briefing and make your business pitch.
+    • Never argue with the presenter.  At worst agree to disagree, and let the presentation move along.
+    • Be rude, disruptive, condescending, uninterested, bored, or arrogant.  The time to decline a briefing is when the invitation is accepted, not in front of the presenter.
+    • Fail to show up: the greatest discourtesy you can show the briefing team is not showing up, particularly if your manager and office manager do not know where you are.
+    • Disrupt the entire flow of the presentation.  Don’t read ahead and yell out, “I disagree with point two on slide 38!”  Wait until there is a context for your concern.  Exception:  the material up front is kindergarten level and you want to move on to graduate school around slide 13.
+    • Disclose proprietary information from another client or industry source.  You may briefly impress the listener – until they realize in horror that you are likely to babble their secrets to their competition.
+    • Publicly disagree with another Aberdeen analyst.  You may have a different perspective based on your practice, but having dueling Aberdeen analysts does not impress the audience.  It’s OK to state that different perspective, but make it clear that you are not disagreeing with your colleague.  If, after the briefing, you feel another analyst dropped the ball, see you manager so the disagreement can be aired in the proper forum, such as the Research Council.
+    • Fail to support the Aberdeen team.  Help your Research and Sales colleagues out.  They may have missed a critical point that only you see.  Listen.  Participate but do not hog the floor.
+    V. Briefing Sales Strategies
+    • Contact the prospect and PR firm and say, “The press has been asking me about your announcement and this is what I have been telling them.”  Usually the prospect will want the positive analysis to be communicated to more than a few people that read your quote.  This then becomes an opportunity to offer Aberdeen services to the client.
+    • Continuously remind the client at every opportunity that they have a fine product but their messages are confusing and garbled and you believe IS decision makers are not hearing them – and when they do hear their message, they simple do not understand them.  Offer your assistance to help them.
+    • Remind marketing managers how difficult it is to work against too many different political agendas to do an excellent job – and that you can help them.
+    • Communicate to start-up suppliers that they need to both educate their most-likely prospects about their product category and describe why their solution is superior – and engineers are ill-prepared to do this, but Aberdeen services are focused on doing this.
+    • Identify a compelling reason for a prospect to buy Aberdeen services.  
+    • Engage in stimulating conversations with suppliers to demonstrate your level of knowledge of their space.  Offer them enough food for thought without giving away the store.  
+    • Keep in mind the following questions during the briefing:
+        ◦ What is the prospects value proposition?  Is it short, sweet and easily understood?  If not, the prospect is an ideal candidate for messaging assistance.
+        ◦ What is the prospects marketing strategy?
+        ◦ How is the prospect different from its competitors?  How is the prospect planning on remaining competitive in the long-term?
+        ◦ How is the prospect responding to the emerging trends in its industry?
+If the supplier cannot answer these questions, after the briefing, the supplier could probably benefit from out advisory services.  A good leading questions to ask would be: “What are the biggest marketing challenges that you are facing this year?”  The probability is high that you will be able to prospect overcome some or all of these challenges.
+    • If you learn that the candidate is trying to enter new markets, they may be a candidate for a RAMP.  Try to find out if they understand customer’s needs within the new market that it is pursuing.  Is the supplier aware of the key drivers, pain points, buying criteria, and compelling reasons to buy within the targeting market segment?
+    • If you think the supplier has a great story and you can’t find any serious weaknesses, ask they what they are doing to get the word out to educate their constituencies.  A great story should not go untold – this is a great lead into Impacts, Profiles and White Papers.
+    • Learn and agree on what the potential obstacles are for the supplier.  “Make sure I am hearing what you are saying correctly, one of the big issues here is that your salespeople may not get up to speed fast enough in this new market to deliver the sales revenues that you’ll need?”  
+    • Show samples of your work and/or provide the supplier with examples of your services.
+    • Recommend a RAMP if you believe the supplier is going down the wrong path and needs documented market reactions to its value proposition quickly.
+
+
+
+
+
+
+ 
+
+

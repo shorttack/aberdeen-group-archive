@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen AAS Sales Tools, Proposals, and Pricing Economics (August 2001): Repricing Memo, Client Profile Template, Impact Proposal, Market Knowledge Proposal Template, and Consulting Revenue Analysis",
+  "description": "Five internal Aberdeen Group sales-and-pricing artifacts from August 2001, anchored by Kastner's August 11, 2001 repricing memo establishing the simplified Master Price List with five retainer types and a new $6,000 six-month introductory AAS. A consulting-revenue-analysis spreadsheet provides rare primary-source unit-economics data: headcount, per-diem cost basis, add-on day rates, and contribution margins by labor class, rolling up to $1,112,500 GMR and $778,095 contribution at 5 consulting days per quarter. Supporting templates include the Client Profile (organizational structure, competitive positioning, financial highlights), the Aberdeen Impact 2-page deliverable (one-year web license, single review cycle), and the Market Knowledge Proposal Template (1-day on-site agenda, 4-6 page report, optional Strategy Validation project).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / Aberdeen Group"
+  },
+  "datePublished": "2001-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

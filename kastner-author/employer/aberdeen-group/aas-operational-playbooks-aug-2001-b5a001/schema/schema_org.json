@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen AAS Operational Playbooks (August 2001): Engaging Aberdeen Workshop, Briefing Workshop, Market Knowledge Methodology, and Activity Methodologies",
+  "description": "Five internal Aberdeen Group playbooks dated August 2001, comprising the operational backbone for the post-bubble Advisory Access Service (AAS) launch driven by Peter Kastner. The set includes the Engaging Aberdeen Workshop (positioning, branding, lifecycle consulting, competitive landscape, solution-selling), the Briefing Workshop (pre-briefing due diligence, vendor/product profiles, NDA ground rules, lead-up agenda control, wrap-up pitch), the Market Knowledge Workshop methodology (competitive analysis, product SWOT, market overview, segmentation, current positioning), and two activity-methodology spreadsheets (Go-to-Market and Market Knowledge) enumerating step-by-step tasks, task times, analyst outputs, and required skill sets. Together these define how Aberdeen analysts operationalized the rebranded AAS workshop family in late 2001.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group / Peter S. Kastner (program owner)"
+  },
+  "datePublished": "2001-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

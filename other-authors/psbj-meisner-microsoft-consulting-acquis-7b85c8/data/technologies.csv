@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"enterprise-software","Enterprise Software","software-category","industry","1990s-present","mainstream","ubiquitous","psbj-meisner-microsoft-consulting-acquis-7b85c8","Subject of Microsoft strategy debate"
+"it-consulting-services","IT Consulting Services","service-category","industry","1990s-present","mainstream","ubiquitous","psbj-meisner-microsoft-consulting-acquis-7b85c8","Acquisition target category"
+"microsoft-erp-pre-dynamics","Microsoft ERP (pre-Dynamics)","software-category","Microsoft","2000-2003","rising","rebranded-to-Microsoft-Dynamics","psbj-meisner-microsoft-consulting-acquis-7b85c8","Built on Great Plains + Navision acquisitions"
+"avanade-jv-model","Microsoft+Accenture JV Model (Avanade)","service-model","Microsoft+Accenture","2000-present","novel","matured","psbj-meisner-microsoft-consulting-acquis-7b85c8","JV structure for Microsoft enterprise services"

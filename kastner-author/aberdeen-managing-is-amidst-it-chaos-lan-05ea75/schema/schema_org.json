@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Managing IS Amidst IT Chaos: A May 1993 Seminar for Land O'Lakes",
+  "description": "Aberdeen Group VP Peter Kastner's May 1993 IS strategy seminar for agricultural coop Land O'Lakes covers industry megatrends (50% of capex on IT, online data as standard), six mainframe alternative strategies (consolidate, cheap MIPS, outsource, freeze budgets, downsize with replicated systems, non-MIS departmental installations), the no-free-downsizing-lunch thesis, and principles for long-term success. Cites Andy Grove (Wall Street Journal 18 January 1993) and includes a 1992 Large Broker PC Purchases reference data slide. Direct evidence of Kastner's mainframe-alternative thesis being delivered to non-IT enterprise clients in 1993, predating the MFASC'92 (HP Brazil) conference message and contemporaneous with Aberdeen's broader downsizing research.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group)"
+  },
+  "datePublished": "1993-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

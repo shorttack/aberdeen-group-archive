@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"fault-tolerant-computing","Fault-Tolerant Computing","computing-paradigm","Tandem/Stratus/August","1970s-present","rising","niche-but-extant","businessweek-stratus-launch-fail-safe-ba-82c028","Subject of feature; growing 'highly reliable computer' market"
+"redundant-microprocessor-architecture","Redundant-Microprocessor Architecture","system-architecture","Stratus","1980s","novel","evolved-into-lockstep-and-VM-based-FT","businessweek-stratus-launch-fail-safe-ba-82c028","Stratus/32 uses 8 microprocessor chips with duplicate logic for self-checking"
+"nonstop-architecture","NonStop (Tandem)","system-architecture","Tandem","1970s-present","incumbent","still-shipping-as-HPE-NonStop","businessweek-stratus-launch-fail-safe-ba-82c028","Tandem's NonStop two-CPU shared-load architecture"
+"microprocessor-economics","Microprocessor Economics","industry-trend","industry","1970s-1980s","rising","ongoing","businessweek-stratus-launch-fail-safe-ba-82c028","$12K of 1974 redundancy now achievable for ~$200/chip x 8 = ~$1.6K"

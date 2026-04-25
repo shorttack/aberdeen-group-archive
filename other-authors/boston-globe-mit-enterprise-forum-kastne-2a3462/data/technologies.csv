@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"fault-tolerant-computing","Fault-Tolerant Computing","computing-paradigm","Tandem/Stratus/IBM/HP","1970s-present","mainstream","niche-but-extant","boston-globe-mit-enterprise-forum-kastne-2a3462","Talk subject 'Who Cares if the Computer Breaks'"
+"high-availability-systems","High-Availability Systems","computing-paradigm","multi-vendor","1990s-present","rising","ubiquitous","boston-globe-mit-enterprise-forum-kastne-2a3462","Implicit theme of Kastner's talk"

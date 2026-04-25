@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Intel Antes Up $1B on Success of Itanium Line (USA Today)",
+  "description": "Michelle Kessler's USA Today story (1 March 2002) on Intel's Itanium line and the McKinley successor preview. Reports $1 billion six-year HP+Intel Itanium investment, $1000-$4000 chip pricing, and the chicken-and-egg software adoption problem caused by Itanium's 64-bit architecture incompatibility with 32-bit Intel. Quotes Aberdeen Group's Peter Kastner: 'Intel and H-P are holding a party, and nobody's coming.' Notes Intel's reported backup plan to develop a 64-bit version of its 32-bit processor line (foreshadowing AMD64/x86-64 response and Intel's eventual EM64T). Cites HP+Compaq merger as additional Itanium-volume risk.",
+  "creator": {
+    "@type": "Person",
+    "name": "Michelle Kessler (USA Today)"
+  },
+  "datePublished": "2002-03-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

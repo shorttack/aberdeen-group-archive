@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "A Fail-Safe Entry That's a Bargain (Stratus Computer launch coverage)",
+  "description": "BusinessWeek's 16 November 1981 launch feature on Stratus Computer Inc. as a fail-safe-computing competitor to Tandem. Quotes Stratus president William E. Foster, IDC consultant John C. Hart, Cupertino consultant David E. Gold, ADL's Norman S. Zimbel, Tandem software-VP Dennis L. McEvoy, IVP managing partner Reid W. Dennis, and Dataquest's Richard J. Matlack. Establishes Stratus's $148K starting price vs Tandem's ~$264K, projects $5B fault-tolerant market by 1985, and notes Tandem's 142% three-year sales CAGR to $109M in 1980. Pre-Aberdeen industry-context artifact (Aberdeen founded 1988); Kastner joined Stratus in early 1980s as a marketing/sales-support hire \u2014 this story covers the era and company that became formative for him.",
+  "creator": {
+    "@type": "Person",
+    "name": "BusinessWeek (McGraw-Hill)"
+  },
+  "datePublished": "1981-11-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

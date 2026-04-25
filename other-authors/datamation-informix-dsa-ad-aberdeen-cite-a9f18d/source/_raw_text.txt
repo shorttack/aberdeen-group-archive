@@ -1,0 +1,57 @@
+
+===== Informix-ad-psk-quote-1994-03.txt =====
+Parallel
+                                                                                                            John Morrell, International Data Corporation:
+                                                                                                           44The Informix Dynamic Scalable Architecture has the
+                                                                                                            potential to vault Informix past its primary competitors for
+                                                                                                            high-end database processing functionality.,?
+
+
+
+
+Database
+                                                                                                            David McGovcran, Alternative Technologies:
+                                                                                                           44 The new Informix database server architecture will
+                                                                                                            put the vendor ahead of competitors Oracle and Sybase in
+                                                                                                            support of multiprocessing systems.?,
+
+Technology That’s                                                                                           Rob Tholomoler, Mota Group:
+                                                                                                           44 Informix may have the best scalable server technol­
+
+As Dynamic                                                                                                  ogy today...! think people are mistaken in not taking the
+                                                                                                            time to really look at Informix.??
+
+
+As Your Organization.                                                                                       Gordon Kerr, VP, Information Systems, Hyatt Hotels and Resorts:
+                                                                                                           44What Informix has done with DSA is make it much
+                                                                                                            easier for me to plan for the future. We’re beginning to
+                                                                                                            deploy symmetric multiprocessing hardware through our
+Recently, Informix Software introduced                                                                      organization, and I know that if and when we determine we
+                                                                                                            need to scale up to loosely coupled or MPP machines, our
+Dynamic Scalable Architecture’,” a next­                                                                    Informix applications will be able to make the move with us.??
+generation database architecture designed
+to take advantage of parallel processing.                                                                   Michael Bloomberg, Bloomberg Financial Markets:
+                                                                                                           44 Informix developed core internal parallelism in DSA,
+The result is a technological breakthrough                                                                  which is different than other types of add-on parallel data­
+in client/server database performance                                                                       base capabilities we’ve seen. Since the parallel processing
+                                                                                                            features are internal, rather than external, we’re expecting
+and scalability. Informix’s Dynamic                                                                         impressive performance gains. It’s clear that Informix
+Scalable Architecture will run on the                                                                       thought this technology through.??
+entire range of new, high-performance open                                                                  Find Out Why DSA™ is So Different.
+systems, from uniprocessors to symmetric                                                                    Attend our free seminar series on parallel processing technol­
+                                                                                                            ogy. Or send for independent reports from Aberdeen Group
+multiprocessors, loosely coupled clusters,                                                                  and IDC. Just fill out the attached card and drop it in
+and massively parallel machines.                                                                            the mail — or give us a call at 1-800-688-IFMX,
+                                                                                                            ext. 18—and we’ll send you more information.
+
+
+ CI/*4 IrJiTTJi So6w»rr Inc I      i»«rrj;^rjeJtr*Jcnuxk'l LJcramSu4r»«re. Inc
+                                                                                                                                        fj INFORMIX'
+ A3 «ihrr MM irulctird In ©.«*“   rrp»:rrrj tr*Jcrrj:L> er   r-jrls <4 ihox rnpntnc owncn
+
+
+
+
+                                                                                            Circle 33 on Reader Card
+32 DATAMATION—MARCH 1, 1994
+

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"informix-dsa","Informix Dynamic Scalable Architecture (DSA)","database-architecture","Informix","1994-2000s","novel","absorbed-into-IBM-Informix","datamation-informix-dsa-ad-aberdeen-cite-a9f18d","Subject of advertisement"
+"symmetric-multiprocessing","Symmetric Multiprocessing (SMP)","system-architecture","DEC/HP/Sun/IBM","1990s","mainstream-rising","ubiquitous","datamation-informix-dsa-ad-aberdeen-cite-a9f18d","Cited target hardware tier"
+"massively-parallel-processing","Massively Parallel Processing (MPP)","system-architecture","Teradata/IBM-SP2/etc","1990s","emerging","evolved-into-cloud-warehouse","datamation-informix-dsa-ad-aberdeen-cite-a9f18d","Cited target hardware tier"
+"loosely-coupled-clusters","Loosely-Coupled Clusters","system-architecture","DEC-VAXcluster/Sun/HP","1990s","mainstream-rising","matured","datamation-informix-dsa-ad-aberdeen-cite-a9f18d","Mid-tier in DSA scale-up path"
+"relational-database-management-systems","Relational DBMS (RDBMS)","database","Oracle/Informix/Sybase/IBM","1980s-present","mainstream","evolved","datamation-informix-dsa-ad-aberdeen-cite-a9f18d","Subject of competitive comparison"

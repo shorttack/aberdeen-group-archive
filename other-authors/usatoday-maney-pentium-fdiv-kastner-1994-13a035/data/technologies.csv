@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"pentium-processor","Pentium Processor (P5/FDIV-affected)","processor","Intel","1993-1996","incumbent-flagship","superseded","usatoday-maney-pentium-fdiv-kastner-1994-13a035","Subject of FDIV bug crisis; IBM testing showed once-per-24-days error rate"
+"pentium-fdiv-bug","Pentium FDIV Bug","hardware-defect","Intel","1994","active-crisis","patched-in-revised-Pentium","usatoday-maney-pentium-fdiv-kastner-1994-13a035","Floating-point division flaw discovered by Nicely"
+"powerpc","PowerPC","processor-architecture","Apple/IBM/Motorola (AIM)","1991-2000s","competitor","discontinued-in-Mac-2006","usatoday-maney-pentium-fdiv-kastner-1994-13a035","IBM's competing chip line; analysts noted retaliation potential"
+"personal-computer","Personal Computer (Wintel)","computing-paradigm","industry","1980s-present","mainstream-peak-Christmas-1994","matured","usatoday-maney-pentium-fdiv-kastner-1994-13a035","PC industry impacted by FDIV crisis Christmas 1994"

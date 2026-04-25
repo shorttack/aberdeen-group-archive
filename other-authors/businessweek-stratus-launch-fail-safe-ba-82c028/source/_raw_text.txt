@@ -1,0 +1,65 @@
+
+===== Launch-BW-11-16-1981-5.txt =====
+A fail-safe entry that’s a bargain
+ Ever since Tandem Computers Inc.                     own workload but also that of its part­
+ shipped its first NonStop computer in                 ner. The Stratus computers handle the
+ 1976, the company has had the booming                 same load whether one processor is
+ market for highly reliable commercial                working or two.
+ computers to itself. Now, Stratus Com­                  Stratus’ heavy reliance on redundant
+ puter Inc., an aggressive Natick (Mass.)             electronics is possible only because of the
+ startup, is determined to grab a healthy             plummeting cost of semiconductor com­
+ share of Tandem’s market. Its strategy:              ponents. Experts estimate that in 1974,
+ to offer a computer that has even more               when Tandem first introduced its Non-
+ fail-safe features than Tandem’s—yet                 Stop computer, it would have cost more
+sells for half as much. “We want to be                than $12,000 to provide as much redun­
+ seen as an alternative to Tandem,” de­               dant computing power as Stratus has
+clares William E. Foster, Stratus’ 37-                designed into its system. But the eight
+year-old president.                                   microprocessor chips used by Stratus as
+   Stratus’ plunge into fail-safe comput­             the heart of its processor now sell for
+ing coincides with a heightened aware­                only $200 apiece. Because of such sav­
+ ness among businesses of the high cost               ings, Stratus can sell its system for
+of computer breakdowns. Because com­                  $148,000. Tandem would have to re­
+panies are relying increasingly on com­              design its system to bring its starting
+puters for such day-to-day activities as              price of nearly $264,000 in line with
+inventory control and order entry, a                  Stratus’ cost.
+computer failure can severely disrupt                 Impressive team. Although Stratus will
+their business (BW—Sept. 7). As a re­                 not start shipping its machine until Jan­
+sult, the demand for highly reliable com­            uary, it is already impressing observers.
+puters is soaring at a growth rate that               Says John C. Hart, a consultant at
+puts the overall computing market to                  International Data Corp, in Framing­
+shame. Tandem’s sales, for example.                  ham, Mass.: “To keep the system run­
+have skyrocketed at an average annual                ning at all possible costs, Stratus has a
+rate of 142% over the past three years,              better, more technologically current ap­
+to $109 million in 1980. The market is               proach.” What is more, says David E.
+supply-limited and should grow to be a               Gold, a Cupertino (Calif.) consultant
+$5 billion business by 1985, says Richard            who has previewed the machine, “Stra­
+J. Matlack, vice-president of Dataquest              tus’ contribution here is taking the
+Inc. Because of that, he adds, “I’d give             pieces and putting them together with                          Foster of Stratus Computer "We want
+Stratus a good chance of success.”                   some very sophisticated software.”                             to be seen as an alternative to Tandem."
+Speedier? To ensure that success, Stra­                  As impressive as the system appears,
+tus has designed its computer to outper­             it is the credentials of Stratus’ manage­
+form the Tandem machine. Both sys­                   ment team that helped the company
+tems team multiple computers. In Tan­                raise a total of $6.7 million from seven                        more, such computer giants as Digital
+dem’s machine the two central process­               venture-capital firms. Foster and Gard­                         Equipment Corp, and Hewlett-Packard
+ing units handle separate data process­              ner C. Hendrie, vice-president for hard­                       Co. are continually modifying their sys­
+ing workloads and constantly check each              ware, are both veterans of Data General                        tems to bolster reliability. Stratus must
+other’s operation. Either can take over              Corp. The third founder and vice-presi­                        rush to position itself over the next three
+both jobs should one fail.                           dent for software, Robert A. Freibur-                          years, warns industry’ watcher Norman
+   The new Stratus/32 model, on the oth­             house, worked at Honeywell Inc. Indeed,                        S. Zimbel of Arthur D. Little Inc.
+er hand, has two central processors that             says Reid W. Dennis, managing partner                             Nevertheless, Dennis L. McEvoy, vice-
+work on the same tasks simultaneously.               of Institutional Venture Partners in                           president for software development at
+And each processor is built with dupli­              Menlo Park, Calif., his firm invested $1.7                     arch-rival Tandem, says that "Stratus
+cate logic circuitry so that it can check            million in Stratus because “we were                            has a good chance to be successful.” But
+its own operation. Because these two                 impressed by the founders.”                                    Foster concedes that his company is
+processors need not spend time checking                  What observers question most is                            unlikely to dent Tandem’s market share
+each other, Foster claims Stratus’ sys­              whether Stratus is late in entering the                        for some time. He expects Stratus to
+tem is as much as 21 % faster than Tan­              computer market. Besides Tandem, only                          become profitable next year, with reve­
+dem’s. And this speed differential is                August Systems Inc., of Salem, Ore., is                        nues of about $10 million. And he hopes
+even more pronounced, he maintains,                  currently selling highly reliable sys­                         to garner sales in the $100 million range
+when there is a processor failure. In the            tems—but consultant Gold predicts that                         by 1986. “We won’t put Tandem out of
+event of a breakdown, Tandem’s proces­               several competitors are likely to jump in                      business,” says Foster, “but the market
+sor must suddenly handle not only its                during the next 12 months. What is                             will eet bigger.”                         ■
+
+             Reprinted from Business Week, November 16. 1981. copyright 1981 by McGraw-Hill, Inc., with all rights reserved.
+                       Additional reprints may be ordered by calling BusinessWeek Repent Department (609) 448-1700 ext. 5550.
+

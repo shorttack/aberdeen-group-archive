@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"itanium-ia-64","Itanium (IA-64)","processor-architecture","Intel/HP","2001-2017","novel-launching","discontinued","usatoday-kessler-itanium-mckinley-kastne-77362b","Subject of story; first version shipped May 2001"
+"itanium-mckinley","Itanium 2 'McKinley'","processor","Intel/HP","2002-2010s","previewed","discontinued","usatoday-kessler-itanium-mckinley-kastne-77362b","Second-generation Itanium previewed at developer event"
+"x86-64-extension-amd64","x86-64 / AMD64","processor-architecture","AMD/Intel","2003-present","implied-future","ubiquitous","usatoday-kessler-itanium-mckinley-kastne-77362b","Story foreshadows Intel's reactive 64-bit-x86 work (later EM64T)"
+"64-bit-computing","64-bit Computing","computing-paradigm","industry","2000s-present","emerging","ubiquitous","usatoday-kessler-itanium-mckinley-kastne-77362b","Itanium's biggest selling point and biggest drawback"
+"32-bit-x86","32-bit x86","processor-architecture","Intel/AMD","1985-2010s","incumbent","phased-out","usatoday-kessler-itanium-mckinley-kastne-77362b","Itanium's incumbent rival inside Intel's own portfolio"

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mainframe-computing","Mainframe Computing","computing-paradigm","IBM/Amdahl/Hitachi","1960s-present","incumbent-targeted-for-replacement","shrinking","hp-mainframe-alternative-fernandez-mfasc-a2179f","Subject of MFASC'92 'glass house shattering' thesis"
+"hp-pa-risc","HP PA-RISC","processor-architecture","HP","1986-2000s","rising","discontinued-superseded-by-Itanium","hp-mainframe-alternative-fernandez-mfasc-a2179f","HP RISC architecture underpinning HP 9000 servers cited as MFA target"
+"symmetric-multiprocessing","Symmetric Multiprocessing (SMP)","system-architecture","HP/IBM/Sun/DEC","1990s","mainstream-rising","ubiquitous","hp-mainframe-alternative-fernandez-mfasc-a2179f","16-way MP roadmap shown in deck"
+"downsizing","Downsizing/Rightsizing","IT-strategy","industry-trend","1990s","rising","evolved-into-cloud-migration","hp-mainframe-alternative-fernandez-mfasc-a2179f","MFASC'92 conference theme"
+"tco-modeling","Total Cost of Ownership (TCO) Modeling","IT-finance-methodology","Gartner/HP/multi-vendor","1990s-present","rising","ubiquitous","hp-mainframe-alternative-fernandez-mfasc-a2179f","Five-year cost-justification scenarios in deck"
+"client-server-computing","Client/Server Computing","computing-paradigm","multi-vendor","1990s","rising","matured-and-superseded-by-cloud","hp-mainframe-alternative-fernandez-mfasc-a2179f","Implicit target architecture for HP migration paths"

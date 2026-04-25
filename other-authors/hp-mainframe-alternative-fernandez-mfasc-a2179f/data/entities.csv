@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"hewlett-packard","Hewlett-Packard","company","computer-and-printer","split","HP Inc. and Hewlett Packard Enterprise (2015)","1939-2015","hp-mainframe-alternative-fernandez-mfasc-a2179f","Computer/printer maker; merged with Compaq 2002"
+"hp-brazil","Hewlett-Packard Brazil","subsidiary","computer-systems","active","","1967-present","hp-mainframe-alternative-fernandez-mfasc-a2179f","Brazilian arm of HP; host of MFASC'92 Mainframe Alternative Solution Conference"
+"ibm","IBM Corporation","company","computer-systems","active","","1911-present","hp-mainframe-alternative-fernandez-mfasc-a2179f","Major mainframe and server vendor"
+"gustavo-fernandez","Gustavo Fernandez","person","HP-executive","active","","1980s-2000s","hp-mainframe-alternative-fernandez-mfasc-a2179f","HP executive; presenter at MFASC'92 Mainframe Alternative Solution Conference"
+"forrester-research","Forrester Research","firm","IT-research","active","","1983-present","hp-mainframe-alternative-fernandez-mfasc-a2179f","IT-research and analyst firm"

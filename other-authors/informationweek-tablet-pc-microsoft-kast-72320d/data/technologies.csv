@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-tablet-pc","Microsoft Tablet PC","computing-platform","Microsoft","2001-2010s","novel","evolved-into-Surface-Pro","informationweek-tablet-pc-microsoft-kast-72320d","Subject of cover story; planned 2H 2002 launch"
+"pen-computing","Pen Computing","input-paradigm","industry","1990s-2010s","rising-but-historically-failed","matured-via-iPad-Surface","informationweek-tablet-pc-microsoft-kast-72320d","Long history of failed attempts: Newton, EO, Lectrice, Pen Windows"
+"digital-ink","Digital Ink","data-format","Microsoft","2001-present","novel","matured","informationweek-tablet-pc-microsoft-kast-72320d","Microsoft digital-ink file format with published APIs/SDK"
+"handwriting-recognition","Handwriting Recognition","user-interface","industry","1990s-present","rising","matured","informationweek-tablet-pc-microsoft-kast-72320d","Long-running pain point for pen computing"
+"windows-xp-tablet-edition","Windows XP Tablet PC Edition","operating-system","Microsoft","2002-2010s","novel","discontinued","informationweek-tablet-pc-microsoft-kast-72320d","OS variant for Tablet PC hardware"
+"802-11b-wireless","802.11b Wireless Networking","networking","industry","2000s","mainstream-rising","superseded","informationweek-tablet-pc-microsoft-kast-72320d","Built into most Tablet PC hardware"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "HP: The Best Alternative to Mainframe Computing \u2014 How to Get There From Here",
+  "description": "Hewlett-Packard's MFASC'92 (Mainframe Alternative Solution Conference '92) deck by Gustavo Fernandez \u2014 'Shattering the Glass House / HP: The Best Alternative to Mainframe Computing'. Pitches the technology shift (>10x performance growth, 16-way MP), top IS issues (alignment, BPR, information architecture, data utilization), and detailed five-year cost-justification scenarios comparing IBM-mainframe maintain vs HP-migration paths. Cites Forrester Research and 'The P.A. Report' as third-party validation. Vendor parallel/foil to Aberdeen's 1992-1993 mainframe-alternative thesis.",
+  "creator": {
+    "@type": "Person",
+    "name": "Gustavo Fernandez (Hewlett-Packard) at MFASC'92 (Mainframe Alternative Solution Conference '92, HP Brazil)"
+  },
+  "datePublished": "1992-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

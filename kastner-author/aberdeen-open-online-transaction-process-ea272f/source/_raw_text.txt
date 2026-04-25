@@ -1,0 +1,32 @@
+
+===== NCR-1991-title-page-11.txt =====
+Open Online Transaction Processing:
+An Enterprise Manager’s Guide
+Peter S. Kastner
+Aberdeen Group,Inc.
+This paper has been developed by Aberdeen Group, Inc.and
+funded by NCR Corporation
+===== NCR-1991-sources-10.txt =====
+References
+J. M. Andrade, M. I. Carges, On-Line Transaction Processing in Open Systems
+UniForum Conference Proceedings, February, 1992 ’
+J. M. Andrade, M. T. Carges, K. R. Kovach, Building a Transaction Processing
+System on UNIX Systems, UniForum Conference Proceedings, 1989
+T. J. Dwyer, Enterprise Transaction Processing, UniForum Conference
+Proceedings, January 1991
+M. R. Hesselgrave, Considerations for Building Distributed Transaction
+Processing Systems on UNIX System V, UniForum Conference Proceedings, 1990
+P. S. Kastner, C. T. Casale, Commercial Client-Server Applications: Entering the
+Mainstream, Aberdeen Group, February 1992
+P. S. Kastner, J. R. Logan, Online Transaction Processing Into the 1990s: The
+Hardware Suppliers, Aberdeen Group, August 1990
+P. S. Kastner, T. H. Willmott, Evaluating Options in Microprocessor
+Multiprocessing, Aberdeen Group, August 1991
+A. Moissis, Open Systems: The RDBMS Perspective, Oracle Corporation, 1991
+TOP END Product Overview, NCR Corporation, 1991
+Ensina Product Overview, Transarc Corporation, 1991
+Y. Ung, K. O’Connell, ORACLE for UNIX Technology Perspective, Oracle
+Corporation, August 1991
+TUXEDO ETP System, Release 4.2 Transaction Monitor Reference Manual, Unix
+Systems Laboratories, 1991
+T. H. Willmott, UNIX Myths and Business Realities, Aberdeen Group, 1990

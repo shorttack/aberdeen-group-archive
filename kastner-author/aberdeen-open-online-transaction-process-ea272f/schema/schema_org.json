@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Open Online Transaction Processing: An Enterprise Manager's Guide",
+  "description": "Title page and references list of an Aberdeen Group paper authored by Peter S. Kastner and funded by NCR Corporation: 'Open Online Transaction Processing: An Enterprise Manager's Guide'. The body of the report is not present in this fragment. Reference list documents the open-OLTP-on-UNIX corpus that Kastner drew upon: Andrade/Carges/Kovach UniForum papers (1989/1992), Dwyer (1991), Hesselgrave (1990), two prior Aberdeen Kastner papers (Casale Feb 1992 commercial client/server, Logan Aug 1990 Online TP Hardware Suppliers), the Willmott microprocessor MP paper (Aug 1991), Oracle and USL TP/RDBMS documents, NCR TOP END product overview, Transarc Encina overview, and TUXEDO ETP System reference manual (USL). Filed under 1991 per filename convention; references include 1992 papers, suggesting actual publication 1992.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group), funded by NCR Corporation"
+  },
+  "datePublished": "1991",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

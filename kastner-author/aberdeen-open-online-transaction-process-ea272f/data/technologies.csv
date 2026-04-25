@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"open-online-transaction-processing","Open Online Transaction Processing","computing-paradigm","industry","1990s","rising","evolved","aberdeen-open-online-transaction-process-ea272f","Subject of paper; UNIX-based open TP"
+"top-end","TOP END (NCR)","TP-monitor","NCR","1990s","active-funder-product","discontinued","aberdeen-open-online-transaction-process-ea272f","NCR's open-systems TP monitor; subject of cited Product Overview"
+"encina","Encina (Transarc)","TP-monitor","Transarc/IBM","1990s","rising","discontinued","aberdeen-open-online-transaction-process-ea272f","Transarc Encina TP monitor; CMU spinout, acquired by IBM 1994"
+"tuxedo","TUXEDO ETP System (USL)","TP-monitor","USL/AT&T","1980s-2000s","mainstream","BEA->Oracle Tuxedo (still shipping)","aberdeen-open-online-transaction-process-ea272f","TUXEDO Release 4.2 reference manual cited"
+"unix-svr4","UNIX System V Release 4","operating-system","USL/AT&T","1990s","mainstream-rising","evolved-into-modern-UNIX-and-Linux","aberdeen-open-online-transaction-process-ea272f","Underlying OS for open TP stack"
+"oracle-rdbms","Oracle RDBMS (UNIX)","database","Oracle Corporation","1990s","mainstream-rising","leader","aberdeen-open-online-transaction-process-ea272f","Oracle UNIX RDBMS perspective papers cited"
+"symmetric-multiprocessing","Symmetric Multiprocessing (SMP)","system-architecture","DEC/HP/Sun/Sequent/IBM","1990s","mainstream-rising","ubiquitous","aberdeen-open-online-transaction-process-ea272f","Microprocessor-MP paper Aug 1991 by Kastner/Willmott cited"

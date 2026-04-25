@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mainframe-computing","Mainframe Computing","computing-paradigm","IBM/Amdahl/Hitachi","1960s-present","incumbent","shrinking-but-extant","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Subject of seminar; new mainframes flagged as poor long-term investment"
+"client-server-computing","Client/Server Computing","computing-paradigm","multi-vendor","1990s","rising","matured-and-superseded-by-cloud","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Highlighted as key downsizing target architecture"
+"symmetric-multiprocessing","Symmetric Multiprocessing (SMP)","system-architecture","DEC/HP/Sun/IBM","1990s","mainstream-rising","ubiquitous","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Brokerage/enterprise SMP buying noted in 1992 Large Broker PC Purchases slide"
+"downsizing","Downsizing/Rightsizing","IT-strategy","industry-trend","1990s","rising","evolved-into-cloud-migration","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Title concept; six-strategy framework cataloged"
+"outsourcing","IT Outsourcing","IT-strategy","EDS/IBM/Andersen/CSC","1990s-2000s","rising","matured","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Listed as one of six mainframe-alternative strategies"
+"object-technology","Object Technology / OOP","software-paradigm","industry","1990s","emerging","matured-mainstream","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Flagged as 3-5-year requirement in deck"
+"graphical-user-interface","Graphical User Interface (GUI)","user-interface","Windows/Mac/Motif","1990s","rising","ubiquitous","aberdeen-managing-is-amidst-it-chaos-lan-05ea75","Mainframe apps lacked GUI vs client-server"

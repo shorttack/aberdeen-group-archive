@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Corporate Collateral Set (2001): Background Presentation, Web Presentation 7/01, 11x17 Overview, Positioning Assistance, Research Capabilities, Success Stories",
+  "description": "Six-document Aberdeen Group corporate collateral set from 2001, all approved for distribution by Peter Kastner. Includes (1) the Corporate Background presentation (v9-19-3) showing Aberdeen's market positioning and competitive landscape; (2) the web Presentation 7/01 framing positioning consulting around \"Define, Differentiate, or Die\"; (3) the 11x17 corporate overview (v7-25b-4) listing Aberdeen's coverage areas -- Application Service Providers, Collaborative Product Commerce, Enterprise Applications, Information Appliances, Storage, Enterprise Systems Management, and others; (4) the detailed Positioning Assistance brochure describing Marketing Workshops, RAMP strategy validation, MAS research, and Strategy Acceleration; (5) the research-capabilities deck enumerating recent engagements (Enterprise Linux, Intel servers, ASP servers, WW VoIP, HIPPA, SANs, 3G networks, PKI, high-end printing, ERP Mid-Market repositioning); and (6) the success-stories companion deck reinforcing the same engagement portfolio plus named work for IBM (eLiza initiative messaging), a Top Five Software Company repositioning, and an emerging-software outsourced-marketing engagement. Captures Aberdeen's mid-2001 corporate identity at the height of post-bubble repositioning.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group / Peter S. Kastner (approving)"
+  },
+  "datePublished": "2001-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

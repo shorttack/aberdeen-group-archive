@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-unisys-corporation,Unisys Corporation,company,enterprise-computing,active,,1986-present,aberdeen-1996-unisys-clears-path-a-series-os2200,Formed 1986 from Burroughs + Sperry merger; Blue Bell PA HQ; $6.2B revenue 1995; transitioning to services; ClearPath still active 2024
-aberdeen-group,Aberdeen Group,firm,IT-research,merged,Aberdeen (Harte-Hanks),1988-2010,aberdeen-1996-unisys-clears-path-a-series-os2200,Boston-based IT analyst firm
-ibm,IBM,company,enterprise-computing,active,,1911-present,aberdeen-1996-unisys-clears-path-a-series-os2200,IBM fabricates Unisys 0.5-micron CMOS processors for ClearPath HMP systems
-intel,Intel Corporation,company,semiconductor,active,,1968-present,aberdeen-1996-unisys-clears-path-a-series-os2200,Intel SMP processors used in ClearPath HMP open computing tier
-amazon-web-services,Amazon Web Services,company,cloud-computing,active,,2006-present,aberdeen-1996-unisys-clears-path-a-series-os2200,Post-publication: ClearPath OS 2200 Software Series available on AWS as of June 2025
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"unisys-corporation","Unisys Corporation","company","enterprise-computing","active","","1986-present","aberdeen-1996-unisys-clears-path-a-series-os2200","Formed 1986 from Burroughs + Sperry merger; Blue Bell PA HQ; $6.2B revenue 1995; transitioning to services; ClearPath still active 2024"
+"aberdeen-group","Aberdeen Group","firm","IT-research","merged","Aberdeen (Harte-Hanks)","1988-2010","aberdeen-1996-unisys-clears-path-a-series-os2200","Boston-based IT analyst firm"
+"ibm","IBM","company","enterprise-computing","active","","1911-present","aberdeen-1996-unisys-clears-path-a-series-os2200","IBM fabricates Unisys 0.5-micron CMOS processors for ClearPath HMP systems"
+"intel","Intel Corporation","company","semiconductor","active","","1968-present","aberdeen-1996-unisys-clears-path-a-series-os2200","Intel SMP processors used in ClearPath HMP open computing tier"
+"amazon-web-services","Amazon Web Services","company","cloud-computing","active","","2006-present","aberdeen-1996-unisys-clears-path-a-series-os2200","Post-publication: ClearPath OS 2200 Software Series available on AWS as of June 2025"

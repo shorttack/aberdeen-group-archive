@@ -1,4 +1,4 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
 "TECH-001","IT Budget Process Tools","enterprise-software","various","2004","current-generation","evolved","it-budget-realities-benchmark-1b1313","Tools supporting IT budgeting process measurement, governance, and cost tracking; report finds most organizations lack effective tools; best-in-class use continuous monitoring"
 "TECH-002","CobiT IT Process Model","governance-framework","ISACA","late-1990s","mature","evolved","it-budget-realities-benchmark-1b1313","Referenced as Priority 6 Enabler in PACE framework; IT process model for governance and control; evolved into COBIT 2019; foundational for IT governance practices"
 "TECH-003","Service-Level Management","methodology","open-standard","1990s","mature","standard-practice","it-budget-realities-benchmark-1b1313","Service-level-based cost recovery identified as Priority 6 Capability; key recommendation for laggards and industry norm firms; links IT cost to business value through measurable SLAs"

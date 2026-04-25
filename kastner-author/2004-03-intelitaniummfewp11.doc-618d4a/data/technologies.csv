@@ -1,11 +1,11 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-itanium,Intel Itanium,processor,Intel,2001-2021,growth,discontinued,2004-03-intelitaniummfewp11.doc-618d4a,64-bit EPIC architecture; 30-100% better than Xeon per study; discontinued by Intel in 2021
-ibm-zseries,IBM zSeries Mainframe,platform,IBM,2000-present,mature,active,2004-03-intelitaniummfewp11.doc-618d4a,z990 latest version at study time; positioned as database server; still active as IBM Z
-xeon,Intel Xeon,processor,Intel,1998-present,growth,active,2004-03-intelitaniummfewp11.doc-618d4a,32-bit at study time; Intel planned 64-bit extensions; dominant server processor today
-cobol,COBOL,language,various,1959-present,mature,legacy,2004-03-intelitaniummfewp11.doc-618d4a,Primary mainframe application language; migration enabled by Micro Focus COBOL
-db2,IBM DB2,application,IBM,1983-present,mature,active,2004-03-intelitaniummfewp11.doc-618d4a,Key database on mainframes; porting without recompilation enabled migration
-windows-server,Windows Server,platform,Microsoft,1993-present,growth,active,2004-03-intelitaniummfewp11.doc-618d4a,Primary OS for Wintel migration targets; security was only user concern cited
-linux-on-mainframe,Linux on Mainframe,platform,various,2000-present,emerging,active,2004-03-intelitaniummfewp11.doc-618d4a,24% of mainframe users had Linux; viewed as less performant/manageable than Itanium
-opteron,AMD Opteron,processor,AMD,2003-2017,emerging,discontinued,2004-03-intelitaniummfewp11.doc-618d4a,64-bit x86 alternative; viewed as less real-world-tested; AMD64 architecture ultimately won
-cics,CICS,application,IBM,1968-present,mature,active,2004-03-intelitaniummfewp11.doc-618d4a,Transaction processing monitor; CICS migration cited as hard port
-es7000,Unisys ES7000,platform,Unisys,2000-2010,growth,discontinued,2004-03-intelitaniummfewp11.doc-618d4a,8-64 processor Wintel servers; resold by Dell; key Itanium platform
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"itanium","Intel Itanium","processor","Intel","2001-2021","growth","discontinued","2004-03-intelitaniummfewp11.doc-618d4a","64-bit EPIC architecture; 30-100% better than Xeon per study; discontinued by Intel in 2021"
+"ibm-zseries","IBM zSeries Mainframe","platform","IBM","2000-present","mature","active","2004-03-intelitaniummfewp11.doc-618d4a","z990 latest version at study time; positioned as database server; still active as IBM Z"
+"xeon","Intel Xeon","processor","Intel","1998-present","growth","active","2004-03-intelitaniummfewp11.doc-618d4a","32-bit at study time; Intel planned 64-bit extensions; dominant server processor today"
+"cobol","COBOL","language","various","1959-present","mature","legacy","2004-03-intelitaniummfewp11.doc-618d4a","Primary mainframe application language; migration enabled by Micro Focus COBOL"
+"db2","IBM DB2","application","IBM","1983-present","mature","active","2004-03-intelitaniummfewp11.doc-618d4a","Key database on mainframes; porting without recompilation enabled migration"
+"windows-server","Windows Server","platform","Microsoft","1993-present","growth","active","2004-03-intelitaniummfewp11.doc-618d4a","Primary OS for Wintel migration targets; security was only user concern cited"
+"linux-on-mainframe","Linux on Mainframe","platform","various","2000-present","emerging","active","2004-03-intelitaniummfewp11.doc-618d4a","24% of mainframe users had Linux; viewed as less performant/manageable than Itanium"
+"opteron","AMD Opteron","processor","AMD","2003-2017","emerging","discontinued","2004-03-intelitaniummfewp11.doc-618d4a","64-bit x86 alternative; viewed as less real-world-tested; AMD64 architecture ultimately won"
+"cics","CICS","application","IBM","1968-present","mature","active","2004-03-intelitaniummfewp11.doc-618d4a","Transaction processing monitor; CICS migration cited as hard port"
+"es7000","Unisys ES7000","platform","Unisys","2000-2010","growth","discontinued","2004-03-intelitaniummfewp11.doc-618d4a","8-64 processor Wintel servers; resold by Dell; key Itanium platform"

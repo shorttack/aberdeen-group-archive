@@ -1,62 +1,62 @@
-code_id,code_type,code_value,label,description
-study-type-product-profile,study_type,product-profile,Product Profile,"A detailed evaluation of a specific vendor's product, including features, competitive positioning, and buying recommendations"
-domain-rdbms,domain,relational-database-management,Relational Database Management,Market domain covering relational database management systems (RDBMS) and related data management technologies
-method-industry-analysis,methodology,industry-analysis,Industry Analysis,Qualitative and quantitative evaluation of an industry sector's competitive dynamics and trends
-method-competitive-profiling,methodology,competitive-profiling,Competitive Profiling,Systematic comparison of a product's features and positioning against competitors
-method-benchmarking,methodology,benchmarking,Benchmarking,"Evaluation using standardized performance tests (e.g., TPC-C) to compare products"
-obs-type-product-description,obs_type,product-description,Product Description,Factual description of a product's features or capabilities
-obs-type-market-assessment,obs_type,market-assessment,Market Assessment,Analyst evaluation of a product's or company's competitive standing in the market
-obs-type-competitive-assessment,obs_type,competitive-assessment,Competitive Assessment,Direct comparison of a product to competing offerings
-obs-type-recommendation,obs_type,recommendation,Buying Recommendation,Advice to IS buyers on when or why to consider a product
-obs-type-editorial,obs_type,editorial,Editorial Opinion,Analyst opinion or interpretive statement not directly sourced from vendor
-obs-type-benchmark,obs_type,benchmark,Benchmark Result,Quantitative performance measurement result
-obs-type-roadmap,obs_type,roadmap,Product Roadmap,Description of announced or upcoming product features
-obs-type-market-data,obs_type,market-data,Market Data,"Quantitative market statistic (installed base, revenue, etc.)"
-obs-type-revenue,obs_type,revenue,Revenue Data,Company financial revenue figure
-obs-type-profit,obs_type,profit,Profit Data,Company financial profit figure
-obs-type-risk-assessment,obs_type,risk-assessment,Risk Assessment,Analyst evaluation of risks or challenges facing a company or product
-obs-type-feature,obs_type,feature,Feature Description,Description of a specific technical feature or capability
-obs-type-standard,obs_type,standard,Standards Compliance,Description of compliance with industry or de facto standards
-obs-type-platform-support,obs_type,platform-support,Platform Support,"Description of supported operating systems, hardware platforms, or environments"
-obs-type-protocol-support,obs_type,protocol-support,Protocol Support,Description of supported networking or communication protocols
-obs-type-gateway,obs_type,gateway,Gateway/Interoperability,Description of connectivity to external or competing systems
-obs-type-vendor-statement,obs_type,vendor-statement,Vendor Statement,Direct quote or paraphrase of a vendor's stated strategy or goal
-obs-type-market-expansion,obs_type,market-expansion,Market Expansion,Description of a vendor's strategy to expand into new market segments
-obs-type-market-trend,obs_type,market-trend,Market Trend,Observation about broader trends in the market
-obs-type-heritage,obs_type,heritage,Heritage/Maturity,Reference to a product's historical pedigree or years of experience
-obs-type-sales-channel,obs_type,sales-channel,Sales Channel,Description of how a product is sold or distributed
-obs-type-ecosystem,obs_type,ecosystem,Ecosystem/Partnership,Description of partner products or ecosystem integrations
-obs-type-dors-criteria,obs_type,dors-criteria,DORS Evaluation Criteria,Aberdeen's criteria framework for evaluating distributed open RDBMS products
-obs-type-benchmark-cost,obs_type,benchmark-cost,Benchmark Price-Performance,Price-performance metric from a standardized benchmark
-obs-type-tp-monitor-support,obs_type,tp-monitor-support,TP Monitor Support,Description of supported transaction processing monitors
-obs-type-high-availability,obs_type,high-availability,High Availability,Description of fault tolerance and failover capabilities
-sentiment-positive,sentiment,positive,Positive,Observation conveys a favorable or strong result
-sentiment-negative,sentiment,negative,Negative,Observation conveys an unfavorable or weak result
-sentiment-neutral,sentiment,neutral,Neutral,Observation is factual with no evaluative tone
-confidence-high,confidence,high,High Confidence,Claim is directly stated in the source document
-confidence-medium,confidence,medium,Medium Confidence,Claim requires modest interpretation of source material
-confidence-low,confidence,low,Low Confidence,Claim is inferred from limited or indirect evidence
-entity-type-company,entity_type,company,Company,A commercial organization
-entity-role-subject,entity_role,subject,Subject,The primary product or company being profiled
-entity-role-competitor,entity_role,competitor,Competitor,A competing company mentioned in a competitive context
-entity-role-ecosystem,entity_role,ecosystem,Ecosystem Partner,A company providing complementary products or services
-entity-role-author,entity_role,author,Research Author,The organization that produced the study
-entity-status-active,entity_status,active,Active,Company or product remains independently operational as of review date
-entity-status-acquired,entity_status,acquired,Acquired,Company was acquired by another entity
-entity-status-rebranded,entity_status,rebranded,Rebranded,Company changed its name or was absorbed under a different brand
-entity-status-unknown,entity_status,unknown,Unknown,Current status could not be determined
-tech-lifecycle-active,tech_lifecycle,active,Active,"Technology remains in current, widespread use"
-tech-lifecycle-legacy,tech_lifecycle,legacy,Legacy,Technology still in use in some environments but largely superseded
-tech-lifecycle-obsolete,tech_lifecycle,obsolete,Obsolete,Technology has been discontinued and is no longer in use
-strategy-classification,observation_type,strategy-classification,Strategy Classification,Categorization of an entity's business strategy or competitive positioning
-viability-prediction,observation_type,viability-prediction,Viability Prediction,Expert prediction of entity's long-term survival or market trajectory
-actual-outcome,observation_type,actual-outcome,Actual Outcome,Verified historical outcome for an entity or prediction
-technology-assessment,observation_type,technology-assessment,Technology Assessment,"Evaluation of a technology's maturity, fitness, or competitive positioning"
-benchmark-result,observation_type,benchmark-result,Benchmark Result,Quantitative performance comparison against peers or industry standards
-framework-factor,observation_type,framework-factor,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,market-data,Market Data,"Quantitative market statistic such as revenue, share, or growth rate"
-expert-opinion,observation_type,expert-opinion,Expert Opinion,Qualitative professional judgment or analytical finding
-method-document-review,methodology,document-review,Document Review,"Analysis of existing documents, reports, and published records"
-method-field-research,methodology,field-research,Field Research,Primary data collection via IS executive interviews or customer surveys
-method-revenue-benchmark,methodology,revenue-benchmark,Revenue Benchmarking,Measurement and comparison of entity revenues against market total
-conf-verified,confidence,verified,Verified,"Confirmed by subsequent events, independent sources, or official records"
+"code_id","code_type","code_value","label","description"
+"study-type-product-profile","study_type","product-profile","Product Profile","A detailed evaluation of a specific vendor's product, including features, competitive positioning, and buying recommendations"
+"domain-rdbms","domain","relational-database-management","Relational Database Management","Market domain covering relational database management systems (RDBMS) and related data management technologies"
+"method-industry-analysis","methodology","industry-analysis","Industry Analysis","Qualitative and quantitative evaluation of an industry sector's competitive dynamics and trends"
+"method-competitive-profiling","methodology","competitive-profiling","Competitive Profiling","Systematic comparison of a product's features and positioning against competitors"
+"method-benchmarking","methodology","benchmarking","Benchmarking","Evaluation using standardized performance tests (e.g., TPC-C) to compare products"
+"obs-type-product-description","obs_type","product-description","Product Description","Factual description of a product's features or capabilities"
+"obs-type-market-assessment","obs_type","market-assessment","Market Assessment","Analyst evaluation of a product's or company's competitive standing in the market"
+"obs-type-competitive-assessment","obs_type","competitive-assessment","Competitive Assessment","Direct comparison of a product to competing offerings"
+"obs-type-recommendation","obs_type","recommendation","Buying Recommendation","Advice to IS buyers on when or why to consider a product"
+"obs-type-editorial","obs_type","editorial","Editorial Opinion","Analyst opinion or interpretive statement not directly sourced from vendor"
+"obs-type-benchmark","obs_type","benchmark","Benchmark Result","Quantitative performance measurement result"
+"obs-type-roadmap","obs_type","roadmap","Product Roadmap","Description of announced or upcoming product features"
+"obs-type-market-data","obs_type","market-data","Market Data","Quantitative market statistic (installed base, revenue, etc.)"
+"obs-type-revenue","obs_type","revenue","Revenue Data","Company financial revenue figure"
+"obs-type-profit","obs_type","profit","Profit Data","Company financial profit figure"
+"obs-type-risk-assessment","obs_type","risk-assessment","Risk Assessment","Analyst evaluation of risks or challenges facing a company or product"
+"obs-type-feature","obs_type","feature","Feature Description","Description of a specific technical feature or capability"
+"obs-type-standard","obs_type","standard","Standards Compliance","Description of compliance with industry or de facto standards"
+"obs-type-platform-support","obs_type","platform-support","Platform Support","Description of supported operating systems, hardware platforms, or environments"
+"obs-type-protocol-support","obs_type","protocol-support","Protocol Support","Description of supported networking or communication protocols"
+"obs-type-gateway","obs_type","gateway","Gateway/Interoperability","Description of connectivity to external or competing systems"
+"obs-type-vendor-statement","obs_type","vendor-statement","Vendor Statement","Direct quote or paraphrase of a vendor's stated strategy or goal"
+"obs-type-market-expansion","obs_type","market-expansion","Market Expansion","Description of a vendor's strategy to expand into new market segments"
+"obs-type-market-trend","obs_type","market-trend","Market Trend","Observation about broader trends in the market"
+"obs-type-heritage","obs_type","heritage","Heritage/Maturity","Reference to a product's historical pedigree or years of experience"
+"obs-type-sales-channel","obs_type","sales-channel","Sales Channel","Description of how a product is sold or distributed"
+"obs-type-ecosystem","obs_type","ecosystem","Ecosystem/Partnership","Description of partner products or ecosystem integrations"
+"obs-type-dors-criteria","obs_type","dors-criteria","DORS Evaluation Criteria","Aberdeen's criteria framework for evaluating distributed open RDBMS products"
+"obs-type-benchmark-cost","obs_type","benchmark-cost","Benchmark Price-Performance","Price-performance metric from a standardized benchmark"
+"obs-type-tp-monitor-support","obs_type","tp-monitor-support","TP Monitor Support","Description of supported transaction processing monitors"
+"obs-type-high-availability","obs_type","high-availability","High Availability","Description of fault tolerance and failover capabilities"
+"sentiment-positive","sentiment","positive","Positive","Observation conveys a favorable or strong result"
+"sentiment-negative","sentiment","negative","Negative","Observation conveys an unfavorable or weak result"
+"sentiment-neutral","sentiment","neutral","Neutral","Observation is factual with no evaluative tone"
+"confidence-high","confidence","high","High Confidence","Claim is directly stated in the source document"
+"confidence-medium","confidence","medium","Medium Confidence","Claim requires modest interpretation of source material"
+"confidence-low","confidence","low","Low Confidence","Claim is inferred from limited or indirect evidence"
+"entity-type-company","entity_type","company","Company","A commercial organization"
+"entity-role-subject","entity_role","subject","Subject","The primary product or company being profiled"
+"entity-role-competitor","entity_role","competitor","Competitor","A competing company mentioned in a competitive context"
+"entity-role-ecosystem","entity_role","ecosystem","Ecosystem Partner","A company providing complementary products or services"
+"entity-role-author","entity_role","author","Research Author","The organization that produced the study"
+"entity-status-active","entity_status","active","Active","Company or product remains independently operational as of review date"
+"entity-status-acquired","entity_status","acquired","Acquired","Company was acquired by another entity"
+"entity-status-rebranded","entity_status","rebranded","Rebranded","Company changed its name or was absorbed under a different brand"
+"entity-status-unknown","entity_status","unknown","Unknown","Current status could not be determined"
+"tech-lifecycle-active","tech_lifecycle","active","Active","Technology remains in current, widespread use"
+"tech-lifecycle-legacy","tech_lifecycle","legacy","Legacy","Technology still in use in some environments but largely superseded"
+"tech-lifecycle-obsolete","tech_lifecycle","obsolete","Obsolete","Technology has been discontinued and is no longer in use"
+"strategy-classification","observation_type","strategy-classification","Strategy Classification","Categorization of an entity's business strategy or competitive positioning"
+"viability-prediction","observation_type","viability-prediction","Viability Prediction","Expert prediction of entity's long-term survival or market trajectory"
+"actual-outcome","observation_type","actual-outcome","Actual Outcome","Verified historical outcome for an entity or prediction"
+"technology-assessment","observation_type","technology-assessment","Technology Assessment","Evaluation of a technology's maturity, fitness, or competitive positioning"
+"benchmark-result","observation_type","benchmark-result","Benchmark Result","Quantitative performance comparison against peers or industry standards"
+"framework-factor","observation_type","framework-factor","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","market-data","Market Data","Quantitative market statistic such as revenue, share, or growth rate"
+"expert-opinion","observation_type","expert-opinion","Expert Opinion","Qualitative professional judgment or analytical finding"
+"method-document-review","methodology","document-review","Document Review","Analysis of existing documents, reports, and published records"
+"method-field-research","methodology","field-research","Field Research","Primary data collection via IS executive interviews or customer surveys"
+"method-revenue-benchmark","methodology","revenue-benchmark","Revenue Benchmarking","Measurement and comparison of entity revenues against market total"
+"conf-verified","confidence","verified","Verified","Confirmed by subsequent events, independent sources, or official records"

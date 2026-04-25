@@ -1,29 +1,29 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
-personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
-ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
-topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
-benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
-field-research,methodology,Field Research,Primary data collection via interviews or surveys
-document-review,methodology,Document Review,Analysis of existing documents and records
-statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
-oral-history,methodology,Oral History,First-person spoken or written recollection of events
-ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-analyst-commentary,methodology,Analyst Commentary,Study-specific code: analyst-commentary
-news-reporting,methodology,News Reporting,Study-specific code: news-reporting
-financial-reporting,methodology,Financial Reporting,Study-specific code: financial-reporting
-sell-side-forecast,methodology,Sell Side Forecast,Study-specific code: sell-side-forecast
-industry-consensus,methodology,Industry Consensus,Study-specific code: industry-consensus
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's long-term survival"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment"
+"personal-recollection","observation_type","Personal Recollection","First-person memory or anecdote from Kastner"
+"ai-exchange","observation_type","AI Exchange","A question posed by Kastner and the AI response extracted as a structured observation"
+"topic-insight","observation_type","Topic Insight","An analytical claim or framework point within a technology topic deep-dive"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or peers"
+"field-research","methodology","Field Research","Primary data collection via interviews or surveys"
+"document-review","methodology","Document Review","Analysis of existing documents and records"
+"statistical-analysis","methodology","Statistical Analysis","Quantitative data analysis with statistical methods"
+"oral-history","methodology","Oral History","First-person spoken or written recollection of events"
+"ai-dialog","methodology","AI Dialog","Question-and-answer exchange between a human and an AI system"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"analyst-commentary","methodology","Analyst Commentary","Study-specific code: analyst-commentary"
+"news-reporting","methodology","News Reporting","Study-specific code: news-reporting"
+"financial-reporting","methodology","Financial Reporting","Study-specific code: financial-reporting"
+"sell-side-forecast","methodology","Sell Side Forecast","Study-specific code: sell-side-forecast"
+"industry-consensus","methodology","Industry Consensus","Study-specific code: industry-consensus"

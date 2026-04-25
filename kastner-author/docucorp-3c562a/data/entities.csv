@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,,acquired,,,docucorp-3c562a,Consulting firm delivering project
-peter-s-kastner,Peter S. Kastner,person,,active,,,docucorp-3c562a,Aberdeen managing executive
-docucorp,DocuCorp,company,,unknown,,,docucorp-3c562a,Client company receiving consulting engagement; document output solutions provider [REVIEW]
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","docucorp-3c562a","Consulting firm delivering project"
+"peter-s-kastner","Peter S. Kastner","person","","active","","","docucorp-3c562a","Aberdeen managing executive"
+"docucorp","DocuCorp","company","","unknown","","","docucorp-3c562a","Client company receiving consulting engagement; document output solutions provider [REVIEW]"

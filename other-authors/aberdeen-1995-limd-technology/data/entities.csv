@@ -1,15 +1,15 @@
-entity_id,entity_name,entity_type,role_in_study,current_status,status_notes,hq_country,founded_year,acquisition_year,acquired_by
-ENT001,Aberdeen Group,analyst-firm,author,acquired,Acquired by Harte-Hanks 2001; brand dissolved into Aberdeen Group Holdings under SFG Capital,US,1988,,Harte-Hanks
-ENT002,Digital Equipment Corporation,hardware-vendor,subject-leader,acquired,Acquired by Compaq 1998; Compaq then acquired by HP 2002,US,1957,1998,Compaq (then HP)
-ENT003,Oracle Corporation,software-vendor,subject-leader,active,Still active as Oracle Corporation; major database and cloud vendor,US,1977,,
-ENT004,Sybase,software-vendor,subject-leader,acquired,Acquired by SAP 2010; product line continued as SAP Sybase,US,1984,2010,SAP
-ENT005,Informix,software-vendor,subject,acquired,Acquired by IBM 2001; continued as IBM Informix,US,1980,2001,IBM
-ENT006,Silicon Graphics Inc. (SGI),hardware-vendor,subject,defunct,Filed bankruptcy 2009; assets acquired by Rackable Systems (renamed SGI); that SGI acquired by HPE 2016,US,1982,,HPE
-ENT007,Sun Microsystems,hardware-vendor,subject,acquired,Acquired by Oracle Corporation 2010,US,1982,2010,Oracle
-ENT008,IBM,hardware-vendor,subject,active,Still active as IBM Corporation,US,1911,,
-ENT009,Hewlett-Packard (HP),hardware-vendor,subject,active,HP Inc. and Hewlett Packard Enterprise split 2015; both active,US,1939,,
-ENT010,Tandem Computers,hardware-vendor,subject,acquired,Acquired by Compaq 1997; then HP 2002,US,1974,1997,Compaq (then HP)
-ENT011,Software AG,software-vendor,subject,active,Still active as Software AG; acquired by Silver Lake 2023,Germany,1969,,
-ENT012,CA-Ingres,software-vendor,subject,rebranded,Became Actian Corporation 2011,US,1980,,
-ENT013,Merrill Lynch,financial-services,case-study-user,acquired,Acquired by Bank of America 2009,US,1914,2009,Bank of America
-ENT014,Aberdeen Group (publisher),analyst-firm,publisher,acquired,Publisher of the study; same as ENT001,US,1988,,
+"entity_id","entity_name","entity_type","role_in_study","current_status","status_notes","hq_country","founded_year","acquisition_year","acquired_by"
+"ENT001","Aberdeen Group","analyst-firm","author","acquired","Acquired by Harte-Hanks 2001; brand dissolved into Aberdeen Group Holdings under SFG Capital","US","1988","","Harte-Hanks"
+"ENT002","Digital Equipment Corporation","hardware-vendor","subject-leader","acquired","Acquired by Compaq 1998; Compaq then acquired by HP 2002","US","1957","1998","Compaq (then HP)"
+"ENT003","Oracle Corporation","software-vendor","subject-leader","active","Still active as Oracle Corporation; major database and cloud vendor","US","1977","",""
+"ENT004","Sybase","software-vendor","subject-leader","acquired","Acquired by SAP 2010; product line continued as SAP Sybase","US","1984","2010","SAP"
+"ENT005","Informix","software-vendor","subject","acquired","Acquired by IBM 2001; continued as IBM Informix","US","1980","2001","IBM"
+"ENT006","Silicon Graphics Inc. (SGI)","hardware-vendor","subject","defunct","Filed bankruptcy 2009; assets acquired by Rackable Systems (renamed SGI); that SGI acquired by HPE 2016","US","1982","","HPE"
+"ENT007","Sun Microsystems","hardware-vendor","subject","acquired","Acquired by Oracle Corporation 2010","US","1982","2010","Oracle"
+"ENT008","IBM","hardware-vendor","subject","active","Still active as IBM Corporation","US","1911","",""
+"ENT009","Hewlett-Packard (HP)","hardware-vendor","subject","active","HP Inc. and Hewlett Packard Enterprise split 2015; both active","US","1939","",""
+"ENT010","Tandem Computers","hardware-vendor","subject","acquired","Acquired by Compaq 1997; then HP 2002","US","1974","1997","Compaq (then HP)"
+"ENT011","Software AG","software-vendor","subject","active","Still active as Software AG; acquired by Silver Lake 2023","Germany","1969","",""
+"ENT012","CA-Ingres","software-vendor","subject","rebranded","Became Actian Corporation 2011","US","1980","",""
+"ENT013","Merrill Lynch","financial-services","case-study-user","acquired","Acquired by Bank of America 2009","US","1914","2009","Bank of America"
+"ENT014","Aberdeen Group (publisher)","analyst-firm","publisher","acquired","Publisher of the study; same as ENT001","US","1988","",""

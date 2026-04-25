@@ -1,22 +1,22 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's or product's long-term survival or market success
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity or prediction
-technology-assessment,observation_type,Technology Assessment,"Evaluation of a technology's maturity, capabilities, or fitness for purpose"
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic or sizing data
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment by Aberdeen analysts
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and competitive dynamics
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities' products and strategies
-benchmarking,methodology,Benchmarking,Comparison against industry standards or peer performance
-document-review,methodology,Document Review,"Analysis of existing documents, product specs, and vendor materials"
-field-research,methodology,Field Research,Primary data collection via interviews or surveys
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources or direct vendor statement
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration or analyst judgment
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-mature,lifecycle,Mature,Technology widely deployed and in stable feature state
-emerging,lifecycle,Emerging,Technology gaining adoption but not yet dominant
-obsolete,lifecycle,Obsolete,Technology no longer actively developed or supported
-active,lifecycle,Active,Technology currently in active development and use
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's or product's long-term survival or market success"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity or prediction"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity, capabilities, or fitness for purpose"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic or sizing data"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment by Aberdeen analysts"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and competitive dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities' products and strategies"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or peer performance"
+"document-review","methodology","Document Review","Analysis of existing documents, product specs, and vendor materials"
+"field-research","methodology","Field Research","Primary data collection via interviews or surveys"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources or direct vendor statement"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration or analyst judgment"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"mature","lifecycle","Mature","Technology widely deployed and in stable feature state"
+"emerging","lifecycle","Emerging","Technology gaining adoption but not yet dominant"
+"obsolete","lifecycle","Obsolete","Technology no longer actively developed or supported"
+"active","lifecycle","Active","Technology currently in active development and use"

@@ -11,3 +11,6 @@
 "moore-law","Moore's Law","platform","Industry","1965-present","mature","mature","otellini-intel-techpinions-2013-917213","Cited as the operating paradigm"
 "android","Android","platform","Google","2008-present","mature","mature","otellini-intel-techpinions-2013-917213",""
 "tizen","Tizen","platform","Samsung/Linux Foundation","2012-present","emerging","legacy-supported","otellini-intel-techpinions-2013-917213","Intel optimized"
+"wind-river","Wind River (VxWorks RTOS)","platform","Intel","2009-present","mature","active (spun out from Intel 2018)","otellini-intel-techpinions-2013-917213","Real-time OS; Intel acquisition 2009 ($884M) to grow embedded/IoT footprint"
+"mcafee","McAfee Security Platform","platform","Intel","2011-2017","mature","divested (majority sold to TPG 2017)","otellini-intel-techpinions-2013-917213","Security software acquisition (2011, $7.68B) cited as a strategic misstep under Otellini"
+"infineon","Infineon Wireless Solutions (WLS)","component","Intel","2011-2019","growth","divested (smartphone modem unit sold to Apple 2019, $1B)","otellini-intel-techpinions-2013-917213","Infineon WLS acquisition (2011, $1.4B) provided baseband modem silicon for Intel mobile push"

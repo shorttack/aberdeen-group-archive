@@ -1,26 +1,26 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival or market success
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity or prediction
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness for purpose
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic or factual market measurement
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment from Aberdeen or quoted experts
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities or products
-benchmarking,methodology,Benchmarking,Comparison against industry standards or peers using quantitative measures
-field-research,methodology,Field Research,Primary data collection via interviews or surveys with IS executives
-document-review,methodology,Document Review,"Analysis of existing documents, records, and post-publication research"
-statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
-expert-opinion,methodology,Expert Opinion Methodology,Direct use of Aberdeen analyst expert judgment as primary evidence
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-mature,lifecycle,Mature,Technology at peak adoption; established vendor support
-emerging,lifecycle,Emerging,Technology newly entering market; rapid growth phase
-declining,lifecycle,Declining,Technology losing market share; replacement underway
-obsolete,lifecycle,Obsolete,Technology no longer in active use or vendor support
-legacy-supported,lifecycle,Legacy Supported,Technology still maintained but no longer primary market choice
-active,lifecycle,Active,Technology in current active development and widespread use
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's long-term survival or market success"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity or prediction"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness for purpose"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic or factual market measurement"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment from Aberdeen or quoted experts"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities or products"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or peers using quantitative measures"
+"field-research","methodology","Field Research","Primary data collection via interviews or surveys with IS executives"
+"document-review","methodology","Document Review","Analysis of existing documents, records, and post-publication research"
+"statistical-analysis","methodology","Statistical Analysis","Quantitative data analysis with statistical methods"
+"expert-opinion","methodology","Expert Opinion Methodology","Direct use of Aberdeen analyst expert judgment as primary evidence"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"mature","lifecycle","Mature","Technology at peak adoption; established vendor support"
+"emerging","lifecycle","Emerging","Technology newly entering market; rapid growth phase"
+"declining","lifecycle","Declining","Technology losing market share; replacement underway"
+"obsolete","lifecycle","Obsolete","Technology no longer in active use or vendor support"
+"legacy-supported","lifecycle","Legacy Supported","Technology still maintained but no longer primary market choice"
+"active","lifecycle","Active","Technology in current active development and widespread use"

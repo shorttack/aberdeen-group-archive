@@ -1,7 +1,7 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-network-appliance,"Network Appliance, Inc. (NetApp)",company,network-attached-storage,active,NetApp Inc. (NASDAQ: NTAP),1992-present,aberdeen-1996-network-appliance-data-appliances,"Founded 1992 in Mountain View, CA; renamed NetApp; revenue $6.27B FY2024; NAS market leader"
-aberdeen-group,Aberdeen Group,firm,IT-research,merged,Aberdeen (Harte-Hanks),1988-2010,aberdeen-1996-network-appliance-data-appliances,Boston-based IT analyst firm; acquired by Harte-Hanks in 2001
-auspex-systems,Auspex Systems,company,network-attached-storage,dissolved,,1987-2001,aberdeen-1996-network-appliance-data-appliances,Early NAS competitor; went bankrupt ~2000; NetApp outlasted it
-legato-systems,Legato Systems,company,backup-software,acquired,EMC Corporation -> Dell EMC,1988-2003,aberdeen-1996-network-appliance-data-appliances,Networker backup software partner for NetApp; acquired by EMC 2003
-hewlett-packard,Hewlett-Packard,company,enterprise-computing,active,HP Inc. / HPE (2015 split),1939-present,aberdeen-1996-network-appliance-data-appliances,Named as general-purpose file-server competitor to NetApp
-sun-microsystems,Sun Microsystems,company,enterprise-computing,acquired,Oracle Corporation (2010),1982-2010,aberdeen-1996-network-appliance-data-appliances,Announced intentions to field low-cost NAS filers in 1996; NFS protocol originator
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"network-appliance","Network Appliance, Inc. (NetApp)","company","network-attached-storage","active","NetApp Inc. (NASDAQ: NTAP)","1992-present","aberdeen-1996-network-appliance-data-appliances","Founded 1992 in Mountain View, CA; renamed NetApp; revenue $6.27B FY2024; NAS market leader"
+"aberdeen-group","Aberdeen Group","firm","IT-research","merged","Aberdeen (Harte-Hanks)","1988-2010","aberdeen-1996-network-appliance-data-appliances","Boston-based IT analyst firm; acquired by Harte-Hanks in 2001"
+"auspex-systems","Auspex Systems","company","network-attached-storage","dissolved","","1987-2001","aberdeen-1996-network-appliance-data-appliances","Early NAS competitor; went bankrupt ~2000; NetApp outlasted it"
+"legato-systems","Legato Systems","company","backup-software","acquired","EMC Corporation -> Dell EMC","1988-2003","aberdeen-1996-network-appliance-data-appliances","Networker backup software partner for NetApp; acquired by EMC 2003"
+"hewlett-packard","Hewlett-Packard","company","enterprise-computing","active","HP Inc. / HPE (2015 split)","1939-present","aberdeen-1996-network-appliance-data-appliances","Named as general-purpose file-server competitor to NetApp"
+"sun-microsystems","Sun Microsystems","company","enterprise-computing","acquired","Oracle Corporation (2010)","1982-2010","aberdeen-1996-network-appliance-data-appliances","Announced intentions to field low-cost NAS filers in 1996; NFS protocol originator"

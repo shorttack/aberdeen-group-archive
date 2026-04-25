@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,desktop-virtualization-roi---aberdeen-8fa168,Author organization; published as Harte-Hanks subsidiary in 2011.
-dick-csaplar,Dick Csaplar,person,Market Research / IT Consulting,unknown,,2000s-2010s,desktop-virtualization-roi---aberdeen-8fa168,"Senior Research Analyst, Virtualization and Storage Practice at Aberdeen Group; author of this report."
-harte-hanks,Harte-Hanks,company,Marketing Services,active,,1923-present,desktop-virtualization-roi---aberdeen-8fa168,Parent company of Aberdeen Group in 2011; direct marketing and research conglomerate.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-present","desktop-virtualization-roi---aberdeen-8fa168","Author organization; published as Harte-Hanks subsidiary in 2011."
+"dick-csaplar","Dick Csaplar","person","Market Research / IT Consulting","unknown","","2000s-2010s","desktop-virtualization-roi---aberdeen-8fa168","Senior Research Analyst, Virtualization and Storage Practice at Aberdeen Group; author of this report."
+"harte-hanks","Harte-Hanks","company","Marketing Services","active","","1923-present","desktop-virtualization-roi---aberdeen-8fa168","Parent company of Aberdeen Group in 2011; direct marketing and research conglomerate."

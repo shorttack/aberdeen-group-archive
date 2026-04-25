@@ -1,42 +1,42 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
-personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
-ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
-topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
-benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
-field-research,methodology,Field Research,Primary data collection via interviews or surveys
-document-review,methodology,Document Review,Analysis of existing documents and records
-statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
-oral-history,methodology,Oral History,First-person spoken or written recollection of events
-ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-style_1_definition,observation_type,Style_1_Definition,Study-specific code: style_1_definition
-primer-text,methodology,Primer Text,Study-specific code: primer-text
-style_3_recommended,observation_type,Style_3_Recommended,Study-specific code: style_3_recommended
-vups_consumption,observation_type,Vups_Consumption,Study-specific code: vups_consumption
-engineering-data-from-DEC,methodology,Engineering Data From Dec,Study-specific code: engineering-data-from-DEC
-tandem_response_time,observation_type,Tandem_Response_Time,Study-specific code: tandem_response_time
-white-paper-quotation,methodology,White Paper Quotation,Study-specific code: white-paper-quotation
-tandem_teller_undercount,observation_type,Tandem_Teller_Undercount,Study-specific code: tandem_teller_undercount
-stratus_120_estimate,observation_type,Stratus_120_Estimate,Study-specific code: stratus_120_estimate
-competitive-estimate,methodology,Competitive Estimate,Study-specific code: competitive-estimate
-stratus_journaling_cap,observation_type,Stratus_Journaling_Cap,Study-specific code: stratus_journaling_cap
-competitive-analysis,methodology,Competitive Analysis,Study-specific code: competitive-analysis
-tandem_clx_per_proc,observation_type,Tandem_Clx_Per_Proc,Study-specific code: tandem_clx_per_proc
-tandem-white-paper,methodology,Tandem White Paper,Study-specific code: tandem-white-paper
-tandem_vlx_per_proc,observation_type,Tandem_Vlx_Per_Proc,Study-specific code: tandem_vlx_per_proc
-ibm_70pct_cpu_rule,observation_type,Ibm_70Pct_Cpu_Rule,Study-specific code: ibm_70pct_cpu_rule
-kastner_authorship,observation_type,Kastner_Authorship,Study-specific code: kastner_authorship
-document-signature,methodology,Document Signature,Study-specific code: document-signature
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's long-term survival"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment"
+"personal-recollection","observation_type","Personal Recollection","First-person memory or anecdote from Kastner"
+"ai-exchange","observation_type","AI Exchange","A question posed by Kastner and the AI response extracted as a structured observation"
+"topic-insight","observation_type","Topic Insight","An analytical claim or framework point within a technology topic deep-dive"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or peers"
+"field-research","methodology","Field Research","Primary data collection via interviews or surveys"
+"document-review","methodology","Document Review","Analysis of existing documents and records"
+"statistical-analysis","methodology","Statistical Analysis","Quantitative data analysis with statistical methods"
+"oral-history","methodology","Oral History","First-person spoken or written recollection of events"
+"ai-dialog","methodology","AI Dialog","Question-and-answer exchange between a human and an AI system"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"style_1_definition","observation_type","Style_1_Definition","Study-specific code: style_1_definition"
+"primer-text","methodology","Primer Text","Study-specific code: primer-text"
+"style_3_recommended","observation_type","Style_3_Recommended","Study-specific code: style_3_recommended"
+"vups_consumption","observation_type","Vups_Consumption","Study-specific code: vups_consumption"
+"engineering-data-from-DEC","methodology","Engineering Data From Dec","Study-specific code: engineering-data-from-DEC"
+"tandem_response_time","observation_type","Tandem_Response_Time","Study-specific code: tandem_response_time"
+"white-paper-quotation","methodology","White Paper Quotation","Study-specific code: white-paper-quotation"
+"tandem_teller_undercount","observation_type","Tandem_Teller_Undercount","Study-specific code: tandem_teller_undercount"
+"stratus_120_estimate","observation_type","Stratus_120_Estimate","Study-specific code: stratus_120_estimate"
+"competitive-estimate","methodology","Competitive Estimate","Study-specific code: competitive-estimate"
+"stratus_journaling_cap","observation_type","Stratus_Journaling_Cap","Study-specific code: stratus_journaling_cap"
+"competitive-analysis","methodology","Competitive Analysis","Study-specific code: competitive-analysis"
+"tandem_clx_per_proc","observation_type","Tandem_Clx_Per_Proc","Study-specific code: tandem_clx_per_proc"
+"tandem-white-paper","methodology","Tandem White Paper","Study-specific code: tandem-white-paper"
+"tandem_vlx_per_proc","observation_type","Tandem_Vlx_Per_Proc","Study-specific code: tandem_vlx_per_proc"
+"ibm_70pct_cpu_rule","observation_type","Ibm_70Pct_Cpu_Rule","Study-specific code: ibm_70pct_cpu_rule"
+"kastner_authorship","observation_type","Kastner_Authorship","Study-specific code: kastner_authorship"
+"document-signature","methodology","Document Signature","Study-specific code: document-signature"

@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-ENT-IRP-001,Aberdeen Group,Research Firm,IT Research & Advisory,Acquired,Harte-Hanks / Aberdeen (brand acquired by Spiceworks Ziff Davis 2019),1988-2019,1997-infinite-resource-planning-wp-893815,Publisher of the study; Boston-based IT analyst firm
-ENT-IRP-002,Aberdeen Group Inc.,Research Firm,IT Research & Advisory,Acquired,Spiceworks Ziff Davis,1988-2019,1997-infinite-resource-planning-wp-893815,Legal entity for Aberdeen Group
-ENT-IRP-003,SAP AG,Enterprise Software Vendor,Enterprise Software,Active (public),SAP SE (rebranded),1972-present,1997-infinite-resource-planning-wp-893815,Implicitly referenced as incumbent ERP vendor category leader
-ENT-IRP-004,Oracle Corporation,Enterprise Software Vendor,Enterprise Software,Active (public),N/A,1977-present,1997-infinite-resource-planning-wp-893815,Implicitly referenced as major enterprise application vendor
-ENT-IRP-005,PeopleSoft,Enterprise Software Vendor,Enterprise Software,Acquired,Oracle (acquired 2005),1987-2005,1997-infinite-resource-planning-wp-893815,Major HR/ERP vendor relevant to IRP discussion
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ENT-IRP-001","Aberdeen Group","Research Firm","IT Research & Advisory","Acquired","Harte-Hanks / Aberdeen (brand acquired by Spiceworks Ziff Davis 2019)","1988-2019","1997-infinite-resource-planning-wp-893815","Publisher of the study; Boston-based IT analyst firm"
+"ENT-IRP-002","Aberdeen Group Inc.","Research Firm","IT Research & Advisory","Acquired","Spiceworks Ziff Davis","1988-2019","1997-infinite-resource-planning-wp-893815","Legal entity for Aberdeen Group"
+"ENT-IRP-003","SAP AG","Enterprise Software Vendor","Enterprise Software","Active (public)","SAP SE (rebranded)","1972-present","1997-infinite-resource-planning-wp-893815","Implicitly referenced as incumbent ERP vendor category leader"
+"ENT-IRP-004","Oracle Corporation","Enterprise Software Vendor","Enterprise Software","Active (public)","N/A","1977-present","1997-infinite-resource-planning-wp-893815","Implicitly referenced as major enterprise application vendor"
+"ENT-IRP-005","PeopleSoft","Enterprise Software Vendor","Enterprise Software","Acquired","Oracle (acquired 2005)","1987-2005","1997-infinite-resource-planning-wp-893815","Major HR/ERP vendor relevant to IRP discussion"

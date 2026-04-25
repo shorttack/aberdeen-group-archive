@@ -1,40 +1,40 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
-personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
-ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
-topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
-benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
-field-research,methodology,Field Research,Primary data collection via interviews or surveys
-document-review,methodology,Document Review,Analysis of existing documents and records
-statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
-oral-history,methodology,Oral History,First-person spoken or written recollection of events
-ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-snr_first_appearance,observation_type,Snr_First_Appearance,Study-specific code: snr_first_appearance
-deck-figure,methodology,Deck Figure,Study-specific code: deck-figure
-downsizing_definition,observation_type,Downsizing_Definition,Study-specific code: downsizing_definition
-deck-text,methodology,Deck Text,Study-specific code: deck-text
-conrades_quote,observation_type,Conrades_Quote,Study-specific code: conrades_quote
-deck-quotation,methodology,Deck Quotation,Study-specific code: deck-quotation
-automotive_case_history,observation_type,Automotive_Case_History,Study-specific code: automotive_case_history
-deck-case-history,methodology,Deck Case History,Study-specific code: deck-case-history
-manufacturing_case_history,observation_type,Manufacturing_Case_History,Study-specific code: manufacturing_case_history
-banking_case_history,observation_type,Banking_Case_History,Study-specific code: banking_case_history
-kastner_role,observation_type,Kastner_Role,Study-specific code: kastner_role
-deck-cover,methodology,Deck Cover,Study-specific code: deck-cover
-ad_cycle_vision,observation_type,Ad_Cycle_Vision,Study-specific code: ad_cycle_vision
-kastner_career_lineage,observation_type,Kastner_Career_Lineage,Study-specific code: kastner_career_lineage
-deck-bio,methodology,Deck Bio,Study-specific code: deck-bio
-ps2_lan_for_case,observation_type,Ps2_Lan_For_Case,Study-specific code: ps2_lan_for_case
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's long-term survival"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment"
+"personal-recollection","observation_type","Personal Recollection","First-person memory or anecdote from Kastner"
+"ai-exchange","observation_type","AI Exchange","A question posed by Kastner and the AI response extracted as a structured observation"
+"topic-insight","observation_type","Topic Insight","An analytical claim or framework point within a technology topic deep-dive"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or peers"
+"field-research","methodology","Field Research","Primary data collection via interviews or surveys"
+"document-review","methodology","Document Review","Analysis of existing documents and records"
+"statistical-analysis","methodology","Statistical Analysis","Quantitative data analysis with statistical methods"
+"oral-history","methodology","Oral History","First-person spoken or written recollection of events"
+"ai-dialog","methodology","AI Dialog","Question-and-answer exchange between a human and an AI system"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"snr_first_appearance","observation_type","Snr_First_Appearance","Study-specific code: snr_first_appearance"
+"deck-figure","methodology","Deck Figure","Study-specific code: deck-figure"
+"downsizing_definition","observation_type","Downsizing_Definition","Study-specific code: downsizing_definition"
+"deck-text","methodology","Deck Text","Study-specific code: deck-text"
+"conrades_quote","observation_type","Conrades_Quote","Study-specific code: conrades_quote"
+"deck-quotation","methodology","Deck Quotation","Study-specific code: deck-quotation"
+"automotive_case_history","observation_type","Automotive_Case_History","Study-specific code: automotive_case_history"
+"deck-case-history","methodology","Deck Case History","Study-specific code: deck-case-history"
+"manufacturing_case_history","observation_type","Manufacturing_Case_History","Study-specific code: manufacturing_case_history"
+"banking_case_history","observation_type","Banking_Case_History","Study-specific code: banking_case_history"
+"kastner_role","observation_type","Kastner_Role","Study-specific code: kastner_role"
+"deck-cover","methodology","Deck Cover","Study-specific code: deck-cover"
+"ad_cycle_vision","observation_type","Ad_Cycle_Vision","Study-specific code: ad_cycle_vision"
+"kastner_career_lineage","observation_type","Kastner_Career_Lineage","Study-specific code: kastner_career_lineage"
+"deck-bio","methodology","Deck Bio","Study-specific code: deck-bio"
+"ps2_lan_for_case","observation_type","Ps2_Lan_For_Case","Study-specific code: ps2_lan_for_case"

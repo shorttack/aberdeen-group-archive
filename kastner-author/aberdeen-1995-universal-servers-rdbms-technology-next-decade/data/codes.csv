@@ -10,3 +10,4 @@
 "technology-assessment","observation_type","Assessment of a technology capability, state, or characteristic"
 "expert-opinion","observation_type","Expert analyst opinion not constituting a formal prediction"
 "market-data","observation_type","Factual market data, sizing, or share information"
+"framework-factor","observation_type","A criterion or dimension in an analyst's evaluative framework"

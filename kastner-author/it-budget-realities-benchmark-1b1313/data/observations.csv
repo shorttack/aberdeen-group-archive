@@ -1,4 +1,4 @@
-obs_id,study_id,entity_id,tech_id,observation_type,year_observed,metric_name,metric_value,confidence,methodology_code,source_page,notes
+"obs_id","study_id","entity_id","tech_id","observation_type","year_observed","metric_name","metric_value","confidence","methodology_code","source_page","notes"
 "it-budget-realities-benchmark-1b1313-OBS-001","it-budget-realities-benchmark-1b1313","aberdeen-group","","market-data","2004","it-waste-estimate-low","15%","high","SURV","exec-summary","Aberdeen conservatively estimates industry wastes between 15 and 25 percent of IT investment"
 "it-budget-realities-benchmark-1b1313-OBS-002","it-budget-realities-benchmark-1b1313","aberdeen-group","","market-data","2004","it-waste-estimate-high","25%","high","SURV","exec-summary","Upper bound of Aberdeen's IT investment waste estimate across industry"
 "it-budget-realities-benchmark-1b1313-OBS-003","it-budget-realities-benchmark-1b1313","aberdeen-group","","benchmark-result","2004","best-in-class-cost-savings-low","10%","high","BENCH","ch4-p17","Best-in-class firms spend 10% to 25% less than average organizations as IT spend percent of revenue"

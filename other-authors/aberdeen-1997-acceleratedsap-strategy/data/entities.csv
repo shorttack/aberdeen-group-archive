@@ -1,9 +1,9 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-sap-ag,SAP AG,company,ERP-software,active,SAP SE (renamed 2014),1972-present,aberdeen-1997-acceleratedsap-strategy,Headquartered Wayne PA for US ops; global HQ Walldorf Germany
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,"Aberdeen (acquired by Harte-Hanks 2001, then rebranded)",1988-2014,aberdeen-1997-acceleratedsap-strategy,Boston MA; One Boston Place headquarters
-arthur-andersen,Arthur Andersen,firm,professional-services,dissolved,dissolved 2002 post-Enron,1913-2002,aberdeen-1997-acceleratedsap-strategy,Named as SAP National Implementation Partner; dissolved after Enron scandal
-hewlett-packard-co,Hewlett-Packard,company,IT-hardware-services,active,HP Inc. + HPE (split 2015),1939-present,aberdeen-1997-acceleratedsap-strategy,Listed as SAP National Logo Partner for AcceleratedSAP
-technology-solutions-company,Technology Solutions Company,company,IT-consulting,dissolved,,1988-2002,aberdeen-1997-acceleratedsap-strategy,TSC; National Logo Partner; went bankrupt 2002
-whittman-hart,Whittman-Hart,company,IT-consulting,merged,"marchFIRST (merged 2000, bankrupt 2001)",1984-2001,aberdeen-1997-acceleratedsap-strategy,National Implementation Partner; merged with USinternetworking to form marchFIRST
-intelligroup,Intelligroup,company,SAP-consulting,acquired,Mastech Holdings (acquired ~2011),1994-2011,aberdeen-1997-acceleratedsap-strategy,SAP-focused consulting firm; National Implementation Partner
-sap-america,SAP America,company,ERP-software,active,part of SAP SE,1992-present,aberdeen-1997-acceleratedsap-strategy,US subsidiary of SAP AG; launched AcceleratedSAP in mid-1996
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"sap-ag","SAP AG","company","ERP-software","active","SAP SE (renamed 2014)","1972-present","aberdeen-1997-acceleratedsap-strategy","Headquartered Wayne PA for US ops; global HQ Walldorf Germany"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Aberdeen (acquired by Harte-Hanks 2001, then rebranded)","1988-2014","aberdeen-1997-acceleratedsap-strategy","Boston MA; One Boston Place headquarters"
+"arthur-andersen","Arthur Andersen","firm","professional-services","dissolved","dissolved 2002 post-Enron","1913-2002","aberdeen-1997-acceleratedsap-strategy","Named as SAP National Implementation Partner; dissolved after Enron scandal"
+"hewlett-packard-co","Hewlett-Packard","company","IT-hardware-services","active","HP Inc. + HPE (split 2015)","1939-present","aberdeen-1997-acceleratedsap-strategy","Listed as SAP National Logo Partner for AcceleratedSAP"
+"technology-solutions-company","Technology Solutions Company","company","IT-consulting","dissolved","","1988-2002","aberdeen-1997-acceleratedsap-strategy","TSC; National Logo Partner; went bankrupt 2002"
+"whittman-hart","Whittman-Hart","company","IT-consulting","merged","marchFIRST (merged 2000, bankrupt 2001)","1984-2001","aberdeen-1997-acceleratedsap-strategy","National Implementation Partner; merged with USinternetworking to form marchFIRST"
+"intelligroup","Intelligroup","company","SAP-consulting","acquired","Mastech Holdings (acquired ~2011)","1994-2011","aberdeen-1997-acceleratedsap-strategy","SAP-focused consulting firm; National Implementation Partner"
+"sap-america","SAP America","company","ERP-software","active","part of SAP SE","1992-present","aberdeen-1997-acceleratedsap-strategy","US subsidiary of SAP AG; launched AcceleratedSAP in mid-1996"

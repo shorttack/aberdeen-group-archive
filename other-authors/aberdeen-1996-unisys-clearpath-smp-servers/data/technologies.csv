@@ -1,9 +1,9 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-clearpath-smp,Unisys ClearPath SMP Servers,platform,Unisys,1995-2010,emerging,legacy-supported,aberdeen-1996-unisys-clearpath-smp-servers,"SMP5200, SMP5400, SMP6400, SMP61000; evolved into ClearPath Forward; platform roadmap extends to 2050"
-pentium-pro,Intel Pentium Pro (P6),platform,Intel,1995-1999,emerging,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,"Used in SMP5400, SMP6400, SMP61000; 166-200 MHz configurations"
-svr4-unix,Unix SVR4/MP (Unisys Enhanced),platform,Unisys,1992-1999,mature,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,Unisys enhanced SVR4/MP; transitioning to SCO UnixWare 2.1 in 1996
-unixware,UnixWare 2.1,platform,SCO/Novell,1994-2003,emerging,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,SCO-led consortium's Unix; Unisys transitioning to UnixWare from SVR4/MP in 1996
-opus,OPUS (Open Parallel Unisys Server),platform,Unisys/Intel,1994-2000,mature,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,MPP offering with 8-128 Pentium processors; Chorus microkernel; developed with Intel
-veritas-vx-reliant,Veritas Vx Reliant Clustering,framework,Veritas,1995-2003,emerging,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,Cluster up to 4 SMP nodes; 99.9-99.999% uptime; Oracle Parallel Server support
-scm-backplane,Unisys SCM (Synchronous Coherent Memory) Backplane,platform,Unisys,1995-2003,emerging,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,Proprietary 64-bit 533 MBps passive backplane; enables mixed-speed processor boards in SMP61000
-windows-nt-server,Windows NT Server,platform,Microsoft,1993-2001,emerging,obsolete,aberdeen-1996-unisys-clearpath-smp-servers,SMP61000 multi-OS support includes NT Server alongside Unix
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"clearpath-smp","Unisys ClearPath SMP Servers","platform","Unisys","1995-2010","emerging","legacy-supported","aberdeen-1996-unisys-clearpath-smp-servers","SMP5200, SMP5400, SMP6400, SMP61000; evolved into ClearPath Forward; platform roadmap extends to 2050"
+"pentium-pro","Intel Pentium Pro (P6)","platform","Intel","1995-1999","emerging","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","Used in SMP5400, SMP6400, SMP61000; 166-200 MHz configurations"
+"svr4-unix","Unix SVR4/MP (Unisys Enhanced)","platform","Unisys","1992-1999","mature","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","Unisys enhanced SVR4/MP; transitioning to SCO UnixWare 2.1 in 1996"
+"unixware","UnixWare 2.1","platform","SCO/Novell","1994-2003","emerging","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","SCO-led consortium's Unix; Unisys transitioning to UnixWare from SVR4/MP in 1996"
+"opus","OPUS (Open Parallel Unisys Server)","platform","Unisys/Intel","1994-2000","mature","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","MPP offering with 8-128 Pentium processors; Chorus microkernel; developed with Intel"
+"veritas-vx-reliant","Veritas Vx Reliant Clustering","framework","Veritas","1995-2003","emerging","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","Cluster up to 4 SMP nodes; 99.9-99.999% uptime; Oracle Parallel Server support"
+"scm-backplane","Unisys SCM (Synchronous Coherent Memory) Backplane","platform","Unisys","1995-2003","emerging","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","Proprietary 64-bit 533 MBps passive backplane; enables mixed-speed processor boards in SMP61000"
+"windows-nt-server","Windows NT Server","platform","Microsoft","1993-2001","emerging","obsolete","aberdeen-1996-unisys-clearpath-smp-servers","SMP61000 multi-OS support includes NT Server alongside Unix"

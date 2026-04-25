@@ -1,13 +1,13 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-ibm,IBM,company,information-technology,active,,1911-present,aberdeen-1996-ibm-os2-warp-server,"Publisher of OS/2 Warp Server; IBM Corporation, Armonk NY"
-aberdeen-group,Aberdeen Group,firm,market-research,acquired,Aberdeen (Harte-Hanks -> Spiceworks-Ziff Davis),1988-2014,aberdeen-1996-ibm-os2-warp-server,Boston MA; author of this viewpoint
-novell,"Novell, Inc.",company,networking-software,acquired,Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023),1979-2011,aberdeen-1996-ibm-os2-warp-server,Maker of NetWare; lost market leadership to Microsoft by 1999
-microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-ibm-os2-warp-server,Maker of NT Server; principal competitor to OS/2 Warp Server
-banyan-systems,Banyan Systems,company,networking-software,dissolved,ePresence (1999); services div sold to Unisys (2003),1983-2003,aberdeen-1996-ibm-os2-warp-server,Maker of VINES/StreetTalk; lost market share rapidly by 1996
-oracle,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-ibm-os2-warp-server,Porting Oracle7 to OS/2 Warp Server
-sybase,"Sybase, Inc.",company,database-software,acquired,SAP (2010),1984-2010,aberdeen-1996-ibm-os2-warp-server,Ported SQL Server to OS/2 Warp Server
-btrieve-technologies,"Btrieve Technologies, Inc.",company,database-software,acquired,Pervasive Software (renamed 1994),1982-1994,aberdeen-1996-ibm-os2-warp-server,Agreed to make hundreds of applications available on OS/2 Warp Server
-digital-equipment,Digital Equipment Corporation,company,hardware,acquired,Compaq (1998) -> HP (2002),1957-1998,aberdeen-1996-ibm-os2-warp-server,DCE partner; developing DCE-compliant systems
-hewlett-packard,Hewlett-Packard,company,hardware-software,active,HP Inc / HPE (split 2015),1939-present,aberdeen-1996-ibm-os2-warp-server,DCE partner; client/server interop
-sun-microsystems,Sun Microsystems,company,hardware-software,acquired,Oracle (2010),1982-2010,aberdeen-1996-ibm-os2-warp-server,DCE-compliant platform partner
-vinca,Vinca Corporation,company,storage-software,acquired,Novell (1999),1990-1999,aberdeen-1996-ibm-os2-warp-server,Ported fault-tolerant package to OS/2 Warp Server
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ibm","IBM","company","information-technology","active","","1911-present","aberdeen-1996-ibm-os2-warp-server","Publisher of OS/2 Warp Server; IBM Corporation, Armonk NY"
+"aberdeen-group","Aberdeen Group","firm","market-research","acquired","Aberdeen (Harte-Hanks -> Spiceworks-Ziff Davis)","1988-2014","aberdeen-1996-ibm-os2-warp-server","Boston MA; author of this viewpoint"
+"novell","Novell, Inc.","company","networking-software","acquired","Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023)","1979-2011","aberdeen-1996-ibm-os2-warp-server","Maker of NetWare; lost market leadership to Microsoft by 1999"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","aberdeen-1996-ibm-os2-warp-server","Maker of NT Server; principal competitor to OS/2 Warp Server"
+"banyan-systems","Banyan Systems","company","networking-software","dissolved","ePresence (1999); services div sold to Unisys (2003)","1983-2003","aberdeen-1996-ibm-os2-warp-server","Maker of VINES/StreetTalk; lost market share rapidly by 1996"
+"oracle","Oracle Corporation","company","database-software","active","","1977-present","aberdeen-1996-ibm-os2-warp-server","Porting Oracle7 to OS/2 Warp Server"
+"sybase","Sybase, Inc.","company","database-software","acquired","SAP (2010)","1984-2010","aberdeen-1996-ibm-os2-warp-server","Ported SQL Server to OS/2 Warp Server"
+"btrieve-technologies","Btrieve Technologies, Inc.","company","database-software","acquired","Pervasive Software (renamed 1994)","1982-1994","aberdeen-1996-ibm-os2-warp-server","Agreed to make hundreds of applications available on OS/2 Warp Server"
+"digital-equipment","Digital Equipment Corporation","company","hardware","acquired","Compaq (1998) -> HP (2002)","1957-1998","aberdeen-1996-ibm-os2-warp-server","DCE partner; developing DCE-compliant systems"
+"hewlett-packard","Hewlett-Packard","company","hardware-software","active","HP Inc / HPE (split 2015)","1939-present","aberdeen-1996-ibm-os2-warp-server","DCE partner; client/server interop"
+"sun-microsystems","Sun Microsystems","company","hardware-software","acquired","Oracle (2010)","1982-2010","aberdeen-1996-ibm-os2-warp-server","DCE-compliant platform partner"
+"vinca","Vinca Corporation","company","storage-software","acquired","Novell (1999)","1990-1999","aberdeen-1996-ibm-os2-warp-server","Ported fault-tolerant package to OS/2 Warp Server"

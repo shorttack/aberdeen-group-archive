@@ -1,20 +1,20 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks 2006,1988-present,nti-9-mainframe-role-1993-77fc40,Publisher and author of the NTI series
-peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1989-present,nti-9-mainframe-role-1993-77fc40,"Co-author, Aberdeen Group analyst"
-john-logan,John Logan,person,IT-research,unknown,,1990s,nti-9-mainframe-role-1993-77fc40,"Co-author, Aberdeen Group analyst"
-thomas-willmott,Thomas Willmott,person,IT-research,unknown,,1990s,nti-9-mainframe-role-1993-77fc40,"Co-author, Aberdeen Group analyst"
-ibm,IBM,company,IT-hardware-software,active,,1911-present,nti-9-mainframe-role-1993-77fc40,"ES/9000 mainframe maker; market cap $30B in 1993; projected layoff of 40,000 mainframe employees; DB2 trails competitors"
-unisys,Unisys Corporation,company,IT-hardware,active,,1986-present,nti-9-mainframe-role-1993-77fc40,A-Series mainframe growing 12% per year; made intelligent modifications for openness; SCAMP microprocessor; rack-mount packaging
-amdahl,Amdahl Corporation,company,IT-hardware,acquired,Fujitsu (wholly owned subsidiary 1997 for $878M); exited mainframes 2000,1970-1997,nti-9-mainframe-role-1993-77fc40,IBM-compatible mainframe supplier; gross margins 30% vs 45% for PC clones; threw away price book
-microsoft,Microsoft Corporation,company,software,active,,1975-present,nti-9-mainframe-role-1993-77fc40,Market cap $25B in 1993; benchmark comparison to IBM market cap; SAA showed no client-server path
-intel,Intel Corporation,company,semiconductors,active,,1968-present,nti-9-mainframe-role-1993-77fc40,Market cap $25B in 1993; benchmark comparison to IBM market cap
-hewlett-packard,Hewlett-Packard,company,IT-hardware,active,HP Inc./HPE 2015,1939-present,nti-9-mainframe-role-1993-77fc40,Market cap $20B in 1993; providing greater I/O bandwidth than IBM ESCOM; new midrange systems with 20+ MB/sec channel
-fujitsu,Fujitsu,company,IT-hardware,active,,1935-present,nti-9-mainframe-role-1993-77fc40,Mainframe supplier; blamed 1992 financial results and employee layoffs on mainframe sickness
-hitachi,Hitachi,company,IT-hardware,active,,1910-present,nti-9-mainframe-role-1993-77fc40,Mainframe supplier; blamed 1992 financial results on mainframe sickness
-bull,Groupe Bull,company,IT-hardware,acquired,Atos (acquired Bull 2014 for €620M),1931-present,nti-9-mainframe-role-1993-77fc40,Mainframe supplier; blamed 1992 financial results on mainframe sickness
-computer-associates,Computer Associates International,company,software,renamed,"Renamed CA Technologies (2006), then acquired by Broadcom (2018 for $18.9B)",1976-present,nti-9-mainframe-role-1993-77fc40,Largest independent mainframe-oriented ISV; pricing model exemplifies harvesting trend
-ncr,NCR Corporation,company,IT-hardware,split,Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023,1884-present,nti-9-mainframe-role-1993-77fc40,Providing greater I/O bandwidth than IBM ESCOM mainframes with new midrange systems
-oracle,Oracle Corporation,company,enterprise-software,active,,1977-present,nti-9-mainframe-role-1993-77fc40,Referenced as superior RDBMS alternative driving away from IBM DB2
-ingres,Ingres (ASK Group),company,enterprise-software,acquired,ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021),1980-present,nti-9-mainframe-role-1993-77fc40,Referenced as superior RDBMS alternative to DB2
-sybase,"Sybase, Inc.",company,enterprise-software,acquired,SAP 2010,1984-2010,nti-9-mainframe-role-1993-77fc40,Referenced as superior midrange RDBMS alternative to DB2
-software-ag,Software AG,company,enterprise-software,active,,1969-present,nti-9-mainframe-role-1993-77fc40,Natural 4GL re-hosted on RISC/Unix; key for mainframe-to-midrange migration example
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks 2006","1988-present","nti-9-mainframe-role-1993-77fc40","Publisher and author of the NTI series"
+"peter-s-kastner","Peter S. Kastner","person","IT-research","active","","1989-present","nti-9-mainframe-role-1993-77fc40","Co-author, Aberdeen Group analyst"
+"john-logan","John Logan","person","IT-research","unknown","","1990s","nti-9-mainframe-role-1993-77fc40","Co-author, Aberdeen Group analyst"
+"thomas-willmott","Thomas Willmott","person","IT-research","unknown","","1990s","nti-9-mainframe-role-1993-77fc40","Co-author, Aberdeen Group analyst"
+"ibm","IBM","company","IT-hardware-software","active","","1911-present","nti-9-mainframe-role-1993-77fc40","ES/9000 mainframe maker; market cap $30B in 1993; projected layoff of 40,000 mainframe employees; DB2 trails competitors"
+"unisys","Unisys Corporation","company","IT-hardware","active","","1986-present","nti-9-mainframe-role-1993-77fc40","A-Series mainframe growing 12% per year; made intelligent modifications for openness; SCAMP microprocessor; rack-mount packaging"
+"amdahl","Amdahl Corporation","company","IT-hardware","acquired","Fujitsu (wholly owned subsidiary 1997 for $878M); exited mainframes 2000","1970-1997","nti-9-mainframe-role-1993-77fc40","IBM-compatible mainframe supplier; gross margins 30% vs 45% for PC clones; threw away price book"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","nti-9-mainframe-role-1993-77fc40","Market cap $25B in 1993; benchmark comparison to IBM market cap; SAA showed no client-server path"
+"intel","Intel Corporation","company","semiconductors","active","","1968-present","nti-9-mainframe-role-1993-77fc40","Market cap $25B in 1993; benchmark comparison to IBM market cap"
+"hewlett-packard","Hewlett-Packard","company","IT-hardware","active","HP Inc./HPE 2015","1939-present","nti-9-mainframe-role-1993-77fc40","Market cap $20B in 1993; providing greater I/O bandwidth than IBM ESCOM; new midrange systems with 20+ MB/sec channel"
+"fujitsu","Fujitsu","company","IT-hardware","active","","1935-present","nti-9-mainframe-role-1993-77fc40","Mainframe supplier; blamed 1992 financial results and employee layoffs on mainframe sickness"
+"hitachi","Hitachi","company","IT-hardware","active","","1910-present","nti-9-mainframe-role-1993-77fc40","Mainframe supplier; blamed 1992 financial results on mainframe sickness"
+"bull","Groupe Bull","company","IT-hardware","acquired","Atos (acquired Bull 2014 for €620M)","1931-present","nti-9-mainframe-role-1993-77fc40","Mainframe supplier; blamed 1992 financial results on mainframe sickness"
+"computer-associates","Computer Associates International","company","software","renamed","Renamed CA Technologies (2006), then acquired by Broadcom (2018 for $18.9B)","1976-present","nti-9-mainframe-role-1993-77fc40","Largest independent mainframe-oriented ISV; pricing model exemplifies harvesting trend"
+"ncr","NCR Corporation","company","IT-hardware","split","Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023","1884-present","nti-9-mainframe-role-1993-77fc40","Providing greater I/O bandwidth than IBM ESCOM mainframes with new midrange systems"
+"oracle","Oracle Corporation","company","enterprise-software","active","","1977-present","nti-9-mainframe-role-1993-77fc40","Referenced as superior RDBMS alternative driving away from IBM DB2"
+"ingres","Ingres (ASK Group)","company","enterprise-software","acquired","ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021)","1980-present","nti-9-mainframe-role-1993-77fc40","Referenced as superior RDBMS alternative to DB2"
+"sybase","Sybase, Inc.","company","enterprise-software","acquired","SAP 2010","1984-2010","nti-9-mainframe-role-1993-77fc40","Referenced as superior midrange RDBMS alternative to DB2"
+"software-ag","Software AG","company","enterprise-software","active","","1969-present","nti-9-mainframe-role-1993-77fc40","Natural 4GL re-hosted on RISC/Unix; key for mainframe-to-midrange migration example"

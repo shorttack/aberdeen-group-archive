@@ -1,12 +1,13 @@
-entity_id,study_id,name,type,role,status,status_note,hq_country,founded_year,parent_entity
-ibm,aberdeen-1995-ibm-db2-common-server,"IBM","company","subject","active","IBM remains an active global technology company as of 2026","US",1911,
-oracle,aberdeen-1995-ibm-db2-common-server,"Oracle","company","competitor","active","Oracle remains an active global database and cloud technology company as of 2026","US",1977,
-sybase,aberdeen-1995-ibm-db2-common-server,"Sybase","company","competitor","acquired","Sybase was acquired by SAP in July 2010 for approximately $5.8 billion; operates as SAP Sybase","US",1984,"SAP SE"
-informix,aberdeen-1995-ibm-db2-common-server,"Informix","company","competitor","acquired","Informix acquired by IBM in 2001 for $1 billion; continued as IBM Informix; active development delegated to HCLSoftware in 2017","US",1980,"IBM"
-computer-associates,aberdeen-1995-ibm-db2-common-server,"Computer Associates","company","ecosystem","rebranded","Computer Associates rebranded as CA Technologies; subsequently acquired by Broadcom in 2018","US",1976,"Broadcom"
-transarc,aberdeen-1995-ibm-db2-common-server,"Transarc","company","ecosystem","acquired","Transarc (maker of Encina TP monitor) acquired by IBM in 1994","US",1989,"IBM"
-novell,aberdeen-1995-ibm-db2-common-server,"Novell","company","ecosystem","active","Novell (Tuxedo TP monitor) still operates; acquired by Attachmate in 2011, then Micro Focus in 2014","US",1979,
-seer-technologies,aberdeen-1995-ibm-db2-common-server,"Seer Technologies","company","ecosystem","unknown","Third-party client-server application development environment (CADE) provider with close IBM ties; current status unknown","US",,
-lotus,aberdeen-1995-ibm-db2-common-server,"Lotus Development","company","ecosystem","acquired","Lotus acquired by IBM in 1995; Lotus Notes eventually folded into IBM Collaboration Solutions","US",1982,"IBM"
-powersoft,aberdeen-1995-ibm-db2-common-server,"Powersoft","company","ecosystem","acquired","Powersoft acquired by Sybase in 1995; PowerBuilder product line continues under SAP","US",1974,"SAP SE"
-aberdeen-group,aberdeen-1995-ibm-db2-common-server,"Aberdeen Group","company","author","active","Aberdeen Group is an active technology research and analysis firm","US",1988,
+"entity_id","study_id","name","type","role","status","status_note","hq_country","founded_year","parent_entity"
+"ibm","aberdeen-1995-ibm-db2-common-server","IBM","company","subject","active","IBM remains an active global technology company as of 2026","US","1911",""
+"oracle","aberdeen-1995-ibm-db2-common-server","Oracle","company","competitor","active","Oracle remains an active global database and cloud technology company as of 2026","US","1977",""
+"sybase","aberdeen-1995-ibm-db2-common-server","Sybase","company","competitor","acquired","Sybase was acquired by SAP in July 2010 for approximately $5.8 billion; operates as SAP Sybase","US","1984","SAP SE"
+"informix","aberdeen-1995-ibm-db2-common-server","Informix","company","competitor","acquired","Informix acquired by IBM in 2001 for $1 billion; continued as IBM Informix; active development delegated to HCLSoftware in 2017","US","1980","IBM"
+"computer-associates","aberdeen-1995-ibm-db2-common-server","Computer Associates","company","ecosystem","rebranded","Computer Associates rebranded as CA Technologies; subsequently acquired by Broadcom in 2018","US","1976","Broadcom"
+"transarc","aberdeen-1995-ibm-db2-common-server","Transarc","company","ecosystem","acquired","Transarc (maker of Encina TP monitor) acquired by IBM in 1994","US","1989","IBM"
+"novell","aberdeen-1995-ibm-db2-common-server","Novell","company","ecosystem","active","Novell (Tuxedo TP monitor) still operates; acquired by Attachmate in 2011, then Micro Focus in 2014","US","1979",""
+"seer-technologies","aberdeen-1995-ibm-db2-common-server","Seer Technologies","company","ecosystem","unknown","Third-party client-server application development environment (CADE) provider with close IBM ties; current status unknown","US","",""
+"lotus","aberdeen-1995-ibm-db2-common-server","Lotus Development","company","ecosystem","acquired","Lotus acquired by IBM in 1995; Lotus Notes eventually folded into IBM Collaboration Solutions","US","1982","IBM"
+"powersoft","aberdeen-1995-ibm-db2-common-server","Powersoft","company","ecosystem","acquired","Powersoft acquired by Sybase in 1995; PowerBuilder product line continues under SAP","US","1974","SAP SE"
+"aberdeen-group","aberdeen-1995-ibm-db2-common-server","Aberdeen Group","company","author","active","Aberdeen Group is an active technology research and analysis firm","US","1988",""
+"lotus-notes","aberdeen-1995-ibm-db2-common-server","Lotus Notes / Domino","product","mentioned","divested","IBM acquired Lotus in 1995; Notes/Domino sold to HCL in 2018 and remains actively developed","US","1989","ibm"

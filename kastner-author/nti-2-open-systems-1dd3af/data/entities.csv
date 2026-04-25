@@ -1,37 +1,37 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks 2006,1988-present,nti-2-open-systems-1dd3af,"Publisher of NTI series; headquartered 92 State Street, Boston MA"
-peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1989-present,nti-2-open-systems-1dd3af,Co-author of NTI series
-john-logan,John Logan,person,IT-research,unknown,,1990s,nti-2-open-systems-1dd3af,Co-author of NTI series
-thomas-willmott,Thomas Willmott,person,IT-research,unknown,,1990s,nti-2-open-systems-1dd3af,Co-author of NTI series; Aberdeen Group analyst
-ibm,IBM,company,IT-hardware-software,active,,1911-present,nti-2-open-systems-1dd3af,"Mentioned for Power Architecture, Token Ring, OS/2, LAN Manager partnership, OSF founding member"
-intel,Intel Corporation,company,semiconductors,active,,1968-present,nti-2-open-systems-1dd3af,Dominates with 80x86; forecast 30 million units shipped in 1993
-hewlett-packard,Hewlett-Packard,company,IT-hardware,split,HP Inc./HPE 2015,1939-present,nti-2-open-systems-1dd3af,PA-RISC architecture; HP-UX with Empower; OSF founding member
-sun-microsystems,Sun Microsystems,company,IT-hardware-software,acquired,Oracle 2010,1982-2010,nti-2-open-systems-1dd3af,SPARC RISC architecture; Solaris OS; co-founded Unix International with AT&T
-digital-equipment-corporation,Digital Equipment Corporation,company,IT-hardware,acquired,Compaq 1998,1957-1998,nti-2-open-systems-1dd3af,Alpha RISC introduced 1992; Pathworks LAN product; OSF founding member
-microsoft,Microsoft,company,software,active,,1975-present,nti-2-open-systems-1dd3af,Windows/DOS dominance predicted; LAN Manager; Windows for Workgroups; Windows/NT; 26% LAN share
-apple-computer,Apple Computer,company,IT-hardware-software,active,renamed Apple Inc. 2007,1976-present,nti-2-open-systems-1dd3af,Macintosh leads ease-of-use; Taligent joint venture with IBM; lower price points
-novell,Novell,company,networking-software,acquired,Attachmate (2011 for $2.2B) -> Micro Focus (2014) -> OpenText (2023),1983-present,nti-2-open-systems-1dd3af,Dominates PC LAN market; acquired USL; formed Univel with USL
-motorola,Motorola,company,semiconductors,split,Split into Motorola Mobility (Google 2012 -> Lenovo 2014) and Motorola Solutions (active),1928-present,nti-2-open-systems-1dd3af,680XX dominated 1980s technical workstations; 88xxx RISC weak; Power Architecture partnership with IBM
-silicon-graphics,Silicon Graphics,company,IT-hardware,dissolved,Bankruptcy 2006; assets acquired by Rackable Systems (2009 for $25M); renamed SGI; then acquired by HPE (2016),1982-2009,nti-2-open-systems-1dd3af,Acquired MIPS Computer Systems in 1992
-mips-computer-systems,MIPS Computer Systems,company,semiconductors,acquired,Silicon Graphics 1992,1984-1992,nti-2-open-systems-1dd3af,R4000 64-bit; ACE consortium collapsed; acquired by SGI 1992
-banyan-systems,Banyan Systems,company,networking-software,dissolved,Renamed ePresence (1999); assets acquired by Unisys (2003); ceased operations Oct 2003,1983-2004,nti-2-open-systems-1dd3af,Vines directory services; strong in large enterprises; under market pressure
-att,AT&T,company,telecommunications,acquired,SBC Communications acquired AT&T Corp in 2005; renamed itself AT&T Inc.,1885-present,nti-2-open-systems-1dd3af,Co-founded Unix International with Sun; spun off USL; acquired NCR; divested Sun equity
-unix-systems-laboratories,Unix Systems Laboratories,company,software,acquired,Novell 1993,1990-1993,nti-2-open-systems-1dd3af,AT&T spinoff; developed Destiny desktop OS; acquired by Novell
-oracle,Oracle,company,software,active,,1977-present,nti-2-open-systems-1dd3af,Leads independent RDBMS suppliers
-informix,Informix,company,software,acquired,IBM 2001,1980-2001,nti-2-open-systems-1dd3af,RDBMS independent leader
-sybase,Sybase,company,software,acquired,SAP 2010,1984-2010,nti-2-open-systems-1dd3af,RDBMS independent leader
-knowledgeware,KnowledgeWare,company,software,acquired,Sterling Software (acquired 1994 for $74M); Sterling then acquired by Computer Associates (2000 for $3.3B),1979-1994,nti-2-open-systems-1dd3af,CASE product: Application Development Workbench 2.7
-texas-instruments,Texas Instruments,company,IT-software,active,,1951-present,nti-2-open-systems-1dd3af,Information Engineering CASE tool
-taligent,Taligent,company,software,dissolved,Absorbed into IBM (1996-1998); technology became part of VisualAge,1992-1998,nti-2-open-systems-1dd3af,Apple-IBM joint venture for object-oriented OS
-next-computer,Next Computer,company,IT-hardware-software,acquired,Apple Computer (acquired 1997 for $429M); NeXTSTEP became basis of Mac OS X,1985-1997,nti-2-open-systems-1dd3af,Well-positioned for object-oriented next-generation OS
-osf,Open Software Foundation,institution,standards,merged,Merged with X/Open to form The Open Group (1996),1988-1996,nti-2-open-systems-1dd3af,"Founded by DEC, HP, IBM; developed OSF/1, MOTIF, DCE, DME"
-unix-international,Unix International,institution,standards,dissolved,Dissolved ~1993 after COSE agreement unified Unix camps,1988-1993,nti-2-open-systems-1dd3af,AT&T/Sun response to OSF; guided USL Unix development
-xopen,X/Open,institution,standards,merged,Merged with OSF to form The Open Group (1996),1984-1996,nti-2-open-systems-1dd3af,Common Application Environment (CAE); X/Open Portability Guide; European origin
-ieee,IEEE,institution,standards,active,,1884-present,nti-2-open-systems-1dd3af,POSIX subgroups standardizing distributed open systems layers
-object-management-group,Object Management Group,institution,standards,active,,1989-present,nti-2-open-systems-1dd3af,CORBA standard for object-oriented distributed systems
-unisys,Unisys,company,IT-hardware,active,,1986-present,nti-2-open-systems-1dd3af,Offers relational database products
-ncr,NCR Corporation,company,IT-hardware,split,Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023,1884-present,nti-2-open-systems-1dd3af,Acquired by AT&T; offers massively parallel systems
-ingres,Ingres,company,software,acquired,ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021),1980-present,nti-2-open-systems-1dd3af,RDBMS independent leader
-santa-cruz-operation,Santa Cruz Operation (SCO),company,software,renamed,Sold Unix business to Caldera (2001); SCO name acquired by Caldera (renamed SCO Group); original SCO became Tarantella -> acquired by Sun 2005,1979-2004,nti-2-open-systems-1dd3af,Open Desktop Unix for commercial workstations; Intel focus
-proteon,"Proteon, Inc.",company,networking,dissolved,Filed bankruptcy late 1990s; assets dissolved,1972-1999,nti-2-open-systems-1dd3af,Original developer of Token Ring networking
-atm-forum,ATM Forum,institution,standards,dissolved,Merged into Broadband Forum (2005),1991-2016,nti-2-open-systems-1dd3af,Supplier consortium championing ATM networking standard
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks 2006","1988-present","nti-2-open-systems-1dd3af","Publisher of NTI series; headquartered 92 State Street, Boston MA"
+"peter-s-kastner","Peter S. Kastner","person","IT-research","active","","1989-present","nti-2-open-systems-1dd3af","Co-author of NTI series"
+"john-logan","John Logan","person","IT-research","unknown","","1990s","nti-2-open-systems-1dd3af","Co-author of NTI series"
+"thomas-willmott","Thomas Willmott","person","IT-research","unknown","","1990s","nti-2-open-systems-1dd3af","Co-author of NTI series; Aberdeen Group analyst"
+"ibm","IBM","company","IT-hardware-software","active","","1911-present","nti-2-open-systems-1dd3af","Mentioned for Power Architecture, Token Ring, OS/2, LAN Manager partnership, OSF founding member"
+"intel","Intel Corporation","company","semiconductors","active","","1968-present","nti-2-open-systems-1dd3af","Dominates with 80x86; forecast 30 million units shipped in 1993"
+"hewlett-packard","Hewlett-Packard","company","IT-hardware","split","HP Inc./HPE 2015","1939-present","nti-2-open-systems-1dd3af","PA-RISC architecture; HP-UX with Empower; OSF founding member"
+"sun-microsystems","Sun Microsystems","company","IT-hardware-software","acquired","Oracle 2010","1982-2010","nti-2-open-systems-1dd3af","SPARC RISC architecture; Solaris OS; co-founded Unix International with AT&T"
+"digital-equipment-corporation","Digital Equipment Corporation","company","IT-hardware","acquired","Compaq 1998","1957-1998","nti-2-open-systems-1dd3af","Alpha RISC introduced 1992; Pathworks LAN product; OSF founding member"
+"microsoft","Microsoft","company","software","active","","1975-present","nti-2-open-systems-1dd3af","Windows/DOS dominance predicted; LAN Manager; Windows for Workgroups; Windows/NT; 26% LAN share"
+"apple-computer","Apple Computer","company","IT-hardware-software","active","renamed Apple Inc. 2007","1976-present","nti-2-open-systems-1dd3af","Macintosh leads ease-of-use; Taligent joint venture with IBM; lower price points"
+"novell","Novell","company","networking-software","acquired","Attachmate (2011 for $2.2B) -> Micro Focus (2014) -> OpenText (2023)","1983-present","nti-2-open-systems-1dd3af","Dominates PC LAN market; acquired USL; formed Univel with USL"
+"motorola","Motorola","company","semiconductors","split","Split into Motorola Mobility (Google 2012 -> Lenovo 2014) and Motorola Solutions (active)","1928-present","nti-2-open-systems-1dd3af","680XX dominated 1980s technical workstations; 88xxx RISC weak; Power Architecture partnership with IBM"
+"silicon-graphics","Silicon Graphics","company","IT-hardware","dissolved","Bankruptcy 2006; assets acquired by Rackable Systems (2009 for $25M); renamed SGI; then acquired by HPE (2016)","1982-2009","nti-2-open-systems-1dd3af","Acquired MIPS Computer Systems in 1992"
+"mips-computer-systems","MIPS Computer Systems","company","semiconductors","acquired","Silicon Graphics 1992","1984-1992","nti-2-open-systems-1dd3af","R4000 64-bit; ACE consortium collapsed; acquired by SGI 1992"
+"banyan-systems","Banyan Systems","company","networking-software","dissolved","Renamed ePresence (1999); assets acquired by Unisys (2003); ceased operations Oct 2003","1983-2004","nti-2-open-systems-1dd3af","Vines directory services; strong in large enterprises; under market pressure"
+"att","AT&T","company","telecommunications","acquired","SBC Communications acquired AT&T Corp in 2005; renamed itself AT&T Inc.","1885-present","nti-2-open-systems-1dd3af","Co-founded Unix International with Sun; spun off USL; acquired NCR; divested Sun equity"
+"unix-systems-laboratories","Unix Systems Laboratories","company","software","acquired","Novell 1993","1990-1993","nti-2-open-systems-1dd3af","AT&T spinoff; developed Destiny desktop OS; acquired by Novell"
+"oracle","Oracle","company","software","active","","1977-present","nti-2-open-systems-1dd3af","Leads independent RDBMS suppliers"
+"informix","Informix","company","software","acquired","IBM 2001","1980-2001","nti-2-open-systems-1dd3af","RDBMS independent leader"
+"sybase","Sybase","company","software","acquired","SAP 2010","1984-2010","nti-2-open-systems-1dd3af","RDBMS independent leader"
+"knowledgeware","KnowledgeWare","company","software","acquired","Sterling Software (acquired 1994 for $74M); Sterling then acquired by Computer Associates (2000 for $3.3B)","1979-1994","nti-2-open-systems-1dd3af","CASE product: Application Development Workbench 2.7"
+"texas-instruments","Texas Instruments","company","IT-software","active","","1951-present","nti-2-open-systems-1dd3af","Information Engineering CASE tool"
+"taligent","Taligent","company","software","dissolved","Absorbed into IBM (1996-1998); technology became part of VisualAge","1992-1998","nti-2-open-systems-1dd3af","Apple-IBM joint venture for object-oriented OS"
+"next-computer","Next Computer","company","IT-hardware-software","acquired","Apple Computer (acquired 1997 for $429M); NeXTSTEP became basis of Mac OS X","1985-1997","nti-2-open-systems-1dd3af","Well-positioned for object-oriented next-generation OS"
+"osf","Open Software Foundation","institution","standards","merged","Merged with X/Open to form The Open Group (1996)","1988-1996","nti-2-open-systems-1dd3af","Founded by DEC, HP, IBM; developed OSF/1, MOTIF, DCE, DME"
+"unix-international","Unix International","institution","standards","dissolved","Dissolved ~1993 after COSE agreement unified Unix camps","1988-1993","nti-2-open-systems-1dd3af","AT&T/Sun response to OSF; guided USL Unix development"
+"xopen","X/Open","institution","standards","merged","Merged with OSF to form The Open Group (1996)","1984-1996","nti-2-open-systems-1dd3af","Common Application Environment (CAE); X/Open Portability Guide; European origin"
+"ieee","IEEE","institution","standards","active","","1884-present","nti-2-open-systems-1dd3af","POSIX subgroups standardizing distributed open systems layers"
+"object-management-group","Object Management Group","institution","standards","active","","1989-present","nti-2-open-systems-1dd3af","CORBA standard for object-oriented distributed systems"
+"unisys","Unisys","company","IT-hardware","active","","1986-present","nti-2-open-systems-1dd3af","Offers relational database products"
+"ncr","NCR Corporation","company","IT-hardware","split","Split into NCR Voyix (digital commerce) and NCR Atleos (ATMs) in October 2023","1884-present","nti-2-open-systems-1dd3af","Acquired by AT&T; offers massively parallel systems"
+"ingres","Ingres","company","software","acquired","ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021)","1980-present","nti-2-open-systems-1dd3af","RDBMS independent leader"
+"santa-cruz-operation","Santa Cruz Operation (SCO)","company","software","renamed","Sold Unix business to Caldera (2001); SCO name acquired by Caldera (renamed SCO Group); original SCO became Tarantella -> acquired by Sun 2005","1979-2004","nti-2-open-systems-1dd3af","Open Desktop Unix for commercial workstations; Intel focus"
+"proteon","Proteon, Inc.","company","networking","dissolved","Filed bankruptcy late 1990s; assets dissolved","1972-1999","nti-2-open-systems-1dd3af","Original developer of Token Ring networking"
+"atm-forum","ATM Forum","institution","standards","dissolved","Merged into Broadband Forum (2005)","1991-2016","nti-2-open-systems-1dd3af","Supplier consortium championing ATM networking standard"

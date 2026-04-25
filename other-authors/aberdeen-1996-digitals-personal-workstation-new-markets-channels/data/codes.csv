@@ -1,22 +1,22 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business or channel strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity or product market success
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity or prediction
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
-benchmark-result,observation_type,Benchmark Result,Quantitative performance comparison against peers
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
-market-data,observation_type,Market Data,Quantitative market statistic or pricing data
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment by Aberdeen analysts
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
-benchmarking,methodology,Benchmarking,"Comparison via Pro/Engineer, CADalyst, Ansys benchmarks"
-document-review,methodology,Document Review,Analysis of vendor documents and product specs
-field-research,methodology,Field Research,Primary interviews with IT managers and VAR community
-high,confidence,High Confidence,Strong evidentiary basis; benchmark data or direct vendor statement
-medium,confidence,Medium Confidence,Reasonable basis with analyst judgment
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events
-mature,lifecycle,Mature,Technology widely deployed and stable
-emerging,lifecycle,Emerging,Technology gaining adoption
-obsolete,lifecycle,Obsolete,Technology no longer active
-active,lifecycle,Active,Technology currently in use
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business or channel strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity or product market success"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity or prediction"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative performance comparison against peers"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework"
+"market-data","observation_type","Market Data","Quantitative market statistic or pricing data"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment by Aberdeen analysts"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities"
+"benchmarking","methodology","Benchmarking","Comparison via Pro/Engineer, CADalyst, Ansys benchmarks"
+"document-review","methodology","Document Review","Analysis of vendor documents and product specs"
+"field-research","methodology","Field Research","Primary interviews with IT managers and VAR community"
+"high","confidence","High Confidence","Strong evidentiary basis; benchmark data or direct vendor statement"
+"medium","confidence","Medium Confidence","Reasonable basis with analyst judgment"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events"
+"mature","lifecycle","Mature","Technology widely deployed and stable"
+"emerging","lifecycle","Emerging","Technology gaining adoption"
+"obsolete","lifecycle","Obsolete","Technology no longer active"
+"active","lifecycle","Active","Technology currently in use"

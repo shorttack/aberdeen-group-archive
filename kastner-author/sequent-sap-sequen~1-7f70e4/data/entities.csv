@@ -1,9 +1,9 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-sequent-computer-systems,Sequent Computer Systems,company,enterprise-servers,acquired,IBM,1983-1999,sequent-sap-sequen~1-7f70e4,Maker of Symmetry SMP servers; author of this presentation
-ixos-software,iXOS Software,company,enterprise-software,acquired,Open Text,1989-2004,sequent-sap-sequen~1-7f70e4,SAP strategic partner; provided R/3 competence center on Windows NT
-sap,SAP,company,enterprise-software,active,,1972-present,sequent-sap-sequen~1-7f70e4,ERP vendor; R/3 version 2.2d used in benchmark
-hp,Hewlett-Packard,company,enterprise-servers,split,HP Inc. + Hewlett Packard Enterprise,1939-present,sequent-sap-sequen~1-7f70e4,Competitor in SD benchmark comparison; UNIX only; not independently certified
-sun-microsystems,Sun Microsystems,company,enterprise-servers,acquired,Oracle Corporation,1982-2010,sequent-sap-sequen~1-7f70e4,Competitor in SD benchmark comparison; partnered with Cray for benchmark run [REVIEW]
-cray-research,Cray Research,company,high-performance-computing,acquired,Cray Inc. (HPE),1972-1999,sequent-sap-sequen~1-7f70e4,Listed jointly with Sun in SD benchmark comparison entry
-ibm,IBM,company,IT-services,active,,1911-present,sequent-sap-sequen~1-7f70e4,Competitor in SD benchmark comparison; UNIX only; not independently certified
-compaq,Compaq,company,computing,acquired,HP (merged 2002),1982-2002,sequent-sap-sequen~1-7f70e4,ProLiant 4000s used as simulated client-driver systems in Sequent benchmark configuration [REVIEW]
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"sequent-computer-systems","Sequent Computer Systems","company","enterprise-servers","acquired","IBM","1983-1999","sequent-sap-sequen~1-7f70e4","Maker of Symmetry SMP servers; author of this presentation"
+"ixos-software","iXOS Software","company","enterprise-software","acquired","Open Text","1989-2004","sequent-sap-sequen~1-7f70e4","SAP strategic partner; provided R/3 competence center on Windows NT"
+"sap","SAP","company","enterprise-software","active","","1972-present","sequent-sap-sequen~1-7f70e4","ERP vendor; R/3 version 2.2d used in benchmark"
+"hp","Hewlett-Packard","company","enterprise-servers","split","HP Inc. + Hewlett Packard Enterprise","1939-present","sequent-sap-sequen~1-7f70e4","Competitor in SD benchmark comparison; UNIX only; not independently certified"
+"sun-microsystems","Sun Microsystems","company","enterprise-servers","acquired","Oracle Corporation","1982-2010","sequent-sap-sequen~1-7f70e4","Competitor in SD benchmark comparison; partnered with Cray for benchmark run [REVIEW]"
+"cray-research","Cray Research","company","high-performance-computing","acquired","Cray Inc. (HPE)","1972-1999","sequent-sap-sequen~1-7f70e4","Listed jointly with Sun in SD benchmark comparison entry"
+"ibm","IBM","company","IT-services","active","","1911-present","sequent-sap-sequen~1-7f70e4","Competitor in SD benchmark comparison; UNIX only; not independently certified"
+"compaq","Compaq","company","computing","acquired","HP (merged 2002)","1982-2002","sequent-sap-sequen~1-7f70e4","ProLiant 4000s used as simulated client-driver systems in Sequent benchmark configuration [REVIEW]"

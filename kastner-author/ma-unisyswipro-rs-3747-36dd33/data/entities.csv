@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,ma-unisyswipro-rs-3747-36dd33,Author organization; benchmark survey on ADM outsourcing.
-peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,ma-unisyswipro-rs-3747-36dd33,"VP, Enterprise Technology Research, Aberdeen Group; co-author."
-rick-saia,Rick Saia,person,Market Research / IT Consulting,active,,2000s,ma-unisyswipro-rs-3747-36dd33,"Research Analyst, Enterprise Technology Research, Aberdeen Group; primary author of market alert."
-unisys,Unisys,company,Information technology / enterprise computing,active,,1986-present,ma-unisyswipro-rs-3747-36dd33,U.S.-based IT services company; subcontractor in Wipro alliance providing local on-site support services.
-wipro,Wipro Technologies,company,IT Outsourcing / Offshore Services,active,,1980-present,ma-unisyswipro-rs-3747-36dd33,Indian IT outsourcing provider; top-3 Indian ADM provider; prime contractor in alliance; handles remote services.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-present","ma-unisyswipro-rs-3747-36dd33","Author organization; benchmark survey on ADM outsourcing."
+"peter-s-kastner","Peter S. Kastner","person","Market Research / IT Consulting","active","","1989-present","ma-unisyswipro-rs-3747-36dd33","VP, Enterprise Technology Research, Aberdeen Group; co-author."
+"rick-saia","Rick Saia","person","Market Research / IT Consulting","active","","2000s","ma-unisyswipro-rs-3747-36dd33","Research Analyst, Enterprise Technology Research, Aberdeen Group; primary author of market alert."
+"unisys","Unisys","company","Information technology / enterprise computing","active","","1986-present","ma-unisyswipro-rs-3747-36dd33","U.S.-based IT services company; subcontractor in Wipro alliance providing local on-site support services."
+"wipro","Wipro Technologies","company","IT Outsourcing / Offshore Services","active","","1980-present","ma-unisyswipro-rs-3747-36dd33","Indian IT outsourcing provider; top-3 Indian ADM provider; prime contractor in alliance; handles remote services."

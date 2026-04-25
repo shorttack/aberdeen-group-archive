@@ -1,15 +1,15 @@
-code_id,code_type,code_value,description,study_id
-OT-SC,observation_type,strategy-classification,Classification of vendor strategic position or decision,aberdeen-1996-advanced-planning-engines-white-paper
-OT-VP,observation_type,viability-prediction,Forward-looking prediction about commercial viability,aberdeen-1996-advanced-planning-engines-white-paper
-OT-AO,observation_type,actual-outcome,Verified real-world outcome via external research,aberdeen-1996-advanced-planning-engines-white-paper
-OT-TA,observation_type,technology-assessment,Technical evaluation of capabilities or positioning,aberdeen-1996-advanced-planning-engines-white-paper
-OT-FF,observation_type,framework-factor,Structural environmental factor (key success factors etc.),aberdeen-1996-advanced-planning-engines-white-paper
-OT-MD,observation_type,market-data,Quantitative market metric (revenue, install base),aberdeen-1996-advanced-planning-engines-white-paper
-OT-EO,observation_type,expert-opinion,Qualitative analyst recommendation or opinion,aberdeen-1996-advanced-planning-engines-white-paper
-CONF-HIGH,confidence,high,Multiple corroborating sources or vendor data,aberdeen-1996-advanced-planning-engines-white-paper
-CONF-MED,confidence,medium,Single source or inferred from context,aberdeen-1996-advanced-planning-engines-white-paper
-METH-ES,methodology_code,expert-survey,Aberdeen analyst field survey and expert interviews,aberdeen-1996-advanced-planning-engines-white-paper
-METH-CS,methodology_code,case-study,Anonymous enterprise case study from Aberdeen fieldwork,aberdeen-1996-advanced-planning-engines-white-paper
-METH-VC,methodology_code,vendor-claim,Specification or assertion provided by vendor,aberdeen-1996-advanced-planning-engines-white-paper
-METH-EO,methodology_code,expert-opinion,Analyst opinion without formal survey,aberdeen-1996-advanced-planning-engines-white-paper
-METH-WR,methodology_code,web-research,Post-publication verification via web research,aberdeen-1996-advanced-planning-engines-white-paper
+"code_id","code_type","code_value","description","study_id"
+"OT-SC","observation_type","strategy-classification","Classification of vendor strategic position or decision","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-VP","observation_type","viability-prediction","Forward-looking prediction about commercial viability","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-AO","observation_type","actual-outcome","Verified real-world outcome via external research","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-TA","observation_type","technology-assessment","Technical evaluation of capabilities or positioning","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-FF","observation_type","framework-factor","Structural environmental factor (key success factors etc.)","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-MD","observation_type","market-data","Quantitative market metric (revenue"," install base)","aberdeen-1996-advanced-planning-engines-white-paper"
+"OT-EO","observation_type","expert-opinion","Qualitative analyst recommendation or opinion","aberdeen-1996-advanced-planning-engines-white-paper"
+"CONF-HIGH","confidence","high","Multiple corroborating sources or vendor data","aberdeen-1996-advanced-planning-engines-white-paper"
+"CONF-MED","confidence","medium","Single source or inferred from context","aberdeen-1996-advanced-planning-engines-white-paper"
+"METH-ES","methodology_code","expert-survey","Aberdeen analyst field survey and expert interviews","aberdeen-1996-advanced-planning-engines-white-paper"
+"METH-CS","methodology_code","case-study","Anonymous enterprise case study from Aberdeen fieldwork","aberdeen-1996-advanced-planning-engines-white-paper"
+"METH-VC","methodology_code","vendor-claim","Specification or assertion provided by vendor","aberdeen-1996-advanced-planning-engines-white-paper"
+"METH-EO","methodology_code","expert-opinion","Analyst opinion without formal survey","aberdeen-1996-advanced-planning-engines-white-paper"
+"METH-WR","methodology_code","web-research","Post-publication verification via web research","aberdeen-1996-advanced-planning-engines-white-paper"

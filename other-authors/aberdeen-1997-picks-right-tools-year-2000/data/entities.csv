@@ -1,2 +1,2 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Halyard Capital -> Spiceworks Ziff Davis,1988-2015,aberdeen-1997-picks-right-tools-year-2000,Author/publisher of Technology Viewpoint series
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks -> Halyard Capital -> Spiceworks Ziff Davis","1988-2015","aberdeen-1997-picks-right-tools-year-2000","Author/publisher of Technology Viewpoint series"

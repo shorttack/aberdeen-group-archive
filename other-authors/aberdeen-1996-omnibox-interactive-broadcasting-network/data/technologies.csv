@@ -1,8 +1,8 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-mpeg2-compression,MPEG-2 Video Compression,protocol,MPEG consortium (ISO/IEC),1994-2010,emerging,legacy-supported,aberdeen-1996-omnibox-interactive-broadcasting-network,OmniBox claimed 4x better compression than MPEG-2
-omnibox-compression,OmniBox Patented Compression Technology,framework,"OmniBox, Inc.",1993-1998,emerging,obsolete,aberdeen-1996-omnibox-interactive-broadcasting-network,Claimed 100:1 video compression ratio and 4x better than MPEG/JPEG
-set-top-box,Digital Set-Top Box,platform,multiple,1994-2015,emerging,declining,aberdeen-1996-omnibox-interactive-broadcasting-network,OmniBox designed own set-top with integrated credit card reader
-isdn,ISDN,protocol,ITU standard,1988-2003,mature,obsolete,aberdeen-1996-omnibox-interactive-broadcasting-network,Referenced as home connectivity medium alongside 28.8Kbps modem
-cable-modem,Cable Modem,platform,multiple,1994-2010,emerging,mature,aberdeen-1996-omnibox-interactive-broadcasting-network,Identified as alternative delivery vehicle for OmniBox content
-adsl,ADSL (Asymmetric Digital Subscriber Line),protocol,Bellcore/ITU,1995-2015,emerging,legacy-supported,aberdeen-1996-omnibox-interactive-broadcasting-network,Referenced as RBOC strategy alongside ISDN for home broadband
-pay-per-view,Pay-Per-View / Video On Demand,application,multiple cable operators,1985-present,mature,active,aberdeen-1996-omnibox-interactive-broadcasting-network,Core monetization mechanism for OmniBox network
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mpeg2-compression","MPEG-2 Video Compression","protocol","MPEG consortium (ISO/IEC)","1994-2010","emerging","legacy-supported","aberdeen-1996-omnibox-interactive-broadcasting-network","OmniBox claimed 4x better compression than MPEG-2"
+"omnibox-compression","OmniBox Patented Compression Technology","framework","OmniBox, Inc.","1993-1998","emerging","obsolete","aberdeen-1996-omnibox-interactive-broadcasting-network","Claimed 100:1 video compression ratio and 4x better than MPEG/JPEG"
+"set-top-box","Digital Set-Top Box","platform","multiple","1994-2015","emerging","declining","aberdeen-1996-omnibox-interactive-broadcasting-network","OmniBox designed own set-top with integrated credit card reader"
+"isdn","ISDN","protocol","ITU standard","1988-2003","mature","obsolete","aberdeen-1996-omnibox-interactive-broadcasting-network","Referenced as home connectivity medium alongside 28.8Kbps modem"
+"cable-modem","Cable Modem","platform","multiple","1994-2010","emerging","mature","aberdeen-1996-omnibox-interactive-broadcasting-network","Identified as alternative delivery vehicle for OmniBox content"
+"adsl","ADSL (Asymmetric Digital Subscriber Line)","protocol","Bellcore/ITU","1995-2015","emerging","legacy-supported","aberdeen-1996-omnibox-interactive-broadcasting-network","Referenced as RBOC strategy alongside ISDN for home broadband"
+"pay-per-view","Pay-Per-View / Video On Demand","application","multiple cable operators","1985-present","mature","active","aberdeen-1996-omnibox-interactive-broadcasting-network","Core monetization mechanism for OmniBox network"

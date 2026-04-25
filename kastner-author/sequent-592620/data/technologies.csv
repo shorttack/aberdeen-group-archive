@@ -1,16 +1,16 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-dynix-ptx,DYNIX/ptx,platform,Sequent Computer Systems,1987-1999,mature,obsolete,sequent-592620,Sequent proprietary Unix OS; upgraded to UNIX V.4 at time of study
-windows-nt,Windows NT,platform,Microsoft,1993-2000,growth,legacy-superseded,sequent-592620,Used on Sequent WinServer product line for early adopters
-dg-ux,DG/UX,platform,Data General,1988-1999,mature,obsolete,sequent-592620,Data General Unix SVR4 operating system for Aviion servers
-unix-svr4,UNIX SVR4,platform,AT&T/USL,1988-2000,mature,obsolete,sequent-592620,Underlying Unix variant for DG/UX; also referenced in Sequent DYNIX migration
-vmEbus,VMEbus,protocol,VITA/IEEE,1981-2000,mature,legacy,sequent-592620,Bus interface on Sequent 5000 series; 240MB/sec throughput
-scsi-2,SCSI-2,storage,ANSI,1991-2000,mature,obsolete,sequent-592620,Disk interface for both Sequent (840GB) and Data General Aviion (RAID arrays)
-fddi,FDDI,protocol,ANSI,1987-2000,mature,obsolete,sequent-592620,High-speed network option referenced in Sequent context
-netware,NetWare,platform,Novell,1983-2000,mature,legacy,sequent-592620,Supported on Data General Aviion for LAN integration
-sna,SNA,protocol,IBM,1974-2000,mature,legacy,sequent-592620,IBM SNA networking support on Data General Aviion
-decnet,DECnet,protocol,Digital Equipment Corporation,1975-2000,mature,obsolete,sequent-592620,DEC networking protocol supported on Data General Aviion
-token-ring,Token Ring,protocol,IBM,1984-2000,mature,obsolete,sequent-592620,LAN protocol supported on Data General Aviion
-raid,RAID,storage,Generic,1988-present,growth,current,sequent-592620,"Both vendors offer RAID; Sequent: 0,1,2; DG: 0,1,3,5"
-motorola-88k,Motorola 88K,hardware,Motorola,1988-1997,mature,obsolete,sequent-592620,RISC chip used in Data General Aviion; identified as end-of-life risk in document
-oracle-parallel-server,Oracle Parallel Server,application,Oracle,1992-2001,growth,legacy-superseded,sequent-592620,Supported on Data General Aviion for 2-4-system clustering
-informix-dsa,Informix DSA,application,Informix,1993-1997,growth,obsolete,sequent-592620,Dynamic Scalable Architecture; Sequent had 6-month exclusivity on parallelism
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"dynix-ptx","DYNIX/ptx","platform","Sequent Computer Systems","1987-1999","mature","obsolete","sequent-592620","Sequent proprietary Unix OS; upgraded to UNIX V.4 at time of study"
+"windows-nt","Windows NT","platform","Microsoft","1993-2000","growth","legacy-superseded","sequent-592620","Used on Sequent WinServer product line for early adopters"
+"dg-ux","DG/UX","platform","Data General","1988-1999","mature","obsolete","sequent-592620","Data General Unix SVR4 operating system for Aviion servers"
+"unix-svr4","UNIX SVR4","platform","AT&T/USL","1988-2000","mature","obsolete","sequent-592620","Underlying Unix variant for DG/UX; also referenced in Sequent DYNIX migration"
+"vmEbus","VMEbus","protocol","VITA/IEEE","1981-2000","mature","legacy","sequent-592620","Bus interface on Sequent 5000 series; 240MB/sec throughput"
+"scsi-2","SCSI-2","storage","ANSI","1991-2000","mature","obsolete","sequent-592620","Disk interface for both Sequent (840GB) and Data General Aviion (RAID arrays)"
+"fddi","FDDI","protocol","ANSI","1987-2000","mature","obsolete","sequent-592620","High-speed network option referenced in Sequent context"
+"netware","NetWare","platform","Novell","1983-2000","mature","legacy","sequent-592620","Supported on Data General Aviion for LAN integration"
+"sna","SNA","protocol","IBM","1974-2000","mature","legacy","sequent-592620","IBM SNA networking support on Data General Aviion"
+"decnet","DECnet","protocol","Digital Equipment Corporation","1975-2000","mature","obsolete","sequent-592620","DEC networking protocol supported on Data General Aviion"
+"token-ring","Token Ring","protocol","IBM","1984-2000","mature","obsolete","sequent-592620","LAN protocol supported on Data General Aviion"
+"raid","RAID","storage","Generic","1988-present","growth","current","sequent-592620","Both vendors offer RAID; Sequent: 0,1,2; DG: 0,1,3,5"
+"motorola-88k","Motorola 88K","hardware","Motorola","1988-1997","mature","obsolete","sequent-592620","RISC chip used in Data General Aviion; identified as end-of-life risk in document"
+"oracle-parallel-server","Oracle Parallel Server","application","Oracle","1992-2001","growth","legacy-superseded","sequent-592620","Supported on Data General Aviion for 2-4-system clustering"
+"informix-dsa","Informix DSA","application","Informix","1993-1997","growth","obsolete","sequent-592620","Dynamic Scalable Architecture; Sequent had 6-month exclusivity on parallelism"

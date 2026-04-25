@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,,acquired,,,cacustsell98-3b53c6,Training deliverer
-computer-associates,Computer Associates (CA),company,,renamed,,,cacustsell98-3b53c6,Training client
-peter-s-kastner,Peter S. Kastner,person,,active,,,cacustsell98-3b53c6,Training author/facilitator
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","cacustsell98-3b53c6","Training deliverer"
+"computer-associates","Computer Associates (CA)","company","","renamed","","","cacustsell98-3b53c6","Training client"
+"peter-s-kastner","Peter S. Kastner","person","","active","","","cacustsell98-3b53c6","Training author/facilitator"

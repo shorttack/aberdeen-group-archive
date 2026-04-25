@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group Inc.,firm,Market Research / IT Advisory,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-2014,computerworld-ilm-article-15f604,Kastner is co-founder and board member; the firm's research underpins the article
-peter-kastner,Peter S. Kastner,person,IT Market Research,active,,1988-present,computerworld-ilm-article-15f604,Co-founder Aberdeen Group; author of this Computerworld column
-computerworld,Computerworld,institution,Technology Media,renamed,Part of IDG/Foundry (IDG acquired by Blackstone 2017; digital brand continues under Foundry/IDG Communications),1967-present,computerworld-ilm-article-15f604,Publication venue for this ILM advisory article
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group Inc.","firm","Market Research / IT Advisory","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-2014","computerworld-ilm-article-15f604","Kastner is co-founder and board member; the firm's research underpins the article"
+"peter-kastner","Peter S. Kastner","person","IT Market Research","active","","1988-present","computerworld-ilm-article-15f604","Co-founder Aberdeen Group; author of this Computerworld column"
+"computerworld","Computerworld","institution","Technology Media","renamed","Part of IDG/Foundry (IDG acquired by Blackstone 2017; digital brand continues under Foundry/IDG Communications)","1967-present","computerworld-ilm-article-15f604","Publication venue for this ILM advisory article"

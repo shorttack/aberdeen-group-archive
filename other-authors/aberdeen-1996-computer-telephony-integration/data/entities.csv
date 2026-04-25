@@ -1,8 +1,8 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,IT-research,merged,Aberdeen (Harte-Hanks),1988-2010,aberdeen-1996-computer-telephony-integration,Boston-based IT analyst firm
-oracle-corporation,Oracle Corporation,company,database-software,active,,1977-present,aberdeen-1996-computer-telephony-integration,Named for Oracle WebSystem (web RDBMS middleware) and 64-bit Oracle support; dominant RDBMS
-informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,aberdeen-1996-computer-telephony-integration,Acquired Illustra DataBlades object-relational technology; acquired by IBM 2001
-sybase,Sybase Inc.,company,database-software,acquired,SAP SE (2010),1984-2010,aberdeen-1996-computer-telephony-integration,Named as proactive Internet middleware developer; acquired by SAP 2010
-spider-technologies,Spider Technologies,company,internet-middleware,dissolved,,1994-2000,aberdeen-1996-computer-telephony-integration,Early Internet TP-monitor-type middleware vendor for web scalability; did not survive dot-com bust
-computer-associates,Computer Associates International,company,systems-management,active,CA Technologies -> Broadcom (2018),1976-2018,aberdeen-1996-computer-telephony-integration,CA-Unicenter ICE (Internet Commerce Enabled) cited for enterprise-class internet systems management
-sequent-computer,Sequent Computer Systems,company,server-hardware,acquired,IBM (1999),1983-1999,aberdeen-1996-computer-telephony-integration,NUMA fusion technology hardware supplier; acquired by IBM 1999
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","merged","Aberdeen (Harte-Hanks)","1988-2010","aberdeen-1996-computer-telephony-integration","Boston-based IT analyst firm"
+"oracle-corporation","Oracle Corporation","company","database-software","active","","1977-present","aberdeen-1996-computer-telephony-integration","Named for Oracle WebSystem (web RDBMS middleware) and 64-bit Oracle support; dominant RDBMS"
+"informix","Informix Software","company","database-software","acquired","IBM (2001)","1980-2001","aberdeen-1996-computer-telephony-integration","Acquired Illustra DataBlades object-relational technology; acquired by IBM 2001"
+"sybase","Sybase Inc.","company","database-software","acquired","SAP SE (2010)","1984-2010","aberdeen-1996-computer-telephony-integration","Named as proactive Internet middleware developer; acquired by SAP 2010"
+"spider-technologies","Spider Technologies","company","internet-middleware","dissolved","","1994-2000","aberdeen-1996-computer-telephony-integration","Early Internet TP-monitor-type middleware vendor for web scalability; did not survive dot-com bust"
+"computer-associates","Computer Associates International","company","systems-management","active","CA Technologies -> Broadcom (2018)","1976-2018","aberdeen-1996-computer-telephony-integration","CA-Unicenter ICE (Internet Commerce Enabled) cited for enterprise-class internet systems management"
+"sequent-computer","Sequent Computer Systems","company","server-hardware","acquired","IBM (1999)","1983-1999","aberdeen-1996-computer-telephony-integration","NUMA fusion technology hardware supplier; acquired by IBM 1999"

@@ -1,19 +1,19 @@
-code_id,code_type,label,definition
-industry-analysis,methodology_code,Industry Analysis,Analysis of market structure and competitive dynamics within an industry
-competitive-profiling,methodology_code,Competitive Profiling,Systematic comparison of competing products or vendors on key dimensions
-benchmarking,methodology_code,Benchmarking,Use of standardized performance tests to compare systems or platforms
-field-research,methodology_code,Field Research,"Primary data collection through interviews, surveys, and site visits"
-document-review,methodology_code,Document Review,Systematic analysis of existing documents and published materials
-statistical-analysis,methodology_code,Statistical Analysis,Application of statistical methods to survey or measurement data
-strategy-classification,observation_type,Strategy Classification,Categorization of organizational or vendor strategic approaches
-viability-prediction,observation_type,Viability Prediction,Forward-looking assessment of technology or market viability
-actual-outcome,observation_type,Actual Outcome,Documented real-world result that can be compared to predictions
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's capabilities and readiness
-benchmark-result,observation_type,Benchmark Result,Quantitative result from a performance test or survey measurement
-framework-factor,observation_type,Framework Factor,Key factor identified within an analytical framework
-market-data,observation_type,Market Data,Quantitative data about market size or market share or adoption rates
-expert-opinion,observation_type,Expert Opinion,Qualitative judgment by a domain expert or analyst
-high,confidence,High,Strong evidence from multiple sources or direct measurement
-medium,confidence,Medium,Reasonable evidence but with some uncertainty or limited sources
-low,confidence,Low,Weak evidence or highly uncertain assessment
-verified,confidence,Verified,Confirmed by subsequent real-world outcomes
+"code_id","code_type","label","definition"
+"industry-analysis","methodology_code","Industry Analysis","Analysis of market structure and competitive dynamics within an industry"
+"competitive-profiling","methodology_code","Competitive Profiling","Systematic comparison of competing products or vendors on key dimensions"
+"benchmarking","methodology_code","Benchmarking","Use of standardized performance tests to compare systems or platforms"
+"field-research","methodology_code","Field Research","Primary data collection through interviews, surveys, and site visits"
+"document-review","methodology_code","Document Review","Systematic analysis of existing documents and published materials"
+"statistical-analysis","methodology_code","Statistical Analysis","Application of statistical methods to survey or measurement data"
+"strategy-classification","observation_type","Strategy Classification","Categorization of organizational or vendor strategic approaches"
+"viability-prediction","observation_type","Viability Prediction","Forward-looking assessment of technology or market viability"
+"actual-outcome","observation_type","Actual Outcome","Documented real-world result that can be compared to predictions"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's capabilities and readiness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative result from a performance test or survey measurement"
+"framework-factor","observation_type","Framework Factor","Key factor identified within an analytical framework"
+"market-data","observation_type","Market Data","Quantitative data about market size or market share or adoption rates"
+"expert-opinion","observation_type","Expert Opinion","Qualitative judgment by a domain expert or analyst"
+"high","confidence","High","Strong evidence from multiple sources or direct measurement"
+"medium","confidence","Medium","Reasonable evidence but with some uncertainty or limited sources"
+"low","confidence","Low","Weak evidence or highly uncertain assessment"
+"verified","confidence","Verified","Confirmed by subsequent real-world outcomes"

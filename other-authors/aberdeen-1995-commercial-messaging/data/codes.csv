@@ -1,32 +1,32 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's or technology's long-term survival or adoption trajectory
-actual-outcome,observation_type,Actual Outcome,"Verified historical outcome for an entity or technology, established post-study"
-technology-assessment,observation_type,Technology Assessment,"Evaluation of a technology's maturity, fitness for purpose, or competitive position"
-benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards; measured performance data
-framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework used by the study author
-market-data,observation_type,Market Data,"Quantitative market statistic such as size, share, growth rate, or revenue estimate"
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment or recommendation not tied to a specific quantitative metric
-industry-analysis,methodology,Industry Analysis,"Systematic analysis of industry structure, dynamics, competitive forces, and market trends"
-competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities on key dimensions
-benchmarking,methodology,Benchmarking,Comparison against industry standards or best-in-class peers
-field-research,methodology,Field Research,"Primary data collection via interviews, surveys, or direct observation"
-document-review,methodology,Document Review,"Analysis of existing documents, published reports, and records"
-statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis using statistical methods
-technology-assessment,methodology,Technology Assessment,Structured evaluation of technology products and their fitness for enterprise use cases
-market-analysis,methodology,Market Analysis,"Estimation and segmentation of market size, growth, and competitive structure"
-high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources or direct Aberdeen research finding
-medium,confidence,Medium Confidence,Reasonable basis but limited corroboration; Aberdeen estimate or projection
-low,confidence,Low Confidence,Directional judgment with limited evidence; based on vendor statements or preliminary data
-verified,confidence,Verified,Confirmed by subsequent events or independent sources; applied to actual-outcome observations
-emerging,lifecycle,Emerging,Technology was new and growing rapidly at time of study; limited market penetration
-mature,lifecycle,Mature,Technology was established and widely adopted at time of study
-declining,lifecycle,Declining,Technology was losing market share or relevance at time of study
-active,lifecycle,Active,"Technology is currently actively maintained, developed, and commercially available"
-legacy-supported,lifecycle,Legacy Supported,Technology still in use but no longer actively developed; maintenance and support only
-obsolete,lifecycle,Obsolete,Technology no longer in active use or commercial support; superseded by successor technologies
-store-and-forward,domain,Store-and-Forward,Messaging paradigm where data is stored at intermediate nodes until recipient is available; key to robust distributed computing
-enterprise-infrastructure,domain,Enterprise Infrastructure,Aberdeen Group concept: shared middleware foundation enabling location-independent distributed computing across all enterprise applications
-application-partitioning,domain,Application Partitioning,Second-generation CADE capability to automatically repartition application components between client and server tiers without user disruption
-second-gen-cade,domain,Second-Generation CADE,"Client-server application development environment with integrated Commercial Messaging, repository/directory, and application partitioning (e.g., Forte, Seer*HPS)"
-queue-manager,domain,Queue Manager,"Core Commercial Messaging component handling queues, connections between Queue Managers, and message routing across the enterprise network"
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of entity's or technology's long-term survival or adoption trajectory"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity or technology, established post-study"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity, fitness for purpose, or competitive position"
+"benchmark-result","observation_type","Benchmark Result","Quantitative comparison against peers or standards; measured performance data"
+"framework-factor","observation_type","Framework Factor","One component of a multi-factor analytical framework used by the study author"
+"market-data","observation_type","Market Data","Quantitative market statistic such as size, share, growth rate, or revenue estimate"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment or recommendation not tied to a specific quantitative metric"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure, dynamics, competitive forces, and market trends"
+"competitive-profiling","methodology","Competitive Profiling","Detailed comparison of competing entities on key dimensions"
+"benchmarking","methodology","Benchmarking","Comparison against industry standards or best-in-class peers"
+"field-research","methodology","Field Research","Primary data collection via interviews, surveys, or direct observation"
+"document-review","methodology","Document Review","Analysis of existing documents, published reports, and records"
+"statistical-analysis","methodology","Statistical Analysis","Quantitative data analysis using statistical methods"
+"technology-assessment","methodology","Technology Assessment","Structured evaluation of technology products and their fitness for enterprise use cases"
+"market-analysis","methodology","Market Analysis","Estimation and segmentation of market size, growth, and competitive structure"
+"high","confidence","High Confidence","Strong evidentiary basis; multiple corroborating sources or direct Aberdeen research finding"
+"medium","confidence","Medium Confidence","Reasonable basis but limited corroboration; Aberdeen estimate or projection"
+"low","confidence","Low Confidence","Directional judgment with limited evidence; based on vendor statements or preliminary data"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources; applied to actual-outcome observations"
+"emerging","lifecycle","Emerging","Technology was new and growing rapidly at time of study; limited market penetration"
+"mature","lifecycle","Mature","Technology was established and widely adopted at time of study"
+"declining","lifecycle","Declining","Technology was losing market share or relevance at time of study"
+"active","lifecycle","Active","Technology is currently actively maintained, developed, and commercially available"
+"legacy-supported","lifecycle","Legacy Supported","Technology still in use but no longer actively developed; maintenance and support only"
+"obsolete","lifecycle","Obsolete","Technology no longer in active use or commercial support; superseded by successor technologies"
+"store-and-forward","domain","Store-and-Forward","Messaging paradigm where data is stored at intermediate nodes until recipient is available; key to robust distributed computing"
+"enterprise-infrastructure","domain","Enterprise Infrastructure","Aberdeen Group concept: shared middleware foundation enabling location-independent distributed computing across all enterprise applications"
+"application-partitioning","domain","Application Partitioning","Second-generation CADE capability to automatically repartition application components between client and server tiers without user disruption"
+"second-gen-cade","domain","Second-Generation CADE","Client-server application development environment with integrated Commercial Messaging, repository/directory, and application partitioning (e.g., Forte, Seer*HPS)"
+"queue-manager","domain","Queue Manager","Core Commercial Messaging component handling queues, connections between Queue Managers, and message routing across the enterprise network"

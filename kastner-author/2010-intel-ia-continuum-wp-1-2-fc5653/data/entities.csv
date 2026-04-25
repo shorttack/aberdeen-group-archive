@@ -1,15 +1,15 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,2010-intel-ia-continuum-wp-1-2-fc5653,Publisher of the white paper.
-peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,2010-intel-ia-continuum-wp-1-2-fc5653,Author; industry analyst with 40+ years experience; Aberdeen Group co-founder.
-intel,Intel Corporation,company,Semiconductor,active,,1968-present,2010-intel-ia-continuum-wp-1-2-fc5653,Subject of white paper; IA Continuum strategy analyzed.
-microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,2010-intel-ia-continuum-wp-1-2-fc5653,Windows as dominant desktop/notebook OS; Windows Mobile cited as mediocre in mobile.
-nokia,Nokia,company,Mobile / Consumer Electronics,active,,1865-present,2010-intel-ia-continuum-wp-1-2-fc5653,Nokia Meego Linux merged with Intel Moblin; announced February 2010.
-wind-river,Wind River Systems,company,Embedded Systems Software,acquired,"Intel (2009); TPG Capital (2018); Aptiv PLC (December 2022, $3.5B)",1983-present,2010-intel-ia-continuum-wp-1-2-fc5653,Acquired by Intel in 2009; CE system integration and embedded/real-time specialist.
-taiwan-semiconductor,Taiwan Semiconductor (TSMC),company,Semiconductor Fabrication,active,,1987-present,2010-intel-ia-continuum-wp-1-2-fc5653,Cited as partner fab for Intel SOC production.
-salesforce-com,Salesforce.com,company,Enterprise SaaS / Cloud,active,Salesforce (dropped .com from brand name),1999-present,2010-intel-ia-continuum-wp-1-2-fc5653,Cited as successful cloud computing company that bet business on cloud architecture.
-amd,AMD,company,Semiconductor,active,,1969-present,2010-intel-ia-continuum-wp-1-2-fc5653,Intel settled major dispute with AMD prior to FTC antitrust suit.
-us-ftc,U.S. Federal Trade Commission (FTC),agency,Government / Regulatory,active,,1914-present,2010-intel-ia-continuum-wp-1-2-fc5653,Filed antitrust suit against Intel; referenced as government scrutiny risk.
-apple,Apple,company,Consumer Electronics / Software,active,,1976-present,2010-intel-ia-continuum-wp-1-2-fc5653,iPhone and iPad cited as driving competitive feeding frenzy in mobile.
-newegg,Newegg.com,company,E-Commerce / Technology Retail,active,,2001-present,2010-intel-ia-continuum-wp-1-2-fc5653,Cited as online channel merchant selling Intel products.
-amazon,Amazon,company,E-Commerce / Cloud,active,,1994-present,2010-intel-ia-continuum-wp-1-2-fc5653,Cited as online channel merchant.
-nvidia,nVidia,company,Semiconductor / Graphics,active,,1993-present,2010-intel-ia-continuum-wp-1-2-fc5653,Discrete graphics competitor to Intel Larrabee project.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-present","2010-intel-ia-continuum-wp-1-2-fc5653","Publisher of the white paper."
+"peter-s-kastner","Peter S. Kastner","person","Market Research / IT Consulting","active","","1989-present","2010-intel-ia-continuum-wp-1-2-fc5653","Author; industry analyst with 40+ years experience; Aberdeen Group co-founder."
+"intel","Intel Corporation","company","Semiconductor","active","","1968-present","2010-intel-ia-continuum-wp-1-2-fc5653","Subject of white paper; IA Continuum strategy analyzed."
+"microsoft","Microsoft","company","Enterprise Software / OS","active","","1975-present","2010-intel-ia-continuum-wp-1-2-fc5653","Windows as dominant desktop/notebook OS; Windows Mobile cited as mediocre in mobile."
+"nokia","Nokia","company","Mobile / Consumer Electronics","active","","1865-present","2010-intel-ia-continuum-wp-1-2-fc5653","Nokia Meego Linux merged with Intel Moblin; announced February 2010."
+"wind-river","Wind River Systems","company","Embedded Systems Software","acquired","Intel (2009); TPG Capital (2018); Aptiv PLC (December 2022, $3.5B)","1983-present","2010-intel-ia-continuum-wp-1-2-fc5653","Acquired by Intel in 2009; CE system integration and embedded/real-time specialist."
+"taiwan-semiconductor","Taiwan Semiconductor (TSMC)","company","Semiconductor Fabrication","active","","1987-present","2010-intel-ia-continuum-wp-1-2-fc5653","Cited as partner fab for Intel SOC production."
+"salesforce-com","Salesforce.com","company","Enterprise SaaS / Cloud","active","Salesforce (dropped .com from brand name)","1999-present","2010-intel-ia-continuum-wp-1-2-fc5653","Cited as successful cloud computing company that bet business on cloud architecture."
+"amd","AMD","company","Semiconductor","active","","1969-present","2010-intel-ia-continuum-wp-1-2-fc5653","Intel settled major dispute with AMD prior to FTC antitrust suit."
+"us-ftc","U.S. Federal Trade Commission (FTC)","agency","Government / Regulatory","active","","1914-present","2010-intel-ia-continuum-wp-1-2-fc5653","Filed antitrust suit against Intel; referenced as government scrutiny risk."
+"apple","Apple","company","Consumer Electronics / Software","active","","1976-present","2010-intel-ia-continuum-wp-1-2-fc5653","iPhone and iPad cited as driving competitive feeding frenzy in mobile."
+"newegg","Newegg.com","company","E-Commerce / Technology Retail","active","","2001-present","2010-intel-ia-continuum-wp-1-2-fc5653","Cited as online channel merchant selling Intel products."
+"amazon","Amazon","company","E-Commerce / Cloud","active","","1994-present","2010-intel-ia-continuum-wp-1-2-fc5653","Cited as online channel merchant."
+"nvidia","nVidia","company","Semiconductor / Graphics","active","","1993-present","2010-intel-ia-continuum-wp-1-2-fc5653","Discrete graphics competitor to Intel Larrabee project."

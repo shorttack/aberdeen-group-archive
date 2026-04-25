@@ -1,10 +1,10 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-iq-liveweb,IQ/LiveWeb,application,IQ Software,1996-1999,emerging,obsolete,aberdeen-1996-iq-software-www-reporting,"Web-enabled enterprise reporting; April 16, 1996 introduction; $3,995-$19,995 pricing"
-iq-objects,IQ/Objects,framework,IQ Software,1993-1999,mature,obsolete,aberdeen-1996-iq-software-www-reporting,Object-oriented query building blocks; precursor to IQ/LiveWeb
-iq-smartserver,IQ/SmartServer,application,IQ Software,1996-1999,emerging,obsolete,aberdeen-1996-iq-software-www-reporting,Scheduling and execution module; runs on Unix and Windows NT; publishes HTML to Web
-iq-cyberlinks,IQ/CyberLinks,application,IQ Software,1996-1999,emerging,obsolete,aberdeen-1996-iq-software-www-reporting,Hyperlinking and navigation software for cross-database drill-through
-iq-vision,IQ/Vision,framework,IQ Software,1996-1999,emerging,obsolete,aberdeen-1996-iq-software-www-reporting,Open architecture OLAP integration approach; slice/dice/drill-down
-three-tier-architecture,Three-Tier Client-Server Architecture,framework,,1995-present,emerging,active,aberdeen-1996-iq-software-www-reporting,Architectural pattern: browser client / application server / database; still foundation of modern web apps
-html,Hypertext Markup Language (HTML),protocol,W3C,1991-present,emerging,active,aberdeen-1996-iq-software-www-reporting,Web publishing format; Aberdeen noted HTML worked poorly with Microsoft OLE in 1996
-cgi,Common Gateway Interface (CGI),protocol,IETF,1993-2010,emerging,legacy-supported,aberdeen-1996-iq-software-www-reporting,Web server-application communication mechanism; largely replaced by REST APIs
-odbc,Open Database Connectivity (ODBC),protocol,Microsoft,1992-present,mature,active,aberdeen-1996-iq-software-www-reporting,Standard database connectivity; still used in enterprise data access today
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"iq-liveweb","IQ/LiveWeb","application","IQ Software","1996-1999","emerging","obsolete","aberdeen-1996-iq-software-www-reporting","Web-enabled enterprise reporting; April 16, 1996 introduction; $3,995-$19,995 pricing"
+"iq-objects","IQ/Objects","framework","IQ Software","1993-1999","mature","obsolete","aberdeen-1996-iq-software-www-reporting","Object-oriented query building blocks; precursor to IQ/LiveWeb"
+"iq-smartserver","IQ/SmartServer","application","IQ Software","1996-1999","emerging","obsolete","aberdeen-1996-iq-software-www-reporting","Scheduling and execution module; runs on Unix and Windows NT; publishes HTML to Web"
+"iq-cyberlinks","IQ/CyberLinks","application","IQ Software","1996-1999","emerging","obsolete","aberdeen-1996-iq-software-www-reporting","Hyperlinking and navigation software for cross-database drill-through"
+"iq-vision","IQ/Vision","framework","IQ Software","1996-1999","emerging","obsolete","aberdeen-1996-iq-software-www-reporting","Open architecture OLAP integration approach; slice/dice/drill-down"
+"three-tier-architecture","Three-Tier Client-Server Architecture","framework","","1995-present","emerging","active","aberdeen-1996-iq-software-www-reporting","Architectural pattern: browser client / application server / database; still foundation of modern web apps"
+"html","Hypertext Markup Language (HTML)","protocol","W3C","1991-present","emerging","active","aberdeen-1996-iq-software-www-reporting","Web publishing format; Aberdeen noted HTML worked poorly with Microsoft OLE in 1996"
+"cgi","Common Gateway Interface (CGI)","protocol","IETF","1993-2010","emerging","legacy-supported","aberdeen-1996-iq-software-www-reporting","Web server-application communication mechanism; largely replaced by REST APIs"
+"odbc","Open Database Connectivity (ODBC)","protocol","Microsoft","1992-present","mature","active","aberdeen-1996-iq-software-www-reporting","Standard database connectivity; still used in enterprise data access today"

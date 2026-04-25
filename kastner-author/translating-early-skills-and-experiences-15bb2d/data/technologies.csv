@@ -1,5 +1,5 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-prime-750,Prime 750 Minicomputer,platform,Prime Computer,1977-1985,mature,obsolete,translating-early-skills-and-experiences-15bb2d,Distributed departmental minicomputer; move toward this as mainframe price/performance monopoly collapsed
-cobol,COBOL,language,various,1959-present,mature,legacy-active,translating-early-skills-and-experiences-15bb2d,Foundation language; translated into predictive tool for global technology market
-assembler,Assembly Language,language,various,1950s-present,mature,legacy-active,translating-early-skills-and-experiences-15bb2d,Foundation skill; dump reading and I/O optimization; part of forensic foundation
-moores-law,Moore's Law,standard,Intel,1965-present,current,current,translating-early-skills-and-experiences-15bb2d,Technical ability to intuit Moore's Law enabled move toward distributed minicomputers
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"prime-750","Prime 750 Minicomputer","platform","Prime Computer","1977-1985","mature","obsolete","translating-early-skills-and-experiences-15bb2d","Distributed departmental minicomputer; move toward this as mainframe price/performance monopoly collapsed"
+"cobol","COBOL","language","various","1959-present","mature","legacy-active","translating-early-skills-and-experiences-15bb2d","Foundation language; translated into predictive tool for global technology market"
+"assembler","Assembly Language","language","various","1950s-present","mature","legacy-active","translating-early-skills-and-experiences-15bb2d","Foundation skill; dump reading and I/O optimization; part of forensic foundation"
+"moores-law","Moore's Law","standard","Intel","1965-present","current","current","translating-early-skills-and-experiences-15bb2d","Technical ability to intuit Moore's Law enabled move toward distributed minicomputers"

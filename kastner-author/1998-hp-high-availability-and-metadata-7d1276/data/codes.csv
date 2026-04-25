@@ -28,3 +28,7 @@
 "niche-production","lifecycle","niche-production","Niche Production","Technology is in production but serving a niche market segment."
 "evolved","lifecycle","evolved","Evolved","Technology evolved significantly into successor technologies."
 "active-concept","lifecycle","active-concept","Active Concept","Conceptual framework or metric that remains actively used."
+"OT-001","observation_type","expert-opinion","Expert Opinion","Qualitative professional judgment from a domain practitioner"
+"OT-002","observation_type","framework-factor","Framework Factor","A criterion or dimension in an analyst's evaluative framework"
+"OT-003","observation_type","market-data","Market Data","Quantitative or qualitative market size, growth, or segment statistic"
+"OT-004","observation_type","strategy-classification","Strategy Classification","Characterizes strategic positioning or market stance of a vendor or technology"

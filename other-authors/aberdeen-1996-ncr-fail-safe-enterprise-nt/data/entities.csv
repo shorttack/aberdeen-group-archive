@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-ncr-corporation,NCR Corporation,company,enterprise-computing,active,NCR Voyix / NCR Atleos (2023 split),1884-present,aberdeen-1996-ncr-fail-safe-enterprise-nt,Formerly AT&T GIS (1991-1996); spun off from AT&T in 1996; split into NCR Voyix and NCR Atleos in 2023
-att-gis,AT&T Global Information Solutions (AT&T GIS),company,enterprise-computing,dissolved,ncr-corporation,1991-1996,aberdeen-1996-ncr-fail-safe-enterprise-nt,"AT&T acquired NCR in 1991, renamed to AT&T GIS; spun off and reverted to NCR name in 1996"
-microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-ncr-fail-safe-enterprise-nt,Publisher of Windows NT Server and SQL Server; key strategic partner for NCR
-aberdeen-group,Aberdeen Group,firm,IT-research,merged,Aberdeen (Harte-Hanks),1988-2010,aberdeen-1996-ncr-fail-safe-enterprise-nt,Boston-based IT analyst firm; acquired by Harte-Hanks in 2001; brand continued
-teradata,Teradata Corporation,company,data-warehousing,active,,1979-present,aberdeen-1996-ncr-fail-safe-enterprise-nt,NCR subsidiary providing large-scale data warehouse systems; spun out from NCR in 2007
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ncr-corporation","NCR Corporation","company","enterprise-computing","active","NCR Voyix / NCR Atleos (2023 split)","1884-present","aberdeen-1996-ncr-fail-safe-enterprise-nt","Formerly AT&T GIS (1991-1996); spun off from AT&T in 1996; split into NCR Voyix and NCR Atleos in 2023"
+"att-gis","AT&T Global Information Solutions (AT&T GIS)","company","enterprise-computing","dissolved","ncr-corporation","1991-1996","aberdeen-1996-ncr-fail-safe-enterprise-nt","AT&T acquired NCR in 1991, renamed to AT&T GIS; spun off and reverted to NCR name in 1996"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","aberdeen-1996-ncr-fail-safe-enterprise-nt","Publisher of Windows NT Server and SQL Server; key strategic partner for NCR"
+"aberdeen-group","Aberdeen Group","firm","IT-research","merged","Aberdeen (Harte-Hanks)","1988-2010","aberdeen-1996-ncr-fail-safe-enterprise-nt","Boston-based IT analyst firm; acquired by Harte-Hanks in 2001; brand continued"
+"teradata","Teradata Corporation","company","data-warehousing","active","","1979-present","aberdeen-1996-ncr-fail-safe-enterprise-nt","NCR subsidiary providing large-scale data warehouse systems; spun out from NCR in 2007"

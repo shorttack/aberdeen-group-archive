@@ -1,11 +1,11 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-tivoli-tmf,Tivoli Management Framework (TMF),framework,Tivoli/IBM,1993-2010,emerging,legacy-supported,aberdeen-1996-ibm-tivoli,Umbrella framework for integrating/managing client-server environments; evolved into IBM Tivoli product suite
-tme-10-enterprise-console,TME 10 Enterprise Console,application,Tivoli/IBM,1996-2005,emerging,obsolete,aberdeen-1996-ibm-tivoli,Centralized top-down management console; policy-based; unified event management
-tme-10-user-admin,TME 10 User Administration,application,Tivoli/IBM,1996-2005,emerging,obsolete,aberdeen-1996-ibm-tivoli,Centralized user account control from OS/390 to Windows desktops
-tme-10-software-dist,TME 10 Software Distribution,application,Tivoli/IBM,1996-2005,emerging,obsolete,aberdeen-1996-ibm-tivoli,Central software patch/update distribution from OS/390 to desktops
-tme-10-monitoring,TME 10 Distributed Monitoring,application,Tivoli/IBM,1996-2005,emerging,obsolete,aberdeen-1996-ibm-tivoli,Threshold monitoring with automatic corrective actions; alerts to Enterprise Console
-hp-openview,HP OpenView,platform,Hewlett-Packard,1992-2012,mature,obsolete,aberdeen-1996-ibm-tivoli,Direct competitor; bottoms-up network management view; evolved into HP Network Node Manager then MicroFocus OpsBridge
-ca-unicenter-tng,CA Unicenter TNG,platform,Computer Associates,1994-2010,mature,obsolete,aberdeen-1996-ibm-tivoli,Direct competitor; comprehensive all-or-nothing approach; visual 3D management console
-ibm-systemview,IBM SystemView,application,IBM,1990-2002,mature,obsolete,aberdeen-1996-ibm-tivoli,IBM's legacy management platform; positioned to become well-behaved Tivoli application
-ibm-netview,IBM NetView,application,IBM,1986-present,mature,active,aberdeen-1996-ibm-tivoli,IBM network management; became Tivoli NetView; IBM NetView for z/OS still active
-ibm-karat,IBM Karat Project,platform,IBM,1990-1996,emerging,obsolete,aberdeen-1996-ibm-tivoli,IBM's internal management platform project; cancelled in favor of Tivoli acquisition
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tivoli-tmf","Tivoli Management Framework (TMF)","framework","Tivoli/IBM","1993-2010","emerging","legacy-supported","aberdeen-1996-ibm-tivoli","Umbrella framework for integrating/managing client-server environments; evolved into IBM Tivoli product suite"
+"tme-10-enterprise-console","TME 10 Enterprise Console","application","Tivoli/IBM","1996-2005","emerging","obsolete","aberdeen-1996-ibm-tivoli","Centralized top-down management console; policy-based; unified event management"
+"tme-10-user-admin","TME 10 User Administration","application","Tivoli/IBM","1996-2005","emerging","obsolete","aberdeen-1996-ibm-tivoli","Centralized user account control from OS/390 to Windows desktops"
+"tme-10-software-dist","TME 10 Software Distribution","application","Tivoli/IBM","1996-2005","emerging","obsolete","aberdeen-1996-ibm-tivoli","Central software patch/update distribution from OS/390 to desktops"
+"tme-10-monitoring","TME 10 Distributed Monitoring","application","Tivoli/IBM","1996-2005","emerging","obsolete","aberdeen-1996-ibm-tivoli","Threshold monitoring with automatic corrective actions; alerts to Enterprise Console"
+"hp-openview","HP OpenView","platform","Hewlett-Packard","1992-2012","mature","obsolete","aberdeen-1996-ibm-tivoli","Direct competitor; bottoms-up network management view; evolved into HP Network Node Manager then MicroFocus OpsBridge"
+"ca-unicenter-tng","CA Unicenter TNG","platform","Computer Associates","1994-2010","mature","obsolete","aberdeen-1996-ibm-tivoli","Direct competitor; comprehensive all-or-nothing approach; visual 3D management console"
+"ibm-systemview","IBM SystemView","application","IBM","1990-2002","mature","obsolete","aberdeen-1996-ibm-tivoli","IBM's legacy management platform; positioned to become well-behaved Tivoli application"
+"ibm-netview","IBM NetView","application","IBM","1986-present","mature","active","aberdeen-1996-ibm-tivoli","IBM network management; became Tivoli NetView; IBM NetView for z/OS still active"
+"ibm-karat","IBM Karat Project","platform","IBM","1990-1996","emerging","obsolete","aberdeen-1996-ibm-tivoli","IBM's internal management platform project; cancelled in favor of Tivoli acquisition"

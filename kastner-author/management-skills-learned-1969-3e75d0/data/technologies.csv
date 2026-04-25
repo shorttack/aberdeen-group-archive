@@ -1,6 +1,6 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-ibm-4300,IBM 4300 Series,platform,IBM,1979-1990,mature,legacy,1969-3e75d0,Referenced in USM migration failure; mismatched with DG Eclipse
-dg-eclipse,Data General Eclipse,platform,Data General,1974-1988,mature,obsolete,management-skills-learned-1969-3e75d0,Target of failed migration from IBM 4300 at USM; highlighted as architectural mismatch
-cobol,COBOL,language,various,1959-present,mature,legacy-active,management-skills-learned-1969-3e75d0,Kastner background language; mentioned as translatable to predictive industry analysis
-assembler,Assembly Language,language,various,1950s-present,mature,legacy-active,management-skills-learned-1969-3e75d0,Early programming skill base for Kastner; dump reading and I/O optimization
-96-column-card,96-Column Punched Card,hardware,IBM,1969-1984,declining,obsolete,management-skills-learned-1969-3e75d0,Used in Chase Manhattan securities subsystem; required bridging to 80-column format
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ibm-4300","IBM 4300 Series","platform","IBM","1979-1990","mature","legacy","1969-3e75d0","Referenced in USM migration failure; mismatched with DG Eclipse"
+"dg-eclipse","Data General Eclipse","platform","Data General","1974-1988","mature","obsolete","management-skills-learned-1969-3e75d0","Target of failed migration from IBM 4300 at USM; highlighted as architectural mismatch"
+"cobol","COBOL","language","various","1959-present","mature","legacy-active","management-skills-learned-1969-3e75d0","Kastner background language; mentioned as translatable to predictive industry analysis"
+"assembler","Assembly Language","language","various","1950s-present","mature","legacy-active","management-skills-learned-1969-3e75d0","Early programming skill base for Kastner; dump reading and I/O optimization"
+"96-column-card","96-Column Punched Card","hardware","IBM","1969-1984","declining","obsolete","management-skills-learned-1969-3e75d0","Used in Chase Manhattan securities subsystem; required bridging to 80-column format"

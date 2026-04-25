@@ -1,17 +1,17 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-windows-95,Windows 95,platform,Microsoft,1995-2001,new,obsolete,software-market-safegu~1-ea7453,Predicted rapid acceptance after rocky start; released August 1995
-windows-nt,Windows NT Advanced Server,platform,Microsoft,1993-2000,growth,legacy-superseded,software-market-safegu~1-ea7453,Identified as sweeping from workgroup to enterprise; ISVs moving to NT
-os2-warp,IBM OS/2 Warp,platform,IBM,1994-2006,declining,obsolete,software-market-safegu~1-ea7453,"Kastner stated it ""missed the window"" and ""can never recover"""
-unix,UNIX (various),platform,Various,1969-present,mature,current,software-market-safegu~1-ea7453,UNIX variants prove capable of enterprise-scale apps; mature market by 1995
-mvs,MVS,platform,IBM,1974-present,mature,legacy,software-market-safegu~1-ea7453,"Classified as old proprietary OS that ""does not matter"" for future market"
-vms,VMS,platform,Digital Equipment Corporation,1977-present,mature,legacy,software-market-safegu~1-ea7453,Classified alongside MVS as old proprietary OS with diminishing relevance
-rdbms,Relational DBMS (generic),application,Various,1980-present,growth,current,software-market-safegu~1-ea7453,Kastner estimated 9 RDBMS licenses per 10 multiuser Unix servers sold
-odbms,Object-Oriented DBMS,application,Various,1990-2000,niche,obsolete,software-market-safegu~1-ea7453,Kastner stated the ODBMS window had closed; relegated to niche
-odbc,ODBC,protocol,Microsoft,1992-present,growth,current,software-market-safegu~1-ea7453,Cited as competing with gateway-to-data-source approaches
-client-server,Client-Server Computing,framework,Various,1988-2000,growth,legacy-superseded,software-market-safegu~1-ea7453,Predicted to evolve to distributed computing model by year 2000
-orb,Object Request Broker (ORB),framework,Various,1993-2002,emerging,obsolete,software-market-safegu~1-ea7453,Identified as missing infrastructure for object-oriented development adoption
-object-cobol,Object COBOL,language,Various,1993-2000,emerging,obsolete,software-market-safegu~1-ea7453,Listed as object-transitional aid; legacy code-wrapper category
-eism,Enterprise Information Systems Management (EISM),framework,Aberdeen Group,1994-1998,emerging,obsolete,software-market-safegu~1-ea7453,"Aberdeen-proprietary framework; consolidates network, systems, operations, database management"
-as400,IBM AS/400,platform,IBM,1988-2000,mature,legacy-supported,software-market-safegu~1-ea7453,Referenced as analogy for Microsoft NT proprietary OS strategy
-sap-r3,SAP R/3,application,SAP,1992-2015,growth,legacy-superseded,software-market-safegu~1-ea7453,Cited as example; opportunity to distribute to $100M manufacturers
-data-warehouse,Data Warehousing,application,Various,1990-present,growth,current,software-market-safegu~1-ea7453,Identified as reaching mainstream; opportunity for AI/query tools
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"windows-95","Windows 95","platform","Microsoft","1995-2001","new","obsolete","software-market-safegu~1-ea7453","Predicted rapid acceptance after rocky start; released August 1995"
+"windows-nt","Windows NT Advanced Server","platform","Microsoft","1993-2000","growth","legacy-superseded","software-market-safegu~1-ea7453","Identified as sweeping from workgroup to enterprise; ISVs moving to NT"
+"os2-warp","IBM OS/2 Warp","platform","IBM","1994-2006","declining","obsolete","software-market-safegu~1-ea7453","Kastner stated it ""missed the window"" and ""can never recover"""
+"unix","UNIX (various)","platform","Various","1969-present","mature","current","software-market-safegu~1-ea7453","UNIX variants prove capable of enterprise-scale apps; mature market by 1995"
+"mvs","MVS","platform","IBM","1974-present","mature","legacy","software-market-safegu~1-ea7453","Classified as old proprietary OS that ""does not matter"" for future market"
+"vms","VMS","platform","Digital Equipment Corporation","1977-present","mature","legacy","software-market-safegu~1-ea7453","Classified alongside MVS as old proprietary OS with diminishing relevance"
+"rdbms","Relational DBMS (generic)","application","Various","1980-present","growth","current","software-market-safegu~1-ea7453","Kastner estimated 9 RDBMS licenses per 10 multiuser Unix servers sold"
+"odbms","Object-Oriented DBMS","application","Various","1990-2000","niche","obsolete","software-market-safegu~1-ea7453","Kastner stated the ODBMS window had closed; relegated to niche"
+"odbc","ODBC","protocol","Microsoft","1992-present","growth","current","software-market-safegu~1-ea7453","Cited as competing with gateway-to-data-source approaches"
+"client-server","Client-Server Computing","framework","Various","1988-2000","growth","legacy-superseded","software-market-safegu~1-ea7453","Predicted to evolve to distributed computing model by year 2000"
+"orb","Object Request Broker (ORB)","framework","Various","1993-2002","emerging","obsolete","software-market-safegu~1-ea7453","Identified as missing infrastructure for object-oriented development adoption"
+"object-cobol","Object COBOL","language","Various","1993-2000","emerging","obsolete","software-market-safegu~1-ea7453","Listed as object-transitional aid; legacy code-wrapper category"
+"eism","Enterprise Information Systems Management (EISM)","framework","Aberdeen Group","1994-1998","emerging","obsolete","software-market-safegu~1-ea7453","Aberdeen-proprietary framework; consolidates network, systems, operations, database management"
+"as400","IBM AS/400","platform","IBM","1988-2000","mature","legacy-supported","software-market-safegu~1-ea7453","Referenced as analogy for Microsoft NT proprietary OS strategy"
+"sap-r3","SAP R/3","application","SAP","1992-2015","growth","legacy-superseded","software-market-safegu~1-ea7453","Cited as example; opportunity to distribute to $100M manufacturers"
+"data-warehouse","Data Warehousing","application","Various","1990-present","growth","current","software-market-safegu~1-ea7453","Identified as reaching mainstream; opportunity for AI/query tools"

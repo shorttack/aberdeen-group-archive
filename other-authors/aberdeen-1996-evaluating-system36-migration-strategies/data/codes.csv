@@ -1,23 +1,23 @@
-code_id,code_type,label,definition
-strategy-classification,observation_type,Strategy Classification,Categorization of an entity's migration or business strategy
-viability-prediction,observation_type,Viability Prediction,Expert prediction of platform or strategy long-term viability
-actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity or prediction
-technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
-benchmark-result,observation_type,Benchmark Result,Quantitative cost or performance comparison
-framework-factor,observation_type,Framework Factor,One component of the five-criteria migration decision framework
-market-data,observation_type,Market Data,Quantitative installed base or market statistic
-expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment by Aberdeen analysts
-industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and migration dynamics
-competitive-profiling,methodology,Competitive Profiling,Comparison of migration options across criteria
-benchmarking,methodology,Benchmarking,Quantitative cost comparison across migration options
-document-review,methodology,Document Review,Analysis of IBM pricing documents and published statistics
-field-research,methodology,Field Research,Primary interviews with System/36 owners and MIS executives
-high,confidence,High Confidence,Strong evidentiary basis; direct IBM data or field interview confirmation
-medium,confidence,Medium Confidence,Reasonable basis with analyst judgment
-low,confidence,Low Confidence,Directional judgment with limited evidence
-verified,confidence,Verified,Confirmed by subsequent events or independent sources
-declining,lifecycle,Declining,Technology in active use but losing market share and support
-mature,lifecycle,Mature,Technology widely deployed and stable
-emerging,lifecycle,Emerging,Technology gaining adoption
-obsolete,lifecycle,Obsolete,Technology no longer actively developed or supported
-active,lifecycle,Active,Technology currently in active use
+"code_id","code_type","label","definition"
+"strategy-classification","observation_type","Strategy Classification","Categorization of an entity's migration or business strategy"
+"viability-prediction","observation_type","Viability Prediction","Expert prediction of platform or strategy long-term viability"
+"actual-outcome","observation_type","Actual Outcome","Verified historical outcome for an entity or prediction"
+"technology-assessment","observation_type","Technology Assessment","Evaluation of a technology's maturity or fitness"
+"benchmark-result","observation_type","Benchmark Result","Quantitative cost or performance comparison"
+"framework-factor","observation_type","Framework Factor","One component of the five-criteria migration decision framework"
+"market-data","observation_type","Market Data","Quantitative installed base or market statistic"
+"expert-opinion","observation_type","Expert Opinion","Qualitative professional judgment by Aberdeen analysts"
+"industry-analysis","methodology","Industry Analysis","Systematic analysis of industry structure and migration dynamics"
+"competitive-profiling","methodology","Competitive Profiling","Comparison of migration options across criteria"
+"benchmarking","methodology","Benchmarking","Quantitative cost comparison across migration options"
+"document-review","methodology","Document Review","Analysis of IBM pricing documents and published statistics"
+"field-research","methodology","Field Research","Primary interviews with System/36 owners and MIS executives"
+"high","confidence","High Confidence","Strong evidentiary basis; direct IBM data or field interview confirmation"
+"medium","confidence","Medium Confidence","Reasonable basis with analyst judgment"
+"low","confidence","Low Confidence","Directional judgment with limited evidence"
+"verified","confidence","Verified","Confirmed by subsequent events or independent sources"
+"declining","lifecycle","Declining","Technology in active use but losing market share and support"
+"mature","lifecycle","Mature","Technology widely deployed and stable"
+"emerging","lifecycle","Emerging","Technology gaining adoption"
+"obsolete","lifecycle","Obsolete","Technology no longer actively developed or supported"
+"active","lifecycle","Active","Technology currently in active use"

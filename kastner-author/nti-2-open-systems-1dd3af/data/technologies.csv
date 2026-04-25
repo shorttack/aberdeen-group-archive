@@ -1,21 +1,21 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-intel-80x86,Intel 80x86 Architecture,hardware,Intel,1978-present,dominant,dominant,nti-2-open-systems-1dd3af,65% of 1992 hardware revenues; forecast 75-80% by 1995; 30M units in 1993
-risc,RISC (Reduced Instruction Set Computing),hardware,"Multiple (IBM, HP, Sun, DEC)",1980-present,emerging,dominant,nti-2-open-systems-1dd3af,"Power, PA-RISC, SPARC, Alpha; gaining share against CISC"
-unix,Unix Operating System,operating-system,"Multiple (AT&T/USL, OSF, Sun)",1969-present,growing,mature,nti-2-open-systems-1dd3af,Increasingly popular but applications portability promise unfulfilled; fragmented by OSF vs Unix International
-windows-dos,Windows/DOS,operating-system,Microsoft,1981-present,dominant,legacy,nti-2-open-systems-1dd3af,Aberdeen predicts clear dominance in unit shipments for desktop upgrades
-windows-nt,Windows NT,operating-system,Microsoft,1993-2000,pre-release,legacy,nti-2-open-systems-1dd3af,Multi-tasking; Aberdeen skeptical of adoption before 1995
-os2,IBM OS/2,operating-system,IBM,1987-2001,emerging,discontinued,nti-2-open-systems-1dd3af,Multi-tasking desktop OS; competing for commercial workstation market
-powerpc,IBM/Apple PowerPC,hardware,"IBM, Apple, Motorola",1992-2006,pre-release,discontinued,nti-2-open-systems-1dd3af,Joint IBM-Apple RISC platform with Taligent OS planned
-sun-solaris,Sun Solaris,operating-system,Sun Microsystems,1992-present,emerging,legacy,nti-2-open-systems-1dd3af,USL V.4 based; multi-tasking multi-threaded
-osf1,OSF/1,operating-system,Open Software Foundation,1992-1995,emerging,discontinued,nti-2-open-systems-1dd3af,DEC committed; future uncertain with Windows/NT competition
-rdbms,Relational Database Management Systems,application,"Multiple (Oracle, Informix, Sybase, Ingres)",1979-present,mainstream,mature,nti-2-open-systems-1dd3af,"Glue of distributed systems; triggers, 2-phase commit, procedures"
-case,Computer-Aided Software Engineering (CASE),application,Multiple,1982-present,growing,legacy,nti-2-open-systems-1dd3af,"Upper CASE design and COBOL generation; KnowledgeWare, TI IEF"
-4gl,Fourth Generation Languages (4GLs),language,Multiple,1979-present,mainstream,legacy,nti-2-open-systems-1dd3af,Rapid prototyping; point-and-click; exits to 3GL for performance
-ethernet,Ethernet,protocol,IEEE,1973-present,dominant,dominant,nti-2-open-systems-1dd3af,10 Mbps; broadcast architecture; PC and workstation LAN standard
-token-ring,Token Ring,protocol,IBM,1984-present,established,discontinued,nti-2-open-systems-1dd3af,4/16 Mbps; IBM accounts; shielded twisted pair
-fddi,FDDI (Fiber Distributed Data Interface),protocol,ANSI,1987-present,established,legacy,nti-2-open-systems-1dd3af,100 Mbps; fiber optic; CDDI copper variant emerging
-atm-networking,ATM (Asynchronous Transfer Mode),protocol,ATM Forum,1990-present,emerging,legacy,nti-2-open-systems-1dd3af,High-speed switched; multimedia/videoconferencing target
-osf-motif,OSF MOTIF,framework,Open Software Foundation,1989-present,established,legacy,nti-2-open-systems-1dd3af,Graphical user interface standard from OSF
-corba,CORBA (Common Object Request Broker),standard,Object Management Group,1991-present,emerging,legacy,nti-2-open-systems-1dd3af,Object-oriented distributed systems standard
-client-server,Client-Server Computing,framework,Multiple,1988-present,emerging,mature,nti-2-open-systems-1dd3af,Tools beginning to emerge; division of work between desktop and server critical
-lan,Local Area Networks,platform,Multiple,1980-present,mainstream,mature,nti-2-open-systems-1dd3af,Fastest growing and most challenging area of industry
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-80x86","Intel 80x86 Architecture","hardware","Intel","1978-present","dominant","dominant","nti-2-open-systems-1dd3af","65% of 1992 hardware revenues; forecast 75-80% by 1995; 30M units in 1993"
+"risc","RISC (Reduced Instruction Set Computing)","hardware","Multiple (IBM, HP, Sun, DEC)","1980-present","emerging","dominant","nti-2-open-systems-1dd3af","Power, PA-RISC, SPARC, Alpha; gaining share against CISC"
+"unix","Unix Operating System","operating-system","Multiple (AT&T/USL, OSF, Sun)","1969-present","growing","mature","nti-2-open-systems-1dd3af","Increasingly popular but applications portability promise unfulfilled; fragmented by OSF vs Unix International"
+"windows-dos","Windows/DOS","operating-system","Microsoft","1981-present","dominant","legacy","nti-2-open-systems-1dd3af","Aberdeen predicts clear dominance in unit shipments for desktop upgrades"
+"windows-nt","Windows NT","operating-system","Microsoft","1993-2000","pre-release","legacy","nti-2-open-systems-1dd3af","Multi-tasking; Aberdeen skeptical of adoption before 1995"
+"os2","IBM OS/2","operating-system","IBM","1987-2001","emerging","discontinued","nti-2-open-systems-1dd3af","Multi-tasking desktop OS; competing for commercial workstation market"
+"powerpc","IBM/Apple PowerPC","hardware","IBM, Apple, Motorola","1992-2006","pre-release","discontinued","nti-2-open-systems-1dd3af","Joint IBM-Apple RISC platform with Taligent OS planned"
+"sun-solaris","Sun Solaris","operating-system","Sun Microsystems","1992-present","emerging","legacy","nti-2-open-systems-1dd3af","USL V.4 based; multi-tasking multi-threaded"
+"osf1","OSF/1","operating-system","Open Software Foundation","1992-1995","emerging","discontinued","nti-2-open-systems-1dd3af","DEC committed; future uncertain with Windows/NT competition"
+"rdbms","Relational Database Management Systems","application","Multiple (Oracle, Informix, Sybase, Ingres)","1979-present","mainstream","mature","nti-2-open-systems-1dd3af","Glue of distributed systems; triggers, 2-phase commit, procedures"
+"case","Computer-Aided Software Engineering (CASE)","application","Multiple","1982-present","growing","legacy","nti-2-open-systems-1dd3af","Upper CASE design and COBOL generation; KnowledgeWare, TI IEF"
+"4gl","Fourth Generation Languages (4GLs)","language","Multiple","1979-present","mainstream","legacy","nti-2-open-systems-1dd3af","Rapid prototyping; point-and-click; exits to 3GL for performance"
+"ethernet","Ethernet","protocol","IEEE","1973-present","dominant","dominant","nti-2-open-systems-1dd3af","10 Mbps; broadcast architecture; PC and workstation LAN standard"
+"token-ring","Token Ring","protocol","IBM","1984-present","established","discontinued","nti-2-open-systems-1dd3af","4/16 Mbps; IBM accounts; shielded twisted pair"
+"fddi","FDDI (Fiber Distributed Data Interface)","protocol","ANSI","1987-present","established","legacy","nti-2-open-systems-1dd3af","100 Mbps; fiber optic; CDDI copper variant emerging"
+"atm-networking","ATM (Asynchronous Transfer Mode)","protocol","ATM Forum","1990-present","emerging","legacy","nti-2-open-systems-1dd3af","High-speed switched; multimedia/videoconferencing target"
+"osf-motif","OSF MOTIF","framework","Open Software Foundation","1989-present","established","legacy","nti-2-open-systems-1dd3af","Graphical user interface standard from OSF"
+"corba","CORBA (Common Object Request Broker)","standard","Object Management Group","1991-present","emerging","legacy","nti-2-open-systems-1dd3af","Object-oriented distributed systems standard"
+"client-server","Client-Server Computing","framework","Multiple","1988-present","emerging","mature","nti-2-open-systems-1dd3af","Tools beginning to emerge; division of work between desktop and server critical"
+"lan","Local Area Networks","platform","Multiple","1980-present","mainstream","mature","nti-2-open-systems-1dd3af","Fastest growing and most challenging area of industry"

@@ -1,11 +1,11 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,company,IT-research,acquired,Aberdeen/Harte-Hanks,1988-2010,dubtech-1996-29d4f9,Boston-based IT research firm; attending DubTech '96 in Dubai
-peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1969-present,dubtech-1996-29d4f9,Aberdeen Group representative at DubTech '96 reception
-sultan-bin-sulayem,Sultan bin Sulayem,person,government-ports,active,,1980s-present,dubtech-1996-29d4f9,Chairman and Managing Director of Dubai Ports Authority and Jebel Ali Free Zone Authority; chief guest at reception
-dubai-ports-authority,Dubai Ports Authority,agency,ports-logistics,reorganized,DP World,1976-present,dubtech-1996-29d4f9,Dubai government entity; Sultan bin Sulayem was chairman
-jebel-ali-free-zone-authority,Jebel Ali Free Zone Authority,agency,free-trade-zones,active,,1985-present,dubtech-1996-29d4f9,Dubai free zone authority; Sultan bin Sulayem was chairman
-john-logan,John Logan,person,IT-research,unknown,,1990s,dubtech-1996-29d4f9,Aberdeen Group representative at DubTech '96 reception
-james-hurley,James Hurley,person,IT-research,unknown,,1990s,dubtech-1996-29d4f9,Aberdeen Group representative at DubTech '96 reception
-ali-kamali,Ali Kamali,person,IT-research,unknown,,1990s,dubtech-1996-29d4f9,Aberdeen Group representative at DubTech '96 reception; likely local representative or partner
-khaleej-times,Khaleej Times,institution,print-media,active,,1976-present,dubtech-1996-29d4f9,Dubai-based English-language newspaper; source of clipping; handwritten annotation confirms date 23 March 1996
-holiday-inn-crowne-plaza-dubai,Holiday Inn Crowne Plaza Dubai,company,hospitality,rebranded,Crowne Plaza Dubai,1990s,dubtech-1996-29d4f9,Venue of Aberdeen Group reception during DubTech '96
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","company","IT-research","acquired","Aberdeen/Harte-Hanks","1988-2010","dubtech-1996-29d4f9","Boston-based IT research firm; attending DubTech '96 in Dubai"
+"peter-s-kastner","Peter S. Kastner","person","IT-research","active","","1969-present","dubtech-1996-29d4f9","Aberdeen Group representative at DubTech '96 reception"
+"sultan-bin-sulayem","Sultan bin Sulayem","person","government-ports","active","","1980s-present","dubtech-1996-29d4f9","Chairman and Managing Director of Dubai Ports Authority and Jebel Ali Free Zone Authority; chief guest at reception"
+"dubai-ports-authority","Dubai Ports Authority","agency","ports-logistics","reorganized","DP World","1976-present","dubtech-1996-29d4f9","Dubai government entity; Sultan bin Sulayem was chairman"
+"jebel-ali-free-zone-authority","Jebel Ali Free Zone Authority","agency","free-trade-zones","active","","1985-present","dubtech-1996-29d4f9","Dubai free zone authority; Sultan bin Sulayem was chairman"
+"john-logan","John Logan","person","IT-research","unknown","","1990s","dubtech-1996-29d4f9","Aberdeen Group representative at DubTech '96 reception"
+"james-hurley","James Hurley","person","IT-research","unknown","","1990s","dubtech-1996-29d4f9","Aberdeen Group representative at DubTech '96 reception"
+"ali-kamali","Ali Kamali","person","IT-research","unknown","","1990s","dubtech-1996-29d4f9","Aberdeen Group representative at DubTech '96 reception; likely local representative or partner"
+"khaleej-times","Khaleej Times","institution","print-media","active","","1976-present","dubtech-1996-29d4f9","Dubai-based English-language newspaper; source of clipping; handwritten annotation confirms date 23 March 1996"
+"holiday-inn-crowne-plaza-dubai","Holiday Inn Crowne Plaza Dubai","company","hospitality","rebranded","Crowne Plaza Dubai","1990s","dubtech-1996-29d4f9","Venue of Aberdeen Group reception during DubTech '96"

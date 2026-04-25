@@ -1,5 +1,5 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-IBM,IBM Corporation,vendor,computing / enterprise IT,active,,1911-present,aberdeen-1996-as400-year-2000-ibm-leading-users,"Author's primary subject; AS/400 division praised for Y2K leadership."
-IBM-AS400-DIV,IBM AS/400 Division,organizational-unit,computing,active (renamed),IBM Power Systems Division,1988-2000s,aberdeen-1996-as400-year-2000-ibm-leading-users,"Division responsible for AS/400 platform and OS/400; renamed with product rebrandings to iSeries (2000), System i (2006), IBM Power Systems (2008)."
-ABERDEEN-GROUP,Aberdeen Group,analyst-firm,IT research,active,,1988-present,aberdeen-1996-as400-year-2000-ibm-leading-users,"Author of this study; Boston-based IT analyst firm."
-FASB,Financial Accounting Standards Board,standards-body,accounting / finance,active,,1973-present,aberdeen-1996-as400-year-2000-ibm-leading-users,"Study notes FASB required Y2K remediation costs to be expensed rather than capitalized, increasing bottom-line impact."
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"IBM","IBM Corporation","vendor","computing / enterprise IT","active","","1911-present","aberdeen-1996-as400-year-2000-ibm-leading-users","Author's primary subject; AS/400 division praised for Y2K leadership."
+"IBM-AS400-DIV","IBM AS/400 Division","organizational-unit","computing","active (renamed)","IBM Power Systems Division","1988-2000s","aberdeen-1996-as400-year-2000-ibm-leading-users","Division responsible for AS/400 platform and OS/400; renamed with product rebrandings to iSeries (2000), System i (2006), IBM Power Systems (2008)."
+"ABERDEEN-GROUP","Aberdeen Group","analyst-firm","IT research","active","","1988-present","aberdeen-1996-as400-year-2000-ibm-leading-users","Author of this study; Boston-based IT analyst firm."
+"FASB","Financial Accounting Standards Board","standards-body","accounting / finance","active","","1973-present","aberdeen-1996-as400-year-2000-ibm-leading-users","Study notes FASB required Y2K remediation costs to be expensed rather than capitalized, increasing bottom-line impact."

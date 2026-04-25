@@ -1,4 +1,4 @@
-code_id,code_type,label,definition
+"code_id","code_type","label","definition"
 "SURV","methodology_code","Survey Research","Primary data collected via structured online survey instrument distributed to target population"
 "BENCH","methodology_code","Benchmarking","Comparative analysis using Aberdeen Competitive Framework to classify organizations as Laggard (30%), Industry Norm (50%), or Best in Class (20%)"
 "QUAL","methodology_code","Qualitative Analysis","Expert judgment, interview-based findings, and qualitative interpretation of survey data and industry trends"

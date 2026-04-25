@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-ENT-PROGRESS,Progress Software Corporation,vendor,software,active,,1981-present,aberdeen-1995-progress-software-profile,Still active; rebranded developer tools as OpenEdge. Revenue $753M in 2024. Potential Thoma Bravo acquisition target as of 2026.
-ENT-MICROSOFT,Microsoft Corporation,vendor,software,active,,1975-present,aberdeen-1995-progress-software-profile,VBX component technology referenced; evolved to ActiveX/COM.
-ENT-ORACLE-DB,Oracle Corporation,vendor,database-software,active,,1977-present,aberdeen-1995-progress-software-profile,Referenced as a supported target database via DataServer architecture.
-ENT-SYBASE,Sybase Inc.,vendor,database-software,acquired,SAP SE (acquired 2010),1984-2010,aberdeen-1995-progress-software-profile,Referenced as supported database target; acquired by SAP in 2010 for $5.8B.
-ENT-INFMX,Informix Corporation,vendor,database-software,acquired,IBM (database assets acquired 2001),1980-2001,aberdeen-1995-progress-software-profile,Database assets acquired by IBM for $1B in 2001; remainder renamed Ascential Software.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ENT-PROGRESS","Progress Software Corporation","vendor","software","active","","1981-present","aberdeen-1995-progress-software-profile","Still active; rebranded developer tools as OpenEdge. Revenue $753M in 2024. Potential Thoma Bravo acquisition target as of 2026."
+"ENT-MICROSOFT","Microsoft Corporation","vendor","software","active","","1975-present","aberdeen-1995-progress-software-profile","VBX component technology referenced; evolved to ActiveX/COM."
+"ENT-ORACLE-DB","Oracle Corporation","vendor","database-software","active","","1977-present","aberdeen-1995-progress-software-profile","Referenced as a supported target database via DataServer architecture."
+"ENT-SYBASE","Sybase Inc.","vendor","database-software","acquired","SAP SE (acquired 2010)","1984-2010","aberdeen-1995-progress-software-profile","Referenced as supported database target; acquired by SAP in 2010 for $5.8B."
+"ENT-INFMX","Informix Corporation","vendor","database-software","acquired","IBM (database assets acquired 2001)","1980-2001","aberdeen-1995-progress-software-profile","Database assets acquired by IBM for $1B in 2001; remainder renamed Ascential Software."

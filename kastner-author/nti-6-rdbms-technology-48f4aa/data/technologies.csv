@@ -1,19 +1,19 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-rdbms,Relational Database Management System (RDBMS),application,Various,1970-present,growth,mature,nti-6-rdbms-technology-48f4aa,Core subject of the study; SQL-based data management platform
-sql,Structured Query Language (SQL),standard,ANSI/ISO,1974-present,mature,mature,nti-6-rdbms-technology-48f4aa,Industry standard for data interchange and access; required RDBMS characteristic
-oracle-v7,Oracle Version 7,application,Oracle,1992-1998,current,legacy,nti-6-rdbms-technology-48f4aa,"First Oracle version with true technical leadership; introduced stored procedures, referential integrity"
-sybase-system-10,Sybase System 10,application,Sybase,1993-1996,announced,legacy,nti-6-rdbms-technology-48f4aa,"Announced 1993 architecture with open server gateway, replication server, network admin"
-adabas,ADABAS,application,Software AG,1971-present,mature,legacy,nti-6-rdbms-technology-48f4aa,Software AG's core DBMS engine; highest throughput; non-SQL initially
-natural-4gl,Natural (4GL),language,Software AG,1979-present,mature,legacy,nti-6-rdbms-technology-48f4aa,Software AG 4GL; ported to support other databases and hardware; best-in-class 4GL
-oltp,Online Transaction Processing (OLTP),framework,Various,1969-present,mature,mature,nti-6-rdbms-technology-48f4aa,Key enterprise computing workload; RDBMS required to handle hundreds of TPC-defined TPS
-db2,IBM DB2,application,IBM,1983-present,mature,mature,nti-6-rdbms-technology-48f4aa,Mainframe RDBMS; rated worst-in-class by Aberdeen; behind midrange competitors by several generations
-os2-data-manager,OS/2 Data Manager,application,IBM,1992-1995,current,obsolete,nti-6-rdbms-technology-48f4aa,IBM PC workgroup RDBMS; rated worst-in-class
-qs400,QS/400,application,IBM,1988-1994,current,obsolete,nti-6-rdbms-technology-48f4aa,IBM AS/400 RDBMS; rated worst-in-class; superseded by DB2/400
-vax-rdb,VAX/Rdb,application,Digital Equipment Corporation,1984-2000,mature,legacy,nti-6-rdbms-technology-48f4aa,DEC proprietary RDBMS; excellent but non-portable
-allbase-sql,ALLBASE/SQL,application,Hewlett-Packard,1986-2000,mature,legacy,nti-6-rdbms-technology-48f4aa,HP proprietary RDBMS; excellent but non-portable
-nonstop-sql,NonStop SQL,application,Tandem Computers,1987-present,mature,mature,nti-6-rdbms-technology-48f4aa,Tandem fault-tolerant RDBMS; excellent but non-portable
-progress-4gl,Progress 4GL,language,Progress Software,1984-present,mature,mature,nti-6-rdbms-technology-48f4aa,Highly portable 4GL across Unix environments; ISV tool of choice; IBM porting to AS/400
-two-phase-commit,Two-Phase Commit,protocol,Various,1978-present,emerging,mature,nti-6-rdbms-technology-48f4aa,Distributed transaction synchronization protocol; all major RDBMS vendors implementing in 1993
-as400,IBM AS/400,platform,IBM,1988-present,mature,legacy-supported,nti-6-rdbms-technology-48f4aa,Proprietary midrange platform; Progress 4GL being ported to it; QS/400 RDBMS
-netware,Novell NetWare,operating-system,Novell,1983-present,mature,legacy,nti-6-rdbms-technology-48f4aa,Referenced as Oracle support target platform
-mvs,IBM MVS,operating-system,IBM,1974-present,mature,legacy-supported,nti-6-rdbms-technology-48f4aa,Mainframe OS; Oracle MVS version rapidly fading; referenced as closed system
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"rdbms","Relational Database Management System (RDBMS)","application","Various","1970-present","growth","mature","nti-6-rdbms-technology-48f4aa","Core subject of the study; SQL-based data management platform"
+"sql","Structured Query Language (SQL)","standard","ANSI/ISO","1974-present","mature","mature","nti-6-rdbms-technology-48f4aa","Industry standard for data interchange and access; required RDBMS characteristic"
+"oracle-v7","Oracle Version 7","application","Oracle","1992-1998","current","legacy","nti-6-rdbms-technology-48f4aa","First Oracle version with true technical leadership; introduced stored procedures, referential integrity"
+"sybase-system-10","Sybase System 10","application","Sybase","1993-1996","announced","legacy","nti-6-rdbms-technology-48f4aa","Announced 1993 architecture with open server gateway, replication server, network admin"
+"adabas","ADABAS","application","Software AG","1971-present","mature","legacy","nti-6-rdbms-technology-48f4aa","Software AG's core DBMS engine; highest throughput; non-SQL initially"
+"natural-4gl","Natural (4GL)","language","Software AG","1979-present","mature","legacy","nti-6-rdbms-technology-48f4aa","Software AG 4GL; ported to support other databases and hardware; best-in-class 4GL"
+"oltp","Online Transaction Processing (OLTP)","framework","Various","1969-present","mature","mature","nti-6-rdbms-technology-48f4aa","Key enterprise computing workload; RDBMS required to handle hundreds of TPC-defined TPS"
+"db2","IBM DB2","application","IBM","1983-present","mature","mature","nti-6-rdbms-technology-48f4aa","Mainframe RDBMS; rated worst-in-class by Aberdeen; behind midrange competitors by several generations"
+"os2-data-manager","OS/2 Data Manager","application","IBM","1992-1995","current","obsolete","nti-6-rdbms-technology-48f4aa","IBM PC workgroup RDBMS; rated worst-in-class"
+"qs400","QS/400","application","IBM","1988-1994","current","obsolete","nti-6-rdbms-technology-48f4aa","IBM AS/400 RDBMS; rated worst-in-class; superseded by DB2/400"
+"vax-rdb","VAX/Rdb","application","Digital Equipment Corporation","1984-2000","mature","legacy","nti-6-rdbms-technology-48f4aa","DEC proprietary RDBMS; excellent but non-portable"
+"allbase-sql","ALLBASE/SQL","application","Hewlett-Packard","1986-2000","mature","legacy","nti-6-rdbms-technology-48f4aa","HP proprietary RDBMS; excellent but non-portable"
+"nonstop-sql","NonStop SQL","application","Tandem Computers","1987-present","mature","mature","nti-6-rdbms-technology-48f4aa","Tandem fault-tolerant RDBMS; excellent but non-portable"
+"progress-4gl","Progress 4GL","language","Progress Software","1984-present","mature","mature","nti-6-rdbms-technology-48f4aa","Highly portable 4GL across Unix environments; ISV tool of choice; IBM porting to AS/400"
+"two-phase-commit","Two-Phase Commit","protocol","Various","1978-present","emerging","mature","nti-6-rdbms-technology-48f4aa","Distributed transaction synchronization protocol; all major RDBMS vendors implementing in 1993"
+"as400","IBM AS/400","platform","IBM","1988-present","mature","legacy-supported","nti-6-rdbms-technology-48f4aa","Proprietary midrange platform; Progress 4GL being ported to it; QS/400 RDBMS"
+"netware","Novell NetWare","operating-system","Novell","1983-present","mature","legacy","nti-6-rdbms-technology-48f4aa","Referenced as Oracle support target platform"
+"mvs","IBM MVS","operating-system","IBM","1974-present","mature","legacy-supported","nti-6-rdbms-technology-48f4aa","Mainframe OS; Oracle MVS version rapidly fading; referenced as closed system"

@@ -1,6 +1,6 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,technology-themes-ee5ba4,Author organization; document represents internal research topic/theme summary.
-peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,technology-themes-ee5ba4,Primary author and Aberdeen VP; themes reflect his research agenda.
-dell,Dell Computer,company,Enterprise IT Hardware,active,,1984-present,technology-themes-ee5ba4,Cited as 'channel master' exemplifying consumer-empowerment-driven supply chain efficiency.
-walmart,Wal-Mart,company,Retail,active,,1962-present,technology-themes-ee5ba4,Cited alongside Dell as channel master driven by the empowered modern consumer.
-nielsen,Nielsen (Nielsen Families),institution,Market Research / Consumer Research,reorganized,NIQ (NielsenIQ / NIQ Global Intelligence plc),1923-present,technology-themes-ee5ba4,Referenced as example of traditional survey-based consumer research being superseded by real-time web click tracking.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-present","technology-themes-ee5ba4","Author organization; document represents internal research topic/theme summary."
+"peter-s-kastner","Peter S. Kastner","person","Market Research / IT Consulting","active","","1989-present","technology-themes-ee5ba4","Primary author and Aberdeen VP; themes reflect his research agenda."
+"dell","Dell Computer","company","Enterprise IT Hardware","active","","1984-present","technology-themes-ee5ba4","Cited as 'channel master' exemplifying consumer-empowerment-driven supply chain efficiency."
+"walmart","Wal-Mart","company","Retail","active","","1962-present","technology-themes-ee5ba4","Cited alongside Dell as channel master driven by the empowered modern consumer."
+"nielsen","Nielsen (Nielsen Families)","institution","Market Research / Consumer Research","reorganized","NIQ (NielsenIQ / NIQ Global Intelligence plc)","1923-present","technology-themes-ee5ba4","Referenced as example of traditional survey-based consumer research being superseded by real-time web click tracking."

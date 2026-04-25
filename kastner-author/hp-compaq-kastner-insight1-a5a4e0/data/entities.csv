@@ -1,13 +1,13 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,Market Research / IT Consulting,acquired,Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research,1988-present,hp-compaq-kastner-insight1-a5a4e0,Author/publisher; InSight format document.
-peter-s-kastner,Peter S. Kastner,person,Market Research / IT Consulting,active,,1989-present,hp-compaq-kastner-insight1-a5a4e0,Sole named author of this InSight.
-hewlett-packard,Hewlett-Packard (HP),company,Enterprise IT Hardware/Services,renamed,Split into HP Inc. and Hewlett Packard Enterprise (November 2015),1939-present,hp-compaq-kastner-insight1-a5a4e0,Acquirer in the proposed merger; HP 3000 customers cited as fanatical.
-compaq,Compaq,company,Enterprise IT Hardware,acquired,Hewlett-Packard (2002),1982-2002,hp-compaq-kastner-insight1-a5a4e0,Target; storage products (VAX heritage) noted as a possible non-overlap area; Compaq VAX customers also cited as fanatical.
-dell,Dell,company,Enterprise IT Hardware,active,Dell Technologies (renamed after EMC acquisition 2016),1984-present,hp-compaq-kastner-insight1-a5a4e0,Named as winner if HP-Compaq merger execution fails.
-ibm,IBM,company,Enterprise IT Hardware/Services,active,,1911-present,hp-compaq-kastner-insight1-a5a4e0,Named as winner if HP-Compaq merger execution fails; IBM Global Services cited as comparison.
-sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware/Software,acquired,Oracle Corporation (acquired 2010),1982-2010,hp-compaq-kastner-insight1-a5a4e0,Named as winner if HP-Compaq merger execution fails.
-sap,SAP,company,Enterprise Software,active,,1972-present,hp-compaq-kastner-insight1-a5a4e0,Enterprise application partner shared by both HP and Compaq.
-peoplesoft,PeopleSoft,company,Enterprise Software,acquired,Oracle Corporation (2005),1987-2005,hp-compaq-kastner-insight1-a5a4e0,Enterprise application partner shared by both HP and Compaq.
-oracle,Oracle,company,Enterprise Software/Database,active,,1977-present,hp-compaq-kastner-insight1-a5a4e0,Enterprise application partner shared by both HP and Compaq.
-cisco,Cisco,company,Networking,active,,1984-present,hp-compaq-kastner-insight1-a5a4e0,Technology partner in high availability solutions.
-microsoft,Microsoft,company,Enterprise Software / OS,active,,1975-present,hp-compaq-kastner-insight1-a5a4e0,Technology partner for Windows-based enterprise solutions.
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","Market Research / IT Consulting","acquired","Harte-Hanks Communications (2006); later spun off as Aberdeen Strategy & Research","1988-present","hp-compaq-kastner-insight1-a5a4e0","Author/publisher; InSight format document."
+"peter-s-kastner","Peter S. Kastner","person","Market Research / IT Consulting","active","","1989-present","hp-compaq-kastner-insight1-a5a4e0","Sole named author of this InSight."
+"hewlett-packard","Hewlett-Packard (HP)","company","Enterprise IT Hardware/Services","renamed","Split into HP Inc. and Hewlett Packard Enterprise (November 2015)","1939-present","hp-compaq-kastner-insight1-a5a4e0","Acquirer in the proposed merger; HP 3000 customers cited as fanatical."
+"compaq","Compaq","company","Enterprise IT Hardware","acquired","Hewlett-Packard (2002)","1982-2002","hp-compaq-kastner-insight1-a5a4e0","Target; storage products (VAX heritage) noted as a possible non-overlap area; Compaq VAX customers also cited as fanatical."
+"dell","Dell","company","Enterprise IT Hardware","active","Dell Technologies (renamed after EMC acquisition 2016)","1984-present","hp-compaq-kastner-insight1-a5a4e0","Named as winner if HP-Compaq merger execution fails."
+"ibm","IBM","company","Enterprise IT Hardware/Services","active","","1911-present","hp-compaq-kastner-insight1-a5a4e0","Named as winner if HP-Compaq merger execution fails; IBM Global Services cited as comparison."
+"sun-microsystems","Sun Microsystems","company","Enterprise IT Hardware/Software","acquired","Oracle Corporation (acquired 2010)","1982-2010","hp-compaq-kastner-insight1-a5a4e0","Named as winner if HP-Compaq merger execution fails."
+"sap","SAP","company","Enterprise Software","active","","1972-present","hp-compaq-kastner-insight1-a5a4e0","Enterprise application partner shared by both HP and Compaq."
+"peoplesoft","PeopleSoft","company","Enterprise Software","acquired","Oracle Corporation (2005)","1987-2005","hp-compaq-kastner-insight1-a5a4e0","Enterprise application partner shared by both HP and Compaq."
+"oracle","Oracle","company","Enterprise Software/Database","active","","1977-present","hp-compaq-kastner-insight1-a5a4e0","Enterprise application partner shared by both HP and Compaq."
+"cisco","Cisco","company","Networking","active","","1984-present","hp-compaq-kastner-insight1-a5a4e0","Technology partner in high availability solutions."
+"microsoft","Microsoft","company","Enterprise Software / OS","active","","1975-present","hp-compaq-kastner-insight1-a5a4e0","Technology partner for Windows-based enterprise solutions."

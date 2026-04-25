@@ -1,0 +1,52 @@
+══════════════════════════════════════════════════════════════════════════════
+v18 REFERENTIAL-INTEGRITY AUDIT — Aberdeen Group Archive (v2)
+══════════════════════════════════════════════════════════════════════════════
+Repo: /tmp/aberdeen-group-archive
+Studies scanned: 675
+  kastner-author: 204
+  other-authors:  471
+Cache: _known_entities.csv=3010 rows, _known_technologies.csv=3761 rows
+
+─── LAYER A  Per-study referential integrity ───────────────────────────
+  Studies with failures: 0 / 675
+  Total failures: 0
+  Failure breakdown:
+  First few failed studies:
+
+─── LAYER B  §16 CSV Write Validation Gate ─────────────────────────────
+  Studies with failures: 10 / 675
+  Total failures: 30
+  Failure breakdown:
+    header_mismatch: 17
+    column_count: 13
+  First few failed studies:
+    - kastner-author/cacustsell98-3b53c6
+        technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+        technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+    - kastner-author/docucorp-3c562a
+        technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+        technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+    - kastner-author/kastner-ie-v-andersen-expert-report-3de98a
+        entities.csv: column-count FAIL (header has 7 cols, expected 9)
+        entities.csv: header FAIL (col 3: got 'status', want 'sector')
+        technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+    - kastner-author/safeway-damages-report-draft-b502f4
+        entities.csv: column-count FAIL (header has 7 cols, expected 9)
+        entities.csv: header FAIL (col 3: got 'status', want 'sector')
+        technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+    - other-authors/aberdeen-1995-digital-linkworks
+        entities.csv: column-count FAIL (header has 10 cols, expected 9)
+        entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+        technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+─── LAYER C  Cross-study cache integrity ───────────────────────────────
+  Entities missing from cache: 0
+  Technologies missing from cache: 0
+  Duplicate IDs in _known_entities.csv: 0
+  Duplicate IDs in _known_technologies.csv: 0
+  Empty ID rows in _known_entities.csv: 0
+  Empty ID rows in _known_technologies.csv: 0
+
+══════════════════════════════════════════════════════════════════════════════
+RESULT: 30 TOTAL FAILURES
+══════════════════════════════════════════════════════════════════════════════

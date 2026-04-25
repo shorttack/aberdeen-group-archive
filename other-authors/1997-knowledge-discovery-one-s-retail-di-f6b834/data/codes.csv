@@ -1,14 +1,14 @@
-code_id,code_label,code_description,applies_to
-ANALYST-JUDGMENT,Analyst Judgment,Qualitative assessment based on analyst expertise and market observation,methodology_code
-WEB-RESEARCH,Web Research,Outcome determined through post-hoc web research and secondary sources,methodology_code
-VENDOR-DATA,Vendor Data,Data sourced directly from vendor disclosures or press releases,methodology_code
-SURVEY,Survey,Data from structured survey of enterprises or users,methodology_code
-BENCHMARK,Benchmark,Performance data from standardized benchmark tests,methodology_code
-strategy-classification,Strategy Classification,Classifies a vendor or enterprise strategy or approach,observation_type
-viability-prediction,Viability Prediction,Forward-looking prediction about technology or vendor viability,observation_type
-actual-outcome,Actual Outcome,Documented actual result of a prior prediction or trend,observation_type
-technology-assessment,Technology Assessment,Evaluation of a technology's capabilities or maturity,observation_type
-benchmark-result,Benchmark Result,Quantitative performance measurement from a formal benchmark,observation_type
-framework-factor,Framework Factor,Component or factor in an analytical framework presented in the study,observation_type
-market-data,Market Data,Quantitative or qualitative market size/share/trend data,observation_type
-expert-opinion,Expert Opinion,Named analyst or expert viewpoint without formal data backing,observation_type
+"code_id","code_label","code_description","applies_to"
+"ANALYST-JUDGMENT","Analyst Judgment","Qualitative assessment based on analyst expertise and market observation","methodology_code"
+"WEB-RESEARCH","Web Research","Outcome determined through post-hoc web research and secondary sources","methodology_code"
+"VENDOR-DATA","Vendor Data","Data sourced directly from vendor disclosures or press releases","methodology_code"
+"SURVEY","Survey","Data from structured survey of enterprises or users","methodology_code"
+"BENCHMARK","Benchmark","Performance data from standardized benchmark tests","methodology_code"
+"strategy-classification","Strategy Classification","Classifies a vendor or enterprise strategy or approach","observation_type"
+"viability-prediction","Viability Prediction","Forward-looking prediction about technology or vendor viability","observation_type"
+"actual-outcome","Actual Outcome","Documented actual result of a prior prediction or trend","observation_type"
+"technology-assessment","Technology Assessment","Evaluation of a technology's capabilities or maturity","observation_type"
+"benchmark-result","Benchmark Result","Quantitative performance measurement from a formal benchmark","observation_type"
+"framework-factor","Framework Factor","Component or factor in an analytical framework presented in the study","observation_type"
+"market-data","Market Data","Quantitative or qualitative market size/share/trend data","observation_type"
+"expert-opinion","Expert Opinion","Named analyst or expert viewpoint without formal data backing","observation_type"

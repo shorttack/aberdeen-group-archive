@@ -1,3 +1,3 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-sap-r3,SAP R/3,application,SAP,1992-2007,mature,obsolete,aberdeen-1996-taming-sap-r3-consultant-led-introspection,Client-server ERP with more functionality than any other integrated business process application per SAP customers; succeeded by SAP ECC and S/4HANA
-client-server-architecture,Client-Server Architecture,framework,multiple,1985-2000,mature,legacy-supported,aberdeen-1996-taming-sap-r3-consultant-led-introspection,R/3 was landmark client-server ERP; superseded by web and cloud architectures
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"sap-r3","SAP R/3","application","SAP","1992-2007","mature","obsolete","aberdeen-1996-taming-sap-r3-consultant-led-introspection","Client-server ERP with more functionality than any other integrated business process application per SAP customers; succeeded by SAP ECC and S/4HANA"
+"client-server-architecture","Client-Server Architecture","framework","multiple","1985-2000","mature","legacy-supported","aberdeen-1996-taming-sap-r3-consultant-led-introspection","R/3 was landmark client-server ERP; superseded by web and cloud architectures"

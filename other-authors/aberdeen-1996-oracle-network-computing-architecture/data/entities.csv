@@ -1,7 +1,7 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-oracle-corporation,Oracle Corporation,company,enterprise-software,active,,1977-present,aberdeen-1996-oracle-network-computing-architecture,Redwood Shores CA; NCA announced October 1996; became world's largest enterprise DB vendor
-aberdeen-group,"Aberdeen Group, Inc.",firm,IT-research,acquired,Harte-Hanks -> Aberdeen Strategy & Research,1988-2014,aberdeen-1996-oracle-network-computing-architecture,Boston MA research firm
-microsoft,Microsoft Corporation,company,software,active,,1975-present,aberdeen-1996-oracle-network-computing-architecture,ActiveX Desktop and COM cited as competing ORB approach; NCA provided COM bridge
-netscape-communications,Netscape Communications,company,web-software,dissolved,AOL 1999; browser discontinued 2008,1994-2003,aberdeen-1996-oracle-network-computing-architecture,Netscape ONE desktop environment cited as Universal Client option; IIOP protocol used
-object-management-group,Object Management Group (OMG),institution,standards-body,active,,1989-present,aberdeen-1996-oracle-network-computing-architecture,CORBA standard used as basis for Oracle ICX Object Request Broker
-hp,Hewlett-Packard (HP),company,IT-hardware,active,HP Inc + HPE (split 2015),1939-present,aberdeen-1996-oracle-network-computing-architecture,HP OpenView cited as target for Oracle Enterprise Manager SNMP integration
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"oracle-corporation","Oracle Corporation","company","enterprise-software","active","","1977-present","aberdeen-1996-oracle-network-computing-architecture","Redwood Shores CA; NCA announced October 1996; became world's largest enterprise DB vendor"
+"aberdeen-group","Aberdeen Group, Inc.","firm","IT-research","acquired","Harte-Hanks -> Aberdeen Strategy & Research","1988-2014","aberdeen-1996-oracle-network-computing-architecture","Boston MA research firm"
+"microsoft","Microsoft Corporation","company","software","active","","1975-present","aberdeen-1996-oracle-network-computing-architecture","ActiveX Desktop and COM cited as competing ORB approach; NCA provided COM bridge"
+"netscape-communications","Netscape Communications","company","web-software","dissolved","AOL 1999; browser discontinued 2008","1994-2003","aberdeen-1996-oracle-network-computing-architecture","Netscape ONE desktop environment cited as Universal Client option; IIOP protocol used"
+"object-management-group","Object Management Group (OMG)","institution","standards-body","active","","1989-present","aberdeen-1996-oracle-network-computing-architecture","CORBA standard used as basis for Oracle ICX Object Request Broker"
+"hp","Hewlett-Packard (HP)","company","IT-hardware","active","HP Inc + HPE (split 2015)","1939-present","aberdeen-1996-oracle-network-computing-architecture","HP OpenView cited as target for Oracle Enterprise Manager SNMP integration"

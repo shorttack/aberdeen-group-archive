@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-ibm,IBM,company,,active,,,ibmtpc92-c32789,Subject of TPC benchmark section
-aberdeen-group,Aberdeen Group,firm,,acquired,,,ibmtpc92-c32789,Publisher
-peter-s-kastner,Peter S. Kastner,person,,active,,,ibmtpc92-c32789,Author
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ibm","IBM","company","","active","","","ibmtpc92-c32789","Subject of TPC benchmark section"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","ibmtpc92-c32789","Publisher"
+"peter-s-kastner","Peter S. Kastner","person","","active","","","ibmtpc92-c32789","Author"

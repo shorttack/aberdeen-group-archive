@@ -1,2 +1,2 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-high-tech-stock-analysis,High-Technology Equity Analysis,framework,financial-analysis,1975-present,developing,standard,casale-evp-7-215359,Analytical framework for evaluating tech sector equities; Casale applies it to explain P/E dynamics and earnings-estimate inflation in bull markets.
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"high-tech-stock-analysis","High-Technology Equity Analysis","framework","financial-analysis","1975-present","developing","standard","casale-evp-7-215359","Analytical framework for evaluating tech sector equities; Casale applies it to explain P/E dynamics and earnings-estimate inflation in bull markets."

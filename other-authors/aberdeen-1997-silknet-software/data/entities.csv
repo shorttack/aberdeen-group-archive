@@ -1,4 +1,4 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-silknet-software,Silknet Software,company,customer-interaction-software,acquired,Kana Communications (acquired Feb 2000 for $4.2B),1996-2000,aberdeen-1997-silknet-software,HQ: Manchester NH (603-625-0070); raised $7.3M VC; introduced eService March 10 1997
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Aberdeen (acquired by Harte-Hanks 2001),1988-2014,aberdeen-1997-silknet-software,AberdeenGroup Volume 10 / Number 9; July 8 1997
-kana-communications,Kana Communications,company,customer-interaction-software,acquired,Kana Software; acquired by Sword Group 2010,1996-2010,aberdeen-1997-silknet-software,Acquired Silknet Feb 2000 for $4.2B in stock; combined entity served ~450 clients including eBay
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"silknet-software","Silknet Software","company","customer-interaction-software","acquired","Kana Communications (acquired Feb 2000 for $4.2B)","1996-2000","aberdeen-1997-silknet-software","HQ: Manchester NH (603-625-0070); raised $7.3M VC; introduced eService March 10 1997"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Aberdeen (acquired by Harte-Hanks 2001)","1988-2014","aberdeen-1997-silknet-software","AberdeenGroup Volume 10 / Number 9; July 8 1997"
+"kana-communications","Kana Communications","company","customer-interaction-software","acquired","Kana Software; acquired by Sword Group 2010","1996-2010","aberdeen-1997-silknet-software","Acquired Silknet Feb 2000 for $4.2B in stock; combined entity served ~450 clients including eBay"

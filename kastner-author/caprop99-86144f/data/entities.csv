@@ -1,7 +1,7 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,,acquired,,,caprop99-86144f,Proposal author
-peter-s-kastner,Peter S. Kastner,person,,active,,,caprop99-86144f,"Chief Research Officer, Aberdeen Group"
-computer-associates,Computer Associates (CA),company,,renamed,,,caprop99-86144f,Client
-lisa-ann-savino,Lisa Ann Savino,person,,unknown,,,caprop99-86144f,"Divisional Assistant VP, Computer Associates International [REVIEW]"
-bob-moran,Bob Moran,person,,unknown,,,caprop99-86144f,"Research VP at Aberdeen Group, assigned to project [REVIEW]"
-guy-creese,Guy Creese,person,,unknown,,,caprop99-86144f,Senior analyst in decision support practice at Aberdeen Group [REVIEW]
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","caprop99-86144f","Proposal author"
+"peter-s-kastner","Peter S. Kastner","person","","active","","","caprop99-86144f","Chief Research Officer, Aberdeen Group"
+"computer-associates","Computer Associates (CA)","company","","renamed","","","caprop99-86144f","Client"
+"lisa-ann-savino","Lisa Ann Savino","person","","unknown","","","caprop99-86144f","Divisional Assistant VP, Computer Associates International [REVIEW]"
+"bob-moran","Bob Moran","person","","unknown","","","caprop99-86144f","Research VP at Aberdeen Group, assigned to project [REVIEW]"
+"guy-creese","Guy Creese","person","","unknown","","","caprop99-86144f","Senior analyst in decision support practice at Aberdeen Group [REVIEW]"

@@ -1,5 +1,5 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-aberdeen-group,Aberdeen Group,firm,,acquired,,,caprop1-98-5d69fd,Proposal author
-peter-s-kastner,Peter S. Kastner,person,,active,,,caprop1-98-5d69fd,"Signatory, Executive Vice President"
-computer-associates,Computer Associates (CA),company,,renamed,,,caprop1-98-5d69fd,Proposal recipient/client
-david-a-hood,David A. Hood,person,,unknown,,,caprop1-98-5d69fd,"Divisional Vice President, Computer Associates International [REVIEW]"
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","","acquired","","","caprop1-98-5d69fd","Proposal author"
+"peter-s-kastner","Peter S. Kastner","person","","active","","","caprop1-98-5d69fd","Signatory, Executive Vice President"
+"computer-associates","Computer Associates (CA)","company","","renamed","","","caprop1-98-5d69fd","Proposal recipient/client"
+"david-a-hood","David A. Hood","person","","unknown","","","caprop1-98-5d69fd","Divisional Vice President, Computer Associates International [REVIEW]"

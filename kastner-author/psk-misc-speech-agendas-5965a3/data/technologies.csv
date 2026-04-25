@@ -1,9 +1,9 @@
-tech_id,tech_name,category,vendor,era,lifecycle_at_study,lifecycle_current,study_id,notes
-internet,Internet,protocol,multiple,1969-,emerging,current,psk-misc-speech-agendas-5965a3,"Core topic of presentation; what is the Internet, growth, opportunity"
-4gl,4th Generation Language (4GL),language,multiple,1980-,mature,legacy,psk-misc-speech-agendas-5965a3,Blyth Software's domain; audience is 4GL developers
-world-wide-web,World Wide Web,framework,CERN/multiple,1991-,emerging,current,psk-misc-speech-agendas-5965a3,Primary vehicle for Internet application development in 1996
-client-server,Client-Server Architecture,framework,multiple,1988-,mature,legacy,psk-misc-speech-agendas-5965a3,Context for internet development evolution
-object-oriented,Object-Oriented Programming,framework,multiple,1980-,emerging,current,psk-misc-speech-agendas-5965a3,Referenced in What's the Object Of All This? agenda from related slides
-case-tools,CASE Tools,application,multiple,1985-1995,declining,end-of-life,psk-misc-speech-agendas-5965a3,Referenced skeptically in OO context slide
-windows-nt,Microsoft Windows NT,platform,Microsoft,1993-,emerging,current,psk-misc-speech-agendas-5965a3,Referenced in computing trends context
-distributed-systems,Distributed Systems,framework,multiple,1985-,mature,current,psk-misc-speech-agendas-5965a3,Referenced in Chaos or Cosmos Distributed Systems Management agenda
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"internet","Internet","protocol","multiple","1969-","emerging","current","psk-misc-speech-agendas-5965a3","Core topic of presentation; what is the Internet, growth, opportunity"
+"4gl","4th Generation Language (4GL)","language","multiple","1980-","mature","legacy","psk-misc-speech-agendas-5965a3","Blyth Software's domain; audience is 4GL developers"
+"world-wide-web","World Wide Web","framework","CERN/multiple","1991-","emerging","current","psk-misc-speech-agendas-5965a3","Primary vehicle for Internet application development in 1996"
+"client-server","Client-Server Architecture","framework","multiple","1988-","mature","legacy","psk-misc-speech-agendas-5965a3","Context for internet development evolution"
+"object-oriented","Object-Oriented Programming","framework","multiple","1980-","emerging","current","psk-misc-speech-agendas-5965a3","Referenced in What's the Object Of All This? agenda from related slides"
+"case-tools","CASE Tools","application","multiple","1985-1995","declining","end-of-life","psk-misc-speech-agendas-5965a3","Referenced skeptically in OO context slide"
+"windows-nt","Microsoft Windows NT","platform","Microsoft","1993-","emerging","current","psk-misc-speech-agendas-5965a3","Referenced in computing trends context"
+"distributed-systems","Distributed Systems","framework","multiple","1985-","mature","current","psk-misc-speech-agendas-5965a3","Referenced in Chaos or Cosmos Distributed Systems Management agenda"

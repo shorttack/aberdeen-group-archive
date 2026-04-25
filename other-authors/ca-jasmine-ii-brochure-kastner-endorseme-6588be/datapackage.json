@@ -1,0 +1,261 @@
+{
+  "name": "ca-jasmine-ii-brochure-kastner-endorseme-6588be",
+  "title": "CA Jasmine ii Brochure: The Intelligent Information Infrastructure (Kastner Endorsement, 1999)",
+  "description": "Computer Associates International (CA) marketing brochure circa 1999 promoting Jasmine ii (Jasmine TND \u2014 The Intelligent Information Infrastructure). Brochure stamp 'MP78610799' (likely July 1999 print run) and 'SB05JMTNB1E.' Positions Jasmine TND as the platform delivering 'intelligence everywhere' for application development, deployment, and integration. Includes three named endorsements: (1) Tony Picardi (Group Senior Vice President Worldwide Software, IDC) \u2014 'Jasmine TND, with intelligence everywhere, represents a compelling advance in application development, deployment, and integration both from the ability to add smarts to applications and the development process itself'; (2) Ulma Gonzalez (Division Director Data Administration, Information Technology Department, Miami Dade County) \u2014 endorsing Jasmine TND's learning capabilities through CA's Neugents technology for a contract-monitoring system; (3) Peter Kastner (Vice President, Aberdeen Group) \u2014 'With Jasmine TND, Computer Associates is signaling its awareness that true Business Intelligence requires an intelligent and open infrastructure. With an arsenal of Business Intelligence tools, plus forthcoming pattern recognition/predictive agents, Aberdeen expects that Jasmine TND will make CA a one-stop-shop for businesses seeking to integrate intelligence into their applications.' Brochure body emphasizes 'The E-Commerce Age Is Upon Us' and the Internet as 'ultimate platform for customer-focused e-commerce applications and business-to-business' integration. Key technologies: Jasmine TND (Jasmine ii), Neugents (CA's neural-network agent technology), object-relational store with multimedia and active rules. Brochure issued during CA's Sanjay Kumar/Charles Wang era; predates the 2000 Computerworld ouster and 2001 proxy fight.",
+  "version": "1.0.0",
+  "created": "2026-04-25",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Computer Associates International \u2014 corporate marketing brochure (1999)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

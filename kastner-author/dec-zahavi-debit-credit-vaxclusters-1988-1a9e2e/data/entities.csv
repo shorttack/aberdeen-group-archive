@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"digital-equipment-corp","Digital Equipment Corporation (DEC)","company","minicomputer-and-systems","acquired","Compaq (1998), then HP (2002)","1957-1998","dec-zahavi-debit-credit-vaxclusters-1988-1a9e2e","Major minicomputer maker; subject of multiple Aberdeen analyses"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997), then HP (2002)","1974-2002","dec-zahavi-debit-credit-vaxclusters-1988-1a9e2e","Stratus competitor; debit-credit benchmark publisher"
+"bill-zahavi","Bill Zahavi","person","computer-systems-engineering","active","","1980s-present","dec-zahavi-debit-credit-vaxclusters-1988-1a9e2e","DEC TP Sys. Perf. Analysis (HYPER::BZAHAVI, MR01-1/A65); author of memo"
+"phil-bernstein","Philip A. Bernstein","person","database-systems-research","active","","1970s-present","dec-zahavi-debit-credit-vaxclusters-1988-1a9e2e","DEC Cambridge Research Lab; later Microsoft Research; transaction processing/2PC pioneer"

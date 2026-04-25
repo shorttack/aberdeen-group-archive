@@ -1,0 +1,38 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+logan_aberdeen_quote,observation_type,Logan_Aberdeen_Quote,Study-specific code: logan_aberdeen_quote
+WSJ-quotation,methodology,Wsj Quotation,Study-specific code: WSJ-quotation
+logan_audit_principle,observation_type,Logan_Audit_Principle,Study-specific code: logan_audit_principle
+aberdeen_first_wsj,observation_type,Aberdeen_First_Wsj,Study-specific code: aberdeen_first_wsj
+WSJ-feature,methodology,Wsj Feature,Study-specific code: WSJ-feature
+midrange_market_size,observation_type,Midrange_Market_Size,Study-specific code: midrange_market_size
+dec_truth_squads,observation_type,Dec_Truth_Squads,Study-specific code: dec_truth_squads
+comm_line_asymmetry,observation_type,Comm_Line_Asymmetry,Study-specific code: comm_line_asymmetry
+normal_environment_factor,observation_type,Normal_Environment_Factor,Study-specific code: normal_environment_factor
+weiss_desperation_quote,observation_type,Weiss_Desperation_Quote,Study-specific code: weiss_desperation_quote
+ibm_audit_refusal,observation_type,Ibm_Audit_Refusal,Study-specific code: ibm_audit_refusal
+anonymous_analyst_doubt,observation_type,Anonymous_Analyst_Doubt,Study-specific code: anonymous_analyst_doubt
+tpc_anticipation,observation_type,Tpc_Anticipation,Study-specific code: tpc_anticipation
+historical-context,methodology,Historical Context,Study-specific code: historical-context

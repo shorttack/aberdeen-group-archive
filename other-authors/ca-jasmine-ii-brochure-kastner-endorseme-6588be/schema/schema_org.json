@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "CA Jasmine ii Brochure: The Intelligent Information Infrastructure (Kastner Endorsement, 1999)",
+  "description": "Computer Associates International (CA) marketing brochure circa 1999 promoting Jasmine ii (Jasmine TND \u2014 The Intelligent Information Infrastructure). Brochure stamp 'MP78610799' (likely July 1999 print run) and 'SB05JMTNB1E.' Positions Jasmine TND as the platform delivering 'intelligence everywhere' for application development, deployment, and integration. Includes three named endorsements: (1) Tony Picardi (Group Senior Vice President Worldwide Software, IDC) \u2014 'Jasmine TND, with intelligence everywhere, represents a compelling advance in application development, deployment, and integration both from the ability to add smarts to applications and the development process itself'; (2) Ulma Gonzalez (Division Director Data Administration, Information Technology Department, Miami Dade County) \u2014 endorsing Jasmine TND's learning capabilities through CA's Neugents technology for a contract-monitoring system; (3) Peter Kastner (Vice President, Aberdeen Group) \u2014 'With Jasmine TND, Computer Associates is signaling its awareness that true Business Intelligence requires an intelligent and open infrastructure. With an arsenal of Business Intelligence tools, plus forthcoming pattern recognition/predictive agents, Aberdeen expects that Jasmine TND will make CA a one-stop-shop for businesses seeking to integrate intelligence into their applications.' Brochure body emphasizes 'The E-Commerce Age Is Upon Us' and the Internet as 'ultimate platform for customer-focused e-commerce applications and business-to-business' integration. Key technologies: Jasmine TND (Jasmine ii), Neugents (CA's neural-network agent technology), object-relational store with multimedia and active rules. Brochure issued during CA's Sanjay Kumar/Charles Wang era; predates the 2000 Computerworld ouster and 2001 proxy fight.",
+  "creator": {
+    "@type": "Person",
+    "name": "Computer Associates International \u2014 corporate marketing brochure (1999)"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

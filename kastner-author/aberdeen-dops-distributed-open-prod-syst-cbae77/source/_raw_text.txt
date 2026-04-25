@@ -1,0 +1,151 @@
+     11 1C2 Tr n ITAH ( ItiA ft
+           III IMUlvUj V|Jvl     11
+                         A«
+         liiAiiAn CiiAi/tnA
+   riOCI1U CltOiTvySlwIIIS.
+The Next Generation Ibegins
+
+          Peter S. Kastner
+           Vice-President
+
+          Aberdeen Group, Inc.
+             92 State Street
+            Boston, MA 02109
+             (617) 723-7890
+                                                                      Downsizing
+Definition:
+ Migrating computer-based functions from the
+ central mainframe to dispersed computing systems
+
+
+ Operational:
+
+  Moving the MIS function down the organization
+
+ Blending enterprise operational
+ experience with MIS adventuresome
+
+  Capturing the advantages of the
+  computer technologies of the 1990s
+
+                                                                                                                                 Aberdeen Group
+______________________________________________________________________________________________________________________________
+  Spoke-Node-Ring Planning Model
+                      Data Collection
+                      Nodes
+Corporate                               Productivity
+Data Node
+
+
+
+
+MM                 Spoke
+Node
+
+    Middle \
+     Manager
+            Ring
+                                          Aberdeen Group
+          Future Systems
+   The Spoke-Node-Ring Planning Model
+   is based on buyer’s demands for:
+
+• Distributed Systems
+• Open Systems
+• Production-Quality Applications
+
+                                    Aberdeen Group
+Applications
+ A Distributed, Open Production Application
+                                                   II H
+
+
+                                                          Stratus             Credit OK?
+                                                                                                    Credit       IBM S/390
+                                    Order                 Encina/DCE
+                                                                                                                 CICS/DCE
+                                    Processing            Sybase                                    Admin
+                       1                                  VOS                  Allocate
+                                                                                                                 DB2/DRDA
+                                                                                                                 MVS/ESA
+                                                                               Credit
+                                                                       ■J*.
+
+               Stock on Hand?         No. Use Other                                        We’re Below Reorder Point
+                                      Warehouses                                           on Widgets. Make More.
+
+
+
+
+                       RS/6000
+        Warehouse
+                       Encina/DCE                                                                                  HP 9000
+        Distribution
+                       Informix                                                                                    Encina/DCE
+                                                                                                      Resource
+                                                                                                      Planning     Allbase
+                                                                                                       (MRP)       HP-UX
+
+
+               Reserve                                                                                        EDI: Ordering 3,000
+               Inventory for                                                                                  Widget Cases.
+               This Order
+
+
+                                                                                                                   Pyramid
+                RS/6000                                   RS/6000                                                  Ui-AHas
+Warehouse                           Warehouse                                                        Order
+                Encina/DCE                                Encina/DCE                                               Ingres
+Distribution                        Distribution                                                     Processing
+                Informix                                  Informix
+                                                                                                                   Unix 5.4 MP
+
+
+
+                                                                                                             Aberdeen Group
+Intelligent Applications
+
+           • Use More System Services
+
+           • Hide the Complexities
+              a   Comm Network
+              a   Data Location
+              a   How Things Get Done
+              a   Where Things Get Done
+
+
+
+
+                            Aberdeen Group
+Six Technology Combinations
+
+• Standalone Unix
+
+• Single-Source Database
+
+•    Production Distributed Databases
+
+•    Communications to Open & Proprietary
+
+•     Mainframes: Treating the World as Peers
+
+•    Distributed Data Integrity
+
+                                          Aberdeen Group
+Intelligent Applications
+                           Will Be Practical Soon
+
+
+• SQL Access Group’s Database Interoperability
+
+• OSF’s Distributed Computing Environment (DCE)
+
+•    IBM’s Endorsement of DCE
+
+•     New Products for Distributed Production
+    Systems
+
+
+
+                                           Aberdeen Group
+

@@ -1,0 +1,43 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+kastner_quote,observation_type,Kastner_Quote,Study-specific code: kastner_quote
+InfoWorld-quotation,methodology,Infoworld Quotation,Study-specific code: InfoWorld-quotation
+kastner_title_evolution,observation_type,Kastner_Title_Evolution,Study-specific code: kastner_title_evolution
+InfoWorld-attribution,methodology,Infoworld Attribution,Study-specific code: InfoWorld-attribution
+infoworld_circulation,observation_type,Infoworld_Circulation,Study-specific code: infoworld_circulation
+magazine-imprint,methodology,Magazine Imprint,Study-specific code: magazine-imprint
+blade_density,observation_type,Blade_Density,Study-specific code: blade_density
+product-spec,methodology,Product Spec,Study-specific code: product-spec
+blade_density_compaq,observation_type,Blade_Density_Compaq,Study-specific code: blade_density_compaq
+InfoWorld-comparison,methodology,Infoworld Comparison,Study-specific code: InfoWorld-comparison
+dell_blades_per_rack,observation_type,Dell_Blades_Per_Rack,Study-specific code: dell_blades_per_rack
+dell_intel_processor,observation_type,Dell_Intel_Processor,Study-specific code: dell_intel_processor
+dell_microsoft_infiniband,observation_type,Dell_Microsoft_Infiniband,Study-specific code: dell_microsoft_infiniband
+InfoWorld-feature,methodology,Infoworld Feature,Study-specific code: InfoWorld-feature
+dell_brick_roadmap,observation_type,Dell_Brick_Roadmap,Study-specific code: dell_brick_roadmap
+Dell-statement,methodology,Dell Statement,Study-specific code: Dell-statement
+groves_response,observation_type,Groves_Response,Study-specific code: groves_response
+blade_market_drivers,observation_type,Blade_Market_Drivers,Study-specific code: blade_market_drivers
+InfoWorld-context,methodology,Infoworld Context,Study-specific code: InfoWorld-context

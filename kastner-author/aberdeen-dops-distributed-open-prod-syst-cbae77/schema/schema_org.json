@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group \u2014 Distributed Open Production Systems: The Next Generation Begins (1993)",
+  "description": "Aberdeen Group conference presentation deck delivered by Peter S. Kastner (Vice-President, Aberdeen Group) circa 1993 titled 'Distributed Open Production Systems: The Next Generation Begins.' Boston office at 92 State Street, (617) 723-7890. Defines Downsizing as migrating computer-based functions from central mainframe to dispersed computing systems and operationally as moving MIS function down the organization. Presents the Spoke-Node-Ring Planning Model based on three buyer demands: Distributed Systems, Open Systems, Production-Quality Applications. Centerpiece is a complex multi-vendor distributed-application diagram showing: a Stratus Encina/DCE/Sybase/VOS Order Processing node coordinating with IBM S/390 CICS/DCE/DB2/DRDA/MVS/ESA Credit Admin; RS/6000 Encina/DCE/Informix Warehouse Distribution; HP 9000 Encina/DCE/Allbase/HP-UX Resource Planning (MRP); Pyramid Ui-AHas Ingres/Unix 5.4 MP Order Processing \u2014 all linked via Encina/DCE distributed transactions. Defines Intelligent Applications as those that 'use more system services and hide the complexities' (comm network, data location, how/where things get done). Six Technology Combinations: standalone Unix; single-source database; production distributed databases; communications to open & proprietary; mainframes treating world as peers; distributed data integrity. Future enablers: SQL Access Group's database interoperability, OSF's Distributed Computing Environment (DCE), IBM's endorsement of DCE, new products for distributed production systems.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner \u2014 Vice-President, Aberdeen Group, Inc."
+  },
+  "datePublished": "1993-06-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

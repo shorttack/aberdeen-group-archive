@@ -1,0 +1,56 @@
+  18B-1090                        MAGAZINE
+        INFOWORLD: LEAS-WffH
+              KNOWLEDGE
+ r> x-            San Mateo, CA
+ \V               Clrc- 225,047
+                     Weekly
+ CL.          APRIL 8, 2002
+
+gmiiiiiimiffliiiiiffliiiim                     j
+             Eaton’s
+
+   Dell sharpens blade attack
+  PowerEdge 1655MC server blades to arrive ahead ofserver
+  ‘bricks, ’ offering assembled storage and memory blocks
+  Dan Neel                                     and agility, said Peter Kastner, chief
+. JOINING A GROUNDSWELL                  of    research officer of Aberdeen Group
+  competitors striving to capitalize on        in Boston.
+I IT executive interest, Dell is set to roll      “Dell is trying to maintain a flexi­
+  out its first server blades during the       bility and an agility that is at the core
+  third quarter of this year.                  of their business,” Kastner said.
+     Announced at its spring analyst              The PowerEdge 1655MC isn’t
+  meeting in New York last week, the           quite as sleek as rival products,
+  Austin, Texas-based company’s                allowing only 84 blades to fit in a
+  PowerEdge 1655MC blades join sim­            standard rack; blades from other
+  ilar offerings from Hewlett-Packard,         vendors, notably Compaq, are thin
+  Compaq, and other vendors in the             enough to fit hundreds in a single
+  fledgling server-blade market.               rack.
+     Dell’s blades will arrive at a time          But Dell maintains that super­
+  when industry observers say IT exec­         slim hardware requires performance
+  utives have begun weighing the               trade-offs its customers aren't will­
+  potential advantages of server blades.       ing to make.
+     Server blades allow companies to             “[Other vendors] have focused on
+  consolidate large server farms into          customers willing to sacrifice perfor­
+  smaller areas and reduce power               mance for space and power reasons.
+  consumption.                                 We don’t see much of that,” said
+     In addition to being flexible             Randy Groves, vice president of
+  enough to be reassigned for multiple         Dell’s enterprise systems group.
+  tasks, server blades are easier to              Blades are a stepping stone
+  manage than traditional servers,             toward Dell’s modular computing
+  according to those familiar with the         goal of “brick” servers, which will
+  technology.                                  feature multiple servers per chassis
+     Dell’s 1655MC hosts six dual­             and will allow customers to assem­
+  processor Intel Pentium Ill-powered          ble blocks of components such as
+  blades in a 5.25-inch rack. The mod­         storage and memory, according to
+  ular 1655MC is a precursor to the            Dell officials. By sharing power and
+  future launch of advanced, highly            cooling hardware and decreasing the
+  modular servers that Dell calls server       space required for housing servers,
+  “bricks.”                                    bricks will decrease customers’ data­
+     The evolution of Dell’s server hard­      center costs, Dell executives said.
+  ware toward blade and modular                   Meanwhile, Dell announced last
+  brick designs reflects the company’s         week it is partnering with Microsoft
+  core business philosophy of flexibility      to develop InfiniBand technology. /
+
+
+ 04.08.02
+

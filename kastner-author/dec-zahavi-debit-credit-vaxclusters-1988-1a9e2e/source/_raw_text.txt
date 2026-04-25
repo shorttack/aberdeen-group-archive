@@ -1,0 +1,297 @@
+From       HYEND::BZAHAVI "Bill Zahavi, MR01-1/A65, DTN: 297-7795    09-Mar-1988 1032
+To:        @DC VAXCLUSTER,@GROUP,BZAHAVI
+Subj       Debit-Credit on VAX clusters
+
+
+
+
+       |d|i|g|i|t|a|l|                     Interoffice Memorandum
+
+
+       To: distribution                    Date:        3/4/88
+                                           From:        Bill Zahavi
+                                           Dept:        TP Sys. Perf. Analysis
+                                           Ext:         297-7795
+                                           Loc/M.S.:    MRO1-1/A65
+                                           Node:        HYPER::BZAHAVI
+
+       Subject: Debit-Credit benchmark on VAXclusters
+
+
+
+
+  There have been many suggestions made in the past few weeks for
+  alternative ways of implementing the Debit-Credit benchmark. It is
+  refreshing to see the level of attention that the problems
+  highlighted by the benchmark generate. However,as a Debit-Credit
+  aficionado I feel that I must clarify a few basic issues that
+  govern the implementation of the benchmark under all conditions.
+
+  I should first point out that I agree that the problems only show
+  themselves when implemented on a VAXcluster. Therefore I will only
+  address the VAXcluster issues.
+
+  As pointed out in Phil Bernstein's memo the major obstacle in the
+  VAXcluster environment is the Distributed Lock Manager. Only one
+  member of a cluster becomes the owner of the locks for a given
+  file. Any other member requesting access to that file needs to
+  send messages via the CI bus to the owner of the locks for
+  permission to access the file. The Debit-Credit benchmark by its
+  definition is a victim of the Distributed Lock Manager due to the
+  requirement that a certain percentage of traffic at a given branch
+  is on accounts owned by a different branch.
+
+  There are two different types of file systems that the Debit-Credit
+  benchmark can utilize. It uses either flat files such as RMS or
+  Hash, or it uses formal databases such as DBMS or RDB.  The way the
+  Debit-Credit benchmark is implemented with flat files the
+  application is partitioned among all members of the cluster such
+  that there are dedicated account, Branch, and Teller files for each
+  member of the cluster. Furthermore, each application program is
+  aware of the existence of the other members and files. This way
+  member A of the cluster accesses files (A) first and becomes their
+  owner. Member B accesses files (B) and becomes their owner and so
+  on.  85% of the activity at a given branch (and therefore a cluster
+  member) is done on that member's set of files. The other 15%.needs
+  to address accounts belonging to a different branch. Sometimes the
+  account file for the other branch resides on a file belonging to a
+  different member of the VAXcluster (statistically that would be
+  7.5% of the time on a two member cluster). When that occurs there
+  is inter-node traffic requiring the usage of both the Distributed
+  Lock Manager and the CI bus for locking traffic. Using this
+  methodology with flat files is very straight forward and we have
+  both implemented it and observed near linear scalability at low
+^evel testing (5 TPS on a one node system and 10 TPS on a two node
+system). The near linearity is due both to the ability to
+distribute the application files and the ability to minimize the CI
+traffic due to lock management.
+
+The problem really shows itself when formal databases are involved.
+If we look at the problem from the application on out we see the
+following:
+
+      1 - A formal database requires a ROOT file that
+      describes to the application the layout of the file.
+      2 - The ROOT file is a single file that describes a
+      complete database ( or a set of relations ) and can
+      therefore be "owned" by only one member of a cluster.
+
+      4 - A transaction can only have one ROOT file open with
+      full privileges.
+
+      3 - The Debit-Credit application requires that a
+      percentage of the time local Branch and Teller files be
+      updated but a remote Accounts file be updated.
+
+In a generic sense there are several ways to accomplish the
+Debit-Credit functionality with minimal remote Distributed Lock
+Management traffic:
+
+     1 - Create multiple databases or relations. When the
+     Debit-Credit transaction needs to update a remote
+     Accounts file it would fire off an asynchronous
+     transaction which would do the necessary work on the
+     remote node and return before the original transaction
+     commits.
+
+     This can be done with and without a 2 phase commit.
+     Without 2PC both database and transaction integrity are
+     in question since there is no way to recover the
+     transaction. Journaling also becomes an issue with
+     respect to the parent and child transactions.
+
+      2 - Queuing can be used to place activity needed on
+      remote Account files on queues. These queues can then
+      be emptied by a background transaction whose sole
+      function is to manage remote Account files.
+
+     This method poses two new problems. First, it does not
+     update the database on-line. The operation is closer to
+     a batch background function.  Second, the integrity of
+     the account is in question since there is no way to
+     coordinate the activities on a given account from
+     multiple queues on multiple nodes. For example if there
+     is $1000.00 in an account then there is the possibility
+     that two queues on two different nodes in a cluster can
+     have $1000.00 withdrawl requests outstanding against the
+     account.
+     3 - A yet third way was recommended by Diogenes Torres
+     which shows a very creative way of distributing formal
+     databases.  The suggestion was to partition the Accounts
+     file into as many partitions as there are nodes in the
+     cluster. This is followed by replicating the Branch and
+     Teller files for each of the nodes. This would create
+     multiple partitioned relations which could then be
+     accessed without the use of remote locking by the
+     distributed lock manager.
+     A routing mechanism would then determine via the account
+     number the node on which the teller would do the work.
+
+      The elegance of the design lies in the fact that the
+      files that are replicated are sufficiently small so as
+      not to add to the cost of ownership in terms of disk
+      space. One area of concern is that the routing
+      function may integrate the front end into the
+      application and thus increase both response time and
+      cost of ownership.
+
+      The routing mechanism will need to be defined for both
+      ACMS and DECintact environments in order to thoroughly
+      test this method.
+
+A closer look at this potential solution brings up a whole new
+series of questions and concerns. Assume for a moment a cluster
+with two nodes. The files, based on the above method would appear
+as follows:
+
+
+                        Node A                      Node B
+
+                 |   Accts A-M           |       Accts N-Z       |
+   Column Rel.   |   A_Tellers_All       |       B_Tellers_All   |
+
+                 |   A_Branches_All      |       B_Tellers_All   |
+
+
+
+
+                                 Row Relations
+
+For this method to work it is necessary that a file or an area such
+as A_Tellers_All exist simultaneously in two ROOT files. That way
+it can be shown that there is a common thread that binds all of the
+files so that the application can be considered one integrated
+application with partitioned data bases.
+
+The way an auditor would verify this would be by having a separate
+transaction that displays Branch or Teller totals by adding up the
+individual values in each of the replicated Branch or Teller files
+while the benchmark is in progress.  If this were not the case then
+the only time a total could be displayed would be when the
+benchmark was over or through a manual process of separately
+inspecting each of the nodes.
+
+Either of the above alternatives makes the benchmark run as a
+combination of multiple copies of the application running at the
+same time but independent from each other. The 'spirit' of the
+Debit-Credit benchmark clearly points toward a single integrated
+application where the partitioning of databases is allowed so long
+as it is viewed as a single application. Certainly we can run
+multiple applications on multiple nodes with absolute scalability.
+It is the running of a single application on multiple nodes that is
+the challenge.
+
+Rdb/VMS can establish read access to multiple databases.   It is
+not clear from the documentation whether or not it can establish
+write access to more-than-one database: This suggests an
+experiment.  (cf: VAX Rdb/VMS Guide to Database Administration and
+Maintenance, pp. 6-261)
+/he way Rdb/VMS implements the multiple reads is by accessing the
+snapshot files for the most recent "before-image" copies of the
+relations (aka, 'records') requested. It is possible that the
+values returned will not reflect the actual value, because a
+relational write may be concurrently initiated by a different
+application process.
+
+From the DBMS Notes File, VAX/DBMS does not have this capability.
+There is also no mention of accessing multiple schemas in the
+VAX/DBMS Guide to Database Administration and Maintenance.
+
+
+
+If we cleared the first hurdle of being able to simultaneously
+access multiple ROOT files (a possibility at least with Rdb) then
+we would have to deal with the issue of routing. The problem there
+can be described as follows:
+
+
+
+
+                Front End                      Application Cluster
+
+             I        |A       |       |
+           --- >    |C       ----- |             Node
+   T         |        |M       | r     j   :      A
+   e      ----->    | S/D    | o     |     I
+ T r         |        |  E     | u |
+ e m       ---->    |    C   | t     |
+ 1 i         |        |  i     | e     i                Node
+ 1 n      ----- >   j    n   | r     |                               B
+ e a         |        |  t   -----1
+ r i      ----->    |    a   |       |
+
+
+
+
+The main objective here is to insure that a teller has a path to
+all nodes where the account files reside. This could be as many
+connections as there are VAXes on the cluster.
+
+The Router should:
+
+       1 - Reside on the FEP.
+
+       2 - Be invisible to the Teller terminal.
+       3 - Route transactions to appropriate nodes.
+
+       4 - Should be able to maintain multiple sessions open
+           with multiple nodes.
+
+       5 - Should be able to route the response back to
+           the appropriate teller.
+
+
+According to the VAX/VMS I/O User's Reference Manual (Part 1), pp
+7-3, it is possible to associate a created mailbox with more than
+one process. Therefore, it is indeed possible for many-to-many
+process-node communications to be established. Alternatively (and
+not as elegantly) modifications can be made to device drivers to
+give them the high level routing capability required. Consider how
+LAT packets are delivered over DECnet: Modifying the packet's
+destination address at the driver level can be very fast but very
+hard to maintain. _________________________________________ ______
+Router overhead should not be included in the Style 3 test. It
+should be assumed that any remote terminal front-end processor will
+be connected to n-number of destination databases, and that it will
+provide virtual database connections for the terminal presentation
+software. I would suspect that Style 3 discounts the X.25 packet
+routing overhead as being a function of the front—end processor.
+
+In order that Diogenes' method work properly all of the above
+questions need to be favorably resolved. The discussions that will
+follow will focus on all of the possible ways by which we design
+applications with formal databases in clusters without 2 Phase
+Commit.
+                             /
+
+
+I appreciate the fact that we all know that we need 2PC and that we
+will not have 2PC for a while.  I think we need to face up to the
+fact that without it only certain types of applications can be
+distributed using formal databases. We owe it both to ourselves
+and our customers to insure that the methods we are testing and
+using to measure our machines are methods which they can use for
+their applications.
+
+It is presently known that flat files can be distributed within
+clusters while formal databases cannot. This is a major concern.
+At present, this is also the dividing line between DECintact and
+ACMS; DECintact is known to work only with flat files (RMS and
+Hash) while ACMS works best with DBMS and RDB. While these
+differences will diminish in the near future it is important that
+our formal database products evolve and become more flexible for
+distribution within a cluster.  If our effort in OLTP is to succeed
+it is imperative that we take full advantage of our clusters. Both
+distributed databases and 2 phase commit are mandatory features for
+that success.
+In concluding this discussion I would like to propose that this
+document become a kind of a living document that will grow as more
+information becomes available especially in the areas of using both
+DECintact and ACMS within FEP's.  I would like to invite everyone
+to contribute their ideas on how we can provide a flexible
+VAXcluster environment to our users in spite of the obvious
+obstacles and limitations that exist today. This particular
+challenge is an excellent forum for members of the TP, Databases
+and VMS community to join forces and focus on both short and long
+term solutions.
+

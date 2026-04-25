@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "DEC Zahavi Memo: Debit-Credit Benchmark on VAXclusters (March 1988)",
+  "description": "Internal Digital Equipment Corporation interoffice memorandum dated 4-March-1988 by Bill Zahavi (TP Systems Performance Analysis, MR01-1/A65, DTN 297-7795, HYPER::BZAHAVI) addressed to @DC_VAXCLUSTER and @GROUP, on implementing the Debit-Credit benchmark on VAXclusters. Identifies the Distributed Lock Manager (DLM) as the major obstacle: only one cluster member owns locks for a given file, and the Debit-Credit specification's requirement that 15% of teller activity address other-branch accounts forces inter-node CI bus traffic. Distinguishes flat-file (RMS, Hash) from formal-database (DBMS, Rdb) implementations. Discusses partitioning strategies (cluster-member-A owns files-A, etc.) and the asymmetric statistics: 7.5% of cross-branch traffic lands on a different cluster member's locks for a 2-member cluster. Acknowledges that DECintact works only with flat files (RMS, Hash) while ACMS works best with DBMS and Rdb. Proposes that without 2-Phase Commit (2PC), only certain types of applications can be distributed using formal databases \u2014 explicitly referencing Phil Bernstein's prior memo. Closes by calling for cross-functional cooperation between TP, Databases, and VMS groups for both short and long-term solutions, and asks the document be treated as a 'living document.' Direct technical companion to the Kohler/Hsu guidelines (Study 1) and the broader DEC OLTP performance-engineering corpus.",
+  "creator": {
+    "@type": "Person",
+    "name": "Bill Zahavi, DEC TP Systems Performance Analysis (HYPER::BZAHAVI)"
+  },
+  "datePublished": "1988-03-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

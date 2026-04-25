@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group \u2014 Putting Headlines In Context (Multitrak User's Group, Sep 1991)",
+  "description": "Aberdeen Group conference presentation deck delivered by Peter S. Kastner (Vice-President, Aberdeen Group) at the Multitrak User's Group meeting in September 1991, footer 92 State Street Boston MA, (617) 723-7890. Agenda: Headline Confusion, Spoke-Node-Ring (S-N-R), Downsizing, Client-Server, Software Tools, Managing Change, Wrap-up. Presents Kastner's signature Spoke-Node-Ring planning model showing Corporate Data Node, Spoke Nodes, Middle Manager Ring, and Data Collection nodes. Includes IBM 'Two Tier - Two Mainframes' (S/370 + AS/400) framing. Defines Downsizing both operationally (moving MIS function down org) and technically (migrating computer-based functions from central mainframe to dispersed systems). Three case histories: (1) Banking \u2014 regional bank gains corporate cash-management share via multiple minicomputers; (2) Manufacturing \u2014 three-year migration from central 4381 to plant rings with systems integrator; (3) Automotive \u2014 moving program development from mainframe to desktop systems (initial programmer revolt followed by acceptance, more apps released but more demanded \u2014 no backlog reduction). Cooperative Processing section covers four IBM models: Remote Presentation (Easel), Remote Database (LU 6.2), IBM's Definition (OS/2 R2 \u2192 CICS \u2192 DB2), and What Users Want (SAA with DB2 circa 1994; OS/2 EE \u2192 AIX \u2192 DB2). Application Development Tools section quotes George H. Conrades (IBM Senior VP, Sept 19 1989): 'It Doesn't Make Sense For Computers To Process 100 Million Instructions Per Second, While Programmers Produce Just Ten Lines Of Code Per Day.' Discusses CASE \u2014 panacea, 4GL, management control tool, industrial-strength application development. Programming Staff Profile generational deterministic: YES Cobol/CICS, NO C++/X.Windows. IBM AD/Cycle Vision diagram. Why CASE Will Use PS/2 On A LAN section. Closes with Organizational Paradoxes of Downsizing and Managing Change. Includes Aberdeen Group corporate background and Kastner CV (DEC, Prime Computer, Stratus Computer, ADL prior).",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner \u2014 Vice-President, Aberdeen Group, Inc."
+  },
+  "datePublished": "1991-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

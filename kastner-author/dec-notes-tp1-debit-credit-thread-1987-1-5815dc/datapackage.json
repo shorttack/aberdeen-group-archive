@@ -1,0 +1,261 @@
+{
+  "name": "dec-notes-tp1-debit-credit-thread-1987-1-5815dc",
+  "title": "DEC RDB NOTES File Thread: TP1/Debit-Credit Benchmark Discussion (Dec 1987)",
+  "description": "Internal DEC VAX Rdb/VMS NOTES file thread (Note 461) on the TP1 / Debit-Credit benchmark, captured December 1987. Thread initiated by Arild Saghagen (OSL09::ARILDS, Office & Infosystem Marketing) seeking RDB performance data for a finance-company sale where DEC and Wang were the final vendors and the customer asked about TP1 transaction rates against a 2x8550 cluster. Replies clarify TP1 = Debit-Credit = Gray benchmark (Rob Rowlands, BISTRO::ROWLANDS), point to internal Valbonne report TP_REPORT23.LN03 (HERON), warn that the spec leaves scope for 'artistic interpretation' (Tony Mascall, GYPSC::MASCALL). Charlie Hammond (SQM::HAMMOND, ZKO2-02) explains that TP1, Debit-Credit and Gray are all the same benchmark, lists ambiguities (95th/1-sec vs 2-sec, back-end vs terminal response, partitioning tricks). Richard Kittell (COOKIE::KITTELL, Database A/D) draws an analogy between unspecified TPS ratings and unspecified stereo frequency response \u2014 and forwards an April 1987 standardization draft by Kevin Smith (COOKIE::KSMITH) defining DBS Standard Metrics for FY87 and FY88: TPS (D/C, BATCH/END-TO-END, QUALIFIED/PEAK), $/TPS metrics (Host vs B/E System, Cost vs Price vs COO), database size metrics, and back-up rate metrics. Notes Rudy Downs hired as DBS Performance Manager. Document contemporaneous with the Kohler/Hsu Debit-Credit Guidelines memo and shows DEC's broader DBS group converging on standardized benchmark metrics \u2014 8 months before TPC was founded.",
+  "version": "1.0.0",
+  "created": "2026-04-25",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Multiple DEC engineers (Saghagen, Rowlands, Mascall, Hammond, Kittell, Smith)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

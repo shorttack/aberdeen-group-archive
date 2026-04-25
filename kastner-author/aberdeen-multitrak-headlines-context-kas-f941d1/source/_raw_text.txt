@@ -1,0 +1,417 @@
+    Putting
+ Headlines
+In Context
+Multitrak User's Group
+   September 1991
+
+   Peter S. Kastner
+    Vice-President
+
+Aberdeen Group, Inc.
+  92 State Street
+ Boston, MA 02109
+  (617) 723-7890
+  AGENDA
+• Headline Confusion
+• Spoke-Node-Ring
+• Downsizing
+• Client-Server
+
+• Software Tools
+
+• Managing Change
+
+• Wrap-up
+
+               Aberdeen Group
+           IBM
+Two Tier - Two Mainframes
+   S/370
+                 AS/400
+   Downsizing
+Definition:
+Migrating computer-based functions
+from the central mainframe to
+dispersed computing systems
+
+
+Operational:
+Moving the MIS function down
+the organization
+
+Blending enterprise operational
+experience with MIS adventuresome
+
+Capturing the advantages of the
+computer technologies of the 1990s
+                 Aberdeen Group   )
+  Why
+Downsizing
+Because we can:
+  •   Microprocessors
+  •   Software
+  •   Communications
+  •   Computer expertise
+
+Because we want to:
+  •   Computer literacy
+  •   Line-of-business structure
+  •   Mergers/Acquisitions
+  •   Creative destruction
+  •   Winning
+               Aberdeen Group
+ Case History #1^
+Industry: Banking
+
+Problem: How can a large regional
+bank gain corporate accounts for
+cash management services?
+
+Solution: Multiple minicomputers
+
+Result: Low-cost producer that is
+both profitable and spoiler for
+mainframe-based competitors
+
+
+
+
+                    Aberdeen Group
+    Case History #2
+Industry: Manufacturing
+
+Problem: How to decentralize
+manufacturing operations from
+central IS
+
+Solution: Move production from
+central 4381 to plant rings
+
+
+Result: A three-year migration
+plan in place with a systems
+integrator taking the development
+risks
+
+<                 Aberdeen Groups
+    Case History #3
+Industry: Automotive
+
+Problem: How to decrease the
+backlog for new, custom
+applications
+
+Solution: Move program
+development from mainframe to
+desktop systems
+Result: Initial programmer revolt
+followed by acceptance. While
+more applications are released,
+more are asked for — no
+reduction of backlog!
+<                  Aberdeen Group
+  COOPERATIVE A
+  PROCESSING
+
+Cooperative Processing (Client/Server)
+Is The Processing Model For Future
+Applications Which Fully Utilize The
+Capacity Of The Spoke-Node-Ring
+Planning Model To Implement Application
+Downsizing
+
+
+
+
+                     Aberdeen Group
+    COOPERATIVE
+    PROCESSING
+
+
+
+
+                        • Current
+                          inventory
+
+                        • Master
+• Product Look-up         Database
+• Pricing Information
+• Order Entry
+
+                 Aberdeen Group
+COOPERATIVE
+PROCESSING
+ Remote Presentation
+
+
+
+
+* Where Most Are Today
+* Example:   Easel
+
+               Aberdeen Group
+  COOPERATIVE A
+  PROCESSING
+         Remote Database
+
+
+
+
+Client
+
+
+Server
+
+
+     ♦ Where Some Pioneers Are
+     * Example:   LU 6.2
+
+                    Aberdeen Group
+COOPERATIVE
+PROCESSING
+      IBM's Definition
+
+
+
+
+• Where OS/2 Release 2 is Pointing
+* Example:   OS/2 to CIOS to DB2
+                  Aberdeen Group
+r COOPERATIVE A
+  PROCESSING
+       What Users Want
+
+
+
+
+ * SAA With DB2 Circa 1994
+ • Example:   OS/2 EE to AIX to DB2
+                   Aberdeen Group
+   Application
+  Development
+     Tools
+S-N-R Demands a New
+Approach to Software
+  WHY CASE?
+"It Doesn't Make Sense For
+Computers To Process 100
+Million Instructions Per
+Second, While Programmers
+Produce Just Ten Lines Of
+Code Per Day."
+             George H. Conrades
+                  IBM Senior VP
+             September 19, 1989
+
+
+
+
+               Aberdeen Group
+     Is CASE
+   The Answer?
+• Panacea
+• 1990 In-Word
+• Toy Box
+• Pretty Diagrams
+• 4GL
+♦ Management Control Tool
+• Industrial-Strength
+  Application Development
+  And Maintenance Tools
+
+            Aberdeen Group
+  Programming
+  Staff Profile
+
+Generational
+Deterministic
+YES:    Cobol, CICS
+
+NO:    C++, X.Windows
+
+Artist, Craftsman,
+Crossword Puzzle Solver,
+Engineer
+
+            Aberdeen Group
+        IBM'S
+    AD/Cycle Vision
+
+                 CROSS LIFE CYCLE
+                      I I[C?de].     Building/ I
+Planning i Analysis/ . Production ■            . [Production]
+           !!  Design !            I  Testing   I
+                                   ■
+          1                 Languages             _____ 1_________
+Enterprise Modeling       Generators      Test / Maintain
+      Analysis/Design I Knowledge-Based Systems
+                       i
+     __________ 1____________        ■              ■
+   APPUCA TION DEVELOPMENT PLA TFORM
+   (REPOSITORY)
+
+                            Source: IBM Advertisement
+
+
+
+
+  Repository is The Central
+    Storage Place For AH
+    Systems Information
+                                    Aberdeen Group
+      A DEVELOPERS
+     VIEW OF S-N-R
+
+
+
+
+Project
+Workstations
+
+
+       Application dependent
+       Front-End Design and
+       Code Generation/Testing
+       New Management Tools
+                Aberdeen Group
+ Development
+  Downsizing
+Offloading the Mainframe...
+   Onto The PS/2 LAN
+Analysis & Design
+
+Application Generation
+
+Configuration Management
+
+Unit Compile, Test & Debug
+
+DB/DC Simulation
+
+Documentation
+
+                Aberdeen Group
+Why CASE Will Use
+ PS/2 On A LAN
+
+• Meets Programmer Requirements
+  a   PC Is Not A Toy Anymore
+
+• Immediate Response Time
+  a   IBM Research
+  a   1/2 Second Response Time
+      Yields 100% Productivity
+      Improvement
+
+• Try Latest, Greatest
+  Whiz-Bang Software Tools
+
+
+
+                  Aberdeen Group
+Why CASE Will Use
+ PS/2 On A LAN
+
+ • Greater Programmer Uptime
+
+ • Do Non-Programming
+   Office Tasks
+
+• LAN Coordinates Multiple
+  Programmers With Enterprise
+  Policies
+
+ • MS/DOS Extenders and
+   OS/2s Real Arrival In 1990
+
+
+
+
+                  Aberdeen Group
+Why CASE Will Use
+ PS/2 On A LAN
+
+• Production System Robustness
+   a   Fewer Bugs Crash
+       Mission-Critical Systems
+
+
+• PS/2 Is The AD/Cycle
+  Application Development
+  Workstation
+   a   UNIX and PC RT CASE
+       Not For Commercial Systems
+
+
+
+                   Aberdeen Group
+Organizational
+Paradoxes of
+ Downsizing
+1. Organizational effectiveness
+   or chaos?
+
+2. Increase revenue/decrease cost
+   or add to MIS cost?
+
+3. Who owns information — data
+   generator or information user?
+
+4. Which is more effective —
+   army, battalion, company, squad?
+
+
+
+
+                   Aberdeen Group
+ Managing Change
+
+
+
+
+• The Brave, New World of S-N-R
+  Demands a Careful Look at IS
+  Management and Organization.
+
+• Project Management Becomes Even
+  More Important as a Vehicle
+  for Implementing Change ...
+  Successfully
+                   Aberdeen Group
+                                           Aberdeen Group, Inc.
+                                           92 State Street          Telephone 617 723 7890
+                                           Boston, Massachusetts    FAX 617 723 7897
+                                           02109
+
+
+
+
+Aberdeen Group
+        ABERDEEN GROUP, INC.
+
+        Aberdeen Group is a Boston-based management consulting and computer
+        market research organization.
+
+        For technology users, Aberdeen assesses technology needs within their
+        own operating and competitive context, recognizing that each
+        organization’s objectives, strategy, and tactics differ. Assignments include
+        enterprise-wide information architecture planning including hardware,
+        software, and communications; supplier-strategy analysis; implementation
+        planning; and assisting clients in clarifying the business benefits of specific
+        technologies.
+
+
+        PETER S. KASTNER
+
+        Peter S. Kastner is Vice President of Aberdeen Group, Inc. He is a
+        leading analyst of trends in online transaction processing (OLTP),
+        client/server architectures, distributed commercial systems development,
+        and TPC-A benchmark auditing and analysis.
+
+        Prior to Aberdeen, Mr. Kastner was a marketing executive with Digital
+        Equipment, Prime Computer, and Stratus Computer. As a consultant with
+        Arthur D. Little Inc., Mr. Kastner was involved over a decade in dozens of
+        complex systems-development projects spanning the manufacturing,
+        banking and financial services, health care, and government markets, and
+        including mainframe, minicomputer, and desktop systems.
+

@@ -1,0 +1,559 @@
+# DEC RDB NOTES File Thread: TP1/Debit-Credit Benchmark Discussion (Dec 1987)
+
+> Archived from: DECtp-debit-credit-thoughts-1987-RDB-4.pdf
+> Original publication date: 1987-12-09
+> Author: Multiple DEC engineers (Saghagen, Rowlands, Mascall, Hammond, Kittell, Smith)
+
+---
+
+## Original Document Text
+
+                                <<< NOVA::$222$DUA16:[NOTES$LIBRARY]RDB.NOTE;1 >>>
+                                                                  -< VAX Rdb/VMS >-
+= = = = = = :='=’ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Note 461.0                                                          TP1 Benchmark ?                                                             6 replies
+OSL09::ARILDS "Arild Saghagen,Office & Infosystem M" 17 lines                                                                     9-DEC-1987 02:26
+
+
+       Hello all,
+
+
+       I need some help on RDB-performance. We are in the final round in
+       a large sale to a finance-company. We and Wang are the only remainding
+       vendors. The customer have requested data about how many transactions
+       RDB can support. The customer are reffering to a benchmark called TP1.
+       Does anyone know this benchmark and do you know how many
+       TPl-transactions RDB can support?
+
+       We are ofering 2x8550 in a cluster.
+
+       Best regards,
+       Arild
+
+zs=:=5ss==:s5x==sss=ssssssBSsss=B2sisesssnssss:sss:sxxsss3Ka:s«sssssas3Ssass3a9ssss=s:s===»s9&3BSKsaaieBE5&ss9SS9zs3ss5ss
+
+Note 461.1                       TP1 Benchmark ?                                                                                          1 of 6
+BISTRO::ROWLANDS "Rob Rowlands"                      11 lines                                                                  IO-DEC-1987 03:13
+                        -< I believe it's DEBIT/CREDIT >-
+
+
+       From what I understand, TP1 is another name for the DEBIT/CREDIT
+       benchmark (can someone else confirm this?).
+
+       Results for INTERNAL USE ONLY for the DEBIT/CREDIT benchmark
+       (conducted in Valbonne) can be found in a report located as follows:
+
+                HERON""::SYS$PUBLIC:TP_REPORT23.LN03
+       Extreme care should be used in interpreting the results cited by
+       vendors since the definition of the benchmark leaves scope
+       for artistic interpretation!
+
+Note 461.2                       TP1 Benchmark ?                                                                                          2 of 6
+GYPSC::MASCALL "Tony Mascall ACT/IIS Munich @MUH DTN" 5 lines                                                                  IO-DEC-1987 04:05
+                          -< See the ACMS Notes file >-
+
+
+       Arild
+        See also Note 362.* (esp. reply 362.1) in the ACMS notes file.
+
+        Tony Mascall.
+— = ====——====
+Note 461.3                       TP1 Benchmark ?                                                                                          3 of 6
+SQM::HAMMOND "Charlie Hammond — ZKO2-02/K29 — dtn" 32 lines                                                                    16-DEC-1987 13:59
+                            -< Compare with care! >-
+
+
+            TP1, Debit-Credit and Grey (or Gray?) are all names for the same
+            benchmark. As previously suggested be V E R_Y careful how you
+            compare results.    The only public definition of the benchmark is
+            incomplete and ambiguous. To make matters worse, most people who
+            implement this benchmark ignore one or more of the requirements
+            that are very specific.
+                          The benchmark calls for a 1 second 95th percentile response
+             time. Some implementations use 2 seconds                  or    ignore    this
+             requirement and just state what they do get.
+
+             - Some implementations measure response time at the terminal;
+             others at the "back-end". (The benchmark is ambiguous on this,
+             but,  those who understand how such a benchmark is typically
+             run on IBM-style computers believe that "back-end" response
+             times are assumed. Most of the interactive workload benchmarks
+             run within DIGITAL user terminal response time.)
+
+             - Be aware of the various methods used to "partition" the
+             database. The benchmark permits a great deal of flexability,
+             but some of the techniques give improoved results that are not
+             realistically achievable in real life.
+
+        The   DEBIT-CREDIT   benchmark is defined in Tandem Computers
+        Technical Report 85.2, dated February, 1985, titled "A Measuer of
+        Transaction Processing Power". A condensed version is published in
+        the April 1, 1985, DATAMATION under the same title. Authorship of
+        both documents is credited to (Honest!) Anon Et Al.      I have no
+        machine readable copies of these, but I do have harcopy which I
+        will attempt to photocopy and mail if you really need them and
+        can't find them in your library.     Send mail to SQM::HAMMOND.
+        (Please, serious needs only — my resourses are limited.)
+sassssssssses&sasssasessassssKSBcxsssES&xeEBsasaEEsassBSSsestBsssassssssassBaansBcsaBHBssKBa
+
+Note 461.4                       TP1 Benchmark ?                                            4 of 6
+COOKIE::KITTELL "Richard S. Kittell - Database A/D" 18 lines                     17-DEC-1987 10:36
+                             -< nice woofers, eh? >-
+
+
+Here's an analogy I like to use when I get confused looks about the
+benchmark measurements:
+
+"Stating a TPS value without noting the percentages of transactions
+completing within some time period is like stating the frequency response of
+a stereo without noting how close to flat the response stays over the
+range."
+
+The audio industry went through something of a revolution years ago in the
+way they measured and published specs, mainly because the consumers wised up
+to the difference. The same awareness is just now forming in the TP market.
+
+                                  Good Stuff                Probably Unacceptable
+
+Stereos                       20-20,00Hz +- 3dB              20-20,000Hz +- lOdB
+TP Systems                    200 TPS 95% lsec               200 TPS 80% 3sec
+
+Unqualified specs (just a TPS value by itself) are worthless.
+= = = = — = = = === = = == ===== === = = ===================== ===== ====== = ================ =======
+Note 461.5                                        TP1 Benchmark ?                               5 of 6.
+COOKIE::KITTELL "Richard S. Kittell - Database A/D" 382 lines 17-DEC-1987 10:50
+                                              -< Standard Metrics >-
+
+
+This was a first draft of work standardizing DBS metrics. It came out in
+April, and I haven't seen anything more current. Lots of forwarding deleted.
+Although it wasn't marked with classification, it did reference the names of
+some unannounced products, those have been obscured with *****.
+
+The referenced to-be-hired-DBS-performance-manager has been hired, he's
+Rudy Downs, on COOKIE.
+
+Richard
+
+From:     COOKIE::KSMITH       "Kevin J. Smith CXO1-2/N25 DTN:522-2200             04-Apr-1987 201
+  /      @DBS,MELTON,EASTEP,KSMITH
+ ub j:   Standardization of DBS Terminology and Metric, Rev 0
+Introduction
+
+We presently used a variety of different metrics to describe the present and
+planned functionality of our database products. This causes difficulty and
+inaccuracy when similar function products are presented in a summary chart
+or graph.  In addition, the use of different metrics complicates communications
+particularly to groups outside of DBS.
+
+The DBS staff (with input from several developers) has agreed to a first pass
+set of metrics which we would like consistently used across the organization,
+and the purpose of this memo is to communicate these standards. Our expect­
+ation is that these standards will be (infrequently) iterated and supplemented
+over time as we become smarter on the best terminology to use and as we
+implement new benchmarks (presently, our standard benchmark is Debit/Credit,
+which is referenced through-out this memo; we plan to de-emphasize Avertz and
+add two new benchmarks in FY88). The (to be hired) DBS Performance Manager
+will have responsibility to evolve the terminology standards and benchmarks;
+measure and project functionality using these and subsequent metrics; and have
+responsibility for summarizing and reporting against the metrics (Section VII).
+Your support in following these guidelines is appreciated.
+
+
+I. Terms for TPS Metrics
+
+
+   A. Benchmark Environment:
+
+   "END-TO-END" - End-to-end implies a system-wide performance measurement.
+
+                   Debit/Credit Benchmark: System performance is measured in an
+                   interactive environment as specified in the benchmark or by
+                   extrapolating from Batch Mode performance to estimated end-to
+                   -end performance. Performance is measured from start trans­
+                   action (transmission of the last byte from the terminal sub­
+                   system) to end transaction (transmission of the first
+                   response byte to the terminal subsystem). Real-world network
+                   delays are excluded.
+    "BATCH MODE" - Batch mode implies a database system only performance
+                   measurement.
+                   Debit/Credit Benchmark: Database system performance is
+                   measured in a batch environment by running randomly generated
+                   Debit/Credit transactions against the database. Performance
+                   is measured from start transaction (transmission of the last
+                   byte of a transaction to the the database manager [run-time
+                   component] from the local dispatcher) to end transaction
+                   (transmission of the first response byte from the database
+                   database manager to the local dispatcher).
+
+
+   B. Performance Characterization:
+
+    "QUALIFIED"   - Qualified implies that the stated performance complies (or is
+                    is estimated to comply) with a referenced benchmark.
+
+                    Debit/Credit Benchmark: Measured end-to-end response time for
+                    95% of the transactions is with-in 1 second and the database
+                    size corresponding to the measured TPS is consistent with
+                    benchmark specs.
+                       If the benchmark cannot be run in end-to-end mode because
+                       some component to conduct the test is missing, then Qualified
+                       TPS can be estimated from batch mode by measuring batch mode
+                       TPS subject to 95% of the transactions completing within 0.8
+                       seconds and less than 80% CPU utilization. Note: These
+                       parameters are arbitrary rules-of-thumb which allow time and
+                       CPU cycles for the TP monitor to perform the front-end portion
+                       of the benchmark; these rules of thumb will be updated as
+                       better information becomes available.
+
+"PEAK"           - Peak implies that the stated performance is maximum throughput
+                   in a stable system (response time is recorded but not a
+                   constraint). Note: A stable system means that the transaction
+                   arrival rate and the transaction completion rate are approx­
+                   imately equal over a short period of time (say in the range
+                   of 500 to 5000 transactions) using a sliding or fixed time
+                   window (depend on our measurement tools). In other words,
+                   further increasing the transaction arrival rate will not
+                   increase the transaction completion rate.
+
+"OTHER"          - Performance goals have also been stated in other terms, such
+                   as, debit/credit batch mode with 95% of the transactions
+                   completing with-in 1 second.
+
+
+C. Guidelines:
+
+   1. Whenever the term TPS is used, please indicate parenthetically the TPS
+      definition, in the format (benchmark name, benchmark environment,
+      performance characterization).
+
+   2. For FY87, the choices for TPS definition have been;
+         TPS   (D/C,    BATCH, QUALIFIED)
+         TPS   (D/C,    BATCH, 1 SEC R.T.)
+         TPS   (D/C,    BATCH, PEAK)
+         TPS   (D/C,    END-TO-END, QUALIFIED)
+         TPS   (D/C,    END-TO-END, PEAK)
+         TPS based on the AVERTZ and the future benchmarks should have similar
+         similar parenthetically information defining the TPS.
+
+   3. For FY88, the TPS definitions will be;
+
+         TPS   (D/C,    BATCH, QUALIFIED)
+         TPS   (D/C,    BATCH, PEAK)
+         TPS   (D/C,    END-TO-END, QUALIFIED)   <--   DBS Standard Metric.
+         TPS   (D/C,    END-TO-END, PEAK)        <--   DBS Standard Metric.
+
+         The Debit/Credit End-To-End TPS metrics will be our standard perform­
+         ance metrics for setting goals and reporting in corporate reports,
+         such as the LRP. The rates will be either measured results or estimates
+         using the (above) rule of thumb, as well as projections. However, the
+         batch mode numbers should also be measured/projected and included in
+         internal-to-DBS reporting so we understand database performance
+         exclusive of TP monitor variability (ACMS and INTACT).
+
+         The end-to-end TPS metrics will be used for competitive positioning
+         since these are the most frequently used metrics by our competitors.
+
+         The use of the AVERTZ benchmark will be de-emphasized.   (We plan to
+         used a modified version of the MCC benchmark as our order entry
+         benchmark in lieu of AVERTZ). Other metrics or benchmarks may be used
+         by developers but not in lieu of the standard DBS metrics.
+$/Performance Metrics
+
+
+A. Dollar and Product Terms:
+
+"COST"         - Cost implies DEC manufacturing cost (transfer cost).
+"PRICE"        - Price implies DEC (Maynard) list price.
+"COO"          - Cost-of-ownership (COO) is the estimated 5 year customer
+                 cost to purchase and maintain a set of products, which
+                 includes hardware/software maintenance and tax benefits
+                 from depreciation, but excludes related expenses, such as,
+                 computer room and computer operator expenses. For COO,
+                 list purchase and maintenance prices are used; and these
+                 with the (tax) assumptions are feed into a model which
+                 computes COO.
+"HOST"           - For layered products, Host system is defined as CPU and
+                   memory. For servers (including DBM's), host cost is
+                   defined as the server with memory and a "matched" CPU with
+                   memory. These HOST definitions exclude the I/O system
+                   (storage interconnects, storages controllers and storage
+                   devices). Note: "Matched" means the lowest cost CPU with
+                   adequate performance to drive the Server at the Server's
+                   TPS rate.
+
+"B/E SYSTEM"     - Back-end (B/E) system is defined as the "Host" (above)
+                   plus a complete storage system to achieve a referenced
+                   TPS rate and database size. This includes controllers,
+                   disks and backup devices (tape or optical), I/O inter­
+                   connects (e.g. CI) plus any options (e.g. silicon disk)
+                   necessary to achieve a referenced TPS rate.
+
+
+B. $/TPS Terms
+In general, the preferred $/TPS metrics are those that include the cost or
+price for the complete back-end (B/E) system, that is the host system and
+the I/O storage system. COO/TPS for the B/E system is the most important
+$/TPS metric and will be exclusively used in corporate reports, such as the
+LRP starting in FY88.
+For (internal to DBS) comparative analysis of products (e.g. comparison
+on RDB on ***** vs RDB on ******), Host Cost/TPS is preferred since it
+excludes (different) mark-up assumptions on the hardware and costs which
+are a wash (e.g. storage).
+Below are listed the alternative $/TPS metrics. Note: The dots following
+Host or B/E System indicate that the three terms describing the TPS should
+be included (e.g. Host System, D/C, End-to-end, Qualified).
+
+Price/TPS (Host System,
+Cost/TPS (Host System,
+COO/TPS (Host System,
+Price/TPS (B/E Sytem,............... )
+Cost/TPS (B/E System,                )
+COO/TPS (B/E System,                 )     <--   DBS Standard $/TPS Metric.
+
+Note: The TPS definition for COO/TPS standard term is (B/E system, D/C,
+End-to-end, Qualified).
+ I. Database Size Metrics
+
+
+   A. Database Size Terms:
+
+
+   "NET DATABASE SIZE"       - The amount of uncompressed user data stored in a
+                               database (excludes metadata, overhead, and allo­
+                               cated free space). This term is frequently used
+                               by customers "....I have a million records that
+                               are 100 bytes long."
+   "GROSS DATABASE SIZE"     - The size of a database including metadata, overhead
+                               and allocated free space; in other words, the
+                               physical amount of storage capacity required to
+                               contain the database.
+    "QUALIFIED DATABASE"     - The gross or net database size which is compliant
+                               with a referenced benchmark. For example, in the
+                               Debit/Credit benchmark, there are specified data­
+                               base sizes corresponding to TPS rates.  If disk
+                               space is not available to run tests against a
+                               qualified database then extrapolation may be used.
+    "MAX DATABASE SIZE"      - The maximum gross database size which can be
+                               supported by a given database and host system
+                               (or server) combination. The limit will generally
+                               be disk connectivity.
+
+    "MAX RECOMMENDED         - The maximum gross database size that Digital
+     DATABASE SIZE"            recommends for a given database and host system
+                               (or server) combination. Note: This application
+                               dependent term is for marketing purposes and may
+                               not be useful due to to application and customer
+                               requirement variability. Product mgt should
+                               consider the use and definition of this term.
+
+
+B. Guidelines:
+
+   1. The DBS Standard Database metric is "Qualified Database", and should be
+      used in corporate reporting, such as LRP. Use of gross or net database
+      size depends on the benchmark specification.
+
+   2. The other DBS metrics can be used for other purposes but please refrain
+      from using the term database without one of the above qualifiers.
+
+
+
+IV. Database Back-up Metrics
+
+
+    A. "OFFLINE BACK-UP:    - This refers to the maximum back-up data rate that
+        GROSS MB's/SEC"       can be sustained (over the time to fill a single
+                              back-up medium, i.e. 6250 BPI tape, by a database
+                              system using the fastest available disks and back­
+                              up devices) running offline. The term should be
+                              followed by the minimum disk/back-up device
+                              combination necessary to achieve the back-up rate,
+                              for example, "X" MB per second ("n" RA90 & "m"
+                              TA81).  "Gross" implies that the data rate includes
+                              both user data and overhead (e.g. metadata). This
+                              will be the standard DBS back-up metric.
+                               nline measurements provides more useful information
+                              out are more difficult to standardize. Online
+                              testing is the prerogative of the developer, but
+                              not in lieu of offline testing as defined above.
+V.   Technology Metrics
+
+
+     A. TPS/CPU Horsepower
+
+       We currently use TPS/MIP and TPS/VUP. We will standardize on TPS/VUP,
+       since VUP (not MIP) is the term generally used by the system engineering
+       groups and in the customer literature. TPS/VUP should be included in
+       corporate reporting as one of our key technology metrics.
+
+        However, in comparisons with the competition, we need to switch gears,
+        and use TPS/MIP. A standard conversion (1MIP = 1 VUP hopefully, but I'm
+        not sure its this simple) formula will be provided in a subsequent
+        edition of this memo.
+
+        Product management will maintain a chart of the net VUP's ratings for
+        present and future systems (this responsibility will be transferred to
+        the DBS Performance Group Manager). The first edition of this chart
+        will be available June 1, and should thereafter be used as the only basis
+        for computing TPS/VUP.
+
+
+     B. I/O Metric
+
+        Until a better I/O metric is defined, we will use physical I/O's per
+        transaction (e.g. Debit/Credit) as a second yardstick of database
+        technology. However, since some developers believe that fewer I/O's
+        per transaction does not necessarily translate to improved performance,
+        use of this metric is at the discretion of the developers. A more
+        precise definition(s) of this metric will be provided in a later version
+        of this memo.
+
+     C. Guidelines:
+        Starting in FY88, (D/C) TPS/VUP should be included in the goals/reporting
+        for all run-time system and server projects, and I/O's per transaction
+        can also be included.
+
+
+VI. Other Metrics
+      The purpose of this section is to take note of metrics which will be
+      considered for subsequent versions of this memo:
+
+      1. Time to recover from failures.
+
+      2. Time to loan/unload databases.
+
+      3. Performance measurements using shadowed disk volumes.
+
+
+VII. Summary and Charts
+
+     The objective is to begin using these metrics immediately, and to use the
+     DBS standard metrics for stating the project goals in the FY88 Beige Book
+     (published in July, 1987), and subsequent corporate reports.
+
+     DBS Standard Metric:
+       TPS (D/C, End-To-End, Qualified)
+    TPS (D/C, End-To-End, Peak)
+
+
+    Back-up: Gross MB's/Second
+    TPS (D/C, End-To-End, Qualified)/vup
+
+  until^the Perform^       n Set Of summayy Charts for both ZKO and CXO projects,
+  oraanizatinn ha ance Group Manager is on-board, so that everyone in the DBS
+     9*nization has access to a single set of goals for all of our run-time
+  system
+  rarrnoct- and
+             a server  projects. tJim will define the format of the Chart(s) and
+                server projects.
+  request assistance from the CXO development teams to complete them.
+
+  >>>Hypothetical, sample<<< charts follow;
+
+
+PERFORMANCE METRICS:
+
+                                QUALIFIED      PEAK    COO/       TPS/           I/O's/
+VERSION   SYSTEM    BENCHMARK      TPS         TPS     TPS        VUP         Transaction
+RDB:
+ V2.3      8600       D/C           4           6      $90K       1.7              7
+ V2.3      8800       D/C          10          15      $73K       1.9              6
+
+
+
+DATABASE METRICS:
+
+                                   QUALIFIED             MAXIMUM                 Back-up
+VERSION   SYSTEM    BENCHMARK    DATABASE SIZE        DATABASE SIZE              MB's/sec
+
+RDB:
+ V2.3      8600       D/C               1 GB              20 GB                    .5
+ V2.3      8800       D/C               3 GB              20 GB                    .6
+
+
+
+
+Note 461.6                      TP1 Benchmark ?                                     6 of 6
+SQM::HAMMOND "Charlie Hammond — ZKO2-02/K29 — dtn" 13 lines              21-DEC-1987 16:19
+
+
+.-1 suggest that TP1 (a.k.a. Debit-Credit, Gray) is a database performance
+benchmark.  It is not. TP1 excercises only a minor subset of the capabilities
+required in a full database management system.
+TP1 is, to quote the title of the article that first publicly described it
+"A Measure of Transaction Processing Power".  In other words, its a
+TRANSACTION PROCESSING BENCHMARK.
+I fear that people who rely on TP1 to choose there database management
+system will find that they nead functionality which TP1 does NOT measure
+and which the dbms they chose doesn't implement well.
+
+    — of course DEC dbms's do everything will, so perhaps this is mute?...
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | dec-notes-tp1-debit-credit-thread-1987-1-5815dc |
+| title | DEC RDB NOTES File Thread: TP1/Debit-Credit Benchmark Discussion (Dec 1987) |
+| author | Multiple DEC engineers (Saghagen, Rowlands, Mascall, Hammond, Kittell, Smith) |
+| date | 1987-12-09 |
+| type | internal-discussion-thread |
+| subject_domain | OLTP-benchmark-methodology-and-DBS-metrics |
+| methodology | internal-engineering-NOTES-thread |
+| source_file | DECtp-debit-credit-thoughts-1987-RDB-4.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Internal DEC VAX Rdb/VMS NOTES file thread (Note 461) on the TP1 / Debit-Credit benchmark, captured December 1987. Thread initiated by Arild Saghagen (OSL09::ARILDS, Office & Infosystem Marketing) seeking RDB performance data for a finance-company sale where DEC and Wang were the final vendors and the customer asked about TP1 transaction rates against a 2x8550 cluster. Replies clarify TP1 = Debit-Credit = Gray benchmark (Rob Rowlands, BISTRO::ROWLANDS), point to internal Valbonne report TP_REPORT23.LN03 (HERON), warn that the spec leaves scope for 'artistic interpretation' (Tony Mascall, GYPSC::MASCALL). Charlie Hammond (SQM::HAMMOND, ZKO2-02) explains that TP1, Debit-Credit and Gray are all the same benchmark, lists ambiguities (95th/1-sec vs 2-sec, back-end vs terminal response, partitioning tricks). Richard Kittell (COOKIE::KITTELL, Database A/D) draws an analogy between unspecified TPS ratings and unspecified stereo frequency response — and forwards an April 1987 standardization draft by Kevin Smith (COOKIE::KSMITH) defining DBS Standard Metrics for FY87 and FY88: TPS (D/C, BATCH/END-TO-END, QUALIFIED/PEAK), $/TPS metrics (Host vs B/E System, Cost vs Price vs COO), database size metrics, and back-up rate metrics. Notes Rudy Downs hired as DBS Performance Manager. Document contemporaneous with the Kohler/Hsu Debit-Credit Guidelines memo and shows DEC's broader DBS group converging on standardized benchmark metrics — 8 months before TPC was founded.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Captures the field-engineering and database-marketing debate over Debit-Credit interpretation at DEC in late 1987. Documents TP1 = Debit-Credit = Gray synonymy, naming conventions, and the explicit DEC concern about competitive benchmark abuse. Less foundational than the Kohler/Hsu guidelines memo (Study 1) but illustrates the broader cultural shift to formal metrics. |
+| **Relevance** | medium | Kastner not named in this thread, but the discussion is the OLTP/DBS performance discourse he participated in as HPS::KASTNER. Provides voices from Database A/D (Kittell), DBS leadership (Smith), and field marketing (Saghagen, Rowlands, Mascall, Hammond) — the customer-facing context for the engineering work captured in the Kohler/Hsu guidelines. |
+| **Prescience** | medium | Kittell's stereo-spec analogy ('unqualified TPS specs are worthless') exactly anticipates TPC's audit-and-disclosure requirement. The push for QUALIFIED metrics with explicit response-time, database size, and cost qualifiers anticipates TPC-A's full disclosure report. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (12)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998), then HP (2002) |
+| Tandem Computers | company | acquired | Compaq (1997), then HP (2002) |
+| Peter S. Kastner | person | active |  |
+| Arild Saghagen | person | active |  |
+| Rob Rowlands | person | active |  |
+| Tony Mascall | person | active |  |
+| Charlie Hammond | person | active |  |
+| Richard S. Kittell | person | active |  |
+| Kevin J. Smith | person | active |  |
+| Rudy Downs | person | active |  |
+| Jim Gray | person | deceased-2007 |  |
+| Wang Laboratories | company | bankrupt-1992 | Acquired piecemeal |
+
+### Technologies Referenced (4)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Debit-Credit Benchmark | performance-benchmark | Anon-et-al / Tandem / Datamation | industry-defacto-standard | superseded-by-TPC-A-and-TPC-C |
+| VAX Rdb/VMS | relational-DBMS | Digital Equipment Corporation | active-product | Oracle-Rdb-after-1994-sale |
+| VAX 8550 | minicomputer | Digital Equipment Corporation | production-shipping | discontinued |
+| DEC DBS TPS Metrics Standard | metrics-framework | Digital Equipment Corporation | internal-standard | obsolete-superseded-by-TPC |
+
+### Observation Summary
+
+- Total observations: 11
+- By type: benchmark_aliasing: 1, spec_ambiguity_warning: 1, dbs_standardization: 1, competitive_metric_choice: 1, hiring_dbs_perf: 1, competitive_pressure_wang: 1, benchmark_origin: 1, kittell_analogy: 1, tps_definition_format: 1, backup_metric_intro: 1, io_per_transaction: 1

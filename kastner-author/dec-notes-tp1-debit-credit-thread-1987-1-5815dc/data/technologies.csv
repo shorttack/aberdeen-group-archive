@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"debit-credit-benchmark","Debit-Credit Benchmark","performance-benchmark","Anon-et-al / Tandem / Datamation","1985-1989","industry-defacto-standard","superseded-by-TPC-A-and-TPC-C","dec-notes-tp1-debit-credit-thread-1987-1-5815dc","Aliases: TP1, Gray benchmark; DEC NOTES thread confirms synonymy"
+"vax-rdb","VAX Rdb/VMS","relational-DBMS","Digital Equipment Corporation","1984-1994","active-product","Oracle-Rdb-after-1994-sale","dec-notes-tp1-debit-credit-thread-1987-1-5815dc","Subject of NOTES file thread; performance benchmark discussion"
+"vax-8550","VAX 8550","minicomputer","Digital Equipment Corporation","1986-1990","production-shipping","discontinued","dec-notes-tp1-debit-credit-thread-1987-1-5815dc","Mid-range VAX; 2x cluster proposed for finance-company sale"
+"dbs-tps-metrics","DEC DBS TPS Metrics Standard","metrics-framework","Digital Equipment Corporation","1987-1990","internal-standard","obsolete-superseded-by-TPC","dec-notes-tp1-debit-credit-thread-1987-1-5815dc","Smith's April 1987 framework: TPS (D/C, batch/end-to-end, qualified/peak)"

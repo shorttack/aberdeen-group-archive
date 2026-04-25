@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ramp-c-benchmark","RAMP-C","performance-benchmark","IBM Corporation","1980s-1990s","vendor-proprietary","obsolete","wsj-digital-challenges-ibm-tests-bulkele-e2e227","IBM commercial benchmark; Bulkeley story focal point"
+"ibm-as400","IBM AS/400 (Silverlake)","midrange-computer","IBM Corporation","1988-2000","imminent-launch","renamed-iSeries-then-Power-Systems-IBM-i","wsj-digital-challenges-ibm-tests-bulkele-e2e227","IBM's midrange platform announced June 1988; subject of WSJ piece"
+"vax-architecture","VAX architecture","computer-architecture","Digital Equipment Corporation","1977-2005","production-shipping","discontinued-superseded-by-Alpha-then-Itanium","wsj-digital-challenges-ibm-tests-bulkele-e2e227","DEC's 32-bit minicomputer architecture"
+"mips","MIPS (Millions of Instructions per Second)","performance-metric","Industry","1970s-2000s","industry-marketing-metric","deprecated-as-meaningless","wsj-digital-challenges-ibm-tests-bulkele-e2e227","Bulkeley quotes 'meaningless indicators of performance' for MIPS"

@@ -1,0 +1,45 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+statistical-analysis,methodology,Statistical Analysis,Quantitative data analysis with statistical methods
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+benchmark_decomposition,observation_type,Benchmark_Decomposition,Study-specific code: benchmark_decomposition
+internal-DEC-memo,methodology,Internal Dec Memo,Study-specific code: internal-DEC-memo
+response_time_spec,observation_type,Response_Time_Spec,Study-specific code: response_time_spec
+spec-quotation,methodology,Spec Quotation,Study-specific code: spec-quotation
+distribution_list,observation_type,Distribution_List,Study-specific code: distribution_list
+distribution-list,methodology,Distribution List,Study-specific code: distribution-list
+memo_classification,observation_type,Memo_Classification,Study-specific code: memo_classification
+document-header,methodology,Document Header,Study-specific code: document-header
+authorship,observation_type,Authorship,Study-specific code: authorship
+byline,methodology,Byline,Study-specific code: byline
+authorship_2,observation_type,Authorship_2,Study-specific code: authorship_2
+benchmark_lineage,observation_type,Benchmark_Lineage,Study-specific code: benchmark_lineage
+literature-citation,methodology,Literature Citation,Study-specific code: literature-citation
+tpc_anticipation,observation_type,Tpc_Anticipation,Study-specific code: tpc_anticipation
+historical-context,methodology,Historical Context,Study-specific code: historical-context
+config_3_topology,observation_type,Config_3_Topology,Study-specific code: config_3_topology
+engineering-diagram,methodology,Engineering Diagram,Study-specific code: engineering-diagram
+vaxcluster_lock_constraint,observation_type,Vaxcluster_Lock_Constraint,Study-specific code: vaxcluster_lock_constraint
+engineering-discussion,methodology,Engineering Discussion,Study-specific code: engineering-discussion
+rdb_role,observation_type,Rdb_Role,Study-specific code: rdb_role
+spec-discussion,methodology,Spec Discussion,Study-specific code: spec-discussion

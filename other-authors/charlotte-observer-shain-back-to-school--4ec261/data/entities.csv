@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","charlotte-observer-shain-back-to-school--4ec261","Aberdeen Group co-founder, VP/EVP/CRO; prior: PHI, Wang, ADL, Prime, Stratus, DEC"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2007); Spiceworks Ziff Davis","1988-present","charlotte-observer-shain-back-to-school--4ec261","Boston-based IT research firm"
+"charlotte-observer","The Charlotte Observer","publication","newspaper","active","","1886-present","charlotte-observer-shain-back-to-school--4ec261","Charlotte NC daily; ran 2002-08-01 Andrew Shain back-to-school PC piece"
+"pc-world-magazine","PC World magazine","publication","magazine","active","Online only after 2013","1983-present","charlotte-observer-shain-back-to-school--4ec261","PC-buying advice magazine; Harry McCracken editor cited 2002 Charlotte Observer"
+"intel-corporation","Intel Corporation","company","semiconductor","active","","1968-present","charlotte-observer-shain-back-to-school--4ec261","x86 CPU industry leader"
+"apple-computer","Apple Computer","company","computer-and-consumer","active","Apple Inc. (renamed 2007)","1976-present","charlotte-observer-shain-back-to-school--4ec261","Macintosh maker; cited as desktop client platform"
+"microsoft-corp","Microsoft Corporation","company","software","active","","1975-present","charlotte-observer-shain-back-to-school--4ec261","Cited via Office vs. Works productivity in 2002 Charlotte Observer piece"

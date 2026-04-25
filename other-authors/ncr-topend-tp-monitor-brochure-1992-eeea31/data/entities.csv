@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ncr-corporation","NCR Corporation","company","retail-and-financial-systems","active","Spun out of AT&T 1996; later split NCR/NCR Voyix 2023","1884-present","ncr-topend-tp-monitor-brochure-1992-eeea31","Retail/banking systems; pioneered Teradata DW after acquisition"
+"att-corp","AT&T Corporation","company","telecommunications-and-systems","split","Multiple divestitures; AT&T Inc. is now SBC-based","1885-present","ncr-topend-tp-monitor-brochure-1992-eeea31","Owner of NCR 1991-1996 (Global Information Solutions)"
+"ibm","IBM Corporation","company","computer-systems","active","","1911-present","ncr-topend-tp-monitor-brochure-1992-eeea31","Major mainframe and server vendor"

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"consumer-pc-buying-2002","2002 Consumer PC Buying Decision Framework","consumer-purchasing-pattern","industry","early-2000s","current-2002","displaced-by-mobile-and-chromebooks","charlotte-observer-shain-back-to-school--4ec261","Desktop vs laptop, OEM vs upgrade, Microsoft vs Apple"
+"celeron-128mb-baseline","Celeron / 128 MB RAM Desktop Baseline ($900)","computer-system-class","Intel/PC OEMs","early-2000s","current-2002","obsolete","charlotte-observer-shain-back-to-school--4ec261","McCracken baseline 'good enough for word processing and Web surfing'"
+"cd-rw-upgrade","CD-RW Drive Upgrade","computer-peripheral","industry","late-1990s-2000s","current-2002","obsolete","charlotte-observer-shain-back-to-school--4ec261","Recommended replacement for plain CD player"
+"home-wireless-network-2002","Home Wireless Networking (Multi-PC)","networking-architecture","industry","early-2000s","early-mainstream-2002","ubiquitous","charlotte-observer-shain-back-to-school--4ec261","Recommended for multi-PC households"
+"apple-consumer-desktop","Apple Consumer Desktops/Laptops 2002","computer-system-line","Apple","early-2000s","current-2002","evolved","charlotte-observer-shain-back-to-school--4ec261","$750+ desktops; $1,300+ laptops; small but premium consumer PC share"

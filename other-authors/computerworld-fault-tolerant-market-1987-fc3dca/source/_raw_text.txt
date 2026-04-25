@@ -1,0 +1,67 @@
+
+===== OLTP-market-size-CW-1987-03-6.txt =====
+ Fault-tolerant market
+ t o hit $ 2 billion in.’§7»
+The 'fault-tolerant market con- $1 billion this year, climbing to.              •
+'tinues to bea two-man fight'• _$L2bHhon by1990^7                         •••'.
+ Both•' Marlboro, Mass.-based f- . ‘There are two big develop/?. i >
+BtratusJZomputer, Inc. and Cu- meats now underway jn'the.r-;/
+_pertino,' Calif.-based -Tandem: fault-tolerant market,’’ says’Van ’/ ;
+-Computers, Inc. have been spar- ' Weathers, a director at Data-
+ ring for some time to dominate 'quest Inc. in San lose/X^afiL.'"' '
+ the market, with IBM on the'- /The first is expansion of target
+ edge swinging but unable to land markets, which is bringing in -
+ asolidpunch.          \           . some new vendars^and the sec-; J
+* . Thefault-tolCTiitarenaisgo^-: ond is the pressure being placed
+ ing to get a little more crowded.on the price/performance ratio;.
+The traditional make-or-break "? It’s pushing the costs of transact T; 'T
+ markets, such as the banking and - tions per seconddown.7u-
+ airline businesses,are now being r; Expanding .markets, Weatto,/^./
+ joined by other industries eager ers says, are exemplified by such /•/.-?
+ forthe extra security of fault-tok new fault-tolerant .frontiers, as.
+-erant -aystrny;,- which, in their'' POS and telecommunications-
+ base makeup,- contain proces-'           ‘'{Illinois Bell] isinjthe pro-/ !■<
+ sors working in parallel that con- cess of developing' a >system ’ 7j -■
+ tinue to' operate, after compo-’ called Networker,.which mom-.’^;/
+ nentfailures. ■            '•' :'i'- tors telephone 'network* tone-.;
+     4*We are predicting the [U.S?]'' tions, picks up operator-referred
+ fault-tolerant market -will reach trouble reports, analyzes them • ■            :
+ $2 billion in 1987 and grow 40% ' and tries to pinpoint the prob;/1^ -
+ to’50% each year until 1990,/’,.. lemsr”. explains.-Rich                   ?/•
+ claims/Pete Kastner, manager of' manager of corporate networks
+ marketing development at Stra-’.-' and software support at Illinois. ' -f
+"tus. ‘Tinanaal services, the bro- Bell ,in ChicagdrAThe cnre of 7. j
+ kerage business," point of sale ■'_Networker is a [ParalleKcm- • •
+ [POS] and shop floor applications puters Co.] fault-tolerant system? : >
+ are exploding witinn business.’.;.'*" with built-in battery.backnp. Wd -
+    -But International .Resource/ can’thavethesystemgbdown. ’;                  .
+Development, Inc., headquar-'^ 'Wilierexplainsthattelephohe
+ tcredmNorwalk,Conn., sounds--companies have always, out of. 7' .'
+ a more'cautious note, pegging necessity, had fault tolerance but
+ the UB. fault-tolerant market at /                Continued an page 24^'
+
+RWORLD                                                                          FOCUS ,13
+                                                                            NEWS & ANALYSIS
+
+
+
+Fault tolerant
+Continuedfrom page 13
+                                   tolerance. Increased competi­
+                                   tion is changing that," Wilier
+                                   says.
+                                                                       cry from the top-of-the-line Stra­
+                                                                       tus and Tandem computer sys­
+                                                                       tems that can cost more than $1
+                                                                                                            based Parallel Computers is tar­
+                                                                                                            geting its Unix-based systems at
+                                                                                                            the telecom market as well as
+                                       NCR Corp, has pushed fault      million.                             niche applications such as law
+not support systems such as        tolerance into its bread-and-but­      Tandem, however, has re­          enforcement agenaes. New en­
+Networker built into their         ter market. POS systems. At the     cently introduced a series of low-   trant Tolerant Systems, Inc. of
+switching,systems. "Until now,      same time, NCR is helping push     cost systems of its own, featur­     San Jose is ambitiously aiming its
+our support systems really          the price curve down further       ing an expandable number of          low-cost systems at banking,
+haven't had the transaction vol­   with a series of low-cost, fault-   processors.                          telecommunications, manufac­
+umes, and we only needed to         tolerant POS systems in the           Larger markets mean bigger        turing and the federal govern­
+have high availability not fault    $25,000 to $45,000 range, a far    competition. Santa Cruz, Calif.­     ment — SK
+

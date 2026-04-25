@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NCR TopEND Transaction Processing Monitor Brochure (1992)",
+  "description": "NCR Corporation 1992 product brochure for TopEND, the NCR open transaction-processing monitor for distributed Open OLTP environments. TopEND is positioned as supporting full ACID semantics (Atomicity, Consistency, Isolation, Durability) and as compliant with the major open-systems standards stacks of the era \u2014 X/Open DTP (XA), POSIX, OSI communications, and OSF DCE. The brochure also emphasizes CICS interoperability as a migration bridge for enterprises moving from IBM mainframe TP to Unix-based distributed Open OLTP. TopEND is the implicit TP monitor referenced in Aberdeen's Open OLTP for Enterprise Managers white paper (Korean translation, study 3fc536) and in the 1992-09 NCR Norge AS Open OLTP/RDBMS mini-seminar (study 7f5414, where TopEND is named in lecture topics).",
+  "creator": {
+    "@type": "Person",
+    "name": "NCR Corporation (vendor product brochure)"
+  },
+  "datePublished": "1992",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

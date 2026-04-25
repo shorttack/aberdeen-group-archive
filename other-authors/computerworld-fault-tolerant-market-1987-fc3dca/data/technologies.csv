@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"fault-tolerant-computing-market","U.S. Fault-Tolerant Computing Market","market-segment","industry","1980s-1990s","early-commercial","subsumed-into-HA-clusters","computerworld-fault-tolerant-market-1987-fc3dca","Subject of CW article; $2B est for 1987 per Stratus/Kastner"
+"low-cost-fault-tolerant-pos","Low-Cost Fault-Tolerant POS Systems","computer-system","NCR","1986-1990s","current-1987","obsolete","computerworld-fault-tolerant-market-1987-fc3dca","$25K-$45K NCR systems pushing the price curve down"
+"networker-illinois-bell","Illinois Bell Networker","telecom-monitoring-system","Parallel Computers Co.","1986-1990s","current-1987","obsolete","computerworld-fault-tolerant-market-1987-fc3dca","Telephone-network trouble-monitoring system on a Parallel Computers FT base"
+"unix-fault-tolerant-systems","Unix-Based Fault-Tolerant Systems","computer-architecture","Parallel Computers Co.","1985-1990s","early-commercial","subsumed-into-HA-clusters","computerworld-fault-tolerant-market-1987-fc3dca","Targeted at telecom and niche markets like law enforcement"

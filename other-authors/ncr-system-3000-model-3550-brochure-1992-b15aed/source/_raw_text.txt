@@ -1,0 +1,412 @@
+
+===== NCR-System-3000-1992-brochure-3.txt =====
+       Model 3550
+
+
+
+
+       NCR
+       System
+K1@E   3000
+
+
+
+
+       Open,
+       Cooperative
+       Computing.
+       The Strategy
+       for Managing
+       Change.
+                    Today, open information processing systems provide unique op­
+
+                    portunities for your business to increase its competitive edge.
+
+                    Through transparent communication links between people and
+
+                    information, your business can provide efficient service while at
+
+                    the same time cutting costs and facilitating better day-to-day
+
+                    decisions.
+
+
+                    NCR System 3000 is designed to offer the broadest range of open,
+NCR System 3000 can help you
+                    scalable systems in the computer industry today. From
+manage changes in technology
+                    uniprocessor to multiprocessor systems and from tightly-coupled to
+as well as end-user and
+                    loosely-coupled architectures, the NCR System 3000 product
+organizational needs. A line of
+                    strategy helps you economically match system performance to
+scalable systems lets you add
+                    current business needs. What's more, with any system you choose,
+processing power in increments,
+                   you have the flexibility to adapt and expand it as your needs
+with minimal cost and disruption.
+                    evolve.
+
+
+                    The NCR 3550 is the most powerful tightly-coupled system in the
+
+                    System 3000family. Designed to deliver several times the perfor­
+
+                    mance traditionally found in mainframe computers, for less cost,
+
+                    the NCR 3550 lets you incorporate an open system as the corner­
+
+                    stone ofyour enterprise information source.
+
+
+                    Combining industry standard I/O components with NCR's dual
+
+                    system bus architecture, the NCR 3550 draws upon the research
+
+                    and development investment of the entire computer industry.
+
+                    NCR's goal? To deliver an affordable, high performance, reliable,
+
+                    scalable system.
+                                          Dual Bus Architecture                  Dual-Ported, Four-Way
+                                                                                 Interleaved Memory
+                                          The key to this tightly-coupled
+                                          system is NCR’s highly advanced,       The system’s memory design
+                                          dual processor-to-memory bus           distributes all memory addresses
+                                          design. With two 64-bit buses          equally across as many as four
+                                          operating at 25MHz, this system        memory interleaves. With dual­
+                                          provides peak throughput of 200        ported, four-way interleaved
+                                          Megabytes (MB) per second per          memory, the NCR 3550 can have
+                                          bus, for a total of 400MB per          two processors, each accessing up
+                                          second. Sustained throughput is        to four different memory locations
+                                          113MB per second per bus, with a       simultaneously.
+                                          total sustained throughput of
+ Performance                              226MB per second. The parallel         Directory-Based Cache Coherency
+ Fast information access is critical to   paths between the processors and       Maintaining cache coherency
+ meeting your enterprise application      the memory help decrease bus           between multiple processors always
+ needs. To meet this demand, the          contention because the processors      requires some overhead. This
+NCR 3550 combines several key             are divided across the two buses.      overhead is inc> rred as processors
+features to create a system capable                                              check the bus i. memo' location
+of processing over 250 transactions       Other designs using more proces­       addresses befo. .econci 1 ng the
+per second in Relational Database         sors may exceed the capacity of the    cache and men >ry with new data.
+Management System environ­                bus, leading to increased bus          With a “bus snooping” n uthod of
+ments. These features merge to            contention and degraded perfor­        insuring coheren cy, the processors
+form a system capable of support­         mance. The NCR 3550 is designed        check the bus periodically, whether
+ing your information processing           to give you full processing power by   or not another processor needs the
+strategy with advanced technology         minimizing bus contention.             memory location.
+and power.
+                                          This balance of bandwid± and
+                                          power gives you a system designed
+Tightly-Coupled Multiprocessing
+                                          to provide optimal performance.
+The NCR 3550 is a tightly-
+coupled, fully symmetric multipro­
+cessing system linking two to eight
+5OMHz Intel486™ processors,
+each operating at 40 MIPs for a
+total of 320 MIPs. Each processor
+in the symmetrical architecture is
+supported by 256K of cache, can
+perform any function, and can take
+full advantage of multiprocessing
+capabilities.
+
+The tighdy-coupled, symmetric
+architecture of the NCR 3550
+provides compatibility with System
+3000 uniprocessing applications;
+there is generally no need to modify
+applications to run on this multi­
+processing system.
+The NCR 3550, however, uses a          Micro Channel Architecture -           Storage Devices
+directory-based cache coherency        Enhanced bus as the architecture        Because the NCR 3550 has such a
+method designed to minimize this       for the multiprocessing members of      powerful, versatile I/O subsystem,
+overhead. This scheme uses a           the System 3000 family. This bus is     the system is designed to offer all of
+directory in memory to mark the        designed to offer the highest           the advantages that come with:
+status of a memory line. When a        performance of any commercially
+                                                                             ■ Multiple individual drives
+processor writes to cache, it also     accepted open system I/O bus. In
+changes the status of the memory'                                            ■ High-speed, 5400-RPiM hard disk
+                                       addition, the I/O bus supports data
+location. When another processor                                               devices
+                                       integrity and auto-configuration,
+needs the same memory location, it     requiring no strapping options.       ■ A distributed file system.
+checks the status of memory. If it’s
+                                       With an I/O rated bandwidth of 80      Drives
+not current, the logic in memory'
+accesses cache and retrieves the       MB/second, the iMicro Channel          The NCR 3550 supports up to
+new data to ensure its coherency.      Architecture-Enhanced bus pro­         twenty eight 5.25" full-height fixed
+As a result, overhead is only          vides support for all I/O devices,     drives and four full-height remov­
+incurred when one processor needs      including SCSI, LANs, WANs,            able media devices. Alternately,
+the same memory address written        and terminals. The NCR 3550 can        each bay may support two 3.5"
+/■■y another processor.                be configured to have two Micro        devices with removable bays
+                                       Channel Architecture-Enhanced          supporting dual half-height 5.25"
+ ■ Subsystem                           buses. Each Micro Channel              drives.
+                                       Architecture-Enhanced I/O bus has
+While superior processor perfor­                                              The NCR 3550 allows you to
+                                       access to both system buses and,
+mance is critical for a high perfor­                                          distribute data over a number of
+                                       like the memory’, is dual ported,
+mance system, the I/O subsystem                                               disks. This capability is designed to
+                                       thus providing equal access to all
+must be equally tuned. NCR                                                    decrease the effect of seek time and
+                                       CPUs. The NCR 3550 offers up to
+selected the industry standard                                                rotational latency, thus providing
+                                       16 Micro Channel Architecture-
+                                       Enhanced slots, giving room to         faster data access. This is achieved
+                                       grow and add functionality as          by simultaneously accessing
+                                       needed.                                multiple pieces of data from the
+                                                                              same file system.
+                                       The NCR 3550 design also in­
+                                       cludes up to eight Dual Channel        High-Speed Devices
+                                       SCSI Controllers providing two         To maximize the performance of
+                                       SCSI channels each, for a total of     the large number of drives and
+                                       16 SCSI channels for the system.       channels available, the NCR 3550
+                                       Supporting SCSI II protocols, each     supports 5400-RPM devices that
+                                       channel can connect up to seven        help reduce disk rotational delay.
+                                       storage devices.                       As a result, the transfer rate
+                                                                              increases because the disk moves
+                                                                              faster under the heads.
+
+                                                                              Distributed File System
+                                                                              Balancing the I/O load ensures that
+                                                                              you get the most efficient perfor­
+                                                                              mance from your system devices.
+                                                                              The NCR 3550’s distributed file
+                                                                              system works to ensure that all
+                                                                              storage devices are used equally to
+                                                                              maintain an efficient level of
+                                                                              storage and retrieval.
+ NCR UNIX System V Release 4
+ Operating System
+ The NCR UNIX System V Release
+ 4 (SVR4) operating system is
+ designed to offer a significant
+ competitive edge. This operating
+ system scales the entire System
+ 3000 family taking full advantage of
+ both uniprocessor and multiproces­
+ sor hardware designs. The NCR
+ UNIX System V Release 4 operat­
+ing system is a fully symmetrical
+implementation for multiprocessing
+systems such as the NCR 3550.
+This allows any processor to
+execute any combination of kernel
+and user processes or I/O requests,
+virtually eliminating potential
+software bottlenecks. In addition,
+the kernel is multi-threaded,
+meaning that multiple parts of it
+can be executed in parallel.
+
+Based on requirements defined by
+UNIX International, SVR4 com­
+bines the functionality of UNIX
+System V, BSD and XENIX' and             Availability                           NCR has included in the NCR
+complies with major standards,           In addition to superior perfor­        3550 such features as error detec­
+including POSIX, XPG3, FIPS              mance, the NCR 3550 is built to        tion and correction, fault-tolerant
+ 151-1, ANSI C, iABI and iBCS-2          provide the system availability        features in critical areas and on-line
+to ensure interoperability. In           critical for enterprise applications   service, further contributing to
+addition, internal interfaces, such      and mainframe-class processing.        system availability.
+as device drivers and STREAMS            Implementing high-availability
+modules, w'hich support multipro­                                               To help ensure high reliability,
+                                         features on top of a reliable hard­
+cessing capabilities, as well as user-   ware platform, NCR presents a          NCR strives to use only the highest
+visible Application Programming          system that is designed to meet the
+                                                                                quality components, conducts
+Interfaces (APIs), are supported.                                               extensive system design simulations
+                                         levels of availability' required by
+                                         enterprise applications, without
+                                                                                and requires stringent system
+Another outstanding feature of the                                              testing, including environmental
+                                         redundant components which
+NCR operating system is asynchro­                                               conditions tolerance testing.
+                                         duplicate work. NCR calls this
+nous I/O. By permitting applica­         concept “fault resilient”.
+tions to initiate I/O requests and                                              These characteristics are aimed at
+continue processing while the I/O                                               helping the NCR 3550 achieve a
+request completes, this operating                                               level of system availability and
+system allows applications to                                                   reliability that approaches that of
+overlap I/O requests, helping to                                                fault-tolerant systems but at a
+improve system throughput.                                                      much lower cost.
+Error Detection and Correction          Redundant Arrays of                     two disks “mirror” each other. As a
+To detect, isolate and correct any      Inexpensive Disks                       result, loss of a disk does not mean
+system faults that may occur, the       Disk mirroring requires that for        the loss of data.
+NCR 3550 incorporates a dedi­           each disk, there is a back-up disk.
+                                                                                SCSI Controller Redundancy
+cated Diagnostic Processor, Built-      While this method offers a high
+in Self Test and Boundary Scan,         level of data protection, RAIDs are     To help protect the data flow from
+and Error Check and Correct Logic       an alternate and generally a more       media devices to system memory,
+on system memory. Contributing          cost effective method.                  the NCR 3550 offers SCSI control­
+further to the ability to diagnose                                              ler redundancy. Because of this
+and correct system errors, the NCR      Disk arrays stripe the data files       available controller backup, if one
+3550 includes parity on data and        across multiple disk drives while       controller fails, the system can
+addresses on system, Micro Chan­        generating and storing parity’          continue meeting your business
+nel Architecture-Enhanced and           information on these files. This        needs.
+SCSI buses.                             parity information typically requires
+                                        only 25% additional storage space,      On-Line Service
+Fault-Tolerant Features                 as compared to the 100% redun­          Hot pluggable drives allow system
+                                        dancy required for mirroring. If one    maintenance while the system is
+Lost or corrupted data means lost
+                                        disk fails, the array controller can    on-line, helping to save you valu­
+time and money. To help protect
+                                        reconstruct the data by utilizing the   able processing time. You can stay
+against such losses, the NCR 3550
+                                        parity' information along with the      operational while the disk is
+includes fault-tolerant features in
+                                        data stored on the remaining drives     replaced and you can keep the
+areas critical to maintaining data
+                                        in the array.                           system on-line to restore the data.
+integrity. Power Fail Recovery,
+Disk Mirroring, Redundant Arrays                                                In addition, the system console
+                                        Disk Mirroring
+of Inexpensive Disks (RAIDs) and                                                uses a series of menus to explain
+SCSI controller redundancy are          Some users prefer the assurance of      the repair procedure if you choose
+designed to provide this protection.    a one-to-one disk relationship for      to perform your own disk service.
+                                        near 100% protection. For these
+Power Fail Recovery                     users’ critical data protection         This same technology allows fans
+                                        needs, disk mirroring may provide       used to cool the system to be
+The NCR 3550 power-backup
+                                        the answer. Each time there is a        replaced while the system is
+system helps ensure data integrity
+                                        write to disk, a backup disk gets the   operational.
+in the event of intermittent or total
+                                        same information written to it—the
+power outages. This system
+protects against intermittent power
+losses by keeping the system
+running on battery power. In the
+event of a total power outage, the
+batteries will then retain the
+memory content intact until it can
+be transferred to disk. Once the
+power is restored, the system
+automatically loads the memory
+from the disk so you can continue
+processing.
+                                                                Processor Boards with Two 50MHz
+                                                                Intel486 Microprocessors Each
+        Top View
+                                                   Power Supply Interface               Memory Board
+
+                                                        Power Supplies                          Micro Channel Interface Chipset
+
+
+                                                                                                                  Local Peripheral
+                                                                                                                  Board for VGA
+                                                                                                                  Monitor, Mouse,
+                                                                                                                  Keyboard,
+                                                                                                                  Diagnostic
+                                                                                                                  Monitor and
+                                                                                                                  Parallel Printer
+
+                                                                                                                  Primary Micro
+                                                                                                                  Channel Slots (8)
+
+                                                                                                                  Internal SCSI Cables
+
+                                                                                                                  Hot Pluggable
+             Micro Channel Cable Access                                                                            75" Fans
+
+                                                                                                                    ? Full-Height or
+                                                                                                                   18 Half-Height
+                             Back View                                                                            Hot Pluggable
+                             Primary Side                                                                         Fixed Disks
+
+
+
+                                                                         Power Distribution Assembly
+Front View
+Optional Side
+                      Processor Boards with Two 50MHz      4 Full-Height or 8 Half-Height
+                      Intel486 Microprocessors Each        Removeable Devices                   Power/Standby Switch
+                    Memory Board                                                                                     Security Lock
+
+                                                                                                                    LEDs
+                                                                                                                      Power
+                                                                                                                      Status
+                                                                                                                      Battery
+
+Optional Micro -                                                                                                    4 Full-Height or
+Channel Slots (8)                                                                                                   8 Half-Height
+                                                                                                                    Removeable Devices
+Hot Pluggable —                                                                                                     Standard Devices
+6.75" Fans                                                                                                          Include:
+                                                                                                                    One 525 MB QIC Tape
+Up to 14                                                                                                            One 1.44 MB Flex Disk
+Full-Height or
+                                                                                                                    Optional Devices Include:
+28 Half-Height-
+                                                                                                                    600 MB CD-ROM
+Hot Pluggable
+                                                                                                                    1.3 GB Digital
+Fixed bisks
+                                                                                                                    Audio Tape
+
+
+
+
+                                                                                                                 Removable Media
+                               Power Back Up System Batteries                                                    Access Door
+  Scalability                              The NCR 3550 gives you a solid         Supporting the strategic Network
+  Clearly, the NCR 3550 is designed        growth path. Depending on your         File System Operating Environ­
+  to offer the superior performance        needs, you can begin with a two-       ment and LAN Manager for UNIX
+  and system availability needed in        processor system and, as demand        as offered throughout the System
+  the enterprise environment.              dictates, grow to an eight-processor   3000 family, the NCR 3550 allows
+  However, these qualities must be         system supporting up to 1024 users     software to migrate and scale the
+  accompanied by growth potential          — all within a single cabinet.         family. Clearly, the NCR 3550 is
+  to meet the future requirements of                                              designed to help you incrementally
+  a growing enterprise system. The         In addition to providing you with      and economically expand your
+  NCR 3550 rises to this challenge as      outstanding processing power,          system to coincide with your
+  well.                                    speed and reliability, this system     business’ progress.
+                                           gives you the means to match
+   System growth potential stems           memory, disk and other peripheral
+   from outstanding feature flexibility:   options to processor growth.
+ . 2 to 8 processors (80 to 320 MIPs)
+ . 32 to 512MB memory
+ c 8 or 16 Micro Channel Architec-
+   ■ ure-Enh. ed I/O slots
+I- 40MB t' 6GB internal disk
+     torage
+ „ Up to 100 3 external storage
+   capacity
+ .2 to 16 SCSI channels
+ . 1 to 4 Ethernet LAN channels
+ ■ 1 to 4 Token Ring connections
+ ■ 1 to 4 V. 3 5 WAN connections
+ . 1 to 8 RS-232 WAN connections
+Formula for Success
+
+ NCR System 3000 is built to offer
+ the broadest range of enterprise
+ systems in the industry’. As part of
+ the System 3000 family, the NCR
+ 3550 is designed to provide supe­
+rior reliability, high availability and
+system scalability to support your
+mission-critical enterprise applica­
+tions. We think you’ll agree the
+NCR 3550 meets today’s informa­
+tion processing demands and offers
+a clear, cost-effective direction for
+growth tomorrow.
+NCR Corporation continually improves products
+as new technologies and components become
+available. NCR Corporation, therefore, reserves
+the right to change specifications without prior
+notice.
+
+All features, functions and operations described
+herein may not be marketed by NCR in all parts of
+the world. Consult your NCR representative or
+NCR office for the latest information.
+
+Intel486 is a trademark of Intel Corporation
+Micro Channel is a registered trademark of
+International Business Machines Corporation.
+UNIX is a registered trademark of UNIX System
+Laboratories, Inc.
+XENIX is a registered trademark of Microsoft
+Corporation.
+

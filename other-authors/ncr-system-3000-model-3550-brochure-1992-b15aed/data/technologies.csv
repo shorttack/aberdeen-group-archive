@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ncr-system-3000-family","NCR System 3000 family","computer-system-family","NCR","1990-1995","current-1992","obsolete","ncr-system-3000-model-3550-brochure-1992-b15aed","Uniprocessor through tightly/loosely coupled multiprocessor scalable family"
+"ncr-3550","NCR Model 3550","computer-system","NCR","1992-1995","current-1992","obsolete","ncr-system-3000-model-3550-brochure-1992-b15aed","Top of System 3000 family; dual 64-bit bus, up to 8x Intel486 50MHz, 320 MIPS claim"
+"intel486-50mhz","Intel486 50 MHz CPU","microprocessor","Intel","1991-1995","current-1992","obsolete","ncr-system-3000-model-3550-brochure-1992-b15aed","Up to 8 used in NCR 3550 SMP; claimed 320 MIPS aggregate"
+"micro-channel-enhanced","Micro Channel Enhanced I/O","io-architecture","IBM/NCR","1990s","current-1992","obsolete","ncr-system-3000-model-3550-brochure-1992-b15aed","I/O architecture used in System 3000 family"
+"dual-64bit-system-bus","Dual 64-bit System Bus @ 25 MHz","system-bus","NCR","1992-1990s","current-1992","obsolete","ncr-system-3000-model-3550-brochure-1992-b15aed","200 MB/sec aggregate bandwidth in NCR 3550"
+"raid-storage-1992","RAID Storage Subsystem (NCR 1992)","storage-architecture","industry/NCR","1990s","current-1992","ubiquitous","ncr-system-3000-model-3550-brochure-1992-b15aed","Hot-pluggable disks; RAID levels supported by 3550"
+"unix-svr4","UNIX System V Release 4 (SVR4)","operating-system","AT&T USL","1989-1990s","current-1992","obsolete-as-svr4-mature-into-solaris-aix-hpux","ncr-system-3000-model-3550-brochure-1992-b15aed","OS used by NCR System 3000 family"

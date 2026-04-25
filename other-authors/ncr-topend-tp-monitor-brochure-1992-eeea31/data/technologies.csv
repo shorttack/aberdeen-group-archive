@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ncr-topend","NCR TopEND TP Monitor","transaction-processing-monitor","NCR","1991-mid-2000s","current-1992","obsolete","ncr-topend-tp-monitor-brochure-1992-eeea31","Subject of brochure; Open OLTP TP monitor"
+"acid-properties","ACID Transaction Properties","transaction-semantics","industry","1980s-present","current-1992","ubiquitous","ncr-topend-tp-monitor-brochure-1992-eeea31","Atomicity, Consistency, Isolation, Durability"
+"xopen-dtp-xa","X/Open DTP (XA Specification)","open-tp-standard","X/Open","1991-present","current-1992","mature","ncr-topend-tp-monitor-brochure-1992-eeea31","TopEND compliance claim"
+"posix-standard","POSIX Standard","operating-system-standard","IEEE","1988-present","current-1992","ubiquitous","ncr-topend-tp-monitor-brochure-1992-eeea31","TopEND compliance claim"
+"osi-protocol","OSI Communications Protocols","networking-standard","ISO","1980s-1990s","current-1992","displaced-by-tcp-ip","ncr-topend-tp-monitor-brochure-1992-eeea31","TopEND compliance claim; 1990s standards-stack era"
+"osf-dce","OSF Distributed Computing Environment (DCE)","middleware","OSF","1991-2000s","current-1992","obsolete","ncr-topend-tp-monitor-brochure-1992-eeea31","TopEND compliance claim"
+"cics-interop","CICS Interoperability Bridge","tp-migration-feature","NCR/IBM","1992-2000s","current-1992","obsolete","ncr-topend-tp-monitor-brochure-1992-eeea31","Mainframe-to-Open-OLTP migration bridge in TopEND"

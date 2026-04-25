@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"att-worldmark-servers","AT&T WorldMark Server Line","server-product-family","AT&T GIS / NCR","1995-1990s","current-1995","obsolete","att-worldmark-wsj-ad-aberdeen-quote-1995-ec56fb","AT&T 5100M shown; Intel Pentium-based; SMP/cluster/MPP scaling"
+"att-5100m","AT&T 5100M Server","computer-system","AT&T GIS / NCR","1995-1990s","current-1995","obsolete","att-worldmark-wsj-ad-aberdeen-quote-1995-ec56fb","Intel Pentium based; visible in ad imagery"
+"intel-pentium","Intel Pentium Processor","microprocessor","Intel","1993-1990s","current-1995","obsolete-as-pentium-mature","att-worldmark-wsj-ad-aberdeen-quote-1995-ec56fb","Featured CPU in WorldMark; 'all on Intel-inside' per Dataquest"
+"smp-cluster-mpp-scaling","SMP / Cluster / MPP Scalability Continuum","computer-architecture-strategy","industry","1990s-present","current-1995","ubiquitous","att-worldmark-wsj-ad-aberdeen-quote-1995-ec56fb","Mix-and-match scaling pattern endorsed by Aberdeen quote"
+"data-warehouse-scaling","Data Warehouse SMP-to-MPP Scaling","data-warehouse-architecture","industry","1990s-present","current-1995","ubiquitous-cloud-warehouse","att-worldmark-wsj-ad-aberdeen-quote-1995-ec56fb","Patricia Seybold Group quote anchor"

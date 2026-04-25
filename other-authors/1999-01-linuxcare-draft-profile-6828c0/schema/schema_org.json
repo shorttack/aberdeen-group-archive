@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Linuxcare, Inc.: Enterprise Service and Support for All Things Linux (Draft Profile)",
+  "description": "Aberdeen Group profiles Linuxcare, Inc., a San Francisco-based firm providing enterprise Linux services, support, training, and certification. Founded in 1998, Linuxcare attracted KPCB as its first Linux-related investor and signed OEM contracts with Dell, IBM, and Sun for back-end Linux support across server and desktop product lines. Aberdeen concludes that Linux adoption is accelerating and that Linuxcare has proven its viability as the emerging Linux specialist services firm; several sections are marked as incomplete pending customer interviews. This is a DRAFT profile circulated before finalization.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

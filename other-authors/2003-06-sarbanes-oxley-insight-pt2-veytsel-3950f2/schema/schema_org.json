@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Melding Financial Operations and Analytics: The New Financial Battleground",
+  "description": "Alex Veytsel of Aberdeen Group argues that the Sarbanes-Oxley Act is accelerating convergence between Financial Value Chain Management (FVCM) and financial analytics software, creating a corporate performance management imperative. The insight categorizes three supplier heritage types\u2014financial analytics vendors, FVCM specialists, and ERP companies\u2014evaluating each against SOX compliance needs, with ERP vendors holding a trump card via general ledger control. Aberdeen predicts that innovative FVCM suppliers will either add analytic capability or be displaced, and that SOX-driven transparency will prove beneficial beyond compliance.",
+  "creator": {
+    "@type": "Person",
+    "name": "Alex Veytsel"
+  },
+  "datePublished": "2003-06-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

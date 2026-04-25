@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The 64-bit Tipping Point: Optimizing Performance, Flexibility, and Value with Intel Itanium Architecture and Intel EM64T",
+  "description": "Intel's September 2004 white paper positions two complementary 64-bit architectures\u2014Itanium for high-end business-critical applications and Intel Xeon with EM64T for general-purpose computing\u2014as the optimal 64-bit migration path. Citing IDC forecasts of Itanium server market growth from under $1 billion (2003) to $8 billion (2008), and Aberdeen Group's Peter Kastner on Itanium outperforming RISC, the paper argues that EM64T will trigger broad mainstream 64-bit migration while Itanium holds the data-tier niche. BEA WebLogic and SAS case studies illustrate platform selection tradeoffs.",
+  "creator": {
+    "@type": "Person",
+    "name": "Intel Corporation"
+  },
+  "datePublished": "2004-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

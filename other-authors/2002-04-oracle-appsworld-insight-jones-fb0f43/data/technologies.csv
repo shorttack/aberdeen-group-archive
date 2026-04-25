@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oracle-11i-ebusiness-suite","Oracle E-Business Suite 11i","application","Oracle","2000-2007","current","legacy","2002-04-oracle-appsworld-insight-jones-fb0f43","Web-based e-Business suite; upgrade target for installed base; QA issues initially"
+"erp","Enterprise Resource Planning (ERP)","platform","various","1990-present","current","active","2002-04-oracle-appsworld-insight-jones-fb0f43","Core enterprise application category; upgrade-inhibiting due to customization investments"
+"scm","Supply Chain Management (SCM)","application","various","1995-present","current","active","2002-04-oracle-appsworld-insight-jones-fb0f43","Included in Oracle's e-Business suite; one of three core app categories"
+"crm","Customer Relationship Management (CRM)","application","various","1995-present","current","active","2002-04-oracle-appsworld-insight-jones-fb0f43","Mark Barranchea previously headed Oracle CRM before customer care role"
+"asp-application-service-provider","Application Service Provider (ASP) / SaaS hosting","platform","various","1999-2005","current","legacy-evolved","2002-04-oracle-appsworld-insight-jones-fb0f43","Oracle proponent of application hosting model; ASP exhibitors at Apps World 2002"
+"daily-close","Daily Financial Close","application","various","2000-present","current","active","2002-04-oracle-appsworld-insight-jones-fb0f43","Oracle 11i feature enabling daily corporate financial wrap-up; Lawson had this capability earlier"

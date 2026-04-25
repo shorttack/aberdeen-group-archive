@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"intel","Intel Corporation","company","semiconductor","active","","1968-present","2004-09-intel-64bit-tipping-point-b21860","Author and primary subject of white paper; manufactures Itanium and Xeon EM64T processors"
+"sas-institute","SAS Institute Inc.","company","analytics-software","active","","1976-present","2004-09-intel-64bit-tipping-point-b21860","Case study: SAS on Intel architecture for EM64T high-memory analytics workloads"
+"bea-systems","BEA Systems, Inc.","company","middleware-software","dissolved","acquired by Oracle 2008","1995-2008","2004-09-intel-64bit-tipping-point-b21860","Case study: BEA WebLogic on Intel Itanium 2; co-developed BEA JRockit JVM with Intel"
+"idc","International Data Corporation (IDC)","firm","IT-research","active","","1964-present","2004-09-intel-64bit-tipping-point-b21860","Cited: Itanium server market forecast $1B (2003) to $8B (2008); Al Gillen and Jean Bozman analysts"
+"aberdeen-group","Aberdeen Group, Inc.","company","IT-research","dissolved","acquired by Harte-Hanks 2001","1988-2013","2004-09-intel-64bit-tipping-point-b21860","Cited: Peter Kastner Aberdeen report Intel Itanium May 2004; outperform 64-bit RISC"
+"forrester-research","Forrester Research, Inc.","company","IT-research","active","","1983-present","2004-09-intel-64bit-tipping-point-b21860","Cited: 94% of Itanium-installed firms plan to buy more; Brad Day and Frank Gillett"
+"omicronn","Omicronn","company","financial-technology","[DEFERRED]","","2002-2006","2004-09-intel-64bit-tipping-point-b21860","Case study: BEA WebLogic on Itanium 2; 5M messages/hour at 50-60% utilization"

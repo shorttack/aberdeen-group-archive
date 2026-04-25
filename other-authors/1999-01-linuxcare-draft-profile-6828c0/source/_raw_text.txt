@@ -1,0 +1,387 @@
+PAGES=8
+---
+=== p1 ===
+AberdeenGroup 
+Draft Profile 
+ 
+Linuxcare, Inc. 
+650 Townsend Street, Suite 3244A 
+San Francisco, CA  94103  
+(888) 546-4878 
+www.linuxcare.com 
+Linuxcare, Inc. ⎯ Enterprise Service and Support for All Things Linux 
+[NOTE TO LINUXCARE:  As we agreed, this draft will go into “hold status” until mid-
+October, when we will finalize the profile for a late-October print date.] 
+Preface 
+IT management already has contracts in place to address the myriad of daily issues for 
+supporting Unix and Windows NT.  For everything from porting existing applications 
+to installing a new server, the same “who are you going to call” question that upper 
+management asked about Unix and NT must now be answered for Linux.  IT 
+management needs 24 x 7, global support for everything from installation and 
+upgrades to system development on Linux.  Another pressing need is consulting help 
+on how best to integrate and maximize this new business asset.  Top best utilize Linux, 
+IT departments also need to educate their internal training staffs, as well as to secure 
+ongoing service and support.  And, as enterprises begin implementing business- and 
+mission-critical operations on Linux, they will require even greater specialized 
+support.  Enterprises need support beyond the kernel itself, into all the facets of 
+drivers, utilities, and applications.  A provider must be able to support Linux in the 
+context of the customer’s infrastructure.  
+Aberdeen finds that many companies choose selective outsourcing agreements rather 
+than large, all-in-one contracts.  In doing so, they can retain control over their 
+infrastructure by not delegating responsibility for their entire IT environment to one 
+company.  Also, they can choose best-of-breed expertise for each service required.  In 
+this Profile, Aberdeen describes Linuxcare, Inc., a firm specializing in providing 
+enterprise-level Linux-focused service and support. 
+Executive Summary 
+Linuxcare was an early entrant into the Linux services and support market. Founded 
+in 1998, the firm was initially a Linux consulting company, assisting other innovators 
+with their Linux integration efforts.  As word of the firm’s expertise spread, Linuxcare 
+
+=== p2 ===
+ 
+Linuxcare, Inc. 
+ 2 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+found itself in demand by major system suppliers for training and education of their 
+services staffs on Linux.  Fueled by this early success, Linuxcare sought venture 
+funding to build a full-fledged Linux specialist services firm.  They have brought on 
+senior management talent experienced in serving the needs of the Fortune 1000 and 
+continue to recruit talent for each of their key areas of focus ⎯ technical support, 
+professional services, education, and certification. 
+Successful in their search for funding ⎯ Kleiner Perkins Caulfield and Byers chose 
+Linuxcare as its first Linux-related investment ⎯ the firm has set in place a well-
+thought out strategy for servicing the needs of the enterprise.  Its strengths have been 
+noted by other enterprise suppliers such as Dell, IBM, and Sun, all of whom have 
+called upon Linuxcare on multiple fronts, including training and education of their 
+inhouse staffs and contracting with Linuxcare for back-end Linux customer support.  
+Other vendors, while not having a standing contract, turn to Linuxcare for consulting 
+help when faced with complex Linux customer support questions. 
+Aberdeen finds that Linuxcare has assembled a strong product and services portfolio, 
+lead by experienced management hands, which should be considered by IT technical 
+and business executives who wish to begin utilizing Linux as an alternative enterprise 
+OS.  Challenges this young firm faces as it grows its base of accounts include growing 
+technical and management headcount to handle the anticipated services, and support 
+load and placing the necessary quality assurance metrics in place to monitor and 
+maintain its current high levels of quality and service.  With contracts already in hand 
+⎯ and more to come ⎯ from key hardware and software OEMs as well as service 
+providers, Aberdeen views Linuxcare as having proven its viability as a source of 
+Linux-and-beyond technical expertise.  [Note: Customer and OEM interviews still in 
+progress – this section will be finalized when interviews are completed.] 
+Linux Market Growth Drives Demand for Linux Services 
+Information technology (IT) departments are increasingly using Linux as the OS of 
+choice in many business-critical solutions, such as for email, file ‘n’ print, and Web 
+servers.  Linux has emerged from the shadows of the IT infrastructure to be 
+acknowledged as reliable and viable for powering low- to mid-sized server 
+applications.  Internet-born, Linux is also increasingly used for many Web-based 
+server applications such as decision support, caching, storage, domain name services, 
+and Web commerce.  Independent software vendors (ISVs) have acknowledged end-
+user demand of Linux as an operating system alternative by announcing ports of 
+major enterprise applications.  Within the next year, IT managers will have a Linux-
+based alternative in every major application area.  
+Now that Linux has proven itself, Aberdeen finds that IT management is looking to 
+deploy Linux downwards and outwards within the corporation. One issue, though, 
+needs addressing prior to beginning larger, more pervasive deployment ⎯ the issue of 
+service, support, and consulting expertise.  Although technically technically adept 
+
+=== p3 ===
+ 
+Linuxcare, Inc. 
+ 3 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+“gurus” within IT are handling initial deployment of Linux, these same users recognize 
+that further deployment requires an increased level of assistance.  Not only do IT 
+departments need more internal personnel to be trained on Linux, they also need 
+assistance to get the ball rolling.  Their shopping list includes help with education, 
+training, and daily service and support, as well as guidance in selecting the right Linux 
+products, both hardware and software, for their business needs. Linuxcare Drives 
+Towards One-Stop Linux Services 
+Linuxcare’s strategy is one of multiple interconnected fronts.  Rather than one specific 
+Linux distribution, Linuxcare supports the full spectrum of Linux, from the kernel to 
+drivers of any kind to a specific distribution’s package manager.  IT managers can 
+choose the Linux distribution(s) that best fit their needs, confident that they will be 
+able to get support from Linuxcare.  Following through with this agnostic approach, 
+Linuxcare supports all Linux hardware platforms, including Alpha, Intel, MIPS, 
+PowerPC, Sparc, and StrongArm.  Beyond the basics of hardware and OS support, 
+Linuxcare has crafted an elite set of services that it refers to as its “centers of 
+excellence.” 
+• A full range of Linux-oriented support services, including a 24 x 7 call 
+center and on-site support service, complete with a bug report and tracking 
+system.  The call center’s troubleshooting feeds into Linuxcare’s evolving 
+Knowledgebase, an on-line interactive support database which contains 
+searchable answers to a wide range of questions, Frequently Asked 
+Questions, patches and fixes, migration/porting tips, and links to related 
+tech-help Web sites.  While the call center and on-site services are fee-for-
+service, Knowledgebase is available to anyone at no charge via the 
+Linuxcare.com Web site.  Also, all of these services can be private-branded.  
+For example, Dell links its Linux customers directly to Linuxcare through 
+the www.dell.linuxcare.com Web site.    
+• Training and education via Linuxcare University to help management 
+understand the value of Linux as an addition to their IT infrastructure 
+assets and to “train the trainer.”  In parallel with its own independent 
+efforts to bring CEOs and CIOs up to speed on the business benefits of 
+Linux, Linuxcare is also working with VA Linux Systems and IBM on their 
+fall E-Seminar series.  Training an enterprise’s technical instructors 
+provides them with the knowledge to help internal staffs troubleshoot and 
+deploy Linux.  As part of this commitment, Linuxcare gurus are serving as 
+technical editors for several soon-to-be-published Linux books.  
+• Porting and migration assistance via Linuxcare Labs so that Fortune 1000 
+firms have global expertise to call upon.  Recruiting individual talent 
+around the world, as well as purchasing specialized Linux consulting and 
+development businesses, Linuxcare is creating a “virtual” Linux lab where 
+
+=== p4 ===
+ 
+Linuxcare, Inc. 
+ 4 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+both simple and complex issues related to porting and migration are solved.  
+Customers are helped via telephone, email, or on-site visits. 
+• Benchmarking and certification of Linux hardware and software, to give 
+management confidence their IT choices will work with Linux.  This 
+function is just getting underway but Linuxcare already has a pipeline of 
+requests from various vendors who would like to obtain a third-party 
+stamp of approval for their products.  
+Professional Services Led By Vererans 
+Linuxcare’s founders recognized early that seeking to be the Linux specialist services 
+firm of choice for the enterprise meant having seasoned management talent that 
+would balance and enhance their own well-regarded technical skills.  To complement 
+the technical leadership of the company’s founders ⎯ Executive Vice President Arthur 
+F. Tyde, III, Chief Technical Officer David L. Sifry, and Vice President of Marketing 
+David LaDuke ⎯ in the last six months Linuxcare has fortified its management team 
+with executives experienced in top quality IT service and support organizations.  
+These executives include: 
+• Fernand Sarrat, President and CEO ⎯ Sarrat brings significant top level 
+management experience in business development and provides formidable 
+insight into services and support.  The knowledge he gained as CEO of 
+Cylink is complimented by 23 years of experience at IBM, where he was 
+General Manager of Networking-Centric Computing Marketing and 
+Services. 
+• Anthony V. Pollace, Chief Financial Officer ⎯ Pollace’s experience includes 
+over 30 years of senior financial and operations management positions at 
+companies ranging from startups that went public to Fortune 500 
+multinationals, such as Computer Motion, Scientific Microsystems, and 
+Litton Industries. 
+• Douglas C. Nassaur, Chief Information Officer ⎯ Nassaur comes to 
+Linuxcare from E*Trade Technologies where he served as Vice President of 
+Technical Operations.  He was responsible for the implementation of their 
+global financial services network.   
+• Pat Lambs, Vice President of Service Solutions ⎯ Lambs brings over 30 
+years of technology services experience, most recently at Ascent Logic 
+Corporation and before that at Digital Equipment Corporation (DEC), 
+where over the course of 18 years she built DEC’s U.S.-based Professional 
+Service Consulting Center. 
+• Thomas W. Phillips, Vice President of Worldwide Sales ⎯ Phillips has 25 
+years of senior technology sales experience at companies such as Baystone 
+
+=== p5 ===
+ 
+Linuxcare, Inc. 
+ 5 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+Software/Remedy Corporation, Sterling Software, and Compugraphic 
+Corporation 
+Linuxcare has a large stable of Linux gurus, including Andrew Tridgell, original author 
+of and current team leader for the Samba software package; Paul Mackerras, a leader 
+of Linux’s port to the Power Macintosh and Fujitsu multicomputer platforms; Stephen 
+Rothwell, leader of the advance power management driver for Linux; CTO David Sifry, 
+who contributed code to GNU Emacs, Majordomo, and the Linux kernel; and David 
+Welton, who maintains several packages for the Debian GNU/Linux project.  
+Major Industry Suppliers Continue to Seek Linuxcare Expertise 
+Linuxcare’s in-depth technical knowledge of Linux has attracted many industry 
+players who have engaged the firm on multiple fronts: 
+• Aberdeen observes that many major suppliers of hardware, software, and 
+services have quietly sought the firm’s assistance in training their own 
+personnel.  
+• Dell, IBM, and Sun have publicly sought Linuxcare’s technical service and 
+support capabilities as they bring their first Linux offerings to market.  Dell 
+has contracted with Linuxcare to provide transparent back-end support for 
+its Linux-based OptiPlex and Dimension desktop lines, its Precision 
+workstation line, and its PowerEdge Servers.  IBM has given Linuxcare the 
+contract to support Linux on the RS/6000 line. Sun has signed Linuxcare to 
+provide support for its first Linux offering ⎯ the Star Office suite ⎯ from 
+the acquired German-firm Star Division.  Each of these sites employs a 
+mirrored site, e.g. www.dell.linuxcare.com, www.sun.linuxcare.com, and 
+www.ibm.linuxcare.com.  [Note: Need to verify Sun and IBM mirrors 
+(currently not on Web).  Internal use only? Ask Linuxcare.] 
+• Major Linux distributor TurboLinux tapped Linuxcare to provide services 
+and support to its North American customers. 
+• McMillan Publishing, a retail-oriented vendor of a wide range of computer-
+related products, has signed Linuxcare to provide services and support for 
+its repackaging of the Mandrake Linux distribution. 
+• Several book publishers, notably [Note: names coming from Linuxcare] 
+have retained Linuxcare for technical editing expertise of soon-to-be 
+published Linux books. 
+• Hitachi subsidiary Densa Techno Tokyo K.K., a Japanese integration and 
+support services provider for consumer electronics, retail, and information 
+systems businesses, is partnering with Linuxcare to provide high-level 
+support for the Japanese market. 
+• VA Linux Systems and IBM engaged Linuxcare as a strategic partner in their 
+E-Seminar Series.  The Series targets CEOs and CIOs who need to learn the 
+
+=== p6 ===
+ 
+Linuxcare, Inc. 
+ 6 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+business benefits of employing Linux as an integral part of their e-
+commerce push.   
+Aberdeen anticipates more major partnerships and contracts will be coming to 
+Linuxcare in the near future from several avenues, including major application 
+software vendors and some major consulting and integrator firms. [Note: To be 
+fleshed out as soon as Linuxcare can release names] 
+A Services Portfolio in Step with Linux Enterprise Adoption Needs 
+Aberdeen finds that Linux adoption among enterprise firms is starting to accelerate 
+overall.  Business and enterprise firms are at different stages of Linux deployment.  
+Many enterprise firms are now starting to look at Linux and have requested that IT 
+prepare a white paper explaining Linux’s strengths and weaknesses for the firm’s 
+particular needs.  Other firms have had Linux servers running business-critical 
+applications such as email for some time, using online Web resources to assist them 
+with installing and maintaining their system, but are now moving forward with more 
+extensive deployment.  Still other firms, albeit a small number, are fairly far along in 
+their Linux deployment throughout the enterprise and have recognized that there is 
+insufficient in-house knowledge and manpower.  
+Regardless of the company’s current stage, Linuxcare’s services are comprehensive:  
+• Linuxcare.com:  The Web site supports customers in all stages of Linux 
+product use, from evaluating alternative solutions through maintaining 
+installed Linux-based solutions.  The interactive Linuxcare Knowledgebase 
+contains information and fixes for most commonly encountered problems 
+and is continually updated.  The site also provides links to other Web-based 
+technical resources for Linux-related issues, problem solving sites, and 
+Linux “tech tips” for optimizing Linux in a multitude of environments.  
+Although technically focused on the needs of IT implementers and 
+developers at present, Linuxcare is in the process of stocking the site with 
+the material oriented towards IT management and buyers. [Note: Need 
+examples of coming features from Linuxcare.] 
+• Technical Support Services: Customized to each client’s needs, Linuxcare 
+offers a full array of support packages ⎯ Bronze, Silver, Gold, and Platinum 
+⎯ which vary in price level, response time, point of contact, and number of 
+contacts, from one-time service all the way to dedicated 24 x 7 support.  In 
+addition, Linuxcare offers backline technical support, invisibly integrating 
+with another company’s resources to provide support for overflow and 
+Linux-specific problems.  Linuxcare currently offers backline support for 
+large OEMs such as Dell Computer Corporation and TurboLinux North 
+America.  Currently all services are offered in English with their Asian 
+support facilities targeted for completion in [Note: Need date from 
+Linuxcare].  While primarily telephone-based at present, Linuxcare plans to 
+
+=== p7 ===
+ 
+Linuxcare, Inc. 
+ 7 
+© 1999 Aberdeen Group, Inc. 
+Telephone: 617 723 7890 
+One Boston Place 
+Fax: 617 723 7897 
+Boston, Massachusetts 02108 
+www.aberdeen.com 
+ 
+move to email and Web site support for basic questions, escalating to call 
+center technical staff for more complex problems. 
+• Professional Services: Providing incident-specific consulting or complete 
+on-site project management, this division will handle as much or as little of 
+a firm’s Linux IT needs as the customer would like.  Linuxcare can assist 
+with integrating Linux into any enterprises’ infrastructure, with porting 
+and development of proprietary software to Linux-based systems, and with 
+ongoing IT systems management. 
+• Linuxcare University: Leveraging Linuxcare’s guru knowledge base, this 
+branch offers instruction on all levels of Linux development and 
+management.  The current focus is on “training the trainers.”  Courses 
+include: Linux System Administration, Linux Network Administration, 
+Linux Security, Linux Overview for Windows NT Professionals, Linux 
+Administration for Windows NT Professionals, Extreme Samba, and Linux 
+for Executives.  Enterprises also may contract Linuxcare for custom training 
+taught at customer-specified sites.  These courses are designed to fulfill 
+requirements set by the Linux Professional Institute’s certification 
+guidelines.  
+• Linuxcare Labs: Vendor- and distribution-neutral, this division tests 
+functionality of hardware and software on Linux.  Products that meet all 
+testing requirements receive a “Linuxcare Labs Certified” mark.  When 
+evaluating and purchasing Linux-based solutions, customers can easily 
+access performance results of certified products through the Linuxcare.com 
+Web site.  Notable suppliers that have sought certification and received it 
+are Dell Computer, for all of the product lines which Linuxcare supports, 
+and Compaq Computer for its DeskPro product line.  Aberdeen expects 
+Linuxcare Labs, still very much in its infancy, will be recruiting senior-level 
+expertise to head this quality assurance sector of the firm. 
+Aberdeen Conclusions and Observations 
+Aberdeen is convinced by extensive market research that a credible number of IT 
+organizations believe Linux will play a role in their future information technology 
+infrastructure.  Linux is not a flash in the pan, but rather is a market that will grow 
+rapidly over at least the next several years.   
+Linux has proven itself up to the challenge inherent in enterprise applications at the 
+server level.  And it is showing signs of taking off in the desktop arena.  Linux 
+
+=== p8 ===
+ 
+Linuxcare, Inc. 
+ 8 
+Aberdeen Group, Inc. 
+One Boston Place 
+Boston, Massachusetts 
+02108 
+USA 
+Telephone: 617 723 7890 
+Fax: 617 723 7897 
+www.aberdeen.com 
+© 1999 Aberdeen Group, Inc. 
+All rights reserved 
+January 1999 
+Aberdeen Group is a computer and communications 
+research and consulting organization closely monitoring 
+enterprise-user needs, technological changes and market
+developments. 
+Based on a comprehensive analytical framework,  
+Aberdeen provides fresh insights into the future of 
+computing and networking and the implications for 
+users and the industry. 
+Aberdeen Group performs specific projects for a select 
+group of domestic and international clients requiring 
+strategic and tactical advice and hard answers on how to 
+manage computer and communications technology. 
+ 
+ 
+ 
+ 
+seems well suited to taking its place as a key OS in a Web-based commerce push due 
+to its reliability and stability.   
+However, the “freeware” business model for Linux open software means buyers get 
+the support they paid for, namely little to none.  In today’s enterprise IT world, an 
+operating system with no support is a non-starter.  Moreover, today’s much leaner 
+hardware suppliers are easily convinced that support for a new but complex product 
+can be outsourced to a well-grounded and Internet-wired services firm. 
+Enter Linuxcare with a portfolio of services that allows a firm at any stage ⎯ 
+exploratory, trial run, limited deployment, full deployment ⎯ to find answers and 
+assistance.   
+[Note: Section to be concluded after customer interviews are completed.] 
+ 
+

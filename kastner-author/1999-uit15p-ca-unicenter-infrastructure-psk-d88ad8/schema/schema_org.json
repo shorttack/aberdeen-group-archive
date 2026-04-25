@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "What's So Important About Infrastructure? (Session UIT15P, CA Unicenter Conference 1999)",
+  "description": "Peter Kastner, Chief Research Officer of Aberdeen Group, presents at the 1999 CA Unicenter Conference arguing that global economic forces are generating enormous IT complexity and that forward-looking organizations must adopt a well-considered, architected IT infrastructure. The session evaluates four infrastructure management options\u2014do nothing, outsource, standards-based, and vendor-backed architecture\u2014and concludes that an architected, vendor-backed common infrastructure yields the greatest long-term benefits. Aberdeen rates full outsourcing as partial at best and warns against pure standards-based approaches citing the failure of DCE, DME, and OSI.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1999-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

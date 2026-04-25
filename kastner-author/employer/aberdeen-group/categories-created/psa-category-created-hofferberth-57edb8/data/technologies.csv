@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"psa-professional-services-automation","Professional Services Automation (PSA)","application","various","1998-present","emerging","active","psa-category-created-hofferberth-57edb8","Software category named and codified by Hofferberth March 1999 at Aberdeen Group"
+"esa-enterprise-services-automation","Enterprise Services Automation (ESA)","application","PeopleSoft","2001-2005","current","obsolete","psa-category-created-hofferberth-57edb8","PeopleSoft's competing/extending label; absorbed into Oracle post-acquisition"
+"spo-service-process-optimization","Service Process Optimization (SPO)","application","Gartner/Novient","2000-2003","current","obsolete","psa-category-created-hofferberth-57edb8","Gartner/Kempf competing category label; failed to displace PSA as industry standard"
+"erp","Enterprise Resource Planning (ERP)","platform","various","1990-present","current","active","psa-category-created-hofferberth-57edb8","SAP, Oracle, PeopleSoft absorbed PSA into ERP; competing integration strategy"

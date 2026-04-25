@@ -1,0 +1,360 @@
+# What's So Important About Infrastructure? (Session UIT15P, CA Unicenter Conference 1999)
+
+> Archived from: UIT15P.pptx
+> Original publication date: 1999-01-01
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+SLIDES=32
+---
+=== Slide 1 ===
+What’s So Important About Infrastructure?
+Unicenter Conference
+Session Code: UIT15P
+
+© 1999 Computer Associates International, Inc.
+						
+      All product names used herein belong to their respective companies
+
+
+=== Slide 2 ===
+What’s So Important About Infrastructure?
+	The global economic forces that are changing enterprises have generated enormous IT complexity. Too often, multi-million dollar projects are built on an IT technology mix that might maximize the single project while exposing the enterprise to huge long-term costs and risks. Aberdeen sees forward-looking organizations realizing they must stop and demand a well-considered IT infrastructure as an architected approach to long-term application development success.  This session for IT business and technology managers discusses the need for an IT infrastructure, the choices and implications to the business, and technology planning options.
+.
+=== Slide 3 ===
+Peter S. KastnerChief Research OfficerAberdeen Group, Inc.		www.aberdeen.com
+Biography:
+	Peter Kastner is responsible for the work of 50 analysts at Aberdeen Group’s offices in Boston and Silicon Valley.  He has over thirty years of industry experience in commercial computing issues as an application developer, systems integrator, marketing executive, and enterprise computing industry analyst.Peter’s business practice at Aberdeen includes working with IT executives on organizational, strategy, and technology issues.
+=== Slide 4 ===
+Agenda
+Change versus continuity:  who cares?
+Fragmented IT infrastructure issues
+Choosing an IT infrastructure
+Options, implications, and conclusions
+=== Slide 5 ===
+IT Spending:  New Acquisition versus Ongoing Operations
+U.S. enterprises spend ~3% of revenue on IS
+~85% of IS spending is for ongoing operations — ~15% for new application acquisitions
+CEO looks at 15% for new applications as incremental change & business driver
+CFO and VP IS/CIO look at 85% for ongoing operations as area to be closely managed and controlled
+=== Slide 6 ===
+IT-Driven Business Imperatives
+Increase customer satisfaction
+Empower fewer users
+Increase line access to data
+Increase operational flexibility
+Shorten application development cycle time
+=== Slide 7 ===
+Business Necessity Meets IS Reality:  Insurance Industry
+Unix or NT cluster
+Highly Parallel, Scalable
+8,000 users at 50 offices and headquarters
+Local transaction processing against a replicated database
+Data Warehouse
+PC desktops and Intel/Risc Office Server
+Economical, Scalable15-500 Users
+5,000 Users
+OLTP ProductionSystem &Administration
+=== Slide 8 ===
+IS Reality:Enormous Complexity
+Data Warehouse Transformation & Replication
+Transaction Pull
+Replication to every office
+Transaction Push
+Database of RecordEnterprise Superserver
+Java & HTML to Suppliers
+Classic 2-Tier Client-Server
+=== Slide 9 ===
+IT Infrastructure Fragments
+Enterprise mainframe 
+Geographical islands of automation
+LANs become Intranets
+Data warehousing
+Client/server meets the Web
+E-business is the tip of an iceberg
+But the IT Dept. Has to Sweat the Technology Details ...
+=== Slide 10 ===
+What Happened to the Mainframe Data Center?
+Thoroughly understood
+Predictable reliability
+Outstanding operational efficiency, productivity, and manageability
+But …
+Hasn’t seen a new ISV application in 7 years
+Is being surrounded or supplanted
+=== Slide 11 ===
+New-Breed Enterprise Mainframe
+Symmetry SE70
+Message &
+Enqueue Server
+125 Compaq ProLiant 4000s
+10base T
+LANs
+Enterprise-class UNIX server
+=== Slide 12 ===
+New-Breed Enterprise Mainframe
+N-tier architecture
+Reliability, operability, manageability constraints
+Multi-vendor control issues
+But …
+Running today’s mission- critical enterprise applications: a paradox
+FDDI Ring No. 1
+FDDI Ring No. 2
+=== Slide 13 ===
+Geographically Distributed Enterprise
+Enterprise OLTP
+Mainframe Gateways
+London
+Tokyo
+San Francisco
+Management Console
+ 100’s to 1000’s of networked servers
+Topeka
+Telecommuters
+=== Slide 14 ===
+Shift from NOS to Intranet
+New LAN Functions:-Applications-Decision support-Mainframe connectivity-Exchange server
+-Internet proxy-Firewall-Systems management-Development
+-WINS & DHCP
+“95% of Fortune 1000 Will Have Intranets By 2000” -- Forrester
+=== Slide 15 ===
+Data Warehousing:  “Great Idea, Hard to Implement”
+OLTP TransactionsTransformationEnterprise DW ServerTransformationData Mart ServersData Mining ToolsData Visualization ToolsDecision Support Clients
+=== Slide 16 ===
+Client/Server Integration withWeb Applications
+Just as IS masters client/server technology ...
+Along comes the Web!
+Issues:
+Legacy C/S integration
+Evolving but “not there” standards
+N-tier complexities
+Programmer unfamiliarity
+Ingres II,
+Jasmine
+TCP/IP
+LU 6.2
+DB2/MVS, IMS,
+VSAM, CA-IDMS
+Oracle, Informix,
+Sybase
+IIOP
+HTTP
+IIOP
+Web 
+Application
+Server
+TraditionalClient-Server
+SQL “Fat Client”
+Web/CORBA
+Client
+ProprietaryNet Protocol
+=== Slide 17 ===
+CEO’s Infinite Resource Planning Vision
+=== Slide 18 ===
+ie
+Data
+N
+Internet desktop with Web Browser
+Data
+Distributed Web
+Transaction Engine
+ConsolidatedFinancial MgtSystem
+Transaction Engine
+TCP/IP
+HTTP
+HTTP
+TCP/IP
+TCP/IP
+TCP/IP
+Internet desktop with Web Browser
+Launch
+Transact
+Launch
+Transact
+Transact
+Virtual Internet Computing: Reality is Complex, Multi-Company
+=== Slide 19 ===
+Building a Common Infrastructure:Management Options
+Do nothing
+Outsource
+Standards-based
+Architecture
+Vendor-based
+=== Slide 20 ===
+Do Nothing
+Take no active steps to build a manageable common IM and EM infrastructure
+Benefits
+Just keep on doing what you’re doing
+Implications
+Fragmentation gets worse
+Ability to disentangle and react diminishes
+If you buy this, today’s speakers have failed abjectly!
+
+=== Slide 21 ===
+Outsource
+Outside service provider handles IT services
+Benefits
+Provider assumes future-shock risks
+Establishes cost-for-service basis
+One direction for finger pointing
+Implications
+Will provider upgrade your technology base fast enough?
+What key IS skills will atrophy?
+Best suited for targeted cost-benefits (e.g., telecomm, “out-tasking”)
+=== Slide 22 ===
+Standards-based Infrastructure
+Using industry standards, create an approved set of hardware, software, and networking technologies
+Benefits
+Interoperability yields easier systems integration
+Less vendor technology lock-in
+Implications
+Standards come slower; often are incomplete; always behind leading edge
+Do not always provide the optimal solution
+IS still has to build/integrate on standard platforms
+
+=== Slide 23 ===
+Architecture
+Choose the key technologies for an architecture, then the best-of-breed products to implement it
+Benefits
+Architecture fits your enterprise’s requirements (No “one size fits all” solution)
+Best-of-breed products can change over time while preserving the investment in the architecture
+Implications
+Requires intense discipline to avoid “exceptions”
+What is best for the enterprise may not be best for the line-of-business system buyer
+=== Slide 24 ===
+Vendor-based
+Choose a vendor’s solutions and build on those
+Benefits
+Vendor endures the technology shocks
+Focused on rolling out leading-edge solutions
+Some supply value-added technology integration
+Implications
+No single vendor can supply all the infrastructure
+If the vendor fails, so do you
+At the mercy of the vendor’s technology curve
+Nevertheless, an attractive choice
+=== Slide 25 ===
+Aberdeen’s Rating ofManagement Options
+Do nothing
+Outsource
+
+Standards-based
+
+Architecture
+
+Vendor-based
+Bad idea
+
+Parts, yes.  The whole, never.  Staff, never.
+
+Remember DCE, DME & OSI?
+
+Good idea.  Works best with strong central IS.
+
+Good idea.  Requires excellent relationship and basis for trust.
+=== Slide 26 ===
+Aberdeen’s Conclusions
+IT-driven business is the wave of the present
+Information technology is exploding --  threatening to fragment IS development, operations, and networks into unmanageable pieces
+An architected, vendor-backed common infrastructure yields the greatest benefits
+Must support both information and enterprise management needs
+=== Slide 27 ===
+Questions & Answers
+=== Slide 28 ===
+... place it in the basket at the back of the room.
+After completing your evaluation ...
+Session Evaluation Form
+=== Slide 29 ===
+Notes
+=== Slide 30 ===
+Notes
+=== Slide 31 ===
+Notes
+=== Slide 32 ===
+Notes
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | 1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8 |
+| title | What's So Important About Infrastructure? (Session UIT15P, CA Unicenter Conference 1999) |
+| author | Peter S. Kastner |
+| date | 1999-01-01 |
+| type | presentation |
+| subject_domain | it-infrastructure |
+| methodology | industry-analysis, expert-opinion |
+| source_file | UIT15P.pptx |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Peter Kastner, Chief Research Officer of Aberdeen Group, presents at the 1999 CA Unicenter Conference arguing that global economic forces are generating enormous IT complexity and that forward-looking organizations must adopt a well-considered, architected IT infrastructure. The session evaluates four infrastructure management options—do nothing, outsource, standards-based, and vendor-backed architecture—and concludes that an architected, vendor-backed common infrastructure yields the greatest long-term benefits. Aberdeen rates full outsourcing as partial at best and warns against pure standards-based approaches citing the failure of DCE, DME, and OSI.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Kastner keynote at a major vendor conference (CA Unicenter 1999) codifying Aberdeen's infrastructure framework for enterprise IT managers; significant as a primary-source presentation artifact. |
+| **Relevance** | medium | The infrastructure management framework (do-nothing vs. outsource vs. standards vs. vendor-backed) remains a useful analytic lens, though specific technology references (FDDI, DCE, CA Unicenter) are dated. |
+| **Prescience** | medium | Aberdeen's recommendation of an architected, vendor-backed infrastructure was largely vindicated by enterprise adoption of vendor platforms (Microsoft, VMware, AWS); however the specific vendor (CA/Unicenter) did not dominate as implied. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Intranet adoption by Fortune 1000 by 2000
+- **Claimed:** 95% of Fortune 1000 will have intranets by 2000 (Forrester)
+- **Year:** 1999
+- **Confidence at time:** high
+
+**Prediction 2:** Optimal infrastructure strategy recommendation
+- **Claimed:** Architected, vendor-backed common infrastructure yields greatest benefits
+- **Year:** 1999
+- **Confidence at time:** high
+
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Computer Associates International, Inc. | company | active | CA Technologies -> Broadcom |
+| Aberdeen Group, Inc. | company | dissolved | acquired by Harte-Hanks 2001 |
+| Forrester Research, Inc. | company | active |  |
+| Compaq Computer Corporation | company | dissolved | acquired by HP 2002 |
+| Sequent Computer Systems | company | dissolved | acquired by IBM 1999 |
+| IBM Corporation | company | active |  |
+| Oracle Corporation | company | active |  |
+| Informix Corporation | company | dissolved | acquired by IBM 2001 |
+| Sybase, Inc. | company | dissolved | acquired by SAP 2010 |
+| Peter S. Kastner | person | active |  |
+
+### Technologies Referenced (12)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| CA Unicenter TNG | platform | Computer Associates | current | legacy |
+| Corporate Intranet / Web Infrastructure | platform | various | current | legacy-superseded |
+| FDDI (Fiber Distributed Data Interface) | protocol | various | mature | obsolete |
+| Java & HTML (web application layer) | language | Sun Microsystems | current | active |
+| IIOP / CORBA (middleware) | protocol | OMG | current | obsolete |
+| OLTP (Online Transaction Processing) | platform | various | current | active |
+| Data Warehousing | platform | various | current | active |
+| Ingres II | application | Computer Associates | current | legacy |
+| Jasmine (object-oriented database) | application | Computer Associates | current | legacy |
+| Compaq ProLiant 4000 Server | platform | Compaq | current | obsolete |
+| DCE/DME (Distributed Computing Environment) | protocol | OSF | legacy | obsolete |
+| OSI Network Standards | protocol | ISO | legacy | obsolete |
+
+### Observation Summary
+
+- Total observations: 21
+- By type: expert-opinion: 15, market-data: 2, viability-prediction: 2, actual-outcome: 2

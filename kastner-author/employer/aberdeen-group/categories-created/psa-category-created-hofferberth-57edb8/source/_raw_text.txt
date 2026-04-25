@@ -1,0 +1,92 @@
+How PSA Was Codified: The Evolution of Professional Services Automation
+SPI Research (Service Performance Insight) — March 4, 2025
+Article by Ryan Kelly, Global Director, Service Performance Insight
+
+Every great industry transformation starts with a need—one that's felt but not yet fully understood.
+In the late 1990s, professional services organizations (PSOs) were drowning in inefficiency.
+They tracked time in spreadsheets, managed projects manually, and struggled with resource utilization,
+all while relying on disconnected financial systems to manage revenue and invoicing.
+
+Enterprise software had already transformed manufacturing and sales, but professional services? They were left behind.
+
+"Today, firms leveraging PSA see a direct impact on their bottom line—SPI's 2022 research, conducted
+across 88 firms with an average of 376 employees, found a striking $8.96 million (+12.4%) increase in
+professional services revenue, growing from an average of $72.1 million to $81.1 million." [4]
+
+THE EARLY DAYS: A MARKET WITHOUT DEFINITION
+A handful of early software vendors—Niku, Changepoint, Novient, and Evolve—recognized the growing demand
+for a solution. They began building tools to help firms track billable work, manage projects, and improve
+financial oversight. However, while the need for such systems was clear, there was no agreed-upon category,
+no standard framework, and no independent research validating their impact.
+
+This uncertainty led a group of vendors—including Niku—to approach the Aberdeen Group in search of an
+independent study to define and legitimize the space. That moment set the stage for one of the most
+influential research reports in professional services software history.
+
+THE WHITEPAPER THAT FIRST CODIFIED PSA
+In March 1999, Dave Hofferberth, then a senior analyst at Aberdeen Group covering IT professional services
+organizations, published the seminal PSA whitepaper:
+"Professional Services Automation: Increasing Service Organizations' Profitability and Productivity" [1]
+
+This wasn't just another research report—it named, structured, and codified PSA as a software category
+for the first time, giving vendors and service firms the foundation they needed to understand and adopt it.
+
+Hofferberth's research helped transform what had been a fragmented collection of tools into a formalized
+industry movement by:
+- Defining PSA's core capabilities: Project management, resource planning, time tracking, billing, financial forecasting.
+- Proving PSA's value: Demonstrating how professional services firms could increase billable utilization, reduce revenue leakage, and improve profitability.
+- Establishing performance benchmarks: Providing firms with measurable KPIs to track efficiency and margins.
+
+The Original 1999 PSA Definition:
+"Professional Services Automation (PSA) includes the systemization of business processes and management
+of a service organization's people and intellectual assets. PSA captures the planning functions, knowledge
+management, resource allocation, and communication uniquely found within service organizations." [1]
+
+THE GLOBAL DEMAND FOR PSA
+Hofferberth's research sparked a global conversation. For the next four years, he was invited to speak across
+North America and all over the world—traveling to Europe every month—to meet with software vendors, industry
+analysts, and professional services leaders.
+
+"His dedication and influence earned him the title 'Father of PSA', a recognition given by industry leaders
+who saw first-hand how his research and education transformed the industry." [2]
+
+THE "DAVID VS. GOLIATH" BATTLE: GARTNER'S ATTEMPT TO REBRAND PSA
+In the early 2000s, Gartner, a billion-dollar research giant, sought to redefine PSA under a broader category
+called Service Process Optimization (SPO). Led by Ted Kempf, Gartner's Principal Research Analyst for
+Professional Services & Outsourcing, they worked with vendors like Novient to promote SPO.
+Additionally, PeopleSoft launched Enterprise Services Automation (ESA).
+SAP & Oracle absorbed PSA functionality into their ERP platforms.
+By around 2003, Hofferberth and the wider community's continued global PSA advocacy ensured it remained the global standard.
+
+FIG. 2 PSA EVENTS, SOFTWARE REVENUES, AND GROWTH (1998-2002):
+- 1998: Niku releases first PSA product. Founder Farzad Dibachi asks Aberdeen Group to write a white paper.
+- 1999: Aberdeen's Hofferberth publishes the first market research report on PSA. Information Week publishes feature article.
+- 2000: PeopleSoft debuts PeopleSoft PSA. Andersen Consulting adopts Novient PSA. EDS adopts Evolve PSA. Gartner promotes SPO. Lawson acquires Account 4.
+- 2001: PeopleSoft announces ESA. First Conferences organizes PSA 2001 conference.
+- 2002: First Conferences cancels PSA 2002 conference. Tenrox publishes PSA book. Novient and Portera are acquired. Microsoft ships PSA.
+
+PSA TODAY: THE PERFORMANCE ENGINE BEHIND HIGH-GROWTH FIRMS
+Gartner's Present Day PSA Definition (2025):
+"PSA is the integration of planning, resource management, project management and project accounting for service organizations." [5]
+
+SPI 2022 PSA End-User Survey Financial Impact (across 88 firms, avg 376 employees):
+- 8.2% increase in billable utilization (66.0% to 74.2%)
+- 6.1% increase in project margin (32.4% to 38.5%)
+- 6.8% improvement in on-time project delivery (75.3% to 82.1%)
+- 3.08% reduction in revenue leakage (6.8% to 3.72%)
+- 5.1 day reduction in DSO (44.6 to 39.5)
+- 2.92 day reduction in invoice generation time (6.05 to 3.14 days)
+- 3.45 day reduction in project staffing time (11.40 to 7.95 days)
+- 7.7% increase in on-budget projects (75.0% to 82.7%)
+- $8.96M (+12.4%) increase in PS revenue (avg $72.1M to $81.1M)
+
+ABOUT SERVICE PERFORMANCE INSIGHT
+Founded by Dave Hofferberth, known as the "Father of PSA", SPI Research is the leading global authority
+on professional services benchmarking, automation, and performance improvement.
+
+References:
+[1] Aberdeen Group, D. Hofferberth. 1999. Professional Services Automation: Increasing Service Organizations' Profitability and Productivity.
+[2] Wang, P., & Swanson, E. B. (2007). Launching professional services automation.
+[3] Rozyczko, C. (2020). The Trends & History of PSA Software: An Interview with the Father of the PSA industry.
+[4] Hofferberth, R. D., SPI Research. (2022). 2022 Professional Services Automation End-User Survey.
+[5] Gartner (2025). information-technology/glossary/psa-professional-services-administration.

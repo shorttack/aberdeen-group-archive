@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-xa400","Stratus XA400","platform","Stratus Computer","1984-1990s","production","obsolete","stratus-computer-is-down-ad-reprints-c19-903ebf","Mid-range Stratus system: rel-perf 125, list $446,350; ad's hero comparison"
+"ibm-4381","IBM 4381","platform","IBM","1983-1990s","production","obsolete","stratus-computer-is-down-ad-reprints-c19-903ebf","Competitor: rel-perf 100, list $707,897; entry-mainframe class"
+"hp-3000-68","HP 3000 series 68","platform","Hewlett-Packard","1983-1990s","production","obsolete","stratus-computer-is-down-ad-reprints-c19-903ebf","Competitor: rel-perf 64, list $437,754; HP's commercial server line"
+"dec-vax-11-782","DEC VAX-11/782","platform","Digital Equipment Corp.","1982-1990s","production","obsolete","stratus-computer-is-down-ad-reprints-c19-903ebf","Competitor: rel-perf 109, list $656,889; dual-CPU asymmetric VAX"
+"stratus-continuous-processing","Stratus Continuous Processing","architecture","Stratus Computer","1980s-present","production","mature","stratus-computer-is-down-ad-reprints-c19-903ebf","Hardware pair-and-spare fault-tolerant architecture; central message of ad"

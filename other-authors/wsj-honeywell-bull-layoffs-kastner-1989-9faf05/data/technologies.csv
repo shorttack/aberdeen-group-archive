@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"computer-industry-consolidation","Computer industry consolidation (1980s-1990s)","framework","industry","1980s-2000s","emerging","mature","wsj-honeywell-bull-layoffs-kastner-1989-9faf05","Mass consolidation of proprietary minicomputer/mainframe vendors; Kastner's analytical frame in WSJ quote"
+"workforce-reduction-restructuring","Corporate workforce reduction / restructuring","framework","industry","1970s-present","production","mature","wsj-honeywell-bull-layoffs-kastner-1989-9faf05","Honeywell Bull's 15% U.S. layoff (~1,600 employees) — typical of late-1980s computer-industry rationalization"
+"rd-as-percent-of-revenue","R&D-to-revenue ratio","framework","industry","1970s-present","production","mature","wsj-honeywell-bull-layoffs-kastner-1989-9faf05","Honeywell Bull cutting R&D to 10.5% of revenue — a key strategic indicator"

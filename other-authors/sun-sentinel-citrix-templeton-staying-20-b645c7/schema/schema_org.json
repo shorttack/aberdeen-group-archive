@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Staying the course \u2014 Citrix CEO Mark Templeton expects to survive slump",
+  "description": "South Florida Sun-Sentinel (May 2002) by Christine Winter on Citrix Systems Inc. (Fort Lauderdale, FL). After missing Q1 2002 sales/earnings forecasts, Citrix stock down ~50% since January 2002. Echoes spring 2000 when stock plunged 85% in 3 months. CEO Mark Templeton (back in charge after stepping down) says he isn't planning on going anywhere this time. Q1 2002 sales: $142.3M; adjusted net earnings 16\u00a2/share. Stock closed up 8% (+$0.94 to $12.38) on news of new three-year Microsoft agreement (replacing 1997 agreement that paid Citrix $175M in royalties; new agreement gives continued Microsoft code access at no cost). 2001 sales: $591.6M; ~1,900 employees; ticker CTXS on Nasdaq. Quote from Peter Kastner, chief research officer for Aberdeen Group: 'Citrix has been tarred with the brush of a terrible economy, but we believe its strategy is sound. They are one of the few companies that can provide the kind of software that they do.' Counter-perspective from Dwight Davis, VP Summit Strategies (Kirkland WA): MetaFrame holding up well. Templeton blames IT spending environment, 'not poor execution, as before.' Citrix recently spent $55M on two new buildings to consolidate scattered worker sites. Templeton: 'We intend to be in a better position than ever to become that billion-dollar software company that we know we are.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Christine Winter (South Florida Sun-Sentinel, business writer)"
+  },
+  "datePublished": "2002-05-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

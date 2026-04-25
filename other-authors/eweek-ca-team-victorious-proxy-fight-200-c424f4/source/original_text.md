@@ -1,0 +1,245 @@
+# CA Team Victorious — 'New' CA emerges from proxy battle with outside monitors and more
+
+> Archived from: CA-proxy-quote-2001-9-4.pdf
+> Original publication date: 2001-09-03
+> Author: Stan Gibson (eWeek)
+
+---
+
+## Original Document Text
+
+110-60
+MAGAZINE
+EWEEK
+Midford, MA
+< Giro- 400fiw^—
+V WeiMy
+SEPTEMBER 3, 2001
+Bacon’s
+CA TEAM VICTORIOUS
+'New' CA emerges from proxy battle with outside monitors and more
+By Stan Gibson
+IN ISLANDIA, N.Y.
+T
+he bullet that computer
+Associates International Inc.’s
+senior management team
+dodged last week in a share­
+holders’ bitter proxy fight may
+have actually helped forge a
+new and more responsive CA.
+In an effort designed to elicit sup­
+port from shareholders, CA Chairman
+Charles Wang and President and CEO
+Sanjay Kumar made several moves
+that many observers said were long
+overdue, such as hiring consultants
+from outside the company to moni­
+tor CA’s governance and employee­
+relations practices.
+"We want to be good governance
+people. We should have governance
+folks come to the board meeting,” said
+Kumar in an interview here last week
+at the company’s headquarters fol­
+lowing the meeting. The company is
+also seeking additional board mem­
+bers from outside the company.
+"CA’s management has changed
+because the imbroglio gave institu­
+tional investors the chance to ask CA,
+‘What is going on here?”’ said Peter
+Kastner, an analyst at The Aberdeen
+Group, in Boston. '------- ’
+In the preliminary tally of the share­
+holder votes, Wang, Kumar and their
+board nominees were upheld by 75
+Kumar: Striving to be good governance people.
+percent of the votes cast. The
+certified vote tally is due in two
+weeks but is not expected to
+differ.
+The proxy fight was insti­
+gated early this year by CA in­
+vestor Sam Wyly and his com­
+pany, Ranger Governance Ltd.,
+of Dallas. Wyly claimed that
+CA’s stock was underper­
+forming and that Wang and
+Kumar enriched themselves
+while CA’s employees were
+alienated and its customers dis­
+affected.
+Initially, Wyly proposed
+ousting the entire board of 10
+directors, including Wang and
+Kumar, in favor of a new slate
+that in- [continued on Page 12]
+
+.VA--
+xg
+'CUSTOMERS ARE ...HAPPIERTHAN
+ion
+seen they’re a little more willing to ne­
+gotiate contracts. And I’ve got no
+complaints about CA support." Lane,
+whose company uses CA-Datacom/
+DB, CA-Roscoe and many mainframe
+packages, praised CA’s new licensing
+plan, which lets him sign a long-term
+contract but add or subtract specific
+packages as he needs to.
+one shareholder at the meeting. The
+shareholder said the proxy fight ad­
+ministered a much-needed wake-up
+call and that management showed signs
+of responding positively, leading him
+to vote his shares in favor of manage­
+ment.
+The shareholder, like many in the
+investment community, questioned
+whether Wyly, whose governance of
+other companies has been questioned, .
+will be an improvement over Wang.
+Wyl/s former company, Sterling
+Software Inc., was acquired by CA
+last year for $3.9 billion. Ranger Gov­
+ernance owns 630,000 CA shares and
+manages a 5-year package of 1.5 mil­
+lion options that was granted to Wyly
+at the time of the Sterling acquisition.
+"The shareholders are going to be
+the ones to decide whether we’ve
+been victorious or not," said Wyly. e
+technical support manager at Print­
+pack Inc., a printing company in At­
+lanta and a user of CA products for
+14 years.
+In recent months. Lane added, "I’ve 
+yia-1"
+st apS1
+THEY WERE A YEAR AGO. WHEN CA
+STARTED ITS NEW SALES MODEL'
+nO'
+-daU 3° 3
+0SS3?
+>pOOj
+"Our research shows that CA cus­
+tomers are a lot happier than they were
+a year ago, when CA started its new
+sales model,” Aberdeen’s Kastner said.
+Wyly asserted that CA has also
+dropped its pro forma financial re­
+porting practices in fa­
+vor of strict adherence
+to Generally Accepted
+Accounting Principles
+thanks to his pressure.
+Pro forma results are
+often difficult to un­
+derstand and can put a company’s
+performance in an unrealistically fa­
+vorable light.
+Concern over such accounting prac­
+tices and outrage over an opulent com­
+pensation package for Wang and Ku­
+mar two years ago left hard feelings
+among many investors.
+“There has been a loss of trust,” said 
+s
+^duSeThimself. But as the date for the
+shareholders’ meeting neared, he cut
+his nominees to four, offered to keep
+Kumar and withdrew his name. In re­
+sponse, he gained the support of sev­
+eral proxy advisory companies, in­
+cluding Institutional Shareholder
+Services.
+Although unsuccessful in gaining
+control, Wyly claimed to have achieved
+larger goals. “We think it has indelibly
+changed CA,” he said at a press con­
+ference following the investors meet­
+ing. "It has moved it closer to its cus­
+tomers and made it move closer to its
+employees and be more accountable
+to its shareholders.”
+At least one CA customer said the
+company is showing positive signs.
+"They’ve gone from spoiled child to
+\ ut
+, ^tt st s
+-31 °* > z ti° al£S
+i a ** *
+011'11'”
+Sutqi V
+,uomtdo3°
+»« '>O'; •
+adult. sa.d M.ke Lane,
+aloxd
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | eweek-ca-team-victorious-proxy-fight-200-c424f4 |
+| title | CA Team Victorious — 'New' CA emerges from proxy battle with outside monitors and more |
+| author | Stan Gibson (eWeek) |
+| date | 2001-09-03 |
+| type | trade-press-article |
+| subject_domain | enterprise-software-corporate-governance |
+| methodology | news-reporting, expert-interview, executive-interview |
+| source_file | CA-proxy-quote-2001-9-4.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+eWeek (September 3, 2001) by Stan Gibson reports on Computer Associates International's victory over investor Sam Wyly's Ranger Governance Ltd. (Dallas) proxy fight. Wyly had argued CA's stock was underperforming and that Chairman Charles Wang and President/CEO Sanjay Kumar enriched themselves while CA employees were alienated and customers disaffected. Wyly initially proposed ousting all 10 directors. CA management upheld by 75% of votes cast (preliminary tally). To elicit shareholder support, CA made several long-overdue moves: hiring outside consultants to monitor CA governance and employee-relations practices; seeking additional outside board members; Kumar saying 'We want to be good governance people. We should have governance folks come to the board meeting.' Quote from Peter Kastner, analyst at The Aberdeen Group, Boston: 'CA's management has changed because the imbroglio gave institutional investors the chance to ask CA, what is going on here?' Two PDF scans of the same article in this submission (different scan-quality of the same eWeek issue, including Bacon's Information Service masthead clipping in one).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | Documents Kastner's role as a corporate-governance commentator on a high-profile proxy fight at one of the largest enterprise software vendors. Notable for the 2001-era CA story which presaged Kumar's 2006 conviction for accounting fraud and CA's later transformation. |
+| **Relevance** | medium | Corporate-governance reform via outside monitors and board independence remains foundational; the CA story directly preceded Sarbanes-Oxley (2002) and continues to be cited in governance literature. Kumar later went to prison for accounting fraud (2006). |
+| **Prescience** | high | Kastner's framing of the proxy fight as a moment for institutional investors to demand accountability anticipated the shareholder-activism era that exploded post-2008. CA itself underwent further governance shocks: Kumar convicted 2006 of obstruction and fraud; CA renamed CA Technologies 2010; acquired by Broadcom 2018 — Kastner's implicit governance concerns vindicated. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (10)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (2007); Spiceworks Ziff Davis |
+| Computer Associates International (CA) | company | renamed | CA Technologies (2010), Broadcom (2018) |
+| Charles B. Wang | person | active |  |
+| Sanjay Kumar | person | active |  |
+| Sam Wyly | person | active |  |
+| Ranger Governance Ltd. | company | unknown |  |
+| eWeek (formerly PC Week) | publication | active | Quinstreet → TechnologyAdvice |
+| Stan Gibson | person | active |  |
+| Bacon's Information Service | firm | renamed | Cision (2007+) |
+
+### Technologies Referenced (3)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| CA Corporate Governance Reform package 2001 | framework | Computer Associates | emerging | obsolete |
+| Proxy fight (corporate governance) | framework | industry | production | mature |
+| CA enterprise-software portfolio (2001) | platform | Computer Associates | production | obsolete |
+
+### Observation Summary
+
+- Total observations: 11
+- By type: market-data: 6, expert-opinion: 2, actual-outcome: 2, personal-recollection: 1

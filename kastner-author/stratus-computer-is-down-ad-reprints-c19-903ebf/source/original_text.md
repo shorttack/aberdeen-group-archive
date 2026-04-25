@@ -1,0 +1,285 @@
+# Stratus 'The computer is down' ad reprints (Continuous Processing campaign, c.1984-1985)
+
+> Archived from: Computer-is-down-adds-Stratus-7.pdf
+> Original publication date: 1985-01-01
+> Author: Stratus Computer marketing (Kastner-era; Kastner named in copy as direct contact)
+
+---
+
+## Original Document Text
+
+“The computer is down.”
+Relative Price Performance Index
+• Computer world, August 20. 1984
+STRATUS IBM HP 3000 DEC
+XA400_______4381________ 68 VAX-11/782
+RELATIVE
+PERFORMANCE*
+125
+100
+64
+109
+PRICE
+$446,350
+$707,897
+$437,754
+$656,889
+PRICE
+PERFORMANCE
+$ 3,571
+$ 7.079
+$ 6.840
+$ 5,999
+All systems are comparably configured with identical amounts of memory, disk
+space, and communication lines But, only the Stratus price includes fault tolerance.
+As manufacturing edges
+toward a total commitment
+to computers, it is coming
+face to face with a terrifying
+reality: Lack of reliability.
+The computer industry
+reliability standard of 98.5%
+means that your computer­
+ized manufacturing system
+will go down once every 
+two weeks on a statistical average.
+This is unthinkable for modern
+manufacturing.
+It is for this reason that many
+companies, from those who are plan­
+ning a "factory of the future" to those
+who just want foolproof shop floor
+data collection, are taking note that
+Stratus computers are designed not
+to fail; not once every two weeks, or
+once every 200 weeks, or once every
+2000 weeks!
+Stratus: The fault tolerant
+standard of the computer industry.
+As it has already succeeded in the
+business, banking, and brokerage
+worlds, Stratus is now making its
+mark on the plant floor. Its acceptance
+in this arena is, in part, due to its
+acceptance as the de facto standard
+of fault tolerance. Not only our cus­
+tomers but industry analysts look to
+Stratus as the standard meeting
+today’s requirements. This inspires
+the confidence that manufacturers
+need. When you're thinking millions
+or tens of millions of dollars for a
+modern new factory, you need that
+confidence.
+Stratus has the power, networking
+ability, and expandability of
+the best names in the
+computer industry.
+Stratus should not be looked
+at merely as a fault tolerant
+specialist, but as a total com­
+puter that includes fault
+tolerant abilities. In an overall
+price/performance compari­
+son against IBM, DEC, and
+Hewlett Packard, Stratus led
+the pack.
+Stratus offers the best
+transaction processing capa­
+bilities for your plant floor. It is de­
+signed to fit into a total planning
+and operating system.
+It is the one computer that can do
+everything you need, while putting
+you at ease as you move your plant
+floor into total computerization.
+For information, contact your local
+Stratus sales office, or call Peter
+Kastner in Massachusetts at (617)
+460-2192, or toll-free at 1-800-752-4826.
+w » w ®
+CONTINUOUS PROCESSING'”
+Now that the world relies on computers
+it needs a computer it can rely on.
+
+ 
+WHY THE'I COMPANIES HAVE CHOSEN
+THE *2 FAULT TOLERANT COMPUTER COMPANY.
+America’s largest car makers, banks, brokerages, and some of the U.S. government’s
+key installations have chosen to depend on Stratus Computer, Inc. for their newest, most
+critical on-line applications. Even the world's largest computer companies have put their
+names on Stratus fault tolerant computers.
+Why was Stratus picked over its larger fault tolerant competitor? It is because Stratus
+has quickly proven that its hardware-based fault tolerance is the superior approach to
+reliability. It is because Stratus computers have demonstrated outstanding throughput
+and expandability for large-scale networks. It is because of Stratus’ ease of programmabil­
+ity, its range of software, its innovative service technology, its customer education.
+It is for many reasons that all center around one word-reliability. Because after all,
+when you want to be known for reliability, you have to excel in everything you do.
+As we move into an age of greater and greater computer dependency, many of the
+giants of business and industry are lining up with the one they have decided is better,
+Stratus. Apparently they prefer to do their thinking for themselves. Perhaps that’s how you
+get to be a giant. For information call Peter Kastner in Massachusetts at (617) 460-2192,
+or toll-free at 1-800-752-4826. For a copy of our annual report,
+=
+ _
+write: Marketing Communications, Stratus Computer, Inc.,
+55 Fairbanks Blvd., Marlboro, MA 01752. wi m w■
+CONTINUOUS PROCESSING
+Now that the world relies on computers it needs a computer it can rely on.
+
+NEW YORK
+LONDON
+FOUR UTTLE WORDS THAT STRI
+FEARIN THE HEARTS OF BROKE
+“The computer is down.’’
+Circle No. 50 on Reader Service Card
+AU systems are comparably configured with identical amounts of memory, disk
+space, and communication lines. But, only the Stratus price includes fault tolerance.
+Relative Price Performance Index
+‘Computerworld, August 20,1984
+redundancy is in expensive software,
+this is true. But Stratus has hardware­
+based fault tolerance that takes advan­
+tage of the extraordinary advances in
+chip technology. The result-price drops.
+The fact of the matter is, our hardware
+redundancy adds a mere fraction to our
+cost, and absolutely nothing to your pur­
+chase price. What’s more, in overall
+price/performance comparisons against
+the top computer names, including IBM,
+DEC, and Hewlett Packard, Stratus was
+at the front of the pack, despite the fact
+that it included fault tolerance, while the
+others didn’t.
+It is ironic that when we
+become dependent on com­
+puters, we are at their mercy. As
+more and more companies go
+on line, the industry reliability
+standard of 98.5% becomes
+unacceptable because it means
+your computer is liable to go
+down once every two weeks,
+on a statistical average.
+So, if you are a broker, banker, man­
+ufacturer, or businessman who relies
+on your computer more and more, take
+note: Stratus Computers are designed
+not to fail; not once every two weeks, or
+once every 200 weeks, or once every
+2,000 weeks!
+Debunking The Myth That All Fault
+Tolerant Computers Cost More.
+It is a common and reasonable
+assumption that because there is re­
+dundancy (extra programming, or extra
+components) in fault tolerant computers,
+that makes them cost more. Where the
+Why Stratus May Be The
+Best Computer For The
+Times. For The Money.
+Considering its showing in
+overall price/performance com­
+parisons against the most suc­
+cessful computers. Stratus must
+be considered. And when you
+take into account the added 
+efficiency and security of fault tolerance,
+and the fact that it is the world's most
+powerful fault tolerant transaction pro­
+cessing computer, Stratus truly becomes
+impossible to ignore. In the 1980’s Stratus
+simply is the right computer, at the nght
+price. For information, contact your local
+Stratus sales office, or call Peter Kastner
+in Massachusetts at (617) 460-2192 or
+toll-free at 1-800-752-4826.
+CONTINUOUS PROCESSING'
+Now that the world relies on computers
+it needs a computer it can rely on.
+STRATUS IBM HP 3000 DEC
+XA400 4381________ 68 VAX-11/'
+RELATIVE
+PERFORMANCE*
+125
+100
+64
+109
+PRICE
+$446,350
+$707,897
+$437,754
+$656,889
+PRICE
+PERFORMANCE
+$ 3,571
+$ 7,079
+$ 6,840
+$ 5,999
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | stratus-computer-is-down-ad-reprints-c19-903ebf |
+| title | Stratus 'The computer is down' ad reprints (Continuous Processing campaign, c.1984-1985) |
+| author | Stratus Computer marketing (Kastner-era; Kastner named in copy as direct contact) |
+| date | 1985-01-01 |
+| type | advertising-collateral |
+| subject_domain | fault-tolerant-computing-marketing |
+| methodology | advertising-content |
+| source_file | Computer-is-down-adds-Stratus-7.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Compilation of Stratus 'The computer is down' magazine advertisements from the Continuous Processing campaign, circa 1984-1985 (cites Computerworld August 20, 1984 as source for relative price/performance index). The ads compare Stratus XA400 (relative performance 125, price $446,350, $/TPS $3,571) against IBM 4381 (perf 100, $707,897, $7,079), HP 3000 68 (perf 64, $437,754, $6,840), and DEC VAX-11/782 (perf 109, $656,889, $5,999). Targets brokers, bankers, manufacturers, and businessmen with the message that Stratus is designed not to fail vs. industry 98.5% reliability standard (which means failure once every two weeks). Lists Peter Kastner in Massachusetts at (617) 460-2192 (toll-free 1-800-752-4826) as the marketing contact — confirming Kastner's authorial role in the campaign during his Stratus employer era. Themes: 'Now that the world relies on computers it needs a computer it can rely on'; 'Continuous Processing'; positioning vs Tandem with hardware redundancy in chip technology.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Direct evidence of Kastner's role at Stratus: his name and direct phone number appear in a major national ad campaign. Captures the price/performance messaging that Stratus used to challenge IBM/DEC/HP and to differentiate from Tandem on hardware-vs-software fault tolerance. Foundational artifact for the Stratus chapter of Kastner's memoir. |
+| **Relevance** | medium | The Continuous Processing concept (HW pair-and-spare) remains in production in modern Stratus systems. The competitive set (IBM 4381, HP 3000 68, DEC VAX) is obsolete but the price/performance benchmarking template is still industry-standard. The 'computer is down' concern translates to modern uptime SLAs (99.999%, 99.9999%). |
+| **Prescience** | high | The ad anticipates the criticality of always-on computing for commerce — the line 'when we become dependent on computers, we are at their mercy' preceded by decades the actual emergence of the always-on internet economy where minutes of downtime cost millions (e.g., Amazon ~$220K/minute, NYSE ~$1.4M/minute as of 2020s). |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Stratus Computer | company | acquired | Stratus Technologies (now Penguin Solutions) |
+| Peter S. Kastner | person | active |  |
+| IBM Corporation | company | active |  |
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998), then HP (2002) |
+| Hewlett-Packard | company | split | HP Inc. and Hewlett Packard Enterprise (2015) |
+| Tandem Computers | company | acquired | Compaq (1997), then HP (2002) |
+| Computerworld magazine | publication | active | Foundry → Insider Inc. (now ITPro Today) |
+
+### Technologies Referenced (5)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Stratus XA400 | platform | Stratus Computer | production | obsolete |
+| IBM 4381 | platform | IBM | production | obsolete |
+| HP 3000 series 68 | platform | Hewlett-Packard | production | obsolete |
+| DEC VAX-11/782 | platform | Digital Equipment Corp. | production | obsolete |
+| Stratus Continuous Processing | architecture | Stratus Computer | production | mature |
+
+### Observation Summary
+
+- Total observations: 10
+- By type: market-data: 6, expert-opinion: 2, personal-recollection: 1, actual-outcome: 1

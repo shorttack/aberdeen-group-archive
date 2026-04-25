@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "CA Team Victorious \u2014 'New' CA emerges from proxy battle with outside monitors and more",
+  "description": "eWeek (September 3, 2001) by Stan Gibson reports on Computer Associates International's victory over investor Sam Wyly's Ranger Governance Ltd. (Dallas) proxy fight. Wyly had argued CA's stock was underperforming and that Chairman Charles Wang and President/CEO Sanjay Kumar enriched themselves while CA employees were alienated and customers disaffected. Wyly initially proposed ousting all 10 directors. CA management upheld by 75% of votes cast (preliminary tally). To elicit shareholder support, CA made several long-overdue moves: hiring outside consultants to monitor CA governance and employee-relations practices; seeking additional outside board members; Kumar saying 'We want to be good governance people. We should have governance folks come to the board meeting.' Quote from Peter Kastner, analyst at The Aberdeen Group, Boston: 'CA's management has changed because the imbroglio gave institutional investors the chance to ask CA, what is going on here?' Two PDF scans of the same article in this submission (different scan-quality of the same eWeek issue, including Bacon's Information Service masthead clipping in one).",
+  "creator": {
+    "@type": "Person",
+    "name": "Stan Gibson (eWeek)"
+  },
+  "datePublished": "2001-09-03",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

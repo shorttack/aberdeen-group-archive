@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital Equipment Loses Another of Its Top Officials (DEC CFO William Steul resigns)",
+  "description": "New York Times article (May 1994 by Glenn Rifkin) on the resignation of Digital Equipment Corp. CFO William M. Steul. Companion to Aaron Zitner's Boston Globe coverage. Notes Steul named CFO by founder Ken Olsen in June 1992, weeks before the board asked Olsen to resign as president; rise was controversial because Steul 'had not worked in the finance operation for more than a decade.' Robert Palmer succeeded Olsen and retained Steul. Other recent departures: Edward Lucente (worldwide sales/marketing VP), Edward McDonough (manufacturing VP), Winston Hindle (quality/ethics/business practices VP) \u2014 DEC spokesperson said McDonough/Hindle were planned retirements. Mullarkey (23-year DEC veteran) becomes new CFO. Quote from Franc Romano (Aberdeen Group, former DEC finance manager and market research director, now a consultant): Steul had stepped into a job 'that nobody in the company wanted.' Recent $183M Q3 loss; Palmer 'caught by surprise by the severity of the loss'; analysts speculated Steul might have been 'a victim of that debacle' as Palmer 'sought stronger financial leadership.'",
+  "creator": {
+    "@type": "Person",
+    "name": "Glenn Rifkin (The New York Times)"
+  },
+  "datePublished": "1994-05-19",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

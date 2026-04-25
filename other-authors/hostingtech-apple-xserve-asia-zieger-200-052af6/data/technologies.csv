@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","emerging","obsolete","hostingtech-apple-xserve-asia-zieger-200-052af6","1U rack-mount server running Mac OS X (Unix-based); Apple's first dedicated server hardware product; discontinued January 2011"
+"apple-mac-os-x","Apple Mac OS X (server)","platform","Apple Computer","2001-present","production","mature","hostingtech-apple-xserve-asia-zieger-200-052af6","Unix-based OS; addressed enterprise concerns about Apple's historically proprietary OS"
+"ata-drive-technology","ATA (PATA/IDE) drive technology","platform","industry","1980s-2010s","production","obsolete","hostingtech-apple-xserve-asia-zieger-200-052af6","Apple chose ATA over more expensive SCSI for Xserve, enabling lower storage cost"
+"network-attached-storage","Network-Attached Storage (NAS)","category","industry","1990s-present","production","mature","hostingtech-apple-xserve-asia-zieger-200-052af6","Standalone storage devices; Xserve compared favorably for storage-plus-server cost"

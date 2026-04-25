@@ -1,0 +1,123 @@
+Costs Plummet
+Digital Equipment
+• 27 tps with relational database
+1500 -
+• TPC-A like
+1000 -
+• 85% price decline in 3.5 years
+500 -
+S280K
+o
+VAX 3100-80
+5 Year Costs ($000)
+2000
+VAX 8830
+1988 Best performance
+1992 Entry Level
+Aberdeen Group
+
+
+Yield No Obvious Patterns
+Selected TPC-A Results
+40 tps-A with a relational database
+
+
+Selected TPC-B Results:
+Systems showing 39.7 - 46 tps-B
+2/92
+Aberdeen Group
+
+
+Thousands of dollars/TPS
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+TPC-A03 09/16/91
+HEWLETT
+PACKARD
+TPC-A Benchmarks
+5 10 15 20 25 30 35 40 45 50 55 60 65 70 75
+Transactions per second (TPS)
+HP 9000
+HP 3000
+IBM
+RS/6000
+DEC
+VAX
+
+
+DOPS Environment
+User
+User
+DATA
+User
+Front End
+Network
+User
+User
+TP Application System
+Front End
+User
+User
+Application
+Services
+Application
+Services
+Data
+Services
+User
+Services
+User
+Services
+TP Application System
+User
+User
+User
+DATA
+User
+Data
+Services
+User
+Front End
+User
+Services
+• End-to-End
+Response Time
+• Multiple Databases
+• Multiple Networks
+• Heterogeneous
+Hardware
+• Mixed OLTP & OLDS
+Aberdeen Group
+
+
+DOPS Performance Issues
+• Transactions vs
+Queries
+• Production, Snapshot,
+Test, Runamuck DBs
+• What does the
+client do?
+• What does the
+front end do?
+• No textbook answers
+Aberdeen Group
+
+
+Conclusions
+There's enough technology now to cause chaos
+Maturity is still a few years away
+Buyers are facing distributed production system problems...
+without a lot of help available yet
+Industry-standard benchmarks offer no short-term solace
+Every buyer's situation is different
+Plenty of career opportunities!
+Aberdeen Group

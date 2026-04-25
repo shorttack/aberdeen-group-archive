@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"debitcredit-et1-tp1","DebitCredit / ET-1 / TP-1 benchmark","framework","industry-consortium","1985-1989","emerging","obsolete","tandem-tr-85-2-debitcredit-1985-ca207a","Precursor to TPC-A; simple interactive transaction per second measure"
+"sort-benchmark","Sort benchmark","framework","industry","1985-present","production","mature","tandem-tr-85-2-debitcredit-1985-ca207a","Elapsed-time batch I/O benchmark defined in this paper"
+"scan-benchmark","Scan benchmark","framework","industry","1985-present","production","legacy","tandem-tr-85-2-debitcredit-1985-ca207a","Bulk data-movement I/O utility benchmark"
+"tps","Transactions Per Second (TPS) metric","framework","industry-consortium","1985-present","emerging","mature","tandem-tr-85-2-debitcredit-1985-ca207a","Throughput measure defined in this paper; adopted by all TPC benchmarks"
+"5-year-tco","5-Year Capital Cost (TCO) metric","framework","industry","1985-present","emerging","mature","tandem-tr-85-2-debitcredit-1985-ca207a","Price definition: 5-year system equipment capital cost excluding comms/terminals/dev/ops"
+"tpc-a","TPC-A benchmark","framework","Transaction Processing Performance Council","1989-1995","future","obsolete","tandem-tr-85-2-debitcredit-1985-ca207a","Standardized successor to DebitCredit, announced by TPC 1989"
+"tpc-c","TPC-C benchmark","framework","Transaction Processing Performance Council","1992-present","future","mature","tandem-tr-85-2-debitcredit-1985-ca207a","Order-entry OLTP benchmark; 4th-generation descendant of DebitCredit"

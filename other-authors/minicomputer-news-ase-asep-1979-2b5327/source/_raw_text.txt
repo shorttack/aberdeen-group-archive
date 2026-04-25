@@ -1,0 +1,71 @@
+System saves $ for thrifty night owls
+CAMBRIDGE, MA — Consumers may
+soon play a greater role in determining
+what they pay for electrical power.
+The reason? Increased use by utility
+companies of time-of-day rates, which,
+like those used by phone companies,
+charge more during the day when usage is
+high than at night.
+Time-of-day rates will enable con­
+sumers to save money by putting off ac­
+tivities, such as using washing machines,
+driers and water heaters, until evenings or
+weekends.
+“A small life-style change may be nec­
+essary to benefit from time-of-day rating
+but we feel that people will make that
+change, because it will reduce their elec­
+trical costs,” said Ralph Abbott, VP of
+American Science & Engineering, here.
+AS&E developed a two-way communica­
+tions system — ASEP — that allows utili­
+ty companies to implement time-of-day
+rates. The system is controlled by a Data
+General Eclipse S-230 minicomputer with
+256K core memory.
+Utilities in about 12 states now use such
+systems on experimental bases, and the
+Department of Energy estimates that most
+states will be using time-of-day rates with­
+in five or six years.
+“Time-of-day rating is gaining in­
+creased acceptance because it benefits the
+consumer, allows the utility company to
+level off the power it must generate and,
+because it reduces the amount of oil
+needed to provide that power, it also aids
+our national goal of energy conservation,”
+said Dr. Martin Annis, president of
+AS&E.
+One of the first utilities to use the ASEP
+systems for time-of-day metering, the
+Florida Power Corp., will soon begin test­
+ing a dynamic rate system that will charge
+customers peak rates only when peak
+levels are actually reached. The ASEP sys­
+tem allows individual meter usage to be
+checked as often as every 30 minutes or as
+infrequently as once each month.
+Because it is a two-way system, ASEP
+prevents electrical brownouts and black­
+outs and it operates over powerlines, a
+communications medium already in place.
+“If electrical usage reaches dangerous
+levels,” said Abbott, “the system is ca­
+pable of turning off blocks of non-essential
+electrical loads. By doing this a major
+problem could be averted, with customers
+suffering only a minor inconvenience.”
+Florida Power and the Florida Power
+and Light Co. also plan to use the system
+to control residential air conditioning and
+heating systems and electrical water heat­
+ers. Wisconsin Electric Power uses ASEP
+to control water heaters in 154,000 homes
+in addition to remotely metering certain
+customers. Utility companies in Missouri,
+New Jersey. Minnesota and California
+have also implemented the system.
+^**"^——*—•*.......... ’ 1 ■"
+.................... ”

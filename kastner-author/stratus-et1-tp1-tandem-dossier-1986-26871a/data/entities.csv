@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","stratus-et1-tp1-tandem-dossier-1986-26871a","Kastner's Stratus employer (marketing/sales support)"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997), then HP (2002)","1974-2002","stratus-et1-tp1-tandem-dossier-1986-26871a","Stratus competitor"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","stratus-et1-tp1-tandem-dossier-1986-26871a","Aberdeen Group co-founder, VP/EVP/CRO; prior: PHI, Wang, ADL, Prime, Stratus, DEC"
+"bill-ojile","Bill Ojile","person","fault-tolerant-computing-sales","unknown [REVIEW]","","1985-1990s","stratus-et1-tp1-tandem-dossier-1986-26871a","Stratus Computer Minneapolis office; Kastner correspondent on Tandem competitive analysis"
+"management-information-corp","Management Information Corporation (MIC)","firm","IT-market-research","unknown [REVIEW]","","1980s-1990s","stratus-et1-tp1-tandem-dossier-1986-26871a","Source of May 1985 Stratus configuration pricing report cited in Tandem circular"
+"data-decisions","Data Decisions","firm","IT-market-research","unknown [REVIEW]","","1980s","stratus-et1-tp1-tandem-dossier-1986-26871a","Source of December 1984 pricing report cited"

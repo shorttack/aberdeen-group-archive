@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tandem-nonstop-txp","Tandem NonStop TXP","platform","Tandem Computers","1983-1990","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","5 tps/CPU ET-1; 2 MIPS; key competitive target for Stratus"
+"tandem-nonstop-ii","Tandem NonStop II","platform","Tandem Computers","1981-1988","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","1.75 tps/CPU ET-1; 0.8 MIPS"
+"tandem-nonstop-ext","Tandem NonStop EXT","platform","Tandem Computers","1984-1989","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a",""
+"stratus-xa600","Stratus XA600","platform","Stratus Computer","1985-1990","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","5 TP-1 tps; 3 MIPS per duplexed pair"
+"stratus-xa400","Stratus XA400","platform","Stratus Computer","1985-1990","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","3.4 TP-1 tps; 2 MIPS"
+"stratus-ft200-250","Stratus FT200/FT250","platform","Stratus Computer","1984-1988","production","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","1.7 TP-1 tps; 0.7 MIPS"
+"debitcredit-et1-tp1","DebitCredit / ET-1 / TP-1 benchmark","framework","industry-consortium","1985-1989","emerging","obsolete","stratus-et1-tp1-tandem-dossier-1986-26871a","Shared benchmark definition — same test, different vendor naming"

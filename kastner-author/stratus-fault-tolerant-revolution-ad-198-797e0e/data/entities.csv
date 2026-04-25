@@ -1,0 +1,5 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","stratus-fault-tolerant-revolution-ad-198-797e0e","Kastner's Stratus employer (marketing/sales support)"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997), then HP (2002)","1974-2002","stratus-fault-tolerant-revolution-ad-198-797e0e","Stratus competitor"
+"computerworld","Computerworld (IDG)","institution","IT-trade-press","active","","1967-present","stratus-fault-tolerant-revolution-ad-198-797e0e","Publication carrying the Stratus/32 launch advertisement"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","stratus-fault-tolerant-revolution-ad-198-797e0e","Aberdeen Group co-founder, VP/EVP/CRO; prior: PHI, Wang, ADL, Prime, Stratus, DEC"

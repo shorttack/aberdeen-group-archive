@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Fault Tolerant Revolution \u2014 Stratus/32 launch advertisement",
+  "description": "Full-page Computerworld launch advertisement for the Stratus/32 Continuous Processing system circa mid-1981 \u2014 the advertising debut of Stratus Computer's hardware-based approach to fault tolerance. The ad contrasts Stratus's duplicate-hardware, tightly-coupled lockstep design with Tandem's software-checkpoint approach, claims price/performance competitive with non-fault-tolerant systems, and quotes a fully-duplexed configuration at under $130,000 including software. Artifact from Kastner's Stratus marketing tenure; documents the company's first broad-market positioning statement.",
+  "creator": {
+    "@type": "Person",
+    "name": "Stratus Computer, Inc. (marketing; Peter S. Kastner era)"
+  },
+  "datePublished": "1981-07-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

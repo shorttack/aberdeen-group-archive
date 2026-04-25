@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp","Online Transaction Processing","framework","industry","1970s-present","mature","mature","aberdeen-press-advisory-kastner-appointm-efd58c","Kastner's primary analytic focus at Aberdeen"
+"workgroup-computing","Workgroup Computing / Workgroup OLTP","framework","industry","1988-1995","emerging","mature","aberdeen-press-advisory-kastner-appointm-efd58c","Kastner 'first to predict' emergence per Casale"
+"distributed-architecture","Distributed Computing Architectures","framework","industry","1980s-present","emerging","mature","aberdeen-press-advisory-kastner-appointm-efd58c","Logan's analytical focus"
+"unix","UNIX operating system family","platform","AT&T / multiple","1969-present","production","mature","aberdeen-press-advisory-kastner-appointm-efd58c","Dunkle's beat; cross-cutting across Aberdeen practices"

@@ -1,0 +1,600 @@
+# Stratus Sales Support Competitive News, Vol 6 No 3, May 1987 — Tandem Competitive Update (CLX/LXN, VLX, EXT/TXP price cuts)
+
+> Archived from: 1987-May-Stratus-on-Tandem-Product-Updates-2.pdf
+> Original publication date: 1987-05-01
+> Author: Peter S. Kastner, Editor (Manager, Sales Support Programs, Stratus); Raphael Frommer, contributor
+
+---
+
+## Original Document Text
+
+Volumes Numbers
+May, 1987
+Peter Kastner, Editor
+This document is Stratus Confidential and Proprietary for Internal Use Only. Stratus management
+believe in fair and open competition; accordingly, Stratus personnel should rely on the quality and
+merits of Stratus products and services and refrain from making misleading statements about
+competitor's products.
+TANDEM COMPETITIVE UPDATE
+Tandem has added new low end and high end products, cut prices, and
+cut performance to go with a new SQL database product. While the
+basics haven't changed, I recommend you study the attached two papers.
+My thanks to Raphael Frommer and the regional Tandem Experts for their
+assistance in preparing these papers. Raphael, your regional Tandem
+Expert and I would be interested in any further details or competitive
+situations involving the products discussed in this letter.
+As usual, the competitive work is never done. We'll prepare a
+competitive update on the CLX low end price/performance as we receive
+more information.
+For archival storage, competitive updates will be stored in
+%mktg#m9>SESC>doc>competitive_updates.
+In spite of Tandem's numerous announcements, Stratus maintains a strong
+competitive position, and I look forward to hearing about your selling
+successes.
+Regards,
+Peter Kastner
+Manager, Sales Support Programs
+Marlboro x2192
+o
+"Business has only two basic functions—marketing and innovation."
+
+
+STRATUS CONFIDENTIAL STRATUS CONFIDENTIAL STRATUS CONFIDENTIAL
+Tandem Competitive Update
+Network Extenders CLX and LXN
+New VLX Models
+Price Cuts for EXT/TXP Line
+May 29, 1987
+Raphael Frommer
+Introduction
+On April 20, 1987 Tandem announced the CLX and LXN, two
+new low end hardware products positioned as "network
+extenders". These machines are designed, in Tandem's words,
+for installation in bank branches, retail chain stores,
+warehouses, gas stations and the like. Quantity discounts
+(25+) have been established for both in the hope that customers
+will purchase large numbers to construct hierarchical Tandem
+networks, with VLX and TXP machines at the top. The CLX and
+LXN, together with EXT-10 and Tandem terminals/PCs, will be
+sold through Tandem's direct sales force, with assistance from
+"distributed system product reps", who've been in the field
+since July of 1986.
+On May 4, 1987, Tandem announced new smaller VLX
+configurations (2 and 3-cpu models), and lower prices for its
+TXP and EXT 10/25 lines. These price cuts are at least in part
+inspired by the as yet unshippable CLX. The smaller VLX models
+make top-of-the-line technology attainable by a wider audience.
+Previously, the minimum VLX model (4-cpus) was just over $1
+million. Now it is "just" $585K (without software).
+Significantly, reduced prices have been offset by quietly
+restated ET-1 performance figures accompanying March's NonStop
+SQL announcement. The new, NonStop SQL-based transaction
+protected ratings are 2, 4.5 and 6.5 tps/cpu for NS-II/EXT10,
+TXP/EXT25, and VLX, respectively, with 90%-ile response time
+relaxed to 2 seconds (the specification calls for subsecond
+response time). Why the new response time criterion? In Fault
+Tolerant Systems Newsletter No. 55 (March 16, 1987), Omri
+Serlin reports: "The official reason given is that this permits
+a comparison across the entire product line, including low end
+systems, which cannot meet the more stringent response time
+constraint."
+LXN
+Tandem is now a two operating system company. GUARDIAN
+remains the mainstay, but the new M68020-based LXN, an Altos
+3068-based product available only through Tandem, runs Unix
+System V Release 2. Not fault tolerant, it has only limited
+"high availability" features, an optional 5-minute
+Uninterruptible Power System ($1995) and disk file duplexing
+(disk controllers are not duplexed). The LXN is available
+immediately in unit quantities for $23,700 (with 2MB, an 80MB
+’age
+1
+Stratus Confidential
+May 19, 1987
+
+
+disk, a 5-1/4" floppy, and 10-port communications controller),
+and in quantity 25 for $18,012 under the Networking Discount
+Plan. It is expandable to 16MB of memory and 510 MB of disk,
+servicing a maximum of 32 users. Promised in the future is an
+Ethernet controller, with support for TCP/IP protocol.
+Tandem characterizes the LXN as a 2.3 MIP machine
+(exceeded only by the top-of-the-line VLX cpu), yet has not
+published a transaction per second rating. Is Tandem
+intentionally protecting the rest of its home-grown product
+line by not disclosing what very well may be its best
+transaction price/performance?
+Prospects will have legitimate concerns on how
+applications on the LXN integrate into existing Tandem
+networks. Although LXN-attached terminals can access
+applications running on a GUARDIAN machine, and file transfers
+are possible via SNAX, differences in the operating systems
+force the application programmer to use low-level SNA or
+X.25-based process to process techniques.
+A desire to better penetrate the US government might have
+been an impetus in Tandem's unprecedented reselling of another
+company's product, but inspires a question: Can the 32-user LXN
+respond to high-end government UNIX application needs? And
+what of Tandem's traditional claim to fame, fault tolerance?
+Fault tolerance is second rate in the GUARDIAN line as compared
+to us and hardly visible in the LXN.
+Time will tell how well Tandem can market this
+"customized" UNIX product against other less costly UNIX
+offerings. Its future success probably depends upon Tandem's
+ability to better integrate it into GUARDIAN networks. Rumors
+about a new software integration product have been flying, but
+no public announcements have been made.
+CLX
+This product is the more interesting of the two because it
+does run GUARDIAN and all current Tandem applications, and
+incorporates a few features previously exclusive to Stratus.
+To run Tandem's proprietary machine code, the CLX incorporates
+a new custom CMOS processor with internal comparators for
+improved error detection. Elsewhere, Motorola 68000 and 68010
+are used, occasionally in paired configurations with
+comparators. Stratus prospects need to understand that
+Tandem's trend toward proven comparator-based self-checking
+design is not a departure from their software approach to
+hardware fault tolerance. Checkpointing is still critical;
+there's no hint of duplexed, lockstepped components.
+Like the aging EXT10/25 product line, the CLX is a "limited
+expansion" product, not configurable to the traditional 16 cpu
+limit. Its 20MB/sec Dynabus is not advertised as being
+compatible with any other Tandem machine, even though the VLX
+Dynabus runs at the same speed. Consequently, co-existence
+’age
+2
+Stratus Confidential
+May 19, 1987
+
+
+with other Tandem equipment will depend upon an EXPAND network
+connection. In 4Q87 the two cpu model 620 will be available,
+and will provide 5 NonStop SQL ET-1 tps at a unit quantity cost
+of $85,000 (less software). The network (qty 25-39) unit price
+will be $59,500. In 1Q88 the 4-cpu model 640 will provide 10
+tps at a unit quantity cost of $161,000; network unit price is
+$112,700. In 2Q88 the CLX line will be rounded out by two
+final models. The 660, with six cpus, will run 15 tps for
+$240,000; network unit price is $168,000. A uniprocessor,
+non-fault tolerant 2.5 tps model 610 will provide the lowest
+entry price into the GUARDIAN line at $57,000; network unit
+price is $39,900.
+Tandem claims that expert system-based diagnostics,
+coupled with much improved packaging in a four square foot
+cabinet (610 or 620 take one cabinet, 19"W * 30"D * 55"H, the
+640 and 660 require additional cabinets) contribute to 98%
+user-serviceability. Consequently, they are offering . a
+cooperative maintenance plan for the first time, complete with
+phone-home to the Tandem National Support Center. Monthly
+charges for the 610 and 620 are $190 and $260, respectively.
+Assuming a per-cpu cost of $8,000 for GUARDIAN XL
+(GUARDIAN 90, ENCOMPASS, NonStop SQL, TRANSFER, PS MAIL,
+EXPAND), the following price/performance table can be
+constructed:
+o
+Model
+TPS
+P/P ($/tps)
+610
+2.5
+$26, 000
+620
+5.0
+$20,200
+640
+10.0
+$19,300
+660
+15.0
+$19,200
+Comparison to
+Stratus systems is complicated
+by a combination
+of factors. First, our ET-1 measurements to date have been
+based on our file system, not ORACLE, our SQL environment.
+Second, Tandem finds it necessary to turn on transaction
+protection to achieve s/w-based fault tolerance (FT is
+transparently achieved in Stratus h/w and protection is not
+explicitly called for in the ET-1 specification). Moreover,
+performance changes with cpu failure on the Tandem
+configurations (and totally stops with the 610!), so the above
+figures are for "all cylinders firing". Lastly, we're not sure
+exactly how much disk accompanies these yet-to-be-delivered
+configurations, further hampering an apples-to-apples
+comparison. Research continues; a future Competitive Update
+will compare P/P of existing Stratus products to the CLX.
+’age
+3
+Stratus Confidential
+May 19, 1987
+
+
+New VLX Models
+No longer does a customer need to pay $995,275 (H/W) +
+$44,000 (S/W) for a workable, 4-cpu VLX minimum system. Now
+one can buy the models 312 or 313, each with 8MB/cpu and 1.6GB
+of disk (an XL4).
+Model
+H/W ONLY
+Base Price
+GUARDIAN 90XF
+Total
+SQL
+ET-l/sec
+P/P
+312
+$585,000
+$22,000
+$607K
+13
+$46.7K
+313
+$759,000
+$33,000
+$792K
+19.5
+$40.6K
+In addition, Tandem has announced four packaged systems
+for users requiring upwards of 50 SQL ET-l/second, and has
+furnished exact prices for just the smallest and largest.
+Perhaps Tandem perceives some psychological benefit in formally
+announcing multimillion dollar configurations that threaten the
+very foundations of mainframe-dom. It just could backfire in
+certain account situations, when mainframe competitors become
+increasingly annoyed by the blatant Tandem threat. It is
+unlikely that typical Stratus customers will consider the four
+new models on the Tandem pricelist:
+Price Cuts for TXP/EXT Products
+Model
+# of
+CPUs
+ET-1
+rating
+Package Price
+801
+8
+50
+$2,141,000
+802
+16
+100
+estimated by us to be $4,000,000
+803
+24
+150
+estimated by us to be $6,000,000
+804
+32
+200
+$8,564,000
+Most signficant for the typical Stratus prospect are these
+cuts, as they affect bread-and-butter, shippable products
+providing the best price/performance of the (deliverable)
+Tandem line. Keep in mind that the cuts are accompanied by
+more conservative SQL-based ET-1 ratings, having the effect of
+leaving the old P/P ratios largely unchanged. Note that the
+prices below do not include any software.
+Model
+Description
+Old
+Price/ET-1
+New
+Price/ET-1
+202
+2-TXP Pkg,16MB,V4,125ips
+$399K/11
+$299K/9
+203
+3-TXP Pkg,24MB,V4,200ips
+$531K/16.5
+$446K/13.5
+204
+4-TXP Pkg,32MB,XL4,200ips
+$697K/22
+$593K/18
+294
+EXT10 Base System, QTY 1
+$82.5K/4.3
+$74.9K/4
+294N EXT10 Base System, QTY 25-39
+unavailable
+$59.2K/4
+296
+EXT25 Base System, QTY 1
+$325K/11
+$250K/9
+296N EXT25 Base System, QTY 25-39
+unavailable
+$167K/9
+4
+Stratus Confidential
+May 19, 1987
+
+
+o
+Summary
+Tandem's hardware announcements have received considerable
+publicity, but ought not impact your chances of winning in a
+major way. The price/performance advantage you've
+traditionally been able to provide is still there.
+In the future, NonStop SQL will provide high level DBMS
+functionality for brand new Tandem applications, but will do so
+at increased cost compared to VOS/TPF/FMS. Be prepared for
+Tandem's ploy of forcing a price/performance comparison to
+ORACLE instead. Tandem will undoubtedly dismiss any VOS file
+system price/performance edge as being lost when the programmer
+productivity cost savings of NonStop SQL are weighed. The
+value of NonStop SQL's features can not be dismissed, but
+suggest that, as your customer must wait anyway, s/he might as
+well wait for an implementation as affordable as our native
+file system is today. The vendor likely to provide full
+function RDBMS at a reasonable price will be us, not Tandem.
+Improvements in packaging and service are coming in the
+CLX, just one segment of Tandem's product line, but Stratus
+delivers the industry's best service on all its products today.
+Tandem's relaxation of the ET-1 response time requirement can
+be interpreted as a vote of no confidence in its low end
+machines for general purpose transaction processing. Indeed,
+Tandem has called the CLX (and LXN) a "network extender",
+relegating to it a subset of the functions undertaken by the
+more powerful TXP and VLX systems. This approach has merit, no
+doubt, but tends to niche the CLX. It is a viable competitor to
+the more expandable FT250, but little else.
+The success of Tandem's LXN and its impact on Stratus is
+hard to predict. Though it features a more fully compliant
+UNIX operating system than USF, its power, even in the largest
+configurations, is clearly limited. The extent of its
+integration into GUARDIAN systems is likewise limited. And
+perhaps its hidden transaction processing power is
+embarrassingly high (as compared to GUARDIAN products), forcing
+Tandem to niche it purely to a networking role.
+’age
+5
+Stratus Confidential
+May 19, 1987
+
+
+STRATUS CONFIDENTIAL STRATUS CONFIDENTIAL STRATUS CONFIDENTIAL
+Introduction
+Competitive Update: NonStop SQL
+April 20, 1987
+Raphael Frommer
+Last month Tandem announced its strategic new RDBMS
+product, NonStop SQL, and simultaneously provided benchmark
+results. Their main message is that this strategic product
+provides users with all the functional benefits of the
+relational approach as well as high performance in a
+distributed fault tolerant environment. They have admitted
+that ENCOMPASS with ENSCRIBE [file access method] is by today's
+standards "only minimally relational." We at Stratus have been
+pointing out that weakness for some time, offering as an
+alternative ORACLE, a portable, functionally complete RDBMS.
+But now Tandem has overcome our functional lead by jumping on
+the "SQL is standard" bandwagon, and in a very serious way.
+Omri Serlin's FT Systems Newsletter (3/16/87, issue number
+55) describes the product and the big benchmark accompanying
+its announcement in great detail. You are encouraged to obtain
+a copy and read it. For the moment, this update will highlight
+some of the key points, especially as they may affect our sales
+campaigns. Your local region's or subsidiary's Tandem Expert,
+Peter Kastner and I are ready to tackle any questions this
+article does not answer. We Tandem watchers and the highest
+levels of Stratus management are anxious to learn at which of
+your accounts NonStop SQL has surfaced. Do keep us informed.
+Key Business Points
+[] It's still in beta. Standard support will begin with
+GUARDIAN release COO in 4Q87; full support requires CIO, in
+1Q88.
+[] No currently available packages use it, so its threat
+is somewhat reduced. It does present competition to NEW
+applications TODAY, despite the fact that it is only in beta.
+We have some indications that it is being actively marketed.
+[] Performance claims for NonStop SQL are impressive in
+that:
+a. 
+The benchmark was huge and well documented. Serlin
+calls it the "largest multiprocessor system ever tested under
+an OLTP load."
+b. 
+The Tandem-furnished numbers indicate there is no
+penalty over ENSCRIBE. Indeed some of the curves show it to be
+higher performing than ENSCRIBE.
+c. 
+The absolute value of the numbers is high: 208 fully
+protected ET-l/second on $8.8 million in equipment. [The
+
+
+original specs for ET-1 were stretched a little to give this
+result: 90%-ile response time was relaxed to 2 seconds. The
+specification calls for 1 second or under. We've always
+adhered to that.]
+d. 
+The benchmark was audited by a consulting firm, Codd
+and Date. Recall that E. F. Codd is the gentlemen, who, as an
+IBM Fellow, invented the relational db model. His buddy Date
+(also formerly with IBM) has written the definitive textbook on
+the subject.
+e. 
+The benchmark appears to restate ENSCRIBE performance
+numbers, which were better when the VLX was first announced (40
+ET-l/second on a 4 cpu VLX system). Observe that (a) Tandem
+wishes to demonstrate that there is no advantage to using
+ENSCRIBE instead of NonStop SQL, Tandem's strategy for all
+future application development, and (b) Stratus
+price/performance looks ON THE SURFACE to be better than ever
+compared to Tandem. But take care not to overemphasize the
+lower cost of a VOS/TPF/FMS solution! First, Tandem will
+correctly point out (admittedly less tangible) cost benefits
+related to improved programmer productivity. Secondly, arguing
+against the functionality/productivity of an RDBMS is not a
+forward-thinking tack to take, and is especially unseemly for a
+company that's all along been in step with technology. Think
+also how awkward we'd feel announcing improved RDBMS
+price/performance some time in the future, reversing our
+position by touting the reasons to use it as an alternative to
+the old VOS/TPF/FMS way! Thirdly, if the customer believes
+that we offer just one application benefit, reduced cost/tps,
+Tandem can remove the final objection to a Tandem sale by
+resorting to a "one time only" price cut.
+Key Technical Points
+[] The functionality of NonStop SQL includes:
+active (distributed) data dictionary
+data access distributable over multiple cpus/systems
+ANSI Level 1 compliant data definition language
+ANSI Level 2 compliant data manipulation language
+interactive SQL interface
+programmatic SQL interface for COBOL85
+performance-oriented support in DiskProcess 2 (DP2)
+[] ENSCRIBE and NonStop SQL accesses can be protected
+with one BEGIN-END TRANSACTION envelope (not possible with VOS
+and ORACLE databases) but in all other regards suffer from a
+similar kind of data file format incompatibility. Though
+migration paths have been promised, they're not here yet.
+[] Recall that PATHMAKER (which they've been marketing
+as a 4th generation language) supports the generation of SCOBOL
+requesters and ENSCRIBE-based PATHWAY server skeletons. A
+product will eventually be announced to do likewise for NonStop
+SQL. We expect it will be superior to PATHMAKER in that the
+
+
+aacuARDT?Shine • f°r the recJuester code
+a GUARDIAN engine, but also an IBM PC,
+their new Altos UNIX machine, LXN.
+generated may not only be
+Tandem PC-compatible, or
+How, then, to deal with NonStop SQL?
+We give Tandem credit for producing a product with much
+appeal, but ought to put it in some perspective for our
+customers:
+1. 
+NonStop SQL is not available yet. Customers who want
+to start today have no choice but to beg a beta version from
+Tandem or buy a proven product, ORACLE, from Stratus.
+2. 
+Though it has high functionality, there are many
+straightforward applications not requiring such features.
+Tandem won't always be successful in forcing higher cost
+(compared to us) upon such customers, merely for the sake of
+better programmer productivity. In those cases, our superior
+price performance will be a very enticing motive to buy
+Stratus.
+3. 
+Some customers buy an RDBMS to achieve not only
+programmer productivity, but also program/programmer
+portability. Be sure the customer understands that a NonStop
+SQL application is NOT portable to another machine; only the
+programmer's SQL expertise is portable. Though its performance
+is not comparable today, ORACLE can provide both sorts of
+portability.
+4. 
+NonStop SQL applications are transparently fault
+tolerant by virtue of their use of the PATHWAY/TMF environment.
+Nonetheless, they suffer from the traditional ills of the
+software-based solution. These include negative performance
+impact at failure time, operator intervention at failure time,
+and manual load rebalancing at repair time. Customers who
+place high priority on operator-less continuous processing will
+continue to prefer us.
+We need your help
+If you are in competition with Tandem now and feel that
+NonStop SQL is/will be an issue, notify your local . Tandem
+Expert*, Peter Kastner, AND myself immediately. Do likewise if
+you have any general input on the subject, as the Operating
+Committee is most interested to learn the situation in the
+field.
+* For the benefit of newcomers to Stratus, here is a list of
+Tandem Experts:
+Field:
+Jef Allegaert
+Mike Byrne
+Randy Cummings
+Andy DeMartini
+
+
+Herman Doorn
+Lucien Feiereisen
+Raphael Frommer
+Alan Greenberg
+Dick Luebke
+Toshiaki Mashima
+Phil Mills
+Rich Sparacino
+Victor To
+Headquarters
+Barry Gross
+Clark Hodder
+Peter Kastner
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | stratus-sales-support-competitive-news-1-2aac8d |
+| title | Stratus Sales Support Competitive News, Vol 6 No 3, May 1987 — Tandem Competitive Update (CLX/LXN, VLX, EXT/TXP price cuts) |
+| author | Peter S. Kastner, Editor (Manager, Sales Support Programs, Stratus); Raphael Frommer, contributor |
+| date | 1987-05-01 |
+| type | newsletter |
+| subject_domain | fault-tolerant-computing-competitive-intelligence |
+| methodology | competitive-intelligence, product-analysis, price-performance-benchmarking |
+| source_file | 1987-May-Stratus-on-Tandem-Product-Updates-2.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Stratus Sales Support Competitive News, Volume 6 Number 3, May 1987. Editor Peter Kastner (Manager, Sales Support Programs, Marlboro x2192) publishes a detailed competitive analysis of Tandem's April 20 and May 4, 1987 announcements: the new low-end CLX and LXN 'network extender' products, smaller VLX configurations (2- and 3-CPU models at $585K entry), and price cuts across the EXT/TXP line. Kastner also notes Tandem's quiet restatement of ET-1 performance numbers under NonStop SQL (2, 4.5, 6.5 tps/CPU for NS-II/EXT10, TXP/EXT25, VLX) with relaxed 2-second 90th-percentile response time. Contributor Raphael Frommer authored the detailed CLX/LXN technical analysis. The newsletter quotes Omri Serlin (Fault Tolerant Systems Newsletter No. 55, March 16 1987). Signature Kastner quote: 'Business has only two basic functions — marketing and innovation.'
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Kastner-edited competitive-intelligence newsletter documenting Stratus's institutional response to Tandem's 1987 product line refresh. Establishes Kastner's editorial voice and competitive-analysis methodology half a decade before joining Aberdeen Group. |
+| **Relevance** | medium | Historical fault-tolerant computing market record; competitive-intelligence newsletter format remains industry-standard but products are obsolete. |
+| **Prescience** | medium | Kastner correctly identified that Tandem's NonStop SQL was driving the restated (lower) performance numbers and predicted 'time will tell how well Tandem can market this customized UNIX product' (LXN) — LXN was indeed a commercial disappointment. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Kastner LXN skepticism
+- **Claimed:** Time will tell how well Tandem can market this customized UNIX product against other less costly UNIX offerings
+- **Year:** 1987
+- **Confidence at time:** verified
+
+
+### Entities Referenced (7)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Stratus Computer | company | acquired | Stratus Technologies (now Penguin Solutions) |
+| Tandem Computers | company | acquired | Compaq (1997), then HP (2002) |
+| Peter S. Kastner | person | active |  |
+| Raphael Frommer | person | unknown [REVIEW] |  |
+| Omri Serlin | person | active |  |
+| Altos Computer Systems | company | acquired | Acer (1990) |
+| Motorola | company | split | Motorola Solutions + Freescale (2004) |
+
+### Technologies Referenced (9)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Tandem CLX (610/620/640/660) | platform | Tandem Computers | launch | obsolete |
+| Tandem LXN | platform | Tandem Computers | launch | obsolete |
+| Tandem VLX | platform | Tandem Computers | production | obsolete |
+| Tandem NonStop SQL | application | Tandem Computers | launch | legacy-supported |
+| Tandem GUARDIAN operating system | platform | Tandem Computers | mature | legacy-supported |
+| Unix System V Release 2 | platform | AT&T | production | legacy |
+| ET-1 benchmark (NonStop SQL transaction-protected) | framework | Tandem Computers | production | obsolete |
+| Motorola 68020 CPU | platform | Motorola | production | obsolete |
+| TCP/IP protocol | protocol | IETF | emerging | mature |
+
+### Observation Summary
+
+- Total observations: 16
+- By type: market-data: 7, expert-opinion: 6, viability-prediction: 1, framework-component: 1, personal-recollection: 1

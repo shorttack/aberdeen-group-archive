@@ -1,0 +1,116 @@
+12B-3570 MAGAZINE
+SILICON VALLEY BUSINESS INK
+Czzcn’5
+4 MAY 17, 2002 silicon valley BUSINESS INK
+Apple server piques interest of Mac shops
+Alegro Networks' Dean Nelson — "engineering geek No. 26" — is running 184 Apple G4 computers in his server room.
+By STEVE TANNER
+Companies that depend on Macs
+appear ready to embrace Apple Com­
+puter lnc.'s new rack-mounted, multi-plat-
+fonn computer server.
+But Apple, its popular logo seen more
+in the home than in the office, has much
+to learn about the fiercely competitive
+enterprise market. J)
+Released May 14, the Xserve will replace
+revamped G4s or iMacs used as servers in
+offices and schools.
+“We actually could use them here,"
+says Dean Nelson, test engineer with
+San Jose-based router developer Allegro
+Networks Inc. "I have 23 racks with four
+G4s each; I could literally put that in four
+racks [of the new Apple servers]."
+Nelson likes the fact that they're com­
+pact and designed first as servers. The
+G4s, he says, are cumbersome because
+of their original functionality as desktop
+computers. If a power outage occurs, for
+example, Nelson must reboot each G4 —
+all 184 of them — by hand.
+Although Nelson believes the new
+machines are overpriced, he says Allegro
+likely will be in the market for some soon.
+The entry-level model with a single G4
+processor costs $2,999, with the higher-
+end, two-processor model selling at $3,999.
+Mike Hathaway, systems support spe­
+cialist for Fremont Union High School
+District’s adult education program, is
+excited about the new machines and —
+despite Nelson's claims — sees them as
+very affordable.
+“This new server makes it actually 
+cheaper, because you don't have to buy
+additional components,” says Hathaway,
+who is waiting to see how the state budget
+looks when it's finalized this summer
+With the current server setup, Hathaway
+says, a down server can mean the outage
+of an entire computer lab. Servers built as
+servers, however, are built with redundan­
+cy to prevent this.
+“On the Apple end, we basically end up
+using consumer desktop machines for
+servers ... but you don't have that redun­
+dancy,” Hathaway says, referring to the
+vulnerability to failure that haunts the two
+iMacs the district uses as servers for its
+Apple computers.
+Analysts, as well as Apple CEO Steve
+Jobs, say the company’s server market
+comprises education, creative media, video
+and film production, and bioinformatics.
+South San Francisco-based biotech
+company Genentech Inc., for example,
+plans to use the new servers for comput­
+ing large gene sequences and has pur­
+chased 1,000 new iMacs for its staff.
+But the general enterprise market will
+be a tough nut to crack.
+The jury is still out on whether Apple —
+known for its consumer-friendly computers
+— can play ball in the enterprise market,
+but it's putting its best foot forward.
+“We’ve seen a lot of changes with
+Apple over the last couple of quarters,"
+says Tim Deal, analyst with Technology
+Business Research Inc., just days before
+Apple’s unveiling of the server. “They’ve
+acknowledged and focused a little more
+on the corporate end."
+After the announcement, Deal expressed
+enthusiasm for the Xserve, citing the com­
+pact size, competitive pricing and interoper­
+ability with various computing platforms.
+One important aspect of the UNIX­
+based Xserve, Deal says, is its ability to
+support multiple computing platforms.
+Even a company whose workers are run­
+ning Windows could operate on the new
+server.
+“This is a historical moment for this incar­
+nation of Apple; they’re breaking away from
+their consumer desktop focus and encom­
+passing products clearly targeting the
+enterprise," says Deal.
+Yet even Jobs expressed his under­
+standing that tapping into the enterprise
+market is no picnic.
+“We're approaching this very carefully,
+and we have a lot to learn," said Jobs, at
+a May 14 press conference.
+For the same reasons, prospective
+customers may approach the new
+servers cautiously as well.
+Peter Kastner, chief research officer
+with research firm Aberdeen Group Inc.,
+likes the price and the technology, but
+isn't confident that Apple can dent the
+enterprise server market.
+“It’s too late for Apple to get back into
+the bread-and-butter enterprise market
+for desktops and servers," Kastner says.
+Steve Tanner is a Biz Ink reporter.
+You can reach him at stanner@svbizink.com,

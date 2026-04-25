@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"asep","ASEP Automated Station Energy Program","platform","American Science & Engineering","1970s-1990s","production","obsolete","minicomputer-news-ase-asep-1979-2b5327","Two-way power-line communication system for utility time-of-day metering and load control"
+"data-general-eclipse-s230","Data General Eclipse S-230","platform","Data General","1974-1988","production","obsolete","minicomputer-news-ase-asep-1979-2b5327","16-bit minicomputer with 256K core memory used as ASEP controller"
+"time-of-day-rates","Time-of-day electricity tariff","framework","utility-industry","1970s-present","emerging","mature","minicomputer-news-ase-asep-1979-2b5327","Differential pricing for on-peak/off-peak consumption — foundational to DSM and modern AMI"
+"power-line-carrier","Power-line Carrier Communication","protocol","various","1920s-present","production","mature","minicomputer-news-ase-asep-1979-2b5327","Used by ASEP for two-way utility control signaling"

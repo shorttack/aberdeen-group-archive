@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-32","Stratus/32 Continuous Processing system","platform","Stratus Computer","1981-1990","launch","obsolete","stratus-fault-tolerant-revolution-ad-198-797e0e","Duplexed hardware lockstep fault-tolerant system; $130K entry config"
+"hardware-fault-tolerance","Hardware-based fault tolerance","framework","multiple","1980s-present","emerging","mature","stratus-fault-tolerant-revolution-ad-198-797e0e","Duplicate lockstepped components with comparators — Stratus architecture"
+"software-fault-tolerance","Software-based fault tolerance (checkpointing)","framework","Tandem (primarily)","1970s-present","mature","legacy","stratus-fault-tolerant-revolution-ad-198-797e0e","Checkpointed recovery — Tandem Guardian approach"
+"vos","Stratus VOS (Virtual Operating System)","platform","Stratus Computer","1980-present","production","legacy-supported","stratus-fault-tolerant-revolution-ad-198-797e0e","Stratus proprietary fault-tolerant OS"
+"stratus-processing-module","Stratus Processing Module (CPU+memory+controllers+IO)","platform","Stratus Computer","1981-1990","launch","obsolete","stratus-fault-tolerant-revolution-ad-198-797e0e","Building block; 1-32 PMs per local system; hot-addable while processing"

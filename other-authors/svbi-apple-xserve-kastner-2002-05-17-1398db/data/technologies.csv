@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"apple-xserve","Apple Xserve","platform","Apple Computer","2002-2011","launch","discontinued","svbi-apple-xserve-kastner-2002-05-17-1398db","Rack-mounted multi-platform G4-based UNIX server; line discontinued 2011-01"
+"apple-g4","Apple PowerPC G4 processor","platform","Apple / Motorola / IBM","1999-2006","production","obsolete","svbi-apple-xserve-kastner-2002-05-17-1398db","Xserve processor"
+"mac-os-x-server","Mac OS X Server","platform","Apple","2001-present","launch","deprecated","svbi-apple-xserve-kastner-2002-05-17-1398db","UNIX-based server OS"
+"imac","Apple iMac","platform","Apple","1998-present","production","mature","svbi-apple-xserve-kastner-2002-05-17-1398db","Consumer desktop also used as server"

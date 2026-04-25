@@ -1,0 +1,7 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997), then HP (2002)","1974-2002","tandem-tr-85-2-debitcredit-1985-ca207a","Stratus competitor"
+"jim-gray","Jim Gray","person","database-research","deceased","","1966-2007","tandem-tr-85-2-debitcredit-1985-ca207a","Turing Award laureate; principal organizer of the Anon et al. paper; then at Tandem, later Microsoft Research"
+"datamation","Datamation magazine","institution","IT-trade-press","dissolved","folded; brand revived online","1957-1998","tandem-tr-85-2-debitcredit-1985-ca207a","Published condensed version of the paper April 1, 1985"
+"tpc","Transaction Processing Performance Council (TPC)","institution","benchmark-consortium","active","","1988-present","tandem-tr-85-2-debitcredit-1985-ca207a","Industry body formed 1988 to standardize the benchmarks this paper pioneered"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","tandem-tr-85-2-debitcredit-1985-ca207a","Kastner's Stratus employer (marketing/sales support)"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","tandem-tr-85-2-debitcredit-1985-ca207a","Aberdeen Group co-founder, VP/EVP/CRO; prior: PHI, Wang, ADL, Prime, Stratus, DEC"

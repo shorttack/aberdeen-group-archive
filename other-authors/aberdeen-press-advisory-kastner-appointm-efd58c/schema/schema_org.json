@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Press Advisory and News Release: Aberdeen Group Picks Industry Veteran Peter S. Kastner to Head New Transaction Services Business Unit",
+  "description": "Aberdeen Group Press Advisory and News Release dated December 5, 1988 announcing the formation of Aberdeen Transaction Services, a new business unit headed by 'nineteen-year industry veteran' Peter S. Kastner. Kastner is named Vice President, member of Aberdeen's Board of Directors, and general manager of the Transaction Services unit. The advisory documents Aberdeen's founding-era analyst roster: Charles T. Casale (President, financial/industry-trends/IBM/supercomputers/technical computing), John R. Logan (Executive VP, midrange/IBM/DEC/HP/software companies/distributed architectures), John O. Dunkle (VP, WorkGroups/PCs/LANs/Apple/Microsoft/Borland/Compaq/Lotus/UNIX), and Kastner (VP, OLTP/DBMS/Networks/Tandem/Stratus/DEC/benchmarks and performance/vertical market applications). Casale's press quote: '[Kastner] was the first analyst to predict the emergence of transaction processing at the workgroup level.' Kastner prior employment: Digital Equipment, Prime Computer, Stratus Computer, Arthur D. Little (consultant).",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group, Inc. (Charles T. Casale, contact)"
+  },
+  "datePublished": "1988-12-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Workshop Qualifying Questions, Training Plan, and 2001 Customer Success Stories",
+  "description": "Seven Aberdeen Group internal artifacts from 2001 supporting the rebranded Advisory Access Service workshop family. Includes the Go-To-Market Workshop product sheet ($50,000 2-day engagement), qualifying-question frameworks for Market Knowledge, Messaging Strategy, and Positioning Strategy workshops, a skeleton Alliances Workshop draft, a three-tier Training Plan for communicating Aberdeen's new business model (company-wide overview, technology-group role-play sessions, streaming-media vignettes), and the Customer Success Stories 2001 \u2014 a curated roster of named client engagements attributed to Aberdeen analysts Dana Gardner, Peter Fessenden, Tom Dwyer, Jim Hurley, and Gerry Hemmendinger across Network Infrastructure and Security practice areas.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group / Peter S. Kastner (program owner)"
+  },
+  "datePublished": "2001",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

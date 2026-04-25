@@ -1,0 +1,29 @@
+﻿Network Infrastructure
+A pre-IPO provider of tools to create and manage reusable software assets employed Aberdeen to clearly define its target market for component-based development, to articulate how its approach met requirements lacking from earlier suppliers, and to corroborate the value proposition of its approach in the rapidly changing Internet economy.  This effort substantiated the company's Go To Market, Product, and Professional Services strategies enabling it to secure partners and investors. (LogicLibrary/Tom Dwyer/2001).
+
+An emerging provider of XML-based infrastructure products for e-Business requirements engaged Aberdeen for marketing consulting and branding guidance on apportioning products into two separate product suites that address users’ needs for foundation technology and for a turnkey XML enterprise platform product.  Adopted Aberdeen’s suggestions in marketing plan that accelerated their sales cycle.  (XML Global Technologies/Fessenden 2001)
+A venture-backed XML transformation company sought Aberdeen to help position and articulate a new and potentially confusing EDI and XML message to this emerging market.  On-going assistance has been maintained through an acquisition regarding positioning for current product that is assisting with customer’s early adoption of this technology.   (XMLSolutions, a business unit of Vitria/Fessenden/2000-1) 
+For a venture capital investment firm, Aberdeen’s research and recommendation was requested to perform a due diligence study on a potential investment opportunity.  Aberdeen’s study confirmed their opinion.  (Pequot Capital/Fessenden/2001)
+
+A developer/host of carrier- and enterprise-grade messaging and directory services products relied on Aberdeen to define and explain the concept of “mixed-source messaging,” whereby a heterogeneous mix of on-site and hosted email services flexibly suits each customer; the client enjoyed a subsequent dramatic increase in such mixed-source sales and went on to lead the global mixed-source market (Critical Path/Dana Gardner/2000).
+ 
+A provider of infrastructure services for the mass distribution and management of bulk email employed Aberdeen to clearly define a novel network infrastructure that circumvents the open Internet for more efficient “tunnels” that connect the client’s servers directly to the largest hosts of email delivery systems, resulting in the creation of a less expensive bulk email infrastructure niche and heading the start-up company toward profitability (BoldFish/Dana Gardner/2001).
+ 
+A European developer of a client-server information manager and shared contacts database sought Aberdeen for guidance on entering the potentially lucrative North American market, and then acted on Aberdeen’s suggestion of making the product Web-based and targeted at the collaboration services market; the client recently set up is first U.S. sales office (Link Software/Dana Gardner/2001).
+ 
+A venture-backed start-up seeking to add value to the business services offerings of large telecommunications carriers acted on Aberdeen’s suggestion to package their service components into a “unified communications” suite that favors the voice-centric (rather than data-centric) mobile worker, and which augments rather than replaces traditional PBXes; the company’s first product is set to debut this fall (Axiom8/Dana Gardner/2000).
+ 
+
+Security
+A supplier with a revolutionary new approach to digital signatures wanted to determine customer reaction to their intended product concept, pricing, and channel partners.  Aberdeen conducted field market research to provide this supplier with a full go-to-market plan.  (Digital signature supplier, 2000, Hurley)
+
+
+An industry leading supplier of authentication systems thought they were losing touch with where the market was going because sales to new customers were slowing.  Aberdeen conducted field market research to determine what customers wanted.  This supplier has since incorporated our recommendations in their product line, reversed its declining sales trend, and been able to successfully reposition the value of its solutions to meet new customer needs.  (Supplier of authentication systems, 1997, Hurley)
+
+
+A web hosting supplier wanted to birth a new security service product.  Aberdeen conducted market research with targetted buyers and provided this supplier with critical information about its product offering, pricing, invoicing, partnerships, market positioning, messaging, and how to successfully deliver against unmet buyer needs. (Managed security services, 2001, Hurley)
+
+
+A number of suppliers of digital certificate products and services wanted to determine the market uptake for PKI-based products and services.  Aberdeen conducted primary market research to qualify and quantify their opportunity, what to avoid, which vertical markets would purchase these products and services, and how to best package their offerings.  (Multiple clients, 1999, Hemmendinger and Hurley)
+
+

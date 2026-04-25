@@ -1,0 +1,46 @@
+
+===== XA2000-2-2-87-launch-Boston-Globe-10.txt =====
+  Stratus’ new computer line
+     aimed at rival Digital
+   By Ronald Rosenberg
+   Globe Staff
+       Stratus Computer Inc. is taking
+. aim at No. 1 rival Tandem Comput­
+   er, as well as Digital Equipment
+   Corp., with the Introduction this
+   morning of a new line of fault-toler­
+   ant computers. ,            •>■
+       Of Stratus’ four new models, the
+   most powerful can handle 50 trans­
+   actions per second, compared with
+ -Tandem’s 40 transactions and
+   about 15 transactions per second for
+   the VAX 8650, one of Digital’s larger
+  ’machines, according to Stratus. The
+   new line is priced between $261,000 Stratus’ president William E. Fos­
+   and $1 million.                         ter: “We have tripled the high end
+       “We have tripled the high end of of our computer performance and
+   our computer performance and re­ reduced the cost per transaction
+   duced the cost per transaction by by half.”
+   half," William E. Foster, president
+   and co-founder of the Malborough- terns. Tandem achieves the same re- J
+   based computer company, said last suits largely through software.              j
+   week. '              '        '              Digital, which does not claim to .
+       Both Stratus and Tandem are the be fault-tolerant, gains high rellabll- J
+ , leading suppliers of on-line transac­ Ity of its computers by clustering [
+   tion processing systems - computer them for such customers as banks >
+   systems designed to provide a steady and financial-service firms.              J
+   stream of Information without a          ... “Increasingly Digital is becoming ;
+   computer failure.’Primary custom- more of a factor and over time we ex- i
+   ers are banks, which use them to pect them to be our biggest competi- I
+ : provide Information for automatic­ ' tor,” said Foster.                      ' *
+   teller machines. Wall Street broker­ .. The new Stratus line, which will •
+   age and financial service organiza- be available In 90 days, will also be ,
+ - tions, transportation and manufac­ marketed by International Business J
+   turing companies’.     ’   rn;-       ./Machines Corp , which has been j
+       To achieve such fault-tolerance. .selling Xurrent Stratus machines. <•
+   Stratus relies on redundant; hard­ ;_IBM sales accounted for 14.5.percent
+   ware, such as two central-process- ‘.nf.Stratus’ $124 million in revenues
+   ing units, dual memory arid discsys- “last year.’              v
+                                                                 e-
+

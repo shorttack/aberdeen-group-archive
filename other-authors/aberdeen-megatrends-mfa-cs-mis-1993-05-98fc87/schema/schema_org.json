@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group 'Harnessing the Megatrends of [the 90s]' MFA-CS-MIS deck (May 1993, Aberdeen institutional)",
+  "description": "Aberdeen's 1993 institutional megatrends framework. Headline: up to 50% of capital expenditure is now for IT; information is part of products and services; all employees are expected to be computer-comfortable; online data for real-time decisions is the standard, not the goal. 1992 Large Broker PC purchasing benchmark: 5,100 CPUs, $22.8M, 95,000 MIPS, 250 WMIPs. Mainframe-alternatives section: 'mainframes do not provide a differentiator'; 'consolidate data centers / cheap MIPS / outsource / freeze MIS budgets / downsize with replicated systems / non-MIS divisional installations.' Andy Grove (Intel CEO) WSJ Jan 18 1993 quote endorses integration-as-opportunity framing. Three-tier-plus persists from 1991 Logan deck and 1992 PSK SNR slides.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (no individual presenter named on extracted slides; copyright 1993 Aberdeen Group, Inc.)"
+  },
+  "datePublished": "1993-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

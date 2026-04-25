@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tp1-benchmark","TP-1 performance model (Stratus internal)","performance-benchmark","Stratus internal","1983-1986","internal-tool","superseded","stratus-tp-1-internal-benchmark-guide-19-9b51bf","Requester/Server model — COBOL/TPF requester + PL/1 server"
+"stratus-vos","Stratus VOS (Virtual Operating System)","operating-system","Stratus Computer","1980-present","shipping","shipping","stratus-tp-1-internal-benchmark-guide-19-9b51bf","Stratus proprietary OS"
+"debit-credit-benchmark","Debit-Credit benchmark (DC/ET1/TP1)","performance-benchmark","industry-standard","1980s","industry-standard","superseded-by-tpc-c","stratus-tp-1-internal-benchmark-guide-19-9b51bf","Jim Gray-defined banking transaction benchmark; multiple variants ET1/TP1/TopGun"
+"fault-tolerant-architecture","Fault-tolerant systems architecture (general)","computer-architecture","various","1970s-1990s","emerging","specialized-niche","stratus-tp-1-internal-benchmark-guide-19-9b51bf","Hardware/software approaches for continuous computing"

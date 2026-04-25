@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "WatchIT.com April 2002 lineup \u2014 PSK as Aberdeen Chief Research Officer presenter on 'Microsoft's Future Paths' (with Jackson Shaw and Isaac Ro)",
+  "description": "WatchIT (Syosset NY) was an early-2000s subscription IT-education video service. The April 2002 lineup features Aberdeen Group's PSK as 'Chief Research Officer' co-presenting on Microsoft's enterprise roadmap with Jackson Shaw of Microsoft and Isaac Ro of Aberdeen. The program walks through Microsoft's next-generation OS codenames Blackcomb and Longhorn, the emerging Tablet PC, advances in speech recognition, knowledge management and storage, and how .NET ties them together. Presence in the program lineup confirms PSK's CRO title at Aberdeen by April 2002 (sits chronologically between his EVP-era Itanium-vs-Sun quote earlier in 2002 and the later post-9/11 conferencing analyst voice).",
+  "creator": {
+    "@type": "Person",
+    "name": "WatchIT.com Customer Operations Group (program lineup); Peter S. Kastner (presenter); Isaac Ro (presenter); Jackson Shaw (presenter)"
+  },
+  "datePublished": "2002-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

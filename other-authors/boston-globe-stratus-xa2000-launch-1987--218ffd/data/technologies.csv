@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-xa2000","Stratus XA2000 series","fault-tolerant-system","Stratus Computer","1987-1990s","launching","legacy","boston-globe-stratus-xa2000-launch-1987--218ffd","Top-of-line 50 tps; new line Feb 2 1987 priced $261K-$1M"
+"vax-8650","VAX 8650","minicomputer","Digital Equipment Corp.","1986-1990s","shipping","legacy","boston-globe-stratus-xa2000-launch-1987--218ffd","Digital high-end VAX cited at ~15 tps in Boston Globe XA2000 piece"
+"fault-tolerant-architecture","Fault-tolerant systems architecture (general)","computer-architecture","various","1970s-1990s","emerging","specialized-niche","boston-globe-stratus-xa2000-launch-1987--218ffd","Hardware/software approaches for continuous computing"
+"ibm-stratus-oem","IBM-Stratus OEM relationship (System/88)","business-arrangement","IBM/Stratus","1985-1990s","active","concluded","boston-globe-stratus-xa2000-launch-1987--218ffd","Cited 1987 Boston Globe XA2000 piece — IBM 14.5% of Stratus FY revenue"

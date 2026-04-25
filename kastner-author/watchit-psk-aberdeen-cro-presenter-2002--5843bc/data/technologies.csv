@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"microsoft-dotnet","Microsoft .NET","software-platform","Microsoft","2002-present","launching","shipping","watchit-psk-aberdeen-cro-presenter-2002--5843bc","2002 WatchIT program subject — 'platform for next-generation Internet'"
+"microsoft-longhorn","Microsoft Longhorn (became Vista)","operating-system-codename","Microsoft","2001-2007","preview","shipped-as-vista","watchit-psk-aberdeen-cro-presenter-2002--5843bc","Cited 2002 WatchIT 'Microsoft's Future Paths' presentation"
+"microsoft-blackcomb","Microsoft Blackcomb (codename)","operating-system-codename","Microsoft","2001-2003","preview","rolled-into-longhorn-then-7","watchit-psk-aberdeen-cro-presenter-2002--5843bc","Cited 2002 WatchIT presentation; later folded into Longhorn/Windows 7"
+"tablet-pc-platform","Microsoft Tablet PC platform","device-platform","Microsoft","2002-2010s","launching","superseded-by-modern-tablets","watchit-psk-aberdeen-cro-presenter-2002--5843bc","Cited 2002 WatchIT program"
+"speech-recognition-2002","Speech recognition (early 2000s enterprise)","speech-technology","various","2002-present","emerging","ubiquitous","watchit-psk-aberdeen-cro-presenter-2002--5843bc","Cited 2002 WatchIT 'Microsoft's Future Paths'"
+"knowledge-management","Knowledge management platforms","software-paradigm","various","1990s-2000s","emerging","evolving","watchit-psk-aberdeen-cro-presenter-2002--5843bc","Cited 2002 WatchIT presentation"

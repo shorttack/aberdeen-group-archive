@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","boston-globe-stratus-xa2000-launch-1987--218ffd","Kastner's Stratus employer (marketing/sales support)"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997), then HP (2002)","1974-2002","boston-globe-stratus-xa2000-launch-1987--218ffd","Stratus competitor; debit-credit benchmark publisher"
+"digital-equipment-corp","Digital Equipment Corporation (DEC)","company","minicomputer-and-systems","acquired","Compaq (1998), then HP (2002)","1957-1998","boston-globe-stratus-xa2000-launch-1987--218ffd","VAX/VLX cited; PSK 1988 memo addressed to DEC engineers re Tandem TopGun"
+"ibm","IBM Corporation","company","computer-systems","active","","1911-present","boston-globe-stratus-xa2000-launch-1987--218ffd","OEM partner of Stratus (System/88 = Stratus-built FT systems)"
+"william-e-foster","William E. Foster","person","executive","active","","1970s-present","boston-globe-stratus-xa2000-launch-1987--218ffd","Stratus Computer co-founder and CEO; 1987 XA2000 quote"
+"boston-globe","The Boston Globe","publication","newspaper","active","","1872-present","boston-globe-stratus-xa2000-launch-1987--218ffd","Major MA daily; covered Stratus and Wang"
+"ronald-rosenberg","Ronald Rosenberg","person","journalist","active","","1980s-present","boston-globe-stratus-xa2000-launch-1987--218ffd","Boston Globe Staff reporter; 1987 XA2000 launch piece"

@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"videoconferencing-tech","Videoconferencing (corporate full-motion video)","communications-technology","various","1990s-present","emerging-corporate-adoption","ubiquitous-with-zoom-teams","telephony-post911-conferencing-psk-2001--0bf283","Pre-Zoom era — $30/hr full-motion video cited PSK 2001"
+"web-conferencing","Web conferencing (PlaceWare/WebEx era)","communications-technology","various","2000-present","emerging","ubiquitous-with-zoom-teams","telephony-post911-conferencing-psk-2001--0bf283","Pre-Zoom platforms PlaceWare and WebEx cited 2001 piece"
+"voice-over-packet","Voice over packet / VoIP","communications-technology","various","2000s-present","emerging","ubiquitous","telephony-post911-conferencing-psk-2001--0bf283","Probe Research voice-over-packet markets 2001 context"
+"oc-12-fiber","OC-12 SONET fiber link","networking-protocol","various","1990s-2000s","shipping","legacy","telephony-post911-conferencing-psk-2001--0bf283","NEON Communications set up OC-12 at 60 Hudson St. post-9/11"
+"frame-relay-network","Frame relay networking (telecom carrier service)","networking-protocol","various","1990s-2000s","shipping","deprecated","telephony-post911-conferencing-psk-2001--0bf283","AT&T/WorldCom frame relay outages cited 2001 Telephony piece"

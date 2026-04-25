@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group 'Trends in Computing in the 90's: Are There Any Right Answers?' (John R. Logan VP, 1991)",
+  "description": "Logan's 1991 Aberdeen deck establishes the firm's 'Inverted Computing Pyramid' framework that PSK and the Aberdeen team carry through the decade. The processor section forecasts crossover where merchant RISC chips (75 MIPS, 100 instructions) overtake captive CISC mainframe processors (40 MIPS, 300 instructions). The desktop section forecasts that by 1994 MS-NT, IBM/Apple Big Pink, and Solaris will replace 1991's MS-DOS/OS/2/Unix triad \u2014 partially correct (NT and Solaris shipped; Big Pink/Taligent failed). Supplier-alliance taxonomy lists OSF v UI, ACE v Big Pink, Object Management Group, SQL Access Group, Digital/MIPS, IBM/Thinking Machines, Digital/Masspar, Sun/HP. Client-server taxonomy: Remote Presentation / Remote Database / Cooperative Processing / Distributed Database. Object technology framed as 'objects for the future' with interoperability/ease-of-use/multi-user-LAN benefits.",
+  "creator": {
+    "@type": "Person",
+    "name": "John R. Logan (Vice-President, Aberdeen Group)"
+  },
+  "datePublished": "1991",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Boston Globe \u2014 'Stratus' new computer line aimed at rival Digital' (XA2000 launch, Ronald Rosenberg, 1987-02-02)",
+  "description": "Same-day Boston Globe coverage of Stratus's XA2000 launch announcement. Foster (Stratus president and co-founder, Marlborough MA) quoted on the new line: 'We have tripled the high end of our computer performance and reduced the cost per transaction by half.' Stratus's most powerful new model handles 50 tps vs Tandem's 40 tps and ~15 tps for the VAX 8650. Pricing $261,000-$1M. Stratus relies on redundant hardware (dual CPU, dual memory, dual disks) where Tandem achieves similar fault tolerance largely through software. Foster cites Digital as 'becoming more of a factor and over time we expect them to be our biggest competitor.' IBM OEM relationship: 14.5% of Stratus FY revenue ($124M total). New line available in 90 days; IBM will also market.",
+  "creator": {
+    "@type": "Person",
+    "name": "Ronald Rosenberg (Boston Globe Staff)"
+  },
+  "datePublished": "1987-02-02",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

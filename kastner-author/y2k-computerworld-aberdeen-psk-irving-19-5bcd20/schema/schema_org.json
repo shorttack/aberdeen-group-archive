@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Year 2000 Solutions Series Part 1 \u2014 Aberdeen Group lead article + 12-point Best Practices (PSK + Susan Irving + John R. Logan, Computerworld Custom Publication, 1997)",
+  "description": "Kastner is identified as Group Vice President of Aberdeen Group and 'general manager of its commercial systems practice' covering databases, OLTP, decision support, client/server architectures and distributed commercial systems development. PSK and Susan Irving co-author the lead, framing Y2K as 'as much about competitive advantage as it is about technology' and warning that 'tightly integrated, Web-enabled technology infrastructures are becoming the circulatory system of companies.' The 12-point Best Practice Recommendations attributed to Aberdeen include: 'Start immediately!'; 'Stop wounding Year 2000 messengers'; 'Send lawyers, guns and money'; 'Treat this as a war-time effort'; 'Secure trusted outside resources quickly. By mid-1997, there will be little capacity left in the industry'; 'Insist on seeing external partner compliance plans'; 'Beware the Law of Unintended Consequences'; and 'Save the blame for January 1, 2000'. PSK's rolodex of CXO targets (CFO, COO, CIO/CTO, Controller, Board of Directors, CEO) anticipates the modern multi-stakeholder cybersecurity-incident playbook.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner and Susan L. Irving (lead article); Peter S. Kastner (12-point Best-Practice sidebar); John R. Logan (companion editorial); Anna Tortig and Computerworld Custom Publications staff (case studies)"
+  },
+  "datePublished": "1997-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

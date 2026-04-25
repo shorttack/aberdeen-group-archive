@@ -1,0 +1,395 @@
+
+===== Trends-1991-Logan-3.txt =====
+Trends in Computing in
+  the 90's: Are There
+ Any Right Answers?
+       John R= Loggin
+       Vice-President
+
+      Aberdeen Group, Inc.
+        92 State Street
+       Boston, MA 02109
+        (617) 723-7890
+Trends in Computing in
+  the 90's: Are There
+ Any Right Answers?
+    *                          fa   &G--
+
+
+
+                IR= L©ggnn
+        Vice-President
+
+        Aberdeen Group, Inc.
+          92 State Street
+         Boston, MA 02109
+          (617) 723-7890
+Inverted Computing Pyramid
+              Applications
+             Production Environments
+                                                t
+     (including DBMS and Communications)
+
+              System Platforms
+                (Hardware &
+              Operating System)
+
+                 Processors
+
+
+
+
+                                       Aberdeen Group
+Inverted Computing Pyramid
+              Applications
+             Production Environments
+     (including DBMS and Communications)
+
+             System Platforms
+               (Hardware &
+             Operating System)
+
+                 Processors z,
+
+
+
+
+                                       Aberdeen Group
+    Processors
+     Rise v. Cisc
+100 Instructions v. 300
+Merchant v. Captive
+75 MIPS v. 40 (1991)
+New Applications v. Legacy
+
+                      Aberdeen Group
+       Processors
+        Rise v. Cisc
+• 100 Instructions v. 300
+• Merchant v. Captive
+• 75 MIPS v. 40 (1991)
+• New Applications v. Legacy
+
+                       Aberdeen Group
+                  Processors
+         The Industry Expects a Crossover
+                in Total System Functionality
+
+
+
+
+ Increased
+Total System
+Functionality
+
+
+
+
+                          Time             Aberdeen Group
+                  Processors
+         The Industry Expects a Crossover
+                in Total System Functionality
+
+
+
+
+ Increased
+Total System
+Functionality
+
+
+
+
+                          Time             Aberdeen Group
+High-End Systems
+Central Enterprise-Wide Resources
+     a Traditional Supercomputer
+    a Mainframe with Vector Facility
+     a Massively Parallel Processors
+     a Superscalar Server (Soon)
+
+
+Departmental Minisuper/Compute Server *7^7
+                                        Sc^.
+
+
+
+Multiple Workstations with Intelligent NOS
+High-End Systems
+Central Enterprise-Wide Resources
+     a Traditional Supercomputer
+    a Mainframe with Vector Facility
+     a Massively Parallel Processors
+     a Superscalar Server (Soon)
+
+
+Departmental Minisuper/Compute Server
+
+Multiple Workstations with Intelligent NOS
+                                Aberdeen Group
+           Processors
+Superscalar Here & Coming
+   Times VAX 11/780
+
+
+
+
+  8X+ improvement on matrix 300!
+                            Aberdeen Group
+                            0
+
+
+            Processors
+Superscalar Here & Coming
+   Times VAX 11/780
+
+
+
+
+  8X+ improvement on matrix 300!
+                            Aberdeen Group
+ Desktop Rightsizing
+       Operating System Functionality           *
+MS-                            OS/2       Unix
+DOS
+Less                1991 . .              More
+
+           Commercial User Value
+                                         MS-
+Unix         OS/2
+                                         DOS
+Less                1991                 More
+            Cost and Functionality
+                   MS-NT
+MS-                                       Unix
+                   Big Pink
+DOS
+                   Solaris
+Less                 1994                 More
+                                        Aberdeen Group
+ Desktop Rightsizing
+       Operating System Functionality
+MS-                           OS/2        Unix
+DOS
+Less                1991 .=               More
+
+           Commercial User Value
+                                         MS-
+Unix         OS/2
+                                         DOS
+Less                1991                 More
+            Cost and Functionality
+                   MS-NT
+MS-                                       Unix
+                   Big Pink
+DOS
+                   Solaris
+Less                 1994                 More
+                                        Aberdeen Group
+   Desktop Systems
+Workstations and PCs and Macs
+ blend, plagiarize, and compete
+                 MS-DOS              Unix
+                 Windows/^-        Solaris
+     Intel X86                 SCO-ACE
+
+                  MS-ACE
+
+       Rise                Pi ik
+   (IBM, MIPS)                 SCO-ACE
+                                             Aberdeen Group
+   Desktop Systems
+Workstations and PCs and Macs
+ blend, plagiarize, and compete
+Production Environments
+     ibraries ft
+
+    Networking jLAN & WAN)
+                    Sics-,   '7
+
+
+
+    Languages
+               S'
+
+
+    DBMSs L
+
+                                  Aberdeen Group
+        '-^7   }
+Production Environments
+  • Libraries
+
+  • Networking jLAN & WAN)
+  • Languages
+                 S'   A
+
+   • DBMSs '
+   • GUIs
+                          Aberdeen Group
+        — ? La^l ’
+        l
+Production Environments
+Supplier Alliances:       ,
+    • OSF v. Ul
+    • ACE v. Big Pink 7ZJZ7T7
+    • Object Management Group
+    • SQL Access Group
+    • Digital/MIPS
+    • JBM/Thinking Machines
+    • Digital/Masspar
+    • Sun/HP
+     And More Coming! Aberdeen Group
+Production Environments
+Supplier Alliances:
+    • osf v. ui
+    • ACE v. Big Pink
+    • Object Management Group
+    • SQL Access Group
+    • Digital/MIIPS
+    • JBM/Thinking Machines
+    • Digital/Masspar
+    • Sun/HP
+     A nd More Coming! Aberdeen Group
+        Applications
+  Client-Server Definitions
+
+
+
+
+                                        DBMS
+
+
+
+
+  Remote        Remote     ooperative   Distributed
+Presentation   Database   Processing    Database
+                 Applications
+           Client-Server Definitions
+
+
+
+Client
+
+
+Server                                           DBMS
+
+
+
+
+           Remote        Remote    Cooperative   Distributed
+         Presentation   Database   Processing    Database
+        Applications
+      Objects for the future
+
+
+
+Potential Benefits:
+    a Interoperability of heterogeneous
+        applications
+    a End user ease & expertise of use
+    a Multi-user LAN applications
+        Applications
+      Objects for the future
+                                      L
+
+
+
+
+Potential Benefits:
+    a Interoperability of heterogeneous
+        applications
+        End user ease & expertise of use
+    *■ Multi-user LAN applications^^ Sn>up
+     Managing Change
+• End users want more, faster versus y           ,
+  Management wants lower cost and J
+  better documentation
+
+  Wall clock response, not CPU timefT,
+  is most important
+                                            2
+
+  Legacy systems — scrap and build-onj
+
+  Can anybody trust hardware suppliers?^:
+                                Aberdeen Group
+     Managing Change
+o End users want more, faster versus
+  Management wants lower cost and J
+  better documentation
+
+  Wall clock response, not CPU timefT,
+  is most important
+
+o Legacy systems — scrap and build-on
+
+  Can anybody trust hardware suppliers?^::
+                                Aberdeen Group
+Long-Term Planning Model
+ Spoke-Node-Ring Planning Model
+
+ Corporate
+ Data Node
+                  ""   Data Collection
+                       Nodes
+                                         Productivity
+                                            Ring
+
+
+
+
+ MM                Spoke
+ Node =
+
+    Middle
+     Manager
+           Ring                            Aberdeen Group
+Long-Term Planning Model
+ Spoke-Node-Ring Planning Model
+                          z-~>   ——■—r-'"   T~Z.   J. G
+         Conclusions ° gfgg
+There are no perfect answers — and
+never really have been. But each of
+you will have a "right" answer when
+you need it for your organization.
+
+    (Which is why hardware suppliers
+    are in doldrums as you wait and
+    they markitecture.)
+
+                              Aberdeen Group
+         Conclusions sggg
+There are no perfect answers — and
+never really have been. But each of
+you will have a "right" answer when
+you need it for your organization.
+
+    (Which is why hardware suppliers
+    are in doldrums as you wait and
+    they markitecture.)
+
+                              Aberdeen Group
+          Conclusions
+The right answer is to gain acceptance
+for the process and acceptance of
+change management in your
+enterprise.
+  • Business case criteria for change^pfcr
+
+  • Annual planning process looking
+    out 3-5 years to meet enterprise'^
+    objectives
+                              Aberdeen Group
+          Conclusions
+The right answer is to gain acceptance
+for the process and acceptance of
+change management in your
+enterprise.
+  • Business case criteria for changejX"C^-^
+
+  • Annual planning process looking
+    out 3-5 years to meet enterprise'
+    objectives
+                                Aberdeen Group
+

@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Aberdeen Group co-founder, VP/EVP/CRO; prior: PHI, Wang, ADL, Prime, Stratus, DEC"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks (2007); Spiceworks Ziff Davis","1988-present","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Boston-based IT research firm"
+"wang-laboratories","Wang Laboratories, Inc.","company","office-computing","bankrupt","Bankruptcy 1992; Getronics","1951-1992","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Lowell MA office automation; PSK prior employer; 1990 Q1 turnaround"
+"richard-w-miller","Richard W. Miller","person","executive","active","","1980s-2000s","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Wang Labs Chairman/CEO during 1989-1990 turnaround attempt"
+"moodys-investors-service","Moody's Investors Service","firm","credit-rating","active","","1909-present","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Byron Walker cited 1990 Wang Boston Globe piece"
+"boston-globe","The Boston Globe","publication","newspaper","active","","1872-present","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Major MA daily; covered Stratus and Wang"
+"jeffrey-krasner","Jeffrey Krasner","person","journalist","active","","1980s-present","boston-globe-wang-q1-turnaround-psk-1990-a5aab0","Boston Globe Staff reporter; 1990 Wang Q1 turnaround piece"

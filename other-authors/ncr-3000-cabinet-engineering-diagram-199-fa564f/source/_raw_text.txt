@@ -1,0 +1,67 @@
+
+===== NCR-3000-cabinet-engineering-1992-2.txt =====
+                                                                Processor Boards with Two 50MHz
+                                                                Intel486 Microprocessors Each
+        Top View
+                                                   Power Supply Interface               Memory Board
+
+                                                        Power Supplies                          Micro Channel Interface Chipset
+
+
+                                                                                                                  Local Peripheral
+                                                                                                                  Board for VGA
+                                                                                                                  Monitor, Mouse,
+                                                                                                                  Keyboard,
+                                                                                                                  Diagnostic
+                                                                                                                  Monitor and
+                                                                                                                  Parallel Printer
+
+                                                                                                                  Primary Micro
+                                                                                                                  Channel Slots (8)
+
+                                                                                                                  Internal SCSI Cables
+
+                                                                                                                  Hot Pluggable
+             Micro Channel Cable Access                                                                            75" Fans
+
+                                                                                                                    ? Full-Height or
+                                                                                                                   18 Half-Height
+                             Back View                                                                            Hot Pluggable
+                             Primary Side                                                                         Fixed Disks
+
+
+
+                                                                         Power Distribution Assembly
+Front View
+Optional Side
+                      Processor Boards with Two 50MHz      4 Full-Height or 8 Half-Height
+                      Intel486 Microprocessors Each        Removeable Devices                   Power/Standby Switch
+                    Memory Board                                                                                     Security Lock
+
+                                                                                                                    LEDs
+                                                                                                                      Power
+                                                                                                                      Status
+                                                                                                                      Battery
+
+Optional Micro -                                                                                                    4 Full-Height or
+Channel Slots (8)                                                                                                   8 Half-Height
+                                                                                                                    Removeable Devices
+Hot Pluggable —                                                                                                     Standard Devices
+6.75" Fans                                                                                                          Include:
+                                                                                                                    One 525 MB QIC Tape
+Up to 14                                                                                                            One 1.44 MB Flex Disk
+Full-Height or
+                                                                                                                    Optional Devices Include:
+28 Half-Height-
+                                                                                                                    600 MB CD-ROM
+Hot Pluggable
+                                                                                                                    1.3 GB Digital
+Fixed bisks
+                                                                                                                    Audio Tape
+
+
+
+
+                                                                                                                 Removable Media
+                               Power Back Up System Batteries                                                    Access Door
+

@@ -1,0 +1,261 @@
+{
+  "name": "aberdeen-open-oltp-enterprise-managers-k-3fc536",
+  "title": "Open Online Transaction Processing: An Enterprise Manager's Guide \u2014 Korean (Hangul) Translation, c. 1991/1992",
+  "description": "Korean-language (Hangul) translation of the Aberdeen Group white paper 'Open Online Transaction Processing: An Enterprise Manager's Guide' authored by Peter S. Kastner (and developed/funded by Aberdeen and its sponsor company, per the bilingual title-page note). This is the international localization companion to the English-language Aberdeen Open OLTP study archived in Batch 22 (slug aberdeen-open-online-transaction-process). Four source files were reconciled per user instruction ('reconcile translations... pick the best or merge to fix artifacts'): (1) NCR-Open-OLTP-1991-Hangul-Korean-8.docx \u2014 primary Korean original (89,020 bytes); (2) NCR-Open-OLTP-Korea-1991-9.docx \u2014 duplicate of the same Hangul original (89,437 bytes; trivial differences); (3) NCR-Korea-1991-Google-Translate-3.docx \u2014 clean Korean\u2192English Google Translate rendering used as the primary English text in this archive; (4) NCR-Korea-1991-poor-translation-4.docx \u2014 older/poor translation with severe character-encoding artifacts ('0=11', '0\uff1f611 01.7\uff1f'), retained for completeness but not authoritative. The cleanest English text (file #3) preserves the full Aberdeen argument: Open OLTP definition (computer mechanism that changes the state of a business in real time while using industry standards), six standards bodies (ISO/X-Open/POSIX/SQL-Access/OSF DCE/Unix International), ACID test components, six executive checklist items, fifteen-stage life-cycle model, and the Aberdeen claim that >90% of OLTP applications need \u226412 transactions per second. Includes table of OLTP applications by industry (banking ATMs, securities trading, insurance claims, telecom directory assistance, government emergency dispatch, retail credit, home shopping). The Korean localization documents NCR Corporation's strategy of using Aberdeen-authored, NCR-funded technical white papers as Asian-market education collateral.",
+  "version": "1.0.0",
+  "created": "2026-04-25",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner (Aberdeen Group); Korean translation by NCR Korea (publisher)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

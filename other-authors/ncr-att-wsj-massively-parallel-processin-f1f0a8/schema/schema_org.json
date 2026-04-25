@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NCR/AT&T Wall Street Journal Full-Page Ad Featuring Aberdeen Group / Kastner Endorsement of Commercial Massively-Parallel Processing",
+  "description": "NCR (an AT&T Company) full-page advertisement on page B9 of the Wall Street Journal, Monday, November 8, 1993, anchored by a substantial Peter S. Kastner / Aberdeen Group endorsement quote: 'NCR is demonstrating not only that (parallel processing) is ready for commercial applications now, but that it is an attractive alternative encompassing what modern users are demanding: a robust computing environment, an open operating system, interoperability with other suppliers' systems, flexible expansion, and attractive price/performance.' The ad claims more than 400 NCR System 3600 and DBC/1012 (Teradata) systems installed at over 180 of the world's most successful companies, positions NCR as ten years into commercial massively-parallel processing, and announces fifth-generation hardware and software while competitors had yet to announce their first generation. A 'Share of Commercial Parallel Processing Market' callout cites Aberdeen Group as the source. This is a Kastner-anchored third-party-endorsement artifact in a top-tier business newspaper, contemporary with the Aberdeen Open OLTP white-paper corpus.",
+  "creator": {
+    "@type": "Person",
+    "name": "NCR Corporation / AT&T Company (advertiser)"
+  },
+  "datePublished": "1993-11-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

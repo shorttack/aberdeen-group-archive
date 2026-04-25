@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"customer-driven-is","Customer-Driven Information Systems / Solutions","IT-strategy","industry","1992-1995","emerging","evolved-into-CRM-and-customer-360","oracle-att-ncr-customer-driven-seminar-t-b9f539","Aberdeen / Kastner thesis: using IS to compete in customer-driven economy"
+"distributed-is-solutions","Distributed Information Systems Solutions","computing-paradigm","Oracle/AT&T-NCR","1990s","emerging","matured-into-cloud-microservices","oracle-att-ncr-customer-driven-seminar-t-b9f539","Brochure: 'powerful distributed IS solutions to increase your revenue opportunities'"
+"oracle-rdbms","Oracle Database (RDBMS)","database","Oracle","1979-present","mature","active","oracle-att-ncr-customer-driven-seminar-t-b9f539","Co-sponsoring vendor's flagship product"
+"att-ncr-alliance","AT&T-NCR Combined Operations","vendor-alliance","AT&T-NCR","1991-1996","current-1993","ended-1996-spinoff","oracle-att-ncr-customer-driven-seminar-t-b9f539","Joint Oracle + AT&T-NCR seminar template"
+"ncr-topend","NCR TopEND TP Monitor","system-software","NCR","1991-mid-2000s","current","obsolete","oracle-att-ncr-customer-driven-seminar-t-b9f539","Implicit platform under AT&T-NCR + Oracle case studies"

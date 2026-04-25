@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ncr-corporation","NCR Corporation","company","retail-and-financial-systems","active","Spun out of AT&T 1996; later split NCR/NCR Voyix 2023","1884-present","ncr-3000-cabinet-engineering-diagram-199-fa564f","Retail/banking systems; pioneered Teradata DW after acquisition"
+"att-corp","AT&T Corporation","company","telecommunications-and-systems","split","Multiple divestitures; AT&T Inc. is now SBC-based","1885-present","ncr-3000-cabinet-engineering-diagram-199-fa564f","Owner of NCR 1991-1996 (Global Information Solutions)"
+"intel-corporation","Intel Corporation","company","semiconductor","active","","1968-present","ncr-3000-cabinet-engineering-diagram-199-fa564f","x86 CPU industry leader"

@@ -1,0 +1,1062 @@
+# Marketing and Business Development Basics (Twelve Vital Hours, Session 4)
+
+> Archived from: Marketing-and-Business-new-hire-2000.pdf
+> Original publication date: 2000-08
+> Author: Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group
+
+---
+
+## Original Document Text
+
+1
+r
+;■■■ iSSq
+if- ■;
+. '
+
+■- j
+
+’■
+
+5
+
+M<a
+
+“Marketing and Business
+Development Basics”
+August 2000
+
+Aberdeen Group
+*■ \
+
+^••'
+
+Boston • Palo Allo • Amsterdam
+
+www.aberdeen.com
+
+Fro^tct 1
+
+Four Key Objectives
+• Instil! in you the confidence to communicate to
+prospects that you have a unique value to add
+to their success
+• Understand the mechanics and dynamics of the
+
+business development process
+
+• Rehearse in the privacy of your peers what you
+will need to say to prospects
+* Review the marketing and business
+development resources available to you at
+Aberdeen
+
+Agenda
+• Professional services and trust
+; • Suppliers’ common issues during their
+1 product life cycles
+I * Developing business through a supplier| initiated meeting
+J • Establishing your client base
+* Role playing: verbally proposing a project
+to the group
+j • Aberdeen’s written proposals
+* Tips on building client relationships
+
+The Professional
+Services Business
+* Accountants, architects, doctors,
+insurance brokers, lawyers, plumbers,
+undertakers, and a//Aberdeen employees
+are in the Professional Services Business
+- This means every one of us must make a
+favorable impression on clients and
+prospects at all times
+• Because everybody is selling Aberdeen services
+at all times!
+
+The Professional
+Services Business (continued)
+- Clients hire us on trust — they have to trust
+that we can help them better than any other
+organization
+• Why trust? They never get to see our results
+until after a project is complete.
+
+Prospects Buy Trust
+—g—g—HMH^^jigijgjj ||||
+
+|| |
+
+.............. ................. XJ
+
+• Before engaging Aberdeen for significant
+projects, trust must be established between
+you and your prospect
+- Merely being a member of the Aberdeen
+organization starts the trust building process
+- Reviewing what you have published creates
+tangible evidence that you can be trusted
+• You are not merely “shooting from the lip” just
+to finesse a prospective client in a sales meeting
+
+- A successful “first date” project — such as
+preparing a Profile or giving a speech — can
+then build the trust necessary to move to the
+next level of the client-analyst business
+relationship
+SMe 6, Chapter 4
+
+Confidential
+AberdeenGroup, Inc.
+
+The Implications of
+Trust Building
+• Trust takes time to build
+• Trust means you must always be honest and
+objective
+- Telling a client “You are the best” may be the easy
+route in the short term but if its market share
+declines, you have broken the trust
+
+• Trust means listening and asking questions — not
+jumping to conclusions and dictating
+recommendations
+
+• Trust means doing what you say you will do —
+and quickly disclosing what Aberdeen cannot do
+
+I The Implications of
+Trust Building (continued)
+j • Trust means respecting your client and
+its confidences as your client respects
+J you
+I
+!
+
+- This means not breaking the trust of others.
+Clients do not respect you and will not trust
+you in the future if you break another firm’s
+NDA (non-disclosure agreement) — even in
+your enthusiasm to help your client.
+
+Why Clients Want A Relationship With
+Aberdeen
+• Suppliers really do not know what the strategic
+questions and dynamics of the marketplace are
+today and will be in the future, and they must
+know to be successful
+- This is why your Practice Reports are critical —
+they demonstrate that you do know
+• Practice Reports are designed to quickly build
+trust between you and your prospect
+
+• Clients need knowledgeable, objective, non­
+political, real-time input to their key investment
+and marketing decisions
+- And each Aberdeen client has issues that are
+unique to it at any point of time
+
+Key Client Questions
+For Aberdeen
+“What functionality, distribution channels and
+other attributes (such as pricing) must our
+product have to be successful? What market
+segments should we target?”
+
+Key Client Questions
+For Aberdeen (continued)
+“How can Aberdeen better educate the
+market about the value and advantages our
+products and services provide users? With
+whom should we partner?”
+
+SWell, Chapter 4
+
+Time
+
+Confidential
+AberdeenGroup, Inc.
+
+Key Client Questions
+
+\
+
+For Aberdeen (continued)
+“We have heard the initial market response to
+our value proposition. Could Aberdeen tell us
+what it really means and where we should invest
+our resources for success? ”
+
+Key Client Questions
+For Aberdeen (continued)
+“What factors are stopping prospective buyers
+from acquiring products from us? How can
+we ‘cross the chasm’?”
+
+Market
+
+Stages
+
+SMe 13, Chapter 4
+
+Key Client Questions
+For Aberdeen (continued)
+i
+
+“How can we differentiate our products and
+services from the competition in such a way that
+the majority of IS decision makers will see us as
+the ‘safe’ choice for the future?”
+
+*T-7
+
+----------------------------- ----------------------------------------------------------------
+
+■j Key Client Questions
+For Aberdeen (continued)
+“What should we do to rebuild momentum? And if
+we cannot rebuild momentum, how can we best
+4 extend our product’s life while using our key
+■ assets to enter new, high growth markets?
+Research
+
+Product
+Intro.
+
+Maturity
+
+Rapid
+Market
+Growth
+
+Market
+
+|
+
+Stages
+
+V
+
+■
+
+SMe 15. Chapter 4
+
+Time
+
+Confidential
+AberdeenGroup, Inc.
+
+Key Client Questions
+For Aberdeen (continued)
+“How does our firm become or
+remain #1 in our market place?”
+
+Market
+Stages
+
+Slide 16, Chapter 4
+
+rrjrfr.;
+
+Key Client Questions
+For Aberdeen (continued)
+“What additional products, services, distribution
+channels, target markets, etc. should we add to
+further fuel our growth rates and outflank the
+competition? Who should we consider acquiring?”
+
+Key Client Questions
+
+For Aberdeen (continued)
+“How do we maintain the loyalty of our installed
+base and hold off competition from alternative
+technologies?”
+
+Key Client Questions
+For Aberdeen (continued)
+“How do we motivate our installed base to
+continue to invest in our products to maximize
+the return on their past investments?”
+
+Market
+
+Stages
+
+Slide 19, Chapter 4
+
+Development
+
+Boston • Palo Alto • Amsterdam
+www.aberdeen.com
+
+Meeting and Closing Business For
+The First Time
+• This can be a stomach-churning moment for
+both new analysts and the supplier’s
+representative — so take a deep breath until you
+become comfortable
+- The key concept to continuously keep in mind is
+that if you can add value and help the supplier
+become successful, the prospect-supplier really
+wants to know how to do business with Aberdeen
+
+- The most critical complaint about Aberdeen from
+suppliers is they find it difficult to know how to do
+business with us!
+
+Starting the Business
+Development Process
+• The business development process starts
+with your verbal introduction of Aberdeen
+and your practice area to a prospective
+client
+- Show Time — Please present to the class!
+• Analysts: Aberdeen and your practice areas
+• All othejs^Aberdeen ancjjvaur responsibilities
+
+Demonstrating Your Expertise Without Being
+Confrontational
+
+j • Based on the company’s Product Life
+Cycle stage, your knowledge of the
+3 current industry dynamics (buyer
+| preferences and competitive positioning),
+| and the strengths and weaknesses you
+see in the supplier’s offering, ask
+i questions to learn more about how the
+supplier will build on its strengths and
+minimize its weaknesses
+
+Demonstrating Your Expertise
+
+A
+
+Without Being Confrontational continued)
+
+\
+
+• Asking questions about critical aspects of \
+?
+
+the product offering that allow the prospect i
+to more fully explain its strategy shows
+maturity and is more effective than giving
+instant analysis
+- Demonstrates you know the critical areas in
+which the supplier must be successful and you
+want to learn more — continues the trust
+building
+- Gives you an opportunity to more carefully
+evaluate the potential for success of the
+supplier’s strategy
+Sfce 24. Chapter 4
+
+Confidential
+
+------------------------------ —____________________________________________________________________ AberdeenGroup, Inc.
+
+I
+
+The Power of Optimism
+1—'^S. -JLrJ.-’Z•■ C- '■■
+
+;
+
+; • Based upon your meeting, are you
+optimistic that the supplier and its
+product and services will be successful
+or have a notable impact in the target
+i
+market?
+I
+
+- If not, and if you have never worked with
+this company before, the odds are very slim
+that the firm will engage Aberdeen to tell it
+what it is doing wrong at the end of this
+meeting
+• And you should not write a Profile on a product
+that is inappropriate for the market it is
+targeting merely to gain short-term revenues
+Confidential
+
+■;j’
+
+’■
+
+SMe 25, Chapter 4
+
+AberdeenGroup, Inc,
+
+The Power of Optimism continued)
+- If you are optimistic, say why you are and
+describe both the benefits you see for
+prospective acquirers of the product and
+hurdles you believe the company will need to
+overcome to achieve its objectives
+• The structure is now in place to turn the prospect
+into a client
+
+How Successful Analysts Close At
+
+Supplier-initiated Meetings
+• The business development question for
+you is whether to close with a proposal
+for a Profile, RAMP, Personal Retainer
+Service, or a combination — and in what
+order
+- If you wish to do business with the supplier
+at some time — now or in the future — you
+should close every supplier-initiated
+meeting with at least one of these offerings!
+
+How Successful Analysts Close At Supplierinitiated Meetings — Profile
+•
+
+If you are optimistic about the product, especially if it
+is about to be announced in the near future:
+“Aberdeen can help leverage your marketing messages
+through an independent perspective in the form of a Profile.
+However, it will take me several days to interview your
+technical team, successful users, and develop the content in
+such a way that is most meaningful for IS decision makers to
+understand both your offering and its uniqueness in the
+marketplace. Our fee for this effort is approximately $15,000.
+If you would like to further distribute Aberdeen’s findings,
+reprints and web rights are available based upon our
+standard price list. If the findings of this research effort are
+contrary to your expectations, there is no requirement on our
+part or yours to publish them — but you will at least have the
+benefit of obtaining the least expensive research-based
+consulting report possible objectively assessing your current
+position in the marketplace. May I send you a proposal?"
+
+How Successful Analysts Close At Supplier-initiated
+Meetings — Personal Retainer
+
+• If you sense that the supplier wants access to
+Aberdeen’s on-going research:
+“Aberdeen does notchurn out paper like other market research
+firms — our continuous advisory offering to suppliers such as
+yourself is a consulting retainer service. We believe it is most
+important to meet your specific needs for critical market
+information when you need it. For $15,000 a year we deliver our
+on-going business-driven technology assessment services in the
+form of 2 consulting days by an Aberdeen analyst at your site,
+quarterly telephone updates from us, telephone inquiries from
+you on key issues that will arise during the course of the year,
+and all the publications our practice area produces — including
+our Practice Report, Profiles, Viewpoints, and Impacts. May I
+send you a proposal and ask our sales organization to follow-up
+with you?"
+
+How Successful Analysts Close At
+Supplier-initiated Meetings — RAMP
+• If you believe the supplier does not know what it
+does not know (especially about a new market
+for it), suggest a RAMP on the subject:
+“/ honestly believe that you are misunderstanding how real IS
+decision makers in your target market view this issue and
+your company’s current offerings. Aberdeen has helped many
+clients sort through the chaff to find the wheat in these
+situations — to determine what potential buyers are really
+going to do as opposed to what they say to the press they
+may do. In our RAMP (Rapid Accurate Market Positioning)
+service, our experienced analysts will interview your highest
+potential prospects at their sites, typically during 11/2 hour
+sessions, and analyze the results in such a way as to develop
+actionable recommendations you may wish to consider. We
+can typically have initial findings 30 days after the start of the
+project and complete it within 60. The cost is between $60 000
+and $100,000 depending upon the breadth of interviews ’
+required. Would you be interested in discussing this further?”
+
+J
+.J
+
+•
+
+*
+
+v •
+
+-
+
+•>
+
+Your Supporting Resources For Closure
+• First — and most important — are the
+publications you have already written
+- These are the basis for your credibility —
+they show how you can add value by
+describing the key market dynamics in a way
+that IT decision makers can understand
+
+• Proposal templates available on
+Aberdeenl
+* Aberdeen’s sales force can act as an
+intermediary between you and the
+prospect
+
+Your Supporting Resources For Closure
+(continued)
+
+• Senior Aberdeen managers can tell you
+which actions to take — including when
+■
+to walk
+i • The telephone — follow-up calls by you
+require a responsive action on the part of
+the prospect
+
+Developing Your Business At Aberdeen
+
+It’s A Numbers Game — and That Takes
+I Time And Publishing______
+!• The more suppliers you meet with, the
+? more projects you will obtain
+j • The more Aberdeen publications you
+j author, the more projects you will obtain
+5 • The more quotes in the media attributable
+i to you, the more projects you will obtain
+j • The more speeches you give, the more
+projects you will obtain
+
+s A Numbers Game — and That Takes
+Time And Publishing (continued)
+• The more articles you write for trade or
+business publications, the more projects
+you will obtain
+• The effect is cumulative — start early
+and often
+
+The Successful
+Numbers Model
+!_____________________ II ■ I ■ I....................................................................................
+
+• For each supplier you are working with in
+your practice area:
+- Yearl
+• A Profile with web rights — $25K
+
+- Year 2
+• Analysts Plus Service, a Profile, Professional
+services assignment (i.e. Speaking Tour) — $65K
+
+- Year 3
+• Personal Retainer Service, two Profiles, a Major
+professional services assignment (i.e. RAMP) —
+
+Aberdeen History: Business Development
+(1988-1994)
+• Return press calls on Wednesday
+afternoon and Thursday mornings
+• Prepare three Viewpoints on the market
+dynamics of distributed computing
+* Mail Viewpoints with a cover letter to
+the 650 most influential user and
+supplier executives on a six-week cycle
+* Answer prospect calls generated by the
+mailing from 3PM-6PM on Friday
+
+Aberdeen History: Business Development
+(1988-1994) (continued)
+• To Close:
+- Commit to fixed prices on the phone to do
+projects with a promise to fax the requisite
+“Proposal” for administrative sign-off by the
+middle of the next week
+
+I And Business Planning Is Key
+' • After you get your feet on the ground at
+Aberdeen:
+- Identify the key areas of change in your
+practice area — and then focus your
+research, publications, and messages around
+your analysis of how businesses can benefit
+from these changes
+
+|
+
+• Build upon your analytical and communication
+strengths while drawing from your experience
+and background
+• You must show vision and take strong stands to
+build your business!
+
+And Business Planning Is Key continued)
+
+- Identify the suppliers in your practice area and
+
+contact each for information for your research.
+Make sure the industry consulting or PR
+organization knows who you are and the areas
+you are focusing on
+• If you are new to the practice area, a web-based
+search of publications is a great start to both
+identify suppliers you may not be familiar with and
+update you on what the industry buzz is about
+those suppliers you know
+
+; And Business Planning Is Key continued)
+I ■*■■■■■■■■■■■■■■■■■■■■■■ — ■■HIM I III HFIIHHl HI I MH
+s
+
+j
+
+•
+
+|--1—T-f- ------------------- V""
+
+~‘
+
+Now start tracking your numbers on a
+
+weekly basis:
+- How many publications have you produced to
+
+date?
+_ How many suppliers have you talked to?
+j
+
+• Which ones should you follow-up with next week?
+
+- How many prospects have you sent proposals
+
+to?
+- What is the likelihood of those proposals being
+accepted?
+
+'/ ‘ -
+
+And Business Planning Is Key (continued)
+- What is the revenue stream of the projects
+you are working on?
+• When do you expect that revenue will be
+received by Aberdeen?
+
+• Discipline to the numbers is key for
+success!
+
+Individual Business Planning
+——————— ■rorTT^A—^-T’-z1
+
+».■-■
+
+* ’■' TRV'
+
+• Four categories
+- Proposals/Prospects — 90 days +
+- Work in Progress — 45 - 90 days
+- Invoices Out — 0 - 45 days
+- $ Received — Current
+
+• Ratio for $200K target — at beginning of
+each quarter:
+- Proposals = $55K ■ 75K
+- WIP = $35K
+- Invoices = $35K
+- $ Received = $0 (Fills in as Quarterprogresses)
+
+Verbal Proposal Time
+* Analysts please:
+- Describe a supplier you have recently met with
+- Describe its messages to you
+- Tell us your analysis of the situation
+
+- Pretend the group is the supplier’s executives and
+propose an Aberdeen service to us
+
+Written Proposals
+* Required to meet most suppliers’
+administrative requirement
+- Even though most projects are proposed and
+closed verbally
+
+• Will be distributed to decision makers for
+I sign-off
+- Puts in writing what was discussed verbally to
+minimize disagreements later on
+- Allows you to show your expertise in the
+proposed project area
+- Provides a concrete project plan
+
+Written Proposals (continued)
+• Establishes the business Terms and
+Conditions (T&Cs) of the project
+engagement
+• Different for each service Aberdeen offers
+
+The Structure of Aberdeen’s Proposal Style
+From Which Modifications Are Made
+
+www.aberdeen.com
+
+Anatomy of An Aberdeen Written
+Proposal
+•
+
+•
+
+A personal cover letter between you and
+your client contact
+The formal proposed agreement between
+Aberdeen and the prospect enterprise
+(Addressee may be different than for cover
+letter)
+- Introduction
+- Background
+- Proposed Scope of Work and Objectives
+- Work Tasks
+- Cost and Duration
+
+of An Aberdeen Written
+(continued)
+
+- General Provisions
+- Staff Responsibility
+- Acceptance
+- Appendix A: Aberdeen Group Overview
+- Appendix B: Resumes of Aberdeen staff who
+will be working on the project
+
+The Cover Letter
+• Format: “Dear Pat,... Sincerely, Jean”
+• Approximately three paragraphs reviewing why
+you are excited about working on the project
+and when you hope to start
+- You may want to add how you think the client
+contact will benefit personally from the
+proposed project
+
+• The client contact is expected to remove this
+cover letter when sending the formal proposal
+to others for comments and approval —
+therefore, do not staple it to the formal
+proposal — it must be separate
+
+Written Proposal: Format
+• Formal business letter format:
+- Date
+
+- Addressee — with title
+- Address
+- Salutation — “Dear Mr./Ms. David A. Lester:
+
+- Header for pages 2 and beyond:
+• Page
+
+• Date
+• Addressee — Company
+
+Written Proposal:
+
+Introduction
+• Simply identifies to the unknowledgeable reader
+what the proposal is about and that you and the
+client contact have already discussed the
+possibility of working together
+- The key message is that this is not an unsolicited
+proposal
+
+“Thank you for providing Aberdeen with the opportunity to
+propose how we might work with you on the upcoming
+XYZ project. Based upon our discussion of last week, I
+have prepared this agreement for your consideration.”
+
+Written Proposal:
+
+Background
+• 3-5 paragraphs
+
+• Succinctly describes industry trends and how
+Aberdeen sees the prospect’s position within
+these trends
+• Concludes that the prospect “has requested
+Aberdeen’s assistance”
+• This section allows you to:
+- Show your expertise in the area to be worked in
+- Make the point to those who have not yet been
+associated with the proposed work that the
+prospect really does need Aberdeen’s help ASAP
+
+i Written Proposal: Proposed Scope of
+■ Work and Objectives
+• Describes what work Aberdeen will
+perform and what the deliverables
+resulting from the work effort will be
+
+• Typically 3 - 4 paragraphs
+
+Written Proposal:
+Work Tasks
+• Typically used for multi-staged projects
+• Builds on the previous section — often repeats it
+• Lists and describes Tasks to be accomplished
+- Taskl... Task n
+- Allows Aberdeen to bill the client at the
+completion of each Task and establishes a
+guideline for progress payments
+
+• Clearly delineates Aberdeen versus client
+responsibilities
+• Clearly defines Aberdeen’s project process and
+resulting deliverables
+
+Written Proposal:
+Cost and Duration
+• Professional service fees, reprint prices,
+and web license fees
+* Anticipated length of project duration from
+commencement until when last deliverable
+will be provided to the client
+• Expenses are invoiced separately — and
+Aberdeen takes no markup
+
+• Defines a payment schedule if work is to be
+billed as completed
+
+Confidential
+
+j Written Proposal:
+I General Provisions
+.rl
+
+• Experience statements — answers questions
+I about hourly rates
+I • Confidentiality statements — establishes our
+guidelines
+i
+J
+
+- Including that we will not work on projects where
+there is a potential conflict of interest between two
+different clients
+
+| • Copyright and intellectual property ownership
+I assignments
+• Sign-off provisions for potential publications
+
+J • Liability limitations
+
+| Written Proposal:
+j Staff Responsibility
+:
+
+■saB.jxAMituirt^y-g/ ‘j
+
+f
+
+'■ • Clearly states who Aberdeen’s project
+1 manager will be
+
+; • Introduces additional Aberdeen staff who
+| may work on the project
+j • Points to resumes in Appendix B
+
+WS? ~ <
+
+Written Proposal:
+
+Acceptance
+Clearly states that we will begin work
+based on verbal approval by the client
+contact and will patiently wait for a formal
+Purchase Order
+* States our expiration date for the proposal
+— after which we will no longer honor it
+• Suggests a start date — this gets us from
+the planning and defining a business
+relationship stages to the action and
+revenue generation stages
+
+Written Proposal:
+
+Acceptance (continued)
+♦ Signed by Aberdeen Group, Inc.
+- The name and title of the signer are only
+indicators of Aberdeen Group’s
+representative responsible for this proposal
+
+♦ Accepted by the Client Enterprise
+- The name and title of the signer are only
+indicators of the client’s representative
+responsible for this project
+
+Confidential
+SMe 60, Chapter 4
+
+Aberdeen Group, Inc.
+
+Written Proposal:
+Appendix A
+M—................................................................................................................................................
+
+^,,^-wawa.-
+
+♦ Aberdeen one-page blurb
+- The most recent version is available on the
+server at \\Aberdeen1\Marketing\Blurbs\
+• Note: Due to historical realities, the blurb often
+needs to be re-formatted by you to accommodate
+your printer and current letter template
+
+Written Proposal:
+Appendix B
+.
+• • Resumes of Aberdeen staff noted in the body of
+
+i ;
+" ’
+y
+
+• Take standard resumes from Aberdeen server
+'
+0V\berdeen1 \Marketing\Bios\) and modify second
+
+< 1
+^<3
+by
+J;y
+[?i
+
+the proposal
+
+paragraph to more closely meet the client’s needs
+for the project
+- Highlights depth of experience we can bring to the
+
+project
+
+• Note: More resumes are better than fewer even if
+individuals do not work on the project
+
+Tips On Business Development at
+Aberdeen
+• You cannot allow yourself to be discouraged
+by rejection
+- Most unsolicited proposals will not be accepted
+>
+
+- Even prospects that want to work with you may not
+have the discretionary budget monies to move
+quickly
+
+| • If you are not working on a project, you should
+be writing — the best writing is either
+communicating a vision of how the market
+dynamics in your practice area will be evolving
+or writing a Profile or Impact on spec
+
+Tips On Business Development at
+
+Aberdeen (continued)
+• Communication is key
+- Send your publications to the appropriate
+members of the press, suppliers, and users
+• Use Aberdeen’s database for names as well as
+your own rolodex
+
+- The more clearly and often you articulate
+your messages to prospects, the more likely
+they are to acquire Aberdeen services
+- Talk with other Aberdeen analysts to test
+and refine your ideas — the more people
+working on an idea, the higher quality it will
+be
+
+Tips On Business Development at
+Aberdeen (continued)
+The best prospect is a satisfied client
+- A trite expression — but very true
+- The better the results of your first project with
+a new client, the more projects will be sent to
+you without requests for a proposal
+- Follow your satisfied clients from job-to-job
+
+And In Conclusion
+j • Everybody’s approach to Business
+Development and Aberdeen Marketing
+will be slightly different — because
+j everybody’s style is different
+- Start with the basics described here to get
+on track
+
+- It is a numbers game — you cannot sit in
+you office and just hope that business will
+develop
+- Take chances and actions — it is the only
+way you will grow
+
+And In Conclusion (continued)
+• Ask for business
+- Potential clients are expecting you to
+- It is the only way a business transaction can
+be started
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | aberdeen-training-day-4-marketing-busine-601526 |
+| title | Marketing and Business Development Basics (Twelve Vital Hours, Session 4) |
+| author | Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group |
+| date | 2000-08 |
+| type | employer-record |
+| subject_domain | analyst business development; client acquisition; consultative sales |
+| methodology | internal-training |
+| source_file | Marketing-and-Business-new-hire-2000.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Group's Day 4 / Session 4 training for new analyst hires, delivered August 2000 by partners Logan, Willmott, and Kastner. Covers the professional-services trust-building framework, supplier product life-cycle stage analysis, how to close supplier-initiated meetings with Profile / RAMP / Personal Retainer Service proposals, and the anatomy of Aberdeen's written proposals. Includes pricing guidelines ($15,000 Profile fee; $60,000-$100,000 RAMP; $15,000/year retainer), the 'numbers game' philosophy for building a client base, and Aberdeen's go-to-market history from 1988 to 1994. Together with Sessions 1, 2, and 3, completes the Twelve Vital Hours orientation curriculum.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Completes the fourth and final recovered session of the Twelve Vital Hours program (Sessions 1, 2, and 3 already archived). Contains the most operationally detailed material: pricing, proposal anatomy, and business-development tactics as taught by the founding partners in August 2000. |
+| **Relevance** | high | The consultative-sales, trust-building, and product-life-cycle analysis frameworks remain directly applicable to professional-services firms. The Aberdeen proposal structure and life-cycle questioning model are durable methodology artifacts. |
+| **Prescience** | medium | The emphasis on a 'numbers game' tied to publishing volume anticipated how thought-leadership content marketing became the dominant B2B lead-generation model. Aberdeen's structured life-cycle question framework anticipated the needs-analysis approach that became standard in tech sales training. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (5)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group Inc. | firm | acquired | Harte-Hanks |
+| John R. Logan (JRL) | person | active | Automated Compliance Solutions LLC |
+| Tom H. Willmott | person | active |  |
+| Peter S. Kastner | person | active |  |
+| Geoffrey Moore (Crossing the Chasm) | person | active |  |
+
+### Technologies Referenced (9)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Aberdeen Profile (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen RAMP (Rapid Accurate Market Positioning) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Impact (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Viewpoint (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Personal Retainer Service | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Executive Briefing Paper | framework | Aberdeen Group | mature | obsolete |
+| Product Life Cycle Framework | framework | industry | mature | mature |
+| Aberdeen Practice Summary Report | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Written Proposal Framework | framework | Aberdeen Group | mature | obsolete |
+
+### Observation Summary
+
+- Total observations: 37
+- By type: expert-opinion: 36, topic-insight: 1

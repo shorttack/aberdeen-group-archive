@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Unisys vs. Florida HRS \u2014 Expert Witness Memoir (Senate Chamber Tallahassee, c.1990-1991)",
+  "description": "Peter S. Kastner recalls his expert-witness role in the Florida Department of Health and Rehabilitative Services (HRS) bid protest \u2014 Unisys vs. IBM/EDS \u2014 in the early 1990s. Kastner went through a box of computer paper to find the single IBM performance estimate sheet that proved the proposed mainframe plus DB2 architecture could not support the required terminal counts and average response time, and testified in the Florida Senate Chamber in Tallahassee. Although Unisys lost the bid, the IBM/EDS implementation failed catastrophically \u2014 a $200 million fiasco involving system crashes during food stamp distribution, national records for error rates, and EDS suing for $46 million in unpaid bills. The fallout helped motivate Congress to pass two pieces of Senator William Cohen's IT-procurement reform legislation \u2014 the Information Technology Management Reform Act and the Federal Acquisition Reform Act (jointly the Clinger-Cohen Act of 1996) \u2014 which remain in force today. era: 1990s; mood: reflective; trigger: Perplexity research session January 2026 on government IT procurement disasters",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (memoir); Perplexity AI (research context)"
+  },
+  "datePublished": "2026-01-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

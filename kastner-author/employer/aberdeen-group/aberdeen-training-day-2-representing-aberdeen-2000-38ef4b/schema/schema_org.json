@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "How To Represent Aberdeen and Yourself (Twelve Vital Hours, Session 2)",
+  "description": "Session 2 of Aberdeen Group's Twelve Vital Hours new-hire orientation program, delivered in August 2000 by the three founding partners: John Logan, Thomas Willmott, and Peter Kastner. Covers how analysts introduce Aberdeen to supplier executives, conduct supplier briefings, follow up with prospects, and give press interviews. The PDF and DOCX are equivalent versions of the same August 2000 training deck; both are preserved as twin source artifacts. Explicitly states Aberdeen ownership structure: primarily held by three partners (Logan, Willmott, Kastner) plus staff and 1998 private capital.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group"
+  },
+  "datePublished": "2000-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

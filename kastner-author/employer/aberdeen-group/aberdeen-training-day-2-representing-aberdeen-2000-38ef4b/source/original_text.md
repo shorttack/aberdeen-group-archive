@@ -1,0 +1,1214 @@
+# How To Represent Aberdeen and Yourself (Twelve Vital Hours, Session 2)
+
+> Archived from: Representing-Aberdeen-new-hire-2000-3.pdf
+> Original publication date: 2000-08
+> Author: Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group
+
+---
+
+## Original Document Text
+
+How to Represent Aberdeen and
+Yourself”
+
+August 2000
+
+Four Key Objectives
+* Establish and deliver a consistent,
+positive message to represent Aberdeen
+to prospects, clients, and industry
+influencers
+
+• Provide you with the confidence to
+describe and demonstrate the benefits
+Aberdeen can provide to a client
+
+Four Key Objectives (continued)
+
+• Understand the mechanics of following
+up with a prospect to win assignments
+
+• Describe a framework with which to work
+with the press and PR firms to reach
+potential clients
+
+Agenda:
+Critical Communication Times
+• Introducing Aberdeen and yourself to a
+supplier for the first time before being briefed
+on its products, strategy, results, etc.
+• Conducting yourself during a supplier briefing
+and starting the Real Meeting
+• Following up on a prospect’s request for
+possible assistance
+• Giving an interview to the press regarding your
+analysis of a supplier and its most recent
+announcement
+
+Introducing Aberdeen and Yourself
+To A Supplier
+
+Your Supplier Audience
+• Your target audience is supplier
+executives who:
+- Do not yet know Aberdeen, or
+
+- What they do know about Aberdeen is from
+intermediaries — their PR firm, press quote;
+prospects, etc.
+
+• Do not be surprised that even with all ou
+quotes in the press that some senior
+supplier executives will not have heard o
+Aberdeen
+
+Your Supplier Audience (continued)
+- Even if they have heard about Aberdeen, they
+will not know about our services or what we
+can do for them
+
+- We find that even most current clients do not
+know the breadth of potential projects that
+we could assist them with
+
+- The same introductory message that is
+appropriate for this audience can be modified
+for IS decision makers, the press, recruits,
+family, and people sitting next to you on
+planes
+
+j Your Objective
+! • Describe Aberdeen in less than 5
+
+j
+
+minutes, without slides, to a relatively
+unknowledgeable audience
+- Key: the words and enthusiasm in your
+voice
+
+- Eventually, you must use your words
+while maintaining a consistent theme with
+all other Aberdeen members
+- Consistency is required to build initial
+trust between prospects and Aberdeen
+
+Start By Broadening and Differentiating Aberdeen In
+Comparison To Others
+STATEMENT: Aberdeen’s mission is to analyze how
+
+technology change impacts business. We have found
+that traditional IT market research firms are caught up
+
+in counting numbers or comparing promised future
+features while management consulting firms really do
+not understand the implications of new technologies.
+
+Aberdeen focuses on the dynamics of business
+change that will be created by technology change, y-v
+
+PURPOSE: To describe how Aberdeen analysis goes
+well beyond the procedural mechanics of typical IT
+market research
+
+Then Talk About the Matrix Approach to Sharing
+
+Research Findings We Take
+
+STATEMENT: At Aberdeen, we have numerous,
+structured practice areas that match the research
+needs of IS organizations. We follow trends in
+systems platforms and architectures, networking and
+telecommunications, network services (what many
+call middleware), and enterprise business
+applications. We then look at how professional
+services are used to develop and deploy new
+applications.
+
+At this time, much of our research is focused on how
+enterprise users will be transforming their information
+infrastructures to take advantage of the benefits of
+new Web-based technologies and products.
+
+f Then Talk About the Matrix Approach to Sharing
+
+j Research Findings We Take (continued)
+$
+
+STATEMENT (continued): Aberdeen’s unique value
+; lies in examining the impacts and tradeoffs of these
+? areas on each other and users’ business
+1 operations.
+
+| Analysts share findings from their practice areas
+| with each other at Friday staff meetings to build an
+| Aberdeen research consensus.
+
+; PURPOSE: The purpose is to explain that we are a
+t matrix research organization — not stovepiped
+
+Now Move To The Focus Of How
+i We Do Research
+JjjM-SC7T3CS58STSB^X<*riTZXy«F7I‘£v.i.iLy,'?lS7V<T*t?X^~'':y«''
+
+STATEMENT: Aberdeen’s research is concerned with
+helping IS executives better plan for and operate the
+
+business-critical data operations their enterprise rely
+on to be successful — or even just survive. We focus
+
+on areas of change. Specifically, how technology
+change will create business change. We monitor
+
+changes in IT technologies, analyze these changes,
+and then interpret how these changes will positively or
+
+negatively impact IS executives and their enterprises.
+PURPOSE: Make the point that Aberdeen's research is
+based upon the end-user’s perspective on change
+Confidential
+
+Spell Out For the Audience How We Help
+Suppliers
+STATEMENT: At Aberdeen, we enjoy being the bridge
+between suppliers and profit-driven end users. By
+understanding how enterprises operate and actually
+
+plan for the future of their IS department, we are able to
+help suppliers better leverage the market dynamics of
+change as it is occurring. And we can explain to end­
+user enterprise executives why their established and
+potential suppliers are taking the actions they are.”
+PURPOSE: You want to make your audience feel
+comfortable talking with you. If you are the 6th out of 8
+£ analyst groups they have spoken with, they might be a
+5 bit hostile at this point!
+<
+
+Differentiate Aberdeen
+
+Some More
+STATEMENT: Unlike most market research firms, we
+
+work on a 1-on-1 consulting basis with our clients. We
+have a retainer service for our supplier clients, but do
+not have a subscription publishing business requiring
+us to write a note-a-week — no matter how irrelevant.
+Rather, we review suppliers’ announcements, conduct
+field research, compare the impact to current dynamics
+in the marketplace, and provide feedback to our
+clients. If the supplier is offering a unique capability
+that end users need, we may publish our findings in a
+Profile, Viewpoint, or Impact.”
+PURPOSE: Sets the basis for having a dialogue about
+how Aberdeen can help a client
+
+Introduce Your Practice Area
+STATEMENT: I personally follow the... market. The
+
+group I am with is responsible for preparing Aberdeen’s
+Practice Summary in this area. In this Report, we
+identify the current key strategic questions and issues
+of buyers and analyze market needs against the
+universe of suppliers’ capabilities. Based upon my end­
+
+user research, I am very much interested in how you are
+... More to the point, I hope we can discuss the
+following...
+PURPOSE: You must show that you have a framework
+upon which to analyze the supplier’s presentation ASAP
+or you will not be credible
+*
+
+Canfidenfiai
+
+Frequently Asked Questions
+Q. How large is Aberdeen?
+
+A. We have over 50 analysts on staff and are
+growing *50% per year.
+Q. Who are your major competitors?
+A. We try to be unique by the strength of our 1-on-1
+consulting and analytical capabilities. But we
+are normally compared to Gartner, Meta,
+Forrester, and IDC — though we rarely compete
+directly against them for a client contract.
+
+Confidential
+AhnrrinonAnUD. Im
+
+Frequently Asked Questions (continued)
+Q. Where did the name Aberdeen come from?
+
+A. When the company was started, the founders
+wanted a name that implied that IT should be a
+tool for business advantage — not just the
+domain of the high priests of mainframe
+computing technology. They did their market
+research and found that the user community
+understood these connotations from the name
+Aberdeen Group.
+But some of us believe it is merely that the
+international connotation of Aberdeen and “Ab”
+put us before other analyst groups in alphabetic
+listings of market research suppliers.
+
+I Frequently Asked Questions (continued)
+Q. How long has Aberdeen been in business?
+A. We were founded over 12 years ago.
+
+1 Q. Why do Aberdeen analysts dress so formally
+
+•
+compared to other analysts ?
+J A. Because we are also business people and
+consultants. We believe that after all the
+efforts you have made to prepare this
+presentation and meet with us it is merely
+common courtesy and respect that dictates
+we should dress appropriately for our
+meeting.
+■ SEda 10, Chapta 2
+“----------------------- —____________________________ _
+
+CocfArtd
+
+ZtwteenGrtXjp, Inc.
+
+Frequently Asked Questions (continued)
+Q. What is the ownership of Aberdeen?
+A. We are privately held — primarily by three
+partners (Logan, Wiilmott, Kastner) — and other
+members of the organization. In addition, we
+obtained private capital funding in 1998.
+Q. Don’t other firms do what Aberdeen does?
+A. Many organizations claim to do the type of IT
+market research and consulting Aberdeen
+provides, but we believe we have the best long­
+term record in the industry for accuracy and
+foresight.
+
+Frequently Asked Questions (continued)
+—■■■■. ....... 1-- --------- —1--Q, Can I have a brochure?
+A. We have never used brochures — our business
+conies from word-of-mouth. We often like to
+joke that it takes an aggressive client to become
+an Aberdeen customer. However, our web site
+describes our research areas, provides much of
+our past research, and contains the biographies
+of our key analysts. This is our living brochure.
+For a more in-depth description of our specific
+services, I will ask one of our sales
+representatives to contact you about a proposal
+for your specific requirements.
+
+And Now For Some Tips
+•
+
+Do not assume at introduction you know the
+supplier’s business model and results — things are
+rarely what they seem
+- Patiently let the executives tell you their message
+
+- Encourage them to talk by asking questions
+- Do not blurt out your analysis of their company as
+part of your introduction
+
+•
+
+Spend very little time describing your pre-Aberdeen
+professional experience — they are conditioned to
+see you as an Aberdeen representative
+- Leave your pride in past accomplishments with
+other employers at home
+
+And Now For Some Tips: PR Firms
+j • The supplier team you meet will typically include a
+representative from a PR firm
+- They get paid to schedule meetings with analysts like you
+
+I
+|
+*
+|
+
+- They get to keep the client if you say nice things about
+their client after the briefing session
+- They may act as court reporters or take an active role in
+the meeting
+- Always treat the PR representative as another professional
+helping the supplier and industry better understand each
+other
+• They will bring you more prospective clients
+• They may recommend purchase of a Profile, etc.
+- But they may believe you are stepping into their area in
+terms of strategy recommendations and research they
+would like to conduct for their client
+
+And Now For Some Tips: The Hostile
+Supplier Rep
+• Many supplier executives have never worked
+with analysts before — or have had bad past
+experiences — and find the process
+unpleasant. You will know as soon as you
+shake hands.
+• Try to relax them at the start by getting off the
+subject at hand. Talk about family, hobbies,
+travel, etc. Say something nice about their
+company. Anything to ease the tension or it
+will be a long and unproductive briefing!
+
+And Now For Some Tips: The Hostile
+
+...
+
+....
+
+Supplier Rep (continued)
+• Your objective is to get them to trust you and the
+services Aberdeen can provide
+
+• Keep pointing out how Aberdeen is different from
+other analyst firms
+
+if
+
+- A simple visual reinforcement of these differences is
+the quality of our offices and the executive manner in
+which you and other analysts are dressed and
+groomed
+
+• Be warned: Some, especially ex-sales
+executives, may believe they are here to buy your
+|
+opinion
+
+Modifications For Other Audiences
+
+WHO: IS Decision Makers
+STATEMENT: Aberdeen is very proud to have more
+free research available on our web site than any
+other IT market research firm. We get about 40,000
+hits per month, mostly users. Check out our web
+site.
+
+WHO: Investment Community
+STATEMENT: Yes, this is a very fast growing and
+profitable business. We are still privately held but
+are moving towards an IPO as soon as possible.
+
+Modifications For Other Audiences
+
+WHO: Analysts with other firms:
+STATEMENT: We are more qualitatively and oneoff project oriented than you are. We really do not
+compete with each other.
+
+WHO: The Press
+STATEMENT: We tend to deliver our research
+findings and analysis in the form of 1-on-1
+education for both supplier and end-user
+enterprises.
+
+Managing A Supplier Presentation
+
+Why Supplier Briefings?
+• The supplier wants to obtain positive industry
+analyst reviews which will translate into positive
+press reviews
+
+j • These reviews will hopefully translate into both
+customer acquisitions and securities analysts’
+“Strong Buy” recommendations — increasing the
+firm’s market valuation and the individual
+employees net worth
+
+• The supplier is fine-tuning their messages with you
+for free before a major public launch
+• You want to understand the supplier’s products and
+strategies better than any other analyst in the
+industry
+
+Aberdeen Analysts’ Golden Rules
+• Do not fall asleep!
+- If you are bored, ask the supplier to move faster
+
+- Reading ahead in a presentation is encouraged
+so that you understand the flow and know
+better where to ask the appropriate question
+
+• You are in charge of the meeting!
+- They asked you to give them 1-2 hours of your
+valuable time — direct the flow of the meeting
+as you wish
+- And note that the most “power-dressed”
+executive in the meeting gets the most respect
+
+Aberdeen Analysts’ Golden Rules
+(continued).............................
+
+<; • Keep the session interactive
+- If you disagree with a premise at the beginning,
+
+say so
+- If you believe the supplier is on the right track
+;
+
+|
+gj
+
+and has a valuable offering, say so
+- Challenging and supporting are the most
+frequent modes of commenting
+- As often as possible, base your comments on an
+opening line of “Aberdeen research shows ...”
+
+O
+
+- Please do not be condescending or arrogant — it
+belittles Aberdeen and the client — this is an
+executive-to-executive forum
+Slide 30. Chapter 2
+
+Cor^denfiaf
+Abcrdeen&xxp, Inc.
+
+Aberdeen Analysts’
+
+Golden Rules (continued)
+• If you do not understand what the supplier is
+talking about or why...
+- Begin with, “If I may ask a really naive question,
+...” and then ask one!
+- You may find that you and the supplier have
+totally different opinions about the current state
+of the marketplace
+
+• Ask for an organizational chart of both the
+company and the group you are meeting with —
+you want to know where they fit into the
+enterprise so you are not talking to a renegade
+group that has misrepresented itself!
+
+Aberdeen Analysts’
+Golden Rules (continued)
+• Ask at any time — beginning, middle, or
+end of meeting — “What are the three
+major points you want me to take away
+from this meeting?”
+
+• Kill the Message, Not the Messenger
+- Do not assume the presenter prepared the
+presentation. It may well have come from
+misguided staff members, the PR person
+sitting next to you, or another analyst firm.
+
+! Aberdeen Analysts’
+Golden Rules (continued)
+
+I
+
+- Politely, but pointedly, state the Aberdeen
+view on the presentation contents — the
+presenter may well be your target customer­
+prospect if the presentation messages are
+incorrect or incoherent!
+
+§
+
+- You are trying to help clarify the good points
+the supplier is making or should be making,
+while pointing out the potholes
+
+S
+
+- Avoid using the term “you” — meaning the
+company — when giving negative comments
+The presenter will take the criticism personally
+
+Starting The Real Meeting
+• After the executives have given you their
+presentation, they will ask you what you think:
+this begins the REAL MEETING
+• Be objective, honest, and frank
+- Never directly compare one supplier’s
+presentation to its direct competitors’
+- Analyze the messages from your composite IS
+decision maker’s acquisition criteria
+- Analyze from history the supplier’s ability to
+deliver
+- Analyze the competitive landscape from publicly
+available sources
+
+The Critical Juncture
+————i—Bn—n— rnw m'H
+Q: Did you provide the supplier with new insights?
+b
+
+Q: Were the supplier representatives interested in or
+excited about what you had to say?
+Q: Did they believe your instant analysis added
+value to their understanding of their own
+marketplace?
+
+•
+
+•
+
+If the answer is “No” to all these questions, the
+meeting is generally over — say, “Good-bye and
+
+thanks”
+If you think the supplier would be a “bad” client,
+
+conclude the meeting
+
+Concluding the Real Meeting
+• If you believe the offering is valuable and will
+be useful to end-users, discuss ways
+Aberdeen could talk to the press and write a
+Profile.
+
+• The benefit of a Profile for the supplier would
+be to expand, clarify, and communicate the
+user-oriented messages based upon your
+initial analysis
+- Show samples of Profiles and offer to get
+Aberdeen’s sales organization involved
+
+Concluding the Real Meeting (continued)
+• If you believe the supplier is going down
+the wrong path and needs documented
+market reactions to its value proposition
+quickly, recommend a RAMP
+* If you believe the supplier has lost touch
+with or simply does not understand its
+targeted prospects, an Aberdeen
+consulting project may be the fastest and
+mosteconomical way of getting it back on
+track
+
+Concluding the Meeting (continued)
+• If you want to make the supplier a
+customer, you must do so at the
+conclusion of the Real Meeting
+• No proposal — no matter how brilliant —
+will win over a prospective client who
+leaves the Real Meeting without an
+interest in working withlyoiKmore in the
+future
+• Thank the executives for making the effort
+to meet with you at Aberdeen
+
+Concluding the Meeting (continued)
+• Ensure them that your updated 1/2 page
+Profile of them will be in the next version of
+your Practice Summary Report
+• This is different than a Profile project
+• Send a contact sheet to the following
+Aberdeen staff:
+- Database specialist
+
+- Inside and/or outside sales representative
+- Your manager
+
+- The Chief Research Officer
+
+\nd Never... And Always...
+• Never say or imply that Aberdeen will write a
+positive article or give positive comments if
+the supplier becomes an Aberdeen client —
+that’s extortion!
+
+• Never let the contractual side of our business
+influence your industry analysis
+• Always remember that timely, objective,
+accurate analysis is the only wav to help our
+clients and maintain our industry standing
+
+Slide 40. Chapter 2
+
+Confidential
+
+Meeting Observations
+• A productive meeting is conducted as a one-onone of peers. You and the most senior person in
+
+the meeting must act like peers
+- If you are not dressed and groomed like a senior
+executive, you have already lost peer-credibility
+• It is better to be overdressed than underdressed —
+Aberdeen’s best clients have told us sol
+
+• Aberdeen honors all non-disclosures (NDA) that
+we enter into before a meeting — written or
+verbal
+- It is unacceptable to break an NDA
+- Clarify the ground rules on talking to the press at the
+supplier’s request before the NDA mrnirae
+
+Meeting Observations
+
+1
+
+• If the supplier becomes very defensive about
+an objection or issue you have raised to its
+plans, simply say, “You have your opinion on
+this subject, and we have ours, so let’s move
+on”
+• Relax and enjoy briefings — bantering and
+occasional jokes are a helpful part of the
+process
+
+Confidential
+
+Meeting Observations (continued)
+• No two meetings are exactly the same — you will
+learn how to conduct a supplier meeting through
+practice
+- Some can be hostile — especially when a supplier
+misled Aberdeen in the past or does not like Aberdeen
+press comments and how we have positioned it in the
+past
+- Some can be positive — especially when it is a client
+that has benefited from Aberdeen’s assistance
+- Some can be neutral — the supplier is looking for free
+feedback and you are educating yourself
+
+For
+Assistance
+
+If The Supplier Asks
+For A Profile Proposal
+■nrejadi nffr
+
+.tAvK
+
+T^rTM,-
+
+J, i.ur.u>t ru
+
+• Go to http://aberdeen2/intranet/ and
+bring down the appropriate proposal
+* Modify proposal as appropriate
+t • Double-check to make sure the
+prospect’s company name is correct
+• Review proposal with your manager
+I • Send proposal to the prospect and a
+copy to Aberdeen sales
+
+If The Supplier Asks
+
+For A Profile Proposal (continued)
+* Follow-up with a call to the prospect and
+discuss by phone until you obtain a
+verbal acceptance or rejection — let the
+Sales Force help you
+• When you receive a verbal acceptance,
+follow-up with a confirmation letter to the
+prospect-now-client
+
+lf The Supplier Asks For A RAMP
+and estimate how many person-days
+Proposal
+
+I
+
+• Review the situation with your manager
+
+If The Supplier Asks For A RAMP
+
+Proposal (continued)
+• Price the project at between $2,000$3,000 per person day
+- You will never actually know how may
+person-days are required as the client will
+change the tasks and scope throughout
+the project
+
+• Review the proposal with your manager
+
+• Send proposal to prospect and a copy
+to Aberdeen sales
+
+If The Supplier Asks For A RAMP
+Proposal (continued)
+• Follow-up with a call to the prospect
+and discuss by phone until you obtain
+a verbal acceptance or rejection — let
+the Sales Force help you
+• When you receive a verbal acceptance,
+follow-up with a confirmation letter to
+the prospect-now-client
+
+You Believe the Client Could Benefit From Our
+Strategic Retainer Service
+
+• Meet with the appropriate person in the
+Aberdeen sales force to learn their
+experience with the prospect
+* Decide who should be responsible for
+following up with the prospect (you or
+the sales representative)
+
+• Have the appropriate Aberdeen person
+prepare and send a Retainer Service
+proposal and follow-up on a regular
+
+You Believe the Client Could Benefit From Our
+i Strategic Retainer Service (continued)
+
+I • Do not be shy—this is appropriate
+I follow-up for all positive supplier
+I meetings
+I • Contact the prospect once a month
+I asking for new market information,
+
+j
+I
+
+response to an industry announcement,
+or opinion on your analysis of user trends
+
+I • Arrange for meetings at trade shows —
+keep in touch!
+
+There Is A Request For Other Aberdeen
+
+Services
+
+* Suppliers may want or need (based upon
+your suggestion) custom consulting,
+product/strategy reviews, speeches as
+part of marketing seminars, sales
+training, etc.
+• Work with your manager and craft a
+proposed work plan/custom proposal
+
+- Include as many Aberdeen analysts as
+necessary
+
+There Is A Request For
+Other Aberdeen Services (continued)
+
+* Send proposal to prospect and a copy to
+Aberdeen sales
+• Follow-up with a call to the prospect and
+discuss by phone until you obtain a
+I verbal acceptance or rejection — let the
+
+Sales Force help you
+• When you receive a verbal acceptance,
+follow-up with a confirmation letter to the
+prospect-now-client
+
+You Simply Believe The Briefing
+Is Important For Users
+• Prepare a spec Profile or Impact
+- You develop and publish it without any promise
+on the part of the supplier to purchase reprints
+
+- You follow Aberdeen’s standard research
+methods
+
+- You ask the supplier to review the final draft for
+accuracy, but not to approve it for publication
+
+• You or an Aberdeen sales rep send the supplier
+our reprint and web rights pricing schedule
+
+I You Simply Believe The Briefing Is
+j Important For Users (continued)
+i • Aberdeen prints it, provides it to our
+1 clients, and puts an abstract of it on our
+
+I
+
+Web site
+
+I • You inform the supplier it is now public
+1
+1
+
+and we are very proud of it — but the
+supplier does not have reproduction or
+
+Web-linkage rights
+
+• • Sales will follow-up on pricing for
+2
+reprints and Web rights.
+
+The Thin Line In the Sand
+
+• There is a thin line between when suppliers
+are getting to know you/Aberdeen before
+acquiring our services and when they are
+looking for free advice on a continuous
+basis
+t
+• This is a judgment call on your part when
+the line has been crossed
+I
+
+The Thin Line In the Sand (continued)
+t -twrJitJb
+
+J
+
+3-'r-'1 <?'r.‘7~.«.-?
+
+There is nothing wrong with saying, “You
+
+have been seeking my advice for 6 months.
+We need to formalize this relationship in the
+form of a Retainer service or another
+Aberdeen product.”
+• If the supplier acts as though we are a
+government agency where services should
+be dispensed for free, continue to take
+briefings to educate yourself... but
+feedback should now be minimal
+
+The Thin Line In the Sand continued)
+And now for a major issue, competitors and
+suppliers (and their PR firms) who Aberdeen
+has not lauded have and will continue to brand
+us as a “pay-for-play” organization
+- Yet our clients are very happy
+• Our clients understand the value of the strategic
+consulting advice we provide, our holistic view of the
+
+industry and its changes, and our ability to simplify
+complex issues for user
+• Our clients understand there needs to be a bridge
+between users and suppliers
+
+- Your challenge is to never even give the
+perception that Aberdeen is “pay-for-play”
+
+Some Tips For Reaching Closure
+MMMM——S^miEagHMiLMAJ
+
+.n<
+
+^Krr^y.’gr-gwr
+
+• Call the prospect and PR firm and say,
+
+“The press has been asking me about
+your announcement and this is what I
+have been telling them.”
+- They will want the positive analysis to be
+communicated to more than the few people
+i
+
+that read your edited quotes
+
+Some Tips For Reaching Closure icontinued)
+
+• Call your prospect at 3:00 PM on Friday
+and say, “I am planning my schedule for
+the next month and have limited time
+left. Do you think I should schedule the
+start of this project?”
+• Call and say, “We both know we need to
+do this project. Is there anything
+Aberdeen can do to help you get it
+started?”
+
+Some Tips For Reaching Closure (continued)
+• And the most powerful of all, continuously say,
+“You have a fine product but your messages are
+confusing and garbled. I do not believe IS
+decision makers are hearing them — and when
+they do hear your messages, they simply do not
+understand them. Let us help you.”
+• Most supplier marketing managers in
+established companies have to work against too
+many different political agendas to do an
+excellent job — and they know it
+
+Some Tips For Reaching Closure (continued)
+
+* Start-up suppliers need to both educate
+their most-likely prospects about their
+product category and describe why their
+solution is superior—and engineers are
+ill-prepared to do this
+- Both internal marketing people and outside
+marketing advisors generally know that an
+emerging supplier needs Aberdeen’s
+assistance
+
+Day Four of this training course will focus
+much more on the long-term business
+development process at Aberdeen
+
+Stay tuned!
+
+Talking To The Press
+
+Why We Talk To The Press
+• Gives Aberdeen a marketing voice as
+an industry influencer
+
+* Establishes your personal reputation
+in the industry as an individual with
+wisdom, insight, and influence
+• Helps educate the market on
+Aberdeen’s views
+• Reporters can act as excellent
+surrogate reviewers of your analysis
+
+Why We Talk To The Press (continued)
+• Excellent source of industry rumors and
+mood
+• Prospective buyers of Aberdeen
+services frequently learn about us
+through literature reviews
+- The press is a virtual sales and marketing
+channel that gives you personal credibility
+instantly
+
+MVe return phone calls to the press
+- Analysts at many firms do not
+
+• If we are under NDA on a subject, we tell the
+
+reporter
+- We honor NDAs. If the reporter aggressively seeks
+NDA information, we simply discontinue the
+
+conversation — we will not break the trust
+relationship established by a verbal or written NDA.
+- We can give background information on the supplier
+
+and market conditions without breaking an NDA.
+
+Aberdeen Press Style (continued)
+
+• When necessary, we begin the interview
+by giving background on the issue before
+answering a specific question
+- Many reporters need an education on the
+subject matter they are reporting on
+
+- Remember, they have a different topic every
+week
+- It builds your credibility with the reporter
+
+Maerdeen Press Style(continued)
+At some point you must move from
+
+• The reporter needs quotes for
+
+I
+
+publication, not long-winded analysis.
+
+Aberdeen Press Style (continued)
+• Encourage the reporter to call you back with any
+
+follow-up questions
+• If a reporter asks if the company being discussed
+is an Aberdeen client, simply state “Most
+members of the IT supplier community are or
+have been Aberdeen clients. I cannot comment
+on our current relationship with this company.”
+
+• The reporters are frequently looking for
+Aberdeen bias — especially if your analysis and
+theirs is different
+
+The most popular press stories are very
+short sound bites with limited analysis:
+- Report the supplier’s announcement
+
+- Quote a security or industry analyst’s opinion
+- Quote a customer of the supplier about the
+
+impact on their buying decisions
+
+- Finish off with a quote or statement that
+summarizes the reporter’s or editor’s opinion
+• Note that the reporter is not allowed to
+directly write his or her own opinion — that is
+
+reserved for the editorial column
+
+Managing The Story (continued)
+—UBIII....... I !■
+
+...........II 1'1
+
+I
+
+"----------TT~1-----1----------- ---------
+
+• Every experienced Aberdeen analyst has been
+“burned” by the press:
+- You provide balanced, objective analysis and
+background — both positive and negative —
+only to see just the negative printed
+
+- Your quotes are taken out of context
+- Confidential background information obtained
+from a client engagement is printed
+
+- Editors change the reporter’s slant on a story
+- Quotes attributed to you by reporters that you
+
+cannot ever remember talking to
+
+§ _Managing The Story (continued)
+•
+
+Tw—irnmiiin 111 nun i uh i i
+
+'
+
+i
+
+ih
+
+rx?• •':r.
+
+So now, what do you want to tell the reporter after
+providing educational background so the reporter will
+understand the context of your quotable analysis?
+- Many Aberdeen analysts are now only giving positive
+comments if they believe the product announcement
+
+I
+|
+
+I
+
+is good for users
+- Negative comments can be a wake-up call to a
+supplier’s top management when product
+management ignores your advice and warnings during
+
+briefing sessions
+• An objective but negative quote can act as the the catalyst to
+
+.
+
+scope out a potential Aberdeen project
+♦ Or, it can potentially create a hostile atmosphere for your next
+client meetinn
+
+Press Tips
+
+• The trade weeklies have a noon Thursday
+deadline — expect calls on Wednesday
+on any major topics in your area
+- This is why product announcements are
+typically on Tuesdays
+
+- This is why you must respond promptly if
+you want to influence or be in the story —
+even if you are on the road traveling
+
+(continued)
+■———a—____
+
+_______ _ ____ . . ~, • --*--'
+
+M?zr'.-■ 7^ ■>■
+
+• Some publications (Investors Business
+Daily) do not like to quote individual
+analysts or do so on a relatively rare
+basis (Business Week) — but want your
+
+educational background
+• You will soon decide which reporters give
+you a good return on your time and which
+to limit interviews to less than 3 minutes
+
+Press Tips (continued)
+
+* E-mailing the press any published
+Aberdeen material on a story vastly
+increases your credibility
+- Allow the press to quote you personally for
+sound bites they would like to pull out of
+your Aberdeen publication
+
+* The press likes numbers, especially
+future projections and supplier market
+shares — provide them whenever
+possible
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | aberdeen-training-day-2-representing-abe-38ef4b |
+| title | How To Represent Aberdeen and Yourself (Twelve Vital Hours, Session 2) |
+| author | Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group |
+| date | 2000-08 |
+| type | employer-record |
+| subject_domain | IT market research methodology; analyst training; client/press relations |
+| methodology | internal-training |
+| source_file | Representing-Aberdeen-new-hire-2000-3.pdf |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Session 2 of Aberdeen Group's Twelve Vital Hours new-hire orientation program, delivered in August 2000 by the three founding partners: John Logan, Thomas Willmott, and Peter Kastner. Covers how analysts introduce Aberdeen to supplier executives, conduct supplier briefings, follow up with prospects, and give press interviews. The PDF and DOCX are equivalent versions of the same August 2000 training deck; both are preserved as twin source artifacts. Explicitly states Aberdeen ownership structure: primarily held by three partners (Logan, Willmott, Kastner) plus staff and 1998 private capital.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Fills the missing Session 2 of the Twelve Vital Hours program — Sessions 1 and 3 are already archived. Together with Sessions 1 and 3, this completes the analyst-supplier engagement curriculum as taught at Aberdeen in August 2000. |
+| **Relevance** | high | Analyst-supplier engagement protocols, NDA ethics, and press-handling frameworks remain durably applicable; the core trust-building and client-relations principles are studied in modern analyst relations programs. |
+| **Prescience** | medium | Anticipates the disclosure-conscious, ethics-first analyst-relations practices that the IT analyst industry would later codify in codes of conduct. The 'pay-for-play' warning was prescient of subsequent industry-wide debates about analyst independence. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (13)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group Inc. | firm | acquired | Harte-Hanks |
+| John R. Logan (JRL) | person | active | Automated Compliance Solutions LLC |
+| Tom H. Willmott | person | active |  |
+| Peter S. Kastner | person | active |  |
+| Gartner, Inc. | firm | active |  |
+| Meta Group | company | unknown | unknown |
+| Forrester Research, Inc. | firm | active |  |
+| IDC (International Data Corporation) | firm | active |  |
+| IBM | company | active |  |
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998) -> HP (2002) |
+| Investors Business Daily (IBD) | company | active |  |
+| BusinessWeek | publication | acquired | Bloomberg L.P. (2009-12-01 -> Bloomberg Businessweek) |
+| Computerworld | institution | renamed | Part of IDG/Foundry |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Analyst Relations (AR) Practice | framework | industry | emerging | mature |
+| Aberdeen Profile (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen RAMP (Rapid Accurate Market Positioning) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Impact (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Viewpoint (deliverable) | framework | Aberdeen Group | mature | obsolete |
+| Non-Disclosure Agreement (NDA) / Confidentiality | framework | industry | mature | mature |
+| Aberdeen Practice Summary Report | framework | Aberdeen Group | mature | obsolete |
+| Aberdeen Personal Retainer Service | framework | Aberdeen Group | mature | obsolete |
+
+### Observation Summary
+
+- Total observations: 34
+- By type: expert-opinion: 31, topic-insight: 3

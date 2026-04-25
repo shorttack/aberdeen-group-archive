@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Marketing and Business Development Basics (Twelve Vital Hours, Session 4)",
+  "description": "Aberdeen Group's Day 4 / Session 4 training for new analyst hires, delivered August 2000 by partners Logan, Willmott, and Kastner. Covers the professional-services trust-building framework, supplier product life-cycle stage analysis, how to close supplier-initiated meetings with Profile / RAMP / Personal Retainer Service proposals, and the anatomy of Aberdeen's written proposals. Includes pricing guidelines ($15,000 Profile fee; $60,000-$100,000 RAMP; $15,000/year retainer), the 'numbers game' philosophy for building a client base, and Aberdeen's go-to-market history from 1988 to 1994. Together with Sessions 1, 2, and 3, completes the Twelve Vital Hours orientation curriculum.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner / John Logan / Thomas Willmott / Aberdeen Group"
+  },
+  "datePublished": "2000-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

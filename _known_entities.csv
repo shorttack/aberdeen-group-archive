@@ -348,7 +348,7 @@ abb-systems-control,ABB Systems Control Division,company,energy-software,active,
 aberdeen-cdt-practice,Aberdeen Consumer Digital Technology Practice,firm,industry-analyst-practice,dissolved,Folded into Aberdeen core research,2002-2005,Aberdeen practice area led by Kastner as EVP and CRO,
 aberdeen-dct-practice,Aberdeen Digital Consumer Technology Practice,institution,market-research,dissolved,,2002-2005,Research practice authoring this methodology,
 aberdeen-group,Aberdeen Group,analyst,it-research,acquired,Spiceworks Ziff Davis,1988-2018,Stephen Lane was Senior Analyst covering IT professional services,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,psa-category-created-hofferberth-57edb8,1999-01-linuxcare-draft-profile-6828c0,2002-04-oracle-appsworld-insight-jones-fb0f43,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2,2004-09-intel-64bit-tipping-point-b21860"
-aberdeen-group-inc,Aberdeen Group Inc.,firm,market-research,acquired,Harte-Hanks,1988-2001,Publisher of the report; One Boston Place Boston MA,
+aberdeen-group-inc,Aberdeen Group Inc.,firm,market-research,acquired,Harte-Hanks,1988-2001,Publisher of the report; One Boston Place Boston MA,"aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526,unisys-florida-hrs-expert-witness-tallah-5b4524"
 aberdeen-pit-practice,Aberdeen Personal Information Technology Practice,institution,market-research,dissolved,,2001-2005,,
 aberdeen-semi-practice,Aberdeen Group Semiconductor Research Practice,institution,market-research,dissolved,,2000-2005,,
 aberdeen-transaction-services,Aberdeen Transaction Services,institution,industry-analyst-practice,dissolved,Folded into Aberdeen core research,1988-mid-1990s,"New business unit headed by Kastner; covered OLTP, DBMS, networks, benchmarks",
@@ -702,7 +702,7 @@ business-engine-software,Business Engine Software Corporation,company,PSA-softwa
 business-fx,Business FX,company,IT-professional-services,unknown,unknown,1990s,Listed as VAR under CIS practice area,
 business-insider,Business Insider,company,business-media,active,acquired by Axel Springer 2015,2007-present,Publisher; War Room subsection,
 business-objects,Business Objects S.A.,company,business-intelligence,acquired,SAP (2008),1990-2008,Competitor in frame-based reporters; acquired by SAP for $6.8B in 2008,
-business-week,BusinessWeek,publication,business-magazine,acquired,Bloomberg L.P. (2009-12-01 -> Bloomberg Businessweek),1929-present,Original 2005 'Great Rebate Runaround' by Brian Grow venue,
+business-week,BusinessWeek,publication,business-magazine,acquired,Bloomberg L.P. (2009-12-01 -> Bloomberg Businessweek),1929-present,Original 2005 'Great Rebate Runaround' by Brian Grow venue,aberdeen-training-day-2-representing-abe-38ef4b
 businessweek,BusinessWeek (McGraw-Hill),firm,business-media,acquired,Bloomberg Businessweek,1929-2010,Published May 2003 e-business/CRM special section cited by Pombriant; acquired by Bloomberg 2009,
 businessweek-mag,BusinessWeek / BW Online / Bloomberg Businessweek,firm,news-media,renamed,Bloomberg Businessweek (2009),1929-present,McGraw-Hill business magazine 1929-2009; acquired by Bloomberg LP 2009 for ~$5M,
 c-t-casale,C. T. Casale,person,IT-analyst,active,,1990s,Aberdeen co-author with Kastner on commercial client/server applications study (Feb 1992),
@@ -863,7 +863,7 @@ computer-sciences-corp,Computer Sciences Corporation (CSC),company,IT-services,m
 computer-sciences-corporation,Computer Sciences Corporation (CSC),company,IT Professional Services,unknown,unknown,1959-present,Southfield MI; CSC Healthcare division; professional services and systems integration.,
 computer-security-institute,Computer Security Institute,institution,infosec-research,dissolved,ceased 2011,1974-2011,FBI/CSI survey co-author,
 computervision-corporation,Computervision Corporation,company,computing,dissolved,acquired by Prime Computer 1989; then PTC Inc.,1969-1998,AI report: Prime acquired Computervision in 1989 to transform into CAD company; faced financial hurdles contributing to Prime's bankruptcy 1992.,
-computerworld,Computerworld,institution,Technology Media,renamed,Part of IDG/Foundry (IDG acquired by Blackstone 2017; digital brand continues under Foundry/IDG Communications),1967-present,"Cited by IBM: ""majority of data in the world is on mainframes""",stratus-computer-is-down-mfg-ad-1985-881b7a
+computerworld,Computerworld,institution,Technology Media,renamed,Part of IDG/Foundry (IDG acquired by Blackstone 2017; digital brand continues under Foundry/IDG Communications),1967-present,"Cited by IBM: ""majority of data in the world is on mainframes""","stratus-computer-is-down-mfg-ad-1985-881b7a,aberdeen-training-day-2-representing-abe-38ef4b"
 computerworld-au,Computerworld Australia (IDG),firm,news-media,active,,1967-present,Australian IT trade publication; IDG property,
 computerworld-australia,Computerworld Australia (IDG),company,tech-media,active,acquired by IDG; transitioned to ARN,1980s-present,Publisher; IDG subsidiary,
 computerworld-magazine,Computerworld magazine,publication,trade-press,active,Foundry → Insider Inc. (now ITPro Today),1967-present,"Source publication for August 20, 1984 price/performance benchmark cited in ads",
@@ -975,7 +975,7 @@ dean-mccarron-mercury,Dean McCarron,person,industry-analyst,active,,1995-present
 dean-nelson,Dean Nelson,person,data-center-engineering,active,,1990s-present,Allegro Networks test engineer; later DCD Group founder,
 deborah-conrad,Deborah Conrad,person,Intel-executive,active,,1990s-2010s,Intel Vice President; quoted re Itanium/McKinley,
 debra-cattani,Debra Cattani,person,enterprise-software,unknown [REVIEW],,1990s-2000s,CA Analyst Relations leader mentioned by Kastner as leading industry practice.,
-dec,Digital Equipment Corporation (DEC),company,hardware,acquired,Compaq (1998) -> HP (2002),1957-1998,Mentioned as platform where Oracle and Informix already supported VLM — Unix on Alpha.,
+dec,Digital Equipment Corporation (DEC),company,hardware,acquired,Compaq (1998) -> HP (2002),1957-1998,Mentioned as platform where Oracle and Informix already supported VLM — Unix on Alpha.,aberdeen-training-day-2-representing-abe-38ef4b
 dec-corporate-systems-group,DEC Corporate Systems Group (CSG),business-unit,DEC-internal,internal,absorbed-into-Compaq-then-HP,1980s-1998,DEC's high-end systems business unit; Kastner's CSG home for Competitive Marketing,
 decision-one,DecisionOne,company,IT-services,active,,1969-present,Hardware maintenance and network services; still active,
 dell,Dell Computer Corporation,company,personal-computing,active,,1984-present,Tandem licensing ServerNet technology to Dell for commodity servers,
@@ -1126,7 +1126,7 @@ ed-black,Ed Black,person,Market Research,unknown,,2000s,Co-author of account pla
 edgar-dworsky-consumer,Edgar Dworsky,person,consumer-advocate,active,,1990s-present,Consumer World founder; former Massachusetts Assistant Attorney General,
 edify-corporation,Edify Corporation,company,telephony-automation,acquired,Edify -> SNET -> EasyLink,1990-2004,IVR and telephony integration partner; acquired by EasyLink 2004,
 edison-venture,Edison Venture Capital Fund,firm,venture-capital,active,,1986-present,Funded Longview Solutions in October 1995; enabled US expansion,
-eds,Electronic Data Systems,vendor,it-professional-services,acquired,HP Enterprise Services,1962-2008,75+ solutions centers; CM&P org since 1988; PM2 and SC3 methodologies; acquired by HP in 2008,
+eds,Electronic Data Systems,vendor,it-professional-services,acquired,HP Enterprise Services,1962-2008,75+ solutions centers; CM&P org since 1988; PM2 and SC3 methodologies; acquired by HP in 2008,unisys-florida-hrs-expert-witness-tallah-5b4524
 eds-centrobe,EDS Centrobe Inc.,company,IT-outsourcing,acquired,HP (2008),1962-2008,CRM outsourcing subsidiary of EDS; EDS acquired by HP in 2008 for $13.9B,
 eds-corp,Electronic Data Systems (EDS),company,IT-services-outsourcing,acquired,HP (2008),1962-2008,Plano TX IT outsourcing giant founded by Ross Perot,
 eds-electronic-data,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,SI partner for Dell's NT enterprise push.,
@@ -1139,7 +1139,7 @@ ee-times,EE Times (Electronic Engineering Times),publication,trade-press,active,
 efa-software,EFA Software Services Ltd,company,Trading Systems,unknown [REVIEW],,1990s-2000s,IBM Developer Business Partner; Calgary; Equator clearance/settlement,
 eggxpert-community,EggXpert (Newegg community forums),institution,online-community,active,,2007-present,Forum,
 electronic-arts,Electronic Arts Inc.,company,game-software,active,,,Platform-agnostic game publisher; potential strategic partner for broadband gaming,
-electronic-data-systems,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,$15.2B revenue FY97; founded by H. Ross Perot; spun from GM in 1996.,
+electronic-data-systems,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,$15.2B revenue FY97; founded by H. Ross Perot; spun from GM in 1996.,unisys-florida-hrs-expert-witness-tallah-5b4524
 electronic-news,Electronic News (Electronics News Australia),company,trade-media,merged-into-edn,Folded into EDN/EE Times umbrella,1957-2005,Reed Business Information trade pub; Electronics News Australia sister edition,
 elekom,ELEKOM,company,B2B-ecommerce,unknown,,1990s,EC automation supplier profiled; fate unknown,
 eli-alon,Eli Alon,person,computer-executive,unknown,,1980s-1990s,Founder of Tolerant Transaction Systems; promised Unix-based FT in 1985; later dropped from firm,
@@ -1351,7 +1351,7 @@ fleet-services,Fleet Services Corp (FleetBoston),company,Banking / Financial Ser
 fletcher-spaght-inc,Fletcher Spaght Inc. (FSI),company,management consulting,unknown,unknown,1983-present,High technology practice Boston MA; founded 1983; prepared this strategy deck,
 flexiinternational-software,"FlexiInternational Software, Inc.",company,financial-software,active,,1991-present,Shelton CT; also known as Flexi Software; received strategic investment from Quality Standard in 2025; survived as niche insurance/financial-sector ERP vendor,
 flextronics-intl,Flextronics International,company,contract-manufacturing,renamed,Flex Ltd. (2016),1969-present,Singapore-HQ electronics contract manufacturer; renamed Flex 2016,
-florida-hrs,Florida Health and Rehabilitative Services (HRS),agency,government,dissolved,Florida DCF,1969-1996,Defendant; accepted EDS/IBM bid over Unisys,
+florida-hrs,Florida Health and Rehabilitative Services (HRS),agency,government,dissolved,Florida DCF,1969-1996,Defendant; accepted EDS/IBM bid over Unisys,unisys-florida-hrs-expert-witness-tallah-5b4524
 florida-power-and-light,Florida Power and Light Company,company,electric-utility,active,NextEra Energy (parent),1925-present,Planned to use ASEP for residential AC/heat and water-heater control,
 florida-power-corp,Florida Power Corporation,company,electric-utility,acquired,"Progress Energy (2000), then Duke Energy (2012)",1899-2012,Early ASEP adopter; piloted dynamic rate system,
 flycast-communications,Flycast Communications,company,ad-technology,acquired,CMGI,1996-2000,Ad network; acquired by CMGI in 1999 for $684 million,
@@ -1362,7 +1362,7 @@ ford-motor,Ford Motor Company,company,automotive,active,,1903-present,Invoked by
 ford-motor-company,Ford Motor Company,company,automotive,active,,1903-present,Rhetorical comparison only,
 fore-systems,FORE Systems,company,networking-ATM,acquired,GEC Marconi -> BAE Systems -> Marconi plc,1990-1999,ATM deployment; Impact 06/97,
 forrester,Forrester Research,firm,IT market analysis,active,,1983-present,Competitor — positioned as subscription-style vs Aberdeen's personal-service model,
-forrester-research,"Forrester Research, Inc.",firm,industry-analyst,active,,1983-present,Cambridge MA IT/business research firm,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,2004-09-intel-64bit-tipping-point-b21860"
+forrester-research,"Forrester Research, Inc.",firm,industry-analyst,active,,1983-present,Cambridge MA IT/business research firm,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,2004-09-intel-64bit-tipping-point-b21860,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524"
 forte-software,Forte Software,company,development-tools,acquired,Sun Microsystems (acquired 1999),1991-1999,Ultra-high-end CADE; acquired by Sun Microsystems.,
 forte-technologies,Forte Technologies (now Forte for Java),company,application-development-tools,acquired,Sun Microsystems (acquired 1999),1991-1999,Named as CADE competitor,
 fortress-technologies,Fortress Technologies,company,network-security,acquired,Airbus Defence and Space,1998-2016,Military-grade WLAN security; acquired by Airbus Defence and Space in 2016,
@@ -1392,7 +1392,7 @@ future-shop,Future Shop,company,consumer-electronics-retail,acquired,Acquired by
 gadzoox,Gadzoox Networks,company,Fibre Channel Networking,unknown,unknown,1995-2001,Fibre Channel hub and switch vendor; listed in vendor segment matrix.,
 gao,U.S. General Accounting Office (GAO),agency,government-audit,active,renamed Government Accountability Office 2004,1921-present,Harmon's employer,
 gardner-c-hendrie,Gardner C. Hendrie,person,computer-executive,active,,1960s-present,"Stratus co-founder, VP Hardware Engineering; ex-Data General engineering director, designed industry's first 16-bit minicomputer at 3C's",
-gartner,"Gartner, Inc.",firm,industry-analyst,active,,1979-present,Stamford CT IT research and advisory firm,psa-category-created-hofferberth-57edb8
+gartner,"Gartner, Inc.",firm,industry-analyst,active,,1979-present,Stamford CT IT research and advisory firm,"psa-category-created-hofferberth-57edb8,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524"
 gartner-group,Gartner Group,firm,industry-analysis,active,"Gartner, Inc.",1979-present,Joe Barkan also quoted,stratus-newcomers-tandem-eet-1982-24ae59
 gartner-inc,"Gartner, Inc.",firm,industry-analyst,active,,1979-present,Stamford CT IT research and advisory firm,
 gary-eichhorn,Gary Eichhorn,person,minicomputer-enterprise-computing,unknown,unknown,1980s-1990s,DEC executive; gave separate State of the Company presentation on 'Research as a Market — a Window of Opportunity'; summary deferred to next MGMT MEMO issue,
@@ -1541,7 +1541,7 @@ hyperparallel-inc,HyperParallel Inc.,company,Data Mining Software,unknown,unknow
 i2-technologies,i2 Technologies,company,supply-chain-software,acquired,JDA Software / Blue Yonder,1988-2010,Featured in i2 Gets Its Assets in Gear InSight Oct 2001,
 ian-betteridge-eweek,Ian Betteridge,person,tech-journalism,active,,1990s-present,eWEEK journalist (also Betteridge's Law author),
 ibi,Information Builders,company,software,active,,1975-,EDA/SQL ties with Informix for open connectivity,
-ibm,IBM,company,IT-services,active,,1911-present,Referenced as benchmark for receivables days outstanding; described as having considerably lower DSO than FTI's 100-day figure. Known entity reused from cache.,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-launch-cw-1987-11913f,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,1999-01-linuxcare-draft-profile-6828c0"
+ibm,IBM,company,IT-services,active,,1911-present,Referenced as benchmark for receivables days outstanding; described as having considerably lower DSO than FTI's 100-day figure. Known entity reused from cache.,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-launch-cw-1987-11913f,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,1999-01-linuxcare-draft-profile-6828c0,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524"
 ibm-as400-division,IBM AS/400 Division,product-division,,,,,Division located at 3605 Highway 52N Rochester MN 55901,
 ibm-bcs,IBM Business Consulting Services (BCS),firm,Consulting,rebranded,IBM Global Business Services,2002-2010,IBM's consulting arm post-PwC acquisition; one potential Aberdeen counterparty discussed for alignment.,
 ibm-corp,IBM Corporation,company,enterprise-IT,active,,1911-present,Power processor competitor cited,
@@ -1570,7 +1570,7 @@ icl,ICL (International Computers Limited),vendor,,,,,British IT vendor cited as 
 icl-fujitsu,ICL/Fujitsu,company,computer-hardware,acquired,Fujitsu Limited,1968-2002,$340M revenue 1995 (flat); SPARC-based Teamserver and Superserver SMP; MPP Goldrush for data warehousing; also participating in Intel/Unix market,
 icl-retail-systems,ICL Retail Systems,company,Retail IT Systems,unknown,unknown,1990s,POS and retail IT systems provider; supplier abstract included.,
 icube,iCube (Korean digital media adapter maker),company,Consumer Electronics,unknown,,early-2000s,Korean maker of MPEG2→MPEG4 on-the-fly digital media adapter for notebook-to-TV. [REVIEW],
-idc,IDC (International Data Corporation),firm,industry-analyst,active,,1964-present,Framingham MA IT market research firm,2004-09-intel-64bit-tipping-point-b21860
+idc,IDC (International Data Corporation),firm,industry-analyst,active,,1964-present,Framingham MA IT market research firm,"2004-09-intel-64bit-tipping-point-b21860,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524"
 idc-corp,International Data Corporation (IDC),firm,industry-analyst,active,,1964-present,Framingham MA IT market research firm; IDG sister company,
 idc-corporation,IDC (International Data Corporation),firm,industry-analysis,active,,1964-present,Roger Kay affiliation,
 idc-norge,IDC Norge AS,subsidiary,IT-research,active,,1980s-present,Norwegian arm of IDC; attendee at NCR seminar (cross-firm IT-research observation),
@@ -1771,7 +1771,7 @@ john-morrell-idc,John Morrell,person,IT-analyst,active,,1990s,IDC analyst quoted
 john-o-dunkle,John O. Dunkle,person,IT-research,active,,1980s-present,"Aberdeen Group Vice President (1988); covered WorkGroups, PCs, LANs",
 john-p-morgridge,John P. Morgridge,person,computer-executive,active,,1970s-present,Stratus VP Marketing 1982; later CEO of Cisco Systems (1988-1995),
 john-r-logan,John R. Logan,person,IT-research-leadership,active,Automated Compliance Solutions LLC (later venture),1980s-present,"Aberdeen Group co-founder, partner, and board chairman; JRL in TRENDS-1-14.DOC trend list (1999); later Managing Director, Automated Compliance Solutions LLC",
-john-r-logan-aberdeen,John R. Logan (JRL),person,IT-research-leadership,active,Automated Compliance Solutions LLC (later venture),1980s-present,"Aberdeen Group co-founder, partner, and board chairman; compiled the 1999 trends list (TRENDS-1-14.DOC) annotated by Kastner; later Managing Director, Automated Compliance Solutions LLC. (verified 2026-04 via Microsoft 2000 press release + Emerald Insight + CB Insights)",
+john-r-logan-aberdeen,John R. Logan (JRL),person,IT-research-leadership,active,Automated Compliance Solutions LLC (later venture),1980s-present,"Aberdeen Group co-founder, partner, and board chairman; compiled the 1999 trends list (TRENDS-1-14.DOC) annotated by Kastner; later Managing Director, Automated Compliance Solutions LLC. (verified 2026-04 via Microsoft 2000 press release + Emerald Insight + CB Insights)","aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526"
 john-sharman,John Sharman,person,IBM,unknown,,2000s,IBM leadership contact. [REVIEW],
 john-snow-treasury,John W. Snow,person,US-government,retired,,1939-present,US Secretary of the Treasury; editorial calls for Treasury to pressure trading partners,
 john-thomas-parsons,John Thomas,person,enterprise-IT-executive,active,,1990s-present,CIO Parsons Corporation Pasadena CA; quoted,
@@ -1996,7 +1996,7 @@ meridian-data,Meridian Data,company,Storage / NAS,acquired,Quantum Corporation (
 merisel,Merisel Inc.,company,computer-products-distribution,dissolved,,,Computer products distributor and early SpaceWorks OrderManager customer; mentioned in 1997 trade press coverage; Merisel later dissolved,
 merrill-lynch,Merrill Lynch,company,financial-services,acquired,Bank of America Merrill Lynch (2008),1914-2008,Named NetDynamics enterprise customer,
 mervyns,Mervyn's Department Stores,company,retail,dissolved,,1949-2008,Named as production data warehouse example; >1 terabyte database; filed bankruptcy 2008,
-meta-group,Meta Group,company,IT market research,unknown,unknown,1989-2005,Described as 'miniature Gartner'; 1:50 analyst-client ratio; ties with First Albany,
+meta-group,Meta Group,company,IT market research,unknown,unknown,1989-2005,Described as 'miniature Gartner'; 1:50 analyst-client ratio; ties with First Albany,"aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524"
 meta4,Meta4,company,enterprise-software,unknown,unknown,1992-2010,Acquired by Baan along with Coda Group; HR software company,
 metlife,MetLife Insurance,company,Insurance / Financial Services,active,,1868-present,Named telephone respondent.,
 metrix-inc,Metrix Inc.,company,Field Service Management Software,dissolved,unknown,1990-2000s,"Products: OpenUPTIME (1990, 175 sites, 45000 users) and MESA (Metrix Enterprise Service Automation, announced Jan 1998); field service origin",
@@ -2286,7 +2286,7 @@ peter-cleveland,Peter Cleveland,person,Intel Legal/Policy,unknown,,2000s-2010s,"
 peter-glaskowsky,Peter Glaskowsky,person,tech-press,active,,,"Byline: Editor-in-Chief, MPR",
 peter-kastner,Peter S. Kastner,analyst,it-research,active,,1990s-present,Aberdeen Group Executive Vice President; commissioned this research,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8
 peter-m-spiro,Peter M. Spiro,person,database-engineering,unknown,[none],1985-1991,"Principal software engineer optimizing database technology for RISC; worked on KODA access methods, journaling, recovery, transaction protocols; patent pending for database journaling and recovery method",
-peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1960s-present,Known entity reused from cache. Not mentioned by name in AI document but implied as Aberdeen Group co-founder alongside Casale.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-foster-acm-speech-pr-1982-16a134,stratus-ft-market-2b-1987-da450e,stratus-newcomers-tandem-eet-1982-24ae59,stratus-olivetti-europe-1982-f4ae50,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf,stratus-xa2000-launch-cw-1987-11913f"
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1960s-present,Known entity reused from cache. Not mentioned by name in AI document but implied as Aberdeen Group co-founder alongside Casale.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-foster-acm-speech-pr-1982-16a134,stratus-ft-market-2b-1987-da450e,stratus-newcomers-tandem-eet-1982-24ae59,stratus-olivetti-europe-1982-f4ae50,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf,stratus-xa2000-launch-cw-1987-11913f,aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526,unisys-florida-hrs-expert-witness-tallah-5b4524"
 pfizer,Pfizer Inc.,company,pharmaceuticals,active,acquired Listerine via Warner-Lambert 2000; sold Listerine to J&J 2006,1849-present,Listerine mouthwash owner in 2005 (brief; sold to J&J 2006),
 phamis,Phamis,company,Healthcare IT,acquired,IDX Systems (1997),1980s-1997,Acquired by IDX July 1997; PHAMIS-LASTWORD flagship product for large/medium HIS providers.,
 phi-computer-services,"PHI Computer Services, Inc.",company,IT-services,dissolved,unknown,unknown,Subsidiary of Wang Laboratories; Kastner Senior Programmer/Analyst 1969-1971,
@@ -2641,7 +2641,7 @@ stanley-works,Stanley Works,company,Industrial Tools,merged,"Stanley Black & Dec
 staples,Staples,company,PC-retail,acquired,"Sycamore Partners (took private April 2017, $6.9B)",1986-present,Retailer covered in weekly commentary 2003-08-10,
 staples-inc,"Staples, Inc.",company,office-supply-retail,active,Sycamore Partners (2017 buyout),1986-present,Easy Rebates program pioneer 2005,
 star-division,Star Division,company,Office Software,acquired,Sun Microsystems (1999),1985-1999,Developer of StarOffice acquired by Sun in 1999; Linuxcare provided Linux support for Star Office; StarOffice later became OpenOffice.org.,
-state-of-florida,State of Florida - HRS,government,Government,active,,,HRS accepted EDS/IBM bid; later cancelled $110M EDS contract for non-performance,
+state-of-florida,State of Florida - HRS,government,Government,active,,,HRS accepted EDS/IBM bid; later cancelled $110M EDS contract for non-performance,unisys-florida-hrs-expert-witness-tallah-5b4524
 state-of-michigan,State of Michigan (government),agency,Government,active,,1837-present,Reference customer; Lawson HR Management Network; 68-to-1 person-record consolidation.,
 state-street,State Street Corporation,company,financial-services,active,,1792-present,RAMP interview subject.,
 statskonsult,Statskonsult,institution,government-consulting,merged,DIFI/Digdir (2007),1989-2007,Norwegian government management/IT advisory directorate; attendee,
@@ -2785,7 +2785,7 @@ tolerant-systems,Tolerant Systems Inc. (formerly Tolerant Transaction Systems),c
 tolerant-systems-inc,"Tolerant Systems, Inc.",company,fault-tolerant-computing,defunct,San Jose CA; renamed Tolerant Eternity Systems then defunct,1980s-1990s,Low-cost fault-tolerant systems entrant; cited 1987 Computerworld article,
 tom-boger-apple,Tom Boger,person,Apple-executive,[DEFERRED],,2000s,"Director of Power Mac Product Marketing, June 2004 caution on 3GHz",
 tom-dwyer,Tom Dwyer,person,market-research,unknown,,1990s-2000s,Aberdeen Group Managing Director for Enterprise and Internet Infrastructure practice,
-tom-h-willmott,Tom H. Willmott,person,IT-analyst,active,,1980s-2000s,Aberdeen analyst; co-authored 1991 microprocessor MP study with Kastner; UNIX Myths 1990,
+tom-h-willmott,Tom H. Willmott,person,IT-analyst,active,,1980s-2000s,Aberdeen analyst; co-authored 1991 microprocessor MP study with Kastner; UNIX Myths 1990,"aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526"
 tom-halfhill,Tom R. Halfhill,person,industry-analysis,active,,1980s-present,"Microprocessor Report analyst, quoted counterpoint",
 tom-krazit,Tom Krazit,person,journalist,active,,,Computerworld journalist on Sun Niagara beat,
 tom-manter,Tom Manter,person,market-research,active,,,Aberdeen Server Platforms — Intel,
@@ -2837,7 +2837,7 @@ ulma-gonzalez,Ulma Gonzalez,person,public-sector-IT,active-then,,1990s-2000s,"Di
 uniface,Uniface,company,software,acquired,Compuware (acquired 1994); then Rocket Software acquired Compuware's Uniface unit,1986-present,Middleware leader for distributed client-server applications,
 unify-corporation,Unify Corporation,company,software-development-tools,dissolved,Daegis Inc. (2011); tools division renamed Gupta Technologies (2012),1980-2011,Founded 1980; released VISION 4GL tool; HQ moved to San Jose 1995; accounting fraud scandal 2000; CEO convicted 2003; delisted from Nasdaq; reacquired listing 2008; acquired Daegis 2010; renamed Daegis 2011,
 uniprise,Uniprise,company,healthcare-it,acquired,UnitedHealth Group,1990-2004,HP strategic alliance partner for database object repository; subsidiary of UnitedHealth Group,
-unisys,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from merger of Sperry and Burroughs; reorganized 1995 into three groups; ClearPath Forward still active 2026,
+unisys,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from merger of Sperry and Burroughs; reorganized 1995 into three groups; ClearPath Forward still active 2026,unisys-florida-hrs-expert-witness-tallah-5b4524
 unisys-corporation,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from Burroughs + Sperry merger; Blue Bell PA HQ; $6.2B revenue 1995; transitioning to services; ClearPath still active 2024,
 unisys-utilities,Unisys Corporation,company,enterprise-IT,active,,1986-present,IT services for utilities; Unisys still active public company,
 united-stationers-supply,"United Stationers Supply Co., Inc.",company,wholesale-distribution,active,Now Essendant,1922-present,Des Plaines IL; cited 1997 Y2K piece,
@@ -2856,7 +2856,7 @@ us-bea,U.S. Bureau of Economic Analysis,government,economic-statistics,active,,1
 us-business-services-sector,U.S. Business Services Sector,institution,business-services,active,,1990s-present,"Professional services, consulting, outsourcing firms",
 us-census-bureau,U.S. Census Bureau,agency,Federal Statistics,active,,1790-present,Source of Statistics of U.S. Business 1999,
 us-communications-information-sector,U.S. Communications and Information Sector,institution,communications-technology,active,,1990s-present,"Telecom, media, publishing combined vertical",
-us-congress,U.S. Congress,agency,government,active,,1789-present,Congressional committees established to address Y2K; Year 2000 Information and Readiness Disclosure Act (1998),
+us-congress,U.S. Congress,agency,government,active,,1789-present,Congressional committees established to address Y2K; Year 2000 Information and Readiness Disclosure Act (1998),unisys-florida-hrs-expert-witness-tallah-5b4524
 us-corporate-procurement-function,U.S. Corporate Procurement Function,institution,enterprise-operations,active,,1900s-present,Subject of study: indirect/non-production goods purchasing identified as overlooked cost management opportunity,
 us-department-of-energy,U.S. Department of Energy,agency,energy-research,active,,1977-present,Benchmark for #1 supercomputer ranking,
 us-discrete-manufacturing-sector,U.S. Discrete Manufacturing Sector,institution,discrete-manufacturing,active,,1990s-present,"Auto, aerospace, electronics; separate from process manufacturing in Aberdeen taxonomy",
@@ -3046,3 +3046,9 @@ emagia,Emagia Corporation,company,financial-software,[DEFERRED],,2000-present,FV
 xrt,XRT (Cerg Finance),company,financial-software,[DEFERRED],,1995-present,FVCM suite vendor; European treasury/cash management specialist,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2
 alex-veytsel,Alex Veytsel,person,IT-research,active,,2003-present,Aberdeen Group analyst; author of this Sarbanes-Oxley insight,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2
 omicronn,Omicronn,company,financial-technology,[DEFERRED],,2002-2006,Case study: BEA WebLogic on Itanium 2; 5M messages/hour at 50-60% utilization,2004-09-intel-64bit-tipping-point-b21860
+investors-business-daily,Investors Business Daily (IBD),company,business-media,active,,1984-present,Named in press tips: IBD does not like to quote individual analysts or does so rarely.,aberdeen-training-day-2-representing-abe-38ef4b
+geoffrey-moore,Geoffrey Moore (Crossing the Chasm),person,IT-research,active,,1991-present,Referenced via 'Crossing the Chasm' question in product life cycle: 'What factors are stopping prospective buyers from acquiring products from us? How can we cross the chasm?',aberdeen-training-day-4-marketing-busine-601526
+florida-senate,Florida Senate,agency,government,active,,1845-present,Senate Chamber in Tallahassee was the testimony venue for the bid protest hearing; legislative oversight body.,unisys-florida-hrs-expert-witness-tallah-5b4524
+william-cohen,William Cohen (Senator),person,government,active,,1940-present,US Senator from Maine (R-ME); co-sponsor of Information Technology Management Reform Act; later served as Secretary of Defense 1997-2001. Clinger-Cohen Act named after him.,unisys-florida-hrs-expert-witness-tallah-5b4524
+william-clinger,William Clinger (Representative),person,government,active,,1929-2023,US Representative from Pennsylvania (R-PA-5); co-sponsor of Federal Acquisition Reform Act; Clinger-Cohen Act named after him. Status: deceased 2023.,unisys-florida-hrs-expert-witness-tallah-5b4524
+tampa-bay-times,Tampa Bay Times,company,news-media,active,,1884-present,Primary news source for Florida HRS disaster coverage; two articles cited: 1993 indictment story and 1995 supercomputer failure report (archive URLs footnotes [1] and [2] in source).,unisys-florida-hrs-expert-witness-tallah-5b4524

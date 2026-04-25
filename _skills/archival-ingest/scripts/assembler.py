@@ -168,6 +168,8 @@ if __name__ == "__main__":
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _load_csv(path):
+    if not Path(path).exists():
+        return []
     with open(path, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
@@ -470,17 +472,23 @@ def validate(study_dirs):
             errors.append(f"{study_dir}: data/ directory missing")
             continue
 
-        ent_ids = {r["entity_id"] for r in _load_csv(d / "entities.csv")}
-        tech_ids = {r["tech_id"] for r in _load_csv(d / "technologies.csv")}
-        code_ids = {r["code_id"] for r in _load_csv(d / "codes.csv")}
+        # Tolerate missing CSVs: report and skip (some legacy studies lack codes.csv)
+        for required in ("entities.csv", "technologies.csv", "observations.csv", "studies.csv"):
+            if not (d / required).exists():
+                errors.append(f"{study_dir}: required file '{required}' missing")
+        ent_ids = {r.get("entity_id", "") for r in _load_csv(d / "entities.csv")}
+        tech_ids = {r.get("tech_id", "") for r in _load_csv(d / "technologies.csv")}
+        codes_rows = _load_csv(d / "codes.csv")
+        code_ids = {r.get("code_id", "") for r in codes_rows}
+        codes_present = bool(codes_rows)
 
         for row in _load_csv(d / "observations.csv"):
-            if row["entity_id"] and row["entity_id"] not in ent_ids:
-                errors.append(f"{study_dir}: Missing entity {row['entity_id']} in {row['obs_id']}")
-            if row["tech_id"] and row["tech_id"] not in tech_ids:
-                errors.append(f"{study_dir}: Missing tech {row['tech_id']} in {row['obs_id']}")
-            if row["observation_type"] not in code_ids:
-                errors.append(f"{study_dir}: Missing code {row['observation_type']} in {row['obs_id']}")
+            if row.get("entity_id") and row["entity_id"] not in ent_ids:
+                errors.append(f"{study_dir}: Missing entity {row['entity_id']} in {row.get('obs_id','')}")
+            if row.get("tech_id") and row["tech_id"] not in tech_ids:
+                errors.append(f"{study_dir}: Missing tech {row['tech_id']} in {row.get('obs_id','')}")
+            if codes_present and row.get("observation_type") not in code_ids:
+                errors.append(f"{study_dir}: Missing code {row['observation_type']} in {row.get('obs_id','')}")
 
         meta = _load_csv(d / "studies.csv")
         if meta:

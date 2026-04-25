@@ -1,0 +1,33 @@
+Discovered 680 studies
+══════════════════════════════════════════════════════════════════════════════
+v18 REFERENTIAL-INTEGRITY AUDIT — Aberdeen Group Archive (v2)
+══════════════════════════════════════════════════════════════════════════════
+Repo: /tmp/aberdeen-group-archive
+Studies scanned: 680
+  kastner-author: 205
+  other-authors:  475
+Cache: _known_entities.csv=3198 rows, _known_technologies.csv=4054 rows
+
+─── LAYER A  Per-study referential integrity ───────────────────────────
+  Studies with failures: 0 / 680
+  Total failures: 0
+  Failure breakdown:
+  First few failed studies:
+
+─── LAYER B  §16 CSV Write Validation Gate ─────────────────────────────
+  Studies with failures: 0 / 680
+  Total failures: 0
+  Failure breakdown:
+  First few failed studies:
+
+─── LAYER C  Cross-study cache integrity ───────────────────────────────
+  Entities missing from cache: 0
+  Technologies missing from cache: 0
+  Duplicate IDs in _known_entities.csv: 0
+  Duplicate IDs in _known_technologies.csv: 0
+  Empty ID rows in _known_entities.csv: 0
+  Empty ID rows in _known_technologies.csv: 0
+
+══════════════════════════════════════════════════════════════════════════════
+RESULT: ALL CHECKS PASSED ✓
+══════════════════════════════════════════════════════════════════════════════

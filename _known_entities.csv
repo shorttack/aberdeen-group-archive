@@ -347,7 +347,7 @@ abb,ABB (Asea Brown Boveri),company,industrial-engineering,active,,1988-present,
 abb-systems-control,ABB Systems Control Division,company,energy-software,active,ABB Group (parent active),1988-present,Swiss-Swedish industrial giant; ABB Group active; energy management systems vendor,
 aberdeen-cdt-practice,Aberdeen Consumer Digital Technology Practice,firm,industry-analyst-practice,dissolved,Folded into Aberdeen core research,2002-2005,Aberdeen practice area led by Kastner as EVP and CRO,
 aberdeen-dct-practice,Aberdeen Digital Consumer Technology Practice,institution,market-research,dissolved,,2002-2005,Research practice authoring this methodology,
-aberdeen-group,Aberdeen Group,analyst,it-research,acquired,Spiceworks Ziff Davis,1988-2018,Stephen Lane was Senior Analyst covering IT professional services,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,psa-category-created-hofferberth-57edb8,1999-01-linuxcare-draft-profile-6828c0,2002-04-oracle-appsworld-insight-jones-fb0f43,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2,2004-09-intel-64bit-tipping-point-b21860"
+aberdeen-group,Aberdeen Group,analyst,it-research,acquired,Spiceworks Ziff Davis,1988-2018,Stephen Lane was Senior Analyst covering IT professional services,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,psa-category-created-hofferberth-57edb8,1999-01-linuxcare-draft-profile-6828c0,2002-04-oracle-appsworld-insight-jones-fb0f43,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2,2004-09-intel-64bit-tipping-point-b21860,cacustsell98-3b53c6,docucorp-3c562a,kastner-ie-v-andersen-expert-report-3de98a,safeway-damages-report-draft-b502f4,aberdeen-1995-digital-linkworks,aberdeen-1995-digital-objectbroker,aberdeen-1995-ibm-as400-sap-r3,aberdeen-1995-ibm-db2-common-server,aberdeen-1995-intersolv-virtual-data-warehouse,aberdeen-1995-limd-technology"
 aberdeen-group-inc,Aberdeen Group Inc.,firm,market-research,acquired,Harte-Hanks,1988-2001,Publisher of the report; One Boston Place Boston MA,"aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526,unisys-florida-hrs-expert-witness-tallah-5b4524,aas-launch-package-aug-2001-b4a001,aberdeen-corporate-collateral-2001-v2-b4b001,aas-operational-playbooks-aug-2001-b5a001,aas-sales-tools-pricing-aug-2001-b5b001,aberdeen-workshop-qualifying-questions-and-success-stories-2001-b6a001,aberdeen-proposal-templates-and-retainer-strategy-2001-b6b001,aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-productization-pricing-and-survey-research-program-2000-b7b001"
 aberdeen-pit-practice,Aberdeen Personal Information Technology Practice,institution,market-research,dissolved,,2001-2005,,
 aberdeen-semi-practice,Aberdeen Group Semiconductor Research Practice,institution,market-research,dissolved,,2000-2005,,
@@ -399,7 +399,7 @@ akamai-technologies,Akamai Technologies,vendor,content-delivery-networks,active,
 al-ramadan,Al Ramadan,person,Software / Technology,unknown [REVIEW],,2000s,Macromedia EVP who saw PoS tool demo and expressed interest in Aberdeen case study; later co-founder of Play Bigger (category design firm),
 alan-promisel-idc,Alan Promisel,person,industry-analyst,unknown,,,IDC research director covering personal computing and workstations circa 2003 [REVIEW],
 alantec,ALANTEC Corporation,company,networking-hardware,acquired,"Fore Systems (1996), then Marconi, then Ericsson",1992-1996,LAN switching competitor cited in competitive table. Acquired by Fore Systems 1996.,
-albertsons,Albertsons Companies,end-user,,active,,1939-present,Grocery retailer; acquired Safeway 2015; attempted Kroger merger blocked 2024,
+albertsons,Albertsons Companies,end-user,,active,,1939-present,Grocery retailer; acquired Safeway 2015; attempted Kroger merger blocked 2024,safeway-damages-report-draft-b502f4
 alcatel,Alcatel,company,telecom-equipment,dissolved,Alcatel-Lucent -> Nokia,1898-2006,French telecom equipment vendor; strong CO switch global presence via aid programs,
 alec-glorieux,Alec Glorieux,person,executive,unknown,,,Corporate strategist at Savant Corp. [REVIEW],
 alex-brown-sons,Alex. Brown & Sons,firm,investment-banking,acquired,Deutsche Bank (1999),1800-1999,One of oldest US investment banks; report recipient Mr. Alfred Berkley was addressee; acquired by Bankers Trust then Deutsche Bank 1999,
@@ -499,7 +499,7 @@ analyst-wright-david,"Wright, David",person,IT Research / Industry Analysis,unkn
 analyst-yong-alan,"Yong, Alan",person,IT Research / Industry Analysis,unknown,,2002,Aberdeen Group analyst; lead analyst on 13 publications in 2002. [REVIEW],
 analysts-international,Analysts International Corporation (AIC),company,IT-staffing,unknown,unknown,1966-2000s,Listed under CIS practice area,
 ananth-raghavan,Ananth Raghavan,person,database-engineering,unknown,[none],1988-1991,Software engineer leading KODA/Rdb Group projects; two patent applications for undo and undo/redo database algorithms,
-andersen-consulting,Andersen Consulting,vendor,it-professional-services,active,Accenture,1989-2001,Rebranded as Accenture in 2001; QA standards found equal to or above industry norms; QMS with CQM component,"aberdeen-practice-definitions-compendium-2000-b7a001,adl-public-safety-911-cad-systems-1973-1979-b8a001"
+andersen-consulting,Andersen Consulting,vendor,it-professional-services,active,Accenture,1989-2001,Rebranded as Accenture in 2001; QA standards found equal to or above industry norms; QMS with CQM component,"aberdeen-practice-definitions-compendium-2000-b7a001,adl-public-safety-911-cad-systems-1973-1979-b8a001,kastner-ie-v-andersen-expert-report-3de98a"
 andover-working-group,The Andover Working Group,institution,healthcare-IT-standards,dissolved,Work absorbed into HL7 V3.0 standard,1996-2000,18 core members + ~200 supporting members as of April 1997; originally 12 core + 18 supporting (March 1996),
 andre-dahan-sequent,Andre Dahan,person,executive,active,,,"Sequent SVP sales and marketing, 1997-era",
 andrew-gomez,Andrew Gomez,person,industry-analyst,active,,,Analyst cited alongside Gartner position,
@@ -524,8 +524,8 @@ apache-software-foundation,Apache Software Foundation,institution,open-source,ac
 apc,APC (American Power Conversion),company,Power / Storage Accessories,acquired,Schneider Electric (acquired 2007),1981-present,Software partnership with Snap Appliance,
 apex-digital,Apex Digital,company,consumer-electronics,unknown,,,"Exemplar of new CE business model: 3-6 month design cycles, Chinese manufacturing, reference-design-driven, low overhead; DVD share leader using ESS reference designs [REVIEW]",
 apollo-computer,Apollo Computer,company,workstation-computing,dissolved,acquired by HP 1989,1980-1989,Named workstation competitor; DEC claimed it leaped over Apollo to become number two in workstations,
-apple,Apple Inc.,company,consumer-electronics,active,,1976-present,Not mentioned in study but critical actual-outcome actor; iPhone launched June 29 2007 disrupted entire handheld market,
-apple-computer,Apple Computer (Apple Inc.),company,computing,active,,1976-present,Mentioned alongside Microsoft as example of user-friendly interface/software dominance in 1980s personal computing.,
+apple,Apple Inc.,company,consumer-electronics,active,,1976-present,Not mentioned in study but critical actual-outcome actor; iPhone launched June 29 2007 disrupted entire handheld market,aberdeen-1995-intersolv-virtual-data-warehouse
+apple-computer,Apple Computer (Apple Inc.),company,computing,active,,1976-present,Mentioned alongside Microsoft as example of user-friendly interface/software dominance in 1980s personal computing.,kastner-ie-v-andersen-expert-report-3de98a
 apple-inc,Apple Inc.,company,consumer-electronics,active,,1976-present,Subject company (renamed from Apple Computer Jan 2007),
 applied-materials,Applied Materials,company,semiconductor-equipment,active,,1967-present,RAMP interview subject.,
 applix,Applix Inc.,company,business-intelligence,acquired,Cognos then IBM,1983-2007,CRM and BI vendor; acquired by Cognos in 2007; Cognos acquired by IBM same year,
@@ -693,7 +693,7 @@ bruce-chizen,Bruce Chizen,person,software,active,,,Adobe President and CEO,
 bryan-lamkin,Bryan Lamkin,person,software,active,,,"SVP, Graphics Business",
 bsa,Business Software Alliance,institution,Trade Association / Anti-Piracy,unknown,,1988-present,Cited Sept 2003 warning that copyright-infringing software falling into unlicensed hands on resold equipment can trigger penalties. [REVIEW],
 btrieve-technologies,"Btrieve Technologies, Inc.",company,database-software,acquired,Pervasive Software (renamed 1994),1982-1994,Agreed to make hundreds of applications available on OS/2 Warp Server,
-bull,Groupe Bull,company,computer-hardware,acquired,Atos (acquired 2014),1931-2014,$300M revenue 1995; Escala line using PowerPC and IBM AIX; competed on price against IBM RS/6000,
+bull,Groupe Bull,company,computer-hardware,acquired,Atos (acquired 2014),1931-2014,$300M revenue 1995; Escala line using PowerPC and IBM AIX; competed on price against IBM RS/6000,aberdeen-1995-ibm-as400-sap-r3
 bull-hn-international,Bull HN Information Systems,company,,unknown,Atos (acquired Bull SA 2014),,Client commissioning benchmark and marketing work [REVIEW],
 bull-worldwide-systems,Bull Worldwide Systems,company,Enterprise IT / Security,unknown,unknown,1990s,Multinational IT company with enterprise security offerings; supplier abstract included.,
 burstmedia,BurstMedia,company,Internet Advertising / Ad Network,unknown,unknown,1996-present,BURST! Network; free downloadable ad software; small and large publishers; Burlington MA,
@@ -701,7 +701,7 @@ burton-group,Burton Group,firm,IT-research,acquired,Gartner 2009,1990-2009,Analy
 business-engine-software,Business Engine Software Corporation,company,PSA-software,acquired,Innotas (via private equity),1996-2006,Project portfolio and IT resource management PSA,
 business-fx,Business FX,company,IT-professional-services,unknown,unknown,1990s,Listed as VAR under CIS practice area,
 business-insider,Business Insider,company,business-media,active,acquired by Axel Springer 2015,2007-present,Publisher; War Room subsection,
-business-objects,Business Objects S.A.,company,business-intelligence,acquired,SAP (2008),1990-2008,Competitor in frame-based reporters; acquired by SAP for $6.8B in 2008,
+business-objects,Business Objects S.A.,company,business-intelligence,acquired,SAP (2008),1990-2008,Competitor in frame-based reporters; acquired by SAP for $6.8B in 2008,aberdeen-1995-intersolv-virtual-data-warehouse
 business-week,BusinessWeek,publication,business-magazine,acquired,Bloomberg L.P. (2009-12-01 -> Bloomberg Businessweek),1929-present,Original 2005 'Great Rebate Runaround' by Brian Grow venue,aberdeen-training-day-2-representing-abe-38ef4b
 businessweek,BusinessWeek (McGraw-Hill),firm,business-media,acquired,Bloomberg Businessweek,1929-2010,Published May 2003 e-business/CRM special section cited by Pombriant; acquired by Bloomberg 2009,
 businessweek-mag,BusinessWeek / BW Online / Bloomberg Businessweek,firm,news-media,renamed,Bloomberg Businessweek (2009),1929-present,McGraw-Hill business magazine 1929-2009; acquired by Bloomberg LP 2009 for ~$5M,
@@ -839,7 +839,7 @@ commonwealth-massachusetts,Commonwealth of Massachusetts,agency,government,activ
 commvault,CommVault Systems,company,Storage Software,active,,1988-present,CommVault Galaxy added to Dell backup/recovery software portfolio.,
 compal,Compal Electronics,company,PC-manufacturing,active,,1984-,Major Taiwanese ODM for Dell and HP laptops.,
 compal-electronics,Compal Electronics,company,electronics-manufacturing,active,,1984-present,Taiwan-based ODM; manufactured PDA devices for various brands,
-compaq,Compaq Computer Corporation,company,personal-computing,acquired,Hewlett-Packard (2002),1982-2002,Acquired Tandem 1997 for $3B; acquired by HP 2002,
+compaq,Compaq Computer Corporation,company,personal-computing,acquired,Hewlett-Packard (2002),1982-2002,Acquired Tandem 1997 for $3B; acquired by HP 2002,kastner-ie-v-andersen-expert-report-3de98a
 compaq-computer,Compaq Computer Corporation,company,enterprise-computing,acquired,Hewlett-Packard,1982-2002,ProLiant 5000 4-way server achieved 6750 tpmC; acquired by HP in 2002,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,1999-01-linuxcare-draft-profile-6828c0,aberdeen-practice-definitions-compendium-2000-b7a001"
 compaq-online,Compaq At Home (athome.compaq.com),company,PC-retail,unknown,,,PC retail channel tracked in 2002-2003 pricing data; sku listings: 51 [REVIEW],
 complex-architectures,Complex Architectures,company,enterprise-software,dissolved,,early 1990s,Announced basic Commercial Messaging product focused on laptop market,
@@ -848,7 +848,7 @@ compusa,CompUSA,company,consumer-electronics-retail,dissolved,Stores closed 2008
 compuserve,CompuServe Corporation,company,internet-services,acquired,AOL / Time Warner,1969-1998,Network provider used by Interliant; acquired by H&R Block sold to WorldCom then AOL 1998,
 compuserve-network,CompuServe Network Services,company,managed-services,dissolved,WorldCom -> MCI,1982-2000,Online/managed network provider; acquired by WorldCom Jan 1998,
 compuserve-network-services,CompuServe Network Services,company,telecommunications,unknown,unknown,1969-1998,Data networking division of CompuServe; profiled managed service provider,
-computer-associates,Computer Associates,vendor,enterprise-software,active,Broadcom,1976-present,BOSS warehouse management system on AS/400; renamed CA Technologies then acquired by Broadcom 2019,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8
+computer-associates,Computer Associates,vendor,enterprise-software,active,Broadcom,1976-present,BOSS warehouse management system on AS/400; renamed CA Technologies then acquired by Broadcom 2019,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,cacustsell98-3b53c6,aberdeen-1995-ibm-db2-common-server"
 computer-associates-2,Computer Associates International Inc.,company,enterprise-software,merged,CA Technologies -> Broadcom,1976-present,CA-Unicenter cited as one of two enterprise network management frameworks alongside IBM Tivoli TME; not the main focus of this study,
 computer-associates-ca,"Computer Associates International, Inc. (CA)",company,enterprise-software,acquired,"CA Technologies (2010 brand) -> Broadcom (2018, $18.9B)",1976-2018,Subject of proxy fight; Wang/Kumar incumbent leadership,
 computer-associates-international,"Computer Associates International, Inc. (CA)",company,enterprise-software,acquired,CA Inc. (2006) -> CA Technologies (2010) -> Broadcom acquired 2018,1976-2018,Founded 1976 by Charles B. Wang; third-largest independent software company by 1997; revenues $4B+ with Unicenter at ~$1B run rate. Renamed CA Inc. (2006) then CA Technologies (2010). Acquired by Broadcom Inc. for $18.9B in 2018.,aberdeen-practice-definitions-compendium-2000-b7a001
@@ -876,7 +876,7 @@ concentric-network,Concentric Network Corporation,company,managed-services,disso
 concurrent-computer,Concurrent Computer Corporation,company,computer-hardware,active,,1966-present,Under $200M RISC/Unix revenues 1995; real-time Unix niche supplier,
 conexant,Conexant Systems,company,semiconductor,acquired,Synaptics,1999-2017,,
 connect-inc,Connect Inc.,company,B2B-ecommerce,acquired,Harbinger (1998),1987-1998,EDI/EC software; acquired by Harbinger Corporation,
-consonus,Consonus Inc.,vendor,,diminished,,1990s-2000s,Data center operator; hosted Safeway's Teradata system in Portland OR,
+consonus,Consonus Inc.,vendor,,diminished,,1990s-2000s,Data center operator; hosted Safeway's Teradata system in Portland OR,safeway-damages-report-draft-b502f4
 consumer-reports,Consumer Reports / Consumers Union,institution,consumer-advocacy,active,,1936-present,Secondary source quoted,
 consumer-world,Consumer World,publication,consumer-advocacy-website,active,,1995-present,Edgar Dworsky's consumer-protection site,
 consumers-union,Consumers Union (Consumer Reports),institution,consumer-advocacy,active,Consumer Reports (org rename 2017),1936-present,Letter author,
@@ -991,14 +991,14 @@ dennis-mcevoy-tandem,Dennis McEvoy,person,executive,active,,1970s-present,Tandem
 dennis-sellers,Dennis Sellers,person,media-technology,active,,1990s-present,Macsimum News publisher,
 deon-babiuk,Deon Babiuk,person,IT-analyst,unknown [REVIEW],,1990s-present,IPL Energy senior technical analyst (Calgary AB),
 deutsche-bank,Deutsche Bank AG,company,banking,active,,1870-present,Frankfurt-based global universal bank; $2.5B IBM outsourcing deal 2002,
-dewsnup-king-olsen,Dewsnup King & Olsen,analyst,,active,,1990s-present,Law firm representing Safeway in damages claim,
+dewsnup-king-olsen,Dewsnup King & Olsen,analyst,,active,,1990s-present,Law firm representing Safeway in damages claim,safeway-damages-report-draft-b502f4
 dhruv-grewal,Dhruv Grewal,person,academic,active,,,"Professor of marketing, Babson College",
 dialogic-corporation,Dialogic Corporation,company,CTI-hardware,acquired,Intel -> various -> Enghouse Systems,1983-2020,Voice processing hardware; Intel acquired for $780M in 1999; subsequently sold multiple times; acquired by Enghouse for $52M in 2020,
 dick-csaplar,Dick Csaplar,person,Market Research / IT Consulting,unknown,,2000s-2010s,"Senior Research Analyst, Virtualization and Storage Practice at Aberdeen Group; author of this report.",
 digicash,DigiCash Inc.,company,Internet Payment,dissolved,,1989-1998,Cited in vertical EC services taxonomy as payment API,
-digital-equipment,Digital Equipment Corporation (DEC),company,enterprise-computing,acquired,Compaq / HP,1957-1998,Strategic partner for Mitel NeVaDa; acquired by Compaq 1998,
+digital-equipment,Digital Equipment Corporation (DEC),company,enterprise-computing,acquired,Compaq / HP,1957-1998,Strategic partner for Mitel NeVaDa; acquired by Compaq 1998,aberdeen-1995-ibm-as400-sap-r3
 digital-equipment-corp,Digital Equipment Corporation,vendor,computer-hardware,acquired,Compaq/HP,1957-1998,Maker of VT 100 and VT 200 terminals used in warehouse environments,
-digital-equipment-corporation,Digital Equipment Corporation (DEC),company,computing,acquired,"Compaq (1998), then Hewlett-Packard (2002)",1957-1998,Referenced as comparative benchmark: DEC DSO under 90 days vs FTI's 100-day figure. Competitor context in EVP 5.,
+digital-equipment-corporation,Digital Equipment Corporation (DEC),company,computing,acquired,"Compaq (1998), then Hewlett-Packard (2002)",1957-1998,Referenced as comparative benchmark: DEC DSO under 90 days vs FTI's 100-day figure. Competitor context in EVP 5.,"aberdeen-1995-digital-linkworks,aberdeen-1995-digital-objectbroker,aberdeen-1995-limd-technology"
 digital-pathworks,Digital (PathWorks),company,networking-software,discontinued,[none],1985-1998,Listed as legacy NOS; discontinued with DEC acquisition by Compaq,
 digital-river,Digital River,company,e-commerce,unknown,unknown,1994-present,Ascendant/Omnigy competitor; had 700+ stores; 'proven solution',
 digitalthink,DigitalThink,company,e-learning,acquired,unknown,1996-2004,Referenced as vendor/client example in Day 3 training,
@@ -1006,7 +1006,7 @@ dileep-bhandarkar,Dileep Bhandarkar,person,computer-architecture,active,,1970s-p
 directions-on-microsoft,Directions on Microsoft Inc.,firm,IT-research,active,,1992-present,Kirkland WA research firm tracking Microsoft exclusively,
 directtv,DirecTV,company,broadcast,unknown,,1994-present,[REVIEW],
 dirk-meyer-amd,Dirk Meyer,person,executive,active,,1995-present,AMD senior VP of computation products 2003; later AMD president/CEO 2008-2011 (fired over mobile strategy); Seagate director,
-docucorp,DocuCorp,company,,unknown,,,Client company receiving consulting engagement; document output solutions provider [REVIEW],
+docucorp,DocuCorp,company,,unknown,,,Client company receiving consulting engagement; document output solutions provider [REVIEW],docucorp-3c562a
 dodge-group,The Dodge Group Inc.,company,enterprise-software,unknown,,1990s,Longview strategic partner; client-server-based financial applications,
 dom-lacava,Dom LaCava,person,minicomputer-enterprise-computing,unknown,unknown,1980s-1990s,"Manager, Low-End Systems Engineering at DEC; delivered desktop strategy speech; championed terminal and workstation products",
 don-kerr-dell-canada,Don Kerr,person,computing-executive,[DEFERRED],,2000s,"Director of Canadian Advanced Systems Group at Dell Canada, Markham Ont.",
@@ -1022,7 +1022,7 @@ dpec-inc,DPEC Inc.,company,e-learning,acquired,NETg (National Education Training
 dsp-group,DSP Group,company,semiconductor,acquired,Synaptics,1987-2021,,
 dubai-ports-authority,Dubai Ports Authority,agency,ports-logistics,reorganized,DP World,1976-present,Dubai government entity; Sultan bin Sulayem was chairman,
 duke-energy,Duke Energy (formerly PanEnergy),company,energy,active,PanEnergy merged with Duke Power 1997,1904-present,PanEnergy became part of Duke Energy; parent of Altra Energy JV,
-dun-and-bradstreet,Dun & Bradstreet,vendor,,active,,1841-present,SmartStream financial software; software division later sold,
+dun-and-bradstreet,Dun & Bradstreet,vendor,,active,,1841-present,SmartStream financial software; software division later sold,kastner-ie-v-andersen-expert-report-3de98a
 dun-bradstreet,Dun & Bradstreet Corporation,company,business-information-services,active,,1841-present,Previous owner of Pilot Software before 1994 acquisition and 1996 Cognizant spinoff; D&B still active as business data company,
 dun-bradstreet-software,Dun & Bradstreet Software,company,ERP-software,acquired,Geac Computer Corporation,1987-1998,High-end ERP competitor; sold to Geac in 1998,
 dvd-demystified,DVDDemystified.com,publication,industry-reference-website,active,,1990s-present,Jim Taylor's DVD-industry reference site and publication listing,
@@ -1139,7 +1139,7 @@ ee-times,EE Times (Electronic Engineering Times),publication,trade-press,active,
 efa-software,EFA Software Services Ltd,company,Trading Systems,unknown [REVIEW],,1990s-2000s,IBM Developer Business Partner; Calgary; Equator clearance/settlement,
 eggxpert-community,EggXpert (Newegg community forums),institution,online-community,active,,2007-present,Forum,
 electronic-arts,Electronic Arts Inc.,company,game-software,active,,,Platform-agnostic game publisher; potential strategic partner for broadband gaming,
-electronic-data-systems,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,$15.2B revenue FY97; founded by H. Ross Perot; spun from GM in 1996.,"unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-practice-definitions-compendium-2000-b7a001"
+electronic-data-systems,Electronic Data Systems (EDS),company,IT Services,acquired,HP (2008),1962-2008,$15.2B revenue FY97; founded by H. Ross Perot; spun from GM in 1996.,"unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-digital-objectbroker"
 electronic-news,Electronic News (Electronics News Australia),company,trade-media,merged-into-edn,Folded into EDN/EE Times umbrella,1957-2005,Reed Business Information trade pub; Electronics News Australia sister edition,
 elekom,ELEKOM,company,B2B-ecommerce,unknown,,1990s,EC automation supplier profiled; fate unknown,
 eli-alon,Eli Alon,person,computer-executive,unknown,,1980s-1990s,Founder of Tolerant Transaction Systems; promised Unix-based FT in 1985; later dropped from firm,
@@ -1489,7 +1489,7 @@ henning-kagermann,Henning Kagermann,person,technology-executive,active,,1998-200
 herb-siegel,Herb Siegel,person,IT-research,unknown [REVIEW],,1990s-2000s,VP Analyst Relations at Computer Associates; proposal addressee.,
 hercules-inc,Hercules Inc.,company,specialty-chemicals,acquired,Ashland Inc. ($2.6B acquisition 2008),1912-2009,Chemical company headquartered Wilmington DE; addressed to William Phile CSD Building 8145; acquired by Ashland for $2.6B in 2008,
 hewitt-associates,Hewitt Associates,company,HR-consulting,acquired,Aon (2010),1940-2010,Tenner's employer,
-hewlett-packard,Hewlett-Packard,company,IT-hardware-healthcare,active,HP Inc. + HPE (split 2015); HP Medical Products Group sold to Philips 2001,1939-present,Spearheaded Andover Working Group launch March 1996; Medical Products Group and Computer Systems Organization,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-foster-acm-speech-pr-1982-16a134,aberdeen-practice-definitions-compendium-2000-b7a001"
+hewlett-packard,Hewlett-Packard,company,IT-hardware-healthcare,active,HP Inc. + HPE (split 2015); HP Medical Products Group sold to Philips 2001,1939-present,Spearheaded Andover Working Group launch March 1996; Medical Products Group and Computer Systems Organization,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-foster-acm-speech-pr-1982-16a134,aberdeen-practice-definitions-compendium-2000-b7a001,kastner-ie-v-andersen-expert-report-3de98a,aberdeen-1995-ibm-as400-sap-r3"
 hewlett-packard-co,Hewlett-Packard,company,IT-hardware-services,active,HP Inc. + HPE (split 2015),1939-present,Listed as SAP National Logo Partner for AcceleratedSAP,
 hewlett-packard-enterprise,Hewlett Packard Enterprise,company,Enterprise IT Hardware/Services,active,,2015-present,Role: successor-entity; Status: active; HQ: USA. Enterprise hardware/software/services successor to Hewlett-Packard post-2015 split,
 hewlett-packard-professional,Hewlett-Packard Professional Services,company,IT-services,active (as HPE),,1939-present,HP's professional services arm profiled,
@@ -1541,8 +1541,8 @@ hyperparallel-inc,HyperParallel Inc.,company,Data Mining Software,unknown,unknow
 i2-technologies,i2 Technologies,company,supply-chain-software,acquired,JDA Software / Blue Yonder,1988-2010,Featured in i2 Gets Its Assets in Gear InSight Oct 2001,
 ian-betteridge-eweek,Ian Betteridge,person,tech-journalism,active,,1990s-present,eWEEK journalist (also Betteridge's Law author),
 ibi,Information Builders,company,software,active,,1975-,EDA/SQL ties with Informix for open connectivity,
-ibm,IBM,company,IT-services,active,,1911-present,Referenced as benchmark for receivables days outstanding; described as having considerably lower DSO than FTI's 100-day figure. Known entity reused from cache.,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-launch-cw-1987-11913f,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,1999-01-linuxcare-draft-profile-6828c0,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-corporate-collateral-2001-v2-b4b001,adl-public-safety-911-cad-systems-1973-1979-b8a001,adl-commercial-engagements-kastner-1972-1979-b8b001,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001"
-ibm-as400-division,IBM AS/400 Division,product-division,,,,,Division located at 3605 Highway 52N Rochester MN 55901,
+ibm,IBM,company,IT-services,active,,1911-present,Referenced as benchmark for receivables days outstanding; described as having considerably lower DSO than FTI's 100-day figure. Known entity reused from cache.,"stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-launch-cw-1987-11913f,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,1999-01-linuxcare-draft-profile-6828c0,aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-corporate-collateral-2001-v2-b4b001,adl-public-safety-911-cad-systems-1973-1979-b8a001,adl-commercial-engagements-kastner-1972-1979-b8b001,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001,kastner-ie-v-andersen-expert-report-3de98a,aberdeen-1995-ibm-as400-sap-r3,aberdeen-1995-ibm-db2-common-server,aberdeen-1995-intersolv-virtual-data-warehouse,aberdeen-1995-limd-technology"
+ibm-as400-division,IBM AS/400 Division,product-division,,folded,IBM Power Systems,,Division located at 3605 Highway 52N Rochester MN 55901,aberdeen-1995-ibm-as400-sap-r3
 ibm-bcs,IBM Business Consulting Services (BCS),firm,Consulting,rebranded,IBM Global Business Services,2002-2010,IBM's consulting arm post-PwC acquisition; one potential Aberdeen counterparty discussed for alignment.,
 ibm-corp,IBM Corporation,company,enterprise-IT,active,,1911-present,Power processor competitor cited,
 ibm-corporation,IBM Corporation,company,enterprise-computing,active,,1911-present,Major Linux contributor; z/OS positioned as co-primary server OS with Linux,aberdeen-practice-definitions-compendium-2000-b7a001
@@ -1566,7 +1566,7 @@ icanbuy,iCanBuy,company,digital-payments,dissolved,,1998-2002,Digital cash targe
 icarian-software,Icarian Software,company,PSA-software,acquired,Recruitsoft (renamed) then Taleo Corporation,1998-2002,Workforce management PSA; pivoted to talent management; acquired by Taleo,
 icat,iCat Corporation,company,Internet Software / e-Commerce,acquired,unknown,1994-2000s,Internet storefront and catalog publishing; mid-range leader; 300+ VARs; agreements with Ingram Micro Tech Data HP; iCat Electronic Commerce Suite 3.0; Seattle WA,
 icfe,Institute of Consumer Financial Education,association,consumer-finance,active,,1982-present,San Diego-based consumer finance education non-profit,
-icl,ICL (International Computers Limited),vendor,,,,,British IT vendor cited as competing midrange supplier,
+icl,ICL (International Computers Limited),vendor,,acquired,Fujitsu,,British IT vendor cited as competing midrange supplier,aberdeen-1995-ibm-as400-sap-r3
 icl-fujitsu,ICL/Fujitsu,company,computer-hardware,acquired,Fujitsu Limited,1968-2002,$340M revenue 1995 (flat); SPARC-based Teamserver and Superserver SMP; MPP Goldrush for data warehousing; also participating in Intel/Unix market,
 icl-retail-systems,ICL Retail Systems,company,Retail IT Systems,unknown,unknown,1990s,POS and retail IT systems provider; supplier abstract included.,
 icube,iCube (Korean digital media adapter maker),company,Consumer Electronics,unknown,,early-2000s,Korean maker of MPEG2→MPEG4 on-the-fly digital media adapter for notebook-to-TV. [REVIEW],
@@ -1591,7 +1591,7 @@ imi,Industri-Matematik International (IMI),company,enterprise-software,unknown,u
 immersion-technology-inc,Immersion Technology Inc.,company,computer-peripherals,active,,1990s-present,San Jose CA joystick technology supplier; CEO Robert O'Malley cited 2002 WSJ,
 impact-innovations-group,Impact Innovations Group,company,IT-professional-services,unknown,unknown,1990s,Listed under CIS practice area,
 imperito-networks,Imperito Networks,company,network-security,dissolved,,2001-2004,WLAN security startup; dissolved,
-inacom,Inacom Corp.,vendor,,dissolved,,1982-2001,PC distributor; filed bankruptcy 2001,
+inacom,Inacom Corp.,vendor,,dissolved,,1982-2001,PC distributor; filed bankruptcy 2001,kastner-ie-v-andersen-expert-report-3de98a
 independent-blue-cross,Independence Blue Cross,institution,Healthcare / Insurance,active,,1938-present,Named telephone respondent.,
 indian-motorcycle,Indian Motorcycle,company,Manufacturing / Consumer Goods,active,,1901-present,Mid-market Oracle Applications customer; implemented full Oracle suite in 1999; reported ROI achieved within one year of going live.,
 indus-international,Indus International,company,asset-management-software,acquired,ABB Group (2006),1978-2006,Enterprise asset management software; acquired by ABB in 2006,
@@ -1612,7 +1612,7 @@ information-builders,Information Builders Inc.,company,software,unknown,unknown,
 information-corp,Information Corp,firm,market-research,unknown,,1980s,Source of $6.4B-to-$27B (1981-1986) HA TP market forecast cited in overview,
 informationweek,InformationWeek / TechWeb,firm,news-media,active,,1985-present,IT business trade publication; Techweb digital arm,
 informationweek-magazine,InformationWEEK magazine,publication,trade-press,active,Informa Tech Holdings,1985-present,"Trade publication; published the article January 20, 1986",
-informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,RDBMS partner for Unisys decision support solutions; acquired by IBM 2001,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8
+informix,Informix Software,company,database-software,acquired,IBM (2001),1980-2001,RDBMS partner for Unisys decision support solutions; acquired by IBM 2001,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,safeway-damages-report-draft-b502f4,aberdeen-1995-ibm-db2-common-server,aberdeen-1995-limd-technology"
 informix-corp,Informix Corporation,company,database-software,acquired,IBM 2001,1980-2001,Q1 1996 revenue warning — stock plunged 28% in one day,
 informix-software,Informix Software Inc.,company,Database,acquired,IBM (2001),1980-2001,DORS supplier,aberdeen-practice-definitions-compendium-2000-b7a001
 inforte-corporation,Inforte Corporation,company,IT-professional-services,unknown,unknown,1993-2000s,Listed under CIS practice area,
@@ -1622,7 +1622,7 @@ infoworld,InfoWorld,firm,news-media,renamed,"InfoWorld.com (IDG, print ended 200
 infoworld-magazine,InfoWorld Magazine,publication,tech-trade-press,active-then,transitioned-to-digital-only-2007,1978-2007-print,San Mateo CA tech trade weekly,
 ing-c-olivetti,Ing. C. Olivetti & Co.,company,computer-and-office,acquired,Telecom Italia (2003),1908-present,Italian computer maker; signed 1982 $40M Stratus OEM deal,
 ingersoll-rand,Ingersoll Rand,company,Industrial Manufacturing,active,,1871-present,Named telephone respondent.,
-ingram-micro,Ingram Micro,company,IT-distribution,active,Acquired by Tianjin Tianhai/HNA 2016,1979-present,Named premier CiscoPro distribution partner,
+ingram-micro,Ingram Micro,company,IT-distribution,active,Acquired by Tianjin Tianhai/HNA 2016,1979-present,Named premier CiscoPro distribution partner,kastner-ie-v-andersen-expert-report-3de98a
 ingres,Ingres (ASK Group),company,enterprise-software,acquired,ASK Group (1990) -> Computer Associates (1994) -> spun off as Ingres Corp (2005) -> renamed Actian (2011) -> HCL Technologies (2021),1980-present,Referenced as superior RDBMS alternative to DB2,
 ingres-corporation,Ingres Corporation,company,relational-DBMS,acquired,ASK (1990)/CA (1994)/Actian (renamed),1980-present,Relational DBMS vendor; deck shows on Pyramid Ui-AHas,
 inovant,Inovant,company,payments-processing,absorbed-into-visa,Visa Inc.,1974-2005,Visa processing subsidiary; RAMP interview subject.,
@@ -1635,7 +1635,7 @@ intel,Intel Corporation,company,semiconductor,active,,1968-present,Intel SMP pro
 intel-capital,Intel Capital,firm,Venture Capital,active,,1991-present,Hosted separate reception at IDF.,
 intel-corp,Intel Corporation,company,Semiconductors,active,,1968-present,,
 intel-corporation,Intel Corporation,company,semiconductor,active,,1968-present,Strategic partner for Mitel NeVaDa; Intel ProShare videoconferencing referenced,aberdeen-practice-definitions-compendium-2000-b7a001
-intelligent-electronics,Intelligent Electronics Inc.,end-user,,dissolved,,1982-1997,PC distributor; $3B revenue 1993; filed bankruptcy 1996; liquidated 1997,
+intelligent-electronics,Intelligent Electronics Inc.,end-user,,dissolved,,1982-1997,PC distributor; $3B revenue 1993; filed bankruptcy 1996; liquidated 1997,kastner-ie-v-andersen-expert-report-3de98a
 intelligent-interactions,Intelligent Interactions Corporation,company,Internet Advertising Technology,unknown,unknown,1990s-2000s,Adfinity ad server; database marketing emphasis; high-level targeting; Alexandria VA,
 intelligroup,Intelligroup,company,SAP-consulting,acquired,Mastech Holdings (acquired ~2011),1994-2011,SAP-focused consulting firm; National Implementation Partner,
 intelliguard-software,Intelliguard Software,company,Storage Management Software,unknown,unknown,1990s,Storage management software vendor; listed in vendor segment matrix.,
@@ -1686,7 +1686,7 @@ iso-org,International Organization for Standardization (ISO),institution,standar
 isource-business,iSource Business,company,B2B Media,unknown,,1990s-2000s,"ERA partner for Supplier Performance Measurement Benchmark (3,213 downloads). [REVIEW]",
 iss,Internet Security Systems,company,security-software,acquired,IBM,1994-2006,Tivoli Partner Exchange member; acquired by IBM in 2006 for $1.3B,
 issa,Information Systems Security Association,institution,infosec-profession,operating,,1984-present,Review team,
-issc,ISSC (IBM Integrated Systems Solutions Corporation),subsidiary,,,,,IBM's professional services arm cited for single-source SAP R/3 implementation support,
+issc,ISSC (IBM Integrated Systems Solutions Corporation),subsidiary,,rebranded,IBM Global Services,,IBM's professional services arm cited for single-source SAP R/3 implementation support,aberdeen-1995-ibm-as400-sap-r3
 isuppli-corp,iSuppli Corporation,firm,industry-analyst,acquired,IHS (2010) -> IHS Markit -> S&P Global,1999-2010,El Segundo CA electronics-market-research firm; acquired by IHS 2010,
 isv-community,RS/6000 ISV Community,institution,software-vendors,dissolved,IBM Power ISV ecosystem,1990-2002,Collective of independent software vendors supplying AIX applications; gradually migrated to AIX 4 and later versions,
 it-organizations,IT Organizations (Enterprise),institution,IT-management,active,,1980-present,Enterprise IT departments as buyers; warned they must recognize directional changes to avoid missing recovery opportunities,
@@ -1837,7 +1837,7 @@ kpmg-consulting,KPMG Consulting,vendor,it-professional-services,acquired,Bearing
 kpmg-international,KPMG International,firm,professional-services,active,[none],1987-present,Listed under ERP and CIS practice areas,
 kpmg-llp,KPMG LLP,firm,professional-services,active,,1987-present,Parent accounting firm; consulting arm spun off as KPMG Consulting Jan 2000,
 kpmg-peat-marwick,KPMG Peat Marwick,firm,consulting,active,KPMG (rebranded),1987-present,1997 core member addition to Andover Working Group,
-kroger,The Kroger Co.,end-user,,active,,1883-present,Grocery retailer; data warehouse pioneer; proposed Albertsons merger blocked,
+kroger,The Kroger Co.,end-user,,active,,1883-present,Grocery retailer; data warehouse pioneer; proposed Albertsons merger blocked,safeway-damages-report-draft-b502f4
 la-times,Los Angeles Times,company,newspaper-publishing,active,,1881-present,Editorial board byline; piece archived at UCLA,
 lance-travis,Lance Travis,person,industry-analyst,active,,1990s-present,AMR Research analyst quoted with cautionary view on HP-Himalaya,
 lance-ulanoff-pcmag,Lance Ulanoff,person,journalist,active,,1990s-present,PCMag.com senior executive producer 2002,
@@ -1893,9 +1893,9 @@ longview-solutions,Longview Solutions,company,enterprise-performance-management,
 loren-loverde,Loren Loverde,person,analyst,active,,1990s-present,IDC WW Quarterly PC Tracker director,
 lorie-wigle,Lorie Wigle,person,Intel Eco-Tech,active,,1990s-present,Intel Green / Eco-Tech lead for Emerging Market Roundtable.,
 lorrie-grant,Lorrie Grant,person,journalist,active,,,USA Today retail/business reporter at article date,
-lotus,Lotus Development (IBM),company,software,acquired,IBM (1995),1982-1995,10/Plus partner; Lotus groupware management via Tivoli,
+lotus,Lotus Development (IBM),company,software,acquired,IBM (1995),1982-1995,10/Plus partner; Lotus groupware management via Tivoli,aberdeen-1995-ibm-db2-common-server
 lotus-development,Lotus Development Corporation,company,software,acquired,IBM (acquired 1995),1982-1995,Domino 4.5 (Lotus Notes) available on AS/400 Integrated PC Server May 1997,
-lotus-notes,Lotus/IBM Domino,company,Collaboration Software,acquired,IBM / HCL (2018),1984-present,Notes Domino cited as IBM SMB new-market growth vector,
+lotus-notes,Lotus/IBM Domino,company,Collaboration Software,acquired,IBM / HCL (2018),1984-present,Notes Domino cited as IBM SMB new-market growth vector,aberdeen-1995-ibm-db2-common-server
 lou-gerstner,Louis V. Gerstner Jr.,person,IT Executive,unknown [REVIEW],,1993-2002,IBM CEO quoted as publicly advising not to buy from Computer Associates,
 lou-hirsh-ect,Lou Hirsh,person,tech-journalism,active,,1990s-present,E-Commerce Times reporter,
 louis-burns,Louis Burns,person,Intel Leadership,unknown,,2000s,Intel Digital Health Group; delivered digital health keynote. [REVIEW],
@@ -1976,7 +1976,7 @@ mcgraw-hill,McGraw-Hill,company,professional-publishing,active,,1888-present,Pub
 mcgraw-hill-online,McGraw-Hill OnLine,company,education-publishing,unknown,unknown,1990s,Listed as ISV under Educational Services,
 mci,MCI Communications,company,telecommunications,acquired,MCI WorldCom -> WorldCom -> Verizon Business (2006),1963-2006,Listed as CSP customer of Open Market,
 mci-systemhouse,MCI Systemhouse,company,IT-services,acquired,EDS (1999),1974-1999,Acquired by EDS February 1999 for $1.65B,
-mckinsey,McKinsey & Company,analyst,,active,,1926-present,Management consulting; advised IE on strategy,
+mckinsey,McKinsey & Company,analyst,,active,,1926-present,Management consulting; advised IE on strategy,kastner-ie-v-andersen-expert-report-3de98a
 media-dna,Media DNA,company,digital-rights,dissolved,,1998-2002,Digital content rights management vendor; dissolved,
 medicalogic,MedicaLogic Inc.,company,Healthcare IT,acquired,GE Healthcare (2000),1988-2000,Beaverton OR; EMR-focused; Logician EMR product; open systems philosophy; ROI analysis methodology differentiator.,
 medion,Medion AG,company,PC-manufacturing,unknown,,,U.S. PC maker tracked in 2002-2003 pricing data; sku count in this study: 5 [REVIEW],
@@ -1994,7 +1994,7 @@ mercury-interactive,Mercury Interactive,company,software-quality-assurance,acqui
 mercury-research,Mercury Research,firm,industry-analyst,active,,1995-present,Cave Creek AZ semiconductor-market research firm; Dean McCarron president,
 meridian-data,Meridian Data,company,Storage / NAS,acquired,Quantum Corporation (acquired 1999); spun off as Snap Appliance (2002),1994-2000,Original company that launched first Snap Servers in 1998; acquired by Quantum in 2000,
 merisel,Merisel Inc.,company,computer-products-distribution,dissolved,,,Computer products distributor and early SpaceWorks OrderManager customer; mentioned in 1997 trade press coverage; Merisel later dissolved,
-merrill-lynch,Merrill Lynch,company,financial-services,acquired,Bank of America Merrill Lynch (2008),1914-2008,Named NetDynamics enterprise customer,
+merrill-lynch,Merrill Lynch,company,financial-services,acquired,Bank of America Merrill Lynch (2008),1914-2008,Named NetDynamics enterprise customer,aberdeen-1995-limd-technology
 mervyns,Mervyn's Department Stores,company,retail,dissolved,,1949-2008,Named as production data warehouse example; >1 terabyte database; filed bankruptcy 2008,
 meta-group,Meta Group,company,IT market research,dissolved,Acquired by Gartner 2005,1989-2005,Described as 'miniature Gartner'; 1:50 analyst-client ratio; ties with First Albany,"aberdeen-training-day-2-representing-abe-38ef4b,unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-corporate-collateral-2001-v2-b4b001,aas-operational-playbooks-aug-2001-b5a001"
 meta4,Meta4,company,enterprise-software,unknown,unknown,1992-2010,Acquired by Baan along with Coda Group; HR software company,
@@ -2022,8 +2022,8 @@ michael-singer-journalist,Michael Singer,person,journalist,unknown,,,"InternetNe
 michael-slater-mpr,Michael Slater,person,tech-journalist,active,,1980s-present,"Editor, Microprocessor Report; quoted",
 michael-witteman-intel,Michael Witteman,person,vendor-executive,active,,1990s-present,"Director of product development, Intel business communications unit",
 michelle-kessler,Michelle Kessler,person,journalist,active,,2000s-present,USA Today technology reporter (2000s),
-micro-focus,Micro Focus,company,COBOL Tooling,acquired,OpenText (2023),1976-2023,"Role: technology-partner; Status: acquired; HQ: UK. COBOL tooling partner referenced in study; acquired by OpenText January 31, 2023",
-microage,MicroAge Inc.,company,IT-distribution,bankrupt,,1976-2000,VAR and distributor that had entered NT services; filed for bankruptcy 2000,
+micro-focus,Micro Focus,company,COBOL Tooling,acquired,OpenText (2023),1976-2023,"Role: technology-partner; Status: acquired; HQ: UK. COBOL tooling partner referenced in study; acquired by OpenText January 31, 2023",aberdeen-1995-intersolv-virtual-data-warehouse
+microage,MicroAge Inc.,company,IT-distribution,bankrupt,,1976-2000,VAR and distributor that had entered NT services; filed for bankruptcy 2000,kastner-ie-v-andersen-expert-report-3de98a
 microage-inc,"MicroAge, Inc.",company,IT Distribution/Reseller,bankrupt,,1976-2000,NT server reseller; value-added distributor.,aberdeen-practice-definitions-compendium-2000-b7a001
 microcenter,MicroCenter,company,PC-retail,unknown,,,PC retail channel tracked in 2002-2003 pricing data; sku listings: 7 [REVIEW],
 microchip-tech,Microchip Technology Inc.,company,semiconductor,active,,1989-present,Chandler AZ microcontroller maker; PIC-family MCUs; acquired Atmel 2016,
@@ -2033,10 +2033,10 @@ micron,Micron Technology,company,semiconductor,active,,1978-present,,
 micron-electronics,Micron Electronics,company,IT-hardware,dissolved,MiCOM Communications,1978-2000,Secondary NT workstation supplier; Nampa Idaho; direct model,
 micron-technology,Micron Technology,company,semiconductor,active,,1978-present,Current Aberdeen target (+),
 microprocessor-report,Microprocessor Report,publication,IT-trade-press,active,,1987-present,Linley Group/MicroDesign Resources newsletter,
-microsoft,Microsoft Corporation,company,computing,active,,1975-present,Mentioned in passing as example of company dominating personal computing landscape with user-friendly interfaces in 1980s context.,psa-category-created-hofferberth-57edb8
+microsoft,Microsoft Corporation,company,computing,active,,1975-present,Mentioned in passing as example of company dominating personal computing landscape with user-friendly interfaces in 1980s context.,"psa-category-created-hofferberth-57edb8,aberdeen-1995-intersolv-virtual-data-warehouse"
 microsoft-business-solutions,Microsoft Business Solutions (MBS),company,ERP-software,renamed,Microsoft Dynamics (2006),2001-2006,Microsoft's business applications division formed after acquiring Great Plains (2001) and Navision (2002); renamed Microsoft Dynamics in 2006,
 microsoft-corp,Microsoft Corporation,company,software,active,,1975-present,Pocket PC OS vendor; Windows Mobile successor to Pocket PC,
-microsoft-corporation,Microsoft Corporation,company,enterprise-software,active,,1975-present,Windows positioned as one of three primary server OSes alongside Linux and z/OS,aberdeen-practice-definitions-compendium-2000-b7a001
+microsoft-corporation,Microsoft Corporation,company,enterprise-software,active,,1975-present,Windows positioned as one of three primary server OSes alongside Linux and z/OS,"aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-digital-linkworks,aberdeen-1995-digital-objectbroker"
 microsoft-great-plains,Microsoft Great Plains (Business Solutions),company,enterprise-software,rebranded,Microsoft Dynamics,1983-2003,Featured in multiple InSights; rebranded to Microsoft Dynamics,
 microsoft-research,Microsoft Research,institution,industrial-research,active,,1991-present,Microsoft's pure research division; defended by Kastner,
 microstrategy,MicroStrategy Inc.,company,business-intelligence,active,,1989-present,Relational OLAP innovator; leading Web+ROLAP architecture; NCR partnership cited; still active as of 2026,
@@ -2077,7 +2077,7 @@ motorola-semiconductor,Motorola Semiconductor,company,semiconductors,acquired,Fr
 mrj-technology-solutions,MRJ Technology Solutions,company,data-mining-consulting,unknown,,1990s,Data mining and knowledge discovery integrator; Tandem consulting partner; current status unknown,
 mro-software,MRO Software,company,EAM Software,acquired,IBM (Maximo),1968-2006,ERA sponsor cited in testimonial quote; acquired by IBM for Maximo in 2006.,
 ms-millennium,MS Millennium,company,Y2K-services,defunct,Subsidiary of Matlen Silver Group,1990s-2000s,Somerset NJ Y2K conversion firm; 1997 CW advertorial advertiser (MSM/2000),
-mti,MTI (MSD vendor),vendor,,diminished,,1980s-present,MSD distribution software vendor; niche legacy product,
+mti,MTI (MSD vendor),vendor,,diminished,,1980s-present,MSD distribution software vendor; niche legacy product,kastner-ie-v-andersen-expert-report-3de98a
 muhammad-saleh,Muhammad Saleh,person,executive,unknown [REVIEW],,,"Former VP HR and Global IT Operations, Timex; Obian advisor.",
 multiple-zones,Multiple Zones International,company,computer-retail,acquired,"Zones, Inc.",1990-2008,"Direct retailer operating PC Zone and Mac Zone internet superstores; used Commerce eXchange for e-commerce; business continued as Zones, Inc.",
 multitrak-corp,Multitrak Corporation,company,project-management-software,acquired,Various,1980s-2000s,Project-management software vendor; host of 1991 user-group conference,
@@ -2106,7 +2106,7 @@ ncr-corporation,NCR Corporation,company,data-warehousing,active,,1884-present,12
 ncr-irrelevant,Apple Computer,company,computer-and-mobile,renamed,Apple Inc. (2007),1976-present,Maker of the discontinued Newton; later returned to category with iPad 2010,
 ncr-korea,NCR Korea,subsidiary,computer-systems,active,,1980s-present,Korean subsidiary of NCR Corporation; publisher of Hangul translation,
 ncr-norge-as,NCR Norge AS,subsidiary,computer-systems,active,,1980s-present,Norwegian subsidiary of NCR Corporation; host of 11 Sept 1992 Open OLTP seminar in Oslo,
-ncr-teradata,NCR Corporation / Teradata Division,vendor,,active,,1884-present,Teradata data warehouse division; spun off as independent company 2007,
+ncr-teradata,NCR Corporation / Teradata Division,vendor,,active,,1884-present,Teradata data warehouse division; spun off as independent company 2007,safeway-damages-report-draft-b502f4
 ncsa-national-computer-security,National Computer Security Association (NCSA),institution,security-certification,merged,"ICSA Labs (acquired by TruSecure, later Verizon Business)",1989-2000,Used ISS Firewall Scanner as core part of firewall accreditation program; became ICSA Labs,
 nec,NEC Corporation,company,hardware,active,,1899-present,Japanese electronics company; active; set NEC Itanium 2 benchmark records in 2002-2003,
 nec-computer,NEC Computer Systems Division / Packard Bell NEC,company,IT-hardware,dissolved,unknown,1990-2000,Secondary NT workstation supplier; Mountain View CA,
@@ -2160,7 +2160,7 @@ norsk-regnesentral,Norsk Regnesentral,institution,research,active,,1952-present,
 nortel,Nortel Networks,company,networking,bankrupt,Various patent buyers; Ericsson; Ciena,1895-2009,Praesidium partner; filed for bankruptcy 2009,adl-commercial-engagements-kastner-1972-1979-b8b001
 nortel-networks,Nortel Networks,company,telecommunications,dissolved,bankrupt 2009; assets sold to various buyers,1895-2009,Acquired Clarify for $2.1B in 1999; then sold to Amdocs for $200M in 2001,
 northern-telecom,Northern Telecom,company,telecommunications,acquired,Nortel Networks (1995) -> bankrupt 2009,1895-2009,Named Blyth customer,
-novell,Novell Inc.,company,networking-software,acquired,Attachmate -> Micro Focus -> OpenText,1983-2011,NetWare available on AS/400 Integrated PC Server alongside NT,
+novell,Novell Inc.,company,networking-software,acquired,Attachmate -> Micro Focus -> OpenText,1983-2011,NetWare available on AS/400 Integrated PC Server alongside NT,aberdeen-1995-ibm-db2-common-server
 novell-inc,"Novell, Inc.",company,operating-system,acquired,Attachmate (2011) -> Micro Focus (2014) -> OpenText (2023),1979-2014,NetWare/SUSE vendor,
 novient,Novient,company,PSA-software,acquired,Planview,1996-2002,Resource and skills management PSA; acquired by PlanView,psa-category-created-hofferberth-57edb8
 npd-group,"NPD Group, Inc.",firm,market-research,active,Circana (2022 merger with IRI),1966-present,US consumer market research firm; renamed Circana 2022,
@@ -2179,7 +2179,7 @@ obian-group,Obian Group (Obian),company,consulting,unknown [REVIEW],,,Subject of
 obj-relational-summit,Object/Relational Summit,institution,industry-conference,dissolved,,1997-1999,Annual conference mentioned in column,
 object-design,"Object Design, Inc.",company,middleware-software,acquired,Excelon/ObjectStore via Progress Software,1989-2002,Competitor offering object-to-relational mapping requiring ODBMS purchase.,
 object-design-inc,"Object Design, Inc.",company,database-software,acquired,Progress Software (2003),1988-2003,ObjectStore ODBMS vendor,
-object-management-group,Object Management Group (OMG),institution,standards-body,active,,1989-present,CORBA standard used as basis for Oracle ICX Object Request Broker,
+object-management-group,Object Management Group (OMG),institution,standards-body,active,,1989-present,CORBA standard used as basis for Oracle ICX Object Request Broker,aberdeen-1995-digital-objectbroker
 objectivity-inc,Objectivity Inc.,company,Object DBMS Software,unknown,unknown,1988-present,"Objectivity 5.0; multi-threaded object database; Java, C++, Web technologies support",
 office-depot,Office Depot,company,PC-retail,active,The ODP Corporation (renamed 2020); merged with OfficeMax 2013,,PC retail channel tracked in 2002-2003 pricing data; sku listings: 10,
 office-max,Office Max,company,PC-retail,unknown,,,PC retail channel tracked in 2002-2003 pricing data; sku listings: 4 [REVIEW],
@@ -2211,10 +2211,10 @@ opentext,OpenText,company,Enterprise Information Management,active,,1991-present
 openvision,OpenVision Technologies,company,enterprise-software,acquired,Veritas Software (acquired 1997),1992-1997,"Named as example of competitor that struggled; 'after a difficult start-up phase, OpenVision was sold earlier this year' (1997). Acquired by Veritas Software.",
 operation-match,Operation Match,company,consumer-services,dissolved,supplanted by online dating services,1965-late-1960s,Harvard-student-founded precursor to computer dating,
 opus360-corporation,Opus360 Corporation,company,PSA-software,acquired,MPS Group then Adecco,1998-2001,Contingent workforce and project staffing PSA,
-oracle,Oracle Corporation,company,database-software,active,,1977-present,Cited for WebSystem suite: database + web server + browser + dev tools; multi-threaded CGI alternative,
+oracle,Oracle Corporation,company,database-software,active,,1977-present,Cited for WebSystem suite: database + web server + browser + dev tools; multi-threaded CGI alternative,"aberdeen-1995-ibm-db2-common-server,aberdeen-1995-intersolv-virtual-data-warehouse"
 oracle-application-user-group,Oracle Application User Group (OAUG),institution,User Community,active,,1990-present,Independent user association; formal rapprochement with Oracle noted.,
 oracle-corp,Oracle Corporation,company,database-software,active,,1977-present,10/Plus partner for RDBMS management via Tivoli,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,psa-category-created-hofferberth-57edb8,2002-04-oracle-appsworld-insight-jones-fb0f43,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2"
-oracle-corporation,Oracle Corporation,company,ERP-software,active,,1977-present,Enterprise ERP competitor; Oracle Applications suite competed with Lawson,aberdeen-practice-definitions-compendium-2000-b7a001
+oracle-corporation,Oracle Corporation,company,ERP-software,active,,1977-present,Enterprise ERP competitor; Oracle Applications suite competed with Lawson,"aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-digital-linkworks,aberdeen-1995-limd-technology"
 oracle-norge-as,Oracle Norge AS,subsidiary,database,active,,1980s-present,Norwegian subsidiary of Oracle Corporation; co-presenter at NCR Norge OLTP seminar,
 oravax-inc,OraVax Inc.,company,biotech,renamed-acquired,"Acambis (2003), then Sanofi",1990-2003,Cambridge MA biotech; correction in same Boston Globe column,
 orinoco,ORiNOCO (Proxim),company,networking,acquired,Proxim Wireless,1996-2004,Wi-Fi/WLAN brand under Agere/Lucent; brand acquired by Proxim Wireless; referenced in context of WEP wireless security,
@@ -2286,7 +2286,7 @@ peter-cleveland,Peter Cleveland,person,Intel Legal/Policy,unknown,,2000s-2010s,"
 peter-glaskowsky,Peter Glaskowsky,person,tech-press,active,,,"Byline: Editor-in-Chief, MPR",
 peter-kastner,Peter S. Kastner,analyst,it-research,active,,1990s-present,Aberdeen Group Executive Vice President; commissioned this research,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8
 peter-m-spiro,Peter M. Spiro,person,database-engineering,unknown,[none],1985-1991,"Principal software engineer optimizing database technology for RISC; worked on KODA access methods, journaling, recovery, transaction protocols; patent pending for database journaling and recovery method",
-peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1960s-present,Known entity reused from cache. Not mentioned by name in AI document but implied as Aberdeen Group co-founder alongside Casale.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-foster-acm-speech-pr-1982-16a134,stratus-ft-market-2b-1987-da450e,stratus-newcomers-tandem-eet-1982-24ae59,stratus-olivetti-europe-1982-f4ae50,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf,stratus-xa2000-launch-cw-1987-11913f,aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526,unisys-florida-hrs-expert-witness-tallah-5b4524,aas-launch-package-aug-2001-b4a001,aberdeen-corporate-collateral-2001-v2-b4b001,aas-operational-playbooks-aug-2001-b5a001,aas-sales-tools-pricing-aug-2001-b5b001,aberdeen-workshop-qualifying-questions-and-success-stories-2001-b6a001,aberdeen-proposal-templates-and-retainer-strategy-2001-b6b001,aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-productization-pricing-and-survey-research-program-2000-b7b001,adl-public-safety-911-cad-systems-1973-1979-b8a001,adl-commercial-engagements-kastner-1972-1979-b8b001,phi-psd-brochure-and-kastner-engagements-1969-1972-b8d001"
+peter-s-kastner,Peter S. Kastner,person,IT-research,active,,1960s-present,Known entity reused from cache. Not mentioned by name in AI document but implied as Aberdeen Group co-founder alongside Casale.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-computer-is-down-mfg-ad-1985-881b7a,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-foster-acm-speech-pr-1982-16a134,stratus-ft-market-2b-1987-da450e,stratus-newcomers-tandem-eet-1982-24ae59,stratus-olivetti-europe-1982-f4ae50,stratus-sequoia-comeback-marlboro-1987-e725fa,stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf,stratus-xa2000-launch-cw-1987-11913f,aberdeen-training-day-2-representing-abe-38ef4b,aberdeen-training-day-4-marketing-busine-601526,unisys-florida-hrs-expert-witness-tallah-5b4524,aas-launch-package-aug-2001-b4a001,aberdeen-corporate-collateral-2001-v2-b4b001,aas-operational-playbooks-aug-2001-b5a001,aas-sales-tools-pricing-aug-2001-b5b001,aberdeen-workshop-qualifying-questions-and-success-stories-2001-b6a001,aberdeen-proposal-templates-and-retainer-strategy-2001-b6b001,aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-productization-pricing-and-survey-research-program-2000-b7b001,adl-public-safety-911-cad-systems-1973-1979-b8a001,adl-commercial-engagements-kastner-1972-1979-b8b001,phi-psd-brochure-and-kastner-engagements-1969-1972-b8d001,cacustsell98-3b53c6,docucorp-3c562a,kastner-ie-v-andersen-expert-report-3de98a"
 pfizer,Pfizer Inc.,company,pharmaceuticals,active,acquired Listerine via Warner-Lambert 2000; sold Listerine to J&J 2006,1849-present,Listerine mouthwash owner in 2005 (brief; sold to J&J 2006),
 phamis,Phamis,company,Healthcare IT,acquired,IDX Systems (1997),1980s-1997,Acquired by IDX July 1997; PHAMIS-LASTWORD flagship product for large/medium HIS providers.,
 phi-computer-services,"PHI Computer Services, Inc.",company,IT-services,dissolved,unknown,unknown,Subsidiary of Wang Laboratories; Kastner Senior Programmer/Analyst 1969-1971,"phi-psd-brochure-and-kastner-engagements-1969-1972-b8d001,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001"
@@ -2326,7 +2326,7 @@ portal-software,"Portal Software, Inc.",company,ISP-billing-software,acquired,Or
 portera,Portera Systems,company,Enterprise Software / Integration,acquired,"Journyx (assets, ~2004)",1998-2004,Provided pre-integrated bundle of Oracle Financials + PeopleSoft HR + Siebel CRM as hosted solution.,
 portера,Portera,company,PSA-software,dissolved,,1998-2002,Mobile professional services software vendor; folded in dot-com bust,
 powerquest,PowerQuest,company,Storage / Disk Management Software,acquired,Symantec (acquired 2003),1990s-2003,Software partnership with Snap Appliance; disk partitioning/management tools,
-powersoft,Powersoft Corporation,company,application-development-tools,acquired,Sybase (acquired 1994); SAP (via Sybase 2010),1974-1994,PowerBuilder named as CADE competitor,
+powersoft,Powersoft Corporation,company,application-development-tools,acquired,Sybase (acquired 1994); SAP (via Sybase 2010),1974-1994,PowerBuilder named as CADE competitor,aberdeen-1995-ibm-db2-common-server
 powersoft-sybase,Sybase/Powersoft (PowerBuilder),company,development-tools,acquired,SAP SE (acquired Sybase 2010 for $5.8B),1984-2010,Powersoft (PowerBuilder creator) acquired by Sybase Nov 1994 for ~$940M; Sybase later acquired by SAP 2010.,
 powerstation-technologies-inc,Powerstation Technologies Inc.,company,computer-systems,defunct,,1990s,Canton MA technology firm; MIT Enterprise Forum case study subject,
 pragmatech-software,Pragmatech Software,company,CRM-sales-automation,acquired,Pragmatech -> Saleslogix -> Infor CRM,1996-2005,RFP and proposal automation software; CRM segment,
@@ -2349,7 +2349,7 @@ process-manufacturing-industry,Process Manufacturing Industry,institution,manufa
 procter-and-gamble,Procter & Gamble,company,Consumer Goods,active,,1837-present,Named as major Itanium user in 2003,
 procter-gamble,Procter & Gamble Co.,company,consumer-goods,active,,1837-present,P&G pioneered consumer-product rebates in the 1970s,
 progress-actional,Progress Actional,company,SOA / Web Services Governance,acquired,Progress Software / Sonic Software (2006),2000s,Listed as competitor in governance and compliance for SOA (Actional acquired by Progress Software).,
-progress-software,Progress Software Corporation,company,application-development-tools,active,,1981-present,Bedford MA; $200M revenue run rate 1995; 20% annual growth; WebSpeed product; pivoted to OpenEdge platform,aberdeen-practice-definitions-compendium-2000-b7a001
+progress-software,Progress Software Corporation,company,application-development-tools,active,,1981-present,Bedford MA; $200M revenue run rate 1995; 20% annual growth; WebSpeed product; pivoted to OpenEdge platform,"aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-intersolv-virtual-data-warehouse"
 project-tact,Project TACT (Technical Automated Compatibility Testing),company,consumer-services,dissolved,supplanted by online dating,1965-late-1960s,NYC computer-dating service founded by Altfest and Ross,
 promo-marketing-insights,Promotional Marketing Insights,firm,consulting,unknown [REVIEW],,2000s-approx,Orono MN consulting firm; CEO Hal Stinchfield quoted as 30-year rebate veteran,
 prospect-software,Prospect Software Inc.,company,CRM-software,unknown,unknown,1990s,Listed as ISV under CIS practice area,
@@ -2481,7 +2481,7 @@ ry-crozier-electronics-news,Ry Crozier,person,tech-journalism,active,,2000s-pres
 saba-software,Saba Software,company,e-learning,unknown,unknown,1997-2017,Listed as IPSP under Educational Services,
 sabre-group,"Sabre Group Holdings, Inc.",company,travel-technology,active,Sabre Corporation (2014 IPO); NASDAQ: SABR,1960-present,Airline GDS and travel-tech vendor; spun from AMR 1996,
 safenet-inc,SafeNet Inc.,company,network-security,acquired,Gemalto,1983-2014,Encryption and VPN security; acquired by Gemalto in 2014,
-safeway,Safeway Inc.,end-user,,acquired,Albertsons Companies,1915-2015,Grocery retailer; acquired by Albertsons/Cerberus 2015 for $9.4B,
+safeway,Safeway Inc.,end-user,,acquired,Albertsons Companies,1915-2015,Grocery retailer; acquired by Albertsons/Cerberus 2015 for $9.4B,safeway-damages-report-draft-b502f4
 sagent-technology,Sagent Technology,company,business-intelligence,acquired,Sagent -> Group 1 Software,1995-2003,BI and reporting tools vendor; acquired by Group 1 Software 2003,
 saic,Science Applications International Corporation (SAIC),company,defense-IT,active,,1969-present,Defense/government IT firm; profiled for energy applications; still active,
 saint-augustine-ministries,Saint Augustine Ministries,institution,civic-charitable,unknown,,1990s,Civic/charitable organization; issued Board of Directors recognition certificate to P.S. Kastner dated 20 December 1996 (frame 4 of PSK-10.tiff),
@@ -2506,9 +2506,9 @@ sanjay-kumar,Sanjay Kumar,person,enterprise-software,resigned-indicted,,1987-200
 sanjay-kumar-ca,Sanjay Kumar,person,former-executive,convicted,served federal prison sentence; released 2018,1962-present,CA CEO 2000-2004; convicted of accounting fraud 2006,
 santa-cruz-operation,Santa Cruz Operation (SCO),company,software,renamed,Sold Unix business to Caldera (2001); SCO name acquired by Caldera (renamed SCO Group); original SCO became Tarantella -> acquired by Sun 2005,1979-2004,Open Desktop (ODT); Compaq partnership origin with Xenix/Microsoft; small business primary market,
 santella-com,santella.com (JPS Rebate & Premium Fulfillment),firm,trade-publisher-security-services,unknown [REVIEW],,,Security/fraud-investigation and rebate-fulfillment trade-press publisher,
-sap,SAP SE,company,ERP-software,active,,1972-present,Certified Business Solutions for sub-$200M enterprises; Impact 06/97,"psa-category-created-hofferberth-57edb8,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2"
-sap-ag,SAP AG,company,ERP-software,active,SAP SE (renamed 2014),1972-present,Enterprise ERP competitor cited as being 'surprised' by Lawson in sales situations,aberdeen-practice-definitions-compendium-2000-b7a001
-sap-america,SAP America,company,ERP-software,active,part of SAP SE,1992-present,US subsidiary of SAP AG; launched AcceleratedSAP in mid-1996,
+sap,SAP SE,company,ERP-software,active,,1972-present,Certified Business Solutions for sub-$200M enterprises; Impact 06/97,"psa-category-created-hofferberth-57edb8,2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2,kastner-ie-v-andersen-expert-report-3de98a"
+sap-ag,SAP AG,company,ERP-software,active,SAP SE (renamed 2014),1972-present,Enterprise ERP competitor cited as being 'surprised' by Lawson in sales situations,"aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-ibm-as400-sap-r3"
+sap-america,SAP America,company,ERP-software,active,part of SAP SE,1992-present,US subsidiary of SAP AG; launched AcceleratedSAP in mid-1996,aberdeen-1995-ibm-as400-sap-r3
 sap-america-utilities,SAP America Inc.,company,enterprise-software,active,SAP SE (parent),1972-present,SAP's IS-U utility module profiled; parent SAP SE still dominant ERP vendor,
 sapiens-international,Sapiens International Corporation,company,enterprise-software,acquired,Went private via Advent acquisition at $2.5B (Dec 2025),1982-2025,Founded in Israel; listed NASDAQ:SPNS; grew from $45M to $542M revenue 2024; acquired by Advent International Dec 17 2025,
 sas-institute,SAS Institute,company,analytics-software,active,,1976-present,Decision Warehouse software partner for analytics,2004-09-intel-64bit-tipping-point-b21860
@@ -2540,7 +2540,7 @@ seattle-times,The Seattle Times,firm,regional-press,active,,1896-present,Seattle
 securities-industry-news,Securities Industry News,publication,trade-press,discontinued,,1980s-2010s,Source publication; financial-services IT trade press,
 security-dynamics,Security Dynamics Technologies,company,network-security,acquired,RSA Security (merged with RSA Data Security 1996),1984-1996,ACE/Server authentication integration with AccessBuilder 5000,
 seebeyond-technology,SeeBeyond Technology,company,EAI-software,acquired,Sun Microsystems then Oracle,1989-2004,EAI integration broker; acquired by Sun Microsystems in 2004; absorbed into Oracle,
-seer-technologies,Seer Technologies,company,enterprise-software,acquired,"Merisel (acquired), subsequently dissolved",1980s-late 1990s,Maker of Seer*HPS second-generation CADE with publish-and-subscribe messaging,
+seer-technologies,Seer Technologies,company,enterprise-software,acquired,"Merisel (acquired), subsequently dissolved",1980s-late 1990s,Maker of Seer*HPS second-generation CADE with publish-and-subscribe messaging,aberdeen-1995-ibm-db2-common-server
 sega,Sega Corporation,company,game-console,unknown,,,Game console manufacturer (exiting hardware after Dreamcast) [REVIEW],
 segue-software,Segue Software,company,software-quality-assurance,acquired,Borland (2007),1992-2007,Competitor; SilkTest product competed with SQA Robot,
 sei,Software Engineering Institute,standards-body,software-engineering,active,,1984-present,Carnegie Mellon University; developed Capability Maturity Model (CMM) used by CSC and others,
@@ -2569,7 +2569,7 @@ shiva-corporation,Shiva Corporation,company,networking-hardware,dissolved,Intel 
 shuttle-computer,Shuttle Computer Group Inc.,company,PC-manufacturing,active,,1983-present,Taiwan-based small-form-factor PC maker; pioneered XPC barebones mini-PCs 2001,
 siebel,Siebel Systems,company,CRM Software,acquired,Oracle (acquired 2006),1993-2006,CRM partner on HP Itanium platforms; major enterprise business application,
 siebel-systems,"Siebel Systems, Inc.",company,CRM-software,acquired,Oracle Corporation (acquired 2006 for $5.8B),1993-2006,Became dominant CRM vendor; acquired by Oracle. Profiled in study.,
-siemens,Siemens AG,company,IT-systems,active,,1847-present,Named UNIX marketplace competitor,
+siemens,Siemens AG,company,IT-systems,active,,1847-present,Named UNIX marketplace competitor,aberdeen-1995-ibm-as400-sap-r3
 siemens-bcs,Siemens Business Communication Systems,company,telecommunications,merged,Siemens Enterprise Networks -> Unify -> Atos,1991-2016,Enterprise telecom division of Siemens; sold to Gores Group; became Unify; acquired by Atos in 2016,
 siemens-business-services,Siemens Business Services,company,IT Services,unknown,,1995-2011,Joint research partner on PC disposal-timing study with Aberdeen and Intel. [REVIEW],
 siemens-nixdorf,Siemens Nixdorf Information Systems (SNI),company,computer-hardware,merged,Fujitsu Siemens Computers (later Fujitsu),1990-1999,Parent company of SNI/Pyramid; European market leader in systems integration,
@@ -2597,7 +2597,7 @@ sni-pyramid,SNI/Pyramid (Siemens Nixdorf Information Systems / Pyramid Technolog
 snia,SNIA (Storage Networking Industry Association),institution,Storage Industry,active,unknown,,Target audience for Pools of Storage evangelism program,
 soft-mountain,Soft Mountain,company,telecom-middleware,unknown,,1994-2000s,Developer of event-driven Java software for telecom network integration; no acquisition or dissolution record found in public sources; likely a small startup that did not survive the dot-com era,
 softtek,Softtek,company,IT Outsourcing / Near-Shore Services,active,,1982-present,"Underwriter; Near Shore® model pioneer; 24+ years; 4,000+ employees; 7 Service Delivery Centers in Mexico, Brazil, Spain; cited as 'only non-Indian vendor to pose serious competition' in offshore outsourcing.",
-software-ag,Software AG,company,database-software,active,Silver Lake-owned (2023); now Software AG GmbH,1969-present,German software company; ADABAS D RDBMS; acquired by Silver Lake for €2.2B in 2023; reorganized as GmbH in 2024; ADABAS/Natural being spun off 2025,
+software-ag,Software AG,company,database-software,active,Silver Lake-owned (2023); now Software AG GmbH,1969-present,German software company; ADABAS D RDBMS; acquired by Silver Lake for €2.2B in 2023; reorganized as GmbH in 2024; ADABAS/Natural being spun off 2025,aberdeen-1995-limd-technology
 solect,Solect,company,ISP-billing-software,dissolved,unknown,unknown,Toronto-based; targeted smaller ISPs up to 30K subscribers; single-server limitation,
 solomon-software,Solomon Software,company,erp-software,acquired,Great Plains (2000) -> Microsoft,1980-2000,"ERP acquired by Great Plains, then rolled into Microsoft Business Solutions",
 somers,IBM Somers (analyst relations team),institution,IBM Analyst Relations,unknown,,2000s,IBM Somers (NY) facility; target for Aberdeen en masse capabilities briefings. [REVIEW],
@@ -2670,7 +2670,7 @@ stuart-j-johnston-journalist,Stuart J. Johnston,person,journalist,active,,1990s-
 stuart-johnston-iw,Stuart J. Johnston,person,tech-journalism,active,,1990s-present,InformationWeek Microsoft beat reporter,
 sultan-bin-sulayem,Sultan bin Sulayem,person,government-ports,active,,1980s-present,Chairman and Managing Director of Dubai Ports Authority and Jebel Ali Free Zone Authority; chief guest at reception,
 summit-strategies,Summit Strategies,firm,IT-research,unknown,,1990s-2000s,"Kirkland, WA technology research firm",
-sun-microsystems,Sun Microsystems Computer Company (SMCC),company,computer-hardware-software,acquired,Oracle Corporation (2010),1982-2010,Founded 1982; acquired by Oracle in January 2010 for $7.4B ($5.6B net); Java and Solaris key assets retained by Oracle,"1999-01-linuxcare-draft-profile-6828c0,aberdeen-practice-definitions-compendium-2000-b7a001"
+sun-microsystems,Sun Microsystems Computer Company (SMCC),company,computer-hardware-software,acquired,Oracle Corporation (2010),1982-2010,Founded 1982; acquired by Oracle in January 2010 for $7.4B ($5.6B net); Java and Solaris key assets retained by Oracle,"1999-01-linuxcare-draft-profile-6828c0,aberdeen-practice-definitions-compendium-2000-b7a001,safeway-damages-report-draft-b502f4,aberdeen-1995-limd-technology"
 sungard,SunGard Data Systems,company,IT Services / Disaster Recovery,unknown,unknown,1983-2015,Disaster recovery and high availability services; listed in vendor segment matrix.,
 sunplus-technologies,Sunplus Technologies,company,semiconductors,active,,1990-,Taiwanese SoC/IC designer; barred employee travel to PRC/HK.,
 sunsoft,SunSoft Inc.,company,Software / Java Development,dissolved,Sun Microsystems,1990-1999,Software subsidiary of Sun Microsystems; Java Workshop RAD tool; Visual Workshop for C++ on Solaris,
@@ -2683,8 +2683,8 @@ susan-l-irving,Susan L. Irving,person,IT-analyst,active,,1990s-present,"Aberdeen
 susan-rinehart,Susan Rinehart,person,Aberdeen Marketing,unknown [REVIEW],,1990s,Aberdeen contact: rinehart@aberdeen.com,
 suse,SUSE Linux,company,linux-distributions,active,,1992-present,Major European Linux distributor; currently independent company listed on Frankfurt Stock Exchange,
 sven-aamodt,Sven Aamodt,person,database-executive,active,,1990s-present,"Technical Director, Oracle Norge AS, 1992; lecturer on RDBMS-OLTP synergy",
-sybase,"Sybase, Inc.",company,database-software,acquired,SAP,1984-2010,Decision Warehouse RDBMS partner; acquired by SAP 2010,1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8
-sybase-inc,Sybase Inc.,company,Database Software,dissolved,unknown,1984-2010,"Adaptive Server family: Enterprise 11.5, IQ 11.5 (data warehousing), Anywhere (mobile); originally licensed SQL Server code to Microsoft; best vertical scalability claim",aberdeen-practice-definitions-compendium-2000-b7a001
+sybase,"Sybase, Inc.",company,database-software,acquired,SAP,1984-2010,Decision Warehouse RDBMS partner; acquired by SAP 2010,"1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8,aberdeen-1995-ibm-db2-common-server,aberdeen-1995-limd-technology"
+sybase-inc,Sybase Inc.,company,Database Software,dissolved,unknown,1984-2010,"Adaptive Server family: Enterprise 11.5, IQ 11.5 (data warehousing), Anywhere (mobile); originally licensed SQL Server code to Microsoft; best vertical scalability claim","aberdeen-practice-definitions-compendium-2000-b7a001,aberdeen-1995-digital-linkworks"
 syllogic,Syllogic,company,data-mining-software,dissolved,,1990s-2000s,Syllogic Datamining Tool/MP; European firm; dissolved or absorbed,
 symantec,Symantec (Cafe/Visual Cafe),company,development-tools,active,NortonLifeLock (2019) -> Gen Digital (2022),1982-present,Cited as next-gen CADE scaling first-generation CADEs; later pivoted to security software.,
 symantec-corp,Symantec Corporation,company,cybersecurity,split,"NortonLifeLock (consumer) + Broadcom Software (enterprise, 2019)",1982-2019,Security software vendor; enterprise business sold to Broadcom 2019,
@@ -2708,7 +2708,7 @@ taiwan-semiconductor,Taiwan Semiconductor (TSMC),company,Semiconductor Fabricati
 taligent,Taligent,company,Object-Oriented Software,dissolved,"IBM (1998, absorbed)",1992-1998,Role: partner; Status: dissolved; HQ: USA. IBM/Apple/HP joint venture dissolved January 1998; engineering teams absorbed into IBM,
 talx-corporation,TALX Corporation,company,hr-technology,acquired,TALX -> Equifax,1969-2007,HR content/IVR for PeopleSoft; acquired by Equifax for $1.4B in 2007,
 tandem-computer,Tandem Computer Corporation,company,IT-hardware,acquired,Compaq Computer Corporation (1997),1974-1997,Acquired by Compaq June 1997 for ~$3B; note: report refers to 'Tandem' as Compaq Professional Services,
-tandem-computers,Tandem Computers,company,computing,acquired,"Compaq (1997), then HP",1974-1997,Referenced as real-world example of cost-push mode; Tech Group report on Tandem dated December 16 1982 cross-referenced.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-ft-market-2b-1987-da450e,stratus-ft-market-continued-1987-5105d7,stratus-newcomers-tandem-eet-1982-24ae59,stratus-xa2000-launch-cw-1987-11913f"
+tandem-computers,Tandem Computers,company,computing,acquired,"Compaq (1997), then HP",1974-1997,Referenced as real-world example of cost-push mode; Tech Group report on Tandem dated December 16 1982 cross-referenced.,"stratus-banks-on-ft-cbn-1982-38dc47,stratus-fault-tolerant-mkt-info-systems-1984-eb925f,stratus-ft-market-2b-1987-da450e,stratus-ft-market-continued-1987-5105d7,stratus-newcomers-tandem-eet-1982-24ae59,stratus-xa2000-launch-cw-1987-11913f,aberdeen-1995-digital-objectbroker,aberdeen-1995-limd-technology"
 tanveer-khan,Tanveer Khan,person,IT-leadership,active,,1990s-2000s,VP technology at Answer Financial 1999 (per InformationWeek IBM NT clusters story); 25+ years supply-chain and strategic-sourcing career (verified 2026-04 via LinkedIn),
 tbr-research,Technology Business Research,firm,industry-analyst,active,,1979-present,New Hampshire-based IT research firm,
 tca-fulfillment,TCA Fulfillment Services,company,rebate-processing,acquired,Parago (customer list acquired Dec 2004),unknown-2004,New Rochelle NY rebate processor that published 'Rebate Redemption Guide' with 10-35% expected rates,
@@ -2716,7 +2716,7 @@ tcs,Tata Consultancy Services (TCS),company,IT-services,active,,1968-present,Tat
 tcs-ltd,Tata Consultancy Services,company,IT-services,active,,1968-present,Mumbai-based largest Indian IT-services firm; Tata Group,
 td-waterhouse,T.D. Waterhouse,company,broker-dealer,merged,TD Ameritrade (2006) → Schwab (2020),1979-2006,Compaq Himalaya customer,
 teamquest-corp,TeamQuest Corporation,company,systems-management-software,acquired,Helpsystems / Fortra (2018),1991-2018,"Clear Lake IA performance-management software vendor; acquired by Helpsystems 2018, now Fortra",
-tech-data,Tech Data Corporation,company,IT-distribution,active,,1974-present,Named premier CiscoPro distribution partner,
+tech-data,Tech Data Corporation,company,IT-distribution,active,,1974-present,Named premier CiscoPro distribution partner,kastner-ie-v-andersen-expert-report-3de98a
 tech-depot,Tech Depot,company,PC-retail,unknown,,,PC retail channel tracked in 2002-2003 pricing data; sku listings: 1 [REVIEW],
 tech-pinions,Tech.pinions,institution,Tech Commentary Publisher,active,,2011-present,Publication venue; Creative Strategies partner,
 technewsworld,TechNewsWorld / ECT News Network,firm,news-media,active,,2000-present,"IT news publication; part of ECT News Network (E-Commerce Times, LinuxInsider, CRM Buyer)",
@@ -2806,7 +2806,7 @@ trade-ex,TRADE'ex,company,B2B-ecommerce,unknown,,1990s,EC supplier profiled; fat
 tradeex,TRADE'ex Electronic Commerce Systems Inc.,company,Internet Software / e-Commerce,unknown,unknown,1990s-2000s,Pure Java thin client; sales and procurement for TCP/IP extranets; UPS logistics integration; Tampa FL,
 transaction-processing-council,Transaction Processing Performance Council (TPC),institution,IT-standards,active,,1988-present,Independent benchmarking organization; TPC-C benchmark used throughout study,
 transaction-processing-performance-council,Transaction Processing Performance Council (TPC),institution,standards-body,active,[none],1988-present,Owns TPC Benchmark A trademark; Waterside Associates (Menlo Park CA) administers benchmark specification,
-transarc,,,,acquired,,,,
+transarc,,,,acquired,,,,aberdeen-1995-ibm-db2-common-server
 transarc-corp,Transarc Corporation,company,transaction-processing,acquired,IBM (1994),1989-1994,Encina TP monitor and AFS file system; CMU spinout,
 transarc-corporation,Transarc Corporation,company,distributed-systems-software,acquired,IBM (1994),1989-1999,Encina TP monitor vendor; CMU spinout; later IBM,
 transenergy-management,TransEnergy Management Inc.,company,energy-trading-software,unknown,,1990s,Energy transaction management software vendor; fate unknown,
@@ -2837,7 +2837,7 @@ ulma-gonzalez,Ulma Gonzalez,person,public-sector-IT,active-then,,1990s-2000s,"Di
 uniface,Uniface,company,software,acquired,Compuware (acquired 1994); then Rocket Software acquired Compuware's Uniface unit,1986-present,Middleware leader for distributed client-server applications,
 unify-corporation,Unify Corporation,company,software-development-tools,dissolved,Daegis Inc. (2011); tools division renamed Gupta Technologies (2012),1980-2011,Founded 1980; released VISION 4GL tool; HQ moved to San Jose 1995; accounting fraud scandal 2000; CEO convicted 2003; delisted from Nasdaq; reacquired listing 2008; acquired Daegis 2010; renamed Daegis 2011,
 uniprise,Uniprise,company,healthcare-it,acquired,UnitedHealth Group,1990-2004,HP strategic alliance partner for database object repository; subsidiary of UnitedHealth Group,
-unisys,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from merger of Sperry and Burroughs; reorganized 1995 into three groups; ClearPath Forward still active 2026,unisys-florida-hrs-expert-witness-tallah-5b4524
+unisys,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from merger of Sperry and Burroughs; reorganized 1995 into three groups; ClearPath Forward still active 2026,"unisys-florida-hrs-expert-witness-tallah-5b4524,aberdeen-1995-ibm-as400-sap-r3"
 unisys-corporation,Unisys Corporation,company,enterprise-computing,active,,1986-present,Formed 1986 from Burroughs + Sperry merger; Blue Bell PA HQ; $6.2B revenue 1995; transitioning to services; ClearPath still active 2024,aberdeen-practice-definitions-compendium-2000-b7a001
 unisys-utilities,Unisys Corporation,company,enterprise-IT,active,,1986-present,IT services for utilities; Unisys still active public company,
 united-stationers-supply,"United Stationers Supply Co., Inc.",company,wholesale-distribution,active,Now Essendant,1922-present,Des Plaines IL; cited 1997 Y2K piece,
@@ -2930,7 +2930,7 @@ wael-h-bahaa-el-din,Wael H. Bahaa-El-Din,person,database-performance,unknown,[no
 wainhouse-research,Wainhouse Research,firm,IT-research,acquired,Acquired by Futuresource Consulting,1990s-present,Brookline MA conferencing-industry analyst firm; Andrew Davis managing partner,
 wall-data,Wall Data Incorporated,company,terminal-emulation-software,acquired,NetManage (2003); dissolved,1982-2003,"Maker of Rumba terminal emulator, bundled with Multia as an Information Access product",
 wall-street-journal,The Wall Street Journal,institution,news-media,active,,1889-present,Dow Jones newspaper,
-walmart,"Wal-Mart Stores, Inc.",company,retail,active,"Walmart, Inc.",1962-present,Used as example: Wal-Mart requiring Y2K readiness proof from vendors,
+walmart,"Wal-Mart Stores, Inc.",company,retail,active,"Walmart, Inc.",1962-present,Used as example: Wal-Mart requiring Y2K readiness proof from vendors,safeway-damages-report-draft-b502f4
 walt-kohler,Walt Kohler,person,computer-systems-engineering,active,,1980s-present,DEC HPS/OLTP Systems Performance Analysis Group; co-author of guidelines,
 walter-h-kohler,Walter H. Kohler,person,performance-engineering,unknown,[none],1988-1991,Software engineering senior manager responsible for TP system performance measurement; leads Digital's TP benchmark standards activities; prior professor at University of Massachusetts Amherst; IEEE/CS Meritorious Service Award recipient,
 walter-hewlett,Walter Hewlett,person,technology-executive,active,,,HP dissident director; led proxy battle against Compaq merger,
@@ -2962,7 +2962,7 @@ whittman-hart,Whittman-Hart,company,IT-consulting,merged,"marchFIRST (merged 200
 who,World Health Organization,agency,global-health,active,,1948-present,Implicit subject of 'aggressive public health actions',
 who-world-health-organization,World Health Organization,institution,public-health,active,,1948-present,WHO declared SARS a global health threat in March 2003,
 wi-fi-alliance,Wi-Fi Alliance,institution,industry-consortium,active,,1999-present,"Industry group certifying Wi-Fi interoperability; coined ""Wi-Fi"" brand",
-willbern-group,The Willbern Group,analyst,,dissolved,,1990s-2000s,One-person consulting firm; reviewed Andersen's IE/2000 work,
+willbern-group,The Willbern Group,analyst,,dissolved,,1990s-2000s,One-person consulting firm; reviewed Andersen's IE/2000 work,kastner-ie-v-andersen-expert-report-3de98a
 william-a-laing,William A. Laing,person,operating-systems,unknown,[none],1981-1991,Senior consultant engineer based in Newbury England; technical leader for VMS production systems; designed SMP support for VMS; responsible for DECdtm design and implementation,
 william-bulkeley,William M. Bulkeley,person,journalism,active-then,,1980s-2010s,WSJ staff reporter; covered IBM and computer industry,
 william-e-foster,William E. Foster,person,computer-executive,active,,1970s-present,"Stratus co-founder and President; ex-Data General VP Software, ex-HP Computer Systems Engineering Manager","stratus-foster-acm-speech-pr-1982-16a134,stratus-xa2000-launch-cw-1987-11913f"
@@ -3179,3 +3179,21 @@ nasa,NASA,agency,federal,operating,[DEFERRED],1958-present,PHI client per Kenney
 hill-holliday,Hill Holliday,company,advertising,operating,[DEFERRED],1968-present,Wang's advertising agency; produced 1978 Super Bowl pregame ad.,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001
 cbs,CBS,company,broadcasting,operating,[DEFERRED],1927-present,Aired the 1978 Wang Super Bowl ad.,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001
 moodys,Moody's Investors Service,company,credit-rating,operating,[DEFERRED],1909-present,Wang Labs B-stock-offering analyst presentation venue.,phi-legacy-in-wang-labs-runaway-horse-1995-b8e001
+lotus-development-corporation,Lotus Development Corporation,organization,,acquired,,,"role=competitor-referenced; status_note=Acquired by IBM in 1995 for $3.5 billion; Lotus Notes evolved into HCL Notes after HCL Technologies acquired the product from IBM in 2019.; hq_location=Cambridge, MA, USA",aberdeen-1995-digital-linkworks
+informix-corporation,Informix Corporation,organization,,acquired,,,"role=technology-partner; status_note=Acquired by IBM in 2001 for approximately $1 billion; Informix database product line continues under IBM.; hq_location=Menlo Park, CA, USA",aberdeen-1995-digital-linkworks
+computer-associates-international-ca-ingres,Computer Associates International (CA Ingres),organization,,rebranded,,,"role=technology-partner; status_note=CA Technologies rebranded as Broadcom Software after Broadcom acquired CA in 2018; CA Ingres database product originally from Ingres Corporation, later CA.; hq_location=Islandia, NY, USA",aberdeen-1995-digital-linkworks
+compaq-computer-corporation,Compaq Computer Corporation,organization,,acquired,,,"role=future-acquirer; status_note=Acquired Digital Equipment Corporation in 1998; itself acquired by HP in 2002.; hq_location=Houston, TX, USA",aberdeen-1995-digital-linkworks
+hewlett-packard-company,Hewlett-Packard Company,organization,,active,,,"role=platform-vendor-referenced; status_note=Split into HP Inc. and Hewlett Packard Enterprise in 2015; both entities remain active as of 2026.; hq_location=Palo Alto, CA, USA",aberdeen-1995-digital-linkworks
+logica-north-america-inc,Logica North America Inc,si-partner,,active,,,role_in_study=platform-port-partner; status_notes=Logica merged with / acquired by CGI Group (Canada) in August 2012 for £1.7 billion. Logica brand retired March 2013.; hq_location=UK/North America; source_url=https://en.wikipedia.org/wiki/Logica; status_at_pub=active; status_current=merged,aberdeen-1995-digital-objectbroker
+protosoft-inc,Protosoft Inc,vendor,,active,,,"role_in_study=tooling-partner; status_notes=Protosoft (Paradigm Plus) acquired by Platinum Technology for $40 million in November 1995 — just months after this study was published. Platinum Technology itself acquired by Computer Associates in March 1999 for $3.5 billion.; hq_location=Houston, TX; source_url=https://techmonitor.ai/technology/platinum_gets_acquisition_second_wind_takes_out_softool_protosoft; status_at_pub=active; status_current=acquired",aberdeen-1995-digital-objectbroker
+the-cushing-group,The Cushing Group,si-partner,,active,,,"role_in_study=service-partner; status_notes=Small professional services firm mentioned as an ObjectBroker partner; current status not determined.; hq_location=Nashua, NH; status_at_pub=active; status_current=unknown",aberdeen-1995-digital-objectbroker
+netlinks-technology,NetLinks Technology,si-partner,,active,,,"role_in_study=service-partner; status_notes=Small professional services firm mentioned as an ObjectBroker partner; current status not determined.; hq_location=Nashua, NH; status_at_pub=active; status_current=unknown",aberdeen-1995-digital-objectbroker
+linkvest,Linkvest,si-partner,,active,,,role_in_study=service-partner-europe; status_notes=European service partner for ObjectBroker; current status not determined.; hq_location=Europe; status_at_pub=active; status_current=unknown,aberdeen-1995-digital-objectbroker
+intersolv-inc,Intersolv Inc.,vendor,,acquired,,,"status_detail=Acquired by Micro Focus in 1998 for $534M; combined entity renamed Merant; DataDirect product line later spun off and acquired by Progress Software in 2003.; hq_location=Rockville, Maryland, USA; description=Developer of ODBC drivers, data access, and the Virtual Data Warehouse solution. Formed from merger of Sage Software and Index Technologies in 1991.; status_source_url=https://www.edm2.com/index.php/Intersolv",aberdeen-1995-intersolv-virtual-data-warehouse
+techgnosis-international,TechGnosis International,vendor,,acquired,,,"status_detail=Acquired by Intersolv on October 23, 1995 for approximately $80 million.; hq_location=Brussels, Belgium; description=Brussels, Belgium-based developer of SequeLink, a server-based database-independent architecture for client-server connectivity. Had approximately 4,000 customers at time of acquisition.; status_source_url=https://www.washingtonpost.com/archive/business/1995/11/20/intersolv-buys-its-way-up-the-software-ladder/e7fd6b8a-11cb-4af5-9088-972a85f6a71f/",aberdeen-1995-intersolv-virtual-data-warehouse
+cognos-corp,Cognos Corp.,vendor,,acquired,,,"status_detail=Acquired by IBM in January 2008 for approximately $5 billion; now operates as IBM Cognos.; hq_location=Ottawa, Ontario, Canada; description=Business intelligence vendor offering Impromptu query and reporting tool and Powerplay multidimensional database.; status_source_url=https://www.ibm.com/investor/att/pdf/ircorner/08-04-03-1.pdf",aberdeen-1995-intersolv-virtual-data-warehouse
+datadirect-technologies,DataDirect Technologies,vendor,,active,,,"status_detail=DataDirect brand survived Intersolv/Merant/Micro Focus transitions; acquired by Progress Software in 2003 for $88M; still active as Progress DataDirect.; hq_location=Rockville, Maryland, USA; description=Brand name for Intersolv's ODBC driver and data access product line, including SmartData, Explorer, ODBC Pack, and SequeLink.; status_source_url=https://goldengatecap.com/progress-software-completes-acquisition-of-datadirect/",aberdeen-1995-intersolv-virtual-data-warehouse
+silicon-graphics-inc-sgi,Silicon Graphics Inc. (SGI),hardware-vendor,,defunct,,1982-,role_in_study=subject; status_notes=Filed bankruptcy 2009; assets acquired by Rackable Systems (renamed SGI); that SGI acquired by HPE 2016; hq_country=US; acquired_by=HPE,aberdeen-1995-limd-technology
+hewlett-packard-hp,Hewlett-Packard (HP),hardware-vendor,,active,,1939-,role_in_study=subject; status_notes=HP Inc. and Hewlett Packard Enterprise split 2015; both active; hq_country=US,aberdeen-1995-limd-technology
+ca-ingres,CA-Ingres,software-vendor,,rebranded,,1980-,role_in_study=subject; status_notes=Became Actian Corporation 2011; hq_country=US,aberdeen-1995-limd-technology
+aberdeen-group-publisher,Aberdeen Group (publisher),analyst-firm,,acquired,,1988-,role_in_study=publisher; status_notes=Publisher of the study; same as ENT001; hq_country=US,aberdeen-1995-limd-technology

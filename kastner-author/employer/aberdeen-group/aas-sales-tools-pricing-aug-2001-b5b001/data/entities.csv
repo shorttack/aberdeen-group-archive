@@ -1,5 +1,5 @@
 "entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
-"aberdeen-group-inc","Aberdeen Group, Inc.","company","IT-research-and-advisory","dissolved","Harte-Hanks -> Aberdeen (rebranded)","1988-2014","aas-sales-tools-pricing-aug-2001-b5b001","Primary subject; issuer of pricing memo and sales templates"
+"aberdeen-group","Aberdeen Group, Inc.","company","IT-research-and-advisory","dissolved","Harte-Hanks -> Aberdeen (rebranded)","1988-2014","aas-sales-tools-pricing-aug-2001-b5b001","Primary subject; issuer of pricing memo and sales templates"
 "peter-s-kastner","Peter S. Kastner","person","IT-research-and-advisory","active","","1988-present","aas-sales-tools-pricing-aug-2001-b5b001","Author of August 11, 2001 repricing memo; AAS program owner"
 "alschuler-aberdeen","Alschuler e-Business@Aberdeen Practice","firm","IT-research-and-advisory","[DEFERRED]","","~2001","aas-sales-tools-pricing-aug-2001-b5b001","Named retainer type in repricing memo; Liz Alschuler practice line"
 "liz-alschuler","Liz Alschuler","person","IT-research-and-advisory","[DEFERRED]","","~2001","aas-sales-tools-pricing-aug-2001-b5b001","Head of e-Business@Aberdeen practice; named in repricing memo retainer type"

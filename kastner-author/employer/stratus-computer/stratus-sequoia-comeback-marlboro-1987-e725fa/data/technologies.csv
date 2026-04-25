@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"oltp-online-transaction-processing","OLTP (online transaction processing)","computing-pattern","industry","1970s-present","production","mature","stratus-sequoia-comeback-marlboro-1987-e725fa","Sequoia 200 series, Stratus, IBM System/88 all targeting this segment"
+"ibm-system-88","IBM System/88","computing-system","IBM","1986-1990s","production","obsolete","stratus-sequoia-comeback-marlboro-1987-e725fa","Rebranded Stratus systems sold/resold by IBM under 1987 OEM agreement"
+"sequoia-200-series","Sequoia 200 series","computing-system","Sequoia Systems","1987","production","obsolete","stratus-sequoia-comeback-marlboro-1987-e725fa","Released October 1987 at $350,000; conceived 1982 with 'string of false starts'"

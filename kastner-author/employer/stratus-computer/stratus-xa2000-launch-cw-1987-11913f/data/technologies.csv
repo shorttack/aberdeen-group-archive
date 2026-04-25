@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-xa2000-family","Stratus XA2000 family","computing-system","Stratus Computer","1987-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","Models 110/120/130/140; Motorola 68020 16-MHz + 68881; single 40-slot chassis; online upgrades"
+"stratus-vos","Stratus VOS Release 6.0","operating-system","Stratus Computer","1980s-present","production","mature","stratus-xa2000-launch-cw-1987-11913f","Release 6.0 with 32-bit data path + math coprocessor; eventually became Stratus' durable proprietary FT OS"
+"ibm-system-88","IBM System/88","computing-system","IBM","1986-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","IBM-rebranded Stratus systems; XA2000 expected to be added Feb 1987"
+"tandem-nonstop-vlx","Tandem NonStop VLX","computing-system","Tandem Computers","1986-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","Tandem flagship 50+ TPS; primary XA2000 competitor"
+"motorola-68020","Motorola 68020","microprocessor","Motorola","1984-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","16-MHz; XA2000 base CPU"
+"motorola-68881","Motorola 68881 math coprocessor","microprocessor","Motorola","1984-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","Floating-point coprocessor; financial-modeling target"
+"ibm-3090","IBM 3090","computing-system","IBM","1985-1990s","production","obsolete","stratus-xa2000-launch-cw-1987-11913f","Mainframe class against which XA2000 high-end positioned"

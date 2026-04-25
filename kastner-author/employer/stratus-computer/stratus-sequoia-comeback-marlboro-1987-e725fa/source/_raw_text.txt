@@ -1,0 +1,26 @@
+TITLE: Sequoia Surprises Competition With Comeback — Marlboro Enterprise / Hudson Daily Sun, 16 October 1987 (PSK at Stratus quoted)
+AUTHOR: Scott McLennan (Marlboro Enterprise / Hudson Daily Sun)
+DATE: 1987-10-16
+SOURCE: image00002-3.jpg
+
+ABSTRACT:
+Local-paper feature article reporting on Sequoia Systems Inc.'s revival after near-collapse in summer 1987 (down to 58 employees from 100; saved by $15M financing led by new COO Gabe Fusco, ex-IBM 26-year veteran). Sequoia unveiled an updated 200-series OLTP product at $350,000. Article quotes Stratus Computer's Peter Kastner — "manager of marketing and development at Stratus" — as a competitor commentator: he describes IBM as controlling ~55% of the $17-billion-a-year OLTP market, notes IBM's 1987 nod of recognition to Stratus by agreeing to 'buy and resell' Stratus products, frames OLTP as the fastest growing segment of the computer industry, characterizes computer companies as being 'in the business of solving problems' where success depends on solutions, observes the marketplace is unforgiving and easy to run out of money in. Sequoia VP Marketing Nicholas Bologna comments on differentiation, niche strategy, the 1981 founding/1984 100-series release/1987 200-series, and OLTP applications (ATMs, airline ticketing, telephone). Closing Kastner quote: "We wish Sequoia the best of luck, but we will compete with them vigorously."
+
+KEY OBSERVATIONS (from Phase 1 analysis):
+- OLTP market 1987 size: $17 billion/year per Stratus (Kastner)
+- IBM OLTP share: ~55% of OLTP market 1987 per Stratus (Kastner)
+- IBM-Stratus OEM agreement: IBM agreed in 1987 to buy and resell Stratus products — first time IBM had turned to another vendor for hardware/software OLTP products
+- OLTP growth: OLTP is the fastest growing segment of the computer industry
+- Computer industry success criterion: Computer companies are in the business of solving problems, and success is dependent upon solutions; a better abstract idea is not going to have customers beating a trail to your door
+- Stratus market position vs Sequoia: Stratus has the upper hand in the OLTP market; the company does not intend to complacently watch Sequoia
+- Marketplace unforgiving: The marketplace tends to be unforgiving, and its easy to run out of money
+
+KASTNER DIRECT QUOTES:
+"OLTP production is the fastest growing segment of the computer industry"
+  Context: According to Peter Kastner, manager of marketing and development at Stratus.
+"Computer companies are in the business of solving problems, and success is dependent upon solutions. A better abstract idea is not going to have customers beating a trail to your door"
+  Context: Kastner's commentary on the computer industry's value structure, in the context of Sequoia's near-collapse and revival.
+"The market place tends to be unforgiving, and its easy to run out of money"
+  Context: Kastner's commentary on Sequoia Systems' near-collapse and revival, framing the broader fault-tolerant market dynamics.
+"We wish Sequoia the best of luck, but we will compete with them vigorously"
+  Context: Kastner's closing comment in the article on Stratus' competitive intent toward Sequoia post-revival.

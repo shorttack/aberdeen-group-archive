@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"parallel-processing","Parallel processing (multi-chip)","computing-pattern","industry","1980s-present","emerging-1982","mature","stratus-foster-acm-speech-pr-1982-16a134","Foster's ACM 1982 keynote thesis: vanishing central processor; chips as building block"
+"vanishing-central-processor","Vanishing central processor (Foster thesis)","computing-pattern","industry","1980s-present","emerging-1982","mature","stratus-foster-acm-speech-pr-1982-16a134","Conceptual frame for distributed/parallel systems"
+"stratus-32","Stratus/32 Continuous Processing","computing-system","Stratus Computer","1981-1985","production","obsolete","stratus-foster-acm-speech-pr-1982-16a134","Foster's product reference"

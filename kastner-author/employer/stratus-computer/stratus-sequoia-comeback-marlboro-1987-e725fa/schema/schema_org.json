@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Sequoia Surprises Competition With Comeback \u2014 Marlboro Enterprise / Hudson Daily Sun, 16 October 1987 (PSK at Stratus quoted)",
+  "description": "Local-paper feature article reporting on Sequoia Systems Inc.'s revival after near-collapse in summer 1987 (down to 58 employees from 100; saved by $15M financing led by new COO Gabe Fusco, ex-IBM 26-year veteran). Sequoia unveiled an updated 200-series OLTP product at $350,000. Article quotes Stratus Computer's Peter Kastner \u2014 \"manager of marketing and development at Stratus\" \u2014 as a competitor commentator: he describes IBM as controlling ~55% of the $17-billion-a-year OLTP market, notes IBM's 1987 nod of recognition to Stratus by agreeing to 'buy and resell' Stratus products, frames OLTP as the fastest growing segment of the computer industry, characterizes computer companies as being 'in the business of solving problems' where success depends on solutions, observes the marketplace is unforgiving and easy to run out of money in. Sequoia VP Marketing Nicholas Bologna comments on differentiation, niche strategy, the 1981 founding/1984 100-series release/1987 200-series, and OLTP applications (ATMs, airline ticketing, telephone). Closing Kastner quote: \"We wish Sequoia the best of luck, but we will compete with them vigorously.\"",
+  "creator": {
+    "@type": "Person",
+    "name": "Scott McLennan (Marlboro Enterprise / Hudson Daily Sun)"
+  },
+  "datePublished": "1987-10-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

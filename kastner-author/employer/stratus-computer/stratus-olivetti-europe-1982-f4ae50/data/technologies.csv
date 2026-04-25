@@ -1,0 +1,3 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-32","Stratus/32 Continuous Processing System","computing-system","Stratus Computer","1981-1985","production","obsolete","stratus-olivetti-europe-1982-f4ae50","32-bit super mini fault-tolerant; first product; $150K-$300K"
+"oem-integration-channel","OEM integration channel (Stratus-into-Olivetti)","channel-pattern","industry","1980s-present","production","mature","stratus-olivetti-europe-1982-f4ae50","Stratus-32 as core of Olivetti's own systems"

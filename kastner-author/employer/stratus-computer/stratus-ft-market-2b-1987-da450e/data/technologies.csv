@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"disaster-recovery-services","Disaster recovery services (Hot/Cold Sites)","service-pattern","industry","1980s-present","production","mature","stratus-ft-market-2b-1987-da450e","End-user revenue forecast $140M (1987) -> $340M (1997)"
+"ft-pos-systems","Fault-tolerant POS systems","computing-system","industry","1980s-present","production","mature","stratus-ft-market-2b-1987-da450e","$25-45K range; NCR pushing"
+"oltp-online-transaction-processing","OLTP (online transaction processing)","computing-pattern","industry","1970s-present","production","mature","stratus-ft-market-2b-1987-da450e","Brokerage/financial-services dominant FT segment"

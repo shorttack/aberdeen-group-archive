@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Fault Tolerant \u2014 continued (NCR, Tandem low-cost, Tolerant Systems) \u2014 trade press, 1987 (companion clipping)",
+  "description": "Continuation clipping (page 14) of the 1987 fault-tolerant market article (companion to image00003 / 'Fault-tolerant market to hit $2 billion in 87'). Reports on three developments expanding the FT market beyond the traditional Stratus/Tandem high-end duopoly: (1) NCR pushing FT into its bread-and-butter POS market with $25,000-$45,000 low-cost FT POS systems \u2014 a far cry from top-of-the-line Stratus and Tandem systems costing more than $1M; (2) Tandem recently introducing a series of low-cost systems with expandable processor counts to defend the low end; (3) Santa Cruz CA-based Parallel Computers targeting Unix-based FT systems at telecom and law enforcement; (4) New entrant Tolerant Systems Inc. of San Jose ambitiously aiming low-cost systems at banking, telecommunications, manufacturing, and the federal government.",
+  "creator": {
+    "@type": "Person",
+    "name": "S.K. (staff)"
+  },
+  "datePublished": "1987-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

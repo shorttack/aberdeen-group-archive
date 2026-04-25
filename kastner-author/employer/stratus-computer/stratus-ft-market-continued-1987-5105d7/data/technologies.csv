@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"ft-pos-systems","Fault-tolerant POS systems","computing-system","industry","1980s-present","production","mature","stratus-ft-market-continued-1987-5105d7","$25-45K NCR systems; commoditizing FT"
+"unix-fault-tolerant","Unix-based fault-tolerant systems","operating-system","industry","1980s-1990s","production","obsolete","stratus-ft-market-continued-1987-5105d7","Parallel Computers, Tolerant Systems approach"
+"expandable-processor-count","Expandable processor count (Tandem low-cost)","architecture","Tandem Computers","1987","production","obsolete","stratus-ft-market-continued-1987-5105d7","1987 product family extending FT to lower price points"

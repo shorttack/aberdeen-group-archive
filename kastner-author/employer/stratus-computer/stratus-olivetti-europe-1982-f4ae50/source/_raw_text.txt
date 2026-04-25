@@ -1,0 +1,21 @@
+TITLE: Stratus Expands in Europe — Olivetti $40M OEM Deal, c.1982 (PSK as Stratus communications director)
+AUTHOR: Robert Schneider (local newspaper staff)
+DATE: 1982-04-01
+SOURCE: Stratus-Olivetti-1982-8.pdf
+
+ABSTRACT:
+Local-paper article reporting Stratus Computer's three-year, $40 million export contract with Ing. C. Olivetti & Co. of Italy. The contract gives Olivetti the right to market the Stratus-32 Continuous Processing System in France, Italy, Spain, South Africa, and South America, plus integrate the Stratus-32 as the core of Olivetti's own systems (OEM). Olivetti must meet $40M minimum volume to retain marketing rights. Olivetti will also market in UK, West Germany, and Benelux but Stratus retains the right to open its own offices there with 90 days notice. **Peter Kastner, Stratus communications director**, is the named source. Kastner says Stratus plans to open its first international office by January 1983; that despite the size of the Olivetti contract Stratus will stick to its current business plan and may revise goals upward in Q3/Q4; and that early customer shipments include West Lynn Creamery and Thom McAn Shoe Co. Olivetti shipments scheduled to begin April. Stratus founded ~2 years ago with $6.7M from VC including Olivetti, GE, Bank of America, Institutional Venture Partners. Stratus' target this year: ship 30 systems at $150,000-$300,000 each. Article notes John Morgridge as Stratus VP Marketing.
+
+KEY OBSERVATIONS (from Phase 1 analysis):
+- Olivetti deal terms: Three-year $40M export contract; France/Italy/Spain/S.Africa/S.America + UK/W.Germany/Benelux marketing; OEM integration; $40M minimum volume requirement
+- Stratus founding capital: $6.7M from VC including Olivetti, GE, Bank of America, Institutional Venture Partners
+- Stratus 1982 product pricing: Stratus-32 systems sold at $150,000-$300,000 each; goal 30 systems shipped 1982
+- Kastner Stratus title (alternate): 'Stratus communications director' — alternate/overlapping title vs 'manager of marketing development'
+- International expansion plan: Stratus plans to open its first international office in UK/W.Germany/Benelux by January 1983
+- Most sales in later years: First of all, there is no way we could build $40 million worth of computers this year. And secondly, it will take Olivetti a while to integrate the system into their product line
+
+KASTNER DIRECT QUOTES:
+"[the contract] will help us greatly in our overall corporate growth"
+  Context: Kastner, Stratus communications director, on the Olivetti $40M three-year OEM contract.
+"Most of the sales volume will be in the later years of the contract. First of all, there is no way we could build $40 million worth of computers this year. And secondly, it will take Olivetti a while to integrate the system into their product line"
+  Context: Kastner explained the back-loaded ramp on the Olivetti $40M contract.

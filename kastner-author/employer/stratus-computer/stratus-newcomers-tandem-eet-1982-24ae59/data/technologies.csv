@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-continuous-processing","Stratus Continuous Processing","architecture","Stratus Computer","1980s-present","production","mature","stratus-newcomers-tandem-eet-1982-24ae59","Self-checking components per cycle; hardware-based"
+"tandem-guardian-os","Tandem Guardian OS","operating-system","Tandem Computers","1976-2000s","production","obsolete","stratus-newcomers-tandem-eet-1982-24ae59","Software-based FT with periodic CPU review"
+"tandem-encompass-tps","Tandem Encompass TPS","transaction-software","Tandem Computers","1980s","production","obsolete","stratus-newcomers-tandem-eet-1982-24ae59","Tracks procedures; resumes interrupted activity from start"
+"stratalink","Stratalink","networking","Stratus Computer","1980s-1990s","production","obsolete","stratus-newcomers-tandem-eet-1982-24ae59","Proprietary protocol for inter-Stratus communication"
+"32-bit-architecture","32-bit architecture","computing-architecture","industry","1980s-present","emerging-1982","mature","stratus-newcomers-tandem-eet-1982-24ae59","Stratus claimed 32-bit advantage vs Tandem 16-bit internal data paths"
+"intermarket-trading-system","Intermarket Trading System (ITS)","financial-platform","SIAC","1978-present","production","mature","stratus-newcomers-tandem-eet-1982-24ae59","NYSE/AMEX/regional exchange links; 30 stocks growing to 200; ran on Tandem"

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Stratus Expands in Europe \u2014 Olivetti $40M OEM Deal, c.1982 (PSK as Stratus communications director)",
+  "description": "Local-paper article reporting Stratus Computer's three-year, $40 million export contract with Ing. C. Olivetti & Co. of Italy. The contract gives Olivetti the right to market the Stratus-32 Continuous Processing System in France, Italy, Spain, South Africa, and South America, plus integrate the Stratus-32 as the core of Olivetti's own systems (OEM). Olivetti must meet $40M minimum volume to retain marketing rights. Olivetti will also market in UK, West Germany, and Benelux but Stratus retains the right to open its own offices there with 90 days notice. **Peter Kastner, Stratus communications director**, is the named source. Kastner says Stratus plans to open its first international office by January 1983; that despite the size of the Olivetti contract Stratus will stick to its current business plan and may revise goals upward in Q3/Q4; and that early customer shipments include West Lynn Creamery and Thom McAn Shoe Co. Olivetti shipments scheduled to begin April. Stratus founded ~2 years ago with $6.7M from VC including Olivetti, GE, Bank of America, Institutional Venture Partners. Stratus' target this year: ship 30 systems at $150,000-$300,000 each. Article notes John Morgridge as Stratus VP Marketing.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robert Schneider (local newspaper staff)"
+  },
+  "datePublished": "1982-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

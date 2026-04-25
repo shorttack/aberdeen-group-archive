@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-xa400","Stratus XA400","computing-system","Stratus Computer","1984-1987","production","obsolete","stratus-computer-is-down-mfg-ad-1985-881b7a","$446,350; 125 relative perf; $3,571 per unit; pre-XA2000 family"
+"ibm-4381","IBM 4381","computing-system","IBM","1983-1990s","production","obsolete","stratus-computer-is-down-mfg-ad-1985-881b7a","$707,897 in 1984 comparison"
+"hp-3000-68","HP 3000 Model 68","computing-system","Hewlett-Packard","1980s","production","obsolete","stratus-computer-is-down-mfg-ad-1985-881b7a","$437,754 in 1984 comparison"
+"dec-vax-11-782","DEC VAX 11/782","computing-system","DEC","1980s","production","obsolete","stratus-computer-is-down-mfg-ad-1985-881b7a","$656,889 in 1984 comparison"
+"manufacturing-shop-floor-computing","Manufacturing shop-floor computing","vertical-application","industry","1980s-present","emerging-1985","mature","stratus-computer-is-down-mfg-ad-1985-881b7a","FT/factory-of-the-future positioning"

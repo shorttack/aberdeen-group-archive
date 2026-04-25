@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-continuous-processing","Stratus Continuous Processing","architecture","Stratus Computer","1980s-present","production","mature","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","Hardware-redundant pair-and-spare; four CPUs check each transaction"
+"hardware-fault-tolerance","Hardware fault tolerance","architectural-pattern","industry","1980s-present","production","niche","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","CPU and component redundancy as primary FT mechanism"
+"software-fault-tolerance","Software fault tolerance","architectural-pattern","industry","1980s-present","production","mainstream","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","OS/application-level FT as primary mechanism (Tandem, Auragen, etc.)"
+"oltp-online-transaction-processing","OLTP (online transaction processing)","computing-pattern","industry","1970s-present","production","mature","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","Workload class central to FT systems market"
+"motorola-68000","Motorola MC 68000","microprocessor","Motorola","1979-1990s","production","obsolete","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","32-bit chip used by many software-FT vendors"
+"unix-rtr","Unix Real Time Reliable (Unix RTR)","operating-system","AT&T","1980s-1990s","production","obsolete","stratus-fault-tolerant-mkt-info-systems-1984-eb925f","AT&T modified Unix for 3B20D fault-tolerant processor"

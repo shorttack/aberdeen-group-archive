@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","stratus-sequoia-comeback-marlboro-1987-e725fa","Kastner quoted as 'manager of marketing and development at Stratus'"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1969-present","stratus-sequoia-comeback-marlboro-1987-e725fa","Stratus manager of marketing and development; commenting on competitor Sequoia"
+"sequoia-systems","Sequoia Systems","company","fault-tolerant-computing","acquired","Texas Micro -> RadiSys","1981-1996","stratus-sequoia-comeback-marlboro-1987-e725fa","Marlboro MA; near-collapse summer 1987; $15M revival led by Fusco"
+"nicholas-bologna","Nicholas Bologna","person","executive","unknown","","1980s-1990s","stratus-sequoia-comeback-marlboro-1987-e725fa","VP Marketing, Sequoia Systems 1987"
+"gabe-fusco","Gabe Fusco","person","executive","unknown","","1960s-1990s","stratus-sequoia-comeback-marlboro-1987-e725fa","26-year IBM veteran; became Sequoia COO 7 months before October 1987"
+"ibm","IBM","company","computing-hardware","active","","1911-present","stratus-sequoia-comeback-marlboro-1987-e725fa","~55% of $17B/year OLTP market 1987; agreed in 1987 to buy and resell Stratus products (IBM System/88)"
+"dec-digital-equipment","Digital Equipment Corporation","company","computing-hardware","acquired","Compaq (1998) -> HP","1957-1998","stratus-sequoia-comeback-marlboro-1987-e725fa","Listed alongside IBM as 'big guys' in OLTP per Bologna"

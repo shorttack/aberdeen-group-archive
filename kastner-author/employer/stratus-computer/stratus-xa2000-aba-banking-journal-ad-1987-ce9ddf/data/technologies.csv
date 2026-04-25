@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-xa2000-family","Stratus XA2000 family","computing-system","Stratus Computer","1987-1990s","production","obsolete","stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf","Models 110/120/130/140; Model 140 = 50+ TPS; 3x XA600 power"
+"stratus-xa600","Stratus XA600","computing-system","Stratus Computer","1985-1987","production","obsolete","stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf","Predecessor to XA2000; previously the most powerful hardware-FT system available"
+"modular-online-upgrades","Modular online upgrades","service-pattern","Stratus Computer","1980s-present","production","mature","stratus-xa2000-aba-banking-journal-ad-1987-ce9ddf","Add boards while system running; XA2000 differentiator"

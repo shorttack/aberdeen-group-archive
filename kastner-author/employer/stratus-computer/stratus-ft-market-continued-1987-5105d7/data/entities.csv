@@ -1,0 +1,6 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"ncr-corp","NCR Corp.","company","computing-hardware","acquired","AT&T (1991) -> spinoff -> ","1884-present","stratus-ft-market-continued-1987-5105d7","Pushing FT into POS at $25-45K"
+"tandem-computers","Tandem Computers","company","fault-tolerant-computing","acquired","Compaq (1997) -> HP -> HPE NonStop","1974-1997","stratus-ft-market-continued-1987-5105d7","Introduced low-cost expandable-processor systems for low-end defense"
+"stratus-computer","Stratus Computer","company","fault-tolerant-computing","acquired","Stratus Technologies (now Penguin Solutions)","1980-present","stratus-ft-market-continued-1987-5105d7","Top-of-the-line systems >$1M"
+"parallel-computers-inc","Parallel Computers Inc.","company","fault-tolerant-computing","dissolved","","1980s","stratus-ft-market-continued-1987-5105d7","Santa Cruz CA; Unix-based FT for telecom and law enforcement"
+"tolerant-systems","Tolerant Systems Inc.","company","fault-tolerant-computing","dissolved","","1980s","stratus-ft-market-continued-1987-5105d7","San Jose CA; aiming at banking, telecom, manufacturing, federal"

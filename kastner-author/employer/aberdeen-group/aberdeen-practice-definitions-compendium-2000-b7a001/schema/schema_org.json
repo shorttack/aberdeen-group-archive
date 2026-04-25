@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Practice Definitions Compendium \u2014 Web/Internal Templates (January 2000)",
+  "description": "Compendium of seven Aberdeen Group practice-definition templates produced for the firm's January 2000 planning cycle and intended for web publication and internal reference. Each template names the practice group coordinator and contributing analysts, articulates the practice's coverage scope and objectives, lists supplier coverage universe, surfaces strategic market questions, and (in several cases) supplies 1999-2000 market-size estimates by segment. Practice areas covered: (1) Enterprise Applications and Services (EAS) \u2014 ERP, professional services, eLearning \u2014 coordinated by Maynard with Hofferberth as Professional Services lead; (2) Enterprise Management \u2014 systems/network/applications/web operations management \u2014 Valerie O'Connell as Research Director; (3) Platform Infrastructure (PI) \u2014 Kernochan, Hill, Tanner \u2014 covering storage, mainframes, databases, application servers; (4) Platforms Group \u2014 Becknell, Gruener \u2014 covering server/client architectures, OS, RISC/EPIC/MAJC, information appliances; (5) Data Knowledge / Decision Support / Knowledge Management \u2014 query/reporting, OLAP, analytical applications, data mining, content management, data warehouse/mart, ETL with detailed market-size estimates; (6) B-to-B e-Business & Supply Chain Management \u2014 David Alschuler memo to Peter Kastner (Jan 17 2000) defining e-Procurement/e-Sales/e-Distribution/e-Messaging segments. Two near-duplicate Platform Infrastructure templates document active editing iterations of practice scope. The compendium establishes the canonical 'practice area definition' attribution baseline for each named analyst and is the primary documented evidence supporting Aberdeen Group practice-area Category Creator credits beyond Hofferberth (PSA) and Fletcher (CRM).",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group practice coordinators (multi-author): Jack Maynard, Karen Moser, Katherine Jones, Steve Lane, James Ayube, David Hofferberth (EAS); Valerie O'Connell (Enterprise Management); Wayne Kernochan, Dave Hill, Dan Tanner (Platform Infrastructure); Joyce Becknell, James Gruener (Platforms Group); Suresh Chakravarthy, Bill Claybrook, Riddhi Patel (Platforms Group contributors); David Alschuler (B-to-B e-Business & Supply Chain Management); anonymous (Data Knowledge / Decision Support / Knowledge Management)"
+  },
+  "datePublished": "2000-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

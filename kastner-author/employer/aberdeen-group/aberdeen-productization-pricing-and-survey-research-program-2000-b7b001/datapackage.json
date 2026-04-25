@@ -1,0 +1,261 @@
+{
+  "name": "aberdeen-productization-pricing-and-survey-research-program-2000-b7b001",
+  "title": "Aberdeen Group 2000 Productization, Pricing, and Survey Research Program (e-Profile, Market Analysis Service, Publication Pricing Schedule, e-Business@Aberdeen Survey Calendar)",
+  "description": "Four internal Aberdeen Group artifacts spanning January 2000 through June 2001 that together document Aberdeen's evolution from print-product publication house to subscription-research and survey-research firm. (1) Hugh Bishop's January 2000 'Aberdeen e-Publications' deck launches the e-Profile program \u2014 converting the legacy $25K Profile into a $40K+ subscription product with $25K web hosting (12 months including 3 updates), $5K analyst-audio access, $10K written profile add-on; beta clients SalesLogix, eCredit, Personic. (2) The June 2001 Market Analysis Service (MAS) Internal Presentation defines a 14-segment quantitative+qualitative subscription priced at $22,500 (5 seats, all 14 topics, both data types) with discrete component pricing ($1,495 single-topic qualitative or quantitative; $2,495 single-topic both; $10,000 all-14 qualitative; $15,000 all-14 quantitative) \u2014 co-produced with David Wright/ETI on macro-economic-grounded methodology with explicit analyst compensation ($2,000 cash up-front, 15 percent revenue GM transfer, $250/hr telephone-inquiry cash, $250 closed-deal bonus). (3) Pricing-2000.xls is the canonical 2000 Publication Pricing & Transfer Schedule covering EWP/Impact/Profile with published-vs-internal-transfer prices, web-hosting fee schedule, hosting/length matrix, page-count and minute-count specifications, time-per-project budgets, and Kastner $100K sign-off threshold; defines the 5 percent / 10 percent maximum-discount ladder. (4) Survey-Descriptions-2000.doc is the e-Business@Aberdeen.com 2000 survey calendar covering nine practice surveys across e-Procurement (Tim Minahan), e-Marketing/e-Sales (Donovan Gow + Kent Allen), e-Customer Services (Chris Martins), e-Employee Self-Service (Karen Moser), e-Portals (Judith Rosall, Lara Abrams), and e-Payments (Judith Rosall) \u2014 providing analyst-survey attribution for the e-Business@Aberdeen practice for the year 2000.",
+  "version": "1.0.0",
+  "created": "2026-04-25",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Aberdeen Group (multi-author): Hugh Bishop (e-Profile January 2000); Aberdeen Group / David Wright / ETI (Market Analysis Service June 2001); Aberdeen Pricing Committee (Publication Pricing 2000 \u2014 Peter Kastner sign-off threshold); e-Business@Aberdeen.com analyst team (Tim Minahan, Donovan Gow, Kent Allen, Chris Martins, Karen Moser, Judith Rosall, Lara Abrams) for Survey Research Program 2000",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

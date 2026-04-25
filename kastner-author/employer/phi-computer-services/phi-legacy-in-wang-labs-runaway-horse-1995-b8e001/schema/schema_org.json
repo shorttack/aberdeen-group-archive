@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PHI Legacy in Wang Laboratories: Charles Kenney's 'Riding the Runaway Horse' \u2014 Chapter 4 'I Have to Do This to Save My Company' (1995)",
+  "description": "Excerpt from Charles C. Kenney's 1992-1995 book 'Riding the Runaway Horse: The Rise and Decline of Wang Laboratories' (Little, Brown). Documents PHI Computer Services as 'one of the best' early-1960s software pioneers; describes Wang Laboratories' 1968 PHI acquisition; identifies Bob Siegel, Harold Koplow, Dave Moros, and Bob Kolk \u2014 three of whom came from PHI \u2014 as the four men whose products yielded 'billions of dollars of revenues for Wang Laboratories' (Wang 2200 small-business computer, Wang Word Processing System, Wang VS commercial mini). Argues Wang's autobiography 'Lessons' significantly understates the PHI contribution to Wang's success.",
+  "creator": {
+    "@type": "Person",
+    "name": "Charles C. Kenney"
+  },
+  "datePublished": "1995-01-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

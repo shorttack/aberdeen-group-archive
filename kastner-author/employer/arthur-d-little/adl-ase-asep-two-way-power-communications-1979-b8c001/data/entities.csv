@@ -1,0 +1,8 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"american-science-and-engineering","American Science & Engineering, Inc. (AS&E)","company","scientific-instruments","operating","[DEFERRED]","1958-present","adl-ase-asep-two-way-power-communications-1979-b8c001","Cambridge MA scientific firm; developed ASEP two-way power-line system."
+"martin-annis","Dr. Martin Annis","person","executive","[DEFERRED]","[DEFERRED]","1970s","adl-ase-asep-two-way-power-communications-1979-b8c001","AS&E president quoted in trade-press article."
+"ralph-abbott","Ralph Abbott","person","executive","[DEFERRED]","[DEFERRED]","1970s","adl-ase-asep-two-way-power-communications-1979-b8c001","AS&E VP quoted on demand-response capabilities."
+"florida-power-corp","Florida Power Corporation","company","utility","merged","Progress Energy / Duke Energy","1899-2000","adl-ase-asep-two-way-power-communications-1979-b8c001","Early ASEP customer; piloted dynamic peak-rate metering."
+"florida-power-and-light","Florida Power & Light","company","utility","operating","[DEFERRED]","1925-present","adl-ase-asep-two-way-power-communications-1979-b8c001","ASEP customer; planned residential AC/heating/water-heater control."
+"wisconsin-electric","Wisconsin Electric Power Company","company","utility","operating","[DEFERRED]","1896-present","adl-ase-asep-two-way-power-communications-1979-b8c001","ASEP large-scale customer: 154,000 homes water-heater control plus remote metering."
+"us-doe","US Department of Energy","agency","federal","operating","[DEFERRED]","1977-present","adl-ase-asep-two-way-power-communications-1979-b8c001","Projected most states would adopt time-of-day rates within 5-6 years."

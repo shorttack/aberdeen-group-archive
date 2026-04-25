@@ -1,0 +1,41 @@
+=== ADP-ASE-meters-3.txt ===
+                                                                                       fy                                Gin It cf
+
+System saves $ for thrifty night owls
+ CAMBRIDGE, MA — Consumers may                  our national goal of energy conservation,”         "If electrical usage reaches dangerous
+soon play a greater role in determining         said Dr. Martin Annis, president of             levels.” said Abbott, "the system is ca­
+what they pay for electrical power.             AS&E.                                           pable of turning off blocks of non-essential
+    The reason? Increased use by utility           One of the first utilities to use the ASEP   electrical loads. By doing this a major
+companies of time-of-day rates, which,          systems for time-of-day metering, the           problem could be averted, with customers
+ like those used by phone companies,            Florida Power Corp., will soon begin test­      suffering only a minor inconvenience."
+charge more during the day when usage is        ing a dynamic rate system that will charge         Florida Power and the Florida Power
+high than at night.                             customers peak rates only when peak             and Light Co. also plan to use the system
+    Time-of-day rates will enable con­          levels are actually reached. The ASEP sys­      to control residential air conditioning and
+sumers to save money by putting off ac­         tem allows individual meter usage to be         heating systems and electrical water heat­
+tivities, such as using washing machines,       checked as often as every 30 minutes or as      ers. Wisconsin Electric Power uses ASEP
+driers and water heaters, until evenings or     infrequently as once each month.                to control water heaters in 154.000 homes
+weekends.                                          Because it is a two-way system, ASEP         in addition to remotely metering certain
+    “A small life-style change may be nec­      prevents electrical brownouts and black­        customers. Utility companies in Missouri,
+essary to benefit from time-of-day rating       outs and it operates over powerlines, a         New Jersey. Minnesota and California
+but we feel that people will make that          communications medium already in place.         have also implemented the system.
+change, because it will reduce their elec­
+trical costs," said Ralph Abbott, VP of
+American Science & Engineering, here.
+AS&E developed a two-way communica­
+tions system — ASEP — that allows utili­
+ty companies to implement time-of-day
+rates. The system is controlled by a Data
+General Eclipse S-230 minicomputer with
+256K core memory.
+    Utilities in about 12 states now use such
+systems on experimental bases, and the
+Department of Energy estimates that most
+states will be using time-of-day rates with­
+in five or six years.
+    "Time-of-day rating is gaining in­
+creased acceptance because it benefits the
+consumer, allows the utility company to
+level off the power it must generate and,
+because it reduces the amount of oil
+needed to provide that power, it also aids
+

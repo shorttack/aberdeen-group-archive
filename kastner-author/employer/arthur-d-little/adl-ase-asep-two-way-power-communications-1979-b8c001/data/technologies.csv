@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"asep-system","ASEP — Two-Way Power-Line Communications System","platform","AS&E","1979-1990s","emerging","superseded","adl-ase-asep-two-way-power-communications-1979-b8c001","AS&E proprietary two-way power-line communications system for time-of-day metering and residential load control."
+"data-general-eclipse-s-230","Data General Eclipse S-230 minicomputer","platform","Data General","1977-1990s","mature","legacy-end-of-life","adl-ase-asep-two-way-power-communications-1979-b8c001","256K core memory; ASEP system controller."
+"powerline-comms","Power-line communications (PLC)","protocol","various","1970s-present","emerging","operating","adl-ase-asep-two-way-power-communications-1979-b8c001","Bidirectional comms over electrical distribution; precursor to modern smart-grid PLC."
+"time-of-day-metering","Time-of-Day Metering","framework","utility-industry","1970s-present","emerging","operating","adl-ase-asep-two-way-power-communications-1979-b8c001","Variable rates by time of day to incent load shifting."
+"demand-response","Demand Response","framework","utility-industry","1970s-present","emerging","operating","adl-ase-asep-two-way-power-communications-1979-b8c001","Utility-side ability to shed loads (water heaters, AC) to prevent brownouts/blackouts."

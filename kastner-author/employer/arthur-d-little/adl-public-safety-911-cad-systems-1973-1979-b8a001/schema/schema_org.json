@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ADL Public Safety / 911 CAD Systems: Boston, Philadelphia, Minneapolis, Aurora, and St. Petersburg (1973-1979)",
+  "description": "Kastner's role at Arthur D. Little Systems (ADLS) on the federally-funded LEAA-grant 911 computer-aided dispatch (CAD) systems built in the 1970s. ADLS designed a fault-tolerant dual-Data-General-Eclipse minicomputer dispatch architecture first deployed in Boston, then migrated to Philadelphia, Minneapolis, and Aurora CO. As vendor support manager, Kastner led hardware configuration, procurement, burn-in, and installation for all four cities. He separately led ADL's design of the St. Petersburg FL 911 dispatch on the city's IBM 370/135 with CICS, recommending and modifying the Hampton Roads VA dispatch system for transfer.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2025-08-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

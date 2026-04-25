@@ -1,0 +1,599 @@
+﻿
+
+
+
+A MESSAGE FROM THE EDITOR
+From a cellar operation back In 1959, when
+our total corporate capability consisted of
+four technically sophisticated professionals
+(fondly called "whiz kids") who possessed
+the ability to pragmatically apply technical
+theory to the solution of specific problems
+and at the same time apply sound business
+practices to the management of projects,
+we've grown to become one of the leading
+full service data processing companies in
+the nation. Our three operating divisions
+now provide a wide variety of computer
+services and products to more than four
+hundred clients. Professional computer con­
+sulting and programming, our sole "prod­
+uct" in 1959, is still a major corporate activ­
+ity. Today, these functions are performed
+by PHI’S Professional Services Division
+(PSD) in the same proud tradition as estab­
+lished by the "whiz kids." This issue of
+Update focuses on PSD's special compe­
+tencies.
+Manufacturers,
+Distributors, And
+Retailers Data Processing
+Needs Met By PHI’s
+Business Applications
+And System Specialists
+A highly specialized group within the com­
+pany's Professional Services Division enables
+PHI to offer the business community a
+comprehensive series of business applica­
+tions which may be used on a standalone
+basis to solve individual problems or in
+combination to create an integrated business
+system. Each application employs simplified
+data entry techniques, a flexible and com­
+prehensive report generation facility, and a
+complete series of linkages which permit
+the application to communicate with a
+centralized data base and with other applica­
+tion modules. These application modules
+have been developed as a result of PHI'S
+experience with the commercial, industrial,
+and institutional environments. They are
+operating on a production basis at clients'
+computer facilities and at the PHI Data
+Center on a service bureau basis for cus­
+tomers who do not have their own data
+processing equipment.
+We use these business applications as
+modular building blocks to create specialized
+systems to solve individual customer prob­
+lems. Our basic philosophy is that a
+customer should not have to compromise
+his business information or data processing
+requirements to suit the constraints of an
+"off the shelf” package; but rather that these
+exact requirements should be fulfilled by
+an integrated system constructed from
+standard, modular building blocks. By com­
+bining the talents of this expert staff of
+business systems specialists with our library
+of proven applications, such systems have
+been built, installed, and are successfully
+operating in all types of business environ­ments. For a new brochure describing PHI'S
+integrated business system use the handy
+Data Retriever or contact Wolly Morin.
+Professional Consulting
+And Systems Services Of-­
+fered For Users Of Honeywell Large Scale Computers
+PHI’s Professional Services Division recently
+formed a special consulting team to pro­
+vide professional assistance to users of
+large-scale Honeywell computers. These
+data processing professionals have years of
+experience in the implementation of large-
+scale data processing systems and possess
+a working knowledge of the newly an­
+nounced Honeywell Series 6000 Computer
+line.
+Their expertise includes the design and
+implementation of business data processing
+systems for the manufacturing, distribution,
+insurance, retailing, hospital/medical,
+and educational industries. To each of these
+industries, the group can bring broad
+based fourth generation technical knowledge.
+Specialists are also available in the area
+of telecommunication processing who are
+familiar with both of its aspects — remote
+batch and on-line inquiry; and in data
+base design utilizing Honeywell's Integrated
+Data Store (IDS). A unique automated
+structure testing technique is used to control,
+verify, and generate documentation prior
+to installation. This technique also provides
+a fast, easy, and economical method for
+modifying the data base during and after
+installation.
+With the formation of this group, Honeywell
+customers can now benefit from the
+professional resources of PHI that have long
+been enjoyed by users of other major com­
+puters. For more information contact
+John Pryke or just fill out and mail the
+Data Retriever form in this issue of Update.
+This Is PSD
+Professional Services is the PHI Division
+responsible for the design, specification,
+implementation, and installation of program­
+ming and software systems for computer
+users and manufacturers. The Division
+is composed of four groups — Commercial
+Programming, Financial Systems, Systems
+Analysis and Design, and Systems Program­
+ming — each specializing in a particular
+discipline or industry. The Division’s capa­
+bilities extend from the evaluation and
+selection of computer hardware and software
+for customers installing their first data
+processing equipment to providing system
+programming, applications, and tele­
+communication programs for sophisticated
+EDP users.
+Lawrence J. Munini, Division Manager, states
+that “Rather than attempting to be a uni­
+versal programming organization with the motto 'Have coding pad will travel,’ we have
+identified certain specialty areas where
+the expertise of our professional staff mem­
+bers can have the greatest effect. In addition
+to performing projects for clients, Profes­
+sional Services has been responsible for the
+in-house development of PHI'S Payroll and
+Fixed Amount Billing Systems, as well as
+for the continued evolution of enhanced op­
+erating systems for our Data Center. We
+also work closely with our parent company,
+Wang Laboratories, Inc., in new product
+development For example, our R&D group
+helped develop the software for the new
+WANG 3300 computer series, using third
+generation computer technology.” To give a
+more precise picture of how PSD performs
+its specialized professional activities,
+Mr. Munini briefly outlined the functions
+of each Group.
+Commercial Programming Group develops
+Integrated Business Systems to solve the
+data processing problems of manufacturers,
+distributors, and retailers. Each business
+system developed by PHI, is constructed from
+a series of application modules such as
+accounts receivable, accounts payable, gen­
+eral ledger, inventory control, order entry,
+sales analysis, and production control.
+These individual applications are next
+tailored to the exact machine environment
+and information needs of the client and then
+integrated into a complete system. The
+Group’s basic philosophy is that a customer's
+requirements should not have to be com­
+promised to fit a "canned" computer
+package but rather they should be met to
+the letter. Typical of the problems that
+have been solved are: an integrated order
+entry/sales analysis/inventory control
+system for a leading concern in the optical
+products industry; a comprehensive ma­
+terials planning and work center accounting
+system for an electronics manufacturer;
+and a total manufacturing information system
+for a plastics company. In each of these
+cases, PHI’s system provided the client with
+the controls he needed, as well as increased
+his profit potential.
+Financial Systems Group develops custom
+systems and packages for the banking
+and financial communities. This Group has
+assisted banks throughout the United States
+and Canada with both their automated
+customer services and internal banking appli­
+cations. PHI is well known and respected
+by the people who staff banks' Automated
+Customer Services Departments (responsible
+for the marketing of a bank's data proc­
+essing services) as a result of our compre­
+hensive payroll systems, application
+management system, and Fixed Amount
+Billing system. Within the internal banking
+systems environment, the Group’s pro­
+fessional activities include: implementation
+of a correspondent bank demand deposit
+accounting system, a bond portfolio analysis
+(Continued pg. 2)
+
+system, and a mutual fund processing
+system. Other financial systems which have
+been developed include a comprehensive
+personal trust accounting system which
+is completely responsive to the stringent
+legal requirements of the Massachusetts Pro­
+bate Court System: a flexible general
+ledger accounting system; and an on-line
+terminal system that provides small account­
+ing firms with an accurate, fast, and
+economical way to handle transaction data
+entry, processing, and report functions
+for their clients, while relieving them of the
+enormous clerical burden inherent in a
+manual operation.
+Today the Financial Systems Group is com­
+mitted to applying the knowledge and
+experience gained in the development of
+these systems and PHI's proprietary software
+packages to individual problems faced by
+the financial community.
+Systems Analysis and Design Group provides
+consulting, product evaluation, and design
+services to manufacturers developing
+new products for the computer industry and
+to users of the IBM Systems/360 and 370.
+In the former area, the Group has worked
+closely with manufacturers developing
+products compatible to the IBM System/360
+and System/370 product lines. Activities
+include: consultation on IBM systems tech­
+niques and protocols to help the non-IBM
+vendor understand the System/360 and
+Syslem/370 environment: evaluation of
+different design concepts with an eye towards
+maximum product reliability, and competi­
+tive position; and the specification of
+diagnostic software for testing new products.
+The Group’s assignments range from a
+few days' consulting to comprehensive
+testing of systems utilizing PHI-developed
+diagnostic routines and the facilities of the
+PHI Data Center. To date, the Group has
+assisted in the development and testing of
+seven different System/360 multiplexor
+and selector channel interfaces for teleproc­
+essing controllers and front-end communi­
+cation processors, as well as providing
+nine different remote interfaces for IBM-
+compatible terminal devices.
+For sophisticated System/360 and
+System/370 users, the Group has concen­
+trated on the continued development and
+enhancement of the IBM Operating System
+(OS/360). Typical of its achievements
+have been the effective utilization of the
+Ampex Extended Core Memory at the PHI
+Data Center, the development of new
+billing algorithms for the service bureau
+environment which base rates upon machine
+resources used rather than elapsed time,
+effective utilization of new System/370
+hardware, and improvements in the
+System/360 telecommunications software.
+Serving in the role of PHI's "think tank,” the
+Group paves the way for large scale imple­
+mentation efforts which solve product
+development, systems programming, and
+telecommunications problems.
+Systems Programming Group implements
+sophisticated systems software and on-line
+applications. In the former area, the Group
+has developed assemblers, cross assemblers,
+compilers, and operating systems for
+leading manufacturers of computer equip­
+ment including: IBM, Honeywell, Hewlett-
+
+Packard, and Sanders Associates. Some of
+the Group's most significant efforts include:
+the development of the tape and disk
+utilities for the IBM System/360 Model 20
+(systems software which is provided as
+Class A support by IBM); disk IOCS for the
+Honeywell H-516; the System/360-resident
+simulator for the Hewlett-Packard 2100
+series computers; and a real time operating
+system for the SANDAC 200 communications
+processor.
+In addition to assisting computer manufac­
+turers, the Group has participated exten­
+sively with end-users in the design and
+implementation of on-line systems. Projects
+have ranged from the development of several
+teleprocessing concentrators for use in
+airline passenger reservation systems to the
+implementation of an automated dirt com­
+paction test system for the New York State
+Bureau of Soil Mechanics. One of the
+Group's major accomplishments has been
+the development of the PHI Telecommunica­
+tions Programming System (TPS) which is
+People are PSD'S prime resource. Our
+success in providing top quality professional
+services to clients throughout the United
+States, is directly attributable to the dedica­
+tion, professionalism, and teamwork of our
+talented staff of consultants, analysts,
+and programmers. We'd like you to meet a
+few of the people that make our professional
+activities possible.
+Peter S. Kastner has been involved in the
+development of a broad range of systems
+and applications in the financial area, from
+PHI's own internal accounting system to
+a correspondent bank demand deposit
+accounting system for a large Chicago bank.
+He is presently a Systems Analyst with
+PSD's Financial Systems Group.
+Robert A. Siegel is a Supervisory Analyst
+with PSD's Systems Analysis and Design
+Group. In this professional capacity, he is
+responsible for applying his special expertise
+to projects in the areas of System/360
+hardware and its Operating System (OS).
+Among his achievements are the implemen­
+tation of Operating System modifications
+to support efficient use of the Ampex ECM on
+the PHI System/360 Model 65 and the
+implementation and enhancement of
+RJE/HASP.
+
+regarded as the most comprehensive front­
+end software available for the IBM telecom­
+munications environment. This system, when
+Implemented on a minicomputer, permits
+operation both as a plug-for-plug replace­
+ment for an IBM 2700 series Transmission
+Control Unit, and as a full front-end pre­
+processor which relieves the System/360
+CPU of much of its communications over­
+head. This system is currently operating at
+several locations, including the PHI Data
+Center. TPS which can be considered as a
+"customizable package,” is sold on a nation­
+wide basis to System/360 teleprocessing
+installations. The Group also offers a series
+of demonstration and diagnostic programs
+designed to test, demonstrate, and maintain
+IBM-compatible terminal devices. Programs
+are currently available for the IBM 2260/2265
+keyboard display units and for Binary Syn­
+chronous devices including the IBM 2780
+and 3270. PHI is now regarded as one of the
+foremost authorities on the IBM communi­
+cation environment.
+Wollaston B. Morin is an expert in the area
+of integrated business systems, having
+designed and successfully implemented a
+wide variety of accounting and management
+information systems for commercial, indus­
+trial, and retail firms. A practical business­
+man, as well as a professional analyst, Wolly
+now serves as Supervisory Analyst for PSD’s
+Commercial Programming Group. In this
+capacity, he is primarily involved in tech-	 	
+nical/marketihg activities. He holds a degree
+in Business Administration from Boston
+University.
+Arthur G. Yafte possesses a broad profes­
+sional background in the area of minicom­
+puter assemblers, systems design in the
+communications environment, operating
+systems, and data communications facilities.
+As a Supervisory Analyst with PSD’s Systems
+Programming Group, Art has served as
+project leader for the implementation of a
+large on-line mutual fund system and for the
+development of a System/360 front-end
+preprocessor for a major insurance com­
+pany. Arthur holds a degree in Electrical
+Engineering from Carnegie Institute of
+Technology.
+
+New PHITAX Package
+Cuts Payroll Tax
+Maintenance
+PHI announces the development and
+availability of PHITAX — a packaged module
+for the calculation of Federal, State, and
+local payroll tax deductions. The new module
+has been designed for use with PHI Payroll
+Systems, as well as most other payroll
+systems. By generalizing tax calculation
+procedures and isolating actual tax rates in
+tables, the module reduces tax maintenance
+expense.
+In an actual payroll processing environment,
+program control is passed from the payroll
+system to PHITAX for tax calculation on
+regular, supplemental or any other type of
+payment. All calculation procedures are
+accomplished and then individual tax tables
+are accessed and deductions executed.
+Because the tax tables are thus isolated, the
+updating of any new tax information is
+simplified and streamlined, and PHI esti­
+mates that PHITAX can reduce maintenance
+time and expense. The PHITAX module is
+written in COBOL, can be installed easily and
+is available as either a package or as an
+enhancement to PHI Payroll Systems. Pur­
+chasers of the new module are also provided
+with installation manuals, training manuals,
+and documentation, as well as a twelve
+month warranty and maintenance contract
+at no additional cost. For more information,
+just fill out and mail the handy Data Retriever
+coupon or contact James Lees.
+ 	
+Verification
+The Update extends its congratulations to:
+• James Lees — promoted to Manager of
+Proprietary Products
+• John Morse — promoted to Manager of
+PSD's Systems Programming Group
+• John Pryke — promoted to Sales Man­
+ager for Professional Services Division
+We are pleased to welcome Leo Fleck to
+PHI. Leo recently joined PSD’s staff as a
+Senior Consultant. At PHI, Leo will direct
+PSD’s newly formed consulting service group
+for users of Honeywell Large Scale Systems.
+As both a former Honeywell employee and a
+user of Honeywell Large Scale Systems, Mr.
+Fleck brings to his new assignment an
+extensive professional background and
+knowledge of the Honeywell environment.
+We are also pleased to announce that Bob
+McLaughlin, a familiar face to all of PHI's
+Payroll users, has recently joined Profes­
+sional Services. Bob will be assisting our
+Payroll customers in the use of PHI's
+professional consulting and programming
+services.
+ 	
+Systems Analysis And
+Design Operates PHI’s
+Computer Interface
+Laboratory
+Passing through the back corner of the PHI
+Data Center, one is forced to stop and stare
+at a collection of strange cabinets and
+computers hooked to our System/360 Model
+65. This area, nicknamed "PHI's Interface
+Laboratory" represents a growing segment
+of PHI’s business: developing and testing
+360 channel interfaces — seven in all, each
+with a different computer. The Honeywell
+H-516, Bunker Ramo keyboard display
+channel interface. Data General Nova. DEC
+PDP-11, and Tempo 1 are among the ma­
+chines already tested by our laboratory.
+Operated by PSD's Systems Analysis and
+Design Group, the "Laboratory" is the final
+testing ground of the Group's consulting
+aclivilies with manufacturers of IBM-
+compatible hardware. Answering basic
+questions regarding IBM channel protocols,
+reviewing interface hardware designs,
+developing diagnostic and test programs for
+both the System/360 and the device being
+interfaced, providing test time on our
+System/360 Model 65, and assisting during
+tests, the Group has been referred to by
+one client as "the Underwriters Laboratory
+of the 360 Interface." One of our staff
+members has even suggested blue tags for
+each interface marked "Approved by PHI."
+Data Measurements
+Corporation Licensed To
+Sell Special Version Of
+PHI Airline Terminal
+Support Package
+Data Measurements Corporation of Santa
+Clara, California, manufacturers of the DMC
+201 hard-copy airline reservation terminal,
+has recently been licensed to sell a type­
+writer-only version of the PHI Airline Ter­
+minal Support Package. The new version of
+the package will support 32, 48, or 64 DMC
+
+201 or IBM 1977 terminals from an 8K
+Honeywell H-316 computer. The package is
+designed as a direct replacement for the
+Honeywell Programmable Terminal Inter­
+change software (which will only support 32
+terminals) and allows an airline to add
+more terminals without adding any new
+H-316 hardware. It also provides error
+logging and diagnostics for individual lines.
+The new software is available either from
+Data Measurements Corporation as part of a
+terminal procurement or direct from PHI. The
+package can be easily upgraded to support
+standalone CRTs, as well as hard-copy
+terminals. This feature provides emulation of
+both an IBM 1006 and 2948 Terminal Inter­
+changes in a single H-316. The CRT-version
+of the package has been in operation at
+Texas International Airlines for over six
+months.
+ 	
+Binary Synchronous
+On-Line Diagnostic And
+Demonstration Program
+Now Available
+Based upon the immediate success that
+PHI's 2260/2265 Diagnostic and Demonstra­
+tion Program gained with CRT manufacturers
+of 2260 compatible products, we have
+developed a similar program for testing and
+demonstrating IBM binary synchronous-
+compatible devices. The new program sup­
+ports the following IBM terminal types and
+their functional equivalents:
+• 2780 Data Transmission Terminal
+• 2770 Data Communications System
+• 2972 General Banking Terminal System
+• 2715 Transmission Control Unit
+• 3270 Information Display System
+• 3735 Programmable Buffered Terminal
+• Programmable remote batch terminals
+and concentrators which use Binary
+Synchronous line discipline.
+Users find that the program serves as an
+engineering and marketing tool, as well as a
+field testing facility for their respective
+terminal.
+For more information, fill out and mail the
+Data Retriever form in this issue of Update
+or contact Dick Stenger.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Opportunity to retain professional team with one
+of the most successful track records in the
+industry. In 12 years, we’ve grown from a small
+group of "whizz kids" to third in the nation.
+Particular expertise in product line software for
+hardware manufacturers; System 360 interface;
+on-line control; real-time systems; Commercial
+Applications; IMS programming; and hardware
+evaluation and consulting. Significant on-going
+experience with leading corporations and institu­
+tions including Chase Manhattan Bank, Braniff
+Airlines, Bunker-Ramo, Digital Equipment Cor­
+poration, Penn Mutual Life Insurance, Hewlett-
+Packard, Marine Midland Banks, Honeywell
+Computer Control Division and IBM. Success of our own packages (such as Telecommunications
+Programming System, Payroll System, Fixed
+Amount Billing, Cosmos, etc.) is proof of ability.
+On-site Data Center (largest in New England)
+available for development and implementation.
+Will travel. Contact John Pryke at (617) 648-8550.
+Subsidiary ol  WANGL laboratories. Inc.
+COMPUTER SERVICES, INC.
+SOO MASSACHUSETTS AVE . ARLINGTON. MASS 02174 • (SI 7) 648 SSSO
+consultants for systems applications and development -an array of
+supporting software -a computer network offering sophisticated
+hardware, software, and technical assistance - comprehensive data
+processing services.
+

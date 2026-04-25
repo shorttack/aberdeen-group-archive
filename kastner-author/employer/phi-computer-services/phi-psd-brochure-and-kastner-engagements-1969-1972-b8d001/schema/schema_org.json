@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "PHI Computer Services Professional Services Division: Brochure with Kastner Profile, Memoir of Junior Programmer Era, and PHI Engagements (1969-1972)",
+  "description": "Combines a primary-source PHI Update brochure (~1971-1972) describing PHI's Professional Services Division (PSD) \u2014 including Kastner's profile as a Systems Analyst in the Financial Systems Group \u2014 with Kastner's personal memoir of his March 1969 entry into PHI as a junior programmer at $7,200/year, the 1960s-era apprenticeship learning model, and his work on Marine Midland bond-portfolio Y2K-precursor changes, the First Chicago correspondent-bank DDA system, the Cumberland Farms gas-station accounting system, and the optimization of PHI's internal accounting system.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2025-04-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

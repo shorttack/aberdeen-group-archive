@@ -1,0 +1,537 @@
+=== PHI-in-Riding-the-Runaway-Horse-re-Wang-6.txt ===
+﻿Aho by Charles Kenney
+D u K a k I s: An American Odyssey
+(with Robert L. Turner)
+Riding
+„u THE
+R.U N A WA Y
+Horse
+The Rise and Decline
+of Wang Laboratories
+Charles C. Kenney
+
+Little, Brown and Company
+Boston Toronto London
+FOUR
+“I Have to Do This to
+Save My Company”
+THE COMPUTER PIONEERS of the 1940s and ’50s concen­
+trated the bulk of their efforts on hardware, on the steel and wires
+that comprised the body of a computer. But by the 1960s, there
+was a crying need for people who could create software, the set of instruc­
+tions that tell a computer what tasks to perform. If hardware is a com­
+puter’s body, software is its mind.
+Software is now a huge worldwide industry, but in the early 1960s,
+when there were few people who understood computers well enough to
+write programs for them, the software business was in its infancy. Pre­
+dictably, some of the software pioneers were nurtured in the Cambridge
+of MIT and Harvard.
+And of all the small companies spawned in that area during an explo­
+sion of scientific creativity, Philip Hankins, Inc., was one of the best. The
+company took its name from its founder, a bright young man whose
+passion for computers drove him to work seven days a week. PHI, as it
+was known, was located in Arlington, Massachusetts, near Cambridge,
+and it attracted some very gifted young people. It began operating in
+1958 and within only a few years had gained a reputation within the elite
+computer world as a first-rate operation.
+PHI’s client list was a Who’s Who of technology companies and gov­
+ernment installations, from the consulting firm Arthur D. Little to NASA
+and IBM. PHI engineers, in fact, bailed IBM out of what might have
+been a humiliating moment. Just a few days before IBM was to unveil a
+new computer, IBM officials discovered that their new machine wasn’t 
+working properly. IBM brought the machine to PHI’s ramshackle offices,
+and a band of rumpled young PHI specialists worked nonstop for four
+days until they got it working.
+There was a pioneering sense at PHI, a “terribly exciting” atmosphere,
+recalls Bob Plachta, a PHI vice-president, a sense that they were operating
+on a new scientific and commercial frontier. Computers were massive,
+powerful beasts at the time, and the PHI people showed they could tame
+those beasts, that they could create programs to make the machines do
+whatever people wanted them to do. The company started in an old
+house, absorbed the house next door, annexed a garage, and finally spilled
+over into an old funeral home. Hankins expanded his business by leasing
+a powerful new IBM 360, the pioneering line of mainframe computers
+that would set the industry standard. He turned an old hearse bam out
+back into a computer center, and PHI rented time on the machine to a
+variety of different businesses who needed the use of a computer, but
+couldn’t afford to lease or buy a machine of their own. It was the right
+move at the right time for PHI. So great was demand for time on PHI’s
+machine that the center had to be kept open twenty-four hours a day.
+But PHI’s business truly took off when the company’s designers cre­
+ated software that enabled a computer to do the entire payroll for the
+Marine Midland Bank in New York. In retrospect, it was as simple and
+basic as a software package could be, but at the time it was an exciting
+breakthrough with virtually unlimited commercial application. In the
+1960s, the tedium of producing a payroll every week or two was a burden
+for every company and government agency in the world. Anyone who
+could computerize the task would make a fortune.
+Many of the PHI people, more oriented to science than commerce,
+didn’t see the commercial potential. But a young PHI salesman, John
+Cullinane, saw it clearly. Cullinane later left PHI and founded his own
+software outfit, Cullinet, which was, at one time, the most successful
+company of its kind in the world.
+PHI sold enough payroll packages to grow into one of the largest
+software companies in the area. “PHI was probably the most fantastic
+business atmosphere I had ever seen,” recalls Bob Plachta. “It was almost
+like magic. I remember we were at our Christmas party one year, and a
+young man just wandered into our party. He was a Harvard Business
+School grad and he wound up talking to me and Phil, and he said, ‘What
+are your company’s problems?’ And we looked at each other for a
+moment and shrugged and said, ‘Well, we don’t really have any
+problems.’”
+•JU RIDING THE RUNAWAY HORSE
+The extent of his experience with computers had been sitting in on a
+graduate-school lecture about the machines. But computers intrigued
+him and he applied for the job. In September 1968, at the age of twenty­
+seven, Koplow joined Wang.
+His lack of formal computer background gave him an odd approach
+to the business. “Harold is a very disarming guy,” says Ed Lesnick, who
+had long favored the company’s moving forcefully into the word process­
+ing market. “He’s not into computerese at all. In describing the electrical
+current within a system he would stand up at the blackboard, in front of
+a diagram, and talk about ‘these guys coming down this path, and then
+these guys go up this and turn that on.’”
+There was an irreverent side to Koplow as well. After only a month
+on the job he completed all the assignments he had been given and went
+in and told Doctor Wang he was bored, asking impatiently: “You got
+anything else for me to do around here?”
+Koplow found that his office was uncomfortably warm in summer. To
+remedy that, he took a hacksaw one day and diverted some of the flow in
+the air-conditioning system that fed into the Doctor’s office.
+That Koplow was irreverent or sometimes difficult mattered not the
+least bit to An Wang, for Wang saw that this man was gifted. Koplow
+was so crucial to the success of the company that Lesnick says Wang Labs
+would have gone nowhere without him.
+But Koplow’s days as die Doctor’s pet seemed rather distant when he
+was assigned to long-range planning. He arrived there to find that his
+friend Dave Moros had been exiled as well.
+But, for Moros and Koplow, winding up together was some consola­
+tion, because the two men had great mutual respect. Koplow described
+Moros as bright and perceptive, but something of an absentminded pro­
+fessor. “He can forget where the hell he is,” Koplow says of Moros.
+Moros can, in fact, appear remote. He looks at first, in his rumpled
+corduroys, like an academic specializing in Middle English. He is of
+medium height, somewhat stocky, with powerful shoulders. His dark
+hair, swarthy complexion, and dramatic good looks lend him the air of a
+patrician prizefighter. While Koplow could be loud and aggressive,
+Moros was reserved, a reflective reader of Socrates, something of an
+aesthete.
+Moros’s father had fought with the White Army in Russia against the
+Bolsheviks in the 1917 Revolution and was forced to flee the country after
+the Communist triumph. He escaped to Tel Aviv, where Dave was born
+“like selling sex on the beach”
+in 1936, two years before the family settled in the United States. After
+studying math at Tufts, where he was in the Reserve Officer rain’n®
+Corps, Moros went on active duty as a computer specialist, an wor e
+for a time on a UNIVAC. Moros earned his master’s degree in business
+administration from American University and, in 1964, joined Philip Han
+kins, Inc., where he worked on the Apollo and Gemini space projects.
+Moros had not been happy with the Wang-PHI merger. Although he
+had immense respect for Wang’s professional ability, Moros was not en­
+amored of what he considered the paternalistic atmosphere at the com­
+pany. “The place always ran like a Chinese family,” says Moros. He was
+the father. He knew best. You did what you were told. I didn t like that
+at all.”
+Moros was sent to long-range planning, he joked, “for having dis­
+turbed the peace of the Middle Kingdom” — in this case, that meant
+having gotten caught in the crossfire of company in-fighting.
+And so Koplow and Moros, two men who grew to be, in John Cun­
+ningham’s words, “like a long-married couple,” were thrown together,
+castoffs within the company.
+An Wang dispatched Koplow and Moros with the instruction that
+they try to do something with the company’s word processing mess. So
+in a very relaxed, unpressured, and who-cares kind of way,” says Moros,
+“we worked on word processing.”
+They began with a series of unhurried trips to see what the state-of-
+the-art word processing machines could do. In their travels, they were
+guided by Ed Lesnick, who had a longstanding interest in word process­
+ing. As early as 1969, Lesnick, in fact, had gone so far as to write speci­
+fications for a word processing machine. Lesnick monitored technological
+developments at other firms and, in 1975, he led Koplow and Moros on
+an inspection tour to companies, some of them tiny start-ups, in Wash­
+ington, D.C., California, and Canada. Each new machine had at least one
+strong feature, and most had major weaknesses. The Wang team wanted
+to build a machine without any of the weaknesses, but with all of the best
+features they’d seen on other machines.
+When they returned from their scouting trips these men were more
+convinced than ever that Wang could break new ground. I was sure we
+could do better,” says Koplow.
+Moros is a relaxed man who loves the intellectual side of science, but who
+is not in the least like die hackers who work nonstop for three or four offering of die B stock, several company officials had gathered together
+to prepare for an important meeting in New York with analysts at
+Moody’s Investors Service. Cunningham was involved in the preparation
+session but he was not scheduled to go to New York. He worked sales
+and marketing, not finance. But as they prepared, it became clear to
+Cunningham that he would be able to help at the presentation, diat per­
+haps he could fill a void left by Jones’s departure.
+He said to Harry Chou, who was leading the Wang team to New
+York: “Why don’t I put together five or six flip charts explaining our
+technical and company strategy and our distribution strategy, and go widi
+you?” Chou diought it was a good idea. Cunningham went along and his
+presentation was a hit. He appeared relaxed standing in front of a room
+full of financial analysts. He was a natural politician who could work a
+room with case. Cunningham made sure he was always available to Wall
+Street financial people looking for an understanding of the company, and
+he quickly gained credibility among analysts, many of whom developed
+a personal liking for him as well as professional respect.
+It was a perfect match for the Doctor, who hated going down to Wall
+Street. He neither liked nor trusted die financial community, and feared
+diey would try to get dieir hands on part of his company. He saw diem
+as a threat to his control of Wang Laboratories.
+It was very unusual for a small and growing company’s CEO not to
+attend such Wall Street meetings, but Doctor Wang hated them so much
+that he happily accepted Cunningham’s offer to stand in for him.
+Cunningham even managed to turn die Doctor’s absence to an advan­
+tage. Invariably, analysts would ask who die CEO was and where he was.
+Cunningham would fill them in on the Doctor’s background, mentioning
+his work on core memory at the Harvard Computation Lab. And he
+would say that Doctor Wang was unable to be present because “he’s in
+the back room with a soldering iron inventing the next new product.” To
+the analysts, the image of a mysterious Chinese genius in the lab was
+irresistible.
+In 1976, the Doctor put Cunningham in charge of all the company’s
+external communications — advertising, public relations, dealings with
+financial analysts.
+Perhaps the best measure of how trusting and close a relationship existed
+between Cunningham and Doctor Wang was Mrs. Wang’s reference to
+Cunningham as “our American son.”
+Though Fred Wang never considered Cunningham his American uiuuicr — rar rrom it — even he reserved high plane iui i 11 a
+ability: “John was terrific at growing die sales force at a time wi cn
+couldn’t get die best people. The company was small and die top co ege
+graduates chose IBM. John created an organization that was very g
+for what it needed to do. He had the personality, that glib style of
+He captured customers, the press, and analysts. He was into sound bites
+before dicy were popular. He’s a very intelligent guy.”
+And he worked his way up in the company in an intelligent manner.
+Both of Cunningham’s older brothers, Bill and Paul, had worked at
+Burroughs, the big computer company, and his brother-in-law was at
+Honeywell. John constantly quizzed them about the business until he felt
+he had a fairly keen understanding of Burroughs, a company for which
+he had never worked a day in his life. And he took the lessons of Bur­
+roughs and applied the best of what he had learned to Wang Labs.
+If there was a crucial asset that allowed Cunningham to climb the lad­
+der at Wang, it was range. He understood and was comfortable not only
+with sales, but also with marketing, finance, distribution, and even
+research and development. He could glad-hand with the sales guys, peer
+into die future with the marketing people, speak the language of the
+techies, and talk the intricacies of the financial world on Wall Street.
+“He can charm a venture capital audience; he’s terrific with people on
+the Street,” says David Fine, a former IBM vice-president who later
+worked as a consultant in the computer industry and got to know
+Cunningham while he consulted to Wang Labs. “John understood like
+few guys in sales the technical side, pricing, and economics. He under­
+stands the total business. He’s one of the smartest guys I’ve met.”
+“You won’t find anybody who is as bright and as good with people,”
+says Bill Dixon. “You’ll find people who are brighter and you’ll find peo­
+ple who are better with people, but you’ll never find people with both.
+In the fall of 1981, Cunningham was offered the job of president of Prime
+Computer, a fast-growing Massachusetts-based maker of minicomputers.
+It was a very big deal, indeed, for a thirty-eight-year-old man to have a
+chance to take over such a dynamic company. But Cunningham was so
+confident of his relationship with Doctor Wang and believed so strongly
+in his future at Wang Labs that he turned the job down. The Prime board
+wanted him badly enough that they approached him again with a sweet­
+ened offer. But, again, he turned it down. His future was at Wang
+Laboratories.
+“I was in a good position with Wang,” says Cunningham. I liked the
+U> ’puuay juaviu disagrees, oir, icis go wicn vvaug. nuuuuy
+ma cs a better small computer or word processor. They’re giant-killers!”
+And as die rock from David’s hand causes the entire boardroom to
+stake and knocks paintings off die wall, a voice-over says: “It happened
+crore. It can happen again. Because nobody’s hungrier than Wang.”
+It was a ficsty, attention-grabbing spot diat industry people found tit­
+illating for its direct assault on IBM. Hill Holliday wanted to air the
+commercial during the 1978 Super Bowl, but it was far too expensive.
+Instead, Connors bought tiiirty seconds on die Super Bowl pregame
+show for $150,000 — $5,000 per second. The people at Hill Holliday also
+pushed dieir contacts at CBS to air the commercial as close to game time
+as possible. On Super Bowl Sunday, die Wang brass sat back to watch,
+and they could hardly believe what they saw. The commercial didn’t just
+run close to the beginning of die game; it was die very last spot during
+die pregame show! It was like getting the first commercial during the
+game and vastly better than having it run later in the game, when die
+audience had dwindled. A mammoth audience — tens of millions of peo­
+ple was watching when die Wang commercial aired. And the effect was
+dramatic.
+“Everybody in the fucking world saw that spot,” recalls Cunningham.
+The Wang sales force was ecstatic, and customers were impressed. The
+spot ran periodically in the following months, and research showed it had
+been an overwhelming success. Unaided-awareness of Wang increased
+from 3 percent to 14 percent. Aided-awareness jumped from 10 percent to
+an impressive 35 percent. The Wang people had only one fear — that
+other computer companies would quickly catch on to how effective tele­
+vision advertising was for them. In fact, Ken Fisher, then CEO at Prime
+Computer, would run into Cunningham from time to time and ask how
+die TV advertising was working. Cunningham would innocendy reply
+that it really hadn’t worked and was a mistake. In truth, of course, it was
+working beautifully.
+That TV advertising put Wang on the map,” says Cunningham. “It
+was a nothing company everybody thought was a big deal.”
+The advertising was timed perfecdy to open doors for the salespeople.
+And once a Wang salesperson was face-to-face with a prospective cus­
+tomer, the rest was easy, for the truth was that Wang Labs was offering
+some of the finest computer products in the world, products so good that
+one industry analyst heard numerous IBM customers telling Big Blue,
+wncn it was about to come out with a new product, lu
+These superb products triggered a period of growth so specta
+in July 1979 analyst John Adams observed, “Wang’s grow ^eve it
+fastest of any major [company] in the business. Moreover, we
+will continue so for the next 12 months at least. Our conn cnce
+By die late 1970s, minicomputers were taking a sizable bite: out o
+mainframe business. Companies and government offices foun at minI
+efficiently performed many of die functions previously reserve or main
+frames at far less cost. “Minicomputer” was a misleading description.
+image it conjured up was of a small, even tiny, machine, a mee 1 e o'
+with modest ability. In truth, though they were small compare to  	
+massive mainframes, minicomputers could be as large as a re igerator
+and they were surprisingly powerful. .
+Doctor Wang and John Cunningham were eager to enter m
+computer sweepstakes, where profit margins were fat and w ere e ma
+ket was easily large enough to accommodate Wang, along w 1 ig
+Equipment Corporation, which dominated the mini market, an
+small but hard-charging contenders such as Data Gcner an rJme'
+A Wang Labs development group headed by Robert A Siegel, a r -
+liant, abrasive young designer with shaggy hair, a mustac e, an 8 ass ’
+had been working to build a minicomputer since the ear y 1970s-
+was very much like Harold Koplow a creative genius wi a g g
+tuan ego. He was a wunderkind who joined PHI as a programmer w
+he was barely twenty-two. In his rumpled corduroys, iege 00 e
+man who had lost count of how many Grateful ea conce
+gone to. At Wang, he was known to be brillian y creative, u
+also an absolutist with little willingness to compromise, lege
+was that he was right and anyone who disagree wi imwa
+wrong but probably stupid as well. A native New or er wi
+dinary competitive instinct, he had little respect for opinions that clashed
+with his. He was an intense and deadly serious young man.
+He had made enough progress on the new Wang mini that some co
+the sky, die tower was an enormous, hulking thing that was about as well-
+suited to its surroundings as a geodesic dome would be in Manhattan. It
+was gray cement, and functional. The only grudging bit of color appeared
+at die top of die tower in a bright blue Wang logo.
+Just two years later, die company opened tower two and almost imme­
+diately filled it with workers. Tower two appeared to be an exact replica
+of tower one although it was 25 percent larger. And it was crowned with
+a penthouse for the Doctor and a handful of top executives. These were
+not simple utilitarian spaces, but huge, beautifully furnished offices, every
+one with a superb view.
+“The penthouse was a big deal,” says Cunningham, “because if you
+were there, you were important. They were better facilities, beautiful
+views, great sunsets.”
+Naturally, die Doctor had the finest office, eighteen hundred square
+feet of sprawling space in which Wang was completely dwarfed.
+Architecturally, the towers gave off a somber air when all-out celebra­
+tion would have been more appropriate, for Wang Labs was nothing less
+than the savior of this soulful old mill city. By the time Wang was done
+expanding, it would go from occupying 350,000 square feet of space in
+Lowell to nearly two and a half million square feet. And, in the process,
+it would play the lead role in cutting die city’s unemployment rate to a
+mere 3 percent.
+As die 1970s drew to a close, it was clear that stories like Wang’s resus­
+citation of Lowell were emblematic of something taking place throughout
+Massachusetts. In February 1979, an article in the Boston Globe read:
+Bom and bred in Massachusetts, the computer industry has become a
+giant of this state’s economy and is growing like die proverbial bean­
+stalk. From the seeds of a science fertilized in Cambridge laboratories,
+the industry has grown in a quarter century from a fledgling whose
+functions were as incomprehensible as its jargon to a key medium for
+the United States in world competition. Likewise, the industry is now
+at the epicenter of Massachusetts’ vitality in the national marketplace.
+The pace of the computer age has been characterized by startling
+technological advances and markedly decreasing unit costs. The work
+of a machine that 20 years ago filled a room and cost several million
+dollars is now done by a chip the size of a matchhead that sells for 30
+cents. It has stimulated the productivity of an area that not so long ago
+seemed cornered by increasing energy costs, depleted natural resources
+and a declining labor pool....
+In 1976 Wang Labs wasn’t even in the top 50 of Datamation's list ol
+the country’s major computer companies. By 1979, it was number 25. Just
+two years later, it had leaped up to number 11.
+Leading all the growth indicators was the company’s stock. Its increase
+dirough the years testified dramatically to the company’s spectacular suc­
+cess. From 1976 to 1983, the effective price of Wang Laboratories stock
+climbed from $6.75 per share to more than $800 per share. An investment
+of slightly less than $8,000 in 1976 would have appreciated in 1983 to Si
+million.
+The Wang sales force that helped drive the company to such great heights
+had a gypsylike character. These were men and women who were not cut
+out of the prim-and-proper corporate mold. They were a colorful group,
+many with less than stellar resumes. The legend around the company was
+that Cunningham had taken a group of former Venetian blind salesmen
+and turned them into a formidable high-tech sales force. The Wang peo­
+ple were misfits, distinctly different from the well-trained, white-shirted,
+stiff-collared IBM crew. Exuberant Wang staffers in the company’s sup­
+port group, comprised mosdy of women, printed T-shirts with the mes­
+sage: “If you have a Wang you need support.” Not to be outdone, the
+service group printed T-shirts reading: “My Wang is always up.”
+They were their own brand of entrepreneurs, hard chargers who
+worked until the point of exhaustion and who then played, often with an
+Animal House mentality, as hard as they worked. During one meeting in
+Phoenix, a group of salespeople sat around listening to a manager drone
+on. A salesman grew bored. He raised his hand, and asked for permission
+to pull up his socks. Of course, the annoyed manager replied. The sales­
+man smiled, stood up, dropped his pants, and pulled up his socks as his
+colleagues roared their approval.
+Cunningham recruited the most aggressive, hungriest salespeople he
+could find, loaded them down with sizzling products, and shoved them
+out the door. They were unstoppable. As a reward, he paid them better
+than any other computer company in the country. While IBM paid its
+salespeople commissions under 2 percent, Wang salespeople got 5 percent
+on sales (up to a limit). It was far easier for Wang salespeople to reach an
+annual income of $150,000 than for salespeople at any other company in
+the industry. Earning much more than that was difficult because of ceil­
+ings Wang imposed. Nonetheless, some salespeople made $200,000 and
+$250,000 in a year.
+When word got around the industry of the money that could be made
+ii iLiiiuiL lenuenty to believe that everything that was right and
+good was his doing, and nobody else deserves any credit. He’s glorified
+himself at the expense of people who really did the work.”
+Peter Brooke was angry about the way in which Wang dismissed a
+deal from the 1950s in which Brooke had been instrumental. In its early
+days, when Wang Labs had been strapped for cash and searching for a
+financial partner, Brooke had found Warner & Swasey, a Cleveland
+machine tool company, and worked out an arrangement for Warner &
+Swasey to buy a 25 percent interest in Wang Labs.
+“Wang had a selective view of history,” says Brooke. “Jim Hodge and
+Myron Curtis, the director of research at Warner & Swasey, convinced
+Wang to manufacture his own products. In the pivotal years of the early
+’60s, the Warner & Swasey guys had an important influence. Warner &
+Swasey gave him an equity base to expand and gave him guidance.”
+But in the book, Wang trashed the Warner & Swasey deal.
+Frank Trantanella, an engineer who worked at the company in the
+early days, was also angered by the book. “My own view of him changed
+after reading the book,” says Trantanella. “It was sad. The book shreds
+facts to create a fairy tale to suit his own purposes.” Trantanella says a
+particularly egregious omission is the significant role played in the com­
+pany during the 1960s by Wang’s old friend from China, Dr. Ge Yao Chu.
+Chu had worked extremely hard during the early years, says Trantanella,
+and he produced much of the fine work done by the company back then.
+Chu was a major player at the company and the book, says Trantanella,
+does not convey that. Indeed, Chu is mentioned only once.
+Another serious slight by Wang involved the case of PHI, the software
+company Wang Laboratories acquired in 1968. Within a year after the
+purchase of PHI, the Doctor writes in Lessons, “a large number” of the
+people “whose expertise was PHI’s principle asset — had left the com­
+pany. ... The defections were irritating at the time, and it taught me the
+lesson that if you enter into a relationship with a company whose prin­
+cipal asset is people, you should do so in a way that does not remove all
+incentives for those people to continue working.”
+PHI founder Phil Hankins says it is his recollection that only one of
+the major players at PHI left after about a year, and Hankins himself left
+after about a year and a half. But the crucial point that Doctor Wang does
+not acknowledge was that, in taking over PHI, Wang Labs embraced
+three engineers whose products earned many billions of dollars for Wang.
+No less a group than David Moros, Bob Siegel, and Bob Kolk came to
+Wang through PHI. Not only is it contrary to the historical record to discount the VH1 deal, there arc those who believe that without uic uiun>
+power that PHI brought to the company, Wang Laboratories might
+never have been anything more than a small maker of scientific
+calculators.
+If Lessons disclosed little about the Doctor’s emotions, about the inner
+workings of the man, one thing it did reveal was Wang’s expectation that
+his sons would follow him into the business. It was the first time he had
+ever made that declaration publicly.
+“I want my children to have the opportunity to demonstrate their skills
+at management,” Wang wrote. “In fact, I consider it their obligation —
+rather than their privilege — to do so.”
+This attitude contrasted sharply with the practice of fellow Lincoln
+resident Kenneth Olsen, president of Digital Equipment Corporation. In
+The Ultimate Entrepreneur, their book about Olsen and Digital, Glenn
+Rifkin and George Harrar write that Olsen “came to believe strongly that
+nepotism was as bad in business as in politics.... Digital was his, not
+die family’s, business.”
+Olsen’s brother Stan worked at the company for a number of years,
+but after Stan took a year’s leave of absence, his brother did not urge him
+to return to work. And
+no other family members, be it his youngest brother David, his sons
+Glenn and James, or his daughter Ava, were invited to join the business.
+He was adamant that, as a public company, DEC owed its allegiance
+to the stockholders and not members of the Olsen clan. Unlike corpo­
+rate neighbor An Wang, who groomed his son Fred to take over Wang
+Laboratories, . . . Ken has no interest in passing along his legacy to an
+Olsen.
+Though Fred says he “never did anything just to please Dad,” a senior
+company executive close to both Fred and his father says that “Fred was
+following his father’s plan. Fred was obediently following his father’s plan,
+sublimating, to a certain degree, himself as part of this very, very strong-
+willed great man.”
+Life in the Cunningham period suited the Doctor well. During those
+years An Wang had been able to remove himself from the day-to-day
+affairs of the company, to leave most operational matters to his president,
+freeing himself to dabble in whatever R&D, financial, philanthropic,
+political, or educational projects caught his eye. But with Cunningham’s 
+pany officials believed die machine should have been announced much
+earlier. But Siegel would not allow it out die door until it was perfect,
+strange as diat was in an industry where incomplete products are com­
+monly announced. However, no one within the company wanted to trifle
+with Siegel. The talk around Wang was that once, when Siegel was pas­
+sionately making a point during a meeting, Doctor Wang and Fred Wang
+entered die room — and he ordered them out.
+The computer that Siegel’s team produced was called the Wang VS. It
+had many of the characteristics of a mainframe computer because it was
+essentially modeled after die popular IBM 360.
+“The VS was very easy to operate,” says John Cunningham. “There
+were a lot of minis for scientific and engineering purposes from DEC,
+HP, and Data General. The Wang VS was one of the first minis for com­
+mercial application.”
+The toughest test of the VS was competition from the now legendary
+VAX computer, which was announced by Digital only weeks after the
+debut of the VS in October 1977. In sales, the VS more than held its own
+against the VAX, and for business needs, die VS proved vastly superior
+to the VAX.
+When the VS fully hit the marketplace in 1979, it gave Wang its third
+hot product. The 2200 small-business computer continued selling well, and
+the Wang Word Processing System had become an industry phenome­
+non. Most high-tech companies would have been more than delighted
+with a single product as popular as any one of Wang’s three top sellers.
+Collectively through the years, the 2200, the VS, and the word processing
+system would yield billions of dollars of revenues for Wang Laboratories.
+These three remarkable products were attributable to four men. Thou­
+sands of Wang employees contributed to the cause, of course, but the
+success of these three offerings could be traced back to the three technol­
+ogy team leaders who, along with Doctor Wang, had developed the prod­
+ucts. Bob Siegel guided the VS team. Koplow led the word processing
+group. And Bob Kolk guided the 2200 development.
+Kolk was very different from Siegel and Koplow. He was older by a
+half-dozen years, and he more readily listened to others’ views. He had
+graduated from MIT in 1958 and had gone to work for North American
+Aviation, the company that would later become Rockwell International.
+He earned a master’s degree in engineering from the University of South­
+ern California and joined PHI in 1966 when it was the hottest software
+house around. While Siegel shunned social activities at PHI, however, Kolk participated enthusiastically in company softball games and beer
+parties.
+At Wang, Kolk gained a reputation as smart and reliable. Though e
+wasn’t considered as flashy an intellect as either Koplow or Siegel, he was
+respected for his steadiness. Kolk was particularly popular among the
+salespeople, who appreciated his willingness to listen to what customers
+wanted in products. Kolk, in fact, was quite skillful in his dealings wit
+customers, far smoother than most R&D people.
+Other titan their success, the three men held in common only one
+thing: a mutual enmity. At times, hostilities even broke into the open.
+But dtat problem was solved by the fourth man to whom the compa­
+ny’s technological success could be attributed — An Wang.
+During the early glory years, from about 1977 through 1981, An Wang
+was as untraditional a CEO as there was at an American company, or
+he was not only CEO but he was also chief of development the man
+who presided, day-to-day, over the R&D operation. Throughout e
+company’s most successful years, An Wang was intimately involve in e
+running of his company, but he paid vastly more attention to R ur
+ing the early part of that period than he did during the later part. Jo
+Cunningham estimates that before 1981, Wang spent fully 65 percent|
+his time working on development projects. This is one of e reasons 1
+products were so good. He didn’t merely assign a product eve °P^nc*
+task to a team and forget about it for six months, he wor e wi e
+team day in and day out. He moved from one development meeting
+to the next, listening to plans and ideas, tossing out comments ere
+and there. He spent endless hours in meetings with aro op o ,
+working on refinements to the word processing system, e wor e
+Bob Kolk to develop a personal computer; and e a re e
+sively with Bob Siegel on the original VS and its su sequent g
+tions. . ,.
+Up until about 1981, when the company rose from its extraordinary
+success to become some sort of phenomenon, the Doctor spent a ou
+percent of his time on corporate matters such as the companys n ,
+the marketing and sales plan, and so on. Only about 15 percent °
+time went to various functions with employees an customers.
+lunches, dinners, and cocktail parties were not the Doctor s strength,
+he did his best to avoid them. But when his sales managers from through­
+out the world or the country gathered in Boston or Lowe , e e t co
+pelled to show up. With regular meetings of manufacturing managers,

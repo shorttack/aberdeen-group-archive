@@ -1,0 +1,194 @@
+﻿PETER S. KASTNER Professional Biography (1979)
+Mr. Kastner is a senior member of the staff of Arthur D. Little Systems, Inc., 
+a division of Arthur D. Little, Inc. His responsibilities include systems design 
+and implementation, project planning and management, and computer systems 
+consulting assignments. While primarily specialized in many aspects of business 
+systems, he is also experienced in law enforcement, hospital administration, accounting,
+real-time systems, and minicomputer sizing, selection and procurement.
+A large international bank [Chase Manhattan] required design consulting and implementation
+expertise for a massive trust securities handling system. Mr. Kastner
+managed and acted as lead designer of the securities subsystem.
+He assisted in the design of the client account and conversion subsystems.
+During the project implementation, Mr. Kastner managed and acted as chief
+programmer for the securities subsystem. The application used the
+COSMOS application management package to minimize development time.
+Once converted, an IBM 360/65 processed 174,000 unique securities held
+by over 25,000 trust clients with a combined value of over $10 billion [1975]. The 
+securities subsystem manages these securities, producing sixty accounting, 
+customer and management infor­mation reports. The project was done under severe time 
+constraints as the existing punch-card-based system literally ran out of spare parts 
+to keep it running. Using COSMOS, Mr. Kastner and another programmer had 25 million 
+lines of debugged COBOL code ready in under a year.
+
+Mr. Kastner designed, programmed and installed three sales analysis
+systems for a major publisher [Houghton Mifflin]. One system grouped product sales by
+geographic region in order to measure textbook acceptance at individual colleges. 
+The second system analyzed company sales and produced detailed reports for a 
+publisher's association. The aggregated industry statistics were compared to 
+the company’s actual performance. The third system measured trade sales and 
+certain product lines against budgets and forecasts. Mr. Kastner also assisted 
+in the installation of the publishers remote-batch order processing and inventory 
+control system. All work was performed on a Honeywell system 2000 in COBOL.
+Before starting those projects, Mr. Kastner participated in a failed project 
+stabilization effort for the customer’s new order entry and inventory management system,
+which had been prematurely placed in production. Once remediated, more that 100 days
+of production had to be re-run so the company could meet its NYSE reporting obligations.
+
+For a food products manufacturer [Ocean Spray Cranberries], Mr. Kastner participated as lead analyst in a study plan for the automation of the company's financial and accounts
+system, including order entry, inventory control, invoicing, shipping and
+sales analysis. Working with a user committee, he developed the functional
+specifications for each application. A hardware evaluation selected a Burroughs B1700 computer with programs using Forte II and NDL, with TC500 intelligent terminals in four locations across the country. A telecommunications study chose the most cost-effective means of transmitting to remote sites. After the study was approved by company management, Mr. Kastner managed the development of detail application design specifications. He subsequently managed the implementation and installation of the five systems at plants across the country. The five applications were order entry, inventory control, shipping, invoicing and sales analysis. The system was complicated by government contract accounting, several kinds of promotional price discounting, and differences in raw and processed product accounting. Interfaces exist to accounts receivable, general ledger, material requirements and standard cost applications. The project required five man-years of effort.
+
+Mr. Kastner designed, managed and assisted in the programming of a salesman incentive bonus system for a mutual insurance company [Mass Mutual]. The system applies a decision table to each category of sales and maintains a history of sales by salesman. A tanked transaction edit concept was used to store transactions during the month, prior to updating the system master files. Written in ANSI COBOL, the sales incentive system
+runs on an IBM 370/135 under DOS/VS.
+Mr. Kastner was the lead analyst responsible for the conceptualization,
+functional specification and systems architecture design of an on-line
+order processing and inventory control system for the American subsidiary
+of a major Canadian telephone equipment manufacturer [Nortel]. The system was
+designed to operate on an IBM 370/158 using CICS and a TOTAL database.
+Six remote plants and warehouses were connected to the system. The
+applications included order entry, inventory control, stock replenishment
+accounts receivable and invoicing.
+Mr. Kastner designed, implemented and installed the cost accounting module
+in a basic accounting system for the Federal University Hospital [UFRJ] in
+Rio de Janeiro, Brazil. The system processes payroll, inventory and
+other entries and reports on current and year-to-date expenses against
+budget and prior periods. The cost system features a general ledger
+subsystem which reports on all hospital revenue and expenses. Implemented
+on a Burroughs B67OO in COBOL, the system runs daily with weekly, monthly
+and annual reporting. The documentation includes extensive user procedures.
+As technical leader for the Brazilian project, Mr. Kastner also contributed
+to the design and implementation of a payroll/personnel and a patient
+census system. He provided a year of remote and on-site customer support.
+
+For an ADL client hospital in Brazil [UFRJ], Mr. Kastner directed the installa­tion 
+of a hospital inventory control system. The system was converted
+from a Burroughs B3500 to operate on a B6700 in a university environment.
+He developed operations procedures, run-time job control and installed
+the system. He managed the program changes necessary to tailor the system
+to the Brazilian hospital environment, including manual methods and
+procedures, and translation to Portuguese.
+
+A well-known minicomputer manufacturer [Digital Equipment] required assistance in developing
+a payroll/personnel system for the corporation. Mr. Kastner designed,
+programmed, tested and installed an on-line inquiry and update program
+which processes new hires, terminations, leaves of absence, and all
+individual field changes. Running on a DEC-10 computer, the payroll/
+personnel data base is protected by extensive restart and recovery
+routines. All input and output are handled through conversational CRT
+terminal methods including prompting. Each transaction is thoroughly
+edited by the program using edit tables loaded from data files at run-time.
+Mr. Kastner participated as senior software engineer in a study to determine
+the requirements for a computer-assisted dispatching (CAD) system for the
+Police Department of a major Florida city [St. Petersburg]. The study encompassed a site
+survey, hardware and software evaluation and recommendations, functional
+specifications, systems architecture specification, and a multi-phased
+implementation plan with specific recommendations for grant funding
+requests. He was responsible for performing the hardware and the
+software evaluation. The city’s IBM 370/135 computer was determined
+to be the most cost-effective means of implementing the system. The
+software evaluation led to his recommendation of transferring a
+dispatching system from another city [Hampton, VA], installing it under CICS, and
+modifying the software. Mr. Kastner was a major contributor to the
+other areas of the study.
+Mr. Kastner was the major contributor to a study of the computer-assisted
+dispatching requirements for a major Florida city [St. Petersburg] fire department. He
+prepared functional specifications; hardware requirements analysis for
+computer hardware, dispatcher terminals and mobile status terminals;
+software estimates; and a five-year implementation plan. Fire dispatching,
+in this case, differed from police dispatching in that specific fire
+units are computer recommended based on a data base containing geographical
+references and a pre-fire plan for every building in the city. Key
+building data is transmitted to the mobile terminals while the fire
+equipment is enroute to the fire.
+Mr. Kastner managed the preparation of a proposal to an international
+bank [Citibank] to automate world-wide funds transfers with a network of minicomputers.
+The system had stringent reliability and availability requirements, which
+required state-of-the-art hardware and control software. The application
+processed funds transfers through a star network with interfaces to Federal
+Reserve, CHIPS, SWIFT, Bankwire and the bank's own network of 250 overseas
+branches. A complex database allowed current and historical transactions
+access through multiple inverted indices.
+For an ADL client, a Midwestern newspaper chain [Parade Magazine], Mr. Kastner
+contributed to a study of the company’s business systems. He assisted as lead
+analyst in defining applications which warranted automation, developing
+an overall systems architecture, selecting a central computer system
+and remote intelligent terminal hardware, and in establishing the company’s
+data processing organization. He prepared functional specifications
+for the priority applications and evaluated business systems software packages.
+
+As vendor support manager, Mr. Kastner is responsible for the management
+of our OEM relationship with Data General Corporation, Digital Equipment Corp., 
+and Hewlett-Packard. He is responsible for minicomputer configuration manufacturability, hardware and 
+software ordering and scheduling, customer site planning, and installation. He acts as
+technical consultant on Data General products, including new product
+evaluation.
+As vendor support manager, Mr. Kastner contributed to the ADLS Public Safety 
+Group’s projects. The company developed custom, fault-tolerant minicomputer systems 
+for police dispatching (e.g., 911 calls)including Boston, Philadelphia, Minneapolis, 
+Aurora (CO), and St Petersburg (FL). Developed under federal funding and LEAA 
+regulations, these systems typically used state-of-the-art mobile communications 
+to police (and fire) units.
+For a large science and engineering development company [American Science and Engineering],
+Mr. Kastner led a team in auditing the FORTRAN source of a pioneering Computer-Aided 
+Tomography (CAT)scanning product. This early hospital diagnostic tool took particular 
+steps to avoid exposing patients to excess radiation in spite of any kind of system failure.
+For an Arthur D. Little project, Mr. Kastner participated in a team writing FORTRAN programs
+for a United States Navy ship design study [CASDOS].
+Mr. Kastner has a secret clearance, and he serves as the Security Officer of ADLS.
+Philip Hankins, Inc. (PHI)
+Prior to joining ADLS, Mr. Kastner was a senior programmer/analyst
+with the Professional Services division of PHI Computer Services, Inc., a 
+subsidiary of Wang Laboratories.
+Mr. Kastner converted an Accounts Receivable system from DOS COBOL to
+OS/MVT on a 360/65. Several enhancements were made to the system to
+link receivables with general ledger, provide additional cash control
+and management reports. The conversion process included combining six
+programs into two major processing modules. These new programs cut the
+system operating costs by one half.
+Mr. Kastner helped design, and later programmed, the internal accounting
+system for PHI Computer Services, Inc. He developed interfaces to
+proprietary and general ledger systems; programmed the contract status and
+machine time accounting systems; designed and programmed a travel expense
+accounting system; and programmed a labor cost system. All of these
+systems were written in OS/360 COBOL to run on a large system 360 computer.
+The machine-time accounting and contract status reporting systems were
+programmed by Mr. Kastner. Based on reduced SMF data from a 360/65, the
+machine accounting system bills CPU time; channel I/O time; disk storage;
+tape, disk, card and printer time. Rates were based on job priority and
+a complicated discount schedule. The contract status system bills
+professional service labor and expenses on a contract basis. A common
+invoice is prepared based on input from the machine time and contract
+status systems.
+
+For a large mid-Western bank [First Chicago], Mr. Kastner assisted in the design and
+programming of a correspondent bank demand deposit accounting system.
+Each of the fourteen correspondents had a custom-tailored application
+based on run-time parameters and a flexible model application software.
+The system language was COSMOS, a proprietary package which greatly
+improves programmer productivity. Mr. Kastner programmed the interface to
+an on-line check processing front-end, and the validation and update
+portions of the DDA system.
+Mr. Kastner designed and programmed a retail gas station accounting 
+system for a chain of gas stations {Cumberland Farms]. Written in IBM COBOL, the system
+processes dally cash transmittal forms which are proved to pump meter
+readings. Periodic physical inventory double checks reported oil,
+accessory and TBA sales. Weekly and monthly management reports are
+produced to highlight sales trends.
+For a regional bank [Marine Midland], Mr. Kastner designed and implemented application
+changes to a bond portfolio analysis system, allowing 30-year bonds to be traded in
+1970. This served as an early introduction to Year 2000 issues everyone faced
+decades later.
+Mr. Kastner designed modifications to the PHI Payroll package to allow
+on-line batch entry and concurrent master file processing. The client,
+a large commercial bank, had trouble meeting deadlines for its 460
+customers with a strictly batch system. The design allowed for any
+customer's payroll to be released for posting once a batch or batches
+of timecards were entered and edited. To make the approach
+work, significant problems in the areas of exclusive record access,
+restart, and recovery had to be solved.
+Mr. Kastner attended Cornell University and the University of California at Berkeley. 
+He has formal training in project management, accounting, data base systems, 
+control of material flow, and telecommunications.
+Additionally, he has attended specialized courses sponsored by IBM,
+Burroughs and Data General. He is a member of ACM.

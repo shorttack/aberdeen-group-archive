@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Computerworld Server Coverage: Intel Itanium 2 vs Sun UltraSPARC \u2014 Kastner Aberdeen EVP on Sun's Pressure (June 2002)",
+  "description": "June 2002 Computerworld feature contrasting Intel's then-imminent Itanium 2 (McKinley) with Sun Microsystems' UltraSPARC server line. Peter Kastner \u2014 quoted as 'executive VP of the Aberdeen Group in Boston' \u2014 characterizes Itanium 2 as putting 'more pressure on Sun earlier than we had anticipated', cautions readers to 'wait until [Itanium 2] are announced by the OEMs' for real-world performance and frames Intel's positioning: 'Clearly Intel wants to compare the Itanium with the best-in-breed of the RISC processors where Sun has the broadest market share.' Kastner notes Itanium 2 has 'trumped even Moore's Law in some performance tests' but that the benchmarks that really matter will be those tested on shipping OEM systems. Critically, Kastner observes that the 1-2 performance benchmarks are 'probably a little too close for comfort for Sun's liking' in 1-way to 4-way boxes, but that Sun's UltraSPARC chips 'can really strut their stuff in systems with up to 100 processors operating simultaneously'. This is a clean Aberdeen-EVP Kastner quote on the Intel-vs-RISC server-architecture debate that defined the early 2000s enterprise server market.",
+  "creator": {
+    "@type": "Person",
+    "name": "Computerworld (staff)"
+  },
+  "datePublished": "2002-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

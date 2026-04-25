@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"intel-itanium-2","Intel Itanium 2 (McKinley)","microprocessor","Intel/HP","2002-2017","newly-launched-2002","obsolete","computerworld-itanium-2-vs-sun-kastner-2-1e4505","EPIC architecture; positioned vs RISC enterprise CPUs"
+"sun-ultrasparc","Sun UltraSPARC Server CPU Family","microprocessor","Sun","1995-2010s","current-2002","obsolete","computerworld-itanium-2-vs-sun-kastner-2-1e4505","Sun's RISC server CPU; 1-100 processor scaling cited"
+"intel-vs-risc-server-debate","Intel-vs-RISC Enterprise Server Architecture Debate","competitive-dynamic","industry","1990s-2010s","active-2002","resolved-in-favor-of-x86-amd64","computerworld-itanium-2-vs-sun-kastner-2-1e4505","Defining 1990s-2000s enterprise server market debate"
+"oem-shipping-benchmarks","OEM-Shipping-System Benchmark Methodology","benchmark-methodology","industry","1990s-present","current-2002","ubiquitous","computerworld-itanium-2-vs-sun-kastner-2-1e4505","Real-world benchmark via shipping OEM systems vs reference platforms"

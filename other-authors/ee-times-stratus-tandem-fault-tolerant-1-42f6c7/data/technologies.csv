@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-32-cps","Stratus/32 Continuous Processing System","computer-system","Stratus","1982-1990s","newly-launched-1982","obsolete","ee-times-stratus-tandem-fault-tolerant-1-42f6c7","Subject of EE-Times competitive piece"
+"stratus-self-checking-hardware","Stratus Self-Checking Hardware Pair Architecture","computer-architecture","Stratus","1980-present","newly-launched-1982","active-in-stratus-ftServer","ee-times-stratus-tandem-fault-tolerant-1-42f6c7","Pair-and-spare hardware fault detection — Kastner's architectural argument"
+"tandem-nonstop-ii","Tandem NonStop II","computer-system","Tandem","1981-mid-1980s","current-1982","obsolete","ee-times-stratus-tandem-fault-tolerant-1-42f6c7","Tandem's mid-range FT system, software-based FT"
+"32bit-fault-tolerant-server","32-bit Fault-Tolerant Server Class","computer-architecture","industry","1980s-1990s","emerging-1982","subsumed-into-HA-clusters","ee-times-stratus-tandem-fault-tolerant-1-42f6c7","Newly-emerging 32-bit FT category in early 1980s"
+"motorola-68000","Motorola 68000 CPU","microprocessor","Motorola","1979-1990s","current-1982","obsolete","ee-times-stratus-tandem-fault-tolerant-1-42f6c7","Used in Stratus/32 module CPU pairs"

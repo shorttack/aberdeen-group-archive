@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-tp1-benchmark","Stratus TP-1 Internal Transaction Benchmark","internal-benchmark","Stratus","1980s","current-1985","obsolete-superseded-by-tpc-a-b-c","stratus-internal-benchmark-tuning-guide--c53e3f","Stratus's internal TP1; not the same as ET1; 5 reads + 2 rewrites + 1 log write per tx"
+"stratus-xa600","Stratus XA600","computer-system","Stratus","mid-1980s","current-1985","obsolete","stratus-internal-benchmark-tuning-guide--c53e3f","Top XA-series before XA2000; benchmarked at 5.0 tps TP-1"
+"stratus-xa400","Stratus XA400","computer-system","Stratus","mid-1980s","current-1985","obsolete","stratus-internal-benchmark-tuning-guide--c53e3f","Mid XA-series; benchmarked at 3.4 tps TP-1"
+"stratus-ft200","Stratus FT200","computer-system","Stratus","mid-1980s","current-1985","obsolete","stratus-internal-benchmark-tuning-guide--c53e3f","FT-series entry; benchmarked at 1.7 tps TP-1"
+"stratus-d108-disk","Stratus D108 Duplexed Disk","storage-device","Stratus","mid-1980s","current-1985","obsolete","stratus-internal-benchmark-tuning-guide--c53e3f","D108 used in XA600 TP1 best-case configuration"
+"fuji-disk-1985","Fuji Disk Drives (Stratus 1985)","storage-device","Fuji / Stratus","1980s","current-1985","obsolete","stratus-internal-benchmark-tuning-guide--c53e3f","Fuji disks in XA400/FT200 TP1 configurations"

@@ -1,0 +1,4 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"stratus-32-cps","Stratus/32 Continuous Processing System","computer-system","Stratus","1982-1990s","newly-launched-1982","obsolete","stratus-olivetti-40m-deal-eagle-tribune--b7e3b1","Stratus's first commercial product; 32-bit super-mini with VOS"
+"stratus-vos","Stratus VOS (Virtual Operating System)","operating-system","Stratus","1982-present","newly-launched-1982","active-as-stratus-vos","stratus-olivetti-40m-deal-eagle-tribune--b7e3b1","Stratus proprietary OS bundled with Stratus/32 in 1982"
+"stratus-oem-channel","Stratus OEM International Distribution Channel","go-to-market-strategy","Stratus / Olivetti","1982-1990s","newly-launched-1982","obsolete","stratus-olivetti-40m-deal-eagle-tribune--b7e3b1","Three-year $40M OEM agreement with Olivetti for European distribution"

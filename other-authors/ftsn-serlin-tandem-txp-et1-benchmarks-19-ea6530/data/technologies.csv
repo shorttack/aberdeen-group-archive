@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"tandem-txp","Tandem TXP System","computer-system","Tandem","1983-late-1980s","current-1985","obsolete","ftsn-serlin-tandem-txp-et1-benchmarks-19-ea6530","Tandem flagship FT system mid-1980s; 4-processor benchmarked here"
+"ibm-tpf2","IBM TPF2 (Transaction Processing Facility 2)","transaction-processing-system","IBM","1979-present-as-z-tpf","current-1985","active-as-z-tpf","ftsn-serlin-tandem-txp-et1-benchmarks-19-ea6530","IBM mainframe FT TP environment; cited as cost/tps benchmark"
+"et1-debit-credit","ET1 Debit-Credit Benchmark","transaction-processing-benchmark","industry / Anon-et-al / Datamation","1985-1989","current-1985","superseded-by-tpc-a","ftsn-serlin-tandem-txp-et1-benchmarks-19-ea6530","Datamation April 1985 anon-et-al; subject of FTSN-33 cross-vendor reporting"
+"tandem-guardian-pathway-tmf","Tandem Guardian + Pathway + TMF Stack","operating-environment","Tandem","1980s-1990s","current-1985","obsolete","ftsn-serlin-tandem-txp-et1-benchmarks-19-ea6530","Tandem fault-tolerant software stack benchmarked V.2/V.5/V.6"
+"tandem-fox-network","Tandem FOX Inter-System Network","networking-architecture","Tandem","1980s","current-1985","obsolete","ftsn-serlin-tandem-txp-et1-benchmarks-19-ea6530","10-system FOX network thesis: 1000 tps achievable"

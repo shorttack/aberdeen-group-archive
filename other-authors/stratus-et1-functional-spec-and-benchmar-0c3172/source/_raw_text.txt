@@ -1,0 +1,748 @@
+
+===== Stratus-debit-credit-ET1-1986-Tandem-6.txt =====
+              STRATUS ET1 FUNCTIONAL SPECIFICATION
+
+                         May lr 1986
+
+
+
+
+Stratus ET1 Functional Specification                 May 1, 1986
+               STRATUS ET1 FUNCTIONAL SPECIFICATION
+
+
+
+
+CONTENTS
+
+
+
+1.   Introduction
+
+2.   The Transaction
+
+3.   The Database
+
+4.   The Results
+
+
+
+
+NB:  This document, written by Stratus Computer, Inc. staff, is
+based on an article by 'anon et al', published in the April, 1st,
+1985 issue of Datamation, titled *A Measure Of Transaction Pro­
+cessing Power 1.
+
+
+
+
+Stratus ET1 Functional Specification                   May 1, 1986
+1    INTRODUCTION
+
+
+In order to measure the performance of on-line transaction pro­
+cessing systems, a group of computer professionals (including ac­
+ademics, vendors, and users)     created a benchmark profiling a
+banking transaction.  The benchmark - also known as the. debit­
+credit transaction, or ET1, (or mistakenly TP1, which it is not)
+has become an oft-quoted standard in the industry after it was
+used in 1973 by a large retail bank to select a vendor who could
+handle its 1,000 branches, 10,000 tellers, and 10,000,000 ac­
+counts at a peak load of 100 transactions per second.
+
+In an effort to evaluate its systems, Stratus created the TP1
+benchmark. TP1 - the Stratus-internal standard benchmark is not
+based on ET1,    or the debit-credit transaction. The number and
+type of I/O operations it performs are different, and the data­
+base it operates on is different as compared to the one ET1 oper­
+ates on.
+
+Due to various known and unknown reasons, it has become a popular
+misconception outside Stratus that TP1 and ET1 are the same.
+Vendor comparisons based on the TP1 vs. ET1 results, though done
+often, are invalid.    In an attempt to clear up this misconcep­
+tion, and enable an 'apples to apples'   comparison, Stratus is
+creating and benchmarking the ET1 transaction as described in the
+article by 'anon et al' in the April, 1st, 1985 issue of Datama­
+tion.
+
+The purpose of this document is to define the Stratus ET1 bench­
+mark, its profile, and the environment in which its performance
+is measured.
+
+
+
+
+2.   THE TRANSACTION
+
+
+The definition of the Stratus ET1 transaction is as follows:
+
+Begin-Transaction
+
+Read Input (X.25) Key = [Branch   I Teller I Account]
+
+
+
+
+Stratus ET1 Functional Specification                    May 1, 1986
+Read Account    (relative - keyed)
+Rewrite Account
+
+Read Teller       (relative - random)
+Rewrite Teller
+
+Read Branch    (relative - random)
+Rewrite Branch
+
+Write History (sequential)
+
+Write Acknowledgement (X.25)
+
+End-Transaction
+
+
+
+One pair of Read and Rewrite I/O operations is equivalent to one
+Update operation.
+
+
+
+
+3.   THE DATABASE
+
+
+The Stratus ET1 benchmark will access four files.              The attributes
+of these files are described below.
+
+
+File Name         Record Size    File Size             Orgzn      Access
+                                 (per module]i
+
+Account           100 bytes      200 MB                Relative   Indexed
+Teller            100 bytes      0.2 MB                Relative   Random
+Branch            100 bytes      0.02 MB               Relative   Random
+History           50 bytes                             Seqntl     Seqntl
+
+File size refers to the size of files at         the     beginni ng   of    the
+benchmark.
+
+These file sizes are one-fifth (1/5) the database size of the
+full implementation since the expected arrival rate of the Stra­
+tus ET1 benchmark is twenty (20) transactions per second as com­
+pared to the hundred (100) transactions per second arrival rate
+of the full implementation      (i.e. 20/100 = 1/5). The final
+throughput of the system that meets response time requirements
+may be higher or lower than this arrival rate, twenty (20).
+Hence, this number twenty (20) should not be confused with the
+results of the benchmark.
+
+
+
+
+Stratus ET1 Functional Specification                              May 1, 1986
+There will be (per processing module)   :
+
+Two (2) million Account records
+Two thousand (2000) Teller records
+Two hundred (200) Branch records
+
+The Account files will be a keyed access files (key length of ten
+(10)  bytes), the other files will be random access files. All
+data files will have record level locking.
+
+All keys will be generated randomly. The keys that are used as
+input to the benchmark will be generated such that eighty-five
+percent (85%) of the time the transaction is performed on a ran­
+dom account at the current branch, and fifteen percent (15%) of
+the time the transaction is performed on a random account at a
+different branch    (which might be on a different module in the
+multi-module case).
+
+
+
+
+4.   RESULTS
+
+In general, performance is quantified by measuring two metrics:
+response time, and transactions per second (tps). Response time
+is defined as the time taken to perform a single transaction (on
+a system under the full Stratus ET1 benchmark load) after the ar­
+rival of the last bit of input from the communications line and
+before the transmission of the first bit of output to the commu­
+nications line.   Transactions per second (tps) is equal to the
+total transactions completed during the benchmark divided by the
+total elapsed time (in seconds) required to complete the bench­
+mark. Hence, tps will include system overhead, line delays, X.25
+time, etc.
+
+The results will be from a system tuned to achieve the best per­
+formance. There are no restrictions on memory,    or disks,   or
+other tuning parameters.
+
+The actual results of running this benchmark are reported sepa­
+rately.  Since we expect these results to vary over time due to
+differences in operating system release, hardware configuration,
+etc., and we expect the ET-1 benchmark to remain the same, we
+have only functionally described the benchmark in this document.
+
+
+
+
+Stratus ET1 Functional Specification                   May 1, 1986
+                 CAKdON        COPY      ------
+To:
+                 Clark Hodder/ Franz Smolkovic
+CC:
+                 Bill Elliott/ Dick Luebke/ Peter Kastner
+Subje c t:
+                 Your comments on an Omri Serlin FTSN article
+?a*e Sent:       September 25/ 1986 at  4:45 pm
+From:            Raphael Frommer
+
+ e debate on how we and Tandem ran ET-1 continues.  Dick has
+ust handed me the latest from Omri Serlin.  Let me quote
+xcerpts from the September 15th issue of his Fault Tolerant
+ystems Mewsletter;  it talks about the ET-1 methodology used by
+s and Tandem:
+
+The publicized Tandem results were obtained with a so-called
+lean* version of the benchmark/ in which checkpointing between.
+he primary and secondary TCPs was disabled.  This fact was not
+i sclosed."
+
+Tandem notes that/ despite the unprotected TCPsz its results
+re valid because auto-ro I I back was in effect during the
+i mi ng. "
+
+  thoughts   on the   above    statements/   assuming they're both true:
+
+   TMF was   clearly on;      the database's integrity is guaranteed
+
+.  When Omri says checkpointing between primary and secondary
+CPs was disabled/ I am taking that to mean there were NO
+econdary TCPs running.
+
+>.      I believe Tandem used something in PATHWAY called TCP
+  restart".        My impression is that under this mechanism the TCP
+  ure enough dies completely/ any transactions it had in progress
+ire then aborted cleanly by TMF/ and then (here's the cute
+> a r t: ) the PATHMON process/ detecting the TCP's death/
+•econfigures all its terminals to a freshly started TCP           Of
+:ourse/ this results in the terminals coming up in their top
+.evel menu screen ...          obviously not where they were when the
+> r i g i n a I TCP first died .  All the context that had been
+leveloped by the dead TCP is obviously lost.          This "Lean"
+ lechanism is not as fault tolerant as possible because of this
+  nevitable context loss.
+
+; would like your thoughts on this subject/ since you quit
+Fandem more recently than I and probably have a more current
+jnderstanding of PATHWAY'S capabilities.   Am I indeed correct in
+saying that Omri's statements imply Tandem's ET-1 benchmark was
+ iot run as fault tolerant as it might have been?
+
+Fandem has argued we cheated by not using transaction
+protection.        Our counter has been that protection was not called
+for in the benchmark specification/ and there is evidence to
+support that (the sequential logging file would serve such a
+purpose).        We now may be able to counter claim that Tandem
+-heated.        They boasted they ran a FT benchmark but didn't
+j e I i v e r FT requesters.
+               Stratus Computer, Inc.        07/09/86
+         Configuration For XA600 Configuration for ET-1 Benchmark
+               Module Name ml
+               System Name
+
+
+Model                                              Unit               Total      Mai nt
+Number      Description                           Price Qty           Price      Price
+                                                  ($)                  ($)        ($)
+       —SYSTEM------------------------------
+P613     XA600 Package 8MB                       263,900       1     263,900           80b
+ (8 Megabytes Duplexed)
+ - Duplexed XA600 CPU's
+ - Expansion Cabinet
+ - Duplexed Memory Controller
+ - Duplexed Communications Controller
+ - 1 Communications Panel
+ - 1 C103 Direct Async Line Adapter
+ - Calendar Clock & Remote Support Link
+ - Duplexed Power Supplies
+ - VOS (Virtual Operating System)
+T200     6250 TAPE CONTROLLER                    10,000         1    10,000             8b
+T201     6 250 TAPE DRIVE                        25,000         1    25,000            200
+cm       REMOTE SERVICE MODEM-S                       0         1         0              0
+       —DISK----------------------------------
+D119     448MB Disk Subsystem                     39,000        2     78,000           408
+D119-A   448MB Disk Add On                        30,000        2     60,000           340
+       —COMMUNICATIONS---------------
+C109     SmartSync II                              1,000        4      4,000            40
+V102     Stratus Terminal                            950        1        950            15
+       —SOFTWARE--------------------------
+S002     StrataNET                                 3,000        1      3,000            90
+S006     TPF TRANSACTION PROC FACILITY             5,000        1      5,000            90
+S008     FORMS MANAGEMENT SYSTEM (FMS)             1,500        1      1,500            40
+sooo     VOS                                          NA       NA         NA           120
+
+                                  TOTAL LIST PRICE :           ($)         451,350
+         STRATUS INSTALLATION AND START-UP PACKAGE :           ($)           4,513
+                                             TOTAL :           ($)         455,863
+
+                          MONTHLY MAINTENANCE CHARGE       :   ($)             2,234
+!To:
+                      Peter Kastner
+SCC:
+                      Clark Hodderz Larry Sherman, Bill Elliott
+iSubj ect:            RE: ET1 "fault Tolerant newsletter"
+SDate Sent:           November 4z 1986 at  9:38 pm
+•Answer From:         Raphael Fromrner
+
+I know there      is a   debate on whether or not   ET-1 REQUIRES
+Protect ion.
+
+One    camp   says:
+
+  a■   It’s not specified in the benchmark (presumably as defined
+in the Datamation article).
+  b.  The sequential log file is written for purposes of
+recovery (with a flushing mechanism turned ON), and serves not
+only to recover from vendor-induced failures but can also
+support repair of databases corrupted by malformed applications.
+Vendor-supplied protection is consequentially unintended,
+uncalled for, and overkill.
+
+Camp    Two   says:
+
+  The Datamation article does talk about transaction
+protection.  Fig.   3 in it uses the phrases "Begin-Transaction"
+and "Commit-Transaction" .  The phrase "transactional file
+system" appears.   Is "transactional" a superfluous word?  No
+indeed; a vanilla file system becomes "transactional" when it
+can recognize transactions, which means locking and logging by
+transaction-id.   Another sentence reads "All data files must be
+protected by fine granularity locking and logging."
+
+It’s possible for both camps to make hay out of the article, I’m
+afraid.   For example, though the article does say "all data
+files must be protected by fine granularity locking and
+Logging "z the very next sentence admits that "the Log file for
+transaction recovery must be duplexed to tolerate single
+failures".   Camp Two is satisfied by the first sentence;  Camp
+Two rejoices at the second.
+
+My opinion:
+
+  At Stratus we’ve had a performance problem that forces us to
+turn off what I feel is implicit in the articlez though not
+explicitly stated.  Tprotection speed causes us to run in a
+mode that can't honestly be compared to Tandem’s most
+frequently quoted "full function" performance figures.   I
+understand that TMF is needed to shore up their FT inadequaciesz
+but it's difficult to use that as an excuse.   Consider that other non FT but
+scrupulous vendors would want to run this benchmark and would
+probably run with protectionz if they have the product.    Their
+technicians would do so as soon as they saw "Begin and Commit Transaction" i
+Figure 3.  Turning it on wouldn't make them fault tolerantz
+merely compliant with the (poorly written) letter and spirit of
+the article.
+
+Notwithstanding all of the abovez I recognize we're between a
+ oCk and hard place.  I for one continue to give customers the
+anti"tp argument based on the presence of the sequential log and
+hope they buy it.  In my heart of heartsz I don't.
+                    CARBON          COPY    - - ------ ----
+                    George Wilson
+                    Raphael F romme r
+     X b I i n d)   Peter Kastner
+    / .
+   /D j e c t:      RE:  ET1 "fault Tolerant newsletter
+  zate Sent:        November 5 z 1986 at 9:39 am
+/Enclosure:         tp_rebuttal
+[Answer From:       Peter Kastner
+
+George:  There is some ambiguity on the ET-1 spec.  Raphael’s enclosed remarks
+state the case.  I would duck the question as follows:   Omri has objected to
+ALL vendor’s incomplete or ambiguous ET-1 results reporting/ and he's proposed
+a full disclosure mechanism in his newsletter.  Due to fierce and misleading
+claims in the marketplace/ Stratus is reluctant to be the first (and only)
+vendor to come ’clean' to Omri's spec.  Therefore/ while we would welcome a
+public discussion of Omri's proposed 'rules' for ET-1 reporting/ we do not
+believe Omri's seminar is the proper place to debate whether and how much
+vendors 'cheated*.
+
+We know/ for example/ that Tandem has extended the ET-1 response times from the
+clearly stated one second to 1.5 seconds at VLX announcement time to unlimited
+response time at the EXT announcement.   Further/ Tandem's frequently stated
+price/performance is based on configurations that do not support the disk
+storage necessary to hold the required ET-1 database  (about 110MB per ET-1)/
+thereby improving their price/performance .
+
+Stratus has invited interested parties to watch us run ET-1 in Marlboro.   This
+invitation stands.
+
+In order to keep you out of the line of fire/ George/ you are authorized to
+present/expI ain any of the details in the June Stratus ET-1 white papers
+made available to the public.   I don't think you should go beyond that.
+
+
+Peter
+FTSN-50                                            Page 9                                         15 Oct. 1986
+
+
+directly to the FedExpress local office.                  based ASCI is headed by Ben Rosenberg. In
+      Unfortunately, the scheme apparently                addition to INTACT, it also offers a volume
+underestimated the fact that virtually all                shadowing feature and a performance measu­
+large organizations are already equipped with             rement tool for VAX systems, as well as
+high-speed fax machines, and have little in­              consulting services. Its products are install­
+centive to use the service for internal docu­             ed on a handful of VAX, PDP-11, and Profe­
+ment transfer. This left only small-to-med-               ssional 300 computers, especially in New
+ium size businesses lacking their own fax                 York area banks, but also at Security Pacific
+equipment, or those wishing to communicate                bank.                                     &
+with fax-less organizations, as candidates for                   Database Derby. You may be forgiven
+ZapMail. The volume generated by these                    for never having heard of the Database Der­
+customers proved far smaller than projected,              by; but apparently 16 DBMS products took
+thus leading to the mounting losses.                      part in such an event, held in late August in
+      This basic business miscalculation was              San Francisco. We know about it because a
+aggravated by a slew of technical difficult­              Bettelle Memorial Institute subsidiary called
+ies, including poor quality of the local dial­            Information Dimension proudly announced its
+up phone lines connecting customer-installed              DM "advanced relational DBMS" had won the
+machines to local FedExpress offices; the                 Business Rules Test, a part of the derby.
+company hoped to bypass the problem by                    Battelle has been trying to market the soft­
+giving customers direct access to its satell­             ware package for several years now, with
+ites (FTSN-44, p.19).                                     meager results: DM, which costs $15K on
+      There was no public indication that the             supermicros and $43.5K on mainframes, is
+Tandem systems were in any way involved in                installed at just over 60 sites.
+the technical difficulties. The future of the                                     &
+Tandem systems in the ZapMail service re­                        CICS-on-PC battle heats up. Back in
+main uncertain at this point.                             August, FTSN-48 p.ll reported on a PC-ba­
+                        &                                 sed CICS applications development facility
+      More DebitCredit information. Chiming               being offered by Unicorn Systems. Now, a
+in with its own version of the DebitCredit                new competitor in this field has surfaced:
+benchmark, a small DEC VAR called ASCI                    Realia (Chicago, IL) offers its RealCICS app­
+(Advanced Systems Concepts Inc.) announced                lications development environment, which can
+it obtained 14.9 tps @ 75% CPU utilization,               run on either an IBM PC or a mainframe.
+and 9.8 tps @ 58% CPU utilization on a 28                 Realia is headed by Marc Sokol.              ■
+MB DEC VAX 8650. Response time was at
+or below 0.7 seconds.
+      The benchmark was run using ASCI’s
+own transaction management software, dub­                        Seminars and Conferences
+bed INTACT (Integrated Applications Control
+System). This software performs roughly the
+functions of DEC’S TDMS and ACMS packa­                          27-30 October.      100th Presentation,
+ges for terminal and application management,               Design Reliability Training Course. Syracuse,
+respectively.     ASCI feels the DEC RA81                  NY. $850. Contact Ms. Nan Pfrimmer, Rel­
+drive (a fixed drive with 458 MB, 36.3 ms                  iability Analysis Center, Griffis AFB, NY
+average access, and 2.2 MB/s transfer rate;                13441-5700, Telephone (315) 330-4151.
+see FTSN-25, p.5) is the main limiting fact­
+or, peaking out at 35 I/Os per second. "We                      26-28 November. Multiprocessing and
+came away with a greater appreciation for                  Parallel Systems. Conducted by O. Serlin,
+the Tandem V8 disk drive", says ASCI.                      FTSN editor. Contact Information Futures,
+      The benchmarking effort, which was                   Crays Pond House, Crays Pond, Reading,
+terminated after one week, was clearly no                  Berkshire RG8 7QG, U.K., ’phone 0491
+small undertaking. ASCI had been promising                 681010, telex 848376. .
+to supply the results to FTSN since August,
+ 1985, but apparently was unable to do so                        8-11 December. Application of Reliabi­
+until earlier this month.                                  lity Tools for Designers. Orlando, FL. $850.
+      Founded in July, 1981, Hoboken, NJ                   Contact Ms. Nan Pfrimmer, Reliability Ana-
+
+     (c)Copyright 1986 ITOM International Co., POB 1450, Loa Altos, CA 94023, USA, Telephone (415) 948-4516
+° h,ktg«lib_02> Marketing >pete_Kastner>waste_basket>mai 1.86-0 8-18.0001
+
+
+                    CARBON              COPY      ______
+J '°•               Bill Elliott
+J CC -              Dick L u e h k e z Jeff Kokesz John Kloosz Peter Kastner
+■Subject:           An embarrassing competitive situation.        Advice needed.
+•Date Sent:         July 30z 1986 at        5:31 pm
+•Options:           Certifiedz Carbon Copy
+■ From:             Raphael F r o m m e r
+
+Yesterduyz at Hughes Aircraft Tucson I oresented our published
+*- • -1 perfor'nance figures to a crowd containing Stratus lovers as
+well as Tandem lovers.           The most ve t e r anz Tandem-knowledgeable
+ nember of the audience was armed with facts and figuresz
+orooided to him by Tandem.           These included THEIR runs of ET-lz
+which he claimed were run by independent consultants hired by
+ I a n a e rn. n e understood that our E T -1 benchmark profile did not
+include TPF p r o t e c t i o n, realized he could compare those only to
+ Tandem’s n o n - T i t F results, but wanted TProtection-on data to
+compare to Tandem’s T'lF-on results.             He claimed that the Tucson
+application would need to use protection in certain places and
+tnat some indication of our performance penalty was not an
+unreasonaole request.           I had no data to give him, obviously.       I
+don’t know what our allies thought of that answerz but, were I a
+ Hughes employee in the audience, I could have drawn several
+different conclusions, none of which are favorable to Stratus:
+
+1.  Stratus views TProtection as so unimportant a feature that it
+simply didn’t bother measuring its performancez and hence can’t
+provide the data.  Do I want to buy major amounts of gear from a
+company that doesn’t measure what it sells, especially so
+important a transaction capability?
+
+2.   Stratus is no slouch. They measured TProtection
+performancez out the results are SB embarrassing, they refuse to
+divulge tnem.
+
+oillz I am expecting continued attacks along these lines             from
+Tandem-phi I es. I can try to put our current TProtection
+performance in perspective:
+
+1.   It’s a young product; you’ve got to expect lower
+performance than a product that’s been maturing for years;
+^e’ve got plans for improved performance in coming releases.
+
+2.  Uur product is an especially thoroughz paranoid product that
+takes no chance with your data;  this implies heavy resource
+consumpti on.
+
+$    TProtection is not needed to achieve transparent fault
+tolerance;   T; 1F is vital on Tandem to that end. Do you really
+need such a mechanism, or are you being forced into using it to
+shore up a Tandem inadequacy?
+
+/   Use control runout as a higher performance alternative              for
+certain applications not needing TProtection’s full
+functional!ty.
+
+javing   made   these   points,   and gained back   some ground, I’ll
+ii,iktg"lib_02>.'iarketing>Pete_Kastner>waste_basket>niai I.86-0^-18.0001
+
+
+□ till be asked, "So what   is the performance hit?" It sounds
+ridiculous to say, "It’s    bad but we don't know exactly how bad,
+in ET-1 transactions per    second."
+
+-'ut yourself in the customer's position.   '/hat sort of an answer
+would you expect?   ./hat should I say in order not to lose
+technical creditioi I ity, either for myself or Stratus?   I very
+nuch need some advice.
+
+Stumped,
+;apn ae I
+competitive; positioning
+
+EXT10 and EXT25 systems compare very favorably with competitive
+systems in their respective classes.   This section provides detail on
+competitive pricing and functionality.
+
+First/ we will focus on our pricing and performance advantages.  Key
+measurements examined are entry-level pricer transaction performance/
+and five-year cost of ownership.  You will see that EXT systems are
+very competitive on a price and performance basis.
+
+Next/ we will focus on more qualitative measurements.  We will discuss
+our competitors' selling strategies/ their product capabilities/ and
+how Tandem's advantages can help you win in competitive situations.
+
+Price/performance comparison
+
+                               EXT10 competitive lineup
+
+                     Tandem     IBM      IBM        IBM      DEC      S tra tus
+                     EXT10      Sys 36   Sys 38 ’   Sys 88   8200     250
+
+Hardware Entry       S82.5 K    $100 K   $106 K     $210 K   $134 K    $133 K
+Price
+
+Performance           4.3        1.4      2.0        .9       2.0         .9
+(ET1 TPS)
+
+5-Yr COO/TPS         S36 K      $117 K   S99 K      $345 K   $118 K    $254 K
+
+Tandem 1s                       3.1       2.2        4.8      2.2       4.8
+Performance                    Times     Times      Times    Times     Times
+Advantage
+
+
+Notes:   1. The competition's configurations are equivalent to the
+            base EXT10 system.
+
+         2. Competitive TPS performance calculations were extrapolated
+            from published performance information.  (Stratus
+            calculations do not include transaction monitoring.)
+
+         3.    The cost of ownership (COO) calculation includes 60 months
+               of hardware maintenance and software fees (adjusted to
+               reflect 15% cost of money).
+
+         4.    Tandem TPS performance information is based on the ET1
+               benchmark.  See the "Product Features and Description"
+               section for more details.
+
+         5.    Contact Phil Otis (Competitive Analysis)      in Cupertino for
+               detailed configuration information.
+
+
+
+
+                                                                               2-11
+
+===== Stratus-ET1-TP-benchmarks-1986-7.txt =====
+          STRATUS TRANSACTION PROCESSING BENCHMARKS
+
+Introduction
+There is a tendency in the computer industry today to move away
+from general benchmarks and performance measurements that often
+in their simplicity do not provide a true comparison between the
+combined hardware and software potential of different systems for
+their intended purposes.
+Measures such as MIPS are often useful in comparing the CPU
+powers of similar machines in a single vendor's product line but
+seldom are useful in comparing dissimilar machines from different
+vendors. With multiprocessor architectures, of which the
+Stratus/32 is clearly an example, it is difficult to calculate
+the MIPS rating because MIPS will actually change as you add
+additional I/O processors, such as line adapters or storage
+directors.
+Benchmarks such as the Whetstone benchmark are designed to test
+only a limited part of an architecture, are usually not
+structured for a multiprocessor architecture, and do not measure
+disk I/O and communications, two important parts of a transaction
+processing environment.
+The scenario is further complicated by the reasonable requirement
+that with a fault tolerant architecture, the test must be run
+both in a "fully operational" state and a "degraded" state. Due
+to the hardware-based fault tolerant design of the Stratus/32,
+these two states are the same.
+Transaction-Based Benchmarks
+Just as the Whetstone benchmark was designed to measure the
+scientific processing capabilities of a single CPU processor, new
+benchmarks were developed to test the transaction throughput of
+online transaction processing (OLTP) oriented machines. These
+benchmarks generally emulated one specific type of transaction
+processing environment and included both CPU and I/O.
+In the last few years, two OLTP benchmarks have emerged through
+different channels. These are now commonly known as TP1 and ET1.
+Although both benchmarks are transaction processing benchmarks,
+here the similarity stops.
+
+
+
+
+June 26, 1986                                     Page 1
+ET1 and TP1 are not the same benchmark or even a variation on the
+same benchmark. Each measures OLTP performance in a different
+way. Not understanding the differences between the two
+benchmarks has led to false comparisons. Below is a comparison
+between the two benchmarks:
+          Operation                      ET1       TP1
+CPU intensive loop                       0 ms      150 ms
+Read from a large indexed file           1           5
+Rewrite to the large indexed file        1           2
+Read from a small relative file         '2           0
+Rewrite to a small relative file         2           0
+Write of a sequential log file           1           1
+
+Although the logical I/O ratio of ET1 to TP1 is 7 to 8, the
+physical I/O ratio is far more significant. This is because all
+of the TP-1 I/O’s are done to large, indexed files, while most of
+the ET1 I/O’s are done to small relative files. In most modern
+operating systems like Stratus VOS, the disk cache will be able
+to eliminate physical I/O’s to a small, relative file far more
+easily than to a large, indexed file. The "largeness" of the
+indexed file will guarantee at least two physical I/Os per read
+while the "smallness" of the relative file will almost guarantee
+no physical I/O’s per read. Since both benchmarks do one
+sequential log write, this can be safely eliminated from
+comparison. TP1 does 12 physical I/O’s per transaction to 3 in
+ET-1. Therefore, TP1 does four times as many physical I/O’s as
+ET1.
+ET1
+The ET1 benchmark simulates a banking deposit/withdrawal
+transaction. It is described in an article by "anon et al" in
+the April 1, 1985 issue of Datamation titled "A Measure of
+Transaction Processing Performance".
+The ET1 benchmark on a single Stratus module consisted of the
+following:
+      Read one 100 byte 3270 message from an X.25 comm line
+      One indexed read from a 2,000,000 record account database
+      One rewrite of that account record
+      One read and rewrite of a 2,000 record teller database
+      One read and rewrite of a 200 record branch database
+      One write append to a sequential log file
+      Format a 3270 buffer
+      Send one 200 byte X25/3270 message
+
+
+
+
+June 26, 1986                                      Page 2
+      Written in PL1 using a requester/server model with Stratus
+      TPF.
+The Datamation article states that in 85% of the cases, the
+branch portion of the account number will match the current
+process branch number, and in the remaining 15%, the account
+number will reference a different process' branch. In the
+multimodule case, these remaining 15% were dispatched equally to
+different account files on modules in the system. This
+stimulates the model that any customer can arrive at any teller
+in any branch, but will go to that customer's local branch 85% of
+the time.
+
+TP1
+The TP1 benchmark was designed by Stratus based on a specific
+international customer's requirements. It has been documented in
+Stratus publications and in the press. Here is a summary:
+           A 150ms CPU loop simulating screen form handling
+           Five indexed reads from a 100,000 record database
+           Rewrites of two of those records
+           One write append to a sequential log file
+           Written in PL1 (requester) and COBOL (server) using
+           Stratus TPF.
+Configurations:
+           Per XA 600:
+                  XA 600 processor
+                  8 MB logical memory
+                  4 448 MB disks (ET-1)
+                  6 448 MB disks (TP-1)
+
+Stratus Benchmark Results
+The results of TP1 and ET1 are shown in the table below. In each
+test, the Stratus computer was run with one of each component
+type removed to simulate a failure condition. It is important to
+understand that these results represent performance under a
+catastrophic hardware failure scenario such as a power supply
+failure, resulting in one failure per pair of StrataLINK, simplex
+disks, CPU, memory, and I/O controllers.
+
+
+
+
+June 26, 1986                                      Page 3
+ET1 Results
+
+                Module                                     95%
+CPU Type        Quantity   Database Size   Trans/      Response Time
+                           (millions of    Second      (seconds)
+                                records)
+
+XA600                1          2M         15.2        0.31
+XA600                2          4M         30.0        0.33
+XA60 0               3          6M         45.0        0.30
+Notes:
+Database size refers to the number of account records.         Teller
+and branch records grow proportional to this.
+The database is spread equally across the modules.
+
+TP1 Results
+CPU Type        Quantity        Transactions/Second     Response Time
+                                                        (seconds)
+XA600                1               6.1                      1.9
+
+In both the ET1 and TP1 cases, a prerelease version of VOS 5.1
+was used.
+
+Conclusion
+ET-1 and TP-1 are two measures of transaction processing
+performance. ET-1 results in significantly more transactions per
+second because it has fewer I/O's to accomplish. The linear
+growth of the Stratus architecture is clearly demonstrated by the
+ET-1 results, while showing excellent response times.
+
+
+
+
+June 26, 1986                                         Page 4
+

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "EE Times: Stratus Challenges Tandem in Fault-Tolerant Computing \u2014 Pete Kastner on Self-Checking Hardware Strategy (May 1982)",
+  "description": "May 1982 Electronic Engineering Times feature on the maturing fault-tolerant computer market. Tandem Computers retains a roughly six-year lead but must expect upstart competition. Pete Kastner \u2014 quoted as 'manager of marketing development at Stratus' \u2014 argues that Stratus has 'taken a piece' out of Tandem's market with the Stratus/32 and that the Stratus self-checking-hardware-pair architecture is superior because: (a) all redundancy is in hardware (every component is self-checking each cycle), and (b) data paths remain in 16-bit mode unlike Tandem's NonStop II competing system. Kastner promises faster transaction throughput and the ability to support 'all the memory they need \u2014 up to a million kbytes'. The article also quotes investment banker Larry Roberts (whose firm backed both Stratus and Synapse Computer) and alludes to Synapse president Mark Leslie's perspective on 32-bit FT systems. This is the second-earliest Kastner Stratus quote in the archive (after the March 1982 Eagle-Tribune piece) and the first to use his 'manager of marketing development' title.",
+  "creator": {
+    "@type": "Person",
+    "name": "EE Times (Electronic Engineering Times) staff"
+  },
+  "datePublished": "1982-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

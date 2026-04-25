@@ -1,0 +1,47 @@
+
+===== SNR-arch-slides-1992-3.txt =====
+0)
+o
+0
+■ MH
+o
+E
+O
+■ MH
+c5
+E
+o
+c
+A Critical Technology^
+Planning Areas
+Systems
+Software
+Application
+Development
+Acquisition
+Enterprise
+Topology
+0 Three-tier Plus
+State-of-the-art downsizing
+Enterprise server Plus decision support
+Analytical
+System
+Replicated/departmental systems
+PCs, Workstations, Macs, Terminals
+tetris®
+T©[p©D©gy
+© Client-server for future
+Much hype -- minimal
+application implementation
+At least 6 common definitions
+Interface
+• Product Look-up
+• Pricing Information
+• Order Entry
+• Master
+Database
+Enterprise spoke
+• Current
+inventory
+Production |  |  |  | L' - - ■ J
+System | J | — | — | 

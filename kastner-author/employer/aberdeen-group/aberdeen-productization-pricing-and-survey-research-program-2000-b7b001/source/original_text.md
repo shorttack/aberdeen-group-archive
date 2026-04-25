@@ -99,5 +99,5 @@ This study did not make forward-looking claims.
 
 ### Observation Summary
 
-- Total observations: 30
-- By type: practice-attribution: 9, market-data: 8, framework-definition: 8, relationship: 4, forecast: 1
+- Total observations: 31
+- By type: practice-attribution: 10, market-data: 8, framework-definition: 8, relationship: 4, forecast: 1

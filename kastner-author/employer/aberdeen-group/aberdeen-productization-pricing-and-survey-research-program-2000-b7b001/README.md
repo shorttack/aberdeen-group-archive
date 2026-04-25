@@ -19,7 +19,7 @@ Four internal Aberdeen Group artifacts spanning January 2000 through June 2001 t
 | studies.csv | 1 |
 | entities.csv | 16 |
 | technologies.csv | 25 |
-| observations.csv | 30 |
+| observations.csv | 31 |
 | codes.csv | 28 |
 
 ## Load with Python

@@ -1,12 +1,36 @@
 {
-  "processed": 14,
-  "total": 14,
-  "timestamp": "2026-03-13T22:55:00Z",
+  "release": "v1.0.0",
+  "release_date": "2026-05-01",
+  "skill_version": "18",
   "status": "complete",
-  "batch_1_studies": 4,
-  "batch_2_studies": 10,
-  "total_observations": 689,
-  "unique_entities": 184,
-  "unique_technologies": 271,
-  "validation_errors": 0
+  "timestamp": "2026-05-01T14:12:00Z",
+  "studies": 822,
+  "observations": 14742,
+  "master_entity_rows": 7834,
+  "master_technology_rows": 6269,
+  "unique_entities": 3198,
+  "unique_technologies": 4054,
+  "kastner_quotes_rows": 1087,
+  "kastner_quotes_canonical_seqs": 676,
+  "kastner_quotes_max_article_seq": 678,
+  "date_range": {"min": "1979", "max": "2026"},
+  "audit": {
+    "layer_a_per_study_ref_int_failures": 0,
+    "layer_b_csv_write_validation_failures": 0,
+    "layer_c_cache_integrity_failures": 0,
+    "studies_audited": 680
+  },
+  "per_collection": {
+    "kastner-author": {"studies": 347, "observations": 7210},
+    "other-authors": {"studies": 475, "observations": 7532}
+  },
+  "kastner_employer_dirs": {
+    "aberdeen-group": {"studies": 29, "observations": 609},
+    "stratus-computer": {"studies": 11, "observations": 66},
+    "DEC": {"studies": 5, "observations": 153},
+    "arthur-d-little": {"studies": 3, "observations": 71},
+    "phi-computer-services": {"studies": 2, "observations": 59},
+    "obian-group": {"studies": 1, "observations": 5}
+  },
+  "kastner_dct_studies": 76
 }

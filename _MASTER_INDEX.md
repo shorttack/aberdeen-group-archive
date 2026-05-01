@@ -1,29 +1,64 @@
 # Kastner Collection — Master Index
 
-**Archives:** 1 (11) + 2 (9) + 3 (10) + 4 (3) + 5 (11) + 6 (6, Casale) + 7 (8, NTI) + expanded Aberdeen / Project Examples / Outbound Marketing / DCT batches  
+**Release:** v1.0.0 — May 1, 2026  
 **Skill:** v18 (archival-ingest)  
-**Last full-corpus refresh:** April 19, 2026  
+**Last full-corpus refresh:** May 1, 2026 (post batch-8 + deferred-work cleanup)  
+**Audit status:** Layer A / B / C — **0 / 0 / 0 failures** across 680 audited studies
 
 ## Summary
 
 | Metric | Count |
 |---|---|
-| Total studies (Frictionless Data Packages) | **517** |
-| Total observations | **12,464** |
-| Kastner quotations (`kastner_quotes_clean.csv`) | **1,069 rows across 671 canonical seqs** |
-| Unique entities (reuse cache) | 275+ |
-| Unique technologies (reuse cache) | 508+ |
-| Web verifications | Complete across all archives (v16 → v18) |
+| Total studies (Frictionless Data Packages) | **822** |
+| Total observations | **14,742** |
+| Master entity rows | **7,834** |
+| Master technology rows | **6,269** |
+| Unique entities (deduped cache) | **3,198** |
+| Unique technologies (deduped cache) | **4,054** |
+| Kastner quotations (`kastner_quotes_clean.csv`) | **1,087 rows across 676 canonical seqs** (max `article_seq=678`) |
+| Date range | 1979 – 2026 |
+| Web verifications | Complete (v16 → v18) |
+
+**Per-collection breakdown**
+
+| Collection | Studies | Observations |
+|---|---:|---:|
+| `kastner-author/` (top-level) | 205 | n/a |
+| `kastner-author/dct/` | 76 | n/a |
+| `kastner-author/employer/aberdeen-group/` | 29 | 609 |
+| `kastner-author/employer/stratus-computer/` | 11 | 66 |
+| `kastner-author/employer/DEC/` | 5 | 153 |
+| `kastner-author/employer/arthur-d-little/` | 3 | 71 |
+| `kastner-author/employer/phi-computer-services/` | 2 | 59 |
+| `kastner-author/employer/obian-group/` | 1 | 5 |
+| **kastner-author total** | **347** | **7,210** |
+| **other-authors total** | **475** | **7,532** |
+| **Archive total** | **822** | **14,742** |
+
+**Prescience distribution** (across all 822 studies)
+
+| Rating | Studies |
+|---|---:|
+| high | 394 |
+| medium | 250 |
+| low | 67 |
+| not-applicable | 110 |
+| (deferred) | 1 |
 
 **Authoritative sources**
 - `_master_studies.csv` — one row per study package
-- `_master_entities.csv` — deduplicated entities across all studies
-- `_master_technologies.csv` — deduplicated technologies across all studies
+- `_master_entities.csv` — per-study entity rows across all studies
+- `_master_technologies.csv` — per-study technology rows across all studies
 - `_master_observations.csv` — all observations pooled
-- `kastner-author/quotations/kastner_quotes_clean.csv` — Kastner press / media quotation corpus (13 cols, v17 CSV gate enforced)
+- `_known_entities.csv` / `_known_technologies.csv` — repo-root deduplicated caches
+- `_collection_stats.csv` — per-study counts and ratings
+- `kastner-author/quotations/kastner_quotes_clean.csv` — Kastner press / media quotation corpus (13 cols, §16 CSV gate enforced)
 
-> Note: raw row totals in `_master_*.csv` contain pre-dedup and in-progress rows.
-> The **517 / 12,464** figures above reflect the final post-dedup, post-validation count as of April 19, 2026 and are the authoritative corpus metrics.
+> The historical Archive 1–7 tables and changelog entries below are **preserved
+> for provenance**. Their per-study counts and totals reflect the state of the
+> archive at earlier points in time (April 10–19, 2026 and earlier). For the
+> current authoritative state, use the figures above and the `_master_*.csv`
+> files.
 
 ## Archive 1 — Kastner Research (11 studies)
 

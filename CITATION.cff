@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "Aberdeen Group Research Archive"
+abstract: >
+  A structured archive of 822 research studies, articles, memoirs,
+  expert reports, and related artifacts (1979-2026) centered on the work
+  of Peter S. Kastner at Aberdeen Group, Arthur D. Little,
+  Project Hindsight Inc. (PHI) Computer Services, Digital Equipment
+  Corporation, Stratus Computer, and Obian Group, plus contributions from
+  other Aberdeen analysts. Each study is packaged as a self-contained
+  Frictionless Data Package with structured CSV tables for studies,
+  entities, technologies, observations, and codes; a datapackage.json
+  descriptor; a schema_org.json discovery layer; and a human-readable
+  README. The archive is fully audited (Layer A per-study referential
+  integrity, Layer B CSV write validation, Layer C cross-study cache
+  integrity) with zero failures.
+authors:
+  - family-names: Kastner
+    given-names: Peter S.
+    affiliation: "Aberdeen Group (1995-2007); previously DEC, Stratus Computer, Arthur D. Little, PHI Computer Services, Obian Group"
+type: dataset
+version: "1.0.0"
+date-released: "2026-05-01"
+license: CC-BY-4.0
+keywords:
+  - Aberdeen Group
+  - technology research
+  - market analysis
+  - frictionless data
+  - prescience scoring
+  - enterprise computing history
+  - Peter Kastner
+identifiers:
+  - type: other
+    value: "aberdeen-group-archive-v1.0.0"
+    description: "Internal archive tag"
+preferred-citation:
+  type: dataset
+  title: "Aberdeen Group Research Archive"
+  authors:
+    - family-names: Kastner
+      given-names: Peter S.
+  version: "1.0.0"
+  date-released: "2026-05-01"
+  license: CC-BY-4.0

@@ -63,9 +63,19 @@ Eight Aberdeen analysts are credited with creating practice areas at the firm. T
 
 Each study's `datapackage.json` carries a stable `study_id` and a Schema.org `Dataset` descriptor in `schema/schema_org.json`. Cite by `study_id` plus the path to the package directory.
 
-### License
+### License & citation
 
-Original Aberdeen Group analyst content is proprietary; structured artifacts (CSVs, descriptors, code) in this repository are released under **CC-BY-4.0** with attribution to Peter S. Kastner unless a study's own README states otherwise.
+Structured artifacts (CSVs, descriptors, code, schemas, READMEs) are released
+under **CC-BY-4.0** — see [`LICENSE`](./LICENSE) for the full text. Original
+source content (analyst studies, trade-press articles, vendor brochures,
+photographs, etc.) remains the property of its respective rights holders.
+
+For academic / data-set citation, use [`CITATION.cff`](./CITATION.cff) or:
+
+> Kastner, Peter S. (2026). *Aberdeen Group Research Archive*, version 1.0.0.
+> Licensed under CC-BY-4.0.
+
+Version history is in [`CHANGELOG.md`](./CHANGELOG.md).
 
 ---
 

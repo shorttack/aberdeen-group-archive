@@ -72,7 +72,7 @@ photographs, etc.) remains the property of its respective rights holders.
 
 For academic / data-set citation, use [`CITATION.cff`](./CITATION.cff) or:
 
-> Kastner, Peter S. (2026). *Aberdeen Group Research Archive*, version 1.0.0.
+> Kastner, Peter S. (2026). *Kastner Research Archive*, version 1.0.0.
 > Licensed under CC-BY-4.0.
 
 Version history is in [`CHANGELOG.md`](./CHANGELOG.md).

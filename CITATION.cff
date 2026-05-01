@@ -4,8 +4,8 @@ abstract: >
   A structured archive of 822 research studies, articles, memoirs,
   expert reports, and related artifacts (1979-2026) centered on the work
   of Peter S. Kastner at Aberdeen Group, Arthur D. Little,
-  Project Hindsight Inc. (PHI) Computer Services, Digital Equipment
-  Corporation, Stratus Computer, and Obian Group, plus contributions from
+  Philip Hankins Inc. (PHI) Computer Services/Wang, Digital Equipment
+  Corporation, Stratus Computer, Prime Computer and Obian Group, plus contributions from
   other Aberdeen analysts. Each study is packaged as a self-contained
   Frictionless Data Package with structured CSV tables for studies,
   entities, technologies, observations, and codes; a datapackage.json
@@ -16,7 +16,7 @@ abstract: >
 authors:
   - family-names: Kastner
     given-names: Peter S.
-    affiliation: "Aberdeen Group (1995-2007); previously DEC, Stratus Computer, Arthur D. Little, PHI Computer Services, Obian Group"
+    affiliation: "Aberdeen Group (1988-2007); previously DEC, Stratus Computer, Prime Computer, Arthur D. Little, PHI Computer Services, Obian Group"
 type: dataset
 version: "1.0.0"
 date-released: "2026-05-01"
@@ -35,7 +35,7 @@ identifiers:
     description: "Internal archive tag"
 preferred-citation:
   type: dataset
-  title: "Aberdeen Group Research Archive"
+  title: "Kastner Research Archive"
   authors:
     - family-names: Kastner
       given-names: Peter S.

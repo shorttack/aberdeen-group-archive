@@ -3,25 +3,24 @@ name: archival-ingest
 description: >
   Batch-process historical research studies into structured, machine-readable
   archival datasets. Use when asked to archive studies, ingest research files,
-  build a Frictionless Data Package, process files into metadata and Markdown,
-  extract observations from studies, create structured datasets from research
-  documents, or recurse a directory of study files. Handles PDF, Markdown, Word,
-  and plain-text inputs. Produces five CSV tables (studies, entities, technologies,
-  observations, codes), a datapackage.json descriptor, a schema_org.json discovery
-  layer, a README.md, and a demo_analysis.py validation script per study.
-  Includes importance, relevance, and prescience ratings. v16 adds five Kastner
+  build a Frictionless Data Package, extract observations, create structured
+  datasets, archive DCT spreadsheets, ingest PC pricing data, or recurse a
+  directory of study files. Handles PDF, Markdown, Word, Excel (.xls/.xlsx),
+  and plain-text inputs. Produces five CSV tables, datapackage.json,
+  schema_org.json, README.md, and demo_analysis.py per study. Includes
+  importance, relevance, and prescience ratings. Supports six Kastner
   collection types: video transcripts, memoirs, employer records, AI responses,
-  and technology topic deep-dives. v17 adds mandatory CSV Write Validation Gate
-  preventing base64, column-shift, and invalid-rating defects. Optimized with
-  bundled assembler module, entity reuse cache, and incremental web verification
-  cache.
+  technology topics, and Digital Consumer Technology (DCT). v17 mandates CSV
+  Write Validation Gate preventing base64 and column-shift defects. v18 adds
+  DCT type plus xls/xlsx extraction. Uses bundled assembler, entity reuse
+  cache, and incremental web verification cache.
 metadata:
-  version: '17'
+  version: '18'
   author: Peter S. Kastner
   repository: github.com/shorttack/aberdeen-group-archive
 ---
 
-## Archival Ingest Skill v17
+## Archival Ingest Skill v18
 
 > **Purpose**: Read up to ten study files at a time from a directory, extract
 > structured metadata and analytical observations, emit a complete Frictionless
@@ -53,6 +52,9 @@ Activate this skill when the user's request matches ANY of the following intents
 - "Process employer records for [company name]"
 - "Archive AI responses"
 - "Process technology topic files"
+- "Archive DCT spreadsheets"
+- "Ingest PC pricing data"
+- "Process weekly PC deals commentary"
 
 ---
 
@@ -72,7 +74,7 @@ Activate this skill when the user's request matches ANY of the following intents
 
 The user will provide one of:
 
-1. **A directory path** containing study files (PDF, .md, .txt, .docx)
+1. **A directory path** containing study files (PDF, .md, .txt, .docx, .xls, .xlsx)
 2. **Individual file attachments** uploaded to the conversation
 3. **A reference to files already in the sandbox** from a previous step
 
@@ -80,7 +82,7 @@ If the user provides a directory, discover all processable files:
 
 ```python
 from pathlib import Path
-SUPPORTED = {'.md', '.txt', '.pdf', '.docx', '.doc', '.rtf'}
+SUPPORTED = {'.md', '.txt', '.pdf', '.docx', '.doc', '.rtf', '.xls', '.xlsx'}
 
 def discover_files(root: str) -> list[Path]:
     root = Path(root)
@@ -179,7 +181,9 @@ that consume credits. Steps 7-12 are handled by the assembler module.
 #### Step 1: Read and Parse the Source Document
 
 Read the file content. For PDF, extract text via PyMuPDF. For MD/TXT, read
-directly. For DOCX, extract via python-docx.
+directly. For DOCX, extract via python-docx. For .xls, extract via `xlrd`
+(legacy Excel); for .xlsx, use `openpyxl`. For .doc (legacy Word), convert
+with `soffice --headless --convert-to txt` then read the resulting .txt.
 
 **After extraction, save the cleaned raw text to `{study_dir}/source/_raw_text.txt`**
 so the assembler can use it in Phase 2 without AI re-generation.
@@ -606,6 +610,55 @@ same Phase 1 → Phase 2 → Phase 3 pipeline. Type-specific extraction rules be
 2. Tag distinctive/contrarian positions as `topic-insight` with `confidence: high`.
 3. Cross-topic links in `notes`: `cross-topic: commercial-benchmarks`.
 
+#### 13.6 Digital Consumer Technology (DCT)
+
+**Type code**: `dct` | **Methodology**: `market-tracking` | **Domain prefix**: `dct` | **Repo path**: `kastner-author/dct/`
+
+**What belongs here**: Peter Kastner's 2002-2003 (and adjacent) PC retail / consumer technology tracking — weekly pricing snapshots, vendor lineups, CPU price series, shipment statistics, survey results, and accompanying weekly commentary docs. These describe the U.S. DCT (Digital Consumer Technology) market during the post-bubble PC price war era.
+
+**Subtype field** (record in `notes` of `studies.csv`): 
+- `dataset` — tabular xls/xlsx files (price tables, shipment data, surveys)
+- `weekly` — doc/docx/txt commentary files pairing with a given week's data
+- `aggregate` — multi-week pooled datasets (e.g., access PC Deals 2002-2003.xls)
+
+**Metadata additions** (record in `notes` of `studies.csv`): `content_date` (ISO 8601 date or date range), `retailers_covered` (comma-separated), `vendors_covered` (comma-separated), `subtype`, `related_study_ids` (comma-separated; used to link weekly xls and weekly doc pairs by content date).
+
+**Canonical retailer entities** (reuse these entity_ids; classify as `entity_type: company`, `sector: PC-retail`):
+
+| entity_id | entity_name | Channel |
+|---|---|---|
+| `best-buy` | Best Buy (stores) | Brick-and-mortar |
+| `bestbuy-com` | BestBuy.com | E-commerce |
+| `circuit-city` | Circuit City (stores) | Brick-and-mortar |
+| `circuitcity-com` | CircuitCity.com | E-commerce |
+| `compusa` | CompUSA | Brick-and-mortar + online |
+| `dell-online` | www.dell.com | Direct e-commerce |
+| `hpshopping` | HP Shopping | Direct e-commerce |
+| `gateway-online` | Gateway.com | Direct e-commerce |
+| `sony-online` | Sony Style | Direct e-commerce |
+
+**Canonical PCmaker entities** (reuse these entity_ids; sector `PC-manufacturing`): `dell`, `hewlett-packard`, `compaq`, `ibm`, `gateway-inc`, `sony`, `fujitsu`, `toshiba`, `alienware`, `emachines`, `vpr-matrix`, `apple-computer`.
+
+**Extraction rules:**
+1. **Dataset files (xls/xlsx):** Each distinct row/record becomes market data. Aim for aggregated observations (vendor × week, vendor × quarter, or category rollups) rather than per-SKU rows when the file exceeds 50 rows. For aggregate files (2,000+ rows), always aggregate; preserve full row-level data in `source/_raw_text.txt`.
+2. **Weekly commentary docs:** Use observation_type `expert-opinion` for Kastner's market assessments. Link to the matching dataset study via `related_study_ids` (content-date match).
+3. **observation_type** for price rows: `market-data`. For shipment counts: `market-data`. For survey responses: `market-data`. For Kastner commentary: `expert-opinion`.
+4. **year_observed**: derive from the row's pricing date or survey date when available; fall back to study date.
+5. **confidence**: `high` for sourced prices from vendor sites or published shipment data; `medium` for reported survey results; `low` for editorial interpretations.
+6. **Technologies** captured from DCT files: processor generations (`intel-pentium-4`, `amd-athlon-xp`, `intel-celeron`), form factors (`desktop-pc`, `notebook-pc`, `thin-light-notebook`), OS (`windows-xp`, `windows-xp-pro`, `windows-xp-home`), optical drives (`dvd-cd-rw`).
+
+**Repository layout:**
+
+```
+kastner-author/dct/
+  {study_id}/              ← one directory per DCT study (xls or doc)
+    data/...
+    source/...
+    ...
+```
+
+All DCT studies live in one pooled directory. Linkage between matched xls/doc pairs is via the `related_study_ids` metadata field, not directory structure.
+
 ---
 
 ### 14. Collection Type Routing
@@ -617,7 +670,8 @@ Determine collection type before processing:
 3. Associated with a canonical employer? → Section 13.3
 4. AI Q&A exchange? → Section 13.4
 5. Content on a canonical topic? → Section 13.5
-6. None of the above? → Standard research study (Sections 5-12)
+6. DCT spreadsheet or weekly PC-deals commentary? → Section 13.6
+7. None of the above? → Standard research study (Sections 5-12)
 
 **Process once under the primary type only.** For multi-type documents, add
 lightweight cross-reference entries in secondary collections — do NOT re-run

@@ -1,8 +1,10 @@
 # Kastner Research Archive
 
-A structured archive of research studies, articles, memoirs, and related artifacts spanning **1979–2026**, centered on the work of **Peter S. Kastner** at Aberdeen Group, Arthur D. Little, Project Hindsight Inc. (PHI), Digital Equipment Corporation, Stratus Computer, and Obian Group, plus contributions from other Aberdeen analysts.
+A structured archive of research studies, articles, memoirs, and related artifacts spanning **1979–2026**, centered on the work of **Peter S. Kastner** at Aberdeen Group, Arthur D. Little, Philip Hankins Inc. (PHI), Digital Equipment Corporation, Stratus Computer, and Obian Group, plus contributions from other Aberdeen analysts.
 
 Every study is packaged as a self-contained [Frictionless Data Package](https://frictionlessdata.io/), with structured CSV tables, a JSON descriptor, a Schema.org dataset descriptor, and a human-readable README.
+
+Kastner had the prescience to save much of his work in digital form; about one-third has survived. It is all in this "Kastner Research Archive".
 
 | Metric | Count |
 |---|---:|
@@ -23,7 +25,7 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 
 ### Key reading paths
 
-- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1995–2001 core), 29 studies, 609 observations.
+- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core), 29 studies, 609 observations.
 - **`kastner-author/employer/DEC/`** — Digital Equipment Corporation engineering and product memos (1980s).
 - **`kastner-author/employer/arthur-d-little/`** — ADL consulting engagements (1972–1979), including 9-1-1 / CAD public-safety systems and the ASE/ASEP two-way power-line communications study.
 - **`kastner-author/employer/phi-computer-services/`** — PHI Computer Services (1969–1972) and the 1995 Wang Labs *Riding the Runaway Horse* retrospective.
@@ -46,7 +48,7 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 ### Aberdeen Group Category Creator roster
 
-Eight Aberdeen analysts are credited with creating practice areas at the firm. Their entity rows in this archive carry an `Aberdeen Group Category Creator: …` prefix in `notes`, credited by Peter S. Kastner.
+Eight Aberdeen analysts are credited with creating practice areas at the firm. Their entity rows in this archive carry an `Aberdeen Group Category Creator: …` prefix in `notes`, credited by Peter S. Kastner. Stephen Defranco and Kastner created "midline storage" and Hill and Kastner created "Pools of Storage" categories.
 
 | Analyst | Practice |
 |---|---|
@@ -61,7 +63,7 @@ Eight Aberdeen analysts are credited with creating practice areas at the firm. T
 
 ### Citing a study
 
-Each study's `datapackage.json` carries a stable `study_id` and a Schema.org `Dataset` descriptor in `schema/schema_org.json`. Cite by `study_id` plus the path to the package directory.
+Each study's `datapackage.json` carries a stable `study_id` and a Schema.org `Dataset` descriptor in `schema/schema_org.json`. Cite by `study_id` plus the path to the package directory. See citation rules below.
 
 ### License & citation
 

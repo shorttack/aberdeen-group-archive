@@ -35,7 +35,7 @@ identifiers:
     description: "Internal archive tag"
 preferred-citation:
   type: dataset
-  title: "Kastner Research Archive"
+  title: "Kastner IT Research Archive"
   authors:
     - family-names: Kastner
       given-names: Peter S.

@@ -1,0 +1,261 @@
+{
+  "name": "soa-lifecycle-perspective-1ff953",
+  "title": "Application Lifecycle Management: Used by the Best of the Best in Class",
+  "description": "Aberdeen Perspective finding that IT organizations actively engaged in application lifecycle management (ALM) for SOA outperform even Best in Class organizations on cost reduction. Key quantitative findings: ALM-focused organizations (12% of survey) decreased SOA development costs over last 12 months at 68% rate vs. 46% for Best in Class and 25% for all respondents. Investment in ALM: $2.68M average with $3.45M payback (+29% ROI) vs. all respondents: $1.37M investment with $1.18M payback (-14% ROI). 48% of ALM companies have annual revenue >$1B. 57% have had SOA services deployed >1 year. 29% have >100 SOA services deployed vs. 11% overall. Top challenge: establishment of operational security, governance, and management (45%). Top response: revised application lifecycle processes and responsibilities (45%).",
+  "version": "1.0.0",
+  "created": "2026-05-05",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Rick Saia; Peter S. Kastner",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

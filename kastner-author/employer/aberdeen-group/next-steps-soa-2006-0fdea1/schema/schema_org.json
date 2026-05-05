@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Next Steps in SOA: Applications on the Network",
+  "description": "Aberdeen 'Business Value Point of View' paper and study prospectus for the third in an ongoing SOA research series. Argues that SOA distributes and decouples processing from the data center to the network edge. As traffic shifts from data packets to XML-based content routing and Web Services messaging, network and software architecture lines blur. SOA middleware is now delivered inside XML-aware appliances; network infrastructure is taking on new roles; a new generation of SOA-aware software is emerging. Research will benchmark application processing on the network and survey IT organizations with one-on-one interviews; reach: 1M+ value chain executives via Aberdeen's Global 5000 network and affiliate channels. Timeframe: Q1 2006.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2006-Q1",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

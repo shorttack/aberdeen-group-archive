@@ -1,0 +1,261 @@
+{
+  "name": "ma-ibm-webify-5e0d4b",
+  "title": "IBM + Webify = Industry SOA Application Jumpstart",
+  "description": "Aberdeen Market Alert analyzing IBM Software Group's August 2006 acquisition of Webify Solutions, a provider of pre-built vertical-market SOA application components. Kastner argues the acquisition catalyzes the nascent market for industry-specific SOA development. Key analysis: 90% of Global 5000 businesses will exit 2006 with SOA activities underway; half are building SOA using 'SOA Lite' (web services + lightweight tools). Kastner distinguishes 'SOA Lite' from 'Enterprise SOA' (with ESB, repository, management, governance). Webify provides pre-built customizable SOA service components for insurance, healthcare, banking, and telecom. IBM with Webify is described as 'in a category of one.' Kastner recommends enterprise application programmers in healthcare and insurance evaluate IBM-Webify vs. Eclipse or Microsoft Visual Studio on lifecycle lines-of-code metric.",
+  "version": "1.0.0",
+  "created": "2026-05-05",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

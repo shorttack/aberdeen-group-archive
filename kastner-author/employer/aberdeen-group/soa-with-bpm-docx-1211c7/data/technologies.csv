@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"bpm-general","Business Process Management (BPM)","process-management","multi-vendor","2000s","growth","mature","soa-with-bpm-docx-1211c7","Core subject of Kastner's BPM research; enables organizational agility and integration of business processes for SOA."
+"soa-general","Service-Oriented Architecture (SOA)","architectural-framework","multi-vendor","2000s","growth","mature","soa-with-bpm-docx-1211c7","Paired with BPM in Kastner research; SOA-BPM convergence as key finding."
+"kpm-frameworks","Key Performance Metrics (KPM) Frameworks","governance-methodology","generic","2000s","growth","mature","soa-with-bpm-docx-1211c7","Kastner advocated KPMs as essential for measuring BPM success and securing stakeholder ROI validation."
+"microservices","Microservices Architecture","architectural-framework","multi-vendor","2010s","pre-emergence","dominant","soa-with-bpm-docx-1211c7","AI summary notes BPM/SOA principles (modularity, scalability, agility, reusability) as foundational to microservices."

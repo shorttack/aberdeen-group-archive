@@ -1,0 +1,261 @@
+{
+  "name": "si-soa-in-it-1bd5c3",
+  "title": "For Mid-Size Enterprises SOA's Benefits Begin with IT",
+  "description": "Aberdeen Market Segment report analyzing mid-size enterprise (vs large enterprise) differences in SOA adoption. 70 mid-size organizations responded to December 2005 survey. Mid-size enterprises more IT-focused in SOA drivers (managing integration costs, app re-use via web services) while large enterprises more focused on business-IT alignment. Mid-size firms less IT-skilled (vs large) but have advantages: less complexity, easier access to best practices, less change management resistance. Only 16% of companies overall have >24 months SOA experience (17% mid-size). 15% have managed/completed at least 3 SOA projects (13% mid-size).",
+  "version": "1.0.0",
+  "created": "2026-05-05",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Rick Saia, Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"aberdeen-group","Aberdeen Group","firm","IT-research","[DEFERRED]","[DEFERRED]","1988-2010s","ra-bpm-2007-890201","Author and publisher of study; institutional author"
+"sap","SAP","company","enterprise software","[DEFERRED]","[DEFERRED]","1972-","ra-bpm-2007-890201","Mentioned as ERP vendor whose systems often don't provide desired flexibility; mentioned in technology investments table"
+"oracle","Oracle","company","enterprise software","[DEFERRED]","[DEFERRED]","1977-","ra-bpm-2007-890201","Mentioned as ERP/enterprise application vendor in context"

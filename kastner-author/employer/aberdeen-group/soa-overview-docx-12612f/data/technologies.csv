@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-general","Service-Oriented Architecture (SOA)","architectural-framework","multi-vendor","2000s","growth","mature","soa-overview-docx-12612f","Core subject of Kastner's research; drives integration, complexity management, faster deployment. Promise real but benefits not yet widely distributed."
+"esb-general","Enterprise Service Bus (ESB)","middleware","multi-vendor","2000s","growth","declining","soa-overview-docx-12612f","Kastner identified ESB as foundational SOA middleware; evolving to include governance and management capabilities."
+"web-services-general","Web Services","integration-protocol","multi-vendor","2000s","growth","mature","soa-overview-docx-12612f","Kastner advised buyers to focus on reusing existing applications through web services as core SOA enabler."
+"microservices","Microservices Architecture","architectural-framework","multi-vendor","2010s","pre-emergence","dominant","soa-overview-docx-12612f","AI summary notes Kastner's SOA foundational concepts (modularity, scalability, agility) influenced microservices evolution."

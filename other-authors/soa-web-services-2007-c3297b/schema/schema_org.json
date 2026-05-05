@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SOA and Web Services Testing: How Different Can It Be?",
+  "description": "26-page Aberdeen Group benchmark report examining testing and quality assurance challenges for SOA and web services deployments. Unit and functional testing insufficient; integration, regression, business process, performance, and security testing all required. Survey of 240 end-users categorizes companies into Best-in-Class (top 20%), Industry Average (middle 50%), and Laggard (bottom 30%) using Aberdeen Competitive Framework and PACE model. Best-in-Class companies redesigned QA processes, use automated testing, involve business users throughout lifecycle, and track quality across entire project\u2014not just at end.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2007-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

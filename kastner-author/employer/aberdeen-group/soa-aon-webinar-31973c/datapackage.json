@@ -1,0 +1,261 @@
+{
+  "name": "soa-aon-webinar-31973c",
+  "title": "Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006",
+  "description": "24-slide Aberdeen Group webinar presentation deck (SOA_AON_webinar_022206a). Covers enterprise integration market challenges/opportunities, 2005 SOA benchmark findings, and Aberdeen's full 2006 Enterprise Integration Research Agenda (Q1-Q4). Key 2005 findings: 92% of companies at or below 25% SOA adoption; over half predict 50%+ SOA-based software in 5 years. Best-in-Class SOA adopters spend 29.6% of IT budget on innovation vs. 18.5% average; software maintenance costs 12.4% vs. 27.3% average. Research agenda spans NAP, SOA app development, edge computing, data center integration, real-time BI, and knowledge worker productivity.",
+  "version": "1.0.0",
+  "created": "2026-05-05",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner, Aberdeen Group",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

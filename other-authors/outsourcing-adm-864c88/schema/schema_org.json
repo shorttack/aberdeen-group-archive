@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Outsourcing Application Development and Maintenance: Joining Cost Savings with IT Human Asset Management",
+  "description": "Survey of ~125 enterprises on outsourcing application development and maintenance (ADM). Finds that Best in Class organizations save 56% vs. 26% for Industry Average on outsourced work. Top drivers: reduce IT operating costs (75%) and enable IT professionals to focus on strategic tasks (63%). India dominates (46% of development work), but near-shore alternatives gaining ground. Mid-market firms prioritize expertise gain over cost savings. Underwritten by IBM Global Services, Softtek, and Unisys.",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group"
+  },
+  "datePublished": "2006-11",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

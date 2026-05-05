@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"bpm-suite","Business Process Management Suite (BPM)","middleware","","2000s","growth","mature","bpm-align-business-f76616","57% of companies investing in BPM tools - top middleware investment in 2007; standalone BPM suite plus SOA preferred by Best-in-Class"
+"esb-soa-middleware","Enterprise Service Bus (ESB) and SOA Middleware","middleware","","2000s","growth","evolved","bpm-align-business-f76616","45% investing in ESB/SOA middleware; large companies 71% investing vs small 18%; integration glue between BPM and ERP"
+"eai-middleware","Enterprise Application Integration (EAI)","middleware","","2000s","mature","legacy","bpm-align-business-f76616","45% investing in EAI; being complemented by BPM and SOA rather than replaced"
+"master-data-management","Master Data Management (MDM)","data-management","","2000s","emerging","mature","bpm-align-business-f76616","25% investing in MDM; large companies 43% vs small 9%; lowest adoption among middleware investments"
+"bam-monitoring","Business Activity Monitoring / Business Intelligence Tools","analytics","","2000s","growth","mature","bpm-align-business-f76616","55% investing in BI/BPM monitoring tools; second highest investment category after BPM"
+"erp-systems","ERP Systems","enterprise-applications","","2000s","mature","mature","bpm-align-business-f76616","51% say ERP doesn't provide adequate functionality; 67% of supply chain industries say ERP impedes visibility; BPM positioned as complement"

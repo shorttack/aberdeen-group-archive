@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Summary of Peter Kastner's Research on BPM and SOA",
+  "description": "AI-generated summary of Kastner's BPM and SOA research. Covers BPM's role in enhancing organizational agility, challenges in BPM adoption (management support, IT skills, systems integration), the importance of KPMs for BPM ROI, SOA-BPM convergence, and the influence of BPM/SOA principles on microservices architecture.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (AI-assisted summary)"
+  },
+  "datePublished": "2024-2026",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

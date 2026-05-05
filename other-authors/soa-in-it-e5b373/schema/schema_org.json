@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The SOA in IT Benchmark Report: What CIOs Should Know about How SOA Is Changing IT",
+  "description": "Foundational SOA benchmark establishing early adoption landscape. CIO dilemma: SOA offers compelling case but business benefits largely untapped. SOA here but not widely distributed: only 16% have >24 months experience. Aberdeen bullish: predicts Global 2000 companies can save $53 billion from IT budgets as SOA reduces software implementation costs over 5 years. BIC companies spend 29.6% of IT budgets on innovation vs 18.5% average; BIC spend only 12.4% on software maintenance vs 27.3% average. Survey of 284 companies; three categories: Laggards (<12 months SOA experience), Cautious Adopters (12-24 months), Experienced Adopters (>24 months).",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (institutional; William Mougayar, VP & Service Director, IT Research)"
+  },
+  "datePublished": "2005-12",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

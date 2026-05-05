@@ -1,0 +1,48 @@
+         Next Steps in SOA: Applications on the Network
+Business Value Point of View:
+
+
+
+S
+      ervice-oriented architecture (SOA) distributes and decouples the processing of software from
+      the data center to the edge of the network, and anywhere in-between.
+
+As network traffic moves from data packets to XML-based content routing and Web services re-
+quest messaging, the lines between the network and software architecture are blurring. In some
+cases, SOA middleware is now delivered inside an XML-aware appliance. In other cases, the net-
+work infrastructure is taking on new roles. And a new generation of SOA-aware software is vying
+for attention.
+
+All this has implications for network architects, software infrastructure architects, developers, and
+enterprise platform vendors. For an IT organization, bringing network-based applications to reality
+will require a new balance between architectural readiness and business value realization.
+
+This report will benchmark the state of the practice of application processing on the network. Key
+findings will provide insights into:
+
+        • The types of applications most suited for network processing,
+        • The network and IT benefits early adopters are realizing,
+        • The role of the application architect vs. that of the network architect,
+        • What enterprises are looking for in a SOA infrastructure, and
+        • SOA security in web services and XML processing.
+
+This is the third in an ongoing series of Aberdeen reports on SOA. This study will have important
+implications for all participants in the SOA and network landscape, including users, developers,
+integrators, and IT vendors.
+
+Research approach: The research methodology consists of a broad-based survey of IT organizations
+as well as one-on-one interviews with survey respondents.
+
+Our research network reach: This study will be marketed to Aberdeen’s online community of
+Global 5000 executives and decision-makers in addition to Aberdeen’s affiliate research channel
+partners, with a total reach in excess of one million value chain executives.
+End-user audience: The research findings will be of interest to CIOs and their direct reports, execu-
+tives to whom the CIO reports, and business managers whose units directly depend on, or are influ-
+enced by, IT implementations. This includes business process owners.
+Time frame: 1Q06
+Lead analyst: Peter S. Kastner, Senior Analyst, Enterprise Integration Technology Research
+
+© 2006 AberdeenGroup, Inc.                                                           Telephone: 617 723 7890
+260 Franklin Street                                                                        Fax: 617 723 7897
+Boston, Massachusetts 02110-3112                                                          www.aberdeen.com
+

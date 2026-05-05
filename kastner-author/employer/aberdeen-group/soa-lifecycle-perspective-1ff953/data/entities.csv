@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"rick-saia","Rick Saia","person","IT-research","[DEFERRED]","","2000s","soa-lifecycle-perspective-1ff953","Lead author per byline order and filename (RS suffix). 'Research Analyst, Enterprise Technology.' Email: rick.saia@aberdeen.com. Use existing entity ID."
+"peter-kastner","Peter S. Kastner","person","IT-research","active","","1980s-2000s","soa-lifecycle-perspective-1ff953","Co-author. 'VP and Research Director, Enterprise Technology.' Email: peter.kastner@aberdeen.com. Use existing entity ID."
+"aberdeen-group","Aberdeen Group","firm","IT-research","[DEFERRED]","[DEFERRED]","1988-2010s","soa-lifecycle-perspective-1ff953","Publisher. Survey source: SOA Management and Governance Benchmark Report. Use existing entity ID."

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Mid-Market Must Flex More Muscle in IT Outsourcing",
+  "description": "Aberdeen Market Segment report analyzing IT outsourcing practices at mid-size enterprises versus Best in Class organizations. Key finding: 25% of mid-market respondents admitted their companies have not been successful with IT outsourcing; none of the Best in Class cited lack of success. Report analyzes four stages prone to planning errors: creation of quantitative business case, contract pricing negotiations, governance, and ongoing operational management. Best in Class outperform mid-market across all four stages. Three recommendations: (1) Get the RFP right \u2014 know requirements, costs, and desired advantages; (2) Don't be afraid to look outside for help \u2014 use independent consultants and legal assistance; (3) Improve relationship management \u2014 dedicate management time and hold one person accountable for the outsourcing relationship.",
+  "creator": {
+    "@type": "Person",
+    "name": "Rick Saia"
+  },
+  "datePublished": "2006-09-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

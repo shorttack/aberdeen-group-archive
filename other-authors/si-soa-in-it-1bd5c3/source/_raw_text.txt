@@ -1,0 +1,191 @@
+Information Technology                                                                  January 10, 2006
+
+
+            For Mid-Size Enterprises, SOA’s Benefits Begin with IT
+           Market Segment
+ Mid-size enterprises are discovering the benefits of service-oriented architectures (SOA), but are
+ more focused on using them to be more competitive and make their IT organizations more nimble.
+ Meanwhile, large enterprises (at least $1 billion in annual revenues) place greater emphasis on
+ business-IT alignment, although nimbler IT and improved competitiveness are also important.
+
+
+           Benefits of SOA
+ IT Payoffs Lead to Business Payoffs
+ Service-oriented architecture (SOA) is being touted as the latest pill to cure the ills behind IT
+ complexity in the organization, alignment of IT with the rest of the business, and IT spending
+ discipline. Indeed, respondents to Aberdeen’s recent survey, detailed in The SOA in IT
+ Benchmark Report (December 2005), cite these issues among their expectations from their SOA
+ projects. However, Aberdeen believes companies cannot expect business benefits from SOA
+ before the IT department has been able to ascertain what SOA can do for it.
+ The reality for IT executives and CIOs is that the IT benefits from SOA must precede business
+ benefits, which are a cascading effect of full-lifecycle SOA implementations. Companies that
+ Aberdeen found as best in class in the survey (those whose practices are the best being employed
+ and significantly superior to those of the industry norm) have more experience with SOA, and
+ they found it lowers IT maintenance costs and enables more spending on innovation.
+ The 70 mid-size organizations that responded to the Aberdeen survey appear to understand this,
+ since they place less emphasis on alignment as a reason to implement an SOA compared with
+ large organizations and more on such IT-centric issues as managing IT integration costs, and re-
+ using applications via web services (Table 1).
+
+ Table 1: Mid-Size Enterprises Stress IT over Business Benefits in SOA Drivers
+ (Notable Differences in Boldface)
+                                                            Large        Mid-Size          ALL
+    Alignment with the business
+                                                           50%            27%             37%
+    Management of IT complexity
+                                                           49%            39%             44%
+    Application re-use via Web services                    40%            48%             43%
+    Managing IT integration costs                          27%            29%             24%
+                                                                    Source: AberdeenGroup, December 2005
+
+
+                                    Click here to download a copy of Aberdeen’s The SOA in IT
+        Announcement
+                                    Benchmark Report.
+                                                          For Mid-Size Enterprises, SOA Benefits Begin with IT
+Sector Insight                                                                                         Page 2
+
+
+
+ Companies must recognize that SOA’s primary goal is reducing IT costs through faster and
+ easier customization, integration, and deployment of IT capabilities. The after-effect this has on
+ the rest of the business is simple: a more competitive business environment that is able to change
+ and react to market and customer needs without being constrained by IT limitations. For
+ instance, companies that have had experience in the full-cycle of SOA implementations have
+ been able to quantify the benefits of their undertakings in three major categories: (1) speed of
+ deployment, (2) easier integration, and (3) faster customization and updates. These categories
+ carry cost- and time-savings elements that will spread to the rest of the business. Here is a list of
+ benefits SOA can deliver to both IT and the business:
+ For IT:
+   • Management of IT complexity
+   • Re-use of applications
+   • Speed of IT implementations
+   • Lower IT integration costs
+ For Business:
+   • Faster reactions to change
+   • Competitiveness
+ For IT and Business:
+   • Continuous alignment of IT and business
+   • Lower overall cost of IT
+   • Lower IT maintenance costs
+   • Lifecycle visibility into business process management
+   • Development of new IT-enabled capabilities
+ Experience with SOA
+ SOA is here, but not widely distributed. Only 16% of companies that responded to the survey
+ have had more than 24 months of experience with SOA (17% in mid-size companies), and 15%
+ have managed or completed at least three SOA-related projects (mid-size: 13%). So, in general,
+ SOA investments are still lukewarm. One reason is that the psychology of IT spending is still
+ oriented toward squeezing as much as possible from the IT budget. SOA requires an investment
+ approach to realize its benefits, especially in some of the infrastructure-related parts of its
+ deployment. But to secure the funding, the CIO in the mid-size enterprise must first deliver fully
+ functional SOA applications to the business, then step up and play a marketing role to
+ demonstrate the value of an SOA and counter the two chief challenges mid-size firms face in
+ implementing one (Table 2).
+ Table 2: Notable Challenges in Implementing an SOA
+                                                                          Mid-Size         Large
+                                                                          Enterprises      Enterprises
+    Limited visibility for SOA value                                    42%               38%
+    Limited vision/support or understanding from the business
+                                                                        32%               35%
+    side or executive leadership
+                                                                      Source: AberdeenGroup, December 2005
+
+
+
+
+© 2006 AberdeenGroup, Inc.                                                           Telephone: 617 723 7890
+260 Franklin Street                                                                        Fax: 617 723 7897
+Boston, Massachusetts 02110-3112                                                          www.aberdeen.com
+                                                         For Mid-Size Enterprises, SOA Benefits Begin with IT
+Sector Insight                                                                                        Page 3
+
+
+
+ However, mid-size CIOs may have a few advantages ─ some owing to their companies’ relative
+ size ─ to help them sell the rest of the enterprise on an SOA strategy:
+   • Sufficient IT skills. Compared with large and small organizations, mid-size enterprises are
+     less likely (24% vs. 40% for small firms and 36% for large firms) to have limited in-house IT
+     skills to execute an SOA project.
+   • Less IT complexity. Bigger may not necessarily be better. Only 18% of mid-size enterprises
+     cite “too much complexity” as an SOA challenge vs. 26% for large companies (for small
+     firms: 22%).
+   • Best practices or lessons learned are easier to find. Again, simple may be a benefit; only
+     23% cite a lack of best practices or lessons learned to call on, compared with 32% of large
+     enterprises and 28% for small firms,
+   • Change management is not a huge obstacle. Only 24% of mid-size respondents cited
+     “change management around people or existing processes” as a challenge, compared with
+     35% for large firms (for small firms, 29%). Again, being smaller has its advantages; having a
+     corporate culture that is more adaptable to change is even better.
+ Conclusions
+ SOA adoption will lower the cost of IT and enable more responsiveness to business needs. The
+ size of the SOA budget is at stake, and an enterprise must increase it to take full advantage of
+ what SOA can offer.
+                                               SOA Recommendations
+ Because SOA is not widely deployed, it
+ has not yet changed the IT delivery           √ Take a strategic approach to SOA planning.
+ model. That must change so the IT             √ Invest in an SOA competency center.
+ organization can take full advantage of
+                                               √ Master the new SOA technologies.
+ what SOA promises and create a
+ “service-oriented IT organization,” which √ Develop SOA metrics.
+ can define and deliver IT in terms of
+ business services that line-of-business managers can understand. IT will need to decouple these
+ business-level services from the IT-level services, but must be able to assemble them rapidly to
+ deliver the required functionality.
+ SOA is, first and foremost, a technology enabler for the IT organization. But it’s also a catalyst
+ of change for how IT delivers its value to the business. CIOs are encouraged to focus on the
+ following capabilities to begin effecting change within their organizations:
+    •   Take a strategic approach to SOA planning. Multi-phased strategic projects may be more
+        effective in raising the visibility of SOA within the organization at higher levels. CIOs
+        must demand increased budget commitment to bring SOA’s promise to fruition. Take a
+        holistic and strategic approach for SOA planning, which will include a roadmap, transition
+        plans, and metrics for quantifying SOA’s value and results.
+    •   Invest in an SOA competency center. SOA requires a concentration of knowledge and best
+        practices that’s necessary to achieve effective deployments. Lessons learned from any SOA
+        activity are best exploited when there is a centralized approach to its management.
+    •   Master the new SOA technologies. There is a handful of key SOA technology pieces the
+        IT organization must understand well. These include the enterprise service bus, the services
+        registry, policy governance and management, SOA infrastructure activity monitoring,
+
+© 2006 AberdeenGroup, Inc.                                                          Telephone: 617 723 7890
+260 Franklin Street                                                                       Fax: 617 723 7897
+Boston, Massachusetts 02110-3112                                                         www.aberdeen.com
+                                                                             For Mid-Size Enterprises, SOA Benefits Begin with IT
+Sector Insight                                                                                                                    Page 4
+
+
+
+     •     business process management engines, master data management and semantics building,
+           and Web Services/XML security management.
+     •     Develop SOA metrics. There is nothing better for showcasing value than the measurement
+           and documentation of specific outcomes. These could range from the obvious ─ cost,
+           productivity, and time-to-market metrics ─to more SOA-specific measurements, such as re-
+           use of a Web service, degree of services granularity (from fine to coarse), time to change a
+           governance or usage policy, usage statistics for a given service, value of a service, and
+           linkage of IT service to business service value.
+
+
+
+
+                                                       Related Research
+  The SOA in IT Benchmark Report, December                                        SOA Success Starts with IT Success,
+  2005                                                                            November 2005
+  The Service-Oriented Architecture in the Supply                                 The ESB in the Land of SOA, December
+  Chain Benchmark Report, October 2005                                            2005
+
+
+    Author: William Mougayar, VP & Service Director, Technology Practice,
+    william.mougayar@aberdeen.com, and Rick Saia, Analyst/Editor, rick.saia@aberdeen.com
+
+
+
+Founded in 1988, AberdeenGroup is the technology- driven research destination of choice for the global business executive.
+AberdeenGroup has over 100,000 research members in over 36 countries around the world that both participate in and direct the most
+comprehensive technology-driven value chain research in the market. Through its continued fact-based research, benchmarking, and
+actionable analysis, AberdeenGroup offers global business and technology executives a unique mix of actionable research, KPIs, tools,
+and services.
+This document is the result of research performed by AberdeenGroup. AberdeenGroup believes its findings are objective and represent
+the best analysis available at the time of publication. Unless otherwise noted, the entire contents of this publication are copyrighted by
+AberdeenGroup, Inc. and may not be reproduced, stored in a retrieval system, or transmitted in any form or by any means without prior
+written consent by AberdeenGroup, Inc.
+

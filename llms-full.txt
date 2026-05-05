@@ -1,9 +1,9 @@
 # Aberdeen Group Archive — Kastner Collection (Extended)
 
-> A 888-study, 16,696-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
+> A 915-study, 17,819-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
 
 **Repository root:** https://github.com/shorttack/aberdeen-group-archive
-**Total studies:** 888   **Total observations:** 16,696
+**Total studies:** 915   **Total observations:** 17,819
 **License:** CC BY 4.0
 
 Each study directory contains a complete Frictionless Data Package (`studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, `codes.csv`, `datapackage.json`, `schema/schema_org.json`, `README.md`, `scripts/demo_analysis.py`, `source/original_text.md`).
@@ -174,7 +174,7 @@ Called out the 'no-second-source' PRC component risk (AC/DC power supplies, low-
 
 ## Fifteen High-Prescience Calls by Kastner
 
-These fifteen studies, drawn from the 168 Kastner-authored works rated `prescience: high` in `_master_studies.csv`, contain the most concretely-validated published predictions in the archive. Curated to span 1981-2003 across fault tolerance, mainframe economics, RDBMS, operating systems, channel economics, IT spending, and supply chain.
+These fifteen studies, drawn from the 175 Kastner-authored works rated `prescience: high` in `_master_studies.csv`, contain the most concretely-validated published predictions in the archive. Curated to span 1981-2003 across fault tolerance, mainframe economics, RDBMS, operating systems, channel economics, IT spending, and supply chain.
 
 ### 1. The Fault Tolerant Revolution — Stratus/32 launch advertisement
 

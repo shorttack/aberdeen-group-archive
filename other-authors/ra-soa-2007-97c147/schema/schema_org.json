@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SOA and Web Services Testing: How Different Can It Be? (Full Unabridged Version)",
+  "description": "Full 180pp unabridged version of the SOA/Web Services testing benchmark report. Study of 240 end-users involved in software quality. Best-in-Class (BIC) companies show 94% increase in deployed software quality, 61% reduction in defects, 57% faster repair times, 71% increase in code test coverage. Key finding: automation alone is insufficient \u2014 BIC companies test horizontally across entire business processes, not just vertically via unit testing. BIC companies 3x more likely to have redesigned their testing process. 45% of BIC use business requirements tracking tools vs 35% for others. File also contains appended Aberdeen reports: Enterprise Information Integration (July 2003), BPM Matching IT to Business Processes (Dec 2006), SOA Middleware Takes the Lead (July 2007), and Modernizing Legacy Applications (June 2007).",
+  "creator": {
+    "@type": "Person",
+    "name": "Aberdeen Group (Perry Donham)"
+  },
+  "datePublished": "2007-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

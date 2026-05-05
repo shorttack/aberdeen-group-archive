@@ -1,0 +1,260 @@
+# Application Lifecycle Management: Used by the Best of the Best in Class
+
+> Archived from: source/_raw_text.txt
+> Original publication date: 2007-03-08
+> Author: Rick Saia; Peter S. Kastner
+
+---
+
+## Original Document Text
+
+Information Technology                                                                   March 8, 2007
+
+
+                          Application Lifecycle Management:
+                         Used by the Best of the Best in Class
+         Business Challenge
+ IT organizations that are actively engaged in application lifecycle management for their service-
+ oriented architectures (SOA) are more likely to have lowered application service and lifecycle
+ costs than even the Best in Class from Aberdeen’s survey for its new SOA Management and
+ Governance Benchmark Report. Companies that want to improve how they manage SOA projects
+ must focus on how they develop and maintain services within an SOA. That can lead to the
+ appropriate methodologies and policies, such as code re-use, that drive lower costs of ownership.
+
+
+  Roadmap to Lower Costs and Higher Quality
+ Between one-third and half of the nearly 1,000 companies Aberdeen surveyed in 2006 regarding
+ their service-oriented architecture (SOA) strategies are having serious difficulties moving their
+ SOA-enabled applications into stable
+ deployment. The predominant reason for Recommendations for Action
+ these difficulties is inadequate tools for √ Focus on application lifecycle costs.
+ the     automated      management      and
+ governance of the growing plethora and √ Establish SOA operations, security, governance,
+ complexity of web services and                   and management policies and processes.
+ applications under an SOA, exacerbated √ Plan for the long haul instead of project by
+ by inexperience.                                 project..
+ But organizations that have implemented
+ policies on design, governance, and re-use — and that have active processes to manage the
+ application lifecycle — are a step up on the rest, even the Best in Class companies, according to
+ results from a recent benchmark survey for Aberdeen’s SOA Management and Governance
+ Benchmark Report (Table 1). In fact, these application lifecycle practitioners are all part of the
+ Best in Class group from the survey.
+ Table 1: How Application Lifecycle Management Practitioners Led the Field
+                                        Lifecycle
+                                                             Best in Class   All Respondents
+                                        Management Focus
+    Percent of organizations that
+    decreased SOA development
+                                               68%               46%                 25%
+    costs over last 12 months
+    No change in costs                         12%               44%                 40%
+    Costs increased                            20%               10%                 35%
+                                                                   Source: AberdeenGroup, February 2007
+
+
+        Announcement                Click here to read more on SOA management and governance.
+                                              Application Lifecycle Management: Used by the Best of the Best in Class
+Perspective                                                                                                   Page 2
+
+
+
+ The top driver for SOA management and governance is developing new business capabilities or
+ new products and services, followed by managing IT complexity. Standing in the way of
+ optimized SOA operations is establishment of operational security, governance, and management
+ (Table 2).
+ In response to these challenges, the top response, chosen by 45% of the survey base, is to
+ revise application lifecycle processes and responsibilities. This challenge is best illustrated by
+ an automotive parts manufacturer who told us, “With SOA, we were forced to rewrite whole
+ chapters of our IT processes manual…and that’s not a bad thing.”
+ Table 2: Challenges of SOA Operations and How Organizations Respond to Them
+  Challenges                     % Selected            Responses to Challenges                    % Selected
+  Establishment of                 45%                 Revised our application                        45%
+  operational security,                                lifecycle process and
+  governance, and                                      responsibilities
+  management
+  Security issues are              38%                 Engaged third-party IT services                41%
+  different from those of                              consulting, evaluation, and
+  older IT                                             assessments
+  Debugging problems with          37%                 Purchase or plan to purchase                   28%
+  complex services,                                    SOA operations management
+  composites                                           software
+  SLAs: Scaling to                 37%                 Purchase or plan to purchase                   26%
+  production volumes,                                  SOA security software
+  reliability and availability
+  Data management of               33%                 Invested in additional operations              22%
+  SOA services is                                      and applications lifecycle training
+  problematic
+  QA: Testing and                  31%                 Bought additional computer                     19%
+  deployment stage                                     capacity to minimize
+  problems spill over into                             performance/capacity issues
+  production
+                                                                              Source: AberdeenGroup, February 2007
+
+ Management, Governance, and Overall Software Lifecycle Costs
+ There is a tangible cause-and-effect relationship between management and governance and
+ overall software lifecycle costs:
+    •    Operationally, SOA introduces a myriad of new design, testing, and performance-related
+         issues that can not readily be solved with prior technology or IT elbow grease;
+    •    Design-time governance is where programmers can be “encouraged” to re-use existing
+         services, saving the initial coding time and long-term maintenance costs of writing new but
+         duplicative program code;
+    •    Operational governance ensures that eligible services are given the resources they need,
+         and that performance and security issues are managed.
+
+
+
+
+© 2007 AberdeenGroup, Inc.                                                                   Telephone: 617 723 7890
+260 Franklin Street                                                                                Fax: 617 723 7897
+Boston, Massachusetts 02110-3112                                                                  www.aberdeen.com
+                                           Application Lifecycle Management: Used by the Best of the Best in Class
+Perspective                                                                                                Page 3
+
+
+
+ The inefficiencies caused by a lack of SOA management and governance lower IT performance,
+ raise current operating costs, and collar IT with long-term software maintenance costs that will
+ endure for decades.
+ The 12% of our survey respondents whose organizations are actively engaged in application
+ lifecycle management for SOA are seeing, on average, a 29% payback from their investments in
+ SOA management tools. In contrast, all organizations represented in the survey have yet to see a
+ positive return (Table 3).
+ Table 3: Average Investments and Paybacks in SOA Development
+                                                        Investment            Payback              ROI
+        Lifecycle Management Focus                       $2.68 million         $3.45 million       +29%
+        All Respondents                                  $1.37 million         $1.18 million       - 14%
+                                                                           Source: AberdeenGroup, February 2007
+
+ The Global 1000 Lead the Pack
+ Given complex, distributed organizations and the IT to support these organizations, the Global
+ 1000 are leading practitioners of application lifecycle management. Our survey found that 48%
+ of the companies focused on application lifecycle management have annual revenue of more
+ than $1 billion. And 57% have had SOA services deployed for more than a year, compared with
+ 31% of the overall survey. This longevity is evident in 29% having more than 100 SOA services
+ deployed, versus 11% overall.
+ What’s Driving Application Lifecycle Management?
+ Based on our survey, the companies that focus on application lifecycle management are driven
+ by the following:
+        •     For 42%, SOA governance is an update to existing IT governance processes; and
+        •     Half want to ensure uniform and consistent policy application across the organization;
+ But application lifecycle management is not a standalone process for many. Fifty-two percent
+ have SOA governance processes for BOTH design and run-time operations, compared with 29%
+ of the overall survey and 29% of the Best in Class.
+ Recommendations for Action
+ To become more effective at managing SOA strategies, focus on the following:
+    •       Lower application lifecycle costs. A systematic focus on the costs of developing,
+            operating, and maintaining SOA services, which can be assisted with automation, will
+            result in the appropriate methodologies and policies such as code re-use that drive lower
+            costs of ownership. Without design-time governance, programmers will not re-use services,
+            and lifecycle costs will balloon. Run-time governance leads to higher quality, uptime, and
+            better security.
+    •       Establish operational security, governance, and management policies and processes.
+            “You can’t manage what you can’t measure” is on old, but true, adage. Too many Laggard
+            organizations ─ those who fell in the bottom 30% of our Competitive Framework in the
+            survey ─ lack the process, let alone automation for the process. Start with SOA operations
+            and move next to design governance, revising application lifecycle processes and
+            responsibilities along the way.
+
+© 2007 AberdeenGroup, Inc.                                                               Telephone: 617 723 7890
+260 Franklin Street                                                                            Fax: 617 723 7897
+Boston, Massachusetts 02110-3112                                                              www.aberdeen.com
+                                                       Application Lifecycle Management: Used by the Best of the Best in Class
+Perspective                                                                                                                       Page 4
+
+
+
+     •     Plan for the long haul. Too many SOA projects are justified on project ROI under
+           business-as-usual rules. That approach won’t unlock the long-term value of lower
+           application lifecycle costs nor solve the management of IT complexity issues driven by a
+           growing use of SOA. Our 2006 surveys showed that companies following an “Enterprise
+           SOA” strategy (using SOA middleware such as an enterprise service bus) can scale more
+           easily with lower short- and long-term costs by investing in all aspects of SOA
+           infrastructure software and in IT staff training.
+
+
+
+
+                    Related Research                                                    Upcoming Research
+    The Composite Applications Benchmark                                 The SOA Management and Governance
+    Report; December 2006                                                Benchmark Report; coming in March 2007
+    The Legacy Application Modernization                                 Locking Down Your SOA: Security Inside and
+    Benchmark Report; September 2006                                     Out; coming in May 2007
+
+
+   Authors: Rick Saia, Research Analyst, Enterprise Technology (rick.saia@aberdeen.com), and
+   Peter S. Kastner, VP and Research Director, Enterprise Technology (peter.kastner@aberdeen.com
+
+
+
+Founded in 1988, AberdeenGroup is the technology- driven research destination of choice for the global business executive.
+AberdeenGroup has over 100,000 research members in over 36 countries around the world that both participate in and direct the most
+comprehensive technology-driven value chain research in the market. Through its continued fact-based research, benchmarking, and
+actionable analysis, AberdeenGroup offers global business and technology executives a unique mix of actionable research, KPIs, tools,
+and services.
+This document is the result of research performed by AberdeenGroup. AberdeenGroup believes its findings are objective and represent
+the best analysis available at the time of publication. Unless otherwise noted, the entire contents of this publication are copyrighted by
+AberdeenGroup, Inc. and may not be reproduced, stored in a retrieval system, or transmitted in any form or by any means without prior
+written consent by AberdeenGroup, Inc.
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | soa-lifecycle-perspective-1ff953 |
+| title | Application Lifecycle Management: Used by the Best of the Best in Class |
+| author | Rick Saia; Peter S. Kastner |
+| date | 2007-03-08 |
+| type | employer-record |
+| subject_domain | SOA governance; application lifecycle management; SOA management; cost reduction |
+| methodology | Aberdeen Perspective based on survey data from SOA Management and Governance Benchmark Report (February 2007). ~1,000 company survey from 2006. |
+| source_file | source/_raw_text.txt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Aberdeen Perspective finding that IT organizations actively engaged in application lifecycle management (ALM) for SOA outperform even Best in Class organizations on cost reduction. Key quantitative findings: ALM-focused organizations (12% of survey) decreased SOA development costs over last 12 months at 68% rate vs. 46% for Best in Class and 25% for all respondents. Investment in ALM: $2.68M average with $3.45M payback (+29% ROI) vs. all respondents: $1.37M investment with $1.18M payback (-14% ROI). 48% of ALM companies have annual revenue >$1B. 57% have had SOA services deployed >1 year. 29% have >100 SOA services deployed vs. 11% overall. Top challenge: establishment of operational security, governance, and management (45%). Top response: revised application lifecycle processes and responsibilities (45%).
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | medium | High-importance study. Contains specific quantitative survey data on SOA ALM ROI, costs, and performance differentiation. Provides the most concrete ROI figures in the Kastner SOA archive: +29% ROI for ALM focus vs. -14% for all respondents. Establishes the 'Best of Best in Class' category for ALM practitioners. |
+| **Relevance** | medium | Directly relevant to the core SOA archive: covers SOA governance, lifecycle management, and cost reduction — central Kastner themes. Provides empirical evidence supporting the SOA Enterprise-vs-Lite quality argument. |
+| **Prescience** | medium | Prediction that design-time governance drives code reuse and lower costs proved accurate — SOA governance and code reuse became standard best practice. Claim that SOA Laggards would have long-term maintenance costs 'enduring for decades' was directionally accurate. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (3)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Rick Saia | person | [DEFERRED] |  |
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+
+### Technologies Referenced (8)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Service-Oriented Architecture (SOA) | architecture-framework | industry-standard | growth | evolved |
+| Application Lifecycle Management for SOA (ALM-SOA) | development-methodology | multi-vendor | emerging | mature |
+| Design-Time Governance | governance | multi-vendor | emerging | mature |
+| SOA Operations Management | operations | multi-vendor | emerging | evolved |
+| SOA Security | security | multi-vendor | emerging | mature |
+| SOA Governance Software | governance | multi-vendor | emerging | evolved |
+| Enterprise SOA (ESB strategy) | architecture-framework | multi-vendor | growth | evolved |
+| Web Services | integration-protocol | industry-standard | growth | mature |
+
+### Observation Summary
+
+- Total observations: 31
+- By type: survey-finding: 20, benchmark: 9, technical-claim: 2

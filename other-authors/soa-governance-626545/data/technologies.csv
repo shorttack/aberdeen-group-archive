@@ -1,0 +1,6 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-governance-tools","SOA Governance Software","governance","","2000s","emerging","evolved","soa-governance-626545","Automated SOA management and governance; >80% of Best-in-Class use third-party software for this; about 25% of Global 10000 employing design-time governance"
+"soa-operations-management","SOA Operations Management","operations","","2000s","emerging","evolved","soa-governance-626545","Includes ESB monitoring, service-aware capacity planning, crash debugging, SLA management for loosely coupled services"
+"soa-middleware-esb","SOA Infrastructure Middleware / ESB","middleware","","2000s","growth","evolved","soa-governance-626545","50% of companies using SOA Lite without ESB middleware; 30% Enterprise SOA with core middleware"
+"bpm-tools","Business Process Management (BPM) Tools","middleware","","2000s","growth","mature","soa-governance-626545","Mentioned as key integration technology alongside SOA; application lifecycle management component"
+"alm-tools","Application Lifecycle Management Tools","development-tools","","2000s","growth","mature","soa-governance-626545","75% of BIC organizations unhappy with current development tools and plan to supplement/replace within 6 months (from companion composite apps benchmark)"

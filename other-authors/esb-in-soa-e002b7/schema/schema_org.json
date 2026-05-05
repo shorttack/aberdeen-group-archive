@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The ESB in the Land of SOA",
+  "description": "Aberdeen research note (5 pages) on the emergence of ESB as de-facto technology standard for integrating SOA infrastructure. Based on survey of 286 companies ('How SOA is Changing IT'): 60% of large company respondents are using or planning shared messaging services within 12 months; 76% implementing Web Services calls to existing applications; 73% implementing applications-related services. Kastner's three-phase ESB evolution framework: Message Bus (messaging) \u2192 Service Bus (orchestration) \u2192 Process Bus (mediation). Four-segment vendor landscape: ESB pioneers/SOA-specific, traditional EAI/EII players, platform vendors, process-centric integrators. Aberdeen conclusions: evaluate ESB extensibility; existing ESBs need to go beyond messaging to orchestration and mediation; don't neglect services registry and governance.",
+  "creator": {
+    "@type": "Person",
+    "name": "William Mougayar"
+  },
+  "datePublished": "2005-12-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

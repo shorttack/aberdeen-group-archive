@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Business Process Management Benchmark Report: Achieving Real Results through Monitoring and Performance Measurement",
+  "description": "Full 38pp Aberdeen BPM benchmark report by Peter Kastner. Survey of 160+ Global 5000 enterprises. Finds 94% of respondents moderately or very satisfied with BPM IT system results; average ROI 18%, ROA 10%, 9% revenue increase, 12% expense decrease, 2x IT value/budget ratio. BAM vs BPM-centric approaches equally valid; 57% chose all equally. Key challenge: management buy-in. BPM monitoring 'wags the tail' of BPM suite \u2014 monitoring component sufficient to pull through BPM suite sales. 42% still in planning stages. Sponsored by Tier1 Innovation and Value Chain International Limited.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner, Aberdeen Group"
+  },
+  "datePublished": "2006-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,1512 @@
+    The SOA in IT Benchmark Report
+What CIOs Should Know about How SOA Is Changing IT
+
+
+
+
+                    December 2005
+
+
+                  — Sponsored by —
+                                                                         The SOA in IT Benchmark Report
+
+
+
+
+                            Executive Summary
+
+
+
+T      he promise of service-oriented architecture (SOA) is real, and so is the CIO’s di-
+       lemma. Although SOA offers such a compelling case for adoption, SOA’s busi-
+       ness benefits are still largely untapped as long as SOA activity sits only in the
+realm of IT.
+Companies cannot expect business benefits from SOA before the IT department has been
+able to assimilate what SOA can do for them. The reality for IT executives and CIOs is
+that the IT benefits from SOA must precede business benefits, which are a cascading ef-
+fect of full-lifecycle SOA implementations.
+This dilemma is real, and companies must address it by recognizing that SOA holds ─
+first and foremost ─ a technical promise of IT cost reduction as a result of faster and eas-
+ier customization, integration, and deployment of IT capabilities. The causal relationship
+for the business is very simple: a more competitive business environment that is able to
+change and react to market and customer needs without being bound by IT limitations.
+SOA is here, but not widely distributed. Only 16% of companies that responded to a re-
+cent Aberdeen survey have had more than 24 months of experience with SOA (21% in
+large companies), and 15% of respondents have managed or completed at least three
+SOA-related projects (large companies: 27%). The larger the SOA footprint becomes, the
+more tangible the benefits it will yield.
+Key Business Value Findings
+There is an urgent need for CIOs to more fully embrace SOA as a strategic blueprint for
+the IT organization. The top challenge to SOA adoption, cited by 41% of survey respon-
+dents, is “limited visibility for SOA value.” This may be a golden opportunity for CIOs
+to focus on the end-result of SOA business benefits rather than become enamored by the
+technology itself. A compelling business context is much easier to sell once a well-
+defined SOA implementation is fully delivered.
+Aberdeen is bullish on SOA. We predict that over the next five years, the top Global
+2000 organizations have a potential to save $53 billion from their IT budgets as a result
+of SOA bearing fruit in reducing software implementation costs. This doesn’t include the
+cascading effects of enabling the business to become more responsive to change because
+IT can deliver on these changing requirements in a shorter timeframe.
+Savings from SOA implementations result in two major undertakings: (1) reinvestment in
+new IT capabilities and (2) direct business impact from SOA enablement to generate new
+revenue or enable new business capabilities. It’s no surprise that the top factor for im-
+plementing SOA, cited by 50% of survey respondents, is “development of new capabili-
+ties.” Another related factor is the impact SOA is having on IT budgets relating to inno-
+vation and software maintenance costs. On average, best-in-class (BIC) companies spend
+29.6% of their IT budgets on innovation versus 18.5% for all companies surveyed. Fur-
+thermore, BIC companies report that they spend only 12.4% of their IT budgets on soft-
+ware maintenance as opposed to 27.3% for all participants.
+
+
+
+
+                              All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                       AberdeenGroup • i
+The SOA in IT Benchmark Report
+
+
+
+        Companies that have had experience in the full-cycle of SOA implementations have been
+        able to quantify the benefits of their undertakings in three major categories: (1) speed of
+        deployment, (2) easier integration, and (3) faster customization and updates. These cate-
+        gories carry cost- and time-savings elements that will spread to the rest of the business.
+        SOA is for the long term. Companies will try to balance the initial cost of developing
+        SOA applications against the expected savings from the deployment, integration, testing,
+        and maintenance phases. The savings are real in productivity gains, time, and costs.
+        Whether the SOA development is done internally or outsourced, IT maintenance costs
+        will fall. While the cost of running existing applications is low, the cost of maintaining
+        them is high. This bodes well for justifying an SOA implementation.
+
+        Implications & Analysis
+        Marrying the business requirements with IT capabilities through the use of business
+        process configuration, orchestration, and manipulation tools will become a new compe-
+        tency. This will contribute to a stronger alignment between IT and the business. Software
+        deployment is moving from design/compile/run to assemble/configure/monitor. The right
+        business services at the right granularity level can be very powerful catalysts for binding
+        business language to IT capabilities.
+        By focusing on the architectural requirements behind SOA, companies can take advan-
+        tage of its strategic value. The architecture part is what gives the services orientation its
+        highest value. Sixty percent of BIC companies say they’re re-engineering their software
+        architectures, versus 32% of all companies surveyed. Yet, the role of the SOA architect is
+        critical, but not enough. A company needs an SOA competency center to serve as a re-
+        pository of best practices to efficiently master the effectiveness of SOA-related deploy-
+        ments.
+        Ultimately, the SOA promise is about giving IT a higher level of predictability in deliver-
+        ing IT, from technical capabilities to business value. Running IT like a service, adopting
+        open service architectures, and linking business to IT organically via a business services
+        orientation will help the IT organization achieve “SO-IT,” or Service-Oriented IT.
+
+        Recommendations for Action
+        An SOA direction presents an opportunity for forward-thinking CIOs to flex their mus-
+        cles. The savvy CIO will know how to capitalize on the SOA shift in order to funnel the
+        savings into additional value-added activities. Fifty percent of respondents expect to be
+        able to develop new business capabilities or new products and services and 43% expect
+        to reuse applications via Web services. These key benefits are residual effects of SOA.
+        Ultimately, IT wants to spend more on innovation and new capabilities. SOA adoption
+        will lower the cost of IT and enable more responsiveness to business needs. The size of
+        the SOA budget is at stake, and it must be increased to fully exploit the promise of SOA.
+        Because SOA is not widely deployed, it has not yet changed the IT delivery model. IT
+        must change it to take full advantage of the SOA promise. SO-IT is about defining and
+        delivering IT in terms of business services that line-of-business managers can understand.
+        IT will need to decouple these business-level services from the IT-level services, but
+        must be able to assemble them rapidly to deliver the required functionality.
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+ii • AberdeenGroup
+                                                                                       The SOA in IT Benchmark Report
+
+
+
+
+                                   Table of Contents
+
+Executive Summary .............................................................................................. i
+   Key Business Value Findings.......................................................................... i
+   Implications & Analysis ...................................................................................ii
+   Recommendations for Action..........................................................................ii
+
+Chapter One: Issue at Hand.................................................................................1
+   Wide Adoption and Experience Remain Scarce ............................................ 2
+   SOA Cost Savings Help the IT Budget .......................................................... 2
+   SOA Permanently Binds the Business with IT ............................................... 3
+   SOA Enables the Development of New Capabilities...................................... 4
+   IT Benefits Precede Business Benefits......................................................... 4
+
+Chapter Two: Key Business Value Findings .........................................................6
+   Put the SOA Architect in Charge of Architecting, Not Project Management.. 6
+   The Role of the SOA Architect ....................................................................... 7
+   CIOs Need to Raise the Visibility of SOA’s Value .......................................... 8
+   Experience with SOA Projects Matters .......................................................... 8
+   Retooling IT Skills: Business Analysts Are in Demand................................... 9
+
+Chapter Three: Implications & Analysis............................................................. 11
+   How to Quantify SOA’s Value ...................................................................... 12
+   Key SOA Technologies ................................................................................ 13
+   Adoption Rates Vary by SOA Technology .................................................... 13
+   Pressures, Actions, Capabilities, Enablers (PACE)...................................... 14
+   Areas of SOA Being Implemented ............................................................... 16
+
+Chapter Four: Recommendations for Action ...................................................... 17
+   Recommended Actions for all Companies ................................................... 17
+   Laggard Steps to Success........................................................................... 18
+   Industry Norm Step to Success ................................................................... 19
+   Best in Class Next Steps ............................................................................. 19
+   Let SOA Provide Better IT Predictability ...................................................... 19
+
+Featured Sponsors............................................................................................. 20
+
+Sponsor Directory .............................................................................................. 22
+
+
+
+                            All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                       AberdeenGroup
+The SOA in IT Benchmark Report
+
+
+
+
+                                                    Table of Contents
+
+                Author Profile ..................................................................................................... 23
+
+                Appendix A: Research Methodology .................................................................. 24
+
+                Appendix B: Related Aberdeen Research & Tools ............................................. 26
+
+                About AberdeenGroup ...................................................................................... 27
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+AberdeenGroup
+                                                                          The SOA in IT Benchmark Report
+
+
+
+
+                                       Figures
+
+Figure 1: Company Experience with SOA Projects ..............................................2
+
+Figure 2: Top 3 Factors Driving SOA Implementations.........................................4
+
+Figure 3: Who Leads SOA Efforts in Your Organization? .....................................7
+
+Figure 4: Top Three Strategic Actions or Plans to Address/Implement SOA ........9
+
+Figure 5: Likely Scenarios in Three Years as a Result of SOA Adoption ............ 10
+
+Figure 6: Areas of SOA Being Implemented....................................................... 11
+
+Figure 7: The Three Dimensions of SOA’s Value ............................................... 12
+
+Figure 8: SOA Technology Components Use ..................................................... 14
+
+Figure 9: Areas of SOA Being Implemented or Planning to be Implemented ..... 16
+
+
+                                        Tables
+
+Table 1: Percent of Current and Planned SOA-Based Software Applications ......3
+
+Table 2: SOA Implementation Challenges and Responses ..................................8
+
+Table 3: Key SOA Technologies and Current Adoption....................................... 13
+
+Table 4: PACE (Pressures, Actions, Capabilities, Enablers)............................... 15
+
+Table 5: Relationship between PACE and Competitive Framework ................... 25
+
+
+
+
+                        All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                   AberdeenGroup
+                                                                                              The SOA in IT Benchmark Report
+
+
+
+
+                                                     Chapter One:
+                                                    Issue at Hand
+
+                    •    The SOA promise is real, but the benefits have not been widely distributed.
+                    • A $10 billion company with a $300 million IT budget can save $30 million per year from a
+Key Takeaways
+
+
+
+
+                      broad SOA adoption after a 5-year horizon of implementing SOA in at least 75% of its
+                      applications.
+                    •    CIOs need to increase the visibility and footprints of SOA projects rapidly to gain the
+                         maximum benefit.
+                    •    Timid SOA undertakings lower IT’s credibility as an agent of change for the business.
+
+
+
+
+S      oftware deployment complexities and unpredictable delivery outcomes from long
+       IT projects have been at the center of every debate on IT’s value to the enterprise.
+       Most IT organizations still spend a considerable portion of their budgets (on aver-
+age, 64%) on developing, deploying, or integrating applications ─ a vexing situation for
+CIOs. This limits the amount of available resources that can be directed toward more
+visible outcomes, such as fueling innovation and creating new technological capabilities.
+Enter the concept of service-oriented architecture (SOA), a
+two-year-old technology-driven construct that promises pro-                              Competitive Framework
+found implications for IT and holds a real potential to                                           Key
+change the IT delivery model deeply. SOA approaches cover                               The Aberdeen Competitive
+many issues. This report focuses on the following questions:                            Framework defines enter-
+                       Is IT showing enough leadership to advance the                  prises as falling into one of
+                        SOA agenda? Or is it not taking enough risks and,               the three following levels of
+                        therefore, not pushing far enough for break-                    practices and performance:
+                        throughs?                                                       Laggards (30%) —practices
+                       How can SOA bring IT and the business together?                 that are significantly behind
+                                                                                        the average of the industry
+                       What must IT organizations do to fully exploit the
+                        potential advantages of SOA?                                    Industry norm (50%) —
+                                                                                        practices that represent the
+SOA offers a mix of lessons from the Internet and client-                               average or norm
+server phenomena. Like the Internet in its early days, SOA
+has a simple veneer, but a complex core. It’s simultaneously                            Best in class (20%) —
+a concept, a methodology, a set of technologies, and a range                            practices that are the best
+of business practices. And, in the same way the client-server                           currently being employed
+architecture brought significant changes to the way software                            and significantly superior to
+was developed and delivered, SOA holds another promise to                               the industry norm
+yet again change the IT delivery model permanently.
+
+
+
+
+                                                All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                                        AberdeenGroup • 1
+The SOA in IT Benchmark Report
+
+
+
+        Wide Adoption and Experience Remain Scarce
+        Only 16% of companies in the Aberdeen survey have more than 24 months of experience
+        with SOA technologies (21% among large companies). Twenty three percent (23%) have
+        between 12 and 24 months of experience (large companies, 28%), and 22% have less
+        than 12 months of experience (large companies, 29%). This indicates that experience and
+        adoption levels vary widely across companies and tends to be higher for larger firms.
+        (Figure 1).
+        As for personal experience with SOA projects, respondents at companies Aberdeen
+        judges as best in class have more experience than average respondents have. This is not a
+        surprise. Best-in-class companies have a leg up over others and are already reaping the
+        benefits of SOA. The larger the SOA footprint becomes, the more tangible the benefits it
+        will yield.
+
+        Figure 1: Company Experience with SOA Projects
+
+
+
+                                                         15%
+               1 project
+                                                   12%
+
+                                                                            26%            BIC
+            2-3 projects
+                                                          16%                              Average
+
+           More than 3                                              21%
+              projects                                 14%
+
+                           0%       5%      10%       15%      20%      25%      30%
+
+                                                                    Source: AberdeenGroup, December 2005
+
+        SOA adoption levels are reminiscent of the early days of the Internet in 1995 and 1996,
+        when even large companies had undertaken only two or three significant Internet pro-
+        jects. Although BIC respondents had more experience with SOA projects than the norm,
+        SOA investments, in general, are still timid. One reason is that the psychology of IT
+        spending is still oriented toward squeezing as much as possible from the IT budget. But
+        SOA requires an investment approach to realize its benefits, especially in some of the
+        infrastructure-related parts of its deployment. One IT executive from a large financial
+        institution says it’s difficult to take a pure ROI approach to early SOA investments. “It’s
+        a bit like paving the infrastructure. What’s the ROI on pavement? But you need it to walk
+        from one place to another.”
+
+        SOA Cost Savings Help the IT Budget
+        Aberdeen is bullish on SOA. But only a widespread adoption of SOA technologies will
+        provide enough of a visibly significant gain in productivity beyond the IT department.
+        The first visible beachhead for which there are real SOA savings is related to software
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+2 • AberdeenGroup
+                                                                        The SOA in IT Benchmark Report
+
+
+
+applications. Based on survey analysis and
+interviews with several respondents, Aber-
+deen estimates that SOA adoption can save           Over the next five years, Global
+25% of application deployment costs when a          2000 companies will save up to
+full lifecycle project is implemented. By           $53 billion from their IT budgets
+coupling this estimate with survey data on          once SOA bears fruit.
+respondents’ predictions of usage over the
+next five years (Table 1), Aberdeen predicts
+that Global 2000 companies can potentially save $53 billion from their IT budgets when
+SOA bears fruit in the form of reducing software implementation costs. This doesn’t in-
+clude the cascading effects of enabling the business to become more responsive to
+change, because IT can deliver on these changing requirements in a shorter timeframe.
+
+Table 1: Percent of Current and Planned SOA-Based Software Applications
+
+
+
+
+                                                         Source: AberdeenGroup, December 2005
+
+
+SOA Permanently Binds the Business with IT
+SOA is a lever for IT, forcing a better business understanding of IT and enabling a new
+level of synchronization with the business. While technology and business changes are
+always expected, what has been missing is a tight linkage of the causal relationship be-
+tween the two. Because SOA is grounded partly in IT and partly with the business, any
+change in one is automatically reflected in the other, in essence binding the two together
+permanently, and solving the age-old “IT alignment” challenge. SOA forces a joint,
+common thinking between the business and IT from the design to deployment phases.
+It’s no surprise that 50% of large companies cite “alignment with the business” as the top
+factor that drove their firms to initiate or implement SOA. This is closely followed by
+“managing IT complexity,” also cited by 49% of large companies (Figure 2).
+
+
+
+
+                             All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                     AberdeenGroup • 3
+The SOA in IT Benchmark Report
+
+
+
+        Figure 2: Top Three Factors Driving SOA Implementations
+
+
+                                                                     20%
+                           Managing IT integration costs
+                                                                     20%
+
+                                                                             33%
+                            Alignment with the business
+                                                                           30%
+
+                                                                                               57%
+              Re-usage of applications via Web services
+                                                                                   43%
+
+                                                                                                     67%
+               Development of new capabilities/products
+                                                                                         50%
+
+                                                                                   43%
+                           Management of IT complexity
+                                                                                   43%
+
+
+                                                          0% 10% 20% 30% 40% 50% 60% 70% 80%
+
+                                                                    Average        Best in Class
+
+                                                                        Source: AberdeenGroup, December 2005
+
+
+        PACE Key — For more detailed descrip-               SOA Enables the Development
+        tion see Appendix A
+                                                            of New Capabilities
+        Aberdeen applies a methodology to benchmark
+        research that evaluates the business pressures,     Half of respondents to the Aberdeen survey
+        actions, capabilities, and enablers (PACE) that     are implementing SOA so they can take ad-
+        indicate corporate behavior in specific business    vantage of developing new business capabili-
+        processes. These terms are defined as follows:      ties or new products and services. This is the
+          Pressures — external forces that impact an        case for 67% of best-in-class companies, fur-
+            organization’s market position, competitive-    ther accentuating the importance of SOA as a
+            ness, or business operations                    catalyst that can unlock the potential for IT to
+         Actions — the strategic approaches an organi-      contribute more directly to the business. In
+           zation takes in response to industry pres-       addition, 43% cited the re-use of applications
+           sures                                            via Web services as another key factor for
+                                                            SOA implementations.
+        Capabilities — the business process compe-
+           tencies required to execute corporate strat-
+           egy                                              IT Benefits Precede
+         Enablers — the key functionality of technology     Business Benefits
+           solutions required to support the organiza-
+                                                     The reality of SOA implementations is that
+           tion’s enabling business practices        IT benefits must precede business benefits. A
+                                                     software application based on an SOA infra-
+        structure looks the same on Day 1 of its rollout to a business user. However, it’s the
+        benefits obtained in the aftermath of the initial implementation that are most valuable for
+        the business, namely in the speed of updates and required changes that are possible, i.e.,
+        how IT responds to the changes. It’s wise to separate IT benefits from business accord-
+        ingly:
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+4 • AberdeenGroup
+                                                                       The SOA in IT Benchmark Report
+
+
+
+SOA Benefits for IT:
+   •   Management of IT complexity
+   •   Re-use of applications
+   •   Speed of IT implementations
+   •   Lower IT integration costs
+
+SOA Benefits for Business
+   •   Faster reactions to change
+   •   Competitiveness
+
+Shared SOA Benefits for IT and Business
+   • Continuous alignment of IT and business
+   •   Lower overall cost of IT
+   •   Lower IT maintenance costs
+   •   Lifecycle visibility into business process management
+   •   Development of new IT-enabled capabilities
+
+
+
+
+                            All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                    AberdeenGroup • 5
+The SOA in IT Benchmark Report
+
+
+
+
+                                              Chapter Two:
+                                       Key Business Value Findings
+
+                        • The role of the SOA architect is key, but not sufficient for managing SOA
+                          implementations.
+        Key Takeaways
+
+
+
+
+                        • An SOA competency center is a critical component of SOA success.
+                        • A company cannot achieve business value from an SOA until it realizes IT value from it
+                          first.
+                        • There will be a surge in IT spending because of the need to upgrade the IT infrastructure
+                          to SOA.
+
+
+
+
+        S      OA will ultimately change how IT capabilities are delivered. But there is no need
+               to delay an IT organization’s readiness to capitalize on such change. The key shift
+               required is to enable IT’s delivery as a set of business services, rather than as soft-
+        ware technology. Most IT organizations today are organized according to existing soft-
+        ware deployment practices, namely that software is designed or bought as a monolithic
+        package. It’s then customized, debugged, tested, and then deployed in various stages.
+        Tomorrow’s SOA-IT environment will enable the assembly of existing pieces as ser-
+        vices. A business analyst will decide how these services will interact with each other via
+        policy or capability configurations. An SOA integration specialist will lay out the orches-
+        tration and manipulation requirements for the services. Then, IT operations will monitor
+        and manage the entire framework. Ultimately, business managers will be able to make
+        changes to the software that powers their operations, but before we get there, IT must
+        reach a certain level of SOA maturity that promises this plug-and-play environment at the
+        business-level.
+        Who leads the IT organization through this transition is a critical aspect to becoming a
+        Service-Oriented IT (SO-IT) organization.
+
+        Put the SOA Architect in Charge of Architecting,
+        Not Project Management
+        By its very nature, implementing SOA requires coordination of multiple stakeholders
+        within IT and across the organization. At a full maturity level, SOA leaves no part of the
+        organization untouched. But at issue is what’s required to get there. Who will lead the
+        SOA strategy?
+        Forty-one percent (41%) of survey respondents indicate that the CIO is leading the SOA
+        efforts within their organizations, and 40% say the IT architect/IT planning departments
+        are the key leaders. This is not surprising. CIOs need to take a leadership position in
+        SOA due to its strategic nature, and IT architects must lay out the blueprint for weaving
+        services into the organization’s IT fabric.
+        However, what’s surprising in Figure 3 is that few companies have allowed a business
+        manager to lead SOA efforts; even fewer are allowing an SOA competency center to take
+        that role.
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+6 • AberdeenGroup
+                                                                                  The SOA in IT Benchmark Report
+
+
+
+The reality is that a company needs an SOA architect to lay out the SOA vision, as well
+as an SOA competency center where best practices and SOA implementation experience
+are best leveraged for the rest of organization.
+Before SOA can aspire to influence the business, it must first deliver on its technical
+promise; i.e., the deployment of fully operational end-to-end IT capabilities. The fact that
+few business managers are leading SOA efforts is a reflection of its real status today:
+SOA is still in the technical stage of its deployment.
+
+The Role of the SOA Architect
+A key part of the SOA journey involves re-architecting the various SOA elements so ser-
+vices can be orchestrated appropriately. The role of the architect is emerging as a critical
+one, requiring a top-down approach to planning an SOA. Leading organizations are cre-
+ating the position of “senior SOA architect,” a role responsible for the overall SOA blue-
+print, vision, governance, and transition roadmap. The SOA architect’s role is reminis-
+cent of the re-engineering czar of the early 1990s or the internal Internet guru of the mid-
+1990s. The architect’s job requirements include a mix of technical, visionary, educa-
+tional, evangelical, and change management skills. A key aspect of the SOA architect’s
+role is the working relationship with the application development group.
+The importance of the SOA architect is primordial: 60% of BIC companies are re-
+engineering their software architecture versus 32% of all survey respondents. And, 64%
+of companies with more than 24 months of SOA experience predict there will be a surge
+in the prominence of IT architects, versus 48% of the entire survey field.
+However, the SOA architect does not have to lead or manage SOA implementations. That
+task is best left to the SOA competency center or IT project office.
+
+Figure 3: Who Leads SOA Efforts in Your Organization?
+
+
+       Business Process Office                  9%
+
+       SOA Competency Center                      10%
+
+                  IT Operations                   10%
+
+             Business Manager                            14%
+
+       IT Software Development                                 18%
+
+                          VP, IT                                           28%
+
+         IT Architect/IT Planning                                                            39%
+
+                            CIO                                                               40%
+
+                                 0%     5%     10%      15%    20%   25%    30%     35%    40%      45%
+
+                                                                 Source: AberdeenGroup, December 2005
+
+
+
+
+                                    All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                            AberdeenGroup • 7
+The SOA in IT Benchmark Report
+
+
+
+         CIOs Need to Raise the Visibility of SOA’s Value
+         Standing in the way of SOA implementations, according to 41% of survey respondents,
+         is limited visibility for SOA value (Table 2). CIOs have a marketing role to play, but first
+         they must deliver fully functional SOA applications to the business. Therefore, it’s very
+         important to frame the scope of the first SOA project in such a way that SOA’s value can
+         be visible both within IT and for the business.
+
+         Table 2: SOA Implementation Challenges and Responses
+                 Challenges                   % Selected       Responses to Challenges           % Selected
+    1. Limited visibility for SOA value          41%       1. Small pilot to show success           54%
+    2. Limited in-house IT skills                34%       2. Systematic planning approach          42%
+    3. Limited vision/support or under-          31%       3. Technical education                   40%
+    standing from the business side and/or
+    executive leadership
+    4. Not enough in-house business ana-         30%       4. Choosing strategic ven-               33%
+    lysts versed in SOA                                    dors/technologies to work with
+    5. Change management around peo-             30%       5. Business education                    31%
+    ple or existing processes
+    6. Balancing what comes first: ser-          29%       6. An investment-led approach to         24%
+    vices orientation or re-architecting IT                SOA implementations
+    7. Lack of best practices or lessons         28%       7. Choosing an SOA maturity model        16%
+    learned                                                as roadmap
+    8. Too much complexity                       22%       8. Investing in SOA complexity man-      14%
+                                                           agement capabilities
+                                                                    Source: AberdeenGroup, December 2005
+
+
+         Experience with SOA Projects Matters
+         Fifty-five percent of all companies surveyed ─ and 67% of best-in-class firms ─ have
+         started SOA projects to showcase early success (Figure 4). Gaining experience in depth
+         and breadth of SOA implementations is a key factor for promoting SOA growth within
+         the IT organization. The reality is that business value will not be achieved before IT
+         value. Therefore, CIOs are encouraged to fully understand how SOA is benefiting their
+         organizations and the resulting metrics for success. A further analysis reveals that 47% of
+         BIC respondents have done more than two projects versus 26% for all respondents in the
+         survey.
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+8 • AberdeenGroup
+                                                                           The SOA in IT Benchmark Report
+
+
+
+Figure 4: Top Three Strategic Actions or Plans to Address/Implement SOA
+
+ SOA pilots to showcase                                                              67%
+                 succes                                                 55%
+Re-engineering software                                                       60%
+            architecture                                    41%
+
+           Joint strategic                                37%
+           plan/roadmap                                  36%
+
+ Changing the IT delivery                    23%
+                  model                        26%
+
+              Company                        23%
+    awareness/education                            29%
+
+                                    13%
+IT strategic plan/roadmap                        27%
+
+                                                  27%
+     IT technical training
+                                                25%
+
+    Software applications     7%
+     portfolio assessment                 20%                                   Best in Class
+
+                                      17%                                       Average
+ Discuss SOA outside IT                18%
+
+                         0%   10%     20%        30%     40%      50%     60%        70%        80%
+
+
+                                                            Source: AberdeenGroup, December 2005
+
+
+Retooling IT Skills: Business Analysts Are in Demand
+Best-in-class companies have a slightly different view on SOA challenges, reflecting
+their IT maturity level. First, only 33% of BIC companies indicated that limited visibility
+for SOA value was a challenge (versus 41% for all respondents). Second, 57% of BIC
+companies cited “not enough in-house business analysts versed in SOA” as a key chal-
+lenge, in addition to limited in-house IT skills (37% for BIC; 32% for all respondents).
+This is a true reflection of the impact SOA is having on the IT organization: 48% of re-
+spondents believe IT architects will become increasingly prominent, and 31% predict
+business analysts will become more important than programmers (Figure 5).
+However, Aberdeen expects a surge in IT spending in from 2006 to 2008 due to pres-
+sures to upgrade a significant percentage of the IT infrastructure to SOAs. The battle over
+the SOA budget is real because SOA requires an upfront cost investment. The good news
+is that the ROI is easily achievable.
+
+
+
+
+                               All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                       AberdeenGroup • 9
+The SOA in IT Benchmark Report
+
+
+
+        Figure 5: Likely Scenarios in Three Years as a Result of SOA Adoption
+
+
+
+                 Increasing prominence of IT architects                                         48%
+
+
+             Elimination of friction between business/IT                                  40%
+
+
+        Business process/IT boundaries will be invisible                            33%
+
+          Business analysts will be more important than
+                                                                                31%
+                                          programmers
+
+             Business/IT will speak the same language                           31%
+
+
+                        Usher wave of innovations in IT                         30%
+
+
+            Surge in IT spending due to SOA upgrades                    20%
+
+
+                                                           0%   10%   20%     30%     40%       50%   60%
+
+                                                                        Source: AberdeenGroup, December 2005
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+10 • AberdeenGroup
+                                                                                                    The SOA in IT Benchmark Report
+
+
+
+
+                                                        Chapter Three:
+                                                   Implications & Analysis
+
+                            •    Experienced adopters are focusing on integration, application development, and busi-
+                                 ness process modeling.
+        Key Takeaways
+
+
+
+
+                            •    Experienced adopters quantify the value of SOA according to speed of deployment,
+                                 ease of integration, and faster customization.
+                            •    Even best-in-class companies are not taking strategic approaches to SOA planning.
+                            •    Best-in-class companies show a much higher rate of adoption in composite applications
+                                 deployment.
+
+
+
+
+        S
+                            urvey respondents fell into one of three categories – Laggards, Cautious Adopters,
+                            or Experienced Adopters — based on their length of experience with SOA pro-
+                            jects:
+                        •       Laggards have had less than 12 months of SOA experience;
+                        •       Cautious adopters have had between 12 and 24 months of experience; and
+                        •       Experienced adopters have had more than 24 months of experience.
+        Figure 6: Areas of SOA Being Implemented
+
+                                                                   23% 19%
+      SO network applications
+                                                                    24%
+                                                                         30%
+Management of SOA elements                                                        39%
+                                                                              35%
+                                                                            33%
+                                SO security                                      39%
+                                                                      27%
+                                                                                             53%
+SO business process modelling
+                                                                                          49% 41%
+                                                                                              53% 51%
+    Planning/strategy/roadmap
+                                                                                                  58%
+                                                                                            51%
+        Services infrastructure                                                                   58%
+                                                                                          49%
+                                                                                                    60%
+  SO applications development                                                                  54%
+                                                                                          49%
+                                                                                                                  72%
+                            SO integration
+                                                                                                               69% 66%
+
+                                              0%             20%                40%                 60%                  80%
+                                                       Laggards     Cautious Adopters   Experienced Adopters
+
+
+                                                                                   Source: AberdeenGroup, December 2005
+
+        Figure 6 shows that experienced adopters have taken the lead in three key areas of SOA
+        implementation: 1) integration, 2) application development, and 3) business process
+        modeling. This is an accurate reflection of how companies can make a difference in their
+        SOA undertakings.
+
+
+                                                      All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                                             AberdeenGroup • 11
+The SOA in IT Benchmark Report
+
+
+
+        How to Quantify SOA’s Value
+        Quantifying the results from SOA projects is a key requirement for proving SOA’s value
+        and securing further commitments on expanding its footprint. Follow-up interviews with
+        a number of advanced SOA users allowed us to categorize measurable benefits into three
+        categories (Figure 7):
+
+        Figure 7: The Three Dimensions of SOA’s Value
+
+
+
+
+                                                                    Source: AberdeenGroup, December 2005
+
+
+
+             •   Speed of deployment. One manager of a high-volume application development
+                 center cited 40% faster implementations over those of competitors. For this re-
+                 spondent, software development time did not fall with SOA. It was the same, but
+                 the overall deployment period was drastically shortened due to reductions in the
+                 QA, build, and test cycles. Overall, this resulted in 40% faster deployment.
+             •   Ease of integration. SOA forces users to separate application components into
+                 logical services. There is less reliance on application programming interfaces for
+                 integration purposes. With an SOA approach, you don’t need to get into the ap-
+                 plication’s complexity to integrate. Since you’re dealing with the encapsulated
+                 services, the bugs are not as critical because you’re not breaking up the applica-
+                 tion.
+             •   Faster customization. SOA makes it easier to customize or upgrade applications
+                 in a step-wise fashion. The concept of live changes during run-time gets closer to
+                 reality because it’s an integral part of the design requirements. One respondent
+                 from a large bank saw a significant outcome after implementing an entire cus-
+                 tomer-facing web application comprised of 120 services. The bank is now able to
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+12 • AberdeenGroup
+                                                                         The SOA in IT Benchmark Report
+
+
+
+       roll out four to six major releases of the application per year instead of two or
+       three before an SOA, so this has become a competitive differentiator.
+
+Key SOA Technologies
+Table 3 represents a suggested hierarchy for the various SOA technology pieces. What
+seems to be lacking is a more widespread adoption of a rigorous strategy planning proc-
+ess for companies involved in SOA. This shows that for half of the respondents, SOA is
+not a strategic initiative. Even 34% of BIC companies are lagging in taking a strategic
+approach to SOA.
+
+Table 3: Key SOA Technologies and Current Adoption
+              A Functional Hierarchy of SOA Elements                  % Selected
+      1. Strategy Planning & Roadmap                                      50%
+      2. SOA Business Process Modeling and Design                         45%
+      3. SOA Integration                                                  63%
+      4. Development of SOA Applications and Services                     51%
+      5. Management of SOA Infrastructure and Services                    30%
+      6. SOA Security                                                     31%
+      7. SO Network Architecture                                          21%
+                                                          Source: AberdeenGroup, December 2005
+
+
+Adoption Rates Vary by SOA Technology
+Figure 8 shows how organizations are likely to adopt the various SOA technologies over
+the next 24 months. It’s no surprise that the locus of SOA attention seems to revolve
+around applications. Software applications are indeed the first-candidate technologies
+that offer the most compelling path to a migration toward an SOA methodology. With
+composite applications, BIC companies show a higher rate of adoption, 46% currently,
+versus 29% for all respondents, and 35% over the next 12 months, versus 23% for all
+respondents.
+
+
+
+
+                              All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                     AberdeenGroup • 13
+The SOA in IT Benchmark Report
+
+
+
+        Figure 8: SOA Technology Components Use
+
+
+
+
+                                                                    Source: AberdeenGroup, December 2005
+
+
+        Pressures, Actions, Capabilities, Enablers (PACE)
+        We have analyzed the relationship between the pressures companies identify, the actions
+        they take, and their subsequent competitive performance. Companies interested in SOA
+        should examine their prioritized PACE selections and determine whether they can gain
+        valuable perspectives from Table 4:
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+14 • AberdeenGroup
+                                                                              The SOA in IT Benchmark Report
+
+
+
+Table 4: PACE (Pressures, Actions, Capabilities, Enablers)
+
+             Prioritized    Prioritized Ac-          Prioritized               Prioritized
+Priorities   Pressures      tions                    Capabilities              Enablers
+      1      Managing IT    Re-architecting IT       Business process inte-    * Services registry
+             complexity     software infrastruc-     gration that enables      * BPM engine
+                            ture by coupling IT      speed of business         * SOA infrastruc-
+                            services to business     changes, including        ture monitoring
+                            services                 cross-process orches-
+                                                     tration and manipula-
+                                                     tion, and enables
+                                                     event-driven decision
+                                                     making
+      2      Re-use of      Break up monolithic      Composite applica-        * WSDL
+             applications   apps into services       tions development         * XML wrappers
+             via web        building blocks with                               * Services registry
+                                                     Modernization or sur-
+             services       well defined con-
+                                                     rounding of legacy
+                            tracts and policies
+                                                     applications with SOA
+      3      Speed of IT    Demand SOA as a          SOBA (service-            * SOA develop-
+             implementa-    standard for all soft-   oriented business ap-     ment framework
+             tions          ware development         plications) is the end    such as .NET or
+                            projects                 goal                      J2EE
+                                                     Interim goal is web       * WS-* standards
+                                                     services
+                                                                               * SOA test tools
+      4      Managing IT    Increased focus on       Universal exchange        * SOA ESB (enter-
+             integration    services and proc-       between applications      prise service bus)
+             costs          ess integration, less    data/logic, XML, -        * BPM engine
+                            on APIs                  messages, services,
+                                                     rules, policies and
+                                                     external data sources
+      5      SOA security   Consider increased       Securing SOA infra-       * SAML, WS-*
+                            security at the edge     structure wherever it
+                                                                               * Federated identity
+                            of the network or at     expands
+                            application-tier level                             * XML gateways
+      6      SOA network    Take a holistic view     XML traffic, net-         Specialized net-
+             architecture   of SOA by including      worked-application        work appliances as
+                            the role of XML-         processing as a way to    part of SOA infra-
+                            appliances and net-      optimize the entire IT    structure
+                            work-application         infrastructure
+                                                                               Software that inte-
+                            processing
+                                                                               grates the SOA
+                                                                               network edge into
+                                                                               the data center
+                                                            Source: AberdeenGroup, December 2005
+
+
+
+
+                            All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                   AberdeenGroup • 15
+The SOA in IT Benchmark Report
+
+
+
+
+        Areas of SOA Being Implemented
+        Figure 9 shows that it’s no surprise that integration ranks as the highest SOA activity area
+        within organizations. With the increasing heterogeneity of IT environments, IT integra-
+        tion costs had seen increases in complexity and cost. SOA will help better manage this
+        complexity and lower integration costs due to the standardization aspects of how services
+        interact with each other and what governs such interactions. This is an area of great
+        promise for SOA.
+
+        Figure 9: Areas of SOA Being Implemented or Planning to be Implemented
+
+
+
+
+                                                                    Source: AberdeenGroup, December 2005
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+16 • AberdeenGroup
+                                                                                              The SOA in IT Benchmark Report
+
+
+
+
+                                          Chapter Four:
+                                    Recommendations for Action
+
+                    •     Best in Class companies have found that SOA adoption lowers IT maintenance costs
+Key Takeaways
+
+
+
+
+                          and enables more spending on innovation.
+                    •     Changes within the IT organization are required to mirror the service-delivery aspects of
+                          SOA.
+                    •     Running IT like a service requires a full business orientation, but SOA is a great catalyst
+                          for achieving it.
+
+
+
+
+C       ost savings, closer alignment with the business, unparalleled responsiveness, pre-
+        dictable delivery, and ultimately customer satisfaction benefits await all IT or-
+        ganizations that are committed to allowing SOA to permeate their operations.
+Timid SOA undertakings lower IT’s credibility as an agent of change for the business
+and do not force the IT organization to change its mode of delivery accordingly. If SOA
+is the exception rather than the norm, there will be a constant battle and many contrasts
+between traditional and progressive IT undertakings.
+Ultimately, SOA is what will tilt the IT budget toward more spending on innovation and
+will enable new business capabilities, versus a traditional orientation in which mainte-
+nance and support costs consume most of the budget. In fact, the IT budget as a percent-
+age of total revenue spent on innovations was 29.6% for best-in-class companies with
+more than two SOA projects under their belts, versus 18.5% for all survey respondents.
+And, software maintenance costs as a percentage of IT budgets stood at 12.4% for BIC
+companies with SOA experience versus 27.3% for all participants.
+
+Recommended Actions for all Companies
+SOA is, first and foremost, a technology enabler for the IT organization. But it’s also a
+catalyst of change for how IT delivers its value to the business. CIOs are encouraged to
+focus on the following capabilities to begin effecting change within their organizations:
+                •       Take a strategic approach to SOA planning. Tactical SOA projects are not the
+                        only way to proceed. Multi-phased strategic projects may provide a bigger bang
+                        for raising the visibility of SOA within the organization at higher levels. CIOs
+                        must demand increased budget commitment to bring SOA’s promise to fruition.
+                        Now is the time to take a holistic and strategic approach for SOA planning,
+                        which will include a roadmap, transition plans, and metrics for quantifying
+                        SOA’s value and results.
+                •       Invest in an SOA competency center. Just like the novelty of other innovations,
+                        such as the Internet, client-server, and Six Sigma when they were introduced,
+                        SOA requires a concentration of knowledge and best practices that’s necessary to
+                        achieve effective deployments. Lessons learned from any SOA activity are best
+                        exploited when there is a centralized approach to its management.
+
+
+
+                                                All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                                       AberdeenGroup • 17
+The SOA in IT Benchmark Report
+
+
+
+             •   Bring the network architects and network operations into SOA. SOA is expan-
+                 sive and the networking experts, especially in large, multi-national organizations,
+                 will challenge its turf. It’s better to be proactive and agree on the several options
+                 are available for bringing the network into the realm of SOA.
+             •   Give prominence to a Senior SOA Architect. Some progressive organizations
+                 are creating a new position, such as a Senior SOA Architect, that will develop the
+                 SOA blueprint and roadmap. This is an important position, but it must not be
+                 confused with SOA project management. The SOA architect is responsible for
+                 the overall planning, strategy and, choice of the various architecture elements,
+                 but not necessarily for delivering SOA deployments.
+             •   Redesign the business analyst’s role. Long considered a trivial and not highly
+                 visible function, the business analyst takes a new role with SOA due to the recent
+                 increase in business process management (BPM) activity. Undeniably, there is
+                 some overlap and co-existence between SOA and BPM. Furthermore, as atten-
+                 tion shifts to cross-process manipulation and orchestration, the SOA business
+                 analyst will become a very important hybrid between IT and the business.
+             •   Master the new SOA technologies. Aside from trying to assimilate the several
+                 SOA product introductions from vendors, there is a handful of key SOA technol-
+                 ogy pieces that the IT organization must understand well. These include: the en-
+                 terprise service bus, the services registry, policy governance and management,
+                 SOA infrastructure activity monitoring, business process management engines,
+                 master data management and semantics building, and Web Services/XML secu-
+                 rity management.
+             •   Develop SOA metrics. There is nothing better for showcasing value than the
+                 measurement and documentation of specific outcomes. These could range from
+                 the obvious ─ cost, productivity, and time-to-market metrics ─to more SOA-
+                 specific measurements, such as re-use factor for a Web service, degree of ser-
+                 vices granularity (from fine to coarse), time to change a governance or usage pol-
+                 icy, usage statistics for a given service, value of a service, and linkage of IT ser-
+                 vice to business service value.
+        Whether a company is trying to gradually move its SOA practices from Laggard to In-
+        dustry Average, or Industry Average to Best in Class, the following actions will help spur
+        the necessary performance improvements:
+
+        Laggard Steps to Success
+                 Conduct company-wide awareness and education on the value of SOA and its
+                 various implementation approaches.
+                 There is nothing better than producing several SOA experts within the organiza-
+                 tion. SOA’s success will not propagate through a single entity or single project.
+                 Get more support and understanding from business and executive leadership.
+                 If you haven’t had the luxury of showing internal success yet, there is already a
+                 wide body of external successes and best practices with SOA in the marketplace.
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+18 • AberdeenGroup
+                                                                        The SOA in IT Benchmark Report
+
+
+
+        Focus on identifying those related to your business case so you can increase the
+        number of SOA related projects.
+
+Industry Norm Step to Success
+        Adopt the “recommended actions for all companies” (Page 17).
+
+Best in Class Next Steps
+        Conduct a company-wide software applications portfolio assessment.
+        After having secured a handful of SOA-related projects and acquiring experience
+        with SOA, fully assess all remaining legacy and existing applications and de-
+        velop an SOA migration path for each.
+        Get more support and understanding from the business side and executive
+        leadership.
+        Armed with the early results and success metrics from completed SOA projects,
+        it’s time to raise the visibility for SOA’s value within the business levels of the
+        organization. Start waging the battle for increasing the SOA budget.
+        Start implementing meaningful changes to the IT organization.
+        Ultimately, SOA is enabling the IT organization to deliver its value as a service.
+        The human resources side has to accompany this new orientation. Although some
+        IT organizations have already implemented internal account management and
+        shared success metrics with the business, SOA ups the ante even more and de-
+        mands creation of a new hybrid department that sits between the IT we know to-
+        day and the business unit/operations. This new hybrid has the required skills and
+        capabilities to create, manipulate, design, orchestrate, and mediate a variety of
+        business-level services. If SOA delivers on its promise, all of IT might look like
+        this hybrid in the not-too-distant future.
+
+Let SOA Provide Better IT Predictability
+Ultimately, the promise of SOA is about giving IT a higher level of predictability in de-
+livering IT, from technical capabilities to business value. Running IT like a service,
+adopting open service architecture, and linking business to IT organically via a business
+services orientation will help the IT organization achieve SO-IT.
+
+
+
+
+                             All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                    AberdeenGroup • 19
+The SOA in IT Benchmark Report
+
+
+
+
+                                      Featured Sponsors
+
+
+
+
+        MW2 is the industry thought leader for SOA consulting services and a proven systems
+        integrator. MW2 solutions are designed to analyze business challenges and resolve them
+        quickly to raise business performance levels, enable sustainable growth, and increase
+        shareholder value. MW2 accelerates the delivery of solutions through best practices and
+        proven SOA Blueprint™ methodology for SAP, Siebel, Oracle, BEA, and Microsoft.
+        MW2 solutions provide end-to-end enterprise visibility and manageability to empower
+        real-time decisions for an adaptive enterprise. Dynamically aligning business and IT with
+        MW2 Business Service Management (MW2 BSM™) across the organization achieves
+        maximum profitability and lowers IT cost.
+
+
+
+
+        Reactivity provides the leading secure XML infrastructure used by enterprises to secure,
+        accelerate, and integrate services, expediting results and generating competitive advan-
+        tage. Reactivity gives you control of XML Web services. Reactivity delivers the most
+        robust secure network infrastructure for Web services to: Consistently approve and en-
+        force policies for all XML traffic, stay current and mediate between XML Web services
+        standards, and protect your network perimeter, control access, and deliver secure, reliable
+        XML Web services. To learn how Reactivity can help your organization realize the
+        promise of XML, web services, and SOA, contact us at http://www.reactivity.com, +1-
+        650-551-7800 or info@reactivity.com.
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+20 • AberdeenGroup
+                                                                         The SOA in IT Benchmark Report
+
+
+
+
+Software AG, Inc. provides standards-based, Legacy Modernization and Process-Driven
+Integration solutions that work within a Service-Oriented Architecture to help organiza-
+tions preserve existing infrastructure investments and gain visibility and control over IT
+assets. Software AG supports 3,000 customers in 59 countries around the world. Visit us
+at www.softwareagusa.com.
+
+
+
+
+webMethods is a global leader in total business integration with a documented track re-
+cord for innovation. Our 1,300 enterprise customers report an average of two webMeth-
+ods implementations going into production every business day. webMethods Fabric, our
+flagship product suite for process-based, service-oriented integration, employs a service-
+oriented architecture to help enterprises realize greater agility and adaptability from their
+IT infrastructure. It delivers advanced Business Process Management (BPM) functional-
+ity to help these organizations integrate, assemble, and optimize their most critical busi-
+ness processes with patent-pending Business Activity Monitoring (BAM) capabilities,
+bringing extended visibility, predictability and control to these operations.
+
+
+
+
+                              All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                     AberdeenGroup • 21
+The SOA in IT Benchmark Report
+
+
+
+
+                                       Sponsor Directory
+
+        MW2 Consulting
+        150 Mathilda Place
+        Sunnyvale, CA 94086
+        408-215-2150
+        http://www.mw2consulting.com/
+        soa@mw2consulting.com
+
+        Reactivity
+        1301 Shoreway Road
+        Suite 425
+        Belmont, CA 94002
+        650-551-7800
+        http://www.reactivity.com
+        info@reactivity.com
+
+
+        Software AG, Inc.
+        11700 Plaza America Drive
+        Suite 700
+        Reston, VA 20190
+        703-860-5050
+        877-724-4965
+        http://www.softwareagusa.com
+        customerfirst@softwareagusa.com
+
+        webMethods, Inc.
+        3877 Fairfax Ridge Road
+        South Tower
+        Fairfax, VA 22030
+        703 460 2500
+        Fax: 703 460 2599
+        http://www.webMethods.com
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+22 • AberdeenGroup
+                                                                         The SOA in IT Benchmark Report
+
+
+
+
+                                 Author Profile
+
+William Mougayar,
+Vice President and Service Director
+Information Technology Research
+AberdeenGroup, Inc.
+William Mougayar leads Aberdeen’s CIO Strategic Agenda research practice, which
+weaves business strategy and technology operations issues facing CIOs in large and mid-
+size companies amid the constraints of organizational culture, human resources, budgets,
+project management, and vendor relations. His current research covers all aspects of
+SOA, services-oriented network architecture and the next generation of ERP systems.
+The technology agenda includes all aspects of running a cost-competitive and secure IT
+infrastructure, delivering robust applications, and shaping a flexible information architec-
+ture.
+Mougayar has 24 years of strategic, operational, and leadership experience in the IT in-
+dustry. In the past 10 years, he has consulted and lectured to the world’s largest corpora-
+tions and their CIOs. Previously, he spent 14 years at Hewlett-Packard and held a variety
+of positions in sales, marketing, and consulting management for enterprise systems in the
+healthcare, financial services, telecommunications, oil & gas, and telecommunications
+industries. He also led the client-server, open systems and executive/CIO programs at HP
+Canada.
+
+
+
+
+                              All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                     AberdeenGroup • 23
+The SOA in IT Benchmark Report
+
+
+
+
+                                        Appendix A:
+                                   Research Methodology
+
+
+
+        I   n November 2005, AberdeenGroup, with its survey partner, Accela Communications,
+            conducted a broad survey of 284 companies involved in SOA technologies and ex-
+            amined their usage patterns, strategies, experiences, intentions, and results. The hy-
+        pothesis that launched this report is that SOA was fundamentally changing the IT deliv-
+        ery model, the IT organization, and its relationship with the business. While SOA was
+        widely perceived to belong to the technical realm, business managers had to understand
+        the SOA concept better to crack through the barriers of adoption and change.
+        Responding IT and line-of-business executives, as well as high-level IT contributors,
+        completed an online survey that included questions designed to determine the following:
+                Can a better business understanding of SOA lead to more clarity into the evolu-
+                 tion of SOA and allow it to reach its full potential in three to five years?
+                Can we broaden the discussions outside of SOA and into SO-IT?
+                Is IT taking enough leadership to push through the services-oriented agenda, or is
+                 it not taking enough risks, and therefore not pushing far enough for break-
+                 throughs?
+                How is SOA bringing IT and business together?
+                What SOA-created behaviors should IT and its business partners adopt?
+        Aberdeen supplemented this online survey effort with telephone and e-mail interviews
+        with select survey respondents from the U.S., Europe, and Asia-Pacific countries, gather-
+        ing additional insights directly from leading practitioners relating to their direct experi-
+        ence in managing or leading SOA projects for their enterprises.
+        The study aimed to identify the state of SOA adoption and resulting action items neces-
+        sary to provide a framework by which readers could assess their own SOA capabilities.
+        Responding enterprises included the following:
+        •    Job title/function: The research sample included respondents within the following
+             functional areas: information technology (57%), sales and marketing (17%), business
+             process management (7%). Respondent positions: 17% from executive/senior posi-
+             tions (C-level or SVP); 11% from CIO/IT management; 19%, directors; 22%, man-
+             agers; and 11%, staff. Within IT, 29% were in general management, 24% in strat-
+             egy/planning, 14% in software/services architecture, 8% in software development,
+             5% in infrastructure and 5% in enterprise applications.
+        •    Industry: The research sample included respondents from a variety of industries.
+             Discrete manufacturing companies totaled 41% of the sample, followed by services-
+             based industries (24%), consumer-based (19%), public sector (9%) and process
+             manufacturing (4%). Less than half (11% of total) of the services industries respon-
+             dents consisted of financial services institutions.
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+24 • AberdeenGroup
+                                                                                   The SOA in IT Benchmark Report
+
+
+
+•   Geography: There was a good mix of global distribution from survey respondents.
+    Close to half (49%) were from North America, 30% from EMEA, 16% form Asia-
+    Pacific, and 6% from South America.
+•   Company size: About 30% of respondents were from large enterprises (annual reve-
+    nues of more than $1 billion); 28% were from mid-size enterprises (annual revenues
+    between $50 million and $1 billion); and 41% were from small businesses ($50 mil-
+    lion or less).
+Solution providers recognized as sponsors of this report were solicited after the fact and
+had no substantive influence on the direction of The SOA in IT Benchmark Report. Their
+sponsorship has made it possible for AberdeenGroup and Accela Communications to
+make these findings available to readers at no charge.
+
+Table 5: Relationship between PACE and Competitive Framework
+
+PACE and Competitive Framework How They Interact
+Aberdeen research indicates that companies that identify the most impactful pressures and take the most
+transformational and effective actions are most likely to achieve superior performance. The level of com-
+petitive performance that a company achieves is strongly determined by the PACE choices that they make
+and how well they execute.
+
+                                                                  Source: AberdeenGroup, December 2005
+
+
+
+
+                                  All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                         AberdeenGroup • 25
+The SOA in IT Benchmark Report
+
+
+
+
+                                  Appendix B:
+                       Related Aberdeen Research & Tools
+
+        Related Aberdeen research that forms a companion or reference to this report includes:
+        •    The ESB in the Land of SOA (December 2005)
+        •    The Service-Oriented Architecture in the Supply Chain Benchmark Report (Septem-
+             ber 2005)
+        Information on these and any other Aberdeen publications can be found at
+        www.Aberdeen.com.
+
+
+
+
+All print and electronic rights are the property of AberdeenGroup © 2005.
+26 • AberdeenGroup
+                                                                        The SOA in IT Benchmark Report
+
+
+
+
+                                       About
+                             AberdeenGroup
+
+Our Mission
+To be the trusted advisor and business value research destination of choice for the Global
+Business Executive.
+
+Our Approach
+Aberdeen delivers unbiased, primary research that helps enterprises derive tangible busi-
+ness value from technology-enabled solutions. Through continuous benchmarking and
+analysis of value chain practices, Aberdeen offers a unique mix of research, tools, and
+services to help Global Business Executives accomplish the following:
+    •   IMPROVE the financial and competitive position of their business now
+    •   PRIORITIZE operational improvement areas to drive immediate, tangible value
+        to their business
+    •   LEVERAGE information technology for tangible business value.
+Aberdeen also offers selected solution providers fact-based tools and services to em-
+power and equip them to accomplish the following:
+    •   CREATE DEMAND, by reaching the right level of executives in companies
+        where their solutions can deliver differentiated results
+    •   ACCELERATE SALES, by accessing executive decision-makers who need a so-
+        lution and arming the sales team with fact-based differentiation around business
+        impact
+    •   EXPAND CUSTOMERS, by fortifying their value proposition with independent
+        fact-based research and demonstrating installed base proof points
+
+Our History of Integrity
+Aberdeen was founded in 1988 to conduct fact-based, unbiased research that delivers
+tangible value to executives trying to advance their businesses with technology-enabled
+solutions.
+Aberdeen's integrity has always been and always will be beyond reproach. We provide
+independent research and analysis of the dynamics underlying specific technology-
+enabled business strategies, market trends, and technology solutions. While some reports
+or portions of reports may be underwritten by corporate sponsors, they do not influence
+Aberdeen's research findings.
+
+
+
+
+                             All print and electronic rights are the property of AberdeenGroup © 2005.
+                                                                                    AberdeenGroup • 27
+                                                                                             The SOA in IT Benchmark Report
+
+
+
+
+AberdeenGroup, Inc.                              Founded in 1988, AberdeenGroup is the technology-
+260 Franklin Street                              driven research destination of choice for the global
+Boston, Massachusetts                            business executive. AberdeenGroup has over 100,000
+02110-3112                                       research members in over 36 countries around the world
+USA                                              that both participate in and direct the most comprehen-
+                                                 sive technology-driven value chain research in the
+Telephone: 617 723 7890                          market. Through its continued fact-based research,
+Fax: 617 723 7897                                benchmarking, and actionable analysis, AberdeenGroup
+www.aberdeen.com                                 offers global business and technology executives a
+                                                 unique mix of actionable research, KPIs, tools,
+© 2005 AberdeenGroup, Inc.                       and services.
+All rights reserved
+December 2005
+The information contained in this publication has been obtained from sources Aberdeen believes to be reliable, but
+is not guaranteed by Aberdeen. Aberdeen publications reflect the analyst’s judgment at the time and are subject to
+change without notice.
+The trademarks and registered trademarks of the corporations mentioned in this publication are the property of their
+respective holders.
+  THIS DOCUMENT IS FOR ELECTRONIC DELIVERY ONLY
+                       The following acts are strictly prohibited:
+                              • Reproduction for Sale
+                              • Posting on a Web Site
+                              • Transmittal via the Internet
+                     Copyright © 2005 Aberdeen Group, Inc. Boston, Massachusetts
+
+
+
+Terms and Conditions
+Upon receipt of this electronic report, it is understood that the user will and must fully comply with the
+terms of purchase as stipulated in the Purchase Agreement signed by the user or by an authorized
+representative of the user’s organization.
+
+This publication is protected by United States copyright laws and international treaties. Unless otherwise
+noted in the Purchase Agreement, the entire contents of this publication are copyrighted by Aberdeen
+Group, Inc., and may not be reproduced, stored in another retrieval system, posted on a Web site, or
+transmitted in any form or by any means without prior written consent of the publisher. Unauthorized
+reproduction or distribution of this publication, or any portion of it, may result in severe civil and criminal
+penalties, and will be prosecuted to the maximum extent necessary to protect the rights of the publisher.
+
+The trademarks and registered trademarks of the corporations mentioned in this publication are the
+property of their respective holders.
+
+All information contained in this report is current as of publication date. Information contained in this
+publication has been obtained from sources Aberdeen believes to be reliable, but is not warranted by the
+publisher. Opinions reflect judgment at the time of publication and are subject to change without notice.
+
+
+Usage Tips
+Report viewing in this PDF format offers several benefits:
+        • Table of Contents: A dynamic Table of Contents (TOC) helps you navigate through the
+            report. Simply select "Show Bookmarks" from the "Windows" menu, or click on the bookmark
+            icon (fourth icon from the left on the standard toolbar) to access this feature. The TOC is both
+            expandable and collapsible; simply click on the plus sign to the left of the chapter titles listed
+            in the TOC. This feature enables you to change your view of the TOC, depending on whether
+            you would rather see an overview of the report or focus on any given chapter in greater
+            depth.
+        • Scroll Bar: Another online navigation feature can be accessed from the scroll bar to the right
+            of your document window. By dragging the scroll bar, you can easily navigate through the
+            entire document page by page. If you continue to press the mouse button while dragging the
+            scroll bar, Acrobat Reader will list each page number as you scroll. This feature is helpful if
+            you are searching for a specific page reference.
+        • Text-Based Searching: The PDF format also offers online text-based searching capabilities.
+            This can be a great asset if you are searching for references to a specific type of technology
+            or any other elements within the report.
+        • Reader Guide: To further explore the benefits of the PDF file format, please consult the
+            Reader Guide available from the Help menu.
+

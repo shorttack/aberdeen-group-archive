@@ -1,0 +1,8 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"service-oriented-architecture","Service-Oriented Architecture (SOA)","architecture","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Central subject; touted as 'latest pill to cure IT complexity'; mid-size enterprises using for IT nimbleness rather than business process focus"
+"enterprise-service-bus","Enterprise Service Bus (ESB)","middleware","vendor-neutral","2000s","growth","mature","si-soa-in-it-1bd5c3","Key SOA technology identified in recommendations; IT organizations must understand well"
+"services-registry","Services Registry","middleware","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Key SOA technology in recommendations; policy governance and management"
+"bpm-engine","Business Process Management Engine","bpm","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Key SOA technology in recommendations; lifecycle visibility into business process management"
+"master-data-management","Master Data Management and Semantics","data-management","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Key SOA technology in recommendations; master data management and semantics building"
+"web-services-xml-security","Web Services/XML Security Management","security","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Key SOA technology in recommendations; security management for SOA infrastructure"
+"soa-competency-center","SOA Competency Center","organizational-capability","vendor-neutral","2000s","emerging","mature","si-soa-in-it-1bd5c3","Key recommendation; concentration of SOA knowledge and best practices; centralized approach to SOA management"

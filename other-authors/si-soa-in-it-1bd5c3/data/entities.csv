@@ -1,0 +1,4 @@
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"rick-saia","Rick Saia","person","IT-research","active","","2000s","si-soa-in-it-1bd5c3","Analyst/Editor at Aberdeen Group; primary author of this Market Segment report; flagged as author per study instructions"
+"william-mougayar","William Mougayar","person","IT-research","active","","1980s-2000s","si-soa-in-it-1bd5c3","VP & Service Director, Technology Practice, Aberdeen Group; co-bylined with Rick Saia on this report"
+"aberdeen-group","Aberdeen Group","organization","IT-research","acquired","","1988-2010s","si-soa-in-it-1bd5c3","Technology research firm; publisher; founded 1988; 100000+ research members in 36+ countries; Boston, MA"

@@ -1,0 +1,7 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"soa-testing","SOA/Web Services Testing","testing-methodology","","2000s","emerging","evolved","soa-web-services-2007-c3297b","Integration, regression, business process, performance, and security testing for composite SOA applications; replaces monolithic unit testing"
+"automated-testing-tools","Automated Testing Tools (SOA)","testing-tools","","2000s","growth","mature","soa-web-services-2007-c3297b","Automated orchestration and integration testing tools; 57% of Best-in-Class vs 35% of others use automated testing"
+"requirements-tracking","Requirements Tracking Software","testing-tools","","2000s","growth","mature","soa-web-services-2007-c3297b","45% of Best-in-Class use requirements tracking tools vs 35% of Industry Average/Laggard"
+"design-time-governance","Design-Time Governance","governance","","2000s","emerging","mature","soa-web-services-2007-c3297b","Used by 48% of Best-in-Class vs 33% of others to promote code reuse and quality culture"
+"production-monitoring","Production Monitoring and Reporting Tools","operations","","2000s","growth","mature","soa-web-services-2007-c3297b","Used by Best-in-Class to understand deployed software behavior"
+"web-services-soa","Service Oriented Architecture / Web Services","architecture","","2000s","growth","evolved","soa-web-services-2007-c3297b","Core subject of study; composite application development paradigm requiring new QA approaches"

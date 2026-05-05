@@ -1,11 +1,11 @@
 # Aberdeen Group Archive — Kastner Collection
 
-> A 888-study, 16,696-observation Frictionless Data Package archive of Peter S. Kastner's 50+ year career in technology industry analysis (Prime Computer, Stratus, DEC, Aberdeen Group, Yankee Group, Obian Group, Adoptex). Each study is a self-contained dataset with `studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, and a `datapackage.json` Frictionless descriptor. Built for both human research and machine analysis.
+> A 915-study, 17,819-observation Frictionless Data Package archive of Peter S. Kastner's 50+ year career in technology industry analysis (Prime Computer, Stratus, DEC, Aberdeen Group, Yankee Group, Obian Group, Adoptex). Each study is a self-contained dataset with `studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, and a `datapackage.json` Frictionless descriptor. Built for both human research and machine analysis.
 
 The archive is structured for retrieval: every study has provenance, a structured abstract, and ratings for **importance** (historical significance), **relevance** (ongoing applicability), and **prescience** (predictive accuracy as judged from 2025).
 
 - [Repo README](https://github.com/shorttack/aberdeen-group-archive/tree/main/README.md) — full archive overview, key reading paths, employer breakdown
-- [_master_studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_studies.csv) — 888-row master index of every study
+- [_master_studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_studies.csv) — 915-row master index of every study
 - [_master_entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_entities.csv) — deduplicated entity dictionary across the corpus
 - [_master_technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_technologies.csv) — deduplicated technology dictionary
 - [_MASTER_INDEX.md](https://github.com/shorttack/aberdeen-group-archive/tree/main/_MASTER_INDEX.md) — human-readable index by collection
@@ -24,7 +24,7 @@ Curator-selected entry points to the archive. Each is a complete Frictionless Da
 
 ## Fifteen High-Prescience Calls
 
-Studies in which Kastner's published predictions have been validated by subsequent industry events. Filtered from the 168 Kastner-authored studies rated `prescience: high` in `_master_studies.csv`, ranked by importance and rationale strength, and curated to span 1981-2003.
+Studies in which Kastner's published predictions have been validated by subsequent industry events. Filtered from the 175 Kastner-authored studies rated `prescience: high` in `_master_studies.csv`, ranked by importance and rationale strength, and curated to span 1981-2003.
 
  1. [The Fault Tolerant Revolution — Stratus/32 launch advertisement](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/stratus-fault-tolerant-revolution-ad-198-797e0e) — 1981-07-01 — *Stratus Computer, Inc. (marketing; Peter S. Kastner era)* — Ad predicted 'hardware costs will continue to fall' while 'software [people] costs will rise' — subsequently validated as Moore's Law and salary inflation tracked exactly as claimed for 40+ years.
  2. [Stratus Computer Corporate Overview, November 1982](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/stratus-corporate-overview-1982-11-a7e367) — 1982-11-01 — *Stratus Computer, Inc. (corporate marketing — Kastner-era ar* — Predicted that 'businesses and institutions of all sizes will put the key functions of their operations on-line via a computer system or network' — pre-Internet, this anticipated the universal connectivity of modern commerce. Forecasted 20-.
@@ -47,7 +47,7 @@ Studies in which Kastner's published predictions have been validated by subseque
 - [kastner-author/](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author) — 205 top-level studies authored or co-authored by Peter S. Kastner, plus employer/ and dct/ subcollections (1981-2024)
 - [kastner-author/employer/](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer) — Studies grouped by employer: Prime Computer, Stratus Computer, DEC, Aberdeen Group, Arthur D. Little, PHI Computer Services, Obian Group
 - [kastner-author/dct/](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/dct) — 76 Digital Consumer Technology studies (2002-2003 PC retail price tracking, weekly commentary, RAMP surveys)
-- [other-authors/](https://github.com/shorttack/aberdeen-group-archive/tree/main/other-authors) — 475 Aberdeen Group studies and adjacent industry analyses by other authors
+- [other-authors/](https://github.com/shorttack/aberdeen-group-archive/tree/main/other-authors) — 487 Aberdeen Group studies and adjacent industry analyses by other authors
 - [Project Examples/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples) — Selected client-engagement project archives (Maxtor, Sun AS-400, and others) with the full RAMP methodology in action
 - [_audits/](https://github.com/shorttack/aberdeen-group-archive/tree/main/_audits) — Migration logs, codes audits, and quality-control reports
 - [_skills/](https://github.com/shorttack/aberdeen-group-archive/tree/main/_skills) — The bundled `archival-ingest` skill and assembler used to build and maintain the archive

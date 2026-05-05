@@ -1,0 +1,519 @@
+# Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006
+
+> Archived from: source/_raw_text.txt
+> Original publication date: 2006-02-22
+> Author: Peter S. Kastner, Aberdeen Group
+
+---
+
+## Original Document Text
+
+ Enterprise Integration
+      Technology
+        Aberdeen Group’s
+Market Trends & Research for 2006
+
+         Peter S. Kastner
+
+
+
+
+    Technology Answers
+ for the Global Value Chain
+Today’s Agenda
+  • Enterprise Integration Technology Market: Challenges,
+    Opportunities and Overview
+  • 2005 Services-Oriented Architecture Findings
+  • Aberdeen’s 2006 Enterprise Integration Research Agenda
+     – Q1: Achieving More Value from the Enterprise Applications
+     – Q1: Next Steps in SOA: Applications on the Network
+  • Survey & Report Methodology
+  • Aberdeen’s Integration Technology Research Team
+  • Next Steps
+
+
+
+                                                      © 2006 AberdeenGroup • 2
+Aberdeen’s Information Technology Practice
+  Offers real-time guidance and fact-based research
+  insights to:
+     – CIO’s and their direct reports
+     – Executives to whom the CIO reports to
+     – Business managers whose units are directly dependent on, or
+       influenced by IT implementations
+
+  Typical IT positions targeted
+     – CIO; VP of IT; Director of IT; VP of Technical Services
+     – VP of Enterprise Architecture; VP of Software Development; VP of
+       IT Operations
+     – Chief Technology Officer; VP of Information Technology & Services
+     – Business Process Owner/Manager; Business Planning Manager;
+       Director of: “Role-specific” (Enterprise Reporting, BI, Outsourcing
+       Management, Warehousing, Supply Chain)
+
+
+
+                                                              © 2006 AberdeenGroup • 3
+Why Look at Enterprise Integration?
+Business Challenges Driving Integration
+  • Empowering the Extended Enterprise
+     – Global: customers, partners, suppliers, employees
+  • Leveraging existing infrastructure investments
+     – Increasing asset utilization and improving service levels
+  • Understanding customers and business operations
+     – Managing business process and IT systems in real-time
+  • Reducing time-to-implement, complexity and failure rates
+     – Facilitating business process and service reuse
+     – Improving programmer and analyst productivity
+
+
+
+
+                                                         © 2006 AberdeenGroup • 4
+Why Look at Enterprise Integration?
+Broad Business Value Opportunities
+  • Flexibly and quickly align IT assets with changing business
+    “on demand” needs
+     – Consolidate data center technology with reusable hardware,
+       software, and network building blocks − driving capex and
+       management savings
+     – Improve development productivity and quality
+     – Deliver business processes and data securely and quickly
+       anywhere, anytime
+  • Improve knowledge worker productivity
+  • Achieve better value from real-time business and
+    operational intelligence
+
+
+                                                      © 2006 AberdeenGroup • 5
+PK3
+
+
+
+
+      Themes and Technologies
+      •   Enterprise IT Integration         •   Enterprise Integration
+          Themes                                Technologies
+          –  Application development             – Application development and reuse
+             productivity                        – Software Architectures & Middleware
+          –  “Smart Processing” at the             (SOA, EAI, ETL, B2BI, EII, XML,
+             edge, in the network, and in          CORBA, standards)
+             de-constructed datacenters          – Core architecture, processing and
+             optimizing where and how              networking
+                                                 – Edge devices, processing and
+          –  Web Services delivered
+                                                   networking
+             through a service-oriented
+                                                 – Data intelligence and databases, EII
+             architecture (SOA)                  – Data warehousing and business
+          –  Mobility infrastructure to            intelligence
+             support employees,                  – Enterprise business process and
+             partners, and customers               technology management
+          –  Real-Time Business                  – Managed services & integration
+             Intelligence (RTBI)                   services
+          –  Knowledge Worker                    – Security integration [with Aberdeen
+             Productivity                          security practice]
+
+                                                                       © 2006 AberdeenGroup • 6
+Slide 6
+
+PK3       Could use this as a graphic
+          Peter Kastner, 2/15/2006
+Aberdeen's Research Channels
+
+
+
+
+                               © 2006 AberdeenGroup • 7
+2005 SOA Research Findings
+    SOA in IT Benchmark Study
+   SOA in the Supply Chain Study
+
+
+
+
+      Technology Answers
+   for the Global Value Chain
+Companies Are Bullish on SOA Adoption…
+But the Market is Immature
+Over half predict that 50% plus of their software will be SOA-based in five years.
+But 92% were at and often below 25% adoption rate.
+
+                                                  19%
+      76 to 100%             4%
+                        1%
+
+                                                                     37%
+       51 to 75%        2%
+                                   8%
+
+
+                                                         29%
+       26 to 50%                                         29%                            In 5 years
+                              5%
+                                                                                        In 2 years
+                                         12%
+       11 to 25%                           14%
+                                                                      38%               Today
+                        2%
+        1 to 10%                                  19%
+                                                                            45%
+
+                    0%
+           None       2%
+                                                               32%
+
+
+                   0%              10%           20%    30%          40%      50%
+
+
+                                                                                    © 2006 AberdeenGroup • 9
+Ongoing Budget Pressures Force IT to be
+More Productive. SOA is a Solution.
+                            Key performance indicators for IT efficiency
+
+                    Softw are maintenance costs                                 38%
+
+
+         Revenue from new IT-enabled business                            30%
+
+
+                  IT budget/number of employees                               33%
+
+
+         Quantifiable IT value delivered/IT budget                                   42%
+
+
+       Percent of IT budget spent on innovations                  19%
+
+
+              IT budget as a percent of revenues                                             54%
+
+
+    IT cost of delivering/building new applications                                                  64%
+
+
+                                                      0%   10%   20%    30%    40%     50%    60%      70%
+
+
+
+                                                                                                   © 2006 AberdeenGroup • 10
+Avoiding the Tradeoff of Cost vs. Flexibility
+Fuels SOA Adoption
+                       Top Three Motives Driving SOA Adoption
+
+
+              Managing IT integration costs                      24%
+
+
+
+
+                Alignment with the business                              37%
+
+
+
+
+                Speed of IT implementations                        27%
+
+
+
+
+  Re-usage of applications via Web Services                                    43%
+
+
+
+ Development of new business capabilities or
+                                                                                       50%
+        new products and services
+
+               Management of IT complexity                                     44%
+
+
+
+                                               0%   10 %   20%     30%   40%         50%     60%
+
+
+
+
+                                                                                © 2006 AberdeenGroup • 11
+SOA Makes IT More Productive
+  •   Best-in-Class companies find                       Best
+      that SOA lowers IT maintenance                       in
+      costs and enables more                KPI          Class      Average
+      spending on innovation.           IT innovation   29.6% 18.5%
+  •   Changes within the IT             % of IT
+                                                          +11%
+      organization are required to      Budget
+      mirror the service-delivery       Software        12.4% 27.3%
+      aspects of SOA.                   Maintenance
+                                                           -15%
+  •   Running IT like a service         Costs % of
+      requires a full business          IT Budget
+      orientation, but SOA is a great
+      catalyst for achieving it.
+                                            Speedier deployments
+                                                 Easier integrations
+                                                 Faster customizations and
+                                                 updates
+                                                                 © 2006 AberdeenGroup • 12
+Research Related to Enterprise Integration
+ •   The Service-Oriented Architecture (SOA) in IT Benchmark Report
+ •   The Service-Oriented Architecture in the Supply Chain Benchmark Report
+ •   The Strategic Enterprise IT Budget Realities
+ •   The 2005 CIO Agenda — CIO Disruptors
+ •   The IT Spend Benchmark Report
+ •   SOA Success Starts with IT Success
+ •   The ESB in the Land of SOA
+ •   “Supply Chain as a Service”: The Next Big Thing?
+ •   Creating Composite Business Process Applications for Enterprise Integration
+ •   Sector-Based Research
+      – For Mid-Size Enterprises, SOA’s Benefits Begin with IT
+      – Process Manufacturers Cautious on SOA Adoption
+      – SOA is Made to Order for Mid-Size Manufacturers
+      – Complexity Drives Discrete Manufacturers to SOA
+      – The Real-Time Enterprise Begins on the Shop Floor (Q1 2006)
+ •   Key Performance Indicators
+      – Software Maintenance Costs as a Percent of IT Budget
+      – IT Cost of Delivering/Building New Applications as a Percent of IT Budget
+      – Percent of IT Budget Spent on Innovations
+                                                                      © 2006 AberdeenGroup • 13
+    Aberdeen’s Information Technology Research Team
+
+              Analyst                          Coverage Areas                                       Experience
+                                                              Core Team
+     Alex Adamopoulus            Storage                                            EMC global services executive.
+ New      Sr. Research Analyst
+Member
+
+
+    Peter Kastner                Enterprise IT Integration                          40 years IT industry experience including IT
+         Sr. Research Analyst                                                       development and operations; computer
+ New
+Member
+                                                                                    marketing; and 18 years leading hundreds of IT
+                                                                                    market research and consulting projects.
+    Stacy Quandt                                                                    An experienced IT analyst, recognized visionary,
+                                 Security Solutions and Services                    and thought leader. Her research competency
+        Research Director
+                                                                                    covers security, IT infrastructure, and Linux and
+                                                                                    open source software.
+                                                             Extended Team
+    Stacey Shipman               Manages all primary research programs including    10+ years various market research functions in
+        Benchmarking Director    survey services and data analysis for Aberdeen’s   Publishing and Direct Selling. She specializes in
+                                 Benchmark Reports.                                 quantitative survey design and analysis.
+
+
+
+
+                                                                                                       © 2006 AberdeenGroup • 14
+Enterprise Integration Research Agenda 2006
+Q1 Benchmark: Next Steps in SOA: Applications on the
+Network
+As network traffic shifts from binary data packets to XML-based
+content routing and Web services request messaging, largely due to
+the rise of service-oriented architecture (SOA), the lines between the
+network and software architecture are blurring.
+    This report will benchmark the state of network application
+    processing within the enterprise. Key insights into:
+    • The types of applications most suited to NAP
+    • The role of NAP as part of a SOA
+    • Benefits that early adopters are realizing in the network, applications,
+    security and IT infrastructure
+    •The infrastructure optimization and configuration flexibility aspects of
+    NAP
+    • Insights into perceived NAP technology solutions partners
+
+
+                                                                  © 2006 AberdeenGroup • 15
+               Enterprise Integration Research Agenda: 2006
+                            Next Steps in SOA Series
+                             Q1                            Q2                         Q3
+                     Applications on the            Developing SOA
+                          Network                    Applications               Computing on the
+Research Topic          Benchmark                     Benchmark                 Edge Benchmark
+                    This study will benchmark      This study will examine      This report will
+                    the state of the practice of   the changing technology      benchmark the state of
+                    application processing on      landscape as SOA             the SOA-based edge
+                    the network, examining         development layers and       computing, as smart
+                    what applications will         integrates with legacy       devices such as RFID and
+                    benefit, and how users are     applications and             POS are driving volumes
+                    thinking about technologies    development tools. It will   and complexity. It will
+Description         to maximize success factors    identify emerging            examine plans for edge
+                    and long-term investments      productivity and quality     infrastructure, network,
+                    in SOA infrastructure. It      metrics, solutions sets,     processing and storage
+                    probes how users are           and best practice            issues, the right mix of
+                    dealing with capacity,         evolution in an SOA-         edge and central (e.g.,
+                    performance, security,         centric development life-    core) computing, and the
+                    response time and other        cycle.                       roles and tradeoffs of
+                    issues.                                                     edge infrastructure
+                                                                                technologies.
+
+Availability        Three (3) slots left           Five (5) slots left          Five (5) slots
+
+
+                                                                                  © 2006 AberdeenGroup • 16
+Enterprise Integration Agenda
+  •   Q1 2006
+      – Next Steps in SOA: Applications on the Network
+      – Achieving More Value from Enterprise Applications
+
+  •   Q2 2006
+      – Integrating the Data Center: New Architectures and Opportunities
+      – Next Steps in SOA: Developing Services-Oriented Applications Benchmark
+
+  •   Q3 2006
+      – Integrating Real-Time Technology and Business Management Benchmark
+        Report
+      – Next Steps in SOA: Computing on the Edge Benchmark
+
+  •   Q4 2006
+      – Re-Tooling the Knowledge Worker Benchmark
+      – Enterprise Integration: Strategies and Best Practices for the Mid-Market
+
+
+
+
+                                                                     © 2006 AberdeenGroup • 17
+Target Sample & Audience
+• Attributes of the benchmark survey participants pool:
+   – Senior IT executives and LOB technology planners
+
+• Attributes of the report target audience:
+   – CIO, CTO, COO, LOB VP/GM, IT steering committee
+
+• How will target audience benefit from the report findings?
+   – Benchmark IT competency and readiness
+       • Enable benchmarking versus peers
+       • Set and measure Key Performance Indicators (metrics)
+   – Identify best practices for information technology.
+   – Quantify benefits and tradeoffs of IT improvements.
+   – Build business case for IT infrastructure and solution deployment.
+
+
+
+
+                                                            © 2006 AberdeenGroup • 18
+Methodology
+• Research approach:
+  – Initial Web-based survey to target titles in Aberdeen
+    Group’s research membership pool – 137,000+ members
+     • Including previous IT survey responders
+     • Extension to solution/service providers to provide private
+       installed base and prospect assessments
+
+  – Qualitative interviews/focus groups
+     • Follow up with telephone interviews with survey respondents
+
+
+
+
+                                                         © 2006 AberdeenGroup • 19
+Aberdeen’s Research Model Delivers Results
+• Research results over the past 12 months
+   – Completed 100+ Primary Research Studies
+   – Developed 500+ Derivative Reports
+   – Developed 1,000’s of KPI’s, benchmarks & metrics
+      • 17,100 business and technology executives benchmarked
+      • 6,500 Mid-market executives benchmarked
+      • 3,750 Asia/Pac executives benchmarked
+      • 25,000+ unique web visits per week
+• Research Sponsorships over the past 12 months
+   – Completed 60 Sponsored Research Reports
+   – Engaged 225 Vendors in sponsorship programs
+   – Provided over 260,000 downloads to sponsors as prospects
+• 900 of the G1000 are in Aberdeen’s Research Community
+• 465 of the Software 500 are Aberdeen Clients
+
+
+                                                     © 2006 AberdeenGroup • 20
+Aberdeen: Your Partner in Research
+
+                         Aberdeen Group Services
+                       • Research Sponsorship
+                       • Strategic Advisory
+                       • AberdeenAccess
+                       • Research Syndication
+                       • Research Services
+                          – Webinars
+                          – Speeches
+                          – Sales Training & Tools
+                              • Workshops
+                              • Buyer cards
+
+
+                                          © 2006 AberdeenGroup • 21
+          www.aberdeen.com
+
+Peter Kastner – peter.kastner@aberdeen.com
+  Tina Moore – tina.moore@aberdeen.com
+ Tim McLucas – tim.mclucas@berdeen.com
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | soa-aon-webinar-31973c |
+| title | Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006 |
+| author | Peter S. Kastner, Aberdeen Group |
+| date | 2006-02-22 |
+| type | employer-record |
+| subject_domain | Enterprise IT Integration / SOA / Research Agenda |
+| methodology | Benchmark survey + qualitative interviews; Aberdeen research membership pool 137,000+ members |
+| source_file | source/_raw_text.txt |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+24-slide Aberdeen Group webinar presentation deck (SOA_AON_webinar_022206a). Covers enterprise integration market challenges/opportunities, 2005 SOA benchmark findings, and Aberdeen's full 2006 Enterprise Integration Research Agenda (Q1-Q4). Key 2005 findings: 92% of companies at or below 25% SOA adoption; over half predict 50%+ SOA-based software in 5 years. Best-in-Class SOA adopters spend 29.6% of IT budget on innovation vs. 18.5% average; software maintenance costs 12.4% vs. 27.3% average. Research agenda spans NAP, SOA app development, edge computing, data center integration, real-time BI, and knowledge worker productivity.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Primary Kastner source with quantitative benchmark data from 2005 SOA survey. Contains specific KPI comparisons (Best-in-Class vs. average) and full 2006 research roadmap. |
+| **Relevance** | high | Core Aberdeen SOA benchmark presentation; directly documents Kastner's 2005 findings and 2006 research agenda with concrete metrics. |
+| **Prescience** | high | 2006 agenda items (network application processing, edge computing, SOA app dev lifecycle, knowledge worker productivity) accurately anticipated major 2010s IT themes. |
+
+### Prescience Detail
+
+This study did not make forward-looking claims.
+
+### Entities Referenced (5)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter S. Kastner | person | active |  |
+| Aberdeen Group | company | acquired | Harte-Hanks / Aberdeen (rebranded) |
+| Stacy Quandt | person | active |  |
+| Alex Adamopoulos | person | active |  |
+| Stacey Shipman | person | active |  |
+
+### Technologies Referenced (13)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Service-Oriented Architecture (SOA) | architectural-framework | multi-vendor | growth | mature |
+| Network Application Processing (NAP) | infrastructure | multi-vendor | emerging | declined |
+| Enterprise Application Integration (EAI) | middleware | multi-vendor | mature | declining |
+| XML and Web Standards | integration-protocol | W3C | growth | mature |
+| Extract Transform Load (ETL) | data-integration | multi-vendor | mature | mature |
+| B2B Integration (B2BI) | integration-protocol | multi-vendor | mature | mature |
+| Enterprise Information Integration (EII) | data-integration | multi-vendor | growth | declined |
+| CORBA (Common Object Request Broker Architecture) | middleware | OMG | declining | legacy |
+| RFID and Point-of-Sale (POS) Edge Devices | edge-computing | multi-vendor | emerging | mature |
+| Real-Time Business Intelligence (RTBI) | analytics | multi-vendor | emerging | mature |
+| Composite Business Process Applications | application-development | multi-vendor | emerging | declined |
+| Legacy Application Modernization via SOA | development-methodology | multi-vendor | emerging | mature |
+| Web Services | integration-middleware |  | mainstream | evolved |
+
+### Observation Summary
+
+- Total observations: 28
+- By type: finding: 12, prediction: 7, market-context: 5, metric: 3, recommendation: 1

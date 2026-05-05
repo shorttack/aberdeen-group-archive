@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Kastner Technology Breadth Memoir: Forty-Seven Years Across the Computing Stack",
+  "description": "First-person memoir by Peter S. Kastner quantifying the technology breadth of his 47-year career as analyst, marketer, and expert witness. Drawing on the Kastner-authored + Kastner-quoted corpus (592 of the archive's 915 studies), the memoir documents 2,537 distinct technologies across 4,628 mentions and 479 subject domains, organized into 14 thematic rollups from Personal Computers & OS through AI/Analytics & Emerging. A concluding section ('How and Why Did I Do This?') traces the five-rung curriculum (paper slips, operations, programming, marketing, market research) that produced the breadth, and credits a working trade-press partnership with Bill Bulkeley (Wall Street Journal) and Hiawatha Bray (Boston Globe), Aberdeen print runs of up to 100,000 copies, and 500+ documented personal press quotes for amplifying the work to millions of readers.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-05",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

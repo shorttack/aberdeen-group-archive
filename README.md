@@ -8,10 +8,10 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 | Metric | Count |
 |---|---:|
-| Total studies | **915** |
-| Total observations | **17,819** |
-| Master entity rows | **9,070** |
-| Master technology rows | **7,382** |
+| Total studies | **919** |
+| Total observations | **17,933** |
+| Master entity rows | **9,103** |
+| Master technology rows | **7,409** |
 | Unique entities (deduped cache) | **3,260** |
 | Unique technologies (deduped cache) | **4,228** |
 | Date range | 1979 – 2026 |
@@ -35,7 +35,7 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 - **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, 76 entries.
 - **`kastner-author/`** (top-level) — 205 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts).
 - **`other-authors/`** — 487 studies authored by other Aberdeen analysts and outside writers.
-- **`Project Examples/`** — 44 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, etc.) showing the full Aberdeen RAMP methodology in action.
+- **`Project Examples/`** — 45 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage.
 
 ### Prescience ratings
 
@@ -43,10 +43,10 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 456 |
-| medium | 269 |
+| high | 460 |
+| medium | 274 |
 | low | 72 |
-| not-applicable | 117 |
+| not-applicable | 121 |
 | (deferred) | 1 |
 
 ### Aberdeen Group Category Creator roster

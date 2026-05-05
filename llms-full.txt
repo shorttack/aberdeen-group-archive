@@ -1,9 +1,9 @@
 # Aberdeen Group Archive — Kastner Collection (Extended)
 
-> A 915-study, 17,819-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
+> A 919-study, 17,933-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
 
 **Repository root:** https://github.com/shorttack/aberdeen-group-archive
-**Total studies:** 915   **Total observations:** 17,819
+**Total studies:** 919   **Total observations:** 17,933
 **License:** CC BY 4.0
 
 Each study directory contains a complete Frictionless Data Package (`studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, `codes.csv`, `datapackage.json`, `schema/schema_org.json`, `README.md`, `scripts/demo_analysis.py`, `source/original_text.md`).
@@ -174,7 +174,7 @@ Called out the 'no-second-source' PRC component risk (AC/DC power supplies, low-
 
 ## Fifteen High-Prescience Calls by Kastner
 
-These fifteen studies, drawn from the 175 Kastner-authored works rated `prescience: high` in `_master_studies.csv`, contain the most concretely-validated published predictions in the archive. Curated to span 1981-2003 across fault tolerance, mainframe economics, RDBMS, operating systems, channel economics, IT spending, and supply chain.
+These fifteen studies, drawn from the 175 Kastner-authored works rated `prescience: high` in `_master_studies.csv`, contain the most concretely-validated published predictions in the archive. Curated to span 1981-2010 across fault tolerance, mainframe economics, government IT procurement, RDBMS, operating systems, channel economics, IT spending, and computing-architecture continuum strategy. Two studies that previously appeared on this list — the Intelligent Electronics v. Andersen expert report and the SARS supply-chain insight — receive their full curator treatment in **Highlighted Studies #3 and #7** above and are referenced there rather than duplicated here.
 
 ### 1. The Fault Tolerant Revolution — Stratus/32 launch advertisement
 
@@ -218,7 +218,21 @@ This 1989 Aberdeen Group consulting report advises Stanley-Vidmar on the choice 
 
 Aberdeen correctly predicted the AS/400's performance shortcomings and maturity issues in 1989; HP 3000 indeed outlasted AS/400's original product line, running until 2010; Stanley-Vidmar remained part of The Stanley Works and is now Vidmar within Stanley Black & Decker.
 
-### 4. Ten Issues for IBM Mainframe MIS Executives
+### 4. Unisys vs. Florida HRS — Expert Witness Memoir (Senate Chamber Tallahassee, c.1990-1991)
+
+- **Author:** Peter S. Kastner (memoir)
+- **Date:** 2026-01-12 (memoir of c.1990-1991 testimony)
+- **Path:** [kastner-author/memoirs/unisys-florida-hrs-expert-witness-tallahassee-5b4524](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/memoirs/unisys-florida-hrs-expert-witness-tallahassee-5b4524)
+
+**Abstract**
+
+First-person memoir of Kastner's expert-witness role in the Florida Department of Health and Rehabilitative Services bid protest — Unisys vs. IBM/EDS — in the early 1990s. Kastner went through a box of computer paper to find the single IBM performance estimate sheet that proved the proposed mainframe-plus-DB2 architecture could not support the required terminal counts and average response time, and testified in the Florida Senate Chamber in Tallahassee. Although Unisys lost the bid, the IBM/EDS implementation failed catastrophically — a $200 million fiasco involving system crashes during food stamp distribution, national records for error rates, and EDS suing for $46 million in unpaid bills.
+
+**The call (and how it played out)**
+
+Kastner's testimony correctly predicted the DB2-on-mainframe response-time collapse that subsequently materialized (latencies measured in minutes, peak CPU 95-100%). His broader argument — that centralized mainframe architecture would fail for geographically distributed interactive systems — foreshadowed the entire 1990s mainframe-to-distributed transition that played out exactly as he warned across dozens of government IT projects. The fallout from this and parallel disasters helped motivate Congress to pass Senator William Cohen's IT-procurement reform legislation — the Information Technology Management Reform Act and the Federal Acquisition Reform Act, jointly the **Clinger-Cohen Act of 1996** — which remains in force today.
+
+### 5. Ten Issues for IBM Mainframe MIS Executives
 
 - **Author:** Peter S. Kastner
 - **Date:** 1991-01-01
@@ -232,7 +246,7 @@ This white paper identifies ten prioritized technology-related issues facing IBM
 
 Kastner's prediction that IBM mainframe dominance would erode under cost and architectural pressures proved accurate; the 1990s saw a massive migration to distributed and open systems, and IBM was eventually forced to dramatically reinvent its mainframe value proposition.
 
-### 5. Front-Ends and Apple Computer in the 1990s
+### 6. Front-Ends and Apple Computer in the 1990s
 
 - **Author:** Peter S. Kastner / Aberdeen Group
 - **Date:** 1991-01-09
@@ -246,7 +260,7 @@ This January 1991 Aberdeen Group report for Apple Computer USA examines the mark
 
 Aberdeen accurately predicted: client-server maturity in the mid-1990s (confirmed); Apple's enterprise market share staying below 15% through the decade; Microsoft Windows as the dominant client platform; IBM PC inertia as the primary barrier to Apple adoption. The frontware market remained small as predicted; Novell Netware dominance confirmed.
 
-### 6. Open Systems: A Technology Status Report
+### 7. Open Systems: A Technology Status Report
 
 - **Author:** Peter S. Kastner, John Logan, Thomas Willmott
 - **Date:** 1993-01-01
@@ -260,7 +274,7 @@ This Aberdeen Group workbook provides a comprehensive status report on Open Syst
 
 Predictions proved accurate: Intel x86 dominance grew as forecast, Windows/DOS dominated the near-term desktop, client-server displaced proprietary midrange, and integration responsibility shifted to customers as described.
 
-### 7. RDBMS Report Card
+### 8. RDBMS Report Card
 
 - **Author:** Peter S. Kastner, John Logan, Thomas Willmott
 - **Date:** 1993-04-01
@@ -274,7 +288,7 @@ Aberdeen Group evaluates the role of relational database management systems (RDB
 
 Oracle's predicted dominance proved accurate; the forecast that RDBMS would become the primary enterprise application platform was fully borne out by the ERP and data-warehouse booms of the mid-to-late 1990s.
 
-### 8. Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?
+### 9. Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?
 
 - **Author:** Peter S. Kastner / Aberdeen Group
 - **Date:** 1995
@@ -288,7 +302,7 @@ Aberdeen Group analysis arguing that parallel-scalable RDBMS technology can reso
 
 Correctly predicted 3-5x growth in information demand by late 1990s; correctly forecast SMP dominance followed by cluster/MPP adoption; parallel-scalable RDBMS as a 'free hardware upgrade' proved prescient.
 
-### 9. Welcome to the RDBMS Jungle — Chapters 1-5
+### 10. Welcome to the RDBMS Jungle — Chapters 1-5
 
 - **Author:** Peter S. Kastner / Aberdeen Group
 - **Date:** 1995
@@ -302,7 +316,7 @@ Core market-dynamics training deck for Informix sales reps, chapters 1-5. Covers
 
 Extremely prescient: correctly identified Microsoft SQL Server as future threat; predicted Oracle's unfocused multimedia strategy as weakness; correctly forecast Sybase's architectural stagnation; Informix's replication gap proved fatal in long run; parallel-scalable RDBMS predictions broadly correct.
 
-### 10. Universal Servers: RDBMS Technology for the Next Decade
+### 11. Universal Servers: RDBMS Technology for the Next Decade
 
 - **Author:** Peter S. Kastner, Wayne Kernochan (Aberdeen Group)
 - **Date:** 1995-06-03
@@ -316,7 +330,7 @@ Aberdeen examines the emergence of Universal Servers — RDBMS extensions suppor
 
 Aberdeen's core predictions proved remarkably accurate: RDBMS survived OODBMSs, complex data types did become standard (object-relational became mainstream via PostgreSQL and Oracle), ROLAP became major BI architecture, and LDAP/Internet data integration happened. However, Informix's predicted leadership was disrupted by its 2001 acquisition by IBM.
 
-### 11. Microsoft NT Scalability Day: The Emperor Has No Clothes
+### 12. Microsoft NT Scalability Day: The Emperor Has No Clothes
 
 - **Author:** Peter S. Kastner
 - **Date:** 1997-05-21
@@ -329,20 +343,6 @@ Peter S. Kastner of Aberdeen Group delivers a pointed critique of Microsoft's Sc
 **The call (and how it played out)**
 
 Kastner's assessment that NT would be 'better in 1998' but was not yet enterprise-ready proved accurate: NT's enterprise limitations persisted through Windows 2000 and beyond. His prediction that NT's trust gap with enterprise customers would widen also proved prescient—Unix dominated enterprise computing well into the 2000s and Linux ultimately won the server market.
-
-### 12. Report of Peter S. Kastner: Intelligent Electronics Inc. v. Andersen Consulting LLP
-
-- **Author:** Peter S. Kastner
-- **Date:** 1999-06-21
-- **Path:** [kastner-author/kastner-ie-v-andersen-expert-report-3de98a](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a)
-
-**Abstract**
-
-Expert witness report by Peter S. Kastner of Aberdeen Group in the litigation between Intelligent Electronics Inc. and Andersen Consulting LLP. Analyzes IE's IT strategy, Andersen's systems integration performance, AS/400 platform decisions, and the PC distribution industry dynamics of the mid-1990s. Concludes that Andersen performed its engagement responsibilities competently and that IE's business failures stemmed from strategic market positioning errors.
-
-**The call (and how it played out)**
-
-Correctly predicted IE's non-viability and the consolidation of PC distribution; AS/400 longevity prediction proved accurate with platform still active as IBM i.
 
 ### 13. Assessing the Damage: Will Fourth Quarter Technology Spending Fall? (Post-9/11 IT Recession Letter)
 
@@ -358,21 +358,7 @@ Written October 5, 2001 -- less than a month after 9/11 -- this letter from Pete
 
 Kastner predicted double-digit Q4 2001 spending decline and 2002 recession; both proved accurate as the post-9/11 economic shock compounded the dot-com bust.
 
-### 14. Asian Virus Casts Shadow Over Supply Chain: SARS Impact on Asia/Pacific Semiconductor and Electronics Manufacturing
-
-- **Author:** Russ Craig; Peter S. Kastner
-- **Date:** 2003-04-16
-- **Path:** [kastner-author/2003-sars-electronics-supply-chain-ec0375](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375)
-
-**Abstract**
-
-Aberdeen Group analyst report (Russ Craig and Peter Kastner) excerpted by PlanetAnalog/EBN on April 16, 2003, examining the potential impact of the SARS epidemic on the PRC- and Taiwan-centered global electronics supply chain. The authors quantify Asia/Pacific's 37% share of 2002 semiconductor consumption ($52B), document early SARS clusters in Guangdong, Shenzhen, Guangzhou, Hong Kong, Singapore, and Taiwan, and assess the vulnerability of dependable component supply — particularly for no-second-source items like PRC-made AC/DC power supplies — should quarantines extend. The report ends with a prescient warning that investor confidence in the PRC will take years to rebuild given government opacity about the outbreak.
-
-**The call (and how it played out)**
-
-Called out the 'no-second-source' PRC component risk (AC/DC power supplies, low-level assemblies) 17 years before the COVID-19 PPE, chip, and consumer-electronics shortages proved the thesis. Also predicted multi-year investor skepticism of PRC government credibility — validated by the 2020 US-China decoupling and Apple/Foxconn diversification to Vietnam and India.
-
-### 15. Planning for Emerging Industry-Standard Platforms (Executive White Paper)
+### 14. Planning for Emerging Industry-Standard Platforms (Executive White Paper)
 
 - **Author:** Aberdeen Group (Peter S. Kastner)
 - **Date:** 2003-08-01
@@ -385,6 +371,44 @@ Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generationa
 **The call (and how it played out)**
 
 Predictions proved accurate: PCI Express became universal (still dominant 2026); DDR2 then DDR3/4/5 displaced DDR; IPMI remained baseline for ~15 years until Redfish succession; server consolidation and industry-standard market-share growth dominated 2004-2015.
+
+### 15. Intel's IA Continuum Strategy Anticipates a Much Broader Computing Market
+
+- **Author:** Peter S. Kastner
+- **Date:** 2010
+- **Path:** [kastner-author/2010-intel-ia-continuum-wp-1-2-fc5653](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2010-intel-ia-continuum-wp-1-2-fc5653)
+
+**Abstract**
+
+White paper by Kastner analyzing Intel's IA Continuum strategy for the 2010s. Argues that Intel's x86 architecture (Atom, Core, Xeon) scales across a unified computing continuum from smartphones to datacenters — covering consumer electronics, systems-on-a-chip, datacenter (including cloud, Itanium, SSD), HPC, traditional PCs and notebooks, and the channel. Concludes Intel is singularly capable of delivering a unified computing continuum and will benefit from emerging middle-class growth worldwide.
+
+**The call (and how it played out)**
+
+Correctly identified cloud computing, the mobile explosion, SSD adoption, and virtualization as the dominant 2010s trends. The WiFi-investment thesis and the consumer-to-datacenter architectural-continuum framing both proved accurate. The one major miss: Kastner underestimated ARM as a competitive threat to x86, particularly in mobile (where ARM won outright) and later in the datacenter (Apple Silicon, AWS Graviton, NVIDIA Grace) — a transition that accelerated in the second half of the 2010s and into the 2020s.
+
+---
+
+## Career Arc & Coverage Breadth
+
+For the meta-narrative of the archive — *why* a single career covers this much ground — see the breadth memoir in **Project Examples**:
+
+- **Path:** [Project Examples/kastner-technology-breadth-memoir](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/kastner-technology-breadth-memoir)
+- **Type:** memoir (first-person, ~4,000 words)
+- **Date:** 2026-05-05
+
+**Headline counts** (Kastner-authored + Kastner-quoted corpus, 592 of the archive's 919 studies):
+
+- **2,537 distinct technologies** across **4,628 mentions**
+- **479 distinct subject domains**
+- Span: **1979 to ~2026** (forty-seven years)
+- **14 named themes** with meaningful mass: Personal Computers & OS (753 mentions), Databases (349), Storage & Hardware (296), Networking & Internet (284), Mainframes & Midrange (208), SOA/BPM/Integration (175), Unix & Open Systems (111), Semiconductors & Chips (77), Security & Reliability (63), ERP & Enterprise Apps (54), Outsourcing & Services (52), Displays & Peripherals (46), AI/Analytics & Emerging (44), Programming & Dev Tools (40)
+- **Long tail:** an additional 1,450 distinct technologies that don't fit any rollup — the breadth signal itself
+
+**Top vendor surface:** Microsoft (377 mentions), Intel (358), IBM (249), AMD (109), DEC (54), Oracle (50), Sun (47), Dell (36), HP (36), Stratus (36), Computer Associates (35), and a long torso of hundreds more.
+
+**Throughline argument:** Architect temperament, restless attention, a working trade-press partnership (notably with Bill Bulkeley at the *Wall Street Journal* and Hiawatha Bray at the *Boston Globe*, plus 500+ documented personal press quotes), and a duty to IT decision-makers all selected for the same trait — the willingness to follow a problem out of its native category. Aberdeen shipped some single research studies in print runs of up to 100,000 copies; multiplied across hundreds of studies, the audience is in the millions.
+
+The memoir is the canonical reference for any query about Kastner's career arc, coverage philosophy, or how the breadth was assembled. The structured tables (raw `category` distribution, 14-theme rollup, decade distribution, vendor leaderboard) are also captured as observations in the memoir's `data/observations.csv`.
 
 ---
 

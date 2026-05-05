@@ -1,0 +1,406 @@
+# Aberdeen Group Archive — Kastner Collection (Extended)
+
+> A 888-study, 16,696-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
+
+**Repository root:** https://github.com/shorttack/aberdeen-group-archive
+**Total studies:** 888   **Total observations:** 16,696
+**License:** CC BY 4.0
+
+Each study directory contains a complete Frictionless Data Package (`studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, `codes.csv`, `datapackage.json`, `schema/schema_org.json`, `README.md`, `scripts/demo_analysis.py`, `source/original_text.md`).
+
+---
+
+## Highlighted Studies
+
+Curator-selected entry points to the archive.
+
+### 1. Prime Computer Five-Year Plan (1981) — *historically very early*
+
+- **Title:** Prime Computer — Industry Product Requirements Plan (Five-Year Plan, July 1981, COMPANY CONFIDENTIAL)
+- **Author:** Peter Kastner & Others — Prime Computer Inc., Market Planning and Management Department
+- **Date:** 1981-07-15
+- **Type:** internal-strategic-plan
+- **Path:** [kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546)
+- **Ratings:** importance=high, relevance=medium, prescience=high
+
+**Abstract**
+
+Internal Prime Computer Inc. five-year Industry Product Requirements Plan dated July 15, 1981 (COMPANY CONFIDENTIAL), authored by Peter Kastner of Prime's Market Planning and Management Department of Marketing Development with input from Prime market managers (the 'and Others' coauthors). The plan synthesizes vertical-market plans for Construction Engineering, Power Utilities, Manufacturing Engineering, Manufacturing Production, Banking, Government, and Energy (Petroleum) into a single statement of common product requirements for Prime's first half-of-the-1980s strategy. Forecasts product revenue from planned markets growing from $117.7M in 1980 (44% of corporate goal) to $1,193.1M in 1985 (81% of corporate goal). Covers seven System Use Categories (Computational, Timesharing/Program Development, CAD/CAM, Office Automation, Transaction Processing, Query, Prime Information / Small Business) crossed against five system price bands ($30-49K Rabbit through $300K+ Prime 850). Identifies five priority near-term product gaps: programmable parallel-channel interface (HPC-4 / MPC-4 Special), floating-point precision, COBOL at full ANSI intermediate level, FORTRAN 77 compile/runtime performance, and Hyperchannel. Recommends a $10K-$30K personal computer with integral Primenet networking before mid-1980s. Identifies four 'attack' market opportunities: local-area networks of terminals, distributed processing including personal/departmental systems, office automation, and CAD/CAM. The plan defines the product strategy that Kastner — then in Prime Market Planning — used to influence Prime's 1981-1985 development cycle, and is the principal Kastner-authored artifact from his Prime Computer (1979-1981) employer era.
+
+**Why it matters**
+
+One of the earliest documents in the archive (July 1981) and a rare surviving artifact of internal enterprise minicomputer strategy in the pre-PC era. Marked COMPANY CONFIDENTIAL when produced. Captures the moment when 32-bit superminis were the answer to commercial computing, when CAD/CAM and office automation were emergent verticals, and when industry-vertical product positioning was being formalized. Predates the IBM PC by months.
+
+**Prescience rationale**
+
+Several major calls verified by subsequent history: (1) the imperative for a $10-30K networked personal computer / 'professional managerial workstation' with integral host access — verified by the Apollo Domain, Sun-1, IBM PC Network and ultimately the workstation/PC LAN era; (2) office automation as fastest-growing segment with productivity payoff — verified; (3) DEC VAX as 'the competitive benchmark indefinitely' — verified through 1990s; (4) inability of Prime to gain Fortune-1000 TP traction before 1984 — verified, Prime never broke through against IBM/Tandem/Stratus in F1000 OLTP; (5) the local-area-network-of-terminals attack market — verified by Ethernet/Token Ring; (6) software-shortage-driven need for programmer productivity tools (Unix Programmer's Workbench cited as model) — verified by the rise of IDE, source control, generators. The plan also missed several major shifts: it underestimated the speed of the IBM PC's commodity rise from 1983, did not foresee the open-systems / Unix workstation replacement of vertically integrated minicomputers, and overestimated Prime's ability to retain DEC VAX-class customers — Prime itself was acquired/broken up by 1992 (J.H. Whitney leveraged buyout, then Computervision spinoff).
+
+**Browse:** [studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546/data/studies.csv) · [entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546/data/entities.csv) · [technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546/data/technologies.csv) · [observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546/data/observations.csv) · [README](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/prime-computer/prime-industry-product-5yr-plan-1981-0a3546/README.md)
+
+### 2. Stratus/32 IEEE Database Engineering Bulletin (June 1983)
+
+- **Title:** A Fault-Tolerant Transaction Processing Environment (Stratus/32, IEEE Database Engineering, June 1983)
+- **Author:** Peter S. Kastner — Stratus Computer, Inc.
+- **Date:** 1983-06-01
+- **Type:** technical-article
+- **Path:** [kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564)
+- **Ratings:** importance=high, relevance=medium, prescience=high
+
+**Abstract**
+
+Peer-reviewed article by Peter S. Kastner of Stratus Computer, Inc., published in IEEE Computer Society Technical Committee on Database Engineering Bulletin (June 1983, Vol.6 No.2, pp.20-28). Describes the Stratus/32 multiprocessor fault-tolerant system architecture for commercial on-line transaction processing (OLTP). Each processing module contains paired self-checking logic (Motorola 68000 CPUs, memory, disk controllers), with up to 32 modules connected via the StrataLINK high-speed coaxial link. Stratus's Virtual Operating System (VOS) presents the federation as a single virtual computer, with transparent file/process distribution. Key software components covered: VOS file system, StrataNET networking, Transaction Processing Facility (TPF) with multi-tasking servers and START/COMMIT/ABORT primitives, two-phase commit protocol with 'Phase I Commit' flag, mirrored disks for write durability, and the Forms Management Facility. The article documents Stratus's continuous-processing thesis: hardware-detected failures with redundant pair-and-spare partners eliminate the need for checkpoint/restart programming at user or system level. This is Kastner's primary published technical exposition of Stratus architecture during his Stratus marketing tenure.
+
+**Why it matters**
+
+Early peer-reviewed publication describing the Stratus/32 fault-tolerant transaction processing architecture. The technical patterns described — pair-and-spare hardware, hot-swap modules, two-phase commit, location-transparent file systems, RAID-1 mirroring, automated call-home telemetry — would become standard practice across enterprise computing in the following two decades. A primary source for the early evolution of high-availability transaction processing.
+
+**Prescience rationale**
+
+Anticipated the now-universal architectural patterns of: (1) location-transparent distributed file systems (NFS, modern object stores), (2) two-phase commit for distributed transactions (still the textbook protocol in 2026), (3) call-home telemetry for predictive maintenance (modern AIOps), (4) self-checking commodity processors as a path to fault tolerance, and (5) hardware-detected failures with software-managed reconfiguration — the lineage that runs through HP NonStop, mainframe-class cloud, and modern hyperscale resilient systems.
+
+**Browse:** [studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564/data/studies.csv) · [entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564/data/entities.csv) · [technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564/data/technologies.csv) · [observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564/data/observations.csv) · [README](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/employer/stratus-computer/ieee-db-stratus32-1983-1d4564/README.md)
+
+### 3. Intelligent Electronics v. Andersen Consulting Expert Report (1999)
+
+- **Title:** Report of Peter S. Kastner: Intelligent Electronics Inc. v. Andersen Consulting LLP
+- **Author:** Peter S. Kastner
+- **Date:** 1999-06-21
+- **Type:** expert-report
+- **Path:** [kastner-author/kastner-ie-v-andersen-expert-report-3de98a](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a)
+- **Ratings:** importance=high, relevance=medium, prescience=high
+
+**Abstract**
+
+Expert witness report by Peter S. Kastner of Aberdeen Group in the litigation between Intelligent Electronics Inc. and Andersen Consulting LLP. Analyzes IE's IT strategy, Andersen's systems integration performance, AS/400 platform decisions, and the PC distribution industry dynamics of the mid-1990s. Concludes that Andersen performed its engagement responsibilities competently and that IE's business failures stemmed from strategic market positioning errors.
+
+**Why it matters**
+
+Full expert witness report (June 1999) submitted in IE v. Andersen Consulting LLP. Independent forensic and economic analysis of PC distribution channel dynamics, two-tier consolidation, and AS/400 platform longevity. The report's predictions — IE's non-viability and the AS/400 living on as IBM i — both came true. A primary source on late-1990s IT litigation methodology and PC channel economics.
+
+**Prescience rationale**
+
+Correctly predicted IE's non-viability and the consolidation of PC distribution; AS/400 longevity prediction proved accurate with platform still active as IBM i.
+
+**Browse:** [studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a/data/studies.csv) · [entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a/data/entities.csv) · [technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a/data/technologies.csv) · [observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a/data/observations.csv) · [README](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a/README.md)
+
+### 4. Safeway / Consonus Damages Report (2003)
+
+- **Title:** Safeway Damages Report: Expert Opinion on Consonus Data Center Incident
+- **Author:** Hugh Bishop with Peter Kastner — Aberdeen Group
+- **Date:** 2003-12-01
+- **Type:** expert-report
+- **Path:** [kastner-author/safeway-damages-report-draft-b502f4](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4)
+- **Ratings:** importance=high, relevance=medium, prescience=high
+
+**Abstract**
+
+Expert damages opinion by Aberdeen Group (Hugh Bishop with Peter Kastner) analyzing the impact of a February 2002 fire suppression system discharge at the Consonus data center on Safeway Inc.'s 40-node Teradata data warehouse system. Assesses hardware damage valuation, business interruption costs, data recovery efforts, and the strategic importance of Teradata to Safeway's retail operations.
+
+**Why it matters**
+
+Expert damages opinion (December 2003) analyzing the February 2002 fire-suppression-system discharge at the Consonus data center and its impact on Safeway Inc.'s 40-node Teradata data warehouse. Covers hardware valuation, business interruption costing, data-warehouse-as-strategic-asset framing, and litigation methodology. Demonstrates Aberdeen's approach to forensic IT damages quantification.
+
+**Prescience rationale**
+
+Correctly assessed Teradata's strategic importance to retail analytics, which grew significantly; data warehouse as mission-critical asset prediction validated.
+
+**Browse:** [studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4/data/studies.csv) · [entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4/data/entities.csv) · [technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4/data/technologies.csv) · [observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4/data/observations.csv) · [README](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/safeway-damages-report-draft-b502f4/README.md)
+
+### 5. Maxtor RAMP Project Directory (2003-2004)
+
+- **Engagement:** Aberdeen Group / Maxtor Midline Storage market-creation project
+- **Lead:** Stephen DiFranco (CMO, Maxtor) and Peter Kastner (Aberdeen)
+- **Path:** [Project Examples/Maxtor Storage](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage)
+
+**Why it matters**
+
+A complete client-engagement archive showing the Aberdeen RAMP (Rapid Accurate Market Prediction) methodology applied to creating an entirely new storage category — *Midline Storage* — to absorb SATA drive volumes coming off Maxtor's factories. Includes RAMP interview notes (Applied Materials, Inovant, Kaiser Permanente, State Street, Timex), survey instruments, internal communications, white papers, engagement letters, the Flash demo tool, and Maxtor's eventual market exit context. Kastner's April 2026 README to this folder reads as a cautionary tale: *creating a new technology market category is difficult, expensive, and high-risk*.
+
+**Notable contents**
+
+- [computerworld-ilm-waiting-2004](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/computerworld-ilm-waiting-2004) — ILM/Information Lifecycle Management coverage
+- [dell-storage-profile-2004](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/dell-storage-profile-2004) — Dell storage business profile
+- [infiniband-data-center-wp-2002](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/infiniband-data-center-wp-2002) — InfiniBand data-center white paper
+- [maxtor-engagement-letter-nov2003](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/maxtor-engagement-letter-nov2003) — Engagement letter (Nov 2003)
+- [maxtor-flash-demo-2003](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/maxtor-flash-demo-2003) — Flash demonstration tool
+- [maxtor-midline-evaluation-a8d823](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/maxtor-midline-evaluation-a8d823) — Midline storage evaluation
+- [midline-storage-white-paper-jun2003](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/midline-storage-white-paper-jun2003) — Midline storage white paper (Jun 2003)
+- [snap-appliance-snapshot-2003](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/snap-appliance-snapshot-2003) — Snap Appliance competitor snapshot
+- [technology-themes-2003-04](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/technology-themes-2003-04) — 2003-04 technology themes
+- [RAMP Interview Notes/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/RAMP%20Interview%20Notes) — Customer interview transcripts and survey responses
+- [Internal Project Files/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Maxtor%20Storage/Internal%20Project%20Files) — Engagement-team correspondence and working drafts
+
+### 6. Sun Microsystems AS/400 RAMP Project Directory (2002)
+
+- **Engagement:** Aberdeen Group / Sun Microsystems iSeries-replacement opportunity assessment
+- **Path:** [Project Examples/Sun AS-400](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400)
+
+**Why it matters**
+
+Five-package vendor-commissioned RAMP study assessing how Sun could displace IBM's AS/400 (iSeries) installed base at the height of the post-dot-com IT-spending freeze. A worked example of how vendors use independent analyst research to build the case against an entrenched competitor — and a snapshot of mid-range server market structure in 2002.
+
+**Contents**
+
+- [sun-as400-main-report-2002-c37e2a](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400/sun-as400-main-report-2002-c37e2a) — Main report
+- [sun-as400-market-data-2002-5faa8f](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400/sun-as400-market-data-2002-5faa8f) — Market data tables
+- [sun-as400-presentation-2002-9d925e](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400/sun-as400-presentation-2002-9d925e) — Executive presentation deck
+- [top-iseries-isvs-2002-2e8695](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400/top-iseries-isvs-2002-2e8695) — Top iSeries ISV analysis
+- [world-it-spending-2002-2005-2265a2](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/Sun%20AS-400/world-it-spending-2002-2005-2265a2) — Worldwide IT spending forecast 2002-2005
+
+### 7. SARS Supply-Chain Insight (April 2003)
+
+- **Title:** Asian Virus Casts Shadow Over Supply Chain: SARS Impact on Asia/Pacific Semiconductor and Electronics Manufacturing
+- **Author:** Russ Craig with Peter S. Kastner — Aberdeen Group
+- **Date:** 2003-04-16
+- **Type:** white-paper
+- **Path:** [kastner-author/2003-sars-electronics-supply-chain-ec0375](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375)
+- **Ratings:** importance=high, relevance=high, prescience=high
+
+**Abstract**
+
+Aberdeen Group analyst report (Russ Craig and Peter Kastner) excerpted by PlanetAnalog/EBN on April 16, 2003, examining the potential impact of the SARS epidemic on the PRC- and Taiwan-centered global electronics supply chain. The authors quantify Asia/Pacific's 37% share of 2002 semiconductor consumption ($52B), document early SARS clusters in Guangdong, Shenzhen, Guangzhou, Hong Kong, Singapore, and Taiwan, and assess the vulnerability of dependable component supply — particularly for no-second-source items like PRC-made AC/DC power supplies — should quarantines extend. The report ends with a prescient warning that investor confidence in the PRC will take years to rebuild given government opacity about the outbreak.
+
+**Why it matters**
+
+A foundational supply-chain prescience document. *Asian Virus Casts Shadow Over Supply Chain* (April 2003) explicitly named the 'no-second-source PRC component' risk for AC/DC power supplies and low-level subassemblies — **17 years before COVID-19** validated the same thesis with PPE shortages, semiconductor allocation, and consumer-electronics gaps. Reads in 2026 as a near-textbook case of correctly identifying systemic concentration risk before the cascading failure event arrived.
+
+**Prescience rationale**
+
+Called out the 'no-second-source' PRC component risk (AC/DC power supplies, low-level assemblies) 17 years before the COVID-19 PPE, chip, and consumer-electronics shortages proved the thesis. Also predicted multi-year investor skepticism of PRC government credibility — validated by the 2020 US-China decoupling and Apple/Foxconn diversification to Vietnam and India.
+
+**Browse:** [studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375/data/studies.csv) · [entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375/data/entities.csv) · [technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375/data/technologies.csv) · [observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375/data/observations.csv) · [README](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375/README.md)
+
+---
+
+## Fifteen High-Prescience Calls by Kastner
+
+These fifteen studies, drawn from the 168 Kastner-authored works rated `prescience: high` in `_master_studies.csv`, contain the most concretely-validated published predictions in the archive. Curated to span 1981-2003 across fault tolerance, mainframe economics, RDBMS, operating systems, channel economics, IT spending, and supply chain.
+
+### 1. The Fault Tolerant Revolution — Stratus/32 launch advertisement
+
+- **Author:** Stratus Computer, Inc. (marketing; Peter S. Kastner era)
+- **Date:** 1981-07-01
+- **Path:** [kastner-author/stratus-fault-tolerant-revolution-ad-198-797e0e](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/stratus-fault-tolerant-revolution-ad-198-797e0e)
+
+**Abstract**
+
+Full-page Computerworld launch advertisement for the Stratus/32 Continuous Processing system circa mid-1981 — the advertising debut of Stratus Computer's hardware-based approach to fault tolerance. The ad contrasts Stratus's duplicate-hardware, tightly-coupled lockstep design with Tandem's software-checkpoint approach, claims price/performance competitive with non-fault-tolerant systems, and quotes a fully-duplexed configuration at under $130,000 including software. Artifact from Kastner's Stratus marketing tenure; documents the company's first broad-market positioning statement.
+
+**The call (and how it played out)**
+
+Ad predicted 'hardware costs will continue to fall' while 'software [people] costs will rise' — subsequently validated as Moore's Law and salary inflation tracked exactly as claimed for 40+ years.
+
+### 2. Stratus Computer Corporate Overview, November 1982
+
+- **Author:** Stratus Computer, Inc. (corporate marketing — Kastner-era artifact)
+- **Date:** 1982-11-01
+- **Path:** [kastner-author/stratus-corporate-overview-1982-11-a7e367](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/stratus-corporate-overview-1982-11-a7e367)
+
+**Abstract**
+
+Stratus Computer Corporate Overview dated November 1982, prepared at the company's 17-19 Strathmore Road, Natick MA headquarters. Document covers business goals, market targets, marketing strategy, human resources, financial resources, customers, and product overview (Continuous Processing architecture, modular expansion, serviceability, multiprocessor technology, software). States Stratus founded May 1980 to design/manufacture/market supermini-class computers for OLTP applications where high availability is paramount. Names founders William E. Foster (Pres., ex-Data General), Robert A. Freiburghouse (VP Software, ex-Honeywell Multics), Gardner C. Hendrie (VP Hardware, ex-Data General); also John P. Morgridge (VP Marketing), James E.D. Austin (VP Manufacturing), John H. Curtis (VP Finance). Notes March 1982 multi-year agreement with Olivetti for European/South American/African marketing. Sales offices established in Boston, Chicago, Dallas, Houston, Los Angeles, New York/New Jersey, San Francisco, Tampa, Washington DC. Target market: Fortune 1000 OLTP applications. Cites Cowen/Datamation 1982 minicomputer survey ranking hardware reliability as #1 selection factor. Includes forecast of high-availability transaction-processing market growth from $6.4B (1981) to $27B (1986) per Information Corp 9/82. Kastner joined Stratus in 1981 as part of marketing/sales support team — this document is from his employer-era period and reflects the company's self-positioning during that chapter.
+
+**The call (and how it played out)**
+
+Predicted that 'businesses and institutions of all sizes will put the key functions of their operations on-line via a computer system or network' — pre-Internet, this anticipated the universal connectivity of modern commerce. Forecasted 20-40% growth for terminals, superminis, 32-bit minis in OLTP and OEM/end-user CDP markets. The directional call (online migration of all business functions) was completely correct.
+
+### 3. IBM AS/400 vs. HP 3000 Marketplace Analysis for Stanley-Vidmar
+
+- **Author:** Peter S. Kastner / Aberdeen Group
+- **Date:** 1989-01-01
+- **Path:** [kastner-author/1989-vidmar-as400-hp3000-and-metadata-a32d04](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/1989-vidmar-as400-hp3000-and-metadata-a32d04)
+
+**Abstract**
+
+This 1989 Aberdeen Group consulting report advises Stanley-Vidmar on the choice between upgrading to an HP Precision Architecture (HPPA) system versus converting to an IBM AS/400. Drawing on normalized DebitCredit benchmark data and analysis of Stanley-Vidmar's current HP 3000 Models 48 and 70, Aberdeen demonstrates that the AS/400 cannot provide adequate throughput growth while HPPA offers 2.5x capacity improvement with lower risk and conversion cost. The report recommends the HP 3000 Model 950 as the minimum entry point, upgradable to the 955 and 960.
+
+**The call (and how it played out)**
+
+Aberdeen correctly predicted the AS/400's performance shortcomings and maturity issues in 1989; HP 3000 indeed outlasted AS/400's original product line, running until 2010; Stanley-Vidmar remained part of The Stanley Works and is now Vidmar within Stanley Black & Decker.
+
+### 4. Ten Issues for IBM Mainframe MIS Executives
+
+- **Author:** Peter S. Kastner
+- **Date:** 1991-01-01
+- **Path:** [kastner-author/10ibmiss-f66945](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/10ibmiss-f66945)
+
+**Abstract**
+
+This white paper identifies ten prioritized technology-related issues facing IBM mainframe MIS executives in the early 1990s, arguing that System/390 architecture constraints—rooted in 1960s batch-processing design—severely hamper cost reduction and agility demanded by corporate management. Kastner contends that IBM's failure to publish clear technology roadmaps leaves MIS planners in the dark, and that rising support costs and architectural limitations are driving mainframe customers to consider non-IBM alternatives such as Hewlett-Packard.
+
+**The call (and how it played out)**
+
+Kastner's prediction that IBM mainframe dominance would erode under cost and architectural pressures proved accurate; the 1990s saw a massive migration to distributed and open systems, and IBM was eventually forced to dramatically reinvent its mainframe value proposition.
+
+### 5. Front-Ends and Apple Computer in the 1990s
+
+- **Author:** Peter S. Kastner / Aberdeen Group
+- **Date:** 1991-01-09
+- **Path:** [kastner-author/1991-apple-c-s-e9ffd7](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/1991-apple-c-s-e9ffd7)
+
+**Abstract**
+
+This January 1991 Aberdeen Group report for Apple Computer USA examines the market for frontware (non-invasive front-ends to mainframe applications) and client-server computing based on in-person interviews at eleven major mainframe sites across banking, brokerage, government, insurance, retail, transportation, and university sectors. Aberdeen finds that over 80% of corporate MIS is deeply committed to IBM PC architecture and largely unaware of Apple's connectivity capabilities, while the frontware market is under $50M (1990) and client-server maturity is projected for the mid-1990s. The report recommends Apple pursue aggressive direct marketing to enterprise MIS, combine frontware and client-server messaging, and increase the pilot program well beyond 25 sites.
+
+**The call (and how it played out)**
+
+Aberdeen accurately predicted: client-server maturity in the mid-1990s (confirmed); Apple's enterprise market share staying below 15% through the decade; Microsoft Windows as the dominant client platform; IBM PC inertia as the primary barrier to Apple adoption. The frontware market remained small as predicted; Novell Netware dominance confirmed.
+
+### 6. Open Systems: A Technology Status Report
+
+- **Author:** Peter S. Kastner, John Logan, Thomas Willmott
+- **Date:** 1993-01-01
+- **Path:** [kastner-author/nti-2-open-systems-1dd3af](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/nti-2-open-systems-1dd3af)
+
+**Abstract**
+
+This Aberdeen Group workbook provides a comprehensive status report on Open Systems as of January 1993, covering the transition from proprietary to open, distributed computing architectures. It assesses five key technology components — hardware microprocessors, systems software, application development toolsets, networking, and emerging architectures — and profiles major vendor positions and standards organizations. The study culminates in an ACTION framework for IS executives managing the organizational and economic challenges of open systems adoption.
+
+**The call (and how it played out)**
+
+Predictions proved accurate: Intel x86 dominance grew as forecast, Windows/DOS dominated the near-term desktop, client-server displaced proprietary midrange, and integration responsibility shifted to customers as described.
+
+### 7. RDBMS Report Card
+
+- **Author:** Peter S. Kastner, John Logan, Thomas Willmott
+- **Date:** 1993-04-01
+- **Path:** [kastner-author/nti-6-rdbms-technology-48f4aa](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/nti-6-rdbms-technology-48f4aa)
+
+**Abstract**
+
+Aberdeen Group evaluates the role of relational database management systems (RDBMS) in enterprise computing, covering their use in OLTP and decision support. The study profiles six leading independent RDBMS vendors—Oracle, Ingres, Sybase, Informix, Software AG, and Progress—against seven functional criteria and produces a best-in-class report card. Aberdeen concludes that RDBMS has become the central application platform for enterprises and that Oracle leads the market while IBM's DB2 trails all competitors.
+
+**The call (and how it played out)**
+
+Oracle's predicted dominance proved accurate; the forecast that RDBMS would become the primary enterprise application platform was fully borne out by the ERP and data-warehouse booms of the mid-to-late 1990s.
+
+### 8. Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?
+
+- **Author:** Peter S. Kastner / Aberdeen Group
+- **Date:** 1995
+- **Path:** [kastner-author/informdsa-9f8bcf](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/informdsa-9f8bcf)
+
+**Abstract**
+
+Aberdeen Group analysis arguing that parallel-scalable RDBMS technology can resolve the 'downsizing logjam' caused by exploding information demand. Covers SMP, cluster and MPP architectures; fine-grain multiprocessor support; parallel administration; dynamic resource scalability; and selection criteria for parallel-scalable RDBMSs. 23-slide deck used in Informix sales training.
+
+**The call (and how it played out)**
+
+Correctly predicted 3-5x growth in information demand by late 1990s; correctly forecast SMP dominance followed by cluster/MPP adoption; parallel-scalable RDBMS as a 'free hardware upgrade' proved prescient.
+
+### 9. Welcome to the RDBMS Jungle — Chapters 1-5
+
+- **Author:** Peter S. Kastner / Aberdeen Group
+- **Date:** 1995
+- **Path:** [kastner-author/jungle-1-5-675c58](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/jungle-1-5-675c58)
+
+**Abstract**
+
+Core market-dynamics training deck for Informix sales reps, chapters 1-5. Covers: overall database market size ($20B WW, $5.5B RDBMS); market characteristics (9 RDBMS licenses per 10 multiuser servers); supplier profiles for Sybase, Computer Associates/Ingres, Informix, Oracle, IBM, and Microsoft; hardware partnership dynamics; RDBMS technology rating framework (scalability, distributed data, open access, development tools, other technologies, supplier solutions); and competitive weaknesses for each major RDBMS vendor. 64-slide deck — richest single document in the set.
+
+**The call (and how it played out)**
+
+Extremely prescient: correctly identified Microsoft SQL Server as future threat; predicted Oracle's unfocused multimedia strategy as weakness; correctly forecast Sybase's architectural stagnation; Informix's replication gap proved fatal in long run; parallel-scalable RDBMS predictions broadly correct.
+
+### 10. Universal Servers: RDBMS Technology for the Next Decade
+
+- **Author:** Peter S. Kastner, Wayne Kernochan (Aberdeen Group)
+- **Date:** 1995-06-03
+- **Path:** [kastner-author/aberdeen-1995-universal-servers-rdbms-technology-next-decade](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/aberdeen-1995-universal-servers-rdbms-technology-next-decade)
+
+**Abstract**
+
+Aberdeen examines the emergence of Universal Servers — RDBMS extensions supporting complex data types (text, video, spatial, ROLAP, user-defined) — as the next major RDBMS evolution beyond simple numeric data. The study positions Informix (via Illustra DataBlade acquisition) as the leader, assesses Oracle 7.3, IBM DB2, Sybase, Computer Associates, and Microsoft, and predicts Universal Server technology will become widespread within 2-3 years and be the most significant RDBMS advance for the next decade.
+
+**The call (and how it played out)**
+
+Aberdeen's core predictions proved remarkably accurate: RDBMS survived OODBMSs, complex data types did become standard (object-relational became mainstream via PostgreSQL and Oracle), ROLAP became major BI architecture, and LDAP/Internet data integration happened. However, Informix's predicted leadership was disrupted by its 2001 acquisition by IBM.
+
+### 11. Microsoft NT Scalability Day: The Emperor Has No Clothes
+
+- **Author:** Peter S. Kastner
+- **Date:** 1997-05-21
+- **Path:** [kastner-author/1997-microsoft-nt-scalability-day--the-e-6460e2](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/1997-microsoft-nt-scalability-day--the-e-6460e2)
+
+**Abstract**
+
+Peter S. Kastner of Aberdeen Group delivers a pointed critique of Microsoft's Scalability Day event in New York, where Bill Gates declared NT and BackOffice ready for any enterprise. Kastner dissects five benchmark demonstrations as unrealistic or misleading, argues NT remains best suited to departmental (not enterprise) applications, and warns that Microsoft's all-or-nothing platform claims risk opening a 'trust gap' with enterprise customers. He concludes Unix, the AS/400, and even the mainframe legitimately retain the enterprise high-end.
+
+**The call (and how it played out)**
+
+Kastner's assessment that NT would be 'better in 1998' but was not yet enterprise-ready proved accurate: NT's enterprise limitations persisted through Windows 2000 and beyond. His prediction that NT's trust gap with enterprise customers would widen also proved prescient—Unix dominated enterprise computing well into the 2000s and Linux ultimately won the server market.
+
+### 12. Report of Peter S. Kastner: Intelligent Electronics Inc. v. Andersen Consulting LLP
+
+- **Author:** Peter S. Kastner
+- **Date:** 1999-06-21
+- **Path:** [kastner-author/kastner-ie-v-andersen-expert-report-3de98a](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/kastner-ie-v-andersen-expert-report-3de98a)
+
+**Abstract**
+
+Expert witness report by Peter S. Kastner of Aberdeen Group in the litigation between Intelligent Electronics Inc. and Andersen Consulting LLP. Analyzes IE's IT strategy, Andersen's systems integration performance, AS/400 platform decisions, and the PC distribution industry dynamics of the mid-1990s. Concludes that Andersen performed its engagement responsibilities competently and that IE's business failures stemmed from strategic market positioning errors.
+
+**The call (and how it played out)**
+
+Correctly predicted IE's non-viability and the consolidation of PC distribution; AS/400 longevity prediction proved accurate with platform still active as IBM i.
+
+### 13. Assessing the Damage: Will Fourth Quarter Technology Spending Fall? (Post-9/11 IT Recession Letter)
+
+- **Author:** Peter S. Kastner / Aberdeen Group
+- **Date:** 2001-10-05
+- **Path:** [kastner-author/trends00-6a553a](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/trends00-6a553a)
+
+**Abstract**
+
+Written October 5, 2001 -- less than a month after 9/11 -- this letter from Peter Kastner to IT supplier executives presents Aberdeen Group's analysis that Q4 2001 technology spending will decrease likely by double digits, followed by markedly lower growth in 2002 compared to historic norms. The letter describes how Aberdeen is adapting to the post-9/11 environment through five-tier conferencing technology and e-learning, and urges IT suppliers to think out of the box to emerge with market-share gains from the IT recession of 2001-2002.
+
+**The call (and how it played out)**
+
+Kastner predicted double-digit Q4 2001 spending decline and 2002 recession; both proved accurate as the post-9/11 economic shock compounded the dot-com bust.
+
+### 14. Asian Virus Casts Shadow Over Supply Chain: SARS Impact on Asia/Pacific Semiconductor and Electronics Manufacturing
+
+- **Author:** Russ Craig; Peter S. Kastner
+- **Date:** 2003-04-16
+- **Path:** [kastner-author/2003-sars-electronics-supply-chain-ec0375](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/2003-sars-electronics-supply-chain-ec0375)
+
+**Abstract**
+
+Aberdeen Group analyst report (Russ Craig and Peter Kastner) excerpted by PlanetAnalog/EBN on April 16, 2003, examining the potential impact of the SARS epidemic on the PRC- and Taiwan-centered global electronics supply chain. The authors quantify Asia/Pacific's 37% share of 2002 semiconductor consumption ($52B), document early SARS clusters in Guangdong, Shenzhen, Guangzhou, Hong Kong, Singapore, and Taiwan, and assess the vulnerability of dependable component supply — particularly for no-second-source items like PRC-made AC/DC power supplies — should quarantines extend. The report ends with a prescient warning that investor confidence in the PRC will take years to rebuild given government opacity about the outbreak.
+
+**The call (and how it played out)**
+
+Called out the 'no-second-source' PRC component risk (AC/DC power supplies, low-level assemblies) 17 years before the COVID-19 PPE, chip, and consumer-electronics shortages proved the thesis. Also predicted multi-year investor skepticism of PRC government credibility — validated by the 2020 US-China decoupling and Apple/Foxconn diversification to Vietnam and India.
+
+### 15. Planning for Emerging Industry-Standard Platforms (Executive White Paper)
+
+- **Author:** Aberdeen Group (Peter S. Kastner)
+- **Date:** 2003-08-01
+- **Path:** [kastner-author/planningforemergingindustry-6-40decb](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/planningforemergingindustry-6-40decb)
+
+**Abstract**
+
+Aberdeen Executive White Paper sponsored by Intel surveying the 2004 generational transition in industry-standard (Intel Architecture) computing. Covers processors and enterprise chipsets (Xeon/Nocona, Itanium 2/Madison, E7501/E7205/E8870/Lindenhurst/Twin Castle, 875P Canterwood), memory evolution from DDR to DDR2 with mainframe-class memory mirroring/sparing/scrubbing, Intelligent Platform Management Initiative (IPMI 1.5) for heterogeneous datacenter management, and the major I/O transition from parallel PCI-X to serial PCI Express. Aberdeen predicts server consolidation, data-center utility computing, and continued IA market-share gain.
+
+**The call (and how it played out)**
+
+Predictions proved accurate: PCI Express became universal (still dominant 2026); DDR2 then DDR3/4/5 displaced DDR; IPMI remained baseline for ~15 years until Redfish succession; server consolidation and industry-standard market-share growth dominated 2004-2015.
+
+---
+
+## Working with the Archive
+
+**Master indices** (repo root, regenerated when the corpus changes):
+
+- [_master_studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_studies.csv) — every study, one row, with full ratings and rationales
+- [_master_entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_entities.csv) — deduplicated entity dictionary
+- [_master_technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_technologies.csv) — deduplicated technology dictionary
+- [_master_observations.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_observations.csv) — every observation across the corpus
+- [_collection_stats.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_collection_stats.csv) — per-collection rollups
+
+**Per-study packages** follow the [Frictionless Data Package](https://specs.frictionlessdata.io/data-package/) specification. Load `datapackage.json` with the Python `frictionless` library, or read the CSVs directly. Every study ships with a runnable `scripts/demo_analysis.py`.
+
+**Schema reference:** see `_skills/archival-ingest/SKILL.md` for the canonical column definitions, valid enums, and observation-type code list.
+
+**Citation:** see [CITATION.cff](https://github.com/shorttack/aberdeen-group-archive/tree/main/CITATION.cff). License: [CC BY 4.0](https://github.com/shorttack/aberdeen-group-archive/tree/main/LICENSE).
+

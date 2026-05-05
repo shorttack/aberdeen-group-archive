@@ -8,12 +8,12 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 | Metric | Count |
 |---|---:|
-| Total studies | **824** |
-| Total observations | **14,815** |
-| Master entity rows | **7,834** |
-| Master technology rows | **6,269** |
-| Unique entities (deduped cache) | **3,198** |
-| Unique technologies (deduped cache) | **4,054** |
+| Total studies | **888** |
+| Total observations | **16,696** |
+| Master entity rows | **8,899** |
+| Master technology rows | **7,112** |
+| Unique entities (deduped cache) | **3,215** |
+| Unique technologies (deduped cache) | **4,085** |
 | Date range | 1979 – 2026 |
 | Audit failures (Layer A / B / C) | **0 / 0 / 0** |
 
@@ -25,16 +25,17 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 
 ### Key reading paths
 
-- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core); 31 studies, 609 observations.
+- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core); 27 studies, 538 observations.
 - **`kastner-author/employer/DEC/`** — Digital Equipment Corporation engineering, competitive-marketing, and OLTP/Debit-Credit performance memos (1986–1989); 5 studies, 153 observations.
-- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; 13 studies, 94 observations.
+- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; 11 studies, 66 observations.
 - **`kastner-author/employer/prime-computer/`** — Prime Computer Market Planning era (1979–1981), built around the July 15, 1981 *Industry Product Requirements Plan* — the principal surviving Kastner-authored five-year strategic plan covering all Prime vertical markets, seven System Use Categories, and the 1981 product-gap priority list against DEC VAX; 1 study, 45 observations.
 - **`kastner-author/employer/arthur-d-little/`** — ADL consulting engagements (1972–1979), including 9-1-1 / CAD public-safety systems and the ASE/ASEP two-way power-line communications study; 3 studies, 71 observations.
 - **`kastner-author/employer/phi-computer-services/`** — PHI Computer Services (1969–1972) and the 1995 Wang Labs *Riding the Runaway Horse* retrospective; 2 studies, 59 observations.
 - **`kastner-author/employer/obian-group/`** — Obian Group consulting engagements; 1 study, 5 observations.
 - **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, 76 entries.
-- **`kastner-author/`** (top-level) — 207 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts).
+- **`kastner-author/`** (top-level) — 205 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts).
 - **`other-authors/`** — 475 studies authored by other Aberdeen analysts and outside writers.
+- **`Project Examples/`** — 44 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, etc.) showing the full Aberdeen RAMP methodology in action.
 
 ### Prescience ratings
 
@@ -42,10 +43,10 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 394 |
-| medium | 250 |
-| low | 67 |
-| not-applicable | 110 |
+| high | 443 |
+| medium | 258 |
+| low | 69 |
+| not-applicable | 117 |
 | (deferred) | 1 |
 
 ### Aberdeen Group Category Creator roster

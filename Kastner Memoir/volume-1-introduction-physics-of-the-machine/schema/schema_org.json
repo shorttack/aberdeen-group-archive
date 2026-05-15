@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Introduction: The Physics of the Machine",
+  "description": "Peter Kastner opens his fifty-year memoir by tracing his organizing conviction\u2014that machines should handle paper work so people can handle everything else\u2014to childhood summers sorting receipts in a Cape Cod restaurant and observing the labor-intensive nature of American commerce. The introduction frames the book as neither a standard industry history nor a conventional business autobiography, but as an insider's account of how information technology collides with institutions, economics, and human nature across successive eras. Kastner previews five analytical frameworks developed during the Aberdeen years, the book's chronological-but-modular structure, and its deliberate shift from third-person to first-person narration.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

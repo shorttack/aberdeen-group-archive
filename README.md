@@ -8,12 +8,12 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 | Metric | Count |
 |---|---:|
-| Total studies | **919** |
-| Total observations | **17,933** |
-| Master entity rows | **9,103** |
-| Master technology rows | **7,409** |
-| Unique entities (deduped cache) | **3,260** |
-| Unique technologies (deduped cache) | **4,228** |
+| Total studies | **933** |
+| Total observations | **19,175** |
+| Master entity rows | **9,360** |
+| Master technology rows | **7,646** |
+| Unique entities (deduped cache) | **3,299** |
+| Unique technologies (deduped cache) | **4,283** |
 | Date range | 1979 – 2026 |
 | Audit failures (Layer A / B / C) | **0 / 0 / 0** |
 
@@ -36,6 +36,7 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 - **`kastner-author/`** (top-level) — 205 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts).
 - **`other-authors/`** — 487 studies authored by other Aberdeen analysts and outside writers.
 - **`Project Examples/`** — 45 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage.
+- **`Kastner Memoir/`** — Volume 1 of *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence* (2026), split into 14 chapter-level study packages (Introduction + 10 chapters + Epilogue + About + Appendix); 14 studies, 1,242 observations covering 1960–2026.
 
 ### Prescience ratings
 
@@ -43,10 +44,10 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 460 |
-| medium | 274 |
+| high | 466 |
+| medium | 271 |
 | low | 72 |
-| not-applicable | 121 |
+| not-applicable | 123 |
 | (deferred) | 1 |
 
 ### Aberdeen Group Category Creator roster
@@ -117,7 +118,8 @@ aberdeen-group-archive/
 │   └── <study-slug>/
 ├── aberdeen-group-inc/          # Aberdeen Group corporate / about-the-company files
 ├── Aberdeen Outbound Marketing/ # Period marketing collateral (raw)
-└── Project Examples/            # Sample / illustrative engagements
+├── Project Examples/            # Sample / illustrative engagements
+└── Kastner Memoir/              # 'Arguments with Reality' Vol. 1 (14 chapter packages)
 ```
 
 ### Per-study layout (Frictionless Data Package)

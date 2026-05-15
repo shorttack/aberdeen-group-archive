@@ -1,0 +1,144 @@
+# Chapter 6: Digital Equipment Corporation — The Mainframe's Last Stand
+### *(1987–1988)*
+
+---
+
+In late 1987 I arrived at Digital Equipment Corporation carrying two things no one knew about: an intimate technical knowledge of fault-tolerant computing from six years at Stratus, and fees from an $8,000 ghost-written market research study I had just finished for Yankee Group that predicted the gradual collapse of the mainframe's economic dominance.
+
+My title was Marketing Executive — in DEC's idiosyncratic hierarchy, the highest-level individual contributor in marketing. My assignment, from a new group called Corporate Systems run by Bill Steul, was to "look around DEC for things that needed to be done to improve the enterprise position." It was an invitation to find a gap in the armor.
+
+The gap was obvious the moment I started asking questions. Online Transaction Processing — OLTP, the heartbeat of banking, insurance, retail, and financial services — was still an IBM mainframe franchise. DEC had the VAX architecture, a genuine relational database in Rdb, and a transaction monitor. What it lacked was a competitive story backed by verifiable proof. I knew exactly where that proof was hiding.
+
+---
+
+## The Study Nobody Knew I Had Written
+
+*The Future of Transaction Processing*, published by Yankee Group in January 1987, was my work. John Logan — a former colleague from Prime who had moved to Yankee Group — had hired me to write it for $8,000 and a month of late evenings. The report's central prediction: Moore's Law was finally meeting the economics of departmental transaction processing. Multiprocessor Intel 386 systems were appearing. The mainframe's cost-per-transaction advantage was evaporating. The displacement was not a matter of whether but when — and "when" was the early 1990s.
+
+I arrived at DEC knowing the terrain. The DECtp (DEC Transaction Processing) launch was eight months out when I got there. I became, apparently, the Chair of the DECtp Task Force — a title I never actually received in writing, though I later found it attributed to me in historical accounts. What I knew at the time was that I was networking furiously across ten product groups, trying to convince a disparate collection of DEC engineers and marketers that we had a story capable of taking on IBM.
+
+Our hand was stronger than most of the team realized: a multiprocessor VAX 8200, a transaction-friendly version of Rdb, DEC's relational database, and an acquired OLTP transaction monitor. The strategy wrote itself. Combine them, benchmark them against the IBM 3090 mainframe, and expose what I had already privately concluded was the SNA Tax — the hidden overhead buried in IBM's mainframe architecture that was costing enterprise customers millions of dollars they couldn't see.
+
+---
+
+## The Westwood Midnight Ambush
+
+The DECtp marketing launch budget, excluding product R&D, totaled approximately $2 million — a staggering sum for a marketing program in 1988, and not previously disclosed. A significant slice of that went to a "blind" benchmark conducted through a CICS application consulting firm in Westwood, Massachusetts, using the Cullinet mainframe data center. (John Cullinane, from my PHI days years earlier, had built one of the first major commercial software companies. The world of Route 128 was always smaller than it appeared.)
+
+The benchmark was a competitive intelligence operation run under cover. The objective was to measure IBM's highest possible throughput on a 3090 mainframe running DB2 — then compare it head-to-head against a DEC VAX under identical constraints. IBM's own systems analysts were brought in under contract and told in writing that IBM was to provide all reasonable services and tuning to maximize throughput. They knew a benchmark was being run. They had no idea DEC was the client behind the curtain.
+
+> **Sidebar: What Is the Debit-Credit Benchmark?**
+>
+> The "debit-credit" benchmark was the standard yardstick for OLTP performance in the late 1980s. The test simulated a bank's account transaction processing: a program randomly selects an account, verifies the balance, debits or credits a specified amount, writes an audit record, and confirms the transaction within a strict response-time deadline. The benchmark measures **Transactions Per Second (TPS)** — how many complete debit-credit cycles the system can execute per second while maintaining response times under one second.
+>
+> The benchmark rules required 100 virtual terminals for every 1 TPS reported. To claim 100 TPS, you had to demonstrate the system could support 10,000 simultaneous virtual users. This was not merely a processing test; it was a systems test of the entire software stack under realistic load.
+>
+> The debit-credit benchmark had become the "four-minute mile" of enterprise computing — every serious OLTP vendor was obsessed with it, and the score on this single test could define a product's competitive position for years. I had extensive experience from Stratus vs. Tandem.
+
+We used an IBM 3090-400 as the System Under Test and an IBM 3090-200 as the load driver — two of IBM's largest mainframes in the same room, running dedicated tests for hours at night and on weekends. In secret.
+
+What we discovered was devastating to IBM's narrative and priceless to ours: the **SNA Tax**.
+
+SNA — IBM's Systems Network Architecture — was the communications framework that connected IBM 3270 terminals to mainframe applications. Every terminal session required initialization overhead managed by VTAM, IBM's mainframe communications manager. The overhead was not theoretical: it took more than one full 3090 CPU-second just to log in a single 3270 terminal.
+
+The math was punishing:
+
+- 100 TPS target required 10,000 virtual terminals
+- 10,000 terminals × 1 CPU-second = 10,000 CPU-seconds of session overhead
+- On a four-processor 3090-400: well over an hour of clock time just to establish sessions before processing a single transaction
+
+We also learned that DB2, IBM's flagship relational database, had been tuned almost exclusively for query workloads. Edgar Codd and Christopher Date — the IBM researchers who had invented the relational model — had designed it for the elegant retrieval of data. Transactional throughput was an architectural afterthought.
+
+Richard Case, DEC's head of Competitive Analysis, was ecstatic. He had a color HP graphing plotter, I had the benchmark data, and together we could produce a presentation foil in under two hours showing the stark cost-performance gap between DEC and IBM. The VAX, running a proper OLTP database with a clean transaction architecture, was delivering comparable throughput to an IBM 3090 at a small fraction of the cost.
+
+---
+
+## The Press Event and the Slide That Changed the Room
+
+When I stood before the industry analysts in Boston and the press corps in New York, I had one color slide. Everything else was black and white.
+
+The color slide showed an enormous price difference — millions of dollars — between an IBM 3090-400 and a DEC VAX, with almost no performance difference. That single slide was worth every penny of the $2 million launch budget.
+
+The first reaction in the room was exactly what I had expected and prepared for: "That's a sleazy, cheating way for DEC to act."
+
+I held questions to the end deliberately. The presentation had been built to anticipate that objection and answer it before anyone had to ask. I walked through every step DEC had taken to make the comparison fair: the written instructions to IBM's own analysts, the open invitation to tune DB2 to its maximum, the identical workload running on both platforms, the auditable methodology. When the questions came, the objection had already been answered. The press and analysts accepted it. Sales improved measurably.
+
+In October 1988, IBM rushed out a press announcement claiming DB2 now ran much faster than DEC's measurements. They had, predictably, spent their own nights and weekends closing the gaps we had exposed. The announcement of DB2 Version 2 was an acknowledgment that we had found something real.
+
+> **Sidebar: "Specsmanship" and Why It Had to End**
+>
+> By 1988, the OLTP benchmark world had degenerated into what the industry called "specsmanship" — a competitive sport in which every vendor designed its own test, optimized every parameter, and published results that bore little resemblance to the performance customers would actually experience.
+>
+> A vendor could claim 500 TPS by selecting a workload that happened to exercise their architecture's strengths, configuring their system for maximum benchmark throughput rather than production reliability, and excluding overhead costs that would exist in real deployments. The result was a landscape where every vendor won its own benchmark and customers had no trustworthy basis for comparison.
+>
+> The debit-credit benchmark was widely used but not independently audited. Vendors could and did claim results that later proved unreproducible. The benchmark wars created noise rather than signal.
+
+---
+
+## The Transaction Processing Council
+
+IBM's countermove crystallized what had been a growing conviction. The era of proprietary benchmarks had to end. Independent, audited, industry-standard performance tests were the only path to market credibility that could survive sustained competitive attack.
+
+Omri Serlin, a respected OLTP analyst, had been pushing for exactly this for years. The industry was hesitant — no vendor wanted to step into a ring where they couldn't control the rules. The result was paralysis.
+
+I told Bill Steul I was heading to Los Altos, California. Over dinner with Omri, I listened to his frustrations about the lack of initiative from the major players. There was a long pause.
+
+"Omri," I said, "Digital Equipment would be pleased to be the first member of the Transaction Processing Council. Let's make some phone calls and get the rest off the fence."
+
+That is exactly what happened. A week later, I leaked Digital's leadership position on the council to *MIS Week* (August 8, 1988). The disclosure served a precise purpose: once DEC's commitment was public, every other serious OLTP vendor faced a binary choice — join the standard or explain to customers why they refused to compete on a level field. The fence cleared quickly.
+
+> **Sidebar: The TPC and Its Lasting Impact**
+>
+> The Transaction Processing Performance Council (TPC) became the authoritative standard-setting body for database and transaction processing performance. Its benchmarks — TPC-A, TPC-B, TPC-C (for order entry workloads), and later TPC-H (for decision support) — required:
+>
+> - **Full system pricing**: Results had to include hardware, software licenses, and maintenance — not just hardware
+> - **Independent audit**: A certified auditor had to verify that the benchmark was run according to specification and that the reported configuration matched the measured system
+> - **Public disclosure**: Complete system configuration, pricing, and benchmark methodology had to be published, allowing anyone to reproduce or challenge the results
+>
+> The TPC transformed the OLTP market. Vendors could no longer claim self-serving results. CIOs had objective, auditable data for procurement decisions. The benchmark became a standard item in every enterprise server RFP for the next decade.
+>
+> TPC-C, which measured throughput in a complex multi-table order-entry workload, became the definitive benchmark for OLTP server performance through the 1990s and into the 2000s. The results tables were published in trade press quarterly and tracked as closely as stock prices in the server market.
+
+---
+
+## Benchmark Auditor: A New Profession
+
+One of the more unexpected chapters of my early Aberdeen years grew directly from the TPC's founding requirement for independent auditors.
+
+The TPC needed certified third parties to verify benchmark submissions. I realized that my combination of technical depth in OLTP systems and the newly established TPC methodology made me an accredited auditor. The AICPA manual had a brief chapter on performance auditing. The secret was mundane: methodical process and impeccable notes.
+
+I established Aberdeen Transaction Services (ATS) as a practice area. The billing rate was $15,000 for a couple of days of careful documentation work. The client list included Stratus (for TPC-A), Stratus/IBM (for their proprietary RAMP-C benchmark), and Groupe Bull, which required me to audit three models of DPS 7000 and 6000 systems across the United States, Italy, and France.
+
+The European assignments had their characteristic texture. The French and Italian engineers were impressive in their technical tenacity and their frustration when terminal emulators misbehaved at critical moments. The accommodations, however, were world-class: I conducted one audit session while staying at the Trianon Palace Versailles, reviewing the benchmark logs at a desk overlooking the palace gardens while engineers a few blocks over wrestled with communications configurations.
+
+The auditing practice ended with TPC-C, when the council began requiring "certified" auditors who had passed formal examinations and operated under authorized firms. It had been a productive and pleasantly remunerative sideline, but by then Aberdeen's core advisory practice had grown to the point where $15,000 benchmark audits were not the best use of time.
+
+---
+
+## What DEC Taught — And Missed
+
+The DECtp campaign was a success. Jack Smith, DEC's senior marketing executive, would later tell peers that "DECtp was our most important launch after VAX." Sales into OLTP accounts improved. The TPC was founded. The mainframe's cost-performance advantage was documented, quantified, and published.
+
+And yet.
+
+DEC was, at the moment of this victory, a company beginning to lose the war it didn't know it was fighting. The VAX architecture was magnificent — one of the great minicomputer designs ever produced. But the battle we were winning was the minicomputer-versus-mainframe argument. The war that would define the 1990s was x86-versus-everything-else.
+
+The Yankee Group study I had written in 1987 predicted that multiprocessor Intel 386 systems were "appearing on the horizon." By the time DECtp launched in 1988, those systems were already arriving. By 1990, Compaq and others were building servers that would deliver competitive OLTP throughput at a fraction of DEC's VAX pricing.
+
+DEC beat IBM's mainframe pricing in the OLTP argument. Within four years, x86 servers would beat DEC's VAX pricing in the same argument, with the same methodology, using the same TPC benchmarks we had helped create. The irony was almost too neat to be credible.
+
+Ken Olsen, DEC's founder, famously resisted Unix, workstations, and x86 architecture throughout the late 1980s and early 1990s. The company that had shown the industry how to use objective benchmarks to displace the mainframe would itself be displaced by a generation of vendors who used those same benchmarks to displace proprietary minicomputers.
+
+I left DEC for Aberdeen with that observation fully formed. The research firm I was about to help build would spend much of the next decade documenting exactly that transition — the collapse of the proprietary minicomputer era and the rise of the open, standards-based, x86-dominated enterprise infrastructure that replaced it.
+
+The mainframe had not been the last stand, it turned out. It was the second-to-last stand.
+
+---
+
+*Next: Chapter 7 — Founding Aberdeen Group*
+
+
+
+---
+
+

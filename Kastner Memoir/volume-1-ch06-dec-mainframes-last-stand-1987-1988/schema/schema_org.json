@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 6: Digital Equipment Corporation \u2014 The Mainframe's Last Stand (1987\u20131988)",
+  "description": "Kastner recounts his 1987\u20131988 tenure at Digital Equipment Corporation as a Marketing Executive, where he orchestrated the DECtp (DEC Transaction Processing) launch and a covert benchmark of IBM's 3090 mainframe that exposed the 'SNA Tax' \u2014 massive hidden overhead in IBM's communications stack. He also describes his pivotal role in founding the Transaction Processing Performance Council (TPC), which established independent, audited, industry-standard OLTP benchmarks. The chapter closes with Kastner's observation that DEC, having beaten the mainframe on price-performance, was itself soon to be surpassed by x86 servers using the very same TPC benchmarks.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -1,0 +1,337 @@
+# Chapter 7: Founding Aberdeen Group (1988-1997)
+
+> Archived from: MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 7: Founding Aberdeen Group (1988-1997))
+> Original publication date: 2026-05-14
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# Chapter 7: Founding Aberdeen Group
+### *(1990–1997)*
+
+---
+
+In late 1989, Chuck Casale called me at DEC with a proposition.
+
+Casale and I had been colleagues at Prime Computer nearly a decade earlier, when he ran Investor Relations through the company's rocket-ship years and watched the stock climb 272 percent in a single year. He had since moved on to the analyst world and, with John Logan — the Harvard MBA who had published my Yankee Group study on transaction processing — had been assembling a team to build a technology research firm from scratch.
+
+"You know the technical side," he said. "Logan knows the financial side. I know how companies tell their stories and raise money. We need all three."
+
+Tom Willmott, from IDC, would cover networking and the remaining white space.
+
+The name had already been market-tested. "Aberdeen Group" scored well on focus-group research: respondents rated it as "highly trusted, top-notch — but I just can't place it." That was exactly right. We wanted a name that sounded like it had always existed. We incorporated in 1988.
+
+---
+
+## The Landscape We Were Entering
+
+The enterprise technology research market in 1990 was dominated by four firms: Gartner Group, International Data Corporation (IDC), Forrester Research, and Yankee Group — collectively known inside the industry as the FIGYs.
+
+> **Sidebar: The FIGY Firms and Their Models**
+>
+> **Gartner Group** (founded 1979) had built a subscription model targeting CIOs with vendor evaluations and strategic technology guidance. Its Magic Quadrant framework — placing vendors in a two-axis chart of "ability to execute" and "completeness of vision" — became the industry's most recognizable analytical tool. Enterprise software vendors coveted placement in the Leaders quadrant; Gartner's analysts received enormous pressure around quarterly reviews.
+>
+> **IDC** (founded 1964) dominated market sizing and forecasting with quantitative reports on shipments, revenues, and market share. IDC owned the numbers. If you needed to tell a board that the database market was a $4 billion opportunity, you cited IDC.
+>
+> **Forrester Research** (founded 1983 by George Colony) carved out territory in business technology strategy, targeting both CIOs and business executives. Forrester's wave reports and research methodology were rigorous and widely read.
+>
+> **Yankee Group** (founded 1970) focused on telecommunications and networking. In the late 1980s, as networking became enterprise-critical, Yankee was required reading.
+>
+> All four operated on similar economics: large analyst headcount, expensive multi-year subscriptions, heavy travel for client visits, and annual conference revenue. Aberdeen entered this market in 1990 with a deliberately different approach.
+
+Aberdeen was not attempting to replicate Gartner's vendor evaluation franchise or IDC's market-sizing machinery. We were building something more surgical: deep technical expertise in specific domains, delivered through concise published research that served as lead generation for high-margin advisory projects. The FIGYs sold subscriptions. We sold expertise. Those are different things.
+
+---
+
+## The Partner Structure: Division of the Technology Universe
+
+The founding partnership divided the coverage landscape cleanly. I took system software, application software, and x86 servers. Casale owned scientific and high-performance computing, plus he held a registered financial analyst credential that created capabilities none of the others had. Logan covered minicomputers. Willmott handled networking and everything that didn't fit the other three buckets.
+
+Four domains. Four specialists. One firm.
+
+The specialization created the depth that differentiated us. But the structure that made the firm work was the revenue model — and it was more carefully engineered than most partnerships bother to design.
+
+> **Sidebar: The Cooperative Revenue Architecture**
+>
+> Aberdeen's revenue-sharing model rewarded four distinct types of contribution:
+>
+> **Selling**: The partner who originated the relationship and closed the deal received a defined percentage. Business development was hard, relationship-intensive work, and the model explicitly compensated it.
+>
+> **Project Management**: The partner responsible for delivery received a management allocation. Often the same as the seller; sometimes different, based on technical expertise or geography.
+>
+> **Final Presentation**: Board-level or executive briefings carried their own allocation. We deliberately structured major deliverables as two-person presentations — the second seat received a cut. This peer-review-in-real-time ensured quality while creating learning opportunities for junior partners and exposing clients to multiple perspectives.
+>
+> **Project Participation**: Analysts and partners who contributed research, analysis, or content received participation shares. This prevented the firm from becoming a pure rainmaker economy where only sellers prospered.
+>
+> I called this structure a "cooperative hunter-killer community." Everyone ate. Rainmakers prospered because they captured selling premiums and typically led project management. But analysts and domain experts also built wealth through participation in multiple projects. The structure made hoarding irrational and collaboration economically beneficial.
+>
+> The alternative — an eat-what-you-kill model where individuals kept most of their revenue — would have destroyed the firm. Research requires review processes, quality control, and knowledge sharing. A purely individualist model produces mediocre work because no one has incentive to improve anyone else's output.
+
+Office overhead, administration, and rent split equally. When a partner hired an analyst, that partner assumed the financial risk. The analyst's salary and allocated overhead became the hiring partner's personal responsibility. The reward for that risk: approximately 35% margin on analyst-generated revenue. If the analyst was productive, the hiring partner captured significant economics beyond their own direct output. If the analyst underperformed, the partner absorbed the loss.
+
+This risk-reward structure ensured that hiring decisions were made carefully, that analysts were trained and deployed aggressively, and that the firm never accumulated unproductive headcount.
+
+---
+
+## My First Hires
+
+My first two analyst hires were Wayne Kernochan and Ed Black, both of whom had worked with my wife. Both proved exceptional.
+
+Kernochan brought deep expertise in database systems and data management — the kind of technical depth that meant he could look at a query optimizer's behavior and identify lock-escalation patterns that would cause performance degradation at scale. Black covered enterprise applications and business intelligence. Together, they became the cornerstone of my practice's expansion.
+
+The profile we hired for was specific and deliberate: former vendor engineers, enterprise architects, systems designers — people who had built and broken things, not just observed and documented them. The ideal Aberdeen analyst could hold a technical conversation with a chief architect, review code, assess a performance benchmark critically, and spot architectural flaws in product designs. But ex-reporters also turned into valuable analysts.
+
+Base salaries ran $52,000 for mid-level analysts in the early 1990s. Each analyst carried a margin quota of approximately $350,000 annually. Hit the quota and you qualified for a 30% bonus on overage, uncapped on the upside. Exceptional analysts could earn $250,000 to $350,000 in total compensation. Most described it as their best job ever.
+
+---
+
+## The Publishing Strategy: Give Away the Analysis, Sell the Judgment
+
+Aberdeen's go-to-market strategy differed fundamentally from the FIGY firms' subscription models. We published research freely and used it as lead generation for advisory services.
+
+Each report addressed a specific technology decision: *Should you deploy Windows NT or Unix for database servers? Which data warehouse architecture fits your requirements? How do Oracle, Sybase, and Informix compare for OLTP performance?*
+
+We distributed reports through direct mail, conference presentations, technology vendor sponsorships (disclosed), and — crucially — one of the first research Internat websites with free downloads. At peak, Aberdeen's website ranked in the top 10 globally, per Alexa Internet. Yes, Aberdeen sat in daily hits where Google, Facebook, and Instagram sit today.
+
+> **Sidebar: Why Free Research Was Heresy in 1990**
+>
+> In 1990, research firms universally treated published reports as products to sell, not marketing investments. Gartner's research was behind a subscription paywall. Forrester's documents were licensed content. The business model assumption was that research had intrinsic value that required payment to access.
+>
+> Aberdeen bet on the opposite assumption: in a world where information increasingly wants to be free, expertise and judgment are what clients will pay premium prices for. Give away the analysis. Sell the custom advice.
+>
+> This model anticipated content marketing by 15 years. It was deeply contrarian in 1990. By the mid-2000s it had become conventional wisdom.
+>
+> The web distribution strategy proved transformative. By 1995, Aberdeen's website was generating thousands of research downloads weekly. Each download captured an email address and company name, building a database of qualified prospects. Our inside sales team could call companies that had downloaded multiple reports on related topics, knowing they were actively evaluating relevant technology decisions. This was primitive by modern marketing automation standards — but in the mid-1990s it was sophisticated lead-generation machinery that none of our competitors had built.
+
+The economics of the model were compelling. Publishing research cost primarily analyst time. Distribution costs were minimal. Advisory engagements, by contrast, carried 60-70% margins. A single $200,000 advisory project funded substantial research publication. Clients who read three Aberdeen reports before engaging for advisory work were qualified, educated buyers who understood our analytical style and trusted our technical depth. The advisory sale was easier because we had already proven value.
+
+---
+
+## My Coverage Domains: Six Frameworks
+
+Within my domain of system software, application software, and x86 servers, six analytical themes shaped the research and defined Aberdeen's perspective through the 1990s.
+
+**The Inevitability of Open Architecture.** Proprietary platforms were economically doomed. The cost advantages of standardized components manufactured at volume were overwhelming. This thesis was controversial in 1990 and obvious by 2000. The strategic implication: enterprises should minimize dependence on proprietary platforms and architect for platform replaceability. The lock-in that vendors sold as integration was a liability masquerading as a feature. We hired a Linux analyst as soon as Red Hat took off.
+
+**Client-Server as Permanent Architectural Principle.** Client-server was not a temporary fad. Separating presentation from business logic from data management was correct system design. The specific technologies would change — terminals to PCs to browsers to mobile — but the logical separation would persist. We argued this when client-server was still being debated and before anyone had coined the term "microservices." The architecture anticipated what it would become.
+
+**RDBMS as Universal Middleware.** Relational databases had won the data management battle. Hierarchical and network databases would remain niche. The combination of mathematical foundation, SQL flexibility, and ACID transaction guarantees made the relational model the universal standard for operational systems. My personal mission from 1985 to 1995 was championing the RDBMS that could handle both transactions *and* query/reporting — the killer combination that IT departments desperately needed and vendors were slow to fully deliver.
+
+**Data as Competitive Advantage.** Data was becoming a strategic asset, not merely an operational record. Enterprises that could analyze customer behavior, market trends, and operational patterns faster than competitors had sustainable advantages. This thesis was ahead of its time in the early 1990s. The concepts of "big data" in the 2000s and AI/ML in the 2010s are extensions of exactly this insight: competitive advantage flows from better use of data. We built a data warehousing practice around this conviction before most enterprises knew what a data warehouse was. I have a slide circa 1991 of today's AI-driven analysis model.
+
+**Integration Problem Acceleration.** As client-server architecture proliferated, integration complexity exploded. Every application had its own data format and API — if it had one at all. Point-to-point integration created N-squared complexity. The pattern was consistent and predictable: architectural proliferation creates integration pain, which creates demand for integration platforms, which creates new standards, which enables further proliferation. The enterprises that planned for integration from the start had manageable complexity. Those that treated it as an afterthought built technical debt that haunted them for decades.
+**Spoke-Node-Ring** is a road map for integrating heterogeneous computer systems into an information network, yet it is also a business planning tool to overcome *integration problem acceleration*. At the heart are systems-of-record. Next layer out are *middle manager rings* where organizational productivity applications run, connected by peer-peer networks. *Productivity Nodes* access the middle ring, typically on a LAN in a department or distributed office. S-N-R is a Lego for building systems architectures which Aberdeen championed in the early 1990s.
+
+---
+
+## What Aberdeen Got Right — and What We Missed
+
+Looking back from three decades later, Aberdeen's research had genuine prescience in several areas:
+
+**Open Systems Transition** — We correctly called that proprietary platforms were doomed and that open architecture would dominate. The specific trajectory (Unix to Linux, RISC to x86, proprietary to commodity) played out largely as we described.
+
+**Client-Server Persistence** — The architectural principle of separating presentation, logic, and data persisted even as implementation technologies changed completely. Web applications, mobile apps, and cloud services all follow client-server patterns with different technology stacks.
+
+**RDBMS Dominance** — Relational databases remained dominant for operational systems through the 2010s. NoSQL databases carved out specific use cases but never displaced relational systems for enterprise applications.
+
+**Data Warehousing Democratization** — Every significant enterprise eventually built data warehouses. The technologies evolved from Teradata to columnar stores to cloud warehouses, but the architectural pattern persisted exactly as we had argued.
+
+**Integration as First-Class Problem** — Integration complexity did accelerate as predicted, driving massive investment in middleware, EAI, SOA, and eventually API management platforms. Clients who read our early research on this and acted on it avoided enormous technical debt.
+
+Where our timing was less precise:
+
+**Object Databases** — We underestimated how completely relational databases would dominate. Object databases captured negligible market share despite their theoretical elegance. The impedance mismatch between object-oriented programming and relational storage persisted, but enterprises chose object-relational mapping tools rather than native object databases. I never liked C++, but I underestimated how much the industry would tolerate the ORM solution rather than abandon SQL.
+
+**Unix Fragmentation** — We expected Unix standardization to succeed more cleanly. Instead, Linux emerged as the dominant variant by winning on open licensing and community development, not technical standardization. The destination was right; the mechanism was different. Unix remained fragmented and different in every vendor's implementation.
+
+**Web Application Speed** — We understood that browsers would become important clients but underestimated the speed at which the web transformed from document distribution to full application platform. The web moved faster than anyone predicted in the early 1990s, and we were slower than we should have been to recognize the depth of that shift. We were also off in touting thin-client hardware as the market chose client-server where the browser became ever-heavier and complex.
+
+---
+
+## The 1997 Inflection: Venture Capital
+
+By 1997, Aberdeen had established strong profitability and market presence — $7 million in annual revenue with approximately 40% EBITDA margins (to partners, not the corporation). The partnership model was working. The cooperative revenue structure had prevented fragmentation. The analyst hiring strategy had built deep expertise across the coverage domains.
+
+Then the venture capital world discovered the analyst market.
+
+Multiple VCs approached Aberdeen with growth capital offers. The pitch was consistent: the internet was driving explosive demand for technology research; Aberdeen's publishing platform and analyst talent could scale dramatically with capital. We could build a direct sales force, expand analyst headcount, enter new coverage areas, and challenge Gartner and Forrester directly.
+
+The partner group faced a fundamental choice. We could remain a profitable partnership, continuing the model that had worked for seven years. Or we could take institutional capital, pursue aggressive growth, and transform into a different kind of company.
+
+The economic arguments for growth were attractive but not compelling. The research market was expanding rapidly. The established firms were trading at high revenue multiples. A successful exit — IPO or strategic acquisition — could generate wealth beyond what the partnership model would produce.
+
+The arguments against centered on culture and control. Venture capital meant governance changes, growth imperatives, and pressure to build revenue ahead of profitability. The cooperative partnership model that had created our culture and quality standards would be difficult to maintain at larger scale with institutional investors expecting quarterly performance improvements.
+
+The decision to pursue venture capital was accomplished in a 45 minute meeting of Kastner, Logan, and Wilmott. We chose growth. The VC idea was Wilmott's. My calculus was Wilmott would leave if we did not follow his plan, and I would be saddled with his overhead and people. A roll of the dice had less immediate downside.
+
+That choice marked the end of Aberdeen as a partnership and the beginning of Aberdeen as a venture-backed research company. The model that had defined the first seven years — the domain specialization, the cooperative revenue structure, the risk-reward hiring model, the publishing-as-marketing strategy — provided the foundation. What the firm would become after 1997 is a different story, with different dynamics and different outcomes.
+
+---
+
+## What the Partnership Proved
+
+The Aberdeen partnership model from 1990 to 1997 validated principles that remain relevant for anyone building specialized research or advisory firms in emerging technology markets.
+
+**Specialization scales better than generalization.** Deep domain expertise created more defensible value than broad market coverage. Clients paid premium rates for analysts who truly understood the technical details of their specific problem.
+
+**Cooperative economics prevent fragmentation.** The multi-layer revenue sharing model was complex to administer but essential for maintaining firm cohesion. Partners had strong incentives to collaborate rather than compete internally.
+
+**Risk-reward on hiring aligns incentives.** Making hiring partners responsible for analyst productivity ensured careful decisions and effective deployment. The 35% margin reward made the risk worthwhile.
+
+**Publishing generates better leads than cold calling.** Free research distribution built trust and demonstrated expertise before the sales conversation. Prospects who had consumed our research were easier to close and more satisfied clients.
+
+**Technical credibility opens different doors.** Analyst depth in technical domains created opportunities with engineering organizations and technical executives that market analysis alone couldn't access. Our analysts could often install and configure the products they covered. That was unusual and valuable.
+
+**Culture formation happens early and persists.** The cooperative, technically deep, publishing-centric culture established in the first few years shaped Aberdeen's identity even as the firm scaled and changed ownership. The soul of the institution was set in the partnership era.
+
+**Finally:** each of the partners could have done fine in a solo practice. However, with the Aberdeen Group structure, we could charge more, be trusted more, and accomplish more — individually and collectively — than any of us could have done alone. The whole was genuinely greater than the sum of its parts.
+
+That is the hardest thing to build and the easiest thing to destroy.
+
+---
+
+*Next: Chapter 8 — The Go-Go Years: Aberdeen at Scale, 1998–2006*
+
+
+
+---
+
+
+
+---
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | volume-1-ch07-founding-aberdeen-1988-1997 |
+| title | Chapter 7: Founding Aberdeen Group (1988-1997) |
+| author | Peter S. Kastner |
+| date | 2026-05-14 |
+| type | memoir |
+| subject_domain | memoir/volume-1 |
+| methodology | oral-history |
+| source_file | MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 7: Founding Aberdeen Group (1988-1997)) |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Peter S. Kastner recounts the founding of Aberdeen Group in 1988 alongside co-founders Chuck Casale, John Logan, and Tom Willmott, describing the firm's deliberate differentiation from the dominant FIGY firms through free-research publishing, deep domain specialization, and a cooperative revenue-sharing model. The chapter traces Aberdeen's analytical frameworks across six technology themes—open architecture, client-server, RDBMS dominance, data as competitive advantage, integration complexity, and the Spoke-Node-Ring model—assessing both prescient calls and missed timing. It concludes with the 1997 inflection point when the partners chose venture capital over remaining a partnership, transforming the firm's structure and culture.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | This chapter documents the founding architecture of Aberdeen Group—co-founders, revenue model, hiring strategy, and analytical methodology—providing primary-source detail unavailable elsewhere on a firm that shaped enterprise technology research in the 1990s. |
+| **Relevance** | high | Aberdeen's publishing-as-marketing strategy, cooperative revenue model, and domain-specialization framework remain directly relevant to anyone building or studying technology research and advisory firms. |
+| **Prescience** | high | Kastner documents Aberdeen's early-1990s predictions on open-architecture dominance, client-server persistence, RDBMS universality, data warehousing, and integration complexity—most of which proved accurate over the following two decades. |
+
+### Prescience Detail
+
+
+**Prediction 1:** Prediction: open systems transition (Unix/x86)
+- **Claimed:** Proprietary platforms doomed; Unix and x86 to dominate. Outcome: correct on direction but Unix fragmentation persisted; Linux won via open licensing not technical standardization.
+- **Year:** 1990
+- **Confidence at time:** high
+
+**Prediction 2:** Prediction: client-server persistence (outcome)
+- **Claimed:** Architectural principle persisted across implementation generations: terminals → PCs → browsers → mobile. Web apps, mobile apps, cloud services all follow client-server patterns.
+- **Year:** 1990
+- **Confidence at time:** high
+
+**Prediction 3:** Prediction: RDBMS dominance (outcome)
+- **Claimed:** Relational databases remained dominant for operational systems through the 2010s. NoSQL carved out specific use cases but never displaced relational for enterprise applications.
+- **Year:** 1990
+- **Confidence at time:** high
+
+**Prediction 4:** Prediction: data warehousing democratization (outcome)
+- **Claimed:** Every significant enterprise eventually built data warehouses. Technologies evolved Teradata → columnar stores → cloud warehouses, but architectural pattern persisted.
+- **Year:** 1991
+- **Confidence at time:** high
+
+**Prediction 5:** Prediction: integration as first-class problem (outcome)
+- **Claimed:** Integration complexity accelerated as predicted, driving massive investment in middleware, EAI, SOA, and eventually API management. Clients who acted on early Aberdeen research avoided enormous technical debt.
+- **Year:** 1992
+- **Confidence at time:** high
+
+**Prediction 6:** Prediction miss: object databases
+- **Claimed:** Aberdeen underestimated how completely relational databases would dominate. Object databases captured negligible market share despite theoretical elegance; industry chose ORM over native object databases.
+- **Year:** 1990
+- **Confidence at time:** high
+
+**Prediction 7:** Prediction miss: Unix fragmentation
+- **Claimed:** Expected Unix standardization to succeed more cleanly. Instead Linux won via open licensing and community development, not technical standardization. Unix remained fragmented per vendor.
+- **Year:** 1990
+- **Confidence at time:** high
+
+**Prediction 8:** Prediction miss: web application speed and thin-client
+- **Claimed:** Underestimated speed at which web transformed from document distribution to full application platform. Also touted thin-client hardware; market chose client-server where browser became ever-heavier.
+- **Year:** 1994
+- **Confidence at time:** high
+
+
+### Entities Referenced (20)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (later Aberdeen acquired by The Aberdeen Group / Spiceworks Ziff Davis) |
+| Peter S. Kastner | person | active |  |
+| Chuck Casale | person | unknown |  |
+| John Logan | person | unknown |  |
+| Tom Willmott | person | unknown |  |
+| Wayne Kernochan | person | unknown |  |
+| Ed Black | person | unknown |  |
+| Bill Bulkeley | person | unknown |  |
+| Hiawatha Bray | person | active |  |
+| Gartner Group | firm | active | Gartner, Inc. |
+| International Data Corporation (IDC) | firm | active |  |
+| Forrester Research | firm | active |  |
+| Yankee Group | firm | dissolved |  |
+| George Colony | person | active |  |
+| Gideon Gartner | person | unknown |  |
+| Prime Computer | company | dissolved |  |
+| Digital Equipment Corporation (DEC) | company | acquired | Compaq (later HP) |
+| Wall Street Journal | institution | active |  |
+| The Boston Globe | institution | active |  |
+| Red Hat | company | acquired | IBM |
+
+### Technologies Referenced (20)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Client-Server Architecture | framework | industry-wide | growing | active |
+| Relational Database Management System (RDBMS) | platform | multiple (Oracle, Sybase, Informix, others) | growing | active |
+| Unix | platform | multiple (AT&T, Sun, HP, DEC, IBM, SCO) | growing | legacy-supported |
+| Linux | platform | open source / Red Hat | emerging | active |
+| Windows NT | platform | Microsoft | growing | legacy-end-of-life |
+| Data Warehouse | platform | multiple (Teradata, Red Brick, others) | emerging | active |
+| Online Transaction Processing (OLTP) | framework | industry-wide | mature | active |
+| Enterprise Application Integration (EAI) | framework | industry-wide | emerging | legacy-supported |
+| Service-Oriented Architecture (SOA) | framework | industry-wide | emerging | legacy-supported |
+| Spoke-Node-Ring (S-N-R) Architecture | framework | Aberdeen Group | emerging | legacy-end-of-life |
+| x86 Server Architecture | platform | Intel / multiple OEMs | growing | active |
+| RISC Architecture | platform | Sun, DEC, HP, IBM, SGI | mature | legacy-end-of-life |
+| Oracle Database | platform | Oracle | growing | active |
+| Sybase SQL Server | platform | Sybase | growing | legacy-supported |
+| Informix | platform | Informix Corporation | growing | legacy-supported |
+| Thin-Client Computing | platform | multiple (Oracle, Sun, others) | emerging | legacy-end-of-life |
+| Microservices Architecture | framework | industry-wide | emerging | active |
+| Hierarchical Database | platform | IBM (IMS) and others | declining | legacy-end-of-life |
+| SQL (Structured Query Language) | language | ANSI / multiple | growing | active |
+| Data Warehousing | framework | multiple (Teradata, Red Brick, others) | emerging | active |
+
+### Observation Summary
+
+- Total observations: 105
+- By type: personal-recollection: 43, expert-opinion: 33, market-data: 14, viability-prediction: 8, topic-insight: 7

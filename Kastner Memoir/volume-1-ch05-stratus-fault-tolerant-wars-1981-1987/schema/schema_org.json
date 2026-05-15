@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 5: Stratus Computer \u2014 Six Years in the Fault-Tolerant Wars (1981-1987)",
+  "description": "Peter S. Kastner recounts his six years (1981\u20131987) as Manager of Marketing Development at Stratus Computer in Natick, MA, where he helped market a hardware-based fault-tolerant computing architecture competing primarily against Tandem Computers and IBM. The chapter traces key milestones including the IBM OEM deal (branding Stratus FT200 as the IBM System/88), the NORAD Cheyenne Mountain contract, and a telecom market breakthrough sparked by a hallway observation about Rolm PBX systems. Kastner distills enduring marketing lessons about quantifying downtime economics, physical demonstration as proof, and finding non-obvious market angles.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

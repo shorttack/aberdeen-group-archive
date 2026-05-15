@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 1: Waiting for Automation (1960-1969)",
+  "description": "Peter S. Kastner recounts his formative years growing up on Cape Cod running the bookkeeping department of his family's large restaurant, where the labor-intensive paper reconciliation problem planted the seed for a lifelong drive to automate commerce. He traces his path from Cornell University's Hotel School \u2014 where a failed punch-card tabulation experiment and an IBM 360/65 operations job deepened his technical grounding \u2014 through a year at MIT's computing center, where he encountered timesharing, early AI, and the first DEC minicomputers. The chapter closes with his contributions to Robert Chase's hotel-management simulation software at Cornell and his departure for Philip Hankins Inc. in Boston, still in pursuit of the paper problem that had never been solved.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

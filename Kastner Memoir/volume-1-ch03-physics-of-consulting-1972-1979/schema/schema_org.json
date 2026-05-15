@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 3: Eight Years in the Physics of Consulting (1972\u20131979)",
+  "description": "Peter Kastner recounts his eight years (1972\u20131979) at Arthur D. Little (ADL) in Cambridge, where he shifted from machine-level programming at Philip Hankins Inc. to broad-based consulting across banking, healthcare, manufacturing, utilities, and public safety. Through engagements at Chase Manhattan Bank, a Rio de Janeiro hospital, Continental Forest Industries, Wisconsin Electric, Hampton VA Police, Houghton Mifflin, and United Shoe Machinery, he developed a systems-failure taxonomy centered on organizational, political, and financial misalignment rather than purely technical failure. The chapter closes with Kastner\u2019s capitalist awakening: watching the minicomputer revolution invert the economics of computing, he left ADL for Prime Computer, trading a coding pad for a market-shaping role.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

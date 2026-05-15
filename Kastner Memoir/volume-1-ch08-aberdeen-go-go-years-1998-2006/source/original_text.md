@@ -1,0 +1,319 @@
+# Chapter 8: The Go-Go Years — Aberdeen at Scale (1998–2006)
+
+> Archived from: MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 8: The Go-Go Years — Aberdeen at Scale (1998-2006))
+> Original publication date: 2026-05-14
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# Chapter 8: The Go-Go Years — Aberdeen at Scale
+### *(1998–2008)*
+
+---
+
+By late 1998, Aberdeen Group crossed the threshold from partnership into something else entirely.
+
+The venture capital was in. The growth mandate was on. The question was no longer "how do we build a sustainable, profitable research firm?" It was "how fast can we scale, and what does the exit look like?"
+
+Both questions had good answers. The years between 1998 and the October 2006 acquisition by Harte-Hanks were the most professionally expansive and financially consequential of my career. They were also, at times, the most personally exhausting. We built something substantial. We navigated a market catastrophe. We sold at almost the last possible moment before a second catastrophe would have prevented the sale entirely.
+
+---
+
+## The Transformation: From Partnership to Corporation
+
+The venture capital infusion was visible immediately. Office space expanded. Analyst recruiting accelerated. A subscription revenue model was built alongside the advisory practice. The partnership's cooperative revenue-sharing structure — the multi-layered system that had kept us aligned and collaborative for seven years — morphed to market-rate salaries and conventional bonus plans. This was not a failure of design; it was a necessity of scale. You cannot administer complex revenue splits across 100 analysts. You can across 12.
+
+The analyst headcount tells the story cleanly:
+
+- **1997**: ~30 analysts (partnership model)
+- **2000**: ~120 analysts (peak of internet boom)
+- **2001**: ~150 analysts (maximum scale, just before the crash)
+- **2003**: ~40 analysts (post-crash consolidation)
+- **2006**: ~19 analysts (recovered, positioned for exit)
+
+Revenue and net profit tracked the same arc, and the audited numbers — courtesy of Ernst & Young through 2002 and BDO Seidman from 2006 — tell a story that is both more dramatic and more honest than the round-number estimates that circulate in industry lore:
+
+| Year | Revenue | Net Profit/(Loss) |
+|------|--------:|------------------:|
+| 1997 | $7,218,357 | ($132,090) |
+| 1998 | $9,353,282 | ($551,712) |
+| 1999 | $14,103,430 | $732,472 |
+| 2000 | $20,691,445 | $6,140 |
+| 2001 | $14,900,607 | ($3,233,819) |
+| 2002 | $9,380,528 | ($1,340,556) |
+| 2003 | $6,468,691 | ($3,064,707) |
+| 2004 | $5,107,002 | ($2,017,318) |
+| 2005 | $8,652,215 | $868,498 |
+| 2006 (Jan–Aug) | $10,828,756 | $3,971,626 |
+
+*Sources: Ernst & Young (fiscal years 2002–2003); BDO Seidman (2004–2006)*
+
+A few observations on what those numbers actually show.
+
+The peak year was 2000 at $20.7 million in revenue. The partnership era numbers (1997: $7.2M) confirm that the venture capital story was real: revenue grew nearly three-fold from 1997 to 2000. The crash was equally real: from $20.7M in 2000, revenue fell to $5.1M in 2004 — a 75 percent decline over four years. The accumulated net losses from 2001 through 2004 totaled more than $9.6 million.
+
+The recovery was genuine and rapid. Revenue more than doubled from 2004 to 2005 ($5.1M to $8.7M), and the first eight months of 2006 produced $10.8M in revenue at a net profit margin of nearly 37 percent. That profitability profile is what made the acquisition attractive.
+
+The expansion into new coverage domains was real and necessary. Supply chain management. Customer relationship management. Human capital management. Vertical industry analysis in financial services, telecommunications, retail, manufacturing, and healthcare. Aberdeen at scale could cover problems that Aberdeen as a four-partner firm could not.
+
+My own role shifted in the familiar direction: less direct client delivery, more research strategy, analyst development, and competitive positioning of the firm's capabilities. From 2003 to 2006, the Board asked me to step aside while Jamie Bedard created a new business model. I kept Intel as a retainer, and returned in 2006 to drive SOA research. The transition from practitioner to leader — and back again — is a standard arc in professional services. That doesn't make it comfortable either time.
+
+---
+
+## Enhanced Research Practices
+
+Scale enabled methodological investments the partnership could never have funded.
+
+**Benchmark Research Programs.** We developed systematic survey approaches reaching hundreds of enterprises on technology adoption patterns, deployment challenges, and satisfaction metrics. These benchmarks gave clients empirical grounding — not just what we thought they should do, but what their peers were actually doing, with statistical confidence. Aberdeen's benchmark reports became a signature product. CIOs used them to justify budget decisions. Vendors quoted them in sales materials and challenged our assumptions vigorously when the numbers didn't favor them. Either reaction was a sign of credibility.
+
+**Best Practices Frameworks.** When a client's data warehouse deployment succeeded, we captured the architectural decisions, organizational structures, vendor selections, and project management approaches that contributed to success. These became reusable frameworks. This was knowledge management before that term became fashionable — systematic capture and reuse of insights across a larger analyst population that the partnership's informal knowledge-sharing couldn't replicate.
+
+**Total Cost of Ownership Models.** TCO calculators for major technology categories became Aberdeen's most commercially potent tool. A well-built TCO model incorporated hardware, software licensing, implementation services, ongoing maintenance, staff training, and operational overhead over three-to-five year horizons. Clients could model different vendor and architecture choices with realistic projections.
+
+TCO analysis was analytically honest work. The models favored whoever had the most efficient architecture and realistic licensing terms — which changed by category and customer context. Vendors who fared poorly in our models challenged our assumptions. Vendors who fared well quoted us in their sales decks. Both behaviors proved the models were landing.
+
+> **Sidebar: How TCO Modeling Changed Vendor Conversations**
+>
+> Before rigorous TCO models were available, enterprise technology procurement was dominated by upfront hardware and software pricing. Sales teams competed on sticker price. The CIO who paid $2 million for Platform A rather than $3 million for Platform B appeared to have made the smart decision.
+>
+> TCO analysis revealed what the sticker price concealed. A platform that cost $1 million less to license might cost $3 million more to implement, $2 million more to staff, and $1.5 million more to maintain over five years. The "cheaper" option was more expensive by $5.5 million — but that arithmetic was invisible in a conventional procurement process.
+>
+> For enterprises, TCO analysis created a defensible methodology for choosing on five-year economics rather than initial price. For Aberdeen, it positioned our advisory work as quantitatively rigorous rather than qualitatively opinionated. Anyone can have a vendor preference. Very few people can build a credible model showing why.
+>
+> The limitation: TCO models are only as good as their assumptions. We were rigorous about documenting those assumptions and aggressive about making them visible. Vendors who disagreed with a TCO outcome usually disagreed with a specific assumption — and those conversations about assumptions were often more valuable to clients than the final number.
+
+---
+
+## The Internet Bubble: We Knew It, and It Didn't Help
+
+Aberdeen's expansion from 1998 to 2001 coincided with the peak of the internet bubble. Technology spending had disconnected from economic reality. Enterprises invested in e-commerce infrastructure, web platforms, and integration technology with optimistic ROI assumptions that couldn't survive scrutiny. Every internet startup and every enterprise digital initiative needed analyst validation. Research market demand was irrational in the best possible direction for us.
+
+We knew it was unsustainable. The analyst team made dark jokes about which internet business models would survive and which were burning venture capital on pure fiction. Several clients were clearly in the latter category. We told them so when asked directly. Not everyone asked.
+
+Knowing a bubble exists doesn't mean you can time its deflation.
+
+The NASDAQ peaked in March 2000. Revenue peaked the same year at $20.7 million — and then fell off a cliff. By 2001 revenue had dropped to $14.9 million, with a $3.2 million net loss. By 2002, hurt by the 9/11 attack aftermath, it was $9.4 million. By 2004, the trough year, Aberdeen generated just $5.1 million in revenue against a $2 million net loss — a quarter of peak revenue, with accumulated losses piling up.
+
+We cut analyst headcount from approximately 150 in 2001 to roughly 40 by 2003. These were real people — colleagues who had built the firm through the growth years. The decisions were painful and unavoidable.
+
+The downturn clarified what created durable value. Benchmark research based on survey data became less useful when response rates collapsed — companies in survival mode don't have time for analyst surveys. Deep technical advisory work held up but there were fewer analysts
+. Enterprises still needed to solve complex integration, architecture, and vendor selection problems even with constrained budgets. The hard problems don't pause for recessions.
+
+Aberdeen survived better than many competitors because we had maintained profitability through the growth years rather than burning cash to acquire market share. Our balance sheet could absorb revenue decline without existential crisis. Smaller research firms were acquired or shut down. We emerged from the downturn with less competition and a more realistic assessment of sustainable scale.
+
+---
+
+## The Predictions That Defined the Era
+
+Throughout the go-go years I continued publishing analytical frameworks. Several proved directionally correct, with timing caveats.
+
+**SOA as the Next Platform Transition.** By 2000 I was arguing that service-oriented architecture represented the decade's defining architectural shift, comparable to client-server in the 1990s. Applications would decompose into loosely coupled services communicating via standard protocols. The thesis was correct. The timeline was optimistic. The standards (SOAP, WSDL, UDDI) were immature. Organizational discipline to design and govern service interfaces effectively didn't exist yet in most enterprises.
+
+By 2004–2005, SOA had reached peak hype. IBM, Oracle, BEA, Microsoft, and SAP were promoting SOA platforms with full-page trade press campaigns. Many enterprise SOA initiatives delivered disappointing results. By 2008–2010, REST APIs and lightweight service approaches were displacing heavyweight SOAP-based SOA. The architectural principles — loose coupling, service interfaces, message-based integration — were sound. The implementation technology evolved toward simpler forms of the same principles. That is a successful prediction with an imprecise timestamp.
+
+**Open Source Enterprise Adoption.** I predicted early in the 2000s that open source would move from internet infrastructure (Linux, Apache, MySQL) into enterprise applications and middleware. The economic advantages were compelling: no license fees, transparent code for security audit, community-driven innovation. The adoption played out exactly as predicted across 2000–2006, with JBoss, MySQL, PostgreSQL, and eventually full LAMP stacks penetrating enterprise infrastructure.
+
+The resistance was less from technical concerns than from procurement processes. Enterprise IT organizations were accustomed to paying vendors for software and support contracts. Open source required buying support separately, creating procurement complexity. My prediction was correct on trajectory; adoption took most of the decade rather than the 2–3 years I initially projected.
+
+**Data Integration as Perpetual Tax.** I argued consistently that integration complexity would accelerate despite improved integration technologies. Each new application, each acquired company, each data source added to the integration burden. N-squared complexity is a mathematical property, not a solvable engineering problem.
+
+This proved completely accurate. The integration technology market exploded across 2000–2006 with EAI platforms, ETL tools, data quality software, master data management systems, and SOA infrastructure. Despite better tools, integration remained expensive because application proliferation outpaced integration technology improvement. The framing — "data integration as perpetual tax" — resonated with clients experiencing this pain directly. It remains accurate in 2026.
+
+**Consumerization of IT.** By 2004–2005 I was predicting that consumer technology would increasingly influence enterprise IT. Employees accustomed to Google's search elegance, Amazon's e-commerce simplicity, and consumer web application usability would demand similar experiences from enterprise systems. This would challenge traditional enterprise software vendors designed for trained power users, not casual end users.
+
+The thesis explained the rise of Salesforce.com — which offered consumer-grade interfaces and eliminated complex installation — and predicted the coming mobile revolution. Smartphones were still BlackBerry keyboards in 2005, not iPhone touchscreens, but the direction was visible. By 2007–2008, consumerization of IT had become mainstream discussion in CIO circles. Aberdeen's early positioning on this trend provided credibility in advising enterprises on how to respond.
+
+---
+
+## The CEO Transition: Jamie Bedard
+
+Tom Willmott had been effective as the firm's operational leader through the partnership era and early growth phase. By 2003, scaling to 150 employees, managing venture board expectations, and navigating the post-bubble downturn required different capabilities.
+
+Jamie Bedard became Aberdeen's CEO in mid 2002. His leadership priorities were operational excellence, research productization, sales force professionalization, and financial discipline — exactly what the scaled organization needed. The Board asked me to step aside from 2003 to 2006 while Bedard restructured the business model. I returned in 2006 focused on SOA research, contributing to the revenue and profitability recovery visible in the 2005–2006 financials.
+
+Bedard's style was more corporate and less collegial than the partnership era. This created friction with analysts who missed the informal partnership dynamics. It also created stability and predictability the scaled organization genuinely required. My relationship with Bedard was professional and productive. He respected the technical research practice. I provided input on research strategy and major client engagements while Bedard focused on operational management and board relations. The division worked.
+
+> **Sidebar: What "Professional CEO" Transition Really Means**
+>
+> Every founder-led company that takes institutional capital faces a version of this conversation: the founders who built the culture and the business may not be the right people to scale it. This is not a criticism; it is an observation about different skill sets.
+>
+> Aberdeen's founding partners were exceptional at research, client advisory, domain expertise, and the cooperative relationship management that held a partnership together. Those are not the same skills as managing a 150-person organization through a market downturn, reporting to venture investors with quarterly performance expectations, and building a sales force with rigorous pipeline discipline.
+>
+> The Bedard transition was handled professionally by the standards of the industry. Willmott remained involved in a strategic advisory capacity. The founding partners maintained significant equity and leadership roles. The cultural friction was real but manageable.
+>
+> The inevitable tradeoff: institutional professionalism creates discipline and scalability at the cost of the informal energy, personal accountability, and cultural distinctiveness that define early-stage firms. You cannot have both at scale. Every company that succeeds eventually pays this price.
+
+---
+
+## The Harte-Hanks Acquisition
+
+Aberdeen's sale process was an auction, which I think boosted interest and participation. Harte-Hanks, a marketing services and customer relationship management company, approached Aberdeen in early 2006 to participate. 
+
+Their stated thesis: Aberdeen's research capabilities could enhance Harte-Hanks consulting services, and Harte-Hanks' sales force could expand Aberdeen's customer base. Harte-Hanks also owned a database of 4,500 US IT decision-makers that would complement Aberdeen's research distribution with buyer decisions.
+
+The strategic logic was debatable. Aberdeen served CIOs, infrastructure architects, and development managers. Harte-Hanks served CMOs and marketing directors. The customer segments overlapped minimally. Aberdeen's technical research on databases, middleware, and integration architecture had little obvious synergy with Harte-Hanks' direct marketing and customer data services. The business cases were more adjacent than complementary.
+
+But Harte-Hanks was willing to pay a substantial premium. The deal was a multi-tier auction, and they wanted to win. The Aberdeen stakeholders — founders, venture investors, and management — were ready to monetize after sixteen years. Financial logic trumped strategic skepticism.
+
+The acquisition closed in October 2006 at a valuation of $42 million.
+
+A year later, the financial crisis erupted and M&A markets froze. The transaction would not have happened at that valuation — or perhaps at any valuation — had negotiations been twelve months later. Timing is the most important variable in exit transactions, and most of it is luck. We were extraordinarily lucky.
+
+The integration proceeded predictably for an acquisition with weak strategic logic:
+
+- **Cross-selling mandates** attempting to sell Aberdeen research to Harte-Hanks' marketing clients, and vice versa — a mismatch the customer segments never accepted
+- **Content marketing pivot** — Harte-Hanks wanted Aberdeen research repurposed as lead generation content for their consulting services, shifting output from independent analysis toward marketing-oriented content
+- **Analyst retention challenges** — key analysts departed as Aberdeen's culture changed under new ownership
+- **Brand dilution** — by 2010–2012, almost all of Aberdeen's published output was vendor-sponsored survey-based reports, essentially content marketing rather than independent research
+
+I departed in mid 2007 after completing nine SOA studies in nine months. After 18 years building and leading the research practice, the Aberdeen I had co-founded no longer existed in any meaningful sense. The brand persisted. The substance had been absorbed into a different kind of company with different priorities. Today, Aberdeen is part of Ziff-Davis.
+
+---
+
+## What the Go-Go Years Proved
+
+Looking back from nearly two decades, the Aberdeen arc from 1998 to 2006 confirmed several patterns about research firms, market cycles, and institutional growth that apply far beyond the technology research industry.
+
+**Scale enables capabilities but dilutes culture.** The firm could conduct benchmark research, build sophisticated TCO models, and cover more domains at 150 analysts than at 30. The intimate collaboration and technical depth of the partnership era were harder to maintain at scale. The cooperative revenue-sharing model couldn't survive the transition to corporate compensation structures. You gain resources and reach. You pay in cultural distinctiveness.
+
+**Growth capital changes the objective function.** Venture investment enabled expansion but created pressure for revenue growth and eventual exit. The sustainable profitability mindset of the partnership gave way to growth-oriented thinking that culminated in acquisition. The partners and investors made substantial returns. That was not wrong. But it changed what the firm optimized for, which changed what the firm was.
+
+**Market cycles are brutal and non-negotiable.** The 2000–2004 downturn tested every assumption about sustainable growth. Revenue fell 75 percent from peak; accumulated losses exceeded $9.6 million over four years. Firms that had overextended failed. Aberdeen survived — with scars that informed subsequent strategy and a lasting humility about predicting technology adoption timelines.
+
+**Technical depth remains differentiating.** Even as Aberdeen scaled and broadened, the engagements that created the most value were technically deep architecture and implementation advisory projects. Market sizing and trend analysis were commoditizing. Technical problem-solving for complex integration, performance, and architecture challenges retained premium pricing throughout every market cycle.
+
+**Exit timing is mostly luck.** We closed in October 2006 at $42 million. The financial crisis arrived in 2007. Skilled negotiation and careful preparation set up the transaction. Fortune closed it.
+
+The Aberdeen that existed from 1990 to 1997 as a partnership was more culturally distinctive and professionally interesting than the Aberdeen that existed from 1998 to 2006 as a scaled, venture-backed research company. The scaled Aberdeen created far more wealth. These tensions are fundamental to every entrepreneurial venture. There is no obviously correct answer about which path is preferable — only an honest accounting of what each path costs and what it delivers.
+
+We built something significant. We navigated brutal cycles. We maintained technical credibility longer than most firms in our position. And we sold at the last possible moment before the crisis that would have made the sale impossible.
+
+That is a good story, even when told honestly.
+
+---
+
+*Next: Chapter 9 — Expert Witness: Technology on Trial*
+
+
+
+---
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | volume-1-ch08-aberdeen-go-go-years-1998-2006 |
+| title | Chapter 8: The Go-Go Years — Aberdeen at Scale (1998–2006) |
+| author | Peter S. Kastner |
+| date | 2026-05-14 |
+| type | memoir |
+| subject_domain | memoir/volume-1 |
+| methodology | oral-history |
+| source_file | MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 8: The Go-Go Years — Aberdeen at Scale (1998-2006)) |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+Peter S. Kastner chronicles Aberdeen Group's transformation from a boutique partnership into a venture-backed research firm employing up to 150 analysts during the internet boom, and its subsequent collapse and recovery following the dot-com crash. The chapter details audited revenue and profit figures from 1997 to 2006, the firm's methodological evolution (benchmark research, TCO models, best-practices frameworks), key analytical predictions (SOA, open-source enterprise adoption, consumerization of IT), the CEO transition to Jamie Bedard, and the October 2006 acquisition by Harte-Hanks for $42 million just before the financial crisis.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | Provides rare audited financial data for a mid-size technology research firm across a full market cycle (1997–2006), capturing the dot-com boom, crash, and recovery in granular detail. Kastner's firsthand account of scaling, cultural trade-offs, and exit timing offers valuable institutional history. |
+| **Relevance** | high | Directly documents Aberdeen Group's operational and financial history, Kastner's research leadership, and the competitive dynamics of the enterprise technology research industry during a pivotal decade. |
+| **Prescience** | high | Kastner's predictions on SOA as a platform transition, open-source enterprise adoption, data integration as perpetual tax, and consumerization of IT all proved directionally accurate, with modest timing imprecision. His framing of 'data integration as perpetual tax' remains valid as of 2026. |
+
+### Prescience Detail
+
+
+**Prediction 1:** SOA as decade-defining architectural shift prediction
+- **Claimed:** By 2000 Kastner argued SOA represented the decade's defining architectural shift, comparable to client-server in the 1990s; applications would decompose into loosely coupled services.
+- **Year:** 2000
+- **Confidence at time:** high
+
+**Prediction 2:** Open source enterprise adoption prediction
+- **Claimed:** Predicted early 2000s that open source would move from internet infrastructure (Linux, Apache, MySQL) into enterprise applications and middleware.
+- **Year:** 2001
+- **Confidence at time:** high
+
+**Prediction 3:** Data integration as perpetual tax prediction
+- **Claimed:** Integration complexity would accelerate despite improved tools; each new application, acquired company, or data source adds to integration burden (N-squared complexity).
+- **Year:** 2001
+- **Confidence at time:** high
+
+**Prediction 4:** Consumerization of IT prediction
+- **Claimed:** By 2004-2005 predicted consumer technology would increasingly influence enterprise IT; employees would demand consumer-grade UX from enterprise systems.
+- **Year:** 2004
+- **Confidence at time:** high
+
+**Prediction 5:** Mobile revolution prediction from consumerization thesis
+- **Claimed:** Kastner predicted coming mobile revolution; smartphones still BlackBerry keyboards in 2005 but direction was visible; by 2007-2008 consumerization of IT mainstream in CIO circles.
+- **Year:** 2005
+- **Confidence at time:** high
+
+
+### Entities Referenced (18)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Aberdeen Group | firm | acquired | Harte-Hanks (2006); later Ziff-Davis |
+| Peter S. Kastner | person | active |  |
+| Harte-Hanks | company | active |  |
+| Ernst & Young | firm | active |  |
+| BDO Seidman | firm | active |  |
+| Jamie Bedard | person | unknown |  |
+| Tom Willmott | person | unknown |  |
+| Intel | company | active |  |
+| IBM | company | active |  |
+| Oracle | company | active |  |
+| Microsoft | company | active |  |
+| BEA Systems | company | acquired | Oracle (acquired 2008) |
+| SAP | company | active |  |
+| Salesforce.com | company | active |  |
+| JBoss | company | acquired | Red Hat (acquired 2006) |
+| NASDAQ | institution | active |  |
+| Ziff-Davis | company | active |  |
+| Apache Software Foundation | institution | active |  |
+
+### Technologies Referenced (21)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| Service-Oriented Architecture (SOA) | framework | industry-wide | emerging | legacy-supported |
+| SOAP (Simple Object Access Protocol) | protocol | W3C / industry | emerging | legacy-supported |
+| WSDL (Web Services Description Language) | protocol | W3C / industry | emerging | legacy-supported |
+| UDDI (Universal Description, Discovery and Integration) | protocol | OASIS / industry | emerging | legacy-end-of-life |
+| REST APIs | protocol | industry-wide | emerging | active |
+| Linux | platform | open-source community | growing | active |
+| Open Source Software (enterprise adoption) | framework | community | growing | active |
+| MySQL | application | MySQL AB / open-source | growing | active |
+| PostgreSQL | application | open-source community | growing | active |
+| LAMP Stack | framework | open-source community | growing | legacy-supported |
+| Enterprise Application Integration (EAI) | platform | multiple | mature | legacy-supported |
+| Customer Relationship Management (CRM) | application | multiple | growing | active |
+| BlackBerry | platform | Research In Motion | growing | legacy-end-of-life |
+| iPhone | platform | Apple | emerging | active |
+| Total Cost of Ownership (TCO) Modeling | framework | Aberdeen Group | growing | active |
+| Benchmark Research Programs | framework | Aberdeen Group | growing | active |
+| Best Practices Frameworks | framework | Aberdeen Group | growing | active |
+| ETL Tools (Extract, Transform, Load) | application | multiple | mature | active |
+| Master Data Management (MDM) | application | multiple | emerging | active |
+| E-commerce Infrastructure | platform | multiple | growing | active |
+| Web Platform / Internet Infrastructure | platform | multiple | growing | active |
+
+### Observation Summary
+
+- Total observations: 126
+- By type: market-data: 45, expert-opinion: 41, personal-recollection: 27, topic-insight: 8, viability-prediction: 5

@@ -1,9 +1,9 @@
 # Aberdeen Group Archive — Kastner Collection (Extended)
 
-> A 919-study, 17,933-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
+> A 933-study, 19,175-observation Frictionless Data Package archive of Peter S. Kastner's career in technology industry analysis. This extended `llms-full.txt` includes complete abstracts, importance/relevance/prescience ratings, and rationales for the curator-selected highlights and the fifteen high-prescience calls.
 
 **Repository root:** https://github.com/shorttack/aberdeen-group-archive
-**Total studies:** 919   **Total observations:** 17,933
+**Total studies:** 933   **Total observations:** 19,175
 **License:** CC BY 4.0
 
 Each study directory contains a complete Frictionless Data Package (`studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, `codes.csv`, `datapackage.json`, `schema/schema_org.json`, `README.md`, `scripts/demo_analysis.py`, `source/original_text.md`).
@@ -390,13 +390,44 @@ Correctly identified cloud computing, the mobile explosion, SSD adoption, and vi
 
 ## Career Arc & Coverage Breadth
 
-For the meta-narrative of the archive — *why* a single career covers this much ground — see the breadth memoir in **Project Examples**:
+The archive contains two paired memoirs that together cover the *why* of a half-century career.
+
+### Volume 1 — *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence* (2026)
+
+Full-length first-person narrative ingested as 14 chapter-level study packages under [Kastner Memoir/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir). Approximately 32,000 words covering 1960–2026, yielding **1,242 structured observations** (every named person, company, technology, dated event, and analytical judgment in the volume).
+
+- **Path:** [Kastner Memoir/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir)
+- **Type:** memoir (chapter-level Frictionless packages)
+- **Date:** 2026-05-14
+
+**Chapter packages (chronological):**
+
+1. [Introduction: The Physics of the Machine](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-introduction-physics-of-the-machine) — the organizing principle
+2. [Chapter 1: Waiting for Automation (1960–1969)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch01-waiting-for-automation-1960-1969) — Cape Cod restaurant, MIT, pre-computer commerce
+3. [Chapter 2: The Physics of the Machine (1969–1972)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch02-physics-of-the-machine-1969-1972) — PHI Computer Services, Chase Manhattan, IBM 360
+4. [Chapter 3: Eight Years in the Physics of Consulting (1972–1979)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch03-physics-of-consulting-1972-1979) — Arthur D. Little, public-safety / CAD systems
+5. [Chapter 4: Prime Computer (1979–1981)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch04-prime-computer-1979-1981) — market planning, the 1981 product gap vs. DEC VAX, INSLAW/PROMIS
+6. [Chapter 5: Stratus Computer — Six Years in the Fault-Tolerant Wars (1981–1987)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch05-stratus-fault-tolerant-wars-1981-1987) — Stratus vs. Tandem, OLTP, the Stratus/32 architecture
+7. [Chapter 6: Digital Equipment Corporation — The Mainframe's Last Stand (1987–1988)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch06-dec-mainframes-last-stand-1987-1988) — VAX, Debit-Credit, the founding of the TPC
+8. [Chapter 7: Founding Aberdeen Group (1988–1997)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch07-founding-aberdeen-1988-1997) — co-founders, methodology, Bulkeley/Bray press partnership
+9. [Chapter 8: The Go-Go Years — Aberdeen at Scale (1998–2006)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch08-aberdeen-go-go-years-1998-2006) — 150 analysts, 100,000-copy print runs, four major calls (SOA, open source, data-integration tax, consumerization of IT), Harte-Hanks acquisition
+10. [Chapter 9: Expert Witness — Technology on Trial (1992–2015)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch09-expert-witness-technology-on-trial-1992-2015) — IE v. Andersen, Safeway, and other cases
+11. [Chapter 10: The Long View — What Fifty Years of Technology Markets Teach (1966–2026)](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-ch10-the-long-view-1966-2026) — synthesis chapter; named patterns, predictions, lessons
+12. [Epilogue: The Argument with Reality](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-epilogue-argument-with-reality)
+13. [About the Author](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-about-the-author)
+14. [Appendix: Career Timeline](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir/volume-1-appendix-career-timeline)
+
+Each chapter package cross-references the breadth memoir below and its adjacent chapters via observations of type `topic-insight` (see `data/observations.csv`).
+
+### Companion: Quantified Breadth (2026)
+
+For a quantified meta-analysis of *what* the career covers, see the breadth memoir in **Project Examples**:
 
 - **Path:** [Project Examples/kastner-technology-breadth-memoir](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/kastner-technology-breadth-memoir)
 - **Type:** memoir (first-person, ~4,000 words)
 - **Date:** 2026-05-05
 
-**Headline counts** (Kastner-authored + Kastner-quoted corpus, 592 of the archive's 919 studies):
+**Headline counts** (Kastner-authored + Kastner-quoted corpus, 592 of the archive's 933 studies):
 
 - **2,537 distinct technologies** across **4,628 mentions**
 - **479 distinct subject domains**

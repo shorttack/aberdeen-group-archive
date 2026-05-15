@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 4: Prime Computer (1979-1981)",
+  "description": "Peter S. Kastner recounts his two years at Prime Computer (1979\u20131981), covering the company's explosive growth as a minicomputer market leader, its hybrid go-to-market strategy built around the proprietary PRIMOS/INFORMATION platform, and his work in market planning across government and commercial verticals. The chapter traces the arc from Prime's peak stock performance to CEO Ken Fisher\u2019s departure, which Kastner reads as an exit signal, and concludes with the strategic lesson that short-term platform advantages built on proprietary lock-in are ultimately undone when industry economics shift toward open, standardized architectures.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

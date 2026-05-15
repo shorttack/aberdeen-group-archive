@@ -1,11 +1,11 @@
 # Aberdeen Group Archive — Kastner Collection
 
-> A 919-study, 17,933-observation Frictionless Data Package archive of Peter S. Kastner's 50+ year career in technology industry analysis (Prime Computer, Stratus, DEC, Aberdeen Group, Yankee Group, Obian Group, Adoptex). Each study is a self-contained dataset with `studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, and a `datapackage.json` Frictionless descriptor. Built for both human research and machine analysis.
+> A 933-study, 19,175-observation Frictionless Data Package archive of Peter S. Kastner's 50+ year career in technology industry analysis (Prime Computer, Stratus, DEC, Aberdeen Group, Yankee Group, Obian Group, Adoptex). Each study is a self-contained dataset with `studies.csv`, `entities.csv`, `technologies.csv`, `observations.csv`, and a `datapackage.json` Frictionless descriptor. Built for both human research and machine analysis.
 
 The archive is structured for retrieval: every study has provenance, a structured abstract, and ratings for **importance** (historical significance), **relevance** (ongoing applicability), and **prescience** (predictive accuracy as judged from 2025).
 
 - [Repo README](https://github.com/shorttack/aberdeen-group-archive/tree/main/README.md) — full archive overview, key reading paths, employer breakdown
-- [_master_studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_studies.csv) — 919-row master index of every study
+- [_master_studies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_studies.csv) — 933-row master index of every study
 - [_master_entities.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_entities.csv) — deduplicated entity dictionary across the corpus
 - [_master_technologies.csv](https://github.com/shorttack/aberdeen-group-archive/tree/main/_master_technologies.csv) — deduplicated technology dictionary
 - [_MASTER_INDEX.md](https://github.com/shorttack/aberdeen-group-archive/tree/main/_MASTER_INDEX.md) — human-readable index by collection
@@ -44,9 +44,10 @@ Studies in which Kastner's published predictions have been validated by subseque
 
 ## Career Arc & Coverage Breadth
 
-For the meta-narrative of the archive — *why* a single career covers this much ground — see the breadth memoir in **Project Examples**:
+For the meta-narrative of the archive — *why* a single career covers this much ground — the archive contains two paired works:
 
-- [Project Examples / Kastner Technology Breadth Memoir](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/kastner-technology-breadth-memoir) — 2026-05-05 — *Peter S. Kastner (memoir, ~4,000 words)* — Quantified breadth across the Kastner-authored + Kastner-quoted corpus (592 of 919 studies): 2,537 distinct technologies / 4,628 mentions / 479 subject domains spanning 1979 to ~2026, organized into 14 thematic rollups (Personal Computers & OS, Databases, Storage & Hardware, Networking & Internet, Mainframes & Midrange, SOA/BPM/Integration, Unix & Open Systems, Semiconductors & Chips, Security & Reliability, ERP & Enterprise Apps, Outsourcing & Services, Displays & Peripherals, AI/Analytics & Emerging, Programming & Dev Tools), with structured `data/observations.csv` tables for raw category distribution, theme rollup, decade distribution, and vendor leaderboard.
+- [Kastner Memoir / *Arguments with Reality*, Volume 1](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir) — 2026-05-14 — *Peter S. Kastner (memoir, ~32,000 words)* — Full-length first-person narrative: *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence*. Ingested as 14 chapter-level study packages (Introduction + 10 chapters + Epilogue + About + Appendix) covering 1960–2026: Cape Cod paper-sorting origins, MIT, PHI Computer Services / Chase Manhattan, Arthur D. Little, Prime Computer, Stratus and the fault-tolerant wars, DEC and the TPC, founding Aberdeen Group, the Go-Go Years at scale, expert-witness work, and a synthesis chapter on what fifty years of technology markets teach. 1,242 observations covering every named person, company, technology, dated event, and analytical judgment in the volume.
+- [Project Examples / Kastner Technology Breadth Memoir](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples/kastner-technology-breadth-memoir) — 2026-05-05 — *Peter S. Kastner (memoir, ~4,000 words)* — Quantified breadth across the Kastner-authored + Kastner-quoted corpus (592 of 933 studies): 2,537 distinct technologies / 4,628 mentions / 479 subject domains spanning 1979 to ~2026, organized into 14 thematic rollups (Personal Computers & OS, Databases, Storage & Hardware, Networking & Internet, Mainframes & Midrange, SOA/BPM/Integration, Unix & Open Systems, Semiconductors & Chips, Security & Reliability, ERP & Enterprise Apps, Outsourcing & Services, Displays & Peripherals, AI/Analytics & Emerging, Programming & Dev Tools), with structured `data/observations.csv` tables for raw category distribution, theme rollup, decade distribution, and vendor leaderboard.
 
 ## How the Archive is Organized
 
@@ -55,6 +56,7 @@ For the meta-narrative of the archive — *why* a single career covers this much
 - [kastner-author/dct/](https://github.com/shorttack/aberdeen-group-archive/tree/main/kastner-author/dct) — 76 Digital Consumer Technology studies (2002-2003 PC retail price tracking, weekly commentary, RAMP surveys)
 - [other-authors/](https://github.com/shorttack/aberdeen-group-archive/tree/main/other-authors) — 487 Aberdeen Group studies and adjacent industry analyses by other authors
 - [Project Examples/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Project%20Examples) — Selected client-engagement project archives (Maxtor, Sun AS-400, and others) with the full RAMP methodology in action
+- [Kastner Memoir/](https://github.com/shorttack/aberdeen-group-archive/tree/main/Kastner%20Memoir) — Volume 1 of *Arguments with Reality* (2026), split into 14 chapter packages covering 1960–2026 (1,242 observations)
 - [_audits/](https://github.com/shorttack/aberdeen-group-archive/tree/main/_audits) — Migration logs, codes audits, and quality-control reports
 - [_skills/](https://github.com/shorttack/aberdeen-group-archive/tree/main/_skills) — The bundled `archival-ingest` skill and assembler used to build and maintain the archive
 

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 8: The Go-Go Years \u2014 Aberdeen at Scale (1998\u20132006)",
+  "description": "Peter S. Kastner chronicles Aberdeen Group's transformation from a boutique partnership into a venture-backed research firm employing up to 150 analysts during the internet boom, and its subsequent collapse and recovery following the dot-com crash. The chapter details audited revenue and profit figures from 1997 to 2006, the firm's methodological evolution (benchmark research, TCO models, best-practices frameworks), key analytical predictions (SOA, open-source enterprise adoption, consumerization of IT), the CEO transition to Jamie Bedard, and the October 2006 acquisition by Harte-Hanks for $42 million just before the financial crisis.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

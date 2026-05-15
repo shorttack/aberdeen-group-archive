@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About the Author",
+  "description": "This biographical summary introduces Peter S. Kastner as a fifty-year participant in the information technology industry, tracing his path from a Cape Cod restaurant bookkeeping department through MIT, Cornell, and a succession of influential roles at Philip Hankins, Arthur D. Little, Prime Computer, Stratus Computer, Digital Equipment Corporation, and Aberdeen Group. It highlights his role in founding Aberdeen Group, building its research practice to 150 analysts, co-founding the Transaction Processing Performance Council, and maintaining an active expert witness practice in technology disputes.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

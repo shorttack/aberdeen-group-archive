@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Chapter 10: The Long View \u2014 What Fifty Years of Technology Markets Teach (1966-2026)",
+  "description": "In this synthesis chapter spanning 1966 to 2026, Peter Kastner distills fifty years of technology-market observation into seven recurring structural patterns, an honest accounting of his analytical hits and misses, and a forward-looking assessment of generative AI as the latest iteration of the fundamental compute-cost inversion. The chapter traces the arc from a $5-million MIT mainframe to wrist-worn compute, arguing that the machine has never been the hard part\u2014human governance, incentive alignment, and organizational adoption always were. Kastner closes with reflections on building Aberdeen Group and a meditation on what automation liberates humans to do next.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "2026-05-14",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

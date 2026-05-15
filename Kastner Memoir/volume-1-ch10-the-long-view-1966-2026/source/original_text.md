@@ -1,0 +1,331 @@
+# Chapter 10: The Long View — What Fifty Years of Technology Markets Teach (1966-2026)
+
+> Archived from: MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 10: The Long View — What Fifty Years of Technology Markets Teach (1966-2026))
+> Original publication date: 2026-05-14
+> Author: Peter S. Kastner
+
+---
+
+## Original Document Text
+
+# Chapter 10: The Long View — What Fifty Years of Technology Markets Teach
+### *(1966–2026)*
+
+---
+
+In the summer of 1966, I sat at a console in MIT's computer room at two in the morning, teaching myself FORTRAN on a $5 million mainframe that cost $360 an hour to run.
+
+In the spring of 2026, I can access more compute than that mainframe delivered — for essentially nothing — from a device that fits on my wrist and runs on a battery.
+
+That inversion is the most important fact in the history of information technology. Everything else is commentary.
+
+But commentary matters. Fifty years of watching this industry from the inside — as programmer, consultant, marketer, researcher, expert witness, and co-founder — produces a set of observations that I did not expect to be making when I started, and that I think remain useful to anyone navigating what comes next.
+
+---
+
+## The Inversion That Keeps Inverting
+
+The $360/hour CPU of 1969 defined an entire economic culture. The machine was scarce and expensive. Human labor was abundant and cheap. Every technique I learned in those early years — JCL optimization, one-instruction switches, microsecond-level efficiency — was a response to that economics. The machine was a god that had to be fed with absolute efficiency. You did not "run" a program; you submitted it like a prayer.
+
+The inversion of that equation happened gradually and then all at once (like bankruptcy. By the time I left PHI in 1972, minicomputers were democratizing access. By the time I joined Prime in 1979, compute was escaping the glass house. By the time I left Stratus in 1987, the x86 architecture was preparing to displace everything that had come before it. By the time Aberdeen was founded in 1988, the question was no longer whether proprietary platforms were doomed but how soon.
+
+The inversion is still happening. Generative AI in 2026 is doing to knowledge work what the minicomputer did to batch processing in the 1970s: making a previously scarce resource suddenly abundant, cheaply accessible, and disruptive to every business model built on the assumption of scarcity. The impact is on workers, positive and negative.
+
+The 12-year-old sorting 10,000 pieces of paper on Cape Cod would not be surprised. He always knew the machine would eventually handle the paper. What might surprise him is how long it took, and how many intermediate layers of partial automation preceded the full solution.
+
+---
+
+## Seven Patterns That Repeat
+
+Fifty years of observation produces pattern recognition. Technology markets follow a small number of structural dynamics that recur across platforms, cycles, and decades. Here are the seven I consider most reliable.
+
+**1. The economic winner displaces the technical winner.**
+
+Every major platform transition in the period covered by this memoir was driven primarily by economics, not by superior engineering. The mainframe was not technically obsolete when minicomputers displaced it; it was economically uncompetitive for departmental workloads. The minicomputer was not technically obsolete when x86 servers displaced it; it was economically uncompetitive compared to commodity hardware manufactured at scale. Unix was not technically inferior to Linux; Linux won on licensing economics and community development.
+
+The implication for technology strategists: technical superiority is a necessary but not sufficient condition for market leadership. The sufficient condition is technical adequacy combined with economic advantage. When a good-enough alternative becomes dramatically cheaper, the superior alternative loses. Every time.
+
+**2. Proprietary platforms fund their own replacement.**
+
+The pattern is consistent across every cycle I observed. A proprietary platform achieves market leadership through genuine innovation and tight integration. It captures high margins. Those high margins attract competitors who build open alternatives using commodity components. The commodity alternatives are initially inferior but improve rapidly because they benefit from the entire industry's engineering investment rather than one vendor's. The proprietary platform's margin advantage funds the research and development of the open alternative that eventually displaces it.
+
+IBM funded the research that produced Unix. Proprietary minicomputer margins funded the x86 development that displaced minicomputers. The Internet boom funded the cloud infrastructure that commoditized enterprise servers. This pattern is so reliable that a new proprietary platform's success contains the seeds of its eventual displacement.
+
+**3. Adoption timelines are always longer than technologists predict.**
+
+In my experience across forty years of making and evaluating technology predictions, I cannot think of a single case where a correct architectural prediction came true on the timeline originally projected. SOA: directionally right, five years early. Open source enterprise adoption: directionally right, three years early. Web as application platform: directionally right, two years early. Consumerization of IT: directionally right, two years early.
+
+The consistent mistake is underestimating the organizational friction that slows technology adoption. Technology transitions require not just technical capability but organizational competency, risk tolerance, procurement process adaptation, skills development, and executive conviction. All of these move more slowly than engineering capability.
+
+The practical implication: if you are correct about a technology direction, start positioning three years before you expect mainstream adoption. If you wait until the direction is obvious, the opportunity has passed.
+
+Informed Observation: AI adoption across large and small enterprises is much more a 2030s story than a 2020s story.
+
+**4. The integration problem is permanent.**
+
+Every architectural improvement creates new integration complexity. This is not a solvable problem; it is a structural property of technology ecosystems that grow through proliferation rather than replacement.
+
+In the early 1990s I described this as the "integration tax" — a permanent overhead cost that enterprises pay regardless of how good their individual components become. The N-squared complexity of point-to-point integrations was visible and predictable in 1992. The development of EAI platforms, SOA, APIs, and microservices all addressed the integration problem without eliminating it. Each new integration architecture enabled a new generation of application proliferation that created a new generation of integration complexity.
+
+The enterprises that fared best treated integration architecture as first-class infrastructure from the beginning. The enterprises that paid the highest integration tax were those that treated it as an afterthought — a problem to be solved after the interesting architecture decisions had already been made.
+
+In 2026, as enterprises integrate AI inference engines with operational systems, the integration tax is being collected again on a new layer. The pattern is unchanged.
+
+**5. Data advantage compounds.**
+
+The thesis I argued at Aberdeen in the early 1990s — that data was becoming a competitive asset, not merely an operational record — has proven more important than even its most enthusiastic advocates expected.
+
+The compounding effect operates at two levels. At the business level, organizations that invest early in data infrastructure have better analytical capabilities, which produce better decisions, which produce better outcomes, which generate more data to analyze. The advantage is self-reinforcing. Organizations that defer data infrastructure investment find themselves in a permanent catch-up position.
+
+At the technology level, AI/ML systems improve with more data. The organizations that built large, well-governed data assets through the 1990s and 2000s are the same organizations most effectively deploying large language models and AI inference systems today. The data investments made for business intelligence thirty years ago are foundational assets for AI capability today. No one planned it that way. But the architecture was right.
+
+The Kastner IT research archive would not be possible, nor the bulk of the facts in this memoir, if I had not started saving copies of my digital files, including press quotes. Data is only permanent if you have multiple copies in multiple physical and accessible locations. 
+
+**6. The failure mode is almost never technical.**
+
+In fifty years of watching technology projects succeed and fail — as consultant, advisor, and expert witness — I can count on one hand the projects that failed because of genuinely unsolvable technical problems. The overwhelming majority of failures involved some combination of: governance misalignment between client and vendor, scope that was never adequately defined, requirements that changed faster than the project could accommodate, executive pressure that overrode technical judgment at critical moments, and organizational resistance to the change that the technology required.
+
+This observation is not a criticism of the technical professionals involved. It is a structural observation about complex systems that involve both technical and human components. The technical components can be specified, tested, and verified. The human components — politics, incentives, communication failures, misaligned expectations — are significantly harder to manage and much more likely to be the source of catastrophic failure.
+
+The best technology architects I have known were also skilled organizational diagnosticians. They could look at a client organization and identify the political and governance constraints that would determine whether a technically sound architecture could actually be implemented. That judgment — understanding the human system that the technical system had to operate within — was the differentiating capability.
+
+**7. The machine was never the hard part.**
+
+This is the conclusion that the Cape Cod bookkeeping department, MIT, PHI, ADL, Prime, Stratus, DEC, Aberdeen, and twenty years of expert witness work all produced, from different angles.
+
+Technology problems are tractable. Given sufficient engineering talent, time, and capital, virtually any technical challenge can be addressed. The problems that resisted solution — the integration challenges, the governance failures, the adoption delays, the organizational resistance — were human problems that required human solutions. Alignment of incentives. Clarity of communication. Organizational culture that supported rather than resisted change.
+
+The machine does what it is told, precisely and relentlessly. The hard part is knowing what to tell it.
+
+---
+
+## On Artificial Intelligence: The View from 2026
+
+I have watched the AI field from its inception. MIT in 1966 was alive with the energy of early AI research — LISP, ELIZA, Project MAC, researchers working on the foundations of machine learning and knowledge representation. My roommate worked around the corner from where Marvin Minsky was building the frameworks that defined the field for a generation.
+
+That early AI required explicit knowledge representation: human experts encoding their understanding into rules, frames, and logical structures that machines could reason with. The fundamental limitation was that human knowledge is mostly tacit — we know far more than we can articulate. The expert systems of the 1980s encoded what experts could say, not what they actually knew.
+
+The transformer architecture that enabled the current generation of large language models solved that problem through a different approach: instead of encoding knowledge, train a model on enough examples of human knowledge in use that the patterns emerge implicitly. The model does not know that water boils at 100°C because a rule was encoded; it knows it because it has processed millions of documents in which that fact appears in context.
+
+> **Sidebar: From ELIZA to GPT — Six Decades of AI Development**
+>
+> **1966 — ELIZA** (MIT, Joseph Weizenbaum): The first chatbot, demonstrating that a program following simple pattern-matching rules could simulate conversation convincingly enough to fool users who knew it was a program. ELIZA worked by reflecting the user's own statements back as questions. It had no understanding of language; it had rules for manipulation of text. The Turing Test implications were unsettling.
+>
+> **1980s — Expert Systems**: Rule-based AI using explicit knowledge encoded by human experts. MYCIN (medical diagnosis), XCON (computer configuration), and hundreds of commercial systems. Commercially significant but limited by the knowledge acquisition bottleneck: encoding human expertise was slow, expensive, and produced brittle systems that failed outside their narrow design domain.
+>
+> **1990s — Machine Learning**: Statistical approaches that learned patterns from data rather than relying on explicit rules. Decision trees, neural networks, support vector machines. Required labeled training data and worked on specific well-defined tasks. The transition from rules to statistics.
+>
+> **2000s–2010s — Deep Learning**: Multi-layer neural networks trained on large datasets, enabled by GPU computing and large digital datasets. Image recognition, speech recognition, recommendation systems. AlexNet in 2012 demonstrated that deep learning could outperform human-engineered features on image classification.
+>
+> **2017 — Transformer Architecture**: "Attention is All You Need" (Vaswani et al., Google). Self-attention mechanisms that could process entire sequences in parallel rather than sequentially. This architectural innovation enabled training on vastly larger datasets efficiently.
+>
+> **2020–2026 — Large Language Models**: GPT series (OpenAI), Claude (Anthropic), Gemini (Google), and others. Trained on internet-scale text data. Demonstrate emergent capabilities — skills not explicitly trained — at sufficient scale. The first AI systems that feel qualitatively different from previous generations because they handle ambiguity, context, and implicit knowledge in ways that earlier systems could not.
+>
+> The thread from ELIZA to GPT-4 is six decades of compounding progress. Each generation solved problems the previous generation could not, while introducing new limitations and failure modes that the next generation would address.
+
+What makes the current AI generation genuinely different from previous ones — and I say this as someone who has heard "this time is different" many times — is the combination of language fluency with broad knowledge and reasoning capability. Previous AI systems were narrow: excellent at specific tasks, useless at everything else. Large language models are broad: capable enough across a wide range of knowledge-work tasks to be genuinely useful as general-purpose cognitive tools.
+
+That breadth is what changes the economics. A narrow AI system automates one task. A broad AI system augments one worker across many tasks. The economic calculus is different in kind, not just in degree.
+
+The inversion this creates is precisely the 1969 inversion in reverse. In 1969: machine scarce and expensive, human labor abundant and cheap. In 2026: machine inference abundant and cheap, human judgment and creativity the scarce resource. The jobs that resist automation are not the jobs that require the most education or the most physical skill — they are the jobs that require the most contextual judgment, the most relationship management, the most ability to navigate ambiguous situations with incomplete information, the judgement.
+
+---
+
+## What I Got Right, and What I Missed
+
+Honest accounting requires both columns.
+
+**Got right:**
+
+The open systems transition. The dominance of RDBMS for operational systems. The compounding value of data. The permanence of the integration problem. The pattern of proprietary platforms funding their own displacement. The consumerization of IT. The broad trajectory of AI from narrow tools toward general-purpose cognitive capability.
+
+**Missed, or got the timing badly wrong:**
+
+Object databases. The Linux path to Unix dominance (right destination, wrong mechanism). The speed of web transformation into full application platform. The emergence of public cloud as the dominant enterprise infrastructure model — I understood that compute was commoditizing but did not fully anticipate the degree to which infrastructure would migrate to shared utility services managed by Amazon, Microsoft, and Google rather than to enterprise-owned commodity hardware--or fail to come from established vendors like Dell, HP and IBM.
+
+Most significantly: I underestimated how thoroughly the smartphone would transform enterprise IT. The consumerization thesis was correct, but I thought of it primarily in terms of user interface expectations migrating from consumer applications to enterprise applications. The deeper effect was that a billion people carrying always-connected computers in their pockets changed what enterprise applications needed to do, not just how they needed to look. The architecture implications of mobile-first, not just mobile-compatible, were larger than I recognized in 2005. The transactions-per-second numbers this decade are mind-boggling.
+
+**The systematic bias:**
+
+All of these misses share a common structure. I correctly identified the direction of change but underestimated the speed and completeness of the transition. Analysts who understand technology deeply tend to be conservative about adoption timelines because they understand the organizational friction in detail. The organizations that made the most money in technology transitions were often the ones that bet more aggressively on the direction being right than the detailed analysis of friction suggested was rational.
+
+That is a permanent tension in technology analysis. The technically sophisticated analyst who understands why transitions are slow is often right about the friction and wrong about the endpoint. The analyst who ignores the friction and calls the direction boldly is often right about the endpoint and wrong about the timeline. The best prediction is the combination: confident direction with realistic timeline. It is harder to produce and easier to claim in retrospect than it appears.
+
+---
+
+## On Building Research Firms
+
+The Aberdeen experience produced a set of observations about building specialized research and advisory practices that I think have lasting relevance.
+
+**Specialization creates more defensible value than breadth.** The firms that maintained premium pricing across technology cycles were the ones with genuine depth in specific domains. Breadth is easier to approximate; depth requires investment and time that cannot be easily replicated.
+
+**Cooperative economics prevent the fragmentation that kills most partnerships.** Firms built on eat-what-you-kill models fragment when successful rainmakers conclude they would earn more independently. The multi-layer revenue sharing model Aberdeen used was complex to administer but created genuine interdependency. Partners had financial incentive to help each other succeed, not just to succeed individually.
+
+**Technical credibility opens different doors.** The engagements that created the most value — and generated the most referrals — were the ones where Aberdeen's technical depth allowed conversations that market-analysis firms could not have. An analyst who can look at a production database configuration and identify specific performance problems commands different pricing than an analyst who can describe market trends. Both are valuable; only one is scarce.
+
+**The culture is set in the first three years.** Everything Aberdeen was and was not after 1997 traces back to what the founding partnership established between 1990 and 1993. The hiring profile, the publishing model, the technical depth standard, the cooperative revenue model — these became self-reinforcing once established. Culture change after scale is orders of magnitude harder than culture formation before scale.
+
+**Free research as marketing is not an insight that depreciates.** The Aberdeen publishing model anticipated content marketing by fifteen years. The underlying principle — that demonstrating expertise before the sales conversation produces better clients and better outcomes than cold selling — has only become more important as buyers have more access to information and more resistance to traditional sales approaches. The mechanism for distributing research has changed entirely (from direct mail and early websites to search, social, and AI-mediated discovery). The principle has not.
+
+---
+
+## The Question the 12-Year-Old Was Asking
+
+I began with a 12-year-old sorting 10,000 pieces of paper on Cape Cod, convinced that machines should handle this work so that people could do something better with their time.
+
+The question was correct. The timeline was longer than he expected. The path was more indirect than anyone could have anticipated. The answer arrived in stages: punch-card tabulation, batch processing, online transaction processing, relational databases, client-server architecture, the web, mobile computing, cloud infrastructure, and now AI inference that can read, write, summarize, and reason at a level that would have been miraculous to the researchers at MIT in 1966.
+
+The Federal Reserve Bank that employed half a million people to sort checks every night in 1960 employs a small fraction of that number today, for a vastly larger volume of transactions. The restaurant bookkeeping department that required three people working through the summer season to reconcile 10,000 pieces of paper can be automated by a POS system running on a tablet that fits in a hostess stand.
+
+The paper has been handled. The machine did it.
+
+What the 12-year-old did not anticipate was that handling the paper would not be the final answer. Once the machine handled the routine work, the question immediately became: what should humans do with the time and capability that automation freed? That question turns out to be harder than the automation question. It requires judgment, values, social structures, and economic arrangements that technology alone cannot provide.
+
+In 2026, AI inference is handling the next layer of paper — the summarization, the pattern recognition, the first-draft generation, the routine analysis that knowledge workers have spent decades performing. The question is the same one the 12-year-old was asking, at a higher level of abstraction: now that the machine handles this, what should we do with the time?
+
+That question does not have a technical answer. It never did.
+
+---
+##A Final Observation on the Industry I Loved
+The information technology industry between 1966 and 2026 created more economic value, more social transformation, and more genuine improvement in everyday human capability than any other industry I can think of over a comparable sixty-year span. It also created immense waste, broken promises, vendor lock-in, failed projects, security failures, privacy violations, and disruptions imposed on millions of people who had no say in the technical decisions that reshaped their lives. Both things are true. Neither cancels the other.
+
+The people inside this industry — engineers, marketers, researchers, executives, and customers willing to bet their institutions on systems not yet fully proven — worked with incomplete information, real disagreement, and more optimism than the evidence at any given moment strictly justified. Most of the time, that optimism was warranted. Sometimes it was not. But the balance was sufficient to build the industry as it exists: imperfect, consequential, inventive, and still accelerating.
+
+I was fortunate to spend fifty years inside that machine, and more fortunate still to see it from several vantage points as the industry changed shape. I saw it from the machine room, the consulting engagement, the product war room, the executive suite, and the analyst firm. The privilege was not separate from the work. It was the work: to understand what was changing, why it was changing, and what those changes would demand of the organizations trying to live inside it.
+
+If this book has an argument, it is that the machine has never been only the hardware, the software, or even the network. The machine is the whole system: the code, the economics, the institutions, the incentives, the ambitions, and the human beings who must make it work. To spend a life inside the machine is to learn that progress is real, waste is real, and wisdom lies in telling the difference.
+
+*Epilogue follows.*
+
+
+
+---
+
+
+
+
+---
+
+## Frictionless Data Package Metadata
+
+> Auto-generated by Archival Ingest Skill v16
+
+### Study Record
+
+| Field | Value |
+|-------|-------|
+| study_id | volume-1-ch10-the-long-view-1966-2026 |
+| title | Chapter 10: The Long View — What Fifty Years of Technology Markets Teach (1966-2026) |
+| author | Peter S. Kastner |
+| date | 2026-05-14 |
+| type | memoir |
+| subject_domain | memoir/volume-1 |
+| methodology | oral-history |
+| source_file | MASTER-EBOOK-ASSEMBLED-v4.md (Chapter 10: The Long View — What Fifty Years of Technology Markets Teach (1966-2026)) |
+| license | CC-BY-4.0 |
+
+### Abstract
+
+In this synthesis chapter spanning 1966 to 2026, Peter Kastner distills fifty years of technology-market observation into seven recurring structural patterns, an honest accounting of his analytical hits and misses, and a forward-looking assessment of generative AI as the latest iteration of the fundamental compute-cost inversion. The chapter traces the arc from a $5-million MIT mainframe to wrist-worn compute, arguing that the machine has never been the hard part—human governance, incentive alignment, and organizational adoption always were. Kastner closes with reflections on building Aberdeen Group and a meditation on what automation liberates humans to do next.
+
+### Document Assessment
+
+| Dimension | Rating | Rationale |
+|-----------|--------|-----------|
+| **Importance** | high | This is the capstone synthesis chapter of the memoir, distilling fifty years of first-hand technology-industry observation into durable frameworks and explicit predictions. It constitutes Kastner's most concentrated statement of analytical philosophy. |
+| **Relevance** | high | The seven named patterns, AI timeline assessment, self-critique of analytical biases, and research-firm lessons are directly applicable to technology strategists, investors, and policy-makers navigating the current AI transition. |
+| **Prescience** | high | Kastner's data-advantage compounding thesis (argued at Aberdeen in the early 1990s), the permanence-of-integration-tax insight, and the 2026 prediction that broad AI adoption is primarily a 2030s story demonstrate a sustained record of directionally correct long-horizon forecasting. |
+
+### Prescience Detail
+
+
+**Prediction 1:** AI enterprise adoption timeline
+- **Claimed:** AI adoption across large and small enterprises is much more a 2030s story than a 2020s story.
+- **Year:** 2026
+- **Confidence at time:** high
+
+**Prediction 2:** LLMs as first genuinely broad general-purpose cognitive tools
+- **Claimed:** LLMs are the first AI systems capable enough across wide range of knowledge-work tasks to be genuinely useful as general-purpose cognitive tools — not just narrow automation.
+- **Year:** 2026
+- **Confidence at time:** high
+
+**Prediction 3:** Generative AI impact on knowledge workers: positive and negative
+- **Claimed:** The impact of generative AI on workers is positive and negative — the same pattern as prior compute-democratization waves.
+- **Year:** 2026
+- **Confidence at time:** high
+
+**Prediction 4:** AI as next inversion: inference abundant, judgment scarce
+- **Claimed:** The same economic inversion that replaced expensive scarce compute with cheap abundant compute is now replacing expensive knowledge-work tasks with cheap AI inference, making human contextual judgment the new scarce resource.
+- **Year:** 2026
+- **Confidence at time:** high
+
+**Prediction 5:** Breadth of LLMs is genuinely different this time
+- **Claimed:** This time is different: previous 'different' claims referred to narrow AI. LLM breadth across many knowledge-work tasks is qualitatively new.
+- **Year:** 2026
+- **Confidence at time:** high
+
+
+### Entities Referenced (19)
+
+| Entity | Type | Status | Successor |
+|--------|------|--------|-----------|
+| Peter S. Kastner | person | active |  |
+| MIT | institution | active |  |
+| PHI Computer Services | company | unknown |  |
+| Prime Computer | company | acquired |  |
+| Stratus Computer | company | active |  |
+| DEC (Digital Equipment Corporation) | company | acquired | Compaq / HP |
+| Aberdeen Group | firm | acquired |  |
+| Arthur D. Little | firm | active |  |
+| IBM | company | active |  |
+| Amazon Web Services | company | active |  |
+| Microsoft | company | active |  |
+| Google | company | active |  |
+| OpenAI | company | active |  |
+| Anthropic | company | active |  |
+| Dell | company | active |  |
+| Hewlett-Packard | company | active |  |
+| Federal Reserve Bank | institution | active |  |
+| Marvin Minsky | person | unknown |  |
+| Joseph Weizenbaum | person | unknown |  |
+
+### Technologies Referenced (31)
+
+| Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
+|------------|----------|--------|---------------------|---------------------|
+| FORTRAN | language | IBM / community | mature | legacy-supported |
+| IBM Mainframe | platform | IBM | mature | legacy-supported |
+| Mainframe Computing | platform | multiple | mature | legacy-supported |
+| Minicomputer | platform | multiple (DEC, Prime, Data General, etc.) | declining | legacy-end-of-life |
+| x86 Architecture | platform | Intel | growing | active |
+| Unix | platform | AT&T / community | mature | legacy-supported |
+| Linux | platform | open source community | growing | active |
+| Relational Database Management System (RDBMS) | platform | multiple | growing | active |
+| Enterprise Application Integration (EAI) | framework | multiple | growing | legacy-supported |
+| Service-Oriented Architecture (SOA) | framework | multiple | growing | legacy-supported |
+| APIs / Microservices | framework | multiple | emerging | active |
+| Public Cloud Computing | platform | Amazon, Microsoft, Google | growing | active |
+| ELIZA | application | MIT (Joseph Weizenbaum) | legacy | legacy-end-of-life |
+| Expert Systems | application | multiple | declining | legacy-end-of-life |
+| MYCIN | application | Stanford University | legacy | legacy-end-of-life |
+| XCON | application | DEC / Carnegie Mellon | legacy | legacy-end-of-life |
+| LISP | language | MIT / community | mature | legacy-supported |
+| Project MAC | platform | MIT | legacy | legacy-end-of-life |
+| Machine Learning (Statistical) | framework | academic / multiple | growing | active |
+| Deep Learning | framework | academic / multiple | growing | active |
+| AlexNet | framework | University of Toronto (Krizhevsky, Sutskever, Hinton) | legacy | legacy-end-of-life |
+| Transformer Architecture | framework | Google (Vaswani et al.) | emerging | active |
+| Large Language Models (LLMs) | platform | OpenAI, Anthropic, Google | emerging | active |
+| GPT Series | application | OpenAI | emerging | active |
+| Generative AI | platform | multiple | emerging | active |
+| Client-Server Architecture | framework | multiple | mature | legacy-supported |
+| Online Transaction Processing (OLTP) | platform | multiple | mature | active |
+| Smartphone | platform | multiple (Apple, Samsung, etc.) | growing | active |
+| Point-of-Sale (POS) Systems | application | multiple | mature | active |
+| Web as Application Platform | platform | multiple | growing | active |
+| Punch-Card Tabulation | platform | IBM / multiple | declining | legacy-end-of-life |
+
+### Observation Summary
+
+- Total observations: 137
+- By type: topic-insight: 70, expert-opinion: 44, personal-recollection: 11, market-data: 7, viability-prediction: 5

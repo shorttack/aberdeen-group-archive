@@ -160,7 +160,7 @@ Ryan Kelly of SPI Research recounts how Dave Hofferberth, then a senior analyst 
 | Gartner, Inc. | company | active |  |
 | Service Performance Insight (SPI Research) | company | active |  |
 | Ryan Kelly | person | active |  |
-| Ted Kempf | person | [DEFERRED] |  |
+| Ted Kempf | person | unknown |  |
 | Lawson Software | company | dissolved | acquired by Infor 2012 |
 
 ### Technologies Referenced (4)

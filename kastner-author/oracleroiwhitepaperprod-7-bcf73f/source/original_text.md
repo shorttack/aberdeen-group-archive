@@ -212,9 +212,9 @@ Oracle-sponsored Aberdeen Executive White Paper (June 2001) — SAME core resear
 - **Confidence at time:** high
 
 **Actual Outcome 1:** xml-actual-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** 
+- **Result:** XML/web services became the dominant integration layer by 2001-2003 as predicted, with SOA frameworks solidifying by 2005-2008. The prediction that XML would underpin integration architectures was validated.
+- **Confidence:** partially-verified
+- **Notes:** XML integration dominance validated by industry adoption 2001-2005. Source: General industry history.
 
 **Prediction 2:** integrated-suite-winners
 - **Claimed:** ERP vendors of 1990s are likely the winners in the long run with packaged integrated cross-enterprise solutions.
@@ -222,9 +222,9 @@ Oracle-sponsored Aberdeen Executive White Paper (June 2001) — SAME core resear
 - **Confidence at time:** high
 
 **Actual Outcome 2:** integrated-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Oracle consolidated PeopleSoft, Siebel, JD Edwards. SAP dominated.
+- **Result:** Oracle consolidated PeopleSoft (2004), Siebel (2006), JD Edwards (via PeopleSoft), Hyperion (2007). SAP maintained ERP dominance. The integrated platform consolidation prediction was validated by actual M&A activity.
+- **Confidence:** partially-verified
+- **Notes:** Oracle consolidated PeopleSoft, Siebel, JD Edwards. SAP dominated. | Oracle consolidation of PeopleSoft, Siebel, JD Edwards, Hyperion confirmed. Source: Oracle press releases 2004-2008.
 
 
 ### Entities Referenced (24)

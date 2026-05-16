@@ -122,9 +122,9 @@ Intel Analyst Relations personalized schedule prepared by Liz Ryon for Peter Kas
 - **Confidence at time:** high
 
 **Actual Outcome 1:** yonah-shipped
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Verify Core Duo launch date and reception.
+- **Result:** Intel Core Duo (Yonah) launched January 5, 2006 at CES, approximately on schedule for the 'fall 2005 IDF' prediction window (announced at IDF, shipped Q1 2006). Intel officially launched Core Duo T2500 and related processors in January 2006.
+- **Confidence:** partially-verified
+- **Notes:** Verify Core Duo launch date and reception. | Yonah/Core Duo shipped January 2006, slightly after the 2005 target year but within the expected IDF-to-market timeframe. Source: https://appleinsider.com/articles/06/01/06/intel_rolls_out_viiv_technology_dual_core_laptop_processors; https://technical.city/en/cpu/Core-Duo-T2500
 
 
 ### Entities Referenced (18)

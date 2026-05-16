@@ -1,0 +1,952 @@
+{
+  "entities": {
+    "chet-verceglio": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group partner/director; current status not publicly verifiable"
+    },
+    "margie-koenig": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group staff; current status not publicly verifiable"
+    },
+    "kathleen-roche": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group staff; current status not publicly verifiable"
+    },
+    "john-r-logan": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group partner; current status not publicly verifiable"
+    },
+    "tom-h-willmott": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group partner; current status not publicly verifiable"
+    },
+    "alschuler-aberdeen": {
+      "status": "defunct",
+      "successor": "Aberdeen Group (acquired by Harte-Hanks 2006, then Halyard Capital 2015, then Spiceworks Ziff Davis 2020)",
+      "source": "Internal Aberdeen practice division; dissolved when Aberdeen was acquired. https://www.mrweb.com/drno/news5946.htm"
+    },
+    "liz-alschuler": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group e-Business practice head; current status not publicly verifiable"
+    },
+    "hurley-security-aberdeen": {
+      "status": "defunct",
+      "successor": "Aberdeen Group (acquired by Harte-Hanks 2006)",
+      "source": "Internal Aberdeen practice division; dissolved when Aberdeen was acquired. https://www.mrweb.com/drno/news5946.htm"
+    },
+    "jim-hurley": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group security practice head; current status not publicly verifiable"
+    },
+    "aberdeen-pes-practice": {
+      "status": "defunct",
+      "successor": "Aberdeen Group (acquired by Harte-Hanks 2006)",
+      "source": "Internal Aberdeen PES practice division; dissolved when Aberdeen was acquired. https://www.mrweb.com/drno/news5946.htm"
+    },
+    "eti-content": {
+      "status": "defunct",
+      "successor": "Aberdeen Group (acquired by Harte-Hanks 2006)",
+      "source": "Internal Aberdeen ETI content/publications division; dissolved when Aberdeen was acquired. https://www.mrweb.com/drno/news5946.htm"
+    },
+    "logiclibrary": {
+      "status": "acquired",
+      "successor": "Serena Software (2006), then Micro Focus (2016)",
+      "source": "LogicLibrary acquired by Serena Software in 2006 for component asset management technology. https://en.wikipedia.org/wiki/Serena_Software; https://www.prnewswire.com/news-releases/micro-focus-completes-acquisition-of-serena-software-inc-300260954.html"
+    },
+    "xml-global-technologies": {
+      "status": "defunct",
+      "successor": "",
+      "source": "XML Global Technologies filed 10-K as small XML e-business infrastructure company circa 2001; no evidence of survival past dot-com bust. https://www.sec.gov/Archives/edgar/data/1048501/000101103401500093/xml-10k.htm"
+    },
+    "critical-path-inc": {
+      "status": "acquired",
+      "successor": "Openwave Messaging (2013)",
+      "source": "Critical Path Inc. (messaging services) acquired by Openwave Messaging in 2013. https://www.marlinequity.com/news/marlin-portfolio-company-openwave-messaging-acquires-critical-path/; https://en.wikipedia.org/wiki/Critical_Path,_Inc."
+    },
+    "boldfish": {
+      "status": "defunct",
+      "successor": "",
+      "source": "BoldFish was a 2001-era bulk-email startup; no evidence of survival post-dot-com bust. Not publicly traceable after 2001-2002."
+    },
+    "link-software": {
+      "status": "unknown",
+      "successor": "",
+      "source": "European developer entering US market in 2001; small company, no public record of acquisition or current status found."
+    },
+    "axiom8": {
+      "status": "defunct",
+      "successor": "",
+      "source": "Axiom8 was a venture-backed unified communications startup from 2000; no evidence of survival; likely failed during dot-com bust."
+    },
+    "vitria-technology": {
+      "status": "active",
+      "successor": "",
+      "source": "Vitria Technology remains active as of 2025, with press releases about new products. https://vitria.com/company-news/; https://www.prnewswire.com/news-releases/the-missing-link-to-autonomous-operations-vitria-introduces-self-evolving-knowledge-plane-302735473.html"
+    },
+    "ted-kempf": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Gartner Principal Research Analyst; current status not publicly verifiable"
+    },
+    "aberdeen-group": {
+      "status": "acquired",
+      "successor": "Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020)",
+      "source": "Aberdeen Group acquired by Harte-Hanks in September 2006, then sold to Halyard Capital in April 2015, then acquired by Spiceworks Ziff Davis in December 2020. https://www.mrweb.com/drno/news5946.htm; https://www.pehub.com/spiceworks-ziff-davis-buys-aberdeen/; https://en.wikipedia.org/wiki/Aberdeen_Strategy_and_Research"
+    },
+    "microsoft": {
+      "status": "active",
+      "successor": "",
+      "source": "Microsoft Corporation remains one of the largest technology companies globally. https://www.microsoft.com"
+    },
+    "sun-microsystems": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (January 2010)",
+      "source": "Oracle acquired Sun Microsystems for $7.4 billion, completed January 2010. https://www.oracle.com/corporate/pressrelease/oracle-buys-sun-042009.html; https://en.wikipedia.org/wiki/Acquisition_of_Sun_Microsystems_by_Oracle_Corporation"
+    },
+    "cisco": {
+      "status": "active",
+      "successor": "",
+      "source": "Cisco Systems Inc. remains a major publicly traded networking company (NASDAQ: CSCO). https://investor.cisco.com"
+    },
+    "hewlett-packard": {
+      "status": "active",
+      "successor": "",
+      "source": "HP Inc. and Hewlett Packard Enterprise both active after 2015 split. Original HP active as multiple successor entities."
+    },
+    "ibm": {
+      "status": "active",
+      "successor": "",
+      "source": "IBM (International Business Machines) remains a major publicly traded technology company (NYSE: IBM)."
+    },
+    "bea-systems": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (January 2008)",
+      "source": "Oracle acquired BEA Systems for approximately $8.5 billion, completed January 2008. https://www.cbc.ca/news/science/oracle-completes-8-5b-takeover-of-bea-systems-1.724924"
+    },
+    "computer-associates": {
+      "status": "acquired",
+      "successor": "Broadcom Inc. (November 2018); rebranded as CA Technologies then Broadcom Software",
+      "source": "Broadcom acquired CA Technologies (formerly Computer Associates) for $18.9 billion in November 2018. https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-ca-technologies-189-billion-cash"
+    },
+    "webify-solutions": {
+      "status": "acquired",
+      "successor": "IBM (August 2006)",
+      "source": "IBM acquired Webify Solutions in August 2006 as its third SOA acquisition. https://www.crn.com/news/channel-programs/191601561/ibm-buys-soa-developer-webify; https://esj.com/articles/2006/08/02/ibm-acquires-webify.aspx"
+    },
+    "oracle": {
+      "status": "active",
+      "successor": "",
+      "source": "Oracle Corporation remains a major publicly traded enterprise software and cloud company (NYSE: ORCL)."
+    },
+    "sap": {
+      "status": "active",
+      "successor": "",
+      "source": "SAP SE remains a major publicly traded enterprise software company (NYSE: SAP)."
+    },
+    "lawson-software": {
+      "status": "acquired",
+      "successor": "Infor (via Golden Gate Capital merger, 2012)",
+      "source": "Lawson Software acquired by Golden Gate Capital and merged into Infor in 2012 for approximately $2 billion. https://www.industryweek.com/technology-and-iiot/information-technology/article/21947548/infor-acquires-lawson-software-for-2-billion"
+    },
+    "vitria": {
+      "status": "active",
+      "successor": "",
+      "source": "Vitria Technology (same as vitria-technology entry) remains active as of 2025. https://vitria.com"
+    },
+    "mercury-interactive": {
+      "status": "acquired",
+      "successor": "Hewlett-Packard (HP) (November 2006)",
+      "source": "HP acquired Mercury Interactive for $4.5 billion in November 2006. https://www.nytimes.com/2006/07/26/technology/hp-to-pay-45-billion-to-acquire-mercury.html"
+    },
+    "tier1-innovation": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Tier1 Innovation referenced in Aberdeen study context; could not confirm acquisition or current status; small company with limited public record."
+    },
+    "value-chain-intl": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Value Chain International Limited (VCIL); small company; limited public record found."
+    },
+    "rick-saia": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Aberdeen Group analyst/staff; current status not publicly verifiable"
+    },
+    "martin-annis": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "ralph-abbott": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "citibank-c": {
+      "status": "defunct",
+      "successor": "Continental Group (sold to Kiewit/Murdock consortium 1984); forest products operations wound down",
+      "source": "Continental Forest Industries was a subsidiary of Continental Group; sold in 1984 when Continental Group was acquired. https://ccchistory.net/continental-forest-industries/; https://www.nytimes.com/1984/06/30/business/continental-group-sets-merger.html"
+    },
+    "mary-ellen-holland": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "murray-sherry": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "hans-nijkamp": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "barbara-kruesi": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen study context; current status not publicly verifiable"
+    },
+    "kate-kastner": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Aberdeen Group staff (sent AAS status memo); current status not publicly verifiable"
+    },
+    "ccpd": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Crime Control Planning Department, Massachusetts; historical government agency; current operational status unknown without specific search"
+    },
+    "charles-kenney": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "fred-wang": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Fred Wang (son of An Wang, Wang Laboratories); public record limited post-Wang Labs collapse"
+    },
+    "mrs-wang": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Mrs. An Wang, widow of Wang Laboratories founder An Wang (d. 1990); personal current status not publicly verifiable"
+    },
+    "philip-hankins": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "bob-plachta": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "john-cullinane": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "harold-koplow": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "dave-moros": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "bob-siegel": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "bob-kolk": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "ed-lesnick": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "john-cunningham": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "harry-chou": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "ge-yao-chu": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "frank-trantanella": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "peter-brooke": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "jim-hodge": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "myron-curtis": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "ken-fisher": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "lawrence-munini": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "robert-siegel": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "wollaston-morin": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "arthur-yaffe": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "james-lees": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "john-pryke": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "john-morse": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "leo-fleck": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "bob-mclaughlin": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Referenced in Aberdeen archive context; current status not publicly verifiable"
+    },
+    "data-measurements-corp": {
+      "status": "defunct",
+      "successor": "",
+      "source": "Data Measurements Corporation; historical IT company; no evidence of current operation found."
+    },
+    "nys-soil-mechanics": {
+      "status": "unknown",
+      "successor": "",
+      "source": "New York State Bureau of Soil Mechanics; historical government agency; current operational status unknown."
+    },
+    "hitachi-densa": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Densa Techno Tokyo K.K. (Hitachi subsidiary); historical subsidiary; current status uncertain without specific search."
+    },
+    "alterna": {
+      "status": "acquired",
+      "successor": "Paychex (via Alterna Capital Solutions acquisition)",
+      "source": "Alterna Capital Solutions LLC acquired by Paychex Inc. https://www.marketscreener.com/quote/stock/PAYCHEX-INC-4894/news/Paychex-Inc-acquired-Alterna-Capital-Solutions-LLC-from-Alterna-Equity-Partners-for-approximately-45651622/"
+    },
+    "emagia": {
+      "status": "active",
+      "successor": "",
+      "source": "Emagia Corporation remains active as a financial technology/AR automation company. https://www.emagia.com/company-overview/"
+    },
+    "xrt": {
+      "status": "unknown",
+      "successor": "",
+      "source": "XRT (Cerg Finance); French treasury/financial software company; spun off Kyriba as a separate entity. XRT itself had limited public profile post-2001. https://www.finextra.com/newsarticle/2317/kyriba-secures-ten-million-dollar-funding-round"
+    },
+    "omicronn": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Omicronn; small company referenced in Aberdeen EII study context; no clear acquisition record found."
+    },
+    "wayne-kernochan": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Former Aberdeen Group analyst; current status not publicly verifiable"
+    },
+    "metamatrix": {
+      "status": "acquired",
+      "successor": "Red Hat / JBoss (April 2007)",
+      "source": "Red Hat acquired MetaMatrix Inc. in April 2007, integrating it into the JBoss division for data virtualization. https://www.redhat.com/en/blog/red-hat-completes-metamatrix-transaction; https://www.infoq.com/news/2007/04/redhat-metamatrix/"
+    },
+    "business-objects": {
+      "status": "acquired",
+      "successor": "SAP AG (January 2008)",
+      "source": "SAP acquired Business Objects for approximately $6.8 billion in January 2008. https://www.computerworld.com/article/1585214/update-sap-to-buy-business-objects-in-6-8b-deal.html"
+    },
+    "attunity": {
+      "status": "acquired",
+      "successor": "Qlik Technologies (May 2019)",
+      "source": "Qlik acquired Attunity for $560 million, completed May 2019. https://www.qlik.com/us/news/company/press-room/press-releases/qlik-to-acquire-attunity; https://www.sec.gov/Archives/edgar/data/893821/000117891319001325/exhibit_99-1.htm"
+    },
+    "xaware": {
+      "status": "acquired",
+      "successor": "BEA Systems (2005/2006)",
+      "source": "XAware was acquired by BEA Systems and integrated into AquaLogic Data Services Platform (ALDSP) EII offering. https://tdwi.org/articles/2006/09/27/bea-revamps-relaunches-eii-tool.aspx"
+    },
+    "venetica": {
+      "status": "acquired",
+      "successor": "IBM (August 2004)",
+      "source": "IBM acquired Venetica in August 2004 to strengthen content-integration offerings. https://www.ecommercetimes.com/story/ibm-acquires-venetica-to-strengthen-content-integration-offerings-36140.html"
+    },
+    "nimble-technologies": {
+      "status": "acquired",
+      "successor": "Actuate Software (July 2003)",
+      "source": "Actuate Software acquired Nimble Technology in July 2003; Nimble's EII technology integrated into Actuate's report server. https://www.crn.com/news/applications-os/18824829/actuate-acquires-nimble-technology; https://www.nytimes.com/2003/07/30/business/technology-briefing-software-actuate-buys-nimble.html"
+    },
+    "enosys-markets": {
+      "status": "acquired",
+      "successor": "TIBCO Software (circa 2002-2003)",
+      "source": "Enosys Markets was acquired by TIBCO Software for its financial market data/EAI integration technology. Referenced in TIBCO acquisition history. https://www.zippia.com/tibco-software-careers-41791/history/"
+    },
+    "raining-data": {
+      "status": "acquired",
+      "successor": "Renamed TigerLogic Corp. (2008), then sold/wound down",
+      "source": "Raining Data Corporation renamed itself TigerLogic in 2008; subsequent history shows limited operations. https://en.wikipedia.org/wiki/TigerLogic; https://www.sec.gov/Archives/edgar/data/820738/000110465907074240/a07-26370_1ex99d3.htm"
+    },
+    "ipedo": {
+      "status": "defunct",
+      "successor": "",
+      "source": "Ipedo Inc. was an EII/XML query company that partnered with Business Objects in May 2005 but was not acquired. Ceased operations around 2006-2007. https://gilbane.com/2005/05/ipedo-partners-with-business-objects/; https://tdwi.org/articles/2005/10/05/business-objects-acquires-medience.aspx"
+    },
+    "tibco": {
+      "status": "acquired",
+      "successor": "Vista Equity Partners (private, December 2014); later merged with TIBCO/Citrix",
+      "source": "TIBCO Software taken private by Vista Equity Partners for $4.3 billion in December 2014. https://apnews.com/tibco-to-be-sold-to-private-equity-firm-for-3-98b-303591e0e6a349df89be3bdcb5aef6b0"
+    },
+    "webmethods": {
+      "status": "acquired",
+      "successor": "Software AG (April 2007)",
+      "source": "Software AG acquired webMethods for $546 million in April 2007. https://www.cnbc.com/2007/04/05/software-ag-snaps-up-webmethods-for-546-million.html"
+    },
+    "evolutionary-technologies": {
+      "status": "acquired",
+      "successor": "Versata (May 2008)",
+      "source": "Evolutionary Technologies International (ETI) acquired by Versata in May 2008. https://www.bizjournals.com/austin/stories/2008/05/19/daily23.html; https://www.agcpartners.com/transactions/agc-advises-eti-in-its-sale-to-versata"
+    },
+    "seebeyond": {
+      "status": "acquired",
+      "successor": "Sun Microsystems (June 2004)",
+      "source": "Sun Microsystems acquired SeeBeyond Technology in June 2004 for $387 million. https://www.latimes.com/archives/la-xpm-2005-jun-29-fi-sun29-story.html; https://www.mhlnews.com/global-supply-chain/article/22047221/sun-microsystems-acquires-seebeyond"
+    },
+    "sybase": {
+      "status": "acquired",
+      "successor": "SAP AG (July 2010)",
+      "source": "SAP acquired Sybase for $5.8 billion in July 2010. https://techcrunch.com/2010/05/12/confirmed-sap-to-acquire-sybase-for-5-8-billion-to-compete-with-oracle/; https://www.sap.com/investors/en/financial-news/ad-hoc-news/2010/05/934992.html"
+    },
+    "peoplesoft": {
+      "status": "acquired",
+      "successor": "Oracle Corporation (December 2004)",
+      "source": "Oracle completed hostile acquisition of PeopleSoft for $10.3 billion in December 2004. https://www.oracle.com/corporate/pressrelease/oracle-buys-peoplesoft-121304.html"
+    },
+    "ctspace": {
+      "status": "acquired",
+      "successor": "Openwave Systems (circa 2005)",
+      "source": "CTSpace acquired by Openwave Systems; Openwave later sold core assets. https://www.reuters.com/article/business/corrected-update-1-openwave-systems-to-sell-core-businesses-idUSL3E8FG4PR/"
+    },
+    "robert-ross-ibm": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Robert Ross at IBM; current status not publicly verifiable"
+    },
+    "iona-technologies": {
+      "status": "acquired",
+      "successor": "Progress Software (August 2008)",
+      "source": "Progress Software acquired IONA Technologies for $162 million in August 2008. https://www.finextra.com/pressarticle/23361/progress-software-completes-iona-acquisition; https://www.irishtimes.com/news/iona-technologies-sold-to-us-software-group-in-162m-deal-1.1271895"
+    },
+    "fusionware": {
+      "status": "acquired",
+      "successor": "C9 Capital (February 2021)",
+      "source": "Fusionware Supply Chain Traceability Platform acquired by C9 Capital in 2021. https://www.globenewswire.com/news-release/2021/02/17/2177306/0/en/Fusionware-Supply-Chain-Traceability-Platform-Acquired-by-C9-Capital.html"
+    },
+    "don-kerr-dell-canada": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Don Kerr at Dell Canada; current status not publicly verifiable"
+    },
+    "softtek": {
+      "status": "active",
+      "successor": "",
+      "source": "Softtek remains active as a major Latin America-based IT services and software engineering company, headquartered in Monterrey, Mexico. https://www.softtek.com/our-company; https://en.wikipedia.org/wiki/Softtek"
+    },
+    "unisys": {
+      "status": "active",
+      "successor": "",
+      "source": "Unisys Corporation remains active as a publicly traded IT services company (NYSE: UIS). https://www.unisys.com"
+    },
+    "itko": {
+      "status": "acquired",
+      "successor": "CA Technologies (Broadcom) (2011)",
+      "source": "CA Technologies acquired iTKO Inc. for $330 million in 2011. https://www.prnewswire.com/news-releases/ca-technologies-to-acquire-privately-held-itko-for-330-million-in-cash-124730998.html"
+    },
+    "mindreef": {
+      "status": "acquired",
+      "successor": "Progress Software (via IONA acquisition path, 2008)",
+      "source": "Progress Software acquired Mindreef after acquiring IONA Technologies; Mindreef was previously part of IONA ecosystem. https://www.infoworld.com/article/2312530/progress-now-eats-mindreef-must-be-hungry.html"
+    },
+    "solstice-software": {
+      "status": "defunct",
+      "successor": "",
+      "source": "Solstice Software (Java/Sun-era software company); ceased operations; no evidence of current operation. Note: a different 'Solstice' (clean energy) was recently acquired by Perch Energy but is unrelated. https://www.globenewswire.com/news-release/2026/02/18/3240155/0/en/perch-energy-announces-acquisition-of-mitsui-s-solstice-solidifying-the-company-as-the-us-leader-in-community-solar.html"
+    },
+    "isoft-group": {
+      "status": "acquired",
+      "successor": "CSC (Computer Sciences Corporation) (April 2011)",
+      "source": "CSC acquired iSOFT Group for approximately $215 million in April 2011. https://www.digitalhealth.net/2011/04/csc-buys-isoft/"
+    },
+    "rufus-connell-frost": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Rufus Connell at Frost & Sullivan or similar research firm; current status not publicly verifiable"
+    },
+    "tom-boger-apple": {
+      "status": "unknown",
+      "successor": "",
+      "source": "Tom Boger at Apple; current status not publicly verifiable"
+    }
+  },
+  "technologies": {},
+  "predictions": {
+    "1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8-OBS-009": {
+      "outcome": "Intranet adoption among Fortune 1000 companies was already at or near 95% by 2000-2001, consistent with Forrester Research's widely-cited prediction from 1997-1999. IDC and Gartner data from 2000-2001 confirmed enterprise intranet deployment was nearly universal among large enterprises.",
+      "confidence": "partially-verified",
+      "notes": "The prediction of ~95% F1000 intranet adoption by 2000 was directionally correct; enterprise intranet deployment was effectively ubiquitous by 2001. However, specific Forrester accuracy data not directly verified. Source: General industry consensus from 2000-2001 analyst reports."
+    },
+    "1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8-OBS-018": {
+      "outcome": "Vendor-backed architected infrastructure did not achieve broad adoption as a unified framework by 2010. Instead, the market fragmented into cloud computing (AWS launched 2006, Azure 2010), virtualization (VMware), and service-oriented architecture approaches. CA's Unicenter-style integrated management vision was partially realized through IT automation, but not in the form originally predicted.",
+      "confidence": "refuted",
+      "notes": "The broad adoption of a single vendor-backed architected infrastructure framework did not occur. Cloud computing and open-source tools displaced proprietary management frameworks. CA Technologies itself was acquired by Broadcom in 2018."
+    },
+    "2003-dell-dives-deeper-d35985-OBS-009": {
+      "outcome": "Dell's server market share grew from approximately 9.4% in 2004 to 10.3% revenue share (and 23.3% unit shipment share) in 2005, showing continued growth in the data warehouse, OLTP, and messaging segments. IDC data confirms Dell grew server revenue 13.3% year-over-year in 2005 while the market grew 4.4%.",
+      "confidence": "partially-verified",
+      "notes": "Dell's market share direction was upward in 2004-2005, consistent with 'dives deeper' narrative. Revenue share reached 10.3% and unit share 23.3% by end-2005. Source: https://www.zdnet.com/article/worldwide-server-sales-in-2005-ibm-32-9-hp-27-7-dell-10-3/"
+    },
+    "2005-fall-idf-schedule-b5e6c4-OBS-005": {
+      "outcome": "Intel Core Duo (Yonah) launched January 5, 2006 at CES, approximately on schedule for the 'fall 2005 IDF' prediction window (announced at IDF, shipped Q1 2006). Intel officially launched Core Duo T2500 and related processors in January 2006.",
+      "confidence": "partially-verified",
+      "notes": "Yonah/Core Duo shipped January 2006, slightly after the 2005 target year but within the expected IDF-to-market timeframe. Source: https://appleinsider.com/articles/06/01/06/intel_rolls_out_viiv_technology_dual_core_laptop_processors; https://technical.city/en/cpu/Core-Duo-T2500"
+    },
+    "2006-amd-ati-acquisition-cf19ff-OBS-007": {
+      "outcome": "AMD's post-merger market outcome by 2007 was poor. AMD acquired ATI for $5.4 billion in 2006 but the combined company struggled significantly. AMD's CPU market share dropped as Intel released Core 2 in 2006, and the ATI integration created substantial debt and operational difficulties. By 2007-2008 AMD was in financial distress.",
+      "confidence": "partially-verified",
+      "notes": "The merger resulted in AMD market share decline and financial stress, not the hoped-for competitive advantage. Source: https://www.reddit.com/r/pcgaming/comments/3dxq56/amd_now_worth_1-4th_of_what_the_company_bought_ati/; https://www.eweek.com/pc-hardware/amd-continues-its-struggles-under-the-ati-burden/"
+    },
+    "2006-amd-ati-acquisition-cf19ff-OBS-009": {
+      "outcome": "AMD/ATI's Fusion integrated architecture (CPU+GPU on same die) was delayed significantly beyond the 2008 target. AMD announced Fusion plans in October 2006 targeting 'late 2008/early 2009,' but the first Fusion APU (Llano/Brazos) did not ship until 2011.",
+      "confidence": "refuted",
+      "notes": "Integrated architecture timeline was predicted for 2008 but Fusion APUs did not ship until 2011. Source: https://ir.amd.com/financial-information/sec-filings/content/0001193125-06-217735/dex991.htm"
+    },
+    "2006-amd-ati-acquisition-cf19ff-OBS-011": {
+      "outcome": "HP did not realize significant upside from the AMD/ATI merger by 2008. HP continued to ship both AMD and Intel-based servers and workstations, and the AMD/ATI integration difficulties did not provide HP with a compelling platform advantage. HP's server revenue grew primarily due to Intel Xeon adoption.",
+      "confidence": "refuted",
+      "notes": "HP upside from AMD/ATI merger not materially realized; HP maintained Intel-heavy server lineup. The predicted HP competitive advantage from AMD/ATI did not materialize by 2008."
+    },
+    "2006-amd-ati-acquisition-cf19ff-OBS-013": {
+      "outcome": "Dell did not suffer significant long-term downside from the AMD/ATI merger through 2009. Dell continued its Intel-centric strategy and grew server market share. AMD's weakened competitive position post-merger actually benefited Intel-aligned OEMs like Dell in the enterprise segment.",
+      "confidence": "refuted",
+      "notes": "Predicted Dell downside from AMD/ATI merger did not materialize. Dell maintained strong growth as an Intel OEM. Source: Dell server market share data 2005-2009 shows continued growth."
+    },
+    "aberdeen-preso-for-emc-final-storage-5-d855b8-OBS-017": {
+      "outcome": "ILM (Information Lifecycle Management) as a formal product category emerged around 2003-2006 with EMC, IBM, and HP offering tiered storage solutions. The timeframe for mainstream ILM adoption was approximately 2003-2007, broadly consistent with predictions in this study. Automated storage tiering became a standard feature of enterprise storage arrays by mid-2000s.",
+      "confidence": "partially-verified",
+      "notes": "ILM as a storage category was realized within the predicted timeframe; tiered storage and policy-based data management became standard by 2006-2007. Source: https://cacm.acm.org/research/information-life-cycle-management/"
+    },
+    "aberdeen-preso-for-emc-final-storage-5-d855b8-OBS-019": {
+      "outcome": "The 'decade-long battle' for ILM leadership was won not by a single vendor but by cloud storage economics. EMC, IBM, and HP competed through the 2000s, but by 2010-2015 cloud object storage (AWS S3, Azure Blob) disrupted traditional tiered storage ILM frameworks. The battle outcome was ultimately displacement rather than vendor consolidation.",
+      "confidence": "partially-verified",
+      "notes": "ILM vendor competition occurred as predicted through mid-2000s, but cloud disruption changed the competitive landscape by 2010. Source: General storage industry history."
+    },
+    "classmate-pc-evaluation-notes-8-103667-OBS-006": {
+      "outcome": "The netbook/UMPC market boomed 2007-2011 with Intel Classmate PC, OLPC XO, ASUS Eee PC, and numerous netbooks. By 2012-2013 the market declined as tablets (iPad) and Chromebooks displaced netbooks. Chromebooks achieved dominance in K-12 education by mid-2010s as predicted.",
+      "confidence": "partially-verified",
+      "notes": "Notes in source already indicate 'Verified: netbook boom 2008-2011, Chromebook dominance in K-12 by mid-2010s.' Confirming this assessment as partially-verified."
+    },
+    "dell-ars-wp-2-72fd7f-OBS-014": {
+      "outcome": "E-waste regulation tightened significantly around 2002-2003. The EU WEEE Directive (2002/96/EC) was issued in 2003 and required implementation by August 2004-2005. California enacted the Electronic Waste Recycling Act of 2003 (SB 20). This represented a major tightening of e-waste regulation, validating Aberdeen's prediction.",
+      "confidence": "partially-verified",
+      "notes": "E-waste regulations tightened in the 2002-2003 timeframe as predicted. EU WEEE Directive and California SB 20 both enacted. Source: https://calrecycle.ca.gov/electronics/statutes/; https://www.wilmerhale.com/en/insights/publications/new-eu-legislation-affects-electronic-waste-and-the-use-of-hazardous-materials-in-electric-and-electronic-devices-august-11-2003"
+    },
+    "dell-ars-wp-2-72fd7f-OBS-017": {
+      "outcome": "PC disposal/replacement window did not shorten dramatically to less than 3 years for corporate desktops by 2003. Enterprise PC refresh cycles remained at approximately 3-5 years through the 2000s. The prediction of shorter replacement windows was not broadly validated; corporate lifecycles stabilized around 4 years.",
+      "confidence": "refuted",
+      "notes": "Corporate PC refresh cycles did not shift toward shorter windows; 3-5 year cycles persisted through the 2000s and beyond. Source: https://www.reddit.com/r/sysadmin/comments/4o2lgm/why_do_most_companies_refresh_their_machines_every_3_years/"
+    },
+    "dell-precision-workstations-3-581e89-OBS-006": {
+      "outcome": "DDR2 memory was introduced in server and workstation platforms in 2004-2005 with the Nocona/Lindenhurst platform. However, DDR2 did not achieve particularly long longevity as a platform; DDR3 began displacing it by 2007-2008. The platform served approximately 3-4 years in mainstream use.",
+      "confidence": "partially-verified",
+      "notes": "DDR2 platform arrived in 2004 as predicted but was not especially long-lived; DDR3 emerged by 2007. Source: https://serverando.de/en/magazine/ddr2-ram-in-profile; Intel server platform roadmaps."
+    },
+    "dell-precision-workstations-3-581e89-OBS-017": {
+      "outcome": "Windows XP x64 Edition shipped April 25, 2005, approximately on target with the 2004 prediction timeframe. This was based on the Nocona (Xeon EM64T) platform launched June 2004.",
+      "confidence": "partially-verified",
+      "notes": "Source notes already indicate 'Windows XP x64 shipped April 2005 — approximately on target.' Confirming this as partially-verified. Source: General Microsoft/Intel timeline records."
+    },
+    "dell-sap-v6-d08820-OBS-003": {
+      "outcome": "The 2004 enterprise server replacement cycle prediction (that companies would refresh servers) was broadly validated. IDC data shows strong 2003-2004 server procurement growth as companies upgraded from late-1990s/2000 hardware. Dell's server revenue grew significantly through 2003-2004.",
+      "confidence": "partially-verified",
+      "notes": "Enterprise server replacement cycle circa 2004 did materialize for many organizations, driven by Nocona 64-bit Xeon and Intel EM64T platforms. Source: IDC/Dell server shipment data 2003-2005."
+    },
+    "dell-sap-v6-d08820-OBS-018": {
+      "outcome": "UNIX server market decline did occur, with Windows servers surpassing UNIX in revenue for the first time in 2005. IDC reported Windows server revenues of $17.7B vs UNIX $17.5B for full-year 2005. Linux and Windows together displaced UNIX as the dominant enterprise server OS by 2005-2006.",
+      "confidence": "partially-verified",
+      "notes": "UNIX decline outcome validated: Windows surpassed UNIX in server revenue in 2005, Linux grew 20.8% YoY. Source: https://www.linuxinsider.com/story/windows-bumps-unix-as-server-os-leader-48999.html"
+    },
+    "dell-sap-v6-d08820-OBS-020": {
+      "outcome": "Linux did achieve mission-critical status in enterprise environments by 2004-2005. Linux server revenues grew 14 consecutive quarters of double-digit growth through Q4 2005, reaching $5.7B for full-year 2005. Linux databases, SAP on Linux, and Oracle on Linux deployments became mainstream.",
+      "confidence": "partially-verified",
+      "notes": "Linux mission-critical outcome validated by 2005 IDC data showing $5.7B Linux server revenue and expanding enterprise workloads. Source: https://www.linuxinsider.com/story/windows-bumps-unix-as-server-os-leader-48999.html"
+    },
+    "dell-sap-v6-d08820-OBS-022": {
+      "outcome": "Dell's server market share grew as predicted. Dell's worldwide server revenue share rose from 7.5% in 2002 to 9.4% in 2004 and 10.3% in 2005, with unit shipment share at 23.3% by end-2005. Dell consistently outperformed the overall market growth rate.",
+      "confidence": "partially-verified",
+      "notes": "Dell market share outcome confirmed by IDC data. Source: https://www.zdnet.com/article/worldwide-server-sales-in-2005-ibm-32-9-hp-27-7-dell-10-3/; https://www.cnet.com/tech/tech-industry/ibm-dell-win-in-losing-server-market/"
+    },
+    "hp-analyst-phone-call-6-204870-OBS-027": {
+      "outcome": "HP's home networked video initiative (circa 2003) did not succeed as a major market. HP launched digital entertainment/media center products but the home networked video market was slow to develop. Mass-market home video networking was not realized until streaming services (Netflix, Hulu 2007-2010) and HDTV adoption.",
+      "confidence": "refuted",
+      "notes": "HP home networked video prediction for 2003 did not materialize as a mainstream market. HP's media center strategy had limited success. Source: HP 2003 Annual Report; general consumer electronics market history."
+    },
+    "ibm-major-account-plan-8-cc6400-OBS-010": {
+      "outcome": "IBM's revenue run-rate outcomes for the 2001 major account plan are internal proprietary data not publicly available. IBM's total revenue for 2001 was approximately $85.9 billion, declining from $88.4 billion in 2000 due to the dot-com recession. Specific account-level outcomes cannot be verified.",
+      "confidence": "unknown [REVIEW]",
+      "notes": "Internal IBM major account plan outcomes not publicly verifiable. IBM's overall 2001 revenue declined ~3% due to recession. Source: IBM 2001 Annual Report."
+    },
+    "intel-idf-2005-spring-delegate-confirmat-0de810-OBS-003": {
+      "outcome": "Intel delivered multicore processors in 2005 as predicted. Intel Pentium D (dual-core desktop) shipped May 26, 2005. Paxville MP (dual-core server Xeon) shipped November 1, 2005. Core Duo (Yonah, mobile) shipped January 2006. Multicore was in production by end-2005.",
+      "confidence": "partially-verified",
+      "notes": "Multicore delivery in 2005 was realized: Pentium D (May 2005) and Paxville Xeon (November 2005). Source: https://en.wikipedia.org/wiki/Pentium_D; https://www.intel.com/pressroom/archive/releases/2005/20051101comp.htm"
+    },
+    "intel-idf-2005-spring-delegate-confirmat-0de810-OBS-008": {
+      "outcome": "UWB (Ultra-Wideband) failed to achieve mass market adoption as predicted. The WiMedia Alliance IEEE 802.15.3a standardization process stalled; the task group disbanded January 2006. Wireless USB based on WiMedia saw limited consumer adoption. WiMedia Alliance dissolved in 2009. Wireless USB never achieved mass adoption, replaced by USB 3.0 and Wi-Fi.",
+      "confidence": "partially-verified",
+      "notes": "UWB market failure confirmed: WiMedia Alliance dissolved 2009, Wireless USB never mass-market. IEEE 802.15.3a TG disbanded January 2006. Source: https://escholarship.org/content/qt6k91v8sk/; general UWB market history."
+    },
+    "intel-idf-pk-notes-3-6666da-OBS-006": {
+      "outcome": "BTX form factor adoption was minimal as predicted. Intel canceled future BTX retail product development in September 2006 after switching to lower-power Core microarchitecture. Only Gateway, Dell, HP, and Fujitsu-Siemens adopted BTX for limited product lines. ATX remained dominant throughout.",
+      "confidence": "partially-verified",
+      "notes": "BTX failure confirmed: Intel withdrew BTX support in September 2006; only a handful of OEMs adopted it. Source: https://en.wikipedia.org/wiki/BTX_(form_factor)"
+    },
+    "intel-longlivedualcore-revised-5-fa8298-OBS-009": {
+      "outcome": "Intel's first-generation dual-core (Pentium D/Paxville) delivered disappointing performance-per-watt. Pentium D ran hot and power-inefficient under 90nm process. Core 2 Duo (Conroe/Merom, July 2006) delivered the significant performance-per-watt improvement. The prediction that dual-core would bring meaningful efficiency gains was validated by Core 2, though the first-gen Pentium D was inefficient.",
+      "confidence": "partially-verified",
+      "notes": "Performance-per-watt validation came with Core 2 Duo (July 2006), not first-gen Pentium D (2005). Source: https://phys.org/news/2006-05-intel-core-microarchitecture-energy-efficiency.html"
+    },
+    "intel-longlivedualcore-revised-5-fa8298-OBS-016": {
+      "outcome": "First-generation dual-core Xeon (Paxville DP, November 2005, Lindenhurst platform) had a known front-side bus bottleneck. The shared FSB architecture meant both cores competed for memory bandwidth. The Paxville/Lindenhurst platform used DDR2 with a single shared bus per processor pair, resulting in bandwidth contention confirmed by benchmark reviews.",
+      "confidence": "partially-verified",
+      "notes": "Paxville/Dempsey Xeon DP platforms had documented FSB bandwidth bottlenecks. Source: https://www.hexus.net/business/news/enterprise/3824-intel-lindenhurst-paxville-xeon-dp-platform-discussion/"
+    },
+    "oracle-appsworld-insight-edit-4-813c2e-OBS-013": {
+      "outcome": "Oracle's cloud/SaaS applications business became a multi-billion dollar business. Oracle acquired PeopleSoft (2004), Siebel (2006), and numerous other enterprise app companies. Oracle Cloud Applications (Fusion Applications) launched commercially in 2012 and grew to billions in revenue. By 2015-2020, cloud ERP SaaS dominated new enterprise app deployments.",
+      "confidence": "partially-verified",
+      "notes": "Oracle's response to outsourcing/cloud pressure resulted in massive SaaS portfolio growth. Oracle Cloud ERP/HCM/CX grew to >$3B annually by 2020. Source: https://www.inoapps.com/insights/news/the-evolution-of-the-oracle-saas-extension/"
+    },
+    "oracle-middleware-fragment-5-d3d774-OBS-007": {
+      "outcome": "Portera Systems, a CRM/field service integrator, did fail as predicted. Portera's assets were acquired circa 2003-2004 (references to Journyx acquisition noted in source). The integrator-viability prediction was validated.",
+      "confidence": "partially-verified",
+      "notes": "Source notes indicate 'Portera did fail as predicted — assets sold to Journyx around 2004.' Confirming as partially-verified based on contextual notes."
+    },
+    "oracle-middleware-fragment-5-d3d774-OBS-010": {
+      "outcome": "XML/SOA/REST APIs emerged as the dominant integration layer as predicted. By 2005-2010, XML-based web services (SOAP/WSDL) and then REST/JSON APIs became the universal enterprise integration standard. SOA adoption was mainstream by 2006-2008.",
+      "confidence": "partially-verified",
+      "notes": "XML/SOA/REST dominance validated. SOA became mainstream by 2006-2008; REST/JSON emerged by 2010. Source: General industry consensus; Aberdeen SOA research confirms trajectory."
+    },
+    "oracle-wp-prod-6-a42b4b-OBS-014": {
+      "outcome": "XML/SOAP/REST/JSON emerged as dominant integration standards as predicted. SOAP-based web services peaked around 2005-2008, then REST/JSON became dominant from 2009 onwards for new integrations.",
+      "confidence": "partially-verified",
+      "notes": "XML/SOAP/REST/JSON integration dominance confirmed. Source: General industry history; Aberdeen SOA research."
+    },
+    "oracle-wp-prod-6-a42b4b-OBS-020": {
+      "outcome": "Integrated suite consolidation occurred as predicted. Oracle acquired PeopleSoft (2004), Siebel (2006), Hyperion (2007), BEA (2008). SAP dominated organically. Best-of-breed vendors rolled up: Ariba (SAP 2012), Taleo (Oracle 2012), Kana (Verint 2014). The integrated suite prediction was substantially validated.",
+      "confidence": "partially-verified",
+      "notes": "Oracle/SAP dominance and best-of-breed rollup validated. Source: Various acquisition records 2004-2012."
+    },
+    "oracleroiwhitepaperprod-7-bcf73f-OBS-012": {
+      "outcome": "XML/web services became the dominant integration layer by 2001-2003 as predicted, with SOA frameworks solidifying by 2005-2008. The prediction that XML would underpin integration architectures was validated.",
+      "confidence": "partially-verified",
+      "notes": "XML integration dominance validated by industry adoption 2001-2005. Source: General industry history."
+    },
+    "oracleroiwhitepaperprod-7-bcf73f-OBS-016": {
+      "outcome": "Oracle consolidated PeopleSoft (2004), Siebel (2006), JD Edwards (via PeopleSoft), Hyperion (2007). SAP maintained ERP dominance. The integrated platform consolidation prediction was validated by actual M&A activity.",
+      "confidence": "partially-verified",
+      "notes": "Oracle consolidation of PeopleSoft, Siebel, JD Edwards, Hyperion confirmed. Source: Oracle press releases 2004-2008."
+    },
+    "planningforemergingindustry-6-40decb-OBS-007": {
+      "outcome": "Intel Nocona (64-bit Xeon DP with EM64T) launched June 28, 2004, with Lindenhurst chipset platform released August 2, 2004. This was approximately on schedule with the prediction.",
+      "confidence": "partially-verified",
+      "notes": "Nocona shipped June 2004 as predicted. Source: https://www.tomshardware.com/news/intel-launches-32,108.html; https://www.intel.com/pressroom/archive/releases/2004/20040802comp.htm"
+    },
+    "planningforemergingindustry-6-40decb-OBS-009": {
+      "outcome": "Intel Potomac (Xeon MP, 90nm) and Twin Castle chipset platform were planned for 2004. Potomac (Cranford) shipped in 2005. The Twin Castle chipset for 4-way Potomac servers was also released in 2005, approximately on Intel's roadmap.",
+      "confidence": "partially-verified",
+      "notes": "Potomac/Twin Castle platform delivered 2005, slightly delayed from 2003 prediction timeline. Source: Intel server platform roadmap slides 2003; https://www.slideserve.com/LeeJohn/intel"
+    },
+    "planningforemergingindustry-6-40decb-OBS-014": {
+      "outcome": "Mainframe RAS features (memory mirroring, memory sparing, memory scrubbing) did migrate to industry-standard server platforms 2004-2006. Intel's Xeon MP platforms incorporated these features. HP's Superdome and IBM's x3950 added advanced RAS features to x86 servers by 2005-2006.",
+      "confidence": "partially-verified",
+      "notes": "Mainframe RAS migration to x86 servers confirmed; Intel Xeon MP platforms added enterprise RAS by 2005-2006. Source: Intel Xeon MP platform specifications."
+    },
+    "planningforemergingindustry-6-40decb-OBS-023": {
+      "outcome": "PCIe remains the dominant PC/server expansion bus standard as of 2025, now at PCIe 5.0 in production and PCIe 6.0 in servers. The prediction of long PCIe longevity was dramatically confirmed — PCIe 1.0 launched in 2003 and the architecture has dominated for 22+ years.",
+      "confidence": "partially-verified",
+      "notes": "Source notes already indicate 'Verified outcome: PCIe remains dominant 22 years later.' Confirming as partially-verified. Source: https://www.tomshardware.com/pc-components/motherboards/pci-express-roadmap-the-path-to-1tb-s-with-pci-8-0"
+    },
+    "planningforemergingindustry-6-40decb-OBS-027": {
+      "outcome": "PCIe adoption in 2004-2005 was rapid. Intel introduced PCIe in all chipsets in 2004 per roadmap. Dell launched Precision Workstation 470/670 and PowerEdge servers with PCIe in mid-2004. By 2005 PCIe was standard on new server and workstation platforms.",
+      "confidence": "partially-verified",
+      "notes": "PCIe 2004-2005 adoption confirmed by Intel/Dell product launches. Source: https://i.dell.com/sites/content/business/solutions/whitepapers/en/Documents/wp-2004_pciexpress.pdf"
+    },
+    "OBS-S1-020": {
+      "outcome": "Intel acquired Dialogic for approximately $780 million in 1999, validating Aberdeen's assessment of CT infrastructure value.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'Intel acquired Dialogic in 1999 for approximately $780 million.' Well-documented acquisition. Source: industry records."
+    },
+    "OBS-S1-021": {
+      "outcome": "ECTF S.100 framework was ultimately superseded by H.323 and SIP VoIP standards. CT Media was not the long-term standard; SIP became the dominant telephony protocol by 2005-2010.",
+      "confidence": "partially-verified",
+      "notes": "VoIP/SIP superseding ECTF framework confirmed by industry history. Source: General telecom industry records."
+    },
+    "OBS-S1-022": {
+      "outcome": "The CT/telecom software market expanded dramatically through open standards, primarily VoIP rather than ECTF S.100. Market expansion was confirmed but via different standards than originally anticipated.",
+      "confidence": "partially-verified",
+      "notes": "Open-standards CT market expansion confirmed but via VoIP/SIP rather than ECTF. Directionally correct."
+    },
+    "OBS-S1-023": {
+      "outcome": "Brooktrout was acquired by EAS Group in 2005, merged into Cantata Technology, then acquired by Dialogic Group in 2007, matching the predicted acquisition path exactly.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm complete acquisition chain: Brooktrout -> Cantata (2005) -> Dialogic Group (2007)."
+    },
+    "OBS-S1-024": {
+      "outcome": "ECTF S.300 and S.400 standards never achieved significant market adoption. VoIP/SIP architecture replaced the ECTF framework before these standards gained traction.",
+      "confidence": "partially-verified",
+      "notes": "ECTF S.300/S.400 non-adoption confirmed by telecom industry history."
+    },
+    "OBS-S2-021": {
+      "outcome": "Oracle shut down NCI (Network Computer Inc.) in 1999 after spending approximately $175 million. The NC concept failed in the 1997-1999 timeframe as predicted.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'Oracle renamed NCI assets for interactive TV in 1999 after spending ~$175M. NC concept failed 1997-1999.' Well-documented."
+    },
+    "OBS-S2-022": {
+      "outcome": "Compaq acquired DEC for $9.6 billion in June 1998, the largest tech acquisition at the time, as predicted.",
+      "confidence": "partially-verified",
+      "notes": "DEC acquisition by Compaq confirmed. Source: General industry records."
+    },
+    "OBS-S2-023": {
+      "outcome": "Intel acquired DEC's semiconductor division (Hudson fab) and StrongARM technology for $700 million as part of patent lawsuit settlement in October 1997. Intel shipped StrongARM SA-1100 in 1998.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm StrongARM acquisition by Intel in 1997 patent settlement. Source: industry records."
+    },
+    "OBS-S2-024": {
+      "outcome": "The NC architectural thesis was vindicated by cloud computing (Google Chromebook 2011, AWS/Azure cloud desktops, VDI/DaaS). The vision of centralized computing with thin clients was realized approximately 12-15 years after the NC concept failed.",
+      "confidence": "partially-verified",
+      "notes": "NC thesis vindicated by cloud/Chromebook/VDI ~15 years later. Source: General cloud computing history."
+    },
+    "OBS-S2-025": {
+      "outcome": "Oracle acquired Sun Microsystems for $7.4 billion, completed January 2010, as predicted.",
+      "confidence": "partially-verified",
+      "notes": "Oracle/Sun acquisition confirmed. Source: https://www.oracle.com/corporate/pressrelease/oracle-buys-sun-042009.html"
+    },
+    "OBS-S2-026": {
+      "outcome": "Intel replaced StrongARM with XScale architecture in 2000. XScale dominated Pocket PCs and PDAs until ARM Cortex architecture superseded it circa 2007.",
+      "confidence": "partially-verified",
+      "notes": "XScale succession of StrongARM confirmed. Source: industry records."
+    },
+    "OBS-S3-021": {
+      "outcome": "Compaq acquired DEC for $9.6 billion in June 1998, confirmed across multiple study records.",
+      "confidence": "partially-verified",
+      "notes": "DEC/Compaq acquisition confirmed. Source: General industry records."
+    },
+    "OBS-S3-022": {
+      "outcome": "Lucent acquired Kenan Systems for approximately $1.48 billion in stock in 1999. Kenan was later transferred to Amdocs. The acquisition validated Aberdeen's view of Kenan as premium telecom billing software.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'Lucent acquired Kenan for approximately $1.48 billion in stock.' Source: industry records."
+    },
+    "OBS-S3-023": {
+      "outcome": "Nokia acquired Vienna Systems for approximately $90 million in December 1998, entering the IP telephony gateway market as predicted.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm Nokia/Vienna Systems acquisition ~$90M December 1998."
+    },
+    "OBS-S3-024": {
+      "outcome": "CMG and Logica merged in 2002 to form LogicaCMG, creating a ~$3 billion revenue IT services firm. LogicaCMG was later acquired by CGI Group in 2012.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'CMG and Logica merged in 2002 to form LogicaCMG; acquired by CGI Group in 2012.'"
+    },
+    "OBS-S3-025": {
+      "outcome": "Compaq announced Alpha processor phase-out in 2001 and sold Alpha IP to Intel. HP continued limited Alpha sales until the last system sold in April 2007.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm Alpha phase-out announcement 2001; last system April 2007."
+    },
+    "OBS-S3-026": {
+      "outcome": "Nortel filed for Chapter 11 bankruptcy in January 2009. Nortel's patent portfolio was sold for $4.5 billion in 2011.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm Nortel Chapter 11 in January 2009. Well-documented."
+    },
+    "OBS-S4-023": {
+      "outcome": "Compaq acquired DEC for $9.6 billion June 1998. HPTC (HP Technical Computing) group dissolved. Alpha continued under Compaq/HP until 2007.",
+      "confidence": "partially-verified",
+      "notes": "DEC/Compaq acquisition confirmed. Source: General industry records."
+    },
+    "OBS-S4-024": {
+      "outcome": "Compaq phased out Alpha in favor of Intel Itanium; sold Alpha IP to Intel in 2001. Last Alpha system sold by HP in April 2007.",
+      "confidence": "partially-verified",
+      "notes": "Alpha discontinuation confirmed. Source: industry records."
+    },
+    "OBS-S4-025": {
+      "outcome": "SGI filed Chapter 11 in May 2006 and again in April 2009 (Chapter 7/liquidation). Assets acquired by Rackable Systems (which renamed itself SGI). Aberdeen's criticism of SGI's NT transition proved accurate.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm SGI bankruptcies 2006/2009."
+    },
+    "OBS-S4-026": {
+      "outcome": "Linux-based x86 Beowulf clusters dramatically disrupted proprietary RISC HPTC (High Performance Technical Computing) by early 2000s. Aberdeen did not foresee this 1997, but the x86 Linux cluster disruption was real and substantial.",
+      "confidence": "partially-verified",
+      "notes": "Linux cluster disruption of RISC HPTC confirmed as historically accurate, though not predicted by Aberdeen."
+    },
+    "OBS-S4-027": {
+      "outcome": "IBM's RS/6000 SP technology evolved into ASCI White and IBM Blue Gene systems. IBM Power-based systems dominated TOP500 HPC list multiple times through the 2000s-2010s.",
+      "confidence": "partially-verified",
+      "notes": "IBM HPTC evolution via Power architecture confirmed. Source: TOP500 list historical data."
+    },
+    "OBS-S4-028": {
+      "outcome": "Aberdeen's prediction that HP was not investing in Convex HPTC proved accurate. HP focused on mainstream ProLiant servers; Convex architecture was effectively abandoned.",
+      "confidence": "partially-verified",
+      "notes": "HP Convex abandonment confirmed by HP product history."
+    },
+    "OBS-S5-024": {
+      "outcome": "Compaq's acquisition of DEC in June 1998 effectively ended NonStop VLDB product development and marketing as predicted.",
+      "confidence": "partially-verified",
+      "notes": "NonStop VLDB discontinuation post-Compaq acquisition confirmed."
+    },
+    "OBS-S5-025": {
+      "outcome": "SAN snapshots, disk-based backup, and deduplication (EMC Data Domain, NetApp SnapVault) delivered order-of-magnitude improvements in backup/restore speed by 2005-2010, validating Aberdeen's prediction.",
+      "confidence": "partially-verified",
+      "notes": "Fast backup/restore via SAN/deduplication confirmed. EMC Data Domain (acquired by EMC 2009) and NetApp disk-based backup validated prediction."
+    },
+    "OBS-S5-026": {
+      "outcome": "Symantec acquired Open Vision Technologies' backup software in 1999; it became Symantec NetBackup, one of the dominant enterprise backup products for decades.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm Symantec/Open Vision acquisition resulting in NetBackup product."
+    },
+    "OBS-S5-027": {
+      "outcome": "EMC acquired Legato Systems for $1.3 billion in 2003. Legato NetWorker became part of EMC and later Dell Technologies portfolio.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm EMC/Legato acquisition 2003 for $1.3B."
+    },
+    "OBS-S5-028": {
+      "outcome": "Aberdeen's prediction that backup/restore would 'go strategic' was validated: continuous data protection (CDP), cloud backup (AWS Backup, Azure Backup), and cloud DR became multi-billion dollar markets by 2015-2020.",
+      "confidence": "partially-verified",
+      "notes": "Strategic backup/restore validation confirmed by cloud backup market growth."
+    },
+    "OBS-S5-029": {
+      "outcome": "SGI went bankrupt 2006/2009 and never became a backup/restore technology leader. The fast backup market was led by disk-based backup vendors (EMC, NetApp, Symantec), not traditional HPTC vendors.",
+      "confidence": "partially-verified",
+      "notes": "SGI backup market failure confirmed by bankruptcy and market history."
+    },
+    "OBS-S5-030": {
+      "outcome": "Data warehouse refresh frequency improved dramatically. Modern data warehouses and data lakes support near-real-time or continuous loading by 2010-2020, validating Aberdeen's prediction.",
+      "confidence": "partially-verified",
+      "notes": "Data warehouse refresh frequency improvement validated by modern OLAP/data lake architectures."
+    },
+    "obs-rs6-009": {
+      "outcome": "RS/6000 S70 (Model 7017) was discontinued December 13, 1999 as specified. RS64-II (262 MHz) and RS64-III (450 MHz) followed as next-generation processors.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'RS/6000 S70 Model 7017 discontinued December 13, 1999.' Wikipedia RS/6000 history."
+    },
+    "obs-nc-011": {
+      "outcome": "NC brand never achieved hoped-for popularity; PC prices fell below $1,000 within 2 years, undercutting the NC value proposition. Oracle NC discontinued circa 2000.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'PC commoditization, immature software, and insufficient bandwidth defeated NC. Oracle NC discontinued ~2000.'"
+    },
+    "obs-nc-015": {
+      "outcome": "VDI (Citrix, VMware View) and Cloud PC platforms realized the enterprise NC architecture by 2010-2015. The thin-client/centralized model was validated ~15 years after the original NC.",
+      "confidence": "partially-verified",
+      "notes": "VDI/Cloud PC as NC successor confirmed by industry adoption."
+    },
+    "obs-nc-025": {
+      "outcome": "PC prices fell below $1,000 quickly (by 1998-1999), destroying the NC cost argument. Wikipedia confirms 'prices of PCs quickly fell below $1,000, making the competition very hard.'",
+      "confidence": "partially-verified",
+      "notes": "PC price commoditization defeating NC confirmed. Source: Wikipedia NC article."
+    },
+    "1999-01-linuxcare-draft-profile-6828c0-OBS-013": {
+      "outcome": "Linux enterprise application coverage expanded significantly by 2001. By 2001, Oracle, SAP, IBM DB2, and major enterprise applications all had Linux ports. Linux server revenues grew 63% from 2001 to 2002 to $2 billion, reflecting strong enterprise adoption. However, Linuxcare itself was acquired by Turbolinux and eventually rebranded as Levanta.",
+      "confidence": "partially-verified",
+      "notes": "Linux enterprise application breadth expanded substantially by 2001 as predicted; Oracle, SAP, IBM DB2 all on Linux. Linuxcare acquired by Turbolinux 2001. Source: https://www.wired.com/2000/05/linuxcare-cuts-jobs-nixes-ipo/; https://www.serverwatch.com/servers/turbolinux-acquires-linuxcare/; https://www.cnet.com/tech/tech-industry/ibm-dell-win-in-losing-server-market/"
+    },
+    "2002-04-oracle-appsworld-insight-jones-fb0f43-OBS-006": {
+      "outcome": "Daily/virtual close did not become a mainstream ERP requirement by 2015. While real-time financial reporting capabilities improved significantly with cloud ERP (Oracle Fusion, SAP S/4HANA), the daily accounting close remained a niche capability. Most enterprises still operated monthly or quarterly close cycles. SAP S/4HANA offered near-instant financial close simulation but it was not universally adopted.",
+      "confidence": "refuted",
+      "notes": "Daily close did not become mainstream by 2015; periodic close (monthly/quarterly) remained standard. Cloud ERP improved real-time visibility but did not eliminate close cycles. Source: General ERP market knowledge."
+    },
+    "2002-04-oracle-appsworld-insight-jones-fb0f43-OBS-010": {
+      "outcome": "ERP SaaS/cloud adoption trajectory was validated. Cloud ERP grew from near-zero in 2002 to majority of new ERP deployments by 2015-2020. Oracle Cloud ERP, SAP S/4HANA Cloud, Workday, and NetSuite all became major players. By 2019, cloud ERP adoption rate reached ~38% with strong growth trajectory.",
+      "confidence": "partially-verified",
+      "notes": "ERP SaaS adoption trajectory validated; cloud ERP became mainstream by 2015-2020. Source: ERP market analysis reports; https://ocauditor.gov/wp-content/uploads/2023/04/Market-Analysis-PPT.pdf"
+    },
+    "2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2-OBS-003": {
+      "outcome": "FVCM (Financial Value Chain Management) and analytics convergence did occur, though under different branding. The CPM (Corporate Performance Management) market formed by 2005-2010, combining financial close, budgeting, consolidation, and analytics. Vendors like Hyperion (acquired Oracle 2007), Cognos (IBM 2008), and Cartesis (Oracle 2007) embodied this convergence.",
+      "confidence": "partially-verified",
+      "notes": "FVCM-analytics convergence occurred via CPM market formation 2005-2010. Oracle/Hyperion, IBM/Cognos validated the convergence. Source: General CPM market history."
+    },
+    "2003-06-sarbanes-oxley-insight-pt2-veytsel-3950f2-OBS-016": {
+      "outcome": "FVCM specialist vendors did add analytics capabilities by 2010. Kyriba (XRT spinoff) expanded from treasury to cash analytics. Basware added analytics to AP automation. Bottomline Technologies added analytics. The prediction of analytics expansion was partially validated.",
+      "confidence": "partially-verified",
+      "notes": "FVCM vendors added analytics over 2005-2015 period. Kyriba grew from XRT spinoff to treasury analytics platform. Source: https://www.kyriba.com/resource/innovating-into-a-new-era/"
+    },
+    "2004-09-intel-64bit-tipping-point-b21860-OBS-004": {
+      "outcome": "Itanium server market did not reach $8 billion. By 2008, Itanium-based system revenue was approximately $4.4B annually (HP alone), declining to $3.5B by end-2009. x86-64 (EM64T/AMD64) dominated general workloads as predicted. Itanium was discontinued in 2021.",
+      "confidence": "partially-verified",
+      "notes": "Itanium did not reach $8B; peaked at ~$4.4B (HP) by 2008, then declined. x86-64 dominated. Source: https://en.wikipedia.org/wiki/Itanium (market share section)"
+    },
+    "2004-09-intel-64bit-tipping-point-b21860-OBS-010": {
+      "outcome": "32-bit x86 server market was substantially displaced by x86-64 (EM64T/AMD64) by 2008-2010. By 2009, most new servers shipped with x86-64 processors. 32-bit-only server workloads became legacy by 2010.",
+      "confidence": "partially-verified",
+      "notes": "32-bit x86 displacement confirmed. Source: https://en.wikipedia.org/wiki/Itanium ('By 2009, most servers were being shipped with x86-64 processors')"
+    },
+    "2004-09-intel-64bit-tipping-point-b21860-OBS-023": {
+      "outcome": "Intel discontinued Itanium on July 29, 2021. Final orders accepted until January 30, 2020. This matched the predicted discontinuation.",
+      "confidence": "partially-verified",
+      "notes": "Source notes confirm: 'Intel discontinued Itanium in 2021; x86-64 dominated as predicted.' Source: https://en.wikipedia.org/wiki/Itanium"
+    }
+  }
+}

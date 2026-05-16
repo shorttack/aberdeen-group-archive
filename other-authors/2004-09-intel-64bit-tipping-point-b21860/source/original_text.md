@@ -1181,7 +1181,7 @@ Intel's September 2004 white paper positions two complementary 64-bit architectu
 | International Data Corporation (IDC) | firm | active |  |
 | Aberdeen Group, Inc. | company | dissolved | acquired by Harte-Hanks 2001 |
 | Forrester Research, Inc. | company | active |  |
-| Omicronn | company | [DEFERRED] |  |
+| Omicronn | company | unknown |  |
 
 ### Technologies Referenced (8)
 

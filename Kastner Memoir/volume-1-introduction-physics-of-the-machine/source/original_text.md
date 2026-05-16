@@ -99,11 +99,11 @@ This study did not make forward-looking claims.
 | Chase Manhattan Bank | company | acquired | JPMorgan Chase |
 | Stratus Computer | company | active |  |
 | DEC (Digital Equipment Corporation) | company | acquired | Compaq / HP |
-| Aberdeen Group | firm | acquired | [DEFERRED] |
-| Prime Computer | company | dissolved | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| Prime Computer | company | dissolved | Computervision (1992) -> PTC (1998) |
 | Federal Reserve | agency | active |  |
-| Apollo | company | acquired | [DEFERRED] |
-| Intelligent Electronics | company | dissolved | [DEFERRED] |
+| Apollo | company | acquired | Hewlett-Packard (1989) |
+| Intelligent Electronics | company | dissolved | Ingram Micro (1997, IE Distribution unit) |
 
 ### Technologies Referenced (7)
 

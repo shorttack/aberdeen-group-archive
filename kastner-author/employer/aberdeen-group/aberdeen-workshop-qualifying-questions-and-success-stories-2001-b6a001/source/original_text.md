@@ -58,15 +58,15 @@ This study did not make forward-looking claims.
 | Gerry Hemmendinger | person | active |  |
 | Tom Dwyer (Aberdeen) | person | active |  |
 | Peter Fessenden | person | active |  |
-| LogicLibrary | company | [DEFERRED] | [DEFERRED] |
-| XML Global Technologies | company | [DEFERRED] | [DEFERRED] |
+| LogicLibrary | company | acquired | Serena Software (2006), then Micro Focus (2016) |
+| XML Global Technologies | company | defunct |  |
 | XMLSolutions (business unit of Vitria) | company | dissolved | Vitria Technology, Inc. |
-| Pequot Capital Management | company | dissolved | [DEFERRED] |
-| Critical Path, Inc. | company | [DEFERRED] | [DEFERRED] |
-| BoldFish | company | [DEFERRED] | [DEFERRED] |
-| Link Software | company | [DEFERRED] | [DEFERRED] |
-| Axiom8 | company | [DEFERRED] | [DEFERRED] |
-| Vitria Technology, Inc. | company | [DEFERRED] | [DEFERRED] |
+| Pequot Capital Management | company | dissolved |  |
+| Critical Path, Inc. | company | acquired | Openwave Messaging (2013) |
+| BoldFish | company | defunct |  |
+| Link Software | company | unknown |  |
+| Axiom8 | company | defunct |  |
+| Vitria Technology, Inc. | company | active |  |
 
 ### Technologies Referenced (17)
 

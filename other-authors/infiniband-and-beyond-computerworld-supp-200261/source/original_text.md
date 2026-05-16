@@ -767,7 +767,7 @@ Computerworld Australia feature on InfiniBand, a next-generation data-center int
 | Microsoft Corporation | company | active |  |
 | Sun Microsystems | company | acquired | Oracle 2010 |
 | Dell Computer Corporation | company | active | renamed Dell Inc., then Dell Technologies |
-| Don Kerr | person | [DEFERRED] |  |
+| Don Kerr | person | unknown |  |
 | Carly Suppa | person | active |  |
 | Computerworld Australia (IDG) | company | active | acquired by IDG; transitioned to ARN |
 

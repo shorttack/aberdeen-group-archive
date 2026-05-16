@@ -240,15 +240,15 @@ Peter S. Kastner recounts his six years (1981–1987) as Manager of Marketing De
 | John Morgridge | person | active |  |
 | John Logan | person | unknown |  |
 | Kate Morgridge | person | unknown |  |
-| Prime Computer | company | acquired | [DEFERRED] |
+| Prime Computer | company | acquired | Computervision (1992) -> PTC (1998) |
 | Mitre Corporation | institution | active |  |
-| GTE Sylvania | company | acquired | [DEFERRED] |
-| Systems Development Corporation | company | acquired | [DEFERRED] |
+| GTE Sylvania | company | acquired | OSRAM Sylvania (lighting, 1993) / Genuity (telecom, 2000) |
+| Systems Development Corporation | company | acquired | Burroughs Corporation (1981) -> Unisys (1986) |
 | NORAD (North American Aerospace Defense Command) | agency | active |  |
 | Rolm Corporation | company | acquired | IBM (acquired 1984) |
 | Ascend Communications | company | acquired | Lucent Technologies |
 | Nortel | company | dissolved | Various acquirers (2009 bankruptcy) |
-| Yankee Group | firm | dissolved | [DEFERRED] |
+| Yankee Group | firm | dissolved | 451 Research (2013) -> S&P Global (2019); brand retired |
 | Digital Equipment Corporation | company | acquired | Compaq |
 | Honeywell | company | active |  |
 | Cisco Systems | company | active |  |

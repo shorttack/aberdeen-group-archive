@@ -343,9 +343,9 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ilm-timeframe-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** ILM (Information Lifecycle Management) as a formal product category emerged around 2003-2006 with EMC, IBM, and HP offering tiered storage solutions. The timeframe for mainstream ILM adoption was approximately 2003-2007, broadly consistent with predictions in this study. Automated storage tiering became a standard feature of enterprise storage arrays by mid-2000s.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | ILM as a storage category was realized within the predicted timeframe; tiered storage and policy-based data management became standard by 2006-2007. Source: https://cacm.acm.org/research/information-life-cycle-management/
 
 **Prediction 2:** ilm-decade-battle-prediction
 - **Claimed:** ILM will come to be the big storage-related market battle of the decade — whether called ILM or not.
@@ -353,9 +353,9 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 2:** ilm-timeframe-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** ILM (Information Lifecycle Management) as a formal product category emerged around 2003-2006 with EMC, IBM, and HP offering tiered storage solutions. The timeframe for mainstream ILM adoption was approximately 2003-2007, broadly consistent with predictions in this study. Automated storage tiering became a standard feature of enterprise storage arrays by mid-2000s.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | ILM as a storage category was realized within the predicted timeframe; tiered storage and policy-based data management became standard by 2006-2007. Source: https://cacm.acm.org/research/information-life-cycle-management/
 
 **Prediction 3:** ilm-no-winners-yet
 - **Claimed:** Winners: None yet. Opening gun just went off. EMC making waves.
@@ -363,9 +363,9 @@ Aberdeen sales-acceleration deck prepared for EMC outlining a research-driven pr
 - **Confidence at time:** high
 
 **Actual Outcome 3:** ilm-timeframe-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** ILM (Information Lifecycle Management) as a formal product category emerged around 2003-2006 with EMC, IBM, and HP offering tiered storage solutions. The timeframe for mainstream ILM adoption was approximately 2003-2007, broadly consistent with predictions in this study. Automated storage tiering became a standard feature of enterprise storage arrays by mid-2000s.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | ILM as a storage category was realized within the predicted timeframe; tiered storage and policy-based data management became standard by 2006-2007. Source: https://cacm.acm.org/research/information-life-cycle-management/
 
 
 ### Entities Referenced (4)

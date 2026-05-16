@@ -471,9 +471,9 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ddr2-platform-longevity-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** DDR2 memory was introduced in server and workstation platforms in 2004-2005 with the Nocona/Lindenhurst platform. However, DDR2 did not achieve particularly long longevity as a platform; DDR3 began displacing it by 2007-2008. The platform served approximately 3-4 years in mainstream use.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | DDR2 platform arrived in 2004 as predicted but was not especially long-lived; DDR3 emerged by 2007. Source: https://serverando.de/en/magazine/ddr2-ram-in-profile; Intel server platform roadmaps.
 
 **Prediction 2:** windows-xp-64-timing
 - **Claimed:** Windows XP 64-bit OS and drivers expected Q1 2005.
@@ -481,9 +481,9 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** medium
 
 **Actual Outcome 2:** windows-xp-64-timing-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Windows XP x64 shipped April 2005 — approximately on target.
+- **Result:** Windows XP x64 Edition shipped April 25, 2005, approximately on target with the 2004 prediction timeframe. This was based on the Nocona (Xeon EM64T) platform launched June 2004.
+- **Confidence:** partially-verified
+- **Notes:** Windows XP x64 shipped April 2005 — approximately on target. | Source notes already indicate 'Windows XP x64 shipped April 2005 — approximately on target.' Confirming this as partially-verified. Source: General Microsoft/Intel timeline records.
 
 **Prediction 3:** 64-bit-enablement-timing
 - **Claimed:** Broad 64-bit enablement begins with Windows XP 64-bit; application vendors continue delivering 64-bit apps throughout 2005.
@@ -491,9 +491,9 @@ Dell confidential (NDA) Q2 FY04 launch briefing for the new Dell Precision 370/4
 - **Confidence at time:** medium
 
 **Actual Outcome 3:** windows-xp-64-timing-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Windows XP x64 shipped April 2005 — approximately on target.
+- **Result:** Windows XP x64 Edition shipped April 25, 2005, approximately on target with the 2004 prediction timeframe. This was based on the Nocona (Xeon EM64T) platform launched June 2004.
+- **Confidence:** partially-verified
+- **Notes:** Windows XP x64 shipped April 2005 — approximately on target. | Source notes already indicate 'Windows XP x64 shipped April 2005 — approximately on target.' Confirming this as partially-verified. Source: General Microsoft/Intel timeline records.
 
 
 ### Entities Referenced (6)

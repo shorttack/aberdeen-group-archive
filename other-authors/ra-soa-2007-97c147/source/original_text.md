@@ -8349,12 +8349,12 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
 | Perry Donham | person | active |  |
-| iTKO Inc. | company | [DEFERRED] | [DEFERRED] |
-| Mindreef Inc. | company | [DEFERRED] | [DEFERRED] |
-| Solstice Software | company | [DEFERRED] | [DEFERRED] |
-| iSOFT Group | company | [DEFERRED] | [DEFERRED] |
+| iTKO Inc. | company | acquired | CA Technologies (Broadcom) (2011) |
+| Mindreef Inc. | company | acquired | Progress Software (via IONA acquisition path, 2008) |
+| Solstice Software | company | defunct |  |
+| iSOFT Group | company | acquired | CSC (Computer Sciences Corporation) (April 2011) |
 
 ### Technologies Referenced (11)
 

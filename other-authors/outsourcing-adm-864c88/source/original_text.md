@@ -1358,10 +1358,10 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| IBM (International Business Machines) | company | [DEFERRED] | [DEFERRED] |
-| Softtek | company | [DEFERRED] | [DEFERRED] |
-| Unisys | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| IBM (International Business Machines) | company | active |  |
+| Softtek | company | active |  |
+| Unisys | company | active |  |
 
 ### Technologies Referenced (8)
 

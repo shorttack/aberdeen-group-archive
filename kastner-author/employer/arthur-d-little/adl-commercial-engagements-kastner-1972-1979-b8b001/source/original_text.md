@@ -321,33 +321,33 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Arthur D. Little, Inc. | firm | operating | [DEFERRED] |
-| Arthur D. Little Systems, Inc. (ADLS) | firm | dissolved | [DEFERRED] |
+| Arthur D. Little, Inc. | firm | operating |  |
+| Arthur D. Little Systems, Inc. (ADLS) | firm | dissolved | Dissolved as ADL division; assets distributed within ADL parent |
 | Chase Manhattan Bank | company | merged | JPMorgan Chase (2000) |
 | UNIVAC / Sperry Rand | company | merged | Unisys (1986) |
-| IBM | company | operating | [DEFERRED] |
-| Federal University of Rio de Janeiro (UFRJ) | institution | operating | [DEFERRED] |
+| IBM | company | operating |  |
+| Federal University of Rio de Janeiro (UFRJ) | institution | operating |  |
 | Burroughs Corporation | company | merged | Unisys (1986) |
-| Ocean Spray Cranberries | company | operating | [DEFERRED] |
+| Ocean Spray Cranberries | company | operating |  |
 | Houghton Mifflin | company | merged | Houghton Mifflin Harcourt |
 | Honeywell Information Systems | company | sold | Bull / NEC (1991) |
-| Massachusetts Mutual Life Insurance Company | company | operating | [DEFERRED] |
+| Massachusetts Mutual Life Insurance Company | company | operating |  |
 | Nortel Networks (Northern Telecom) | company | dissolved | Avaya / Ciena / others (2009 BK) |
-| Citibank | company | operating | [DEFERRED] |
-| Parade Magazine | company | ceased | [DEFERRED] |
+| Citibank | company | operating |  |
+| Parade Magazine | company | ceased | Athlon Sports & Entertainment (2022 print closure) |
 | Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998) -> HP (2002) |
-| American Science & Engineering (AS&E) | company | operating | [DEFERRED] |
-| United States Navy | agency | operating | [DEFERRED] |
-| Cumberland Farms | company | operating | [DEFERRED] |
-| Continental Forest Industries | company | [DEFERRED] | [DEFERRED] |
-| Wisconsin Electric Power Company | company | operating | [DEFERRED] |
-| Mary Ellen 'Mel' Holland | person | [DEFERRED] | [DEFERRED] |
-| Murray Sherry | person | [DEFERRED] | [DEFERRED] |
-| David Rockefeller | person | deceased | [DEFERRED] |
-| Hans Nijkamp | person | [DEFERRED] | [DEFERRED] |
-| Barbara Kruesi | person | [DEFERRED] | [DEFERRED] |
-| Kate Kastner | person | [DEFERRED] | [DEFERRED] |
-| Peter S. Kastner | person | operating | [DEFERRED] |
+| American Science & Engineering (AS&E) | company | operating |  |
+| United States Navy | agency | operating |  |
+| Cumberland Farms | company | operating |  |
+| Continental Forest Industries | company | defunct | Continental Group (sold to Kiewit/Murdock consortium 1984); forest products operations wound down |
+| Wisconsin Electric Power Company | company | operating | WEC Energy Group |
+| Mary Ellen 'Mel' Holland | person | unknown |  |
+| Murray Sherry | person | unknown |  |
+| David Rockefeller | person | deceased |  |
+| Hans Nijkamp | person | unknown |  |
+| Barbara Kruesi | person | unknown |  |
+| Kate Kastner | person | unknown |  |
+| Peter S. Kastner | person | operating |  |
 | First Chicago Corporation | company | merged | Bank One -> JPMorgan Chase |
 
 ### Technologies Referenced (25)

@@ -592,42 +592,42 @@ Excerpt from Charles C. Kenney's 1992-1995 book 'Riding the Runaway Horse: The R
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Charles C. Kenney | person | [DEFERRED] | [DEFERRED] |
+| Charles C. Kenney | person | unknown |  |
 | Wang Laboratories, Inc. | company | dissolved | Getronics (1999) -> Mphasis |
-| Dr. An Wang | person | deceased | [DEFERRED] |
-| Fred Wang | person | [DEFERRED] | [DEFERRED] |
-| Mrs. An Wang | person | [DEFERRED] | [DEFERRED] |
+| Dr. An Wang | person | deceased |  |
+| Fred Wang | person | unknown |  |
+| Mrs. An Wang | person | unknown |  |
 | PHI Computer Services, Inc. | company | acquired | Wang Laboratories (1968) |
-| Philip 'Phil' Hankins | person | [DEFERRED] | [DEFERRED] |
-| Bob Plachta | person | [DEFERRED] | [DEFERRED] |
-| John Cullinane | person | [DEFERRED] | [DEFERRED] |
+| Philip 'Phil' Hankins | person | unknown |  |
+| Bob Plachta | person | unknown |  |
+| John Cullinane | person | unknown |  |
 | Cullinet Software | company | acquired | Computer Associates (1989) |
-| Harold Koplow | person | [DEFERRED] | [DEFERRED] |
-| Dave Moros | person | [DEFERRED] | [DEFERRED] |
-| Bob Siegel | person | [DEFERRED] | [DEFERRED] |
-| Bob Kolk | person | [DEFERRED] | [DEFERRED] |
-| Ed Lesnick | person | [DEFERRED] | [DEFERRED] |
-| John Cunningham | person | [DEFERRED] | [DEFERRED] |
-| Harry Chou | person | [DEFERRED] | [DEFERRED] |
-| Dr. Ge Yao Chu | person | [DEFERRED] | [DEFERRED] |
-| Frank Trantanella | person | [DEFERRED] | [DEFERRED] |
-| Peter Brooke | person | [DEFERRED] | [DEFERRED] |
+| Harold Koplow | person | unknown |  |
+| Dave Moros | person | unknown |  |
+| Bob Siegel | person | unknown |  |
+| Bob Kolk | person | unknown |  |
+| Ed Lesnick | person | unknown |  |
+| John Cunningham | person | unknown |  |
+| Harry Chou | person | unknown |  |
+| Dr. Ge Yao Chu | person | unknown |  |
+| Frank Trantanella | person | unknown |  |
+| Peter Brooke | person | unknown |  |
 | Warner & Swasey | company | acquired | Bendix -> Cross & Trecker |
-| Jim Hodge | person | [DEFERRED] | [DEFERRED] |
-| Myron Curtis | person | [DEFERRED] | [DEFERRED] |
+| Jim Hodge | person | unknown |  |
+| Myron Curtis | person | unknown |  |
 | Digital Equipment Corporation (DEC) | company | acquired | Compaq (1998) -> HP (2002) |
-| Kenneth H. Olsen | person | deceased | [DEFERRED] |
+| Kenneth H. Olsen | person | deceased |  |
 | Prime Computer | company | dissolved | Computervision -> J.M. Ney |
-| Ken Fisher | person | [DEFERRED] | [DEFERRED] |
-| IBM | company | operating | [DEFERRED] |
-| NASA | agency | operating | [DEFERRED] |
-| Arthur D. Little, Inc. | firm | operating | [DEFERRED] |
-| Hill Holliday | company | operating | [DEFERRED] |
+| Ken Fisher | person | unknown |  |
+| IBM | company | operating |  |
+| NASA | agency | operating |  |
+| Arthur D. Little, Inc. | firm | operating |  |
+| Hill Holliday | company | operating |  |
 | Honeywell | company | sold | Bull / NEC |
 | Burroughs Corporation | company | merged | Unisys (1986) |
 | Data General Corporation | company | acquired | EMC -> Dell Technologies |
-| CBS | company | operating | [DEFERRED] |
-| Moody's Investors Service | company | operating | [DEFERRED] |
+| CBS | company | operating |  |
+| Moody's Investors Service | company | operating |  |
 
 ### Technologies Referenced (7)
 

@@ -457,7 +457,7 @@ Aberdeen Group profiles Linuxcare, Inc., a San Francisco-based firm providing en
 | TurboLinux North America | company | dissolved | acquired |
 | Samba Project | institution | active |  |
 | Debian GNU/Linux Project | institution | active |  |
-| Densa Techno Tokyo K.K. (Hitachi subsidiary) | company | [DEFERRED] |  |
+| Densa Techno Tokyo K.K. (Hitachi subsidiary) | company | unknown |  |
 | Compaq Computer Corporation | company | dissolved | acquired by HP 2002 |
 | Fernand Sarrat | person | active |  |
 | David L. Sifry | person | active |  |

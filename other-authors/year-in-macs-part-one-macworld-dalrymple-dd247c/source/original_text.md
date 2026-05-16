@@ -617,7 +617,7 @@ Macworld year-in-review recapping Apple's 2004: iPod division split from Mac, 2 
 | Steve Jobs | person | deceased |  |
 | Jon Rubinstein | person | retired |  |
 | Tim Cook | person | active |  |
-| Tom Boger | person | [DEFERRED] |  |
+| Tom Boger | person | unknown |  |
 
 ### Technologies Referenced (7)
 

@@ -90,9 +90,9 @@ Aberdeen internal IBM major-account plan covering Q3 2001 status, 18-month goals
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** ibm-revenue-run-rate-outcome
-- **Result:** [UNVERIFIED]
+- **Result:** IBM's revenue run-rate outcomes for the 2001 major account plan are internal proprietary data not publicly available. IBM's total revenue for 2001 was approximately $85.9 billion, declining from $88.4 billion in 2000 due to the dot-com recession. Specific account-level outcomes cannot be verified.
 - **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder; internal outcome not in archive.
+- **Notes:** Placeholder; internal outcome not in archive. | Internal IBM major account plan outcomes not publicly verifiable. IBM's overall 2001 revenue declined ~3% due to recession. Source: IBM 2001 Annual Report.
 
 
 ### Entities Referenced (7)

@@ -1,12 +1,12 @@
-"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
-"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks -> Spiceworks Ziff Davis","1988-present","infiniband-and-beyond-computerworld-supp-200261","Published 'InfiniBand Architecture' white paper; Kastner as EVP/CRO"
-"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1980s-present","infiniband-and-beyond-computerworld-supp-200261","EVP and chief research officer for Aberdeen"
-"infiniband-trade-association","InfiniBand Trade Association (IBTA)","institution","standards-body","active","","1999-present","infiniband-and-beyond-computerworld-supp-200261","150+ member companies including IBM, Intel, Microsoft, Sun, Dell"
-"ibm-corp","IBM Corporation","company","computing-hardware","active","","1911-present","infiniband-and-beyond-computerworld-supp-200261","IBTA member"
-"intel-corp","Intel Corporation","company","semiconductors","active","","1968-present","infiniband-and-beyond-computerworld-supp-200261","IBTA member"
-"microsoft","Microsoft Corporation","company","software","active","","1975-present","infiniband-and-beyond-computerworld-supp-200261","IBTA member"
-"sun-microsystems","Sun Microsystems","company","computing-hardware","acquired","Oracle 2010","1982-2010","infiniband-and-beyond-computerworld-supp-200261","IBTA member"
-"dell","Dell Computer Corporation","company","computing-hardware","active","renamed Dell Inc., then Dell Technologies","1984-present","infiniband-and-beyond-computerworld-supp-200261","IBTA member; Don Kerr quoted"
-"don-kerr-dell-canada","Don Kerr","person","computing-executive","[DEFERRED]","","2000s","infiniband-and-beyond-computerworld-supp-200261","Director of Canadian Advanced Systems Group at Dell Canada, Markham Ont."
-"carly-suppa-cw-au","Carly Suppa","person","tech-journalism","active","","2000s-present","infiniband-and-beyond-computerworld-supp-200261","Computerworld Australia journalist"
-"computerworld-australia","Computerworld Australia (IDG)","company","tech-media","active","acquired by IDG; transitioned to ARN","1980s-present","infiniband-and-beyond-computerworld-supp-200261","Publisher; IDG subsidiary"
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Spiceworks Ziff Davis,1988-present,infiniband-and-beyond-computerworld-supp-200261,Published 'InfiniBand Architecture' white paper; Kastner as EVP/CRO
+peter-s-kastner,Peter S. Kastner,person,IT-analyst,active,,1980s-present,infiniband-and-beyond-computerworld-supp-200261,EVP and chief research officer for Aberdeen
+infiniband-trade-association,InfiniBand Trade Association (IBTA),institution,standards-body,active,,1999-present,infiniband-and-beyond-computerworld-supp-200261,"150+ member companies including IBM, Intel, Microsoft, Sun, Dell"
+ibm-corp,IBM Corporation,company,computing-hardware,active,,1911-present,infiniband-and-beyond-computerworld-supp-200261,IBTA member
+intel-corp,Intel Corporation,company,semiconductors,active,,1968-present,infiniband-and-beyond-computerworld-supp-200261,IBTA member
+microsoft,Microsoft Corporation,company,software,active,,1975-present,infiniband-and-beyond-computerworld-supp-200261,IBTA member
+sun-microsystems,Sun Microsystems,company,computing-hardware,acquired,Oracle 2010,1982-2010,infiniband-and-beyond-computerworld-supp-200261,IBTA member
+dell,Dell Computer Corporation,company,computing-hardware,active,"renamed Dell Inc., then Dell Technologies",1984-present,infiniband-and-beyond-computerworld-supp-200261,IBTA member; Don Kerr quoted
+don-kerr-dell-canada,Don Kerr,person,computing-executive,unknown,,2000s,infiniband-and-beyond-computerworld-supp-200261,"Director of Canadian Advanced Systems Group at Dell Canada, Markham Ont. | Source: Don Kerr at Dell Canada; current status not publicly verifiable"
+carly-suppa-cw-au,Carly Suppa,person,tech-journalism,active,,2000s-present,infiniband-and-beyond-computerworld-supp-200261,Computerworld Australia journalist
+computerworld-australia,Computerworld Australia (IDG),company,tech-media,active,acquired by IDG; transitioned to ARN,1980s-present,infiniband-and-beyond-computerworld-supp-200261,Publisher; IDG subsidiary

@@ -872,26 +872,26 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Arthur D. Little, Inc. | firm | operating | [DEFERRED] |
-| Arthur D. Little Systems, Inc. (ADLS) | firm | dissolved | [DEFERRED] |
-| ADLS Public Safety Group | firm | dissolved | [DEFERRED] |
+| Arthur D. Little, Inc. | firm | operating |  |
+| Arthur D. Little Systems, Inc. (ADLS) | firm | dissolved | Dissolved as ADL division; assets distributed within ADL parent |
+| ADLS Public Safety Group | firm | dissolved | Dissolved with ADLS reorganization (1980s) |
 | Data General Corporation | company | acquired | EMC -> Dell Technologies |
-| IBM | company | operating | [DEFERRED] |
+| IBM | company | operating |  |
 | Motorola | company | split | Motorola Solutions / Motorola Mobility (Lenovo) |
-| Boston Area Police Emergency Radio Network (BAPERN) | institution | operating | [DEFERRED] |
-| Greater Boston Police Council (GBPC) | agency | operating | [DEFERRED] |
+| Boston Area Police Emergency Radio Network (BAPERN) | institution | operating |  |
+| Greater Boston Police Council (GBPC) | agency | operating |  |
 | Law Enforcement Assistance Administration (LEAA) | agency | dissolved | Bureau of Justice Assistance |
-| Federal Communications Commission (FCC) | agency | operating | [DEFERRED] |
-| Boston Police Department | agency | operating | [DEFERRED] |
-| Philadelphia Police Department | agency | operating | [DEFERRED] |
-| Minneapolis Police Department | agency | operating | [DEFERRED] |
-| Aurora CO Police Department | agency | operating | [DEFERRED] |
-| St. Petersburg FL Police Department | agency | operating | [DEFERRED] |
-| St. Petersburg FL Fire Department | agency | operating | [DEFERRED] |
-| Hampton VA Police Department | agency | operating | [DEFERRED] |
+| Federal Communications Commission (FCC) | agency | operating |  |
+| Boston Police Department | agency | operating |  |
+| Philadelphia Police Department | agency | operating |  |
+| Minneapolis Police Department | agency | operating |  |
+| Aurora CO Police Department | agency | operating |  |
+| St. Petersburg FL Police Department | agency | operating |  |
+| St. Petersburg FL Fire Department | agency | operating |  |
+| Hampton VA Police Department | agency | operating |  |
 | Andersen Consulting | firm | renamed | Accenture (2001) |
-| Peter S. Kastner | person | operating | [DEFERRED] |
-| Crime Control Planning Department / Massachusetts | agency | [DEFERRED] | [DEFERRED] |
+| Peter S. Kastner | person | operating |  |
+| Crime Control Planning Department / Massachusetts | agency | unknown |  |
 
 ### Technologies Referenced (9)
 

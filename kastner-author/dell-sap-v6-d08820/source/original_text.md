@@ -126,9 +126,9 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** high
 
 **Actual Outcome 2:** unix-decline-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** UNIX server market decline did occur, with Windows servers surpassing UNIX in revenue for the first time in 2005. IDC reported Windows server revenues of $17.7B vs UNIX $17.5B for full-year 2005. Linux and Windows together displaced UNIX as the dominant enterprise server OS by 2005-2006.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | UNIX decline outcome validated: Windows surpassed UNIX in server revenue in 2005, Linux grew 20.8% YoY. Source: https://www.linuxinsider.com/story/windows-bumps-unix-as-server-os-leader-48999.html
 
 **Prediction 3:** linux-mission-critical-readiness
 - **Claimed:** The architecture for the first time makes Linux robust enough to run enterprise mission-critical applications with low disruption risk.
@@ -136,9 +136,9 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** high
 
 **Actual Outcome 3:** linux-mission-critical-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** Linux did achieve mission-critical status in enterprise environments by 2004-2005. Linux server revenues grew 14 consecutive quarters of double-digit growth through Q4 2005, reaching $5.7B for full-year 2005. Linux databases, SAP on Linux, and Oracle on Linux deployments became mainstream.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | Linux mission-critical outcome validated by 2005 IDC data showing $5.7B Linux server revenue and expanding enterprise workloads. Source: https://www.linuxinsider.com/story/windows-bumps-unix-as-server-os-leader-48999.html
 
 **Prediction 4:** dell-market-share-gain
 - **Claimed:** Dell will earn a fair share of RISC-Unix replacement business, some to Linux and some to Windows.
@@ -146,9 +146,9 @@ Aberdeen Perspective on the April 28, 2004 Dell-SAP announcement. Argues that ov
 - **Confidence at time:** medium
 
 **Actual Outcome 4:** dell-market-share-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** Dell's server market share grew as predicted. Dell's worldwide server revenue share rose from 7.5% in 2002 to 9.4% in 2004 and 10.3% in 2005, with unit shipment share at 23.3% by end-2005. Dell consistently outperformed the overall market growth rate.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder. | Dell market share outcome confirmed by IDC data. Source: https://www.zdnet.com/article/worldwide-server-sales-in-2005-ibm-32-9-hp-27-7-dell-10-3/; https://www.cnet.com/tech/tech-industry/ibm-dell-win-in-losing-server-market/
 
 
 ### Entities Referenced (10)

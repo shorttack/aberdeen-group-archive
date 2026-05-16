@@ -1316,9 +1316,9 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
 | Appian Corporation | company | active |  |
-| CTSpace | company | [DEFERRED] | [DEFERRED] |
+| CTSpace | company | acquired | Openwave Systems (circa 2005) |
 | Ramco Systems | company | active |  |
 
 ### Technologies Referenced (6)

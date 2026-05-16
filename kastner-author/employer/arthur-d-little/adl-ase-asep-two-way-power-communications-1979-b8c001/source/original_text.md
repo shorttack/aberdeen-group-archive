@@ -95,13 +95,13 @@ Trade-press article (likely Computerworld 1979) profiling American Science & Eng
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| American Science & Engineering, Inc. (AS&E) | company | operating | [DEFERRED] |
-| Dr. Martin Annis | person | [DEFERRED] | [DEFERRED] |
-| Ralph Abbott | person | [DEFERRED] | [DEFERRED] |
+| American Science & Engineering, Inc. (AS&E) | company | operating |  |
+| Dr. Martin Annis | person | unknown |  |
+| Ralph Abbott | person | unknown |  |
 | Florida Power Corporation | company | merged | Progress Energy / Duke Energy |
-| Florida Power & Light | company | operating | [DEFERRED] |
-| Wisconsin Electric Power Company | company | operating | [DEFERRED] |
-| US Department of Energy | agency | operating | [DEFERRED] |
+| Florida Power & Light | company | operating |  |
+| Wisconsin Electric Power Company | company | operating | WEC Energy Group |
+| US Department of Energy | agency | operating |  |
 
 ### Technologies Referenced (5)
 

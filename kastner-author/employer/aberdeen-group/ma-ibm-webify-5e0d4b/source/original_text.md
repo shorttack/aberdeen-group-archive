@@ -204,16 +204,16 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| Webify Solutions | company | [DEFERRED] | ibm |
-| Oracle | company | [DEFERRED] | [DEFERRED] |
-| SAP | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| IBM | company | active |  |
+| Webify Solutions | company | acquired | IBM (August 2006) |
+| Oracle | company | active |  |
+| SAP | company | active |  |
 | Infor | company | active |  |
-| Lawson Software | company | [DEFERRED] | infor |
-| Vitria Technology | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
-| Mercury Interactive | company | [DEFERRED] | hewlett-packard |
+| Lawson Software | company | acquired | Infor (via Golden Gate Capital merger, 2012) |
+| Vitria Technology | company | active |  |
+| Hewlett-Packard | company | active |  |
+| Mercury Interactive | company | acquired | Hewlett-Packard (HP) (November 2006) |
 
 ### Technologies Referenced (15)
 

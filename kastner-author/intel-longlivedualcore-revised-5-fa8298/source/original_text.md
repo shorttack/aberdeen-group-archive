@@ -348,9 +348,9 @@ Insight 64 analyst report by Nathan Brookwood on Intel Fall 2004 IDF. Paul Otell
 - **Confidence at time:** high
 
 **Actual Outcome 1:** intel-dual-core-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt.
+- **Result:** Intel's first-generation dual-core (Pentium D/Paxville) delivered disappointing performance-per-watt. Pentium D ran hot and power-inefficient under 90nm process. Core 2 Duo (Conroe/Merom, July 2006) delivered the significant performance-per-watt improvement. The prediction that dual-core would bring meaningful efficiency gains was validated by Core 2, though the first-gen Pentium D was inefficient.
+- **Confidence:** partially-verified
+- **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt. | Performance-per-watt validation came with Core 2 Duo (July 2006), not first-gen Pentium D (2005). Source: https://phys.org/news/2006-05-intel-core-microarchitecture-energy-efficiency.html
 
 **Prediction 2:** bus-capacitance-risk
 - **Claimed:** Physics concern: if Intel connects both on-die cores to the external bus directly, a two-socket four-core Xeon sees capacitance of 4 CPUs and a four-socket eight-core system sees 8 CPUs. Today's DP (3 loads) runs at 800MHz; 4-way (5 loads) runs at 400MHz. Two-socket four-core Xeon may see only 3.2GB/s bus bandwidth — step down from current 6.4GB/s; AMD can deliver 13.2GB/s.
@@ -358,9 +358,9 @@ Insight 64 analyst report by Nathan Brookwood on Intel Fall 2004 IDF. Paul Otell
 - **Confidence at time:** high
 
 **Actual Outcome 2:** intel-dual-core-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt.
+- **Result:** Intel's first-generation dual-core (Pentium D/Paxville) delivered disappointing performance-per-watt. Pentium D ran hot and power-inefficient under 90nm process. Core 2 Duo (Conroe/Merom, July 2006) delivered the significant performance-per-watt improvement. The prediction that dual-core would bring meaningful efficiency gains was validated by Core 2, though the first-gen Pentium D was inefficient.
+- **Confidence:** partially-verified
+- **Notes:** Verify Pentium D / Core Duo 2005-2006 actual performance-per-watt. | Performance-per-watt validation came with Core 2 Duo (July 2006), not first-gen Pentium D (2005). Source: https://phys.org/news/2006-05-intel-core-microarchitecture-energy-efficiency.html
 
 
 ### Entities Referenced (12)

@@ -91,9 +91,9 @@ Kastner's detailed hands-on evaluation notes for the Intel Classmate PC (CMPC) â
 - **Confidence at time:** high
 
 **Actual Outcome 1:** umpc-market-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Verified: netbook boom 2008-2011, Chromebook dominance in K-12 by mid-2010s.
+- **Result:** The netbook/UMPC market boomed 2007-2011 with Intel Classmate PC, OLPC XO, ASUS Eee PC, and numerous netbooks. By 2012-2013 the market declined as tablets (iPad) and Chromebooks displaced netbooks. Chromebooks achieved dominance in K-12 education by mid-2010s as predicted.
+- **Confidence:** partially-verified
+- **Notes:** Verified: netbook boom 2008-2011, Chromebook dominance in K-12 by mid-2010s. | Notes in source already indicate 'Verified: netbook boom 2008-2011, Chromebook dominance in K-12 by mid-2010s.' Confirming this assessment as partially-verified.
 
 
 ### Entities Referenced (5)

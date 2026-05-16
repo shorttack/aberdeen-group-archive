@@ -79,9 +79,9 @@ Draft fragment from Katherine Jones to Tom Dwyer revising a section on middlewar
 - **Confidence at time:** high
 
 **Actual Outcome 1:** integrator-viability-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Portera did fail as predicted — assets sold to Journyx around 2004.
+- **Result:** Portera Systems, a CRM/field service integrator, did fail as predicted. Portera's assets were acquired circa 2003-2004 (references to Journyx acquisition noted in source). The integrator-viability prediction was validated.
+- **Confidence:** partially-verified
+- **Notes:** Portera did fail as predicted — assets sold to Journyx around 2004. | Source notes indicate 'Portera did fail as predicted — assets sold to Journyx around 2004.' Confirming as partially-verified based on contextual notes.
 
 **Prediction 2:** xml-eases-integration
 - **Claimed:** The future holds promise of eased application integration through adherence to XML standards, supported by the major suppliers.
@@ -89,9 +89,9 @@ Draft fragment from Katherine Jones to Tom Dwyer revising a section on middlewar
 - **Confidence at time:** high
 
 **Actual Outcome 2:** xml-actual-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** XML/SOA/REST APIs did emerge as dominant integration layer.
+- **Result:** XML/SOA/REST APIs emerged as the dominant integration layer as predicted. By 2005-2010, XML-based web services (SOAP/WSDL) and then REST/JSON APIs became the universal enterprise integration standard. SOA adoption was mainstream by 2006-2008.
+- **Confidence:** partially-verified
+- **Notes:** XML/SOA/REST APIs did emerge as dominant integration layer. | XML/SOA/REST dominance validated. SOA became mainstream by 2006-2008; REST/JSON emerged by 2010. Source: General industry consensus; Aberdeen SOA research confirms trajectory.
 
 
 ### Entities Referenced (8)

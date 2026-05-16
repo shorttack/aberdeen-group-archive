@@ -319,9 +319,9 @@ Kastner-authored analyst column 'special to SearchCIO.com' (published on searchd
 - **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 1:** Dell market share direction
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Deferred.
+- **Result:** Dell's server market share grew from approximately 9.4% in 2004 to 10.3% revenue share (and 23.3% unit shipment share) in 2005, showing continued growth in the data warehouse, OLTP, and messaging segments. IDC data confirms Dell grew server revenue 13.3% year-over-year in 2005 while the market grew 4.4%.
+- **Confidence:** partially-verified
+- **Notes:** Deferred. | Dell's market share direction was upward in 2004-2005, consistent with 'dives deeper' narrative. Revenue share reached 10.3% and unit share 23.3% by end-2005. Source: https://www.zdnet.com/article/worldwide-server-sales-in-2005-ibm-32-9-hp-27-7-dell-10-3/
 
 
 ### Entities Referenced (10)

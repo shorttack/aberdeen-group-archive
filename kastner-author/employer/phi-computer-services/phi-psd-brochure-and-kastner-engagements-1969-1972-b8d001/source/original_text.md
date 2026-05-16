@@ -895,31 +895,31 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | PHI Computer Services, Inc. | company | acquired | Wang Laboratories (1968) |
 | PHI Professional Services Division (PSD) | firm | dissolved | Wang Laboratories |
-| Philip 'Phil' Hankins | person | [DEFERRED] | [DEFERRED] |
+| Philip 'Phil' Hankins | person | unknown |  |
 | Wang Laboratories, Inc. | company | dissolved | Getronics (1999) -> Mphasis |
-| Lawrence J. Munini | person | [DEFERRED] | [DEFERRED] |
-| Robert A. Siegel | person | [DEFERRED] | [DEFERRED] |
-| Wollaston B. Morin | person | [DEFERRED] | [DEFERRED] |
-| Arthur G. Yaffe | person | [DEFERRED] | [DEFERRED] |
-| Peter S. Kastner | person | operating | [DEFERRED] |
-| John Cullinane | person | [DEFERRED] | [DEFERRED] |
-| James Lees | person | [DEFERRED] | [DEFERRED] |
-| John Pryke | person | [DEFERRED] | [DEFERRED] |
-| John Morse | person | [DEFERRED] | [DEFERRED] |
-| Leo Fleck | person | [DEFERRED] | [DEFERRED] |
-| Bob McLaughlin | person | [DEFERRED] | [DEFERRED] |
-| Murray Sherry | person | [DEFERRED] | [DEFERRED] |
+| Lawrence J. Munini | person | unknown |  |
+| Robert A. Siegel | person | unknown |  |
+| Wollaston B. Morin | person | unknown |  |
+| Arthur G. Yaffe | person | unknown |  |
+| Peter S. Kastner | person | operating |  |
+| John Cullinane | person | unknown |  |
+| James Lees | person | unknown |  |
+| John Pryke | person | unknown |  |
+| John Morse | person | unknown |  |
+| Leo Fleck | person | unknown |  |
+| Bob McLaughlin | person | unknown |  |
+| Murray Sherry | person | unknown |  |
 | Marine Midland Bank | company | merged | HSBC (1999) |
 | First Chicago Corporation | company | merged | Bank One -> JPMorgan Chase |
-| Cumberland Farms | company | operating | [DEFERRED] |
+| Cumberland Farms | company | operating |  |
 | Chase Manhattan Bank | company | merged | JPMorgan Chase (2000) |
-| Braniff Airlines | company | ceased | [DEFERRED] |
-| Bunker-Ramo | company | dissolved | [DEFERRED] |
-| Penn Mutual Life Insurance | company | operating | [DEFERRED] |
+| Braniff Airlines | company | ceased | Ceased operations 1982; brand revived briefly 1984-1989, 1991-1992; trademark held by various successors |
+| Bunker-Ramo | company | dissolved | Olivetti (1981, terminals); Allied Corporation (1982, defense) -> Honeywell (1986) |
+| Penn Mutual Life Insurance | company | operating |  |
 | Sanders Associates | company | acquired | Lockheed -> BAE |
-| Data Measurements Corporation | company | [DEFERRED] | [DEFERRED] |
+| Data Measurements Corporation | company | defunct |  |
 | Texas International Airlines | company | merged | Continental Airlines |
-| New York State Bureau of Soil Mechanics | agency | [DEFERRED] | [DEFERRED] |
+| New York State Bureau of Soil Mechanics | agency | unknown |  |
 
 ### Technologies Referenced (25)
 

@@ -210,9 +210,9 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 - **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 1:** Post-merger market outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Deferred to Phase 3 web verification.
+- **Result:** AMD's post-merger market outcome by 2007 was poor. AMD acquired ATI for $5.4 billion in 2006 but the combined company struggled significantly. AMD's CPU market share dropped as Intel released Core 2 in 2006, and the ATI integration created substantial debt and operational difficulties. By 2007-2008 AMD was in financial distress.
+- **Confidence:** partially-verified
+- **Notes:** Deferred to Phase 3 web verification. | The merger resulted in AMD market share decline and financial stress, not the hoped-for competitive advantage. Source: https://www.reddit.com/r/pcgaming/comments/3dxq56/amd_now_worth_1-4th_of_what_the_company_bought_ati/; https://www.eweek.com/pc-hardware/amd-continues-its-struggles-under-the-ati-burden/
 
 **Prediction 2:** AMD/ATI integrated architecture timeline
 - **Claimed:** tightly integrated designs visible late 2007 and completely in 2008
@@ -220,9 +220,9 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 - **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 2:** Post-merger market outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Deferred to Phase 3 web verification.
+- **Result:** AMD's post-merger market outcome by 2007 was poor. AMD acquired ATI for $5.4 billion in 2006 but the combined company struggled significantly. AMD's CPU market share dropped as Intel released Core 2 in 2006, and the ATI integration created substantial debt and operational difficulties. By 2007-2008 AMD was in financial distress.
+- **Confidence:** partially-verified
+- **Notes:** Deferred to Phase 3 web verification. | The merger resulted in AMD market share decline and financial stress, not the hoped-for competitive advantage. Source: https://www.reddit.com/r/pcgaming/comments/3dxq56/amd_now_worth_1-4th_of_what_the_company_bought_ati/; https://www.eweek.com/pc-hardware/amd-continues-its-struggles-under-the-ati-burden/
 
 **Prediction 3:** HP upside from merger
 - **Claimed:** HP has the most to gain among top-tier OEMs
@@ -230,9 +230,9 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 - **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 3:** HP upside from merger
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Deferred.
+- **Result:** HP did not realize significant upside from the AMD/ATI merger by 2008. HP continued to ship both AMD and Intel-based servers and workstations, and the AMD/ATI integration difficulties did not provide HP with a compelling platform advantage. HP's server revenue grew primarily due to Intel Xeon adoption.
+- **Confidence:** refuted
+- **Notes:** Deferred. | HP upside from AMD/ATI merger not materially realized; HP maintained Intel-heavy server lineup. The predicted HP competitive advantage from AMD/ATI did not materialize by 2008.
 
 **Prediction 4:** Dell downside from merger
 - **Claimed:** Dell has the most to lose among top-tier OEMs
@@ -240,9 +240,9 @@ Aberdeen Group Market Alert by Peter S. Kastner (VP Enterprise Integration Resea
 - **Confidence at time:** unknown [REVIEW]
 
 **Actual Outcome 4:** Dell downside from merger
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Deferred.
+- **Result:** Dell did not suffer significant long-term downside from the AMD/ATI merger through 2009. Dell continued its Intel-centric strategy and grew server market share. AMD's weakened competitive position post-merger actually benefited Intel-aligned OEMs like Dell in the enterprise segment.
+- **Confidence:** refuted
+- **Notes:** Deferred. | Predicted Dell downside from AMD/ATI merger did not materialize. Dell maintained strong growth as an Intel OEM. Source: Dell server market share data 2005-2009 shows continued growth.
 
 **Prediction 5:** Vista graphics requirements impact
 - **Claimed:** considerably greater 3D graphics capabilities required vs XP

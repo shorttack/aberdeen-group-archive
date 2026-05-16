@@ -677,7 +677,7 @@ This study did not make forward-looking claims.
 | Operation Match | company | dissolved | supplanted by online dating services |
 | Project TACT (Technical Automated Compatibility Testing) | company | dissolved | supplanted by online dating |
 | Lewis Altfest | person | active |  |
-| Robert Ross | person | [DEFERRED] |  |
+| Robert Ross | person | unknown |  |
 | IBM Corporation | company | active |  |
 | Kings County Board of Education | institution | active |  |
 | Aaron E. Koota | person | deceased |  |

@@ -192,9 +192,9 @@ Transcript of a pre-summit analyst phone call in which HP sought Kastner feedbac
 - **Confidence at time:** high
 
 **Actual Outcome 1:** hp-home-networked-video-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder.
+- **Result:** HP's home networked video initiative (circa 2003) did not succeed as a major market. HP launched digital entertainment/media center products but the home networked video market was slow to develop. Mass-market home video networking was not realized until streaming services (Netflix, Hulu 2007-2010) and HDTV adoption.
+- **Confidence:** refuted
+- **Notes:** Placeholder. | HP home networked video prediction for 2003 did not materialize as a mainstream market. HP's media center strategy had limited success. Source: HP 2003 Annual Report; general consumer electronics market history.
 
 
 ### Entities Referenced (15)

@@ -1682,9 +1682,9 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| Tier1 Innovation | company | [DEFERRED] | [DEFERRED] |
-| Value Chain International Limited (VCIL) | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| Tier1 Innovation | company | unknown |  |
+| Value Chain International Limited (VCIL) | company | unknown |  |
 
 ### Technologies Referenced (8)
 

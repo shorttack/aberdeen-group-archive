@@ -58,10 +58,10 @@ Aberdeen Group's August 2001 product launch package for the rebranded Advisory A
 | Aberdeen Group, Inc. | company | dissolved | Acquired by Harte-Hanks 2001; rebranded Aberdeen Group |
 | Peter S. Kastner | person | active |  |
 | Tom H. Willmott | person | active |  |
-| Chet Verceglio | person | [DEFERRED] |  |
-| Margie Koenig | person | [DEFERRED] |  |
-| Kathleen Roche | person | [DEFERRED] |  |
-| John R. Logan | person | [DEFERRED] |  |
+| Chet Verceglio | person | unknown |  |
+| Margie Koenig | person | unknown |  |
+| Kathleen Roche | person | unknown |  |
+| John R. Logan | person | unknown |  |
 
 ### Technologies Referenced (12)
 

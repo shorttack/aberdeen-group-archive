@@ -1837,15 +1837,15 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| BEA Systems | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| webMethods | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Oracle | company | [DEFERRED] | [DEFERRED] |
-| SAP | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| BEA Systems | company | acquired | Oracle Corporation (January 2008) |
+| IBM | company | active |  |
+| webMethods | company | acquired | Software AG (April 2007) |
+| Microsoft | company | active |  |
+| Oracle | company | active |  |
+| SAP | company | active |  |
 | Fiorano Software | company | active |  |
-| IONA Technologies | company | [DEFERRED] | [DEFERRED] |
+| IONA Technologies | company | acquired | Progress Software (August 2008) |
 
 ### Technologies Referenced (12)
 

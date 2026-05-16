@@ -3273,33 +3273,33 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| Wayne Kernochan | person | [DEFERRED] |  |
-| MetaMatrix Inc. | company | [DEFERRED] | [DEFERRED] |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| BEA Systems | company | [DEFERRED] | [DEFERRED] |
-| Business Objects | company | [DEFERRED] | [DEFERRED] |
-| Attunity | company | [DEFERRED] | [DEFERRED] |
-| XAware | company | [DEFERRED] | [DEFERRED] |
-| Venetica | company | [DEFERRED] | [DEFERRED] |
-| Nimble Technologies | company | [DEFERRED] | [DEFERRED] |
-| Enosys Markets | company | [DEFERRED] | [DEFERRED] |
-| Raining Data Corporation | company | [DEFERRED] | [DEFERRED] |
-| Ipedo Inc. | company | [DEFERRED] | [DEFERRED] |
-| TIBCO Software | company | [DEFERRED] | [DEFERRED] |
-| webMethods | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| Wayne Kernochan | person | unknown |  |
+| MetaMatrix Inc. | company | acquired | Red Hat / JBoss (April 2007) |
+| IBM | company | active |  |
+| BEA Systems | company | acquired | Oracle Corporation (January 2008) |
+| Business Objects | company | acquired | SAP AG (January 2008) |
+| Attunity | company | acquired | Qlik Technologies (May 2019) |
+| XAware | company | acquired | BEA Systems (2005/2006) |
+| Venetica | company | acquired | IBM (August 2004) |
+| Nimble Technologies | company | acquired | Actuate Software (July 2003) |
+| Enosys Markets | company | acquired | TIBCO Software (circa 2002-2003) |
+| Raining Data Corporation | company | acquired | Renamed TigerLogic Corp. (2008), then sold/wound down |
+| Ipedo Inc. | company | defunct |  |
+| TIBCO Software | company | acquired | Vista Equity Partners (private, December 2014); later merged with TIBCO/Citrix |
+| webMethods | company | acquired | Software AG (April 2007) |
 | Software AG | company | active |  |
 | Progress Software | company | active |  |
-| Evolutionary Technologies International (ETI) | company | [DEFERRED] | [DEFERRED] |
-| SeeBeyond Technology | company | [DEFERRED] | [DEFERRED] |
-| Vitria Technology | company | [DEFERRED] | [DEFERRED] |
-| Oracle | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Sybase | company | [DEFERRED] | [DEFERRED] |
-| SAP | company | [DEFERRED] | [DEFERRED] |
-| PeopleSoft | company | [DEFERRED] | [DEFERRED] |
-| Sun Microsystems | company | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard | company | [DEFERRED] | [DEFERRED] |
+| Evolutionary Technologies International (ETI) | company | acquired | Versata (May 2008) |
+| SeeBeyond Technology | company | acquired | Sun Microsystems (June 2004) |
+| Vitria Technology | company | active |  |
+| Oracle | company | active |  |
+| Microsoft | company | active |  |
+| Sybase | company | acquired | SAP AG (July 2010) |
+| SAP | company | active |  |
+| PeopleSoft | company | acquired | Oracle Corporation (December 2004) |
+| Sun Microsystems | company | acquired | Oracle Corporation (January 2010) |
+| Hewlett-Packard | company | active |  |
 
 ### Technologies Referenced (15)
 

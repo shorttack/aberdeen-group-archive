@@ -56,8 +56,8 @@ This study did not make forward-looking claims.
 | META Group | company | dissolved | Gartner acquired META Group 2005 |
 | Forrester Research | company | active |  |
 | IDC (International Data Corporation) | company | active |  |
-| Tom H. Willmott | person | [DEFERRED] |  |
-| John R. Logan | person | [DEFERRED] |  |
+| Tom H. Willmott | person | unknown |  |
+| John R. Logan | person | unknown |  |
 
 ### Technologies Referenced (11)
 

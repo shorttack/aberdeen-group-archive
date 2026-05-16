@@ -1,9 +1,9 @@
-"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
-"aberdeen-group","Aberdeen Group, Inc.","company","IT-research-and-advisory","dissolved","Harte-Hanks -> Aberdeen (rebranded)","1988-2014","aas-operational-playbooks-aug-2001-b5a001","Primary subject; AAS program owner"
-"peter-s-kastner","Peter S. Kastner","person","IT-research-and-advisory","active","","1988-present","aas-operational-playbooks-aug-2001-b5a001","AAS program owner; author of playbook curriculum"
-"gartner","Gartner, Inc.","company","IT-research-and-advisory","active","","1979-present","aas-operational-playbooks-aug-2001-b5a001","Named competitor in Engaging Aberdeen Workshop competitive landscape"
-"meta-group","META Group","company","IT-research-and-advisory","dissolved","Gartner acquired META Group 2005","1989-2005","aas-operational-playbooks-aug-2001-b5a001","Named competitor (META) in Engaging Aberdeen Workshop competitive landscape"
-"forrester-research","Forrester Research","company","IT-research-and-advisory","active","","1983-present","aas-operational-playbooks-aug-2001-b5a001","Named competitor in Engaging Aberdeen Workshop competitive landscape"
-"idc","IDC (International Data Corporation)","company","IT-research-and-advisory","active","","1964-present","aas-operational-playbooks-aug-2001-b5a001","Named competitor in Engaging Aberdeen Workshop competitive landscape"
-"tom-h-willmott","Tom H. Willmott","person","IT-research-and-advisory","[DEFERRED]","","~2000-2002","aas-operational-playbooks-aug-2001-b5a001","Referenced as Aberdeen partner in lifecycle consulting program"
-"john-r-logan","John R. Logan","person","IT-research-and-advisory","[DEFERRED]","","~2000-2002","aas-operational-playbooks-aug-2001-b5a001","Referenced as Aberdeen partner in AAS playbook program"
+entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
+aberdeen-group,"Aberdeen Group, Inc.",company,IT-research-and-advisory,dissolved,Harte-Hanks -> Aberdeen (rebranded),1988-2014,aas-operational-playbooks-aug-2001-b5a001,Primary subject; AAS program owner
+peter-s-kastner,Peter S. Kastner,person,IT-research-and-advisory,active,,1988-present,aas-operational-playbooks-aug-2001-b5a001,AAS program owner; author of playbook curriculum
+gartner,"Gartner, Inc.",company,IT-research-and-advisory,active,,1979-present,aas-operational-playbooks-aug-2001-b5a001,Named competitor in Engaging Aberdeen Workshop competitive landscape
+meta-group,META Group,company,IT-research-and-advisory,dissolved,Gartner acquired META Group 2005,1989-2005,aas-operational-playbooks-aug-2001-b5a001,Named competitor (META) in Engaging Aberdeen Workshop competitive landscape
+forrester-research,Forrester Research,company,IT-research-and-advisory,active,,1983-present,aas-operational-playbooks-aug-2001-b5a001,Named competitor in Engaging Aberdeen Workshop competitive landscape
+idc,IDC (International Data Corporation),company,IT-research-and-advisory,active,,1964-present,aas-operational-playbooks-aug-2001-b5a001,Named competitor in Engaging Aberdeen Workshop competitive landscape
+tom-h-willmott,Tom H. Willmott,person,IT-research-and-advisory,unknown,,~2000-2002,aas-operational-playbooks-aug-2001-b5a001,Referenced as Aberdeen partner in lifecycle consulting program | Source: Former Aberdeen Group partner; current status not publicly verifiable
+john-r-logan,John R. Logan,person,IT-research-and-advisory,unknown,,~2000-2002,aas-operational-playbooks-aug-2001-b5a001,Referenced as Aberdeen partner in AAS playbook program | Source: Former Aberdeen Group partner; current status not publicly verifiable

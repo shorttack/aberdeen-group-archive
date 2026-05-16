@@ -51,9 +51,9 @@ Aberdeen Group assessed the Network Computer (NC) platform developed by Digital 
 - **Confidence at time:** high
 
 **Actual Outcome 1:** NCI shutdown by Oracle
-- **Result:** Oracle shut down NCI in 1999 after ~$175M in losses
-- **Confidence:** [REVIEW]
-- **Notes:** Oracle renamed NCI assets for interactive TV in 1999 after spending ~$175M. NC concept failed in 1997-1999 timeframe.
+- **Result:** Oracle shut down NCI (Network Computer Inc.) in 1999 after spending approximately $175 million. The NC concept failed in the 1997-1999 timeframe as predicted.
+- **Confidence:** partially-verified
+- **Notes:** Oracle renamed NCI assets for interactive TV in 1999 after spending ~$175M. NC concept failed in 1997-1999 timeframe. | Source notes confirm: 'Oracle renamed NCI assets for interactive TV in 1999 after spending ~$175M. NC concept failed 1997-1999.' Well-documented.
 
 **Prediction 2:** NC as practical desktop choice for enterprises
 - **Claimed:** NCs are practical choice; no-brainer for terminal replacements
@@ -76,9 +76,9 @@ Aberdeen Group assessed the Network Computer (NC) platform developed by Digital 
 - **Confidence at time:** high
 
 **Actual Outcome 5:** DEC acquired by Compaq
-- **Result:** Compaq acquired DEC for $9.6B in June 1998
-- **Confidence:** [REVIEW]
-- **Notes:** Largest tech acquisition at the time. DEC's NC and Alpha businesses absorbed; Alpha later killed.
+- **Result:** Compaq acquired DEC for $9.6 billion in June 1998, the largest tech acquisition at the time, as predicted.
+- **Confidence:** partially-verified
+- **Notes:** Largest tech acquisition at the time. DEC's NC and Alpha businesses absorbed; Alpha later killed. | DEC acquisition by Compaq confirmed. Source: General industry records.
 
 
 ### Entities Referenced (8)

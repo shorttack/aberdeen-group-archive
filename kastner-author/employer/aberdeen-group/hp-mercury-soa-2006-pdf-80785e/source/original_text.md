@@ -222,13 +222,13 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| Hewlett-Packard (HP) | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| Hewlett-Packard (HP) | company | active |  |
 | Mercury Interactive | company | acquired | hewlett-packard |
 | Systinet | company | acquired | mercury-interactive |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| BEA Systems | company | [DEFERRED] | oracle |
-| Computer Associates (CA) | company | [DEFERRED] | [DEFERRED] |
+| IBM | company | active |  |
+| BEA Systems | company | acquired | Oracle Corporation (January 2008) |
+| Computer Associates (CA) | company | acquired | Broadcom Inc. (November 2018); rebranded as CA Technologies then Broadcom Software |
 | BMC Software | company | active |  |
 | AmberPoint | company | acquired | oracle |
 | Compuware | company | active |  |
@@ -236,8 +236,8 @@ This study did not make forward-looking claims.
 | Planview | company | active |  |
 | Progress Actional | company | acquired | progress-software |
 | IBM Tivoli | company | acquired | ibm |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Sun Microsystems | company | [DEFERRED] | [DEFERRED] |
+| Microsoft | company | active |  |
+| Sun Microsystems | company | acquired | Oracle Corporation (January 2010) |
 
 ### Technologies Referenced (9)
 

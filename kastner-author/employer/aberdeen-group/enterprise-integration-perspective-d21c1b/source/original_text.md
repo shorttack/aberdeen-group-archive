@@ -95,10 +95,10 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | Peter S. Kastner | person | active |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
-| Sun Microsystems | company | [DEFERRED] | [DEFERRED] |
-| Cisco Systems | company | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
+| Microsoft | company | active |  |
+| Sun Microsystems | company | acquired | Oracle Corporation (January 2010) |
+| Cisco Systems | company | active |  |
 
 ### Technologies Referenced (12)
 

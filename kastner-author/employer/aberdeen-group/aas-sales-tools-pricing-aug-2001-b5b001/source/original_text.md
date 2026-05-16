@@ -52,12 +52,12 @@ This study did not make forward-looking claims.
 |--------|------|--------|-----------|
 | Aberdeen Group, Inc. | company | dissolved | Harte-Hanks -> Aberdeen (rebranded) |
 | Peter S. Kastner | person | active |  |
-| Alschuler e-Business@Aberdeen Practice | firm | [DEFERRED] |  |
-| Liz Alschuler | person | [DEFERRED] |  |
-| Hurley Security Service Practice (Aberdeen) | firm | [DEFERRED] |  |
-| Jim Hurley | person | [DEFERRED] |  |
-| Aberdeen PES Practice | firm | [DEFERRED] |  |
-| ETI Content/Publications (Aberdeen) | firm | [DEFERRED] |  |
+| Alschuler e-Business@Aberdeen Practice | firm | defunct | Aberdeen Group (acquired by Harte-Hanks 2006, then Halyard Capital 2015, then Spiceworks Ziff Davis 2020) |
+| Liz Alschuler | person | unknown |  |
+| Hurley Security Service Practice (Aberdeen) | firm | defunct | Aberdeen Group (acquired by Harte-Hanks 2006) |
+| Jim Hurley | person | unknown |  |
+| Aberdeen PES Practice | firm | defunct | Aberdeen Group (acquired by Harte-Hanks 2006) |
+| ETI Content/Publications (Aberdeen) | firm | defunct | Aberdeen Group (acquired by Harte-Hanks 2006) |
 
 ### Technologies Referenced (16)
 

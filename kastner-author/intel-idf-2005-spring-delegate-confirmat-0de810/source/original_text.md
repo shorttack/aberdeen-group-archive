@@ -108,9 +108,9 @@ Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc.
 - **Confidence at time:** high
 
 **Actual Outcome 1:** multicore-2005-delivery
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify.
+- **Result:** Intel delivered multicore processors in 2005 as predicted. Intel Pentium D (dual-core desktop) shipped May 26, 2005. Paxville MP (dual-core server Xeon) shipped November 1, 2005. Core Duo (Yonah, mobile) shipped January 2006. Multicore was in production by end-2005.
+- **Confidence:** partially-verified
+- **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify. | Multicore delivery in 2005 was realized: Pentium D (May 2005) and Paxville Xeon (November 2005). Source: https://en.wikipedia.org/wiki/Pentium_D; https://www.intel.com/pressroom/archive/releases/2005/20051101comp.htm
 
 **Prediction 2:** uwb-analyst-push-2005
 - **Claimed:** Dedicated UWB / Wireless USB Briefing at W Hotel on Wednesday suggests Intel was bullish on Wireless USB at Spring IDF 2005.
@@ -118,9 +118,9 @@ Intel Analyst Relations personalized schedule for Peter Kastner (Vericours, Inc.
 - **Confidence at time:** medium
 
 **Actual Outcome 2:** multicore-2005-delivery
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify.
+- **Result:** Intel delivered multicore processors in 2005 as predicted. Intel Pentium D (dual-core desktop) shipped May 26, 2005. Paxville MP (dual-core server Xeon) shipped November 1, 2005. Core Duo (Yonah, mobile) shipped January 2006. Multicore was in production by end-2005.
+- **Confidence:** partially-verified
+- **Notes:** Intel Pentium D shipped May 2005, Core Duo Jan 2006 — verify. | Multicore delivery in 2005 was realized: Pentium D (May 2005) and Paxville Xeon (November 2005). Source: https://en.wikipedia.org/wiki/Pentium_D; https://www.intel.com/pressroom/archive/releases/2005/20051101comp.htm
 
 
 ### Entities Referenced (7)

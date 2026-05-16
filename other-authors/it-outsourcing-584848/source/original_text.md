@@ -202,8 +202,8 @@ This study did not make forward-looking claims.
 
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
-| Rick Saia | person | [DEFERRED] |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Rick Saia | person | unknown |  |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
 
 ### Technologies Referenced (5)
 

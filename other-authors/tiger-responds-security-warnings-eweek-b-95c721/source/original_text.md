@@ -634,7 +634,7 @@ eWEEK article reporting Mac OS X 10.4 'Tiger' launch features (Kerberos VPN, ste
 | Vericours Inc. | company | unknown [REVIEW] |  |
 | Peter S. Kastner | person | active |  |
 | Frost & Sullivan | firm | active |  |
-| Rufus Connell | person | [DEFERRED] |  |
+| Rufus Connell | person | unknown |  |
 | Symantec Corporation | company | acquired | Broadcom (enterprise) + NortonLifeLock (consumer) |
 | Microsoft Corporation | company | active |  |
 | Morgan Stanley | firm | active |  |

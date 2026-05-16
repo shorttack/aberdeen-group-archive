@@ -491,9 +491,9 @@ Aberdeen executive white paper (underwritten by Dell) examining the business, da
 - **Confidence at time:** high
 
 **Actual Outcome 1:** ewaste-regulation-tightening-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Placeholder for Phase 3 verification.
+- **Result:** E-waste regulation tightened significantly around 2002-2003. The EU WEEE Directive (2002/96/EC) was issued in 2003 and required implementation by August 2004-2005. California enacted the Electronic Waste Recycling Act of 2003 (SB 20). This represented a major tightening of e-waste regulation, validating Aberdeen's prediction.
+- **Confidence:** partially-verified
+- **Notes:** Placeholder for Phase 3 verification. | E-waste regulations tightened in the 2002-2003 timeframe as predicted. EU WEEE Directive and California SB 20 both enacted. Source: https://calrecycle.ca.gov/electronics/statutes/; https://www.wilmerhale.com/en/insights/publications/new-eu-legislation-affects-electronic-waste-and-the-use-of-hazardous-materials-in-electric-and-electronic-devices-august-11-2003
 
 **Prediction 2:** pc-disposal-window-shift
 - **Claimed:** Right time to dispose of a PC is ~36 months rather than 48 months.

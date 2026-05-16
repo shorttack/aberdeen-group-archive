@@ -186,13 +186,13 @@ This study did not make forward-looking claims.
 | IBM | company | active |  |
 | Digital Equipment Corporation (DEC) | company | acquired | Compaq / HP |
 | Federal Reserve Bank | agency | active |  |
-| Philip Hankins Inc. (PHI) | company | unknown | [DEFERRED] |
+| Philip Hankins Inc. (PHI) | company | unknown | Acquired by Wang Laboratories ~1979; Wang bankruptcy 1992; Getronics (1999); now defunct |
 | NCR | company | active |  |
 | Stratus Computer | company | active |  |
 | General Electric (GE) | company | active |  |
 | Marriott | company | active |  |
 | Intercontinental Hotels | company | active |  |
-| Howard Johnson's | company | dissolved | [DEFERRED] |
+| Howard Johnson's | company | dissolved | La Mancha Group/Wyndham (motel brand); Restaurants franchised then ceased operations (last closed 2022) |
 | KFC (Kentucky Fried Chicken) | company | active |  |
 | Project MAC (MIT) | institution | dissolved | MIT CSAIL |
 | Robert M. Chase | person | active |  |

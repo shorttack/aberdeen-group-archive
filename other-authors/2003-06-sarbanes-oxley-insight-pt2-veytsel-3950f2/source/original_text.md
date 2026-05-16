@@ -125,9 +125,9 @@ Alex Veytsel of Aberdeen Group argues that the Sarbanes-Oxley Act is acceleratin
 | Longview Solutions | company | dissolved | acquired by Exact Software 2012 |
 | MIS AG | company | dissolved | acquired by Cartesis 2004 |
 | Hyperion Solutions Corporation | company | dissolved | acquired by Oracle 2007 |
-| Alterna Corporation | company | [DEFERRED] |  |
-| Emagia Corporation | company | [DEFERRED] |  |
-| XRT (Cerg Finance) | company | [DEFERRED] |  |
+| Alterna Corporation | company | acquired | Paychex (via Alterna Capital Solutions acquisition) |
+| Emagia Corporation | company | active |  |
+| XRT (Cerg Finance) | company | unknown |  |
 | Oracle Corporation | company | active |  |
 | PeopleSoft, Inc. | company | dissolved | acquired by Oracle 2005 |
 | SAP SE | company | active |  |

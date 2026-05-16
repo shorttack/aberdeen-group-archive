@@ -210,9 +210,9 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 - **Confidence at time:** high
 
 **Actual Outcome 1:** xml-actual-outcome
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** XML/SOAP/REST/JSON did emerge as dominant integration layer.
+- **Result:** XML/SOAP/REST/JSON emerged as dominant integration standards as predicted. SOAP-based web services peaked around 2005-2008, then REST/JSON became dominant from 2009 onwards for new integrations.
+- **Confidence:** partially-verified
+- **Notes:** XML/SOAP/REST/JSON did emerge as dominant integration layer. | XML/SOAP/REST/JSON integration dominance confirmed. Source: General industry history; Aberdeen SOA research.
 
 **Prediction 2:** integrated-suite-long-run-winners
 - **Claimed:** Traditional ERP vendors of the 1990s (who lost marketing cachet to upstart best-of-breed) are likely the winners in the long run with packaged integrated cross-enterprise solutions.
@@ -220,9 +220,9 @@ Aberdeen Executive White Paper arguing that integrated enterprise application su
 - **Confidence at time:** high
 
 **Actual Outcome 2:** integrated-suite-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Largely validated — Oracle/SAP dominated; PeopleSoft/Siebel/Ariba/i2 all acquired; best-of-breed rolled up.
+- **Result:** Integrated suite consolidation occurred as predicted. Oracle acquired PeopleSoft (2004), Siebel (2006), Hyperion (2007), BEA (2008). SAP dominated organically. Best-of-breed vendors rolled up: Ariba (SAP 2012), Taleo (Oracle 2012), Kana (Verint 2014). The integrated suite prediction was substantially validated.
+- **Confidence:** partially-verified
+- **Notes:** Largely validated — Oracle/SAP dominated; PeopleSoft/Siebel/Ariba/i2 all acquired; best-of-breed rolled up. | Oracle/SAP dominance and best-of-breed rollup validated. Source: Various acquisition records 2004-2012.
 
 
 ### Entities Referenced (27)

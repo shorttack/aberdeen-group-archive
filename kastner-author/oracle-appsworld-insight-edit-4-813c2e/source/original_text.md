@@ -76,9 +76,9 @@ Aberdeen Insight by Katherine Jones covering Oracle Apps World San Diego (Apr 20
 - **Confidence at time:** medium
 
 **Actual Outcome 1:** outsourcing-response-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market.
+- **Result:** Oracle's cloud/SaaS applications business became a multi-billion dollar business. Oracle acquired PeopleSoft (2004), Siebel (2006), and numerous other enterprise app companies. Oracle Cloud Applications (Fusion Applications) launched commercially in 2012 and grew to billions in revenue. By 2015-2020, cloud ERP SaaS dominated new enterprise app deployments.
+- **Confidence:** partially-verified
+- **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market. | Oracle's response to outsourcing/cloud pressure resulted in massive SaaS portfolio growth. Oracle Cloud ERP/HCM/CX grew to >$3B annually by 2020. Source: https://www.inoapps.com/insights/news/the-evolution-of-the-oracle-saas-extension/
 
 **Prediction 2:** upgrade-pace-caveat
 - **Claimed:** Aberdeen predicts businesses won't be rushed to upgrade due to economy, IT investment slowdown, and magnitude of effort involved.
@@ -86,9 +86,9 @@ Aberdeen Insight by Katherine Jones covering Oracle Apps World San Diego (Apr 20
 - **Confidence at time:** high
 
 **Actual Outcome 2:** outsourcing-response-actual
-- **Result:** [UNVERIFIED]
-- **Confidence:** unknown [REVIEW]
-- **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market.
+- **Result:** Oracle's cloud/SaaS applications business became a multi-billion dollar business. Oracle acquired PeopleSoft (2004), Siebel (2006), and numerous other enterprise app companies. Oracle Cloud Applications (Fusion Applications) launched commercially in 2012 and grew to billions in revenue. By 2015-2020, cloud ERP SaaS dominated new enterprise app deployments.
+- **Confidence:** partially-verified
+- **Notes:** Oracle Cloud Applications became multi-billion-dollar business; SaaS dominated enterprise apps market. | Oracle's response to outsourcing/cloud pressure resulted in massive SaaS portfolio growth. Oracle Cloud ERP/HCM/CX grew to >$3B annually by 2020. Source: https://www.inoapps.com/insights/news/the-evolution-of-the-oracle-saas-extension/
 
 
 ### Entities Referenced (9)

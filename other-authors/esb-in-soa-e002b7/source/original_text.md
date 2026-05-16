@@ -277,13 +277,13 @@ This study did not make forward-looking claims.
 | Entity | Type | Status | Successor |
 |--------|------|--------|-----------|
 | William Mougayar | person | active |  |
-| Rick Saia | person | [DEFERRED] |  |
+| Rick Saia | person | unknown |  |
 | Peter S. Kastner | person | active |  |
-| Aberdeen Group | firm | [DEFERRED] | [DEFERRED] |
+| Aberdeen Group | firm | acquired | Harte-Hanks (Sep 2006) -> Halyard Capital (Apr 2015) -> Spiceworks Ziff Davis (Dec 2020) |
 | Cape Clear Software | company | acquired | workday |
-| BEA Systems | company | [DEFERRED] | oracle |
-| IBM | company | [DEFERRED] | [DEFERRED] |
-| Oracle | company | [DEFERRED] | [DEFERRED] |
+| BEA Systems | company | acquired | Oracle Corporation (January 2008) |
+| IBM | company | active |  |
+| Oracle | company | active |  |
 | Software AG | company | active |  |
 | TIBCO Software | company | active |  |
 | webMethods | company | acquired | software-ag |
@@ -291,15 +291,15 @@ This study did not make forward-looking claims.
 | Informatica | company | active |  |
 | Sterling Commerce | company | acquired | at&t-then-sap |
 | Sun Microsystems (SeeBeyond) | company | acquired | oracle |
-| SAP | company | [DEFERRED] | [DEFERRED] |
-| Microsoft | company | [DEFERRED] | [DEFERRED] |
+| SAP | company | active |  |
+| Microsoft | company | active |  |
 | JBoss (Red Hat) | company | acquired | red-hat |
 | Cordys | company | acquired | opentext |
 | Fiorano Software | company | active |  |
 | PolarLake | company | acquired |  |
 | Sonic Software | company | acquired | progress-software |
 | iWay Software | company | active |  |
-| FusionWare | company | [DEFERRED] |  |
+| FusionWare | company | acquired | C9 Capital (February 2021) |
 | Axway | company | active |  |
 | Magic Software Enterprises | company | active |  |
 | Metastorm | company | acquired | opentext |

@@ -1,5 +1,7 @@
 # Kastner IT Research Archive
 
+[![DOI](https://zenodo.org/badge/1181715405.svg)](https://doi.org/10.5281/zenodo.20245076)
+
 A structured archive of research studies, articles, memoirs, and related artifacts spanning **1979–2026**, centered on the work of **Peter S. Kastner** at Aberdeen Group, Arthur D. Little, Philip Hankins Inc. (PHI), Digital Equipment Corporation, Stratus Computer, and Obian Group, plus contributions from other Aberdeen analysts.
 
 Every study is packaged as a self-contained [Frictionless Data Package](https://frictionlessdata.io/), with structured CSV tables, a JSON descriptor, a Schema.org dataset descriptor, and a human-readable README.
@@ -8,12 +10,12 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 | Metric | Count |
 |---|---:|
-| Total studies | **933** |
-| Total observations | **19,175** |
-| Master entity rows | **9,360** |
-| Master technology rows | **7,646** |
-| Unique entities (deduped cache) | **3,299** |
-| Unique technologies (deduped cache) | **4,283** |
+| Total studies | **944** |
+| Total observations | **19,382** |
+| Master entity rows | **9,401** |
+| Master technology rows | **7,668** |
+| Unique entities (deduped cache) | **3,281** |
+| Unique technologies (deduped cache) | **4,277** |
 | Date range | 1979 – 2026 |
 | Audit failures (Layer A / B / C) | **0 / 0 / 0** |
 
@@ -25,17 +27,19 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 
 ### Key reading paths
 
-- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core), including the SOA / BPM / EII / outsourcing series of 2003–2007; 42 studies, 1,079 observations.
+- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core), including the SOA / BPM / EII / outsourcing series of 2003–2007; 54 studies, 1,272 observations.
 - **`kastner-author/employer/DEC/`** — Digital Equipment Corporation engineering, competitive-marketing, and OLTP/Debit-Credit performance memos (1986–1989); 5 studies, 153 observations.
-- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; 11 studies, 66 observations.
+- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; 12 studies, 94 observations.
 - **`kastner-author/employer/prime-computer/`** — Prime Computer Market Planning era (1979–1981), built around the July 15, 1981 *Industry Product Requirements Plan* — the principal surviving Kastner-authored five-year strategic plan covering all Prime vertical markets, seven System Use Categories, and the 1981 product-gap priority list against DEC VAX; 1 study, 45 observations.
 - **`kastner-author/employer/arthur-d-little/`** — ADL consulting engagements (1972–1979), including 9-1-1 / CAD public-safety systems and the ASE/ASEP two-way power-line communications study; 3 studies, 71 observations.
 - **`kastner-author/employer/phi-computer-services/`** — PHI Computer Services (1969–1972) and the 1995 Wang Labs *Riding the Runaway Horse* retrospective; 2 studies, 59 observations.
 - **`kastner-author/employer/obian-group/`** — Obian Group consulting engagements; 1 study, 5 observations.
-- **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, 76 entries.
-- **`kastner-author/`** (top-level) — 205 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts).
-- **`other-authors/`** — 487 studies authored by other Aberdeen analysts and outside writers.
-- **`Project Examples/`** — 45 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage.
+- **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, 76 entries, 1,643 observations.
+- **`kastner-author/`** (top-level) — 212 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts, the Top-100 Economic Calls ranking, and the Prescience Methodology Demo); 4,876 observations.
+- **`other-authors/`** — 487 studies authored by other Aberdeen analysts and outside writers; 8,301 observations.
+- **`Project Examples/`** — 45 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage; 1,281 observations.
+- **`aberdeen-group-inc/`** — Aberdeen Group corporate / about-the-company files; 29 studies, 673 observations.
+- **`Aberdeen Outbound Marketing/`** — Period marketing collateral as analyzable studies; 3 studies, 40 observations.
 - **`Kastner Memoir/`** — Volume 1 of *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence* (2026), split into 14 chapter-level study packages (Introduction + 10 chapters + Epilogue + About + Appendix); 14 studies, 1,242 observations covering 1960–2026.
 
 ### Prescience ratings
@@ -44,11 +48,11 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 466 |
-| medium | 271 |
+| high | 470 |
+| medium | 276 |
 | low | 72 |
-| not-applicable | 123 |
-| (deferred) | 1 |
+| not-applicable | 125 |
+| (unrated) | 1 |
 
 ### Aberdeen Group Category Creator roster
 
@@ -91,35 +95,37 @@ Version history is in [`CHANGELOG.md`](./CHANGELOG.md).
 
 ```
 aberdeen-group-archive/
-├── _master_studies.csv          # 822 rows  — index of all studies
-├── _master_entities.csv         # 7,834 rows — per-study entity rows
-├── _master_technologies.csv     # 6,269 rows — per-study technology rows
-├── _master_observations.csv     # 14,742 rows — every observation
-├── _collection_stats.csv        # 822 rows — per-study counts and ratings
-├── _known_entities.csv          # 3,198 rows — deduped entity cache (root)
-├── _known_technologies.csv      # 4,054 rows — deduped technology cache (root)
+├── _master_studies.csv          #     944 rows — index of all studies
+├── _master_entities.csv         #   9,401 rows — per-study entity rows
+├── _master_technologies.csv     #   7,668 rows — per-study technology rows
+├── _master_observations.csv     #  19,382 rows — every observation
+├── _collection_stats.csv        #     944 rows — per-study counts and ratings
+├── _known_entities.csv          #   3,281 rows — deduped entity cache (root)
+├── _known_technologies.csv      #   4,277 rows — deduped technology cache (root)
+├── _web_cache.json              # Phase 3 web-verification cache (393 entities, 180 predictions, 456 techs)
 ├── _audits/                     # Referential-integrity audit reports
 ├── _skills/                     # Frozen copy of the archival-ingest skill
-├── kastner-author/              # 347 studies authored by Peter S. Kastner
+├── kastner-author/              # 366 studies authored by Peter S. Kastner
 │   ├── _known_entities.csv      # Collection-scoped cache
 │   ├── _known_technologies.csv
-│   ├── dct/                     # Digital Consumer Technology — 76 studies
+│   ├── dct/                     # Digital Consumer Technology — 76 studies, 1,643 obs
 │   ├── employer/                # Studies grouped by Kastner's employer at the time
-│   │   ├── aberdeen-group/          (29 studies, 609 obs)
-│   │   ├── stratus-computer/        (11 studies,  66 obs)
-│   │   ├── DEC/                     ( 5 studies, 153 obs)
-│   │   ├── arthur-d-little/         ( 3 studies,  71 obs)
-│   │   ├── phi-computer-services/   ( 2 studies,  59 obs)
-│   │   └── obian-group/             ( 1 study,    5 obs)
-│   └── <study-slug>/                (205 top-level studies)
-├── other-authors/               # 475 studies by other authors
+│   │   ├── aberdeen-group/          (54 studies, 1,272 obs)
+│   │   ├── stratus-computer/        (12 studies,    94 obs)
+│   │   ├── DEC/                     ( 5 studies,   153 obs)
+│   │   ├── arthur-d-little/         ( 3 studies,    71 obs)
+│   │   ├── phi-computer-services/   ( 2 studies,    59 obs)
+│   │   ├── prime-computer/          ( 1 study,     45 obs)
+│   │   └── obian-group/             ( 1 study,      5 obs)
+│   └── <study-slug>/                (212 top-level studies, 4,876 obs)
+├── other-authors/               # 487 studies by other authors (8,301 obs)
 │   ├── _known_entities.csv
 │   ├── _known_technologies.csv
 │   └── <study-slug>/
-├── aberdeen-group-inc/          # Aberdeen Group corporate / about-the-company files
-├── Aberdeen Outbound Marketing/ # Period marketing collateral (raw)
-├── Project Examples/            # Sample / illustrative engagements
-└── Kastner Memoir/              # 'Arguments with Reality' Vol. 1 (14 chapter packages)
+├── aberdeen-group-inc/          # Aberdeen Group corporate / about-the-company files (29 studies, 673 obs)
+├── Aberdeen Outbound Marketing/ # Period marketing collateral (3 studies, 40 obs)
+├── Project Examples/            # Sample / illustrative engagements (45 studies, 1,281 obs)
+└── Kastner Memoir/              # 'Arguments with Reality' Vol. 1 — 14 chapter packages (14 studies, 1,242 obs)
 ```
 
 ### Per-study layout (Frictionless Data Package)
@@ -230,4 +236,4 @@ After per-study cache updates, masters are regenerated by `_audits/` tooling and
 2. **Layer B** — §16 CSV write validation gate (no base64, correct quoting, schema-conformant headers).
 3. **Layer C** — cross-study cache integrity (no missing entries, no duplicate IDs).
 
-The current archive passes all three layers with 0 failures across 680 audited studies.
+The current archive passes all three layers with 0 failures across all 944 audited studies.

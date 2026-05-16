@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Top 100 Kastner Economic Calls: Ranked by Per-Study Share-of-Prescience Net Attributed Value",
+  "description": "This 2026 ranking exercise extends the kastner-prescience-methodology-demo by allocating Phase 4 theme-level net-attributed value (share-of-prescience discounted, 2026 USD) across the 360 individual high-prescience studies classified to the 15 headline themes, producing a ranked top-100 list of individual Kastner economic calls. Equal-within-theme allocation is used as the defensible default; ties are by design and indicate the floor of what can be inferred without per-study lead/contrarian/specificity scoring. The exercise demonstrates that the archive supports study-level economic attribution analysis and surfaces specific high-impact items (Mobile/Smartphone calls at $237.7B/study, Digital Consumer Technology at $108.6B/study, OLTP at $57.8B/study, Cloud Computing at $47.4B/study) for future per-study refinement passes.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (subject/reviewer) and Perplexity Computer (methodology architect)"
+  },
+  "datePublished": "2026-05-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

@@ -4283,17 +4283,17 @@ large-language-models,Large Language Models (LLMs),platform,"OpenAI, Anthropic, 
 gpt-series,GPT Series,application,OpenAI,2018-,emerging,active,OpenAI's large language model series; referenced as exemplar of current generative AI generation.,volume-1-ch10-the-long-view-1966-2026
 generative-ai,Generative AI,platform,multiple,2022-,emerging,active,Kastner's 2026 assessment: doing to knowledge work what the minicomputer did to batch processing in the 1970s. Impact on workers positive and negative. Adoption primarily a 2030s story.,volume-1-ch10-the-long-view-1966-2026
 fault-tolerant-servers,Fault-Tolerant / High-Availability Servers,platform,Stratus/Tandem/IBM,1980s-present,mature,mature,Theme 1; $139B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
-oltp-tpc,OLTP / TPC-Benchmarked Transaction Processing,framework,TPC Council,1985-present,mature,mature,Theme 2; $925B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
+oltp-tpc,OLTP / TPC-Benchmarked Transaction Processing,framework,TPC Council,1985-present,mature,mature,Theme 2; $925B net attributed,"2026-kastner-prescience-methodology-demo-0cdf48,2026-kastner-top-100-economic-calls-2a98a7"
 desktop-pc-windows,Desktop PC / Windows Client,platform,Microsoft/Intel,1990s-present,mature,mature-declining,Theme 4; $618B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
 enterprise-networking,Enterprise Networking (IP/VoIP),protocol,Cisco/Juniper,1990s-present,mature,mature,Theme 5; $606B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
 windows-nt-server-os,Windows NT / Server OS,platform,Microsoft,1992-present,mature,mature,Theme 6; $198B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
 java-web-app-platforms,Java / Web Application Platforms,framework,Oracle/IBM/Microsoft,1996-present,mature,mature,Theme 8; $74B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
 soa-api-management,Service-Oriented Architecture / API Management,framework,Mulesoft/Kong/AWS,2003-present,mature,mature,Theme 10; $60B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
 enterprise-storage-ilm,Enterprise Storage / Information Lifecycle Management,platform,EMC/NetApp/IBM,1998-present,mature,mature,Theme 11; $221B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
-digital-consumer-technology,Digital Consumer Technology,platform,Apple/Samsung/HP,2002-present,mature,mature,"Theme 12; $1,520B net attributed",2026-kastner-prescience-methodology-demo-0cdf48
+digital-consumer-technology,Digital Consumer Technology,platform,Apple/Samsung/HP,2002-present,mature,mature,"Theme 12; $1,520B net attributed","2026-kastner-prescience-methodology-demo-0cdf48,2026-kastner-top-100-economic-calls-2a98a7"
 e-commerce-platform-software,E-Commerce Platform Software,application,Shopify/Adobe/Salesforce,1996-present,mature,mature,Theme 13; $38B net attributed,2026-kastner-prescience-methodology-demo-0cdf48
-cloud-saas,Cloud Computing & SaaS,platform,AWS/Microsoft/Google,1998-present,mature,mature,"Theme 14; $3,078B net attributed",2026-kastner-prescience-methodology-demo-0cdf48
-mobile-smartphone,Mobile / Smartphone Computing,platform,Apple/Samsung/Google,2001-present,mature,mature,"Theme 15; $2,853B net attributed",2026-kastner-prescience-methodology-demo-0cdf48
+cloud-saas,Cloud Computing & SaaS,platform,AWS/Microsoft/Google,1998-present,mature,mature,"Theme 14; $3,078B net attributed","2026-kastner-prescience-methodology-demo-0cdf48,2026-kastner-top-100-economic-calls-2a98a7"
+mobile-smartphone,Mobile / Smartphone Computing,platform,Apple/Samsung/Google,2001-present,mature,mature,"Theme 15; $2,853B net attributed","2026-kastner-prescience-methodology-demo-0cdf48,2026-kastner-top-100-economic-calls-2a98a7"
 duckdb,DuckDB,platform,DuckDB Foundation,2018-present,emerging,mature,Query layer for the archive instrument,2026-kastner-prescience-methodology-demo-0cdf48
 frictionless-data,Frictionless Data Package,framework,Open Knowledge Foundation,2016-present,mature,mature,Output schema for archival-ingest,2026-kastner-prescience-methodology-demo-0cdf48
 cpi-u,CPI-U (Consumer Price Index for All Urban Consumers),framework,BLS,1913-present,mature,mature,Inflation index; 332.407 in April 2026,2026-kastner-prescience-methodology-demo-0cdf48

@@ -1,0 +1,5 @@
+"tech_id","tech_name","category","vendor","era","lifecycle_at_study","lifecycle_current","study_id","notes"
+"mobile-smartphone","Mobile / Smartphone Computing","platform","Apple/Samsung/Google","2001-present","mature","mature","2026-kastner-top-100-economic-calls-2a98a7","12 entries in top-100 ranking"
+"digital-consumer-technology","Digital Consumer Technology","platform","Apple/Samsung/HP","2002-present","mature","mature","2026-kastner-top-100-economic-calls-2a98a7","14 entries in top-100 ranking"
+"oltp-tpc","OLTP / TPC-Benchmarked Transaction Processing","framework","TPC Council","1985-present","mature","mature","2026-kastner-top-100-economic-calls-2a98a7","16 entries in top-100 ranking"
+"cloud-saas","Cloud Computing & SaaS","platform","AWS/Microsoft/Google","1998-present","mature","mature","2026-kastner-top-100-economic-calls-2a98a7","58 entries in top-100 ranking"

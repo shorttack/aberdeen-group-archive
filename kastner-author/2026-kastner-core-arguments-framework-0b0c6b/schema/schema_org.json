@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Kastner's Core Arguments and Framework: A Wiki-Driven Synthesis from the Aberdeen-Group-Archive",
+  "description": "A wiki-driven framework study extracting twelve core arguments that recur across Peter S. Kastner's documented career (1969-2026) and binding each argument to a queryable proof cluster drawn from the 19,382-row master observations table of the Kastner IT Research Archive. The framework is the one Kastner himself articulates in Chapter 10 of the 2026 memoir (Seven Patterns That Recur) extended with five derived arguments covering reliability marketing, category creation, analyst methodology, content marketing, and the compute-judgment inversion. Each argument carries a filter spec against _master_observations.csv that returns the supporting rows, named exemplars, counter-evidence, and a confidence histogram. The study is designed to become a living wiki hub: arguments link out to proof studies via Obsidian wikilinks, and any reader can re-execute the filters to audit population claims at row-level granularity. This makes the framework empirically self-defending: criticism must engage with specific rows, not assertions. Total population: 1,606 supporting observations, 1,410 at confidence partially-verified or better (87.8%), 6 refuted observations (0.37%), spanning the 1960s-2020s.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (assembled with Perplexity Computer using archival-ingest v18)"
+  },
+  "datePublished": "2026-05-16",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

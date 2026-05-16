@@ -1,0 +1,577 @@
+---
+study_id: kastner-core-arguments-framework-2026
+title: "Kastner's Core Arguments and Framework: A Wiki-Driven Synthesis from the Aberdeen-Group-Archive"
+author: Peter S. Kastner (with archival-ingest assembly)
+date: 2026-05-16
+type: framework-synthesis
+subject_domain: technology-analysis-methodology
+methodology: archive-mining-with-observation-cluster-attribution
+license: CC-BY-4.0
+collection: kastner-author
+abstract: >-
+  A wiki-driven framework study extracting twelve core arguments that recur
+  across Peter S. Kastner's documented career (1969-2026) and binding each
+  argument to a queryable proof cluster drawn from the 19,382-row master
+  observations table of the Kastner IT Research Archive. The framework is the
+  one Kastner himself articulates in Chapter 10 of the 2026 memoir
+  ('Seven Patterns That Recur') extended with five derived arguments covering
+  reliability marketing, category creation, analyst methodology, content
+  marketing, and the compute-judgment inversion. Each argument carries a
+  filter spec against _master_observations.csv that returns the supporting
+  rows, named exemplars, counter-evidence, and a confidence histogram. The
+  study is designed to become a living wiki hub: arguments link out to proof
+  studies via Obsidian wikilinks, and any reader can re-execute the filters
+  to audit population claims at row-level granularity. This makes the
+  framework empirically self-defending: criticism must engage with specific
+  rows, not assertions.
+importance: 5
+importance_rationale: >-
+  First framework synthesis to formalize the core arguments running across
+  Kastner's 57-year career as observation-attributable claims rather than
+  prose assertions. Establishes the wiki-driven precedent for future
+  framework-level studies in the archive.
+relevance: 5
+relevance_rationale: >-
+  Operationalizes the archive-as-protagonist convention by making the
+  framework itself queryable. Every claim in this study can be replicated
+  by re-executing the published filter spec against _master_observations.csv.
+prescience: not-applicable
+prescience_rationale: >-
+  Framework synthesis study, not a forward-looking prediction. Prescience
+  rating does not apply; predictive content is delegated to the cited proof
+  studies whose share-of-prescience ratings drive their attribution weights
+  in the methodology-demo and top-100-economic-calls studies.
+---
+
+# Kastner's Core Arguments and Framework
+
+## A Wiki-Driven Synthesis from the Aberdeen-Group-Archive
+
+**Study ID:** `kastner-core-arguments-framework-2026`
+**Date:** 16 May 2026
+**Author:** Peter S. Kastner (assembled by archival-ingest v18 from 935 archive studies and 19,382 master observations)
+**License:** CC-BY-4.0
+**DOI:** _to be issued on Zenodo deposit_
+
+---
+
+## 1. Purpose and design
+
+This study is not a prose summary of Peter S. Kastner's views. It is a **framework with proof attached**.
+
+Across the 935 studies and 19,382 observations of the Kastner IT Research Archive there are recurring claims — arguments Kastner makes in 1981, repeats in 1995, sharpens in 2005, and articulates as canonical patterns in Chapter 10 of his 2026 memoir. The framework presented here is the one Kastner himself names ("Seven Patterns That Recur") extended with five derived arguments — covering reliability marketing, category creation, analyst methodology, content marketing, and the compute-judgment inversion — that the archive also supports.
+
+For each argument the study records:
+
+1. **Claim** — one-sentence statement of the position
+2. **Mechanism** — why it is true and how the argument derives from the archive
+3. **Filter spec** — a Python-style query against `_master_observations.csv` that returns the supporting rows
+4. **Population** — count of matching observations, with confidence histogram and decade span
+5. **Named exemplars** — three to six specific `obs_id` citations as anchors
+6. **Counter-evidence** — observations where the argument is refuted or strained
+7. **Wiki linkage** — Obsidian `[[wikilinks]]` to proof studies that warrant deeper reading
+
+The structure makes the framework **queryable and self-auditing**. Anyone disputing a claim can re-run its filter against the master CSV and inspect the universe. Anyone wanting to extend the framework can add a new argument with its own filter and watch its population evolve as the archive grows.
+
+This is the second study in the archive built on the archive-as-protagonist convention. The first, [[kastner-prescience-methodology-demo]] (published 12 May 2026, commit `6b439b33`), established the convention. This study extends it from methodology demonstration to framework synthesis.
+
+## 2. Headline result
+
+Twelve core arguments. 1,606 supporting observations across the master table. 1,410 of them at confidence ≥ partially-verified (87.8%). Six refuted observations across the entire set (0.37%), all isolated to ARG-1 and ARG-2 and treated as counter-evidence rather than suppressed.
+
+| Argument | Population | Verified+High | Partial | Refuted | Span |
+|---|---:|---:|---:|---:|---|
+| ARG-1: Economic winner displaces technical winner | 360 | 307 | 9 | 4 | 1960s–2020s |
+| ARG-2: Proprietary platforms fund their own displacement | 197 | 169 | 7 | 1 | 1980s–2020s |
+| ARG-3: Adoption timelines always longer than predicted | 26 | 25 | 0 | 0 | 1990s–2020s |
+| ARG-4: The integration problem is permanent | 148 | 125 | 3 | 0 | 1980s–2020s |
+| ARG-5: Data advantage compounds | 252 | 192 | 5 | 0 | 1990s–2020s |
+| ARG-6: Failure mode is almost never technical | 67 | 63 | 0 | 0 | 1960s–2020s |
+| ARG-7: The machine was never the hard part | 37 | 36 | 0 | 0 | 1960s–2020s |
+| ARG-8: Reliability is sold to buying committees, not engineers | 195 | 175 | 1 | 0 | 1960s–2020s |
+| ARG-9: Categories must be created before they can be sold | 103 | 90 | 0 | 0 | 1980s–2000s |
+| ARG-10: Analyst credibility is earned with named winners, dates, and numbers | 175 | 158 | 0 | 0 | 1980s–2020s |
+| ARG-11: Free research is the marketing asset | 11 | 11 | 0 | 0 | 1990s–2020s |
+| ARG-12: Compute scarcity has inverted; judgment is now the scarce resource | 35 | 34 | 0 | 0 | 1960s–2020s |
+| **TOTAL** | **1,606** | **1,385** | **25** | **6** | **1960s–2020s** |
+
+The seven memoir-canonical arguments (ARG-1, 2, 3, 4, 5, 6, 7) plus five derived arguments (ARG-8, 9, 10, 11, 12) form the synthesized framework.
+
+## 3. The framework
+
+### Foundational thesis
+
+> **Every information system is really an argument with reality.**
+> — Introduction, *Arguments with Reality* (2026), `volume-1-introduction-physics-of-the-machine`, obs `intro_core_thesis`
+
+> **The machine is the whole system: code, economics, institutions, incentives, ambitions, and the human beings who must make it work.**
+> — Chapter 10, *Arguments with Reality* (2026), `volume-1-ch10-the-long-view-1966-2026`
+
+The framework below decomposes that thesis into twelve falsifiable arguments. Each argument is bound to specific observations; the framework as a whole is no stronger than the proof rows it cites.
+
+### ARG-1: Economic winner displaces technical winner
+
+**Claim.** Every major platform transition is won on economics, not engineering. Technical superiority is necessary but not sufficient; **technical adequacy plus economic advantage** is the sufficient condition.
+
+**Mechanism.** A buying decision is an organization-level act, not an engineer-level one. Procurement, finance, and executive sponsors react to total cost of ownership, supplier viability, and risk-adjusted return — not to architectural elegance. A technically inferior alternative wins if its economics dominate; a technically superior incumbent loses if its margins attract commodity attackers it cannot match.
+
+**Filter.**
+```python
+observation_type in {"topic-insight","expert-opinion","actual-outcome","viability-prediction"}
+AND text_contains("economic","displace","commodity","margin","price elasticity",
+                  "licensing economics","commoditize","open systems","linux won","x86")
+```
+
+**Population.** 360 rows · 307 verified+high · 9 partially-verified · **4 refuted** · 1960s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10-the-long-view-1966-2026/obs_pattern1_economic_winner` (2026) — Pattern 1 statement: "Every major platform transition was driven primarily by economics, not superior engineering."
+- `volume-1-ch10-the-long-view-1966-2026/obs_mainframe_displacement` (2026) — "Mainframe was not technically obsolete when minicomputers displaced it; it was economically uncompetitive for departmental workloads."
+- `volume-1-ch10-the-long-view-1966-2026/obs_linux_licensing` (2026) — "Unix was not technically inferior to Linux; Linux won on licensing economics and community development."
+- `kastner-prescience-market-rollup-2026/obs_pattern_open_systems` — Mid-attribution $3.08T cloud value driven by commodity economics, not architectural superiority.
+- `kastner-top-100-economic-calls-2026/obs_attribution_rationale_cloud` — Cloud attribution 0.32 reflects naming Amazon, Google, Microsoft as winners while incumbents (Dell, HP, IBM) were predicted to dominate.
+
+**Counter-evidence.** Object databases were architecturally superior to relational on multiple dimensions but failed to displace RDBMS — economic advantage was on the incumbent's side because RDBMS had compounded data assets (see ARG-5). This is recorded explicitly in `volume-1-ch10/obs_object_db_miss`: "Object databases: a miss. They did not achieve the predicted market significance."
+
+**Proof studies (wiki).** [[volume-1-ch10-the-long-view-1966-2026]] · [[kastner-prescience-market-rollup-2026]] · [[kastner-top-100-economic-calls-2026]] · [[kastner-prescience-methodology-demo-2026]] · [[volume-1-epilogue-argument-with-reality]]
+
+---
+
+### ARG-2: Proprietary platforms fund their own displacement
+
+**Claim.** A proprietary platform achieves leadership through innovation, captures high margins, which attract commodity-based open alternatives that improve rapidly and displace the proprietary platform. The pattern is so reliable it is structural.
+
+**Mechanism.** High proprietary margins create a profit pool. The profit pool funds commodity R&D — explicitly (IBM funded Unix research; the internet boom funded cloud infrastructure) or implicitly (proprietary minicomputer margins funded x86 ecosystem development). The commodity alternative catches up on a Wright's-law cost curve the proprietary incumbent cannot match without surrendering its own margin structure. A new proprietary platform's success contains the seeds of its eventual displacement.
+
+**Filter.**
+```python
+observation_type in {"topic-insight","expert-opinion","actual-outcome"}
+AND text_contains("proprietary","displaced","funded","x86 displacement",
+                  "minicomputer margin","ibm funded unix","linux",
+                  "internet boom funded cloud")
+```
+
+**Population.** 197 rows · 169 verified+high · 7 partially-verified · 1 refuted · 1980s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern2_proprietary_displacement` (2026) — Pattern 2 canonical statement
+- `volume-1-ch10/obs_ibm_funded_unix` (2026) — "IBM funded the research that produced Unix"
+- `volume-1-ch10/obs_internet_boom_funded_cloud` (2026) — "The Internet boom funded the cloud infrastructure that commoditized enterprise servers"
+- `volume-1-ch10/obs_proprietary_minicomputer_funded_x86` (2026) — "Proprietary minicomputer margins funded the x86 development that displaced minicomputers"
+- `volume-1-ch05-stratus-fault-tolerant-wars` — six chapters of contemporary documentation of the fault-tolerant proprietary niche eventually compressed by clustered commodity hardware.
+
+**Counter-evidence.** Cloud infrastructure was expected to come from established commodity-hardware vendors (Dell, HP, IBM) per Pattern 2. It did not. Instead it came from Amazon, Microsoft, Google — service-layer companies that built shared utility infrastructure rather than enterprises consuming commodity hardware they owned. Recorded in `volume-1-ch10/obs_expected_cloud_winners_wrong`: "Cloud infrastructure failed to come from established vendors like Dell, HP, and IBM as Kastner expected." The pattern was directionally right; the specific commodity-vendor prediction was wrong. The mechanism (margin attraction) held; the actor surprised.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[volume-1-ch05-stratus-fault-tolerant-wars-1981-1987]] · [[volume-1-ch06-dec-mainframes-last-stand-1987-1988]] · [[kastner-prescience-market-rollup-2026]]
+
+---
+
+### ARG-3: Adoption timelines always longer than predicted
+
+**Claim.** Architecturally correct predictions arrive on the wrong calendar. Direction is more reliable than timing. The friction-aware analyst is right about friction and wrong about endpoint; the directional analyst is right about endpoint and wrong about timing. Best prediction: confident direction with realistic timeline — harder to produce, easier to claim in retrospect.
+
+**Mechanism.** Technology transitions require organizational competency, risk tolerance, procurement adaptation, skills development, and executive conviction — all moving more slowly than engineering capability. Analysts who understand technology deeply tend toward conservative timeline bias because they understand organizational friction in detail. Analysts who ignore friction call direction boldly and are often right about endpoint, wrong about timing.
+
+**Filter.**
+```python
+observation_type in {"expert-opinion","topic-insight","prescience-assessment","actual-outcome"}
+AND text_contains("years early","directionally right","adoption timeline",
+                  "underestimated speed","longer than predicted","premature",
+                  "right about direction","wrong about timeline","friction",
+                  "organizational friction")
+```
+
+**Population.** 26 rows · 25 verified+high · 0 refuted · 1990s–2020s.
+
+The small population reflects the argument's specificity: it is articulated most explicitly in the memoir and prescience-assessment studies. The framework is supported by hundreds of indirect proof rows in the prediction-vs-outcome chain (see the 728 Kastner predictions and 593 outcome observations cataloged in the methodology demo) — those are not in this cluster only because they don't use the literal vocabulary of friction and timing.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern3_adoption_timelines` (2026) — "In forty years of making and evaluating technology predictions, Kastner cannot think of a single case where a correct architectural prediction came true on the originally projected timeline."
+- `volume-1-ch10/obs_soa_directionally_right_5y_early` (2026) — "SOA: directionally right, five years early."
+- `volume-1-ch10/obs_open_source_3y_early` (2026) — "Open source enterprise adoption: directionally right, three years early."
+- `volume-1-ch10/obs_web_app_platform_2y_early` (2026) — "Web as application platform: directionally right, two years early."
+- `volume-1-ch10/obs_consumerization_2y_early` (2026) — "Consumerization of IT: directionally right, two years early."
+- `kastner-prescience-market-rollup-2026/obs_attribution_lead_score` — Lead-time scoring formula explicitly recognizes this: predictions made earlier earn higher attribution weight, capped by attribution clamp to prevent over-credit for too-early calls.
+
+**Counter-evidence.** The web's transformation into a full application platform "got direction right but missed speed of transition" in the *other* direction — it happened faster than Aberdeen forecast. So timing bias is not strictly one-sided, though the dominant direction of error is conservative.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[kastner-prescience-methodology-demo-2026]] · [[kastner-prescience-market-rollup-2026]]
+
+---
+
+### ARG-4: The integration problem is permanent
+
+**Claim.** Every architectural improvement creates new integration complexity. EAI, SOA, APIs, microservices, and AI inference each addressed integration without eliminating it. The "integration tax" — a phrase Kastner coined in the early 1990s — is a structural property of ecosystems that grow through proliferation rather than replacement.
+
+**Mechanism.** N-squared point-to-point complexity is visible and predictable at any moment but recurs across architectural generations. Each new integration paradigm reduces the complexity of the existing endpoint count, but the reduction enables a new generation of endpoints, which then exceed the old count and re-create the N-squared problem at the new abstraction layer.
+
+**Filter.**
+```python
+text_contains("integration tax","integration problem","n-squared","n squared",
+              "integration complexity","point-to-point","eai","esb","soa",
+              "api management","microservice","integration architecture","interoperability")
+AND observation_type in {"topic-insight","expert-opinion","framework-factor",
+                         "framework-definition","framework-component",
+                         "strategic-recommendation","viability-prediction",
+                         "actual-outcome","commentary"}
+```
+
+**Population.** 148 rows · 125 verified+high · 3 partially-verified · 0 refuted · 1980s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern4_integration_permanent` (2026) — Pattern 4 canonical statement
+- `volume-1-ch10/obs_integration_tax_coined_1990s` (2026) — Kastner coined the phrase in the early 1990s
+- `volume-1-ch10/obs_n_squared_visible_1992` (2026) — "The N-squared complexity of point-to-point integrations was visible and predictable in 1992."
+- `volume-1-ch10/obs_ai_integration_tax_2026` (2026) — "As enterprises integrate AI inference engines with operational systems in 2026, the integration tax is being collected again on a new layer. The pattern is unchanged."
+- `lansa-composer-powerpoint-9f4257` (2020) — SOA largely superseded by microservices, REST, and iPaaS. Core integration claim validated by modern low-code/RPA/iPaaS.
+- `ca-interbiz-bizworks-profile-054f3c` (2026) — interBiz/BizWorks profile: "EAI category was displaced by web services, SOA, and API-economy integration tools" — pattern replays.
+
+**Counter-evidence.** None in the proof cluster; the pattern's structural nature makes it nearly tautologically supported by any new integration architecture's emergence.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · The full Aberdeen SOA/BPM/EII series (2003–2007) — see `kastner-author/employer/aberdeen-group/` for the 54 contemporaneous Kastner SOA/EAI studies that document this argument as it was being made, not after the fact.
+
+---
+
+### ARG-5: Data advantage compounds
+
+**Claim.** Data is a competitive asset, not merely an operational record. Early data infrastructure investment produces better analytics, better decisions, more data to analyze — a self-reinforcing cycle. Organizations that built well-governed data assets in the 1990s-2000s are the same organizations most effectively deploying LLMs and AI today.
+
+**Mechanism.** Once data investment crosses an organizational threshold (warehouse architecture, governance, dimensional modeling, master data management), the marginal cost of each new analytical use case drops, while each new use case adds operational data back to the pool. Organizations that defer the investment do not catch up; they enter a permanent catch-up position relative to compounders.
+
+**Filter.**
+```python
+text_contains("data advantage","data as competitive asset","data warehouse",
+              "business intelligence","analytics","data infrastructure",
+              "data assets","rdbms","data democratization",
+              "compounding value of data","well-governed data")
+AND observation_type in {"topic-insight","expert-opinion","framework-factor",
+                         "strategic-recommendation","actual-outcome",
+                         "viability-prediction","market-data"}
+```
+
+**Population.** 252 rows · 192 verified+high · 5 partially-verified · 0 refuted · 1990s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern5_data_compounds` (2026) — Pattern 5 canonical statement
+- `volume-1-ch10/obs_data_advantage_aberdeen_1990s` (2026) — "Kastner argued at Aberdeen in the early 1990s that data was becoming a competitive asset, not merely an operational record."
+- `volume-1-ch10/obs_bi_investments_now_ai_foundation` (2026) — "Organizations that built large, well-governed data assets in the 1990s-2000s are the same organizations most effectively deploying LLMs and AI inference today. No one planned it that way."
+- `volume-1-ch10/obs_data_self_reinforcing_cycle` (2026) — Self-reinforcing-cycle mechanism articulated
+- The Aberdeen Data Warehousing series (1996–2003) provides ~80 contemporaneous proof rows for the early data-as-asset thesis.
+
+**Counter-evidence.** None refuted in the cluster, though the prediction that *data* infrastructure investment alone would yield AI capability is too strong — without GPU computing and self-attention architecture (both 2010s+ developments), the data assets would not have produced today's AI. The mechanism is necessary, not sufficient.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[volume-1-ch07-founding-aberdeen-1988-1997]] · [[volume-1-ch08-aberdeen-go-go-years-1998-2006]]
+
+---
+
+### ARG-6: Failure mode is almost never technical
+
+**Claim.** In fifty years of watching technology projects succeed and fail, the overwhelming majority of failures trace to governance misalignment, inadequate scope definition, requirements changing faster than the project accommodated, executive pressure overriding technical judgment, and organizational resistance — not unsolvable technical problems.
+
+**Mechanism.** Technical components can be specified, tested, and verified. Human components — politics, incentives, communication failures, misaligned expectations — are significantly harder to manage and much more likely to be the source of catastrophic failure. The best technology architects Kastner has known were also skilled organizational diagnosticians who could identify the political and governance constraints determining whether a sound architecture could be implemented.
+
+**Filter.**
+```python
+text_contains("governance","organizational resistance","human problem",
+              "human solution","political constraint","misalignment",
+              "failed project","failure mode","executive pressure",
+              "scope definition","requirements changing","culture")
+AND observation_type in {"topic-insight","expert-opinion","risk-assessment",
+                         "analytical-finding","strategic-assessment",
+                         "commentary","strategic-recommendation"}
+```
+
+**Population.** 67 rows · 63 verified+high · 0 refuted · 1960s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern6_failure_not_technical` (2026) — Pattern 6 canonical statement
+- `volume-1-ch10/obs_project_failure_root_causes` (2026) — Governance, scope, requirements churn, executive pressure, resistance
+- `volume-1-ch10/obs_architects_as_diagnosticians` (2026) — "The best technology architects Kastner has known were also skilled organizational diagnosticians."
+- `volume-1-ch09-expert-witness-technology-on-trial-1992-2015` — 39 argument-bearing observations from 23 years of expert-witness engagements where Kastner's testimony repeatedly identified non-technical root causes of failed enterprise IT projects.
+
+**Counter-evidence.** None refuted in the cluster.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[volume-1-ch09-expert-witness-technology-on-trial-1992-2015]] · [[kastner-ie-v-andersen-expert-report]]
+
+---
+
+### ARG-7: The machine was never the hard part
+
+**Claim.** Technology problems are tractable. The problems that resist solution — integration challenges, governance failures, adoption delays, organizational resistance — are human problems requiring human solutions. The machine does what it is told; the hard part is knowing what to tell it.
+
+**Mechanism.** This argument is the philosophical core of the memoir. Early AI required explicit knowledge representation; its fundamental limitation was that human knowledge is mostly tacit — experts know more than they can articulate. Transformer architecture solved that for language but did not solve the analogous organizational problem: institutions know more than they can articulate, and the binding constraint on technology deployment is not what the machine can do but what the organization can decide to have it do.
+
+**Filter.**
+```python
+text_contains("machine is the whole system","the hard part","knowing what to tell",
+              "human problem","organizational diagnostic","tacit knowledge",
+              "physics of organization","argument with reality","incentives","institution")
+AND observation_type in {"topic-insight","expert-opinion","analytical-finding",
+                         "strategic-assessment","commentary"}
+```
+
+**Population.** 37 rows · 36 verified+high · 0 refuted · 1960s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_pattern7_machine_not_hard_part` (2026) — Pattern 7 canonical statement
+- `volume-1-ch10/obs_hard_part_what_to_tell` (2026) — "The machine does what it is told, precisely and relentlessly. The hard part is knowing what to tell it."
+- `volume-1-ch10/obs_machine_is_whole_system` (2026) — "The machine is the whole system: code, economics, institutions, incentives, ambitions, and the human beings who must make it work."
+- `volume-1-epilogue-argument-with-reality/obs_physics_of_organizations` (2026) — "The technology changes. The physics of organizations does not."
+- `volume-1-introduction-physics-of-the-machine/obs_organizing_principle` (2026) — "Information technology is never just about technology — it is about the collision of systems with institutions, economics, and human nature."
+
+**Counter-evidence.** None refuted in the cluster.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[volume-1-epilogue-argument-with-reality]] · [[volume-1-introduction-physics-of-the-machine]]
+
+---
+
+### ARG-8: Reliability is sold to buying committees, not engineers
+
+**Claim.** Fault-tolerance, availability, and dependability are won by making the abstract visceral. Stratus's "pull the board" demonstration defeated technically comparable alternatives because it made uptime tangible to decision-makers who could not verify engineering claims. Reliability is a buying-committee problem, not an engineering one.
+
+**Mechanism.** Buyers of mission-critical systems do not buy on benchmark numbers they cannot independently verify. They buy on demonstrations, references, vendor longevity, and the felt confidence that the vendor's marketing makes claims they will stand behind. The fault-tolerant niche was defended for two decades not by patent walls but by the institutional difficulty of competitors making "uptime" viscerally real to a buying committee.
+
+**Filter.**
+```python
+text_contains("fault tolerance","fault-tolerant","reliability","uptime",
+              "availability","pull the board","buying committee","buying criterion",
+              "mission-critical","high availability","five nines","non-stop")
+AND observation_type in {"framework-factor","expert-opinion","topic-insight",
+                         "competitive-position","strategic-recommendation",
+                         "market-data","product-evaluation","actual-outcome"}
+```
+
+**Population.** 195 rows · 175 verified+high · 1 partially-verified · 0 refuted · 1960s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch05-stratus-fault-tolerant-wars-1981-1987` — 45 argument-bearing observations from the six years Kastner spent inside the Stratus marketing organization
+- `volume-1-epilogue-argument-with-reality/obs_stratus_niche_defense` (2026) — "Fault-tolerant niche defended not by patents but by difficulty of making 'uptime' viscerally real to a buying committee and by the 'pull the board' demonstration."
+- The financial-market buying-criteria framework (1991): Reliability, Availability, Expandability, Performance — captured across multiple Aberdeen studies as the explicit committee-level decision framework.
+
+**Counter-evidence.** None refuted; the niche eventually compressed but on economic grounds (ARG-1, ARG-2), not because the buying-committee mechanism stopped working.
+
+**Proof studies.** [[volume-1-ch05-stratus-fault-tolerant-wars-1981-1987]] · [[stratus-corp-overview-1981]] · The 11-study Stratus collection in `kastner-author/employer/stratus-computer/`.
+
+---
+
+### ARG-9: Categories must be created before they can be sold
+
+**Claim.** Markets do not buy products they have no vocabulary for. Aberdeen's category-creation discipline turned analyst research into market structure: name the category, define it, differentiate from adjacent categories, debunk competitive framings, define the argument and messages, deliver to influencers, evangelize, measure, hand over to influencers, nurture. Midline Storage, Pools of Storage, PSA (Professional Services Automation), and EII (Enterprise Information Integration) each followed the ten-step recipe.
+
+**Mechanism.** A vendor selling a product the market has no name for cannot be compared, ranked, or budgeted for. The analyst function — at its sharpest — is to define the category that makes the comparison possible. Once a category exists, vendors compete inside it; the analyst's role shifts to ranking and the buyer's role shifts to short-listing. Category creation is therefore the highest-leverage analyst activity: it does not just measure the market, it constructs it.
+
+**Filter.**
+```python
+observation_type in {"category-creation","category-creation-methodology",
+                     "category-creation-strategy","category-definition",
+                     "category-creation-analogy","category-creation-principle",
+                     "framework-factor","strategic-recommendation",
+                     "methodology","methodology-description"}
+AND text_contains("category","create","name","define","midline","pool of storage",
+                  "psa","eii","soa")
+```
+
+**Population.** 103 rows · 90 verified+high · 0 refuted · 1980s–2000s.
+
+**Named exemplars.**
+- `maxtor-midline-evaluation-a8d823` (2004) — 10-step category creation model documented
+- `psa-hofferberth-1999` (1999) — Dave Hofferberth named and codified Professional Services Automation as a category; recognized as "Father of PSA"
+- The Aberdeen ILM (Information Lifecycle Management) series — multi-year category-creation campaign documented in 12+ contemporaneous Kastner studies
+- `volume-1-ch08-aberdeen-go-go-years-1998-2006` — chapter-level documentation of category creation as the Aberdeen go-to-market doctrine.
+
+**Counter-evidence.** Some Aberdeen-named categories did not achieve durable market adoption (e.g., specific sub-segments within EII). But the broader categories (Midline Storage, ILM, SOA) all reached significant market traction.
+
+**Proof studies.** [[maxtor-midline-evaluation-a8d823]] · [[volume-1-ch08-aberdeen-go-go-years-1998-2006]] · The 54 Aberdeen-era studies in `kastner-author/employer/aberdeen-group/`.
+
+---
+
+### ARG-10: Analyst credibility is earned with named winners, dates, and numbers
+
+**Claim.** Vague forecasts cannot be falsified. Specificity — naming the winning vendor, citing the year, quoting the number — produces accountable analysis. The same discipline that exposes errors makes correct calls verifiable decades later. Triple-sourced anchors with at least one primary source, named-winner predictions, and explicit confidence ratings are the methodology that allows share-of-prescience attribution to work.
+
+**Mechanism.** A prediction without a named subject is unfalsifiable, therefore meaningless. A prediction with a named subject and a date can be checked. Multi-decade share-of-prescience attribution (the methodology used in [[kastner-top-100-economic-calls-2026]]) requires specificity — Lead × Contrarian × Specificity / 250 scoring formula explicitly weights named predictions higher than directional ones. The Aberdeen RAMP methodology (Research, Analysis, Marketing, Promotion) was the operational embodiment of this discipline.
+
+**Filter.**
+```python
+observation_type in {"methodology","methodology-description","research-methodology",
+                     "research-method","prescience-assessment","framework-definition",
+                     "framework-factor","analytical-finding","analyst-finding",
+                     "strategic-recommendation","expert-opinion"}
+AND (text_contains("ramp","named winner","triple-source","primary source",
+                   "specificity","confidence rating","analyst model",
+                   "research methodology","field research","interview","benchmark",
+                   "ranked allocation","share of prescience","share-of-prescience")
+     OR methodology_code in {"ranked-allocation","prescience-retrospective",
+                             "retrospective-grading","triple-sourced","ramp-interview"})
+```
+
+**Population.** 175 rows · 158 verified+high · 0 refuted · 1980s–2020s.
+
+**Named exemplars.**
+- `dct-memoir-ramp-vs-dct-prescience-2026` — "RAMP predictions at time of writing: 81 high + 15 medium confidence on 96 rows; outcome-level 89 rows with 0 refuted."
+- `prime-industry-product-5-year-plan-1981` (1981) — "DEC will remain the competitive benchmark indefinitely" — a named-winner prediction from 1981, verifiable against subsequent DEC trajectory.
+- `1990-bull-rdbms-1990` (1990) — Aberdeen interview revealed Salomon wished it had chosen Ingres instead — named-vendor, dated specificity.
+- `kastner-prescience-methodology-demo-2026` — Full methodology documentation
+- The RAMP methodology rows (2000) in `aberdeen-training-day-X` studies document the analyst-discipline framework as it was taught internally.
+
+**Counter-evidence.** None refuted in the cluster; the argument is methodologically about how to be accountable, not about a specific market call.
+
+**Proof studies.** [[kastner-prescience-methodology-demo-2026]] · [[kastner-top-100-economic-calls-2026]] · [[kastner-prescience-market-rollup-2026]] · The Aberdeen training-day series in `kastner-author/employer/aberdeen-group/aberdeen-training-day-*`.
+
+---
+
+### ARG-11: Free research is the marketing asset
+
+**Claim.** Aberdeen's publishing model — give the research away, sell the advisory engagements that follow — anticipated content marketing by fifteen years. The principle is durable across distribution mechanisms: demonstrate expertise before the sales conversation produces better clients than expertise claimed during one.
+
+**Mechanism.** A prospective client who reads a substantive piece of research before meeting the analyst is pre-qualified, pre-educated, and pre-disposed to a high-trust commercial conversation. The economics of publishing-as-marketing differ from advertising: the cost is the research itself, which has independent intellectual value; the conversion happens slowly via reputation rather than rapidly via channel buys; the audience self-selects for analytical sophistication.
+
+**Filter.**
+```python
+text_contains("content marketing","free research","published research","lead generation",
+              "marketing asset","demonstrate expertise","publishing model","aberdeen publishing")
+AND observation_type in {"topic-insight","expert-opinion","strategic-insight",
+                         "analytical-finding","business-model","strategic-recommendation",
+                         "methodology"}
+```
+
+**Population.** 11 rows · 11 verified+high · 0 refuted · 1990s–2020s.
+
+The small population reflects the argument's specificity: it is articulated explicitly only in the memoir, the about-the-author chapter, and the Aberdeen training-day studies. The argument is well-supported despite its small footprint because the supporting rows are all named, dated, and high-confidence.
+
+**Named exemplars.**
+- `volume-1-about-the-author/obs_content_marketing_pioneered` (2026) — "Pioneered publishing research findings as lead generation for advisory engagements — a practice now called content marketing"
+- `volume-1-ch10/obs_aberdeen_publishing_anticipated_content_marketing` (2026) — "Free research as marketing anticipated content marketing by fifteen years."
+- `volume-1-ch10/obs_content_marketing_principle_durable` (2026) — Distribution mechanism changed; principle has not.
+- `aberdeen-training-day-2-representing-abe-38ef4b` (2000) — "Aberdeen web site gets approximately 40,000 hits per month, mostly from users" — contemporaneous evidence of the publishing-as-marketing engine at scale.
+
+**Counter-evidence.** None in the cluster. The argument is unusual in that its strongest proof is the existence of the archive itself: 944 studies given away for over three decades. The 2026 publication of the archive on GitHub with a Zenodo DOI ([10.5281/zenodo.20245076](https://doi.org/10.5281/zenodo.20245076)) is the latest iteration of the same model.
+
+**Proof studies.** [[volume-1-about-the-author]] · [[volume-1-ch07-founding-aberdeen-1988-1997]] · [[volume-1-ch10-the-long-view-1966-2026]]
+
+---
+
+### ARG-12: Compute scarcity has inverted; judgment is now the scarce resource
+
+**Claim.** In 1969 CPU time at $360/hour against a $7,200 annual salary made compute precious and labor cheap. By 2026 the wrist-worn device exceeds the 1966 $5M mainframe for free, while contextual judgment, governance, and the ability to navigate ambiguity become the binding constraints. AI inference completes the inversion: machine cognition is abundant, human judgment scarce.
+
+**Mechanism.** Every technique that defined the early career (JCL optimization, one-instruction switches, microsecond efficiency) was a response to scarcity economics. As compute commoditized through commodity hardware, open systems, internet infrastructure, and cloud utility services, the binding constraint migrated up the value stack: from compute, to skilled labor, to integration architecture, to data, to governance, to judgment. AI inference is the final inversion: machine cognition itself is now abundant, while the question of what to tell it remains entirely human.
+
+**Filter.**
+```python
+text_contains("inversion","compute scarcity","scarcity economics","judgment is the scarce",
+              "abundant","cheap","$360","$5m mainframe","wrist","compute abundance",
+              "jcl optimization","scarce resource","compute commoditiz","ai inference")
+AND observation_type in {"topic-insight","expert-opinion","analytical-finding",
+                         "strategic-assessment","commentary","framework-factor"}
+```
+
+**Population.** 35 rows · 34 verified+high · 0 refuted · 1960s–2020s.
+
+**Named exemplars.**
+- `volume-1-ch10/obs_compute_inversion_2026` (2026) — Canonical inversion statement
+- `volume-1-ch10/obs_scarcity_economics_early_computing` (2026) — "Machine scarce and expensive; human labor abundant and cheap. Every technique — JCL optimization, one-instruction switches, microsecond efficiency — was a response to that economics."
+- `volume-1-ch02-physics-of-the-machine-1969-1972` (1969) — "20 hours of machine time equaled one programmer's annual salary; machine was scarce, labor was cheap."
+- `volume-1-epilogue-argument-with-reality/obs_compute_judgment_inversion_2008` (2026) — "By leaving Aberdeen in 2008, inversion nearly complete: compute abundant; scarce resource was judgment."
+- `volume-1-epilogue-argument-with-reality/obs_compute_scarcity_inversion_2026` (2026) — "AI inference on commodity hardware; foundation models available to any developer with a credit card. Constraint is not whether machine can do the thing but whether organization can govern it."
+- `volume-1-ch10/obs_human_judgment_scarce_2026` (2026) — "In 2026: machine inference abundant and cheap; human judgment and creativity the scarce resource."
+
+**Counter-evidence.** None in the cluster.
+
+**Proof studies.** [[volume-1-ch10-the-long-view-1966-2026]] · [[volume-1-epilogue-argument-with-reality]] · [[volume-1-ch02-physics-of-the-machine-1969-1972]] · [[kastner-technology-breadth-memoir-2026]]
+
+## 4. How to use this framework
+
+### Reading the framework
+
+Each argument is independently entered. The framework is not strictly hierarchical, but ARG-7 ("the machine was never the hard part") is the philosophical attractor for ARG-4, ARG-5, ARG-6. ARG-12 ("compute scarcity has inverted") is the implicit endpoint of ARG-1 and ARG-2. The methodological arguments (ARG-9, 10, 11) describe how the empirical arguments (ARG-1 through 8, 12) were generated.
+
+### Auditing a claim
+
+Every argument carries a Python-style filter spec. To audit, run:
+
+```python
+import csv
+matches = []
+with open('_master_observations.csv', encoding='utf-8') as f:
+    for r in csv.DictReader(f):
+        if FILTER(r):  # paste the filter spec
+            matches.append(r)
+print(f"Population: {len(matches)}")
+```
+
+The population should match the published count within rounding. If it does not, the archive has been amended (additive only — observations are never deleted). The current state can always be reconstructed from the master CSVs and the filter specs.
+
+### Extending the framework
+
+The archive will grow. To add an argument:
+
+1. Articulate the claim and mechanism.
+2. Write a filter spec that returns the supporting observations.
+3. Verify the population is non-trivial (>10 rows minimum; >50 for confident promotion to a canonical argument).
+4. Identify 3-6 named exemplars from Kastner-authored studies preferentially.
+5. Search for counter-evidence — refuted observations matching the filter; observations whose negation matches.
+6. Submit as a new section in this study via pull request to `shorttack/aberdeen-group-archive`.
+
+The wiki page accompanying this study is the navigable hub; the master observations table is the source of truth.
+
+## 5. Methodology notes
+
+This study was assembled by the archival-ingest v18 skill from:
+
+- 935 master studies in `_master_studies.csv`
+- 19,382 master observations in `_master_observations.csv`
+- 3,281 unique entities in `_known_entities.csv`
+- 4,277 unique technologies in `_known_technologies.csv`
+
+Phase 3 web verification (commit `e8b1d24e`, 16 May 2026) resolved 109 entity statuses and 80 prediction outcomes, eliminating all `[DEFERRED]` placeholder values from the archive before this synthesis ran.
+
+Filter specs are intentionally simple text-matches against `metric_name + metric_value + notes`. They are biased toward recall (capture broad evidence) over precision (would require entity-resolved tagging). Future work could replace the text-match filters with structured entity-id or technology-id filters once the master tables are fully entity-linked.
+
+The framework is the one articulated in Chapter 10 of *Arguments with Reality* (2026), extended with five derived arguments (ARG-8, 9, 10, 11, 12) that the archive also supports. ARG-1 through ARG-7 are Kastner's own canonical Seven Patterns; ARG-8 through ARG-12 are synthesized by this study from recurring observations in the Aberdeen-era work, the Stratus-era work, and the methodology demonstration study.
+
+## 6. Replication
+
+To reproduce this study from scratch:
+
+```bash
+git clone https://github.com/shorttack/aberdeen-group-archive.git
+cd aberdeen-group-archive
+python /path/to/build_argument_clusters.py
+```
+
+The script at `/home/user/workspace/build_argument_clusters.py` contains the canonical filter implementations. Running it against the current master CSVs produces `_arguments_proof_clusters.json` — the raw input to this study.
+
+To audit any single argument's population:
+
+```bash
+python -c "
+import csv, json
+clusters = json.load(open('_arguments_proof_clusters.json'))
+arg = clusters['ARG-4']  # or any other
+print(f'{arg[\"name\"]}: {arg[\"total_matches\"]} rows')
+for e in arg['exemplars']:
+    print(f'  {e[\"obs_id\"]} [{e[\"year\"]}] {e[\"metric_value\"][:100]}')
+"
+```
+
+## 7. Limitations
+
+- **Filter precision is biased toward recall.** A row matching the integration-tax vocabulary may be discussing the integration tax tangentially. Manual inspection of exemplars confirms the proof clusters are substantively on-topic, but the population counts include peripheral mentions.
+- **Five derived arguments (ARG-8 through 12) are synthesized**, not canonical. They are supported by archive observations but were not articulated as canonical patterns by Kastner. They should be treated as defensible extensions, not as the memoir's own framework.
+- **The framework is interpretive at the synthesis level**, even though every claim is audit-traceable. Two analysts might extract a different twelve arguments from the same archive. The contribution is the wiki-driven structure that makes any such framework auditable.
+- **Counter-evidence is structurally underweighted** because the filter spec is designed to capture supporting rows. A serious challenge to any argument requires writing a counter-filter that searches for refutation. The wiki should evolve to include explicit refutation queries for each argument.
+
+## 8. Citation
+
+> Kastner, P. S. (2026). *Kastner's Core Arguments and Framework: A Wiki-Driven Synthesis from the Aberdeen-Group-Archive*. Kastner IT Research Archive, study `kastner-core-arguments-framework-2026`. DOI: 10.5281/zenodo.20245076 (archive-level DOI).
+
+## 9. Cross-references
+
+- [[kastner-prescience-methodology-demo-2026]] — Establishes the archive-as-protagonist convention this study extends
+- [[kastner-prescience-market-rollup-2026]] — The $30T attribution rollup that ARG-3 and ARG-10 explain methodologically
+- [[kastner-top-100-economic-calls-2026]] — Ranked top-100 calls that operationalize the share-of-prescience formula
+- [[kastner-technology-breadth-memoir-2026]] — The 2,537-technology breadth analysis cited in ARG-7 and ARG-12
+- [[volume-1-ch10-the-long-view-1966-2026]] — The memoir chapter where ARG-1 through ARG-7 are stated canonically
+- [[volume-1-epilogue-argument-with-reality]] — The philosophical core of ARG-7 and ARG-12
+- [[volume-1-introduction-physics-of-the-machine]] — The "every information system is an argument with reality" thesis

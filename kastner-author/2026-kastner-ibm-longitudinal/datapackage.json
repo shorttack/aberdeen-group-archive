@@ -1,0 +1,261 @@
+{
+  "name": "2026-kastner-ibm-longitudinal",
+  "title": "IBM Corporation Across Six Decades of the Kastner Archive: Mainframe Survival, Platform Pivots, and the Services Transformation",
+  "description": "A longitudinal archive study of IBM Corporation across six decades of the Kastner IT Research Archive. IBM is the single most-referenced company in the archive \u2014 1,054 observations across 174 distinct studies spanning 1967 to 2026, with 724 IBM-vendor technology rows. The study decomposes IBM coverage into eleven thematic threads (mainframe survival, AS/400 & midrange, OS/2 & PC exit, DB2 & software pivot, services transformation, Linux & open source bet, Watson & AI, hybrid cloud & Red Hat, quantum computing, TPC benchmarks, and Kastner direct engagements), computes per-thread confidence histograms with named exemplars and refutations, and audits how IBM's actual transformation mapped to Kastner's documented predictions. Headline finding: IBM's mainframe was documented as 'doomed' in 1987 yet remains the archive's most durable technology-survival story through 2026; the services pivot from 'Big Blue hardware' to the world's largest IT services firm was predicted correctly; Watson AI significantly underdelivered its 2013-era promises. The archive contains zero formally-tagged IBM refutations in the viability-prediction rows \u2014 a contrast with Intel's 9.7% refutation rate that reflects IBM's unique institutional durability as an analyst subject. This is the second longitudinal single-entity study in the archive, following the Intel builder template.",
+  "version": "1.0.0",
+  "created": "2026-05-17",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner (assembled with Perplexity Computer using archival-ingest v16)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

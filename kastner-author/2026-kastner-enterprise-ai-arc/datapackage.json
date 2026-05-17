@@ -1,0 +1,261 @@
+{
+  "name": "2026-kastner-enterprise-ai-arc",
+  "title": "The Enterprise AI Arc: From XCON (1980) to Oracle 23ai (2024) \u2014 Forty-Four Years of AI-Adjacent Product Claims in the Kastner Archive",
+  "description": "A cross-entity longitudinal study tracing the continuous thread of AI-adjacent enterprise product claims documented in the Kastner IT Research Archive from 1980 through 2024. Synthesized from three completed longitudinal single-entity studies (IBM, Intel, Oracle) plus the broader 947-study master archive. The study decomposes the Enterprise AI Arc into eleven thematic threads: expert systems (1980\u20131995), early NLP and speech recognition (1986\u20132000), data mining and predictive analytics (1992\u20132005), document intelligence (1993\u20132005), agent architectures (1989\u20132010), computer vision and pattern recognition (1985\u20132005), IBM Deep Blue and competitive AI (1989\u20131997), IBM Watson and enterprise NLP (2006\u20132022), Oracle InterOffice to Oracle 23ai (1995\u20132024), Intel's AI hardware arc (2016\u20132024), and the LLM convergence (2017\u20132024). Each node is scored on specificity (1\u20135, mapping precision to modern LLM-era capability) and predictive distance (years to mainstream LLM-era delivery). Headline findings: Oracle InterOffice document summarization (1995) is the archive's highest-specificity contemporary forward-looking AI claim at 27-year predictive distance; XCON (1980) and MYCIN (1980) are the deepest historical AI anchors in the archive at 42-year distance; IBM ran the broadest pre-2000 commercial AI portfolio (speech, chess, data mining, NLP) of any company in the archive; the 1997 data mining cohort (IBM Intelligent Miner, Tandem ORDM, BusinessMiner) is the archive's densest AI cluster predating modern ML by 25 years. The enterprise AI arc is not a straight line \u2014 it is a series of capability surges followed by commercial failures, each advancing the underlying technology while the specific product vehicles collapsed. Every major LLM-era enterprise AI capability had a documented precursor in the Kastner archive at least fifteen years earlier.",
+  "version": "1.0.0",
+  "created": "2026-05-17",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Peter S. Kastner (assembled with Perplexity Computer using archival-ingest v16)",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "studies",
+      "path": "data/studies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "author",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "subject_domain",
+            "type": "string"
+          },
+          {
+            "name": "methodology",
+            "type": "string"
+          },
+          {
+            "name": "source_file",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "string"
+          },
+          {
+            "name": "license",
+            "type": "string"
+          },
+          {
+            "name": "importance",
+            "type": "string"
+          },
+          {
+            "name": "importance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "relevance",
+            "type": "string"
+          },
+          {
+            "name": "relevance_rationale",
+            "type": "string"
+          },
+          {
+            "name": "prescience",
+            "type": "string"
+          },
+          {
+            "name": "prescience_rationale",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": "data/entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "successor",
+            "type": "string"
+          },
+          {
+            "name": "years_active",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technologies",
+      "path": "data/technologies.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_name",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_at_study",
+            "type": "string"
+          },
+          {
+            "name": "lifecycle_current",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observations",
+      "path": "data/observations.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "obs_id",
+            "type": "string"
+          },
+          {
+            "name": "study_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "tech_id",
+            "type": "string"
+          },
+          {
+            "name": "observation_type",
+            "type": "string"
+          },
+          {
+            "name": "year_observed",
+            "type": "year"
+          },
+          {
+            "name": "metric_name",
+            "type": "string"
+          },
+          {
+            "name": "metric_value",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string"
+          },
+          {
+            "name": "methodology_code",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "codes",
+      "path": "data/codes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "code_id",
+            "type": "string"
+          },
+          {
+            "name": "code_type",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

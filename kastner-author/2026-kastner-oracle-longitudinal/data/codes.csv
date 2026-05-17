@@ -1,0 +1,33 @@
+code_id,code_type,label,definition
+strategy-classification,observation_type,Strategy Classification,Categorization of an entity's business strategy
+viability-prediction,observation_type,Viability Prediction,Expert prediction of entity's long-term survival
+actual-outcome,observation_type,Actual Outcome,Verified historical outcome for an entity
+technology-assessment,observation_type,Technology Assessment,Evaluation of a technology's maturity or fitness
+benchmark-result,observation_type,Benchmark Result,Quantitative comparison against peers or standards
+framework-factor,observation_type,Framework Factor,One component of a multi-factor analytical framework
+market-data,observation_type,Market Data,Quantitative market statistic
+expert-opinion,observation_type,Expert Opinion,Qualitative professional judgment
+personal-recollection,observation_type,Personal Recollection,First-person memory or anecdote from Kastner
+ai-exchange,observation_type,AI Exchange,A question posed by Kastner and the AI response extracted as a structured observation
+topic-insight,observation_type,Topic Insight,An analytical claim or framework point within a technology topic deep-dive
+analytical-finding,observation_type,Analytical Finding,"Archive-mining result: a count, rate, or pattern finding"
+longitudinal-decomposition,observation_type,Longitudinal Decomposition,Phase or period assignment in a single-entity longitudinal study
+thematic-thread-decomposition,observation_type,Thematic Thread Decomposition,"Thread-level claim, population count, or named exemplar in a longitudinal study"
+industry-analysis,methodology,Industry Analysis,Systematic analysis of industry structure and dynamics
+competitive-profiling,methodology,Competitive Profiling,Detailed comparison of competing entities
+benchmarking,methodology,Benchmarking,Comparison against industry standards or peers
+field-research,methodology,Field Research,Primary data collection via interviews or surveys
+document-review,methodology,Document Review,Analysis of existing documents and records
+archive-mining,methodology,Archive Mining,Extraction of patterns and statistics from the master CSV corpus
+longitudinal-single-entity,methodology,Longitudinal Single-Entity,Deep-dive study of one firm across all archive decades
+thematic-thread-decomposition,methodology,Thematic Thread Decomposition,Eleven-thread decomposition of entity coverage
+prediction-vs-outcome-scorecard,methodology,Prediction vs Outcome Scorecard,Tabulation of viability predictions against actual outcomes
+oral-history,methodology,Oral History,First-person spoken or written recollection of events
+ai-dialog,methodology,AI Dialog,Question-and-answer exchange between a human and an AI system
+high,confidence,High Confidence,Strong evidentiary basis; multiple corroborating sources
+medium,confidence,Medium Confidence,Reasonable basis but limited corroboration
+low,confidence,Low Confidence,Directional judgment with limited evidence
+verified,confidence,Verified,Confirmed by subsequent events or independent sources
+refuted,confidence,Refuted,Contradicted by subsequent events or independent sources
+wiki-driven-replication,methodology,Wiki Driven Replication,Study-specific code: wiki-driven-replication
+competitive-position,observation_type,Competitive Position,Study-specific code: competitive-position

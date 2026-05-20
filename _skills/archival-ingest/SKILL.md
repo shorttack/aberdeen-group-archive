@@ -3,24 +3,25 @@ name: archival-ingest
 description: >
   Batch-process historical research studies into structured, machine-readable
   archival datasets. Use when asked to archive studies, ingest research files,
-  build a Frictionless Data Package, extract observations, create structured
-  datasets, archive DCT spreadsheets, ingest PC pricing data, or recurse a
-  directory of study files. Handles PDF, Markdown, Word, Excel (.xls/.xlsx),
-  and plain-text inputs. Produces five CSV tables, datapackage.json,
-  schema_org.json, README.md, and demo_analysis.py per study. Includes
-  importance, relevance, and prescience ratings. Supports six Kastner
-  collection types: video transcripts, memoirs, employer records, AI responses,
-  technology topics, and Digital Consumer Technology (DCT). v17 mandates CSV
-  Write Validation Gate preventing base64 and column-shift defects. v18 adds
-  DCT type plus xls/xlsx extraction. Uses bundled assembler, entity reuse
-  cache, and incremental web verification cache.
+  build a Frictionless Data Package, extract observations, archive DCT
+  spreadsheets, ingest PC pricing data, recurse a directory of study files,
+  or update the companion Kastner Aberdeen Wiki. Handles PDF, Markdown,
+  Word, Excel (.xls/.xlsx), and plain-text inputs. Produces five CSV tables,
+  datapackage.json, schema_org.json, README.md, and demo_analysis.py per
+  study. Includes importance, relevance, and prescience ratings. Supports
+  six Kastner collection types: video transcripts, memoirs, employer
+  records, AI responses, technology topics, and Digital Consumer Technology
+  (DCT). v17 added the CSV Validation Gate. v18 added DCT and xls/xlsx.
+  v19 adds Pass A structural verification (verification_method enum,
+  predecessor-to-outcome lift), wiki propagation, schema normalization
+  for legacy CSVs, and master regen integrity checks.
 metadata:
-  version: '18'
+  version: '19'
   author: Peter S. Kastner
   repository: github.com/shorttack/aberdeen-group-archive
 ---
 
-## Archival Ingest Skill v18
+## Archival Ingest Skill v19
 
 > **Purpose**: Read up to ten study files at a time from a directory, extract
 > structured metadata and analytical observations, emit a complete Frictionless
@@ -64,9 +65,11 @@ Activate this skill when the user's request matches ANY of the following intents
 |---|---|
 | **File system** | Read/write files via Python (`open()`, `os`, `pathlib`, `glob`) |
 | **Python execution** | Full Python 3 stdlib. Use `pandas` if available. |
-| **Bundled assembler** | `python scripts/assembler.py <command>` — handles all Phase 2 and Phase 3 operations. See Section 5B. |
+| **Bundled assembler** | `python scripts/assembler.py <command>` — handles all Phase 2 and Phase 3 operations. See Section 5B. The canonical assembler lives in the archive repo at `aberdeen-group-archive/_skills/archival-ingest/scripts/assembler.py` (not bundled in this skill). |
 | **Web search** | Use `web_search` only in Phase 3 (deferred batch verification). Never during Phase 1. |
 | **URL fetch** | Use `fetch_url` for reference material if needed |
+| **Companion wiki repo** | `kastner-aberdeen-wiki/` — Obsidian + DuckDB + Parquet research environment. Updated after every archive push via the surgical-update flow in Section 18. Refresh scripts live at `kastner-aberdeen-wiki/scripts/refresh_data_layer.py` and `add_pass_a_v2_pages.py`. |
+| **Archive-repo skill mirror** | `aberdeen-group-archive/_skills/archival-ingest/SKILL.md` — a copy of this skill is mirrored into the archive for provenance. Update with a separate small commit after `save_custom_skill`. |
 
 ---
 
@@ -141,6 +144,11 @@ while processed < total:
     run: python scripts/assembler.py validate {batch_dirs...}
     processed += len(batch)
     save_progress(processed, total)
+
+# After all batches complete + master regen:
+#   1. Run Pass A structural verification (Section 17)
+#   2. Propagate to wiki via surgical update (Section 18)
+#   3. Run master regen integrity checks (Section 20)
 ```
 
 #### 4.4 Entity/Technology Reuse (Cross-Study Cache)
@@ -388,6 +396,16 @@ python scripts/assembler.py validate output/study-1/ output/study-2/ ...
 Checks: referential integrity, code coverage, completeness, consistency.
 Flag failures with `[REVIEW]` and continue.
 
+**Additional integrity checks (v19):**
+
+- **Row-count parity**: After master regen, verify
+  `len(master_observations) == sum(len(study_observations) for unique study_id)`.
+  See Section 20 for the duplicate-study handling rules.
+- **Verification-method coverage**: After Pass A runs, verify that 100% of
+  `master_observations.csv` rows have a non-empty `verification_method` value
+  drawn from the allowed enum (Section 17.1). Missing or unknown values must
+  be set to `unverified` rather than left blank.
+
 ---
 
 ### 8. User Interaction Protocol
@@ -437,6 +455,9 @@ All 37 files processed.
 | PDF extraction unavailable | Request text version or skip with log |
 | Entity status unknown | Mark `[DEFERRED]`, resolve in Phase 3 |
 | Duplicate study detected | Log duplicate, process only first instance |
+| **Row-count mismatch after master regen** | Apply Section 20.2 dedup-by-`study_id` rule. Confirm the 9 known cross-directory duplicates (Section 20.3) account for the gap. Halt if any unexplained delta remains. |
+| **Schema divergence on legacy CSV** | Apply Section 19 normalization playbook (column rename map + required defaults). Never silently drop columns; preserve extension columns (e.g., `thread_tag`) in `notes`. |
+| **Missing `verification_method`** | After Pass A v1 has run, all observation rows MUST carry a value. Treat blanks as `unverified` and emit a `[REVIEW]` log entry rather than failing the batch. |
 
 ---
 
@@ -849,6 +870,28 @@ def check_abstract(abstract: str) -> bool:
 
 **On failure:** Re-generate abstract from `source/_raw_text.txt`.
 
+##### Check 6: Verification Method Enum (v19)
+
+After Pass A (Section 17) has run, every row in `observations.csv` and the
+derived `master_observations.csv` MUST carry a `verification_method` value
+from the allowed enum:
+
+```python
+VALID_VERIFICATION_METHODS = {
+    'ingest-extraction',  # Default; claim sourced from the study text itself
+    'web-source',         # Phase 3 web verification matched the claim
+    'outcome-linkage',    # Predecessor→outcome lift filled the row
+    'unverified',         # Explicitly unverifiable / no source matched
+    'placeholder',        # Stub row reserved for future verification
+    'cross-reference',    # Resolved by linking to another in-archive study
+}
+```
+
+**On failure:** Set the value to `unverified` and log to `_validation_log.csv`
+rather than failing the batch. Pre-Pass-A files may legitimately omit the
+column; the check only fires once `verification_method` is present in the
+header.
+
 #### 16.3 Validation Log
 
 All validation failures are logged to `_validation_log.csv` in the output
@@ -906,5 +949,380 @@ instruction** in every subagent objective:
 >    or `[DEFERRED]`.
 > 6. License must be exactly `CC-BY-4.0`.
 > 7. If any validation fails, fix and rewrite before returning results.
+> 8. **(v19)** If the observations.csv schema includes a `verification_method`
+>    column (i.e., Pass A v1 has run on the corpus), every row must carry a
+>    value from the allowed enum: `ingest-extraction`, `web-source`,
+>    `outcome-linkage`, `unverified`, `placeholder`, or `cross-reference`.
+>    Default new Phase 1 rows to `ingest-extraction`. Never leave the field
+>    blank — use `unverified` if no source can be cited.
+
+---
+
+### 17. Pass A Verification Pipeline (v19)
+
+Pass A is a **structural** verification stage that runs after every cache
+update + master regen. It uses no LLM and no external evidence — it
+classifies each observation row by *how* it was sourced, then lifts
+predecessor-row evidence into successor outcome rows where a deterministic
+join is possible.
+
+The output is a master corpus in which 100% of observation rows carry a
+`verification_method` value, and every viability-prediction row is paired
+(where possible) with a linked actual-outcome row via the
+`_prediction_outcome_links.csv` join table.
+
+#### 17.1 verification_method Enum
+
+| value | meaning | how a row earns it |
+|---|---|---|
+| `ingest-extraction` | The claim was extracted directly from the study text during Phase 1. | Default for all freshly ingested rows; the study itself is the source. |
+| `web-source` | A Phase 3 web verification matched and confirmed the claim. | Set during backfill when `_web_cache.json` returns a positive match. |
+| `outcome-linkage` | The row's value was filled by predecessor→outcome lift. | A `viability-prediction` row and an `actual-outcome` row share `(entity_id, tech_id, metric_name)` and the outcome row is non-empty. |
+| `unverified` | No source could be matched. The row is preserved but flagged. | Default fallback for any row that fails the other rules. |
+| `placeholder` | Stub row reserved for future verification. | Phase 1 emits these for predictions whose outcome is `[DEFERRED]`. |
+| `cross-reference` | Resolved by linking to another in-archive study. | Pass A's xref scan found a matching observation in a sibling study. |
+
+#### 17.2 REVIEW Marker Triage Rules
+
+Pass A scans for `[REVIEW]`, `[DEFERRED]`, and `[CORRUPT]` markers in every
+text field and triages them deterministically:
+
+1. **`[DEFERRED]` in `confidence` or `status`** → leave in place; Phase 3
+   web verification owns these.
+2. **`[REVIEW]` in `metric_value` or `notes`** → preserve, but downgrade
+   the row's `verification_method` to `unverified` and log to
+   `_pass_a_review_log.csv` with the originating study_id.
+3. **`[CORRUPT]` anywhere** → halt Pass A for that study; refer to
+   Section 16 (CSV Validation Gate) for repair before retrying.
+4. **Bare `unknown`, `n/a`, `tbd`** → normalize to `unverified` in
+   `verification_method`; leave the visible cell value untouched.
+
+#### 17.3 Predecessor → Outcome Lift
+
+Many studies emit a `viability-prediction` row at time `T` and a paired
+`actual-outcome` placeholder row that gets filled in later — sometimes by
+a different study. Pass A joins these deterministically:
+
+```python
+# Join key: (entity_id, tech_id, metric_name)
+# When the outcome row has a real value, lift it onto the prediction row
+# and write a join entry to _prediction_outcome_links.csv:
+#
+#   prediction_obs_id, outcome_obs_id, lift_status, confidence_after
+#
+# lift_status ∈ {verified, partially-verified, refuted, unmatched}
+# confidence_after = max(prediction.confidence, outcome.confidence)
+```
+
+The join table is the single source of truth for the
+`viability_predictions_status` DuckDB view (Section 18.3). Never inline
+this logic into per-study scripts — always derive it centrally from
+`master_observations.csv` so the wiki view stays consistent.
+
+#### 17.4 When to Run
+
+Run Pass A:
+
+1. **After every `cache-update`** that touches `master_observations.csv`.
+2. **After every backfill** (Phase 3, Section 10.4).
+3. **After every bulk repair** that modifies observation rows.
+4. **Before every archive commit** that includes regenerated master CSVs.
+
+Pass A is idempotent — running it twice on a clean corpus produces the
+same output. The reproducible invocation pattern is:
+
+```bash
+# No LLM, no external evidence — structural only.
+python scripts/assembler.py pass-a output/
+# Emits:
+#   output/master_observations.csv  (with verification_method populated)
+#   output/_prediction_outcome_links.csv
+#   output/_pass_a_review_log.csv
+```
+
+#### 17.5 Ground-Truth Distribution (Reference)
+
+Pass A v2 on the 949-study, 19,694-observation corpus (commit `7f0dad1c`)
+produced this verification_method distribution. Use as a sanity check
+when re-running Pass A on the full corpus — large deviations signal a
+regression:
+
+| verification_method | rows |
+|---|---|
+| ingest-extraction | 17,553 |
+| web-source | 1,187 |
+| outcome-linkage | 855 |
+| unverified | 79 |
+| placeholder | 16 |
+| cross-reference | 4 |
+
+Viability-prediction outcome rate: **46.1% verified+partially-verified**
+(788 / 1,711). Significant drops in this rate after a re-run almost
+always indicate that `_prediction_outcome_links.csv` failed to regenerate
+or that a column rename broke the join.
+
+---
+
+### 18. Wiki Propagation Step (v19)
+
+The companion repo `kastner-aberdeen-wiki` is the queryable, navigable
+surface of the archive — Obsidian vault + Parquet exports + DuckDB +
+embedding index. After every archive push that changes the master CSVs,
+the wiki must be propagated.
+
+#### 18.1 When
+
+Run wiki propagation **immediately after** the archive `git push origin main`
+that contains the regenerated masters and Pass A outputs. Verify the
+archive HEAD landed (Section 20.4) before starting the wiki update.
+
+#### 18.2 Surgical Update (Default)
+
+Do **not** re-run the full `kastner-wiki-builder` skill for routine
+master-CSV updates. The full rebuild regenerates 8,000+ pages and
+discards manual edits. Use the surgical update flow instead:
+
+| Step | Script | What it does |
+|---|---|---|
+| 1 | `scripts/refresh_data_layer.py` | Rebuilds all 7 Parquet files from the latest archive masters, then rebuilds `kastner.duckdb` including any new views (Section 18.3). |
+| 2 | `scripts/add_pass_a_v2_pages.py` (or version-renamed equivalent) | Generates new tier-1 study pages introduced by this batch, plus entity and technology stub pages for any IDs that gained observation coverage. |
+| 3 | (manual edits via `edit` tool) | Cross-link the new theme page from existing theme pages and from `_index.md`. Update `build_manifest.json`. |
+| 4 | `scripts/verify.py` | Runs all 13 wiki integrity checks. All must PASS before commit. |
+
+The full `kastner-wiki-builder` skill is only invoked when the schema
+itself changes (e.g., a new master CSV table is introduced) or when the
+vault is being rebuilt from scratch.
+
+#### 18.3 DuckDB Views Added in v19
+
+Both views are created by `refresh_data_layer.py` and must survive every
+Parquet rebuild:
+
+```sql
+-- View 1: verification_method distribution across the corpus
+CREATE OR REPLACE VIEW verification_method_distribution AS
+SELECT verification_method, COUNT(*) AS row_count
+FROM master_observations
+GROUP BY verification_method
+ORDER BY row_count DESC;
+
+-- View 2: viability-prediction outcome status, joined via
+-- _prediction_outcome_links.csv produced by Pass A
+CREATE OR REPLACE VIEW viability_predictions_status AS
+SELECT p.obs_id        AS prediction_obs_id,
+       p.study_id,
+       p.entity_id,
+       p.tech_id,
+       p.metric_name,
+       p.metric_value  AS prediction_value,
+       o.metric_value  AS outcome_value,
+       l.lift_status,
+       l.confidence_after
+FROM master_observations p
+LEFT JOIN prediction_outcome_links l
+       ON p.obs_id = l.prediction_obs_id
+LEFT JOIN master_observations o
+       ON l.outcome_obs_id = o.obs_id
+WHERE p.observation_type = 'viability-prediction';
+```
+
+#### 18.4 Stub-Page Generation Rules
+
+When new entity or technology IDs appear in the master CSVs:
+
+1. Create a minimal Obsidian page at `entities/{entity_id}.md` (or
+   `technologies/{tech_id}.md`) with YAML frontmatter (`name`, `type`,
+   `sector`/`category`, `first_observed`, `last_observed`,
+   `study_count`) and a `## Observations` Dataview block.
+2. Set `tier: stub` in frontmatter so verify.py can distinguish stubs
+   from hand-curated pages.
+3. Do **not** overwrite an existing page whose `tier` is not `stub` —
+   skip it and log to `_wiki_skip_log.csv`.
+
+#### 18.5 Cross-Link Policy
+
+When a new theme page is added (e.g., the `pass-a-v2-verification-pipeline`
+theme), cross-link it from:
+
+1. `_index.md` — under the appropriate section.
+2. `build_manifest.json` — append to the `themes` array.
+3. Every existing theme page whose content materially overlaps. Use
+   `grep` to find candidate pages; add a single bullet under
+   `## Related themes` (create the section if absent). Never duplicate
+   an existing link.
+
+#### 18.6 Verification & Commit
+
+After surgical update, run:
+
+```bash
+cd kastner-aberdeen-wiki && python scripts/verify.py
+# Expect: all 13 checks PASS
+git add -A && \
+  git -c user.name="Peter S. Kastner" \
+      -c user.email="pete.kastner@bluebridgegrp.com" \
+      commit -m "Propagate archive <archive-commit-sha> to wiki" && \
+  git push origin main 2>&1 | tail -10
+# Verify HEAD landed via Section 20.4.
+```
+
+Reference state: wiki commit `b0f0302` (8,716 pages) propagated archive
+commit `7f0dad1c`.
+
+---
+
+### 19. Schema Normalization Playbook (v19)
+
+Legacy or externally contributed `observations.csv` files often drift from
+the canonical 12-column schema. v19 codifies a deterministic
+normalization pass that runs *before* the CSV Validation Gate (Section 16).
+
+#### 19.1 Canonical 12-Column Schema (Reference)
+
+```
+obs_id, study_id, entity_id, tech_id, observation_type,
+year_observed, metric_name, metric_value, confidence,
+methodology_code, source_page, notes
+```
+
+After Pass A v1, a 13th column `verification_method` is appended.
+
+#### 19.2 Common Drift Patterns & Column Map
+
+| Legacy / external column | Canonical column | Notes |
+|---|---|---|
+| `year` | `year_observed` | Direct rename. |
+| `claim_text` | `notes` | Prefix the value with `[thread:XXX] ` if a `thread_tag` column was present (Section 19.4). |
+| `source_ref` | `source_page` | Direct rename. |
+| `claim` | `metric_value` | Only when paired with `claim_text`; otherwise treat as `metric_name`. |
+| `confidence_score` (numeric 1-9) | `confidence` | Map per Section 16.2 Check 3 (7-9→high, 4-6→medium, 1-3→low). |
+| `method` | `methodology_code` | Direct rename. |
+
+#### 19.3 Required Defaults
+
+If a column exists in the canonical schema but is missing from the input,
+fill with the documented default (do NOT leave blank):
+
+| column | default | rationale |
+|---|---|---|
+| `confidence` | `medium` | Conservative midpoint for unscored claims. |
+| `verification_method` | `ingest-extraction` | Caller asserts the value came from the study text. |
+| `methodology_code` | `industry-analysis` | Most common Kastner methodology; safe fallback. |
+| `collection` | `<study-collection>` | Inherit from the parent study's `studies.csv` `subject_domain` prefix. |
+
+#### 19.4 Extension Columns to Preserve
+
+Some legacy CSVs carry useful extension columns that are NOT in the
+canonical schema. These must be preserved by folding into `notes` rather
+than dropped:
+
+- `thread_tag` → prepend `[thread:<value>] ` to the existing `notes`
+  value. This preserves cross-study thread linkage that downstream
+  Obsidian Dataview queries depend on.
+- Any other unknown column → append `; <col_name>=<value>` to `notes`.
+
+#### 19.5 Auto-Normalize vs. Ask User
+
+| Situation | Action |
+|---|---|
+| Column rename matches the table in Section 19.2 exactly | **Auto-normalize** — apply the map silently and log the change. |
+| Missing column with a documented default (Section 19.3) | **Auto-normalize** — apply the default and log. |
+| Extension column matches Section 19.4 pattern | **Auto-normalize** — fold into `notes` and log. |
+| Unknown column with non-trivial content (>50% non-null) | **Ask the user** — present the column name, sample values, and propose a mapping. |
+| Two source columns collide on the same canonical target | **Ask the user** — show both source values for a sample row and ask which wins. |
+| Row count after normalization differs from input | **Halt** — never silently drop rows; surface the discrepancy. |
+
+All normalization decisions are logged to `_schema_normalization_log.csv`
+in the output directory.
+
+---
+
+### 20. Master Regen Integrity Checks (v19)
+
+The 220-row phantom discrepancy investigated during the Pass A v2 work
+exposed three failure modes that v19 makes explicit checks. These run as
+part of every master regen.
+
+#### 20.1 Row-Count Parity Check
+
+The expected invariant after master regen is:
+
+```
+len(master_observations.csv) ==
+    sum(len(study_observations) for study_id in unique_study_ids)
+```
+
+where `unique_study_ids` deduplicates across both `kastner-author/` and
+`other-authors/` directories. **Per-directory totals will NOT match the
+master** — duplicate study_ids exist by design (Section 20.3) and the
+master keeps only one copy.
+
+#### 20.2 Dedup-by-study_id Rule
+
+When the same `study_id` appears in two directories, the master keeps the
+first occurrence in this priority order:
+
+1. `kastner-author/` wins over `other-authors/`.
+2. If both are in the same directory tier (shouldn't happen), the lexically
+   earlier file path wins; log a `[REVIEW]` entry.
+
+The dedup is done on `study_id` alone, NOT on filename or content hash. If
+two copies share a `study_id` but differ in observation content (Section
+20.3 documents one such case), the discrepancy is logged but the dedup
+proceeds — manual reconciliation is owned by a separate task, not by
+master regen.
+
+#### 20.3 Known Duplicate study_ids (Reference)
+
+Nine `study_id` values are known to exist in both `kastner-author/` and
+`other-authors/` directories. Their presence in both directories is
+expected and does not indicate corruption:
+
+```
+1997-ca-s-unicenter-tng-framework-pk-apr-50d15f
+2001-hp-cpq-merger-collection-edbca1
+... (7 more — see archive _ops/duplicate_study_ids.csv for the full list)
+```
+
+One known content mismatch: `1997-marathon-s-endurance-4000` — both
+copies have 21 observation rows but the content differs. This is tracked
+in `_ops/duplicate_study_ids.csv` with a `content_match: false` flag and
+is NOT auto-resolved.
+
+#### 20.4 Slug Normalization Mismatches
+
+Watch for these slug-collision sources:
+
+- **Apostrophes**: `o'reilly` vs `oreilly` — canonical form drops the
+  apostrophe.
+- **Hash-suffix collisions**: when the 6-char `study_id` hash collides
+  across two regen runs (rare but observed), the existing slug wins;
+  newer file gets a `-2` suffix and a `[REVIEW]` log entry.
+- **Underscore vs hyphen**: always normalize to hyphen.
+
+#### 20.5 Reference State
+
+Treat archive commit **`7f0dad1c`** on `shorttack/aberdeen-group-archive`
+`main` as the v19 reference state:
+
+- 949 studies
+- 19,694 observation rows in `master_observations.csv`
+- 100% `verification_method` coverage (distribution in Section 17.5)
+- 46.1% viability-prediction verified+partial rate (788 / 1,711)
+- Zenodo DOI: `10.5281/zenodo.20245076`
+- Wiki sibling commit: `b0f0302` (8,716 pages)
+
+After any master regen, verify the HEAD with:
+
+```bash
+cd aberdeen-group-archive && git log origin/main -1 --oneline
+# Push warnings about "Bypassed rule violations" or "Changes must be made
+# through a pull request" are expected and DO NOT indicate failure.
+# The push succeeded if `git log origin/main` shows the new SHA.
+```
+
+If row counts or verification distribution diverge materially from
+Section 17.5 without an explicit intentional change, halt and
+investigate before pushing.
 
 ---

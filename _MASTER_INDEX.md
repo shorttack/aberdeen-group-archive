@@ -1,23 +1,23 @@
 # Kastner Collection — Master Index
 
 **Release:** v1.0.0 — May 1, 2026  
-**Skill:** v18 (archival-ingest)  
-**Last full-corpus refresh:** May 1, 2026 (post batch-8 + deferred-work cleanup)  
+**Skill:** v19 (archival-ingest)  
+**Last full-corpus refresh:** 2026-05-21 (post DEC longitudinal package)  
 **Audit status:** Layer A / B / C — **0 / 0 / 0 failures** across 680 audited studies
 
 ## Summary
 
 | Metric | Count |
 |---|---|
-| Total studies (Frictionless Data Packages) | **822** |
-| Total observations | **14,742** |
-| Master entity rows | **7,834** |
-| Master technology rows | **6,269** |
-| Unique entities (deduped cache) | **3,198** |
-| Unique technologies (deduped cache) | **4,054** |
+| Total studies (Frictionless Data Packages) | **950** |
+| Total observations | **19,773** |
+| Master entity rows | **9,510** |
+| Master technology rows | **7,853** |
+| Unique entities (deduped cache) | **3,298** |
+| Unique technologies (deduped cache) | **4,388** |
 | Kastner quotations (`kastner_quotes_clean.csv`) | **1,087 rows across 676 canonical seqs** (max `article_seq=678`) |
 | Date range | 1979 – 2026 |
-| Web verifications | Complete (v16 → v18) |
+| Web verifications | Complete (v16 → v19) |
 
 **Per-collection breakdown**
 
@@ -33,17 +33,17 @@
 | `kastner-author/employer/obian-group/` | 1 | 5 |
 | **kastner-author total** | **347** | **7,210** |
 | **other-authors total** | **475** | **7,532** |
-| **Archive total** | **822** | **14,742** |
+| **Archive total** | **950** | **19,773** |
 
-**Prescience distribution** (across all 822 studies)
+**Prescience distribution** (across all 950 studies)
 
 | Rating | Studies |
 |---|---:|
-| high | 394 |
-| medium | 250 |
-| low | 67 |
-| not-applicable | 110 |
-| (deferred) | 1 |
+| high | 475 |
+| medium | 276 |
+| low | 72 |
+| not-applicable | 126 |
+| (deferred) | 0 |
 
 **Authoritative sources**
 - `_master_studies.csv` — one row per study package

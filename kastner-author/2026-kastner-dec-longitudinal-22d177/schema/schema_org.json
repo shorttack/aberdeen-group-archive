@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Digital Equipment Corporation Longitudinal Study, 1985-Present",
+  "description": "A longitudinal archival synthesis of DEC and its successor chain using Aberdeen archive evidence inventory plus endpoint verification.",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Peter S. Kastner"
+    },
+    {
+      "@type": "Organization",
+      "name": "Perplexity Computer"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateCreated": "2026-05-21",
+  "keywords": [
+    "Digital Equipment Corporation",
+    "DEC",
+    "Compaq",
+    "HP",
+    "HPE",
+    "OpenVMS",
+    "Alpha",
+    "VAX",
+    "Aberdeen Group"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/studies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/entities.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/technologies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/codes.csv"
+    }
+  ]
+}

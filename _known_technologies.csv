@@ -4380,3 +4380,10 @@ oracle-analytics-cloud,Oracle Analytics Cloud (OAC),application,Oracle,2018-pres
 intel-ai-hardware,Intel AI Hardware (Habana Gaudi / Nervana),component,Intel,2016-present,active,active,Habana Labs acquisition (2019); Gaudi AI accelerator; placeholder for general Intel AI hardware arc in Thread 10 observations,2026-kastner-enterprise-ai-arc
 gpt-3,OpenAI GPT-3 (175B),application,OpenAI,2020-2022,superseded,superseded-by-gpt-4,175B parameters; few-shot learning; open-domain text generation; validates scaling law hypothesis; LLM convergence milestone for Thread 11,2026-kastner-enterprise-ai-arc
 gpt-4,OpenAI GPT-4,application,OpenAI,2023-present,active,active,Multimodal; bar exam 90th percentile; USMLE passing; arc closure event closing the expert systems thread from XCON (1980) — the rules became weights,2026-kastner-enterprise-ai-arc
+alpha-architecture,Alpha AXP,processor-architecture,Digital Equipment Corporation,1992-2000s,strategic RISC transition,discontinued,DEC's RISC/64-bit transition vector.,
+objectbroker,ObjectBroker,middleware,Digital Equipment Corporation,1990s,object middleware initiative,discontinued,Object middleware thread in mid-1990s Aberdeen DEC coverage.,
+linkworks,LinkWorks,application-platform,Digital Equipment Corporation,1990s,workflow/object-web initiative,discontinued,Major 1995-1997 DEC application/middleware coverage point.,
+manageworks,ManageWORKS,systems-management,Digital Equipment Corporation,1990s,enterprise management suite,discontinued,Management software strand in DEC open-systems repositioning.,
+windows-nt-alpha,Windows NT on Alpha,operating-system-platform,Microsoft / Digital Equipment Corporation,1990s,strategic NT enterprise push,discontinued,Part of DEC attempt to lead NT into the enterprise.,
+x86-wintel,x86 / Wintel,platform,Intel / Microsoft / PC ecosystem,1980s-present,disruptive lower-cost alternative,active,Major displacement force against proprietary minicomputer and RISC platforms.,
+commercial-benchmarks,Commercial benchmarks / TPC,methodology,TPC / multi-vendor,1988-present,market-legitimizing benchmark method,active,Benchmarking lens used in DECtp/OLTP analysis.,

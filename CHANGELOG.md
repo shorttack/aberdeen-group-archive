@@ -7,6 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] — 2026-05-21
+
+### Added
+- `kastner-author/2026-kastner-dec-longitudinal-22d177/` — a v19-style
+  longitudinal archival study of Digital Equipment Corporation from 1985
+  through the Compaq acquisition, HP/HPE successor chain, and present-day
+  OpenVMS/VSI afterlife.
+- DEC package tables: 1 study row, 18 entities, 17 technologies, 79
+  observations, and 23 codes, with 100% `verification_method` coverage.
+- Successor-chain endpoint verification rows for Compaq/DEC, HP/Compaq,
+  HP/HPE separation, and VSI/OpenVMS continuity.
+
+### Changed
+- Master CSVs refreshed to 950 studies and 19,773 observations.
+- `_MASTER_INDEX.md` summary updated for archival-ingest v19 totals.
+- `_known_entities.csv` and `_known_technologies.csv` extended only for new
+  DEC successor-chain entities and technologies not already present in cache.
+
+### Methodology
+- The DEC longitudinal study records an explicit attribution rule: distinguish
+  Peter S. Kastner personal or authored observations from Aberdeen Group
+  institutional/unspecified-analyst observations, DEC corporate/employer
+  records, other named Aberdeen sources, and third-party sources. Do not credit
+  all DEC-related archive observations to Kastner.
+
+### Verification
+- Per-study validation passed via `_skills/archival-ingest/scripts/assembler.py`.
+- Master observation parity passed: 19,773 master observations equals the
+  deduplicated per-study observation total.
+- Companion wiki propagated at commit `db86e3c`, with refreshed Parquet/DuckDB
+  data layer and a new DEC study page.
+
+---
+
 ## [1.0.0] — 2026-05-01
 
 First tagged release. The archive is now feature-complete for its initial

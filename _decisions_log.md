@@ -115,6 +115,26 @@ Master technology row count: **4,313 → 4,312**.
 
 ---
 
+### 2026-05-25 — Model selection for Bucket A Pass C prescience scoring
+
+**Decision**: Qwen 3.5 27B-MLX, run locally on M4 Pro Mac mini, is the production scorer for Bucket A Pass C prescience scoring. 35B-MLX dropped from production; cloud (Claude Sonnet 4.6) retained as low-confidence reviewer only.
+
+**Method**: Two-phase evaluation. Phase 1 — speeds-and-feeds web research confirmed both Qwen MLX variants viable on 48 GB unified memory. Phase 2 — three-way calibration on `ra-warehouseautomation-3867-89c99f` (93 obs / 68 scoreable) with identical rubric and locked generation parameters (`think: false`, `keep_alive: 30m`, `num_ctx: 8192`, `num_predict: 400`).
+
+**Decisive evidence**: 27B agreed with cloud at Cohen's kappa **0.853** (near-perfect) and **100% within-1 agreement**. 35B agreed with cloud at kappa **0.515** (moderate) and inflated four non-claims (OBS-057, OBS-074, OBS-087, OBS-091) as scoreable — a discipline failure that would corrupt prescience rankings across 124 studies. 35B's 5.2× speed advantage was insufficient to overcome the quality gap.
+
+**Full memo**: [`model_prescience_scoring_finding_v1.md`](./model_prescience_scoring_finding_v1.md) — methodology, per-model stats, pairwise agreement tables, reproducibility manifest, caveats.
+
+**Calibration artifacts** (preserved at `prepared/ra-warehouseautomation-3867-89c99f/working/`):
+- `prescience_scores_qwen3_5_27b-mlx_v1.csv`
+- `prescience_scores_qwen3_5_35b-mlx_v1.csv`
+- `prescience_scores_cloud_v1.csv`
+- `comparison_summary_v1.md`, `comparison_table_v1.csv`, `calibration_log_v1.jsonl`
+
+**Production parameters locked in**: `run_prescience_calibration_v3.py`, `ollama_qwen_install_runbook_v1.md` (Nov 2026 refresh checklist included), `CALIBRATION_README_v1.md`.
+
+---
+
 ## Versioning conventions
 
 - All mutation scripts versioned `_v1`, `_v2`, … from creation; bump on every revision.

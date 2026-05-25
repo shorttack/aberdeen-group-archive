@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "1992-sapiens-and-metadata-0608b6",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1992 SAPIENS and metadata.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1992-sapiens-and-metadata-0608b6/source/original.pdf",
+  "pdf_sha256": "4f99f02262b806abc381227ef854f1eb42d99be5c16714c00bfa768858e7cb59",
+  "pdf_size_bytes": 117411,
+  "pdf_page_count": 9,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 9,
+    "filename": "1992 sapiens and metadata.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=9, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:11.602654+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1992-sapiens-and-metadata-0608b6",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1992-sapiens-and-metadata-0608b6",
+      "title": "Sapiens International Corporation Technology Review",
+      "relative_path": "kastner-author/1992-sapiens-and-metadata-0608b6",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1992-sapiens-and-metadata-0608b6",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "1992-sapiens-and-metadata"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1992-sapiens-and-metadata-0608b6/working/extracted_v20.md",
+      "md_chars": 16936,
+      "md_lines": 205,
+      "elapsed_sec": 0.57
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 9,
+      "filename": "1992 sapiens and metadata.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=9, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 10,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1992-sapiens-and-metadata-0608b6/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          3
+        ],
+        [
+          "Microsoft",
+          3
+        ],
+        [
+          "NASDAQ",
+          3
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2001 Living with Windows XP Media Player and Wireless Support PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8/source/original.pdf",
+  "pdf_sha256": "a2483ebfa958326c7a458d84d23f187ebbb197cffade6ca7a47eb872d3ff0707",
+  "pdf_size_bytes": 204652,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2001 living with windows xp media player and wireless support psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:27:46.833648+00:00",
+  "extracted_title": "Living with Windows XP Media Player and Wireless Support",
+  "title_source": "metadata",
+  "matched_study_id": "2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8",
+      "title": "Living with Windows XP Media Player and Wireless Support",
+      "relative_path": "kastner-author/2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "title": "Upgrading to Windows XP: A Long and Winding Road",
+      "relative_path": "kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "lev_ratio": 0.5631,
+      "token_ratio": 0.2,
+      "combined_score": 0.4179
+    },
+    {
+      "study_id": "technology-news-future-tech-microsoft-la-625f49",
+      "title": "Microsoft Launches 64-Bit Windows XP Beta",
+      "relative_path": "other-authors/technology-news-future-tech-microsoft-la-625f49",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/technology-news-future-tech-microsoft-la-625f49",
+      "lev_ratio": 0.3918,
+      "token_ratio": 0.1429,
+      "combined_score": 0.2922
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8/working/extracted_v20.md",
+      "md_chars": 2176,
+      "md_lines": 55,
+      "elapsed_sec": 0.17
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2001 living with windows xp media player and wireless support psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 4,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-living-with-windows-xp-media-player-and-wireless-s-02f8a8/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Microsoft",
+          4
+        ],
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Microsoft Corporation",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

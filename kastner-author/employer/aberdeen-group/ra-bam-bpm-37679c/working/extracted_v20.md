@@ -1,0 +1,761 @@
+# The Business Activity and Monitoring Benchmark Re ort p 
+
+_The Eyes and Ears of BPM and How to Improve Corporate Performance_ 
+
+## **DRAFT 08-15-06** 
+
+August 2006 
+
+— Sponsored by — 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Executive Summary** 
+
+he Global 5000 are increasingly turning to a variety of information technologies to drive faster — almost real-time —  and deeper **visibility into critical business** T **processes** such as capital risk management, claims tracking, compliance, and inventory management, whose successful execution counts so highly toward successful corporate performance management in the 24x7 global economy. Such visibility and “autopilot” control is not typically built into existing enterprise software applications. 
+
+This category of information technology is called _**business process monitoring**_ due to the focus on **timeliness, business processes, management, and performance metrics** . 
+
+There are two information technology (IT) approaches to creating Business Process Monitoring systems. In one approach, monitoring is one function in a business process management (BPM) software suite. The second is called business activity monitoring (BAM). 
+
+In this report, we use the term Business Process Monitoring to include _either_ the BPM or BAM approach, except where noted. 
+
+“Running traditional applications without business monitoring was like flying blind in the fog without instruments. A crash was inevitable.” 
+
+─ _Banking executive_ 
+
+Aberdeen Group’s recent survey for this benchmark report found that more than half of respondents’ companies are actively engaged in Business Process Monitoring systems. 
+
+## _**Key Business Value Findings**_ 
+
+**Business Process Monitoring buyers want “better real-time visibility into business processes.”** As a telecom executive told us, “All I wanted to do was see a better slice of our call center numbers. IT basically said they could not do that.” Business Process Monitoring technology can do it! 
+
+The key business driver of Business Process Monitoring, increasing revenue, should not surprise business leaders. And the respondents’ companies that have implemented Business Process Monitoring systems are achieving an **average 9% improvement in revenues** . Other key business value metrics enterprises have achieved by using Business Process Monitoring systems include **a median 12% decrease in process-related expenses, a 10% return on assets (ROA) and an 18% return on investment (ROI)** . Some 94% of respondents’ companies are either moderately or very pleased with the overall improvement Business Process Monitoring has delivered. 
+
+The top-performing, or Best in Class, companies in the survey succeed because they **focus on specific business process metrics** such as customer satisfaction in product service and repair as opposed to a broader goals such as “achieve more revenue.” The Best in Class, compared with the Industry Average and Laggard companies in this report, are also clearly differentiated by: 
+
+- Aggressively spreading Business Process Monitoring technology across the enterprise in order of expected ROI by project; 
+
+- Investing in hardware, software, and services to extend Business Process Monitoring benefits; 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 
+
+**Aberdeen** _**Group** •_ i 
+
+The Business Activity and Monitoring Benchmark Report 
+
+- Developing a set of best-practices and constantly reviewing lessons learned; 
+
+- Cutting through IT integration complexity (even simplistic views into business processes are better than flying blind); and, 
+
+- Keeping an eye on the competition, consistently measuring them and others. 
+
+## _**Implications and Analysis**_ 
+
+One of the big stumbling blocks in Business Process Monitoring is a limited degree of support and vision from business or senior executives. Lack of education and understanding on how the technology can dramatically improve visibility into business processes, along with the “we’ve always done it this way” cliché are common. However, more than 70% of companies surveyed for an earlier Aberdeen report indicated that the need for _greater visibility into business processes on a real-time basis_ was the top driver for enterprise integration projects. This dichotomy between widespread need and lack of management for viable Business Process Monitoring solutions will likely be resolved as more companies become aware of the customer success stories around Business Process Monitoring implementations. 
+
+Second, there is no one “right” technology approach to Business Process Monitoring that will satisfy all companies, budgets, technology maturity, and business goals. Respondents’ companies are about equally split on technology approach between BPM- and BAM-centric technology approaches to Business Process Monitoring. 
+
+Third, no less than 84% of respondents are moderately or very happy with eight ratings of success in their Business Process Monitoring implementations. About 67% (only 43% of Best in Class) found that data integration, loading, and cleansing were more complex than anticipated. More than 70% of Laggards found they had to tune Business Process Monitoring metrics due to false positive or false negative results or by a poor choice of key performance metrics (KPMs). The implications are that careful, upfront planning with the business units will allow IT implementers to focus on the right measurements. 
+
+Finally, there is a wide divergence on the definition of “real-time.” While a quarter of Best in Class companies capture process performance changes in 10 seconds or less, and 36% of the respondent’s companies in 10 minutes or less, more than half the survey believe daily or weekly process performance measurement is adequate. 
+
+The fact that 42% of the participating companies are in the planning stages of Business Process Monitoring is likely indicative of the early stages of market penetration and market awareness of Business Process Monitoring. Based on the excitement elicited in customer interviews conducted as part of the benchmark survey, _**Aberdeen expects Business Process Monitoring interest, awareness, and this market to accelerate**_ , since we believe the need for faster delivery of actionable business process information can only make management easier and better across industries. 
+
+## _**Recommendations for Action**_ 
+
+It’s not necessary to create a complex and expensive data warehouse to begin to improve visibility into business processes. Data warehousing implies gathering large amounts of data from other sources, and is problematic for many companies. Rather, look to BPM and BAM technologies that can monitor the process and monitor KPM changes without the need for a data warehouse. 
+
+While every industry is different, the majority of companies in our survey have **prioritized customer-facing business processes for early implementation** , and ahead of sup- 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. ii • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report ply chain and manufacturing efforts. So, they’re working at improving customer satisfaction and service levels. 
+
+Don’t be afraid to jump in the water and start swimming. **Best in Class companies participating in our survey are aggressively implementing Business Process Monitoring** in more business processes immediately, while Industry Average companies take a moderate speed and Laggards are risk averse. There is a **direct correlation between Best in Class** and **success metrics,** and **a high degree of IT adoption** in support of Business Process Monitoring. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ iii 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Table of Contents** 
+
+Executive Summary ..............................................................................................i Key Business Value Findings ......................................................................... i Implications and Analysis ...............................................................................ii Recommendations for Action..........................................................................ii _Chapter One:_ Issue at Hand................................................................................1 Issue at Hand.......................................................................................................1 What’s Driving Business Process Monitoring?...............................................3 The Technologies Beneath Business Process Monitoring Systems ..............3 Information Management ........................................................................3 Business Process Management (BPM)...................................................4 Business Activity Monitoring....................................................................4 The Difference between Business Process Monitoring and BAM..................4 A Look Ahead................................................................................................5 _Chapter Two:_ Key Business Value Findings ........................................................6 Challenges and Responses to Implementing  Business Process Monitoring Systems.........................................................................................................6 Organizational and Technology Responses to Challenges............................7 Top Three Business Process Priorities for a  Business Process Monitoring System ......................................................................................................................8 Information Management Technology for  Business Process Monitoring ......8 Scope of Deployment ....................................................................................8 How Frequently Business Process Monitoring is Measured..........................8 Financial Performance for Business  Process Monitoring Implementations...9 Lessons Learned and Next Steps..................................................................9 What if Your Company is NOT Embracing Business Process Monitoring Technology?................................................................................................ 11 _Chapter Three:_ Implications & Analysis.............................................................12 It All Starts With a Vision ............................................................................. 13 There is No Single Technology Approach.................................................... 14 Business Process Monitoring Users are Pleased with the Results.............. 14 The Definition of Real-Time May Vary......................................................... 14 _Chapter Four_ : Recommendations for Action ......................................................15 Laggard Steps to Success........................................................................... 15 Industry Average Steps to Success............................................................. 16 Best in Class Next Steps ............................................................................. 17 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Table of Contents** 
+
+For Business Process Monitoring Technology Skeptics.....................................17 Featured Sponsors.............................................................................................18 Sponsor Directory ..............................................................................................19 Author Profile .....................................................................................................20 _Appendix A:_ Research Methodology..................................................................21 _Appendix B:_ Related Aberdeen Research & Tools.............................................23 About  Aberdeen _Group_ ......................................................................................24 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Figures Tables** 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Chapter One:_ **Issue at Hand** 
+
+## 
+
+- Gaining better visibility into business operations (e.g., business processes) on a realtime basis is a top-priority business driver across industry sectors. 
+
+- Although technology integration is required, there are technology solutions to Business Process Monitoring that can make the process considerably easier and less costly to get started. 
+
+- Both human-centric workflow and system-centric (i.e., B2B) business processes can benefit from more visibility on a real-time basis to manage performance. 
+
+n Aberdeen’s April 2006 benchmark report, _Achieving More Value With Enterprise Applications_ and in an earlier report, we uncovered an enormous cross-industry pain I point: Gaining better visibility into business operations (e.g., business processes) on a real-time basis is the number one business driver across the five major industry categories in Table 1. The fact that an overwhelming percentage of enterprises want to get better information more quickly on how their businesses are running shows how much of a hot-button issue is in executive suites. 
+
+In the past, delivering Business Process Monitoring systems involved complex technology integration. However, technology advances over the past few years are allowing more companies, of all sizes, to attack the problem with success. 
+
+**Table 1: Top Three Business Drivers by Industry Group** 
+
+||**Business Driver**|**Discrete**<br>**Mfg**|**Process**<br>**Mfg**|**Con-**<br>**sumer**<br>**Goods**<br>**Mfg**|**Services**|**Public**<br>**Sector**|
+|---|---|---|---|---|---|---|
+||**_Better real-time_**<br>**_visibility into_**<br>**_business opera-_**<br>**_tions_**|**_65%_**|**_67%_**|**_65%_**|**_80%_**|**_75%_**|
+||Reducing operating<br>costs|58%|58%|41%|40%|50%|
+||Revenue growth|23%|33%|59%|44%|n/a|
+
+
+
+Source: Aberdeen _Group_ , April 2006 
+
+## **Issue at Hand** 
+
+Business process flow diagrams can look as complicated as billion-transistor integrated circuits. Users are demanding better and timelier visibility into business operations for a variety of reasons that can be summarized as follows: 
+
+_**Time is Money.**_ The “global, 24x7, competitive market” cliché is also a business reality. When normal service levels are not met, or volume changes indicate a problem or busi- 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 1 
+
+The Business Activity and Monitoring Benchmark Report 
+
+ness opportunity, time is of the essence. Traditional overnight reporting of exceptions is no longer practical, effective, or even legal in regulated industries such as financial services. Typically, “real-time” means e-mail speed — a few seconds to a few minutes. 
+
+_**Waiting for Godot, the Guy in the IT Department**_ **.** Since time is money, the interminable wait for the IT department to program routine business process changes drives many business executives to distraction. Is there a technology that would allow line-of-business analysts and users to make process changes without threatening the enterprise IT system? **Modeling and simulation** in BPM products are becoming more common. **Templates** of prepackaged business processes can bring rapid deployment and benefits. Vendors’ **suites** of BPM technology offer an implementation approach with higher initial integration, which can lower risks and improve time-to-deployment. Alternatively, **BAM** technology tracks historical performance and adjusts to out-of-norm conditions. 
+
+_**Automated Processes**_ **.** When machine-to-machine business processes such as B2B purchase orders or B2C e-commerce hiccup, the technology problem may be on someone else’s premises. Or, the supply chain may impact a critical component. While computercentric, machine-to-machine processes may cut labor costs, the state, current results, and governance of business processes are all important to human process-minders. **Event management** is often a key to automated process management. 
+
+_**Human Processes**_ **.** People are human, after all. That means sick days, full in-boxes, fraud, and all the other human vices that can disrupt a smooth-running business process. **Productivity measurement, policy compliance,** and **workflow tracking** are three of the many uses of automation in human-centric processes. These can allow a bank, for instance, to simultaneously track customer call waiting queue times, business account collected balances, mortgage-backed derivative security rates, and ATM cash balances — each of which plays a key role in some part of the bank. 
+
+_**Every Employee is a Knowledge Worker**_ **.** Most organizations are using employees as more than automatons. They are expected to make correct decisions based on timely intelligence. **White-collar workers are invariably knowledge workers** in today’s business world, yet each has information requirements that are ideally tailored to his or her specific job requirements and the work at hand. 
+
+_**Exceptions are the Rule**_ **.** Since automated systems can enforce compliance of **business rules and policies** for Over 84% of companies surveyed processes within and outside the organization, it beare moderately or very pleased with comes much less important for employees to sit around the results of their Business Procwatching normal operations. Focusing a reduced labor ess Monitoring implementations, reforce on _exception handling_ — and, even better, **excep-** turning 18% ROI. **tion anticipation** — makes the best use of skilled employees. **Process orchestration** maps the steps and conditions for automated process execution, **reacting to business condition changes** . 
+
+Over 84% of companies surveyed are moderately or very pleased with the results of their Business Process Monitoring implementations, returning 18% ROI. 
+
+_**A Picture is Worth a Thousand Words**_ **.** Show the pulse of the business in an easily assimilated form via an accessible interface. With desktop, shop floor, and mobile laptop computers a ubiquitous fixture of business, the power of personal computers and other connected digital devices can be harnessed to display the real-time business intelligence in a **graphical scoreboard** , pivot table, or any of other numerous forms. **User-specific portals** deliver the right information in the right form to the end user. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 2 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+_**The “Big Picture”**_ is an **end-to-end view of major processes** such as order-to-cash. Often, Business Process Monitoring systems are used to assess the **financial impact** of diverse business decisions on cash-flow, revenue, and even taxes on corporate performance. 
+
+## _**What’s Driving Business Process Monitoring?**_ 
+
+By a slight margin, the two most important business drivers leading to the implementation of a Business Process Monitoring system are **competitive pressures and increasing sales and revenue** (Figure 1). 
+
+Best in Class firms are more concerned than others about competition. They are 50% more likely to focus on the competition than the Industry Average and twice as likely as Laggard companies. A long supply chain is the second highest driver, followed by improving sales and customer demand volatility. 
+
+**Figure 1: Key Business Drivers of Business Process Monitoring** 
+
+**==> picture [393 x 261] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+11%<br>17%<br>Competitive pressures<br>26%<br>17%<br>23%<br>To improve sales and 16%<br>revenue 13%<br>17%<br>17%<br>13%<br>Long supply chain<br>17%<br>15%<br>5%<br>Volatility in customer 5%<br>demand 13%<br>7%<br>0% 5% 10% 15% 20% 25% 30%<br>Overall BIC Average Laggard<br>**----- End of picture text -----**<br>
+
+
+Source: Aberdeen _Group_ , August 2006 
+
+## _**The Technologies Beneath Business Process Monitoring Systems**_ 
+
+There is no one-size-fits-all for Business Process Monitoring systems. They are typically integrated on a custom basis from IT groups that include information management, BPM, and BAM. 
+
+## _Information Management_ 
+
+Data must be extracted from operating application databases; cleansed, condensed and normalized; translated to its target form; and loaded onto the appropriate server and database for decision-making. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 3 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Business Process Management (BPM)_ 
+
+BPM software has become very sophisticated over the past several years. Proprietary software products are being challenged by standards-based software that uses the Business Process Execution Language (BPEL), a platform-independent programming tool. Many software products define business processes with graphical tools that allow analysts and business users to define the steps, conditions, and rules governing the business process. 
+
+BPM systems follow policies and rules, rout workflow, and raise exceptions as appropriate to the situation. Two related technology segments provide efficiencies in dealing with specialized BPM: business process integration and complex event processing. 
+
+Business Process Management (BPM) focuses on improving significant business processes, often involving computer and human workflow, to improve productivity. The key functionality of BPM is a set of business rules and workflow activities, with tools for modeling, building, executing, orchestrating, and monitoring the constructed process model. 
+
+BPM suite components surround the core BPM functionality, and can include process analysis and simulation, content management, and case and correspondence management. Some vendors have created proc- 
+
+**Competitive Framework Key** The Aberdeen Competitive Framework defines enterprises as falling into one of the three following levels of practices and performance: _Laggards (30%)_ —practices that are significantly behind the Industry Average _Industry Average (50%)_ —practices that represent the average or norm _Best in Class (20%)_ —practices that are the best currently being employed and significantly superior to the Industry Average 
+
+ess templates for vertical market processes such as insurance claims processing, legal case management, and bank loan approvals. 
+
+## _Business Activity Monitoring_ 
+
+Business Activity Monitoring (BAM) is a branch of the Business Process Monitoring technology tree. BAM monitors instrumented business processes and triggers notifications when a process-oriented event falls outside pre-established boundaries. BAM is specifically tailored to the process performance reporting aspects of Business Process Monitoring and is an alternative approach to BPM. 
+
+## _**The Difference between Business Process Monitoring and BAM**_ 
+
+**Business Process Monitoring** analyzes the execution of business processes created in a BPM system in near real-time, controls process execution in response to events that indicate a change in key performance indicators (KPIs) indicating business condition, and directs changes or alerts. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 4 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+**Business Activity Monitoring (BAM),** meanwhile, focuses on awareness of and response to critical operational data and events, often on a near real-time basis. The key functionality components of BAM technology are dashboards, rules, alerts, and historical process data tracking over time. 
+
+## **PACE Key — For more detailed description, see Appendix A** 
+
+## _**A Look Ahead**_ 
+
+_Aberdeen applies a methodology to benchmark research that evaluates the business pressures, actions, capabilities, and enablers (PACE) that indicate corporate behavior in specific business processes. These terms are defined as follows:_ _**Pressures —**_ external forces that impact an organization’s market position, competitiveness, or business operations _**Actions —**_ the strategic approaches that an organization takes in response to industry pressures _**Capabilities —**_ the business process competencies required to execute corporate strategy _**Enablers**_ — the key functionality of technology solutions and services required to support the organization’s enabling business practices 
+
+Behind these drivers and technologies lie other pressures the IT organization faces in getting the most value out of outsourcing initiatives. It is these pressures, and the actions, capabilities, and enablers enterprises have at their disposal to ease those pressures, on which much of this report is focused. 
+
+In Chapters Two and Three, we will examine how Best in Class, Industry Average, and Laggard enterprises respond to these pressures by the processes they use, their organizational structures, the knowledge they use, and the technology and outside services they 
+
+use to enhance the payback they get from using Business Process Monitoring systems to manage critical business processes. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 5 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Chapter Two:_ **Key Business Value Findings** 
+
+- There are technology approaches to Business Process Monitoring that fit a wide variety of human and automated processes across vertical markets and company sizes. One will fit your company. 
+
+- A healthy 94% of companies surveyed report moderate or very good results, with a median ROI of 18%. 
+
+- Best in Class companies are aggressively implementing multiple projects simultaneously, driven by top-down management support and execution discipline. 
+
+hen measured on a weighted priority basis in our survey, the most important strategic action to address or implement a Business Process Monitoring system W is equally shared by two opposite approaches: 
+
+- Driving **company-wide access** to process information; or, 
+
+- Piloting in a **single department** . 
+
+The second weighted priority is to **implement Business Process Monitoring projects in order of decreasing ROI/ROA over several years** , with Best in Class firms twice as likely as others to take this approach. Best in Class firms are also significantly less likely to open process information to key customers or business partners. One retail interviewee said: “We keep our (Business Process Monitoring) data as a state secret. It’s our competitive advantage.” 
+
+## _**Challenges and Responses to Implementing Business Process Monitoring Systems**_ 
+
+While the business drivers of Business Process Monitoring are clear and widely understood, there are a host of pressures — or challenges — that stand in the way of getting the best value out of IT for the management of business processes. 
+
+In examining the responses to challenges in implementing a Business Process Monitoring system, respondents found there was limited support or vision from business or senior executives, and that the change management around people and existing processes was disruptive, especially at large organizations. IT complexity and data in too many places, coupled with inadequate IT skills, were the technology challenges. 
+
+Best in Class organizations were most concerned with a lack of best practices or lessons learned on which to draw, while half complained of too much IT complexity in implementing a Business Process Monitoring system. Industry Average and Laggard organizations found that Business Process Monitoring data sources were found in too many places to consolidate rapidly. Among industry groups, CPG is most concerned with challenges, while the other industry groups are less challenged overall. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 6 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+**Figure 2: How Companies Were Challenged in Initial Business Process Monitoring Projects** 
+
+**==> picture [393 x 276] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Change management 59% 67%<br>around people or existing 19%<br>processes 44%<br>17%<br>47%<br>Limited in-house IT skills<br>31%<br>36%<br>33%<br>Data is in too many places 12%<br>to consolidate rapidly 50%<br>31%<br>33%<br>35%<br>Too much IT complexity 25%<br>31%<br>Limited support from the 35% 50%<br>business side and/or<br>19%<br>executive leadership 31%<br>0% 10% 20% 30% 40% 50% 60% 70% 80%<br>Percent of Respondents (Multiple Choice)<br>Overall Small Mid-size Enterprise<br>Source:  Aberdeen Group , August 2006<br>**----- End of picture text -----**<br>
+
+
+## _**Organizational and Technology Responses to Challenges**_ 
+
+There are significant differences regarding how respondents approach the organizational and technology responses to the challenges presented with implementing Business Process Monitoring systems. The top response is an **increased investment in IT infrastructure:** 39% overall and 63% at Best in Class firms. 
+
+Second, **setting tasks and goals for key managers** with Business Process Monitoring project success is not an approach at Best in Class firms, while more than 40% of Industry Average and Laggard respondents choose it. One third of respondents are **contracting for IT services in building a Business Process Monitoring system** — especially midsize firms ─ but only 13% of Best in Class firms are bringing in outside resources. 
+
+Looking at the organizational and technology responses by **industry group** , half of discrete and process manufacturers will implement pilot Business Process Monitoring systems to show success before proceeding mode widely, and 60% will increase technical education. In CPG manufacturing, about half of respondents will proceed by choosing a strategic IT services vendor to work with, then contract for outside services. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 7 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _**Top Three Business Process Priorities for a Business Process Monitoring System**_ 
+
+The business processes survey respondents needed to manage Business Process Monitoring, in weighted priority order (e.g., first, second, third), include **product service/repair** (70%), **supply chain** (61%), **B2C e- commerce** (58%), and **manufacturing/production** (56%). This finding puts **customer-facing processes as two of the top three choices.** 
+
+“When call waiting times hit 12 minutes, customers ring off angry.” 
+
+─ _Airline executive_ 
+
+Note that product service/repair, the first priority, is a key process in the Spare Parts Department, the source of 70% of profits at many manufacturing companies, according to Aberdeen’s service chain practice. 
+
+Vertical market-specific processes, when present, were selected as higher priorities than the previously mentioned processes and tend to be enterprise differentiators within industries. 
+
+## _**Information Management Technology for Business Process Monitoring**_ 
+
+Among the industry groups, BAM is most popular with CPG manufacturers, and small firms are most likely to use BAM. Meanwhile, mid-size firms generally choose an Operational Data Store approach to Business Process Monitoring. 
+
+Two-thirds of the surveyed companies are deploying via portals to users’ desktops. Half of the Best in Class are moving rapidly to incorporate Business Process Monitoring into their services-oriented architecture (SOA) plans. 
+
+## _**Scope of Deployment**_ 
+
+Almost one-third of survey participants are deploying their Business Process Monitoring systems from a central source across the entire organization. Nearly a quarter are focusing Business Process Monitoring on an executive information system aimed at key employees, while less than 20% are deploying centrally to a business unit. Notably, 17% are including business partners and 14% are including key customers. 
+
+No clear picture emerges regarding implementation approaches; even the Best in Class are split between implementing a process at a time versus a “big bang,” company-wide rollout. 
+
+## _**How Frequently Business Process Monitoring is Measured**_ 
+
+What is real-time in a Business Process Monitoring system? The definition varies by organization. Nearly 25% of the Best in Class and 18% of the overall survey pool capture the state of a business process in less than 10 seconds. **However, a slight majority of respondents believe daily or weekly is adequate for their needs.** This is true among all company sizes. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 8 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _**Financial Performance for Business Process Monitoring Implementations**_ 
+
+The median investment in a Business Process Monitoring system among survey participants is between $101,000 and $500,000. The average ROI is 18% and most are pleased with it. But note that many larger companies are investing much more than $500,000 in Business Process Monitoring systems, with the upper limits reaching above $10 million. Other metrics are detailed in Table 2. 
+
+“Our (Business Process Monitoring) system is now the nervous system of the company. The CEO’s Blackberry goes off twice an hour with fresh performance numbers, and management acts immediately and decisively.” 
+
+─ _Retailer_ 
+
+## **Table 2: Current Performance Metrics from Business Process Monitoring Practitioners** 
+
+|**Table 2: Current Performance Metrics from**<br>**Business Process Monitoring Practitioners**|**Table 2: Current Performance Metrics from**<br>**Business Process Monitoring Practitioners**|
+|---|---|
+|**What is your company’s CURRENT performance in the following areas related to**<br>**Business Process Monitoring project(s)?**||
+|ROI(%)|18%|
+|ROA(%)|10%|
+|Revenue increase from Business Process Monitoring (%)|9%|
+|Expense decrease from Business Process Monitoring (%)|12%|
+|Quantifiable IT value delivered/IT budget(ratio)|2x|
+
+
+
+Source: Aberdeen _Group_ , August 2006 
+
+A healthy 94% of companies surveyed say they are moderately or very satisfied with the IT results of their Business Process Monitoring implementations (Table 3). This is somewhat higher than the 87% that are moderately or very satisfied with the overall process management improvements brought about by the Business Process Monitoring systems. 
+
+**Table 3: Overall Success Rates by Technology Category** 
+
+**How would you rate the overall success of your Business Process Monitoring implementation?** 
+
+|**Table 3: Overall Success Rates by Technology Category**|**Table 3: Overall Success Rates by Technology Category**|**Table 3: Overall Success Rates by Technology Category**|**Table 3: Overall Success Rates by Technology Category**|
+|---|---|---|---|
+|**How would you rate the overall success of your Business Process Monitoring im-**<br>**plementation?**||||
+||**Very Good**<br>**Results**|**Moderate**<br>**Results**|**Poor**<br>**Results**|
+|**Overall Business Process Monitoring**<br>**ITsystem results**|**22%**|**72%**|**6%**|
+|IT integration|20%|66%|14%|
+|Database/information management|24%|63%|14%|
+|BPM software|30%|55%|15%|
+|BI and analytics|25%|59%|16%|
+|Business ActivityMonitoring|35%|52%|13%|
+|Outside IT servicesprovider|18%|73%|10%|
+|**Overall process performance**|**23%**|**64%**|**13%**|
+|**management improvement**||||
+
+
+
+Source: Aberdeen _Group_ , August 2006 
+
+## _**Lessons Learned and Next Steps**_ 
+
+Eighty-three percent of Best in Class enterprises plan to **aggressively implement Business Process Monitoring in more business processes immediately** , while Industry Average companies will take a more moderate speed. **Laggards are much more risk averse** , planning to gain insights from lessons learned before attempting another Business Process Monitoring project. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 9 
+
+The Business Activity and Monitoring Benchmark Report 
+
+As for lessons learned, about 67% of survey participants (only 43% of Best in Class) found that **data integration, loading, and cleansing were more complex than anticipated** . More than 70% of **Laggards found they had to tune Business Process Monitoring metrics due to false positive or false negative results or by a poor choice of KPMs** . 
+
+Not all Business Process Monitoring implementations are successful. Our analysis of negative paybacks in the survey indicate larger companies, with more than 2,500 employees and $500 million in annual revenue in the pharmaceutical, utility, and especially transportation and telecom industries, are most likely to have Business Process Monitoring projects with negative paybacks. In spite of this, only one company with a negative payback said it had an overall poor experience, explaining “We tried to build a processmonitoring data warehouse on a home-grown application by ourselves.” 
+
+Our summary of the Business Process Monitoring competitive framework is depicted in Table 4. 
+
+**Table 4: The Business Process Monitoring Competitive Framework** 
+
+||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Process**|Low management buy-in<br>and little interest in more<br>and faster visibility.. Poor<br>track record at IT integra-<br>tion.|More likely to be mod-<br>erately successful and<br>able to successfully<br>repeat on subsequent<br>projects done at a mod-<br>est pace.|More likely to have the<br>right internal skills and<br>staff to implement Busi-<br>ness Process Monitoring,<br>which is a competitive dif-<br>ferentiator.|
+|**Organization**|Executives are unwilling<br>to invest in better process<br>visibility or IT infrastruc-<br>ture. Limited internal IT<br>skills for integration.|Success is more limited<br>in scope than Best in<br>Class, and speed of<br>Business Process Moni-<br>toring expansion more<br>modest and cautious.|Vigorous buy-in by senior<br>executive management<br>process owners. Style is<br>constant change and inno-<br>vation. Business Process<br>Monitoring KPMs are<br>widely communicated.|
+|**Knowledge**|Less likely than Industry<br>Average or Best in Class<br>to manage to ROI expec-<br>tations. Less interest in<br>real-time management.|More likely than Best in<br>Class to engage outside<br>IT services firm for<br>Business Process Moni-<br>toring implementation.|Most self-critical, methodi-<br>cal in learning lessons, and<br>staffed with the right skills<br>Sophisticated KPMs and<br>real-time process feedback<br>Llower process labor<br>costs.|
+|**Performance**<br>**Management**|Likely to incorrectly define<br>KPMs and have to do<br>over. Slow to evaluate a<br>project and move on.<br>ROI about 12%|Achieve initial goals and<br>proceed at moderate<br>pace.<br>ROI about 18%|Achieve goals on multiple<br>projects simultaneously.<br>Process visibility is one<br>minute or less.<br>ROI more than 20%.|
+
+
+
+Source: Aberdeen _Group_ , July 2006 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 10 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _**What if Your Company is NOT Embracing Business Process Monitoring Technology?**_ 
+
+A full half of the respondents who answered the Aberdeen survey say their companies do not employ Business Process Monitoring technology within their companies (3% said they did but don’t anymore). 
+
+The top three reasons respondents gave for why their companies don’t employ Business Process Monitoring technology are foreseeable: 
+
+- No support by management; 
+
+- Too complex a technology project to undertake or too expensive to undertake; and 
+
+- No need to manage processes on a real-time basis. 
+
+At large companies, the most frequent inhibitor is a perception that the Business Process Monitoring project involves too much complexity to risk an implementation. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 11 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Chapter Three:_ **Implications & Analysis** 
+
+- The Best in Class are moving the most quickly into Business Process Monitoring and the Laggards the most slowly. 
+
+- • Identify the key metrics that can drive the greatest and earliest business value. • You may need external help to identify the transformational opportunities Business Process Monitoring systems enable, or to assist in the Business Process Monitoring systems integration effort. 
+
+he Best in Class are most likely to move aggressively from project to project — and even have multiple projects underway simultaneously. The Industry Average T companies in our survey take a moderate pace, while the Laggard companies stop after a Business Process Monitoring implementation and wait to assess the lessons learned before moving on. As a result, the Best in Class are winning the race to generate business value. 
+
+Follow-on interviews with companies participating in the survey for this report uncovered an important lesson: the companies that did careful initial planning on exactly the Key Performance Metric pivot points for process management — often quite detailed and tailored to the specific company — were the most likely to achieve the highest ROI and be most satisfied with the result of their Business Process Monitoring efforts. 
+
+## **Lessons Learned** 
+
+“When you ruthlessly focus on getting the right KPMs, the solution then becomes obvious.” 
+
+## _Pharmaceutical  executive_ 
+
+Another factor in achieving success with a Business Process Monitoring implementation is the use of **outside IT professional services** , either in the actual sys- 
+
+tems integration, or working side-by-side with the Business Process Monitoring vendor’s staff to gain insights into best practices and industry benchmarks. These steps, which need not break the budget, can overcome an internal fear of undertaking a Business Process Monitoring project due to lack of experience and perceived risk. It’s worth noting that the actual Business Process Monitoring project failure rate in our survey, as measured by poor results or given as the reason for not deploying an Business Process Monitoring, is in the 5% range — low for a sophisticated IT project involving several technologies. One reason is the industry experience among the Business Process Monitoring vendors, which is reflected in recent product enhancements aimed at lowering the barriers, costs, and risks to Business Process Monitoring implementation. 
+
+Aberdeen’s PACE Framework for gaining value out of IT outsourcing (Table 5) highlights these issues, especially the actions enterprises take in responding to the pressures behind a Business Process Monitoring implementation. To ease those pressures, enterprises employ specific capabilities and enablers. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 12 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+**Table 5: PACE (Pressures, Actions, Capabilities, Enablers)** 
+
+|**Priorities**|**Prioritized**<br>**Pressures**|**Prioritized Actions**|**Prioritized**<br>**Capabilities**|**Prioritized**<br>**Enablers**|
+|---|---|---|---|---|
+|**1**|**Limited vision**<br>**from the busi-**<br>**ness side**<br>**and/or execu-**<br>**tive leadership**|Review industry and peer<br>success stories. Facilitate<br>management education on<br>Business Process Moni-<br>toring capabilities.|Select a high-value<br>project that can<br>prove the value of<br>Business Process<br>Monitoring.|Transformational<br>consultants can<br>bring industry and<br>deep process<br>experience to<br>bear.|
+|**2**|**Limited in-**<br>**house IT skills**|Determine ability to make<br>or buy based on current<br>skills. Decrease scope to<br>be closer to skills avail-<br>able.|Upgrade staff,<br>training, or engage<br>outside IT services<br>or contractors.|Outsource sys-<br>tems integration<br>or use IT services<br>on the project<br>team.|
+|**3**|**Too much IT**<br>**complexity**|Examine IT scope and<br>approach. Consider alter-<br>nate IT approaches. Con-<br>sider IT infrastructure<br>consolidation to reduce<br>complexity.|Design a long-term<br>Business Process<br>Monitoring archi-<br>tecture, but start<br>with limited scope.|Low-touch IT such<br>as BAM could<br>lower overall<br>complexity with<br>reduced benefits.|
+|**4**|**Data is in too**<br>**many places**<br>**to consolidate**<br>**rapidly**|Is all the data needed?<br>Can limited data serve as<br>a proxy for complete<br>data? Increase the real-<br>timelag.|Increase IT infra-<br>structure for con-<br>solidation.|Data modeling<br>tools for informa-<br>tion management<br>and BPM design.|
+|**5**|**Too much**<br>**complexity for**<br>**employees to**<br>**cope with**|Review the design: Busi-<br>ness Process Monitoring<br>should reduce complexity<br>and simplify human deci-<br>sion-making.|Get the right<br>KPMs. Carefully<br>plan user interface,<br>new process issue<br>escalation steps.<br>Do not skimp on<br>training budget or<br>time.|Vendor training of<br>management and<br>user staff.|
+
+
+
+Source: Aberdeen _Group_ , August 2006 
+
+## _**It All Starts With a Vision**_ 
+
+One of the big stumbling blocks is a limited degree of support and vision from business or senior executives. Lack of education and understanding on how Business Process Monitoring technology can dramatically improve visibility into business processes, along with “we’ve always done it this way” are common. However, more than 70% of companies surveyed for an earlier Aberdeen report indicated that the need for “greater visibility into business processes on a real-time basis” was the top driver for enterprise integration projects. This dichotomy between widespread need and lack of management support for viable Business Process Monitoring solutions will likely be resolved as more companies become aware of the customer success stories around Business Process Monitoring implementations. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 13 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _**There is No Single Technology Approach**_ 
+
+There is no one “right” technology approach to Business Process Monitoring that will satisfy all companies, budgets, technology maturity levels, and business goals. Respondents’ companies are about equally split on technology approach. Some 57% of survey participants chose “all equally” among information management, business process management, business analytics, and business activity management. 
+
+## _**Business Process Monitoring Users are Pleased with the Results**_ 
+
+No less than 84% of respondents are moderately or very pleased with eight ratings of success in their Business Process Monitoring implementations. About 67% (only 43% of Best in Class) found that data integration, loading, and cleansing were more complex than anticipated. More than 70% of Laggards found they had to tune Business Process Monitoring metrics due to false positive or false negative results, or by a poor choice of key performance metrics (KPMs). The implications are that careful, upfront planning with the business unit will allow IT implementers to focus on the right measurements. Finally, failed Business Process Monitoring implementations amount to about 5% of all projects, indicating success is quite attainable with low overall risks. 
+
+## _**The Definition of Real-Time May Vary**_ 
+
+There is a wide divergence in the definition of “real-time.” While a quarter of Best in Class companies capture process performance changes in 10 seconds or less, and 36% of the respondents’ companies in ten minutes or less, more than half of the survey pool believes daily or even weekly process performance measurement is adequate. The fact that 42% of the participating companies are in the planning stages of Business Process Monitoring is likely indicative of the early stages of market penetration and market awareness of Business Process Monitoring. 
+
+Based on the excitement elicited in interviews with respondents that were conducted in conjunction with the benchmark survey, Aberdeen expects Business Process Monitoring interest, awareness, and the market to accelerate, since we believe the need for faster delivery of actionable business process information can only make management easier and better across industries. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 14 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **:** _Chapter Four_ **Recommendations for Action** 
+
+- Laggards must secure management buy-in, involve users in the KPM decision process, and limit the initial scope to achievable levels. 
+
+- Industry Average firms must pick up the pace and deploy more Business Process Monitoring technology at a faster rate to see greater and faster business process performance improvements. 
+
+- Best in Class firms must continue to simplify human business processes, improve the forecasting and prediction capabilities of their Business Process Monitoring systems, and plan to permanently extract core logic and business rules from existing enterprise applications. 
+
+t’s not necessary to create a complex and expensive data warehouse to begin improving visibility into business processes, although, for some, a massive data warehouse I or operational data store can literally be the technology springboard to enterprise transformation. Data warehousing implies bringing lots of data together from other sources and is problematic for many companies. Rather, look to BPM and BAM technologies that can instrument the process and look for KPM changes without the need for a data warehouse. 
+
+While every industry is different, the majority of companies in our survey have prioritized **customer-facing business processes** for early implementation, and ahead of supply chain and manufacturing efforts. These companies are working at improving customer satisfaction levels. 
+
+Don’t be afraid to jump in the water and start swimming. The Best in Class companies participating in our survey are implementing Business Process Monitoring in more business processes aggressively and immediately, while Industry Average companies take a moderate speed and Laggards are risk averse. There is **a direct correlation between Best in Class** and **success metrics, and a high degree of IT adoption in support of business process monitoring** . 
+
+## _**Laggard Steps to Success**_ 
+
+- 1) _Identify the root cause of Business Process Monitoring’s lack of success_ . Causes include inadequate IT staff skills, lack of management or user buy-in, poor user training, inadequate project management, and incorrect KPMs. Before the organization can be confident in its ability to join the vast majority of companies that are succeeding with Business Process Monitoring technology, you have to know what problems to fix. 
+
+- 2) _Get a helping hand_ . Well less than half of Laggards use outside services to assist in Business Process Monitoring projects and yet these same organizations report difficulties in IT implementations and even in picking the right KPMs to monitor and manage. The service organizations of Business Process Monitoring vendors can bring invaluable experience to a Business Process Monitoring project and 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 15 
+
+The Business Activity and Monitoring Benchmark Report 
+
+help keep the technical and project scope to a manageable level that leads to success. 
+
+- 3) _Align Business Process Monitoring and management goals and incentives_ . A Business Process Monitoring system should provide invaluable information and insight to business-unit management in a timely fashion that allows for decisions that drive revenue, cost, customer satisfaction and all other metrics by which managers are paid to succeed. By aligning management incentives with Business Process Monitoring metrics, it’s much more likely that a Business Process Monitoring project will get top-to-bottom buy-in from the user organization. 
+
+- 4) _The buck starts at the top_ . In our interviews and experience with customers who embrace Business Process Monitoring, its most fanatical proponents are organizations that embrace it from the top. These are “if you cannot measure it, you cannot manage it” style leaders who revel in data-driven decisions as opposed to flying by the seat of your pants. To succeed as an organization with Business Process Monitoring, top management must believe in it. The job here, then, is getting senior management to believe. 
+
+- 5) _Keep it simple_ . Many Laggard organizations are daunted by IT data consolidation complexity when implementing Business Process Monitoring systems. Is the complexity caused by too broad a scope, trying to answer too many questions? Consider focusing on a few key metrics that can be monitored and managed with a modest data integration effort — or consider BAM technology that typically requires less data integration than a BPM approach. 
+
+## _**Industry Average Steps to Success**_ 
+
+- 1) _Step up the pace_ . If Best in Class companies are seeing exceptional business value in Business Process Monitoring and accelerating the rate of Business Process Monitoring project implementations, then Industry Average companies should look to pick up the pace of Business Process Monitoring projects and corresponding IT investments. This can be done with internal staff, temporary contractors, or IT services from trusted Business Process Monitoring partners. 
+
+- 2) _Create a Hit List_ . A Business Process Monitoring task force of line-of-business and IT executives can create a “hit list” of Business Process Monitoring projects that can be attacked in ROI priority order over several years. 
+
+- 3) _Involve your customers and partners_ . Consider involving close business partners and key customers in your Business Process Monitoring-driven process. That expands the information feedback loop forward and backward in the information lifecycle, and can extend the visibility time horizon in changing markets. 
+
+- 4) _All markets are local and specialized_ . Vertical market-specific process proponents had the strongest voices in our survey. Look to the processes unique to your industry first for Business Process Monitoring. Our survey suggests customer-facing processes are high on the list of many of your peers. In the end, the list of business processes most in need of Business Process Monitoring is unique to your organization. In what process can you get the best bang for the buck? 
+
+- 5) _Think about information as a service_ . With the vast majority of companies planning future application development using a services-oriented architecture (SOA), and actively engaged in building composite applications, having too 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 16 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+many data sources to efficiently deliver Business Process Monitoring projects is a problem to solve once and for all. The concept is information as a service, in which data consolidation is done for SOA applications, including Business Process Monitoring. An investment in information as a service now, early in the SOA lifecycle, will complicate planning and budgets near term, but deliver benefits for years to come. 
+
+## _**Best in Class Next Steps**_ 
+
+- 1) _Business Process Monitoring, BAM, and BPM are key ingredients in transformation._ With real-time process management in place and business rules and logic extracted into a BPM system, IT no longer stands in the way of rapid and extensive process transformation. In a clean-sheet-of-paper transformation, time-, resource-, labor-, or capital-intensive processes are rebuilt from the ground up to be more efficient and effective. 
+
+- 2) _Extend the reach of Business Process Monitoring to human-centric processes._ Users are adding value to business processes with Business Process Monitoring technology in every department and every industry. This simplifies humancentric processes to lower labor costs while actually improving policy-based governance. 
+
+- 3) _Go deeper in analysis and prediction._ State-of-the-industry technology is moving rapidly beyond monitoring processes against fixed rules and policies and toward probabilistic systems (e.g., events happen randomly) that create historical realtime conditions, reporting exceptions when any of several trend lines are broken. 
+
+- _4) Broaden participation_ in Business Process Monitoring systems beyond the executive suites. Those white-collar workers who still have jobs can perform better if they have better, and sometimes more, information to work with. 
+
+- _5) Consolidate the Business Process Monitoring infrastructure._ While there are several technology approaches to Business Process Monitoring that have merit, eventually, economies from consolidation are evident. This becomes easier to do if services are centralized at company- or business-unit headquarters. 
+
+## **For Business Process Monitoring Technology Skeptics** 
+
+This report should serve as a guide to the business value organizations are obtaining through Business Process Monitoring. By following the lead of the Best in Class companies discussed in this report, companies that are not using Business Process Monitoring technology can organize initial discussions with the framework provided. 
+
+If you’re looking for a place to start, ask mid-level managers in business units. Too often, they react to crises like stock-outs that might have been anticipated. If your management team is largely dealing with tactical problems, a Business Process Monitoring system can do two important things: 
+
+- _Identify conditions that are building toward a bottleneck_ , allowing business process managers to act before the bottleneck becomes a crisis; and 
+
+- _Remove routine human decision-making from the business process._ This lowers labor costs, but also imposes rules and policies on the organization, where compliance can then be managed on an exception basis. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 17 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Featured Sponsors** 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 18 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Sponsor Directory** 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 
+
+**Aberdeen** _**Group** •_ 19 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **Author Profile** 
+
+## **Peter S. Kastner Research Vice President and Co-Founder Enterprise Technology Research Aberdeen** _**Group**_ **, Inc.** 
+
+## **Area of Focus** 
+
+Peter S. Kastner conducts research in the integration of information technology across and among enterprises and their customers and employees.  He focuses on the near-term business value-generation tradeoffs faced by technology and business managers who must deliver repeated, short-term value gains while simultaneously refreshing the enterprise infrastructure to take advantage of evolving technology, standards, practices, and regulations.  The practice covers technology integration including application development; software architectures and middleware; core architecture, processing and networking; edge devices, processing, and networking; data and business intelligence and integration; security integration; IT services; and enterprise business process and technology management. 
+
+## **Current Research** 
+
+Kastner is delivering a research agenda centered on determining the 2006 technology tradeoffs made by business managers, the plans and experiences of enterprises with application-oriented networks, next-generation approaches to ERP integration, mid-market systems-oriented architecture (SOA) decisions, and best practices in SOA technology. Second-half research will benchmark IT outsourcing and legacy hardware and software integration, examine the numerous technologies and approaches to enterprise integration, probe buyer experiences with next-generation datacenter technologies, and research business process management and real-time operational decision-making technologies and buyer experiences with next-generation data warehouses. 
+
+## **Experience** 
+
+Kastner’s career includes a decade in systems integration, operations, and application development as a technician and manager; a decade in computer company product marketing, vertical market development, sales management, and training; and 18 years of market research experience in software and hardware technologies at Aberdeen Group. He has been cited hundreds of times in the press, has appeared on all the major U.S. news and business networks, and is a frequent speaker on issues about the business and consumer applications of technology.  He is a founder of the Transaction Processing Council.  In 2003, he was named one of the top five most sought after analysts by MediaMap. He sits on the Aberdeen Group board of directors. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 20 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Appendix A:_ **Research Methodology** 
+
+n July and August 2006, Aberdeen _Group_ examined the Business Process Monitoring application, integration competency, experiences, deployments and intentions of I more than 160 Global 5000 enterprises in discrete manufacturing and process manufacturing, consumer product, service, and public sector industries. 
+
+Thirty vendors of Business Process Monitoring technology were invited to solicit their customers to participate in the survey. No one vendor’s customers significantly influenced the results. The bulk of the respondents are members of the Aberdeen Technology Advisor, a free opt-in service at Aberdeen.com. 
+
+Responding IT and LOB technology executives completed an online survey that included questions designed to determine the following: 
+
+- The maturity of Business Process Monitoring use and experiences 
+
+- The technology buying criteria and the non-technical buying criteria which led to a Business Process Monitoring buying decision 
+
+- Current and planned use of Business Process Monitoring technology to improve application integration and the ROI and other business metrics of Business Process Monitoring investments 
+
+- How enterprises are extracting more value using Business Process Monitoring technology 
+
+- The challenges to using Business Process Monitoring technology, and lesson learned. 
+
+Aberdeen supplemented this online survey effort with telephone interviews with select survey respondents, gathering additional information on Business Process Monitoring management strategies, experiences, and results. 
+
+The study aimed to identify emerging best practices for Business Process Monitoringbased integration and provide a framework by which readers could assess their own Business Process Monitoring integration capabilities. 
+
+Responding enterprises included the following: 
+
+|•|**_Job title/function_**_:_The research sample included respondents with the following|**_Job title/function_**_:_The research sample included respondents with the following|
+|---|---|---|
+|job|titles:||
+||Senior Management (CEO, CFO, COO)|24%|
+||CIO/IT Leader|9%|
+||(Senior) Vice President|4%|
+||Director|21%|
+||Manager|26%|
+||Staff|3%|
+||Internal Consultant|13%|
+
+
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. **Aberdeen** _**Group** •_ 21 
+
+The Business Activity and Monitoring Benchmark Report 
+
+- _**Industry** :_ The research sample included respondents predominantly from manufacturing industries. Discrete and process manufacturing represented 36% of the survey, and consumer product goods (CPG) 34%. Services industries were 26% and public sector 4%. 
+
+• _**Geography** :_ North America (Includes USA, Canada, Mexico) 59% Europe 25% Asia/Pacific 8% Middle East, Africa 8% South/Central America and Caribbean - 
+
+• _**Company size** :_ Less than $50 Million 37% $50M to $249M 18% $250M to 499M 8% $500M to $999M 9% $1 billion to $5 billion 13% More than $5 billion 15% 
+
+Solution providers recognized as sponsors of this report were solicited after the fact and had no substantive influence on the direction of the _The Business Activity and Monitoring Benchmark Report_ . Their sponsorship has made it possible for Aberdeen _Group_ to make these findings available to readers at no charge. 
+
+**Table 5: PACE Framework** 
+
+## **PACE Key** 
+
+Aberdeen applies a methodology to benchmark research that evaluates the business pressures, actions, capabilities, and enablers (PACE) that indicate corporate behavior in specific business processes. These terms are defined as follows: 
+
+_Pressures_ _**—**_ external forces that impact an organization’s market position, competitiveness, or business operations (e.g., economic, political and regulatory, technology, changing customer preferences, competitive) 
+
+_Actions_ _**—**_ the strategic approaches that an organization takes in response to industry pressures (e.g., align the corporate business model to leverage industry opportunities, such as product/service strategy, target markets, financial strategy, go-to-market, and sales strategy) 
+
+- _Capabilities_ _**—**_ the business process competencies required to execute corporate strategy (e.g., skilled people, brand, market positioning, viable products/services, ecosystem partners, financing) 
+
+_Enablers_ — the key functionality of technology solutions required to support the organization’s enabling business practices (e.g., development platform, applications, network connectivity, user interface, training and support, partner interfaces, data cleansing, and management) 
+
+Source: Aberdeen _Group_ , August 2006 
+
+**Table 6: Relationship between PACE and Competitive Framework** 
+
+## **PACE and Competitive Framework How They Interact** 
+
+Aberdeen research indicates that companies that identify the most impactful pressures and take the most transformational and effective actions are most likely to achieve superior performance. The level of competitive performance that a company achieves is strongly determined by the PACE choices that they make and how well they execute. 
+
+Source: Aberdeen _Group_ , August 2006 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 22 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## _Appendix B:_ **Related Aberdeen Research & Tools** 
+
+Related Aberdeen research that forms a companion or reference to this report includes: 
+
+- - 
+
+- Is Integrating Real Time Process Performance Management Systems Worth the Effort? (July 2006) 
+
+- Achieving More Value From Enterprise Applications (April 2006) 
+
+- Advancing Legacy Applications in an SOA World (August 2006) 
+
+- Enterprise Service Bus and SOA Middleware (June 2006) 
+
+- The Service-Oriented Architecture (SOA) in IT Benchmark Report (December 2005) 
+
+- The Service-Oriented Architecture in the Supply Chain Benchmark Report (September 2005) 
+
+- • Enterprise Service Bus: the Foundation of Service-Oriented Architecture (April 2006) 
+
+- • The Strategic Enterprise IT Budget Realities 
+
+- The 2005 CIO Agenda — CIO Disruptors 
+
+- • Creating Composite Business Process Applications for Enterprise Integration • Enterprise Applications: Build or Buy? 
+
+- Why Aberdeen is Focusing on Enterprise Integration 
+
+- Sector-Based Research 
+
+   - For Mid-Size Enterprises, SOA’s Benefits Begin with IT 
+
+   - Process Manufacturers Cautious on SOA Adoption 
+
+   - SOA is Made to Order for Mid-Size Manufacturers 
+
+   - – Complexity Drives Discrete Manufacturers to SOA 
+
+- Key Performance Indicators 
+
+   - Software Maintenance Costs as a Percent of IT Budget 
+
+   - IT Cost of Delivering/Building New Applications as a Percent of IT Budget 
+
+   - Percent of IT Budget Spent on Innovations 
+
+Information on these and any other Aberdeen publications can be found at www.Aberdeen.com. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 
+
+**Aberdeen** _**Group** •_ 23 
+
+The Business Activity and Monitoring Benchmark Report 
+
+## **About Aberdeen** _**Group**_ 
+
+## **Our Mission** 
+
+To be the trusted advisor and business value research destination of choice for the Global Business Executive. 
+
+## **Our Approach** 
+
+Aberdeen delivers unbiased, primary research that helps enterprises derive tangible business value from technology-enabled solutions. Through continuous benchmarking and analysis of value chain practices, Aberdeen offers a unique mix of research, tools, and services to help Global Business Executives accomplish the following: 
+
+- IMPROVE the financial and competitive position of their business now 
+
+- PRIORITIZE operational improvement areas to drive immediate, tangible value to their business 
+
+- LEVERAGE information technology for tangible business value. 
+
+Aberdeen also offers selected solution providers fact-based tools and services to empower and equip them to accomplish the following: 
+
+- CREATE DEMAND, by reaching the right level of executives in companies where their solutions can deliver differentiated results 
+
+- ACCELERATE SALES, by accessing executive decision-makers who need a solution and arming the sales team with fact-based differentiation around business impact 
+
+- EXPAND CUSTOMERS, by fortifying their value proposition with independent fact-based research and demonstrating installed base proof points 
+
+## **Our History of Integrity** 
+
+Aberdeen was founded in 1988 to conduct fact-based, unbiased research that delivers tangible value to executives trying to advance their businesses with technology-enabled solutions. 
+
+Aberdeen's integrity has always been and always will be beyond reproach. We provide independent research and analysis of the dynamics underlying specific technologyenabled business strategies, market trends, and technology solutions. While some reports or portions of reports may be underwritten by corporate sponsors, Aberdeen's research findings are never influenced by any of these sponsors. 
+
+All print and electronic rights are the property of **Aberdeen** _**Group**_ © 2006. 24 • **Aberdeen** _**Group**_ 
+
+The Business Activity and Monitoring Benchmark Report 
+
+**Aberdeen** _**Group** , Inc. 260 Franklin Street Boston, Massachusetts 02110-3112 USA_ 
+
+_Telephone: 617 723 7890 Fax: 617 723 7897 www.aberdeen.com_ 
+
+_© 2006_ **Aberdeen** _**Group** , Inc. All rights reserved August 2006_ 
+
+Founded in 1988, Aberdeen _Group_ is the technologydriven research destination of choice for the global business executive. Aberdeen _Group_ has over 125,000 research members in over 40 countries around the world that both participate in and direct the most comprehensive technology-driven value chain research in the market. Through its continued fact-based research, benchmarking, and actionable analysis, Aberdeen _Group_ offers global business and technology executives a unique mix of actionable research, KPIs, tools, and services. 
+
+The information contained in this publication has been obtained from sources Aberdeen believes to be reliable, but is not guaranteed by Aberdeen Group. Aberdeen publications reflect the analyst’s judgment at the time and are subject to change without notice. 
+
+The trademarks and registered trademarks of the corporations mentioned in this publication are the property of their respective holders. 
+

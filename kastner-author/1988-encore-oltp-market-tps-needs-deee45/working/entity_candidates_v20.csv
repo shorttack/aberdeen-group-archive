@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+federal-reserve-bank,Federal Reserve Bank,agency,financial services / central banking,1,"de CHIPS (the NY clearing house) and FedWire, which handles Federal Reserve Bank transactions.  While this applications appears very attract"
+hewlett-packard,Hewlett-Packard,company,technology hardware,1,"or minicomputers.  Major competitors are IBM, Digital, and Hewlett-Packard.  Volumes range to 40 TPS peaks.   Manufacturing Resource P"
+enc-01,Encore Computer Corporation,company,computer-hardware,1,pdate customer records.  Volumes to 25 TPS. Conclusions for Encore Computer   The market for high-end OLTP applications exceeded $1.4 b
+enc-10,Sears/IBM Prodigy,joint-venture,home-services-online,1,but systems installed to date have required up to 25 TPS.  Sears/IBM Prodigy expects 100 TPS within three years with its videotext appli
+enc-11,Federal Aviation Administration,government-agency,government,1,"2,000 communications lines.   ## Government Applications   Federal Aviation Administration (FAA) - current programs to upgrade flight plan records, na"
+e91-06,Delta Airlines,company,transportation,1,"ing at 15% per annum. without the effect of the merger with Delta airlines.   Other reservations systems - travel brokers, holiday pac"
+sears,Sears,company,retail,1,but systems installed to date have required up to 25 TPS.  Sears/IBM Prodigy expects 100 TPS within three years with its vid
+reuters,Reuters,firm,news-wire,1,"action.  Volumes range to 75 TPS.   Information providers - Reuters, Telerate and other securities information providers delive"

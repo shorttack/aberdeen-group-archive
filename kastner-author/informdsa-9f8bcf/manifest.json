@@ -1,0 +1,114 @@
+{
+  "mode": "existing",
+  "slug": "informdsa-9f8bcf",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1998 datawhse.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf/source/original.pdf",
+  "pdf_sha256": "f58c6a5dd4e386bed041acc322f855e20ebf439e6a15eeda1da1cecf7e73e420",
+  "pdf_size_bytes": 2327806,
+  "pdf_page_count": 28,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 28,
+    "filename": "1998 datawhse.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=28, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:11.166632+00:00",
+  "extracted_title": "Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?",
+  "title_source": "page1",
+  "matched_study_id": "informdsa-9f8bcf",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "informdsa-9f8bcf",
+      "title": "Can Parallel-Scalable RDBMSs Break the Downsizing Logjam?",
+      "relative_path": "kastner-author/informdsa-9f8bcf",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba",
+      "title": "Dell and Oracle Boldly Predict the Demise of Big Iron",
+      "relative_path": "other-authors/2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba",
+      "lev_ratio": 0.4404,
+      "token_ratio": 0.0588,
+      "combined_score": 0.2877,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "ntscaling-07177f",
+      "title": "Microsoft Scalability Day: The Emperor Has No Clothes",
+      "relative_path": "kastner-author/ntscaling-07177f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ntscaling-07177f",
+      "lev_ratio": 0.4259,
+      "token_ratio": 0.0667,
+      "combined_score": 0.2822,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf/working/extracted_v20.md",
+      "md_chars": 7385,
+      "md_lines": 271,
+      "elapsed_sec": 1.64
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 28,
+      "filename": "1998 datawhse.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=28, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 0,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf/working/entity_candidates_v20.csv",
+      "top_3": []
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 0,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informdsa-9f8bcf/working/observation_candidates_v20.csv"
+    }
+  ]
+}

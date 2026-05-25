@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "2001-aberdeen-group-recent-publications-psk-2be54d",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2001 Aberdeen Group _ Recent Publications PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d/source/original.pdf",
+  "pdf_sha256": "df2b3c4ed3aca73b3124aaaecff3d6bad53031c8d648e8e88a6c2cdf084998fc",
+  "pdf_size_bytes": 1779686,
+  "pdf_page_count": 20,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 20,
+    "filename": "2001 aberdeen group _ recent publications psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=20, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:30.867850+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "2001-aberdeen-group-recent-publications-psk-2be54d",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "2001-aberdeen-group-recent-publications-psk-2be54d",
+      "title": "Aberdeen Group Recent Publications \u2014 Peter S. Kastner Edition (2001)",
+      "relative_path": "kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "2001-aberdeen-group-recent-publications-psk"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d/working/extracted_v20.md",
+      "md_chars": 64634,
+      "md_lines": 1002,
+      "elapsed_sec": 2.93
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 20,
+      "filename": "2001 aberdeen group _ recent publications psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=20, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 55,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          36
+        ],
+        [
+          "Valerie O'Connell",
+          15
+        ],
+        [
+          "Compaq",
+          10
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-aberdeen-group-recent-publications-psk-2be54d/working/observation_candidates_v20.csv"
+    }
+  ]
+}

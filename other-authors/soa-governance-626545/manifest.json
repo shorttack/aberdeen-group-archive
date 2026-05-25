@@ -1,0 +1,222 @@
+{
+  "mode": "existing",
+  "slug": "soa-governance-626545",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/3944_RA_SOAGov.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545/source/original.pdf",
+  "pdf_sha256": "1c9980db104800a8b4f3a36cd5579ae435d2f1245c6b629a8dfb1ca65a051f99",
+  "pdf_size_bytes": 487262,
+  "pdf_page_count": 23,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 23,
+    "filename": "3944_ra_soagov.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=23, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:00.795187+00:00",
+  "extracted_title": "Management and Governance: Planning for an Optimized SOA Application Lifecycle",
+  "title_source": "metadata",
+  "matched_study_id": "soa-governance-626545",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "soa-governance-626545",
+      "title": "Management and Governance: Planning for an Optimized SOA Application Lifecycle",
+      "relative_path": "other-authors/soa-governance-626545",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "aberdeen-ra-soa-management-governance-20-ff6a2c",
+      "title": "Management and Governance: Planning for an Optimized SOA Application Lifecycle",
+      "relative_path": "kastner-author/aberdeen-ra-soa-management-governance-20-ff6a2c",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/aberdeen-ra-soa-management-governance-20-ff6a2c",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "psk-misc-speech-agendas-5965a3",
+      "title": "An Overview of Internet Application Development",
+      "relative_path": "kastner-author/psk-misc-speech-agendas-5965a3",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/psk-misc-speech-agendas-5965a3",
+      "lev_ratio": 0.4677,
+      "token_ratio": 0.1429,
+      "combined_score": 0.3378
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545/working/extracted_v20.md",
+      "md_chars": 50700,
+      "md_lines": 641,
+      "elapsed_sec": 1.73
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 23,
+      "filename": "3944_ra_soagov.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=23, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 10,
+      "figures_extracted": 10,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 5,
+          "sha1": "fbe78fc126cec651cf1ad3346376a0fd6641ea9a",
+          "size_bytes": 118803,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 7,
+          "sha1": "7af64b9560412fad4007df026f5fe5cbdbffbb2e",
+          "size_bytes": 245797,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 10,
+          "sha1": "10814c0a11ba1054ee500baa77cd64ed1ec9fde8",
+          "size_bytes": 155928,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 12,
+          "sha1": "66e0fa4afe8f0d514699c9e95b3256f9d8bff170",
+          "size_bytes": 257310,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 13,
+          "sha1": "fb16fdcf8c566fa3f726b6c837b1568daaaf9930",
+          "size_bytes": 205763,
+          "labels_on_page": [
+            "4",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 14,
+          "sha1": "a23d307e660b3d3cc9f51fcbaf920a96a98f4023",
+          "size_bytes": 324188,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 15,
+          "sha1": "2b2591ef0d1eb52eebaabf6c81867ce5bed009a1",
+          "size_bytes": 292139,
+          "labels_on_page": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 16,
+          "sha1": "b43a382ac929673cbbb2fa4c2b3c6c04b16d5d46",
+          "size_bytes": 267130,
+          "labels_on_page": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 17,
+          "sha1": "f21adc48d8a3cdf25dd494bc97ab4eb60fc50636",
+          "size_bytes": 194524,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 22,
+          "sha1": "78d0fb0ab0f0bdae4d8987ae84d613e431d9ce73",
+          "size_bytes": 194704,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 1,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          50
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 54,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-governance-626545/working/observation_candidates_v20.csv"
+    }
+  ]
+}

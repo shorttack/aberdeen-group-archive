@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "the-business-value-in-it-outsourcing-7d5f23",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/The Business Value in IT Outsourcing.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/the-business-value-in-it-outsourcing-7d5f23/source/original.pdf",
+  "pdf_sha256": "cf326c339b3605997a28961e6b67dd10b5c893709f2f0ba39993d7ef9908e24d",
+  "pdf_size_bytes": 405592,
+  "pdf_page_count": 4,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 4,
+    "filename": "the business value in it outsourcing.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=4, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:36.418796+00:00",
+  "extracted_title": "The Business Value of IT Outsourcing",
+  "title_source": "metadata",
+  "matched_study_id": "the-business-value-in-it-outsourcing-7d5f23",
+  "match_score": 0.8524,
+  "match_candidates": [
+    {
+      "study_id": "the-business-value-in-it-outsourcing-7d5f23",
+      "title": "The Business Value in IT Outsourcing",
+      "relative_path": "kastner-author/the-business-value-in-it-outsourcing-7d5f23",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/the-business-value-in-it-outsourcing-7d5f23",
+      "lev_ratio": 0.9444,
+      "token_ratio": 0.7143,
+      "combined_score": 0.8524
+    },
+    {
+      "study_id": "business-value-outsourcing-57ce57",
+      "title": "The Business Value in IT Outsourcing",
+      "relative_path": "kastner-author/employer/aberdeen-group/business-value-outsourcing-57ce57",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/business-value-outsourcing-57ce57",
+      "lev_ratio": 0.9444,
+      "token_ratio": 0.7143,
+      "combined_score": 0.8524
+    },
+    {
+      "study_id": "1997-the-business-value-of-applications-hosting-e92e09",
+      "title": "The Business Value of Applications Hosting",
+      "relative_path": "other-authors/1997-the-business-value-of-applications-hosting-e92e09",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/1997-the-business-value-of-applications-hosting-e92e09",
+      "lev_ratio": 0.7692,
+      "token_ratio": 0.5,
+      "combined_score": 0.6615
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/the-business-value-in-it-outsourcing-7d5f23/working/extracted_v20.md",
+      "md_chars": 10722,
+      "md_lines": 123,
+      "elapsed_sec": 0.44
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 4,
+      "filename": "the business value in it outsourcing.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=4, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/the-business-value-in-it-outsourcing-7d5f23/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ],
+        [
+          "Peter Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

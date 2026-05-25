@@ -1,0 +1,59 @@
+char_offset,trigger_labels,sentence
+332,percentage_stat,"pplication integration is a major IT headache and takes up about 40% of the typical IT budget, according to recent Aberdeen research."
+1751,key_finding,Here are three key findings from our research for this report:
+1818,best_in_class,Best in Class firms realize the inadequacy of their present development tools and are actively investing in new composite development technology.
+3497,percentage_stat,"About 15% of survey respondents left a lesson learned comment about how they underestimated or short-changed rigorous, staged project and technology planning."
+10937,percentage_stat;dollar_stat,"ecent Aberdeen research has shown that application development and integration is a major IT headache, costing around 40% of the typical IT budget in a $1.3 Rtrillion global IT economy."
+12703,figure_reference,"The top business driver, or pressure, pushing composite applications to the front of the development priority line is _improving service to end users_ (Figure 1)."
+12927,figure_reference,Simpler integration with the technology infrastructure and a key to easier and faster platform consolidation (Figure 2).
+13194,figure_reference,**Figure 1: Business Drivers for Building Composite Applications as Top Priority**
+13657,figure_reference,**Figure 2: Desired Technology Outcomes from Composite Applications**
+14935,percentage_stat,Only 31% of respondents identified _**building out their services architecture plans**_ as a key technology outcome their companies sought from building composite applications.
+16085,best_in_class,"We will also detail how leading, that is, Best in Class, companies are facing the issue of building composite applications, and how their approaches lead them to perform better than Industry Average and Laggard companies within Aberdeen’s Competitive Framework."
+16547,best_in_class,Best in Class firms realize the inadequacy of their present development tools and are actively investing in new composite development technology.
+17025,dollar_stat,berdeen estimates that the average Global 1000 enterprise has produced 1.5 billion lines of program code over the past 30 years at a 2006 replacement cost of A$75 billion.
+18010,figure_reference,"In Figure 3, note that higher user satisfaction and quicker business reaction rate considerably higher than improving IT or merely lowering costs."
+18214,best_in_class,"**----- Start of picture text -----**<br>
+60%<br>51% 52% 48% All Respondents 48%<br>50%<br>41% Best in Class<br>38%<br>40%<br>28%<br>30% 25% 24% 22%<br>20%<br>10%<br>0%<br>Higher user Quicker reaction Improved IT Lower costs Improved<br>satisfaction by the business to operations and application<br>competitive processes performance<br>pressures<br>**----- End of picture text -----**<br>"
+18605,figure_reference,**Figure 3: Benefits from Developing and Deploying Composite Applications**
+18723,best_in_class,"Best in Class organizations scored higher than the average in most of these five categories, which demonstrates that while they recognize the impact composite"
+19155,best_in_class,Also note that Best in Class organizations have governance processes in place to focus on line-of-business user satisfaction.
+19283,best_in_class,"Table 1 shows the distinctions between the Best in Class, Industry Average, and Laggard organizations in this survey."
+21715,best_in_class,## **Determining the Best in Class**
+21754,best_in_class;percentage_stat,"For this report, Aberdeen determined its Best in Class organizations as the best 20% of the survey population with the following quantitative and qualitative characteristics:"
+22739,best_in_class;percentage_stat,"Nearly three-quarters of respondents from Best in Class organizations (71%) have the best possible experience level in building composite applications, compared with just 21% of the entire survey pool (Table 2)."
+23602,best_in_class;percentage_stat,"However, Best in Class organizations are a step ahead here: Nearly two-thirds **(65%) of the Best in Class plan to buy new composite applicationbuilding technology in the next six months** , versus only 25% of other responding companies."
+26364,figure_reference,"The browser is now the common denominator for delivering application functionality, and most companies represented in the Aberdeen survey are already building and delivering composite browser-based and portal applications, much more so than non browser-based applications (Figure 4)."
+27887,figure_reference,**Figure 4: Percentage of Companies That Have Delivered Specific Composite Applications**
+30067,figure_reference,"A second group (Figure 5) is building out an SOA infrastructure with middleware products, while the third group is using ERP vendors’ SOA middleware."
+30417,figure_reference,**Figure 5: SOA Middleware Products That Companies Have or Are Planning**
+30895,best_in_class,"Best in Class enterprises identified in previous studies are installing certain suites of SOA capabilities that are mandatory in the long run but can be skipped on a single project: registry/repository, enterprise service bus, security, management, and governance."
+31160,percentage_stat,"Given that the objective is to reduce the 40% of IT budget spent on integration, we are confident that the early investments in entire suites of SOA management and operational capabilities will be recovered quickly, and at the lowest life-cycle costs."
+37565,best_in_class;key_finding,"This supports a key finding from our recent _Legacy Application Modernization Benchmark Report_ , in which we found that **Best in Class organizations had strong enterprise-wide buy-in for SOA** ."
+40232,best_in_class,"In our recent benchmark report, _Outsourcing Application Development and Maintenance,_ we found that Best in Class organizations are achieving better than a 50% ROI in outsourced application development and maintenance (However, outsourcing carries a different set of challenges and key performance measures, and requires special management skills that many firms admittedly lack, according to Aberdeen research findings)."
+41529,figure_reference;percentage_stat,"But half of those taking the SOA ERP route are generating more than 10% ROI from their composite application implementations, while 55% of Enterprise SOA organizations are getting double-digit payback (Figure 6)."
+42050,figure_reference,**Figure 6: Approaches to SOA and ROI Generated from Composite Applications**
+42493,percentage_stat,"Not surprisingly, 71% of companies using SOA ERP are manufacturers, which are more likely to use ERP software to help run their businesses."
+42819,dollar_stat,"The survey’s response pool was close to evenly distributed by company size, but the story lines between the three groups (large company: at least $1 billion in annual revenue; mid-size: $50 million to $1 billion; small: up to $50 million) reveal some interesting differences."
+43113,percentage_stat,"Half of large companies take the Enterprise SOA approach while 53% of small organizations prefer SOA Lite, which is not a surprise given the resource constraints that are endemic among small companies."
+43319,percentage_stat,"Nearly two-thirds (64%) of large companies cite a **need for faster implementations** as a key IT business driver in building composite applications, compared with 45% of mid-size enterprises and 47% of small organizations."
+43547,percentage_stat,"While only 32% of companies are building composite applications to **extend the life of their legacy applications and assets** , 48% of mid-market companies cited this, an indication that most are reluctant to invest more than they have to in upgrading their infrastructures."
+43827,figure_reference,Most large and mid-size organizations have implemented or are planning to install **enterprise service bus (ESB)** middleware (Figure 7).
+43967,figure_reference,**Figure 7: Organizations Investing in Enterprise Service Bus (ESB) Middleware**
+44510,best_in_class,"To become even better, Best in Class organizations must build the experience level of their IT staff through training and via the expertise of services partners."
+45315,best_in_class,"Indeed, Best in Class organizations recognize this, which is why they are more likely to target composite application development at supply chain and customerfacing functions."
+46881,key_finding,"**Invest in the development tools needed for the long term.** One key finding is that the design, software development, testing, quality assurance, and deployment technology and methods that worked with earlier application development methodologies are not optimized for composite application development."
+47342,best_in_class;percentage_stat,"the Best in Class companies, 65% of which are buying new composite applicationrelated technology _within the next six months_ ."
+47619,best_in_class,## **Best in Class Next Steps**
+48098,best_in_class,The Best in Class adhere to this more than the Industry Average and Laggard organizations.
+48659,best_in_class,Best in Class organizations were the least likely of the three Competitive Framework groups to bring in outside help to enhance internal composite application development skills.
+49297,best_in_class,"Industry Average companies take, on average, about twice as long as the Best in Class to complete a composite application project."
+49737,best_in_class,"Unlike Best in Class firms represented in the Aberdeen survey, Industry Average and Laggard companies are more likely to develop composite applications for many business processes."
+50786,percentage_stat,Only 16% of Laggard companies say they have multiple project experience.
+51086,percentage_stat,Interesting statistics from the survey: 65% of Laggards said implementing composite applications required more technical education or support than they had planned.
+51285,percentage_stat,"Alarmingly, 39% of Laggard organizations said challenges in their composite application work slowed their SOA implementation efforts."
+51827,best_in_class,Most Best in Class and Industry Average companies cited higher user satisfaction and quicker enterprise reaction to competitive pressures as benefits from composite application development.
+55509,best_in_class,"The key performance indicators (KPIs) that separated leading, or Best in Class, companies from others in composite application development."
+56512,percentage_stat,"High technology and software manufacturers represented 19% of the sample, followed by finance/banking/accounting (9%); public sector organizations (9%); transportation/logistics (8%); computer equipment and peripherals (6%); insurance, real estate and legal services (5%); industrial equipment manufacturing (4%); and retail(4%)."
+57513,percentage_stat;dollar_stat,_**Company size** :_ About 34% of respondents were from large enterprises (annual revenues above US$1 billion); 32% were from midsize enterprises (annual revenues
+57823,percentage_stat;dollar_stat,between $50 million and $1 billion); and 34% of respondents were from small businesses (annual revenues of $50 million or less).

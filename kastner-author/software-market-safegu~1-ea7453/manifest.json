@@ -1,0 +1,123 @@
+{
+  "mode": "existing",
+  "slug": "software-market-safegu~1-ea7453",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Safaguard CS rdbms.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/software-market-safegu~1-ea7453/source/original.pdf",
+  "pdf_sha256": "8210c5b70f1967cdf6a72eab282cc83da3fb5b5774b447a42bc94928167f4b5b",
+  "pdf_size_bytes": 67418,
+  "pdf_page_count": 8,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 8,
+    "filename": "safaguard cs rdbms.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=8, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:53:03.855230+00:00",
+  "extracted_title": "Software Market Dynamics",
+  "title_source": "page1",
+  "matched_study_id": "software-market-safegu~1-ea7453",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "software-market-safegu~1-ea7453",
+      "title": "Software Market Dynamics",
+      "relative_path": "kastner-author/software-market-safegu~1-ea7453",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/software-market-safegu~1-ea7453",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2003-peoplesoft-gains-crm-market-momentum-b4b610",
+      "title": "PeopleSoft Gains CRM Market Momentum",
+      "relative_path": "other-authors/2003-peoplesoft-gains-crm-market-momentum-b4b610",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/2003-peoplesoft-gains-crm-market-momentum-b4b610",
+      "lev_ratio": 0.5333,
+      "token_ratio": 0.1429,
+      "combined_score": 0.3771,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "inforx95-3-9a45fe",
+      "title": "Informix Software Overview",
+      "relative_path": "kastner-author/inforx95-3-9a45fe",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe",
+      "lev_ratio": 0.44,
+      "token_ratio": 0.2,
+      "combined_score": 0.344,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/software-market-safegu~1-ea7453/working/extracted_v20.md",
+      "md_chars": 3469,
+      "md_lines": 123,
+      "elapsed_sec": 0.48
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 8,
+      "filename": "safaguard cs rdbms.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=8, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/software-market-safegu~1-ea7453/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Microsoft",
+          3
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ],
+        [
+          "Novell",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

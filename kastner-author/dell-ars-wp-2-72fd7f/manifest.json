@@ -1,0 +1,123 @@
+{
+  "mode": "existing",
+  "slug": "dell-ars-wp-2-72fd7f",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2004 Dell Asset Recovery Services_ Remove, Recycle, or Resell PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dell-ars-wp-2-72fd7f/source/original.pdf",
+  "pdf_sha256": "65c0b8235568c75704a3999b2e8bad8bcc953dd08eb49ee5a6b11ee594c66d37",
+  "pdf_size_bytes": 178830,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2004 dell asset recovery services_ remove, recycle, or resell psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:20.076319+00:00",
+  "extracted_title": "White Paper: Dell Asset Recovery Services: Remove, Recycle, or Resell",
+  "title_source": "page1",
+  "matched_study_id": "dell-ars-wp-2-72fd7f",
+  "match_score": 0.7781,
+  "match_candidates": [
+    {
+      "study_id": "dell-ars-wp-2-72fd7f",
+      "title": "Dell Asset Recovery Services: Remove, Recycle, or Resell \u2014 An Executive White Paper",
+      "relative_path": "kastner-author/dell-ars-wp-2-72fd7f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dell-ars-wp-2-72fd7f",
+      "lev_ratio": 0.7413,
+      "token_ratio": 0.8333,
+      "combined_score": 0.7781,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2003-dell-ars-white-paper-53d13d",
+      "title": "Dell Asset Recovery Services: An Effective Solution to a Very Real Problem",
+      "relative_path": "kastner-author/2003-dell-ars-white-paper-53d13d",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2003-dell-ars-white-paper-53d13d",
+      "lev_ratio": 0.5652,
+      "token_ratio": 0.2222,
+      "combined_score": 0.428,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2003-dell-asset-recovery-services-white--142827",
+      "title": "Dell Asset Recovery Services: a Trustworthy Partner for Eliminating Aging IT Assets",
+      "relative_path": "kastner-author/2003-dell-asset-recovery-services-white--142827",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2003-dell-asset-recovery-services-white--142827",
+      "lev_ratio": 0.517,
+      "token_ratio": 0.2222,
+      "combined_score": 0.3991,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dell-ars-wp-2-72fd7f/working/extracted_v20.md",
+      "md_chars": 2751,
+      "md_lines": 57,
+      "elapsed_sec": 0.21
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2004 dell asset recovery services_ remove, recycle, or resell psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 4,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dell-ars-wp-2-72fd7f/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Dell",
+          2
+        ],
+        [
+          "Dell Computer Corporation",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

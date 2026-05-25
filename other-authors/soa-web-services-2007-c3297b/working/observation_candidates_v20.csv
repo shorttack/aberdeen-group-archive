@@ -1,0 +1,100 @@
+char_offset,trigger_labels,sentence
+1263,best_in_class,"More importantly, Best-in-Class companies are increasing the involvement of business users in all phases of the development lifecycle, and view quality not as something that’s done at the end of the cycle, but as a horizontal attribute that spans multiple business processes."
+1541,best_in_class,## **Best-in-Class Performance**
+1576,best_in_class,"For this report, Aberdeen used four primary performance criteria to distinguish Best-in-Class companies from Industry Average and Laggard organizations:"
+1782,best_in_class,**94%** of the Best-in-Class reported an increase in software quality
+1856,best_in_class,**Number of defects discovered in production code: 61%** of the Best-in-Class recorded fewer defects
+2001,best_in_class,**57%** of the Best-in-Class saw reduced time to repair
+2110,best_in_class,**70%** of the Best-in-Class said maintainability had improved
+2756,best_in_class,Typical Best-in-Class organizations:
+3584,best_in_class,"Best-in-Class organizations track both business requirements and quality across the entire enterprise, not on a service-by-service basis."
+4055,best_in_class,**Improve visibility of deployed services.** Best-in-Class organizations are using monitoring and reporting tools on their production systems to give them a better understanding of what is going wrong – and also going right – in their deployed software.
+9506,best_in_class,## **Chapter One: Benchmarking the Best-in-Class**
+10291,best_in_class,√ **94%** of Best-in-Class organizations report an increase in the quality of deployed services
+10391,best_in_class,√ **61%** of Best-in-Class companies saw a reduction in the number of defects discovered in production
+10498,best_in_class,√ **57%** of Best-in-Class reported a decrease in the time required to repair defects
+10665,best_in_class,"In analyzing the data, four primary performance criteria were used to distinguish Best-in-Class companies from Industry Average and Laggard organizations:"
+11013,best_in_class,"With the Best-in-Class companies identified, they were then compared to the Industry Average and Laggard organizations (Table 1) in a number of key areas."
+11170,best_in_class,## **Table 1: Companies with Top Performance Earn Best-in-Class Status**
+11245,best_in_class,"|**Definition of**<br>**Maturity Class**|**Mean Class Performance**|
+|---|---|
+|**Best-in-Class:**<br> <br>**Top 20%**of aggregate<br>performance scorers|• **61%**saw a reduction in the number of defects<br>discovered in production<br>• **57%**reported a decrease in the mean time to<br>repair defects<br>• **71%**saw an increase in code test coverage<br>• **94%**reported an increase in the quality of<br>deployed software|"
+12708,best_in_class,The Best-in-Class organizations profiled in this report have attacked the problem from multiple angles.
+12812,figure_reference,"It isn’t enough to just deploy automation, and it isn’t enough to simply rely on functional tests – **QA for composite applications needs a horizontal, process-oriented view, not the vertical unit-test methods used in the past** (Figure 1)."
+13238,best_in_class,The typical Best-in-Class company:
+13444,best_in_class;figure_reference,**Figure 1: Best-in-Class Keys to Success for Quality**
+13557,best_in_class,"**----- Start of picture text -----**<br>
+Business users 26% Best-in-Class<br>All Others<br>involved 19%<br>Automated tools 57%<br>for testing 35%<br>Quality managed<br>81%<br>throughout<br>63%<br>lifecycle<br>0% 20% 40% 60% 80% 100%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+14611,figure_reference,"Reducing the number of defects is important, but it isn’t the top reason that most companies are looking to improve their performance in testing SOA and web services applications (Figure 2)."
+14856,percentage_stat,Only 22% of all companies surveyed indicated that reducing the cost of testing was a key driver.
+14955,figure_reference,**Figure 2: Top Drivers for Focusing on QA**
+15057,best_in_class,"**----- Start of picture text -----**<br>
+Decrease time 55%<br>to deliver 56%<br>Reduce<br>60%<br>number of<br>52%<br>defects<br>Reduce risk of<br>28% Best-in-Class<br>deploying new<br>43% All Others<br>components<br>0% 20% 40% 60% 80%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+15408,figure_reference,Roughly one-third of respondents to this study indicated that they had not made significant changes to their QA processes (Figure 3).
+15669,figure_reference,**Figure 3: Changes to Key QA Processes**
+15768,best_in_class,"**----- Start of picture text -----**<br>
+QA has been completely 20% Best in Class<br>redesigned 7% All Others<br>Process changed project-by- 51%<br>project 65%<br>Testing SOA and w eb services<br>62%<br>differently for traditional<br>54%<br>softw are<br>0% 20% 40% 60% 80%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+16333,best_in_class,"Best-in-Class companies, however, are almost **three times as likely** as Industry Average and Laggard organizations to have redesigned their entire testing process."
+16499,best_in_class,The Best-in-Class organizations have made the commitment to services-based applications and have retooled their key processes to reflect their new direction.
+17060,best_in_class;percentage_stat,"For example, 45% of Best-in-Class companies use tools for tracking business requirements, compared to 35% of the Industry Average and Laggard organizations."
+17700,best_in_class,## **The Best-in-Class PACE Model**
+17738,best_in_class;percentage_stat,Aberdeen uses the **PACE** model to profile the top performing 20% of companies – the Best-in-Class – in four areas:
+18299,best_in_class,Table 2 shows the PACE profile of the Best-in-Class companies used for this report.
+18593,best_in_class,**Table 2: The Best-in-Class PACE Framework**
+20391,percentage_stat,"Regression testing is done by only 39% of Laggard organizations, so the risk for them is quite real."
+20494,best_in_class,Best-in-Class companies tend to be further along the maturity curve and have learned the lessons of untested software.
+21247,best_in_class,Best-in-Class IT organizations are changing their QA processes to encompass composite applications.
+22228,best_in_class,√ Best-in-Class companies are **twice as likely** to use automated requirementstracking tools than Laggard organizations
+22353,best_in_class,"√ **70%** of Best-in-Class firms measure quality throughout the project lifecycle, not just in testing"
+22460,average_stat,√ **Nearly half (47%)** of Bestin-Class companies use design-time governance to promote reuse of software components versus an average of 33% for other organizations
+23261,best_in_class,"The aggregated performance of surveyed companies determined whether they ranked as Best-in-Class, Industry Average, or Laggard."
+24028,best_in_class,These characteristics (Table 3) serve as a guideline for best practices and correlate directly with Best-in-Class performance across the key metrics.
+26311,best_in_class,"The top challenge cited by Best-in-Class companies related to SOA and services testing was incomplete technical specifications, while the second"
+26691,best_in_class;figure_reference,"Time budgeted for QA is not an issue for the Best-in-Class, but it is the top concern of the Industry Average (Figure 4)."
+26815,figure_reference,**Figure 4: Top Challenges in QA**
+26907,best_in_class,"**----- Start of picture text -----**<br>
+Incomplete 47%<br>technical 41%<br>specifications 45%<br>QA tools not 38%<br>designed for SOA 33%<br>or w eb services 32%<br>23% Best-in-Class<br>Not enough time<br>42% Industry Average<br>alloted for testing 32% Laggard<br>0% 10% 20% 30% 40% 50%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+27299,best_in_class,One of the key differentiators of the Best-in-Class is that they place a heavy emphasis on the business view of testing.
+27851,best_in_class;figure_reference,"Best-in-Class companies use automation to manage those requirements across the entire lifecycle of a project, not just during the design phase (Figure 5)."
+28191,best_in_class;figure_reference,**Figure 5: Requirements-Based Testing Differentiates Best-in-Class Companies**
+28328,best_in_class,"**----- Start of picture text -----**<br>
+Automation used 38% Best-in-Class<br>to track business 28% Industry Average<br>requirements 21% Laggard<br>Requirements<br>81%<br>managed<br>72%<br>throughout the<br>54%<br>project lifecycle<br>0% 20% 40% 60% 80% 100%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+28904,best_in_class;figure_reference,One way that Best-in-Class companies drive up the quality of deployed services is by reusing tried and tested components (Figure 6).
+29571,figure_reference,**Figure 6: Using Governance to Drive Reusability**
+29680,best_in_class,"**----- Start of picture text -----**<br>
+60%<br>49%<br>50%<br>36%<br>40%<br>30%<br>15%<br>20%<br>10%<br>0%<br>Best-in-Class Industry Average Laggard<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+29939,best_in_class;figure_reference,Best-in-Class companies rely more heavily on dedicated QA resources than do the other groups (Figure 7).
+30186,figure_reference,**Figure 7: Software Testing Roles**
+30280,best_in_class,"**----- Start of picture text -----**<br>
+93%<br>QA testers 79%<br>70%<br>44%<br>Developers 53%<br>45%<br>24%<br>End users 37%<br>36%<br>External beta 18% Best-in-Class<br>testers 5% 17% Industry AverageLaggard<br>0% 20% 40% 60% 80% 100%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+31076,best_in_class;percentage_stat,"Interestingly, when asked if organizations test SOA and web services components outside of the company, 40% of all respondents (although only 32% of Best-in-Class) said that they did."
+31427,figure_reference,Training in SOA and web services technologies is an area in which Best-inClass companies show a significant advantage (Figure 8).
+31904,figure_reference,## **Figure 8: Training is an Indicator of Maturity**
+32165,best_in_class,"**----- Start of picture text -----**<br>
+Key developers,  business analysts, and testers are<br>trained in SOA and w eb services technology<br>70%<br>60%<br>60%<br>50%<br>40% 35% 36%<br>30%<br>20%<br>10%<br>0%<br>Best-in-Class Industry Average Laggard<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+32574,best_in_class,"While Best-in-Class companies are twice as likely to have already trained their workers, both the Industry Average (57%) and Laggard (48%) companies plan to take this step in the next twelve months."
+32797,best_in_class;figure_reference,Automated testing tools are a key differentiator for Best-in-Class (Figure 9).
+33516,best_in_class,"While Best-in-Class companies are 50% more likely to do regression testing than Laggards (64% versus 38%), all of the groups are performing compliance (30%), orchestration (25%), and security testing (41%) at alarmingly low rates."
+33747,best_in_class,Fifty percent of the Best-in-Class are executing performance tests.
+33817,figure_reference,**Figure 9: Technical Approaches to SOA and Web Services QA**
+33936,best_in_class,"**----- Start of picture text -----**<br>
+Monitoring / reporting tools in 60%<br>50%<br>production 45%<br>Automated tools for SOA and 48%<br>42%<br>w eb services functional test 29%<br>Orchestration / integration test 40%<br>27%<br>tools 19%<br>24% Best-in-Class<br>Automated tools for extracting<br>18% Industry Average<br>business logic / data 13% Laggard<br>0% 20% 40% 60% 80%<br>Source: Aberdeen Group, August 2007<br>**----- End of picture text -----**<br>"
+35875,best_in_class;figure_reference,Best-in-Class companies are much more likely to measure the quality of a web service or SOA component across the entire development lifecycle – from the definition of business requirements to deployment and maintenance (Figure 10).
+36784,best_in_class;percentage_stat,"In support of this, the Best-in-Class are increasing their budget for quality at a faster pace than all other respondents: 66% of the Best-in-Class indicated that they have increased their spending on QA per project versus 50% of the Industry Average and 14% of Laggards."
+37058,best_in_class;figure_reference,## **Figure 10: The Best-in-Class Focus on Quality Across the Entire Lifecycle**
+37196,best_in_class,"**----- Start of picture text -----**<br>
+80% 70%<br>70%<br>58%<br>60%<br>49%<br>50%<br>40%<br>30%<br>20%<br>10%<br>0%<br>Best-in-Class Industry Average Laggard<br>**----- End of picture text -----**<br>"
+37689,best_in_class,"Based on the information in Chapters One and Two, readers should determine whether their organizations fall into the “Laggard,” “Industry Average,” or “Best-in-Class” category."
+37866,best_in_class,The key to gaining value from this report is moving your organization along the maturity path to Best-in-Class.
+38251,best_in_class,The Best-in-Class are using integration testing tools at double the rate of Laggard companies.
+38350,best_in_class,**Build a culture of quality.** Best-in-Class companies treat quality as an end-to-end process rather than as the last step in the software lifecycle.
+38681,best_in_class,√ **94%** of the Best-in-Class reported an increase in software quality
+38760,best_in_class,√ **61%** of the Best-in-Class recorded fewer defects
+38821,best_in_class,√ **57%** of the Best-in-Class saw reduced time to repair
+38886,best_in_class,√ **70%** of the Best-in-Class said maintainability had improved
+38955,best_in_class,**Automate.** The Best-in-Class are leveraging automated testing tools at double the rate of Laggards (57% versus 29%).
+39514,best_in_class,"Best-in-Class organizations track both business requirements and quality across the enterprise, not on a service-byservice basis."
+40070,best_in_class,**Improve visibility of deployed services.** Best-in-Class organizations are using monitoring and reporting tools on their production systems to give them a better understanding of what is going wrong – and what is also going right – in their applications.
+40537,best_in_class,## **Best-in-Class Steps to Success**
+43947,percentage_stat,_**Industry** :_ The research sample included respondents predominantly from high-technology industries and companies (representing 34% of the sample).
+44439,percentage_stat;dollar_stat,"_**Company size** :_ Thirty two percent of respondents were from large enterprises (annual revenues above US$1 billion, including 19% over US$5 billion); 31% were from midsize enterprises (annual revenues between $50 million and $1 billion); and 37% of respondents were from small businesses (annual revenues of $50 million or less)."

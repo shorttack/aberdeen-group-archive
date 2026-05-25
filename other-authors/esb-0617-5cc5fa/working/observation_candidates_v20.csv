@@ -1,0 +1,79 @@
+char_offset,trigger_labels,sentence
+1553,percentage_stat,"The overall adoption rate of SOA technology is very robust, with 90% of survey respondents saying they will exit 2006 with experience in SOA planning, design, and/or programming under their belts."
+1979,percentage_stat,Almost 80% of small companies have no immediate plans to start SOA programming.
+2445,dollar_stat,Enterprise SOA today is synonymous with large enterprises of over $1 billion.
+5121,figure_reference,Figure 1 shows primary SOA vendor and primary ESB choices for installed products:
+5925,best_in_class,"Using Aberdeen’s PACE framework, the overall survey group is driven to deploy ESBs and SOA technology by management of IT complexity and the need to speed IT implementations, while Best-in-Class (BIC) organizations are driven by the needs to align with the business and to re-use applications via Web services."
+7563,percentage_stat,"Thus, ESB servers in our survey alone are driving about 0.15 to 0.25% of the 4 million servers we project 2006."
+13172,figure_reference,Figure 1: Field Service Practices Are a Prime Determinant of Business Performance ...................................... **Error!
+15441,best_in_class;percentage_stat,"The differences in application software Tmaintenance costs, which include process-based IT changes, are over 11% of the IT budget between best-in-class and average organizations."
+15621,best_in_class;dollar_stat,"Given $1.3 trillion in global enterprise IT spending in 2006, the business value on the table is an eye-popping $143 billion a year, so a modest and achievable one-sixth improvement by average and laggard enterprises towards the best-in-class results in $23.4 billion a year in business value."
+16326,percentage_stat,"For example, in _Achieving More Value from Enterprise Applications_ , between 40% and 50% of respondents said that redesigning business processes, high related integration costs, and customization-related IT challenges were major application integration stumbling blocks."
+16689,figure_reference,"The data in Figure 1 also typify the responses we received in research documented in _SOA in the Supply Chain, SOA in IT,_ and _The Product Quality Benchmark_ of manufacturers."
+17040,best_in_class;percentage_stat,"Based on the huge 11% of IT budget gap between process- and technology-disciplined Best-in-Class organizations and Industry Norm organizations, the issue should be high on the executive agenda."
+18107,figure_reference,**Figure 1: Application Integration Stumbling Blocks**
+19265,figure_reference,Figure 2 shows the factors driving adoption of ESB and SOA middleware technology.
+19622,best_in_class;percentage_stat,"However, the 20% of respondents rated Best-in-Class in Aberdeen’s competitive framework are focused on aligning with the business and reusing existing applications as Web services ."
+19977,figure_reference,**Figure 2: ESB Adoption Drivers (Multiple Choice)**
+20567,figure_reference,Figure 3 illustrates the percentage of survey participants who had deployed specific SOA technologies.
+21049,figure_reference,**Figure 3: SOA Middleware Presently Deployed**
+22159,percentage_stat,"By the end of 2006, the 90% of"
+22271,figure_reference,**Figure 3: Actions Undertaken (Multiple Choice)**
+22971,figure_reference,Figure 3 depicts the actions undertaken in response to the drivers shown in Figure 2.
+23293,figure_reference,"Importantly, the adoption of SOA is hardly cautious: half the BIC and a third of the overall sample in Figure 3 plan on undertaking four or more major application integration projects in 2006."
+23926,figure_reference,"The most common approach to development and deployment is to use a cross-functional team of SOA architects, systems programmers, programmers, and business process analysts (Figure 4)."
+24620,figure_reference,**Figure 4: Organizational and Services Strategies**
+25474,figure_reference,"Over half the overall survey group and two-thirds of the BIC group are using Java as the target framework for their SOA development (Figure 5), compared to only ten percent dedicated to Microsoft’s .Net framework."
+26810,figure_reference,**Figure 5: SOA Target Frameworks**
+27235,figure_reference,"ESB technology is being ignored by nearly half the survey, setting those companies towards an _SOA Lite_ direction (Figure 6)."
+27949,figure_reference,"Quite the opposite, as illustrated in Figure 7."
+28518,figure_reference,**Figure 6: Other Technologies Considered in ESB Selection**
+29067,figure_reference,**Figure 7: Primary ESB and Primary SOA Vendor (Multiple Choice)**
+29803,dollar_stat,The vast majority of companies implementing an ESB are above $500 million in revenue.
+29889,figure_reference,Figure 8 illustrates the major challenges respondents encountered.
+31451,figure_reference,**Figure 8: ESB Technology Stumbling Blocks (Multiple Choice)**
+33399,best_in_class,"Notably, those two metrics weigh heavily in Aberdeen’s calculations of which organizations are Best-in-Class."
+33948,best_in_class,"Best-in-class IT organizations have the right ISV software for functionality, at the current release, with a strong process for managing customizations by ROI."
+34112,best_in_class,"Best-in-class IT organizations have the right ISV software for functionality, at the current release, with a strong process for managing customizations by ROI."
+34276,best_in_class,• Best-in-class IT organizations have overcome the significant problems of integration. • Best-in-class IT organizations have in-house competency to perform LOB integration requests and keep the infrastructure up to date.
+34505,best_in_class,"In best-in-class IT organizations, IT process maturity leads to lower integration and maintenance costs and frees up considerable capital for LOB innovation."
+34667,best_in_class,"s shown in Table 1, survey respondents fell into one of three segments – Laggard, Industry Average, or Best in Class based on Aberdeen’s model for IT"
+35650,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Process**|Recent adopter of<br>modern applications.<br>Little experience in<br>integration."
+36583,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Technical**<br>**Maturity**|No plans for SOA."
+40537,percentage_stat,Over 80% of BIC will buy an ESB based on ROI across multiple projects; BIC are buying SOA infrastructure with a goal of cross-company deployment while Average and Laggard are still focused on individual project-based ROI.
+44031,figure_reference,Companies are overcoming challenges with responses that differ by company size as measured by revenue (Figure 9) with responses (Figure 10).
+44174,dollar_stat,## _**Small Companies with less than US$50 Million in Revenue**_
+44740,dollar_stat,"More than larger companies, those under $50 million will look to the ESB as the backbone for ESB integration."
+45323,figure_reference,## **Figure 9 – Challenges and Responses by Company Size**
+45905,dollar_stat,## _**Medium Companies with $50M to $1B in Revenues**_
+46107,figure_reference,"Figure 9 shows a variety of challenges, with creating composite applications with Web services being the most frequent response to the challenges."
+47019,dollar_stat,## _**Large Companies with Revenues Exceeding $1B**_
+47074,percentage_stat,"Over 40% of large companies have more than a year’s experience in SOA planning, design, and programming."
+48440,figure_reference,**Figure 10 – Challenges and Responses by Company Size**
+54284,figure_reference,The business challenges faced by organizations vary by vertical industry sector. (Figure 6):
+55210,figure_reference,**Figure 6: Top Challenges by Vertical Sector**
+58409,best_in_class,"Integration competency is a hallmark of best-in-class organizations, as is organizational discipline."
+58642,best_in_class,A hallmark of best-in-class organizations is the lack of significant application issues.
+58951,best_in_class,## **Best in Class Next Steps**
+65464,percentage_stat,"Automotive manufacturers represented 22% of the sample, followed closely by high-tech manufacturers, which accounted for 20% of respondents."
+65605,percentage_stat,Manufacturers of metals and metal products (including industrial equipment) totaled 16% of respondents.
+65709,percentage_stat,Aerospace and defense manufacturers accounted for 10% of the sample.
+65910,dollar_stat,"|•<br>**_Geography_**_:_|•<br>**_Geography_**_:_||
+|---|---|---|
+|North America (Includes USA, Canada,||55%|
+|Mexico)|||
+|Europe||23%|
+|Asia/Pacific||8%|
+|Middle East, Africa||7%|
+|South/Central America and Caribbean||6%|
+|•<br>**_Company size_**_:_|||
+|Less than $50 Million|31%||
+|$50M to $249M|20%||
+|$250M to 499M|17%||
+|$500M to $999M|10%||
+|$1 billion to $5 billion|17%||
+|More than $5 billion|4%||"

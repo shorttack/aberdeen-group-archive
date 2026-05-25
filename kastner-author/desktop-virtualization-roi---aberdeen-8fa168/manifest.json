@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "desktop-virtualization-roi---aberdeen-8fa168",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/desktop virtualization ROI - Aberdeen.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/desktop-virtualization-roi---aberdeen-8fa168/source/original.pdf",
+  "pdf_sha256": "52bc485ef304ffb42674a6880c947bfbba74c51ff62bd8378e0bcee382a64a8d",
+  "pdf_size_bytes": 716271,
+  "pdf_page_count": 12,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 12,
+    "filename": "desktop virtualization roi - aberdeen.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=12, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:53:14.556769+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "desktop-virtualization-roi---aberdeen-8fa168",
+  "match_score": 0.95,
+  "match_candidates": [
+    {
+      "study_id": "desktop-virtualization-roi---aberdeen-8fa168",
+      "title": "Measuring the Returns from a Desktop Virtualization Program",
+      "relative_path": "kastner-author/desktop-virtualization-roi---aberdeen-8fa168",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/desktop-virtualization-roi---aberdeen-8fa168",
+      "lev_ratio": 0.95,
+      "token_ratio": 1.0,
+      "combined_score": 0.95,
+      "match_via": "slug_tokens",
+      "matched_stem": "desktop-virtualization-roi---aberdeen"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/desktop-virtualization-roi---aberdeen-8fa168/working/extracted_v20.md",
+      "md_chars": 31881,
+      "md_lines": 417,
+      "elapsed_sec": 1.69
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 12,
+      "filename": "desktop virtualization roi - aberdeen.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=12, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/desktop-virtualization-roi---aberdeen-8fa168/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          30
+        ],
+        [
+          "Harte-Hanks",
+          4
+        ],
+        [
+          "Dick Csaplar",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

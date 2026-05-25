@@ -1,0 +1,12 @@
+char_offset,trigger_labels,sentence
+929,dollar_stat,"» **Entry price $85,000 (290), $155,000 (490), $351,000 (790)**"
+1106,dollar_stat,"» **Entry price $171,100 (SE20), $469,800 (SE60)**"
+1164,dollar_stat,"» **Fully configured $1,030,400 SE20), $2,625,700 (SE60)**"
+1472,dollar_stat,"**Entry prices $13,200 (500), $29,900 (1000), $39,300 (1500), $79,100 (3000), $246,900 (5000)**"
+1606,best_in_class,"N **Open systems (early into high-end Unix)** N **Open-system scalability (SMP, clustering, RDBMS parallelism, broad product/performance range)** N **Development relationships with Oracle, Informix (parallelism 6-month exclusive on Informix DSA)** N **Best-in-class SMP parallelism (up to 30 SMP processors)**"
+2366,dollar_stat,**Under-$500-million size**
+2482,dollar_stat,N **Annual Sales:  $354 million fiscal ‘93**
+3393,dollar_stat,"**Entry price $14,490 (5500), $40,995 (8500), $79,995 (9500)**"
+3463,dollar_stat,"» **5500 130.9 tps-A, $5,780 $/tps-A**"
+3509,dollar_stat,"» **9500 523.64 tps-A, $5,357 tps-A**"
+4188,dollar_stat,N **Annual Sales:  $1 billion fiscal ‘93**

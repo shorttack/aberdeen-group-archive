@@ -10,14 +10,16 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 | Metric | Count |
 |---|---:|
-| Total studies | **944** |
-| Total observations | **19,382** |
-| Master entity rows | **9,401** |
-| Master technology rows | **7,668** |
-| Unique entities (deduped cache) | **3,281** |
-| Unique technologies (deduped cache) | **4,277** |
+| Total studies | **1,434** |
+| Total observations | **23,605** |
+| Master entity rows | **3,207** |
+| Master technology rows | **4,312** |
+| Unique entities (deduped cache) | **3,300** |
+| Unique technologies (deduped cache) | **4,371** |
 | Date range | 1979 – 2026 |
 | Audit failures (Layer A / B / C) | **0 / 0 / 0** |
+
+**v1.4 release notes:** This release adds **490 new studies** from the May 2026 weekend ingest, including five bucket-classifier passes (A–E) and Mode 2 (existing-archive re-evaluation). It also lands two data-hygiene fixes: a case-collision merge across the entity master and a `tech_id="java"` carve-out that resolved a PDA-misfile collision (see [`CHANGELOG.md`](./CHANGELOG.md) and [`_decisions_log.md`](./_decisions_log.md)). New: a companion **Kastner Aberdeen Wiki** (Obsidian + DuckDB + Parquet) built directly from these masters — see "Companion wiki" below.
 
 ---
 
@@ -27,20 +29,32 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 
 ### Key reading paths
 
-- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core), including the SOA / BPM / EII / outsourcing series of 2003–2007; 54 studies, 1,272 observations.
-- **`kastner-author/employer/DEC/`** — Digital Equipment Corporation engineering, competitive-marketing, and OLTP/Debit-Credit performance memos (1986–1989); 5 studies, 153 observations.
-- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; 12 studies, 94 observations.
-- **`kastner-author/employer/prime-computer/`** — Prime Computer Market Planning era (1979–1981), built around the July 15, 1981 *Industry Product Requirements Plan* — the principal surviving Kastner-authored five-year strategic plan covering all Prime vertical markets, seven System Use Categories, and the 1981 product-gap priority list against DEC VAX; 1 study, 45 observations.
-- **`kastner-author/employer/arthur-d-little/`** — ADL consulting engagements (1972–1979), including 9-1-1 / CAD public-safety systems and the ASE/ASEP two-way power-line communications study; 3 studies, 71 observations.
-- **`kastner-author/employer/phi-computer-services/`** — PHI Computer Services (1969–1972) and the 1995 Wang Labs *Riding the Runaway Horse* retrospective; 2 studies, 59 observations.
-- **`kastner-author/employer/obian-group/`** — Obian Group consulting engagements; 1 study, 5 observations.
-- **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, 76 entries, 1,643 observations.
-- **`kastner-author/`** (top-level) — 212 studies that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts, the Top-100 Economic Calls ranking, and the Prescience Methodology Demo); 4,876 observations.
-- **`other-authors/`** — 487 studies authored by other Aberdeen analysts and outside writers; 8,301 observations.
-- **`Project Examples/`** — 45 client-engagement studies (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage; 1,281 observations.
-- **`aberdeen-group-inc/`** — Aberdeen Group corporate / about-the-company files; 29 studies, 673 observations.
-- **`Aberdeen Outbound Marketing/`** — Period marketing collateral as analyzable studies; 3 studies, 40 observations.
-- **`Kastner Memoir/`** — Volume 1 of *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence* (2026), split into 14 chapter-level study packages (Introduction + 10 chapters + Epilogue + About + Appendix); 14 studies, 1,242 observations covering 1960–2026.
+- **`kastner-author/employer/aberdeen-group/`** — Kastner's published Aberdeen Group analyst work (1988–2007 core), including the SOA / BPM / EII / outsourcing series of 2003–2007; **46 studies**.
+- **`kastner-author/employer/stratus-computer/`** — Stratus Computer marketing/sales-support era (1981–1985), including corporate overviews, fault-tolerant market analyses, the Stratus-Tandem competitive series, and Kastner's June 1983 IEEE *Database Engineering Bulletin* technical article on the Stratus/32 architecture; **13 studies**.
+- **`kastner-author/employer/DEC/`** — Digital Equipment Corporation engineering, competitive-marketing, and OLTP/Debit-Credit performance memos (1986–1989); **5 studies**.
+- **`kastner-author/employer/arthur-d-little/`** — ADL consulting engagements (1972–1979), including 9-1-1 / CAD public-safety systems and the ASE/ASEP two-way power-line communications study; **3 studies**.
+- **`kastner-author/employer/phi-computer-services/`** — PHI Computer Services (1969–1972) and the 1995 Wang Labs *Riding the Runaway Horse* retrospective; **2 studies**.
+- **`kastner-author/employer/prime-computer/`** — Prime Computer Market Planning era (1979–1981), built around the July 15, 1981 *Industry Product Requirements Plan* — the principal surviving Kastner-authored five-year strategic plan covering all Prime vertical markets, seven System Use Categories, and the 1981 product-gap priority list against DEC VAX; **1 study**.
+- **`kastner-author/employer/obian-group/`** — Obian Group consulting engagements; **1 study**.
+- **`kastner-author/dct/`** — Digital Consumer Technology (DCT) studies, **76 entries**.
+- **`kastner-author/`** (top-level) — **226 studies** that pre-date the employer-scoped reorganization or sit outside any single employer (memoirs, AI responses, technology topics, expert reports, video transcripts, the Top-100 Economic Calls ranking, and the Prescience Methodology Demo).
+- **`other-authors/`** — **487 studies** authored by other Aberdeen analysts and outside writers.
+- **`prepared/`** — **493 newly-ingested studies** from the May 2026 weekend bucket pass. These are fully registered in the masters and indexed in the companion wiki, but physically remain in this v1.4 staging directory pending classification into `kastner-author/`, `other-authors/`, or `employer/` subtrees. Promotion is tracked as a v1.5 backlog item.
+- **`Project Examples/`** — **45 client-engagement studies** (Maxtor Midline Storage RAMP, Sun AS/400 RAMP, the 2026 Kastner Technology Breadth Memoir, etc.) showing the full Aberdeen RAMP methodology in action and the meta-narrative of the archive's coverage.
+- **`aberdeen-group-inc/`** — Aberdeen Group corporate / about-the-company files; **29 studies**.
+- **`Aberdeen Outbound Marketing/`** — Period marketing collateral as analyzable studies; **3 studies**.
+- **`Kastner Memoir/`** — Volume 1 of *Arguments with Reality: Fifty Years in Computing, Consulting, and Consequence* (2026), split into 14 chapter-level study packages (Introduction + 10 chapters + Epilogue + About + Appendix); **14 studies**, 1,242 observations covering 1960–2026.
+
+### Companion wiki: Kastner Aberdeen Wiki
+
+A second-pass deliverable built directly from this archive's master CSVs.
+
+- **Format**: Obsidian vault + DuckDB query layer + Parquet exports + nomic-embed embedding index.
+- **Pages**: **8,960** — 1,434 study pages, 3,207 entity pages, 4,313 tech pages, plus index/dashboard pages.
+- **Cross-linking**: Every study page emits `[[entity-slug]]` and `[[tech-slug]]` wikilinks (3,682 study→entity links and 5,253 study→technology links), powering Dataview reverse-lookups on every entity and technology page.
+- **Local-first**: Lives at `kastner_wiki/` in the parent archive directory; opens in Obsidian, queryable from DuckDB, browsable from Python/pandas via the Parquet exports.
+- **Builder skill**: `kastner-wiki-builder` (custom user skill).
+- **Backup**: `kastner_wiki_backup_v1.4_<timestamp>.tar.gz` lives in the Archive root.
 
 ### Prescience ratings
 
@@ -48,11 +62,15 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 470 |
-| medium | 276 |
+| high | 471 |
+| medium | 271 |
 | low | 72 |
-| not-applicable | 125 |
+| not-applicable | 249 |
+| [DEFERRED] | 370 |
 | (unrated) | 1 |
+| [REVIEW] | (legacy flag — to be drained in v1.5) |
+
+The **`[DEFERRED]` bucket holds the 370 v1.4 ingest studies whose prescience scoring is queued for the Pass C scoring run** (post-v1.4 backlog item).
 
 ### Aberdeen Group Category Creator roster
 
@@ -82,49 +100,55 @@ photographs, etc.) remains the property of its respective rights holders.
 
 For academic / data-set citation, use [`CITATION.cff`](./CITATION.cff) or:
 
-> Kastner, Peter S. (2026). *Kastner IT Research Archive*, version 1.0.0.
+> Kastner, Peter S. (2026). *Kastner IT Research Archive*, version 1.4.0.
 > Licensed under CC-BY-4.0.
 
-Version history is in [`CHANGELOG.md`](./CHANGELOG.md).
+Version history is in [`CHANGELOG.md`](./CHANGELOG.md). Curatorial decisions and data-hygiene history are in [`_decisions_log.md`](./_decisions_log.md).
 
 ---
 
 ## For Data Engineers / Analysts
 
-### Top-level layout
+### Top-level layout (v1.4)
 
 ```
 aberdeen-group-archive/
-├── _master_studies.csv          #     944 rows — index of all studies
-├── _master_entities.csv         #   9,401 rows — per-study entity rows
-├── _master_technologies.csv     #   7,668 rows — per-study technology rows
-├── _master_observations.csv     #  19,382 rows — every observation
-├── _collection_stats.csv        #     944 rows — per-study counts and ratings
-├── _known_entities.csv          #   3,281 rows — deduped entity cache (root)
-├── _known_technologies.csv      #   4,277 rows — deduped technology cache (root)
-├── _web_cache.json              # Phase 3 web-verification cache (393 entities, 180 predictions, 456 techs)
+├── _master_studies.csv          #   1,434 rows — index of all studies
+├── _master_entities.csv         #   3,207 rows — per-study entity rows
+├── _master_technologies.csv     #   4,312 rows — per-study technology rows
+├── _master_observations.csv     #  23,605 rows — every observation
+├── _master_tech_studies.csv     # tech_id → study_id bridge
+├── _master_tech_field_conflicts.csv  # tech-field conflict audit
+├── _master_tech_canonicalization_TODO.csv  # tech_id canonicalization queue
+├── _collection_stats.csv        # per-study counts and ratings
+├── _known_entities.csv          #   3,300 rows — deduped entity cache (root)
+├── _known_technologies.csv      #   4,371 rows — deduped technology cache (root)
+├── _web_cache.json              # Phase 3 web-verification cache
 ├── _audits/                     # Referential-integrity audit reports
-├── _skills/                     # Frozen copy of the archival-ingest skill
-├── kastner-author/              # 366 studies authored by Peter S. Kastner
+├── _skills/                     # Frozen copy of the archival-ingest skill (v20)
+├── _decisions_log.md            # Curatorial decisions and data-hygiene history
+├── kastner-author/              # 372 studies authored by Peter S. Kastner
 │   ├── _known_entities.csv      # Collection-scoped cache
 │   ├── _known_technologies.csv
-│   ├── dct/                     # Digital Consumer Technology — 76 studies, 1,643 obs
+│   ├── dct/                     # Digital Consumer Technology — 76 studies
 │   ├── employer/                # Studies grouped by Kastner's employer at the time
-│   │   ├── aberdeen-group/          (54 studies, 1,272 obs)
-│   │   ├── stratus-computer/        (12 studies,    94 obs)
-│   │   ├── DEC/                     ( 5 studies,   153 obs)
-│   │   ├── arthur-d-little/         ( 3 studies,    71 obs)
-│   │   ├── phi-computer-services/   ( 2 studies,    59 obs)
-│   │   ├── prime-computer/          ( 1 study,     45 obs)
-│   │   └── obian-group/             ( 1 study,      5 obs)
-│   └── <study-slug>/                (212 top-level studies, 4,876 obs)
-├── other-authors/               # 487 studies by other authors (8,301 obs)
+│   │   ├── aberdeen-group/          (46 studies)
+│   │   ├── stratus-computer/        (13 studies)
+│   │   ├── DEC/                     ( 5 studies)
+│   │   ├── arthur-d-little/         ( 3 studies)
+│   │   ├── phi-computer-services/   ( 2 studies)
+│   │   ├── prime-computer/          ( 1 study)
+│   │   └── obian-group/             ( 1 study)
+│   └── <study-slug>/                (226 top-level studies)
+├── other-authors/               # 487 studies by other authors
 │   ├── _known_entities.csv
 │   ├── _known_technologies.csv
 │   └── <study-slug>/
-├── aberdeen-group-inc/          # Aberdeen Group corporate / about-the-company files (29 studies, 673 obs)
-├── Aberdeen Outbound Marketing/ # Period marketing collateral (3 studies, 40 obs)
-├── Project Examples/            # Sample / illustrative engagements (45 studies, 1,281 obs)
+├── prepared/                    # 493 newly-ingested studies — v1.4 staging directory
+│   └── <study-slug>/            #   awaiting promotion to kastner-author/, other-authors/, or employer/* in v1.5
+├── aberdeen-group-inc/          # Aberdeen Group corporate / about-the-company files (29 studies)
+├── Aberdeen Outbound Marketing/ # Period marketing collateral (3 studies)
+├── Project Examples/            # Sample / illustrative engagements (45 studies)
 └── Kastner Memoir/              # 'Arguments with Reality' Vol. 1 — 14 chapter packages (14 studies, 1,242 obs)
 ```
 
@@ -149,7 +173,7 @@ aberdeen-group-archive/
 
 ### Canonical CSV schemas
 
-**`studies.csv`** — 16 columns: `study_id, title, author, employer, date, type, era, importance, relevance, prescience, license, source_path, source_url, n_observations, n_entities, n_technologies`.
+**`studies.csv`** — 16 columns: `study_id, title, author, date, type, subject_domain, methodology, source_file, abstract, license, importance, importance_rationale, relevance, relevance_rationale, prescience, prescience_rationale`.
 
 **`entities.csv`** — 9 columns: `entity_id, entity_name, entity_type, sector, status, successor, years_active, study_id, notes`.
 
@@ -171,7 +195,7 @@ techs   = pd.read_csv("_known_technologies.csv")  # deduped
 
 # How many high-prescience studies per author/employer combo?
 (studies[studies.prescience == "high"]
-   .groupby(["author", "employer"])
+   .groupby("author")
    .size()
    .sort_values(ascending=False)
    .head(10))
@@ -181,8 +205,8 @@ techs   = pd.read_csv("_known_technologies.csv")  # deduped
     .groupby("entity_id").size()
     .sort_values(ascending=False).head(20))
 
-# All Kastner ADL-era studies
-adl = studies[studies.employer.str.contains("Arthur D. Little", na=False)]
+# All studies authored by Kastner
+kp = studies[studies.author.str.contains("Kastner", na=False)]
 ```
 
 ### Quickstart — DuckDB
@@ -219,9 +243,11 @@ con.sql("""
 """).show()
 ```
 
+For a fully pre-built DuckDB database and Parquet exports against these same masters, see the companion **Kastner Aberdeen Wiki** at `../kastner_wiki/`.
+
 ### Ingestion pipeline
 
-Studies are produced by the `archival-ingest` skill (currently v18) running on Perplexity Computer. The frozen skill source — including the assembler, validator, and supporting templates — is mirrored at `_skills/archival-ingest/`. The assembler invocation pattern:
+Studies are produced by the `archival-ingest` skill (currently **v20**) running on Perplexity Computer. The frozen skill source — including the assembler, validator, and supporting templates — is mirrored at `_skills/archival-ingest/`. The assembler invocation pattern:
 
 ```bash
 ASM=_skills/archival-ingest/scripts/assembler.py
@@ -236,4 +262,18 @@ After per-study cache updates, masters are regenerated by `_audits/` tooling and
 2. **Layer B** — §16 CSV write validation gate (no base64, correct quoting, schema-conformant headers).
 3. **Layer C** — cross-study cache integrity (no missing entries, no duplicate IDs).
 
-The current archive passes all three layers with 0 failures across all 944 audited studies.
+The current archive passes all three layers with 0 failures across all 1,434 audited studies.
+
+v20 of the ingest skill adds the **obs_id Universal Normalizer** (13-bucket classifier-driven repair of legacy observation IDs) and the **`legacy_obs_id` audit column** on `_master_observations.csv`.
+
+### v1.4 changes
+
+- **+490 studies** ingested from the May 2026 weekend bucket pass (modes 1–2; buckets A–E + existing).
+- **Case-collision merge** across `_known_entities.csv` and `_known_technologies.csv` (9-row dedupe).
+- **Java carve-out**: a misfiled `tech_id="java"` row in `_master_technologies.csv` carrying `tech_name="PDA (personal digital assistant)"` was merged into the canonical uppercase `tech_id="JAVA"` (Java Programming Language). 91 observation, tech_studies, conflicts, and known_technologies rows were re-pointed; the misfiled row was dropped. Pre-merge backup: `archive_masters_backup_pre_java_fix_<timestamp>.tar.gz` in the Archive root.
+- **Skill version bump**: `archival-ingest` v18 → v20 (adds obs_id Universal Normalizer and `legacy_obs_id` audit column).
+- **New companion wiki**: 8,960-page Obsidian vault + DuckDB + Parquet, built from the cleaned masters. See `../kastner_wiki/`.
+- **`prepared/` staging directory**: 493 v1.4 studies live here pending classification (a v1.5 promotion task).
+- **`[DEFERRED]` prescience flag**: 370 newly-ingested studies await Pass C prescience scoring (a v1.5 backlog item).
+
+Full curatorial decision history is in [`_decisions_log.md`](./_decisions_log.md).

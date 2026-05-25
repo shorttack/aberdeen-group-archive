@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2001 Upgrading to Windows XP_ A Long and Winding Road PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090/source/original.pdf",
+  "pdf_sha256": "beb3133ebb6dd6a8dbfd00780605011b349d1d30f0dd593e527042cbf95b22d6",
+  "pdf_size_bytes": 208449,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2001 upgrading to windows xp_ a long and winding road psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:31.813801+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+  "match_score": 0.9482,
+  "match_candidates": [
+    {
+      "study_id": "2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "title": "Upgrading to Windows XP: A Long and Winding Road",
+      "relative_path": "kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090",
+      "lev_ratio": 0.9482,
+      "token_ratio": 0.9482,
+      "combined_score": 0.9482,
+      "match_via": "slug_prefix",
+      "matched_stem": "2001-upgrading-to-windows-xp-a-long-and-winding-road-ps"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090/working/extracted_v20.md",
+      "md_chars": 2401,
+      "md_lines": 61,
+      "elapsed_sec": 0.22
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2001 upgrading to windows xp_ a long and winding road psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 8,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2001-upgrading-to-windows-xp-a-long-and-winding-road-ps-81e090/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Microsoft",
+          3
+        ],
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Hewlett-Packard",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

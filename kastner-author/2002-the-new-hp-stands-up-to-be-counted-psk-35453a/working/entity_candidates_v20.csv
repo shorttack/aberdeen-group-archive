@@ -1,0 +1,9 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+aberdeen-group,Aberdeen Group,firm,IT market analysis,2,"**  **==> picture [6 x 9] intentionally omitted <==**  ## **Aberdeen Group, 260 Franklin Street, Suite 1700, Boston, MA 02110**   All"
+hewlett-packard,Hewlett-Packard,company,technology hardware,2,"2002**   With Michael Capellas' resignation as president of Hewlett-Packard, the stock market pounded HPQ for an 11% loss on the day. A"
+michael-capellas,Michael Capellas,person,enterprise-computing,2,"Stands Up to be Counted**   ## **November 15, 2002**   With Michael Capellas' resignation as president of Hewlett-Packard, the stock mar"
+compaq,Compaq,company,computing/pc-server,1,"atency Enterprise, ZLE, Itanium, Bluestone, OpenView, iPaq, Compaq, InSight   **==> picture [57 x 9] intentionally omitted <=="
+dell,Dell,company,information technology hardware,1,"tner, Michael Capellas, Carly Fiorina, merger, acquisition, Dell, Sun Microsystems, StorageWorks, storage, printer, Zero Lat"
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware,1,"Michael Capellas, Carly Fiorina, merger, acquisition, Dell, Sun Microsystems, StorageWorks, storage, printer, Zero Latency Enterprise, Z"
+ENT-013,Peter Kastner,person,market-research,1,"described here. And execution is what it's all about.   _**Peter Kastner**_   _Click here to read this report_   HP, Hewlett-Packard"
+carly-fiorina,Carly Fiorina,person,enterprise-computing,1,"ard, IT, information technology, Kastner, Michael Capellas, Carly Fiorina, merger, acquisition, Dell, Sun Microsystems, StorageWorks,"

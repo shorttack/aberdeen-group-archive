@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "ft-mitfor~1-a56a9d",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/MIT class forum.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d/source/original.pdf",
+  "pdf_sha256": "9214ce714be24019d5e43e694f4c5f03dbd73c5539a6d878c100ff7a2d753e09",
+  "pdf_size_bytes": 219566,
+  "pdf_page_count": 24,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 24,
+    "filename": "mit class forum.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=24, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:16.760009+00:00",
+  "extracted_title": "Who Cares If The Computer",
+  "title_source": "page1",
+  "matched_study_id": "ft-mitfor~1-a56a9d",
+  "match_score": 0.8596,
+  "match_candidates": [
+    {
+      "study_id": "ft-mitfor~1-a56a9d",
+      "title": "Who Cares If The Computer Breaks?",
+      "relative_path": "kastner-author/ft-mitfor~1-a56a9d",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d",
+      "lev_ratio": 0.8772,
+      "token_ratio": 0.8333,
+      "combined_score": 0.8596
+    },
+    {
+      "study_id": "testahur95-330c0c",
+      "title": "Speaking Event Overview: Who Cares If the Computer Breaks? - Testa Hurwitz & Thibeault (September 1995)",
+      "relative_path": "kastner-author/testahur95-330c0c",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/testahur95-330c0c",
+      "lev_ratio": 0.4167,
+      "token_ratio": 0.3571,
+      "combined_score": 0.3929
+    },
+    {
+      "study_id": "boston-globe-mit-enterprise-forum-kastne-2a3462",
+      "title": "MIT Enterprise Forum Listing \u2014 'Who Cares if the Computer Breaks' (Peter S. Kastner, Aberdeen Group)",
+      "relative_path": "other-authors/boston-globe-mit-enterprise-forum-kastne-2a3462",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/boston-globe-mit-enterprise-forum-kastne-2a3462",
+      "lev_ratio": 0.4274,
+      "token_ratio": 0.3333,
+      "combined_score": 0.3897
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d/working/extracted_v20.md",
+      "md_chars": 7936,
+      "md_lines": 321,
+      "elapsed_sec": 1.01
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 24,
+      "filename": "mit class forum.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=24, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 2,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 1,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ft-mitfor~1-a56a9d/working/observation_candidates_v20.csv"
+    }
+  ]
+}

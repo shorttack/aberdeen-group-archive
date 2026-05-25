@@ -1,0 +1,15 @@
+{
+  "page_count": 2,
+  "filename": "ncr 1993-11 psk quote wsj full page ad.pdf",
+  "scores": {
+    "A_benchmark": 0,
+    "B_exec_summary": 0,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [],
+  "predicted_bucket": "B",
+  "decision_reason": "page_count=2, top_score=0, hints=[]",
+  "is_ambiguous": true
+}

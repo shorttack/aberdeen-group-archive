@@ -1,0 +1,134 @@
+{
+  "mode": "existing",
+  "slug": "inforx95-3-9a45fe",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Informix 1995.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe/source/original.pdf",
+  "pdf_sha256": "662d2638ed1ab99c59051c0a35684064631b55c9c4f351255895155352724ba5",
+  "pdf_size_bytes": 157826,
+  "pdf_page_count": 38,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 38,
+    "filename": "informix 1995.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=38, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:11.516779+00:00",
+  "extracted_title": "Informix Software Overview",
+  "title_source": "page1",
+  "matched_study_id": "inforx95-3-9a45fe",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "inforx95-3-9a45fe",
+      "title": "Informix Software Overview",
+      "relative_path": "kastner-author/inforx95-3-9a45fe",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "software-market-safegu~1-ea7453",
+      "title": "Software Market Dynamics",
+      "relative_path": "kastner-author/software-market-safegu~1-ea7453",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/software-market-safegu~1-ea7453",
+      "lev_ratio": 0.44,
+      "token_ratio": 0.2,
+      "combined_score": 0.344
+    },
+    {
+      "study_id": "1998-y2k-report-f512fb",
+      "title": "Y2K Software Tools Providers 1998",
+      "relative_path": "other-authors/1998-y2k-report-f512fb",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/1998-y2k-report-f512fb",
+      "lev_ratio": 0.4746,
+      "token_ratio": 0.1429,
+      "combined_score": 0.3419
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe/working/extracted_v20.md",
+      "md_chars": 7270,
+      "md_lines": 401,
+      "elapsed_sec": 1.34
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 38,
+      "filename": "informix 1995.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=38, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 1,
+      "figures_extracted": 1,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 21,
+          "sha1": "2c844057fb655f174d1627d5880f96e89397f1c5",
+          "size_bytes": 30795,
+          "labels_on_page": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 10,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Informix",
+          15
+        ],
+        [
+          "Aberdeen Group",
+          4
+        ],
+        [
+          "Sybase",
+          3
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/inforx95-3-9a45fe/working/observation_candidates_v20.csv"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "mode": "existing",
+  "slug": "aberdeen-ra-soa-middleware-2007-68f39b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/RA-middleware-starts-web-services.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b/source/original.pdf",
+  "pdf_sha256": "b075181a0cce87ec46d8b64bd6ee731b5e7260f2a83d8e9c7702d36cafe8983f",
+  "pdf_size_bytes": 568834,
+  "pdf_page_count": 26,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 26,
+    "filename": "ra-middleware-starts-web-services.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=26, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:30.444097+00:00",
+  "extracted_title": "SOA Middleware Takes the Lead: Picking Up Where Web Services Leaves Off",
+  "title_source": "metadata",
+  "matched_study_id": "aberdeen-ra-soa-middleware-2007-68f39b",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "aberdeen-ra-soa-middleware-2007-68f39b",
+      "title": "SOA Middleware Takes the Lead: Picking Up Where Web Services Leaves Off",
+      "relative_path": "other-authors/aberdeen-ra-soa-middleware-2007-68f39b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "soa-web-services-2007-c3297b",
+      "title": "SOA and Web Services Testing: How Different Can It Be?",
+      "relative_path": "other-authors/soa-web-services-2007-c3297b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b",
+      "lev_ratio": 0.4098,
+      "token_ratio": 0.1579,
+      "combined_score": 0.3091
+    },
+    {
+      "study_id": "aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "title": "Testing SOA and Web Services Applications: How Different Can It Be?",
+      "relative_path": "other-authors/aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "lev_ratio": 0.3852,
+      "token_ratio": 0.15,
+      "combined_score": 0.2911
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b/working/extracted_v20.md",
+      "md_chars": 47084,
+      "md_lines": 703,
+      "elapsed_sec": 1.78
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 26,
+      "filename": "ra-middleware-starts-web-services.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=26, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 15,
+      "figures_extracted": 15,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 4,
+          "sha1": "0128c9868ea57757e4660d7b3bdb69b998125b8d",
+          "size_bytes": 216619,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 5,
+          "sha1": "30002a1275bbcd25622a5f1e51d8c543c4435fdd",
+          "size_bytes": 102307,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 7,
+          "sha1": "5feedfdb29a5199da836e0aea8c95b88aa45dea3",
+          "size_bytes": 158910,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 8,
+          "sha1": "38d55d35569ed90af2e2facd03b59d7bd606751c",
+          "size_bytes": 106682,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 9,
+          "sha1": "4d98377956e626290619b036c7a97714946f0ac8",
+          "size_bytes": 238252,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 10,
+          "sha1": "76542fb9764149095a8d8d866340705faa039ca4",
+          "size_bytes": 300740,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 12,
+          "sha1": "f8b912c6fae863a46584f6f9937d06e41947700e",
+          "size_bytes": 170902,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 13,
+          "sha1": "3275cdb99b950f4ec14c3feeeb901d7f47d0f2a9",
+          "size_bytes": 247818,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 14,
+          "sha1": "94ea5cc16fd132141f26d755b7012cd5caccb85a",
+          "size_bytes": 174453,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 15,
+          "sha1": "66a782d63ddda5bebebfd1b4c89ca6cbcbdf04ef",
+          "size_bytes": 153950,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 16,
+          "sha1": "c66f7cfc2853e88b1b9b2ae8a2032251e656658e",
+          "size_bytes": 158404,
+          "labels_on_page": [
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 18,
+          "sha1": "0e99ef9e0e9350dca7899cad684fa8c275e2cecf",
+          "size_bytes": 194198,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 19,
+          "sha1": "2baa9b1cf905f2037bc75c2e75298091913e8ce3",
+          "size_bytes": 158903,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 23,
+          "sha1": "4ac677c1f6eb2d67716746932d93865d8ad5f54a",
+          "size_bytes": 190155,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 24,
+          "sha1": "c58849e97ea7a06955ec27d499b8beba2aac2787",
+          "size_bytes": 245961,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          51
+        ],
+        [
+          "Hitachi",
+          4
+        ],
+        [
+          "BEA Systems",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 58,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-soa-middleware-2007-68f39b/working/observation_candidates_v20.csv"
+    }
+  ]
+}

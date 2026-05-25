@@ -1,0 +1,122 @@
+## **Software Market Dynamics** 
+
+_aw hardware Software is chawgiwg slower t aw t advawces buth fasther t e abilithy of t e thypical compawy tho assimilathe chawge_ Peter S. Kastner Vice President 
+
+- **Operating systems** 
+
+- **Database management systems** 
+
+- **Client-server application development** 
+
+- **Client-server application solutions** 
+
+- **Enterprise Systems Management** 
+
+- • **Opportunities** 
+
+## **Operating Systems** 
+
+- **Old, proprietary OS’s (MVS, VMS) don’t matter** 
+
+- **Windows 95 will gain rapid acceptance by 1996 after a rocky start** 
+
+- **Microsoft NT Advanced Server sweeps up from the workgroup towards the enterprise level.** 
+
+   - **When will NT server revenues pass Unix server revenues?** 
+
+   - **Microsoft’s proprietary OS ala AS/400** 
+
+- **IBM OS/2 Warp missed the window (pun intended).  Can never recover.** 
+
+- **UNIX variants prove able to do single enterprise-size applications** 
+
+   - **Mature market** 
+
+   - **ISVs eye NT as next step** 
+
+## **Systems** 
+
+- **Relational (RDBMS) is hot-hot-hot** 
+
+   - **Estimate 9 RDBMS licenses for every 10 multiuser Unix servers sold** 
+
+- **Pure object-oriented (ODBMS) window has closed -- a niche** 
+
+- **Existing players get richer** 
+
+   - **Object-relational marriage** 
+
+   - **Personal RDBMS** 
+
+   - **Distributed-administration simplicity** 
+
+   - **Gateways to data sources vs. ODBC** 
+
+   - **Replication** 
+
+   - **Data warehousing is reaching mainstream** 
+
+## **Development** 
+
+# • **Client-server will evolve to a distributed computing model by year 2000** 
+
+- **Market for development tools is still fragmented** 
+
+- **Next big market move is into object-oriented development.  Products are already in place, but need infrastructure such as object request brokers.** 
+
+   - **Will be very hard for IS to learn** 
+
+   - **PC development is not enterprise development!** 
+
+- **Common repository for metadata is a missing link** 
+
+## **Application Solutions** 
+
+- **Barriers to entry for Financials, HR, high-end manufacturing (i.e., SAP) are huge** 
+
+- **1995 sees mainstream availability of a wide variety of client-server vertical apps** 
+
+- **Mainframe/proprietary mini apps are dead** 
+
+- **Early C-S ISVs delivered on Unix servers ...** 
+
+- **Now, Windows NT is a common option** 
+
+- **Microsoft Windows is the client platform-ofchoice** 
+
+- **But emerging applications create new market opportunities** 
+
+   - **Customer Interaction Software** 
+
+   - **Mapping** 
+
+## **Systems Management** 
+
+- **Distributed systems are rapidly causing administrative chaos.  Huge interest in alleviating the IS pain.** 
+
+- **EISM is Aberdeen’s model for consolidation of key technology areas:** 
+
+   - **Network management** 
+
+   - **Systems management** 
+
+   - **Operations management** 
+
+   - **Database management** 
+
+# • **Many niche players but large suppliers are driving consolidation** 
+
+- **Software integration services compensate for IS inability to choose/implement** 
+
+- **Object-transitional aids (e.g., Object COBOL, legacy code-wrappers, ORBs, design/code/test tools)** 
+
+- **Client-server app capacity planning, performance monitoring, and testing** 
+
+- **Making NT servers robust (e.g., OLTP, clusters, Novell migration)** 
+
+- **Distribution of applications to second-tier companies (e.g., SAP R3 to $100m manufacturers)** 
+
+- **Document management** 
+
+- **Management-by-exception (e.g., artificial intelligence hooked to data warehouse) query tools** 
+

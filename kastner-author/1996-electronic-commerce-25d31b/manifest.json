@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "1996-electronic-commerce-25d31b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1996 Electronic Commerce.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1996-electronic-commerce-25d31b/source/original.pdf",
+  "pdf_sha256": "ad85698789474590386a47394ae124f083c1c7d5a6643dcde0469bec8357b63d",
+  "pdf_size_bytes": 200493,
+  "pdf_page_count": 3,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 3,
+    "filename": "1996 electronic commerce.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=3, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:27:44.350673+00:00",
+  "extracted_title": "Electronic Commerce: Virtual Corporations Selling to a Virtual Marketplace",
+  "title_source": "page1",
+  "matched_study_id": "1996-electronic-commerce-25d31b",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1996-electronic-commerce-25d31b",
+      "title": "Electronic Commerce: Virtual Corporations Selling to a Virtual Marketplace",
+      "relative_path": "kastner-author/1996-electronic-commerce-25d31b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1996-electronic-commerce-25d31b",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "1997-electronic-commerce-to-internet-com-b26a35",
+      "title": "Electronic Commerce to Internet Commerce: The Evolution of The InterNetworked Enterprise",
+      "relative_path": "other-authors/1997-electronic-commerce-to-internet-com-b26a35",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/1997-electronic-commerce-to-internet-com-b26a35",
+      "lev_ratio": 0.55,
+      "token_ratio": 0.2143,
+      "combined_score": 0.4157
+    },
+    {
+      "study_id": "ecprac~1-a7d0e4",
+      "title": "Electronic Commerce: 1998 Practice Summary",
+      "relative_path": "aberdeen-group-inc/practice-summaries/ecprac~1-a7d0e4",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/aberdeen-group-inc/practice-summaries/ecprac~1-a7d0e4",
+      "lev_ratio": 0.5614,
+      "token_ratio": 0.1818,
+      "combined_score": 0.4096
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1996-electronic-commerce-25d31b/working/extracted_v20.md",
+      "md_chars": 8691,
+      "md_lines": 47,
+      "elapsed_sec": 0.32
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 3,
+      "filename": "1996 electronic commerce.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=3, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1996-electronic-commerce-25d31b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          3
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ],
+        [
+          "Christopher Stevens",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

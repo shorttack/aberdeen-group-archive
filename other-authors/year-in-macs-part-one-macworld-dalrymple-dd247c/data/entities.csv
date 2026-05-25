@@ -1,11 +1,11 @@
-entity_id,entity_name,entity_type,sector,status,successor,years_active,study_id,notes
-apple-inc,Apple Inc.,company,consumer-electronics,active,,1976-present,year-in-macs-part-one-macworld-dalrymple-dd247c,iPod and Mac now split into separate divisions (Rubinstein/Cook)
-aberdeen-group,Aberdeen Group,firm,IT-research,acquired,Harte-Hanks -> Spiceworks Ziff Davis,1988-present,year-in-macs-part-one-macworld-dalrymple-dd247c,Kastner cited as EVP and chief research officer
-peter-s-kastner,Peter S. Kastner,person,IT-analyst,active,,1980s-present,year-in-macs-part-one-macworld-dalrymple-dd247c,"EVP and chief research officer, Aberdeen Research Group (here)"
-ibm-corp,IBM Corporation,company,computing-hardware,active,,1911-present,year-in-macs-part-one-macworld-dalrymple-dd247c,PowerPC G5 fabricator commended for 90nm execution
-intel-corp,Intel Corporation,company,semiconductors,active,,1968-present,year-in-macs-part-one-macworld-dalrymple-dd247c,Benchmark comparator for 90nm chip speed
-jim-dalrymple-macworld,Jim Dalrymple,person,tech-journalism,active,,1990s-present,year-in-macs-part-one-macworld-dalrymple-dd247c,Macworld senior editor; author of this retrospective
-steve-jobs,Steve Jobs,person,Apple-executive,deceased,,1955-2011,year-in-macs-part-one-macworld-dalrymple-dd247c,Made the 3GHz-in-one-year promise at WWDC 2003
-jon-rubinstein-apple,Jon Rubinstein,person,Apple-executive,retired,,1950s-present,year-in-macs-part-one-macworld-dalrymple-dd247c,"SVP Hardware Engineering, led iPod division post-reorg"
-tim-cook,Tim Cook,person,Apple-executive,active,,1990s-present,year-in-macs-part-one-macworld-dalrymple-dd247c,"EVP Worldwide Sales and Operations, led Mac division post-reorg"
-tom-boger-apple,Tom Boger,person,Apple-executive,unknown,,2000s,year-in-macs-part-one-macworld-dalrymple-dd247c,"Director of Power Mac Product Marketing, June 2004 caution on 3GHz | Source: Tom Boger at Apple; current status not publicly verifiable"
+"entity_id","entity_name","entity_type","sector","status","successor","years_active","study_id","notes"
+"apple-inc","Apple Inc.","company","consumer-electronics","active","","1976-present","year-in-macs-part-one-macworld-dalrymple-dd247c","iPod and Mac now split into separate divisions (Rubinstein/Cook)"
+"aberdeen-group","Aberdeen Group","firm","IT-research","acquired","Harte-Hanks -> Spiceworks Ziff Davis","1988-present","year-in-macs-part-one-macworld-dalrymple-dd247c","Kastner cited as EVP and chief research officer"
+"peter-s-kastner","Peter S. Kastner","person","IT-analyst","active","","1980s-present","year-in-macs-part-one-macworld-dalrymple-dd247c","EVP and chief research officer, Aberdeen Research Group (here)"
+"ibm-corp","IBM Corporation","company","computing-hardware","active","","1911-present","year-in-macs-part-one-macworld-dalrymple-dd247c","PowerPC G5 fabricator commended for 90nm execution"
+"intel-corp","Intel Corporation","company","semiconductors","active","","1968-present","year-in-macs-part-one-macworld-dalrymple-dd247c","Benchmark comparator for 90nm chip speed"
+"jim-dalrymple-macworld","Jim Dalrymple","person","tech-journalism","active","","1990s-present","year-in-macs-part-one-macworld-dalrymple-dd247c","Macworld senior editor; author of this retrospective"
+"steve-jobs","Steve Jobs","person","Apple-executive","deceased","","1955-2011","year-in-macs-part-one-macworld-dalrymple-dd247c","Made the 3GHz-in-one-year promise at WWDC 2003"
+"jon-rubinstein-apple","Jon Rubinstein","person","Apple-executive","retired","","1950s-present","year-in-macs-part-one-macworld-dalrymple-dd247c","SVP Hardware Engineering, led iPod division post-reorg"
+"tim-cook","Tim Cook","person","Apple-executive","active","","1990s-present","year-in-macs-part-one-macworld-dalrymple-dd247c","EVP Worldwide Sales and Operations, led Mac division post-reorg"
+"tom-boger-apple","Tom Boger","person","Apple-executive","unknown","","2000s","year-in-macs-part-one-macworld-dalrymple-dd247c","Director of Power Mac Product Marketing, June 2004 caution on 3GHz | Source: Tom Boger at Apple; current status not publicly verifiable"

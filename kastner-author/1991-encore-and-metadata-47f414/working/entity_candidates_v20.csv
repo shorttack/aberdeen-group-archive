@@ -1,0 +1,23 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+teradata,Teradata,company,enterprise data warehousing,19,"rior computing alternative to the IBM System/ 390 with DB2, Teradata, expected clustered products from Sequent, Digital's high-e"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,11,ormation Services Industries   Objective and Methodology:   Aberdeen Group has been asked to advise Encore Computer Corporation on pot
+enc-01,Encore Computer Corporation,company,computer-hardware,9,Encore Computer and AberdeenGroup Confidential   Page   Encore Computer Ser
+oracle,Oracle,company,enterprise software,4,"on with a relational database (RDBMS) such as ASK Ingres or Oracle.  To do this successfully, the company must be prepared to"
+ingres,Ingres,company,database software,4,"conjunction with a relational database (RDBMS) such as ASK Ingres or Oracle.  To do this successfully, the company must be pr"
+data-general,Data General,company,computer-hardware,3,"ystem where it will compete directly against IBM's RS/6000, Data General's Aviion, Hewlett-Packard's Series 800, Digital's DECsystem"
+intel,Intel,company,semiconductors,3,ns.  Their technology is proprietary and based on low-power Intel 80X86 processors.  Encore has the opportunity to demonstrat
+hewlett-packard,Hewlett-Packard,company,technology hardware,2,"pete directly against IBM's RS/6000, Data General's Aviion, Hewlett-Packard's Series 800, Digital's DECsystem 5000, MIPS Computing Syst"
+ask-ingres-corp,ASK Ingres Corporation,company,database,2,"y in conjunction with a relational database (RDBMS) such as ASK Ingres or Oracle.  To do this successfully, the company must be pr"
+ent-16,Sybase,software-vendor,database-software,2,a new agenda for data center MIS executives similar to what Sybase has done with client-server for the RDBMS (relational datab
+digital-equipment-corporation,Digital Equipment Corporation,company,technology/minicomputers,1,"bility and extensive communications support.   In addition, Digital Equipment Corporation's VAXcluster, Teradata and Sequent will represent competiti"
+john-logan,John Logan,person,technology research,1,"ng it to contact Aberdeen Group principals Peter Kastner or John Logan directly.   Finally, the overall objective of this merchand"
+federal-reserve-bank,Federal Reserve Bank,agency,financial services / central banking,1,"de CHIPS (the NY clearing house) and FedWire, which handles Federal Reserve Bank transactions.  While this applications appears very attract"
+tandem-computers,Tandem Computers,company,fault-tolerant computing / hardware,1,"ms marketplace, the major technological competition will be Tandem Computers providing 24-hour availability and extensive communications"
+bell-atlantic,Bell Atlantic Corporation,company,telecommunications,1,cense and resell DECnet compatible networking software from Bell Atlantic's Community division if it wishes to operate in conjunction
+att,AT&T,company,telecommunications,1,"rcard and Visa, Sears started Discover in the mid-1980s and AT&T's wildly successful Universal card broke into the business"
+comdisco,Comdisco,company,IT Services / Disaster Recovery,1,"ected organizations (General Electric Credit, Diner's Club, Comdisco), but also because the market generates huge volumes of hig"
+bank-of-america,Bank of America,company,banking,1,were to a limited number of customers such as Citicorp and Bank of America.  These sales were all direct sales.  As the capability of
+motorola,Motorola,company,semiconductors,1,"hot boxes, but Data General has already claimed the leading Motorola 88000/Unix hot box position at price levels that Encore man"
+ENT-013,Peter Kastner,person,market-research,1,"eport after reading it to contact Aberdeen Group principals Peter Kastner or John Logan directly.   Finally, the overall objective of"
+sears,Sears,company,retail,1,"gth of the entrenched card processors, Mastercard and Visa, Sears started Discover in the mid-1980s and AT&T's wildly success"
+reuters,Reuters,firm,news-wire,1,"action.  Volumes range to 75 TPS.   Information providers - Reuters, Telerate and other securities information providers delive"

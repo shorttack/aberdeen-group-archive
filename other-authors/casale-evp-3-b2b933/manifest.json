@@ -1,0 +1,91 @@
+{
+  "mode": "existing",
+  "slug": "casale-evp-3-b2b933",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Casale EVP-3.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/casale-evp-3-b2b933/source/original.pdf",
+  "pdf_sha256": "59dd8669a1846c9748989e92134d8135c1dba359154995883074052ba77d8d53",
+  "pdf_size_bytes": 783391,
+  "pdf_page_count": 6,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 6,
+    "filename": "casale evp-3.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=6, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:53.759825+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "casale-evp-3-b2b933",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "casale-evp-3-b2b933",
+      "title": "Uses and Abuses of the Corporate Hockey Stick \u2014 Or Is This Any Way to Run an Industry?",
+      "relative_path": "other-authors/casale-evp-3-b2b933",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/casale-evp-3-b2b933",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "casale-evp-3"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/casale-evp-3-b2b933/working/extracted_v20.md",
+      "md_chars": 129,
+      "md_lines": 13,
+      "elapsed_sec": 0.98
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 6,
+      "filename": "casale evp-3.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=6, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 0,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/casale-evp-3-b2b933/working/entity_candidates_v20.csv",
+      "top_3": []
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

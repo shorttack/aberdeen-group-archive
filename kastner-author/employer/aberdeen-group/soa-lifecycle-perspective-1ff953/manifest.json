@@ -1,0 +1,148 @@
+{
+  "mode": "existing",
+  "slug": "soa-lifecycle-perspective-1ff953",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Per_SOAMG_Lifecycle_RS_030807b.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953/source/original.pdf",
+  "pdf_sha256": "f5abec4cc30ce8177c3898c46ffac4ba818e02706337a4a5fb4566564ee8a29e",
+  "pdf_size_bytes": 457830,
+  "pdf_page_count": 4,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 4,
+    "filename": "per_soamg_lifecycle_rs_030807b.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=4, top_score=2, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:21.668734+00:00",
+  "extracted_title": "Application Lifecycle Management: Used by the Best of the Best in Class",
+  "title_source": "metadata",
+  "matched_study_id": "soa-lifecycle-perspective-1ff953",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "soa-lifecycle-perspective-1ff953",
+      "title": "Application Lifecycle Management: Used by the Best of the Best in Class",
+      "relative_path": "kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "topic-iia-pc-management-best-practices-2003-10",
+      "title": "PC Management Best Practices: A Study of the Total Cost of Operation, Risk, Security, and Audit",
+      "relative_path": "kastner-author/topic/topic-iia-pc-management-best-practices-2003-10",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/topic/topic-iia-pc-management-best-practices-2003-10",
+      "lev_ratio": 0.4224,
+      "token_ratio": 0.1905,
+      "combined_score": 0.3296
+    },
+    {
+      "study_id": "aberdeen-1996-ibm-tivoli",
+      "title": "Tivoli Systems: Unifying the Management of Network Computing Environments",
+      "relative_path": "other-authors/aberdeen-1996-ibm-tivoli",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-1996-ibm-tivoli",
+      "lev_ratio": 0.4225,
+      "token_ratio": 0.1875,
+      "combined_score": 0.3285
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953/working/extracted_v20.md",
+      "md_chars": 10756,
+      "md_lines": 143,
+      "elapsed_sec": 0.69
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 4,
+      "filename": "per_soamg_lifecycle_rs_030807b.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=4, top_score=2, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 3,
+      "figures_extracted": 3,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 1,
+          "sha1": "c70fdcec55223bdc06cbc84603b96e0e60b8c3e0",
+          "size_bytes": 583759,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 2,
+          "sha1": "5e15b09338777bfc8d1e7f221e2352b9ce1c3325",
+          "size_bytes": 495170,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 3,
+          "sha1": "56be55783e5408a5a3eb7a7b0234fcdcc4c97cc3",
+          "size_bytes": 601942,
+          "labels_on_page": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 2,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Peter S. Kastner",
+          1
+        ],
+        [
+          "Rick Saia",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 15,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-lifecycle-perspective-1ff953/working/observation_candidates_v20.csv"
+    }
+  ]
+}

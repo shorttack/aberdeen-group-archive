@@ -1,0 +1,241 @@
+{
+  "mode": "existing",
+  "slug": "bpm-align-business-f76616",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/BPM-RA-Align-Business.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616/source/original.pdf",
+  "pdf_sha256": "b4fe02f9cad09b69f6cdda74425b6ae0794889b32152859304bf81d7df13533b",
+  "pdf_size_bytes": 900970,
+  "pdf_page_count": 28,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 28,
+    "filename": "bpm-ra-align-business.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=28, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:28.688787+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "bpm-align-business-f76616",
+  "match_score": 0.9125,
+  "match_candidates": [
+    {
+      "study_id": "bpm-align-business-f76616",
+      "title": "Aligning IT to Business Processes: How BPM is Complementing ERP and Custom Applications",
+      "relative_path": "other-authors/bpm-align-business-f76616",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616",
+      "lev_ratio": 0.9125,
+      "token_ratio": 1.0,
+      "combined_score": 0.9125,
+      "match_via": "slug_tokens",
+      "matched_stem": "bpm-align-business"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616/working/extracted_v20.md",
+      "md_chars": 56508,
+      "md_lines": 795,
+      "elapsed_sec": 2.12
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 28,
+      "filename": "bpm-ra-align-business.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=28, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 13,
+      "figures_extracted": 13,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 5,
+          "sha1": "9fb2c271e51306bfaaf829e119bfd084da522f0b",
+          "size_bytes": 95078,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "1",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 6,
+          "sha1": "f86075f9dea2004a01597c8e1c57bbe57afd900e",
+          "size_bytes": 270121,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 7,
+          "sha1": "324c7a77c73cdb079108279e93359d38a0ecc4b1",
+          "size_bytes": 185455,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 8,
+          "sha1": "35f35444580daa6502ee0a7446229af903523ba2",
+          "size_bytes": 125736,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 9,
+          "sha1": "343771067079f029f9975fd425ab0efba38d6638",
+          "size_bytes": 249821,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 12,
+          "sha1": "0faf527b6c91472519d1ec45b80171e785691356",
+          "size_bytes": 178960,
+          "labels_on_page": [
+            "3",
+            "4",
+            "4",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 13,
+          "sha1": "f4c252c552848fda702d3d6e3ecdf2e6de6320d9",
+          "size_bytes": 235939,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 14,
+          "sha1": "c704b979072ae9c94024ed416e2806fb98701ce1",
+          "size_bytes": 257825,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 15,
+          "sha1": "32d287f0a6f1797051386745bbfdc4705db08a9d",
+          "size_bytes": 170555,
+          "labels_on_page": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 16,
+          "sha1": "2dcba9fdc9b23f3bae1254713233d1d00aae3b38",
+          "size_bytes": 283213,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 18,
+          "sha1": "6625fc9687fa3da482e16df9b78b45a845ae879b",
+          "size_bytes": 236619,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 19,
+          "sha1": "ddf2df4b913a7063a8f1bf9fb805a7141b493681",
+          "size_bytes": 192074,
+          "labels_on_page": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 26,
+          "sha1": "8fd082a3252f3f9fb5ec77b6e8dbbfe50f34a1a6",
+          "size_bytes": 276305,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          75
+        ],
+        [
+          "CTSpace",
+          5
+        ],
+        [
+          "Ramco Systems",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 50,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/bpm-align-business-f76616/working/observation_candidates_v20.csv"
+    }
+  ]
+}

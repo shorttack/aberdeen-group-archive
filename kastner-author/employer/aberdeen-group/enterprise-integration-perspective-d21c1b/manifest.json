@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "enterprise-integration-perspective-d21c1b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Persp_EntIntegration_PK_022406b.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/enterprise-integration-perspective-d21c1b/source/original.pdf",
+  "pdf_sha256": "3126007862229212dcda2799cd34978da24562a13e0028dfd02453a5ee47a243",
+  "pdf_size_bytes": 376696,
+  "pdf_page_count": 5,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 5,
+    "filename": "persp_entintegration_pk_022406b.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=5, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:23.743944+00:00",
+  "extracted_title": "Why Aberdeen Group is Focusing on Enterprise IT Integration",
+  "title_source": "metadata",
+  "matched_study_id": "enterprise-integration-perspective-d21c1b",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "enterprise-integration-perspective-d21c1b",
+      "title": "Why Aberdeen Group is Focusing on Enterprise IT Integration",
+      "relative_path": "kastner-author/employer/aberdeen-group/enterprise-integration-perspective-d21c1b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/enterprise-integration-perspective-d21c1b",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "enterprise-integration-perspective-2-cb6165",
+      "title": "Why Aberdeen Group is Focusing on Enterprise IT Integration",
+      "relative_path": "kastner-author/employer/aberdeen-group/enterprise-integration-perspective-2-cb6165",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/enterprise-integration-perspective-2-cb6165",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "dct-why-aberdeen-follows-pc-deals-2002",
+      "title": "Why Aberdeen Is Following Consumer PC Deals \u2014 DCT Practice Methodology",
+      "relative_path": "kastner-author/dct/dct-why-aberdeen-follows-pc-deals-2002",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-why-aberdeen-follows-pc-deals-2002",
+      "lev_ratio": 0.5197,
+      "token_ratio": 0.1875,
+      "combined_score": 0.3868
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/enterprise-integration-perspective-d21c1b/working/extracted_v20.md",
+      "md_chars": 14459,
+      "md_lines": 121,
+      "elapsed_sec": 0.52
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 5,
+      "filename": "persp_entintegration_pk_022406b.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=5, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/enterprise-integration-perspective-d21c1b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          7
+        ],
+        [
+          "Microsoft",
+          2
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

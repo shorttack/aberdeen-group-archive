@@ -1,0 +1,15 @@
+{
+  "page_count": 27,
+  "filename": "ra-modernizing-legacy-2007-q2.pdf",
+  "scores": {
+    "A_benchmark": 1,
+    "B_exec_summary": 1,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [],
+  "predicted_bucket": "A",
+  "decision_reason": "page_count=27, top_score=1, hints=[]",
+  "is_ambiguous": false
+}

@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "2006-unisyswipro-rs-3747-a7e31e",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/MA_UnisysWipro_RS_3747.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2006-unisyswipro-rs-3747-a7e31e/source/original.pdf",
+  "pdf_sha256": "bbfbfa9dcb95a36ad298deac7c51070ef21b551ef7c418f78238cb6d2b5cb8ac",
+  "pdf_size_bytes": 445248,
+  "pdf_page_count": 3,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 3,
+    "filename": "ma_unisyswipro_rs_3747.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=3, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:13.902783+00:00",
+  "extracted_title": "Can Unisys-Wipro Alliance Cover All Outsourcing Bases?",
+  "title_source": "metadata",
+  "matched_study_id": "2006-unisyswipro-rs-3747-a7e31e",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "2006-unisyswipro-rs-3747-a7e31e",
+      "title": "Can Unisys-Wipro Alliance Cover All Outsourcing Bases?",
+      "relative_path": "kastner-author/2006-unisyswipro-rs-3747-a7e31e",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2006-unisyswipro-rs-3747-a7e31e",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "ma-unisyswipro-rs-3747-36dd33",
+      "title": "Can Unisys-Wipro Alliance Cover All Outsourcing Bases?",
+      "relative_path": "kastner-author/ma-unisyswipro-rs-3747-36dd33",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ma-unisyswipro-rs-3747-36dd33",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "1999pr~1-c5516b",
+      "title": "Aberdeen's IT Professional Services Practice \u2014 Coverage Areas",
+      "relative_path": "aberdeen-group-inc/practice-summaries/1999pr~1-c5516b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/aberdeen-group-inc/practice-summaries/1999pr~1-c5516b",
+      "lev_ratio": 0.4643,
+      "token_ratio": 0.0,
+      "combined_score": 0.2786
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2006-unisyswipro-rs-3747-a7e31e/working/extracted_v20.md",
+      "md_chars": 8743,
+      "md_lines": 113,
+      "elapsed_sec": 0.59
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 3,
+      "filename": "ma_unisyswipro_rs_3747.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=3, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 4,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2006-unisyswipro-rs-3747-a7e31e/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Unisys",
+          13
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ],
+        [
+          "Wipro Technologies",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

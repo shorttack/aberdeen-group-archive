@@ -1,0 +1,20 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+aberdeen-group,Aberdeen Group,firm,IT market analysis,20,mary in nature and supplements your other sales materials.  Aberdeen Group believes it to be accurate as of the date of issue.  The an
+att,AT&T,company,telecommunications,20,## **AT&T Global Information Solutions Servers**   **This information
+intel,Intel,company,semiconductors,17,massively parallel product line** N **All servers based on Intel 486 and Pentium microprocessor.  No RISC servers.** N **Uni
+data-general,Data General,company,computer-hardware,7,br>**----- End of picture text -----**<br>   5/16/94   ## **Data General Servers**   **This information is summary in nature and sup
+digital-equipment-corporation,Digital Equipment Corporation,company,technology/minicomputers,6,*   N **In The News**   – **loss in 1Q94**   5/16/94   ## **Digital Equipment Corporation Servers**   **This information is summary in nature and sup
+hewlett-packard,Hewlett-Packard,company,technology hardware,6,*   - **Transportation**   - **Utilities**   5/16/94   ## **Hewlett-Packard Servers**   **This information is summary in nature and sup
+informix,Informix,company,relational database software,4,"ne for all of the major Unix DBMS suppliers such as Oracle, Informix, Sybase, Ingres, Software AG, etc.** N **HP’s high-end SMP"
+oracle,Oracle,company,enterprise software,4,"**   - **2 TB max. external storage for 9500**   - **Offers Oracle Parallel Server 2-4-system clustering**   - **RAID 0, 1, 3,"
+ent-16,Sybase,software-vendor,database-software,4,"ing) application solutions and solution providers**   - N **Sybase Data Navigator MPP RDBMS program delayed, revised.  Relatio"
+microsoft,Microsoft,company,Software,3,in a production environment.**   N **DEC is partnering with Microsoft to provide users with the most powerful implementation of N
+software-ag,Software AG,company,Enterprise Software,2,"ix DBMS suppliers such as Oracle, Informix, Sybase, Ingres, Software AG, etc.** N **HP’s high-end SMP implementation provides the h"
+teradata,Teradata,company,enterprise data warehousing,2,ce**   N **Industry leader in complex decision support with Teradata**   N **Specialized solutions and greatest market share in
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware,2,"f consultant hires**   – **Symmetry 5000**   5/16/94   ## **Sun Microsystems, Inc. Servers**   **This information is summary in nature a"
+motorola,Motorola,company,semiconductors,2,ssor symmetric multiprocessing**   - **All servers based on Motorola 88K RISC microprocessors**   - **High-availability clusteri
+osf-open-software-foundation,Open Software Foundation (OSF),consortium,Industry,2,".  Examples include HP’s technological contributions to the Open Software Foundation (OSF), Object Management Group (OMG), Committee for Open Systems"
+ingres,Ingres,company,database software,2,"major Unix DBMS suppliers such as Oracle, Informix, Sybase, Ingres, Software AG, etc.** N **HP’s high-end SMP implementation p"
+object-management-group,Object Management Group,institution,standards,2,"ogical contributions to the Open Software Foundation (OSF), Object Management Group (OMG), Committee for Open Systems (COSE), and the Precision"
+ENT-DOT-002,Object Management Group (OMG),Standards Body,IT Standards,2,"ogical contributions to the Open Software Foundation (OSF), Object Management Group (OMG), Committee for Open Systems (COSE), and the Precision RISC"
+IBM-SP2,IBM SP2,vendor,high-performance computing,1,"life.  Market is now looking to new-breed solutions (e.g., IBM SP2)** N **Sales force quality varies from excellent to spotty."

@@ -1,0 +1,51 @@
+char_offset,trigger_labels,sentence
+2200,percentage_stat,"As a result, **more than 50% of those surveyed are turning to business process management (BPM) in 2007 to help get the process right at the line-ofbusiness level** ."
+3998,best_in_class,Best in Class organizations are far ahead of Industry Average and Laggard companies in adaptability of applications and ROI from their SOA investments.
+4180,best_in_class,"**Best in Class** companies have the most experience with SOA and should rely on it to drive higher ROI from their investments in BPM, especially in process transformation projects that harness BPM, SOA, and other technologies (e.g., mobile devices) to capture and manage cost-critical processes unique to the business, and in driving lower application lifecycle costs."
+8356,figure_reference,Figure 1: Top Pressures Driving Service-Oriented Architectures.................... 2 Figure 2: Ability of Software Applications to Meet Business Requirements .. 3 Figure 3: Importance of IT Capabilities in Critical Business Process Performance 7 Figure 4: Infrastructure Middleware Tools Drawing Investment...................... 7 Figure 5: Challenges with Applications for Key Business Processes ................ 9 Figure 6: Challenges in Starting or Implementing BPM/SOA............................10 Figure 7: Factors Resulting in Data Management Complexity.........................10
+9388,best_in_class,## _Chapter One:_ **Benchmarking the Best in Class**
+10997,best_in_class,**Table 1: Best in Class PACE Framework**
+12081,figure_reference,"The need to support new, agile business processes is the chief pressure driving organizations to start or implement an SOA-based system (Figure 1)"
+12230,figure_reference,**Figure 1: Top Pressures Driving Service-Oriented Architectures**
+13658,figure_reference,An overwhelming majority of organizations represented in the Aberdeen survey feel constrained in their applications’ ability to meet customers’ individual business requirements (Figure 2).
+13983,figure_reference,**Figure 2: Ability of Software Applications to Meet Business Requirements**
+14626,best_in_class,"Based on the Maturity Class Framework, Aberdeen established Best-in-Class characteristics in four key categories: (1) process; (2) organization; (3) performance management; and (4) technology."
+15656,percentage_stat,"Aberdeen’s prior research indicated that 41% of all companies were to at least have **SOA** strategies in place by the end of 2006, if they had not implemented them already."
+18915,percentage_stat,"38% of companies surveyed have current SOA projects, another 29% say their IT organizations are planning to start at least one project within the next 12 months."
+19208,figure_reference,"63% believe it’s very important that their technologies, such as BPM, be able to integrate into any system that provides critical data or information, which is what an SOA can deliver (Figure 3)."
+19458,percentage_stat,Some 63% of surveyed companies use spreadsheets and 37% use legacy mainframe applications to manage critical business process functions.
+19925,best_in_class;percentage_stat,"However, 54% of Best in Class companies Aberdeen surveyed recognize this and are investing in technologies that can improve nimble processes."
+20203,figure_reference,**Figure 3: Importance of IT Capabilities in Critical Business Process Performance**
+20859,figure_reference,Figure 4 shows the infrastructure middleware technologies in which the surveyed companies are investing.
+21193,figure_reference,**Figure 4: Infrastructure Middleware Tools Drawing Investment**
+23861,figure_reference,"Still, improving business process visibility and integration capabilities doesn’t come without its challenges (Figure 5)."
+24200,percentage_stat,"Alarmingly, 75% of companies that are the biggest users of ERP systems cite this issue."
+24288,best_in_class;percentage_stat,"Yet, **only 33% of Best in Class companies are constrained by their ERP systems** ;"
+24697,figure_reference,**Figure 5: Challenges with Applications for Key Business Processes**
+25485,figure_reference,"These issues also come up when we asked respondents to cite the challenges they face or will face in implementing an SOAbased system (Figure 6), as well as the factors that result in data management complexity (Figure 7)."
+26173,percentage_stat,"For instance, only 19% of companies represented in Aberdeen’s _Composite Applications Benchmark report_ have had SOA-based solutions in place for more than a year, while another 22% were implemented only within the last 12 months."
+26406,dollar_stat,"Already companies have shown an average return of about 9% based on an average investment in SOA at around $730,000 while the mean payback to date is $798,000."
+26702,figure_reference,**Figure 6: Challenges in Starting or Implementing BPM/SOA**
+27166,figure_reference,**Figure 7: Factors Resulting in Data Management Complexity**
+27610,best_in_class,"When we separated the Best in Class organizations from the rest of the survey pool, the _**Best in Class are recouping averaging a return of more than twice their investment,**_ while Industry Average and Laggard companies - have yet to recover all they have invested."
+28350,best_in_class,Best in Class organizations are far ahead of Industry Average and Laggard companies in their adaptability of applications and in their ROI from BPM and SOA investments.
+29194,best_in_class,"Table 2 shows Aberdeen’s Competitive Framework for this report to distinguish leading, or Best in Class, companies, from Industry Average and Laggard organizations."
+29383,best_in_class,**Best in Class** organizations have software applications that can allow them to adapt quickly to most customer requirements
+30489,best_in_class,"Best in Class organizations are more likely to be aware of SOA, due largely to the knowledge levels of their IT organizations and the support and commitment from the business side or executive leadership."
+31037,best_in_class,Commitment to and interest in SOA and BPM spell the difference between Best in Class organizations and the rest of the survey pool.
+31169,percentage_stat,"Facilitating that is that only 11% of these companies believe they’re dealing with too much complexity for employees to handle, in spite of the fact that close to half of them indicate they’re busy with several technology/business process initiatives."
+31423,best_in_class;percentage_stat,"Further, only 24% of the Best in Class use legacy mainframe applications to manage critical business processes, well below the 39% of Industry Average."
+31575,best_in_class,"This highlights a willingness and commitment by the Best in Class to use more advanced applications, such as best of breeds and Web-hosted and On Demand tools."
+31737,best_in_class,_Commitment to and interest in both SOA and BPM spells the difference between Best in Class organizations and the rest of the survey pool_ .
+32197,percentage_stat,63% say the upfront costs for implementing SOA are higher because of a need for more design and architecture (56% of the entire survey pool cited this);
+33810,dollar_stat,"Close to three-quarters of large companies (annual revenue of more than $1 billion), where the processes are more complex, are investing in BPM tools, as well as ESB and SOA middleware software (Table 3)."
+35994,figure_reference,**Figure 8: Organizational Challenges to SOA Implementations**
+36509,figure_reference,**Figure 9: Application Challenges to Business Process Improvements**
+38042,best_in_class,"Best in Class companies have the most experience with SOA, and they should rely on it to drive higher ROI from their investments in SOA and BPM."
+38530,best_in_class,## **Best in Class Next Steps**
+40275,percentage_stat,3) _Is there interest in SOA?_ All but 5% of Industry Average organizations at least have interest in the potential advantages of an SOA.
+40574,percentage_stat,"The increase in knowledge starts at the top; 61% of Industry Average companies cite limited vision, support, or understanding of SOA from the business side or executive"
+40880,best_in_class;percentage_stat,"leadership, compared with only 37% of Best in Class companies."
+45141,best_in_class,"The Ramco BPDS combines best in class BPM capabilities with an integrated services environment and a repository of over 1,200 pre-built services for true end-to-end SOA based application development."
+48840,percentage_stat,"_**Geography** :_ About 45% of all study respondents were from North America (US, Canada, Mexico); 28% were from Europe; 20% from Asia/Pacific; 5% from the Middle East and Africa; and 3% from South America and the Caribbean."
+49069,percentage_stat;dollar_stat,_**Company size** :_ About 32% of respondents were from large enterprises (annual revenues above US$1 billion); 31% were from mid-size enterprises (annual revenues between $50 million and $1 billion); and 37% from small businesses ($50 million or less).

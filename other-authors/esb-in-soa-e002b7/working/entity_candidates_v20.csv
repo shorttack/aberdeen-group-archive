@@ -1,0 +1,16 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+jboss,JBoss,company,open-source middleware,3,r>Service Bus<br>* Cape Clear<br>* Cordys<br>* Fiorano<br>* JBoss ESB<br>* IBM WebSphere ESB<br>* Oracle ESB<br>* PolarLake<b
+oracle,Oracle,company,enterprise software,2,dys<br>* Fiorano<br>* JBoss ESB<br>* IBM WebSphere ESB<br>* Oracle ESB<br>* PolarLake<br>* Software AG<br>* Sonic Software|> B
+aberdeen-group,Aberdeen Group,firm,IT market analysis,1,"transformation<br>Message Bus • Reliable routing<br>Source: Aberdeen Group , November 2005<br>**----- End of picture text -----**<br>"
+microsoft,Microsoft,company,Software,1,roker<br>* JBoss JEMS<br>* Oracle Fusion<br>Middleware<br>* Microsoft BizTalk<br>* SAP NetWeaver|> Good fit for service-<br>orien
+software-ag,Software AG,company,Enterprise Software,1,<br>* IBM WebSphere ESB<br>* Oracle ESB<br>* PolarLake<br>* Software AG<br>* Sonic Software|> Best-of-breed<br>attractiveness for p
+informatica,Informatica,company,data-integration-analytics,1,arger players| |**Traditional EAI/EII**|* IONA (Artix)<br>* Informatica<br>* iWay<br>* FusionWare<br>* Sterling Commerce<br>* SUN (
+rick-saia-aberdeen,Rick Saia,person,editor-research,1,"ology Research,||| ||william.mougayar@aberdeen.com<br>,with Rick Saia,Analyst/Editor,rick.saia@aberdeen.com|||    Founded in 1988"
+amberpoint,AmberPoint,company,enterprise-software,1,"ber 2005<br>_ERP in the Mid-Market Enterprise_<br>_,_||| ||_AmberPoint 5.0 Boosts Automatic SOA_<br>October 2005||| ||_Management"
+william-mougayar,William Mougayar,person,IT-research,1,"||_Management Policies_<br>,December 2005||| ||**Author**: William Mougayar, VP & Service Director, Technology Research,||| ||william.m"
+cordys,Cordys,company,enterprise-software,1,c ESB**|* BEA Aqualogic<br>Service Bus<br>* Cape Clear<br>* Cordys<br>* Fiorano<br>* JBoss ESB<br>* IBM WebSphere ESB<br>* Ora
+polarlake,PolarLake,company,enterprise-software,1,<br>* JBoss ESB<br>* IBM WebSphere ESB<br>* Oracle ESB<br>* PolarLake<br>* Software AG<br>* Sonic Software|> Best-of-breed<br>att
+sonic-software,Sonic Software,company,enterprise-software,1,re ESB<br>* Oracle ESB<br>* PolarLake<br>* Software AG<br>* Sonic Software|> Best-of-breed<br>attractiveness for pure<br>SOAs<br>> Qui
+fusionware,FusionWare,company,enterprise-software,1,al EAI/EII**|* IONA (Artix)<br>* Informatica<br>* iWay<br>* FusionWare<br>* Sterling Commerce<br>* SUN (SeeBeyond)<br>* TIBCO<br>*
+axway,Axway,company,enterprise-software,1,ons they support| |**Process-centric**<br>**integration**|* Axway<br>* IBM WebSphere<br>Process Server<br>* JBoss jBPM<br>* M
+metastorm,Metastorm,company,enterprise-software,1,WebSphere<br>Process Server<br>* JBoss jBPM<br>* Magic<br>* Metastorm<br>* Vitria|> Strong on business<br>process management<br>(

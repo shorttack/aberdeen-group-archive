@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "sequent-592620",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Sequent.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/sequent-592620/source/original.pdf",
+  "pdf_sha256": "6b50573e8524b951ba766d15748c4cb6e67007c7911331bf7b1b92c9956d7586",
+  "pdf_size_bytes": 111556,
+  "pdf_page_count": 12,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 12,
+    "filename": "sequent.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=12, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:42:18.824065+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "sequent-592620",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "sequent-592620",
+      "title": "Sequent Servers and Data General Servers",
+      "relative_path": "kastner-author/sequent-592620",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/sequent-592620",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "sequent"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/sequent-592620/working/extracted_v20.md",
+      "md_chars": 4883,
+      "md_lines": 169,
+      "elapsed_sec": 0.64
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 12,
+      "filename": "sequent.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=12, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 6,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/sequent-592620/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Data General",
+          6
+        ],
+        [
+          "Aberdeen Group",
+          4
+        ],
+        [
+          "Informix",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

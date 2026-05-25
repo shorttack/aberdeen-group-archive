@@ -1,0 +1,278 @@
+{
+  "mode": "existing",
+  "slug": "soa-web-services-2007-c3297b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2007Q3-4117-RA-soa-web-services.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b/source/original.pdf",
+  "pdf_sha256": "c16f916ade04e2378a930c90fcb4eb4013a29a6100fdcd9731f6f0894d3f8107",
+  "pdf_size_bytes": 511348,
+  "pdf_page_count": 25,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 25,
+    "filename": "2007q3-4117-ra-soa-web-services.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=25, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:27:54.467272+00:00",
+  "extracted_title": "SOA and Web Services Testing: How Different Can It Be?",
+  "title_source": "metadata",
+  "matched_study_id": "soa-web-services-2007-c3297b",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "soa-web-services-2007-c3297b",
+      "title": "SOA and Web Services Testing: How Different Can It Be?",
+      "relative_path": "other-authors/soa-web-services-2007-c3297b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "title": "Testing SOA and Web Services Applications: How Different Can It Be?",
+      "relative_path": "other-authors/aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-rb-testing-soa-web-apps-2007-e2096f",
+      "lev_ratio": 0.8205,
+      "token_ratio": 0.9091,
+      "combined_score": 0.8559
+    },
+    {
+      "study_id": "ra-soa-2007-97c147",
+      "title": "SOA and Web Services Testing: How Different Can It Be? (Full Unabridged Version)",
+      "relative_path": "other-authors/ra-soa-2007-97c147",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147",
+      "lev_ratio": 0.8125,
+      "token_ratio": 0.7692,
+      "combined_score": 0.7952
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b/working/extracted_v20.md",
+      "md_chars": 54242,
+      "md_lines": 788,
+      "elapsed_sec": 1.91
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 25,
+      "filename": "2007q3-4117-ra-soa-web-services.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=25, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 15,
+      "figures_extracted": 15,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 4,
+          "sha1": "02ab797b3679da3faea3dfce43737bdfbee39e64",
+          "size_bytes": 232723,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 5,
+          "sha1": "4ca1c42c8fabc3584f85feb823356677e835f215",
+          "size_bytes": 101103,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 6,
+          "sha1": "26a343c0cf1cd7f422c5e521a5e1093d9eac4bbe",
+          "size_bytes": 277757,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 7,
+          "sha1": "072e6ae83c16f3563759683069965a6d2c1779f0",
+          "size_bytes": 266171,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 8,
+          "sha1": "e99cc7b1351d9aff424a82798cd19b5a386d0a90",
+          "size_bytes": 239197,
+          "labels_on_page": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 9,
+          "sha1": "73fed679e157d58a425c1e89e4f7d078ee7929c6",
+          "size_bytes": 255716,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 10,
+          "sha1": "e8e292e4601298064d7c88bf2e28b86ac8821af7",
+          "size_bytes": 291307,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 12,
+          "sha1": "ffbedbe5954516b216aa44e0ed61af15ebf34336",
+          "size_bytes": 279229,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 13,
+          "sha1": "8fd7d16227e73eed1a3abe6a790ca640fddb4b04",
+          "size_bytes": 244315,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 14,
+          "sha1": "d00228be81cd2a98ffb3c292f0d3f75c1d6ec7b8",
+          "size_bytes": 221670,
+          "labels_on_page": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 15,
+          "sha1": "63fb34a53a4a92d847b8abd608e3deed179b4812",
+          "size_bytes": 294269,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 16,
+          "sha1": "31aff533b76ae9277d056648c5f56545e95ea1bd",
+          "size_bytes": 316356,
+          "labels_on_page": [
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 17,
+          "sha1": "1df5a028ef80b4fc4b8d4ea52790d13b8e4ed2b1",
+          "size_bytes": 165056,
+          "labels_on_page": [
+            "10"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 21,
+          "sha1": "a918586561dfb173da410415102aacadd833461b",
+          "size_bytes": 326931,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 22,
+          "sha1": "78059e04f2fadbad4fe62f4b85c31a6327657530",
+          "size_bytes": 113612,
+          "labels_on_page": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 6,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          51
+        ],
+        [
+          "ISoft",
+          3
+        ],
+        [
+          "Solstice Software",
+          3
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 87,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/soa-web-services-2007-c3297b/working/observation_candidates_v20.csv"
+    }
+  ]
+}

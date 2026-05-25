@@ -1,0 +1,44 @@
+char_offset,trigger_labels,sentence
+2000,key_finding,Here are three key findings from Aberdeen’s research:
+2058,best_in_class;average_stat,"Best in Class organizations excel at saving significantly more money (an average of 56% over in-house development, more than twice that of Industry Average companies), achieving higher user satisfaction, and delivering better project performance than Industry Average and Laggard organizations."
+2510,best_in_class,This is especially true of Best in Class organizations.
+4770,best_in_class,Best in Class companies can get better results from outsourcing ─ and for their IT groups ─ by retaining strategic work and involving the business units in helping manage outsourcing providers.
+10350,figure_reference,## **Figure 1: Top IT Outsourcing Targets**
+11354,figure_reference,"According to respondents to an Aberdeen survey for the recent _Business Value of IT Outsourcing Benchmark Report_ , application development and maintenance is the prime IT outsourcing target (Figure 1), with end-user computing (help desk, desktop support) a close second."
+11944,figure_reference,"But according to our survey, organizations with more experience at outsourcing application development or maintenance look beyond the money to other key benefits, notably _**improved internal processes, better version control and lifecycle management,**_ and two key IT human asset management payoffs: _**freedom to refocus IT staff on more strategic initiatives,**_ , and _**the boost in skills the staff can gain by working with the outsourcing provider’s personnel**_ (Figure 2)."
+12429,figure_reference,**Figure 2: Top Benefits from Outsourcing Application Development or Maintenance**
+14370,figure_reference,"The benefits from outsourcing application development and maintenance map well to the chief drivers or pressures (Figure 3), which are reducing IT operating costs and the desire to have internal IT focus more heavily on strategic tasks."
+14609,figure_reference,**Figure 3: Top Drivers for Application Development and Maintenance Outsourcing**
+16893,best_in_class,"Best in Class organizations excel at saving more money, higher user satisfaction, and better project delivery performance over Industry Average and Laggard organizations."
+17212,best_in_class,This is especially true of Best in Class organizations.
+17954,best_in_class,"However, leading companies, what Aberdeen refers to as Best in Class, excel in three key measurements ─ **higher cost savings, greater user satisfaction,** and **improved project delivery performance** ─ over Industry Average and Laggard firms within Aberdeen’s Competitive Framework."
+18694,best_in_class,To determine the Best in Class for this
+18736,figure_reference,"report, Aberdeen looked at the major drivers behind application development and maintenance outsourcing (Figure 3 from Chapter One), then examined respondents’ answers to a series of key performance questions, starting with cost savings."
+18974,figure_reference;percentage_stat,"The companies that emerged at the top 20% of the survey field saved, on average, 56% by outsourcing application development and/or maintenance functions, compared with 26% for Industry Average firms, and very little for Laggards (Figure 4)."
+19527,figure_reference,**Figure 4: Key Performance Indicators by Competitive Framework**
+19650,best_in_class,"**----- Start of picture text -----**<br>
+Best in Class Industry Average Laggard<br>80%<br>67%<br>70%<br>60% 56%<br>51%<br>49%<br>50%<br>40%<br>26% 26%<br>30%<br>22%<br>20%<br>10% 5%<br>2%<br>0%<br>Cost savings on Increase in user Percentage of projects<br>application satisfaction delivered on or below<br>development/maintenance budget<br>work<br>**----- End of picture text -----**<br>"
+21128,best_in_class,"Table 1 highlights the other differences among the Best in Class, Industry Average, and Laggard firms in their processes, knowledge, and organizational strategies in application development and maintenance outsourcing."
+23881,key_finding,"However, the responses to those challenges ─ especially the top two ─echo a key finding from Aberdeen’s July 2006 benchmark report, _The Business Value of IT Outsourcing:_ Achieving the goals of IT outsourcing sometimes requires stronger management of providers."
+26228,best_in_class,"In Aberdeen’s survey for _The Business Value of IT Outsourcing Benchmark Report_ from July 2006, Best in Class firms excelled in this area."
+26606,figure_reference,"This survey reaffirms leading companies’ affinity for those two responses, along with renegotiating an outsourcing contract (Figure 5)."
+26946,figure_reference,## **Figure 5: Responses to Challenges by Competitive Framework**
+27069,best_in_class,"**----- Start of picture text -----**<br>
+Best in Class Industry Average Laggards<br>90%<br>80% 80%<br>80%<br>70% 65%<br>60%<br>50%<br>47%<br>50%<br>40%<br>40%<br>30%<br>30% 24%<br>20%<br>20%<br>10%<br>0%<br>Dedicated more Escalated problems to Renegotiated contract or<br>management time and provider's executive statement of work<br>resources team<br>**----- End of picture text -----**<br>"
+27989,percentage_stat,46% of respondents’ companies outsource the majority of their application development work to India; the U.S. picks up 30%.
+28661,figure_reference,"The right side of Figure 6 shows the proportion of application development work going to providers in India and the U.S., as well as to other countries."
+29111,figure_reference,**Figure 6: Top Destinations for Application Development Outsourcing**
+30623,figure_reference,"However, mid-size enterprises tell a different story (Figure 7)."
+30829,figure_reference,"And, as Figure 8 shows, cost reduction is a secondary benefit for these companies compared with improved operations, a better skilled staff, and more strategic work for the IT organization with the outsourcing providers taking on the more tactical functions."
+31090,figure_reference,**Figure 7: Application Outsourcing Drivers by Company Size**
+31815,figure_reference,**Figure 8: Selected Application Outsourcing Benefits by Company Size**
+37626,percentage_stat,"In one notable finding from the survey, 36% of respondents say it’s important that a provider’s team work within or close to the same time zone as the client’s team."
+38414,percentage_stat,"For instance, while 75% of companies represented in the survey say their chief outsourcing driver is cost control, 82% of respondents from North America ─ more than four in every five ─ cite that as their chief driver."
+38633,figure_reference,This could very well explain how many of these companies are more sensitive to cost-related issues when asked about their outsourcing “experiences” (Figure 9).
+38795,figure_reference,**Figure 9: Companies’ Top Experiences in Application Outsourcing**
+40554,best_in_class,Best in Class companies can get better results from outsourcing ─ and for their IT groups ─ by hanging onto strategic work and involving the business units in helping manage outsourcing providers.
+44436,best_in_class,Best in Class companies invariably have well disciplined and managed IT processes with predictable results.
+44546,best_in_class,"2. _Know where your IT organization excels ─ and where it doesn’t._ Most Industry Average and Best in Class enterprises retain the most strategic functions associated with application development and maintenance, such as project management, business process optimization, and systems architecture."
+45160,best_in_class,## **Best in Class Next Steps**
+51935,percentage_stat,Other service industries accounted for 7% of the sample.
+52435,percentage_stat;dollar_stat,_**Company size** :_ About 30% of respondents were from large enterprises (annual revenues above US$1 billion); 29% were from midsize enterprises (annual revenues between $50 million and $1 billion); and 41% of respondents were from small businesses (annual revenues of $50 million or less).

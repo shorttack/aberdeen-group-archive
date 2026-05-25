@@ -1,0 +1,261 @@
+{
+  "mode": "existing",
+  "slug": "outsourcing-application-development-and--59d651",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Outsourcing Application Development and Maintenance.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651/source/original.pdf",
+  "pdf_sha256": "0a3165cea6976871e1b62b36af4b3b4958950437e57609b3dc178f3af726e3ed",
+  "pdf_size_bytes": 626969,
+  "pdf_page_count": 27,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 27,
+    "filename": "outsourcing application development and maintenance.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=27, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:41:31.604260+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "outsourcing-application-development-and--59d651",
+  "match_score": 0.9284,
+  "match_candidates": [
+    {
+      "study_id": "outsourcing-application-development-and--59d651",
+      "title": "Outsourcing Application Development and Maintenance: Joining Cost Savings with IT Human Asset Management",
+      "relative_path": "kastner-author/outsourcing-application-development-and--59d651",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651",
+      "lev_ratio": 0.9284,
+      "token_ratio": 0.9284,
+      "combined_score": 0.9284,
+      "match_via": "slug_prefix",
+      "matched_stem": "outsourcing-application-development-and-"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651/working/extracted_v20.md",
+      "md_chars": 59780,
+      "md_lines": 664,
+      "elapsed_sec": 2.04
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 27,
+      "filename": "outsourcing application development and maintenance.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=27, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 15,
+      "figures_extracted": 15,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 5,
+          "sha1": "bf8f961a6f0ce8ee348b3d7742ab554cda1150ea",
+          "size_bytes": 139908,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 6,
+          "sha1": "1b6bda9b159e020312584252b797e66885889813",
+          "size_bytes": 217502,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 7,
+          "sha1": "799370fa52d3eccec5fc434db6dc5fea3c5475b5",
+          "size_bytes": 284597,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 8,
+          "sha1": "85339ce8063259fc3427388618f422112690b24f",
+          "size_bytes": 219079,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 10,
+          "sha1": "8f1bf6960e5c17f7a2737bb6b88557d2492abf86",
+          "size_bytes": 321141,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 11,
+          "sha1": "42c9fef86fe519b45446d512ae157cc65c3b09a6",
+          "size_bytes": 231459,
+          "labels_on_page": [
+            "4",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 12,
+          "sha1": "1e7439436231953a008658dd8902130ce83d8bae",
+          "size_bytes": 284832,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 13,
+          "sha1": "9d7d2d732b6442e4661edb0bcff1515103a16632",
+          "size_bytes": 296188,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 14,
+          "sha1": "f558675ebd929b5b0dd6dc8ce52ef92fa1549275",
+          "size_bytes": 245682,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 15,
+          "sha1": "1423ece537a6dbe3e31521896329bc33690c7327",
+          "size_bytes": 91327,
+          "labels_on_page": [
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 16,
+          "sha1": "7f238d7f858cff8d5d33c3a0630e3c98c4828c22",
+          "size_bytes": 235299,
+          "labels_on_page": [
+            "8",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 17,
+          "sha1": "71fb4c24d62d98aa90469c97e8a2bad59064a03a",
+          "size_bytes": 282173,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 18,
+          "sha1": "24803d66e997d9123fddb3d5aa4aeed4df10f949",
+          "size_bytes": 314752,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 19,
+          "sha1": "153830b069aa4b4c4509c665ad6def00f68c55bd",
+          "size_bytes": 266528,
+          "labels_on_page": [
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 25,
+          "sha1": "03a3693b8c1bb2ab94836db7f2c8f4d8b6defc80",
+          "size_bytes": 271348,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 4,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          59
+        ],
+        [
+          "Unisys",
+          7
+        ],
+        [
+          "Softtek",
+          5
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 41,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/outsourcing-application-development-and--59d651/working/observation_candidates_v20.csv"
+    }
+  ]
+}

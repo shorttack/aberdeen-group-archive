@@ -1,0 +1,15 @@
+{
+  "page_count": 23,
+  "filename": "soa_aon_webinar_022206a.pdf",
+  "scores": {
+    "A_benchmark": 0,
+    "B_exec_summary": 0,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 1
+  },
+  "filename_hints": [],
+  "predicted_bucket": "E",
+  "decision_reason": "page_count=23, top_score=1, hints=[]",
+  "is_ambiguous": false
+}

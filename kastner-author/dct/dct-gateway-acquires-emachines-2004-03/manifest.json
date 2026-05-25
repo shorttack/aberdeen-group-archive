@@ -1,0 +1,123 @@
+{
+  "mode": "existing",
+  "slug": "dct-gateway-acquires-emachines-2004-03",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2004 Gateway_s Acquisition of eMachines Bodes Well PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-gateway-acquires-emachines-2004-03/source/original.pdf",
+  "pdf_sha256": "81a17b688f85c73ab8b503627d1c47c1bab1595ae86fd74b0a3fd21b527cac82",
+  "pdf_size_bytes": 161472,
+  "pdf_page_count": 1,
+  "bucket": "C",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "C",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2004 gateway_s acquisition of emachines bodes well psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 1,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "C",
+    "decision_reason": "page_count=1, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:20.993073+00:00",
+  "extracted_title": "Hot Topic: Gateway's Acquisition of eMachines Bodes Well",
+  "title_source": "page1",
+  "matched_study_id": "dct-gateway-acquires-emachines-2004-03",
+  "match_score": 0.8511,
+  "match_candidates": [
+    {
+      "study_id": "dct-gateway-acquires-emachines-2004-03",
+      "title": "Gateway's Acquisition of eMachines Bodes Well",
+      "relative_path": "kastner-author/dct/dct-gateway-acquires-emachines-2004-03",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-gateway-acquires-emachines-2004-03",
+      "lev_ratio": 0.9,
+      "token_ratio": 0.7778,
+      "combined_score": 0.8511,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2006-amd-ati-acquisition-cf19ff",
+      "title": "AMD's Acquisition of ATI: Upsetting the Equilibrium",
+      "relative_path": "kastner-author/2006-amd-ati-acquisition-cf19ff",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2006-amd-ati-acquisition-cf19ff",
+      "lev_ratio": 0.4762,
+      "token_ratio": 0.2143,
+      "combined_score": 0.3714,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2001-hp-cpq-merger-collection-edbca1",
+      "title": "HP's Acquisition of Compaq: Beyond the Naysayers, the Promise and the Opportunity",
+      "relative_path": "other-authors/2001-hp-cpq-merger-collection-edbca1",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/2001-hp-cpq-merger-collection-edbca1",
+      "lev_ratio": 0.4328,
+      "token_ratio": 0.1765,
+      "combined_score": 0.3303,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-gateway-acquires-emachines-2004-03/working/extracted_v20.md",
+      "md_chars": 1778,
+      "md_lines": 55,
+      "elapsed_sec": 0.19
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2004 gateway_s acquisition of emachines bodes well psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 1,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "C",
+      "decision_reason": "page_count=1, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket C does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-gateway-acquires-emachines-2004-03/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "eMachines",
+          2
+        ],
+        [
+          "Peter Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket C does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

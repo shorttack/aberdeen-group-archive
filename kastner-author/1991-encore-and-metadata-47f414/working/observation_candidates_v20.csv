@@ -1,0 +1,16 @@
+char_offset,trigger_labels,sentence
+647,average_stat,Aberdeen Group conducts on average 25 user interviews each month.
+4285,dollar_stat,Aberdeen Group sizes the worldwide market for midrange and mainframe systems hardware and software in the financial and information services markets at $11.3 billion in 1990.
+4461,dollar_stat,We project a 19% annual growth rate — considerably above the industry growth rate — which propels these two markets to about $20 billion in 1994.
+10150,dollar_stat,"We suggest a fully configured two-node low-end system is appropriate to the financial and information services markets at a $250K price point, and that a high-end system in the $5 million range is also appropriate, with a clear expansion growth path in between."
+13399,dollar_stat,"Sequent has achieved modest success in the financial and information services markets, but Sequent sells primarily at the $100K - $150K price band."
+34892,best_in_class,"With an innovative and extensible system, Adaptive Computing has the opportunity to be the best-in-class platform for early1990s information applications."
+37117,best_in_class,"Often, best-in-class systems are purchased for specific line-of-business applications."
+37658,dollar_stat,Aberdeen Group sizes the financial and information services markets at $11.3 billion in 1990 for hardware and software products in the $25K-and-above midrange and mainframe price bands which Encore has targeted for Adaptive Computing.
+37894,dollar_stat,While under-$25K solutions (e.g.
+37927,dollar_stat,"PCs) are growing rapidly, the financial and information services markets typically demand compatible solutions which scale from $50K to several million dollars."
+38090,dollar_stat,We project the financial and information services to grow to approximately $20 billion in 1994.
+45448,dollar_stat,"This would consist of two dual-processor Series 91s (one for computing and one as an I/O channel), 16 MB of RMS and 4GB of DASD for $250,000."
+49136,dollar_stat,"Aberdeen recommends that the base level package consist of two dual-processor Series 91s with 16 MB of reflective memory and 4 GB of DASD for approximately $250,000."
+49702,dollar_stat,"For example, an Adaptive 893 consisting of 8-System 93s, 1 GB main memory, 4-64MB RMSs, and 12 GB DASD system priced at approximately $5 million."
+59765,dollar_stat,Note that the typical Teradata system is configured at $1M-$1.2M and then has $.5M of upgrades over the next 18 months.

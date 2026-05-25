@@ -1,0 +1,10 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+compaq,Compaq,company,computing/pc-server,2,g  N o .   2<br>Message &<br>Enqueue Server<br>10base T<br>Compaq ProLiant 4000s Compaq ProLiant 4000s<br>LANs<br>**----- End
+aberdeen-group,Aberdeen Group,firm,IT market analysis,1,"ally omitted <==**  Peter S. Kastner Chief Research Officer Aberdeen Group, Inc. One Boston Place Boston, MA  02108 (617) 723-7890 www"
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"os?   **==> picture [648 x 31] intentionally omitted <==**  Peter S. Kastner Chief Research Officer Aberdeen Group, Inc. One Boston Plac"
+informix,Informix,company,relational database software,1,"ed <==**  **----- Start of picture text -----**<br> Oracle, Informix, DB2/MVS, IMS,<br>Ingres,<br>Jasmine Sybase VSAM, IDMS<br>T"
+intel,Intel,company,semiconductors,1,processing against a replicated database** PC desktops and Intel/Risc Office Server_   ## IS Reality: Enormous Complexity
+oracle,Oracle,company,enterprise software,1,"ly omitted <==**  **----- Start of picture text -----**<br> Oracle, Informix, DB2/MVS, IMS,<br>Ingres,<br>Jasmine Sybase VSAM,"
+fortune-1000,Fortune 1000,institution,market-segment-definition,1,==> picture [34 x 37] intentionally omitted <==**  _“95% of Fortune 1000 Will Have Intranets By 2000” -- Forrester_   ## Data Wareho
+ingres,Ingres,company,database software,1,"picture text -----**<br> Oracle, Informix, DB2/MVS, IMS,<br>Ingres,<br>Jasmine Sybase VSAM, IDMS<br>TCP/IP LU 6.2<br>Web  Trad"
+ent-16,Sybase,software-vendor,database-software,1,"*<br> Oracle, Informix, DB2/MVS, IMS,<br>Ingres,<br>Jasmine Sybase VSAM, IDMS<br>TCP/IP LU 6.2<br>Web  Traditional<br>Applicat"

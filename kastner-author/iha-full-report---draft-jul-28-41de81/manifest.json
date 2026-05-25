@@ -1,0 +1,123 @@
+{
+  "mode": "existing",
+  "slug": "iha-full-report---draft-jul-28-41de81",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2004 Consumer Adoption of Memory Cards_ A Qualitative Study PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/iha-full-report---draft-jul-28-41de81/source/original.pdf",
+  "pdf_sha256": "6e36a3ad609655c815ce39ee0aad76ec92f9c9b1c0c4ce1dcede7f9c742095b9",
+  "pdf_size_bytes": 160872,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2004 consumer adoption of memory cards_ a qualitative study psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:19.070241+00:00",
+  "extracted_title": "Executive Summary: Consumer Adoption of Memory Cards: A Qualitative Study",
+  "title_source": "page1",
+  "matched_study_id": "iha-full-report---draft-jul-28-41de81",
+  "match_score": 0.8329,
+  "match_candidates": [
+    {
+      "study_id": "iha-full-report---draft-jul-28-41de81",
+      "title": "Consumer Adoption of Memory Cards: A Qualitative Study",
+      "relative_path": "kastner-author/iha-full-report---draft-jul-28-41de81",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/iha-full-report---draft-jul-28-41de81",
+      "lev_ratio": 0.8548,
+      "token_ratio": 0.8,
+      "combined_score": 0.8329,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "fixups~1-a1d68b",
+      "title": "Practice Summary Production Editing Notes",
+      "relative_path": "aberdeen-group-inc/practice-summaries/fixups~1-a1d68b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/aberdeen-group-inc/practice-summaries/fixups~1-a1d68b",
+      "lev_ratio": 0.4643,
+      "token_ratio": 0.0714,
+      "combined_score": 0.3071,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "soa-overview-docx-12612f",
+      "title": "Summary of Peter Kastner's Research on Service-Oriented Architecture (SOA)",
+      "relative_path": "kastner-author/employer/aberdeen-group/soa-overview-docx-12612f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-overview-docx-12612f",
+      "lev_ratio": 0.4056,
+      "token_ratio": 0.1053,
+      "combined_score": 0.2855,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/iha-full-report---draft-jul-28-41de81/working/extracted_v20.md",
+      "md_chars": 1651,
+      "md_lines": 53,
+      "elapsed_sec": 0.23
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2004 consumer adoption of memory cards_ a qualitative study psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/iha-full-report---draft-jul-28-41de81/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Peter Kastner",
+          1
+        ],
+        [
+          "Internet Home Alliance",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

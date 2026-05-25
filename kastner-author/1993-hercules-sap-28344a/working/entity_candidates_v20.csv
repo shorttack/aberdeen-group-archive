@@ -1,0 +1,17 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+oracle,Oracle,company,enterprise software,14,"n its core, mission-critical applications.  SAP R3 will use Oracle 6 as the back-end RDBMS (relational database management sys"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,8,"rprise-wide information network.   ## Aberdeen Background   Aberdeen Group, a market research and consulting firm, has considerable ex"
+digital-equipment-corporation,Digital Equipment Corporation,company,technology/minicomputers,3,"pport the running of R3 on multiuser Risc/Unix systems from Digital Equipment Corporation (DEC), Hewlett-Packard (HP), and IBM.   Aberdeen's assignme"
+hewlett-packard,Hewlett-Packard,company,technology hardware,3,"Risc/Unix systems from Digital Equipment Corporation (DEC), Hewlett-Packard (HP), and IBM.   Aberdeen's assignment was to recommend whi"
+dec,Digital Equipment Corporation (DEC),company,minicomputer / computing,2,"pport the running of R3 on multiuser Risc/Unix systems from Digital Equipment Corporation (DEC), Hewlett-Packard (HP), and IBM.   Aberdeen's assignment was"
+google,Google,company,technology / cloud,2,s/nda/2019 /761112Orig1s000MultiR.pdf   [9] https://patents.google.com/patent/US8117078   ## [10]   https://www.ncbi.nlm.nih.g
+ent-004,Hewlett-Packard (HP),company,computer-hardware,2,"Risc/Unix systems from Digital Equipment Corporation (DEC), Hewlett-Packard (HP), and IBM.   Aberdeen's assignment was to recommend which of"
+software-ag,Software AG,company,Enterprise Software,1,racle RDBMS to be the back-end database engine.  (Note that Software AG's   ADABAS is an alternative option for those that need hig
+intel,Intel,company,semiconductors,1,"the past for VAX/Ultrix, MIPS/Ultrix, VAX/Unix   SVR4, and Intel/SCO, Aberdeen doubts that there is strong Digital expertise"
+hitachi,Hitachi,company,IT-hardware,1,"te.  While HP is concentrating on midrange implementations, Hitachi is developing next-generation high-end PA-Risc processors a"
+hercules-inc,Hercules Inc.,company,specialty-chemicals,1,"pliers, Digital Equipment Corporation, IBM, Aberdeen Group, Hercules Inc.   Citations:   [1] https://ppl-ai-file-upload.s3.amazonaws."
+motorola,Motorola,company,semiconductors,1,"family that it is developing in conjunction with Apple and Motorola.  From a technology perspective, this also implies a major"
+ENT-013,Peter Kastner,person,market-research,1,"clusions as stated above, please do not hesitate to contact Peter Kastner or me.   With warm regards,   John R. Logan Vice President"
+unix-international,Unix International,institution,standards,1,"s caused a conciliation between OSF and its one-time rival, Unix International.  And since OSF1 from Digital has only been generally avail"
+john-r-logan,John R. Logan,person,IT-analyst,1,"tate to contact Peter Kastner or me.   With warm regards,   John R. Logan Vice President   ## **2024 Metadata**   ### 1. Concise Summ"
+process-manufacturing-industry,Process Manufacturing Industry,institution,manufacturing-sector,1,R3 Status   SAP has had tremendous success recently in the process manufacturing industry with large enterprises.  Aberdeen has met with several such

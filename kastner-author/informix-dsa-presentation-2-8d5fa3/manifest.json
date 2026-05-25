@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "informix-dsa-presentation-2-8d5fa3",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Informix DSA presentation.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3/source/original.pdf",
+  "pdf_sha256": "c02e92e894edae3e3f36e74b838806e463f87c320783bdab3498860eba1df49c",
+  "pdf_size_bytes": 264160,
+  "pdf_page_count": 67,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 67,
+    "filename": "informix dsa presentation.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=67, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:41:18.620039+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "informix-dsa-presentation-2-8d5fa3",
+  "match_score": 0.9426,
+  "match_candidates": [
+    {
+      "study_id": "informix-dsa-presentation-2-8d5fa3",
+      "title": "Choosing The Right Markets and the Right Partners for Informix",
+      "relative_path": "kastner-author/informix-dsa-presentation-2-8d5fa3",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3",
+      "lev_ratio": 0.9426,
+      "token_ratio": 0.9426,
+      "combined_score": 0.9426,
+      "match_via": "slug_prefix",
+      "matched_stem": "informix-dsa-presentation-2"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3/working/extracted_v20.md",
+      "md_chars": 19759,
+      "md_lines": 893,
+      "elapsed_sec": 2.41
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 67,
+      "filename": "informix dsa presentation.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=67, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 16,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Informix",
+          12
+        ],
+        [
+          "Fortune 1000",
+          2
+        ],
+        [
+          "Aberdeen Group",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/informix-dsa-presentation-2-8d5fa3/working/observation_candidates_v20.csv"
+    }
+  ]
+}

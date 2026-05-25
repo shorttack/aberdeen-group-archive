@@ -1,0 +1,66 @@
+char_offset,trigger_labels,sentence
+1913,percentage_stat,Such factors leave Aberdeen to conservatively estimate that _**industry is wasting between 15 and 25 percent of its IT investment.**_
+5402,figure_reference,Figure 1: Overall Pressures Requiring IT Budget Attention ..................................................2 Figure 2: Aggregate Prioritized Responses to Pressures........................................................3 Figure 3: Prioritized Pressures by Class of User....................................................................5 Figure 4: IT Budget Process vs.
+5774,figure_reference,Customer Satisfaction.........................................................8 Figure 5: IT Budget Process vs.
+5886,figure_reference,IT Spend as a Percent of Revenue ......................................9 Figure 6: IT Budget Process vs.
+5991,figure_reference,Number of IT Vendors ........................................................9 Figure 7: Measurement Approach by Process Maturity.......................................................10 Figure 8: IT Budget Governance vs.
+6213,figure_reference,Process Maturity ........................................................11 Figure 9: Barriers to IT Budget Improvement......................................................................12 Figure 10: Frequency of IT budget process measurements..................................................13 Figure 11: Measurement Approach by Process Maturity.....................................................13 Figure 12: IT Budget Governance vs.
+6655,figure_reference,"Process Maturity ......................................................14 Figure 13: Company’s Self-Assessments in IT Spend as a Percent of Revenue..................16 Figure 14: IT Activities, Showing Candidate Service Levels ..............................................18 **Tables**"
+9949,figure_reference,The highest pressure CIOs face overall is users requiring new function (Figure 1).
+10834,figure_reference,**Figure 1: Overall Pressures Requiring IT Budget Attention**
+12765,figure_reference,"Oddly, the highest priority response is not focused on supporting new customer demand, as seen in Figure 2."
+13122,figure_reference,**Figure 2: Aggregate Prioritized Responses to Pressures**
+13819,best_in_class,"By analyzing this apparent discontinuity in more depth, the data reveals a vast difference in IT budgeting approach between best-in-class firms and the remainder."
+16461,best_in_class,What is more striking is the shift in priorities among different populations as the data are sorted by best-in-class vs. the rest.
+16592,best_in_class,"In best-in-class firms, the actions, capabilities, and enablers are more closely aligned with responding to customer demand for new or enhanced functions."
+16747,figure_reference,The difference is the degree of alignment within the IT organization: best-inclass IT organizations are distinctly effective in investing proportionately to support customer needs (Figure 3).
+17089,figure_reference,**Figure 3: Prioritized Pressures by Class of User**
+17711,best_in_class,Best-in-class firms prioritize the pressures they face quite differently from the rest.
+17799,best_in_class,"While most identify customer requirements as the largest pressure, for best-in-class firms that is in third place, behind sustaining IT alignment and watching expenses."
+17968,best_in_class,"This is not because Best in Class ignore customer requirements, but because they understand that by sustaining IT alignment they will be sure to meet the most crucial customer requirements as a normal part of doing business."
+18313,best_in_class,"Also, the Best in Class see inadequate expertise (regarding IT budgeting) as a much lower priority concern than the rest."
+18435,best_in_class,"This again is not because best in class don’t recognize this as a problem; rather, it is directly because best-in-class firms have solved that problem."
+18987,best_in_class,The differences between best-in-class firms and the rest appear across all industry sectors and all sizes of enterprise.
+22545,best_in_class,Best-in-class performers see the most significant challenge as sustaining alignment with business strategic priorities
+22668,best_in_class,• Best-in-class performers respond to the challenge by establishing customer-centric service levels based on business-relevant metrics
+22996,best_in_class,"s shown in Table 2, survey respondents fell into one of three categories – Laggard, Industry Average, or Best in Class — based on their characteristics in four key A categories: (1) process (IT acquisition and lifecycle degree of standardization); (2) organization (degree of center-led purchasing governance); (3) knowledge (richness of build/buy/outsource strategy); and (4) technology (tools supporting consistent measurable governance)."
+24714,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Performance**<br>**Metrics**|Ad hoc, problem-<br>specific, if at all, no<br>way to break down IT<br>cost drivers|Some standard metrics<br>used by division; mix of<br>business and IT-centric<br>measurements, gov-<br>erned by CIO (probably<br>understands IT cost<br>drivers, but not busi-<br>ness value)|Leadership team atten-<br>tion to minimal but key<br>set of business-<br>relevant metrics devel-<br>oped with user execu-<br>tives (combine IT cost<br>drivers with business<br>value)|"
+25319,best_in_class;figure_reference,"In each of these categories, survey results show that the firms exhibiting best-in-class IT budget characteristics also enjoy best-in-class customer satisfaction and IT spend as a percent of revenue (Figure 4 and Figure 5)."
+25545,figure_reference,## **Figure 4: IT Budget Process vs.
+26323,figure_reference,**Figure 5: IT Budget Process vs.
+27164,figure_reference,Across all groups there was an improvement in number of vendors following the adoption or enhancement of the IT budget process (Figure 6).
+27459,figure_reference,**Figure 6: IT Budget Process vs.
+27573,best_in_class,"**----- Start of picture text -----**<br>
+Number of Critical IT Vendors<br>20<br>15<br>10<br>5<br>0<br>Best in class Industry average Laggard<br>Number of Vendors Before IT Budget Improvement<br>Number of Vendors After IT Budget Improvement<br>**----- End of picture text -----**<br>"
+29175,best_in_class;figure_reference,"Across all polled industry categories, continuous monitoring is the hallmark approach of the best in class. (Figure 7)."
+29420,figure_reference,**Figure 7: Measurement Approach by Process Maturity**
+29797,best_in_class,"Avg<br>measurements, governed by<br>Best in Class<br>CIO<br>Ad hoc, problem-specific, if at<br>all, no way to break down IT<br>cost drivers<br>0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8<br>**----- End of picture text -----**<br>"
+30207,figure_reference,"Similarly, leading organizations generally deploy standards-based IT budget methods and govern the IT lifecycle consistently firm-wide (Figure 8)."
+30354,best_in_class,"Consistent, business-relevant service level metrics, financially designed to link business value to IT cost, are applied firmwide in nearly two-thirds of all best-in-class firms, and in no firms identified as laggards."
+30575,figure_reference,**Figure 8: IT Budget Governance vs.
+31989,figure_reference,"The barriers to budget pressures vary by company size, as Figure 9 shows."
+32217,figure_reference,**Figure 9: Barriers to IT Budget Improvement**
+33071,best_in_class;dollar_stat,"In other words, the benefits of best-in-class performance are not restricted to the large ($1B or greater annual revenue) firms: all can benefit from process improvements."
+33462,best_in_class;figure_reference,"Here the divergence between the laggards and the Best in Class is dramatic: laggards do not do continuous measurements, and best-in-class firms rarely use ad-hoc reporting techniques to understand their IT budgeting processes (Figure 10)."
+33852,figure_reference,## **Figure 10: Frequency of IT budget process measurements**
+33971,best_in_class,"**----- Start of picture text -----**<br>
+Which of the following best describes how frequently your organization<br>measures your IT budgeting process?<br>0<br>Continuous tracking 0.27173913<br>0.511627907<br>0.257142857<br>As part of a general<br>0.326086957<br>budget roll-up<br>0.325581395<br>0.742857143<br>Ad hoc, problem driven<br>0.402173913<br>only<br>0.162790698<br>0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8<br>Best in class Industry Average Laggard<br>**----- End of picture text -----**<br>"
+34506,best_in_class;figure_reference,"Across all polled industry categories, continuous monitoring is the hallmark approach of the Best in Class. (Figure 11)."
+34752,figure_reference,**Figure 11: Measurement Approach by Process Maturity**
+35536,figure_reference,"Similarly, leading organizations generally deploy standards-based IT budget methods and govern the IT lifecycle consistently, firm-wide. (Figure 12)"
+35687,figure_reference,## **Figure 12: IT Budget Governance vs.
+37335,figure_reference,"All firms should examine their prioritized PACE selections and determine whether there are valuable perspectives to be gleaned by comparison with the PACE priorities of best-inclass companies (Figure 3, above)."
+40030,best_in_class;figure_reference,"And yet, best-in-class firms are modest – or very worried – about their position regarding possible competitors (Figure 13)."
+40495,figure_reference,## **Figure 13: Company’s Self-Assessments in IT Spend as a Percent of Revenue**
+40768,best_in_class,"**----- Start of picture text -----**<br>
+Below  average<br>Average<br>Better than average<br>0 0.1 0.2 0.3 0.4 0.5<br>Best In Class Industry Average Laggard<br>**----- End of picture text -----**<br>"
+42468,best_in_class,"Whether a company is trying to gradually move its IT budget performance from “Laggard” to “Industry Average,” or from “Industry Average” to “Best in Class,” the following actions will help drive the desired performance improvements:"
+43701,figure_reference,In the universe of IT activities (Figure 15) there is a subset which is measurable by the IT organization.
+43984,figure_reference,"**Figure 14: IT Activities, Showing Candidate Service Levels**"
+47548,best_in_class,## **Best in Class Next Steps**
+52164,dollar_stat,"For the four fiscal quarters ended July 31, 2004, HP revenue totaled $78.4 billion."
+56636,percentage_stat,"High-tech and software manufacturers represented 12% of the sample, followed closely by education, which accounted for 11% of respondents, and computer equipment and peripherals, also 11%."
+56825,percentage_stat,The public sector totaled 10% of respondents.
+57248,percentage_stat;dollar_stat,_**Company size** :_ About 16% of respondents were from large enterprises (annual revenues above US$1 billion); 21% were from midsize enterprises (annual revenues between $50 million and $1 billion); and 63% of respondents were from small businesses (annual revenues of $50 million or less).

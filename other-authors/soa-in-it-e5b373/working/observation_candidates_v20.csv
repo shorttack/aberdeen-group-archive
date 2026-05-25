@@ -1,0 +1,55 @@
+char_offset,trigger_labels,sentence
+1438,percentage_stat,"Only 16% of companies that responded to a recent Aberdeen survey have had more than 24 months of experience with SOA (21% in large companies), and 15% of respondents have managed or completed at least three SOA-related projects (large companies: 27%)."
+1922,percentage_stat,"The top challenge to SOA adoption, cited by 41% of survey respondents, is “limited visibility for SOA value.” This may be a golden opportunity for CIOs to focus on the end-result of SOA business benefits rather than become enamored by the technology itself."
+2321,dollar_stat,"We predict that over the next five years, the top Global 2000 organizations have a potential to save $53 billion from their IT budgets as a result of SOA bearing fruit in reducing software implementation costs."
+2935,percentage_stat,"It’s no surprise that the top factor for implementing SOA, cited by 50% of survey respondents, is “development of new capabilities.” Another related factor is the impact SOA is having on IT budgets relating to innovation and software maintenance costs."
+3188,best_in_class;percentage_stat,"On average, best-in-class (BIC) companies spend 29.6% of their IT budgets on innovation versus 18.5% for all companies surveyed."
+3317,percentage_stat,"Furthermore, BIC companies report that they spend only 12.4% of their IT budgets on software maintenance as opposed to 27.3% for all participants."
+5181,percentage_stat,"Sixty percent of BIC companies say they’re re-engineering their software architectures, versus 32% of all companies surveyed."
+12522,percentage_stat;dollar_stat,A $10 billion company with a $300 million IT budget can save $30 million per year from a broad SOA adoption after a 5-year horizon of implementing SOA in at least 75% of its applications.
+15142,percentage_stat,Only 16% of companies in the Aberdeen survey have more than 24 months of experience with SOA technologies (21% among large companies).
+15443,figure_reference,This indicates that experience and adoption levels vary widely across companies and tends to be higher for larger firms. (Figure 1).
+15578,best_in_class,"As for personal experience with SOA projects, respondents at companies Aberdeen judges as best in class have more experience than average respondents have."
+15758,best_in_class,Best-in-class companies have a leg up over others and are already reaping the benefits of SOA.
+15939,figure_reference,**Figure 1: Company Experience with SOA Projects**
+17593,percentage_stat,"Based on survey analysis and interviews with several respondents, Aberdeen estimates that SOA adoption can save 25% of application deployment costs when a full lifecycle project is implemented."
+17923,dollar_stat,"Over the next five years, Global 2000 companies will save up to $53 billion from their IT budgets once SOA bears fruit."
+18045,dollar_stat,that Global 2000 companies can potentially save $53 billion from their IT budgets when SOA bears fruit in the form of reducing software implementation costs.
+19220,percentage_stat,It’s no surprise that 50% of large companies cite “alignment with the business” as the top factor that drove their firms to initiate or implement SOA.
+19371,figure_reference;percentage_stat,"This is closely followed by “managing IT complexity,” also cited by 49% of large companies (Figure 2)."
+19627,figure_reference,## **Figure 2: Top Three Factors Driving SOA Implementations**
+20116,best_in_class,Average Best in Class
+21161,best_in_class;percentage_stat,"This is the case for 67% of best-in-class companies, further accentuating the importance of SOA as a catalyst that can unlock the potential for IT to contribute more directly to the business."
+25265,figure_reference,"However, what’s surprising in Figure 3 is that few companies have allowed a business manager to lead SOA efforts; even fewer are allowing an SOA competency center to take that role."
+26960,percentage_stat,The importance of the SOA architect is primordial: 60% of BIC companies are reengineering their software architecture versus 32% of all survey respondents.
+27116,percentage_stat,"And, 64% of companies with more than 24 months of SOA experience predict there will be a surge in the prominence of IT architects, versus 48% of the entire survey field."
+27444,figure_reference,**Figure 3: Who Leads SOA Efforts in Your Organization?**
+28128,percentage_stat,"Standing in the way of SOA implementations, according to 41% of survey respondents, is limited visibility for SOA value (Table 2)."
+29644,best_in_class;figure_reference;percentage_stat,Fifty-five percent of all companies surveyed ─ and 67% of best-in-class firms ─ have started SOA projects to showcase early success (Figure 4).
+30125,percentage_stat,A further analysis reveals that 47% of BIC respondents have done more than two projects versus 26% for all respondents in the survey.
+30410,figure_reference,**Figure 4: Top Three Strategic Actions or Plans to Address/Implement SOA**
+30543,best_in_class,"**----- Start of picture text -----**<br>
+SOA pilots to showcase 67%<br>succes 55%<br>Re-engineering software 60%<br>architecture 41%<br>Joint strategic 37%<br>plan/roadmap 36%<br>Changing the IT delivery 23%<br>model 26%<br>Company 23%<br>awareness/education 29%<br>13%<br>IT strategic plan/roadmap 27%<br>27%<br>IT technical training 25%<br>Software applications 7%<br>portfolio assessment 20% Best in Class<br>17% Average<br>Discuss SOA outside IT<br>18%<br>0% 10% 20% 30% 40% 50% 60% 70% 80%<br>**----- End of picture text -----**<br>"
+31189,best_in_class,"Best-in-class companies have a slightly different view on SOA challenges, reflecting their IT maturity level."
+31299,percentage_stat,"First, only 33% of BIC companies indicated that limited visibility for SOA value was a challenge (versus 41% for all respondents)."
+31430,percentage_stat,"Second, 57% of BIC companies cited “not enough in-house business analysts versed in SOA” as a key challenge, in addition to limited in-house IT skills (37% for BIC; 32% for all respondents)."
+31621,figure_reference;percentage_stat,"This is a true reflection of the impact SOA is having on the IT organization: 48% of respondents believe IT architects will become increasingly prominent, and 31% predict business analysts will become more important than programmers (Figure 5)."
+32318,figure_reference,**Figure 5: Likely Scenarios in Three Years as a Result of SOA Adoption**
+33492,best_in_class,• Even best-in-class companies are not taking strategic approaches to SOA planning.
+33583,best_in_class,Best-in-class companies show a much higher rate of adoption in composite applications deployment.
+34078,figure_reference,**Figure 6: Areas of SOA Being Implemented**
+34726,figure_reference,"Figure 6 shows that experienced adopters have taken the lead in three key areas of SOA implementation: 1) integration, 2) application development, and 3) business process modeling."
+35343,figure_reference,Follow-up interviews with a number of advanced SOA users allowed us to categorize measurable benefits into three categories (Figure 7):
+35481,figure_reference,**Figure 7: The Three Dimensions of SOA’s Value**
+37475,percentage_stat,Even 34% of BIC companies are lagging in taking a strategic approach to SOA.
+38074,figure_reference,Figure 8 shows how organizations are likely to adopt the various SOA technologies over the next 24 months.
+38753,figure_reference,**Figure 8: SOA Technology Components Use**
+41875,figure_reference,Figure 9 shows that it’s no surprise that integration ranks as the highest SOA activity area within organizations.
+42336,figure_reference,**Figure 9: Areas of SOA Being Implemented or Planning to be Implemented**
+42859,best_in_class,Best in Class companies have found that SOA adoption lowers IT maintenance costs and enables more spending on innovation.
+43980,best_in_class,"In fact, the IT budget as a percentage of total revenue spent on innovations was 29.6% for best-in-class companies with more than two SOA projects under their belts, versus 18.5% for all survey respondents."
+47937,best_in_class,"Whether a company is trying to gradually move its SOA practices from Laggard to Industry Average, or Industry Average to Best in Class, the following actions will help spur the necessary performance improvements:"
+49075,best_in_class,## **Best in Class Next Steps**
+58846,percentage_stat,"Discrete manufacturing companies totaled 41% of the sample, followed by servicesbased industries (24%), consumer-based (19%), public sector (9%) and process manufacturing (4%)."
+59023,percentage_stat,Less than half (11% of total) of the services industries respondents consisted of financial services institutions.
+59492,percentage_stat;dollar_stat,_**Company size** :_ About 30% of respondents were from large enterprises (annual revenues of more than $1 billion); 28% were from mid-size enterprises (annual revenues between $50 million and $1 billion); and 41% were from small businesses ($50 million or less).

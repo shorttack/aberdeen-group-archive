@@ -1,0 +1,6 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+aberdeen-group,Aberdeen Group,firm,IT market analysis,8,"**<br>   ‘Enabling More Value from Enterprise Applications’ Aberdeen Group, May 2006   ESB technology is supplementing EAI and related"
+microsoft,Microsoft,company,Software,6,"gory, which is dominated by small-to-mid-size companies and Microsoft .Net sites, is predominantly focused on light-weight Web se"
+oracle,Oracle,company,enterprise software,4,ne-sixth of respondents view SAP as a primary SOA vendor.  (Oracle does slightly better but sells its SOA middleware standalon
+bea-systems,BEA Systems,company,enterprise middleware,4,"incumbent Enterprise Application Integration (EAI) vendors BEA Systems and webMethods are the leader and number three, respectivel"
+peter-kastner,Peter S. Kastner,person,IT Market Research,2,"s: an SOA Middleware Foundation   ## **Author Profile**   **Peter S. Kastner, Research Vice President and Co-Founder Enterprise Integrat"

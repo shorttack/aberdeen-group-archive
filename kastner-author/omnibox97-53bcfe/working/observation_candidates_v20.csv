@@ -1,0 +1,31 @@
+char_offset,trigger_labels,sentence
+4527,dollar_stat,"Having successfully developed and field-tested the key components of its network infrastructure, OmniBox, Inc. seeks $7 million in funding to support the national roll out, marketing and sales of the OmniBox Interactive Broadcasting Network in 1997."
+5676,percentage_stat,"The simple reason is demographic: while computers can be found in over 30 percent of U.S. homes (Statistical Research, Inc., 1995), every household that cares to has one TV -- if not more."
+6315,dollar_stat,"**----- Start of picture text -----**<br>
+Cable On-Line Revenue Forecasts<br>($ Millions)<br>$1,000<br>$800<br>$600<br>Paul Kagan Assoc.<br>$400 Forrester Research<br>$200<br>$0<br>1996 1997 1998 1999 2000<br>**----- End of picture text -----**<br>"
+6566,figure_reference,## **Figure 1 — Cable TV On-Line Revenue Forecasts by Two Market Research Firms**
+6812,figure_reference;dollar_stat,"Market researchers project a $1 billion market for on-line, interactive services by the year 2000 (see Figure 1)."
+13798,dollar_stat,OmniBox projects $7.08 million in net income from gross sales of $27.78 million in 1997; and $36.1 million net income in 1998; and net income of $110 million in the fifth year of operation (2001).
+13997,dollar_stat,OmniBox seeks a $7 million equity investment to commence operations of the OmniBox Network in 1997.
+14785,dollar_stat,A 1996 report by Frost & Sullivan projects the market for interactive television and associated advertising to reach $1 billion by 2002.
+18011,percentage_stat,"A 1995 survey by Statistical Research, Inc. found that 25 percent of today’s households could support an interactive delivery system requiring a co-located TV, phone line and PC, while over 80 percent could use a system requiring only a co-located TV and phone line, and 75 percent could receive interactive TV delivered over a cable network."
+22256,percentage_stat,"_**Small to Mid-Sized Cable Operators**_ Approximately 11,000 cable systems in the small to mid-sized category serve 20 million U.S. cable subscribers; in fact, 90 percent of TCI’s systems have 20,000 subscribers or less."
+22717,dollar_stat,"But while the Time Warner’s with their large subscriber base and the cash-rich telcos can afford to underwrite these services, smaller operators with their limited subscriber base cannot raise the capital to finance new head-end equipment or the $300-and-up set-top boxes that would provide digital interactive services to subscriber homes."
+24152,dollar_stat,"Focusing on these smaller MSU operators in 1997, OmniBox will offer a $175 set-topand-financing package that requires only a $100 capital outlay (what the operator currently pays for analog set-tops) and bank financing for the remaining $75-per-box."
+25163,dollar_stat,"Implementing a typical Full Service Network such as Time Warner’s is estimated to cost $50,000 per video stream for real-time encoding alone, without file servers, sophisticated switching networks, amplifier overhauls and other system costs."
+25406,dollar_stat,"Operators can implement the OmniBox Network for _$10,000 per video_ stream and _no_ head-end costs."
+27018,dollar_stat,"Although untested, this market has potential in the $100 million-and-up market range by the year 2000."
+27122,dollar_stat,The two key enablers will be $300 (retail) CD-ROM recorders (estimated in 1998) and greater digital bandwidth into the home (1996 and after).
+27512,dollar_stat,"any pay-TV service, as virgin markets for pay-TV services (a $3.4 billion worldwide market in 1994)."
+28119,dollar_stat,"_**Lowest cost solution**_ -- For cable operators, the combination of no head-end rewiring, an economical $10,000-per-video stream encoding cost, and set-top financing represents the most affordable solution available."
+37976,dollar_stat,Among his achievements was a merger agreement with a well-known radio broadcasting entity resulting in net profits of $20 million within 18 months; an $80 million debt restructuring agreement for below-market terms; and sale of an asset at an 80 percent premium over the historical valuation.
+38427,dollar_stat,"Knollmeyer assisted entertainment, broadcasting and media clients in acquisitions of aggregate transaction value exceeding $600 million."
+38968,percentage_stat,"Vandervort increased profitability in a mature market, developing key executive-level relationships among the Multiple Cable System Operator (MSO) companies who control 60 percent of the industry’s retail volume -- and who represent a major market for OmniBox."
+44289,dollar_stat,"Although untested, this market has potential in the $100 million-and-up market range by the year 2000 according to Aberdeen Group."
+44421,dollar_stat,The two key enablers will be $300 (retail) CD-ROM recorders (estimated in 1998) and greater digital bandwidth into the home (1996 and after).
+48556,dollar_stat,"For an equity investment of $7 million, OmniBox’s complete, ready-to-use system solution will give investors as well as customers early access to the potential multi-billion home-based electronic commerce market, with revenue-generating results that anticipate strongly profitable operations beginning with the first year of operations."
+54533,dollar_stat,"|Equity Invested<br>Ownership % for Equity Invested<br>Fully Diluted Shares pre-investment<br>New Shares to Investors<br>**_Fully Diluted Shares post-investment_**<br>Imputed Valuation<br>**_Imputed Price per Share_**<br>Debt Financing:<br>Principal Amount<br>Rate<br>Term<br>Amortization|$5,000<br>10.0%<br>10,000 _{As of December xx, 1996 }_<br>1,111<br>**_11,111_**<br>$50,000<br>**_$4.50_**<br>$0<br>0.0%<br>0 Yrs.<br>0 Yrs.|
+|---|---|"
+62174,dollar_stat,"|Year 5 Results<br>Multiple<br>Enterprise Value<br>Cash<br>Debt<br>Equity Value<br>Shares Outstanding<br>Per Share Price<br>Imputed Value on Day 1<br>IRR|**EBITDA**<br>$183,625<br>10.0<br>1,836,247<br>273,757<br>0<br>2,110,004<br>11,111<br>$189.90<br>$4.50<br>4120.0%|**P/E**<br>$9.90<br>15.0<br>N/A<br>N/A<br>N/A<br>$148.53<br>$4.50<br>3200.7%|
+|---|---|---|
+||4120.0%|3200.7%|"

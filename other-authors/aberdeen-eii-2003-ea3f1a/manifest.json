@@ -1,0 +1,256 @@
+{
+  "mode": "existing",
+  "slug": "aberdeen-eii-2003-ea3f1a",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Aberdeen EII 2003.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a/source/original.pdf",
+  "pdf_sha256": "c3bdd77162fe092767530b1a63ae57b1191ac6e8a1c86cb1c527eed6bbb05d6e",
+  "pdf_size_bytes": 1535715,
+  "pdf_page_count": 73,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 73,
+    "filename": "aberdeen eii 2003.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 1,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=73, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:51.088687+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "aberdeen-eii-2003-ea3f1a",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "aberdeen-eii-2003-ea3f1a",
+      "title": "Enterprise Information Integration: The New Way to Leverage E-information (Second Edition)",
+      "relative_path": "other-authors/aberdeen-eii-2003-ea3f1a",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "aberdeen-eii-2003"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a/working/extracted_v20.md",
+      "md_chars": 148249,
+      "md_lines": 1447,
+      "elapsed_sec": 4.62
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 73,
+      "filename": "aberdeen eii 2003.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 1,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=73, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 14,
+      "figures_extracted": 14,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 5,
+          "sha1": "59f977c95a7d9c2d0bb9a1f891cace7fba61fe91",
+          "size_bytes": 98460,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 17,
+          "sha1": "922c9f34ec520527aad5f607e4db02dccd17ad0a",
+          "size_bytes": 398483,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 21,
+          "sha1": "da391d494678e28b7b7f384d88204ebf5d5c9478",
+          "size_bytes": 272352,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 23,
+          "sha1": "b14d43646ad71b30780872e8b6f7b00bfc2eec4d",
+          "size_bytes": 233436,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 24,
+          "sha1": "9cef6267308921ca42fb451123c3aa1206e39846",
+          "size_bytes": 218364,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 27,
+          "sha1": "2e5f1df99a67194bfe320ffb9d28a4ba3d5b3929",
+          "size_bytes": 195938,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 34,
+          "sha1": "424d775415bdcff0518e0e1bd67095a3d66235d4",
+          "size_bytes": 253893,
+          "labels_on_page": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 36,
+          "sha1": "2fadea9e85b5db7d25f46e860cbb2e2f3937620c",
+          "size_bytes": 448929,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 37,
+          "sha1": "f7c10ed75b8427e51bdf91e71d1946b60573127e",
+          "size_bytes": 190594,
+          "labels_on_page": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 50,
+          "sha1": "8d73a9467c664098dea7d9213d1b36384997a0fc",
+          "size_bytes": 209034,
+          "labels_on_page": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 51,
+          "sha1": "1d72f782116dd649341e137d72d43be15ee9b1cf",
+          "size_bytes": 187582,
+          "labels_on_page": [
+            "6",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 52,
+          "sha1": "c9e965e0291dfa405986645d586471541aeb21e0",
+          "size_bytes": 163965,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 53,
+          "sha1": "1defaa6fabfaa8c5f84d8c59e53399a4945b7186",
+          "size_bytes": 261734,
+          "labels_on_page": [
+            "5",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 54,
+          "sha1": "81012e468533d611d944f66c86ee4b8aae4e6241",
+          "size_bytes": 142440,
+          "labels_on_page": [
+            "9",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 29,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          84
+        ],
+        [
+          "Oracle",
+          19
+        ],
+        [
+          "Sybase",
+          14
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 14,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-eii-2003-ea3f1a/working/observation_candidates_v20.csv"
+    }
+  ]
+}

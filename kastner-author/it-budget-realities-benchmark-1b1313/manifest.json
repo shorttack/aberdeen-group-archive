@@ -1,0 +1,300 @@
+{
+  "mode": "existing",
+  "slug": "it-budget-realities-benchmark-1b1313",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/IT Budget Realities benchmark.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313/source/original.pdf",
+  "pdf_sha256": "fbabf69b7e1993f7475b15705aaa245417e2293b673fdf8c01e190b8699e451e",
+  "pdf_size_bytes": 761746,
+  "pdf_page_count": 35,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 35,
+    "filename": "it budget realities benchmark.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 1,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [
+      "A"
+    ],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=35, top_score=2, hints=['A']",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:41:12.204504+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "it-budget-realities-benchmark-1b1313",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "it-budget-realities-benchmark-1b1313",
+      "title": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+      "relative_path": "kastner-author/it-budget-realities-benchmark-1b1313",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "it-budget-realities-benchmark"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313/working/extracted_v20.md",
+      "md_chars": 67509,
+      "md_lines": 774,
+      "elapsed_sec": 2.33
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 35,
+      "filename": "it budget realities benchmark.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 1,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [
+        "A"
+      ],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=35, top_score=2, hints=['A']",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 18,
+      "figures_extracted": 18,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 4,
+          "sha1": "184faeefa6f2d5f01a6454b00468f9727abdb874",
+          "size_bytes": 174492,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 6,
+          "sha1": "a5d96158794b089cf766dd5aa5d0ba3bd19666c6",
+          "size_bytes": 225818,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 7,
+          "sha1": "4b38d3c6324a074e874554fe616a58f9921169a7",
+          "size_bytes": 136150,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 9,
+          "sha1": "994c3cd6ed624ccd7d7da4bd3735143b1b637cc9",
+          "size_bytes": 232109,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 10,
+          "sha1": "9ae174320e70d8b3ebd3d9c699255288109fc33f",
+          "size_bytes": 311119,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 11,
+          "sha1": "a68f1973f0aaef35aa9ca2b7942de4798892afb9",
+          "size_bytes": 247509,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 12,
+          "sha1": "b9dfdcdf995f5d596dc10eacb8a5c18bf91a49bd",
+          "size_bytes": 175614,
+          "labels_on_page": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 13,
+          "sha1": "6f9bfc5563425a30c90c3d7879729140609e794e",
+          "size_bytes": 178529,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 14,
+          "sha1": "0dbfc3feab8e72d928ff468e7a6cf37e1baf0de2",
+          "size_bytes": 232968,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 15,
+          "sha1": "8b85c98a3ed79b8afd3530040ec9f60d0b4c0a1b",
+          "size_bytes": 213988,
+          "labels_on_page": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 16,
+          "sha1": "d6b058d14272b88c4d7d8a9eeae8eb4baf4ba116",
+          "size_bytes": 158348,
+          "labels_on_page": [
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 17,
+          "sha1": "dc246c3ee37f3bffcc9c712b2db8c85058c6f4d6",
+          "size_bytes": 171391,
+          "labels_on_page": [
+            "10",
+            "11"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 18,
+          "sha1": "687e4687fb98f9798c096cbc08af714a6cea6b1d",
+          "size_bytes": 253764,
+          "labels_on_page": [
+            "12"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 19,
+          "sha1": "94678d8c5648089746903132e909057b59ee3a39",
+          "size_bytes": 242681,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 20,
+          "sha1": "8bb79c253b1c75424b6bc342966ad1a97a7d73ed",
+          "size_bytes": 82616,
+          "labels_on_page": [
+            "13"
+          ]
+        },
+        {
+          "filename": "figure_016.png",
+          "page": 22,
+          "sha1": "908d84a63f05dbfa80be276271fd5b7c3838eee0",
+          "size_bytes": 344236,
+          "labels_on_page": [
+            "14"
+          ]
+        },
+        {
+          "filename": "figure_017.png",
+          "page": 30,
+          "sha1": "3aba0e414e404b30c3654f84ce766cf4026738d5",
+          "size_bytes": 195795,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_018.png",
+          "page": 31,
+          "sha1": "a4ba748ca5c8a2d520b25614681cc472bd365796",
+          "size_bytes": 96206,
+          "labels_on_page": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 13,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          23
+        ],
+        [
+          "Cognos",
+          9
+        ],
+        [
+          "MAPICS",
+          8
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 60,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313/working/observation_candidates_v20.csv"
+    }
+  ]
+}

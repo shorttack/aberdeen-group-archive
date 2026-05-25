@@ -1,0 +1,11 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+informix,Informix,company,relational database software,15,## **Informix Software Overview**   Peter S. Kastner Vice President Aberd
+aberdeen-group,Aberdeen Group,firm,IT market analysis,4,"ormix Software Overview**   Peter S. Kastner Vice President Aberdeen Group, Inc. One Boston Place Boston, MA  02108   ## Agenda   - Th"
+ent-16,Sybase,software-vendor,database-software,3,dependent RDBMS company   - A respected rival of Oracle and Sybase   ## Company Characteristics   - Technology concentration o
+oracle,Oracle,company,enterprise software,2,growing independent RDBMS company   - A respected rival of Oracle and Sybase   ## Company Characteristics   - Technology conc
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"## **Informix Software Overview**   Peter S. Kastner Vice President Aberdeen Group, Inc. One Boston Place Boston"
+teradata,Teradata,company,enterprise data warehousing,1,"RDBMS products from IBM DB2/6000, Oracle & Sybase plus AT&T Teradata   ## Specialized Database Products   - OnLine Secure Dynami"
+att,AT&T,company,telecommunications,1,"llel RDBMS products from IBM DB2/6000, Oracle & Sybase plus AT&T Teradata   ## Specialized Database Products   - OnLine Secu"
+ENT-IBM-DB2,IBM DB2,product,database-software,1,"d in Q4-1995   - Competes with parallel RDBMS products from IBM DB2/6000, Oracle & Sybase plus AT&T Teradata   ## Specialized D"
+fortune-1000,Fortune 1000,institution,market-segment-definition,1,VAR & ISV partners and applications   - Recent thrust into Fortune 1000 with direct sales   ## Financial Overview   - Five year gro
+ENT-S5-008,Informix Software,RDBMS Partner,Enterprise Software,1,## **Informix Software Overview**   Peter S. Kastner Vice President Aberdeen Group

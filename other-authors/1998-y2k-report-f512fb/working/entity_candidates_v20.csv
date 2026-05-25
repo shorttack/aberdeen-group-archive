@@ -1,0 +1,4 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+microsoft,Microsoft,company,Software,1,"g   – IBM MVS, OS/400 & AIX   - HP-UX   - – Sun Solaris   - Microsoft NT   ## Y2K Dead Platforms   - IBM System/3X   - IBM 308x a"
+unisys,Unisys,company,IT services / mainframe,1,K Wounded   - IBM VSE customers (no staff; custom apps)   - Unisys 2200 and A-series (Link & Mapper)   - Wang VS applications
+mapics,MAPICS,company,ERP-manufacturing,1,g applications (many AS/400) – ManMan (tired Fortran)   - – Mapics & Copics      - SSA BPICS   ## Target Downstream Customers

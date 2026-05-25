@@ -1,0 +1,11 @@
+char_offset,trigger_labels,sentence
+2759,dollar_stat,# **1994 Worldwide Commercial Multiuser Risc/Unix Market $10B**
+3121,dollar_stat,**1994 revenues = $2 billion**
+3747,dollar_stat,**1994 revenues = $200 million**
+6473,dollar_stat,**1994 revenues = $4.5 billion**
+8932,dollar_stat,**1994 revenues = ~ 20% revenues or $2.5 billion - with** _**all**_ **add-ons**
+9243,percentage_stat,**1994 revenues = less than 10% of company revenues - with** _**all**_ **addons**
+11505,percentage_stat;dollar_stat,**Revenues = ~ 20%  of Sun / $1.1 Billion**
+13944,dollar_stat,**1994 total revenues of approx. $4.2 Billion**
+14115,dollar_stat,**Continues to have financial backing of parent AT&T (1994 revenues = $75 Billion) -- but could also be spun out or sold at any time**
+15287,dollar_stat,RISC) and leader --  $1.2 Billion in 1994**

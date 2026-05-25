@@ -1,0 +1,18 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+oracle,Oracle,company,enterprise software,24,"we were acquired by Computer Associates.  And we are behind Oracle, Sybase, and Informix.”**   - **New versions of OpenIngres"
+informix,Informix,company,relational database software,15,"Computer Associates.  And we are behind Oracle, Sybase, and Informix.”**   - **New versions of OpenIngres RDBMS and OpenRoad too"
+microsoft,Microsoft,company,Software,13,r Associates**   - **Second largest software company behind Microsoft -- $2.74B**   - **22.2% net profit margin -- best in databa
+ent-16,Sybase,software-vendor,database-software,13,"acquired by Computer Associates.  And we are behind Oracle, Sybase, and Informix.”**   - **New versions of OpenIngres RDBMS an"
+ingres,Ingres,company,database software,12,"center**   - **Database products include IDMS, Datacom, and Ingres**   - **More open, more innovative but still selling around"
+ENT-IBM-DB2,IBM DB2,product,database-software,8,"se**   © Aberdeen _Group 1996_ 3   IBM Power Academy   ## **IBM DB2**   # • **Typically a bundled sell with other IBM products,"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,2,"Sales Training**   **Peter S. Kastner Group Vice President Aberdeen Group, Inc. One Boston Place Boston, Mass. 02108 (617) 723-7890**"
+att,AT&T,company,telecommunications,2,P**      - _**Only**_ **compatible SMP and MPP story except AT&T**   - **Informix**   - **Good scalability to 8 processors o
+ca-ingres,CA-Ingres,software-vendor,,2,ns**   © Aberdeen _Group 1996_ 2   IBM Power Academy   ## **CA-Ingres 1996 Themes**   - **“We haven't died!  But we were acquired
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"d <==**  # _**Power Academy**_ **RDBMS Sales Training**   **Peter S. Kastner Group Vice President Aberdeen Group, Inc. One Boston Place"
+progress-software,Progress Software,company,Database/Platform,1,s**   © Aberdeen _Group 1996_ 13   IBM Power Academy   ## **Progress Software**   - **Progress plays to the tune of a different drummer**
+software-ag,Software AG,company,Enterprise Software,1,P**   © Aberdeen _Group 1996_ 15   IBM Power Academy   ## **Software AG’s Adabas D**   - **SAG is long-setablished and respected on
+sybase,Sybase Inc.,company,Database,1,"g**   © Aberdeen _Group 1996_ 46   IBM Power Academy   ## **Sybase Inc.**   - **Total 1994 corporate revenue $826 million,  a 71% i"
+intel,Intel,company,semiconductors,1,en OS and RDBMS**      - **Excellent performance**      - **Intel/Microsoft represent a definite threat to uniprocessor RS/60
+ibm-rs6000,IBM RS/6000,Unix-server,IBM Corporation,1,Aberdeen _Group 1996_ 36   IBM Power Academy   # **Where is IBM RS/6000 Best Positioned Today?**   - **Worldwide support and servic
+ENT-PROGRESS,Progress Software Corporation,vendor,software,1,s**   © Aberdeen _Group 1996_ 13   IBM Power Academy   ## **Progress Software**   - **Progress plays to the tune of a different drummer**
+ENT-ORACLE-APP,Oracle Applications,product,enterprise-software,1,or workgroups**   - **Oracle:  tons of services; many ISVs; Oracle applications**   - **Sybase:  fewer services; fewer ISVs; no application

@@ -1,0 +1,15 @@
+{
+  "page_count": 1,
+  "filename": "2004 consumer adoption of memory cards_ a qualitative study psk.pdf",
+  "scores": {
+    "A_benchmark": 0,
+    "B_exec_summary": 1,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [],
+  "predicted_bucket": "B",
+  "decision_reason": "page_count=1, top_score=1, hints=[]",
+  "is_ambiguous": false
+}

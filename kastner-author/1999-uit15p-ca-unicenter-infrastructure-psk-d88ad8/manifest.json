@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1999 CA Unicenter.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8/source/original.pdf",
+  "pdf_sha256": "fd0048969e110f7d3c35b7fd351f200ad892bdd3778a1c9b80ca0382204ac55d",
+  "pdf_size_bytes": 1725377,
+  "pdf_page_count": 30,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 30,
+    "filename": "1999 ca unicenter.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=30, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:15.109964+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8",
+  "match_score": 0.875,
+  "match_candidates": [
+    {
+      "study_id": "1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8",
+      "title": "What's So Important About Infrastructure? (Session UIT15P, CA Unicenter Conference 1999)",
+      "relative_path": "kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8",
+      "lev_ratio": 0.875,
+      "token_ratio": 1.0,
+      "combined_score": 0.875,
+      "match_via": "slug_tokens",
+      "matched_stem": "1999-uit15p-ca-unicenter-infrastructure-psk"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8/working/extracted_v20.md",
+      "md_chars": 10234,
+      "md_lines": 345,
+      "elapsed_sec": 1.44
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 30,
+      "filename": "1999 ca unicenter.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=30, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 8,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Compaq",
+          2
+        ],
+        [
+          "Computer Associates International",
+          1
+        ],
+        [
+          "Informix",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1999-uit15p-ca-unicenter-infrastructure-psk-d88ad8/working/observation_candidates_v20.csv"
+    }
+  ]
+}

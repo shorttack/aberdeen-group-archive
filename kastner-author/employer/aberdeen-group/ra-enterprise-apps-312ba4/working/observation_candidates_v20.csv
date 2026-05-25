@@ -1,0 +1,52 @@
+char_offset,trigger_labels,sentence
+2492,best_in_class;dollar_stat,"If the Industry Average IT department ran at the software-maintenance cost-efficiency of the Best in Class IT shops in Aberdeen’s maturity model, some $143 billion in 2006 savings would be generated."
+2693,dollar_stat,We believe $20 billion in IT savings is readily achievable.
+5944,best_in_class;percentage_stat,"Importantly, Best in Class practitioners are already saving more than 11% of their IT budgets through lower software maintenance costs and are channeling those savings back into LOB projects that have high business-value returns for the enterprise."
+10366,best_in_class,Best in Class IT organizations measure ROI at the beginning and end of every project.
+10572,best_in_class,"This process discipline leads to numerous key performance metric (KPM) advantages, especially in the reduction in software maintenance costs as a percentage of the IT budget, where Best in Class IT organizations have an 11% IT budget advantage over Industry Average organizations."
+15976,percentage_stat,"For example, our September 2005 benchmark report, _SOA in the Supply Chain,_ reported that only 18% of companies managed **Competitive Framework** their supply chains with commercial software with few or no **Key** modifications."
+18608,figure_reference,"The research for this report, based on surveys of more than 400 IT and LOB executives, indicates that the top challenge enterprises face is in redesigning business processes along with the IT in order to implement the process changes (Figure 1)."
+19519,figure_reference,**Figure 1: Top Enterprise Application Integration Challenges**
+20322,best_in_class,Best in Class organizations reported no specific challenges in enterprise application integration.
+23452,figure_reference,he imperfections of the enterprise applications in place today are a major stumbling block to delivering efficient business processes that are tuned to the enterT prise’s needs (Figure 2).
+24093,figure_reference,**Figure 2: Challenges Faced in Integrating Enterprise Applications**
+25588,figure_reference,"ries, and high integration costs that soak up budget funds that could otherwise be used to drive innovation (Figure 3)."
+25710,figure_reference,**Figure 3: Application Integration Stumbling Blocks**
+27798,figure_reference,"The goal of most organizations in our survey is an SOA infrastructure capable of connecting all of an enterprise’s key applications, based on a question that asked about respondents’ “must have” technologies (Figure 4)."
+28207,figure_reference,**Figure 4: SOA Leads List of “Must Have” Integration Technologies**
+30146,best_in_class,Best in Class IT organizations:
+30621,best_in_class,"s shown in Table 1, survey respondents fell into one of three segments – Laggard, Industry Average, or Best in Class based on Aberdeen’s Competitive A Framework model for IT organizations, which weights the cost of application maintenance as a percentage of IT budget and the percent of IT budget spent on delivering innovations to the LOB."
+31648,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Process**|Recent adopter of mod-<br>ern applications."
+32577,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Technical**<br>**Maturity**|Low competency leads<br>to high costs, delays,<br>delivery inconsistency.<br>Needs outside help.|Moderate competency,<br>but integration is still a<br>pain point."
+34476,best_in_class,Best in Class and Industry Average organizations have numerous ISV applications which they have worked with for years.
+39436,dollar_stat,"|**How did your company**<br>**overcome these challenges?**|**Small**<br>**(<$50M)**|<br>**Mid ($50M**<br>**to $999M)**|**Large**<br>**(>$1B)**|
+|---|---|---|---|
+|Deploying newer, more modern applica-<br>tions|65%|61%|50%|
+|Aligning business processes to software<br>capabilities|78%|47%|50%|
+|Aligning software capabilities to business<br>processes|65%|47%|40%|
+|Replacing legacy applications with applica-<br>tions enabled by a service-oriented archi-<br>tecture (SOA)|22%|33%|55%|
+|Moved from API-driven integration to stan-<br>dards-based, messaging-driven integration|17%|44%|35%|"
+40066,dollar_stat,## _**Small Companies with less than US$50 Million in Revenue**_
+40951,dollar_stat,## _**Medium Companies with $50M to $1B in Revenue**_
+41747,dollar_stat,## _**Large Companies with Revenue Exceeding $1B**_
+45892,figure_reference,The business challenges organizations face vary by vertical industry sector (Figure 6):
+46842,figure_reference,## **Figure 5: Top Challenges by Vertical Sector**
+50059,best_in_class,"Integration competency is a hallmark of Best in Class organizations, as is organizational discipline."
+50295,best_in_class,A hallmark of Best in Class organizations is the lack of significant application integration issues.
+50610,best_in_class,## **Best in Class Next Steps**
+50684,best_in_class,"Best in Class organizations are already mature in IT organization, technology selection and technology integration areas."
+58766,percentage_stat,"Discrete manufacturing represents 35% of the sample, including 17% from high tech hardware and software."
+58872,percentage_stat,Process manufacturing represents 12% of the survey population and consumer 14%.
+59026,percentage_stat,Government and education in the public sector represent 9% of the survey population.
+59354,dollar_stat,"||**Percent of Respondents**|
+|---|---|
+|Less than $50 million in annual revenue|31%|
+|$50M to $249M|20%|
+|$250M to 499M|17%|
+|$500M to $999M|10%|
+|$1 billion to $5 billion|17%|
+|More than $5 billion|4%|"

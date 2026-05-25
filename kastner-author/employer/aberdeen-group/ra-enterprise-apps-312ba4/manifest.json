@@ -1,0 +1,227 @@
+{
+  "mode": "existing",
+  "slug": "ra-enterprise-apps-312ba4",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/RA_EnterApps_PK_2853.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4/source/original.pdf",
+  "pdf_sha256": "66a221db56c4724a47323b048f77eb2b823226075de2d0a8e13c92b530622e9e",
+  "pdf_size_bytes": 740789,
+  "pdf_page_count": 30,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 30,
+    "filename": "ra_enterapps_pk_2853.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=30, top_score=2, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:57.469565+00:00",
+  "extracted_title": "Achieving More Value from Enterprise Applications Benchmark Report",
+  "title_source": "metadata",
+  "matched_study_id": "ra-enterprise-apps-312ba4",
+  "match_score": 0.9113,
+  "match_candidates": [
+    {
+      "study_id": "ra-enterprise-apps-312ba4",
+      "title": "Achieving More Value from Enterprise Applications",
+      "relative_path": "kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4",
+      "lev_ratio": 0.8522,
+      "token_ratio": 0.75,
+      "combined_score": 0.9113,
+      "anchor_bonus": 0.1
+    },
+    {
+      "study_id": "q-a-achieving-more-value-from-enterprise-d1d7dd",
+      "title": "Q&A: Achieving More Value from Enterprise Applications",
+      "relative_path": "other-authors/q-a-achieving-more-value-from-enterprise-d1d7dd",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/q-a-achieving-more-value-from-enterprise-d1d7dd",
+      "lev_ratio": 0.8235,
+      "token_ratio": 0.6,
+      "combined_score": 0.7341,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "it-budget-realities-benchmark-1b1313",
+      "title": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+      "relative_path": "kastner-author/it-budget-realities-benchmark-1b1313",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313",
+      "lev_ratio": 0.6299,
+      "token_ratio": 0.2308,
+      "combined_score": 0.4703,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4/working/extracted_v20.md",
+      "md_chars": 65138,
+      "md_lines": 746,
+      "elapsed_sec": 2.46
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 30,
+      "filename": "ra_enterapps_pk_2853.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=30, top_score=2, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 10,
+      "figures_extracted": 10,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 7,
+          "sha1": "2948d3da642d0d4691fd7b06eaea2b0522a0dbec",
+          "size_bytes": 100229,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 9,
+          "sha1": "b09d8a43726d6856c1c8c3f7e8a2d5369c59dec9",
+          "size_bytes": 266813,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 11,
+          "sha1": "bc2405e9fcfaa1c339e26756891077806e2b8a7e",
+          "size_bytes": 259542,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 12,
+          "sha1": "c0dc5bf4c5334358524eb6f67d81db7fe246e48f",
+          "size_bytes": 268187,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 13,
+          "sha1": "e6909c46b67d9d3941cf1e066764a28e9b64ccec",
+          "size_bytes": 190162,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 14,
+          "sha1": "e2145f800cd13ab8ab75c8cf19227a3f8f1018ac",
+          "size_bytes": 277008,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 16,
+          "sha1": "201593e0c9de760492db27eeb2b1f532545b8964",
+          "size_bytes": 316202,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 17,
+          "sha1": "85d377bb45b9d3465b35dc44f68618d04d9e672e",
+          "size_bytes": 314907,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 18,
+          "sha1": "36adcdebc7ac05ee95306c1dfce54292eda8ef43",
+          "size_bytes": 305167,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 20,
+          "sha1": "f6634d99b1d28f1123841e56455e6a204621e79a",
+          "size_bytes": 263884,
+          "labels_on_page": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 4,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          4
+        ],
+        [
+          "Peter S. Kastner",
+          2
+        ],
+        [
+          "Enterprise Strategies Newsletters",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 34,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-enterprise-apps-312ba4/working/observation_candidates_v20.csv"
+    }
+  ]
+}

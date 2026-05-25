@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "1993-hercules-sap-28344a",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1993 Hercules SAP.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a/source/original.pdf",
+  "pdf_sha256": "1bb41b39fc353b082bcb4afbcaf8d4fb577538f34200e6701545d78685742ec0",
+  "pdf_size_bytes": 159021,
+  "pdf_page_count": 20,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 20,
+    "filename": "1993 hercules sap.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=20, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:15.353121+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1993-hercules-sap-28344a",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1993-hercules-sap-28344a",
+      "title": "Aberdeen Group Recommendation: HP 9000 Series 800 for SAP R3 Implementation at Hercules, Inc.",
+      "relative_path": "kastner-author/1993-hercules-sap-28344a",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "1993-hercules-sap"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a/working/extracted_v20.md",
+      "md_chars": 32238,
+      "md_lines": 343,
+      "elapsed_sec": 1.03
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 20,
+      "filename": "1993 hercules sap.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=20, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 16,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Oracle",
+          14
+        ],
+        [
+          "Aberdeen Group",
+          8
+        ],
+        [
+          "Digital Equipment Corporation",
+          3
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 0,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1993-hercules-sap-28344a/working/observation_candidates_v20.csv"
+    }
+  ]
+}

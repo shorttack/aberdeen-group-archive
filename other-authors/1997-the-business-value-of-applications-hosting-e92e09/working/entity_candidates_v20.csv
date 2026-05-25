@@ -1,0 +1,11 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+aberdeen-group,Aberdeen Group,firm,IT market analysis,3,"One Asks**   **Peter S. Kastner** Chief Research Officer **Aberdeen Group, Inc.** One Boston Place Boston, MA  02108 www.aberdeen.com"
+baan,Baan,company,enterprise-software,2,ustry Gorillas**   - **Best of Breed**   – **SAP AG**   - **BaaN**      - **Computer Associates**   - **Oracle**   - **Great
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"rise Business Applications: The Questions No One Asks**   **Peter S. Kastner** Chief Research Officer **Aberdeen Group, Inc.** One Bosto"
+oracle,Oracle,company,enterprise software,1,*SAP AG**   - **BaaN**      - **Computer Associates**   - **Oracle**   - **Great Plains**   – **Peoplesoft**   - **JD Edwards*
+dell,Dell,company,information technology hardware,1,"mes the norm not the exception. Text-book examples:**   - **Dell Computer, Amazon.com, Cisco**   **==> picture [175 x 36] in"
+amazon,Amazon.com,company,E-Commerce,1,"t the exception. Text-book examples:**   - **Dell Computer, Amazon.com, Cisco**   **==> picture [175 x 36] intentionally omitted <"
+peoplesoft,PeopleSoft,company,Enterprise Software,1,uter Associates**   - **Oracle**   - **Great Plains**   – **Peoplesoft**   - **JD Edwards**   - **Lawson**   - **Marcam**   - **Sy
+sap-ag,SAP AG,company,enterprise-software,1,**   ## ■ **Industry Gorillas**   - **Best of Breed**   – **SAP AG**   - **BaaN**      - **Computer Associates**   - **Oracle*
+dell-computer,Dell Computer Corporation,company,PC/Server Hardware,1,"mes the norm not the exception. Text-book examples:**   - **Dell Computer, Amazon.com, Cisco**   **==> picture [175 x 36] intentional"
+ENT-007,Cisco,corporation,technology;networking,1,"ion. Text-book examples:**   - **Dell Computer, Amazon.com, Cisco**   **==> picture [175 x 36] intentionally omitted <==**  #"

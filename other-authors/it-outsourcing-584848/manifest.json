@@ -1,0 +1,141 @@
+{
+  "mode": "existing",
+  "slug": "it-outsourcing-584848",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/MM-SI_ITOutsourcing_RS_090506d.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848/source/original.pdf",
+  "pdf_sha256": "e0f707d1f7d96858ea6c5151ac0aa19e514932b2d69b9f51630b6766fd2fefb9",
+  "pdf_size_bytes": 440816,
+  "pdf_page_count": 3,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 3,
+    "filename": "mm-si_itoutsourcing_rs_090506d.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=3, top_score=2, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:18.516479+00:00",
+  "extracted_title": "Mid-Market Must Flex More Muscle in IT Outsourcing",
+  "title_source": "metadata",
+  "matched_study_id": "it-outsourcing-584848",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "it-outsourcing-584848",
+      "title": "Mid-Market Must Flex More Muscle in IT Outsourcing",
+      "relative_path": "other-authors/it-outsourcing-584848",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "the-business-value-in-it-outsourcing-7d5f23",
+      "title": "The Business Value in IT Outsourcing",
+      "relative_path": "kastner-author/the-business-value-in-it-outsourcing-7d5f23",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/the-business-value-in-it-outsourcing-7d5f23",
+      "lev_ratio": 0.5814,
+      "token_ratio": 0.25,
+      "combined_score": 0.4488
+    },
+    {
+      "study_id": "business-value-outsourcing-57ce57",
+      "title": "The Business Value in IT Outsourcing",
+      "relative_path": "kastner-author/employer/aberdeen-group/business-value-outsourcing-57ce57",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/business-value-outsourcing-57ce57",
+      "lev_ratio": 0.5814,
+      "token_ratio": 0.25,
+      "combined_score": 0.4488
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848/working/extracted_v20.md",
+      "md_chars": 7488,
+      "md_lines": 81,
+      "elapsed_sec": 0.43
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 3,
+      "filename": "mm-si_itoutsourcing_rs_090506d.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=3, top_score=2, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 2,
+      "figures_extracted": 2,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 1,
+          "sha1": "d4dabc5381657bf1eba41b3fa577ceda3a2f25f2",
+          "size_bytes": 547189,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 2,
+          "sha1": "60bd5d7b3a766135b469b396d584e87829632c87",
+          "size_bytes": 536485,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 2,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          1
+        ],
+        [
+          "Rick Saia",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 12,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/it-outsourcing-584848/working/observation_candidates_v20.csv"
+    }
+  ]
+}

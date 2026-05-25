@@ -1,0 +1,65 @@
+char_offset,trigger_labels,sentence
+1868,best_in_class,## **Best in Class Performance**
+1903,best_in_class,"Four key performance indicators (KPIs) were used to identify those companies that are succeeding in their legacy modernization efforts, Aberdeen’s Best In Class (BIC):"
+2450,best_in_class,The Best In Class in this study understand that modernization projects are not just about technology; they also require changes to key processes.
+2598,best_in_class,The typical Best In Class organization:
+3778,best_in_class,**Plan for test.** Best In Class organizations are twice as likely as Industry Average or Laggards to have well-defined test processes for integration testing.
+7891,best_in_class,Table 1: Companies With Top Performance Earn  “Best-in-Class” Status:....9 Table 2: Best-in-Class PACE Framework..............................................................10 Table 3: Competitive Framework...........................................................................12 Table 4: PACE Framework .......................................................................................25 Table 5: Maturity Framework...................................................................................25 Table 6: Relationship between PACE and Competitive Framework..............26
+8693,best_in_class,## **Chapter One: Benchmarking the Best in Class**
+9470,best_in_class,√ **61%** of Best In Class organizations report a decrease in the cost of legacy platform maintenance costs
+9585,best_in_class,√ **70%** of Best In Class companies have clearly documented legacy packages and data structures
+9689,best_in_class,"√ **90%** of Best In Class see their legacy modernization projects as a long-term, strategic plan"
+9903,best_in_class;figure_reference,Figure 1 shows that Best In Class organizations more often choose to leave packages on the legacy platform and use software adapters or a services layer to provide access to other SOA applications.
+10103,figure_reference,**Figure 1: What Approaches Are Being Used?**
+10878,best_in_class,Agility is at the top of the list for Best In Class organizations trying to bring their legacy applications into a modern architecture.
+11153,figure_reference,"While cost is a consideration, it is not the driving factor for this group (Figure 2)."
+11242,figure_reference,**Figure 2: Top drivers for legacy modernization efforts**
+11849,best_in_class;figure_reference,"While Best In Class organizations are leveraging their SOA infrastructure to provide interfaces into their legacy applications, Industry Average and Laggard companies opt for re-hosting, which moves the legacy code base to a less expensive hardware platform (Figure 3)."
+12328,figure_reference,**Figure 3: Modernization approach reflects organizational drivers**
+13740,best_in_class,Aberdeen used four key performance criteria to distinguish Best in Class companies from Industry Average and Laggard organizations:
+14109,best_in_class,"With Best In Class identified, we then looked at how the group compared to the Industry Average and Laggard organizations (Table 1)."
+14244,best_in_class,## **Table 1: Companies With Top Performance Earn “Best-in-Class”**
+15634,best_in_class,## **Best in Class PACE Model**
+15668,best_in_class;percentage_stat,Aberdeen uses the PACE model to profile the top performing 20% of companies – the Best In Class – in four areas:
+16200,best_in_class,The Best in Class are using SOA and web services to quickly respond to new business requirements by extending legacy packages and data out to the enterprise.
+16360,best_in_class,**Table 2: Best-in-Class PACE Framework**
+17225,best_in_class,Aberdeen research of over 400 companies in the past 18 months has shown that Best In Class IT organizations have embraced SOA as a way to rapidly develop and deploy solutions to new business problems.
+18145,best_in_class,Best In Class IT organizations are leveraging both their investment in legacy platforms and their existing SOA infrastructure.
+19800,best_in_class,√ Best In Class companies are **twice as likely** as other groups to use automated tools for extracting business logic and data structures
+19943,best_in_class;percentage_stat,"√ **43%** of Best In Class organizations use third-party services adapters for legacy applications, versus 28% of the Laggards group"
+20080,best_in_class,√ **Twice as many** Best In Class companies versus all others have deployed a SOA or web services layer on the mainframe
+23138,best_in_class,"The Best In Class companies are still leading the charge, and with more overall experience under their belts, they are setting the pace for the rest of the industry."
+23304,best_in_class;figure_reference,"Over half of the Best In Class organizations are either working on or have completed at least one legacy modernization project, versus fewer than a quarter of Laggards (Figure 3)."
+23554,best_in_class,"Industry Average and Laggards, trailing Best In Class in experience, are also likely to be running proof-of-concept and pilot projects."
+23692,percentage_stat,"“After looking through all of the code running on the mainframe, we discovered that 40% of it was unused…and about 10% of it nobody knew what it was supposed to do.”"
+23898,figure_reference,**Figure 4: Organizational view of modernization**
+24554,best_in_class,"The Best In Class organizations have, in general, been on the SOA journey longer and therefore have had more time to establish policies around their application work."
+24721,figure_reference,This maturity is reflected in an emphasis on process versus the Industry Average and Laggard groups (Figure 4).
+25046,percentage_stat,"As the manager at a modernization vendor said of a client’s project, “After looking through all of the code running on the mainframe, we discovered that around 40% of it was unused…and about 10% of it nobody knew what it was supposed to do.”"
+25529,best_in_class,Best In Class companies are about **twice as likely** as others to have clearly defined testing processes in place.
+25647,best_in_class;figure_reference,**Figure 5: Best in Class place an emphasis on process**
+26761,best_in_class;figure_reference,"Best In Class companies are using this tool by a margin of **two to one** over Laggards, and 50% more often than the Industry Average (Figure 5)."
+26909,figure_reference,**Figure 6: Agreement among departments drives success**
+27729,best_in_class,"Best In Class organizations are well along in their training efforts, with both Laggard and Industry Average following by six months."
+27912,best_in_class;figure_reference,"Best In Class companies are drastically reducing their spending levels on outsourcing and professional services, while no such reduction was reported for the other two groups (Figure 6)."
+28101,figure_reference,"## **Figure 7: Training of developers, analysts, and architects**"
+28849,best_in_class,"Best In Class organizations are relying on automation to assist them in extracting both business logic (61%) and data structures (38%, **double the rate** of Laggard and Industry average) as they bring their legacy applications into line with their SOA and web services architecture."
+29133,best_in_class,This is reflected in the high percentage of Best In Class having documented their legacy interfaces; one of the byproducts of extraction tools is a complete specification of the underlying code or data.
+29338,best_in_class,"Alongside their modernization efforts, Best In Class are continuing to invest in SOA infrastructure. **Twice as many** Best In Class companies are deploying SOA service layers on the mainframe, with **48%** indicating that spending on SOA platforms is their number one or two funding priority over the next 12 months."
+29931,figure_reference,**Figure 8: Technical approaches to legacy modernization**
+30779,best_in_class,Best In Class companies understand that legacy applications can be especially challenging to bring into line with more modern architectures.
+31111,best_in_class,"Legacy specific development environments are also a key to peak performance, with Best In Class organizations using them at double the rate of other groups."
+31660,best_in_class;figure_reference,"Overall, Best In Class organizations reported decreases in costs for development, maintenance, and infrastructure (Figure 8)."
+31926,best_in_class;percentage_stat,"This emphasis on productivity is reflected by the Best In Class’ emphasis on in-house application development, 57% versus 28% of the Industry Average."
+32079,best_in_class;figure_reference,**Figure 9: Best In Class see improvements in costs and productivity**
+32841,best_in_class,"Based on the information in Chapters One and Two, readers should determine whether their organizations fall into the “Laggard”, “Industry Average,” or “Best in Class” categories."
+33020,best_in_class,The key to gaining value from this report is moving your organization along the maturity path to Best in Class.
+33453,best_in_class,**Understand what you are delivering.** Best In Class organizations know that service level agreements are not just for B2B relationships.
+33901,best_in_class,"Best In Class companies use adapters for commodity packages, and focus their efforts on the custom parts of the application."
+34389,best_in_class,"Best In Class organizations, however, understand that cost is not the only component of a successful architecture."
+34750,best_in_class;percentage_stat,"Forty percent of Best In Class report an increase in productivity, and 56% say that they use legacy IDEs, versus 12% of Industry Average reporting improvement, and 35% using IDEs."
+35144,best_in_class,## **Best in Class Steps to Success**
+35505,best_in_class,Just under half of Best In Class organizations cite governance as their top concern.
+36427,best_in_class,"While it may seem overwhelming, Best In Class organizations use process and technology to succeed."
+41961,percentage_stat,These represented 27% of the sample.
+42299,percentage_stat;dollar_stat,"_**Company size** :_ About 25% of respondents were from large enterprises (annual revenues above US$1 billion, including 14% over US$5 billion); 35% were from midsize enterprises (annual revenues between $50 million and $1 billion); and 40% of respondents were from small businesses (annual revenues of $50 million or less)."

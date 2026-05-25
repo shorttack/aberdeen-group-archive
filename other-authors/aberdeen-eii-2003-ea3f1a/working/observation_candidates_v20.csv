@@ -1,0 +1,29 @@
+char_offset,trigger_labels,sentence
+14224,percentage_stat,"A slight Web site advantage can cause customers across a global market to establish relationships; a slight but persistent disadvantage can, even today, cause 10% to 20% of the installed base to walk away."
+20528,dollar_stat,"Currently, EII is a small market  less than $200 million in size  that lacks visibility to IT buyers."
+24078,dollar_stat,"If successful, these suppliers will fuel a $250 million-plus market over the next two years."
+24171,dollar_stat,"Increasingly, EII solutions will be incorporated in portal, EAI, business intelligence, and business-process-integration solutions, making EII a key technology in a $7.5 billion market."
+33312,figure_reference,Figure 1 shows how EII fits into a typical architecture.
+33371,figure_reference,## **Figure 1: EII in a Typical Architecture**
+73320,figure_reference,Figure 2 shows how information aggregation technologies can be combined in an overall architecture.
+73422,figure_reference,**Figure 2: Example of Information Aggregation Architecture**
+106587,figure_reference,"Figure 3 shows Aberdeen’s EII technology segmentation model, which can be used to categorize various EII and related offerings based on technology and functionality."
+106831,figure_reference,**Figure 3: EII Technology Segmentation Model**
+112052,dollar_stat,"|**Supplier**|**Revenues**|
+|---|---|
+|Business Objects|$15 million|
+|Attunity|$4 million to $7 million|
+|BEA|$25 million|
+|XAware|$4 million to $7 million|
+|IBM|$60 million|
+|MetaMatrix|$10 million|"
+112449,dollar_stat,"|Nimble Technologies|$4 million to $7 million|
+|---|---|
+|Venetica|$7 million to $10 million|"
+112758,dollar_stat,"However, Aberdeen’s field experience indicates that, for every dollar spent on software application licenses, $1.25 to $1.50 is spent on professional services to implement integration of the application and the resultant data."
+113277,dollar_stat,"|**Markets**|**2002**|**2003**|**2004**|
+|---|---|---|---|
+|EAI|$2.2 billion|$2.6 billion|$3.0 billion|
+|Content management|$1.2 billion|$1.6 billion|$2.0 billion|
+|Portal|$1.5 billion|$2.2 billion|$2.8 billion|
+|Total|$4.9 billion|$6.4 billion|$7.8 billion|"

@@ -1,0 +1,120 @@
+{
+  "mode": "existing",
+  "slug": "esb-in-soa-e002b7",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/ESB in SOA _RS_2391.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-in-soa-e002b7/source/original.pdf",
+  "pdf_sha256": "e03e103c56d34d98e5533c7f3b145a1b89e2e853ea4f6a4b81fb4606c57e1190",
+  "pdf_size_bytes": 488247,
+  "pdf_page_count": 4,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 4,
+    "filename": "esb in soa _rs_2391.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=4, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:03.518800+00:00",
+  "extracted_title": "The ESB in the Land of SOA",
+  "title_source": "metadata",
+  "matched_study_id": "esb-in-soa-e002b7",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "esb-in-soa-e002b7",
+      "title": "The ESB in the Land of SOA",
+      "relative_path": "other-authors/esb-in-soa-e002b7",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-in-soa-e002b7",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "nti-9-mainframe-role-1993-77fc40",
+      "title": "The Role of the Mainframe",
+      "relative_path": "kastner-author/nti-9-mainframe-role-1993-77fc40",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/nti-9-mainframe-role-1993-77fc40",
+      "lev_ratio": 0.5882,
+      "token_ratio": 0.25,
+      "combined_score": 0.4529
+    },
+    {
+      "study_id": "rebate-check-recordonline-van-vlack-d7d600",
+      "title": "The (rebate) check is in the mail \u2013 or is it?",
+      "relative_path": "other-authors/rebate-check-recordonline-van-vlack-d7d600",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/rebate-check-recordonline-van-vlack-d7d600",
+      "lev_ratio": 0.5758,
+      "token_ratio": 0.1667,
+      "combined_score": 0.4121
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-in-soa-e002b7/working/extracted_v20.md",
+      "md_chars": 11707,
+      "md_lines": 143,
+      "elapsed_sec": 0.68
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 4,
+      "filename": "esb in soa _rs_2391.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=4, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 15,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-in-soa-e002b7/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "JBoss",
+          3
+        ],
+        [
+          "Oracle",
+          2
+        ],
+        [
+          "Aberdeen Group",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

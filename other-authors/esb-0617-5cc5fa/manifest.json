@@ -1,0 +1,280 @@
+{
+  "mode": "existing",
+  "slug": "esb-0617-5cc5fa",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/ESB_0617.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa/source/original.pdf",
+  "pdf_sha256": "dbcd0516ded31c1ad577c35488e5875c00095ee753f2e55ec41cad874d8660dc",
+  "pdf_size_bytes": 702588,
+  "pdf_page_count": 37,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 37,
+    "filename": "esb_0617.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=37, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:41:03.231223+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "esb-0617-5cc5fa",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "esb-0617-5cc5fa",
+      "title": "Enterprise Service Bus: an SOA Middleware Foundation",
+      "relative_path": "other-authors/esb-0617-5cc5fa",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "esb-0617"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa/working/extracted_v20.md",
+      "md_chars": 71848,
+      "md_lines": 884,
+      "elapsed_sec": 2.77
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 37,
+      "filename": "esb_0617.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=37, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 16,
+      "figures_extracted": 16,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 4,
+          "sha1": "cae8711b09a6f3d39a3fb11e31909449de70534a",
+          "size_bytes": 327075,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 8,
+          "sha1": "a34291b3fae037d5e02633bbe7c3194febf105a6",
+          "size_bytes": 139097,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 9,
+          "sha1": "72e50f57c8b97c584ba95a5028b64a827f9461fd",
+          "size_bytes": 377682,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 10,
+          "sha1": "915dba627bcc657034e9de504f4aeb7ace90da8d",
+          "size_bytes": 202607,
+          "labels_on_page": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 11,
+          "sha1": "f70523cf24658da888bfa8c92e4b07817a65d37c",
+          "size_bytes": 162915,
+          "labels_on_page": [
+            "2",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 12,
+          "sha1": "a741f0d0b353b907a4c845ef817c8c0d85f0a9df",
+          "size_bytes": 214251,
+          "labels_on_page": [
+            "3",
+            "3",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 13,
+          "sha1": "5c7ed0c3b6cdfe87db5559e871ba6e212aa115a7",
+          "size_bytes": 236533,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 14,
+          "sha1": "2aacf28b54000e6a472248bdd8a7307c9824c225",
+          "size_bytes": 257454,
+          "labels_on_page": [
+            "5",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 15,
+          "sha1": "96816cdff2f05f1bf8c9a7187db6a20977529cd6",
+          "size_bytes": 122564,
+          "labels_on_page": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 16,
+          "sha1": "72824115f10f116c7762765db61a5743fecc42c5",
+          "size_bytes": 260286,
+          "labels_on_page": [
+            "8",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 18,
+          "sha1": "145ac207fbcce71d48006969a8ee742963507e9c",
+          "size_bytes": 273599,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 20,
+          "sha1": "7afaa8f4fca8bbba9dc96d24be8688ec1a930580",
+          "size_bytes": 327089,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 22,
+          "sha1": "201b4a13df0810ba58e1b81ee583a373af8ff8ba",
+          "size_bytes": 246168,
+          "labels_on_page": [
+            "9",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 23,
+          "sha1": "a73144df1ef6caafeeda98cb81d369deb9800320",
+          "size_bytes": 218801,
+          "labels_on_page": [
+            "10",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 24,
+          "sha1": "84fc89d4b421d6cddbb5191e753edf061a381dc3",
+          "size_bytes": 307796,
+          "labels_on_page": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_016.png",
+          "page": 27,
+          "sha1": "794a4560166cc06f51c27238e378b1bfb945cb71",
+          "size_bytes": 288622,
+          "labels_on_page": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          8
+        ],
+        [
+          "Microsoft",
+          6
+        ],
+        [
+          "Oracle",
+          4
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 60,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/esb-0617-5cc5fa/working/observation_candidates_v20.csv"
+    }
+  ]
+}

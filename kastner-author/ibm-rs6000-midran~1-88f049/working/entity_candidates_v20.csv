@@ -1,0 +1,13 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+att,AT&T,company,telecommunications,8,**   - **Digital Equipment**   - **Sun Microsystems**   - **AT&T Global Information Systems**   © Aberdeen _Group 1995_ 8
+intel,Intel,company,semiconductors,5,"uct offering (i.e. clusters & MPP) and is being squeezed by Intel/NT at the low end**   - **After 3 years as Top Gun, HP is g"
+oracle,Oracle,company,enterprise software,4,"uppliers such as HP but software solution suppliers such as Oracle, SAP, and Microsoft**   © Aberdeen _Group 1995_ 13   IBM Sa"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,2,"Sales Training**   **Peter S. Kastner Group Vice President Aberdeen Group, Inc. One Boston Place Boston, Mass. 02108 (617) 723-7890**"
+microsoft,Microsoft,company,Software,2,"HP but software solution suppliers such as Oracle, SAP, and Microsoft**   © Aberdeen _Group 1995_ 13   IBM Sales Training   ## **"
+teradata,Teradata,company,enterprise data warehousing,2,oduct lines -- Globalyst models from PC to departmental and Teradata for decision support**   - **All servers based on Unix and
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"BM Sales Training   ## **RS/6000 RDBMS Sales Training**   **Peter S. Kastner Group Vice President Aberdeen Group, Inc. One Boston Place"
+hewlett-packard,Hewlett-Packard,company,technology hardware,1,g   ## **Examining the Midrange Leaders**   - **IBM**   - **Hewlett-Packard**   - **Digital Equipment**   - **Sun Microsystems**   - **
+compaq,Compaq,company,computing/pc-server,1,"rs, losing ground to leading RISC providers, not to mention Compaq**   - **Intel is depending on AT&T GIS to be premier suppli"
+andersen-consulting,Andersen Consulting,firm,management / IT consulting,1,"suppliers**   - **Professional service organizations (e.g., Andersen Consulting)**   © Aberdeen _Group 1995_ 12   IBM Sales Training   ## *"
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware,1,M**   - **Hewlett-Packard**   - **Digital Equipment**   - **Sun Microsystems**   - **AT&T Global Information Systems**   © Aberdeen _Gro
+ibm-rs6000,IBM RS/6000,Unix-server,IBM Corporation,1,M Sales Training   ## **Points-** _**You**_ **-Should Know: IBM RS/6000**   - **Customers buy RS/6000 for support and historical re

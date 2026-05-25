@@ -1,0 +1,63 @@
+char_offset,trigger_labels,sentence
+1529,best_in_class,## **Best-in-Class Performance**
+1564,best_in_class,"Three key performance indicators (KPIs) were used to identify those companies that are succeeding in their application development efforts, Aberdeen’s Best-in-Class."
+1732,best_in_class,"|**KPI**|**Best-in-Class Performance**|
+|---|---|
+|Application development costs|**100%**saw reduction|
+|Application maintenance costs|**72%**saw reduction|
+|User satisfaction in IT service levels|**89%**saw improvement|"
+2033,best_in_class;figure_reference,"Although prior Aberdeen research implied an even split between SOA infrastructure and web services strategies, the closer focus of this study revealed that Best-in-Class companies are building out SOA middleware infrastructure by a margin of nearly two to one (Figure 1)."
+3779,best_in_class,The Best-in-Class recognize that SOA is a disruptive technology and are putting their money into building expertise.
+7585,best_in_class,Table 1: Companies With Top Performance Earn  “Best-in-Class” Status:....9 Table 2: Best-in-Class PACE Framework..............................................................10 Table 3: Competitive Framework...........................................................................12 Table 4: PACE Framework .......................................................................................23 Table 5: Maturity Framework...................................................................................24 Table 6: Relationship between PACE and Competitive Framework..............24
+8400,best_in_class,## **Chapter One: Benchmarking the Best-in-Class**
+8480,percentage_stat,"While 90% of the Global 5000 have enthusiastically adopted plans and projects to implement new applications using services-oriented technologies (i.e., SOA), Aberdeen research in _ESB and SOA Middleware_ (June 2006) and _The Legacy Application Modernization Benchmark Report_ (September 2006) show a clear bifurcation of technology approaches to “getting to services”:"
+9513,best_in_class,√ **100%** of Best-in-Class organizations report an improvement in application development costs using SOA
+10298,figure_reference,"For this study, we looked more closely at the approaches in use (Figure 1)."
+10719,figure_reference,## **Figure 1: What Technologies Are Being Used?**
+11425,best_in_class;figure_reference,The top three drivers for Best-in-Class are different than those of the Industry Average and Laggard groups (Figure 2):
+11937,figure_reference,**Figure 2: Top drivers for SOA and web services**
+12673,best_in_class,Aberdeen used three key performance criteria to distinguish Best-in-Class companies from Industry Average and Laggard organizations:
+12905,best_in_class,## **Table 1: Companies With Top Performance Earn Best-in-Class Status:**
+13907,best_in_class,## **Best-in-Class PACE Model**
+13941,best_in_class;percentage_stat,"Aberdeen’s methodology for understanding the top performing 20% of companies – the Best-in-Class – looks at business pressures, potential actions, organizational capabilities, and technology enablers."
+14144,best_in_class,"The Best-in-Class (BIC) view SOA as a business strategy for accelerating the delivery of game-changing products and services, not as IT modernization."
+14522,best_in_class,**Table 2: Best-in-Class PACE Framework**
+15841,percentage_stat,"To solve this supplydemand imbalance, more than 90% of Global 5000 IT organizations by the end of 2006 had embarked on using a new architecture (SOA) and new development technologies."
+16268,best_in_class,"With such a deep divide between the two approaches to distributed applications, web services or full SOA infrastructure, we wanted to know which would yield the larger benefits in terms of application lifecycle costs, productivity, and user satisfaction. **Best-in-Class organizations are twice as likely as the industry average to have focused on SOA middleware infrastructure rather than web services.** Only 17% indicated that they used a combination of full SOA and web services in their application development."
+18253,best_in_class,√ Best-in-Class companies are **twice as likely** to have deployed SOA middleware rather than just web services.
+18370,best_in_class;percentage_stat,"√ **39%** of Best-in-Class organizations measure application lifecycle cost, versus 13% of the Industry Average."
+18487,best_in_class,√ **41%** of Best-in-Class are using SOA management and governance software.
+18564,percentage_stat,Only 17% of Industry Average and 7% of Laggard companies are using these critical tools.
+21376,best_in_class,"The Best-in-Class companies are still leading the charge, and with more overall experience under their belts, they are setting the pace for the rest of the industry."
+21586,best_in_class;percentage_stat,"For example, on the development side, 53% of the Best-in-Class have already upgraded or replaced their development tools in order to take advantage of better ways to create services-based applications."
+21788,percentage_stat,Only 28% of the Industry Average and 26% of the Laggards have completed this important step.
+21881,best_in_class;figure_reference,"However, both of those groups are planning on catching up, with roughly 50% planning on upgrades during the next six months, versus 29% for the Best-in-Class (Figure 3)."
+22268,figure_reference,"During the next six months, however, the latter two groups are looking at training: Sixty nine and 55% respectively (Figure 3)."
+22602,figure_reference,**Figure 3: Trends in training and development tools**
+23326,best_in_class,"The Best-in-Class organizations have, in general, been on the SOA journey longer and therefore have had more time to establish policies around their application work."
+23750,best_in_class,"Significantly, Best-in-Class are nearly **four times more often** actually measuring what it costs to create and deploy applications."
+24108,best_in_class;figure_reference,**Figure 4: Best-in-Class places an emphasis on process**
+24796,best_in_class,One way that Best-in-Class companies have shifted their thinking is in the area of the development environment.
+25414,figure_reference,**Figure 5: New and upgraded development environments**
+26010,best_in_class,"Training, often the poor step-child of technology, or simply an afterthought, instead is the underpinning of success for Best-in-Class IT organizations."
+26163,best_in_class;percentage_stat,"While less than a third of Laggard and Industry Average companies have spent the time and money to retrain the IT staff, 61% of Best-in-Class have made this critical investment."
+26449,figure_reference,"It is tempting to assume that the smart people you hired to write and manage applications in other technologies will “just figure it out,” but across the board, companies are realizing that formal retraining is worthwhile (Figure 6)."
+26685,figure_reference,**Figure 6: Retraining of application development teams**
+27983,best_in_class,"As shown in Chapter 1, we measured Best-in-Class on a number of key performance indicators such as improvement in application development costs, user satisfaction, and the number of completed projects."
+28185,best_in_class;figure_reference,"Once Best-in-Class was determined, we looked at the technologies that the group uses (Figure 7)."
+28284,best_in_class;percentage_stat,"Fifty six percent of Best-in-Class are focusing primarily on SOA infrastructure, versus 31% of the Industry Average."
+28401,percentage_stat,Only 11% of the Laggards are building and deploying SOA applications.
+28725,best_in_class;percentage_stat,"To handle the complexity, 41% of Best-in-Class are using automated governance software, while only 17% of Industry Average and 7% of Laggard organizations are doing so."
+29632,figure_reference,**Figure 7: Approaches to SOA and web services technology**
+30365,best_in_class,"Best-in-Class companies understand that SOA is a complex approach to application development, and they are making key investments not only in SOA middleware, but also in enabling technologies such as automated testing software."
+31291,best_in_class,"They say that the proof is in the pudding, and in this study the proof is in cost savings. **One hundred percent** of the Best-in-Class, those companies that are concentrating on SOA middleware rather than web services, report that application development costs have improved."
+31569,percentage_stat,"While 59% of the Industry Average have seen improvement, 0% of the Laggard group has."
+31655,figure_reference,Twenty three percent report that costs have increased (Figure 8).
+31723,figure_reference,**Figure 8: Application costs**
+32712,best_in_class,"Based on the information in Chapters One and Two, readers should determine whether their organizations fall into the “Laggard”, “Industry Average,” or “Best-in-Class” categories."
+32891,best_in_class,The key to gaining value from this report is moving your organization along the maturity path to Best-in-Class.
+33257,best_in_class,The Best-in-Class have already completed this cycle and are seeing significantly lower application development costs.
+35061,best_in_class,## **Best-in-Class Steps to Success**
+36377,best_in_class,"Upcoming Aberdeen reports will look closely at how Best-in-Class companies are managing QA and testing of SOA and web services applications, and at approaches to building performance into composite applications."
+37966,percentage_stat,These represented 20% of the sample.
+38321,percentage_stat;dollar_stat,"_**Company size** :_ About 24% of respondents were from large enterprises (annual revenues above U.S. $1 billion, including 11% over U.S. $5 billion); 35% were from midsize enterprises (annual revenues between $50 million and $1 billion); and 41% of respondents were from small businesses (annual revenues of $50 million or less)."

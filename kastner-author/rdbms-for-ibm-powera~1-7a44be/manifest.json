@@ -1,0 +1,127 @@
+{
+  "mode": "existing",
+  "slug": "rdbms-for-ibm-powera~1-7a44be",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/Power Academy.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be/source/original.pdf",
+  "pdf_sha256": "fe32665696e30c366fa4832917ce501b3d85b8eca659655efbf147bd5ad97bac",
+  "pdf_size_bytes": 880118,
+  "pdf_page_count": 48,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 48,
+    "filename": "power academy.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=48, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:39.614948+00:00",
+  "extracted_title": "Power Academy RDBMS Sales Training",
+  "title_source": "page1",
+  "matched_study_id": "rdbms-for-ibm-powera~1-7a44be",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "rdbms-for-ibm-powera~1-7a44be",
+      "title": "Power Academy RDBMS Sales Training",
+      "relative_path": "kastner-author/rdbms-for-ibm-powera~1-7a44be",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "ibm-rs6000-midran~1-88f049",
+      "title": "RS/6000 RDBMS Sales Training",
+      "relative_path": "kastner-author/ibm-rs6000-midran~1-88f049",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/ibm-rs6000-midran~1-88f049",
+      "lev_ratio": 0.7419,
+      "token_ratio": 0.4286,
+      "combined_score": 0.6166,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "cab199-1-2-0cb163",
+      "title": "RDBMS Market Overview \u2014 Computer Associates Sales Training",
+      "relative_path": "kastner-author/cab199-1-2-0cb163",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/cab199-1-2-0cb163",
+      "lev_ratio": 0.5333,
+      "token_ratio": 0.3333,
+      "combined_score": 0.4533,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be/working/extracted_v20.md",
+      "md_chars": 21030,
+      "md_lines": 887,
+      "elapsed_sec": 2.13
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 48,
+      "filename": "power academy.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=48, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 17,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Oracle",
+          24
+        ],
+        [
+          "Informix",
+          15
+        ],
+        [
+          "Microsoft",
+          13
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 9,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/rdbms-for-ibm-powera~1-7a44be/working/observation_candidates_v20.csv"
+    }
+  ]
+}

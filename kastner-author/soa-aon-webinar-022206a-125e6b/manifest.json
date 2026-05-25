@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "soa-aon-webinar-022206a-125e6b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/SOA_AON_webinar_022206a.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b/source/original.pdf",
+  "pdf_sha256": "b2ac4b9607b459de5e41afa1e3e407b5657ec6f67613e87b7f6cd5048769907f",
+  "pdf_size_bytes": 307479,
+  "pdf_page_count": 23,
+  "bucket": "E",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "E",
+  "bucket_signals": {
+    "page_count": 23,
+    "filename": "soa_aon_webinar_022206a.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 1
+    },
+    "filename_hints": [],
+    "predicted_bucket": "E",
+    "decision_reason": "page_count=23, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:42:16.717633+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "soa-aon-webinar-022206a-125e6b",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "soa-aon-webinar-022206a-125e6b",
+      "title": "Enterprise Integration Technology: Aberdeen Group's Market Trends & Research for 2006",
+      "relative_path": "kastner-author/soa-aon-webinar-022206a-125e6b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "soa-aon-webinar-022206a"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b/working/extracted_v20.md",
+      "md_chars": 13998,
+      "md_lines": 384,
+      "elapsed_sec": 1.21
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 23,
+      "filename": "soa_aon_webinar_022206a.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 1
+      },
+      "filename_hints": [],
+      "predicted_bucket": "E",
+      "decision_reason": "page_count=23, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "E",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 5,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          6
+        ],
+        [
+          "Peter Kastner",
+          3
+        ],
+        [
+          "Peter S. Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "E",
+      "candidates_found": 1,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/soa-aon-webinar-022206a-125e6b/working/observation_candidates_v20.csv"
+    }
+  ]
+}

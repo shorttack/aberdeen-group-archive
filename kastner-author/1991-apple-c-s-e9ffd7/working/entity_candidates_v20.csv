@@ -1,0 +1,40 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+apple,Apple Computer,company,IT-hardware,71,Front-Ends and Apple Computer in the 1990s   A Report to the Management of Apple Computer
+aberdeen-group,Aberdeen Group,firm,IT market analysis,22,"rt to the Management of Apple Computer USA   Prepared by:   Aberdeen Group, Inc. 92 State Street Boston, MA 02109   January 9, 1991"
+microsoft,Microsoft,company,Software,16,rprise requires a different sales and marketing strategy.   Microsoft Windows 3.0 is the client software environment most frequen
+hewlett-packard,Hewlett-Packard,company,technology hardware,13,other hardware suppliers -- with the possible exception of Hewlett-Packard with NewWave -- are in contention to lead this market with
+ENT-013,Peter Kastner,person,market-research,10,deen Group and Apple Computer Confidential Page Interviewer Peter Kastner   1. Enterprise Profile Name/Division Atlanta Gas Light Com
+ent-013,Novell,corporation,information-technology,9,"a LAN.  Large MIS sites have typically invested heavily in Novell Netware, so Apple connectivity to Netware is an entry hurdl"
+software-ag,Software AG,company,Enterprise Software,8,ple Computer and Digital Equipment|30| ||Apple Computer and Software AG|31|    III. Applications of Frontware 32   IV. Interview Co
+e91-06,Delta Airlines,company,transportation,8,maries 35 Atlanta Gas Light Company 36 Continuum Company 41 Delta Airlines 48 Federal Reserve Bank of New York 54 First Interstate Ban
+e91-07,Merrill Lynch,company,financial-services,6,ential-Bache's system used proprietary CTOS machines).   8. Merrill Lynch stated they were fearful that they could never manage the h
+compaq,Compaq,company,computing/pc-server,5,"nvariably include the IBM PS/2, sometimes include Apple and Compaq, and rarely includes PC clones.   4. MIS Infocenter manager"
+federal-reserve-bank,Federal Reserve Bank,agency,financial services / central banking,4,Gas Light Company 36 Continuum Company 41 Delta Airlines 48 Federal Reserve Bank of New York 54 First Interstate Bank Limited 60 Georgia Dep
+unisys,Unisys,company,IT services / mainframe,4,nch. Download customer data to Convergent Technologies (now Unisys) CTOS-based controller.   Midrange & Distributed Systems
+oracle,Oracle,company,enterprise software,3,frame Configuration IBM 3083 + 3090 + Hitachi. Running MVS. Oracle to DB2 distributed database conversions underway   Midrange
+e91-09,Federal Reserve Bank of New York,government-agency,financial-services,3,Gas Light Company 36 Continuum Company 41 Delta Airlines 48 Federal Reserve Bank of New York 54 First Interstate Bank Limited 60 Georgia Department of T
+e91-11,Georgia Department of Transportation,government-agency,government,3,eserve Bank of New York 54 First Interstate Bank Limited 60 Georgia Department of Transportation 66 Merrill-Lynch 72 Prudential-Bache 78 Sabre Group (Federa
+e91-14,Atlanta Gas Light Company,company,utility,3,ations of Frontware 32   IV. Interview Contact Summaries 35 Atlanta Gas Light Company 36 Continuum Company 41 Delta Airlines 48 Federal R
+e91-15,Continuum Company,company,insurance-software,3,Interview Contact Summaries 35 Atlanta Gas Light Company 36 Continuum Company 41 Delta Airlines 48 Federal Reserve Bank of New York 54 Fi
+e91-19,Businessland,company,computer-retail,3,"outinely buy IBM PCs from the same dealer channels, such as Businessland, that sell Apple computers today.   2. The exception is mul"
+andersen-consulting,Andersen Consulting,firm,management / IT consulting,2,"cing application development to systems integrators such as Andersen Consulting for key new applications continues to grow.  However, Aberd"
+lotus,Lotus,company,software,2,t become IBM PC compatible. Not considered because: Must do Lotus 123 or Symphony as it's a Cash Management institutional sta
+convergent-technologies,Convergent Technologies,company,engineering-workstation,2,stream to server at each branch. Download customer data to Convergent Technologies (now Unisys) CTOS-based controller.   Midrange & Distribute
+knowledgeware,KnowledgeWare,company,software,2,at IBM can't do the job!   ## 12. Other notes   - A.) Using Knowledgeware for CASE. Having problems.   - B.) IBM has visible presence
+ent-16,Sybase,software-vendor,database-software,2,"antly used for the Deft CASE product, a design front-end to Sybase SQL Server.   1991 buying plans   - units/modelsnone   - ch"
+reuters,Reuters,firm,news-wire,2,s typically price quotes or news tickers (e.g. Dow Jones or Reuters news wires).  Profitable stock trading depends on reacting
+google,Google,company,technology / cloud,1,w.linkedin.com/in/peter-miller-06400039   [9] https://books.google.com/books/about/Apple_Confidential.html?id=3KG1AAAAIAAJ   [
+hitachi,Hitachi,company,IT-hardware,1,ter Environment   Mainframe Configuration IBM 3083 + 3090 + Hitachi. Running MVS. Oracle to DB2 distributed database conversion
+state-street,State Street Corporation,company,Banking / Financial Services,1,"Apple Computer USA   Prepared by:   Aberdeen Group, Inc. 92 State Street Boston, MA 02109   January 9, 1991   Aberdeen Group and App"
+computerworld,Computerworld,firm,Technology Media / Publishing,1,s in product price/performance No notice. Occasionally read ComputerWorld or Byte.   Are dealers able to meet your PC/LAN support req
+amdahl,Amdahl,company,IT-hardware,1,year -- MIPS are replacing clerical & accounting personnel. Amdahl has all other Texas state business.   Midrange & Distribute
+e91-10,First Interstate Bank Limited,company,financial-services,1,ny 41 Delta Airlines 48 Federal Reserve Bank of New York 54 First Interstate Bank Limited 60 Georgia Department of Transportation 66 Merrill-Lynch 72
+e91-13,University of Texas at Austin,educational-institution,education,1,ted Department Stores) 83 United States Auto Association 89 University of Texas at Austin 95   Appendix A In-Person Interview Script and Presentation
+e91-16,Sabre Group (Federated Department Stores),company,retail-IT,1,t of Transportation 66 Merrill-Lynch 72 Prudential-Bache 78 Sabre Group (Federated Department Stores) 83 United States Auto Association 89 University of Texas at
+ibm-rs6000,IBM RS/6000,Unix-server,IBM Corporation,1,None   Sun Open Look Some in network monitoring. Evaluating IBM RS/6000   Apple Computer Macintosh Approve soon for general use.
+citibank,Citibank,company,banking,1,and experiences:   Ten years in banking systems here and at Citibank.   Experience with IBM and Apple PCs: Limited   3. Computin
+fortune-1000,Fortune 1000,institution,market-segment-definition,1,s high enough by planning less than 25 pilots in 1991.  The Fortune 1000 needs a 1991 wake-up call that clearly indicates Apple is r
+dun-and-bradstreet,Dun & Bradstreet,vendor,,1,ng.   ## 13. Interviewer's Notes   Aberdeen also spoke with Dun & Bradstreet Software about their plans for client-server applications a
+ENT-PS-011,Computer Associates (CA),Technology Vendor,Enterprise Software,1,onfiguration   4 x 3090-600S running ESA.  Datacomm DB from Computer Associates (CA).  Some DB2.  Six versions of IBM DOS/VS.  They run 100 CICS
+dun-bradstreet,Dun & Bradstreet Corporation,company,business-information-services,1,ng.   ## 13. Interviewer's Notes   Aberdeen also spoke with Dun & Bradstreet Software about their plans for client-server applications a
+dun-bradstreet-software,Dun & Bradstreet Software,company,ERP-software,1,ng.   ## 13. Interviewer's Notes   Aberdeen also spoke with Dun & Bradstreet Software about their plans for client-server applications and frontw

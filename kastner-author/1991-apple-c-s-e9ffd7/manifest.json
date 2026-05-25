@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "1991-apple-c-s-e9ffd7",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1991 Apple C-S.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7/source/original.pdf",
+  "pdf_sha256": "7b823a108a2a58efc4f040d3401e4ca09b6a60dc37100ef181b729cb7fcbd10b",
+  "pdf_size_bytes": 493890,
+  "pdf_page_count": 77,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 77,
+    "filename": "1991 apple c-s.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 1,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=77, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:00.716630+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1991-apple-c-s-e9ffd7",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1991-apple-c-s-e9ffd7",
+      "title": "Front-Ends and Apple Computer in the 1990s",
+      "relative_path": "kastner-author/1991-apple-c-s-e9ffd7",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "1991-apple-c-s"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7/working/extracted_v20.md",
+      "md_chars": 120893,
+      "md_lines": 2951,
+      "elapsed_sec": 4.01
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 77,
+      "filename": "1991 apple c-s.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 1,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=77, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 39,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Apple Computer",
+          71
+        ],
+        [
+          "Aberdeen Group",
+          22
+        ],
+        [
+          "Microsoft",
+          16
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 22,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-apple-c-s-e9ffd7/working/observation_candidates_v20.csv"
+    }
+  ]
+}

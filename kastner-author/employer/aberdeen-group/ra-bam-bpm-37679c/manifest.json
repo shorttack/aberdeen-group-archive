@@ -1,0 +1,173 @@
+{
+  "mode": "existing",
+  "slug": "ra-bam-bpm-37679c",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/RA_BAM_BPM_PK_081506c.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c/source/original.pdf",
+  "pdf_sha256": "55d4da23d461720efd1b6affabf2995d71e82b06ae8532fa58bfae94e9ad773c",
+  "pdf_size_bytes": 391185,
+  "pdf_page_count": 35,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 35,
+    "filename": "ra_bam_bpm_pk_081506c.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=35, top_score=2, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:48.833123+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "ra-bam-bpm-37679c",
+  "match_score": 0.89,
+  "match_candidates": [
+    {
+      "study_id": "ra-bam-bpm-37679c",
+      "title": "The Business Activity Monitoring Benchmark Report: The Eyes and Ears of BPM",
+      "relative_path": "kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c",
+      "lev_ratio": 0.89,
+      "token_ratio": 1.0,
+      "combined_score": 0.89,
+      "match_via": "slug_tokens",
+      "matched_stem": "ra-bam-bpm"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c/working/extracted_v20.md",
+      "md_chars": 72757,
+      "md_lines": 762,
+      "elapsed_sec": 2.64
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 35,
+      "filename": "ra_bam_bpm_pk_081506c.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=35, top_score=2, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 7,
+      "figures_extracted": 7,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 11,
+          "sha1": "f5f645f1214d1ab03d9b77507db72ec46c68468b",
+          "size_bytes": 275948,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 13,
+          "sha1": "f92b5bedbeb7f6fd897b14821142150443d8be69",
+          "size_bytes": 220692,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 17,
+          "sha1": "c90201a5b4ab2cfe2cbf3b9eb1e74ca2458f214f",
+          "size_bytes": 230811,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 19,
+          "sha1": "da499377b1312738618849b04867957da159b422",
+          "size_bytes": 328431,
+          "labels_on_page": [
+            "2",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 20,
+          "sha1": "62057bfe28ca419eedca1b037bec823f6bcbab51",
+          "size_bytes": 322960,
+          "labels_on_page": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 23,
+          "sha1": "d9fe79ee2d81449544341fefd768f7c77fbd329e",
+          "size_bytes": 308226,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 32,
+          "sha1": "8a388e1c151774561c24598c0110b9ccb430d8bd",
+          "size_bytes": 315640,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 2,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          5
+        ],
+        [
+          "Peter S. Kastner",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 58,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ra-bam-bpm-37679c/working/observation_candidates_v20.csv"
+    }
+  ]
+}

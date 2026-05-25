@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "1988-encore-oltp-market-tps-needs-deee45",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1988 Encore OLTP market tps needs.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1988-encore-oltp-market-tps-needs-deee45/source/original.pdf",
+  "pdf_sha256": "4de1ca652bb5cb2a21b50024c4a58128dd6696054f2e5d6c54d712461bc512f4",
+  "pdf_size_bytes": 54440,
+  "pdf_page_count": 8,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 8,
+    "filename": "1988 encore oltp market tps needs.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=8, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:39:40.513593+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1988-encore-oltp-market-tps-needs-deee45",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1988-encore-oltp-market-tps-needs-deee45",
+      "title": "OLTP Market Transaction Processing Needs: A Vertical Market Analysis for Encore Computer",
+      "relative_path": "kastner-author/1988-encore-oltp-market-tps-needs-deee45",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1988-encore-oltp-market-tps-needs-deee45",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "1988-encore-oltp-market-tps-needs"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1988-encore-oltp-market-tps-needs-deee45/working/extracted_v20.md",
+      "md_chars": 17808,
+      "md_lines": 153,
+      "elapsed_sec": 0.53
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 8,
+      "filename": "1988 encore oltp market tps needs.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=8, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 8,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1988-encore-oltp-market-tps-needs-deee45/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Federal Reserve Bank",
+          1
+        ],
+        [
+          "Hewlett-Packard",
+          1
+        ],
+        [
+          "Encore Computer Corporation",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

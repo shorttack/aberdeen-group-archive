@@ -1,0 +1,137 @@
+{
+  "mode": "existing",
+  "slug": "omnibox97-53bcfe",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1992 Omnibox.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe/source/original.pdf",
+  "pdf_sha256": "9db4688f954aab072c3c57fc682f4eb0cfe590e3329549897f3f167524a6d9f8",
+  "pdf_size_bytes": 557677,
+  "pdf_page_count": 33,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 33,
+    "filename": "1992 omnibox.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=33, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:05.381621+00:00",
+  "extracted_title": "OmniBox Inc. Confidential Business Plan",
+  "title_source": "page1",
+  "matched_study_id": "omnibox97-53bcfe",
+  "match_score": 0.7829,
+  "match_candidates": [
+    {
+      "study_id": "omnibox97-53bcfe",
+      "title": "OmniBox International Confidential Business Plan",
+      "relative_path": "kastner-author/omnibox97-53bcfe",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe",
+      "lev_ratio": 0.8605,
+      "token_ratio": 0.6667,
+      "combined_score": 0.7829,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2002-webex-taking-conferencing-to-the-business-communic-85e330",
+      "title": "WebEx: Taking Conferencing to the Business Communications Summit",
+      "relative_path": "kastner-author/2002-webex-taking-conferencing-to-the-business-communic-85e330",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2002-webex-taking-conferencing-to-the-business-communic-85e330",
+      "lev_ratio": 0.495,
+      "token_ratio": 0.0833,
+      "combined_score": 0.3304,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "2002-webex--taking-conferencing-to-the-summit-05f195",
+      "title": "WebEx: Taking Conferencing to the Business Communications Summit",
+      "relative_path": "kastner-author/2002-webex--taking-conferencing-to-the-summit-05f195",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/2002-webex--taking-conferencing-to-the-summit-05f195",
+      "lev_ratio": 0.495,
+      "token_ratio": 0.0833,
+      "combined_score": 0.3304,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe/working/extracted_v20.md",
+      "md_chars": 62603,
+      "md_lines": 608,
+      "elapsed_sec": 2.5
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 33,
+      "filename": "1992 omnibox.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=33, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 1,
+      "figures_extracted": 1,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 5,
+          "sha1": "75a4a5a3dc59b3141e751434137987ace57d30de",
+          "size_bytes": 267177,
+          "labels_on_page": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 19,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "OmniBox, Inc.",
+          39
+        ],
+        [
+          "Primestar",
+          3
+        ],
+        [
+          "Intel",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 26,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/omnibox97-53bcfe/working/observation_candidates_v20.csv"
+    }
+  ]
+}

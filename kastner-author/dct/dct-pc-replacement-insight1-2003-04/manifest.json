@@ -1,0 +1,123 @@
+{
+  "mode": "existing",
+  "slug": "dct-pc-replacement-insight1-2003-04",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/2003 PC Replacements_ Lawyers, Auditors, and Common Sense Rules PSK.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-pc-replacement-insight1-2003-04/source/original.pdf",
+  "pdf_sha256": "5676391fea3d9a0954b0005136e424b6ad307cb5258bd07b7cff9e9195175304",
+  "pdf_size_bytes": 166012,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "2003 pc replacements_ lawyers, auditors, and common sense rules psk.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:18.095525+00:00",
+  "extracted_title": "InSight: PC Replacements: Lawyers, Auditors, and Common Sense Rules",
+  "title_source": "page1",
+  "matched_study_id": "dct-pc-replacement-insight1-2003-04",
+  "match_score": 0.9149,
+  "match_candidates": [
+    {
+      "study_id": "dct-pc-replacement-insight1-2003-04",
+      "title": "PC Replacements: Lawyers, Auditors, and Common Sense Rules",
+      "relative_path": "kastner-author/dct/dct-pc-replacement-insight1-2003-04",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-pc-replacement-insight1-2003-04",
+      "lev_ratio": 0.9322,
+      "token_ratio": 0.8889,
+      "combined_score": 0.9149,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "pc-replacements-lawyers-auditors-and-com-ce8ebb",
+      "title": "PC replacements: Lawyers, auditors and common sense",
+      "relative_path": "other-authors/pc-replacements-lawyers-auditors-and-com-ce8ebb",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/pc-replacements-lawyers-auditors-and-com-ce8ebb",
+      "lev_ratio": 0.875,
+      "token_ratio": 0.7778,
+      "combined_score": 0.8361,
+      "anchor_bonus": 0.0
+    },
+    {
+      "study_id": "dct-cmp-pc-replacement-survey",
+      "title": "CMP Corporate PC Replacement Policy Survey",
+      "relative_path": "kastner-author/dct/dct-cmp-pc-replacement-survey",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-cmp-pc-replacement-survey",
+      "lev_ratio": 0.419,
+      "token_ratio": 0.0714,
+      "combined_score": 0.28,
+      "anchor_bonus": 0.0
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-pc-replacement-insight1-2003-04/working/extracted_v20.md",
+      "md_chars": 2107,
+      "md_lines": 55,
+      "elapsed_sec": 0.19
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "2003 pc replacements_ lawyers, auditors, and common sense rules psk.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 3,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/dct/dct-pc-replacement-insight1-2003-04/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          2
+        ],
+        [
+          "Microsoft",
+          1
+        ],
+        [
+          "Peter Kastner",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

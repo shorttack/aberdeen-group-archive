@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "1997-oracle8-the-database-for-network-computing-674c9d",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1997 Oracle8_ The Database For Network Computing PSK pr.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1997-oracle8-the-database-for-network-computing-674c9d/source/original.pdf",
+  "pdf_sha256": "97ee08bc037916610a871a3a8c54822d1d6f69d7befe76fb9b3d01c492307682",
+  "pdf_size_bytes": 245768,
+  "pdf_page_count": 6,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 6,
+    "filename": "1997 oracle8_ the database for network computing psk pr.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 1,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [
+      "C"
+    ],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=6, top_score=1, hints=['C']",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:18.040255+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1997-oracle8-the-database-for-network-computing-674c9d",
+  "match_score": 0.937,
+  "match_candidates": [
+    {
+      "study_id": "1997-oracle8-the-database-for-network-computing-674c9d",
+      "title": "Oracle8: The Database For Network Computing",
+      "relative_path": "kastner-author/1997-oracle8-the-database-for-network-computing-674c9d",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1997-oracle8-the-database-for-network-computing-674c9d",
+      "lev_ratio": 0.937,
+      "token_ratio": 0.937,
+      "combined_score": 0.937,
+      "match_via": "slug_prefix",
+      "matched_stem": "1997-oracle8-the-database-for-network-computing"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1997-oracle8-the-database-for-network-computing-674c9d/working/extracted_v20.md",
+      "md_chars": 21945,
+      "md_lines": 179,
+      "elapsed_sec": 0.69
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 6,
+      "filename": "1997 oracle8_ the database for network computing psk pr.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 1,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [
+        "C"
+      ],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=6, top_score=1, hints=['C']",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 6,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1997-oracle8-the-database-for-network-computing-674c9d/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Oracle",
+          35
+        ],
+        [
+          "Business Objects",
+          3
+        ],
+        [
+          "Aberdeen Group",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "page_count": 6,
+  "filename": "1997 oracle8_ the database for network computing psk pr.pdf",
+  "scores": {
+    "A_benchmark": 0,
+    "B_exec_summary": 1,
+    "C_press_release": 1,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [
+    "C"
+  ],
+  "predicted_bucket": "B",
+  "decision_reason": "page_count=6, top_score=1, hints=['C']",
+  "is_ambiguous": false
+}

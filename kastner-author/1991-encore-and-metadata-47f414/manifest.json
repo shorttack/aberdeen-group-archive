@@ -1,0 +1,108 @@
+{
+  "mode": "existing",
+  "slug": "1991-encore-and-metadata-47f414",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/1991 Encore and metadata.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414/source/original.pdf",
+  "pdf_sha256": "1485771b03e77195042d386569e51fbf286147600188a76dbe1be6118a9cdd1c",
+  "pdf_size_bytes": 267327,
+  "pdf_page_count": 54,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 54,
+    "filename": "1991 encore and metadata.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=54, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:40:09.392791+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "1991-encore-and-metadata-47f414",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "1991-encore-and-metadata-47f414",
+      "title": "Encore Computer Series 91 & 93: Proposed 1991-1993 Market Strategy for Financial and Information Services Industries",
+      "relative_path": "kastner-author/1991-encore-and-metadata-47f414",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "1991-encore-and-metadata"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414/working/extracted_v20.md",
+      "md_chars": 84486,
+      "md_lines": 899,
+      "elapsed_sec": 2.54
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 54,
+      "filename": "1991 encore and metadata.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=54, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 0,
+      "figures_extracted": 0,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414/working/figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 22,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Teradata",
+          19
+        ],
+        [
+          "Aberdeen Group",
+          11
+        ],
+        [
+          "Encore Computer Corporation",
+          9
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 15,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/1991-encore-and-metadata-47f414/working/observation_candidates_v20.csv"
+    }
+  ]
+}

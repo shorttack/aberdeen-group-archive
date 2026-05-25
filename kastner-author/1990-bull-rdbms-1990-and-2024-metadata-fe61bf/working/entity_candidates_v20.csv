@@ -1,0 +1,16 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+ent-16,Sybase,software-vendor,database-software,82,Bull RDBMS 1990 and 2024 Metadata   INGRES/SYBASE CUSTOMER SATISFACTION SURVEY   Prepared For: Bull Corporate
+ingres,Ingres,company,database software,79,Bull RDBMS 1990 and 2024 Metadata   INGRES/SYBASE CUSTOMER SATISFACTION SURVEY   Prepared For: Bull Co
+oracle,Oracle,company,enterprise software,7,"ently been the poorer marketer when compared to Sybase (and Oracle -- volunteered by contacts, not asked). Sybase was the firs"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,4,"Prepared For: Bull Corporate Strategy & Marketing   By:   Aberdeen Group, Inc. 92 State Street Boston, Massachusetts 02109 (617) 723"
+sun-microsystems,Sun Microsystems,company,Enterprise IT Hardware,4,"agement.   #5. The first releases of Sybase products are on Sun Microsystems workstations. As a result, Sybase support staff has advised"
+google,Google,company,technology / cloud,3,"nce limitations of traditional RDBMS. Modern databases like Google Cloud Spanner and CockroachDB offer global scale, consisten"
+e90-06,Salomon Brothers,company,financial-services,3,rporation   Ingres Sybase   Ingres Ingres   Sybase Ingres   Salomon Brothers Sanford Bernstein   Stratus Computer Syscon Corporation   S
+chase-manhattan-bank,Chase Manhattan Bank,company,financial services,2,"ms Engineering, Inc. ATD - American Company   Bowater Paper Chase Manhattan Bank   Hill A&E/Artsoft Polaroid Corporation   Ingres Sybase   I"
+e90-10,Polaroid Corporation,company,manufacturing,2,any   Bowater Paper Chase Manhattan Bank   Hill A&E/Artsoft Polaroid Corporation   Ingres Sybase   Ingres Ingres   Sybase Ingres   Salomon B
+e90-11,Bowater Paper,company,manufacturing,2,"Applied Systems Engineering, Inc. ATD - American Company   Bowater Paper Chase Manhattan Bank   Hill A&E/Artsoft Polaroid Corporatio"
+e90-12,ATD - American Company,company,wholesale-distribution,2,"with Ingres and Sybase:   Applied Systems Engineering, Inc. ATD - American Company   Bowater Paper Chase Manhattan Bank   Hill A&E/Artsoft Pol"
+youtube,YouTube,company,video-platform,2,or.leg.state.mn.us/ped/pedrep/sat-ch2.pdf   [6] https://www.youtube.com/watch?v=eEENrNKxCdw   [7] https://www.princeton.edu/~ot
+stratus-computer,Stratus Computer,company,technology/fault-tolerant computing,1,gres   Sybase Ingres   Salomon Brothers Sanford Bernstein   Stratus Computer Syscon Corporation   Sybase   Sybase   Sybase   Ingres   Ap
+mis-week,MIS Week,institution,technology media,1,". (In particular, Bull might note that the lead article for MIS Week for 26 March 1990 reports that Salomon may be moving its IM"
+state-street,State Street Corporation,company,Banking / Financial Services,1,"porate Strategy & Marketing   By:   Aberdeen Group, Inc. 92 State Street Boston, Massachusetts 02109 (617) 723-7890   28 March 1990"

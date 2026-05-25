@@ -1,0 +1,72 @@
+char_offset,trigger_labels,sentence
+3637,average_stat,And the respondents’ companies that have implemented Business Process Monitoring systems are achieving an **average 9% improvement in revenues** .
+4020,percentage_stat,Some 94% of respondents’ companies are either moderately or very pleased with the overall improvement Business Process Monitoring has delivered.
+4167,best_in_class,"The top-performing, or Best in Class, companies in the survey succeed because they focus on **specific business process metrics** such as customer satisfaction in product service and repair as opposed to broader goals such as “achieve more revenue.” The following list also clearly differentiate Best in Class organizations when compared with the Industry Average and Laggard companies represented in this report:"
+5455,percentage_stat,"However, more than 70% of companies surveyed for an earlier Aberdeen report indicated that the need for _greater visibility into business processes on a real-time basis_ was the top driver for enterprise integration projects."
+6270,percentage_stat,"Third, no less than 84% of respondents are moderately or very happy with eight success ratings in their Business Process Monitoring implementations."
+6419,best_in_class;percentage_stat,"About 67% (yet only 43% of Best in Class) found that data integration, loading, and cleansing were more complex"
+6634,percentage_stat,More than 70% of Laggards found they had to tune Business Process Monitoring metrics because of false positive or false negative results or a poor choice of key performance metrics (KPMs).
+6964,best_in_class;percentage_stat,"Finally, there is a wide divergence on the definition of “real-time.” While a quarter of Best in Class companies capture process performance changes in 10 seconds or less, and 36% of the respondents’ companies in 10 minutes or less, more than half the survey believe daily or weekly process performance measurement is adequate."
+7294,percentage_stat,The fact that 42% of the participating companies are in the planning stages of Business Process Monitoring is likely indicative of the early stages of market penetration and market awareness of Business Process Monitoring.
+8561,best_in_class,"Don’t be afraid to jump in the water and start swimming. **Best in Class companies participating in our survey are aggressively implementing Business Process Monitoring** in more business processes immediately, while Industry Average firms take a moderate speed and Laggards are risk averse."
+8853,best_in_class,"There is a **direct correlation between Best in Class** and **success metrics,** and **a high degree of IT adoption** in support of Business Process Monitoring."
+13138,figure_reference,Figure 1: Key Business Drivers of Business Process Monitoring..........................3 Figure 2: How Companies Were Challenged in Initial Business Process Monitoring Projects ..................................................................7
+18456,percentage_stat,"More than 84% of companies surveyed are moderately or very pleased with the results of their Business Process Monitoring implementations, with an 18% ROI."
+21161,figure_reference,"By a slight margin, the two most important business drivers leading to the implementation of a Business Process Monitoring system are **competitive pressures** and **increasing sales and revenue** (Figure 1)."
+21372,best_in_class,Best in Class firms are more concerned than others about competition.
+21685,figure_reference,**Figure 1: Key Business Drivers of Business Process Monitoring**
+27919,percentage_stat,"A healthy 94% of companies surveyed report moderate or very good results in their Business Process Monitoring initiatives, with a median ROI of 18%."
+28072,best_in_class,"Best in Class companies are aggressively implementing multiple projects simultaneously, driven by top-down management support and execution discipline."
+28535,best_in_class,"The second weighted priority is to **implement Business Process Monitoring projects in order of decreasing ROI/ROA over several years** , with Best in Class firms twice as likely as others to take this approach."
+28747,best_in_class,The Best in Class are also significantly less likely to open process information to key customers or business partners.
+29704,best_in_class,"Best in Class organizations are most concerned with a lack of best practices or lessons learned on which to draw, while half complained of too much IT complexity in implementing a Business Process Monitoring system."
+30276,figure_reference,**Figure 2: How Companies Were Challenged in Initial Business Process Monitoring Projects**
+31246,best_in_class,The top response is an **increased investment in IT infrastructure:** 39% overall and 63% at Best in Class firms.
+31362,best_in_class;percentage_stat,"Second, **setting tasks and goals for key managers** with Business Process Monitoring project success is not an approach at Best in Class firms, while more than 40% of Industry Average and Laggard respondents choose it."
+31582,best_in_class;percentage_stat,One third of respondents are **contracting for IT services in building a Business Process Monitoring system** — especially mid-size firms ─ but only 13% of the Best in Class are bringing in outside resources.
+32840,percentage_stat,"Meanwhile, product service/repair, the first priority, is a key process in the spare parts departments, the source of 70% of profits at many manufacturing companies, according to research from Aberdeen’s service chain practice."
+33488,best_in_class,"Two-thirds of the surveyed companies are deploying via portals to users’ desktops, and half of the Best in Class are moving rapidly to incorporate Business Process Monitoring into their services-oriented architecture (SOA) plans."
+34624,best_in_class,"No clear picture emerges regarding implementation approaches; even the Best in Class are split between implementing a process at a time versus a “big bang,” company-wide rollout."
+35049,best_in_class;percentage_stat,"Nearly 25% of the Best in Class and 18% of the overall survey pool capture the state of a business process in less than 10 seconds. **However, a slight majority of respondents ─** regardless of company size ─ **believe daily or weekly is adequate.**"
+35380,dollar_stat,"The median investment in a Business Process Monitoring system among survey participants is between $101,000 and $500,000."
+35555,dollar_stat,"But many larger companies are investing much more than $500,000, with the upper limit topping $10 million."
+36498,percentage_stat,A healthy 94% of companies surveyed say they are moderately or very satisfied with the IT results of their Business Process Monitoring implementations (Table 3).
+37941,best_in_class,"Eighty-three percent of Best in Class enterprises plan to **aggressively implement Business Process Monitoring in more business processes immediately** , while Industry Average companies will take a more moderate speed. **Laggards, meanwhile, are much more risk averse** , planning to gain insights from lessons learned before attempting more Business Process Monitoring projects."
+38324,best_in_class;percentage_stat,"As for lessons learned, about 67% of survey participants (only 43% of Best in Class) found that **data integration, loading, and cleansing were more complex than anticipated** ."
+38502,percentage_stat,"More than 70% of **Laggards found they had to tune Business Process Monitoring metrics due to false positive or false negative results, or a poor choice of KPMs** ."
+38737,dollar_stat,"Our analysis of negative paybacks in the survey indicate larger companies, with more than 2,500 employees and $500 million in annual revenue in the pharmaceutical, utility, and especially transportation and telecom industries, are most likely to have Business Process Monitoring projects with negative paybacks."
+40263,best_in_class,"||**Laggards**|**Industry Average **|**Best in Class**|
+|---|---|---|---|
+|**Process**|Low management buy-in<br>and little interest in more<br>and faster visibility."
+41187,best_in_class,"Business<br>Process Monitoring KPMs<br>are widely communicated.|
+|**Knowledge**|Less likely than Industry<br>Average or Best in Class<br>to manage to ROI<br>expectations."
+42254,best_in_class,The Best in Class are moving the most quickly into Business Process Monitoring; the Laggards the most slowly. • Identify the key metrics that can drive the greatest and earliest business value.
+42979,best_in_class,"As a result, the Best in Class are winning the race to generating business value."
+47482,percentage_stat,"However, more than 70% of companies surveyed for an earlier Aberdeen report indicated that the need for “greater visibility into business processes on a real-time basis” was the top driver for enterprise integration projects."
+48236,percentage_stat,"Respondents’ companies are about equally split on technology approach; some 57% of survey participants chose “all equally” among information management, business process management, business analytics, and business activity management."
+48546,percentage_stat,No less than 84% of respondents are moderately or very pleased with eight ratings of success in their Business Process Monitoring implementations.
+48693,best_in_class;percentage_stat,"About 67% (only 43% of Best in Class) found that **data integration, loading,** and **cleansing** were more complex than anticipated."
+48827,percentage_stat,"More than 70% of Laggards found they had to tune Business Process Monitoring metrics due to false positive or false negative results, or by a poor choice of key performance metrics (KPMs)."
+49154,percentage_stat,"Finally, failed implementations amount to about 5% of all projects, indicating that success is quite attainable with low overall risks."
+49338,best_in_class;percentage_stat,"There is a wide divergence in the definition of “real-time.” While one-quarter of Best in Class companies capture process performance changes in 10 seconds or less, and 36% of the respondents’ companies in 10 minutes or less, more than half of the survey pool believes daily or even weekly process performance measurement is adequate."
+49673,percentage_stat,The fact that 42% of the participating companies are in the planning stages of Business Process Monitoring is likely indicative of the early stages of its market penetration and awareness.
+50704,best_in_class,"Best in Class firms must continue to simplify human business processes, improve their Business Process Monitoring systems’ forecasting and prediction capabilities, and plan to permanently extract core logic and business rules from enterprise applications."
+51827,best_in_class,"The Best in Class companies participating in our survey are implementing Business Process Monitoring in more business processes aggressively and immediately, while Industry Average companies take a moderate speed and Laggards are risk averse."
+52070,best_in_class,"There is **a direct correlation between Best in Class companies** and **success metrics, and a high degree of IT adoption in support of business process monitoring** ."
+54825,best_in_class,"If Best in Class companies are seeing exceptional business value in Business Process Monitoring and accelerating the rate of project implementations, Industry Average companies should look to pick up the pace of their projects and corresponding IT investments."
+56981,best_in_class,## **Best in Class Next Steps**
+58858,best_in_class,"By following the lead of the Best in Class companies discussed in this report, companies that are not using Business Process Monitoring technology can organize initial discussions with the framework provided."
+67508,percentage_stat,"Discrete and process manufacturing represented 36% of the survey, and consumer product goods (CPG) 34%."
+67704,dollar_stat,"|•|**_Geography_**_:_||
+|---|---|---|
+||North America (Includes USA, Canada, Mexico)|59%|
+||Europe|25%|
+||Asia/Pacific|8%|
+||Middle East, Africa|8%|
+|•|**_Company size_**_:_||
+||Less than $50 Million|37%|
+||$50M to $249M|18%|
+||$250M to 499M|8%|
+||$500M to $999M|9%|
+||$1 billion to $5 billion|13%|
+||More than $5 billion|15%|"

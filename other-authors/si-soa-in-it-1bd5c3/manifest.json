@@ -1,0 +1,139 @@
+{
+  "mode": "existing",
+  "slug": "si-soa-in-it-1bd5c3",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/SI_MM_SOAinIT_RS_2558.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3/source/original.pdf",
+  "pdf_sha256": "978c3368be8213231fc77096ca9a8101f83d0e336c6595d71b0b3c5f6fa07610",
+  "pdf_size_bytes": 454403,
+  "pdf_page_count": 4,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 4,
+    "filename": "si_mm_soainit_rs_2558.pdf",
+    "scores": {
+      "A_benchmark": 2,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=4, top_score=2, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:34.369224+00:00",
+  "extracted_title": "For Mid-Size Enterprises, SOA's Benefits Begin with IT",
+  "title_source": "metadata",
+  "matched_study_id": "si-soa-in-it-1bd5c3",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "si-soa-in-it-1bd5c3",
+      "title": "For Mid-Size Enterprises SOA's Benefits Begin with IT",
+      "relative_path": "other-authors/si-soa-in-it-1bd5c3",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "1997-tandem-s-nonstop-software-enterprise-clustering-fo-815776",
+      "title": "Tandem's NonStop Software: Enterprise Clustering For NT, Too",
+      "relative_path": "other-authors/1997-tandem-s-nonstop-software-enterprise-clustering-fo-815776",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/1997-tandem-s-nonstop-software-enterprise-clustering-fo-815776",
+      "lev_ratio": 0.4144,
+      "token_ratio": 0.1176,
+      "combined_score": 0.2957
+    },
+    {
+      "study_id": "1997-forte-enterprise-development-enviro-a07cf9",
+      "title": "Forte Enterprise Development Environment",
+      "relative_path": "other-authors/1997-forte-enterprise-development-enviro-a07cf9",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/1997-forte-enterprise-development-enviro-a07cf9",
+      "lev_ratio": 0.4731,
+      "token_ratio": 0.0,
+      "combined_score": 0.2839
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3/working/extracted_v20.md",
+      "md_chars": 10996,
+      "md_lines": 147,
+      "elapsed_sec": 0.63
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 4,
+      "filename": "si_mm_soainit_rs_2558.pdf",
+      "scores": {
+        "A_benchmark": 2,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=4, top_score=2, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 2,
+      "figures_extracted": 2,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 1,
+          "sha1": "493032ce54d535b2ebdff80f3a69228d6864a2ee",
+          "size_bytes": 650424,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 2,
+          "sha1": "52816c58d096f8f738094c9e4af6ccbf8592c8a2",
+          "size_bytes": 499334,
+          "labels_on_page": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 2,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Rick Saia",
+          1
+        ],
+        [
+          "William Mougayar",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 6,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/si-soa-in-it-1bd5c3/working/observation_candidates_v20.csv"
+    }
+  ]
+}

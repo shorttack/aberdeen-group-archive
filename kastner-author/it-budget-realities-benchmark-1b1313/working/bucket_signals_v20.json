@@ -1,0 +1,17 @@
+{
+  "page_count": 35,
+  "filename": "it spend_2004 benchmark.pdf",
+  "scores": {
+    "A_benchmark": 2,
+    "B_exec_summary": 1,
+    "C_press_release": 0,
+    "D_toc_index": 1,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [
+    "A"
+  ],
+  "predicted_bucket": "A",
+  "decision_reason": "page_count=35, top_score=2, hints=['A']",
+  "is_ambiguous": false
+}

@@ -1,0 +1,39 @@
+char_offset,trigger_labels,sentence
+1055,dollar_stat,"– **With 4 Pentium processors, 1,296 TPM-C at $976 per tpmC. $1.265 million TPC-C life cycle cost**"
+1157,dollar_stat,"– **Base 4-way Pentium CEC is $120,600 U.S. list**"
+4883,dollar_stat,**$68 billion in 1993 revenues -- GIS about $7 billion**
+7043,dollar_stat,"**Entry price $14,490 (5500), $40,995 (8500), $79,995 (9500)**"
+7113,dollar_stat,"» **5500 130.9 tps-A, $5,780 $/tps-A**"
+7159,dollar_stat,"» **9500 523.64 tps-A, $5,357 tps-A**"
+7869,dollar_stat,N **Annual Sales:  $1 billion fiscal ‘93**
+8633,dollar_stat,"**Entry Fully Server Model Price Configured DEC 2000/500 AXP $10,600 DEC 3000/600S AXP $21,190 DEC 3000/800S AXP $34,130 DEC 4000/700 AXP $43,000 $87,160 DEC 2100/A500MP $18,900 $36,900 DEC 7000/600 AXP $126,334     $149,000 DEC 2000/300 AXP $7,799 $9,499 DEC 10000/600AXP $210,634     $225,300** Digital Alpha AXP Servers"
+16611,dollar_stat,"N **Annual Sales:  $14.4 billion in FY93** N **Number of employees:  94,200**"
+17734,dollar_stat,"**Entry Fully Workstation Model Price Configured DEC 3000/300X AXP $5,295 DEC 3000/300LX AXP $10,495 DEC 3000/600 AXP $19,995 DEC 3000/800 AXP $36,000**"
+23576,dollar_stat,N **Annual Sales:  $14.4 billion in FY93**
+24672,dollar_stat,"||**Entry**<br>**Fully**|**Entry**<br>**Fully**|
+|---|---|---|
+|**Server Model**|**Price**|**Configured**|
+|**HP 9000/800E**|**$4,130**<br>**$24,840**||
+|**HP 9000/800F**|**$8,700**<br>**$35,565**||
+|**HP 9000/800G**|**$15,000**<br>**$93,440**||
+|**HP 9000/800H**|**$24,000      $121,580**||
+|**HP 9000/800I**|**$58,500      $137,580**||
+|**HP 9000/T500**|**$165,000     $544,200**||
+|**HP 9000/890**|**$120,000     $534,000**||
+||HP 9000 Series 800 Servers||"
+28621,dollar_stat,"N **Servers are compatible and upgradeable from the under $10,000 E25 to the datacenter class 12-way T500.**"
+29957,dollar_stat,# N **Annual Sales:  $20.3 billion in FY93**
+37626,dollar_stat,"N **HP’s 700 Series offers the best price/performance starting at under $4,000 for a complete system and maintains this with the fastest workstations available in the industry.**"
+39204,dollar_stat,"# N **Annual Sales:  $20.3 billion in FY93** N **Number of employees:  96,200**"
+45685,dollar_stat,"» **Entry price $85,000 (290), $155,000 (490), $351,000 (790)**"
+45862,dollar_stat,"» **Entry price $171,100 (SE20), $469,800 (SE60)**"
+45920,dollar_stat,"» **Fully configured $1,030,400 SE20), $2,625,700 (SE60)**"
+46228,dollar_stat,"**Entry prices $13,200 (500), $29,900 (1000), $39,300 (1500), $79,100 (3000), $246,900 (5000)**"
+46372,best_in_class,"N **Open systems (early into high-end Unix)** N **Open-system scalability (SMP, clustering, RDBMS parallelism, broad product/performance range)** N **Development relationships with Oracle, Informix (parallelism 6-month exclusive on Informix DSA)** N **Best-in-class SMP parallelism (up to 30 SMP processors)**"
+47142,dollar_stat,**Under-$500-million size**
+47268,dollar_stat,## N **Annual Sales:  $354 million fiscal ‘93**
+47917,dollar_stat,"**SPARCserver 1000 $14,500 $30,000 SPARCserver 2000 $52,700 $59,000**"
+49151,dollar_stat,N **A $4 billion worldwide corporation focused on delivering open systems to the marketplace.**
+51796,dollar_stat,"N **Annual Sales:  $4.3 billion in FY93** N **Number of employees:  13,253**"
+58971,dollar_stat,N **A $4 billion worldwide corporation focused on delivering open systems to the marketplace.**
+61187,dollar_stat,"N **Annual Sales:  $4.3 billion in FY93** N **Number of employees:  13,253**"

@@ -1,0 +1,6 @@
+entity_id,entity_name,entity_type,sector,hit_count,first_context
+microsoft,Microsoft,company,Software,4,"considerable effort at finding the devil in the details   - Microsoft Windows95 is the runaway choice as desktop OS, but general"
+aberdeen-group,Aberdeen Group,firm,IT market analysis,2,"# Making the Corporate Platform Decision   Peter S. Kastner Aberdeen Group, Inc.. One Boston Place Boston, Mass.  02108 (617) 723-7890"
+peter-kastner,Peter S. Kastner,person,IT Market Research,1,"## Making the Corporate Platform Decision   Peter S. Kastner Aberdeen Group, Inc.. One Boston Place Boston, Mass.  02108"
+att,AT&T,company,telecommunications,1,round is 1994 Commercial Lines Coop review      - Stay with AT&T Cooperation?      - Commercial Lines platform decisions
+ent-013,Novell,corporation,information-technology,1,"A dual workgroup-OS strategy built around Windows NT/AS and Novell NetWare is pragmatic   - System and network management, par"

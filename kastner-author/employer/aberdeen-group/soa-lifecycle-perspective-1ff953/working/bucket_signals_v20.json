@@ -1,0 +1,15 @@
+{
+  "page_count": 4,
+  "filename": "per_soamg_lifecycle_rs_030807b.pdf",
+  "scores": {
+    "A_benchmark": 2,
+    "B_exec_summary": 0,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [],
+  "predicted_bucket": "A",
+  "decision_reason": "page_count=4, top_score=2, hints=[]",
+  "is_ambiguous": false
+}

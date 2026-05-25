@@ -1,0 +1,112 @@
+{
+  "mode": "existing",
+  "slug": "aberdeen-ra-secure-soa-benchmark-2006-605d67",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/RA_SecureSOA_SQ_030706b.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-secure-soa-benchmark-2006-605d67/source/original.pdf",
+  "pdf_sha256": "8c37b9d914b3741d0063d9d5ed37c610d40204c20c9f9d48723043ea589c129c",
+  "pdf_size_bytes": 56720,
+  "pdf_page_count": 1,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 1,
+    "filename": "ra_securesoa_sq_030706b.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=1, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:28:31.938437+00:00",
+  "extracted_title": "The Secure Service-Oriented Architecture Benchmark Report",
+  "title_source": "page1",
+  "matched_study_id": "aberdeen-ra-secure-soa-benchmark-2006-605d67",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "aberdeen-ra-secure-soa-benchmark-2006-605d67",
+      "title": "The Secure Service-Oriented Architecture Benchmark Report",
+      "relative_path": "other-authors/aberdeen-ra-secure-soa-benchmark-2006-605d67",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-secure-soa-benchmark-2006-605d67",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0
+    },
+    {
+      "study_id": "it-budget-realities-benchmark-1b1313",
+      "title": "The Strategic Enterprise IT Budget Realities Benchmark Report",
+      "relative_path": "kastner-author/it-budget-realities-benchmark-1b1313",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/it-budget-realities-benchmark-1b1313",
+      "lev_ratio": 0.6271,
+      "token_ratio": 0.25,
+      "combined_score": 0.4763
+    },
+    {
+      "study_id": "soa-overview-docx-12612f",
+      "title": "Summary of Peter Kastner's Research on Service-Oriented Architecture (SOA)",
+      "relative_path": "kastner-author/employer/aberdeen-group/soa-overview-docx-12612f",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/soa-overview-docx-12612f",
+      "lev_ratio": 0.5891,
+      "token_ratio": 0.2,
+      "combined_score": 0.4335
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-secure-soa-benchmark-2006-605d67/working/extracted_v20.md",
+      "md_chars": 2566,
+      "md_lines": 47,
+      "elapsed_sec": 0.2
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 1,
+      "filename": "ra_securesoa_sq_030706b.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=1, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 1,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/aberdeen-ra-secure-soa-benchmark-2006-605d67/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Stacey Quandt",
+          1
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

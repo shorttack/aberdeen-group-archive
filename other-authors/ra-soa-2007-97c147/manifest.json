@@ -1,0 +1,848 @@
+{
+  "mode": "existing",
+  "slug": "ra-soa-2007-97c147",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/RA SOA 2007.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147/source/original.pdf",
+  "pdf_sha256": "f750a0d6785a58ca80454ab414bf5fea8b5fc816283ee6600c28da159ccb1f54",
+  "pdf_size_bytes": 4273180,
+  "pdf_page_count": 179,
+  "bucket": "A",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "A",
+  "bucket_signals": {
+    "page_count": 179,
+    "filename": "ra soa 2007.pdf",
+    "scores": {
+      "A_benchmark": 1,
+      "B_exec_summary": 1,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "A",
+    "decision_reason": "page_count=179, top_score=1, hints=[]",
+    "is_ambiguous": false
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:42:12.377676+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "ra-soa-2007-97c147",
+  "match_score": 1.0,
+  "match_candidates": [
+    {
+      "study_id": "ra-soa-2007-97c147",
+      "title": "SOA and Web Services Testing: How Different Can It Be? (Full Unabridged Version)",
+      "relative_path": "other-authors/ra-soa-2007-97c147",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147",
+      "lev_ratio": 1.0,
+      "token_ratio": 1.0,
+      "combined_score": 1.0,
+      "match_via": "slug_exact",
+      "matched_stem": "ra-soa-2007"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147/working/extracted_v20.md",
+      "md_chars": 354462,
+      "md_lines": 4480,
+      "elapsed_sec": 11.85
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 179,
+      "filename": "ra soa 2007.pdf",
+      "scores": {
+        "A_benchmark": 1,
+        "B_exec_summary": 1,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "A",
+      "decision_reason": "page_count=179, top_score=1, hints=[]",
+      "is_ambiguous": false
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": false,
+      "bucket": "A",
+      "pages_with_labels": 73,
+      "figures_extracted": 73,
+      "figures_dir": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147/working/figures",
+      "figures": [
+        {
+          "filename": "figure_001.png",
+          "page": 4,
+          "sha1": "8f1bd3b16875a5af781215ae4a0565293b4bbdf5",
+          "size_bytes": 233188,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        {
+          "filename": "figure_002.png",
+          "page": 5,
+          "sha1": "35526c9bd2a7886473057dc598050fff53f8886c",
+          "size_bytes": 100791,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_003.png",
+          "page": 6,
+          "sha1": "d0b83fca67327b4db7c6d0aa9fc05ecf8820fd77",
+          "size_bytes": 278124,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_004.png",
+          "page": 7,
+          "sha1": "e227606ee9a3c03518099e67ab43be4c28cdcd94",
+          "size_bytes": 265782,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_005.png",
+          "page": 8,
+          "sha1": "d5b31d5ff725e56ae8e2ff2447288d08ee358fab",
+          "size_bytes": 240144,
+          "labels_on_page": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_006.png",
+          "page": 9,
+          "sha1": "f440098780c3b3a91a61127976e637fb5ead78ed",
+          "size_bytes": 255638,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_007.png",
+          "page": 10,
+          "sha1": "0d57bfb71f2a7904d553ad38297856bc0413c43e",
+          "size_bytes": 290163,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_008.png",
+          "page": 12,
+          "sha1": "8985a1709631ffc7ea1deb014f6e6aa746eca383",
+          "size_bytes": 278331,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_009.png",
+          "page": 13,
+          "sha1": "327b3f605365c9c5da2d99350301e478a9934905",
+          "size_bytes": 244687,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_010.png",
+          "page": 14,
+          "sha1": "e47e0cd4f04d5292c1d6ef57bbe9614bec9da65b",
+          "size_bytes": 220386,
+          "labels_on_page": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_011.png",
+          "page": 15,
+          "sha1": "7aa6bd9c9b0b21a8df5a28b8effb98a9c7086053",
+          "size_bytes": 293075,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_012.png",
+          "page": 16,
+          "sha1": "00b1a315bfb947de388bd594029c0165d56cf7e0",
+          "size_bytes": 315786,
+          "labels_on_page": [
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_013.png",
+          "page": 17,
+          "sha1": "bdbe9aafa30be60106f06e226bdb9d84ec423a5f",
+          "size_bytes": 164578,
+          "labels_on_page": [
+            "10"
+          ]
+        },
+        {
+          "filename": "figure_014.png",
+          "page": 21,
+          "sha1": "affbb0a8a72670387ec0677a58af8b8c42e4a955",
+          "size_bytes": 324431,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_015.png",
+          "page": 22,
+          "sha1": "2d38234f4b00c7246ea0b4ec790198baeed45e3f",
+          "size_bytes": 113296,
+          "labels_on_page": [
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_016.png",
+          "page": 30,
+          "sha1": "fdd15a95adc275626d46c2609eb286761f1753e2",
+          "size_bytes": 98407,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_017.png",
+          "page": 42,
+          "sha1": "73a9570fe9047e657a710cfdeec9b95df343b19a",
+          "size_bytes": 398063,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_018.png",
+          "page": 46,
+          "sha1": "8fbd4dcc7493f6019d56c9567e47c8241769dd39",
+          "size_bytes": 272657,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_019.png",
+          "page": 48,
+          "sha1": "d9dea3dd9d68dc853817772d9bb1f3260f159561",
+          "size_bytes": 232302,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_020.png",
+          "page": 49,
+          "sha1": "4d2d5a8de265a7074aa33f3c1a49656bd50afb55",
+          "size_bytes": 218248,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_021.png",
+          "page": 52,
+          "sha1": "94f08bbf3ae77c4ab15352e444ff431f25e1856c",
+          "size_bytes": 196106,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_022.png",
+          "page": 59,
+          "sha1": "c10735f9d61d2dda47ac927b36f46a00edb0dd22",
+          "size_bytes": 254855,
+          "labels_on_page": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_023.png",
+          "page": 61,
+          "sha1": "f4e6f94f70a4c515f7c0c5f8aa774dbd07e13549",
+          "size_bytes": 448805,
+          "labels_on_page": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_024.png",
+          "page": 62,
+          "sha1": "b3536efee008c7afd878296e359a36de46a1af6e",
+          "size_bytes": 190914,
+          "labels_on_page": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_025.png",
+          "page": 75,
+          "sha1": "3562ee63ccbb2850098ad8e57691ac77b697fc9c",
+          "size_bytes": 209562,
+          "labels_on_page": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_026.png",
+          "page": 76,
+          "sha1": "2ecd826e603a8dd514b8d31f302a339b3ed7c9a0",
+          "size_bytes": 187361,
+          "labels_on_page": [
+            "6",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_027.png",
+          "page": 77,
+          "sha1": "0bc36196bca8934fd7630613bb757666b9c58f8e",
+          "size_bytes": 163941,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_028.png",
+          "page": 78,
+          "sha1": "d6c7db0f03bc632576ccae9645e33cbb1042464b",
+          "size_bytes": 262266,
+          "labels_on_page": [
+            "5",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_029.png",
+          "page": 79,
+          "sha1": "84bbcc148e1227098fdb3fff186d2663b297962a",
+          "size_bytes": 142306,
+          "labels_on_page": [
+            "9",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_030.png",
+          "page": 103,
+          "sha1": "2b6df09318354d78acca9d4003747d96c3157e3c",
+          "size_bytes": 95149,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "1",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_031.png",
+          "page": 104,
+          "sha1": "5bd28bfd43d54996ef180575802269ade0ea5064",
+          "size_bytes": 270529,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_032.png",
+          "page": 105,
+          "sha1": "6b8eb8c108d4a35aed3c8db943404ad1fe73711b",
+          "size_bytes": 184277,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_033.png",
+          "page": 106,
+          "sha1": "95036c17af8f8d494e1a005db5c12318ce523108",
+          "size_bytes": 125605,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_034.png",
+          "page": 107,
+          "sha1": "684e5b2f524f48ba5c63fae5f660ea3597063b95",
+          "size_bytes": 249169,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_035.png",
+          "page": 110,
+          "sha1": "38d97c4d794cc4b41f5ebe9d72cd925a8966e355",
+          "size_bytes": 179067,
+          "labels_on_page": [
+            "3",
+            "4",
+            "4",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_036.png",
+          "page": 111,
+          "sha1": "cfee96d20de9d86e9f70daec031011f19b06e83c",
+          "size_bytes": 236161,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_037.png",
+          "page": 112,
+          "sha1": "94b38da29cad12a498e421acb37026add9edb4d9",
+          "size_bytes": 257473,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_038.png",
+          "page": 113,
+          "sha1": "a58064f2d01180bc4c860ff9a00c6e3a71da85eb",
+          "size_bytes": 170475,
+          "labels_on_page": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_039.png",
+          "page": 114,
+          "sha1": "803fd53bcb867208a8175c58e421ad34af5ad5f2",
+          "size_bytes": 283443,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_040.png",
+          "page": 116,
+          "sha1": "19b2b54585ddd717d1f333751231cc5f1bca8600",
+          "size_bytes": 235498,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_041.png",
+          "page": 117,
+          "sha1": "2d81821a6dc004f68e65d7e308d87f6d6664a23a",
+          "size_bytes": 192370,
+          "labels_on_page": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_042.png",
+          "page": 124,
+          "sha1": "ae560417ff6a6a0657e5f458fba2ed4559773021",
+          "size_bytes": 275719,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_043.png",
+          "page": 130,
+          "sha1": "a15938a84177a2f5bc11ee814190fa5582edefe8",
+          "size_bytes": 215977,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_044.png",
+          "page": 131,
+          "sha1": "a92f5a5418b8036382ee4e84e1a3e3fe2a979e23",
+          "size_bytes": 102108,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_045.png",
+          "page": 133,
+          "sha1": "676dd5b63f05fb28be47bec01c86a5ddc26cc874",
+          "size_bytes": 158664,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_046.png",
+          "page": 134,
+          "sha1": "146999a3f8c4e564884a5a7887c5ac756d152408",
+          "size_bytes": 106358,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_047.png",
+          "page": 135,
+          "sha1": "448e1c08d062e1a87b66f676f991a5a96b199b83",
+          "size_bytes": 237364,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_048.png",
+          "page": 136,
+          "sha1": "c41de2816cb55f863d90da7f0a98abbb0f267a35",
+          "size_bytes": 300636,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_049.png",
+          "page": 138,
+          "sha1": "ef891eafd8fd6c2c47279d41709a7d137fd2c771",
+          "size_bytes": 170190,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_050.png",
+          "page": 139,
+          "sha1": "74aba35dd4d104553fbb8b2b608be970ebc23d5e",
+          "size_bytes": 247374,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_051.png",
+          "page": 140,
+          "sha1": "62c53ea21d2d3f65653411b93e749c938aed445e",
+          "size_bytes": 173939,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_052.png",
+          "page": 141,
+          "sha1": "8bba2e326ce7e1d2c75ce27898532a051474f4dd",
+          "size_bytes": 153902,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_053.png",
+          "page": 142,
+          "sha1": "6427169d94e7577dbfe987ee715e438a140c2454",
+          "size_bytes": 159437,
+          "labels_on_page": [
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_054.png",
+          "page": 144,
+          "sha1": "17124b3d120c6d536b8ad2c5921fc161f446bb81",
+          "size_bytes": 193713,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_055.png",
+          "page": 145,
+          "sha1": "52ba2cd1d3d97b26ba2b329b2abaf31c56affac0",
+          "size_bytes": 157638,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_056.png",
+          "page": 149,
+          "sha1": "af281d7d814255ad1723b3441205fb1479168356",
+          "size_bytes": 188775,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_057.png",
+          "page": 150,
+          "sha1": "ada2c94aa3abdd5290048629518366c3ca79848c",
+          "size_bytes": 244723,
+          "labels_on_page": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_058.png",
+          "page": 156,
+          "sha1": "d4de9182abd674e9bce524403a733db85c8e09a4",
+          "size_bytes": 223065,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_059.png",
+          "page": 157,
+          "sha1": "2c190311150714c509af01e8c28517f025fd0e27",
+          "size_bytes": 100006,
+          "labels_on_page": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_060.png",
+          "page": 158,
+          "sha1": "ff91315990e22b6cecb9cb5d6624d6068a82441c",
+          "size_bytes": 235036,
+          "labels_on_page": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_061.png",
+          "page": 159,
+          "sha1": "e1f919d905b15288ccab4bfe49aa960364ba6580",
+          "size_bytes": 179139,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_062.png",
+          "page": 160,
+          "sha1": "3603de3d60ddf4f7748bec950e4ef246186cd820",
+          "size_bytes": 165999,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_063.png",
+          "page": 161,
+          "sha1": "63c53d001a93d6f3ffa99dcdb642bc8bfda22d47",
+          "size_bytes": 235843,
+          "labels_on_page": [
+            "1"
+          ]
+        },
+        {
+          "filename": "figure_064.png",
+          "page": 162,
+          "sha1": "cc143e0bdfa2a34d767caf379f0198c236ed2a16",
+          "size_bytes": 278623,
+          "labels_on_page": [
+            "2"
+          ]
+        },
+        {
+          "filename": "figure_065.png",
+          "page": 164,
+          "sha1": "9b57dedb7b90a2e0dce87ee06b5ea701076a6085",
+          "size_bytes": 177062,
+          "labels_on_page": [
+            "3"
+          ]
+        },
+        {
+          "filename": "figure_066.png",
+          "page": 165,
+          "sha1": "d04ae015e3425cf6e33fca442f507d18ede46b18",
+          "size_bytes": 187830,
+          "labels_on_page": [
+            "4"
+          ]
+        },
+        {
+          "filename": "figure_067.png",
+          "page": 166,
+          "sha1": "a62f61293a4865dedccb6c8c367b60b4e8c05947",
+          "size_bytes": 197952,
+          "labels_on_page": [
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_068.png",
+          "page": 167,
+          "sha1": "7d95d83fa3f0a44c860d642279c6d5ff0865d03c",
+          "size_bytes": 143236,
+          "labels_on_page": [
+            "6"
+          ]
+        },
+        {
+          "filename": "figure_069.png",
+          "page": 168,
+          "sha1": "bbf3536213e9c48c7e35fe6e2054fc2f1013bbb9",
+          "size_bytes": 153720,
+          "labels_on_page": [
+            "7"
+          ]
+        },
+        {
+          "filename": "figure_070.png",
+          "page": 169,
+          "sha1": "781ab4e6946838d28bba4a3ab275fc8832afda0a",
+          "size_bytes": 208978,
+          "labels_on_page": [
+            "8"
+          ]
+        },
+        {
+          "filename": "figure_071.png",
+          "page": 171,
+          "sha1": "fc9cf3ba26abd1a41f6adc1605f55e51c923957e",
+          "size_bytes": 143642,
+          "labels_on_page": [
+            "9"
+          ]
+        },
+        {
+          "filename": "figure_072.png",
+          "page": 177,
+          "sha1": "204abf67682526590fd44eb5c8b3f77f7c34ae89",
+          "size_bytes": 319264,
+          "labels_on_page": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "filename": "figure_073.png",
+          "page": 178,
+          "sha1": "f84848c3e2b91d929791e62a5d13b39e1a66fcee",
+          "size_bytes": 116600,
+          "labels_on_page": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 43,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Aberdeen Group",
+          312
+        ],
+        [
+          "Oracle",
+          20
+        ],
+        [
+          "Sybase",
+          14
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": false,
+      "bucket": "A",
+      "candidates_found": 271,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/other-authors/ra-soa-2007-97c147/working/observation_candidates_v20.csv"
+    }
+  ]
+}

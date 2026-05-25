@@ -1,0 +1,15 @@
+{
+  "page_count": 1,
+  "filename": "ra_securesoa_sq_030706b.pdf",
+  "scores": {
+    "A_benchmark": 1,
+    "B_exec_summary": 0,
+    "C_press_release": 0,
+    "D_toc_index": 0,
+    "E_research_agenda": 0
+  },
+  "filename_hints": [],
+  "predicted_bucket": "B",
+  "decision_reason": "page_count=1, top_score=1, hints=[]",
+  "is_ambiguous": false
+}

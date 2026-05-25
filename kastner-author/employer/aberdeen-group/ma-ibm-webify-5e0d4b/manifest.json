@@ -1,0 +1,104 @@
+{
+  "mode": "existing",
+  "slug": "ma-ibm-webify-5e0d4b",
+  "source_pdf_original": "/Users/scott/Desktop/Archive/incoming-existing/MA_IBM_Webify_PK_080306c.pdf",
+  "source_pdf_archived": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ma-ibm-webify-5e0d4b/source/original.pdf",
+  "pdf_sha256": "e5e24a9dc7519a1397ca546b2e825a1f47156e2a90977cac23df120488f9dd7e",
+  "pdf_size_bytes": 85483,
+  "pdf_page_count": 3,
+  "bucket": "B",
+  "assigned_bucket": "(none \u2014 Mode 2)",
+  "predicted_bucket": "B",
+  "bucket_signals": {
+    "page_count": 3,
+    "filename": "ma_ibm_webify_pk_080306c.pdf",
+    "scores": {
+      "A_benchmark": 0,
+      "B_exec_summary": 0,
+      "C_press_release": 0,
+      "D_toc_index": 0,
+      "E_research_agenda": 0
+    },
+    "filename_hints": [],
+    "predicted_bucket": "B",
+    "decision_reason": "page_count=3, top_score=0, hints=[]",
+    "is_ambiguous": true
+  },
+  "is_outlier": false,
+  "prepared_at_utc": "2026-05-23T18:52:33.099074+00:00",
+  "extracted_title": "",
+  "title_source": "",
+  "matched_study_id": "ma-ibm-webify-5e0d4b",
+  "match_score": 0.89,
+  "match_candidates": [
+    {
+      "study_id": "ma-ibm-webify-5e0d4b",
+      "title": "IBM + Webify = Industry SOA Application Jumpstart",
+      "relative_path": "kastner-author/employer/aberdeen-group/ma-ibm-webify-5e0d4b",
+      "directory": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ma-ibm-webify-5e0d4b",
+      "lev_ratio": 0.89,
+      "token_ratio": 1.0,
+      "combined_score": 0.89,
+      "match_via": "slug_tokens",
+      "matched_stem": "ma-ibm-webify"
+    }
+  ],
+  "pipeline_version": "prepare_for_ingest v2.0",
+  "steps": [
+    {
+      "step": "1_extract_markdown",
+      "tool": "pymupdf4llm",
+      "output_md": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ma-ibm-webify-5e0d4b/working/extracted_v20.md",
+      "md_chars": 10471,
+      "md_lines": 102,
+      "elapsed_sec": 0.48
+    },
+    {
+      "step": "2_classify_bucket",
+      "page_count": 3,
+      "filename": "ma_ibm_webify_pk_080306c.pdf",
+      "scores": {
+        "A_benchmark": 0,
+        "B_exec_summary": 0,
+        "C_press_release": 0,
+        "D_toc_index": 0,
+        "E_research_agenda": 0
+      },
+      "filename_hints": [],
+      "predicted_bucket": "B",
+      "decision_reason": "page_count=3, top_score=0, hints=[]",
+      "is_ambiguous": true
+    },
+    {
+      "step": "3_extract_figures",
+      "skipped": true,
+      "reason": "bucket B does not require figures",
+      "figures": []
+    },
+    {
+      "step": "4_entity_prepass",
+      "candidates_found": 9,
+      "output_csv": "/Users/scott/Desktop/Archive/aberdeen-group-archive/kastner-author/employer/aberdeen-group/ma-ibm-webify-5e0d4b/working/entity_candidates_v20.csv",
+      "top_3": [
+        [
+          "Webify Solutions",
+          4
+        ],
+        [
+          "Oracle",
+          2
+        ],
+        [
+          "IBM Rational",
+          2
+        ]
+      ]
+    },
+    {
+      "step": "5_observation_prepass",
+      "skipped": true,
+      "reason": "bucket B does not need observation pre-pass",
+      "candidates_found": 0
+    }
+  ]
+}

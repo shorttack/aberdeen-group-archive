@@ -1,0 +1,23 @@
+char_offset,trigger_labels,sentence
+96,best_in_class,## **Application Lifecycle Management: Used by the Best of the Best in Class**
+205,best_in_class,IT organizations that are actively engaged in application lifecycle management for their serviceoriented architectures (SOA) are more likely to have lowered application service and lifecycle costs than even the Best in Class from Aberdeen’s survey for its new _SOA Management and Governance Benchmark Report._ Companies that want to improve how they manage SOA projects must focus on how they develop and maintain services within an SOA.
+1545,best_in_class,"policies on design, governance, and re-use  — and that have active processes to manage the application lifecycle — are a step up on the rest, even the Best in Class companies, according to results from a recent benchmark survey for Aberdeen’s _SOA Management and Governance Benchmark Report_ (Table 1)."
+1848,best_in_class,"In fact, these application lifecycle practitioners are all part of the Best in Class group from the survey."
+2038,best_in_class,"|||**Lifecycle**<br>**Management Focus**|**Best in Class**|**All Respondents**||
+|---|---|---|---|---|---|
+||**Percent of organizations that**<br>**decreased SOA development**<br>**costs over last 12 months**|**68%**|46%|25%||
+||**No change in costs**|12%|44%|40%||
+||**Costs increased**|20%|10%|35%||"
+2469,best_in_class,Application Lifecycle Management: Used by the Best of the Best in Class
+2856,percentage_stat,"In response to these challenges, **the top response, chosen by 45% of the survey base, is to revise application lifecycle processes and responsibilities.** This challenge is best illustrated by an automotive parts manufacturer who told us, _“With SOA, we were forced to rewrite whole chapters of our IT processes manual…and that’s not a bad thing.”_"
+5213,best_in_class,Application Lifecycle Management: Used by the Best of the Best in Class
+5522,percentage_stat,"The 12% of our survey respondents whose organizations are actively engaged in application lifecycle management for SOA are seeing, on average, a 29% payback from their investments in SOA management tools."
+5898,dollar_stat,"|||**Investment**|**Payback**|**ROI**||
+|---|---|---|---|---|---|
+||**Lifecycle Management Focus**|$2.68 million|$3.45 million|**+29%**||
+||**All Respondents**|$1.37 million|$1.18 million|**- 14%**||"
+6346,percentage_stat;dollar_stat,Our survey found that 48% of the companies focused on application lifecycle management have annual revenue of more than $1 billion.
+6478,percentage_stat,"And 57% have had SOA services deployed for more than a year, compared with 31% of the overall survey."
+7100,best_in_class;percentage_stat,"Fifty-two percent have SOA governance processes for BOTH design and run-time operations, compared with 29% of the overall survey and 29% of the Best in Class."
+7998,percentage_stat,"Too many Laggard organizations ─ those who fell in the bottom 30% of our Competitive Framework in the survey ─ lack the process, let alone automation for the process."
+8465,best_in_class,Application Lifecycle Management: Used by the Best of the Best in Class

@@ -741,3 +741,58 @@ When a missing source is recovered (e.g., Pete scans the Casale 1989 hard copy):
 3. Replace the stub page with the full study page emitted by archival-ingest (preserve the `missing-source` history in git)
 4. Update Provenance backlinks to point at the recovered study page
 5. Re-embed the vault (`kw rebuild-embeddings`)
+
+
+## 2026-05-26 — Daily Session Workflow Established
+
+**Author:** Pete Kastner / Computer agent
+**Trigger:** End of day-1 of regular working sessions. Per-file commits during the day created noisy git history (37+ commits in one session) and made it hard to scan "what changed today" from `git log`.
+
+### Decision
+
+Adopt a **daily-batch commit workflow** with the following spec:
+
+**Session start:**
+- Agent fetches `WORKLIST.md` from archive root + recent `_decisions_log.md` tail
+- Agent summarizes state and proposes ONE concrete next action
+
+**During session:**
+- All work saved to `/home/user/workspace/` with versioned filenames
+- NO commits to either repo during session
+- `WORKLIST.md` updated inline (sandbox copy) as items emerge
+- Running list of touched files maintained
+
+**On request: "checkpoint"** \u2014 commit in-flight via end-of-day pattern, continue
+
+**End of day / end of session:**
+- Summary of all touched files
+- `WORKLIST.md` refreshed (Last updated stamp, completed \u2192 Done section, new backlog items appended)
+- **Two commits maximum** \u2014 one per affected repo, via Git Data API (blob \u2192 tree \u2192 commit \u2192 ref-update)
+- Each commit message: short title + multi-line body listing every file + why
+
+### Worklist structure
+
+`WORKLIST.md` lives in `shorttack/aberdeen-group-archive` root as the daily living doc. Sections:
+- **Next up** \u2014 current focus (1-3 items)
+- **v1.6 / v1.7 / v1.8+** \u2014 backlog by target release
+- **Maintenance** \u2014 evergreen
+- **Not on the list** \u2014 explicit non-goals
+- **Done this session** \u2014 cleared on EOD commit
+
+At each minor release (v1.6, v1.7, ...) the worklist is snapshotted to `future_work_v<N>.md` for history, and shipped items are removed from the live doc.
+
+### Codification
+
+This workflow is now mandatory \u2014 codified in the `kastner-github` skill v-next under "Daily session workflow (mandatory)" with the full multi-file batch-commit pattern (Git Data API) documented inline. Any future agent session honoring this skill will use the new flow.
+
+### One-time exception
+
+Today (2026-05-26) shipped 30+ per-file commits before the workflow was decided. The setup commits that establish the workflow itself \u2014 `WORKLIST.md` creation, this decisions log entry, and the `kastner-github` skill save \u2014 ride along on today's final end-of-day batch commit as the LAST per-file exception.
+
+### Why this works
+
+- One commit per repo per day \u2026 trivial to scan in `git log --oneline`
+- Atomic snapshots align with archive's forever-archive principle
+- Versioned workspace artifacts give us per-step rollback if something goes wrong mid-session
+- Mid-session checkpoints stay available on demand without polluting normal flow
+- Git Data API gracefully handles large CSVs that bust the contents API's 1 MB inline limit (already validated today with the 2 MB `_master_technologies.csv` commit)

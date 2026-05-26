@@ -693,3 +693,51 @@ After v2 push, the same query returned a substantive cited answer in ~30 sec (co
 
 - Topic: iCloud Desktop sync corrupts git working trees on macOS
 - Severity: minor (not a Computer/Perplexity bug — environmental — but worth documenting since the agent could detect this earlier and warn)
+
+
+## 2026-05-26 — Missing-Source Registry Established (`_missing_sources.csv`)
+
+**Author:** Pete Kastner / Computer agent
+**Trigger:** kw ask query "trace the evolution of Aberdeen's thesis on ATM vs Ethernet 1995-2000" returned a clean, well-cited synthesis from `qwen3.5:27b-mlx` — but Pete identified that the archive's networking timeline starts in 1995 mid-thesis-evolution. The founding 1991 artifact (a ~100-page report on ATM as the future, authored by Charles T. Robbins under Tom Willmott at Aberdeen) is missing from the archive and cannot be ingested because no copy has been recovered.
+
+### Decision
+
+Make provenance gaps **visible to RAG and graph queries** rather than leave them as silent absences. Two artifacts:
+
+1. **`_missing_sources.csv`** — canonical 14-column registry of known-missing studies in `shorttack/aberdeen-group-archive`. QUOTE_ALL-quoted. Columns: `missing_id, title, author, publisher, pub_year, pub_month, length_pages, subject_domain, thesis_summary, importance, wiki_stub, recovery_notes, status, date_logged`. Status enum: `missing | recoverable | recovered`.
+
+2. **Per-entry stub pages** under `wiki/studies/` with frontmatter `status: missing-source` and the standard study schema (so they participate in DuckDB views and Obsidian graph). Each stub also gets backlinks added to relevant technology and decade pages under a `## Provenance` heading.
+
+### Initial registry (3 entries)
+
+| Missing ID | Title | Author | Pub | Year | Status |
+|---|---|---|---|---:|---|
+| `aberdeen-1991-robbins-atm-future` | The Future of ATM | Charles T. Robbins (under Tom Willmott) | Aberdeen Group | 1991 | missing |
+| `aberdeen-1989-casale-computational-chemistry` | Conflicting Trends in Computational Chemistry | Charles T. Casale | Aberdeen Group | 1989-05 | recoverable (Pete has hard copy, will scan) |
+| `yankee-1987-kastner-future-transaction-processing` | The Future of Transaction Processing | Peter S. Kastner (ghostwritten for John Logan) | Yankee Group | 1987-01 | missing |
+
+### Authorship correction
+
+The 1991 ATM report is widely cited externally as a Willmott report. Per Pete: **Charles T. Robbins is the correct author of record**; Robbins worked under Willmott, who was Aberdeen's networking practice lead at the time. The stub page reflects this attribution. Future ingest of any recovered copy should preserve this.
+
+### Cross-links shipped
+
+The Robbins 1991 stub is now linked from:
+
+- `wiki/technologies/atm.md` (Provenance section)
+- `wiki/technologies/atm-networking.md` (Provenance section)
+- `wiki/decades/1990s.md` (Provenance section)
+
+### Operational rule (now codified)
+
+When `kw ask` (or any future archive query) surfaces a topic where a known foundational study is absent, the response should be able to cite the missing source via the stub page. This converts an invisible gap into a queryable one. New missing sources go through the same pattern: append row to `_missing_sources.csv`, write a stub page, add Provenance backlinks to the most-affected technology/decade/entity pages.
+
+### Recovery workflow
+
+When a missing source is recovered (e.g., Pete scans the Casale 1989 hard copy):
+
+1. Run `archival-ingest` skill on the recovered PDF
+2. Update the row in `_missing_sources.csv`: `status: recovered`, populate `source_file` reference if needed
+3. Replace the stub page with the full study page emitted by archival-ingest (preserve the `missing-source` history in git)
+4. Update Provenance backlinks to point at the recovered study page
+5. Re-embed the vault (`kw rebuild-embeddings`)

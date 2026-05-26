@@ -199,3 +199,129 @@ date signal available locally and does not require LLM inference.
 `year_observed` value AND, via the audit log, the evidence snippet and
 provenance tag that produced them. Future researchers can always
 verify provenance.
+---
+
+## 2026-05-25 — Bucket A Pass C Kickoff Scope & Schema (v1.5)
+
+**Decision recorded by**: Pete Kastner (Adoptex LLC) with Computer
+**Status**: Locked — kickoff cleared
+**Cross-references**: `model_prescience_scoring_finding_v1.md`,
+`bucket_a_model_decision_template_v1.md`, `pass_c_kickoff_runbook_v1.md`
+
+### Scope
+
+Bucket A Pass C is defined as **every study directory under
+`/Users/scott/Desktop/Archive/prepared/`** that contains a
+`data/observations.csv` file. No further filter by study_type or naming
+convention — the prepared/ directory is the authoritative selector.
+
+Expected scope: ~124 studies, ~70–100 scoreable observations per study after the
+non-claim pre-filter.
+
+### Pre-filter (frozen)
+
+The pre-filter that ran during calibration is now codified in
+`scripts/pre_filter_scoreable_obs_v1.py`. Rules (no changes vs calibration):
+
+- empty/whitespace metric_value → skip "empty"
+- <40 chars after stripping markdown wrappers → skip "too_short(Nchars)"
+- markdown header (^# / ^## / etc.) → skip "markdown_header"
+- bare bold wrapper with no period → skip "bold_header_no_sentence"
+
+### Production scorer (frozen by Finding memo)
+
+Model: **qwen3.5:27b-mlx** (local Ollama, M4 Pro)
+Generation params: `think=false`, `keep_alive=30m`, `num_ctx=8192`,
+`num_predict=400`, `temperature=0.2`
+Prompt: `prescience_score_prompt_v2.md` (unchanged from calibration)
+
+### Cloud reviewer (async)
+
+Rows where 27B reports `confidence == 1` are routed asynchronously to cloud
+(Claude) for a second-pass score, **after** Pass C completes. Mechanism:
+`scripts/route_low_confidence_v1.py --build-queue` builds a work queue;
+Computer (agent) processes the queue in a follow-up session and returns
+results; `--apply` splits results back to per-study files. The local 45-hour
+run is never blocked by cloud availability.
+
+### Output schema (Option α — separate master)
+
+Pass C scores land in a **new 8th master**: `_master_prescience_scores.csv`.
+The existing `_master_observations.csv` (17 cols + legacy_obs_id) is **not
+modified** by Pass C.
+
+Schema (11 columns):
+
+| Column | Type | Notes |
+|---|---|---|
+| `obs_id` | string | Foreign key to `_master_observations.csv` |
+| `study_id` | string | Foreign key to `_master_studies.csv` |
+| `model` | string | e.g. `qwen3.5:27b-mlx` or `claude-sonnet-4.6` |
+| `prescience_score` | int 0–5 | empty when parse_ok=false |
+| `confidence` | int 1–3 | empty when parse_ok=false |
+| `rationale` | string | truncated to 2000 chars |
+| `scored_at` | ISO8601 UTC | per-row timestamp |
+| `scorer_version` | string | e.g. `qwen3.5:27b-mlx_passC_v1` |
+| `source_pass` | string | `pass_c` or `pass_c_cloud_review` |
+| `elapsed_sec` | float | per-row Ollama call wall time |
+| `parse_ok` | "true"/"false" | JSON parse success |
+
+Rationale for Option α (vs. adding columns to `_master_observations.csv`):
+
+1. The obs master is stable and just gained the legacy_obs_id audit column at
+   v1.4. Every Pass C rerun would force a full obs-master rewrite, risking
+   §16.5 quoting drift.
+2. Multiple scorers (27B, cloud review, future calibration reruns) all
+   need to coexist; a separate prescience master holds many rows per obs_id
+   cleanly via (obs_id, model, scored_at).
+3. Adding Buckets B–F prescience later (different rubrics) requires no
+   schema change to the obs master — they just append to the prescience
+   master with different `scorer_version` values.
+4. Joining is a one-line DuckDB or pandas merge on `obs_id`.
+
+### Checkpointing & crash recovery
+
+`scripts/run_prescience_pass_c_v1.py` maintains
+`/Users/scott/Desktop/Archive/prepared/pass_c_checkpoint_v1.json` with:
+`completed_studies[]`, `in_progress {study_id, last_obs_idx}`,
+`started_at`, `last_update`, `total_obs_scored`, `total_parse_failures`,
+`scorer_version`.
+
+Restart behavior: skip completed studies, resume in-progress study from
+`last_obs_idx + 1`. Per-study CSV is incrementally flushed every 5 obs to
+disk via QUOTE_ALL atomic write.
+
+### Thermal management
+
+`--throttle-every 10 --throttle-seconds 5` (defaults). 5-second pause every
+10 observations to give the M4 Pro thermal envelope room across the
+~45-hour run. Tunable per Pete's preference.
+
+### Success criteria
+
+1. ≥95% of scoreable observations across all studies produce parse_ok=true
+2. Checkpoint advances monotonically (no regressions)
+3. No data loss on simulated crash (kill -9 mid-study, restart, no
+   duplicate or missing scores)
+4. `_master_prescience_scores.csv` round-trips through DuckDB and the
+   wiki rebuild without quoting errors
+5. Mean elapsed_sec per obs stays within 1.5× of calibration baseline
+   (15.35 s) sustained over 8+ hours
+
+### Estimated wall clock
+
+Calibration: 15.35 s/obs at 68 obs = ~17.5 min/study
+Projected for 124 studies × ~75 scoreable mean = ~9,300 obs
+At 15.35 s/obs + 5 s throttle every 10 = ~16 s/obs effective
+= ~9,300 × 16 / 3600 = **~41 hours pure compute**
+
+Add ~10% buffer for thermal slowdown and resume overhead → **~45 hours**.
+
+### Forever-archive notes
+
+This decision memo is a forever-archive document. The Finding memo
+(`model_prescience_scoring_finding_v1.md`) explains *why* 27B; this entry
+explains *how* Pass C is operationalized. If the schema is later changed,
+preserve the v1 master file alongside the new one and append a new entry
+here — never overwrite.
+

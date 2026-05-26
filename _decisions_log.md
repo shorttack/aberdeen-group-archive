@@ -374,3 +374,35 @@ to `_master_prescience_scores.csv`.
 - `scripts/pre_filter_scoreable_obs_v2.py`
 - `scripts/pre_filter_scoreable_obs_v2_README.md`
 - Appended this entry to `_decisions_log.md`
+
+
+## 2026-05-25 — Drop duplicate of study 3910 (ra-web-site-search)
+
+**Context.** v2 pre-filter audit (`--bucket-filter A,B --dry-run`) surfaced
+two prepared directories for the same source study 3910 with identical
+ingest stats (71 total / 61 scoreable / 10 skipped):
+
+- `ra-web-site-search-3910-5f9297` (canonical, kept)
+- `ra-web-site-search-3910-sli-16eb05` (-sli = second-look re-ingest, dropped)
+
+Without intervention, Pass C would score both and emit duplicate rows into
+`_master_prescience_scores.csv`.
+
+**Decision.** Keep the canonical no-suffix directory; relocate the `-sli`
+duplicate to `prepared_dropped_dups/` (forever-archive principle: never
+delete, just relocate). Stamp the moved directory with `.moved_at_utc.txt`
+and `.reason.txt` for traceability.
+
+**Result.** Pass C scope drops by 61 scoreable obs: **309 studies / 3,290
+total / 2,723 scoreable** (down from 310 / 3,361 / 2,784).
+
+**Compute impact.** Saves ~16 min of 27B compute. More importantly,
+prevents duplicate prescience rows in the v1.5 master.
+
+**Implementation.**
+- `scripts/drop_duplicate_3910_v1.sh` — idempotent move script.
+- Verified on Mac: 309 kept, 184 filtered_out, 0 no_obs, 0 no_manifest.
+
+**Future work.** A general dup-detector across `prepared/` would catch any
+remaining same-source-id collisions before the final masters regen.
+Deferred to v1.5 cleanup pass.

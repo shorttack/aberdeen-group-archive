@@ -406,3 +406,57 @@ prevents duplicate prescience rows in the v1.5 master.
 **Future work.** A general dup-detector across `prepared/` would catch any
 remaining same-source-id collisions before the final masters regen.
 Deferred to v1.5 cleanup pass.
+
+---
+
+## 2026-05-26 — Hybrid LLM tier-1 summarization for wiki v1.5
+
+**Context**: Wiki v1.5 rebuild needs LLM-summarized tier-1 pages: ~200 entities,
+~150 technologies, ~70 marquee studies, 14 Volume 1 chapters, 6 collection
+overviews (~440 pages total, ~420 budgeted).
+
+**Question**: Local model (Ollama qwen3.5:27b-mlx) or cloud (pplx ask + Claude
+Sonnet 4.6) for tier-1 summaries?
+
+**Decision**: **Hybrid routing by page_type**, implemented in
+`scripts/build/_llm_helper_v1.py`:
+
+| page_type | Backend | Model | Rationale |
+|---|---|---|---|
+| `entity` | Local | qwen3.5:27b-mlx (Ollama) | High volume (~200), short cap (1,500 tok), entity glosses are deterministic; Bucket A calibration showed qwen 27b at 100% parse rate |
+| `technology` | Local | qwen3.5:27b-mlx (Ollama) | Same — high volume (~150), short cap, taxonomic |
+| `study` | Cloud | claude_sonnet_4_6 via `pplx ask` | Lower volume (~70), longer cap (2,000 tok), analytical synthesis benefits from frontier-class reasoning |
+| `volume-1` | Cloud | claude_sonnet_4_6 | Marquee memoir chapters; only 14; longest cap (3,500 tok); voice and prose quality matter |
+| `collection` | Cloud | claude_sonnet_4_6 | Only 6 top-level navigation pages; cap 2,500 tok; should be polished |
+
+**Local options** (Ollama): `temperature=0.3, num_ctx=8192, num_predict=600,
+think=False, keep_alive=30m`. Two retries with exponential backoff. Any
+failure falls back to the templated long-tail page — never halts the build.
+
+**Why not all-local**: Claude reasoning is materially better on memoir prose,
+long synthesis, and cross-study narrative — and at 90 cloud pages it's a
+manageable spend (~30-45 min wall time).
+
+**Why not all-cloud**: 350 local pages would burn ~$X+ in cloud calls and
+~2-3 hr wall time anyway. Local 27b is competitive on entity/tech glosses
+(per the Bucket A calibration finding committed earlier this weekend) and
+keeps the build air-gappable for the bulk of the artifact.
+
+**Throughput estimate**:
+- Local: ~30-45 s/page × 350 ≈ 3-4 hr
+- Cloud: ~15-20 s/page × 90 ≈ 25-30 min (run in parallel with local? — single-threaded for now; revisit if v1.5.x needs faster turnaround)
+
+**Scripts emitted today** (all committed to `scripts/build/` on the main repo):
+
+- `_llm_helper_v1.py` — router + retries
+- `01_load_csvs_v1.py` — Phase 1: load 8 masters, join prescience to studies/obs
+- `02_build_data_layer_v1.py` — Phase 2: Parquet + DuckDB w/ prescience views
+- `03_generate_vault_v1.py` — Phase 3: emit ~8,500 Markdown pages
+- `04_generate_indices_v1.py` — Phase 4: home, decades, collections, bases
+- `05_compute_embeddings_v1.py` — Phase 5: nomic-embed
+- `06_emit_scaffolding_v1.py` — Phase 6: README, AGENTS, Makefile, verify.py
+
+**Runbook**: `wiki_v1.5_rebuild_runbook_v1.md` (repo root).
+
+**Reversal cost**: low — the wiki is a derived artifact. If hybrid disappoints,
+switch the helper's routing table and re-run Phase 3.

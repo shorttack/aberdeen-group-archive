@@ -602,3 +602,94 @@ gh api /repos/shorttack/kastner-aberdeen-wiki/git/trees/main?recursive=1 \
 ### Lesson reaffirmed
 
 The postmortem's "ALWAYS inspect remote state BEFORE building" rule held this time: I ran `gh api .../trees/v1.0-archive` and `.../trees/main` to compute the diff before any write, identified the 43-file gap, and cherry-picked exactly that gap. No destructive operation was needed.
+
+
+## 2026-05-26 — v1.5.1 Close-Out: Dupe Cleanup + kw_ask Chatbox + iCloud Trap
+
+**Author:** Pete Kastner / Computer agent
+**Repos touched:** `shorttack/kastner-aberdeen-wiki` (main HEAD `23c01603`, tag `v1.5.1`)
+**Successor to:** v1.5.1 cherry-pick entry (earlier today)
+
+This entry captures four things that happened after the cherry-pick was tagged: (1) discovery and removal of 14 duplicate pages, (2) launch of the `kw ask` RAG chatbox, (3) an iCloud-Desktop working-tree corruption that cost a re-clone, and (4) qwen3.5 thinking-block bug fix.
+
+### 1. Volume 1 dupe cleanup (14 pages removed)
+
+The first `kw search` query surfaced `wiki/studies/study-volume-1-ch07-founding-aberdeen-1988-1997.md` as a hit. Investigation showed all 14 Volume 1 chapters had been emitted **twice** by the v1.5 build:
+
+- `wiki/volume-1/volume-1-chXX-...md` — canonical chapter pages (cherry-picked from v1.0-archive, ~14 KB each)
+- `wiki/studies/study-volume-1-chXX-...md` — auto-generated stubs (~4.6 KB each, templated study-page wrappers)
+
+The stubs were emitted because the master CSVs had study-IDs registered for each chapter. They contained no information the canonical chapters didn't have, and they polluted semantic search results.
+
+**Action:** deleted all 14 study-shaped Volume 1 stubs from `wiki/studies/` via `gh api DELETE`. New page total: 10,285 (down from 10,299).
+
+### 2. `kw ask` RAG chatbox shipped
+
+Built and committed:
+
+- `scripts/kw_ask.py` — Python RAG CLI: bge-m3 retrieval + qwen3.5:27b-mlx synthesis (or Claude Sonnet via `--cloud`)
+- `bin/kw` — bash launcher dispatcher: `ask`, `search`, `verify`, `rebuild-embeddings`, `cd`
+
+Install pattern (now codified in launcher):
+
+```bash
+mkdir -p ~/bin && cp bin/kw ~/bin/kw && chmod +x ~/bin/kw
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+[ -f ~/.bashrc ] && source ~/.bashrc
+```
+
+KW_ROOT defaults to `~/Repos/kastner-aberdeen-wiki`; override via env var.
+
+First successful query: *"what did Aberdeen get right about cloud computing?"* — returned a 4-paragraph cited synthesis pulling from `data-warehousing` (technology), `study-aberdeen-1996-sun-microsystems-decision-warehouse`, `study-aberdeen-1996-sun-microsystems-ultracomputing-business`, and `study-enterprise-integration-perspective-d21c1b`. Quality: research-grade, no hallucination, accurate quantitative details ("92-97% efficiency vs 15-30% Unix SMP overhead") matching source page content.
+
+### 3. iCloud-Desktop working-tree corruption
+
+While running `python3 scripts/reembed.py` from `/Users/scott/Desktop/kastner_wiki/`, `git status` reported:
+
+- 1,977 files marked deleted (originals)
+- 2,084 untracked `... 2.md` duplicates
+
+This was NOT caused by the cherry-pick. It was iCloud's "Desktop & Documents" sync renaming files mid-flight, leaving git's view of the working tree fundamentally broken. No commit was staged, so no harm reached GitHub — `git push` reported "Everything up-to-date" because there was nothing to push.
+
+**Recovery:**
+
+1. `git clone` to `/Users/scott/Repos/kastner-aberdeen-wiki` (outside iCloud sync paths)
+2. Renamed broken Desktop tree to `kastner_wiki_BROKEN_ICLOUD/` for forensics
+3. Resumed work in `~/Repos/`
+
+**Hardening rule (now codified in `kastner-github` skill):** never put git working trees under `~/Desktop/` or `~/Documents/` on macOS. iCloud will eat them. Use `~/Repos/` or `~/Code/`.
+
+### 4. qwen3.5 thinking-block bug
+
+First attempt at `kw ask` returned **empty visible output** after retrieval. Manual test with `ollama run qwen3.5:27b-mlx "Say hello in one short sentence."` revealed the cause: qwen3.5-mlx is a "thinking" model that emits a `<think>...</think>` deliberation block before its real answer. With a `num_predict: 1200` budget, the model was spending the entire allowance thinking and never reaching the answer.
+
+**Fix in `kw_ask.py` v2:**
+
+1. Set `think: false` in Ollama payload (Ollama 0.10+ honors this)
+2. Belt-and-suspenders: streaming `<think>...</think>` filter (`ThinkStripper` class) catches blocks the model emits anyway and removes them token-by-token before display
+3. Bumped `num_predict` default to 2000
+4. Surface Ollama errors in stream (was silent before)
+5. Empty-response warning with hints (try `--model qwen3.5:35b-mlx` or `--cloud`)
+
+After v2 push, the same query returned a substantive cited answer in ~30 sec (cold-start) / ~5 sec (warm).
+
+### Final v1.5.1 ship state
+
+- Tag `v1.5.1` → commit `23c01603`
+- Total wiki pages: 10,285
+- Embeddings: 10,285 × 1024-dim bge-m3, 56.3 MB
+- Studies / entities / technologies / themes / volume-1: 1,420 / 3,207 / 4,312 / 19 / 14
+- DuckDB views: 27
+- Working RAG chatbox: `kw ask "..."`
+- Working tree location on Mac: `/Users/scott/Repos/kastner-aberdeen-wiki/` (NOT Desktop)
+
+### Lessons codified into skills
+
+1. `kastner-github` v-next: "no git working trees on iCloud-synced paths" + "force-push only after creating archival tag"
+2. `kastner-wiki-builder` v-next: pre-build remote inspection mandatory + Volume 1 chapters do NOT get auto-stub pages in `wiki/studies/`
+3. `kw_ask.py` defaults: `think: false` for any qwen3 family model
+
+### Engineering diagnostic filed
+
+- Topic: iCloud Desktop sync corrupts git working trees on macOS
+- Severity: minor (not a Computer/Perplexity bug — environmental — but worth documenting since the agent could detect this earlier and warn)

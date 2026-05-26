@@ -507,3 +507,98 @@ Mac M4 setup files (`SETUP.md`, `setup.sh`, `kw` CLI, `requirements.txt`,
 
 **Reversal cost:** low. v1.0 preserved at tag; v1.5 main is live and
 verified. v1.5.1 cherry-pick session can run anytime.
+
+
+## 2026-05-26 — v1.5.1 Cherry-Pick from `v1.0-archive`
+
+**Author:** Pete Kastner / Computer agent
+**Repos touched:** `shorttack/kastner-aberdeen-wiki` (main, `v1.5.1` tag pending)
+**Successor to:** v1.5 ship (commit `f5e3bdd0`), v1.5 push postmortem (commit `7f03faf`)
+
+### Why
+
+v1.5 was a clean rebuild from masters and shipped without the curated, hand-authored surfaces from the v1.0 era — themes, memoir spine, longitudinal frameworks, and the original Mac M4 setup files. Per the postmortem, v1.0 was preserved at the `v1.0-archive` tag explicitly so this material could be cherry-picked back in. This entry documents that operation.
+
+### What was cherry-picked (43 files, ~330 KB)
+
+**1. Mac M4 setup files (4)** — re-enable one-command setup on a fresh Mac:
+- `SETUP.md` (7.8 KB) — install steps for ollama / DuckDB / bge-m3 / Obsidian
+- `setup.sh` (6.8 KB) — automated installer
+- `NOTES.md` (1.4 KB) — known-issues notes
+- `requirements.txt` (458 B) — Python deps
+
+**2. Themes — full directory (19 files)** — the curated narrative layer:
+- `kastner-core-arguments-framework.md` (27 KB) — Pete's framework for evaluating Aberdeen analytical bets
+- `kastner-prescience-market-rollup.md` (24 KB) — methodology demonstration: how the prescience score rolls up to market-level claims
+- `kastner-top-100-economic-calls.md` (10 KB) — top 100 economically prescient calls across the corpus
+- `pass-a-v2-verification-pipeline.md` (4 KB) — verification methodology theme
+- `intel-corporation-longitudinal.md` (12 KB) — multi-decade Intel arc
+- 14 thematic rollups: `theme-ai-analytics-emerging.md`, `theme-databases.md`, `theme-displays-peripherals.md`, `theme-erp-enterprise-apps.md`, `theme-mainframes-midrange.md`, `theme-networking-internet.md`, `theme-outsourcing-services.md`, `theme-personal-computers-os.md`, `theme-programming-dev-tools.md`, `theme-security-reliability.md`, `theme-semiconductors-chips.md`, `theme-soa-bpm-integration.md`, `theme-storage-hardware.md`, `theme-unix-open-systems.md`
+
+**3. Volume 1 memoir spine (14 chapters)** — the autobiographical anchor for the wiki:
+- Introduction, ch01–ch10 (1960–2026), epilogue, about-the-author, appendix-career-timeline
+- Restores the memoir surface that v1.5's master-CSV-only build could not regenerate (those chapters live in source text, not in the masters)
+
+**4. Build/maintenance scripts (4)** — incremental update toolkit:
+- `scripts/add_dec_longitudinal_pages.py` — add a new longitudinal arc page set
+- `scripts/add_pass_a_v2_pages.py` — Pass A v2 wiki injection
+- `scripts/reembed.py` — recompute bge-m3 embeddings only for new/changed pages (incremental)
+- `scripts/refresh_data_layer.py` — refresh `data/*.parquet` and `db/kastner.duckdb` after CSV changes
+
+**5. Top-level indices (2)** — wire the new surfaces into navigation:
+- `wiki/_index-themes.md`
+- `wiki/_index-volume-1.md`
+
+### What was NOT cherry-picked
+
+- **Curated entity/study/tech pages** from v1.0 — superseded by v1.5's tier-1 LLM rebuilds (better consistency, normalized slugs, frontmatter)
+- **`db/kastner.duckdb` / `data/*.parquet` from v1.0** — v1.5's data layer is from the live masters and is canonical
+- **`build_manifest.json` from v1.0** — v1.5's manifest is canonical
+- **AI arc / prescience / economic-u study pages** — already present in v1.5 main with the new `study-` slug prefix
+
+### Method
+
+- Source: `v1.0-archive` tag at commit `db86e3c7`
+- Mechanism: `gh api PUT` per file with `--input req.json` for safety
+- Each commit message: `v1.5.1 cherry-pick: {path} from v1.0-archive`
+- Each file fetched via `gh api .../contents/{path}?ref=v1.0-archive --jq '.content' | base64 -d` then re-encoded and PUT to main
+- No file was modified in transit — bytes are identical to `v1.0-archive`
+
+### Follow-up required (Pete to run on Mac)
+
+The cherry-picked pages are NOT in `data/embeddings.parquet` until reembedded. Per `USER_GUIDE.md` §6, the cookbook way to fix this is:
+
+```bash
+cd /Users/scott/Desktop/kastner-aberdeen-wiki  # or wherever the wiki clone lives
+git pull
+python3 scripts/reembed.py  # incremental — only embeds the 33 new pages
+git add data/embeddings.parquet
+git commit -m "v1.5.1: re-embed cherry-picked themes + volume-1 (33 pages)"
+git push
+```
+
+After that, semantic search (`scripts/semantic_search.py`) will surface the new themes and chapters by concept query. Until then, they are reachable via Obsidian backlinks, Dataview, and direct file navigation, but NOT via bge-m3 cosine similarity.
+
+### Verification
+
+After push, this should hold:
+
+```bash
+gh api /repos/shorttack/kastner-aberdeen-wiki/git/trees/main?recursive=1 \
+  --jq '[.tree[] | select(.path | startswith("wiki/themes/"))] | length'
+# Expected: 19
+
+gh api /repos/shorttack/kastner-aberdeen-wiki/git/trees/main?recursive=1 \
+  --jq '[.tree[] | select(.path | startswith("wiki/volume-1/"))] | length'
+# Expected: 14
+```
+
+### Known anomalies / deferred to v1.6
+
+- `_index.md` (vault home) does not yet link to `_index-themes.md` or `_index-volume-1.md` — minor copy edit, will batch with v1.6 polish
+- Volume 1 chapters reference some entity/tech slugs whose v1.5 names changed (e.g., `[[dec]]` vs `[[ENT-DEC-001]]`) — wikilink integrity sweep deferred to v1.6 alongside the broader wikilink resolver pass
+- `kastner-core-arguments-framework.md` and `kastner-prescience-market-rollup.md` reference observation IDs that may have been renormalized in the v20 universal normalizer — content is still valid prose, but spot-references may not resolve in DuckDB until rechecked
+
+### Lesson reaffirmed
+
+The postmortem's "ALWAYS inspect remote state BEFORE building" rule held this time: I ran `gh api .../trees/v1.0-archive` and `.../trees/main` to compute the diff before any write, identified the 43-file gap, and cherry-picked exactly that gap. No destructive operation was needed.

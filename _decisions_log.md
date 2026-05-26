@@ -325,3 +325,52 @@ explains *how* Pass C is operationalized. If the schema is later changed,
 preserve the v1 master file alongside the new one and append a new entry
 here — never overwrite.
 
+
+
+## 2026-05-25 — Pass C scope narrow: Bucket A + B only
+
+**Context.** The `pre_filter_scoreable_obs_v1.py` dry-run across
+`/Users/scott/Desktop/Archive/prepared/` returned **494 studies / 3,833 total
+observations / 3,253 scoreable** — far larger than the planned ~124-study
+scope. At 16 s/obs effective throughput on `qwen3.5:27b-mlx`, an all-buckets
+run is ~14.5 hrs of dedicated compute. More importantly, it would score
+non-report material (press releases, TOCs, research agendas) where prescience
+scoring is not meaningful.
+
+**Decision.** Restrict Pass C to **Bucket A (benchmark reports, 20-30pp) and
+Bucket B (executive summaries, 2-6pp)** — the observation-dense report
+formats curated by the operator at ingest time. Buckets C / D / E (press
+releases, TOCs/indexes, research agendas/calendars) are **excluded** from
+prescience scoring.
+
+**Source of truth.** Each prepared study's `manifest.json` carries the
+operator-assigned `bucket` field (written by `prepare_for_ingest.py --bucket
+A|B|...`). Pass C reads this field — not the classifier's `predicted_bucket`
+— to determine inclusion.
+
+**Implementation.**
+- New script: `pre_filter_scoreable_obs_v2.py` adds `--bucket-filter A,B`.
+- v2 emits a new `_bucket_audit_v2.csv` at the root of `prepared/` listing
+  every study with its assigned bucket, predicted bucket, kept-or-not,
+  observation counts, and `no_manifest` flag.
+- `working/scoreable_obs_v1.csv` filenames are unchanged so the v1 Pass C
+  runner (`run_prescience_pass_c_v1.py`) needs no modification — it simply
+  encounters only Bucket A+B studies because Buckets C/D/E never get their
+  `scoreable_obs_v1.csv` regenerated.
+
+**Studies without a manifest** (`UNKNOWN` bucket) are filtered out and
+flagged for manual review in `_bucket_audit_v2.csv`. This is a forever-
+archive principle — never silently include or exclude. Operator decides
+whether to back-fill manifests or accept exclusion.
+
+**Estimated cost.** TBD after the v2 audit dry-run on the Mac. Working
+estimate: 1,800-2,200 scoreable obs → ~8-10 hrs at 16 s/obs.
+
+**Reversal cost.** Zero. Adding a bucket back later is one re-run of v2 with
+a wider `--bucket-filter` — observations are immutable, scoring is additive
+to `_master_prescience_scores.csv`.
+
+**Files committed this round.**
+- `scripts/pre_filter_scoreable_obs_v2.py`
+- `scripts/pre_filter_scoreable_obs_v2_README.md`
+- Appended this entry to `_decisions_log.md`

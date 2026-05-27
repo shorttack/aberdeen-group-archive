@@ -1,7 +1,7 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-26 (end of session)
-**Current ship state:** wiki `v1.5.1` (commit `23c01603`) + kw_ask.py v3 + provenance-gap system live
+**Last updated:** 2026-05-27 (end of session)
+**Current ship state:** wiki `v1.5.1` (commit `23c01603`) + kw_ask.py v3 + provenance-gap system live + pub_year backfill (v6 + v6.1) applied; 1434/1434 studies have plausible pub_year
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
 
@@ -40,11 +40,39 @@ Recovery workflow is codified in `_decisions_log.md` 2026-05-26 entry.
 - [ ] 230 obs flagged `confidence=1` in Pass C need a second-opinion pass with a stronger model. Decision needed first: which provider (Anthropic / Perplexity Sonar API / OpenAI / Gemini). Gemini has a free tier with rate limits — worth piloting on the 230 obs before committing budget.
 - [ ] Once a provider is chosen, this also unlocks wiring `kw_ask.py --cloud` properly (currently stubbed in v3).
 
-### 4. Fill the 350 missing `pub_year` values
+### 4. Fill the 350 missing `pub_year` values — ✅ SHIPPED 2026-05-27
 
-- [ ] 24% of studies lack a parseable publication year. Some are in filenames, some in PDF metadata, some buried in body text.
-- [ ] Build a single-purpose script: rip dates from PDF metadata + first-page header + filename, run through the same date-extractor used in `extract_missing_dates_script` (workspace).
-- [ ] Re-run decade-rollup queries after the fill.
+Closed via v6 backfill (350 rows) + v6.1 corrections (4 rows). All 1434 studies now have `pub_year` set, all within [1970, 2026]. See `_decisions_log.md` 2026-05-27 entry. Three follow-on items captured below (items 4a, 4b, 4c).
+
+### 4a. Fix the pub_year date parser in `01_load_csvs_v2.py`
+
+The v6 backfill was needed because Phase 1's parser silently dropped values it couldn't recognize. Two failure modes:
+
+- [ ] Plain-English date strings in `_master_studies.csv`'s `date` column fail to parse (`June 2001`, `November 2006`, `May 1997`, `April 13, 2004`). Add a `dateutil.parser.parse(value, fuzzy=True)` fallback with a [1970, 2026] range sanity check.
+- [ ] `f-4q04-*` filename patterns (the Aberdeen "fast" research format) aren't recognized by the qcode extractor. Extend regex to match `f-?[1-4]q\d{2}` in addition to the current `[1-4]q\d{2}`.
+- [ ] Acceptance: unit test covering all four plain-English forms + an `f-4q04-...` filename, plus Phase 1 logs `1434/1434 resolved; 0 missing` against current masters.
+
+Full spec in `future_work_v1.6.md` §1.
+
+### 4b. Full filename-vs-text year audit ("choice b" from v6 review)
+
+v6.1 caught 4 misparses outside the [1970, 2026] range (1904, 1905×2, 2030). Silent misparses **inside** that range remain undetected — the v2 extractor's earliest-year-in-raw-text rule can be fooled by OCR artifacts, page numbers, copyright footer years, or quoted historical years.
+
+- [ ] For every study whose `study_id` contains a qcode or MMDDYY pattern, derive the filename-implied year independently and compare against `pub_year`. Flag disagreements > 1 year.
+- [ ] Emit `pub_year_audit_v1.csv` (study_id, filename_year, text_pub_year, delta, sample_filename_pattern).
+- [ ] Pete reviews flagged rows; corrections applied via `apply_pub_year_v6_2.py` (same dry-run / `--commit` pattern).
+
+Full spec in `future_work_v1.6.md` §2.
+
+### 4c. Fix the `v_studies_by_decade` view
+
+View currently returns 38 rows — one per distinct year — with `'s'` appended (`'2003s'`, `'2004s'`, etc.). The intent was decade bucketing.
+
+- [ ] Patch view definition in `02_build_data_layer_v2.py` to use `((CAST(pub_year AS INTEGER)/10)*10) || 's' AS decade`.
+- [ ] Verify: `SELECT decade, COUNT(*) FROM v_studies_by_decade GROUP BY decade ORDER BY decade;` returns ~6 rows (1970s, 1980s, 1990s, 2000s, 2010s, 2020s).
+- [ ] Audit `wiki/decades/*.md` and any `kw ask` decade prompts for downstream impact.
+
+Full spec in `future_work_v1.6.md` §3.
 
 ### 5. The 1,890 zero-occurrence entities + 1,323 zero-occurrence technologies
 
@@ -120,15 +148,17 @@ The Aberdeen archive's prescience scoring methodology could feed Adoptex's AI-ad
 
 ---
 
-## Done this session (2026-05-26)
+## Done this session (2026-05-27)
 
 _(End-of-day commit clears this section)_
 
-- v1.5.1 close-out: decisions log entry, USER_GUIDE.md §6.5 (`kw ask` cookbook), kastner-github skill updates (iCloud trap, force-push policy)
-- kw_ask.py v3 (stub `--cloud` with clean error)
-- Missing-source provenance system shipped: `_missing_sources.csv` + Robbins 1991 stub page + 3 cross-link backlinks (atm, atm-networking, decades/1990s)
-- `_master_technologies.csv` +1 row (`computational-chemistry`), pre-change backup under `archive_masters_pre_compchem_20260526T203955Z/`
-- Workflow plan established: this WORKLIST.md + daily-session protocol in `kastner-github` skill
+- **pub_year backfill (v6) shipped**: 350 missing `pub_year` values filled via filename + raw-text extraction + Pete manual review. `_master_studies.csv` updated in place; backup at `archive_masters_pre_pub_year_v6_20260527T163250Z/`. Audit trail: `pub_year_apply_v6_applied.txt`.
+- **pub_year corrections (v6.1) shipped**: 4 implausible-year misparses (1904/1905/1905/2030) hand-corrected against filename qcode hints. Backup at `archive_masters_pre_pub_year_v6_1_20260527T182420Z/`. Audit trail: `pub_year_apply_v6_1_applied.txt`.
+- **Phase 1 + Phase 2 rebuild**: 27 v_* views regenerated; `kastner.duckdb` reflects updated masters. Verification: 1434/1434 studies have pub_year, 0 rows outside [1970, 2026].
+- **New scripts** committed to `scripts/`: `extract_pub_year_v1.py`, `extract_pub_year_v2.py`, `apply_pub_year_v6.py`, `apply_pub_year_v6_1.py`.
+- **Data artifact** committed: `pub_year_candidates_v6.csv` (the 350-row source of truth for the backfill).
+- **`future_work_v1.6.md`** created — captures the three deferred items (parser fix, full audit, decade view bug) with full specs.
+- **`_decisions_log.md`** appended: 2026-05-27 entry covering the full pub_year backfill, process lessons, and v1.6 backlog handoff.
 
 ---
 

@@ -796,3 +796,107 @@ Today (2026-05-26) shipped 30+ per-file commits before the workflow was decided.
 - Versioned workspace artifacts give us per-step rollback if something goes wrong mid-session
 - Mid-session checkpoints stay available on demand without polluting normal flow
 - Git Data API gracefully handles large CSVs that bust the contents API's 1 MB inline limit (already validated today with the 2 MB `_master_technologies.csv` commit)
+
+
+## 2026-05-27 — pub_year Backfill (v6 + v6.1) and v1.6 Backlog
+
+### Context
+
+Routine post-v1.5.1 verification surfaced a gap: 350 of 1,434 studies in `v_studies` had `pub_year IS NULL` (24.4%). Root cause: the date parser in `scripts/01_load_csvs_v2.py` silently dropped values it couldn't interpret as ISO-shaped dates, and several Aberdeen filename patterns (e.g., `f-4q04-*`) were not recognized by the qcode extractor.
+
+The decision was to ship a one-time backfill against `_master_studies.csv` directly (the master, not derived parquets), then defer the underlying parser fix to v1.6.
+
+### What we did
+
+**Pass v1 — filename-pattern extraction (`extract_pub_year_v1.py`):**
+- 5-pass extractor: date_string parse → year-prefix → qcode (`[1-4]q\d{2}`) → MMDDYY suffix → Aberdeen-collateral default (2005)
+- Recovered 53 high-confidence rows + 14 aberdeen-default rows; 283 emitted as NO_MATCH
+
+**Pass v2 — raw-text grep fallback (`extract_pub_year_v2.py`):**
+- For each NO_MATCH study, grep first 10 + last 10 lines of `~/Desktop/Archive/prepared/<study_id>/source/_raw_text.txt`
+- Pick the earliest year in [1970, 2026] (rule: "earliest year, choice a")
+- Recovered 263 of 283 remaining rows
+
+**Pete manual fill (v3 → v4 → v5 in Numbers):**
+- 87 rows reviewed; 6 last blanks filled by Pete:
+  - dctcollateral → 2005
+  - f-4q04-midsize → 2004
+  - f-4q04-supply-chain → 2004
+  - ilmprimerwpa → 2002
+  - ra-warehouseautomation-3867 → 2005
+  - ra-web-site-search-3910 → 2007
+- Final candidates CSV: `pub_year_candidates_v6.csv` (350 rows, all filled)
+
+**Pass v6 application (`apply_pub_year_v6.py`):**
+- Applied 350 corrections to `_master_studies.csv`
+- 345 empty-cell fills + 5 freeform-string overwrites (e.g., "June 2001" → "2001-01-01")
+- Row parity 1434 → 1434
+- Backup: `_master_studies.csv.bak_pub_year_v6_20260527T163250Z`
+- Audit trail: `pub_year_apply_v6_applied.txt`
+
+**v6.1 corrections (`apply_pub_year_v6_1.py`):**
+Post-v6 verification spotted 4 rows with implausible years (outside 1970–2026):
+- `dell-services-kastner-051904-a25a59`: 1904 → 2004
+- `1q06-ff-bp-retail-transportation-081905a-192432`: 1905 → 2006
+- `f-4q05-bp-intl-logistics-081905a-31c05c`: 1905 → 2005
+- `1q05-pss-fieldservices-020305a-fa2797`: 2030 → 2005
+
+These were v2 misparses — the text-grep picked OCR artifacts or page numbers. Each was hand-corrected using the filename's qcode/MMDDYY hint.
+
+Backup: `_master_studies.csv.bak_pub_year_v6_1_20260527T182420Z`
+Audit trail: `pub_year_apply_v6_1_applied.txt`
+
+**Phase 1 + Phase 2 rebuild:**
+- `01_load_csvs_v2.py` derived pub_year: 1434/1434 resolved, 0 missing
+- `02_build_data_layer_v2.py` regenerated 27 v_* views against the fresh parquets
+- Verification: `SELECT pub_year, COUNT(*) FROM v_studies WHERE pub_year < 1970 OR pub_year > 2026` → 0 rows
+
+### Final state
+
+- All 1,434 studies have `pub_year` set
+- All `pub_year` values are within [1970, 2026]
+- `_master_studies.csv` is the canonical source of truth (the live DuckDB now reflects it)
+- Two backups preserved for rollback
+
+### Process lessons captured
+
+1. **The pipeline has two valid rebuild paths** — `build_duckdb_only_v3.py` (partial; no pub_year derivation) and the full Phase 1+2 sequence (derives pub_year). Only the full sequence produces enriched parquets compatible with the live wiki. Documented in this session: never use `build_duckdb_only_v3.py` after a masters edit.
+
+2. **Three wiki/archive paths exist, and only one is the live DuckDB:**
+   - `~/Desktop/Archive/archive_masters/` — source of truth CSVs
+   - `~/Desktop/kastner_wiki/` — current working wiki (`db/kastner.duckdb` is the live query target)
+   - `~/Repos/kastner-aberdeen-wiki/` — v1.4 release snapshot (stale; do not query for verification)
+
+3. **The "earliest year" grep rule worked.** For raw-text fallback, picking the minimum year in the first/last 10 lines correctly captured publication year on the vast majority of rows. The 4 v6.1 misparses (1904, 1905×2, 2030) were all due to OCR-garbage years getting through the [1970, 2026] filter (1904 and 1905 are inside the filter; 2030 is just outside) — solvable only by cross-checking against filename hints.
+
+### v1.6 backlog (deferred items)
+
+Three items pushed to v1.6, captured in `future_work_v1.6.md`:
+
+1. **Fix the date parser in `01_load_csvs_v2.py`** — make it tolerate plain-English forms ("June 2001", "April 13, 2004") and `f-4q04-*` filename patterns. The root cause of this entire session.
+
+2. **Full filename-vs-text year audit** — for every study with a qcode or MMDDYY filename pattern, compare against `pub_year` and flag disagreements > 1 year. Catches silent misparses inside the plausible range (which v6.1's range filter cannot catch).
+
+3. **Fix `v_studies_by_decade` view** — currently appends `'s'` to individual years (38 rows of `'2003s'`, `'2004s'`, etc.) instead of bucketing to decades. Should produce ~6 rows (1970s, 1980s, 1990s, 2000s, 2010s, 2020s).
+
+### Artifacts shipped in this batch
+
+Scripts (`scripts/`):
+- `extract_pub_year_v1.py` (filename-pattern extractor)
+- `extract_pub_year_v2.py` (raw-text grep fallback)
+- `apply_pub_year_v6.py` (350-row backfill)
+- `apply_pub_year_v6_1.py` (4-row corrections)
+
+Data:
+- `pub_year_candidates_v6.csv` (350-row source-of-truth for the v6 backfill)
+- `pub_year_apply_v6_applied.txt` (v6 audit trail)
+- `pub_year_apply_v6_1_applied.txt` (v6.1 audit trail)
+
+Masters:
+- `_master_studies.csv` (1434 rows, 16 cols; all pub_year fields populated, all within [1970, 2026])
+- Pre-change backups in `archive_masters_pre_pub_year_v6_20260527T163250Z/` and `archive_masters_pre_pub_year_v6_1_20260527T182420Z/`
+
+Worklist:
+- `future_work_v1.6.md` (new; captures the three deferred items above)
+- `WORKLIST.md` (refreshed: v1.6 item 4 closed, three new v1.6 entries added)
+

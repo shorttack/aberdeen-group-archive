@@ -900,3 +900,168 @@ Worklist:
 - `future_work_v1.6.md` (new; captures the three deferred items above)
 - `WORKLIST.md` (refreshed: v1.6 item 4 closed, three new v1.6 entries added)
 
+
+
+---
+
+## 2026-05-28 — Canonical layout decision + Phase 1-6 wiki refresh + kw_ask v4 schema fix + content-drift discovery
+
+**Session shape:** Workflow C of `kastner-archive-pipeline` skill to fix stale `kw ask` shape numbers (Gotcha 7 manifesting after yesterday's pub_year backfill). Discovered mid-session that "The Three Locations" framing in the skill was inverted relative to Pete's working reality; corrected to canonical `~/Repos/`.
+
+### Decisions made
+
+#### 1. Canonical layout — `~/Repos/` is the wiki, not `~/Desktop/`
+
+Pre-flight to Workflow C surfaced that `~/Desktop/kastner_wiki/` contained 2,845 iCloud-renamed dupes (all byte-identical to originals, verified) and that `bin/kw` actually points at `~/Repos/kastner-aberdeen-wiki/`. After Pete clarified the formal question, we recorded the canonical layout:
+
+| Concern | Path |
+|---|---|
+| Wiki (canonical, live query target for `kw ask`) | `~/Repos/kastner-aberdeen-wiki/` |
+| Wiki (deprecated; delete on/after 2026-06-04) | `~/Desktop/kastner_wiki/` |
+| Pipeline scripts (01-06_*_v2.py) | `~/Desktop/Archive/scripts/` |
+| Researcher scripts (kw_ask.py, reembed.py, verify.py) | `~/Repos/kastner-aberdeen-wiki/scripts/` |
+| Masters (source of truth) | `~/Desktop/Archive/archive_masters/` |
+
+Decision committed: `decisions/canonical_layout_decision_v1.md` (commit `91d48e55`).
+
+The deprecated wiki at `~/Desktop/kastner_wiki/` is left in place through 2026-06-04 as rollback insurance; after that it gets renamed to `.DEPRECATED_20260528/` and eventually deleted.
+
+#### 2. Two-script-homes model (formalized)
+
+- **Pipeline scripts** belong to the archive repo (`shorttack/aberdeen-group-archive/scripts/`) and the Mac path `~/Desktop/Archive/scripts/`. These are build-time tooling — Phase 1 through Phase 6 + one-off backfills. NOT shipped to the public wiki repo.
+- **Researcher scripts** belong to the wiki repo (`shorttack/kastner-aberdeen-wiki/scripts/`) and the Mac path `~/Repos/kastner-aberdeen-wiki/scripts/`. These are runtime tooling that researchers cloning the wiki need — `kw_ask.py`, `reembed.py`, `verify.py`, `semantic_search.py`. Shipped publicly.
+
+Rationale (Pete's words, verbatim): "shorttack/kastner-aberdeen-wiki has everything a researcher needs to run queries including scripts, notebook, and examples in Wiki".
+
+#### 3. Git safety tag before the rebuild
+
+Tagged `~/Repos/kastner-aberdeen-wiki` at `pre-v6-pipeline-20260528T130754Z` as the rollback point before retargeting Phases 1-6 from `~/Desktop/kastner_wiki/` to `~/Repos/`. The tag is local-only (not yet pushed to origin) — preserved here for traceability.
+
+### Shape audit — BEFORE rebuild
+
+Against `~/Desktop/kastner_wiki/db/kastner.duckdb` (yesterday's working wiki):
+
+```
+studies: 1434
+observations: 23605
+entities: 3207
+technologies: 4312
+studies_with_pub_year: 1434
+decades_covered: 38  ← bug in v_studies_by_decade (appends 's' to year, doesn't bucket)
+high_prescience_studies: 109
+```
+
+### Pipeline execution (against `~/Repos/`)
+
+- **Phase 1** (`01_load_csvs_v2.py`): clean, 1434 rows in `_master_studies.csv`, derivation produced 1434 pub_year values
+- **Phase 2** (`02_build_data_layer_v2.py`): 27 v_* views regenerated; **view SQL now references `/Users/scott/Repos/kastner-aberdeen-wiki/data/studies.parquet`** (no cross-mount to `~/Desktop/` — the canonical layout is now self-contained)
+- **Phase 3** (`03_generate_vault_v2.py`): first attempt hung on tier-1 LLM (459 study pages × 30-60s each via local Ollama qwen3.5:27b-mlx — process unkillable with Ctrl-C, required `kill -9`). Recovery: re-ran with `--skip-llm` flag, completed in seconds. 10,246 pages emitted clean.
+  - **Deferred**: full tier-1 regeneration for the 459 affected pages (~4 hours). Backlog item.
+- **Phase 4** (`04_generate_indices_v2.py`): clean, <30 sec. 27 indices + Bases + Dataview queries refreshed.
+- **Phase 6** (`06_emit_scaffolding_v1.py`): clean, <30 sec. README.md, AGENTS.md, chat-starter.md regenerated.
+- **Phase 5** (`05_compute_embeddings_v2.py`): 17 minutes, bge-m3 model, 10,299 page embeddings, 65 MB embeddings.parquet. **Zero iCloud dupes during the run** — confirms `~/Repos/` is outside iCloud sync. The 12-min historical estimate proved low; bge-m3 is slightly slower than nomic-embed-text-v2-moe was.
+
+### Shape audit — AFTER rebuild
+
+Against `~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb` (new canonical):
+
+```
+studies: 1434
+observations: 23605
+entities: 3207
+technologies: 4312
+studies_with_pub_year: 1434
+decades_covered: 38  ← STILL BUGGY — v_studies_by_decade view bug carries forward (deferred to v1.6 §4)
+high_prescience_studies: 109
+prescience_scored: 308/1434
+```
+
+Counts match baseline exactly — the rebuild was a faithful refresh, not a data change.
+
+### kw_ask.py schema mismatch (today's blocker, now fixed)
+
+After Phase 5 completed, `kw ask` failed immediately with:
+
+```
+_duckdb.BinderException: Binder Error: Referenced column "vector" not found in FROM clause!
+Candidate bindings: "path"
+```
+
+Root cause: `05_compute_embeddings_v2.py` emits `embeddings.parquet` with schema `(path, slug, embedding double[], dim bigint)`. But `kw_ask.py` v3 queried `SELECT page_path, slug, title, page_type, vector FROM ...`. The writer and reader disagreed — different agents, different sessions, no schema contract in between.
+
+**Fix:** `kw_ask_v4.py` (committed `c0183fa1` to wiki repo). Aligns the reader to the writer's schema:
+- SQL: `SELECT path AS page_path, slug, embedding AS vector FROM embeddings.parquet WHERE embedding IS NOT NULL`
+- Derives `title` and `page_type` lazily by parsing YAML frontmatter from each page (cached per session via `_meta_cache`)
+- Falls back to deriving `page_type` from the top-level directory under `wiki/` if frontmatter is absent (root index pages)
+- Preserved all v2/v3 behavior: `--no-llm`, `--type`, `--cloud` stub, ThinkStripper, qwen3.5 think-block disable
+
+Pete's verification query (`kw ask "what is the shape of the Kastner archive"`) ran clean: retrieval finished in 1.74s, qwen3.5:27b-mlx synthesis produced a coherent multi-paragraph answer with 6 citations. Schema layer is healthy.
+
+### Content drift discovered (mid-verification)
+
+**The kw_ask v4 fix exposed a deeper issue:** retrieval works against the new bge-m3 index, but the LLM still synthesizes "915-947 studies / 19,175 observations / 466 high-prescience" — the v1.4 numbers — because **the source page bodies still contain those numbers as hardcoded prose**.
+
+Affected pages (5 files, all hand-authored narrative not regenerated by Phase 3):
+
+| Page | Stale values |
+|---|---|
+| `wiki/studies/study-2026-kastner-prescience-methodology-demo-0cdf48.md` | 933-study archive, 19,175 observations, 466 high-prescience |
+| `wiki/themes/kastner-prescience-market-rollup.md` | 933 studies, 19,175 observations, 466 of 933 prescience subset |
+| `wiki/studies/study-kastner-technology-breadth-memoir-2026.md` | 915 studies, 2,537 technologies, 479 domains, 4,628 mentions |
+| `wiki/studies/study-2026-kastner-enterprise-ai-arc.md` | 947-study master archive |
+| `wiki/studies/study-volume-1-ch01-waiting-for-automation-1960-1969.md` | 947 studies |
+
+Source: confirmed via `duckdb :memory: -c "SELECT abstract FROM read_csv_auto('_master_studies.csv') WHERE study_id LIKE '%methodology-demo%'"` — the prose lives in the masters' `abstract` column for 4 of the 5; the theme page (`prescience-market-rollup`) is generated separately during Phase 4.
+
+**This is NOT a Workflow B backfill candidate.** The numbers in these narratives are tied to point-in-time analyses:
+- The methodology-demo's $10.9 trillion economic-value finding was computed against 933 studies
+- The breadth-memoir's "592 of the archive's 915 studies" is a frozen analysis of a specific corpus snapshot
+- The "466 high-prescience studies" claim is a 4× revision from today's 109 (suggests either a prescience-definition tightening or a mid-rescoring; either way needs Pete's eye, not a sed replacement)
+
+**Decision: defer to WORKLIST v1.5.1 §7 "Update the Kastner Technology Breadth Memoir with v1.5.1 metrics (AI-assisted)"** — that backlog item already specifies the right approach: pass current text + fresh metrics to qwen3.5:35b-mlx with a constrained prompt, Pete diff-reviews before commit. The same approach extends naturally to the methodology-demo, enterprise-ai-arc, volume-1-ch01, and prescience-market-rollup pages.
+
+Pete's `kw ask` will continue to surface the v1.4 numbers until that work runs. The shape audit on `_index.md` IS correct ("Built 2026-05-28. 1434 studies, 3207 entities, 4312 technologies, 23605 observations..."), so a researcher who reads the index first gets the right counts.
+
+### Skills updated
+
+`kastner-archive-pipeline` v1.1 → v1.2 (user-scope). Changes:
+- "The Three Locations" table replaced — canonical wiki is now `~/Repos/kastner-aberdeen-wiki/`, not `~/Desktop/kastner_wiki/`
+- All shape-audit and command-reference paths updated accordingly
+- Gotcha 9 added: schema contract between Phase 5 writer and `kw_ask.py` reader — they must agree on column names; today's break and v4 fix documented
+- Gotcha 10 added: tier-1 LLM regeneration in Phase 3 can hang unkillably on local Ollama; `--skip-llm` is the routine path; full LLM regen is a scheduled separate operation
+
+### Process lessons captured
+
+1. **`pc bash` cannot write outside `/tmp` on the Mac.** Any installation of a file into `~/Repos/` or `~/Desktop/` requires Pete to run the `cp` himself. Staging to `/tmp/<filename>` on the Mac + telling Pete the one-line `cp` command is the cleanest pattern.
+2. **`gh api PUT` is correct for delivering scripts even when the file's target lives outside the archive repo** — the wiki repo accepts the same pattern.
+3. **`git pull` after Phase 3+4+5+6 will conflict on every regenerated wiki page.** Use `git checkout origin/main -- <single-file>` (or the GitHub API + manual `cp` route) to land surgical updates without disturbing the in-flight refresh.
+4. **kw ask's confident, well-cited answer can still be wrong** — citations point at real pages whose body text is stale. The shape audit + index page are the ground truth; narrative pages are interpretive layers that drift independently and need explicit refresh.
+
+### v1.6 backlog (this session's additions)
+
+| # | Item | Source |
+|---|---|---|
+| 5 | Tier-1 LLM regen for 459 deferred study pages | Phase 3 `--skip-llm` today; ~4 hours when run |
+| 6 | Content-drift refresh of 5 narrative pages (methodology-demo, breadth-memoir, enterprise-ai-arc, volume-1-ch01, prescience-market-rollup) via AI-assisted approach per WORKLIST §7 | Today's discovery |
+| 7 | Schema contract between Phase 5 writer and `kw_ask.py` reader | Today's BinderException — should be enforced in `scripts/verify.py` |
+| 8 | Public-wiki-repo push policy decision: do refreshed parquets + db + 10,246 wiki pages ship to `shorttack/kastner-aberdeen-wiki`? | Today's open question (deferred; the in-flight working-tree changes on Mac sit untracked for now) |
+| 9 | Weed `~/Repos/kastner-aberdeen-wiki/scripts/` of sandbox-path leftovers (e.g., `refresh_data_layer.py` from earlier prototyping) | Today's audit; one-off cleanup |
+| 10 | Rename `~/Desktop/kastner_wiki/` → `.DEPRECATED_20260528/` after 2026-06-04 grace period | Today's canonical-layout decision |
+
+### Artifacts shipped in this batch
+
+To `shorttack/aberdeen-group-archive` (this commit):
+- `WORKLIST.md` — refreshed (today's done items, kw_ask schema closed, content-drift backlog added)
+- `_decisions_log.md` — this entry appended
+- `eod_2026_05_28_cleanup_note.md` — agent's EOD cleanup memo (per Pete's request: "Make yourself a cleanup EOD note before PUSH")
+
+Already shipped today (separate commits):
+- `91d48e55` (this repo): `decisions/canonical_layout_decision_v1.md`
+- `c0183fa1` (wiki repo): `scripts/kw_ask_v4.py`
+
+To `shorttack/kastner-aberdeen-wiki` (this commit):
+- `scripts/kw_ask.py` — promoted from `kw_ask_v4.py` content (overwrites broken v3 in the public repo)
+
+Not shipped (intentionally held local on Pete's Mac):
+- The Phase 1-6 working-tree changes in `~/Repos/kastner-aberdeen-wiki/` (refreshed parquets, db, 10,246 wiki pages) — waiting on the v1.6 §8 policy decision
+- `kw_ask_v3.py.bak` (Pete's local rollback safety)

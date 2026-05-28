@@ -158,6 +158,40 @@ The `.md` files exist on disk and got embedded, but `reembed.py` couldn't extrac
 
 **Tonight's re-embed (Pete asked, 2026-05-28 PM):** Skip it unless you want a permanent note searchable tonight. Re-embedding doesn't fix any of these three issues — they all require upstream code changes. The current parquets are good enough for kw_note v3 to populate `related_studies` correctly; the `ent-s*` cosmetic uglies in source lists are harmless.
 
+### 9b. kw_note CLI/UX cleanup (discovered 2026-05-28 PM, post-v3 first real use)
+
+Two UX bugs hit on the very first end-to-end `kw note --commit` run. Both ~10 LOC fixes. Tracked together so a single follow-up commit closes them out.
+
+**Bug 1 — `--commit` flag is misnamed / overloaded.** Today it means *"actually write the .md file to disk (otherwise dry-run)."* A reasonable user reads it as *"do the thing, including git commit."* It does NOT git-commit anything; the user still has to `git add && git commit && git push` separately. The mental model mismatch caused two failed runs tonight before unblocking via delete-and-rerun.
+
+- [ ] Option A (preferred, fully backward-compatible): keep `--commit` doing what it does today; add `--git-commit` flag that, after writing the file, runs `git add wiki/notes/<slug>.md && git commit -m "wiki: note <slug>"` (no push — that stays explicit).
+- [ ] Option B (rename): add `--write` as the new canonical flag; keep `--commit` as a hidden alias for one release with a stderr deprecation warning. Lower priority — `--commit` is already documented in USER_GUIDE §6.6 examples K1–K6 so an alias is fine, no rush to retire.
+- [ ] Update USER_GUIDE §6.6 to clarify: *"`--commit` writes the file to disk. To then add it to git history, run `git add wiki/notes/ && git commit && git push` from the wiki repo."*
+
+**Bug 2 — refuse-overwrite message points to the wrong escape hatch.** When `kw note --commit` finds the target .md file already exists, it prints `Use --update to append.` This is misleading two ways: (a) `--update` is a slug-argument flag, not a boolean, so `--update --commit` errors with `expected one argument`; (b) `--update <slug> --append` overwrites the dry-run preview semantics — it appends to whatever's already there as a new `## Update (YYYY-MM-DD)` section. For a fresh "I dry-ran, looked good, now write it for real" workflow, the correct unblock is `rm <file> && rerun`, which the current message doesn't suggest.
+
+- [ ] Improve the refuse message to be specific and actionable. New text (in `write_or_print` of `kw_note_v3.py`, currently at lines 447–450):
+      ```
+      [kw note] refuse to overwrite <path>.
+                Choose one:
+                  * --overwrite                  replace the file (fresh write, same semantics as --commit)
+                  * --update <slug> --append     keep existing body and append new content as an Update section
+                  * --update <slug> --replace    keep frontmatter, replace body
+                  * rm '<path>' && rerun          equivalent of --overwrite
+      ```
+- [ ] Add `--overwrite` flag (mutually exclusive with `--update`). Behavior: identical to `--commit` but skips the exists-check. ~5 LOC: an `if target.exists() and not args.overwrite: refuse(...)` guard in `write_or_print`.
+- [ ] Document both new flags in USER_GUIDE §6.6 flag reference table; add a worked example after K6.
+
+**Bug 3 (cosmetic, while we're in there) — write target .md path to stdout too, not just stderr.** Currently the path goes to stderr (so it works with pipelines), but a researcher copying out of a terminal scrollback may miss it. Echo `path: <file>` to stdout on success in `--commit` mode. ~1 LOC.
+
+**Acceptance test:**
+- Dry-run → review → `--commit` should succeed on a clean tree.
+- Dry-run → review → `--commit` → realize answer needs fixing → `--commit --overwrite` should succeed and replace the file.
+- Dry-run → review → `--commit` → add follow-up insight tomorrow → `--update <slug> --append --commit` should add an `## Update (YYYY-MM-DD)` section.
+- All three paths should produce wikilink-aware frontmatter and never silently clobber an authored note.
+
+**Why now:** Pete hit this on his first real DEC-PC-transition note tonight. Note succeeded only after `rm` + rerun; the refuse-message routed him down a wrong path twice. Fixing this before more researchers (Bill Wallet, future external) discover kw_note is worth ~30 minutes.
+
 ### 10. Tier-1 LLM regen for the 459 deferred pages
 
 Phase 3 ran with `--skip-llm` after the first attempt hung on the tier-1 LLM. ~459 study pages have their tier-1 LLM summary at the prior version. Not a correctness issue — pages exist and retrieve — but freshness matters.

@@ -121,6 +121,43 @@ The kw_ask BinderException after Phase 5 was avoidable. Add:
 - [ ] Mirror assertion at the top of `kw_ask.py` so any kw user gets a readable error, not a DuckDB BinderException.
 - [ ] Add to `kw verify` so the launcher catches it before the user does.
 
+### 9a. Embeddings / pages_manifest hygiene (discovered 2026-05-28 via kw_note v3)
+
+Audit run after kw_note v3 returned `ent-s4-001`, `ent-s2-001`, and other suspect slugs in `kw ask` source lists. Three distinct issues found in `data/embeddings.parquet` (10,300 rows total). **CSVs are correct; parquets and .md files are where the problems are.**
+
+**Issue A — 7 rows with NULL/empty slug AND title.** All seven have `page_type="unknown"` and look like:
+```
+wiki/studies/study-1997-dec-linkworks-webworker-an-object-db2d2a.md
+wiki/studies/study-1997-dynaflo-systems-e-mail-for-the-b-854582.md
+wiki/studies/study-1997-ibm-s-network-computing-solution-e74e8a.md
+wiki/studies/study-1997-insession-accessing-and-leveragin-cb2e40.md
+wiki/studies/study-2001-kickoff-research-099232.md
+wiki/studies/study-desktop-virtualization-roi-aberdeen-8fa168.md
+wiki/studies/study-iha-full-report-draft-jul-28-41de81.md
+```
+The `.md` files exist on disk and got embedded, but `reembed.py` couldn't extract YAML frontmatter — it wrote NULL slug/title and `page_type="unknown"`. **Root cause is upstream in the wiki page generator (Phase 3/4), not in `reembed.py`.** Likely broken/empty frontmatter blocks on those seven .md files.
+
+- [ ] Inspect each of the 7 .md files; identify the malformed frontmatter
+- [ ] Trace which Phase 3/4 builder emitted them and fix the generator
+- [ ] Re-run Phase 3+4 for just those 7 studies; re-embed
+- [ ] Add a guard in `reembed.py`: if frontmatter parse fails, skip the row and log to `data/_embeddings_skipped.csv` instead of writing NULLs
+
+**Issue B — 56 slugs in `embeddings.parquet` are missing from `pages_manifest.parquet`.** Breakdown by page_type: theme=19, chapter=14, decade=8, index=7, collection=6, study=1 (`study-aberdeen-1991-robbins-atm-future`), unknown=1. These are all REAL wiki pages with valid embeddings; they just never got registered in `pages_manifest`. **Root cause: `scripts/refresh_data_layer.py` builds `pages_manifest` from studies/entities/technologies/codes only — it doesn't enumerate chapters, themes, decades, indexes, or collections.** This is the same bug that made kw_note v2 fail: `pages_manifest` is treated as the canonical wiki slug catalog but it's a strict subset.
+
+- [ ] Patch `refresh_data_layer.py` to walk `wiki/` recursively and emit one row per .md file, deriving `(slug, type, tier)` from the frontmatter
+- [ ] Add invariant test to `verify.py`: `SELECT COUNT(*) FROM embeddings WHERE slug NOT IN (SELECT slug FROM pages_manifest)` must equal 0
+- [ ] Once fixed, kw_note v3 will resolve theme/chapter/decade citations too
+
+**Issue C — 60 `ent-s*-*` numeric entity slugs.** Not orphans — these are real entity pages in `pages_manifest` AND in `_master_entities.csv` (8 rows match the pattern; rest are derived during ingest). But they're un-canonicalized duplicates of clean-slug entities. Example: `ent-s2-001` and `ent-s4-001` both = "Digital Equipment Corporation (DEC)", which ALSO has clean slug `dec` (the one that surfaced in kw_ask sources alongside the `ent-s*` rows). **Root cause: entity canonicalization (v19/v20 obs_id Universal Normalizer era) didn't fully merge old shard-specific entity IDs into the canonical entity. Each subject-domain shard kept its own ent-s1-*, ent-s2-*, ent-s3-*, ent-s4-* sequences.**
+
+- [ ] Audit how many `ent-s*-*` slugs have a canonical-name duplicate. Spot check: `ent-s2-001` (DEC) vs `dec`; `ent-s4-001` (DEC) vs `dec`; etc.
+- [ ] Build a merge mapping `ent-s*-* → canonical_slug` for all duplicates
+- [ ] Rewrite `_master_entity_studies.csv` to point at canonical slugs; regenerate the duplicate wiki pages as redirects (or delete the .md files and let `pages_manifest` re-populate without them)
+- [ ] Add to `_master_entity_canonicalization_TODO.csv` (it already exists — perfect home)
+- [ ] Re-embed after merge: should drop the 60 dup rows from `embeddings.parquet`
+
+**Tonight's re-embed (Pete asked, 2026-05-28 PM):** Skip it unless you want a permanent note searchable tonight. Re-embedding doesn't fix any of these three issues — they all require upstream code changes. The current parquets are good enough for kw_note v3 to populate `related_studies` correctly; the `ent-s*` cosmetic uglies in source lists are harmless.
+
 ### 10. Tier-1 LLM regen for the 459 deferred pages
 
 Phase 3 ran with `--skip-llm` after the first attempt hung on the tier-1 LLM. ~459 study pages have their tier-1 LLM summary at the prior version. Not a correctness issue — pages exist and retrieve — but freshness matters.

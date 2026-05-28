@@ -225,6 +225,45 @@ The Aberdeen archive's prescience scoring methodology could feed Adoptex's AI-ad
 - [ ] One-page "what is this archive" landing page on a custom domain (kastner-research.com or similar) that links to both repos and explains the methodology to non-Aberdeen readers
 - [ ] Submit a writeup to one analyst-history-focused outlet (no obvious target — Tech History Cafe, longreads, IEEE Annals of the History of Computing all candidates)
 
+### 19. KW Console — web GUI for `kw ask` + `kw note` with dictation (proposed 2026-05-28)
+
+Pete's request after seeing the `kw ask … 2>/tmp/src.txt | kw note …` invocation get unwieldy. Replace the bash pipeline with a localhost web GUI that wraps the existing scripts — nothing replaces `kw`; this is a friendly front-end for the daily-use commands.
+
+**Decisions locked 2026-05-28:**
+- Architecture: **FastAPI local server + plain HTML/JS browser UI** (Option A from the design discussion). No Electron, no Tauri, no Obsidian plugin.
+- Dictation: **Web Speech API in v1**, **Whisper-on-Ollama in v1.1** (offline, higher accuracy, fully local). Pete: "browser → whisper".
+- Network scope: **localhost only**. No LAN binding, no phone/iPad access, no auth needed for v1.
+- Audience: **shared tool on GitHub for all future researchers** (Pete, Bill Wallet, anyone who clones `shorttack/kastner-aberdeen-wiki`). Ships inside the wiki repo, not as a separate project.
+- Not on tonight's plate; logged for future ship.
+
+**v1 scope (~700 LOC, one commit):**
+- [ ] `scripts/kw_serve.py` (~200 LOC) — FastAPI app. Endpoints: `POST /ask` (SSE stream of answer + sources), `POST /note/dry-run`, `POST /note/commit`, `GET /health`. Shells out to existing `scripts/kw_ask.py` and `scripts/kw_note.py` — no duplication of RAG/note-write logic.
+- [ ] `web/index.html` (~150 LOC) — single page. Two panels: "Ask" (question textarea, filter checkboxes, k slider, mic button, streaming answer pane, sources pane) and "Save as permanent note" (auto-derived title, author dropdown, tags, dry-run preview, commit button).
+- [ ] `web/app.js` (~250 LOC) — Web Speech API integration (live mode + push-to-talk on spacebar), SSE consumer, form serialization, dry-run preview rendering.
+- [ ] `web/style.css` (~100 LOC) — dark theme matching the terminal aesthetic Pete uses.
+- [ ] `bin/kw` patch — add `kw serve` subcommand. Launches uvicorn on `127.0.0.1:7878` and runs `open http://localhost:7878` so the browser tab pops automatically.
+- [ ] `requirements.txt` (new file in wiki repo root) — fastapi, uvicorn[standard]. Both pure-Python; pip-installable.
+- [ ] `USER_GUIDE.md §6.7` walkthrough — install steps, screenshot, dictation tips, browser compatibility notes (Chrome/Arc preferred; Safari’s Web Speech API is weaker).
+- [ ] README badge / install snippet so external researchers see it on the repo home page.
+
+**v1.1 scope (Whisper local):**
+- [ ] Add `whisper.cpp` or Ollama-Whisper integration to `kw_serve.py`. New endpoint `POST /dictate` accepts a recorded audio blob from the browser, returns transcription.
+- [ ] Browser JS: if user enables "Local Whisper" toggle, record audio with MediaRecorder, POST to `/dictate` instead of using Web Speech API. Falls back to Web Speech if Whisper isn’t installed.
+- [ ] Document Ollama model recommendation (whisper-large-v3 or distil-whisper).
+
+**v1.2+ ideas (later):**
+- [ ] Note browser/search panel — list all `wiki/notes/*.md`, search by tag/author/date, click to load into the editor for `kw note --update --append/--replace`.
+- [ ] Citation autocompletion — type `[stu` and get a dropdown of matching study slugs from `pages_manifest.parquet`.
+- [ ] Diff view for `--replace` so you see exactly what changes before commit.
+- [ ] Inline embedding-status indicator: "this note was added 2 hours ago and is not yet searchable; run `kw rebuild-embeddings`".
+- [ ] Stretch: a "--promote" button that triggers the v1.5 promote workflow when that ships.
+
+**Constraints to remember:**
+- KW Console wraps existing scripts; it does NOT reimplement RAG or note-write logic. If `kw_ask.py` or `kw_note.py` change, the GUI inherits the change for free.
+- Stateful local app. The FastAPI process must be running for the GUI to work. Browser tab can be closed and reopened freely as long as the server is up.
+- Localhost only. If a future researcher wants LAN/phone access, that’s a separate decision — needs auth design and TLS thinking.
+- No third-party telemetry. Web Speech API on Chrome/Arc is on-device; on Safari it routes to Apple. Document this in the user guide so researchers know.
+
 ---
 
 ## Maintenance / hygiene (low-priority but evergreen)

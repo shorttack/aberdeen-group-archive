@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-28 (end of session)
+**Last updated:** 2026-05-28 (PM session — kw_note v1 + v2 + USER_GUIDE §6.6 shipped)
 **Current ship state:** wiki `v1.5.2` (canonical layout migration + Phases 1-6 refresh + kw_ask v4); 1434/1434 studies have pub_year; 308/1434 prescience-scored; bge-m3:latest is the canonical embedding model
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -80,17 +80,25 @@ Many are legacy catalog rows the build never linked to observations. Two paths:
 - [ ] **Audit**: spot-check a sample (50 entities, 50 techs) to determine whether these are (a) genuinely orphaned catalog entries from the v0 schema migration or (b) entities/techs that should have been linked during ingest but were missed.
 - [ ] **Decision**: either link them retrospectively (cheap-but-tedious) or mark them `status: catalog-only` in the masters and exclude from the default Dataview/DuckDB views (cheap-and-honest).
 
-### 6. Permanent Notes workflow (`kw_note.py`)
+### 6. Permanent Notes workflow (`kw_note.py`) — ✅ v1 shipped, ✅ v2 bug-fixed, in v1.5 expansion
 
 Pete's standing TODO, reminded 2026-05-28: "we have a to_do to create a script that takes KW output and creates new Wiki pages or updates to existing pages. That's how the corpus grows with new insights."
 
-- [ ] Ship `scripts/kw_note.py` — parses `kw ask` output, emits a scaffolded permanent note (slug, frontmatter, citations, body)
-- [ ] Create `wiki/notes/` subdirectory in the canonical wiki
-- [ ] Add `kw note` subcommand to `bin/kw` (delegates to `kw_note.py`)
-- [ ] Extend `kw_ask.py --type note` (or a sibling flag) so the user can pipe a query → answer → permanent note in one step
-- [ ] USER_GUIDE.md §6.6 walkthrough
-- [ ] Multi-author identity layer (Pete vs. Bill Wallet vs. other contributors) + CONTRIBUTING.md + CI lint (frontmatter required fields) + contact path
-- [ ] Dictation polish pass + wikilink proposal pass + batch review pass
+Shipped today (2026-05-28):
+- [x] Ship `scripts/kw_note.py` — parses `kw ask` output, emits a scaffolded permanent note (slug, frontmatter, citations, body) — **v1 commit `43baa07e`, v2 commit `8218f1d5`**
+- [x] Create `wiki/notes/` subdirectory in the canonical wiki — created on first `--commit`
+- [x] Add `kw note` subcommand to `bin/kw` (delegates to `kw_note.py`) — **bin/kw v2 shipped in `43baa07e`**
+- [x] Extend `kw_ask.py` with `--no-notes` / `--only-notes` / `--type` filters so a query can be scoped to archive-only, notes-only, or one page type — **kw_ask v5 shipped in `43baa07e`, v7 in `b5a899ca`**
+- [x] USER_GUIDE.md §6.6 walkthrough — **shipped in commit `8218f1d5` (USER_GUIDE.md 1239 → 1492 lines)**
+
+Deferred to v1.5:
+- [ ] `kw note --promote <slug>` — elevate a note into a first-class `wiki/studies/` page with prescience/importance/relevance scoring and `_master_studies.csv` row generation
+- [ ] `kw --help` overhaul — full subcommand catalog, per-subcommand help routing, auto-sync flag lists, `kw help <subcommand>` convenience
+- [ ] `~/.kw/identity.yaml` for default author + signing (no more `--author pete` on every invocation)
+- [ ] Multi-author CONTRIBUTING.md + CI lint (frontmatter required fields) + contact path for Bill Wallet and future contributors
+- [ ] Dictation polish pass + wikilink proposal pass + batch review pass (`kw note --review <slug>`)
+- [ ] Re-run wikilink rewriter on `--append` bodies (v1 limitation: only the initial body gets `[slug]` → `[[slug]]` rewriting)
+- [ ] Auto-bump `kw note --version` from `__doc__` string so the footer credit stays in sync
 
 ### 7. Update the Kastner Technology Breadth Memoir with v1.5.1 metrics (AI-assisted)
 
@@ -203,6 +211,20 @@ The Aberdeen archive's prescience scoring methodology could feed Adoptex's AI-ad
 ## Done this session (2026-05-28)
 
 _(End-of-day commit clears this section)_
+
+### PM session (kw_note v1, v2, USER_GUIDE §6.6)
+
+- **`kw_note.py` v1 shipped** (commit `43baa07e`, wiki repo) — 18.5 KB script. Parses `[slug]` citations into `[[wikilinks]]`, classifies against master CSVs into `related_studies` / `related_entities` / `related_technologies`, emits frontmatter with `page_type: note`, supports `--commit` / `--update --append` / `--update --replace` / `--from-file` / `--from-stdin` / `--sources-from`. Default is dry-run (forever-archive verify-then-write rule).
+- **`kw_ask.py` v5 shipped** (commit `43baa07e`) — adds `--no-notes` / `--only-notes` / `--type` filters and a stderr filter banner.
+- **`bin/kw` v2 shipped** (commit `43baa07e`) — wires `kw note`, `kw search`, `kw rebuild-embeddings`, `kw cd`; new help text.
+- **`kw_ask.py` v6 shipped** (commit `52961d9e`) — fixes BinderException after `kw rebuild-embeddings` (reembed.py writes `(page_path, page_type, slug, title, tier, vector)`; v5 used the older `(path, embedding)` schema).
+- **`kw_ask.py` v7 shipped** (commit `b5a899ca`) — fixes empty-LLM-response bug. Newer `qwen3.5:27b-mlx` Ollama builds split output into `thinking` and `response` JSON fields. v7 passes `"think": false` by default; `--show-think` surfaces both.
+- **`kw_note.py` v2 shipped** (commit `8218f1d5`) — fixes the `UNRESOLVED: N, matched: 0` bug Pete hit on first real use. v1 looked for CSVs at `data/_master_*.csv` (don't exist) with column name `technology_id` (real name is `tech_id`). v2 reads slug index from `data/studies.parquet` / `entities.parquet` / `technologies.parquet` via duckdb (wiki repo now self-contained for external researchers), with CSV fallback under `$KW_MASTERS_DIR`.
+- **USER_GUIDE.md §6.6 spliced in** (commit `8218f1d5`) — 254-line section with examples K1-K6, flag reference, frontmatter schema, version history, and roadmap. File grew 1239 → 1492 lines.
+- **Start-of-day protocol installed in memory** — per Pete's directive after the schema-hallucination bug. From now on every Kastner Aberdeen session begins by (1) reading `MASTERS_NOTES_v2.md` + `canonical_layout_decision_v1.md`, (2) reading every master CSV header row, (3) storing column names verbatim, (4) referencing them before writing code. Verified columns now permanent: studies=`study_id`, entities=`entity_id`, technologies=`tech_id`, observations=`obs_id`, codes=`code_id`. Canonical paths also stored.
+- **Engineering diagnostic filed** — ID `afeebeae-05a9-4279-bd98-9a613e9c64be` (memory_loss, major). Three failures: agent didn't check memory, memory insufficient for multi-day projects, agent hallucinated lookup pattern instead of verifying schema.
+
+### AM session (Phases 1-6 refresh)
 
 - **Canonical layout decision shipped** — wiki canonicalized at `~/Repos/kastner-aberdeen-wiki/` (off iCloud); pipeline scripts at `~/Desktop/Archive/scripts/`; researcher scripts inside the wiki at `scripts/`. Decision document: `decisions/canonical_layout_decision_v1.md` (commit `91d48e55`). `~/Desktop/kastner_wiki/` deprecated; rename to `.DEPRECATED_20260528/` scheduled after 2026-06-04.
 - **Safety tag created**: `pre-v6-pipeline-20260528T130754Z` on `~/Repos/kastner-aberdeen-wiki/` (rollback point).

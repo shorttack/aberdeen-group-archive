@@ -1,7 +1,7 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-29 AM (v1.5.0 paired release shipped to GitHub + Zenodo-pending; §9b kw_note v4 CLI/UX cleanup shipped)
-**Current ship state:** **v1.5.0 released 2026-05-29** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki` (Zenodo DOIs pending webhook fire). Wiki HEAD: `kw_note v4` (commit `20e9143c`). Archive HEAD: WORKLIST §9b checkoff. 1434/1434 studies have pub_year; ~308/1434 prescience-scored (Bucket A+B scaffolding shipped, production run queued for v1.6); bge-m3:latest is the canonical embedding model.
+**Last updated:** 2026-05-29 PM (Pass C v2 buildout shipped — abandoned v1 run quarantined; new v3 filter + v2 runner/rollup/route + v2 runbook in `scripts/`; Bucket A+B production run ready to kick off)
+**Current ship state:** **v1.5.0 released 2026-05-29** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki` (Zenodo DOIs pending webhook fire). Wiki HEAD: `kw_note v4` (commit `20e9143c`). Archive HEAD: Pass C v2 buildout (this commit). 1434/1434 studies have pub_year; ~308/1434 prescience-scored (Bucket A+B scaffolding shipped, **production run scripts shipped 2026-05-29 PM, awaiting Pete kickoff**); bge-m3:latest is the canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
 
@@ -14,7 +14,9 @@ How to use:
 
 ## Next up
 
-_(Empty after end-of-session commit; populated at session start)_
+- [ ] **Pete kicks off Pass C v2 on Mac**: pull repo → copy scripts to `~/Desktop/Archive/scripts/` → run v3 filter dry-run → v3 filter for real → v2 runner dry-run → full `nohup` kickoff. Runbook: `scripts/pass_c_kickoff_runbook_v2.md`. ETA ~12 hrs wall clock for ~2,562 obs across ~309 Bucket A+B studies.
+- [ ] After completion: roll up via `roll_up_prescience_to_master_v2.py`, build cloud review queue via `route_low_confidence_v2.py --build-queue`, hand queue back to Computer for ~75–100 cloud second-opinions.
+- [ ] Cron `2e191f67` will auto-delete the abandoned v1 quarantine on **2026-06-05 09:00 EDT** — no action needed.
 
 ---
 
@@ -311,9 +313,26 @@ Pete's request after seeing the `kw ask … 2>/tmp/src.txt | kw note …` invoca
 
 ---
 
-## Done this session (2026-05-28)
+## Done this session (2026-05-29 PM)
 
 _(End-of-day commit clears this section)_
+
+### Pass C v2 buildout (2026-05-29 PM)
+
+- **Decision to start Pass C clean** — Pete's directive: abandoned Bucket A+B run from 2026-05-26 had obs_ids predating v20 normalization. Quarantine-then-delete-in-a-week instead of trying to retrofit. Model + decoding params unchanged (κ=0.853 ground truth stays put — `model_prescience_scoring_finding_v1.md`).
+- **Quarantine shipped** (`scripts/quarantine_pass_c_run_v1.sh`, archive commit `6bdf44b3`) — 1,545 per-study Pass C files + checkpoint + master rollup = 1,548 total moved to `_pass_c_abandoned_runs/20260526/`. `prepared/_bucket_audit_v2.csv` (input artifact) intentionally preserved in place.
+- **Cron `2e191f67` scheduled** to hard-delete the quarantine on **2026-06-05 09:00 EDT**, self-cancels after firing, notifies Pete with file count.
+- **Pass C v2 script set shipped** (this commit) — 5 new files in `scripts/`:
+  - `pre_filter_scoreable_obs_v3.py` — manifest-driven Bucket A+B filter (default `--bucket-filter A,B`); writes `working/scoreable_obs_v3.csv` per study.
+  - `run_prescience_pass_c_v2.py` — reads v3 filter output; writes `prescience_scores_27b_passC_v2.csv` + `pass_c_log_v2.jsonl`; checkpoint at `pass_c_checkpoint_v2.json`. `source_pass=pass_c_v2`, `scorer_version=qwen3.5:27b-mlx_passC_v2`.
+  - `roll_up_prescience_to_master_v2.py` — globs v2 outputs into `_master_prescience_scores.csv`; cross-checks obs_ids against v1.5 17-col `_master_observations.csv`.
+  - `route_low_confidence_v2.py` — builds cloud review queue / applies cloud results; v2 filenames throughout.
+  - `pass_c_kickoff_runbook_v2.md` — refreshed runbook; documents v2 file rename map vs. abandoned v1; smoke-test step marked optional per Pete's standing directive.
+- **WORKLIST §2 (Bucket C+D prescience scoring)** stays open — that's the post-A+B work; v2 only addresses A+B.
+
+### Earlier 2026-05-29 AM (kept for context until next EOD commit)
+
+_(Originally under 2026-05-28; carried forward through 2026-05-29 AM and PM sessions.)_
 
 ### PM session (kw_note v1, v2, USER_GUIDE §6.6)
 

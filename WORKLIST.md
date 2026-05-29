@@ -64,13 +64,14 @@ v6.1 caught 4 misparses outside the [1970, 2026] range (1904, 1905×2, 2030). Si
 
 Full spec in `future_work_v1.6.md` §2.
 
-### 4c. Fix the `v_studies_by_decade` view
+### 4c. Fix the `v_studies_by_decade` view — ✅ SHIPPED 2026-05-29 (`02_build_data_layer_v3.py`)
 
-View currently returns 38 rows — one per distinct year — with `'s'` appended (`'2003s'`, `'2004s'`, etc.). The intent was decade bucketing. **Re-confirmed in today's shape audit: still bugged.**
+View was returning 38 rows because pub_year is stored as DOUBLE in studies.parquet (pandas float64 when nulls present). The v2 expression `CAST(pub_year / 10 * 10 AS INTEGER)` performed DOUBLE math (1997.0 → 199.7 → 1997.0) and the cast only truncated at the end, yielding 1997 → '1997s'. **Same bug existed in `v_prescience_by_decade` — fixed in the same patch.**
 
-- [ ] Patch view definition in `02_build_data_layer_v2.py` to use `((CAST(pub_year AS INTEGER)/10)*10) || 's' AS decade`.
-- [ ] Verify: `SELECT decade, COUNT(*) FROM v_studies_by_decade GROUP BY decade ORDER BY decade;` returns ~6 rows (1970s, 1980s, 1990s, 2000s, 2010s, 2020s).
-- [ ] Audit `wiki/decades/*.md` and any `kw ask` decade prompts for downstream impact.
+- [x] Patched both views in `02_build_data_layer_v3.py`: `((CAST(pub_year AS INTEGER) / 10) * 10) || 's' AS decade` — cast FIRST so DuckDB integer arithmetic buckets correctly.
+- [x] Shipped to `shorttack/aberdeen-group-archive/scripts/build/02_build_data_layer_v3.py` (sha `da1e7345`).
+- [ ] **Pete action**: `git pull && cp scripts/build/02_build_data_layer_v3.py ~/Desktop/Archive/scripts/` then re-run Phase 2 to refresh DuckDB. Expected: `v_studies_by_decade` returns 6 rows (1970s..2020s), `v_prescience_by_decade` returns matching shape.
+- [ ] After Pete re-runs Phase 2: audit `wiki/decades/*.md` and any `kw ask` decade prompts for downstream impact (deferred to v1.6).
 
 Full spec in `future_work_v1.6.md` §3.
 
@@ -109,8 +110,8 @@ The memoir page (`study-kastner-technology-breadth-memoir-2026.md`) currently ci
 Shipped 2026-05-28: canonical wiki moved to `~/Repos/kastner-aberdeen-wiki/`. Cleanup tasks:
 
 - [ ] After 2026-06-04 (one-week grace window), rename `~/Desktop/kastner_wiki/` to `.DEPRECATED_20260528/` on Pete's Mac
-- [ ] Audit `~/Desktop/Archive/scripts/*.py` for any hardcoded paths to `~/Desktop/kastner_wiki/`; patch to use `--wiki` argument
-- [ ] Audit `~/Repos/kastner-aberdeen-wiki/scripts/*.py` for any sandbox-path leftovers (`/home/user/workspace`, etc.) in comments or default arg values
+- [x] Audit `~/Desktop/Archive/scripts/*.py` for any hardcoded paths to `~/Desktop/kastner_wiki/`; patch to use `--wiki` argument — **completed 2026-05-29: no real findings**. All `~/Desktop/kastner_wiki` references in 01-06 build scripts are usage examples in docstrings (`--wiki` argparse already takes the path). One-off scripts hardcode `/Users/scott/...` but that's by design.
+- [x] Audit `~/Repos/kastner-aberdeen-wiki/scripts/*.py` for any sandbox-path leftovers (`/home/user/workspace`, etc.) — **completed 2026-05-29**. Found three one-shot scripts (`refresh_data_layer.py`, `add_dec_longitudinal_pages.py`, `add_pass_a_v2_pages.py`) with module-level `WIKI_ROOT = Path("/home/user/workspace/...")`. Moved to `scripts/_legacy/` with provenance README in wiki commit `eda7bf35`. Forever-archive preserved; sandbox-path contamination removed from active `scripts/` tree.
 - [ ] Patch `kastner-archive-pipeline` skill to v1.2 — ✅ DONE in this session
 
 ### 9. Schema contract enforcement

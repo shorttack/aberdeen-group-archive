@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 run_prescience_pass_c_v4.py — Corpus-wide local prescience scoring
+(v4.1 — tolerant validator: missing/invalid confidence defaults to 1 + flagged in rationale)
 
 Pass C v4: Score EVERY observation in _master_observations.csv with local
 qwen3.5:27b-mlx via Ollama. No bucket filter, no shape filter.
@@ -339,22 +340,39 @@ def score_one(obs_row, studies_ctx, system_prompt, user_tmpl):
 
     parsed = call_ollama(system_prompt, user_prompt)
 
-    # Validate
+    # Validate — tolerant mode (v4.1)
+    # Score is required and must be a valid int in [0,5].
+    # Confidence is optional: if missing/None/out-of-range, default to 1 and flag in rationale.
+    # Rationale is optional: empty string is accepted.
     score = parsed.get("prescience_score")
     conf = parsed.get("confidence")
     rationale = parsed.get("rationale", "") or ""
 
+    # Score is hard-required
+    if isinstance(score, bool):
+        raise ValueError(f"prescience_score is bool, not int: {score!r}")
+    if isinstance(score, float) and score.is_integer():
+        score = int(score)
     if not isinstance(score, int) or score < 0 or score > 5:
         raise ValueError(f"prescience_score out of range or wrong type: {score!r}")
+
+    # Confidence is soft — accept missing/invalid with default
+    conf_flag = ""
+    if isinstance(conf, bool):
+        conf_flag = f" [conf-flag: was bool {conf!r}, defaulted to 1]"
+        conf = 1
+    elif isinstance(conf, float) and conf.is_integer():
+        conf = int(conf)
     if not isinstance(conf, int) or conf < 1 or conf > 3:
-        raise ValueError(f"confidence out of range or wrong type: {conf!r}")
+        conf_flag = f" [conf-flag: was {conf!r}, defaulted to 1]"
+        conf = 1
 
     return {
         "obs_id": obs_id,
         "study_id": study_id,
         "prescience_score": score,
         "confidence": conf,
-        "rationale": rationale,
+        "rationale": (rationale + conf_flag).strip(),
         "model": MODEL,
         "prompt_version": PROMPT_VERSION,
         "ts_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),

@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-29 PM (Pass C v2 buildout shipped — abandoned v1 run quarantined; new v3 filter + v2 runner/rollup/route + v2 runbook in `scripts/`; Bucket A+B production run ready to kick off)
+**Last updated:** 2026-05-29 PM (Pass C v2 v4-filter patch shipped — v3 filter under-captured due to allow-list missing 9 real observation_type values; v4 filter expanded to Moderate scope (+market-forecast, +market-assessment, +competitive-assessment, +analytical-claim); runner bumped to v3 to read v4 input filename; output schema/model/prompt/decoding UNCHANGED; Bucket A+B production run ready to kick off at ~810 obs / ~3.6 hr)
 **Current ship state:** **v1.5.0 released 2026-05-29** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki` (Zenodo DOIs pending webhook fire). Wiki HEAD: `kw_note v4` (commit `20e9143c`). Archive HEAD: Pass C v2 buildout (this commit). 1434/1434 studies have pub_year; ~308/1434 prescience-scored (Bucket A+B scaffolding shipped, **production run scripts shipped 2026-05-29 PM, awaiting Pete kickoff**); bge-m3:latest is the canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -14,7 +14,7 @@ How to use:
 
 ## Next up
 
-- [ ] **Pete kicks off Pass C v2 on Mac**: pull repo → copy scripts to `~/Desktop/Archive/scripts/` → run v3 filter dry-run → v3 filter for real → v2 runner dry-run → full `nohup` kickoff. Runbook: `scripts/pass_c_kickoff_runbook_v2.md`. ETA ~12 hrs wall clock for ~2,562 obs across ~309 Bucket A+B studies.
+- [ ] **Pete kicks off Pass C v2 on Mac (v4 filter patch)**: pull repo → copy `pre_filter_scoreable_obs_v4.py` + `run_prescience_pass_c_v3.py` to `~/Desktop/Archive/scripts/` → v4 filter dry-run (expect ~810 scoreable / ~309 studies) → v4 filter for real → v3 runner dry-run (expect ~3.6 hr ETA) → 2-study live smoke (`--max-studies 2`) → full `nohup` kickoff. Runbook: `scripts/pass_c_kickoff_runbook_v3.md`. ETA ~3.6 hrs wall clock for ~810 obs across ~309 Bucket A+B studies. **Note**: 620 studies w/ 1,694 viability-prediction rows live in Mode 2 (`aberdeen-group-archive/` working tree) outside `prepared/` — out of scope for v2; separate workstream.
 - [ ] After completion: roll up via `roll_up_prescience_to_master_v2.py`, build cloud review queue via `route_low_confidence_v2.py --build-queue`, hand queue back to Computer for ~75–100 cloud second-opinions.
 - [ ] Cron `2e191f67` will auto-delete the abandoned v1 quarantine on **2026-06-05 09:00 EDT** — no action needed.
 
@@ -329,6 +329,18 @@ _(End-of-day commit clears this section)_
   - `route_low_confidence_v2.py` — builds cloud review queue / applies cloud results; v2 filenames throughout.
   - `pass_c_kickoff_runbook_v2.md` — refreshed runbook; documents v2 file rename map vs. abandoned v1; smoke-test step marked optional per Pete's standing directive.
 - **WORKLIST §2 (Bucket C+D prescience scoring)** stays open — that's the post-A+B work; v2 only addresses A+B.
+
+### Pass C v2 v4-filter patch (2026-05-29 PM — same day, post-smoke)
+
+- **Smoke uncovered allow-list bug.** Pete ran v3 filter dry-run: only **287 scoreable / 2,562 expected**. Skip-reason audit returned all 3,003 as `not-scoreable-type`. Live observation_type survey on Bucket A+B prepared studies showed the v3 allow-list (inherited from v1.5 ingest skill §6 catalog: `viability-prediction, market-data, strategy-classification, benchmark-result, expert-opinion, topic-insight`) was missing 9 real types actually present in the corpus: `market-metric` (2,238), `analytical-claim` (425), `study-summary` (214), `market-assessment` (94), `framework` (25), `competitive-assessment` (3), `market-condition` (2), `market-forecast` (1), `financial-metric` (1).
+- **Moderate scope decision** — added 4 types (`market-forecast`, `market-assessment`, `competitive-assessment`, `analytical-claim`); declined 5 (`market-metric` data points, `study-summary` meta, `framework` taxonomies, `market-condition` current state, `financial-metric` data). Expected v4 totals: ~810 scoreable obs across ~309 studies, ~3.6 hr ETA at 16 s/obs.
+- **Architectural finding** (Mode 1 vs Mode 2) — Pete asked about the 2,142 master-CSV vp rows vs. 287 captured. Investigation: **prepared/** has 493 bucket-assigned studies (Bucket A=135, B=174, D=30, E=154; no Bucket C); **aberdeen-group-archive/ working tree** has 843 studies marked `assigned_bucket: "(none — Mode 2)"` containing 620 studies w/ 1,694 vp rows. Pete chose **Option 1**: respect the Mode 1/Mode 2 boundary, defer Mode 2 to a separate workstream. v2 Pass C run scope = `prepared/` only.
+- **v4 patch shipped** (this commit) — 3 new files in `scripts/`:
+  - `pre_filter_scoreable_obs_v4.py` — expanded `SCOREABLE_OBS_TYPES` (Moderate scope); all output filenames bumped v3→v4 (`scoreable_obs_v4.csv`, `skipped_obs_v4.csv`, `filter_summary_v4.json`, `_bucket_audit_v4.csv`); `filter_version: "v4"`.
+  - `run_prescience_pass_c_v3.py` — v2 runner with ONE change: reads `scoreable_obs_v4.csv` instead of v3. Output schema, model (`qwen3.5:27b-mlx`), prompt (`prescience_score_prompt_v2.md`), decoding params (think=False, num_ctx=8192, num_predict=400, temperature=0.2) all UNCHANGED. Pass C v2 invariants preserved — still writes `prescience_scores_27b_passC_v2.csv` / `pass_c_checkpoint_v2.json` / `pass_c_log_v2.jsonl` with `source_pass=pass_c_v2`, `scorer_version=qwen3.5:27b-mlx_passC_v2`.
+  - `pass_c_kickoff_runbook_v3.md` — refreshed runbook for v4/v3 names and ~810 obs / ~3.6 hr ETA.
+- **No changes** to `roll_up_prescience_to_master_v2.py` or `route_low_confidence_v2.py` — rollup ingests v2 prescience output (unchanged); routing reads master after rollup (unchanged).
+- **Post-rollup plan** — Workflow C will run Phase 1+2 to regenerate the 9 prescience DuckDB views (`v_prescience_raw`, `v_observations_with_prescience`, `v_studies_with_prescience`, `v_top_prescient_studies`, `v_studies_with_high_prescience`, `v_prescience_by_decade`, `v_low_confidence_prescience`, `v_high_holistic_prescience`, `v_holistic_prescience_distribution`); Phase 5 re-embed (Gotcha 7); Phase 6 refresh scaffolding.
 
 ### Earlier 2026-05-29 AM (kept for context until next EOD commit)
 

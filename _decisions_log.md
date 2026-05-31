@@ -1290,3 +1290,467 @@ Already shipped today (per script-delivery protocol):
 - Today's chat session: 36,904 → 36,222 = 682 credits over ~6.75 hours
 - API spend (cloud scoring): ~$24 of the $49.99 monthly cap on the cloud LLM accounts
 - Mac compute: free; Ollama tier-1 regeneration in Phase 3 will consume electricity but no monetary cost
+## 2026-05-31 — Scripts-directory split: the two-locations question surfaced and reasoned through
+
+**Session shape:** Mid-session architectural clarification. While shipping `02_build_data_layer_v4.py` to fix the v3 decade-bucket bug (separate entry forthcoming), Pete asked: *"Add to work list: build scripts are in `~/Desktop/Archive/aberdeen-group-archive/scripts/build/` and other scripts are in `/Archive/scripts`. Why do we need two scripts repos? I suppose because `~/Desktop/Archive/aberdeen-group-archive/scripts/build/` is in a repo we commit."* This entry captures the inventory done in response, the reasoning behind the split, and what's misaligned today (so the v1.6 §11j WORKLIST item — once added — has full provenance).
+
+### Pete's framing of the question (verbatim)
+
+> Add to work list: build scripts are in ~/Desktop/Archive/aberdeen-group-archive/scripts/build/ and other scripts are in /Archive/scripts. Why do we need two scripts repos? I suppose because ~/Desktop/Archive/aberdeen-group-archive/scripts/build/ is in a repo we commit.
+
+Pete's intuition (in the trailing sentence) was correct, but the picture is slightly more layered than just "in-repo vs. not-in-repo." The inventory below shows why.
+
+### Inventory of the two locations (captured 2026-05-31 ~08:55 EDT)
+
+#### `~/Desktop/Archive/scripts/` — local working dir, NOT in any repo
+
+Flat directory, 82 entries (including `__pycache__/`). Contains everything Pete has ever written for the archive, including:
+
+- The full numbered build pipeline (Phase 1–6): `01_load_csvs_v1.py` + `_v2`, `02_build_data_layer_v1.py` + `_v2`, `03_generate_vault_v1.py` + `_v2`, `04_generate_indices_v1.py` + `_v2`, `05_compute_embeddings_v1.py` + `_v2`, `06_emit_scaffolding_v1.py`
+- `_llm_helper_v1.py` (shared by the pipeline)
+- Diagnostics and dead-ends: `diagnose_*` (8 scripts), `check_*` (3), `fix_v2_residuals_*` (3 versions), `namespace_*` (3), `compare_prescience_models_v1.py`
+- Apply scripts that ran already: `apply_pub_year_v6.py`, `apply_pub_year_v6_1.py`, `apply_year_observed_v1.py` + `_v2`
+- Vault builders: `build_obsidian_vault_v1.py` through `_v4.py`, `build_duckdb_only_v1.py` through `_v3.py`
+- Pass C tooling: `pre_filter_scoreable_obs_v1.py` + `_v3.py`, `pass_c_kickoff_runbook_v1.md` + `_v3.md`
+- One `.sh`: `download_aberdeen_pdfs.sh`
+
+**Last activity in this dir:** May 31 (today's session created `__pycache__/` entries, but the most recent `.py` file is from May 29). The build pipeline files stopped getting updates here at **v2 (May 26)**. v3 and v4 of `02_build_data_layer_*.py` are NOT here.
+
+#### `~/Desktop/Archive/aberdeen-group-archive/scripts/` — the public repo working copy
+
+Two-level structure:
+
+**`scripts/` (top level, 33 files):** operational scripts that produce data committed to the repo, plus runbooks.
+- `apply_pub_year_v6.py`, `apply_pub_year_v6_1.py`, `apply_year_observed_v2.py`
+- `extract_pub_year_v1.py`, `extract_pub_year_v2.py`
+- `migrate_pdfs_to_restricted_v3.py`, `_v4.py`
+- `pre_filter_scoreable_obs_v1.py` through `_v4.py`
+- `roll_up_prescience_to_master_v1.py`, `_v2.py`, and `roll_up_prescience_v3.py`
+- `route_low_confidence_v1.py`, `_v2.py`
+- `run_prescience_pass_c_v1.py` through `_v4.py` + `_v4_2.py`
+- `drop_duplicate_3910_v1.sh`, `quarantine_pass_c_run_v1.sh`, `preload_checkpoint_filter_bucket_cde_v1.py`
+- Three Pass C runbooks (`pass_c_kickoff_runbook_v1.md` through `_v3.md`, `pass_c_smoke_test_runbook_v1.md`)
+- Two READMEs (`pre_filter_scoreable_obs_v2_README.md`, `run_prescience_pass_c_v4_README.md`, `_v4_2_README.md`)
+
+**`scripts/build/` (14 files):** the numbered Phase 1–6 build pipeline, with full version history.
+- `01_load_csvs_v1.py`, `_v2.py`
+- `02_build_data_layer_v1.py`, `_v2.py`, `_v3.py`, **`_v4.py`** (landed today)
+- `03_generate_vault_v1.py`, `_v2.py`
+- `04_generate_indices_v1.py`, `_v2.py`
+- `05_compute_embeddings_v1.py`, `_v2.py`
+- `06_emit_scaffolding_v1.py`
+- `_llm_helper_v1.py`
+
+**Last activity:** today, when `02_build_data_layer_v4.py` was pushed via `pc push` (sha `93e8c212c14444132e96444ea6bfb21d0220b98205df0c735af4189c37f4b5d4`, 10,232 bytes).
+
+### Reasoning underneath: why two locations at all
+
+The honest answer is **historical accident hardening into a useful convention**:
+
+1. **Local (`~/Desktop/Archive/scripts/`) predates the repo.** Pete built everything here first — fast iteration, no git overhead, no sandbox-write-blocks. It's a scratchpad and a forensic record of every script ever written, including dead-ends.
+2. **The repo (`aberdeen-group-archive/scripts/`) emerged to ship a curated subset publicly** — the things needed to reproduce the archive build. Diagnostics, dead-end fix scripts, and exploratory work stayed local.
+3. **The `scripts/build/` subdir inside the repo emerged to separate "the build pipeline"** (numbered scripts that run in sequence to produce the wiki from masters) from **"operational scripts"** (things that mutate masters or migrate data).
+
+Pete's trailing intuition — that the split is "because `scripts/build/` is in a repo we commit" — is correct as far as it goes, but it doesn't quite capture that the repo *also* has a non-`build/` `scripts/` directory. The deeper distinction is:
+
+| Directory | Role | Lifecycle |
+|---|---|---|
+| `~/Desktop/Archive/scripts/` | Local scratchpad, forensic record of everything ever written | Append-only; nothing ever deleted; includes dead-ends |
+| `aberdeen-group-archive/scripts/` (repo root) | Curated operational scripts — things that mutate masters or migrate data | Version-controlled; selective; only what reproduces published archive state |
+| `aberdeen-group-archive/scripts/build/` | The numbered Phase 1–6 build pipeline | Version-controlled; selective; only what builds the wiki from masters |
+
+The two repos serve **genuinely different purposes** — they're not redundant, they encode different intent. The local dir is "everything Pete tried"; the repo dirs are "what a third party would need to reproduce the public archive."
+
+### What's broken right now (provenance for the §11j WORKLIST item)
+
+Three concrete misalignments surfaced by the inventory:
+
+**1. Drift between local and repo.** The repo's `scripts/build/` has v3 and v4 of `02_build_data_layer_*.py`; the local `~/Desktop/Archive/scripts/` stopped at v2 (May 26). If a future agent reads `~/Desktop/Archive/scripts/02_build_data_layer_*.py` to figure out what's current, they get a **stale answer**. Same risk for other scripts that exist in both places (`apply_pub_year_v6.py`, `apply_year_observed_v2.py`, etc.) — they're currently in sync but could silently diverge.
+
+**2. The `kastner-archive-pipeline` skill is now wrong.** The skill says verbatim:
+
+> "All pipeline and one-off scripts live at `~/Desktop/Archive/scripts/` on the Mac. Mirror them in the public repo at `shorttack/aberdeen-group-archive/scripts/`."
+
+That **inverted on this session.** v3 and v4 of Phase 2 landed in the repo directly, not via a local-first then mirror flow. The repo's `scripts/build/` is now the source of truth for the build pipeline; the local dir is the mirror (and currently a stale one).
+
+**3. No `build/` subdirectory locally.** The repo has the conceptual split (`scripts/` vs `scripts/build/`); the local dir is flat. So a v4 commit landing only in repo `scripts/build/` means there's **no local copy at all** unless we explicitly mirror it. For tonight's run this doesn't matter — Pete invokes from `~/Desktop/Archive/aberdeen-group-archive/scripts/build/02_build_data_layer_v4.py`. But it's a divergence that should be intentional, not accidental.
+
+### Decision deferred — to be made in §11j
+
+This entry **does not resolve the split.** It captures the question, the inventory, and the reasoning so the v1.6 §11j WORKLIST item has full context. Two options on the table:
+
+- **(A)** Repo is now the source of truth for build scripts. Local `~/Desktop/Archive/scripts/` becomes a curated mirror or is deprecated for the build pipeline (it remains the scratchpad for diagnostics).
+- **(B)** Local `~/Desktop/Archive/scripts/` remains canonical and the repo is a curated mirror. v3 + v4 must be pulled back into the local dir to restore that invariant.
+
+The choice is Pete's. The §11j WORKLIST item captures both options and the supporting evidence. Whichever way it goes, the `kastner-archive-pipeline` skill, the operator guide, and any runbooks that reference script paths must be updated to match.
+
+### Why this is worth preserving (the didactic angle)
+
+This is the **second** time in three sessions an architectural assumption baked into a skill turned out to be inverted by the actual on-disk state:
+
+1. **2026-05-27 stale-embeddings episode** — Phase 1+2 ran clean but the wiki README still quoted v1.4 numbers because Phase 5+6 had silently been skipped for weeks. Resolution: added Workflow C + Gotcha 7 to `kastner-archive-pipeline` skill.
+2. **2026-05-31 today** — Skill claims local-canonical/repo-mirror; reality is repo-canonical/local-stale for the build pipeline.
+
+**Pattern**: skills encode the *intent* at the time they were written, but the on-disk state evolves with the project. Trusting a skill's claim about file locations without verifying against the actual filesystem is the failure mode. The pre-flight checklist in `kastner-archive-pipeline` should grow a step: *"Verify that the script paths the skill names actually contain what the skill claims they contain."*
+
+### Artifacts
+
+- This entry: `/home/user/workspace/decisions_log_entry_2026_05_31_scripts_dirs_v1.md`
+- Inventory output captured in this session's tool-call log (filesystem listings of both directories, timestamped 2026-05-31 ~08:55 EDT)
+- Related WORKLIST item to add: §11j (Codify the scripts-directory split — skill + decision)
+- Skill that needs updating once §11j is resolved: `kastner-archive-pipeline` (skill_id `fe5dc1e1-e51d-4f60-88e7-4d2651afa18b`) — specifically the "Scripts (where they live)" section and the "End-of-day shipping" section
+
+### Cross-references
+
+- Today's other in-flight work: v4 fix for the decade-bucket bug (see forthcoming `decisions_log_entry_2026_05_31_decade_bug_v1.md` — to be written after v4 verifies clean on the Mac)
+- Prior related entry: `decisions_log_entry_2026_05_30_pass_c_cloud_v1.md` (Pass C cloud scoring run + canonical prescience reconciliation)
+- WORKLIST: `WORKLIST_2026_05_31.md` (today's dated worklist) — pending §11j addition
+
+---
+
+*Status: captured; decision deferred to §11j. EOD batch commit will include this entry alongside the v4-decade-bug entry, the updated WORKLIST, and the v4 script itself.*
+## 2026-05-31 — Phase 2 v4: the v3 decade-bucket bug, root cause, and the `//` fix
+
+**Session shape:** Mid-session debugging during the v1.6 §11a re-run (Phase 1+2 against `~/Repos/kastner-aberdeen-wiki`). Phase 1 ran clean; Phase 2 v3 also ran clean BUT the decade views still showed 38 rows instead of 6. Discovery led to a 4-line surgical fix shipped as v4. Closes WORKLIST §4c (originally addressed by v3, which turned out not to work).
+
+### The bug
+
+**Pre-rebuild shape audit (captured before Phase 1+2):**
+```
+studies:                 1434
+observations:           23605
+entities:                3207
+technologies:            4312
+studies_with_pub_year:   1434
+decades_covered:           38   ← BUG
+high_prescience_studies:  109
+```
+
+`decades_covered` should be 6 (1970s, 1980s, 1990s, 2000s, 2010s, 2020s) — one bucket per decade. 38 was the canary.
+
+**Diagnostic probe of `v_studies_by_decade`** revealed the actual content:
+
+```
+decade    studies
+'1972.0s'    1
+'1973.0s'    1
+'1974.0s'    1
+'1979.0s'    1
+'1980.0s'    7
+...
+```
+
+Decade values were per-year strings with a `.0` floating-point suffix, not per-decade bucketed integers. v3 was supposed to fix this but didn't.
+
+### Root cause — DuckDB returns DOUBLE from INTEGER `/` INTEGER
+
+The v3 view definition:
+```sql
+((CAST(pub_year AS INTEGER) / 10) * 10) || 's' AS decade
+```
+
+The intent was: cast `pub_year` (varchar) to INTEGER, do integer division by 10 to truncate the units digit, multiply back by 10 to get the decade, concatenate `'s'`.
+
+The bug: **DuckDB's `/` operator returns DOUBLE when applied to INTEGER**. Verified empirically against `~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb` on 2026-05-31:
+
+```sql
+SELECT
+  CAST(1972.0 AS INTEGER) AS cast_result,             -- 1972 (int)
+  typeof(CAST(1972.0 AS INTEGER)) AS cast_type,       -- INTEGER
+  CAST(1972.0 AS INTEGER) / 10 AS div_result,         -- 197.2 (double!)
+  typeof(CAST(1972.0 AS INTEGER) / 10) AS div_type;   -- DOUBLE
+```
+
+So the evaluation chain was:
+1. `CAST(pub_year AS INTEGER)` → `1972` (INTEGER) ✓
+2. `1972 / 10` → `197.2` (DOUBLE) ❌
+3. `197.2 * 10` → `1972.0` (DOUBLE — still has fractional part because of float math)
+4. `1972.0 || 's'` → `'1972.0s'` (varchar) ❌
+
+The "cast first" intent that v3's author held was correct as a strategy, but the actual DuckDB semantics didn't honor it — the cast succeeded; the division immediately undid it.
+
+### The v4 fix
+
+DuckDB supports the integer-division operator `//`. It's NOT the same as `DIV` (DuckDB also accepts `DIV` in some dialects, but it's safer to use `//`). Empirically verified:
+
+```sql
+SELECT
+  CAST(1972.0 AS INTEGER) // 10 AS div_result,         -- 197 (integer)
+  typeof(CAST(1972.0 AS INTEGER) // 10) AS div_type;   -- INTEGER
+```
+
+v4's view definition replaces only the operator:
+```sql
+((CAST(pub_year AS INTEGER) // 10) * 10) || 's' AS decade
+```
+
+Evaluation chain now:
+1. `CAST(pub_year AS INTEGER)` → `1972` (INTEGER)
+2. `1972 // 10` → `197` (INTEGER) ✓
+3. `197 * 10` → `1970` (INTEGER) ✓
+4. `1970 || 's'` → `'1970s'` (varchar) ✓
+
+### Why v3's author missed it
+
+Two contributors:
+1. **The cast looks like it should work.** `CAST(x AS INTEGER) / 10` reads as "cast, then divide as integers." That's how it works in C, Python's `int(x) // 10`, and most strongly-typed languages. DuckDB's `/` is **always** float division regardless of operand types — closer to Python's `/` than to C's `/`.
+2. **The view ran without error.** DuckDB silently promoted the result type from INTEGER to DOUBLE. There was no compiler warning, no runtime exception. The output looked "almost right" — the row counts were close-ish, the strings *contained* the decade — so the failure surface required actually counting the distinct values.
+
+This is the same class of failure as the 2026-05-27 stale-embeddings issue: an artifact (DuckDB view / wiki page) that returns plausible content but is provably wrong against a separate ground truth (the inline DISTINCT count / the live DuckDB).
+
+### Alternative fixes considered
+
+| Fix | Pros | Cons | Verdict |
+|---|---|---|---|
+| `//` operator | 4-line diff vs v3; minimal blast radius; native DuckDB | Less universally familiar than FLOOR | **Chosen** |
+| `FLOOR(CAST(pub_year AS INTEGER) / 10.0) * 10` | Reads as obviously-integer-bucketing; portable to other SQL dialects | Heavier expression; still divides as float internally; would change the function call shape in the view | Rejected — heavier than needed |
+| `CAST(pub_year/10 AS INTEGER) * 10` | Slightly shorter | Same DOUBLE-return problem on the inner `/`, then cast-truncates the fraction | **Untested and risky** — could land at `1970` correctly but the cast-then-truncate semantics aren't worth the diff complexity |
+| Add a `pub_decade` column to `_master_studies.csv` and surface it directly | Eliminates the derived-column failure mode entirely | Requires a Phase 1 patch, a backfill script, a master-CSV migration; way out of scope for "fix the decade view" | Deferred — could become a future v1.7 §-item |
+
+### Post-rebuild verification
+
+**Phase 2 v4 output (clean):**
+```
+[promote] studies.parquet → data/   (×12 parquets)
+[view] v_studies: 1434 rows
+[view] v_studies_by_decade: 6 rows           ← FIXED
+[view] v_prescience_by_decade: 6 rows        ← FIXED (same bug, same fix, both views patched)
+[view] v_studies_with_high_prescience: 124 rows   ← +15 from Pass C rollup
+[view] v_high_holistic_prescience: 489 rows
+✓ Phase 2 complete: /Users/scott/Repos/kastner-aberdeen-wiki/db/kastner.duckdb
+```
+
+Wall time: ~1 second.
+
+**Post-rebuild shape audit:**
+```
+studies:                 1434  ✓
+observations:           23605  ✓
+entities:                3207  ✓
+technologies:            4312  ✓
+studies_with_pub_year:   1434  ✓
+decades_covered:            6  ✓ (was 38)
+high_prescience_studies:  124  ✓ (was 109; +15 from Pass C cloud-scoring rollup)
+```
+
+**Decade distribution after fix (`v_studies_by_decade ORDER BY decade`):**
+
+| Decade | Studies | Share |
+|---|---:|---:|
+| 1970s | 3 | 0.2% |
+| 1980s | 70 | 4.9% |
+| 1990s | 414 | 28.9% |
+| **2000s** | **887** | **61.9%** |
+| 2010s | 16 | 1.1% |
+| 2020s | 44 | 3.1% |
+| **Total** | **1434** | 100.0% |
+
+Sum = 1434 exactly matches `COUNT(*) FROM v_studies`. No studies dropped, no pub_year nulls leaking through to the decade view.
+
+### Observations worth noting (not bugs in v4 — observations about the archive)
+
+The decade distribution surfaces three things worth flagging for future review:
+1. **2000s dominate at 62%.** Consistent with Aberdeen Group's peak research-output years. Expected.
+2. **2010s collapse to 16 studies (1.1%).** Steep drop after peak. Could be (a) genuine — Aberdeen's research volume actually fell post-2008, (b) artifact of which years got ingested into the archive, or (c) `pub_year` extraction landed those studies in the wrong decade. Worth a passing look someday.
+3. **2020s with 44 studies.** Surprising if Aberdeen was wound down or sold post-2010s. Could be re-published / re-issued material, or post-acquisition output under a successor brand. Not a v4 issue.
+
+Logged as **potential §11k** (or v1.7 candidate — "decade-distribution sanity review") for the WORKLIST. **Not blocking on today's work.**
+
+### Artifacts shipped this session
+
+| Artifact | Path on Mac | sha256 (where applicable) |
+|---|---|---|
+| **v4 script** | `~/Desktop/Archive/aberdeen-group-archive/scripts/build/02_build_data_layer_v4.py` | `93e8c212c14444132e96444ea6bfb21d0220b98205df0c735af4189c37f4b5d4` |
+| Workspace copy | `/home/user/workspace/02_build_data_layer_v4.py` | (same) |
+| v3 reference | `/home/user/workspace/02_build_data_layer_v3_pulled.py` | `173ee851a5e387c1a29832339d807c912c789b50a26e354693d87a641a4cfa27` |
+| Diff vs v3 | (in this entry's body) | — |
+
+v4 vs v3 is exactly 4 surgical changes:
+- Filename in docstring + usage line
+- New v4 explanation block at top
+- "HISTORICAL — INEFFECTIVE" marker added to v3's docstring
+- Two view definitions changed: `/` → `//` in `v_studies_by_decade` and `v_prescience_by_decade`
+
+No other v3 logic touched. View list unchanged. Same arguments, same outputs (other than the corrected decade strings).
+
+### Skill update propagated
+
+`kastner-archive-pipeline` SKILL.md was patched today to reflect this fix:
+- Quick-reference table now lists `02_build_data_layer_v4.py` (not v2) with a one-line summary of the v3 → v4 bug
+- Phase 5 references rewritten from `nomic-embed-text-v2-moe` to `bge-m3` (1024-dim) — that was a separate staleness issue discovered while preparing the Phase 3-6 launch
+- All 9 references to `02_build_data_layer_v2.py` updated to `_v4.py`
+- Skill saved via `save_custom_skill` (skill_id `fe5dc1e1-e51d-4f60-88e7-4d2651afa18b`, update not create)
+
+### Lesson for the forever-archive (didactic)
+
+This is the **fourth** time in two months that an assumption about a SQL/data-tool's operator semantics produced an artifact that looked correct but was provably wrong. The pattern:
+
+1. Author writes a transformation with a strategy that's correct in their mental model
+2. The tool silently coerces types in a way that violates the mental model
+3. The output is "shaped right" — same column names, similar values — so casual inspection passes
+4. The bug is only caught when someone counts/queries the resulting structure with an independent verification
+
+**Mitigation for the pre-flight checklist** (kastner-archive-pipeline skill): when a view definition does arithmetic, **always verify the operand and result types with `typeof()` before trusting the operator**. This would have caught the bug in v3 before it shipped.
+
+### Cross-references
+
+- Companion entry today: `decisions_log_entry_2026_05_31_scripts_dirs_v1.md` (the scripts-directory split question, deferred to §11j)
+- Prior related lesson: `decisions_log_entry_2026_05_27_stale_embeddings_v1.md` (if exists; same class of "plausible artifact, provably wrong" failure)
+- WORKLIST: §11a closed by this fix; §11k candidate (decade distribution sanity) noted but not added pending Pete's call
+- Skill updated: `kastner-archive-pipeline` (v6 → v7 of the skill, 2026-05-31)
+
+---
+
+*Status: v4 verified clean and shipped. EOD batch commit will include the v4 script, this decisions log entry, the scripts-directory entry, the updated WORKLIST, and (depending on Phases 3-6 outcome) the refreshed wiki pages + embeddings + scaffolding.*
+
+---
+
+## 2026-05-31 — Phase 5 v2 → v3 schema migration (Gotcha 9 codified)
+
+**TL;DR**: Phase 5 v2 wrote `embeddings.parquet` with schema `(path, slug, embedding, dim)`. The consumer `kw_ask.py` expects `(page_path, page_type, slug, title, vector, dim)`. After the unattended 4-phase chain completed at 12:23 EDT, `kw ask "what is the shape of the Kastner archive"` crashed with `BinderError: Referenced column "vector" not found`. Resolution: built `05_compute_embeddings_v3.py` to match the consumer contract exactly. Re-ran Phase 5 v3 (16m 55s for 10,301 pages, bge-m3, no Phases 1-4 re-run needed). `kw_ask` now executes cleanly. **Pete denied the v3 push the first time** because the agent proposed shipping without first grepping `kw_ask.py` to verify column references — this is now Gotcha 9 ("producer/consumer schema drift") + pre-flight checklist item 16 ("creators must verify with consumers before committing contractual code") in the `kastner-archive-pipeline` skill.
+
+### What happened (in time order)
+
+**09:06 EDT** — Pete launched the unattended Phase 3-6 chain against `~/Repos/kastner-aberdeen-wiki/` after the morning's Phase 1+2 v4 run came back clean (shape: 1434/23605/3207/4312/1434/6/124).
+
+**12:05 EDT** — Phase 3 (wiki generation) completed in 2h 59m — far longer than the skill's documented "several minutes". Skill time-budget bumped to "up to 180 min" (separate pipeline-skill edit, same session).
+
+**12:23 EDT** — Phase 5 (embeddings) completed in 17m 42s for 10,301 pages. Phase 6 (scaffolding) under 1 second. All four phases reported success.
+
+**12:25 EDT** — Pete ran the validation: `kw ask "what is the shape of the Kastner archive"`. Crash:
+
+```
+duckdb.duckdb.BinderError: Binder Error: Referenced column "vector" not found in FROM clause!
+Candidate bindings: "embedding"
+LINE 1: ... vector AS query_vector FROM emb WHERE page_path = ...
+```
+
+The Phase 5 v2 parquet had column `embedding`; `kw_ask.py` line 67 reads `vector`. Column-name mismatch at the producer/consumer boundary.
+
+### Root cause
+
+`05_compute_embeddings_v2.py` was written when the wiki used a simpler schema:
+- `path` (no underscore) for the page path
+- `embedding` for the vector
+- No `page_type`, no `title` columns
+
+`kw_ask.py` (the consumer, written later) was updated to read a richer schema:
+- `page_path` (with underscore) — used at lines 65, 87, 107
+- `page_type` — used at lines 65, 73, 75, 77, 87 (filters by `page_type IN ('study','theme','...')`)
+- `title` — used at lines 65, 87 (rendered in citation lines)
+- `vector` — used at lines 65, 67, 82 (the embedding column name)
+- `slug` — unchanged from v2
+- `dim` — unchanged from v2
+
+Neither v2 nor `kw_ask.py` had a contract check between them. The drift was invisible until the embeddings.parquet was actually queried.
+
+### Path B — fix the producer
+
+Two paths were considered:
+
+| Path | Description | Cost |
+|---|---|---|
+| A | Patch `kw_ask.py` to read v2's schema (`path`→`page_path`, `embedding`→`vector`) | Low one-time effort, but locks consumer to producer's stale schema; every future v6/v7 producer has to match v2 |
+| B | Build `05_compute_embeddings_v3.py` matching kw_ask.py's contract; rerun Phase 5 only (~17 min) | More clock time, fewer future credits, contract aligned at the producer (the right place) |
+
+Pete chose B: "Path B it is. More clock, fewer credits."
+
+### What v3 emits (the contractual schema)
+
+```
+page_path  varchar    (was: path)
+page_type  varchar    (new — parsed from frontmatter `page_type:` field)
+slug       varchar    (unchanged)
+title      varchar    (new — parsed from frontmatter `title:` field, or first H1 fallback)
+vector     double[]   (was: embedding)
+dim        bigint     (unchanged)
+```
+
+Frontmatter parsing: every wiki page has YAML frontmatter with `title:` and `page_type:`. v3 extracts both with a 4-line regex per page. Frontmatter coverage on the v1.6 corpus: 10301/10301 for both fields (100%).
+
+### Contract verification (Gotcha 9 — the mandatory pre-flight step)
+
+After Pete denied the first push attempt, the agent ran `grep -n 'page_path\|page_type\|slug\|title\|vector\|tier' /Users/scott/Repos/kastner-aberdeen-wiki/scripts/kw_ask.py` and built this table:
+
+| Consumer column | kw_ask.py reads at lines | v3 emits? |
+|---|---|---|
+| `page_path` | 65, 87, 107 | ✓ |
+| `page_type` | 65, 73, 75, 77, 87 | ✓ |
+| `slug` | 65, 87 | ✓ |
+| `title` | 65, 87 | ✓ |
+| `vector` | 65, 67, 82 | ✓ |
+| `tier` | only line 17-18 docstring; **never** referenced in executable code | safely omitted |
+
+Path contract was also verified: `kw_ask.py` line 35 reads `ROOT / "data" / "embeddings.parquet"`; v3 writes to `Path(wiki) / "data" / "embeddings.parquet"`. Both use `data/` (no underscore).
+
+### v3 run result
+
+```
+$ time python3 scripts/build/05_compute_embeddings_v3.py --wiki ~/Repos/kastner-aberdeen-wiki
+Embedding 10301 pages using bge-m3...
+  Frontmatter coverage: title=10301/10301, page_type=10301/10301
+  [100/10301] 10.7s elapsed
+  ...
+  [10300/10301] 1013.0s elapsed
+Wrote /Users/scott/Repos/kastner-aberdeen-wiki/data/embeddings.parquet — 10301 rows
+Phase 5 complete.
+
+real    16m55.154s
+user    0m16.765s
+sys     0m5.200s
+```
+
+Post-run schema sanity:
+
+```
+$ duckdb -c "DESCRIBE SELECT * FROM '/Users/scott/Repos/kastner-aberdeen-wiki/data/embeddings.parquet' LIMIT 0;"
+page_path  varchar
+page_type  varchar
+slug       varchar
+title      varchar
+vector     double[]
+dim        bigint
+```
+
+Contract closed.
+
+### kw_ask validation (Phase 5 / v1.6 §11a closure)
+
+```
+$ kw ask "what is the shape of the Kastner archive"
+[kw ask] retrieve: 1601 ms — synthesizing…
+[answer with 6 sources cited, score 0.547 top hit on 'kastner-core-arguments-framework']
+[kw ask] filter: all, k=6, model=qwen3.5:27b-mlx, think=off
+```
+
+No BinderError. Retrieval working. Sources cited. Phase 5 / §11a CLOSED.
+
+**Note on content drift**: The LLM's answers cited stale numbers (915 studies, 19,175 obs, 2,537 technologies) drawn from the body of `studies/study-kastner-technology-breadth-memoir-2026.md` lines 27/35/39. These are hard-coded prose values inside a study page, not aggregate counts. The aggregate index pages (`_index.md`, etc.) correctly show v1.6 numbers (1434/23605/3207/4312/124). This content drift is a separate, pre-existing issue from the Phase 5 schema fix and is logged as v1.7 backlog (§11k memoir prose, §11l _prescient.md total line).
+
+### Gotcha 9 added to `kastner-archive-pipeline` skill
+
+Section title: **"Gotcha 9 — Producer/consumer schema drift at the parquet boundary"**
+
+Mandatory rule:
+> **Creators must verify with consumers before committing contractual code.**
+>
+> When a producer script writes a file consumed by another script (parquet, CSV, JSON), the producer's column names, paths, and types form a contract. Before shipping any producer revision, grep the consumer(s) for every column reference and confirm the producer emits each one. The grep + alignment table is mandatory; visual inspection is not enough.
+
+Pre-flight checklist item 16:
+> Have I grepped every downstream consumer of this artifact for the columns/keys it reads, and produced a name-by-name alignment table?
+
+### Files changed in v1.6 EOD batch commit
+
+- `scripts/build/05_compute_embeddings_v3.py` — NEW (189 lines, sha256 `a4359b58...0a34e0d`)
+- `scripts/build/05_compute_embeddings_v2.py` — KEPT (forensic reference; do not delete)
+- `kastner-archive-pipeline` skill — UPDATED in 4 places (v3→v4 Phase 2 refs, bge-m3 model name, time budgets, Gotcha 9 + item 16)
+
+### Open questions
+
+None for Phase 5 itself; all closed. The content-drift items (memoir prose, _prescient.md aggregate line) are v1.7 backlog.
+
+### Cross-references
+
+- WORKLIST_2026_05_31.md §11a (Phase 5 closure)
+- `kastner-archive-pipeline` skill Gotcha 9 + pre-flight item 16
+- Prior decisions log entry: 2026-05-31 decade-bug (Phase 2 v3→v4)

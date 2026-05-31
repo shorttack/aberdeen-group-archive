@@ -1,7 +1,7 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-30 PM (Pass C cloud scoring run completed — 3,761 obs scored across 492 studies via sonar-reasoning-pro + claude-sonnet-4.6 pilot; 369 [DEFERRED] studies rolled up via Rule A into 18 high / 54 medium / 200 low / 97 not-applicable; new evidence file `_master_prescience_scores.csv` (3,761 rows × 11 cols) committed to masters; studies-master post-rollup: 489 high / 346 not-applicable / 325 medium / 272 low / 1 [DEFERRED] / 1 NULL; Phases 1+2 rebuilt against `~/Desktop/kastner_wiki/`, Phase 3 in flight when Pete walked away)
-**Current ship state:** **v1.5.0 released 2026-05-29** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki` (Zenodo DOIs pending webhook fire). Wiki HEAD: `kw_note v4` (commit `20e9143c`). Archive HEAD: `roll_up_prescience_v3.py` (commit `5b2e88cb`). 1434/1434 studies have pub_year; **492/1434 prescience-scored via Pass C cloud (sonar-reasoning-pro + claude-sonnet-4.6)** — rolled up; **489 studies high prescience operationally** (`study_prescience_enum`); 124 high via obs-evidence layer (`v_studies_with_high_prescience`); bge-m3:latest is the canonical embedding model.
+**Last updated:** 2026-05-31 PM (v1.6.0 EOD prep — Phase 2 v4 decade-bug fix + Phase 5 v3 schema-contract fix + v1.6 README/Release prep)
+**Current ship state:** **v1.6 EOD batch commit pending tonight** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki`. Phase 1+2 v4 ran clean against `~/Repos/kastner-aberdeen-wiki/` (shape: 1434/23605/3207/4312/1434/6/124). Phase 3-6 ran 09:06–12:23 EDT. Phase 5 v2 wrote bad schema; rebuilt as v3 (page_path/page_type/slug/title/vector/dim contract); re-ran in 16m 55s; `kw ask` now passes (Gotcha 7 + Gotcha 9 codified). 1434/1434 studies have pub_year; **492/1434 prescience-scored via Pass C cloud (sonar-reasoning-pro + claude-sonnet-4.6)** — rolled up; **489 studies high prescience operationally** (`study_prescience_enum`); **124 high via obs-evidence layer** (`v_studies_with_high_prescience`); bge-m3:latest is the canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
 
@@ -14,9 +14,11 @@ How to use:
 
 ## Next up
 
-- [ ] **Wait for Phase 3 to complete on Pete's Mac** (tier-1 LLM regen for 124 studies + 200 entities + 150 techs — ETA 30-90 min from 17:48 EDT start). Then run Phases 4-6 (`04_generate_indices_v2.py`, `05_compute_embeddings_v2.py`, `06_emit_scaffolding_v1.py`) to refresh wiki pages, embeddings, and scaffolding.
-- [ ] **EOD batch commit to `shorttack/aberdeen-group-archive`** (pending Pete's go-ahead this evening). Files staged: `_master_studies.csv` (updated, 1434×16), `_master_prescience_scores.csv` (new, 3761×11), `_rollup_v3_audit_20260530T212525Z.csv`, `prescience_scores_pass_c_cloud_v1.csv`, `logs/pass_c_cloud_v1_run_report.md`, `logs/pass_c_cloud_v1_failures.jsonl`, `WORKLIST.md`, `_decisions_log.md` (append). Backup tree: `archive_masters_pre_rollup_v3_20260530T212525Z/_master_studies.csv`. See `commit_plan_2026_05_30_v1.md` for the exact Git Data API recipe.
-- [ ] **EOD batch commit to `shorttack/kastner-aberdeen-wiki`** — deferred until Phase 1+2 are re-run against `~/Repos/kastner-aberdeen-wiki/` per v1.6 §11 (today's rebuild ran against the deprecated `~/Desktop/kastner_wiki/`). Once §11 closes, ship refreshed parquets + DB + wiki pages + embeddings + scaffolding.
+- [x] **Catch `~/Repos/kastner-aberdeen-wiki/` clone up to `origin/main`** — DONE 2026-05-31 AM. HEAD now `8c828aa2` (pulled 4 commits including this morning's `refresh_data_layer.py` salvage). Two stashes pending review: `stash@{0}` (pre-v1.6-pull embeddings diff + DEC note) and `stash@{1}` (pre-rebase 2026-05-28, unexamined).
+- [x] **Re-run Phase 1+2 against `~/Repos/kastner-aberdeen-wiki/`** (v1.6 §11a) — DONE 2026-05-31. Phase 1+2 v4 (decade-bug fix via `//` integer division) ran clean. Shape verified: studies 1434, observations 23605, entities 3207, technologies 4312, decade-row 1434, 6 decades, high-prescience 124.
+- [x] **Phases 3-6 against `~/Repos/`** (v1.6 §11b) — DONE 2026-05-31. Phase 3: 2h 59m (09:06–12:05); Phase 4: 1 sec; Phase 5 v2 wrote bad schema; Phase 5 v3 re-run 16m 55s (12:25–12:42) emitted correct contract; Phase 6: <1 sec. `kw ask` validated against fresh embeddings.parquet (no BinderError; 6-source citations; bge-m3 retrieval times 465-1601 ms).
+- [ ] **EOD batch commit + v1.6 release** — IN PROGRESS tonight. Archive repo: README v1.6 + Phase 2 v4 + Phase 5 v3 + WORKLIST + _decisions_log (3 appended entries). Wiki repo: README v1.6. Then tag `v1.6` + `gh release create v1.6` on Mac for both repos using `/tmp/v1_6_release_body.md`.
+- [ ] **Decide fate of `~/Desktop/kastner_wiki/`** after v1.6.0 ships — recommended deletion (2,845 iCloud collision files; `.git` permission errors; unrecoverable as a working tree). Log decision in `_decisions_log.md` before any `rm -rf`.
 - [ ] Cron `2e191f67` will auto-delete the abandoned v1 quarantine on **2026-06-05 09:00 EDT** — no action needed.
 
 ---
@@ -150,23 +152,27 @@ _(Unchanged from prior worklist — five pages. The prescience-related narrative
 
 ## v1.6 candidates added 2026-05-30 (Pass C cloud session)
 
-### 11a. Re-run Phase 1+2 against canonical wiki (`~/Repos/kastner-aberdeen-wiki/`)
+### 11a. Re-run Phase 1+2 against canonical wiki (`~/Repos/kastner-aberdeen-wiki/`) — ✅ SHIPPED 2026-05-31
 
-Today's Phase 1+2 rebuild ran against `~/Desktop/kastner_wiki/` (the deprecated path). The canonical layout decision (2026-05-28) names `~/Repos/kastner-aberdeen-wiki/` as the live working wiki. Until the canonical DuckDB is rebuilt, Pete's `kw ask` queries against `~/Repos/` return pre-Pass-C answers.
+DONE 2026-05-31. Phase 2 v3 had a decade-bucket bug (DuckDB `/` on INTEGER returns DOUBLE, breaking the `1990s` etc. string concatenation). Built v4 with `//` integer division; ran clean. Shape audit:
 
-- [ ] Re-run `01_load_csvs_v2.py --archive ~/Desktop/Archive/archive_masters --wiki ~/Repos/kastner-aberdeen-wiki` and `02_build_data_layer_v2.py --wiki ~/Repos/kastner-aberdeen-wiki`.
-- [ ] Confirm shape audit against `~/Repos/.../db/kastner.duckdb` matches today's `~/Desktop/kastner_wiki/db/kastner.duckdb` shape (124 high-prescience-evidence; 489 high-operational; 492 with prescience scores).
-- [ ] Re-run Phases 3-6 against `~/Repos/` and commit the resulting wiki snapshot to `shorttack/kastner-aberdeen-wiki`.
+| Master | Rows |
+|---|---:|
+| studies | 1434 |
+| observations | 23605 |
+| entities | 3207 |
+| technologies | 4312 |
+| v_studies_by_decade (rows) | 1434 |
+| distinct decades | 6 |
+| high-prescience (P_max ≥ 4) | 124 |
 
-### 11b. Complete Phases 3-6 (vault, indices, embeddings, scaffolding)
+v4 ships in tonight's EOD batch commit to `shorttack/aberdeen-group-archive`.
 
-In-flight when session ended 2026-05-30 PM.
+### 11b. Complete Phases 3-6 (vault, indices, embeddings, scaffolding) — ✅ SHIPPED 2026-05-31
 
-- [ ] Phase 3 (`03_generate_vault_v2.py`) — tier-1 regen for 124 studies + 200 entities + 150 techs. Started 17:47 EDT; expected ~30-90 min for entity + tech tier-1 generation; small final flush. Pete to confirm completion when he returns this evening.
-- [ ] Phase 4 (`04_generate_indices_v2.py`) — indices, Bases, Dataview. <30 sec.
-- [ ] Phase 5 (`05_compute_embeddings_v2.py`) — re-embed with bge-m3:latest. ~17 min. **Critical**: do NOT run against `~/Desktop/kastner_wiki/` (iCloud trap). If running today's wiki forward, mitigate per `kastner-archive-pipeline` Workflow C Step 5; or defer until §11a relocates to `~/Repos/`.
-- [ ] Phase 6 (`06_emit_scaffolding_v1.py`) — refresh README, AGENTS.md, chat-starter.md with new counts (489 high / 492 scored / 124 evidence-derived). <30 sec.
-- [ ] After Phase 6: validate `kw ask "what is the shape of the Kastner archive"` returns the updated counts (Gotcha 7 check).
+DONE 2026-05-31. Unattended chain launched 09:06 EDT with caffeinate. Phase 5 v2 wrote the wrong parquet schema (`path, slug, embedding, dim`) and crashed `kw_ask.py` with `BinderError: column "vector" not found`. Built Phase 5 v3 to match the kw_ask consumer contract exactly (`page_path, page_type, slug, title, vector, dim`); re-ran in 16m 55s for 10,301 pages; bge-m3; 100% frontmatter coverage. Phase 6 complete. **`kw ask` validates clean** — no BinderError, 0.547+ top-hit retrieval scores, 6-source citations. v3 ships in tonight's EOD batch commit.
+
+Gotcha 9 (producer/consumer schema drift) + pre-flight item 16 ("creators must verify with consumers before committing contractual code") added to `kastner-archive-pipeline` skill from this incident.
 
 ### 11c. Hand-spot-check the 18 new "high"-prescience studies (small-n cohort)
 
@@ -217,6 +223,29 @@ The skill's "Expected baseline as of 2026-05-27" block still cites `high_prescie
 Cosmetic. `datetime.utcnow()` is deprecated in Python 3.12+; replace with `datetime.now(datetime.UTC)`. Batch with the next pipeline edit.
 
 - [ ] Bump to `roll_up_prescience_v4.py`. Behavior unchanged.
+
+### 11j. Resolve dual scripts directories (~/Desktop/Archive/aberdeen-group-archive/scripts/build/ vs /Archive/scripts/)
+
+Raised 2026-05-31. The archive repo has `scripts/build/` (versioned build scripts: 01_load_csvs through 06_emit_scaffolding). Pete's standing rule says "I prefer scripts at /Archive/scripts" which currently holds operational scripts (kw_note, kw_ask, semantic_search, verify, refresh_data_layer, reembed, roll_up_prescience). Two directories with overlapping intent.
+
+- [ ] Decide canonical home for each script type: build vs. operational vs. one-off diagnostic.
+- [ ] Either consolidate into one directory or document the split (e.g., `scripts/build/` for pipeline phases, `scripts/operational/` for daily tools) in `AGENTS.md`.
+- [ ] See `decisions_log_entry_2026_05_31_scripts_dirs_v1.md` in workspace.
+
+### 11k. Refresh memoir study prose with v1.6 counts
+
+Discovered 2026-05-31 during Phase 5 v3 validation. `wiki/studies/study-kastner-technology-breadth-memoir-2026.md` line 27/35/39 hard-codes "915 studies", "2,537 technologies", "19,175 observations" — these were v1.4-era numbers. Phase 3 doesn't rewrite study bodies (only aggregate index pages), so these stale numbers persist and surface in `kw ask` retrieval whenever the user queries "shape of the archive" or similar.
+
+- [ ] Either update the memoir prose in the source markdown to v1.6 numbers (1434 studies, 4312 technologies, 23605 observations) OR add a one-line `Last regen: <date>; counts may lag` footer to the rendered page so the LLM has a freshness signal.
+- [ ] Prefer option 2 (footer) — lower edit cost, transparently signals lag.
+
+### 11l. Add total count to `_prescient.md`
+
+Discovered 2026-05-31 during Phase 5 v3 validation. The Phase 3-generated `_prescient.md` page lists the top 50 high-prescience studies in a markdown table but the prose never states "there are 124 studies with prescience_max ≥ 4". `kw ask "how many high prescience studies are there"` correctly reports "no total stated" because the retrieved chunk lacks that sentence.
+
+- [ ] Patch Phase 3's `_prescient.md` generator template to prepend a one-line summary like:
+  > **Total: 124 studies with prescience_max ≥ 4** (as of build 2026-05-31).
+- [ ] Will then surface correctly in `kw ask` retrieval.
 
 ---
 
@@ -290,26 +319,29 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-05-30 PM — Pass C cloud)
+## Done this session (2026-05-31 — v1.6.0 migration + Phase 2/5 fixes + v1.6 release prep)
 
 _(End-of-day commit clears this section)_
 
-### Pass C cloud-scoring run completed (2026-05-30 PM)
+### Pipeline + script fixes (2026-05-31)
 
-- **Cloud scoring run completed across 3,761 observations / 492 studies.** Models: `sonar-reasoning-pro` (3,661 obs) + `claude-sonnet-4.6` (100 obs cross-model pilot). Score distribution: -1 prefilter=795, 0=1,717, 1=8, 2=62, 3=349, 4=764, 5=66. Wall time ~14 hrs across two relaunches. API cost ~$24 of $49.99 monthly cap. 99.7% parse rate; 11 failures (JSONDecodeError, deferred to v1.6 §11e). Bimodal distribution (0s + 4s dominate) consistent across both models.
-- **Canonical prescience architecture confirmed** mid-session via `readme_prescience.md` (root of `aberdeen-group-archive`, Peter S. Kastner, February 2026): operational study-level (`high`/`medium`/`low`/`not-applicable` in `_master_studies.csv`) + evidence-layer (`_master_observations.csv` viability-prediction + actual-outcome joined via `_prediction_outcome_links.csv`). Today's per-obs cloud-scoring artifact extends the evidence layer as a new first-class file `_master_prescience_scores.csv` (3,761 rows × 11 cols). Both layers are queryable; no production tables introduced.
-- **Pete's science principle codified**: researchers must be able to take the public archive and derive their own prescience weights with their own aggregation rule, deterministically. `roll_up_prescience_v*.py` is the reference implementation; the evidence CSV is the input; forks are encouraged.
-- **Rule A (mean-threshold rollup) adopted as canonical**: for each study, drop -1 prefilter scores; if no scores remain → `not-applicable`; mean ≥ 3.5 → `high`; mean ≥ 2.0 → `medium`; else → `low`. Rationale is deterministic templated text (mean, n_used, distribution). Confidence ignored (reserved for future Rule C).
-- **`roll_up_prescience_v3.py` shipped** to `shorttack/aberdeen-group-archive/scripts/roll_up_prescience_v3.py` (sha `5b2e88cb`) via script-delivery protocol. 8434 bytes.
-- **`_master_studies.csv` updated**: 369 [DEFERRED] studies resolved to 18 high / 54 medium / 200 low / 97 not-applicable. 1434 rows in / 1434 rows out; 16 cols preserved (QUOTE_ALL). Backup at `_master_studies.csv.bak_rollup_v3_20260530T212525Z`. Audit at `_rollup_v3_audit_20260530T212525Z.csv` (369 rows).
-- **Studies-master post-rollup distribution**: high=489 (+18) / not-applicable=346 (+97) / medium=325 (+54) / low=272 (+200) / [DEFERRED]=1 (-369) / NULL=1.
-- **Phase 1+2 rebuild against `~/Desktop/kastner_wiki/`** — clean. `_master_prescience_scores.csv` was already wired into `01_load_csvs_v2.py` (prior session laid the groundwork). 27 v_* views regenerated. `v_high_holistic_prescience: 489` matches studies-master exactly. `v_studies_with_high_prescience: 124` (was 109; +15 obs-evidence-derived). **Carry-forward**: Phase 1+2 against `~/Repos/` (canonical) deferred to v1.6 §11a.
-- **Phase 3 in flight when session ended**: tier-1 regen for 124 studies + 200 entities + 150 techs. Started 17:47 EDT.
-- **Shape audit before / after rebuild**: studies 1434 (unchanged), observations 23605 (unchanged), entities 3207 (unchanged), technologies 4312 (unchanged), pub_year-resolved 1434 (unchanged), decades_covered 38 (v_studies_by_decade bug carries forward — fixed in `02_build_data_layer_v3.py` but not yet pulled), high_prescience_studies 109 → 124 (+15).
-- **Operating profile prompt received from Pete** mid-session and saved to memory across three categories (style, archive principles, naming/workflow rules). Backlog item §11f: commit a copy to `aberdeen-group-archive/OPERATING_PROFILE.md`.
-- **Process lessons captured** (5 total) in today's `_decisions_log.md` entry — including the "read the canonical doc before architecting" lesson (would have prevented an early two-table proposal), the "Phase 1 was already wired" lesson (read pipeline scripts before adding masters), the science-principle artifact-classification lesson, the OPERATING_PROFILE provenance lesson, and the "bash pseudocode shouldn't look like bash" lesson (Python pseudo pasted into Pete's shell cascaded errors).
-- **Decisions log entry drafted**: `decisions_log_entry_2026_05_30_pass_c_cloud_v1.md` (workspace; not yet committed). 225 lines; full session shape, both shape audits, all artifacts listed, lessons + backlog appended.
-- **EOD batch commit pending Pete's go-ahead** — files staged in `commit_plan_2026_05_30_v1.md`.
+- **Phase 2 v3 decade-bug → v4**: DuckDB `/` on INTEGER returns DOUBLE (`(year/10)*10` produced `1990.0` instead of `1990`); broke `1990s` decade string concat. Rewrote v4 to use `//` integer division. Decisions log entry: `decisions_log_entry_2026_05_31_decade_bug_v1.md`. Shipped in EOD batch commit.
+- **Phase 5 v2 schema drift → v3**: Producer wrote `(path, slug, embedding, dim)`; consumer `kw_ask.py` reads `(page_path, page_type, slug, title, vector, dim)`. BinderError surfaced at 12:25 EDT after the unattended chain finished. Built v3 with full 6-column contract + frontmatter parsing; re-ran Phase 5 in 16m 55s. `kw ask` now validates clean. Decisions log entry: `decisions_log_entry_2026_05_31_phase5_v2_to_v3_v1.md`.
+- **Gotcha 9 codified**: "Creators must verify with consumers before committing contractual code" — added to `kastner-archive-pipeline` skill as Gotcha 9 + pre-flight checklist item 16. Pete denied an initial v3 push because the agent hadn't grepped the consumer to verify column references; the empirical contract-verification table is now mandatory.
+
+### v1.6 release artifacts (2026-05-31 PM)
+
+- **Canonical v1.6 description** drafted as single source of truth (`v1_6_canonical_description.md` in workspace). Same 3-line text reused verbatim in archive README, wiki README, and both GitHub Release bodies.
+- **Archive README rewrite**: deleted the duplicate metrics table at top (formerly lines 11-20) and replaced the stale "v1.4 release notes" paragraph with the v1.6 lead. Eliminates 8 of the ~30 per-corpus-update edit points in the README body.
+- **Wiki README rewrite**: H1 bumped from v1.5 to v1.6; v1.6 lead inserted after the Local-first paragraph; two new "What's new in v1.6" bullets (full 1,434-study corpus, Phase 5 v3 schema).
+- **Release block body** prepared (`v1_6_release_body.md`) with title line + canonical paragraph. Same body for both repos.
+
+### Other (2026-05-31)
+
+- Discovered v1.6 corpus content drift: memoir study prose hard-codes v1.4 numbers (915 studies, 19,175 obs); `_prescient.md` shows top-50 table but no total. Added as §11k and §11l backlog items.
+- Scripts-dirs split surfaced as §11j backlog item (`scripts/build/` vs `/Archive/scripts/`).
+- `kastner-archive-pipeline` skill updated in 4 places: v3→v4 Phase 2 references; nomic-embed → bge-m3; Phase 3 timing budget (up to 180 min); Gotcha 9 + pre-flight item 16.
+- Mirror rule A patched into `kastner-new-day`, `kastner-github`, and `kastner-archive-pipeline` skills.
 
 ---
 

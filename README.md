@@ -8,18 +8,11 @@ Every study is packaged as a self-contained [Frictionless Data Package](https://
 
 Kastner had the prescience to save much of his work in digital form; about one-third has survived. It is all in this "Kastner Research Archive".
 
-| Metric | Count |
-|---|---:|
-| Total studies | **1,434** |
-| Total observations | **23,605** |
-| Master entity rows | **3,207** |
-| Master technology rows | **4,312** |
-| Unique entities (deduped cache) | **3,300** |
-| Unique technologies (deduped cache) | **4,371** |
-| Date range | 1979 – 2026 |
-| Audit failures (Layer A / B / C) | **0 / 0 / 0** |
+**v1.6 — "full 1,400+ study content"** (2026-05-31)
 
-**v1.4 release notes:** This release adds **490 new studies** from the May 2026 weekend ingest, including five bucket-classifier passes (A–E) and Mode 2 (existing-archive re-evaluation). It also lands two data-hygiene fixes: a case-collision merge across the entity master and a `tech_id="java"` carve-out that resolved a PDA-misfile collision (see [`CHANGELOG.md`](./CHANGELOG.md) and [`_decisions_log.md`](./_decisions_log.md)). New: a companion **Kastner Aberdeen Wiki** (Obsidian + DuckDB + Parquet) built directly from these masters — see "Companion wiki" below.
+The current corpus: **1,434 studies · 23,605 observations · 3,207 entity rows · 4,312 technology rows · 124 high-prescience studies** (Pass C, `prescience_max ≥ 4`), spanning **1979–2026**.
+
+These are the live counts. Per-subdirectory and per-section numbers elsewhere may lag the masters — when in doubt, `_master_*.csv` is truth.
 
 ---
 

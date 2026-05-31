@@ -1065,3 +1065,228 @@ To `shorttack/kastner-aberdeen-wiki` (this commit):
 Not shipped (intentionally held local on Pete's Mac):
 - The Phase 1-6 working-tree changes in `~/Repos/kastner-aberdeen-wiki/` (refreshed parquets, db, 10,246 wiki pages) — waiting on the v1.6 §8 policy decision
 - `kw_ask_v3.py.bak` (Pete's local rollback safety)
+
+## 2026-05-30 — Pass C cloud scoring run completed + canonical prescience reconciliation + studies-master rollup
+
+**Session shape:** End of the Pass C arc. The 35b-mlx local-model calibration was abandoned; cloud scoring (sonar-reasoning-pro + claude-sonnet-4.6 pilot) ran to completion across 3,761 observations / 492 studies. Surfaced a mid-day architectural mismatch (today's per-obs 0-5 scoring vs. canonical `readme_prescience.md`'s study-level high/med/low), resolved by adopting a deterministic rollup rule that preserves both layers as queryable artifacts. Studies-master prescience for 369 [DEFERRED] studies now resolved.
+
+### Decisions made
+
+#### 1. Canonical prescience architecture confirmed; today's work reconciled into it
+
+Mid-session discovery: `readme_prescience.md` (root of `aberdeen-group-archive`, Peter S. Kastner, February 2026) specifies prescience as a **study-level** rating (`high` / `medium` / `low` / `not-applicable`) in `studies.csv` `prescience` column with paired `prescience_rationale`. Evidence basis is `viability-prediction` / `actual-outcome` observation pairs joined via `_prediction_outcome_links.csv` (3,347 rows, already in repo from prior Pass A v2 work).
+
+Pete's standing principle: researchers must be able to take the public archive, derive their own prescience weights with their own aggregation rule, and re-run scoring deterministically.
+
+Resolution: **the canonical study-level layer and today's per-obs evidence layer coexist as first-class committed artifacts.** No new production tables introduced; we extended what already exists:
+
+| Layer | Artifact | What it answers |
+|---|---|---|
+| **Operational** (canonical) | `_master_studies.csv` `prescience` column (high/med/low/n-a) | "How prescient was this study, by curator/script judgment?" |
+| **Evidence** (Pass C addition) | `_master_prescience_scores.csv` (11 cols, per-obs 0-5 scores + confidence + model + rationale) | "What raw signal supports each study's rating? Can I re-derive with a different rule?" |
+| **Existing evidence** (Pass A v2) | `_prediction_outcome_links.csv` (3,347 rows) | "Which predictions were paired with actual outcomes?" |
+| **Reproducible derivation** | `scripts/roll_up_prescience_v3.py` | "Run rule A; fork to run rule B / C / your own." |
+
+The Phase 1 derived parquets carry both layers through to DuckDB without column collision: `study_prescience_enum` (operational) and `prescience_max` / `prescience_mean` / `prescience_obs_count` (evidence-derived).
+
+#### 2. Rule A (mean threshold) adopted as the canonical rollup
+
+Specification frozen at:
+- For each study in `_master_prescience_scores.csv`:
+  - `obs_used = scores where prescience_score != -1` (drop prefilter rejections)
+  - If `len(obs_used) == 0` → `not-applicable`, with rationale stating prefilter judgment
+  - Else: `mean = sum(used) / len(used)`
+    - `mean >= 3.5` → `high`
+    - `mean >= 2.0` → `medium`
+    - else → `low`
+- Boundaries are `>=`; mean=3.5 exactly → high, mean=2.0 exactly → medium.
+- Rationale is **deterministic templated text** (mean, n_used, distribution counts) — not LLM-generated, so a researcher re-running the script reproduces verbatim.
+- Confidence column is ignored by rule A. Preserved in the evidence CSV so rule C (confidence-weighted) can be implemented downstream.
+
+Edge-case handling (all-`-1` studies → `not-applicable`, A1 not A2) was Pete's explicit call. Rationale: "I don't like Deferred, and what's to find with all -1's?" Aligns with the canonical doc's `not-applicable` definition ("the document is purely descriptive, historical, or methodological"). 97 of the 492 newly-scored studies landed here — matches Pete's stated expectation that the 469 ingested-in-the-last-cycle studies contained a lot of Aberdeen marketing/historical content that wasn't predictive.
+
+#### 3. Cloud scoring vs. local LLM — decision crystallized
+
+The 35b-mlx local calibration sweep was abandoned mid-week after Pete's "max + API config" insight made cloud scoring economically and operationally viable. Today's run confirmed:
+- **3,661 obs scored by sonar-reasoning-pro** (Perplexity Sonar Pro reasoning model)
+- **100 obs scored by claude-sonnet-4.6** (pilot for cross-model agreement signal)
+- **11 failures** — all `"raw":""` with JSONDecodeError after 3 retries; deferred to a future v6 retry pass
+- **99.7% parse rate**, 0 study orphans, 0 prescience-score-out-of-range
+- **Wall time**: ~14 hours (across two relaunches due to Mac sleep + a TimeoutError mid-run)
+- **API cost**: ~$24 of $49.99 monthly cap
+
+Score distribution (final):
+| score | n |
+|---|---|
+| -1 (prefilter) | 795 |
+| 0 | 1,717 |
+| 1 | 8 |
+| 2 | 62 |
+| 3 | 349 |
+| 4 | 764 |
+| 5 | 66 |
+
+The bimodal shape (0 and 4 dominate) is consistent across both models, suggesting the cloud scorers consistently agreed on what was *not* predictive (the 0 column) and what was *clearly* predictive (the 4 column), with the harder middle ground producing the small 2/3 counts.
+
+### Shape audit — BEFORE rebuild
+
+Against `~/Desktop/kastner_wiki/db/kastner.duckdb`:
+
+```
+studies: 1434
+observations: 23605
+entities: 3207
+technologies: 4312
+studies_with_pub_year: 1434
+decades_covered: 38  ← v_studies_by_decade bug (separate v1.6 §4c item, fixed in 02_build_data_layer_v3.py but not yet pulled)
+high_prescience_studies: 109
+```
+
+### Rollup applied
+
+`roll_up_prescience_v3.py` (sha `5b2e88cb`, in `scripts/`) executed against the 369 [DEFERRED] studies that had Pass C scores:
+
+| Target bucket | Count | Min obs used | Max obs used |
+|---|---|---|---|
+| high | 18 | 1 | 3 |
+| medium | 54 | 1 | 56 |
+| low | 200 | 1 | 88 |
+| not-applicable | 97 | 0 | 0 (all-prefilter) |
+
+`_master_studies.csv` updated; 1,434 rows in / 1,434 rows out; 16 cols preserved. Backup at `_master_studies.csv.bak_rollup_v3_20260530T212525Z`. Audit trail at `_rollup_v3_audit_20260530T212525Z.csv` (369 rows: study_id, old/new prescience, n_total_obs, n_prefilter, n_used, mean, distribution, full rationale).
+
+Studies-master prescience distribution after commit:
+
+| value | count | delta from pre-commit |
+|---|---|---|
+| high | 489 | +18 |
+| not-applicable | 346 | +97 |
+| medium | 325 | +54 |
+| low | 272 | +200 |
+| [DEFERRED] | 1 | -369 |
+| NULL | 1 | unchanged |
+
+The remaining 1 `[DEFERRED]` is a study that was [DEFERRED] in studies-master but had no observations sent to Pass C (likely filtered out earlier in Pass A/B). Worth identifying in a follow-on; not blocking.
+
+### Pipeline execution
+
+**Phase 1** (`01_load_csvs_v2.py`, against `~/Desktop/Archive/archive_masters` → `~/Desktop/kastner_wiki`): clean.
+
+Observation: **Phase 1 already knows about `_master_prescience_scores.csv`** — emits `prescience_scores.parquet` (3,761 rows) and performs its own observation-prescience join + study-level rollup independently of the studies-master prescience column. This validates the two-layer architecture: both layers persist through the derivation step without conflict.
+
+Phase 1 output highlights:
+- `loaded _master_prescience_scores.csv: 3761 rows, 11 cols`
+- `joined prescience to observations — 3761/23605 obs scored`
+- `rolled up obs prescience to studies — 492/1434 studies have ≥1 scored obs`
+- `derived pub_year — 1434/1434 resolved; 0 missing` (v6/v6.1 backfill holds)
+- 12 parquets written; manifest at `~/Desktop/kastner_wiki/build_manifest.json`
+
+**Phase 2** (`02_build_data_layer_v2.py`): clean. 27 v_* views regenerated. Highlights:
+- `v_high_holistic_prescience: 489 rows` — matches the studies-master rollup exactly
+- `v_studies_with_high_prescience: 124 rows` — obs-evidence-derived (up from 109 pre-rebuild; +15 studies lifted by today's scores)
+- `v_holistic_prescience_distribution: 6 rows` — full enum coverage
+- `v_studies_with_prescience: 492 rows` — distinct studies that received Pass C scoring
+- `v_low_confidence_prescience: 876 rows` — obs where scorer confidence was 1-2
+
+**Note: Phase 1+2 were run against `~/Desktop/kastner_wiki/`, NOT the canonical `~/Repos/kastner-aberdeen-wiki/`** established as canonical in the 2026-05-28 decision. This is a divergence from the canonical layout and is flagged as **v1.6 follow-on §11** — Phase 1+2 need to be re-run against `~/Repos/` (or `~/Desktop/kastner_wiki/` formally re-canonicalized) before Phases 3-6 ship to GitHub or the wiki gets re-embedded. Pete's `kw ask` queries against `~/Repos/` will return pre-Pass-C answers until that re-run completes.
+
+### Shape audit — AFTER Phase 1+2 rebuild
+
+Against `~/Desktop/kastner_wiki/db/kastner.duckdb`:
+
+```
+studies: 1434                       (unchanged)
+observations: 23605                 (unchanged)
+entities: 3207                      (unchanged)
+technologies: 4312                  (unchanged)
+studies_with_pub_year: 1434         (unchanged)
+decades_covered: 38                 (unchanged; carry-forward of v_studies_by_decade bug)
+high_prescience_studies: 124        (was 109; +15)
+```
+
+Plus, via the new column name in v_studies:
+
+```
+study_prescience_enum  count
+high                   489
+not-applicable         346
+medium                 325
+low                    272
+[DEFERRED]               1
+NULL                     1
+```
+
+### Pipeline paused at Phase 3
+
+Phase 3 (`03_generate_vault_v2.py`) was kicked off at 17:47 EDT. Output through 17:48 EDT:
+
+```
+Tier-1 sets — studies:124, entities:200, techs:150
+  studies: emitted 1434, tier-1 LLM=124
+```
+
+Then silent — Phase 3 is mid-flight on the entity tier-1 LLM regeneration (200 entity pages × ~5-15s per Ollama call). Estimated remaining: 30-90 minutes for entities + techs tier-1 generation, then small final flush.
+
+The "tier-1 studies: 124" exactly matches `v_studies_with_high_prescience`, confirming tier-1 = high-prescience study pages get LLM regeneration. Once Phase 3 finishes, Phases 4-6 will follow (Phase 4 <30s, Phase 5 ~17 min embeddings, Phase 6 <30s).
+
+**This session ends with Phase 3 still running.** No GitHub commit has landed yet for today's archive-side or wiki-side changes. EOD batch commit deferred to a later session in this evening (or tomorrow) once Phases 3-6 complete and we re-audit.
+
+### Skills updated
+
+None this session. The kastner-archive-pipeline skill's existing Workflow C decision tree correctly routes today's case (prescience backfill → Phases 1-6 required because `kw ask` retrieves affected page bodies). The skill's reference baseline numbers (109 high-prescience) are now superseded by 124 / 489 post-rollup — backlog item to update the skill's "Expected baseline" block at next skill version bump.
+
+### Process lessons captured
+
+1. **Canonical doc reads before architectural decisions.** Mid-day Pete pushed back on a proposed two-layer table architecture with: "sounds like an architecture I rejected as it adds too many production tables to little operational value. Please investigate more. Look at Github where prescience has its own MD." Reading `readme_prescience.md` first would have prevented the proposal. New default: when a domain has its own published spec doc in the repo, read it before architecting.
+
+2. **Phase 1 was already wired for the evidence layer.** I built `_master_prescience_scores.csv` today thinking it was a new artifact, but `01_load_csvs_v2.py` already had the join logic and parquet emission for it. Implies a prior session laid the groundwork — possibly Pete's standing principle (researchers must re-derive) was already designed into Phase 1 before I encountered it. New default: read the active pipeline scripts before adding any new master CSV.
+
+3. **The science principle changes artifact classification.** "Researchers should be able to derive their own weights" is not a nice-to-have — it determines whether the evidence CSV is a working artifact (deletable) or a first-class committed file (forever-archive). Pete's principle elevates `_master_prescience_scores.csv` to the same status as `_prediction_outcome_links.csv`. Both ship to the public repo.
+
+4. **Operating profile prompt received.** Pete delivered a long-form profile prompt mid-session that codifies the working relationship over the long horizon. Saved to memory across three categories (style, archive principles, naming/workflow rules). Backlog item to commit a copy to `aberdeen-group-archive/OPERATING_PROFILE.md` (or fold into `AGENTS.md`) so the framing is durable in the repo, not just in agent memory.
+
+5. **`bash` pseudocode shouldn't look like bash.** Pete pasted my Python-style pseudocode into his bash prompt and got cascade-of-errors syntax messages. Format pseudocode as plainly indented prose or wrap in non-executable fences (e.g., `text` not `bash`). Lesson: be explicit when output is for review-only.
+
+### v1.6 backlog (this session's additions)
+
+| # | Item | Source |
+|---|---|---|
+| 11 | Re-run Phase 1+2 against `~/Repos/kastner-aberdeen-wiki/` (canonical layout) and verify shape matches `~/Desktop/kastner_wiki/` results | Today's work was run against the deprecated path |
+| 12 | Complete Phases 3-6 (vault, indices, embeddings, scaffolding) once Phase 3 finishes; refresh `kw ask` retrieval index | In-flight when session ended |
+| 13 | Hand-spot-check the 18 new "high" prescience studies — small-n cohort (max_used=3), potentially overweighted; candidate gems list for the lessons-learned blog | Audit CSV `_rollup_v3_audit_20260530T212525Z.csv` |
+| 14 | Identify the 1 remaining [DEFERRED] study + the 1 NULL prescience study | Studies-master post-rollup |
+| 15 | Retry the 11 failed Pass C obs (JSONDecodeError after 3 retries; `failures.jsonl` preserved) in a v6 retry script | Pass C run report |
+| 16 | Commit a copy of the operating profile prompt to `aberdeen-group-archive/OPERATING_PROFILE.md` | Today's profile-prompt session |
+| 17 | Update kastner-archive-pipeline skill's "Expected baseline" block (109 → 124 high-prescience; add note about the two-layer prescience schema) | Today's rebuild |
+| 18 | Update `readme_prescience.md` with a §8 "Per-observation evidence layer" subsection documenting `_master_prescience_scores.csv` schema and how rule A relates to it | Today's reconciliation |
+| 19 | Fix `datetime.utcnow()` DeprecationWarning in `roll_up_prescience_v3.py` (use `datetime.now(datetime.UTC)`) — cosmetic, batch with next pipeline edit | Phase 1 cleanup |
+
+### Artifacts shipped in this session (held local; not yet committed to GitHub)
+
+To `shorttack/aberdeen-group-archive` (pending EOD batch commit):
+- `scripts/roll_up_prescience_v3.py` — sha `5b2e88cb`, already in repo (committed during script-delivery protocol)
+- `_master_studies.csv` — 1,434 rows × 16 cols; 369 [DEFERRED] resolved to high/med/low/n-a
+- `_master_prescience_scores.csv` — 3,761 rows × 11 cols (new first-class evidence file)
+- `archive_masters_pre_rollup_v3_20260530T212525Z/_master_studies.csv` — pre-rollup backup
+- `_rollup_v3_audit_20260530T212525Z.csv` — 369 rows of rollup audit trail
+- `prescience_scores_pass_c_cloud_v1.csv` — raw per-obs cloud scoring output (3,762 lines incl header) — primary working file before merge into master
+- `logs/pass_c_cloud_v1_run_report.md` — Pass C run summary (timing, model, cost, failure analysis)
+- `logs/pass_c_cloud_v1_failures.jsonl` — 11 failed obs preserved for future v6 retry
+- `WORKLIST.md` — refreshed (Pass C kickoff item closed; v1.6 §11-19 items added)
+- `_decisions_log.md` — this entry appended
+
+To `shorttack/kastner-aberdeen-wiki` (pending later — Phases 3-6 still in flight):
+- Refreshed parquets + db (post-Phase-2) — once Phase 1+2 re-run against `~/Repos/` per §11
+- Regenerated wiki pages — once Phase 3 completes
+- Refreshed embeddings — once Phase 5 completes
+- Refreshed scaffolding (README, AGENTS.md, chat-starter) — once Phase 6 completes
+
+Already shipped today (per script-delivery protocol):
+- `5b2e88cb` (aberdeen-group-archive): `scripts/roll_up_prescience_v3.py`
+
+### Cost ledger (Pete-side, for transparency)
+
+- Lifetime archive-project Perplexity credits: ~200K (50K gifts + 150K paid)
+- Today's chat session: 36,904 → 36,222 = 682 credits over ~6.75 hours
+- API spend (cloud scoring): ~$24 of the $49.99 monthly cap on the cloud LLM accounts
+- Mac compute: free; Ollama tier-1 regeneration in Phase 3 will consume electricity but no monetary cost

@@ -1,0 +1,11 @@
+{"obs_id": "2004-09010005-f58946-OBS-003", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 5 column 3 (char 92)", "raw": ""}
+{"obs_id": "cm-q2c-vp-3715-aa1364-OBS-008", "rationale": "Parse failed after 3 retries: JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "raw": ""}
+{"obs_id": "cm-q2c-vp-3715-aa1364-OBS-035", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 5 column 16 (char 106)", "raw": ""}
+{"obs_id": "eurowiress-13e05b-OBS-007", "rationale": "Parse failed after 3 retries: JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "raw": ""}
+{"obs_id": "ra-lean-jb-2845-f319f8-OBS-036", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 5 column 16 (char 107)", "raw": ""}
+{"obs_id": "ra-procurementoutsourcing-rs-sb-3100-b7f944-OBS-040", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 2 column 13 (char 14)", "raw": ""}
+{"obs_id": "ra-wan-pb-3854-d0b6ab-OBS-013", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 2 column 13 (char 14)", "raw": ""}
+{"obs_id": "ra-web-site-search-3910-5f9297-OBS-059", "rationale": "Parse failed after 3 retries: JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "raw": ""}
+{"obs_id": "written-intel-consumer-lt-10-5-03-df2e9c-OBS-002", "rationale": "Parse failed after 3 retries: JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "raw": ""}
+{"obs_id": "written-intelitaniummfewp1-1-204e5f-OBS-002", "rationale": "Parse failed after 3 retries: JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "raw": ""}
+{"obs_id": "written-intelitaniummfewp1-1-204e5f-OBS-004", "rationale": "Parse failed after 3 retries: JSONDecodeError: Unterminated string starting at: line 5 column 16 (char 120)", "raw": ""}

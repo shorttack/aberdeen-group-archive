@@ -246,6 +246,37 @@ Closed 2026-06-01 via Phase 4 v3 patch (archive commit `ff73eed5`). Two totals n
 
 ## v1.7 candidates
 
+### 11o. `archive-queue-ingest` skill v2 + `prepare_for_ingest_v3.py` (PDF-routing daily-driver)
+
+Raised 2026-06-01. **Pivoted mid-day** from a markdown-only ingest skill (v1 design) to a PDF-routing daily-driver after Pete corrected the framing: the real ingest queue carries scanned Aberdeen PDFs, and the right skill is one that decides where each incoming PDF goes — public archive (text + CSVs) vs private repo (`kastner-restricted-sources`, PDFs only).
+
+**Architecture (locked):**
+
+- **Two repos, one wall.** `aberdeen-group-archive` (public): TEXT ONLY — markdown studies, master CSVs, decisions log. `kastner-restricted-sources` (private): ALL PDFs at flat `<study_slug>.pdf` layout.
+- **One canonical PDF per study.** No accumulation, no `_superseded/` folder. BETTER copies REPLACE the prior canonical PDF; git history of the private repo is the binary audit.
+- **Four dispositions:** NEW (new study), BETTER (incoming stronger, Pete ACCEPTs), DUPLICATE (SHA match or not stronger), AMBIGUOUS (title fuzzy 0.55-0.75 band → Pete decides).
+- **BETTER heuristic** (ported from v2.2 canonical): more pages OR more embedded XObject images OR ≥30% higher text density.
+- **Two-pass workflow:** Pass 1 `discover_queue` writes `_review_<UTC>.csv` (22 cols); Pete fills `pete_decision` for BETTER/AMBIGUOUS rows; Pass 2 `--apply-review` (dry-run, then `--commit`).
+- **Public archive sticky on BETTER/DUPLICATE.** MD and master CSV are NEVER touched — work already done.
+- **Audit:** one line per disposition in `_decisions_log.md`. No `_supersedes.txt` sidecars.
+- **EOD ship:** TWO repos — PRIVATE first (PDF adds/replacements), then PUBLIC (MDs + master CSV + decisions log + archived review CSV).
+
+**Scope discipline (deferred to other skills):**
+- Pass A/B/C observation extraction → `archival-ingest` v20
+- DOCX/XLSX/EPUB → `archival-ingest` v20
+- Phase 1+2 data-layer rebuild after NEW → `kastner-archive-pipeline` Workflow B
+- Phase 3-6 wiki refresh + embeddings → `kastner-archive-pipeline` Workflow C
+- OCR on scan-only PDFs → out of scope (Pete edits review CSV manually if needed)
+- bge-m3 cosine dedupe → out of scope for v3
+
+- [x] **v1 markdown-only skill scaffolding** — DONE 2026-06-01 morning. Superseded same day by v2 PDF-routing redesign (see decisions log).
+- [x] **`prepare_for_ingest_v3.py` authored** — DONE 2026-06-01 PM. 1346 lines, `ast.parse` passes. Single-queue input, three dispositions, six signals per PDF, SHA-256 fast-path, BETTER heuristic, flat restricted-sources layout. Workspace: `/home/user/workspace/prepare_for_ingest_v3.py`.
+- [x] **Skill v2 rewritten** — DONE 2026-06-01 PM. Overwrites skill_id `0fcc8fbc-b4a4-493a-8605-fa0caf6be5fa` with PDF-routing design wrapping `prepare_for_ingest_v3.py`. Validated via `agentskills validate`.
+- [x] **§11o decisions log entry rewritten** — DONE 2026-06-01 PM. See `decisions_log_entry_2026_06_01_11o_*.md` for full design rationale, signal definitions, threshold values, and the reasoning under each principle.
+- [ ] **EOD ship:** v3 script → `shorttack/aberdeen-group-archive/scripts/prepare_for_ingest_v3.py`; skill v2 → save_custom_skill overwrite; decisions log entry → append to `_decisions_log.md`; WORKLIST diff.
+- [ ] **First live exercise:** drop 2-3 PDFs into `~/Desktop/Archive/_ingest_queue/` and walk Pass 1 → review → Pass 2 dry-run → `--commit`. Validate SHA fast-path against a known DUPLICATE; validate BETTER heuristic against a known higher-res rescan; confirm public archive untouched on BETTER ACCEPT.
+- [ ] Update `kastner-archive-pipeline` cross-skill handoffs to point at `archive-queue-ingest` v2 for daily PDF ingest.
+
 ### 12. Cloud provider wiring for `kw_ask.py`
 
 Currently `--cloud` exits cleanly with a "not available" message (v4 carries forward v3's stub). Wire one provider — Gemini free tier is the lowest-cost entry point. Patches:

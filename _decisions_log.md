@@ -2194,3 +2194,107 @@ This case demonstrates why a hash/mtime auto-resolver would have made the wrong 
 
 EOD batch commit (still pending) will add: 3-5 decisions log entries appended to `_decisions_log.md` + WORKLIST.md mirror.
 
+## 2026-06-01 PM — §11o: `archive-queue-ingest` skill v2 + `prepare_for_ingest_v3.py` (PDF-routing daily-driver)
+
+**Context.** §11o on the v1.7 candidate list was originally framed as "successor to `archival-ingest` v20 (Perplexity-native, markdown-focused)". The v1 skill scaffolding shipped earlier today (2026-06-01) implemented exactly that — a markdown-only queue ingester with content-hash + study_id + title-slug dedupe.
+
+That v1 design was **wrong for the actual problem**. Pete corrected mid-session: the real ingest queue carries **PDFs** (scanned Aberdeen reports, copyrighted), not markdown. The right design is a PDF router that decides where each incoming PDF goes — public archive (text + CSVs) vs private repo (`kastner-restricted-sources`, PDFs only) — and lets Pete make the call on "is this a better version?" via a review-CSV roundtrip.
+
+**Decision.** Replace v1 with v2. Build it as a thin wrapper around a new driver script `prepare_for_ingest_v3.py`, authored from the canonical `prepare_for_ingest.py` v2.2 principles (the May 21 tranche-2 script Pete pointed to: `~/Desktop/Archive/scripts/_legacy/prepare_for_ingest.py`).
+
+**Architecture (locked).**
+
+Two repos, one wall:
+- `aberdeen-group-archive` (public, `shorttack/aberdeen-group-archive`) — TEXT ONLY (markdown studies + master CSVs + `_decisions_log.md`)
+- `kastner-restricted-sources` (private, `shorttack/kastner-restricted-sources`) — ALL PDFs at flat layout `<study_slug>.pdf`
+
+Clone paths on Pete's Mac (confirmed 2026-06-01):
+- Public: `~/Desktop/Archive/aberdeen-group-archive/`
+- Private: `~/Desktop/Archive/kastner-restricted-sources/` (INSIDE `~/Desktop/Archive/`, not a sibling)
+
+One canonical PDF per study. No accumulation, no `_superseded/` folder. When a BETTER copy lands, it REPLACES the prior canonical PDF; git history of the private repo is the only binary audit trail. The `_decisions_log.md` is the human-readable audit.
+
+**Four dispositions, one router:**
+
+| Disposition | Trigger | PDF action | Archive (text/CSVs) |
+|---|---|---|---|
+| NEW | No SHA hit + no archive title match | Copy to `kastner-restricted-sources/<slug>.pdf`; generate MD + master row | NEW MD + new row |
+| BETTER | Archive match + incoming stronger + Pete ACCEPTs | REPLACE PDF (displaced discarded; git = audit) | UNCHANGED |
+| DUPLICATE | SHA-256 match OR archive match + not stronger | Discard incoming | UNCHANGED |
+| AMBIGUOUS | Title fuzzy score in 0.55-0.75 band | Surfaced to Pete | depends |
+
+**BETTER heuristic** (ported from v2.2): more pages OR more embedded XObject images OR ≥30% higher text density.
+
+**Workflow** is two-pass with a human-in-the-loop:
+1. Pass 1: `python3 prepare_for_ingest_v3.py --verbose` → emits `_review_<UTC>.csv` with 22 columns
+2. Pete edits the review CSV, filling `pete_decision` for BETTER and AMBIGUOUS rows
+3. Pass 2: `python3 prepare_for_ingest_v3.py --apply-review _review_<UTC>.csv` (dry-run first, then `--commit`)
+
+**License default on NEW master rows:** `CC-BY-NC-SA-4.0` (confirmed with Pete 2026-06-01). Reasoning: the public archive holds text only — markdown extracts of Aberdeen studies, treated as fair-use research material. The PDFs (the original copyrighted artifact) live in the private repo and are not redistributed. The text content in the public repo can carry a permissive Creative Commons license because it's transformative research output, not the original copyrighted source.
+
+**Why this design (reasoning under each principle):**
+
+1. **Two-repo wall:** Public archive must remain text-only because (a) Pete is intentionally skirting copyright on Aberdeen scans — the PDFs cannot be in the public repo, (b) text is fair-use research material, PDFs are the original copyrighted artifact, (c) `kw ask` retrieval reads text not PDFs anyway, so the PDFs add no retrieval value to the public repo.
+
+2. **One canonical PDF, no accumulation:** Storage discipline. If 5 versions of a study get scanned over time, accumulating all 5 in the private repo wastes space and complicates the answer to "which PDF do I open?". The git history captures the prior versions if anyone ever needs them. Pete's preference for forever-archive applies to the *queue* (which is auditable via review CSVs) and to the *decisions log*, not to the binary PDF inventory.
+
+3. **Public archive sticky on BETTER/DUPLICATE:** The MD and master row already encode the study's text content. A better PDF scan doesn't change the study's identity or text — it just gives a higher-quality binary. So no MD edit, no master CSV edit. Only the PDF swaps. This keeps Phase 1+2 quiet on PDF-swap days — no rebuild required after a BETTER ACCEPT.
+
+4. **Decisions-log line is the audit (not _supersedes.txt):** Pete explicitly rejected per-study sidecar files. The decisions log is already the project's canonical change log; adding sidecars would fragment audit across two files per study. Decisions log + git history of private repo = complete provenance.
+
+5. **Human-in-the-loop on BETTER:** Pete owns the "is this scan actually better?" call. The heuristic (pages/images/density) proposes; Pete decides. No silent auto-promotion — too easy for a bad scan with empty pages to fool the page-count signal.
+
+6. **Two-pass + dry-run default:** Inherits from `kastner-archive-pipeline` Workflow A invariants. Pass 1 is read-only (discover); Pass 2 without `--commit` is read-only (dry-run); Pass 2 with `--commit` is the only path that moves bytes.
+
+**Six signals computed per PDF (from v2.2 canonical):**
+- SHA-256 (full + 12-char short) — fast-path duplicate detection
+- Page count (PyMuPDF)
+- Embedded XObject image count (NOT figure captions)
+- Text density = md chars / page count (PyMuPDF4LLM extract)
+- Filename slug stem (kebab-case)
+- Title fuzzy match: Levenshtein + token-set + anchor-bonus vs `_master_studies.csv`
+
+**Confidence thresholds** (inherited from v2.2): `CONFIDENCE_STRONG = 0.75` (auto-route), `CONFIDENCE_WEAK = 0.55` (below=NEW, between=AMBIGUOUS).
+
+**Review CSV — 22 columns:** queue_filename, sha256_short, page_count, image_count, text_density, size_bytes, extracted_title, title_source, proposed_disposition, pete_decision, match_score, match_via, matched_study_slug, matched_title, archived_pages, archived_images, archived_density, reason, target_path, needs_review, queue_path, sha256_full.
+
+**EOD ship protocol — TWO repos this time** (locked with Pete 2026-06-01):
+- PRIVATE first: `kastner-restricted-sources` PDF adds/replacements
+- PUBLIC second: `aberdeen-group-archive` MD adds + `_master_studies.csv` diff + `_decisions_log.md` diff + queue audit (review CSV in `_archive_review/`)
+
+The order matters: if public ships first with a `_decisions_log.md` line referencing a PDF, that PDF must already be in the private repo. Pete is the only consumer of the private repo, but the discipline still holds.
+
+**What v3 deliberately does NOT do** (defers to other skills):
+- Pass A/B/C observation extraction → `archival-ingest` v20
+- DOCX, XLSX, EPUB, plain-text → `archival-ingest` v20
+- Phase 1+2 data layer rebuild after NEW ingest → `kastner-archive-pipeline` Workflow B
+- Phase 3-6 wiki refresh + embeddings → `kastner-archive-pipeline` Workflow C
+- OCR on scan-only PDFs (no text layer) → out of scope; Pete edits review CSV manually if needed
+- Embedding-based dedupe (bge-m3 cosine) → out of scope for v3
+
+**v2 → v3 backlog (deferred):**
+- No automatic title extraction from scan-only PDFs (no OCR in v3)
+- No bge-m3 cosine dedupe (paraphrased duplicates may slip through as AMBIGUOUS)
+- No batch-recovery from partial `--commit` failure (Pete re-runs with edited CSV)
+- No auto-Phase-1+2 trigger (skill reminds Pete; doesn't chain)
+
+**Artifacts shipped:**
+- `prepare_for_ingest_v3.py` (1346 lines) → `shorttack/aberdeen-group-archive/scripts/prepare_for_ingest_v3.py`
+- `archive-queue-ingest` skill v2 (overwrites v1) → skill_id `0fcc8fbc-b4a4-493a-8605-fa0caf6be5fa`
+- This decisions log entry → `_decisions_log.md`
+- WORKLIST §11o revised to reflect v2 design
+
+**Why this supersedes v1 of the skill:**
+
+v1 was answering the wrong question ("how do I ingest a markdown file?") because the original WORKLIST §11o framing was incomplete. The real daily-driver problem is "I just scanned 7 Aberdeen PDFs; some are new studies, some are better versions of studies I already have, some are exact duplicates of what I've already ingested — route them." v1 had no concept of a private PDF vault, no concept of BETTER vs DUPLICATE, and no concept of the public/private wall. v2 is a complete redesign, not an iteration.
+
+v1 is preserved in skill version history (`metadata.version: '1'` in the prior file). The new file is `metadata.version: '2'`. Pete's standing forever-archive principle is upheld: v1 design intent lives in this decisions log entry's first three paragraphs and in skill version history; v1 source code was never run against live data so there's no observation history to preserve.
+
+**Next steps:**
+- [ ] First live exercise: drop 2-3 PDFs into `~/Desktop/Archive/_ingest_queue/` and walk Pass 1 → review → Pass 2 dry-run → `--commit`
+- [ ] Validate the SHA-256 fast-path against a known DUPLICATE
+- [ ] Validate the BETTER heuristic against a known higher-res rescan
+- [ ] Validate that public archive is untouched on BETTER ACCEPT
+- [ ] Update `kastner-archive-pipeline` cross-skill handoffs to point at `archive-queue-ingest` v2 for daily PDF ingest
+
+---

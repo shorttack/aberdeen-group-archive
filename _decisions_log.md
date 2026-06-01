@@ -1754,3 +1754,443 @@ None for Phase 5 itself; all closed. The content-drift items (memoir prose, _pre
 - WORKLIST_2026_05_31.md §11a (Phase 5 closure)
 - `kastner-archive-pipeline` skill Gotcha 9 + pre-flight item 16
 - Prior decisions log entry: 2026-05-31 decade-bug (Phase 2 v3→v4)
+## 2026-06-01 §11j Scripts directory cleanup — archive repo + Mac mirror
+
+**Trigger:** WORKLIST §11j carried forward into 2026-06-01 AM session. The archive repo had two scripts directories (`scripts/` for one-offs, `scripts/build/` for the 6-phase pipeline). The Mac had a single flat `~/Desktop/Archive/scripts/` with 79 entries — pipeline scripts, one-offs, stale `_vN` versions, abandoned `_obsolete` files, a `__pycache__` directory, and a misnamed `prepare_for_ingest backup.py` (literal space in filename) all jumbled together. Three decisions confirmed with Pete up front: **(a)** keep the `scripts/build/` vs `scripts/` split, **(b)** Mac should mirror the repo layout exactly, **(c)** move stale `_vN` versions under `_legacy/` subdirs rather than deleting (forever-archive principle).
+
+### What was done
+
+**Archive repo (`shorttack/aberdeen-group-archive`)** — single batch commit via the Git Data API.
+
+- Commit: `1efb09d9e62104ac5022d6baaa51b16600b37078`
+- Parent: `954fc1b24ef43873787921224d11bf66e52ba597` (the v1.6 commit from 2026-05-31)
+- 25 file moves (50 tree edits: 25 deletes + 25 adds at new paths) — no blob duplication, same SHAs at new paths
+- `scripts/build/_legacy/`: 8 stale pipeline files (`01_v1`, `02_v1`/`v2`/`v3`, `03_v1`, `04_v1`, `05_v1`/`v2`)
+- `scripts/_legacy/`: 17 stale one-offs (`apply_pub_year_v6`, `extract_pub_year_v1`, `migrate_pdfs_v3`, `pass_c_kickoff_runbook_v1`/`v2`, `pre_filter_v1`/`v2`/`v3` + README, `roll_up_v1`/`v2`, `route_v1`, `run_prescience_pass_c_v1`/`v2`/`v3`/`v4` + README)
+
+**Mac `~/Desktop/Archive/scripts/`** — `/tmp/_11j_mac_reorg_v1.sh --commit` execution.
+
+- Created `build/`, `build/_legacy/`, `_legacy/` subdirectories
+- Moved 5 canonical pipeline scripts to `build/` (`01_v2`, `03_v2`, `04_v2`, `06_v1`, `_llm_helper_v1`)
+- Moved 7 stale pipeline scripts to `build/_legacy/` (same set as repo)
+- Moved 48 stale one-offs to `_legacy/` (superset of repo's 17 — Mac had more historical work-products like `build_obsidian_vault_v1-v4`, `diagnose_*`, `fix_v2_residuals_v1-v3`, `namespace_legacy_ids_obsolete`, `verify_v2_followup`, etc.)
+- Renamed `'prepare_for_ingest backup.py'` (literal space) to `prepare_for_ingest_backup.py` while moving to `_legacy/`
+- Moved `__pycache__/` to `build/__pycache__/` (it was built from pipeline scripts)
+- Copied `02_build_data_layer_v4.py` and `05_compute_embeddings_v3.py` from the archive repo clone at `~/Desktop/Archive/aberdeen-group-archive/scripts/build/` into Mac's new `build/` (Mac was at v2 of both; needed the canonical versions locally)
+
+**Skill updated:** `kastner-archive-pipeline` v6 → v7. Five edits:
+
+1. "Scripts (where they live)" section rewritten to document the new 4-directory layout
+2. Phase 5 table entry: `05_compute_embeddings_v2.py` → `_v3.py` with full schema-contract description (Gotcha 9 reference)
+3. Workflow A Step 4 commands: `~/Desktop/Archive/scripts/0X_*.py` → `~/Desktop/Archive/scripts/build/0X_*.py`
+4. Workflow C Step 2 commands: same path update; also fixed `05_v2` → `05_v3`
+5. Quick command reference table: same path updates throughout (Phases 1-6)
+
+Saved to skill library via `save_custom_skill`. Skill_id preserved (`fe5dc1e1-e51d-4f60-88e7-4d2651afa18b`) — in-place update, future sessions get the corrected paths.
+
+### Final state
+
+| Surface | Pipeline canonical | Pipeline legacy | One-offs canonical | One-offs legacy |
+|---|---|---|---|---|
+| Archive repo `scripts/` | `build/` — 6 + `_llm_helper` + `references/` | `build/_legacy/` — 8 files | flat 17 files | `_legacy/` — 17 files |
+| Mac `~/Desktop/Archive/scripts/` | `build/` — 7 files (incl. `__pycache__`) | `build/_legacy/` — 7 files | flat 17 files | `_legacy/` — 49 files |
+
+The Mac `_legacy/` is a superset of the repo's `_legacy/` because the Mac accumulated more historical work-products (some never made it to the repo to begin with; some predate the repo's `scripts/` directory). That's expected and not a parity error.
+
+### 6 Mac files that don't exist in the archive repo
+
+Discovered while building the reorg plan — flagged for a follow-up backlog item (not blocking the cleanup):
+
+- `extract_missing_dates_v3.py` — Mac canonical, no repo equivalent
+- `run_prescience_pass_c_v5.py` — Mac canonical, repo's latest is `v4_2`
+- `roll_up_prescience_to_master_v3.py` — Mac canonical, repo has only `v1`+`v2` in `_legacy/`
+- `download_aberdeen_pdfs.sh` — never committed to repo
+- `prepare_for_ingest.py` — never committed to repo
+- `run_prescience_calibration_v3.py` — never committed to repo
+
+`refresh_data_layer.py` is also Mac-only here but lives correctly in the **wiki repo** at `shorttack/kastner-aberdeen-wiki/scripts/refresh_data_layer.py`, not the archive repo. Counted separately.
+
+### Why this matters
+
+**Before:** the canonical Phase 5 command on the Mac was `~/Desktop/Archive/scripts/05_compute_embeddings_v2.py` — which is the **broken-schema producer** that triggered yesterday's BinderError. The current canonical `_v3.py` only existed in the repo; the Mac never had it. Running the documented command would have re-broken `kw_ask` retrieval. The cleanup fixed this gap by copying `02_v4` and `05_v3` from the repo into the Mac's new `build/` directory.
+
+**After:** documented commands match the canonical files on both surfaces. Future sessions inherit the corrected paths via the saved skill.
+
+### Verification
+
+Archive repo post-commit:
+```
+scripts/build/
+  01_load_csvs_v2.py
+  02_build_data_layer_v4.py
+  03_generate_vault_v2.py
+  04_generate_indices_v2.py
+  05_compute_embeddings_v3.py
+  06_emit_scaffolding_v1.py
+  _llm_helper_v1.py
+  _legacy/  (8 files)
+  references/
+
+scripts/
+  apply_pub_year_v6_1.py
+  apply_year_observed_v2.py
+  drop_duplicate_3910_v1.sh
+  extract_pub_year_v2.py
+  migrate_pdfs_to_restricted_v4.py
+  pass_c_kickoff_runbook_v3.md
+  pass_c_smoke_test_runbook_v1.md
+  pre_filter_scoreable_obs_v4.py
+  preload_checkpoint_filter_bucket_cde_v1.py
+  quarantine_pass_c_run_v1.sh
+  roll_up_prescience_v3.py
+  route_low_confidence_v2.py
+  run_prescience_pass_c_v4_2.py
+  run_prescience_pass_c_v4_2_README.md
+  _legacy/  (17 files)
+```
+
+Mac post-reorg: layout matches above + 6 Mac-only canonical files in flat root + larger `_legacy/` superset.
+
+### Lessons / gotchas
+
+1. **The misnamed file with a literal space (`prepare_for_ingest backup.py`)** had survived months of work. Bash globbing and `mv` handled it fine inside double quotes, but it was a latent ticking bomb for any future automation that didn't quote properly. Renamed during the move.
+
+2. **Mac at `02_v2` and `05_v2`** while the repo was at `02_v4` and `05_v3` — the Mac fell behind silently because every pipeline run after 2026-05-31 used the local Mac files. Cleanup caught this; runbook commands and skill paths now align with repo-canonical versions.
+
+3. **One-time reorg scripts shouldn't live in the repo** — staged the reorg script to `/tmp/_11j_mac_reorg_v1.sh` via `pc push` rather than committing it to `scripts/`. It's preserved in `/home/user/workspace/` for forensics but doesn't pollute the repo.
+
+4. **Git Data API batch with 50 tree edits worked first-try** — same pattern as yesterday's v1.6 batch commit. Confirmed scalable for moderate-scale repo reshuffles. The pattern is now battle-tested for: file additions, file moves (delete + add at new path with same SHA), and any combination.
+
+### Pending follow-ups (added to WORKLIST)
+
+- **§11m**: ship the 6 Mac-only one-off scripts to the archive repo `scripts/` so the two surfaces match canonically. Low priority — not blocking any current work.
+## 2026-06-01 Delete `~/Desktop/kastner_wiki/` (the deprecated working wiki)
+
+**Trigger:** Final cleanup of the canonical-layout migration started 2026-05-28. The canonical working wiki has been `~/Repos/kastner-aberdeen-wiki/` since then; `~/Desktop/kastner_wiki/` has been the deprecated working copy waiting for a formal deletion decision. The v1.6 rebuild on 2026-05-31 (wiki commit `e78ce36a`, archive commit `954fc1b2`, tags `v1.6` pushed and released on both repos) ran entirely against `~/Repos/kastner-aberdeen-wiki/` — confirming `~/Desktop/kastner_wiki/` plays no role in the live pipeline.
+
+### State at time of deletion
+
+| Property | Value |
+|---|---|
+| Total size | 279 MB |
+| Top-level dir mtime | 2026-05-30 22:48 |
+| DuckDB (`db/kastner.duckdb`) timestamp | 2026-05-30 17:42 (pre-v1.6; v1.6 ran 2026-05-31 09:06–12:23 EDT against `~/Repos/`) |
+| iCloud collision files (`* 2.*` pattern) | **2,845** |
+| Total wiki markdown files | 13,120 (vs ~10,301 canonical — the delta is iCloud ghost duplicates) |
+| `.git` directory | Present but with permission errors per prior audits — unrecoverable as a working tree |
+| Visible at root | `USER_GUIDE 2.md` — literal iCloud collision in the top-level |
+
+### Why deletable
+
+1. **No unique content.** The Aberdeen archive is fully derivable from the masters at `~/Desktop/Archive/archive_masters/*.csv` through Phases 1+2+3+5+6 of the pipeline. Anything `~/Desktop/kastner_wiki/wiki/*.md` contained is a regeneratable artifact, not source data.
+2. **No commits in flight.** The directory's `.git` had permission errors that prevented routine operations; no pending local work is at risk.
+3. **The v1.6 rebuild (2026-05-31) was a full Phase 1–6 chain against `~/Repos/kastner-aberdeen-wiki/`**, with `kw ask` validation passing post-rebuild. The current canonical wiki is verified-clean and the public release (wiki repo tag `v1.6`) reflects it.
+4. **iCloud collision count is unrecoverable.** 2,845 ghost files (`* 2.*` pattern) cannot be reliably distinguished from intentional duplicates without per-file inspection; a clean rebuild from masters is faster than any attempted cleanup of the corrupted tree.
+
+### Action
+
+Pete to run on Mac:
+```
+rm -rf ~/Desktop/kastner_wiki/
+```
+
+### Post-deletion verification
+
+```
+ls -la ~/Desktop/kastner_wiki/ 2>&1   # should report "No such file or directory"
+ls -la ~/Repos/kastner-aberdeen-wiki/ # should still show the canonical working wiki
+```
+
+The canonical wiki at `~/Repos/kastner-aberdeen-wiki/` is untouched.
+
+### Cross-reference
+
+- WORKLIST §8 (Canonical layout migration cleanup) — closes the "rename or delete" sub-bullet on schedule (one-week grace window from 2026-05-28 expires 2026-06-04; deleting 3 days early is fine since v1.6 has shipped).
+- `kastner-archive-pipeline` skill "The Three Locations" table — entry #2 (live working wiki) now exclusively refers to `~/Repos/kastner-aberdeen-wiki/`. The skill text should be patched in a future session to remove `~/Desktop/kastner_wiki/` as a candidate path entirely; until then, future agents should treat `~/Repos/kastner-aberdeen-wiki/` as the only live working wiki.
+
+### Memory update
+
+A separate memory will be saved: "Remember that `~/Desktop/kastner_wiki/` was deleted on 2026-06-01 after the canonical-layout migration completed; the only live working wiki is now `~/Repos/kastner-aberdeen-wiki/`."
+## 2026-06-01 §11l: Add aggregate totals to `_prescient.md` (Phase 4 template patch)
+
+**Trigger:** WORKLIST §11l — `_prescient.md` showed the top-50 obs-level and top-50 holistic tables but no aggregate totals. `kw ask "how many high prescience studies are there"` correctly reported "no total stated" because the embedded chunk lacked that sentence (Gotcha 7 in reverse: the page was accurate but incomplete; embeddings faithfully reflected the gap).
+
+### What changed
+
+**Producer:** `scripts/build/04_generate_indices_v2.py` → **`04_generate_indices_v3.py`**
+
+Three edits:
+1. **Docstring header** — added v3 changelog block (2026-06-01, §11l), kept v2 + v1 history intact.
+2. **`PRESCIENT_INDEX` template** — added two summary lines at the top of each section:
+   - Obs-level: `**Total: {total_obs} studies with prescience_max ≥ 4** (top 50 shown below; sorted by `prescience_max` then `prescience_mean`).`
+   - Holistic: `**Total: {total_holistic} studies with holistic rating `high`** (top 50 shown below; sorted by `pub_year`). Original-ingest holistic rating; complementary to the obs-level scores above.`
+3. **Invocation site** — computed `total_obs = len(obs_level_all)` and `total_holistic = len(holistic_all)` from the **full filtered population** (not the top-50 slice), then passed both to `PRESCIENT_INDEX.format()`. Refactored the existing filter to compute the total before slicing to head(50), so counts can never drift from the table content.
+
+### Why these specific choices
+
+- **Computed at build time, never hardcoded.** Phase 4 already reads `studies.parquet`. The total is `len(studies[studies["prescience_max"].fillna(0) >= 4])` — free arithmetic, no extra IO. Hardcoding `124` would diverge silently the next time the underlying data shifts; this is provably correct against whatever the masters say.
+- **Both sections, not just obs-level.** WORKLIST §11l technically only specified the obs-level total (124). But the holistic section was missing the same metadata (489) and would have surfaced the same `kw ask` failure mode in a future query. One template patch covers both. Worded both lines symmetrically.
+- **"(top 50 shown below)" addition.** Makes the existing 50-row limit explicit in the prose so `kw ask` retrieval surfaces it. Without this, a downstream agent reading the page could mistake the table for the full result set.
+
+### Producer/consumer contract check (Gotcha 9)
+
+**Producer v3** writes `_prescient.md` with `PRESCIENT_INDEX.format()` taking 5 variables: `model`, `total_obs`, `total_holistic`, `rows_obs`, `rows_holistic`. All five passed correctly at the call site (verified by diff).
+
+**Consumers** of `_prescient.md`:
+1. `kw ask` retrieval — reads the page as plaintext markdown. No schema dependency. v3 change is purely additive prose — improves retrieval quality, breaks nothing.
+2. Phase 5 (`05_compute_embeddings_v3.py`) — re-embeds the page as plaintext for the bge-m3 1024-dim index. Schema-agnostic.
+3. Phase 6 (`06_emit_scaffolding_v1.py`) — line 288 checks `wiki/_prescient.md` exists. Existence check only.
+
+No schema contract concerns. ✓
+
+### Pipeline execution
+
+Pete's Mac, this morning 2026-06-01 06:44 EDT:
+
+```
+$ git pull   # archive repo, 1efb09d9..ff73eed5
+$ cp scripts/build/04_generate_indices_v3.py ~/Desktop/Archive/scripts/build/
+$ python3 ~/Desktop/Archive/scripts/build/04_generate_indices_v3.py --wiki ~/Repos/kastner-aberdeen-wiki
+  decades: 6 pages
+  collections: 6 pages
+  codes index emitted (1293 codes)
+  bases: 5 files
+✓ Phase 4 complete.
+```
+
+Verified `_prescient.md` got both totals:
+```
+$ head -15 ~/Repos/kastner-aberdeen-wiki/wiki/_prescient.md
+...
+**Total: 124 studies with prescience_max ≥ 4** (top 50 shown below; sorted by `prescience_max` then `prescience_mean`).
+...
+**Total: 489 studies with holistic rating `high`** (top 50 shown below; sorted by `pub_year`). ...
+```
+
+File mtime 2026-06-01 06:44; size 14,705 bytes (up from prior version, consistent with two added prose lines).
+
+### Phase 5 re-embed (Gotcha 7 mitigation)
+
+Per Workflow C decision tree, page-level prose changes require Phase 5 re-embed to surface in `kw ask` retrieval. Yesterday's `embeddings.parquet` at `~/Repos/kastner-aberdeen-wiki/data/embeddings.parquet` (65.6 MB, May 31 13:31) was retrieving stale `_prescient.md` content.
+
+**First attempt (06:45 EDT) failed** with two environment issues that surfaced for the first time:
+1. **Ollama unreachable from `pc bash` sandbox**: `urlopen error [Errno 1] Operation not permitted` on all 10,301 embed calls. Hypothesis: macOS Sequoia local-network access prompt not granted to the agent's spawned `python3`. (Direct GUI terminal sessions get the prompt; sandboxed shells don't.)
+2. **`pyarrow` import failed** in the agent-spawned Python 3.14 path (`~/Library/Python/3.14/lib/python/site-packages`). Pete's direct GUI Python 3.14 (`/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages`) does have `pyarrow 24.0.0` installed. Two different Python user-site paths active depending on shell origin.
+
+**Both findings filed as environment gotchas** — not script defects. The script ran correctly when executed from Pete's GUI Terminal session.
+
+**Second attempt (09:47 EDT) succeeded** — Pete ran Phase 5 directly in his Terminal session. Steady-state throughput ~10 pages/sec, projected ~17 min for 10,301 pages. Result captured at next decisions log update (post-completion verification of `kw ask` returning the new totals).
+
+### Commit lineage
+
+| Commit | Repo | What |
+|---|---|---|
+| `ff73eed5` | `shorttack/aberdeen-group-archive` | Add `scripts/build/04_generate_indices_v3.py` (365 LOC) |
+
+(Parent: `1efb09d9` — §11j cleanup commit.)
+
+### Cross-references
+
+- WORKLIST §11l closure
+- Gotcha 7 (stale embeddings silently lie) — exact illustration: Phase 1+2 are unchanged here, but Phase 3+5 are required because the prose changed
+- Gotcha 8 (Phase 6 scaffolding overwrites README/AGENTS.md) — generalized lesson: never edit rendered output; always patch the producer. §11l followed this rule.
+- Gotcha 9 (producer/consumer schema drift) — verified for this change set above
+- New environment finding (not yet a gotcha): two different Python 3.14 user-site paths exist on Pete's Mac depending on shell origin. Filed for future skill update.
+## 2026-06-01 — §11k Kastner breadth memoir to repo (drift acknowledged, not patched)
+
+**Session shape:** While auditing what wiki pages still showed v1.4 numbers post-v1.6 re-embed (§11l discovery), `study-kastner-technology-breadth-memoir-2026.md` surfaced as a content-drift page: it quoted "915 studies / 2537 observations / 4628 entities / 479 technologies / 592 with publication dates" — all v1.4 numbers. The wiki refresh (§11l Phase 5) had re-embedded the page, but the underlying source memoir was not in repo at all. Source-of-truth gap.
+
+### Decisions made
+
+#### 1. Memoir source file existed only as an attachment in chat history
+
+Search of `~/Desktop/Archive/aberdeen-group-archive/` and `~/Desktop/Archive/scripts/` turned up no `kastner_breadth_memoir.md` source file. The wiki page that quoted the numbers was hand-authored at some prior point, and the source markdown that fed it had no canonical home.
+
+User dropped the full source memoir as attachment (`kastner_breadth_memoir-1.md`, 197 lines, 26.7 KB). Three options:
+
+- **Option A:** Patch wiki page in place; keep source out of repo
+- **Option B:** Ship source to repo at `kastner-author/memoirs/kastner_breadth_memoir.md`, leave wiki page alone
+- **Option C:** Ship source to repo AND patch wiki page
+
+**Pete chose B with a wiki-page leave-alone (later confirmed "(a) leave it. move on.").** Rationale: the memoir-in-repo is what §11k actually needs; the wiki page can drift back to truth at the next full Phase 3 regen.
+
+#### 2. "Note on numbers" preface added to source
+
+Source memoir originally claimed v1.4 numbers in body text. Rather than rewrite numbers throughout (would lose memoir voice + risk introducing fresh errors), added a 4-line **Note on numbers** preface to the file:
+
+> *Note on numbers:* This memoir quotes archive-shape figures (915 studies, 2,537 observations, 4,628 entities, 479 technologies, 592 with publication dates) that reflect the v1.4 snapshot at the time of writing. The current archive (v1.6, 2026-05-31) shows 1,434 studies, 23,605 observations, 3,207 entities, 4,312 technologies, 1,434 with publication dates. The memoir is preserved here for historical voice; canonical archive shape lives in `_master_*.csv` and `db/kastner.duckdb`.
+
+Also removed a dead reference to `/home/user/workspace/breadth_analysis.py` (sandbox path, file no longer exists).
+
+#### 3. Repo path: `kastner-author/memoirs/`
+
+Placement follows existing repo convention (parallel to `Kastner Memoir/` for the volume-1 memoir, but namespaced as `kastner-author/` for shorter-form Kastner-authored prose). Verified the path was new (no existing dir) — no collision risk.
+
+#### 4. Single-file commit via Git Data API
+
+Standard `gh api PUT /contents/...` (single blob, no batch needed). Commit `56b86829` on `origin/main`.
+
+### Actions executed
+
+1. **User-supplied attachment** read into sandbox (`kastner_breadth_memoir-1.md`)
+2. **Sandbox edits:** Added "Note on numbers" preface, removed dead `/home/user/workspace/breadth_analysis.py` line
+3. **Repo:** `gh api PUT contents/kastner-author/memoirs/kastner_breadth_memoir.md` → commit `56b86829`
+
+### Repo state at end
+
+New path on `shorttack/aberdeen-group-archive`: `kastner-author/memoirs/kastner_breadth_memoir.md` (199 lines, including 4-line preface).
+
+### What was NOT done (intentional)
+
+- **`study-kastner-technology-breadth-memoir-2026.md` wiki page** was NOT patched (Pete: "(a) leave it. move on."). Will refresh at next Phase 3 LLM regen.
+- **No Phase 5 re-embed** for this commit. The memoir lives in `kastner-author/memoirs/`, not under `~/Desktop/kastner_wiki/wiki/`. Not part of the embedding corpus. `kw ask` will not retrieve it. (If retrieval is desired later, the memoir could be copied to the wiki tree and Phase 5 run — deferred.)
+
+### Open follow-ups
+
+- **Wiki page content drift:** `study-kastner-technology-breadth-memoir-2026.md` still shows v1.4 numbers. Will self-correct at next full Phase 3 regen (≈3 hours for tier-1 LLM; not blocking).
+- **Symmetric retrieval question:** Should `kastner-author/` prose (memoirs, essays) be in the wiki embedding corpus? Currently not. Deferred to v1.7 backlog.
+
+## 2026-06-01 — §11m Ship 6 Mac-only operational scripts to repo + v4_2 → _legacy
+
+**Session shape:** Sync gap between Mac working dir and repo. Pete had been authoring + iterating operational scripts in `~/Desktop/Archive/scripts/` on Mac for multiple sessions, but only a subset had been committed to `shorttack/aberdeen-group-archive`. After §11j codified canonical paths and §11l shipped a versioned phase script, the next natural move was to surface every Mac-only operational script and ship the ones that should be in repo. This entry covers the 6 scripts that shipped + the v4_2 deprecation that was sitting unmoved.
+
+### Decisions made
+
+#### 1. Inventory: 6 Mac-only operational scripts identified
+
+After cross-referencing Mac `~/Desktop/Archive/scripts/` against repo `scripts/` (sandbox `gh api` walks), the following were Mac-only and operationally current:
+
+| Script | Lines | Role |
+|---|---|---|
+| `download_aberdeen_pdfs.sh` | 196 | PDF harvest from Wayback Machine |
+| `extract_missing_dates_v3.py` | 353 | Date extraction from PDF metadata for `_master_studies.csv` |
+| `prepare_for_ingest.py` | 1493 | Pass A/B/C ingestion preparation |
+| `roll_up_prescience_to_master_v3.py` | 228 | Roll up flat cloud-scoring CSV → `_master_studies.csv` 8th column |
+| `run_prescience_calibration_v3.py` | 332 | Pass C calibration runner |
+| `run_prescience_pass_c_v5.py` | 438 | Pass C production driver (current) |
+
+Total: 3,040 lines of operational code that lived only on Mac.
+
+#### 2. `roll_up_prescience_to_master_v3.py` is a sibling, not a successor
+
+Critical disambiguation: repo had `roll_up_prescience_v3.py` (committed 2026-05-29, `4393d26a`) and Mac had `roll_up_prescience_to_master_v3.py`. Same version number, similar name, different scripts:
+
+- `roll_up_prescience_v3.py` (repo): rule A rollup of Pass C scoring → 6 prescience columns on studies-master
+- `roll_up_prescience_to_master_v3.py` (Mac): flat cloud-scoring CSV → 8th master column
+
+They take different inputs, write different columns, are both in use. Both kept; **both versioned `_v3` independently** (the version number reflects the script's own iteration history, not a successor relationship).
+
+#### 3. v4.2 → _legacy on repo to match §11j organization
+
+§11j moved superseded `_vN` scripts to `_legacy/`. `run_prescience_pass_c_v4_2.py` (and its README) had been superseded by `run_prescience_pass_c_v5.py` but were still at the flat `scripts/` root on repo. Two `rename` tree-edits in the same commit moved both to `_legacy/`.
+
+#### 4. Single-commit batch via Git Data API
+
+8 tree edits in one commit `c4fe9c66`:
+- 6 `add` (the Mac-only scripts pulled to sandbox via `pc pull`, syntax-checked clean, blobs created in repo)
+- 2 `rename` (v4_2 .py + README from `scripts/` → `scripts/_legacy/`)
+
+No blob duplication (single blob per file, reused for rename via SHA reference). Pattern from §11j proven again.
+
+### Actions executed
+
+1. **Mac → sandbox:** `pc pull` each of 6 files individually (one-by-one due to `pc pull` directory-destination loop issue; explicit destination filenames required)
+2. **Sandbox:** Python syntax check on all 6 (`python3 -m py_compile` for `.py`, `bash -n` for `.sh`) — all clean
+3. **Repo:** Git Data API batch — 6 blob creates + tree update + commit + ref PATCH → `c4fe9c66` on `origin/main`
+
+### Repo state at end
+
+`scripts/` at `c4fe9c66`:
+- 18 files at flat root (12 prior + 6 from §11m)
+- `_legacy/` adds `run_prescience_pass_c_v4_2.py` + `_README.md`
+
+### Producer/consumer notes
+
+- `roll_up_prescience_to_master_v3.py` writes the 8th master column on `_master_studies.csv`. This change does NOT require Phase 1+2 re-run if the master is otherwise unchanged at the time of run — it modifies the master, then Pete's normal Phase 1+2 cycle picks it up at next rebuild.
+- `run_prescience_pass_c_v5.py` writes `_bucket_audit_v2.csv` + `pass_c_results.jsonl` consumed by `roll_up_prescience_to_master_v3.py`. Both versioned `_v5` and `_v3` respectively; Gotcha 9 (producer/consumer schema drift) applies — column contract has held since v4_2 → v5 transition.
+
+### Open follow-ups
+
+- v4_2 deprecation note: the `run_prescience_pass_c_v4_2_README.md` content still references v4_2 as current — should add a one-line "**Superseded by `run_prescience_pass_c_v5.py` (2026-06-01)**" header on next touch. Low priority; visibility-segregated.
+
+## 2026-06-01 — §11n Broader scripts audit: Mac working dir vs repo clone
+
+**Session shape:** Following §11j (legacy reshuffle), §11k (memoir-in-repo), §11l (prescient totals), and §11m (ship 6 Mac-only scripts), Pete requested a comprehensive audit of `~/Desktop/Archive/scripts/` (Mac working dir) vs `~/Desktop/Archive/aberdeen-group-archive/scripts/` (repo clone). Goal: zero drift on operational scripts. Scope: exclude `_legacy/`; "newest mtime wins" with content hash as tiebreaker; never auto-delete from either side.
+
+### Decisions made
+
+#### 1. Audit method: local `diff -rq` between adjacent dirs on Mac
+
+The repo clone lives at `~/Desktop/Archive/aberdeen-group-archive/` (parallel to `~/Desktop/Archive/scripts/`). This makes `diff -rq` between two local dirs the natural comparison — no sandbox `gh api` walks, no per-file pulls. Excluded: `_legacy/`, `__pycache__/`, `.DS_Store`.
+
+#### 2. Pre-flight: repo clone was 2 commits behind origin/main
+
+First diff returned 13 entries. Investigation showed the clone was at `ff73eed5` (§11l), missing `56b86829` (§11k) and `c4fe9c66` (§11m). Also two uncommitted local deletions from May 27 14:42: `Kastner Memoir/Peter S Kastner Memoir, vol 1.md` and `_skills/archival-ingest/archival_ingest_SKILL_v20.md`. Both files were zero-byte in working tree but 1758/1473 lines in HEAD — accidental truncation, not intentional deletion.
+
+**Action:** Pete ran `git restore` on both (recovered full content from HEAD), then `git pull` (fast-forward `ff73eed5..c4fe9c66`, 9 files / 3239 insertions). After sync, diff dropped from 13 → 6 entries.
+
+#### 3. The 6 remaining differences — triage
+
+| # | File | Verdict | Action taken |
+|---|---|---|---|
+| 1 | `build/references/csv-schema-actual-v1.md` (repo-only) | Reference doc; Mac never had it | Mac copy from repo clone |
+| 2 | `drop_duplicate_3910_v1.sh` (repo-only) | Versioned Pass C utility; Mac never had it | Mac copy from repo clone |
+| 3 | `pass_c_smoke_test_runbook_v1.md` (repo-only) | Pass C smoke test runbook; Mac never had it | Mac copy from repo clone |
+| 4 | `preload_checkpoint_filter_bucket_cde_v1.py` (repo-only) | Pass C checkpoint preloader; Mac never had it | Mac copy from repo clone |
+| 5 | `refresh_data_layer.py` (Mac-only) | **Prototyping leftover** — see Decision 4 | Move to `_legacy/refresh_data_layer_v1.py`; commit to repo |
+| 6 | `run_prescience_pass_c_v4_2.py` (Mac-only) | Already on repo at `_legacy/` per §11m | `mv` on Mac to `_legacy/` (mirror repo) |
+
+#### 4. `refresh_data_layer.py` — the only judgment call
+
+This file (May 31, 9.3 KB, hardcoded sandbox paths `/home/user/workspace/...`) appeared "newer" than the canonical Phase 1+2 scripts, but newest-wins rule would have promoted it incorrectly. Reconstruction from the `_decisions_log.md` (line 546) and WORKLIST history showed:
+
+- It was cherry-picked into v1.6 at 2026-05-31 AM as one of 4 "build/maintenance scripts" salvaged from a v1.0-era toolkit (`~/Repos/kastner-aberdeen-wiki/` clone, sandbox-authored, sandbox paths).
+- v1.6 §9 backlog explicitly tagged it for weeding: *"Weed `~/Repos/kastner-aberdeen-wiki/scripts/` of sandbox-path leftovers (e.g., `refresh_data_layer.py` from earlier prototyping)"*.
+- Its functionality ("refresh `data/*.parquet` and `db/kastner.duckdb` after CSV changes") is fully covered by the canonical Phase 1+2 (`01_load_csvs_v2.py` + `02_build_data_layer_v4.py` with `--archive` and `--wiki` flags).
+- Cannot run on Mac (hardcoded sandbox paths would point at non-existent dirs).
+
+**Verdict:** Prototyping leftover, superseded by canonical Phase 1+2. Forever-archive principle says `_legacy/` not delete. Renamed to `refresh_data_layer_v1.py` (versioning rule) and moved on both sides. **Closes v1.6 backlog §9.**
+
+#### 5. Process meta-lesson: investigate before "newest wins"
+
+This case demonstrates why a hash/mtime auto-resolver would have made the wrong call. The May 31 mtime and 9.3 KB size looked legitimate; only by reading the `_decisions_log` and tracing provenance through WORKLIST did the prototyping-leftover status surface. **Rule (for future audits):** when "newest wins" would promote an unversioned, sandbox-authored, or backlog-tagged script, stop and trace provenance in `_decisions_log` before committing.
+
+### Actions executed
+
+1. **Mac:** `git restore` two uncommitted local deletions (`Kastner Memoir/...md`, `_skills/archival-ingest/archival_ingest_SKILL_v20.md`)
+2. **Mac:** `git pull` (fast-forward `ff73eed5..c4fe9c66`, 9 files / 3239 insertions)
+3. **Mac:** `mv ~/Desktop/Archive/scripts/run_prescience_pass_c_v4_2.py ~/Desktop/Archive/scripts/_legacy/`
+4. **Mac:** `mv ~/Desktop/Archive/scripts/refresh_data_layer.py ~/Desktop/Archive/scripts/_legacy/refresh_data_layer_v1.py`
+5. **Repo:** Commit `_legacy/refresh_data_layer_v1.py` via Git Data API → commit `208d8e58` on origin/main
+6. **Mac:** `cp` 4 repo-only files to working dir (`csv-schema-actual-v1.md`, `drop_duplicate_3910_v1.sh`, `pass_c_smoke_test_runbook_v1.md`, `preload_checkpoint_filter_bucket_cde_v1.py`)
+7. **Verify:** Re-run `diff -rq` → empty output, exit 0 (zero drift confirmed)
+
+### Repo state at end
+
+`shorttack/aberdeen-group-archive` `origin/main` = `208d8e58`
+
+`scripts/` directory now byte-identical between Mac working dir and repo clone (excluding `_legacy/`, `__pycache__/`, `.DS_Store`).
+
+### v1.6 backlog status
+
+- §9 — Weed `refresh_data_layer.py` sandbox-path leftover → **CLOSED** as part of this audit.
+- §10 — Rename `~/Desktop/kastner_wiki/` → `.DEPRECATED_20260528/` → already superseded; the dir was deleted today 2026-06-01 (see kastner_wiki deletion entry above).
+- §5-8 — Tier-1 regen, content drift, schema contract, public-wiki push policy — still open.
+
+### Open follow-ups
+
+- **Clone re-sync needed:** Pete's local clone is now 1 commit behind `origin/main` (the `208d8e58` push happened via API during this audit). Pete to `git pull` at convenience — not urgent since no operational work depends on it.
+- **`uncommitted-local-deletions` postmortem:** Both deletions happened at exactly May 27 14:42, same minute. Likely a script that opened both files for write but never wrote content, or a `> filename` shell redirect mishap. Could not be traced. Filed as low-priority forensic curiosity; both files now restored from HEAD.
+
+### Today's commit count on `shorttack/aberdeen-group-archive`
+
+| # | SHA | What |
+|---|---|---|
+| 1 | `1efb09d9` | §11j scripts cleanup |
+| 2 | `ff73eed5` | §11l prescient totals (Phase 4 v3) |
+| 3 | `56b86829` | §11k memoir-in-repo |
+| 4 | `c4fe9c66` | §11m ship 6 Mac-only scripts + v4_2 → _legacy |
+| 5 | `208d8e58` | §11n audit: refresh_data_layer_v1 → _legacy |
+
+EOD batch commit (still pending) will add: 3-5 decisions log entries appended to `_decisions_log.md` + WORKLIST.md mirror.
+

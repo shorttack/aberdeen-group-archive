@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-05-31 PM (v1.6.0 EOD prep — Phase 2 v4 decade-bug fix + Phase 5 v3 schema-contract fix + v1.6 README/Release prep)
+**Last updated:** 2026-06-01 PM (v1.6.x backlog closure: §11k memoir-in-repo, §11l prescient totals, §11m ship 6 Mac-only scripts, §11n broader scripts audit — all closed)
 **Current ship state:** **v1.6 EOD batch commit pending tonight** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki`. Phase 1+2 v4 ran clean against `~/Repos/kastner-aberdeen-wiki/` (shape: 1434/23605/3207/4312/1434/6/124). Phase 3-6 ran 09:06–12:23 EDT. Phase 5 v2 wrote bad schema; rebuilt as v3 (page_path/page_type/slug/title/vector/dim contract); re-ran in 16m 55s; `kw ask` now passes (Gotcha 7 + Gotcha 9 codified). 1434/1434 studies have pub_year; **492/1434 prescience-scored via Pass C cloud (sonar-reasoning-pro + claude-sonnet-4.6)** — rolled up; **489 studies high prescience operationally** (`study_prescience_enum`); **124 high via obs-evidence layer** (`v_studies_with_high_prescience`); bge-m3:latest is the canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -14,11 +14,13 @@ How to use:
 
 ## Next up
 
-- [x] **Catch `~/Repos/kastner-aberdeen-wiki/` clone up to `origin/main`** — DONE 2026-05-31 AM. HEAD now `8c828aa2` (pulled 4 commits including this morning's `refresh_data_layer.py` salvage). Two stashes pending review: `stash@{0}` (pre-v1.6-pull embeddings diff + DEC note) and `stash@{1}` (pre-rebase 2026-05-28, unexamined).
-- [x] **Re-run Phase 1+2 against `~/Repos/kastner-aberdeen-wiki/`** (v1.6 §11a) — DONE 2026-05-31. Phase 1+2 v4 (decade-bug fix via `//` integer division) ran clean. Shape verified: studies 1434, observations 23605, entities 3207, technologies 4312, decade-row 1434, 6 decades, high-prescience 124.
-- [x] **Phases 3-6 against `~/Repos/`** (v1.6 §11b) — DONE 2026-05-31. Phase 3: 2h 59m (09:06–12:05); Phase 4: 1 sec; Phase 5 v2 wrote bad schema; Phase 5 v3 re-run 16m 55s (12:25–12:42) emitted correct contract; Phase 6: <1 sec. `kw ask` validated against fresh embeddings.parquet (no BinderError; 6-source citations; bge-m3 retrieval times 465-1601 ms).
-- [ ] **EOD batch commit + v1.6 release** — IN PROGRESS tonight. Archive repo: README v1.6 + Phase 2 v4 + Phase 5 v3 + WORKLIST + _decisions_log (3 appended entries). Wiki repo: README v1.6. Then tag `v1.6` + `gh release create v1.6` on Mac for both repos using `/tmp/v1_6_release_body.md`.
-- [ ] **Decide fate of `~/Desktop/kastner_wiki/`** after v1.6.0 ships — recommended deletion (2,845 iCloud collision files; `.git` permission errors; unrecoverable as a working tree). Log decision in `_decisions_log.md` before any `rm -rf`.
+- [x] **EOD batch commit + v1.6 release** — DONE 2026-05-31 PM. Archive commit `954fc1b2`, Wiki commit `e78ce36a`. Both tags `v1.6` pushed and releases published. (Archive tag had to be moved from `2fc84158` → `954fc1b2` and the release republished from draft — new gotcha codified in memory.)
+- [x] **§11j Scripts directory cleanup** — DONE 2026-06-01 AM. Archive repo commit `1efb09d9` reshuffled 25 files via Git Data API (50 tree edits, no blob duplication). `scripts/build/` keeps the 6 canonical pipeline scripts + `_llm_helper`; `scripts/build/_legacy/` holds 8 stale pipeline versions; `scripts/` (flat) holds 17 canonical one-offs; `scripts/_legacy/` holds 17 stale one-offs. Mac (`~/Desktop/Archive/scripts/`) mirrored via `/tmp/_11j_mac_reorg_v1.sh --commit` — same layout but `_legacy/` is a superset (49 vs 17 files) because Mac accumulated more historical work-products. Skill `kastner-archive-pipeline` updated (5 path edits, paths now point to `scripts/build/0X_*.py`) and saved back to library (skill_id preserved). Full entry in `decisions_log_entry_2026_06_01_11j_scripts_cleanup_v1.md` — appended to `_decisions_log.md` in tonight's EOD batch.
+- [x] **§11k Memoir prose drift → memoir-in-repo** — DONE 2026-06-01 AM. Archive repo commit `56b86829`. Source memoir `kastner-author/memoirs/kastner_breadth_memoir.md` (199 lines) shipped with a 4-line "Note on numbers" preface (v1.4 → v1.6 disclosure). Wiki study page `study-kastner-technology-breadth-memoir-2026.md` intentionally NOT patched (Pete: "(a) leave it. move on.") — will self-correct at next full Phase 3 LLM regen. Full entry in `decisions_log_entry_2026_06_01_11k_memoir_in_repo_v1.md`.
+- [x] **§11l `_prescient` total backfill** — DONE 2026-06-01 AM. Archive repo commit `ff73eed5`. Phase 4 patched v2 → v3 with two-totals computed-at-build-time (full filtered population, not just top-50 shown): `**Total: 124** high-prescience studies` + `**Total: 489** holistic-prescience studies` + "top 50 shown below". Pete re-ran Phase 4 on Mac; `_prescient.md` validated. Phase 5 re-embed re-ran 17m 9s (10,301 rows); `kw ask` now returns "**124** high-prescience studies" with `_prescient` citation. Full entry in `decisions_log_entry_2026_06_01_11l_prescient_totals_v1.md`.
+- [x] **§11m Ship 6 Mac-only canonical scripts to archive repo** — DONE 2026-06-01 PM. Archive repo commit `c4fe9c66` (6 adds + 2 v4_2 → _legacy moves, 8 tree edits in one Git Data API batch). Shipped: `download_aberdeen_pdfs.sh`, `extract_missing_dates_v3.py`, `prepare_for_ingest.py`, `roll_up_prescience_to_master_v3.py` (sibling to repo's `roll_up_prescience_v3.py`, not successor), `run_prescience_calibration_v3.py`, `run_prescience_pass_c_v5.py`. Full entry in `decisions_log_entry_2026_06_01_11m_six_scripts_shipped_v1.md`.
+- [x] **§11n Broader scripts audit (Mac working dir vs repo clone)** — DONE 2026-06-01 PM. Archive repo commit `208d8e58` (added `_legacy/refresh_data_layer_v1.py`). 13 differences resolved: 9 cleared by `git pull` (clone was 2 commits behind), 2 by mirroring §11m's `_legacy/` moves on Mac, 1 by recognizing `refresh_data_layer.py` as prototyping leftover (closed v1.6 backlog §9), 4 by copying repo-only files to Mac. Final `diff -rq` returns empty. Zero drift between Mac `~/Desktop/Archive/scripts/` and repo `scripts/` (excluding `_legacy/`). Full entry in `decisions_log_entry_2026_06_01_11n_scripts_audit_v1.md`.
+- [x] **Decide fate of `~/Desktop/kastner_wiki/`** — DONE 2026-06-01 AM. Pete deleted from Desktop after v1.6 rebuild (2026-05-31) confirmed the canonical wiki at `~/Repos/kastner-aberdeen-wiki/` is verified-clean and the v1.6 release tags are pushed on both repos. State at deletion: 279 MB, 13,120 markdown files (vs ~10,301 canonical), 2,845 iCloud collision ghosts, DuckDB stale at 2026-05-30 17:42 (pre-v1.6). Decisions log entry `decisions_log_entry_2026_06_01_kastner_wiki_deletion_v1.md` appended to `_decisions_log.md` in tonight's EOD batch.
 - [ ] Cron `2e191f67` will auto-delete the abandoned v1 quarantine on **2026-06-05 09:00 EDT** — no action needed.
 
 ---
@@ -232,20 +234,13 @@ Raised 2026-05-31. The archive repo has `scripts/build/` (versioned build script
 - [ ] Either consolidate into one directory or document the split (e.g., `scripts/build/` for pipeline phases, `scripts/operational/` for daily tools) in `AGENTS.md`.
 - [ ] See `decisions_log_entry_2026_05_31_scripts_dirs_v1.md` in workspace.
 
-### 11k. Refresh memoir study prose with v1.6 counts
+### 11k. Refresh memoir study prose with v1.6 counts — ✅ SHIPPED 2026-06-01 (path-divergent)
 
-Discovered 2026-05-31 during Phase 5 v3 validation. `wiki/studies/study-kastner-technology-breadth-memoir-2026.md` line 27/35/39 hard-codes "915 studies", "2,537 technologies", "19,175 observations" — these were v1.4-era numbers. Phase 3 doesn't rewrite study bodies (only aggregate index pages), so these stale numbers persist and surface in `kw ask` retrieval whenever the user queries "shape of the archive" or similar.
+Closed 2026-06-01 via **memoir-in-repo** approach rather than wiki-page patch. Source memoir landed at `kastner-author/memoirs/kastner_breadth_memoir.md` (archive commit `56b86829`) with a "Note on numbers" preface disclosing the v1.4 → v1.6 drift. Wiki study page `study-kastner-technology-breadth-memoir-2026.md` will self-correct at next full Phase 3 LLM regen (~3 hours; deferred).
 
-- [ ] Either update the memoir prose in the source markdown to v1.6 numbers (1434 studies, 4312 technologies, 23605 observations) OR add a one-line `Last regen: <date>; counts may lag` footer to the rendered page so the LLM has a freshness signal.
-- [ ] Prefer option 2 (footer) — lower edit cost, transparently signals lag.
+### 11l. Add total count to `_prescient.md` — ✅ SHIPPED 2026-06-01
 
-### 11l. Add total count to `_prescient.md`
-
-Discovered 2026-05-31 during Phase 5 v3 validation. The Phase 3-generated `_prescient.md` page lists the top 50 high-prescience studies in a markdown table but the prose never states "there are 124 studies with prescience_max ≥ 4". `kw ask "how many high prescience studies are there"` correctly reports "no total stated" because the retrieved chunk lacks that sentence.
-
-- [ ] Patch Phase 3's `_prescient.md` generator template to prepend a one-line summary like:
-  > **Total: 124 studies with prescience_max ≥ 4** (as of build 2026-05-31).
-- [ ] Will then surface correctly in `kw ask` retrieval.
+Closed 2026-06-01 via Phase 4 v3 patch (archive commit `ff73eed5`). Two totals now computed at build time from the full filtered population: `**Total: 124** high-prescience studies` + `**Total: 489** holistic-prescience studies` + "top 50 shown below". Phase 5 re-embed (17m 9s) confirmed `kw ask` retrieval correctness.
 
 ---
 
@@ -319,29 +314,47 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-05-31 — v1.6.0 migration + Phase 2/5 fixes + v1.6 release prep)
+## Done this session (2026-06-01 — v1.6.x backlog closure: §11j/§11k/§11l/§11m/§11n + wiki deletion)
+
+**5 commits to `shorttack/aberdeen-group-archive` (`origin/main` at `208d8e58`):**
+
+| # | SHA | What |
+|---|---|---|
+| 1 | `1efb09d9` | §11j scripts cleanup (25 moves, 50 tree edits) |
+| 2 | `ff73eed5` | §11l Phase 4 v3 — prescient totals (two computed-at-build-time totals + "top 50 shown") |
+| 3 | `56b86829` | §11k memoir-in-repo at `kastner-author/memoirs/kastner_breadth_memoir.md` |
+| 4 | `c4fe9c66` | §11m ship 6 Mac-only scripts + v4_2 → _legacy (8 tree edits) |
+| 5 | `208d8e58` | §11n broader scripts audit — `_legacy/refresh_data_layer_v1.py` (closes v1.6 §9) |
+
+**Mac actions:**
+- §11j Mac mirror: 49 stale scripts moved to `_legacy/` via `/tmp/_11j_mac_reorg_v1.sh --commit`; `prepare_for_ingest backup.py` filename-space hazard renamed.
+- §11j Mac canonical refresh: copied `02_build_data_layer_v4.py` + `05_compute_embeddings_v3.py` from repo clone into Mac's new `scripts/build/` (cleared yesterday's bad-schema producer).
+- §11l Mac: Pete ran Phase 4 v3 + Phase 5 v3 (17m 9s re-embed). `kw ask` validates clean against new totals.
+- §11n Mac: `git restore` two May 27 zero-byte truncations (memoir + skill files); `git pull` (ff73eed5 → c4fe9c66); 2× `mv` to `_legacy/` (v4_2 + refresh_data_layer_v1); 4× `cp` from repo clone to working dir.
+- Final state: `diff -rq ~/Desktop/Archive/scripts/ ~/Desktop/Archive/aberdeen-group-archive/scripts/ --exclude=_legacy ...` returns empty (zero drift).
+
+**Wiki deletion:**
+- Deleted deprecated `~/Desktop/kastner_wiki/` (279 MB, 13,120 files including 2,845 iCloud ghosts). Canonical layout migration (§8) fully complete — only `~/Repos/kastner-aberdeen-wiki/` is the live working wiki.
+
+**Skill updates:**
+- `kastner-archive-pipeline` skill updated for §11j (5 path edits + Phase 5 v2→v3 schema description). Saved to library, `skill_id fe5dc1e1-e51d-4f60-88e7-4d2651afa18b` preserved.
+
+**Decisions log entries (6, appended to `_decisions_log.md` in this commit):**
+1. `decisions_log_entry_2026_06_01_11j_scripts_cleanup_v1.md` (111 lines)
+2. `decisions_log_entry_2026_06_01_kastner_wiki_deletion_v1.md` (48 lines)
+3. `decisions_log_entry_2026_06_01_11l_prescient_totals_v1.md` (86 lines)
+4. `decisions_log_entry_2026_06_01_11k_memoir_in_repo_v1.md` (55 lines)
+5. `decisions_log_entry_2026_06_01_11m_six_scripts_shipped_v1.md` (64 lines)
+6. `decisions_log_entry_2026_06_01_11n_scripts_audit_v1.md` (82 lines)
+
+**v1.6 backlog status after today:**
+- §11k, §11l, §11m, §11n: closed.
+- v1.6 §9 (weed `refresh_data_layer.py` sandbox-path leftover): closed by §11n.
+- v1.6 §10 (rename `~/Desktop/kastner_wiki/`): superseded by today's deletion.
+- Open: §5-8 (tier-1 regen, content drift, schema contract, public-wiki push policy), §11c (18 high-prescience hand-check), §11d, §11e, §11f, §11g, §11h, §11i.
 
 _(End-of-day commit clears this section)_
 
-### Pipeline + script fixes (2026-05-31)
-
-- **Phase 2 v3 decade-bug → v4**: DuckDB `/` on INTEGER returns DOUBLE (`(year/10)*10` produced `1990.0` instead of `1990`); broke `1990s` decade string concat. Rewrote v4 to use `//` integer division. Decisions log entry: `decisions_log_entry_2026_05_31_decade_bug_v1.md`. Shipped in EOD batch commit.
-- **Phase 5 v2 schema drift → v3**: Producer wrote `(path, slug, embedding, dim)`; consumer `kw_ask.py` reads `(page_path, page_type, slug, title, vector, dim)`. BinderError surfaced at 12:25 EDT after the unattended chain finished. Built v3 with full 6-column contract + frontmatter parsing; re-ran Phase 5 in 16m 55s. `kw ask` now validates clean. Decisions log entry: `decisions_log_entry_2026_05_31_phase5_v2_to_v3_v1.md`.
-- **Gotcha 9 codified**: "Creators must verify with consumers before committing contractual code" — added to `kastner-archive-pipeline` skill as Gotcha 9 + pre-flight checklist item 16. Pete denied an initial v3 push because the agent hadn't grepped the consumer to verify column references; the empirical contract-verification table is now mandatory.
-
-### v1.6 release artifacts (2026-05-31 PM)
-
-- **Canonical v1.6 description** drafted as single source of truth (`v1_6_canonical_description.md` in workspace). Same 3-line text reused verbatim in archive README, wiki README, and both GitHub Release bodies.
-- **Archive README rewrite**: deleted the duplicate metrics table at top (formerly lines 11-20) and replaced the stale "v1.4 release notes" paragraph with the v1.6 lead. Eliminates 8 of the ~30 per-corpus-update edit points in the README body.
-- **Wiki README rewrite**: H1 bumped from v1.5 to v1.6; v1.6 lead inserted after the Local-first paragraph; two new "What's new in v1.6" bullets (full 1,434-study corpus, Phase 5 v3 schema).
-- **Release block body** prepared (`v1_6_release_body.md`) with title line + canonical paragraph. Same body for both repos.
-
-### Other (2026-05-31)
-
-- Discovered v1.6 corpus content drift: memoir study prose hard-codes v1.4 numbers (915 studies, 19,175 obs); `_prescient.md` shows top-50 table but no total. Added as §11k and §11l backlog items.
-- Scripts-dirs split surfaced as §11j backlog item (`scripts/build/` vs `/Archive/scripts/`).
-- `kastner-archive-pipeline` skill updated in 4 places: v3→v4 Phase 2 references; nomic-embed → bge-m3; Phase 3 timing budget (up to 180 min); Gotcha 9 + pre-flight item 16.
-- Mirror rule A patched into `kastner-new-day`, `kastner-github`, and `kastner-archive-pipeline` skills.
 
 ---
 

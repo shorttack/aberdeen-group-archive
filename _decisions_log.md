@@ -2298,3 +2298,94 @@ v1 is preserved in skill version history (`metadata.version: '1'` in the prior f
 - [ ] Update `kastner-archive-pipeline` cross-skill handoffs to point at `archive-queue-ingest` v2 for daily PDF ingest
 
 ---
+
+---
+
+## 2026-06-02 — §11q Qwen 3.5 → Qwen 3.6-MLX local model upgrade (pack staged)
+
+### Decision
+
+Bump the canonical local LLM from `qwen3.5:27b-mlx` to **`qwen3.6:27b-mlx`** (MLX-native 20 GB tag) across the entire archive script ecosystem via an aggressive Option B refactor: consolidate the model identifier to a single `LOCAL_MODEL` constant in `scripts/build/_llm_helper_v2.py` and have all consumers import it.
+
+### Tag selection rationale
+
+Five `qwen3.6` tags are visible on the Ollama registry as of 2026-06-02:
+
+| Tag | Size | MLX-native? | Fits 48 GB? |
+|---|---|---|---|
+| `qwen3.6:27b-mlx` | 20 GB | ✅ | ✅ |
+| `qwen3.6:27b-mlx-bf16` | 55 GB | ✅ | ❌ |
+| `qwen3.6:27b-mtp-q8_0` | 30 GB | ❌ (GGUF) | ✅ |
+| `qwen3.6:27b` | 17 GB | ❌ | ✅ |
+| `qwen3.6:35b-mlx` | 22 GB | ✅ | ✅ |
+
+Pete's initial request named `27b-mtp-q8_0` but also said "abort if no MLX" — those two constraints conflict. After surfacing the conflict, Pete chose `qwen3.6:27b-mlx`. Rationale:
+
+- MLX-native preserves the Apple-Silicon matmul path (the whole point of the prior `qwen3.5:27b-mlx` choice)
+- 20 GB fits comfortably in 48 GB RAM with ~28 GB headroom for prompt + KV cache
+- Direct lineage successor to `qwen3.5:27b-mlx` — minimum drift in inference characteristics
+- KW retrieval accuracy is preserved by leaving the embedding model (bge-m3, 1024-dim) untouched; the LOCAL_MODEL bump only affects synthesis/scoring, not retrieval
+
+### Refactor approach (Option B = aggressive consolidation)
+
+Rather than search-replace the literal `"qwen3.5:27b-mlx"` in N scripts (Option A = minimum touch), all consumer scripts now import the constant from `_llm_helper_v2.LOCAL_MODEL`. A future model bump becomes a one-line edit in the helper. The cost paid once is six file revisions today; the benefit is structural — drift between scripts is impossible by construction.
+
+Helper API contract: `_llm_helper_v2` is a strict superset of `_llm_helper_v1` (every v1 export survives unchanged). New exports: `LOCAL_MODEL` (str) and `scorer_version_target()` (callable returning the version tag embedded in scorer output filenames).
+
+### Pack contents (7 files, all sandbox-staged, all compile-verified)
+
+| Workspace path | Repo destination | Why touched |
+|---|---|---|
+| `change_local_model_v1.sh` | `scripts/change_local_model_v1.sh` | Installer; pre-flights Ollama, aborts if no MLX tag visible on registry, pulls 20 GB, runs a one-shot smoke test |
+| `change_local_model_v1_README.md` | `scripts/change_local_model_v1_README.md` | Operator guide: install sequence, verification, rollback, 7-day retention plan |
+| `_llm_helper_v2.py` | `scripts/build/_llm_helper_v2.py` | `LOCAL_MODEL = "qwen3.6:27b-mlx"`; v1 API preserved |
+| `04_generate_indices_v4.py` | `scripts/build/04_generate_indices_v4.py` | Replaces hardcoded line 242 with `LOCAL_MODEL` import |
+| `06_emit_scaffolding_v2.py` | `scripts/build/06_emit_scaffolding_v2.py` | Templates use `__LOCAL_MODEL__` sentinel, substituted at write time |
+| `pre_filter_scoreable_obs_v5.py` | `scripts/pre_filter_scoreable_obs_v5.py` | Imports `scorer_version_target()` from helper; output filenames bumped v4 → v5 |
+| `run_prescience_calibration_v4.py` | `scripts/run_prescience_calibration_v4.py` | `argparse` defaults updated (both `qwen3.6:27b-mlx` and `qwen3.6:35b-mlx` lineage tags) |
+
+Refactor pattern used in all four consumers (try-import with hardcoded fallback that MUST match the helper exactly):
+
+```python
+try:
+    _here = Path(__file__).resolve().parent
+    sys.path.insert(0, str(_here / "build"))
+    from _llm_helper_v2 import LOCAL_MODEL
+except ImportError as _e:
+    print(f"[<script>] WARNING: could not import _llm_helper_v2 ({_e}); using hardcoded fallback.", file=sys.stderr)
+    LOCAL_MODEL = "qwen3.6:27b-mlx"  # MUST match helper exactly
+```
+
+### Producer/consumer verification (Gotcha 9 check)
+
+Confirmed prior to commit:
+1. `_llm_helper_v2.py` exports `LOCAL_MODEL` and `scorer_version_target` — verified by reading the actual symbol definitions, not the docstring.
+2. All 4 consumers reference exactly those symbol names — verified via the import line of each script.
+3. Hardcoded fallback string in each consumer = `"qwen3.6:27b-mlx"` = helper's `LOCAL_MODEL` value. Strict equality.
+4. GitHub code search across both public repos confirmed no external consumer of the string `"qwen3.5:27b-mlx_passC_v2"` — safe to bump `scorer_version_target()` return value.
+
+### Not in this pack (deferred 7 days per Pete decision)
+
+The wiki repo `shorttack/kastner-aberdeen-wiki` also references the old model in two places:
+- `scripts/kw_ask.py` line 39: `DEFAULT_LLM = "qwen3.5:27b-mlx"` (daily-driver query tool)
+- `bin/kw` line 8: doc-comment reference
+
+The wiki repo has no `_llm_helper`, so consolidating it requires a small additional refactor. Per Pete's call, this ships post-soak (after 2026-06-09) once the archive-side bump has proven stable in daily use.
+
+### Retention
+
+Both models stay installed for 7 days. Rollback during the soak window is a one-line edit to `_llm_helper_v2.LOCAL_MODEL`. After 2026-06-09, `ollama rm qwen3.5:27b-mlx` to reclaim ~20 GB.
+
+### Standing rules honored
+
+- Forever-archive: every file is `_v1` or `_vN+1`; no overwrite of older versions in the repo.
+- Scripts location: build-phase scripts at `scripts/build/`, root utilities at `scripts/`.
+- Author identity: this commit will be authored as `shorttack` (the password-incident hygiene rule).
+- Producer/consumer contract verified empirically, not via docstring trust (Gotcha 9).
+- Pete will run the installer on his Mac himself — sandbox only ships the pack.
+
+### Next session pickup
+
+- Day-of (Pete): `git pull` on `aberdeen-group-archive`, copy the 7 files into `~/Desktop/Archive/scripts{,/build}/`, run the installer with `--commit` to pull the 20 GB model, exercise it.
+- Day 7 (2026-06-09): post-soak review. If stable, ship the wiki-repo `kw_ask` update; remove `qwen3.5:27b-mlx`.
+

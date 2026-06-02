@@ -1,7 +1,7 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-06-01 PM (v1.6.x backlog closure: §11k memoir-in-repo, §11l prescient totals, §11m ship 6 Mac-only scripts, §11n broader scripts audit — all closed)
-**Current ship state:** **v1.6 EOD batch commit pending tonight** on both `shorttack/aberdeen-group-archive` and `shorttack/kastner-aberdeen-wiki`. Phase 1+2 v4 ran clean against `~/Repos/kastner-aberdeen-wiki/` (shape: 1434/23605/3207/4312/1434/6/124). Phase 3-6 ran 09:06–12:23 EDT. Phase 5 v2 wrote bad schema; rebuilt as v3 (page_path/page_type/slug/title/vector/dim contract); re-ran in 16m 55s; `kw ask` now passes (Gotcha 7 + Gotcha 9 codified). 1434/1434 studies have pub_year; **492/1434 prescience-scored via Pass C cloud (sonar-reasoning-pro + claude-sonnet-4.6)** — rolled up; **489 studies high prescience operationally** (`study_prescience_enum`); **124 high via obs-evidence layer** (`v_studies_with_high_prescience`); bge-m3:latest is the canonical embedding model.
+**Last updated:** 2026-06-02 AM (resuming after §11o ship + git-author password leak found & closed; new lane §11q Qwen 3.6-mlx upgrade pack staged)
+**Current ship state:** archive `origin/main` at `62d5df3e` (§11o EOD: v3 PDF-routing script + revised skill v2 design + revised §11o decisions log + WORKLIST diff). Wiki `origin/main` unchanged from v1.6 release. **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found on 2026-06-01 PM, password rotated, Mac local + GitHub profile both reset to `shorttack` (the API commit `07b2458f` made under the bad name was amended to `62d5df3e` before Pete noticed). 976 historical commits across the two public repos still carry the dead-string "Catalina" in Author metadata — left in place since the credential is rotated. Phase 1+2 v4 baseline holds: 1434/23605/3207/4312/1434/6/124; 1434/1434 studies have pub_year; 492/1434 Pass C cloud-scored; 489 high (operational), 124 high (evidence layer); bge-m3:latest canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
 
@@ -14,6 +14,9 @@ How to use:
 
 ## Next up
 
+- [ ] **§11q Qwen 3.6-27B-MLX upgrade** (staged 2026-06-02 AM) — install + B-refactor pack ready in workspace; awaits Pete's `git pull` + `bash change_local_model_v1.sh --commit` on Mac. Pack: `change_local_model_v1.sh` (install + abort-if-no-MLX), `_llm_helper_v2.py` (LOCAL_MODEL constant, single source of truth), `04_generate_indices_v4.py` / `06_emit_scaffolding_v2.py` / `pre_filter_scoreable_obs_v5.py` / `run_prescience_calibration_v4.py` (all import from helper). Old `qwen3.5:27b-mlx` kept until 2026-06-09. Wiki-repo `kw_ask.py` `DEFAULT_LLM` NOT touched in this pack — Pete decision pending.
+- [ ] **§11o first live exercise:** drop 2-3 PDFs into `~/Desktop/Archive/_ingest_queue/` and walk Pass 1 → review → Pass 2 dry-run → `--commit` using `prepare_for_ingest_v3.py`. Validate SHA fast-path against a known DUPLICATE; validate BETTER heuristic against a known higher-res rescan; confirm public archive untouched on BETTER ACCEPT. Pete on Mac first: `cd ~/Desktop/Archive/aberdeen-group-archive && git pull && cp scripts/prepare_for_ingest_v3.py ~/Desktop/Archive/scripts/`.
+- [ ] **§11p Git-author password leak postmortem** (new, raised 2026-06-01) — write a forever-archive memo on the credential exposure: how `git config user.name` and GitHub profile name both ended up as a password, the 976-commit blast radius, the API-commit identity gotcha (token uses GitHub profile name, not local Mac config), and the discovery path. Decide if any wiki/skill text needs to warn future operators.
 - [x] **EOD batch commit + v1.6 release** — DONE 2026-05-31 PM. Archive commit `954fc1b2`, Wiki commit `e78ce36a`. Both tags `v1.6` pushed and releases published. (Archive tag had to be moved from `2fc84158` → `954fc1b2` and the release republished from draft — new gotcha codified in memory.)
 - [x] **§11j Scripts directory cleanup** — DONE 2026-06-01 AM. Archive repo commit `1efb09d9` reshuffled 25 files via Git Data API (50 tree edits, no blob duplication). `scripts/build/` keeps the 6 canonical pipeline scripts + `_llm_helper`; `scripts/build/_legacy/` holds 8 stale pipeline versions; `scripts/` (flat) holds 17 canonical one-offs; `scripts/_legacy/` holds 17 stale one-offs. Mac (`~/Desktop/Archive/scripts/`) mirrored via `/tmp/_11j_mac_reorg_v1.sh --commit` — same layout but `_legacy/` is a superset (49 vs 17 files) because Mac accumulated more historical work-products. Skill `kastner-archive-pipeline` updated (5 path edits, paths now point to `scripts/build/0X_*.py`) and saved back to library (skill_id preserved). Full entry in `decisions_log_entry_2026_06_01_11j_scripts_cleanup_v1.md` — appended to `_decisions_log.md` in tonight's EOD batch.
 - [x] **§11k Memoir prose drift → memoir-in-repo** — DONE 2026-06-01 AM. Archive repo commit `56b86829`. Source memoir `kastner-author/memoirs/kastner_breadth_memoir.md` (199 lines) shipped with a 4-line "Note on numbers" preface (v1.4 → v1.6 disclosure). Wiki study page `study-kastner-technology-breadth-memoir-2026.md` intentionally NOT patched (Pete: "(a) leave it. move on.") — will self-correct at next full Phase 3 LLM regen. Full entry in `decisions_log_entry_2026_06_01_11k_memoir_in_repo_v1.md`.
@@ -345,44 +348,15 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-06-01 — v1.6.x backlog closure: §11j/§11k/§11l/§11m/§11n + wiki deletion)
+## Done this session (2026-06-02 — §11q Qwen 3.6 upgrade pack)
 
-**5 commits to `shorttack/aberdeen-group-archive` (`origin/main` at `208d8e58`):**
-
-| # | SHA | What |
-|---|---|---|
-| 1 | `1efb09d9` | §11j scripts cleanup (25 moves, 50 tree edits) |
-| 2 | `ff73eed5` | §11l Phase 4 v3 — prescient totals (two computed-at-build-time totals + "top 50 shown") |
-| 3 | `56b86829` | §11k memoir-in-repo at `kastner-author/memoirs/kastner_breadth_memoir.md` |
-| 4 | `c4fe9c66` | §11m ship 6 Mac-only scripts + v4_2 → _legacy (8 tree edits) |
-| 5 | `208d8e58` | §11n broader scripts audit — `_legacy/refresh_data_layer_v1.py` (closes v1.6 §9) |
-
-**Mac actions:**
-- §11j Mac mirror: 49 stale scripts moved to `_legacy/` via `/tmp/_11j_mac_reorg_v1.sh --commit`; `prepare_for_ingest backup.py` filename-space hazard renamed.
-- §11j Mac canonical refresh: copied `02_build_data_layer_v4.py` + `05_compute_embeddings_v3.py` from repo clone into Mac's new `scripts/build/` (cleared yesterday's bad-schema producer).
-- §11l Mac: Pete ran Phase 4 v3 + Phase 5 v3 (17m 9s re-embed). `kw ask` validates clean against new totals.
-- §11n Mac: `git restore` two May 27 zero-byte truncations (memoir + skill files); `git pull` (ff73eed5 → c4fe9c66); 2× `mv` to `_legacy/` (v4_2 + refresh_data_layer_v1); 4× `cp` from repo clone to working dir.
-- Final state: `diff -rq ~/Desktop/Archive/scripts/ ~/Desktop/Archive/aberdeen-group-archive/scripts/ --exclude=_legacy ...` returns empty (zero drift).
-
-**Wiki deletion:**
-- Deleted deprecated `~/Desktop/kastner_wiki/` (279 MB, 13,120 files including 2,845 iCloud ghosts). Canonical layout migration (§8) fully complete — only `~/Repos/kastner-aberdeen-wiki/` is the live working wiki.
-
-**Skill updates:**
-- `kastner-archive-pipeline` skill updated for §11j (5 path edits + Phase 5 v2→v3 schema description). Saved to library, `skill_id fe5dc1e1-e51d-4f60-88e7-4d2651afa18b` preserved.
-
-**Decisions log entries (6, appended to `_decisions_log.md` in this commit):**
-1. `decisions_log_entry_2026_06_01_11j_scripts_cleanup_v1.md` (111 lines)
-2. `decisions_log_entry_2026_06_01_kastner_wiki_deletion_v1.md` (48 lines)
-3. `decisions_log_entry_2026_06_01_11l_prescient_totals_v1.md` (86 lines)
-4. `decisions_log_entry_2026_06_01_11k_memoir_in_repo_v1.md` (55 lines)
-5. `decisions_log_entry_2026_06_01_11m_six_scripts_shipped_v1.md` (64 lines)
-6. `decisions_log_entry_2026_06_01_11n_scripts_audit_v1.md` (82 lines)
-
-**v1.6 backlog status after today:**
-- §11k, §11l, §11m, §11n: closed.
-- v1.6 §9 (weed `refresh_data_layer.py` sandbox-path leftover): closed by §11n.
-- v1.6 §10 (rename `~/Desktop/kastner_wiki/`): superseded by today's deletion.
-- Open: §5-8 (tier-1 regen, content drift, schema contract, public-wiki push policy), §11c (18 high-prescience hand-check), §11d, §11e, §11f, §11g, §11h, §11i.
+- Verified Qwen 3.6-27B-MLX exists on Ollama registry (`qwen3.6:27b-mlx`, ~20 GB); resolved Pete's three-way constraint ("abort if no MLX" + "do not sacrifice KW retrieval accuracy" + original `qwen3.6:27b-mtp-q8_0` tag intent) by going MLX-native.
+- Inventoried 6 canonical scripts referencing `qwen3.5:27b-mlx`: `_llm_helper_v1.py` (LOCAL_MODEL constant), `04_generate_indices_v2.py`/`_v3.py` (template strings), `06_emit_scaffolding_v1.py` (template strings ×2), `pre_filter_scoreable_obs_v4.py` (`scorer_version_target` + ETA), `run_prescience_calibration_v3.py` (argparse default + docs).
+- Discovered 7th touchpoint in WIKI repo (`scripts/kw_ask.py` DEFAULT_LLM) — NOT included in this pack, flagged for Pete decision.
+- Confirmed `05_compute_embeddings_v3.py` (bge-m3) is orthogonal — KW retrieval untouched.
+- Confirmed via GH code search that no consumer reads the exact string `"qwen3.5:27b-mlx_passC_v2"` — safe to bump.
+- Wrote 7-file pack: `change_local_model_v1.sh` + README, `_llm_helper_v2.py`, `04_generate_indices_v4.py`, `06_emit_scaffolding_v2.py`, `pre_filter_scoreable_obs_v5.py`, `run_prescience_calibration_v4.py`. All compile-checked, all consumers verified to import LOCAL_MODEL via try/except + hardcoded fallback that matches helper.
+- Aggressive B-refactor: 04/06/pre_filter all converted from hardcoded model strings to helper imports. Eliminates Gotcha 9 drift between runtime model and emitted-doc model.
 
 _(End-of-day commit clears this section)_
 

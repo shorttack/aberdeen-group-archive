@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-06-02 AM (resuming after §11o ship + git-author password leak found & closed; new lane §11q Qwen 3.6-mlx upgrade pack staged)
+**Last updated:** 2026-06-04 AM (§11r Archive cleanup of late-May one-time backups DONE on Mac — not yet committed; §11s Kastner blog 2005 1H synthesis study lane opened, deferred)
 **Current ship state:** archive `origin/main` at `62d5df3e` (§11o EOD: v3 PDF-routing script + revised skill v2 design + revised §11o decisions log + WORKLIST diff). Wiki `origin/main` unchanged from v1.6 release. **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found on 2026-06-01 PM, password rotated, Mac local + GitHub profile both reset to `shorttack` (the API commit `07b2458f` made under the bad name was amended to `62d5df3e` before Pete noticed). 976 historical commits across the two public repos still carry the dead-string "Catalina" in Author metadata — left in place since the credential is rotated. Phase 1+2 v4 baseline holds: 1434/23605/3207/4312/1434/6/124; 1434/1434 studies have pub_year; 492/1434 Pass C cloud-scored; 489 high (operational), 124 high (evidence layer); bge-m3:latest canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -14,7 +14,8 @@ How to use:
 
 ## Next up
 
-- [ ] **§11q Qwen 3.6-27B-MLX upgrade** (staged 2026-06-02 AM) — install + B-refactor pack ready in workspace; awaits Pete's `git pull` + `bash change_local_model_v1.sh --commit` on Mac. Pack: `change_local_model_v1.sh` (install + abort-if-no-MLX), `_llm_helper_v2.py` (LOCAL_MODEL constant, single source of truth), `04_generate_indices_v4.py` / `06_emit_scaffolding_v2.py` / `pre_filter_scoreable_obs_v5.py` / `run_prescience_calibration_v4.py` (all import from helper). Old `qwen3.5:27b-mlx` kept until 2026-06-09. Wiki-repo `kw_ask.py` `DEFAULT_LLM` NOT touched in this pack — Pete decision pending.
+- [ ] **§11q Qwen 3.6 rollback — pending Pete pull-and-copy on Mac.** Archive `origin/main` at `f40ad150` (rollback bump). Pete still needs to run on Mac: `cd ~/Desktop/Archive/aberdeen-group-archive && git pull && cp scripts/build/_llm_helper_v4.py scripts/build/04_generate_indices_v6.py scripts/build/06_emit_scaffolding_v4.py ~/Desktop/Archive/scripts/build/ && cp scripts/pre_filter_scoreable_obs_v7.py ~/Desktop/Archive/scripts/`. After copy: LOCAL_MODEL resolves to `qwen3.5:27b-mlx`. Qwen 3.6 model stays installed for future re-evaluation but is not in active use. Wiki-repo `kw_ask.py` `DEFAULT_LLM` was never touched (decision deferred and now moot — no upgrade landed).
+- [x] **NEW skill `local-model-upgrade-gates` v1.0** — DONE 2026-06-02 PM. Saved to user skill library (skill_id `0fda0938-7ab8-4670-838a-70b19bcb4b49`). Codifies the 4-gate decision flow (independent benchmark review → workload mapping → paper smoke-test → real hardware A/B) that would have stopped §11q at Gate 1 for 5 minutes of reading instead of ~3 hours of pull+debug+rollback. Three LOCKED fixtures (Phase 3 study page, kw_ask synthesis, Pass C scoring) reused across all future model evaluations so candidates are apples-to-apples comparable. Includes generalized `scripts/run_gates.py` Gate-4 A/B runner that takes incumbent+candidate as CLI flags. §11q evidence trail preserved under `references/decisions_log_11q_2026_06_02.md`.
 - [ ] **§11o first live exercise:** drop 2-3 PDFs into `~/Desktop/Archive/_ingest_queue/` and walk Pass 1 → review → Pass 2 dry-run → `--commit` using `prepare_for_ingest_v3.py`. Validate SHA fast-path against a known DUPLICATE; validate BETTER heuristic against a known higher-res rescan; confirm public archive untouched on BETTER ACCEPT. Pete on Mac first: `cd ~/Desktop/Archive/aberdeen-group-archive && git pull && cp scripts/prepare_for_ingest_v3.py ~/Desktop/Archive/scripts/`.
 - [ ] **§11p Git-author password leak postmortem** (new, raised 2026-06-01) — write a forever-archive memo on the credential exposure: how `git config user.name` and GitHub profile name both ended up as a password, the 976-commit blast radius, the API-commit identity gotcha (token uses GitHub profile name, not local Mac config), and the discovery path. Decide if any wiki/skill text needs to warn future operators.
 - [x] **EOD batch commit + v1.6 release** — DONE 2026-05-31 PM. Archive commit `954fc1b2`, Wiki commit `e78ce36a`. Both tags `v1.6` pushed and releases published. (Archive tag had to be moved from `2fc84158` → `954fc1b2` and the release republished from draft — new gotcha codified in memory.)
@@ -25,6 +26,14 @@ How to use:
 - [x] **§11n Broader scripts audit (Mac working dir vs repo clone)** — DONE 2026-06-01 PM. Archive repo commit `208d8e58` (added `_legacy/refresh_data_layer_v1.py`). 13 differences resolved: 9 cleared by `git pull` (clone was 2 commits behind), 2 by mirroring §11m's `_legacy/` moves on Mac, 1 by recognizing `refresh_data_layer.py` as prototyping leftover (closed v1.6 backlog §9), 4 by copying repo-only files to Mac. Final `diff -rq` returns empty. Zero drift between Mac `~/Desktop/Archive/scripts/` and repo `scripts/` (excluding `_legacy/`). Full entry in `decisions_log_entry_2026_06_01_11n_scripts_audit_v1.md`.
 - [x] **Decide fate of `~/Desktop/kastner_wiki/`** — DONE 2026-06-01 AM. Pete deleted from Desktop after v1.6 rebuild (2026-05-31) confirmed the canonical wiki at `~/Repos/kastner-aberdeen-wiki/` is verified-clean and the v1.6 release tags are pushed on both repos. State at deletion: 279 MB, 13,120 markdown files (vs ~10,301 canonical), 2,845 iCloud collision ghosts, DuckDB stale at 2026-05-30 17:42 (pre-v1.6). Decisions log entry `decisions_log_entry_2026_06_01_kastner_wiki_deletion_v1.md` appended to `_decisions_log.md` in tonight's EOD batch.
 - [ ] Cron `2e191f67` will auto-delete the abandoned v1 quarantine on **2026-06-05 09:00 EDT** — no action needed.
+- [x] **§11r Archive cleanup of late-May one-time directories** — DONE 2026-06-04 AM on Mac (NOT YET COMMITTED to repo). Script `archive_cleanup_v1.sh` ran clean: 16 directories MOVED to `~/Desktop/Archive_legacy_2026_May/`, 1 DELETED (`__pycache__`). Moved: 5 `incoming-bucket-{B,C,D,E}` + `incoming-existing` + `bucket-A-processed` + 6 `archive_masters_pre_*` backups + `v1.5_workspace` + `kastner_duckdb_build` + `prepared_dropped_dups` + `logs/zip_test2`. Active dirs untouched: `aberdeen-group-archive/`, `archive_masters/`, `incoming-bucket-A/`, `kastner_wiki/`, `prepared/`, `scripts/`, `_pass_c_abandoned_runs/`. Script lives on Mac at `~/Desktop/Archive/scripts/archive_cleanup_v1.sh` and in workspace; not yet shipped to repo. Forever-archive principle preserved — nothing destroyed except regenerable `__pycache__`. Decision pending: ship `archive_cleanup_v1.sh` to `scripts/` in next EOD batch (Y/N).
+- [ ] **§11s Kastner blog 2005 1H synthesis study** (deferred 2026-06-04 AM). Material: Google Blogger export, 2922 lines, ~60 entries Feb-Jun 2005, Pete owns the words. Decision: lean to one synthesis study (option 3 from neutral analysis) over per-post Pass C ingestion or new 7th collection type. Working file in workspace: `kastner_blogspot_content.md`. Plan:
+   - Pete edits the input MD and supplies curated content (which predictions to feature, his framing).
+   - Synthesis study `kastner-blog-synthesis-2005-1h.md` drafted from curated content using existing methodology-demo / memoir template. Collection type `technology_topic` (no new 7th type just for one study).
+   - Source bodies preserved in `shorttack/kastner-restricted-sources/blog/blogspot_2005_export.md`.
+   - **Argument-of-record requirement**: Pete wants an opportunity to argue prescience scores before they land. Example basis: on DIY-servers Pete's 2005 audience was enterprise IT buyers for whom hyperscaler-style ODM procurement was not yet an option; the 2010+ ODM/OCP outcome doesn't retroactively make the 2005 directional call wrong for the audience he was writing for. Operational rule: each prediction in the synthesis gets a Pete-assigned score AND a model-assigned score; disagreements get a rationale paragraph from Pete. The synthesis study Pass C score is Pete's call, not the model's.
+   - Two Jan 2006 entries in tranche are out of scope for the 1H 2005 synthesis but retained for whatever 2H2005/2006 round comes next.
+   - Other blogs Pete recalls writing post-Aberdeen: to be located in future session.
 
 ---
 
@@ -348,15 +357,34 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-06-02 — §11q Qwen 3.6 upgrade pack)
+## Done this session (2026-06-02 — §11q Qwen 3.6 attempted, rolled back; gates skill created)
 
+### AM — §11q Qwen 3.6 upgrade pack staged (commit `09ffd653`)
 - Verified Qwen 3.6-27B-MLX exists on Ollama registry (`qwen3.6:27b-mlx`, ~20 GB); resolved Pete's three-way constraint ("abort if no MLX" + "do not sacrifice KW retrieval accuracy" + original `qwen3.6:27b-mtp-q8_0` tag intent) by going MLX-native.
-- Inventoried 6 canonical scripts referencing `qwen3.5:27b-mlx`: `_llm_helper_v1.py` (LOCAL_MODEL constant), `04_generate_indices_v2.py`/`_v3.py` (template strings), `06_emit_scaffolding_v1.py` (template strings ×2), `pre_filter_scoreable_obs_v4.py` (`scorer_version_target` + ETA), `run_prescience_calibration_v3.py` (argparse default + docs).
-- Discovered 7th touchpoint in WIKI repo (`scripts/kw_ask.py` DEFAULT_LLM) — NOT included in this pack, flagged for Pete decision.
-- Confirmed `05_compute_embeddings_v3.py` (bge-m3) is orthogonal — KW retrieval untouched.
-- Confirmed via GH code search that no consumer reads the exact string `"qwen3.5:27b-mlx_passC_v2"` — safe to bump.
-- Wrote 7-file pack: `change_local_model_v1.sh` + README, `_llm_helper_v2.py`, `04_generate_indices_v4.py`, `06_emit_scaffolding_v2.py`, `pre_filter_scoreable_obs_v5.py`, `run_prescience_calibration_v4.py`. All compile-checked, all consumers verified to import LOCAL_MODEL via try/except + hardcoded fallback that matches helper.
-- Aggressive B-refactor: 04/06/pre_filter all converted from hardcoded model strings to helper imports. Eliminates Gotcha 9 drift between runtime model and emitted-doc model.
+- Inventoried 6 canonical scripts referencing `qwen3.5:27b-mlx`; aggressive B-refactor converted 04/06/pre_filter from hardcoded model strings to helper imports.
+- Shipped 7-file pack via Git Data API batch.
+
+### PM — Hot-fix #1: curl/grep/pipefail bug (commit `404022a6`)
+- Pete's install transcript showed `change_local_model_v1.sh` failing at pre-flight 3 with `curl exit 56` — `curl -fsS ... | grep -q PATTERN` under `set -o pipefail` returns 1 even when grep matches. Fixed by downloading to tempfile first, grepping the file. v2 ran clean and pulled the 20 GB model.
+
+### PM — Hot-fix #2: Ollama 0.24+ top-level `think:false` flag (commit `c9d173a8`)
+- Pete's first smoke test returned empty response with `eval_count: 64`. Diagnosed Qwen 3.6 hybrid-thinking model swallowing visible tokens inside `<think>...</think>` because `think:false` was nested inside `options` instead of being a top-level request key.
+- Shipped 5-file fix: `_llm_helper_v3.py` separates `LOCAL_TOPLEVEL = {"think": False, "keep_alive": "30m"}` from `LOCAL_OPTIONS` (sampling) and splats LOCAL_TOPLEVEL into the request body at top level. Plus `change_local_model_v3.sh` + 3 consumer bumps (v5/v3/v6).
+- Second smoke test passed.
+
+### PM — Paper comparison and ROLLBACK decision (commits `d05dea1b`, `f40ad150`)
+- Pete asked for 3.5 vs 3.6 comparison for Phase 3 + kw_ask AFTER the 20 GB pull. Researched via Kaitchup substack + Artificial Analysis + Unsloth.
+- Finding: Qwen 3.6 is significantly worse than 3.5 on IFBench (instruction-following) and GPQA Diamond. 3.6 wins are in agentic coding, AIME math, MMLU Pro — none of which Pete's workloads use.
+- Pete's workloads (Phase 3 wiki gen, kw_ask synthesis, Pass C scoring) are template-discipline + citation-discipline + structured-output workloads → 3.5 is the right model.
+- Rollback shipped: `_llm_helper_v4.py` pins `LOCAL_MODEL = "qwen3.5:27b-mlx"`; consumers bumped to v6/v4/v7 to import from v4. Pete to pull + copy on Mac next session.
+
+### PM — NEW user skill `local-model-upgrade-gates` v1.0 (saved to library)
+- Skill ID: `0fda0938-7ab8-4670-838a-70b19bcb4b49`. Saved via `save_custom_skill` to user scope.
+- Codifies 4-gate decision flow: Gate 1 (5 min benchmark review on Kaitchup/ArtificialAnalysis) → Gate 2 (3 min workload mapping) → Gate 3 (10 min paper smoke-test against fixtures) → Gate 4 (model pull + 30 min A/B run).
+- Three LOCKED fixtures live at `assets/fixtures/`: `phase3_study_page.md`, `kw_ask_synthesis.md`, `pass_c_scoring.md`. Fixtures NEVER change between candidate evaluations so models are apples-to-apples comparable.
+- Generalized `scripts/run_gates.py` Gate-4 runner takes `--incumbent` + `--candidate` as CLI flags, calls Ollama `/api/generate` non-streaming with top-level `think:false`, grades all 3 fixtures against structural criteria, writes `summary.md` + `decision.md` + `raw_outputs/` to `model_eval_<tag>_<date>/`.
+- §11q evidence trail preserved verbatim under `references/decisions_log_11q_2026_06_02.md` — including the two production bug-fixes (curl/grep/pipefail; top-level think:false) that survive the rollback.
+- Replay finding: Gate 1 alone would have stopped §11q with 5 minutes of reading Kaitchup. Net savings against avoiding the pull-and-debug cycle: ~3 hours, 1 model pull, 4 unnecessary commits.
 
 _(End-of-day commit clears this section)_
 

@@ -8,7 +8,7 @@
 > **Proposed study slug:** `2026-kastner-tpc-longitudinal`
 > **License:** CC-BY-4.0
 > **v2 changes:** Incorporated live kw-ask results (2026-06-07). Added Aberdeen Transaction Services practice area; confirmed Stratus audit; added Tandem 1985 study; resolved entity slug proliferation; corrected TPC-A spec date (November 1989); added `dectp` and `stratus-tpf` technology slugs.
-> **v3 changes:** Incorporated three source documents attached by Pete (2026-06-07): Tandem TR 85.2 (1985 full technical report), DECtp DEC Journal Vol 3 No 1 Winter 1991, TPC Evolution memo (Levine/Gray/Kiss/Kohler, 1993). Added Appendix C with source text anchors. Updated THREAD-1 with 1985 pricing methodology distinction (terminals excluded). Updated THREAD-2/THREAD-7 with TPC Evolution data (8→42 members, tpmC metric, 5-transaction-type breakdown). Updated THREAD-5 with 33 K$/tps → 6 K$/tps arc from primary source. Updated §9.1 source studies table. Added Walt Kohler as named bridge figure (DEC Littleton, co-author DECtp Journal TPC-A paper and TPC Evolution memo). Kastner NOT named in DECtp Journal — his role is ecosystem participant/auditor, not journal author.
+> **v3 changes (updated):** Added §9.1c memoir chapter assembly guide (ch05/ch06/ch07 study_ids, Westwood Midnight Ambush OBS refs, specsmanship bridge, WORKLIST §21 tagging gap note, DuckDB pull query). Original v3 changes: Incorporated three source documents attached by Pete (2026-06-07): Tandem TR 85.2 (1985 full technical report), DECtp DEC Journal Vol 3 No 1 Winter 1991, TPC Evolution memo (Levine/Gray/Kiss/Kohler, 1993). Added Appendix C with source text anchors. Updated THREAD-1 with 1985 pricing methodology distinction (terminals excluded). Updated THREAD-2/THREAD-7 with TPC Evolution data (8→42 members, tpmC metric, 5-transaction-type breakdown). Updated THREAD-5 with 33 K$/tps → 6 K$/tps arc from primary source. Updated §9.1 source studies table. Added Walt Kohler as named bridge figure (DEC Littleton, co-author DECtp Journal TPC-A paper and TPC Evolution memo). Kastner NOT named in DECtp Journal — his role is ecosystem participant/auditor, not journal author.
 
 ---
 
@@ -640,6 +640,34 @@ These three documents were attached by Pete during the v3 session. They are comm
 | `A-Measure-of-Transaction-Processing-Power-Tandem-85.2.pdf` | Tandem TR 85.2, February 1985. Full technical report behind the Datamation April 1, 1985 article. Defines Debitcredit, Scan, Sort benchmarks. Authors: Anon et al. Workload lineage for TPC-A. | `kastner-author/2026-kastner-tpc-sources/A-Measure-of-Transaction-Processing-Power-Tandem-85.2.pdf` |
 | `DECtp-DEC-Journal-1991-q1-2.pdf` | Digital Technical Journal Vol 3 No 1, Winter 1991. Theme: Transaction Processing, Databases, and Fault-tolerant Systems. Contains Kohler/Hsu/Rogers/Bahaa-El-Din paper on DEC TPC-A implementation. Kastner NOT named — his role is ecosystem participant/auditor. | `kastner-author/2026-kastner-tpc-sources/DECtp-DEC-Journal-1991-q1-2.pdf` |
 | `TPC_Evolution-3.txt` | "The Evolution of TPC Benchmarks: Why TPC-A and TPC-B are Obsolete." Levine (Tandem), Gray (DEC SF Systems Center), Kiss (IBM), Kohler (DEC Littleton). SFSC Technical Report 93.1, September 1993. Primary source for TPC membership arc (8→42), tpmC metric, TPC-C spec rationale, six TPC-A problems. | `kastner-author/2026-kastner-tpc-sources/TPC_Evolution-3.txt` |
+
+### 9.1c Memoir chapters with confirmed TPC-era first-person content
+
+Three memoir chapters cover the TPC era directly and should be read alongside the Aberdeen studies during assembly. Their observations are in `v_observations` but carry **no `tech_id` or `entity_id` TPC tags** — a known extraction gap tracked as WORKLIST §21. Pull them by `study_id` directly, not by slug.
+
+| study_id | Chapter | Dates | Key TPC content |
+|---|---|---|---|
+| `volume-1-ch05-stratus-fault-tolerant-wars-1981-1987` | Ch05 | 1981–1987 | Stratus vs. Tandem competitive context; Kastner's Debit/Credit benchmark experience origins; fault-tolerant TP market framing |
+| `volume-1-ch06-dec-mainframes-last-stand-1987-1988` | Ch06 | 1987–1988 | **Westwood Midnight Ambush** (OBS-016 to OBS-035): blind DEC vs. IBM 3090 Debit/Credit benchmark; specsmanship sidebar (OBS-034/035); DECtp press event and sales impact (OBS-032); Kastner's direct Debit/Credit role |
+| `volume-1-ch07-founding-aberdeen-1988-1997` | Ch07 | 1988–1997 | Aberdeen founding; Aberdeen Transaction Services auditor role **not yet present in extracted observations** — content gap flagged in WORKLIST §21 |
+
+**DuckDB query to pull all three chapters during assembly:**
+```bash
+duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "
+SELECT obs_id, study_id, entity_id, tech_id, obs_type, year_observed,
+       metric_name, metric_value
+FROM v_observations
+WHERE study_id IN (
+  'volume-1-ch05-stratus-fault-tolerant-wars-1981-1987',
+  'volume-1-ch06-dec-mainframes-last-stand-1987-1988',
+  'volume-1-ch07-founding-aberdeen-1988-1997'
+)
+ORDER BY study_id, obs_id;"
+```
+
+**Note on ch06 OBS-034/035 (specsmanship sidebar):** These two observations are the direct narrative bridge between the pre-TPC benchmarketing era and TPC's founding rationale. They belong in THREAD-1 and THREAD-2 of the study.
+
+---
 
 ### 9.2 To surface via kw-ask
 

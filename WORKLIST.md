@@ -324,6 +324,52 @@ Canonical slug: **`tpc-council`**.
 - [ ] After `--commit`: run Phase 1 + Phase 2 to rebuild DuckDB; verify entity counts unchanged; confirm `kw ask` returns `tpc-council` for TPC org queries.
 - [ ] Decisions log entry with before/after shape audit.
 
+
+### 21. Memoir TPC content missing from entity/technology observations (raised 2026-06-07)
+
+During TPC longitudinal survey assembly (2026-06-07), `tpc_coverage_v2.sh` showed 0 rows for
+technology slugs in `v_observations`, and memoir chapters ch05/ch06/ch07 observations do NOT
+carry `entity_id` or `tech_id` values referencing TPC slugs despite rich first-person TPC
+benchmark content (Westwood Midnight Ambush, specsmanship sidebar, Debit/Credit experience).
+
+**Symptoms:**
+- ch06 OBS-020 through OBS-035 cover Debit/Credit benchmark, specsmanship, DECtp press event —
+  zero TPC/debit-credit tech_id tags on any of them
+- ch07 has only 1 TPC-related hit; Aberdeen Transaction Services auditor role not present in
+  extracted observations at all
+- `v_observations` tech_id query for all 16 TPC/benchmark slugs returns 148 obs — none from
+  memoir chapter study_ids
+
+**Hypothesis:** Memoir ingest (Pass A/B extraction) did not tag entity_id/tech_id on personal-
+recollection observations; the extractor may have left those columns blank when obs_type is
+`personal-recollection` or when no explicit entity name appears in the observation text.
+
+**Investigation steps:**
+- [ ] Spot-check ch06 observations.csv directly: are entity_id and tech_id columns populated
+  at all, or blank across the board?
+- [ ] Check what percentage of `personal-recollection` obs_type rows across ALL memoir chapters
+  have non-null tech_id vs. other obs_types (expert-opinion, market-data, etc.)
+- [ ] If blank: determine whether this is a Pass B extraction gap (extractor skipped tagging
+  for memoir obs) or a Pass A structural issue (columns missing from ingest output)
+- [ ] If tagging gap: draft a targeted re-tagging pass for memoir chapters using the known
+  TPC/benchmark slug vocabulary — add to `archival-ingest` backlog or as a standalone script
+- [ ] If Aberdeen Transaction Services auditor role is genuinely absent from ch07 observations:
+  flag as memoir content gap (not in the text) vs. extraction gap (in text, not extracted)
+- [ ] Decisions log entry with findings
+
+**DuckDB diagnostic to run first:**
+```bash
+duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "
+SELECT obs_type,
+       COUNT(*) AS total,
+       COUNT(tech_id) AS has_tech_id,
+       COUNT(entity_id) AS has_entity_id
+FROM v_observations
+WHERE study_id LIKE 'volume-1-%'
+GROUP BY obs_type
+ORDER BY total DESC;"
+```
+
 ---
 
 ## v1.8+ / strategic

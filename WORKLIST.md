@@ -313,6 +313,17 @@ Volume 1 chapter pages shipped in v1.5.1 + v1.5.2. If/when Pete writes or finali
 
 Pete's archive interests include patent strategy. Consider a parallel `wiki/patents/` directory if patent docs become part of the corpus.
 
+
+### 20. TPC entity slug normalization (raised 2026-06-07)
+
+Five competing entity slugs for the TPC organization co-exist in `_master_entities.csv` and `_master_observations.csv`:
+`transaction-processing-council`, `tpc-council`, `tpc-org`, `tpc`, `transaction-processing-performance-council`.
+Canonical slug: **`tpc-council`**.
+
+- [ ] **Draft `normalize_tpc_entity_slugs_v1.py`:** dry-run default; `--commit` opt-in; reads `_master_entities.csv` and `_master_observations.csv`; collapses all four non-canonical slugs to `tpc-council`; QUOTE_ALL on write; backs up both masters before any write; row-parity check (total row count must be unchanged); prints before/after slug-frequency table. Raised during TPC longitudinal survey session.
+- [ ] After `--commit`: run Phase 1 + Phase 2 to rebuild DuckDB; verify entity counts unchanged; confirm `kw ask` returns `tpc-council` for TPC org queries.
+- [ ] Decisions log entry with before/after shape audit.
+
 ---
 
 ## v1.8+ / strategic

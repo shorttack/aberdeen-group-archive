@@ -44,6 +44,12 @@ hours of re-discovery:
    local model, a new Qwen/Gemma/Llama release, or swapping LOCAL_MODEL.
 8. `linkedin-skill` — load only if topic mentions LinkedIn content.
 
+## Sources of Truth
+DUCKDB=/Users/scott/Repos/kastner-aberdeen-wiki/db/kastner.duckdb
+WIKI=/Users/scott/Repos/kastner-aberdeen-wiki
+ARCHIVE_MASTERS=/Users/scott/Desktop/Archive/archive_masters
+SCRIPTS=/Users/scott/Desktop/Archive/scripts
+
 Load nothing else unprompted.
 
 ## Operating rules (binding, do not relitigate)
@@ -125,7 +131,7 @@ Load nothing else unprompted.
 ---
 
 ## Topic for this thread
-
+launch a longitudinal survey of all TPC research 1982-1995 including debit-credit benchmark at Stratus and DEC, founding of TPC.org, Kastner at DECtp, Kastner as auditor, Aberdeen on value of TPC benchmarks, and Aberdeen on TPC-A, TPC-B, TPC-C, TPC-D, TPC-H benchmark results. Use prompt from Intel longitudinal study as a template.
 <!-- Pete: replace this line with the actual topic seed. -->
 <!-- Example: "Let's launch a longitudinal survey of all TPC research 1982-1995" -->
 <!-- Example: "Help me draft the Kastner blog 2005 1H synthesis study" -->

@@ -2626,3 +2626,216 @@ When DECtp Pass B resumes:
 - `~/Desktop/Archive/_audit_schema_overlap_20260612T005802Z.json`
 
 ---
+
+
+
+---
+
+## 2026-06-12 — §11u Stage A (DECtp Pass B) + §11u-cont Pass A (17-transcript ingest)
+
+Two consecutive Pass-A archive ingests landed today against the live wiki at
+`~/Repos/kastner-aberdeen-wiki/`. Both were sandbox-dry-run-then-Mac-commit per
+`kastner-archive-pipeline` Workflow A; both honor Workflow A invariants
+(QUOTE_ALL, timestamped backup, dry-run default, row-parity).
+
+### §11u Stage A — DECtp Press Conference observations (Pass B)
+
+Extracted 26 observations from the existing DECtp Press Conference study row
+`dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836` (Plaza
+Hotel, NYC, 1988-07-19). Distribution:
+
+- `entity_id`: 18 `dec`, 4 `ibm`, 4 `tandem-computers`
+- `tech_id`: 22 `dectp`, 4 `debit-credit`
+- `confidence`: 26 `high`
+- `verification_method`: 26 `ingest-extraction`
+- `collection`: 26 `transcript`
+- `thread_tag`: 26 `dec-tp-1988`
+
+Delta CSV: `dectp_observations_delta_v2.csv` (26 rows × 17 cols, sha
+`6e4ba12d…` workspace-side).
+
+Ingest script: `scripts/ingest_dectp_observations_v2.py` (commit `7770680c`,
+shipped earlier today). v2 adds the `section` and `legacy_obs_id` columns to
+match the 17-col `_master_observations.csv` schema (sha `0a92c9bc…` before
+this change).
+
+#### Mac sequence executed
+
+```
+python3 ~/Desktop/Archive/scripts/ingest_dectp_observations_v2.py            # dry-run
+python3 ~/Desktop/Archive/scripts/ingest_dectp_observations_v2.py --commit   # commit
+python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \
+  --archive ~/Desktop/Archive/archive_masters \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+```
+
+`_master_observations.csv` rebuilt 23605 → 23631 rows. Backup preserved at
+`~/Desktop/Archive/archive_masters/_master_observations.csv.bak_dectp_obs_ingest_20260612T110659Z`
+on Mac and at repo path
+`archive_masters_pre_dectp_obs_ingest_20260612T110659Z/_master_observations.csv`
+in the EOD commit below.
+
+#### Path-discovery side effect
+
+Phase 1+2 first failed because the runbook still pointed at `~/Desktop/kastner_wiki/`
+(skill-text default). The live wiki has been at `~/Repos/kastner-aberdeen-wiki/`
+since the 2026-05-26 iCloud-trap remediation. Confirmed v_* views point at the
+correct absolute `/Users/scott/Repos/...` paths; rerunning Phase 1+2 against
+the relocated wiki succeeded. Flagged as §11v cleanup: update the
+`kastner-archive-pipeline` skill text to reflect `~/Repos/` as the canonical
+live wiki path.
+
+### §11u-cont Pass A — 17 new transcript study rows ingested
+
+Source: `Transcripts.zip` (17 markdown files extracted to
+`/home/user/workspace/transcripts_extract/`, total 356 KB). All 17 are
+AI-generated summary transcripts of Kastner on-camera primary-source video.
+Source videos will be committed by Pete to `shorttack/kastner-restricted-sources`
+in a separate session.
+
+Cross-reference against `_master_studies.csv` confirmed all 17 are net-new
+(no `source_file` collisions). Each becomes its own study row per Pete's
+direction: "all are primary sources: Kastner on camera. … Each should be a
+study."
+
+#### Methodology vocabulary (4 patterns)
+
+1. **Internal sales-training** (only DEC Blue Monday):
+   `oral-history, internal-sales-training-archive, ai-generated-summary`
+2. **Vendor event** (launches / announcements / ads — 12 transcripts):
+   `oral-history, vendor-event-archive, ai-generated-summary`
+3. **TV news broadcast** (4 transcripts — CNBC Tech Edge 1994, MSNBC AOL 2001,
+   SARS CNBC 2003, SARS NBC Nightly 2003):
+   `oral-history, expert-quote, broadcast-archive, ai-generated-summary`
+4. **DECtp Press Conf 1988** (study row 1435 — pre-existing, unchanged):
+   `press-conference-transcript; debit-credit-benchmark; comparative-performance`
+
+#### Manifest
+
+`scripts/transcript_manifest_v1.csv` (17 rows × 16 cols, sha
+`4b51ca447432b36ab6d834c5af13e84dc713a2baf600b4a82a01a612f23288da`)
+contains the proposed study_id / title / author / date / type / subject_domain
+/ methodology / source_file / abstract / license / importance / *_rationale /
+prescience / *_rationale for all 17 studies. Pete reviewed and returned with
+no changes ("proceed. no changes.").
+
+Distribution:
+- `type`: 17 `primary-source` (matches the DECtp Press Conf row 1435 precedent)
+- `methodology`: 12 vendor-event / 4 TV broadcast / 1 internal sales-training
+- `importance`: 6 high / 7 medium / 4 low
+- `relevance`: 7 high / 10 medium
+- `prescience`: 2 `high` (both SARS 2003 broadcasts) / 15 `[DEFERRED]`
+- `license`: 17 `CC-BY-NC-SA-4.0` (matches DECtp precedent)
+
+#### Ingest script
+
+`scripts/ingest_transcript_studies_v1.py` (262 lines, sha
+`<filled-in-at-commit>`). Generalized manifest-driven append:
+- Validates 16-col schema match (exit 2 on mismatch)
+- Validates manifest study_id uniqueness (exit 3 on duplicate)
+- Validates no study_id collision with master (exit 4)
+- Validates no source_file collision with master (exit 5)
+- Default DRY-RUN; `--commit` opt-in
+- `csv.QUOTE_ALL` on write
+- Timestamped backup (`_master_studies.csv.bak_ingest_transcript_studies_<utc>Z`)
+- Post-write read-back verification (exit 21/22 on mismatch)
+- Uses `datetime.now(timezone.utc)` (no DeprecationWarning)
+
+Negative-path tested in sandbox: all 3 guard rails (study_id collision, intra-
+manifest duplicate, schema mismatch) fire with their documented exit codes.
+
+#### Mac sequence executed
+
+```
+python3 ~/Desktop/Archive/scripts/ingest_transcript_studies_v1.py \
+  --master ~/Desktop/Archive/archive_masters/_master_studies.csv \
+  --manifest ~/Desktop/Archive/scripts/transcript_manifest_v1_FOR_MAC.csv            # dry-run
+
+python3 ~/Desktop/Archive/scripts/ingest_transcript_studies_v1.py \
+  --master ~/Desktop/Archive/archive_masters/_master_studies.csv \
+  --manifest ~/Desktop/Archive/scripts/transcript_manifest_v1_FOR_MAC.csv \
+  --commit
+
+python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \
+  --archive ~/Desktop/Archive/archive_masters \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+```
+
+`_master_studies.csv` rebuilt 1435 → 1452 rows. Backup at
+`~/Desktop/Archive/archive_masters/_master_studies.csv.bak_ingest_transcript_studies_20260612T134209Z`
+on Mac and at repo path
+`archive_masters_pre_ingest_transcript_studies_20260612T134209Z/_master_studies.csv`
+in the EOD commit.
+
+Manifest delivered to Mac as `transcript_manifest_v1_FOR_MAC.csv` due to a
+sandbox-side file-panel delivery hiccup. Repo path uses the clean name
+`scripts/transcript_manifest_v1.csv`. Mac filename will be cleaned up at
+Pete's next session pull.
+
+### Shape audit (BEFORE — start of session, pre-§11u)
+
+```
+studies                  1435
+observations             23605
+entities                 3207
+technologies             4312
+studies_with_pub_year    1435
+decades_covered          6
+high_prescience_studies  124
+```
+
+### Shape audit (AFTER — post-both-ingests, post-Phase-1+2)
+
+```
+studies                  1452   (+17)
+observations             23631  (+26)
+entities                 3207
+technologies             4312
+studies_with_pub_year    1452   (+17 — manifest rows all have full ISO dates)
+decades_covered          6
+high_prescience_studies  124    (unchanged at obs-level)
+```
+
+Holistic prescience (studies-table-level `prescience` field) reflects both
+SARS 2003 broadcasts:
+
+```
+v_high_holistic_prescience  489 → 491  (+2)
+```
+
+`v_studies_with_high_prescience` (the obs-rollup view) will only update when
+Pass B extracts observations for the 17 new transcripts — deferred to
+subsequent sessions.
+
+### What's deferred
+
+- **Pass B for the 17 transcripts**: observation extraction per study. Estimated
+  ~150-300 obs in aggregate across tiers (long: DEC Blue Monday + Informix
+  USL + Informix Comp + CNBC Tech Edge; medium: 9 transcripts; short: 4 ad
+  spots). Per-study deltas, single-script generalized pattern, one transcript
+  at a time starting with SARS CNBC (prescience=high, small enough for clean
+  pattern validation). Multi-session.
+- **Phase 3-6 wiki rebuild**: deferred to a single final pass covering all 18
+  new studies (DECtp Press Conf + 17) once Pass B is complete. Running 3-6
+  now would re-embed stub-only pages for the 17 and require another pass
+  later.
+- **§11v skill-text cleanup**: update `kastner-archive-pipeline` skill to
+  reflect `~/Repos/kastner-aberdeen-wiki/` as canonical live wiki path
+  (currently still says `~/Desktop/kastner_wiki/`). Also document the v3→v4
+  shape-audit SQL fix (`pub_year // 10` not `pub_year / 10`) and the
+  `v_studies_by_decade` view as the preferred audit query.
+
+### Verification artifacts in repo (this commit)
+
+- `_master_studies.csv` — 1452 rows post-ingest
+- `_master_observations.csv` — 23631 rows post-Pass-B
+- `archive_masters_pre_dectp_obs_ingest_20260612T110659Z/_master_observations.csv` — 23605-row pre-DECtp state
+- `archive_masters_pre_ingest_transcript_studies_20260612T134209Z/_master_studies.csv` — 1435-row pre-transcript state
+- `scripts/ingest_transcript_studies_v1.py` — generalized manifest-driven ingest
+- `scripts/transcript_manifest_v1.csv` — 17-row manifest used for this ingest
+- `_decisions_log.md` — this entry
+- `WORKLIST.md` — session-state refresh

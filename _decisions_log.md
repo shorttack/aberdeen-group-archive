@@ -2389,3 +2389,91 @@ Both models stay installed for 7 days. Rollback during the soak window is a one-
 - Day-of (Pete): `git pull` on `aberdeen-group-archive`, copy the 7 files into `~/Desktop/Archive/scripts{,/build}/`, run the installer with `--commit` to pull the 20 GB model, exercise it.
 - Day 7 (2026-06-09): post-soak review. If stable, ship the wiki-repo `kw_ask` update; remove `qwen3.5:27b-mlx`.
 
+
+---
+
+## 2026-06-11 PM — DECtp Press Conference 1988 Ingest
+
+**Session focus:** Complete ingest of DECtp press conference study (transcript + benchmark chart images) into the Kastner Aberdeen Archive.
+
+**Context:** Study markdown `dectp-press-conf-1988.md` (26 observations) and `ingest_dectp_press_conf_v1.py` were committed in the prior session (2026-06-11 earlier, commit `1ebcf5c6`). This session completed the ingest by running the script on Pete's Mac and resolving two issues.
+
+---
+
+### Issue 1: Zip nested one level too deep
+
+**Symptom:** `ingest_dectp_press_conf_v1.py --commit` reported all 6 source files MISSING. Screenshot confirmed the zip had extracted to `_ingest_queue/DECtp-press-conference-with-images/DECtp press conference with images/` (extra subdirectory). Script expected files one level up.
+
+**Resolution:** Pete ran:
+```bash
+mv ~/Desktop/Archive/_ingest_queue/DECtp-press-conference-with-images/DECtp\ press\ conference\ with\ images/* \
+   ~/Desktop/Archive/_ingest_queue/DECtp-press-conference-with-images/
+rmdir ...
+```
+
+---
+
+### Issue 2: v1 script STUDY_MD path bug
+
+**Symptom:** After source files moved into place, `--commit` run succeeded on schema check, duplicate check, source-files check, and master CSV write (1434→1435 rows, backup taken). Then crashed at line 201:
+
+```
+FileNotFoundError: [Errno 2] No such file or directory:
+  '/Users/scott/Desktop/Archive/_ingest_queue/dectp-press-conf-1988-study.md'
+```
+
+**Root cause:** `STUDY_MD` in v1 pointed to `_ingest_queue/dectp-press-conf-1988-study.md`. That file was never placed in the queue — it was authored directly into the repo at `kastner-author/1988-dectp-press-conference-nyc/dectp-press-conf-1988.md` in the prior session. The copy was a no-op anyway (destination already had the file), but the script aborted rather than skipping it.
+
+**Resolution:** `ingest_dectp_press_conf_v2.py` (finish-only) written and committed to repo at `b952f3e9`. v2 skips the master CSV entirely (row already written) and only copies the 6 source files. Pete ran v2 `--commit`: 6/6 files copied successfully.
+
+---
+
+### Files committed this session
+
+| Commit | SHA | Description |
+|---|---|---|
+| Prior session | `1ebcf5c6` | Study markdown (26 obs) + v1 ingest script |
+| This session | `b952f3e9` | `scripts/ingest_dectp_press_conf_v2.py` (finish-only) |
+| This session (Mac) | `ade806c3` | Source transcript + 5 benchmark images (git push) |
+| EOD batch | this commit | `_master_studies.csv` (1435 rows) + `WORKLIST.md` |
+
+### Master CSV change
+
+| Field | Value |
+|---|---|
+| Before | 1434 data rows |
+| After | 1435 data rows |
+| New study_id | `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836` |
+| Backup | `_master_studies.csv.bak_dectp_press_conf_20260612T001017Z` |
+
+### Archive shape (UNCHANGED — Phase 1+2 not run this session)
+
+Baseline from Phase 1+2 v4 (2026-05-27):
+- studies: 1434 (master CSV now 1435 — Phase 1+2 not yet run)
+- observations: 23605
+- entities: 3207
+- technologies: 4312
+- studies_with_pub_year: 1434
+
+**Note:** Phase 1+2 not run this session. DuckDB still reflects 1434 studies. Run Phase 1+2 at start of next session to incorporate the new DECtp study into `v_studies` and all downstream views.
+
+### Observations status
+
+26 observations are authored in `dectp-press-conf-1988.md` as prose. They are NOT in `_master_observations.csv`. Pass B extraction required in a future session via `archival-ingest` v20.
+
+### DECtp study key facts (for future reference)
+
+- **study_id:** `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836`
+- **Date:** 1988-07-19, Plaza Hotel NYC
+- **Speakers:** Dallas Kirk (MC), Ken Olsen (President DEC), Bob Glorioso (VP Engineering), Bob Hughes (VP Marketing)
+- **Kastner role:** Present as Debit-Credit SME; traveled by helicopter with Olsen and Glorioso to DEC private jet; created transcript and images from CHM video
+- **Source:** CHM catalogue #102717571, accession X2675.2004, Gift of Hewlett-Packard, U-Matic video 00:58:18
+- **Destination:** `kastner-author/1988-dectp-press-conference-nyc/`
+- **Chart order (Glorioso):** (1) RDBMS TPS, (2) Flat Files TPS, (3) K$/TPS price-performance, (4) Avg system cost vs. Tandem/IBM
+
+### Next session priorities
+
+1. Run Phase 1+2 to incorporate DECtp study into DuckDB (`v_studies` count should go 1434→1435)
+2. Pass B extraction: extract 26 observations from `dectp-press-conf-1988.md` into `_master_observations.csv`
+3. §11q rollback: Pete still needs to `git pull && cp` on Mac (pending from prior sessions)
+4. §20 TPC entity slug normalization (collapse 5 slugs to `tpc-council` canonical)

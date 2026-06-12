@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-06-04 AM (§11r Archive cleanup of late-May one-time backups DONE on Mac — not yet committed; §11s Kastner blog 2005 1H synthesis study lane opened, deferred)
+**Last updated:** 2026-06-11 PM (DECtp press conference ingest — source files + master CSV row committed; session closed)
 **Current ship state:** archive `origin/main` at `62d5df3e` (§11o EOD: v3 PDF-routing script + revised skill v2 design + revised §11o decisions log + WORKLIST diff). Wiki `origin/main` unchanged from v1.6 release. **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found on 2026-06-01 PM, password rotated, Mac local + GitHub profile both reset to `shorttack` (the API commit `07b2458f` made under the bad name was amended to `62d5df3e` before Pete noticed). 976 historical commits across the two public repos still carry the dead-string "Catalina" in Author metadata — left in place since the credential is rotated. Phase 1+2 v4 baseline holds: 1434/23605/3207/4312/1434/6/124; 1434/1434 studies have pub_year; 492/1434 Pass C cloud-scored; 489 high (operational), 124 high (evidence layer); bge-m3:latest canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -414,36 +414,10 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-06-02 — §11q Qwen 3.6 attempted, rolled back; gates skill created)
+## Done this session (2026-06-11 PM — DECtp press conference ingest)
 
-### AM — §11q Qwen 3.6 upgrade pack staged (commit `09ffd653`)
-- Verified Qwen 3.6-27B-MLX exists on Ollama registry (`qwen3.6:27b-mlx`, ~20 GB); resolved Pete's three-way constraint ("abort if no MLX" + "do not sacrifice KW retrieval accuracy" + original `qwen3.6:27b-mtp-q8_0` tag intent) by going MLX-native.
-- Inventoried 6 canonical scripts referencing `qwen3.5:27b-mlx`; aggressive B-refactor converted 04/06/pre_filter from hardcoded model strings to helper imports.
-- Shipped 7-file pack via Git Data API batch.
-
-### PM — Hot-fix #1: curl/grep/pipefail bug (commit `404022a6`)
-- Pete's install transcript showed `change_local_model_v1.sh` failing at pre-flight 3 with `curl exit 56` — `curl -fsS ... | grep -q PATTERN` under `set -o pipefail` returns 1 even when grep matches. Fixed by downloading to tempfile first, grepping the file. v2 ran clean and pulled the 20 GB model.
-
-### PM — Hot-fix #2: Ollama 0.24+ top-level `think:false` flag (commit `c9d173a8`)
-- Pete's first smoke test returned empty response with `eval_count: 64`. Diagnosed Qwen 3.6 hybrid-thinking model swallowing visible tokens inside `<think>...</think>` because `think:false` was nested inside `options` instead of being a top-level request key.
-- Shipped 5-file fix: `_llm_helper_v3.py` separates `LOCAL_TOPLEVEL = {"think": False, "keep_alive": "30m"}` from `LOCAL_OPTIONS` (sampling) and splats LOCAL_TOPLEVEL into the request body at top level. Plus `change_local_model_v3.sh` + 3 consumer bumps (v5/v3/v6).
-- Second smoke test passed.
-
-### PM — Paper comparison and ROLLBACK decision (commits `d05dea1b`, `f40ad150`)
-- Pete asked for 3.5 vs 3.6 comparison for Phase 3 + kw_ask AFTER the 20 GB pull. Researched via Kaitchup substack + Artificial Analysis + Unsloth.
-- Finding: Qwen 3.6 is significantly worse than 3.5 on IFBench (instruction-following) and GPQA Diamond. 3.6 wins are in agentic coding, AIME math, MMLU Pro — none of which Pete's workloads use.
-- Pete's workloads (Phase 3 wiki gen, kw_ask synthesis, Pass C scoring) are template-discipline + citation-discipline + structured-output workloads → 3.5 is the right model.
-- Rollback shipped: `_llm_helper_v4.py` pins `LOCAL_MODEL = "qwen3.5:27b-mlx"`; consumers bumped to v6/v4/v7 to import from v4. Pete to pull + copy on Mac next session.
-
-### PM — NEW user skill `local-model-upgrade-gates` v1.0 (saved to library)
-- Skill ID: `0fda0938-7ab8-4670-838a-70b19bcb4b49`. Saved via `save_custom_skill` to user scope.
-- Codifies 4-gate decision flow: Gate 1 (5 min benchmark review on Kaitchup/ArtificialAnalysis) → Gate 2 (3 min workload mapping) → Gate 3 (10 min paper smoke-test against fixtures) → Gate 4 (model pull + 30 min A/B run).
-- Three LOCKED fixtures live at `assets/fixtures/`: `phase3_study_page.md`, `kw_ask_synthesis.md`, `pass_c_scoring.md`. Fixtures NEVER change between candidate evaluations so models are apples-to-apples comparable.
-- Generalized `scripts/run_gates.py` Gate-4 runner takes `--incumbent` + `--candidate` as CLI flags, calls Ollama `/api/generate` non-streaming with top-level `think:false`, grades all 3 fixtures against structural criteria, writes `summary.md` + `decision.md` + `raw_outputs/` to `model_eval_<tag>_<date>/`.
-- §11q evidence trail preserved verbatim under `references/decisions_log_11q_2026_06_02.md` — including the two production bug-fixes (curl/grep/pipefail; top-level think:false) that survive the rollback.
-- Replay finding: Gate 1 alone would have stopped §11q with 5 minutes of reading Kaitchup. Net savings against avoiding the pull-and-debug cycle: ~3 hours, 1 model pull, 4 unnecessary commits.
-
-_(End-of-day commit clears this section)_
+- [x] **DECtp press conference ingest complete.** Skills reloaded (kastner-archive-pipeline, kastner-github, kastner-new-day, archive-queue-ingest). Study markdown `dectp-press-conf-1988.md` (26 observations) already in repo from prior session. Ran `ingest_dectp_press_conf_v1.py --commit` on Mac: master CSV updated 1434→1435 rows (backup taken). v1 crashed on STUDY_MD path bug after master write succeeded. `ingest_dectp_press_conf_v2.py` (finish-only) written and committed (`b952f3e9`); copied 6/6 source files to `kastner-author/1988-dectp-press-conference-nyc/source/` and `media/`. Pete pushed transcript + 5 images via `git commit ade806c3 + push`. EOD batch: `_master_studies.csv` (1435 rows) committed to repo via Git Data API. All DECtp ingest artifacts in repo.
+- [x] **Observations note (carry-forward):** 26 observations exist in study markdown as prose only — NOT yet in `_master_observations.csv`. Requires future Pass B extraction pass via `archival-ingest` v20.
 
 
 ---

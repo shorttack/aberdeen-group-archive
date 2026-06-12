@@ -1,6 +1,6 @@
 # Kastner Aberdeen Archive — Active Worklist
 
-**Last updated:** 2026-06-11 PM (DECtp press conference ingest — source files + master CSV row committed; session closed)
+**Last updated:** 2026-06-11 PM (Mac↔repo masters reconcile — ship May 24 v20 normalizer + namespace cleanup + codes rebuild to repo; DECtp Pass B deferred to next session pending reconcile)
 **Current ship state:** archive `origin/main` at `62d5df3e` (§11o EOD: v3 PDF-routing script + revised skill v2 design + revised §11o decisions log + WORKLIST diff). Wiki `origin/main` unchanged from v1.6 release. **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found on 2026-06-01 PM, password rotated, Mac local + GitHub profile both reset to `shorttack` (the API commit `07b2458f` made under the bad name was amended to `62d5df3e` before Pete noticed). 976 historical commits across the two public repos still carry the dead-string "Catalina" in Author metadata — left in place since the credential is rotated. Phase 1+2 v4 baseline holds: 1434/23605/3207/4312/1434/6/124; 1434/1434 studies have pub_year; 492/1434 Pass C cloud-scored; 489 high (operational), 124 high (evidence layer); bge-m3:latest canonical embedding model.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -414,10 +414,12 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 
 ---
 
-## Done this session (2026-06-11 PM — DECtp press conference ingest)
+## Done this session
 
-- [x] **DECtp press conference ingest complete.** Skills reloaded (kastner-archive-pipeline, kastner-github, kastner-new-day, archive-queue-ingest). Study markdown `dectp-press-conf-1988.md` (26 observations) already in repo from prior session. Ran `ingest_dectp_press_conf_v1.py --commit` on Mac: master CSV updated 1434→1435 rows (backup taken). v1 crashed on STUDY_MD path bug after master write succeeded. `ingest_dectp_press_conf_v2.py` (finish-only) written and committed (`b952f3e9`); copied 6/6 source files to `kastner-author/1988-dectp-press-conference-nyc/source/` and `media/`. Pete pushed transcript + 5 images via `git commit ade806c3 + push`. EOD batch: `_master_studies.csv` (1435 rows) committed to repo via Git Data API. All DECtp ingest artifacts in repo.
-- [x] **Observations note (carry-forward):** 26 observations exist in study markdown as prose only — NOT yet in `_master_observations.csv`. Requires future Pass B extraction pass via `archival-ingest` v20.
+### Masters reconcile Mac→repo (2026-06-11 PM)
+
+- [x] **§11t Mac↔repo masters reconcile** — DONE 2026-06-11 PM. DECtp Pass B observation extraction (option 4 from new-day menu) halted mid-stream when an mtime check on `~/Desktop/Archive/archive_masters/` showed most masters at May 24 — much earlier than the work done late May / early June. Diagnostic chain: (1) `audit_mac_vs_repo_v1.py` (commit `71ed3165`) found `_master_studies.csv` IN_SYNC but 5 other masters drifted; (2) `audit_schema_and_overlap_v1.py` (commit `187be686`) decoded the drift — repo's `_master_entities.csv` and `_master_technologies.csv` carry an extra `study_id` column (one-row-per-(entity,study) denormalized form, pre-cleanup); Mac is normalized one-row-per-entity. Mac is canonical on observations (23,605×17, v20 normalizer state per `archival-ingest` v20 §20.5), entities (3,207×8 normalized + 27 new ent-* IDs), technologies (4,312×8 + 8 new), codes (1,293×4 rebuilt — Pete confirmed: "we rebuilt/extended codes at some point"), and `_master_entity_field_conflicts.csv` (3,711×5, Mac-only diagnostic artifact). Repo last touched these files between 2026-05-21 (`11670e87`) and 2026-05-26 (`0d48d9a8`); the May 24 namespace cleanup + v20 normalizer never reached the repo. Sole writer is Pete from this Mac (iPad has no GitHub/Archive access) so no merge concern. Per-file decisions logged in `decisions_log_entry_2026_06_11_11t_masters_reconcile_v1.md`. Reconcile script `reconcile_masters_mac_to_repo_v1.py` ships Mac→repo with pre-reconcile backup tree at `archive_masters_pre_reconcile_<UTCstamp>Z/` preserving repo's old blobs by sha-reference. Rollback paths confirmed by Pete: GitHub history + 2 TimeMachine backups + Mac local files untouched.
+- 
 
 
 ---

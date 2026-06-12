@@ -2839,3 +2839,143 @@ subsequent sessions.
 - `scripts/transcript_manifest_v1.csv` — 17-row manifest used for this ingest
 - `_decisions_log.md` — this entry
 - `WORKLIST.md` — session-state refresh
+
+---
+
+## 2026-06-12 PM — §11u-cont Pass B: 17-transcript batch ingest complete (Pete's Sandbox)
+
+**Headline:** All 17 new transcript studies (added to `_master_studies.csv` as Pass A placeholders in §11u-cont AM) now have full Pass B extracts. 194 entities, 122 technologies, 295 observations extracted in the sandbox and consolidated into 4 batch files. Mac merge pending.
+
+**Why this entry:** Pete approved the batched-write strategy ("write one time, not seventeen times") instead of 17 per-study commits. This entry records the sandbox-side state of the batch + the exact apply-script the Mac will run.
+
+### Per-study extract totals (final, all §16 GREEN)
+
+| # | study_id | obs | ent | tech |
+|---|---|---:|---:|---:|
+| 1 | cnbc-sars-electronics-supply-chain-impact-92deff | 32 | 20 | 6 |
+| 2 | nbc-nightly-sars-economic-impact-electronics-39b4da | 16 | 9 | 4 |
+| 3 | dec-blue-monday-internal-sales-training-dectp-vs-ibm-0021cc | 42 | 18 | 21 |
+| 4 | informix-universal-server-launch-object-relational-fb2cd4 | 53 | 52 | 26 |
+| 5 | crossroads-ad-buy-vs-make-integration-fc4acd | 8 | 6 | 2 |
+| 6 | crossroads-ad-process-wear-enterprise-apps-9c8527 | 5 | 3 | 2 |
+| 7 | sybase-xi-launch-boats-analogy-multiple-databases-79c9ee | 6 | 3 | 7 |
+| 8 | oracle-data-warehousing-launch-multimedia-spatial-d63644 | 7 | 3 | 4 |
+| 9 | crossroads-launch-front-back-office-integration-508c58 | 9 | 3 | 3 |
+| 10 | crossroads-june-1997-launch-variant-cut-caea12 | 5 | 3 | 3 |
+| 11 | tandem-himalayan-airport-commercial-tpc-c-0b1c60 | 10 | 9 | 5 |
+| 12 | informix-competitive-update-kastner-rdbms-jungle-25604a | 27 | 15 | 7 |
+| 13 | cnbc-technology-edge-ibm-dec-hp-transitions-d4f84c | 25 | 24 | 14 |
+| 14 | msnbc-aol-modem-shortage-customer-refunds-189b41 | 14 | 10 | 3 |
+| 15 | portal-software-infranet-real-time-billing-742af3 | 13 | 5 | 4 |
+| 16 | ingres-windows-4gl-1990-gui-development-tools-75ade0 | 12 | 7 | 7 |
+| 17 | software-2000-it-paradigm-shift-client-server-9e9445 | 11 | 4 | 4 |
+| | **Totals** | **295** | **194** | **122** |
+
+### Batch files shipped
+
+All four built with `csv.QUOTE_ALL` per §16.5. Section 16 validation gate run on (a) every per-study set as it was produced, and (b) the consolidated batch files. Final result: **16/16 checks PASS** across all four batch files.
+
+| file | rows × cols | semantics |
+|---|---:|---|
+| `passb_batch/batch_studies_REPLACE_v1.csv` | 17 × 16 | REPLACE — overwrites the 17 Pass A `primary-source` placeholders at master rows 1437-1453 with v20 §13.1 `transcript` rich rows (importance/relevance/prescience populated, full abstracts). |
+| `passb_batch/batch_entities_APPEND_v1.csv` | 194 × 9 | APPEND |
+| `passb_batch/batch_technologies_APPEND_v1.csv` | 122 × 9 | APPEND |
+| `passb_batch/batch_observations_APPEND_v1.csv` | 295 × 12 | APPEND — 12-col per-study schema; promoted to 17-col by the apply script (verification_method='ingest-extraction', collection='transcript', other v20 cols empty). |
+
+### Methodology vocabulary used
+
+Locked in §11u-cont AM, applied verbatim here:
+- `internal-sales-training-archive` — DEC Blue Monday only (1 study)
+- `vendor-event-archive` — 12 vendor talks (Informix Universal Server launch, Informix competitive update, Sybase XI launch, Oracle DW launch, all 4 Crossroads talks, Tandem airport commercial, Portal Software, Ingres 4GL, Software 2000)
+- `broadcast-archive` — 4 TV news clips (SARS CNBC, SARS NBC Nightly, CNBC Tech Edge, MSNBC AOL)
+
+All transcripts carry the standard v20 §13.1 methodology bundle: `oral-history, expert-quote, broadcast-archive, ai-generated-summary` (the `broadcast-archive` field appears in both `methodology` and the specialized bucket above).
+
+### License posture
+
+- **15 studies**: `CC-BY-4.0` (default archive posture; vendor events + sales training)
+- **2 studies**: `CC-BY-NC-SA-4.0` (broadcast news content — SARS CNBC + SARS NBC Nightly; non-commercial share-alike is the safer posture for archived third-party news video). The Section 16 validator was widened to allow this second license value (`validate_batch_section_16.py` v1.1).
+
+### Cache fixes applied during extraction
+
+- `att-corporation` → `ent-att` (studies 13, 14) — canonical entity_id is `ent-att`
+- `ibm-powerpc` → `powerpc` (study 13) — canonical tech_id has no IBM prefix
+- (Earlier in batch: `vantive` → `ent-vantive`, `eai-integration` → `enterprise-application-integration-eai`, `sybase-replication-server` → `SYBASE-REPSERVER`)
+
+### Validation gate fix (`validate_batch_section_16.py` v1.0 → v1.1)
+
+First batch §16 run showed two FAILs on `batch_studies_REPLACE_v1.csv`:
+1. **Check 1 (plain-text) FAIL** — false positive. The QUOTE_ALL 16-column studies header is ~248 bytes long. The validator's 200-byte read window saw no newline and flagged the file as base64. Fix: widened the read window to 1000 bytes. Base64 density check remains intact.
+2. **Check 3 (enums) FAIL** — `license='CC-BY-NC-SA-4.0'` on the 2 SARS broadcast rows. Decision: keep NC-SA on broadcast content (it is the safer posture for archived third-party news), widen the allowed enum to include `CC-BY-NC-SA-4.0`.
+
+After the v1.1 patch: all 16 checks GREEN across all 4 batch files.
+
+### Files shipped this commit
+
+**Archive repo** (`shorttack/aberdeen-group-archive`):
+
+| path | purpose |
+|---|---|
+| `passb_batch/batch_studies_REPLACE_v1.csv` | 17-row REPLACE batch |
+| `passb_batch/batch_entities_APPEND_v1.csv` | 194-row APPEND batch |
+| `passb_batch/batch_technologies_APPEND_v1.csv` | 122-row APPEND batch |
+| `passb_batch/batch_observations_APPEND_v1.csv` | 295-row APPEND batch (12-col per-study schema; apply script promotes to 17-col master schema) |
+| `scripts/apply_passb_transcripts_v1.py` | Mac-side merge script (dry-run default, QUOTE_ALL, backup-before-write, row-parity invariant) |
+| `scripts/validate_batch_section_16.py` | v1.1 — widened plain-text read window (200→1000 bytes), CC-BY-NC-SA-4.0 enum allowance |
+| `_decisions_log.md` | This entry appended |
+| `WORKLIST.md` | Refreshed |
+
+Per-study packages (17 study dirs with data/, source/, etc.) stay in the sandbox `passb_output/` for forensic reference; the masters are the only thing the live wiki needs. Pete can pull them on request, but they are not part of tonight's EOD batch.
+
+### What the Mac runs next (handoff)
+
+```bash
+# 1. Pull and copy
+cd ~/Desktop/Archive/aberdeen-group-archive && git pull
+mkdir -p ~/Desktop/Archive/passb_batch
+cp passb_batch/batch_*.csv ~/Desktop/Archive/passb_batch/
+cp scripts/apply_passb_transcripts_v1.py ~/Desktop/Archive/scripts/
+
+# 2. Dry-run + review
+cd ~/Desktop/Archive
+python3 scripts/apply_passb_transcripts_v1.py
+
+# 3. Commit if dry-run looked right
+python3 scripts/apply_passb_transcripts_v1.py --commit
+
+# 4. Phase 1 + Phase 2 (DuckDB rebuild)
+python3 scripts/build/01_load_csvs_v2.py \
+  --archive ~/Desktop/Archive/archive_masters \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+python3 scripts/build/02_build_data_layer_v4.py \
+  --wiki ~/Repos/kastner-aberdeen-wiki
+
+# 5. Shape audit (see kastner-archive-pipeline §"Shape audit")
+duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "
+SELECT 
+  (SELECT COUNT(*) FROM v_studies)             AS studies,
+  (SELECT COUNT(*) FROM v_observations)        AS observations,
+  (SELECT COUNT(*) FROM v_entities)            AS entities,
+  (SELECT COUNT(*) FROM v_technologies)        AS technologies,
+  (SELECT COUNT(*) FROM v_studies_with_high_prescience) AS high_prescience_studies;
+"
+```
+
+### Expected shape after Mac merge + Phase 1+2
+
+| metric | pre §11u-cont AM | post §11u-cont AM (Pass A placeholders) | post tonight's Pass B |
+|---|---:|---:|---:|
+| studies | 1434 | 1452 | 1452 (REPLACE, not add) |
+| observations | 23605 | 23631 (+26 DECtp §11u) | **23926 (+295)** |
+| entities | 3207 | 3207 | **3401 (+194)** |
+| technologies | 4312 | 4312 | **4434 (+122)** |
+| `v_studies_with_high_prescience` | 109 | 124 (DECtp §11u Pass B) | **likely +1 SARS CNBC + any additional from this batch** — verify post-Phase 1+2 |
+
+### Deferred to next session
+
+1. **Pass A v1 (§17)** — run `assembler.py pass-a` on the regenerated masters; expected to lift all 295 new obs into `verification_method='ingest-extraction'` (already the case via apply script), build the `_prediction_outcome_links.csv` join table for the ~30 viability-prediction rows in this batch.
+2. **Wiki surgical propagation (§18)** — `refresh_data_layer.py` + `add_pass_a_v2_pages.py` to generate the 17 new tier-1 study pages + any new entity/tech stubs.
+3. **Phase 3-6** for the new studies (the studies need their `wiki/studies/*.md` pages; the README, AGENTS.md, chat-starter.md need refresh counts).
+4. **Master regen integrity checks (§20)** — row-count parity, slug-collision scan.
+
+EOD batch complete from the sandbox side. Mac is unblocked.

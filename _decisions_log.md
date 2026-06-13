@@ -2979,3 +2979,149 @@ SELECT
 4. **Master regen integrity checks (§20)** — row-count parity, slug-collision scan.
 
 EOD batch complete from the sandbox side. Mac is unblocked.
+
+---
+
+## 2026-06-12 EOD — §11u-cont Pass B: Mac merge + Phase 1+2 verified clean + MASTERS_NOTES v2 + Release v1.6.1
+
+**Headline:** The 17-transcript Pass B batch shipped this morning (§11u-cont AM/PM, commits `0ab3be59` + `0391dabf`) is now merged into the masters on the Mac. Phase 1+2 verified clean. Phase 3-6 running. Five-master corpus now sits at **1452 studies / 23926 observations / 3276 entities / 4361 technologies** with 7-table M:N integrity intact.
+
+This entry also records the rewrite of `MASTERS_NOTES.md` (v1 2026-05-24 → v2 2026-06-12), its relocation to a new `Perplexity_Only/` discoverability directory, and the cutting of **Release v1.6.1** to push the updated content to Zenodo.
+
+**Why this entry:** §11u-cont AM/PM (v1 of this entry) recorded the *sandbox-side* state of the Pass B batch. This v2 entry closes the loop on the Mac-side merge, the verification that came out of it, and the lesson-learned that produced MASTERS_NOTES v2. It also documents the new `Perplexity_Only/` convention and the Release/Zenodo bump.
+
+### Mac merge results (post `apply_passb_transcripts_v2.py --commit`)
+
+| master | pre-merge | delta | post-merge | cols |
+|---|---:|---:|---:|---:|
+| `_master_studies.csv` | 1452 (Pass A placeholders) | REPLACE 17 | **1452** | 16 |
+| `_master_entities.csv` | 3207 | +69 | **3276** | 8 |
+| `_master_technologies.csv` | 4312 | +49 | **4361** | 8 |
+| `_master_observations.csv` | 23631 | +295 | **23926** | 17 |
+| `_master_entity_studies.csv` | 3682 | +194 | **3876** | 2 |
+| `_master_tech_studies.csv` | 5253 | +122 | **5375** | 2 |
+
+Apply script: `apply_passb_transcripts_v2.py` (commit `0391dabf6cc67df77f81cd3af7c9b131c448a67e`). Dry-run preview matched final commit numbers exactly. Backups under `archive_masters_pre_passb_v2_20260612T172545Z/` (all six `.bak` files).
+
+Note the entity/tech deltas vs. the §11u-cont AM/PM prediction: the prediction said +194 entities / +122 technologies, but the actual merge added only +69 / +49 because the v2 apply script correctly deduplicated against the global cache (`peter-s-kastner`, `aberdeen-group`, `oracle-corporation`, etc. were already in masters). The +194 and +122 numbers landed in the M:N join tables, not the entity/tech masters. **This is the M:N refactor working as designed** — and it is the reason MASTERS_NOTES v2 had to exist.
+
+### v1 apply script crash root cause (recorded for MASTERS_NOTES history)
+
+The v1 apply script (committed earlier today as `apply_passb_transcripts_v1.py`) was written against the per-study schema documented in `archival-ingest` v20 §13.1: 9-col entities, 9-col technologies with `study_id`. When run dry on the Mac it crashed with a column-count mismatch.
+
+**Diagnosis:** `_master_entities.csv` and `_master_technologies.csv` are **8-col globally-deduped** tables WITHOUT `study_id`. The M:N relationships live in `_master_entity_studies.csv` and `_master_tech_studies.csv` (2-col join tables). This is the result of the **2026-05-26 M:N refactor**, which is mentioned only in passing in `archival-ingest` v20 and NOT in MASTERS_NOTES v1 (which still documented the pre-refactor five-table model).
+
+**Fix shipped:** `apply_passb_transcripts_v2.py` skips the studies REPLACE (already done via §11u-cont AM placeholders being overwritten in-place), dedupes ent/tech by `id` against the masters, and appends M:N pairs to the join tables. Promotes 12-col per-study obs to 17-col master obs by injecting `verification_method='ingest-extraction'`, `collection='transcript'`, and leaving the other v20 cols empty.
+
+This crash is the proximate cause of MASTERS_NOTES v2.
+
+### Phase 1+2 verification (clean)
+
+```
+01_load_csvs_v2.py    → manifest written, 7 masters loaded
+02_build_data_layer_v4.py → 12 parquets promoted, 27 views built
+```
+
+Shape audit (corrected — note the `/` → `//` fix below):
+
+| metric | value |
+|---|---:|
+| studies | 1452 |
+| observations | 23926 |
+| entities | 3276 |
+| technologies | 4361 |
+| `v_studies_with_high_prescience` | 124 |
+| `decades_covered` | 6 |
+
+**Shape audit gotcha (recorded in kastner-archive-pipeline §11v):** DuckDB integer division uses `//`, not `/`. The `/` operator returns DOUBLE and produced `decades_covered=38` on the first run (a clearly wrong number that nonetheless does not throw). Re-running with `//` gave the expected `6`. The query in the skill needs to be updated; see deferred work below.
+
+### obs_id canonicalization rate
+
+Pass B added 295 observations, **all 295 (100%) with canonical `<study_id>-OBS-NNN` IDs**, courtesy of the `archival-ingest` v20 §21 Universal Normalizer running per-study during extraction.
+
+Pre-existing non-canonical observations in `_master_observations.csv`: **2,399 rows** (8.5% of total). These predate the §21 normalizer (2026-05-24) and are tagged in `legacy_obs_id`. Deferred to a future §21 batch normalizer pass.
+
+### Phase 3 status at time of this entry
+
+Running. Started 1:53 PM EDT (PID 19483). At 5:03 PM EDT (3h 10m in), `technologies/` mtime still advancing — final major section, expected completion 5:25-5:45 PM EDT. Studies and entities sections complete. Will run Phase 4 (indices) + Phase 5 (embeddings) + Phase 6 (scaffolding) immediately after.
+
+### §17 Pass A — deliberately skipped this session
+
+The `archive-ingest` v20 §17 Pass A pipeline (`assembler.py pass-a`) is in the skill bundle, not as a standalone script in `~/Desktop/Archive/scripts/`. Pass B already wrote `verification_method='ingest-extraction'` on all 295 new obs at apply-time (apply script v2). Transcripts produced ~zero viability-prediction rows that would need Pass A lift (the prediction observations all came out as direct quotes, not statistical claims requiring source-lift). **Skipping §17 this session is intentional and safe** — flagged for re-evaluation if a future batch generates statistical viability claims.
+
+### MASTERS_NOTES v1 → v2 rewrite
+
+Pete uploaded `MASTERS_NOTES.md` dated 2026-05-24 (171 lines) and asked whether it educated the current Computer instance. Diagnosis:
+
+- **Wrong table count**: v1 documented 5 masters; reality is **7** (after 2026-05-26 M:N refactor).
+- **Wrong entity/tech schema**: v1 said 9-col with composite `(study_id, id)` key. Reality is **8-col globally-deduped, no study_id**.
+- **Wrong observation column count**: v1 said 15 cols. Reality is **17 cols** (added `section` 2026-05-27, `legacy_obs_id` 2026-05-24).
+- **Wrong canonical obs_id format**: v1 said `<study_id>.NNN` (period delimiter). Reality is `<study_id>-OBS-NNN` (hyphen + OBS prefix), per §21.
+- **Missing wiki path migration**: v1 didn't mention `~/Repos/kastner-aberdeen-wiki/`. The Desktop copy was deleted 2026-06-01.
+- **Missing history**: v1 stopped at 2026-05-24. No mention of §21 normalizer (2026-05-24), M:N refactor (2026-05-26), pub_year backfill (2026-05-27), Phase 5 v3 fix (2026-05-31), wiki migration (2026-06-01), Pass B (2026-06-12).
+
+Result: drafted **MASTERS_NOTES.md v2** (329 lines). All seven masters documented with correct schemas. ID conventions per §21. Full history through 2026-06-12. Known deferred work explicitly enumerated (2,399 non-canonical legacy obs, entity canonicalization pass, `_llm_helper_v4` qwen3.5 pin).
+
+### New convention: `Perplexity_Only/` directory
+
+Pete approved a dedicated `Perplexity_Only/` subdirectory at `~/Desktop/Archive/` and at the repo root. Purpose: hold context files specifically meant to be consumed by Perplexity Computer (or any AI agent) at thread-start, day-start, or skill-load time, WITHOUT polluting the human-facing `archive_masters/` directory.
+
+| location | path |
+|---|---|
+| Mac canonical | `~/Desktop/Archive/Perplexity_Only/MASTERS_NOTES.md` |
+| Repo mirror | `Perplexity_Only/MASTERS_NOTES.md` (root of `shorttack/aberdeen-group-archive`) |
+
+The old `~/Desktop/Archive/archive_masters/MASTERS_NOTES.md` location: Pete renamed the v1 file to `MASTERS_NOTES.md.obsolete` locally; this entry records that as the intentional disposition (no redirect stub needed in the repo; the path simply will not exist going forward in the new structure).
+
+### Discoverability hooks shipped tonight
+
+5 reinforcement points so Computer cannot miss MASTERS_NOTES on future sessions:
+
+1. **`Perplexity_Only/MASTERS_NOTES.md`** — repo canonical, sandbox-readable via `gh api`.
+2. **`Perplexity_Only/README.md`** — explains the directory purpose for AI agents.
+3. **`WORKLIST.md`** — top-of-file banner pointing to `Perplexity_Only/MASTERS_NOTES.md`.
+4. **`kastner-archive-pipeline` skill** — `save_custom_skill` patch adding §0 "MUST READ" gate before any masters edit (deferred to a follow-up commit — separate skill versioning).
+5. **`kastner-new-day` skill** — `save_custom_skill` patch adding day-start fetch+summarize of MASTERS_NOTES (deferred to follow-up).
+
+### Release v1.6.1 — new content + docs (Zenodo trigger)
+
+Cut release **`v1.6.1`** with the title:
+
+> `v1.6.1 — Pass B transcript ingest (17 studies, 295 observations) + MASTERS_NOTES v2`
+
+Bump rationale per Pete's instruction: significant new content (295 obs, 17 studies, +69 ent, +49 tech, +194/+122 M:N pairs) plus a major docs reorganization (MASTERS_NOTES rewrite + new `Perplexity_Only/` directory). Patch-level bump (`v1.6` → `v1.6.1`) — schema unchanged, just new content + documentation. Triggers Zenodo archival via the existing GitHub→Zenodo webhook.
+
+Release notes file: `RELEASE_NOTES_v1.6.1.md` (committed alongside this decisions entry).
+
+### Files in this commit (Pass B Completion Commit, not a second EOD)
+
+The morning's EOD commits (`0ab3be59` + `0391dabf`) shipped the Pass B *ingest* artifacts. This commit ships the *result* of running them.
+
+| path | purpose |
+|---|---|
+| `archive_masters/_master_studies.csv` | 1452 rows × 16 cols (post-REPLACE) |
+| `archive_masters/_master_entities.csv` | 3276 rows × 8 cols (+69) |
+| `archive_masters/_master_technologies.csv` | 4361 rows × 8 cols (+49) |
+| `archive_masters/_master_observations.csv` | 23926 rows × 17 cols (+295) |
+| `archive_masters/_master_entity_studies.csv` | 3876 rows × 2 cols (+194 pairs) |
+| `archive_masters/_master_tech_studies.csv` | 5375 rows × 2 cols (+122 pairs) |
+| `archive_masters/archive_masters_pre_passb_v2_20260612T172545Z/*.bak` | 6 backups |
+| `Perplexity_Only/MASTERS_NOTES.md` | NEW — v2 (329 lines), authoritative master CSV reference |
+| `Perplexity_Only/README.md` | NEW — directory purpose for AI agents |
+| `WORKLIST.md` | banner added at top pointing to MASTERS_NOTES |
+| `WORKLIST_2026_06_12.md` | date-stamped session worklist (close-out) |
+| `_decisions_log.md` | this entry appended |
+| `RELEASE_NOTES_v1.6.1.md` | release notes |
+
+### Deferred to next session
+
+1. **Phase 3-6 completion verification** — confirm 5505+ wiki files written, indices regenerated, embeddings refreshed (bge-m3 1024-dim), README/AGENTS.md/chat-starter.md count refresh.
+2. **2,399 non-canonical legacy obs** — §21 batch normalizer pass.
+3. **Entity canonicalization sweep** — known stragglers in `_master_entities.csv`.
+4. **`_llm_helper_v4.py` qwen3.5 pin** — once Phase 3-6 is fully verified on qwen3.5:27b-mlx, evaluate upgrade per `local-model-upgrade-gates`.
+5. **Skill amendments** — patch `kastner-archive-pipeline`, `archival-ingest` v20, and `kastner-new-day` for MASTERS_NOTES discoverability and master schema warnings.
+6. **`kastner-archive-pipeline` §11v shape-audit query fix** — change `/` to `//` for `decades_covered` integer division.
+
+Pass B is complete from end-to-end (sandbox extraction → Mac merge → Phase 1+2 verified → Phase 3 in flight). Mac is unblocked.
+
+---

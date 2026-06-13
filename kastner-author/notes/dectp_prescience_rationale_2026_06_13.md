@@ -1,32 +1,53 @@
-# DECtp 1988 — Prescience Argument of Record
-
-**Subject study:** `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836`
-**Scoring:** importance = **high** · relevance = **high** · prescience = **high**
-**Author of this note:** Peter S. Kastner
-**Recorded:** 2026-06-13
-**Note type:** prescience rationale (companion to `_master_studies.csv`)
-
+---
+title: "DECtp 1988 — Player's Rebuttal to Scorer's Verdict"
+author: "Peter S. Kastner"
+recorded: "2026-06-13 11:53 EDT (15:53 UTC)"
+subject_study: "dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836"
+study_title: "DECtp Press Conference Transcript and Benchmark Charts, Plaza Hotel NYC, July 1988"
+note_type: "player rebuttal to scorer verdict"
+scorer_verdict: "low"
+scorer_mean: 0.46
+scorer_n_obs: 26
+scorer_model: "sonar-reasoning-pro"
+scorer_date: "2026-06-13"
+tags:
+  - kastner-author
+  - notes
+  - prescience-rebuttal
+  - dectp
+  - 1988
 ---
 
-## Why a separate note exists
+# DECtp 1988 — Player's Rebuttal to Scorer's Verdict
 
-The DECtp 1988 announcement is easy to misread through a static pass/fail lens — IBM mainframes are still here in some form, and DEC the company is not, so a naive reader will mark the study "low prescience" and move on. That reading misses the point. The DECtp announcement was an **inflection event** in commercial computing, and the inflections it set in motion are still load-bearing in 2026. This note is the argument of record for the high/high/high score and is referenced from `_master_studies.csv` `prescience_rationale`.
+**Author:** Peter S. Kastner
+**Recorded:** 2026-06-13, 11:53 EDT (15:53 UTC)
+**Subject study:** `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836` — *DECtp Press Conference Transcript and Benchmark Charts, Plaza Hotel NYC, July 1988*
+**Note type:** player rebuttal to the scorer's verdict on prescience
 
-## The static reading (and why it is wrong)
+## Context — what the scorer said
 
-The static reading goes: DEC predicted distributed transaction processing would displace mainframe TP; IBM didn't exit; DEC died; therefore the prediction failed. This treats the announcement as a single bet on company-versus-company survival. It is not. The announcement was a bet on **how the industry would measure, price, scale, and procure transaction processing for the next two decades**. On those terms, every component of the bet won.
+On 2026-06-13, the Pass C desktop scorer (`sonar-reasoning-pro`) evaluated the 26 observations from the DECtp Plaza Hotel press conference study and returned a study-level verdict of **prescience = low** (mean 0.46 across 26 scoreable observations; 22 of 26 observations scored 0). Under the kastner-archive-pipeline scorer-is-judge rule, that verdict is recorded in `_master_studies.csv` as the study-level prescience value.
+
+This note is the player's rebuttal of record. The scorer scores; the player gives press commentary. The two coexist in the archive: the scorer's verdict in `_master_studies.csv.prescience`, this rebuttal in `_master_player_rebuttals.csv` referencing the file below.
+
+## Why I disagree with the scorer
+
+The low-prescience verdict rests on a **static pass/fail reading** of the DECtp announcement: the announcement implied distributed transaction processing would displace mainframe TP; IBM mainframes are still here in some form, and DEC the company is not; therefore the prediction failed. This treats the announcement as a single bet on company-versus-company survival.
+
+It is not. The DECtp announcement was a bet on **how the industry would measure, price, scale, and procure transaction processing for the next two decades**. On those terms, every component of the bet won — and the scorer's per-observation lens, working from the transcript text in isolation, cannot see this structural argument.
 
 ## The 1985–1988 context buyers were actually living in
 
-By the mid-1980s, enterprise buyers wanted **lower-cost transaction processing for local or departmental applications**. The mainframe was either too distant (the canonical Florida HHS example: a state agency could not get its TP workload close enough to its users) or too slow to develop against (mainframe app dev cycles were measured in quarters, not weeks). Buyers were ready to move; what they lacked was a defensible way to specify what they were buying.
+By the mid-1980s, enterprise buyers wanted **lower-cost transaction processing for local or departmental applications**. The mainframe was either too distant (the canonical Florida HHS example: a state agency could not get its TP workload close enough to its users) or too slow to develop against — mainframe app dev cycles were measured in quarters, not weeks. Buyers were ready to move; what they lacked was a defensible way to specify what they were buying.
 
 There were **no good measures of TP performance** at the time. Vendor claims were unfalsifiable. Procurement committees had no rigorous specification language for "how much TP can this thing do, and at what cost per unit?"
 
 Tandem's 1985 *Datamation* article changed the conversation. It proposed a rigorous specification: performance measured in **transactions per second (tps)**, and — critically — **price-performance measured in dollars per tps ($/tps)**. This was the first time the industry had a defensible procurement metric for TP.
 
-## Kastner's path into the DECtp work
+## How I came into the DECtp work
 
-I worked on **Stratus' response to the Tandem article**, which gave me direct exposure to the rigor Tandem was proposing and to the gaps in everyone else's TP positioning. I brought that knowledge to **Digital Equipment Corporation**, which was already positioned with the right hardware story but had no answer on the software side. DEC had:
+I worked on **Stratus' response to the Tandem article**, which gave me direct exposure to the rigor Tandem was proposing and to the gaps in everyone else's TP positioning. I then brought that knowledge to **Digital Equipment Corporation**, which was already positioned with the right hardware story but had no answer on the software side. DEC had:
 
 - A wide range of **compatible hardware** (VAX line, top to bottom)
 - **Excellent distributed processing** capabilities
@@ -48,44 +69,31 @@ This was not a marketing skirmish. It was a public, comparative, rigorously spec
 
 Within roughly a month of the DECtp announcement, the **Transaction Processing Performance Council (TPC)** was formed as an **industry-standardization body**. The TPC took the subject seriously, moved buyer confidence into standardized TP benchmarks, and provided the institutional home for the $/tps language going forward.
 
-IBM's **October retort** mentioned tps numbers but conspicuously did NOT engage on price-performance or on scaling, especially against big mainframes. The discourse had moved, and IBM was responding to the new frame whether it liked the frame or not.
+IBM's **October retort** mentioned tps numbers but conspicuously did NOT engage on **price-performance** or on **scaling** — especially against big mainframes. The discourse had moved, and IBM was responding to the new frame whether it liked the frame or not.
 
 ## The six inflection-point outcomes
 
 The DECtp announcement was an inflection point that began six durable shifts in commercial computing:
 
-1. **Focus on $/tps and price-performance** — that continued for two decades and became the default lens for TP procurement.
+1. **Focus on price/performance — $/tps** — that continued for two decades and became the default lens for TP procurement.
 2. **RDBMS became the standard for TP benchmarks**, not specialized databases. The relational stack carried the benchmark story going forward.
 3. **Scaling counts** — buyers came to expect that vendors prove their systems scale, not just that they run at a single point.
-4. **Standardized TPC benchmarks** made buyer choices much easier. Procurement could compare like to like across vendors with confidence.
-5. **DEC's TP business doubled in a year** following the announcement — historical revenue records confirm this. The bet paid for itself within DEC's own books.
+4. **Standardized TPC benchmarks made buyer choices much easier.** Procurement could compare like to like across vendors with confidence.
+5. **DEC's historical records say TP business doubled in a year** following the announcement. The bet paid for itself within DEC's own books.
 6. **The TPC became the undisputed arbiter** of commercial benchmarks for the era. Vendors competed on TPC numbers because that's what buyers cited.
 
-## Why this is high prescience, not high importance only
+## Why the scorer missed this
 
-A study can be important without being prescient — a contemporaneous landmark is not the same as a forecast that came true. DECtp is both:
+The Pass C scorer reads observations one at a time. Each individual sentence from the press transcript reads as DEC marketing — bold claims about its own future market position. Read that way, observation by observation, most claims look unsupported by the historical record (DEC did not become the dominant TP vendor; DEC ceased to exist as an independent company).
 
-- **Importance: high** because the announcement was a contemporaneous landmark — it reframed how the industry measured and procured TP.
-- **Relevance: high** because $/tps thinking, standardized benchmarks, RDBMS as the TP substrate, and scale-as-a-procurement-requirement are still load-bearing in 2026.
-- **Prescience: high** because the announcement explicitly bet on **measurement, pricing, scale, RDBMS substrate, standardization, and DEC's own TP revenue trajectory** — and all six bets won, on the timelines the announcement implied.
+But the **collective effect** of the announcement on the industry — the six outcomes above — is not visible at the per-observation level. It requires the structural reading: this was not a forecast about DEC's corporate survival; it was an industry-shaping intervention whose six bets all paid out on the timelines the announcement implied.
 
 The fact that DEC the company did not survive into the 2000s does not refute the prescience of the announcement. The DECtp **bets about the industry** won. The **bet about DEC's own survival as an independent company** was not part of the announcement.
 
-## Sources used in forming this argument
+## How to cite this rebuttal
 
-- The press conference transcript and benchmark charts themselves (`dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836`)
-- The 1985 Tandem *Datamation* article proposing the tps + $/tps specification
-- IBM's October 1988 retort (cited in the DECtp transcript materials)
-- TPC formation timeline (industry record)
-- DEC TP business revenue trajectory (DEC's historical financial records)
-- Peter S. Kastner's first-person recollection of working on Stratus' Tandem response and carrying that work into DEC
-
-## How to cite this note
-
-From `_master_studies.csv`, the `prescience_rationale` cell for `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836` references this file:
-
-> See `kastner-author/notes/dectp_prescience_rationale_2026_06_13.md` — six inflection-point outcomes (focus on $/tps, RDBMS as TP benchmark standard, scaling counts, standardized TPC benchmarks, DEC TP business doubled in a year, TPC became undisputed arbiter).
+The binding is recorded in `archive_masters/_master_player_rebuttals.csv` row for `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836`. That row points to this file. The scorer's verdict (low, mean 0.46) remains the canonical study-level prescience in `_master_studies.csv`; this note is the player's signed disagreement, preserved alongside the verdict for future readers.
 
 ---
 
-_Recorded as part of the §11u-cont Pass B reconciliation; the four [DEFERRED] prescience rows were resolved in the same batch (oracle-data-warehousing=medium, crossroads-launch=low, crossroads-june-variant=low, tandem-himalayan=medium, dectp-press-conference=high)._
+*Recorded as part of the §11v continuation, 2026-06-13. Pass C scored 17 transcripts + DECtp Plaza Hotel; this rebuttal accompanies the Plaza Hotel verdict only. Blue Monday (`dec-blue-monday-internal-sales-training-dectp-vs-ibm-0021cc`) received scorer verdict medium (mean 2.02 over 41 scoreable obs) and is not rebutted.*

@@ -1,0 +1,26 @@
+[
+  {
+    "gate_id": 1,
+    "rule_id": "pres-enum",
+    "row_key": "oracle-data-warehousing-launch-multimedia-spatial-d63644",
+    "note": "Pete-medium pending Stage 2 mini-manifest apply"
+  },
+  {
+    "gate_id": 1,
+    "rule_id": "pres-enum",
+    "row_key": "crossroads-launch-front-back-office-integration-508c58",
+    "note": "Pete-low pending Stage 2 mini-manifest apply"
+  },
+  {
+    "gate_id": 1,
+    "rule_id": "pres-enum",
+    "row_key": "crossroads-june-1997-launch-variant-cut-caea12",
+    "note": "Pete-low pending Stage 2 mini-manifest apply"
+  },
+  {
+    "gate_id": 1,
+    "rule_id": "pres-enum",
+    "row_key": "tandem-himalayan-airport-commercial-tpc-c-0b1c60",
+    "note": "Pete-medium pending Stage 2 mini-manifest apply"
+  }
+]

@@ -385,6 +385,10 @@ def main():
                     help="emit JSON instead of pretty table")
     ap.add_argument("--target", default=None,
                     help="target tag for this gate report, e.g. v1.6.2")
+    ap.add_argument("--dry-run-audit", type=Path, default=None, metavar="DIR",
+                    help="read-only audit mode; write timestamped JSON report to DIR")
+    ap.add_argument("--expected", type=Path, default=None, metavar="FILE",
+                    help="JSON file of known-expected findings to classify in report")
     args = ap.parse_args()
 
     if not args.archive.is_dir():
@@ -402,6 +406,83 @@ def main():
                            note=f"gate raised exception: {e!r}")
         results.append(r)
 
+    # ── DRY-RUN AUDIT MODE ──────────────────────────────────────────────────
+    # Read-only discovery: write timestamped JSON report, classify findings as
+    # EXPECTED vs UNKNOWN, never block. Exit code is always 0 in this mode.
+    if args.dry_run_audit is not None:
+        from datetime import datetime, timezone
+        audit_dir = args.dry_run_audit
+        audit_dir.mkdir(parents=True, exist_ok=True)
+
+        expected_set = set()
+        if args.expected and args.expected.exists():
+            try:
+                exp_data = json.loads(args.expected.read_text())
+                for e in exp_data:
+                    expected_set.add((e["gate_id"], e["rule_id"], e["row_key"]))
+            except Exception as e:
+                print(red(f"WARNING: could not parse --expected: {e!r}"), file=sys.stderr)
+
+        ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        audit_record = {
+            "audit_id": f"release_gate_audit_{ts}",
+            "timestamp_utc": ts,
+            "target_tag": args.target,
+            "archive_dir": str(args.archive),
+            "wiki_dir": str(args.wiki) if args.wiki else None,
+            "gates_run": [r.gate_id for r in results],
+            "summary": {
+                "total_findings": sum(len(r.findings) for r in results),
+                "by_severity": {
+                    "FAIL": sum(1 for r in results for f in r.findings if f.severity == "FAIL"),
+                    "WARN": sum(1 for r in results for f in r.findings if f.severity == "WARN"),
+                },
+                "by_classification": {"EXPECTED": 0, "UNKNOWN": 0},
+                "by_gate": {r.gate_id: {"name": r.name, "status": r.status, "n_findings": len(r.findings)} for r in results},
+            },
+            "findings": [],
+        }
+
+        for r in results:
+            for f in r.findings:
+                key = (f.gate_id, f.rule_id, f.row_key)
+                classification = "EXPECTED" if key in expected_set else "UNKNOWN"
+                audit_record["summary"]["by_classification"][classification] += 1
+                rec = f.as_dict()
+                rec["classification"] = classification
+                audit_record["findings"].append(rec)
+
+        out_path = audit_dir / f"release_gate_audit_{ts}.json"
+        out_path.write_text(json.dumps(audit_record, indent=2))
+
+        s = audit_record["summary"]
+        print()
+        print("═" * 60)
+        print(f"  {bold('DRY-RUN AUDIT REPORT')}")
+        print(f"  written to: {out_path}")
+        print("═" * 60)
+        print()
+        for r in results:
+            n_expected = sum(1 for f in r.findings
+                             if (f.gate_id, f.rule_id, f.row_key) in expected_set)
+            n_unknown = len(r.findings) - n_expected
+            extras = []
+            if n_expected: extras.append(gray(f"{n_expected} EXPECTED"))
+            if n_unknown:  extras.append(red(f"{n_unknown} UNKNOWN"))
+            extras_str = "  " + " · ".join(extras) if extras else ""
+            print(f"  GATE {r.gate_id} — {r.name:<28} {r.color_status}{extras_str}")
+        print()
+        print("  Totals:")
+        print(f"    FAIL severity:        {s['by_severity']['FAIL']}")
+        print(f"    WARN severity:        {s['by_severity']['WARN']}")
+        print(f"    Classified EXPECTED:  {s['by_classification']['EXPECTED']}")
+        latent_msg = red('← LATENT DEBT') if s['by_classification']['UNKNOWN'] else green('← no latent debt')
+        print(f"    Classified UNKNOWN:   {s['by_classification']['UNKNOWN']}  {latent_msg}")
+        print()
+        print("═" * 60)
+        sys.exit(0)
+
+    # ── NORMAL MODE ─────────────────────────────────────────────────────────────
     if args.json:
         out = [
             {

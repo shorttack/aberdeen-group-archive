@@ -120,3 +120,12 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
   1. Long-term memory (memory_update) — two entries (gotcha + capture preference)
   2. `Perplexity_Only/OLLAMA_GOTCHAS.md` (new file, G1 covers Qwen 3.x think:false)
   3. To-add: `local-model-upgrade-gates` user skill should reference G1 as a hard precheck
+
+## 08:55 — Gate 0 added to local-model-upgrade-gates skill (v1.0 → v1.1)
+
+- New first gate: read `Perplexity_Only/OLLAMA_GOTCHAS.md` before any benchmark work
+- Cost: 60 sec. Stop-conditions defined. Output requirements defined.
+- Skill saved back to user library (skill_id `0fda0938-7ab8-4670-838a-70b19bcb4b49`, v1.1)
+- Description, Quick Reference table, Anti-Patterns, and metadata all updated
+- New companion-files section points to repo-anchored OLLAMA_GOTCHAS.md as the source of truth
+- Decision summary: `decisions_log_entry_2026_06_14_gate_0_added_v1.md`

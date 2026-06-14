@@ -112,3 +112,11 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Patched script in place (still scripts/run_prescience_calibration_v5_qwen_30obs.py)
 - Scorer version bumped to `pass_c_v2_calib_v5b` so spool rows are distinguishable
 - Pete must delete the failed spool before re-running: `rm ~/Desktop/Archive/pass_c_v2/Perplexity_Only/calibration_v5_qwen_spool.jsonl`
+
+## 08:54 — Pete escalation: lost institutional memory
+
+- Pete: "You told me about think:false two weeks ago and then forgot it. THAT IS WHY I KEEP INSISTING YOU DOCUMENT DECISIONS IN WAYS THAT YOU CAN RECOVER YOUR MEMORY."
+- Mea culpa. Documented in THREE durable locations:
+  1. Long-term memory (memory_update) — two entries (gotcha + capture preference)
+  2. `Perplexity_Only/OLLAMA_GOTCHAS.md` (new file, G1 covers Qwen 3.x think:false)
+  3. To-add: `local-model-upgrade-gates` user skill should reference G1 as a hard precheck

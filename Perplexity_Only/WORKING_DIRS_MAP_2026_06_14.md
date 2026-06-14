@@ -77,9 +77,47 @@ v7 did none of this. It pulled `metric_value` alone, fed it to Qwen as a naked o
 
 ---
 
-## What's still unknown (resume here next time)
+## Diagnostic answers (run 2026-06-14 11:58 EDT)
 
-Pete halted the diagnostic before these were run. Resume by executing on Mac:
+### Headline: only 204 score rows across all 574 live working dirs
+
+| Source | Score rows |
+|---|---|
+| Live working dirs (574 dirs, in-repo + Mac `prepared/`) | **204** |
+| `_master_prescience_scores.csv` (in repo) | **3,829** |
+| Abandoned May 26 Qwen run (309 dirs) | ~unknown thousands |
+
+**3,829 − 204 = 3,625 rows in master with no live working-dir counterpart.** Most live working dirs are upstream-only (`scoreable_obs_v1.csv`, `skipped_obs_v1.csv`, `filter_summary_v1.json`, log) with no actual scoring performed.
+
+### Wiki postmortem is unrelated
+
+`wiki_docs/v15_push_postmortem_v1.md` is the May 26 **wiki force-push** incident, not the Pass C abandonment. Two separate failures on the same day.
+
+### Where did the 3,625 master rows come from?
+
+Most likely Sonar/Claude were scored via **cloud API directly to master** (no per-study working dir needed), with the abandoned May 26 Qwen run also rolled in before being shelved. The 204 live working-dir rows are likely residue from later Qwen calibration smoke-tests that never got rolled up.
+
+### Still unknown (run on Mac to confirm)
+
+The shell diagnostics had CSV-parsing drift (awk -F'","' miscounted columns when rationale contained quoted text). Run these Python versions for ground truth:
+
+```python
+# scorer_versions and models across LIVE working dirs (Python, proper CSV)
+import csv, glob
+rows = []
+for f in glob.glob('/Users/scott/Desktop/Archive/**/working/prescience_scores*.csv', recursive=True):
+    if 'abandoned' in f: continue
+    with open(f, newline='') as fh:
+        for r in csv.DictReader(fh):
+            rows.append(r)
+from collections import Counter
+print('models:    ', Counter(r['model'] for r in rows))
+print('versions:  ', Counter(r['scorer_version'] for r in rows))
+print('scores:    ', Counter(r['prescience_score'] for r in rows))
+print('total rows:', len(rows))
+```
+
+Resume by executing on Mac:
 
 ```bash
 cd ~/Desktop/Archive

@@ -167,3 +167,71 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Master rows untouched, no schema migration
 - Tier mapping: 1-2=low, 3=medium, 4=high, 5=exceptional
 - v1.7.0 release notes will need to make the scale explicit (deferred)
+
+## 09:22 — v7 calibration run: NO-GO
+- v7 (1-5 scale) kappa B1=0.091, B2=−0.269 across 30-obs manifest. Still NO-GO.
+- SARS hot-topic obs root cause: manifest fed Qwen `"~100 cases/day"` alone (just metric_value), not the full row context.
+- Confidence emitted 4,5 — out-of-rubric (canonical is 1-3, not 1-5).
+
+## 11:47 — Pivot: "v1 Pass C passed Kappa we are failing on"
+- Pete signaled there's an earlier-generation Pass C apparatus that already worked.
+- Found `prescience_score_prompt_v2.md` on Mac (NOT in repo) — canonical 0-5 rubric, authored 2026-05-25.
+- This is the source of truth. v2 fixture rescale to 1-5 was a misread of master distribution: 0 is "cannot assess", not a placeholder.
+
+## 11:53 — Working dirs map: 574 LIVE + 309 ABANDONED
+- Pete's screenshot revealed multiple working dirs across the Mac.
+- Mapped: 574 live dirs under `~/Desktop/Archive/prepared/` and 309 abandoned dirs under `~/Desktop/Archive/_pass_c_abandoned_runs/20260526/prepared/`.
+- Saved `WORKING_DIRS_MAP_2026_06_14.md` to Perplexity_Only/ (Pete: "Stop and save this map. It's gold.").
+
+## 12:01 — May 26 abandon = agent-quality event
+- Pete clarified: the abandon was triggered by firing the Agent + Pro→Max downgrade, not by methodology failure.
+- Implication: the 2,723 Qwen scores in `_pass_c_abandoned_runs/` may be salvageable for calibration.
+
+## 12:54 — Audit verdict: SALVAGE
+- `audit_abandoned_qwen_run_v1.py`: 2,723 rows, 100% parse_ok, single model (Qwen 3.5 27B MLX), 2,722 obs overlap with master.
+- Score distribution: lives in {4,5}. Plausibly the same prompt apparatus as v2 prompt file.
+
+## 12:58 — Kappa v1
+- `compute_qwen_master_kappa_v1.py`: κ(Qwen vs Sonar) = 0.2379 on n=1,041 paired obs (both scored 1-5).
+- κ(Qwen vs Claude) = 0.1227 on n=36 (small overlap).
+- Confusion matrix revealed +1 systematic offset (Qwen scores ~1 point higher than Sonar) AND Sonar abstention dominance.
+
+## 13:05 — Kappa v2: all variants fail 0.70
+- `compute_qwen_master_kappa_v2.py` ran four variants:
+  - A. Raw 5-class: κ = 0.2379, exact-match 30.4%
+  - B. Qwen−1 offset shift: κ = 0.3308, exact-match 51.0% (best)
+  - C. Tier-bucket (low/mid/high): κ = 0.2393, exact-match 66.2%
+  - D. Best linear shift (−1): κ = 0.3308
+- Abstention: both=810, qwen-only=9, sonar-only=795 (88× asymmetry).
+- All variants fail 0.70 gate; all fail 0.60 substantial threshold.
+- **NO-GO for full Qwen rescore confirmed.**
+
+## 13:08 — Decision: three-path strategy
+- **Path 1 (short-term, effective immediately):** Sonar (`sonar-reasoning-pro`) remains primary Pass C scorer. Continue Sonar/Claude for remaining ~21,500 obs via cloud pipeline.
+- **Path 2 (documented, not adopted):** Qwen pre-filter + Sonar scorer hybrid. Save ~31% Sonar API volume. Available when cost becomes pressure.
+- **Path 3 (medium-term):** Re-evaluate Llama 3.3 70B / DeepSeek R1 70B / Mistral Large 2 against locked 1,041-obs fixture.
+- Qwen 27B kept for Phase 3 wiki gen, kw_ask synthesis, summarization, `is_non_claim()` filtering.
+- Decision committed: `decisions/decisions_log_entry_2026_06_14_qwen27b_calibration_failed_v1.md` (commit `95e0595b`).
+
+## 13:14 — Why Qwen failed structurally
+- Sonar (web-grounded) abstains when it can't verify (score=0). Qwen (frozen LLM) commits from training-data priors.
+- Two different cognitive tasks under the same prompt. Prescience scoring is knowledge-retrieval intensive.
+- Without grounding, frozen LLM defaults to optimistic-prior commitments. NOT fixable via prompt anchoring.
+- Documented as G3 in `Perplexity_Only/OLLAMA_GOTCHAS.md`.
+
+## 13:20 — Follow-on commits (this turn)
+- OLLAMA_GOTCHAS.md: G2 split into G2a (`num_predict`) and G2b (scale-must-match-master); G3 added (frozen-LLM scoring underperforms grounded).
+- `local-model-upgrade-gates` skill: pass_c_scoring.md rewritten to v3 (canonical 0-5 + Layer 2 paired-fixture lock at 1,041 obs); SKILL.md updated with Qwen failure baseline (κ_max=0.331) and frozen-LLM anti-pattern; decision log bundled into `references/`.
+- Session log: today's full arc captured here.
+
+## Commits shipped today (chronological)
+- `49d0c392` (segment start)
+- `2d80c66d` v7 driver (1-5 scale)
+- `51f9873c` working dirs map v1
+- `accf7e8e` map v2 (CSV drift note)
+- `91765ea6` map v3 (May 26 cause)
+- `b292c986` audit script
+- `583cd584` kappa v1
+- `8309e0c0` kappa v2
+- `95e0595b` Qwen calibration failed decision + three-path strategy
+- **(pending this turn)** OLLAMA_GOTCHAS G3 + session log + skill v1.3

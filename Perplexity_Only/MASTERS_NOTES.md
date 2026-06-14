@@ -326,3 +326,7 @@ conflicts, not artifacts.
 - `kastner-new-day` skill — session-start orientation
 - `_decisions_log.md` — chronological decision history (this file's history table summarizes; the decisions log has full per-session detail)
 - `WORKLIST.md` — current and recent session worklists
+
+## 2026-06-14 — preseed_b convention
+
+`_master_prescience_scores.csv` rows with `model = preseed_skip_v1` have `source_pass = 'preseed_b'` and empty `prescience_score`. These represent observations whose prescience was authored upstream during Pass B; the empty score is intentional and prevents Pass C re-scoring. Filter `WHERE prescience_score IS NOT NULL` for scoring analyses, or `WHERE source_pass != 'preseed_b'` to exclude entirely.

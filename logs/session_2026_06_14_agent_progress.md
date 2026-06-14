@@ -79,3 +79,13 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Writing both retroactively for this session.
 
 ## NEXT — Build 30-obs calibration sample manifest
+
+
+## 08:34 — Calibration sample built
+
+- Ran `build_calibration_30_sample.py` → `calibration_30_obs_v1.csv`
+- Seed: 20260614 (reproducible)
+- Pool sizes: B1=3,661 obs / B2=100 obs / B3=552 obs from 35 transcript-matching unscored studies
+- Output: 30 rows (10 each from Batches 1/2/3), header + 9 cols
+- Sanity: split 10/10/10 confirmed; year range 1905–2007 (transcript-heavy)
+- Next: ship to `Perplexity_Only/` in repo, then write calibration driver v5

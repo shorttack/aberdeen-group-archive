@@ -3125,3 +3125,154 @@ The morning's EOD commits (`0ab3be59` + `0391dabf`) shipped the Pass B *ingest* 
 Pass B is complete from end-to-end (sandbox extraction → Mac merge → Phase 1+2 verified → Phase 3 in flight). Mac is unblocked.
 
 ---
+
+## 2026-06-13 PM — §11v cont 3-5: KW Console v1 SHIPPED + DEBUGGED + first real Save&Commit verified
+
+### Summary
+
+Built and shipped **KW Console v1** — a localhost FastAPI browser UI for the wiki repo that lets Pete annotate studies/entities/technologies without typing slugs by hand. Five commits to the wiki repo through the day:
+
+| SHA | Description |
+|---|---|
+| `e267d14d` | Add KW Console v1 (~743 LOC FastAPI + 493 LOC HTML) + bin/kw v3 with `console`/`pending` subcommands |
+| `b876802f` | Unicode-dash fold + slug cache + browser-open fix (3 bugs caught in first 10 min of Pete's testing) |
+| `0397f6c8` | Bridge `pages_manifest` ↔ `v_studies` slug-form mismatch (manifest has `study-foo` prefix, view has bare `foo`) |
+| `cfa64211` | Align `v_studies` SQL with real schema — replaced bogus `collection_type` with real `type` column (BinderError fix) |
+| `f33b5fa2` | **First real rebuttal saved via KW Console Save&Commit** — Pete wrote a rebuttal on the Debit-Credit IBM-vs-DEC 1988 study; commit verified at 20:33:10Z end-to-end as one-time EOD-watching test |
+
+**Companion**: Phase 3 wiki regen completed mid-evening on Mac (10,382 pages emitted, qwen3.5:27b-mlx still in effect per §11q rollback). §11q Qwen 3.6 rollback Mac copy verified — 4 files already in sync between `~/Desktop/Archive/scripts/` and `aberdeen-group-archive/scripts/` since 2026-06-02; no copy needed.
+
+### Decisions
+
+#### D1 — KW Console v1 ships as **wiki-only, markdown-only**
+
+Lightweight by design. Writes one markdown file per Save to `wiki/notes/<slug>.md` in the wiki repo. Does NOT touch the archive masters. Does NOT write structured rows anywhere. This is the v1 contract: the UI is a typing-saver, not a data router.
+
+#### D2 — Future v2 architecture: deferred-append spool, not direct cross-repo writes
+
+Discussed and decided: when rebuttals need to flow into `_master_player_rebuttals.csv`, KW Console should NOT write directly to the archive master. Instead, KW Console v2 will write to a wiki-side spool file (e.g., `wiki/_pending/rebuttals_spool.csv`) accumulating rows during the day. An **EOD batch script** (`promote_rebuttals_spool_v1.py` — TBD) reads the spool, appends rows to the archive master, copies markdown bodies from `wiki/notes/` to `aberdeen-group-archive/kastner-author/notes/`, then truncates the spool.
+
+Rationale (Pete's words): "Console app could write a CSV that gets appended to archive_masters/rebuttals.csv at EOD. I'd rather not have the KW app doing too much data writing as it's a lightweight piece of software."
+
+Architectural principle (Pete): the **archive repo is self-sufficient for research**. Any researcher or LLM querying the archive gets the complete picture — including player rebuttals' prose AND metadata — without needing to traverse into the wiki repo. The wiki is a derived presentation layer.
+
+Refinement during discussion: this means rebuttal *prose bodies* (not just metadata rows) must end up in the archive repo. The EOD batch promotes both the row AND the markdown.
+
+**Deferred to v2 design session** (overnight pondering for Pete).
+
+#### D3 — NEW STANDING RULE: production master moves require preauthorization
+
+Pete's correction this session: production master CSVs (the 9 root masters + any future masters) must NOT be moved, renamed, or have their location changed without **explicit, declared, preauthorized approval from Pete in the same conversation turn**. The agent had been about to move `_master_player_rebuttals.csv` from `archive_masters/` to repo root in this EOD as "cleanup for consistency." That framing was wrong — a move is a schema-adjacent change, not cleanup.
+
+**The rule**:
+1. Any proposed master move must be flagged as such in plain language ("This is a production master location change — needs your explicit sign-off")
+2. The move must follow the masters-edit ritual: dry-run script, versioned, backup-before-write, row-parity check, Pete approves the dry-run output, then commits
+3. The move never lands in an EOD batch commit alongside unrelated work
+4. The `kastner-archive-pipeline` and `kastner-github` skills need this rule added in a follow-up session
+
+**Tonight's action**: `_master_player_rebuttals.csv` stays at `archive_masters/_master_player_rebuttals.csv`. The move is WITHDRAWN from this EOD. Will be revisited only with explicit preauthorization in a future session.
+
+#### D4 — Skill `kastner-archive-pipeline` bumped v1.6 → v1.7
+
+Added **Gotcha 12** documenting the `v_studies` bucket-type column is `type`, NOT `collection_type`. This was the failure mode for KW Console commit `cfa64211`. Also added a row to Gotcha 11's mapping table cross-referencing Gotcha 12. Full `DESCRIBE v_studies` output captured in the skill (20 columns total).
+
+Saved via `save_custom_skill` (skill_id unchanged: `fe5dc1e1-e51d-4f60-88e7-4d2651afa18b`). Description length 995/1024 chars.
+
+Note: the v1.7 skill also amends a prior incorrect claim (made by the agent earlier today) about repo path layout — the description now explicitly notes archive masters live at repo root, not under `master_csvs/`. (There is NO `master_csvs/` directory anywhere — the agent invented it in conversation and Pete corrected.)
+
+#### D5 — Skill `kastner-github` EOD section already has `kw pending` check (added earlier this session)
+
+Recorded for forensics: the mandatory pre-commit notes check (`kw pending` semantic check OR `git status --porcelain wiki/notes/`) was added to the kastner-github skill at the start of this session. Tonight's EOD shows the notes-check returned clean for the wiki repo because Pete's Debit-Credit rebuttal already shipped as a standalone commit (`f33b5fa2`) at 20:33Z via KW Console's own Save&Commit — that IS the v1 contract.
+
+#### D6 — NEW BACKLOG: full prescience architecture audit (Mac + GitHub)
+
+Pete's concern (this session, verbatim): *"audit the entire prescience architecture locally on the Mac and at GitHub. It used to be simple. Now, I don't think I can explain the process or the files used."*
+
+The prescience pipeline has accumulated surfaces faster than documentation. Inventory of what exists (as the agent knows it today):
+
+| Surface | Path | Cols | Role | Last touched (where known) |
+|---|---|---|---|---|
+| **File 1** (live Pass C output) | `~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv` | 8 | v5 read/write target | unknown — Mac-side |
+| **File 2** (master) | `~/Desktop/Archive/archive_masters/_master_prescience_scores.csv` | 11 | studies-attached score master | unknown — Mac-side |
+| **File 3** (repo snapshot) | `aberdeen-group-archive/prescience_scores_pass_c_cloud_v1.csv` | 8 | repo-side stale snapshot | unknown |
+| **Repo `_master_prescience_scores.csv`** | repo root, archive repo | 11 | Pass C master in repo | **2026-05-31** (`2fc84158` — likely lagging File 2 by ~2 weeks) |
+| **`_master_player_rebuttals.csv`** | `archive_masters/` (Mac + repo) | 8 | Path B rebuttals (overrides scorer) | 2026-06-13 (1 Plaza row) |
+| **`prescience` enum in `_master_studies.csv`** | repo root | (1 col) | the authored verdict, pass-through in Phase 1 | 2026-06-13 (ce3262f3) |
+| **`v_studies_with_high_prescience` view** | DuckDB | — | filters on authored enum (NOT recomputed) | regenerated by Phase 2 |
+| **`promote_pass_c_to_master_v1.py`** | archive `scripts/` | — | File 1 → File 2 | active |
+| **`sync_studies_verdicts_repo_from_archive_masters_v2.py`** | archive `scripts/` | — | archive_masters/_master_studies.csv → repo /_master_studies.csv (verdicts only) | active |
+| **`roll_up_prescience_v3.py`** | `scripts/v3_obsolete/` | — | DEPRECATED 2026-06-13 | retired |
+
+**Plus the Path A / Path B branching logic** documented in skill v1.5+:
+- Path A (scorer-is-judge, math-driven): File 1 → promote → File 2 → compute verdict by Rule A (mean ≥ 3.5 → high, ≥ 2.0 → medium, else low; len(used)==0 → not-applicable) → write to `_master_studies.csv` → sync to repo
+- Path B (player rebuttal overrides scorer): score still goes File 1 → File 2; rebuttal note + verdict written directly to `_master_studies.csv` `prescience` and `prescience_rationale`; row also appended to `_master_player_rebuttals.csv`
+
+**Audit deliverable target**: a single document (probably `Perplexity_Only/PRESCIENCE_ARCHITECTURE.md`) that:
+1. Enumerates every prescience-related file and view with current schema, location, and update protocol
+2. Diagrams the Path A and Path B flows end-to-end with explicit script invocations
+3. Identifies known lag points (e.g., the May 31 timestamp on the repo `_master_prescience_scores.csv`)
+4. Lists open questions / inconsistencies (e.g., what triggered File 1 vs File 2 vs File 3 to become three different files? was that intentional?)
+5. Proposes a simplification plan if warranted (Pete's instinct: "it used to be simple")
+
+**Why this matters**: per the §11v cont 4 discussion, Path B (player rebuttals) is now an established override mechanism. The architecture needs to be legible enough for the operator to explain it in one breath. Right now it isn't.
+
+**Estimated work**: 2-4 hour deep-dive session. Pete-driven (he knows what "used to be simple" means and which complications are essential vs. accidental).
+
+### Bugs found and fixed in KW Console v1
+
+| # | Bug | Fix | Commit |
+|---|---|---|---|
+| 1 | macOS Smart Dashes substitute `–` (U+2013 en-dash) for `-`, breaking slug lookup when Pete pastes titles | `_DASH_FOLD` translation table covering U+2010..U+2015 + U+2212 | `b876802f` |
+| 2 | Per-keystroke parquet reload (10K-row `pages_manifest` re-read on every character of `/api/resolve`) | Module-level `_masters_cache` dict, load-once | `b876802f` |
+| 3 | macOS `open` fallthrough in bin/kw: `&&...||...` chain still hit `xdg-open: command not found` cosmetic error | Rewrote as if/elif/else dispatch on `uname` | `b876802f` |
+| 4 | `pages_manifest.slug` has type prefix (`study-foo`) but `v_studies.study_id` is bare form (`foo`) — resolver couldn't bridge | Added `_BUCKET_PREFIX` dict + `_base_form()` + `_match_in_bucket()` helpers; resolver tries both forms, returns base form | `0397f6c8` |
+| 5 | `list_studies()` and `fetch_subject()` selected `collection_type` from `v_studies` — column doesn't exist (real name is `type`) | Patched SQL to use `type`; expanded fetch_subject to include `author`, `subject_domain`, `study_prescience_enum`, `study_prescience_rationale` | `cfa64211` |
+
+### Shape audit (this session)
+
+No masters edits this session, so no archive-side shape delta expected. Numbers carried forward from §11u-cont AM (2026-06-13 11:58Z):
+
+```
+studies:                1452
+observations:           23926
+entities:               3276
+technologies:           4361
+studies_with_pub_year:  1452
+decades_covered:        6
+high_prescience_studies: 125  (was 124 pre-Plaza, +1 after Path B player rebuttal)
+```
+
+**Note on `_master_prescience_scores.csv`** (raised by Pete this session): repo-root copy was last touched 2026-05-31 (`2fc84158`). File 2 on Mac has very likely accumulated new rows since (Plaza-Hotel 26 obs + other Pass C runs). This is a hidden lag and feeds into the D6 audit.
+
+Phase 3 confirmed complete by Pete tail at 19:54Z:
+- studies: emitted 1452, tier-1 LLM=126
+- entities: emitted 3276, tier-1 LLM=200
+- technologies: emitted 4361, tier-1 LLM=150
+- Total: 10,382 pages emitted, ~476 tier-1 LLM enrichments
+
+### Files in this EOD commit
+
+**`shorttack/aberdeen-group-archive`** (this commit):
+- `WORKLIST.md` — §11v cont 3-5 session added to Done; v2 spool design + D3 standing rule + D6 prescience audit added to backlog
+- `_decisions_log.md` — this entry appended
+- `WORKLIST_2026_06_13.md` — date-stamped session worklist (mirror of above)
+
+**EXPLICITLY EXCLUDED from this commit**: `_master_player_rebuttals.csv` move from `archive_masters/` to repo root. Withdrawn pending preauthorization (see D3).
+
+**`shorttack/kastner-aberdeen-wiki`** (NO commit this EOD):
+- Five commits already shipped during the session (`e267d14d` through `f33b5fa2`)
+- `kw pending` clean at EOD (Pete's Debit-Credit rebuttal already in `f33b5fa2`)
+- No wiki-side artifacts pending
+
+### Deferred to next session
+
+1. **KW Console v2 design** (overnight pondering for Pete) — deferred-append spool pattern, `kind` dropdown in UI, EOD promote script
+2. **Prescience architecture audit (D6)** — Pete-driven 2-4 hour deep-dive; produce `Perplexity_Only/PRESCIENCE_ARCHITECTURE.md`
+3. **Plaza-Hotel rebuttal migration** — original `dectp_prescience_rationale_2026_06_13.md` in archive repo at `kastner-author/notes/` (`604dfec0`). Whether to ALSO mirror to `wiki/notes/` via KW Console is a v2 question
+4. **`_master_player_rebuttals.csv` move-to-root** — withdrawn from tonight; revisit only with explicit preauthorization
+5. **§11u-cont-tail items still open**: 4 `[DEFERRED]` prescience values, +49 vs +48 tech-row/page reconcile, `tech-006.md` fallback-slug investigation
+6. **`Pete_Only/` directory** — still pending from §11u-cont AM
+7. **Zenodo DOI confirmation** for v1.6.1
+8. **Skill amendments for D3** — add the production-master-move-preauthorization rule to `kastner-archive-pipeline` and `kastner-github` skills
+
+---

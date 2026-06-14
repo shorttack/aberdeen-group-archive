@@ -8,7 +8,7 @@ Pass C v2 calibration gate: score the 30-obs manifest with Qwen 3.5 27B-MLX
 inspection only (no kappa).
 
 DOES NOT overwrite v4. Reads:
-    Perplexity_Only/calibration_30_obs_v1.csv   (manifest from build script)
+    Perplexity_Only/calibration_30_obs_v2.csv   (manifest from build script)
     _master_observations.csv                     (claim_text source if manifest col empty)
     _master_prescience_scores.csv                (existing Sonar/Claude scores)
 
@@ -38,7 +38,7 @@ ARCHIVE_MASTERS = ARCHIVE_ROOT / "archive_masters"
 PASS_C_V2_DIR = ARCHIVE_ROOT / "pass_c_v2"
 PERPLEXITY_ONLY = PASS_C_V2_DIR / "Perplexity_Only"
 
-MANIFEST_CSV = PERPLEXITY_ONLY / "calibration_30_obs_v1.csv"
+MANIFEST_CSV = PERPLEXITY_ONLY / "calibration_30_obs_v2.csv"   # v6: v2 fixes claim_text=metric_value
 OBS_MASTER   = ARCHIVE_MASTERS / "_master_observations.csv"
 PRESC_MASTER = ARCHIVE_MASTERS / "_master_prescience_scores.csv"
 

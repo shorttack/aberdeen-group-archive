@@ -148,3 +148,10 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Pete's run "resumed" from v5b's spool (28 entries) and exited in 2 sec without scoring v2 manifest.
 - Fixed in place with sed; verified no v5 references remain except the SCORER_VERSION historical comment which I also bumped to v6.
 - Pete needs to ALSO delete the v5b artifacts before re-running, since v6's spool is now a different filename.
+
+## 09:11 — v6 was reading v1 manifest, not v2
+
+- Identical Qwen scores to v5b run = obvious tell that v6 was reading the same input
+- Root cause: same lost-multi-edit batch from 08:55. MANIFEST_CSV stayed at calibration_30_obs_v1.csv. The sed sweep only matched `calibration_v5_*` patterns, not the manifest filename.
+- Fixed: MANIFEST_CSV → calibration_30_obs_v2.csv, docstring updated, full grep verified no v1/v5 leakage.
+- LESSON FOR ME: when patching a critical config block, always grep ALL old-version tokens after the multi-edit, not just the obvious print banners.

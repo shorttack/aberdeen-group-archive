@@ -103,3 +103,12 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - B3 obs scored for inspection only (no prior scores → no kappa)
 - Does NOT overwrite v4
 - Mac path: `~/Desktop/Archive/pass_c_v2/Perplexity_Only/`
+
+## 08:53 — v5 failed: Qwen 3.5 thinking-model trap
+
+- All 28 obs returned empty `response` field; `done_reason=length`; 256-token budget consumed entirely by CoT in `thinking` field
+- Root cause: Qwen 3.5 27B-MLX is a thinking model; Ollama exposes CoT in separate `thinking` key
+- Fix: add `"think": false` to API payload, bump `num_predict` 256 → 512, fall back to `thinking` if `response` empty
+- Patched script in place (still scripts/run_prescience_calibration_v5_qwen_30obs.py)
+- Scorer version bumped to `pass_c_v2_calib_v5b` so spool rows are distinguishable
+- Pete must delete the failed spool before re-running: `rm ~/Desktop/Archive/pass_c_v2/Perplexity_Only/calibration_v5_qwen_spool.jsonl`

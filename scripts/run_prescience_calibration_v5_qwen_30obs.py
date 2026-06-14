@@ -47,7 +47,7 @@ OUT_SPOOL    = PERPLEXITY_ONLY / "calibration_v5_qwen_spool.jsonl"
 OUT_REPORT   = PERPLEXITY_ONLY / "calibration_report_v5.md"
 
 MODEL_NAME    = "qwen3.5:27b-mlx"   # adjust if Ollama tag differs
-SCORER_VERSION = "pass_c_v2_calib_v5"
+SCORER_VERSION = "pass_c_v2_calib_v5b"   # v5b: think=False, num_predict=512
 SOURCE_PASS    = "pass_c_v2_calibration"
 KAPPA_GATE     = 0.70
 
@@ -131,7 +131,8 @@ def call_ollama(prompt: str, timeout_s: int = 180) -> tuple[str, float, bool]:
         "model": MODEL_NAME,
         "prompt": prompt,
         "stream": False,
-        "options": {"temperature": 0.0, "num_predict": 256},
+        "think": False,   # Qwen 3.x thinking models: disable CoT, return answer in 'response'
+        "options": {"temperature": 0.0, "num_predict": 512},
     }).encode("utf-8")
     req = urllib.request.Request(
         OLLAMA_URL, data=payload, headers={"Content-Type": "application/json"}
@@ -141,14 +142,18 @@ def call_ollama(prompt: str, timeout_s: int = 180) -> tuple[str, float, bool]:
         with urllib.request.urlopen(req, timeout=timeout_s) as resp:
             body = json.loads(resp.read().decode("utf-8"))
         elapsed = time.time() - t0
-        text = body.get("response", "").strip()
+        # Qwen 3.x thinking models may put output in 'thinking' if think wasn't disabled.
+        # Prefer 'response'; fall back to 'thinking' only if 'response' is empty.
+        text = (body.get("response") or "").strip()
+        if not text:
+            text = (body.get("thinking") or "").strip()
         return text, elapsed, True
     except Exception as e:
         return f"ERROR: {e}", time.time() - t0, False
 
 def parse_score(raw: str):
     """Return (score:int|None, confidence:float|None, rationale:str, parse_ok:bool)."""
-    raw = raw.strip()
+    raw = (raw or "").strip()
     if raw.startswith("```"):
         raw = raw.strip("`").replace("json", "", 1).strip()
     # find first '{' ... last '}'

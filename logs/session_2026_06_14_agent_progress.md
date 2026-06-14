@@ -89,3 +89,17 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Output: 30 rows (10 each from Batches 1/2/3), header + 9 cols
 - Sanity: split 10/10/10 confirmed; year range 1905–2007 (transcript-heavy)
 - Next: ship to `Perplexity_Only/` in repo, then write calibration driver v5
+
+## 08:35 — Calibration driver v5 written
+
+- `run_prescience_calibration_v5_qwen_30obs.py` (360 lines, py_compile OK)
+- Reads `Perplexity_Only/calibration_30_obs_v1.csv` on Mac under `~/Desktop/Archive/pass_c_v2/`
+- Scorer: `qwen3.5:27b-mlx` via Ollama HTTP (temp=0.0, num_predict=256)
+- 12-col v2 schema (adds `prompt_hash`)
+- Append-only spool `calibration_v5_qwen_spool.jsonl` → restart-safe per obs_id
+- Quadratic-weighted Cohen's kappa, 5 bins (0-19/20-39/40-59/60-79/80-100)
+- Gate: kappa_B1 >= 0.7 AND kappa_B2 >= 0.7 → GO for full rescue
+- Outputs: scores CSV + JSONL spool + `calibration_report_v5.md` with go/no-go
+- B3 obs scored for inspection only (no prior scores → no kappa)
+- Does NOT overwrite v4
+- Mac path: `~/Desktop/Archive/pass_c_v2/Perplexity_Only/`

@@ -13,7 +13,7 @@
 | `./prepared/<study>/working` | 493 | **LIVE** | Pass C output staged on Mac, NOT yet in repo |
 | `./aberdeen-group-archive/kastner-author/<study>/working` | 58 | **LIVE** | In-repo Pass C output for kastner-author studies |
 | `./aberdeen-group-archive/other-authors/<study>/working` | 23 | **LIVE** | In-repo Pass C output for other-authors studies |
-| `./_pass_c_abandoned_runs/20260526/prepared/<study>/working` | 309 | **ABANDONED** | May 26 Qwen 3.5 27B run, shelved (reason unknown — see open question) |
+| `./_pass_c_abandoned_runs/20260526/prepared/<study>/working` | 309 | **ABANDONED** | May 26 Qwen 3.5 27B run. Shelved because Pete fired the agent and upgraded back from Pro to Max — agent quality, not methodology. The Qwen data itself may be salvageable. |
 | **TOTAL LIVE** | **574** | | |
 | **TOTAL ABANDONED** | **309** | | |
 
@@ -95,7 +95,33 @@ v7 did none of this. It pulled `metric_value` alone, fed it to Qwen as a naked o
 
 ### Where did the 3,625 master rows come from?
 
-Most likely Sonar/Claude were scored via **cloud API directly to master** (no per-study working dir needed), with the abandoned May 26 Qwen run also rolled in before being shelved. The 204 live working-dir rows are likely residue from later Qwen calibration smoke-tests that never got rolled up.
+Most likely Sonar/Claude were scored via **cloud API directly to master** (no per-study working dir needed). The 204 live working-dir rows are likely residue from later Qwen calibration smoke-tests that never got rolled up.
+
+**The 309 abandoned May 26 Qwen working dirs are probably NOT in the master** (the abandonment was an agent-quality event before roll-up — Pete fired the agent mid-run). This means there is potentially a large reservoir of Qwen 27B scores produced by the canonical pipeline that the master has never seen.
+
+### What the abandoned 309 dirs actually represent
+
+Pete (2026-06-14 12:01 EDT): "May 26 abandon came because I fired the Agent and upgraded back from Pro to Max. I was getting bad output and getting nowhere."
+
+Translation: the **scoring** wasn't necessarily bad — the **agent operating the project** was bad. The Qwen model output itself may be perfectly valid. Worth a focused audit before any v8:
+
+```python
+# Read abandoned Qwen scores, check parse_ok rate + score distribution
+import csv, glob
+from collections import Counter
+rows = []
+for f in glob.glob('/Users/scott/Desktop/Archive/_pass_c_abandoned_runs/**/working/prescience_scores*.csv', recursive=True):
+    with open(f, newline='') as fh:
+        for r in csv.DictReader(fh):
+            rows.append(r)
+print('total rows:    ', len(rows))
+print('parse_ok dist: ', Counter(r['parse_ok'] for r in rows))
+print('score dist:    ', Counter(r['prescience_score'] for r in rows))
+print('model dist:    ', Counter(r['model'] for r in rows))
+print('version dist:  ', Counter(r['scorer_version'] for r in rows))
+```
+
+If the abandoned run has good parse_ok rate and a sensible score distribution, the right move is **harvest it into a Qwen calibration set** and skip v8 entirely — we'd already have hundreds-to-thousands of Qwen scores to compare against the Sonar/Claude master.
 
 ### Still unknown (run on Mac to confirm)
 
@@ -156,7 +182,7 @@ cat ./aberdeen-group-archive/wiki_docs/v15_push_postmortem_v1.md
 1. **Read this file at the start of any prescience-related session.** Add it to `kastner-archive-pipeline` skill's "must-read" preamble.
 2. **Update `kastner-archive-pipeline` skill** Gotcha 13: "Before writing any new Pass C driver or calibration manifest, `find ~/Desktop/Archive -type d -name working` and check what exists. 574 working dirs already have the answer."
 3. **Update `local-model-upgrade-gates` skill** Gate 0: add "find working dirs" alongside "read OLLAMA_GOTCHAS.md".
-4. **`_pass_c_abandoned_runs/20260526/` is itself a key artifact.** Why was it abandoned? Was there a calibration failure documented somewhere? If no doc exists, write one before purging anything.
+4. **`_pass_c_abandoned_runs/20260526/` is itself a key artifact.** Pete confirmed 2026-06-14 12:01 EDT: "May 26 abandon came because I fired the Agent and upgraded back from Pro to Max. I was getting bad output and getting nowhere." The abandonment was an **agent-quality event, not a methodology event**. The 309 Qwen working dirs may still contain valid scores produced by the same Qwen 3.5 27B MLX model + same `prescience_score_prompt_v2.md` we want to use now. Audit before deleting.
 
 ---
 

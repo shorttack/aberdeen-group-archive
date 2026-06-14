@@ -155,3 +155,15 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Root cause: same lost-multi-edit batch from 08:55. MANIFEST_CSV stayed at calibration_30_obs_v1.csv. The sed sweep only matched `calibration_v5_*` patterns, not the manifest filename.
 - Fixed: MANIFEST_CSV → calibration_30_obs_v2.csv, docstring updated, full grep verified no v1/v5 leakage.
 - LESSON FOR ME: when patching a critical config block, always grep ALL old-version tokens after the multi-edit, not just the obvious print banners.
+
+## 09:18 — Scale architectural decision: B1 (1-5 wins)
+
+- v6 kappa=0.000 root cause not v6 bug: Qwen on 0-100, master on 1-5
+- Three options surfaced; Pete: "B1. I was happy with that distribution."
+- v7 driver: prompt rubric, validation, bin_score, kappa all on 1-5
+- Pass C fixture in local-model-upgrade-gates skill rescaled to 1-5 (v2)
+- OLLAMA_GOTCHAS.md G2 added: "scale must match master"
+- Decision summary: decisions/decisions_log_entry_2026_06_14_prescience_scale_1_5_v1.md
+- Master rows untouched, no schema migration
+- Tier mapping: 1-2=low, 3=medium, 4=high, 5=exceptional
+- v1.7.0 release notes will need to make the scale explicit (deferred)

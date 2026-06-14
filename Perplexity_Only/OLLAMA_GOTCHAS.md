@@ -50,3 +50,35 @@ Expect: `response='{"x":1}'  done_reason=stop`.
 ## G2. `num_predict` defense in depth
 
 Even with `think:false`, give thinking-model families at least 512 `num_predict` tokens. They are biased toward verbose prefaces.
+
+---
+
+## G2. Prompt scale must match production master scale
+
+**Affected workloads:** any scoring task where ground truth already exists in `_master_prescience_scores.csv` (or any future master with numeric judgments).
+
+**Symptom:** Calibration kappa returns 0.000 or near-zero despite the candidate model producing valid, well-distributed numeric output. Inspection shows the candidate scoring on a different numeric range than the master.
+
+**Root cause:** Multiple "rubric definitions" exist (locked fixture file, scorer prompt template, master data) and they don't agree on the integer range. Quadratic kappa across mismatched scales collapses pairs into the maximum-disagreement corner of the confusion matrix → kappa ≈ 0.
+
+**Fix:** The **production master is the source of truth for scoring scale**. Always:
+1. Read 5-10 sample rows from `_master_prescience_scores.csv` BEFORE writing any scorer prompt.
+2. Look at the `prescience_score` column distribution: `awk -F'","' '$3=="<model>" {print $4}' file.csv | sort | uniq -c`.
+3. Match the new scorer's prompt rubric and validation range to the observed integers EXACTLY.
+4. If the locked fixture in any skill disagrees with the master, the **master wins**. Bump the fixture, document the rescale decision, do NOT touch the master rows.
+
+**Pre-flight check (paste before writing any scorer):**
+
+```bash
+# Get scale distribution per model in current master
+awk -F'","' '$3=="sonar-reasoning-pro" {print $4}' /tmp/repo_master_prescience.csv | sort | uniq -c | head
+awk -F'","' '$3=="claude-sonnet-4.6"   {print $4}' /tmp/repo_master_prescience.csv | sort | uniq -c | head
+```
+
+Aberdeen's canonical scale is **1-5** (with -1 and 0 reserved for pre-filter markers). Anything else is a bug.
+
+**History:**
+- 2026-06-02 §11q: Pass C scoring fixture written at 0-100. Never compared to actual master values until calibration ran.
+- 2026-06-14 09:16 EDT: Re-discovered when Pass C v2 calibration v6 produced kappa=0.000 four runs in a row despite Qwen producing well-distributed valid output. Pete picked B1 (1-5 wins). Fixture v2 written. v7 driver rewritten.
+
+**Defense-in-depth:** When evaluating any new scoring workload, the first 5 minutes goes to "what does the existing data say the scale is?" — not "what does the skill file say the scale is?".

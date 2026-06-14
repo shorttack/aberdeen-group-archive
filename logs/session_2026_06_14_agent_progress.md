@@ -129,3 +129,15 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - Description, Quick Reference table, Anti-Patterns, and metadata all updated
 - New companion-files section points to repo-anchored OLLAMA_GOTCHAS.md as the source of truth
 - Decision summary: `decisions_log_entry_2026_06_14_gate_0_added_v1.md`
+
+## 09:04 — v5b kappa=0.000 → root cause + v6 fix
+
+- v5b RAN (think:false worked, all 28 obs returned valid JSON, real scores 0-95)
+- Kappa 0.000 / NO-GO not a Qwen failure: v1 manifest builder pulled `notes` column ("Validated from prepared observation seed list...") into `claim_text` instead of `metric_value`. Qwen scored 28 identical boilerplate strings, not 28 distinct observations.
+- Additional issue: ~60% of Sonar's "Batch 1" rows are pre-filter markers (score=-1 or 0, "image only" / "no claim" verdicts). Cannot ground-truth Qwen.
+- v2 manifest builder fixes both:
+  1. claim_text = metric_value (fallback metric_name)
+  2. B1/B2 pools filter to prior score > 0 only
+- v2 pool sizes: B1=1187 (was 3661), B2=62 (was 100), B3=3390 transcript-matching unscored obs with non-empty claims
+- v6 driver: reads v2 manifest, filters score<=0 from kappa pairs as defense-in-depth, does NOT overwrite v5b
+- Sample real claim: "Best in class manufacturers are more than twice as likely as other manufacturers..."

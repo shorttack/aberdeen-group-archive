@@ -141,3 +141,10 @@ Running log of agent actions and findings during the §11v cont 7 session. Appen
 - v2 pool sizes: B1=1187 (was 3661), B2=62 (was 100), B3=3390 transcript-matching unscored obs with non-empty claims
 - v6 driver: reads v2 manifest, filters score<=0 from kappa pairs as defense-in-depth, does NOT overwrite v5b
 - Sample real claim: "Best in class manufacturers are more than twice as likely as other manufacturers..."
+
+## 09:07 — v6 mis-shipped: still pointed at v5 files
+
+- My multi-edit to v6 driver lost 6 of 8 substitutions; v6 still wrote to v5 spool/scores/report and printed [v5].
+- Pete's run "resumed" from v5b's spool (28 entries) and exited in 2 sec without scoring v2 manifest.
+- Fixed in place with sed; verified no v5 references remain except the SCORER_VERSION historical comment which I also bumped to v6.
+- Pete needs to ALSO delete the v5b artifacts before re-running, since v6's spool is now a different filename.

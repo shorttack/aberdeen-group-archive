@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-run_prescience_calibration_v5_qwen_30obs.py
+run_prescience_calibration_v6_qwen_30obs.py
 
 Pass C v2 calibration gate: score the 30-obs manifest with Qwen 3.5 27B-MLX
 (via Ollama) and compare against the existing Batch 1 (Sonar) and Batch 2
@@ -13,9 +13,9 @@ DOES NOT overwrite v4. Reads:
     _master_prescience_scores.csv                (existing Sonar/Claude scores)
 
 Writes:
-    Perplexity_Only/calibration_v5_qwen_scores.csv          (12-col v2 schema)
-    Perplexity_Only/calibration_v5_qwen_spool.jsonl         (append-only)
-    Perplexity_Only/calibration_report_v5.md                (kappas + go/no-go)
+    Perplexity_Only/calibration_v6_qwen_scores.csv          (12-col v2 schema)
+    Perplexity_Only/calibration_v6_qwen_spool.jsonl         (append-only)
+    Perplexity_Only/calibration_report_v6.md                (kappas + go/no-go)
 
 GO/NO-GO GATE: all three kappas >= 0.7 to proceed to full ~24,221-obs rescore.
     - kappa_B1: Qwen vs Sonar on 10 B1 obs
@@ -42,12 +42,12 @@ MANIFEST_CSV = PERPLEXITY_ONLY / "calibration_30_obs_v1.csv"
 OBS_MASTER   = ARCHIVE_MASTERS / "_master_observations.csv"
 PRESC_MASTER = ARCHIVE_MASTERS / "_master_prescience_scores.csv"
 
-OUT_SCORES   = PERPLEXITY_ONLY / "calibration_v5_qwen_scores.csv"
-OUT_SPOOL    = PERPLEXITY_ONLY / "calibration_v5_qwen_spool.jsonl"
-OUT_REPORT   = PERPLEXITY_ONLY / "calibration_report_v5.md"
+OUT_SCORES   = PERPLEXITY_ONLY / "calibration_v6_qwen_scores.csv"
+OUT_SPOOL    = PERPLEXITY_ONLY / "calibration_v6_qwen_spool.jsonl"
+OUT_REPORT   = PERPLEXITY_ONLY / "calibration_report_v6.md"
 
 MODEL_NAME    = "qwen3.5:27b-mlx"   # adjust if Ollama tag differs
-SCORER_VERSION = "pass_c_v2_calib_v5b"   # v5b: think=False, num_predict=512
+SCORER_VERSION = "pass_c_v2_calib_v6"   # v6: claim=metric_value, exclude pre-filter priors
 SOURCE_PASS    = "pass_c_v2_calibration"
 KAPPA_GATE     = 0.70
 
@@ -207,7 +207,7 @@ def main():
     manifest = load_manifest()
     obs_lut  = load_obs_lookup()
     existing = load_existing_scores()
-    print(f"[v5] manifest={len(manifest)}  obs_master={len(obs_lut)}  existing_scored_obs={len(existing)}")
+    print(f"[v6] manifest={len(manifest)}  obs_master={len(obs_lut)}  existing_scored_obs={len(existing)}")
 
     # restart-safe: read spool for already-scored obs_ids
     done = set()
@@ -218,7 +218,7 @@ def main():
                     done.add(json.loads(line)["obs_id"])
                 except Exception:
                     pass
-        print(f"[v5] resume: {len(done)} already scored in spool")
+        print(f"[v6] resume: {len(done)} already scored in spool")
 
     new_rows = []
     spool_f = open(OUT_SPOOL, "a", encoding="utf-8")
@@ -278,7 +278,7 @@ def main():
         w.writeheader()
         for r in all_rows:
             w.writerow({k: r.get(k, "") for k in SCHEMA})
-    print(f"[v5] wrote {OUT_SCORES} ({len(all_rows)} rows)")
+    print(f"[v6] wrote {OUT_SCORES} ({len(all_rows)} rows)")
 
     # ----- KAPPAS -----
     qwen_by_oid = {r["obs_id"]: r for r in all_rows
@@ -350,15 +350,15 @@ Generated: {now_iso()}
 
 **{"GO" if go else "NO-GO"}** for full ~24,221-obs Qwen rescore.
 
-{"Both calibration kappas meet the >= " + str(KAPPA_GATE) + " gate. Proceed to write `run_prescience_pass_c_v6_qwen_full.py`." if go else "At least one kappa below gate. Inspect disagreements before scaling. Review the per-obs scores in `calibration_v5_qwen_scores.csv` and the rationales for the largest bin-distance pairs."}
+{"Both calibration kappas meet the >= " + str(KAPPA_GATE) + " gate. Proceed to write `run_prescience_pass_c_v6_qwen_full.py`." if go else "At least one kappa below gate. Inspect disagreements before scaling. Review the per-obs scores in `calibration_v6_qwen_scores.csv` and the rationales for the largest bin-distance pairs."}
 
 ## Notes
-- Batch 3 (10 transcript obs) had no prior scores; Qwen scores are recorded in `calibration_v5_qwen_scores.csv` for spot-checking but contribute no kappa.
+- Batch 3 (10 transcript obs) had no prior scores; Qwen scores are recorded in `calibration_v6_qwen_scores.csv` for spot-checking but contribute no kappa.
 - Binning: 0-19 / 20-39 / 40-59 / 60-79 / 80-100 (matches prompt rubric).
 """
     OUT_REPORT.write_text(report, encoding="utf-8")
-    print(f"[v5] wrote {OUT_REPORT}")
-    print(f"[v5] kappas: B1={fmt(k_b1)}  B2={fmt(k_b2)}  ref={fmt(k_ov)}  decision={'GO' if go else 'NO-GO'}")
+    print(f"[v6] wrote {OUT_REPORT}")
+    print(f"[v6] kappas: B1={fmt(k_b1)}  B2={fmt(k_b2)}  ref={fmt(k_ov)}  decision={'GO' if go else 'NO-GO'}")
 
 if __name__ == "__main__":
     sys.exit(main() or 0)

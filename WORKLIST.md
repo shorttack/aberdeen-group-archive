@@ -515,6 +515,35 @@ _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, loc
 - §11v deferred maintenance noted: skill `kastner-archive-pipeline` still references `~/Desktop/kastner_wiki/` (stale); shape-audit SQL uses `pub_year / 10` (DOUBLE bug — 38 decade buckets); document `v_studies_by_decade` view as canonical.
 
 
+## §11v BACKLOG — kw-note integration for player rebuttals
+
+**Established:** 2026-06-13 §11v
+**Status:** PARKED — non-blocking. First use (DECtp Plaza Hotel) already committed under the prior design.
+
+**Problem.** `PLAYER_REBUTTAL_PROCESS.md` (drafted this session) writes rebuttals to `archive_masters/_master_player_rebuttals.csv` + `kastner-author/notes/`. Archive masters that are inaccessible to the wiki defeat the wiki's role as the home of added knowledge. The DECtp Plaza Hotel rebuttal note now sits in both repos but is **not** in the Obsidian vault, not embedded by nomic-embed, not in `kastner.duckdb`, and not linked from the study page.
+
+**Correction.** Route rebuttals through Pete's existing Mac `kw note` CLI so they land in `kastner-aberdeen-wiki/wiki/` as first-class wiki pages — indexed by Obsidian, embedded, queryable in DuckDB, discoverable from study pages.
+
+**`kw note` flags observed (2026-06-13):** `--title --slug --tags --from-file --from-stdin --body --author --update --append --replace --question --sources-from --model --retrieval-k --commit --overwrite --git-commit`.
+
+**Open questions:**
+- Where does `kw note` write? (which directory under `wiki/`?)
+- What frontmatter does it produce?
+- Does it accept a `--type`/`--note-type` flag to distinguish rebuttals from other notes?
+- How does a rebuttal page bind back to its subject `study_id`? (frontmatter field, tag, or body wikilink?)
+- Does `--git-commit` push to the wiki repo, or only commit locally?
+
+**Tasks:**
+- [ ] Capture `kw note --help` full output + `which kw` + source-code dispatch for the `note` subcommand
+- [ ] Decide whether to KEEP `_master_player_rebuttals.csv` as a parallel audit ledger or retire it
+- [ ] Revise `PLAYER_REBUTTAL_PROCESS.md` to make `kw note` the canonical path; install at `~/Desktop/Archive/Perplexity_Only/`
+- [ ] Migrate the DECtp Plaza Hotel rebuttal (`kastner-author/notes/dectp_prescience_rationale_2026_06_13.md`) into the wiki via `kw note`
+- [ ] Confirm the migrated note is embedded by nomic-embed and queryable in `kastner.duckdb`
+- [ ] Add a `rebuttal_of: <study_id>` (or equivalent) frontmatter convention so study pages can surface rebuttals via Dataview
+
+---
+
+
 ---
 
 _Owner: Pete Kastner. Updates inline during sessions; end-of-day commit clears "Done this session" and refreshes "Last updated"._

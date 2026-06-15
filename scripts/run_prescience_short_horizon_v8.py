@@ -7,7 +7,7 @@ prescience scoring per the v3 spec locked 2026-06-15.
 
 Companion docs (workspace):
   - decisions_log_entry_2026_06_15_short_horizon_prescience_v3.md  (SPEC v3)
-  - anchor_year_resolver_v1.py                                     (resolver module)
+  - anchor_year_resolver_v2.py                                     (resolver module)
   - short_horizon_prompt_v1.md                                     (prompt design)
   - driver_v8_spec_v1.md                                           (this file's spec)
   - short_horizon_acceptance_gates_v2_spec.md                      (G1-G10)
@@ -75,9 +75,13 @@ try:
 except ImportError:
     SSL_CTX = ssl.create_default_context()
 
-# anchor_year_resolver_v1 must be importable from the run directory
+# anchor_year_resolver_v2 must be importable from the run directory.
+# v2 aligns field names to actual master schemas:
+#   obs.year_observed  (not obs_date)
+#   study.date         (not published_at)
+# Backward-compat fallbacks preserved for enriched calibration CSVs.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from anchor_year_resolver_v1 import (
+from anchor_year_resolver_v2 import (
     AnchorResolutionError,
     resolve_anchor_year,
     window_bounds,
@@ -232,6 +236,11 @@ def build_user_prompt(row: dict, study_row: dict, anchor_year: int,
     a3 = anchor_year + 3
     a5 = anchor_year + 5
     template = USER_TEMPLATE_COMBINED if combined else USER_TEMPLATE_3Y_ONLY
+    # study.date is canonical; study.published_at is legacy fallback for
+    # enriched calibration CSVs that pre-renamed the field.
+    published_at = (study_row.get("date")
+                    or study_row.get("published_at")
+                    or "unknown")
     return template.format(
         anchor_year=anchor_year,
         anchor_source=anchor_source,
@@ -241,7 +250,7 @@ def build_user_prompt(row: dict, study_row: dict, anchor_year: int,
         obs_text=row.get("metric_value") or "",
         study_title=study_row.get("title") or row.get("study_id", ""),
         study_type=study_row.get("type") or "unspecified",
-        published_at=study_row.get("published_at") or "unknown",
+        published_at=published_at,
         observation_type=row.get("observation_type") or "unspecified",
         section=row.get("section") or row.get("source_page") or "unspecified",
     )

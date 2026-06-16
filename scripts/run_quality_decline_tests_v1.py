@@ -202,7 +202,11 @@ def run_t1(rows, cutoff_year, label):
     return out
 
 
-def run_t3(rows, methodology_map):
+def run_t3(rows, methodology_map, min_n=30):
+    """T3 methodology aggregation with min-n threshold.
+    Methodologies with fewer than min_n obs are collapsed into
+    `_other_below_threshold`. Sort order: n desc.
+    """
     enriched = []
     for r in rows:
         oid = r.get("obs_id")
@@ -211,21 +215,38 @@ def run_t3(rows, methodology_map):
             r2 = dict(r)
             r2["_methodology"] = m
             enriched.append(r2)
-    by_m = bucket_by(enriched, lambda r: r.get("_methodology"))
+    by_m_raw = bucket_by(enriched, lambda r: r.get("_methodology"))
+
+    above = {m: rs for m, rs in by_m_raw.items() if len(rs) >= min_n}
+    below = {m: rs for m, rs in by_m_raw.items() if len(rs) < min_n}
+    other_rows = [r for rs in below.values() for r in rs]
+
     out = {
+        "min_n_threshold": min_n,
         "n_with_methodology": len(enriched),
         "n_missing_methodology": len(rows) - len(enriched),
+        "n_codes_total": len(by_m_raw),
+        "n_codes_above_threshold": len(above),
+        "n_codes_below_threshold": len(below),
+        "n_obs_in_below_threshold": len(other_rows),
         "by_methodology": {},
     }
-    for m in sorted(by_m):
-        mrows = by_m[m]
-        dv_rate, dv_n, dv_d = divergence_rate(mrows)
-        out["by_methodology"][m] = {
-            "n": len(mrows),
-            "3y": aggregate(mrows, "3y"),
-            "5y": aggregate(mrows, "5y"),
+
+    def _row(rs):
+        dv_rate, dv_n, dv_d = divergence_rate(rs)
+        return {
+            "n": len(rs),
+            "3y": aggregate(rs, "3y"),
+            "5y": aggregate(rs, "5y"),
             "divergence": {"rate": dv_rate, "diverging": dv_n, "denom": dv_d},
         }
+
+    for m, rs in sorted(above.items(), key=lambda kv: -len(kv[1])):
+        out["by_methodology"][m] = _row(rs)
+
+    if other_rows:
+        out["by_methodology"]["_other_below_threshold"] = _row(other_rows)
+
     return out
 
 
@@ -256,18 +277,24 @@ def write_decade_csv(t1, path):
 
 
 def write_methodology_csv(t3, path):
+    """Write methodology CSV sorted by n desc; _other_below_threshold last.
+    CSV reflects what's in t3['by_methodology'] (post-threshold collapse).
+    """
     cols = [
         "methodology_code", "n", "n_valid_3y", "mean_3y", "mode_3y",
         "share_4_5_3y", "share_0_1_3y",
         "n_valid_5y", "mean_5y", "mode_5y", "share_4_5_5y", "share_0_1_5y",
-        "divergence_rate",
+        "divergence_rate", "above_min_n_threshold",
     ]
+    items = list(t3["by_methodology"].items())
+    items.sort(key=lambda kv: (kv[0] == "_other_below_threshold", -kv[1]["n"]))
+    threshold = t3.get("min_n_threshold", 30)
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(cols)
-        for m in sorted(t3["by_methodology"]):
-            d = t3["by_methodology"][m]
+        for m, d in items:
             s3 = d["3y"]; s5 = d["5y"]
+            above = "yes" if (d["n"] >= threshold and m != "_other_below_threshold") else "no"
             w.writerow([
                 m, d["n"],
                 s3["n_valid"], s3["mean"], s3["mode"],
@@ -275,6 +302,7 @@ def write_methodology_csv(t3, path):
                 s5["n_valid"], s5["mean"], s5["mode"],
                 s5["share_4_5"], s5["share_0_1"],
                 d["divergence"]["rate"],
+                above,
             ])
 
 
@@ -321,11 +349,17 @@ def render_md(report):
     t3 = report["T3"]
     L.append(f"- n with methodology: {t3['n_with_methodology']}")
     L.append(f"- n missing methodology: {t3['n_missing_methodology']}")
+    L.append(f"- min-n threshold: {t3['min_n_threshold']}")
+    L.append(f"- distinct codes total: {t3['n_codes_total']}")
+    L.append(f"- codes above threshold: {t3['n_codes_above_threshold']}")
+    L.append(f"- codes below threshold: {t3['n_codes_below_threshold']} "
+             f"(collapsed into `_other_below_threshold`, n={t3['n_obs_in_below_threshold']})")
     L.append("")
     L.append("| Methodology | n | mean 3y | mode 3y | 4–5% 3y | mean 5y | 4–5% 5y | div. |")
     L.append("|---|---|---|---|---|---|---|---|")
-    for m in sorted(t3["by_methodology"]):
-        d = t3["by_methodology"][m]
+    items = list(t3["by_methodology"].items())
+    items.sort(key=lambda kv: (kv[0] == "_other_below_threshold", -kv[1]["n"]))
+    for m, d in items:
         s3 = d["3y"]; s5 = d["5y"]
         L.append(f"| {m} | {d['n']} | {s3['mean']} | {s3['mode']} | "
                  f"{s3['share_4_5']} | {s5['mean']} | {s5['share_4_5']} | "
@@ -348,6 +382,9 @@ def main():
     ap.add_argument("--outdir", required=True)
     ap.add_argument("--primary-cutoff", type=int, default=2011)
     ap.add_argument("--secondary-cutoff", type=int, default=2015)
+    ap.add_argument("--min-n", type=int, default=30,
+                    help="Min n per methodology code; below-threshold codes "
+                         "collapse into _other_below_threshold.")
     args = ap.parse_args()
 
     outdir = Path(args.outdir)
@@ -360,7 +397,7 @@ def main():
 
     t1_primary = run_t1(rows, args.primary_cutoff, "primary")
     t1_secondary = run_t1(rows, args.secondary_cutoff, "secondary")
-    t3 = run_t3(rows, meth)
+    t3 = run_t3(rows, meth, min_n=args.min_n)
 
     report = {
         "generated_at": dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
@@ -401,8 +438,10 @@ def main():
         t1_secondary["overall_3y"]["mean"],
         t1_secondary["overall_3y"]["share_4_5"],
     ))
-    print("[summary] T3 methodology codes: {}".format(
-        len(t3["by_methodology"]),
+    print("[summary] T3 codes: total={}  above_threshold(>={})={}  below={}".format(
+        t3["n_codes_total"], args.min_n,
+        t3["n_codes_above_threshold"],
+        t3["n_codes_below_threshold"],
     ))
 
 

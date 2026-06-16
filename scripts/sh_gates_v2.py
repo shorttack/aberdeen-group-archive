@@ -48,6 +48,7 @@ REQUIRED_COLS = [
 PENDING_RE = re.compile(r"^window_not_elapsed:[35]y:cutoff_\d{4}$")
 NO_ANCHOR_RE = re.compile(r"^no_anchor:")
 PARSE_FAIL_RE = re.compile(r"^parse_fail:")
+CONTENT_UNRECOVERABLE_RE = re.compile(r"^\[content_unrecoverable\]\s+")
 HEDGE_RE = re.compile(r"\b(likely|possibly|perhaps|might|may|could)\b", re.IGNORECASE)
 YEAR_RE = re.compile(r"\b(\d{4})\b")
 
@@ -101,6 +102,14 @@ def g1_schema(rows) -> list[dict]:
         if p5 == -1:
             r5 = r["rationale_5y"] or ""
             if not (NO_ANCHOR_RE.match(r5) or PARSE_FAIL_RE.match(r5)):
+                ok = False
+        if p3 == -99:
+            r3 = r["rationale_3y"] or ""
+            if not CONTENT_UNRECOVERABLE_RE.match(r3):
+                ok = False
+        if p5 == -99:
+            r5 = r["rationale_5y"] or ""
+            if not CONTENT_UNRECOVERABLE_RE.match(r5):
                 ok = False
         if sp == "pass_c_sh_pending" and not (p3 == -2 and p5 == -2):
             ok = False
@@ -477,12 +486,31 @@ def main():
 
     report_path = Path(args.report)
     report_path.parent.mkdir(parents=True, exist_ok=True)
+    # Sentinel population counts (split -1 parse_fail from -99 content_unrecoverable)
+    def _in_valid_range(v):
+        return v is not None and 0 <= v <= 5
+    sentinel_counts = {
+        "valid_3y":   sum(1 for r in rows if _in_valid_range(coerce_int(r.get("prescience_3y")))),
+        "valid_5y":   sum(1 for r in rows if _in_valid_range(coerce_int(r.get("prescience_5y")))),
+        "parse_fail_3y":           sum(1 for r in rows if coerce_int(r.get("prescience_3y")) == -1),
+        "parse_fail_5y":           sum(1 for r in rows if coerce_int(r.get("prescience_5y")) == -1),
+        "content_unrecoverable_3y": sum(1 for r in rows if coerce_int(r.get("prescience_3y")) == -99),
+        "content_unrecoverable_5y": sum(1 for r in rows if coerce_int(r.get("prescience_5y")) == -99),
+        "pending_3y":              sum(1 for r in rows if coerce_int(r.get("prescience_3y")) == -2),
+        "pending_5y":              sum(1 for r in rows if coerce_int(r.get("prescience_5y")) == -2),
+    }
+    print(f"[sentinels] valid_3y={sentinel_counts['valid_3y']}  "
+          f"parse_fail_3y={sentinel_counts['parse_fail_3y']}  "
+          f"content_unrecoverable_3y={sentinel_counts['content_unrecoverable_3y']}  "
+          f"pending_3y={sentinel_counts['pending_3y']}")
+
     report_path.write_text(json.dumps({
         "input": args.input,
         "total_rows": len(rows),
         "hard_fails": len(hard_fails),
         "soft_flags": len(soft_fails),
         "promote_eligible": len(hard_fails) == 0,
+        "sentinel_counts": sentinel_counts,
         "results": results,
     }, indent=2))
     print(f"[write] {report_path}")

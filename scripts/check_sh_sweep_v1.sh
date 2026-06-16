@@ -78,22 +78,30 @@ from collections import Counter
 try:
     rows = list(csv.DictReader(open("$OUT_FILE")))
     print(f"  total rows: {len(rows)}")
-    # Parse-fail sentinel (-1) tally — separate from score distribution
-    pf3 = sum(1 for r in rows if r.get('prescience_3y') == '-1')
-    pf5 = sum(1 for r in rows if r.get('prescience_5y') == '-1')
-    print(f"  parse_fail sentinel (-1):  3y={pf3}  5y={pf5}  ({100*pf3/len(rows):.2f}% / {100*pf5/len(rows):.2f}%)")
-    # 3y window (excluding parse_fail)
+    SENTINELS = {'-1', '-99', '-2'}
+    # Parse-fail (-1), content_unrecoverable (-99), pending (-2) tallies
+    pf3  = sum(1 for r in rows if r.get('prescience_3y') == '-1')
+    pf5  = sum(1 for r in rows if r.get('prescience_5y') == '-1')
+    cu3  = sum(1 for r in rows if r.get('prescience_3y') == '-99')
+    cu5  = sum(1 for r in rows if r.get('prescience_5y') == '-99')
+    pn3  = sum(1 for r in rows if r.get('prescience_3y') == '-2')
+    pn5  = sum(1 for r in rows if r.get('prescience_5y') == '-2')
+    print(f"  parse_fail (-1):              3y={pf3:4d}  5y={pf5:4d}  ({100*pf3/len(rows):5.2f}% / {100*pf5/len(rows):5.2f}%)")
+    print(f"  content_unrecoverable (-99):  3y={cu3:4d}  5y={cu5:4d}  ({100*cu3/len(rows):5.2f}% / {100*cu5/len(rows):5.2f}%)")
+    if pn3 or pn5:
+        print(f"  pending (-2):                 3y={pn3:4d}  5y={pn5:4d}")
+    # 3y window (valid 0-5 only)
     c3 = Counter(r.get('prescience_3y','') for r in rows
-                 if r.get('prescience_3y') and r.get('prescience_3y') != '-1')
+                 if r.get('prescience_3y') and r.get('prescience_3y') not in SENTINELS)
     if c3:
         tot = sum(c3.values())
         print(f"  --- 3y window ({tot} valid scores) ---")
         for k in sorted(c3, key=lambda x: int(x) if x.lstrip('-').isdigit() else 99):
             pct = 100*c3[k]/tot
             print(f"    score={k:>3}: {c3[k]:5d} ({pct:5.1f}%)")
-    # 5y window (excluding parse_fail)
+    # 5y window (valid 0-5 only)
     c5 = Counter(r.get('prescience_5y','') for r in rows
-                 if r.get('prescience_5y') and r.get('prescience_5y') != '-1')
+                 if r.get('prescience_5y') and r.get('prescience_5y') not in SENTINELS)
     if c5:
         tot = sum(c5.values())
         print(f"  --- 5y window ({tot} valid scores) ---")
@@ -102,8 +110,8 @@ try:
             print(f"    score={k:>3}: {c5[k]:5d} ({pct:5.1f}%)")
     # Divergence count (over valid-score pairs only)
     valid = [r for r in rows
-             if r.get('prescience_3y') and r.get('prescience_3y') != '-1'
-             and r.get('prescience_5y') and r.get('prescience_5y') != '-1']
+             if r.get('prescience_3y') and r.get('prescience_3y') not in SENTINELS
+             and r.get('prescience_5y') and r.get('prescience_5y') not in SENTINELS]
     div = sum(1 for r in valid if (r.get('windows_diverge') or '').lower() in ('true','1','yes'))
     if valid:
         print(f"  --- divergence: {div}/{len(valid)} valid pairs ({100*div/len(valid):.1f}%) ---")

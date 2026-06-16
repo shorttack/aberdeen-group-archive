@@ -31,8 +31,8 @@ fi
 echo ""
 echo "[output]"
 if [ -f "$OUT_FILE" ]; then
-    ROWS=$(wc -l < "$OUT_FILE")
-    DATA_ROWS=$((ROWS - 1))
+    # NOTE: rationale fields contain embedded newlines — count CSV records, not lines
+    DATA_ROWS=$(python3 -c "import csv; print(sum(1 for _ in csv.DictReader(open('$OUT_FILE'))))")
     PCT=$(awk -v r="$DATA_ROWS" -v t="$TARGET_ROWS" 'BEGIN{printf "%.1f", 100*r/t}')
     MTIME=$(stat -f "%Sm" -t "%Y-%m-%d %H:%M:%S" "$OUT_FILE" 2>/dev/null || stat -c "%y" "$OUT_FILE" 2>/dev/null | cut -d. -f1)
     echo "  rows: $DATA_ROWS / $TARGET_ROWS (${PCT}%)"
@@ -77,27 +77,36 @@ import csv
 from collections import Counter
 try:
     rows = list(csv.DictReader(open("$OUT_FILE")))
-    print(f"  total: {len(rows)}")
-    # 3y window
-    c3 = Counter(r.get('prescience_3y','') for r in rows if r.get('prescience_3y'))
+    print(f"  total rows: {len(rows)}")
+    # Parse-fail sentinel (-1) tally — separate from score distribution
+    pf3 = sum(1 for r in rows if r.get('prescience_3y') == '-1')
+    pf5 = sum(1 for r in rows if r.get('prescience_5y') == '-1')
+    print(f"  parse_fail sentinel (-1):  3y={pf3}  5y={pf5}  ({100*pf3/len(rows):.2f}% / {100*pf5/len(rows):.2f}%)")
+    # 3y window (excluding parse_fail)
+    c3 = Counter(r.get('prescience_3y','') for r in rows
+                 if r.get('prescience_3y') and r.get('prescience_3y') != '-1')
     if c3:
         tot = sum(c3.values())
-        print(f"  --- 3y window ({tot}) ---")
-        for k in sorted(c3):
+        print(f"  --- 3y window ({tot} valid scores) ---")
+        for k in sorted(c3, key=lambda x: int(x) if x.lstrip('-').isdigit() else 99):
             pct = 100*c3[k]/tot
             print(f"    score={k:>3}: {c3[k]:5d} ({pct:5.1f}%)")
-    # 5y window
-    c5 = Counter(r.get('prescience_5y','') for r in rows if r.get('prescience_5y'))
+    # 5y window (excluding parse_fail)
+    c5 = Counter(r.get('prescience_5y','') for r in rows
+                 if r.get('prescience_5y') and r.get('prescience_5y') != '-1')
     if c5:
         tot = sum(c5.values())
-        print(f"  --- 5y window ({tot}) ---")
-        for k in sorted(c5):
+        print(f"  --- 5y window ({tot} valid scores) ---")
+        for k in sorted(c5, key=lambda x: int(x) if x.lstrip('-').isdigit() else 99):
             pct = 100*c5[k]/tot
             print(f"    score={k:>3}: {c5[k]:5d} ({pct:5.1f}%)")
-    # Divergence count
-    div = sum(1 for r in rows if (r.get('windows_diverge') or '').lower() in ('true','1','yes'))
-    if rows:
-        print(f"  --- divergence: {div}/{len(rows)} ({100*div/len(rows):.1f}%) ---")
+    # Divergence count (over valid-score pairs only)
+    valid = [r for r in rows
+             if r.get('prescience_3y') and r.get('prescience_3y') != '-1'
+             and r.get('prescience_5y') and r.get('prescience_5y') != '-1']
+    div = sum(1 for r in valid if (r.get('windows_diverge') or '').lower() in ('true','1','yes'))
+    if valid:
+        print(f"  --- divergence: {div}/{len(valid)} valid pairs ({100*div/len(valid):.1f}%) ---")
 except Exception as e:
     print(f"  error: {e}")
 PY

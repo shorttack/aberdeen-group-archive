@@ -8,9 +8,11 @@ Every study is packaged as a self-contained [Frictionless Data Package](https://
 
 Kastner had the prescience to save much of his work in digital form; about one-third has survived. It is all in this "Kastner Research Archive".
 
-**v1.6 — "full 1,400+ study content"** (2026-05-31)
+**v1.6.2 — "Multi-Horizon Prescience"** (2026-06-17)
 
-The current corpus: **1,434 studies · 23,605 observations · 3,207 entity rows · 4,312 technology rows · 124 high-prescience studies** (Pass C, `prescience_max ≥ 4`), spanning **1979–2026**.
+The current corpus: **1,452 studies · 23,926 observations · 3,276 entity rows · 4,361 technology rows · 498 high-prescience studies** (`study_prescience_enum = 'high'`), spanning **1979–2026**.
+
+New in v1.6.2: 3-year and 5-year prescience results promoted into the masters via Tier B sentinel-aware rebuild. Observations with a prescience score grew from 3,829 (v1.6.1) to **15,924**; authored high-prescience study count grew from 125 to **498**. No new studies; this is a deeper read of the existing corpus.
 
 These are the live counts. Per-subdirectory and per-section numbers elsewhere may lag the masters — when in doubt, `_master_*.csv` is truth.
 
@@ -42,12 +44,13 @@ The archive is organized by who wrote each study and, for Peter S. Kastner's own
 
 A second-pass deliverable built directly from this archive's master CSVs.
 
-- **Format**: Obsidian vault + DuckDB query layer + Parquet exports + nomic-embed embedding index.
-- **Pages**: **8,960** — 1,434 study pages, 3,207 entity pages, 4,313 tech pages, plus index/dashboard pages.
-- **Cross-linking**: Every study page emits `[[entity-slug]]` and `[[tech-slug]]` wikilinks (3,682 study→entity links and 5,253 study→technology links), powering Dataview reverse-lookups on every entity and technology page.
-- **Local-first**: Lives at `kastner_wiki/` in the parent archive directory; opens in Obsidian, queryable from DuckDB, browsable from Python/pandas via the Parquet exports.
+- **Format**: Obsidian vault + DuckDB query layer + Parquet exports + bge-m3 embedding index (1024-dim).
+- **Pages**: **10,382** — 1,452 study pages, 3,276 entity pages, 4,361 tech pages, 1,293 code pages, plus 33 decade/theme/collection/index pages.
+- **Embedding index**: bge-m3 (1024-dim), 10,438 rows.
+- **Cross-linking**: Every study page emits `[[entity-slug]]` and `[[tech-slug]]` wikilinks (**5,597 study→entity links** and **11,050 study→technology links**), powering Dataview reverse-lookups on every entity and technology page.
+- **Local-first**: Lives at `~/Repos/kastner-aberdeen-wiki/` on the build host (migrated from `~/Desktop/kastner_wiki/` on 2026-06-01 to escape iCloud Desktop sync). Opens in Obsidian, queryable from DuckDB, browsable from Python/pandas via the Parquet exports.
 - **Builder skill**: `kastner-wiki-builder` (custom user skill).
-- **Backup**: `kastner_wiki_backup_v1.4_<timestamp>.tar.gz` lives in the Archive root.
+- **GitHub mirror**: [shorttack/kastner-aberdeen-wiki](https://github.com/shorttack/kastner-aberdeen-wiki) — same v1.6.2 tag.
 
 ### Prescience ratings
 
@@ -55,15 +58,16 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 | Rating | Studies |
 |---|---:|
-| high | 471 |
-| medium | 271 |
-| low | 72 |
-| not-applicable | 249 |
-| [DEFERRED] | 370 |
+| high | 498 |
+| medium | 330 |
+| low | 276 |
+| not-applicable | 346 |
+| [DEFERRED] | 1 |
 | (unrated) | 1 |
-| [REVIEW] | (legacy flag — to be drained in v1.5) |
 
-The **`[DEFERRED]` bucket holds the 370 v1.4 ingest studies whose prescience scoring is queued for the Pass C scoring run** (post-v1.4 backlog item).
+The `[DEFERRED]` v1.4 backlog bucket (formerly 370 studies) was drained by the Tier B promote in v1.6.2 — 1 row remaining.
+
+The **498** figure above is the author-curated `study_prescience_enum = 'high'` surface. Two observation-derived surfaces are also exposed in `v_studies`: **865** studies satisfy `prescience_max ≥ 4` (loose) and **115** studies satisfy `prescience_mean ≥ 3.5` (tight). The `v_studies_with_high_prescience` view filters on the authored verdict (498); downstream researchers can pick the threshold appropriate to their question.
 
 ### Aberdeen Group Category Creator roster
 
@@ -93,7 +97,7 @@ photographs, etc.) remains the property of its respective rights holders.
 
 For academic / data-set citation, use [`CITATION.cff`](./CITATION.cff) or:
 
-> Kastner, Peter S. (2026). *Kastner IT Research Archive*, version 1.4.0.
+> Kastner, Peter S. (2026). *Kastner IT Research Archive*, version 1.6.2.
 > Licensed under CC-BY-4.0.
 
 Version history is in [`CHANGELOG.md`](./CHANGELOG.md). Curatorial decisions and data-hygiene history are in [`_decisions_log.md`](./_decisions_log.md).
@@ -102,14 +106,16 @@ Version history is in [`CHANGELOG.md`](./CHANGELOG.md). Curatorial decisions and
 
 ## For Data Engineers / Analysts
 
-### Top-level layout (v1.4)
+### Top-level layout (v1.6.2)
 
 ```
 aberdeen-group-archive/
-├── _master_studies.csv          #   1,434 rows — index of all studies
-├── _master_entities.csv         #   3,207 rows — per-study entity rows
-├── _master_technologies.csv     #   4,312 rows — per-study technology rows
-├── _master_observations.csv     #  23,605 rows — every observation
+├── _master_studies.csv          #   1,452 rows — index of all studies
+├── _master_entities.csv         #   3,276 rows — per-study entity rows
+├── _master_technologies.csv     #   4,361 rows — per-study technology rows
+├── _master_observations.csv     #  23,926 rows — every observation
+├── _master_prescience_scores.csv  # 17,085 rows — obs-level scores (Pass C cloud_v1)
+├── _master_player_rebuttals.csv  # author rebuttals of scorer verdicts (Path B)
 ├── _master_tech_studies.csv     # tech_id → study_id bridge
 ├── _master_tech_field_conflicts.csv  # tech-field conflict audit
 ├── _master_tech_canonicalization_TODO.csv  # tech_id canonicalization queue
@@ -255,18 +261,28 @@ After per-study cache updates, masters are regenerated by `_audits/` tooling and
 2. **Layer B** — §16 CSV write validation gate (no base64, correct quoting, schema-conformant headers).
 3. **Layer C** — cross-study cache integrity (no missing entries, no duplicate IDs).
 
-The current archive passes all three layers with 0 failures across all 1,434 audited studies.
+The current archive passes all three layers with 0 failures across all 1,452 audited studies.
 
 v20 of the ingest skill adds the **obs_id Universal Normalizer** (13-bucket classifier-driven repair of legacy observation IDs) and the **`legacy_obs_id` audit column** on `_master_observations.csv`.
 
-### v1.4 changes
+### v1.6.2 changes
 
-- **+490 studies** ingested from the May 2026 weekend bucket pass (modes 1–2; buckets A–E + existing).
-- **Case-collision merge** across `_known_entities.csv` and `_known_technologies.csv` (9-row dedupe).
-- **Java carve-out**: a misfiled `tech_id="java"` row in `_master_technologies.csv` carrying `tech_name="PDA (personal digital assistant)"` was merged into the canonical uppercase `tech_id="JAVA"` (Java Programming Language). 91 observation, tech_studies, conflicts, and known_technologies rows were re-pointed; the misfiled row was dropped. Pre-merge backup: `archive_masters_backup_pre_java_fix_<timestamp>.tar.gz` in the Archive root.
-- **Skill version bump**: `archival-ingest` v18 → v20 (adds obs_id Universal Normalizer and `legacy_obs_id` audit column).
-- **New companion wiki**: 8,960-page Obsidian vault + DuckDB + Parquet, built from the cleaned masters. See `../kastner_wiki/`.
-- **`prepared/` staging directory**: 493 v1.4 studies live here pending classification (a v1.5 promotion task).
-- **`[DEFERRED]` prescience flag**: 370 newly-ingested studies await Pass C prescience scoring (a v1.5 backlog item).
+- **Multi-horizon prescience**: 3-year and 5-year results promoted into the masters. Observations with a prescience score grew from 3,829 (v1.6.1) to **15,924**.
+- **Tier B promote**: 8,645 previously-prefiltered observations restored into `_master_prescience_scores.csv` (8,440 → 17,085 rows).
+- **Sentinel filter at ingest**: Phase 1 (`01_load_csvs_v3.py`) drops `prescience_score < 0` sentinel rows at the chokepoint before joins (908 sentinels filtered on the v1.6.2 build). Sentinel taxonomy: `-1` = parse_fail or prefilter_excluded (disambiguated by `source_pass`); `-99` = content_unrecoverable.
+- **Pass C three-file architecture**: documented and codified in the `kastner-archive-pipeline` skill (v1.7) — File 1 (live), File 2 (studies-attached), File 3 (repo snapshot).
+- **Path B (player rebuttal)**: authored `prescience` enum is preserved by Phase 1; observation-derived math (`prescience_mean` / `prescience_max` / `prescience_obs_count`) is exposed alongside for transparency. Canonical example: Plaza DECtp transcript (authored `high`, observation mean 0.46).
+- **`promote_pass_c_to_master_v1.py`** — append-only, dedupes on `obs_id`, explicit `scorer_version=cloud_v1` and `source_pass=pass_c_cloud`.
+- **`sync_studies_verdicts_repo_from_archive_masters_v2.py`** — narrows sync to `prescience` + `prescience_rationale` columns.
+- **`roll_up_prescience_v3.py` deprecated** — relocated to `scripts/v3_obsolete/`; replaced by manual verdict write + sync.
+- **Wiki rebuild**: Phase 3-6 on `qwen3.5:27b-mlx` (local Ollama, MLX engine). Embeddings on `bge-m3` (1024-dim). 10,382 pages, 10,438 embedding rows.
+- **`[DEFERRED]` bucket drained**: 370 → 1 after Tier B promote.
+
+#### Prior releases
+
+- **v1.6.1** (2026-06-13): Pass B reconcile, +1 high-prescience study (Plaza DECtp via Path B rebuttal).
+- **v1.6** (2026-05-31): Full 1,400+ study content, initial Pass C cloud scoring.
+- **v1.5.1** (2026-05-27): pub_year backfill v6+v6.1.
+- **v1.4.0** (2026-05-23): +490 studies from the May 2026 weekend bucket pass; obs_id Universal Normalizer.
 
 Full curatorial decision history is in [`_decisions_log.md`](./_decisions_log.md).

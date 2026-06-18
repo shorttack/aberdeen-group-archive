@@ -20,3 +20,6 @@ venv/
 *.log
 /tmp/
 *.tmp
+
+# Backup files (sed-patch artifacts, masters .bak_* etc.)
+*.bak_*

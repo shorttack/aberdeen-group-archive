@@ -2,10 +2,10 @@
 
 > **Purpose:** the canonical reference for "what files, what schemas, what flows, what lags." Read this before touching anything prescience-related. If you cannot answer "where does this number come from" from this doc alone, the doc is wrong — fix it.
 
-**Status:** v1 architectural map (companion to `Archive/decisions/prescience_architecture_audit_v1.md`, the 2026-06-15 findings report).
-**Audit date:** 2026-06-18 (Thursday, §11v D6).
+**Status:** rev2 architectural map (companion to `Archive/decisions/prescience_architecture_audit_v1.md`, the 2026-06-15 findings report). All four ship-gate findings (F2/F3/F6/F7) closed by commits `7935aec7` and `5f945dd9` on 2026-06-18; see §7.
+**Audit date:** 2026-06-18 (Thursday, §11v D6). **rev2:** 2026-06-18 PM (F2/F3/F6/F7 all closed).
 **Scope:** every file, script, and view that touches the `prescience` column or `_master_prescience_scores.csv`.
-**Gates:** v1.7.0 ship — do not bump version until this doc reconciles with the audit findings.
+**Gates:** v1.7.0 ship — F2/F3/F6/F7 closed; MASTERS_NOTES v3 + RELEASE_NOTES_v1_7_0 still pending.
 
 ---
 
@@ -70,7 +70,7 @@ Active versions only (legacy under `scripts/_legacy/` and `scripts/v3_obsolete/`
 | `audit_prescience_runs_v1.py` | Run auditor | ✓ |
 | `pre_filter_scoreable_obs_v4..v7.py` | Pre-filter (figure captions, etc.) | ✓ |
 | `add_player_rebuttal_v1.py` | Path B authoring tool | ✓ |
-| **`promote_pass_c_to_master_v1.py`** | **File 1 → File 2 append** | ⚠ **NOT IN REPO** (Mac + workspace only) — F2 from prior audit |
+| **`promote_pass_c_to_master_v1.py`** | **File 1 → File 2 append (with provenance preservation patch §11v F2)** | ✓ **F2 CLOSED 2026-06-18** ([`7935aec7`](https://github.com/shorttack/aberdeen-group-archive/commit/7935aec7b15200132c649e48e1f4632f133ae9c8)) — repo now matches Mac active copy (211 lines) |
 | `sync_studies_verdicts_repo_from_archive_masters_v2.py` | archive_masters → repo verdict sync | ✓ |
 
 ### 1.4 Calibration and quality artifacts (`Perplexity_Only/`)
@@ -96,32 +96,38 @@ Active versions only (legacy under `scripts/_legacy/` and `scripts/v3_obsolete/`
 
 ## 2. Schemas
 
-### 2.1 `_master_prescience_scores.csv` (File 2) — 11 columns
+### 2.1 `_master_prescience_scores.csv` (File 2) — 12 columns (post-F3)
+
+rev2 note: column #12 `row_class` added 2026-06-18 by `add_row_class_to_prescience_scores_v1.py` ([`5f945dd9`](https://github.com/shorttack/aberdeen-group-archive/commit/5f945dd97461dde813043ae3620b5b8fcfe648bd)). Backfilled from existing columns; classifier hard-fails on UNKNOWN class.
 
 | # | Column | Type | Domain | Notes |
 |---|---|---|---|---|
 | 1 | `obs_id` | str | unique, non-empty | FK to `_master_observations.csv` |
 | 2 | `study_id` | str | non-empty | FK to `_master_studies.csv` |
-| 3 | `model` | str | `{claude-sonnet-4.6, sonar-reasoning-pro, preseed_skip_v1}` | ⚠ F3: conflates model identity with sentinel |
+| 3 | `model` | str | `{claude-sonnet-4.6, sonar-reasoning-pro, preseed_skip_v1}` | F3 partially closed: `row_class` (col 12) is now the structural discriminator; `model` still carries `preseed_skip_v1` historically (driver v8 will write real model names + use `row_class` instead) |
 | 4 | `prescience_score` | int \| empty | `{-1, 0, 1, 2, 3, 4, 5, EMPTY}` | `-1` = prefilter/parse_fail sentinel; EMPTY = preseed_skip |
 | 5 | `confidence` | int \| empty | `{1, 2, 3, EMPTY}` | EMPTY only on preseed rows |
 | 6 | `rationale` | str | non-empty everywhere | substantive on scored rows; tagged on prefilter/parse_fail |
 | 7 | `scored_at` | ISO8601 | all 2026 | no empties |
 | 8 | `scorer_version` | str | `{cloud_v1, v6}` | ⚠ F4: naming drift |
-| 9 | `source_pass` | str | `{pass_c_cloud, pass_c_sonar_v1, pass_c_sonar_v1_parse_fail, pass_c_prefilter_v1}` | extends per row class |
+| 9 | `source_pass` | str | `{pass_c_cloud, pass_c_cloud_parse_fail, pass_c_sonar_v1, pass_c_sonar_v1_parse_fail, pass_c_prefilter_v1, preseed_b, pass_c_sh_3y, pass_c_sh_5y, pass_c_sh_parse_fail}` | F6 closed 2026-06-18: 12 cloud parse-fails retagged to `pass_c_cloud_parse_fail`. SH values reserved for driver v8. |
 | 10 | `elapsed_sec` | float-str | mostly populated; 1,110 zeros | ⚠ F5: 1,106 cloud rows have `0.0` (no timing) |
 | 11 | `parse_ok` | bool-str | `{true, false}` | 8,376 true / 64 false |
+| 12 | `row_class` | enum | `{scored, parse_fail, prefilter_skip, preseed_skip, no_anchor, pending}` | **F3 column** — structural discriminator. Backfilled from columns 3+4+9. `no_anchor` reserved for SH driver v8 (a scored obs whose claim has no anchorable year for 3y/5y horizons). |
 
-**Five row classes actually present (only three modeled in v3 SH spec):**
+**Row classes (post-F3 backfill, all 6 modeled):**
 
-| Class | n | Identification | v3 spec? |
+| `row_class` | Expected n | Identification rule | Driver v8 SH behavior |
 |---|---|---|---|
-| Scored (cloud) | 4,070 | `model=claude-sonnet-4.6 AND parse_ok=true` | ✓ |
-| Scored (sonar) | 4,302 | `source_pass=pass_c_sonar_v1` | ✓ |
-| Parse-fail (sonar, split) | 52 | `source_pass=pass_c_sonar_v1_parse_fail` | ✓ |
-| Parse-fail (cloud, in-band) | 12 | `source_pass=pass_c_cloud AND parse_ok=false` | ⚠ unmodeled (F6) |
-| Pre-filter | 4 | `source_pass=pass_c_prefilter_v1` | ⚠ unmodeled (F8) |
-| Preseed-skip | 253 | `model=preseed_skip_v1`, score+conf empty | ⚠ unmodeled (F7) |
+| `scored` | 8,119 | `prescience_score IN (0,1,2,3,4,5)` | Re-scored normally |
+| `parse_fail` | 64 | `parse_ok='false'` (12 cloud + 52 sonar) | Re-scored normally; SH parse-fails write `source_pass=pass_c_sh_parse_fail` |
+| `prefilter_skip` | 4 | `source_pass='pass_c_prefilter_v1'` (sentinel -1) | Re-prefiltered; sentinel preserved |
+| `preseed_skip` | 253 | `model='preseed_skip_v1'`, score+conf empty | **F7 closed: scored normally in SH.** Long-horizon retains preseed; SH produces parallel verdict (informative disagreement expected) |
+| `no_anchor` | reserved | Driver v8 marker | Skipped by SH (no year to anchor) |
+| `pending` | 0 today | New obs added but not yet scored | n/a |
+| **Total** | **8,440** | | |
+
+**Backfill provenance:** see `scripts/add_row_class_to_prescience_scores_v1.py`. Backup convention `.bak_add_row_class_<utc>Z`. Hard-fails on UNKNOWN class or sum-of-classes ≠ row count.
 
 ### 2.2 `_master_studies.csv` — prescience columns
 
@@ -325,20 +331,20 @@ These are the eight places where two files that should agree can diverge in time
 
 ---
 
-## 7. Cleanup map (must-fix before v1.7.0)
+## 7. Cleanup map (v1.7.0 ship gate — ALL FOUR CLOSED 2026-06-18)
 
-From the 2026-06-15 findings report, four items gate v1.7.0:
+From the 2026-06-15 findings report, four items gated v1.7.0. All closed in commits `7935aec7` (F2) and `5f945dd9` (F3/F6/F7) on 2026-06-18.
 
-| # | Finding | Action |
-|---|---|---|
-| **F2** | `promote_pass_c_to_master_v1.py` not in version control | Commit the Mac-side patched version to `scripts/` |
-| **F3** | `model` column conflates ML model + row-class sentinel | Add explicit `row_class` column to File 2; restrict `model` to model names |
-| **F6** | Cloud parse-fails in-band vs. sonar parse-fails split | Retag 12 cloud rows to `pass_c_cloud_parse_fail`; driver v8 follows new convention from day 1 |
-| **F7** | 253 preseed_skip rows are undocumented | Pete decision: SH treatment (score normally / skip / new class); document in MASTERS_NOTES |
+| # | Finding | Action taken | Closure commit |
+|---|---|---|---|
+| **F2** | `promote_pass_c_to_master_v1.py` not in version control (Mac active copy had §11v provenance-preservation patch; repo copy was stale pre-patch version) | Committed Mac active copy (211 lines, F2 patch preserves `row.get("scorer_version")` and `row.get("source_pass")` with CLI defaults as fallback) to `scripts/`; repo now matches Mac | [`7935aec7`](https://github.com/shorttack/aberdeen-group-archive/commit/7935aec7b15200132c649e48e1f4632f133ae9c8) |
+| **F3** | `model` column conflated ML model + row-class sentinel | Added 12th column `row_class` to File 2 (enum: scored / parse_fail / prefilter_skip / preseed_skip / no_anchor / pending). Backfill classifier hard-fails on UNKNOWN class or count drift. Expected counts: 8119 / 64 / 4 / 253 / 0 / 0 = 8,440. | [`5f945dd9`](https://github.com/shorttack/aberdeen-group-archive/commit/5f945dd97461dde813043ae3620b5b8fcfe648bd) |
+| **F6** | Cloud parse-fails in-band (`source_pass='pass_c_cloud'` + `parse_ok='false'`) vs. sonar parse-fails split out to `pass_c_sonar_v1_parse_fail` | Retag 12 cloud rows: `source_pass` → `'pass_c_cloud_parse_fail'`. `parse_ok` unchanged. Script must run AFTER F3 (row_class must already be present). Driver v8 writes SH parse-fails to `pass_c_sh_parse_fail` from day 1. | [`5f945dd9`](https://github.com/shorttack/aberdeen-group-archive/commit/5f945dd97461dde813043ae3620b5b8fcfe648bd) |
+| **F7** | 253 preseed_skip rows were undocumented in SH driver v8 spec | **Pete decision (2026-06-18): Option A — score normally in SH.** Preseed remains long-horizon-only. Driver v8 emits parallel SH verdicts; informative disagreement with long-horizon is expected and shows score-vs-rebuttal divergence. Rule A SH rollup uses only `source_pass IN (pass_c_sh_3y, pass_c_sh_5y) AND prescience_score >= 0`. | [`5f945dd9`](https://github.com/shorttack/aberdeen-group-archive/commit/5f945dd97461dde813043ae3620b5b8fcfe648bd) — see `Perplexity_Only/F7_preseed_skip_sh_treatment_decision_v1.md` |
 
-Six should-fix items can land in parallel (F1, F4, F5, F8, F9, F10).
+**Remaining (should-fix, can land in parallel post-v1.7.0):** F1, F4, F5, F8, F9, F10.
 
-**v1.7.0 ship gate:** F2, F3, F6, F7 all closed AND this doc + MASTERS_NOTES.md reconcile.
+**v1.7.0 ship gate status (2026-06-18 PM):** ✅ F2 closed. ✅ F3 closed. ✅ F6 closed. ✅ F7 closed. ✅ This doc reconciles (rev2). ⏳ MASTERS_NOTES.md v3 + RELEASE_NOTES_v1_7_0.md pending.
 
 ---
 
@@ -372,4 +378,11 @@ Six should-fix items can land in parallel (F1, F4, F5, F8, F9, F10).
 ---
 
 **Maintained by:** Pete Kastner + Perplexity Computer.
-**Next refresh trigger:** any of {File 2 schema change, new row class added, Path B convention change, Phase 1 join logic touched, F2/F3/F6/F7 closed}.
+**Next refresh trigger:** any of {File 2 schema change, new row class added beyond the six enum values, Path B convention change, Phase 1 join logic touched, SH driver v8 sentinel taxonomy expanded beyond `pass_c_sh_3y` / `pass_c_sh_5y` / `pass_c_sh_parse_fail`}.
+
+**rev2 changelog (2026-06-18 PM):**
+- Status header → rev2; F2/F3/F6/F7 closure referenced inline
+- §1.3 promote script status: NOT IN REPO → CLOSED `7935aec7`
+- §2.1 schema: 11 cols → 12 cols, added `row_class` row, row-class table now shows all 6 classes modeled (no more ⚠ flags), `source_pass` domain extended with `pass_c_cloud_parse_fail` / `preseed_b` / SH values
+- §7 cleanup map: action column → action-taken column with closure commits
+- §9 next-refresh trigger updated

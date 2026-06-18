@@ -1,4 +1,4 @@
-# MASTERS_NOTES.md — Permanent Archive Notes (v2)
+# MASTERS_NOTES.md — Permanent Archive Notes (v3)
 
 This file documents the conventions, history, and known gotchas of the
 master CSV files at `~/Desktop/Archive/archive_masters/`. Keep it
@@ -14,9 +14,10 @@ adjacent to the masters; it is the authoritative reference for anyone
 > would merge into a 9-col master, when the master is 8-col + a separate
 > M:N join table).
 
-**Last updated:** 2026-06-12, after Pass B transcript merge (§11u-cont).
-**Supersedes:** MASTERS_NOTES.md v1 dated 2026-05-24 (which documented
-a stale schema before the 2026-05-26 M:N refactor).
+**Last updated:** 2026-06-18 (v1.7.0 ship-gate cleanup — F3 adds `row_class` column to `_master_prescience_scores.csv`).
+**Supersedes:**
+- MASTERS_NOTES.md v2 dated 2026-06-12 (Pass B transcript merge — the 7-master schemas unchanged; v3 updates prescience_scores schema and adds SH conventions).
+- MASTERS_NOTES.md v1 dated 2026-05-24 (pre-M:N refactor).
 
 ---
 
@@ -43,7 +44,7 @@ but referenced by Phase 1 of the build pipeline):
 
 | File | Rows | Cols | Purpose |
 |---|---|---|---|
-| `_master_prescience_scores.csv` | 3,761 | 11 | Per-observation prescience scoring (Pass C output) |
+| `_master_prescience_scores.csv` | 8,440 | **12** | Per-observation prescience scoring (Pass C output). v3 adds `row_class` (col 12) as the structural row-class discriminator. See §"`_master_prescience_scores.csv` — 12 columns" below. |
 | `_master_collection_stats.csv` | 947 | 12 | Per-study collection statistics |
 
 And the cross-session reuse caches (NOT in master schema, but referenced
@@ -119,6 +120,34 @@ entity_id, study_id
 ```
 tech_id, study_id
 ```
+
+### `_master_prescience_scores.csv` — 12 columns (v3, post-F3 closure 2026-06-18)
+
+```
+obs_id, study_id, model, prescience_score, confidence, rationale,
+scored_at, scorer_version, source_pass, elapsed_sec, parse_ok, row_class
+```
+
+Support file (alongside the 7 masters), but with a full schema entry here because it is now reasoned about extensively by Pass C and the `PRESCIENCE_ARCHITECTURE.md` map.
+
+| # | Col | Domain | Notes |
+|---|---|---|---|
+| 1 | `obs_id` | FK to `_master_observations.csv` | one row per scored obs |
+| 2 | `study_id` | FK to `_master_studies.csv` | denormalized from obs for query speed |
+| 3 | `model` | `{claude-sonnet-4.6, sonar-reasoning-pro, preseed_skip_v1}` | driver v8 will write real model names; today still carries `preseed_skip_v1` for the 253 preseed rows |
+| 4 | `prescience_score` | `{-1, 0..5, EMPTY}` | `-1` sentinel = prefilter or parse_fail; EMPTY = preseed_skip |
+| 5 | `confidence` | `{1, 2, 3, EMPTY}` | EMPTY only on preseed rows |
+| 6 | `rationale` | non-empty everywhere | substantive on scored rows; tagged on prefilter/parse_fail |
+| 7 | `scored_at` | ISO8601 | all 2026 |
+| 8 | `scorer_version` | `{cloud_v1, v6}` | F4 naming drift noted (not gating v1.7.0) |
+| 9 | `source_pass` | `{pass_c_cloud, pass_c_cloud_parse_fail, pass_c_sonar_v1, pass_c_sonar_v1_parse_fail, pass_c_prefilter_v1, preseed_b, pass_c_sh_3y, pass_c_sh_5y, pass_c_sh_parse_fail}` | F6 closed 2026-06-18; SH values reserved for driver v8 |
+| 10 | `elapsed_sec` | float-str | 1,106 cloud rows have `0.0` (F5 — not gating) |
+| 11 | `parse_ok` | bool-str | 8,376 true / 64 false |
+| 12 | `row_class` | enum `{scored, parse_fail, prefilter_skip, preseed_skip, no_anchor, pending}` | **F3 column added 2026-06-18.** Structural discriminator. Backfilled from cols 3+4+9; classifier hard-fails on UNKNOWN. |
+
+**Row-class expected counts (post-F3 backfill):** scored=8,119, parse_fail=64 (12 cloud + 52 sonar), prefilter_skip=4, preseed_skip=253, no_anchor=0 (reserved for driver v8), pending=0. **Sum = 8,440.** Any deviation = the backfill ran on a drifted master — re-audit.
+
+**Backfill script:** `scripts/add_row_class_to_prescience_scores_v1.py` ([`5f945dd9`](https://github.com/shorttack/aberdeen-group-archive/commit/5f945dd97461dde813043ae3620b5b8fcfe648bd)). Backup convention: `.bak_add_row_class_<utc>Z`. Dry-run default; `--commit` opt-in.
 
 All masters are written with `csv.QUOTE_ALL` and UTF-8 (§16.5 of the
 `archival-ingest` skill). Use Python's `csv.DictReader` or `csv.reader`
@@ -329,4 +358,37 @@ conflicts, not artifacts.
 
 ## 2026-06-14 — preseed_b convention
 
-`_master_prescience_scores.csv` rows with `model = preseed_skip_v1` have `source_pass = 'preseed_b'` and empty `prescience_score`. These represent observations whose prescience was authored upstream during Pass B; the empty score is intentional and prevents Pass C re-scoring. Filter `WHERE prescience_score IS NOT NULL` for scoring analyses, or `WHERE source_pass != 'preseed_b'` to exclude entirely.
+`_master_prescience_scores.csv` rows with `model = preseed_skip_v1` have `source_pass = 'preseed_b'` and empty `prescience_score`. These represent observations whose prescience was authored upstream during Pass B; the empty score is intentional and prevents Pass C **long-horizon** re-scoring. **v3 update (2026-06-18, F3 closure):** these 253 rows now also carry `row_class='preseed_skip'`. For Rule A long-horizon rollup, filter `WHERE prescience_score IS NOT NULL` (the empty score causes them to be excluded naturally). To exclude entirely by metadata, use `WHERE row_class != 'preseed_skip'` (preferred over `source_pass != 'preseed_b'` going forward — the row_class column is the structural discriminator).
+
+## 2026-06-18 — SH (short-horizon) source_pass conventions (F7 closure)
+
+Driver v8 (`run_prescience_short_horizon_v8.py`, gated by v1.7.0) introduces three new `source_pass` values for the short-horizon (3-year and 5-year) prescience pipeline. Per Pete's 2026-06-18 decision (F7 Option A), preseed-skip rows ARE re-scored in SH (long-horizon-only preseed remains; SH produces a parallel verdict).
+
+| `source_pass` value | Meaning | Driver v8 behavior |
+|---|---|---|
+| `pass_c_sh_3y` | Short-horizon 3-year score | Scored row, normal Rule A SH input |
+| `pass_c_sh_5y` | Short-horizon 5-year score | Scored row, normal Rule A SH input |
+| `pass_c_sh_parse_fail` | SH parse failure (sentinel -1) | Excluded from Rule A SH `used` list (same as `-1` in long-horizon) |
+
+**Rule A SH rollup query** (writes verdict to `_master_studies.csv` columns `prescience_sh_3y` / `prescience_sh_5y` when those columns are added; for v1.7.0 the parallel verdicts live in a separate study-grain artifact):
+
+```sql
+SELECT study_id,
+       AVG(CASE WHEN prescience_score >= 0 THEN prescience_score END) AS mean_sh
+FROM read_csv_auto('~/Desktop/Archive/archive_masters/_master_prescience_scores.csv')
+WHERE source_pass IN ('pass_c_sh_3y', 'pass_c_sh_5y')
+  AND prescience_score >= 0
+GROUP BY study_id;
+-- Then apply Rule A thresholds (>= 3.5 high, >= 2.0 medium, else low; len(used)=0 -> not-applicable)
+```
+
+See `Perplexity_Only/F7_preseed_skip_sh_treatment_decision_v1.md` for the full decision rationale and downstream consumer doc-update sites.
+
+## v3 changelog (2026-06-18 PM)
+
+- Title bump v2 → v3
+- Last-updated + Supersedes header refreshed
+- Support-file row: `_master_prescience_scores.csv` 3,761 rows / 11 cols → 8,440 rows / 12 cols
+- **New schema entry**: full 12-column `_master_prescience_scores.csv` spec block (mirrors PRESCIENCE_ARCHITECTURE.md §2.1)
+- Existing preseed_b note: added v3 update sentence cross-referencing `row_class='preseed_skip'`
+- **New SH conventions block** documenting `pass_c_sh_3y` / `pass_c_sh_5y` / `pass_c_sh_parse_fail` source_pass values and Rule A SH rollup query

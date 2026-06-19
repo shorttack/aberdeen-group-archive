@@ -3623,3 +3623,136 @@ Before running `promote_quotations_to_master_v1.py`:
 - `quotations_corpus_v1.jsonl` (Mac-local, 710,084 bytes, 383+ records)
 - `quotations_corpus_v1_report.md` (Mac-local, 5,802 bytes)
 - Calibration verdict at §11w today (P2-default, P1-tiebreak-on-uncertain-medium)
+
+
+## §11x v1.8.0 Quotations Corpus → Wiki (per-quote chunking) (2026-06-19 PM)
+
+### Headline
+
+The 334-row `_master_quotations_prescience.csv` is now retrievable via `kw ask`.
+First attempt (monolithic 377 KB wiki page) failed semantic retrieval because
+bge-m3's ~8192-token context window meant the page embedded as a single chunk
+whose centroid was "methodology / buckets" rather than any specific prediction.
+Per-quote chunking (334 individual `wiki/quotations/quote-<row_id>.md` pages,
+~1-5 KB each) restored retrievability — quote-pages now surface as top hits on
+Oracle, IBM mainframe, and Itanium queries.
+
+### Architecture timeline this session
+
+1. **Q1c attempt (early)**: route quotations into `_master_observations.csv`.
+   Killed before promotion — the observations master has no quote-row substrate,
+   so the integration would have been semantic violence on the schema.
+2. **β (sidecar master)**: new `_master_quotations_prescience.csv` at repo root,
+   31 cols (27 corpus + 4 audit: blog_scrape_contamination_flag, scorer_version,
+   source_pass, promoted_at). Promoted via `promote_quotations_to_master_v3.py`.
+   Sidecar master ship: `3e4c1b66`.
+3. **R1(a) full Phase 1-6 integration was overscope**. Pete pushback (ALL CAPS):
+   "ISN'T THERE AN ARCHITECTURALLY SIMPLER APPROACH?" Right call.
+4. **Simpler approach v1 — single monolithic wiki page**:
+   `build_quotations_corpus_page_v2.py` emitted one 377 KB page at
+   `wiki/methodology/quotations_corpus_v1.md`. Phase 1+2+4+5+6 ran clean
+   (Phase 5: 1043s / 17.4 min over 10,440 pages). `kw ask` post-rebuild surfaced
+   only longitudinal-study pages and entity pages; the monolith page never
+   appeared in top-6 hits for Oracle / IBM / Itanium queries.
+5. **Diagnosis**: bge-m3 effective context ~8192 tokens. 377 KB = ~80,000+ tokens.
+   Either silent truncation to first 8K tokens, or full-page embedding with
+   centroid in "methodology bucket counts" — semantic illegibility either way.
+6. **Per-quote chunking (final)**: `build_quotations_per_quote_v1.py` emitted
+   334 individual quote pages + slim index. Each page: YAML frontmatter (row_id,
+   bucket, score, confidence, pipeline, date, publication, headline, horizon,
+   author, blog_scrape_contamination, scorer_version, source_pass) + H1 +
+   verdict line + blockquoted quote + rationale section. Average page size
+   ~2 KB. Slug convention: `quote-<row_id>` (numeric).
+
+### Phase 1-6 rebuild results
+
+Phase 1+2+4+5+6 reran cleanly (Phase 3 deliberately skipped — these are
+hand-authored pages, not master-derived).
+
+**Phase 5 v2 run**: 10,774 pages (10,440 + 334 quotes), 1219s / 20.3 min wall-clock
+via bge-m3 1024-dim on M4 Pro GPU. `data/embeddings.parquet` regenerated.
+
+### Shape audit (before/after)
+
+This session did NOT touch the canonical masters (`_master_studies.csv`,
+`_master_observations.csv`, etc.) — only the new sidecar
+`_master_quotations_prescience.csv`. So the canonical archive shape is unchanged
+from §11u-cont (1452 studies / 23926 obs / 3276 entities / 4361 technologies).
+
+**Phase 1 reported `1453 rows` from `_master_studies.csv` (one above 1452)** — to
+be investigated next session. Possibly a Pete-added study from earlier this
+afternoon outside this thread, or a stray row from a prior session that didn't
+make the §11u-cont audit. Flagged in WORKLIST.
+
+**Phase 2 reported `v_studies_with_high_prescience: 865 rows`** — far above the
+124-125 baseline in the kastner-archive-pipeline skill. Suspect a view definition
+change (`high` filter may now include Pass C scored obs that weren't in the
+prior baseline, or `high_holistic` may have merged with `high`). Not a blocker
+for v1.8.0 ship but flag for skill-update next session.
+
+**New rollup view**: `v_high_holistic_prescience` = 498 rows (was 491 at §11u-cont).
+The +7 is consistent with Pass B / Pass C scoring activity since 2026-06-13.
+
+### kw ask validation queries (post-rebuild)
+
+| Query | Top-6 result mix | Verdict |
+|---|---|---|
+| "Pete Kastner predict Oracle in 1997" | 5 quote pages + 1 longitudinal study | ✅ retrievable |
+| "Kastner prediction about IBM mainframes" | 5 tech/study/chapter + 1 quote (quote-878) | ✅ correct mix |
+| "Itanium prediction" | quote-290 top hit @ 0.617 + 4 tech pages + 1 study | ✅ |
+| "Oracle 1997 prediction" `--k 15` | 5 quote pages + 6 tech pages + 1 study + 1 entity + 2 longitudinals | ✅ |
+
+### Lessons (for posterity)
+
+1. **bge-m3 chunk size matters more than I appreciated.** Effective context
+   ~8192 tokens. Anything larger embeds with a smeared centroid. Per-quote /
+   per-claim chunking is the canonical fix for any multi-item dataset that
+   needs item-level retrieval.
+2. **Phase 3 is optional for hand-authored methodology pages.** Skipping it
+   saved ~3 hours and the per-quote pages were correctly picked up by Phase 5
+   (which walks the entire `wiki/` tree regardless of what Phase 3 wrote).
+3. **`kw ask --k N` is the real top-k flag.** Default k=6 too narrow for
+   queries that need both tech-page context AND specific quote evidence. Pete
+   may want to standardize on `--k 12` or `--k 15`. Skill quick-ref needs update.
+4. **Cumulative v1.8.0 spend remains ~$34 of $500 ceiling.** No new API calls
+   this session — all the work was promote/page-generation/Phase 5.
+
+### Repo artifacts shipped (sandbox commits)
+
+- `scripts/build_quotations_corpus_page_v1.py` — `43b9cbe9` (analyst-grouped, retired)
+- `scripts/build_quotations_corpus_page_v2.py` — `4ad11526` (monolithic, retired)
+- `scripts/build_quotations_per_quote_v1.py` — `6918d6e0` (canonical)
+- `_master_quotations_prescience.csv` — `3e4c1b66` (sidecar master, 334×31)
+
+### Mac-side commit (Commit 1, this session's wiki ship)
+
+`shorttack/kastner-aberdeen-wiki` — single `git add . && git commit && git push`
+covering: 334 new `wiki/quotations/quote-*.md` pages + overwritten slim index +
+12 refreshed `data/*.parquet` + `db/kastner.duckdb` + `data/embeddings.parquet`
+(~63 MB) + refreshed scaffolding (README/AGENTS/chat-starter/Makefile/.gitignore/
+scripts/verify.py/scripts/semantic_search.py) + refreshed Phase 4 outputs
+(`wiki/decades/`, `wiki/collections/`, codes index, 5 `.base` files).
+
+### Backlog (continuing from §11w)
+
+- `clean_blog_artifacts_from_quotes_v1.py` — strip footer text from 11 flagged
+  blog-scrape contamination rows + re-score
+- Phase B P1 parse-fail forensic
+- `datetime.utcnow()` deprecation in calibration v2 (fixed in per-quote v1, not
+  yet ported back to calibration)
+- 5-row tiebreaker spot-check on 731, 872, 873, 933
+- Investigate 1453 vs 1452 study count delta in _master_studies.csv
+- Investigate v_studies_with_high_prescience 124→865 jump (view defn change?)
+- Update `kastner-archive-pipeline` skill: document `kw ask --k N` flag,
+  per-quote chunking pattern, bge-m3 8192-token context rule
+- Document `quote-<row_id>` slug convention; clarify that `quote-92` is row_id 92
+  (which happens to be 1992-dated) — slug is NOT year-based
+
+### Sources
+
+- `build_quotations_per_quote_v1.py` — sha `6918d6e0`
+- `_master_quotations_prescience.csv` — sha `3e4c1b66` (sidecar)
+- bge-m3 effective context: 8192 tokens (Ollama / bge-m3 docs)
+- Skill `kastner-archive-pipeline` Gotcha 9 (producer/consumer schema drift) +
+  Gotcha 7 (stale embeddings) — both relevant; Gotcha 7 inverse: this time the
+  embedding was timely but the chunk size was wrong.

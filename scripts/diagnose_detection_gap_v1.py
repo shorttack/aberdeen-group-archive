@@ -47,10 +47,10 @@ def main():
         c = detect_v2.classify_segment(seg, is_first=(i == 0))
         classified.append(c)
 
-    n_head = sum(1 for c in classified if c["class"] == "ARTICLE_HEAD")
-    n_cont = sum(1 for c in classified if c["class"] == "ARTICLE_CONTINUATION")
-    n_unk = sum(1 for c in classified if c["class"] == "UNKNOWN")
-    n_empty = sum(1 for c in classified if c["class"] == "EMPTY")
+    n_head = sum(1 for c in classified if c["classification"] == "ARTICLE_HEAD")
+    n_cont = sum(1 for c in classified if c["classification"] == "ARTICLE_CONTINUATION")
+    n_unk = sum(1 for c in classified if c["classification"] == "UNKNOWN")
+    n_empty = sum(1 for c in classified if c["classification"] == "EMPTY")
     print(f"classified: HEAD={n_head} CONT={n_cont} UNK={n_unk} EMPTY={n_empty}")
 
     # Load CSV unique articles
@@ -94,7 +94,7 @@ def main():
                 notinpdf_samples.append((pub, date, headline))
             continue
         seg_idx = hits[0]
-        cls = classified[seg_idx]["class"]
+        cls = classified[seg_idx]["classification"]
         detected_headline = classified[seg_idx].get("headline") or ""
         csv_norm = detect_v2.normalize_text(headline)
         det_norm = detect_v2.normalize_text(detected_headline)

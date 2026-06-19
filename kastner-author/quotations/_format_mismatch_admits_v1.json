@@ -1,0 +1,30 @@
+{
+  "admit_by_bucket": {
+    "F1": 1,
+    "F3": 2,
+    "F5": 6,
+    "F6": 1
+  },
+  "admit_count": 10,
+  "admit_row_ids": [
+    199,
+    374,
+    426,
+    458,
+    494,
+    780,
+    1005,
+    1020,
+    1045,
+    1181
+  ],
+  "generated_utc": "20260619T132217Z",
+  "headline_edits_applied": 0,
+  "notes": "These row_ids existed in kastner_quotes_clean.csv but were routed to Pipeline 2 by union_article_corpus_v1.py with reason 'pdf_format_mismatch'. Pete reviewed the v2 detector buckets (F0a/F1/F3/F5/F6) and admitted these as legitimate Pipeline-1 candidates. The next union run must consult this manifest and override the format-mismatch routing for these row_ids.",
+  "reject_by_bucket": {
+    "F0a": 17
+  },
+  "reject_count": 17,
+  "schema_version": 1,
+  "source_review_csv": "_format_mismatch_review_v3.csv"
+}

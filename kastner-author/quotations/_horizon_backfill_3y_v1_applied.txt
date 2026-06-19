@@ -1,0 +1,256 @@
+# horizon backfill audit — v1
+# generated_at: 2026-06-19T14:08:58.304913+00:00
+# tag: backfill_default_3y_v1
+# value_applied: 3
+# target_count: 244
+# eligibility_breakdown: {'in_corpus': 243, 'admit_only': 1}
+# source_csv: kastner_quotes_clean.csv
+# source_backup: kastner_quotes_clean.csv.bak_horizon_backfill_3y_20260619T140858Z
+# source_corpus: article_corpus_v1.json
+# source_admits: _format_mismatch_admits_v1.json
+# columns: row_id	headline	prior_raw	new_value	eligibility_reason
+
+28	Support for open systems builds piece by piece	''	3	in_corpus
+535	Couch surfers: too lazy to even type a URL	''	3	in_corpus
+579	Look for Mac OS X 10.4 "Tiger"	''	3	in_corpus
+582	Microsoft Grants Indonesian Pirates Amnsety	''	3	in_corpus
+598	Monday, May 30, 2005	''	3	in_corpus
+616	Software Patents Create Havoc in Eurpoe	''	3	in_corpus
+717	Compaq cleans up its act in battery disposal	''	3	in_corpus
+731	DEC moves to VAX, Alpha mixed clusters	''	3	in_corpus
+810	Apple to answer rumors with facts	''	3	in_corpus
+812	Apple's Supercomputing Scientists	''	3	in_corpus
+859	IBM seen rushing out high-end AS/400 CPU	''	3	in_corpus
+860	IBM seen rushing out high-end AS/400 CPU	''	3	in_corpus
+861	Users finding ESA alternatives	''	3	in_corpus
+862	Users finding ESA alternatives	''	3	in_corpus
+863	RDBMS show they can pull OLTP weight	''	3	in_corpus
+864	RDBMS show they can pull OLTP weight	''	3	in_corpus
+865	Unisys U series casts shadow in Unix arena	''	3	in_corpus
+866	Unisys U series casts shadow in Unix arena	''	3	in_corpus
+867	Mini vendors adapt in order to survive	''	3	in_corpus
+868	Mini vendors adapt in order to survive	''	3	in_corpus
+869	Tandem goes to Relational DBMS tools	''	3	in_corpus
+870	MSA announces EIS starter kit at a 'smart' price	''	3	in_corpus
+871	Tesseract, Walker to be financial software allies	''	3	in_corpus
+872	Tesseract, Walker to be financial software allies	''	3	in_corpus
+873	Tesseract, Walker to be financial software allies	''	3	in_corpus
+874	PRODUCT SPOTLIGHT; The DEC market	''	3	in_corpus
+875	PRODUCT SPOTLIGHT; The DEC market	''	3	in_corpus
+876	PRODUCT SPOTLIGHT; The DEC market	''	3	in_corpus
+877	DEC challenges IBM CASE strategy	''	3	in_corpus
+878	IBM eyes service bounty with new AS/400 support options	''	3	in_corpus
+879	SQL Server update boasts openness	''	3	in_corpus
+880	SQL Server update boasts openness	''	3	in_corpus
+881	Workstations drawn more toward	''	3	in_corpus
+882	Support for open systems builds piece by piece	''	3	in_corpus
+883	Unix draws a crowd	''	3	in_corpus
+884	Unix draws a crowd	''	3	in_corpus
+885	Ingres unveils graphical 4GL	''	3	in_corpus
+886	HP plans line of mainframe-type tools	''	3	in_corpus
+887	HP plans line of mainframe-type tools	''	3	in_corpus
+888	Integration vs. specialization	''	3	in_corpus
+889	Integration vs. specialization	''	3	in_corpus
+890	Integration vs. specialization	''	3	in_corpus
+891	Integration vs. specialization	''	3	in_corpus
+892	Vaxstation, Decstation prices to slip	''	3	in_corpus
+893	Sequoia rebounds with a vengeance	''	3	in_corpus
+894	Sequoia rebounds with a vengeance	''	3	in_corpus
+895	IBM, Intel, Dell announce benchmark group formation	''	3	in_corpus
+896	Sybase Serves up a new SQL	''	3	in_corpus
+897	How low can mail-order firms go? Watch'em	''	3	in_corpus
+898	Sun seeks Intel Unix	''	3	in_corpus
+899	Unix System Labs signs on with ACE	''	3	in_corpus
+900	Unix System Labs signs on with ACE	''	3	in_corpus
+901	Sybase comes through with customer support	''	3	in_corpus
+902	Sun will soon detail multimedia strategy	''	3	in_corpus
+903	For start-up, $2 million is Serius money	''	3	in_corpus
+904	Compaq cleans up its act in battery disposal	''	3	in_corpus
+905	Compaq cleans up its act in battery disposal	''	3	in_corpus
+906	AIX database stuck in lab; users express little concern	''	3	in_corpus
+907	AIX database stuck in lab; users express little concern	''	3	in_corpus
+908	DEC energizes Unix OLTP line	''	3	in_corpus
+909	Users leery of multiprocessing	''	3	in_corpus
+910	3,700 depart in DEC retirement plan	''	3	in_corpus
+911	3,700 depart in DEC retirement plan	''	3	in_corpus
+912	3,700 depart in DEC retirement plan	''	3	in_corpus
+913	Oracle hires consultant to steer sales	''	3	in_corpus
+914	Alpha-ready VAX line expected in July	''	3	in_corpus
+915	Intel to unleash DX2, claims strongest chip yet	''	3	in_corpus
+916	Intel to unleash DX2, claims strongest chip yet	''	3	in_corpus
+917	Price war to hurt PC industry	''	3	in_corpus
+918	Price war to hurt PC industry	''	3	in_corpus
+919	DEC starts revamp, delays cuts	''	3	in_corpus
+920	DEC starts revamp, delays cuts	''	3	in_corpus
+921	Streamlining restores Informix to health	''	3	in_corpus
+922	Streamlining restores Informix to health	''	3	in_corpus
+923	DEC to give PC modular upgrades	''	3	in_corpus
+924	Legent increases options, flexibility in desktop line	''	3	in_corpus
+925	Legent increases options, flexibility in desktop line	''	3	in_corpus
+926	Stratus still rock solid as it moves CISC users to RISC	''	3	in_corpus
+927	Stratus still rock solid as it moves CISC users to RISC	''	3	in_corpus
+928	Stratus still rock solid as it moves CISC users to RISC	''	3	in_corpus
+929	DEC restructuring plan includes separate PC unit	''	3	in_corpus
+930	Microsoft lays out tiered DBMS plan Comdex	''	3	in_corpus
+931	Microsoft lays out tiered DBMS plan Comdex	''	3	in_corpus
+932	Page exits Software AG News	''	3	in_corpus
+933	Page exits Software AG News	''	3	in_corpus
+934	Middleware speeds client connection	''	3	in_corpus
+935	Middleware speeds client connection	''	3	in_corpus
+936	Middleware speeds client connection	''	3	in_corpus
+937	Middleware speeds client connection	''	3	in_corpus
+938	Apple exec jumps to Microsoft	''	3	in_corpus
+939	CA's Unicenter outlines plans to go distributed	''	3	in_corpus
+940	Software AG extends Unix tools strategy	''	3	in_corpus
+941	Software AG extends Unix tools strategy	''	3	in_corpus
+942	PowerBuilder may add Intersolv tools	''	3	in_corpus
+943	CA gets on Microsoft bandwagon	''	3	in_corpus
+944	CA gets on Microsoft bandwagon	''	3	in_corpus
+945	DEC closes in on profitability	''	3	in_corpus
+946	IMRS TO PUSH CLIENT/SERVER	''	3	in_corpus
+947	Microsoft, D&B sign on NT applications	''	3	in_corpus
+948	Microsoft, D&B sign on NT applications	''	3	in_corpus
+949	Microsoft, D&B sign on NT applications	''	3	in_corpus
+950	Sybase sets its own direction	''	3	in_corpus
+951	Sybase sets its own direction	''	3	in_corpus
+952	NCR adds 3270 features to OLTP monitor	''	3	in_corpus
+953	NCR taps Pentium for mainframe-class servers	''	3	in_corpus
+954	NCR taps Pentium for mainframe-class servers	''	3	in_corpus
+955	NCR taps Pentium for mainframe-class servers	''	3	in_corpus
+956	NCR taps Pentium for mainframe-class servers	''	3	in_corpus
+957	USL makes microkernel move	''	3	in_corpus
+958	USL makes microkernel move	''	3	in_corpus
+959	NetFrame gives servers flexibility	''	3	in_corpus
+960	NetFrame gives servers flexibility	''	3	in_corpus
+961	Stratus' Unix systems to act as SNA hosts	''	3	in_corpus
+962	Stratus' Unix systems to act as SNA hosts	''	3	in_corpus
+963	Windows-to-DOS tools get boost	''	3	in_corpus
+964	NCR eyes software growth with new unit	''	3	in_corpus
+965	NCR announces OS2-to-NT migration service	''	3	in_corpus
+966	Software AG forms client/server team with NCR, Apple	''	3	in_corpus
+967	Start-ups bring heavyweight tools	''	3	in_corpus
+968	Start-ups bring heavyweight tools	''	3	in_corpus
+969	Software vendors converge on database market	''	3	in_corpus
+970	Software vendors converge on database market	''	3	in_corpus
+971	TECHNOLOGY ON TRIAL	''	3	in_corpus
+972	TECHNOLOGY ON TRIAL	''	3	in_corpus
+973	TECHNOLOGY ON TRIAL	''	3	in_corpus
+974	TECHNOLOGY ON TRIAL	''	3	in_corpus
+975	NEW! GREAT! LATE!	''	3	in_corpus
+976	NEW! GREAT! LATE!	''	3	in_corpus
+977	Price wars pressure low end Forecast	''	3	in_corpus
+978	Price wars pressure low end Forecast	''	3	in_corpus
+979	IBM adds EISA server to PS/2 family	''	3	in_corpus
+980	IBM adds EISA server to PS/2 family	''	3	in_corpus
+981	PC servers join pricing free fall	''	3	in_corpus
+982	IBM and CA enhance database features	''	3	in_corpus
+983	Unix, NT links to ship in 1995	''	3	in_corpus
+984	Reaction split on CA's plan for ASK products	''	3	in_corpus
+985	CA slashes Ingres prices	''	3	in_corpus
+986	High-end tools gain steam	''	3	in_corpus
+987	Popular Himalaya gives Tandem new options, markets	''	3	in_corpus
+988	Popular Himalaya gives Tandem new options, markets	''	3	in_corpus
+989	AT&T GIS dives into vertical markets	''	3	in_corpus
+990	AT&T GIS dives into vertical markets	''	3	in_corpus
+991	Developers extend user support with PowerBuilder	''	3	in_corpus
+992	Developers extend user support with PowerBuilder	''	3	in_corpus
+993	IBM, Lotus iron out agreement	''	3	in_corpus
+994	IBM, Lotus iron out agreement	''	3	in_corpus
+995	Oracle calls database detente on OLAP	''	3	in_corpus
+996	DBMS tool meets demand	''	3	in_corpus
+997	DBMS tool meets demand	''	3	in_corpus
+998	DEC brings database tool to midsize boxes	''	3	in_corpus
+999	DEC brings database tool to midsize boxes	''	3	in_corpus
+1000	Technology Forecast Forecast '96	''	3	in_corpus
+1001	Compaq cleans up its act in battery disposal	''	3	in_corpus
+1002	DEC moves to VAX, Alpha mixed clusters	''	3	in_corpus
+1088	The problem, Kastner explains, is that "it takes a lot of software to move icons, and that, in turn, requires a	''	3	in_corpus
+1089	"Coding to a graphical interface borders on rocket science. It is very difficult and time-consuming," Kastner	''	3	in_corpus
+1091	For instance, Access already provides referential integrity for its native data at the engine level and allows	''	3	in_corpus
+1092	"This indicates that Compaq is serious about developing a distributed architecture that is very scalable," said	''	3	in_corpus
+1093	Even partners that don't have to rely on Informix for matchmaking--namely client/server powerhouses such as SAP	''	3	in_corpus
+1095	"The APIs will allow application programmers to write software that can notify managers about applications-	''	3	in_corpus
+1096	Organizing shifting from mainframe environments to client/server networks do so for various reasons. One is to better	''	3	in_corpus
+1097	NEW YORK--Two technologies continue to vie for the attention of network managers who need to provide decision-	''	3	in_corpus
+1098	"We haven't discovered anything we don't really like. It's a definite improvement over System 10."	''	3	in_corpus
+1099	"We haven't discovered anything we don't really like. It's a definite improvement over System 10."	''	3	in_corpus
+1100	"VARs are a very key part of the pie ultimately," says Mark Marron, senior vice president of sales and the person VARs	''	3	in_corpus
+1101	Peter S Kastner Media Quotations	''	3	in_corpus
+1102	"Certainly no single operating system can be completely secure from	''	3	in_corpus
+1103	PC Advisor: 3GHz P4 launch date set for 14 November	''	3	in_corpus
+1104	He carefully filled out a card with all the details needed for the rebate, sent in the packaging code and the original	''	3	in_corpus
+1105	He carefully filled out a card with all the details needed for the rebate, sent in the packaging code and the original	''	3	in_corpus
+1106	AMD has no plans for selling off business units, Denton said. The company really only has three main businesses, its	''	3	in_corpus
+1107	The most recent processor to appear in retail from AMD is the Athlon XP 2400+, Kastner said. That processor was	''	3	in_corpus
+1108	"I don't see any loss of momentum for Apple," Kastner said. "Our research shows that people are coming into	''	3	in_corpus
+1109	With PC sales making up the overwhelming majority of Apple revenue, the company's worldwide PC shipments also	''	3	in_corpus
+1110	"It is a little higher than expected," said Roger Kay, computer analyst with IDC. "There's not that much of a gap in price	''	3	in_corpus
+1111	Aberdeen's Kastner, who said the G5 will benefit from the faster processors, new cache and massive memory	''	3	in_corpus
+1113	Far from the exponential growth curves and hype, analyst firm The Aberdeen Group's digital consumer technology	''	3	in_corpus
+1114	Far from the exponential growth curves and hype, analyst firm The Aberdeen Group's digital consumer technology	''	3	in_corpus
+1116	Koo says AOL expects to deploy a considerable number of blade servers during the next few years and will likely test	''	3	in_corpus
+1117	Peter Kastner, Vice President at Aberdeen Group, stated, "The partnership between Informix and Blyth is a win-	''	3	in_corpus
+1119	The underlying technologies of InterBiz solutions, including Unicenter TNG, Jasmine, 3-D visualizations and Neugents	''	3	in_corpus
+1120	"Our research shows that CA customers are a lot happier than they were a year ago, when CA started its new	''	3	in_corpus
+1124	Manufacturers count on a low redemption rate, as do retailers, because they can advertise a discounted price but sell	''	3	in_corpus
+1127	Dell executives said shipments of its OptiPlex and Dimension desktop computers rose 25 percent in the three	''	3	in_corpus
+1128	Dell executives said shipments of its OptiPlex and Dimension desktop computers rose 25 percent in the three	''	3	in_corpus
+1129	Dell is clearly serious about its expansion efforts. “Do not overlook the fact that Dell Computer Inc. changed its	''	3	in_corpus
+1130	Although the asset recovery business is profitable, its success rests with helping customers purchase additional Dell	''	3	in_corpus
+1131	Peter Kastner, a personal computer analyst with the Aberdeen Group, said Dell's performance supports the	''	3	in_corpus
+1132	Peter Kastner, a personal computer analyst with the Aberdeen Group, said Dell's performance supports the	''	3	in_corpus
+1133	Pescatore added that Cisco should work to reduce the impact of future code exposures by joining the File Signature	''	3	in_corpus
+1134	Pescatore added that Cisco should work to reduce the impact of future code exposures by joining the File Signature	''	3	in_corpus
+1135	"As a nation, we have to innovate faster than the rest of the world," he said. "Clearly, this technology will have an	''	3	in_corpus
+1136	As the Microsoft appeal goes forward, it will be interesting to note which companies emerge as allies to the	''	3	in_corpus
+1137	As the Microsoft appeal goes forward, it will be interesting to note which companies emerge as allies to the	''	3	in_corpus
+1138	As the Microsoft appeal goes forward, it will be interesting to note which companies emerge as allies to the	''	3	in_corpus
+1140	Kastner pointed out that the elected position of state attorney general is often a stepping-stone to higher	''	3	in_corpus
+1141	Kastner pointed out that the elected position of state attorney general is often a stepping-stone to higher	''	3	in_corpus
+1145	Gartner's Smith concurred that the platform's basic security features are paramount. He rated the partitioning feature	''	3	in_corpus
+1146	Microsoft has said it is investigating the file-name spoofing vulnerability, but the company has not disclosed whether	''	3	in_corpus
+1147	This build-to-order model has worked not only with PCs, but in other segments where Dell has been capturing market	''	3	in_corpus
+1148	Now more than ever, said Kastner, basic business principles are coming into play for e-commerce, and	''	3	in_corpus
+1149	Now more than ever, said Kastner, basic business principles are coming into play for e-commerce, and	''	3	in_corpus
+1150	Aberdeen Group chief research officer Peter Kastner noted that other improvements, which are likely to play	''	3	in_corpus
+1151	And Aberdeen Group chief research officer Peter Kastner has said users are "waiting with bated breath for	''	3	in_corpus
+1152	Betting on the Lazy	''	3	in_corpus
+1153	The much-talked-about 64-bit microprocessors coming down the pike from Intel (Nasdaq: INTC) and Advanced	''	3	in_corpus
+1154	But although AMD and Intel seem to be preparing for battle, Kastner noted that very few applications currently	''	3	in_corpus
+1155	"They never had a really strong case to begin with, particularly from the consumer's standpoint," Peter Kastner, chief	''	3	in_corpus
+1156	"There are applications in the military, in medical research, in all fields of science," Kastner said. "This is an	''	3	in_corpus
+1157	Becky Replogle-Wilkes, director of collaborative applications marketing for Sprint, agrees. "You decide that you no	''	3	in_corpus
+1158	Kollar-Kotelly has played her own cards close to the vest, only hinting here and there about how the case might play	''	3	in_corpus
+1159	Sixty-four-bit architectures can theoretically address millions of terabytes worth of memory, which translates directly	''	3	in_corpus
+1160	The technology can also save money on software licenses, thanks to server consolidation. In some cases, "a two-	''	3	in_corpus
+1161	In addition to supporting current versions of Microsoft Windows(1), the	''	3	in_corpus
+1162	"They've been boxed in by Dell in online sales and by H-P in the big-box retail market," Kastner said. "This	''	3	in_corpus
+1163	So far, Gateway has put out 45 new digital devices this year and plans on releases a total of 50 products by the end of	''	3	in_corpus
+1164	Gateway's chances that last week he started his coverage of Gateway with an "outperform" rating, and a 12-month	''	3	in_corpus
+1165	Gateway's chances that last week he started his coverage of Gateway with an "outperform" rating, and a 12-month	''	3	in_corpus
+1166	SanDisk (SNDK 14.89, +0.08, +0.54%) shares climbed 19 cents to $52,80, after the company introduced new	''	3	in_corpus
+1167	SanDisk (SNDK 14.89, +0.08, +0.54%) shares climbed 19 cents to $52,80, after the company introduced new	''	3	in_corpus
+1169	With this announcement, HP has clearly demonstrated a commitment to the IT community that is ─ arguably ─	''	3	in_corpus
+1170	Peter Kastner, chief research officer of Boston-based Aberdeen Group Inc., said the company faces formidable	''	3	in_corpus
+1171	Peter Kastner, chief research officer of Boston-based Aberdeen Group Inc., said the company faces formidable	''	3	in_corpus
+1172	ISV application support across its Linux-based eServer platforms, the Aberdeen Group says. But there is little, if any,	''	3	in_corpus
+1173	IBM (IBM 107.35, +0.03, +0.03%) shares fell more than 2 percent to $84.55 in after-hours trading. The stock had	''	3	in_corpus
+1174	Unix) applications, the rest of us waited until Windows XP was launched in October 2000 to end the legacy ties to 16-	''	3	in_corpus
+1175	"You won't see a heck of a lot of difference in Word, but software like [Adobe Systems'] Photoshop or video-	''	3	in_corpus
+1176	Five years ago, major service companies told Kastner that the TCO outcomes they saw were in the range of	''	3	in_corpus
+1177	Five years ago, major service companies told Kastner that the TCO outcomes they saw were in the range of	''	3	in_corpus
+1178	Five years ago, major service companies told Kastner that the TCO outcomes they saw were in the range of	''	3	in_corpus
+1179	The chip giant has funded a new report from Aberdeen, AMD's Gigahertz Equivalency: Inexperienced Buyers Accept	''	3	in_corpus
+1180	Peter S Kastner Blogging at oncomputerstips.blogspot.com	''	3	in_corpus
+1181	Sony Playstation	''	3	admit_only
+1183	You must be careful when making any changes or modifications to the firmware of your GPS because there is a risk	''	3	in_corpus
+1186	-- Peter S. Kastner	''	3	in_corpus
+1187	What is controversial about this site is shooting live game over the Internet. You will be hearing more about this web	''	3	in_corpus
+1188	These tests also show that "normal users" will see a considerably better user experience with a dual core	''	3	in_corpus
+1190	Expect to see these drives in servers for midline storage and in high-end consumer desktops. Is the end of the SCSI	''	3	in_corpus
+1193	That makes the introduction of dual core processors for personal computing this spring not just another product	''	3	in_corpus
+1194	The price as low as $722 (qty 1,000) makes the Cranford value chips attractive for a new generation of low-cost 4-	''	3	in_corpus
+1199	In this case, the electronic bank robber was caught. However, this writer can assure our dear readers that electronic	''	3	in_corpus
+1200	Caveat: Be sure to have your user manual so that you can get back to factory settings if you really mess up. You also	''	3	in_corpus
+1202	Note the new model numbers AMD has chosen, which identify the feature class and relative speed. Looks like AMD	''	3	in_corpus
+1208	All the major microprocessor manufacturers are drooling over the next generation of digital lifestyle electronics,	''	3	in_corpus

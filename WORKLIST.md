@@ -473,6 +473,20 @@ The Aberdeen archive's prescience scoring methodology could feed Adoptex's AI-ad
 
 _(Unchanged from prior worklist. v1 scope ~700 LOC; FastAPI + plain HTML/JS, localhost only, Web Speech in v1 then Whisper-on-Ollama in v1.1. Audience: shared tool on GitHub for all future researchers.)_
 
+### 22. Mac MCP Bridge — read-only archive access from Perplexity Mac app (APPROVED 2026-06-20)
+
+FastMCP stdio bridge exposing the archive + wiki to Perplexity Mac app. **No local LLM** — cloud Perplexity does synthesis; the bridge just runs DuckDB queries and reads files. Build sequence and rationale: see `docs/mac_mcp_bridge_architecture_v1.md` and `docs/promoted_mac.md` in the archive repo.
+
+**Estimated effort**: 1–2 weeks across 5 phases (stub → DuckDB tools → file-read tools → kw_ask → Perplexity registration). Local-LLM path (Qwen + Rapid-MLX) deferred indefinitely; revisit only if Phase 1–5 usage reveals real need.
+
+- [ ] Phase 0: `mac_mcp_bridge/` scaffolding in `~/Repos/` (NOT under `~/Desktop/` — iCloud trap)
+- [ ] Phase 1: `duckdb_query`, `duckdb_tables`, `duckdb_describe` (read-only DuckDB)
+- [ ] Phase 2: `read_archive_file`, `list_prepared` with path sanitization
+- [ ] Phase 3: `kw_ask` integration (verify lazy-load, embedding path env)
+- [ ] Phase 4: Install PerplexityXPC helper, register connector JSON, smoke-test from a real chat
+- [ ] Phase 5 (separate decision): write/execute tools
+- [ ] Phase 6 (future, possibly never): optional `qwen_synthesize` local-LLM tool
+
 ---
 
 ## Maintenance / hygiene (low-priority but evergreen)

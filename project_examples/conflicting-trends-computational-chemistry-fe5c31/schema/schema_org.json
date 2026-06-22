@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Conflicting Trends In Computational Chemistry",
+  "description": "First Aberdeen Group full-length market research report. Quantifies the 1988 computational chemistry market at $237 million combined software/hardware revenues and profiles seven molecular modeling software firms and twelve hardware suppliers. Argues that the field's commercial leverage \u2014 accelerating drug, polymer, and materials discovery \u2014 will drive sustained 35-65% growth, while predicting that no single hardware platform (supercomputers, workstations, or minisupers) will dominate as computing momentum cyclically shifts. Notes original publication January 1989; cover of recovered copy reads May 1989 (likely reprint).",
+  "creator": {
+    "@type": "Person",
+    "name": "Charles T. Casale"
+  },
+  "datePublished": "1989-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

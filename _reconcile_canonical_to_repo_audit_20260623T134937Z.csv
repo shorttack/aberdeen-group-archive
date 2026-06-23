@@ -1,0 +1,8 @@
+"file","lines_before","lines_after","delta_lines","cols_before","cols_after","delta_cols","bytes_before","bytes_after","delta_bytes"
+"_master_studies.csv","1453","1455","2","16","16","0","2009904","2061000","51096"
+"_master_entities.csv","3277","3292","15","8","8","0","710537","713601","3064"
+"_master_technologies.csv","4362","4371","9","8","8","0","1046784","1048290","1506"
+"_master_observations.csv","23927","23991","64","31","17","-14","10930621","9950617","-980004"
+"_master_codes.csv","1294","1298","4","4","4","0","138423","138803","380"
+"_master_entity_studies.csv","3877","3901","24","2","2","0","228124","229880","1756"
+"_master_tech_studies.csv","5376","5386","10","2","2","0","315714","316430","716"

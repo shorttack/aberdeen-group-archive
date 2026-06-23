@@ -1292,7 +1292,3 @@
 "analyst-framework","methodology","Analyst Framework","(placeholder restored by fix_v2_residuals_v1; please populate definition for code: analyst-framework)"
 "is-exec-survey","methodology","Is Exec Survey","(placeholder restored by fix_v2_residuals_v1; please populate definition for code: is-exec-survey)"
 "customer-reference","methodology","Customer Reference","(placeholder restored by fix_v2_residuals_v1; please populate definition for code: customer-reference)"
-"scientific-significance","observation_type","Scientific Significance","Study-specific code: scientific-significance"
-"user-base","observation_type","User Base","Study-specific code: user-base"
-"user-profile","observation_type","User Profile","Study-specific code: user-profile"
-"market-mechanism","observation_type","Market Mechanism","Study-specific code: market-mechanism"

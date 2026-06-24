@@ -13,7 +13,7 @@ into a Makefile or pre-commit hook later, but the operator can override.
 USAGE
 -----
     python3 scripts/release_gate_v1.py \
-        --archive ~/Desktop/Archive/archive_masters \
+        --archive ~/Desktop/Archive/aberdeen-group-archive \
         --wiki ~/Repos/kastner-aberdeen-wiki
 
 OPTIONAL

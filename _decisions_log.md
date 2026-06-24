@@ -3837,3 +3837,64 @@ Branch-protection bypass warnings flagged on both pushes — future commit-signi
 - **A-step format-mismatch review CSV** (27 rows: 17 F0a + 7 F6 + 2 F3 + 1 F1) queued from v1.8.0 substrate work.
 - **Source-PDF scouting** for 410 terminal `pdf_format_mismatch` rows — deferred future workstream.
 - **CompChem Pass C scoring** — the 64 new observations will pick up Pass C scoring at the next pipeline run (canonical paths per `kastner-archive-pipeline` skill).
+
+---
+
+## 2026-06-24 — Retired standalone archive_masters + wired player rebuttals into wiki pages
+
+**Session:** 2026-06-24 (Mac MCP Phase 1 verification → archive_masters retirement Phase A/B → player rebuttal wiki integration)
+**Scope:** Eliminate the two-tree masters drift class by making `aberdeen-group-archive/` repo root the canonical masters location; preserve and surface Path B player rebuttals in the wiki.
+
+---
+
+### What landed
+
+**Standalone `~/Desktop/Archive/archive_masters/` retired**
+
+- Moved `_master_player_rebuttals.csv` from `archive_masters/` subdir to archive repo root and mirrored it to wiki repo root.
+- Reconciled `_known_entities.csv` and `_known_technologies.csv` from the old canonical tree into repo root after Phase 1 exposed drift.
+- Patched active scripts and docs away from absolute `~/Desktop/Archive/archive_masters` references to repo-root masters.
+- Renamed old canonical directory, not deleted: `~/Desktop/Archive/archive_masters` → `~/Desktop/Archive/_retired_archive_masters_20260624T184237Z`.
+
+**Phase 1+2 verification from repo-root masters**
+
+```text
+studies: 1454
+observations: 23990
+entities: 3291
+technologies: 4370
+codes: 1297
+known_entities: 3300
+known_technologies: 4371
+entity_studies: 3900
+tech_studies: 5385
+studies_with_pub_year: 1454
+decades_covered: 6
+high_prescience: 865
+PHASE_B_VERIFY_OK
+```
+
+**Player rebuttals surfaced in regenerated study pages**
+
+- Patched `scripts/build/03_generate_vault_v2.py` so Phase 3 optionally loads `_master_player_rebuttals.csv` from archive repo root, falling back to the wiki-root mirror.
+- Generated study pages now include a deterministic `## Player rebuttals` section when the ledger has rows for that `study_id`.
+- Rebound the DECtp Plaza rebuttal note from the wrong study slug to `dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836` and renamed the note to `wiki/notes/rebuttal-dectp-press-conference-transcript-and-benchmark-charts-plaza-5e5836-2026-06-13.md`.
+- Regenerated the Plaza study page only; verified it remains `tier: 1` and includes the rebuttal wikilink plus source note path.
+
+---
+
+### Validation
+
+- `git diff --check` clean in archive repo after normalizing the two reconciled known-sidecar CSVs to LF.
+- `git diff --check` clean in wiki repo after stripping trailing Markdown hard-break spaces from the moved rebuttal note.
+- All modified archive Python scripts compile with `python3 -m py_compile`.
+- Active script/doc grep for old absolute `archive_masters` paths is clear.
+- `kw pending` flagged the moved rebuttal note as expected; included in the wiki commit.
+
+---
+
+### Carry-forward
+
+- Do not use `~/Desktop/Archive/archive_masters/` for masters edits. Repo root `~/Desktop/Archive/aberdeen-group-archive/` is canonical.
+- Full Phase 3+5 refresh remains a future task if additional rebuttals are added and need embeddings refreshed globally. Today only the Plaza study page and existing rebuttal note were corrected.
+- Untracked bycatch in both repos remains intentionally excluded from EOD commits.

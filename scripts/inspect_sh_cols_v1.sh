@@ -3,7 +3,7 @@
 # Read-only inspection of the 14 SH cols sitting in the working tree's
 # _master_observations.csv. Does NOT modify anything.
 
-CSV="$HOME/Desktop/Archive/archive_masters/_master_observations.csv"
+CSV="$HOME/Desktop/Archive/aberdeen-group-archive/_master_observations.csv"
 
 echo "=================================================================="
 echo "  SH-cols inspection: $CSV"

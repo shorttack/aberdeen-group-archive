@@ -46,7 +46,7 @@ import shutil
 import datetime
 from pathlib import Path
 
-ARCHIVE = Path.home() / "Desktop" / "Archive" / "archive_masters"
+ARCHIVE = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 MASTER = ARCHIVE / "_master_prescience_scores.csv"
 
 EXPECTED_TOTAL = 8440

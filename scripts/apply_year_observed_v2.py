@@ -295,7 +295,7 @@ def main() -> int:
     ap.add_argument("--archive", type=Path,
                     default=Path("/Users/scott/Desktop/Archive"))
     ap.add_argument("--masters-dir", type=Path,
-                    default=Path("/Users/scott/Desktop/Archive/archive_masters"))
+                    default=Path("/Users/scott/Desktop/Archive/aberdeen-group-archive"))
     ap.add_argument("--workspace", type=Path,
                     default=Path("/Users/scott/Desktop/Archive/v1.5_workspace"))
     ap.add_argument("--proposals", type=Path, default=None)

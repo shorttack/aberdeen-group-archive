@@ -35,7 +35,7 @@ import sys
 from pathlib import Path
 from collections import Counter
 
-ARCHIVE = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 MASTER  = ARCHIVE / "_master_prescience_scores.csv"
 
 # Canonical enum (per PRESCIENCE_ARCHITECTURE rev2 / MASTERS_NOTES v3)

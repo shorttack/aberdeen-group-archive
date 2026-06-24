@@ -11,7 +11,7 @@
 #
 # What moves:
 #   1. prepared/pass_c_checkpoint_v1.json
-#   2. archive_masters/_master_prescience_scores.csv
+#   2. aberdeen-group-archive/_master_prescience_scores.csv
 #   3. 309 x prepared/*/working/prescience_scores_27b_passC_v1.csv
 #   4. 309 x prepared/*/working/pass_c_log_v1.jsonl
 #   5. 309 x prepared/*/working/{scoreable,skipped}_obs_v1.csv
@@ -33,7 +33,7 @@ fi
 
 ARCHIVE="/Users/scott/Desktop/Archive"
 PREPARED="$ARCHIVE/prepared"
-MASTERS="$ARCHIVE/archive_masters"
+MASTERS="$ARCHIVE/aberdeen-group-archive"
 QUARANTINE="$ARCHIVE/_pass_c_abandoned_runs/20260526"
 
 echo "=================================================="

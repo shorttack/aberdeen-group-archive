@@ -43,7 +43,7 @@ from pathlib import Path
 
 # --------------------------------------------------------------- config
 
-ARCHIVE       = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE       = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 BATCH_ROOT    = Path.home() / "Desktop/Archive/passb_batch"
 
 STUDIES_MASTER       = ARCHIVE / "_master_studies.csv"
@@ -252,12 +252,12 @@ def main():
     if commit:
         print("COMMIT complete. Next:")
         print("  1. Phase 1: python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \\")
-        print("       --archive ~/Desktop/Archive/archive_masters \\")
+        print("       --archive ~/Desktop/Archive/aberdeen-group-archive \\")
         print("       --wiki ~/Repos/kastner-aberdeen-wiki")
         print("  2. Phase 2: python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \\")
         print("       --wiki ~/Repos/kastner-aberdeen-wiki")
         print("  3. Pass A v1: python3 ~/Desktop/Archive/scripts/build/assembler.py pass-a \\")
-        print("       ~/Desktop/Archive/archive_masters")
+        print("       ~/Desktop/Archive/aberdeen-group-archive")
         print("  4. Shape audit (see kastner-archive-pipeline §'Shape audit')")
         print("  5. Phases 3-6 for the new studies + scaffolding refresh")
     else:

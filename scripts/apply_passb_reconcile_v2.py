@@ -49,7 +49,7 @@ from pathlib import Path
 # Configuration
 # ---------------------------------------------------------------------------
 
-ARCHIVE_DIR = Path.home() / "Desktop" / "Archive" / "archive_masters"
+ARCHIVE_DIR = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 MASTER      = ARCHIVE_DIR / "_master_studies.csv"
 MANIFEST    = Path(__file__).parent / "_master_studies_passb_reconcile_v2.csv"
 

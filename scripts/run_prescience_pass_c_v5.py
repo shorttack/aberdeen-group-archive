@@ -11,7 +11,7 @@ test (failed). v5 = first true production cloud runner using Perplexity API.
 
 Inputs:
   ~/.config/adoptex/perplexity.env  OR  /tmp/perplexity.env  (PERPLEXITY_API_KEY=...)
-  ~/Desktop/Archive/archive_masters/_master_observations.csv  (master truth)
+  ~/Desktop/Archive/aberdeen-group-archive/_master_observations.csv  (master truth)
   ~/Desktop/Archive/prepared/                                 (492 prepared studies)
   ~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv     (100 pilot rows, existing)
 

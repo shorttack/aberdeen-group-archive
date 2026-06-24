@@ -2,7 +2,7 @@
 """
 audit_canonical_vs_repo_masters_v1.py
 
-Read-only audit. Confirms ~/Desktop/Archive/archive_masters/_master_*.csv
+Read-only audit. Confirms ~/Desktop/Archive/aberdeen-group-archive/_master_*.csv
 and ~/Desktop/Archive/aberdeen-group-archive/_master_*.csv are byte-identical.
 
 Pre-requisite for retire_canonical_dir_v1.py.
@@ -22,7 +22,7 @@ import os
 import sys
 from pathlib import Path
 
-CANONICAL = Path.home() / "Desktop" / "Archive" / "archive_masters"
+CANONICAL = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 REPO = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 
 MASTERS = [

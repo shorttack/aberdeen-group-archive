@@ -233,7 +233,7 @@ command** — it will resume from the checkpoint.
 ```
 python3 /Users/scott/Desktop/Archive/scripts/roll_up_prescience_to_master_v2.py \
   --root /Users/scott/Desktop/Archive/prepared \
-  --masters-dir /Users/scott/Desktop/Archive/archive_masters \
+  --masters-dir /Users/scott/Desktop/Archive/aberdeen-group-archive \
   --dry-run
 ```
 
@@ -247,7 +247,7 @@ prior version to `archive_masters_pre_prescience_rollup_v2_<ts>/`):
 ```
 python3 /Users/scott/Desktop/Archive/scripts/roll_up_prescience_to_master_v2.py \
   --root /Users/scott/Desktop/Archive/prepared \
-  --masters-dir /Users/scott/Desktop/Archive/archive_masters
+  --masters-dir /Users/scott/Desktop/Archive/aberdeen-group-archive
 ```
 
 ### 5b. Build the cloud review queue

@@ -37,7 +37,7 @@ import datetime
 import sys
 from pathlib import Path
 
-ARCHIVE = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 
 # Master files
 M_ENTITIES        = ARCHIVE / "_master_entities.csv"

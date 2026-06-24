@@ -16,7 +16,7 @@ v2 corrections vs v1:
 
 Usage:
   python3 01_load_csvs_v2.py \\
-      --archive ~/Desktop/Archive/archive_masters \\
+      --archive ~/Desktop/Archive/aberdeen-group-archive \\
       --wiki    ~/Desktop/kastner_wiki
 """
 from __future__ import annotations
@@ -125,14 +125,14 @@ def derive_pub_year(date_str: str) -> int | None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--archive", required=True,
-                    help="Path to archive_masters/ directory")
+                    help="Path to archive repo root containing _master_*.csv")
     ap.add_argument("--wiki", required=True,
                     help="Wiki output directory")
     args = ap.parse_args()
 
     archive = Path(args.archive).resolve()
     wiki = Path(args.wiki).resolve()
-    print(f"Archive masters dir: {archive}")
+    print(f"Archive masters source: {archive}")
     print(f"Wiki output dir:     {wiki}")
 
     staging = wiki / "data" / "_validated"

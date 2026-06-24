@@ -51,7 +51,7 @@ from pathlib import Path
 from collections import Counter
 
 # ---- paths ----
-ARCHIVE = Path.home() / "Desktop" / "Archive" / "archive_masters"
+ARCHIVE = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 MASTER = ARCHIVE / "_master_prescience_scores.csv"
 
 # ---- expected baseline (verified via 2026-06-15 audit) ----

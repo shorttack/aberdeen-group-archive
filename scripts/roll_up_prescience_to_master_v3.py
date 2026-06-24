@@ -35,7 +35,7 @@ Behavior:
 Usage:
   python3 roll_up_prescience_to_master_v3.py \\
       --cloud-csv /Users/scott/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv \\
-      --masters-dir /Users/scott/Desktop/Archive/archive_masters
+      --masters-dir /Users/scott/Desktop/Archive/aberdeen-group-archive
 
   # dry-run: print what would be written, don't touch master
   python3 roll_up_prescience_to_master_v3.py \\

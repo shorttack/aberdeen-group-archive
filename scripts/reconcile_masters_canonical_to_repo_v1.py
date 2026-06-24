@@ -6,7 +6,7 @@ Reconcile the archive REPO masters working tree with the CANONICAL Desktop-level
 archive_masters/ directory. The repo masters have been drifting since Jun 13–14,
 2026; canonical has been the actual operating layer (Phase 1+2 reads from it).
 
-DIRECTION: canonical (~/Desktop/Archive/archive_masters/) -> repo
+DIRECTION: canonical (~/Desktop/Archive/aberdeen-group-archive/) -> repo
                        (~/Desktop/Archive/aberdeen-group-archive/)
 
 SCOPE: 7 master CSVs at repo root (canonical filenames identical):
@@ -52,7 +52,7 @@ from pathlib import Path
 
 # Hard-coded paths intentional. These are Pete's Mac layout.
 REPO_DIR = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
-CANON_DIR = Path.home() / "Desktop" / "Archive" / "archive_masters"
+CANON_DIR = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 
 MASTERS = [
     "_master_studies.csv",

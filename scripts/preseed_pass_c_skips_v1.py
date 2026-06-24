@@ -10,11 +10,11 @@ DECtp studies). This causes run_prescience_pass_c_v5.py's resume logic
 INPUTS:
   /tmp/skip_obs_ids.csv                                  (253 rows, obs_id,study_id)
   ~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv (existing 3,761 rows)
-  ~/Desktop/Archive/archive_masters/_master_studies.csv  (for in-thread prescience preservation)
+  ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv  (for in-thread prescience preservation)
 
 OUTPUTS (backups + append):
   ~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv.bak_pre_dectp_preseed_<UTC>.csv
-  ~/Desktop/Archive/archive_masters/_master_studies.csv.bak_pre_passC_dectp_<UTC>.csv
+  ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv.bak_pre_passC_dectp_<UTC>.csv
   ~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv  (extended +253 rows = 4,014)
 
 Preseed row schema (matches existing output CSV header):

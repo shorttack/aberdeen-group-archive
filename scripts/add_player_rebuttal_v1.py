@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 add_player_rebuttal_v1.py — Append a player-rebuttal row to
-archive_masters/_master_player_rebuttals.csv.
+aberdeen-group-archive/_master_player_rebuttals.csv, then mirror it to the wiki repo root.
 
 Use when Pete writes a rebuttal note disagreeing with the Pass C scorer's
 study-level prescience verdict. The scorer's verdict stays canonical in
@@ -25,12 +25,15 @@ Usage:
 import argparse
 import csv
 import sys
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
 ARCHIVE = Path.home() / "Desktop" / "Archive"
-MASTERS = ARCHIVE / "archive_masters"
+MASTERS = ARCHIVE / "aberdeen-group-archive"
 REBUTTALS = MASTERS / "_master_player_rebuttals.csv"
+WIKI_REPO = Path.home() / "Repos" / "kastner-aberdeen-wiki"
+WIKI_REBUTTALS = WIKI_REPO / "_master_player_rebuttals.csv"
 
 HEADER = ["study_id", "rebuttal_path", "recorded_at", "recorded_by",
           "scorer_verdict", "scorer_mean", "scorer_n_obs", "scorer_model"]
@@ -81,7 +84,11 @@ def main():
             w.writeheader()
         w.writerow(row)
 
+    WIKI_REPO.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(REBUTTALS, WIKI_REBUTTALS)
+
     print(f"\nappended 1 row")
+    print(f"mirrored to: {WIKI_REBUTTALS}")
     return 0
 
 

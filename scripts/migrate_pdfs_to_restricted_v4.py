@@ -191,7 +191,7 @@ def main() -> int:
     else:
         for cand in [
             args.public_clone / "_master_studies.csv",
-            Path("/Users/scott/Desktop/Archive/archive_masters/_master_studies.csv"),
+            Path("/Users/scott/Desktop/Archive/aberdeen-group-archive/_master_studies.csv"),
         ]:
             if cand.is_file():
                 masters_csv = cand

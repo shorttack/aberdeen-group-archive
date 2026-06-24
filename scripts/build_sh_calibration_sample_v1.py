@@ -27,8 +27,8 @@ Pre-flight invariants (asserted):
 
 Usage:
   python3 build_sh_calibration_sample_v1.py \
-    --obs        ~/Desktop/Archive/archive_masters/_master_observations.csv \
-    --studies    ~/Desktop/Archive/archive_masters/_master_studies.csv \
+    --obs        ~/Desktop/Archive/aberdeen-group-archive/_master_observations.csv \
+    --studies    ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv \
     --tier-a     ~/Desktop/Archive/aberdeen-group-archive/Perplexity_Only/prescience_tier_a_sample_v1.csv \
     --tier-b     ~/Desktop/Archive/pass_c_v6_tier_b_results.csv \
     --output     ~/Desktop/Archive/prescience_calibration_sh_sample_v1.csv \

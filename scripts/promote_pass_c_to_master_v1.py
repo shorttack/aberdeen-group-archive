@@ -3,14 +3,14 @@
 promote_pass_c_to_master_v1.py
 ==============================
 
-Promote rows from the LIVE Pass C output CSV (file 1) into the archive_masters
+Promote rows from the LIVE Pass C output CSV (file 1) into the archive repo root
 prescience scores CSV (file 2, which is v3's input).
 
 File 1: ~/Desktop/Archive/prescience_scores_pass_c_cloud_v1.csv
         cols: obs_id, prescience_score, confidence, rationale, model,
               scored_at, elapsed_sec, parse_ok                          (8)
 
-File 2: ~/Desktop/Archive/archive_masters/_master_prescience_scores.csv
+File 2: ~/Desktop/Archive/aberdeen-group-archive/_master_prescience_scores.csv
         cols: obs_id, study_id, model, prescience_score, confidence,
               rationale, scored_at, scorer_version, source_pass,
               elapsed_sec, parse_ok                                     (11)
@@ -48,7 +48,7 @@ from pathlib import Path
 HOME = Path.home()
 ARCH = HOME / "Desktop" / "Archive"
 REPO = ARCH / "aberdeen-group-archive"
-ARCH_MASTERS = ARCH / "archive_masters"
+ARCH_MASTERS = ARCH / "aberdeen-group-archive"
 
 FILE1 = ARCH / "prescience_scores_pass_c_cloud_v1.csv"
 FILE2 = ARCH_MASTERS / "_master_prescience_scores.csv"

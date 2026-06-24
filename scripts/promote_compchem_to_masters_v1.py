@@ -6,7 +6,7 @@ Promote the CompChem 1989 study-local CSVs into the archive masters so Phase 1
 can pick them up on next rebuild.
 
 Source:  ~/Desktop/Archive/aberdeen-group-archive/project_examples/conflicting-trends-computational-chemistry-fe5c31/data/*.csv
-Target:  ~/Desktop/Archive/archive_masters/_master_*.csv
+Target:  ~/Desktop/Archive/aberdeen-group-archive/_master_*.csv
 
 What gets appended (with dedupe-skip on primary key):
   studies:        +1 row     (PK: study_id)
@@ -18,7 +18,7 @@ What gets appended (with dedupe-skip on primary key):
   tech_studies:   +10 pairs  (PK: tech_id+study_id; skip if already in master)
 
 Dedupe collisions are logged to a sidecar:
-  ~/Desktop/Archive/archive_masters/promote_compchem_v1_collisions.txt
+  ~/Desktop/Archive/aberdeen-group-archive/promote_compchem_v1_collisions.txt
 
 Schema reconciliation (study CSV → master):
   - entities: drop the study CSV's trailing `study_id` column (master has 8 cols, study has 9)
@@ -39,7 +39,7 @@ All writes:
 import csv, shutil, datetime, sys
 from pathlib import Path
 
-ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 STUDY_DATA = Path.home() / "Desktop/Archive/aberdeen-group-archive/project_examples/conflicting-trends-computational-chemistry-fe5c31/data"
 
 STUDY_ID = "conflicting-trends-computational-chemistry-fe5c31"

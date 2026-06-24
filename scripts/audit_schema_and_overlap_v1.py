@@ -36,7 +36,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-MAC_ROOT = Path.home() / "Desktop/Archive/archive_masters"
+MAC_ROOT = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 REPO = "shorttack/aberdeen-group-archive"
 REPO_BRANCH = "main"
 

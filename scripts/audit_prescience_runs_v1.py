@@ -14,7 +14,7 @@ USAGE (on Mac):
 WHAT IT INSPECTS:
     1. Repo master:           ~/Repos/aberdeen-group-archive/_master_prescience_scores.csv
        (or, fallback)         ~/Desktop/Archive/aberdeen-group-archive/_master_prescience_scores.csv
-    2. Mac master (if diff):  ~/Desktop/Archive/archive_masters/_master_prescience_scores.csv
+    2. Mac master (if diff):  ~/Desktop/Archive/aberdeen-group-archive/_master_prescience_scores.csv
     3. Live working dirs:     ~/Desktop/Archive/prepared/**/working/
     4. Abandoned working dirs:~/Desktop/Archive/_pass_c_abandoned_runs/20260526/prepared/**/working/
     5. Any other working/     directories under ~/Desktop/Archive/ that look like Pass C runs.

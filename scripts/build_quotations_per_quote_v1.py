@@ -25,7 +25,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
-ARCHIVE = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 WIKI = Path.home() / "Repos/kastner-aberdeen-wiki"
 MASTER = ARCHIVE / "_master_quotations_prescience.csv"
 QUOTES_DIR = WIKI / "wiki" / "quotations"

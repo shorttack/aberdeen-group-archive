@@ -16,7 +16,7 @@ Read-only. No writes, no rebuilds, no API calls.
 import os, subprocess, csv, datetime, sys
 from pathlib import Path
 
-ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 WIKI_REPO       = Path.home() / "Repos/kastner-aberdeen-wiki"
 ARCHIVE_REPO    = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 SCRIPTS_DIR     = Path.home() / "Desktop/Archive/scripts"

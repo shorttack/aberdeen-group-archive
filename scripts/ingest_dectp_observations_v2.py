@@ -90,7 +90,7 @@ Commit (writes to master + leaves backup):
 
 Optional flags:
     --archive PATH   Override the archive_masters/ directory (default:
-                     ~/Desktop/Archive/archive_masters/ on Mac;
+                     ~/Desktop/Archive/aberdeen-group-archive/ on Mac;
                      /home/user/workspace/ when running in this sandbox
                      for dry-run preview only)
     --study-md PATH  Override the path to the study markdown
@@ -398,7 +398,7 @@ def check_invariants(parsed, rows, master_rows):
 
 def main():
     ap = argparse.ArgumentParser()
-    default_archive = Path.home() / "Desktop/Archive/archive_masters"
+    default_archive = Path.home() / "Desktop/Archive/aberdeen-group-archive"
     ap.add_argument(
         "--archive",
         type=Path,

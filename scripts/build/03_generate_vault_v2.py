@@ -113,6 +113,55 @@ def safe_int(v, default=0) -> int:
         return default
 
 
+def load_player_rebuttals(archive: Path | None, wiki: Path) -> dict[str, list[dict]]:
+    """Optional Path-B ledger. Returns {study_id: [row, ...]}.
+
+    Canonical source is archive repo root; falls back to the wiki-root mirror.
+    Missing CSV is not an error because historical rebuilds may not have one.
+    """
+    candidates = []
+    if archive is not None:
+        candidates.append(archive / "_master_player_rebuttals.csv")
+    candidates.append(wiki / "_master_player_rebuttals.csv")
+    src = next((p for p in candidates if p.exists()), None)
+    if src is None:
+        print("  player rebuttals: none found (skipping section)")
+        return {}
+
+    df = pd.read_csv(src, dtype=str, keep_default_na=False, na_values=[""])
+    by_study: dict[str, list[dict]] = {}
+    for _, r in df.iterrows():
+        sid = safe_str(r.get("study_id"))
+        if sid:
+            by_study.setdefault(sid, []).append(r.to_dict())
+    print(f"  player rebuttals: {len(df)} rows across {len(by_study)} studies from {src}")
+    return by_study
+
+
+def render_rebuttals(rows: list[dict]) -> list[str]:
+    out = [
+        "\n## Player rebuttals\n",
+        "_Author rebuttals of the scorer's prescience verdict (Path B). "
+        "The scorer's verdict remains canonical in `_master_studies.csv`._\n",
+    ]
+    for r in rows:
+        sid = safe_str(r.get("study_id"))
+        when = safe_str(r.get("recorded_at"))[:10]
+        who = safe_str(r.get("recorded_by")) or "Unknown"
+        verdict = safe_str(r.get("scorer_verdict")) or "unknown"
+        mean = safe_str(r.get("scorer_mean")) or "unknown"
+        nobs = safe_str(r.get("scorer_n_obs")) or "unknown"
+        model = safe_str(r.get("scorer_model")) or "unknown-model"
+        rel = safe_str(r.get("rebuttal_path"))
+        note = f"rebuttal-{slugify(sid)}-{when}" if when else f"rebuttal-{slugify(sid)}"
+        out.append(
+            f"- **{who}** ({when or 'undated'}) disputes scorer verdict **{verdict}** "
+            f"(mean {mean}, n={nobs}, {model}) — [[{note}]] · source: `{rel}`"
+        )
+    out.append("")
+    return out
+
+
 # ---------------- emitters ----------------
 
 def emit_entity(row, eobs, wiki: Path, e_top: set, do_llm: bool) -> dict:
@@ -259,7 +308,8 @@ def emit_technology(row, tobs, wiki: Path, t_top: set, do_llm: bool) -> dict:
     return {"slug": slug, "tier": fm["tier"], "type": "technology"}
 
 
-def emit_study(row, study_obs, wiki: Path, tier1: set, do_llm: bool) -> dict:
+def emit_study(row, study_obs, wiki: Path, tier1: set, do_llm: bool,
+               rebuttals_by_study: dict | None = None) -> dict:
     sid = row["study_id"]
     title = safe_str(row.get("title")) or sid
     slug = f"study-{slugify(sid)}"
@@ -332,6 +382,11 @@ def emit_study(row, study_obs, wiki: Path, tier1: set, do_llm: bool) -> dict:
             body.append("\n## Summary\n")
             body.append(cap_text(res["text"], PAGE_CAPS["study"]) + "\n")
 
+    if rebuttals_by_study:
+        rb = rebuttals_by_study.get(sid, [])
+        if rb:
+            body.extend(render_rebuttals(rb))
+
     body.append("\n## Top observations\n")
     for _, o in obs_sorted.iterrows():
         ps = o.get("prescience_score")
@@ -374,6 +429,9 @@ def emit_code(row, wiki: Path) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--wiki", required=True)
+    ap.add_argument("--archive",
+                    help="Archive repo root holding _master_player_rebuttals.csv "
+                         "(optional; falls back to the wiki-root mirror)")
     ap.add_argument("--skip-llm", action="store_true",
                     help="Template-only; no LLM calls")
     ap.add_argument("--limit-llm", type=int, default=0,
@@ -384,6 +442,7 @@ def main() -> int:
     args = ap.parse_args()
 
     wiki = Path(args.wiki).resolve()
+    archive = Path(args.archive).resolve() if args.archive else None
     data = wiki / "data"
 
     studies = pd.read_parquet(data / "studies.parquet")
@@ -411,6 +470,7 @@ def main() -> int:
                      .head(150)["tech_id"])
     print(f"Tier-1 sets — studies:{len(high_psc_studies)}, "
           f"entities:{len(e_top)}, techs:{len(t_top)}")
+    rebuttals_by_study = load_player_rebuttals(archive, wiki)
 
     pages_manifest: list[dict] = []
     do_llm = not args.skip_llm
@@ -423,7 +483,7 @@ def main() -> int:
             study_obs = obs[obs["study_id"] == sid]
             local_do_llm = do_llm and (sid in high_psc_studies) and (
                 args.limit_llm == 0 or llm_used < args.limit_llm)
-            res = emit_study(row, study_obs, wiki, high_psc_studies, local_do_llm)
+            res = emit_study(row, study_obs, wiki, high_psc_studies, local_do_llm, rebuttals_by_study)
             pages_manifest.append(res)
             if local_do_llm:
                 llm_used += 1
@@ -486,6 +546,8 @@ def main() -> int:
         "ran_at": datetime.now(timezone.utc).isoformat(),
         "pages_emitted": len(pm),
         "by_type": pm.groupby("type").size().to_dict() if len(pm) else {},
+        "rebuttals_loaded": sum(len(v) for v in rebuttals_by_study.values()),
+        "studies_with_rebuttals": len(rebuttals_by_study),
         "tier1_counts_planned": {
             "study": len(high_psc_studies),
             "entity": len(e_top),

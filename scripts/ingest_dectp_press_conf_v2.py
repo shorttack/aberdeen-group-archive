@@ -102,7 +102,7 @@ def main():
     print("     git push")
     print("  2. Run Phase 1+2 to rebuild DuckDB:")
     print("     python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \\")
-    print("       --archive ~/Desktop/Archive/archive_masters \\")
+    print("       --archive ~/Desktop/Archive/aberdeen-group-archive \\")
     print("       --wiki ~/Repos/kastner-aberdeen-wiki")
     print("     python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \\")
     print("       --wiki ~/Repos/kastner-aberdeen-wiki")

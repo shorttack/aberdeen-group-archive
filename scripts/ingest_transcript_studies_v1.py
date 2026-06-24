@@ -22,17 +22,17 @@ Behavior:
 
 Usage (Mac):
   python3 ~/Desktop/Archive/scripts/ingest_transcript_studies_v1.py \\
-    --master ~/Desktop/Archive/archive_masters/_master_studies.csv \\
+    --master ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv \\
     --manifest ~/Desktop/Archive/scripts/transcript_manifest_v1.csv
 
   python3 ~/Desktop/Archive/scripts/ingest_transcript_studies_v1.py \\
-    --master ~/Desktop/Archive/archive_masters/_master_studies.csv \\
+    --master ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv \\
     --manifest ~/Desktop/Archive/scripts/transcript_manifest_v1.csv \\
     --commit
 
 After --commit, run Phase 1 + Phase 2 to refresh the live DuckDB:
   python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \\
-    --archive ~/Desktop/Archive/archive_masters \\
+    --archive ~/Desktop/Archive/aberdeen-group-archive \\
     --wiki ~/Repos/kastner-aberdeen-wiki
   python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \\
     --wiki ~/Repos/kastner-aberdeen-wiki

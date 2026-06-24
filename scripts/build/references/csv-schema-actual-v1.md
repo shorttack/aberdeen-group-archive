@@ -1,7 +1,7 @@
 # Aberdeen Archive Master CSV Schemas — Actual (v1)
 
 **Date frozen**: 2026-05-26
-**Source of truth**: `head -1` of each master in `/Users/scott/Desktop/Archive/archive_masters/`
+**Source of truth**: `head -1` of each master in `/Users/scott/Desktop/Archive/aberdeen-group-archive/`
 **Purpose**: This is the schema reference for the wiki v1.5 rebuild. Earlier
 guesses (in `references/csv-schema.md` from the wiki-builder skill) were
 inaccurate on multiple columns. Trust this file.

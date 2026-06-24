@@ -2,7 +2,7 @@
 """
 retire_canonical_dir_v1.py
 
-Retire ~/Desktop/Archive/archive_masters/ as a standalone canonical dir.
+Retire ~/Desktop/Archive/aberdeen-group-archive/ as a standalone canonical dir.
 After today's reconcile (2026-06-23), the repo working tree at
 ~/Desktop/Archive/aberdeen-group-archive/ is the single source of truth
 for _master_*.csv files.
@@ -31,7 +31,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-CANONICAL = Path.home() / "Desktop" / "Archive" / "archive_masters"
+CANONICAL = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 REPO = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive"
 ARCHIVE_PARENT = Path.home() / "Desktop" / "Archive"
 

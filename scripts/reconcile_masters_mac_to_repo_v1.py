@@ -5,7 +5,7 @@ reconcile_masters_mac_to_repo_v1.py
 
 Job 1 of the 2026-06-11 §11t Mac↔repo masters reconcile.
 
-Ships 5 master CSVs from Mac (~/Desktop/Archive/archive_masters/) to repo
+Ships 5 master CSVs from Mac (~/Desktop/Archive/aberdeen-group-archive/) to repo
 (shorttack/aberdeen-group-archive, flat at root) in ONE atomic commit via
 the Git Data API multi-file batch pattern (kastner-github skill).
 
@@ -79,7 +79,7 @@ from pathlib import Path
 # CONFIGURATION — locked to the audit snapshot
 # -------------------------------------------------------------------------
 
-MAC_ROOT = Path.home() / "Desktop/Archive/archive_masters"
+MAC_ROOT = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 WORKSPACE_HINT = "Files staged from workspace are inlined as content (not paths)."
 REPO = "shorttack/aberdeen-group-archive"
 REPO_BRANCH = "main"
@@ -759,7 +759,7 @@ def main() -> int:
 
     commit_message = (
         "§11t Mac↔repo masters reconcile — ship Mac canonical state to repo\n\n"
-        "Reconciles 5 master CSVs from ~/Desktop/Archive/archive_masters/ to repo:\n"
+        "Reconciles 5 master CSVs from ~/Desktop/Archive/aberdeen-group-archive/ to repo:\n"
         "  - _master_observations.csv         23,605×17  (v20 obs_id normalizer, 2026-05-24)\n"
         "  - _master_entities.csv             3,207×8    (normalized; dropped study_id col)\n"
         "  - _master_technologies.csv         4,312×8    (normalized; dropped study_id col)\n"

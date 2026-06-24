@@ -2,7 +2,7 @@
 """promote_quotations_to_master_v2.py
 
 Promote v1.8.0 quotations corpus verdicts to a new sidecar master:
-    ~/Desktop/Archive/archive_masters/_master_quotations_prescience.csv
+    ~/Desktop/Archive/aberdeen-group-archive/_master_quotations_prescience.csv
 
 Sidecar pattern — does NOT modify kastner_quotes_clean.csv. Mirrors the
 _master_prescience_scores.csv precedent: append-only, keyed on row_id,
@@ -79,7 +79,7 @@ from pathlib import Path
 # ------------------------------------------------------------------------------
 
 DEFAULT_CORPUS = Path.home() / "Desktop/Archive/aberdeen-group-archive/kastner-author/quotations/quotations_corpus_v1.csv"
-DEFAULT_MASTER = Path.home() / "Desktop/Archive/archive_masters/_master_quotations_prescience.csv"
+DEFAULT_MASTER = Path.home() / "Desktop/Archive/aberdeen-group-archive/_master_quotations_prescience.csv"
 
 SCORER_VERSION = "quotations_corpus_v1"
 SOURCE_PASS    = "quotations_corpus"

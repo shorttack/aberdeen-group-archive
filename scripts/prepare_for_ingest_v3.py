@@ -1276,7 +1276,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     )
     parser.add_argument(
         "--entities",
-        default="~/Desktop/Archive/archive_masters/_known_entities.csv",
+        default="~/Desktop/Archive/aberdeen-group-archive/_known_entities.csv",
         help="Known-entities CSV for entity pre-pass",
     )
     parser.add_argument(

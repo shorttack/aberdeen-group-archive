@@ -2,7 +2,7 @@
 """
 add_methodology_demo_v2_study_row_v1.py
 
-Appends one row to ~/Desktop/Archive/archive_masters/_master_studies.csv
+Appends one row to ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv
 for the v2.0 methodology demo (study_id = 2026-kastner-prescience-methodology-demo-v2-0cdf49).
 
 Invariants (per kastner-archive-pipeline skill):
@@ -15,7 +15,7 @@ Invariants (per kastner-archive-pipeline skill):
 import csv, shutil, datetime, sys
 from pathlib import Path
 
-ARCHIVE = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 MASTER  = ARCHIVE / "_master_studies.csv"
 
 NEW_STUDY_ID = "2026-kastner-prescience-methodology-demo-v2-0cdf49"

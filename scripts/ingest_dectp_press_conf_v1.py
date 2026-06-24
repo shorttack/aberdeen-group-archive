@@ -21,7 +21,7 @@ import csv, sys, shutil, datetime, hashlib, os
 from pathlib import Path
 
 # ── Paths ────────────────────────────────────────────────────────────────────
-ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/archive_masters"
+ARCHIVE_MASTERS = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 MASTER_CSV      = ARCHIVE_MASTERS / "_master_studies.csv"
 
 # Source files — adjust if you placed the extracted zip elsewhere
@@ -222,7 +222,7 @@ def main():
     print("  1. git pull in ~/Desktop/Archive/aberdeen-group-archive")
     print("  2. Run Phase 1+2 to rebuild DuckDB:")
     print("     python3 ~/Desktop/Archive/scripts/build/01_load_csvs_v2.py \\")
-    print("       --archive ~/Desktop/Archive/archive_masters \\")
+    print("       --archive ~/Desktop/Archive/aberdeen-group-archive \\")
     print("       --wiki ~/Repos/kastner-aberdeen-wiki")
     print("     python3 ~/Desktop/Archive/scripts/build/02_build_data_layer_v4.py \\")
     print("       --wiki ~/Repos/kastner-aberdeen-wiki")

@@ -4,7 +4,7 @@ audit_mac_vs_repo_v1.py
 =======================
 
 READ-ONLY diagnostic. Compares master and known CSVs between:
-  - Mac canonical:  /Users/scott/Desktop/Archive/archive_masters/
+  - Mac canonical:  /Users/scott/Desktop/Archive/aberdeen-group-archive/
   - Repo HEAD:      shorttack/aberdeen-group-archive  origin/main  (flat at root)
 
 Writes ONE output file:
@@ -69,7 +69,7 @@ from typing import Optional
 
 # ---------- Configuration ----------
 
-MAC_ROOT = Path.home() / "Desktop/Archive/archive_masters"
+MAC_ROOT = Path.home() / "Desktop/Archive/aberdeen-group-archive"
 REPO = "shorttack/aberdeen-group-archive"
 REPO_BRANCH = "main"
 

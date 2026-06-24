@@ -13,7 +13,7 @@ Targets:
     f-4q05-bp-intl-logistics-081905a-31c05c          1905 -> 2005
     1q05-pss-fieldservices-020305a-fa2797            2030 -> 2005
 
-Patches the local master: ~/Desktop/Archive/archive_masters/_master_studies.csv
+Patches the local master: ~/Desktop/Archive/aberdeen-group-archive/_master_studies.csv
 
 Safety: same pattern as apply_pub_year_v6.py — backup, dry-run by default,
 parity check, atomic swap.
@@ -65,7 +65,7 @@ def find_master_studies(explicit: str | None) -> Path | None:
         p = Path(env).expanduser().resolve()
         if p.exists():
             return p
-    p = Path.home() / "Desktop" / "Archive" / "archive_masters" / "_master_studies.csv"
+    p = Path.home() / "Desktop" / "Archive" / "aberdeen-group-archive" / "_master_studies.csv"
     return p.resolve() if p.exists() else None
 
 

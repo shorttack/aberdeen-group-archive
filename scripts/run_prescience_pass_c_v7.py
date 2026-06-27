@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 """
-Pass C Cloud Prescience Scoring — v6
+Pass C Cloud Prescience Scoring — v7
 
+Successor to v6. ONLY change vs v6: repoint MASTERS from the retired
+`~/Desktop/Archive/archive_masters/` directory to the live masters location
+`~/Desktop/Archive/aberdeen-group-archive/` (masters moved to repo root
+2026-06-24). SCORER_VERSION bumped v6 -> v7. All scope/resume/prompt logic
+is byte-identical to v6.
+
+--- v6 changes (carried forward) ---
 Successor to v5. Key changes:
   • Scope expanded from 492 "prepared" studies to ALL unscored observations
     across the master_observations file (or arbitrary --input-manifest CSV).
@@ -22,7 +29,8 @@ Versioning history:
   v1=local Qwen attempts; v2=κ=0.853 cloud baseline; v3=multi-model calibration;
   v4=local 27b-mlx production (failed); v4.1/v4.2=35b-mlx test (failed);
   v5=first cloud production runner (492 prepared studies); v6=expanded scope
-  + master-aware resume.
+  + master-aware resume; v7=MASTERS path fix (archive_masters retired ->
+  aberdeen-group-archive repo root).
 
 Usage:
   # Calibration: 100 obs
@@ -59,7 +67,7 @@ except ImportError:
 # ---- Configuration ----------------------------------------------------------
 
 ARCH = Path.home() / "Desktop" / "Archive"
-MASTERS = ARCH / "archive_masters"
+MASTERS = ARCH / "aberdeen-group-archive"
 LOGS = ARCH / "logs"
 
 MASTER_OBS = MASTERS / "_master_observations.csv"
@@ -69,13 +77,13 @@ MASTER_PRESCIENCE = MASTERS / "_master_prescience_scores.csv"
 API_URL = "https://api.perplexity.ai/chat/completions"
 MODEL = "sonar-reasoning-pro"
 MODEL_TAG = "sonar-reasoning-pro"
-SCORER_VERSION = "v6"
+SCORER_VERSION = "v7"
 SOURCE_PASS_API = "pass_c_sonar_v1"
 SOURCE_PASS_PREFILTER = "pass_c_prefilter_v1"
 
-REQUEST_TIMEOUT = 120
+REQUEST_TIMEOUT = 60
 SLEEP_BETWEEN = 0.3
-MAX_RETRIES = 5
+MAX_RETRIES = 3
 RETRY_BACKOFF = 3.0
 
 # Output schema matches _master_prescience_scores.csv exactly
@@ -217,7 +225,7 @@ def score_obs(api_key: str, row: dict, study_title: str) -> dict:
                 "parse_ok": "true",
                 "raw_response": content,
             }
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError, KeyError, ValueError) as e:
+        except (urllib.error.HTTPError, urllib.error.URLError, json.JSONDecodeError, KeyError, ValueError) as e:
             last_err = e
             if attempt < MAX_RETRIES - 1:
                 time.sleep(RETRY_BACKOFF * (2 ** attempt))

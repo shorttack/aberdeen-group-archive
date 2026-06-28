@@ -3898,3 +3898,72 @@ PHASE_B_VERIFY_OK
 - Do not use `~/Desktop/Archive/archive_masters/` for masters edits. Repo root `~/Desktop/Archive/aberdeen-group-archive/` is canonical.
 - Full Phase 3+5 refresh remains a future task if additional rebuttals are added and need embeddings refreshed globally. Today only the Plaza study page and existing rebuttal note were corrected.
 - Untracked bycatch in both repos remains intentionally excluded from EOD commits.
+
+---
+
+## 2026-06-27 EOD — PC-Deals `-mx` v2 model-extraction: Pass C scoring + 13 verdicts written
+
+### What shipped
+
+The 13 PC-Deals `-mx` (v2 agent-as-extraction-brain) studies, staged into the masters earlier this session, were scored through Pass C and given prescience verdicts. Three master CSVs changed plus the staged `-mx` package data (studies/observations/entities/technologies).
+
+### Pass C v7 run
+
+- Built + shipped `scripts/run_prescience_pass_c_v7.py` — line-62 path fix over the stale v6-copy that had been sitting in the repo mislabeled as "v7". `MASTERS = aberdeen-group-archive` (repo root), `SCORER_VERSION = v7`. Supports `--input-manifest / --output / --dry-run / --limit`; scores all unscored unless a manifest scopes it; skips not-applicable studies.
+- Built + shipped `scripts/build_mx_pass_c_manifest_v1.py` — emitted 166 scorable `-mx` observations across the 13 studies (559 obs in 37 not-applicable studies correctly excluded).
+- Full batch: **166 obs scored, 162 parse_ok, 4 parse-fail.** Output `pass_c_v7_mx_tier.csv` (166 rows, scorer_version=v7, source_pass=pass_c_sonar_v1). Score distribution: `-1:4, 0:89, 1:3, 2:8, 3:25, 4:32, 5:5`. Assessable (1–5): 73/166 (44%) — the large 0-bucket is expected for a market-pricing corpus.
+
+### Verdict rule (LOCKED 2026-06-27 — supersedes Rule A for the -mx tier)
+
+```
+used = integer scores 1..5 only   # EXCLUDES 0, -1, blanks, any sentinel < 1
+no min-count gate
+mean(used) >= 3.5  -> high
+mean(used) >= 2.0  -> medium
+0 < mean(used) < 2.0 -> low
+no assessable obs   -> not-applicable
+```
+
+Pivotal correction: **score 0 = "cannot assess" (vague / market-data fact / unknowable) per the rubric, NOT a failed prediction.** Excluding 0 from the mean is what separates genuine predictions from descriptive facts. This DIFFERS from the pipeline's Rule A (`used = scores != -1`, which counts 0s). For the `-mx` tier and going forward on prediction-vs-fact corpora, the score-0 exclusion is canonical. No min-count gate per Pete: weekly PC Deals bulletins cannot be held to a high observation floor without "setting up for failure." Every rationale discloses its denominator (n assessable / n market-data-zero / n parse-fail).
+
+### Master writes
+
+- `scripts/promote_mx_to_master_v2.py` (12-col-aware; preserves `row_class` — the legacy 11-col `promote_pass_c_to_master_v1.py` would have dropped it). `_master_prescience_scores.csv`: **17085 → 17251** rows (+166, 0 dupes). New row_class dist {scored:162, parse_fail:4}. Backup `_master_prescience_scores.csv.bak_promote_mx_20260628T000604Z`. Read-back parity PASS.
+- `scripts/write_mx_verdicts_to_studies_v1.py` — computed enum → `prescience`; authored `prescience_rationale` preserved verbatim with a dated Pass C v7 audit note APPENDED (idempotency guard on the date string). **13 studies touched, 7 enums changed:**
+  - medium → high (4): business-2003-03-17-pc-deals (3.57), weekly-2002-10-27 (3.50), weekly-2002-11-03 (3.50/n2). *(weekly-2002-11-17 already authored high.)*
+  - high → medium (3): intel-processor-prices (3.29), pc-replacement-insight1 (3.30), weekly-2002-11-14-p4-ht (3.00).
+  - unchanged (6): apple-g5, centrino, weekly-2002-11-17, weekly-2002-12-22, weekly-2003-01-05, weekly-2003-01-19, why-aberdeen.
+  - Backup `_master_studies.csv.bak_mx_verdicts_20260628T000606Z`. Read-back parity PASS.
+
+### v1-vs-v2 comparison (5 studies scored both ways)
+
+| Study | v1 (A-side) | v2 (-mx) | Δ |
+|---|---|---|---|
+| traveling-with-centrino-2003-05 | high (3.50 / n2 / z11) | high (4.00 / n7 / z4) | agree, stronger base |
+| apple-powermac-g5-2003-06 | high (4.67 / n6 / z8) | medium (3.14 / n7 / z8) | high → medium |
+| intel-processor-prices-2003-01 | high (4.00 / n3 / z11) | medium (3.29 / n7 / z4) | high → medium |
+| pc-replacement-insight1-2003-04 | high (3.75 / n8 / z7) | medium (3.30 / n10 / z1) | high → medium |
+| why-aberdeen-follows-pc-deals-2002 | high (3.80 / n5 / z12) | medium (3.38 / n13 / z1) | high → medium |
+
+Three findings: (1) **coverage win** — v2 produced first-ever Pass C verdicts for 8 of 13 studies (the weeklies + business-deals) the A-side never scored; (2) **false-positive correction** — v1 rated all 5 comparable studies "high" by scoring market-data facts as predictions (apple-g5: high on a 6-obs base padded with high-scoring facts; why-aberdeen: 5 assessable vs 12 market-data zeros); v2's typed extraction parks facts at 0 and corrects 3 of 5 to medium; (3) **prediction-yield increase** — v2's assessable base grows 1.25–3.5× (centrino 2→7, why-aberdeen 5→13, intel 3→7). Conclusion: v2-lower = correction + expansion, NOT regression. Verdict quality up even where the label moved down.
+
+### Architecture note — sync step obsolete
+
+Since the masters moved to repo root (2026-06-24), `sync_studies_verdicts_repo_from_archive_masters_v2.py` is dead: its source path `~/Desktop/Archive/archive_masters/_master_studies.csv` no longer exists (verified absent this session). The verdict-write script writes the canonical+repo copy directly. No sync needed; do not run that script.
+
+### Shape audit
+
+**NOT captured this session** — the live DuckDB read was blocked from the agent sandbox, and the Phase 1/2 rebuild has NOT run, so `v_studies` still reflects the pre-`-mx` state. CSV-level masters shape post-write: studies 1504 · observations 24715 · prescience-scores 17251 · entities/technologies updated by the `-mx` staging. The before/after DuckDB shape audit is the FIRST carry-forward action next session.
+
+### Carry-forward (next session, FIRST action)
+
+1. Shape audit (before): `duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "<canonical 7-metric query>"`.
+2. Phase 1: `01_load_csvs_v2.py --archive ~/Desktop/Archive/aberdeen-group-archive --wiki ~/Repos/kastner-aberdeen-wiki` (NOTE: `--archive` is the repo root, NOT the retired `archive_masters/`).
+3. Phase 2: `02_build_data_layer_v4.py --wiki ~/Repos/kastner-aberdeen-wiki`.
+4. Shape audit (after) — confirm +13 `-mx` studies surface and high-prescience count reflects the 4 new highs.
+5. Phases 3-6 + re-embed (Phase 5 ~14-15 min) so `kw ask` reflects the new studies + verdicts.
+6. Backlog (deferred per Pete): full unscored Pass C sweep (~4,514 pre-existing obs never scored).
+
+### Scripts shipped this session (repo `scripts/`)
+
+`run_prescience_pass_c_v7.py`, `build_mx_pass_c_manifest_v1.py`, `compute_mx_verdicts_v1.py`, `promote_mx_to_master_v2.py`, `write_mx_verdicts_to_studies_v1.py`. Verdict rule + v1-vs-v2 analysis captured in the comparison report delivered in-chat.

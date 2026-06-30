@@ -1,0 +1,37 @@
+{
+  "title": "Kastner IT Research Archive",
+  "version": "2.0",
+  "upload_type": "dataset",
+  "description": "<p>A structured archive of research studies, articles, memoirs, expert reports, and related artifacts spanning 1979\u20132026, centered on the work of Peter S. Kastner at Aberdeen Group, Arthur D. Little, Philip Hankins Inc. (PHI) Computer Services / Wang, Digital Equipment Corporation, Stratus Computer, Prime Computer, and Obian Group, plus contributions from other Aberdeen analysts.</p><p>Every study is packaged as a self-contained Frictionless Data Package with structured CSV tables (studies, entities, technologies, observations, codes), a datapackage.json descriptor, a Schema.org dataset descriptor, and a human-readable README. The archive is fully audited at three layers (per-study referential integrity, CSV write validation, cross-study cache integrity) with zero failures.</p><p>v2.0 \u2014 \"Full-Corpus Multi-Horizon Prescience\": 1,504 studies, 24,842 observations, 3,293 entity rows, 4,376 technology rows, 876 high-prescience studies. Adds full-corpus 3-year and 5-year prescience reads (17,030-row short-horizon master; 792 studies with 3y/5y verdicts), the v9 confabulation fix (window-not-elapsed sentinel), and PC Deals per-SKU price journeys (249 SKU journeys).</p>",
+  "creators": [
+    {
+      "name": "Kastner, Peter S.",
+      "affiliation": "Aberdeen Group (1988-2007); previously DEC, Stratus Computer, Prime Computer, Arthur D. Little, PHI Computer Services, Obian Group"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Aberdeen Group",
+    "technology research",
+    "market analysis",
+    "frictionless data",
+    "prescience scoring",
+    "multi-horizon prescience",
+    "enterprise computing history",
+    "Peter Kastner"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shorttack/aberdeen-group-archive",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/shorttack/kastner-aberdeen-wiki",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

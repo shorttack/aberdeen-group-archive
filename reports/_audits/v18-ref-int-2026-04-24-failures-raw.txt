@@ -1,0 +1,2748 @@
+LAYER A failures (by study)
+==============================================================================
+
+kastner-author/1988-encore-oltp-market-tps-needs-deee45
+  obs[o88-001] observation_type='strategy-classification' not in codes.csv
+  obs[o88-002] observation_type='market-data' not in codes.csv
+  obs[o88-003] observation_type='market-data' not in codes.csv
+  obs[o88-004] observation_type='benchmark-result' not in codes.csv
+  obs[o88-005] observation_type='benchmark-result' not in codes.csv
+  obs[o88-006] observation_type='strategy-classification' not in codes.csv
+  obs[o88-007] observation_type='benchmark-result' not in codes.csv
+  obs[o88-008] observation_type='viability-prediction' not in codes.csv
+  obs[o88-009] observation_type='actual-outcome' not in codes.csv
+  obs[o88-010] observation_type='market-data' not in codes.csv
+  obs[o88-011] observation_type='market-data' not in codes.csv
+  obs[o88-012] observation_type='market-data' not in codes.csv
+  obs[o88-013] observation_type='benchmark-result' not in codes.csv
+  obs[o88-014] observation_type='technology-assessment' not in codes.csv
+  obs[o88-015] observation_type='viability-prediction' not in codes.csv
+  obs[o88-016] observation_type='technology-assessment' not in codes.csv
+  obs[o88-017] observation_type='technology-assessment' not in codes.csv
+  obs[o88-018] observation_type='technology-assessment' not in codes.csv
+  obs[o88-019] observation_type='benchmark-result' not in codes.csv
+  obs[o88-020] observation_type='framework-factor' not in codes.csv
+
+kastner-author/1989-vidmar-as400-hp3000-and-metadata-a32d04
+  obs[o89-001] observation_type='technology-assessment' not in codes.csv
+  obs[o89-002] observation_type='benchmark-result' not in codes.csv
+  obs[o89-003] observation_type='benchmark-result' not in codes.csv
+  obs[o89-004] observation_type='strategy-classification' not in codes.csv
+  obs[o89-005] observation_type='strategy-classification' not in codes.csv
+  obs[o89-006] observation_type='expert-opinion' not in codes.csv
+  obs[o89-007] observation_type='technology-assessment' not in codes.csv
+  obs[o89-008] observation_type='technology-assessment' not in codes.csv
+  obs[o89-009] observation_type='strategy-classification' not in codes.csv
+  obs[o89-010] observation_type='strategy-classification' not in codes.csv
+  obs[o89-011] observation_type='technology-assessment' not in codes.csv
+  obs[o89-012] observation_type='technology-assessment' not in codes.csv
+  obs[o89-013] observation_type='viability-prediction' not in codes.csv
+  obs[o89-014] observation_type='actual-outcome' not in codes.csv
+  obs[o89-015] observation_type='actual-outcome' not in codes.csv
+  obs[o89-016] observation_type='actual-outcome' not in codes.csv
+  obs[o89-017] observation_type='actual-outcome' not in codes.csv
+  obs[o89-018] observation_type='benchmark-result' not in codes.csv
+  obs[o89-019] observation_type='technology-assessment' not in codes.csv
+  obs[o89-020] observation_type='technology-assessment' not in codes.csv
+
+kastner-author/1990-bull-rdbms-1990-and-2024-metadata-fe61bf
+  obs[o90-001] observation_type='expert-opinion' not in codes.csv
+  obs[o90-002] observation_type='technology-assessment' not in codes.csv
+  obs[o90-003] observation_type='technology-assessment' not in codes.csv
+  obs[o90-004] observation_type='strategy-classification' not in codes.csv
+  obs[o90-005] observation_type='strategy-classification' not in codes.csv
+  obs[o90-006] observation_type='technology-assessment' not in codes.csv
+  obs[o90-007] observation_type='technology-assessment' not in codes.csv
+  obs[o90-008] observation_type='technology-assessment' not in codes.csv
+  obs[o90-009] observation_type='expert-opinion' not in codes.csv
+  obs[o90-010] observation_type='technology-assessment' not in codes.csv
+  obs[o90-011] observation_type='viability-prediction' not in codes.csv
+  obs[o90-012] observation_type='actual-outcome' not in codes.csv
+  obs[o90-013] observation_type='actual-outcome' not in codes.csv
+  obs[o90-014] observation_type='technology-assessment' not in codes.csv
+  obs[o90-015] observation_type='technology-assessment' not in codes.csv
+  obs[o90-016] observation_type='actual-outcome' not in codes.csv
+  obs[o90-017] observation_type='actual-outcome' not in codes.csv
+  obs[o90-018] observation_type='technology-assessment' not in codes.csv
+  obs[o90-019] observation_type='technology-assessment' not in codes.csv
+  obs[o90-020] observation_type='expert-opinion' not in codes.csv
+
+kastner-author/1991-apple-c-s-e9ffd7
+  obs[o91-001] observation_type='market-data' not in codes.csv
+  obs[o91-002] observation_type='viability-prediction' not in codes.csv
+  obs[o91-003] observation_type='actual-outcome' not in codes.csv
+  obs[o91-004] observation_type='market-data' not in codes.csv
+  obs[o91-005] observation_type='strategy-classification' not in codes.csv
+  obs[o91-006] observation_type='actual-outcome' not in codes.csv
+  obs[o91-007] observation_type='benchmark-result' not in codes.csv
+  obs[o91-008] observation_type='market-data' not in codes.csv
+  obs[o91-009] observation_type='technology-assessment' not in codes.csv
+  obs[o91-010] observation_type='technology-assessment' not in codes.csv
+  obs[o91-011] observation_type='benchmark-result' not in codes.csv
+  obs[o91-012] observation_type='technology-assessment' not in codes.csv
+  obs[o91-013] observation_type='strategy-classification' not in codes.csv
+  obs[o91-014] observation_type='strategy-classification' not in codes.csv
+  obs[o91-015] observation_type='expert-opinion' not in codes.csv
+  obs[o91-016] observation_type='expert-opinion' not in codes.csv
+  obs[o91-017] observation_type='expert-opinion' not in codes.csv
+  obs[o91-018] observation_type='strategy-classification' not in codes.csv
+  obs[o91-019] observation_type='strategy-classification' not in codes.csv
+  obs[o91-020] observation_type='strategy-classification' not in codes.csv
+  obs[o91-021] observation_type='technology-assessment' not in codes.csv
+  obs[o91-022] observation_type='technology-assessment' not in codes.csv
+  obs[o91-023] observation_type='expert-opinion' not in codes.csv
+  obs[o91-024] observation_type='technology-assessment' not in codes.csv
+  obs[o91-025] observation_type='actual-outcome' not in codes.csv
+
+kastner-author/1997-dynaflo-systems----e-mail-for-the-b-854582
+  obs[OBS-DYF-001] observation_type='market-data' not in codes.csv
+  obs[OBS-DYF-002] observation_type='market-data' not in codes.csv
+  obs[OBS-DYF-003] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-DYF-004] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DYF-005] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DYF-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-011] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-013] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-015] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-016] observation_type='actual-outcome' not in codes.csv
+
+kastner-author/1998-hp-high-availability-and-metadata-7d1276
+  obs[OBS-001] observation_type='market-data' not in codes.csv
+  obs[OBS-002] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-004] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-005] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-006] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-008] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-010] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-011] observation_type='market-data' not in codes.csv
+  obs[OBS-012] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-013] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-017] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-018] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-021] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-022] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-023] observation_type='market-data' not in codes.csv
+  obs[OBS-024] observation_type='market-data' not in codes.csv
+  obs[OBS-026] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-027] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-034] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-035] observation_type='market-data' not in codes.csv
+
+kastner-author/1998-pc-impact-and-metadata-e2a169
+  obs[OBS-001] observation_type='market-data' not in codes.csv
+  obs[OBS-002] observation_type='market-data' not in codes.csv
+  obs[OBS-003] observation_type='market-data' not in codes.csv
+  obs[OBS-004] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-005] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-006] observation_type='market-data' not in codes.csv
+  obs[OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-009] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-011] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-012] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-013] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-014] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-015] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-016] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-017] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-018] observation_type='market-data' not in codes.csv
+  obs[OBS-019] observation_type='market-data' not in codes.csv
+  obs[OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-022] observation_type='market-data' not in codes.csv
+  obs[OBS-023] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-024] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-025] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-026] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-027] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-028] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-029] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-030] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-031] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-032] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-033] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-034] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-035] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-036] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-037] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-038] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-039] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-040] observation_type='market-data' not in codes.csv
+  obs[OBS-041] observation_type='market-data' not in codes.csv
+
+kastner-author/2002-webex--taking-conferencing-to-the-summit-05f195
+  obs[obs-001] observation_type='market-data' not in codes.csv
+  obs[obs-002] observation_type='market-data' not in codes.csv
+  obs[obs-003] observation_type='market-data' not in codes.csv
+  obs[obs-004] observation_type='technology-assessment' not in codes.csv
+  obs[obs-005] observation_type='technology-assessment' not in codes.csv
+  obs[obs-006] observation_type='framework-factor' not in codes.csv
+  obs[obs-007] observation_type='framework-factor' not in codes.csv
+  obs[obs-008] observation_type='framework-factor' not in codes.csv
+  obs[obs-009] observation_type='framework-factor' not in codes.csv
+  obs[obs-010] observation_type='framework-factor' not in codes.csv
+  obs[obs-011] observation_type='market-data' not in codes.csv
+  obs[obs-012] observation_type='market-data' not in codes.csv
+  obs[obs-013] observation_type='strategy-classification' not in codes.csv
+  obs[obs-014] observation_type='market-data' not in codes.csv
+  obs[obs-015] observation_type='expert-opinion' not in codes.csv
+  obs[obs-016] observation_type='expert-opinion' not in codes.csv
+  obs[obs-017] observation_type='technology-assessment' not in codes.csv
+  obs[obs-018] observation_type='technology-assessment' not in codes.csv
+  obs[obs-019] observation_type='technology-assessment' not in codes.csv
+  obs[obs-020] observation_type='technology-assessment' not in codes.csv
+  obs[obs-021] observation_type='technology-assessment' not in codes.csv
+  obs[obs-022] observation_type='technology-assessment' not in codes.csv
+  obs[obs-023] observation_type='technology-assessment' not in codes.csv
+  obs[obs-024] observation_type='technology-assessment' not in codes.csv
+  obs[obs-025] observation_type='market-data' not in codes.csv
+  obs[obs-026] observation_type='viability-prediction' not in codes.csv
+  obs[obs-027] observation_type='viability-prediction' not in codes.csv
+  obs[obs-028] observation_type='actual-outcome' not in codes.csv
+  obs[obs-029] observation_type='actual-outcome' not in codes.csv
+  obs[obs-030] observation_type='actual-outcome' not in codes.csv
+  obs[obs-031] observation_type='actual-outcome' not in codes.csv
+  obs[obs-032] observation_type='actual-outcome' not in codes.csv
+  obs[obs-033] observation_type='actual-outcome' not in codes.csv
+  obs[obs-034] observation_type='actual-outcome' not in codes.csv
+  obs[obs-035] observation_type='actual-outcome' not in codes.csv
+  obs[obs-036] observation_type='actual-outcome' not in codes.csv
+
+kastner-author/2003-intel-consumer-lt-10-5-8c346e
+  obs[OBS-028] observation_type='prescience-vindication' not in codes.csv
+
+kastner-author/aberdeen-1995-universal-servers-rdbms-technology-next-decade
+  obs[aberdeen-1995-universal-servers-rdbms-technology-next-decade-OBS-018] observation_type='framework-factor' not in codes.csv
+
+kastner-author/aberdeenmaxtortooldemo-03-2-5a8f38
+  obs[aberdeenmaxtortooldemo-03-2-5a8f38-004] entity_id='adobe-flash-swf' not in entities.csv
+
+kastner-author/inforx95-3-9a45fe
+  obs[inforx95-3-9a45fe-015] entity_id='computer-associates' not in entities.csv
+  obs[inforx95-3-9a45fe-016] entity_id='computer-associates' not in entities.csv
+
+kastner-author/otellini-intel-techpinions-2013-917213
+  obs[otellini-intel-techpinions-2013-917213-OBS-012] tech_id='wind-river' not in technologies.csv
+  obs[otellini-intel-techpinions-2013-917213-OBS-013] tech_id='mcafee' not in technologies.csv
+  obs[otellini-intel-techpinions-2013-917213-OBS-014] tech_id='infineon' not in technologies.csv
+
+kastner-author/soa-aon-webinar-022206a-125e6b
+  obs[soa-aon-webinar-022206a-125e6b-OBS-001] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-002] observation_type='viability-prediction' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-003] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-004] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-005] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-006] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-007] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-008] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-009] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-010] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-011] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-012] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-013] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-014] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-015] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-016] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-017] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-018] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-019] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-020] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-021] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-022] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-023] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-024] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-025] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-026] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-027] observation_type='benchmark-result' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-028] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-029] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-030] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-031] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-032] observation_type='expert-opinion' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-033] observation_type='expert-opinion' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-034] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-035] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-036] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-037] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-038] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-039] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-040] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-041] observation_type='technology-assessment' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-042] observation_type='framework-factor' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-043] observation_type='framework-factor' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-044] observation_type='framework-factor' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-045] observation_type='technology-assessment' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-046] observation_type='expert-opinion' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-047] observation_type='technology-assessment' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-048] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-049] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-050] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-051] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-052] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-053] observation_type='market-data' not in codes.csv
+  obs[soa-aon-webinar-022206a-125e6b-OBS-054] observation_type='market-data' not in codes.csv
+
+other-authors/1997-commercial-risc-unix-1996-mvp-711569
+  obs[OBS-001] observation_type='market-data' not in codes.csv
+  obs[OBS-002] observation_type='market-data' not in codes.csv
+  obs[OBS-003] observation_type='market-data' not in codes.csv
+  obs[OBS-004] observation_type='market-data' not in codes.csv
+  obs[OBS-005] observation_type='market-data' not in codes.csv
+  obs[OBS-006] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-007] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-008] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-009] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-010] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-011] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-012] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-013] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-017] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-018] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-021] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-022] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-023] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-024] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-025] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-027] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-028] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-029] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-030] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-031] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-032] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-033] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-034] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-035] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-crm-siebel-systems-pr-569e52
+  obs[OBS-SB-001] observation_type='market-data' not in codes.csv
+  obs[OBS-SB-002] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-SB-003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-SB-004] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-005] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-006] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-007] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-013] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-SB-014] observation_type='market-data' not in codes.csv
+  obs[OBS-SB-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-SB-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-017] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-018] observation_type='market-data' not in codes.csv
+  obs[OBS-SB-019] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-SB-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-022] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SB-023] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-SB-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SB-025] observation_type='market-data' not in codes.csv
+
+other-authors/1997-data-integration-management-in-hete-de2429
+  obs[OBS-001] observation_type='market-data' not in codes.csv
+  obs[OBS-002] observation_type='market-data' not in codes.csv
+  obs[OBS-003] observation_type='market-data' not in codes.csv
+  obs[OBS-004] observation_type='market-data' not in codes.csv
+  obs[OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-010] observation_type='framework-factor' not in codes.csv
+  obs[OBS-011] observation_type='framework-factor' not in codes.csv
+  obs[OBS-012] observation_type='framework-factor' not in codes.csv
+  obs[OBS-013] observation_type='framework-factor' not in codes.csv
+  obs[OBS-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-020] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-026] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-027] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-028] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-data-mining-buying-guide-71e463
+  obs[OBS-001] observation_type='framework-factor' not in codes.csv
+  obs[OBS-002] observation_type='framework-factor' not in codes.csv
+  obs[OBS-003] observation_type='framework-factor' not in codes.csv
+  obs[OBS-004] observation_type='framework-factor' not in codes.csv
+  obs[OBS-005] observation_type='framework-factor' not in codes.csv
+  obs[OBS-006] observation_type='framework-factor' not in codes.csv
+  obs[OBS-007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-012] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-013] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-027] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-028] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-029] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-030] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-datafocus'-nutcracker--enterprise-c-bfc11e
+  obs[OBS-001] observation_type='market-data' not in codes.csv
+  obs[OBS-002] observation_type='market-data' not in codes.csv
+  obs[OBS-003] observation_type='market-data' not in codes.csv
+  obs[OBS-004] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-005] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-006] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-007] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-008] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-009] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-010] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-011] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-012] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-013] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-021] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-027] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-028] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-029] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-030] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-datareach--finding-business-value-i-34f0a6
+  obs[OBS-DR-001] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-DR-002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DR-003] observation_type='market-data' not in codes.csv
+  obs[OBS-DR-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DR-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DR-006] observation_type='market-data' not in codes.csv
+  obs[OBS-DR-007] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DR-008] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DR-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DR-010] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-dec-linkworks-webworker---an-object-db2d2a
+  obs[OBS-001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-008] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-009] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-010] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-011] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-012] observation_type='framework-factor' not in codes.csv
+  obs[OBS-013] observation_type='framework-factor' not in codes.csv
+  obs[OBS-014] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-015] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-016] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-019] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-020] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-025] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-026] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-027] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-028] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-desktop-and-systems-management-the--169a9b
+  obs[OBS-HP-001] observation_type='market-data' not in codes.csv
+  obs[OBS-HP-002] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-HP-003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-HP-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-007] observation_type='market-data' not in codes.csv
+  obs[OBS-HP-008] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-HP-009] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-HP-010] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-HP-011] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-HP-012] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-HP-013] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-014] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-015] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-HP-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-017] observation_type='framework-factor' not in codes.csv
+  obs[OBS-HP-018] observation_type='framework-factor' not in codes.csv
+  obs[OBS-HP-019] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-020] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-021] observation_type='market-data' not in codes.csv
+  obs[OBS-HP-022] observation_type='market-data' not in codes.csv
+  obs[OBS-HP-023] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-HP-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-HP-025] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-dev-expanding-universes-for-busines-c42c71
+  obs[OBS-BO-001] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-002] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-003] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-004] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-005] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-006] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-007] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-008] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-009] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-BO-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-BO-012] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-BO-013] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-014] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-015] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-BO-016] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-BO-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-BO-018] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-BO-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-BO-020] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-BO-021] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-BO-022] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-BO-023] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-024] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-BO-025] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-BO-026] observation_type='market-data' not in codes.csv
+  obs[OBS-BO-027] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-BO-028] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-BO-029] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-BO-030] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-dialogic-ct-media-sets-the-pace-for-440d5e
+  obs[OBS-S1-001] observation_type='market-data' not in codes.csv
+  obs[OBS-S1-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S1-003] observation_type='market-data' not in codes.csv
+  obs[OBS-S1-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-010] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S1-011] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S1-012] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S1-013] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S1-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S1-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S1-016] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-020] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-025] observation_type='market-data' not in codes.csv
+
+other-authors/1997-digital-equipment-corporation-pr-c375a8
+  obs[OBS-S3-001] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-003] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S3-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-009] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S3-010] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S3-011] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S3-012] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S3-013] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S3-014] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S3-015] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S3-016] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S3-017] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-022] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-027] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-028] observation_type='market-data' not in codes.csv
+
+other-authors/1997-digital-ramps-up-for-the-leadership-fb5854
+  obs[OBS-S4-001] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S4-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S4-003] observation_type='market-data' not in codes.csv
+  obs[OBS-S4-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-011] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S4-012] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S4-013] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S4-014] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S4-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S4-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S4-017] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S4-018] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S4-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-021] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-022] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-027] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-028] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-digital-s-terabyte-hour-nonstop-vld-ce92ca
+  obs[OBS-S5-001] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S5-002] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S5-003] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S5-004] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-005] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-006] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-011] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-012] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-013] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-014] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-015] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S5-017] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S5-018] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S5-019] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-021] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-022] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-023] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-024] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-026] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-027] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-028] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-029] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-030] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-distributed-object-technology--dead-3cf2d1
+  obs[OBS-DOT-001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DOT-002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DOT-003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DOT-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DOT-005] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DOT-006] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DOT-007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DOT-008] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-DOT-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DOT-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DOT-011] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DOT-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DOT-013] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DOT-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DOT-015] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-dw-competitive-advantage-through-pr-b307c7
+  obs[OBS-PS-001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-PS-002] observation_type='market-data' not in codes.csv
+  obs[OBS-PS-003] observation_type='market-data' not in codes.csv
+  obs[OBS-PS-004] observation_type='market-data' not in codes.csv
+  obs[OBS-PS-005] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-PS-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-011] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-PS-012] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-PS-013] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-PS-014] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-PS-015] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-017] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-PS-018] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-PS-019] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-PS-020] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-PS-021] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-PS-022] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-PS-023] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-PS-024] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-PS-025] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-PS-026] observation_type='framework-factor' not in codes.csv
+  obs[OBS-PS-027] observation_type='framework-factor' not in codes.csv
+  obs[OBS-PS-028] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-PS-029] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-PS-030] observation_type='market-data' not in codes.csv
+
+other-authors/1997-dynaflo-systems----e-mail-for-the-b-854582
+  obs[OBS-DYF-001] observation_type='market-data' not in codes.csv
+  obs[OBS-DYF-002] observation_type='market-data' not in codes.csv
+  obs[OBS-DYF-003] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-DYF-004] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DYF-005] observation_type='framework-factor' not in codes.csv
+  obs[OBS-DYF-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-DYF-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-011] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-013] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-DYF-015] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-DYF-016] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-electronic-commerce-to-internet-com-b26a35
+  obs[OBS-EC-001] observation_type='market-data' not in codes.csv
+  obs[OBS-EC-002] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-EC-003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-EC-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-EC-005] observation_type='framework-factor' not in codes.csv
+  obs[OBS-EC-006] observation_type='framework-factor' not in codes.csv
+  obs[OBS-EC-007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-EC-008] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-EC-009] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-EC-010] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-EC-011] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-EC-012] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-EC-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-EC-014] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-forte-enterprise-development-enviro-a07cf9
+  obs[o1-01] observation_type='technology-assessment' not in codes.csv
+  obs[o1-02] observation_type='market-data' not in codes.csv
+  obs[o1-03] observation_type='market-data' not in codes.csv
+  obs[o1-04] observation_type='market-data' not in codes.csv
+  obs[o1-05] observation_type='technology-assessment' not in codes.csv
+  obs[o1-06] observation_type='technology-assessment' not in codes.csv
+  obs[o1-07] observation_type='technology-assessment' not in codes.csv
+  obs[o1-08] observation_type='technology-assessment' not in codes.csv
+  obs[o1-09] observation_type='viability-prediction' not in codes.csv
+  obs[o1-10] observation_type='viability-prediction' not in codes.csv
+  obs[o1-11] observation_type='viability-prediction' not in codes.csv
+  obs[o1-12] observation_type='actual-outcome' not in codes.csv
+  obs[o1-13] observation_type='actual-outcome' not in codes.csv
+  obs[o1-14] observation_type='framework-factor' not in codes.csv
+  obs[o1-15] observation_type='framework-factor' not in codes.csv
+  obs[o1-16] observation_type='technology-assessment' not in codes.csv
+  obs[o1-17] observation_type='strategy-classification' not in codes.csv
+  obs[o1-18] observation_type='actual-outcome' not in codes.csv
+  obs[o1-19] observation_type='technology-assessment' not in codes.csv
+  obs[o1-20] observation_type='technology-assessment' not in codes.csv
+
+other-authors/1997-hewlett-packard-s-strategy-to-surpa-905013
+  obs[o3-01] observation_type='market-data' not in codes.csv
+  obs[o3-02] observation_type='market-data' not in codes.csv
+  obs[o3-03] observation_type='market-data' not in codes.csv
+  obs[o3-04] observation_type='benchmark-result' not in codes.csv
+  obs[o3-05] observation_type='market-data' not in codes.csv
+  obs[o3-06] observation_type='market-data' not in codes.csv
+  obs[o3-07] observation_type='market-data' not in codes.csv
+  obs[o3-08] observation_type='strategy-classification' not in codes.csv
+  obs[o3-09] observation_type='strategy-classification' not in codes.csv
+  obs[o3-10] observation_type='strategy-classification' not in codes.csv
+  obs[o3-11] observation_type='viability-prediction' not in codes.csv
+  obs[o3-12] observation_type='viability-prediction' not in codes.csv
+  obs[o3-13] observation_type='viability-prediction' not in codes.csv
+  obs[o3-14] observation_type='viability-prediction' not in codes.csv
+  obs[o3-15] observation_type='actual-outcome' not in codes.csv
+  obs[o3-16] observation_type='actual-outcome' not in codes.csv
+  obs[o3-17] observation_type='actual-outcome' not in codes.csv
+  obs[o3-18] observation_type='actual-outcome' not in codes.csv
+  obs[o3-19] observation_type='actual-outcome' not in codes.csv
+  obs[o3-20] observation_type='actual-outcome' not in codes.csv
+  obs[o3-21] observation_type='framework-factor' not in codes.csv
+  obs[o3-22] observation_type='market-data' not in codes.csv
+  obs[o3-23] observation_type='strategy-classification' not in codes.csv
+
+other-authors/1997-hewlett-packard-v-class--providing--897f7a
+  obs[o2-01] observation_type='technology-assessment' not in codes.csv
+  obs[o2-02] observation_type='technology-assessment' not in codes.csv
+  obs[o2-03] observation_type='technology-assessment' not in codes.csv
+  obs[o2-04] observation_type='benchmark-result' not in codes.csv
+  obs[o2-05] observation_type='benchmark-result' not in codes.csv
+  obs[o2-06] observation_type='benchmark-result' not in codes.csv
+  obs[o2-07] observation_type='benchmark-result' not in codes.csv
+  obs[o2-08] observation_type='viability-prediction' not in codes.csv
+  obs[o2-09] observation_type='viability-prediction' not in codes.csv
+  obs[o2-10] observation_type='viability-prediction' not in codes.csv
+  obs[o2-11] observation_type='viability-prediction' not in codes.csv
+  obs[o2-12] observation_type='expert-opinion' not in codes.csv
+  obs[o2-13] observation_type='actual-outcome' not in codes.csv
+  obs[o2-14] observation_type='actual-outcome' not in codes.csv
+  obs[o2-15] observation_type='actual-outcome' not in codes.csv
+  obs[o2-16] observation_type='actual-outcome' not in codes.csv
+  obs[o2-17] observation_type='actual-outcome' not in codes.csv
+  obs[o2-18] observation_type='technology-assessment' not in codes.csv
+  obs[o2-19] observation_type='strategy-classification' not in codes.csv
+  obs[o2-20] observation_type='market-data' not in codes.csv
+  obs[o2-21] observation_type='technology-assessment' not in codes.csv
+
+other-authors/1997-ibm-application-development-product-895c4d
+  obs[o4-01] observation_type='technology-assessment' not in codes.csv
+  obs[o4-02] observation_type='technology-assessment' not in codes.csv
+  obs[o4-03] observation_type='technology-assessment' not in codes.csv
+  obs[o4-04] observation_type='technology-assessment' not in codes.csv
+  obs[o4-05] observation_type='technology-assessment' not in codes.csv
+  obs[o4-06] observation_type='technology-assessment' not in codes.csv
+  obs[o4-07] observation_type='strategy-classification' not in codes.csv
+  obs[o4-08] observation_type='expert-opinion' not in codes.csv
+  obs[o4-09] observation_type='viability-prediction' not in codes.csv
+  obs[o4-10] observation_type='viability-prediction' not in codes.csv
+  obs[o4-11] observation_type='benchmark-result' not in codes.csv
+  obs[o4-12] observation_type='benchmark-result' not in codes.csv
+  obs[o4-13] observation_type='actual-outcome' not in codes.csv
+  obs[o4-14] observation_type='actual-outcome' not in codes.csv
+  obs[o4-15] observation_type='actual-outcome' not in codes.csv
+  obs[o4-16] observation_type='actual-outcome' not in codes.csv
+  obs[o4-17] observation_type='actual-outcome' not in codes.csv
+  obs[o4-18] observation_type='framework-factor' not in codes.csv
+  obs[o4-19] observation_type='technology-assessment' not in codes.csv
+  obs[o4-20] observation_type='market-data' not in codes.csv
+
+other-authors/1997-ibm-business-intelligence-family-pr-43c37e
+  obs[o5-01] observation_type='framework-factor' not in codes.csv
+  obs[o5-02] observation_type='technology-assessment' not in codes.csv
+  obs[o5-03] observation_type='technology-assessment' not in codes.csv
+  obs[o5-04] observation_type='technology-assessment' not in codes.csv
+  obs[o5-05] observation_type='technology-assessment' not in codes.csv
+  obs[o5-06] observation_type='technology-assessment' not in codes.csv
+  obs[o5-07] observation_type='technology-assessment' not in codes.csv
+  obs[o5-08] observation_type='technology-assessment' not in codes.csv
+  obs[o5-09] observation_type='technology-assessment' not in codes.csv
+  obs[o5-10] observation_type='technology-assessment' not in codes.csv
+  obs[o5-11] observation_type='viability-prediction' not in codes.csv
+  obs[o5-12] observation_type='viability-prediction' not in codes.csv
+  obs[o5-13] observation_type='viability-prediction' not in codes.csv
+  obs[o5-14] observation_type='viability-prediction' not in codes.csv
+  obs[o5-15] observation_type='actual-outcome' not in codes.csv
+  obs[o5-16] observation_type='actual-outcome' not in codes.csv
+  obs[o5-17] observation_type='actual-outcome' not in codes.csv
+  obs[o5-18] observation_type='actual-outcome' not in codes.csv
+  obs[o5-19] observation_type='actual-outcome' not in codes.csv
+  obs[o5-20] observation_type='actual-outcome' not in codes.csv
+  obs[o5-21] observation_type='framework-factor' not in codes.csv
+  obs[o5-22] observation_type='technology-assessment' not in codes.csv
+  obs[o5-23] observation_type='technology-assessment' not in codes.csv
+  obs[o5-24] observation_type='technology-assessment' not in codes.csv
+
+other-authors/1997-ibm-extended-transaction-systems-fa-0369fa
+  obs[obs-ets-001] observation_type='market-data' not in codes.csv
+  obs[obs-ets-002] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-003] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-004] observation_type='market-data' not in codes.csv
+  obs[obs-ets-005] observation_type='market-data' not in codes.csv
+  obs[obs-ets-006] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-007] observation_type='framework-factor' not in codes.csv
+  obs[obs-ets-008] observation_type='strategy-classification' not in codes.csv
+  obs[obs-ets-009] observation_type='viability-prediction' not in codes.csv
+  obs[obs-ets-010] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-011] observation_type='viability-prediction' not in codes.csv
+  obs[obs-ets-012] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-013] observation_type='viability-prediction' not in codes.csv
+  obs[obs-ets-014] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-015] observation_type='viability-prediction' not in codes.csv
+  obs[obs-ets-016] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-017] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-018] observation_type='actual-outcome' not in codes.csv
+  obs[obs-ets-019] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-020] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-021] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-022] observation_type='strategy-classification' not in codes.csv
+  obs[obs-ets-023] observation_type='technology-assessment' not in codes.csv
+  obs[obs-ets-024] observation_type='expert-opinion' not in codes.csv
+  obs[obs-ets-025] observation_type='framework-factor' not in codes.csv
+
+other-authors/1997-ibm-information-integration-family--29351c
+  obs[obs-iif-001] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-002] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-003] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-004] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-005] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-006] observation_type='framework-factor' not in codes.csv
+  obs[obs-iif-007] observation_type='framework-factor' not in codes.csv
+  obs[obs-iif-008] observation_type='framework-factor' not in codes.csv
+  obs[obs-iif-009] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-010] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-011] observation_type='viability-prediction' not in codes.csv
+  obs[obs-iif-012] observation_type='actual-outcome' not in codes.csv
+  obs[obs-iif-013] observation_type='viability-prediction' not in codes.csv
+  obs[obs-iif-014] observation_type='actual-outcome' not in codes.csv
+  obs[obs-iif-015] observation_type='viability-prediction' not in codes.csv
+  obs[obs-iif-016] observation_type='actual-outcome' not in codes.csv
+  obs[obs-iif-017] observation_type='viability-prediction' not in codes.csv
+  obs[obs-iif-018] observation_type='actual-outcome' not in codes.csv
+  obs[obs-iif-019] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-020] observation_type='market-data' not in codes.csv
+  obs[obs-iif-021] observation_type='technology-assessment' not in codes.csv
+  obs[obs-iif-022] observation_type='strategy-classification' not in codes.csv
+  obs[obs-iif-023] observation_type='expert-opinion' not in codes.csv
+  obs[obs-iif-024] observation_type='market-data' not in codes.csv
+  obs[obs-iif-025] observation_type='technology-assessment' not in codes.csv
+
+other-authors/1997-ibm-s-enterprise-communications-fam-14559a
+  obs[OBS-S1-001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-006] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-007] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-008] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S1-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-011] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S1-014] observation_type='market-data' not in codes.csv
+  obs[OBS-S1-015] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S1-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-017] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S1-018] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-ibm-s-network-computing-solution----e74e8a
+  obs[OBS-S4-001] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S4-002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-004] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S4-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-006] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-007] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S4-014] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-015] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S4-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S4-017] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S4-018] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-ibm-s-nt-strategy-strat-pr-b93817
+  obs[OBS-S3-001] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-003] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-004] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-005] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-006] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-007] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-008] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-010] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-011] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S3-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-015] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-016] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S3-017] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-018] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S3-019] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S3-020] observation_type='market-data' not in codes.csv
+  obs[OBS-S3-021] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-ibm-s-solution-centric-global-healt-7a073f
+  obs[OBS-S2-001] observation_type='market-data' not in codes.csv
+  obs[OBS-S2-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S2-003] observation_type='market-data' not in codes.csv
+  obs[OBS-S2-004] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S2-005] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S2-006] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S2-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S2-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S2-009] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S2-010] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S2-011] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S2-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S2-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S2-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S2-015] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S2-016] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S2-017] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-S2-018] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S2-019] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-S2-020] observation_type='technology-assessment' not in codes.csv
+
+other-authors/1997-ibm-ships-first-64-bit-rs-6000-serv-961e2c
+  obs[obs-rs6-001] observation_type='market-data' not in codes.csv
+  obs[obs-rs6-002] observation_type='benchmark-result' not in codes.csv
+  obs[obs-rs6-003] observation_type='technology-assessment' not in codes.csv
+  obs[obs-rs6-004] observation_type='technology-assessment' not in codes.csv
+  obs[obs-rs6-005] observation_type='actual-outcome' not in codes.csv
+  obs[obs-rs6-006] observation_type='strategy-classification' not in codes.csv
+  obs[obs-rs6-007] observation_type='viability-prediction' not in codes.csv
+  obs[obs-rs6-008] observation_type='actual-outcome' not in codes.csv
+  obs[obs-rs6-009] observation_type='actual-outcome' not in codes.csv
+  obs[obs-rs6-010] observation_type='actual-outcome' not in codes.csv
+  obs[obs-rs6-011] observation_type='viability-prediction' not in codes.csv
+  obs[obs-rs6-012] observation_type='market-data' not in codes.csv
+  obs[obs-rs6-013] observation_type='actual-outcome' not in codes.csv
+  obs[obs-rs6-014] observation_type='technology-assessment' not in codes.csv
+  obs[obs-rs6-015] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-ibm-when-a-pc-is-simply-platform-ov-5e9364
+  obs[obs-nc-001] observation_type='market-data' not in codes.csv
+  obs[obs-nc-002] observation_type='market-data' not in codes.csv
+  obs[obs-nc-003] observation_type='benchmark-result' not in codes.csv
+  obs[obs-nc-004] observation_type='technology-assessment' not in codes.csv
+  obs[obs-nc-005] observation_type='technology-assessment' not in codes.csv
+  obs[obs-nc-006] observation_type='technology-assessment' not in codes.csv
+  obs[obs-nc-007] observation_type='strategy-classification' not in codes.csv
+  obs[obs-nc-008] observation_type='market-data' not in codes.csv
+  obs[obs-nc-009] observation_type='viability-prediction' not in codes.csv
+  obs[obs-nc-010] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-011] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-012] observation_type='viability-prediction' not in codes.csv
+  obs[obs-nc-013] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-014] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-015] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-016] observation_type='strategy-classification' not in codes.csv
+  obs[obs-nc-017] observation_type='technology-assessment' not in codes.csv
+  obs[obs-nc-018] observation_type='framework-factor' not in codes.csv
+  obs[obs-nc-019] observation_type='market-data' not in codes.csv
+  obs[obs-nc-020] observation_type='strategy-classification' not in codes.csv
+  obs[obs-nc-021] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-022] observation_type='technology-assessment' not in codes.csv
+  obs[obs-nc-023] observation_type='expert-opinion' not in codes.csv
+  obs[obs-nc-024] observation_type='viability-prediction' not in codes.csv
+  obs[obs-nc-025] observation_type='actual-outcome' not in codes.csv
+  obs[obs-nc-026] observation_type='strategy-classification' not in codes.csv
+  obs[obs-nc-027] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-industry-matematik-international-co-c398bc
+  obs[OBS-S5-001] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-002] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-003] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-004] observation_type='market-data' not in codes.csv
+  obs[OBS-S5-005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-S5-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-010] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-S5-011] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-012] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-013] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-014] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-015] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-016] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-017] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-S5-018] observation_type='framework-factor' not in codes.csv
+  obs[OBS-S5-019] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-S5-020] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-migrating-from-sybase-sql-server-4.-d7b1d0
+  obs[OBS-SYB001] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-SYB002] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-SYB003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-SYB004] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-INF001] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-INF002] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-INF003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-INF004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-INF005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-MIG001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-MIG002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-MIG003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-MKT001] observation_type='market-data' not in codes.csv
+  obs[OBS-MKT002] observation_type='market-data' not in codes.csv
+  obs[OBS-MKT003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-MKT004] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-TECH001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-TECH002] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-TECH003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-TECH004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-TECH005] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-VAR001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-FRAUD001] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-network-storage--obtaining-the-payo-3bdc3d
+  obs[OBS-NS001] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NS002] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NS003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NS004] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NS005] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NS006] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NS007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-NS008] observation_type='framework-factor' not in codes.csv
+  obs[OBS-NS009] observation_type='framework-factor' not in codes.csv
+  obs[OBS-NS010] observation_type='market-data' not in codes.csv
+  obs[OBS-NS011] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NS012] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-nortel--transforming-business-by-po-3edae6
+  obs[OBS-NOR001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-NOR002] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-NOR003] observation_type='market-data' not in codes.csv
+  obs[OBS-NOR004] observation_type='market-data' not in codes.csv
+  obs[OBS-NOR005] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NOR006] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NOR007] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NOR008] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOR009] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOR010] observation_type='market-data' not in codes.csv
+  obs[OBS-NOR011] observation_type='market-data' not in codes.csv
+  obs[OBS-TECH001] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-TECH002] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-TECH003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-TECH004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-COMP001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-COMP002] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-MKTTREND001] observation_type='market-data' not in codes.csv
+  obs[OBS-MKTTREND002] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-MKTTREND003] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-SUN001] observation_type='strategy-classification' not in codes.csv
+
+other-authors/1997-novell-directory-to-the-network-str-048b05
+  obs[OBS-NOV-001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-NOV-002] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NOV-003] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-004] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NOV-005] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-006] observation_type='market-data' not in codes.csv
+  obs[OBS-NOV-007] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-008] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NOV-009] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NOV-012] observation_type='market-data' not in codes.csv
+  obs[OBS-NOV-013] observation_type='market-data' not in codes.csv
+  obs[OBS-NOV-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-NOV-015] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NOV-016] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NOV-017] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NOV-018] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NOV-019] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-NOV-020] observation_type='expert-opinion' not in codes.csv
+
+other-authors/1997-nt-case-41-56aa2e
+  obs[OBS-NT001] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT002] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT003] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT004] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT005] observation_type='market-data' not in codes.csv
+  obs[OBS-NT006] observation_type='market-data' not in codes.csv
+  obs[OBS-NT007] observation_type='market-data' not in codes.csv
+  obs[OBS-NT008] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NT009] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NT010] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NT011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NT012] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-NT013] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT014] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-NT015] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-GOV001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-GOV002] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-GOV003] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-GOV004] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NT016] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-NT017] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-NT018] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-MSFT001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-MSFT002] observation_type='actual-outcome' not in codes.csv
+
+other-authors/1997-object-databases-such-as-o2-odmg--t-c98c72
+  obs[OBS-O2-001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-O2-002] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-O2-003] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-O2-004] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-O2-005] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-O2-006] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-O2-007] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-O2-008] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-O2-009] observation_type='market-data' not in codes.csv
+  obs[OBS-O2-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-O2-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-O2-012] observation_type='framework-factor' not in codes.csv
+
+other-authors/1997-object-technology-meets-demand-mana-551c84
+  obs[OBS-IMI-001] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-IMI-002] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-IMI-003] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-IMI-004] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-IMI-005] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-IMI-006] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-IMI-007] observation_type='framework-factor' not in codes.csv
+  obs[OBS-IMI-008] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-IMI-009] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-IMI-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-IMI-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-IMI-012] observation_type='market-data' not in codes.csv
+
+other-authors/1997-objective-communications--vidmodem--f3351f
+  obs[OBS-OBJ-001] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-OBJ-002] observation_type='benchmark-result' not in codes.csv
+  obs[OBS-OBJ-003] observation_type='market-data' not in codes.csv
+  obs[OBS-OBJ-004] observation_type='market-data' not in codes.csv
+  obs[OBS-OBJ-005] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-OBJ-006] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-OBJ-007] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-OBJ-008] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-OBJ-009] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-OBJ-010] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-OBJ-011] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-OBJ-012] observation_type='expert-opinion' not in codes.csv
+  obs[OBS-OBJ-013] observation_type='viability-prediction' not in codes.csv
+  obs[OBS-OBJ-014] observation_type='strategy-classification' not in codes.csv
+  obs[OBS-OBJ-015] observation_type='actual-outcome' not in codes.csv
+  obs[OBS-OBJ-016] observation_type='technology-assessment' not in codes.csv
+  obs[OBS-OBJ-017] observation_type='actual-outcome' not in codes.csv
+
+other-authors/aberdeen-1995-digital-linkworks
+  obs[aberdeen-1995-digital-linkworks-OBS-001] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-002] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-003] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-004] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-011] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-012] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-013] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-014] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-015] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-016] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-017] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-018] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-019] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-022] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-023] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-024] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-025] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-026] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-027] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-028] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-029] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-030] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-1996] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-1997] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-1998] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-1999] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-2000] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-linkworks-OBS-2001] observation_type='actual-outcome' not in codes.csv
+
+other-authors/aberdeen-1995-digital-objectbroker
+  obs[aberdeen-1995-digital-objectbroker-OBS-001] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-002] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-003] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-004] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-011] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-012] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-013] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-014] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-015] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-016] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-017] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-018] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-019] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-022] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-023] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-024] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-025] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-026] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-027] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-028] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-029] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-030] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-031] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-032] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-033] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-034] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-035] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-036] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-037] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-038] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-039] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-040] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-041] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-042] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-043] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-044] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-045] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-046] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-047] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-048] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-049] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-050] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-1996] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-1997] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-1998] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-1999] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-digital-objectbroker-OBS-2000] observation_type='actual-outcome' not in codes.csv
+
+other-authors/aberdeen-1995-hp-customer-interaction-software
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-001] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-002] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-003] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-004] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-007] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-008] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-010] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-011] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-012] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-013] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-014] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-015] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-016] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-017] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-018] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-019] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-022] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-023] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-024] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-025] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-026] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-027] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-028] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-029] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-030] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-031] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-032] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-033] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-034] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-035] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-036] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-037] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-038] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-039] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-040] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-041] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-042] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-043] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-044] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-045] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-046] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-047] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-048] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-049] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-050] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-1996] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-1997] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-1998] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-1999] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-2000] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-2001] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-2002] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-hp-customer-interaction-software-OBS-2003] observation_type='actual-outcome' not in codes.csv
+
+other-authors/aberdeen-1995-ibm-db2-common-server
+  obs[aberdeen-1995-ibm-db2-common-server-OBS-036] entity_id='lotus-notes' not in entities.csv
+
+other-authors/aberdeen-1995-limd-technology
+  obs[aberdeen-1995-limd-technology-OBS-005] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-006] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-009] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-010] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-011] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-012] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-013] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-014] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-015] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-016] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-017] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-018] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-019] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-028] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-029] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-030] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-031] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-032] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-033] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-035] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-036] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-038] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-limd-technology-OBS-046] observation_type='benchmark-result' not in codes.csv
+
+other-authors/aberdeen-1995-rdbms-cray-research-inc
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-001] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-002] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-003] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-004] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-005] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-008] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-009] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-010] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-011] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-012] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-013] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-014] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-015] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-016] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-017] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-018] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-019] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-020] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-022] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-023] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-024] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-025] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-026] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-027] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1995-rdbms-cray-research-inc-OBS-028] observation_type='expert-opinion' not in codes.csv
+
+other-authors/aberdeen-1995-sun-microsystems-computer-company
+  obs[aberdeen-1995-sun-microsystems-computer-company-OBS-006] observation_type='benchmark-result' not in codes.csv
+  obs[aberdeen-1995-sun-microsystems-computer-company-OBS-022] observation_type='framework-factor' not in codes.csv
+
+other-authors/aberdeen-1995-upgrading-isv-methodology-enterprise-application-development
+  obs[aberdeen-1995-upgrading-isv-methodology-enterprise-application-development-OBS-015] observation_type='framework-factor' not in codes.csv
+
+other-authors/aberdeen-1996-3com-reconciling-clientserver-development-internet
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-001] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-002] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-003] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-004] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-005] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-006] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-007] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-008] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-009] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-011] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-012] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-013] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-014] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-016] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-017] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-018] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-019] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-021] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-022] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-023] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-024] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-3com-reconciling-clientserver-development-internet-OBS-025] observation_type='expert-opinion' not in codes.csv
+
+other-authors/aberdeen-1996-advanced-planning-engines-white-paper
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-001] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-002] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-003] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-004] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-005] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-006] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-007] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-008] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-009] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-010] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-011] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-012] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-013] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-014] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-015] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-016] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-017] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-019] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-020] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-021] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-022] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-023] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-024] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-025] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-026] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-027] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-028] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-029] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-030] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-031] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-advanced-planning-engines-white-paper-OBS-032] observation_type='viability-prediction' not in codes.csv
+
+other-authors/aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-001] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-002] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-003] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-004] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-005] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-006] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-007] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-008] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-009] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-010] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-011] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-012] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-013] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-014] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-015] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-016] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-017] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-018] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-019] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-020] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-021] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-022] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-023] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-024] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-025] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-026] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-027] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-028] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-029] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better-OBS-030] observation_type='market-data' not in codes.csv
+
+other-authors/aberdeen-1996-as400-year-2000-ibm-leading-users
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-001] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-002] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-003] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-004] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-005] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-006] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-007] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-008] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-009] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-010] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-011] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-012] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-013] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-014] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-015] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-016] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-017] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-018] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-019] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-020] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-021] observation_type='actual-outcome' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-022] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-023] observation_type='technology-assessment' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-024] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-025] observation_type='framework-factor' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-026] observation_type='strategy-classification' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-027] observation_type='expert-opinion' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-028] observation_type='market-data' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-029] observation_type='viability-prediction' not in codes.csv
+  obs[aberdeen-1996-as400-year-2000-ibm-leading-users-OBS-030] observation_type='actual-outcome' not in codes.csv
+
+
+LAYER B failures (by study)
+==============================================================================
+
+kastner-author/1996-electronic-commerce-25d31b
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/1996-sequent-38f0b1
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/1997-dynaflo-systems----e-mail-for-the-b-854582
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/1998as400-1-146289
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2001-hp-compaq-kastner-insight1-d6dc38
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2003-intel-consumer-lt-10-5-8c346e
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2004-03-intelitaniummfewp11.doc-618d4a
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2004-05dell-storage-profile-editpk-05170-3c00b1
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2006-unisyswipro-rs-3747-a7e31e
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/2010-intel-ia-continuum-wp-1-2-fc5653
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/2010-intel-vpro-daily-globe-6f615e
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/aberdeen-managing-is-amidst-it-chaos-lan-05ea75
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 6: confidence='moderate'
+
+kastner-author/aberdeen-open-online-transaction-process-ea272f
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+
+kastner-author/amd-profile01-64e43b
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/auditor-report-4-43ad9b
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/cab199-1-2-0cb163
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/cacustsell98-3b53c6
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+
+kastner-author/caprop1-98-5d69fd
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/caprop99-86144f
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/computerworld-ilm-article-15f604
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/copy-of-hp-camera-lab-journal-prod-c103f6
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/dct-oct.-4-hot-topic-b61c0d
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/dectp92-0ca51c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/dell-ars-white-paper-prod-7-11m-c60434
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/dell-sd2-final-d6e78c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/desktop-virtualization-roi---aberdeen-8fa168
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/docucorp-3c562a
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+
+kastner-author/dubtech-1996-29d4f9
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/ft-mitfor~1-a56a9d
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/goremote-profile-5-2a-8fa814
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/hp-can-boost-soa-offerings-with-acquisit-48e07e
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/hp-compaq-kastner-insight1-a5a4e0
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/hptpc92-2fd423
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/ibm-+-webify-=-industry-soa-application--97733a
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/ibm-rs6000-midran~1-88f049
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/ibmramp95-9ffc12
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/ibmrs6k-05561e
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/ibmtpc92-c32789
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/iha-full-report---draft-jul-28-41de81
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intel-2010-vpro-daily-globe-42697e
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intel-centrino-pk-8ecf9a
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intel-consumer-lt-10-5-03-580af7
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intel-ia2004-pk4-kc-edits-de9c37
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intel-infiband-wp--edit-psk-5-22f-a2c551
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/intelitaniummfewp1[1]-773ea2
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/it-budget-realities-benchmark-1b1313
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/kastner-ie-v-andersen-expert-report-3de98a
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 7 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'status', want 'sector')
+  technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+  technologies.csv: header FAIL (col 3: got 'lifecycle_at_study', want 'vendor')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/kastner-tandem-topgun-et1-analysis-1987--a3a09c
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 4: confidence='moderate'
+
+kastner-author/ma-unisyswipro-rs-3747-36dd33
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/management-skills-learned-1969-3e75d0
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/marathon-d186ab
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/mirror-image-profile-v2-(050404)-e7eb95
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/mirror-image-profile-v2-050404-97e2a6
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-11-distributed-midrange-servers-1993-dedd19
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-12-client-server-goals-1993-15a519
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-2-open-systems-1dd3af
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-3-pc-and-ws-1993-17d49b
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-4-nextgen-os-timing-1993-a45049
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-5-development-toolsets-0e71c5
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-6-rdbms-technology-48f4aa
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/nti-9-mainframe-role-1993-77fc40
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/oracleroiwhitepaperprod-7023c3
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/outsourcing-application-development-and--59d651
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/perspective-041304-e4be4c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/psk-misc-speech-agendas-5965a3
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/psk-personality-profile-2000-8be0a6
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/rdbms-for-ibm-powera~1-7a44be
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+kastner-author/safeway-damages-report-draft-b502f4
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 7 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'status', want 'sector')
+  technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+  technologies.csv: header FAIL (col 3: got 'lifecycle_at_study', want 'vendor')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/sars2-hot-topic-cf91d4
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/sequent-592620
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/sequent-sap-sequen~1-7f70e4
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/snap-appliances-snapshot-10-15pk-f183fe
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/soa-aon-webinar-022206a-125e6b
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: enum row 2: confidence='CF-HIGH'
+  observations.csv: enum row 3: confidence='CF-HIGH'
+  observations.csv: enum row 4: confidence='CF-HIGH'
+  observations.csv: enum row 5: confidence='CF-HIGH'
+  observations.csv: enum row 6: confidence='CF-HIGH'
+  observations.csv: enum row 7: confidence='CF-HIGH'
+  observations.csv: enum row 8: confidence='CF-HIGH'
+  observations.csv: enum row 9: confidence='CF-HIGH'
+  observations.csv: enum row 10: confidence='CF-HIGH'
+  observations.csv: enum row 11: confidence='CF-HIGH'
+  observations.csv: enum row 12: confidence='CF-HIGH'
+  observations.csv: enum row 13: confidence='CF-HIGH'
+  observations.csv: enum row 14: confidence='CF-HIGH'
+  observations.csv: enum row 15: confidence='CF-HIGH'
+  observations.csv: enum row 16: confidence='CF-HIGH'
+  observations.csv: enum row 17: confidence='CF-HIGH'
+  observations.csv: enum row 18: confidence='CF-HIGH'
+  observations.csv: enum row 19: confidence='CF-HIGH'
+  observations.csv: enum row 20: confidence='CF-HIGH'
+  observations.csv: enum row 21: confidence='CF-HIGH'
+  observations.csv: enum row 22: confidence='CF-HIGH'
+  observations.csv: enum row 23: confidence='CF-HIGH'
+  observations.csv: enum row 24: confidence='CF-HIGH'
+  observations.csv: enum row 25: confidence='CF-HIGH'
+  observations.csv: enum row 26: confidence='CF-HIGH'
+  observations.csv: enum row 27: confidence='CF-HIGH'
+  observations.csv: enum row 28: confidence='CF-HIGH'
+  observations.csv: enum row 29: confidence='CF-HIGH'
+  observations.csv: enum row 30: confidence='CF-HIGH'
+  observations.csv: enum row 31: confidence='CF-HIGH'
+  observations.csv: enum row 32: confidence='CF-HIGH'
+  observations.csv: enum row 33: confidence='CF-HIGH'
+  observations.csv: enum row 34: confidence='CF-HIGH'
+  observations.csv: enum row 35: confidence='CF-HIGH'
+  observations.csv: enum row 36: confidence='CF-HIGH'
+  observations.csv: enum row 37: confidence='CF-HIGH'
+  observations.csv: enum row 38: confidence='CF-HIGH'
+  observations.csv: enum row 39: confidence='CF-HIGH'
+  observations.csv: enum row 40: confidence='CF-HIGH'
+  observations.csv: enum row 41: confidence='CF-HIGH'
+  observations.csv: enum row 42: confidence='CF-HIGH'
+  observations.csv: enum row 43: confidence='CF-HIGH'
+  observations.csv: enum row 44: confidence='CF-HIGH'
+  observations.csv: enum row 45: confidence='CF-HIGH'
+  observations.csv: enum row 46: confidence='[REVIEW]'
+  observations.csv: enum row 47: confidence='CF-HIGH'
+  observations.csv: enum row 48: confidence='CF-HIGH'
+  observations.csv: enum row 49: confidence='CF-HIGH'
+  observations.csv: enum row 50: confidence='CF-HIGH'
+  observations.csv: enum row 51: confidence='CF-HIGH'
+  observations.csv: enum row 52: confidence='CF-HIGH'
+  observations.csv: enum row 53: confidence='CF-HIGH'
+  observations.csv: enum row 54: confidence='CF-HIGH'
+  observations.csv: enum row 55: confidence='CF-HIGH'
+
+kastner-author/software-market-safegu~1-ea7453
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+kastner-author/technology-themes-ee5ba4
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/the-business-value-in-it-outsourcing-7d5f23
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/translating-early-skills-and-experiences-15bb2d
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/watchit-psk-aberdeen-cro-presenter-2002--5843bc
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+
+kastner-author/webex--taking-conferencing-to-the-busine-5b8109
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/why-you-need-to-replace-those-windows-98-and-nt-ma-9b9622
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+kastner-author/y2k-computerworld-aberdeen-psk-irving-19-5bcd20
+  observations.csv: enum row 11: confidence='moderate'
+  observations.csv: enum row 12: confidence='moderate'
+
+other-authors/1997-crm-siebel-systems-pr-569e52
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-datareach--finding-business-value-i-34f0a6
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-desktop-and-systems-management-the--169a9b
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-dev-expanding-universes-for-busines-c42c71
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-dialogic-ct-media-sets-the-pace-for-440d5e
+  observations.csv: enum row 21: confidence='[REVIEW]'
+  observations.csv: enum row 22: confidence='[REVIEW]'
+  observations.csv: enum row 23: confidence='[REVIEW]'
+  observations.csv: enum row 24: confidence='[REVIEW]'
+  observations.csv: enum row 25: confidence='[REVIEW]'
+
+other-authors/1997-digital-&-oracle-s-nci--partners-in-2d680c
+  observations.csv: enum row 22: confidence='[REVIEW]'
+  observations.csv: enum row 23: confidence='[REVIEW]'
+  observations.csv: enum row 24: confidence='[REVIEW]'
+  observations.csv: enum row 25: confidence='[REVIEW]'
+  observations.csv: enum row 26: confidence='[REVIEW]'
+  observations.csv: enum row 27: confidence='[REVIEW]'
+
+other-authors/1997-digital-equipment-corporation-pr-c375a8
+  observations.csv: enum row 22: confidence='[REVIEW]'
+  observations.csv: enum row 23: confidence='[REVIEW]'
+  observations.csv: enum row 24: confidence='[REVIEW]'
+  observations.csv: enum row 25: confidence='[REVIEW]'
+  observations.csv: enum row 26: confidence='[REVIEW]'
+  observations.csv: enum row 27: confidence='[REVIEW]'
+
+other-authors/1997-digital-ramps-up-for-the-leadership-fb5854
+  observations.csv: enum row 24: confidence='[REVIEW]'
+  observations.csv: enum row 25: confidence='[REVIEW]'
+  observations.csv: enum row 26: confidence='[REVIEW]'
+  observations.csv: enum row 27: confidence='[REVIEW]'
+  observations.csv: enum row 28: confidence='[REVIEW]'
+  observations.csv: enum row 29: confidence='[REVIEW]'
+
+other-authors/1997-digital-s-terabyte-hour-nonstop-vld-ce92ca
+  observations.csv: enum row 25: confidence='[REVIEW]'
+  observations.csv: enum row 26: confidence='[REVIEW]'
+  observations.csv: enum row 27: confidence='[REVIEW]'
+  observations.csv: enum row 28: confidence='[REVIEW]'
+  observations.csv: enum row 29: confidence='[REVIEW]'
+  observations.csv: enum row 30: confidence='[REVIEW]'
+  observations.csv: enum row 31: confidence='[REVIEW]'
+
+other-authors/1997-distributed-object-technology--dead-3cf2d1
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-dw-competitive-advantage-through-pr-b307c7
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-dynaflo-systems----e-mail-for-the-b-854582
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-dynasoft-s-boks-family--a-pragmatic-e6df7d
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+other-authors/1997-electronic-commerce-to-internet-com-b26a35
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-ibm-extended-transaction-systems-fa-0369fa
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-ibm-information-integration-family--29351c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-ibm-ships-first-64-bit-rs-6000-serv-961e2c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: enum row 2: confidence='[REVIEW]'
+  observations.csv: enum row 3: confidence='[REVIEW]'
+  observations.csv: enum row 10: confidence='[REVIEW]'
+
+other-authors/1997-ibm-when-a-pc-is-simply-platform-ov-5e9364
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: enum row 2: confidence='[REVIEW]'
+  observations.csv: enum row 3: confidence='[REVIEW]'
+  observations.csv: enum row 4: confidence='[REVIEW]'
+  observations.csv: enum row 12: confidence='[REVIEW]'
+  observations.csv: enum row 16: confidence='[REVIEW]'
+  observations.csv: enum row 26: confidence='[REVIEW]'
+
+other-authors/1997-infinite-resource-planning-wp-893815
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-informix-and-silicon-graphics-reach-98e6ea
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-informix-metacube-4.0--relational-o-23491d
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-insession---accessing-and-leveragin-cb2e40
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-intelligent-i-o-initiative--scaling-aae222
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-knowledge-discovery-one-s-retail-di-f6b834
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-kodak-completes-wang-software-acqui-e78bb4
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-laplink-solutions-offer-telecommuti-292aa8
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-lucent-delivers-internet-telephony--888598
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-managing-corporate-internet-access--ae26d9
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/1997-perspecta-inc-september-1997-b8e81d
+  studies.csv: enum row 2: prescience='[REVIEW]'
+
+other-authors/1997-sequent-s-numa-q-2000-solutions-77a77c
+  observations.csv: enum row 4: confidence='[REVIEW]'
+
+other-authors/1997-vertical-industry-solutions-baan-leads-in-innovati-f12724
+  observations.csv: enum row 9: confidence='[REVIEW]'
+
+other-authors/1998-internet-sales-report-4cde3f
+  observations.csv: enum row 23: confidence='[REVIEW]'
+
+other-authors/aberdeen-1995-3com-lanplex-2500
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-commercial-messaging
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-data-warehouse-olap
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+
+other-authors/aberdeen-1995-digital-linkworks
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-digital-multia
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-digital-objectbroker
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: column-count FAIL (header has 8 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-hp-customer-interaction-software
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-hp-softbench
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+
+other-authors/aberdeen-1995-ibm-as400-sap-r3
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 11 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: column-count FAIL (header has 10 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-ibm-db2-common-server
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-intersolv-virtual-data-warehouse
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-limd-technology
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'role_in_study', want 'sector')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-novell-predicament
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-oracle-interoffice
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+
+other-authors/aberdeen-1995-progress-software-profile
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-rdbms-cray-research-inc
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-sun-microsystems-computer-company
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1995-upgrading-isv-methodology-enterprise-application-development
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-3com-reconciling-clientserver-development-internet
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-advanced-planning-engines-white-paper
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-app-dun-bradstreet-software-smartstrtogether-better
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-as400-year-2000-ibm-leading-users
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-computer-telephony-integration
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-dec-manageworks-22
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-digital-debunks-ntsmp-scalability-myth
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-digital-leading-nt-across-enterprise-charge
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-digitals-personal-workstation-new-markets-channels
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-distributed-open-rdbms-buying-guide
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-enterprise-data-knowledge-integrated-data-marts
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-evaluating-system36-migration-strategies
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-hp-vectra-xw-personal-workstation
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-ibm-aix-4-not-your-fathers-325
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-ibm-as400-vs-microsoft-nt-server
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-ibm-os2-warp-server
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-ibm-tivoli
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-iq-software-www-reporting
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-iss-internet-security-systems
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-khalix-financial-awareness-competitive-advantage
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-lawson-software-desktop-workflow
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-live-object-caching-high-performance
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-mainframe-revival-short-lived-or-long-term
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-managing-customers-next-gen-helpdesk
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-microsoft-windows-nt-server-40
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-moving-effectively-next-gen-client-server
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-ncr-fail-safe-enterprise-nt
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-network-appliance-data-appliances
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-object-oriented-three-tier-plus-computing
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-omnibox-interactive-broadcasting-network
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-open-market-web-based-commerce
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-oracle-network-computing-architecture
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-progress-software-webspeed-internet
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-remote-access-cisco-untold-story
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-risc-unix-market
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-software-ag-digital-high-performance-solutions
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-spider-technologies-netdynamics
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-sqa-suite-50-automated-testing
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-sun-microsystems-ultracomputing-business
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-taming-sap-r3-consultant-led-introspection
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-tandem-vision-21st-century-electronic-business
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-telechips-access-pc-telephony-interaction
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-unisys-clearpath-smp-servers
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-unisys-clears-path-a-series-os2200
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-web-warehouses-dss-for-masses
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1996-year-2000-transition-opportunity-reconstruction
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-3com-accelerates-remote-access-market
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-aberdeen-group-impacts
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-acceleratedsap-strategy
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-actra-commercexpert-internet-commerce
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-as400-nt-server-ibm-microsoft-working-together
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-hp-andover-working-group
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-lawson-insight-process-orientation-business-management
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-picks-right-tools-year-2000
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-1997-silknet-software
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/aberdeen-megatrends-mfa-cs-mis-1993-05-98fc87
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+
+other-authors/boston-globe-mit-enterprise-forum-kastne-2a3462
+  studies.csv: enum row 2: relevance='moderate'
+
+other-authors/boston-globe-stratus-xa2000-launch-1987--218ffd
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 3: confidence='moderate'
+  observations.csv: enum row 4: confidence='moderate'
+
+other-authors/boston-globe-wang-q1-turnaround-psk-1990-a5aab0
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+
+other-authors/businessweek-stratus-launch-fail-safe-ba-82c028
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 7: confidence='moderate'
+  observations.csv: enum row 10: confidence='moderate'
+  observations.csv: enum row 13: confidence='moderate'
+
+other-authors/casale-evp-2-79187c
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/casale-evp-3-b2b933
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/casale-evp-4-9bd4e6
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/casale-evp-5-aa8f2a
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/casale-evp-7-215359
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/charles-t-casale-influence-cdfb3f
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+
+other-authors/datamation-informix-dsa-ad-aberdeen-cite-a9f18d
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 4: confidence='moderate'
+
+other-authors/desktop-virtualization-roi---aberdeen-8fa168
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/hp-mainframe-alternative-fernandez-mfasc-a2179f
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 2: confidence='moderate'
+  observations.csv: enum row 3: confidence='moderate'
+  observations.csv: enum row 4: confidence='moderate'
+
+other-authors/ie-appendix-jones-wms-memo-2e5d6c
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/ie-appendix-lane-qa-research-e594cb
+  studies.csv: QUOTE_ALL FAIL (unquoted header field: 'study_id')
+  entities.csv: QUOTE_ALL FAIL (unquoted header field: 'entity_id')
+  technologies.csv: QUOTE_ALL FAIL (unquoted header field: 'tech_id')
+  observations.csv: QUOTE_ALL FAIL (unquoted header field: 'obs_id')
+
+other-authors/informationweek-tablet-pc-microsoft-kast-72320d
+  studies.csv: enum row 2: importance='moderate'
+
+other-authors/meetings-conventions-virtual-meetings-ps-c1b097
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+
+other-authors/ncr-3000-cabinet-engineering-diagram-199-fa564f
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+
+other-authors/psbj-meisner-microsoft-consulting-acquis-7b85c8
+  studies.csv: enum row 2: importance='moderate'
+
+other-authors/rbj-pc-reseller-slump-psk-2002-07-05-9cb170
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+  studies.csv: enum row 2: prescience='moderate'
+  observations.csv: enum row 8: confidence='moderate'
+
+other-authors/stratus-tp-1-internal-benchmark-guide-19-9b51bf
+  studies.csv: enum row 2: importance='moderate'
+  studies.csv: enum row 2: relevance='moderate'
+
+other-authors/telephony-post911-conferencing-psk-2001--0bf283
+  studies.csv: enum row 2: importance='moderate'
+  observations.csv: enum row 4: confidence='moderate'
+
+other-authors/usatoday-kessler-itanium-mckinley-kastne-77362b
+  observations.csv: enum row 5: confidence='moderate'

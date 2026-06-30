@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-06_emit_scaffolding_v2.py — Phase 6: README, AGENTS, chat-starter, Makefile,
-verify + semantic_search scripts (v1.5).
+06_emit_scaffolding_v1.py — Phase 6: README, AGENTS, chat-starter, Makefile,
+verify + semantic_search scripts (v1.6).
 
 Usage:
-  python3 06_emit_scaffolding_v2.py --wiki ~/Desktop/kastner_wiki
+  python3 06_emit_scaffolding_v1.py --wiki ~/Desktop/kastner_wiki
 """
 from __future__ import annotations
 import argparse
@@ -14,39 +14,37 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# §11q (2026-06-02): single source of truth for the local model name.
-# Templates below contain the sentinel `__LOCAL_MODEL__` which is replaced
-# at write time with the current value of LOCAL_MODEL from _llm_helper_v2.
-# Result: regenerated README/AGENTS/chat-starter always reflect the model
-# that is actually configured, eliminating the v1 hardcode-drift bug.
-# Fallback: if the helper isn't importable, use a hardcoded string that
-# MUST match _llm_helper_v2.LOCAL_MODEL exactly.
-try:
-    _here = Path(__file__).resolve().parent
-    sys.path.insert(0, str(_here))
-    from _llm_helper_v2 import LOCAL_MODEL
-except ImportError as _e:
-    print(f"[scaffolding v2] WARNING: could not import _llm_helper_v2 ({_e}); "
-          "using hardcoded fallback. Update LOCAL_MODEL in helper to change.",
-          file=sys.stderr)
-    LOCAL_MODEL = "qwen3.6:27b-mlx"
-
 
 README = """\
-# Kastner Aberdeen Wiki — v1.5
+# Kastner Aberdeen Wiki — v1.6
 
 Local-first research environment derived from the [aberdeen-group-archive](https://github.com/shorttack/aberdeen-group-archive)
 master CSVs. Built by `kastner-wiki-builder` skill v2.
 
 ## What's new in v1.5
 
-- **Prescience scores** from local `__LOCAL_MODEL__` Pass C run (2026-05-26)
+- **Prescience scores** from local `qwen3.5:27b-mlx` Pass C run (2026-05-26)
 - New 8th master ingested: `_master_prescience_scores.csv`
 - New DuckDB views: `v_studies_with_prescience`, `v_top_prescient_studies`,
   `v_prescience_by_decade`, `v_low_confidence_prescience`
 - New page subdir: `wiki/_prescient.md` (top 50 most prescient studies)
 - Frontmatter on every page: `prescience_max`, `prescience_mean`,
   `prescience_obs_count`
+
+## What's new in v1.6
+
+- **Short-horizon (3-year / 5-year) prescience** — full-corpus rescore of every
+  gradeable observation against what was actually true 3 and 5 years after each
+  claim's anchor year (sonar-pro, 2026-06-29). Replaces the one-shot ~30-year
+  verdict with researchable near-term verdicts.
+- New master: `_master_prescience_short_horizon.csv` (17,030 obs; per-obs
+  `prescience_3y` / `prescience_5y` + rationales, -1=prefiltered, -2=window not
+  yet elapsed).
+- Study-level SH verdicts in `_master_studies.csv`: `prescience_3y_enum` /
+  `prescience_5y_enum` (+ rationales) for 792 gradeable studies.
+- New DuckDB views: `v_prescience_sh`, `v_observations_with_sh`,
+  `v_studies_with_sh_verdicts`, `v_sh_3y_distribution`, `v_sh_5y_distribution`.
+- Study pages now carry a **Short-horizon prescience** section (3y/5y verdicts).
 
 ## Quick start
 
@@ -84,7 +82,7 @@ python3 scripts/build/02_build_data_layer_v1.py --wiki .
 python3 scripts/build/03_generate_vault_v1.py --wiki . [--skip-llm]
 python3 scripts/build/04_generate_indices_v1.py --wiki .
 python3 scripts/build/05_compute_embeddings_v1.py --wiki .
-python3 scripts/build/06_emit_scaffolding_v2.py --wiki .
+python3 scripts/build/06_emit_scaffolding_v1.py --wiki .
 python3 scripts/verify.py --wiki .
 ```
 """
@@ -108,7 +106,7 @@ by Pete Kastner. Three persistent layers:
 ## Prescience scoring (v1.5)
 
 Every observation in `_master_observations.csv` may have a prescience score
-0-5 assigned by `__LOCAL_MODEL__` (Pass C, 2026-05-26). Calibration kappa
+0-5 assigned by `qwen3.5:27b-mlx` (Pass C, 2026-05-26). Calibration kappa
 vs Claude Sonnet: **0.853**. Confidence is 1 (low) to 3 (high).
 
 | Score | Meaning |
@@ -140,6 +138,39 @@ ORDER BY prescience_score DESC;
 ```sql
 SELECT decade, high_prescience_studies, studies_scored
 FROM v_prescience_by_decade;
+```
+
+## Short-horizon prescience (3-year / 5-year) — v1.6
+
+A full-corpus rescore (sonar-pro, 2026-06-29) grades each gradeable observation
+against what was actually true 3 and 5 years after the claim's anchor year.
+This replaces the one-shot ~30-year verdict (largely a gimmick) with
+researchable near-term verdicts. Per-obs scores live in
+`_master_prescience_short_horizon.csv`; study-level enums live in
+`_master_studies.csv` as `prescience_3y_enum` / `prescience_5y_enum`.
+
+Score sentinels: **-1** = prefiltered (too thin to grade), **-2** = window has
+not yet elapsed (claim too recent to verify at that horizon).
+
+### Studies prescient at 3 / 5 years
+```sql
+SELECT study_id, title, prescience_3y_enum, prescience_5y_enum
+FROM v_studies_with_sh_verdicts
+WHERE prescience_3y_enum = 'high' OR prescience_5y_enum = 'high'
+ORDER BY study_id;
+```
+
+### 3-year score distribution (per observation)
+```sql
+SELECT prescience_3y, n FROM v_sh_3y_distribution ORDER BY prescience_3y;
+```
+
+### Observation-level 3y/5y scores joined to the obs
+```sql
+SELECT obs_id, study_id, prescience_3y, prescience_5y
+FROM v_observations_with_sh
+WHERE prescience_3y >= 4 OR prescience_5y >= 4
+ORDER BY prescience_3y DESC, prescience_5y DESC;
 ```
 
 ## Naming conventions
@@ -191,7 +222,35 @@ FROM v_prescience_by_decade
 ORDER BY high_prescience_studies DESC;
 ```
 
-## 4-20
+## 4. Which studies were prescient at 3 years? (v1.6)
+
+**SQL**
+```sql
+SELECT study_id, title, prescience_3y_enum
+FROM v_studies_with_sh_verdicts
+WHERE prescience_3y_enum = 'high'
+ORDER BY title;
+```
+
+## 5. Which studies were prescient at 5 years? (v1.6)
+
+```sql
+SELECT study_id, title, prescience_5y_enum
+FROM v_studies_with_sh_verdicts
+WHERE prescience_5y_enum = 'high'
+ORDER BY title;
+```
+
+## 6. Show the 3-year vs 5-year score distribution (v1.6)
+
+```sql
+SELECT '3y' AS horizon, prescience_3y AS score, n FROM v_sh_3y_distribution
+UNION ALL
+SELECT '5y', prescience_5y, n FROM v_sh_5y_distribution
+ORDER BY horizon, score;
+```
+
+## 7-20
 
 (See `AGENTS.md` for query recipes; remaining prompts grow with usage.)
 """
@@ -223,7 +282,7 @@ phase5:
 \tpython3 scripts/build/05_compute_embeddings_v1.py --wiki .
 
 phase6:
-\tpython3 scripts/build/06_emit_scaffolding_v2.py --wiki .
+\tpython3 scripts/build/06_emit_scaffolding_v1.py --wiki .
 
 verify:
 \tpython3 scripts/verify.py --wiki .
@@ -234,7 +293,7 @@ clean:
 
 
 VERIFY = '''#!/usr/bin/env python3
-"""scripts/verify.py — Self-test for v1.5 wiki build."""
+"""scripts/verify.py — Self-test for v1.6 wiki build."""
 from __future__ import annotations
 import argparse
 import json
@@ -283,7 +342,9 @@ def main() -> int:
         try:
             con = duckdb.connect(str(db))
             for v in ["v_studies_with_prescience", "v_top_prescient_studies",
-                      "v_prescience_by_decade", "v_observations_with_prescience"]:
+                      "v_prescience_by_decade", "v_observations_with_prescience",
+                      "v_prescience_sh", "v_studies_with_sh_verdicts",
+                      "v_sh_3y_distribution", "v_sh_5y_distribution"]:
                 n = con.execute(f"SELECT COUNT(*) FROM {v}").fetchone()[0]
                 if n == 0:
                     warns.append(f"view {v} returned 0 rows")
@@ -383,17 +444,10 @@ def main() -> int:
     (wiki / "scripts").mkdir(parents=True, exist_ok=True)
     (wiki / "scripts" / "build").mkdir(parents=True, exist_ok=True)
 
-    # §11q: substitute LOCAL_MODEL into the templates that reference it.
-    # Apply ONLY to the markdown docs (README, AGENTS, chat-starter); the
-    # Python scripts (verify, semantic_search) and the Makefile do not contain
-    # the sentinel and must pass through unmodified.
-    def _sub(template: str) -> str:
-        return template.replace("__LOCAL_MODEL__", LOCAL_MODEL)
-
     files = {
-        "README.md": _sub(README),
-        "AGENTS.md": _sub(AGENTS),
-        "chat-starter.md": _sub(CHAT_STARTER),
+        "README.md": README,
+        "AGENTS.md": AGENTS,
+        "chat-starter.md": CHAT_STARTER,
         "Makefile": MAKEFILE,
         ".gitignore": "*.tmp\n.obsidian/workspace*\n.DS_Store\n",
         "scripts/verify.py": VERIFY,

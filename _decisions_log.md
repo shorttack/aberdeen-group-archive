@@ -3967,3 +3967,101 @@ Since the masters moved to repo root (2026-06-24), `sync_studies_verdicts_repo_f
 ### Scripts shipped this session (repo `scripts/`)
 
 `run_prescience_pass_c_v7.py`, `build_mx_pass_c_manifest_v1.py`, `compute_mx_verdicts_v1.py`, `promote_mx_to_master_v2.py`, `write_mx_verdicts_to_studies_v1.py`. Verdict rule + v1-vs-v2 analysis captured in the comparison report delivered in-chat.
+
+---
+
+## 2026-06-30 EOD -- v2.0 release: full-corpus 3y/5y prescience + v9 confab fix + PC Deals per-SKU journeys
+
+### What shipped
+
+v2.0 -- "Full-Corpus Multi-Horizon Prescience" -- the largest analytical release since v1.0. The entire GitHub archive and companion wiki are pushed and deposited to Zenodo at this tag.
+
+**1. Full-corpus 3-year / 5-year prescience.** A new short-horizon (SH) master, `_master_prescience_short_horizon.csv` (**17,030 rows**, columns `obs_id, study_id, prescience_3y, prescience_5y` + confidence/anchor-year metadata), scores every gradeable observation at fixed 3y and 5y windows. **792 studies** now carry author-curated `prescience_3y_enum` / `prescience_5y_enum` (+ rationale) columns; the studies master grew **16 -> 20 columns** to hold them.
+
+- 3-year distribution (792): high **522** - medium **264** - low **4** - not-applicable **1** - pending **1**.
+- 5-year distribution (792): high **518** - medium **268** - low **4** - not-applicable **1** - pending **1**.
+
+**2. v9 confabulation fix.** The SH scorer enforces a **window-not-elapsed sentinel (`-2`)** at the chokepoint: an observation whose 3y or 5y window extends past the present is scored `-2` and excluded from the verdict mean, never confabulated. This ends the failure mode where the model fabricated a confident retrospective verdict for a window that had not elapsed. Net data-quality result across the **16,232-call** SH sweep: **2 of 13,885 scored SH calls** reduced to a `-1` parse-reject, retained as sentinels (not silently dropped):
+- `aberdeen-1995-universal-servers-rdbms-technology-next-decade-OBS-006`
+- `nospra~1-bd7d6a-OBS-017`
+
+SH sentinel taxonomy: `-1` = prefiltered / parse-reject; `-2` = window not elapsed. Both excluded from verdict means by Rule A.
+
+**3. PC Deals per-SKU price journeys.** The weekly-bulletin `-mx` v2 tier (agent-as-extraction-brain) gains **249 per-SKU price journeys** (L7 extraction): individual hardware SKUs tracked across successive weekly bulletins as longitudinal price-history series.
+
+### Pipeline changes
+
+- Phase 1 -> `01_load_csvs_v3.py` (reads SH master, `halt=False`; writes `short_horizon.parquet`; coerces SH scores numeric).
+- Phase 2 -> `02_build_data_layer_v5.py` (promotes `short_horizon`; registers `v_prescience_sh`, `v_studies_with_sh_verdicts`, `v_observations_with_sh`, `v_sh_3y_distribution`, `v_sh_5y_distribution`, guarded against a missing parquet).
+- Phase 3 -> `03_generate_vault_v3.py` (study pages render SH verdicts in frontmatter + a "Short-horizon prescience" body section; tier-1 prompt receives 3y/5y).
+- Phase 6 -> `06_emit_scaffolding_v2.py` (README title -> SH release; "What's new" SH block; AGENTS SH recipes; chat-starter prompts 4-6; `verify.py` +4 SH views).
+- New scripts: `merge_sh_scores_to_master_v1.py`, `apply_sh_study_verdicts_v1.py`.
+- Version-lineage note: the canonical SH chain is `03_v3`, `04_v2`, `05_v3` (bge-m3), `06_v2`. The build dir also holds an older Jun-2 lineage `04_v3..v6` and `06_v3..v5` (NO SH, non-monotonic dates) -- do NOT run those.
+
+### Shape audit (BEFORE -- pre-SH-integration rebuild)
+
+```
+studies                 1504
+observations           24842
+entities                3293
+technologies            4376
+studies_with_pub_year   1504
+decades_covered            6
+high_prescience          876
+```
+
+### Shape audit (AFTER -- post-SH Phase 1 v3 + Phase 2 v5 rebuild)
+
+```
+studies                 1504
+observations           24842
+entities                3293
+technologies            4376
+studies_with_pub_year   1504
+decades_covered            6
+high_prescience          876
+```
+
+Identical, as expected: the SH integration added 4 study columns and 5 views, not studies or observations. `v_studies` now exposes `prescience_3y_enum` / `prescience_3y_rationale` / `prescience_5y_enum` / `prescience_5y_rationale` (20 cols). SH-specific reads: `v_prescience_sh` = **17,030 rows**; `v_studies_with_sh_verdicts` = **792 studies**.
+
+### Observation-count reconciliation (logged per Pete, 2026-06-30)
+
+The 2026-06-27 EOD entry recorded a CSV-level snapshot of **24,715** observations, taken before the post-`-mx` Phase 1/2 rebuild had run. That rebuild has since run; the live `v_observations` view now returns **24,842** (delta +127). Per Pete's 2026-06-30 decision, the live DuckDB figure (**24,842**) is canonical for all v2.0 docs (README, release notes, this log). The `_master_prescience_scores.csv` holistic master stands at **17,251 rows**; the new SH master is a separate file at **17,030 rows**.
+
+### Prescience-surface clarification (carried into README)
+
+Three high-prescience surfaces are exposed in `v_studies`, and v2.0 docs name each explicitly:
+- Authored enum (`study_prescience_enum = 'high'`): **503** -- strictest editorial surface.
+- `v_studies_with_high_prescience` (`prescience_max >= 4`, loose): **876** -- the headline "high-prescience" count.
+- `prescience_mean >= 3.5` (tight): **88**.
+
+Resolves the v1.8.0 backlog "124->865 investigation" item: the view filters on `prescience_max >= 4` (now 876), not the authored verdict. README section "Prescience ratings" documents all three.
+
+### Companion wiki
+
+Rebuilt against v2.0 masters, tagged in lockstep. bge-m3 (1024-dim) re-embed of **10,862 pages** (Phase 5). Study pages carry the SH section so `kw ask` answers 3y/5y questions from real retrieved text. `kw ask` validation passed: "which studies were prescient at 3 years" surfaced a real 3y verdict (Object-Oriented Three-Tier-Plus 1996 -- high, mean 3.92). Note: `kw ask` k=6 retrieval cites exemplars, not the population -- ground truth (522 high at 3y) is in `v_studies_with_sh_verdicts`. Wiki repo already pushed this session: `shorttack/kastner-aberdeen-wiki` main `3a992434..93499d11` (1623 files, 11459 ins / 524 del; embeddings.parquet 66 MB, under the 100 MB hard limit). KW Console notes check clean (no uncommitted `wiki/notes/`).
+
+### Docs written this session (archive repo)
+
+- `README.md` -- full v2.0 rewrite: headline reconciled to live truth, SH section added, prescience-surface clarification, layout block updated (SH master listed, master row counts refreshed), v2.0 changes section, prior releases through v1.9.0.
+- `RELEASE_NOTES_v2.0.md` -- new (lead: full-corpus 3y/5y + v9 fix; PC Deals per-SKU journeys).
+- `.zenodo.json` -- new (v2.0 metadata, concept DOI 10.5281/zenodo.20245076).
+- `CITATION.cff` -- updated v1.0.0 -> v2.0 (1,504 studies; date 2026-06-30; DOI added).
+- `_decisions_log.md` -- this entry.
+- `WORKLIST.md` -- refreshed (mirror rule A).
+
+### Repo declutter (DONE this session, folded into v2.0)
+
+Executed `scripts/reorg_archive_root_v1.py --commit` (dry-run reviewed first; path-safety grep passed). Groups A-D only (E/F/G deferred). **48 root items relocated, 0 errors**, all protected masters asserted present at root post-run:
+- Group A -> `_local_backups/` (gitignored): 13 `.bak*` files + 10 `archive_masters_pre_*` / `_master_csvs_pre_*` snapshot dirs.
+- Group B -> `releases/`: `RELEASE_NOTES_v1.6.1/v1_6_2/v1_9_0.md`, `future_work_v1/v1.6.md`, `RESUME_2026_05_26.md` (history-preserving `git mv`). `RELEASE_NOTES_v2.0.md` newly written here.
+- Group C -> `reports/`: `_audits/` tree, validation/diff/reconcile/rollup audit CSVs, `PASS_A_VERIFICATION_REPORT.md`, `_skipped_sources.md`, `_missing_sources.csv`, `_web_cache.json`, `_web_verification_results.json`, `model_prescience_scoring_finding_v1.md`, `_perm_test_20260628.txt`.
+- Group D -> `data_sources/`: 7 `*_processed.zip`.
+- **Refused (active script refs, left at root by design):** `_collection_stats.csv` (refs in `01_load_csvs_v2/v3`), `_master_entity_field_conflicts.csv` (refs in 4 reconcile/audit scripts). Group F dedup of these deferred.
+- `_local_backups/` added to `.gitignore` so Group A backups stay out of the repo and the Zenodo tarball.
+
+### Carry-forward (post-v2.0 backlog)
+
+1. Declutter Groups E/F/G (collections consolidation, stale-master retirement incl. the 2 refused files, directory casing) + dated `WORKLIST_YYYY_MM_DD.md` relocation.
+2. Consider `.gitignore` / Git LFS for `embeddings.parquet` (regenerates 66 MB each Phase 5; grows wiki history).
+3. v1.8.0 quotations backlog items remain open (blog-artifact manual-review rows 1180/1186/1187/1193/1199/1208; horizon re-authoring of 244 backfilled cells; skill quickref updates).

@@ -23,3 +23,4 @@ venv/
 
 # Backup files (sed-patch artifacts, masters .bak_* etc.)
 *.bak_*
+_local_backups/

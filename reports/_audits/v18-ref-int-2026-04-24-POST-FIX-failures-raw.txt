@@ -1,0 +1,56 @@
+LAYER A failures (by study)
+==============================================================================
+
+
+LAYER B failures (by study)
+==============================================================================
+
+kastner-author/cacustsell98-3b53c6
+  technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+
+kastner-author/docucorp-3c562a
+  technologies.csv: column-count FAIL (header has 5 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'name', want 'tech_name')
+
+kastner-author/kastner-ie-v-andersen-expert-report-3de98a
+  entities.csv: column-count FAIL (header has 7 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'status', want 'sector')
+  technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+  technologies.csv: header FAIL (col 3: got 'lifecycle_at_study', want 'vendor')
+
+kastner-author/safeway-damages-report-draft-b502f4
+  entities.csv: column-count FAIL (header has 7 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'status', want 'sector')
+  technologies.csv: column-count FAIL (header has 6 cols, expected 9)
+  technologies.csv: header FAIL (col 3: got 'lifecycle_at_study', want 'vendor')
+
+other-authors/aberdeen-1995-digital-linkworks
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+other-authors/aberdeen-1995-digital-objectbroker
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: column-count FAIL (header has 8 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+other-authors/aberdeen-1995-ibm-as400-sap-r3
+  entities.csv: column-count FAIL (header has 11 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: column-count FAIL (header has 10 cols, expected 9)
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+other-authors/aberdeen-1995-ibm-db2-common-server
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+other-authors/aberdeen-1995-intersolv-virtual-data-warehouse
+  entities.csv: header FAIL (col 1: got 'study_id', want 'entity_name')
+  technologies.csv: header FAIL (col 1: got 'study_id', want 'tech_name')
+
+other-authors/aberdeen-1995-limd-technology
+  entities.csv: column-count FAIL (header has 10 cols, expected 9)
+  entities.csv: header FAIL (col 3: got 'role_in_study', want 'sector')

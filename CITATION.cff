@@ -1,44 +1,53 @@
 cff-version: 1.2.0
-title: "Aberdeen Group Research Archive"
+title: "Kastner IT Research Archive"
 abstract: >
-  A structured archive of 822 research studies, articles, memoirs,
+  A structured archive of 1,504 research studies, articles, memoirs,
   expert reports, and related artifacts (1979-2026) centered on the work
   of Peter S. Kastner at Aberdeen Group, Arthur D. Little,
   Philip Hankins Inc. (PHI) Computer Services/Wang, Digital Equipment
-  Corporation, Stratus Computer, Prime Computer and Obian Group, plus contributions from
-  other Aberdeen analysts. Each study is packaged as a self-contained
-  Frictionless Data Package with structured CSV tables for studies,
-  entities, technologies, observations, and codes; a datapackage.json
-  descriptor; a schema_org.json discovery layer; and a human-readable
-  README. The archive is fully audited (Layer A per-study referential
-  integrity, Layer B CSV write validation, Layer C cross-study cache
-  integrity) with zero failures.
+  Corporation, Stratus Computer, Prime Computer and Obian Group, plus
+  contributions from other Aberdeen analysts. Each study is packaged as a
+  self-contained Frictionless Data Package with structured CSV tables for
+  studies, entities, technologies, observations, and codes; a
+  datapackage.json descriptor; a schema_org.json discovery layer; and a
+  human-readable README. The archive is fully audited (Layer A per-study
+  referential integrity, Layer B CSV write validation, Layer C cross-study
+  cache integrity) with zero failures. Version 2.0 adds full-corpus 3-year
+  and 5-year prescience reads (17,030-row short-horizon master; 792 studies
+  with 3y/5y verdicts), the v9 confabulation fix, and PC Deals per-SKU
+  price journeys.
 authors:
   - family-names: Kastner
     given-names: Peter S.
     affiliation: "Aberdeen Group (1988-2007); previously DEC, Stratus Computer, Prime Computer, Arthur D. Little, PHI Computer Services, Obian Group"
 type: dataset
-version: "1.0.0"
-date-released: "2026-05-01"
+version: "2.0"
+date-released: "2026-06-30"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.20245076
 keywords:
   - Aberdeen Group
   - technology research
   - market analysis
   - frictionless data
   - prescience scoring
+  - multi-horizon prescience
   - enterprise computing history
   - Peter Kastner
 identifiers:
   - type: other
-    value: "aberdeen-group-archive-v1.0.0"
+    value: "aberdeen-group-archive-v2.0"
     description: "Internal archive tag"
+  - type: doi
+    value: "10.5281/zenodo.20245076"
+    description: "Zenodo concept DOI (all versions)"
 preferred-citation:
   type: dataset
   title: "Kastner IT Research Archive"
   authors:
     - family-names: Kastner
       given-names: Peter S.
-  version: "1.0.0"
-  date-released: "2026-05-01"
+  version: "2.0"
+  date-released: "2026-06-30"
   license: CC-BY-4.0
+  doi: 10.5281/zenodo.20245076

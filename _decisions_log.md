@@ -4065,3 +4065,112 @@ Executed `scripts/reorg_archive_root_v1.py --commit` (dry-run reviewed first; pa
 1. Declutter Groups E/F/G (collections consolidation, stale-master retirement incl. the 2 refused files, directory casing) + dated `WORKLIST_YYYY_MM_DD.md` relocation.
 2. Consider `.gitignore` / Git LFS for `embeddings.parquet` (regenerates 66 MB each Phase 5; grows wiki history).
 3. v1.8.0 quotations backlog items remain open (blog-artifact manual-review rows 1180/1186/1187/1193/1199/1208; horizon re-authoring of 244 backfilled cells; skill quickref updates).
+
+## 2026-07-01 EOD -- embedding-upgrade-gates toolkit + first candidate verdict (KEEP INCUMBENT)
+
+Established a reusable, auditable methodology for evaluating any future embedding-model
+swap for the wiki retrieval index -- the embedding-lane analogue of the existing
+`local-model-upgrade-gates` skill (which covers the local LLM lane; bge-m3 was explicitly
+carved into a separate lane by that skill). Ran the first candidate through it and,
+correctly, rejected it.
+
+### What shipped
+
+New toolkit `embedding-upgrade-gates/`, shipped to BOTH repos in this EOD batch commit:
+- **Public, light-touch** copy at `Archive/tools/embedding-upgrade-gates/` -- for other
+  scholars and posterity, de-internalized.
+- **Ops originals** at `Perplexity_Only/embedding-upgrade-gates/` -- internal detail +
+  full baseline record.
+
+Contents (both trees): `README.md`, `METHODOLOGY.md`, `probes_v1.txt` (20 LOCKED probes,
+`#` = comment line), `scripts/embed_ab_harness_v2.py` (388-line A/B harness),
+`scripts/build_gold_template_v1.py`, `gold/` (labeled gold set + prefilled template),
+`baselines/` (this run's record).
+
+### The promotion gate (LOCKED 2026-07-01)
+
+A candidate embedding model replaces the incumbent ONLY if BOTH hold:
+- **Gate A -- aggregate Recall@6 margin:** candidate Recall@6 >= incumbent + 0.05.
+- **Gate B -- per-query no-regression floor:** candidate loses at most 1 relevant hit
+  vs incumbent on ANY single query.
+
+MRR@6 and mean-Jaccard(top-6) are context / risk signals only, NOT gates. Recall@6 (not
+@10 or nDCG) because k=6 is the `kw_ask` default. Status quo wins ties. Harness flags:
+`--queries`, `--gold`, `--recall-margin` (default 0.05), `--regression-floor` (default 1).
+
+Design note: Pete asked me to argue the gate design ("argue with me"). The two-part
+structure is the load-bearing choice -- an aggregate-only gate (Gate A alone) would have
+let a candidate with a strong average but a catastrophic single-category collapse through.
+Gate B is the category-collapse guard. This run proved its value (see below).
+
+### Gold set (Pete's judgment, reviewed + confirmed)
+
+`gold/embed_gold_20probes_labeled_v1.csv` -- 198 rows across 20 queries, **151 relevant /
+47 not-relevant, 0 blanks**. Rubric: 1 = on-topic real content page; 0 = scaffolding /
+definition page (`code-pre-00x`, `code-prescience-assessment`, `_prescient`, bare decade
+tags) OR off-topic. Labeling was grounded in the full 48-slug resolver so no opaque slug
+was labeled blind. Aggressive 0-labeling was concentrated on the two prescience probes
+(Q11 5/12 not-relevant, Q14 2/11) -- deliberately, because that is the category the
+candidate was suspected to collapse on. Relevance labeling is Pete's judgment call ("I
+draft, you correct" mode); Pete reviewed all labels and concurred, explicitly confirming
+Q6 `linux-server` = 1 ("Linux is the epitome of open source") and Q14 decade tags = 0
+("not a scored study").
+
+### First candidate -- qwen3-embedding:8b (MRL-1024) vs bge-m3 incumbent: KEEP INCUMBENT
+
+Both indexes: 10,862 vectors, dim 1024, top-k 6. Candidate index
+`data/embeddings_qwen1024.parquet` built via `/v1/embeddings` + `dimensions:1024` (MRL
+truncation from native 4096) + L2 normalization, ~2 h 56 m, zero failures.
+
+| Metric | Incumbent (bge-m3) | Candidate (qwen MRL-1024) |
+|---|---:|---:|
+| Recall@6 | 0.685 | 0.586 |
+| MRR@6 (context only) | 0.912 | 0.875 |
+| Mean Jaccard(top-6), context | 0.237 | -- |
+
+- **Gate A: FAIL.** Recall@6 delta = -0.100 vs +0.050 hurdle. The candidate is worse in
+  aggregate, not marginally better.
+- **Gate B: FAIL.** Four per-query regressions, two severe:
+  - Q11 short-horizon prescience verdicts, late-1990s: 5 -> 0 hits (**-5**)
+  - Q14 studies scored high on 3-year prescience verdicts: 2 -> 0 hits (-2)
+  - Q5 shift to web-based enterprise software: 4 -> 2 hits (-2)
+  - Q6 vendors expected to lose share to open-source: 4 -> 2 hits (-2)
+
+**Verdict: KEEP INCUMBENT (both gates fail; status quo wins ties).**
+
+### The finding (why the gate matters)
+
+Q11 and Q14 are the exact qwen category-collapse the per-query floor exists to catch. On
+both prescience probes the candidate's top-6 collapsed to scaffolding / definition pages
+ONLY -- matching on the token "prescient" and on decade-number strings rather than on
+study content:
+- Q11 candidate top-6: `_prescient`, `2030s`, `code-pre-001`, `code-pre-002`, `1900s`,
+  `code-pre-003` (Recall 0.0). Incumbent returned dated study + quote pages (`1990s`,
+  `quote-893`, `study-1991-apple-c-s-e9ffd7`, ...) at Recall 1.0.
+- Q14 candidate top-6: `2030s`, `code-pre-001`, `_prescient`, `code-pre-002`,
+  `code-prescience-assessment`, `code-pre-003` (Recall 0.0). Incumbent Recall 1.0.
+
+The candidate DID win a handful of queries (NT-vs-Unix TCO +2, TCO debate +1,
+minicomputer +1, data-warehousing +1, Microsoft +1, middleware +1) and posted higher raw
+top-1 similarity on every probe -- a similarity-magnitude signal, not a quality signal.
+Those wins are real but disqualified by the prescience regressions under the locked rule.
+The gate did its job: it blocked a swap that would have quietly gutted prescience
+retrieval, which is a category this corpus depends on.
+
+### Live index untouched
+
+`data/embeddings.parquet` (bge-m3) was NEVER modified. Candidate
+`data/embeddings_qwen1024.parquet` and incumbent snapshot `data/embeddings_bgem3.parquet`
+remain on disk (local-only, NOT in repo) as recorded artifacts. Rollback was pre-written
+but unused -- the candidate was never promoted.
+
+### Notes / scope
+
+- Baseline record: `baselines/bgem3_vs_qwen3emb8b_20260701.md` in both trees. Supersedes
+  the earlier "PENDING gold labels" agreement-only draft.
+- Mac eval-dir artifacts (harness, probes, labeled/draft/verdict CSVs) stay local at
+  `/Users/scott/Desktop/Archive/eval/` -- NOT committed. Only the two toolkit trees +
+  baseline record go into the repo.
+- Notes-dir pre-commit check CLEAN (`git status --porcelain wiki/notes/` empty on the
+  Mac). No KW Console notes to fold in.
+- No wiki-repo changes this session -- archive repo only.

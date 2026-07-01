@@ -1,0 +1,32 @@
+# Embedding-upgrade LOCKED probe set v1 (2026-07-01)
+# 20 queries. FROZEN — never edit. New probes require a version bump (probes_v2.txt)
+# and a full re-baseline of the incumbent. This is the embedding-lane analogue of
+# the LOCKED Phase 3 / kw_ask / Pass C fixtures.
+#
+# Lines starting with # are comments and ignored by the harness.
+# Coverage: entities, quotes, studies, techs, prescience verdicts, decades, TCO,
+# vendor/market, cross-cutting themes. Weighted toward prescience + decade queries
+# because that is where qwen3-embedding-8b showed semantic drift in the 2026-07-01 A/B.
+#
+# --- original 12 (baselined vs bge-m3 on 2026-07-01) ---
+What did Aberdeen Group predict about client-server computing in the 1990s?
+Which technologies were forecast to disrupt relational databases?
+What was said about Digital Equipment Corporation's market position?
+How did analysts view Oracle's pricing strategy?
+What predictions were made about the shift to web-based enterprise software?
+Which vendors were expected to lose share to open-source software?
+What was the outlook for object-oriented databases?
+How was Microsoft's entry into enterprise software assessed?
+What did research say about ERP adoption drivers?
+Which prescient observations concerned the rise of the internet as a business platform?
+What were the short-horizon prescience verdicts for late-1990s studies?
+How did Aberdeen characterize the total cost of ownership debate?
+# --- 8 added 2026-07-01 to broaden coverage before locking ---
+Which late-1990s predictions turned out to be highly prescient about the internet?
+What studies scored high on 3-year prescience verdicts?
+How did Aberdeen assess Novell NetWare's competitive decline?
+What did analysts forecast about Linux adoption in the enterprise?
+Which observations discussed middleware and three-tier architecture?
+What was Aberdeen's view on the total cost of ownership of NT versus Unix?
+Which 1980s studies addressed minicomputer market dynamics?
+What predictions were made about data warehousing and business intelligence?

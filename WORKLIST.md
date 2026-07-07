@@ -14,7 +14,7 @@
 
 ---
 
-**Last updated:** 2026-07-01 EOD (embedding-upgrade-gates toolkit: 20 LOCKED probes + labeled gold set [198 rows / 151 relevant / 47 not] + two-part promotion gate [Recall@6 +0.05 margin AND per-query ≤1-hit no-regression floor]. First candidate — qwen3-embedding:8b MRL-1024 vs bge-m3 incumbent — **FAILS BOTH GATES → KEEP INCUMBENT** [Recall@6 0.586 vs 0.685, delta −0.100; 4 per-query regressions incl. prescience category-collapse Q11 −5 / Q14 −2]. Live index `data/embeddings.parquet` (bge-m3) UNTOUCHED. Toolkit shipped to BOTH `Archive/tools/` [public, light-touch] AND `Perplexity_Only/` [ops originals] with baseline record. Prior stamp: 2026-06-30 EOD-2 (model-eval scouting session: Track A qwen3.6:27b dense = NO-GO at Gate 2; Track B Sonar-replacement run-pack drafted but NOT shipped; kw_ask local-model scout = incumbent qwen3.5:27b-mlx stays, Gemma 3/4 27-31B is the only fixture-worthy candidate. ALL artifacts held in workspace, nothing committed. Prior stamp: v2.0 release: full-corpus 3y/5y SH prescience + v9 confab fix + PC Deals per-SKU journeys; SH master 17,030 rows / 792 verdict studies; live DuckDB 1504/24842/3293/4376/876; all four v2.0 docs written; wiki pushed; archive push handed to Pete)
+**Last updated:** 2026-07-07 AM (master-CSV cleanse plan for SAP-study unblock: 388 entity duplicate identities + 328 tech duplicate identities + 30-50 rows with successor-string bleed [Microsoft/Intel/Sybase/Yahoo/Informix carrying DEC/Compaq/HP fanout metadata] + 8 confirmed tech mislabels [data-mining→SOA, microsoft-backoffice→NUMA, sun-ultrasparc→EII, titanium→Itanium, etc.] + 281 rows with legacy `[DEFERRED]` sentinel. Plan v1 authored, Q1-Q7 answered by Pete, Q1 revised after discovering `Perplexity_Only/CANONICAL_IDS.md` already fixes canonical slugs (fully-qualified form wins where already documented: microsoft-corporation / oracle-corporation / sap-ag / sybase-inc / hewlett-packard). Six phases: Phase 0 regression harness (built now, wired as `07_audit_masters_v1.py` at end of Phase 2), Phase A tech mislabels, Phase B entity metadata bleed, narrow-scope Phase C SAP-cluster merge, then overnight Phases 3+4+5+6 full Workflow C, then background Phase D tech alias sweep + Phase E `[DEFERRED]`→`Deferred Review` migration. `notes` merge delimiter `\n---\n` locked; KW Notes render patch queued. Prior stamp: 2026-07-01 EOD (embedding-upgrade-gates toolkit: 20 LOCKED probes + labeled gold set [198 rows / 151 relevant / 47 not] + two-part promotion gate. First candidate qwen3-embedding:8b MRL-1024 vs bge-m3 incumbent FAILS BOTH GATES → KEEP INCUMBENT. Prior: 2026-06-30 EOD-2 model-eval scouting; v2.0 release: full-corpus 3y/5y SH prescience + v9 confab fix + PC Deals per-SKU journeys; SH master 17,030 rows / 792 verdict studies; live DuckDB 1504/24842/3293/4376/876; wiki pushed; archive push handed to Pete)
 **Current ship state:** **v2.0 — archive push PENDING (Pete runs on Mac).** Wiki `shorttack/kastner-aberdeen-wiki` PUSHED this session: main `3a992434..93499d11` (1623 files, 11459 ins / 524 del; embeddings.parquet 66 MB; README v1.6→v2.0-rebuild content; SH parquets present). Live DuckDB shape (post-SH Phase 1 v3 + Phase 2 v5 rebuild): **1504 studies / 24842 observations / 3293 entities / 4376 techs / 1504 pub_year / 6 decades / 876 high-prescience** (`v_studies_with_high_prescience` = `prescience_max ≥ 4` = 876; authored enum high = 503; mean≥3.5 = 88). SH: `v_prescience_sh` = 17,030; `v_studies_with_sh_verdicts` = 792 (3y 522H/264M/4L/1na/1pend; 5y 518H/268M/4L/1na/1pend). Prior archive `origin/main` at `ce3262f3` (Pass B masters merge); tag `v1.9.0` (2026-06-22) latest released. bge-m3 (1024-dim) re-embed of 10,862 pages (Phase 5). **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found 2026-06-01 PM, rotated to `shorttack`; historical commits retain dead-string "Catalina" in Author metadata.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -28,7 +28,28 @@ How to use:
 
 ## Next up
 
-### 2026-06-24 PM focus
+### 2026-07-07 focus — Master-CSV cleanse (SAP-study unblock)
+
+Sequenced against `master_csvs_cleanse_plan_v1.md` (workspace). Pete's locked decisions from this AM: canonical slugs follow existing `Perplexity_Only/CANONICAL_IDS.md` (fully-qualified form wins where documented); SAP survivor = `sap-ag`; study-scoped IDs (`eNN-NN`, `tNN-NN`, `enc-03`) merge into canonical; `notes` concat delimiter `\n---\n` (plus KW Notes render patch); sentinel string = `Deferred Review` (plain, no brackets); Phase F built NOW; overnight = full Workflow C (Phases 3+4+5+6).
+
+**Session sequence (today):**
+
+1. **Phase 0 — Regression harness `scripts/build/07_audit_masters_v1.py`.** Three probes at end of every Phase 2 rebuild: (a) alias-collision ratio floor `distinct_norm_names / total_rows` for `v_entities` and `v_technologies` (baseline captured today, alerts if it drops); (b) ID-vs-name congruence probe (any tech_id whose normalized slug bears no resemblance to normalized tech_name); (c) successor-bleed detector (any entity whose `successor` contains both `Compaq` AND `HP` where `entity_name` is not itself DEC/Compaq/Tandem/HP/EDS/3Com/Palm/Digital). Ship as workspace file + `gh api PUT` to `scripts/build/07_audit_masters_v1.py`. Also patch `02_build_data_layer_v5.py` to shell out to Phase 07 at the end (or emit invocation instructions if Pete prefers to keep Phase 2 unchanged this cycle).
+2. **Phase A — Tech mislabel repair.** Generate `tech_mislabel_candidates_v1.csv` via the congruence probe. Pete reviews (~40-70 rows expected). `apply_tech_mislabel_v1.py` writes both `_master_technologies.csv` and `_master_tech_studies.csv` with disposition per row (RENAME_ID vs DELETE_ROW).
+3. **Phase B — Entity metadata bleed fix.** Three probes (Compaq+HP successor pattern; Siemens-not-Nixdorf-not-Fujitsu pattern; known-active-but-marked-acquired list). Emit `entity_metadata_candidates_v1.csv`. Pete reviews (~30-60 rows). `apply_entity_metadata_v1.py` writes only `_master_entities.csv`, row count MUST be unchanged.
+4. **Phase C-narrow — SAP cluster only.** Build `entity_alias_map_v1_sap_only.csv` collapsing `sap-ag` + all `ENT-SAP*` + `ENT-BO-002` + `ENT-IRP-003` + the bare `sap` row into survivor **`sap-ag`** (`entity_name = "SAP AG"`, `successor = "SAP SE (2014 rebranding)"`). PRESERVE separately: `sap-america` (SAP America Inc. subsidiary — its own canonical) and `sap-america-utilities` (utilities-vertical subsidiary). `apply_entity_aliases_v1_sap.py` writes `_master_entities.csv` (row count −6 expected) + `_master_entity_studies.csv` (rewrites all `sap-*` aliases to `sap-ag`, dedupes on `(study_id, entity_id)`).
+5. **EOD commit** — one batch commit per repo per `kastner-github` skill's Git Data API pattern.
+6. **Overnight — full Workflow C** with `caffeinate` + `tee`: Phase 1 → Phase 2 (includes Phase 07 audit) → Phase 3 (~3h tier-1 LLM regen) → Phase 4 → Phase 5 (~15min bge-m3 re-embed) → Phase 6 scaffolding refresh. `wiki/_redirects.md` written mapping any deleted alias slugs → canonical.
+
+**Deferred to future sessions (not in scope today):**
+- Phase D (full tech alias sweep, ~328 clusters) — schedule after A confirmed clean
+- Phase C-broad (full ~150 entity alias clusters, ~388 rows) — schedule after B confirmed clean
+- Phase E (`[DEFERRED]` → `Deferred Review` migration, 281 rows) — schedule after B
+- `CANONICAL_IDS.md` back-fill for the 30+ new canonical slugs that this session will formalize
+
+**Carry-forward items** (nothing lost — see full backlog below): all v1.8.0 backlog, v1.7.0 items, §11u-cont-tail items, §11v backlog, MCP bridge follow-ups, etc.
+
+### 2026-06-24 PM focus (superseded by 2026-07-07 focus above; kept for context)
 
 - First concrete action: create `~/Repos/mac_mcp_bridge/` Phase 0 scaffold outside iCloud, with FastMCP project skeleton, README, and read-only scope only.
 - Keep the existing v1.8.0/v1.9.0 backlog intact; do not close or reorder historical carry-forward items during setup.
@@ -517,37 +538,69 @@ FastMCP stdio bridge exposing the archive + wiki to Perplexity Mac app. **No loc
 
 ## Done this session
 
-### Embedding-upgrade-gates toolkit + first candidate verdict (2026-07-01, EOD COMMIT)
+### Master-CSV cleanse — Phases 0/A/B/C-narrow prepared (2026-07-07 AM/PM)
 
-- **New reusable toolkit `embedding-upgrade-gates/`** — the embedding-lane analogue of `local-model-upgrade-gates` (which covers the LLM lane; bge-m3 explicitly lives in a separate lane per that skill). Shipped to BOTH repos this EOD: **public light-touch** copy at `Archive/tools/embedding-upgrade-gates/` (for other scholars/posterity) and **ops originals** at `Perplexity_Only/embedding-upgrade-gates/`. Contents: `README.md`, `METHODOLOGY.md`, `probes_v1.txt` (20 LOCKED probes, `#`=comment), `scripts/{embed_ab_harness_v2.py, build_gold_template_v1.py}`, `gold/` (labeled gold + prefilled template), `baselines/`.
-- **Two-part promotion gate LOCKED (2026-07-01).** Candidate promotes ONLY if BOTH: **(A)** aggregate Recall@6 ≥ incumbent + 0.05, AND **(B)** candidate loses ≤1 relevant hit vs incumbent on ANY single query. MRR@6 + mean-Jaccard(top-6) = context/risk signals only, NOT gates. Recall@6 (not @10/nDCG) because k=6 is the `kw_ask` default. Harness flags: `--queries`, `--gold`, `--recall-margin` (default 0.05), `--regression-floor` (default 1). Status quo wins ties.
-- **Labeled gold set (Pete's judgment, reviewed + confirmed).** `gold/embed_gold_20probes_labeled_v1.csv` — 198 rows / 20 queries, **151 relevant / 47 not-relevant, 0 blanks**. Rubric: 1 = on-topic real content page; 0 = scaffolding/definition page (`code-pre-00x`, `code-prescience-assessment`, `_prescient`, bare decade tags) OR off-topic. Aggressive 0-labeling concentrated on the two prescience probes (Q11 5/12, Q14 2/11) — the category-collapse guard. Grounded in the full 48-slug resolver (`slug_resolution.txt`). Pete confirmed Q6 `linux-server`=1 and Q14 decade tags=0.
-- **First candidate — qwen3-embedding:8b (MRL-1024) vs bge-m3 incumbent: KEEP INCUMBENT.** Both indexes 10,862 vecs / dim 1024, top-k 6. **Gate A FAIL:** Recall@6 inc 0.685 vs cand 0.586, delta −0.100 (candidate worse, not marginally better). **Gate B FAIL:** 4 per-query regressions — Q11 short-horizon prescience 5→0 (**−5**), Q14 3y-prescience 2→0 (−2), Q5 web-enterprise 4→2 (−2), Q6 lose-to-OSS 4→2 (−2). MRR@6 inc 0.912/cand 0.875; mean Jaccard(top-6) 0.237 (<0.3 band). The two prescience probes are the qwen category-collapse the gate was built to catch — candidate top-6 returned ONLY scaffolding pages. **The gate did its job.**
-- **Baseline record written to both trees** — `baselines/bgem3_vs_qwen3emb8b_20260701.md` (ops = full internal detail; public = de-internalized). Supersedes the earlier "PENDING gold labels" agreement-only draft.
-- **Live index UNTOUCHED.** `data/embeddings.parquet` (bge-m3) never modified; candidate `data/embeddings_qwen1024.parquet` + incumbent snapshot `data/embeddings_bgem3.parquet` stay on disk as recorded artifacts (local-only, NOT in repo). Rollback pre-written but unused.
-- **Mac eval-dir artifacts stay local** at `/Users/scott/Desktop/Archive/eval/` — NOT committed (harness, probes, labeled/draft/verdict CSVs). Only the toolkit trees + baseline record go into the repo.
-- **Notes-dir pre-commit check: CLEAN** (`git status --porcelain wiki/notes/` empty on the Mac). No KW Console notes to fold in.
+**Plan v2** authored: `master_csvs_cleanse_plan_v2.md` (workspace). Supersedes v1. Locks Pete's Q1-Q10 answers; discovers `Perplexity_Only/CANONICAL_IDS.md` already fixes canonical slugs (fully-qualified form wins where documented — SAP survivor = `sap-ag`, not `sap`).
 
-### Model-eval scouting (2026-06-30 PM, NO COMMITS — all held in workspace)
+**Phase 0 (regression harness)** built:
+- `07_audit_masters_v1.py` (workspace, 321 LOC, `py_compile` OK). Three probes: alias-collision ratio floor, tech ID-vs-name congruence, DEC/Compaq/HP successor-bleed. Exit 0/1/2 (pass/alert/fail). `--update-baseline` reseeds after cleanse.
+- `audit_masters_baseline.json` (workspace, 37 KB) captures pre-cleanse state: shape 1504/24842/3293/4376/876; entity collision ratio 0.8822; tech collision ratio 0.9250; 1,577 grandfathered tech-congruence violators; 4 grandfathered successor-bleeds (`ENT-S3-001`, `intel`, `stratus-technologies`, `sybase`).
+- `generate_baseline_v1.py` (workspace) reseeds the JSON from live DuckDB when needed.
 
-- **Track A — qwen3.6:27b dense vs qwen3.5:27b-mlx: NO-GO (Gate 2 STOP honored).** Gate 0 flagged G1 (Qwen 3.x thinking trap) + G3 (frozen-LLM prescience failure). Gate 1 MIXED→STOP: gains are reasoning-mode-only; non-thinking IFBench regresses, ~12% JSON error rate + context drift. Gate 2: no non-thinking primary-capability gain across Phase 3 / kw_ask / Pass C; gains land in the "doesn't matter" coding column. Decision: **keep `qwen3.5:27b-mlx`**, no pull, Gate 3/4 not needed. Analysis: `trackA_gate1_gate2_qwen36_27b_v1.md` (workspace).
-- **Track B — Sonar Pro replacement scout (per G3).** Replacement MUST retrieve+abstain at inference. Shortlist: Sonar Deep Research (top, lowest migration risk) → local Qwen + Ollama 0.18.1 web_search → Valyu DeepResearch. Eval gate LOCKED: quadratic-weighted κ≥0.70 (raw or ≤±1 shift); baseline-to-beat qwen3.5-27b κ_max=0.331. Run-pack drafted (2 scripts: `run_prescience_pass_c_sonar_deep_research_v1.py` [compiles OK] + `compute_pass_c_candidate_kappa_v1.py` [NOT compile-verified]). **Fixture discovery flagged:** `scripts/qwen_master_kappa_v2_paired.csv` is an OUTPUT not an input; real reference = `_master_prescience_scores.csv` filtered to `model='sonar-reasoning-pro'`. Run-pack + scout: `trackB_sonar_replacement_scout_v1.md` (workspace). NOT SHIPPED — Pete declined EOD commit.
-- **kw_ask local-model scout (reframe, ~27-32B class, scouting only).** Key insight: kw_ask is retrieval-grounded, so G3 does NOT apply (evidence is in-prompt). Incumbent `qwen3.5:27b-mlx` is hard to beat (leads open-source IFEval at 95.0%). Only fixture-worthy candidate: **Gemma 3 27B / Gemma 4 31B** — upside is dropping the G1 thinking-mode tax + freeing RAM, not better extraction. Command R 35B is the citation-quality leader but gated by CC-BY-NC license + unverified MLX availability (abort-if-no-MLX). Qwen3.6 out (Track A precedent). Writeup: `kw_ask_local_model_scout_v1.md` (workspace + shared to artifacts). MLX-tag/license verification NOT done.
-- **EOD decision (Pete):** hold all artifacts in workspace, no commit. No notes-dir items (`kw pending` clean per v2.0 session).
+**Phase A candidates + apply**: `tech_mislabel_candidates_v1.csv` (8 MERGE_INTO rows: data-mining→service-oriented-architecture, microsoft-backoffice→numa-architecture, sun-ultrasparc→enterprise-information-integration, audio-conferencing→oltp, webex-training-center→ms-cluster-server, titanium→itanium, t2-04→numa-architecture, tech-01→rolap) + `apply_tech_mislabel_v1.py` (workspace). **Dry-run against workspace masters GREEN: tech master 4376→4368 (Δ −8), tech_studies join 5389→5389 (rewrites=43, dedup=0)**.
 
-### v2.0 release prep — full-corpus SH prescience + PC-Deals per-SKU + Zenodo docs (2026-06-30)
+**Phase B candidates + apply**: `entity_metadata_candidates_v1.csv` (10 rows fixing bleed) + `apply_entity_metadata_v1.py`. **Dry-run GREEN: 3293→3293 (row count unchanged, as required), 10 rows updated, 23 field-level changes.** Fixes: informix-software Siemens→IBM; microsoft/microsoft-corporation status→active successor→null; intel/intel-corporation successor→null; sybase entity_type→software-vendor successor→SAP-2010; yahoo successor→Verizon-Apollo; oracle-corporation status→active; stratus-technologies successor→null; ENT-S3-001 successor bleed cleaned (IBM Software Solutions Division placeholder, will merge into `ibm` in Phase C-broad).
 
-- **SH (3y/5y) prescience integrated end-to-end.** `merge_sh_scores_to_master_v1.py` → `_master_prescience_short_horizon.csv` (**17,030 rows**); `apply_sh_study_verdicts_v1.py` → studies master 16→20 cols, **792 verdict studies** (3y: 522 high / 264 medium / 4 low / 1 not-applicable / 1 pending; 5y: 518 high / 268 medium / 4 low / 1 not-applicable / 1 pending). `apply_study_verdicts_v1.py` filled `perspecta-inc-september-1997` → medium.
-- **Pipeline phases bumped for SH.** Phase 1 → `01_load_csvs_v3.py` (SH master in `MASTER_SCHEMAS` halt=0; `short_horizon` parquet). Phase 2 → `02_build_data_layer_v5.py` (PROMOTE `short_horizon`; new views `v_prescience_sh`, `v_observations_with_sh`, `v_studies_with_sh_verdicts`, `v_sh_3y_distribution`, `v_sh_5y_distribution`). Phase 3 → `03_generate_vault_v3.py` (study pages render SH verdicts in frontmatter + "Short-horizon prescience" body section so bge-m3 embeds them; tier-1 prompt gets 3y/5y). Phase 6 → `06_emit_scaffolding_v2.py` (README "What's new" SH block; AGENTS SH recipes; chat-starter prompts 4-6; verify.py +4 SH views). All `py_compile` OK. Canonical SH chain = 03_v3 / 04_v2 / 05_v3 (bge-m3) / 06_v2 — do NOT run the older non-SH v4/v5/v6 build scripts.
-- **Phase 1 v3 + Phase 2 v5 rebuild RAN clean (Pete, this session).** All 33 views built. Shape audit BEFORE == AFTER (only SH cols/views added, no rows): **1504 studies / 24842 observations / 3293 entities / 4376 technologies / 1504 pub_year / 6 decades / 876 high-prescience**. `v_studies` now exposes `prescience_3y_enum/_rationale` + `prescience_5y_enum/_rationale`.
-- **`kw ask` validation PASSED** — "which studies were prescient at 3 years" returned Object-Oriented Three-Tier-Plus 1996 (high, mean 3.92) as exemplar; population ground truth in `v_studies_with_sh_verdicts`.
-- **Three high-prescience surfaces clarified (baked into README).** `v_studies_with_high_prescience` (`prescience_max ≥ 4`, loose) = **876** (headline count); authored enum (`study_prescience_enum='high'`) = **503**; `prescience_mean ≥ 3.5` (tight) = **88**. Authored-enum distribution: high 503 / not-applicable 384 / medium 339 / low 276 / [DEFERRED] 2.
-- **Observation count reconciled.** Live `v_observations` = **24,842** is canonical for all v2.0 docs (the 2026-06-27 CSV snapshot of 24,715 predated the post-`-mx` rebuild; Δ +127 reconciled per Pete 2026-06-30).
-- **PC Deals `-mx` per-SKU price journeys** — L7 tier: **249 per-SKU price journeys** (lead PC-Deals deliverable for v2.0 release notes).
-- **Wiki repo PUSHED** — `shorttack/kastner-aberdeen-wiki` main `3a992434..93499d11` (1623 files, 11459 ins / 524 del; embeddings.parquet 66 MB under the 100 MB hard limit; SH parquets present; bge-m3 1024-dim re-embed of 10,862 pages). KW Console notes clean (`kw pending` empty).
-- **Four v2.0 docs written + shared** — `RELEASE_NOTES_v2.0.md` (new; leads with full-corpus 3y/5y prescience + v9 confabulation fix, then PC-Deals per-SKU journeys), `README.md` (full v2.0 rewrite), `.zenodo.json` (new), `CITATION.cff` (v2.0). Decisions-log v2.0 entry drafted (both shape audits + obs reconciliation + prescience-surface clarification).
-- **Archive repo push HANDED TO PETE (Mac).** SH masters (`_master_prescience_short_horizon.csv` 17,030 rows; `_master_studies.csv` 20 cols), PC-Deals per-SKU data, and the new build scripts live in Pete's working tree — Pete bundles everything plus the six doc files in ONE Mac `git add && git commit && git push`, then tags `v2.0` + `gh release create` (notes-file = `releases/RELEASE_NOTES_v2.0.md`) and deposits the archive + wiki to Zenodo (concept DOI `10.5281/zenodo.20245076`).
-- **DECLUTTER_PLAN_v1 implemented (Groups A+B+C+D only; E/F/G deferred).** Built `reorg_archive_root_v1.py` (~340 lines; dry-run default, `--commit` executes, `--safety` runs only the path-safety grep gate, `--force` overrides, `--repo` defaults to CWD). Refuses to run unless CWD has `_master_studies.csv` + `.git`. `git mv` for tracked files (preserves history as `R` renames), plain `mv` for gitignored. Creates `releases/`, `reports/`, `data_sources/`, `_local_backups/`. **Move groups:** A = `*.bak*` / `archive_masters_pre_*` → `_local_backups/` (gitignored); B = `RELEASE_NOTES_v*.md` / `future_work_v*.md` / `RESUME_2026_*.md` → `releases/` (WORKLIST.md STAYS at root; dated WORKLISTs deferred); C = `_audits/`, validation/audit/report CSVs + `_web_cache.json` / `_web_verification_results.json` / `PASS_A_VERIFICATION_REPORT.md` / `model_prescience_scoring_finding_v1.md` / `_master_entity_field_conflicts.csv` → `reports/`; D = `*_processed.zip` (7) → `data_sources/`. Masters, `_known_*`, `_decisions_log.md`, `WORKLIST.md`, `CHANGELOG`/`CITATION`/`LICENSE` STAY at root (asserted post-run). Path-safety grep blocks any flagged name from moving unless `--force`; SAFETY_NAMES also covers Group F items so Pete can verify before any future stale-dup move. Idempotent (`0 to move` on re-run). Tested on a synthetic /tmp repo: 26 moved as `R` renames, masters preserved, `_collection_stats.csv` correctly BLOCKED by active script ref, Group F untouched. **Folded into the v2.0 commit** (Pete's choice): reorg runs FIRST on the Mac (`--safety` → paste grep → `--commit`), THEN docs drop (`RELEASE_NOTES_v2.0.md` into `releases/`), THEN ONE `git add -A && git commit && git push`. README updated for the new layout: `RELEASE_NOTES` internal link → `./releases/`, layout/tree block adds `releases/` `reports/` `data_sources/` `_local_backups/ (gitignored)`. `_local_backups/` added to `.gitignore` so Group A backups stay out of the Zenodo tarball.
+**Phase C-narrow (SAP) alias map + apply**: `entity_alias_map_v1_sap_only.csv` (9 rows: 1 CANONICAL_SURVIVOR=`sap-ag`, 5 MERGE_INTO=[`sap`, `ENT-SAP`, `ENT-SAP-001`, `ENT-BO-002`, `ENT-IRP-003`], 3 KEEP_SEPARATE=[`sap-america`, `sap-america-utilities`, `paul-wahl-sap`]) + `apply_entity_aliases_v1_sap.py`. **Dry-run GREEN: entities master 3293→3288 (Δ −5), entity_studies join 3900→3900 (rewrites=19, dedup=0)**. Notes concat delimiter `\n---\n` locked (Pete Q4).
+
+**Key data findings (verified via read-only DuckDB probes 2026-07-07 AM):**
+- Entities: 3293 rows → 2905 distinct normalized names → ~388 duplicate identities.
+- Technologies: 4376 rows → 4048 distinct normalized names → ~328 duplicate identities.
+- "Microsoft → Siemens Nixdorf" other thread report was paraphrase; literal Siemens-Nixdorf misattribution is on `informix-software`. Microsoft's actual bleed is `successor="HP Inc. / Hewlett Packard Enterprise"`.
+- SAP-cluster study-ref audit: `sap-ag` 27 studies, `sap` 17 studies, `ENT-SAP` 1, `ENT-BO-002` 1 — total 46 join rows across 46 distinct studies (zero overlap; dedup delta = 0).
+
+**Mac-side runbook (Pete tomorrow):**
+```bash
+cd ~/Desktop/Archive/aberdeen-group-archive && git pull
+# Shape audit BEFORE (paste into decisions log):
+duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "SELECT (SELECT COUNT(*) FROM v_studies) AS studies, (SELECT COUNT(*) FROM v_observations) AS observations, (SELECT COUNT(*) FROM v_entities) AS entities, (SELECT COUNT(*) FROM v_technologies) AS technologies, (SELECT COUNT(*) FROM v_studies_with_high_prescience) AS high_prescience;"
+
+# Copy runtime scripts + candidates:
+cp scripts/build/07_audit_masters_v1.py     ~/Desktop/Archive/scripts/build/
+cp scripts/apply_tech_mislabel_v1.py        ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_metadata_v1.py      ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_aliases_v1_sap.py   ~/Desktop/Archive/scripts/
+cp Perplexity_Only/audit_masters_baseline.json  ~/Desktop/Archive/Perplexity_Only/
+cp tech_mislabel_candidates_v1.csv          ~/Desktop/Archive/
+cp entity_metadata_candidates_v1.csv        ~/Desktop/Archive/
+cp entity_alias_map_v1_sap_only.csv         ~/Desktop/Archive/
+
+cd ~/Desktop/Archive
+python3 scripts/apply_tech_mislabel_v1.py                 # dry-run
+python3 scripts/apply_tech_mislabel_v1.py --commit
+python3 scripts/apply_entity_metadata_v1.py               # dry-run
+python3 scripts/apply_entity_metadata_v1.py --commit
+python3 scripts/apply_entity_aliases_v1_sap.py            # dry-run
+python3 scripts/apply_entity_aliases_v1_sap.py --commit
+
+# Rebuild pipeline (Phase 1+2 trigger Phase 0 audit at end of Phase 2):
+python3 scripts/build/01_load_csvs_v3.py --archive ~/Desktop/Archive/archive_masters --wiki ~/Repos/kastner-aberdeen-wiki
+python3 scripts/build/02_build_data_layer_v5.py --wiki ~/Repos/kastner-aberdeen-wiki
+python3 scripts/build/07_audit_masters_v1.py              # standalone (or wired at end of Phase 2)
+
+# Shape audit AFTER — expect studies+obs unchanged, entities 3293→3288, tech 4376→4368
+# Overnight (caffeinate + tee) — Phases 3+4+5+6 full Workflow C
+```
+
+### Backlog items raised this session
+
+- [ ] **KW Notes render patch for `\n---\n` delimiter** — the concat delimiter approved as Q4 will trigger `<hr>` if it lands mid-paragraph in an Obsidian markdown page rendered from a `notes` cell. KW Notes generator script needs a small patch to translate `\n---\n` into a visible separator (or wrap in a preformatted block) so the merged notes render cleanly on entity/tech wiki pages.
+- [ ] **`CANONICAL_IDS.md` back-fill** for slugs formalized this session but not yet listed there: `oltp` (already implicitly canonical, add row); `numa-architecture`, `enterprise-information-integration`, `ms-cluster-server`, `rolap`, `service-oriented-architecture`, `itanium` (all now canonical targets of Phase A merges). Also add anti-pattern rows for the 8 mislabel aliases so future ingests don't reintroduce them.
+- [ ] **Phase D — full tech alias sweep** (~130 clusters, ~328 aliases). Follows same pattern as Phase C-narrow but at scale. Schedule after Phase A + this session's EOD lands cleanly.
+- [ ] **Phase C-broad — full entity alias sweep** (~150 clusters, ~388 aliases including Microsoft-11, Oracle-13, IBM-12+5, HP-7, Sybase-6, DEC-7, Compaq-6, Novell-6, Intel-5, EMC-5, AMD-5). Schedule after Phase B lands cleanly.
+- [ ] **Phase E — `[DEFERRED]`/`[REVIEW]` → `Deferred Review` sentinel migration** (281 entity rows).
+- [ ] **Wire `07_audit_masters_v1.py` into `02_build_data_layer_v5.py`** as a `subprocess.run` at the tail of Phase 2. Ship as `02_build_data_layer_v6.py` per the versioning invariant. Optional this session; not strictly required for the harness to work manually.
+- [ ] **`wiki/_redirects.md`** for the SAP aliases (once Phase C-narrow lands): `sap` → `sap-ag`, plus the 4 ENT-* placeholders. Small enough to hand-author overnight.
 
 ## §11v BACKLOG — kw-note integration for player rebuttals
 

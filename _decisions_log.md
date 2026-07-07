@@ -4174,3 +4174,175 @@ but unused -- the candidate was never promoted.
 - Notes-dir pre-commit check CLEAN (`git status --porcelain wiki/notes/` empty on the
   Mac). No KW Console notes to fold in.
 - No wiki-repo changes this session -- archive repo only.
+
+---
+
+## 2026-07-07 -- Master-CSV cleanse (SAP-study unblock): Phases 0/A/B/C-narrow prepared
+
+**Session:** solo agent (Perplexity Computer). Straight-through afternoon session preparing
+scripts and candidates CSVs for a Mac-side cleanse pass. No masters modified this session
+-- all changes staged for Pete's Mac dry-run + `--commit` cycle.
+
+**Trigger.** Another thread preparing an SAP longitudinal study reported "Heavy alias/ID
+collisions and some mislabeled tech rows in the archive," plus "entity Microsoft Corp
+pointing to Siemens Nixdorf." Pete asked for a cleanse plan.
+
+### The finding (why this session mattered)
+
+Read-only DuckDB probes (`perplexity_bridge_v2`) confirmed the problem is real and
+larger than the paraphrase implied:
+
+- **Entities**: 3293 rows collapse to 2905 distinct normalized names -> ~388 duplicate
+  identities. Microsoft has 11 IDs, Oracle 13, IBM (short) 12 + IBM Corporation 5, SAP 8,
+  DEC 7, HP 7, Sybase 6, Compaq 6, Novell 6, Intel 5, EMC 5, AMD 5.
+- **Technologies**: 4376 rows -> 4048 distinct normalized names -> ~328 duplicate
+  identities.
+- **The "Microsoft -> Siemens Nixdorf" report was a paraphrase.** The literal
+  Siemens-Nixdorf misattribution is on `informix-software`. Microsoft's actual bleed is
+  `successor="HP Inc. / Hewlett Packard Enterprise"` on the `microsoft` alias and
+  `successor="Oracle Corporation (1995)"` on `microsoft-corporation` (canonical). Both
+  are the same class of bug: an ingest pass authored DEC/Compaq/HP successor chains and
+  fanned them out across too many unrelated entities.
+- **8 tech rows have `tech_id` pointing to a different technology than `tech_name`
+  describes**: `data-mining` (row is SOA), `microsoft-backoffice` (row is NUMA),
+  `sun-ultrasparc` (row is EII), `audio-conferencing` (row is OLTP),
+  `webex-training-center` (row is MSCS/Wolfpack), `titanium` (row is Itanium, simple
+  typo), `t2-04` (row is NUMA), `tech-01` (row is ROLAP).
+
+### The decisions (Pete's Q1-Q10 answers, locked)
+
+1. **Canonical-slug authority = `Perplexity_Only/CANONICAL_IDS.md` as-is.** Fully-qualified
+   form wins where documented (`microsoft-corporation`, `oracle-corporation`, `sap-ag`,
+   `sybase-inc`, `hewlett-packard`, `silicon-graphics`, `informix-software`,
+   `tandem-computers`, `compaq-computer`, `apple-computer`, `sun-microsystems`,
+   `peter-s-kastner`). Short form only where already short (`ibm`, `dec`, `aol`, `idc`,
+   `ups`, `ent-att`, `ent-vantive`, `aberdeen-group`). This overrides my initial v1
+   plan-draft which had proposed short-form survivors.
+2. **SAP handling**: survivor is `sap-ag`, `entity_name="SAP AG"`, `successor="SAP SE (2014
+   rebranding)"`. All ENT-* placeholders + the bare `sap` row collapse in. `sap-america`
+   and `sap-america-utilities` stay as separate rows (subsidiaries).
+3. **Study-scoped IDs merge into canonical.** `eNN-NN` / `tNN-NN` / `ENT-XXX-NNN` /
+   `TECH-XXX-NNN` families all fold in. Not first-class entities.
+4. **`notes` concat delimiter `\n---\n`** approved. KW Notes render script needs a patch
+   (backlog item) so that delimiter doesn't render as an inline `<hr>` mid-paragraph in
+   Obsidian.
+5. **Sentinel string = `Deferred Review`** (plain, no brackets). Phase E migration will
+   translate legacy `[DEFERRED]` / `[REVIEW]` sentinels.
+6. **Phase F (regression harness) built NOW**, renamed Phase 0, wired as
+   `scripts/build/07_audit_masters_v1.py` to run at end of Phase 2 per the pipeline
+   contract.
+7. **Session shape**: `kastner-new-day` WORKLIST first; Phases 3-6 deferred overnight
+   (full Workflow C -- Pete Q8).
+8-10. SAP-alias resolution + Phase 0 placement locked as above.
+
+### The build (this session, sandbox only)
+
+Twelve artifacts staged in workspace, all `py_compile` OK and dry-run GREEN against the
+master CSVs fetched from `origin/main` via `gh api /git/blobs/<sha>` (masters are
+713 KB / 1049 KB, exceed the contents-endpoint 1 MB limit; blob endpoint bypasses it):
+
+**Phase 0 (regression harness):**
+- `scripts/build/07_audit_masters_v1.py` -- three probes (alias-collision ratio floor,
+  tech ID-vs-name congruence, DEC/Compaq/HP successor-bleed). Exit codes 0/1/2 =
+  pass/alert/fail. `--update-baseline` flag reseeds the JSON after a legitimate cleanse.
+- `Perplexity_Only/audit_masters_baseline.json` -- 37 KB baseline captured 2026-07-07 AM
+  pre-cleanse. Shape 1504/24842/3293/4376/876; entity collision ratio 0.8822; tech
+  collision ratio 0.9250; 1577 grandfathered tech-congruence violators (mostly legitimate
+  `TECH-XXX-NNN` Pass-B codes whose numeric slugs bear no relation to correct
+  tech_names); 4 grandfathered successor-bleeds (`ENT-S3-001`, `intel`,
+  `stratus-technologies`, `sybase`) -- all being fixed by Phase B.
+- `scripts/generate_baseline_v1.py` -- reseeds the baseline JSON from live DuckDB when
+  the harness is run on the Mac.
+
+**Phase A -- tech mislabel repair (8 rows):**
+- `tech_mislabel_candidates_v1.csv` -- 8 MERGE_INTO rows.
+- `scripts/apply_tech_mislabel_v1.py` -- dry-run + `--commit`; backup +
+  `csv.QUOTE_ALL` + row-count assertion + audit trail.
+- **Dry-run GREEN**: `_master_technologies.csv` 4376 -> 4368 (delta -8);
+  `_master_tech_studies.csv` 5389 -> 5389 (43 rewrites, 0 dedups). Every candidate's
+  canonical target verified present.
+
+**Phase B -- entity metadata bleed fix (10 rows):**
+- `entity_metadata_candidates_v1.csv` -- 10 rows with per-field proposals for the 4
+  editable columns (`entity_type`, `sector`, `status`, `successor`).
+- `scripts/apply_entity_metadata_v1.py` -- hard-asserts row count unchanged.
+- **Dry-run GREEN**: `_master_entities.csv` 3293 -> 3293 (row count locked), 10 rows
+  updated, 23 field-level changes. Fixes documented in candidates CSV `review_notes`
+  per row.
+
+**Phase C-narrow -- SAP cluster (9 rows: 1 survivor / 5 merges / 3 keeps):**
+- `entity_alias_map_v1_sap_only.csv` -- 9 rows.
+- `scripts/apply_entity_aliases_v1_sap.py` -- deletes 5 alias rows from
+  `_master_entities.csv`, rewrites 46 alias-side join rows in
+  `_master_entity_studies.csv` to survivor `sap-ag`, dedupes on
+  `(entity_id, study_id)`, concat-merges alias notes with `\n---\n`.
+- **Dry-run GREEN**: entities master 3293 -> 3288 (delta -5); entity_studies join
+  3900 -> 3900 (19 rewrites, 0 dedups -- confirmed via pre-flight probe: 5 aliases +
+  survivor share no common study_id).
+
+**Post-cleanse projected shape (after all three phases apply)**: 1504 studies /
+24842 obs / **3288 entities** (down from 3293) / **4368 technologies** (down from 4376) /
+876 high-prescience.
+
+**Plan + WORKLIST:**
+- `Perplexity_Only/master_csvs_cleanse_plan_v2.md` -- supersedes v1 (workspace only, not
+  committed). Locks Pete's Q1-Q10 answers; reflects `CANONICAL_IDS.md` authority.
+- `WORKLIST.md` (root) + `WORKLIST_2026_07_07.md` (workspace) -- byte-identical mirror
+  pair per rule A. 129 open items -> 136 (7 new backlog items raised: KW Notes render
+  patch, `CANONICAL_IDS.md` back-fill for new canonical slugs, Phase D full tech alias
+  sweep, Phase C-broad full entity alias sweep, Phase E `[DEFERRED]` migration, wire
+  `07_audit_masters_v1.py` into Phase 2 as `02_build_data_layer_v6.py`, `wiki/_redirects.md`
+  for SAP aliases).
+
+### Mac-side runbook (Pete tomorrow -- full detail in WORKLIST.md "Done this session")
+
+```bash
+cd ~/Desktop/Archive/aberdeen-group-archive && git pull
+
+# Shape audit BEFORE (paste into decisions log)
+duckdb ~/Repos/kastner-aberdeen-wiki/db/kastner.duckdb -c "SELECT
+  (SELECT COUNT(*) FROM v_studies) AS studies,
+  (SELECT COUNT(*) FROM v_observations) AS obs,
+  (SELECT COUNT(*) FROM v_entities) AS ent,
+  (SELECT COUNT(*) FROM v_technologies) AS tech,
+  (SELECT COUNT(*) FROM v_studies_with_high_prescience) AS hp;"
+
+# Copy scripts + candidates to runtime locations
+cp scripts/build/07_audit_masters_v1.py     ~/Desktop/Archive/scripts/build/
+cp scripts/generate_baseline_v1.py          ~/Desktop/Archive/scripts/
+cp scripts/apply_tech_mislabel_v1.py        ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_metadata_v1.py      ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_aliases_v1_sap.py   ~/Desktop/Archive/scripts/
+cp Perplexity_Only/audit_masters_baseline.json ~/Desktop/Archive/Perplexity_Only/
+cp tech_mislabel_candidates_v1.csv          ~/Desktop/Archive/
+cp entity_metadata_candidates_v1.csv        ~/Desktop/Archive/
+cp entity_alias_map_v1_sap_only.csv         ~/Desktop/Archive/
+
+cd ~/Desktop/Archive
+python3 scripts/apply_tech_mislabel_v1.py                 # dry-run
+python3 scripts/apply_tech_mislabel_v1.py --commit
+python3 scripts/apply_entity_metadata_v1.py               # dry-run
+python3 scripts/apply_entity_metadata_v1.py --commit
+python3 scripts/apply_entity_aliases_v1_sap.py            # dry-run
+python3 scripts/apply_entity_aliases_v1_sap.py --commit
+
+# Rebuild + audit
+python3 scripts/build/01_load_csvs_v3.py --archive ~/Desktop/Archive/archive_masters --wiki ~/Repos/kastner-aberdeen-wiki
+python3 scripts/build/02_build_data_layer_v5.py --wiki ~/Repos/kastner-aberdeen-wiki
+python3 scripts/build/07_audit_masters_v1.py              # standalone Phase 0 audit
+
+# Shape audit AFTER -- expect studies+obs unchanged, entities 3293 -> 3288, tech 4376 -> 4368
+
+# Overnight (caffeinate + tee) -- Phases 3+4+5+6 full Workflow C
+```
+
+### Notes / scope
+
+- No archive masters modified this session -- all changes staged for the Mac.
+- No wiki-repo changes this session -- archive repo only.
+- Notes-dir pre-commit check CLEAN (`git status --porcelain wiki/notes/` empty on the
+  Mac). No KW Console notes to fold in.
+- `Perplexity_Only/master_csvs_cleanse_plan_v1.md` was authored earlier in the session
+  and superseded by v2 before any commit; only v2 ships.
+- Phase 0 harness is manually invocable this cycle. Wiring it into
+  `02_build_data_layer_v5.py` as `_v6` is a backlog item -- optional but recommended.

@@ -14,7 +14,7 @@
 
 ---
 
-**Last updated:** 2026-07-07 AM (master-CSV cleanse plan for SAP-study unblock: 388 entity duplicate identities + 328 tech duplicate identities + 30-50 rows with successor-string bleed [Microsoft/Intel/Sybase/Yahoo/Informix carrying DEC/Compaq/HP fanout metadata] + 8 confirmed tech mislabels [data-mining→SOA, microsoft-backoffice→NUMA, sun-ultrasparc→EII, titanium→Itanium, etc.] + 281 rows with legacy `[DEFERRED]` sentinel. Plan v1 authored, Q1-Q7 answered by Pete, Q1 revised after discovering `Perplexity_Only/CANONICAL_IDS.md` already fixes canonical slugs (fully-qualified form wins where already documented: microsoft-corporation / oracle-corporation / sap-ag / sybase-inc / hewlett-packard). Six phases: Phase 0 regression harness (built now, wired as `07_audit_masters_v1.py` at end of Phase 2), Phase A tech mislabels, Phase B entity metadata bleed, narrow-scope Phase C SAP-cluster merge, then overnight Phases 3+4+5+6 full Workflow C, then background Phase D tech alias sweep + Phase E `[DEFERRED]`→`Deferred Review` migration. `notes` merge delimiter `\n---\n` locked; KW Notes render patch queued. Prior stamp: 2026-07-01 EOD (embedding-upgrade-gates toolkit: 20 LOCKED probes + labeled gold set [198 rows / 151 relevant / 47 not] + two-part promotion gate. First candidate qwen3-embedding:8b MRL-1024 vs bge-m3 incumbent FAILS BOTH GATES → KEEP INCUMBENT. Prior: 2026-06-30 EOD-2 model-eval scouting; v2.0 release: full-corpus 3y/5y SH prescience + v9 confab fix + PC Deals per-SKU journeys; SH master 17,030 rows / 792 verdict studies; live DuckDB 1504/24842/3293/4376/876; wiki pushed; archive push handed to Pete)
+**Last updated:** 2026-07-08 AM (SAP-unblock cleanse COMPLETE + full SH pipeline rebuilt overnight; EOD-cost analysis + canonical pipeline orchestrator shipped. Archive commit `8a6f47fb` + wiki commit `31f3a55a` landed the cleanse [entities 3293→3288, tech 4376→4368, obs+studies unchanged; SH live at 17030 scores + 792 verdicts]. Phase 0 audit GREEN [collision ratio improved 0.8822→0.8829 entities, 0.9250→0.9265 tech; all 8 tech mislabels + all 4 successor-bleeds cleared]. This session: `pipeline_canonical_v1.sh` orchestrator [wraps 01_v3→02_v5→07→03_v3→04_v6→05_v3→06_v2 with --commit/--skip/--only/--resume-from flags, dry-run tested]; `PIPELINE_CANONICAL.md` locks canonical versions; `apply_*_v2.py` idempotency guards ship [existing v1 scripts halted post-crash resume with misleading row-count delta; v2 exits 0 cleanly when aliases already gone]; `KW_ASK_FIX.md` diagnoses kw ask duckdb import error [one-line fix via `pip install --break-system-packages`]. Cost lessons: EOD credit target locked at 2-3k; large files stay off sandbox context; Mac-side commits by default; dry-run every script via `pc bash` before recommending. Prior stamp: 2026-07-07 AM (Master-CSV cleanse plan for SAP-study unblock; canonical slugs per CANONICAL_IDS.md; SAP survivor=sap-ag; overnight Phase 3-6 rebuilt SH content into wiki study pages [792 gradeable studies now carry SH body sections]). Prior: 2026-07-01 EOD embedding-upgrade-gates toolkit [qwen3-embedding:8b REJECTED, bge-m3 stays]. Prior: 2026-06-30 v2.0 release with full-corpus 3y/5y SH prescience.)
 **Current ship state:** **v2.0 — archive push PENDING (Pete runs on Mac).** Wiki `shorttack/kastner-aberdeen-wiki` PUSHED this session: main `3a992434..93499d11` (1623 files, 11459 ins / 524 del; embeddings.parquet 66 MB; README v1.6→v2.0-rebuild content; SH parquets present). Live DuckDB shape (post-SH Phase 1 v3 + Phase 2 v5 rebuild): **1504 studies / 24842 observations / 3293 entities / 4376 techs / 1504 pub_year / 6 decades / 876 high-prescience** (`v_studies_with_high_prescience` = `prescience_max ≥ 4` = 876; authored enum high = 503; mean≥3.5 = 88). SH: `v_prescience_sh` = 17,030; `v_studies_with_sh_verdicts` = 792 (3y 522H/264M/4L/1na/1pend; 5y 518H/268M/4L/1na/1pend). Prior archive `origin/main` at `ce3262f3` (Pass B masters merge); tag `v1.9.0` (2026-06-22) latest released. bge-m3 (1024-dim) re-embed of 10,862 pages (Phase 5). **Security:** git `user.name` was "Catalina" (one of Pete's passwords); leak found 2026-06-01 PM, rotated to `shorttack`; historical commits retain dead-string "Catalina" in Author metadata.
 
 This is the **daily living doc**. Every session begins by reading this and proposing the next action. Items are appended as they emerge during sessions. At release time (v1.6, v1.7, ...) a versioned snapshot is saved (e.g., `future_work_v1.6.md`) and items shipped in that release are removed from here.
@@ -28,26 +28,47 @@ How to use:
 
 ## Next up
 
-### 2026-07-07 focus — Master-CSV cleanse (SAP-study unblock)
+### 2026-07-08 focus — Post-cleanse consolidation (COMPLETED this AM)
 
-Sequenced against `master_csvs_cleanse_plan_v1.md` (workspace). Pete's locked decisions from this AM: canonical slugs follow existing `Perplexity_Only/CANONICAL_IDS.md` (fully-qualified form wins where documented); SAP survivor = `sap-ag`; study-scoped IDs (`eNN-NN`, `tNN-NN`, `enc-03`) merge into canonical; `notes` concat delimiter `\n---\n` (plus KW Notes render patch); sentinel string = `Deferred Review` (plain, no brackets); Phase F built NOW; overnight = full Workflow C (Phases 3+4+5+6).
+SAP-study unblock cleanse is DONE. Wiki study pages carry SH content for 792 gradeable studies. Both repos are on `origin/main` (archive `8a6f47fb`, wiki `31f3a55a`). This morning's session focused on preventing the errors that hit last night:
 
-**Session sequence (today):**
+1. **Canonical pipeline orchestrator** — `scripts/pipeline_canonical_v1.sh` locks the SH-aware Phase 1-6 chain. One command replaces `overnight_v2.sh` + `overnight_v3_resume.sh` + hand-run phase invocations. Flags: `--commit`, `--only 1,2`, `--skip 3,5`, `--resume-from N`. Companion doc: `Perplexity_Only/PIPELINE_CANONICAL.md` names canonical version per phase (01_v3, 02_v5, 03_v3, 04_v6, 05_v3, 06_v2, 07_v1).
+2. **Idempotency guards on apply scripts** — `scripts/apply_tech_mislabel_v2.py`, `apply_entity_metadata_v2.py`, `apply_entity_aliases_v2_sap.py`. Each detects "already applied" state (aliases gone from master OR fields already match proposals) and exits 0 cleanly instead of failing with the misleading "unexpected row-count delta" seen last night post-crash-resume.
+3. **kw ask duckdb fix documented** — `Perplexity_Only/KW_ASK_FIX.md`. Root cause: Homebrew Python 3.14 missing `duckdb` and `requests` modules (installed for pandas + numpy but not these). One-line fix: `/opt/homebrew/bin/python3 -m pip install --break-system-packages duckdb requests`. Pete can run this any time.
+4. **EOD cost analysis** — target locked at 2-3k credits per routine EOD; today's session identified structural cost drivers (large-file shuttling, multi-turn diagnostics, script-testing gaps). Rules saved to agent memory.
 
-1. **Phase 0 — Regression harness `scripts/build/07_audit_masters_v1.py`.** Three probes at end of every Phase 2 rebuild: (a) alias-collision ratio floor `distinct_norm_names / total_rows` for `v_entities` and `v_technologies` (baseline captured today, alerts if it drops); (b) ID-vs-name congruence probe (any tech_id whose normalized slug bears no resemblance to normalized tech_name); (c) successor-bleed detector (any entity whose `successor` contains both `Compaq` AND `HP` where `entity_name` is not itself DEC/Compaq/Tandem/HP/EDS/3Com/Palm/Digital). Ship as workspace file + `gh api PUT` to `scripts/build/07_audit_masters_v1.py`. Also patch `02_build_data_layer_v5.py` to shell out to Phase 07 at the end (or emit invocation instructions if Pete prefers to keep Phase 2 unchanged this cycle).
-2. **Phase A — Tech mislabel repair.** Generate `tech_mislabel_candidates_v1.csv` via the congruence probe. Pete reviews (~40-70 rows expected). `apply_tech_mislabel_v1.py` writes both `_master_technologies.csv` and `_master_tech_studies.csv` with disposition per row (RENAME_ID vs DELETE_ROW).
-3. **Phase B — Entity metadata bleed fix.** Three probes (Compaq+HP successor pattern; Siemens-not-Nixdorf-not-Fujitsu pattern; known-active-but-marked-acquired list). Emit `entity_metadata_candidates_v1.csv`. Pete reviews (~30-60 rows). `apply_entity_metadata_v1.py` writes only `_master_entities.csv`, row count MUST be unchanged.
-4. **Phase C-narrow — SAP cluster only.** Build `entity_alias_map_v1_sap_only.csv` collapsing `sap-ag` + all `ENT-SAP*` + `ENT-BO-002` + `ENT-IRP-003` + the bare `sap` row into survivor **`sap-ag`** (`entity_name = "SAP AG"`, `successor = "SAP SE (2014 rebranding)"`). PRESERVE separately: `sap-america` (SAP America Inc. subsidiary — its own canonical) and `sap-america-utilities` (utilities-vertical subsidiary). `apply_entity_aliases_v1_sap.py` writes `_master_entities.csv` (row count −6 expected) + `_master_entity_studies.csv` (rewrites all `sap-*` aliases to `sap-ag`, dedupes on `(study_id, entity_id)`).
-5. **EOD commit** — one batch commit per repo per `kastner-github` skill's Git Data API pattern.
-6. **Overnight — full Workflow C** with `caffeinate` + `tee`: Phase 1 → Phase 2 (includes Phase 07 audit) → Phase 3 (~3h tier-1 LLM regen) → Phase 4 → Phase 5 (~15min bge-m3 re-embed) → Phase 6 scaffolding refresh. `wiki/_redirects.md` written mapping any deleted alias slugs → canonical.
+**What Pete needs to run on the Mac to activate today's work:**
 
-**Deferred to future sessions (not in scope today):**
-- Phase D (full tech alias sweep, ~328 clusters) — schedule after A confirmed clean
-- Phase C-broad (full ~150 entity alias clusters, ~388 rows) — schedule after B confirmed clean
-- Phase E (`[DEFERRED]` → `Deferred Review` migration, 281 rows) — schedule after B
-- `CANONICAL_IDS.md` back-fill for the 30+ new canonical slugs that this session will formalize
+```bash
+# Pull today's session artifacts:
+cd ~/Desktop/Archive/aberdeen-group-archive && git pull
+# Copy the orchestrator + v2 apply scripts to runtime:
+cp scripts/pipeline_canonical_v1.sh ~/Desktop/Archive/scripts/
+cp scripts/apply_tech_mislabel_v2.py ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_metadata_v2.py ~/Desktop/Archive/scripts/
+cp scripts/apply_entity_aliases_v2_sap.py ~/Desktop/Archive/scripts/
+chmod +x ~/Desktop/Archive/scripts/pipeline_canonical_v1.sh
+# Optional: enable kw ask again
+/opt/homebrew/bin/python3 -m pip install --break-system-packages duckdb requests
+# Verify orchestrator dry-run works:
+bash ~/Desktop/Archive/scripts/pipeline_canonical_v1.sh   # prints plan, no writes
+```
 
-**Carry-forward items** (nothing lost — see full backlog below): all v1.8.0 backlog, v1.7.0 items, §11u-cont-tail items, §11v backlog, MCP bridge follow-ups, etc.
+### Next session (2026-07-09+) — candidates for the next Kastner work block
+
+**Immediate follow-ups (all deferred from this session so I could focus on making the pipeline safer):**
+
+1. **Phase D — full tech alias sweep** (~130 clusters, ~328 aliases). Uses the same pattern as Phase A but at scale. Now unblocked by the v2 apply-script pattern and the orchestrator.
+2. **Phase C-broad — full entity alias sweep** (~150 clusters, ~388 aliases). Microsoft (11 IDs), Oracle (13 IDs), IBM (12+5 IDs), Sybase (6 IDs), Compaq (6 IDs), DEC (7 IDs), HP (7 IDs), etc.
+3. **Phase E — `[DEFERRED]`/`[REVIEW]` → `Deferred Review` migration** (281 rows).
+4. **`CANONICAL_IDS.md` backfill** for slugs formalized this week: `oltp`, `numa-architecture`, `enterprise-information-integration`, `ms-cluster-server`, `rolap`, `service-oriented-architecture`, `itanium`, plus anti-pattern rows for the 8 mislabel aliases.
+
+**Housekeeping (also deferred):**
+
+5. **Move superseded scripts to `_legacy/`** — `01_v2`, `02_v4`, `03_v2`, `04_v2/v3/v4/v5`, `05_v4`, `06_v1/v3/v4/v5`, `overnight_v2.sh`, `overnight_v3_resume.sh`, `eod_commit_v1.sh`, `monitor_phases_3to6_v1.sh` should relocate to `scripts/build/_legacy/` and `scripts/_legacy/` respectively. Nothing deleted, just visibility-segregated (forever-archive principle).
+6. **`kastner-archive-pipeline` skill v1.7 → v1.8 patch** — three-location table update (retired `~/Desktop/Archive/archive_masters/`; canonical masters live at repo root `~/Desktop/Archive/aberdeen-group-archive/`); candidates-CSV runtime location doc (alongside masters); SH-aware chain documented; apply-script idempotency guidance; reference to new `PIPELINE_CANONICAL.md`. Superseded by the pipeline doc for the version-locking piece, but the skill still needs the path corrections.
+7. **`requirements.txt` refresh** — says Python 3.11 (actual is 3.14); missing `requests`; possibly stale `torch`/`sentence-transformers` versions post-Homebrew upgrade.
+8. **KW Notes render patch for `\n---\n` delimiter** — concat delimiter approved 2026-07-07 Q4; still needs render-side patch so `---` between concat blocks doesn't inline-render as `<hr>` inside a paragraph on Obsidian.
 
 ### 2026-06-24 PM focus (superseded by 2026-07-07 focus above; kept for context)
 
@@ -538,7 +559,33 @@ FastMCP stdio bridge exposing the archive + wiki to Perplexity Mac app. **No loc
 
 ## Done this session
 
-### Master-CSV cleanse — Phases 0/A/B/C-narrow prepared (2026-07-07 AM/PM)
+### 2026-07-08 AM — Post-cleanse consolidation + orchestrator + idempotency guards
+
+**Context**: overnight run 2026-07-07—08 landed cleanly (archive `8a6f47fb`, wiki `31f3a55a`). All Phase 3-6 completed after a power-failure interruption + resume via `overnight_v3_resume.sh`. This morning's session addressed the errors that surfaced:
+
+- **Canonical pipeline orchestrator shipped** — `scripts/pipeline_canonical_v1.sh` (320 lines; dry-run tested with 5 argparse modes, all exit codes correct). Locks the SH-aware canonical version per phase: 01_v3 → 02_v5 → 07 → 03_v3 → 04_v6 → 05_v3 → 06_v2. Flags `--commit`, `--only`, `--skip`, `--resume-from` fold in the previous overnight_v2/v3_resume patterns. Documented in `Perplexity_Only/PIPELINE_CANONICAL.md` (~130 lines). Shipped in commit `09c48c29`.
+
+- **Idempotency guards on apply scripts** — v2 of each of the three cleanse-apply scripts: `apply_tech_mislabel_v2.py`, `apply_entity_metadata_v2.py`, `apply_entity_aliases_v2_sap.py`. Each detects "already applied" state (aliases gone from master, or fields already match proposals) and exits 0 cleanly. Dry-run tested on the Mac against the already-cleansed masters: all three correctly report "✅ ALREADY APPLIED" and exit 0. Eliminates the misleading "unexpected row-count delta" halt seen at 21:26 UTC last night.
+
+- **kw ask duckdb env diagnosis + fix documented** — `Perplexity_Only/KW_ASK_FIX.md`. Root cause: Homebrew Python 3.14 missing `duckdb` and `requests` modules; PEP 668 blocks a bare `pip install`. Options A (`--break-system-packages`, one command, safe) or B (repo-local venv). Pete can run at his convenience.
+
+- **EOD cost analysis** — credit-target lock at 2-3k per routine EOD (was ~8k). Structural drivers identified: large-file sandbox shuttling, multi-turn diagnostics, absent dry-run testing on Mac, inline heredoc paste blocks. Rules saved to agent memory:
+  - Never pull >100 KB files into sandbox context; read the answer via DuckDB or `wc -l` on the Mac and echo only the number.
+  - Single-turn diagnostic scripts; one Mac-side bash printing all N answers, not N round trips.
+  - Test EOD scripts on the Mac before recommending them (`pc bash --` dry-run).
+  - Batch confirmation questions into one `ask_user_question` call.
+  - All commit messages via `git commit -F` from a temp file, never inline `-m` heredoc.
+  - Apply scripts and pipeline scripts must be idempotent — "already applied, exit 0" preferred over "unexpected delta, fail loud".
+
+**Also learned this session (durable facts):**
+- `~/Desktop/Archive/archive_masters/` was retired 2026-06-24; the canonical masters path is `~/Desktop/Archive/aberdeen-group-archive/` (repo root). The `kastner-archive-pipeline` skill's Three Locations table still points at the retired path — needs v1.8 patch (deferred item #6 above).
+- Candidates CSVs live alongside masters (`aberdeen-group-archive/`), not at Archive root. The v1 apply scripts had inconsistent default paths for `--archive` vs `--candidates`; v2 doesn't fix this but the overnight_v2.sh `--candidates` flag already worked around it.
+- Phase 6 v2 does NOT regress `.gitignore` when run against the current wiki state (empirical from last night; the `.gitignore.bak_*` backups all match the current file).
+- `wc -l` on QUOTE_ALL CSV files with embedded-newline `notes` fields will overcount; use `python3 -c 'import csv; ...'` or DuckDB for accurate row counts.
+
+**Superseded by today's work (candidates for `_legacy/` move next session)**: `overnight_v2.sh`, `overnight_v3_resume.sh`, `monitor_phases_3to6_v1.sh`, `eod_commit_v1.sh`, and the v1 apply scripts.
+
+### Master-CSV cleanse — Phases 0/A/B/C-narrow COMPLETED (2026-07-07 AM/PM → 2026-07-08 04:15Z)
 
 **Plan v2** authored: `master_csvs_cleanse_plan_v2.md` (workspace). Supersedes v1. Locks Pete's Q1-Q10 answers; discovers `Perplexity_Only/CANONICAL_IDS.md` already fixes canonical slugs (fully-qualified form wins where documented — SAP survivor = `sap-ag`, not `sap`).
 

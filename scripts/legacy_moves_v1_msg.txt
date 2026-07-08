@@ -1,0 +1,75 @@
+Move 61 superseded scripts to _legacy/ (WORKLIST #5)
+
+Per the forever-archive principle nothing is deleted; superseded phase
+scripts, orchestrators, apply-script v1s, and one-off version families
+are relocated to _legacy/ subdirs to reduce cognitive load in scripts/
+and scripts/build/. `git mv` preserves rename history — `git log --follow`
+traces the full lifetime of every moved file.
+
+Canonical chain retained (per kastner-archive-pipeline skill v1.8):
+  Phase 1: 01_load_csvs_v3.py
+  Phase 2: 02_build_data_layer_v5.py
+  Phase 0: 07_audit_masters_v1.py
+  Phase 3: 03_generate_vault_v3.py
+  Phase 4: 04_generate_indices_v6.py
+  Phase 5: 05_compute_embeddings_v3.py
+  Phase 6: 06_emit_scaffolding_v2.py
+  Helper:  _llm_helper_v4.py
+  Orchestrator: pipeline_canonical_v2.sh
+
+scripts/build/ -> scripts/build/_legacy/ (14 files):
+  01_load_csvs_v2.py
+  02_build_data_layer_v4.py
+  03_generate_vault_v2.py
+  04_generate_indices_v2.py, _v3, _v4, _v5
+  05_compute_embeddings_v4.py     (REJECTED qwen candidate, 2026-07-01)
+  06_emit_scaffolding_v1.py, _v3, _v4, _v5
+  _llm_helper_v2.py, _v3
+  (_llm_helper_v1.py KEPT in build/ — Phase 3 v3 hardcodes `import
+  _llm_helper_v1`. Deferred until 03_generate_vault_v4 lands.)
+
+scripts/ -> scripts/_legacy/ (47 files):
+  Orchestrators (7):
+    overnight_v1.sh, _v2.sh, _v3_resume.sh
+    pipeline_canonical_v1.sh    (v2 fixes dry-run-writes-to-disk bug)
+    monitor_phases_3to6_v1.sh
+    eod_commit_v1.sh, prep_overnight_v1.sh
+
+  Apply-script v1s superseded by v2 idempotent versions (6):
+    apply_entity_aliases_v1_sap.py
+    apply_entity_metadata_v1.py
+    apply_tech_mislabel_v1.py
+    apply_passb_reconcile_v1.py
+    apply_passb_transcripts_v1.py
+    apply_unindexed_quotes_v2.py  (v3 canonical)
+
+  Version-family supersessions (34):
+    anchor_year_resolver_v1
+    backfill_blank_horizon_3y_v1
+    build_format_mismatch_review_v1
+    build_quotations_corpus_page_v1
+    change_local_model_v1.sh, _v2.sh
+    compute_qwen_master_kappa_v1
+    detect_article_boundaries_v1
+    diag_admit_orphan_sources_v1
+    diagnose_pdf_format_mismatch_v1, _v2, _v3
+    discover_unindexed_kastner_quotes_v1
+    ingest_dectp_press_conf_v1
+    pre_filter_scoreable_obs_v4, _v5, _v6
+    prepare_for_ingest.py       (v3 canonical; unversioned was v2.x)
+    promote_l7_access_journeys_v1
+    promote_quotations_to_master_v1, _v2
+    reconcile_masters_mac_to_repo_v1
+    route_quotations_to_horizon_v1
+    run_prescience_calibration_v3, _v4, _v5_qwen_30obs, _v6_qwen_30obs
+    run_prescience_pass_c_v5, _v6    (v7 canonical)
+    run_prescience_short_horizon_v8, _v9
+    score_quotations_calibration_v1
+    synthesize_17_transcripts_v1
+    union_article_corpus_v1
+
+Note: kastner-archive-pipeline skill v1.8 still names
+run_prescience_pass_c_v5.py as canonical for Pass C — that's a stale
+reference to be fixed in a v1.9 skill patch (added to WORKLIST).
+
+No changes to master CSVs, wiki, or any active runtime path.

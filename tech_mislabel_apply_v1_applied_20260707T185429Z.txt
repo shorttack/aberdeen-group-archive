@@ -1,0 +1,16 @@
+Phase A — tech mislabel apply
+Timestamp: 20260707T185429Z
+Candidates: /Users/scott/Desktop/Archive/aberdeen-group-archive/tech_mislabel_candidates_v1.csv
+
+_master_technologies.csv: 4376 -> 4368
+_master_tech_studies.csv: 5389 -> 5389 (rewrites=43)
+
+Merges applied:
+  data-mining -> service-oriented-architecture
+  microsoft-backoffice -> numa-architecture
+  sun-ultrasparc -> enterprise-information-integration
+  audio-conferencing -> oltp
+  webex-training-center -> ms-cluster-server
+  titanium -> itanium
+  t2-04 -> numa-architecture
+  tech-01 -> rolap

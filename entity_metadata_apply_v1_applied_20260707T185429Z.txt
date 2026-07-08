@@ -1,0 +1,30 @@
+Phase B — entity metadata bleed fix
+Timestamp: 20260707T185429Z
+Candidates: /Users/scott/Desktop/Archive/aberdeen-group-archive/entity_metadata_candidates_v1.csv
+Row count: 3293 -> 3293 (unchanged, as required)
+Rows updated: 10
+Field-level changes: 23
+
+  ENT-S3-001 .sector: 'Computing Hardware / IT Services' -> 'Software'
+  ENT-S3-001 .status: 'Acquired' -> 'Active'
+  ENT-S3-001 .successor: 'Compaq (1998); HP (2002)' -> ''
+  informix-software .entity_type: 'information-technology' -> 'software-vendor'
+  informix-software .sector: 'Enterprise Computing' -> 'Database software'
+  informix-software .status: '[DEFERRED]' -> 'acquired'
+  informix-software .successor: 'Siemens-Nixdorf' -> 'IBM (2001, $1B)'
+  intel .status: 'operating' -> 'active'
+  intel .successor: 'Compaq (1998) then HP (2002)' -> ''
+  intel-corporation .successor: '[DEFERRED]' -> ''
+  microsoft .status: 'restructured' -> 'active'
+  microsoft .successor: 'HP Inc. / Hewlett Packard Enterprise' -> ''
+  microsoft-corporation .status: 'acquired' -> 'active'
+  microsoft-corporation .successor: 'Oracle Corporation (1995)' -> ''
+  oracle-corporation .entity_type: 'Enterprise Customer' -> 'software-vendor'
+  oracle-corporation .status: 'acquired' -> 'active'
+  oracle-corporation .successor: 'Accrue Software then JDA Software' -> ''
+  stratus-technologies .status: 'active (as of 2024)' -> 'active'
+  stratus-technologies .successor: 'Compaq (1998) then HP (2002)' -> ''
+  yahoo .successor: 'HP Inc. / HPE (2015 split)' -> 'Verizon Media (2017) then Apollo Global Management (2021)'
+  sybase .entity_type: 'marketing-services' -> 'software-vendor'
+  sybase .status: 'dissolved' -> 'acquired'
+  sybase .successor: 'Compaq (1997); then HP (2002); technology lives on as HPE NonStop' -> 'SAP AG (2010, $5.8B)'

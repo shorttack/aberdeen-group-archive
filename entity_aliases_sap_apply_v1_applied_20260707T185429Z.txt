@@ -1,0 +1,8 @@
+Phase C-narrow — SAP alias merge
+Timestamp: 20260707T185429Z
+Canonical survivor: sap-ag
+Merges: ['sap', 'ENT-SAP', 'ENT-SAP-001', 'ENT-BO-002', 'ENT-IRP-003']
+_master_entities.csv:       3293 -> 3288
+_master_entity_studies.csv: 3900 -> 3900 (rewrites=19, dedup=0)
+
+Notes concat: 5 alias-note blocks merged into survivor

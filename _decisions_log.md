@@ -4572,3 +4572,55 @@ caffeinate -i bash ~/Desktop/Archive/scripts/pipeline_canonical_v2.sh --commit 2
 - Apply scripts and pipeline scripts must be idempotent — "already applied, exit 0" preferred over "unexpected delta, fail loud."
 - **Mid-session commits are not allowed** — hold artifacts in workspace until EOD batch (violated once today with `CANONICAL_IDS.md` v2 shipped as `6e2b4a5b`; do not repeat).
 
+
+---
+
+## 2026-07-10/11 — Image-stripper sentinel batch repair + Volume 2 Ch.1 ingest
+
+### Session summary
+Fixed an archive-wide ingest defect: a bad batch stamped a false "original text lost to PDF image-stripper sentinel" claim onto studies whose PDFs led with an image placeholder (`==> picture [WxH] intentionally omitted <==`), capturing that placeholder as the title/abstract seed. The text was never lost — it was intact in `prepared/<id>/source/`.
+
+### Blast radius (tightened v2 signature: abstract 'text lost'/'image-stripper' OR slug title '(Aberdeen, YYYY)')
+- **337 studies** genuinely defective (v1 loose scan over-matched on benign '&' titles like 'Digital & Oracle', 'AS&E', 'Q&A' — 24 false positives dropped).
+- 336 had recoverable source; 1 (`ra-web-site-search-3910-sli`) via duplicate-id `-5f9297` + Pete-confirmed `~/Desktop/original_text.md`.
+- **253 observations** carried the picture-sentinel in `metric_value`.
+
+### Method
+Model-extraction via 8 parallel read-only subagents (43×7 + 36 studies), each authoring new_title/new_author/new_abstract/new_type from recovered source → candidates CSV. Merged 337 rows (287 high / 49 medium / 1 low = `fdic-washington-cs-1995`, genuinely garbled). Single-writer apply (dry-run/backup/QUOTE_ALL/row-parity).
+
+### Results
+- 337 studies: real titles, authored abstracts, corrected types (132 vendor-snapshot, 97 research-agenda, 77 benchmark, 24 market-study, rest misc). Type was badly mis-tagged batch-wide.
+- **108 studies newly attributed to 37 named Aberdeen analysts** (byline extraction: Kastner, Enslow, Degnan, Vigoroso, Biddle, Malik, et al.) — corpus author-enrichment per Pete's request.
+- 253 observations: picture-sentinel replaced with the study's real title.
+- Zero sentinel residue remaining (titles/abstracts/obs all 0).
+- Backups: `_master_{studies,observations}.csv.bak_sentinel_repair_20260710T213138Z`.
+
+### Volume 2, Chapter 1 — 'The Managed Conversation' (new)
+- `volume-2-ch01-managed-conversation-analyst-relations` — STARTS Volume 2 (Volume 1 left sealed at Ch.1-10+Epilogue). Intel tease removed. Rest of Vol 2 = the longitudinal studies.
+- Hybrid memoir: 1 study + 3 curated observations, dated to the original call year:
+  - OBS-001 microsoft/windows-nt **1993** (Gates fireside: NT-on-x86 dominant + needs RDBMS) — Pass C **4**
+  - OBS-002 microsoft/windows-nt **1993** (Allchin: brute-force/Mythical-Man-Month critique) — Pass C **3**
+  - OBS-003 apple/ipod **2001** (iPod as music experience) — Pass C **4**
+- Rule A: mean 3.67 → verdict **high**. Clean-slug entity/tech ids (microsoft, windows-nt, apple, ipod).
+
+### Infrastructure fixes (both shipped to scripts/)
+- `promote_pass_c_v7_to_master_v1.py` — v7-aware promote (--input, maps 11→12 col adding row_class). The old v5 `promote_pass_c_to_master_v1.py` is stale (hardcoded File-1 path, no --input, no row_class) — do not use for v7.
+- `write_study_verdict_rule_a_v1.py` — Rule A verdict writer.
+- Two v7 traps learned & documented in skill v1.12: (1) --input-manifest must carry FULL obs rows incl metric_value (id-only → empty-claim → score 0); (2) --output doubles as a resume-skip list (rm stale output before re-run).
+
+### Shape audit — BEFORE (2026-07-10T22:00:50Z, pre-Vol2-ingest snapshot)
+studies=1504 observations=24842 entities=3288 technologies=4368 high_prescience=876 sh_scores=17030 sh_verdicts=792
+
+### Shape audit — AFTER (2026-07-11T04:54:40Z, post full Phase 1-6 rebuild)
+studies=1505 observations=24845 entities=3288 technologies=4368 high_prescience=877 sh_scores=17030 sh_verdicts=792
+- Delta = +1 study / +3 obs (Vol 2 Ch.1) and +1 high_prescience (Vol 2 Ch.1 = high). Sentinel repair is metadata-only, no row-count change. Phase 0 audit PASSED (cleared 8 tech-congruence + 4 successor-bleed grandfathered entries as a hygiene side-benefit). Phase 3 ran 6h35m (matches skill budget). Verified: kw ask on study-q206-ir-p2-20-b2c34d now returns the correct title/abstract with no 'text lost' note.
+
+### Skills updated this session
+- kastner-archive-pipeline v1.12 (Pass C promote fix + 2 traps)
+- kastner-longitudinal-study-builder v1.2 (3-phase flow + alias-map reuse) [2026-07-10]
+- duckdb-queries v1.1 (list synthetic/longitudinal recipe) [2026-07-10]
+
+### Deferred / follow-ups
+- Duplicate-id pairs flagged (not acted): ra-web-site-search-3910-sli/-5f9297; two IBM snapshots; two research-calendar pairs; solution-provider collateral variants. → dedup pass.
+- fdic-washington-cs-1995 repaired best-effort from thin source (low confidence) — eyeball later.
+- PASS_C_RUNBOOK.md still stale for v7.

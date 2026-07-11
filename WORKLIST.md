@@ -753,3 +753,19 @@ python3 scripts/build/07_audit_masters_v1.py              # standalone (or wired
 _Owner: Pete Kastner. Updates inline during sessions; end-of-day commit clears "Done this session" and refreshes "Last updated"._
 
 **Mac data state (live DuckDB, post-SH rebuild, 2026-06-30):** studies 1504 · observations 24842 (live `v_observations`; the 2026-06-27 CSV snapshot of 24715 predated the post-`-mx` rebuild, Δ +127, reconciled to 24842 per Pete 2026-06-30) · prescience-scores master 17251 · SH master 17030 (792 verdict studies) · high-prescience 876. v2.0 docs written, wiki pushed, archive push handed to Pete.
+
+---
+
+## Session 2026-07-10/11 — Done this session
+
+- **Sentinel batch repair (337 studies)**: fixed false 'text lost' ingest defect archive-wide; real titles/abstracts/types recovered via 8 parallel model-extraction subagents; 253 observations cleaned; 108 studies newly attributed to 37 named analysts. Committed to masters + full Phase 1-6 rebuild (kw ask verified clean).
+- **Volume 2, Ch.1 'The Managed Conversation'** ingested (hybrid memoir, 3 obs, Pass C 4/3/4 → verdict high). Starts Volume 2; Volume 1 sealed. Rest of Vol 2 = the longitudinal studies.
+- **Infra**: new promote_pass_c_v7_to_master_v1.py + write_study_verdict_rule_a_v1.py (fixed stale v5 promote gap). Skill kastner-archive-pipeline → v1.12 with 2 documented v7 traps.
+- **Databases longitudinal**: dossier v1→v2 (Pete-enriched) → narrative 'The Database Decade' in Kastner voice, superscript citations. Skill kastner-longitudinal-study-builder → v1.2 (3-phase flow + alias-map reuse).
+- **Entity alias maps**: 9 per-cluster CSVs (oracle/sybase/informix/ingres/CA/ncr/software-ag/db2/cca) — record-only. duckdb-queries → v1.1 (synthetic/longitudinal list recipe + helper).
+
+## Next up (follow-ups)
+- Dedup pass on flagged duplicate-id pairs (ra-web-site-search, IBM snapshots, research-calendars, solution-provider collateral).
+- Eyeball fdic-washington-cs-1995 (low-confidence repair).
+- Update PASS_C_RUNBOOK.md for v7.
+- Build the next Volume 2 longitudinal studies from the dossier pipeline.

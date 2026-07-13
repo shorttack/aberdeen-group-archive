@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Y2K Live, Dead & Wounded",
+  "description": "This four-slide Aberdeen Group deck classifies major enterprise platforms and application bases as likely \"living,\" \"dead,\" or \"wounded\" in the Year 2000 transition. It highlights IBM MVS, AS/400, AIX, HP-UX, Solaris, and Windows NT as likely survivors while flagging older IBM, HP 3000, Bull, Data General, Unisys, Wang, and legacy manufacturing environments as vulnerable or obsolete. A final slide reframes the taxonomy as a services-targeting guide by steering Y2K remediation effort toward attractive downstream customer segments and away from riskier or less desirable ones.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group)"
+  },
+  "datePublished": "1998",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

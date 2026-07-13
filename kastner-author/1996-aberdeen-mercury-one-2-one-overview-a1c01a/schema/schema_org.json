@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Aberdeen Group Overview \u2014 Mercury One-2-One",
+  "description": "This nine-slide deck is a corporate and capabilities overview for Aberdeen Group that was customized for Mercury One-2-One. It summarizes Aberdeen's charter, research practices, technology-practice taxonomy, solution focus areas, and custom consulting offerings rather than presenting a deep analytic study. As an employer-record for Aberdeen Group, it functions as a capabilities-overview and records Peter S. Kastner in the Vice President role context supplied for this ingest.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Aberdeen Group)"
+  },
+  "datePublished": "1996",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

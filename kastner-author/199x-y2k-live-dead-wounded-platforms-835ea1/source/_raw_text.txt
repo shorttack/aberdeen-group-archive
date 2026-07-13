@@ -1,0 +1,46 @@
+# MSTY2K-1
+
+*Source: MSTY2K-1.pptx — 4 slides*
+
+## Slide 1: Y2K Live, Dead & Wounded
+
+Y2K Live, Dead & Wounded
+Living
+  - IBM MVS, OS/400 & AIX
+  - HP-UX
+  - Sun Solaris
+  - Microsoft NT
+
+## Slide 2: Y2K Dead Platforms
+
+Y2K Dead Platforms
+IBM System/3X
+IBM 308x and 309x mainframes plus VM OS
+HP 3000 MPE
+Bull 6000
+DG Eclipse
+Probably many other minicomputers
+
+## Slide 3: Y2K Wounded
+
+Y2K Wounded
+IBM VSE customers (no staff; custom apps)
+Unisys 2200 and A-series (Link & Mapper)
+Wang VS applications
+Old manufacturing applications (many AS/400)
+  - ManMan (tired Fortran)
+  - Mapics & Copics
+  - SSA BPICS
+
+## Slide 4: Target Downstream Customers
+
+Target Downstream Customers
+Attractive
+  - Bank loan customers
+  - Insurance agencies
+  - Reinsurers
+  - Wholesalers
+Unattractive
+  - State & local gov’t
+  - Life & death apps
+  - Manufacturing shop floor

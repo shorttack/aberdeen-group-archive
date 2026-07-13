@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Surfing the Parallel Architectures",
+  "description": "This board-level presentation surveys the 1994 commercial parallel-computing market across uniprocessors, SMP systems, clusters, and massively parallel machines, then compares the leading hardware and database suppliers against Tandem's position. Kastner argues that software-enabled clustering and parallel databases will matter more than pure MPP experimentation, and he frames data warehousing plus distributed object computing as Tandem's best near-term strategic opening. The deck combines architecture taxonomy, vendor-by-vendor competitive critique, and explicit forward-looking judgments about how the market would evolve.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner"
+  },
+  "datePublished": "1994-09-27",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

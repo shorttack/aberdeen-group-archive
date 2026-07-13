@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "U.S. Insurance Industry Overview",
+  "description": "This presentation profiles the late-1990s U.S. insurance industry for Software AG's North American middleware business, combining market sizing, business drivers, industry trends, and an insurance claims architecture example. It argues that insurance offers a large but demanding opportunity for SAGA SOM because insurers face disintermediation, e-commerce, Y2K, and data-management pressures while remaining skeptical of immature middleware and new suppliers. Prepared circa 1998, the deck also proposes partner categories spanning insurance ISVs and integrators.",
+  "creator": {
+    "@type": "Person",
+    "name": "Peter S. Kastner (Chief Research Officer, Aberdeen Group)"
+  },
+  "datePublished": "1998",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/observations.csv"
+    }
+  ],
+  "variableMeasured": [
+    "strategy-classification",
+    "viability-prediction",
+    "technology-assessment",
+    "benchmark-result"
+  ]
+}

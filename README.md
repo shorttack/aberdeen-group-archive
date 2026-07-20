@@ -8,13 +8,13 @@ Every study is packaged as a self-contained [Frictionless Data Package](https://
 
 Kastner had the prescience to save much of his work in digital form; about one-third has survived. It is all in this "Kastner Research Archive".
 
-**v2.0 — "Full-Corpus Multi-Horizon Prescience"** (2026-06-30)
+**v2.1 — "Complete Long-Horizon Prescience Scoring"** (2026-07-18)
 
-The current corpus: **1,504 studies · 24,842 observations · 3,293 entity rows · 4,376 technology rows · 876 high-prescience studies** (`v_studies_with_high_prescience`, `prescience_max ≥ 4`), spanning **1979–2026** across **6 decades**.
+> **All corpus counts live in one generated file: [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md)** (written by `scripts/generate_archive_stats.py` from the live DuckDB, refreshed on every rebuild). This README no longer hard-codes numbers — see that file for current studies / observations / entities / technologies / prescience surfaces / embedding pages. When in doubt, `_master_*.csv` is truth and `ARCHIVE_STATS.md` is its generated summary.
 
-New in v2.0: full-corpus 3-year and 5-year prescience reads. A new short-horizon master (`_master_prescience_short_horizon.csv`, **17,030 rows**) scores every gradeable observation at fixed 3y and 5y windows, and **792 studies** now carry author-curated `prescience_3y_enum` / `prescience_5y_enum` verdicts (studies master grew 16 → 20 columns). The v9 scorer adds a window-not-elapsed sentinel (`-2`) that ends the confabulation failure mode where the model fabricated retrospective verdicts for windows that hadn't elapsed yet. The PC Deals weekly-bulletin tier gains **249 per-SKU price journeys**, tracking individual hardware SKUs across successive bulletins. See [`RELEASE_NOTES_v2.0.md`](./releases/RELEASE_NOTES_v2.0.md).
+The archive spans **1972–2026** across **6 decades**, centered on Peter S. Kastner's work.
 
-These are the live counts. Per-subdirectory and per-section numbers elsewhere may lag the masters — when in doubt, `_master_*.csv` is truth.
+New in v2.1: the long-horizon (holistic) Pass C scoring is now **complete across the corpus**. A full backlog sweep scored the previously-unscored gradeable observations, and study-level verdicts were recomputed by Rule A on the now-complete score set. This recalibrated the holistic verdict distribution materially: the `study_prescience_enum = 'high'` surface fell sharply from its v2.0 level, because many prior "high" verdicts had been computed on partial (sampled) scoring and did not survive full evaluation. The 24 memoir chapters (`type = memoir`) retain their curated verdicts and were excluded from the recompute. This is a data/scoring release — no schema change (studies master stays 20 cols). The v2.0 short-horizon (3y/5y) layer is unchanged. Current numbers: [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md). See also [`RELEASE_NOTES_v2.1.md`](./releases/RELEASE_NOTES_v2.1.md).
 
 ---
 
@@ -46,7 +46,7 @@ A second-pass deliverable built directly from this archive's master CSVs.
 
 - **Format**: Obsidian vault + DuckDB query layer + Parquet exports + bge-m3 embedding index (1024-dim).
 - **Pages**: study, entity, tech, and code pages plus decade/theme/collection/index pages, all rebuilt against the v2.0 masters. Study pages now carry a **Short-horizon prescience** section rendering the 3y/5y verdicts so `kw ask` can answer horizon questions from retrieved text.
-- **Embedding index**: bge-m3 (1024-dim), **10,862 pages** re-embedded (Phase 5).
+- **Embedding index**: bge-m3 (1024-dim), **10,944 pages** re-embedded (Phase 5).
 - **Cross-linking**: Every study page emits `[[entity-slug]]` and `[[tech-slug]]` wikilinks, powering Dataview reverse-lookups on every entity and technology page.
 - **Local-first**: Lives at `~/Repos/kastner-aberdeen-wiki/` on the build host (migrated from `~/Desktop/kastner_wiki/` on 2026-06-01 to escape iCloud Desktop sync). Opens in Obsidian, queryable from DuckDB, browsable from Python/pandas via the Parquet exports.
 - **Builder skill**: `kastner-wiki-builder` (custom user skill).
@@ -54,28 +54,21 @@ A second-pass deliverable built directly from this archive's master CSVs.
 
 ### Prescience ratings
 
-Each study is rated for the prescience of its forecasts when checked against subsequent history:
+Each study is rated for the prescience of its forecasts when checked against subsequent history. **Current distribution counts: [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md).**
 
-| Rating | Studies |
-|---|---:|
-| high | 503 |
-| medium | 339 |
-| low | 276 |
-| not-applicable | 384 |
-| [DEFERRED] | 2 |
+Three prescience surfaces are exposed in `v_studies`, and they measure different things:
 
-The **503** figure above is the author-curated `study_prescience_enum = 'high'` surface. Two observation-derived surfaces are also exposed in `v_studies`: **876** studies satisfy `prescience_max ≥ 4` (loose) and **88** studies satisfy `prescience_mean ≥ 3.5` (tight). The `v_studies_with_high_prescience` view filters on the loose threshold (`prescience_max ≥ 4`, **876**); the headline "high-prescience" count throughout this README refers to that view. Downstream researchers can pick the threshold appropriate to their question — the authored enum (503) is the strictest editorial surface.
+- **`study_prescience_enum`** — the Rule-A *mean* verdict (high / medium / low / not-applicable). The scorer makes the call; verdicts are not hand-overridden. This is the holistic headline verdict. (Recalibrated in v2.1: after complete backlog scoring, the `enum = 'high'` surface fell sharply from its v2.0 level, because the earlier figure rested on partial scoring.)
+- **`prescience_max ≥ 4`** (loose) — flags any study with at least one observation scored 4–5. This is what the `v_studies_with_high_prescience` view filters on, and what the "high-prescience studies" corpus headline refers to.
+- **`prescience_mean ≥ 3.5`** (tight) — the strictest mean threshold.
+
+Pick the surface that fits your question. Exact current counts for all three are in [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md).
 
 ### Short-horizon prescience (3-year / 5-year)
 
-v2.0 adds fixed-window prescience reads alongside the holistic verdict. Every gradeable observation is scored at **3 years** and **5 years** after its anchor year; **792 studies** carry rolled-up `prescience_3y_enum` / `prescience_5y_enum` verdicts.
+v2.0 added fixed-window prescience reads alongside the holistic verdict (unchanged in v2.1). Every gradeable observation is scored at **3 years** and **5 years** after its anchor year, with rolled-up `prescience_3y_enum` / `prescience_5y_enum` study verdicts. Current 3y/5y verdict counts and the per-horizon high/medium/low distribution live in [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md) and the `v_sh_3y_distribution` / `v_sh_5y_distribution` views.
 
-| Horizon | high | medium | low | not-applicable | pending |
-|---|---:|---:|---:|---:|---:|
-| 3-year | 522 | 264 | 4 | 1 | 1 |
-| 5-year | 518 | 268 | 4 | 1 | 1 |
-
-The observation-level scores live in `_master_prescience_short_horizon.csv` (**17,030 rows**) and are exposed as `v_prescience_sh`, `v_studies_with_sh_verdicts`, `v_observations_with_sh`, `v_sh_3y_distribution`, and `v_sh_5y_distribution`. Sentinel values: `-1` = prefiltered / parse-reject; `-2` = window not elapsed. Both are excluded from verdict means.
+The observation-level scores live in `_master_prescience_short_horizon.csv` and are exposed as `v_prescience_sh`, `v_studies_with_sh_verdicts`, `v_observations_with_sh`, `v_sh_3y_distribution`, and `v_sh_5y_distribution`. Sentinel values: `-1` = prefiltered / parse-reject; `-2` = window not elapsed. Both are excluded from verdict means.
 
 ### Aberdeen Group Category Creator roster
 
@@ -118,12 +111,12 @@ Version history is in [`CHANGELOG.md`](./CHANGELOG.md). Curatorial decisions and
 
 ```
 aberdeen-group-archive/
-├── _master_studies.csv          #   1,504 rows · 20 cols — index of all studies (now incl. 3y/5y enums)
-├── _master_entities.csv         #   3,293 rows — per-study entity rows
-├── _master_technologies.csv     #   4,376 rows — per-study technology rows
-├── _master_observations.csv     #  24,842 rows — every observation
-├── _master_prescience_scores.csv  # 17,251 rows — obs-level holistic scores (Pass C)
-├── _master_prescience_short_horizon.csv  # 17,030 rows — obs-level 3y/5y scores (SH sweep, v9)
+├── _master_studies.csv          #   20 cols — index of all studies (incl. 3y/5y enums)   [row counts: ARCHIVE_STATS.md]
+├── _master_entities.csv         #   per-study entity rows
+├── _master_technologies.csv     #   per-study technology rows
+├── _master_observations.csv     #   every observation
+├── _master_prescience_scores.csv  # obs-level holistic scores (Pass C)
+├── _master_prescience_short_horizon.csv  # obs-level 3y/5y scores (SH sweep, v9)
 ├── _master_player_rebuttals.csv  # author rebuttals of scorer verdicts (Path B)
 ├── _master_tech_studies.csv     # tech_id → study_id bridge
 ├── _master_tech_field_conflicts.csv  # tech-field conflict audit
@@ -278,7 +271,7 @@ After per-study cache updates, masters are regenerated by `_audits/` tooling and
 2. **Layer B** — §16 CSV write validation gate (no base64, correct quoting, schema-conformant headers).
 3. **Layer C** — cross-study cache integrity (no missing entries, no duplicate IDs).
 
-The current archive passes all three layers with 0 failures across all 1,504 audited studies.
+The current archive passes all three layers with 0 failures across all audited studies (count in [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md)).
 
 v20 of the ingest skill adds the **obs_id Universal Normalizer** (13-bucket classifier-driven repair of legacy observation IDs) and the **`legacy_obs_id` audit column** on `_master_observations.csv`.
 

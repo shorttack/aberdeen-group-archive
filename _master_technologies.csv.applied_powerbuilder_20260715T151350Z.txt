@@ -1,0 +1,5 @@
+apply_powerbuilder_lifecycle_fix_v1.py  20260715T151350Z
+backup: _master_technologies.csv.bak_powerbuilder_20260715T151350Z
+
+powerbuilder.lifecycle_current: 'PowerBuilder continues under SAP (via Sybase acquisition); current versions available' -> 'legacy-supported'
+powerbuilder.vendor: 'Powersoft / Sybase / Appeon' -> 'Appeon (formerly Sybase/Powersoft)'

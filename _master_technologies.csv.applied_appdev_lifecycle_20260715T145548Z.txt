@@ -1,0 +1,5 @@
+apply_appdev_lifecycle_repair_v2.py  20260715T145548Z
+backup: _master_technologies.csv.bak_appdev_lifecycle_20260715T145548Z
+
+java.vendor: 'Sun Microsystems' -> 'Oracle (formerly Sun Microsystems)'
+eclipse.vendor: 'IBM (open-source)' -> 'Eclipse Foundation (originally IBM)'

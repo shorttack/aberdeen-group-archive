@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-07-20T14:23:49Z",
+  "studies": 1517,
+  "observations": 25196,
+  "entities": 3324,
+  "technologies": 4401,
+  "decades": 6,
+  "year_min": 1972,
+  "year_max": 2026,
+  "lh_scores": 21828,
+  "lh_obs_scored": 21575,
+  "enum_high": 140,
+  "enum_medium": 470,
+  "enum_low": 506,
+  "enum_na": 401,
+  "view_high_max4": 913,
+  "tight_mean35": 89,
+  "sh_scores": 17030,
+  "sh_verdicts": 798,
+  "embed_pages": 10944
+}

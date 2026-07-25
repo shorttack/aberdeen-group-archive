@@ -150,6 +150,21 @@ the join-table row's `tech_id` to the canonical. Backups mandatory; see
 apply script). The 8 tech mislabels in the anti-pattern catalog dated
 2026-07-08 were all resolved this way.
 
+## Quote-page slug convention (added 2026-07-25)
+
+Per-quote wiki pages use the slug pattern `quote-<row_id>`, where `<row_id>`
+is the row's numeric identifier in the source quotations table.
+
+**Important: `row_id` correlates loosely with year but the slug is NOT
+year-based.** Row IDs were assigned in the order quotations were ingested,
+which tends to track publication date loosely (earlier studies were
+ingested earlier), but there is no guaranteed or exact mapping. Do not
+infer a year from a `quote-<row_id>` slug. For example, `quote-92` refers
+to row_id 92 in the quotations table — it is **not** a reference to the
+year 1992, and no arithmetic or lookup should assume otherwise. To find
+the actual year of a quote, join back to the source study's publication
+date via `study_id`, not via the row_id itself.
+
 ---
 
 **Maintained by:** Pete Kastner + Perplexity Computer.

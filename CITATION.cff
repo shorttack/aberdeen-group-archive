@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: "Kastner IT Research Archive"
 abstract: >
-  A structured archive of 1,504 research studies, articles, memoirs,
-  expert reports, and related artifacts (1979-2026) centered on the work
+  A structured archive of research studies, articles, memoirs,
+  expert reports, and related artifacts (1972-2026) centered on the work
   of Peter S. Kastner at Aberdeen Group, Arthur D. Little,
   Philip Hankins Inc. (PHI) Computer Services/Wang, Digital Equipment
   Corporation, Stratus Computer, Prime Computer and Obian Group, plus
@@ -12,17 +12,20 @@ abstract: >
   datapackage.json descriptor; a schema_org.json discovery layer; and a
   human-readable README. The archive is fully audited (Layer A per-study
   referential integrity, Layer B CSV write validation, Layer C cross-study
-  cache integrity) with zero failures. Version 2.0 adds full-corpus 3-year
-  and 5-year prescience reads (17,030-row short-horizon master; 792 studies
-  with 3y/5y verdicts), the v9 confabulation fix, and PC Deals per-SKU
-  price journeys.
+  cache integrity) with zero failures. Current corpus shape and prescience
+  surfaces are published in the generated ARCHIVE_STATS.md. The archive
+  carries full-corpus long-horizon prescience scoring plus fixed 3-year and
+  5-year short-horizon reads (with window-elapsed validation on the
+  short-horizon scorer) and PC Deals per-SKU price journeys. Version 2.1.1
+  is a documentation and repository-hygiene release with no data, schema,
+  or scoring change from v2.1.
 authors:
   - family-names: Kastner
     given-names: Peter S.
     affiliation: "Aberdeen Group (1988-2007); previously DEC, Stratus Computer, Prime Computer, Arthur D. Little, PHI Computer Services, Obian Group"
 type: dataset
-version: "2.0"
-date-released: "2026-06-30"
+version: "2.1.1"
+date-released: "2026-07-29"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.20245076
 keywords:
@@ -36,7 +39,7 @@ keywords:
   - Peter Kastner
 identifiers:
   - type: other
-    value: "aberdeen-group-archive-v2.0"
+    value: "aberdeen-group-archive-v2.1.1"
     description: "Internal archive tag"
   - type: doi
     value: "10.5281/zenodo.20245076"
@@ -47,7 +50,7 @@ preferred-citation:
   authors:
     - family-names: Kastner
       given-names: Peter S.
-  version: "2.0"
-  date-released: "2026-06-30"
+  version: "2.1.1"
+  date-released: "2026-07-29"
   license: CC-BY-4.0
   doi: 10.5281/zenodo.20245076

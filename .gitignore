@@ -25,3 +25,5 @@ venv/
 *.bak_*
 _local_backups/
 _master_backups/
+Perplexity_Only/
+_decisions_log.md

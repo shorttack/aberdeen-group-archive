@@ -769,3 +769,19 @@ _Owner: Pete Kastner. Updates inline during sessions; end-of-day commit clears "
 - Eyeball fdic-washington-cs-1995 (low-confidence repair).
 - Update PASS_C_RUNBOOK.md for v7.
 - Build the next Volume 2 longitudinal studies from the dossier pipeline.
+
+---
+
+## Session 2026-07-29 — Done this session
+
+- **Public-facing README + provenance cleanup (archive repo):** reframed the README's engineering-history language into neutral, accurate wording (window-elapsed validation, complete-corpus scoring, coverage completion, deferred-backlog completed) so the archive reads as a finished research product; removed build-pipeline references and the "data-hygiene history" pointers. Facts, version numbers, and counts unchanged.
+- **Untracked local-dev material from GitHub (kept on disk, gitignored):** `Perplexity_Only/` (31 files) and `_decisions_log.md`. These remain local development context only. No history rewrite (by decision) — prior versions persist in git history and Zenodo snapshots.
+- **Wiki repo brand-neutralization:** SETUP.md + USER_GUIDE.md — replaced build-tool brand references with vendor-neutral "optional cloud LLM" language; local Ollama configuration steps preserved. Applied via reviewable patch (`wiki_neutralize_brand_refs.patch`).
+- **Release:** staged **v2.1.1** (patch — documentation/provenance cleanup, no data or schema change) to publish to GitHub + Zenodo.
+
+## Next up (follow-ups)
+- Dedup pass on flagged duplicate-id pairs (ra-web-site-search, IBM snapshots, research-calendars, solution-provider collateral).
+- Eyeball fdic-washington-cs-1995 (low-confidence repair).
+- Update PASS_C_RUNBOOK.md for v7.
+- Build the next Volume 2 longitudinal studies from the dossier pipeline.
+- Decide whether the wiki's `Example 29` should keep a runnable cloud-LLM command or stay as the neutral placeholder.

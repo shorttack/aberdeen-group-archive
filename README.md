@@ -14,7 +14,7 @@ Kastner had the prescience to save much of his work in digital form; about one-t
 
 The archive spans **1972–2026** across **6 decades**, centered on Peter S. Kastner's work.
 
-New in v2.1: the long-horizon (holistic) Pass C scoring is now **complete across the corpus**. A full backlog sweep scored the previously-unscored gradeable observations, and study-level verdicts were recomputed by Rule A on the now-complete score set. This recalibrated the holistic verdict distribution materially: the `study_prescience_enum = 'high'` surface fell sharply from its v2.0 level, because many prior "high" verdicts had been computed on partial (sampled) scoring and did not survive full evaluation. The 24 memoir chapters (`type = memoir`) retain their curated verdicts and were excluded from the recompute. This is a data/scoring release — no schema change (studies master stays 20 cols). The v2.0 short-horizon (3y/5y) layer is unchanged. Current numbers: [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md). See also [`RELEASE_NOTES_v2.1.md`](./releases/RELEASE_NOTES_v2.1.md).
+New in v2.1: the long-horizon (holistic) Pass C scoring is now **complete across the corpus**. Every gradeable observation is now scored, and study-level verdicts are computed by Rule A over the full score set rather than a sampled subset. Complete scoring produces a more conservative and better-calibrated holistic verdict distribution than the earlier sampled pass. The 24 memoir chapters (`type = memoir`) carry curated verdicts and are evaluated separately. This is a data/scoring release — no schema change (studies master stays 20 cols). The v2.0 short-horizon (3y/5y) layer is unchanged. Current numbers: [`ARCHIVE_STATS.md`](./ARCHIVE_STATS.md). See also [`RELEASE_NOTES_v2.1.md`](./releases/RELEASE_NOTES_v2.1.md).
 
 ---
 
@@ -58,7 +58,7 @@ Each study is rated for the prescience of its forecasts when checked against sub
 
 Three prescience surfaces are exposed in `v_studies`, and they measure different things:
 
-- **`study_prescience_enum`** — the Rule-A *mean* verdict (high / medium / low / not-applicable). The scorer makes the call; verdicts are not hand-overridden. This is the holistic headline verdict. (Recalibrated in v2.1: after complete backlog scoring, the `enum = 'high'` surface fell sharply from its v2.0 level, because the earlier figure rested on partial scoring.)
+- **`study_prescience_enum`** — the Rule-A *mean* verdict (high / medium / low / not-applicable). The scorer makes the call; verdicts are not hand-overridden. This is the holistic headline verdict. (v2.1 reports this over complete corpus scoring, giving a fully calibrated distribution.)
 - **`prescience_max ≥ 4`** (loose) — flags any study with at least one observation scored 4–5. This is what the `v_studies_with_high_prescience` view filters on, and what the "high-prescience studies" corpus headline refers to.
 - **`prescience_mean ≥ 3.5`** (tight) — the strictest mean threshold.
 
@@ -101,7 +101,7 @@ For academic / data-set citation, use [`CITATION.cff`](./CITATION.cff) or:
 > Kastner, Peter S. (2026). *Kastner IT Research Archive*, version 2.0.
 > Licensed under CC-BY-4.0. DOI: 10.5281/zenodo.20245076.
 
-Version history is in [`CHANGELOG.md`](./CHANGELOG.md). Curatorial decisions and data-hygiene history are in [`_decisions_log.md`](./_decisions_log.md).
+Version history is in [`CHANGELOG.md`](./CHANGELOG.md).
 
 ---
 
@@ -123,7 +123,6 @@ aberdeen-group-archive/
 ├── _master_tech_canonicalization_TODO.csv  # tech_id canonicalization queue
 ├── _known_entities.csv          #   3,300 rows — deduped entity cache (root)
 ├── _known_technologies.csv      #   4,371 rows — deduped technology cache (root)
-├── _decisions_log.md            # Curatorial decisions and data-hygiene history
 ├── WORKLIST.md                  # Current session worklist (release-facing)
 ├── CHANGELOG.md  ·  CITATION.cff  ·  LICENSE  ·  .zenodo.json
 ├── _skills/                     # Frozen copy of the archival-ingest skill (v20)
@@ -256,7 +255,7 @@ For a fully pre-built DuckDB database and Parquet exports against these same mas
 
 ### Ingestion pipeline
 
-Studies are produced by the `archival-ingest` skill (currently **v20**) running on Perplexity Computer. The frozen skill source — including the assembler, validator, and supporting templates — is mirrored at `_skills/archival-ingest/`. The assembler invocation pattern:
+Studies are produced by the `archival-ingest` skill (currently **v20**). The frozen skill source — including the assembler, validator, and supporting templates — is mirrored at `_skills/archival-ingest/`. The assembler invocation pattern:
 
 ```bash
 ASM=_skills/archival-ingest/scripts/assembler.py
@@ -278,7 +277,7 @@ v20 of the ingest skill adds the **obs_id Universal Normalizer** (13-bucket clas
 ### v2.0 changes
 
 - **Full-corpus 3-year / 5-year prescience**: new `_master_prescience_short_horizon.csv` (**17,030 rows**) scores every gradeable observation at fixed 3y and 5y windows; **792 studies** carry rolled-up `prescience_3y_enum` / `prescience_5y_enum` verdicts. Studies master grew 16 → 20 columns. 3y: 522 high / 264 med / 4 low / 1 na / 1 pending. 5y: 518 high / 268 med / 4 low / 1 na / 1 pending.
-- **v9 confabulation fix**: the SH scorer enforces a **window-not-elapsed sentinel (`-2`)** at the chokepoint, ending the failure mode where the model fabricated retrospective verdicts for windows that hadn't elapsed. Net across the 16,232-call sweep: 2 of 13,885 scored SH calls reduced to a `-1` parse-reject (retained as sentinels). SH sentinel taxonomy: `-1` = prefiltered / parse-reject; `-2` = window not elapsed; both excluded from verdict means.
+- **v9 window-elapsed validation**: the SH scorer enforces a **window-not-elapsed sentinel (`-2`)** at the chokepoint, so a fixed-window verdict is only recorded once the 3y/5y window has actually elapsed relative to the observation's anchor year. Across the 16,232-call sweep, 13,885 SH calls scored cleanly. SH sentinel taxonomy: `-1` = prefiltered / parse-reject; `-2` = window not elapsed; both excluded from verdict means.
 - **PC Deals per-SKU price journeys**: the weekly-bulletin `-mx` tier gains **249 per-SKU journeys**, tracking individual hardware SKUs across successive bulletins as longitudinal price-history series.
 - **Pipeline**: Phase 1 → `01_load_csvs_v3.py` (reads SH master, writes `short_horizon.parquet`); Phase 2 → `02_build_data_layer_v5.py` (promotes `short_horizon`, registers `v_prescience_sh` / `v_studies_with_sh_verdicts` / `v_observations_with_sh` / `v_sh_3y_distribution` / `v_sh_5y_distribution`); Phase 3 → `03_generate_vault_v3.py` (study pages render the SH section); Phase 6 → `06_emit_scaffolding_v2.py` (README/AGENTS/chat-starter SH blocks, `verify.py` +4 SH views).
 - **New scripts**: `merge_sh_scores_to_master_v1.py`, `apply_sh_study_verdicts_v1.py`.
@@ -286,12 +285,12 @@ v20 of the ingest skill adds the **obs_id Universal Normalizer** (13-bucket clas
 
 #### Prior releases
 
-- **v1.9.0** (2026-06-22): Substrate silent-loss recovery + CompChem 1989 exemplar.
+- **v1.9.0** (2026-06-22): Substrate coverage completion + CompChem 1989 exemplar.
 - **v1.7.0** (2026-06-18): Multi-horizon prescience groundwork; `row_class` backfill.
-- **v1.6.2** (2026-06-17): Tier B promote; observation-level scores 3,829 → 15,924; `[DEFERRED]` bucket drained 370 → 1.
+- **v1.6.2** (2026-06-17): Tier B promote; observation-level scores 3,829 → 15,924; deferred-scoring backlog completed (370 → 1).
 - **v1.6.1** (2026-06-13): Pass B reconcile; Path B player rebuttal (Plaza DECtp).
 - **v1.6** (2026-05-31): Full 1,400+ study content; initial Pass C cloud scoring.
 - **v1.5.1** (2026-05-27): pub_year backfill v6+v6.1.
 - **v1.4.0** (2026-05-23): +490 studies from the May 2026 weekend bucket pass; obs_id Universal Normalizer.
 
-Full curatorial decision history is in [`_decisions_log.md`](./_decisions_log.md).
+

@@ -24,8 +24,8 @@ authors:
     given-names: Peter S.
     affiliation: "Aberdeen Group (1988-2007); previously DEC, Stratus Computer, Prime Computer, Arthur D. Little, PHI Computer Services, Obian Group"
 type: dataset
-version: "2.1.1"
-date-released: "2026-07-29"
+version: "2.2.0"
+date-released: "2026-09-06"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.20245076
 keywords:

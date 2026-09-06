@@ -27,3 +27,10 @@ _local_backups/
 _master_backups/
 Perplexity_Only/
 _decisions_log.md
+
+# FLORIDA — derived OCR artifacts, regenerable via scripts/ocr_pdf_v1.sh
+FLORIDA/**/*.sidecar.txt
+FLORIDA/**/*.log
+FLORIDA/PDFs/**/*_ocr.pdf
+FLORIDA/PDFs/auditor-general/AG-12061-p130-166_fixed.pdf
+FLORIDA/PDFs/auditor-general/-o

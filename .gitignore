@@ -34,3 +34,6 @@ FLORIDA/**/*.log
 FLORIDA/PDFs/**/*_ocr.pdf
 FLORIDA/PDFs/auditor-general/AG-12061-p130-166_fixed.pdf
 FLORIDA/PDFs/auditor-general/-o
+
+# Excluded from GitHub (exceeds 50MB recommendation); kept locally
+FLORIDA/PDFs/auditor-general/AG-13256-vol1.pdf

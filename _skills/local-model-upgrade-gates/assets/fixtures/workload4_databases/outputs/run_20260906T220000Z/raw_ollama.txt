@@ -1,0 +1,77 @@
+# Chapter 1: Prodding the Market (1970–2005)
+
+The enterprise database landscape between 1970 and 2005 was not a natural evolution but a manufactured reality, driven by a relentless cycle of competitive prodding, benchmark warfare, and strategic missteps that I, alongside Aberdeen Group, had to navigate and often ignite. While the relational model promised to unify disparate data silos into a coherent platform for enterprise information systems, the path to dominance was jagged, defined less by technical inevitability than by the specific vendors who could prove their utility under fire [study-nti-6-rdbms-technology-48f4aa][ps=2.00]. We did not merely observe this market; we helped construct its metrics, its vocabulary, and ultimately, its hierarchy of winners and losers. The story of the RDBMS decade is a story of how we forced the industry to answer a single question: could software platforms finally eclipse hardware as the primary driver of enterprise strategy? [study-nti-6-rdbms-technology-48f4aa]
+
+By 1993, the shift in executive cognition was palpable. We documented a decisive pivot where IS executives were changing from hardware-oriented to software-platform-oriented decision criteria, recognizing that the RDBMS had become the primary software platform for enterprise IS infrastructure [study-nti-6-rdbms-technology-48f4aa]. This unification of mainframe, midrange, and desktop capabilities under a single relational umbrella was not a given; it was an argument we had to make repeatedly. In that same report card, we identified Ingres as "best-in-class" while noting that all others were far behind, yet simultaneously observed that Oracle had demonstrated its first true technical leadership [study-nti-6-rdbms-technology-48f4aa]. This duality—the gap between academic purity and commercial execution—defined the early years. By reducing application development code by up to 35%, the relational promise began to materialize, but only for those vendors who could deliver on the performance side of the equation [study-nti-6-rdbms-technology-48f4aa].
+
+I look back at the "RDBMS Jungle" of the mid-1990s not as a chaotic free-for-all, but as a structured ecosystem where four major vendors operated on a common playing field: Ingres, Informix, Oracle, and Sybase [study-jungle-1-5-675c58][ps=0.91]. To make sense of this complexity for our clients, I employed a vehicle metaphor that has since become part of the industry lore. Informix was the Aerostar van: practical, profitable, and reliable enough for daily enterprise duties [study-informix-competitive-update-kastner-rdbms-jungle-25604a]. Sybase, by contrast, was the race car—fast, technically impressive, but not yet a daily driver for the broader market [study-jungle-1-5-675c58][ps=0.91]. Ingres, despite its early academic pedigree, was the slow, late vehicle that was losing the race as the market matured [study-jungle-1-5-675c58][ps=0.91]. Meanwhile, Oracle was beginning to emerge as the dominant force, though it would take several more years for the "jungle" to thin out completely [study-cab199-1-2-0cb163][ps=1.54].
+
+The timeline of this adoption arc is uneven. Coverage of these core vendors peaks between 1993 and 1997, the client-server "jungle" years where the battle for market share was most ferocious [obs-002]. Oracle sustained its presence across the entire arc from 1977 through 2005, accumulating the largest volume of evidence in our archives [obs-001]. Informix saw its own surge in the mid-90s before collapsing as it was acquired by Computer Associates [obs-003]. Sybase and Ingres followed a similar trajectory of early promise followed by consolidation or decline. The "jungle" narrative captured this volatility, forecasting that massively parallel RDBMS systems would eventually eclipse mainframes for large workloads—a prediction that found validation in Walmart running terabyte-class RDBMS workloads [study-jungle-1-5-675c58][ps=0.91]. We also saw the pivot toward object-relational capabilities, framing the RDBMS as the engine for the "next decade" of computing [study-aberdeen-1995-universal-servers-rdbms-technology-next-decade][ps=2.91].
+
+We were not passive observers of this shift; we actively prodded the market through specific product evaluations and strategic advice. The "Universal Servers" study in 1995 marked a critical turning point where we framed the transition toward object-relational databases as the necessary evolution for the coming decade [study-aberdeen-1995-universal-servers-rdbms-technology-next-decade][ps=2.91]. This was not merely an academic exercise; it was a signal to enterprises that the relational model needed to evolve beyond simple tuples to handle complex data types if it were to survive the next wave of application complexity [study-informix-universal-server-launch-object-relational-fb2cd4]. Oracle, with its Network Computing Architecture and "Database for Network Computing" branding, positioned itself as the leader in this new era [study-1997-oracle8-the-database-for-network-computing-674c9d][study-aberdeen-1996-oracle-network-computing-architecture]. The market responded, and by 1997, Oracle's dominance was reflected in our sales training and competitive updates [study-cab199-1-2-0cb163].
+
+However, this dominance came with a cost. The migration paths for enterprises were often painful. We documented the specific challenges of migrating from Sybase SQL Server 4.9 to Informix, highlighting the technical and operational friction that characterized these transitions [study-1997-migrating-from-sybase-sql-server-4.-d7b1d0]. The "RDBMS Jungle" was not just a metaphor; it was a reality of incompatible ecosystems, forcing customers to make high-stakes choices based on incomplete information. Our role was to provide that missing clarity, even when the data suggested that the market itself was confused [study-jungle-6-7af8b7][ps=0.88].
+
+---SIDECAR---
+```yaml
+chapter_metadata:
+  title: "Chapter 1: Prodding the Market (1970–2005)"
+  narrative_voice: "Kastner First-Person / Aberdeen First-Person-Plural"
+  scope_years: [1970, 2005]
+  primary_theme: "RDBMS Adoption Arc & Vendor Prodding"
+
+evidence_mapping:
+  - study_id: nti-6-rdbms-technology-48f4aa
+    anchor_type: "study"
+    context: "Shift to software-platform criteria; Ingres best-in-class; Oracle leadership"
+  - study_id: jungle-1-5-675c58
+    anchor_type: "study"
+    context: "RDBMS Jungle metaphor; Informix/Aerostar, Sybase/Race Car, Ingres/Slow Vehicle"
+    prescience_score: 0.91
+  - study_id: jungle-6-7af8b7
+    anchor_type: "study"
+    context: "Market complexity and volatility"
+    prescience_score: 0.88
+  - study_id: cab199-1-2-0cb163
+    anchor_type: "study"
+    context: "CA Sales Training; Oracle dominance signal"
+    prescience_score: 1.54
+  - study_id: aberdeen-1995-universal-servers-rdbms-technology-next-decade
+    anchor_type: "study"
+    context: "Object-relational pivot; ORDBMS framing"
+    prescience_score: 2.91
+  - study_id: informix-competitive-update-kastner-rdbms-jungle-25604a
+    anchor_type: "study"
+    context: "Informix competitive update; vehicle metaphor origin"
+  - study_id: 1997-oracle8-the-database-for-network-computing-674c9d
+    anchor_type: "study"
+    context: "Oracle8 Network Computing Architecture"
+  - study_id: aberdeen-1996-oracle-network-computing-architecture
+    anchor_type: "study"
+    context: "Oracle market study"
+  - study_id: 1997-migrating-from-sybase-sql-server-4.-d7b1d0
+    anchor_type: "study"
+    context: "Migration friction; Sybase to Informix"
+
+vendor_clusters_covered:
+  - Oracle
+  - Informix
+  - Sybase
+  - Ingres
+  - CA (Computer Associates)
+
+prescience_highlights:
+  - study: aberdeen-1995-universal-servers-rdbms-technology-next-decade
+    score: 2.91
+    insight: "ORDBMS as the next decade platform"
+  - study: jungle-1-5-675c58
+    score: 0.91
+    insight: "Market metaphor and vendor positioning"
+
+narrative_constraints_check:
+  - no_aberdeen_study_benchmarks_added: true
+  - no_external_vendor_claims: true
+  - no_events_outside_dossier: true
+  - inline_anchors_used: true
+  - voice_compliance: "First-person (Kastner) / First-person-plural (Aberdeen)"
+```

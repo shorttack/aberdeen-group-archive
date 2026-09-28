@@ -1,0 +1,62 @@
+```yaml
+chapter_metadata:
+  title: "Chapter 1: Prodding the Market (1970–2005)"
+  narrative_voice: "Kastner First-Person / Aberdeen First-Person-Plural"
+  scope_years: [1970, 2005]
+  primary_theme: "RDBMS Adoption Arc & Vendor Prodding"
+
+evidence_mapping:
+  - study_id: nti-6-rdbms-technology-48f4aa
+    anchor_type: "study"
+    context: "Shift to software-platform criteria; Ingres best-in-class; Oracle leadership"
+  - study_id: jungle-1-5-675c58
+    anchor_type: "study"
+    context: "RDBMS Jungle metaphor; Informix/Aerostar, Sybase/Race Car, Ingres/Slow Vehicle"
+    prescience_score: 0.91
+  - study_id: jungle-6-7af8b7
+    anchor_type: "study"
+    context: "Market complexity and volatility"
+    prescience_score: 0.88
+  - study_id: cab199-1-2-0cb163
+    anchor_type: "study"
+    context: "CA Sales Training; Oracle dominance signal"
+    prescience_score: 1.54
+  - study_id: aberdeen-1995-universal-servers-rdbms-technology-next-decade
+    anchor_type: "study"
+    context: "Object-relational pivot; ORDBMS framing"
+    prescience_score: 2.91
+  - study_id: informix-competitive-update-kastner-rdbms-jungle-25604a
+    anchor_type: "study"
+    context: "Informix competitive update; vehicle metaphor origin"
+  - study_id: 1997-oracle8-the-database-for-network-computing-674c9d
+    anchor_type: "study"
+    context: "Oracle8 Network Computing Architecture"
+  - study_id: aberdeen-1996-oracle-network-computing-architecture
+    anchor_type: "study"
+    context: "Oracle market study"
+  - study_id: 1997-migrating-from-sybase-sql-server-4.-d7b1d0
+    anchor_type: "study"
+    context: "Migration friction; Sybase to Informix"
+
+vendor_clusters_covered:
+  - Oracle
+  - Informix
+  - Sybase
+  - Ingres
+  - CA (Computer Associates)
+
+prescience_highlights:
+  - study: aberdeen-1995-universal-servers-rdbms-technology-next-decade
+    score: 2.91
+    insight: "ORDBMS as the next decade platform"
+  - study: jungle-1-5-675c58
+    score: 0.91
+    insight: "Market metaphor and vendor positioning"
+
+narrative_constraints_check:
+  - no_aberdeen_study_benchmarks_added: true
+  - no_external_vendor_claims: true
+  - no_events_outside_dossier: true
+  - inline_anchors_used: true
+  - voice_compliance: "First-person (Kastner) / First-person-plural (Aberdeen)"
+```

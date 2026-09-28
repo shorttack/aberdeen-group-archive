@@ -1,0 +1,34 @@
+```yaml
+chapter_number: 1
+chapter_title: "The Database Decade: From Transaction Processing to Platform Dominance (1970–2005)"
+author: Peter S. Kastner
+narrative_type: Phase 3 Longitudinal Narrative
+source_dossier_id: "Databases Longitudinal Study — Evidence Dossier (Gate 1 + Gate 3)"
+word_count_target: "2,000–3,500"
+prescience_anchor_high: "2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba"
+prescience_anchor_low: "dec-blue-monday-internal-sales-training-dectp-vs-ibm-0021cc"
+key_vendors:
+  - Oracle
+  - Informix
+  - Sybase
+  - Ingres
+  - DB2
+  - CA
+  - Software AG
+  - NCR
+key_technologies:
+  - RDBMS
+  - OLTP
+  - TPC
+  - Unix
+  - x86
+  - SAP R/3
+archival_gaps:
+  - "DB2 under-representation in product-level observations"
+  - "CCA sparse evidence (1 obs, 2010)"
+  - "RDB modest standalone presence"
+synthetic_studies_flagged:
+  - "2026-kastner-oracle-longitudinal"
+  - "2026-kastner-dec-longitudinal-22d177"
+  - "volume-1-*" memoir chapters
+```

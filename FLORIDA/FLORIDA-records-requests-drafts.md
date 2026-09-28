@@ -1,21 +1,59 @@
 # Records Requests — FLORIDA System (HRS / EDS / IBM)
 
-Version 15, September 6, 2026. Seven requests. **Six sent** — §§ 1, 3, 4, 5, and 6 on July 28, 2026; § 2 (Leon County Clerk of Court) on August 20, 2026. § 7 (DOAH, added retroactively — was submitted via the DOAH intake path independently and its response arrived September 6, 2026). One record-set fully answered (§ 1); one null-return with follow-up in flight (§ 5); one null-return, closed (§ 7). One future ask identified: Auditor General Report No. 10983, AFDC Operational Performance Audit.
+Version 16, September 23, 2026. Refreshed against Gmail correspondence and the USDA final-response attachment, not inferred from older status blocks. Seven original request tracks were sent; the DOAH request was sent August 18 and answered August 31, not September 6. The Auditor General's original and supplemental requests are answered. Three governmental tracks remain awaiting a substantive response: HHS, the DCF disposition/transfer follow-up, and the DCF ITN request. USDA and Leon County have answered negatively and require a decision about further action rather than another generic status inquiry.
+
+## September 23 reconciliation and correction
+
+### HHS portal correction, September 23, approximately 5:15 PM EDT
+
+Pete reported that the PAL link in HHS's automatic reply could not be reached. An independent cloud-browser test of `https://requests.publiclink.hhs.gov/App/Index.aspx` reproduced “This site can't be reached,” “took too long to respond,” and `ERR_CONNECTION_TIMED_OUT`. This establishes failure in two environments at this time, not a permanent outage diagnosis. The earlier recommendation to check that portal is withdrawn.
+
+HHS's current [submission/status instructions](https://www.hhs.gov/foia/request/index.html) direct new requests to FOIA.gov and existing-request status concerns to the FOIA Public Liaison. The page also carries an “OS FOIA Tracking Update” noting transition to a new tracking system. Its live [contacts page](https://www.hhs.gov/foia/contacts/index.html) lists **Paula Formoso**, **HHS_FOIA_Public_Liaison@hhs.gov**, and **202-690-7453**; it identifies FOIARequest@hhs.gov for questions/referrals and confirms that OS handles ACF records. Both pages were read in the browser.
+
+Next recommended action: ask the liaison whether the July 28 request exists in the tracking system and request its number, attaching the original request and today's status inquiry and explaining the unusable link. Do not infer rejection of the original email or automatically submit a duplicate. No liaison email or new portal request has been sent. The automatic reply's portal directions conflict with the current published route; its date of obsolescence has not been established.
+
+### Follow-ups sent September 23, 2026, 5:01 PM EDT
+
+**HHS automatic reply received 17:01:13 EDT:** Gmail message `1a0d012bf13fad4a`, from FOIARequest@hhs.gov, subject “Automatic reply: FOIA Request — Florida FAMIS/APD records, HRS FLORIDA system (RFP 88-74-BC), 1986–1996.” This confirms mailbox-level receipt of today's follow-up, not logging or acceptance of the July 28 request. No case number, assigned office, search status, or completion date is supplied. The message recommends the [HHS PAL portal](https://requests.publiclink.hhs.gov/App/Index.aspx) for submissions and status checks. Its unmonitored-mail warning applies to non-FOIA correspondence; it does not say FOIA email is rejected. Current status: automatic reply received; request registration and substantive response still unconfirmed. Before any duplicate submission, check the portal/service center for the July request and preserve its original date in any subsequent inquiry.
+
+The user approved the three prepared status follow-ups, and all three were sent and independently verified in Gmail Sent Mail. They remain awaiting agency responses; this records transmission, not receipt or agency acknowledgment.
+
+| Request | Recipient | Sent time (EDT) | Gmail message ID | Existing thread |
+|---|---|---|---|---|
+| HHS / ACF FAMIS/APD | FOIARequest@hhs.gov; cc pskastner@gmail.com | 17:01:04 | `1a0d01271281ab1d` | `19faa59dabf7c84a` |
+| DCF disposition/transfer, P260649-082226 | fldcfs@mycusthelp.net | 17:01:03 | `1a0d0126dc123fbc` | `1a05876da823fe29` |
+| DCF ITN, P257878-072926 | fldcfs@mycusthelp.net | 17:01:04 | `1a0d012703a9d8ba` | `19fad7df61ff724e` |
+
+All three preserve the existing request scope and fee terms. HHS asks for acknowledgment, tracking, routing, and estimated completion; DCF disposition asks for status and administrative-records routing; DCF ITN asks for status, production timing, and any retrieval estimate. No USDA appeal, Leon County follow-up, or State Attorney request was sent in this action.
+
+### Earlier reconciliation snapshot
+
+The current table below supersedes historical status statements within the retained letters and earlier analysis. The earlier September follow-up file in the forked conversation is not reliable as a current register: it treated answered requests as unanswered and reports already supplied as missing. Do not send its old follow-ups without rewriting them against the correspondence.
+
+Evidence is preserved in `sources/records-requests/gmail-status-evidence-2026-09-23.json`, with message IDs and timestamps. A concise action register is in `REQUESTS-AWAITING-RESPONSE-2026-09-23.md`; USDA's September 11 letter is preserved in `PDFs/records-requests/2026-FNS-07231-F-final-response.pdf`.
+
+No email was sent during the initial refresh; the three later approved sends are recorded above. Searches did not locate a sent September 23 Leon County follow-up or State Attorney request, despite the instruction to send them in the predecessor conversation. Their transmission is therefore unverified; do not label them awaiting response or resend automatically. A portal-only submission could be absent from Gmail.
+
+The Auditor General's September 4 response explicitly confirms that Report 12581 workpapers no longer exist, and neither that office nor the Legislative Auditing Committee possesses them. It cites s. 11.45(4)(c) and GS1-SL Item 57, but supplies no actual destruction date. Do not substitute a calculated retention-expiry date for a documented destruction date.
 
 ## Responses received
 
 | § | Recipient | Sent | Reference | Received | Disposition |
 |---|---|---|---|---|---|
 | 1 | Florida Auditor General | Jul 28, 2026 | — | **Aug 11, 2026** | **Complete.** All six supplied — 12583, 12656, 12886, 13287, and (logged Aug 23) **12581 and 13043**. See § 1a |
-| 1b | Florida Auditor General — second request | **Aug 21, 2026** | *pending* | — | Sent to flaudgen@, cc Katherine Butler. Items 1 and 2 withdrawn Aug 23; items 3, 4, 6 stand |
-| 1d | Florida Auditor General — correcting note | **Aug 23, 2026** | *pending* | — | In-thread reply. Withdraws 13043 and 12581; requests **11178, 11619, 12061** by number |
-| 2 | Leon County Clerk of Court | Aug 20, 2026 | **P022996-082026** | Ack. Aug 20, 2026 | Received and being processed; forwarded to department(s) for volume and cost |
-| 3 | HHS Office of the Secretary (for ACF) | Jul 28, 2026 | — | — | No response recorded |
-| 4 | USDA Food and Nutrition Administration | Jul 28, 2026 | — | — | No response recorded |
+| 1b | Florida Auditor General, supplemental request | Aug 21, amended Aug 23, 2026 | Email thread | **Sept 4, 2026** | **Answered.** 11178, 11619, 12061, and 13256 (two volumes plus SSAF) supplied by shared folder. 12581 workpapers confirmed no longer existing |
+| 1d | Florida Auditor General, correcting note | Aug 23, 2026 | Same thread | Sept 4; acknowledgment Sept 8 | **Answered.** Pete confirmed retrieval Sept 5 EDT. No outstanding request for these reports or workpaper survival |
+| 2 | Leon County Clerk of Court | Aug 20, 2026 | **P022996-082026** | **Sept 23, 2026** | **Answered, negative.** No responsive records for items 1–3. Item 4 rejected as information not already held in the requested form; this is not proof that the named criminal files do not exist. Further follow-up transmission unverified |
+| 3 | HHS Office of the Secretary (for ACF) | Jul 28; follow-up Sept 23, 2026 | No tracking number supplied | **Automatic reply Sept 23, 17:01:13 EDT** | **Awaiting registration confirmation/substantive response.** Auto-reply recommends PAL but neither rejects the request nor confirms that the July request was logged |
+| 4 | USDA Food and Nutrition Administration | Jul 28, 2026 | **2026-FNS-07231-F** | **Sept 11, 2026** | **Final response: no responsive records found.** Search by applicable FNA Program Offices; refers requester to Florida. Appeal option within 90 calendar days of letter, calculated as Dec 10, 2026 |
 | 5 | Florida DCF — procurement file | Jul 28, 2026 | **P257883-072926** | Aug 18–19, 2026 | **No responsive records located.** See § 5a |
-| 5b | Florida DCF — disposition and transfer follow-up | **Aug 20, 2026** | *pending* | — | Sent to the custodian mailbox; may be assigned a new reference |
-| 6 | Florida DCF — ITN 03F12GC1 | Jul 28, 2026 | — | — | No response recorded |
-| 7 | Division of Administrative Hearings — Case 88-002942 file | (submitted separately) | — | **Sept 6, 2026** | **Effectively null return, closed.** Two documents: fragmentary docket OCR (case identity confirmed; no substantive filings) plus 12 pages of DOAH's routine 1998 Records Disposition Documents — the case file was substantially destroyed under standard state retention in 1998, ten years after the case. See `DOAH-2026-09-06-FINDINGS.md`. Do not send follow-up to DOAH for underlying pleadings |
+| 5b | Florida DCF, disposition and transfer follow-up | Aug 20 email; agency records receipt Aug 22; status follow-up Sept 23 | **P260649-082226** | Latest acknowledgment **Aug 31, 2026** | **Awaiting substantive response.** Status follow-up sent and verified Sept 23 at 17:01 EDT; confirms ID was already supplied and asks for administrative-records routing |
+| 6 | Florida DCF, ITN 03F12GC1 | Jul 28 email; agency receipt Jul 29; status follow-up Sept 23 | **P257878-072926** | Ack. **Jul 29, 2026** | **Awaiting substantive response.** Status follow-up sent and verified Sept 23 at 17:01 EDT. Original $100 estimate threshold preserved |
+| 7 | DOAH, Cases 88-2942BID and 89-0003BID | **Aug 18, 2026** | Email subject with both case numbers | **Aug 31, 2026** | **Answered and expressly closed.** 88-2942BID docket and disposition documents supplied. Hearing records transmitted to HRS Aug 4, 1988 and Mar 14, 1989. DOAH cannot confirm HRS's subsequent retention/destruction; do not treat generic DOAH disposition records as proof of destruction of HRS's evidentiary record |
+
+**Date correction for § 5:** Gmail dates the negative DCF response August 18, 2026 at 13:14 EDT; the August 20 outgoing follow-up and the historical register refer to it as August 19. Preserve the discrepancy rather than treating those as separate responses.
+
+**Next actions:** request HHS's tracking number and status; follow up separately on DCF P260649-082226 and P257878-072926; consider a USDA search-adequacy appeal before December 10; verify transmission of the Leon County and State Attorney follow-ups. Report 10983 remains a future ask, not an unanswered request.
 
 **Both reference numbers come from the same vendor.** § 2 was submitted through the Clerk's own GovQA instance at `leonclerk.govqa.us`, under an account registered to pskastner@gmail.com, and returned `P022996-082026` — the same `P` + serial + submission-date form DCF's system produced. Leon County and DCF run separate GovQA tenants, so the two accounts and the two reference series are unrelated to each other, but the status-tracking behavior should be identical: log in to the originating portal to check status, and cite the reference on any follow-up or appeal.
 
@@ -48,7 +86,7 @@ The general lesson is the same one the ITN 404 taught, applied to people rather 
 
 ## 1. Florida Auditor General — Reports 13043 and 12581
 
-> **Status: ANSWERED IN PART, August 11, 2026.** Four of the six reports named were supplied; the two the request led with were not. See § 1a below the letter.
+> **Current status, verified September 23: ANSWERED.** All six original reports were supplied August 11. The supplemental reports were supplied September 4 and workpaper nonexistence confirmed in writing. The previous “answered in part” header was wrong; historical error text in § 1a is retained as such.
 >
 > **Sent July 28, 2026.** Contact verified the same day — no change required. The email address and telephone number are confirmed on the [Auditor General's report request page](https://flauditor.gov/pages/report_request.html); the mailing address and telephone are confirmed in the footer of the [agency's home page](https://flauditor.gov/), which gives "111 West Madison Street, Claude Pepper Building, Suite G74, Tallahassee, FL 32399-1450" and "(850) 412-2722" verbatim. This is the only one of the five that needed nothing.
 >
@@ -216,6 +254,8 @@ Short. Reply on the August 21 thread so it lands with the letter it corrects, an
 
 ## 2. Leon County Clerk of Court — 1993 grand jury presentment
 
+> **Current status, September 23: ANSWERED, negative.** Patti Graham reported no responsive records for items 1–3 and declined item 4 on a no-duty-to-create rationale. This does not establish that criminal files are sealed, expunged, or nonexistent. The follow-up and State Attorney request described in the predecessor conversation have no located sent-mail confirmation.
+
 The presentment is the single most quotable surviving document on the procurement's ethics dimension: a grand jury "accused HRS officials of violating laws, acting unethically and intimidating subordinates to build the computer," and two HRS administrators were indicted ([Tampa Bay Times, Aug. 16, 1995](https://www.tampabay.com/archive/1995/08/16/faulty-computer-could-cost-state-more/)). Reporting describes it as a statewide grand jury examining, among other things, whether HRS improperly favored **IBM** on a $5.1 million upgrade ([Los Angeles Times, May 2, 1993](https://www.latimes.com/archives/la-xpm-1993-05-02-mn-30237-story.html)).
 
 Under Florida practice, indictments and presentments of a statewide grand jury "are given to this presiding judge and are filed with the clerk of court named in the Florida Supreme Court's order" ([Florida Supreme Court](https://supremecourt.flcourts.gov/News-Media/Statewide-Grand-Jury)) — for a Tallahassee-seated investigation of a state agency, almost certainly Leon County. A published presentment is a public record; grand jury testimony and deliberations remain exempt under §§ 905.27 and 905.395, Fla. Stat. Ask only for the presentment and the case files, not the testimony.
@@ -303,6 +343,8 @@ Peter Kastner
 
 ## 3. FOIA — HHS Administration for Children and Families
 
+> **Current status, September 23: AWAITING RESPONSE.** The July 28 sent message to FOIARequest@hhs.gov is verified. No matching acknowledgment, tracking number, determination, or sent status follow-up was located in the searches. This is a mailbox-search finding, not proof that the agency never processed the request.
+
 **Purpose in one line:** to establish whether any quantified performance standard — throughput, response time, availability, or utilization — existed anywhere in the federally approved requirements, or whether, as [45 C.F.R. § 205.37](https://www.law.cornell.edu/cfr/text/45/205.37) suggests on its face, the federal approval process specified process deliverables and no numbers.
 
 > **Status: SENT July 28, 2026, to the corrected recipient.** Recipient superseded the same day — ACF no longer processes its own FOIA requests. The [HHS FOIA contacts page](https://www.hhs.gov/foia/contacts/index.html) states that "The HHS Office of the Secretary (OS) FOIA Program processes FOIA requests for records of OS and the following HHS Divisions," and lists the Administration for Children and Families first among them. ACF has no separate entry, no separate FOIA officer, and no separate address on that page. The Switzer Building address in the superseded line below was carried over from older sources and should not be used; a 370 L'Enfant Promenade address still circulating on ACF-affiliated sites is older still.
@@ -343,7 +385,18 @@ Peter Kastner · 20 Seawatch Drive, Savannah, GA 31411-2600 · pskastner@gmail.c
 
 ---
 
+
+### 3e. HHS FOIA Public Liaison inquiry — SENT September 23, 2026, 5:19 PM EDT
+
+> **Status: SENT** from pskastner@gmail.com to `HHS_FOIA_Public_Liaison@hhs.gov` (Paula Formoso, per the HHS FOIA contacts page), cc `FOIARequest@hhs.gov`. Subject: *"Request to locate FOIA request emailed July 28, 2026 — Florida FAMIS/APD records, HRS FLORIDA system (RFP 88-74-BC)."*
+>
+> Asks the liaison to (1) confirm whether the July 28 request was logged, with tracking number and receipt date; (2) identify the processing office and status; (3) if never logged, explain how to proceed and whether HHS will honor July 28, 2026 as the original submission date on any FOIA.gov resubmission. Reports that the status portal named in the automatic reply (`requests.publiclink.hhs.gov`) times out. States a preference not to file a duplicate without guidance. No new fee terms.
+>
+> **Do not resubmit through FOIA.gov until the liaison answers**, unless 10 business days pass without reply (about October 7, 2026).
+
 ## 4. FOIA — USDA Food and Nutrition Service
+
+> **Current status, September 23: FINAL RESPONSE RECEIVED September 11.** Tracking number 2026-FNS-07231-F. Applicable FNA Program Offices found no responsive records and suggested the Florida state agency. The letter offers an appeal within 90 calendar days, calculated as December 10, 2026, to SM.fn.APPEALS-FNA@usda.gov, subject “FOIA APPEAL.” It does not identify searched systems, dates, regional holdings, or retired-record searches. Those are possible clarification/appeal questions, not findings that the search was unlawful.
 
 The food stamp share of the FLORIDA system was federally funded and reviewed on a separate track under 7 C.F.R. § 277.18, so FNS holds a parallel APD file — plus the error-rate sanction records behind the roughly $5 million FY1990–91 penalty reported at the time ([Tampa Bay Times, Aug. 3, 1992](https://www.tampabay.com/archive/1992/08/03/state-faces-fine-of-5-million-for-food-stamp-errors/)). FNS's regulations are more prescriptive than ACF's, so this file is the likelier of the two to contain an actual number.
 
@@ -434,6 +487,8 @@ No statutory basis is cited, no exemption is claimed, and no partial production 
 
 ### 5b. Follow-up — SENT August 20, 2026, 2:14 PM ET
 
+> **Current status, September 23: AWAITING SUBSTANTIVE RESPONSE, P260649-082226.** DCF records receipt August 22. Its August 28 message requested identification using a confidentiality template; identification was supplied that day. August 31 confirms receipt and review. A follow-up should identify this as an administrative procurement-records/disposition request and confirm routing; do not resend identity documents unnecessarily.
+
 > **Status: SENT** by email from pskastner@gmail.com to `dcf.recordscustodian@myflfamilies.com`, subject *"Re: Public Records Request #P257883-072926 — follow-up regarding disposition and transfer of the HRS records."* Body sent verbatim as drafted below; the rule and statutory citations, the $100 ceiling, and all four numbered items were verified character by character before and after sending. Confirmed in Sent Mail.
 >
 > **It went as a new message, not a reply, and that was deliberate.** The intent was to reply in-thread so the Department's system would keep the follow-up under reference P257883-072926. On opening the thread, the Department's response turns out to have been delivered not from the custodian mailbox but from **`fldcfs@mycusthelp.net`**, a GovQA relay address. Replying there would have addressed the vendor's ticketing relay rather than the custodian of record, so the follow-up was composed fresh to the published custodian address instead.
@@ -480,7 +535,7 @@ The null also gives the archive something it can cite. The claim that the RFP sp
 
 **Why this one is now urgent rather than merely useful.** The 2012 replacement Invitation to Negotiate is the archive's most detailed description of the as-built system: 88 OSAM and 206 VSAM databases, 1.17 TB of production data, the imaging-store volumes, and an inventory of twenty-two satellite systems. It was retrieved during research from the Florida Vendor Bid System. As of July 28, 2026 that address returns HTTP 404, the advertisement having been purged, and the Internet Archive has no capture. The figures are cited in two papers with no live source behind them.
 
-**Status: SENT July 28, 2026**, by email from pskastner@gmail.com, in the form reproduced below rather than the earlier draft that follows it. No acknowledgment or reference number received as of that date.
+**Status: AWAITING SUBSTANTIVE RESPONSE, verified September 23.** Sent July 28; DCF acknowledged July 29 as P257878-072926. No later answer found. The sent letter requires an estimate before fees exceed $100; older general statements of a uniform $200 limit do not apply to this request.
 
 **Send to (verified July 28, 2026):** Custodian of Public Records, Florida Department of Children and Families, `dcf.recordscustodian@myflfamilies.com`, (850) 488-2381, 2415 North Monroe Street, Suite 400, Tallahassee, FL 32303. Verified against the [DCF public records page](https://www.myflfamilies.com/public-records/) and independently against the [Executive Office of the Governor's open-government contact list](https://www.flgov.com/eog/sites/default/files/documents/Open%20Government%20Contact%20by%20Agency.pdf).
 
@@ -508,7 +563,9 @@ The null also gives the archive something it can cite. The claim that the RFP sp
 
 ## 7. Division of Administrative Hearings — Case 88-002942 file
 
-> **Status: ANSWERED, September 6, 2026. Effectively null. Closed.**
+> **Status: ANSWERED and expressly CLOSED August 31, 2026; verified in Gmail September 23.** September 6 was the archive's processing/findings date, not the response date. The August 18 request covered both 88-2942BID and 89-0003BID.
+
+**Correction of the earlier destruction inference:** DOAH's August 31 cover email says it transmitted the hearing records to HRS on August 4, 1988 and March 14, 1989. HRS became custodian because DOAH issued recommended rather than final orders. DOAH explicitly cannot confirm whether or when HRS later destroyed the evidence. The prior analysis below is retained for audit history but its assertions that the evidentiary file was destroyed in 1998, or that all underlying pleadings are gone everywhere, are withdrawn. Propagation to `DOAH-2026-09-06-FINDINGS.md` and the collection plan is queued in PENDING-CHANGES row 52.
 
 DOAH supplied two documents in response to a records request touching Case 88-002942 (Unisys Corporation v. Florida Department of Health and Rehabilitative Services), the bid protest of the FLORIDA System award to EDS:
 

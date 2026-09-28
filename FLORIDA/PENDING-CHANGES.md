@@ -2,8 +2,8 @@
 
 **Purpose.** A cache of new evidence and the edits it requires, so that corrections are applied in scheduled sweeps rather than one at a time. Established August 23, 2026 at Kastner's direction, on the reasoning that per-item propagation across eight papers is expensive and error-prone, while batched propagation is cheap and auditable.
 
-**Status: 0 blockers, 38 pending items (all P2/P3), 10 applied this sweep + 5 prior, 2 retired.**  
-_Last updated: September 6, 2026 (second) — Plan B sweep executed: P1 rows 29, 1, 2, and 36a applied to the published papers by Claude Opus 5 subagents; rows 43, 44, 46, 47, 48 and part of 38 applied to COLLECTION-PLAN, the records-requests log, and the README. Casetext links re-pointed to CourtListener to match SOURCES.md. **P2 and P3 paper rows remain pending by design** — see § 2._
+**Status: 0 blockers, 43 pending items (1 pre-existing P1 plus new records-evidence corrections; remainder P2/P3), 16 applied entries, 2 retired.**
+Last updated: September 23, 2026. Gmail reconciliation added rows 50–53 and applied operational-register update 54. Row 49 (IMS/as-built correction) remains pending. No published-paper sweep was performed.
 
 ---
 
@@ -65,6 +65,7 @@ See row 48 for the archive-reliability observation this resolution produced.
 | 4 | **District count.** README says "11 service districts and 67 counties"; Report 12581 ¶9 says fifteen districts as of January 1995. HRS reorganized more than once. Establish which year each figure describes and say so. | 12581 ¶9 | README, main report, topology paper | **P2** |
 | 5 | **Auditor General workpapers are not public records.** s. 11.45(4)(c), Fla. Stat. Any text treating them as obtainable by records request is wrong; release requires a majority vote of the Legislative Auditing Committee after a public hearing. | s. 11.45(4)(c) | Main report Appendix A (**fixed Aug 23**), COLLECTION-PLAN, records-requests file | **P2** |
 | 6 | **"Offloaded to" vs "hosted on."** Report 12581 says the 3090 "is utilized for … data communications." It does not say the workload was moved off the ES9021. Use *hosted on* unless a document establishes a transfer. | 12581 ¶9 | Anywhere the two-host configuration is described | **P2** |
+| 49 | **Study 5b4524 database attribution is wrong.** The synthetic memoir currently treats DB2 as central to the IBM/EDS proposal, Kastner's testimony, and the implemented-system failure. **Pete's firsthand correction: the as-built FLORIDA database was IMS, not DB2.** The documentary record independently confirms IMS as the database management system. During the sweep: (a) replace DB2 with IMS in claims about the as-built system and actual outcome; (b) remove the `ibm-db2` technology association and attach the established IMS technology ID; (c) re-evaluate claims about the bid/proposal and Kastner's testimony separately — do not assert DB2 there unless a contemporaneous proposal or performance sheet establishes it; (d) correct the study abstract and prescience rationale so they do not describe a "DB2-on-mainframe response-time collapse"; and (e) invalidate or regenerate downstream summaries that inherited the error. The published FLORIDA papers already identify IMS and need no correction on this point. | Pete Kastner correction, 2026-09-07; Report 13287 pp. 15–16 (as-built IMS); `AG-1998-SYSTEMS-REVIEW-FINDINGS.md` | Study package `kastner-author/memoirs/unisys-florida-hrs-expert-witness-tallahassee-5b4524/`: both source-text copies; `data/studies.csv`; `data/observations.csv` (OBS-001, 002, 011, 020–024, 035); `data/technologies.csv`; corresponding `_master_studies`, `_master_observations`, `_master_tech_studies`/technology associations; live wiki study page + embeddings; Database longitudinal dossier and bakeoff narratives that repeat the DB2 claim | **P1** |
 
 ### New documentary facts to propagate
 
@@ -109,6 +110,10 @@ See row 48 for the archive-reliability observation this resolution produced.
 
 | # | Change | Source | Targets | Priority |
 |---|---|---|---|---|
+| 50 | **USDA has answered, not remained silent.** Final response Sept 11, 2026, 2026-FNS-07231-F: applicable FNA Program Offices found no responsive records and referred requester to Florida. Do not equate no records found with destruction or with absence of performance standards in the unrecovered documents. Appeal window in letter: 90 calendar days, calculated Dec 10. Reassess claims that the federal APD route is wholly untested. | Final response PDF pp. 1–2; Gmail 1a0918349bc37673 | COLLECTION-PLAN; any current-status references in README, SOURCES, main report § 8, Addendum; operational log already updated | P2 |
+| 51 | **Auditor General supplemental request is answered.** Sept 4 delivery: 11178, 11619, 12061, 13256 two volumes plus SSAF; Pete confirmed retrieval Sept 5 EDT. Butler confirms 12581 workpapers no longer exist and neither Auditor General nor Legislative Auditing Committee has them; no actual destruction date provided. Remove downstream claims that these reports or the workpaper-survival answer are still owed. 10983 remains a separate unsent future ask. | Gmail 1a06dbc40996b16c, 1a0740b7234ea898, 1a080f4a765d093b; evidence export | COLLECTION-PLAN, Addendum, main-report research gaps, README; operational log already updated | P2 |
+| 52 | **Withdraw inference that DOAH proved destruction of the HRS evidentiary file in 1998.** Aug 31 cover email says hearing records transferred to HRS Aug 4, 1988 and Mar 14, 1989, and expressly cannot confirm subsequent HRS retention/destruction. DOAH's request is closed; supplied docket/disposition records do not prove destruction at the receiving agency. Actual request date Aug 18; response Aug 31, not Sept 6. | Gmail 1a058fb8b91bd41e; preserved cover email | DOAH-2026-09-06-FINDINGS.md, COLLECTION-PLAN § 2.1, any derivative destruction claims; operational log already corrected | P1 |
+| 53 | **Leon County answered Sept 23.** P022996-082026: items 1–3 no responsive records; item 4 no existing record in requested form/no duty to create. Do not generalize item 4 into proof that criminal files are nonexistent, sealed, or expunged. Transmission of the proposed Clerk follow-up and State Attorney request remains unverified in Gmail. | Gmail 1a0cf196409536a7; search snapshot Sept 23 | COLLECTION-PLAN, README/current records status; operational log already updated | P2 |
 | 25 | **DCF holds no responsive records** for RFP 88-74-BC, the Evaluation Manual, the EDS contract, the Webster report, or the settlement (reference P257883-072926, August 2026). Consistent with a five-fiscal-year bid-records retention that expired around 1994. Follow-up sent August 20 seeking the Rule 1B-24.003(9)(d) disposition documentation and any State Archives accession. **The state-agency branch for the RFP is closed pending that answer; the federal APD file is now the most likely surviving custodian.** | DCF response | COLLECTION-PLAN (applied), main report § 8, Addendum | **P2** |
 
 ---
@@ -138,6 +143,12 @@ Not edits. Research leads generated by the new material.
 ---
 
 ## 5. Applied
+
+### 2026-09-23: Gmail-verified operational register refresh
+
+| Row | What was applied | Files touched |
+|---|---|---|
+| 54 | Refreshed seven request tracks from Gmail. Genuine waiting list: HHS, DCF P260649-082226, DCF P257878-072926. Auditor General complete; original DCF procurement answered; DOAH closed; Leon County and USDA answered negatively. Saved USDA PDF and relevant email evidence without identity-document images or signed URLs. Preserved historical letters, added explicit overrides/corrections, and kept unsent/unverified work distinct from awaiting-response work. | FLORIDA-records-requests-drafts.md v16; REQUESTS-AWAITING-RESPONSE-2026-09-23.md; sources/records-requests/; PDFs/records-requests/ |
 
 ### 2026-09-06 — Plan B sweep: P1 paper corrections + support-file updates
 
@@ -189,4 +200,3 @@ Not edits. Research leads generated by the new material.
 
 - **Row 42 (was P2) — 12061 Finding #9 / 11178 BVS citation discrepancy.** Kastner: "I have no immediate interest in pursuing claims record accuracy. Drop this." Not applied to any paper; simply retired.
 - **Row 45 (was P3) — 11619 "MAJOR NEW DEVELOPMENT" org unit sight-check.** Kastner: "I see no reason to pursue further." Retired.
-

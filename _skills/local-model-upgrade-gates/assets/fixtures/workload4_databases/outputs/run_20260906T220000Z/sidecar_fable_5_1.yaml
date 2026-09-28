@@ -1,0 +1,19 @@
+study_id: 2026-kastner-database-decade-rdbms
+title: "The Database Decade: How Relational Databases, and the Stopwatch I Held to Them, Became the Best Work of My Aberdeen Years"
+subject_domain: commercial-benchmarks
+methodology: longitudinal-archival-synthesis
+pub_year_range: [1970, 2005]
+entity_cluster: [Oracle, CA, Informix, NCR, Sybase, Ingres, "Software AG", DB2, CCA]
+prescience_anchors:
+  - {obs_id: aberdeen-1995-universal-servers-rdbms-technology-next-decade, ps_value: 3}
+  - {obs_id: informdsa-9f8bcf, ps_value: 3}
+  - {obs_id: nti-6-rdbms-technology-48f4aa, ps_value: 2}
+  - {obs_id: jungle-1-5-675c58, ps_value: 1}
+  - {obs_id: jungle-6-7af8b7, ps_value: 1}
+  - {obs_id: cab199-1-2-0cb163, ps_value: 2}
+  - {obs_id: dec-blue-monday-internal-sales-training-dectp-vs-ibm-0021cc, ps_value: 2}
+  - {obs_id: aberdeen-open-oltp-enterprise-managers-k-3fc536, ps_value: 3}
+  - {obs_id: itthar-1-4-32f824, ps_value: 3}
+  - {obs_id: aberdeen-1996-digital-debunks-ntsmp-scalability-myth, ps_value: 2}
+  - {obs_id: aberdeen-1996-risc-unix-market, ps_value: 1}
+  - {obs_id: 2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba, ps_value: 4}

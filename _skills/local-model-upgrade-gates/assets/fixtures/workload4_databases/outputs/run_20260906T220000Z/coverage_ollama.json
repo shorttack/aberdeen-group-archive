@@ -1,0 +1,18 @@
+{
+  "contestant": "ollama",
+  "narrative_path": "/Users/scott/Desktop/Archive/aberdeen-group-archive/_skills/local-model-upgrade-gates/assets/fixtures/workload4_databases/outputs/run_20260906T220000Z/narrative_ollama.md",
+  "sentence_count": 35,
+  "factual_count": 26,
+  "framing_count": 9,
+  "anchored_count": 21,
+  "coverage": 0.8077,
+  "threshold": 0.9,
+  "passes_threshold": false,
+  "unanchored_factual_samples": [
+    "The enterprise database landscape between 1970 and 2005 was not a natural evolution but a manufactured reality, driven by a relentless cycle of competitive prodding, benchmark warfare, and strategic missteps that I, alongside Aberdeen Group, had to navigate and often ignite.",
+    "The story of the RDBMS decade is a story of how we forced the industry to answer a single question: could software platforms finally eclipse hardware as the primary driver of enterprise strategy?",
+    "By 1993, the shift in executive cognition was palpable.",
+    "Sybase and Ingres followed a similar trajectory of early promise followed by consolidation or decline.",
+    "The \"RDBMS Jungle\" was not just a metaphor; it was a reality of incompatible ecosystems, forcing customers to make high-stakes choices based on incomplete information."
+  ]
+}

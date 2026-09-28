@@ -1,0 +1,23 @@
+{
+  "contestant": "ollama-q36-a3b",
+  "narrative_path": "/Users/scott/Desktop/Archive/aberdeen-group-archive/_skills/local-model-upgrade-gates/assets/fixtures/workload4_databases/outputs/run_20260906T220000Z/narrative_ollama-q36-a3b.md",
+  "sentence_count": 113,
+  "factual_count": 76,
+  "framing_count": 37,
+  "anchored_count": 1,
+  "coverage": 0.0132,
+  "threshold": 0.9,
+  "passes_threshold": false,
+  "unanchored_factual_samples": [
+    "In the late 1980s, it was a subterranean service, a plumbing problem buried beneath the application layer, invisible to the CIO until it failed.",
+    "This narrative traces that arc\u2014from the hardware-bound transaction wars of the 1980s to the relational jungle of the 1990s, and finally to the commoditization of the server itself.",
+    "When I arrived at Stratus in the early 1980s, the world of transaction processing was defined by a single, brutal metric: throughput per dollar, measured in DebitCredit transactions.",
+    "We were fighting a war of numbers against Tandem, and those numbers were the only language the market understood [tandem-tr-85-2-debitcredit-1985-ca207a].",
+    "The DebitCredit benchmark, born from an anonymous industry consortium paper in 1985, had finally given us a common currency [tandem-tr-85-2-debitcredit-1985-ca207a].",
+    "Before that, we spoke in Whetstones and MIPS, metrics that measured CPU speed but ignored the complexity of locking, logging, and network latency inherent in real-world transaction systems [tandem-tr-85-2-debitcredit-1985-ca207a].",
+    "At Stratus, I used the ET-1 and TP-1 frameworks to compare our fault-tolerant systems against Tandem\u2019s [stratus-et1-tp1-tandem-dossier-1986-26871a].",
+    "I ghostwrote the Yankee Group study *The Future of Transaction Processing* in 1987, cementing the idea that transaction processing was a distinct category of computing, one that required specialized hardware and software [stratus-sales-support-competitive-news-1-2aac8d].",
+    "The cost-per-transaction on an IBM mainframe was a line item that could not be justified in the emerging client-server world.",
+    "I saw this clearly in the DEC corpus."
+  ]
+}

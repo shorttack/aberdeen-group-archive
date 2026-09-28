@@ -1,0 +1,28 @@
+```yaml
+title: "Chapter 1: The Database Decade (1970-2005)"
+author: "Peter S. Kastner"
+chapter_number: 1
+topic: "Relational Database Management Systems Adoption, Benchmarking, and Market Prodding"
+year_range: "1970-2005"
+key_themes:
+  - "RDBMS Jungle (Vendor Metaphors)"
+  - "Open OLTP and TPC Benchmarks"
+  - "Enterprise Platform Decisions (ITT Hartford)"
+  - "SAP/ERP Driven RDBMS Adoption"
+  - "Demise of Big Iron (x86/Unix)"
+vendors_covered:
+  - "Oracle"
+  - "Informix"
+  - "Sybase"
+  - "IBM DB2"
+  - "CA (Computer Associates)"
+  - "Software AG"
+  - "Ingres"
+key_studies_cited:
+  - "jungle-1-5-675c58"
+  - "nti-6-rdbms-technology-48f4aa"
+  - "aberdeen-1995-universal-servers-rdbms-technology-next-decade"
+  - "itthar-1-4-32f824"
+  - "2003-dell-and-oracle-boldly-predict-the-demise-of-big-i-073fba"
+notes: "Synthesized from Gate 1 + Gate 3 evidence dossier. Focuses on the 80% RDBMS core arc."
+```

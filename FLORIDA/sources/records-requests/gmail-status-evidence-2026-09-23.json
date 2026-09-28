@@ -1,0 +1,293 @@
+[
+  {
+    "email_id": "19fa451042b33734",
+    "thread_id": "19fa451042b33734",
+    "date": "2026-07-27T16:03:04+00:00",
+    "from": "Peter Kastner <pskastner@gmail.com>",
+    "to": [
+      "whall@carltonfields.com"
+    ],
+    "cc": [],
+    "subject": "1989 Unisys v EDS/IBM \"FLORIDA\" bid protest",
+    "body": "Dear Doug,\n\nI don't know whether you'll remember me after thirty-seven years, but we worked together on Unisys Corporation's protest of the FLORIDA system award — DOAH Case No. 89-0003BID, the eleven-day hearing before Hearing Officer Robert Meale in State Senate Chambers, Tallahassee in January and February 1989. I was Unisys' witness on system capacity and response times. Alan Sundberg, Martha Harrell Hall, and Bill Owen were on the pleadings with you.\n\nI'm now assembling a research archive on that procurement — RFP 88-74-BC, the FLORIDA system, and what became of it — and I'm writing to ask whether Carlton Fields still holds anything from the closed file.\n\nThe document I most want is \"the hearing transcript\". Meale's recommended order recites that Unisys presented eleven live witnesses plus seven deposition transcripts and thirty exhibits over eleven hearing days. The Division of Administrative Hearings no longer has the record: under Florida's general records schedule GS1-SL, final orders are permanent but the supporting evidentiary record, including transcripts, carries only a five-year retention, so the 1989 record would have been eligible for destruction around 1994. DOAH's public-records office has confirmed it retains only the recommended order. As far as I can determine, the party files are the only place a transcript could still exist.\n\nSpecifically, I'd be grateful for anything you still have of:\n\n1. The hearing transcript, all volumes, DOAH 89-0003BID (hearing days January 17–20, 23–27, 31, February 1–2 and 4, 1989) and in particular, my testimony\n2. The transcript in the companion specifications protest, DOAH 88-2942BID (hearing June 27 through July 1, 1988)\n3. Petitioner's exhibits in either case — in particular the statistical reliability analysis (the Intraclass Correlation Coefficient work presented through Dr. Zahn) and the capacity and response-time exhibits\n4. Deposition transcripts from 89-0003BID\n5. Unisys's proposed recommended order and post-hearing memoranda\n6. A copy of RFP 88-74-BC and the Evaluation Manual, if a set stayed in the file\n\nI understand entirely that a 1989 closed file may have been destroyed long ago, that whatever survives may be offsite or on microfilm, and that anything Unisys-confidential would need the client's consent — Unisys's successor interests now sit with Unisys Corporation and, for the relevant business lines, with the entities that acquired them. I'm happy to pursue a consent letter if that's the obstacle, and I'll of course pay retrieval, copying, and shipping costs.\n\nIf the file is gone, even a definitive \"gone\" is useful to me — it closes a line of inquiry and I'll record it as such.\n\nMy research archive is at GitHub.com/shorttack/aberdeen-group-research, and it has an otherwise lost collection of 1990s computing industry history. Attached is my working brief on the FLORIDA case to show the sincerity of my efforts to date. There's a lot of history after my day of testimony.\n\nIf it's easier to talk than to write, I'd enjoy the call regardless of the answer.\n\nWith thanks, regards and best wishes,\n\nPeter Kastner\n20 Seawatch Dr, Savannah, Georgia 31411-2600\npskastner@gmail.com . 508-264-4651",
+    "attachment_filenames": [
+      "The Unisys Protests of RFP 88-74-BC  What Was Alleged, What Was Testified, and What Fifteen Years Proved (1).pdf"
+    ]
+  },
+  {
+    "email_id": "19fa451c530bb7c1",
+    "thread_id": "19fa451042b33734",
+    "date": "2026-07-27T16:03:48+00:00",
+    "from": "<postmaster@carltonfields.com>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "Undeliverable: 1989 Unisys v EDS/IBM \"FLORIDA\" bid protest",
+    "body": "Delivery has failed to these recipients or groups:\n\nwhall@carltonfields.com<mailto:whall@carltonfields.com>\nThe email address you entered couldn't be found. Please check the recipient's email address and try to resend the message. If the problem continues, please contact your email admin.\n\n\n\n\n\n\n\n\nDiagnostic information for administrators:\n\nGenerating server: TPA-EXCH02.corp.carltonfields.org\n\nwhall@carltonfields.com\nRemote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'\n\nOriginal message headers:\n\nReceived: from TPA-EXCH02.corp.carltonfields.org (192.168.5.131) by\nTPA-EXCH02.corp.carltonfields.org (192.168.5.131) with Microsoft SMTP Server\n(version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id\n15.2.2562.45; Mon, 27 Jul 2026 12:03:48 -0400\nReceived: from us-smtp-inbound-delivery-1.mimecast.com (172.16.101.4) by\nTPA-EXCH02.corp.carltonfields.org (192.168.5.131) with Microsoft SMTP Server\n(version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id\n15.2.2562.45 via Frontend Transport; Mon, 27 Jul 2026 12:03:47 -0400\nARC-Authentication-Results: i=1;\nrelay.mimecast.com;\ndkim=pass header.d=gmail.com header.s=20251104 header.b=DZcTJfe9;\nspf=pass (relay.mimecast.com: domain of pskastner@gmail.com designates 209.85.128.181 as permitted sender) smtp.mailfrom=pskastner@gmail.com;\ndmarc=pass (policy=none) header.from=gmail.com\nARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;\nd=dkim.mimecast.com; s=201903; t=1785168227;\nh=from:from:reply-to:subject:subject:date:date:message-id:message-id:\nto:to:cc:mime-version:mime-version:content-type:content-type:\ndkim-signature; bh=RJrbeBXDoTHWT9m8h4trARMPvF82r7KjINOmz3skkmo=;\nb=SH/9mcykIu8/L7ByEoUfJLaij2M6sYcOh0EomfVzueRL4YadcqH69GZA1MFEbokcPzQ+1i\nnVCHgGQUPYeoR4aHJL6zm3RJYkL4IXvx8RnmFUqxGBWnfDDo2G81p2zcB/rLOy5JE95DHi\nf6ql+Svw6s8MFVv9mp2YKEnhgY/wfvASoBKVcTDwNT/3H6uH+QKQ7uWUocVOG1e3W4DE5W\nK1rKjp8w+k8Mvo8JVjiS2+/eccFkJvq2HPgc7HnJru3jhE0njCgkHr4YYxKx1BJmTwduNf\nfgHybXfJU7lMQpyFXUlJURbipiTmyUB3y+ZToenm4Jj7QNC/n5Eq0zvjPTbTLQ==\nARC-Seal: i=1; a=rsa-sha256; d=dkim.mimecast.com; s=201903; cv=none;\nt=1785168227;\nb=DAkQBl3/thJb3VIjkjsoeV7QGHNjaMFqasSRtrzVcgtWX11NTOLY83GDEr8RvhY2Wr3+Vi\npAo7lsFZ4YPrrC6o023JzuxU6DaT1utunVzof1FxOnTonys+4Tyg4En0NZlkOU4U5NFm8e\nDy4WaugW0OLM3SPYSSGB20oNTDHnGPzO60kqV3QFomrZ5WaWA7IDv6nPMm9G8BWc46CuVn\nMgCV7/OAvAGzdIyeOBvbAulPogmRZXNGPH8RJ35+HvLhg4VghcslXZFnzD6rGWPgBgf9hl\nB5rDiDhM0MgdaMQdPkFC+3srgbqegS9MSuea0BburQAjTQQAXj7Nisb4wSEGWw==\nAuthentication-Results: relay.mimecast.com;\ndkim=pass header.d=gmail.com header.s=20251104 header.b=DZcTJfe9;\nspf=pass (relay.mimecast.com: domain of pskastner@gmail.com designates 209.85.128.181 as permitted sender) smtp.mailfrom=pskastner@gmail.com;\ndmarc=pass (policy=none) header.from=gmail.com\nReceived: from mail-yw1-f181.google.com (mail-yw1-f181.google.com\n[209.85.128.181]) by relay.mimecast.com with ESMTP with STARTTLS\n(version=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384) id\nus-mta-687-v4yofi-3P0qPjelNggfetg-1; Mon, 27 Jul 2026 12:03:23 -0400\nX-MC-Unique: v4yofi-3P0qPjelNggfetg-1\nX-Mimecast-MFC-AGG-ID: v4yofi-3P0qPjelNggfetg_1785168203\nReceived: by mail-yw1-f181.google.com with SMTP id 00721157ae682-81ed073fed0so36175657b3.0\nfor <whall@carltonfields.com>; Mon, 27 Jul 2026 09:03:23 -0700 (PDT)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\nd=gmail.com; s=20251104; t=1785168203; x=1785773003; darn=carltonfields.com;\nh=to:message-id:subject:date:mime-version:content-type:from:from:to\n:cc:subject:date:message-id:reply-to:content-type;\nbh=11obJhgCoLpWdAlI0FXtLNSmbl/Tb/teRs2cF8jwrOs=;\nb=DZcTJfe9nvv+Xr1k/2qm282yKbSFKFJw84IEM9KGFoVRf3HsyeQRtdptIQtu8Ri3w8\nNKVpsPAgQJekT4jWO2iZ5CFS7RMDGDZPH7LhmUGR0KVCgcmb1aZ2MXnZwftaLg1uahxF\nsg05WwZSFhHC6U/qMifVzQ/Jp/GwlC5jQ4CIq2U1MiqsvuCnDvqW+H/bQbwnbrbZwSGZ\nWmlN1IDDutduQtQ69nGSUmLSsxAl4NucDwaUVmyn15GAdPTH0m+o5p/AucpOEb0d2ya/\no49/osj+N/TlvOfeZdH0qMx1H/i2nCNnd5UimAP13945/Eqspt36t0xo94lwFRLmPSZG\nFu4g==\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\nd=1e100.net; s=20251104; t=1785168203; x=1785773003;\nh=to:message-id:subject:date:mime-version:content-type:from:x-gm-gg\n:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to\n:content-type;\nbh=11obJhgCoLpWdAlI0FXtLNSmbl/Tb/teRs2cF8jwrOs=;\nb=f3WWrh+9g97psmhhwrlVWGRcuHWynjp9umM7MZ6zlgiSkzE/B0gqyRO4iN+b7au/zZ\nXdDzt8/vLt468aI0FduSx2efk3VncYQZEVh0LXXI/tknFWKKxC/M1EVGUEfkn76OckUx\nopo2oTLU6fWKvymwJCCgthL0N63bZSP4UBQyQUdTxMN1gPHAoapeUsIDtENzQgbAZc9D\ncwsxoyVAeNfCTzUX7stG3sq3m4HkH3AE6grl8Ml2Pd0LGP9qGG06FmEqvuxib6BTHiUI\nz6ZiWOlbj8yBrH8EyaI7J61YKqpEr5Ly5Dgnbex4sHqdpEAKhgHnvZD5SAdlkfH7S2pZ\nOEFw==\nX-Gm-Message-State: AOJu0Yx2Ssgh8JnnmxKCgcxD5SHwtbDu4hN3yDFIIo/sXe6qqiIXxcbG\n/smUpilJLBRx1JUuvk7eS4yvYb++V1WHgPWscPcRuVnZ39mpOWPLvqe3pNggHg==\nX-Gm-Gg: AR+sD12zOrQOHZxTDn9siyMBF25f8eD9/zKihBagxeq8TM20g/law6j3C3aFtuspyIf\nwrKcTtN0JJu+4ceGcB8Z3rOKn76JERW0XizFUhf3h3q8d+YYAgdz/gIH53g6GSwU15OSDMOJaSC\nfM4AUeUrNu4xl4aOJw29iFpQJ5mRh9VywRnWlJfc3aC/YTPgbiMZ8rN+fzSdDWUy946E79BfaMD\nyYxGirUB6RCuR3GfbSu/mxbps+CCBSCL1ymwhWopSW/oN437tmCWddUKpN9eHaFX2A5SLrqQ5mE\nKHnrcwc+dwyPoqxuVt21KZApZYWYKTyBndpdMbFlF9gk08lw4L8FlzGUBjQG+taFhAz65a6QUp8\n4BGNZoJkxx3Nwj4DF0ScruTTlt4h6QYimpg4pX+Rw7zz6+trVlK+HMPMN+694JHokK/lfjDkPaz\nroNjzzoGuz80cWG1TQ34pFaDV1No3FvO779ZqY9bINMuM+tFGLiU0AtDm0nl0qbO/IKuCNlgav6\nAQ89exbcwyqTJG4/HR1bo7ugBljW3vzC3557em7saod\nX-Received: by 2002:a05:690c:630e:b0:80c:85e5:872f with SMTP id 00721157ae682-81f93b87eb2mr412747b3.61.1785168201500;\nMon, 27 Jul 2026 09:03:21 -0700 (PDT)\nReturn-Path: pskastner@gmail.com\nReceived: from smtpclient.apple (192-200-148-182.atl.as62651.net. [192.200.148.182])\nby smtp.gmail.com with ESMTPSA id 00721157ae682-81f6576ee96sm33987407b3.6.2026.07.27.09.03.20\n(version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\nMon, 27 Jul 2026 09:03:20 -0700 (PDT)\nFrom: Peter Kastner <pskastner@gmail.com>\nMIME-Version: 1.0 (Mac OS X Mail 16.0 \\(3864.600.51.1.1\\))",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "19faa3b25c512cda",
+    "thread_id": "19faa3b25c512cda",
+    "date": "2026-07-28T19:36:59+00:00",
+    "from": "Peter S Kastner <pskastner@gmail.com>",
+    "to": [
+      "dcf.recordscustodian@myflfamilies.com"
+    ],
+    "cc": [],
+    "subject": "Public Records Request — ITN 03F12GC1, ACCESS Florida System Replacement (June 22, 2012)",
+    "body": "SUBJECT: Public Records Request — ITN 03F12GC1, ACCESS Florida System Replacement (June 22, 2012)\n\nDear Custodian of Public Records:\n\nPursuant to Article I, Section 24 of the Florida Constitution and Chapter 119, Florida Statutes, I request copies of the following public records:\n\n1. Invitation to Negotiate 03F12GC1, \"ACCESS Florida System Replacement,\" issued by the Department on June 22, 2012, including all attachments and exhibits. This document was previously published on the Florida Vendor Bid System at myflorida.com/apps/vbs/adoc/F4863_20120622DCF10ACCESSFloridaReplacementITNv1.0.pdf and is no longer retrievable at that address.\n\n2. All addenda and vendor question-and-answer documents issued under ITN 03F12GC1.\n\n3. The Department's written determination under s. 287.057(1)(c), Florida Statutes, of the reasons an invitation to bid or request for proposals was not practicable for this procurement.\n\n4. Any final award record, cancellation notice, or other document concluding ITN 03F12GC1.\n\nI am a technology industry analyst researching the history of the FLORIDA System for publication. Electronic copies are preferred and will be entirely satisfactory.\n\nIf fees will exceed $100, please provide a written estimate before proceeding. If any portion of this request is denied, please state the basis in writing with the statutory citation, as required by s. 119.07(1)(d), Florida Statutes, and provide the remainder.\n\nThank you for your assistance.\n\nPeter Kastner\n20 Seawatch Drive\nSavannah, GA 31411-2600\npskastner@gmail.com\n508-264-4651",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "19faa59dabf7c84a",
+    "thread_id": "19faa59dabf7c84a",
+    "date": "2026-07-28T20:10:32+00:00",
+    "from": "Peter S Kastner <pskastner@gmail.com>",
+    "to": [
+      "FOIARequest@hhs.gov"
+    ],
+    "cc": [
+      "pskastner@gmail.com"
+    ],
+    "subject": "FOIA Request — Florida FAMIS/APD records, HRS FLORIDA system (RFP 88-74-BC), 1986–1996",
+    "body": "FOIARequest@hhs.gov · file online at FOIA.gov\nMail: Department of Health and Human Services, Office of the Secretary Freedom of Information Act Office, Hubert H. Humphrey Building, Room 729, 200 Independence Avenue SW, Washington, DC 20201 · Phone (202) 690-7453 · Fax (202) 690-8320\nSuperseded: FOIA@acf.hhs.gov ; FOIA Office, ACF, Mary E. Switzer Building, 330 C Street SW, Suite 4004, Washington, DC 20201 ; Fax (202) 401-4829\nSubject: FOIA Request — Florida FAMIS/APD records, HRS FLORIDA system (RFP 88-74-BC), 1986–1996\n\nDear FOIA Officer,\nUnder the Freedom of Information Act, 5 U.S.C. § 552, I request copies of the following records concerning the State of Florida’s automated public assistance eligibility system, known as the FLORIDA system (Florida On-Line Recipient Integrated Data Access), procured by the Florida Department of Health and Rehabilitative Services (HRS) under Request for Proposal 88-74-BC issued May 20, 1988, and contracted to EDS Federal Corporation by agreement executed May 15, 1989. HRS’s successor is the Florida Department of Children and Families.\n\nRecords requested, for the period January 1, 1986 through December 31, 1996:\n1.\tThe initial Advance Planning Document (APD) and all APD Updates submitted by Florida HRS to ACF, or to its predecessor agencies (the Family Support Administration and the Social Security Administration/SRS), for the Family Assistance Management Information System (FAMIS) and the Automated Application Processing and Information Retrieval System covering the FLORIDA system — with all attachments, and specifically the requirements analysis, the description of the proposed statewide management system, security and interface requirements, the cost-benefit analysis of alternatives, the cost allocation plan, and the implementation plan containing the testing description and proposed acceptance criteria required by 45 C.F.R. § 205.37(a)(1)–(8).\n2.\tAll ACF/FSA approval, conditional approval, suspension, or disapproval letters issued to Florida regarding those APDs, including any determination under 45 C.F.R. § 205.37(c), and any conditions imposed relating to system performance or capacity.\n3.\tAny procurement review, acquisition approval, or contract review records concerning RFP 88-74-BC and the resulting EDS contract, including records submitted or generated under 45 C.F.R. Part 95, Subparts E and F, and any federal review of the contract’s performance standards, liquidated damages, or acceptance testing provisions.\n4.\tAny certification, on-site review, inspection, functional review, or post-implementation review of the FLORIDA system prepared by or for ACF/FSA, including any FAMIS certification review and its findings.\n5.\tAny correspondence between ACF/FSA and Florida HRS concerning FLORIDA system performance, capacity, processor utilization, response time, transaction volume, system sizing, or federal financial participation in hardware upgrades — including the CPU upgrades of approximately $5.1 million (1993) and $5.4 million (1995).\n6.\tAny records concerning recoupment, disallowance, deferral, or withholding of enhanced federal financial participation related to the FLORIDA system, including any federal exposure identified in connection with erroneous benefit determinations.\n7.\tAny HHS Office of Inspector General audit or investigative reports concerning the Florida FLORIDA system.\n\nIf any portion of a responsive record is exempt, please release all reasonably segregable non-exempt portions and identify the exemption claimed for each withholding.\nFormat: Electronic copies (PDF) by email preferred. If records exist only in paper or archived form, including records transferred to a Federal Records Center or to NARA, please advise me of the accession and box numbers so that I may pursue them directly. Records of this age are likely retired rather than destroyed, and a citation to the accession is as useful to me as the records themselves.\n\nFee waiver: I request a waiver of fees under 5 U.S.C. § 552(a)(4)(A)(iii). Disclosure is in the public interest because it will contribute significantly to public understanding of federal oversight of state automated welfare systems — a subject on which GAO repeatedly found federal requirements and oversight deficient, concluding in 1981 that the requirements “do not contain sufficiently specific performance standards for evaluating the quality of State developed systems” (GAO/HRD-81-119) and returning to the theme in 1992 (GAO/IMTEC-92-29). The resulting analysis will be published as non-commercial historical research. I have no commercial interest in these records. If a waiver is denied, I request treatment as a non-commercial requester under 5 U.S.C. § 552(a)(4)(A)(ii)(III) and authorize fees up to $200; please contact me before incurring charges beyond that amount.\n\nPlease confirm receipt and provide a tracking number.\nSincerely,\nPeter Kastner · 20 Seawatch Drive, Savannah, GA 31411-2600 · pskastner@gmail.com\n\n\nSent from my phone",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "19fad7df61ff724e",
+    "thread_id": "19fad7df61ff724e",
+    "date": "2026-07-29T10:49:00+00:00",
+    "from": "\"Public Records Center (Florida DCF)\" <fldcfs@mycusthelp.net>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "Public Records Request :: P257878-072926",
+    "body": "--- Please respond above this line ---RE: PUBLIC RECORDS REQUEST of 7/29/2026, Reference #P257878-072926 Dear Mr./Ms. Kastner,  Florida Department of Children and Families received a public records request from you on 7/29/2026. You requested the following: *SUBJECT: Public Records Request — ITN 03F12GC1, ACCESS Florida System Replacement (June 22, 2012)Dear Custodian of Public Records:Pursuant to Article I, Section 24 of the Florida Constitution and Chapter 119, Florida Statutes, I request copies of the following public records:1. Invitation to Negotiate 03F12GC1, \"ACCESS Florida System Replacement,\" issued by the Department on June 22, 2012, including all attachments and exhibits. This document was previously published on the Florida Vendor Bid System at myflorida.com/apps/vbs/adoc/F4863\\_20120622DCF10ACCESSFloridaReplacementITNv1.0.pdf and is no longer retrievable at that address.2. All addenda and vendor question-and-answer documents issued under ITN 03F12GC1.3. The Departments written determination under s. 287.057(1)(c), Florida Statutes, of the reasons an invitation to bid or request for proposals was not practicable for this procurement.4. Any final award record, cancellation notice, or other document concluding ITN 03F12GC1.I am a technology industry analyst researching the history of the FLORIDA System for publication. Electronic copies are preferred and will be entirely satisfactory.If fees will exceed $100, please provide a written estimate before proceeding. If any portion of this request is denied, please state the basis in writing with the statutory citation, as required by s. 119.07(1)(d), Florida Statutes, and provide the remainder.Thank you for your assistance.Peter Kastner20 Seawatch DriveSavannah, GA 31411-2600pskastner@gmail.com508-264-4651*Your request was received and is being reviewed. Thank you.Sincerely, Office of General Counsel  ---To monitor the progress or update this request please log into the Public Records Center.",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "19ff1391f9d7ff7d",
+    "thread_id": "19ff1391f9d7ff7d",
+    "date": "2026-08-11T14:27:39+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "FLAUDGEN@aud.state.fl.us"
+    ],
+    "subject": "RE: Public records request — Report Nos. 13043 and 12581 (HRS / FLORIDA System)     EMAIL #1 of 4",
+    "body": "This is email 1 of 4 of the Auditor General’s response to your public records request.\n\nDear Mr. Kastner:\n\nThis acknowledges receipt of your e-mail dated July 28, 2026, wherein you submit the following request for public records:\n\n\nReports requested:\n1.      Report No. 13043 — “HRS Settlement of FLORIDA Contract with EDS,” audit period 07/01/1995–12/31/1996, issued 08/25/1997, listed at flauditor.gov/pages/list9798page.htm\n2.      Report No. 12581 — “Department of Health and Rehabilitative Services – Florida System,” audit period 10/17/1994–02/28/1995, issued 09/12/1995, listed at flauditor.gov/pages/list9596page.htm\nElectronic copies (PDF or scans) are preferred and fully acceptable in place of printed copies. The linked PDF path for 12581 returns a 404 error and both listing entries route to the report request form, so I am unable to retrieve them from the website.\n\nTwo related items, if staff time permits.\n\nFirst, I also request the audit workpapers, or an index of the workpaper file, for Report No. 12581. The report’s findings on processor utilization and response time — as summarized in contemporaneous press coverage, CPU utilization of 95–100% during most of the business day against a commercial norm near 65% — rest on measurement data that would be the most valuable surviving technical record of the system’s actual performance. If workpapers of that vintage have been destroyed under your retention schedule, please confirm that in writing.\n\nSecond, contemporaneous coverage of Report 12581 refers to earlier Auditor General findings on the same HRS eligibility system in approximately 1989, 1991, and 1993, including recurring findings that HRS was not matching welfare records against Bureau o[truncated]",
+    "attachment_filenames": [
+      "13043.pdf"
+    ]
+  },
+  {
+    "email_id": "19ff1397185558b0",
+    "thread_id": "19ff1397185558b0",
+    "date": "2026-08-11T14:28:00+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "FLAUDGEN@aud.state.fl.us"
+    ],
+    "subject": "RE: Public records request — Report Nos. 13043 and 12581 (HRS / FLORIDA System)       EMAIL #2 of 4",
+    "body": "This is email 2 of 4 of the Auditor General’s response to your public records request.\n\nAttached to email #2:\nReport No. 12583\nReport No. 12886\n\n\nOriginal Message",
+    "attachment_filenames": [
+      "12583.pdf"
+    ]
+  },
+  {
+    "email_id": "19ff139c8aa0cd29",
+    "thread_id": "19ff139c8aa0cd29",
+    "date": "2026-08-11T14:28:25+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "FLAUDGEN@aud.state.fl.us"
+    ],
+    "subject": "RE: Public records request — Report Nos. 13043 and 12581 (HRS / FLORIDA System)       EMAIL #3 of 4",
+    "body": "This is email 3 of 4 of the Auditor General’s response to your public records request.\n\nAttached to email #3:\nReport No. 12656\n\n\nOriginal Message",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "19ff139e3942cba9",
+    "thread_id": "19ff139e3942cba9",
+    "date": "2026-08-11T14:28:40+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "FLAUDGEN@aud.state.fl.us"
+    ],
+    "subject": "RE: Public records request — Report Nos. 13043 and 12581 (HRS / FLORIDA System)           EMAIL #4 of 4",
+    "body": "This is email 4 of 4 of the Auditor General’s response to your public records request.\n\nAttached to email #4:\nReport No. 13287\n\n\nOriginal Message",
+    "attachment_filenames": [
+      "13287.pdf"
+    ]
+  },
+  {
+    "email_id": "1a015dda00a60a70",
+    "thread_id": "1a015dda00a60a70",
+    "date": "2026-08-18T17:14:01+00:00",
+    "from": "\"Public Records Center (Florida DCF)\" <fldcfs@mycusthelp.net>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "Public Records Request :: P257883-072926",
+    "body": "--- Please respond above this line ---RE: PUBLIC RECORDS REQUEST of 7/29/2026, Reference #P257883-072926 Dear Mr./Ms. Kastner, Florida Department of Children and Families received a public records request from you on 7/29/2026. You requested the following: *dcf.recordscustodian@myflfamilies.com · (850) 488-2381Mail: Custodian of Public Records, Florida Department of Children and Families, 2415 North Monroe Street, Suite 400, Tallahassee, FL 32303Subject: Chapter 119 request — HRS Request for Proposal 88-74-BC and the FLORIDA system contractUnder Chapter 119, Florida Statutes, I request records of the Departments predecessor, the Department of Health and Rehabilitative Services, concerning Request for Proposal 88-74-BC, issued May 20, 1988, for the Florida On-Line Recipient Integrated Data Access (FLORIDA) system:1. The complete two-volume RFP 88-74-BC and all addenda, including the amendment extending the implementation period from 26 to 29 months following DOAH Case No. 88-2942BID.2. The Evaluation Manual referenced in the RFP and the evaluators completed scoring instruments.3. The executed contract with EDS Federal Corporation dated May 15, 1989, all amendments, and the incorporated Section 7.11 disputes provision.4. The August 1995 report of special master William Webster and the record of the § 7.11 proceeding.5. The 1996–97 settlement agreement between the Department and EDS.Because a complete file may be voluminous, I ask first for a cost estimate and an index or inventory. If cost is a constraint, I would prioritize the Volume I technical requirements sections addressing system sizing, processor capacity, response time, availability, acceptance testing, and liquidated damages, and the Webster report. I authorize charges of up to $200 against this request, including any special service charge under § 119.07(4)(d), Fla. Stat., and ask to be contacted before that amount is exceeded.Requester: Peter S Kastner · 20 Seawatch Drive, Savannah, GA 31411-2600 · pskastner@gmail.com* The department has located no records which are responsive to your request. Thank you for your patience in awaiting this information. Sincerely, Department of Children and Families  ---To monitor the progress or update this request please log into the Public Records Center.",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a0206149b4e1064",
+    "thread_id": "1a0205cb998ebd55",
+    "date": "2026-08-20T18:14:01+00:00",
+    "from": "Peter Kastner <pskastner@gmail.com>",
+    "to": [
+      "dcf.recordscustodian@myflfamilies.com"
+    ],
+    "cc": [],
+    "subject": "Re: Public Records Request #P257883-072926 — follow-up regarding disposition and transfer of the HRS records",
+    "body": "Dear Custodian of Public Records:\n\nThank you for the Department's response of August 19, 2026, to request\n#P257883-072926, stating that no responsive records were located. I do not\ncontest that finding. I write only to request four further public records\nor statements, each of which is separate from the records originally sought.\n\n1. The records disposition documentation maintained under Rule\n1B-24.003(9)(d), Florida Administrative Code, for the procurement,\ncontract, and litigation record series of the Department's predecessor, the\nDepartment of Health and Rehabilitative Services, covering the period 1988\nthrough 1997 — including for each series the retention schedule number,\nitem number, series title, inclusive dates, volume, disposition action, and\ndisposition date.\n\n2. Any records reflecting the transfer of Department of Health and\nRehabilitative Services records of that period to the Florida State\nArchives or to a State Records Center under s. 257.36, Florida Statutes,\nincluding transfer forms, shipping lists, or accession numbers.\n\n3. A statement of the offices and record systems searched in responding to\n#P257883-072926 — in particular whether the search extended to procurement,\ncontract management, the Office of the General Counsel, and the program\noffice succeeding the Economic Services Program.\n\n4. Confirmation of whether the Department's response distinguishes records\nthat were destroyed pursuant to an approved retention schedule from records\nthat exist but were not located.\n\nI understand that item 4 may call for a statement rather than a record, and\nI do not ask the Department to create a record it does not have. Items 1\nthrough 3 are, I believe, existing records.\n\nI authorize charges of up to $100 against this follow-up, including any\nspecial service charge under s. 119.07(4)(d), Florida Statutes, and ask to\nbe contacted before that amount is exceeded. If any portion is denied,\nplease state the basis in writing with the statutory citation as required\nby s. 119.07(1)(d) and produce the remainder.\n\nThank you for the Department's prompt handling of the original request.\n\nPeter S. Kastner\n20 Seawatch Drive, Savannah, GA 31411-2600\npskastner@gmail.com",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a0495c52cd2475b",
+    "thread_id": "1a0495c52cd2475b",
+    "date": "2026-08-28T17:13:00+00:00",
+    "from": "\"Public Records Center (Florida DCF)\" <fldcfs@mycusthelp.net>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "Public Records Request :: P260649-082226",
+    "body": "--- Please respond above this line ---RE: PUBLIC RECORDS REQUEST of 8/22/2026, Reference #P260649-082226 Dear Mr./Ms. Kastner,  Florida Department of Children and Families received a public records request from you on 8/22/2026. You requested the following: Dear Custodian of Public Records:Thank you for the Departments response of August 19, 2026, to request #P257883-072926, stating that no responsive records were located. I do not contest that finding. I write only to request four further public records or statements, each of which is separate from the records originally sought.1. The records disposition documentation maintained under Rule 1B-24.003(9)(d), Florida Administrative Code, for the procurement, contract, and litigation record series of the Departments predecessor, the Department of Health and Rehabilitative Services, covering the period 1988 through 1997 — including for each series the retention schedule number, item number, series title, inclusive dates, volume, disposition action, and disposition date.2. Any records reflecting the transfer of Department of Health and Rehabilitative Services records of that period to the Florida State Archives or to a State Records Center under s. 257.36, Florida Statutes, including transfer forms, shipping lists, or accession numbers.3. A statement of the offices and record systems searched in responding to #P257883-072926 — in particular whether the search extended to procurement, contract management, the Office of the General Counsel, and the program office succeeding the Economic Services Program.4. Confirmation of whether the Departments response distinguishes records that were destroyed pursuant to an approved retention schedule from records that exist but were not located.I understand that item 4 may call for a statement rather than a record, and I do not ask the Department to create a record it does not have. Items 1 through 3 are, I believe, existing records.I authorize charges of up to $100 against this follow-up, including any special service charge under s. 119.07(4)(d), Florida Statutes, and ask to be contacted before that amount is exceeded. If any portion is denied, please state the basis in writing with the statutory citation as required by s. 119.07(1)(d) and produce the remainder.Thank you for the Departments prompt handling of the original request.Peter S. Kastner20 Seawatch Drive, Savannah, GA 31411-2600pskastner@gmail.com The records you seek are confidential and can only be released pursuant to Florida Statute [39.202/415.107].   In order to determine whether you are entitled to the requested records, please reply to this message and attach a copy of your photo I.D. for verification purposes.   Upon receipt of your documentation, the Department will further respond to your request. If documentation is not received in 30 days from this request, your records request will be withdrawn, and the request will no longer be active.  If you request is withdrawn, please feel free to submit another request through the Florida Public Records Center Portal. In your new request, please attach the necessary documentation. Sincerely,   Office of General Counsel  ---To monitor the progress or update this request please log into the Public Records Center.",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a04a2a1027f95c2",
+    "thread_id": "1a0495c52cd2475b",
+    "date": "2026-08-28T20:57:35+00:00",
+    "from": "Peter Kastner <pskastner@gmail.com>",
+    "to": [
+      "fldcfs@mycusthelp.net"
+    ],
+    "cc": [],
+    "subject": "Re: Public Records Request :: P260649-082226",
+    "body": "￼",
+    "attachment_filenames": [
+      "PSK passport 2024.jpg"
+    ]
+  },
+  {
+    "email_id": "1a05876da823fe29",
+    "thread_id": "1a05876da823fe29",
+    "date": "2026-08-31T15:36:17+00:00",
+    "from": "\"Public Records Center (Florida DCF)\" <fldcfs@mycusthelp.net>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "Public Records Request :: P260649-082226",
+    "body": "--- Please respond above this line ---RE: PUBLIC RECORDS REQUEST of 8/22/2026, Reference #P260649-082226 Dear Mr./Ms. Kastner,  Florida Department of Children and Families received a public records request from you on 8/22/2026. You requested the following: *Dear Custodian of Public Records:Thank you for the Departments response of August 19, 2026, to request #P257883-072926, stating that no responsive records were located. I do not contest that finding. I write only to request four further public records or statements, each of which is separate from the records originally sought.1. The records disposition documentation maintained under Rule 1B-24.003(9)(d), Florida Administrative Code, for the procurement, contract, and litigation record series of the Departments predecessor, the Department of Health and Rehabilitative Services, covering the period 1988 through 1997 — including for each series the retention schedule number, item number, series title, inclusive dates, volume, disposition action, and disposition date.2. Any records reflecting the transfer of Department of Health and Rehabilitative Services records of that period to the Florida State Archives or to a State Records Center under s. 257.36, Florida Statutes, including transfer forms, shipping lists, or accession numbers.3. A statement of the offices and record systems searched in responding to #P257883-072926 — in particular whether the search extended to procurement, contract management, the Office of the General Counsel, and the program office succeeding the Economic Services Program.4. Confirmation of whether the Departments response distinguishes records that were destroyed pursuant to an approved retention schedule from records that exist but were not located.I understand that item 4 may call for a statement rather than a record, and I do not ask the Department to create a record it does not have. Items 1 through 3 are, I believe, existing records.I authorize charges of up to $100 against this follow-up, including any special service charge under s. 119.07(4)(d), Florida Statutes, and ask to be contacted before that amount is exceeded. If any portion is denied, please state the basis in writing with the statutory citation as required by s. 119.07(1)(d) and produce the remainder.Thank you for the Departments prompt handling of the original request.Peter S. Kastner20 Seawatch Drive, Savannah, GA 31411-2600pskastner@gmail.com*Your request was received and is being reviewed. Thank you.Sincerely, Office of General Counsel  ---To monitor the progress or update this request please log into the Public Records Center.",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a058fb8b91bd41e",
+    "thread_id": "1a0157120cb172a1",
+    "date": "2026-08-31T18:00:42+00:00",
+    "from": "PRR <PRR@doah.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "PRR@doah.state.fl.us"
+    ],
+    "subject": "RE: Chapter 119 request — DOAH Case Nos. 89-0003BID and 88-2942BID",
+    "body": "After a diligent search of the records maintained by the Division of Administrative Hearings (DOAH), attached is the docket sheet for DOAH Case No. 88-2942BID. Also attached are the record disposition documents for the Bid Protest assignment logs, reading files  (duplicates case files), supplementary file materials, and non-final order case files.\n\nDOAH issued its Recommended Orders and transmitted the hearing records to the Department of Health and Rehabilitative Services on August 4, 1988, in Case No. 88-2942BID, and on March 14, 1989, in Case No. 89-0003BID. Because DOAH issued Recommended Orders rather than Final Orders, the Department of Health and Rehabilitative Services, as the agency responsible for entering the Final Orders, became the custodian of the evidentiary records transmitted by DOAH.\n\nDOAH does not maintain the requested evidentiary records, and DOAH's applicable retention requirements for its records in these cases have been met.\n\nDOAH cannot confirm whether or when the evidentiary records were subsequently destroyed by the agency, nor can DOAH provide records-disposition documentation concerning that agency's retention or disposition of those records. Any inquiry regarding the subsequent retention or disposition of the evidentiary records would need to be directed to the successor custodian of the records of the former Department of Health and Rehabilitative Services.\n\nOther than the attached archived docket sheet for Case No. 88-2942BID and the Recommended Orders currently available on DOAH's website, DOAH has no additional responsive records to provide.\n\nAccordingly, DOAH now considers this request to be closed.\n\nPublic Records Request\nDivision of Administrative Hearings\n20[truncated]",
+    "attachment_filenames": [
+      "88002942Docket.pdf",
+      "Record_Disposition_Documents.pdf"
+    ]
+  },
+  {
+    "email_id": "1a06dbc40996b16c",
+    "thread_id": "1a026683c0bbe049",
+    "date": "2026-09-04T18:44:01+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [
+      "FLAUDGEN@aud.state.fl.us"
+    ],
+    "subject": "FW: Follow-up to my July 28 records request - Reports 13043, 12581, 12061, and 13256 (HRS / FLORIDA System)",
+    "body": "Dear Mr. Kastner:\n\n\n\nThis acknowledges receipt of your e-mails dated August 21, 2026, and August 23, 2026, (both below) wherein you submit the following request for public records:\n\n\n\n\n\n\n\nI now request copies of three specific reports:\n\n\n\nReport No. 11178, dated March 1, 1989\n\nReport No. 11619, dated April 23, 1991\n\nReport No. 12061, dated May 4, 1993\n\n\n\nReport 12581 describes itself as a follow-up to Report No. 12061 and cites its paragraphs 49 through 59 on system capacity and response times, so 12061 is the one of most interest to me.\n\n\n\nItems 3, 4, and 6 of my August 21 message stand: Report No. 13256, and the question of whether the workpapers for Report No. 12581 still exist.\n\n\n\n\n\n\n\nAs the Auditor General is an officer of the legislative branch of Florida government and is subject to Section 11.0431, Florida Statutes, which controls the disclosure of legislative records, I have treated your request accordingly.  We conducted a search of our records and the only documents responsive to your request are the following 4 audit reports, which may be accessed in this shared folder (due to the size of the files):\n\n\n[​Folder icon] Peter Kastner<https://auditorgeneral-my.sharepoint.com/:f:/g/personal/katherinebutler_aud_state_fl_us/IgDiokxlHCBDS6FERx9xATfVAV86D9Tp4HFAbgfOBndth0M?email=pskastner%40gmail.com&e=RQKu76>\n\n\n\nReport No. 11178\n\nReport No. 11619\n\nReport No. 12061\n\nReport No. 13256 vol. 1 of 2\n\nReport No. 13256 vol. 2 of 2\n\nReport No. 13256 SSAF\n\n\n\nNOTE:  If you don’t mind, please let me know when you have successfully retrieved the documents.\n\n\n\nAs to your question whether the workpapers for Report No. 12581 still exist, please be advised they no longer exist.  While s. 11.45(4)(c), Florida[truncated]",
+    "attachment_filenames": [
+      "image001.png"
+    ]
+  },
+  {
+    "email_id": "1a0740b7234ea898",
+    "thread_id": "1a026683c0bbe049",
+    "date": "2026-09-06T00:08:11+00:00",
+    "from": "Peter Kastner <pskastner@gmail.com>",
+    "to": [
+      "KATHERINEBUTLER@aud.state.fl.us"
+    ],
+    "cc": [],
+    "subject": "Re: Follow-up to my July 28 records request - Reports 13043, 12581, 12061, and 13256 (HRS / FLORIDA System)",
+    "body": "Ms Butler,\nThank you so much for your assistance. The information fills in a lot of gaps.\n\nI am done with the online directory you prepared.\n\nI can provide, at your request, text over OCR PDFs and text files of the OCR documents you prepared for me. Just ask.\n\nThanks,\n\nPete Kastner",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a080f4a765d093b",
+    "thread_id": "1a026683c0bbe049",
+    "date": "2026-09-08T12:18:25+00:00",
+    "from": "KATHERINE BUTLER <KATHERINEBUTLER@aud.state.fl.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "RE: Follow-up to my July 28 records request - Reports 13043, 12581, 12061, and 13256 (HRS / FLORIDA System)",
+    "body": "Thank you for letting me know!",
+    "attachment_filenames": []
+  },
+  {
+    "email_id": "1a0918349bc37673",
+    "thread_id": "1a0918349bc37673",
+    "date": "2026-09-11T17:27:57+00:00",
+    "from": "FOIA-FNS@usda.gov",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "2026-FNS-07231-F",
+    "body": "Final Agency Response attached.",
+    "attachment_filenames": [
+      "2026-FNS-07231-F (Final Response Letter).pdf"
+    ]
+  },
+  {
+    "email_id": "1a0cf196409536a7",
+    "thread_id": "1a0cf196409536a7",
+    "date": "2026-09-23T16:29:01+00:00",
+    "from": "Leon County Clerk of the Circuit Court and Comptroller <leonclerk@govqa.us>",
+    "to": [
+      "pskastner@gmail.com"
+    ],
+    "cc": [],
+    "subject": "[Records Center] Public Records Request :: P022996-082026",
+    "body": "--- Please respond above this line --- RE: Public Records Request of 8/20/2026, Reference #P022996-082026 Dear Peter Kastner,  Leon County Clerk of the Circuit Court and Comptroller received a public records request from you on August 20, 2026. You requested the following: *Rule 2.420 records request — 1993 grand jury presentment concerning HRS and the FLORIDA computer systemDear Records Custodian,I am requesting access to judicial records of the Second Judicial Circuit in and for Leon County. I make this request under Florida Rule of Judicial Administration 2.420, which governs access to records of the judicial branch, rather than under Chapter 119, Florida Statutes. To the extent any responsive record is held by the Clerk in the capacity of ex officio clerk to the Board of County Commissioners rather than in the Article V judicial capacity, I request it under Chapter 119 as well.I am a technology industry analyst conducting historical research, for publication, on the State of Floridas FLORIDA (Florida On-Line Recipient Integrated Data Access) public assistance eligibility system, procured by the Department of Health and Rehabilitative Services under Request for Proposal 88-74-BC, issued May 20, 1988. I give this background not because any statement of purpose is required — none is — but because it may help staff identify records that a keyword search would miss.Records requested:1. The grand jury presentment issued in 1993 concerning the Department of Health and Rehabilitative Services and the FLORIDA computer system, including any findings regarding HRS officials conduct in the procurement, administration, or upgrade of that system, together with any accompanying transmittal or order of the presiding judge. Contemporaneous press accounts describe a grand jury that \"accused HRS officials of violating laws, acting unethically and intimidating subordinates to build the computer,\" and that examined whether HRS improperly favored a particular vendor on a $5.1 million hardware upgrade.2. An index or list of grand jury presentments in the Clerks custody bearing numbers below 137, or otherwise predating November 15, 1995. I ask for this because the Clerks published Grand Jury Presentments index begins at No. 137, dated November 15, 1995, and I am trying to establish whether earlier presentments remain in the Clerks custody, were transferred to the State Archives of Florida, or were destroyed under an applicable retention schedule. If the answer is that no presentments earlier than No. 137 are held by this office, that answer alone fully satisfies this item and I ask that it be stated in writing so that I may direct the inquiry elsewhere.3. Any court order directing the publication, sealing, or unsealing of the presentment described in item 1, and any responses filed by named persons under § 905.28, Florida Statutes.4. The indictments and criminal case files for the two HRS administrators indicted in connection with that investigation in 1993 — charging documents, docket, dispositions, and any order of dismissal. Press accounts indicate that charges against one were dropped by prosecutors and that the other was convicted of misdemeanor charges before a circuit judge set the case aside. I do not have the defendants names. If your indices cannot be searched by subject matter, agency, or date range, please tell me what search key you can accept and I will narrow the request accordingly.What I am not asking for. I do not request grand jury testimony, deliberations, or any material made confidential by §§ 905.27 or 905.395, Florida Statutes. If any responsive record contains both disclosable and confidential material, I ask that the confidential portions be redacted and the remainder produced, with the basis for each redaction identified as required by Rule 2.420(e).Format, retrieval, and cost. Electronic copies are preferred and are entirely satisfactory. I understand from your records request page that records of this age may be stored offsite, on microfilm, or in ledgers or index cards, and that a deposit toward labor cost may be required before research begins. Please advise me of the estimated cost and any required deposit before incurring it. I authorize charges of up to $200 for this request, including any special service charge for extensive use of clerical or supervisory assistance, and ask to be contacted before that amount is exceeded.If any part of this request is denied, I ask that the denial be stated in writing with the specific rule or statutory basis for it.Requester: Peter Kastner · 20 Seawatch Drive, Savannah, GA 31411-2600 · pskastner@gmail.comThank you for your assistance.Peter Kastner* With reference to your record requests for items 1, 2, and 3, we have conducted a search of our records and have no records responsive to these requests. With reference to your record request for item 4,After a good-faith inquiry among the relevant custodians and systems within this office, we have determined that no record currently exists that already contains the information in the form you have requested. Under Florida law, the Public Records Act, chapter 119, Florida Statutes, applies to records that are already made or received by an agency in connection with the transaction of official business. See § 119.011(12), Fla. Stat. It does not require an agency to create a new record, or to compile, summarize, or reformat existing information into a new report, spreadsheet, or list that does not already exist. See § 119.07(1)(a), Fla. Stat.;  Respectfully, Patti GrahamManager - Evidence & Records ManagementTo monitor the progress or update this request please log into the Records Request Center",
+    "attachment_filenames": []
+  }
+]

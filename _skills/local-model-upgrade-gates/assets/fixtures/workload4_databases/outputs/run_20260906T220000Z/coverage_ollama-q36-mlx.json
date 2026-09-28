@@ -1,0 +1,23 @@
+{
+  "contestant": "ollama-q36-mlx",
+  "narrative_path": "/Users/scott/Desktop/Archive/aberdeen-group-archive/_skills/local-model-upgrade-gates/assets/fixtures/workload4_databases/outputs/run_20260906T220000Z/narrative_ollama-q36-mlx.md",
+  "sentence_count": 118,
+  "factual_count": 89,
+  "framing_count": 29,
+  "anchored_count": 0,
+  "coverage": 0.0,
+  "threshold": 0.9,
+  "passes_threshold": false,
+  "unanchored_factual_samples": [
+    "By the mid-1990s, we had successfully convinced CIOs to abandon their legacy mainframe silos in favor of a \"common playing field\" defined by Unix, SQL, and client-server topology [jungle-1-5-675c58].",
+    "In these pages, I recount how we at Aberdeen, alongside our vendors, navigated the \"RDBMS jungle\" to establish relational databases as the undisputed primary software platform for enterprise infrastructure [nti-6-rdbms-technology-48f4aa].",
+    "The narrative of the 1970\u20132005 database decade is best understood not as a linear progression of technological superiority, but as a market clearing mechanism.",
+    "By 1993, IS executives had decisively shifted from hardware-oriented to software-platform-oriented decision criteria [nti-6-rdbms-technology-48f4aa].",
+    "The relational database management system (RDBMS) emerged as the primary software platform for enterprise IS infrastructure, unifying mainframe, midrange, and desktop environments [nti-6-rdbms-technology-48f4aa].",
+    "As I noted in our \"RDBMS Jungle\" analysis, the market featured four vendors on a common playing field, each represented by distinct vehicle metaphors that revealed their strategic positions [informix-competitive-update-kastner-rdbms-jungle-25604a].",
+    "Informix was an Aerostar van: practical and profitable [informix-competitive-update-kastner-rdbms-jungle-25604a].",
+    "Sybase was a race car: fast, but not yet a reliable daily driver [informix-competitive-update-kastner-rdbms-jungle-25604a].",
+    "Ingres was a slow or late vehicle, losing the race [informix-competitive-update-kastner-rdbms-jungle-25604a].",
+    "And Oracle?"
+  ]
+}

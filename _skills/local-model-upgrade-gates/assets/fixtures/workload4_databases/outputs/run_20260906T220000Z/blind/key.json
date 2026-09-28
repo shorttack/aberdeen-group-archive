@@ -1,0 +1,10 @@
+{
+  "run_id": "20260906T220000Z",
+  "mapping": {
+    "A": "ollama-q36-mlx",
+    "B": "ollama-q36-a3b",
+    "C": "pplx",
+    "D": "ollama",
+    "E": "cloud"
+  }
+}

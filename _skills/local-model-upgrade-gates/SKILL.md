@@ -3,10 +3,10 @@ name: local-model-upgrade-gates
 description: "Five-gate decision flow for evaluating ANY candidate local LLM (Qwen, Gemma, Llama, Mistral, etc.) before pulling and refactoring. Use when Pete receives a Perplexity Events notification about a new local model, asks 'should I upgrade to model X', mentions a new Ollama release, or proposes swapping the LOCAL_MODEL constant in _llm_helper. Codifies the lesson from §11q (2026-06-02): a 20 GB Qwen 3.6 pull + 4 hours of bug-chasing was avoidable with 5 minutes of paper review. Gate 0 (added 2026-06-14) requires reading Perplexity_Only/OLLAMA_GOTCHAS.md so institutional memory enters the evaluation before benchmark reading. Locks identical fixtures (Phase 3 wiki gen + kw_ask synthesis + Pass C scoring) across all future evaluations so models are comparable apples-to-apples regardless of family."
 metadata:
   author: pete-kastner
-  version: '1.2'
+  version: '1.4'
   created: '2026-06-02'
-  updated: '2026-06-14'
-  changelog: 'v1.2 (2026-06-14) rescales Pass C fixture to canonical 1-5 (matches master); v1.1 added Gate 0'
+  updated: '2026-09-28'
+  changelog: 'v1.4 (2026-09-28) records the workload-4 bakeoff verdict (Ollama qwen3.6:35b-mlx incumbent), updates Gate 6 so Ollama writes and Hybrid/PPLX never writes, and demotes sidecar/anchor pre-filters to a separate validation pass; v1.3 (2026-09-06) added workload-4 protocol requirements from the Hybrid smoke test; v1.2 (2026-06-14) rescales Pass C fixture to canonical 1-5 (matches master); v1.1 added Gate 0'
   scope: kastner-aberdeen-archive
 ---
 
@@ -113,7 +113,25 @@ This gate has no judgment calls and no quality assessment. It exists purely to e
 | **Pass C prescience scoring** | Calibrated numeric output (0-100) with structured JSON. Consistent rationale formatting. | Light reasoning to compare prediction → outcome. Tolerance for ambiguous evidence. | Coding. Multimodality. Visual reasoning. |
 | **Kastner-voice narrative drafting** (added 2026-09-01) | Voice fidelity to `Perplexity_Only/kastner_voice_prompt_v1.md`: correct we/I split, thesis discipline (Kastner argues to a point), the 8 rhetorical moves used only where they earn their place, no invented facts. | Citation-tag placement in `[study-<id>]` form for `convert_citations.py`, concrete-number anchoring, register shifts to fit the passage, honest "what I got wrong" reckoning. | Coding. Math. Multimodality. Agentic tool use. |
 
-**Fixture note for the fourth workload.** No fixture is locked yet. The Databases study — input `DB_LONGITUDINAL_DOSSIER_v2.md`, known-good output `RDBMS_NARRATIVE_KASTNER_v1.md` — is the designated candidate fixture pending Pete's approval. Until it is frozen and Pete has blind-ranked incumbent vs. candidate outputs on voice + factual fidelity, cloud remains the Phase-3-narrative default and no local candidate replaces it. This workload's pass criteria are Pete's blind ranking, not automated structural checks — narrative quality does not lend itself to `run_gates.py`.
+**Workload 4 verdict (resolved 2026-09-07).** Fixture: `DB_LONGITUDINAL_DOSSIER_v2.md` at `_skills/local-model-upgrade-gates/assets/fixtures/workload4_databases/` (gold reference deferred, Option B). Five-model bakeoff run `20260906T220000Z`, blind-ranked by Pete on voice, factual fidelity, thesis discipline, and usefulness:
+
+| Rank | Contestant | Verdict |
+|---:|---|---|
+| 1 | Ollama `qwen3.6:35b-mlx` | **Incumbent for workload 4** — "excellent, minor edits, weak close, good voice of Pete" |
+| 2 | Ollama `qwen3.6:35b-a3b` | Secondary drafting/critique pool |
+| 3 | Hybrid `pplx-computer-qwen-3-6-35b-a3b-mlx-20260709` | Critique/perspective only — never writes (see Gate 6) |
+| 4 | Cloud frontier/default | Secondary drafting/critique pool |
+| 5 | Ollama `qwen3.5:27b-mlx` | Removed from workload-4 contention; status in workloads 1-3 unchanged |
+
+No contestant passed every mechanical pre-filter (length, sidecar, coverage), so the ranking judges narrative quality, not protocol compliance. Enforce sidecars and citation anchors in a separate deterministic validation pass; do not require the writer to solve them. Pass criteria for future workload-4 candidates remain Pete's blind ranking against `qwen3.6:35b-mlx` as baseline-to-beat — not `run_gates.py`.
+
+**Workload-4 protocol requirements (v1.3, revised by the verdict).** The 2026-09-06 smoke test (`Perplexity_Only/SMOKE_TEST_local_model_2026-09-06.md`) set three requirements for every contestant:
+
+1. **Source-size floor — hard gate.** Pass the full frozen dossier, never a truncated or smaller source. If a candidate's context window is below the dossier size, disqualify it at Gate 2.
+2. **Structured-fields sidecar — separate validation pass.** Keys: `study_id`, `title`, `subject_domain`, `methodology`, `pub_year_range`, `entity_cluster`, `prescience_anchors` (list of `{obs_id, ps_value}`).
+3. **Inline citation anchors — separate validation pass.** Use `[study-<id>]` or `[obs-<id>]` in the form `convert_citations.py` consumes, and `[ps=<0-5>]` for prescience values. Coverage = anchored claims / factual claims; target ≥ 0.90.
+
+v1.3 made 2 and 3 disqualify a contestant before ranking. No contestant passed, so the bakeoff showed they distort a narrative test. Report sidecar and anchor results next to Pete's ranking, and enforce them afterward with a deterministic pass. Do not use them to disqualify a writer.
 
 **Process:**
 
@@ -216,13 +234,13 @@ Pre-curated Gate 1 sources for each model family. Update this section when new c
 
 ### PPLX (Perplexity Hybrid runtime)
 
-Special-case source, not a regular family. PPLX Qwen 3.8 27B is the local half of Perplexity Hybrid Compute (launched 2026-09-01), managed by the Perplexity Mac app rather than pulled through Ollama.
+Special-case source, not a regular family. PPLX Qwen 3.6 35B A3B MLX (`pplx-computer-qwen-3-6-35b-a3b-mlx-20260709`) is the local half of Perplexity Hybrid Compute (launched 2026-09-01), managed by the Perplexity Mac app rather than pulled through Ollama.
 
 - **Perplexity Hybrid launch post**: `https://www.perplexity.ai/hub/blog/` (search for the 2026-09-01 hybrid-compute announcement)
 - **9to5Mac coverage** for hardware requirements: `https://9to5mac.com/2026/09/01/perplexity-launches-privacy-minded-hybrid-compute-ai-feature-for-mac/`
 - **No independent head-to-head yet.** Treat PPLX as a Gate-1 candidate with vendor-only benchmarks — this is a Gate-1 red flag, not a stop-condition, but weight it accordingly.
 
-**PPLX cannot displace an Ollama incumbent on Pass C prescience scoring** (workload 3) without independently clearing Layer 2 of the paired fixture at κ ≥ 0.70. Non-grounded models fail this by construction (G3 in `OLLAMA_GOTCHAS.md`); PPLX is non-grounded local inference. If Layer 2 fails, PPLX remains a legitimate candidate for workloads 1, 2, and 4 only.
+**PPLX cannot displace an Ollama incumbent on Pass C prescience scoring** (workload 3) without independently clearing Layer 2 of the paired fixture at κ ≥ 0.70. Non-grounded models fail this by construction (G3 in `OLLAMA_GOTCHAS.md`); PPLX is non-grounded local inference. If Layer 2 fails, PPLX remains a legitimate candidate for workloads 1 and 2 only; it is excluded from workload-4 writing by Pete's standing rule.
 
 ### Gemma family
 
@@ -254,18 +272,18 @@ For all families, prefer MLX-native tags over GGUF on Pete's M4 Pro Mac mini. ML
 
 | Runtime | What it is | Fits which workloads | Fixture history |
 |---|---|---|---|
-| **Ollama on Mac** | Direct Ollama server, MLX-native tags preferred, incumbent for all archive workloads | Phase 3, `kw_ask`, Pass C, and narrative drafting when the bakeoff supports it. The only runtime with a locked fixture regime today. | Full: all four workloads have baselines; Pass C has Layer-2 κ history at 0.331 (Qwen 3.5 27B MLX). |
-| **Hybrid / PPLX** | Cloud-orchestrated with local model (PPLX Qwen 3.8 27B) invoked for gated steps. App-managed; no Terminal, no Ollama. | Interactive Computer sessions where cloud planning + one-shot local reads are the shape of the work. Not scriptable from `pipeline_canonical_v3.sh`. | None on any archive workload as of 2026-09-01. |
-| **Cloud** | Frontier cloud models via Computer | Phase 3 narrative drafting (current default), Phase 1/2 interpretive synthesis over public archive content, any workload needing cross-archive breadth. | Not applicable to this skill's regime. |
+| **Ollama on Mac** | Direct Ollama server, MLX-native tags preferred, incumbent for all archive workloads | Phase 3, `kw_ask`, Pass C, and Kastner-voice narrative drafting (workload 4 incumbent: `qwen3.6:35b-mlx`). The only runtime with a locked fixture regime today. | Pass C has Layer-2 κ history at 0.331 (Qwen 3.5 27B MLX); workload 4 has the 2026-09-07 blind-ranking baseline. |
+| **Hybrid / PPLX** | Cloud-orchestrated with local model (PPLX Qwen 3.6 35B A3B MLX) invoked for gated steps. App-managed; no Terminal, no Ollama. | Interactive Computer sessions where cloud planning + one-shot local reads are the shape of the work. Not scriptable from `pipeline_canonical_v3.sh`. | Workload 4 only: ranked 3rd of 5 (2026-09-07). |
+| **Cloud** | Frontier cloud models via Computer | Orchestration, web and restricted-source retrieval, assimilation and QA, Phase 1/2 interpretive synthesis, secondary narrative critique over public archive content, any workload needing cross-archive breadth. | Not applicable to this skill's regime. |
 
 **Decision rule:**
 
 1. **Batch, scripted, reproducibility-critical work (Phase 3 wiki gen, Pass C, `kw_ask` at scale)** → **Ollama on Mac.** Hybrid's orchestration model does not support unattended overnight runs driven by `pipeline_canonical_v3.sh`, and its lack of fixture history means adopting it for Pass C would invalidate prescience-score comparability. This is not a quality claim about PPLX; it is a claim about the runtime's fit to the surrounding tooling.
-2. **Interactive, one-shot, human-in-the-loop work (Phase 2 v2 ingest, narrow verification passes, ad-hoc `kw ask`-like questions when the bridge sandbox blocks localhost)** → **Hybrid/PPLX is a legitimate first-class option.** Zero cloud credits, runs entirely on the Mac, sensible when the question is bounded and the answer is not headed for a master CSV.
-3. **Narrative drafting (workload 4)** → **cloud default, with local bakeoff in progress.** Once the Databases fixture is frozen and Pete blind-ranks candidates, the winning runtime becomes the default for that workload only.
+2. **Interactive, one-shot, human-in-the-loop work (Phase 2 v2 ingest, narrow verification passes, ad-hoc `kw ask`-like questions when the bridge sandbox blocks localhost)** → **Hybrid/PPLX is a legitimate first-class option.** Zero cloud credits, runs entirely on the Mac, sensible when the question is bounded and the answer is not headed for a master CSV. Hybrid/PPLX never writes Kastner-voice prose.
+3. **Narrative drafting (workload 4)** → **Ollama `qwen3.6:35b-mlx`.** Ollama writes; cloud and Hybrid/PPLX orchestrate, research, and critique. For serious research, gather independent perspectives from the top four bakeoff contestants and synthesize before the Ollama writing pass. `kastner-build-study-on-mac` implements this split.
 4. **Never mix runtimes on a single load-bearing pipeline invocation.** A Pass C run is Ollama end-to-end or it is not a Pass C run; a Hybrid narrative pass is Hybrid end-to-end.
 
-**Post-M5-Pro-cutover (October 2026):** re-evaluate this table. A 64GB machine may make Ollama-hosted 40-70B MLX models competitive with cloud on narrative drafting, in which case Gate 6 for workload 4 flips from "cloud default" to "Ollama default" without needing Hybrid at all. Do not assume the runtime split above is stable across hardware changes.
+**Post-M5-Pro-cutover (October 2026):** re-run the workload-4 bakeoff on the same locked dossier and prompt, with `qwen3.6:35b-mlx` as the M4 baseline to beat plus any 40-70B MLX candidate that clears Gates 0-2. Score sidecar and anchor compliance separately from Pete's blind ranking. Do not assume the runtime split above is stable across hardware changes.
 
 ## Anti-Patterns (don't repeat §11q)
 

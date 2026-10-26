@@ -16,6 +16,10 @@ As of September 23, 2026, reconciled against the connected Gmail account, the US
 | DCF original procurement (P257883-072926) | **Answered negatively** August 18. |
 | Auditor General | **Complete.** |
 | Carlton Fields | **Email bounced**; no replacement delivery. |
+| **Leon County Clerk: EDS v. HRS civil file, 1992 CA 003618 (new)** | **Sent October 26**, as a reply to Patti on the P022996 thread; awaiting response or a new request number. |
+| **DMS: ITRPAC records, 1988–1993 (new)** | **Sent October 26** to publicrecords@dms.myflorida.com; awaiting acknowledgment. |
+| **USDA appeal, 2026-FNS-07231-F** | **Filed October 26**, before the December 10 deadline. |
+| **HHS clarification** | **Sent October 26**, naming three priority APD Updates. |
 
 ## Follow-ups sent
 

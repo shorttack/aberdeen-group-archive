@@ -341,6 +341,29 @@ Peter Kastner
 
 ---
 
+
+### 2f. Follow-up to the Clerk under P022996-082026 — SENT October 7, 2026, 2:54 PM EDT
+
+> **Status: SENT** by Pete from pskastner@gmail.com as an in-thread reply to the Clerk's September 23 response (to `leonclerk@govqa.us`, subject "Re: [Records Center] Public Records Request :: P022996-082026"; Gmail message `1a117b78e84e8d8b`). Text per `LEON-COUNTY-LETTERS-2026-10-07.md`, Letter 1: supplies the defendants' names (Viann Hardy, Judy Mitchell), indictment date (August 18, 1993), and judges (L. Ralph Smith, Philip J. Padovano); asks for both criminal case files; asks the Clerk to clarify whether its "no records" answer on pre-No. 137 presentments means none are held or only that no index exists; asks for a re-search for the presentment and any § 905.28 order. Rule 2.420; $200 ceiling unchanged.
+>
+> **Delivery risk, flagged the same day.** The sent body begins with a fragment of the drafting instructions that includes the GovQA delimiter text ("Please respond above this line"), placed *above* the letter. GovQA keeps only what sits above the first delimiter, so the Clerk's portal may have recorded only that fragment and dropped the letter. **Check the request's message history in the Records Request Center; if the letter is missing, resubmit it cleanly through the portal or by a fresh reply.**
+>
+> **Resolved October 7, 2026, 3:11 PM EDT.** Pete checked the portal: the letter was recorded in full, not truncated. No resend. Awaiting the Clerk's answer.
+>
+> **Correction carried forward.** The August 20 request said a circuit judge "set the case aside" after Mitchell's conviction. The press record shows only that defense counsel planned to renew a motion for acquittal. The October 7 letters do not repeat the claim.
+
+### 2g. New request to the State Attorney, Second Judicial Circuit — SENT October 7, 2026, 2:57 PM EDT
+
+> **Status: SENT** by Pete from pskastner@gmail.com to `sao2publicrecordsrequests@leoncountyfl.gov` (address verified on the [SAO2 public records page](https://www.sao2fl.org/Public-Information/Public-Records-Requests), dated 4/21/2026), bcc self; Gmail message `1a117ba9ff4e563d`. Subject: "Public records request — 1993 HRS grand jury: State v. Viann Hardy and State v. Judy Mitchell." Chapter 119. Requests the presentment as made public plus any § 905.28 order; both closed case files; and any HRS or EDS FLORIDA-system documents in the prosecution files. Asks for written confirmation if destroyed or transferred. **Fee ceiling as sent: $200** (Pete raised it from the drafted $100); estimate requested before work begins. Published SAO2 fees: $25.00/hour personnel, $50.00/hour IT, $0.15/page.
+>
+> **Response, October 8, 2026, 12:33 PM EDT** (Gmail `1a11c5ca5fa86050`, in thread, from the SAO2 records mailbox, signed Traci Hopkins, Legal Assistant, Felony Division, (850) 606-6068, hopkinst@leoncountyfl.gov). Full text: *"These records have been archived."*
+>
+> **Reading.** "Archived" is not "destroyed" and is not a denial. It answers none of the request's specifics: where the files are held (SAO off-site storage, a county records center, or the State Archives of Florida), whether they can be retrieved, at what cost, or which items it covers. Treat as open. One in-thread reply asking those questions is the next step.
+>
+> **Reply SENT October 8, 2026, 12:41 PM EDT**, in thread, to sao2publicrecordsrequests@leoncountyfl.gov, addressed to Ms. Hopkins, approved by Pete. Asks: (1) where the files are held; (2) whether they can be retrieved, with cost and time estimate before work, $200 ceiling unchanged; (3) State Archives series or accession number if transferred; (4) destruction date and schedule item if destroyed; plus the two case numbers if the index shows them. **Send nothing further to this office until it answers.**
+>
+> **Final response, October 8, 2026, 12:42 PM EDT** (Gmail `1a11c655ac160aea`, in thread, signed Traci Hopkins). Full text: *"We no longer have these files, they have been destroyed."* No destruction date, retention item, or case numbers given. **SAO2 branch closed: prosecution files destroyed.** Do not re-request. The presentment and court case files remain open only through the Clerk (P022996-082026, pending) and through press reprints of the unsealed presentment (Tallahassee Democrat, Sept.–Oct. 1993; State Library microfilm and 1986–1996 print index).
+
 ## 3. FOIA — HHS Administration for Children and Families
 
 > **Current status, September 23: AWAITING RESPONSE.** The July 28 sent message to FOIARequest@hhs.gov is verified. No matching acknowledgment, tracking number, determination, or sent status follow-up was located in the searches. This is a mailbox-search finding, not proof that the agency never processed the request.

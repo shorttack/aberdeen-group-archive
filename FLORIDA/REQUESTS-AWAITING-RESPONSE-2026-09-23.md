@@ -2,6 +2,21 @@
 
 As of September 23, 2026, reconciled against the connected Gmail account, the USDA final-response PDF, and the Mac's current records-request log. Three governmental request tracks remain awaiting a substantive response; several previously described as unanswered have already been answered.
 
+
+## Current status: October 26, 2026 (supersedes the September 23 tables below)
+
+| Request | Status |
+|---|---|
+| HHS/ACF FAMIS/APD | **Acknowledged and queued.** Agency reference 2027-HHS-FOIA-000263; FOIA.gov receipt 3276646; resubmitted October 24, 2026. |
+| DCF ITN 03F12GC1 (P257878-072926) | **Outstanding** as last checked October 14. |
+| DCF disposition/transfer records (P260649-082226) | **Answered negatively** October 20 ("no responsive records"); closed. |
+| Leon County Clerk (P022996-082026) | **Round 1 delivered October 26** after the $63 invoice was paid. Contents: the 63-page grand jury presentment filed August 18, 1993, and Hardy and Mitchell letters stating "no information found." The presentment is acquired; see `PRESENTMENT-1993-FINDINGS.md` and PENDING-CHANGES rows 55–71. The negative letters do not establish destruction or sealing. |
+| State Attorney, 2nd Circuit | **Answered negatively** October 13; no follow-up, per Kastner. |
+| USDA 2026-FNS-07231-F | **Final negative response** September 11; appeal deadline December 10, 2026. |
+| DCF original procurement (P257883-072926) | **Answered negatively** August 18. |
+| Auditor General | **Complete.** |
+| Carlton Fields | **Email bounced**; no replacement delivery. |
+
 ## Follow-ups sent
 
 **Portal correction, approximately 5:15 PM EDT:** The PAL address in HHS's automatic reply is unreachable in Pete's test and an independent cloud-browser test (`ERR_CONNECTION_TIMED_OUT`). Do not follow the earlier recommendation to use it. HHS's [current instructions](https://www.hhs.gov/foia/request/index.html) instead direct new requests to FOIA.gov and existing-request status questions to the FOIA Public Liaison; the [contacts page](https://www.hhs.gov/foia/contacts/index.html) names Paula Formoso, HHS_FOIA_Public_Liaison@hhs.gov, telephone 202-690-7453. Recommended next action is a liaison inquiry to locate the July 28 request before any duplicate submission. Nothing further has been sent.

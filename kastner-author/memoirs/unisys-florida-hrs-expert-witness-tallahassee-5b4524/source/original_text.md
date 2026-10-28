@@ -1,5 +1,7 @@
 # Unisys vs. Florida HRS — Expert Witness Memoir (Senate Chamber Tallahassee, c.1990-1991)
 
+> **Correction, October 28, 2026 (PENDING-CHANGES row 49, Kastner, 2026-09-07).** Earlier versions of this package described the IBM/EDS proposal and the as-built FLORIDA system as "DB2 on mainframe." The database was IMS (IMS DB and IMS/TM), as the as-built review in Auditor General Report 13287 (pp. 15–16) and the FLORIDA archive README § 5 establish; no contemporaneous proposal document establishes DB2. DB2 has been replaced by IMS throughout; the `ibm-db2` technology association was replaced by `ibm-ims`.
+
 > Archived from: Unisys-Florida-expert-witness-4.md
 > Original publication date: 2026-01-12
 > Author: Peter S. Kastner (memoir); Perplexity AI (research context)
@@ -21,8 +23,8 @@ This case is a classic example of the "High-Stakes Procurement Trap" often seen 
 Here is an analysis of the core dynamics at play:
 1. The Architectural Conflict
 The dispute centered on whether a two-tier mainframe architecture (IBM's specialty at the time) could handle the latency requirements of a massive, state-wide distributed network.
-Unisys' Argument: They likely proposed a more distributed or "open" architecture, arguing that centralized DB2 processing on an IBM mainframe would create a "bottleneck" effect. In a state-wide claims system, sub-second response times are critical for user productivity; Unisys gambled that IBM’s overhead would fail under peak loads.
-IBM/EDS Strategy: They leaned on the "no one ever got fired for buying IBM" reputation. Their bid promised that the sheer power of the mainframe and the maturity of DB2 could handle the volume, likely at a lower initial perceived risk to the state.
+Unisys' Argument: They likely proposed a more distributed or "open" architecture, arguing that centralized IMS processing on an IBM mainframe would create a "bottleneck" effect. In a state-wide claims system, sub-second response times are critical for user productivity; Unisys gambled that IBM’s overhead would fail under peak loads.
+IBM/EDS Strategy: They leaned on the "no one ever got fired for buying IBM" reputation. Their bid promised that the sheer power of the mainframe and the maturity of IMS could handle the volume, likely at a lower initial perceived risk to the state.
 2. The Failure of "Paper Performance"
 The fact that IBM/EDS ultimately failed to deliver—resulting in a $200 million dispute—suggests a disconnect between theoretical benchmarks and real-world implementation.
 Scalability Issues: As the system scaled across Florida’s geography, the "response time criteria" Unisys warned about likely became the project's Achilles' heel.
@@ -58,7 +60,7 @@ By 1993, Florida was setting **national records for error rates** in issuing foo
 Your analysis correctly identifies the core technical dispute. The early 1990s represented a **pivotal transition period** in computing architecture, and government IT procurement was caught in the crossfire between two competing paradigms.[3][4][5]
 ### The Mainframe Paradigm (IBM/EDS's Approach)
 IBM and its partner EDS proposed centralized mainframe solutions based on IBM's strengths:
-- **DB2 on mainframes** with all processing centralized in Tallahassee
+- **IMS on mainframes** with all processing centralized in Tallahassee
 - The "no one ever got fired for buying IBM" reputation
 - Proven track record with high-volume transaction processing
 - Mature, reliable technology that theoretically could handle the volume[6][2][7]
@@ -167,13 +169,13 @@ This specialization positioned Kastner and Aberdeen as exactly the type of exper
 ## Kastner's Analytical Framework: Performance Over Promises
 Based on contemporaneous documents and industry sources, Kastner's analytical approach focused on **real-world performance validation** rather than accepting vendor marketing claims. In evaluating database and distributed systems, he emphasized:[108][112][106]
 ### 1. **Empirical Benchmarking**
-Kastner regularly cited actual performance benchmarks rather than theoretical capabilities. In analyzing database systems, he noted that competitors often "lack the clarity of vision for parallel processing" that real-world applications demanded. This empirical focus would have been invaluable in evaluating IBM's claims that DB2 on mainframes could handle Florida's distributed, state-wide response time requirements.[106]
+Kastner regularly cited actual performance benchmarks rather than theoretical capabilities. In analyzing database systems, he noted that competitors often "lack the clarity of vision for parallel processing" that real-world applications demanded. This empirical focus would have been invaluable in evaluating IBM's claims that IMS on mainframes could handle Florida's distributed, state-wide response time requirements.[106]
 ### 2. **Architecture Suitability for Use Cases**
 Aberdeen's methodology involved matching architectural paradigms to specific application requirements. The firm recognized that **no single architecture was universally superior**—rather, the question was whether a given architecture fit the specific performance, scalability, and geographic distribution requirements of the application.[114][110][113][109]
 For a system like Florida's HRS—requiring **sub-second response times** across hundreds of geographically distributed sites—Kastner's analysis would likely have highlighted the **network latency multiplication effect** of centralized processing. Every transaction would incur:
 - Network round-trip time from remote site to Tallahassee
 - Mainframe processing time (which increases under load)
-- DB2 query processing time
+- IMS query processing time
 - Return network transmission time
 This architectural reality was precisely what Unisys warned about and what ultimately materialized as the system's fatal flaw.[1][2]
 ### 3. **Total Cost of Ownership Beyond Acquisition**
@@ -410,7 +412,7 @@ The Florida HRS case thus represents not just a failure of architectural judgmen
 
 ### Abstract
 
-Peter S. Kastner recalls his expert-witness role in the Florida Department of Health and Rehabilitative Services (HRS) bid protest — Unisys vs. IBM/EDS — in the early 1990s. Kastner went through a box of computer paper to find the single IBM performance estimate sheet that proved the proposed mainframe plus DB2 architecture could not support the required terminal counts and average response time, and testified in the Florida Senate Chamber in Tallahassee. Although Unisys lost the bid, the IBM/EDS implementation failed catastrophically — a $200 million fiasco involving system crashes during food stamp distribution, national records for error rates, and EDS suing for $46 million in unpaid bills. The fallout helped motivate Congress to pass two pieces of Senator William Cohen's IT-procurement reform legislation — the Information Technology Management Reform Act and the Federal Acquisition Reform Act (jointly the Clinger-Cohen Act of 1996) — which remain in force today. era: 1990s; mood: reflective; trigger: Perplexity research session January 2026 on government IT procurement disasters
+Peter S. Kastner recalls his expert-witness role in the Florida Department of Health and Rehabilitative Services (HRS) bid protest — Unisys vs. IBM/EDS — in the early 1990s. Kastner went through a box of computer paper to find the single IBM performance estimate sheet that proved the proposed mainframe plus IMS architecture could not support the required terminal counts and average response time, and testified in the Florida Senate Chamber in Tallahassee. Although Unisys lost the bid, the IBM/EDS implementation failed catastrophically — a $200 million fiasco involving system crashes during food stamp distribution, national records for error rates, and EDS suing for $46 million in unpaid bills. The fallout helped motivate Congress to pass two pieces of Senator William Cohen's IT-procurement reform legislation — the Information Technology Management Reform Act and the Federal Acquisition Reform Act (jointly the Clinger-Cohen Act of 1996) — which remain in force today. era: 1990s; mood: reflective; trigger: Perplexity research session January 2026 on government IT procurement disasters
 
 ### Document Assessment
 
@@ -418,13 +420,13 @@ Peter S. Kastner recalls his expert-witness role in the Florida Department of He
 |-----------|--------|-----------|
 | **Importance** | high | The memoir documents Kastner's pivotal expert-witness role in a procurement disaster that directly motivated landmark federal IT-procurement reform legislation (Clinger-Cohen Act 1996). It is the first-person companion to the existing litigation summary in psk-litigate98-72601c, adding specific testimony details not found elsewhere in the archive. |
 | **Relevance** | high | Government IT procurement architectural lessons — centralized vs. distributed architecture, vendor lock-in, independent technical evaluation requirements — remain front-and-center. The Clinger-Cohen Act still governs federal IT acquisitions in 2026. |
-| **Prescience** | high | Kastner's 1990-era testimony correctly predicted the DB2-on-mainframe response-time collapse that subsequently materialized (initially measured in minutes; peak CPU 95-100%). His broader argument — that centralized mainframe architecture would fail for geographically distributed interactive systems — foreshadowed the entire 1990s mainframe-to-distributed transition that played out exactly as he warned across dozens of government IT projects. |
+| **Prescience** | high | Kastner's 1990-era testimony correctly predicted the IMS-on-mainframe response-time collapse that subsequently materialized (initially measured in minutes; peak CPU 95-100%). His broader argument — that centralized mainframe architecture would fail for geographically distributed interactive systems — foreshadowed the entire 1990s mainframe-to-distributed transition that played out exactly as he warned across dozens of government IT projects. |
 
 ### Prescience Detail
 
 
-**Prediction 1:** IBM/EDS claim: mainframe + DB2 can handle volume at lower perceived risk
-- **Claimed:** IBM/EDS strategy leaned on 'no one ever got fired for buying IBM' reputation; promised mainframe power and DB2 maturity could handle volume
+**Prediction 1:** IBM/EDS claim: mainframe + IMS can handle volume at lower perceived risk
+- **Claimed:** IBM/EDS strategy leaned on 'no one ever got fired for buying IBM' reputation; promised mainframe power and IMS maturity could handle volume
 - **Year:** 1990
 - **Confidence at time:** high
 
@@ -433,8 +435,8 @@ Peter S. Kastner recalls his expert-witness role in the Florida Department of He
 - **Confidence:** verified
 - **Notes:** Directly contradicts IBM/EDS vendor claims; Unisys analysis proved correct
 
-**Prediction 2:** Kastner 1990 testimony prediction: mainframe DB2 cannot meet response-time requirements
-- **Claimed:** IBM performance estimate sheet proved mainframe + DB2 architecture could not support required terminal counts and average response time
+**Prediction 2:** Kastner 1990 testimony prediction: mainframe IMS cannot meet response-time requirements
+- **Claimed:** IBM performance estimate sheet proved mainframe + IMS architecture could not support required terminal counts and average response time
 - **Year:** 1990
 - **Confidence at time:** medium
 
@@ -470,7 +472,7 @@ Peter S. Kastner recalls his expert-witness role in the Florida Department of He
 
 | Technology | Category | Vendor | Lifecycle (at study) | Lifecycle (current) |
 |------------|----------|--------|---------------------|---------------------|
-| IBM DB2 | application | IBM | mature | active |
+| IBM IMS | application | IBM | mature | active |
 | IBM Mainframe | platform | IBM | mature | legacy-supported |
 | COBOL Programming Language | language | various | mature | legacy-supported |
 | Burroughs Network Architecture (BNA) | protocol | Burroughs/Unisys | mature | obsolete |

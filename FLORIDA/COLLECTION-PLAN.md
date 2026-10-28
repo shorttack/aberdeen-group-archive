@@ -94,9 +94,17 @@ A request was sent August 21, 2026 asking whether Report 12581's workpapers surv
 
 Standing request line; 11178 turned out to be the wrong audit for this purpose. If the AG has a separate mid-to-late-1980s HRS data-processing audit (analogous to 12061 for the post-implementation period), request it by description.
 
-### 1.6 The 1993 statewide grand jury presentment
+### 1.6 The 1993 Leon County grand jury presentment — ACQUIRED OCTOBER 26, 2026
 
-Already the subject of a filed request to the Leon County Clerk (`FLORIDA-records-requests-drafts.md`). **Do not duplicate.** If the trip proceeds before a response arrives, an in-person follow-up at the Clerk's office is more productive than a second written request.
+Produced by the Leon County Clerk under P022996-082026 after the $63 invoice was paid: the 63-page presentment of the Leon County Grand Jury, Fall Term 1992, filed August 18, 1993, plus "no information found" letters for Viann Hardy and Judy Mitchell (which do not establish that case files were destroyed, sealed, or never existed). It was a county grand jury, not the statewide grand jury this plan assumed. Findings: `PRESENTMENT-1993-FINDINGS.md`.
+
+**New Tier 1 targets the presentment creates**, in priority order:
+1. **The October 1991 HRS–EDS memorandum of understanding** (Report 12061 dates it October 4; the grand jury "on or about October 18"). The grand jury read it as waiving all of EDS's performance requirements (¶49). Requested October 26, 2026 from the Leon County Clerk as an exhibit in EDS v. HRS, 1992 CA 003618, and from HHS as an APD Update.
+2. **ITRPAC minutes and packages, 1988–1993** — the RFP; the c. October 1989 centralization change; the October 1991 720/600J and IRLM package; the 1991 mid-range strategy; December 29, 1992 (ES/9021-900); June 9, 1993; the EDS petition of January 14, 1993; the Hale–Hadi twelve-question correspondence. Requested from DMS October 26, 2026 under Chapter 119; minutes are permanent under GS1-SL #32.
+3. **The 1992 IBM "Snapshot" capacity study and Secretary Williams's executive summary to the Governor** (¶53).
+4. The May 7, 1990 Steering Committee minutes with the "Ohio warning" (¶42); the federal centralized-versus-distributed study (¶39); Zingale's needs analysis (¶97); the § 905.28 responses; and the Mitchell indictment and trial record (the State Attorney reported its Hardy and Mitchell files destroyed, October 8, 2026; court copies are a separate custodial branch).
+5. **The third bidder is now identified.** Report 12581 ¶8 says three companies bid; the presentment names CSX Technology (¶11). The CSX proposal itself would be in the ITRPAC package or the DOAH 89-0003BID record.
+6. **Processor capacities.** No contemporaneous IBM, Gartner, or IDC capacity figure is held for any FLORIDA processor; IBM announcement letters or 1990–93 industry tables are the targets. Until obtained, no paper prints MIPS or ratios between machines.
 
 ---
 

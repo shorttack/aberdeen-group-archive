@@ -80,7 +80,7 @@ Note what that list contains and what it omits. It mandates *functional* complet
 
 ### The contract modification that removed the acceptance gates
 
-The standard did not disappear on its own; it was modified. Report 12061 documents an **October 4, 1991 Memorandum of Understanding** between the Department and EDS with four operative terms (Report No. 12061 ¶57):
+The standard did not disappear on its own; it was modified. (The 1993 presentment reads the same memorandum as having waived "all performance requirements that EDS was responsible for" and "released EDS from further obligation," and dates it "on or about October 18, 1991" (¶49); the IRC's executive director testified he had not known of the release when ITRPAC approved the associated upgrade (¶82). The auditor's narrower account and the grand jury's broader one are both carried; the signed document would settle it. Webster's August 14, 1995 report, issued two days before the press coverage the archive cites, followed an arbitration that ran January 9 to April 1995 (12581 ¶17).) Report 12061 documents an **October 4, 1991 Memorandum of Understanding** between the Department and EDS with four operative terms (Report No. 12061 ¶57):
 
 1. Benchmark testing was to be performed after the IBM hardware upgrades.
 2. EDS was **released from providing evidence of successful benchmark tests** for the implementation stages already completed.
@@ -104,5 +104,5 @@ When requesting the RFP from DCF or the court file, ask by section rather than f
 - Auditor General Report **13043** — the settlement audit; not yet obtained.
 - Auditor General Report **12581** — the September 1995 performance audit; press summary only.
 - Disposition of **1995 CA 005280** (Butterworth v. EDS) — no news coverage found for 1996–97; Orlando Sentinel and Miami Herald native archives remain unsearched.
-- The 1993 statewide grand jury presentment text and the names of the two indicted HRS administrators.
+- ~~The 1993 grand jury presentment text~~ **Obtained October 26, 2026** (Leon County Grand Jury, filed August 18, 1993; the two administrators were Viann Hardy and Judy Mitchell). Still sought: the October 1991 memorandum itself, which the grand jury read as waiving all of EDS's performance requirements (¶49) and dated "on or about October 18, 1991" against Report 12061's October 4; the § 905.28 responses; and the trial record.
 - Full text of GAO **IMTEC-92-29** (1992), to confirm whether Florida appears as a named case study; the GAO site blocks automated retrieval and no mirror was located.

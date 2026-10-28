@@ -26,6 +26,8 @@ The regulatory framework did not stand still. Four things were genuinely added, 
 
 That is, substantively, the rule whose absence defined the FLORIDA disaster. It arrived on **January 2, 2014** — twenty-five and a half years after Florida issued RFP 88-74-BC, and it applies to SNAP.
 
+One Florida body had asked for the same thing in 1993. The Leon County grand jury that examined the FLORIDA System recommended "a full-time neutral authoritative body" of two technical experts, two fiscal officers, and an attorney to monitor large data-center projects, an end to approving agency requests "at face value," and a prohibition on vendors lobbying the oversight councils (Presentment, Aug. 18, 1993, Recommendations 2, 3, 11, 12). The federal IV&V rule of 2010 is a weaker version of that recommendation, triggered by distress rather than standing as a gate.
+
 ## What was still missing when the test came
 
 Six years after that SNAP rule, the largest simultaneous load test in the history of American public administration arrived. It did not fall on SNAP eligibility systems. It fell on unemployment insurance, which sits under the Department of Labor and outside every regulation described above.

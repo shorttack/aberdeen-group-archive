@@ -6,13 +6,15 @@ source: https://www.perplexity.ai/search/provide-historical-context-to-CLCpTz0GR
 
 # Provide historical context to the following: This case is a classic example of...
 
+> **Correction, October 28, 2026 (PENDING-CHANGES row 49, Kastner, 2026-09-07).** Earlier versions of this package described the IBM/EDS proposal and the as-built FLORIDA system as "DB2 on mainframe." The database was IMS (IMS DB and IMS/TM), as the as-built review in Auditor General Report 13287 (pp. 15–16) and the FLORIDA archive README § 5 establish; no contemporaneous proposal document establishes DB2. DB2 has been replaced by IMS throughout; the `ibm-db2` technology association was replaced by `ibm-ims`.
+
 **User:** Provide historical context to the following:
 This case is a classic example of the "High-Stakes Procurement Trap" often seen in government IT contracting. It highlights a recurring conflict between traditional mainframe architectures and the emerging demands of distributed, high-performance systems in the early 1990s.
 Here is an analysis of the core dynamics at play:
 1. The Architectural Conflict
 The dispute centered on whether a two-tier mainframe architecture (IBM's specialty at the time) could handle the latency requirements of a massive, state-wide distributed network.
-Unisys' Argument: They likely proposed a more distributed or "open" architecture, arguing that centralized DB2 processing on an IBM mainframe would create a "bottleneck" effect. In a state-wide claims system, sub-second response times are critical for user productivity; Unisys gambled that IBM’s overhead would fail under peak loads.
-IBM/EDS Strategy: They leaned on the "no one ever got fired for buying IBM" reputation. Their bid promised that the sheer power of the mainframe and the maturity of DB2 could handle the volume, likely at a lower initial perceived risk to the state.
+Unisys' Argument: They likely proposed a more distributed or "open" architecture, arguing that centralized IMS processing on an IBM mainframe would create a "bottleneck" effect. In a state-wide claims system, sub-second response times are critical for user productivity; Unisys gambled that IBM’s overhead would fail under peak loads.
+IBM/EDS Strategy: They leaned on the "no one ever got fired for buying IBM" reputation. Their bid promised that the sheer power of the mainframe and the maturity of IMS could handle the volume, likely at a lower initial perceived risk to the state.
 2. The Failure of "Paper Performance"
 The fact that IBM/EDS ultimately failed to deliver—resulting in a $200 million dispute—suggests a disconnect between theoretical benchmarks and real-world implementation.
 Scalability Issues: As the system scaled across Florida’s geography, the "response time criteria" Unisys warned about likely became the project's Achilles' heel.
@@ -48,7 +50,7 @@ By 1993, Florida was setting **national records for error rates** in issuing foo
 Your analysis correctly identifies the core technical dispute. The early 1990s represented a **pivotal transition period** in computing architecture, and government IT procurement was caught in the crossfire between two competing paradigms.[3][4][5]
 ### The Mainframe Paradigm (IBM/EDS's Approach)
 IBM and its partner EDS proposed centralized mainframe solutions based on IBM's strengths:
-- **DB2 on mainframes** with all processing centralized in Tallahassee
+- **IMS on mainframes** with all processing centralized in Tallahassee
 - The "no one ever got fired for buying IBM" reputation
 - Proven track record with high-volume transaction processing
 - Mature, reliable technology that theoretically could handle the volume[6][2][7]
@@ -157,13 +159,13 @@ This specialization positioned Kastner and Aberdeen as exactly the type of exper
 ## Kastner's Analytical Framework: Performance Over Promises
 Based on contemporaneous documents and industry sources, Kastner's analytical approach focused on **real-world performance validation** rather than accepting vendor marketing claims. In evaluating database and distributed systems, he emphasized:[108][112][106]
 ### 1. **Empirical Benchmarking**
-Kastner regularly cited actual performance benchmarks rather than theoretical capabilities. In analyzing database systems, he noted that competitors often "lack the clarity of vision for parallel processing" that real-world applications demanded. This empirical focus would have been invaluable in evaluating IBM's claims that DB2 on mainframes could handle Florida's distributed, state-wide response time requirements.[106]
+Kastner regularly cited actual performance benchmarks rather than theoretical capabilities. In analyzing database systems, he noted that competitors often "lack the clarity of vision for parallel processing" that real-world applications demanded. This empirical focus would have been invaluable in evaluating IBM's claims that IMS on mainframes could handle Florida's distributed, state-wide response time requirements.[106]
 ### 2. **Architecture Suitability for Use Cases**
 Aberdeen's methodology involved matching architectural paradigms to specific application requirements. The firm recognized that **no single architecture was universally superior**—rather, the question was whether a given architecture fit the specific performance, scalability, and geographic distribution requirements of the application.[114][110][113][109]
 For a system like Florida's HRS—requiring **sub-second response times** across hundreds of geographically distributed sites—Kastner's analysis would likely have highlighted the **network latency multiplication effect** of centralized processing. Every transaction would incur:
 - Network round-trip time from remote site to Tallahassee
 - Mainframe processing time (which increases under load)
-- DB2 query processing time
+- IMS query processing time
 - Return network transmission time
 This architectural reality was precisely what Unisys warned about and what ultimately materialized as the system's fatal flaw.[1][2]
 ### 3. **Total Cost of Ownership Beyond Acquisition**

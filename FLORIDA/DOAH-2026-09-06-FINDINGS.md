@@ -1,4 +1,6 @@
-# DOAH Response — September 6, 2026
+# DOAH Response — August 31, 2026 (note first drafted September 6, 2026)
+
+> **Correction, October 28, 2026 (PENDING-CHANGES row 52).** This note previously inferred that DOAH's 1998 records-disposition documents proved destruction of the Unisys protest file. They do not. DOAH's August 31, 2026 cover email states that the hearing records were transferred to HRS on August 4, 1988 and March 14, 1989, and expressly says DOAH cannot confirm what HRS did with them afterward. The disposition documents are DOAH's generic 1998 retention actions and do not name this case. What is established is transfer to HRS, not destruction. The request was sent August 18, 2026 and answered August 31, not September 6. Passages below that assert destruction are retained for the record and are superseded by this note.
 
 *Two documents from the Division of Administrative Hearings in response to Kastner's records request touching DOAH Case 88-002942 (Unisys Corporation v. Florida Department of Health and Rehabilitative Services), the bid protest of the FLORIDA System award to EDS. OCR'd locally September 6, 2026 by `ocr_pdf_v1.sh`.*
 
@@ -14,7 +16,7 @@ The two documents supplied are:
 
 ## What that establishes
 
-The Unisys protest file at DOAH has been substantially destroyed under routine records retention, in or around 1998, ten years after the case. What remains is a docket sheet with no attached filings.
+~~The Unisys protest file at DOAH has been substantially destroyed under routine records retention, in or around 1998, ten years after the case.~~ **Superseded (see correction above):** DOAH transferred the hearing records to HRS in 1988–89 and cannot confirm their subsequent retention or destruction. What DOAH itself retains is a docket sheet with no attached filings.
 
 ## Implications for the collection plan
 
@@ -24,14 +26,14 @@ The Unisys protest file at DOAH has been substantially destroyed under routine r
 
 ## What is worth preserving from these documents anyway
 
-The Records Disposition Document, though it names nothing FLORIDA-specific, is itself the documentary evidence that the file was destroyed. That is worth keeping as the proof of destruction for the archive's SOURCES file, so no future reader wonders why DOAH pleadings are missing.
+The Records Disposition Document names nothing FLORIDA-specific and is **not** proof that this file was destroyed; it documents DOAH's generic 1998 retention actions. Keep it as evidence of DOAH's practice, and keep the August 31 cover email as the evidence that the records went to HRS. The HRS/DCF disposition record is the document that would establish destruction, and it is the subject of a separate request.
 
 ## Handling
 
 - PDFs mirrored on Mac at `~/Desktop/Archive/FLORIDA/PDFs/DOAH/`.
 - OCR Markdown (fragmentary) at same location.
 - Sandbox copies at `/home/user/workspace/archive/sources/doah/`.
-- Recommend adding a row to the records-requests log noting the DOAH response as "received, effectively null return, records destroyed under routine retention."
+- Recommend adding a row to the records-requests log noting the DOAH response as "received August 31, 2026; closed; hearing records transferred to HRS 1988–89; subsequent disposition unconfirmed."
 
 ## Sources
 

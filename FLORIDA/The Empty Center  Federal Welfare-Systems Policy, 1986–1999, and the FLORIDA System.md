@@ -6,6 +6,8 @@
 
 ---
 
+*Revised October 28, 2026: adds the post-award centralization change-order and a qualification on internally overstated deadline pressure, both from the 1993 Leon County presentment. Logged in `PENDING-CHANGES.md` § 5.*
+
 ## Abstract
 
 Between 1986 and 1999 the federal government built an elaborate apparatus to govern the automation of state welfare systems: an advance-planning-document regime with prior-approval authority, enhanced federal match rates used as both carrot and stick, statutory certification deadlines, escalating financial penalties reaching thirty percent of a state's administrative funding, two decades of Government Accountability Office and Inspector General reporting, a landmark rewrite of federal information-technology acquisition law, and a White House capital-planning discipline that required quantified return on investment before a dollar could be obligated. Not one element of that apparatus imposed a quantified engineering performance standard — response time, transaction throughput, capacity headroom, or availability — on a federally funded state welfare or child-support system. The single numeric performance requirement Congress enacted in the entire period was a two-business-day transmission rule for income-withholding notices. This report traces the arc of that legislation and oversight, establishes the absence at its center from primary sources, and shows that the FLORIDA system's central failure — transaction-volume assumptions that proved wrong by roughly a factor of two, discovered internally in March 1991 and concealed — sat precisely in the gap the federal framework never closed. Florida was not an outlier that escaped a federal bar. There was no bar, for any state, and the recurrence of capacity and performance failures across Ohio, California, Michigan, and Massachusetts in the same years is the predictable consequence.
@@ -163,7 +165,7 @@ Mapping the specific defects to the framework produces the report's central find
 | FLORIDA failure mode | Federal requirement that addressed it, 1986–1999 |
 |---|---|
 | Transfer base not operational, UAT incomplete at award (¶57) | **None.** Transfer was encouraged; donor-system maturity was not a condition of APD approval |
-| Centralized architecture chosen for a statewide caseload (¶134) | **None.** No architectural review authority existed |
+| Centralized architecture chosen for a statewide caseload (¶134), then made the contract by a post-award change-order of about October 1989 approved without rebid or technical review (presentment ¶¶36–39) | **None.** No architectural review authority existed, federal or state; ITRPAC and the IRC approved the change "without checking into whether or not it was technologically sound," the grand jury found |
 | Transaction-volume model wrong by roughly a factor of two | **None.** No throughput or capacity standard; capacity planning was a reimbursable budget line, not a test |
 | Production CPU at ~95% on a regular work day and 100% at some peaks, measured by a Department-hired consultant on October 11, 1994, against a 60–65% design rule | **None federally.** The 60–65% rule was a state RFP convention (88-2942BID ¶56) |
 | Response time of 2.8 minutes on the Department's May 13, 1992 manual test, against a contractual 1–8 seconds at 95% of measurements | **None federally.** No response-time standard in FAMIS, Part 307, or 7 CFR 277.18 as it then read. The numeric standard was Florida's own (Report No. 12061 ¶¶49–59), and its acceptance mechanism was postponed and then modified away |
@@ -174,6 +176,8 @@ Mapping the specific defects to the framework produces the report's central find
 Every row reads the same. The federal government financed the system, approved the plan, set the deadline, and penalized the outcome — and at no point required, or possessed the authority to verify, that the machine would work.
 
 ---
+
+**A qualification on deadline pressure.** This paper treats the federal deadline-and-penalty structure as the pressure that drove Florida's schedule. The 1993 presentment adds that the pressure was also overstated inside HRS: the grand jury found that Deputy Secretary Hardy told the Steering Committee, Secretary Williams, and ITRPAC that missing the COBRA date would cut off federal funding and that no extensions were possible, and that "this was not true because there have been some extensions" (Finding 2(e); ¶¶37, 85). Structural pressure was real; some of what the decision-makers felt was manufactured. That is a grand jury finding from uncross-examined testimony and is cited as such.
 
 ## 7. Why This Matters to the Procurement Record
 

@@ -1,0 +1,8 @@
+checking /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c/ocr/F31900_ITN03F12GC1Addendum2_ocr.pdf
+PDF Version: 1.6
+File is not encrypted
+File is not linearized
+No syntax or stream encoding errors found; the file may still contain
+errors that qpdf cannot detect
+
+# qpdf.returncode=0

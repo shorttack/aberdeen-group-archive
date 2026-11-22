@@ -1,0 +1,13 @@
+This PDF contains structural markup (it is a Tagged PDF or carries a logical structure tree). This often indicates that the PDF was generated from an office document or is otherwise born digital, and does not need OCR. OCRmyPDF cannot rebuild this structure to match new text, so any page it re-OCRs with --force-ocr or --redo-ocr will have its structural markup discarded.
+Starting processing with 4 workers concurrently
+    1 skipping all processing on this page
+    3 skipping all processing on this page
+    5 skipping all processing on this page
+    2 skipping all processing on this page
+    8 skipping all processing on this page
+    6 skipping all processing on this page
+    4 skipping all processing on this page
+    7 skipping all processing on this page
+Postprocessing...
+Image optimization ratio: 1.00 savings: 0.0%
+Total file size ratio: 1.04 savings: 3.5%

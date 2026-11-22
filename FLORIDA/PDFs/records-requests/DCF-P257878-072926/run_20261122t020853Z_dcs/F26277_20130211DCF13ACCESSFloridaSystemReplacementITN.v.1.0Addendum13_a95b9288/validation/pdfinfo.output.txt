@@ -1,0 +1,22 @@
+Title:           1
+Author:          Florida Department of Children and Families
+Creator:         OCRmyPDF 17.14.2 / OCRmyPDF fpdf2 + Tesseract OCR 5.5.4
+Producer:        pikepdf 10.18.2
+CreationDate:    Tue Feb 12 11:28:52 2013 EST
+ModDate:         Sat Nov 21 22:00:09 2026 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       117093 bytes
+Optimized:       no
+PDF version:     1.5
+
+# pdfinfo.output.returncode=None

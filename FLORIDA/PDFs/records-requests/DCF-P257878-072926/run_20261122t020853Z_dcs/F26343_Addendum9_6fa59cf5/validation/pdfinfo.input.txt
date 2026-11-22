@@ -1,0 +1,22 @@
+Title:           Microsoft Word - Addendum 9_120 Language
+Author:          CLABORN-PEGGY
+Creator:         PScript5.dll Version 5.2.2
+Producer:        Acrobat Distiller 7.0.5 (Windows)
+CreationDate:    Mon Jan  7 10:38:25 2013 EST
+ModDate:         Mon Jan  7 10:39:19 2013 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       94494 bytes
+Optimized:       yes
+PDF version:     1.6
+
+# pdfinfo.returncode=None

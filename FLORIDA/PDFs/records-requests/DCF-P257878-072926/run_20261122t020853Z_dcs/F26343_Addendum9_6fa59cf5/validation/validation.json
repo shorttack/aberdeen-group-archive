@@ -1,0 +1,61 @@
+{
+  "input_name": "F26343_Addendum9.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26343_Addendum9_6fa59cf5",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "6fa59cf5a8e07d5c500c00478dbf530f074bb7fb343de29787ee8211df863e5d",
+  "source_sha256_after": "6fa59cf5a8e07d5c500c00478dbf530f074bb7fb343de29787ee8211df863e5d",
+  "source_unchanged": true,
+  "source_size": 94494,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26343_Addendum9_6fa59cf5/staged/F26343_Addendum9.pdf",
+  "staged_sha256": "6fa59cf5a8e07d5c500c00478dbf530f074bb7fb343de29787ee8211df863e5d",
+  "pages_input": 2,
+  "pages_output": 2,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.275,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 2,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "2 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 3260,
+  "sidecar_chars": 28,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26343_Addendum9_6fa59cf5/ocr/F26343_Addendum9.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26343_Addendum9_6fa59cf5/staged/F26343_Addendum9.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26343_Addendum9_6fa59cf5/ocr/F26343_Addendum9_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 493,
+      "text_after_default_chars": 493,
+      "text_after_layout_chars": 572,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 2,
+      "text_before_chars": 2767,
+      "text_after_default_chars": 2767,
+      "text_after_layout_chars": 5230,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

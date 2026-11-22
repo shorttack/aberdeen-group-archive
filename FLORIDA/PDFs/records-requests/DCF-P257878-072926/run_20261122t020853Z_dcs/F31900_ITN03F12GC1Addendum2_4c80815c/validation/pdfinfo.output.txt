@@ -1,0 +1,22 @@
+Title:           ITN 03F12GC1 Addendum 2
+Author:          Florida Department of Children and Families
+Creator:         OCRmyPDF 17.14.2 / OCRmyPDF fpdf2 + Tesseract OCR 5.5.4
+Producer:        pikepdf 10.18.2
+CreationDate:    Fri Jul 20 09:40:14 2012 EDT
+ModDate:         Sat Nov 21 22:00:12 2026 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           8
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       228949 bytes
+Optimized:       no
+PDF version:     1.6
+
+# pdfinfo.output.returncode=None

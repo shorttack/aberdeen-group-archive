@@ -1,0 +1,8 @@
+checking /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F21686_20130206DCF13ACCESSFloridaSystemProjectITNADDENDUM12_c2033839/ocr/F21686_20130206DCF13ACCESSFloridaSystemProjectITNADDENDUM12_ocr.pdf
+PDF Version: 1.5
+File is not encrypted
+File is not linearized
+No syntax or stream encoding errors found; the file may still contain
+errors that qpdf cannot detect
+
+# qpdf.returncode=0

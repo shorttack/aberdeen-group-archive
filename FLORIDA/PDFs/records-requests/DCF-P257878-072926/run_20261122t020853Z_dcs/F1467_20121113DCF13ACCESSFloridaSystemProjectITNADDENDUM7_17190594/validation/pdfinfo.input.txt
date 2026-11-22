@@ -1,0 +1,21 @@
+Author:          Administrator
+Creator:         Microsoft® Office Word 2007
+Producer:        Microsoft® Office Word 2007
+CreationDate:    Tue Nov 13 15:42:24 2012 EST
+ModDate:         Tue Nov 13 15:58:56 2012 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       400581 bytes
+Optimized:       yes
+PDF version:     1.4
+
+# pdfinfo.returncode=None

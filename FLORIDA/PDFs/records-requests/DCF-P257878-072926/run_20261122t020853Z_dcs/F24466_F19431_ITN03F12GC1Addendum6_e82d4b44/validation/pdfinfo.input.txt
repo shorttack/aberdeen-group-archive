@@ -1,0 +1,22 @@
+Title:           Microsoft Word - 20120720-DCF10-ACCESS Florida Replacement ITN v 1 0-Addendum 5
+Author:          aloveland
+Creator:         PScript5.dll Version 5.2.2
+Producer:        GPL Ghostscript 8.64
+CreationDate:    Thu Sep  6 16:55:01 2012 EDT
+ModDate:         Fri Sep  7 13:54:54 2012 EDT
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       42582 bytes
+Optimized:       yes
+PDF version:     1.3
+
+# pdfinfo.returncode=None

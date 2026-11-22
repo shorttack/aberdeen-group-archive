@@ -1,0 +1,22 @@
+Title:           1
+Author:          Florida Department of Children and Families
+Creator:         Microsoft® Word 2010
+Producer:        Microsoft® Word 2010
+CreationDate:    Tue Jul 17 13:58:14 2012 EDT
+ModDate:         Tue Jul 17 13:58:14 2012 EDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       77143 bytes
+Optimized:       no
+PDF version:     1.5
+
+# pdfinfo.returncode=None

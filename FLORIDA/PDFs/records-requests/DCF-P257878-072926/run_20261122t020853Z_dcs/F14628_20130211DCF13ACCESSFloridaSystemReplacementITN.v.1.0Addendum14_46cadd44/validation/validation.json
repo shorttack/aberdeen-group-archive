@@ -1,0 +1,48 @@
+{
+  "input_name": "F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_46cadd44",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "46cadd4455c07a1793f5af6c26abe233c2af215e18229855a077c68503d1f7c6",
+  "source_sha256_after": "46cadd4455c07a1793f5af6c26abe233c2af215e18229855a077c68503d1f7c6",
+  "source_unchanged": true,
+  "source_size": 43304,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_46cadd44/staged/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14.pdf",
+  "staged_sha256": "46cadd4455c07a1793f5af6c26abe233c2af215e18229855a077c68503d1f7c6",
+  "pages_input": 1,
+  "pages_output": 1,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.267,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 1,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 3033,
+  "sidecar_chars": 26,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_46cadd44/ocr/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_46cadd44/staged/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_46cadd44/ocr/F14628_20130211DCF13ACCESSFloridaSystemReplacementITN.v.1.0Addendum14_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 3033,
+      "text_after_default_chars": 3033,
+      "text_after_layout_chars": 5865,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

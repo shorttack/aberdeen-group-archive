@@ -64,7 +64,8 @@ done
 # Run identity — timestamped, no overwrites
 # --------------------------------------------------------------------------- #
 RUN_ID="${RUN_ID:-$(date -u +%Y%m%dT%H%M%SZ)}"
-RUN_DIR="$SCRIPT_DIR/outputs/run_${RUN_ID}"
+BAKEOFF_OUTPUT_ROOT="${BAKEOFF_OUTPUT_ROOT:-$HOME/Desktop/Archive/bakeoffs/workload4_kastner_voice}"  # 2026-10-13: outputs live outside _skills and outside git
+RUN_DIR="$BAKEOFF_OUTPUT_ROOT/run_${RUN_ID}"
 BLIND_DIR="$RUN_DIR/blind"
 LOG="$RUN_DIR/run_${RUN_ID}.log"
 

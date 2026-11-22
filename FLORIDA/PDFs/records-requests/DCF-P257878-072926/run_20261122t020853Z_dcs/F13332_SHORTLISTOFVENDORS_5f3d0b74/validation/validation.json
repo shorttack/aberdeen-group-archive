@@ -1,0 +1,48 @@
+{
+  "input_name": "F13332_SHORTLISTOFVENDORS.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "5f3d0b74d9bc19360edf0b416d84ce5745601b118fdcdcbaffeb23cf31ac293d",
+  "source_sha256_after": "5f3d0b74d9bc19360edf0b416d84ce5745601b118fdcdcbaffeb23cf31ac293d",
+  "source_unchanged": true,
+  "source_size": 25885,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74/staged/F13332_SHORTLISTOFVENDORS.pdf",
+  "staged_sha256": "5f3d0b74d9bc19360edf0b416d84ce5745601b118fdcdcbaffeb23cf31ac293d",
+  "pages_input": 1,
+  "pages_output": 1,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.261,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 1,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 728,
+  "sidecar_chars": 26,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74/ocr/F13332_SHORTLISTOFVENDORS.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74/staged/F13332_SHORTLISTOFVENDORS.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74/ocr/F13332_SHORTLISTOFVENDORS_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 728,
+      "text_after_default_chars": 728,
+      "text_after_layout_chars": 771,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

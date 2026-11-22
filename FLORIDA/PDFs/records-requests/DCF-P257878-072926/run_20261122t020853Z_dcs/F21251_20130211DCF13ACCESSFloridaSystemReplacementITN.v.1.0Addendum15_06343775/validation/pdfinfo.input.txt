@@ -1,0 +1,22 @@
+Title:           Microsoft Word - 20130116-DCF13-ACCESS Florida System Replacement ITN.v.1.0-Addendum 15
+Author:          chall
+Creator:         PScript5.dll Version 5.2.2
+Producer:        GPL Ghostscript 9.06
+CreationDate:    Fri Mar  1 09:19:03 2013 EST
+ModDate:         Fri Mar  1 09:19:03 2013 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       43275 bytes
+Optimized:       no
+PDF version:     1.4
+
+# pdfinfo.returncode=None

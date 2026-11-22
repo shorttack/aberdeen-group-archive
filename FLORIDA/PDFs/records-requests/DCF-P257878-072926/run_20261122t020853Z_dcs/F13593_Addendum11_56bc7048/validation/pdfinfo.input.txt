@@ -1,0 +1,19 @@
+Producer:        iText 2.1.5 (by lowagie.com)
+CreationDate:    Thu Jan 24 12:31:28 2013 EST
+ModDate:         Thu Jan 24 12:31:28 2013 EST
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       313815 bytes
+Optimized:       no
+PDF version:     1.4
+
+# pdfinfo.returncode=None

@@ -1,0 +1,22 @@
+Title:           ITN 03F12GC1 Addendum 2
+Author:          Florida Department of Children and Families
+Creator:         Microsoft® Word 2010
+Producer:        Microsoft® Word 2010
+CreationDate:    Fri Jul 20 09:40:14 2012 EDT
+ModDate:         Fri Jul 20 09:52:18 2012 EDT
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           8
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       457044 bytes
+Optimized:       no
+PDF version:     1.6
+
+# pdfinfo.returncode=None

@@ -1,0 +1,143 @@
+{
+  "input_name": "F31900_ITN03F12GC1Addendum2.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "4c80815c6108a5b29e5e3654972f4b6392b17d0755663985ae8cc6205b24c865",
+  "source_sha256_after": "4c80815c6108a5b29e5e3654972f4b6392b17d0755663985ae8cc6205b24c865",
+  "source_unchanged": true,
+  "source_size": 457044,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c/staged/F31900_ITN03F12GC1Addendum2.pdf",
+  "staged_sha256": "4c80815c6108a5b29e5e3654972f4b6392b17d0755663985ae8cc6205b24c865",
+  "pages_input": 8,
+  "pages_output": 8,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.304,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 9,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "This PDF contains structural markup (it is a Tagged PDF or carries a logical structure tree). This often indicates that the PDF was generated from an office document or is otherwise born digital, and does not need OCR. OCRmyPDF cannot rebuild this structure to match new text, so any page it re-OCRs with --force-ocr or --redo-ocr will have its structural markup discarded."
+      },
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "3 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "5 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "2 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "8 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "6 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "4 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "7 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 31119,
+  "sidecar_chars": 28,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c/ocr/F31900_ITN03F12GC1Addendum2.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c/staged/F31900_ITN03F12GC1Addendum2.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31900_ITN03F12GC1Addendum2_4c80815c/ocr/F31900_ITN03F12GC1Addendum2_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 4031,
+      "text_after_default_chars": 4031,
+      "text_after_layout_chars": 5226,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 2,
+      "text_before_chars": 2580,
+      "text_after_default_chars": 2580,
+      "text_after_layout_chars": 3968,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 3,
+      "text_before_chars": 2651,
+      "text_after_default_chars": 2651,
+      "text_after_layout_chars": 3099,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 4,
+      "text_before_chars": 4139,
+      "text_after_default_chars": 4139,
+      "text_after_layout_chars": 4434,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 5,
+      "text_before_chars": 4374,
+      "text_after_default_chars": 4374,
+      "text_after_layout_chars": 4640,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 6,
+      "text_before_chars": 4634,
+      "text_after_default_chars": 4634,
+      "text_after_layout_chars": 4952,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 7,
+      "text_before_chars": 3677,
+      "text_after_default_chars": 3677,
+      "text_after_layout_chars": 3976,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 8,
+      "text_before_chars": 5033,
+      "text_after_default_chars": 5033,
+      "text_after_layout_chars": 5670,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

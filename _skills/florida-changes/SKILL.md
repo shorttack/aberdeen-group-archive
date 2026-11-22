@@ -1,10 +1,10 @@
 ---
 name: florida-changes
-description: "Cache new evidence and required edits for Pete Kastner's FLORIDA System archive into PENDING-CHANGES.md instead of editing the published papers immediately. Use whenever new FLORIDA material arrives — a records-request response, an Auditor General or DOAH report, a court document, press coverage, an OCR of a scan, or Kastner's own analytical observation — and whenever he says 'log this', 'add to pending', 'run the pending changes', 'do the sweep', or asks what is outstanding on the FLORIDA archive. Prevents expensive per-item propagation across eight papers by batching corrections into scheduled sweeps."
+description: "Cache new evidence and required edits for Pete Kastner's FLORIDA System archive into PENDING-CHANGES.md instead of editing the published papers immediately. Use whenever new FLORIDA material arrives — a records-request response, an Auditor General or DOAH report, a court document, press coverage, an OCR of a scan or a completed OCR run folder, or Kastner's own analytical observation — and whenever he says 'log this', 'add to pending', 'run the pending changes', 'do the sweep', or asks what is outstanding on the FLORIDA archive. Prevents expensive per-item propagation across eight papers by batching corrections into scheduled sweeps."
 license: MIT
 metadata:
   author: peter-s-kastner
-  version: '1.2'
+  version: '1.3'
   perplexity:
     connectors:
       - id: github_mcp_direct
@@ -15,7 +15,7 @@ metadata:
 
 ## Why this exists
 
-The FLORIDA System archive is eight published papers plus a README, a SOURCES file, a chronology, a collection plan, and a records-requests log. A single new fact — a corrected attribution, a superseded cost figure — can touch five of them.
+The FLORIDA System archive is eight published papers — the main report (*The FLORIDA System: EDS, IBM, and the Collapse of a Landmark State Procurement*), *The Unisys Protests of RFP 88-74-BC*, *The Empty Center*, *One Bad RFP Away*, *One Model, Forty Years*, *Making It Workable*, the Webster Addendum, and *Processor Capacity Over Time* — plus support files: README, SOURCES, COLLECTION-PLAN, PENDING-CHANGES, records-request logs, findings notes (`AG-*-FINDINGS.md`, `DOAH-*`, `PRESENTMENT-1993-FINDINGS.md`, and others), and mirrored sources under `sources/`. A single new fact — a corrected attribution, a superseded cost figure — can touch five of them.
 
 Propagating each fact as it arrives is expensive and produces inconsistent state, because a partial propagation leaves some files saying the old thing. Batching is cheaper and auditable: one pass, one date, one report of what could not be resolved.
 
@@ -34,7 +34,9 @@ Do not load for FLORIDA work that creates no new claim and changes no existing o
 
 ## The file
 
-`~/Desktop/Archive/FLORIDA/PENDING-CHANGES.md`
+`~/Desktop/Archive/aberdeen-group-archive/FLORIDA/PENDING-CHANGES.md`
+
+The archive root is `~/Desktop/Archive/aberdeen-group-archive/FLORIDA/` (git repo `shorttack/aberdeen-group-archive`). The **`.md` files in that folder are the definitive source** — not older copies in the Project files, the sandbox, or the empty legacy folder `~/Desktop/Archive/FLORIDA/`. All paths below are relative to this root unless absolute.
 
 Working scaffolding. Excluded from any GitHub push unless a deliberate decision is made to publish the archive's revision history.
 
@@ -42,7 +44,7 @@ Its sections, in order:
 
 | § | Contents |
 |---|---|
-| 0 | **Blockers.** Conditions that make a sweep unsafe. Currently: two divergent copies of the corpus |
+| 0 | **Blockers.** Conditions that make a sweep unsafe. The two-divergent-copies blocker was resolved before the October 28, 2026 sweep; read the status line rather than assuming |
 | 1 | How to read the table |
 | 2 | **Pending** — three sub-tables: corrections to claims in print, new documentary facts, records-request state |
 | 3 | Open questions the evidence raises. Research leads, not edits |
@@ -57,48 +59,32 @@ Do these three things and stop.
 
 | Material | Destination |
 |---|---|
-| Source PDFs | `~/Desktop/Archive/FLORIDA/PDFs/` — Auditor General reports under `PDFs/auditor-general/` |
-| OCR transcriptions | `sources/auditor-general/` or the appropriate `sources/` subdirectory, as `<number>.md` |
-| Long structured extractions | `_working/` |
-| Manifest entries | Update the manifest in the destination folder |
+| Source PDFs | `PDFs/` — Auditor General reports under `PDFs/auditor-general/`, DOAH under `PDFs/DOAH/`, records responses under `PDFs/records-requests/`. **Do not create a new subfolder without asking.** **Large-file rule:** GitHub rejects files over 100 MB and `.gitignore` already excludes `PDFs/**/*_ocr.pdf`. A scan over ~90 MB stays in its preserved OCR run folder; record its absolute path and SHA-256 in SOURCES.md instead of copying it |
+| OCR transcriptions | `sources/auditor-general/`, `sources/courts/`, `sources/records-requests/`, as `<number>.md` or `<case>-<doc>-<date>-ocr.md`. Prepend a provenance header: run ID, source SHA-256, page parity, QA status, citation-verification status, and pages flagged |
+| Long structured extractions | `_working/` (does not exist yet — ask before creating) |
+| Manifest entries | SOURCES.md, and the manifest in the destination folder where one exists |
 
 Scanned PDFs need OCR before they are useful. **OCR runs on Pete's Mac, never in the sandbox.** See § 1a.
 
 ### 1a. OCR — always local
 
-**Standard, set August 24, 2026: OCR happens on the Mac.** Sandbox OCR costs credits for every page rendered and every page recognized, and it produces a worse artifact. The Mac has Tesseract 5.5.3, ocrmypdf 17.8.1, and Poppler already installed, twelve cores, and no per-page cost. Do not render PDFs to PNG in the sandbox and do not run Tesseract there. If the Mac is unreachable, say so and ask rather than silently falling back.
+**Standard, set August 24, 2026, and still in force: OCR happens on the Mac.** Never render PDFs or run Tesseract in the sandbox. If the Mac is unreachable, say so and ask.
 
-**The tool:** `~/Desktop/Archive/scripts/ocr_pdf_v1.sh`
+**The production runner (v2.2):** `~/Desktop/Memoirs/OpenCode/tools/florida/florida_ocr.py`, policy in `~/Desktop/Memoirs/OpenCode/.opencode/skills/florida-changes/references/production-ocr.md`. It replaces `~/Desktop/Archive/scripts/ocr_pdf_v1.sh`, which is legacy — do not use it for new material. Fixed OCRmyPDF profile (`--skip-text --oversample 300 --tesseract-pagesegmode 3 --optimize 0 --output-type pdf`), per-page Poppler extraction to `.md` and `.layout.md`, page-count parity, `qpdf --check`, source-unchanged check, run lock, never overwrite. It does not tune, choose models, or make citation claims. Long jobs are run by Pete in Terminal or OpenCode; the agent does not drive them.
 
-```
-ocr_pdf_v1.sh [-o DIR] [-j JOBS] [-p PARALLEL] [-l LANG] [-f] FILE_OR_DIR ...
-```
+**Intake from a completed run folder.** New scans arrive already processed under `~/Desktop/Memoirs/FLORIDA-documents/run_<timestamp>_prod/`. Before using one:
 
-Generalized from Pete's `~/ocr_run.sh`, which had its four inputs hardcoded. Same pipeline: ocrmypdf with `--skip-text --oversample 300 --optimize 1 --output-type pdf`, then per-page `pdftotext -layout` into Markdown with `## Page N` markers. Defaults are 3 files in parallel at 4 jobs each, tuned for the 12-core M4 Pro.
+1. Read `COMPLETION.json`. Require a completed status and `TECHNICAL_PASS`; record the run ID, completion time, and `citation_verification` value.
+2. Confirm a `PRESERVATION-RECEIPT-*.json` exists with its `.sha256`, and record the receipt ID. The durable run record is under `~/Desktop/Memoirs/OpenCode/florida-state/runs/<run>/`.
+3. Read `page-qa.csv` and `validation/`; list every flagged page, and every page whose layout text is much longer than its default text (two-column or tabular).
+4. Per document, under `<name>_<sha8>/ocr/`: `<name>_ocr.pdf` (searchable derivative), `<name>.md`, `<name>.layout.md`, `<name>.sidecar.txt` (diagnostic only), `ocrmypdf.stderr`. The unchanged original is in `_source-original/` and is the preservation master.
+5. Leave the run folder untouched. Copy, never move.
 
-Per input it emits:
+**Which text file to read.** The v1.2 guidance ("`.md` is reading order, `.layout.md` for tables only") was written for `ocr_pdf_v1.sh` and is **reversed for v2.2 output**: the default `.md` from per-page `pdftotext` can scramble word order on single-column typed pages (verified November 21, 2026 on the 1992 EDS complaint), while `.layout.md` keeps lines intact. Read `.layout.md` for prose and tables alike, and spot-check the default `.md` only for two-column pages. Neither replaces the page image.
 
-| File | Use |
-|---|---|
-| `<base>_ocr.pdf` | Searchable PDF — original images with a text layer. **This is the artifact to keep.** It makes the scan greppable and quotable forever; sandbox OCR never produced one |
-| `<base>.md` | Page-marked text in **reading order**. The default for reading and extraction |
-| `<base>.layout.md` | Page-marked text with column geometry preserved. For tabular pages only |
-| `<base>.sidecar.txt` | Raw Tesseract output; the source of `.md` |
-| `<base>.log`, `_manifest.tsv` | Run log and one row per file |
-
-**Why two text files, and why this matters.** These reports are two-column. `pdftotext -layout` preserves the geometry, which is correct for tables and actively wrong for prose — it interleaves the left and right columns onto the same physical line, producing sentences like "ation system that provides information and of controls relevant to the financial settlement of the." The first version of this script shipped with that defect and it was caught only by reading the output rather than trusting the exit code. Tesseract's own page segmentation gets reading order right, and ocrmypdf hands it over via `--sidecar` at no extra cost. **Verified August 24, 2026** on a six-page two-column report: 6 seconds, reading order clean, layout variant retained for the settlement tables.
+**Citation-grade rule.** `TECHNICAL_PASS` with `citation_verification: not_performed` means the text is usable for finding and drafting, **not for quoting**. Every quotation and figure taken from it is marked as unverified in the findings note and in the pending row's Source column (e.g. `Compl. Exh. B p. 44 (OCR, unverified)`), with a sweep precondition to check against the page image. Garbled regions are named by page.
 
 **Always read a sample of the output before using it.** Exit code zero means the pipeline ran, not that the text is usable.
-
-**The permission constraint that shapes the whole workflow.** The bridge's shell cannot write anywhere under `/Users/scott` — not the Desktop, not the home directory. It can write `/tmp`. `pc push` is unaffected and can write into the archive. So:
-
-1. `pc bash 'bash ~/Desktop/Archive/scripts/ocr_pdf_v1.sh <input.pdf>'` — output lands in `/tmp/ocr_out`
-2. `pc pull /tmp/ocr_out/<base>.md` into the sandbox
-3. `pc push` the Markdown to `sources/...` and the `_ocr.pdf` to `PDFs/...`
-
-When Pete runs it himself in Terminal, `-o` can point straight at the archive and steps 2 and 3 disappear.
-
-**Budget and timeouts.** `pc bash` caps at 95 seconds and the executor frequently stops responding on long jobs. A 142-page scan takes several minutes. For anything beyond roughly 40 pages, hand Pete the command rather than driving it — one line he pastes into Terminal, then tell him what to say when it finishes. Chasing a hung bridge costs more than waiting for him.
 
 **Step 2 — Write a findings note, but only if the material warrants analysis.**
 
@@ -119,7 +105,11 @@ One row per discrete change. Columns: `#`, `Change`, `Source`, `Targets`, `Prior
 - **Targets** — name the files. `ALL` means every published paper plus README.
 - **Priority** — `P1` a claim currently in print is wrong. `P2` a claim is under-supported or imprecise. `P3` additive, nothing currently wrong.
 
+**Numbering.** Use the next number not already used in PENDING-CHANGES.md **or** proposed in any brief or findings note (search the archive for `| <n> |` first). Skip and say so rather than collide.
+
 Update the status line at the top of the file: blockers, pending count, applied count.
+
+In a session where Kastner asks to review first, draft the findings note and rows in the sandbox and show them; write to the Mac only after approval. Commits wait for the end-of-session batch.
 
 **Then stop.** Do not edit the published papers.
 
@@ -155,18 +145,19 @@ These are Kastner's, learned from the archive's own errors. Apply them to every 
 
 ## 5. Working on the Mac
 
-The archive lives on Kastner's Mac. Use `pc` with `api_credentials=["pc"]`.
+The archive lives on Kastner's Mac mini (M5 Pro). Reach it through the Perplexity device tools (personal-computer skill), not the retired `pc` bridge.
 
-- The Mac shell is sandboxed: **no network access, and no writes anywhere under `/Users/scott`** — `mkdir` and `touch` both return "Operation not permitted" on the Desktop and in the home directory. `/tmp` and `/private/tmp` are writable. Download in the sandbox and `pc push` across; `pc push` has full permission and creates intermediate directories.
-- Consequently, anything that must *produce* files on the Mac either writes to `/tmp` and is pushed into place, or is delivered as a script for Pete to run himself. The second pattern is the house style — see his `kastner-eod` skill, which emits one self-verifying script rather than round-tripping through the bridge.
-- Edit large files by `pc pull` → edit in the sandbox → `pc push` back. Do not attempt many small `pc files edit` calls.
-- **The bridge times out often.** A `pc push` that returns a `mac_path` and a matching `size_bytes` succeeded even if the verification read afterward fails. Retry a push that returned nothing; do not retry one that returned a receipt.
-- Prefer working files in place over copying them off the device.
+- **Read** with the device shell (`bash_execute`); keep each output small — it truncates around 5 KB, so use `grep -c`, `head`, and `cut`, not `cat` on large files.
+- **The device shell can write only to `/tmp`** — `mkdir` or `cp` anywhere under `/Users/scott` fails with "Operation not permitted" (re-verified November 21, 2026). `transfer_file_from_sandbox` can write into existing archive folders. Anything that must be created or copied on the Mac itself — new folders, large PDFs — is delivered as one self-verifying script in `/tmp` for Pete to run in Terminal. `/tmp` is for session files only; permanent files go under `~/Desktop` (Archive or Memoirs), which is backed up. Agent scratch and review copies go to `~/Desktop/Archive/Perplexity_Only` without asking.
+- **Pull** a file into the sandbox with `share_local_file_with_sandbox`; **push** with `transfer_file_from_sandbox`. Edit large files in the sandbox and push back whole; do not make many small remote edits.
+- Verify every push by size or checksum on the Mac.
+- Do not touch unrelated uncommitted changes in the repo (check `git status` before writing; report, do not revert).
+- No run outputs inside `_skills/`. No new directories without asking. Commits and pushes only in the end-of-session batch.
 
 ## 6. Examples
 
 **A records response arrives with two report PDFs.**
-OCR both on the Mac with `ocr_pdf_v1.sh` — not in the sandbox. File the searchable PDFs under `PDFs/auditor-general/` and the transcriptions under `sources/auditor-general/`. Update the manifest. Write a findings note if the reports change what the archive believes. Append rows for each changed claim. Update the records-requests log with the response. Do not touch the papers.
+OCR both on the Mac with the v2.2 runner — not in the sandbox. File the searchable PDFs under `PDFs/auditor-general/` and the transcriptions under `sources/auditor-general/`. Update the manifest. Write a findings note if the reports change what the archive believes. Append rows for each changed claim. Update the records-requests log with the response. Do not touch the papers.
 
 **Kastner offers a technical reading of a configuration.**
 Record his observation verbatim, then assess it — supporting what the evidence supports, correcting what it does not, and saying which is which. Put it in the findings note under a heading that attributes it to him. Log any resulting edit as a pending row.
@@ -176,3 +167,6 @@ P1 row. Name the old figure, the new one, the source, and every file carrying th
 
 **Kastner says "run the pending changes."**
 Check § 0. Work the table. Verify each edit. Move rows to § 5. Report the unresolved.
+
+**A completed OCR run folder arrives (e.g. `run_20261121t161910Z_prod`, the 1992 EDS complaint).**
+Run the § 1a intake checks. Read `.layout.md`. Search the archive for every figure, date, and name the document touches and classify each hit P1/P2/P3. Draft the findings note (pleading allegations vs. attached exhibits kept separate; OCR-unverified figures marked) and the rows. Propose filing: transcript to `sources/courts/`, scan left in the preserved run folder if over the size limit, SOURCES.md entry. Show the drafts; file only on approval.

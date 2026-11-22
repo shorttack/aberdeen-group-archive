@@ -5,8 +5,8 @@ metadata:
   author: pete-kastner
   version: '1.4'
   created: '2026-06-02'
-  updated: '2026-09-28'
-  changelog: 'v1.4 (2026-09-28) records the workload-4 bakeoff verdict (Ollama qwen3.6:35b-mlx incumbent), updates Gate 6 so Ollama writes and Hybrid/PPLX never writes, and demotes sidecar/anchor pre-filters to a separate validation pass; v1.3 (2026-09-06) added workload-4 protocol requirements from the Hybrid smoke test; v1.2 (2026-06-14) rescales Pass C fixture to canonical 1-5 (matches master); v1.1 added Gate 0'
+  updated: '2026-10-13'
+  changelog: 'v1.5 (2026-10-13) records the M5 Pro 64GB re-run: Ollama qwen3.8:27b-mlx replaces qwen3.6:35b-mlx as workload-4 incumbent by Pete blind ranking; workloads 1-3 unchanged; v1.4 (2026-09-28) records the workload-4 bakeoff verdict (Ollama qwen3.6:35b-mlx incumbent), updates Gate 6 so Ollama writes and Hybrid/PPLX never writes, and demotes sidecar/anchor pre-filters to a separate validation pass; v1.3 (2026-09-06) added workload-4 protocol requirements from the Hybrid smoke test; v1.2 (2026-06-14) rescales Pass C fixture to canonical 1-5 (matches master); v1.1 added Gate 0'
   scope: kastner-aberdeen-archive
 ---
 
@@ -123,7 +123,23 @@ This gate has no judgment calls and no quality assessment. It exists purely to e
 | 4 | Cloud frontier/default | Secondary drafting/critique pool |
 | 5 | Ollama `qwen3.5:27b-mlx` | Removed from workload-4 contention; status in workloads 1-3 unchanged |
 
-No contestant passed every mechanical pre-filter (length, sidecar, coverage), so the ranking judges narrative quality, not protocol compliance. Enforce sidecars and citation anchors in a separate deterministic validation pass; do not require the writer to solve them. Pass criteria for future workload-4 candidates remain Pete's blind ranking against `qwen3.6:35b-mlx` as baseline-to-beat — not `run_gates.py`.
+No contestant passed every mechanical pre-filter (length, sidecar, coverage), so the ranking judges narrative quality, not protocol compliance. Enforce sidecars and citation anchors in a separate deterministic validation pass; do not require the writer to solve them. Pass criteria for future workload-4 candidates remain Pete's blind ranking against the current incumbent as baseline-to-beat — not `run_gates.py`.
+
+**Workload 4 verdict v2 (resolved 2026-10-13, M5 Pro 64GB, Ollama 0.40.3).** Run `m5_20261012T204214Z`, same locked dossier (sha256 `4c10262354dd…490d`), cloud and PPLX disabled. Gate 1 evidence for the candidate: IFBench 79.5 vs 69.1 for Qwen3.6 27B (Qwen model card), 77.7 independent rerun (NInfer), Artificial Analysis Intelligence Index 34 vs 18 for Qwen3.6 35B-A3B. Pete's blind ranking, which mixed this run's A/B/C with D/E from the 2026-09-06 run:
+
+| Rank | Draft | Contestant | Words | Coverage |
+|---:|---|---|--:|--:|
+| 1 | B (Oct) | Ollama `qwen3.8:27b-mlx` | 2,384 | 0.56 |
+| 2= | A (Oct) | Ollama `qwen3.6:35b-mlx` (prior incumbent, M5 baseline) | 2,013 | 0.56 |
+| 2= | E (Sep) | Cloud frontier/default | 1,900 | — |
+| 4 | C (Oct) | Ollama `gemma4:31b` | 879 (below 2,000 floor) | 0.0 |
+| 5 | D (Sep) | Ollama `qwen3.5:27b-mlx` | 777 | — |
+
+**New workload-4 incumbent: `qwen3.8:27b-mlx`.** `qwen3.6:35b-mlx` stays installed as the secondary drafting/critique pool. `gemma4:31b` is out of workload-4 contention (ignored the length instruction, no anchors). Sidecars 0/3 valid; anchor coverage tied — both remain separate deterministic passes. Pete approved a follow-up use on 2026-10-13: qwen3.8 outlined its own draft into `~/Desktop/Archive/Kastner_Only/database_decade_ch1_qwen38_outlined_20261013.md`, with all 20 paragraphs preserved verbatim.
+
+**Rollback (one line):** in this file, change the Gate 6 Ollama row's `workload 4 incumbent: qwen3.8:27b-mlx` back to `workload 4 incumbent: qwen3.6:35b-mlx`. No code constant holds the workload-4 model; `LOCAL_MODEL` in `_llm_helper_v4.py` (`qwen3.5:27b-mlx`) serves workloads 1-3 and was not touched.
+
+**Known prompt gaps that confound workload-4 runs (not yet fixed, fixture is LOCKED):** the prompt names `kastner_voice_prompt_v1.md` and README §5 by path but does not include their text, and it gives no chapter thesis or scope, so each model picks its own path through the six-chapter dossier. Any fix is a fixture change and needs a fresh incumbent baseline.
 
 **Workload-4 protocol requirements (v1.3, revised by the verdict).** The 2026-09-06 smoke test (`Perplexity_Only/SMOKE_TEST_local_model_2026-09-06.md`) set three requirements for every contestant:
 
@@ -272,7 +288,7 @@ For all families, prefer MLX-native tags over GGUF on Pete's M4 Pro Mac mini. ML
 
 | Runtime | What it is | Fits which workloads | Fixture history |
 |---|---|---|---|
-| **Ollama on Mac** | Direct Ollama server, MLX-native tags preferred, incumbent for all archive workloads | Phase 3, `kw_ask`, Pass C, and Kastner-voice narrative drafting (workload 4 incumbent: `qwen3.6:35b-mlx`). The only runtime with a locked fixture regime today. | Pass C has Layer-2 κ history at 0.331 (Qwen 3.5 27B MLX); workload 4 has the 2026-09-07 blind-ranking baseline. |
+| **Ollama on Mac** | Direct Ollama server, MLX-native tags preferred, incumbent for all archive workloads | Phase 3, `kw_ask`, Pass C, and Kastner-voice narrative drafting (workload 4 incumbent: `qwen3.8:27b-mlx`, since 2026-10-13). The only runtime with a locked fixture regime today. | Pass C has Layer-2 κ history at 0.331 (Qwen 3.5 27B MLX); workload 4 has the 2026-09-07 blind-ranking baseline. |
 | **Hybrid / PPLX** | Cloud-orchestrated with local model (PPLX Qwen 3.6 35B A3B MLX) invoked for gated steps. App-managed; no Terminal, no Ollama. | Interactive Computer sessions where cloud planning + one-shot local reads are the shape of the work. Not scriptable from `pipeline_canonical_v3.sh`. | Workload 4 only: ranked 3rd of 5 (2026-09-07). |
 | **Cloud** | Frontier cloud models via Computer | Orchestration, web and restricted-source retrieval, assimilation and QA, Phase 1/2 interpretive synthesis, secondary narrative critique over public archive content, any workload needing cross-archive breadth. | Not applicable to this skill's regime. |
 

@@ -1,0 +1,22 @@
+Title:           Microsoft Word - Addendum 5
+Author:          CLABORN-PEGGY
+Creator:         PScript5.dll Version 5.2.2
+Producer:        Acrobat Distiller 7.0.5 (Windows)
+CreationDate:    Tue Aug 14 16:40:23 2012 EDT
+ModDate:         Tue Aug 14 16:40:23 2012 EDT
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       8735 bytes
+Optimized:       yes
+PDF version:     1.4
+
+# pdfinfo.returncode=None

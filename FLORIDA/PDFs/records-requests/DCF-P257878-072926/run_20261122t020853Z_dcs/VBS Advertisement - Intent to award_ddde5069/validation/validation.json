@@ -1,0 +1,87 @@
+{
+  "input_name": "VBS Advertisement - Intent to award.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/VBS Advertisement - Intent to award_ddde5069",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "ddde50691731b5243298bbb93cb01404073cfc569530f93873f74c417941743b",
+  "source_sha256_after": "ddde50691731b5243298bbb93cb01404073cfc569530f93873f74c417941743b",
+  "source_unchanged": true,
+  "source_size": 420402,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/VBS Advertisement - Intent to award_ddde5069/staged/VBS Advertisement - Intent to award.pdf",
+  "staged_sha256": "ddde50691731b5243298bbb93cb01404073cfc569530f93873f74c417941743b",
+  "pages_input": 4,
+  "pages_output": 4,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.295,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 4,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "3 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "2 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "4 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 8981,
+  "sidecar_chars": 28,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar \"/tmp/FLORIDA/working/run_20261122t020853Z_dcs/VBS Advertisement - Intent to award_ddde5069/ocr/VBS Advertisement - Intent to award.sidecar.txt\" \"/tmp/FLORIDA/working/run_20261122t020853Z_dcs/VBS Advertisement - Intent to award_ddde5069/staged/VBS Advertisement - Intent to award.pdf\" \"/tmp/FLORIDA/working/run_20261122t020853Z_dcs/VBS Advertisement - Intent to award_ddde5069/ocr/VBS Advertisement - Intent to award_ocr.pdf\"",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 2877,
+      "text_after_default_chars": 2877,
+      "text_after_layout_chars": 4227,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 2,
+      "text_before_chars": 2646,
+      "text_after_default_chars": 2646,
+      "text_after_layout_chars": 3451,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 3,
+      "text_before_chars": 2395,
+      "text_after_default_chars": 2395,
+      "text_after_layout_chars": 3975,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 4,
+      "text_before_chars": 1063,
+      "text_after_default_chars": 1063,
+      "text_after_layout_chars": 2339,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

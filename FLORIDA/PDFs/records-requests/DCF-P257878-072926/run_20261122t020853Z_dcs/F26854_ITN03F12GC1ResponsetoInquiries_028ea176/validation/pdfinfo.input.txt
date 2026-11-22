@@ -1,0 +1,22 @@
+Title:           ITN #03F12GC1-Response to Inquiries v 1 0 (3).xls
+Author:          aloveland
+Creator:         PScript5.dll Version 5.2.2
+Producer:        GPL Ghostscript 8.64
+CreationDate:    Fri Jul 20 13:48:45 2012 EDT
+ModDate:         Fri Jul 20 13:48:45 2012 EDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           23
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        90
+File size:       131885 bytes
+Optimized:       no
+PDF version:     1.3
+
+# pdfinfo.returncode=None

@@ -1,0 +1,8 @@
+checking /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F13332_SHORTLISTOFVENDORS_5f3d0b74/ocr/F13332_SHORTLISTOFVENDORS_ocr.pdf
+PDF Version: 1.5
+File is not encrypted
+File is not linearized
+No syntax or stream encoding errors found; the file may still contain
+errors that qpdf cannot detect
+
+# qpdf.returncode=0

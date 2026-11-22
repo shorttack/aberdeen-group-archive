@@ -1,0 +1,334 @@
+{
+  "input_name": "F26854_ITN03F12GC1ResponsetoInquiries.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26854_ITN03F12GC1ResponsetoInquiries_028ea176",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "028ea176122dee92f9108e6b3f088ef6de71a35659ea1e955b1a1d3b1322e4f7",
+  "source_sha256_after": "028ea176122dee92f9108e6b3f088ef6de71a35659ea1e955b1a1d3b1322e4f7",
+  "source_unchanged": true,
+  "source_size": 131885,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26854_ITN03F12GC1ResponsetoInquiries_028ea176/staged/F26854_ITN03F12GC1ResponsetoInquiries.pdf",
+  "staged_sha256": "028ea176122dee92f9108e6b3f088ef6de71a35659ea1e955b1a1d3b1322e4f7",
+  "pages_input": 23,
+  "pages_output": 23,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.32,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 23,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "3 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "5 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "2 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "8 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "6 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "7 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "11 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "12 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "13 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "14 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "15 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "16 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "17 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "18 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "19 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "20 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "21 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "22 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "23 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "10 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "4 skipping all processing on this page"
+      },
+      {
+        "stream": "stderr",
+        "line": "9 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 91190,
+  "sidecar_chars": 29,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26854_ITN03F12GC1ResponsetoInquiries_028ea176/ocr/F26854_ITN03F12GC1ResponsetoInquiries.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26854_ITN03F12GC1ResponsetoInquiries_028ea176/staged/F26854_ITN03F12GC1ResponsetoInquiries.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F26854_ITN03F12GC1ResponsetoInquiries_028ea176/ocr/F26854_ITN03F12GC1ResponsetoInquiries_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 4507,
+      "text_after_default_chars": 4507,
+      "text_after_layout_chars": 9774,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 2,
+      "text_before_chars": 4379,
+      "text_after_default_chars": 4379,
+      "text_after_layout_chars": 9931,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 3,
+      "text_before_chars": 4692,
+      "text_after_default_chars": 4692,
+      "text_after_layout_chars": 9007,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 4,
+      "text_before_chars": 3828,
+      "text_after_default_chars": 3828,
+      "text_after_layout_chars": 8953,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 5,
+      "text_before_chars": 4016,
+      "text_after_default_chars": 4016,
+      "text_after_layout_chars": 9360,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 6,
+      "text_before_chars": 4175,
+      "text_after_default_chars": 4175,
+      "text_after_layout_chars": 8981,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 7,
+      "text_before_chars": 3678,
+      "text_after_default_chars": 3678,
+      "text_after_layout_chars": 7569,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 8,
+      "text_before_chars": 3291,
+      "text_after_default_chars": 3291,
+      "text_after_layout_chars": 7374,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 9,
+      "text_before_chars": 3876,
+      "text_after_default_chars": 3876,
+      "text_after_layout_chars": 8473,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 10,
+      "text_before_chars": 4368,
+      "text_after_default_chars": 4368,
+      "text_after_layout_chars": 11477,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 11,
+      "text_before_chars": 3059,
+      "text_after_default_chars": 3059,
+      "text_after_layout_chars": 6481,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 12,
+      "text_before_chars": 4459,
+      "text_after_default_chars": 4459,
+      "text_after_layout_chars": 9668,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 13,
+      "text_before_chars": 4237,
+      "text_after_default_chars": 4237,
+      "text_after_layout_chars": 9698,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 14,
+      "text_before_chars": 3855,
+      "text_after_default_chars": 3855,
+      "text_after_layout_chars": 8960,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 15,
+      "text_before_chars": 3838,
+      "text_after_default_chars": 3838,
+      "text_after_layout_chars": 8700,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 16,
+      "text_before_chars": 3565,
+      "text_after_default_chars": 3565,
+      "text_after_layout_chars": 7944,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 17,
+      "text_before_chars": 3435,
+      "text_after_default_chars": 3435,
+      "text_after_layout_chars": 7825,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 18,
+      "text_before_chars": 4030,
+      "text_after_default_chars": 4030,
+      "text_after_layout_chars": 10226,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 19,
+      "text_before_chars": 4524,
+      "text_after_default_chars": 4524,
+      "text_after_layout_chars": 10996,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 20,
+      "text_before_chars": 4212,
+      "text_after_default_chars": 4212,
+      "text_after_layout_chars": 10836,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 21,
+      "text_before_chars": 3511,
+      "text_after_default_chars": 3511,
+      "text_after_layout_chars": 7642,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 22,
+      "text_before_chars": 4088,
+      "text_after_default_chars": 4088,
+      "text_after_layout_chars": 8156,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    },
+    {
+      "page": 23,
+      "text_before_chars": 3567,
+      "text_after_default_chars": 3567,
+      "text_after_layout_chars": 8384,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

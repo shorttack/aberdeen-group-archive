@@ -1,0 +1,48 @@
+{
+  "input_name": "F31660_ReplyOpeningNoticeVBSv2.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31660_ReplyOpeningNoticeVBSv2_3bf0bb65",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "3bf0bb651225eeb109d91c5b13e2b19e8227f0dc3acca1db628e920f208ced39",
+  "source_sha256_after": "3bf0bb651225eeb109d91c5b13e2b19e8227f0dc3acca1db628e920f208ced39",
+  "source_unchanged": true,
+  "source_size": 11677,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31660_ReplyOpeningNoticeVBSv2_3bf0bb65/staged/F31660_ReplyOpeningNoticeVBSv2.pdf",
+  "staged_sha256": "3bf0bb651225eeb109d91c5b13e2b19e8227f0dc3acca1db628e920f208ced39",
+  "pages_input": 1,
+  "pages_output": 1,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.265,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 1,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 793,
+  "sidecar_chars": 26,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31660_ReplyOpeningNoticeVBSv2_3bf0bb65/ocr/F31660_ReplyOpeningNoticeVBSv2.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31660_ReplyOpeningNoticeVBSv2_3bf0bb65/staged/F31660_ReplyOpeningNoticeVBSv2.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F31660_ReplyOpeningNoticeVBSv2_3bf0bb65/ocr/F31660_ReplyOpeningNoticeVBSv2_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 793,
+      "text_after_default_chars": 793,
+      "text_after_layout_chars": 1222,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

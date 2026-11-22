@@ -1,0 +1,52 @@
+{
+  "input_name": "F19431_ITN03F12GC1Addendum3.pdf",
+  "output_dir": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F19431_ITN03F12GC1Addendum3_3e761eab",
+  "status": "TECHNICAL_PASS",
+  "source_sha256_before": "3e761eab322fb9136954235f678d0ae18f364e8e5c06b945531dfe012560da5b",
+  "source_sha256_after": "3e761eab322fb9136954235f678d0ae18f364e8e5c06b945531dfe012560da5b",
+  "source_unchanged": true,
+  "source_size": 72514,
+  "staged_path": "/tmp/FLORIDA/working/run_20261122t020853Z_dcs/F19431_ITN03F12GC1Addendum3_3e761eab/staged/F19431_ITN03F12GC1Addendum3.pdf",
+  "staged_sha256": "3e761eab322fb9136954235f678d0ae18f364e8e5c06b945531dfe012560da5b",
+  "pages_input": 1,
+  "pages_output": 1,
+  "ocr_returncode": 0,
+  "ocr_ok": true,
+  "ocr_elapsed_s": 0.271,
+  "ocr_error": null,
+  "ocr_timed_out": false,
+  "qpdf_check_ok": true,
+  "pdfinfo_output_ok": true,
+  "warnings_total": 2,
+  "logscan": {
+    "genuine_recognition": [],
+    "expected_skip_text": [],
+    "other_warningish": [
+      {
+        "stream": "stderr",
+        "line": "This PDF contains structural markup (it is a Tagged PDF or carries a logical structure tree). This often indicates that the PDF was generated from an office document or is otherwise born digital, and does not need OCR. OCRmyPDF cannot rebuild this structure to match new text, so any page it re-OCRs with --force-ocr or --redo-ocr will have its structural markup discarded."
+      },
+      {
+        "stream": "stderr",
+        "line": "1 skipping all processing on this page"
+      }
+    ]
+  },
+  "failed_reasons": [],
+  "review_reasons": [],
+  "total_after_chars": 3635,
+  "sidecar_chars": 26,
+  "ocr_cmd_rendered": "/opt/homebrew/bin/ocrmypdf --language eng --skip-text --oversample 300 --tesseract-pagesegmode 3 --jobs 4 --tesseract-timeout 300 --output-type pdf --optimize 0 --sidecar /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F19431_ITN03F12GC1Addendum3_3e761eab/ocr/F19431_ITN03F12GC1Addendum3.sidecar.txt /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F19431_ITN03F12GC1Addendum3_3e761eab/staged/F19431_ITN03F12GC1Addendum3.pdf /tmp/FLORIDA/working/run_20261122t020853Z_dcs/F19431_ITN03F12GC1Addendum3_3e761eab/ocr/F19431_ITN03F12GC1Addendum3_ocr.pdf",
+  "page_qa": [
+    {
+      "page": 1,
+      "text_before_chars": 3635,
+      "text_after_default_chars": 3635,
+      "text_after_layout_chars": 3839,
+      "extr_default_rc": 0,
+      "extr_layout_rc": 0,
+      "flags": "-"
+    }
+  ],
+  "note": "sidecar excludes pages that already carried text (--skip-text); rely on .md/.layout.md for full transcripts."
+}

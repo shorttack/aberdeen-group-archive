@@ -1,0 +1,22 @@
+Title:           Microsoft Word - 20120720-DCF10-ACCESS Florida Replacement ITN v 1 0-Addendum 5
+Author:          aloveland
+Creator:         OCRmyPDF 17.14.2 / OCRmyPDF fpdf2 + Tesseract OCR 5.5.4
+Producer:        pikepdf 10.18.2
+CreationDate:    Thu Sep  6 16:55:01 2012 EDT
+ModDate:         Sat Nov 21 22:00:08 2026 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       38390 bytes
+Optimized:       no
+PDF version:     1.5
+
+# pdfinfo.output.returncode=None

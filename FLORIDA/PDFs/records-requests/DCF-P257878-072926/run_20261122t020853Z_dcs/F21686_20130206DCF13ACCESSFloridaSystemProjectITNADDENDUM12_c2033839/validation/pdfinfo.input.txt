@@ -1,0 +1,20 @@
+Creator:         PDF24 Creator
+Producer:        GPL Ghostscript 9.06
+CreationDate:    Wed Feb  6 15:34:21 2013 EST
+ModDate:         Wed Feb  6 15:34:21 2013 EST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       108120 bytes
+Optimized:       no
+PDF version:     1.4
+
+# pdfinfo.returncode=None

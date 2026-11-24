@@ -2,6 +2,8 @@
 
 *Revised October 28, 2026. This revision corrects two claims carried in earlier versions: the 1993 grand jury was the Leon County grand jury, not a statewide grand jury; and the "$5.1 million" first CPU upgrade was a press figure that primary sources do not support. It adds the post-award centralization decision, the 1991–92 machine lineage, the grand jury's reading of the October 1991 memorandum, and Section 8a. Changes are logged in `PENDING-CHANGES.md` § 5.*
 
+*Revised November 23, 2026: adds Section 9, an epilogue recording Kastner's observation that FLORIDA had the service life of a building, with the 2012 replacement record that supports it (PENDING-CHANGES row 121).*
+
 An analytical case study of the Florida Department of Health and Rehabilitative Services (HRS) *Florida On-Line Recipient Integrated Data Access* (FLORIDA) system — one of the largest non-military transaction-processing applications attempted by a U.S. state government in the late 1980s.
 
 ---
@@ -185,6 +187,43 @@ Facts added to the record from Auditor General Reports 11178, 11619, 12061, 1258
 - **Who ran the shop afterward.** Unisys, the 1989 protester, held the FLORIDA programming-support agreement from September 22, 1995, amended thirteen times, with the ceiling raised from $41,513,980 to about $58,663,980 and the term extended to September 21, 1999, with 154 support staff (13287 pp. 38–39). Deloitte and Touche protested that award; a DOAH hearing officer found for the protester on May 12, 1995, and a substitute secretary from the Governor's office reversed on August 10, 1995 because the HRS Secretary was a material witness (12581 ¶¶18–21). The resemblance to 1989 is structural only; it was a different procurement in a different posture.
 - **What FLORIDA replaced.** The predecessor systems were batch-oriented with paper at both ends: MORS ran from a paper form through central keypunching in Jacksonville to a monthly tape and Comptroller-printed warrants, with no turnaround document (11178 ¶49); income-verification requests were "prepared manually, batched and forwarded for keypunching," with printouts mailed back (11619 Ex. E ¶¶54–57); the software package dated from 1976 and the Department said "the only accurate record keeping that can be done is outside the system" (11619 Ex. E ¶¶74–77). MORS paid 771 cases and 4,957 warrants, about $129,000, after the recipients' deaths; the quarterly death-record match promised on July 20, 1990 was still open in 1993 and 1995 (11619 ¶¶124, 128; 12061 Finding 9; 12581). These reports do not supply operational metrics that would show FLORIDA performed worse than what it replaced.
 - **A staffing claim to test before quoting.** The Department's response to 12061 Finding 7 cites "162.5% caseload growth from 1987–1992" against 3.7 percent staffing growth. Report 11178 ¶18 gives Economic Services 6,487.69 filled positions at June 30, 1987 and 11619 ¶22 gives 7,024.50 at June 30, 1989, about 8 percent in two years, which does not obviously square with 3.7 percent over five. The figure is the Department's framing of the quality-control error spike; it is not used here as a frame for the capacity failure.
+
+---
+
+## 9. Epilogue: a system with the life of a building
+
+*This section records an analytical observation by Peter S. Kastner, the archive's author, made November 23, 2026 after reading the 2012 replacement record. It is his judgment, not a finding of any auditor, court, or agency. The documentary facts under it are cited separately, and the inferences are labeled. The section runs past the paper's 1988–1996 frame on purpose.*
+
+### The observation
+
+When the Department of Children and Families moved to replace FLORIDA in 2012, the system had been running for twenty years and was planned to run four more. Kastner's reading of that fact:
+
+> "About the life of the HVAC equipment and the building itself. So build the site, have big loading [dock] doors for the upgrades, and hire staff for a [career]."
+
+The point is that a statewide eligibility system has the service life of a building's mechanical plant, not of a procurement. It should be planned the way a state plans a courthouse:
+- a site sized for decades;
+- physical access designed for repeated hardware replacement;
+- a permanent technical staff hired for careers, not rented through a series of contracts.
+
+HRS bought FLORIDA as a fixed-scope project. The record shows it lived as infrastructure.
+
+### What the record shows
+
+- **Service life.** DCF's 2012 Invitation to Negotiate states that FLORIDA was "Implemented in 1992" and was still "the legacy mainframe that provides core functionality for the ACCESS Florida System." Vendors were to describe how they would implement the replacement "by May 31, 2016" (DCF, ITN 03F12GC1 v1.0, June 22, 2012, PDF pp. 6–7). The incumbent was to support operations and maintenance "until the new system has been implemented and the ACCESS Florida System data has been archived or converted" (ITN 03F12GC1 Response to Inquiries, p. 17, Inquiry 127). That is a planned life of at least twenty-four years. When FLORIDA actually went out of service has not been established.
+- **Contract terms against service life.** The 1988 RFP bought a build and a facilities-management term. The 2012 contract was "expected to be three (3) years" (ITN, PDF p. 8), extended by Addendum 2 to May 31, 2017 (Addendum 2, p. 1). No contract in the record covered more than a fraction of the system's working life.
+- **Hardware came and went.** Section 4a traces the estate from the three-way processor the State bid to an eight-way flagship with a six-way machine beside it, within seven years. By 2012 the machines belonged to the Northwood Shared Resource Center: "Hardware is owned by the NSRC, and the Department does not control the refresh plan" (Response to Inquiries, p. 7, Inquiry 54).
+- **Staff were rented, contract by contract.** Programmers came first from Deloitte & Touche (June 1992). That contract ended in March 1995 with roughly 60 percent of the programming staff gone ([Advanced Systems Design v. Strawn (Fla. 1st DCA 1997)](https://caselaw.findlaw.com/court/fl-district-court-of-appeal/1203645.html); Appendix A). Unisys then held a programming-support agreement from September 22, 1995, amended thirteen times, with 154 support staff (13287 pp. 38–39). In 2012, "Deloitte Consulting currently provides operations and maintenance services for the ACCESS Florida System" (Response to Inquiries, p. 23, Inquiry 184), and in March 2013 DCF announced its intent to award Deloitte the replacement.
+- **The plant aged.** DCF's own 2012 assessment: "the most problematic technological issue is the underlying architecture of the FLORIDA mainframe which is inherently rigid and difficult to maintain," with "an ever-increasing risk of infrastructure failure due to the age of the mainframe" (ITN, PDF pp. 6, 51). The mainframe ran 12 LPARs with "on average 1 to 2 abends per day," and "several hundred open help desk tickets" (Response to Inquiries, p. 12, Inquiry 83).
+
+### Where the evidence stops
+
+- **Analogy, not evidence.** The HVAC and building comparison is Kastner's. Equipment and building life spans are general engineering knowledge, not facts in this archive.
+- **The data dictionary.** In 2012 the FLORIDA IMS data dictionary was "dated 1/31/2001" (Response to Inquiries, p. 6, Inquiry 47). An eleven-year-old dictionary is consistent with the loss of continuous in-house stewardship that the observation predicts. It does not prove staff turnover; that reading is inference.
+- **The turnover figure.** DCF's estimate of "approximately 15-16%" turnover (Response to Inquiries, p. 10, Inquiry 73) covers the Department's and its partners' workforce in the context of training: the people who used the system, not those who maintained it. It is not cited here as programmer turnover.
+
+*Sources for this section: Florida DCF, ITN 03F12GC1, ACCESS Florida System Replacement, v1.0 (June 22, 2012); ITN 03F12GC1 Response to Inquiries; ITN 03F12GC1 Addendum 2; Vendor Bid System notice of intent to award (March 8, 2013). All were produced by DCF under public-records request P257878-072926 and are held in the archive. See DCF-ITN-03F12GC1-FINDINGS.md and PENDING-CHANGES rows 111 and 121–122.*
+
+---
 
 # Appendix A — Remediation Measures, 1991–1997: Cost and Measured Effect
 
